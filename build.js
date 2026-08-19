@@ -126,7 +126,7 @@ function layout({ titel, beschreibung, inhalt, rel, pfad, jsonld }) {
 <meta name="description" content="${esc(beschreibung)}">
 <link rel="canonical" href="${SITE.baseUrl}/${pfad}">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='14' fill='%235F4B9E'/%3E%3Ctext x='50' y='68' font-size='58' text-anchor='middle' fill='white' font-family='Georgia'%3Eb%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="${rel}fonts.css">
 <link rel="stylesheet" href="${rel}style.css">
 ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld)}</script>` : ""}
 </head>
@@ -469,7 +469,7 @@ function seiteUeber() {
 <h2>Impressum</h2>
 <p class="leer">[Impressum vor Veröffentlichung ergänzen: Name, Anschrift, Kontakt — Pflicht nach § 5 DDG.]</p>
 <h2>Datenschutz</h2>
-<p>Diese Website setzt keine Cookies, lädt keine Tracker und speichert keine personenbezogenen Daten. Schriften werden von Google Fonts geladen; wer das vermeiden will, kann die Seite mit blockierten Drittanfragen nutzen — sie bleibt funktionsfähig. <span class="leer">[Vor Veröffentlichung: Fonts lokal einbinden und diesen Hinweis entfernen.]</span></p>
+<p>Diese Website setzt keine Cookies, lädt keine Tracker, bindet keine Drittanbieter-Dienste ein (auch Schriften werden lokal ausgeliefert) und speichert keine personenbezogenen Daten. Beim Aufruf fallen lediglich die technisch notwendigen Server-Logs des Hosters an.</p>
 </article>`;
   return layout({
     titel: "Über & Impressum | belegt.eu",
@@ -523,6 +523,10 @@ function main() {
 
   // Statisches
   fs.copyFileSync(path.join(SRC_DIR, "style.css"), path.join(OUT, "style.css"));
+  fs.copyFileSync(path.join(SRC_DIR, "fonts.css"), path.join(OUT, "fonts.css"));
+  fs.mkdirSync(path.join(OUT, "fonts"), { recursive: true });
+  for (const f of fs.readdirSync(path.join(SRC_DIR, "fonts")))
+    fs.copyFileSync(path.join(SRC_DIR, "fonts", f), path.join(OUT, "fonts", f));
   fs.writeFileSync(path.join(OUT, ".nojekyll"), "");
   fs.writeFileSync(path.join(OUT, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: ${SITE.baseUrl}/sitemap.xml\n`);
 

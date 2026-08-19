@@ -36,7 +36,7 @@ Eine Angabe ändern = JSON-Datei editieren, `geprueft`-Datum aktualisieren, neu 
 ## Vor dem Launch (offene Pflichten)
 
 - [ ] Impressum in `build.js` → `seiteUeber()` ausfüllen (§ 5 DDG)
-- [ ] Google Fonts lokal einbinden (DSGVO-sauber, Hinweis auf der Über-Seite entfernen)
+- [x] Google Fonts lokal einbinden — erledigt 19.08.2026 (`src/fonts/`, `src/fonts.css`, SIL-OFL-Lizenz)
 - [ ] E-Mail-Adresse `hallo@belegt.eu` einrichten (oder in `build.js` → `SITE.kontakt` ändern)
 - [ ] Domain belegt.eu registrieren
 
