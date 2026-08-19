@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://belegt.eu/sitemap.xml
+Sitemap: https://belegbar.eu/sitemap.xml

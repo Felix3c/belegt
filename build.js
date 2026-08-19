@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * belegt.eu — statischer Site-Generator, ohne Abhängigkeiten.
+ * belegbar.eu — statischer Site-Generator, ohne Abhängigkeiten.
  * Liest data/anbieter/*.json und guides/*.html, schreibt die fertige Site nach docs/.
  * Aufruf: node build.js
  */
@@ -16,10 +16,10 @@ const SRC_DIR = path.join(ROOT, "src");
 const OUT = path.join(ROOT, "docs");
 
 const SITE = {
-  name: "belegt.eu",
+  name: "belegbar.eu",
   claim: "Souveräne KI-Anbieter aus Europa. Jede Angabe mit Quelle und Prüfdatum.",
-  baseUrl: "https://belegt.eu",
-  kontakt: "hallo@belegt.eu",
+  baseUrl: "https://belegbar.eu",
+  kontakt: "hallo@belegbar.eu",
 };
 
 const KATEGORIE_LABEL = {
@@ -134,7 +134,7 @@ ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld)}</script
 <a class="skip" href="#inhalt">Zum Inhalt springen</a>
 <header class="kopf">
   <div class="shell kopf-innen">
-    <a class="marke" href="${rel}"><span class="marke-wort">belegt</span><span class="marke-tld">.eu</span></a>
+    <a class="marke" href="${rel}"><span class="marke-wort">belegbar</span><span class="marke-tld">.eu</span></a>
     <nav aria-label="Hauptnavigation">${nav}</nav>
   </div>
 </header>
@@ -143,7 +143,7 @@ ${inhalt}
 </main>
 <footer class="fuss">
   <div class="shell">
-    <p><strong>belegt.eu</strong> — ${esc(SITE.claim)}</p>
+    <p><strong>belegbar.eu</strong> — ${esc(SITE.claim)}</p>
     <p>Statusstufen: <span class="status s-belegt"><span class="dot"></span>belegt</span> = Primärquelle verlinkt · <span class="status s-beansprucht"><span class="dot"></span>beansprucht</span> = Anbieterangabe ohne Dokument · <span class="status s-unbelegt"><span class="dot"></span>unbelegt</span> = keine belastbare Angabe gefunden. Details in der <a href="${rel}methodik/">Methodik</a>.</p>
     <p>Keine Rechtsberatung. Fehler gefunden? <a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a> · <a href="${rel}ueber/">Impressum &amp; Über</a></p>
   </div>
@@ -245,14 +245,14 @@ function seiteIndex(providers) {
   const jsonld = {
     "@context": "https://schema.org",
     "@type": "Dataset",
-    name: "belegt.eu — Evidenz-Datenbank europäischer KI-Anbieter",
+    name: "belegbar.eu — Evidenz-Datenbank europäischer KI-Anbieter",
     description: SITE.claim,
     url: SITE.baseUrl,
-    creator: { "@type": "Organization", name: "belegt.eu" },
+    creator: { "@type": "Organization", name: "belegbar.eu" },
   };
 
   return layout({
-    titel: "belegt.eu — Souveräne KI-Anbieter aus Europa, mit Quelle und Prüfdatum",
+    titel: "belegbar.eu — Souveräne KI-Anbieter aus Europa, mit Quelle und Prüfdatum",
     beschreibung: `${providers.length} europäische KI-Anbieter im Vergleich: Hosting, Preise, AVV, Zertifikate, AI-Act-Nachweise — jede Angabe belegt oder ehrlich als unbelegt markiert.`,
     inhalt, rel: "./", pfad: "", jsonld,
   });
@@ -331,7 +331,7 @@ function seiteAnbieter(p) {
 </article>`;
 
   return layout({
-    titel: `${p.name} — DSGVO, Hosting, Preise & Zertifikate im Beleg-Check | belegt.eu`,
+    titel: `${p.name} — DSGVO, Hosting, Preise & Zertifikate im Beleg-Check | belegbar.eu`,
     beschreibung: `${p.name}: ${p.kurzbeschreibung || ""} Beleg-Quote ${quote} %. Alle Angaben mit Quelle und Prüfdatum.`,
     inhalt, rel: "../../", pfad: `anbieter/${p.id}/`,
   });
@@ -371,7 +371,7 @@ function seiteVergleich(a, b) {
 </table></div>`;
 
   return layout({
-    titel: `${a.name} vs. ${b.name}: DSGVO, Preise, Zertifikate | belegt.eu`,
+    titel: `${a.name} vs. ${b.name}: DSGVO, Preise, Zertifikate | belegbar.eu`,
     beschreibung: `${a.name} oder ${b.name}? Direkter Vergleich mit belegten Quellen: AVV, Hosting, Preise, Zertifikate, AI-Act-Nachweise.`,
     inhalt, rel: "../../", pfad: `vergleich/${a.id}-vs-${b.id}/`,
   });
@@ -386,7 +386,7 @@ function seiteVergleichIndex(paare) {
 <p>Jeder Vergleich stellt zwei Anbieter derselben Kategorie Feld für Feld gegenüber — mit Beleg-Status pro Angabe.</p>
 <ul class="vergleich-liste">${liste}</ul>`;
   return layout({
-    titel: "Anbieter-Direktvergleiche | belegt.eu",
+    titel: "Anbieter-Direktvergleiche | belegbar.eu",
     beschreibung: "Europäische KI-Anbieter im direkten Vergleich: AVV, Hosting, Preise, Zertifikate — jede Angabe mit Beleg-Status.",
     inhalt, rel: "../", pfad: "vergleich/",
   });
@@ -401,7 +401,7 @@ function seiteRatgeber(guides) {
 <p>Kompakte Orientierung zu DSGVO, AI Act und Zertifikaten beim Einsatz von KI-Anbietern — geschrieben für Entscheider, nicht für Juristen. Keine Rechtsberatung.</p>
 <ul class="ratgeber-liste">${liste}</ul>`;
   return layout({
-    titel: "Ratgeber: DSGVO, AI Act & Zertifikate für KI-Einsatz | belegt.eu",
+    titel: "Ratgeber: DSGVO, AI Act & Zertifikate für KI-Einsatz | belegbar.eu",
     beschreibung: "Verständliche Guides zu AI-Act-Pflichten, DSGVO-konformer KI-Nutzung, CLOUD Act und KI-Zertifikaten.",
     inhalt, rel: "../", pfad: "ratgeber/",
   });
@@ -420,10 +420,10 @@ ${g.html}
     headline: g.titel,
     description: g.beschreibung,
     inLanguage: "de",
-    publisher: { "@type": "Organization", name: "belegt.eu" },
+    publisher: { "@type": "Organization", name: "belegbar.eu" },
   };
   return layout({
-    titel: `${g.titel} | belegt.eu`,
+    titel: `${g.titel} | belegbar.eu`,
     beschreibung: g.beschreibung,
     inhalt, rel: "../../", pfad: `ratgeber/${g.slug}/`, jsonld,
   });
@@ -433,7 +433,7 @@ function seiteMethodik() {
   const inhalt = `
 <article class="artikel">
 <h1>Methodik: Was „belegt“ bei uns heißt</h1>
-<p>belegt.eu ist eine Evidenz-Datenbank, keine Bestenliste. Wir bewerten nicht, wir belegen — und wo wir nichts belegen können, sagen wir das.</p>
+<p>belegbar.eu ist eine Evidenz-Datenbank, keine Bestenliste. Wir bewerten nicht, wir belegen — und wo wir nichts belegen können, sagen wir das.</p>
 
 <h2>Die drei Statusstufen</h2>
 ${belegZeile("belegt", "Die Angabe ist durch ein Primärdokument oder eine offizielle, konkrete Anbieterseite nachgewiesen — Vertragsdokument, Audit-Zertifikat, Preisliste, Subprozessorenliste. Die Quelle ist direkt verlinkt.", { status: "belegt" }, null)}
@@ -450,11 +450,11 @@ ${belegZeile("unbelegt", "Wir haben keine belastbare Angabe gefunden. Auch das i
 <p>Anbieter, die uns fehlende Nachweise direkt zusenden, erhalten den Verified-Status mit Datum. Die Aufnahme in die Datenbank selbst ist unabhängig davon und nicht käuflich.</p>
 
 <h2>Unabhängigkeit</h2>
-<p>belegt.eu betreibt keine eigene KI-Infrastruktur und ist an keinem gelisteten Anbieter beteiligt. Etwaige künftige Sponsorings werden als solche gekennzeichnet und haben keinen Einfluss auf Statusbewertungen.</p>
+<p>belegbar.eu betreibt keine eigene KI-Infrastruktur und ist an keinem gelisteten Anbieter beteiligt. Etwaige künftige Sponsorings werden als solche gekennzeichnet und haben keinen Einfluss auf Statusbewertungen.</p>
 </article>`;
   return layout({
-    titel: "Methodik — was „belegt“ heißt | belegt.eu",
-    beschreibung: "Wie belegt.eu prüft: die drei Statusstufen belegt/beansprucht/unbelegt, die Beleg-Quote und der Umgang mit Korrekturen.",
+    titel: "Methodik — was „belegt“ heißt | belegbar.eu",
+    beschreibung: "Wie belegbar.eu prüft: die drei Statusstufen belegt/beansprucht/unbelegt, die Beleg-Quote und der Umgang mit Korrekturen.",
     inhalt, rel: "../", pfad: "methodik/",
   });
 }
@@ -462,8 +462,8 @@ ${belegZeile("unbelegt", "Wir haben keine belastbare Angabe gefunden. Auch das i
 function seiteUeber() {
   const inhalt = `
 <article class="artikel">
-<h1>Über belegt.eu</h1>
-<p>Seit dem 2. August 2026 wird der EU AI Act mit Bußgeldern durchgesetzt. Gleichzeitig werben Dutzende europäische KI-Anbieter mit „souverän“ und „DSGVO-konform“ — aber wer das prüfen will, findet Marketing statt Dokumente. belegt.eu schließt diese Lücke: eine neutrale Datenbank, in der jede Angabe eine Quelle und ein Prüfdatum hat.</p>
+<h1>Über belegbar.eu</h1>
+<p>Seit dem 2. August 2026 wird der EU AI Act mit Bußgeldern durchgesetzt. Gleichzeitig werben Dutzende europäische KI-Anbieter mit „souverän“ und „DSGVO-konform“ — aber wer das prüfen will, findet Marketing statt Dokumente. belegbar.eu schließt diese Lücke: eine neutrale Datenbank, in der jede Angabe eine Quelle und ein Prüfdatum hat.</p>
 <h2>Kontakt</h2>
 <p><a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a></p>
 <h2>Impressum</h2>
@@ -472,8 +472,8 @@ function seiteUeber() {
 <p>Diese Website setzt keine Cookies, lädt keine Tracker, bindet keine Drittanbieter-Dienste ein (auch Schriften werden lokal ausgeliefert) und speichert keine personenbezogenen Daten. Beim Aufruf fallen lediglich die technisch notwendigen Server-Logs des Hosters an.</p>
 </article>`;
   return layout({
-    titel: "Über & Impressum | belegt.eu",
-    beschreibung: "Warum es belegt.eu gibt, wer dahinter steht und wie Sie uns erreichen.",
+    titel: "Über & Impressum | belegbar.eu",
+    beschreibung: "Warum es belegbar.eu gibt, wer dahinter steht und wie Sie uns erreichen.",
     inhalt, rel: "../", pfad: "ueber/",
   });
 }

@@ -5,11 +5,11 @@ Empfänger: Gründer direkt (LinkedIn/hello@) bei Startups; Presse-/Partnerkonta
 
 ---
 
-**Betreff:** [Anbietername] ist auf belegt.eu gelistet — zwei Angaben konnten wir nicht belegen
+**Betreff:** [Anbietername] ist auf belegbar.eu gelistet — zwei Angaben konnten wir nicht belegen
 
 Hallo [Vorname],
 
-ich baue belegt.eu — eine neutrale Evidenz-Datenbank für europäische KI-Anbieter. Anders als die üblichen Listen dokumentieren wir jede Angabe mit Quelle und Prüfdatum: AVV, Subprozessoren, Hosting-Standorte, Zertifikate, AI-Act-Nachweise. Datenschutzbeauftragte und Verwaltungen nutzen so etwas als Vorprüfung vor der Anbieterwahl.
+ich baue belegbar.eu — eine neutrale Evidenz-Datenbank für europäische KI-Anbieter. Anders als die üblichen Listen dokumentieren wir jede Angabe mit Quelle und Prüfdatum: AVV, Subprozessoren, Hosting-Standorte, Zertifikate, AI-Act-Nachweise. Datenschutzbeauftragte und Verwaltungen nutzen so etwas als Vorprüfung vor der Anbieterwahl.
 
 [Anbietername] ist bereits drin: [Profil-Link]
 
@@ -24,7 +24,7 @@ Und falls die Daten irgendwo schlicht falsch sind: sagt es uns, wir korrigieren 
 
 Viele Grüße
 Felix
-belegt.eu — Souveräne KI-Anbieter aus Europa, jede Angabe mit Quelle und Prüfdatum
+belegbar.eu — Souveräne KI-Anbieter aus Europa, jede Angabe mit Quelle und Prüfdatum
 
 ---
 

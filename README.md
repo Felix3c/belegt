@@ -1,4 +1,4 @@
-# belegt.eu
+# belegbar.eu
 
 **Souveräne KI-Anbieter aus Europa. Jede Angabe mit Quelle und Prüfdatum.**
 
@@ -31,15 +31,15 @@ Eine Angabe ändern = JSON-Datei editieren, `geprueft`-Datum aktualisieren, neu 
 
 1. Repo auf GitHub anlegen (z. B. `belegt`), dieses Verzeichnis pushen.
 2. Repo-Settings → Pages → Source: „Deploy from a branch“, Branch `main`, Ordner `/docs`.
-3. Eigene Domain (belegt.eu): in Pages-Settings als Custom Domain eintragen und beim Registrar einen CNAME auf `<username>.github.io` setzen; danach eine Datei `docs/CNAME` mit Inhalt `belegt.eu` erzeugen lassen (in `build.js` ergänzen, damit sie den Build überlebt).
+3. Eigene Domain (belegbar.eu): in Pages-Settings als Custom Domain eintragen und beim Registrar einen CNAME auf `<username>.github.io` setzen; danach eine Datei `docs/CNAME` mit Inhalt `belegbar.eu` erzeugen lassen (in `build.js` ergänzen, damit sie den Build überlebt).
 
 ## Vor dem Launch (offene Pflichten)
 
 - [ ] Impressum in `build.js` → `seiteUeber()` ausfüllen (§ 5 DDG)
 - [x] Google Fonts lokal einbinden — erledigt 19.08.2026 (`src/fonts/`, `src/fonts.css`, SIL-OFL-Lizenz)
-- [ ] E-Mail-Adresse `hallo@belegt.eu` einrichten (oder in `build.js` → `SITE.kontakt` ändern)
-- [ ] Domain belegt.eu registrieren
+- [ ] E-Mail-Adresse `hallo@belegbar.eu` einrichten (oder in `build.js` → `SITE.kontakt` ändern)
+- [ ] Domain belegbar.eu registrieren
 
 ## Lizenz
 
-Daten: CC BY 4.0 (Namensnennung „belegt.eu“). Code: MIT.
+Daten: CC BY 4.0 (Namensnennung „belegbar.eu“). Code: MIT.
