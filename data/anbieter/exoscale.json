@@ -1,0 +1,28 @@
+{
+  "id": "exoscale",
+  "name": "Exoscale",
+  "kategorie": "cloud",
+  "kurzbeschreibung": "Schweizer Cloud-Anbieter (Akenes SA, Lausanne) im Besitz von A1 Digital/A1 Telekom Austria Group (Mehrheitseigner: América Móvil, MX) mit rein europäischen Zonen; KI-Angebot ist heute GPU-/Dedicated-Inference-Infrastruktur, die tokenbasierte Managed Inference ist angekündigt.",
+  "stammdaten": { "sitz": "Lausanne, Schweiz", "land": "CH", "mutterkonzern": "A1 Digital / A1 Telekom Austria Group (Mehrheitseigner: América Móvil, MX)", "us_eigner": false, "gegruendet": 2011, "website": "https://www.exoscale.com" },
+  "modelle": [
+    { "name": "gpt-oss-120b (Dedicated Inference)", "standort": "Wien (AT), Genf (CH), Frankfurt (DE), Zagreb (HR)", "preis_input_1m_eur": null, "preis_output_1m_eur": null, "quelle": "https://www.exoscale.com/ai-cloud-infrastructure/dedicated-inference/", "status": "belegt", "anmerkung": "Kein Tokenpreis: Abrechnung pro GPU-Sekunde (z.B. A5000 1,34 €/h); beliebige Hugging-Face-Modelle deploybar" },
+    { "name": "Qwen3-Coder-480B (Dedicated Inference)", "standort": "Wien (AT), Genf (CH), Frankfurt (DE), Zagreb (HR)", "preis_input_1m_eur": null, "preis_output_1m_eur": null, "quelle": "https://www.exoscale.com/ai-cloud-infrastructure/dedicated-inference/", "status": "belegt", "anmerkung": "Kein Tokenpreis, GPU-Sekundenabrechnung" },
+    { "name": "Managed Inference (Modellkatalog)", "standort": "EU und Schweiz (geplant)", "preis_input_1m_eur": null, "preis_output_1m_eur": null, "quelle": "https://www.exoscale.com/ai-cloud-infrastructure/managed-inference/", "status": "beansprucht", "anmerkung": "Pay-per-Token-Dienst angekündigt (Warteliste); Preise werden erst zum Launch veröffentlicht" }
+  ],
+  "vertrag": {
+    "avv": { "wert": "https://www.exoscale.com/dpa/", "status": "belegt", "quelle": "https://www.exoscale.com/dpa/", "anmerkung": "DSGVO-konformes DPA der Akenes SA; Datentransfers auf CH/EU/EWR bzw. Angemessenheitsländer beschränkt, Löschung binnen 10 Werktagen nach Vertragsende" },
+    "subprozessoren": { "wert": "https://www.exoscale.com/dpa/", "status": "belegt", "quelle": "https://www.exoscale.com/dpa/", "anmerkung": "Keine separate Liste; genehmigte Subprozessoren sind Bestandteil des DPA (aktuell Aiven Oy, Helsinki, für DBaaS); Änderungen mit 30 Tagen Vorankündigung und Widerspruchsrecht" },
+    "training_opt_out": { "wert": null, "status": "unbelegt", "quelle": null, "anmerkung": "Als IaaS-Anbieter betreibt Exoscale keine eigenen Modelle; keine dokumentierte Trainings-Aussage auffindbar (Managed Inference noch nicht gestartet)" },
+    "zero_data_retention": { "wert": null, "status": "unbelegt", "quelle": null, "anmerkung": "Keine ZDR-Zusage dokumentiert; Dedicated Inference wirbt mit dedizierter Umgebung ('dedicated down to logs and GPU memory'), das ersetzt aber keine Retention-Policy" }
+  },
+  "zertifikate": [
+    { "typ": "ISO 27001", "status": "belegt", "quelle": "https://community.exoscale.com/platform/compliance/", "anmerkung": "ISO/IEC 27001:2022, zertifiziert seit 2018; Reports im Compliance Center (NDA)" },
+    { "typ": "SOC 2 Type II", "status": "belegt", "quelle": "https://community.exoscale.com/platform/compliance/", "anmerkung": "" },
+    { "typ": "BSI C5", "status": "belegt", "quelle": "https://community.exoscale.com/platform/compliance/", "anmerkung": "C5:2020 Typ 2" },
+    { "typ": "TISAX Level 2", "status": "belegt", "quelle": "https://community.exoscale.com/platform/compliance/", "anmerkung": "Zusätzlich HDS (Scope 1–4 und 6) und CSA STAR" }
+  ],
+  "ai_act": [
+    { "pflicht": "GPAI Code of Practice unterzeichnet", "status": "unbelegt", "quelle": null, "anmerkung": "Kein GPAI-Modellanbieter (reine Infrastruktur); eigene AI-Act-Dokumentation nicht auffindbar" }
+  ],
+  "geprueft": "2026-08-19"
+}

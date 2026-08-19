@@ -1,0 +1,30 @@
+{
+  "id": "mistral",
+  "name": "Mistral AI (La Plateforme)",
+  "kategorie": "modell-anbieter",
+  "kurzbeschreibung": "Französischer KI-Modellanbieter mit eigener Inferenz-API (La Plateforme), die standardmäßig in der EU gehostet wird und offene wie proprietäre Mistral-Modelle bereitstellt.",
+  "stammdaten": { "sitz": "Paris, Frankreich", "land": "FR", "mutterkonzern": null, "us_eigner": false, "gegruendet": 2023, "website": "https://mistral.ai" },
+  "modelle": [
+    { "name": "Mistral Large 3", "standort": "EU (Standard-Endpoint; US nur per Opt-in)", "preis_input_1m_eur": 0.5, "preis_output_1m_eur": 1.5, "quelle": "https://mistral.ai/pricing/api", "status": "belegt", "anmerkung": "Preis in USD" },
+    { "name": "Mistral Medium 3.5", "standort": "EU (Standard-Endpoint; US nur per Opt-in)", "preis_input_1m_eur": 1.5, "preis_output_1m_eur": 7.5, "quelle": "https://mistral.ai/pricing/api", "status": "belegt", "anmerkung": "Preis in USD" },
+    { "name": "Mistral Small 4", "standort": "EU (Standard-Endpoint; US nur per Opt-in)", "preis_input_1m_eur": 0.15, "preis_output_1m_eur": 0.6, "quelle": "https://mistral.ai/pricing/api", "status": "belegt", "anmerkung": "Preis in USD" },
+    { "name": "Codestral", "standort": "EU (Standard-Endpoint; US nur per Opt-in)", "preis_input_1m_eur": 0.3, "preis_output_1m_eur": 0.9, "quelle": "https://mistral.ai/pricing/api", "status": "belegt", "anmerkung": "Preis in USD" },
+    { "name": "Ministral 3 (8B)", "standort": "EU (Standard-Endpoint; US nur per Opt-in)", "preis_input_1m_eur": 0.15, "preis_output_1m_eur": 0.15, "quelle": "https://mistral.ai/pricing/api", "status": "belegt", "anmerkung": "Preis in USD; auch als 3B und 14B verfügbar" }
+  ],
+  "vertrag": {
+    "avv": { "wert": "https://legal.mistral.ai/terms/data-processing-addendum", "status": "belegt", "quelle": "https://legal.mistral.ai/terms", "anmerkung": "Öffentliches Data Processing Addendum (wirksam 27.07.2026), inkl. SCC-Regelung für Drittlandtransfers." },
+    "subprozessoren": { "wert": "https://trust.mistral.ai/subprocessors", "status": "belegt", "quelle": "https://help.mistral.ai/en/articles/455208-who-are-your-subprocessors-and-how-can-i-stay-updated-on-changes", "anmerkung": "URL im DPA (Abschnitt 7.1) und Help Center offiziell benannt, mit Benachrichtigungs-Abo; Trust-Center-Seite ist JS-gerendert, Einträge nicht maschinell auslesbar." },
+    "training_opt_out": { "wert": true, "status": "belegt", "quelle": "https://docs.mistral.ai/admin/monitor-comply/privacy-data-controls", "anmerkung": "'API: data sent through the API isn't used for model training' (Standard). Ausnahme: experimentelle Labs-Modelle erlauben Training unabhängig vom Opt-out." },
+    "zero_data_retention": { "wert": true, "status": "belegt", "quelle": "https://docs.mistral.ai/admin/monitor-comply/privacy-data-controls", "anmerkung": "ZDR nur im Scale-Plan und nur für zustandslose API-Aufrufe (Chat, Embeddings, Moderation, OCR, Audio); Standard ohne ZDR: 30 Tage Retention für Abuse-Monitoring." }
+  },
+  "zertifikate": [
+    { "typ": "ISO 27001", "status": "belegt", "quelle": "https://help.mistral.ai/en/articles/347638-do-you-have-soc-2-or-iso-27001-certification", "anmerkung": "Offizielle Aussage: SOC 2 Type II und ISO 27001/27701; Report nur auf Anfrage über Trust Center." },
+    { "typ": "SOC 2 Type II", "status": "belegt", "quelle": "https://help.mistral.ai/en/articles/347638-do-you-have-soc-2-or-iso-27001-certification", "anmerkung": "Report sales-gated, Zugang via Trust Center anfragbar." },
+    { "typ": "ISO 27701", "status": "belegt", "quelle": "https://help.mistral.ai/en/articles/347638-do-you-have-soc-2-or-iso-27001-certification", "anmerkung": "Datenschutz-Erweiterung zu ISO 27001." }
+  ],
+  "ai_act": [
+    { "pflicht": "GPAI Code of Practice unterzeichnet", "status": "belegt", "quelle": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai", "anmerkung": "Mistral AI ist auf der offiziellen Signatoren-Liste der EU-Kommission namentlich aufgeführt." },
+    { "pflicht": "Art.-53-Transparenzdokumentation (Model Documentation Form) veröffentlicht", "status": "unbelegt", "quelle": null, "anmerkung": "Als CoP-Signatar verpflichtet, ein konkretes veröffentlichtes Dokument wurde aber nicht gefunden." }
+  ],
+  "geprueft": "2026-08-19"
+}

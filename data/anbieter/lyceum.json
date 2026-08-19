@@ -1,0 +1,29 @@
+{
+  "id": "lyceum",
+  "name": "Lyceum Technology",
+  "kategorie": "inference-api",
+  "kurzbeschreibung": "Berliner GPU-Cloud-Startup (gegründet 2025, 10,3 Mio. € Pre-Seed) mit Serverless-Inference auf 30+ Open-Source-Modellen in EU-Rechenzentren — transparent bei Zertifikaten: hält nach eigener Aussage aktuell weder C5 noch ISO 27001 noch SOC 2.",
+  "stammdaten": { "sitz": "Berlin, Deutschland", "land": "DE", "mutterkonzern": null, "us_eigner": false, "gegruendet": 2025, "website": "https://lyceum.technology" },
+  "modelle": [
+    { "name": "DeepSeek V4 Pro", "standort": "EU (u.a. Frankreich, Deutschland, Dänemark)", "preis_input_1m_eur": 1.75, "preis_output_1m_eur": 3.50, "quelle": "https://lyceum.technology/products/inference/models/", "status": "belegt", "anmerkung": "Preis in USD" },
+    { "name": "DeepSeek V3.2", "standort": "EU (u.a. Frankreich, Deutschland, Dänemark)", "preis_input_1m_eur": 0.30, "preis_output_1m_eur": 0.45, "quelle": "https://lyceum.technology/products/inference/models/", "status": "belegt", "anmerkung": "Preis in USD" },
+    { "name": "Qwen3 235B A22B", "standort": "EU (u.a. Frankreich, Deutschland, Dänemark)", "preis_input_1m_eur": 0.20, "preis_output_1m_eur": 0.60, "quelle": "https://lyceum.technology/products/inference/models/", "status": "belegt", "anmerkung": "Preis in USD" },
+    { "name": "Kimi K2.6", "standort": "EU (u.a. Frankreich, Deutschland, Dänemark)", "preis_input_1m_eur": 1.00, "preis_output_1m_eur": 4.00, "quelle": "https://lyceum.technology/products/inference/models/", "status": "belegt", "anmerkung": "Preis in USD" },
+    { "name": "gpt-oss 120B", "standort": "EU (u.a. Frankreich, Deutschland, Dänemark)", "preis_input_1m_eur": 0.15, "preis_output_1m_eur": 0.60, "quelle": "https://lyceum.technology/products/inference/models/", "status": "belegt", "anmerkung": "Preis in USD" }
+  ],
+  "vertrag": {
+    "avv": { "wert": "https://trust.lyceum.technology/", "status": "belegt", "quelle": "https://trust.lyceum.technology/", "anmerkung": "DPA als Ressource im Trust Center gelistet (neben TOMs); direkter Dokumentenzugriff ggf. erst nach Anfrage" },
+    "subprozessoren": { "wert": null, "status": "beansprucht", "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/", "anmerkung": "Keine öffentliche Liste; 'DPA with named sub-processors available on request'" },
+    "training_opt_out": { "wert": true, "status": "beansprucht", "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/", "anmerkung": "Eigenaussage 'no training on customer data'; vertragliches Primärdokument nicht öffentlich" },
+    "zero_data_retention": { "wert": null, "status": "unbelegt", "quelle": null, "anmerkung": "Keine ZDR-Zusage für Prompts/Outputs auffindbar" }
+  },
+  "zertifikate": [
+    { "typ": "BSI C5", "status": "unbelegt", "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/", "anmerkung": "Eigene Aussage: 'Lyceum holds no C5 attestation … today, and says so plainly' — bemerkenswert ehrlich, aber nicht gehalten" },
+    { "typ": "ISO 27001", "status": "unbelegt", "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/", "anmerkung": "Laut eigener Aussage aktuell nicht zertifiziert; Trust Center listet eine 'ISO Certification'-Ressource (vermutlich RZ-Zertifikat) — Widerspruch vor Vertragsschluss klären" },
+    { "typ": "SOC 2", "status": "unbelegt", "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/", "anmerkung": "Laut eigener Aussage aktuell nicht zertifiziert" }
+  ],
+  "ai_act": [
+    { "pflicht": "GPAI Code of Practice unterzeichnet", "status": "unbelegt", "quelle": null, "anmerkung": "Kein Nachweis; hostet Open-Source-Fremdmodelle" }
+  ],
+  "geprueft": "2026-08-19"
+}

@@ -1,0 +1,45 @@
+# belegt.eu
+
+**Souveräne KI-Anbieter aus Europa. Jede Angabe mit Quelle und Prüfdatum.**
+
+Eine Evidenz-Datenbank für EU-souveräne AI-Inference-Anbieter: Hosting-Standorte, Preise, AVV/DPA, Subprozessoren, Zertifikate und AI-Act-Nachweise — jede Angabe klassifiziert als `belegt` (Primärquelle verlinkt), `beansprucht` (Anbieterangabe ohne Dokument) oder `unbelegt` (nichts Belastbares gefunden).
+
+## Struktur
+
+```
+data/anbieter/*.json   → ein Anbieter pro Datei (das eigentliche Produkt)
+guides/*.html          → Ratgeber-Artikel (META-Kopf + HTML-Fragment)
+src/style.css          → Stylesheet
+build.js               → Generator (ohne Abhängigkeiten)
+docs/                  → generierte Site (GitHub-Pages-Quellordner)
+outreach/              → Anschreiben-Vorlage für Anbieter
+```
+
+## Bauen
+
+```
+node build.js
+```
+
+Liest `data/` und `guides/`, schreibt die komplette statische Site nach `docs/`. Kein npm install, keine Dependencies — Node ≥ 18 genügt.
+
+## Daten pflegen
+
+Eine Angabe ändern = JSON-Datei editieren, `geprueft`-Datum aktualisieren, neu bauen. Statusregeln stehen auf der Methodik-Seite der Website. Eiserne Regel: **keine Quelle → Status niemals `belegt`**.
+
+## Veröffentlichen (GitHub Pages)
+
+1. Repo auf GitHub anlegen (z. B. `belegt`), dieses Verzeichnis pushen.
+2. Repo-Settings → Pages → Source: „Deploy from a branch“, Branch `main`, Ordner `/docs`.
+3. Eigene Domain (belegt.eu): in Pages-Settings als Custom Domain eintragen und beim Registrar einen CNAME auf `<username>.github.io` setzen; danach eine Datei `docs/CNAME` mit Inhalt `belegt.eu` erzeugen lassen (in `build.js` ergänzen, damit sie den Build überlebt).
+
+## Vor dem Launch (offene Pflichten)
+
+- [ ] Impressum in `build.js` → `seiteUeber()` ausfüllen (§ 5 DDG)
+- [ ] Google Fonts lokal einbinden (DSGVO-sauber, Hinweis auf der Über-Seite entfernen)
+- [ ] E-Mail-Adresse `hallo@belegt.eu` einrichten (oder in `build.js` → `SITE.kontakt` ändern)
+- [ ] Domain belegt.eu registrieren
+
+## Lizenz
+
+Daten: CC BY 4.0 (Namensnennung „belegt.eu“). Code: MIT.

@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>belegt.eu — Souveräne KI-Anbieter aus Europa, mit Quelle und Prüfdatum</title>
+<meta name="description" content="16 europäische KI-Anbieter im Vergleich: Hosting, Preise, AVV, Zertifikate, AI-Act-Nachweise — jede Angabe belegt oder ehrlich als unbelegt markiert.">
+<link rel="canonical" href="https://belegt.eu/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='14' fill='%235F4B9E'/%3E%3Ctext x='50' y='68' font-size='58' text-anchor='middle' fill='white' font-family='Georgia'%3Eb%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="./style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"belegt.eu — Evidenz-Datenbank europäischer KI-Anbieter","description":"Souveräne KI-Anbieter aus Europa. Jede Angabe mit Quelle und Prüfdatum.","url":"https://belegt.eu","creator":{"@type":"Organization","name":"belegt.eu"}}</script>
+</head>
+<body>
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
+<header class="kopf">
+  <div class="shell kopf-innen">
+    <a class="marke" href="./"><span class="marke-wort">belegt</span><span class="marke-tld">.eu</span></a>
+    <nav aria-label="Hauptnavigation"><a href="./" aria-current="page">Anbieter</a><a href="./vergleich/">Vergleiche</a><a href="./ratgeber/">Ratgeber</a><a href="./methodik/">Methodik</a><a href="./ueber/">Über</a></nav>
+  </div>
+</header>
+<main id="inhalt" class="shell">
+
+<section class="held">
+  <div class="held-text">
+    <h1>Wem dürfen Sie Ihre Daten geben?<br>Wir belegen es.</h1>
+    <p class="held-claim">16 europäische KI-Anbieter, geprüft Feld für Feld: Hosting-Standorte, Preise, AVV, Zertifikate, AI-Act-Nachweise — <strong>jede Angabe mit Quelle und Prüfdatum</strong>. Was wir nicht belegen können, steht hier auch: als „unbelegt“.</p>
+  </div>
+  <div class="held-beleg" aria-hidden="true"><div class="beleg">
+    <div class="beleg-kopf"><span class="beleg-label">Aleph Alpha — AVV / Auftragsverarbeitung</span><span class="status s-unbelegt"><span class="dot" aria-hidden="true"></span>unbelegt</span></div>
+    <div class="beleg-wert"><span class="leer">keine belastbare Angabe gefunden</span></div>
+    <div class="beleg-anm">Kein öffentliches AVV/DPA-Dokument gefunden; Verträge im Enterprise-Vertrieb individuell.</div>
+    <div class="beleg-fuss"><span class="quelle">geprüft 19.08.2026</span></div>
+  </div></div>
+</section>
+
+<section aria-label="Anbieter filtern">
+  <div class="filter" role="search">
+    <input type="search" id="f-suche" placeholder="Anbieter suchen …" aria-label="Anbieter suchen">
+    <select id="f-land" aria-label="Nach Land filtern"><option value="">Alle Länder</option><option>CH</option><option>DE</option><option>EE</option><option>FR</option><option>GB</option><option>IT</option><option>NL</option><option>SE</option></select>
+    <select id="f-kat" aria-label="Nach Kategorie filtern"><option value="">Alle Kategorien</option><option value="cloud">Cloud / GPU</option><option value="gateway">Gateway / Router</option><option value="inference-api">Inference-API</option><option value="modell-anbieter">Modell-Anbieter</option></select>
+    <label class="check"><input type="checkbox" id="f-avv"> nur mit belegtem AVV</label>
+    <span id="f-anzahl" class="klein" role="status"></span>
+  </div>
+  <div class="tabelle-scroll">
+    <table id="anbieter-tabelle">
+      <thead><tr>
+        <th>Anbieter</th><th>Land</th><th>Kategorie</th><th class="num">Preis / 1M Input</th><th>Zertifikate (belegt)</th><th>Training-Opt-out</th><th class="num" title="Anteil der Angaben mit verlinkter Primärquelle">Beleg-Quote</th>
+      </tr></thead>
+      <tbody><tr data-land="DE" data-kategorie="modell-anbieter" data-avv="0" data-name="aleph alpha">
+        <td><a href="anbieter/aleph-alpha/">Aleph Alpha</a><span class="klein">Heidelberg, Deutschland</span></td>
+        <td>DE</td>
+        <td>Modell-Anbieter</td>
+        <td class="num">–</td>
+        <td><span class="zert">ISO 27001</span></td>
+        <td><span class="leer">unbelegt</span></td>
+        <td class="num"><span class="quote">50&nbsp;%</span></td>
+      </tr>
+<tr data-land="NL" data-kategorie="gateway" data-avv="1" data-name="eurouter">
+        <td><a href="anbieter/eurouter/">EUrouter</a><span class="klein">Amsterdam, Niederlande</span></td>
+        <td>NL</td>
+        <td>Gateway / Router</td>
+        <td class="num">ab 0,10 €</td>
+        <td><span class="leer">–</span></td>
+        <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></td>
+        <td class="num"><span class="quote">58&nbsp;%</span></td>
+      </tr>
+<tr data-land="CH" data-kategorie="cloud" data-avv="1" data-name="exoscale">
+        <td><a href="anbieter/exoscale/">Exoscale</a><span class="klein">Lausanne, Schweiz</span></td>
+        <td>CH</td>
+        <td>Cloud / GPU</td>
+        <td class="num">–</td>
+        <td><span class="zert">ISO 27001</span> <span class="zert">SOC 2 Type II</span> <span class="zert">BSI C5</span> <span class="zert">TISAX Level 2</span></td>
+        <td><span class="leer">unbelegt</span></td>
+        <td class="num"><span class="quote">67&nbsp;%</span></td>
+      </tr>
+<tr data-land="DE" data-kategorie="cloud" data-avv="1" data-name="hetzner">
+        <td><a href="anbieter/hetzner/">Hetzner</a><span class="klein">Gunzenhausen, Deutschland</span></td>
+        <td>DE</td>
+        <td>Cloud / GPU</td>
+        <td class="num">–</td>
+        <td><span class="zert">ISO 27001</span></td>
+        <td><span class="leer">unbelegt</span></td>
+        <td class="num"><span class="quote">57&nbsp;%</span></td>
+      </tr>
+<tr data-land="DE" data-kategorie="inference-api" data-avv="1" data-name="ionos (ai model hub)">
+        <td><a href="anbieter/ionos/">IONOS (AI Model Hub)</a><span class="klein">Montabaur, Deutschland</span></td>
+        <td>DE</td>
+        <td>Inference-API</td>
+        <td class="num">ab 0,10 €</td>
+        <td><span class="zert">ISO 27001</span> <span class="zert">BSI C5</span> <span class="zert">ISO 50001</span></td>
+        <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></td>
+        <td class="num"><span class="quote">93&nbsp;%</span></td>
+      </tr>
+<tr data-land="DE" data-kategorie="inference-api" data-avv="1" data-name="lyceum technology">
+        <td><a href="anbieter/lyceum/">Lyceum Technology</a><span class="klein">Berlin, Deutschland</span></td>
+        <td>DE</td>
+        <td>Inference-API</td>
+        <td class="num">ab 0,15 €</td>
+        <td><span class="leer">–</span></td>
+        <td><span class="status s-beansprucht"><span class="dot" aria-hidden="true"></span>beansprucht</span></td>
+        <td class="num"><span class="quote">46&nbsp;%</span></td>
+      </tr>
+<tr data-land="FR" data-kategorie="modell-anbieter" data-avv="1" data-name="mistral ai (la plateforme)">
+        <td><a href="anbieter/mistral/">Mistral AI (La Plateforme)</a><span class="klein">Paris, Frankreich</span></td>
+        <td>FR</td>
+        <td>Modell-Anbieter</td>
+        <td class="num">ab 0,15 €</td>
+        <td><span class="zert">ISO 27001</span> <span class="zert">SOC 2 Type II</span> <span class="zert">ISO 27701</span></td>
+        <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></td>
+        <td class="num"><span class="quote">93&nbsp;%</span></td>
+      </tr>
+<tr data-land="NL" data-kategorie="inference-api" data-avv="1" data-name="nebius (token factory)">
+        <td><a href="anbieter/nebius/">Nebius (Token Factory)</a><span class="klein">Amsterdam, Niederlande</span></td>
+        <td>NL</td>
+        <td>Inference-API</td>
+        <td class="num">ab 0,13 €</td>
+        <td><span class="zert">ISO 27001</span> <span class="zert">SOC 2 Type II</span> <span class="zert">ISO 27701</span> <span class="zert">CSA STAR Level 1</span></td>
+        <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></td>
+        <td class="num"><span class="quote">85&nbsp;%</span></td>
+      </tr>
+<tr data-land="EE" data-kategorie="inference-api" data-avv="0" data-name="nordference">
+        <td><a href="anbieter/nordference/">Nordference</a><span class="klein">Tallinn, Estland</span></td>
+        <td>EE</td>
+        <td>Inference-API</td>
+        <td class="num">ab 0,03 €</td>
+        <td><span class="leer">–</span></td>
+        <td><span class="leer">unbelegt</span></td>
+        <td class="num"><span class="quote">50&nbsp;%</span></td>
+      </tr>
+<tr data-land="SE" data-kategorie="gateway" data-avv="1" data-name="opper ai">
+        <td><a href="anbieter/opper-ai/">Opper AI</a><span class="klein">Stockholm, Schweden</span></td>
+        <td>SE</td>
+        <td>Gateway / Router</td>
+        <td class="num">ab 1,30 €</td>
+        <td><span class="leer">–</span></td>
+        <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></td>
+        <td class="num"><span class="quote">67&nbsp;%</span></td>
+      </tr>
+<tr data-land="FR" data-kategorie="inference-api" data-avv="1" data-name="ovhcloud (ai endpoints)">
+        <td><a href="anbieter/ovhcloud/">OVHcloud (AI Endpoints)</a><span class="klein">Roubaix, Frankreich</span></td>
+        <td>FR</td>
+        <td>Inference-API</td>
+        <td class="num">ab 0,04 €</td>
+        <td><span class="zert">ISO 27001</span> <span class="zert">ISO 27701</span> <span class="zert">SOC 1/2/3</span> <span class="zert">BSI C5</span> <span class="zert">SecNumCloud</span> <span class="zert">HDS</span></td>
+        <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></td>
+        <td class="num"><span class="quote">94&nbsp;%</span></td>
+      </tr>
+<tr data-land="IT" data-kategorie="inference-api" data-avv="1" data-name="regolo.ai">
+        <td><a href="anbieter/regolo/">Regolo.ai</a><span class="klein">Frosinone, Italien</span></td>
+        <td>IT</td>
+        <td>Inference-API</td>
+        <td class="num">ab 0,40 €</td>
+        <td><span class="zert">ISO 27001</span> <span class="zert">ISO 27017 / 27018</span> <span class="zert">CSA STAR Level 1</span> <span class="zert">Zero-Data-Retention-Zertifizierung (extern)</span></td>
+        <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></td>
+        <td class="num"><span class="quote">87&nbsp;%</span></td>
+      </tr>
+<tr data-land="GB" data-kategorie="gateway" data-avv="0" data-name="requesty">
+        <td><a href="anbieter/requesty/">Requesty</a><span class="klein">London, Vereinigtes Königreich</span></td>
+        <td>GB</td>
+        <td>Gateway / Router</td>
+        <td class="num">–</td>
+        <td><span class="leer">–</span></td>
+        <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></td>
+        <td class="num"><span class="quote">20&nbsp;%</span></td>
+      </tr>
+<tr data-land="FR" data-kategorie="inference-api" data-avv="1" data-name="scaleway">
+        <td><a href="anbieter/scaleway/">Scaleway</a><span class="klein">Paris, Frankreich</span></td>
+        <td>FR</td>
+        <td>Inference-API</td>
+        <td class="num">ab 0,15 €</td>
+        <td><span class="zert">ISO 27001</span> <span class="zert">HDS</span></td>
+        <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></td>
+        <td class="num"><span class="quote">86&nbsp;%</span></td>
+      </tr>
+<tr data-land="DE" data-kategorie="inference-api" data-avv="1" data-name="stackit">
+        <td><a href="anbieter/stackit/">STACKIT</a><span class="klein">Neckarsulm, Deutschland</span></td>
+        <td>DE</td>
+        <td>Inference-API</td>
+        <td class="num">–</td>
+        <td><span class="zert">ISO 27001</span> <span class="zert">BSI C5</span> <span class="zert">SOC 2</span> <span class="zert">TISAX</span></td>
+        <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></td>
+        <td class="num"><span class="quote">85&nbsp;%</span></td>
+      </tr>
+<tr data-land="DE" data-kategorie="inference-api" data-avv="1" data-name="t-systems / open telekom cloud (ai foundation services)">
+        <td><a href="anbieter/t-systems/">T-Systems / Open Telekom Cloud (AI Foundation Services)</a><span class="klein">Frankfurt am Main, Deutschland</span></td>
+        <td>DE</td>
+        <td>Inference-API</td>
+        <td class="num">–</td>
+        <td><span class="zert">BSI C5</span> <span class="zert">ISO 27001</span> <span class="zert">SOC 2</span> <span class="zert">TISAX</span></td>
+        <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></td>
+        <td class="num"><span class="quote">93&nbsp;%</span></td>
+      </tr></tbody>
+    </table>
+  </div>
+</section>
+
+<script>
+(function () {
+  var suche = document.getElementById("f-suche");
+  var land = document.getElementById("f-land");
+  var kat = document.getElementById("f-kat");
+  var avv = document.getElementById("f-avv");
+  var anzahl = document.getElementById("f-anzahl");
+  var zeilen = Array.prototype.slice.call(document.querySelectorAll("#anbieter-tabelle tbody tr"));
+  function filtern() {
+    var q = suche.value.trim().toLowerCase();
+    var n = 0;
+    zeilen.forEach(function (tr) {
+      var zeig =
+        (!q || tr.dataset.name.indexOf(q) !== -1) &&
+        (!land.value || tr.dataset.land === land.value) &&
+        (!kat.value || tr.dataset.kategorie === kat.value) &&
+        (!avv.checked || tr.dataset.avv === "1");
+      tr.style.display = zeig ? "" : "none";
+      if (zeig) n++;
+    });
+    anzahl.textContent = n + " von " + zeilen.length + " Anbietern";
+  }
+  [suche, land, kat, avv].forEach(function (el) { el.addEventListener("input", filtern); });
+  filtern();
+})();
+</script>
+</main>
+<footer class="fuss">
+  <div class="shell">
+    <p><strong>belegt.eu</strong> — Souveräne KI-Anbieter aus Europa. Jede Angabe mit Quelle und Prüfdatum.</p>
+    <p>Statusstufen: <span class="status s-belegt"><span class="dot"></span>belegt</span> = Primärquelle verlinkt · <span class="status s-beansprucht"><span class="dot"></span>beansprucht</span> = Anbieterangabe ohne Dokument · <span class="status s-unbelegt"><span class="dot"></span>unbelegt</span> = keine belastbare Angabe gefunden. Details in der <a href="./methodik/">Methodik</a>.</p>
+    <p>Keine Rechtsberatung. Fehler gefunden? <a href="mailto:hallo@belegt.eu">hallo@belegt.eu</a> · <a href="./ueber/">Impressum &amp; Über</a></p>
+  </div>
+</footer>
+</body>
+</html>

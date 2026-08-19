@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DSGVO-konform KI nutzen: AVV, Subprozessoren, Drittlandtransfer | belegt.eu</title>
+<meta name="description" content="Die vier Vertragsfragen, die Ihr Datenschutzbeauftragter vor dem Einsatz einer KI-API stellt — und wie Sie sie mit Anbieter-Dokumenten beantworten.">
+<link rel="canonical" href="https://belegt.eu/ratgeber/dsgvo-konform-ki-nutzen/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='14' fill='%235F4B9E'/%3E%3Ctext x='50' y='68' font-size='58' text-anchor='middle' fill='white' font-family='Georgia'%3Eb%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../../style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"DSGVO-konform KI nutzen: AVV, Subprozessoren, Drittlandtransfer","description":"Die vier Vertragsfragen, die Ihr Datenschutzbeauftragter vor dem Einsatz einer KI-API stellt — und wie Sie sie mit Anbieter-Dokumenten beantworten.","inLanguage":"de","publisher":{"@type":"Organization","name":"belegt.eu"}}</script>
+</head>
+<body>
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
+<header class="kopf">
+  <div class="shell kopf-innen">
+    <a class="marke" href="../../"><span class="marke-wort">belegt</span><span class="marke-tld">.eu</span></a>
+    <nav aria-label="Hauptnavigation"><a href="../../">Anbieter</a><a href="../../vergleich/">Vergleiche</a><a href="../../ratgeber/">Ratgeber</a><a href="../../methodik/">Methodik</a><a href="../../ueber/">Über</a></nav>
+  </div>
+</header>
+<main id="inhalt" class="shell">
+
+<nav class="brotkrumen" aria-label="Pfad"><a href="../../">Anbieter</a> / <a href="../">Ratgeber</a> / DSGVO-konform KI nutzen: AVV, Subprozessoren, Drittlandtransfer</nav>
+<article class="artikel">
+<h1>DSGVO-konform KI nutzen: AVV, Subprozessoren, Drittlandtransfer</h1>
+<p>Sobald personenbezogene Daten durch eine KI-API fließen — und das passiert schneller, als viele denken: ein Kundenname im Prompt genügt — verarbeitet der KI-Anbieter Daten in Ihrem Auftrag. Damit greifen vier Prüfungen, die jeder Datenschutzbeauftragte stellt. Alle vier lassen sich mit Dokumenten beantworten, die seriöse Anbieter öffentlich bereitstellen.</p>
+
+<h2>1. Der AVV (Auftragsverarbeitungsvertrag)</h2>
+<p>Art. 28 DSGVO verlangt einen Vertrag zwischen Ihnen (Verantwortlicher) und dem Anbieter (Auftragsverarbeiter). Gute Anbieter veröffentlichen ihren AVV/DPA als Dokument — Scaleway, OVHcloud und Mistral etwa als abrufbare PDFs bzw. öffentliche Vertragsseiten. Warnsignal: Anbieter, bei denen der AVV nur „auf Anfrage“ existiert. Das ist nicht verboten, macht aber Ihre Prüfung vor Vertragsschluss unmöglich. In unserer Datenbank sehen Sie pro Anbieter, ob der AVV öffentlich vorliegt (Status „belegt“) oder nur beansprucht wird.</p>
+
+<h2>2. Die Subprozessorenliste</h2>
+<p>Ihr Anbieter darf Unterauftragsverarbeiter nur mit Ihrer (zumindest allgemeinen) Genehmigung einsetzen — und muss sie benennen. Die Liste ist oft aufschlussreicher als jede Marketing-Seite: Bei Gateways zeigt sie, wohin Ihre Prompts wirklich fließen. Ein „EU-Gateway“, dessen Subprozessorenliste 17 US-Modellanbieter enthält, ist für Standard-Workloads kein EU-Gateway. Prüfen Sie auch, ob der Anbieter Änderungen ankündigt (üblich: 30 Tage Vorlauf mit Widerspruchsrecht).</p>
+
+<h2>3. Der Drittlandtransfer</h2>
+<p>Fließen Daten in die USA oder andere Drittländer, braucht es eine Rechtsgrundlage — in der Praxis Standardvertragsklauseln (SCCs) oder das EU-US Data Privacy Framework, je mit Zusatzprüfung. Die sauberste Antwort ist, den Transfer zu vermeiden: Anbieter, die Verarbeitung vertraglich auf den EWR beschränken (etwa EUrouter im DPA oder Exoscale mit CH/EU-Beschränkung), nehmen Ihnen diese gesamte Prüfkaskade ab. Achtung bei Eigentümerstrukturen: EU-Rechenzentrum plus US-Mutterkonzern ist ein Sonderfall — dazu unser <a href="../cloud-act-us-anbieter/">CLOUD-Act-Guide</a>.</p>
+
+<h2>4. Training und Speicherung</h2>
+<p>Zwei Fragen, die in keinem AVV-Standardtext automatisch beantwortet sind: Trainiert der Anbieter mit Ihren Daten? Und wie lange speichert er Prompts und Antworten? Die Antworten stehen — wenn überhaupt — in Produktdokumentation und Privacy-Policies, nicht im Vertrag. Viele Anbieter geben „kein Training“ zu Protokoll (Scaleway, IONOS, STACKIT, OVHcloud mit klaren Doku-Aussagen); bei „Zero Data Retention“ lohnt der zweite Blick, denn oft gilt sie nur in bestimmten Tarifen (Mistral: nur im Scale-Plan, sonst 30 Tage Abuse-Monitoring) oder nur auf Anfrage. Unsere <a href="../../">Datenbank</a> dokumentiert beides pro Anbieter mit Quelle und Prüfdatum — inklusive der Fälle, in denen sich Anbieterangaben widersprechen.</p>
+
+<h2>Die Kurzformel</h2>
+<p>Öffentlicher AVV + öffentliche Subprozessorenliste + EWR-Verarbeitung + dokumentiertes Trainings-Nein = eine KI-Beschaffung, die Ihr Datenschutzbeauftragter in einer Stunde freigeben kann. Jedes fehlende Dokument verlängert die Prüfung um Wochen — oder macht sie unmöglich.</p>
+<footer class="dossier-fuss"><p>Stand: August 2026. Keine Rechtsberatung — für verbindliche Auskünfte wenden Sie sich an Fachanwälte oder Ihre Datenschutzbeauftragten.</p></footer>
+</article>
+</main>
+<footer class="fuss">
+  <div class="shell">
+    <p><strong>belegt.eu</strong> — Souveräne KI-Anbieter aus Europa. Jede Angabe mit Quelle und Prüfdatum.</p>
+    <p>Statusstufen: <span class="status s-belegt"><span class="dot"></span>belegt</span> = Primärquelle verlinkt · <span class="status s-beansprucht"><span class="dot"></span>beansprucht</span> = Anbieterangabe ohne Dokument · <span class="status s-unbelegt"><span class="dot"></span>unbelegt</span> = keine belastbare Angabe gefunden. Details in der <a href="../../methodik/">Methodik</a>.</p>
+    <p>Keine Rechtsberatung. Fehler gefunden? <a href="mailto:hallo@belegt.eu">hallo@belegt.eu</a> · <a href="../../ueber/">Impressum &amp; Über</a></p>
+  </div>
+</footer>
+</body>
+</html>

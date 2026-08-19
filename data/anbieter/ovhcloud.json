@@ -1,0 +1,34 @@
+{
+  "id": "ovhcloud",
+  "name": "OVHcloud (AI Endpoints)",
+  "kategorie": "inference-api",
+  "kurzbeschreibung": "Serverlose Inferenz-API des französischen Cloud-Anbieters OVHcloud mit über 40 offenen Modellen (u.a. Llama, Qwen, gpt-oss), gehostet in europäischen Rechenzentren mit Zero-Data-Retention-Zusage.",
+  "stammdaten": { "sitz": "Roubaix, Frankreich", "land": "FR", "mutterkonzern": "OVH Groupe SA (börsennotiert, Euronext Paris)", "us_eigner": false, "gegruendet": 1999, "website": "https://www.ovhcloud.com" },
+  "modelle": [
+    { "name": "Llama 3.3 70B Instruct", "standort": "Gravelines, Frankreich", "preis_input_1m_eur": 0.67, "preis_output_1m_eur": 0.67, "quelle": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/", "status": "belegt" },
+    { "name": "gpt-oss-120b", "standort": "Gravelines, Frankreich", "preis_input_1m_eur": 0.08, "preis_output_1m_eur": 0.40, "quelle": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/", "status": "belegt" },
+    { "name": "gpt-oss-20b", "standort": "Gravelines, Frankreich", "preis_input_1m_eur": 0.04, "preis_output_1m_eur": 0.15, "quelle": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/", "status": "belegt" },
+    { "name": "Qwen3.5-397B-A17B", "standort": "Gravelines, Frankreich", "preis_input_1m_eur": 0.60, "preis_output_1m_eur": 3.60, "quelle": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/", "status": "belegt" },
+    { "name": "Qwen3.6-27B", "standort": "Gravelines, Frankreich", "preis_input_1m_eur": 0.40, "preis_output_1m_eur": 2.70, "quelle": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/", "status": "belegt" },
+    { "name": "Qwen3.5-9B", "standort": "Gravelines, Frankreich", "preis_input_1m_eur": 0.10, "preis_output_1m_eur": 0.15, "quelle": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/", "status": "belegt" }
+  ],
+  "vertrag": {
+    "avv": { "wert": "https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/5cec77c-OVH_Data_Protection_Agreement-IE-6.2.pdf", "status": "belegt", "quelle": "https://us.ovhcloud.com/legal/faqs/gdpr-compliance/", "anmerkung": "Offizielles OVH Data Processing Agreement (Version 6.2); je Region/Sprache eigene DPA-Versionen im Contracts-Storage." },
+    "subprozessoren": { "wert": "https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/6045f8b-OVH_Sub_processors-GB-3.0.pdf", "status": "belegt", "quelle": "https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/6045f8b-OVH_Sub_processors-GB-3.0.pdf", "anmerkung": "Offizielle Sub-Processor-Liste als PDF (GB-3.0), per Abruf verifiziert; enthält Intra-Group-Subprozessoren und Drittanbieter." },
+    "training_opt_out": { "wert": true, "status": "belegt", "quelle": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/", "anmerkung": "Produktseite: 'Your data will never be used to train or improve our AI models' — kein Training per Default." },
+    "zero_data_retention": { "wert": true, "status": "belegt", "quelle": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/", "anmerkung": "Produktseite: 'Zero data retention: We keep only the data required for billing purposes.'" }
+  },
+  "zertifikate": [
+    { "typ": "ISO 27001", "status": "belegt", "quelle": "https://www.ovhcloud.com/en/enterprise/certification-conformity/", "anmerkung": "Inkl. ISO 27017/27018; auf alle Cloud-Lösungen ausgeweitet." },
+    { "typ": "ISO 27701", "status": "belegt", "quelle": "https://www.ovhcloud.com/en/enterprise/certification-conformity/", "anmerkung": "PIMS für Personendaten-Verarbeitung." },
+    { "typ": "SOC 1/2/3", "status": "belegt", "quelle": "https://www.ovhcloud.com/en/enterprise/certification-conformity/", "anmerkung": "SSAE 16/ISAE 3402 Type 2 im Compliance-Portal gelistet." },
+    { "typ": "BSI C5", "status": "belegt", "quelle": "https://www.ovhcloud.com/en/enterprise/certification-conformity/", "anmerkung": "Im Compliance-Portal gelistet; Geltungsbereich je Produkt prüfen." },
+    { "typ": "SecNumCloud", "status": "belegt", "quelle": "https://www.ovhcloud.com/en/enterprise/certification-conformity/", "anmerkung": "ANSSI-Qualifikation für bestimmte OVHcloud-Angebote — gilt nicht automatisch für AI Endpoints." },
+    { "typ": "HDS", "status": "belegt", "quelle": "https://www.ovhcloud.com/en/enterprise/certification-conformity/", "anmerkung": "Französische Gesundheitsdaten-Zertifizierung (ANS)." }
+  ],
+  "ai_act": [
+    { "pflicht": "AI-Act-Informationsmaterial veröffentlicht", "status": "belegt", "quelle": "https://blog.ovhcloud.com/ai-act-in-a-nutshell/", "anmerkung": "Offizieller Beitrag 'AI Act in a nutshell'; Positionierung über Modelltransparenz durch Open-Weight-Modelle." },
+    { "pflicht": "GPAI Code of Practice unterzeichnet", "status": "unbelegt", "quelle": null, "anmerkung": "Keine Unterzeichnung auffindbar; als Hoster fremder Open-Weight-Modelle kein typischer Pflichtenadressat." }
+  ],
+  "geprueft": "2026-08-19"
+}

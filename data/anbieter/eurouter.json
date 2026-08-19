@@ -1,0 +1,28 @@
+{
+  "id": "eurouter",
+  "name": "EUrouter",
+  "kategorie": "gateway",
+  "kurzbeschreibung": "Niederländisches AI-Gateway mit EU-Datenresidenz, das zu 15 Upstream-Providern routet — überwiegend europäische Hoster (Scaleway, OVHcloud, IONOS, Mistral AI, Nebius, GreenPT u.a.), aber auch AWS Bedrock und Microsoft Foundry (US-Hyperscaler in EU-Regionen) sind wählbar.",
+  "stammdaten": { "sitz": "Amsterdam, Niederlande", "land": "NL", "mutterkonzern": null, "us_eigner": false, "gegruendet": null, "website": "https://eurouter.ai" },
+  "modelle": [
+    { "name": "DeepSeek V3.2", "standort": "EU (EU-West)", "preis_input_1m_eur": 0.30, "preis_output_1m_eur": 0.50, "quelle": "https://eurouter.ai/models", "status": "belegt", "anmerkung": "Preis in USD" },
+    { "name": "Kimi K2.6", "standort": "EU (EU-West)", "preis_input_1m_eur": 0.80, "preis_output_1m_eur": 3.50, "quelle": "https://eurouter.ai/models", "status": "belegt", "anmerkung": "Preis in USD" },
+    { "name": "Gemma 4", "standort": "EU (EU-West)", "preis_input_1m_eur": 0.10, "preis_output_1m_eur": 0.50, "quelle": "https://eurouter.ai/models", "status": "belegt", "anmerkung": "Preis in USD" },
+    { "name": "Claude (Opus 5 / Sonnet / Haiku)", "standort": "EU (via AWS Bedrock / Microsoft Foundry EU-Regionen)", "preis_input_1m_eur": null, "preis_output_1m_eur": null, "quelle": "https://eurouter.ai/models", "status": "beansprucht", "anmerkung": "Modell gelistet, konkrete Preise in der öffentlichen Tabelle nicht extrahierbar" },
+    { "name": "Mistral Large 3", "standort": "EU (u.a. Mistral AI, Frankreich)", "preis_input_1m_eur": null, "preis_output_1m_eur": null, "quelle": "https://eurouter.ai/models", "status": "beansprucht", "anmerkung": "Modell gelistet, konkrete Preise in der öffentlichen Tabelle nicht extrahierbar" }
+  ],
+  "vertrag": {
+    "avv": { "wert": "https://eurouter.ai/dpa", "status": "belegt", "quelle": "https://eurouter.ai/dpa", "anmerkung": "Vollständiges DPA (Stand Mai 2026), signierbare Version zum Download; Verarbeitung ausschließlich im EWR zugesichert" },
+    "subprozessoren": { "wert": "https://eurouter.ai/providers", "status": "belegt", "quelle": "https://eurouter.ai/dpa", "anmerkung": "Subprozessorliste im DPA (16 AI-Provider, Scaleway-Infrastruktur, Sentry, PostHog EU u.a.); 2 von 15 Upstream-Providern sind US-Firmen (AWS Bedrock, Microsoft Foundry)" },
+    "training_opt_out": { "wert": true, "status": "belegt", "quelle": "https://eurouter.ai/dpa", "anmerkung": "DPA: 'EUrouter does not use Customer API Data to train, fine-tune or improve AI models' — standardmäßig ausgeschlossen" },
+    "zero_data_retention": { "wert": true, "status": "belegt", "quelle": "https://eurouter.ai/dpa", "anmerkung": "Zero-Retention als Standard für Request-/Response-Inhalte; nur Metadaten (Timestamps, Token-Counts) für Abrechnung" }
+  },
+  "zertifikate": [
+    { "typ": "ISO 27001", "status": "unbelegt", "quelle": null, "anmerkung": "Weder auf Website noch im DPA erwähnt" },
+    { "typ": "SOC 2", "status": "unbelegt", "quelle": null, "anmerkung": "Nicht erwähnt" }
+  ],
+  "ai_act": [
+    { "pflicht": "Transparenz-/Compliance-Angaben zum EU AI Act", "status": "unbelegt", "quelle": null, "anmerkung": "Keine AI-Act-spezifischen Angaben auf Website oder Preisseite gefunden" }
+  ],
+  "geprueft": "2026-08-19"
+}

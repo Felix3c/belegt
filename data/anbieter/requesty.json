@@ -1,0 +1,26 @@
+{
+  "id": "requesty",
+  "name": "Requesty",
+  "kategorie": "gateway",
+  "kurzbeschreibung": "Britisches (nicht EU-ansässiges) AI-Gateway mit EU-Endpoint in Frankfurt; die eigene Verarbeitung bleibt in der EU, Inference läuft aber je nach Modellwahl bei über 30 Providern — darunter viele US- und China-Firmen. Echte EU-Residency nur bei expliziter Beschränkung auf EU-gehostete Modellvarianten.",
+  "stammdaten": { "sitz": "London, Vereinigtes Königreich", "land": "GB", "mutterkonzern": null, "us_eigner": false, "gegruendet": 2023, "website": "https://www.requesty.ai" },
+  "modelle": [
+    { "name": "Claude Sonnet (Bedrock @eu-central-1)", "standort": "Frankfurt/EU (AWS Bedrock)", "preis_input_1m_eur": null, "preis_output_1m_eur": null, "quelle": "https://docs.requesty.ai/features/eu-routing", "status": "beansprucht", "anmerkung": "Pass-through + 5% Markup; öffentliche Preisliste nur hinter Login" },
+    { "name": "Gemini 3.5 Flash (Vertex @eu)", "standort": "EU (Google Vertex EU-Region)", "preis_input_1m_eur": null, "preis_output_1m_eur": null, "quelle": "https://docs.requesty.ai/features/eu-routing", "status": "beansprucht", "anmerkung": "Keine öffentliche Preisangabe verifizierbar" },
+    { "name": "Mistral-Modelle", "standort": "EU (Mistral, 'hosted in EU by default')", "preis_input_1m_eur": null, "preis_output_1m_eur": null, "quelle": "https://docs.requesty.ai/features/eu-routing", "status": "beansprucht", "anmerkung": "Keine öffentliche Preisangabe verifizierbar" }
+  ],
+  "vertrag": {
+    "avv": { "wert": null, "status": "beansprucht", "quelle": "https://www.requesty.ai/dpa", "anmerkung": "DPA-Infoseite vorhanden, das eigentliche Dokument nur auf Anfrage per E-Mail; kein öffentlicher Volltext" },
+    "subprozessoren": { "wert": "https://www.requesty.ai/privacy/subprocessors", "status": "belegt", "quelle": "https://www.requesty.ai/privacy/subprocessors", "anmerkung": "Öffentliche Liste: AWS Frankfurt plus 32 Modellprovider, darunter 17 US-Firmen und China-Anbieter (DeepSeek, Moonshot, Tencent); NVIDIA und Poolside mit 'Training Permitted' (Free Plan)" },
+    "training_opt_out": { "wert": true, "status": "belegt", "quelle": "https://docs.requesty.ai", "anmerkung": "'Requesty is a pass-through gateway. We don't train on your requests'; Ausnahme: Free-Plan-Modelle von NVIDIA/Poolside erlauben Upstream-Training" },
+    "zero_data_retention": { "wert": null, "status": "beansprucht", "quelle": "https://www.requesty.ai/dpa", "anmerkung": "Widersprüchlich: Security-Seite sagt 'never stored', DPA-Seite nennt 30-Tage-Log-Retention als Standard; ZDR organisationsweit nur auf schriftliche Anfrage" }
+  },
+  "zertifikate": [
+    { "typ": "SOC 2 Type II", "status": "beansprucht", "quelle": "https://www.requesty.ai/security", "anmerkung": "Laut Security-Seite 'in progress — expected Q3 2026', noch nicht erteilt" },
+    { "typ": "ISO 27001", "status": "unbelegt", "quelle": null, "anmerkung": "Nicht erwähnt" }
+  ],
+  "ai_act": [
+    { "pflicht": "Transparenz-/Compliance-Angaben zum EU AI Act", "status": "unbelegt", "quelle": null, "anmerkung": "Keine AI-Act-Angaben auf Website, Security-Seite oder in den Docs gefunden" }
+  ],
+  "geprueft": "2026-08-19"
+}
