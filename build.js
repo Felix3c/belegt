@@ -528,6 +528,7 @@ function main() {
   for (const f of fs.readdirSync(path.join(SRC_DIR, "fonts")))
     fs.copyFileSync(path.join(SRC_DIR, "fonts", f), path.join(OUT, "fonts", f));
   fs.writeFileSync(path.join(OUT, ".nojekyll"), "");
+  fs.writeFileSync(path.join(OUT, "CNAME"), "belegbar.eu\n");
   fs.writeFileSync(path.join(OUT, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: ${SITE.baseUrl}/sitemap.xml\n`);
 
   // Seiten
