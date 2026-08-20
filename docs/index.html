@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>belegbar.eu — Souveräne KI-Anbieter aus Europa, mit Quelle und Prüfdatum</title>
-<meta name="description" content="16 europäische KI-Anbieter im Vergleich: Hosting, Preise, AVV, Zertifikate, AI-Act-Nachweise — jede Angabe belegt oder ehrlich als unbelegt markiert.">
+<meta name="description" content="21 europäische KI-Anbieter im Vergleich: Hosting, Preise, AVV, Zertifikate, AI-Act-Nachweise — jede Angabe belegt oder ehrlich als unbelegt markiert.">
 <link rel="canonical" href="https://belegbar.eu/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='14' fill='%235F4B9E'/%3E%3Ctext x='50' y='68' font-size='58' text-anchor='middle' fill='white' font-family='Georgia'%3Eb%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="./fonts.css">
@@ -24,7 +24,7 @@
 <section class="held">
   <div class="held-text">
     <h1>Wem dürfen Sie Ihre Daten geben?<br>Wir belegen es.</h1>
-    <p class="held-claim">16 europäische KI-Anbieter, geprüft Feld für Feld: Hosting-Standorte, Preise, AVV, Zertifikate, AI-Act-Nachweise — <strong>jede Angabe mit Quelle und Prüfdatum</strong>. Was wir nicht belegen können, steht hier auch: als „unbelegt“.</p>
+    <p class="held-claim">21 europäische KI-Anbieter, geprüft Feld für Feld: Hosting-Standorte, Preise, AVV, Zertifikate, AI-Act-Nachweise — <strong>jede Angabe mit Quelle und Prüfdatum</strong>. Was wir nicht belegen können, steht hier auch: als „unbelegt“.</p>
   </div>
   <div class="held-beleg" aria-hidden="true"><div class="beleg">
     <div class="beleg-kopf"><span class="beleg-label">Aleph Alpha — AVV / Auftragsverarbeitung</span><span class="status s-unbelegt"><span class="dot" aria-hidden="true"></span>unbelegt</span></div>
@@ -37,7 +37,7 @@
 <section aria-label="Anbieter filtern">
   <div class="filter" role="search">
     <input type="search" id="f-suche" placeholder="Anbieter suchen …" aria-label="Anbieter suchen">
-    <select id="f-land" aria-label="Nach Land filtern"><option value="">Alle Länder</option><option>CH</option><option>DE</option><option>EE</option><option>FR</option><option>GB</option><option>IT</option><option>NL</option><option>SE</option></select>
+    <select id="f-land" aria-label="Nach Land filtern"><option value="">Alle Länder</option><option>CH</option><option>DE</option><option>EE</option><option>FR</option><option>GB</option><option>IT</option><option>LU</option><option>NL</option><option>SE</option></select>
     <select id="f-kat" aria-label="Nach Kategorie filtern"><option value="">Alle Kategorien</option><option value="cloud">Cloud / GPU</option><option value="gateway">Gateway / Router</option><option value="inference-api">Inference-API</option><option value="modell-anbieter">Modell-Anbieter</option></select>
     <label class="check"><input type="checkbox" id="f-avv"> nur mit belegtem AVV</label>
     <span id="f-anzahl" class="klein" role="status"></span>
@@ -55,6 +55,24 @@
         <td><span class="zert">ISO 27001</span></td>
         <td><span class="leer">unbelegt</span></td>
         <td class="num"><span class="quote">50&nbsp;%</span></td>
+      </tr>
+<tr data-land="DE" data-kategorie="modell-anbieter" data-avv="0" data-name="black forest labs">
+        <td><a href="anbieter/black-forest-labs/">Black Forest Labs</a><span class="klein">Freiburg, Deutschland</span></td>
+        <td>DE</td>
+        <td>Modell-Anbieter</td>
+        <td class="num">–</td>
+        <td><span class="leer">–</span></td>
+        <td><span class="warnung">trainiert mit Daten</span></td>
+        <td class="num"><span class="quote">62&nbsp;%</span></td>
+      </tr>
+<tr data-land="DE" data-kategorie="modell-anbieter" data-avv="1" data-name="deepl">
+        <td><a href="anbieter/deepl/">DeepL</a><span class="klein">Köln, Deutschland</span></td>
+        <td>DE</td>
+        <td>Modell-Anbieter</td>
+        <td class="num">–</td>
+        <td><span class="zert">ISO/IEC 27001:2022</span> <span class="zert">SOC 2 Type II</span> <span class="zert">Externe Penetrationstests</span></td>
+        <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></td>
+        <td class="num"><span class="quote">63&nbsp;%</span></td>
       </tr>
 <tr data-land="NL" data-kategorie="gateway" data-avv="1" data-name="eurouter">
         <td><a href="anbieter/eurouter/">EUrouter</a><span class="klein">Amsterdam, Niederlande</span></td>
@@ -74,6 +92,24 @@
         <td><span class="leer">unbelegt</span></td>
         <td class="num"><span class="quote">67&nbsp;%</span></td>
       </tr>
+<tr data-land="LU" data-kategorie="inference-api" data-avv="1" data-name="gcore">
+        <td><a href="anbieter/gcore/">Gcore</a><span class="klein">Contern, Luxemburg</span></td>
+        <td>LU</td>
+        <td>Inference-API</td>
+        <td class="num">–</td>
+        <td><span class="leer">–</span></td>
+        <td><span class="leer">unbelegt</span></td>
+        <td class="num"><span class="quote">38&nbsp;%</span></td>
+      </tr>
+<tr data-land="NL" data-kategorie="inference-api" data-avv="1" data-name="greenpt">
+        <td><a href="anbieter/greenpt/">GreenPT</a><span class="klein">Utrecht, Niederlande</span></td>
+        <td>NL</td>
+        <td>Inference-API</td>
+        <td class="num">ab 0,20 €</td>
+        <td><span class="zert">Nachhaltigkeits-Kennzahlen (PUE 1.25, WUE 0.25, 100 % erneuerbar)</span></td>
+        <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></td>
+        <td class="num"><span class="quote">80&nbsp;%</span></td>
+      </tr>
 <tr data-land="DE" data-kategorie="cloud" data-avv="1" data-name="hetzner">
         <td><a href="anbieter/hetzner/">Hetzner</a><span class="klein">Gunzenhausen, Deutschland</span></td>
         <td>DE</td>
@@ -82,6 +118,15 @@
         <td><span class="zert">ISO 27001</span></td>
         <td><span class="leer">unbelegt</span></td>
         <td class="num"><span class="quote">57&nbsp;%</span></td>
+      </tr>
+<tr data-land="CH" data-kategorie="inference-api" data-avv="1" data-name="infomaniak">
+        <td><a href="anbieter/infomaniak/">Infomaniak</a><span class="klein">Genf (Les Acacias), Schweiz</span></td>
+        <td>CH</td>
+        <td>Inference-API</td>
+        <td class="num">ab 0,20 €</td>
+        <td><span class="zert">ISO 27001:2022</span> <span class="zert">ISO 9001 / 14001 / 50001</span> <span class="zert">B Corp</span> <span class="zert">Swiss-Hosting-Label</span></td>
+        <td><span class="status s-beansprucht"><span class="dot" aria-hidden="true"></span>beansprucht</span></td>
+        <td class="num"><span class="quote">67&nbsp;%</span></td>
       </tr>
 <tr data-land="DE" data-kategorie="inference-api" data-avv="1" data-name="ionos (ai model hub)">
         <td><a href="anbieter/ionos/">IONOS (AI Model Hub)</a><span class="klein">Montabaur, Deutschland</span></td>

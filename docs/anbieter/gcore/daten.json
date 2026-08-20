@@ -1,0 +1,113 @@
+{
+  "id": "gcore",
+  "name": "Gcore",
+  "kategorie": "inference-api",
+  "kurzbeschreibung": "Luxemburger Edge-/Cloud-Infrastrukturanbieter (G-Core Labs S.A., gegründet 2014), dessen Produkt 'Everywhere Inference' Open-Source-Modelle auf eigener NVIDIA-GPU-Infrastruktur mit regionaler Workload-Steuerung hostet. Abgerechnet wird nach GPU-Compute-Zeit (pro Sekunde/Minute), nicht pro Token — ein öffentliches Token-Preisblatt existiert nicht.",
+  "stammdaten": {
+    "sitz": "Contern, Luxemburg",
+    "land": "LU",
+    "mutterkonzern": null,
+    "us_eigner": null,
+    "gegruendet": 2014,
+    "website": "https://gcore.com"
+  },
+  "modelle": [
+    {
+      "name": "Whisper Large v3 Turbo (dediziertes Deployment)",
+      "standort": "wählbar (Multi-Region, bis zu 6 Regionen pro Deployment)",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://gcore.com/everywhere-inference/whisper-large-v3-turbo",
+      "status": "belegt",
+      "anmerkung": "Feste monatliche GPU-Miete statt Minutenpreis; konkrete Raten nicht öffentlich"
+    },
+    {
+      "name": "LLaMA Pro 8B",
+      "standort": "Edge-Inferenz-Netz (laut Pressemitteilung 180+ Standorte)",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://gcore.com/press-releases/gcore-unveils-inference-at-the-edge-bringing-ai-applications-closer-to-end-users-for-seamless-real-time-performance",
+      "status": "belegt",
+      "anmerkung": "Abrechnung nach genutzten Ressourcen (docs.gcore.com/edge-ai/billing.md: 'charged per minute'), keine Token-Preise"
+    },
+    {
+      "name": "Mistral 7B",
+      "standort": "Edge-Inferenz-Netz (laut Pressemitteilung 180+ Standorte)",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://gcore.com/press-releases/gcore-unveils-inference-at-the-edge-bringing-ai-applications-closer-to-end-users-for-seamless-real-time-performance",
+      "status": "belegt",
+      "anmerkung": "Keine öffentlichen Token-Preise"
+    },
+    {
+      "name": "Stable Diffusion XL",
+      "standort": "Edge-Inferenz-Netz (laut Pressemitteilung 180+ Standorte)",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://gcore.com/press-releases/gcore-unveils-inference-at-the-edge-bringing-ai-applications-closer-to-end-users-for-seamless-real-time-performance",
+      "status": "belegt",
+      "anmerkung": "Bildmodell, Token-Preislogik nicht anwendbar"
+    }
+  ],
+  "vertrag": {
+    "avv": {
+      "wert": "https://gcore.com/legal",
+      "status": "belegt",
+      "quelle": "https://gcore.com/legal",
+      "anmerkung": "MSA nennt das Data Processing Agreement als 'integral and essential part' des Vertrags; Drittlandtransfers über EU-Standardvertragsklauseln (MSA §9.5.3). DPA-Volltext liegt in einem Tab des Legal-Portals, als Einzeldokument nicht direkt verlinkbar"
+    },
+    "subprozessoren": {
+      "wert": null,
+      "status": "beansprucht",
+      "quelle": "https://gcore.com/legal",
+      "anmerkung": "Keine dedizierte Subprozessoren-Liste fürs Inference-Produkt. MSA §9.4 nennt Dienstleister (HubSpot, Google, Microsoft, Adyen, Slack, Zendesk) im Controller-Kontext — ausdrücklich 'not exhaustive', Details nur auf Anfrage an privacy@gcore.lu"
+    },
+    "training_opt_out": {
+      "wert": null,
+      "status": "unbelegt",
+      "quelle": null,
+      "anmerkung": "Keine explizite vertragliche Aussage gefunden, dass Kundendaten nicht für Modelltraining genutzt werden; die Architektur (dedizierte Deployments) legt es nahe, ist aber kein prüfbares Dokument"
+    },
+    "zero_data_retention": {
+      "wert": null,
+      "status": "unbelegt",
+      "quelle": null,
+      "anmerkung": "Keine ZDR-Zusage gefunden. MSA regelt nur Löschung von Customer Content nach Vertragsende (Standard 48 Stunden)"
+    }
+  },
+  "zertifikate": [
+    {
+      "typ": "ISO/IEC 27001",
+      "status": "beansprucht",
+      "quelle": "https://gcore.com/infrastructure",
+      "anmerkung": "Eigenaussage über unabhängiges Audit; Zertifikat selbst nicht zum Download angeboten"
+    },
+    {
+      "typ": "PCI DSS",
+      "status": "beansprucht",
+      "quelle": "https://gcore.com/infrastructure",
+      "anmerkung": "Eigenaussage (jährliches QSA-Audit); Attest nicht abrufbar"
+    },
+    {
+      "typ": "SOC 2",
+      "status": "unbelegt",
+      "quelle": null,
+      "anmerkung": "Keine eigene SOC-2-Attestierung auffindbar"
+    }
+  ],
+  "ai_act": [
+    {
+      "pflicht": "GPAI-Modellanbieter-Pflichten (Art. 53 ff.)",
+      "status": "unbelegt",
+      "quelle": null,
+      "anmerkung": "Gcore hostet fremde Open-Source-Modelle als Infrastruktur-Anbieter, tritt nicht als GPAI-Modellanbieter auf; keine eigene AI-Act-Compliance-Dokumentation gefunden"
+    },
+    {
+      "pflicht": "Unterstützung der Kunden-Compliance (Datenlokalisierung)",
+      "status": "beansprucht",
+      "quelle": "https://gcore.com/blog/ai-regulations-2024-eu",
+      "anmerkung": "Marketing-Positionierung: regionale Workload-Steuerung und EU-Rechenzentren als Compliance-Mittel; zudem 'Sovereign Inference'-Pilot mit Orange Business. Keine vertragliche Zusicherung gefunden"
+    }
+  ],
+  "geprueft": "2026-08-20"
+}
