@@ -2,3 +2,7 @@ node_modules/
 *.log
 .DS_Store
 Thumbs.db
+
+# Interne Notizen — nicht ins öffentliche Repo
+outreach/mails/
+PHASE3-STATUS.md
