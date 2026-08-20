@@ -156,6 +156,11 @@ th.num { text-align: right; }
 .stempel { border: 2.5px solid var(--stempel); color: var(--stempel); border-radius: 6px; padding: 8px 16px; text-align: center; transform: rotate(3deg); font-family: "IBM Plex Mono", Consolas, monospace; }
 .stempel-zahl { display: block; font-size: 24px; font-weight: 700; }
 .stempel-text { font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; }
+.stempel-gruppe { display: flex; gap: 16px; align-items: flex-start; flex-wrap: wrap; }
+.stempel-verified { border-color: var(--ok); color: var(--ok); transform: rotate(-2deg); }
+.stempel-verified .stempel-zahl { font-size: 20px; }
+.stempel-link { display: block; font-size: 10px; margin-top: 3px; color: inherit; }
+.verified-mini { display: inline-block; font-family: "IBM Plex Mono", Consolas, monospace; font-size: 11.5px; background: var(--ok-hauch); color: var(--ok); border-radius: 3px; padding: 1px 7px; margin-left: 6px; white-space: nowrap; }
 .stammdaten { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; margin: 0; }
 .stammdaten > div { background: var(--flaeche); border: 1px solid var(--linie); border-radius: 4px; padding: 10px 14px; }
 .stammdaten dt { font-family: "IBM Plex Mono", Consolas, monospace; font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--tinte-blass); }

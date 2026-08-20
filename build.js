@@ -58,6 +58,17 @@ function statusBadge(status) {
   return `<span class="status s-${s}"><span class="dot" aria-hidden="true"></span>${STATUS_LABEL[s]}</span>`;
 }
 
+/** Verified-Stempel: nur wenn der Anbieter Nachweise eingereicht hat und wir sie geprüft haben. */
+function verifiedStempel(p, rel) {
+  if (!p.verified || !p.verified.datum) return "";
+  return `<div class="stempel stempel-verified" title="${esc(p.verified.anmerkung || "Anbieter hat Nachweise eingereicht, von uns geprüft")}"><span class="stempel-zahl">✓</span><span class="stempel-text">Verified<br>${datumDE(p.verified.datum)}</span><a class="stempel-link" href="${rel}methodik/#verified">Was heißt das?</a></div>`;
+}
+
+function verifiedMini(p) {
+  if (!p.verified || !p.verified.datum) return "";
+  return ` <span class="verified-mini" title="Verified am ${datumDE(p.verified.datum)} — Anbieter hat Nachweise eingereicht, von uns geprüft">✓&nbsp;Verified</span>`;
+}
+
 function quelleLink(quelle, geprueft) {
   const parts = [];
   if (quelle) parts.push(`<a href="${esc(quelle)}" rel="noopener nofollow" target="_blank">Quelle</a>`);
@@ -162,7 +173,7 @@ function seiteIndex(providers) {
       const zerts = zertifikateBelegt(p);
       const optOut = p.vertrag && p.vertrag.training_opt_out;
       return `<tr data-land="${esc(p.stammdaten.land)}" data-kategorie="${esc(p.kategorie)}" data-avv="${p.vertrag && p.vertrag.avv && p.vertrag.avv.status === "belegt" ? "1" : "0"}" data-name="${esc(p.name.toLowerCase())}">
-        <td><a href="anbieter/${esc(p.id)}/">${esc(p.name)}</a><span class="klein">${esc(p.stammdaten.sitz || "")}</span></td>
+        <td><a href="anbieter/${esc(p.id)}/">${esc(p.name)}</a>${verifiedMini(p)}<span class="klein">${esc(p.stammdaten.sitz || "")}</span></td>
         <td>${esc(p.stammdaten.land)}</td>
         <td>${esc(KATEGORIE_LABEL[p.kategorie] || p.kategorie)}</td>
         <td class="num">${preis === null ? "–" : "ab " + eur(preis)}</td>
@@ -296,7 +307,10 @@ function seiteAnbieter(p) {
       <h1>${esc(p.name)}</h1>
       <p class="dossier-sub">${esc(p.kurzbeschreibung || "")}</p>
     </div>
-    <div class="stempel" aria-label="Beleg-Quote ${quote} Prozent"><span class="stempel-zahl">${quote}&nbsp;%</span><span class="stempel-text">belegt</span></div>
+    <div class="stempel-gruppe">
+      <div class="stempel" aria-label="Beleg-Quote ${quote} Prozent"><span class="stempel-zahl">${quote}&nbsp;%</span><span class="stempel-text">belegt</span></div>
+      ${verifiedStempel(p, "../../")}
+    </div>
   </header>
 
   <h2>Stammdaten</h2>
@@ -326,7 +340,7 @@ function seiteAnbieter(p) {
 
   <footer class="dossier-fuss">
     <p>Zuletzt geprüft am ${datumDE(p.geprueft)}. Alle Angaben ohne Gewähr, keine Rechtsberatung.</p>
-    <p><strong>Sie arbeiten bei ${esc(p.name)}?</strong> Schicken Sie uns fehlende Nachweise und erhalten Sie den Verified-Status: <a href="mailto:${SITE.kontakt}?subject=Verifizierung%20${encodeURIComponent(p.name)}">${SITE.kontakt}</a></p>
+    <p><strong>Sie arbeiten bei ${esc(p.name)}?</strong> Schicken Sie uns fehlende Nachweise und erhalten Sie den Verified-Status — kostenlos, <a href="../../methodik/#verified">so funktioniert es</a>: <a href="mailto:${SITE.kontakt}?subject=Verifizierung%20${encodeURIComponent(p.name)}">${SITE.kontakt}</a></p>
   </footer>
 </article>`;
 
@@ -367,6 +381,7 @@ function seiteVergleich(a, b) {
     ${zeile("Zero Data Retention", feld(a, "zero_data_retention"), feld(b, "zero_data_retention"))}
     ${zeile("Zertifikate (belegt)", zerts(a), zerts(b))}
     ${zeile("Beleg-Quote", Math.round(belegQuote(a) * 100) + " %", Math.round(belegQuote(b) * 100) + " %")}
+    ${zeile("Verified", a.verified && a.verified.datum ? `<span class="verified-mini">✓&nbsp;Verified ${datumDE(a.verified.datum)}</span>` : '<span class="leer">–</span>', b.verified && b.verified.datum ? `<span class="verified-mini">✓&nbsp;Verified ${datumDE(b.verified.datum)}</span>` : '<span class="leer">–</span>')}
   </tbody>
 </table></div>`;
 
@@ -446,8 +461,15 @@ ${belegZeile("unbelegt", "Wir haben keine belastbare Angabe gefunden. Auch das i
 <h2>Prüfdatum und Korrekturen</h2>
 <p>Jede Angabe trägt das Datum ihrer letzten Prüfung. Anbieterangaben ändern sich — wenn Sie einen Fehler finden, schreiben Sie an <a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a>; wir prüfen und korrigieren mit neuem Prüfdatum.</p>
 
-<h2>Verified-Status</h2>
-<p>Anbieter, die uns fehlende Nachweise direkt zusenden, erhalten den Verified-Status mit Datum. Die Aufnahme in die Datenbank selbst ist unabhängig davon und nicht käuflich.</p>
+<h2 id="verified">Verified-Status: So funktioniert es</h2>
+<p>Anbieter, die uns fehlende Nachweise direkt zusenden, erhalten das Verified-Kennzeichen mit Datum. Der Ablauf:</p>
+<ol>
+<li><strong>Nachweise einreichen.</strong> Eine E-Mail an <a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a> mit Betreff „Verifizierung [Anbietername]" genügt. Als Nachweis zählt, was auch sonst für „belegt" gilt: Primärdokumente — Zertifikat mit Auditor, unterschriftsreifer AVV, Subprozessorenliste, Policy-Dokument. Ein Link ist so gut wie ein PDF.</li>
+<li><strong>Wir prüfen.</strong> Marketing-Aussagen, Badges und Absichtserklärungen reichen nicht — genau darum gibt es diese Datenbank. Was den Beleg-Maßstab erfüllt, wird im Profil auf „belegt" gesetzt, mit neuem Prüfdatum und verlinkter Quelle.</li>
+<li><strong>Das Kennzeichen.</strong> Das Profil erhält den Verified-Stempel mit dem Datum der Prüfung. Er bedeutet genau eines: <em>Dieser Anbieter hat aktiv Nachweise eingereicht, und wir haben sie geprüft.</em> Er ist keine Qualitäts- oder Rechtskonformitäts-Aussage.</li>
+<li><strong>Aktualität.</strong> Der Stempel trägt sein Datum sichtbar. Ändern sich Fakten wesentlich (z. B. neuer Eigentümer, ausgelaufenes Zertifikat), prüfen wir neu — das Kennzeichen bleibt nur mit aktuellem Stand bestehen.</li>
+</ol>
+<p><strong>Was Verified nicht ist:</strong> Es ist nicht käuflich, kein Ranking-Vorteil und keine Bedingung für die Aufnahme — gelistet wird, wer relevant ist, mit oder ohne Mitwirkung. Anbieter können der Listung ihrer öffentlich verfügbaren Angaben nicht widersprechen, wohl aber jederzeit Korrekturen mit Beleg verlangen.</p>
 
 <h2>Unabhängigkeit</h2>
 <p>belegbar.eu betreibt keine eigene KI-Infrastruktur und ist an keinem gelisteten Anbieter beteiligt. Etwaige künftige Sponsorings werden als solche gekennzeichnet und haben keinen Einfluss auf Statusbewertungen.</p>
