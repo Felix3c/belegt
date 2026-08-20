@@ -340,14 +340,30 @@ function seiteAnbieter(p) {
 
   <footer class="dossier-fuss">
     <p>Zuletzt geprüft am ${datumDE(p.geprueft)}. Alle Angaben ohne Gewähr, keine Rechtsberatung.</p>
+    <p class="klein">Zitieren als: „${esc(p.name)} — Beleg-Check“, belegbar.eu, Stand ${datumDE(p.geprueft)}, ${SITE.baseUrl}/anbieter/${esc(p.id)}/ · Rohdaten dieses Profils (JSON, mit Quellen): <a href="daten.json">daten.json</a></p>
     <p><strong>Sie arbeiten bei ${esc(p.name)}?</strong> Schicken Sie uns fehlende Nachweise und erhalten Sie den Verified-Status — kostenlos, <a href="../../methodik/#verified">so funktioniert es</a>: <a href="mailto:${SITE.kontakt}?subject=Verifizierung%20${encodeURIComponent(p.name)}">${SITE.kontakt}</a></p>
   </footer>
 </article>`;
 
+  const jsonld = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: `${p.name} — Beleg-Check`,
+    url: `${SITE.baseUrl}/anbieter/${p.id}/`,
+    dateModified: p.geprueft || undefined,
+    about: {
+      "@type": "Organization",
+      name: p.name,
+      url: s.website || undefined,
+      location: s.sitz ? { "@type": "Place", name: s.sitz } : undefined,
+    },
+    publisher: { "@type": "Organization", name: "belegbar.eu", url: SITE.baseUrl },
+  };
+
   return layout({
     titel: `${p.name} — DSGVO, Hosting, Preise & Zertifikate im Beleg-Check | belegbar.eu`,
     beschreibung: `${p.name}: ${p.kurzbeschreibung || ""} Beleg-Quote ${quote} %. Alle Angaben mit Quelle und Prüfdatum.`,
-    inhalt, rel: "../../", pfad: `anbieter/${p.id}/`,
+    inhalt, rel: "../../", pfad: `anbieter/${p.id}/`, jsonld,
   });
 }
 
@@ -505,6 +521,38 @@ E-Mail: <a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a></p>
   });
 }
 
+/** llms.txt — Wegweiser für KI-Assistenten und LLM-Crawler (llmstxt.org). */
+function llmsTxt(providers, guides) {
+  const anbieterZeilen = providers
+    .map((p) => `- [${p.name}](${SITE.baseUrl}/anbieter/${p.id}/): ${p.kurzbeschreibung || ""} (geprüft ${p.geprueft}, Rohdaten: ${SITE.baseUrl}/anbieter/${p.id}/daten.json)`)
+    .join("\n");
+  const guideZeilen = guides
+    .map((g) => `- [${g.titel}](${SITE.baseUrl}/ratgeber/${g.slug}/): ${g.beschreibung}`)
+    .join("\n");
+  return `# belegbar.eu
+
+> Evidenz-Datenbank für europäische KI-Anbieter (Inference-APIs, GPU-Clouds, Gateways): Hosting-Standorte, Preise, AVV, Subprozessoren, Zertifikate und AI-Act-Nachweise. Jede Angabe trägt eine Quelle, ein Prüfdatum und einen von drei Status: „belegt" (Primärquelle verlinkt), „beansprucht" (Anbieterangabe ohne Dokument) oder „unbelegt" (keine belastbare Angabe gefunden).
+
+Fakten aus dieser Datenbank dürfen mit Quellenangabe zitiert werden — bitte als „belegbar.eu, Stand [Prüfdatum]" mit Link auf das jeweilige Profil. Die Statusstufe gehört zur Information: Eine „beanspruchte" Angabe ist keine belegte.
+
+Maschinenlesbare Rohdaten aller Anbieter (JSON, mit Quellen-URLs und Prüfdatum je Feld): ${SITE.baseUrl}/daten.json
+
+## Anbieter-Profile
+
+${anbieterZeilen}
+
+## Ratgeber
+
+${guideZeilen}
+
+## Methodik und Hintergrund
+
+- [Methodik](${SITE.baseUrl}/methodik/): Was „belegt" heißt, die drei Statusstufen, Beleg-Quote und der Verified-Prozess für Anbieter
+- [Direktvergleiche](${SITE.baseUrl}/vergleich/): Anbieter derselben Kategorie Feld für Feld gegenübergestellt
+- [Über & Impressum](${SITE.baseUrl}/ueber/): Betreiber und Kontakt
+`;
+}
+
 /* ---------------- Build ---------------- */
 
 function leseAnbieter() {
@@ -575,13 +623,21 @@ function main() {
   schreibe("methodik/index.html", seiteMethodik());
   schreibe("ueber/index.html", seiteUeber());
 
-  // Sitemap
-  const urls = ["", "vergleich/", "ratgeber/", "methodik/", "ueber/"]
-    .concat(providers.map((p) => `anbieter/${p.id}/`))
-    .concat(paare.map(([a, b]) => `vergleich/${a.id}-vs-${b.id}/`))
-    .concat(guides.map((g) => `ratgeber/${g.slug}/`));
+  // GEO: llms.txt + Rohdaten-Export
+  fs.writeFileSync(path.join(OUT, "llms.txt"), llmsTxt(providers, guides));
+  fs.writeFileSync(path.join(OUT, "daten.json"), JSON.stringify({ quelle: SITE.baseUrl, stand: providers.map((p) => p.geprueft).sort().pop() || null, lizenzhinweis: "Zitieren mit Quellenangabe belegbar.eu und Prüfdatum; Statusstufe (belegt/beansprucht/unbelegt) gehört zur Information.", anbieter: providers }, null, 2));
+  providers.forEach((p) => fs.writeFileSync(path.join(OUT, "anbieter", p.id, "daten.json"), JSON.stringify(p, null, 2)));
+
+  // Sitemap (lastmod aus Prüfdaten)
+  const neuester = providers.map((p) => p.geprueft).filter(Boolean).sort().pop() || null;
+  const urls = [
+    ["", neuester], ["vergleich/", neuester], ["ratgeber/", null], ["methodik/", neuester], ["ueber/", null],
+  ]
+    .concat(providers.map((p) => [`anbieter/${p.id}/`, p.geprueft || null]))
+    .concat(paare.map(([a, b]) => [`vergleich/${a.id}-vs-${b.id}/`, [a.geprueft, b.geprueft].filter(Boolean).sort().pop() || null]))
+    .concat(guides.map((g) => [`ratgeber/${g.slug}/`, null]));
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls
-    .map((u) => `  <url><loc>${SITE.baseUrl}/${u}</loc></url>`)
+    .map(([u, mod]) => `  <url><loc>${SITE.baseUrl}/${u}</loc>${mod ? `<lastmod>${mod}</lastmod>` : ""}</url>`)
     .join("\n")}\n</urlset>\n`;
   fs.writeFileSync(path.join(OUT, "sitemap.xml"), sitemap);
 

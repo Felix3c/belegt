@@ -1,0 +1,113 @@
+{
+  "id": "nebius",
+  "name": "Nebius (Token Factory)",
+  "kategorie": "inference-api",
+  "kurzbeschreibung": "Inference-Plattform der Nebius Group N.V. mit EU-Sitz in Amsterdam und EU-Rechenzentren (Finnland, Frankreich) — aber hervorgegangen aus Yandex N.V., Nasdaq-notiert (NBIS), mit US-Kapitalverflechtung und US-Subprozessoren im Betrieb; souveränitätsbewusste Nutzer sollten das einpreisen.",
+  "stammdaten": {
+    "sitz": "Amsterdam, Niederlande",
+    "land": "NL",
+    "mutterkonzern": "Nebius Group N.V. (Nasdaq: NBIS, hervorgegangen aus Yandex N.V.)",
+    "us_eigner": true,
+    "gegruendet": 2024,
+    "website": "https://nebius.com"
+  },
+  "modelle": [
+    {
+      "name": "gpt-oss-120b",
+      "standort": "EU (Finnland/Frankreich); US-Region optional",
+      "preis_input_1m_eur": 0.15,
+      "preis_output_1m_eur": 0.6,
+      "quelle": "https://openrouter.ai/provider/nebius",
+      "status": "belegt",
+      "anmerkung": "Preis in USD; offizielle Preisseite nur nach Login, Preise über das Live-Listing bei OpenRouter verifiziert"
+    },
+    {
+      "name": "Qwen3-235B-A22B-Instruct",
+      "standort": "EU (Finnland/Frankreich); US-Region optional",
+      "preis_input_1m_eur": 0.2,
+      "preis_output_1m_eur": 0.6,
+      "quelle": "https://openrouter.ai/provider/nebius",
+      "status": "belegt",
+      "anmerkung": "Preis in USD"
+    },
+    {
+      "name": "Llama 3.3 70B Instruct",
+      "standort": "EU (Finnland/Frankreich); US-Region optional",
+      "preis_input_1m_eur": 0.13,
+      "preis_output_1m_eur": 0.4,
+      "quelle": "https://openrouter.ai/provider/nebius",
+      "status": "belegt",
+      "anmerkung": "Preis in USD"
+    },
+    {
+      "name": "GLM-5.1",
+      "standort": "EU (Finnland/Frankreich); US-Region optional",
+      "preis_input_1m_eur": 1.4,
+      "preis_output_1m_eur": 4.4,
+      "quelle": "https://openrouter.ai/provider/nebius",
+      "status": "belegt",
+      "anmerkung": "Preis in USD"
+    }
+  ],
+  "vertrag": {
+    "avv": {
+      "wert": "https://docs.nebius.com/legal/dpa",
+      "status": "belegt",
+      "quelle": "https://docs.nebius.com/legal/",
+      "anmerkung": "Standard-DPA im offiziellen Legal-Verzeichnis; Custom DPAs für Enterprise möglich"
+    },
+    "subprozessoren": {
+      "wert": "https://docs.nebius.com/legal/sub-processors",
+      "status": "belegt",
+      "quelle": "https://docs.nebius.com/legal/sub-processors",
+      "anmerkung": "Liste enthält mehrere US-Subprozessoren (HubSpot, Slack, Oracle/NetSuite, Microsoft, Sentry) sowie konzerninterne Subprozessoren u.a. in USA, UK, Israel und Serbien — relevant für die Souveränitätsbewertung"
+    },
+    "training_opt_out": {
+      "wert": true,
+      "status": "belegt",
+      "quelle": "https://nebius.com/services/token-factory",
+      "anmerkung": "Produktseite: 'requests and outputs are never stored or reused for training' (im Zero-Retention-Modus)"
+    },
+    "zero_data_retention": {
+      "wert": true,
+      "status": "beansprucht",
+      "quelle": "https://nebius.com/services/token-factory",
+      "anmerkung": "'Zero-retention mode' beworben; ob Standard oder Opt-in, ist nicht eindeutig — vor Vertragsschluss klären"
+    }
+  },
+  "zertifikate": [
+    {
+      "typ": "ISO 27001",
+      "status": "belegt",
+      "quelle": "https://nebius.com/trust-center",
+      "anmerkung": ""
+    },
+    {
+      "typ": "SOC 2 Type II",
+      "status": "belegt",
+      "quelle": "https://nebius.com/trust-center",
+      "anmerkung": "Inkl. HIPAA-Mapping; zudem SOC 3"
+    },
+    {
+      "typ": "ISO 27701",
+      "status": "belegt",
+      "quelle": "https://nebius.com/trust-center",
+      "anmerkung": "Zusätzlich ISO 27018, 27799, 22301, 27032 gelistet"
+    },
+    {
+      "typ": "CSA STAR Level 1",
+      "status": "belegt",
+      "quelle": "https://nebius.com/trust-center",
+      "anmerkung": ""
+    }
+  ],
+  "ai_act": [
+    {
+      "pflicht": "GPAI Code of Practice unterzeichnet",
+      "status": "unbelegt",
+      "quelle": null,
+      "anmerkung": "Keine Unterzeichnung auffindbar; hostet Open-Source-Fremdmodelle. Trust Center nennt NIS 2 und DORA, aber keine AI-Act-Dokumentation"
+    }
+  ],
+  "geprueft": "2026-08-19"
+}

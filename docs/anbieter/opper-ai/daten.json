@@ -1,0 +1,110 @@
+{
+  "id": "opper-ai",
+  "name": "Opper AI",
+  "kategorie": "gateway",
+  "kurzbeschreibung": "Schwedischer LLM-Router (Opper Technology AB, gehostet auf AWS Stockholm) für 700+ Modelle — neben EU-Providern (Mistral, Inceptron, Berget AI, Infercom, Regolo) auch zahlreiche US-Provider; EU-Residency ist wählbar, aber nicht der Default für alle Modelle.",
+  "stammdaten": {
+    "sitz": "Stockholm, Schweden",
+    "land": "SE",
+    "mutterkonzern": "Opper Technology AB",
+    "us_eigner": false,
+    "gegruendet": 2023,
+    "website": "https://opper.ai"
+  },
+  "modelle": [
+    {
+      "name": "Claude Opus 5",
+      "standort": "EU + US (mehrere Provider)",
+      "preis_input_1m_eur": 5,
+      "preis_output_1m_eur": 25,
+      "quelle": "https://opper.ai/models",
+      "status": "belegt",
+      "anmerkung": "Preis in USD; Pass-through + 3% Gateway-Gebühr"
+    },
+    {
+      "name": "Claude Sonnet 5",
+      "standort": "EU + US (mehrere Provider)",
+      "preis_input_1m_eur": 2,
+      "preis_output_1m_eur": 10,
+      "quelle": "https://opper.ai/models",
+      "status": "belegt",
+      "anmerkung": "Preis in USD"
+    },
+    {
+      "name": "GPT-5.4",
+      "standort": "EU + US (mehrere Provider)",
+      "preis_input_1m_eur": 2.5,
+      "preis_output_1m_eur": 15,
+      "quelle": "https://opper.ai/models",
+      "status": "belegt",
+      "anmerkung": "Preis in USD"
+    },
+    {
+      "name": "DeepSeek V4 Pro",
+      "standort": "EU + US (mehrere Provider)",
+      "preis_input_1m_eur": 1.3,
+      "preis_output_1m_eur": 2.6,
+      "quelle": "https://opper.ai/models",
+      "status": "belegt",
+      "anmerkung": "Preis in USD"
+    },
+    {
+      "name": "Gemini 3.5 Flash",
+      "standort": "EU + US (mehrere Provider)",
+      "preis_input_1m_eur": 1.5,
+      "preis_output_1m_eur": 9,
+      "quelle": "https://opper.ai/models",
+      "status": "belegt",
+      "anmerkung": "Preis in USD"
+    }
+  ],
+  "vertrag": {
+    "avv": {
+      "wert": "https://opper.ai/data-processing-agreement",
+      "status": "belegt",
+      "quelle": "https://opper.ai/data-processing-agreement",
+      "anmerkung": "Öffentliches DPA (Stand 14.03.2026); erlaubt Verarbeitung außerhalb des EWR unter DSGVO-Bedingungen (SCCs auf Anfrage)"
+    },
+    "subprozessoren": {
+      "wert": "https://opper.ai/sub-processors",
+      "status": "belegt",
+      "quelle": "https://opper.ai/sub-processors",
+      "anmerkung": "Detaillierte Liste inkl. vieler US-Inference-Provider (teils bis 30 Tage Retention) sowie EU-Providern (Mistral FR, Inceptron SE, Berget AI, Infercom, Regolo)"
+    },
+    "training_opt_out": {
+      "wert": true,
+      "status": "belegt",
+      "quelle": "https://opper.ai/security-overview",
+      "anmerkung": "'Opper does not use customer data to train models'; im DPA selbst nicht explizit; Upstream-Retention bis 30 Tage je nach Route"
+    },
+    "zero_data_retention": {
+      "wert": true,
+      "status": "beansprucht",
+      "quelle": "https://opper.ai/security-overview",
+      "anmerkung": "Inhalte werden im Gateway-Tarif nicht gespeichert; echte Zero Retention nur als Enterprise-Konfiguration, kein genereller Default"
+    }
+  },
+  "zertifikate": [
+    {
+      "typ": "ISO 27001",
+      "status": "unbelegt",
+      "quelle": null,
+      "anmerkung": "Security Overview nennt keine Zertifikate"
+    },
+    {
+      "typ": "SOC 2",
+      "status": "unbelegt",
+      "quelle": null,
+      "anmerkung": "Nicht erwähnt"
+    }
+  ],
+  "ai_act": [
+    {
+      "pflicht": "Logging/Audit-Trails zur Unterstützung von EU-AI-Act-, DORA- und NIS2-Reviews",
+      "status": "beansprucht",
+      "quelle": "https://opper.ai/ai-compliance",
+      "anmerkung": "Compliance-Seite bewirbt Call-Logging und Audit-Trail; keine konkreten AI-Act-Konformitätsdokumente"
+    }
+  ],
+  "geprueft": "2026-08-19"
+}
