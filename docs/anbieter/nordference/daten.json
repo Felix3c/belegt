@@ -1,0 +1,105 @@
+{
+  "id": "nordference",
+  "name": "Nordference",
+  "kategorie": "inference-api",
+  "kurzbeschreibung": "Estnischer Inference-Anbieter (Rechtsträger 3NV OÜ, Tallinner Rechenzentrumsbetreiber) für kleine Open-Source-Modelle (1B–12B), nach eigenen Angaben vollständig in Estland gehostet — sehr dünne öffentliche Dokumentation.",
+  "stammdaten": {
+    "sitz": "Tallinn, Estland",
+    "land": "EE",
+    "mutterkonzern": "3NV OÜ",
+    "us_eigner": false,
+    "gegruendet": null,
+    "website": "https://nordference.ai"
+  },
+  "modelle": [
+    {
+      "name": "Llama 3.1 8B Instruct",
+      "standort": "Estland",
+      "preis_input_1m_eur": 0.055,
+      "preis_output_1m_eur": 0.11,
+      "quelle": "https://nordference.ai/models",
+      "status": "belegt"
+    },
+    {
+      "name": "Mistral 7B Instruct",
+      "standort": "Estland",
+      "preis_input_1m_eur": 0.05,
+      "preis_output_1m_eur": 0.1,
+      "quelle": "https://nordference.ai/models",
+      "status": "belegt"
+    },
+    {
+      "name": "Gemma 2 9B Instruct",
+      "standort": "Estland",
+      "preis_input_1m_eur": 0.08,
+      "preis_output_1m_eur": 0.16,
+      "quelle": "https://nordference.ai/models",
+      "status": "belegt"
+    },
+    {
+      "name": "CodeLlama 7B Instruct",
+      "standort": "Estland",
+      "preis_input_1m_eur": 0.06,
+      "preis_output_1m_eur": 0.12,
+      "quelle": "https://nordference.ai/models",
+      "status": "belegt"
+    },
+    {
+      "name": "Llama 3.2 3B Instruct",
+      "standort": "Estland",
+      "preis_input_1m_eur": 0.03,
+      "preis_output_1m_eur": 0.06,
+      "quelle": "https://nordference.ai/models",
+      "status": "belegt"
+    }
+  ],
+  "vertrag": {
+    "avv": {
+      "wert": null,
+      "status": "beansprucht",
+      "quelle": "https://nordference.ai/gdpr",
+      "anmerkung": "GDPR-Seite: 'Enterprise customers can request a DPA' — kein öffentliches Dokument"
+    },
+    "subprozessoren": {
+      "wert": null,
+      "status": "unbelegt",
+      "quelle": null,
+      "anmerkung": "Keine Subprozessorliste auffindbar; unklar, ob Inference auf eigener Hardware (3NV TLL-1) oder bei Dritten läuft"
+    },
+    "training_opt_out": {
+      "wert": null,
+      "status": "unbelegt",
+      "quelle": null,
+      "anmerkung": "Training mit Kundendaten wird auf GDPR- und Privacy-Seiten nicht thematisiert"
+    },
+    "zero_data_retention": {
+      "wert": true,
+      "status": "belegt",
+      "quelle": "https://nordference.ai/gdpr",
+      "anmerkung": "GDPR-Seite: 'Zero retention for inference data'; alle Daten laut Anbieter innerhalb der EU (Estland)"
+    }
+  },
+  "zertifikate": [
+    {
+      "typ": "ISO 27001",
+      "status": "beansprucht",
+      "quelle": "https://nordference.ai",
+      "anmerkung": "Nur als Badge/Claim auf der Startseite; kein Zertifikat, kein Auditor, kein Nachweis auffindbar"
+    },
+    {
+      "typ": "SOC 2 Type II",
+      "status": "beansprucht",
+      "quelle": "https://nordference.ai",
+      "anmerkung": "Nur Startseiten-Claim, kein Report auffindbar"
+    }
+  ],
+  "ai_act": [
+    {
+      "pflicht": "Transparenz-/Compliance-Angaben zum EU AI Act",
+      "status": "unbelegt",
+      "quelle": null,
+      "anmerkung": "NIS2/DORA als Claim, zum AI Act keinerlei Angaben"
+    }
+  ],
+  "geprueft": "2026-08-19"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "stackit",
+  "name": "STACKIT",
+  "kategorie": "inference-api",
+  "kurzbeschreibung": "Souveräne deutsche Cloud der Schwarz Gruppe, die mit AI Model Serving offene LLMs (u.a. Llama, GPT-OSS, Qwen, Gemma) über eine OpenAI-kompatible API aus deutschen Rechenzentren bereitstellt.",
+  "stammdaten": {
+    "sitz": "Neckarsulm, Deutschland",
+    "land": "DE",
+    "mutterkonzern": "Schwarz Gruppe",
+    "us_eigner": false,
+    "gegruendet": 2019,
+    "website": "https://stackit.com"
+  },
+  "modelle": [
+    {
+      "name": "Llama 3.3 70B",
+      "standort": "Germany South (EU01), Deutschland",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models/",
+      "status": "belegt",
+      "anmerkung": "Modell und Region belegt; Preise nur als Kategorien (Standard 0,15/0,25 €, Plus 0,45/0,65 €, Premium 1,50/1,75 € je 1M In/Out) — Zuordnung Modell→Kategorie nicht öffentlich, Preis daher nicht als belegt ausgewiesen."
+    },
+    {
+      "name": "GPT-OSS 120B",
+      "standort": "Germany South (EU01), Deutschland",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models/",
+      "status": "belegt",
+      "anmerkung": "Preis siehe Kategorien-Anmerkung."
+    },
+    {
+      "name": "Qwen3-VL 235B",
+      "standort": "Germany South (EU01), Deutschland",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models/",
+      "status": "belegt",
+      "anmerkung": "Preis siehe Kategorien-Anmerkung."
+    },
+    {
+      "name": "Gemma 4 31B",
+      "standort": "Germany South (EU01), Deutschland",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models/",
+      "status": "belegt",
+      "anmerkung": "Preis siehe Kategorien-Anmerkung."
+    }
+  ],
+  "vertrag": {
+    "avv": {
+      "wert": "https://www.stackit.de/wp-content/uploads/2022/06/Auftragsverarbeitungsvertrag_STACKIT-Cloud_Stand-Januar-2022_Version-1.0.pdf",
+      "status": "belegt",
+      "quelle": "https://www.stackit.de/wp-content/uploads/2022/06/Auftragsverarbeitungsvertrag_STACKIT-Cloud_Stand-Januar-2022_Version-1.0.pdf",
+      "anmerkung": "AVV STACKIT Cloud, Stand Januar 2022, Version 1.0 (öffentlich)."
+    },
+    "subprozessoren": {
+      "wert": null,
+      "status": "unbelegt",
+      "quelle": null,
+      "anmerkung": "Keine öffentlich zugängliche Subprozessorenliste gefunden; Unterauftragsverhältnisse werden im AVV bzw. C5-Bericht geregelt."
+    },
+    "training_opt_out": {
+      "wert": true,
+      "status": "belegt",
+      "quelle": "https://stackit.com/en/products/data-ai/stackit-ai-model-serving",
+      "anmerkung": "Produktseite: 'Your data and queries are neither stored nor used to train models.'"
+    },
+    "zero_data_retention": {
+      "wert": true,
+      "status": "belegt",
+      "quelle": "https://stackit.com/en/products/data-ai/stackit-ai-model-serving",
+      "anmerkung": "Gleiche Quelle: Daten und Anfragen werden nicht gespeichert."
+    }
+  },
+  "zertifikate": [
+    {
+      "typ": "ISO 27001",
+      "status": "belegt",
+      "quelle": "https://stackit.com/en/why-stackit/benefits/certificates",
+      "anmerkung": "ISO 27001:2022, zusätzlich ISO 27017 und ISO 27018."
+    },
+    {
+      "typ": "BSI C5",
+      "status": "belegt",
+      "quelle": "https://stackit.com/en/why-stackit/benefits/certificates",
+      "anmerkung": "C5 Typ 2; bestätigt per Pressemitteilung Schwarz Digits."
+    },
+    {
+      "typ": "SOC 2",
+      "status": "belegt",
+      "quelle": "https://stackit.com/en/why-stackit/benefits/certificates",
+      "anmerkung": "ISAE 3000 (SOC 2) und ISAE 3402 begleitend zum C5-Testat."
+    },
+    {
+      "typ": "TISAX",
+      "status": "belegt",
+      "quelle": "https://stackit.com/en/why-stackit/benefits/certificates",
+      "anmerkung": "TISAX Level 3 (Assessment ID ATA163-1, über ENX-Portal einsehbar)."
+    }
+  ],
+  "ai_act": [
+    {
+      "pflicht": "Art.-53-Transparenzdokumentation",
+      "status": "unbelegt",
+      "quelle": null,
+      "anmerkung": "STACKIT betreibt Fremdmodelle; GPAI-Pflichten liegen bei den Modellherstellern. Keine eigene AI-Act-Dokumentation gefunden."
+    }
+  ],
+  "geprueft": "2026-08-19"
+}

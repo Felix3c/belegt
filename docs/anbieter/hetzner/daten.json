@@ -1,0 +1,68 @@
+{
+  "id": "hetzner",
+  "name": "Hetzner",
+  "kategorie": "cloud",
+  "kurzbeschreibung": "Deutscher Hosting- und Cloud-Anbieter, dessen Kerngeschäft dedizierte GPU-Server ist und der zusätzlich eine ausdrücklich experimentelle, derzeit kostenlose OpenAI-kompatible Inference-API ohne SLA und ohne Produktionsfreigabe betreibt.",
+  "stammdaten": {
+    "sitz": "Gunzenhausen, Deutschland",
+    "land": "DE",
+    "mutterkonzern": null,
+    "us_eigner": false,
+    "gegruendet": 1997,
+    "website": "https://www.hetzner.com"
+  },
+  "modelle": [
+    {
+      "name": "Qwen3.6-35B-A3B-FP8 (experimentell)",
+      "standort": null,
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://docs.hetzner.com/general/company-and-policy/experiments/inference/",
+      "status": "belegt",
+      "anmerkung": "Einziges Modell der experimentellen Inference-API; kostenlos, 'as is', ohne Verfügbarkeitsgarantie; RZ-Standort der Instanz nicht spezifiziert (Hetzner-RZ: Nürnberg, Falkenstein, Helsinki)."
+    }
+  ],
+  "vertrag": {
+    "avv": {
+      "wert": "https://www.hetzner.com/AV/DPA_en.pdf",
+      "status": "belegt",
+      "quelle": "https://www.hetzner.com/AV/DPA_en.pdf",
+      "anmerkung": "DPA-PDF nach Art. 28 DSGVO (Abschluss über Kundenkonto); TOMs öffentlich, extern geprüft (TÜV Rheinland). Ob die experimentelle Inference-API vom AVV erfasst ist, ist nicht dokumentiert."
+    },
+    "subprozessoren": {
+      "wert": "https://www.hetzner.com/AV/subunternehmer.pdf",
+      "status": "belegt",
+      "quelle": "https://www.hetzner.com/AV/subunternehmer.pdf",
+      "anmerkung": "Öffentliche Subunternehmerliste; enthält auch Nicht-EU-Standorte (Finnland, USA, Singapur) für Colocation/Support."
+    },
+    "training_opt_out": {
+      "wert": null,
+      "status": "unbelegt",
+      "quelle": null,
+      "anmerkung": "Inference-Doku macht keine Angabe zu Training mit Prompts; Hetzner trainiert keine eigenen Modelle, eine explizite Zusicherung fehlt aber."
+    },
+    "zero_data_retention": {
+      "wert": null,
+      "status": "unbelegt",
+      "quelle": null,
+      "anmerkung": "Keine Angabe zur Speicherung/Retention von Prompts in der Inference-Dokumentation."
+    }
+  },
+  "zertifikate": [
+    {
+      "typ": "ISO 27001",
+      "status": "belegt",
+      "quelle": "https://www.hetzner.com/unternehmen/zertifizierung/",
+      "anmerkung": "ISO/IEC 27001:2022 (SOCOTEC), Scope: alle Hosting-Services und Rechenzentren. BSI C5, SOC 2, TISAX werden nicht genannt."
+    }
+  ],
+  "ai_act": [
+    {
+      "pflicht": "Art.-53-Transparenzdokumentation",
+      "status": "unbelegt",
+      "quelle": null,
+      "anmerkung": "Hetzner serviert ein Fremdmodell (Qwen, Apache 2.0); Art.-53-Pflichten liegen beim Modellhersteller. Keine AI-Act-Dokumentation gefunden."
+    }
+  ],
+  "geprueft": "2026-08-19"
+}
