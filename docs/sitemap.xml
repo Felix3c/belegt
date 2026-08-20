@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://belegbar.eu/</loc><lastmod>2026-08-19</lastmod></url>
-  <url><loc>https://belegbar.eu/vergleich/</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://belegbar.eu/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/</loc><lastmod>2026-08-20</lastmod></url>
   <url><loc>https://belegbar.eu/ratgeber/</loc></url>
-  <url><loc>https://belegbar.eu/methodik/</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://belegbar.eu/methodik/</loc><lastmod>2026-08-20</lastmod></url>
   <url><loc>https://belegbar.eu/ueber/</loc></url>
   <url><loc>https://belegbar.eu/anbieter/aleph-alpha/</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://belegbar.eu/anbieter/black-forest-labs/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/anbieter/deepl/</loc><lastmod>2026-08-20</lastmod></url>
   <url><loc>https://belegbar.eu/anbieter/eurouter/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://belegbar.eu/anbieter/exoscale/</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://belegbar.eu/anbieter/gcore/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/anbieter/greenpt/</loc><lastmod>2026-08-20</lastmod></url>
   <url><loc>https://belegbar.eu/anbieter/hetzner/</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://belegbar.eu/anbieter/infomaniak/</loc><lastmod>2026-08-20</lastmod></url>
   <url><loc>https://belegbar.eu/anbieter/ionos/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://belegbar.eu/anbieter/lyceum/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://belegbar.eu/anbieter/mistral/</loc><lastmod>2026-08-19</lastmod></url>
@@ -21,10 +26,45 @@
   <url><loc>https://belegbar.eu/anbieter/scaleway/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://belegbar.eu/anbieter/stackit/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://belegbar.eu/anbieter/t-systems/</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/aleph-alpha-vs-black-forest-labs/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/aleph-alpha-vs-deepl/</loc><lastmod>2026-08-20</lastmod></url>
   <url><loc>https://belegbar.eu/vergleich/aleph-alpha-vs-mistral/</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/black-forest-labs-vs-deepl/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/black-forest-labs-vs-mistral/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/deepl-vs-mistral/</loc><lastmod>2026-08-20</lastmod></url>
   <url><loc>https://belegbar.eu/vergleich/eurouter-vs-opper-ai/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://belegbar.eu/vergleich/eurouter-vs-requesty/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://belegbar.eu/vergleich/exoscale-vs-hetzner/</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/gcore-vs-greenpt/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/gcore-vs-infomaniak/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/gcore-vs-ionos/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/gcore-vs-lyceum/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/gcore-vs-nebius/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/gcore-vs-nordference/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/gcore-vs-ovhcloud/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/gcore-vs-regolo/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/gcore-vs-scaleway/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/gcore-vs-stackit/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/gcore-vs-t-systems/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/greenpt-vs-infomaniak/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/greenpt-vs-ionos/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/greenpt-vs-lyceum/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/greenpt-vs-nebius/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/greenpt-vs-nordference/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/greenpt-vs-ovhcloud/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/greenpt-vs-regolo/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/greenpt-vs-scaleway/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/greenpt-vs-stackit/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/greenpt-vs-t-systems/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/infomaniak-vs-ionos/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/infomaniak-vs-lyceum/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/infomaniak-vs-nebius/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/infomaniak-vs-nordference/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/infomaniak-vs-ovhcloud/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/infomaniak-vs-regolo/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/infomaniak-vs-scaleway/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/infomaniak-vs-stackit/</loc><lastmod>2026-08-20</lastmod></url>
+  <url><loc>https://belegbar.eu/vergleich/infomaniak-vs-t-systems/</loc><lastmod>2026-08-20</lastmod></url>
   <url><loc>https://belegbar.eu/vergleich/ionos-vs-lyceum/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://belegbar.eu/vergleich/ionos-vs-nebius/</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://belegbar.eu/vergleich/ionos-vs-nordference/</loc><lastmod>2026-08-19</lastmod></url>

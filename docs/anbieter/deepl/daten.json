@@ -1,0 +1,131 @@
+{
+  "id": "deepl",
+  "name": "DeepL",
+  "kategorie": "modell-anbieter",
+  "kurzbeschreibung": "Kölner Anbieter von KI-Übersetzung und Schreibassistenz (DeepL SE, gegründet 2017) mit eigenen, in-house trainierten Modellen. Für Geschäftskunden gibt es neben DeepL Pro eine REST-API (Translate, Write, Voice) mit zeichenbasierter Abrechnung und zugesicherter Nicht-Nutzung von Kundendaten fürs Training.",
+  "stammdaten": {
+    "sitz": "Köln, Deutschland",
+    "land": "DE",
+    "mutterkonzern": null,
+    "us_eigner": false,
+    "gegruendet": 2017,
+    "website": "https://www.deepl.com"
+  },
+  "modelle": [
+    {
+      "name": "DeepL API Developer (Free)",
+      "standort": "EWR (DeepL-eigene Rechenzentren Island/Schweden); Self-Serve-Verträge ab 13.02.2025 ggf. auch AWS",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://www.deepl.com/en/pro#api",
+      "status": "belegt",
+      "anmerkung": "Kostenloser Testplan: 1 Mio. Zeichen insgesamt, 1 API-Key, ohne Speech-to-Text. Abrechnung pro Zeichen, nicht pro Token"
+    },
+    {
+      "name": "DeepL API Growth (Übersetzung, Write, Voice)",
+      "standort": "EWR (Island/Schweden); AWS USA/Japan nur auf Kundenwunsch",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://www.deepl.com/en/pro#api",
+      "status": "belegt",
+      "anmerkung": "Zeichenbasiert: 23,80 €/Monat (jährlich, inkl. MwSt., DE-Preisansicht 20.08.2026) + Verbrauch oberhalb der Inklusivmengen (12 Mio. Zeichen/Jahr, 120 h Speech-to-Text/Jahr); Pay-as-you-go-Satz je 1M Zeichen öffentlich nicht beziffert, erst im Checkout sichtbar"
+    },
+    {
+      "name": "DeepL API Enterprise",
+      "standort": "EWR (Island/Schweden); AWS USA/Japan auf Kundenwunsch",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://www.deepl.com/en/pro#api",
+      "status": "belegt",
+      "anmerkung": "Individuelle Preise mit vorab gekauften Kontingenten; Admin-API, Audit-Logs 2 Jahre"
+    },
+    {
+      "name": "DeepL Pro Translator (Individual/Team/Business, ohne API)",
+      "standort": "EWR (Island/Schweden)",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://www.deepl.com/en/pro",
+      "status": "belegt",
+      "anmerkung": "Nutzerbasierte Abos (DE, inkl. MwSt., jährlich): Individual 7,49 €, Team 24,99 €, Business 49,99 € je Nutzer/Monat; als Kontext aufgenommen, da DSB-relevant"
+    }
+  ],
+  "vertrag": {
+    "avv": {
+      "wert": null,
+      "status": "belegt",
+      "quelle": "https://www.deepl.com/en/pro-license",
+      "anmerkung": "Existenz vertraglich belegt: Pro-AGB Ziff. 8.1.5 verpflichtet zum Abschluss von 'DeepL's data processing agreement (which shall be provided by DeepL)'. Kein öffentlicher Direktlink; AVV liegt für Kunden im Kundenkonto. Für den Finanzsektor ergänzend DORA-Infoseite mit Audit-Recht: deepl.com/en/dora-info"
+    },
+    "subprozessoren": {
+      "wert": null,
+      "status": "beansprucht",
+      "quelle": "https://trust.deepl.com/",
+      "anmerkung": "Keine öffentliche Gesamtliste; laut Anbieter in Annex 1 der AVV (nur für Kunden). Im Trust Center ist die Rubrik 'Subprocessors' zugriffsbeschränkt; konkret veröffentlicht ist ein Transfer Impact Assessment für AWS als Subprozessor"
+    },
+    "training_opt_out": {
+      "wert": true,
+      "status": "belegt",
+      "quelle": "https://www.deepl.com/en/products/api",
+      "anmerkung": "Bei Bezahlprodukten standardmäßig kein Training: 'Pro customer data is never used to train DeepL's models'; Plan-Vergleich weist 'No data training' für alle API- und Pro-Pläne aus. Achtung: gilt nicht für den kostenlosen Übersetzer"
+    },
+    "zero_data_retention": {
+      "wert": true,
+      "status": "belegt",
+      "quelle": "https://www.deepl.com/en/pro-license",
+      "anmerkung": "Pro-AGB Ziff. 3.1.2: nur temporäre Speicherung, soweit technisch nötig; Support-Doku: 'texts are deleted immediately after the translation'. Einschränkungen: bei Fehlern verschlüsselte Speicherung bis max. 72 h (Debugging), aktiv gespeicherte Inhalte (Glossare) 90 Tage nach Vertragsende gelöscht — kein absolutes Zero Retention, aber keine dauerhafte Speicherung per Default"
+    }
+  },
+  "zertifikate": [
+    {
+      "typ": "ISO/IEC 27001:2022",
+      "status": "belegt",
+      "quelle": "https://trust.deepl.com/",
+      "anmerkung": "Im Trust Center (SafeBase-Portal) ausgewiesen; Auditor TÜV Rheinland Cert GmbH, Zertifikat öffentlich abrufbar. Hinweis: trust.deepl.com blockt automatisierte Abrufe, im Browser erreichbar"
+    },
+    {
+      "typ": "SOC 2 Type II",
+      "status": "belegt",
+      "quelle": "https://trust.deepl.com/",
+      "anmerkung": "Berichtszeitraum 01.01.–30.06.2025; auch auf deepl.com/en/pro-data-security beworben, Bericht als Download"
+    },
+    {
+      "typ": "HIPAA",
+      "status": "beansprucht",
+      "quelle": "https://www.deepl.com/en/products/api",
+      "anmerkung": "Als 'certification' beworben; HIPAA kennt keine formale Zertifizierung, kein Prüfer genannt. Nur für US-Gesundheitskontext relevant"
+    },
+    {
+      "typ": "BSI C5",
+      "status": "beansprucht",
+      "quelle": "https://trust.deepl.com/",
+      "anmerkung": "'Committed to meeting the high standards of the C5 framework' — Selbstverpflichtung, kein C5-Testat nachgewiesen"
+    },
+    {
+      "typ": "Externe Penetrationstests",
+      "status": "belegt",
+      "quelle": "https://trust.deepl.com/",
+      "anmerkung": "Regelmäßige Tests durch wechselnde unabhängige Prüfer; Berichte auf Anfrage"
+    }
+  ],
+  "ai_act": [
+    {
+      "pflicht": "GPAI-Verhaltenskodex (Code of Practice, Art. 53/55)",
+      "status": "unbelegt",
+      "quelle": null,
+      "anmerkung": "Keine öffentliche Aussage zur Unterzeichnung; DeepL taucht in der Signatory-Liste des EU AI Office nicht auf (geprüft 20.08.2026). Ob DeepLs In-house-Modelle als GPAI einzustufen sind, ist offen"
+    },
+    {
+      "pflicht": "AI-Governance / Responsible-AI-Dokumentation",
+      "status": "beansprucht",
+      "quelle": "https://trust.deepl.com/",
+      "anmerkung": "Trust Center listet 'AI Governance' und ein 'Responsible AI Statement'; Inhalte zugriffsbeschränkt, ohne öffentlich prüfbaren Text"
+    },
+    {
+      "pflicht": "AI-Act-spezifische Kundeninformation (Art. 50)",
+      "status": "unbelegt",
+      "quelle": null,
+      "anmerkung": "Keine dedizierte AI-Act-Infoseite gefunden; für den Finanzsektor existiert eine DORA-Seite (deepl.com/en/dora-info), die DeepL als ICT-Drittdienstleister für 'non-critical functions' einordnet"
+    }
+  ],
+  "geprueft": "2026-08-20"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "black-forest-labs",
+  "name": "Black Forest Labs",
+  "kategorie": "modell-anbieter",
+  "kurzbeschreibung": "Bildmodell-Labor aus Freiburg (gegründet 2024 von Ex-Stability-AI-Forschern), bekannt für die FLUX-Modellfamilie. Gehostete Bild-/Video-API mit wählbarem EU- oder US-Cluster; seit der Finanzierungsrunde Ende 2025 ist die Konzernspitze eine US-Gesellschaft (Delaware Inc.), die deutsche BFL GmbH bleibt Datenverantwortliche für den EWR.",
+  "stammdaten": { "sitz": "Freiburg, Deutschland", "land": "DE", "mutterkonzern": "Black Forest Labs Inc. (Delaware/San Francisco, USA)", "us_eigner": true, "gegruendet": 2024, "website": "https://bfl.ai" },
+  "modelle": [
+    { "name": "FLUX.2 [pro]", "standort": "Region wählbar: global (api.bfl.ai), EU-Cluster (api.eu.bfl.ai) oder US; Cloud-Betreiber dahinter nicht offengelegt", "preis_input_1m_eur": null, "preis_output_1m_eur": null, "quelle": "https://docs.bfl.ai/quick_start/pricing", "status": "belegt", "anmerkung": "Bildmodell, Abrechnung pro Bild nach Megapixel: ab 0,03 $/Bild (Text-zu-Bild), ab 0,045 $/Bild (Editing); Preise in USD" },
+    { "name": "FLUX.2 [max]", "standort": "Region wählbar (global/EU/US)", "preis_input_1m_eur": null, "preis_output_1m_eur": null, "quelle": "https://docs.bfl.ai/quick_start/pricing", "status": "belegt", "anmerkung": "ab 0,07 $/Bild, megapixelbasiert" },
+    { "name": "FLUX.2 [flex]", "standort": "Region wählbar (global/EU/US)", "preis_input_1m_eur": null, "preis_output_1m_eur": null, "quelle": "https://docs.bfl.ai/quick_start/pricing", "status": "belegt", "anmerkung": "ab 0,05 $/Bild" },
+    { "name": "FLUX.2 [klein] (4B / 9B)", "standort": "Region wählbar (global/EU/US); [dev]-Variante nur self-hosted", "preis_input_1m_eur": null, "preis_output_1m_eur": null, "quelle": "https://docs.bfl.ai/quick_start/pricing", "status": "belegt", "anmerkung": "ab 0,014 $/Bild (4B) bzw. 0,015 $/Bild (9B)" },
+    { "name": "FLUX.1 Kontext [pro] / [max]", "standort": "Region wählbar (global/EU/US)", "preis_input_1m_eur": null, "preis_output_1m_eur": null, "quelle": "https://docs.bfl.ai/quick_start/pricing", "status": "belegt", "anmerkung": "Bild-Editing: 0,04 $/Bild (pro), 0,08 $/Bild (max)" },
+    { "name": "FLUX 3 (Video)", "standort": "Region wählbar (global/EU/US)", "preis_input_1m_eur": null, "preis_output_1m_eur": null, "quelle": "https://docs.bfl.ai/quick_start/pricing", "status": "belegt", "anmerkung": "Abrechnung pro Sekunde: Text/Bild-zu-Video 0,17–0,29 $/s (Full Render), Draft 0,06 $/s" }
+  ],
+  "vertrag": {
+    "avv": { "wert": null, "status": "beansprucht", "quelle": "https://bfl.ai/enterprise", "anmerkung": "Enterprise-Seite: 'Security documentation, DPAs, and vendor assessment materials are available on request' — kein öffentlich abrufbares AVV; auch die ToS verlinken keins" },
+    "subprozessoren": { "wert": null, "status": "unbelegt", "quelle": null, "anmerkung": "Keine Subprozessoren-Liste; die Privacy Policy nennt keine konkreten Auftragsverarbeiter. Welcher Cloud-Betreiber hinter dem EU-Cluster steht (eigene Infrastruktur oder US-Hyperscaler), ist nicht offengelegt" },
+    "training_opt_out": { "wert": false, "status": "belegt", "quelle": "https://bfl.ai/legal/terms-of-service", "anmerkung": "Standardmäßig dürfen Inputs/Outputs zum Training genutzt werden ('to provide, develop, train and improve our technologies'); Opt-out nur per E-Mail (privacy@blackforestlabs.ai, Betreff 'Training Opt Out' laut Privacy Policy), kein Dashboard-Schalter" },
+    "zero_data_retention": { "wert": null, "status": "beansprucht", "quelle": "https://bfl.ai/enterprise", "anmerkung": "'Zero data retention' wird nur für Managed-Enterprise-API und dedizierte Instanzen beworben; für die Standard-API widerspricht die Privacy Policy (Aufbewahrung 'as long as reasonably necessary', Trainingsnutzung mit Opt-out). Ergebnis-URLs sind 10 Min. gültig, Speicherdauer danach nicht dokumentiert" }
+  },
+  "zertifikate": [
+    { "typ": "SOC 2 Type II", "status": "beansprucht", "quelle": "https://bfl.ai/enterprise", "anmerkung": "Auf der Enterprise-Seite genannt; kein Trust-Center oder Auditbericht öffentlich abrufbar" },
+    { "typ": "ISO 27001", "status": "beansprucht", "quelle": "https://bfl.ai/enterprise", "anmerkung": "Auf der Enterprise-Seite genannt; kein Zertifikat/Zertifizierer einsehbar" }
+  ],
+  "ai_act": [
+    { "pflicht": "GPAI-Pflichten als Modellanbieter (Art. 53 ff.)", "status": "belegt", "quelle": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai", "anmerkung": "Auf der EU-Kommissionsseite als Unterzeichner des General-Purpose AI Code of Practice gelistet (alle Kapitel, ohne Ausnahmen)" }
+  ],
+  "geprueft": "2026-08-20"
+}
