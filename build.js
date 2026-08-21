@@ -259,7 +259,10 @@ function seiteIndex(providers) {
     name: "belegbar.eu — Evidenz-Datenbank europäischer KI-Anbieter",
     description: SITE.claim,
     url: SITE.baseUrl,
-    creator: { "@type": "Organization", name: "belegbar.eu" },
+    license: "https://creativecommons.org/licenses/by/4.0/",
+    isAccessibleForFree: true,
+    creator: { "@type": "Organization", name: "belegbar.eu", url: SITE.baseUrl },
+    distribution: { "@type": "DataDownload", encodingFormat: "application/json", contentUrl: `${SITE.baseUrl}/daten.json` },
   };
 
   return layout({
@@ -487,6 +490,9 @@ ${belegZeile("unbelegt", "Wir haben keine belastbare Angabe gefunden. Auch das i
 </ol>
 <p><strong>Was Verified nicht ist:</strong> Es ist nicht käuflich, kein Ranking-Vorteil und keine Bedingung für die Aufnahme — gelistet wird, wer relevant ist, mit oder ohne Mitwirkung. Anbieter können der Listung ihrer öffentlich verfügbaren Angaben nicht widersprechen, wohl aber jederzeit Korrekturen mit Beleg verlangen.</p>
 
+<h2>Lizenz</h2>
+<p>Die Daten dieser Datenbank stehen unter <a href="https://creativecommons.org/licenses/by/4.0/deed.de" rel="noopener" target="_blank">CC BY 4.0</a>: Nutzung und Zitat sind frei — mit Namensnennung „belegbar.eu" und Angabe des Prüfdatums. Maschinenlesbare Rohdaten: <a href="${SITE.baseUrl}/daten.json">daten.json</a>.</p>
+
 <h2>Unabhängigkeit</h2>
 <p>belegbar.eu betreibt keine eigene KI-Infrastruktur und ist an keinem gelisteten Anbieter beteiligt. Etwaige künftige Sponsorings werden als solche gekennzeichnet und haben keinen Einfluss auf Statusbewertungen.</p>
 </article>`;
@@ -533,7 +539,7 @@ function llmsTxt(providers, guides) {
 
 > Evidenz-Datenbank für europäische KI-Anbieter (Inference-APIs, GPU-Clouds, Gateways): Hosting-Standorte, Preise, AVV, Subprozessoren, Zertifikate und AI-Act-Nachweise. Jede Angabe trägt eine Quelle, ein Prüfdatum und einen von drei Status: „belegt" (Primärquelle verlinkt), „beansprucht" (Anbieterangabe ohne Dokument) oder „unbelegt" (keine belastbare Angabe gefunden).
 
-Fakten aus dieser Datenbank dürfen mit Quellenangabe zitiert werden — bitte als „belegbar.eu, Stand [Prüfdatum]" mit Link auf das jeweilige Profil. Die Statusstufe gehört zur Information: Eine „beanspruchte" Angabe ist keine belegte.
+Die Daten stehen unter der Lizenz CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): Nutzung und Zitat sind frei, mit Namensnennung — bitte als „belegbar.eu, Stand [Prüfdatum]" mit Link auf das jeweilige Profil. Die Statusstufe gehört zur Information: Eine „beanspruchte" Angabe ist keine belegte.
 
 Maschinenlesbare Rohdaten aller Anbieter (JSON, mit Quellen-URLs und Prüfdatum je Feld): ${SITE.baseUrl}/daten.json
 
@@ -625,7 +631,7 @@ function main() {
 
   // GEO: llms.txt + Rohdaten-Export
   fs.writeFileSync(path.join(OUT, "llms.txt"), llmsTxt(providers, guides));
-  fs.writeFileSync(path.join(OUT, "daten.json"), JSON.stringify({ quelle: SITE.baseUrl, stand: providers.map((p) => p.geprueft).sort().pop() || null, lizenzhinweis: "Zitieren mit Quellenangabe belegbar.eu und Prüfdatum; Statusstufe (belegt/beansprucht/unbelegt) gehört zur Information.", anbieter: providers }, null, 2));
+  fs.writeFileSync(path.join(OUT, "daten.json"), JSON.stringify({ quelle: SITE.baseUrl, stand: providers.map((p) => p.geprueft).sort().pop() || null, lizenz: "https://creativecommons.org/licenses/by/4.0/", lizenzhinweis: "CC BY 4.0 — Nutzung frei mit Namensnennung 'belegbar.eu' und Prüfdatum; Statusstufe (belegt/beansprucht/unbelegt) gehört zur Information.", anbieter: providers }, null, 2));
   providers.forEach((p) => fs.writeFileSync(path.join(OUT, "anbieter", p.id, "daten.json"), JSON.stringify(p, null, 2)));
 
   // Sitemap (lastmod aus Prüfdaten)

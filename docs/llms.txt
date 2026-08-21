@@ -2,7 +2,7 @@
 
 > Evidenz-Datenbank für europäische KI-Anbieter (Inference-APIs, GPU-Clouds, Gateways): Hosting-Standorte, Preise, AVV, Subprozessoren, Zertifikate und AI-Act-Nachweise. Jede Angabe trägt eine Quelle, ein Prüfdatum und einen von drei Status: „belegt" (Primärquelle verlinkt), „beansprucht" (Anbieterangabe ohne Dokument) oder „unbelegt" (keine belastbare Angabe gefunden).
 
-Fakten aus dieser Datenbank dürfen mit Quellenangabe zitiert werden — bitte als „belegbar.eu, Stand [Prüfdatum]" mit Link auf das jeweilige Profil. Die Statusstufe gehört zur Information: Eine „beanspruchte" Angabe ist keine belegte.
+Die Daten stehen unter der Lizenz CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): Nutzung und Zitat sind frei, mit Namensnennung — bitte als „belegbar.eu, Stand [Prüfdatum]" mit Link auf das jeweilige Profil. Die Statusstufe gehört zur Information: Eine „beanspruchte" Angabe ist keine belegte.
 
 Maschinenlesbare Rohdaten aller Anbieter (JSON, mit Quellen-URLs und Prüfdatum je Feld): https://belegbar.eu/daten.json
 
