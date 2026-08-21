@@ -1,7 +1,8 @@
 {
   "quelle": "https://belegbar.eu",
   "stand": "2026-08-20",
-  "lizenzhinweis": "Zitieren mit Quellenangabe belegbar.eu und Prüfdatum; Statusstufe (belegt/beansprucht/unbelegt) gehört zur Information.",
+  "lizenz": "https://creativecommons.org/licenses/by/4.0/",
+  "lizenzhinweis": "CC BY 4.0 — Nutzung frei mit Namensnennung 'belegbar.eu' und Prüfdatum; Statusstufe (belegt/beansprucht/unbelegt) gehört zur Information.",
   "anbieter": [
     {
       "id": "aleph-alpha",
