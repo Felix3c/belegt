@@ -92,19 +92,28 @@
       "typ": "ISO 27001",
       "status": "belegt",
       "quelle": "https://www.scaleway.com/en/security-and-compliance/",
-      "anmerkung": "ISO/IEC 27001:2022 auf der offiziellen Security-and-Compliance-Seite als erreicht ausgewiesen."
+      "anmerkung": "ISO/IEC 27001:2022 auf der offiziellen Security-and-Compliance-Seite als erreicht ausgewiesen.",
+      "normiert": [
+        "iso-27001"
+      ]
     },
     {
       "typ": "HDS",
       "status": "belegt",
       "quelle": "https://www.scaleway.com/en/security-and-compliance/",
-      "anmerkung": "Französische Zertifizierung für das Hosting von Gesundheitsdaten."
+      "anmerkung": "Französische Zertifizierung für das Hosting von Gesundheitsdaten.",
+      "normiert": [
+        "hds"
+      ]
     },
     {
       "typ": "SecNumCloud",
       "status": "beansprucht",
       "quelle": "https://www.scaleway.com/en/news/scaleway-begins-the-secnumcloud-qualification-process/",
-      "anmerkung": "Noch keine Qualifikation: ANSSI-Prozess seit Januar 2025 begonnen (Meilenstein J0 bestanden), Audit läuft."
+      "anmerkung": "Noch keine Qualifikation: ANSSI-Prozess seit Januar 2025 begonnen (Meilenstein J0 bestanden), Audit läuft.",
+      "normiert": [
+        "secnumcloud"
+      ]
     }
   ],
   "ai_act": [
@@ -115,5 +124,17 @@
       "anmerkung": "Keine eigene AI-Act-Veröffentlichung auffindbar. Scaleway hostet fremde offene Modelle und trainiert keine eigenen GPAI-Modelle; Art.-53-Pflichten treffen primär die Modellhersteller."
     }
   ],
-  "geprueft": "2026-08-19"
+  "geprueft": "2026-08-19",
+  "url": "https://belegbar.eu/anbieter/scaleway/",
+  "beleg_quote_prozent": 86,
+  "zuletzt_geprueft": "2026-08-19",
+  "rechtsraum": {
+    "land": "FR",
+    "name": "Frankreich",
+    "einordnung": "eu",
+    "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+    "hinweis": null,
+    "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+    "geprueft": "2026-08-24"
+  }
 }

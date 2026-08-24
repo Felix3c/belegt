@@ -31,6 +31,64 @@ const KATEGORIE_LABEL = {
 
 const STATUS_LABEL = { belegt: "belegt", beansprucht: "beansprucht", unbelegt: "unbelegt" };
 
+/** Baudatum. Über BUILD_DATUM überschreibbar, damit ein Build reproduzierbar bleibt. */
+const BUILD_DATUM = process.env.BUILD_DATUM || new Date().toISOString().slice(0, 10);
+
+/** Ledger: Inhalts-Hash je URL. Das lastmod einer Seite wandert nur, wenn ihr HTML wandert. */
+const LEDGER_DATEI = path.join(ROOT, "data", "lastmod.json");
+
+/** Kanonische Zertifikats-Schlüssel. Der Originaltext des Anbieters bleibt überall sichtbar —
+ *  normalisiert wird ausschließlich für Filter, Facettenseiten und die Rohdaten-Auswertung.
+ *  Ohne das zählen "ISO 27001" und "ISO/IEC 27001:2022" als zwei verschiedene Dinge. */
+const ZERT_KANON = [
+  ["ISO(/IEC)? *27001", "iso-27001", "ISO/IEC 27001"],
+  ["ISO(/IEC)? *27017", "iso-27017", "ISO/IEC 27017"],
+  ["ISO(/IEC)? *27018", "iso-27018", "ISO/IEC 27018"],
+  ["ISO(/IEC)? *27701", "iso-27701", "ISO/IEC 27701"],
+  ["ISO(/IEC)? *20000", "iso-20000", "ISO/IEC 20000-1"],
+  ["ISO *9001", "iso-9001", "ISO 9001"],
+  ["ISO *14001", "iso-14001", "ISO 14001"],
+  ["ISO *50001", "iso-50001", "ISO 50001"],
+  ["BSI *C5|(^|[^A-Za-z0-9])C5([^A-Za-z0-9]|$)", "bsi-c5", "BSI C5"],
+  ["SecNumCloud", "secnumcloud", "SecNumCloud"],
+  ["TISAX", "tisax", "TISAX"],
+  ["(^|[^A-Za-z0-9])HDS([^A-Za-z0-9]|$)", "hds", "HDS (Gesundheitsdaten, Frankreich)"],
+  ["CSA *STAR", "csa-star", "CSA STAR"],
+  ["PCI *DSS", "pci-dss", "PCI DSS"],
+  ["HIPAA", "hipaa", "HIPAA"],
+  ["SOC *1", "soc-1", "SOC 1"],
+  ["SOC *2|ISAE *3000", "soc-2", "SOC 2"],
+  ["SOC *3", "soc-3", "SOC 3"],
+  ["ISAE *3402", "isae-3402", "ISAE 3402"],
+  ["B *Corp", "b-corp", "B Corp"],
+].map(([muster, schluessel, label]) => [new RegExp(muster, "i"), schluessel, label]);
+
+/** Rechtsgrundlage der Datenübermittlung nach Sitzland des Anbieters.
+ *  Quelle: Europäische Kommission, Angemessenheitsbeschlüsse — geprüft am ADEQUACY_GEPRUEFT. */
+const ADEQUACY_QUELLE = "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en";
+const ADEQUACY_GEPRUEFT = "2026-08-24";
+const LAND_INFO = {
+  DE: { name: "Deutschland", raum: "eu" },
+  FR: { name: "Frankreich", raum: "eu" },
+  NL: { name: "Niederlande", raum: "eu" },
+  LU: { name: "Luxemburg", raum: "eu" },
+  EE: { name: "Estland", raum: "eu" },
+  SE: { name: "Schweden", raum: "eu" },
+  IT: { name: "Italien", raum: "eu" },
+  CH: { name: "Schweiz", raum: "angemessen" },
+  GB: { name: "Vereinigtes Königreich", raum: "angemessen", hinweis: "Der Angemessenheitsbeschluss wurde im Dezember 2025 verlängert — je eine Erneuerung unter der DSGVO und unter der Richtlinie für den Strafverfolgungsbereich (LED)." },
+};
+const RAUM_TEXT = {
+  eu: "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+  angemessen: "Drittland mit Angemessenheitsbeschluss der EU-Kommission — Übermittlung ohne zusätzliche Garantien zulässig (Art. 45 DSGVO).",
+  drittland: "Drittland ohne Angemessenheitsbeschluss — Übermittlung nur mit geeigneten Garantien, etwa Standardvertragsklauseln (Art. 46 DSGVO).",
+};
+const RAUM_KURZ = { eu: "EU", angemessen: "Angemessenheitsbeschluss", drittland: "Drittland ohne Beschluss" };
+
+function landInfo(code) {
+  return LAND_INFO[code] || { name: code, raum: "drittland" };
+}
+
 /* ---------------- Helpers ---------------- */
 
 function esc(s) {
@@ -79,12 +137,14 @@ function quelleLink(quelle, geprueft) {
 /** Eine Beleg-Zeile: das Grundelement der Site. */
 function belegZeile(label, wertHtml, feld, geprueft) {
   const status = (feld && feld.status) || "unbelegt";
+  // Ein einzeln nachgeprüftes Feld trägt sein eigenes Datum; sonst gilt das Profil-Prüfdatum.
+  const datum = (feld && feld.geprueft) || geprueft;
   const anm = feld && feld.anmerkung ? `<div class="beleg-anm">${esc(feld.anmerkung)}</div>` : "";
   return `<div class="beleg">
     <div class="beleg-kopf"><span class="beleg-label">${esc(label)}</span>${statusBadge(status)}</div>
     <div class="beleg-wert">${wertHtml || '<span class="leer">keine belastbare Angabe gefunden</span>'}</div>
     ${anm}
-    <div class="beleg-fuss">${quelleLink(feld && feld.quelle, geprueft)}</div>
+    <div class="beleg-fuss">${quelleLink(feld && feld.quelle, datum)}</div>
   </div>`;
 }
 
@@ -112,11 +172,104 @@ function zertifikateBelegt(p) {
   return (p.zertifikate || []).filter((z) => z.status === "belegt").map((z) => z.typ);
 }
 
+/** Ein Feld kann mehrere Normen auf einmal nennen ("SOC 1/2/3", "ISO 27017 / 27018").
+ *  Solche Listen expandieren wir, damit jede Norm einzeln zählbar wird. */
+function zertTexte(typ) {
+  const m = String(typ).match(/^ *(ISO(?:\/IEC)?|SOC) +([0-9 \/]+) *$/i);
+  if (!m) return [String(typ)];
+  return m[2].split("/").map((n) => n.trim()).filter(Boolean).map((n) => m[1] + " " + n);
+}
+
+/** Kanonische Schlüssel eines Zertifikatstexts. Leere Liste = kein bekannter Standard erkannt;
+ *  der Eintrag bleibt im Profil sichtbar, bekommt aber keine Facettenseite. */
+function zertKanon(typ) {
+  const treffer = new Map();
+  for (const t of zertTexte(typ))
+    for (const [re, schluessel, label] of ZERT_KANON) if (re.test(t)) treffer.set(schluessel, label);
+  return [...treffer].map(([schluessel, label]) => ({ schluessel, label }));
+}
+
+/** Alle Anbieter je kanonischem Zertifikat, nach Status gruppiert. */
+function zertIndex(providers) {
+  const idx = new Map();
+  for (const p of providers)
+    for (const z of p.zertifikate || [])
+      for (const k of zertKanon(z.typ)) {
+        if (!idx.has(k.schluessel)) idx.set(k.schluessel, { schluessel: k.schluessel, label: k.label, belegt: [], beansprucht: [], unbelegt: [] });
+        const e = idx.get(k.schluessel);
+        (e[z.status] || e.unbelegt).push({ p, z });
+      }
+  return idx;
+}
+
+/** Hat der Anbieter dieses kanonische Zertifikat mit dem gesuchten Status? */
+function hatZert(p, schluessel, status) {
+  return (p.zertifikate || []).some((z) => (!status || z.status === status) && zertKanon(z.typ).some((k) => k.schluessel === schluessel));
+}
+
+/** Jüngstes Prüfdatum irgendwo im Profil — ein Feld-Datum schlägt das Profil-Datum. */
+function juengstesDatum(p) {
+  const daten = [p.geprueft];
+  const sammle = (o) => {
+    if (!o || typeof o !== "object") return;
+    if (typeof o.geprueft === "string") daten.push(o.geprueft);
+    for (const v of Object.values(o)) if (v && typeof v === "object") sammle(v);
+  };
+  sammle(p.vertrag);
+  (p.zertifikate || []).forEach(sammle);
+  (p.ai_act || []).forEach(sammle);
+  (p.modelle || []).forEach(sammle);
+  return daten.filter(Boolean).sort().pop() || null;
+}
+
+function inhaltsHash(str) {
+  return require("crypto").createHash("sha256").update(str).digest("hex").slice(0, 16);
+}
+
+/** Verbform passend zur Anzahl: mz(1, "weist", "weisen") ergibt "weist". */
+function mz(n, singular, plural) {
+  return n === 1 ? singular : plural;
+}
+
+/** Kurzform "Name (LAND)" für Aufzählungen in den Antworttexten. */
+function nennung(p) {
+  return p.name + " (" + p.stammdaten.land + ")";
+}
+
+/** Link auf einen Ratgeber, über einen Teil seines Slugs gesucht. Fehlt der Guide,
+ *  bleibt nur der Text stehen — ein toter Link kann so nicht entstehen. */
+function guideLink(guides, slugTeil, rel, text) {
+  const g = (guides || []).find((x) => x.slug.indexOf(slugTeil) !== -1);
+  return g ? `<a href="${rel}ratgeber/${esc(g.slug)}/">${esc(text)}</a>` : esc(text);
+}
+
+/** Verlinkte Anbieterliste für Antwort- und Facettenseiten. */
+function anbieterLinks(liste, rel) {
+  if (!liste.length) return '<span class="leer">keiner</span>';
+  return liste.map((p) => `<a href="${rel}anbieter/${esc(p.id)}/">${esc(p.name)}</a>`).join(", ");
+}
+
+/** BreadcrumbList als JSON-LD: Suchmaschinen zeigen daraus den Pfad statt der nackten URL. */
+function brotkrumenLd(stufen) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: stufen.map(([pfad, label], i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: label,
+      item: `${SITE.baseUrl}/${pfad}`,
+    })),
+  };
+}
+
 /* ---------------- Layout ---------------- */
 
 function layout({ titel, beschreibung, inhalt, rel, pfad, jsonld }) {
   const nav = [
     ["", "Anbieter"],
+    ["fragen/", "Fragen"],
+    ["zertifikate/", "Zertifikate"],
     ["vergleich/", "Vergleiche"],
     ["ratgeber/", "Ratgeber"],
     ["methodik/", "Methodik"],
@@ -139,7 +292,17 @@ function layout({ titel, beschreibung, inhalt, rel, pfad, jsonld }) {
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='14' fill='%235F4B9E'/%3E%3Ctext x='50' y='68' font-size='58' text-anchor='middle' fill='white' font-family='Georgia'%3Eb%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="${rel}fonts.css">
 <link rel="stylesheet" href="${rel}style.css">
-${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld)}</script>` : ""}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="belegbar.eu">
+<meta property="og:locale" content="de_DE">
+<meta property="og:title" content="${esc(titel)}">
+<meta property="og:description" content="${esc(beschreibung)}">
+<meta property="og:url" content="${SITE.baseUrl}/${pfad}">
+<meta name="twitter:card" content="summary">
+${(Array.isArray(jsonld) ? jsonld : jsonld ? [jsonld] : [])
+  .filter(Boolean)
+  .map((b) => `<script type="application/ld+json">${JSON.stringify(b)}</script>`)
+  .join("")}
 </head>
 <body>
 <a class="skip" href="#inhalt">Zum Inhalt springen</a>
@@ -272,8 +435,15 @@ function seiteIndex(providers) {
   });
 }
 
-function seiteAnbieter(p) {
+function seiteAnbieter(p, alleProvider, facetten) {
   const s = p.stammdaten;
+  const li = landInfo(s.land);
+  // Direktvergleiche derselben Kategorie: holt die 76 Vergleichsseiten aus der Sackgasse.
+  const partner = (alleProvider || []).filter((q) => q.id !== p.id && q.kategorie === p.kategorie);
+  const vergleichLink = (q) => {
+    const paar = [p, q].sort((a, b) => a.name.localeCompare(b.name, "de"));
+    return `<a href="../../vergleich/${esc(paar[0].id)}-vs-${esc(paar[1].id)}/">${esc(p.name)} vs. ${esc(q.name)}</a>`;
+  };
   const modelle = (p.modelle || [])
     .map((m) => `<tr>
       <td>${esc(m.name)}</td>
@@ -293,7 +463,14 @@ function seiteAnbieter(p) {
   ].join("\n");
 
   const zertHtml = (p.zertifikate || []).length
-    ? p.zertifikate.map((z) => belegZeile(z.typ, z.status === "belegt" ? "Nachweis verlinkt" : "", z, p.geprueft)).join("\n")
+    ? p.zertifikate.map((z) => {
+        // Wo eine Facettenseite existiert, verlinken wir sie: dort steht, wer denselben Standard nachweist.
+        const wege = zertKanon(z.typ)
+          .filter((k) => facetten && facetten.has(k.schluessel))
+          .map((k) => `<a href="../../zertifikate/${esc(k.schluessel)}/">Wer weist ${esc(k.label)} nach?</a>`);
+        const wert = [z.status === "belegt" ? "Nachweis verlinkt" : "", ...wege].filter(Boolean).join(" · ");
+        return belegZeile(z.typ, wert, z, p.geprueft);
+      }).join("\n")
     : '<p class="leer">Zu diesem Anbieter haben wir noch keine Zertifikats-Nachweise erfasst.</p>';
 
   const aiActHtml = (p.ai_act || []).length
@@ -323,6 +500,7 @@ function seiteAnbieter(p) {
     <div><dt>Mutterkonzern</dt><dd>${esc(s.mutterkonzern || "unabhängig / keiner bekannt")}</dd></div>
     <div><dt>US-Eigentümerstruktur</dt><dd>${s.us_eigner === true ? '<span class="warnung">ja — CLOUD-Act-Relevanz prüfen</span>' : s.us_eigner === false ? "nein" : "unbelegt"}</dd></div>
     <div><dt>Gegründet</dt><dd>${esc(s.gegruendet || "–")}</dd></div>
+    <div><dt>Rechtsraum</dt><dd>${esc(li.name)} — ${esc(RAUM_TEXT[li.raum])}${li.hinweis ? " " + esc(li.hinweis) : ""} <span class="quelle"><a href="${ADEQUACY_QUELLE}" rel="noopener nofollow" target="_blank">Quelle</a> · geprüft ${datumDE(ADEQUACY_GEPRUEFT)}</span></dd></div>
     <div><dt>Website</dt><dd><a href="${esc(s.website)}" rel="noopener nofollow" target="_blank">${esc((s.website || "").replace(/^https?:\/\//, ""))}</a></dd></div>
   </dl>
 
@@ -341,9 +519,13 @@ function seiteAnbieter(p) {
   <h2>AI Act</h2>
   ${aiActHtml}
 
+  ${partner.length ? `<h2>Direktvergleiche</h2>
+  <p class="klein">${esc(p.name)} Feld für Feld gegen andere Anbieter derselben Kategorie:</p>
+  <p>${partner.map(vergleichLink).join(" · ")}</p>` : ""}
+
   <footer class="dossier-fuss">
-    <p>Zuletzt geprüft am ${datumDE(p.geprueft)}. Alle Angaben ohne Gewähr, keine Rechtsberatung.</p>
-    <p class="klein">Zitieren als: „${esc(p.name)} — Beleg-Check“, belegbar.eu, Stand ${datumDE(p.geprueft)}, ${SITE.baseUrl}/anbieter/${esc(p.id)}/ · Rohdaten dieses Profils (JSON, mit Quellen): <a href="daten.json">daten.json</a></p>
+    <p>Vollständig geprüft am ${datumDE(p.geprueft)}${juengstesDatum(p) !== p.geprueft ? `, einzelne Angaben zuletzt am ${datumDE(juengstesDatum(p))} nachgeprüft` : ""}. Alle Angaben ohne Gewähr, keine Rechtsberatung.</p>
+    <p class="klein">Zitieren als: „${esc(p.name)} — Beleg-Check“, belegbar.eu, Stand ${datumDE(juengstesDatum(p))}, ${SITE.baseUrl}/anbieter/${esc(p.id)}/ · Rohdaten dieses Profils (JSON, mit Quellen): <a href="daten.json">daten.json</a></p>
     <p><strong>Sie arbeiten bei ${esc(p.name)}?</strong> Schicken Sie uns fehlende Nachweise und erhalten Sie den Verified-Status — kostenlos, <a href="../../methodik/#verified">so funktioniert es</a>: <a href="mailto:${SITE.kontakt}?subject=Verifizierung%20${encodeURIComponent(p.name)}">${SITE.kontakt}</a></p>
   </footer>
 </article>`;
@@ -353,7 +535,9 @@ function seiteAnbieter(p) {
     "@type": "WebPage",
     name: `${p.name} — Beleg-Check`,
     url: `${SITE.baseUrl}/anbieter/${p.id}/`,
-    dateModified: p.geprueft || undefined,
+    dateModified: juengstesDatum(p) || undefined,
+    license: "https://creativecommons.org/licenses/by/4.0/",
+    isPartOf: { "@type": "Dataset", name: "belegbar.eu — Evidenz-Datenbank europäischer KI-Anbieter", url: SITE.baseUrl },
     about: {
       "@type": "Organization",
       name: p.name,
@@ -366,7 +550,8 @@ function seiteAnbieter(p) {
   return layout({
     titel: `${p.name} — DSGVO, Hosting, Preise & Zertifikate im Beleg-Check | belegbar.eu`,
     beschreibung: `${p.name}: ${p.kurzbeschreibung || ""} Beleg-Quote ${quote} %. Alle Angaben mit Quelle und Prüfdatum.`,
-    inhalt, rel: "../../", pfad: `anbieter/${p.id}/`, jsonld,
+    inhalt, rel: "../../", pfad: `anbieter/${p.id}/`,
+    jsonld: [jsonld, brotkrumenLd([["", "Anbieter"], [`anbieter/${p.id}/`, p.name]])],
   });
 }
 
@@ -408,6 +593,7 @@ function seiteVergleich(a, b) {
     titel: `${a.name} vs. ${b.name}: DSGVO, Preise, Zertifikate | belegbar.eu`,
     beschreibung: `${a.name} oder ${b.name}? Direkter Vergleich mit belegten Quellen: AVV, Hosting, Preise, Zertifikate, AI-Act-Nachweise.`,
     inhalt, rel: "../../", pfad: `vergleich/${a.id}-vs-${b.id}/`,
+    jsonld: brotkrumenLd([["", "Anbieter"], ["vergleich/", "Vergleiche"], [`vergleich/${a.id}-vs-${b.id}/`, `${a.name} vs. ${b.name}`]]),
   });
 }
 
@@ -483,15 +669,24 @@ ${belegZeile("unbelegt", "Wir haben keine belastbare Angabe gefunden. Auch das i
 <h2 id="verified">Verified-Status: So funktioniert es</h2>
 <p>Anbieter, die uns fehlende Nachweise direkt zusenden, erhalten das Verified-Kennzeichen mit Datum. Der Ablauf:</p>
 <ol>
-<li><strong>Nachweise einreichen.</strong> Eine E-Mail an <a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a> mit Betreff „Verifizierung [Anbietername]" genügt. Als Nachweis zählt, was auch sonst für „belegt" gilt: Primärdokumente — Zertifikat mit Auditor, unterschriftsreifer AVV, Subprozessorenliste, Policy-Dokument. Ein Link ist so gut wie ein PDF.</li>
-<li><strong>Wir prüfen.</strong> Marketing-Aussagen, Badges und Absichtserklärungen reichen nicht — genau darum gibt es diese Datenbank. Was den Beleg-Maßstab erfüllt, wird im Profil auf „belegt" gesetzt, mit neuem Prüfdatum und verlinkter Quelle.</li>
+<li><strong>Nachweise einreichen.</strong> Eine E-Mail an <a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a> mit Betreff „Verifizierung [Anbietername]“ genügt. Als Nachweis zählt, was auch sonst für „belegt“ gilt: Primärdokumente — Zertifikat mit Auditor, unterschriftsreifer AVV, Subprozessorenliste, Policy-Dokument. Ein Link ist so gut wie ein PDF.</li>
+<li><strong>Wir prüfen.</strong> Marketing-Aussagen, Badges und Absichtserklärungen reichen nicht — genau darum gibt es diese Datenbank. Was den Beleg-Maßstab erfüllt, wird im Profil auf „belegt“ gesetzt, mit neuem Prüfdatum und verlinkter Quelle.</li>
 <li><strong>Das Kennzeichen.</strong> Das Profil erhält den Verified-Stempel mit dem Datum der Prüfung. Er bedeutet genau eines: <em>Dieser Anbieter hat aktiv Nachweise eingereicht, und wir haben sie geprüft.</em> Er ist keine Qualitäts- oder Rechtskonformitäts-Aussage.</li>
 <li><strong>Aktualität.</strong> Der Stempel trägt sein Datum sichtbar. Ändern sich Fakten wesentlich (z. B. neuer Eigentümer, ausgelaufenes Zertifikat), prüfen wir neu — das Kennzeichen bleibt nur mit aktuellem Stand bestehen.</li>
 </ol>
 <p><strong>Was Verified nicht ist:</strong> Es ist nicht käuflich, kein Ranking-Vorteil und keine Bedingung für die Aufnahme — gelistet wird, wer relevant ist, mit oder ohne Mitwirkung. Anbieter können der Listung ihrer öffentlich verfügbaren Angaben nicht widersprechen, wohl aber jederzeit Korrekturen mit Beleg verlangen.</p>
 
+<h2>Verfallen Belege? Ja — und wir prüfen das</h2>
+<p>Eine Evidenz-Datenbank verfällt nicht dadurch, dass Angaben falsch werden, sondern dadurch, dass ihre Belege verschwinden. Anbieter bauen ihre Websites um, Dokumente wandern, Domains werden zusammengelegt. Ein Link, der ins Leere zeigt, ist schlimmer als eine fehlende Angabe: Er täuscht Nachweisbarkeit vor.</p>
+<p>Deshalb prüfen wir regelmäßig jede hinterlegte Quellen-URL — und zwar nicht nur auf den Statuscode. Eine gelöschte Dokumentseite antwortet häufig mit „200 OK“, weil der Server auf die Startseite weiterleitet. Wir bewerten deshalb das Ziel der Weiterleitung mit: Landet ein tief verlinktes Dokument auf einer Startseite, gilt der Beleg als verloren.</p>
+<p><strong>Ein Beispiel vom 24. August 2026:</strong> Der öffentliche Auftragsverarbeitungsvertrag von STACKIT war bis dahin als PDF verlinkt und der AVV entsprechend als „belegt“ geführt. Beim Quellen-Check leitete die gesamte alte Domain auf die neue Startseite um; das Dokument war öffentlich nicht mehr auffindbar. Wir haben die Angabe auf „unbelegt“ zurückgesetzt und die verlorene URL in der Anmerkung dokumentiert. Das heißt ausdrücklich nicht, dass STACKIT keinen AVV hätte — es heißt, dass er sich nicht mehr öffentlich nachweisen lässt. Genau diesen Unterschied festzuhalten, ist der Zweck dieser Datenbank.</p>
+<p>Am selben Tag ging es auch in die andere Richtung: DeepLs BSI-C5-Angabe stand als „beansprucht“, weil zum Erfassungszeitpunkt nur eine Selbstverpflichtung auffindbar war. Die Prüfung förderte Blogbeitrag und Pressemitteilung zum tatsächlich erteilten C5-Typ-2-Testat zutage — die Angabe steht seitdem auf „belegt“, mit eigenem Prüfdatum.</p>
+
+<h2>Prüfdatum je Angabe</h2>
+<p>Jedes Profil trägt ein Datum der letzten vollständigen Prüfung. Wird eine einzelne Angabe zwischendurch nachgeprüft, bekommt sie zusätzlich ihr eigenes Prüfdatum — sichtbar an der Quelle und in den Rohdaten. So behauptet ein Profil nie, alle seine Angaben seien gleichzeitig geprüft worden.</p>
+
 <h2>Lizenz</h2>
-<p>Die Daten dieser Datenbank stehen unter <a href="https://creativecommons.org/licenses/by/4.0/deed.de" rel="noopener" target="_blank">CC BY 4.0</a>: Nutzung und Zitat sind frei — mit Namensnennung „belegbar.eu" und Angabe des Prüfdatums. Maschinenlesbare Rohdaten: <a href="${SITE.baseUrl}/daten.json">daten.json</a>.</p>
+<p>Die Daten dieser Datenbank stehen unter <a href="https://creativecommons.org/licenses/by/4.0/deed.de" rel="noopener" target="_blank">CC BY 4.0</a>: Nutzung und Zitat sind frei — mit Namensnennung „belegbar.eu“ und Angabe des Prüfdatums. Maschinenlesbare Rohdaten: <a href="${SITE.baseUrl}/daten.json">daten.json</a>.</p>
 
 <h2>Unabhängigkeit</h2>
 <p>belegbar.eu betreibt keine eigene KI-Infrastruktur und ist an keinem gelisteten Anbieter beteiligt. Etwaige künftige Sponsorings werden als solche gekennzeichnet und haben keinen Einfluss auf Statusbewertungen.</p>
@@ -528,7 +723,7 @@ E-Mail: <a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a></p>
 }
 
 /** llms.txt — Wegweiser für KI-Assistenten und LLM-Crawler (llmstxt.org). */
-function llmsTxt(providers, guides) {
+function llmsTxt(providers, guides, fragen, facetten) {
   const anbieterZeilen = providers
     .map((p) => `- [${p.name}](${SITE.baseUrl}/anbieter/${p.id}/): ${p.kurzbeschreibung || ""} (geprüft ${p.geprueft}, Rohdaten: ${SITE.baseUrl}/anbieter/${p.id}/daten.json)`)
     .join("\n");
@@ -537,11 +732,23 @@ function llmsTxt(providers, guides) {
     .join("\n");
   return `# belegbar.eu
 
-> Evidenz-Datenbank für europäische KI-Anbieter (Inference-APIs, GPU-Clouds, Gateways): Hosting-Standorte, Preise, AVV, Subprozessoren, Zertifikate und AI-Act-Nachweise. Jede Angabe trägt eine Quelle, ein Prüfdatum und einen von drei Status: „belegt" (Primärquelle verlinkt), „beansprucht" (Anbieterangabe ohne Dokument) oder „unbelegt" (keine belastbare Angabe gefunden).
+> Evidenz-Datenbank für europäische KI-Anbieter (Inference-APIs, GPU-Clouds, Gateways): Hosting-Standorte, Preise, AVV, Subprozessoren, Zertifikate und AI-Act-Nachweise. Jede Angabe trägt eine Quelle, ein Prüfdatum und einen von drei Status: „belegt“ (Primärquelle verlinkt), „beansprucht“ (Anbieterangabe ohne Dokument) oder „unbelegt“ (keine belastbare Angabe gefunden).
 
-Die Daten stehen unter der Lizenz CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): Nutzung und Zitat sind frei, mit Namensnennung — bitte als „belegbar.eu, Stand [Prüfdatum]" mit Link auf das jeweilige Profil. Die Statusstufe gehört zur Information: Eine „beanspruchte" Angabe ist keine belegte.
+Die Daten stehen unter der Lizenz CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): Nutzung und Zitat sind frei, mit Namensnennung — bitte als „belegbar.eu, Stand [Prüfdatum]“ mit Link auf das jeweilige Profil. Die Statusstufe gehört zur Information: Eine „beanspruchte“ Angabe ist keine belegte.
 
 Maschinenlesbare Rohdaten aller Anbieter (JSON, mit Quellen-URLs und Prüfdatum je Feld): ${SITE.baseUrl}/daten.json
+Vollständiger Datenbestand als Fließtext, in einem einzigen Abruf: ${SITE.baseUrl}/llms-full.txt
+
+## Direkt beantwortete Fragen
+
+Diese Seiten beantworten je eine Frage unmittelbar im ersten Absatz. Die Antworten werden bei jedem
+Build aus den Anbieterdaten berechnet und können deshalb nicht von der Datenbank abweichen.
+
+${fragen.map((f) => `- [${f.frage}](${SITE.baseUrl}/fragen/${f.slug}/): ${f.antwort}`).join("\n")}
+
+## Zertifikate: wer weist welchen Standard nach
+
+${facetten.map((e) => `- [${e.label}](${SITE.baseUrl}/zertifikate/${e.schluessel}/): ${e.belegt.length} Anbieter mit verlinktem Nachweis${e.belegt.length ? " (" + e.belegt.map((x) => x.p.name).join(", ") + ")" : ""}${e.beansprucht.length ? ", " + e.beansprucht.length + " beansprucht ohne Nachweis (" + e.beansprucht.map((x) => x.p.name).join(", ") + ")" : ""}`).join("\n")}
 
 ## Anbieter-Profile
 
@@ -553,9 +760,382 @@ ${guideZeilen}
 
 ## Methodik und Hintergrund
 
-- [Methodik](${SITE.baseUrl}/methodik/): Was „belegt" heißt, die drei Statusstufen, Beleg-Quote und der Verified-Prozess für Anbieter
+- [Methodik](${SITE.baseUrl}/methodik/): Was „belegt“ heißt, die drei Statusstufen, Beleg-Quote und der Verified-Prozess für Anbieter
 - [Direktvergleiche](${SITE.baseUrl}/vergleich/): Anbieter derselben Kategorie Feld für Feld gegenübergestellt
 - [Über & Impressum](${SITE.baseUrl}/ueber/): Betreiber und Kontakt
+`;
+}
+
+/** Die fünf Fragen aus MESSUNG.md — wortgleich, weil an ihnen die Zitierbarkeit gemessen wird.
+ *  Jede Antwort wird aus den Daten berechnet, nie freihändig formuliert: So kann eine Antwort
+ *  nicht von der Datenbank abweichen, und Fehlstellen erscheinen automatisch mit. */
+function fragenKatalog(providers, guides) {
+  const rel = "../../";
+  const n = providers.length;
+  const zi = zertIndex(providers);
+  const eu = (p) => landInfo(p.stammdaten.land).raum === "eu";
+  const avvBelegt = (p) => p.vertrag && p.vertrag.avv && p.vertrag.avv.status === "belegt";
+  const sortName = (a, b) => a.name.localeCompare(b.name, "de");
+
+  const tabelle = (kopf, zeilen) =>
+    zeilen.length
+      ? `<div class="tabelle-scroll"><table><thead><tr>${kopf.map((h) => `<th>${h}</th>`).join("")}</tr></thead><tbody>${zeilen.join("\n")}</tbody></table></div>`
+      : '<p class="leer">Kein Anbieter in unserem Bestand erfüllt diese Bedingung.</p>';
+
+  const fragen = [];
+
+  /* --- 1: BSI C5 --- */
+  {
+    const e = zi.get("bsi-c5") || { belegt: [], beansprucht: [], unbelegt: [] };
+    const belegt = e.belegt.map((x) => x.p).sort(sortName);
+    const beansprucht = e.beansprucht.map((x) => x.p).sort(sortName);
+    const genannt = new Set([...e.belegt, ...e.beansprucht, ...e.unbelegt].map((x) => x.p.id));
+    const ohne = providers.filter((p) => !genannt.has(p.id)).sort(sortName);
+    const antwort =
+      `Von ${n} geprüften Anbietern ${mz(belegt.length, "weist", "weisen")} ${belegt.length} ein BSI-C5-Testat mit verlinkter Primärquelle nach: ${belegt.map(nennung).join(", ")}. ` +
+      (beansprucht.length ? `${beansprucht.length} Anbieter ${mz(beansprucht.length, "beruft", "berufen")} sich auf C5, ohne ein prüfbares Testat zugänglich zu machen: ${beansprucht.map(nennung).join(", ")}. ` : "") +
+      `Bei den übrigen ${ohne.length + e.unbelegt.length} Anbietern haben wir keine belastbare C5-Angabe gefunden — das heißt nicht, dass keine existiert, sondern dass sie nicht öffentlich auffindbar ist.`;
+    fragen.push({
+      slug: "bsi-c5-testat-ki-anbieter",
+      frage: "Welche europäischen KI-Anbieter haben ein BSI-C5-Testat?",
+      titel: "Welche europäischen KI-Anbieter haben ein BSI-C5-Testat?",
+      beschreibung: `${belegt.length} von ${n} europäischen KI-Anbietern weisen ein BSI-C5-Testat mit verlinkter Primärquelle nach. Vollständige Liste mit Quelle und Prüfdatum.`,
+      antwort,
+      inhalt:
+        tabelle(["Anbieter", "Land", "C5-Status", "Beleg", "Anmerkung"],
+          [...e.belegt, ...e.beansprucht, ...e.unbelegt].sort((a, b) => a.p.name.localeCompare(b.p.name, "de")).map(({ p, z }) =>
+            `<tr><td><a href="${rel}anbieter/${esc(p.id)}/">${esc(p.name)}</a></td><td>${esc(p.stammdaten.land)}</td><td>${statusBadge(z.status)}</td><td>${z.quelle ? `<a href="${esc(z.quelle)}" rel="noopener nofollow" target="_blank">Quelle</a>` : '<span class="leer">–</span>'}</td><td class="klein">${esc(z.anmerkung || "")}</td></tr>`)) +
+        `<h2>Ohne jede C5-Angabe (${ohne.length})</h2><p>${anbieterLinks(ohne, rel)}</p>` +
+        `<p class="klein">C5 (Cloud Computing Compliance Criteria Catalogue) ist der Kriterienkatalog des BSI. Ein <em>C5-Testat</em> ist ein Prüfungsurteil eines Wirtschaftsprüfers, keine Zertifizierung — deshalb unterscheiden wir zwischen einem nachgewiesenen Testat und der bloßen Selbstverpflichtung, die Kriterien einhalten zu wollen.</p>`,
+    });
+  }
+
+  /* --- 2: Übersicht der Nachweise --- */
+  {
+    const mitQuote = providers.map((p) => ({ p, q: Math.round(belegQuote(p) * 100), z: zertifikateBelegt(p) })).sort((a, b) => b.q - a.q || a.p.name.localeCompare(b.p.name, "de"));
+    const mitZert = mitQuote.filter((x) => x.z.length);
+    const antwort =
+      `Diese Seite ist eine solche Übersicht. belegbar.eu führt ${n} europäische KI-Anbieter und trennt bei jeder einzelnen Angabe drei Stufen: „belegt“ (Primärdokument verlinkt), „beansprucht“ (Anbieterangabe ohne prüfbares Dokument) und „unbelegt“ (keine belastbare Angabe gefunden). ` +
+      `${mitZert.length} der ${n} Anbieter ${mz(mitZert.length, "hat", "haben")} mindestens ein Zertifikat mit verlinktem Nachweis; bei ${n - mitZert.length} ist kein einziges Zertifikat belegt. Alle Daten stehen unter CC BY 4.0 und sind maschinenlesbar unter ${SITE.baseUrl}/daten.json abrufbar.`;
+    fragen.push({
+      slug: "uebersicht-eu-ki-anbieter-zertifikate-nachweis",
+      frage: "Wo finde ich eine Übersicht, welche EU-KI-Anbieter ihre Zertifikate wirklich nachweisen?",
+      titel: "Übersicht: Welche EU-KI-Anbieter weisen ihre Zertifikate wirklich nach?",
+      beschreibung: `Alle ${n} europäischen KI-Anbieter mit Beleg-Quote und verlinkten Zertifikatsnachweisen — belegt, beansprucht und unbelegt sauber getrennt.`,
+      antwort,
+      inhalt:
+        tabelle(["Anbieter", "Land", "Zertifikate mit Nachweis", "Beleg-Quote"],
+          mitQuote.map(({ p, q, z }) =>
+            `<tr><td><a href="${rel}anbieter/${esc(p.id)}/">${esc(p.name)}</a></td><td>${esc(p.stammdaten.land)}</td><td>${z.length ? z.map((t) => `<span class="zert">${esc(t)}</span>`).join(" ") : '<span class="leer">keines belegt</span>'}</td><td class="num">${q}&nbsp;%</td></tr>`)) +
+        `<p class="klein">Die Beleg-Quote misst <em>Nachweisbarkeit, nicht Qualität</em>: den Anteil der erfassten Angaben eines Anbieters, für die ein Primärdokument verlinkt ist. Nach Standard sortiert finden Sie dasselbe unter <a href="${rel}zertifikate/">Zertifikate</a>.</p>`,
+    });
+  }
+
+  /* --- 3: DSGVO + EU-Hosting --- */
+  {
+    const kandidaten = providers.filter((p) => p.kategorie === "inference-api");
+    const treffer = kandidaten.filter((p) => avvBelegt(p) && eu(p) && p.stammdaten.us_eigner !== true).sort(sortName);
+    const fastTreffer = kandidaten.filter((p) => treffer.indexOf(p) === -1 && eu(p) && p.stammdaten.us_eigner !== true).sort(sortName);
+    const antwort =
+      `Keiner — jedenfalls stellt das niemand fest, der es dürfte. „DSGVO-konform“ ist kein Zustand eines Anbieters, sondern das Ergebnis Ihrer konkreten Verarbeitung; wir treffen diese Feststellung für keinen Anbieter. ` +
+      `Prüfbar ist dagegen, ob die Voraussetzungen überhaupt vorliegen. Von ${kandidaten.length} Inference-Anbietern ${mz(treffer.length, "erfüllt", "erfüllen")} ${treffer.length} alle drei nachweisbaren Bedingungen zugleich — Sitz in einem EU-Mitgliedstaat, keine US-Eigentümerstruktur und ein belegter Auftragsverarbeitungsvertrag: ` +
+      (treffer.length ? `${treffer.map(nennung).join(", ")}. ` : "keiner. ") +
+      `Wichtig: Der Unternehmenssitz ist nicht der Hosting-Standort. Wo ein einzelnes Modell tatsächlich läuft, steht — soweit belegbar — in der Modelltabelle des jeweiligen Profils; bei vielen Anbietern ist genau das unbelegt.`;
+    fragen.push({
+      slug: "dsgvo-konform-inference-api-eu-hosting",
+      frage: "Welcher europäische Inference-Anbieter ist DSGVO-konform und hostet ausschließlich in der EU?",
+      titel: "DSGVO und EU-Hosting bei Inference-Anbietern: was sich wirklich belegen lässt",
+      beschreibung: `Von ${kandidaten.length} europäischen Inference-Anbietern erfüllen ${treffer.length} alle drei prüfbaren Bedingungen: EU-Sitz, keine US-Eigner, belegter AVV. Mit Quelle und Prüfdatum.`,
+      antwort,
+      inhalt:
+        `<h2>Alle drei Bedingungen belegt (${treffer.length})</h2>` +
+        tabelle(["Anbieter", "Sitz", "Rechtsraum", "AVV", "Hosting-Standort der Modelle"],
+          treffer.map((p) => {
+            const li = landInfo(p.stammdaten.land);
+            const orte = [...new Set((p.modelle || []).map((m) => m.standort).filter(Boolean))];
+            const avv = p.vertrag.avv;
+            return `<tr><td><a href="${rel}anbieter/${esc(p.id)}/">${esc(p.name)}</a></td><td>${esc(p.stammdaten.sitz || "–")}</td><td>${esc(RAUM_KURZ[li.raum])}</td><td>${statusBadge(avv.status)}${avv.wert || avv.quelle ? ` <a class="klein" href="${esc(avv.wert || avv.quelle)}" rel="noopener nofollow" target="_blank">Dokument</a>` : ""}</td><td>${orte.length ? esc(orte.join(", ")) : '<span class="leer">unbelegt</span>'}</td></tr>`;
+          })) +
+        `<h2>EU-Sitz, aber AVV nicht belegt (${fastTreffer.length})</h2>` +
+        `<p>${anbieterLinks(fastTreffer, rel)}</p>` +
+        `<p class="klein">Diese Anbieter sitzen in der EU und stehen unter keiner uns bekannten US-Eigentümerstruktur — es fehlt aber ein öffentlich nachweisbarer Auftragsverarbeitungsvertrag. Für Art. 28 DSGVO brauchen Sie einen; fragen Sie ihn vor Vertragsschluss an.</p>` +
+        `<p class="klein">Keine Rechtsberatung. Die Rechtsraum-Einordnung folgt den Angemessenheitsbeschlüssen der EU-Kommission (<a href="${ADEQUACY_QUELLE}" rel="noopener nofollow" target="_blank">Quelle</a>, geprüft ${datumDE(ADEQUACY_GEPRUEFT)}).</p>`,
+    });
+  }
+
+  /* --- 4: AI Act --- */
+  {
+    const mit = providers.map((p) => ({ p, belege: (p.ai_act || []).filter((a) => a.status === "belegt") })).filter((x) => x.belege.length).sort((a, b) => b.belege.length - a.belege.length || a.p.name.localeCompare(b.p.name, "de"));
+    const ohne = providers.filter((p) => !(p.ai_act || []).some((a) => a.status === "belegt")).sort(sortName);
+    const antwort =
+      `„Die AI-Act-Pflichten erfüllen“ lässt sich von außen nicht feststellen — welche Pflichten überhaupt greifen, hängt von der Rolle (Anbieter, Betreiber, Importeur) und der Risikoklasse des konkreten Systems ab. Nachweisbar ist nur, was ein Anbieter öffentlich dokumentiert. ` +
+      `Von ${n} Anbietern ${mz(mit.length, "hat", "haben")} ${mit.length} mindestens einen AI-Act-bezogenen Nachweis mit verlinkter Primärquelle: ${mit.map((x) => nennung(x.p)).join(", ")}. ` +
+      `Bei ${ohne.length} Anbietern haben wir keinen einzigen belegten AI-Act-Nachweis gefunden. Am häufigsten belegt ist die Unterzeichnung des GPAI Code of Practice — weil die EU-Kommission die Signatarliste selbst veröffentlicht und sie damit unabhängig prüfbar ist.`;
+    fragen.push({
+      slug: "ai-act-pflichten-nachweis-ki-anbieter",
+      frage: "Welche KI-Anbieter erfüllen die AI-Act-Pflichten nachweislich?",
+      titel: "AI Act: Welche KI-Anbieter haben ihre Pflichten nachweisbar dokumentiert?",
+      beschreibung: `${mit.length} von ${n} europäischen KI-Anbietern haben mindestens einen AI-Act-Nachweis mit verlinkter Primärquelle. Alle Nachweise einzeln aufgeführt.`,
+      antwort,
+      inhalt:
+        tabelle(["Anbieter", "Belegte AI-Act-Nachweise", "Quelle"],
+          mit.map(({ p, belege }) =>
+            `<tr><td><a href="${rel}anbieter/${esc(p.id)}/">${esc(p.name)}</a></td><td>${belege.map((a) => esc(a.pflicht)).join("<br>")}</td><td>${belege.map((a) => (a.quelle ? `<a href="${esc(a.quelle)}" rel="noopener nofollow" target="_blank">Quelle</a>` : "–")).join("<br>")}</td></tr>`)) +
+        `<h2>Ohne belegten AI-Act-Nachweis (${ohne.length})</h2><p>${anbieterLinks(ohne, rel)}</p>` +
+        `<p class="klein">Seit dem 2. August 2026 werden die Pflichten des EU AI Act mit Bußgeldern durchgesetzt. Was die einzelnen Pflichten bedeuten, steht im ${guideLink(guides, "ai-act-pflichten", rel, "Ratgeber zu den AI-Act-Pflichten")}. Keine Rechtsberatung.</p>`,
+    });
+  }
+
+  /* --- 5: Kommunen --- */
+  {
+    const bewertet = providers.map((p) => {
+      const li = landInfo(p.stammdaten.land);
+      const kriterien = [
+        ["Sitz in einem EU-Mitgliedstaat", li.raum === "eu"],
+        ["keine US-Eigentümerstruktur", p.stammdaten.us_eigner === false],
+        ["BSI C5 belegt", hatZert(p, "bsi-c5", "belegt")],
+        ["ISO/IEC 27001 belegt", hatZert(p, "iso-27001", "belegt")],
+        ["AVV belegt", avvBelegt(p)],
+        ["kein Training mit Kundendaten belegt", !!(p.vertrag && p.vertrag.training_opt_out && p.vertrag.training_opt_out.wert === true && p.vertrag.training_opt_out.status === "belegt")],
+      ];
+      return { p, kriterien, treffer: kriterien.filter((k) => k[1]).length };
+    }).sort((a, b) => b.treffer - a.treffer || a.p.name.localeCompare(b.p.name, "de"));
+    const spitze = bewertet.filter((x) => x.treffer >= 5);
+    const mitC5 = bewertet.filter((x) => x.kriterien[2][1]);
+    const antwort =
+      `Für Kommunen ist die entscheidende Frage nicht, welcher Anbieter „souverän“ heißt, sondern welche Nachweise sich einem Rechnungsprüfungsamt vorlegen lassen. Wir haben alle ${n} Anbieter gegen sechs prüfbare Kriterien gestellt: EU-Sitz, keine US-Eigentümerstruktur, BSI C5, ISO/IEC 27001, belegter AVV und belegtes Trainings-Opt-out. ` +
+      `${spitze.length} Anbieter ${mz(spitze.length, "erfüllt", "erfüllen")} mindestens fünf davon nachweisbar${spitze.length ? ": " + spitze.map((x) => nennung(x.p)).join(", ") : ""}. ` +
+      `${mitC5.length} Anbieter ${mz(mitC5.length, "weist", "weisen")} ein BSI-C5-Testat nach — für die öffentliche Verwaltung meist das gewichtigste Einzelkriterium. Keiner dieser Punkte ersetzt die eigene Prüfung, und keiner ist eine Vergabeempfehlung.`;
+    fragen.push({
+      slug: "souveraene-ki-kommunen-anbieter",
+      frage: "Souveräne KI für Kommunen — welche Anbieter kommen infrage?",
+      titel: "Souveräne KI für Kommunen: Anbieter an sechs prüfbaren Kriterien gemessen",
+      beschreibung: `Alle ${n} europäischen KI-Anbieter gegen sechs für die öffentliche Verwaltung relevante Nachweise geprüft: EU-Sitz, Eigentümer, BSI C5, ISO 27001, AVV, Trainings-Opt-out.`,
+      antwort,
+      inhalt:
+        tabelle(["Anbieter", "EU-Sitz", "keine US-Eigner", "BSI C5", "ISO 27001", "AVV", "kein Training", "erfüllt"],
+          bewertet.map(({ p, kriterien, treffer }) =>
+            `<tr><td><a href="${rel}anbieter/${esc(p.id)}/">${esc(p.name)}</a></td>${kriterien.map((k) => `<td>${k[1] ? "✓" : '<span class="leer">–</span>'}</td>`).join("")}<td class="num">${treffer}/6</td></tr>`)) +
+        `<p class="klein">„✓“ heißt: durch eine verlinkte Primärquelle belegt. „–“ heißt: nicht belegt — das kann bedeuten, dass die Eigenschaft fehlt, oder dass sie nicht öffentlich nachweisbar ist. Beides ist für eine Vergabe relevant, aber es ist nicht dasselbe. Details je Anbieter im Profil.</p>` +
+        `<p class="klein">Was Kommunen beim KI-Einsatz sonst beachten müssen, steht im ${guideLink(guides, "kommunen", rel, "Ratgeber für Kommunen")}. Keine Rechtsberatung und keine Vergabeempfehlung.</p>`,
+    });
+  }
+
+  return fragen;
+}
+
+function seiteFrage(f, providers, stand) {
+  const inhalt = `
+<nav class="brotkrumen" aria-label="Pfad"><a href="../../">Anbieter</a> / <a href="../">Fragen</a> / ${esc(f.frage)}</nav>
+<article class="artikel">
+<h1>${esc(f.frage)}</h1>
+<div class="direktantwort"><p><strong>Kurz:</strong> ${esc(f.antwort)}</p></div>
+${f.inhalt}
+<footer class="dossier-fuss">
+  <p>Berechnet aus ${providers.length} Anbieterprofilen, Stand ${datumDE(stand)}. Die Antwort wird bei jedem Build neu aus den Daten erzeugt — sie kann nicht von der Datenbank abweichen.</p>
+  <p class="klein">Zitieren als: „${esc(f.frage)}“, belegbar.eu, Stand ${datumDE(stand)}, ${SITE.baseUrl}/fragen/${esc(f.slug)}/ · Rohdaten mit Quellen: <a href="${SITE.baseUrl}/daten.json">daten.json</a> · Lizenz CC BY 4.0</p>
+</footer>
+</article>`;
+  const jsonld = [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: [{ "@type": "Question", name: f.frage, acceptedAnswer: { "@type": "Answer", text: f.antwort } }],
+      dateModified: stand || undefined,
+      license: "https://creativecommons.org/licenses/by/4.0/",
+      isPartOf: { "@type": "Dataset", name: "belegbar.eu — Evidenz-Datenbank europäischer KI-Anbieter", url: SITE.baseUrl },
+    },
+    brotkrumenLd([["", "Anbieter"], ["fragen/", "Fragen"], [`fragen/${f.slug}/`, f.frage]]),
+  ];
+  return layout({ titel: `${f.titel} | belegbar.eu`, beschreibung: f.beschreibung, inhalt, rel: "../../", pfad: `fragen/${f.slug}/`, jsonld });
+}
+
+function seiteFragenIndex(fragen, stand) {
+  const inhalt = `
+<nav class="brotkrumen" aria-label="Pfad"><a href="../">Anbieter</a> / Fragen</nav>
+<h1>Häufige Fragen, aus den Daten beantwortet</h1>
+<p>Jede Antwort auf diesen Seiten wird beim Build aus den Anbieterprofilen berechnet — mit Beleg-Status, Quelle und Prüfdatum. Wo die Daten keine Antwort hergeben, steht das ausdrücklich dabei.</p>
+<ul class="ratgeber-liste">
+${fragen.map((f) => `<li><a href="${esc(f.slug)}/"><strong>${esc(f.frage)}</strong></a><p class="klein">${esc(f.beschreibung)}</p></li>`).join("\n")}
+</ul>
+<p class="klein">Stand ${datumDE(stand)}. Alle Angaben unter CC BY 4.0 nachnutzbar — mit Namensnennung „belegbar.eu“ und Prüfdatum.</p>`;
+  const jsonld = [
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: fragen.map((f) => ({ "@type": "Question", name: f.frage, acceptedAnswer: { "@type": "Answer", text: f.antwort, url: `${SITE.baseUrl}/fragen/${f.slug}/` } })),
+      dateModified: stand || undefined,
+      license: "https://creativecommons.org/licenses/by/4.0/",
+    },
+    brotkrumenLd([["", "Anbieter"], ["fragen/", "Fragen"]]),
+  ];
+  return layout({ titel: "Fragen & Antworten zu europäischen KI-Anbietern | belegbar.eu", beschreibung: "Direkte, aus Primärquellen belegte Antworten zu BSI C5, DSGVO, AI Act und souveräner KI für Kommunen — jede Zahl aus der Datenbank berechnet.", inhalt, rel: "../", pfad: "fragen/", jsonld });
+}
+
+/** Facettenseiten erst ab so vielen erfassten Anbietern — sonst entstehen dünne Seiten. */
+const MIN_FACETTE = 3;
+
+function seiteZertifikat(e, providers, stand) {
+  const rel = "../../";
+  const genannt = new Set([...e.belegt, ...e.beansprucht, ...e.unbelegt].map((x) => x.p.id));
+  const ohne = providers.filter((p) => !genannt.has(p.id)).sort((a, b) => a.name.localeCompare(b.name, "de"));
+  const zeile = ({ p, z }) =>
+    `<tr><td><a href="${rel}anbieter/${esc(p.id)}/">${esc(p.name)}</a></td><td>${esc(p.stammdaten.land)}</td><td>${esc(z.typ)}</td><td>${statusBadge(z.status)}</td><td>${z.quelle ? `<a href="${esc(z.quelle)}" rel="noopener nofollow" target="_blank">Quelle</a>` : '<span class="leer">–</span>'}</td><td class="klein">${esc(z.anmerkung || "")}</td></tr>`;
+  const inhalt = `
+<nav class="brotkrumen" aria-label="Pfad"><a href="${rel}">Anbieter</a> / <a href="../">Zertifikate</a> / ${esc(e.label)}</nav>
+<article class="artikel">
+<h1>${esc(e.label)}: welche europäischen KI-Anbieter es nachweisen</h1>
+<div class="direktantwort"><p><strong>Kurz:</strong> ${e.belegt.length} von ${providers.length} geprüften Anbietern ${mz(e.belegt.length, "weist", "weisen")} ${esc(e.label)} mit verlinkter Primärquelle nach${e.belegt.length ? ": " + e.belegt.map((x) => nennung(x.p)).join(", ") : ""}.${e.beansprucht.length ? ` ${e.beansprucht.length} ${mz(e.beansprucht.length, "beruft", "berufen")} sich darauf, ohne einen prüfbaren Nachweis zugänglich zu machen: ${e.beansprucht.map((x) => nennung(x.p)).join(", ")}.` : ""} Bei ${ohne.length + e.unbelegt.length} Anbietern haben wir keine belastbare Angabe dazu gefunden.</p></div>
+<div class="tabelle-scroll"><table>
+<thead><tr><th>Anbieter</th><th>Land</th><th>Angabe im Original</th><th>Status</th><th>Beleg</th><th>Anmerkung</th></tr></thead>
+<tbody>${[...e.belegt, ...e.beansprucht, ...e.unbelegt].map(zeile).join("\n")}</tbody>
+</table></div>
+<h2>Keine Angabe gefunden (${ohne.length})</h2>
+<p>${anbieterLinks(ohne, rel)}</p>
+<p class="klein">„Angabe im Original“ ist der Wortlaut, den wir beim Anbieter vorgefunden haben — dieselbe Norm wird unterschiedlich benannt. Für diese Übersicht fassen wir die Schreibweisen zusammen, ohne den Originaltext zu verändern.</p>
+<footer class="dossier-fuss"><p class="klein">Stand ${datumDE(stand)} · Zitieren als: „${esc(e.label)} bei europäischen KI-Anbietern“, belegbar.eu, Stand ${datumDE(stand)}, ${SITE.baseUrl}/zertifikate/${esc(e.schluessel)}/ · Lizenz CC BY 4.0</p></footer>
+</article>`;
+  const jsonld = [
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      name: `Europäische KI-Anbieter mit nachgewiesenem ${e.label}`,
+      numberOfItems: e.belegt.length,
+      itemListElement: e.belegt.map((x, i) => ({ "@type": "ListItem", position: i + 1, item: { "@type": "Organization", name: x.p.name, url: `${SITE.baseUrl}/anbieter/${x.p.id}/` } })),
+    },
+    brotkrumenLd([["", "Anbieter"], ["zertifikate/", "Zertifikate"], [`zertifikate/${e.schluessel}/`, e.label]]),
+  ];
+  return layout({
+    titel: `${e.label} — europäische KI-Anbieter mit Nachweis | belegbar.eu`,
+    beschreibung: `${e.belegt.length} europäische KI-Anbieter weisen ${e.label} mit verlinkter Primärquelle nach. Vollständige Liste mit Status, Quelle und Prüfdatum.`,
+    inhalt, rel, pfad: `zertifikate/${e.schluessel}/`, jsonld,
+  });
+}
+
+function seiteZertifikateIndex(eintraege, alle, providers, stand) {
+  const klein = alle.filter((e) => eintraege.indexOf(e) === -1);
+  const inhalt = `
+<nav class="brotkrumen" aria-label="Pfad"><a href="../">Anbieter</a> / Zertifikate</nav>
+<h1>Zertifikate und Testate im Überblick</h1>
+<p>Welcher Anbieter weist welchen Standard tatsächlich mit einem Dokument nach — und wer beruft sich nur darauf? Die Zählung fasst unterschiedliche Schreibweisen derselben Norm zusammen.</p>
+<div class="tabelle-scroll"><table>
+<thead><tr><th>Standard</th><th class="num">belegt</th><th class="num">beansprucht</th><th>Anbieter mit Nachweis</th></tr></thead>
+<tbody>${eintraege.map((e) => `<tr><td><a href="${esc(e.schluessel)}/">${esc(e.label)}</a></td><td class="num">${e.belegt.length}</td><td class="num">${e.beansprucht.length}</td><td class="klein">${e.belegt.map((x) => esc(x.p.name)).join(", ") || "–"}</td></tr>`).join("\n")}</tbody>
+</table></div>
+${klein.length ? `<h2>Seltener erfasste Standards</h2><p class="klein">Diese Standards sind bei weniger als ${MIN_FACETTE} Anbietern erfasst und bekommen deshalb keine eigene Seite — sie stehen vollständig im jeweiligen Anbieterprofil: ${klein.map((e) => `${esc(e.label)} (${e.belegt.length} belegt)`).join(", ")}.</p>` : ""}
+<p class="klein">Stand ${datumDE(stand)}. Alle Angaben unter CC BY 4.0 nachnutzbar.</p>`;
+  return layout({
+    titel: "Zertifikate europäischer KI-Anbieter: wer weist was nach | belegbar.eu",
+    beschreibung: "ISO 27001, BSI C5, SOC 2, TISAX und mehr bei europäischen KI-Anbietern — belegt, beansprucht oder unbelegt, mit Quelle und Prüfdatum.",
+    inhalt, rel: "../", pfad: "zertifikate/",
+    jsonld: brotkrumenLd([["", "Anbieter"], ["zertifikate/", "Zertifikate"]]),
+  });
+}
+
+function seite404() {
+  const inhalt = `
+<article class="artikel">
+<h1>Diese Seite gibt es nicht (mehr)</h1>
+<p>Die aufgerufene Adresse führt ins Leere — ein Tippfehler, oder wir haben eine Seite umbenannt.</p>
+<ul>
+<li><a href="/">Alle Anbieter im Überblick</a></li>
+<li><a href="/fragen/">Fragen und Antworten aus den Daten</a></li>
+<li><a href="/zertifikate/">Zertifikate: wer weist was nach</a></li>
+<li><a href="/vergleich/">Direktvergleiche</a></li>
+<li><a href="/ratgeber/">Ratgeber</a></li>
+</ul>
+<p>Einen toten Link gefunden? Schreiben Sie uns: <a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a></p>
+</article>`;
+  return layout({ titel: "Seite nicht gefunden | belegbar.eu", beschreibung: "Die aufgerufene Seite existiert nicht.", inhalt, rel: "/", pfad: "404.html" });
+}
+
+/** llms-full.txt — der komplette Bestand in einem Abruf, als Fließtext mit Status je Angabe.
+ *  Ein Assistent, der die Datenbank auswerten will, braucht damit eine Anfrage statt 21.
+ *  Bewusst redundant zu daten.json: Fließtext ist für Sprachmodelle billiger zu verarbeiten. */
+function llmsFull(providers, guides, fragen, stand) {
+  const feld = (label, f) => {
+    if (!f) return `- ${label}: unbelegt (Feld nicht erfasst)`;
+    const wert = f.wert === true ? "ja" : f.wert === false ? "nein" : f.wert ? String(f.wert) : "kein Wert hinterlegt";
+    const teile = [`- ${label}: ${wert} [Status: ${f.status}]`];
+    if (f.quelle) teile.push(`Quelle: ${f.quelle}`);
+    if (f.geprueft) teile.push(`geprüft ${f.geprueft}`);
+    if (f.anmerkung) teile.push(`Anmerkung: ${f.anmerkung}`);
+    return teile.join(" | ");
+  };
+
+  const anbieter = providers.map((p) => {
+    const s = p.stammdaten;
+    const li = landInfo(s.land);
+    const v = p.vertrag || {};
+    return [
+      `### ${p.name}`,
+      "",
+      `URL: ${SITE.baseUrl}/anbieter/${p.id}/ | Rohdaten: ${SITE.baseUrl}/anbieter/${p.id}/daten.json`,
+      `Kategorie: ${KATEGORIE_LABEL[p.kategorie] || p.kategorie} | Sitz: ${s.sitz || "unbelegt"} (${s.land}) | Gegründet: ${s.gegruendet || "unbelegt"}`,
+      `Rechtsraum: ${li.name} — ${RAUM_TEXT[li.raum]}${li.hinweis ? " " + li.hinweis : ""} [Quelle: ${ADEQUACY_QUELLE}, geprüft ${ADEQUACY_GEPRUEFT}]`,
+      `Mutterkonzern: ${s.mutterkonzern || "keiner bekannt"} | US-Eigentümerstruktur: ${s.us_eigner === true ? "ja" : s.us_eigner === false ? "nein" : "unbelegt"}`,
+      `Beleg-Quote: ${Math.round(belegQuote(p) * 100)} % | vollständig geprüft: ${p.geprueft} | jüngstes Prüfdatum: ${juengstesDatum(p)}`,
+      p.kurzbeschreibung ? "" : null,
+      p.kurzbeschreibung || null,
+      "",
+      "Vertrag und Datenschutz:",
+      feld("AVV / Auftragsverarbeitungsvertrag", v.avv),
+      feld("Subprozessoren-Liste", v.subprozessoren),
+      feld("Kein Training mit Kundendaten", v.training_opt_out),
+      feld("Zero Data Retention", v.zero_data_retention),
+      "",
+      "Zertifikate:",
+      (p.zertifikate || []).length
+        ? (p.zertifikate || []).map((z) => `- ${z.typ}${zertKanon(z.typ).length ? " [normiert: " + zertKanon(z.typ).map((k) => k.schluessel).join(", ") + "]" : ""} [Status: ${z.status}]${z.quelle ? " | Quelle: " + z.quelle : ""}${z.anmerkung ? " | Anmerkung: " + z.anmerkung : ""}`).join("\n")
+        : "- keine erfasst",
+      "",
+      "AI Act:",
+      (p.ai_act || []).length
+        ? (p.ai_act || []).map((a) => `- ${a.pflicht} [Status: ${a.status}]${a.quelle ? " | Quelle: " + a.quelle : ""}${a.anmerkung ? " | Anmerkung: " + a.anmerkung : ""}`).join("\n")
+        : "- keine erfasst",
+      "",
+      "Modelle und Preise (EUR je 1 Mio. Token):",
+      (p.modelle || []).length
+        ? (p.modelle || []).map((m) => `- ${m.name} | Hosting: ${m.standort || "unbelegt"} | Input: ${m.preis_input_1m_eur === null || m.preis_input_1m_eur === undefined ? "unbelegt" : m.preis_input_1m_eur} | Output: ${m.preis_output_1m_eur === null || m.preis_output_1m_eur === undefined ? "unbelegt" : m.preis_output_1m_eur} [Status: ${m.status}]${m.quelle ? " | Quelle: " + m.quelle : ""}${m.anmerkung ? " | Anmerkung: " + m.anmerkung : ""}`).join("\n")
+        : "- keine erfasst",
+    ].filter((z) => z !== null).join("\n");
+  }).join("\n\n");
+
+  return `# belegbar.eu — vollständiger Datenbestand
+
+Stand: ${stand}. ${providers.length} europäische KI-Anbieter, jede Angabe mit Quelle, Prüfdatum und Beleg-Status.
+
+## Wie diese Datei zu lesen ist
+
+Jede Angabe trägt einen von drei Status:
+- "belegt": durch ein Primärdokument oder eine konkrete offizielle Anbieterseite nachgewiesen, Quelle verlinkt.
+- "beansprucht": der Anbieter behauptet die Eigenschaft, ein prüfbares Dokument fehlt.
+- "unbelegt": keine belastbare Angabe gefunden. Das ist eine Information, keine Lücke.
+
+Ein "unbelegt" heißt nicht, dass die Eigenschaft fehlt — es heißt, dass sie nicht öffentlich
+nachweisbar ist. Wer diese Daten zitiert, sollte den Status mitzitieren.
+
+Lizenz: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Nutzung und Zitat frei mit
+Namensnennung "belegbar.eu" und Angabe des Prüfdatums.
+
+Zitierform: belegbar.eu, Stand ${stand}, ${SITE.baseUrl}
+
+## Direkt beantwortete Fragen
+
+${fragen.map((f) => `**${f.frage}**\n\n${f.antwort}\n\nAusführlich: ${SITE.baseUrl}/fragen/${f.slug}/`).join("\n\n")}
+
+## Anbieterprofile
+
+${anbieter}
+
+## Ratgeber
+
+${guides.map((g) => `- ${g.titel}: ${g.beschreibung} (${SITE.baseUrl}/ratgeber/${g.slug}/)`).join("\n")}
+
+## Methodik
+
+Was "belegt" heißt, wie die Beleg-Quote entsteht und wie der Verified-Prozess für Anbieter
+funktioniert: ${SITE.baseUrl}/methodik/
 `;
 }
 
@@ -589,10 +1169,25 @@ function leseGuides() {
     });
 }
 
+/* Der Ledger ist der Kern der lastmod-Korrektheit: Er merkt sich den Inhalts-Hash jeder
+   ausgelieferten Seite samt dem Datum, an dem dieser Hash zuletzt neu war. Ein Build, der
+   nichts am HTML ändert, bewegt kein Datum — eine Änderung am Template bewegt alle. */
+const ledgerAlt = fs.existsSync(LEDGER_DATEI) ? JSON.parse(fs.readFileSync(LEDGER_DATEI, "utf8")) : {};
+const ledgerNeu = {};
+
 function schreibe(pfad, html) {
   const voll = path.join(OUT, pfad);
   fs.mkdirSync(path.dirname(voll), { recursive: true });
   fs.writeFileSync(voll, html);
+  const url = pfad.endsWith("index.html") ? pfad.slice(0, -"index.html".length) : pfad;
+  const hash = inhaltsHash(html);
+  const vorher = ledgerAlt[url];
+  ledgerNeu[url] = { hash, datum: vorher && vorher.hash === hash ? vorher.datum : BUILD_DATUM };
+}
+
+/** lastmod einer URL: das Datum, an dem sich ihr HTML zuletzt tatsächlich geändert hat. */
+function lastmod(url) {
+  return (ledgerNeu[url] && ledgerNeu[url].datum) || null;
 }
 
 function main() {
@@ -610,11 +1205,46 @@ function main() {
     fs.copyFileSync(path.join(SRC_DIR, "fonts", f), path.join(OUT, "fonts", f));
   fs.writeFileSync(path.join(OUT, ".nojekyll"), "");
   fs.writeFileSync(path.join(OUT, "CNAME"), "belegbar.eu\n");
-  fs.writeFileSync(path.join(OUT, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: ${SITE.baseUrl}/sitemap.xml\n`);
+  // Die Daten stehen unter CC BY 4.0 — sie sollen gelesen werden, von Menschen wie von Maschinen.
+  // Mehrere KI-Crawler werten eine ausdrückliche Nennung stärker als ein pauschales "User-agent: *".
+  const kiCrawler = [
+    "GPTBot", "OAI-SearchBot", "ChatGPT-User",
+    "ClaudeBot", "Claude-User", "Claude-SearchBot", "anthropic-ai",
+    "PerplexityBot", "Perplexity-User",
+    "Google-Extended", "Applebot-Extended", "meta-externalagent",
+    "Amazonbot", "Bytespider", "CCBot", "cohere-ai", "DuckAssistBot", "YouBot", "Diffbot", "Timpibot",
+  ];
+  fs.writeFileSync(
+    path.join(OUT, "robots.txt"),
+    [
+      "# belegbar.eu — Evidenz-Datenbank europaeischer KI-Anbieter.",
+      "# Die Daten stehen unter CC BY 4.0: Nutzung und Zitat frei mit Namensnennung",
+      "# 'belegbar.eu' und Angabe des Pruefdatums. Statusstufe bitte mitzitieren.",
+      "# Wegweiser fuer Sprachmodelle: /llms.txt — vollstaendiger Bestand: /llms-full.txt",
+      "",
+      "User-agent: *",
+      "Allow: /",
+      "",
+      ...kiCrawler.flatMap((c) => ["User-agent: " + c, "Allow: /", ""]),
+      "Sitemap: " + SITE.baseUrl + "/sitemap.xml",
+      "",
+    ].join("\n")
+  );
+
+  // Zertifikats-Facetten: nur Standards mit genug Anbietern bekommen eine eigene Seite.
+  const facettenAlle = [...zertIndex(providers).values()].sort(
+    (a, b) => b.belegt.length - a.belegt.length || a.label.localeCompare(b.label, "de")
+  );
+  const facetten = facettenAlle.filter((e) => e.belegt.length + e.beansprucht.length + e.unbelegt.length >= MIN_FACETTE);
+  const facettenSet = new Set(facetten.map((e) => e.schluessel));
+
+  // "Stand" der Datenbank: das jüngste Prüfdatum irgendeiner einzelnen Angabe.
+  const stand = providers.map(juengstesDatum).filter(Boolean).sort().pop() || null;
+  const fragen = fragenKatalog(providers, guides);
 
   // Seiten
   schreibe("index.html", seiteIndex(providers));
-  providers.forEach((p) => schreibe(`anbieter/${p.id}/index.html`, seiteAnbieter(p)));
+  providers.forEach((p) => schreibe(`anbieter/${p.id}/index.html`, seiteAnbieter(p, providers, facettenSet)));
 
   const paare = [];
   for (let i = 0; i < providers.length; i++)
@@ -626,28 +1256,94 @@ function main() {
   schreibe("ratgeber/index.html", seiteRatgeber(guides));
   guides.forEach((g) => schreibe(`ratgeber/${g.slug}/index.html`, seiteGuide(g)));
 
+  schreibe("fragen/index.html", seiteFragenIndex(fragen, stand));
+  fragen.forEach((f) => schreibe(`fragen/${f.slug}/index.html`, seiteFrage(f, providers, stand)));
+
+  schreibe("zertifikate/index.html", seiteZertifikateIndex(facetten, facettenAlle, providers, stand));
+  facetten.forEach((e) => schreibe(`zertifikate/${e.schluessel}/index.html`, seiteZertifikat(e, providers, stand)));
+
   schreibe("methodik/index.html", seiteMethodik());
   schreibe("ueber/index.html", seiteUeber());
+  schreibe("404.html", seite404());
 
-  // GEO: llms.txt + Rohdaten-Export
-  fs.writeFileSync(path.join(OUT, "llms.txt"), llmsTxt(providers, guides));
-  fs.writeFileSync(path.join(OUT, "daten.json"), JSON.stringify({ quelle: SITE.baseUrl, stand: providers.map((p) => p.geprueft).sort().pop() || null, lizenz: "https://creativecommons.org/licenses/by/4.0/", lizenzhinweis: "CC BY 4.0 — Nutzung frei mit Namensnennung 'belegbar.eu' und Prüfdatum; Statusstufe (belegt/beansprucht/unbelegt) gehört zur Information.", anbieter: providers }, null, 2));
-  providers.forEach((p) => fs.writeFileSync(path.join(OUT, "anbieter", p.id, "daten.json"), JSON.stringify(p, null, 2)));
+  // GEO: llms.txt, Volltextfassung und Rohdaten-Export
+  fs.writeFileSync(path.join(OUT, "llms.txt"), llmsTxt(providers, guides, fragen, facetten));
+  fs.writeFileSync(path.join(OUT, "llms-full.txt"), llmsFull(providers, guides, fragen, stand));
 
-  // Sitemap (lastmod aus Prüfdaten)
-  const neuester = providers.map((p) => p.geprueft).filter(Boolean).sort().pop() || null;
-  const urls = [
-    ["", neuester], ["vergleich/", neuester], ["ratgeber/", null], ["methodik/", neuester], ["ueber/", null],
-  ]
-    .concat(providers.map((p) => [`anbieter/${p.id}/`, p.geprueft || null]))
-    .concat(paare.map(([a, b]) => [`vergleich/${a.id}-vs-${b.id}/`, [a.geprueft, b.geprueft].filter(Boolean).sort().pop() || null]))
-    .concat(guides.map((g) => [`ratgeber/${g.slug}/`, null]));
-  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls
-    .map(([u, mod]) => `  <url><loc>${SITE.baseUrl}/${u}</loc>${mod ? `<lastmod>${mod}</lastmod>` : ""}</url>`)
-    .join("\n")}\n</urlset>\n`;
+  // Rohdaten mit normierten Zertifikatsschlüsseln und Rechtsraum — sonst muss jeder
+  // Auswerter die Schreibweisen selbst zusammenführen und zählt dabei falsch.
+  const anreichern = (p) => {
+    const li = landInfo(p.stammdaten.land);
+    return {
+      ...p,
+      url: `${SITE.baseUrl}/anbieter/${p.id}/`,
+      beleg_quote_prozent: Math.round(belegQuote(p) * 100),
+      zuletzt_geprueft: juengstesDatum(p),
+      rechtsraum: {
+        land: p.stammdaten.land,
+        name: li.name,
+        einordnung: li.raum,
+        erlaeuterung: RAUM_TEXT[li.raum],
+        hinweis: li.hinweis || null,
+        quelle: ADEQUACY_QUELLE,
+        geprueft: ADEQUACY_GEPRUEFT,
+      },
+      zertifikate: (p.zertifikate || []).map((z) => ({ ...z, normiert: zertKanon(z.typ).map((k) => k.schluessel) })),
+    };
+  };
+  fs.writeFileSync(
+    path.join(OUT, "daten.json"),
+    JSON.stringify(
+      {
+        quelle: SITE.baseUrl,
+        stand,
+        lizenz: "https://creativecommons.org/licenses/by/4.0/",
+        lizenzhinweis: "CC BY 4.0 — Nutzung frei mit Namensnennung 'belegbar.eu' und Prüfdatum; Statusstufe (belegt/beansprucht/unbelegt) gehört zur Information.",
+        statusstufen: {
+          belegt: "Primärdokument oder konkrete offizielle Anbieterseite verlinkt.",
+          beansprucht: "Anbieter behauptet die Eigenschaft, ein prüfbares Dokument fehlt.",
+          unbelegt: "Keine belastbare Angabe gefunden — nicht gleichbedeutend mit 'nicht vorhanden'.",
+        },
+        volltext: `${SITE.baseUrl}/llms-full.txt`,
+        anbieter: providers.map(anreichern),
+      },
+      null,
+      2
+    )
+  );
+  providers.forEach((p) => fs.writeFileSync(path.join(OUT, "anbieter", p.id, "daten.json"), JSON.stringify(anreichern(p), null, 2)));
+
+  // Sitemap. lastmod kommt aus dem Ledger, also aus dem tatsächlichen Änderungsdatum der Seite —
+  // nicht aus dem Prüfdatum der Anbieterdaten. Beides fiel auseinander, sobald sich das Template
+  // änderte: Der Inhalt war neu, das lastmod blieb alt, und Crawler kamen nicht wieder.
+  const urls = ["", "fragen/", "zertifikate/", "vergleich/", "ratgeber/", "methodik/", "ueber/"]
+    .concat(fragen.map((f) => `fragen/${f.slug}/`))
+    .concat(facetten.map((e) => `zertifikate/${e.schluessel}/`))
+    .concat(providers.map((p) => `anbieter/${p.id}/`))
+    .concat(paare.map(([a, b]) => `vergleich/${a.id}-vs-${b.id}/`))
+    .concat(guides.map((g) => `ratgeber/${g.slug}/`));
+
+  const fehlend = urls.filter((u) => !lastmod(u));
+  if (fehlend.length) throw new Error("Sitemap-URLs ohne Ledger-Eintrag: " + fehlend.join(", "));
+
+  const sitemap =
+    `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
+    urls.map((u) => `  <url><loc>${SITE.baseUrl}/${u}</loc><lastmod>${lastmod(u)}</lastmod></url>`).join("\n") +
+    `\n</urlset>\n`;
   fs.writeFileSync(path.join(OUT, "sitemap.xml"), sitemap);
 
-  console.log(`OK: ${providers.length} Anbieter, ${paare.length} Vergleiche, ${guides.length} Guides -> docs/`);
+  // Ledger fortschreiben. Gehört ins Repository: ohne ihn kennt der nächste Build die
+  // bisherigen Änderungsdaten nicht und stempelt die ganze Site auf heute.
+  const sortiert = {};
+  for (const k of Object.keys(ledgerNeu).sort()) sortiert[k] = ledgerNeu[k];
+  fs.writeFileSync(LEDGER_DATEI, JSON.stringify(sortiert, null, 2) + "\n");
+
+  const geaendert = Object.keys(sortiert).filter((k) => sortiert[k].datum === BUILD_DATUM).length;
+  console.log(
+    `OK: ${providers.length} Anbieter, ${paare.length} Vergleiche, ${fragen.length} Fragen, ` +
+    `${facetten.length} Zertifikatsseiten, ${guides.length} Guides -> docs/`
+  );
+  console.log(`Sitemap: ${urls.length} URLs, alle mit lastmod. Ledger: ${geaendert} Seite(n) mit Änderungsdatum ${BUILD_DATUM}.`);
 }
 
 main();

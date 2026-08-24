@@ -80,19 +80,28 @@
       "typ": "ISO/IEC 27001",
       "status": "beansprucht",
       "quelle": "https://gcore.com/infrastructure",
-      "anmerkung": "Eigenaussage über unabhängiges Audit; Zertifikat selbst nicht zum Download angeboten"
+      "anmerkung": "Eigenaussage über unabhängiges Audit; Zertifikat selbst nicht zum Download angeboten",
+      "normiert": [
+        "iso-27001"
+      ]
     },
     {
       "typ": "PCI DSS",
       "status": "beansprucht",
       "quelle": "https://gcore.com/infrastructure",
-      "anmerkung": "Eigenaussage (jährliches QSA-Audit); Attest nicht abrufbar"
+      "anmerkung": "Eigenaussage (jährliches QSA-Audit); Attest nicht abrufbar",
+      "normiert": [
+        "pci-dss"
+      ]
     },
     {
       "typ": "SOC 2",
       "status": "unbelegt",
       "quelle": null,
-      "anmerkung": "Keine eigene SOC-2-Attestierung auffindbar"
+      "anmerkung": "Keine eigene SOC-2-Attestierung auffindbar",
+      "normiert": [
+        "soc-2"
+      ]
     }
   ],
   "ai_act": [
@@ -109,5 +118,17 @@
       "anmerkung": "Marketing-Positionierung: regionale Workload-Steuerung und EU-Rechenzentren als Compliance-Mittel; zudem 'Sovereign Inference'-Pilot mit Orange Business. Keine vertragliche Zusicherung gefunden"
     }
   ],
-  "geprueft": "2026-08-20"
+  "geprueft": "2026-08-20",
+  "url": "https://belegbar.eu/anbieter/gcore/",
+  "beleg_quote_prozent": 38,
+  "zuletzt_geprueft": "2026-08-20",
+  "rechtsraum": {
+    "land": "LU",
+    "name": "Luxemburg",
+    "einordnung": "eu",
+    "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+    "hinweis": null,
+    "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+    "geprueft": "2026-08-24"
+  }
 }

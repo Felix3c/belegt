@@ -107,31 +107,46 @@
       "typ": "ISO 27001:2022",
       "status": "belegt",
       "quelle": "https://www.infomaniak.com/en/certifications",
-      "anmerkung": "Seit Juni 2018; Zertifikat als Download angeboten"
+      "anmerkung": "Seit Juni 2018; Zertifikat als Download angeboten",
+      "normiert": [
+        "iso-27001"
+      ]
     },
     {
       "typ": "ISO 9001 / 14001 / 50001",
       "status": "belegt",
       "quelle": "https://www.infomaniak.com/en/certifications",
-      "anmerkung": "Qualitäts-, Umwelt- und Energiemanagement"
+      "anmerkung": "Qualitäts-, Umwelt- und Energiemanagement",
+      "normiert": [
+        "iso-9001",
+        "iso-14001",
+        "iso-50001"
+      ]
     },
     {
       "typ": "B Corp",
       "status": "belegt",
       "quelle": "https://www.infomaniak.com/en/certifications",
-      "anmerkung": "Seit 2025"
+      "anmerkung": "Seit 2025",
+      "normiert": [
+        "b-corp"
+      ]
     },
     {
       "typ": "Swiss-Hosting-Label",
       "status": "belegt",
       "quelle": "https://www.infomaniak.com/en/certifications",
-      "anmerkung": "Bestätigt Sitz und Hosting der Kundendaten in Schweizer Rechenzentren unter eigener Kontrolle"
+      "anmerkung": "Bestätigt Sitz und Hosting der Kundendaten in Schweizer Rechenzentren unter eigener Kontrolle",
+      "normiert": []
     },
     {
       "typ": "SOC 2",
       "status": "unbelegt",
       "quelle": null,
-      "anmerkung": "Kein SOC-2-Bericht auf der Zertifikatsseite gefunden"
+      "anmerkung": "Kein SOC-2-Bericht auf der Zertifikatsseite gefunden",
+      "normiert": [
+        "soc-2"
+      ]
     }
   ],
   "ai_act": [
@@ -148,5 +163,17 @@
       "anmerkung": "Beworben wird Konformität zu DSGVO und Schweizer DSG ('full compliance with the FADP and GDPR'); DSGVO-Konformität ist nicht mit AI-Act-Konformität gleichzusetzen"
     }
   ],
-  "geprueft": "2026-08-20"
+  "geprueft": "2026-08-20",
+  "url": "https://belegbar.eu/anbieter/infomaniak/",
+  "beleg_quote_prozent": 67,
+  "zuletzt_geprueft": "2026-08-20",
+  "rechtsraum": {
+    "land": "CH",
+    "name": "Schweiz",
+    "einordnung": "angemessen",
+    "erlaeuterung": "Drittland mit Angemessenheitsbeschluss der EU-Kommission — Übermittlung ohne zusätzliche Garantien zulässig (Art. 45 DSGVO).",
+    "hinweis": null,
+    "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+    "geprueft": "2026-08-24"
+  }
 }

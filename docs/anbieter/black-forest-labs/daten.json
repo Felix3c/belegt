@@ -98,13 +98,19 @@
       "typ": "SOC 2 Type II",
       "status": "beansprucht",
       "quelle": "https://bfl.ai/enterprise",
-      "anmerkung": "Auf der Enterprise-Seite genannt; kein Trust-Center oder Auditbericht öffentlich abrufbar"
+      "anmerkung": "Auf der Enterprise-Seite genannt; kein Trust-Center oder Auditbericht öffentlich abrufbar",
+      "normiert": [
+        "soc-2"
+      ]
     },
     {
       "typ": "ISO 27001",
       "status": "beansprucht",
       "quelle": "https://bfl.ai/enterprise",
-      "anmerkung": "Auf der Enterprise-Seite genannt; kein Zertifikat/Zertifizierer einsehbar"
+      "anmerkung": "Auf der Enterprise-Seite genannt; kein Zertifikat/Zertifizierer einsehbar",
+      "normiert": [
+        "iso-27001"
+      ]
     }
   ],
   "ai_act": [
@@ -115,5 +121,17 @@
       "anmerkung": "Auf der EU-Kommissionsseite als Unterzeichner des General-Purpose AI Code of Practice gelistet (alle Kapitel, ohne Ausnahmen)"
     }
   ],
-  "geprueft": "2026-08-20"
+  "geprueft": "2026-08-20",
+  "url": "https://belegbar.eu/anbieter/black-forest-labs/",
+  "beleg_quote_prozent": 62,
+  "zuletzt_geprueft": "2026-08-20",
+  "rechtsraum": {
+    "land": "DE",
+    "name": "Deutschland",
+    "einordnung": "eu",
+    "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+    "hinweis": null,
+    "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+    "geprueft": "2026-08-24"
+  }
 }

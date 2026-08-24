@@ -91,45 +91,65 @@
     {
       "typ": "ISO 27001",
       "status": "belegt",
-      "quelle": "https://www.ovhcloud.com/en/enterprise/certification-conformity/",
-      "anmerkung": "Inkl. ISO 27017/27018; auf alle Cloud-Lösungen ausgeweitet."
+      "quelle": "https://www.ovhcloud.com/en/compliance/",
+      "anmerkung": "Inkl. ISO 27017/27018; auf alle Cloud-Lösungen ausgeweitet.",
+      "normiert": [
+        "iso-27001"
+      ]
     },
     {
       "typ": "ISO 27701",
       "status": "belegt",
-      "quelle": "https://www.ovhcloud.com/en/enterprise/certification-conformity/",
-      "anmerkung": "PIMS für Personendaten-Verarbeitung."
+      "quelle": "https://www.ovhcloud.com/en/compliance/",
+      "anmerkung": "PIMS für Personendaten-Verarbeitung.",
+      "normiert": [
+        "iso-27701"
+      ]
     },
     {
       "typ": "SOC 1/2/3",
       "status": "belegt",
-      "quelle": "https://www.ovhcloud.com/en/enterprise/certification-conformity/",
-      "anmerkung": "SSAE 16/ISAE 3402 Type 2 im Compliance-Portal gelistet."
+      "quelle": "https://www.ovhcloud.com/en/compliance/",
+      "anmerkung": "SSAE 16/ISAE 3402 Type 2 im Compliance-Portal gelistet.",
+      "normiert": [
+        "soc-1",
+        "soc-2",
+        "soc-3"
+      ]
     },
     {
       "typ": "BSI C5",
       "status": "belegt",
-      "quelle": "https://www.ovhcloud.com/en/enterprise/certification-conformity/",
-      "anmerkung": "Im Compliance-Portal gelistet; Geltungsbereich je Produkt prüfen."
+      "quelle": "https://www.ovhcloud.com/en/compliance/",
+      "anmerkung": "Im Compliance-Portal gelistet; Geltungsbereich je Produkt prüfen.",
+      "normiert": [
+        "bsi-c5"
+      ]
     },
     {
       "typ": "SecNumCloud",
       "status": "belegt",
-      "quelle": "https://www.ovhcloud.com/en/enterprise/certification-conformity/",
-      "anmerkung": "ANSSI-Qualifikation für bestimmte OVHcloud-Angebote — gilt nicht automatisch für AI Endpoints."
+      "quelle": "https://www.ovhcloud.com/en/compliance/",
+      "anmerkung": "ANSSI-Qualifikation für bestimmte OVHcloud-Angebote — gilt nicht automatisch für AI Endpoints.",
+      "normiert": [
+        "secnumcloud"
+      ]
     },
     {
       "typ": "HDS",
       "status": "belegt",
-      "quelle": "https://www.ovhcloud.com/en/enterprise/certification-conformity/",
-      "anmerkung": "Französische Gesundheitsdaten-Zertifizierung (ANS)."
+      "quelle": "https://www.ovhcloud.com/en/compliance/",
+      "anmerkung": "Französische Gesundheitsdaten-Zertifizierung (ANS).",
+      "normiert": [
+        "hds"
+      ]
     }
   ],
   "ai_act": [
     {
       "pflicht": "AI-Act-Informationsmaterial veröffentlicht",
       "status": "belegt",
-      "quelle": "https://blog.ovhcloud.com/ai-act-in-a-nutshell/",
+      "quelle": "https://blog.ovhcloud.com/en/posts/ai-act-in-a-nutshell/",
       "anmerkung": "Offizieller Beitrag 'AI Act in a nutshell'; Positionierung über Modelltransparenz durch Open-Weight-Modelle."
     },
     {
@@ -139,5 +159,17 @@
       "anmerkung": "Keine Unterzeichnung auffindbar; als Hoster fremder Open-Weight-Modelle kein typischer Pflichtenadressat."
     }
   ],
-  "geprueft": "2026-08-19"
+  "geprueft": "2026-08-19",
+  "url": "https://belegbar.eu/anbieter/ovhcloud/",
+  "beleg_quote_prozent": 94,
+  "zuletzt_geprueft": "2026-08-19",
+  "rechtsraum": {
+    "land": "FR",
+    "name": "Frankreich",
+    "einordnung": "eu",
+    "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+    "hinweis": null,
+    "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+    "geprueft": "2026-08-24"
+  }
 }

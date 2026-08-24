@@ -71,25 +71,37 @@
       "typ": "ISO 27001",
       "status": "belegt",
       "quelle": "https://community.exoscale.com/platform/compliance/",
-      "anmerkung": "ISO/IEC 27001:2022, zertifiziert seit 2018; Reports im Compliance Center (NDA)"
+      "anmerkung": "ISO/IEC 27001:2022, zertifiziert seit 2018; Reports im Compliance Center (NDA)",
+      "normiert": [
+        "iso-27001"
+      ]
     },
     {
       "typ": "SOC 2 Type II",
       "status": "belegt",
       "quelle": "https://community.exoscale.com/platform/compliance/",
-      "anmerkung": ""
+      "anmerkung": "",
+      "normiert": [
+        "soc-2"
+      ]
     },
     {
       "typ": "BSI C5",
       "status": "belegt",
       "quelle": "https://community.exoscale.com/platform/compliance/",
-      "anmerkung": "C5:2020 Typ 2"
+      "anmerkung": "C5:2020 Typ 2",
+      "normiert": [
+        "bsi-c5"
+      ]
     },
     {
       "typ": "TISAX Level 2",
       "status": "belegt",
       "quelle": "https://community.exoscale.com/platform/compliance/",
-      "anmerkung": "Zusätzlich HDS (Scope 1–4 und 6) und CSA STAR"
+      "anmerkung": "Zusätzlich HDS (Scope 1–4 und 6) und CSA STAR",
+      "normiert": [
+        "tisax"
+      ]
     }
   ],
   "ai_act": [
@@ -100,5 +112,17 @@
       "anmerkung": "Kein GPAI-Modellanbieter (reine Infrastruktur); eigene AI-Act-Dokumentation nicht auffindbar"
     }
   ],
-  "geprueft": "2026-08-19"
+  "geprueft": "2026-08-19",
+  "url": "https://belegbar.eu/anbieter/exoscale/",
+  "beleg_quote_prozent": 67,
+  "zuletzt_geprueft": "2026-08-19",
+  "rechtsraum": {
+    "land": "CH",
+    "name": "Schweiz",
+    "einordnung": "angemessen",
+    "erlaeuterung": "Drittland mit Angemessenheitsbeschluss der EU-Kommission — Übermittlung ohne zusätzliche Garantien zulässig (Art. 45 DSGVO).",
+    "hinweis": null,
+    "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+    "geprueft": "2026-08-24"
+  }
 }

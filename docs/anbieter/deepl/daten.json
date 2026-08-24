@@ -80,31 +80,45 @@
       "typ": "ISO/IEC 27001:2022",
       "status": "belegt",
       "quelle": "https://trust.deepl.com/",
-      "anmerkung": "Im Trust Center (SafeBase-Portal) ausgewiesen; Auditor TÜV Rheinland Cert GmbH, Zertifikat öffentlich abrufbar. Hinweis: trust.deepl.com blockt automatisierte Abrufe, im Browser erreichbar"
+      "anmerkung": "Im Trust Center (SafeBase-Portal) ausgewiesen; Auditor TÜV Rheinland Cert GmbH, Zertifikat öffentlich abrufbar. Hinweis: trust.deepl.com blockt automatisierte Abrufe, im Browser erreichbar",
+      "normiert": [
+        "iso-27001"
+      ]
     },
     {
       "typ": "SOC 2 Type II",
       "status": "belegt",
       "quelle": "https://trust.deepl.com/",
-      "anmerkung": "Berichtszeitraum 01.01.–30.06.2025; auch auf deepl.com/en/pro-data-security beworben, Bericht als Download"
+      "anmerkung": "Berichtszeitraum 01.01.–30.06.2025; auch auf deepl.com/en/pro-data-security beworben, Bericht als Download",
+      "normiert": [
+        "soc-2"
+      ]
     },
     {
       "typ": "HIPAA",
       "status": "beansprucht",
       "quelle": "https://www.deepl.com/en/products/api",
-      "anmerkung": "Als 'certification' beworben; HIPAA kennt keine formale Zertifizierung, kein Prüfer genannt. Nur für US-Gesundheitskontext relevant"
+      "anmerkung": "Als 'certification' beworben; HIPAA kennt keine formale Zertifizierung, kein Prüfer genannt. Nur für US-Gesundheitskontext relevant",
+      "normiert": [
+        "hipaa"
+      ]
     },
     {
       "typ": "BSI C5",
-      "status": "beansprucht",
-      "quelle": "https://trust.deepl.com/",
-      "anmerkung": "'Committed to meeting the high standards of the C5 framework' — Selbstverpflichtung, kein C5-Testat nachgewiesen"
+      "status": "belegt",
+      "quelle": "https://www.deepl.com/de/blog/c5-type2-attestation",
+      "geprueft": "2026-08-24",
+      "anmerkung": "C5-Typ-2-Testat des BSI, von DeepL am 03.10.2025 im eigenen Blog und per Pressemitteilung bestätigt (114 Kriterien, Wirksamkeitsnachweis über mindestens sechs Monate). Gleichlautende Pressemitteilung auf deepl.com/de/press-release/. Einschränkung: Der Testatsbericht selbst ist nicht öffentlich, ein prüfender Wirtschaftsprüfer wird nicht genannt; belegt ist die datierte Anbieteraussage über ein erteiltes Testat, nicht der Bericht. Früherer Stand bis 24.08.2026: beansprucht (Selbstverpflichtung im Trust Center) — die Angabe war veraltet.",
+      "normiert": [
+        "bsi-c5"
+      ]
     },
     {
       "typ": "Externe Penetrationstests",
       "status": "belegt",
       "quelle": "https://trust.deepl.com/",
-      "anmerkung": "Regelmäßige Tests durch wechselnde unabhängige Prüfer; Berichte auf Anfrage"
+      "anmerkung": "Regelmäßige Tests durch wechselnde unabhängige Prüfer; Berichte auf Anfrage",
+      "normiert": []
     }
   ],
   "ai_act": [
@@ -127,5 +141,17 @@
       "anmerkung": "Keine dedizierte AI-Act-Infoseite gefunden; für den Finanzsektor existiert eine DORA-Seite (deepl.com/en/dora-info), die DeepL als ICT-Drittdienstleister für 'non-critical functions' einordnet"
     }
   ],
-  "geprueft": "2026-08-20"
+  "geprueft": "2026-08-20",
+  "url": "https://belegbar.eu/anbieter/deepl/",
+  "beleg_quote_prozent": 69,
+  "zuletzt_geprueft": "2026-08-24",
+  "rechtsraum": {
+    "land": "DE",
+    "name": "Deutschland",
+    "einordnung": "eu",
+    "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+    "hinweis": null,
+    "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+    "geprueft": "2026-08-24"
+  }
 }

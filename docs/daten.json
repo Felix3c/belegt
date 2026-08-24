@@ -1,8 +1,14 @@
 {
   "quelle": "https://belegbar.eu",
-  "stand": "2026-08-20",
+  "stand": "2026-08-24",
   "lizenz": "https://creativecommons.org/licenses/by/4.0/",
   "lizenzhinweis": "CC BY 4.0 — Nutzung frei mit Namensnennung 'belegbar.eu' und Prüfdatum; Statusstufe (belegt/beansprucht/unbelegt) gehört zur Information.",
+  "statusstufen": {
+    "belegt": "Primärdokument oder konkrete offizielle Anbieterseite verlinkt.",
+    "beansprucht": "Anbieter behauptet die Eigenschaft, ein prüfbares Dokument fehlt.",
+    "unbelegt": "Keine belastbare Angabe gefunden — nicht gleichbedeutend mit 'nicht vorhanden'."
+  },
+  "volltext": "https://belegbar.eu/llms-full.txt",
   "anbieter": [
     {
       "id": "aleph-alpha",
@@ -77,7 +83,10 @@
           "typ": "ISO 27001",
           "status": "belegt",
           "quelle": "https://www.dqsglobal.com/en/customer-database/aleph-alpha-gmbh",
-          "anmerkung": "ISO/IEC 27001:2022 für Aleph Alpha GmbH, nachgewiesen über die Zertifikatsdatenbank des Zertifizierers DQS."
+          "anmerkung": "ISO/IEC 27001:2022 für Aleph Alpha GmbH, nachgewiesen über die Zertifikatsdatenbank des Zertifizierers DQS.",
+          "normiert": [
+            "iso-27001"
+          ]
         }
       ],
       "ai_act": [
@@ -94,7 +103,19 @@
           "anmerkung": "Eigene Ankündigung im Aleph-Alpha-Blog."
         }
       ],
-      "geprueft": "2026-08-19"
+      "geprueft": "2026-08-19",
+      "url": "https://belegbar.eu/anbieter/aleph-alpha/",
+      "beleg_quote_prozent": 50,
+      "zuletzt_geprueft": "2026-08-19",
+      "rechtsraum": {
+        "land": "DE",
+        "name": "Deutschland",
+        "einordnung": "eu",
+        "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+        "hinweis": null,
+        "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+        "geprueft": "2026-08-24"
+      }
     },
     {
       "id": "black-forest-labs",
@@ -196,13 +217,19 @@
           "typ": "SOC 2 Type II",
           "status": "beansprucht",
           "quelle": "https://bfl.ai/enterprise",
-          "anmerkung": "Auf der Enterprise-Seite genannt; kein Trust-Center oder Auditbericht öffentlich abrufbar"
+          "anmerkung": "Auf der Enterprise-Seite genannt; kein Trust-Center oder Auditbericht öffentlich abrufbar",
+          "normiert": [
+            "soc-2"
+          ]
         },
         {
           "typ": "ISO 27001",
           "status": "beansprucht",
           "quelle": "https://bfl.ai/enterprise",
-          "anmerkung": "Auf der Enterprise-Seite genannt; kein Zertifikat/Zertifizierer einsehbar"
+          "anmerkung": "Auf der Enterprise-Seite genannt; kein Zertifikat/Zertifizierer einsehbar",
+          "normiert": [
+            "iso-27001"
+          ]
         }
       ],
       "ai_act": [
@@ -213,7 +240,19 @@
           "anmerkung": "Auf der EU-Kommissionsseite als Unterzeichner des General-Purpose AI Code of Practice gelistet (alle Kapitel, ohne Ausnahmen)"
         }
       ],
-      "geprueft": "2026-08-20"
+      "geprueft": "2026-08-20",
+      "url": "https://belegbar.eu/anbieter/black-forest-labs/",
+      "beleg_quote_prozent": 62,
+      "zuletzt_geprueft": "2026-08-20",
+      "rechtsraum": {
+        "land": "DE",
+        "name": "Deutschland",
+        "einordnung": "eu",
+        "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+        "hinweis": null,
+        "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+        "geprueft": "2026-08-24"
+      }
     },
     {
       "id": "deepl",
@@ -297,31 +336,45 @@
           "typ": "ISO/IEC 27001:2022",
           "status": "belegt",
           "quelle": "https://trust.deepl.com/",
-          "anmerkung": "Im Trust Center (SafeBase-Portal) ausgewiesen; Auditor TÜV Rheinland Cert GmbH, Zertifikat öffentlich abrufbar. Hinweis: trust.deepl.com blockt automatisierte Abrufe, im Browser erreichbar"
+          "anmerkung": "Im Trust Center (SafeBase-Portal) ausgewiesen; Auditor TÜV Rheinland Cert GmbH, Zertifikat öffentlich abrufbar. Hinweis: trust.deepl.com blockt automatisierte Abrufe, im Browser erreichbar",
+          "normiert": [
+            "iso-27001"
+          ]
         },
         {
           "typ": "SOC 2 Type II",
           "status": "belegt",
           "quelle": "https://trust.deepl.com/",
-          "anmerkung": "Berichtszeitraum 01.01.–30.06.2025; auch auf deepl.com/en/pro-data-security beworben, Bericht als Download"
+          "anmerkung": "Berichtszeitraum 01.01.–30.06.2025; auch auf deepl.com/en/pro-data-security beworben, Bericht als Download",
+          "normiert": [
+            "soc-2"
+          ]
         },
         {
           "typ": "HIPAA",
           "status": "beansprucht",
           "quelle": "https://www.deepl.com/en/products/api",
-          "anmerkung": "Als 'certification' beworben; HIPAA kennt keine formale Zertifizierung, kein Prüfer genannt. Nur für US-Gesundheitskontext relevant"
+          "anmerkung": "Als 'certification' beworben; HIPAA kennt keine formale Zertifizierung, kein Prüfer genannt. Nur für US-Gesundheitskontext relevant",
+          "normiert": [
+            "hipaa"
+          ]
         },
         {
           "typ": "BSI C5",
-          "status": "beansprucht",
-          "quelle": "https://trust.deepl.com/",
-          "anmerkung": "'Committed to meeting the high standards of the C5 framework' — Selbstverpflichtung, kein C5-Testat nachgewiesen"
+          "status": "belegt",
+          "quelle": "https://www.deepl.com/de/blog/c5-type2-attestation",
+          "geprueft": "2026-08-24",
+          "anmerkung": "C5-Typ-2-Testat des BSI, von DeepL am 03.10.2025 im eigenen Blog und per Pressemitteilung bestätigt (114 Kriterien, Wirksamkeitsnachweis über mindestens sechs Monate). Gleichlautende Pressemitteilung auf deepl.com/de/press-release/. Einschränkung: Der Testatsbericht selbst ist nicht öffentlich, ein prüfender Wirtschaftsprüfer wird nicht genannt; belegt ist die datierte Anbieteraussage über ein erteiltes Testat, nicht der Bericht. Früherer Stand bis 24.08.2026: beansprucht (Selbstverpflichtung im Trust Center) — die Angabe war veraltet.",
+          "normiert": [
+            "bsi-c5"
+          ]
         },
         {
           "typ": "Externe Penetrationstests",
           "status": "belegt",
           "quelle": "https://trust.deepl.com/",
-          "anmerkung": "Regelmäßige Tests durch wechselnde unabhängige Prüfer; Berichte auf Anfrage"
+          "anmerkung": "Regelmäßige Tests durch wechselnde unabhängige Prüfer; Berichte auf Anfrage",
+          "normiert": []
         }
       ],
       "ai_act": [
@@ -344,7 +397,19 @@
           "anmerkung": "Keine dedizierte AI-Act-Infoseite gefunden; für den Finanzsektor existiert eine DORA-Seite (deepl.com/en/dora-info), die DeepL als ICT-Drittdienstleister für 'non-critical functions' einordnet"
         }
       ],
-      "geprueft": "2026-08-20"
+      "geprueft": "2026-08-20",
+      "url": "https://belegbar.eu/anbieter/deepl/",
+      "beleg_quote_prozent": 69,
+      "zuletzt_geprueft": "2026-08-24",
+      "rechtsraum": {
+        "land": "DE",
+        "name": "Deutschland",
+        "einordnung": "eu",
+        "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+        "hinweis": null,
+        "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+        "geprueft": "2026-08-24"
+      }
     },
     {
       "id": "eurouter",
@@ -437,13 +502,19 @@
           "typ": "ISO 27001",
           "status": "unbelegt",
           "quelle": null,
-          "anmerkung": "Weder auf Website noch im DPA erwähnt"
+          "anmerkung": "Weder auf Website noch im DPA erwähnt",
+          "normiert": [
+            "iso-27001"
+          ]
         },
         {
           "typ": "SOC 2",
           "status": "unbelegt",
           "quelle": null,
-          "anmerkung": "Nicht erwähnt"
+          "anmerkung": "Nicht erwähnt",
+          "normiert": [
+            "soc-2"
+          ]
         }
       ],
       "ai_act": [
@@ -454,7 +525,19 @@
           "anmerkung": "Keine AI-Act-spezifischen Angaben auf Website oder Preisseite gefunden"
         }
       ],
-      "geprueft": "2026-08-19"
+      "geprueft": "2026-08-19",
+      "url": "https://belegbar.eu/anbieter/eurouter/",
+      "beleg_quote_prozent": 58,
+      "zuletzt_geprueft": "2026-08-19",
+      "rechtsraum": {
+        "land": "NL",
+        "name": "Niederlande",
+        "einordnung": "eu",
+        "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+        "hinweis": null,
+        "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+        "geprueft": "2026-08-24"
+      }
     },
     {
       "id": "exoscale",
@@ -529,25 +612,37 @@
           "typ": "ISO 27001",
           "status": "belegt",
           "quelle": "https://community.exoscale.com/platform/compliance/",
-          "anmerkung": "ISO/IEC 27001:2022, zertifiziert seit 2018; Reports im Compliance Center (NDA)"
+          "anmerkung": "ISO/IEC 27001:2022, zertifiziert seit 2018; Reports im Compliance Center (NDA)",
+          "normiert": [
+            "iso-27001"
+          ]
         },
         {
           "typ": "SOC 2 Type II",
           "status": "belegt",
           "quelle": "https://community.exoscale.com/platform/compliance/",
-          "anmerkung": ""
+          "anmerkung": "",
+          "normiert": [
+            "soc-2"
+          ]
         },
         {
           "typ": "BSI C5",
           "status": "belegt",
           "quelle": "https://community.exoscale.com/platform/compliance/",
-          "anmerkung": "C5:2020 Typ 2"
+          "anmerkung": "C5:2020 Typ 2",
+          "normiert": [
+            "bsi-c5"
+          ]
         },
         {
           "typ": "TISAX Level 2",
           "status": "belegt",
           "quelle": "https://community.exoscale.com/platform/compliance/",
-          "anmerkung": "Zusätzlich HDS (Scope 1–4 und 6) und CSA STAR"
+          "anmerkung": "Zusätzlich HDS (Scope 1–4 und 6) und CSA STAR",
+          "normiert": [
+            "tisax"
+          ]
         }
       ],
       "ai_act": [
@@ -558,7 +653,19 @@
           "anmerkung": "Kein GPAI-Modellanbieter (reine Infrastruktur); eigene AI-Act-Dokumentation nicht auffindbar"
         }
       ],
-      "geprueft": "2026-08-19"
+      "geprueft": "2026-08-19",
+      "url": "https://belegbar.eu/anbieter/exoscale/",
+      "beleg_quote_prozent": 67,
+      "zuletzt_geprueft": "2026-08-19",
+      "rechtsraum": {
+        "land": "CH",
+        "name": "Schweiz",
+        "einordnung": "angemessen",
+        "erlaeuterung": "Drittland mit Angemessenheitsbeschluss der EU-Kommission — Übermittlung ohne zusätzliche Garantien zulässig (Art. 45 DSGVO).",
+        "hinweis": null,
+        "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+        "geprueft": "2026-08-24"
+      }
     },
     {
       "id": "gcore",
@@ -642,19 +749,28 @@
           "typ": "ISO/IEC 27001",
           "status": "beansprucht",
           "quelle": "https://gcore.com/infrastructure",
-          "anmerkung": "Eigenaussage über unabhängiges Audit; Zertifikat selbst nicht zum Download angeboten"
+          "anmerkung": "Eigenaussage über unabhängiges Audit; Zertifikat selbst nicht zum Download angeboten",
+          "normiert": [
+            "iso-27001"
+          ]
         },
         {
           "typ": "PCI DSS",
           "status": "beansprucht",
           "quelle": "https://gcore.com/infrastructure",
-          "anmerkung": "Eigenaussage (jährliches QSA-Audit); Attest nicht abrufbar"
+          "anmerkung": "Eigenaussage (jährliches QSA-Audit); Attest nicht abrufbar",
+          "normiert": [
+            "pci-dss"
+          ]
         },
         {
           "typ": "SOC 2",
           "status": "unbelegt",
           "quelle": null,
-          "anmerkung": "Keine eigene SOC-2-Attestierung auffindbar"
+          "anmerkung": "Keine eigene SOC-2-Attestierung auffindbar",
+          "normiert": [
+            "soc-2"
+          ]
         }
       ],
       "ai_act": [
@@ -671,7 +787,19 @@
           "anmerkung": "Marketing-Positionierung: regionale Workload-Steuerung und EU-Rechenzentren als Compliance-Mittel; zudem 'Sovereign Inference'-Pilot mit Orange Business. Keine vertragliche Zusicherung gefunden"
         }
       ],
-      "geprueft": "2026-08-20"
+      "geprueft": "2026-08-20",
+      "url": "https://belegbar.eu/anbieter/gcore/",
+      "beleg_quote_prozent": 38,
+      "zuletzt_geprueft": "2026-08-20",
+      "rechtsraum": {
+        "land": "LU",
+        "name": "Luxemburg",
+        "einordnung": "eu",
+        "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+        "hinweis": null,
+        "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+        "geprueft": "2026-08-24"
+      }
     },
     {
       "id": "greenpt",
@@ -773,19 +901,26 @@
           "typ": "ISO 27001",
           "status": "beansprucht",
           "quelle": "https://greenpt.com/sustainability",
-          "anmerkung": "Footer-Badge; Sustainability-Seite präzisiert, dass sich die Zertifizierung auf die genutzten Rechenzentren (Scaleway, Verda) bezieht — kein eigenes GreenPT-Zertifikat auffindbar"
+          "anmerkung": "Footer-Badge; Sustainability-Seite präzisiert, dass sich die Zertifizierung auf die genutzten Rechenzentren (Scaleway, Verda) bezieht — kein eigenes GreenPT-Zertifikat auffindbar",
+          "normiert": [
+            "iso-27001"
+          ]
         },
         {
           "typ": "ISO 50001",
           "status": "beansprucht",
           "quelle": "https://greenpt.com/sustainability",
-          "anmerkung": "Energiemanagement der genutzten Rechenzentren, nicht von GreenPT BV selbst; kein Zertifikat verlinkt"
+          "anmerkung": "Energiemanagement der genutzten Rechenzentren, nicht von GreenPT BV selbst; kein Zertifikat verlinkt",
+          "normiert": [
+            "iso-50001"
+          ]
         },
         {
           "typ": "Nachhaltigkeits-Kennzahlen (PUE 1.25, WUE 0.25, 100 % erneuerbar)",
           "status": "belegt",
           "quelle": "https://greenpt.com/sustainability",
-          "anmerkung": "Mit Primärquellen belegt (Scaleway Impact Report 2025, Verda Trust Center); GreenPT räumt selbst ein, dass das Training der genutzten Modelle nicht verifizierbar ist"
+          "anmerkung": "Mit Primärquellen belegt (Scaleway Impact Report 2025, Verda Trust Center); GreenPT räumt selbst ein, dass das Training der genutzten Modelle nicht verifizierbar ist",
+          "normiert": []
         }
       ],
       "ai_act": [
@@ -802,7 +937,19 @@
           "anmerkung": "Keine AI-Act-spezifischen Aussagen auf Website, in ToS oder Privacy Policy gefunden; nur GDPR-Compliance wird benannt"
         }
       ],
-      "geprueft": "2026-08-20"
+      "geprueft": "2026-08-20",
+      "url": "https://belegbar.eu/anbieter/greenpt/",
+      "beleg_quote_prozent": 80,
+      "zuletzt_geprueft": "2026-08-20",
+      "rechtsraum": {
+        "land": "NL",
+        "name": "Niederlande",
+        "einordnung": "eu",
+        "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+        "hinweis": null,
+        "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+        "geprueft": "2026-08-24"
+      }
     },
     {
       "id": "hetzner",
@@ -859,7 +1006,10 @@
           "typ": "ISO 27001",
           "status": "belegt",
           "quelle": "https://www.hetzner.com/unternehmen/zertifizierung/",
-          "anmerkung": "ISO/IEC 27001:2022 (SOCOTEC), Scope: alle Hosting-Services und Rechenzentren. BSI C5, SOC 2, TISAX werden nicht genannt."
+          "anmerkung": "ISO/IEC 27001:2022 (SOCOTEC), Scope: alle Hosting-Services und Rechenzentren. BSI C5, SOC 2, TISAX werden nicht genannt.",
+          "normiert": [
+            "iso-27001"
+          ]
         }
       ],
       "ai_act": [
@@ -870,7 +1020,19 @@
           "anmerkung": "Hetzner serviert ein Fremdmodell (Qwen, Apache 2.0); Art.-53-Pflichten liegen beim Modellhersteller. Keine AI-Act-Dokumentation gefunden."
         }
       ],
-      "geprueft": "2026-08-19"
+      "geprueft": "2026-08-19",
+      "url": "https://belegbar.eu/anbieter/hetzner/",
+      "beleg_quote_prozent": 57,
+      "zuletzt_geprueft": "2026-08-19",
+      "rechtsraum": {
+        "land": "DE",
+        "name": "Deutschland",
+        "einordnung": "eu",
+        "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+        "hinweis": null,
+        "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+        "geprueft": "2026-08-24"
+      }
     },
     {
       "id": "infomaniak",
@@ -981,31 +1143,46 @@
           "typ": "ISO 27001:2022",
           "status": "belegt",
           "quelle": "https://www.infomaniak.com/en/certifications",
-          "anmerkung": "Seit Juni 2018; Zertifikat als Download angeboten"
+          "anmerkung": "Seit Juni 2018; Zertifikat als Download angeboten",
+          "normiert": [
+            "iso-27001"
+          ]
         },
         {
           "typ": "ISO 9001 / 14001 / 50001",
           "status": "belegt",
           "quelle": "https://www.infomaniak.com/en/certifications",
-          "anmerkung": "Qualitäts-, Umwelt- und Energiemanagement"
+          "anmerkung": "Qualitäts-, Umwelt- und Energiemanagement",
+          "normiert": [
+            "iso-9001",
+            "iso-14001",
+            "iso-50001"
+          ]
         },
         {
           "typ": "B Corp",
           "status": "belegt",
           "quelle": "https://www.infomaniak.com/en/certifications",
-          "anmerkung": "Seit 2025"
+          "anmerkung": "Seit 2025",
+          "normiert": [
+            "b-corp"
+          ]
         },
         {
           "typ": "Swiss-Hosting-Label",
           "status": "belegt",
           "quelle": "https://www.infomaniak.com/en/certifications",
-          "anmerkung": "Bestätigt Sitz und Hosting der Kundendaten in Schweizer Rechenzentren unter eigener Kontrolle"
+          "anmerkung": "Bestätigt Sitz und Hosting der Kundendaten in Schweizer Rechenzentren unter eigener Kontrolle",
+          "normiert": []
         },
         {
           "typ": "SOC 2",
           "status": "unbelegt",
           "quelle": null,
-          "anmerkung": "Kein SOC-2-Bericht auf der Zertifikatsseite gefunden"
+          "anmerkung": "Kein SOC-2-Bericht auf der Zertifikatsseite gefunden",
+          "normiert": [
+            "soc-2"
+          ]
         }
       ],
       "ai_act": [
@@ -1022,7 +1199,19 @@
           "anmerkung": "Beworben wird Konformität zu DSGVO und Schweizer DSG ('full compliance with the FADP and GDPR'); DSGVO-Konformität ist nicht mit AI-Act-Konformität gleichzusetzen"
         }
       ],
-      "geprueft": "2026-08-20"
+      "geprueft": "2026-08-20",
+      "url": "https://belegbar.eu/anbieter/infomaniak/",
+      "beleg_quote_prozent": 67,
+      "zuletzt_geprueft": "2026-08-20",
+      "rechtsraum": {
+        "land": "CH",
+        "name": "Schweiz",
+        "einordnung": "angemessen",
+        "erlaeuterung": "Drittland mit Angemessenheitsbeschluss der EU-Kommission — Übermittlung ohne zusätzliche Garantien zulässig (Art. 45 DSGVO).",
+        "hinweis": null,
+        "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+        "geprueft": "2026-08-24"
+      }
     },
     {
       "id": "ionos",
@@ -1118,19 +1307,28 @@
           "typ": "ISO 27001",
           "status": "belegt",
           "quelle": "https://cloud.ionos.de/zertifikate",
-          "anmerkung": "TÜV NORD für die IONOS Gruppe; zusätzlich ISO 27001 auf Basis IT-Grundschutz des BSI (BSI-IGZ-0730-2025, gültig bis 13.09.2028)."
+          "anmerkung": "TÜV NORD für die IONOS Gruppe; zusätzlich ISO 27001 auf Basis IT-Grundschutz des BSI (BSI-IGZ-0730-2025, gültig bis 13.09.2028).",
+          "normiert": [
+            "iso-27001"
+          ]
         },
         {
           "typ": "BSI C5",
           "status": "belegt",
           "quelle": "https://cloud.ionos.de/zertifikate",
-          "anmerkung": "C5:2020 Typ-1-Testat vom 28.05.2026, geprüft durch PwC nach ISAE 3000; bezieht sich auf IONOS-Cloud-Services, nicht explizit auf den AI Model Hub."
+          "anmerkung": "C5:2020 Typ-1-Testat vom 28.05.2026, geprüft durch PwC nach ISAE 3000; bezieht sich auf IONOS-Cloud-Services, nicht explizit auf den AI Model Hub.",
+          "normiert": [
+            "bsi-c5"
+          ]
         },
         {
           "typ": "ISO 50001",
           "status": "belegt",
           "quelle": "https://cloud.ionos.de/zertifikate",
-          "anmerkung": "Energiemanagement aller IONOS-Cloud-Rechenzentren."
+          "anmerkung": "Energiemanagement aller IONOS-Cloud-Rechenzentren.",
+          "normiert": [
+            "iso-50001"
+          ]
         }
       ],
       "ai_act": [
@@ -1147,7 +1345,19 @@
           "anmerkung": "Keine Erwähnung gefunden; als Hoster/Distributor fremder Modelle kein typischer Unterzeichner."
         }
       ],
-      "geprueft": "2026-08-19"
+      "geprueft": "2026-08-19",
+      "url": "https://belegbar.eu/anbieter/ionos/",
+      "beleg_quote_prozent": 93,
+      "zuletzt_geprueft": "2026-08-19",
+      "rechtsraum": {
+        "land": "DE",
+        "name": "Deutschland",
+        "einordnung": "eu",
+        "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+        "hinweis": null,
+        "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+        "geprueft": "2026-08-24"
+      }
     },
     {
       "id": "lyceum",
@@ -1240,19 +1450,28 @@
           "typ": "BSI C5",
           "status": "unbelegt",
           "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/",
-          "anmerkung": "Eigene Aussage: 'Lyceum holds no C5 attestation … today, and says so plainly' — bemerkenswert ehrlich, aber nicht gehalten"
+          "anmerkung": "Eigene Aussage: 'Lyceum holds no C5 attestation … today, and says so plainly' — bemerkenswert ehrlich, aber nicht gehalten",
+          "normiert": [
+            "bsi-c5"
+          ]
         },
         {
           "typ": "ISO 27001",
           "status": "unbelegt",
           "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/",
-          "anmerkung": "Laut eigener Aussage aktuell nicht zertifiziert; Trust Center listet eine 'ISO Certification'-Ressource (vermutlich RZ-Zertifikat) — Widerspruch vor Vertragsschluss klären"
+          "anmerkung": "Laut eigener Aussage aktuell nicht zertifiziert; Trust Center listet eine 'ISO Certification'-Ressource (vermutlich RZ-Zertifikat) — Widerspruch vor Vertragsschluss klären",
+          "normiert": [
+            "iso-27001"
+          ]
         },
         {
           "typ": "SOC 2",
           "status": "unbelegt",
           "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/",
-          "anmerkung": "Laut eigener Aussage aktuell nicht zertifiziert"
+          "anmerkung": "Laut eigener Aussage aktuell nicht zertifiziert",
+          "normiert": [
+            "soc-2"
+          ]
         }
       ],
       "ai_act": [
@@ -1263,7 +1482,19 @@
           "anmerkung": "Kein Nachweis; hostet Open-Source-Fremdmodelle"
         }
       ],
-      "geprueft": "2026-08-19"
+      "geprueft": "2026-08-19",
+      "url": "https://belegbar.eu/anbieter/lyceum/",
+      "beleg_quote_prozent": 46,
+      "zuletzt_geprueft": "2026-08-19",
+      "rechtsraum": {
+        "land": "DE",
+        "name": "Deutschland",
+        "einordnung": "eu",
+        "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+        "hinweis": null,
+        "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+        "geprueft": "2026-08-24"
+      }
     },
     {
       "id": "mistral",
@@ -1356,19 +1587,28 @@
           "typ": "ISO 27001",
           "status": "belegt",
           "quelle": "https://help.mistral.ai/en/articles/347638-do-you-have-soc-2-or-iso-27001-certification",
-          "anmerkung": "Offizielle Aussage: SOC 2 Type II und ISO 27001/27701; Report nur auf Anfrage über Trust Center."
+          "anmerkung": "Offizielle Aussage: SOC 2 Type II und ISO 27001/27701; Report nur auf Anfrage über Trust Center.",
+          "normiert": [
+            "iso-27001"
+          ]
         },
         {
           "typ": "SOC 2 Type II",
           "status": "belegt",
           "quelle": "https://help.mistral.ai/en/articles/347638-do-you-have-soc-2-or-iso-27001-certification",
-          "anmerkung": "Report sales-gated, Zugang via Trust Center anfragbar."
+          "anmerkung": "Report sales-gated, Zugang via Trust Center anfragbar.",
+          "normiert": [
+            "soc-2"
+          ]
         },
         {
           "typ": "ISO 27701",
           "status": "belegt",
           "quelle": "https://help.mistral.ai/en/articles/347638-do-you-have-soc-2-or-iso-27001-certification",
-          "anmerkung": "Datenschutz-Erweiterung zu ISO 27001."
+          "anmerkung": "Datenschutz-Erweiterung zu ISO 27001.",
+          "normiert": [
+            "iso-27701"
+          ]
         }
       ],
       "ai_act": [
@@ -1385,7 +1625,19 @@
           "anmerkung": "Als CoP-Signatar verpflichtet, ein konkretes veröffentlichtes Dokument wurde aber nicht gefunden."
         }
       ],
-      "geprueft": "2026-08-19"
+      "geprueft": "2026-08-19",
+      "url": "https://belegbar.eu/anbieter/mistral/",
+      "beleg_quote_prozent": 93,
+      "zuletzt_geprueft": "2026-08-19",
+      "rechtsraum": {
+        "land": "FR",
+        "name": "Frankreich",
+        "einordnung": "eu",
+        "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+        "hinweis": null,
+        "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+        "geprueft": "2026-08-24"
+      }
     },
     {
       "id": "nebius",
@@ -1469,25 +1721,37 @@
           "typ": "ISO 27001",
           "status": "belegt",
           "quelle": "https://nebius.com/trust-center",
-          "anmerkung": ""
+          "anmerkung": "",
+          "normiert": [
+            "iso-27001"
+          ]
         },
         {
           "typ": "SOC 2 Type II",
           "status": "belegt",
           "quelle": "https://nebius.com/trust-center",
-          "anmerkung": "Inkl. HIPAA-Mapping; zudem SOC 3"
+          "anmerkung": "Inkl. HIPAA-Mapping; zudem SOC 3",
+          "normiert": [
+            "soc-2"
+          ]
         },
         {
           "typ": "ISO 27701",
           "status": "belegt",
           "quelle": "https://nebius.com/trust-center",
-          "anmerkung": "Zusätzlich ISO 27018, 27799, 22301, 27032 gelistet"
+          "anmerkung": "Zusätzlich ISO 27018, 27799, 22301, 27032 gelistet",
+          "normiert": [
+            "iso-27701"
+          ]
         },
         {
           "typ": "CSA STAR Level 1",
           "status": "belegt",
           "quelle": "https://nebius.com/trust-center",
-          "anmerkung": ""
+          "anmerkung": "",
+          "normiert": [
+            "csa-star"
+          ]
         }
       ],
       "ai_act": [
@@ -1498,7 +1762,19 @@
           "anmerkung": "Keine Unterzeichnung auffindbar; hostet Open-Source-Fremdmodelle. Trust Center nennt NIS 2 und DORA, aber keine AI-Act-Dokumentation"
         }
       ],
-      "geprueft": "2026-08-19"
+      "geprueft": "2026-08-19",
+      "url": "https://belegbar.eu/anbieter/nebius/",
+      "beleg_quote_prozent": 85,
+      "zuletzt_geprueft": "2026-08-19",
+      "rechtsraum": {
+        "land": "NL",
+        "name": "Niederlande",
+        "einordnung": "eu",
+        "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+        "hinweis": null,
+        "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+        "geprueft": "2026-08-24"
+      }
     },
     {
       "id": "nordference",
@@ -1586,13 +1862,19 @@
           "typ": "ISO 27001",
           "status": "beansprucht",
           "quelle": "https://nordference.ai",
-          "anmerkung": "Nur als Badge/Claim auf der Startseite; kein Zertifikat, kein Auditor, kein Nachweis auffindbar"
+          "anmerkung": "Nur als Badge/Claim auf der Startseite; kein Zertifikat, kein Auditor, kein Nachweis auffindbar",
+          "normiert": [
+            "iso-27001"
+          ]
         },
         {
           "typ": "SOC 2 Type II",
           "status": "beansprucht",
           "quelle": "https://nordference.ai",
-          "anmerkung": "Nur Startseiten-Claim, kein Report auffindbar"
+          "anmerkung": "Nur Startseiten-Claim, kein Report auffindbar",
+          "normiert": [
+            "soc-2"
+          ]
         }
       ],
       "ai_act": [
@@ -1603,7 +1885,19 @@
           "anmerkung": "NIS2/DORA als Claim, zum AI Act keinerlei Angaben"
         }
       ],
-      "geprueft": "2026-08-19"
+      "geprueft": "2026-08-19",
+      "url": "https://belegbar.eu/anbieter/nordference/",
+      "beleg_quote_prozent": 50,
+      "zuletzt_geprueft": "2026-08-19",
+      "rechtsraum": {
+        "land": "EE",
+        "name": "Estland",
+        "einordnung": "eu",
+        "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+        "hinweis": null,
+        "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+        "geprueft": "2026-08-24"
+      }
     },
     {
       "id": "opper-ai",
@@ -1696,13 +1990,19 @@
           "typ": "ISO 27001",
           "status": "unbelegt",
           "quelle": null,
-          "anmerkung": "Security Overview nennt keine Zertifikate"
+          "anmerkung": "Security Overview nennt keine Zertifikate",
+          "normiert": [
+            "iso-27001"
+          ]
         },
         {
           "typ": "SOC 2",
           "status": "unbelegt",
           "quelle": null,
-          "anmerkung": "Nicht erwähnt"
+          "anmerkung": "Nicht erwähnt",
+          "normiert": [
+            "soc-2"
+          ]
         }
       ],
       "ai_act": [
@@ -1713,7 +2013,19 @@
           "anmerkung": "Compliance-Seite bewirbt Call-Logging und Audit-Trail; keine konkreten AI-Act-Konformitätsdokumente"
         }
       ],
-      "geprueft": "2026-08-19"
+      "geprueft": "2026-08-19",
+      "url": "https://belegbar.eu/anbieter/opper-ai/",
+      "beleg_quote_prozent": 67,
+      "zuletzt_geprueft": "2026-08-19",
+      "rechtsraum": {
+        "land": "SE",
+        "name": "Schweden",
+        "einordnung": "eu",
+        "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+        "hinweis": null,
+        "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+        "geprueft": "2026-08-24"
+      }
     },
     {
       "id": "ovhcloud",
@@ -1808,45 +2120,65 @@
         {
           "typ": "ISO 27001",
           "status": "belegt",
-          "quelle": "https://www.ovhcloud.com/en/enterprise/certification-conformity/",
-          "anmerkung": "Inkl. ISO 27017/27018; auf alle Cloud-Lösungen ausgeweitet."
+          "quelle": "https://www.ovhcloud.com/en/compliance/",
+          "anmerkung": "Inkl. ISO 27017/27018; auf alle Cloud-Lösungen ausgeweitet.",
+          "normiert": [
+            "iso-27001"
+          ]
         },
         {
           "typ": "ISO 27701",
           "status": "belegt",
-          "quelle": "https://www.ovhcloud.com/en/enterprise/certification-conformity/",
-          "anmerkung": "PIMS für Personendaten-Verarbeitung."
+          "quelle": "https://www.ovhcloud.com/en/compliance/",
+          "anmerkung": "PIMS für Personendaten-Verarbeitung.",
+          "normiert": [
+            "iso-27701"
+          ]
         },
         {
           "typ": "SOC 1/2/3",
           "status": "belegt",
-          "quelle": "https://www.ovhcloud.com/en/enterprise/certification-conformity/",
-          "anmerkung": "SSAE 16/ISAE 3402 Type 2 im Compliance-Portal gelistet."
+          "quelle": "https://www.ovhcloud.com/en/compliance/",
+          "anmerkung": "SSAE 16/ISAE 3402 Type 2 im Compliance-Portal gelistet.",
+          "normiert": [
+            "soc-1",
+            "soc-2",
+            "soc-3"
+          ]
         },
         {
           "typ": "BSI C5",
           "status": "belegt",
-          "quelle": "https://www.ovhcloud.com/en/enterprise/certification-conformity/",
-          "anmerkung": "Im Compliance-Portal gelistet; Geltungsbereich je Produkt prüfen."
+          "quelle": "https://www.ovhcloud.com/en/compliance/",
+          "anmerkung": "Im Compliance-Portal gelistet; Geltungsbereich je Produkt prüfen.",
+          "normiert": [
+            "bsi-c5"
+          ]
         },
         {
           "typ": "SecNumCloud",
           "status": "belegt",
-          "quelle": "https://www.ovhcloud.com/en/enterprise/certification-conformity/",
-          "anmerkung": "ANSSI-Qualifikation für bestimmte OVHcloud-Angebote — gilt nicht automatisch für AI Endpoints."
+          "quelle": "https://www.ovhcloud.com/en/compliance/",
+          "anmerkung": "ANSSI-Qualifikation für bestimmte OVHcloud-Angebote — gilt nicht automatisch für AI Endpoints.",
+          "normiert": [
+            "secnumcloud"
+          ]
         },
         {
           "typ": "HDS",
           "status": "belegt",
-          "quelle": "https://www.ovhcloud.com/en/enterprise/certification-conformity/",
-          "anmerkung": "Französische Gesundheitsdaten-Zertifizierung (ANS)."
+          "quelle": "https://www.ovhcloud.com/en/compliance/",
+          "anmerkung": "Französische Gesundheitsdaten-Zertifizierung (ANS).",
+          "normiert": [
+            "hds"
+          ]
         }
       ],
       "ai_act": [
         {
           "pflicht": "AI-Act-Informationsmaterial veröffentlicht",
           "status": "belegt",
-          "quelle": "https://blog.ovhcloud.com/ai-act-in-a-nutshell/",
+          "quelle": "https://blog.ovhcloud.com/en/posts/ai-act-in-a-nutshell/",
           "anmerkung": "Offizieller Beitrag 'AI Act in a nutshell'; Positionierung über Modelltransparenz durch Open-Weight-Modelle."
         },
         {
@@ -1856,7 +2188,19 @@
           "anmerkung": "Keine Unterzeichnung auffindbar; als Hoster fremder Open-Weight-Modelle kein typischer Pflichtenadressat."
         }
       ],
-      "geprueft": "2026-08-19"
+      "geprueft": "2026-08-19",
+      "url": "https://belegbar.eu/anbieter/ovhcloud/",
+      "beleg_quote_prozent": 94,
+      "zuletzt_geprueft": "2026-08-19",
+      "rechtsraum": {
+        "land": "FR",
+        "name": "Frankreich",
+        "einordnung": "eu",
+        "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+        "hinweis": null,
+        "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+        "geprueft": "2026-08-24"
+      }
     },
     {
       "id": "regolo",
@@ -1953,25 +2297,36 @@
           "typ": "ISO 27001",
           "status": "belegt",
           "quelle": "https://regolo.ai/terms-and-conditions/",
-          "anmerkung": "Zertifikat der Betreibergesellschaft Seeweb S.r.l."
+          "anmerkung": "Zertifikat der Betreibergesellschaft Seeweb S.r.l.",
+          "normiert": [
+            "iso-27001"
+          ]
         },
         {
           "typ": "ISO 27017 / 27018",
           "status": "belegt",
           "quelle": "https://regolo.ai/terms-and-conditions/",
-          "anmerkung": "Zusätzlich ISO 9001, 14001, 20000 der Seeweb S.r.l."
+          "anmerkung": "Zusätzlich ISO 9001, 14001, 20000 der Seeweb S.r.l.",
+          "normiert": [
+            "iso-27017",
+            "iso-27018"
+          ]
         },
         {
           "typ": "CSA STAR Level 1",
           "status": "belegt",
           "quelle": "https://regolo.ai/terms-and-conditions/",
-          "anmerkung": ""
+          "anmerkung": "",
+          "normiert": [
+            "csa-star"
+          ]
         },
         {
           "typ": "Zero-Data-Retention-Zertifizierung (extern)",
           "status": "belegt",
           "quelle": "https://regolo.ai/zero-data-retention/",
-          "anmerkung": "Formale Bestätigung der ZDR-Architektur durch externe Prüffirma, ausgestellt 24.07.2026"
+          "anmerkung": "Formale Bestätigung der ZDR-Architektur durch externe Prüffirma, ausgestellt 24.07.2026",
+          "normiert": []
         }
       ],
       "ai_act": [
@@ -1982,7 +2337,19 @@
           "anmerkung": "Proaktive Ausrichtung am EU AI Act erklärt; kein Primärdokument öffentlich. Kein GPAI-Modellanbieter"
         }
       ],
-      "geprueft": "2026-08-19"
+      "geprueft": "2026-08-19",
+      "url": "https://belegbar.eu/anbieter/regolo/",
+      "beleg_quote_prozent": 87,
+      "zuletzt_geprueft": "2026-08-19",
+      "rechtsraum": {
+        "land": "IT",
+        "name": "Italien",
+        "einordnung": "eu",
+        "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+        "hinweis": null,
+        "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+        "geprueft": "2026-08-24"
+      }
     },
     {
       "id": "requesty",
@@ -2042,7 +2409,7 @@
         "training_opt_out": {
           "wert": true,
           "status": "belegt",
-          "quelle": "https://docs.requesty.ai",
+          "quelle": "https://docs.requesty.ai/quickstart",
           "anmerkung": "'Requesty is a pass-through gateway. We don't train on your requests'; Ausnahme: Free-Plan-Modelle von NVIDIA/Poolside erlauben Upstream-Training"
         },
         "zero_data_retention": {
@@ -2057,13 +2424,19 @@
           "typ": "SOC 2 Type II",
           "status": "beansprucht",
           "quelle": "https://www.requesty.ai/security",
-          "anmerkung": "Laut Security-Seite 'in progress — expected Q3 2026', noch nicht erteilt"
+          "anmerkung": "Laut Security-Seite 'in progress — expected Q3 2026', noch nicht erteilt",
+          "normiert": [
+            "soc-2"
+          ]
         },
         {
           "typ": "ISO 27001",
           "status": "unbelegt",
           "quelle": null,
-          "anmerkung": "Nicht erwähnt"
+          "anmerkung": "Nicht erwähnt",
+          "normiert": [
+            "iso-27001"
+          ]
         }
       ],
       "ai_act": [
@@ -2074,7 +2447,19 @@
           "anmerkung": "Keine AI-Act-Angaben auf Website, Security-Seite oder in den Docs gefunden"
         }
       ],
-      "geprueft": "2026-08-19"
+      "geprueft": "2026-08-19",
+      "url": "https://belegbar.eu/anbieter/requesty/",
+      "beleg_quote_prozent": 20,
+      "zuletzt_geprueft": "2026-08-19",
+      "rechtsraum": {
+        "land": "GB",
+        "name": "Vereinigtes Königreich",
+        "einordnung": "angemessen",
+        "erlaeuterung": "Drittland mit Angemessenheitsbeschluss der EU-Kommission — Übermittlung ohne zusätzliche Garantien zulässig (Art. 45 DSGVO).",
+        "hinweis": "Der Angemessenheitsbeschluss wurde im Dezember 2025 verlängert — je eine Erneuerung unter der DSGVO und unter der Richtlinie für den Strafverfolgungsbereich (LED).",
+        "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+        "geprueft": "2026-08-24"
+      }
     },
     {
       "id": "scaleway",
@@ -2170,19 +2555,28 @@
           "typ": "ISO 27001",
           "status": "belegt",
           "quelle": "https://www.scaleway.com/en/security-and-compliance/",
-          "anmerkung": "ISO/IEC 27001:2022 auf der offiziellen Security-and-Compliance-Seite als erreicht ausgewiesen."
+          "anmerkung": "ISO/IEC 27001:2022 auf der offiziellen Security-and-Compliance-Seite als erreicht ausgewiesen.",
+          "normiert": [
+            "iso-27001"
+          ]
         },
         {
           "typ": "HDS",
           "status": "belegt",
           "quelle": "https://www.scaleway.com/en/security-and-compliance/",
-          "anmerkung": "Französische Zertifizierung für das Hosting von Gesundheitsdaten."
+          "anmerkung": "Französische Zertifizierung für das Hosting von Gesundheitsdaten.",
+          "normiert": [
+            "hds"
+          ]
         },
         {
           "typ": "SecNumCloud",
           "status": "beansprucht",
           "quelle": "https://www.scaleway.com/en/news/scaleway-begins-the-secnumcloud-qualification-process/",
-          "anmerkung": "Noch keine Qualifikation: ANSSI-Prozess seit Januar 2025 begonnen (Meilenstein J0 bestanden), Audit läuft."
+          "anmerkung": "Noch keine Qualifikation: ANSSI-Prozess seit Januar 2025 begonnen (Meilenstein J0 bestanden), Audit läuft.",
+          "normiert": [
+            "secnumcloud"
+          ]
         }
       ],
       "ai_act": [
@@ -2193,7 +2587,19 @@
           "anmerkung": "Keine eigene AI-Act-Veröffentlichung auffindbar. Scaleway hostet fremde offene Modelle und trainiert keine eigenen GPAI-Modelle; Art.-53-Pflichten treffen primär die Modellhersteller."
         }
       ],
-      "geprueft": "2026-08-19"
+      "geprueft": "2026-08-19",
+      "url": "https://belegbar.eu/anbieter/scaleway/",
+      "beleg_quote_prozent": 86,
+      "zuletzt_geprueft": "2026-08-19",
+      "rechtsraum": {
+        "land": "FR",
+        "name": "Frankreich",
+        "einordnung": "eu",
+        "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+        "hinweis": null,
+        "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+        "geprueft": "2026-08-24"
+      }
     },
     {
       "id": "stackit",
@@ -2248,10 +2654,11 @@
       ],
       "vertrag": {
         "avv": {
-          "wert": "https://www.stackit.de/wp-content/uploads/2022/06/Auftragsverarbeitungsvertrag_STACKIT-Cloud_Stand-Januar-2022_Version-1.0.pdf",
-          "status": "belegt",
-          "quelle": "https://www.stackit.de/wp-content/uploads/2022/06/Auftragsverarbeitungsvertrag_STACKIT-Cloud_Stand-Januar-2022_Version-1.0.pdf",
-          "anmerkung": "AVV STACKIT Cloud, Stand Januar 2022, Version 1.0 (öffentlich)."
+          "wert": null,
+          "status": "unbelegt",
+          "quelle": null,
+          "geprueft": "2026-08-24",
+          "anmerkung": "Beleg verloren: Bis mindestens 19.08.2026 war der \"AVV STACKIT Cloud, Stand Januar 2022, Version 1.0\" als PDF unter www.stackit.de öffentlich abrufbar. Beim Quellen-Check am 24.08.2026 leitet die gesamte Domain www.stackit.de auf die Startseite stackit.com/de um; das Dokument ist dort nicht mehr auffindbar, und weder stackit.com/de/compliance noch die Zertifikatsseite bieten einen AVV zum Download. Das heißt nicht, dass STACKIT keinen AVV hätte — es heißt, dass er nicht mehr öffentlich nachweisbar ist. Tote Beleg-URL: https://www.stackit.de/wp-content/uploads/2022/06/Auftragsverarbeitungsvertrag_STACKIT-Cloud_Stand-Januar-2022_Version-1.0.pdf"
         },
         "subprozessoren": {
           "wert": null,
@@ -2277,25 +2684,37 @@
           "typ": "ISO 27001",
           "status": "belegt",
           "quelle": "https://stackit.com/en/why-stackit/benefits/certificates",
-          "anmerkung": "ISO 27001:2022, zusätzlich ISO 27017 und ISO 27018."
+          "anmerkung": "ISO 27001:2022, zusätzlich ISO 27017 und ISO 27018.",
+          "normiert": [
+            "iso-27001"
+          ]
         },
         {
           "typ": "BSI C5",
           "status": "belegt",
           "quelle": "https://stackit.com/en/why-stackit/benefits/certificates",
-          "anmerkung": "C5 Typ 2; bestätigt per Pressemitteilung Schwarz Digits."
+          "anmerkung": "C5 Typ 2; bestätigt per Pressemitteilung Schwarz Digits.",
+          "normiert": [
+            "bsi-c5"
+          ]
         },
         {
           "typ": "SOC 2",
           "status": "belegt",
           "quelle": "https://stackit.com/en/why-stackit/benefits/certificates",
-          "anmerkung": "ISAE 3000 (SOC 2) und ISAE 3402 begleitend zum C5-Testat."
+          "anmerkung": "ISAE 3000 (SOC 2) und ISAE 3402 begleitend zum C5-Testat.",
+          "normiert": [
+            "soc-2"
+          ]
         },
         {
           "typ": "TISAX",
           "status": "belegt",
           "quelle": "https://stackit.com/en/why-stackit/benefits/certificates",
-          "anmerkung": "TISAX Level 3 (Assessment ID ATA163-1, über ENX-Portal einsehbar)."
+          "anmerkung": "TISAX Level 3 (Assessment ID ATA163-1, über ENX-Portal einsehbar).",
+          "normiert": [
+            "tisax"
+          ]
         }
       ],
       "ai_act": [
@@ -2306,7 +2725,19 @@
           "anmerkung": "STACKIT betreibt Fremdmodelle; GPAI-Pflichten liegen bei den Modellherstellern. Keine eigene AI-Act-Dokumentation gefunden."
         }
       ],
-      "geprueft": "2026-08-19"
+      "geprueft": "2026-08-19",
+      "url": "https://belegbar.eu/anbieter/stackit/",
+      "beleg_quote_prozent": 77,
+      "zuletzt_geprueft": "2026-08-24",
+      "rechtsraum": {
+        "land": "DE",
+        "name": "Deutschland",
+        "einordnung": "eu",
+        "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+        "hinweis": null,
+        "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+        "geprueft": "2026-08-24"
+      }
     },
     {
       "id": "t-systems",
@@ -2370,9 +2801,9 @@
       ],
       "vertrag": {
         "avv": {
-          "wert": "https://www.open-telekom-cloud.com/_Resources/Persistent/7/2/9/2/72929e8d3a165ee13c5d29ca9e2911fe8404d989/open-telekom-cloud-ergaenzende-bedingungen-auftragsverarbeitung.pdf",
+          "wert": "https://www.t-cloud-public.com/_Resources/Persistent/7/4/4/5/744591c2cdff8be6c3876c3bf6e187fb024cad04/OTC%20ErgB-AV%20TDG_DE.pdf",
           "status": "belegt",
-          "quelle": "https://open-telekom-cloud.com/av",
+          "quelle": "https://www.t-cloud-public.com/_Resources/Persistent/7/4/4/5/744591c2cdff8be6c3876c3bf6e187fb024cad04/OTC%20ErgB-AV%20TDG_DE.pdf",
           "anmerkung": "Öffentliches AVV-Dokument (Stand April 2026) für die Open Telekom Cloud; für AI Foundation Services DPA nach Telekom-Vorlage auf Anfrage."
         },
         "subprozessoren": {
@@ -2399,25 +2830,37 @@
           "typ": "BSI C5",
           "status": "belegt",
           "quelle": "https://www.t-cloud-public.com/en/products-services/core-services/certifications",
-          "anmerkung": "BSI C5 Typ II (ISAE 3000) für die Open Telekom Cloud / T-Cloud."
+          "anmerkung": "BSI C5 Typ II (ISAE 3000) für die Open Telekom Cloud / T-Cloud.",
+          "normiert": [
+            "bsi-c5"
+          ]
         },
         {
           "typ": "ISO 27001",
           "status": "belegt",
           "quelle": "https://www.t-cloud-public.com/en/products-services/core-services/certifications",
-          "anmerkung": "Zusätzlich ISO 27017/27018/27701; deckt laut Enterprise-Trust-Doku auch die AI-Foundation-Services-Infrastruktur ab."
+          "anmerkung": "Zusätzlich ISO 27017/27018/27701; deckt laut Enterprise-Trust-Doku auch die AI-Foundation-Services-Infrastruktur ab.",
+          "normiert": [
+            "iso-27001"
+          ]
         },
         {
           "typ": "SOC 2",
           "status": "belegt",
           "quelle": "https://www.t-cloud-public.com/en/products-services/core-services/certifications",
-          "anmerkung": "SOC 1 Type II, SOC 2 Type II und SOC 3."
+          "anmerkung": "SOC 1 Type II, SOC 2 Type II und SOC 3.",
+          "normiert": [
+            "soc-2"
+          ]
         },
         {
           "typ": "TISAX",
           "status": "belegt",
           "quelle": "https://www.t-cloud-public.com/en/products-services/core-services/certifications",
-          "anmerkung": "TISAX Level 3."
+          "anmerkung": "TISAX Level 3.",
+          "normiert": [
+            "tisax"
+          ]
         }
       ],
       "ai_act": [
@@ -2428,7 +2871,19 @@
           "anmerkung": "Plattform serviert Fremdmodelle; Art.-53-Pflichten liegen bei den Herstellern. Keine eigene AI-Act-Dokumentation gefunden."
         }
       ],
-      "geprueft": "2026-08-19"
+      "geprueft": "2026-08-19",
+      "url": "https://belegbar.eu/anbieter/t-systems/",
+      "beleg_quote_prozent": 93,
+      "zuletzt_geprueft": "2026-08-19",
+      "rechtsraum": {
+        "land": "DE",
+        "name": "Deutschland",
+        "einordnung": "eu",
+        "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+        "hinweis": null,
+        "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+        "geprueft": "2026-08-24"
+      }
     }
   ]
 }
