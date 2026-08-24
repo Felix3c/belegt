@@ -181,3 +181,10 @@ th.num { text-align: right; }
 /* Fuß */
 .fuss { border-top: 2px solid var(--tinte); padding: 24px 0 48px; margin-top: 24px; background: var(--flaeche-2); }
 .fuss p { font-size: 13.5px; color: var(--tinte-soft); max-width: none; }
+
+/* Direktantwort: der erste Absatz einer Fragen- oder Zertifikatsseite. Bewusst als
+   eigenständiger Block gesetzt — Menschen lesen ihn zuerst, und maschinelle Auswerter
+   finden die Antwort ohne den Rest der Seite verarbeiten zu müssen. */
+.direktantwort { background: var(--stempel-hauch); border-left: 3px solid var(--stempel); border-radius: 4px; padding: 14px 18px; margin: 18px 0 26px; max-width: 720px; }
+.direktantwort p { margin: 0; font-size: 16px; line-height: 1.6; }
+.direktantwort strong { font-family: "IBM Plex Mono", Consolas, monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--stempel-tief); display: block; margin-bottom: 6px; }

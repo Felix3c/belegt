@@ -98,19 +98,26 @@
       "typ": "ISO 27001",
       "status": "beansprucht",
       "quelle": "https://greenpt.com/sustainability",
-      "anmerkung": "Footer-Badge; Sustainability-Seite präzisiert, dass sich die Zertifizierung auf die genutzten Rechenzentren (Scaleway, Verda) bezieht — kein eigenes GreenPT-Zertifikat auffindbar"
+      "anmerkung": "Footer-Badge; Sustainability-Seite präzisiert, dass sich die Zertifizierung auf die genutzten Rechenzentren (Scaleway, Verda) bezieht — kein eigenes GreenPT-Zertifikat auffindbar",
+      "normiert": [
+        "iso-27001"
+      ]
     },
     {
       "typ": "ISO 50001",
       "status": "beansprucht",
       "quelle": "https://greenpt.com/sustainability",
-      "anmerkung": "Energiemanagement der genutzten Rechenzentren, nicht von GreenPT BV selbst; kein Zertifikat verlinkt"
+      "anmerkung": "Energiemanagement der genutzten Rechenzentren, nicht von GreenPT BV selbst; kein Zertifikat verlinkt",
+      "normiert": [
+        "iso-50001"
+      ]
     },
     {
       "typ": "Nachhaltigkeits-Kennzahlen (PUE 1.25, WUE 0.25, 100 % erneuerbar)",
       "status": "belegt",
       "quelle": "https://greenpt.com/sustainability",
-      "anmerkung": "Mit Primärquellen belegt (Scaleway Impact Report 2025, Verda Trust Center); GreenPT räumt selbst ein, dass das Training der genutzten Modelle nicht verifizierbar ist"
+      "anmerkung": "Mit Primärquellen belegt (Scaleway Impact Report 2025, Verda Trust Center); GreenPT räumt selbst ein, dass das Training der genutzten Modelle nicht verifizierbar ist",
+      "normiert": []
     }
   ],
   "ai_act": [
@@ -127,5 +134,17 @@
       "anmerkung": "Keine AI-Act-spezifischen Aussagen auf Website, in ToS oder Privacy Policy gefunden; nur GDPR-Compliance wird benannt"
     }
   ],
-  "geprueft": "2026-08-20"
+  "geprueft": "2026-08-20",
+  "url": "https://belegbar.eu/anbieter/greenpt/",
+  "beleg_quote_prozent": 80,
+  "zuletzt_geprueft": "2026-08-20",
+  "rechtsraum": {
+    "land": "NL",
+    "name": "Niederlande",
+    "einordnung": "eu",
+    "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+    "hinweis": null,
+    "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+    "geprueft": "2026-08-24"
+  }
 }

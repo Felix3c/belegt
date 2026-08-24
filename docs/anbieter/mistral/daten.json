@@ -89,19 +89,28 @@
       "typ": "ISO 27001",
       "status": "belegt",
       "quelle": "https://help.mistral.ai/en/articles/347638-do-you-have-soc-2-or-iso-27001-certification",
-      "anmerkung": "Offizielle Aussage: SOC 2 Type II und ISO 27001/27701; Report nur auf Anfrage über Trust Center."
+      "anmerkung": "Offizielle Aussage: SOC 2 Type II und ISO 27001/27701; Report nur auf Anfrage über Trust Center.",
+      "normiert": [
+        "iso-27001"
+      ]
     },
     {
       "typ": "SOC 2 Type II",
       "status": "belegt",
       "quelle": "https://help.mistral.ai/en/articles/347638-do-you-have-soc-2-or-iso-27001-certification",
-      "anmerkung": "Report sales-gated, Zugang via Trust Center anfragbar."
+      "anmerkung": "Report sales-gated, Zugang via Trust Center anfragbar.",
+      "normiert": [
+        "soc-2"
+      ]
     },
     {
       "typ": "ISO 27701",
       "status": "belegt",
       "quelle": "https://help.mistral.ai/en/articles/347638-do-you-have-soc-2-or-iso-27001-certification",
-      "anmerkung": "Datenschutz-Erweiterung zu ISO 27001."
+      "anmerkung": "Datenschutz-Erweiterung zu ISO 27001.",
+      "normiert": [
+        "iso-27701"
+      ]
     }
   ],
   "ai_act": [
@@ -118,5 +127,17 @@
       "anmerkung": "Als CoP-Signatar verpflichtet, ein konkretes veröffentlichtes Dokument wurde aber nicht gefunden."
     }
   ],
-  "geprueft": "2026-08-19"
+  "geprueft": "2026-08-19",
+  "url": "https://belegbar.eu/anbieter/mistral/",
+  "beleg_quote_prozent": 93,
+  "zuletzt_geprueft": "2026-08-19",
+  "rechtsraum": {
+    "land": "FR",
+    "name": "Frankreich",
+    "einordnung": "eu",
+    "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+    "hinweis": null,
+    "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+    "geprueft": "2026-08-24"
+  }
 }

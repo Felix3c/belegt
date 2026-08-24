@@ -9,6 +9,13 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='14' fill='%235F4B9E'/%3E%3Ctext x='50' y='68' font-size='58' text-anchor='middle' fill='white' font-family='Georgia'%3Eb%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="../fonts.css">
 <link rel="stylesheet" href="../style.css">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="belegbar.eu">
+<meta property="og:locale" content="de_DE">
+<meta property="og:title" content="Methodik — was „belegt“ heißt | belegbar.eu">
+<meta property="og:description" content="Wie belegbar.eu prüft: die drei Statusstufen belegt/beansprucht/unbelegt, die Beleg-Quote und der Umgang mit Korrekturen.">
+<meta property="og:url" content="https://belegbar.eu/methodik/">
+<meta name="twitter:card" content="summary">
 
 </head>
 <body>
@@ -16,7 +23,7 @@
 <header class="kopf">
   <div class="shell kopf-innen">
     <a class="marke" href="../"><span class="marke-wort">belegbar</span><span class="marke-tld">.eu</span></a>
-    <nav aria-label="Hauptnavigation"><a href="../">Anbieter</a><a href="../vergleich/">Vergleiche</a><a href="../ratgeber/">Ratgeber</a><a href="../methodik/" aria-current="page">Methodik</a><a href="../ueber/">Über</a></nav>
+    <nav aria-label="Hauptnavigation"><a href="../">Anbieter</a><a href="../fragen/">Fragen</a><a href="../zertifikate/">Zertifikate</a><a href="../vergleich/">Vergleiche</a><a href="../ratgeber/">Ratgeber</a><a href="../methodik/" aria-current="page">Methodik</a><a href="../ueber/">Über</a></nav>
   </div>
 </header>
 <main id="inhalt" class="shell">
@@ -54,15 +61,24 @@
 <h2 id="verified">Verified-Status: So funktioniert es</h2>
 <p>Anbieter, die uns fehlende Nachweise direkt zusenden, erhalten das Verified-Kennzeichen mit Datum. Der Ablauf:</p>
 <ol>
-<li><strong>Nachweise einreichen.</strong> Eine E-Mail an <a href="mailto:hallo@belegbar.eu">hallo@belegbar.eu</a> mit Betreff „Verifizierung [Anbietername]" genügt. Als Nachweis zählt, was auch sonst für „belegt" gilt: Primärdokumente — Zertifikat mit Auditor, unterschriftsreifer AVV, Subprozessorenliste, Policy-Dokument. Ein Link ist so gut wie ein PDF.</li>
-<li><strong>Wir prüfen.</strong> Marketing-Aussagen, Badges und Absichtserklärungen reichen nicht — genau darum gibt es diese Datenbank. Was den Beleg-Maßstab erfüllt, wird im Profil auf „belegt" gesetzt, mit neuem Prüfdatum und verlinkter Quelle.</li>
+<li><strong>Nachweise einreichen.</strong> Eine E-Mail an <a href="mailto:hallo@belegbar.eu">hallo@belegbar.eu</a> mit Betreff „Verifizierung [Anbietername]“ genügt. Als Nachweis zählt, was auch sonst für „belegt“ gilt: Primärdokumente — Zertifikat mit Auditor, unterschriftsreifer AVV, Subprozessorenliste, Policy-Dokument. Ein Link ist so gut wie ein PDF.</li>
+<li><strong>Wir prüfen.</strong> Marketing-Aussagen, Badges und Absichtserklärungen reichen nicht — genau darum gibt es diese Datenbank. Was den Beleg-Maßstab erfüllt, wird im Profil auf „belegt“ gesetzt, mit neuem Prüfdatum und verlinkter Quelle.</li>
 <li><strong>Das Kennzeichen.</strong> Das Profil erhält den Verified-Stempel mit dem Datum der Prüfung. Er bedeutet genau eines: <em>Dieser Anbieter hat aktiv Nachweise eingereicht, und wir haben sie geprüft.</em> Er ist keine Qualitäts- oder Rechtskonformitäts-Aussage.</li>
 <li><strong>Aktualität.</strong> Der Stempel trägt sein Datum sichtbar. Ändern sich Fakten wesentlich (z. B. neuer Eigentümer, ausgelaufenes Zertifikat), prüfen wir neu — das Kennzeichen bleibt nur mit aktuellem Stand bestehen.</li>
 </ol>
 <p><strong>Was Verified nicht ist:</strong> Es ist nicht käuflich, kein Ranking-Vorteil und keine Bedingung für die Aufnahme — gelistet wird, wer relevant ist, mit oder ohne Mitwirkung. Anbieter können der Listung ihrer öffentlich verfügbaren Angaben nicht widersprechen, wohl aber jederzeit Korrekturen mit Beleg verlangen.</p>
 
+<h2>Verfallen Belege? Ja — und wir prüfen das</h2>
+<p>Eine Evidenz-Datenbank verfällt nicht dadurch, dass Angaben falsch werden, sondern dadurch, dass ihre Belege verschwinden. Anbieter bauen ihre Websites um, Dokumente wandern, Domains werden zusammengelegt. Ein Link, der ins Leere zeigt, ist schlimmer als eine fehlende Angabe: Er täuscht Nachweisbarkeit vor.</p>
+<p>Deshalb prüfen wir regelmäßig jede hinterlegte Quellen-URL — und zwar nicht nur auf den Statuscode. Eine gelöschte Dokumentseite antwortet häufig mit „200 OK“, weil der Server auf die Startseite weiterleitet. Wir bewerten deshalb das Ziel der Weiterleitung mit: Landet ein tief verlinktes Dokument auf einer Startseite, gilt der Beleg als verloren.</p>
+<p><strong>Ein Beispiel vom 24. August 2026:</strong> Der öffentliche Auftragsverarbeitungsvertrag von STACKIT war bis dahin als PDF verlinkt und der AVV entsprechend als „belegt“ geführt. Beim Quellen-Check leitete die gesamte alte Domain auf die neue Startseite um; das Dokument war öffentlich nicht mehr auffindbar. Wir haben die Angabe auf „unbelegt“ zurückgesetzt und die verlorene URL in der Anmerkung dokumentiert. Das heißt ausdrücklich nicht, dass STACKIT keinen AVV hätte — es heißt, dass er sich nicht mehr öffentlich nachweisen lässt. Genau diesen Unterschied festzuhalten, ist der Zweck dieser Datenbank.</p>
+<p>Am selben Tag ging es auch in die andere Richtung: DeepLs BSI-C5-Angabe stand als „beansprucht“, weil zum Erfassungszeitpunkt nur eine Selbstverpflichtung auffindbar war. Die Prüfung förderte Blogbeitrag und Pressemitteilung zum tatsächlich erteilten C5-Typ-2-Testat zutage — die Angabe steht seitdem auf „belegt“, mit eigenem Prüfdatum.</p>
+
+<h2>Prüfdatum je Angabe</h2>
+<p>Jedes Profil trägt ein Datum der letzten vollständigen Prüfung. Wird eine einzelne Angabe zwischendurch nachgeprüft, bekommt sie zusätzlich ihr eigenes Prüfdatum — sichtbar an der Quelle und in den Rohdaten. So behauptet ein Profil nie, alle seine Angaben seien gleichzeitig geprüft worden.</p>
+
 <h2>Lizenz</h2>
-<p>Die Daten dieser Datenbank stehen unter <a href="https://creativecommons.org/licenses/by/4.0/deed.de" rel="noopener" target="_blank">CC BY 4.0</a>: Nutzung und Zitat sind frei — mit Namensnennung „belegbar.eu" und Angabe des Prüfdatums. Maschinenlesbare Rohdaten: <a href="https://belegbar.eu/daten.json">daten.json</a>.</p>
+<p>Die Daten dieser Datenbank stehen unter <a href="https://creativecommons.org/licenses/by/4.0/deed.de" rel="noopener" target="_blank">CC BY 4.0</a>: Nutzung und Zitat sind frei — mit Namensnennung „belegbar.eu“ und Angabe des Prüfdatums. Maschinenlesbare Rohdaten: <a href="https://belegbar.eu/daten.json">daten.json</a>.</p>
 
 <h2>Unabhängigkeit</h2>
 <p>belegbar.eu betreibt keine eigene KI-Infrastruktur und ist an keinem gelisteten Anbieter beteiligt. Etwaige künftige Sponsorings werden als solche gekennzeichnet und haben keinen Einfluss auf Statusbewertungen.</p>

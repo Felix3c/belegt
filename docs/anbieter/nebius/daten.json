@@ -80,25 +80,37 @@
       "typ": "ISO 27001",
       "status": "belegt",
       "quelle": "https://nebius.com/trust-center",
-      "anmerkung": ""
+      "anmerkung": "",
+      "normiert": [
+        "iso-27001"
+      ]
     },
     {
       "typ": "SOC 2 Type II",
       "status": "belegt",
       "quelle": "https://nebius.com/trust-center",
-      "anmerkung": "Inkl. HIPAA-Mapping; zudem SOC 3"
+      "anmerkung": "Inkl. HIPAA-Mapping; zudem SOC 3",
+      "normiert": [
+        "soc-2"
+      ]
     },
     {
       "typ": "ISO 27701",
       "status": "belegt",
       "quelle": "https://nebius.com/trust-center",
-      "anmerkung": "Zusätzlich ISO 27018, 27799, 22301, 27032 gelistet"
+      "anmerkung": "Zusätzlich ISO 27018, 27799, 22301, 27032 gelistet",
+      "normiert": [
+        "iso-27701"
+      ]
     },
     {
       "typ": "CSA STAR Level 1",
       "status": "belegt",
       "quelle": "https://nebius.com/trust-center",
-      "anmerkung": ""
+      "anmerkung": "",
+      "normiert": [
+        "csa-star"
+      ]
     }
   ],
   "ai_act": [
@@ -109,5 +121,17 @@
       "anmerkung": "Keine Unterzeichnung auffindbar; hostet Open-Source-Fremdmodelle. Trust Center nennt NIS 2 und DORA, aber keine AI-Act-Dokumentation"
     }
   ],
-  "geprueft": "2026-08-19"
+  "geprueft": "2026-08-19",
+  "url": "https://belegbar.eu/anbieter/nebius/",
+  "beleg_quote_prozent": 85,
+  "zuletzt_geprueft": "2026-08-19",
+  "rechtsraum": {
+    "land": "NL",
+    "name": "Niederlande",
+    "einordnung": "eu",
+    "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+    "hinweis": null,
+    "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+    "geprueft": "2026-08-24"
+  }
 }

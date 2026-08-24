@@ -1,0 +1,722 @@
+# belegbar.eu — vollständiger Datenbestand
+
+Stand: 2026-08-24. 21 europäische KI-Anbieter, jede Angabe mit Quelle, Prüfdatum und Beleg-Status.
+
+## Wie diese Datei zu lesen ist
+
+Jede Angabe trägt einen von drei Status:
+- "belegt": durch ein Primärdokument oder eine konkrete offizielle Anbieterseite nachgewiesen, Quelle verlinkt.
+- "beansprucht": der Anbieter behauptet die Eigenschaft, ein prüfbares Dokument fehlt.
+- "unbelegt": keine belastbare Angabe gefunden. Das ist eine Information, keine Lücke.
+
+Ein "unbelegt" heißt nicht, dass die Eigenschaft fehlt — es heißt, dass sie nicht öffentlich
+nachweisbar ist. Wer diese Daten zitiert, sollte den Status mitzitieren.
+
+Lizenz: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Nutzung und Zitat frei mit
+Namensnennung "belegbar.eu" und Angabe des Prüfdatums.
+
+Zitierform: belegbar.eu, Stand 2026-08-24, https://belegbar.eu
+
+## Direkt beantwortete Fragen
+
+**Welche europäischen KI-Anbieter haben ein BSI-C5-Testat?**
+
+Von 21 geprüften Anbietern weisen 6 ein BSI-C5-Testat mit verlinkter Primärquelle nach: DeepL (DE), Exoscale (CH), IONOS (AI Model Hub) (DE), OVHcloud (AI Endpoints) (FR), STACKIT (DE), T-Systems / Open Telekom Cloud (AI Foundation Services) (DE). Bei den übrigen 15 Anbietern haben wir keine belastbare C5-Angabe gefunden — das heißt nicht, dass keine existiert, sondern dass sie nicht öffentlich auffindbar ist.
+
+Ausführlich: https://belegbar.eu/fragen/bsi-c5-testat-ki-anbieter/
+
+**Wo finde ich eine Übersicht, welche EU-KI-Anbieter ihre Zertifikate wirklich nachweisen?**
+
+Diese Seite ist eine solche Übersicht. belegbar.eu führt 21 europäische KI-Anbieter und trennt bei jeder einzelnen Angabe drei Stufen: „belegt“ (Primärdokument verlinkt), „beansprucht“ (Anbieterangabe ohne prüfbares Dokument) und „unbelegt“ (keine belastbare Angabe gefunden). 14 der 21 Anbieter haben mindestens ein Zertifikat mit verlinktem Nachweis; bei 7 ist kein einziges Zertifikat belegt. Alle Daten stehen unter CC BY 4.0 und sind maschinenlesbar unter https://belegbar.eu/daten.json abrufbar.
+
+Ausführlich: https://belegbar.eu/fragen/uebersicht-eu-ki-anbieter-zertifikate-nachweis/
+
+**Welcher europäische Inference-Anbieter ist DSGVO-konform und hostet ausschließlich in der EU?**
+
+Keiner — jedenfalls stellt das niemand fest, der es dürfte. „DSGVO-konform“ ist kein Zustand eines Anbieters, sondern das Ergebnis Ihrer konkreten Verarbeitung; wir treffen diese Feststellung für keinen Anbieter. Prüfbar ist dagegen, ob die Voraussetzungen überhaupt vorliegen. Von 12 Inference-Anbietern erfüllen 8 alle drei nachweisbaren Bedingungen zugleich — Sitz in einem EU-Mitgliedstaat, keine US-Eigentümerstruktur und ein belegter Auftragsverarbeitungsvertrag: Gcore (LU), GreenPT (NL), IONOS (AI Model Hub) (DE), Lyceum Technology (DE), OVHcloud (AI Endpoints) (FR), Regolo.ai (IT), Scaleway (FR), T-Systems / Open Telekom Cloud (AI Foundation Services) (DE). Wichtig: Der Unternehmenssitz ist nicht der Hosting-Standort. Wo ein einzelnes Modell tatsächlich läuft, steht — soweit belegbar — in der Modelltabelle des jeweiligen Profils; bei vielen Anbietern ist genau das unbelegt.
+
+Ausführlich: https://belegbar.eu/fragen/dsgvo-konform-inference-api-eu-hosting/
+
+**Welche KI-Anbieter erfüllen die AI-Act-Pflichten nachweislich?**
+
+„Die AI-Act-Pflichten erfüllen“ lässt sich von außen nicht feststellen — welche Pflichten überhaupt greifen, hängt von der Rolle (Anbieter, Betreiber, Importeur) und der Risikoklasse des konkreten Systems ab. Nachweisbar ist nur, was ein Anbieter öffentlich dokumentiert. Von 21 Anbietern haben 6 mindestens einen AI-Act-bezogenen Nachweis mit verlinkter Primärquelle: Aleph Alpha (DE), Black Forest Labs (DE), GreenPT (NL), IONOS (AI Model Hub) (DE), Mistral AI (La Plateforme) (FR), OVHcloud (AI Endpoints) (FR). Bei 15 Anbietern haben wir keinen einzigen belegten AI-Act-Nachweis gefunden. Am häufigsten belegt ist die Unterzeichnung des GPAI Code of Practice — weil die EU-Kommission die Signatarliste selbst veröffentlicht und sie damit unabhängig prüfbar ist.
+
+Ausführlich: https://belegbar.eu/fragen/ai-act-pflichten-nachweis-ki-anbieter/
+
+**Souveräne KI für Kommunen — welche Anbieter kommen infrage?**
+
+Für Kommunen ist die entscheidende Frage nicht, welcher Anbieter „souverän“ heißt, sondern welche Nachweise sich einem Rechnungsprüfungsamt vorlegen lassen. Wir haben alle 21 Anbieter gegen sechs prüfbare Kriterien gestellt: EU-Sitz, keine US-Eigentümerstruktur, BSI C5, ISO/IEC 27001, belegter AVV und belegtes Trainings-Opt-out. 8 Anbieter erfüllen mindestens fünf davon nachweisbar: DeepL (DE), IONOS (AI Model Hub) (DE), OVHcloud (AI Endpoints) (FR), T-Systems / Open Telekom Cloud (AI Foundation Services) (DE), Mistral AI (La Plateforme) (FR), Regolo.ai (IT), Scaleway (FR), STACKIT (DE). 6 Anbieter weisen ein BSI-C5-Testat nach — für die öffentliche Verwaltung meist das gewichtigste Einzelkriterium. Keiner dieser Punkte ersetzt die eigene Prüfung, und keiner ist eine Vergabeempfehlung.
+
+Ausführlich: https://belegbar.eu/fragen/souveraene-ki-kommunen-anbieter/
+
+## Anbieterprofile
+
+### Aleph Alpha
+
+URL: https://belegbar.eu/anbieter/aleph-alpha/ | Rohdaten: https://belegbar.eu/anbieter/aleph-alpha/daten.json
+Kategorie: Modell-Anbieter | Sitz: Heidelberg, Deutschland (DE) | Gegründet: 2019
+Rechtsraum: Deutschland — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
+Mutterkonzern: keiner bekannt | US-Eigentümerstruktur: nein
+Beleg-Quote: 50 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-08-19
+
+Heidelberger KI-Modellanbieter (PhariaAI-Plattform, Pharia-Modellfamilie, Fokus auf spezialisierte Sprachmodelle für Industrie und Verwaltung); die im April 2026 angekündigte Fusion mit dem kanadischen Anbieter Cohere ist noch nicht vollzogen.
+
+Vertrag und Datenschutz:
+- AVV / Auftragsverarbeitungsvertrag: kein Wert hinterlegt [Status: unbelegt] | Anmerkung: Kein öffentliches AVV/DPA-Dokument gefunden; Verträge im Enterprise-Vertrieb individuell.
+- Subprozessoren-Liste: kein Wert hinterlegt [Status: unbelegt] | Anmerkung: Keine öffentliche Subprozessorenliste gefunden.
+- Kein Training mit Kundendaten: kein Wert hinterlegt [Status: unbelegt] | Anmerkung: Bei Self-Hosting/On-Premises verbleiben Daten beim Kunden; für Managed-/SaaS-Varianten keine öffentliche Trainings-Policy auffindbar.
+- Zero Data Retention: kein Wert hinterlegt [Status: unbelegt] | Anmerkung: Keine öffentliche Retention-Policy gefunden.
+
+Zertifikate:
+- ISO 27001 [normiert: iso-27001] [Status: belegt] | Quelle: https://www.dqsglobal.com/en/customer-database/aleph-alpha-gmbh | Anmerkung: ISO/IEC 27001:2022 für Aleph Alpha GmbH, nachgewiesen über die Zertifikatsdatenbank des Zertifizierers DQS.
+
+AI Act:
+- GPAI Code of Practice unterzeichnet [Status: belegt] | Quelle: https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai | Anmerkung: In der offiziellen Signatarliste der EU-Kommission enthalten.
+- Code of Practice on Transparency of AI-generated Content unterzeichnet [Status: belegt] | Quelle: https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content | Anmerkung: Eigene Ankündigung im Aleph-Alpha-Blog.
+
+Modelle und Preise (EUR je 1 Mio. Token):
+- Pharia-1-LLM-7B-control | Hosting: unbelegt | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control | Anmerkung: Modellkarte öffentlich; keine öffentlichen API-Tokenpreise — Vertrieb über Enterprise-Verträge und Self-Hosting, Preise auf Anfrage.
+- Pharia-1-Embedding-4608-control | Hosting: unbelegt | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://huggingface.co/Aleph-Alpha/Pharia-1-Embedding-4608-control | Anmerkung: Keine öffentlichen Preise.
+- Specialized Language Models (SLLMs) | Hosting: unbelegt | Input: unbelegt | Output: unbelegt [Status: beansprucht] | Quelle: https://aleph-alpha.com/ | Anmerkung: Website bewirbt domänenspezifische SLLMs auf europäischer Infrastruktur; keine öffentlichen Modellkarten oder Preise. PhariaAI-as-a-Service-Partnerschaft mit STACKIT beansprucht.
+
+### Black Forest Labs
+
+URL: https://belegbar.eu/anbieter/black-forest-labs/ | Rohdaten: https://belegbar.eu/anbieter/black-forest-labs/daten.json
+Kategorie: Modell-Anbieter | Sitz: Freiburg, Deutschland (DE) | Gegründet: 2024
+Rechtsraum: Deutschland — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
+Mutterkonzern: Black Forest Labs Inc. (Delaware/San Francisco, USA) | US-Eigentümerstruktur: ja
+Beleg-Quote: 62 % | vollständig geprüft: 2026-08-20 | jüngstes Prüfdatum: 2026-08-20
+
+Bildmodell-Labor aus Freiburg (gegründet 2024 von Ex-Stability-AI-Forschern), bekannt für die FLUX-Modellfamilie. Gehostete Bild-/Video-API mit wählbarem EU- oder US-Cluster; seit der Finanzierungsrunde Ende 2025 ist die Konzernspitze eine US-Gesellschaft (Delaware Inc.), die deutsche BFL GmbH bleibt Datenverantwortliche für den EWR.
+
+Vertrag und Datenschutz:
+- AVV / Auftragsverarbeitungsvertrag: kein Wert hinterlegt [Status: beansprucht] | Quelle: https://bfl.ai/enterprise | Anmerkung: Enterprise-Seite: 'Security documentation, DPAs, and vendor assessment materials are available on request' — kein öffentlich abrufbares AVV; auch die ToS verlinken keins
+- Subprozessoren-Liste: kein Wert hinterlegt [Status: unbelegt] | Anmerkung: Keine Subprozessoren-Liste; die Privacy Policy nennt keine konkreten Auftragsverarbeiter. Welcher Cloud-Betreiber hinter dem EU-Cluster steht (eigene Infrastruktur oder US-Hyperscaler), ist nicht offengelegt
+- Kein Training mit Kundendaten: nein [Status: belegt] | Quelle: https://bfl.ai/legal/terms-of-service | Anmerkung: Standardmäßig dürfen Inputs/Outputs zum Training genutzt werden ('to provide, develop, train and improve our technologies'); Opt-out nur per E-Mail (privacy@blackforestlabs.ai, Betreff 'Training Opt Out' laut Privacy Policy), kein Dashboard-Schalter
+- Zero Data Retention: kein Wert hinterlegt [Status: beansprucht] | Quelle: https://bfl.ai/enterprise | Anmerkung: 'Zero data retention' wird nur für Managed-Enterprise-API und dedizierte Instanzen beworben; für die Standard-API widerspricht die Privacy Policy (Aufbewahrung 'as long as reasonably necessary', Trainingsnutzung mit Opt-out). Ergebnis-URLs sind 10 Min. gültig, Speicherdauer danach nicht dokumentiert
+
+Zertifikate:
+- SOC 2 Type II [normiert: soc-2] [Status: beansprucht] | Quelle: https://bfl.ai/enterprise | Anmerkung: Auf der Enterprise-Seite genannt; kein Trust-Center oder Auditbericht öffentlich abrufbar
+- ISO 27001 [normiert: iso-27001] [Status: beansprucht] | Quelle: https://bfl.ai/enterprise | Anmerkung: Auf der Enterprise-Seite genannt; kein Zertifikat/Zertifizierer einsehbar
+
+AI Act:
+- GPAI-Pflichten als Modellanbieter (Art. 53 ff.) [Status: belegt] | Quelle: https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai | Anmerkung: Auf der EU-Kommissionsseite als Unterzeichner des General-Purpose AI Code of Practice gelistet (alle Kapitel, ohne Ausnahmen)
+
+Modelle und Preise (EUR je 1 Mio. Token):
+- FLUX.2 [pro] | Hosting: Region wählbar: global (api.bfl.ai), EU-Cluster (api.eu.bfl.ai) oder US; Cloud-Betreiber dahinter nicht offengelegt | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.bfl.ai/quick_start/pricing | Anmerkung: Bildmodell, Abrechnung pro Bild nach Megapixel: ab 0,03 $/Bild (Text-zu-Bild), ab 0,045 $/Bild (Editing); Preise in USD
+- FLUX.2 [max] | Hosting: Region wählbar (global/EU/US) | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.bfl.ai/quick_start/pricing | Anmerkung: ab 0,07 $/Bild, megapixelbasiert
+- FLUX.2 [flex] | Hosting: Region wählbar (global/EU/US) | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.bfl.ai/quick_start/pricing | Anmerkung: ab 0,05 $/Bild
+- FLUX.2 [klein] (4B / 9B) | Hosting: Region wählbar (global/EU/US); [dev]-Variante nur self-hosted | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.bfl.ai/quick_start/pricing | Anmerkung: ab 0,014 $/Bild (4B) bzw. 0,015 $/Bild (9B)
+- FLUX.1 Kontext [pro] / [max] | Hosting: Region wählbar (global/EU/US) | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.bfl.ai/quick_start/pricing | Anmerkung: Bild-Editing: 0,04 $/Bild (pro), 0,08 $/Bild (max)
+- FLUX 3 (Video) | Hosting: Region wählbar (global/EU/US) | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.bfl.ai/quick_start/pricing | Anmerkung: Abrechnung pro Sekunde: Text/Bild-zu-Video 0,17–0,29 $/s (Full Render), Draft 0,06 $/s
+
+### DeepL
+
+URL: https://belegbar.eu/anbieter/deepl/ | Rohdaten: https://belegbar.eu/anbieter/deepl/daten.json
+Kategorie: Modell-Anbieter | Sitz: Köln, Deutschland (DE) | Gegründet: 2017
+Rechtsraum: Deutschland — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
+Mutterkonzern: keiner bekannt | US-Eigentümerstruktur: nein
+Beleg-Quote: 69 % | vollständig geprüft: 2026-08-20 | jüngstes Prüfdatum: 2026-08-24
+
+Kölner Anbieter von KI-Übersetzung und Schreibassistenz (DeepL SE, gegründet 2017) mit eigenen, in-house trainierten Modellen. Für Geschäftskunden gibt es neben DeepL Pro eine REST-API (Translate, Write, Voice) mit zeichenbasierter Abrechnung und zugesicherter Nicht-Nutzung von Kundendaten fürs Training.
+
+Vertrag und Datenschutz:
+- AVV / Auftragsverarbeitungsvertrag: kein Wert hinterlegt [Status: belegt] | Quelle: https://www.deepl.com/en/pro-license | Anmerkung: Existenz vertraglich belegt: Pro-AGB Ziff. 8.1.5 verpflichtet zum Abschluss von 'DeepL's data processing agreement (which shall be provided by DeepL)'. Kein öffentlicher Direktlink; AVV liegt für Kunden im Kundenkonto. Für den Finanzsektor ergänzend DORA-Infoseite mit Audit-Recht: deepl.com/en/dora-info
+- Subprozessoren-Liste: kein Wert hinterlegt [Status: beansprucht] | Quelle: https://trust.deepl.com/ | Anmerkung: Keine öffentliche Gesamtliste; laut Anbieter in Annex 1 der AVV (nur für Kunden). Im Trust Center ist die Rubrik 'Subprocessors' zugriffsbeschränkt; konkret veröffentlicht ist ein Transfer Impact Assessment für AWS als Subprozessor
+- Kein Training mit Kundendaten: ja [Status: belegt] | Quelle: https://www.deepl.com/en/products/api | Anmerkung: Bei Bezahlprodukten standardmäßig kein Training: 'Pro customer data is never used to train DeepL's models'; Plan-Vergleich weist 'No data training' für alle API- und Pro-Pläne aus. Achtung: gilt nicht für den kostenlosen Übersetzer
+- Zero Data Retention: ja [Status: belegt] | Quelle: https://www.deepl.com/en/pro-license | Anmerkung: Pro-AGB Ziff. 3.1.2: nur temporäre Speicherung, soweit technisch nötig; Support-Doku: 'texts are deleted immediately after the translation'. Einschränkungen: bei Fehlern verschlüsselte Speicherung bis max. 72 h (Debugging), aktiv gespeicherte Inhalte (Glossare) 90 Tage nach Vertragsende gelöscht — kein absolutes Zero Retention, aber keine dauerhafte Speicherung per Default
+
+Zertifikate:
+- ISO/IEC 27001:2022 [normiert: iso-27001] [Status: belegt] | Quelle: https://trust.deepl.com/ | Anmerkung: Im Trust Center (SafeBase-Portal) ausgewiesen; Auditor TÜV Rheinland Cert GmbH, Zertifikat öffentlich abrufbar. Hinweis: trust.deepl.com blockt automatisierte Abrufe, im Browser erreichbar
+- SOC 2 Type II [normiert: soc-2] [Status: belegt] | Quelle: https://trust.deepl.com/ | Anmerkung: Berichtszeitraum 01.01.–30.06.2025; auch auf deepl.com/en/pro-data-security beworben, Bericht als Download
+- HIPAA [normiert: hipaa] [Status: beansprucht] | Quelle: https://www.deepl.com/en/products/api | Anmerkung: Als 'certification' beworben; HIPAA kennt keine formale Zertifizierung, kein Prüfer genannt. Nur für US-Gesundheitskontext relevant
+- BSI C5 [normiert: bsi-c5] [Status: belegt] | Quelle: https://www.deepl.com/de/blog/c5-type2-attestation | Anmerkung: C5-Typ-2-Testat des BSI, von DeepL am 03.10.2025 im eigenen Blog und per Pressemitteilung bestätigt (114 Kriterien, Wirksamkeitsnachweis über mindestens sechs Monate). Gleichlautende Pressemitteilung auf deepl.com/de/press-release/. Einschränkung: Der Testatsbericht selbst ist nicht öffentlich, ein prüfender Wirtschaftsprüfer wird nicht genannt; belegt ist die datierte Anbieteraussage über ein erteiltes Testat, nicht der Bericht. Früherer Stand bis 24.08.2026: beansprucht (Selbstverpflichtung im Trust Center) — die Angabe war veraltet.
+- Externe Penetrationstests [Status: belegt] | Quelle: https://trust.deepl.com/ | Anmerkung: Regelmäßige Tests durch wechselnde unabhängige Prüfer; Berichte auf Anfrage
+
+AI Act:
+- GPAI-Verhaltenskodex (Code of Practice, Art. 53/55) [Status: unbelegt] | Anmerkung: Keine öffentliche Aussage zur Unterzeichnung; DeepL taucht in der Signatory-Liste des EU AI Office nicht auf (geprüft 20.08.2026). Ob DeepLs In-house-Modelle als GPAI einzustufen sind, ist offen
+- AI-Governance / Responsible-AI-Dokumentation [Status: beansprucht] | Quelle: https://trust.deepl.com/ | Anmerkung: Trust Center listet 'AI Governance' und ein 'Responsible AI Statement'; Inhalte zugriffsbeschränkt, ohne öffentlich prüfbaren Text
+- AI-Act-spezifische Kundeninformation (Art. 50) [Status: unbelegt] | Anmerkung: Keine dedizierte AI-Act-Infoseite gefunden; für den Finanzsektor existiert eine DORA-Seite (deepl.com/en/dora-info), die DeepL als ICT-Drittdienstleister für 'non-critical functions' einordnet
+
+Modelle und Preise (EUR je 1 Mio. Token):
+- DeepL API Developer (Free) | Hosting: EWR (DeepL-eigene Rechenzentren Island/Schweden); Self-Serve-Verträge ab 13.02.2025 ggf. auch AWS | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://www.deepl.com/en/pro#api | Anmerkung: Kostenloser Testplan: 1 Mio. Zeichen insgesamt, 1 API-Key, ohne Speech-to-Text. Abrechnung pro Zeichen, nicht pro Token
+- DeepL API Growth (Übersetzung, Write, Voice) | Hosting: EWR (Island/Schweden); AWS USA/Japan nur auf Kundenwunsch | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://www.deepl.com/en/pro#api | Anmerkung: Zeichenbasiert: 23,80 €/Monat (jährlich, inkl. MwSt., DE-Preisansicht 20.08.2026) + Verbrauch oberhalb der Inklusivmengen (12 Mio. Zeichen/Jahr, 120 h Speech-to-Text/Jahr); Pay-as-you-go-Satz je 1M Zeichen öffentlich nicht beziffert, erst im Checkout sichtbar
+- DeepL API Enterprise | Hosting: EWR (Island/Schweden); AWS USA/Japan auf Kundenwunsch | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://www.deepl.com/en/pro#api | Anmerkung: Individuelle Preise mit vorab gekauften Kontingenten; Admin-API, Audit-Logs 2 Jahre
+- DeepL Pro Translator (Individual/Team/Business, ohne API) | Hosting: EWR (Island/Schweden) | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://www.deepl.com/en/pro | Anmerkung: Nutzerbasierte Abos (DE, inkl. MwSt., jährlich): Individual 7,49 €, Team 24,99 €, Business 49,99 € je Nutzer/Monat; als Kontext aufgenommen, da DSB-relevant
+
+### EUrouter
+
+URL: https://belegbar.eu/anbieter/eurouter/ | Rohdaten: https://belegbar.eu/anbieter/eurouter/daten.json
+Kategorie: Gateway / Router | Sitz: Amsterdam, Niederlande (NL) | Gegründet: unbelegt
+Rechtsraum: Niederlande — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
+Mutterkonzern: keiner bekannt | US-Eigentümerstruktur: nein
+Beleg-Quote: 58 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-08-19
+
+Niederländisches AI-Gateway mit EU-Datenresidenz, das zu 15 Upstream-Providern routet — überwiegend europäische Hoster (Scaleway, OVHcloud, IONOS, Mistral AI, Nebius, GreenPT u.a.), aber auch AWS Bedrock und Microsoft Foundry (US-Hyperscaler in EU-Regionen) sind wählbar.
+
+Vertrag und Datenschutz:
+- AVV / Auftragsverarbeitungsvertrag: https://eurouter.ai/dpa [Status: belegt] | Quelle: https://eurouter.ai/dpa | Anmerkung: Vollständiges DPA (Stand Mai 2026), signierbare Version zum Download; Verarbeitung ausschließlich im EWR zugesichert
+- Subprozessoren-Liste: https://eurouter.ai/providers [Status: belegt] | Quelle: https://eurouter.ai/dpa | Anmerkung: Subprozessorliste im DPA (16 AI-Provider, Scaleway-Infrastruktur, Sentry, PostHog EU u.a.); 2 von 15 Upstream-Providern sind US-Firmen (AWS Bedrock, Microsoft Foundry)
+- Kein Training mit Kundendaten: ja [Status: belegt] | Quelle: https://eurouter.ai/dpa | Anmerkung: DPA: 'EUrouter does not use Customer API Data to train, fine-tune or improve AI models' — standardmäßig ausgeschlossen
+- Zero Data Retention: ja [Status: belegt] | Quelle: https://eurouter.ai/dpa | Anmerkung: Zero-Retention als Standard für Request-/Response-Inhalte; nur Metadaten (Timestamps, Token-Counts) für Abrechnung
+
+Zertifikate:
+- ISO 27001 [normiert: iso-27001] [Status: unbelegt] | Anmerkung: Weder auf Website noch im DPA erwähnt
+- SOC 2 [normiert: soc-2] [Status: unbelegt] | Anmerkung: Nicht erwähnt
+
+AI Act:
+- Transparenz-/Compliance-Angaben zum EU AI Act [Status: unbelegt] | Anmerkung: Keine AI-Act-spezifischen Angaben auf Website oder Preisseite gefunden
+
+Modelle und Preise (EUR je 1 Mio. Token):
+- DeepSeek V3.2 | Hosting: EU (EU-West) | Input: 0.3 | Output: 0.5 [Status: belegt] | Quelle: https://eurouter.ai/models | Anmerkung: Preis in USD
+- Kimi K2.6 | Hosting: EU (EU-West) | Input: 0.8 | Output: 3.5 [Status: belegt] | Quelle: https://eurouter.ai/models | Anmerkung: Preis in USD
+- Gemma 4 | Hosting: EU (EU-West) | Input: 0.1 | Output: 0.5 [Status: belegt] | Quelle: https://eurouter.ai/models | Anmerkung: Preis in USD
+- Claude (Opus 5 / Sonnet / Haiku) | Hosting: EU (via AWS Bedrock / Microsoft Foundry EU-Regionen) | Input: unbelegt | Output: unbelegt [Status: beansprucht] | Quelle: https://eurouter.ai/models | Anmerkung: Modell gelistet, konkrete Preise in der öffentlichen Tabelle nicht extrahierbar
+- Mistral Large 3 | Hosting: EU (u.a. Mistral AI, Frankreich) | Input: unbelegt | Output: unbelegt [Status: beansprucht] | Quelle: https://eurouter.ai/models | Anmerkung: Modell gelistet, konkrete Preise in der öffentlichen Tabelle nicht extrahierbar
+
+### Exoscale
+
+URL: https://belegbar.eu/anbieter/exoscale/ | Rohdaten: https://belegbar.eu/anbieter/exoscale/daten.json
+Kategorie: Cloud / GPU | Sitz: Lausanne, Schweiz (CH) | Gegründet: 2011
+Rechtsraum: Schweiz — Drittland mit Angemessenheitsbeschluss der EU-Kommission — Übermittlung ohne zusätzliche Garantien zulässig (Art. 45 DSGVO). [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
+Mutterkonzern: A1 Digital / A1 Telekom Austria Group (Mehrheitseigner: América Móvil, MX) | US-Eigentümerstruktur: nein
+Beleg-Quote: 67 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-08-19
+
+Schweizer Cloud-Anbieter (Akenes SA, Lausanne) im Besitz von A1 Digital/A1 Telekom Austria Group (Mehrheitseigner: América Móvil, MX) mit rein europäischen Zonen; KI-Angebot ist heute GPU-/Dedicated-Inference-Infrastruktur, die tokenbasierte Managed Inference ist angekündigt.
+
+Vertrag und Datenschutz:
+- AVV / Auftragsverarbeitungsvertrag: https://www.exoscale.com/dpa/ [Status: belegt] | Quelle: https://www.exoscale.com/dpa/ | Anmerkung: DSGVO-konformes DPA der Akenes SA; Datentransfers auf CH/EU/EWR bzw. Angemessenheitsländer beschränkt, Löschung binnen 10 Werktagen nach Vertragsende
+- Subprozessoren-Liste: https://www.exoscale.com/dpa/ [Status: belegt] | Quelle: https://www.exoscale.com/dpa/ | Anmerkung: Keine separate Liste; genehmigte Subprozessoren sind Bestandteil des DPA (aktuell Aiven Oy, Helsinki, für DBaaS); Änderungen mit 30 Tagen Vorankündigung und Widerspruchsrecht
+- Kein Training mit Kundendaten: kein Wert hinterlegt [Status: unbelegt] | Anmerkung: Als IaaS-Anbieter betreibt Exoscale keine eigenen Modelle; keine dokumentierte Trainings-Aussage auffindbar (Managed Inference noch nicht gestartet)
+- Zero Data Retention: kein Wert hinterlegt [Status: unbelegt] | Anmerkung: Keine ZDR-Zusage dokumentiert; Dedicated Inference wirbt mit dedizierter Umgebung ('dedicated down to logs and GPU memory'), das ersetzt aber keine Retention-Policy
+
+Zertifikate:
+- ISO 27001 [normiert: iso-27001] [Status: belegt] | Quelle: https://community.exoscale.com/platform/compliance/ | Anmerkung: ISO/IEC 27001:2022, zertifiziert seit 2018; Reports im Compliance Center (NDA)
+- SOC 2 Type II [normiert: soc-2] [Status: belegt] | Quelle: https://community.exoscale.com/platform/compliance/
+- BSI C5 [normiert: bsi-c5] [Status: belegt] | Quelle: https://community.exoscale.com/platform/compliance/ | Anmerkung: C5:2020 Typ 2
+- TISAX Level 2 [normiert: tisax] [Status: belegt] | Quelle: https://community.exoscale.com/platform/compliance/ | Anmerkung: Zusätzlich HDS (Scope 1–4 und 6) und CSA STAR
+
+AI Act:
+- GPAI Code of Practice unterzeichnet [Status: unbelegt] | Anmerkung: Kein GPAI-Modellanbieter (reine Infrastruktur); eigene AI-Act-Dokumentation nicht auffindbar
+
+Modelle und Preise (EUR je 1 Mio. Token):
+- gpt-oss-120b (Dedicated Inference) | Hosting: Wien (AT), Genf (CH), Frankfurt (DE), Zagreb (HR) | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://www.exoscale.com/ai-cloud-infrastructure/dedicated-inference/ | Anmerkung: Kein Tokenpreis: Abrechnung pro GPU-Sekunde (z.B. A5000 1,34 €/h); beliebige Hugging-Face-Modelle deploybar
+- Qwen3-Coder-480B (Dedicated Inference) | Hosting: Wien (AT), Genf (CH), Frankfurt (DE), Zagreb (HR) | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://www.exoscale.com/ai-cloud-infrastructure/dedicated-inference/ | Anmerkung: Kein Tokenpreis, GPU-Sekundenabrechnung
+- Managed Inference (Modellkatalog) | Hosting: EU und Schweiz (geplant) | Input: unbelegt | Output: unbelegt [Status: beansprucht] | Quelle: https://www.exoscale.com/ai-cloud-infrastructure/managed-inference/ | Anmerkung: Pay-per-Token-Dienst angekündigt (Warteliste); Preise werden erst zum Launch veröffentlicht
+
+### Gcore
+
+URL: https://belegbar.eu/anbieter/gcore/ | Rohdaten: https://belegbar.eu/anbieter/gcore/daten.json
+Kategorie: Inference-API | Sitz: Contern, Luxemburg (LU) | Gegründet: 2014
+Rechtsraum: Luxemburg — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
+Mutterkonzern: keiner bekannt | US-Eigentümerstruktur: unbelegt
+Beleg-Quote: 38 % | vollständig geprüft: 2026-08-20 | jüngstes Prüfdatum: 2026-08-20
+
+Luxemburger Edge-/Cloud-Infrastrukturanbieter (G-Core Labs S.A., gegründet 2014), dessen Produkt 'Everywhere Inference' Open-Source-Modelle auf eigener NVIDIA-GPU-Infrastruktur mit regionaler Workload-Steuerung hostet. Abgerechnet wird nach GPU-Compute-Zeit (pro Sekunde/Minute), nicht pro Token — ein öffentliches Token-Preisblatt existiert nicht.
+
+Vertrag und Datenschutz:
+- AVV / Auftragsverarbeitungsvertrag: https://gcore.com/legal [Status: belegt] | Quelle: https://gcore.com/legal | Anmerkung: MSA nennt das Data Processing Agreement als 'integral and essential part' des Vertrags; Drittlandtransfers über EU-Standardvertragsklauseln (MSA §9.5.3). DPA-Volltext liegt in einem Tab des Legal-Portals, als Einzeldokument nicht direkt verlinkbar
+- Subprozessoren-Liste: kein Wert hinterlegt [Status: beansprucht] | Quelle: https://gcore.com/legal | Anmerkung: Keine dedizierte Subprozessoren-Liste fürs Inference-Produkt. MSA §9.4 nennt Dienstleister (HubSpot, Google, Microsoft, Adyen, Slack, Zendesk) im Controller-Kontext — ausdrücklich 'not exhaustive', Details nur auf Anfrage an privacy@gcore.lu
+- Kein Training mit Kundendaten: kein Wert hinterlegt [Status: unbelegt] | Anmerkung: Keine explizite vertragliche Aussage gefunden, dass Kundendaten nicht für Modelltraining genutzt werden; die Architektur (dedizierte Deployments) legt es nahe, ist aber kein prüfbares Dokument
+- Zero Data Retention: kein Wert hinterlegt [Status: unbelegt] | Anmerkung: Keine ZDR-Zusage gefunden. MSA regelt nur Löschung von Customer Content nach Vertragsende (Standard 48 Stunden)
+
+Zertifikate:
+- ISO/IEC 27001 [normiert: iso-27001] [Status: beansprucht] | Quelle: https://gcore.com/infrastructure | Anmerkung: Eigenaussage über unabhängiges Audit; Zertifikat selbst nicht zum Download angeboten
+- PCI DSS [normiert: pci-dss] [Status: beansprucht] | Quelle: https://gcore.com/infrastructure | Anmerkung: Eigenaussage (jährliches QSA-Audit); Attest nicht abrufbar
+- SOC 2 [normiert: soc-2] [Status: unbelegt] | Anmerkung: Keine eigene SOC-2-Attestierung auffindbar
+
+AI Act:
+- GPAI-Modellanbieter-Pflichten (Art. 53 ff.) [Status: unbelegt] | Anmerkung: Gcore hostet fremde Open-Source-Modelle als Infrastruktur-Anbieter, tritt nicht als GPAI-Modellanbieter auf; keine eigene AI-Act-Compliance-Dokumentation gefunden
+- Unterstützung der Kunden-Compliance (Datenlokalisierung) [Status: beansprucht] | Quelle: https://gcore.com/blog/ai-regulations-2024-eu | Anmerkung: Marketing-Positionierung: regionale Workload-Steuerung und EU-Rechenzentren als Compliance-Mittel; zudem 'Sovereign Inference'-Pilot mit Orange Business. Keine vertragliche Zusicherung gefunden
+
+Modelle und Preise (EUR je 1 Mio. Token):
+- Whisper Large v3 Turbo (dediziertes Deployment) | Hosting: wählbar (Multi-Region, bis zu 6 Regionen pro Deployment) | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://gcore.com/everywhere-inference/whisper-large-v3-turbo | Anmerkung: Feste monatliche GPU-Miete statt Minutenpreis; konkrete Raten nicht öffentlich
+- LLaMA Pro 8B | Hosting: Edge-Inferenz-Netz (laut Pressemitteilung 180+ Standorte) | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://gcore.com/press-releases/gcore-unveils-inference-at-the-edge-bringing-ai-applications-closer-to-end-users-for-seamless-real-time-performance | Anmerkung: Abrechnung nach genutzten Ressourcen (docs.gcore.com/edge-ai/billing.md: 'charged per minute'), keine Token-Preise
+- Mistral 7B | Hosting: Edge-Inferenz-Netz (laut Pressemitteilung 180+ Standorte) | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://gcore.com/press-releases/gcore-unveils-inference-at-the-edge-bringing-ai-applications-closer-to-end-users-for-seamless-real-time-performance | Anmerkung: Keine öffentlichen Token-Preise
+- Stable Diffusion XL | Hosting: Edge-Inferenz-Netz (laut Pressemitteilung 180+ Standorte) | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://gcore.com/press-releases/gcore-unveils-inference-at-the-edge-bringing-ai-applications-closer-to-end-users-for-seamless-real-time-performance | Anmerkung: Bildmodell, Token-Preislogik nicht anwendbar
+
+### GreenPT
+
+URL: https://belegbar.eu/anbieter/greenpt/ | Rohdaten: https://belegbar.eu/anbieter/greenpt/daten.json
+Kategorie: Inference-API | Sitz: Utrecht, Niederlande (NL) | Gegründet: unbelegt
+Rechtsraum: Niederlande — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
+Mutterkonzern: keiner bekannt | US-Eigentümerstruktur: nein
+Beleg-Quote: 80 % | vollständig geprüft: 2026-08-20 | jüngstes Prüfdatum: 2026-08-20
+
+Niederländischer Anbieter (GreenPT BV, Utrecht) einer OpenAI-kompatiblen, EU-gehosteten AI-API mit Fokus auf Nachhaltigkeit (100 % erneuerbare Energie, PUE 1.25) — ausschließlich selbst gehostete Open-Weight-Modelle bei Scaleway (Paris) und Verda (Helsinki), ohne externe API-Calls.
+
+Vertrag und Datenschutz:
+- AVV / Auftragsverarbeitungsvertrag: kein Wert hinterlegt [Status: belegt] | Quelle: https://greenpt.com/terms-of-service | Anmerkung: DPA (v1.0) laut öffentlicher ToS per Verweis Vertragsbestandteil ('In the event of conflict, the DPA prevails'); signiertes Dokument auf Anfrage, nicht öffentlich abrufbar
+- Subprozessoren-Liste: https://greenpt.com/privacy-policy [Status: belegt] | Quelle: https://greenpt.com/privacy-policy | Anmerkung: Tabelle in der Privacy Policy: Scaleway SAS (FR), Inceptron/Tensorix/Melious (FI), Mollie B.V. (NL, Payment); einziger US-Subprozessor ist Brave Search — nur für die Websuche-Funktion search.greenpt.ai
+- Kein Training mit Kundendaten: ja [Status: belegt] | Quelle: https://greenpt.com/privacy-policy | Anmerkung: 'No training on your data' — Training auf Kundendaten findet generell nicht statt. Hinweis: ToS enthalten eine Lizenz 'to operate and improve the Services'; Details regelt der DPA
+- Zero Data Retention: ja [Status: belegt] | Quelle: https://greenpt.com/privacy-policy | Anmerkung: Für die API: 'API payloads and audio: No persistent storage (processed in-memory only)'. Chat-Verläufe im Chat-Produkt werden dagegen bis Löschung bzw. max. 12 Monate gespeichert
+
+Zertifikate:
+- ISO 27001 [normiert: iso-27001] [Status: beansprucht] | Quelle: https://greenpt.com/sustainability | Anmerkung: Footer-Badge; Sustainability-Seite präzisiert, dass sich die Zertifizierung auf die genutzten Rechenzentren (Scaleway, Verda) bezieht — kein eigenes GreenPT-Zertifikat auffindbar
+- ISO 50001 [normiert: iso-50001] [Status: beansprucht] | Quelle: https://greenpt.com/sustainability | Anmerkung: Energiemanagement der genutzten Rechenzentren, nicht von GreenPT BV selbst; kein Zertifikat verlinkt
+- Nachhaltigkeits-Kennzahlen (PUE 1.25, WUE 0.25, 100 % erneuerbar) [Status: belegt] | Quelle: https://greenpt.com/sustainability | Anmerkung: Mit Primärquellen belegt (Scaleway Impact Report 2025, Verda Trust Center); GreenPT räumt selbst ein, dass das Training der genutzten Modelle nicht verifizierbar ist
+
+AI Act:
+- Transparenz über eingesetzte Modelle (Model Cards) [Status: belegt] | Quelle: https://docs.greenpt.ai/model-cards | Anmerkung: Öffentliche Model Cards mit Upstream-Modell, Anbieter, Kontext und Preisen; ausschließlich Open-Weight-Modelle
+- Explizite EU-AI-Act-Konformitätsangaben [Status: unbelegt] | Anmerkung: Keine AI-Act-spezifischen Aussagen auf Website, in ToS oder Privacy Policy gefunden; nur GDPR-Compliance wird benannt
+
+Modelle und Preise (EUR je 1 Mio. Token):
+- green-r (GPT-OSS 120B) | Hosting: EU (Scaleway, Paris, Frankreich) | Input: 0.35 | Output: 0.95 [Status: belegt] | Quelle: https://docs.greenpt.ai/model-cards | Anmerkung: Reasoning-Modell, 128k Kontext
+- mistral-small-3.2-24b-instruct-2506 | Hosting: EU (Scaleway, Paris, Frankreich) | Input: 0.2 | Output: 0.4 [Status: belegt] | Quelle: https://docs.greenpt.ai/model-cards | Anmerkung: 128k Kontext
+- gemma4 | Hosting: EU (Scaleway, Paris, Frankreich) | Input: 0.5 | Output: 1.5 [Status: belegt] | Quelle: https://docs.greenpt.ai/model-cards | Anmerkung: 256k Kontext, selbst gehostet
+- glm-5.2 | Hosting: EU (Verda, Helsinki, Finnland) | Input: 1.1 | Output: 4.4 [Status: belegt] | Quelle: https://docs.greenpt.ai/model-cards | Anmerkung: Coding-Modell, 1M Kontext; Coding-Modelle laufen laut Sustainability-Seite in Helsinki
+- kimi-k3 | Hosting: EU (Verda, Helsinki, Finnland) | Input: 3.3 | Output: 16.5 [Status: belegt] | Quelle: https://docs.greenpt.ai/model-cards | Anmerkung: Moonshot AI, 1M Kontext
+- green-embedding | Hosting: EU (Scaleway, Paris, Frankreich) | Input: 0.2 | Output: unbelegt [Status: belegt] | Quelle: https://docs.greenpt.ai/model-cards | Anmerkung: Embedding-Modell, 32k Kontext, keine Output-Kosten
+
+### Hetzner
+
+URL: https://belegbar.eu/anbieter/hetzner/ | Rohdaten: https://belegbar.eu/anbieter/hetzner/daten.json
+Kategorie: Cloud / GPU | Sitz: Gunzenhausen, Deutschland (DE) | Gegründet: 1997
+Rechtsraum: Deutschland — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
+Mutterkonzern: keiner bekannt | US-Eigentümerstruktur: nein
+Beleg-Quote: 57 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-08-19
+
+Deutscher Hosting- und Cloud-Anbieter, dessen Kerngeschäft dedizierte GPU-Server ist und der zusätzlich eine ausdrücklich experimentelle, derzeit kostenlose OpenAI-kompatible Inference-API ohne SLA und ohne Produktionsfreigabe betreibt.
+
+Vertrag und Datenschutz:
+- AVV / Auftragsverarbeitungsvertrag: https://www.hetzner.com/AV/DPA_en.pdf [Status: belegt] | Quelle: https://www.hetzner.com/AV/DPA_en.pdf | Anmerkung: DPA-PDF nach Art. 28 DSGVO (Abschluss über Kundenkonto); TOMs öffentlich, extern geprüft (TÜV Rheinland). Ob die experimentelle Inference-API vom AVV erfasst ist, ist nicht dokumentiert.
+- Subprozessoren-Liste: https://www.hetzner.com/AV/subunternehmer.pdf [Status: belegt] | Quelle: https://www.hetzner.com/AV/subunternehmer.pdf | Anmerkung: Öffentliche Subunternehmerliste; enthält auch Nicht-EU-Standorte (Finnland, USA, Singapur) für Colocation/Support.
+- Kein Training mit Kundendaten: kein Wert hinterlegt [Status: unbelegt] | Anmerkung: Inference-Doku macht keine Angabe zu Training mit Prompts; Hetzner trainiert keine eigenen Modelle, eine explizite Zusicherung fehlt aber.
+- Zero Data Retention: kein Wert hinterlegt [Status: unbelegt] | Anmerkung: Keine Angabe zur Speicherung/Retention von Prompts in der Inference-Dokumentation.
+
+Zertifikate:
+- ISO 27001 [normiert: iso-27001] [Status: belegt] | Quelle: https://www.hetzner.com/unternehmen/zertifizierung/ | Anmerkung: ISO/IEC 27001:2022 (SOCOTEC), Scope: alle Hosting-Services und Rechenzentren. BSI C5, SOC 2, TISAX werden nicht genannt.
+
+AI Act:
+- Art.-53-Transparenzdokumentation [Status: unbelegt] | Anmerkung: Hetzner serviert ein Fremdmodell (Qwen, Apache 2.0); Art.-53-Pflichten liegen beim Modellhersteller. Keine AI-Act-Dokumentation gefunden.
+
+Modelle und Preise (EUR je 1 Mio. Token):
+- Qwen3.6-35B-A3B-FP8 (experimentell) | Hosting: unbelegt | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.hetzner.com/general/company-and-policy/experiments/inference/ | Anmerkung: Einziges Modell der experimentellen Inference-API; kostenlos, 'as is', ohne Verfügbarkeitsgarantie; RZ-Standort der Instanz nicht spezifiziert (Hetzner-RZ: Nürnberg, Falkenstein, Helsinki).
+
+### Infomaniak
+
+URL: https://belegbar.eu/anbieter/infomaniak/ | Rohdaten: https://belegbar.eu/anbieter/infomaniak/daten.json
+Kategorie: Inference-API | Sitz: Genf (Les Acacias), Schweiz (CH) | Gegründet: 1994
+Rechtsraum: Schweiz — Drittland mit Angemessenheitsbeschluss der EU-Kommission — Übermittlung ohne zusätzliche Garantien zulässig (Art. 45 DSGVO). [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
+Mutterkonzern: keiner bekannt | US-Eigentümerstruktur: nein
+Beleg-Quote: 67 % | vollständig geprüft: 2026-08-20 | jüngstes Prüfdatum: 2026-08-20
+
+Unabhängiger Schweizer Hoster aus Genf (Infomaniak Network SA, gegründet 1994), der unter 'AI Services' eine OpenAI-kompatible Inferenz-API für Open-Source-Modelle anbietet — Betrieb ausschließlich in eigenen Schweizer Rechenzentren mit erneuerbarer Energie, Positionierung als souveräne Alternative zu US-Anbietern.
+
+Vertrag und Datenschutz:
+- AVV / Auftragsverarbeitungsvertrag: https://www.infomaniak.com/documents/privacy/DPA/Data_Processing_Agreement_(DPA).pdf [Status: belegt] | Quelle: https://www.infomaniak.com/documents/privacy/DPA/Data_Processing_Agreement_(DPA).pdf | Anmerkung: Öffentliches AVV-PDF nach Art. 28 DSGVO und Art. 9 Schweizer DSG; Schweizer Recht, Gerichtsstand Genf; Art. 13: keine Übermittlung außerhalb EU/EWR ohne vorherige schriftliche Zustimmung. Generischer Hosting-AVV, nicht KI-spezifisch
+- Subprozessoren-Liste: kein Wert hinterlegt [Status: unbelegt] | Quelle: https://www.infomaniak.com/documents/privacy/DPA/Data_Processing_Agreement_(DPA).pdf | Anmerkung: Keine öffentliche Subprozessoren-Liste; AVV Art. 5 regelt Vorabinformation und 30 Tage Widerspruchsfrist. Datenschutzseite verspricht Speicherung 'ausschließlich in eigenen Rechenzentren in der Schweiz'
+- Kein Training mit Kundendaten: ja [Status: beansprucht] | Quelle: https://www.infomaniak.com/en/hosting/ai-services | Anmerkung: Produktseite: 'Your queries are neither recorded nor used to train models or improve our services' — Marketing-Aussage, im AVV nicht KI-spezifisch verankert
+- Zero Data Retention: ja [Status: beansprucht] | Quelle: https://www.infomaniak.com/en/hosting/ai-services | Anmerkung: Produktseite: 'No queries are stored' — kein separates, prüfbares Retention-Dokument für die AI-API gefunden
+
+Zertifikate:
+- ISO 27001:2022 [normiert: iso-27001] [Status: belegt] | Quelle: https://www.infomaniak.com/en/certifications | Anmerkung: Seit Juni 2018; Zertifikat als Download angeboten
+- ISO 9001 / 14001 / 50001 [normiert: iso-9001, iso-14001, iso-50001] [Status: belegt] | Quelle: https://www.infomaniak.com/en/certifications | Anmerkung: Qualitäts-, Umwelt- und Energiemanagement
+- B Corp [normiert: b-corp] [Status: belegt] | Quelle: https://www.infomaniak.com/en/certifications | Anmerkung: Seit 2025
+- Swiss-Hosting-Label [Status: belegt] | Quelle: https://www.infomaniak.com/en/certifications | Anmerkung: Bestätigt Sitz und Hosting der Kundendaten in Schweizer Rechenzentren unter eigener Kontrolle
+- SOC 2 [normiert: soc-2] [Status: unbelegt] | Anmerkung: Kein SOC-2-Bericht auf der Zertifikatsseite gefunden
+
+AI Act:
+- GPAI-Transparenzpflichten (Art. 53 AI Act) [Status: unbelegt] | Anmerkung: CH ist nicht EU, der AI Act gilt aber, soweit die API im EU-Markt angeboten wird. Infomaniak ist reiner Inferenz-Anbieter fremder Open-Source-Modelle, nicht Modellhersteller; keine AI-Act-spezifische Selbsteinordnung auffindbar
+- Öffentliche AI-Act-Compliance-Aussage [Status: unbelegt] | Anmerkung: Beworben wird Konformität zu DSGVO und Schweizer DSG ('full compliance with the FADP and GDPR'); DSGVO-Konformität ist nicht mit AI-Act-Konformität gleichzusetzen
+
+Modelle und Preise (EUR je 1 Mio. Token):
+- Qwen3.5-397B-A17B-FP8 | Hosting: Schweiz (eigene Rechenzentren) | Input: 0.8 | Output: 3.6 [Status: belegt] | Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices | Anmerkung: Preis in CHF, exkl. MwSt.; 200k Kontext, multimodal, Beta
+- Qwen3.5-122B-A10B-FP8 | Hosting: Schweiz (eigene Rechenzentren) | Input: 0.4 | Output: 3.2 [Status: belegt] | Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices | Anmerkung: Preis in CHF, exkl. MwSt.; 200k Kontext
+- Kimi-K2.6 | Hosting: Schweiz (eigene Rechenzentren) | Input: 0.6 | Output: 3 [Status: belegt] | Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices | Anmerkung: Preis in CHF, exkl. MwSt.; Coding-Modell, 256k Kontext, Beta
+- Mistral-Small-4-119B-2603 | Hosting: Schweiz (eigene Rechenzentren) | Input: 0.2 | Output: 0.75 [Status: belegt] | Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices | Anmerkung: Preis in CHF, exkl. MwSt.; 256k Kontext
+- Apertus-v1.5-70B (swiss-ai) | Hosting: Schweiz (eigene Rechenzentren) | Input: 0.7 | Output: 2.5 [Status: belegt] | Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices | Anmerkung: Preis in CHF, exkl. MwSt.; Schweizer Open-Source-Modell (ETH/EPFL-Umfeld), offene Gewichte und Trainingsdaten, Beta
+- gemma-4-31B-it | Hosting: Schweiz (eigene Rechenzentren) | Input: 0.2 | Output: 0.4 [Status: belegt] | Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices | Anmerkung: Preis in CHF, exkl. MwSt.; 100k Kontext
+- Whisper V3 (Audio-Transkription) | Hosting: Schweiz (eigene Rechenzentren) | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices | Anmerkung: Abrechnung pro Minute Generierungszeit (CHF 0.006/min), nicht pro Token; zudem Embedding-/Reranker-Modelle und Bildgenerierung (Flux schnell) im Angebot
+
+### IONOS (AI Model Hub)
+
+URL: https://belegbar.eu/anbieter/ionos/ | Rohdaten: https://belegbar.eu/anbieter/ionos/daten.json
+Kategorie: Inference-API | Sitz: Montabaur, Deutschland (DE) | Gegründet: 1988
+Rechtsraum: Deutschland — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
+Mutterkonzern: IONOS Group SE (Mehrheitseigner: United Internet AG) | US-Eigentümerstruktur: nein
+Beleg-Quote: 93 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-08-19
+
+Deutscher Cloud-Anbieter, der über den AI Model Hub eine OpenAI-kompatible Inferenz-API für offene LLMs (Llama, Mistral, Qwen, gpt-oss) mit Datenverarbeitung ausschließlich in Deutschland anbietet.
+
+Vertrag und Datenschutz:
+- AVV / Auftragsverarbeitungsvertrag: https://www.ionos.de/terms-gtc/avv/ [Status: belegt] | Quelle: https://www.ionos.de/terms-gtc/avv/ | Anmerkung: AVV nach Art. 28 Abs. 3 DSGVO; seit 19.07.2022 automatisch Bestandteil der IONOS AGB, kein separater Abschluss nötig.
+- Subprozessoren-Liste: https://www.ionos.de/terms-gtc/fileadmin/pdf/terms-gtc/DE/AVV/AVV_Liste_Subunternehmen_v4_5_DE.pdf [Status: belegt] | Quelle: https://www.ionos.de/terms-gtc/avv/ | Anmerkung: Anhang 2 zum AVV ('Liste Subunternehmen', v4.5), direkt aus dem offiziellen AVV verlinkt; PDF abgerufen und existent.
+- Kein Training mit Kundendaten: ja [Status: belegt] | Quelle: https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling | Anmerkung: Doku wörtlich: 'Your interactions remain private, free from logging, recording, or reuse for model training.' Kein Opt-out nötig.
+- Zero Data Retention: ja [Status: belegt] | Quelle: https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling | Anmerkung: 'AI Model Hub operates as a stateless service, discarding user prompts and outputs at the end of each session.' Einschränkung: Document Collections (RAG-Vektor-DB) werden persistent in Berlin gespeichert.
+
+Zertifikate:
+- ISO 27001 [normiert: iso-27001] [Status: belegt] | Quelle: https://cloud.ionos.de/zertifikate | Anmerkung: TÜV NORD für die IONOS Gruppe; zusätzlich ISO 27001 auf Basis IT-Grundschutz des BSI (BSI-IGZ-0730-2025, gültig bis 13.09.2028).
+- BSI C5 [normiert: bsi-c5] [Status: belegt] | Quelle: https://cloud.ionos.de/zertifikate | Anmerkung: C5:2020 Typ-1-Testat vom 28.05.2026, geprüft durch PwC nach ISAE 3000; bezieht sich auf IONOS-Cloud-Services, nicht explizit auf den AI Model Hub.
+- ISO 50001 [normiert: iso-50001] [Status: belegt] | Quelle: https://cloud.ionos.de/zertifikate | Anmerkung: Energiemanagement aller IONOS-Cloud-Rechenzentren.
+
+AI Act:
+- EU-AI-Act-Rollen- und Transparenzdokumentation (Distributor/Provider) [Status: belegt] | Quelle: https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/eu-ai-act | Anmerkung: Eigene Doku-Seite: IONOS als Distributor für unveränderte Open-Source-Modelle und AI Provider für selbst quantisierte Modelle, mit Transparenzpflichten; Kunden werden als Deployer eingeordnet.
+- GPAI Code of Practice unterzeichnet [Status: unbelegt] | Anmerkung: Keine Erwähnung gefunden; als Hoster/Distributor fremder Modelle kein typischer Unterzeichner.
+
+Modelle und Preise (EUR je 1 Mio. Token):
+- Llama 3.3 70B Instruct | Hosting: Deutschland | Input: 0.65 | Output: 0.65 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
+- Llama 3.1 8B Instruct | Hosting: Deutschland | Input: 0.15 | Output: 0.15 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
+- Mistral Small 24B Instruct | Hosting: Deutschland | Input: 0.1 | Output: 0.3 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
+- Mistral Nemo Instruct | Hosting: Deutschland | Input: 0.15 | Output: 0.15 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
+- gpt-oss-120b | Hosting: Deutschland | Input: 0.15 | Output: 0.65 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
+- Qwen3.5-397B-A17B | Hosting: Deutschland | Input: 0.6 | Output: 3.6 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
+
+### Lyceum Technology
+
+URL: https://belegbar.eu/anbieter/lyceum/ | Rohdaten: https://belegbar.eu/anbieter/lyceum/daten.json
+Kategorie: Inference-API | Sitz: Berlin, Deutschland (DE) | Gegründet: 2025
+Rechtsraum: Deutschland — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
+Mutterkonzern: keiner bekannt | US-Eigentümerstruktur: nein
+Beleg-Quote: 46 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-08-19
+
+Berliner GPU-Cloud-Startup (gegründet 2025, 10,3 Mio. € Pre-Seed) mit Serverless-Inference auf 30+ Open-Source-Modellen in EU-Rechenzentren — transparent bei Zertifikaten: hält nach eigener Aussage aktuell weder C5 noch ISO 27001 noch SOC 2.
+
+Vertrag und Datenschutz:
+- AVV / Auftragsverarbeitungsvertrag: https://trust.lyceum.technology/ [Status: belegt] | Quelle: https://trust.lyceum.technology/ | Anmerkung: DPA als Ressource im Trust Center gelistet (neben TOMs); direkter Dokumentenzugriff ggf. erst nach Anfrage
+- Subprozessoren-Liste: kein Wert hinterlegt [Status: beansprucht] | Quelle: https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/ | Anmerkung: Keine öffentliche Liste; 'DPA with named sub-processors available on request'
+- Kein Training mit Kundendaten: ja [Status: beansprucht] | Quelle: https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/ | Anmerkung: Eigenaussage 'no training on customer data'; vertragliches Primärdokument nicht öffentlich
+- Zero Data Retention: kein Wert hinterlegt [Status: unbelegt] | Anmerkung: Keine ZDR-Zusage für Prompts/Outputs auffindbar
+
+Zertifikate:
+- BSI C5 [normiert: bsi-c5] [Status: unbelegt] | Quelle: https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/ | Anmerkung: Eigene Aussage: 'Lyceum holds no C5 attestation … today, and says so plainly' — bemerkenswert ehrlich, aber nicht gehalten
+- ISO 27001 [normiert: iso-27001] [Status: unbelegt] | Quelle: https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/ | Anmerkung: Laut eigener Aussage aktuell nicht zertifiziert; Trust Center listet eine 'ISO Certification'-Ressource (vermutlich RZ-Zertifikat) — Widerspruch vor Vertragsschluss klären
+- SOC 2 [normiert: soc-2] [Status: unbelegt] | Quelle: https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/ | Anmerkung: Laut eigener Aussage aktuell nicht zertifiziert
+
+AI Act:
+- GPAI Code of Practice unterzeichnet [Status: unbelegt] | Anmerkung: Kein Nachweis; hostet Open-Source-Fremdmodelle
+
+Modelle und Preise (EUR je 1 Mio. Token):
+- DeepSeek V4 Pro | Hosting: EU (u.a. Frankreich, Deutschland, Dänemark) | Input: 1.75 | Output: 3.5 [Status: belegt] | Quelle: https://lyceum.technology/products/inference/models/ | Anmerkung: Preis in USD
+- DeepSeek V3.2 | Hosting: EU (u.a. Frankreich, Deutschland, Dänemark) | Input: 0.3 | Output: 0.45 [Status: belegt] | Quelle: https://lyceum.technology/products/inference/models/ | Anmerkung: Preis in USD
+- Qwen3 235B A22B | Hosting: EU (u.a. Frankreich, Deutschland, Dänemark) | Input: 0.2 | Output: 0.6 [Status: belegt] | Quelle: https://lyceum.technology/products/inference/models/ | Anmerkung: Preis in USD
+- Kimi K2.6 | Hosting: EU (u.a. Frankreich, Deutschland, Dänemark) | Input: 1 | Output: 4 [Status: belegt] | Quelle: https://lyceum.technology/products/inference/models/ | Anmerkung: Preis in USD
+- gpt-oss 120B | Hosting: EU (u.a. Frankreich, Deutschland, Dänemark) | Input: 0.15 | Output: 0.6 [Status: belegt] | Quelle: https://lyceum.technology/products/inference/models/ | Anmerkung: Preis in USD
+
+### Mistral AI (La Plateforme)
+
+URL: https://belegbar.eu/anbieter/mistral/ | Rohdaten: https://belegbar.eu/anbieter/mistral/daten.json
+Kategorie: Modell-Anbieter | Sitz: Paris, Frankreich (FR) | Gegründet: 2023
+Rechtsraum: Frankreich — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
+Mutterkonzern: keiner bekannt | US-Eigentümerstruktur: nein
+Beleg-Quote: 93 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-08-19
+
+Französischer KI-Modellanbieter mit eigener Inferenz-API (La Plateforme), die standardmäßig in der EU gehostet wird und offene wie proprietäre Mistral-Modelle bereitstellt.
+
+Vertrag und Datenschutz:
+- AVV / Auftragsverarbeitungsvertrag: https://legal.mistral.ai/terms/data-processing-addendum [Status: belegt] | Quelle: https://legal.mistral.ai/terms | Anmerkung: Öffentliches Data Processing Addendum (wirksam 27.07.2026), inkl. SCC-Regelung für Drittlandtransfers.
+- Subprozessoren-Liste: https://trust.mistral.ai/subprocessors [Status: belegt] | Quelle: https://help.mistral.ai/en/articles/455208-who-are-your-subprocessors-and-how-can-i-stay-updated-on-changes | Anmerkung: URL im DPA (Abschnitt 7.1) und Help Center offiziell benannt, mit Benachrichtigungs-Abo; Trust-Center-Seite ist JS-gerendert, Einträge nicht maschinell auslesbar.
+- Kein Training mit Kundendaten: ja [Status: belegt] | Quelle: https://docs.mistral.ai/admin/monitor-comply/privacy-data-controls | Anmerkung: 'API: data sent through the API isn't used for model training' (Standard). Ausnahme: experimentelle Labs-Modelle erlauben Training unabhängig vom Opt-out.
+- Zero Data Retention: ja [Status: belegt] | Quelle: https://docs.mistral.ai/admin/monitor-comply/privacy-data-controls | Anmerkung: ZDR nur im Scale-Plan und nur für zustandslose API-Aufrufe (Chat, Embeddings, Moderation, OCR, Audio); Standard ohne ZDR: 30 Tage Retention für Abuse-Monitoring.
+
+Zertifikate:
+- ISO 27001 [normiert: iso-27001] [Status: belegt] | Quelle: https://help.mistral.ai/en/articles/347638-do-you-have-soc-2-or-iso-27001-certification | Anmerkung: Offizielle Aussage: SOC 2 Type II und ISO 27001/27701; Report nur auf Anfrage über Trust Center.
+- SOC 2 Type II [normiert: soc-2] [Status: belegt] | Quelle: https://help.mistral.ai/en/articles/347638-do-you-have-soc-2-or-iso-27001-certification | Anmerkung: Report sales-gated, Zugang via Trust Center anfragbar.
+- ISO 27701 [normiert: iso-27701] [Status: belegt] | Quelle: https://help.mistral.ai/en/articles/347638-do-you-have-soc-2-or-iso-27001-certification | Anmerkung: Datenschutz-Erweiterung zu ISO 27001.
+
+AI Act:
+- GPAI Code of Practice unterzeichnet [Status: belegt] | Quelle: https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai | Anmerkung: Mistral AI ist auf der offiziellen Signatoren-Liste der EU-Kommission namentlich aufgeführt.
+- Art.-53-Transparenzdokumentation (Model Documentation Form) veröffentlicht [Status: unbelegt] | Anmerkung: Als CoP-Signatar verpflichtet, ein konkretes veröffentlichtes Dokument wurde aber nicht gefunden.
+
+Modelle und Preise (EUR je 1 Mio. Token):
+- Mistral Large 3 | Hosting: EU (Standard-Endpoint; US nur per Opt-in) | Input: 0.5 | Output: 1.5 [Status: belegt] | Quelle: https://mistral.ai/pricing/api | Anmerkung: Preis in USD
+- Mistral Medium 3.5 | Hosting: EU (Standard-Endpoint; US nur per Opt-in) | Input: 1.5 | Output: 7.5 [Status: belegt] | Quelle: https://mistral.ai/pricing/api | Anmerkung: Preis in USD
+- Mistral Small 4 | Hosting: EU (Standard-Endpoint; US nur per Opt-in) | Input: 0.15 | Output: 0.6 [Status: belegt] | Quelle: https://mistral.ai/pricing/api | Anmerkung: Preis in USD
+- Codestral | Hosting: EU (Standard-Endpoint; US nur per Opt-in) | Input: 0.3 | Output: 0.9 [Status: belegt] | Quelle: https://mistral.ai/pricing/api | Anmerkung: Preis in USD
+- Ministral 3 (8B) | Hosting: EU (Standard-Endpoint; US nur per Opt-in) | Input: 0.15 | Output: 0.15 [Status: belegt] | Quelle: https://mistral.ai/pricing/api | Anmerkung: Preis in USD; auch als 3B und 14B verfügbar
+
+### Nebius (Token Factory)
+
+URL: https://belegbar.eu/anbieter/nebius/ | Rohdaten: https://belegbar.eu/anbieter/nebius/daten.json
+Kategorie: Inference-API | Sitz: Amsterdam, Niederlande (NL) | Gegründet: 2024
+Rechtsraum: Niederlande — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
+Mutterkonzern: Nebius Group N.V. (Nasdaq: NBIS, hervorgegangen aus Yandex N.V.) | US-Eigentümerstruktur: ja
+Beleg-Quote: 85 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-08-19
+
+Inference-Plattform der Nebius Group N.V. mit EU-Sitz in Amsterdam und EU-Rechenzentren (Finnland, Frankreich) — aber hervorgegangen aus Yandex N.V., Nasdaq-notiert (NBIS), mit US-Kapitalverflechtung und US-Subprozessoren im Betrieb; souveränitätsbewusste Nutzer sollten das einpreisen.
+
+Vertrag und Datenschutz:
+- AVV / Auftragsverarbeitungsvertrag: https://docs.nebius.com/legal/dpa [Status: belegt] | Quelle: https://docs.nebius.com/legal/ | Anmerkung: Standard-DPA im offiziellen Legal-Verzeichnis; Custom DPAs für Enterprise möglich
+- Subprozessoren-Liste: https://docs.nebius.com/legal/sub-processors [Status: belegt] | Quelle: https://docs.nebius.com/legal/sub-processors | Anmerkung: Liste enthält mehrere US-Subprozessoren (HubSpot, Slack, Oracle/NetSuite, Microsoft, Sentry) sowie konzerninterne Subprozessoren u.a. in USA, UK, Israel und Serbien — relevant für die Souveränitätsbewertung
+- Kein Training mit Kundendaten: ja [Status: belegt] | Quelle: https://nebius.com/services/token-factory | Anmerkung: Produktseite: 'requests and outputs are never stored or reused for training' (im Zero-Retention-Modus)
+- Zero Data Retention: ja [Status: beansprucht] | Quelle: https://nebius.com/services/token-factory | Anmerkung: 'Zero-retention mode' beworben; ob Standard oder Opt-in, ist nicht eindeutig — vor Vertragsschluss klären
+
+Zertifikate:
+- ISO 27001 [normiert: iso-27001] [Status: belegt] | Quelle: https://nebius.com/trust-center
+- SOC 2 Type II [normiert: soc-2] [Status: belegt] | Quelle: https://nebius.com/trust-center | Anmerkung: Inkl. HIPAA-Mapping; zudem SOC 3
+- ISO 27701 [normiert: iso-27701] [Status: belegt] | Quelle: https://nebius.com/trust-center | Anmerkung: Zusätzlich ISO 27018, 27799, 22301, 27032 gelistet
+- CSA STAR Level 1 [normiert: csa-star] [Status: belegt] | Quelle: https://nebius.com/trust-center
+
+AI Act:
+- GPAI Code of Practice unterzeichnet [Status: unbelegt] | Anmerkung: Keine Unterzeichnung auffindbar; hostet Open-Source-Fremdmodelle. Trust Center nennt NIS 2 und DORA, aber keine AI-Act-Dokumentation
+
+Modelle und Preise (EUR je 1 Mio. Token):
+- gpt-oss-120b | Hosting: EU (Finnland/Frankreich); US-Region optional | Input: 0.15 | Output: 0.6 [Status: belegt] | Quelle: https://openrouter.ai/provider/nebius | Anmerkung: Preis in USD; offizielle Preisseite nur nach Login, Preise über das Live-Listing bei OpenRouter verifiziert
+- Qwen3-235B-A22B-Instruct | Hosting: EU (Finnland/Frankreich); US-Region optional | Input: 0.2 | Output: 0.6 [Status: belegt] | Quelle: https://openrouter.ai/provider/nebius | Anmerkung: Preis in USD
+- Llama 3.3 70B Instruct | Hosting: EU (Finnland/Frankreich); US-Region optional | Input: 0.13 | Output: 0.4 [Status: belegt] | Quelle: https://openrouter.ai/provider/nebius | Anmerkung: Preis in USD
+- GLM-5.1 | Hosting: EU (Finnland/Frankreich); US-Region optional | Input: 1.4 | Output: 4.4 [Status: belegt] | Quelle: https://openrouter.ai/provider/nebius | Anmerkung: Preis in USD
+
+### Nordference
+
+URL: https://belegbar.eu/anbieter/nordference/ | Rohdaten: https://belegbar.eu/anbieter/nordference/daten.json
+Kategorie: Inference-API | Sitz: Tallinn, Estland (EE) | Gegründet: unbelegt
+Rechtsraum: Estland — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
+Mutterkonzern: 3NV OÜ | US-Eigentümerstruktur: nein
+Beleg-Quote: 50 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-08-19
+
+Estnischer Inference-Anbieter (Rechtsträger 3NV OÜ, Tallinner Rechenzentrumsbetreiber) für kleine Open-Source-Modelle (1B–12B), nach eigenen Angaben vollständig in Estland gehostet — sehr dünne öffentliche Dokumentation.
+
+Vertrag und Datenschutz:
+- AVV / Auftragsverarbeitungsvertrag: kein Wert hinterlegt [Status: beansprucht] | Quelle: https://nordference.ai/gdpr | Anmerkung: GDPR-Seite: 'Enterprise customers can request a DPA' — kein öffentliches Dokument
+- Subprozessoren-Liste: kein Wert hinterlegt [Status: unbelegt] | Anmerkung: Keine Subprozessorliste auffindbar; unklar, ob Inference auf eigener Hardware (3NV TLL-1) oder bei Dritten läuft
+- Kein Training mit Kundendaten: kein Wert hinterlegt [Status: unbelegt] | Anmerkung: Training mit Kundendaten wird auf GDPR- und Privacy-Seiten nicht thematisiert
+- Zero Data Retention: ja [Status: belegt] | Quelle: https://nordference.ai/gdpr | Anmerkung: GDPR-Seite: 'Zero retention for inference data'; alle Daten laut Anbieter innerhalb der EU (Estland)
+
+Zertifikate:
+- ISO 27001 [normiert: iso-27001] [Status: beansprucht] | Quelle: https://nordference.ai | Anmerkung: Nur als Badge/Claim auf der Startseite; kein Zertifikat, kein Auditor, kein Nachweis auffindbar
+- SOC 2 Type II [normiert: soc-2] [Status: beansprucht] | Quelle: https://nordference.ai | Anmerkung: Nur Startseiten-Claim, kein Report auffindbar
+
+AI Act:
+- Transparenz-/Compliance-Angaben zum EU AI Act [Status: unbelegt] | Anmerkung: NIS2/DORA als Claim, zum AI Act keinerlei Angaben
+
+Modelle und Preise (EUR je 1 Mio. Token):
+- Llama 3.1 8B Instruct | Hosting: Estland | Input: 0.055 | Output: 0.11 [Status: belegt] | Quelle: https://nordference.ai/models
+- Mistral 7B Instruct | Hosting: Estland | Input: 0.05 | Output: 0.1 [Status: belegt] | Quelle: https://nordference.ai/models
+- Gemma 2 9B Instruct | Hosting: Estland | Input: 0.08 | Output: 0.16 [Status: belegt] | Quelle: https://nordference.ai/models
+- CodeLlama 7B Instruct | Hosting: Estland | Input: 0.06 | Output: 0.12 [Status: belegt] | Quelle: https://nordference.ai/models
+- Llama 3.2 3B Instruct | Hosting: Estland | Input: 0.03 | Output: 0.06 [Status: belegt] | Quelle: https://nordference.ai/models
+
+### Opper AI
+
+URL: https://belegbar.eu/anbieter/opper-ai/ | Rohdaten: https://belegbar.eu/anbieter/opper-ai/daten.json
+Kategorie: Gateway / Router | Sitz: Stockholm, Schweden (SE) | Gegründet: 2023
+Rechtsraum: Schweden — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
+Mutterkonzern: Opper Technology AB | US-Eigentümerstruktur: nein
+Beleg-Quote: 67 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-08-19
+
+Schwedischer LLM-Router (Opper Technology AB, gehostet auf AWS Stockholm) für 700+ Modelle — neben EU-Providern (Mistral, Inceptron, Berget AI, Infercom, Regolo) auch zahlreiche US-Provider; EU-Residency ist wählbar, aber nicht der Default für alle Modelle.
+
+Vertrag und Datenschutz:
+- AVV / Auftragsverarbeitungsvertrag: https://opper.ai/data-processing-agreement [Status: belegt] | Quelle: https://opper.ai/data-processing-agreement | Anmerkung: Öffentliches DPA (Stand 14.03.2026); erlaubt Verarbeitung außerhalb des EWR unter DSGVO-Bedingungen (SCCs auf Anfrage)
+- Subprozessoren-Liste: https://opper.ai/sub-processors [Status: belegt] | Quelle: https://opper.ai/sub-processors | Anmerkung: Detaillierte Liste inkl. vieler US-Inference-Provider (teils bis 30 Tage Retention) sowie EU-Providern (Mistral FR, Inceptron SE, Berget AI, Infercom, Regolo)
+- Kein Training mit Kundendaten: ja [Status: belegt] | Quelle: https://opper.ai/security-overview | Anmerkung: 'Opper does not use customer data to train models'; im DPA selbst nicht explizit; Upstream-Retention bis 30 Tage je nach Route
+- Zero Data Retention: ja [Status: beansprucht] | Quelle: https://opper.ai/security-overview | Anmerkung: Inhalte werden im Gateway-Tarif nicht gespeichert; echte Zero Retention nur als Enterprise-Konfiguration, kein genereller Default
+
+Zertifikate:
+- ISO 27001 [normiert: iso-27001] [Status: unbelegt] | Anmerkung: Security Overview nennt keine Zertifikate
+- SOC 2 [normiert: soc-2] [Status: unbelegt] | Anmerkung: Nicht erwähnt
+
+AI Act:
+- Logging/Audit-Trails zur Unterstützung von EU-AI-Act-, DORA- und NIS2-Reviews [Status: beansprucht] | Quelle: https://opper.ai/ai-compliance | Anmerkung: Compliance-Seite bewirbt Call-Logging und Audit-Trail; keine konkreten AI-Act-Konformitätsdokumente
+
+Modelle und Preise (EUR je 1 Mio. Token):
+- Claude Opus 5 | Hosting: EU + US (mehrere Provider) | Input: 5 | Output: 25 [Status: belegt] | Quelle: https://opper.ai/models | Anmerkung: Preis in USD; Pass-through + 3% Gateway-Gebühr
+- Claude Sonnet 5 | Hosting: EU + US (mehrere Provider) | Input: 2 | Output: 10 [Status: belegt] | Quelle: https://opper.ai/models | Anmerkung: Preis in USD
+- GPT-5.4 | Hosting: EU + US (mehrere Provider) | Input: 2.5 | Output: 15 [Status: belegt] | Quelle: https://opper.ai/models | Anmerkung: Preis in USD
+- DeepSeek V4 Pro | Hosting: EU + US (mehrere Provider) | Input: 1.3 | Output: 2.6 [Status: belegt] | Quelle: https://opper.ai/models | Anmerkung: Preis in USD
+- Gemini 3.5 Flash | Hosting: EU + US (mehrere Provider) | Input: 1.5 | Output: 9 [Status: belegt] | Quelle: https://opper.ai/models | Anmerkung: Preis in USD
+
+### OVHcloud (AI Endpoints)
+
+URL: https://belegbar.eu/anbieter/ovhcloud/ | Rohdaten: https://belegbar.eu/anbieter/ovhcloud/daten.json
+Kategorie: Inference-API | Sitz: Roubaix, Frankreich (FR) | Gegründet: 1999
+Rechtsraum: Frankreich — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
+Mutterkonzern: OVH Groupe SA (börsennotiert, Euronext Paris) | US-Eigentümerstruktur: nein
+Beleg-Quote: 94 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-08-19
+
+Serverlose Inferenz-API des französischen Cloud-Anbieters OVHcloud mit über 40 offenen Modellen (u.a. Llama, Qwen, gpt-oss), gehostet in europäischen Rechenzentren mit Zero-Data-Retention-Zusage.
+
+Vertrag und Datenschutz:
+- AVV / Auftragsverarbeitungsvertrag: https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/5cec77c-OVH_Data_Protection_Agreement-IE-6.2.pdf [Status: belegt] | Quelle: https://us.ovhcloud.com/legal/faqs/gdpr-compliance/ | Anmerkung: Offizielles OVH Data Processing Agreement (Version 6.2); je Region/Sprache eigene DPA-Versionen im Contracts-Storage.
+- Subprozessoren-Liste: https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/6045f8b-OVH_Sub_processors-GB-3.0.pdf [Status: belegt] | Quelle: https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/6045f8b-OVH_Sub_processors-GB-3.0.pdf | Anmerkung: Offizielle Sub-Processor-Liste als PDF (GB-3.0), per Abruf verifiziert; enthält Intra-Group-Subprozessoren und Drittanbieter.
+- Kein Training mit Kundendaten: ja [Status: belegt] | Quelle: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/ | Anmerkung: Produktseite: 'Your data will never be used to train or improve our AI models' — kein Training per Default.
+- Zero Data Retention: ja [Status: belegt] | Quelle: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/ | Anmerkung: Produktseite: 'Zero data retention: We keep only the data required for billing purposes.'
+
+Zertifikate:
+- ISO 27001 [normiert: iso-27001] [Status: belegt] | Quelle: https://www.ovhcloud.com/en/compliance/ | Anmerkung: Inkl. ISO 27017/27018; auf alle Cloud-Lösungen ausgeweitet.
+- ISO 27701 [normiert: iso-27701] [Status: belegt] | Quelle: https://www.ovhcloud.com/en/compliance/ | Anmerkung: PIMS für Personendaten-Verarbeitung.
+- SOC 1/2/3 [normiert: soc-1, soc-2, soc-3] [Status: belegt] | Quelle: https://www.ovhcloud.com/en/compliance/ | Anmerkung: SSAE 16/ISAE 3402 Type 2 im Compliance-Portal gelistet.
+- BSI C5 [normiert: bsi-c5] [Status: belegt] | Quelle: https://www.ovhcloud.com/en/compliance/ | Anmerkung: Im Compliance-Portal gelistet; Geltungsbereich je Produkt prüfen.
+- SecNumCloud [normiert: secnumcloud] [Status: belegt] | Quelle: https://www.ovhcloud.com/en/compliance/ | Anmerkung: ANSSI-Qualifikation für bestimmte OVHcloud-Angebote — gilt nicht automatisch für AI Endpoints.
+- HDS [normiert: hds] [Status: belegt] | Quelle: https://www.ovhcloud.com/en/compliance/ | Anmerkung: Französische Gesundheitsdaten-Zertifizierung (ANS).
+
+AI Act:
+- AI-Act-Informationsmaterial veröffentlicht [Status: belegt] | Quelle: https://blog.ovhcloud.com/en/posts/ai-act-in-a-nutshell/ | Anmerkung: Offizieller Beitrag 'AI Act in a nutshell'; Positionierung über Modelltransparenz durch Open-Weight-Modelle.
+- GPAI Code of Practice unterzeichnet [Status: unbelegt] | Anmerkung: Keine Unterzeichnung auffindbar; als Hoster fremder Open-Weight-Modelle kein typischer Pflichtenadressat.
+
+Modelle und Preise (EUR je 1 Mio. Token):
+- Llama 3.3 70B Instruct | Hosting: Gravelines, Frankreich | Input: 0.67 | Output: 0.67 [Status: belegt] | Quelle: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/
+- gpt-oss-120b | Hosting: Gravelines, Frankreich | Input: 0.08 | Output: 0.4 [Status: belegt] | Quelle: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/
+- gpt-oss-20b | Hosting: Gravelines, Frankreich | Input: 0.04 | Output: 0.15 [Status: belegt] | Quelle: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/
+- Qwen3.5-397B-A17B | Hosting: Gravelines, Frankreich | Input: 0.6 | Output: 3.6 [Status: belegt] | Quelle: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/
+- Qwen3.6-27B | Hosting: Gravelines, Frankreich | Input: 0.4 | Output: 2.7 [Status: belegt] | Quelle: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/
+- Qwen3.5-9B | Hosting: Gravelines, Frankreich | Input: 0.1 | Output: 0.15 [Status: belegt] | Quelle: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/
+
+### Regolo.ai
+
+URL: https://belegbar.eu/anbieter/regolo/ | Rohdaten: https://belegbar.eu/anbieter/regolo/daten.json
+Kategorie: Inference-API | Sitz: Frosinone, Italien (IT) | Gegründet: 2025
+Rechtsraum: Italien — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
+Mutterkonzern: Seeweb S.r.l. (DHH-Gruppe) | US-Eigentümerstruktur: nein
+Beleg-Quote: 87 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-08-19
+
+Italienischer Inference-Provider (Betreiber: Seeweb S.r.l., DHH-Gruppe, gestartet August 2025) mit Abrechnung in Euro, Hosting in italienischen Seeweb-Rechenzentren mit erneuerbarer Energie und einer extern zertifizierten Zero-Data-Retention-Architektur.
+
+Vertrag und Datenschutz:
+- AVV / Auftragsverarbeitungsvertrag: https://regolo.ai/terms-and-conditions/#data-processor-agreement [Status: belegt] | Quelle: https://regolo.ai/terms-and-conditions/ | Anmerkung: Vollständiges Data Processor Agreement nach Art. 28 DSGVO als Bestandteil der Enterprise-AGB; Verantwortlicher ist Seeweb S.r.l., Frosinone
+- Subprozessoren-Liste: kein Wert hinterlegt [Status: unbelegt] | Quelle: https://regolo.ai/terms-and-conditions/ | Anmerkung: Keine öffentliche Liste; laut DPA nur mit schriftlicher Genehmigung, autorisierte Liste wird geführt — Betrieb auf eigener Seeweb-Infrastruktur
+- Kein Training mit Kundendaten: ja [Status: belegt] | Quelle: https://regolo.ai/zero-data-retention/ | Anmerkung: Keine Wiederverwendung für Training oder Fine-Tuning ('Your data serves one purpose only: delivering the response you requested, then it is gone')
+- Zero Data Retention: ja [Status: belegt] | Quelle: https://regolo.ai/zero-data-retention/ | Anmerkung: Prompts/Outputs nur flüchtig in ephemeren Containern, keine Logs/Persistenz; ZDR-Policy durch externe Prüfgesellschaft zertifiziert (24.07.2026)
+
+Zertifikate:
+- ISO 27001 [normiert: iso-27001] [Status: belegt] | Quelle: https://regolo.ai/terms-and-conditions/ | Anmerkung: Zertifikat der Betreibergesellschaft Seeweb S.r.l.
+- ISO 27017 / 27018 [normiert: iso-27017, iso-27018] [Status: belegt] | Quelle: https://regolo.ai/terms-and-conditions/ | Anmerkung: Zusätzlich ISO 9001, 14001, 20000 der Seeweb S.r.l.
+- CSA STAR Level 1 [normiert: csa-star] [Status: belegt] | Quelle: https://regolo.ai/terms-and-conditions/
+- Zero-Data-Retention-Zertifizierung (extern) [Status: belegt] | Quelle: https://regolo.ai/zero-data-retention/ | Anmerkung: Formale Bestätigung der ZDR-Architektur durch externe Prüffirma, ausgestellt 24.07.2026
+
+AI Act:
+- AI-Act-Alignment (Transparenz, Sicherheit, Accountability) [Status: beansprucht] | Quelle: https://regolo.ai/zero-data-retention/ | Anmerkung: Proaktive Ausrichtung am EU AI Act erklärt; kein Primärdokument öffentlich. Kein GPAI-Modellanbieter
+
+Modelle und Preise (EUR je 1 Mio. Token):
+- gpt-oss-120b | Hosting: Italien (Seeweb-RZ, Frosinone/Mailand) | Input: 1 | Output: 4.2 [Status: belegt] | Quelle: https://regolo.ai/pricing/
+- Llama 3.3 70B Instruct | Hosting: Italien (Seeweb-RZ, Frosinone/Mailand) | Input: 0.6 | Output: 2.7 [Status: belegt] | Quelle: https://regolo.ai/pricing/
+- Qwen3.5-122B | Hosting: Italien (Seeweb-RZ, Frosinone/Mailand) | Input: 1 | Output: 4.2 [Status: belegt] | Quelle: https://regolo.ai/pricing/
+- Apertus-70B | Hosting: Italien (Seeweb-RZ, Frosinone/Mailand) | Input: 0.4 | Output: 2.1 [Status: belegt] | Quelle: https://regolo.ai/pricing/ | Anmerkung: Europäisches Open-Source-Modell (Swiss AI)
+- Mistral Small 4 (119B) | Hosting: Italien (Seeweb-RZ, Frosinone/Mailand) | Input: 0.5 | Output: 2.1 [Status: belegt] | Quelle: https://regolo.ai/pricing/
+- GLM-5.2 | Hosting: Italien (Seeweb-RZ, Frosinone/Mailand) | Input: 2 | Output: 5.2 [Status: belegt] | Quelle: https://regolo.ai/pricing/
+
+### Requesty
+
+URL: https://belegbar.eu/anbieter/requesty/ | Rohdaten: https://belegbar.eu/anbieter/requesty/daten.json
+Kategorie: Gateway / Router | Sitz: London, Vereinigtes Königreich (GB) | Gegründet: 2023
+Rechtsraum: Vereinigtes Königreich — Drittland mit Angemessenheitsbeschluss der EU-Kommission — Übermittlung ohne zusätzliche Garantien zulässig (Art. 45 DSGVO). Der Angemessenheitsbeschluss wurde im Dezember 2025 verlängert — je eine Erneuerung unter der DSGVO und unter der Richtlinie für den Strafverfolgungsbereich (LED). [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
+Mutterkonzern: keiner bekannt | US-Eigentümerstruktur: nein
+Beleg-Quote: 20 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-08-19
+
+Britisches (nicht EU-ansässiges) AI-Gateway mit EU-Endpoint in Frankfurt; die eigene Verarbeitung bleibt in der EU, Inference läuft aber je nach Modellwahl bei über 30 Providern — darunter viele US- und China-Firmen. Echte EU-Residency nur bei expliziter Beschränkung auf EU-gehostete Modellvarianten.
+
+Vertrag und Datenschutz:
+- AVV / Auftragsverarbeitungsvertrag: kein Wert hinterlegt [Status: beansprucht] | Quelle: https://www.requesty.ai/dpa | Anmerkung: DPA-Infoseite vorhanden, das eigentliche Dokument nur auf Anfrage per E-Mail; kein öffentlicher Volltext
+- Subprozessoren-Liste: https://www.requesty.ai/privacy/subprocessors [Status: belegt] | Quelle: https://www.requesty.ai/privacy/subprocessors | Anmerkung: Öffentliche Liste: AWS Frankfurt plus 32 Modellprovider, darunter 17 US-Firmen und China-Anbieter (DeepSeek, Moonshot, Tencent); NVIDIA und Poolside mit 'Training Permitted' (Free Plan)
+- Kein Training mit Kundendaten: ja [Status: belegt] | Quelle: https://docs.requesty.ai/quickstart | Anmerkung: 'Requesty is a pass-through gateway. We don't train on your requests'; Ausnahme: Free-Plan-Modelle von NVIDIA/Poolside erlauben Upstream-Training
+- Zero Data Retention: kein Wert hinterlegt [Status: beansprucht] | Quelle: https://www.requesty.ai/dpa | Anmerkung: Widersprüchlich: Security-Seite sagt 'never stored', DPA-Seite nennt 30-Tage-Log-Retention als Standard; ZDR organisationsweit nur auf schriftliche Anfrage
+
+Zertifikate:
+- SOC 2 Type II [normiert: soc-2] [Status: beansprucht] | Quelle: https://www.requesty.ai/security | Anmerkung: Laut Security-Seite 'in progress — expected Q3 2026', noch nicht erteilt
+- ISO 27001 [normiert: iso-27001] [Status: unbelegt] | Anmerkung: Nicht erwähnt
+
+AI Act:
+- Transparenz-/Compliance-Angaben zum EU AI Act [Status: unbelegt] | Anmerkung: Keine AI-Act-Angaben auf Website, Security-Seite oder in den Docs gefunden
+
+Modelle und Preise (EUR je 1 Mio. Token):
+- Claude Sonnet (Bedrock @eu-central-1) | Hosting: Frankfurt/EU (AWS Bedrock) | Input: unbelegt | Output: unbelegt [Status: beansprucht] | Quelle: https://docs.requesty.ai/features/eu-routing | Anmerkung: Pass-through + 5% Markup; öffentliche Preisliste nur hinter Login
+- Gemini 3.5 Flash (Vertex @eu) | Hosting: EU (Google Vertex EU-Region) | Input: unbelegt | Output: unbelegt [Status: beansprucht] | Quelle: https://docs.requesty.ai/features/eu-routing | Anmerkung: Keine öffentliche Preisangabe verifizierbar
+- Mistral-Modelle | Hosting: EU (Mistral, 'hosted in EU by default') | Input: unbelegt | Output: unbelegt [Status: beansprucht] | Quelle: https://docs.requesty.ai/features/eu-routing | Anmerkung: Keine öffentliche Preisangabe verifizierbar
+
+### Scaleway
+
+URL: https://belegbar.eu/anbieter/scaleway/ | Rohdaten: https://belegbar.eu/anbieter/scaleway/daten.json
+Kategorie: Inference-API | Sitz: Paris, Frankreich (FR) | Gegründet: 1999
+Rechtsraum: Frankreich — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
+Mutterkonzern: Iliad Group | US-Eigentümerstruktur: nein
+Beleg-Quote: 86 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-08-19
+
+Französischer Cloud-Anbieter (Iliad-Gruppe), der über seine Generative APIs offene LLMs serverlos in Pariser Rechenzentren als OpenAI-kompatible Inferenz-API anbietet.
+
+Vertrag und Datenschutz:
+- AVV / Auftragsverarbeitungsvertrag: https://www-uploads.scaleway.com/DPA_2024_ENG_b0abb5cc26.pdf [Status: belegt] | Quelle: https://www.scaleway.com/en/contracts/ | Anmerkung: DPA 2024 (EN) als Primärdokument geprüft; deckt Art.-28-DSGVO-Pflichten ab. Auf der Contracts-Seite auch SCCs und TOM-Dokument.
+- Subprozessoren-Liste: https://www.scaleway.com/en/subprocessorlist/ [Status: belegt] | Quelle: https://www.scaleway.com/en/subprocessorlist/ | Anmerkung: Offizielle Liste, Stand Juli 2025 (u.a. AtNorth, Equinix EMEA, Iron Mountain, Digital Realty, Opcore); Änderungshistorie öffentlich.
+- Kein Training mit Kundendaten: ja [Status: belegt] | Quelle: https://www.scaleway.com/en/docs/generative-apis/reference-content/data-privacy/ | Anmerkung: Doku-Zitat: 'Your data is not used for training, retraining, or improving the base models' — Training findet grundsätzlich nicht statt, kein Opt-out nötig.
+- Zero Data Retention: ja [Status: belegt] | Quelle: https://www.scaleway.com/en/docs/generative-apis/reference-content/data-privacy/ | Anmerkung: Scaleway speichert Prompt-Inhalte nicht; Ausnahme: temporäre Speicherung, wenn zur Diensterbringung nötig (z.B. Batch-Verarbeitung).
+
+Zertifikate:
+- ISO 27001 [normiert: iso-27001] [Status: belegt] | Quelle: https://www.scaleway.com/en/security-and-compliance/ | Anmerkung: ISO/IEC 27001:2022 auf der offiziellen Security-and-Compliance-Seite als erreicht ausgewiesen.
+- HDS [normiert: hds] [Status: belegt] | Quelle: https://www.scaleway.com/en/security-and-compliance/ | Anmerkung: Französische Zertifizierung für das Hosting von Gesundheitsdaten.
+- SecNumCloud [normiert: secnumcloud] [Status: beansprucht] | Quelle: https://www.scaleway.com/en/news/scaleway-begins-the-secnumcloud-qualification-process/ | Anmerkung: Noch keine Qualifikation: ANSSI-Prozess seit Januar 2025 begonnen (Meilenstein J0 bestanden), Audit läuft.
+
+AI Act:
+- GPAI Code of Practice / Art.-53-Transparenzdokumentation [Status: unbelegt] | Anmerkung: Keine eigene AI-Act-Veröffentlichung auffindbar. Scaleway hostet fremde offene Modelle und trainiert keine eigenen GPAI-Modelle; Art.-53-Pflichten treffen primär die Modellhersteller.
+
+Modelle und Preise (EUR je 1 Mio. Token):
+- gpt-oss-120b | Hosting: Paris, Frankreich | Input: 0.15 | Output: 0.6 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
+- Llama 3.3 70B Instruct | Hosting: Paris, Frankreich | Input: 0.9 | Output: 0.9 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
+- Mistral Small 3.2 24B | Hosting: Paris, Frankreich | Input: 0.15 | Output: 0.35 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
+- Qwen3 235B A22B Instruct | Hosting: Paris, Frankreich | Input: 0.75 | Output: 2.25 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
+- DeepSeek V4 Flash | Hosting: Paris, Frankreich | Input: 0.4 | Output: 0.8 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
+- GLM-5.2 | Hosting: Paris, Frankreich | Input: 1.8 | Output: 5.5 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
+
+### STACKIT
+
+URL: https://belegbar.eu/anbieter/stackit/ | Rohdaten: https://belegbar.eu/anbieter/stackit/daten.json
+Kategorie: Inference-API | Sitz: Neckarsulm, Deutschland (DE) | Gegründet: 2019
+Rechtsraum: Deutschland — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
+Mutterkonzern: Schwarz Gruppe | US-Eigentümerstruktur: nein
+Beleg-Quote: 77 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-08-24
+
+Souveräne deutsche Cloud der Schwarz Gruppe, die mit AI Model Serving offene LLMs (u.a. Llama, GPT-OSS, Qwen, Gemma) über eine OpenAI-kompatible API aus deutschen Rechenzentren bereitstellt.
+
+Vertrag und Datenschutz:
+- AVV / Auftragsverarbeitungsvertrag: kein Wert hinterlegt [Status: unbelegt] | geprüft 2026-08-24 | Anmerkung: Beleg verloren: Bis mindestens 19.08.2026 war der "AVV STACKIT Cloud, Stand Januar 2022, Version 1.0" als PDF unter www.stackit.de öffentlich abrufbar. Beim Quellen-Check am 24.08.2026 leitet die gesamte Domain www.stackit.de auf die Startseite stackit.com/de um; das Dokument ist dort nicht mehr auffindbar, und weder stackit.com/de/compliance noch die Zertifikatsseite bieten einen AVV zum Download. Das heißt nicht, dass STACKIT keinen AVV hätte — es heißt, dass er nicht mehr öffentlich nachweisbar ist. Tote Beleg-URL: https://www.stackit.de/wp-content/uploads/2022/06/Auftragsverarbeitungsvertrag_STACKIT-Cloud_Stand-Januar-2022_Version-1.0.pdf
+- Subprozessoren-Liste: kein Wert hinterlegt [Status: unbelegt] | Anmerkung: Keine öffentlich zugängliche Subprozessorenliste gefunden; Unterauftragsverhältnisse werden im AVV bzw. C5-Bericht geregelt.
+- Kein Training mit Kundendaten: ja [Status: belegt] | Quelle: https://stackit.com/en/products/data-ai/stackit-ai-model-serving | Anmerkung: Produktseite: 'Your data and queries are neither stored nor used to train models.'
+- Zero Data Retention: ja [Status: belegt] | Quelle: https://stackit.com/en/products/data-ai/stackit-ai-model-serving | Anmerkung: Gleiche Quelle: Daten und Anfragen werden nicht gespeichert.
+
+Zertifikate:
+- ISO 27001 [normiert: iso-27001] [Status: belegt] | Quelle: https://stackit.com/en/why-stackit/benefits/certificates | Anmerkung: ISO 27001:2022, zusätzlich ISO 27017 und ISO 27018.
+- BSI C5 [normiert: bsi-c5] [Status: belegt] | Quelle: https://stackit.com/en/why-stackit/benefits/certificates | Anmerkung: C5 Typ 2; bestätigt per Pressemitteilung Schwarz Digits.
+- SOC 2 [normiert: soc-2] [Status: belegt] | Quelle: https://stackit.com/en/why-stackit/benefits/certificates | Anmerkung: ISAE 3000 (SOC 2) und ISAE 3402 begleitend zum C5-Testat.
+- TISAX [normiert: tisax] [Status: belegt] | Quelle: https://stackit.com/en/why-stackit/benefits/certificates | Anmerkung: TISAX Level 3 (Assessment ID ATA163-1, über ENX-Portal einsehbar).
+
+AI Act:
+- Art.-53-Transparenzdokumentation [Status: unbelegt] | Anmerkung: STACKIT betreibt Fremdmodelle; GPAI-Pflichten liegen bei den Modellherstellern. Keine eigene AI-Act-Dokumentation gefunden.
+
+Modelle und Preise (EUR je 1 Mio. Token):
+- Llama 3.3 70B | Hosting: Germany South (EU01), Deutschland | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models/ | Anmerkung: Modell und Region belegt; Preise nur als Kategorien (Standard 0,15/0,25 €, Plus 0,45/0,65 €, Premium 1,50/1,75 € je 1M In/Out) — Zuordnung Modell→Kategorie nicht öffentlich, Preis daher nicht als belegt ausgewiesen.
+- GPT-OSS 120B | Hosting: Germany South (EU01), Deutschland | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models/ | Anmerkung: Preis siehe Kategorien-Anmerkung.
+- Qwen3-VL 235B | Hosting: Germany South (EU01), Deutschland | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models/ | Anmerkung: Preis siehe Kategorien-Anmerkung.
+- Gemma 4 31B | Hosting: Germany South (EU01), Deutschland | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models/ | Anmerkung: Preis siehe Kategorien-Anmerkung.
+
+### T-Systems / Open Telekom Cloud (AI Foundation Services)
+
+URL: https://belegbar.eu/anbieter/t-systems/ | Rohdaten: https://belegbar.eu/anbieter/t-systems/daten.json
+Kategorie: Inference-API | Sitz: Frankfurt am Main, Deutschland (DE) | Gegründet: 2000
+Rechtsraum: Deutschland — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
+Mutterkonzern: Deutsche Telekom AG | US-Eigentümerstruktur: nein
+Beleg-Quote: 93 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-08-19
+
+Telekom-Tochter, die mit den AI Foundation Services (LLM Hub) über 30 offene LLMs DSGVO-konform auf der T-Cloud in Deutschland serviert und zusätzlich als Gateway proprietäre Modelle (GPT-5, Claude, Gemini) über Azure/GCP in Europa anbindet.
+
+Vertrag und Datenschutz:
+- AVV / Auftragsverarbeitungsvertrag: https://www.t-cloud-public.com/_Resources/Persistent/7/4/4/5/744591c2cdff8be6c3876c3bf6e187fb024cad04/OTC%20ErgB-AV%20TDG_DE.pdf [Status: belegt] | Quelle: https://www.t-cloud-public.com/_Resources/Persistent/7/4/4/5/744591c2cdff8be6c3876c3bf6e187fb024cad04/OTC%20ErgB-AV%20TDG_DE.pdf | Anmerkung: Öffentliches AVV-Dokument (Stand April 2026) für die Open Telekom Cloud; für AI Foundation Services DPA nach Telekom-Vorlage auf Anfrage.
+- Subprozessoren-Liste: kein Wert hinterlegt [Status: belegt] | Quelle: https://docs.llmhub.t-systems.net/reference/enterprise-trust | Anmerkung: Keine öffentliche Listen-URL; Enterprise-Trust-Doku belegt: EU-betriebene Modelle (Kategorie 1) ohne Dritt-Subprozessoren, bei Fremdmodellen (Kategorie 2) können Subprozessoren des Upstream-Anbieters weltweit verarbeiten.
+- Kein Training mit Kundendaten: ja [Status: belegt] | Quelle: https://docs.llmhub.t-systems.net/reference/enterprise-trust | Anmerkung: 'Customer prompts and responses are never saved or used to train or fine-tune any model' (beide Modellkategorien).
+- Zero Data Retention: ja [Status: belegt] | Quelle: https://docs.llmhub.t-systems.net/reference/enterprise-trust | Anmerkung: Für EU-betriebene Modelle keine Speicherung; bei proprietären Fremdmodellen gelten die Bedingungen des jeweiligen Anbieters.
+
+Zertifikate:
+- BSI C5 [normiert: bsi-c5] [Status: belegt] | Quelle: https://www.t-cloud-public.com/en/products-services/core-services/certifications | Anmerkung: BSI C5 Typ II (ISAE 3000) für die Open Telekom Cloud / T-Cloud.
+- ISO 27001 [normiert: iso-27001] [Status: belegt] | Quelle: https://www.t-cloud-public.com/en/products-services/core-services/certifications | Anmerkung: Zusätzlich ISO 27017/27018/27701; deckt laut Enterprise-Trust-Doku auch die AI-Foundation-Services-Infrastruktur ab.
+- SOC 2 [normiert: soc-2] [Status: belegt] | Quelle: https://www.t-cloud-public.com/en/products-services/core-services/certifications | Anmerkung: SOC 1 Type II, SOC 2 Type II und SOC 3.
+- TISAX [normiert: tisax] [Status: belegt] | Quelle: https://www.t-cloud-public.com/en/products-services/core-services/certifications | Anmerkung: TISAX Level 3.
+
+AI Act:
+- Art.-53-Transparenzdokumentation [Status: unbelegt] | Anmerkung: Plattform serviert Fremdmodelle; Art.-53-Pflichten liegen bei den Herstellern. Keine eigene AI-Act-Dokumentation gefunden.
+
+Modelle und Preise (EUR je 1 Mio. Token):
+- Llama 3.3 70B | Hosting: T-Cloud, Deutschland | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.llmhub.t-systems.net/models/ | Anmerkung: Modell und Standort belegt; Preisseite nennt 0,20/0,65 € je 1M In/Out nur als Beispielpreis, modellgenaue Preise nur im interaktiven Katalog. Tarife: Essential 1.000 €/Monat, Professional 3.000 €, Agentic 5.000 €.
+- Mistral Small 4 | Hosting: T-Cloud, Deutschland | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.llmhub.t-systems.net/models/ | Anmerkung: Preis siehe Anmerkung beim ersten Modell.
+- GPT-OSS 120B | Hosting: T-Cloud, Deutschland | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.llmhub.t-systems.net/models/ | Anmerkung: Preis siehe Anmerkung beim ersten Modell.
+- GPT-5 | Hosting: Azure, Schweden | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.llmhub.t-systems.net/models/ | Anmerkung: Proprietäres Modell, Weiterleitung an Microsoft Azure; es gelten dessen Datenbedingungen.
+- Claude 4.6 Sonnet | Hosting: GCP, Europa | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.llmhub.t-systems.net/models/ | Anmerkung: Via Google Cloud (Europa); Gateway-Funktion, keine T-Cloud-Hosting-Garantie.
+
+## Ratgeber
+
+- Welche AI-Act-Pflichten treffen Unternehmen, die eine LLM-API nutzen?: Deployer-Pflichten, Transparenz nach Art. 50, KI-Kompetenz nach Art. 4 — was seit August 2026 wirklich gilt, wenn Sie fremde KI-Modelle per API einsetzen. (https://belegbar.eu/ratgeber/ai-act-pflichten-llm-api/)
+- DSGVO-konform KI nutzen: AVV, Subprozessoren, Drittlandtransfer: Die vier Vertragsfragen, die Ihr Datenschutzbeauftragter vor dem Einsatz einer KI-API stellt — und wie Sie sie mit Anbieter-Dokumenten beantworten. (https://belegbar.eu/ratgeber/dsgvo-konform-ki-nutzen/)
+- Was bedeutet der CLOUD Act für US-Anbieter mit EU-Rechenzentren?: Warum ein Frankfurter Rechenzentrum allein keine Souveränität schafft — und welche Eigentümerstrukturen Datenschutzbeauftragte prüfen. (https://belegbar.eu/ratgeber/cloud-act-us-anbieter/)
+- BSI C5, ISO 42001, SecNumCloud, SEAL: KI-Zertifikate erklärt: Was die wichtigsten Cloud- und KI-Zertifizierungen wirklich prüfen, wie sie sich unterscheiden — und woran Sie erkennen, ob ein Anbieter sie tatsächlich hält. (https://belegbar.eu/ratgeber/ki-zertifikate-erklaert/)
+- Souveräne KI für Kommunen und Behörden: Welche Anforderungen Verwaltungen an KI-Anbieter stellen müssen — Vergaberecht, DSGVO, AI Act und die Frage nach dem Betreiber. (https://belegbar.eu/ratgeber/souveraene-ki-kommunen/)
+
+## Methodik
+
+Was "belegt" heißt, wie die Beleg-Quote entsteht und wie der Verified-Prozess für Anbieter
+funktioniert: https://belegbar.eu/methodik/

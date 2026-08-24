@@ -89,19 +89,28 @@
       "typ": "BSI C5",
       "status": "unbelegt",
       "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/",
-      "anmerkung": "Eigene Aussage: 'Lyceum holds no C5 attestation … today, and says so plainly' — bemerkenswert ehrlich, aber nicht gehalten"
+      "anmerkung": "Eigene Aussage: 'Lyceum holds no C5 attestation … today, and says so plainly' — bemerkenswert ehrlich, aber nicht gehalten",
+      "normiert": [
+        "bsi-c5"
+      ]
     },
     {
       "typ": "ISO 27001",
       "status": "unbelegt",
       "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/",
-      "anmerkung": "Laut eigener Aussage aktuell nicht zertifiziert; Trust Center listet eine 'ISO Certification'-Ressource (vermutlich RZ-Zertifikat) — Widerspruch vor Vertragsschluss klären"
+      "anmerkung": "Laut eigener Aussage aktuell nicht zertifiziert; Trust Center listet eine 'ISO Certification'-Ressource (vermutlich RZ-Zertifikat) — Widerspruch vor Vertragsschluss klären",
+      "normiert": [
+        "iso-27001"
+      ]
     },
     {
       "typ": "SOC 2",
       "status": "unbelegt",
       "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/",
-      "anmerkung": "Laut eigener Aussage aktuell nicht zertifiziert"
+      "anmerkung": "Laut eigener Aussage aktuell nicht zertifiziert",
+      "normiert": [
+        "soc-2"
+      ]
     }
   ],
   "ai_act": [
@@ -112,5 +121,17 @@
       "anmerkung": "Kein Nachweis; hostet Open-Source-Fremdmodelle"
     }
   ],
-  "geprueft": "2026-08-19"
+  "geprueft": "2026-08-19",
+  "url": "https://belegbar.eu/anbieter/lyceum/",
+  "beleg_quote_prozent": 46,
+  "zuletzt_geprueft": "2026-08-19",
+  "rechtsraum": {
+    "land": "DE",
+    "name": "Deutschland",
+    "einordnung": "eu",
+    "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+    "hinweis": null,
+    "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+    "geprueft": "2026-08-24"
+  }
 }

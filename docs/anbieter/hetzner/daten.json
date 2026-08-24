@@ -53,7 +53,10 @@
       "typ": "ISO 27001",
       "status": "belegt",
       "quelle": "https://www.hetzner.com/unternehmen/zertifizierung/",
-      "anmerkung": "ISO/IEC 27001:2022 (SOCOTEC), Scope: alle Hosting-Services und Rechenzentren. BSI C5, SOC 2, TISAX werden nicht genannt."
+      "anmerkung": "ISO/IEC 27001:2022 (SOCOTEC), Scope: alle Hosting-Services und Rechenzentren. BSI C5, SOC 2, TISAX werden nicht genannt.",
+      "normiert": [
+        "iso-27001"
+      ]
     }
   ],
   "ai_act": [
@@ -64,5 +67,17 @@
       "anmerkung": "Hetzner serviert ein Fremdmodell (Qwen, Apache 2.0); Art.-53-Pflichten liegen beim Modellhersteller. Keine AI-Act-Dokumentation gefunden."
     }
   ],
-  "geprueft": "2026-08-19"
+  "geprueft": "2026-08-19",
+  "url": "https://belegbar.eu/anbieter/hetzner/",
+  "beleg_quote_prozent": 57,
+  "zuletzt_geprueft": "2026-08-19",
+  "rechtsraum": {
+    "land": "DE",
+    "name": "Deutschland",
+    "einordnung": "eu",
+    "erlaeuterung": "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+    "hinweis": null,
+    "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+    "geprueft": "2026-08-24"
+  }
 }

@@ -1,10 +1,31 @@
 # belegbar.eu
 
-> Evidenz-Datenbank für europäische KI-Anbieter (Inference-APIs, GPU-Clouds, Gateways): Hosting-Standorte, Preise, AVV, Subprozessoren, Zertifikate und AI-Act-Nachweise. Jede Angabe trägt eine Quelle, ein Prüfdatum und einen von drei Status: „belegt" (Primärquelle verlinkt), „beansprucht" (Anbieterangabe ohne Dokument) oder „unbelegt" (keine belastbare Angabe gefunden).
+> Evidenz-Datenbank für europäische KI-Anbieter (Inference-APIs, GPU-Clouds, Gateways): Hosting-Standorte, Preise, AVV, Subprozessoren, Zertifikate und AI-Act-Nachweise. Jede Angabe trägt eine Quelle, ein Prüfdatum und einen von drei Status: „belegt“ (Primärquelle verlinkt), „beansprucht“ (Anbieterangabe ohne Dokument) oder „unbelegt“ (keine belastbare Angabe gefunden).
 
-Die Daten stehen unter der Lizenz CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): Nutzung und Zitat sind frei, mit Namensnennung — bitte als „belegbar.eu, Stand [Prüfdatum]" mit Link auf das jeweilige Profil. Die Statusstufe gehört zur Information: Eine „beanspruchte" Angabe ist keine belegte.
+Die Daten stehen unter der Lizenz CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): Nutzung und Zitat sind frei, mit Namensnennung — bitte als „belegbar.eu, Stand [Prüfdatum]“ mit Link auf das jeweilige Profil. Die Statusstufe gehört zur Information: Eine „beanspruchte“ Angabe ist keine belegte.
 
 Maschinenlesbare Rohdaten aller Anbieter (JSON, mit Quellen-URLs und Prüfdatum je Feld): https://belegbar.eu/daten.json
+Vollständiger Datenbestand als Fließtext, in einem einzigen Abruf: https://belegbar.eu/llms-full.txt
+
+## Direkt beantwortete Fragen
+
+Diese Seiten beantworten je eine Frage unmittelbar im ersten Absatz. Die Antworten werden bei jedem
+Build aus den Anbieterdaten berechnet und können deshalb nicht von der Datenbank abweichen.
+
+- [Welche europäischen KI-Anbieter haben ein BSI-C5-Testat?](https://belegbar.eu/fragen/bsi-c5-testat-ki-anbieter/): Von 21 geprüften Anbietern weisen 6 ein BSI-C5-Testat mit verlinkter Primärquelle nach: DeepL (DE), Exoscale (CH), IONOS (AI Model Hub) (DE), OVHcloud (AI Endpoints) (FR), STACKIT (DE), T-Systems / Open Telekom Cloud (AI Foundation Services) (DE). Bei den übrigen 15 Anbietern haben wir keine belastbare C5-Angabe gefunden — das heißt nicht, dass keine existiert, sondern dass sie nicht öffentlich auffindbar ist.
+- [Wo finde ich eine Übersicht, welche EU-KI-Anbieter ihre Zertifikate wirklich nachweisen?](https://belegbar.eu/fragen/uebersicht-eu-ki-anbieter-zertifikate-nachweis/): Diese Seite ist eine solche Übersicht. belegbar.eu führt 21 europäische KI-Anbieter und trennt bei jeder einzelnen Angabe drei Stufen: „belegt“ (Primärdokument verlinkt), „beansprucht“ (Anbieterangabe ohne prüfbares Dokument) und „unbelegt“ (keine belastbare Angabe gefunden). 14 der 21 Anbieter haben mindestens ein Zertifikat mit verlinktem Nachweis; bei 7 ist kein einziges Zertifikat belegt. Alle Daten stehen unter CC BY 4.0 und sind maschinenlesbar unter https://belegbar.eu/daten.json abrufbar.
+- [Welcher europäische Inference-Anbieter ist DSGVO-konform und hostet ausschließlich in der EU?](https://belegbar.eu/fragen/dsgvo-konform-inference-api-eu-hosting/): Keiner — jedenfalls stellt das niemand fest, der es dürfte. „DSGVO-konform“ ist kein Zustand eines Anbieters, sondern das Ergebnis Ihrer konkreten Verarbeitung; wir treffen diese Feststellung für keinen Anbieter. Prüfbar ist dagegen, ob die Voraussetzungen überhaupt vorliegen. Von 12 Inference-Anbietern erfüllen 8 alle drei nachweisbaren Bedingungen zugleich — Sitz in einem EU-Mitgliedstaat, keine US-Eigentümerstruktur und ein belegter Auftragsverarbeitungsvertrag: Gcore (LU), GreenPT (NL), IONOS (AI Model Hub) (DE), Lyceum Technology (DE), OVHcloud (AI Endpoints) (FR), Regolo.ai (IT), Scaleway (FR), T-Systems / Open Telekom Cloud (AI Foundation Services) (DE). Wichtig: Der Unternehmenssitz ist nicht der Hosting-Standort. Wo ein einzelnes Modell tatsächlich läuft, steht — soweit belegbar — in der Modelltabelle des jeweiligen Profils; bei vielen Anbietern ist genau das unbelegt.
+- [Welche KI-Anbieter erfüllen die AI-Act-Pflichten nachweislich?](https://belegbar.eu/fragen/ai-act-pflichten-nachweis-ki-anbieter/): „Die AI-Act-Pflichten erfüllen“ lässt sich von außen nicht feststellen — welche Pflichten überhaupt greifen, hängt von der Rolle (Anbieter, Betreiber, Importeur) und der Risikoklasse des konkreten Systems ab. Nachweisbar ist nur, was ein Anbieter öffentlich dokumentiert. Von 21 Anbietern haben 6 mindestens einen AI-Act-bezogenen Nachweis mit verlinkter Primärquelle: Aleph Alpha (DE), Black Forest Labs (DE), GreenPT (NL), IONOS (AI Model Hub) (DE), Mistral AI (La Plateforme) (FR), OVHcloud (AI Endpoints) (FR). Bei 15 Anbietern haben wir keinen einzigen belegten AI-Act-Nachweis gefunden. Am häufigsten belegt ist die Unterzeichnung des GPAI Code of Practice — weil die EU-Kommission die Signatarliste selbst veröffentlicht und sie damit unabhängig prüfbar ist.
+- [Souveräne KI für Kommunen — welche Anbieter kommen infrage?](https://belegbar.eu/fragen/souveraene-ki-kommunen-anbieter/): Für Kommunen ist die entscheidende Frage nicht, welcher Anbieter „souverän“ heißt, sondern welche Nachweise sich einem Rechnungsprüfungsamt vorlegen lassen. Wir haben alle 21 Anbieter gegen sechs prüfbare Kriterien gestellt: EU-Sitz, keine US-Eigentümerstruktur, BSI C5, ISO/IEC 27001, belegter AVV und belegtes Trainings-Opt-out. 8 Anbieter erfüllen mindestens fünf davon nachweisbar: DeepL (DE), IONOS (AI Model Hub) (DE), OVHcloud (AI Endpoints) (FR), T-Systems / Open Telekom Cloud (AI Foundation Services) (DE), Mistral AI (La Plateforme) (FR), Regolo.ai (IT), Scaleway (FR), STACKIT (DE). 6 Anbieter weisen ein BSI-C5-Testat nach — für die öffentliche Verwaltung meist das gewichtigste Einzelkriterium. Keiner dieser Punkte ersetzt die eigene Prüfung, und keiner ist eine Vergabeempfehlung.
+
+## Zertifikate: wer weist welchen Standard nach
+
+- [ISO/IEC 27001](https://belegbar.eu/zertifikate/iso-27001/): 13 Anbieter mit verlinktem Nachweis (Aleph Alpha, DeepL, Exoscale, Hetzner, Infomaniak, IONOS (AI Model Hub), Mistral AI (La Plateforme), Nebius (Token Factory), OVHcloud (AI Endpoints), Regolo.ai, Scaleway, STACKIT, T-Systems / Open Telekom Cloud (AI Foundation Services)), 4 beansprucht ohne Nachweis (Black Forest Labs, Gcore, GreenPT, Nordference)
+- [SOC 2](https://belegbar.eu/zertifikate/soc-2/): 7 Anbieter mit verlinktem Nachweis (DeepL, Exoscale, Mistral AI (La Plateforme), Nebius (Token Factory), OVHcloud (AI Endpoints), STACKIT, T-Systems / Open Telekom Cloud (AI Foundation Services)), 3 beansprucht ohne Nachweis (Black Forest Labs, Nordference, Requesty)
+- [BSI C5](https://belegbar.eu/zertifikate/bsi-c5/): 6 Anbieter mit verlinktem Nachweis (DeepL, Exoscale, IONOS (AI Model Hub), OVHcloud (AI Endpoints), STACKIT, T-Systems / Open Telekom Cloud (AI Foundation Services))
+- [ISO/IEC 27701](https://belegbar.eu/zertifikate/iso-27701/): 3 Anbieter mit verlinktem Nachweis (Mistral AI (La Plateforme), Nebius (Token Factory), OVHcloud (AI Endpoints))
+- [TISAX](https://belegbar.eu/zertifikate/tisax/): 3 Anbieter mit verlinktem Nachweis (Exoscale, STACKIT, T-Systems / Open Telekom Cloud (AI Foundation Services))
+- [ISO 50001](https://belegbar.eu/zertifikate/iso-50001/): 2 Anbieter mit verlinktem Nachweis (Infomaniak, IONOS (AI Model Hub)), 1 beansprucht ohne Nachweis (GreenPT)
 
 ## Anbieter-Profile
 
@@ -40,6 +61,6 @@ Maschinenlesbare Rohdaten aller Anbieter (JSON, mit Quellen-URLs und Prüfdatum 
 
 ## Methodik und Hintergrund
 
-- [Methodik](https://belegbar.eu/methodik/): Was „belegt" heißt, die drei Statusstufen, Beleg-Quote und der Verified-Prozess für Anbieter
+- [Methodik](https://belegbar.eu/methodik/): Was „belegt“ heißt, die drei Statusstufen, Beleg-Quote und der Verified-Prozess für Anbieter
 - [Direktvergleiche](https://belegbar.eu/vergleich/): Anbieter derselben Kategorie Feld für Feld gegenübergestellt
 - [Über & Impressum](https://belegbar.eu/ueber/): Betreiber und Kontakt
