@@ -12,7 +12,7 @@
   "vertrag": {
     "avv": { "wert": null, "status": "beansprucht", "quelle": "https://www.requesty.ai/dpa", "anmerkung": "DPA-Infoseite vorhanden, das eigentliche Dokument nur auf Anfrage per E-Mail; kein öffentlicher Volltext" },
     "subprozessoren": { "wert": "https://www.requesty.ai/privacy/subprocessors", "status": "belegt", "quelle": "https://www.requesty.ai/privacy/subprocessors", "anmerkung": "Öffentliche Liste: AWS Frankfurt plus 32 Modellprovider, darunter 17 US-Firmen und China-Anbieter (DeepSeek, Moonshot, Tencent); NVIDIA und Poolside mit 'Training Permitted' (Free Plan)" },
-    "training_opt_out": { "wert": true, "status": "belegt", "quelle": "https://docs.requesty.ai", "anmerkung": "'Requesty is a pass-through gateway. We don't train on your requests'; Ausnahme: Free-Plan-Modelle von NVIDIA/Poolside erlauben Upstream-Training" },
+    "training_opt_out": { "wert": true, "status": "belegt", "quelle": "https://docs.requesty.ai/quickstart", "anmerkung": "'Requesty is a pass-through gateway. We don't train on your requests'; Ausnahme: Free-Plan-Modelle von NVIDIA/Poolside erlauben Upstream-Training" },
     "zero_data_retention": { "wert": null, "status": "beansprucht", "quelle": "https://www.requesty.ai/dpa", "anmerkung": "Widersprüchlich: Security-Seite sagt 'never stored', DPA-Seite nennt 30-Tage-Log-Retention als Standard; ZDR organisationsweit nur auf schriftliche Anfrage" }
   },
   "zertifikate": [
