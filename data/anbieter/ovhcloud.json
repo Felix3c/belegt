@@ -19,15 +19,15 @@
     "zero_data_retention": { "wert": true, "status": "belegt", "quelle": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/", "anmerkung": "Produktseite: 'Zero data retention: We keep only the data required for billing purposes.'" }
   },
   "zertifikate": [
-    { "typ": "ISO 27001", "status": "belegt", "quelle": "https://www.ovhcloud.com/en/enterprise/certification-conformity/", "anmerkung": "Inkl. ISO 27017/27018; auf alle Cloud-Lösungen ausgeweitet." },
-    { "typ": "ISO 27701", "status": "belegt", "quelle": "https://www.ovhcloud.com/en/enterprise/certification-conformity/", "anmerkung": "PIMS für Personendaten-Verarbeitung." },
-    { "typ": "SOC 1/2/3", "status": "belegt", "quelle": "https://www.ovhcloud.com/en/enterprise/certification-conformity/", "anmerkung": "SSAE 16/ISAE 3402 Type 2 im Compliance-Portal gelistet." },
-    { "typ": "BSI C5", "status": "belegt", "quelle": "https://www.ovhcloud.com/en/enterprise/certification-conformity/", "anmerkung": "Im Compliance-Portal gelistet; Geltungsbereich je Produkt prüfen." },
-    { "typ": "SecNumCloud", "status": "belegt", "quelle": "https://www.ovhcloud.com/en/enterprise/certification-conformity/", "anmerkung": "ANSSI-Qualifikation für bestimmte OVHcloud-Angebote — gilt nicht automatisch für AI Endpoints." },
-    { "typ": "HDS", "status": "belegt", "quelle": "https://www.ovhcloud.com/en/enterprise/certification-conformity/", "anmerkung": "Französische Gesundheitsdaten-Zertifizierung (ANS)." }
+    { "typ": "ISO 27001", "status": "belegt", "quelle": "https://www.ovhcloud.com/en/compliance/", "anmerkung": "Inkl. ISO 27017/27018; auf alle Cloud-Lösungen ausgeweitet." },
+    { "typ": "ISO 27701", "status": "belegt", "quelle": "https://www.ovhcloud.com/en/compliance/", "anmerkung": "PIMS für Personendaten-Verarbeitung." },
+    { "typ": "SOC 1/2/3", "status": "belegt", "quelle": "https://www.ovhcloud.com/en/compliance/", "anmerkung": "SSAE 16/ISAE 3402 Type 2 im Compliance-Portal gelistet." },
+    { "typ": "BSI C5", "status": "belegt", "quelle": "https://www.ovhcloud.com/en/compliance/", "anmerkung": "Im Compliance-Portal gelistet; Geltungsbereich je Produkt prüfen." },
+    { "typ": "SecNumCloud", "status": "belegt", "quelle": "https://www.ovhcloud.com/en/compliance/", "anmerkung": "ANSSI-Qualifikation für bestimmte OVHcloud-Angebote — gilt nicht automatisch für AI Endpoints." },
+    { "typ": "HDS", "status": "belegt", "quelle": "https://www.ovhcloud.com/en/compliance/", "anmerkung": "Französische Gesundheitsdaten-Zertifizierung (ANS)." }
   ],
   "ai_act": [
-    { "pflicht": "AI-Act-Informationsmaterial veröffentlicht", "status": "belegt", "quelle": "https://blog.ovhcloud.com/ai-act-in-a-nutshell/", "anmerkung": "Offizieller Beitrag 'AI Act in a nutshell'; Positionierung über Modelltransparenz durch Open-Weight-Modelle." },
+    { "pflicht": "AI-Act-Informationsmaterial veröffentlicht", "status": "belegt", "quelle": "https://blog.ovhcloud.com/en/posts/ai-act-in-a-nutshell/", "anmerkung": "Offizieller Beitrag 'AI Act in a nutshell'; Positionierung über Modelltransparenz durch Open-Weight-Modelle." },
     { "pflicht": "GPAI Code of Practice unterzeichnet", "status": "unbelegt", "quelle": null, "anmerkung": "Keine Unterzeichnung auffindbar; als Hoster fremder Open-Weight-Modelle kein typischer Pflichtenadressat." }
   ],
   "geprueft": "2026-08-19"
