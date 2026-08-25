@@ -2,7 +2,7 @@
 
 **Stand:** 2026-08-25 (abends)
 **Führendes Dokument:** `MESSUNG.md` (Kill-Kriterien) · Ziel-Satz in `~/THESE.md` („Das Ziel ist der Stempel, nicht das Urteil“)
-**Phase:** live, 21 Anbieter, 120 URLs. **Fall 2026-001 vorbereitet, noch nicht veröffentlicht.**
+**Phase:** live, 21 Anbieter, 122 URLs. **Fall 2026-001 ist LIVE** (seit 25.08.2026 abends, Commit d70d311).
 
 ## Wo wir stehen
 
@@ -20,22 +20,19 @@ SHA-256 und Archivkopie, mit Antwortfrist für den Anbieter.
 - **Sicherung im Build:** Ein Fall ohne `anbieter_informiert` bricht den Build ab. Vorschau nur mit `BUILD_VORSCHAU=1`.
 - **Mail-Entwurf:** `outreach/mails/08-requesty-fall-2026-001.md` (englisch, nicht gesendet).
 
-## Nächster konkreter Schritt — in dieser Reihenfolge, an einem Tag
+## Erledigt am 25.08.2026 (abends)
 
-1. **Mail-Entwurf lesen und senden** (`outreach/mails/08-requesty-fall-2026-001.md`). Empfänger: Gründer via
-   LinkedIn oder sales@requesty.ai. Frist im Text: 08.09.2026 — wenn du später sendest, Frist im JSON
-   (`antwort_frist`) und in der Mail auf Versand + 14 Tage schieben.
-2. **`anbieter_informiert` setzen** auf das Versanddatum, Verlaufseintrag ergänzen
-   („Anbieter per E-Mail informiert, Frist bis …“).
-3. **Bauen und pushen:**
-   ```
-   cd ~/belegt && node build.js && git add -A && git commit -m "feat: Fall 2026-001 veröffentlicht" && git push
-   ```
-   Hinweis: Durch den neuen Nav-Punkt „Fälle“ ändert sich das HTML *jeder* Seite — der Ledger stempelt
-   deshalb alle lastmod auf das Build-Datum. Das ist korrekt (das HTML hat sich wirklich geändert).
-4. **Live prüfen:** `/faelle/`, `/faelle/requesty-zero-data-retention/`, `/anbieter/requesty/` (Hinweisbox),
-   `/methodik/#faelle`. Sitemap sollte 122 URLs melden.
-5. **Sitemap in der Search Console neu einreichen** (war schon offen: eingereicht 73, jetzt 122).
+1. Mail an sales@requesty.ai gesendet (Gmail-ID 1a03997d2072513d).
+2. `anbieter_informiert` = 2026-08-25, Verlaufseintrag ergänzt.
+3. Gebaut, committet (`d70d311 feat: Fall 2026-001 veröffentlicht`), gepusht; nach ~150 s live verifiziert:
+   `/faelle/requesty-zero-data-retention/` 200, Sitemap 122 URLs.
+4. Sitemap in der Search Console neu eingereicht („Sitemap wurde eingereicht“). Hinweis: Eine frühere Einreichung
+   vom selben Tag stand auf „Konnte nicht abgerufen werden“ — beim nächsten Login prüfen, ob der Status jetzt grün ist.
+
+## Nächster konkreter Schritt
+
+**Warten und beobachten.** Antwortfrist läuft bis 08.09.2026. Nachfassen am 3./4.9. (Text am Ende von
+`outreach/mails/08-requesty-fall-2026-001.md`). Search-Console-Status der Sitemap beim nächsten Login prüfen.
 
 ## Danach
 
