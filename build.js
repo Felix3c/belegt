@@ -83,6 +83,11 @@ const RAUM_TEXT = {
   angemessen: "Drittland mit Angemessenheitsbeschluss der EU-Kommission — Übermittlung ohne zusätzliche Garantien zulässig (Art. 45 DSGVO).",
   drittland: "Drittland ohne Angemessenheitsbeschluss — Übermittlung nur mit geeigneten Garantien, etwa Standardvertragsklauseln (Art. 46 DSGVO).",
 };
+/** Stabile ID des einen Datensatzes. Unterseiten verweisen nur darauf, statt ihn zu wiederholen:
+ *  Ein eingebettetes Objekt mit "@type" waere fuer einen Parser eine NEUE Entitaet und muesste
+ *  alle Pflichtfelder tragen — ein reiner "@id"-Verweis ist dagegen nur ein Zeiger. */
+const DATASET_ID = SITE.baseUrl + "/#dataset";
+
 const RAUM_KURZ = { eu: "EU", angemessen: "Angemessenheitsbeschluss", drittland: "Drittland ohne Beschluss" };
 
 function landInfo(code) {
@@ -419,6 +424,7 @@ function seiteIndex(providers) {
   const jsonld = {
     "@context": "https://schema.org",
     "@type": "Dataset",
+    "@id": DATASET_ID,
     name: "belegbar.eu — Evidenz-Datenbank europäischer KI-Anbieter",
     description: SITE.claim,
     url: SITE.baseUrl,
@@ -537,7 +543,7 @@ function seiteAnbieter(p, alleProvider, facetten) {
     url: `${SITE.baseUrl}/anbieter/${p.id}/`,
     dateModified: juengstesDatum(p) || undefined,
     license: "https://creativecommons.org/licenses/by/4.0/",
-    isPartOf: { "@type": "Dataset", name: "belegbar.eu — Evidenz-Datenbank europäischer KI-Anbieter", url: SITE.baseUrl },
+    isPartOf: { "@id": DATASET_ID },
     about: {
       "@type": "Organization",
       name: p.name,
@@ -943,7 +949,7 @@ ${f.inhalt}
       mainEntity: [{ "@type": "Question", name: f.frage, acceptedAnswer: { "@type": "Answer", text: f.antwort } }],
       dateModified: stand || undefined,
       license: "https://creativecommons.org/licenses/by/4.0/",
-      isPartOf: { "@type": "Dataset", name: "belegbar.eu — Evidenz-Datenbank europäischer KI-Anbieter", url: SITE.baseUrl },
+      isPartOf: { "@id": DATASET_ID },
     },
     brotkrumenLd([["", "Anbieter"], ["fragen/", "Fragen"], [`fragen/${f.slug}/`, f.frage]]),
   ];
