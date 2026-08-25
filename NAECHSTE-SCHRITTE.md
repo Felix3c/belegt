@@ -15,10 +15,9 @@ SHA-256 und Archivkopie, mit Antwortfrist für den Anbieter.
   sagen: Self-Serve-Logging standardmäßig an, 30 Tage. Datei: `data/faelle/2026-001-requesty-zero-data-retention.json`.
   Rohkopien + Hashes: `belege/faelle/2026-001/`. Wayback-Kopien aller drei Seiten vom 25.08. liegen im JSON.
 - **Neuer Seitentyp `/faelle/`** in `build.js` (Index + Fallseite mit ClaimReview-JSON-LD), Hinweisbox im
-  Anbieterprofil, Methodik-Abschnitt `#faelle`, Eintrag in `llms.txt` und `daten.json`, CSS. Alles lokal gebaut
-  und geprüft; `docs/` ist bewusst **nicht** neu gebaut worden, damit nichts vor der Mail live geht.
+  Anbieterprofil, Methodik-Abschnitt `#faelle`, Eintrag in `llms.txt` und `daten.json`, CSS. Gebaut, geprüft, live.
 - **Sicherung im Build:** Ein Fall ohne `anbieter_informiert` bricht den Build ab. Vorschau nur mit `BUILD_VORSCHAU=1`.
-- **Mail-Entwurf:** `outreach/mails/08-requesty-fall-2026-001.md` (englisch, nicht gesendet).
+- **Mail:** `outreach/mails/08-requesty-fall-2026-001.md` (englisch) — gesendet am 25.08.2026 an sales@requesty.ai.
 
 ## Erledigt am 25.08.2026 (abends)
 
