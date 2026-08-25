@@ -27,6 +27,13 @@ Build aus den Anbieterdaten berechnet und können deshalb nicht von der Datenban
 - [TISAX](https://belegbar.eu/zertifikate/tisax/): 3 Anbieter mit verlinktem Nachweis (Exoscale, STACKIT, T-Systems / Open Telekom Cloud (AI Foundation Services))
 - [ISO 50001](https://belegbar.eu/zertifikate/iso-50001/): 2 Anbieter mit verlinktem Nachweis (Infomaniak, IONOS (AI Model Hub)), 1 beansprucht ohne Nachweis (GreenPT)
 
+## Fälle: dokumentierte Widersprüche
+
+Ein Fall hält fest, dass zwei öffentliche Aussagen eines Anbieters nicht zugleich wahr sein können — wörtlich zitiert,
+mit Abrufzeitpunkt, SHA-256 und Archivkopie. Der Anbieter wird vorab informiert; seine Antwort erscheint wörtlich. Status je Fall bitte mitzitieren.
+
+- [Fall 2026-001 (offen, 2026-08-25)](https://belegbar.eu/faelle/requesty-zero-data-retention/): Die DPA- und Security-Seiten von Requesty sagen ohne Einschränkung, Anfrage- und Antwortinhalte würden „never stored“. Dieselben Seiten sagen im Kleingedruckten: Auf Self-Serve-Tarifen ist das Logging von Prompts und Ausgaben standardmäßig an, Aufbewahrung 30 Tage. Beide Aussagen können nicht zugleich für den Standardfall gelten.
+
 ## Anbieter-Profile
 
 - [Aleph Alpha](https://belegbar.eu/anbieter/aleph-alpha/): Heidelberger KI-Modellanbieter (PhariaAI-Plattform, Pharia-Modellfamilie, Fokus auf spezialisierte Sprachmodelle für Industrie und Verwaltung); die im April 2026 angekündigte Fusion mit dem kanadischen Anbieter Cohere ist noch nicht vollzogen. (geprüft 2026-08-19, Rohdaten: https://belegbar.eu/anbieter/aleph-alpha/daten.json)
@@ -61,6 +68,6 @@ Build aus den Anbieterdaten berechnet und können deshalb nicht von der Datenban
 
 ## Methodik und Hintergrund
 
-- [Methodik](https://belegbar.eu/methodik/): Was „belegt“ heißt, die drei Statusstufen, Beleg-Quote und der Verified-Prozess für Anbieter
+- [Methodik](https://belegbar.eu/methodik/): Was „belegt“ heißt, die drei Statusstufen, Beleg-Quote, der Verified-Prozess für Anbieter und die Regeln für Fälle
 - [Direktvergleiche](https://belegbar.eu/vergleich/): Anbieter derselben Kategorie Feld für Feld gegenübergestellt
 - [Über & Impressum](https://belegbar.eu/ueber/): Betreiber und Kontakt

@@ -9,6 +9,8 @@ Eine Evidenz-Datenbank für EU-souveräne AI-Inference-Anbieter: Hosting-Standor
 ```
 data/anbieter/*.json   → ein Anbieter pro Datei (das eigentliche Produkt)
 data/lastmod.json      → Inhalts-Ledger für die Sitemap (versioniert, nicht löschen)
+data/faelle/*.json     → Fälle: dokumentierte Widersprüche zwischen Behauptung und Beleg
+belege/faelle/<id>/    → Rohkopien der zitierten Seiten + SHA256SUMS (Beweismittel, nicht auf der Site)
 guides/*.html          → Ratgeber-Artikel (META-Kopf + HTML-Fragment)
 src/style.css          → Stylesheet
 build.js               → Generator (ohne Abhängigkeiten)
@@ -33,6 +35,14 @@ Liest `data/` und `guides/`, schreibt die komplette statische Site nach `docs/`.
 **Die Datei gehört ins Repository.** Fehlt sie, kennt der nächste Build keine Vorgeschichte und stempelt die ganze Site auf heute — Suchmaschinen sehen dann ein Massen-Update, das keines war.
 
 Für reproduzierbare Builds lässt sich das Datum setzen: `BUILD_DATUM=2026-08-24 node build.js`.
+
+## Fälle
+
+Ein Fall (`data/faelle/<id>-<slug>.json`) dokumentiert, dass zwei öffentliche Aussagen eines Anbieters nicht zugleich wahr sein können. Pflichtfelder: `id`, `slug`, `anbieter` (= Anbieter-`id`), `titel`, `kurz`, `eroeffnet`, `status` (`offen|beantwortet|ausgeraeumt|bestaetigt`), `antwort_frist`, `behauptung[]`, `beleg[]` (je `zitat`, `quelle`, `abgerufen` als UTC-Zeitstempel, `sha256` der abgerufenen Seite, optional `archiv`), `widerspruch`, `verlauf[]`. Optional: `was_es_nicht_heisst`, `aufloesung[]`, `antworten[]` (`datum`, `text`, `von`).
+
+**Der Anbieter erfährt es zuerst.** Solange `anbieter_informiert` leer ist, bricht der Build ab. Zum Prüfen vor dem Versand: `BUILD_VORSCHAU=1 node build.js` — die Ausgabe dann nicht committen. Regeln stehen auf der Methodik-Seite unter `#faelle`.
+
+Ablauf je Fall: Seiten abrufen und hashen (`sha256sum`), bei web.archive.org/save/ archivieren, Rohkopien nach `belege/faelle/<id>/`, Fall-Datei schreiben, Anbieter anschreiben (Vorlage in `outreach/mails/`), `anbieter_informiert` setzen, bauen, pushen. Antworten wörtlich in `antworten[]` eintragen, Status fortschreiben, jeden Schritt im `verlauf[]` datieren. Ein Fall wird nie gelöscht.
 
 ## Quellen prüfen
 
