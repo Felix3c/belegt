@@ -275,6 +275,7 @@ function layout({ titel, beschreibung, inhalt, rel, pfad, jsonld }) {
     ["", "Anbieter"],
     ["fragen/", "Fragen"],
     ["zertifikate/", "Zertifikate"],
+    ["faelle/", "Fälle"],
     ["vergleich/", "Vergleiche"],
     ["ratgeber/", "Ratgeber"],
     ["methodik/", "Methodik"],
@@ -441,7 +442,8 @@ function seiteIndex(providers) {
   });
 }
 
-function seiteAnbieter(p, alleProvider, facetten) {
+function seiteAnbieter(p, alleProvider, facetten, faelle) {
+  const eigeneFaelle = (faelle || []).filter((f) => f.anbieter === p.id);
   const s = p.stammdaten;
   const li = landInfo(s.land);
   // Direktvergleiche derselben Kategorie: holt die 76 Vergleichsseiten aus der Sackgasse.
@@ -498,6 +500,7 @@ function seiteAnbieter(p, alleProvider, facetten) {
       ${verifiedStempel(p, "../../")}
     </div>
   </header>
+${eigeneFaelle.map((f) => `  <aside class="fall-hinweis fall-${esc(f.status)}"><strong>Fall ${esc(f.id)} · ${esc(FALL_STATUS[f.status].label)}:</strong> ${esc(f.kurz)} <a href="../../faelle/${esc(f.slug)}/">Zum Fall mit Zitaten, Zeitstempeln und Antwortfrist</a></aside>`).join("\n")}
 
   <h2>Stammdaten</h2>
   <dl class="stammdaten">
@@ -655,6 +658,96 @@ ${g.html}
   });
 }
 
+function fallStatusBadge(status) {
+  const st = FALL_STATUS[status];
+  return `<span class="fall-status fall-${esc(status)}" title="${esc(st.text)}"><span class="dot"></span>${esc(st.label)}</span>`;
+}
+
+function zitatBlock(z) {
+  return `<figure class="zitat">
+  <blockquote lang="en">„${esc(z.zitat)}“</blockquote>
+  <figcaption>${z.kontext ? esc(z.kontext) + " " : ""}<a href="${esc(z.quelle)}" rel="noopener nofollow" target="_blank">${esc(z.quelle.replace(/^https?:\/\//, ""))}</a>, abgerufen ${esc(z.abgerufen.replace("T", " ").replace("Z", " UTC"))}${z.archiv ? ` · <a href="${esc(z.archiv)}" rel="noopener nofollow" target="_blank">Archivkopie</a>` : ""}<br><span class="hash">SHA-256 der abgerufenen Seite: <code>${esc(z.sha256)}</code></span></figcaption>
+</figure>`;
+}
+
+function seiteFall(f, provider, stand) {
+  const st = FALL_STATUS[f.status];
+  const inhalt = `
+<nav class="brotkrumen" aria-label="Pfad"><a href="../../">Anbieter</a> / <a href="../">Fälle</a> / Fall ${esc(f.id)}</nav>
+<article class="artikel fall">
+<p class="fall-kopf">Fall ${esc(f.id)} · ${fallStatusBadge(f.status)} · eröffnet ${datumDE(f.eroeffnet)} · Anbieter: <a href="../../anbieter/${esc(provider.id)}/">${esc(provider.name)}</a></p>
+<h1>${esc(f.titel)}</h1>
+<div class="direktantwort"><p><strong>Kurz:</strong> ${esc(f.kurz)}</p></div>
+
+<h2>Die Behauptung</h2>
+${f.behauptung.map(zitatBlock).join("\n")}
+
+<h2>Der Beleg</h2>
+${f.beleg.map(zitatBlock).join("\n")}
+
+<h2>Worin der Widerspruch besteht</h2>
+<p>${esc(f.widerspruch)}</p>
+
+${f.was_es_nicht_heisst ? `<h2>Was dieser Fall nicht heißt</h2>
+<p>${esc(f.was_es_nicht_heisst)}</p>` : ""}
+
+${(f.aufloesung || []).length ? `<h2>Was den Fall ausräumt</h2>
+<ol>${f.aufloesung.map((a) => `<li>${esc(a)}</li>`).join("")}</ol>` : ""}
+
+<h2>Antwort des Anbieters</h2>
+${f.antworten.length
+    ? f.antworten.map((a) => `<figure class="zitat antwort"><blockquote>${esc(a.text)}</blockquote><figcaption>${esc(provider.name)}, ${datumDE(a.datum)}${a.von ? ", " + esc(a.von) : ""} — wörtlich, ungekürzt</figcaption></figure>`).join("\n")
+    : `<p class="leer">Noch keine Antwort. ${f.anbieter_informiert ? `Der Anbieter wurde am ${datumDE(f.anbieter_informiert)} informiert; Antwortfrist bis ${datumDE(f.antwort_frist)}.` : `Antwortfrist bis ${datumDE(f.antwort_frist)}.`} Jede Antwort wird hier wörtlich und ungekürzt veröffentlicht.</p>`}
+
+<h2>Verlauf</h2>
+<table class="verlauf"><tbody>
+${f.verlauf.map((v) => `<tr><td class="datum">${datumDE(v.datum)}</td><td>${esc(v.ereignis)}</td></tr>`).join("\n")}
+</tbody></table>
+
+<footer class="dossier-fuss">
+  <p>Status <strong>${esc(st.label)}</strong>: ${esc(st.text)}. Ein Fall wird nie gelöscht — auch ein ausgeräumter Fall bleibt mit seinem Verlauf stehen. Was ein Fall ist und was nicht: <a href="../../methodik/#faelle">Methodik</a>.</p>
+  <p class="klein">Zitieren als: „Fall ${esc(f.id)} — ${esc(f.titel)}“, belegbar.eu, Stand ${datumDE(stand)}, ${SITE.baseUrl}/faelle/${esc(f.slug)}/ · Lizenz CC BY 4.0</p>
+  <p><strong>Sie arbeiten bei ${esc(provider.name)}?</strong> Antworten Sie an <a href="mailto:${SITE.kontakt}?subject=Fall%20${encodeURIComponent(f.id)}%20${encodeURIComponent(provider.name)}">${SITE.kontakt}</a> — Ihre Antwort erscheint wörtlich auf dieser Seite.</p>
+</footer>
+</article>`;
+  const jsonld = [
+    {
+      "@context": "https://schema.org",
+      "@type": "ClaimReview",
+      url: `${SITE.baseUrl}/faelle/${f.slug}/`,
+      datePublished: f.eroeffnet,
+      dateModified: f.verlauf[f.verlauf.length - 1].datum,
+      author: { "@type": "Organization", name: "belegbar.eu", url: SITE.baseUrl },
+      claimReviewed: f.behauptung[0].zitat,
+      itemReviewed: { "@type": "Claim", appearance: f.behauptung.map((z) => ({ "@type": "WebPage", url: z.quelle })), author: { "@type": "Organization", name: provider.name, url: provider.stammdaten.website } },
+      reviewRating: { "@type": "Rating", alternateName: st.label, ratingExplanation: st.text },
+      license: "https://creativecommons.org/licenses/by/4.0/",
+      isPartOf: { "@id": DATASET_ID },
+    },
+    brotkrumenLd([["", "Anbieter"], ["faelle/", "Fälle"], [`faelle/${f.slug}/`, `Fall ${f.id}`]]),
+  ];
+  return layout({ titel: `Fall ${f.id}: ${f.titel} | belegbar.eu`, beschreibung: f.kurz, inhalt, rel: "../../", pfad: `faelle/${f.slug}/`, jsonld });
+}
+
+function seiteFaelleIndex(faelle, providers, stand) {
+  const byId = new Map(providers.map((p) => [p.id, p]));
+  const inhalt = `
+<article class="artikel">
+<h1>Fälle: Wo Behauptung und Beleg auseinanderlaufen</h1>
+<p>Ein Fall ist kein Urteil. Er dokumentiert, dass zwei öffentliche Aussagen desselben Anbieters — oder eine Aussage und ihr Primärdokument — nicht zugleich wahr sein können. Mit wörtlichem Zitat, Abrufzeitpunkt, Inhalts-Hash und Archivkopie. Der Anbieter wird vor der Veröffentlichung informiert, seine Antwort erscheint wörtlich. <a href="../methodik/#faelle">So funktioniert es.</a></p>
+${faelle.length ? `<ul class="liste-faelle">
+${faelle.map((f) => `<li><p class="fall-kopf">Fall ${esc(f.id)} · ${fallStatusBadge(f.status)} · ${datumDE(f.eroeffnet)} · ${esc((byId.get(f.anbieter) || {}).name || f.anbieter)}</p><a href="${esc(f.slug)}/"><strong>${esc(f.titel)}</strong></a><p class="klein">${esc(f.kurz)}</p></li>`).join("\n")}
+</ul>` : '<p class="leer">Noch kein Fall dokumentiert.</p>'}
+<footer class="dossier-fuss"><p class="klein">Stand ${datumDE(stand)} · Lizenz CC BY 4.0</p></footer>
+</article>`;
+  return layout({
+    titel: "Fälle — dokumentierte Widersprüche bei europäischen KI-Anbietern | belegbar.eu",
+    beschreibung: "Wo Marketing-Aussage und eigenes Dokument eines KI-Anbieters nicht zusammenpassen: wörtlich zitiert, datiert, archiviert, mit Antwortfrist und Antwort des Anbieters.",
+    inhalt, rel: "../", pfad: "faelle/",
+    jsonld: brotkrumenLd([["", "Anbieter"], ["faelle/", "Fälle"]]),
+  });
+}
+
 function seiteMethodik() {
   const inhalt = `
 <article class="artikel">
@@ -681,6 +774,17 @@ ${belegZeile("unbelegt", "Wir haben keine belastbare Angabe gefunden. Auch das i
 <li><strong>Aktualität.</strong> Der Stempel trägt sein Datum sichtbar. Ändern sich Fakten wesentlich (z. B. neuer Eigentümer, ausgelaufenes Zertifikat), prüfen wir neu — das Kennzeichen bleibt nur mit aktuellem Stand bestehen.</li>
 </ol>
 <p><strong>Was Verified nicht ist:</strong> Es ist nicht käuflich, kein Ranking-Vorteil und keine Bedingung für die Aufnahme — gelistet wird, wer relevant ist, mit oder ohne Mitwirkung. Anbieter können der Listung ihrer öffentlich verfügbaren Angaben nicht widersprechen, wohl aber jederzeit Korrekturen mit Beleg verlangen.</p>
+
+<h2 id="faelle">Fälle: Wenn Behauptung und Beleg auseinanderlaufen</h2>
+<p>Die drei Statusstufen sagen, <em>ob</em> eine Angabe belegt ist. Ein <a href="${SITE.baseUrl}/faelle/">Fall</a> dokumentiert etwas Schärferes: dass zwei öffentliche Aussagen desselben Anbieters — oder eine Marketing-Aussage und das eigene Primärdokument — nicht zugleich wahr sein können. Ein Fall ist kein Urteil über Qualität, Rechtskonformität oder Absicht. Er hält fest, was wo stand, und wann.</p>
+<ol>
+<li><strong>Voraussetzung.</strong> Es genügt nicht, dass ein Beleg fehlt — das ist „beansprucht“. Ein Fall braucht zwei prüfbare, öffentliche Textstellen, die sich widersprechen. Wir zitieren beide wörtlich, mit Abrufzeitpunkt, SHA-256-Hash der abgerufenen Seite und, wo möglich, einer Kopie im Internet Archive. So bleibt der Fall nachprüfbar, auch wenn der Anbieter die Seite später ändert — und so kann uns niemand vorwerfen, wir hätten den Wortlaut nachträglich angepasst.</li>
+<li><strong>Der Anbieter erfährt es zuerst.</strong> Vor der Veröffentlichung schreiben wir den Anbieter an, mit dem vollständigen Text des Falls und einer Antwortfrist von 14 Tagen. Unser Build-Werkzeug veröffentlicht keinen Fall, in dem das Datum dieser Benachrichtigung fehlt.</li>
+<li><strong>Die Antwort erscheint wörtlich.</strong> Was der Anbieter uns schickt, steht ungekürzt neben dem Fall. Wir kommentieren, aber wir kürzen nicht.</li>
+<li><strong>Vier Zustände.</strong> <em>offen</em> (informiert, Frist läuft) · <em>beantwortet</em> (Antwort liegt vor, wird geprüft) · <em>ausgeräumt</em> (Aussage korrigiert oder belegt — der Widerspruch besteht nicht mehr) · <em>bestätigt</em> (Frist verstrichen oder Antwort räumt den Widerspruch nicht aus; eine spätere Antwort ist jederzeit möglich).</li>
+<li><strong>Nichts wird gelöscht.</strong> Auch ein ausgeräumter Fall bleibt mit seinem Verlauf stehen. Dass ein Anbieter eine Aussage innerhalb von Tagen korrigiert hat, ist eine der nützlichsten Informationen, die diese Datenbank enthalten kann.</li>
+</ol>
+<p><strong>Was ein Fall nicht ist:</strong> kein Ranking, nicht käuflich, nicht abwendbar durch Sponsoring — und kein Pranger. Wir schreiben ihn so, dass der Anbieter ihn mit einer Korrektur ausräumen kann und danach besser dasteht als vorher.</p>
 
 <h2>Verfallen Belege? Ja — und wir prüfen das</h2>
 <p>Eine Evidenz-Datenbank verfällt nicht dadurch, dass Angaben falsch werden, sondern dadurch, dass ihre Belege verschwinden. Anbieter bauen ihre Websites um, Dokumente wandern, Domains werden zusammengelegt. Ein Link, der ins Leere zeigt, ist schlimmer als eine fehlende Angabe: Er täuscht Nachweisbarkeit vor.</p>
@@ -729,7 +833,7 @@ E-Mail: <a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a></p>
 }
 
 /** llms.txt — Wegweiser für KI-Assistenten und LLM-Crawler (llmstxt.org). */
-function llmsTxt(providers, guides, fragen, facetten) {
+function llmsTxt(providers, guides, fragen, facetten, faelle) {
   const anbieterZeilen = providers
     .map((p) => `- [${p.name}](${SITE.baseUrl}/anbieter/${p.id}/): ${p.kurzbeschreibung || ""} (geprüft ${p.geprueft}, Rohdaten: ${SITE.baseUrl}/anbieter/${p.id}/daten.json)`)
     .join("\n");
@@ -756,6 +860,13 @@ ${fragen.map((f) => `- [${f.frage}](${SITE.baseUrl}/fragen/${f.slug}/): ${f.antw
 
 ${facetten.map((e) => `- [${e.label}](${SITE.baseUrl}/zertifikate/${e.schluessel}/): ${e.belegt.length} Anbieter mit verlinktem Nachweis${e.belegt.length ? " (" + e.belegt.map((x) => x.p.name).join(", ") + ")" : ""}${e.beansprucht.length ? ", " + e.beansprucht.length + " beansprucht ohne Nachweis (" + e.beansprucht.map((x) => x.p.name).join(", ") + ")" : ""}`).join("\n")}
 
+## Fälle: dokumentierte Widersprüche
+
+Ein Fall hält fest, dass zwei öffentliche Aussagen eines Anbieters nicht zugleich wahr sein können — wörtlich zitiert,
+mit Abrufzeitpunkt, SHA-256 und Archivkopie. Der Anbieter wird vorab informiert; seine Antwort erscheint wörtlich. Status je Fall bitte mitzitieren.
+
+${(faelle || []).length ? faelle.map((f) => `- [Fall ${f.id} (${FALL_STATUS[f.status].label}, ${f.eroeffnet})](${SITE.baseUrl}/faelle/${f.slug}/): ${f.kurz}`).join("\n") : "- Noch kein Fall dokumentiert."}
+
 ## Anbieter-Profile
 
 ${anbieterZeilen}
@@ -766,7 +877,7 @@ ${guideZeilen}
 
 ## Methodik und Hintergrund
 
-- [Methodik](${SITE.baseUrl}/methodik/): Was „belegt“ heißt, die drei Statusstufen, Beleg-Quote und der Verified-Prozess für Anbieter
+- [Methodik](${SITE.baseUrl}/methodik/): Was „belegt“ heißt, die drei Statusstufen, Beleg-Quote, der Verified-Prozess für Anbieter und die Regeln für Fälle
 - [Direktvergleiche](${SITE.baseUrl}/vergleich/): Anbieter derselben Kategorie Feld für Feld gegenübergestellt
 - [Über & Impressum](${SITE.baseUrl}/ueber/): Betreiber und Kontakt
 `;
@@ -1160,6 +1271,37 @@ function leseAnbieter() {
     .sort((a, b) => a.name.localeCompare(b.name, "de"));
 }
 
+const FAELLE_DIR = path.join(ROOT, "data", "faelle");
+const FALL_STATUS = {
+  offen: { label: "offen", text: "Anbieter informiert, Antwortfrist läuft" },
+  beantwortet: { label: "beantwortet", text: "Antwort des Anbieters liegt vor und wird geprüft" },
+  ausgeraeumt: { label: "ausgeräumt", text: "Widerspruch besteht nicht mehr — Aussage korrigiert oder belegt" },
+  bestaetigt: { label: "bestätigt", text: "Frist verstrichen oder Antwort räumt den Widerspruch nicht aus" },
+};
+
+/** Fälle: dokumentierte Widersprüche zwischen Behauptung und Beleg. Ein Fall ohne
+    Informationsdatum wird nicht veröffentlicht — der Anbieter erfährt es immer zuerst. */
+function leseFaelle(providers) {
+  if (!fs.existsSync(FAELLE_DIR)) return [];
+  const ids = new Set(providers.map((p) => p.id));
+  return fs
+    .readdirSync(FAELLE_DIR)
+    .filter((f) => f.endsWith(".json"))
+    .map((f) => {
+      const x = JSON.parse(fs.readFileSync(path.join(FAELLE_DIR, f), "utf8"));
+      const pflicht = ["id", "slug", "anbieter", "titel", "kurz", "eroeffnet", "status", "antwort_frist", "behauptung", "beleg", "widerspruch", "verlauf"];
+      for (const k of pflicht) if (x[k] === undefined || x[k] === null) throw new Error(`Fall ${f}: Feld "${k}" fehlt`);
+      if (!FALL_STATUS[x.status]) throw new Error(`Fall ${f}: unbekannter Status "${x.status}"`);
+      if (!ids.has(x.anbieter)) throw new Error(`Fall ${f}: Anbieter "${x.anbieter}" existiert nicht`);
+      for (const z of [...x.behauptung, ...x.beleg])
+        if (!z.zitat || !z.quelle || !z.abgerufen || !z.sha256) throw new Error(`Fall ${f}: Zitat ohne zitat/quelle/abgerufen/sha256`);
+      if (!x.anbieter_informiert && !process.env.BUILD_VORSCHAU)
+        throw new Error(`Fall ${x.id}: "anbieter_informiert" ist leer. Erst den Anbieter informieren, dann veröffentlichen (Vorschau: BUILD_VORSCHAU=1).`);
+      return x;
+    })
+    .sort((a, b) => b.id.localeCompare(a.id));
+}
+
 function leseGuides() {
   if (!fs.existsSync(GUIDES_DIR)) return [];
   return fs
@@ -1247,10 +1389,11 @@ function main() {
   // "Stand" der Datenbank: das jüngste Prüfdatum irgendeiner einzelnen Angabe.
   const stand = providers.map(juengstesDatum).filter(Boolean).sort().pop() || null;
   const fragen = fragenKatalog(providers, guides);
+  const faelle = leseFaelle(providers);
 
   // Seiten
   schreibe("index.html", seiteIndex(providers));
-  providers.forEach((p) => schreibe(`anbieter/${p.id}/index.html`, seiteAnbieter(p, providers, facettenSet)));
+  providers.forEach((p) => schreibe(`anbieter/${p.id}/index.html`, seiteAnbieter(p, providers, facettenSet, faelle)));
 
   const paare = [];
   for (let i = 0; i < providers.length; i++)
@@ -1268,12 +1411,14 @@ function main() {
   schreibe("zertifikate/index.html", seiteZertifikateIndex(facetten, facettenAlle, providers, stand));
   facetten.forEach((e) => schreibe(`zertifikate/${e.schluessel}/index.html`, seiteZertifikat(e, providers, stand)));
 
+  schreibe("faelle/index.html", seiteFaelleIndex(faelle, providers, stand));
+  faelle.forEach((f) => schreibe(`faelle/${f.slug}/index.html`, seiteFall(f, providers.find((p) => p.id === f.anbieter), stand)));
   schreibe("methodik/index.html", seiteMethodik());
   schreibe("ueber/index.html", seiteUeber());
   schreibe("404.html", seite404());
 
   // GEO: llms.txt, Volltextfassung und Rohdaten-Export
-  fs.writeFileSync(path.join(OUT, "llms.txt"), llmsTxt(providers, guides, fragen, facetten));
+  fs.writeFileSync(path.join(OUT, "llms.txt"), llmsTxt(providers, guides, fragen, facetten, faelle));
   fs.writeFileSync(path.join(OUT, "llms-full.txt"), llmsFull(providers, guides, fragen, stand));
 
   // Rohdaten mit normierten Zertifikatsschlüsseln und Rechtsraum — sonst muss jeder
@@ -1312,6 +1457,7 @@ function main() {
         },
         volltext: `${SITE.baseUrl}/llms-full.txt`,
         anbieter: providers.map(anreichern),
+        faelle,
       },
       null,
       2
@@ -1322,8 +1468,9 @@ function main() {
   // Sitemap. lastmod kommt aus dem Ledger, also aus dem tatsächlichen Änderungsdatum der Seite —
   // nicht aus dem Prüfdatum der Anbieterdaten. Beides fiel auseinander, sobald sich das Template
   // änderte: Der Inhalt war neu, das lastmod blieb alt, und Crawler kamen nicht wieder.
-  const urls = ["", "fragen/", "zertifikate/", "vergleich/", "ratgeber/", "methodik/", "ueber/"]
+  const urls = ["", "fragen/", "zertifikate/", "faelle/", "vergleich/", "ratgeber/", "methodik/", "ueber/"]
     .concat(fragen.map((f) => `fragen/${f.slug}/`))
+    .concat(faelle.map((f) => `faelle/${f.slug}/`))
     .concat(facetten.map((e) => `zertifikate/${e.schluessel}/`))
     .concat(providers.map((p) => `anbieter/${p.id}/`))
     .concat(paare.map(([a, b]) => `vergleich/${a.id}-vs-${b.id}/`))

@@ -188,3 +188,32 @@ th.num { text-align: right; }
 .direktantwort { background: var(--stempel-hauch); border-left: 3px solid var(--stempel); border-radius: 4px; padding: 14px 18px; margin: 18px 0 26px; max-width: 720px; }
 .direktantwort p { margin: 0; font-size: 16px; line-height: 1.6; }
 .direktantwort strong { font-family: "IBM Plex Mono", Consolas, monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--stempel-tief); display: block; margin-bottom: 6px; }
+
+/* ---------- Fälle: dokumentierte Widersprüche ---------- */
+.fall-kopf { font-size: .92rem; color: var(--tinte-soft); margin: 0 0 .4rem; }
+.fall-status { display: inline-flex; align-items: center; gap: .35em; font-weight: 600; padding: .1em .55em; border-radius: 999px; font-size: .85em; }
+.fall-status .dot { width: .55em; height: .55em; border-radius: 50%; background: currentColor; }
+.fall-offen { color: var(--anspruch); background: var(--anspruch-hauch); }
+.fall-beantwortet { color: var(--stempel); background: var(--stempel-hauch); }
+.fall-ausgeraeumt { color: var(--ok); background: var(--ok-hauch); }
+.fall-bestaetigt { color: var(--warn); background: var(--fehlt-hauch); }
+.fall-hinweis { border-left: 4px solid currentColor; padding: .7rem 1rem; margin: 1rem 0 1.5rem; border-radius: 0 6px 6px 0; }
+.fall-hinweis a { color: inherit; font-weight: 600; white-space: nowrap; }
+.fall-hinweis strong { color: inherit; }
+.fall-hinweis.fall-offen, .fall-hinweis.fall-beantwortet, .fall-hinweis.fall-ausgeraeumt, .fall-hinweis.fall-bestaetigt { color: var(--tinte); }
+.fall-hinweis.fall-offen { border-color: var(--anspruch); background: var(--anspruch-hauch); }
+.fall-hinweis.fall-beantwortet { border-color: var(--stempel); background: var(--stempel-hauch); }
+.fall-hinweis.fall-ausgeraeumt { border-color: var(--ok); background: var(--ok-hauch); }
+.fall-hinweis.fall-bestaetigt { border-color: var(--warn); background: var(--fehlt-hauch); }
+.zitat { margin: 1rem 0 1.4rem; padding: 0; }
+.zitat blockquote { margin: 0; padding: .8rem 1.1rem; background: var(--flaeche-2); border-left: 4px solid var(--linie); font-family: Georgia, "Times New Roman", serif; font-size: 1.05rem; line-height: 1.5; }
+.zitat.antwort blockquote { border-left-color: var(--stempel); white-space: pre-wrap; }
+.zitat figcaption { font-size: .85rem; color: var(--tinte-soft); margin-top: .4rem; line-height: 1.5; }
+.zitat .hash { color: var(--tinte-blass); }
+.zitat .hash code { font-size: .78rem; word-break: break-all; }
+.verlauf { width: 100%; border-collapse: collapse; }
+.verlauf td { padding: .45rem .6rem; border-top: 1px solid var(--linie); vertical-align: top; }
+.verlauf .datum { white-space: nowrap; color: var(--tinte-soft); width: 7.5rem; }
+.liste-faelle { list-style: none; padding: 0; }
+.liste-faelle li { padding: 1rem 0; border-top: 1px solid var(--linie); }
+.liste-faelle li:first-child { border-top: 0; }

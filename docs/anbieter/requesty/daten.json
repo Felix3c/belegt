@@ -63,7 +63,9 @@
       "wert": null,
       "status": "beansprucht",
       "quelle": "https://www.requesty.ai/dpa",
-      "anmerkung": "Widersprüchlich: Security-Seite sagt 'never stored', DPA-Seite nennt 30-Tage-Log-Retention als Standard; ZDR organisationsweit nur auf schriftliche Anfrage"
+      "geprueft": "2026-08-25",
+      "fall": "2026-001",
+      "anmerkung": "Widersprüchlich: DPA- und Security-Seite sagen ohne Einschränkung 'request and response bodies are never stored' bzw. 'No data stored'; dieselben Seiten und die Privacy Policy nennen für Self-Serve-Tarife Prompt-/Output-Logging als Standard mit 30 Tagen Aufbewahrung. ZDR nur pro API-Schlüssel abschaltbar oder organisationsweit auf schriftliche Anfrage. Dokumentiert als Fall 2026-001."
     }
   },
   "zertifikate": [
@@ -97,7 +99,7 @@
   "geprueft": "2026-08-19",
   "url": "https://belegbar.eu/anbieter/requesty/",
   "beleg_quote_prozent": 20,
-  "zuletzt_geprueft": "2026-08-19",
+  "zuletzt_geprueft": "2026-08-25",
   "rechtsraum": {
     "land": "GB",
     "name": "Vereinigtes Königreich",

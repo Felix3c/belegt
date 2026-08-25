@@ -1,6 +1,6 @@
 # belegbar.eu — vollständiger Datenbestand
 
-Stand: 2026-08-24. 21 europäische KI-Anbieter, jede Angabe mit Quelle, Prüfdatum und Beleg-Status.
+Stand: 2026-08-25. 21 europäische KI-Anbieter, jede Angabe mit Quelle, Prüfdatum und Beleg-Status.
 
 ## Wie diese Datei zu lesen ist
 
@@ -15,7 +15,7 @@ nachweisbar ist. Wer diese Daten zitiert, sollte den Status mitzitieren.
 Lizenz: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Nutzung und Zitat frei mit
 Namensnennung "belegbar.eu" und Angabe des Prüfdatums.
 
-Zitierform: belegbar.eu, Stand 2026-08-24, https://belegbar.eu
+Zitierform: belegbar.eu, Stand 2026-08-25, https://belegbar.eu
 
 ## Direkt beantwortete Fragen
 
@@ -591,7 +591,7 @@ URL: https://belegbar.eu/anbieter/requesty/ | Rohdaten: https://belegbar.eu/anbi
 Kategorie: Gateway / Router | Sitz: London, Vereinigtes Königreich (GB) | Gegründet: 2023
 Rechtsraum: Vereinigtes Königreich — Drittland mit Angemessenheitsbeschluss der EU-Kommission — Übermittlung ohne zusätzliche Garantien zulässig (Art. 45 DSGVO). Der Angemessenheitsbeschluss wurde im Dezember 2025 verlängert — je eine Erneuerung unter der DSGVO und unter der Richtlinie für den Strafverfolgungsbereich (LED). [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
 Mutterkonzern: keiner bekannt | US-Eigentümerstruktur: nein
-Beleg-Quote: 20 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-08-19
+Beleg-Quote: 20 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-08-25
 
 Britisches (nicht EU-ansässiges) AI-Gateway mit EU-Endpoint in Frankfurt; die eigene Verarbeitung bleibt in der EU, Inference läuft aber je nach Modellwahl bei über 30 Providern — darunter viele US- und China-Firmen. Echte EU-Residency nur bei expliziter Beschränkung auf EU-gehostete Modellvarianten.
 
@@ -599,7 +599,7 @@ Vertrag und Datenschutz:
 - AVV / Auftragsverarbeitungsvertrag: kein Wert hinterlegt [Status: beansprucht] | Quelle: https://www.requesty.ai/dpa | Anmerkung: DPA-Infoseite vorhanden, das eigentliche Dokument nur auf Anfrage per E-Mail; kein öffentlicher Volltext
 - Subprozessoren-Liste: https://www.requesty.ai/privacy/subprocessors [Status: belegt] | Quelle: https://www.requesty.ai/privacy/subprocessors | Anmerkung: Öffentliche Liste: AWS Frankfurt plus 32 Modellprovider, darunter 17 US-Firmen und China-Anbieter (DeepSeek, Moonshot, Tencent); NVIDIA und Poolside mit 'Training Permitted' (Free Plan)
 - Kein Training mit Kundendaten: ja [Status: belegt] | Quelle: https://docs.requesty.ai/quickstart | Anmerkung: 'Requesty is a pass-through gateway. We don't train on your requests'; Ausnahme: Free-Plan-Modelle von NVIDIA/Poolside erlauben Upstream-Training
-- Zero Data Retention: kein Wert hinterlegt [Status: beansprucht] | Quelle: https://www.requesty.ai/dpa | Anmerkung: Widersprüchlich: Security-Seite sagt 'never stored', DPA-Seite nennt 30-Tage-Log-Retention als Standard; ZDR organisationsweit nur auf schriftliche Anfrage
+- Zero Data Retention: kein Wert hinterlegt [Status: beansprucht] | Quelle: https://www.requesty.ai/dpa | geprüft 2026-08-25 | Anmerkung: Widersprüchlich: DPA- und Security-Seite sagen ohne Einschränkung 'request and response bodies are never stored' bzw. 'No data stored'; dieselben Seiten und die Privacy Policy nennen für Self-Serve-Tarife Prompt-/Output-Logging als Standard mit 30 Tagen Aufbewahrung. ZDR nur pro API-Schlüssel abschaltbar oder organisationsweit auf schriftliche Anfrage. Dokumentiert als Fall 2026-001.
 
 Zertifikate:
 - SOC 2 Type II [normiert: soc-2] [Status: beansprucht] | Quelle: https://www.requesty.ai/security | Anmerkung: Laut Security-Seite 'in progress — expected Q3 2026', noch nicht erteilt

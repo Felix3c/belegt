@@ -1,6 +1,6 @@
 {
   "quelle": "https://belegbar.eu",
-  "stand": "2026-08-24",
+  "stand": "2026-08-25",
   "lizenz": "https://creativecommons.org/licenses/by/4.0/",
   "lizenzhinweis": "CC BY 4.0 — Nutzung frei mit Namensnennung 'belegbar.eu' und Prüfdatum; Statusstufe (belegt/beansprucht/unbelegt) gehört zur Information.",
   "statusstufen": {
@@ -2416,7 +2416,9 @@
           "wert": null,
           "status": "beansprucht",
           "quelle": "https://www.requesty.ai/dpa",
-          "anmerkung": "Widersprüchlich: Security-Seite sagt 'never stored', DPA-Seite nennt 30-Tage-Log-Retention als Standard; ZDR organisationsweit nur auf schriftliche Anfrage"
+          "geprueft": "2026-08-25",
+          "fall": "2026-001",
+          "anmerkung": "Widersprüchlich: DPA- und Security-Seite sagen ohne Einschränkung 'request and response bodies are never stored' bzw. 'No data stored'; dieselben Seiten und die Privacy Policy nennen für Self-Serve-Tarife Prompt-/Output-Logging als Standard mit 30 Tagen Aufbewahrung. ZDR nur pro API-Schlüssel abschaltbar oder organisationsweit auf schriftliche Anfrage. Dokumentiert als Fall 2026-001."
         }
       },
       "zertifikate": [
@@ -2450,7 +2452,7 @@
       "geprueft": "2026-08-19",
       "url": "https://belegbar.eu/anbieter/requesty/",
       "beleg_quote_prozent": 20,
-      "zuletzt_geprueft": "2026-08-19",
+      "zuletzt_geprueft": "2026-08-25",
       "rechtsraum": {
         "land": "GB",
         "name": "Vereinigtes Königreich",
@@ -2884,6 +2886,86 @@
         "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
         "geprueft": "2026-08-24"
       }
+    }
+  ],
+  "faelle": [
+    {
+      "id": "2026-001",
+      "slug": "requesty-zero-data-retention",
+      "anbieter": "requesty",
+      "feld": "vertrag.zero_data_retention",
+      "titel": "Requesty: „never stored“ — und 30 Tage Logging als Standard",
+      "kurz": "Die DPA- und Security-Seiten von Requesty sagen ohne Einschränkung, Anfrage- und Antwortinhalte würden „never stored“. Dieselben Seiten sagen im Kleingedruckten: Auf Self-Serve-Tarifen ist das Logging von Prompts und Ausgaben standardmäßig an, Aufbewahrung 30 Tage. Beide Aussagen können nicht zugleich für den Standardfall gelten.",
+      "eroeffnet": "2026-08-25",
+      "status": "offen",
+      "anbieter_informiert": "2026-08-25",
+      "antwort_frist": "2026-09-08",
+      "behauptung": [
+        {
+          "zitat": "requests on the EU gateway are processed in Frankfurt, request and response bodies are never stored, and EU-region deployments of Claude, GPT, Gemini and Mistral keep the full request path inside the European Union.",
+          "quelle": "https://www.requesty.ai/dpa",
+          "kontext": "DPA-Seite, Absatz zur Frage, warum sich der DPA leicht freigeben lasse. Keine Einschränkung auf einen Tarif oder eine Konfiguration.",
+          "abgerufen": "2026-08-25T15:25:50Z",
+          "sha256": "32ddc01cb6657896bfe89d9c9426bb7d31de25c12ced46289ee16e61071ff4c9",
+          "archiv": "https://web.archive.org/web/20260825152721/https://www.requesty.ai/dpa"
+        },
+        {
+          "zitat": "Your data flows through our gateway, and with zero data retention it is never stored […] Requesty Gateway Frankfurt, EU — No data stored",
+          "quelle": "https://www.requesty.ai/security",
+          "kontext": "Security-Seite, Architektur-Diagramm „Secure Architecture“. Das Diagramm beschriftet den Gateway-Knoten mit „No data stored“; die Einschränkung „with zero data retention“ steht im Fließtext daneben.",
+          "abgerufen": "2026-08-25T15:25:50Z",
+          "sha256": "bf3acf8d8572c030719661d3b01c927887bc53a62da4dd1fc0fec7ff73402784",
+          "archiv": "https://web.archive.org/web/20260825152830/https://www.requesty.ai/security"
+        }
+      ],
+      "beleg": [
+        {
+          "zitat": "prompt and output logging is on by default on self serve plans with a 30 day retention window, it can be disabled per API key, and organisation wide Zero Data Retention is available on written request.",
+          "quelle": "https://www.requesty.ai/dpa",
+          "kontext": "Dieselbe DPA-Seite, Abschnitt zu den Logging-Optionen des DPA.",
+          "abgerufen": "2026-08-25T15:25:50Z",
+          "sha256": "32ddc01cb6657896bfe89d9c9426bb7d31de25c12ced46289ee16e61071ff4c9",
+          "archiv": "https://web.archive.org/web/20260825152721/https://www.requesty.ai/dpa"
+        },
+        {
+          "zitat": "Do you retain my prompts or completions? On self serve plans, prompt and output logging is enabled by default and retained for up to 30 days in encrypted form within the EU, and you can disable it per API key",
+          "quelle": "https://www.requesty.ai/security",
+          "kontext": "Security-Seite, FAQ-Abschnitt.",
+          "abgerufen": "2026-08-25T15:25:50Z",
+          "sha256": "bf3acf8d8572c030719661d3b01c927887bc53a62da4dd1fc0fec7ff73402784",
+          "archiv": "https://web.archive.org/web/20260825152830/https://www.requesty.ai/security"
+        },
+        {
+          "zitat": "When logging is enabled, data is stored encrypted within the EU for up to 30 days.",
+          "quelle": "https://www.requesty.ai/privacy",
+          "kontext": "Privacy Policy.",
+          "abgerufen": "2026-08-25T15:25:50Z",
+          "sha256": "38b3dd0b1f2d4898908c7f3e3b808874dcbf8f76f38a02ded380f061e5f8ff6b",
+          "archiv": "https://web.archive.org/web/20260825152843/https://www.requesty.ai/privacy"
+        }
+      ],
+      "widerspruch": "Die Aussage „request and response bodies are never stored“ steht auf der DPA-Seite ohne Vorbehalt — an der Stelle, an der ein Datenschutzbeauftragter entscheidet, ob der Vertrag freigegeben werden kann. Nach den eigenen Angaben von Requesty gilt sie aber nur, wenn Zero Data Retention aktiv ist: pro API-Schlüssel abgeschaltet oder organisationsweit auf schriftlichen Antrag. Im Standardfall (Self-Serve, nichts umgestellt) werden Prompts und Ausgaben 30 Tage lang gespeichert. Wer nur die Überschrift liest, trifft seine Entscheidung auf einer Annahme, die für ihn nicht zutrifft.",
+      "was_es_nicht_heisst": "Dies ist kein Vorwurf der Täuschung. Requesty dokumentiert die 30-Tage-Speicherung an drei Stellen offen, nennt die Verschlüsselung und den EU-Speicherort, und bietet Zero Data Retention tatsächlich an. Der Fall betrifft ausschließlich die unqualifizierte Formulierung an prominenter Stelle. Ob eine 30-tägige verschlüsselte Speicherung in der EU für einen konkreten Einsatz ein Problem ist, bewerten wir nicht — das ist eine Entscheidung des Kunden.",
+      "aufloesung": [
+        "Requesty qualifiziert die Aussage auf DPA- und Security-Seite (z. B. „never stored when Zero Data Retention is enabled; on self-serve plans logging is on by default for 30 days“). Dann ist der Widerspruch ausgeräumt.",
+        "Requesty macht Zero Data Retention zum Standard für alle Tarife und belegt das. Dann ist die Aussage richtig und der Widerspruch ausgeräumt.",
+        "Requesty legt dar, warum beide Aussagen zugleich zutreffen. Wir veröffentlichen die Erklärung wörtlich und prüfen sie."
+      ],
+      "antworten": [],
+      "verlauf": [
+        {
+          "datum": "2026-08-19",
+          "ereignis": "Widerspruch bei der Erstprüfung des Profils notiert; Feld Zero Data Retention als „beansprucht“ geführt."
+        },
+        {
+          "datum": "2026-08-25",
+          "ereignis": "Alle drei Seiten erneut abgerufen, Wortlaut unverändert. Inhalte per SHA-256 gesichert, alle drei Seiten im Internet Archive gespeichert. Fall eröffnet."
+        },
+        {
+          "datum": "2026-08-25",
+          "ereignis": "Anbieter per E-Mail (sales@requesty.ai) mit dem vollständigen Text des Falls informiert. Antwortfrist bis 08.09.2026."
+        }
+      ]
     }
   ]
 }
