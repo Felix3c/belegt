@@ -1,119 +1,119 @@
 {
   "": {
-    "hash": "5cdeb158e07d4b36",
-    "datum": "2026-08-24"
+    "hash": "9575da3f8242085d",
+    "datum": "2026-08-25"
   },
   "404.html": {
     "hash": "0523f94cc4e1e3bd",
     "datum": "2026-08-24"
   },
   "anbieter/aleph-alpha/": {
-    "hash": "e0e1120b9ee0f4d7",
-    "datum": "2026-08-24"
+    "hash": "916ec7f9a8e62bbb",
+    "datum": "2026-08-25"
   },
   "anbieter/black-forest-labs/": {
-    "hash": "1496a4f83bd8dbee",
-    "datum": "2026-08-24"
+    "hash": "5e945a5dc02da114",
+    "datum": "2026-08-25"
   },
   "anbieter/deepl/": {
-    "hash": "0bd7e7a60eb791ba",
-    "datum": "2026-08-24"
+    "hash": "de6f3d042b2cb820",
+    "datum": "2026-08-25"
   },
   "anbieter/eurouter/": {
-    "hash": "194e22b95cd1e0ec",
-    "datum": "2026-08-24"
+    "hash": "3cce4e75c655b6a5",
+    "datum": "2026-08-25"
   },
   "anbieter/exoscale/": {
-    "hash": "5266ecbb530e0fec",
-    "datum": "2026-08-24"
+    "hash": "2ca7aa5c6b27cc4d",
+    "datum": "2026-08-25"
   },
   "anbieter/gcore/": {
-    "hash": "3c10e35e27cd8b44",
-    "datum": "2026-08-24"
+    "hash": "e97a82157f82b3a1",
+    "datum": "2026-08-25"
   },
   "anbieter/greenpt/": {
-    "hash": "96e11dc74f86bf3d",
-    "datum": "2026-08-24"
+    "hash": "82cf3202ce01315e",
+    "datum": "2026-08-25"
   },
   "anbieter/hetzner/": {
-    "hash": "f72f2a164c48104f",
-    "datum": "2026-08-24"
+    "hash": "459df734e7e3b220",
+    "datum": "2026-08-25"
   },
   "anbieter/infomaniak/": {
-    "hash": "1aab83193fbcbc71",
-    "datum": "2026-08-24"
+    "hash": "a2a60d7b15088747",
+    "datum": "2026-08-25"
   },
   "anbieter/ionos/": {
-    "hash": "3b9dbcd1789a1d90",
-    "datum": "2026-08-24"
+    "hash": "3ab51b2b44d4d983",
+    "datum": "2026-08-25"
   },
   "anbieter/lyceum/": {
-    "hash": "9479a62bbc9fa724",
-    "datum": "2026-08-24"
+    "hash": "10e57e1301fc24ba",
+    "datum": "2026-08-25"
   },
   "anbieter/mistral/": {
-    "hash": "ed673dc0d29d4f87",
-    "datum": "2026-08-24"
+    "hash": "df8465336f31da96",
+    "datum": "2026-08-25"
   },
   "anbieter/nebius/": {
-    "hash": "f342ca7ec80d5be9",
-    "datum": "2026-08-24"
+    "hash": "5db9fec8f6c15961",
+    "datum": "2026-08-25"
   },
   "anbieter/nordference/": {
-    "hash": "8601fc582917663e",
-    "datum": "2026-08-24"
+    "hash": "2208d48ef18716f7",
+    "datum": "2026-08-25"
   },
   "anbieter/opper-ai/": {
-    "hash": "449784e4c7c37f2c",
-    "datum": "2026-08-24"
+    "hash": "0496e965d095d744",
+    "datum": "2026-08-25"
   },
   "anbieter/ovhcloud/": {
-    "hash": "9f04ecdcdbb19b85",
-    "datum": "2026-08-24"
+    "hash": "51c5ba4ae7adb772",
+    "datum": "2026-08-25"
   },
   "anbieter/regolo/": {
-    "hash": "866cf62251e1533a",
-    "datum": "2026-08-24"
+    "hash": "48349303f80094c4",
+    "datum": "2026-08-25"
   },
   "anbieter/requesty/": {
-    "hash": "ff7a3d529061ea6f",
-    "datum": "2026-08-24"
+    "hash": "3c6e5a3c188b7a89",
+    "datum": "2026-08-25"
   },
   "anbieter/scaleway/": {
-    "hash": "a939f21b7d36c467",
-    "datum": "2026-08-24"
+    "hash": "c61300340d963612",
+    "datum": "2026-08-25"
   },
   "anbieter/stackit/": {
-    "hash": "e4dc8d8fb3953dbe",
-    "datum": "2026-08-24"
+    "hash": "efe311e877037b7d",
+    "datum": "2026-08-25"
   },
   "anbieter/t-systems/": {
-    "hash": "e072c666fe10e11b",
-    "datum": "2026-08-24"
+    "hash": "32842f51994aa6bc",
+    "datum": "2026-08-25"
   },
   "fragen/": {
     "hash": "0032a6112c1909c3",
     "datum": "2026-08-24"
   },
   "fragen/ai-act-pflichten-nachweis-ki-anbieter/": {
-    "hash": "4e913f6ab0d97ce4",
-    "datum": "2026-08-24"
+    "hash": "8dba493154d0c909",
+    "datum": "2026-08-25"
   },
   "fragen/bsi-c5-testat-ki-anbieter/": {
-    "hash": "c8686dd7c923b9c8",
-    "datum": "2026-08-24"
+    "hash": "150951f1c8324b62",
+    "datum": "2026-08-25"
   },
   "fragen/dsgvo-konform-inference-api-eu-hosting/": {
-    "hash": "faa5e58438cc9ded",
-    "datum": "2026-08-24"
+    "hash": "b9b3346a4bd49b87",
+    "datum": "2026-08-25"
   },
   "fragen/souveraene-ki-kommunen-anbieter/": {
-    "hash": "0cf625f7833714da",
-    "datum": "2026-08-24"
+    "hash": "c45f2c053d95cdf2",
+    "datum": "2026-08-25"
   },
   "fragen/uebersicht-eu-ki-anbieter-zertifikate-nachweis/": {
-    "hash": "d82460342d8fd89e",
-    "datum": "2026-08-24"
+    "hash": "5cf20639c3970fc9",
+    "datum": "2026-08-25"
   },
   "methodik/": {
     "hash": "2c6cd3038d75b356",
