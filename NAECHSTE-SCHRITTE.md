@@ -21,6 +21,14 @@
 
 **Postfach prüfen: Antworten von Requesty (Thibault), GreenPT, Regolo-Privacy, Gossen (LinkedIn).** Jede Antwort gemäß Methodik behandeln: Anbieter-Antworten wörtlich in `antworten[]` des Falls (`text`, `von`, `datum`, `anmerkung`), Status setzen, `node build.js`, committen, pushen — innerhalb eines Tages. Regolo-Dokumente ins Profil mit neuem Prüfdatum.
 
+## Nächster Bau-Schritt (Entscheidung 28.08., THESE.md „Was funktionieren heißt“)
+
+**Monatlicher Quellenlauf — vor jedem weiteren Doorway-Abschnitt und vor einem dritten Fall.** Ein Verzeichnis mit dem
+Versprechen „Prüfdatum“ verfällt sichtbar; in drei Monaten stünde überall August 2026. Bauen: alle Quellen-URLs abrufen,
+Inhalts-Hash je URL in `data/quellen-hashes.json` speichern, drei Listen ausgeben — *unverändert* (Feld-`geprueft`
+automatisch fortschreiben), *verändert* (nur diese von Hand lesen), *verschwunden* (linkcheck-Logik, Status zurück).
+Baut auf `linkcheck.js` auf. Ziel: Pflege kostet eine Stunde im Monat, nicht zwanzig.
+
 ## Wartet auf Felix
 
 - Köhl: Direkt-URL probieren oder streichen (`outreach/mails/06`).
