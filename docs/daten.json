@@ -2890,6 +2890,84 @@
   ],
   "faelle": [
     {
+      "id": "2026-002",
+      "slug": "greenpt-iso-27001",
+      "anbieter": "greenpt",
+      "feld": "zertifikate.ISO 27001",
+      "titel": "GreenPT: „ISO 27001 — Verified by independent audit“ im Footer, Zertifikat gehört den Rechenzentren",
+      "kurz": "Der Footer jeder GreenPT-Seite führt „ISO 27001“ unter der Überschrift „Verified by independent audit“, die Startseite spricht von „Audited certifications … Not marketing“. Die eigene Sustainability-Seite, deren FAQ und die Privacy Policy sagen dreimal übereinstimmend: Die ISO-27001-Zertifizierung gehört den genutzten Rechenzentren (Scaleway, Verda), nicht GreenPT BV. Ein Rechenzentrums-Zertifikat deckt das Informationssicherheits-Managementsystem des Anbieters selbst nicht ab.",
+      "eroeffnet": "2026-08-26",
+      "status": "offen",
+      "anbieter_informiert": "2026-08-28",
+      "antwort_frist": "2026-09-11",
+      "behauptung": [
+        {
+          "zitat": "Verified by independent audit — GDPR compliant · ISO 27001 · EU Hosted · 100% Renewable energy",
+          "quelle": "https://greenpt.com/",
+          "kontext": "Footer, Block „footer-trust“ (so heißt er im Quelltext), auf jeder Seite der Website. Die Überschrift des Blocks lautet „Verified by independent audit“, darunter vier Badges. Keines der Badges verlinkt auf ein Zertifikat, einen Auditor oder einen Prüfbericht.",
+          "abgerufen": "2026-08-26T16:11:00Z",
+          "sha256": "b058451bc5ba67671cc180486746ac47f69398a1d73c490320d601126e87b845",
+          "archiv": "https://web.archive.org/web/20260826161326/https://greenpt.com/"
+        },
+        {
+          "zitat": "Independently verified — Built to European standards. Audited certifications, open code, and verifiable claims. Not marketing.",
+          "quelle": "https://greenpt.com/",
+          "kontext": "Startseite, Abschnitt unter den vier Merkmalen „GDPR Compliant · EU Hosted · 100% Renewable · Independently verified“. Die Formulierung „Audited certifications“ steht ohne Zusatz, auf wen sich die Zertifizierungen beziehen.",
+          "abgerufen": "2026-08-26T16:11:00Z",
+          "sha256": "b058451bc5ba67671cc180486746ac47f69398a1d73c490320d601126e87b845",
+          "archiv": "https://web.archive.org/web/20260826161326/https://greenpt.com/"
+        }
+      ],
+      "beleg": [
+        {
+          "zitat": "ISO Certified Facilities — Our data centers maintain ISO 50001 and ISO 27001 certifications for energy management and information security.",
+          "quelle": "https://greenpt.com/sustainability",
+          "kontext": "Sustainability-Seite, Kachel „ISO Certified Facilities“ im Einleitungsblock.",
+          "abgerufen": "2026-08-26T16:11:00Z",
+          "sha256": "739e98fc7be11b49c9143cd518f3372af5d2532744d9bbad54210a9e8db4d68c",
+          "archiv": "https://web.archive.org/web/20260826161439/https://greenpt.com/sustainability"
+        },
+        {
+          "zitat": "What sustainability and security certifications does the infrastructure hold? The data centers we run on maintain ISO 50001 (energy management) and ISO 27001 (information security) certifications, audited regularly by independent third parties.",
+          "quelle": "https://greenpt.com/sustainability",
+          "kontext": "Sustainability-Seite, FAQ. Die Frage ist selbst auf „the infrastructure“ eingegrenzt; die Antwort nennt ausdrücklich „the data centers we run on“ als Zertifikatsinhaber. Weiter oben auf derselben Seite: „The GreenPT Code models […] run in Verda’s ISO 27001 certified data centers in Helsinki, Finland.“",
+          "abgerufen": "2026-08-26T16:11:00Z",
+          "sha256": "739e98fc7be11b49c9143cd518f3372af5d2532744d9bbad54210a9e8db4d68c",
+          "archiv": "https://web.archive.org/web/20260826161439/https://greenpt.com/sustainability"
+        },
+        {
+          "zitat": "ISO 27001, ISO 50001 and HDS certified infrastructure",
+          "quelle": "https://greenpt.com/privacy-policy",
+          "kontext": "Privacy Policy, Aufzählung der Sicherheitsmaßnahmen („How we protect your data“). Auch hier: „certified infrastructure“, nicht ein Zertifikat von GreenPT BV.",
+          "abgerufen": "2026-08-26T16:11:00Z",
+          "sha256": "1abaa32054815140ba996d75743887c790e7e8f169d653cd239fd73d4f3d8139",
+          "archiv": "https://web.archive.org/web/20260826161601/https://greenpt.com/privacy-policy"
+        }
+      ],
+      "widerspruch": "Der Footer stellt „ISO 27001“ als Eigenschaft von GreenPT dar, die „by independent audit“ bestätigt sei — an der Stelle, an der Besucher Vertrauenssiegel erwarten, und ohne Verweis auf ein Dokument. Nach GreenPTs eigenen Angaben an drei anderen Stellen ist aber nicht GreenPT BV zertifiziert, sondern die Rechenzentren von Scaleway und Verda. ISO 27001 zertifiziert ein Informationssicherheits-Managementsystem mit definiertem Geltungsbereich. Das Zertifikat eines Rechenzentrumsbetreibers erfasst dessen Gebäude, Netz und Betrieb — nicht die Anwendung, das Personal, die Zugriffsprozesse und die Entwicklung des Unternehmens, das dort mietet. Ein eigenes Zertifikat von GreenPT BV beansprucht keine der drei Seiten, und wir haben keines gefunden. Beide Darstellungen — „unser Badge, unabhängig auditiert“ und „das Zertifikat unserer Rechenzentren“ — können nicht zugleich für GreenPT selbst gelten.",
+      "was_es_nicht_heisst": "Dies ist kein Vorwurf der Täuschung, und es ist kein Zweifel an der Infrastruktur. GreenPT ist in diesem Punkt ungewöhnlich offen: Die Sustainability-Seite benennt die Zertifikatsinhaber klar, verlinkt den Scaleway Impact Report und das Verda Trust Center, und räumt an anderer Stelle ein, was sich nicht verifizieren lässt. Dass Scaleway und Verda ISO-27001-zertifiziert sind, ist plausibel und wird hier nicht bestritten. Der Fall betrifft ausschließlich die Zuordnung: Ein Badge im eigenen Footer unter „Verified by independent audit“ liest sich als Zertifikat des Anbieters. Ob ein Kunde mit einem zertifizierten Rechenzentrum und einem unzertifizierten Anbieter gut bedient ist, bewerten wir nicht — das hängt vom Einsatz ab.",
+      "aufloesung": [
+        "GreenPT ergänzt das Footer-Badge um die Zuordnung (z. B. „ISO 27001 certified infrastructure“ oder „Hosted in ISO 27001 certified data centers“) und verlinkt die Zertifikate von Scaleway und Verda. Dann ist der Widerspruch ausgeräumt.",
+        "GreenPT BV legt ein eigenes ISO-27001-Zertifikat mit Geltungsbereich vor. Dann ist das Badge richtig, der Eintrag wird auf „belegt“ gesetzt und der Widerspruch ist ausgeräumt.",
+        "GreenPT legt dar, warum beide Darstellungen zugleich zutreffen. Wir veröffentlichen die Erklärung wörtlich und prüfen sie."
+      ],
+      "antworten": [],
+      "verlauf": [
+        {
+          "datum": "2026-08-20",
+          "ereignis": "Bei der Erstprüfung des Profils notiert: Footer-Badge ISO 27001, Sustainability-Seite ordnet das Zertifikat den Rechenzentren zu. Feld als „beansprucht“ geführt."
+        },
+        {
+          "datum": "2026-08-26",
+          "ereignis": "Startseite, Sustainability-Seite, Privacy Policy und Terms of Service erneut abgerufen; Wortlaut wie am 20.08. Inhalte per SHA-256 gesichert, drei Seiten im Internet Archive gespeichert. Fall vorbereitet, noch nicht veröffentlicht."
+        },
+        {
+          "datum": "2026-08-28",
+          "ereignis": "Startseite erneut abgerufen, Byte-identisch mit der Kopie vom 26.08. (gleicher SHA-256). Anbieter per E-Mail (mail@greenpt.ai) mit dem vollständigen Text des Falls informiert. Antwortfrist bis 11.09.2026."
+        }
+      ]
+    },
+    {
       "id": "2026-001",
       "slug": "requesty-zero-data-retention",
       "anbieter": "requesty",
