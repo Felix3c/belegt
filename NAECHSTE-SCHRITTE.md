@@ -1,55 +1,38 @@
 # belegbar.eu — Nächste Schritte
 
-**Stand:** 2026-08-25 (abends)
+**Stand:** 2026-08-28 (Fall 2026-002 live, Requesty-Antwort eingetragen, hallo@-Absender eingerichtet, Methodik um „Unabhängigkeit“ ergänzt)
 **Führendes Dokument:** `MESSUNG.md` (Kill-Kriterien) · Ziel-Satz in `~/THESE.md` („Das Ziel ist der Stempel, nicht das Urteil“)
-**Phase:** live, 21 Anbieter, 122 URLs. **Fall 2026-001 ist LIVE** (seit 25.08.2026 abends, Commit d70d311).
+**Phase:** live, 21 Anbieter, 123 URLs. Zwei Fälle offen: 2026-001 Requesty (beantwortet), 2026-002 GreenPT (offen).
 
 ## Wo wir stehen
 
-Heute ist der erste **Fall** entstanden — die Stelle, an der belegbar.eu vom Katalog zum Notar wird:
-ein dokumentierter Widerspruch zwischen Behauptung und Beleg, wörtlich zitiert, mit Zeitstempel,
-SHA-256 und Archivkopie, mit Antwortfrist für den Anbieter.
-
-- **Fall 2026-001 — Requesty, Zero Data Retention.** DPA- und Security-Seite sagen ohne Einschränkung
-  „request and response bodies are never stored“ / „No data stored“; dieselben Seiten plus Privacy Policy
-  sagen: Self-Serve-Logging standardmäßig an, 30 Tage. Datei: `data/faelle/2026-001-requesty-zero-data-retention.json`.
-  Rohkopien + Hashes: `belege/faelle/2026-001/`. Wayback-Kopien aller drei Seiten vom 25.08. liegen im JSON.
-- **Neuer Seitentyp `/faelle/`** in `build.js` (Index + Fallseite mit ClaimReview-JSON-LD), Hinweisbox im
-  Anbieterprofil, Methodik-Abschnitt `#faelle`, Eintrag in `llms.txt` und `daten.json`, CSS. Gebaut, geprüft, live.
-- **Sicherung im Build:** Ein Fall ohne `anbieter_informiert` bricht den Build ab. Vorschau nur mit `BUILD_VORSCHAU=1`.
-- **Mail:** `outreach/mails/08-requesty-fall-2026-001.md` (englisch) — gesendet am 25.08.2026 an sales@requesty.ai.
-
-## Erledigt am 25.08.2026 (abends)
-
-1. Mail an sales@requesty.ai gesendet (Gmail-ID 1a03997d2072513d).
-2. `anbieter_informiert` = 2026-08-25, Verlaufseintrag ergänzt.
-3. Gebaut, committet (`d70d311 feat: Fall 2026-001 veröffentlicht`), gepusht; nach ~150 s live verifiziert:
-   `/faelle/requesty-zero-data-retention/` 200, Sitemap 122 URLs.
-4. Sitemap in der Search Console neu eingereicht („Sitemap wurde eingereicht“). Hinweis: Eine frühere Einreichung
-   vom selben Tag stand auf „Konnte nicht abgerufen werden“ — beim nächsten Login prüfen, ob der Status jetzt grün ist.
+- **Fall 2026-001 Requesty / ZDR** — Status `beantwortet`. Thibault Jaigu (Co-Founder) hatte am 25.08., 26 Min. nach unserer Mail, geantwortet („written by an AI agent?“, DPA sei „for customers only“); erst 28.08. gelesen, Fall war da schon live — Ablauffehler, öffentlich im Verlauf eingestanden. Antwort wörtlich im Fall + Anmerkung (DPA-Seite ist öffentlich, Wortlaut unverändert). Felix hat am 28.08. geantwortet (Entschuldigung für den Ablauf, KI-Entwurf offengelegt, zwei Auflösungswege). Frist 08.09., Nachfassen 3./4.9. nur ohne weitere Reaktion. Commit `ebc1f48`.
+- **Fall 2026-002 GreenPT / ISO 27001** — live seit 28.08. (Commit `63dcfad`), Mail an mail@greenpt.ai am 28.08. ~15:00 von hallo@belegbar.eu, Frist 11.09., Nachfassen ca. 4./5.9. Belege in `belege/faelle/2026-002/` (im Repo). Eröffnungsdatum = 28.08. (Benachrichtigungstag).
+- **Regolo/Seeweb** — Chiara Grande hatte das Kontaktformular als Bewerbung fürs „Builder Program“ gelesen (Tokens gegen Logo/Post). Felix hat am 28.08. abgelehnt (Neutralität) und das Evidenz-Angebot bekräftigt; Privacy-Abteilung soll zu Subprozessoren/AI-Act antworten. Protokoll `outreach/mails/04-regolo.md`.
+- **Methodik** — neuer Abschnitt `/methodik/#unabhaengigkeit` (kein Logo, keine Gegenleistung, keine Sponsorenposts; „Finanzierung, Stand 28.08.2026: privat, keine Einnahmen“ — bei Änderung dort mit Datum ausweisen). Commit `9084340`.
+- **Mail-Infrastruktur** — Gmail „Senden als hallo@belegbar.eu“ eingerichtet (smtp.gmail.com + App-Passwort, 2-Faktor aktiviert); SPF bei INWX: `v=spf1 include:spf.improvmx.com include:_spf.google.com ~all`. ⚠️ Per Gmail-API angelegte Entwürfe verpacken Links beim Senden in `google.com/url?q=` — Anbieter-Mails deshalb als **neue Mail von Hand** in Gmail schreiben (Text aus `outreach/mails/`), Von = hallo@.
+- **Build-Eigenheiten** — `antworten[].anmerkung` wird jetzt gerendert. Fall ohne `anbieter_informiert` direkt in `data/faelle/` lässt `node build.js` abbrechen, nachdem `docs/` geleert wurde (`git restore docs`); Entwürfe deshalb in `data/faelle/entwurf/`. `core.autocrlf=true` → nach Build zeigt `docs/` scheinbar alles „M“ (nur EOL).
+- **Prüfung 28.08.** — Linkcheck 117/117 Quellen tragen; keine veralteten Zahlen; ISO-27001-Seite mit Auditor/Scope je Anbieter.
+- **LinkedIn (28.08.)** — 8 Kontakte; Anfragen an D. Arndt, Bastians, Giebel gesendet; Köhl über Suche nicht gefunden (Direkt-URL in `06`). Dankesnachricht an Heiko Gossen 15:13 gesendet (ohne Podcast-Bezug). NEGZ-Kommentar: keine Antwort. Stand in `outreach/mails/06`, `07`.
+- **Search Console** — Sitemap-Status unverändert „Konnte nicht abgerufen werden“, aber Seiten werden indexiert; nächste Kontrolle ~02.09.
+- Git: sauber, nichts ungepusht (nur diese Datei geändert).
 
 ## Nächster konkreter Schritt
 
-**Warten und beobachten.** Antwortfrist läuft bis 08.09.2026. Nachfassen am 3./4.9. (Text am Ende von
-`outreach/mails/08-requesty-fall-2026-001.md`). Search-Console-Status der Sitemap beim nächsten Login prüfen.
+**Postfach prüfen: Antworten von Requesty (Thibault), GreenPT, Regolo-Privacy, Gossen (LinkedIn).** Jede Antwort gemäß Methodik behandeln: Anbieter-Antworten wörtlich in `antworten[]` des Falls (`text`, `von`, `datum`, `anmerkung`), Status setzen, `node build.js`, committen, pushen — innerhalb eines Tages. Regolo-Dokumente ins Profil mit neuem Prüfdatum.
 
-## Danach
+## Wartet auf Felix
 
-- **Nachfassen** 3./4.9. (Halbzeit), Text steht am Ende des Mail-Entwurfs. Am 8.9. ohne Antwort: Status → `bestaetigt`,
-  Verlaufseintrag, bauen, pushen. Mit Antwort: wörtlich in `antworten[]`, Status → `beantwortet`, prüfen, dann
-  `ausgeraeumt` oder `bestaetigt`.
-- **Zweiter Fall in der Pipeline:** GreenPT — ISO-27001-Badge im Footer, eigene Sustainability-Seite sagt, das
-  Zertifikat gehöre den genutzten Rechenzentren (Scaleway, Verda). Gleiche Struktur: eigene Dokumente widersprechen sich.
-  Erst anfangen, wenn 2026-001 live ist.
-- **Nicht als Fall geeignet** (nur „beansprucht“, kein Widerspruch): Nordference ISO/SOC2-Badges, Black Forest Labs ZDR
-  (bezieht sich erkennbar auf ein anderes Produkt), DeepL „HIPAA certification“ (Kategorienfehler, kein Widerspruch).
-
-## Termine
-
-- 01.–03.09.: Messung + Outreach-Wiedervorlage (MESSUNG.md), Nachfassen Requesty am 3./4.9.
-- 08.09.: Antwortfrist Fall 2026-001.
-- ~14.10.: Kill-Kriterien-Check.
+- Köhl: Direkt-URL probieren oder streichen (`outreach/mails/06`).
+- Antworten an Anbieter/Gossen selbst senden (Claude entwirft, Felix sendet als neue Mail von hallo@).
+- Optional: Kommentar bei Lara Gsell.
 
 ## Blocker
 
-Keiner. Alles Weitere hängt am Versand der Mail — der ist bewusst nicht automatisiert.
+Keiner.
+
+## Termine
+
+- ~02.09.: Search-Console-Sitemap; Nachfassen Requesty 3./4.9., GreenPT 4./5.9.
+- 08.09.: Frist Fall 2026-001 · 11.09.: Frist Fall 2026-002.
+- ~14.10.: Kill-Kriterien-Check (`MESSUNG.md`).
