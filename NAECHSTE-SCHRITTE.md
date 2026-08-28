@@ -15,19 +15,20 @@
 - **Prüfung 28.08.** — Linkcheck 117/117 Quellen tragen; keine veralteten Zahlen; ISO-27001-Seite mit Auditor/Scope je Anbieter.
 - **LinkedIn (28.08.)** — 8 Kontakte; Anfragen an D. Arndt, Bastians, Giebel gesendet; Köhl über Suche nicht gefunden (Direkt-URL in `06`). Dankesnachricht an Heiko Gossen 15:13 gesendet (ohne Podcast-Bezug). NEGZ-Kommentar: keine Antwort. Stand in `outreach/mails/06`, `07`.
 - **Search Console** — Sitemap-Status unverändert „Konnte nicht abgerufen werden“, aber Seiten werden indexiert; nächste Kontrolle ~02.09.
-- Git: sauber, nichts ungepusht (nur diese Datei geändert).
+- Git: sauber, nichts ungepusht.
 
 ## Nächster konkreter Schritt
 
 **Postfach prüfen: Antworten von Requesty (Thibault), GreenPT, Regolo-Privacy, Gossen (LinkedIn).** Jede Antwort gemäß Methodik behandeln: Anbieter-Antworten wörtlich in `antworten[]` des Falls (`text`, `von`, `datum`, `anmerkung`), Status setzen, `node build.js`, committen, pushen — innerhalb eines Tages. Regolo-Dokumente ins Profil mit neuem Prüfdatum.
 
-## Nächster Bau-Schritt (Entscheidung 28.08., THESE.md „Was funktionieren heißt“)
+## Nächster Bau-Schritt
 
-**Monatlicher Quellenlauf — vor jedem weiteren Doorway-Abschnitt und vor einem dritten Fall.** Ein Verzeichnis mit dem
-Versprechen „Prüfdatum“ verfällt sichtbar; in drei Monaten stünde überall August 2026. Bauen: alle Quellen-URLs abrufen,
-Inhalts-Hash je URL in `data/quellen-hashes.json` speichern, drei Listen ausgeben — *unverändert* (Feld-`geprueft`
-automatisch fortschreiben), *verändert* (nur diese von Hand lesen), *verschwunden* (linkcheck-Logik, Status zurück).
-Baut auf `linkcheck.js` auf. Ziel: Pflege kostet eine Stunde im Monat, nicht zwanzig.
+**Monatlicher Quellenlauf ist gebaut (28.08.):** `node quellenlauf.js` → drei Listen (unverändert / verändert /
+verschwunden), Ledger `data/quellen-hashes.json`, Prüfdaten werden bei unveränderten Quellen fortgeschrieben; Details
+in README „Monatlicher Quellenlauf“. Erstlauf 28.08.: 117 URLs, Ledger befüllt, 115 stabil, `website`-URLs nur auf
+Erreichbarkeit, dqsglobal.com (rotierende Blöcke) per Ledger-Schalter `nur_erreichbar` auf Handprüfung.
+**Erster echter Lauf: ~28.09.** Danach `node build.js`, Diff ansehen (nur `geprueft`-Zeilen dürfen sich ändern),
+committen. Damit ist der Weg frei für den nächsten Doorway-Abschnitt bzw. einen dritten Fall.
 
 ## Wartet auf Felix
 
@@ -43,4 +44,5 @@ Keiner.
 
 - ~02.09.: Search-Console-Sitemap; Nachfassen Requesty 3./4.9., GreenPT 4./5.9.
 - 08.09.: Frist Fall 2026-001 · 11.09.: Frist Fall 2026-002.
+- ~28.09.: erster monatlicher Quellenlauf (`node quellenlauf.js`), danach jeden Monat.
 - ~14.10.: Kill-Kriterien-Check (`MESSUNG.md`).
