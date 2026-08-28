@@ -765,6 +765,15 @@ ${belegZeile("unbelegt", "Wir haben keine belastbare Angabe gefunden. Auch das i
 <h2>Prüfdatum und Korrekturen</h2>
 <p>Jede Angabe trägt das Datum ihrer letzten Prüfung. Anbieterangaben ändern sich — wenn Sie einen Fehler finden, schreiben Sie an <a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a>; wir prüfen und korrigieren mit neuem Prüfdatum.</p>
 
+<h2 id="unabhaengigkeit">Unabhängigkeit: Was wir von Anbietern nicht annehmen</h2>
+<p>Diese Datenbank ist nur so viel wert wie ihre Neutralität. Deshalb gilt für alle gelisteten Anbieter dieselbe Regel, ohne Ausnahme für die am besten belegten:</p>
+<ul>
+<li><strong>Kein Logo, kein Badge, kein Link-Tausch.</strong> Auf belegbar.eu erscheint kein Anbieter-Logo und keine „Partner“-Kennzeichnung. Wir setzen keine Affiliate-Links und nehmen an keinem Empfehlungsprogramm teil.</li>
+<li><strong>Keine Gegenleistung für Einträge oder Status.</strong> Wir nehmen keine Testzugänge, Guthaben, Tokens, Rabatte oder Bezahlung dafür an, dass ein Anbieter gelistet, ein Status vergeben, ein Fall eröffnet, verzögert oder ausgeräumt wird. Angebote dieser Art lehnen wir ab und dokumentieren sie auf Anfrage.</li>
+<li><strong>Keine Sponsorenposts.</strong> Wenn wir über einen Anbieter schreiben oder posten, dann weil die Belege es hergeben — nicht, weil er uns darum gebeten oder dafür etwas geboten hat.</li>
+</ul>
+<p><strong>Finanzierung, Stand 28.08.2026:</strong> belegbar.eu wird privat von <a href="${SITE.baseUrl}/ueber/">Felix Lind</a> betrieben und bezieht keine Einnahmen. Sollte sich das je ändern, gilt: Bezahlte Leistungen dürfen weder Statusstufen noch Reihenfolge, Verified-Kennzeichen oder Fälle beeinflussen, und jede Einnahmequelle wird an dieser Stelle mit Datum ausgewiesen. Fehlt hier ein Eintrag, gibt es keine.</p>
+
 <h2 id="verified">Verified-Status: So funktioniert es</h2>
 <p>Anbieter, die uns fehlende Nachweise direkt zusenden, erhalten das Verified-Kennzeichen mit Datum. Der Ablauf:</p>
 <ol>
