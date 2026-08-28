@@ -15,6 +15,10 @@ guides/*.html          → Ratgeber-Artikel (META-Kopf + HTML-Fragment)
 src/style.css          → Stylesheet
 build.js               → Generator (ohne Abhängigkeiten)
 linkcheck.js           → prüft alle Quellen-URLs auf verlorene Belege
+quellenlauf.js         → monatlicher Inhaltsvergleich aller Quellen, schreibt Prüfdaten fort
+lib/quellen.js         → gemeinsame Logik (URLs sammeln, abrufen, hashen, geprueft setzen)
+data/quellen-hashes.json → Inhalts-Ledger je Quellen-URL (versioniert, nicht löschen)
+test/                  → node --test
 docs/                  → generierte Site (GitHub-Pages-Quellordner)
 outreach/              → Anschreiben-Vorlage für Anbieter
 MESSUNG.md             → Messprotokoll für die Kill-Kriterien
@@ -53,6 +57,31 @@ node linkcheck.js            # optional: --json bericht.json
 Ruft jede in `data/anbieter/*.json` hinterlegte Quellen-URL ab. Wichtig: Der Statuscode allein genügt nicht — eine gelöschte Dokumentseite antwortet oft mit `200`, weil der Server auf die Startseite weiterleitet. `linkcheck.js` bewertet deshalb das Weiterleitungsziel mit und meldet einen tief verlinkten Beleg, der auf einer Startseite landet, als **verlorenen Beleg**. Exit-Code ≠ 0 bei Befunden, damit der Check in CI laufen kann.
 
 Findet er einen verlorenen Beleg: Status im Profil zurücksetzen (`belegt` → `unbelegt`), die tote URL in der `anmerkung` dokumentieren und ein Feld-`geprueft` setzen. Nicht einfach löschen — dass ein Beleg verschwunden ist, ist selbst eine Information.
+
+## Monatlicher Quellenlauf
+
+```
+node quellenlauf.js                 # optional: --trocken, --json bericht.json, LAUF_DATUM=YYYY-MM-DD
+node build.js
+```
+
+Ein Verzeichnis mit dem Versprechen „Prüfdatum“ verfällt sichtbar. Der Quellenlauf ruft jede Quellen-URL ab, hasht den
+sichtbaren Text (ohne Scripts, Styles, Tags; als sortierte Wortmenge, damit zufällig angeordnete Menüs nicht stören)
+und vergleicht mit `data/quellen-hashes.json`. Ergebnis sind drei Listen:
+
+- **unverändert** — die Quelle sagt noch dasselbe. Das Prüfdatum wird automatisch fortgeschrieben: Ist bei einem
+  Anbieter alles Belegende unverändert, wandert sein Top-Level-`geprueft` (und Feld-Daten werden entfernt); sonst
+  bekommen nur die unveränderten Felder ein eigenes `geprueft`. Zeilenweise Textersetzung, das JSON-Format bleibt.
+- **verändert** — nur Bericht. Diese Seiten liest ein Mensch: Sagt sie noch dasselbe → Feld-`geprueft` setzen; sagt
+  sie etwas anderes → Angabe, Status, Anmerkung anpassen. Danach `node quellenlauf.js --uebernehmen`, erst dann gilt
+  der neue Inhalt als Referenz. (Ohne das würde die Änderung nächsten Monat als „unverändert“ durchgehen.)
+- **verschwunden** — Fehler, nicht erreichbar oder auf die Startseite umgeleitet (Logik wie `linkcheck.js`). Status
+  im Profil von Hand zurücksetzen, tote URL in der Anmerkung festhalten. Exit-Code ≠ 0.
+
+`website`-URLs (Stammdaten) werden nur auf Erreichbarkeit geprüft — Startseiten rotieren Kampagnentexte. Für einzelne
+Seiten, die bei jedem Abruf andere Blöcke einblenden, kann im Ledger von Hand `"nur_erreichbar": true` mit `"grund"`
+gesetzt werden (Beispiel: dqsglobal.com). Sparsam einsetzen — jede solche Quelle muss dann von Hand gelesen werden.
+Der Erstlauf befüllt nur den Ledger und schreibt keine Prüfdaten. Bot-gesperrte Quellen (`BOT_SPERREN`) bleiben Handarbeit.
 
 ## Daten pflegen
 
