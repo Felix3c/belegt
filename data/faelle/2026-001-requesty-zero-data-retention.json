@@ -6,7 +6,7 @@
   "titel": "Requesty: „never stored“ — und 30 Tage Logging als Standard",
   "kurz": "Die DPA- und Security-Seiten von Requesty sagen ohne Einschränkung, Anfrage- und Antwortinhalte würden „never stored“. Dieselben Seiten sagen im Kleingedruckten: Auf Self-Serve-Tarifen ist das Logging von Prompts und Ausgaben standardmäßig an, Aufbewahrung 30 Tage. Beide Aussagen können nicht zugleich für den Standardfall gelten.",
   "eroeffnet": "2026-08-25",
-  "status": "offen",
+  "status": "beantwortet",
   "anbieter_informiert": "2026-08-25",
   "antwort_frist": "2026-09-08",
   "behauptung": [
@@ -60,7 +60,14 @@
     "Requesty macht Zero Data Retention zum Standard für alle Tarife und belegt das. Dann ist die Aussage richtig und der Widerspruch ausgeräumt.",
     "Requesty legt dar, warum beide Aussagen zugleich zutreffen. Wir veröffentlichen die Erklärung wörtlich und prüfen sie."
   ],
-  "antworten": [],
+  "antworten": [
+    {
+      "datum": "2026-08-25",
+      "von": "Thibault Jaigu, Co-Founder Requesty (per E-Mail, 16:10 UTC)",
+      "text": "Hi Felix,\n\nIs this written by an AI agent? Please ensure a human reviews this before breaking rules such as publicly providing our DPA information which is for customers only.\n\nI would highly advise getting in touch with providers before publishing anything based on assumptions and especially using AI to do the writing for you.\n\nI'll be at your disposal if you want accurate information.\n\nThanks\n\nThibault Jaigu\nCo-Founder | Requesty",
+      "anmerkung": "Wörtlich und ungekürzt. Die Antwort ging 26 Minuten nach unserer E-Mail ein, wurde von uns aber erst am 28.08.2026 gelesen — der Fall war am Abend des 25.08. bereits veröffentlicht. Zur Sache: Die Seite requesty.ai/dpa ist ohne Anmeldung öffentlich abrufbar, robots.txt und Meta-Tags erlauben die Indexierung, das Internet Archive hält eine Kopie vom 25.08.; beide zitierten Sätze stehen am 28.08. unverändert auf der Seite. Unsere E-Mail wurde mit KI-Unterstützung entworfen, von Felix Lind geprüft und gesendet; jedes Zitat wurde von Hand gegen die Seite geprüft."
+    }
+  ],
   "verlauf": [
     {
       "datum": "2026-08-19",
@@ -73,6 +80,10 @@
     {
       "datum": "2026-08-25",
       "ereignis": "Anbieter per E-Mail (sales@requesty.ai) mit dem vollständigen Text des Falls informiert. Antwortfrist bis 08.09.2026."
+    },
+    {
+      "datum": "2026-08-28",
+      "ereignis": "Antwort des Anbieters vom 25.08. (16:10 UTC, 26 Minuten nach unserer E-Mail) erst heute gelesen — Fehler in unserem Ablauf: Der Fall war am Abend des 25.08. veröffentlicht worden, ohne die Antwort zu kennen. Antwort wörtlich eingetragen, Status auf „beantwortet“ gesetzt. DPA-Seite erneut abgerufen: öffentlich, Wortlaut unverändert."
     }
   ]
 }

@@ -696,7 +696,7 @@ ${(f.aufloesung || []).length ? `<h2>Was den Fall ausräumt</h2>
 
 <h2>Antwort des Anbieters</h2>
 ${f.antworten.length
-    ? f.antworten.map((a) => `<figure class="zitat antwort"><blockquote>${esc(a.text)}</blockquote><figcaption>${esc(provider.name)}, ${datumDE(a.datum)}${a.von ? ", " + esc(a.von) : ""} — wörtlich, ungekürzt</figcaption></figure>`).join("\n")
+    ? f.antworten.map((a) => `<figure class="zitat antwort"><blockquote>${esc(a.text)}</blockquote><figcaption>${esc(provider.name)}, ${datumDE(a.datum)}${a.von ? ", " + esc(a.von) : ""} — wörtlich, ungekürzt</figcaption></figure>${a.anmerkung ? `<p class="klein anmerkung"><strong>Anmerkung belegbar.eu:</strong> ${esc(a.anmerkung)}</p>` : ""}`).join("\n")
     : `<p class="leer">Noch keine Antwort. ${f.anbieter_informiert ? `Der Anbieter wurde am ${datumDE(f.anbieter_informiert)} informiert; Antwortfrist bis ${datumDE(f.antwort_frist)}.` : `Antwortfrist bis ${datumDE(f.antwort_frist)}.`} Jede Antwort wird hier wörtlich und ungekürzt veröffentlicht.</p>`}
 
 <h2>Verlauf</h2>

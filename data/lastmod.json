@@ -76,8 +76,8 @@
     "datum": "2026-08-25"
   },
   "anbieter/requesty/": {
-    "hash": "127e66ad4dbb368e",
-    "datum": "2026-08-25"
+    "hash": "1754e7ed350378fd",
+    "datum": "2026-08-28"
   },
   "anbieter/scaleway/": {
     "hash": "5ce89170dddc4757",
@@ -92,12 +92,12 @@
     "datum": "2026-08-25"
   },
   "faelle/": {
-    "hash": "9fa447cb8619f3f3",
-    "datum": "2026-08-25"
+    "hash": "90e9d49ccd345c53",
+    "datum": "2026-08-28"
   },
   "faelle/requesty-zero-data-retention/": {
-    "hash": "8af98b74c5d9829b",
-    "datum": "2026-08-25"
+    "hash": "742a508b0229a29d",
+    "datum": "2026-08-28"
   },
   "fragen/": {
     "hash": "80449448ad3544a0",

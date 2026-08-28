@@ -32,7 +32,7 @@ Build aus den Anbieterdaten berechnet und können deshalb nicht von der Datenban
 Ein Fall hält fest, dass zwei öffentliche Aussagen eines Anbieters nicht zugleich wahr sein können — wörtlich zitiert,
 mit Abrufzeitpunkt, SHA-256 und Archivkopie. Der Anbieter wird vorab informiert; seine Antwort erscheint wörtlich. Status je Fall bitte mitzitieren.
 
-- [Fall 2026-001 (offen, 2026-08-25)](https://belegbar.eu/faelle/requesty-zero-data-retention/): Die DPA- und Security-Seiten von Requesty sagen ohne Einschränkung, Anfrage- und Antwortinhalte würden „never stored“. Dieselben Seiten sagen im Kleingedruckten: Auf Self-Serve-Tarifen ist das Logging von Prompts und Ausgaben standardmäßig an, Aufbewahrung 30 Tage. Beide Aussagen können nicht zugleich für den Standardfall gelten.
+- [Fall 2026-001 (beantwortet, 2026-08-25)](https://belegbar.eu/faelle/requesty-zero-data-retention/): Die DPA- und Security-Seiten von Requesty sagen ohne Einschränkung, Anfrage- und Antwortinhalte würden „never stored“. Dieselben Seiten sagen im Kleingedruckten: Auf Self-Serve-Tarifen ist das Logging von Prompts und Ausgaben standardmäßig an, Aufbewahrung 30 Tage. Beide Aussagen können nicht zugleich für den Standardfall gelten.
 
 ## Anbieter-Profile
 
