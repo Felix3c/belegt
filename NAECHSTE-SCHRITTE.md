@@ -1,6 +1,6 @@
 # belegbar.eu — Nächste Schritte
 
-**Stand:** 2026-08-28 (Fall 2026-002 live, Requesty-Antwort eingetragen, hallo@-Absender eingerichtet, Methodik um „Unabhängigkeit“ ergänzt)
+**Stand:** 2026-08-29 (Erfolgskriterien für belegbar und Doorway in `~/THESE.md` festgehalten; Projektstand sonst wie 28.08.)
 **Führendes Dokument:** `MESSUNG.md` (Kill-Kriterien) · Ziel-Satz in `~/THESE.md` („Das Ziel ist der Stempel, nicht das Urteil“)
 **Phase:** live, 21 Anbieter, 123 URLs. Zwei Fälle offen: 2026-001 Requesty (beantwortet), 2026-002 GreenPT (offen).
 
@@ -15,7 +15,8 @@
 - **Prüfung 28.08.** — Linkcheck 117/117 Quellen tragen; keine veralteten Zahlen; ISO-27001-Seite mit Auditor/Scope je Anbieter.
 - **LinkedIn (28.08.)** — 8 Kontakte; Anfragen an D. Arndt, Bastians, Giebel gesendet; Köhl über Suche nicht gefunden (Direkt-URL in `06`). Dankesnachricht an Heiko Gossen 15:13 gesendet (ohne Podcast-Bezug). NEGZ-Kommentar: keine Antwort. Stand in `outreach/mails/06`, `07`.
 - **Search Console** — Sitemap-Status unverändert „Konnte nicht abgerufen werden“, aber Seiten werden indexiert; nächste Kontrolle ~02.09.
-- Git: sauber, nichts ungepusht.
+- **Was „funktionieren“ heißt (28.08., `~/THESE.md`)** — belegbar gilt zum Kill-Check 14.10. als funktionierend, wenn: (1) ein Anbieter sich *von selbst* meldet (Requesty/GreenPT zählen nicht, wir haben sie angeschrieben), (2) zwei Fälle abgeschlossen sind (`ausgeraeumt`/`bestaetigt`), (3) ein Fremder es zitiert. Besucherzahl nachrangig. Guard beginnt erst, wenn Doorway seinen ersten Amts-Fall dokumentiert und `seiteFall()` aus belegbar kopiert würde — nicht vor Frühjahr 2027.
+- Git: sauber, nichts ungepusht (Stand 29.08.).
 
 ## Nächster konkreter Schritt
 
