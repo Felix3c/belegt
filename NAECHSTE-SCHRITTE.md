@@ -16,7 +16,7 @@
 - **LinkedIn (28.08.)** — 8 Kontakte; Anfragen an D. Arndt, Bastians, Giebel gesendet; Köhl über Suche nicht gefunden (Direkt-URL in `06`). Dankesnachricht an Heiko Gossen 15:13 gesendet (ohne Podcast-Bezug). NEGZ-Kommentar: keine Antwort. Stand in `outreach/mails/06`, `07`.
 - **Search Console** — Sitemap-Status unverändert „Konnte nicht abgerufen werden“, aber Seiten werden indexiert; nächste Kontrolle ~02.09.
 - **Was „funktionieren“ heißt (28.08., `~/THESE.md`)** — belegbar gilt zum Kill-Check 14.10. als funktionierend, wenn: (1) ein Anbieter sich *von selbst* meldet (Requesty/GreenPT zählen nicht, wir haben sie angeschrieben), (2) zwei Fälle abgeschlossen sind (`ausgeraeumt`/`bestaetigt`), (3) ein Fremder es zitiert. Besucherzahl nachrangig. Guard beginnt erst, wenn Doorway seinen ersten Amts-Fall dokumentiert und `seiteFall()` aus belegbar kopiert würde — nicht vor Frühjahr 2027.
-- Git: Arbeitsbaum sauber. Quellenlauf-Commit `c002490` gepusht (29.08.); Docs-Commit `50e6916` (+ dieser) noch **nicht gepusht**.
+- Git: sauber, alles gepusht (Stand 29.08. abends, Quellenlauf `c002490`).
 
 ## Nächster konkreter Schritt
 
