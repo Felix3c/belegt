@@ -7,7 +7,7 @@
 ## Wo wir stehen
 
 - **Fall 2026-001 Requesty / ZDR** — Status `beantwortet`. Thibault Jaigu (Co-Founder) hatte am 25.08., 26 Min. nach unserer Mail, geantwortet („written by an AI agent?“, DPA sei „for customers only“); erst 28.08. gelesen, Fall war da schon live — Ablauffehler, öffentlich im Verlauf eingestanden. Antwort wörtlich im Fall + Anmerkung (DPA-Seite ist öffentlich, Wortlaut unverändert). Felix hat am 28.08. geantwortet (Entschuldigung für den Ablauf, KI-Entwurf offengelegt, zwei Auflösungswege). Frist 08.09., Nachfassen 3./4.9. nur ohne weitere Reaktion. Commit `ebc1f48`.
-- **Fall 2026-002 GreenPT / ISO 27001** — Status `beantwortet`. Robert Keus (Founder & CEO) hat am 01.09. 12:57 UTC geantwortet: Befund korrekt, GreenPT BV hält kein eigenes Zertifikat (Badge meint Scaleway/Verda), eigene ISO-27001/9001-Zertifizierung läuft, Footer wird korrigiert, URL wird nachgereicht, Zitat freigegeben. Wörtlich in `antworten[]` (ohne Telefon/Links der Signatur), Verlauf und Profil-Anmerkung ergänzt, Commit `dbd5d30`. Footer am 01.09. noch unverändert → `ausgeraeumt` erst bei Live-Korrektur (dann Seite neu abrufen, SHA-256 + Wayback, Verlauf). Nachfassen 4./5.9. entfällt. Antwort-Entwurf an Robert in `outreach/mails/09` — **Felix sendet**. Belege in `belege/faelle/2026-002/`.
+- **Fall 2026-002 GreenPT / ISO 27001** — Status `beantwortet`. Robert Keus (Founder & CEO) hat am 01.09. 12:57 UTC geantwortet: Befund korrekt, GreenPT BV hält kein eigenes Zertifikat (Badge meint Scaleway/Verda), eigene ISO-27001/9001-Zertifizierung läuft, Footer wird korrigiert, URL wird nachgereicht, Zitat freigegeben. Wörtlich in `antworten[]` (ohne Telefon/Links der Signatur), Verlauf und Profil-Anmerkung ergänzt, Commit `dbd5d30`. Footer am 01.09. noch unverändert → `ausgeraeumt` erst bei Live-Korrektur (dann Seite neu abrufen, SHA-256 + Wayback, Verlauf). Nachfassen 4./5.9. entfällt. Felix hat am 01.09. 13:53 UTC von hallo@ geantwortet (Status-Logik, Bitte um URL der Korrektur; Text in `outreach/mails/09`). Belege in `belege/faelle/2026-002/`.
 - **Regolo/Seeweb** — Chiara Grande hatte das Kontaktformular als Bewerbung fürs „Builder Program“ gelesen (Tokens gegen Logo/Post). Felix hat am 28.08. abgelehnt (Neutralität) und das Evidenz-Angebot bekräftigt; Privacy-Abteilung soll zu Subprozessoren/AI-Act antworten. Protokoll `outreach/mails/04-regolo.md`.
 - **Methodik** — neuer Abschnitt `/methodik/#unabhaengigkeit` (kein Logo, keine Gegenleistung, keine Sponsorenposts; „Finanzierung, Stand 28.08.2026: privat, keine Einnahmen“ — bei Änderung dort mit Datum ausweisen). Commit `9084340`.
 - **Mail-Infrastruktur** — Gmail „Senden als hallo@belegbar.eu“ eingerichtet (smtp.gmail.com + App-Passwort, 2-Faktor aktiviert); SPF bei INWX: `v=spf1 include:spf.improvmx.com include:_spf.google.com ~all`. ⚠️ Per Gmail-API angelegte Entwürfe verpacken Links beim Senden in `google.com/url?q=` — Anbieter-Mails deshalb als **neue Mail von Hand** in Gmail schreiben (Text aus `outreach/mails/`), Von = hallo@.
@@ -20,7 +20,7 @@
 
 ## Nächster konkreter Schritt
 
-**1. Antwort an Robert Keus senden** (Entwurf in `outreach/mails/09`, Von = hallo@, im Thread). **2. Footer-Korrektur abwarten:** sobald GreenPT die URL schickt (oder spätestens beim Nachsehen ~08.09.), `https://greenpt.com/` abrufen, neuen Wortlaut mit SHA-256 + Wayback in `behauptung`/`verlauf` dokumentieren, Status `ausgeraeumt`, Build, Push — erster abgeschlossener Fall (Kriterium 2 in `~/THESE.md`). **3. Weiter Postfach:** Requesty (Frist 08.09., Nachfassen 3./4.9. nur ohne Reaktion; Stand 01.09.: keine), Regolo-Privacy (nichts), Gossen (LinkedIn 01.09. geprüft: keine Antwort). Regolo-Dokumente ins Profil mit neuem Prüfdatum, falls sie kommen.
+**1. Footer-Korrektur abwarten:** sobald GreenPT die URL schickt (oder spätestens beim Nachsehen ~08.09.), `https://greenpt.com/` abrufen, neuen Wortlaut mit SHA-256 + Wayback in `behauptung`/`verlauf` dokumentieren, Status `ausgeraeumt`, Build, Push — erster abgeschlossener Fall (Kriterium 2 in `~/THESE.md`). **2. Weiter Postfach:** Requesty (Frist 08.09., Nachfassen 3./4.9. nur ohne Reaktion; Stand 01.09.: keine), Regolo-Privacy (nichts), Gossen (LinkedIn 01.09. geprüft: keine Antwort). Regolo-Dokumente ins Profil mit neuem Prüfdatum, falls sie kommen.
 
 ## Nächster Bau-Schritt
 
@@ -34,7 +34,6 @@ committen. Damit ist der Weg frei für den nächsten Doorway-Abschnitt bzw. eine
 ## Wartet auf Felix
 
 - Köhl: Direkt-URL funktioniert (01.09. geprüft, 2nd via Frenzel, „Connect“-Button vorhanden) — Anfrage ohne Notiz senden oder streichen (`outreach/mails/06`).
-- Antwort an Robert Keus (GreenPT) senden — Entwurf in `outreach/mails/09`.
 - Antworten an Anbieter/Gossen selbst senden (Claude entwirft, Felix sendet als neue Mail von hallo@).
 - Optional: Kommentar bei Lara Gsell.
 
