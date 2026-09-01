@@ -84,6 +84,10 @@
     {
       "datum": "2026-09-01",
       "ereignis": "Antwort des Anbieters (Robert Keus, Founder & CEO, 12:57 UTC) eingegangen und wörtlich eingetragen. GreenPT bestätigt: kein eigenes Zertifikat, Footer wird korrigiert, eigenes Zertifikat nach laufender Zertifizierung. Startseite erneut abgerufen: Footer unverändert. Status auf „beantwortet“ gesetzt."
+    },
+    {
+      "datum": "2026-09-01",
+      "ereignis": "Dem Anbieter geantwortet (13:53 UTC): Veröffentlichung der Antwort mitgeteilt, Status-Logik erläutert (ausgeräumt, sobald der korrigierte Footer live ist; Profil-Feld belegt, sobald ein eigenes Zertifikat mit Geltungsbereich vorliegt), um die URL der Korrektur gebeten. Keine Vorgabe zum Wortlaut."
     }
   ]
 }
