@@ -2979,6 +2979,10 @@
         {
           "datum": "2026-09-01",
           "ereignis": "Dem Anbieter geantwortet (13:53 UTC): Veröffentlichung der Antwort mitgeteilt, Status-Logik erläutert (ausgeräumt, sobald der korrigierte Footer live ist; Profil-Feld belegt, sobald ein eigenes Zertifikat mit Geltungsbereich vorliegt), um die URL der Korrektur gebeten. Keine Vorgabe zum Wortlaut."
+        },
+        {
+          "datum": "2026-09-02",
+          "ereignis": "Kurze Empfangsbestätigung des Anbieters vom 01.09. (Robert Keus, 14:03 UTC: „Thanks Felix.“) im Postfach; ohne inhaltliche Angabe, daher nicht als Antwort geführt. Startseite erneut abgerufen (02.09., 17:37 UTC): Footer unverändert, „Verified by independent audit … ISO 27001“ ohne Zuordnung. Snapshot: https://web.archive.org/web/20260902174027/https://greenpt.com/. Status bleibt „beantwortet“."
         }
       ]
     },
@@ -3068,6 +3072,10 @@
         {
           "datum": "2026-08-28",
           "ereignis": "Antwort des Anbieters vom 25.08. (16:10 UTC, 26 Minuten nach unserer E-Mail) erst heute gelesen — Fehler in unserem Ablauf: Der Fall war am Abend des 25.08. veröffentlicht worden, ohne die Antwort zu kennen. Antwort wörtlich eingetragen, Status auf „beantwortet“ gesetzt. DPA-Seite erneut abgerufen: öffentlich, Wortlaut unverändert."
+        },
+        {
+          "datum": "2026-09-02",
+          "ereignis": "DPA- und Security-Seite erneut abgerufen (17:37 UTC). DPA-Seite: Der Satz „request and response bodies are never stored“ steht unverändert und weiterhin ohne Einschränkung. Security-Seite: vollständig neu aufgebaut (Kopfzeile „compliance / status September 2026“). Das Diagramm „Secure Architecture“ mit der Beschriftung „No data stored“ und der Satz „with zero data retention it is never stored“ sind nicht mehr enthalten. Der Gateway-Knoten heißt jetzt „logged per your retention setting“, der Provider-Knoten „zero data retention terms when required“; die FAQ-Antwort lautet jetzt: „On self serve plans, prompt and output logging is on by default and retained for up to 30 days in encrypted form within the EU. You can turn it off per API key at any time. Organization-wide zero data retention, under which no prompt or output content is persisted and our own caching is disabled, is enabled on written request.“ Damit ist die Security-Seite qualifiziert (Auflösungsweg 1, eine der beiden Seiten); die DPA-Seite trägt die unqualifizierte Aussage weiter, der Widerspruch besteht dort fort. Zeitpunkt der Änderung: zwischen dem 01.09. (letzte Prüfung, beide Seiten unverändert) und dem 02.09.; das Internet Archive hält keinen Zwischenstand. Der Anbieter hat die Änderung nicht mitgeteilt. Neue Snapshots: https://web.archive.org/web/20260902173945/https://www.requesty.ai/security und https://web.archive.org/web/20260902174004/https://www.requesty.ai/dpa. Status bleibt „beantwortet“."
         }
       ]
     }

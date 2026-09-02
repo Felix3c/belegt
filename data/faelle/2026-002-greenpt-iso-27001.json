@@ -88,6 +88,10 @@
     {
       "datum": "2026-09-01",
       "ereignis": "Dem Anbieter geantwortet (13:53 UTC): Veröffentlichung der Antwort mitgeteilt, Status-Logik erläutert (ausgeräumt, sobald der korrigierte Footer live ist; Profil-Feld belegt, sobald ein eigenes Zertifikat mit Geltungsbereich vorliegt), um die URL der Korrektur gebeten. Keine Vorgabe zum Wortlaut."
+    },
+    {
+      "datum": "2026-09-02",
+      "ereignis": "Kurze Empfangsbestätigung des Anbieters vom 01.09. (Robert Keus, 14:03 UTC: „Thanks Felix.“) im Postfach; ohne inhaltliche Angabe, daher nicht als Antwort geführt. Startseite erneut abgerufen (02.09., 17:37 UTC): Footer unverändert, „Verified by independent audit … ISO 27001“ ohne Zuordnung. Snapshot: https://web.archive.org/web/20260902174027/https://greenpt.com/. Status bleibt „beantwortet“."
     }
   ]
 }
