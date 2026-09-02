@@ -17,11 +17,11 @@
 
 ## Nächster konkreter Schritt
 
-**Requesty-Nachfass-Mail senden (3./4.9.)** — Entwurf in `outreach/mails/08`, als Antwort im Thread an Thibault (CC sales@), von hallo@. Danach Verlauf ergänzen („Nachfassen gesendet“), bauen, pushen. Parallel weiter: **GreenPT-Footer prüfen** — sobald Roberts Mail mit der URL kommt, sonst spätestens 08.09. selbst: `https://greenpt.com/` abrufen. Wenn der Footer die Zuordnung trägt (z. B. „ISO 27001 certified infrastructure“ o. ä.): neuen Wortlaut mit Abrufzeit, SHA-256 und Wayback-Snapshot in den Fall (`verlauf`, ggf. Anmerkung), Status `ausgeraeumt`, `node build.js`, committen, pushen. Das wäre der **erste abgeschlossene Fall** (Kriterium 2 in `~/THESE.md`).
+**Requesty-Nachfass-Mail senden (3./4.9.)** — Felix hat am 02.09. zugestimmt. Der Entwurf liegt fertig als Gmail-Entwurf im Requesty-Thread (Text auch in `outreach/mails/08`); vor dem Senden den Absender auf hallo@ umstellen. Danach Verlauf ergänzen („Nachfassen gesendet“), bauen, pushen. Parallel weiter: **GreenPT-Footer prüfen** — sobald Roberts Mail mit der URL kommt, sonst spätestens 08.09. selbst: `https://greenpt.com/` abrufen. Wenn der Footer die Zuordnung trägt (z. B. „ISO 27001 certified infrastructure“ o. ä.): neuen Wortlaut mit Abrufzeit, SHA-256 und Wayback-Snapshot in den Fall (`verlauf`, ggf. Anmerkung), Status `ausgeraeumt`, `node build.js`, committen, pushen. Das wäre der **erste abgeschlossene Fall** (Kriterium 2 in `~/THESE.md`).
 
 ## Wartet auf Felix
 
-- **Requesty-Nachfass-Mail** aus `outreach/mails/08` senden (3./4.9.) — oder streichen, falls Felix die stille Änderung der Security-Seite für sich sprechen lassen will.
+- **Requesty-Nachfass-Mail** am 3./4.9. aus Gmail senden (Entwurf liegt im Thread, Absender auf hallo@ umstellen). Freigegeben 02.09.
 - **Status-Frage Requesty:** Reicht die qualifizierte Security-Seite allein für `ausgeraeumt`? Claude sagt nein — der Fall hängt an der DPA-Zeile, die unverändert ist; `beantwortet` bleibt, bis /dpa qualifiziert ist oder am 08.09. die Frist abläuft (dann `bestaetigt` mit Anmerkung „Security-Seite korrigiert“).
 
 - **Status-Regel bestätigen:** Fall 2026-002 auf `bestaetigt` setzen, wenn der Footer am 11.09. noch unverändert ist (Anmerkung „Korrektur angekündigt“)? Claude empfiehlt ja; Robert wurde es nicht angekündigt — vorher ggf. kurze Mail.
