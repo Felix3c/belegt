@@ -2897,7 +2897,7 @@
       "titel": "GreenPT: „ISO 27001 — Verified by independent audit“ im Footer, Zertifikat gehört den Rechenzentren",
       "kurz": "Der Footer jeder GreenPT-Seite führt „ISO 27001“ unter der Überschrift „Verified by independent audit“, die Startseite spricht von „Audited certifications … Not marketing“. Die eigene Sustainability-Seite, deren FAQ und die Privacy Policy sagen dreimal übereinstimmend: Die ISO-27001-Zertifizierung gehört den genutzten Rechenzentren (Scaleway, Verda), nicht GreenPT BV. Ein Rechenzentrums-Zertifikat deckt das Informationssicherheits-Managementsystem des Anbieters selbst nicht ab.",
       "eroeffnet": "2026-08-28",
-      "status": "beantwortet",
+      "status": "bestaetigt",
       "anbieter_informiert": "2026-08-28",
       "antwort_frist": "2026-09-11",
       "behauptung": [
@@ -2956,7 +2956,7 @@
           "datum": "2026-09-01",
           "von": "Robert Keus, Founder & CEO GreenPT (per E-Mail an hallo@belegbar.eu, 12:57 UTC)",
           "text": "Dear Felix,\n\nThank you for the heads-up and for the transparent way the case is framed. Your reading is correct, and we would rather document the fix than dispute the finding.\n\nWhat happened: the footer badge is intended to refer to the certifications of the infrastructure we run on — Scaleway SAS (France) and Verda (Finland), both ISO 27001 certified, which our sustainability page attributes correctly and links via the Scaleway Impact Report and the Verda Trust Center. The badge as rendered, under \"Verified by independent audit\", does not carry that attribution. We agree that as it stands it reads as GreenPT BV's own certificate, and we do not yet hold one.\n\nGreenPT BV is currently in the certification process for its own ISO 27001 (and ISO 9001), including an external penetration test. Expected completion is within the coming months. As soon as the certificate with its scope is issued, we will send it to you so the entry can be marked \"belegt\" and the case \"resolved\".\n\nTo be explicit for the record: GreenPT BV does not hold its own ISO 27001 certificate today. The only ISO 27001 certificates covering our service relate to our data centre providers.\n\nYou may quote this reply verbatim on the case page. Please publish the corrected footer wording once live, and we will confirm the exact URL.\n\nBest regards,\nRobert Keus\nFounder & CEO\nGreenPT",
-          "anmerkung": "Wörtlich und ungekürzt; weggelassen sind nur Telefonnummer und Link-Zeilen der Signatur sowie die interne Weiterleitung unserer E-Mail, die unter der Antwort zitiert war. GreenPT bestätigt den Befund: kein eigenes ISO-27001-Zertifikat von GreenPT BV, das Badge bezieht sich auf Scaleway und Verda. Angekündigt sind eine korrigierte Footer-Formulierung (Auflösungsweg 1) und, nach Abschluss der laufenden Zertifizierung, das eigene Zertifikat mit Geltungsbereich (Auflösungsweg 2). Der Footer zeigte am 01.09.2026 noch den bisherigen Wortlaut; der Fall wird auf „ausgeräumt“ gesetzt, sobald die Korrektur live ist. Das Profil-Feld ISO 27001 bleibt bis dahin „beansprucht“."
+          "anmerkung": "Wörtlich und ungekürzt; weggelassen sind nur Telefonnummer und Link-Zeilen der Signatur sowie die interne Weiterleitung unserer E-Mail, die unter der Antwort zitiert war. GreenPT bestätigt den Befund: kein eigenes ISO-27001-Zertifikat von GreenPT BV, das Badge bezieht sich auf Scaleway und Verda. Angekündigt sind eine korrigierte Footer-Formulierung (Auflösungsweg 1) und, nach Abschluss der laufenden Zertifizierung, das eigene Zertifikat mit Geltungsbereich (Auflösungsweg 2). Der Footer zeigte am 01.09.2026 noch den bisherigen Wortlaut. Der Status beschreibt die Website, nicht die Absicht: Weil die Antwort den Widerspruch bestätigt und die Seite unverändert ist, steht der Fall seit 02.09.2026 auf „bestätigt“ (Anbieter bestätigt den Befund, Korrektur angekündigt). Er wird auf „ausgeräumt“ gesetzt, sobald die Korrektur live ist. Das Profil-Feld ISO 27001 bleibt bis dahin „beansprucht“."
         }
       ],
       "verlauf": [
@@ -2983,6 +2983,10 @@
         {
           "datum": "2026-09-02",
           "ereignis": "Kurze Empfangsbestätigung des Anbieters vom 01.09. (Robert Keus, 14:03 UTC: „Thanks Felix.“) im Postfach; ohne inhaltliche Angabe, daher nicht als Antwort geführt. Startseite erneut abgerufen (02.09., 17:37 UTC): Footer unverändert, „Verified by independent audit … ISO 27001“ ohne Zuordnung. Snapshot: https://web.archive.org/web/20260902174027/https://greenpt.com/. Status bleibt „beantwortet“."
+        },
+        {
+          "datum": "2026-09-02",
+          "ereignis": "Status auf „bestätigt“ gesetzt: Die Antwort des Anbieters bestätigt den Widerspruch und räumt ihn nicht aus, der Footer ist unverändert. Anmerkung: Anbieter bestätigt den Befund, Korrektur angekündigt. Dem Anbieter mit kurzer E-Mail erläutert; Wechsel auf „ausgeräumt“, sobald der korrigierte Footer live ist. Die Antwortfrist 11.09.2026 hat für diesen Fall keine Bedeutung mehr."
         }
       ]
     },

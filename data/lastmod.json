@@ -32,8 +32,8 @@
     "datum": "2026-08-25"
   },
   "anbieter/greenpt/": {
-    "hash": "e94600cc2d4a1976",
-    "datum": "2026-09-01"
+    "hash": "107bb4ef52df1759",
+    "datum": "2026-09-02"
   },
   "anbieter/hetzner/": {
     "hash": "ef22dda36e2d3ca7",
@@ -92,11 +92,11 @@
     "datum": "2026-08-25"
   },
   "faelle/": {
-    "hash": "20545d17d0e5b514",
-    "datum": "2026-09-01"
+    "hash": "6e9bb1c3bccf949e",
+    "datum": "2026-09-02"
   },
   "faelle/greenpt-iso-27001/": {
-    "hash": "054b23b6523f52d6",
+    "hash": "ee4d749bb203af42",
     "datum": "2026-09-02"
   },
   "faelle/requesty-zero-data-retention/": {
