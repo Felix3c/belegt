@@ -66,6 +66,12 @@
       "von": "Thibault Jaigu, Co-Founder Requesty (per E-Mail, 16:10 UTC)",
       "text": "Hi Felix,\n\nIs this written by an AI agent? Please ensure a human reviews this before breaking rules such as publicly providing our DPA information which is for customers only.\n\nI would highly advise getting in touch with providers before publishing anything based on assumptions and especially using AI to do the writing for you.\n\nI'll be at your disposal if you want accurate information.\n\nThanks\n\nThibault Jaigu\nCo-Founder | Requesty",
       "anmerkung": "Wörtlich und ungekürzt. Die Antwort ging 26 Minuten nach unserer E-Mail ein, wurde von uns aber erst am 28.08.2026 gelesen — der Fall war am Abend des 25.08. bereits veröffentlicht. Zur Sache: Die Seite requesty.ai/dpa ist ohne Anmeldung öffentlich abrufbar, robots.txt und Meta-Tags erlauben die Indexierung, das Internet Archive hält eine Kopie vom 25.08.; beide zitierten Sätze stehen am 28.08. unverändert auf der Seite. Unsere E-Mail wurde mit KI-Unterstützung entworfen, von Felix Lind geprüft und gesendet; jedes Zitat wurde von Hand gegen die Seite geprüft."
+    },
+    {
+      "datum": "2026-09-02",
+      "von": "Thibault Jaigu, Co-Founder Requesty (per E-Mail an hallo@belegbar.eu, 18:52 UTC)",
+      "text": "Is this an AI agent?\n\nI have a hard time understanding what this emails mean.\nWe have over 1000 customers and never seen anything like this\n\nThibault Jaigu\nCo-Founder | Requesty",
+      "anmerkung": "Wörtlich und ungekürzt; weggelassen ist nur das Zitat unserer E-Mail unter der Antwort. Die Antwort ging drei Minuten nach unserem Nachfassen vom 02.09. (18:49 UTC) ein und wurde von uns erst am 04.09. (23:00 UTC) gelesen — zum zweiten Mal in diesem Fall ein Verzug von drei Tagen auf unserer Seite. Zur Sache: Die Antwort enthält keine Aussage zum Satz auf der DPA-Seite, kein Dokument und keine angekündigte Änderung. Zur Frage: Unsere E-Mails vom 25.08., 28.08. und 02.09. wurden mit KI-Unterstützung entworfen und von Felix Lind geprüft und gesendet; diese Frage beantwortet Felix Lind persönlich. Der Status bleibt „beantwortet“, weil die Antwort den Widerspruch weder ausräumt noch bestätigt; die Frist 08.09.2026 läuft."
     }
   ],
   "verlauf": [
@@ -92,6 +98,10 @@
     {
       "datum": "2026-09-02",
       "ereignis": "Nachfassen an den Anbieter gesendet (18:49 UTC, an Thibault Jaigu, Kopie sales@requesty.ai): Änderung der Security-Seite als erfüllten Teil von Auflösungsweg 1 benannt, auf den unveränderten Satz der DPA-Seite hingewiesen, an die Frist 08.09.2026 erinnert. Keine neue Frist."
+    },
+    {
+      "datum": "2026-09-04",
+      "ereignis": "Zweite Antwort des Anbieters vom 02.09. (18:52 UTC, drei Minuten nach unserem Nachfassen) erst heute (23:00 UTC) gelesen — zum zweiten Mal ein Verzug von drei Tagen in unserem Ablauf. Regel ab heute: Vor jeder Arbeit an einem Fall zuerst das Postfach. Die Antwort fragt erneut, ob ein KI-Agent schreibe, und enthält keine Aussage zur Sache; wörtlich eingetragen. DPA-Seite erneut abgerufen (23:14 UTC): Der Satz „request and response bodies are never stored“ steht unverändert und ohne Einschränkung, daneben unverändert „prompt and output logging is on by default on self serve plans with a 30 day retention window“. Rohkopie: belege/faelle/2026-001/dpa-2026-09-04.html (SHA-256 6c3cab7ac15d182d3865710f824a746be6356e19731c7f2dcd0fe5867a1f897a). Speicherung im Internet Archive zweimal fehlgeschlagen (HTTP 520); letzter Snapshot bleibt der vom 02.09. Status bleibt „beantwortet“; Frist 08.09.2026 läuft."
     }
   ]
 }
