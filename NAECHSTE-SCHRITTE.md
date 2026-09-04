@@ -24,7 +24,7 @@ Reihenfolge, von Felix bestätigt:
 
 1. **Fälle zu Ende bringen** (08.09., siehe unten).
 2. **Änderungsprotokoll `/aenderungen/` plus Atom-Feed** — **gebaut 05.09.** (`lib/aenderungen.js`, `test/aenderungen.test.js`, 10 Tests). Quelle ist die Git-Historie von `data/anbieter` und `data/faelle` plus der noch nicht committete Arbeitsstand (Datum = Baudatum): kein Hand-Ledger, jeder kann es aus den öffentlichen Commits nachrechnen. Ein Eintrag je Status- oder Quellenwechsel eines belegenden Feldes, je Fall-Statuswechsel, je Anbieter-Aufnahme; Prüfdatum und Anmerkung allein zählen nicht. Grund = Anmerkung des Feldes, wenn sie sich mitbewegt hat. Beim ersten Build 37 Einträge seit 19.08. Startseite zeigt „Zuletzt geprüft · n Änderungen in 30 Tagen“; `daten.json` trägt das Feld `aenderungen`; `llms.txt` verweist. Bewusste Lücke: Quellenlauf-Befunde ohne Handprüfung erscheinen nicht — erst der Statuswechsel. Nach dem Lauf am 28.09. prüfen, ob das stört.
-3. **Fünf Gespräche mit DSBs oder IT-Einkäufern** (Felix). Frage: „Wie hast du es beim letzten Mal gemacht, wie lange hat es gedauert?“ Zusatzfrage für Guard: „Würdest du ein Dokument unterschreiben, das sagt, was nicht belegbar war?“ Claude bereitet Kandidatenliste und Leitfaden vor. Das Ergebnis entscheidet die Zahler-Frage (Anbieter zahlt für den Stempel vs. Käufer zahlt für das Dossier).
+3. **Fünf Gespräche mit DSBs oder IT-Einkäufern** (Felix). Frage: „Wie hast du es beim letzten Mal gemacht, wie lange hat es gedauert?“ Zusatzfrage für Guard: „Würdest du ein Dokument unterschreiben, das sagt, was nicht belegbar war?“ **Vorbereitet 05.09.:** `outreach/gespraeche/leitfaden.md` (Regeln, acht Fragen, Guard-Frage, Auswertungsraster, vorab festgelegte Entscheidungsregel: Dossier-Weg nur bei mindestens drei von fünf mit „Stunden“, Ergebnisdokument und Unterschriftsbereitschaft) und `outreach/gespraeche/kandidaten.md` (Welle 1: Gossen, C. Arndt, Groß, Köhler-Heite, Hansen-Oest; Welle 2 und Wege außerhalb LinkedIn). Das Ergebnis entscheidet die Zahler-Frage (Anbieter zahlt für den Stempel vs. Käufer zahlt für das Dossier). Ziel: fünf ausgefüllte Raster bis 30.09.
 4. **Preis-Statusstufen**: vierte Stufe „kein öffentlicher Preis“, Einheit €/GPU-Stunde für Hetzner/Exoscale, Abrufdatum je Preis, Archivkopie der Preisseite. Output-Preis existiert bereits.
 5. **Belegt-Filter** auf der Übersicht („nur Anbieter, bei denen AVV, Subprozessoren, Trainings-Opt-out belegt sind“). Zeigt, sortiert nicht.
 6. **noindex** auf alle Vergleichsseiten bis auf etwa acht handverlesene Paarungen.
@@ -37,6 +37,7 @@ Gestrichen: Shortlist-Wizard (Urteil statt Zeuge, RDG-Nähe). Verschoben bis nac
 
 ## Wartet auf Felix
 
+- **Gespräche, Welle 1 (Plan Punkt 3):** LinkedIn-Nachricht an Gossen, C. Arndt, Groß mit dem Text aus `outreach/gespraeche/leitfaden.md` (Abschnitt Anschreiben); zwei Tage später Köhler-Heite und Hansen-Oest. Nicht mehr als drei am Tag.
 - **Requesty-Status am 08.09.:** Claudes Vorschlag `bestaetigt` mit Anmerkung „Security-Seite korrigiert“ — von Felix noch nicht ausdrücklich bestätigt, folgt aber derselben Logik wie die GreenPT-Entscheidung.
 - **Köhl:** „Connect“-Klick auf https://www.linkedin.com/in/stefanie-k%C3%B6hl-8159a1179/ (ohne Notiz) — oder endgültig streichen (`outreach/mails/06`).
 - Optional: Kommentar bei Lara Gsell (unverändert offen).
