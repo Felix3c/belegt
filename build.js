@@ -8,8 +8,10 @@
 
 const fs = require("fs");
 const path = require("path");
+const A = require("./lib/aenderungen.js");
 
 const ROOT = __dirname;
+const REPO_URL = "https://github.com/Felix3c/belegt";
 const DATA_DIR = path.join(ROOT, "data", "anbieter");
 const GUIDES_DIR = path.join(ROOT, "guides");
 const SRC_DIR = path.join(ROOT, "src");
@@ -276,6 +278,7 @@ function layout({ titel, beschreibung, inhalt, rel, pfad, jsonld }) {
     ["fragen/", "Fragen"],
     ["zertifikate/", "Zertifikate"],
     ["faelle/", "Fälle"],
+    ["aenderungen/", "Änderungen"],
     ["vergleich/", "Vergleiche"],
     ["ratgeber/", "Ratgeber"],
     ["methodik/", "Methodik"],
@@ -298,6 +301,7 @@ function layout({ titel, beschreibung, inhalt, rel, pfad, jsonld }) {
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='14' fill='%235F4B9E'/%3E%3Ctext x='50' y='68' font-size='58' text-anchor='middle' fill='white' font-family='Georgia'%3Eb%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="${rel}fonts.css">
 <link rel="stylesheet" href="${rel}style.css">
+<link rel="alternate" type="application/atom+xml" title="belegbar.eu — Änderungen" href="${rel}aenderungen/feed.xml">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="belegbar.eu">
 <meta property="og:locale" content="de_DE">
@@ -334,7 +338,9 @@ ${inhalt}
 
 /* ---------------- Seiten ---------------- */
 
-function seiteIndex(providers) {
+function seiteIndex(providers, stand, aenderungen) {
+  const n30 = A.anzahlSeit(aenderungen || [], BUILD_DATUM, 30);
+  const frische = `<p class="frische klein">Zuletzt geprüft: <strong>${datumDE(stand)}</strong> · ${n30 === 1 ? "1 Änderung" : n30 + " Änderungen"} in den letzten 30 Tagen · <a href="aenderungen/">Änderungsprotokoll</a> · <a href="aenderungen/feed.xml">Feed</a></p>`;
   const zeilen = providers
     .map((p) => {
       const quote = Math.round(belegQuote(p) * 100);
@@ -373,6 +379,7 @@ function seiteIndex(providers) {
   <div class="held-text">
     <h1>Wem dürfen Sie Ihre Daten geben?<br>Wir belegen es.</h1>
     <p class="held-claim">${providers.length} europäische KI-Anbieter, geprüft Feld für Feld: Hosting-Standorte, Preise, AVV, Zertifikate, AI-Act-Nachweise — <strong>jede Angabe mit Quelle und Prüfdatum</strong>. Was wir nicht belegen können, steht hier auch: als „unbelegt“.</p>
+    ${frische}
   </div>
   <div class="held-beleg" aria-hidden="true">${heroBeleg}</div>
 </section>
@@ -748,6 +755,54 @@ ${faelle.map((f) => `<li><p class="fall-kopf">Fall ${esc(f.id)} · ${fallStatusB
   });
 }
 
+/** Änderungsprotokoll: aus der Git-Historie berechnet, nie von Hand geführt. Ein Eintrag je Status-
+ *  oder Quellenwechsel, mit Anker, damit Feed und Verweise auf eine einzelne Änderung zeigen können. */
+function seiteAenderungen(eintraege, providers, faelle, stand) {
+  const byId = new Map(providers.map((p) => [p.id, p]));
+  const name = (id) => (byId.get(id) || {}).name || id;
+  const fallSlug = new Map(faelle.map((f) => [f.id, f.slug]));
+  const badge = (s, typ) => (s === null || s === undefined ? '<span class="leer">–</span>' : typ === "fall" ? fallStatusBadge(s) : STATUS_LABEL[s] ? statusBadge(s) : esc(A.statusText(s)));
+  const gruppen = A.gruppiere(eintraege);
+  const tage = [...new Set(gruppen.map((e) => e.datum))];
+
+  const zeile = (e) => {
+    const ziel = e.typ === "fall" ? `../faelle/${esc(fallSlug.get(e.fall) || e.slug)}/` : `../anbieter/${esc(e.anbieter)}/`;
+    const was = e.typ === "anbieter" ? "Anbieter aufgenommen"
+      : e.typ === "fall" ? `<a href="${ziel}">Fall ${esc(e.fall)}</a>: ${esc(e.feld.replace(/^Fall [^:]+: /, ""))}`
+      : e.typ === "quelle" ? `Quelle geändert: ${e.felder.map(esc).join(", ")}`
+      : esc(e.feld);
+    const wechsel = e.typ === "anbieter" ? "" : e.typ === "quelle" ? "" : `${badge(e.alt, e.typ)} → ${badge(e.neu, e.typ)}`;
+    const quellen = [
+      e.quelle_alt && e.quelle_alt !== e.quelle_neu ? `alte Quelle: <a href="${esc(e.quelle_alt)}" rel="noopener nofollow" target="_blank">${esc(e.quelle_alt.replace(/^https?:\/\//, ""))}</a>` : "",
+      e.quelle_neu && e.quelle_alt !== e.quelle_neu ? `neue Quelle: <a href="${esc(e.quelle_neu)}" rel="noopener nofollow" target="_blank">${esc(e.quelle_neu.replace(/^https?:\/\//, ""))}</a>` : "",
+      e.commit ? `<a href="${REPO_URL}/commit/${esc(e.commit.sha)}" rel="noopener" target="_blank">Commit ${esc(e.commit.sha)}</a>` : "noch nicht committet",
+    ].filter(Boolean).join(" · ");
+    return `<li id="${esc(A.ankerId(e))}" class="aenderung aenderung-${esc(e.typ)}">
+  <p class="aenderung-kopf"><a href="${e.typ === "fall" ? ziel : `../anbieter/${esc(e.anbieter)}/`}"><strong>${esc(name(e.anbieter))}</strong></a> · ${was} ${wechsel}</p>
+  ${e.grund ? `<p class="aenderung-grund">${esc(e.grund)}</p>` : ""}
+  <p class="klein">${quellen}</p>
+</li>`;
+  };
+
+  const inhalt = `
+<article class="artikel">
+<h1>Änderungen: Was sich an Belegen bewegt hat</h1>
+<p>Jede Angabe dieser Datenbank trägt einen Status und eine Quelle. Sobald sich eines von beiden ändert, ein Fall seinen Status wechselt oder ein Anbieter aufgenommen wird, steht es hier — mit Datum, altem und neuem Wert, Grund und beiden Quellen. Das Protokoll wird bei jedem Build aus der <a href="${REPO_URL}" rel="noopener" target="_blank">öffentlichen Git-Historie</a> berechnet, nicht von Hand geführt: Jeder kann es aus denselben Commits nachrechnen. Nicht verzeichnet sind fortgeschriebene Prüfdaten und Anmerkungen; das Prüfdatum steht auf jedem Profil.</p>
+<p class="klein">Abonnieren: <a href="feed.xml">Atom-Feed</a> · Rohdaten: <a href="../daten.json">daten.json</a> (Feld <code>aenderungen</code>) · Wie der monatliche Quellenlauf Änderungen findet: <a href="../methodik/#faelle">Methodik</a></p>
+${tage.map((t) => `<h2 id="${t}">${datumDE(t)}</h2>
+<ul class="liste-aenderungen">
+${gruppen.filter((e) => e.datum === t).map(zeile).join("\n")}
+</ul>`).join("\n")}
+<footer class="dossier-fuss"><p class="klein">${eintraege.length} Einträge seit ${datumDE(eintraege.length ? eintraege[eintraege.length - 1].datum : stand)} · Stand ${datumDE(stand)} · Lizenz CC BY 4.0</p></footer>
+</article>`;
+  return layout({
+    titel: "Änderungsprotokoll — jede Status- und Quellenänderung, datiert | belegbar.eu",
+    beschreibung: "Was sich an den Belegen europäischer KI-Anbieter geändert hat: Statuswechsel, umgezogene Quellen, neue Fälle — datiert, mit altem und neuem Wert, aus der öffentlichen Git-Historie berechnet.",
+    inhalt, rel: "../", pfad: "aenderungen/",
+    jsonld: brotkrumenLd([["", "Anbieter"], ["aenderungen/", "Änderungen"]]),
+  });
+}
+
 function seiteMethodik() {
   const inhalt = `
 <article class="artikel">
@@ -798,7 +853,7 @@ ${belegZeile("unbelegt", "Wir haben keine belastbare Angabe gefunden. Auch das i
 <h2>Verfallen Belege? Ja — und wir prüfen das</h2>
 <p>Eine Evidenz-Datenbank verfällt nicht dadurch, dass Angaben falsch werden, sondern dadurch, dass ihre Belege verschwinden. Anbieter bauen ihre Websites um, Dokumente wandern, Domains werden zusammengelegt. Ein Link, der ins Leere zeigt, ist schlimmer als eine fehlende Angabe: Er täuscht Nachweisbarkeit vor.</p>
 <p>Deshalb prüfen wir regelmäßig jede hinterlegte Quellen-URL — und zwar nicht nur auf den Statuscode. Eine gelöschte Dokumentseite antwortet häufig mit „200 OK“, weil der Server auf die Startseite weiterleitet. Wir bewerten deshalb das Ziel der Weiterleitung mit: Landet ein tief verlinktes Dokument auf einer Startseite, gilt der Beleg als verloren.</p>
-<p><strong>Ein Beispiel vom 24. August 2026:</strong> Der öffentliche Auftragsverarbeitungsvertrag von STACKIT war bis dahin als PDF verlinkt und der AVV entsprechend als „belegt“ geführt. Beim Quellen-Check leitete die gesamte alte Domain auf die neue Startseite um; das Dokument war öffentlich nicht mehr auffindbar. Wir haben die Angabe auf „unbelegt“ zurückgesetzt und die verlorene URL in der Anmerkung dokumentiert. Das heißt ausdrücklich nicht, dass STACKIT keinen AVV hätte — es heißt, dass er sich nicht mehr öffentlich nachweisen lässt. Genau diesen Unterschied festzuhalten, ist der Zweck dieser Datenbank.</p>
+<p><strong>Ein Beispiel vom 24. August 2026:</strong> Der öffentliche Auftragsverarbeitungsvertrag von STACKIT war bis dahin als PDF verlinkt und der AVV entsprechend als „belegt“ geführt. Beim Quellen-Check leitete die gesamte alte Domain auf die neue Startseite um; das Dokument war öffentlich nicht mehr auffindbar. Wir haben die Angabe auf „unbelegt“ zurückgesetzt und die verlorene URL in der Anmerkung dokumentiert. Das heißt ausdrücklich nicht, dass STACKIT keinen AVV hätte — es heißt, dass er sich nicht mehr öffentlich nachweisen lässt. Genau diesen Unterschied festzuhalten, ist der Zweck dieser Datenbank. Solche Wechsel stehen seitdem im <a href="../aenderungen/">Änderungsprotokoll</a>, das aus der öffentlichen Git-Historie berechnet wird.</p>
 <p>Am selben Tag ging es auch in die andere Richtung: DeepLs BSI-C5-Angabe stand als „beansprucht“, weil zum Erfassungszeitpunkt nur eine Selbstverpflichtung auffindbar war. Die Prüfung förderte Blogbeitrag und Pressemitteilung zum tatsächlich erteilten C5-Typ-2-Testat zutage — die Angabe steht seitdem auf „belegt“, mit eigenem Prüfdatum.</p>
 
 <h2>Prüfdatum je Angabe</h2>
@@ -875,6 +930,10 @@ Ein Fall hält fest, dass zwei öffentliche Aussagen eines Anbieters nicht zugle
 mit Abrufzeitpunkt, SHA-256 und Archivkopie. Der Anbieter wird vorab informiert; seine Antwort erscheint wörtlich. Status je Fall bitte mitzitieren.
 
 ${(faelle || []).length ? faelle.map((f) => `- [Fall ${f.id} (${FALL_STATUS[f.status].label}, ${f.eroeffnet})](${SITE.baseUrl}/faelle/${f.slug}/): ${f.kurz}`).join("\n") : "- Noch kein Fall dokumentiert."}
+
+## Änderungsprotokoll
+
+Jede Status- und Quellenänderung, jeder Fall-Statuswechsel und jede Aufnahme eines Anbieters, datiert und aus der öffentlichen Git-Historie berechnet: ${SITE.baseUrl}/aenderungen/ — als Atom-Feed: ${SITE.baseUrl}/aenderungen/feed.xml
 
 ## Anbieter-Profile
 
@@ -1399,9 +1458,11 @@ function main() {
   const stand = providers.map(juengstesDatum).filter(Boolean).sort().pop() || null;
   const fragen = fragenKatalog(providers, guides);
   const faelle = leseFaelle(providers);
+  // Änderungsprotokoll aus der Git-Historie plus dem noch nicht committeten Arbeitsstand.
+  const aenderungen = A.ausGit(ROOT, BUILD_DATUM);
 
   // Seiten
-  schreibe("index.html", seiteIndex(providers));
+  schreibe("index.html", seiteIndex(providers, stand, aenderungen));
   providers.forEach((p) => schreibe(`anbieter/${p.id}/index.html`, seiteAnbieter(p, providers, facettenSet, faelle)));
 
   const paare = [];
@@ -1422,6 +1483,8 @@ function main() {
 
   schreibe("faelle/index.html", seiteFaelleIndex(faelle, providers, stand));
   faelle.forEach((f) => schreibe(`faelle/${f.slug}/index.html`, seiteFall(f, providers.find((p) => p.id === f.anbieter), stand)));
+  schreibe("aenderungen/index.html", seiteAenderungen(aenderungen, providers, faelle, stand));
+  fs.writeFileSync(path.join(OUT, "aenderungen", "feed.xml"), A.atomFeed(aenderungen, { baseUrl: SITE.baseUrl, name: SITE.name, anbieterName: (id) => (providers.find((p) => p.id === id) || {}).name || id, heute: BUILD_DATUM }));
   schreibe("methodik/index.html", seiteMethodik());
   schreibe("ueber/index.html", seiteUeber());
   schreibe("404.html", seite404());
@@ -1467,6 +1530,7 @@ function main() {
         volltext: `${SITE.baseUrl}/llms-full.txt`,
         anbieter: providers.map(anreichern),
         faelle,
+        aenderungen,
       },
       null,
       2
@@ -1477,7 +1541,7 @@ function main() {
   // Sitemap. lastmod kommt aus dem Ledger, also aus dem tatsächlichen Änderungsdatum der Seite —
   // nicht aus dem Prüfdatum der Anbieterdaten. Beides fiel auseinander, sobald sich das Template
   // änderte: Der Inhalt war neu, das lastmod blieb alt, und Crawler kamen nicht wieder.
-  const urls = ["", "fragen/", "zertifikate/", "faelle/", "vergleich/", "ratgeber/", "methodik/", "ueber/"]
+  const urls = ["", "fragen/", "zertifikate/", "faelle/", "aenderungen/", "vergleich/", "ratgeber/", "methodik/", "ueber/"]
     .concat(fragen.map((f) => `fragen/${f.slug}/`))
     .concat(faelle.map((f) => `faelle/${f.slug}/`))
     .concat(facetten.map((e) => `zertifikate/${e.schluessel}/`))

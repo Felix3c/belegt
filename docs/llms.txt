@@ -35,6 +35,10 @@ mit Abrufzeitpunkt, SHA-256 und Archivkopie. Der Anbieter wird vorab informiert;
 - [Fall 2026-002 (bestätigt, 2026-08-28)](https://belegbar.eu/faelle/greenpt-iso-27001/): Der Footer jeder GreenPT-Seite führt „ISO 27001“ unter der Überschrift „Verified by independent audit“, die Startseite spricht von „Audited certifications … Not marketing“. Die eigene Sustainability-Seite, deren FAQ und die Privacy Policy sagen dreimal übereinstimmend: Die ISO-27001-Zertifizierung gehört den genutzten Rechenzentren (Scaleway, Verda), nicht GreenPT BV. Ein Rechenzentrums-Zertifikat deckt das Informationssicherheits-Managementsystem des Anbieters selbst nicht ab.
 - [Fall 2026-001 (beantwortet, 2026-08-25)](https://belegbar.eu/faelle/requesty-zero-data-retention/): Die DPA- und Security-Seiten von Requesty sagen ohne Einschränkung, Anfrage- und Antwortinhalte würden „never stored“. Dieselben Seiten sagen im Kleingedruckten: Auf Self-Serve-Tarifen ist das Logging von Prompts und Ausgaben standardmäßig an, Aufbewahrung 30 Tage. Beide Aussagen können nicht zugleich für den Standardfall gelten.
 
+## Änderungsprotokoll
+
+Jede Status- und Quellenänderung, jeder Fall-Statuswechsel und jede Aufnahme eines Anbieters, datiert und aus der öffentlichen Git-Historie berechnet: https://belegbar.eu/aenderungen/ — als Atom-Feed: https://belegbar.eu/aenderungen/feed.xml
+
 ## Anbieter-Profile
 
 - [Aleph Alpha](https://belegbar.eu/anbieter/aleph-alpha/): Heidelberger KI-Modellanbieter (PhariaAI-Plattform, Pharia-Modellfamilie, Fokus auf spezialisierte Sprachmodelle für Industrie und Verwaltung); die im April 2026 angekündigte Fusion mit dem kanadischen Anbieter Cohere ist noch nicht vollzogen. (geprüft 2026-08-19, Rohdaten: https://belegbar.eu/anbieter/aleph-alpha/daten.json)
