@@ -15,6 +15,21 @@
 - **Termine/Sonstiges:** Search-Console-Sitemap-Kontrolle (geplant ~02.09.) — ungeklärt, ob erledigt. Quellenlauf ~28.09. (`node quellenlauf.js`). Kill-Check ~14.10.
 - Git: sauber, alles gepusht (HEAD `320d30f`).
 
+## Plan bis zum Kill-Check (beschlossen 05.09.2026)
+
+Anlass: ein externer 10-Punkte-Vorschlag (Preisspalte, Vergleichsseiten, geführter Weg, Änderungsprotokoll, Englisch, mehr Anbieter, Newsletter, Dossier-Generator, API/MCP, DSB-Gespräche). Gegen `~/THESE.md` geprüft: gut als Plan für eine Vergleichsseite, nur zur Hälfte als Plan für den Guard-Prototyp, weil die Fälle darin nicht vorkommen. Nebenbedingung: etwa eine Stunde pro Abend.
+
+Reihenfolge, von Felix bestätigt:
+
+1. **Fälle zu Ende bringen** (08.09., siehe unten).
+2. **Änderungsprotokoll `/aenderungen/` plus Atom-Feed**, automatisch aus dem Quellenlauf. Jeder Eintrag: Datum, Anbieter, Feld, alt → neu, Grund, alte und neue Quelle. Startseite zeigt „zuletzt geprüft“ und Änderungen der letzten 30 Tage. Guard-Kern: der Zeuge wird öffentlich; jeder Befund ist ein Fall-Kandidat.
+3. **Fünf Gespräche mit DSBs oder IT-Einkäufern** (Felix). Frage: „Wie hast du es beim letzten Mal gemacht, wie lange hat es gedauert?“ Zusatzfrage für Guard: „Würdest du ein Dokument unterschreiben, das sagt, was nicht belegbar war?“ Claude bereitet Kandidatenliste und Leitfaden vor. Das Ergebnis entscheidet die Zahler-Frage (Anbieter zahlt für den Stempel vs. Käufer zahlt für das Dossier).
+4. **Preis-Statusstufen**: vierte Stufe „kein öffentlicher Preis“, Einheit €/GPU-Stunde für Hetzner/Exoscale, Abrufdatum je Preis, Archivkopie der Preisseite. Output-Preis existiert bereits.
+5. **Belegt-Filter** auf der Übersicht („nur Anbieter, bei denen AVV, Subprozessoren, Trainings-Opt-out belegt sind“). Zeigt, sortiert nicht.
+6. **noindex** auf alle Vergleichsseiten bis auf etwa acht handverlesene Paarungen.
+
+Gestrichen: Shortlist-Wizard (Urteil statt Zeuge, RDG-Nähe). Verschoben bis nach den Gesprächen: Dossier-Generator, MCP/API, Englisch, neue Anbieter. Nicht vergessen: Fall-Template einmal von jemandem mit Medienrecht-Erfahrung lesen lassen; Benachrichtigungs-Mails und Hashes revisionssicher archivieren.
+
 ## Nächster konkreter Schritt
 
 **Postfach prüfen** (Gmail, hallo@ und Gmail-Adresse): Antwort von Thibault auf das Nachfassen? Mail von Robert mit der Footer-URL? Antworten wörtlich in den Fall, Status setzen, `node build.js`, `node --test test/quellen.test.js`, committen, pushen — binnen eines Tages. Dazu `https://greenpt.com/` abrufen: trägt der Footer die Zuordnung, dann neuer Wortlaut mit Abrufzeit, SHA-256 und Wayback-Snapshot in den Verlauf, Status `ausgeraeumt`. Spätestens am 08.09. beides ohne Mail prüfen und Requesty nach Fristablauf auf `bestaetigt` setzen (Anmerkung „Security-Seite korrigiert, DPA-Seite unverändert“), sofern die DPA-Zeile bis dahin nicht qualifiziert ist.
