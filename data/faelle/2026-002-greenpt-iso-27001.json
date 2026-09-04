@@ -96,6 +96,10 @@
     {
       "datum": "2026-09-02",
       "ereignis": "Status auf „bestätigt“ gesetzt: Die Antwort des Anbieters bestätigt den Widerspruch und räumt ihn nicht aus, der Footer ist unverändert. Anmerkung: Anbieter bestätigt den Befund, Korrektur angekündigt. Dem Anbieter vorab mit kurzer E-Mail erläutert (19:19 UTC, an Robert Keus); Wechsel auf „ausgeräumt“, sobald der korrigierte Footer live ist. Die Antwortfrist 11.09.2026 hat für diesen Fall keine Bedeutung mehr."
+    },
+    {
+      "datum": "2026-09-04",
+      "ereignis": "Startseite erneut abgerufen (23:13 UTC): Footer unverändert, „Verified by independent audit … ISO 27001“ ohne Zuordnung. Keine Mail des Anbieters mit der URL der Korrektur. Snapshot: https://web.archive.org/web/20260904231314/https://greenpt.com/. Status bleibt „bestätigt“."
     }
   ]
 }
