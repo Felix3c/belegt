@@ -3087,5 +3087,609 @@
         }
       ]
     }
+  ],
+  "aenderungen": [
+    {
+      "datum": "2026-09-02",
+      "anbieter": "greenpt",
+      "typ": "fall",
+      "fall": "2026-002",
+      "slug": "greenpt-iso-27001",
+      "pfad": null,
+      "feld": "Fall 2026-002: GreenPT: „ISO 27001 — Verified by independent audit“ im Footer, Zertifikat gehört den Rechenzentren",
+      "alt": "beantwortet",
+      "neu": "bestaetigt",
+      "quelle_alt": null,
+      "quelle_neu": null,
+      "grund": null,
+      "commit": {
+        "sha": "84c3412",
+        "betreff": "feat: Fall 2026-002 — Status bestätigt (Antwort bestätigt den Befund, Footer unverändert), Anmerkung und Verlauf"
+      }
+    },
+    {
+      "datum": "2026-09-01",
+      "anbieter": "greenpt",
+      "typ": "fall",
+      "fall": "2026-002",
+      "slug": "greenpt-iso-27001",
+      "pfad": null,
+      "feld": "Fall 2026-002: GreenPT: „ISO 27001 — Verified by independent audit“ im Footer, Zertifikat gehört den Rechenzentren",
+      "alt": "offen",
+      "neu": "beantwortet",
+      "quelle_alt": null,
+      "quelle_neu": null,
+      "grund": null,
+      "commit": {
+        "sha": "dbd5d30",
+        "betreff": "feat: Fall 2026-002 — Antwort GreenPT (Robert Keus, 01.09.) wörtlich eingetragen, Status beantwortet; Profil-Anmerkung ISO 27001"
+      }
+    },
+    {
+      "datum": "2026-08-28",
+      "anbieter": "greenpt",
+      "typ": "fall",
+      "fall": "2026-002",
+      "slug": "greenpt-iso-27001",
+      "pfad": null,
+      "feld": "Fall 2026-002: GreenPT: „ISO 27001 — Verified by independent audit“ im Footer, Zertifikat gehört den Rechenzentren",
+      "alt": null,
+      "neu": "offen",
+      "quelle_alt": null,
+      "quelle_neu": null,
+      "grund": null,
+      "commit": {
+        "sha": "63dcfad",
+        "betreff": "feat: Fall 2026-002 veröffentlicht (GreenPT, ISO 27001)"
+      }
+    },
+    {
+      "datum": "2026-08-28",
+      "anbieter": "requesty",
+      "typ": "fall",
+      "fall": "2026-001",
+      "slug": "requesty-zero-data-retention",
+      "pfad": null,
+      "feld": "Fall 2026-001: Requesty: „never stored“ — und 30 Tage Logging als Standard",
+      "alt": "offen",
+      "neu": "beantwortet",
+      "quelle_alt": null,
+      "quelle_neu": null,
+      "grund": null,
+      "commit": {
+        "sha": "ebc1f48",
+        "betreff": "fix: Fall 2026-001 — Antwort von Requesty vom 25.08. wörtlich eingetragen, Status beantwortet; Anmerkung zu Antworten gerendert"
+      }
+    },
+    {
+      "datum": "2026-08-25",
+      "anbieter": "requesty",
+      "typ": "fall",
+      "fall": "2026-001",
+      "slug": "requesty-zero-data-retention",
+      "pfad": null,
+      "feld": "Fall 2026-001: Requesty: „never stored“ — und 30 Tage Logging als Standard",
+      "alt": null,
+      "neu": "offen",
+      "quelle_alt": null,
+      "quelle_neu": null,
+      "grund": null,
+      "commit": {
+        "sha": "d70d311",
+        "betreff": "feat: Fall 2026-001 veröffentlicht"
+      }
+    },
+    {
+      "datum": "2026-08-24",
+      "anbieter": "deepl",
+      "typ": "status",
+      "pfad": "zertifikate[BSI C5]",
+      "feld": "Zertifikat BSI C5",
+      "alt": "beansprucht",
+      "neu": "belegt",
+      "quelle_alt": "https://trust.deepl.com/",
+      "quelle_neu": "https://www.deepl.com/de/blog/c5-type2-attestation",
+      "grund": "C5-Typ-2-Testat des BSI, von DeepL am 03.10.2025 im eigenen Blog und per Pressemitteilung bestätigt (114 Kriterien, Wirksamkeitsnachweis über mindestens sechs Monate). Gleichlautende Pressemitteilung auf deepl.com/de/press-release/. Einschränkung: Der Testatsbericht selbst ist nicht öffentlich, ein prüfender Wirtschaftsprüfer wird nicht genannt; belegt ist die datierte Anbieteraussage über ein erteiltes Testat, nicht der Bericht. Früherer Stand bis 24.08.2026: beansprucht (Selbstverpflichtung im Trust Center) — die Angabe war veraltet.",
+      "commit": {
+        "sha": "ebfa861",
+        "betreff": "feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen"
+      }
+    },
+    {
+      "datum": "2026-08-24",
+      "anbieter": "ovhcloud",
+      "typ": "quelle",
+      "pfad": "ai_act[AI-Act-Informationsmaterial veröffentlicht]",
+      "feld": "AI Act: AI-Act-Informationsmaterial veröffentlicht",
+      "alt": "belegt",
+      "neu": "belegt",
+      "quelle_alt": "https://blog.ovhcloud.com/ai-act-in-a-nutshell/",
+      "quelle_neu": "https://blog.ovhcloud.com/en/posts/ai-act-in-a-nutshell/",
+      "grund": null,
+      "commit": {
+        "sha": "ebfa861",
+        "betreff": "feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen"
+      }
+    },
+    {
+      "datum": "2026-08-24",
+      "anbieter": "ovhcloud",
+      "typ": "quelle",
+      "pfad": "zertifikate[BSI C5]",
+      "feld": "Zertifikat BSI C5",
+      "alt": "belegt",
+      "neu": "belegt",
+      "quelle_alt": "https://www.ovhcloud.com/en/enterprise/certification-conformity/",
+      "quelle_neu": "https://www.ovhcloud.com/en/compliance/",
+      "grund": null,
+      "commit": {
+        "sha": "ebfa861",
+        "betreff": "feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen"
+      }
+    },
+    {
+      "datum": "2026-08-24",
+      "anbieter": "ovhcloud",
+      "typ": "quelle",
+      "pfad": "zertifikate[HDS]",
+      "feld": "Zertifikat HDS",
+      "alt": "belegt",
+      "neu": "belegt",
+      "quelle_alt": "https://www.ovhcloud.com/en/enterprise/certification-conformity/",
+      "quelle_neu": "https://www.ovhcloud.com/en/compliance/",
+      "grund": null,
+      "commit": {
+        "sha": "ebfa861",
+        "betreff": "feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen"
+      }
+    },
+    {
+      "datum": "2026-08-24",
+      "anbieter": "ovhcloud",
+      "typ": "quelle",
+      "pfad": "zertifikate[ISO 27001]",
+      "feld": "Zertifikat ISO 27001",
+      "alt": "belegt",
+      "neu": "belegt",
+      "quelle_alt": "https://www.ovhcloud.com/en/enterprise/certification-conformity/",
+      "quelle_neu": "https://www.ovhcloud.com/en/compliance/",
+      "grund": null,
+      "commit": {
+        "sha": "ebfa861",
+        "betreff": "feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen"
+      }
+    },
+    {
+      "datum": "2026-08-24",
+      "anbieter": "ovhcloud",
+      "typ": "quelle",
+      "pfad": "zertifikate[ISO 27701]",
+      "feld": "Zertifikat ISO 27701",
+      "alt": "belegt",
+      "neu": "belegt",
+      "quelle_alt": "https://www.ovhcloud.com/en/enterprise/certification-conformity/",
+      "quelle_neu": "https://www.ovhcloud.com/en/compliance/",
+      "grund": null,
+      "commit": {
+        "sha": "ebfa861",
+        "betreff": "feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen"
+      }
+    },
+    {
+      "datum": "2026-08-24",
+      "anbieter": "ovhcloud",
+      "typ": "quelle",
+      "pfad": "zertifikate[SecNumCloud]",
+      "feld": "Zertifikat SecNumCloud",
+      "alt": "belegt",
+      "neu": "belegt",
+      "quelle_alt": "https://www.ovhcloud.com/en/enterprise/certification-conformity/",
+      "quelle_neu": "https://www.ovhcloud.com/en/compliance/",
+      "grund": null,
+      "commit": {
+        "sha": "ebfa861",
+        "betreff": "feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen"
+      }
+    },
+    {
+      "datum": "2026-08-24",
+      "anbieter": "ovhcloud",
+      "typ": "quelle",
+      "pfad": "zertifikate[SOC 1/2/3]",
+      "feld": "Zertifikat SOC 1/2/3",
+      "alt": "belegt",
+      "neu": "belegt",
+      "quelle_alt": "https://www.ovhcloud.com/en/enterprise/certification-conformity/",
+      "quelle_neu": "https://www.ovhcloud.com/en/compliance/",
+      "grund": null,
+      "commit": {
+        "sha": "ebfa861",
+        "betreff": "feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen"
+      }
+    },
+    {
+      "datum": "2026-08-24",
+      "anbieter": "requesty",
+      "typ": "quelle",
+      "pfad": "vertrag.training_opt_out",
+      "feld": "Kein Training mit Kundendaten",
+      "alt": "belegt",
+      "neu": "belegt",
+      "quelle_alt": "https://docs.requesty.ai",
+      "quelle_neu": "https://docs.requesty.ai/quickstart",
+      "grund": null,
+      "commit": {
+        "sha": "ebfa861",
+        "betreff": "feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen"
+      }
+    },
+    {
+      "datum": "2026-08-24",
+      "anbieter": "stackit",
+      "typ": "status",
+      "pfad": "vertrag.avv",
+      "feld": "AVV / Auftragsverarbeitungsvertrag",
+      "alt": "belegt",
+      "neu": "unbelegt",
+      "quelle_alt": "https://www.stackit.de/wp-content/uploads/2022/06/Auftragsverarbeitungsvertrag_STACKIT-Cloud_Stand-Januar-2022_Version-1.0.pdf",
+      "quelle_neu": null,
+      "grund": "Beleg verloren: Bis mindestens 19.08.2026 war der \"AVV STACKIT Cloud, Stand Januar 2022, Version 1.0\" als PDF unter www.stackit.de öffentlich abrufbar. Beim Quellen-Check am 24.08.2026 leitet die gesamte Domain www.stackit.de auf die Startseite stackit.com/de um; das Dokument ist dort nicht mehr auffindbar, und weder stackit.com/de/compliance noch die Zertifikatsseite bieten einen AVV zum Download. Das heißt nicht, dass STACKIT keinen AVV hätte — es heißt, dass er nicht mehr öffentlich nachweisbar ist. Tote Beleg-URL: https://www.stackit.de/wp-content/uploads/2022/06/Auftragsverarbeitungsvertrag_STACKIT-Cloud_Stand-Januar-2022_Version-1.0.pdf",
+      "commit": {
+        "sha": "ebfa861",
+        "betreff": "feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen"
+      }
+    },
+    {
+      "datum": "2026-08-24",
+      "anbieter": "t-systems",
+      "typ": "quelle",
+      "pfad": "vertrag.avv",
+      "feld": "AVV / Auftragsverarbeitungsvertrag",
+      "alt": "belegt",
+      "neu": "belegt",
+      "quelle_alt": "https://open-telekom-cloud.com/av",
+      "quelle_neu": "https://www.t-cloud-public.com/_Resources/Persistent/7/4/4/5/744591c2cdff8be6c3876c3bf6e187fb024cad04/OTC%20ErgB-AV%20TDG_DE.pdf",
+      "grund": null,
+      "commit": {
+        "sha": "ebfa861",
+        "betreff": "feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen"
+      }
+    },
+    {
+      "datum": "2026-08-20",
+      "anbieter": "black-forest-labs",
+      "typ": "anbieter",
+      "pfad": null,
+      "feld": "Anbieter",
+      "alt": null,
+      "neu": "aufgenommen",
+      "quelle_alt": null,
+      "quelle_neu": "https://bfl.ai",
+      "grund": null,
+      "commit": {
+        "sha": "669f6db",
+        "betreff": "feat: 5 neue Anbieter — GreenPT, Infomaniak, Gcore, DeepL, Black Forest Labs (21 Anbieter, 76 Vergleiche)"
+      }
+    },
+    {
+      "datum": "2026-08-20",
+      "anbieter": "deepl",
+      "typ": "anbieter",
+      "pfad": null,
+      "feld": "Anbieter",
+      "alt": null,
+      "neu": "aufgenommen",
+      "quelle_alt": null,
+      "quelle_neu": "https://www.deepl.com",
+      "grund": null,
+      "commit": {
+        "sha": "669f6db",
+        "betreff": "feat: 5 neue Anbieter — GreenPT, Infomaniak, Gcore, DeepL, Black Forest Labs (21 Anbieter, 76 Vergleiche)"
+      }
+    },
+    {
+      "datum": "2026-08-20",
+      "anbieter": "gcore",
+      "typ": "anbieter",
+      "pfad": null,
+      "feld": "Anbieter",
+      "alt": null,
+      "neu": "aufgenommen",
+      "quelle_alt": null,
+      "quelle_neu": "https://gcore.com",
+      "grund": null,
+      "commit": {
+        "sha": "669f6db",
+        "betreff": "feat: 5 neue Anbieter — GreenPT, Infomaniak, Gcore, DeepL, Black Forest Labs (21 Anbieter, 76 Vergleiche)"
+      }
+    },
+    {
+      "datum": "2026-08-20",
+      "anbieter": "greenpt",
+      "typ": "anbieter",
+      "pfad": null,
+      "feld": "Anbieter",
+      "alt": null,
+      "neu": "aufgenommen",
+      "quelle_alt": null,
+      "quelle_neu": "https://greenpt.com",
+      "grund": null,
+      "commit": {
+        "sha": "669f6db",
+        "betreff": "feat: 5 neue Anbieter — GreenPT, Infomaniak, Gcore, DeepL, Black Forest Labs (21 Anbieter, 76 Vergleiche)"
+      }
+    },
+    {
+      "datum": "2026-08-20",
+      "anbieter": "infomaniak",
+      "typ": "anbieter",
+      "pfad": null,
+      "feld": "Anbieter",
+      "alt": null,
+      "neu": "aufgenommen",
+      "quelle_alt": null,
+      "quelle_neu": "https://www.infomaniak.com/en/hosting/ai-services",
+      "grund": null,
+      "commit": {
+        "sha": "669f6db",
+        "betreff": "feat: 5 neue Anbieter — GreenPT, Infomaniak, Gcore, DeepL, Black Forest Labs (21 Anbieter, 76 Vergleiche)"
+      }
+    },
+    {
+      "datum": "2026-08-19",
+      "anbieter": "aleph-alpha",
+      "typ": "anbieter",
+      "pfad": null,
+      "feld": "Anbieter",
+      "alt": null,
+      "neu": "aufgenommen",
+      "quelle_alt": null,
+      "quelle_neu": "https://aleph-alpha.com",
+      "grund": null,
+      "commit": {
+        "sha": "4f8f587",
+        "betreff": "feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter"
+      }
+    },
+    {
+      "datum": "2026-08-19",
+      "anbieter": "eurouter",
+      "typ": "anbieter",
+      "pfad": null,
+      "feld": "Anbieter",
+      "alt": null,
+      "neu": "aufgenommen",
+      "quelle_alt": null,
+      "quelle_neu": "https://eurouter.ai",
+      "grund": null,
+      "commit": {
+        "sha": "4f8f587",
+        "betreff": "feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter"
+      }
+    },
+    {
+      "datum": "2026-08-19",
+      "anbieter": "exoscale",
+      "typ": "anbieter",
+      "pfad": null,
+      "feld": "Anbieter",
+      "alt": null,
+      "neu": "aufgenommen",
+      "quelle_alt": null,
+      "quelle_neu": "https://www.exoscale.com",
+      "grund": null,
+      "commit": {
+        "sha": "4f8f587",
+        "betreff": "feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter"
+      }
+    },
+    {
+      "datum": "2026-08-19",
+      "anbieter": "hetzner",
+      "typ": "anbieter",
+      "pfad": null,
+      "feld": "Anbieter",
+      "alt": null,
+      "neu": "aufgenommen",
+      "quelle_alt": null,
+      "quelle_neu": "https://www.hetzner.com",
+      "grund": null,
+      "commit": {
+        "sha": "4f8f587",
+        "betreff": "feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter"
+      }
+    },
+    {
+      "datum": "2026-08-19",
+      "anbieter": "ionos",
+      "typ": "anbieter",
+      "pfad": null,
+      "feld": "Anbieter",
+      "alt": null,
+      "neu": "aufgenommen",
+      "quelle_alt": null,
+      "quelle_neu": "https://cloud.ionos.de/managed/ai-model-hub",
+      "grund": null,
+      "commit": {
+        "sha": "4f8f587",
+        "betreff": "feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter"
+      }
+    },
+    {
+      "datum": "2026-08-19",
+      "anbieter": "lyceum",
+      "typ": "anbieter",
+      "pfad": null,
+      "feld": "Anbieter",
+      "alt": null,
+      "neu": "aufgenommen",
+      "quelle_alt": null,
+      "quelle_neu": "https://lyceum.technology",
+      "grund": null,
+      "commit": {
+        "sha": "4f8f587",
+        "betreff": "feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter"
+      }
+    },
+    {
+      "datum": "2026-08-19",
+      "anbieter": "mistral",
+      "typ": "anbieter",
+      "pfad": null,
+      "feld": "Anbieter",
+      "alt": null,
+      "neu": "aufgenommen",
+      "quelle_alt": null,
+      "quelle_neu": "https://mistral.ai",
+      "grund": null,
+      "commit": {
+        "sha": "4f8f587",
+        "betreff": "feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter"
+      }
+    },
+    {
+      "datum": "2026-08-19",
+      "anbieter": "nebius",
+      "typ": "anbieter",
+      "pfad": null,
+      "feld": "Anbieter",
+      "alt": null,
+      "neu": "aufgenommen",
+      "quelle_alt": null,
+      "quelle_neu": "https://nebius.com",
+      "grund": null,
+      "commit": {
+        "sha": "4f8f587",
+        "betreff": "feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter"
+      }
+    },
+    {
+      "datum": "2026-08-19",
+      "anbieter": "nordference",
+      "typ": "anbieter",
+      "pfad": null,
+      "feld": "Anbieter",
+      "alt": null,
+      "neu": "aufgenommen",
+      "quelle_alt": null,
+      "quelle_neu": "https://nordference.ai",
+      "grund": null,
+      "commit": {
+        "sha": "4f8f587",
+        "betreff": "feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter"
+      }
+    },
+    {
+      "datum": "2026-08-19",
+      "anbieter": "opper-ai",
+      "typ": "anbieter",
+      "pfad": null,
+      "feld": "Anbieter",
+      "alt": null,
+      "neu": "aufgenommen",
+      "quelle_alt": null,
+      "quelle_neu": "https://opper.ai",
+      "grund": null,
+      "commit": {
+        "sha": "4f8f587",
+        "betreff": "feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter"
+      }
+    },
+    {
+      "datum": "2026-08-19",
+      "anbieter": "ovhcloud",
+      "typ": "anbieter",
+      "pfad": null,
+      "feld": "Anbieter",
+      "alt": null,
+      "neu": "aufgenommen",
+      "quelle_alt": null,
+      "quelle_neu": "https://www.ovhcloud.com",
+      "grund": null,
+      "commit": {
+        "sha": "4f8f587",
+        "betreff": "feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter"
+      }
+    },
+    {
+      "datum": "2026-08-19",
+      "anbieter": "regolo",
+      "typ": "anbieter",
+      "pfad": null,
+      "feld": "Anbieter",
+      "alt": null,
+      "neu": "aufgenommen",
+      "quelle_alt": null,
+      "quelle_neu": "https://regolo.ai",
+      "grund": null,
+      "commit": {
+        "sha": "4f8f587",
+        "betreff": "feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter"
+      }
+    },
+    {
+      "datum": "2026-08-19",
+      "anbieter": "requesty",
+      "typ": "anbieter",
+      "pfad": null,
+      "feld": "Anbieter",
+      "alt": null,
+      "neu": "aufgenommen",
+      "quelle_alt": null,
+      "quelle_neu": "https://www.requesty.ai",
+      "grund": null,
+      "commit": {
+        "sha": "4f8f587",
+        "betreff": "feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter"
+      }
+    },
+    {
+      "datum": "2026-08-19",
+      "anbieter": "scaleway",
+      "typ": "anbieter",
+      "pfad": null,
+      "feld": "Anbieter",
+      "alt": null,
+      "neu": "aufgenommen",
+      "quelle_alt": null,
+      "quelle_neu": "https://www.scaleway.com",
+      "grund": null,
+      "commit": {
+        "sha": "4f8f587",
+        "betreff": "feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter"
+      }
+    },
+    {
+      "datum": "2026-08-19",
+      "anbieter": "stackit",
+      "typ": "anbieter",
+      "pfad": null,
+      "feld": "Anbieter",
+      "alt": null,
+      "neu": "aufgenommen",
+      "quelle_alt": null,
+      "quelle_neu": "https://stackit.com",
+      "grund": null,
+      "commit": {
+        "sha": "4f8f587",
+        "betreff": "feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter"
+      }
+    },
+    {
+      "datum": "2026-08-19",
+      "anbieter": "t-systems",
+      "typ": "anbieter",
+      "pfad": null,
+      "feld": "Anbieter",
+      "alt": null,
+      "neu": "aufgenommen",
+      "quelle_alt": null,
+      "quelle_neu": "https://www.t-systems.com",
+      "grund": null,
+      "commit": {
+        "sha": "4f8f587",
+        "betreff": "feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter"
+      }
+    }
   ]
 }

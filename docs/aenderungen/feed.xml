@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>belegbar.eu — Änderungen</title>
+  <subtitle>Jede Status- und Quellenänderung der Evidenz-Datenbank, aus der öffentlichen Git-Historie berechnet.</subtitle>
+  <id>https://belegbar.eu/aenderungen/</id>
+  <link rel="alternate" href="https://belegbar.eu/aenderungen/"/>
+  <link rel="self" href="https://belegbar.eu/aenderungen/feed.xml"/>
+  <updated>2026-09-02T00:00:00Z</updated>
+  <rights>CC BY 4.0</rights>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-09-02-greenpt-fall-2026-002</id>
+    <title>GreenPT: Fall 2026-002 beantwortet → bestätigt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-09-02-greenpt-fall-2026-002"/>
+    <updated>2026-09-02T00:00:00Z</updated>
+    <content type="text">Commit 84c3412: feat: Fall 2026-002 — Status bestätigt (Antwort bestätigt den Befund, Footer unverändert), Anmerkung und Verlauf</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-09-01-greenpt-fall-2026-002</id>
+    <title>GreenPT: Fall 2026-002 offen → beantwortet</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-09-01-greenpt-fall-2026-002"/>
+    <updated>2026-09-01T00:00:00Z</updated>
+    <content type="text">Commit dbd5d30: feat: Fall 2026-002 — Antwort GreenPT (Robert Keus, 01.09.) wörtlich eingetragen, Status beantwortet; Profil-Anmerkung ISO 27001</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-28-greenpt-fall-2026-002</id>
+    <title>GreenPT: Fall 2026-002 eröffnet</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-28-greenpt-fall-2026-002"/>
+    <updated>2026-08-28T00:00:00Z</updated>
+    <content type="text">Commit 63dcfad: feat: Fall 2026-002 veröffentlicht (GreenPT, ISO 27001)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-28-requesty-fall-2026-001</id>
+    <title>Requesty: Fall 2026-001 offen → beantwortet</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-28-requesty-fall-2026-001"/>
+    <updated>2026-08-28T00:00:00Z</updated>
+    <content type="text">Commit ebc1f48: fix: Fall 2026-001 — Antwort von Requesty vom 25.08. wörtlich eingetragen, Status beantwortet; Anmerkung zu Antworten gerendert</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-25-requesty-fall-2026-001</id>
+    <title>Requesty: Fall 2026-001 eröffnet</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-25-requesty-fall-2026-001"/>
+    <updated>2026-08-25T00:00:00Z</updated>
+    <content type="text">Commit d70d311: feat: Fall 2026-001 veröffentlicht</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-24-deepl-zertifikate-bsi-c5</id>
+    <title>DeepL: Zertifikat BSI C5 beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-24-deepl-zertifikate-bsi-c5"/>
+    <updated>2026-08-24T00:00:00Z</updated>
+    <content type="text">C5-Typ-2-Testat des BSI, von DeepL am 03.10.2025 im eigenen Blog und per Pressemitteilung bestätigt (114 Kriterien, Wirksamkeitsnachweis über mindestens sechs Monate). Gleichlautende Pressemitteilung auf deepl.com/de/press-release/. Einschränkung: Der Testatsbericht selbst ist nicht öffentlich, ein prüfender Wirtschaftsprüfer wird nicht genannt; belegt ist die datierte Anbieteraussage über ein erteiltes Testat, nicht der Bericht. Früherer Stand bis 24.08.2026: beansprucht (Selbstverpflichtung im Trust Center) — die Angabe war veraltet. · Alte Quelle: https://trust.deepl.com/ · Neue Quelle: https://www.deepl.com/de/blog/c5-type2-attestation · Commit ebfa861: feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-24-ovhcloud-ai-act-ai-act-informationsmaterial-ver-ffentlicht</id>
+    <title>OVHcloud (AI Endpoints): AI Act: AI-Act-Informationsmaterial veröffentlicht — Quelle geändert</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-24-ovhcloud-ai-act-ai-act-informationsmaterial-ver-ffentlicht"/>
+    <updated>2026-08-24T00:00:00Z</updated>
+    <content type="text">Alte Quelle: https://blog.ovhcloud.com/ai-act-in-a-nutshell/ · Neue Quelle: https://blog.ovhcloud.com/en/posts/ai-act-in-a-nutshell/ · Commit ebfa861: feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-24-ovhcloud-zertifikate-bsi-c5</id>
+    <title>OVHcloud (AI Endpoints): Zertifikat BSI C5 — Quelle geändert</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-24-ovhcloud-zertifikate-bsi-c5"/>
+    <updated>2026-08-24T00:00:00Z</updated>
+    <content type="text">Betroffene Felder: Zertifikat BSI C5, Zertifikat HDS, Zertifikat ISO 27001, Zertifikat ISO 27701, Zertifikat SecNumCloud, Zertifikat SOC 1/2/3 · Alte Quelle: https://www.ovhcloud.com/en/enterprise/certification-conformity/ · Neue Quelle: https://www.ovhcloud.com/en/compliance/ · Commit ebfa861: feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-24-requesty-vertrag.training-opt-out</id>
+    <title>Requesty: Kein Training mit Kundendaten — Quelle geändert</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-24-requesty-vertrag.training-opt-out"/>
+    <updated>2026-08-24T00:00:00Z</updated>
+    <content type="text">Alte Quelle: https://docs.requesty.ai · Neue Quelle: https://docs.requesty.ai/quickstart · Commit ebfa861: feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-24-stackit-vertrag.avv</id>
+    <title>STACKIT: AVV / Auftragsverarbeitungsvertrag belegt → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-24-stackit-vertrag.avv"/>
+    <updated>2026-08-24T00:00:00Z</updated>
+    <content type="text">Beleg verloren: Bis mindestens 19.08.2026 war der &quot;AVV STACKIT Cloud, Stand Januar 2022, Version 1.0&quot; als PDF unter www.stackit.de öffentlich abrufbar. Beim Quellen-Check am 24.08.2026 leitet die gesamte Domain www.stackit.de auf die Startseite stackit.com/de um; das Dokument ist dort nicht mehr auffindbar, und weder stackit.com/de/compliance noch die Zertifikatsseite bieten einen AVV zum Download. Das heißt nicht, dass STACKIT keinen AVV hätte — es heißt, dass er nicht mehr öffentlich nachweisbar ist. Tote Beleg-URL: https://www.stackit.de/wp-content/uploads/2022/06/Auftragsverarbeitungsvertrag_STACKIT-Cloud_Stand-Januar-2022_Version-1.0.pdf · Alte Quelle: https://www.stackit.de/wp-content/uploads/2022/06/Auftragsverarbeitungsvertrag_STACKIT-Cloud_Stand-Januar-2022_Version-1.0.pdf · Commit ebfa861: feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-24-t-systems-vertrag.avv</id>
+    <title>T-Systems / Open Telekom Cloud (AI Foundation Services): AVV / Auftragsverarbeitungsvertrag — Quelle geändert</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-24-t-systems-vertrag.avv"/>
+    <updated>2026-08-24T00:00:00Z</updated>
+    <content type="text">Alte Quelle: https://open-telekom-cloud.com/av · Neue Quelle: https://www.t-cloud-public.com/_Resources/Persistent/7/4/4/5/744591c2cdff8be6c3876c3bf6e187fb024cad04/OTC%20ErgB-AV%20TDG_DE.pdf · Commit ebfa861: feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-20-black-forest-labs-anbieter</id>
+    <title>Black Forest Labs aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-20-black-forest-labs-anbieter"/>
+    <updated>2026-08-20T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://bfl.ai · Commit 669f6db: feat: 5 neue Anbieter — GreenPT, Infomaniak, Gcore, DeepL, Black Forest Labs (21 Anbieter, 76 Vergleiche)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-20-deepl-anbieter</id>
+    <title>DeepL aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-20-deepl-anbieter"/>
+    <updated>2026-08-20T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://www.deepl.com · Commit 669f6db: feat: 5 neue Anbieter — GreenPT, Infomaniak, Gcore, DeepL, Black Forest Labs (21 Anbieter, 76 Vergleiche)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-20-gcore-anbieter</id>
+    <title>Gcore aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-20-gcore-anbieter"/>
+    <updated>2026-08-20T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://gcore.com · Commit 669f6db: feat: 5 neue Anbieter — GreenPT, Infomaniak, Gcore, DeepL, Black Forest Labs (21 Anbieter, 76 Vergleiche)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-20-greenpt-anbieter</id>
+    <title>GreenPT aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-20-greenpt-anbieter"/>
+    <updated>2026-08-20T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://greenpt.com · Commit 669f6db: feat: 5 neue Anbieter — GreenPT, Infomaniak, Gcore, DeepL, Black Forest Labs (21 Anbieter, 76 Vergleiche)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-20-infomaniak-anbieter</id>
+    <title>Infomaniak aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-20-infomaniak-anbieter"/>
+    <updated>2026-08-20T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://www.infomaniak.com/en/hosting/ai-services · Commit 669f6db: feat: 5 neue Anbieter — GreenPT, Infomaniak, Gcore, DeepL, Black Forest Labs (21 Anbieter, 76 Vergleiche)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-19-aleph-alpha-anbieter</id>
+    <title>Aleph Alpha aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-19-aleph-alpha-anbieter"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://aleph-alpha.com · Commit 4f8f587: feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-19-eurouter-anbieter</id>
+    <title>EUrouter aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-19-eurouter-anbieter"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://eurouter.ai · Commit 4f8f587: feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-19-exoscale-anbieter</id>
+    <title>Exoscale aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-19-exoscale-anbieter"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://www.exoscale.com · Commit 4f8f587: feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-19-hetzner-anbieter</id>
+    <title>Hetzner aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-19-hetzner-anbieter"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://www.hetzner.com · Commit 4f8f587: feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-19-ionos-anbieter</id>
+    <title>IONOS (AI Model Hub) aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-19-ionos-anbieter"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://cloud.ionos.de/managed/ai-model-hub · Commit 4f8f587: feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-19-lyceum-anbieter</id>
+    <title>Lyceum Technology aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-19-lyceum-anbieter"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://lyceum.technology · Commit 4f8f587: feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-19-mistral-anbieter</id>
+    <title>Mistral AI (La Plateforme) aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-19-mistral-anbieter"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://mistral.ai · Commit 4f8f587: feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-19-nebius-anbieter</id>
+    <title>Nebius (Token Factory) aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-19-nebius-anbieter"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://nebius.com · Commit 4f8f587: feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-19-nordference-anbieter</id>
+    <title>Nordference aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-19-nordference-anbieter"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://nordference.ai · Commit 4f8f587: feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-19-opper-ai-anbieter</id>
+    <title>Opper AI aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-19-opper-ai-anbieter"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://opper.ai · Commit 4f8f587: feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-19-ovhcloud-anbieter</id>
+    <title>OVHcloud (AI Endpoints) aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-19-ovhcloud-anbieter"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://www.ovhcloud.com · Commit 4f8f587: feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-19-regolo-anbieter</id>
+    <title>Regolo.ai aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-19-regolo-anbieter"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://regolo.ai · Commit 4f8f587: feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-19-requesty-anbieter</id>
+    <title>Requesty aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-19-requesty-anbieter"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://www.requesty.ai · Commit 4f8f587: feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-19-scaleway-anbieter</id>
+    <title>Scaleway aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-19-scaleway-anbieter"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://www.scaleway.com · Commit 4f8f587: feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-19-stackit-anbieter</id>
+    <title>STACKIT aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-19-stackit-anbieter"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://stackit.com · Commit 4f8f587: feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-08-19-t-systems-anbieter</id>
+    <title>T-Systems / Open Telekom Cloud (AI Foundation Services) aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-19-t-systems-anbieter"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://www.t-systems.com · Commit 4f8f587: feat: belegt.eu V1 — Evidenz-Datenbank für 16 EU-souveräne KI-Anbieter</content>
+  </entry>
+</feed>
