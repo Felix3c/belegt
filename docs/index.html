@@ -49,6 +49,7 @@
     <select id="f-land" aria-label="Nach Land filtern"><option value="">Alle Länder</option><option>CH</option><option>DE</option><option>EE</option><option>FR</option><option>GB</option><option>IT</option><option>LU</option><option>NL</option><option>SE</option></select>
     <select id="f-kat" aria-label="Nach Kategorie filtern"><option value="">Alle Kategorien</option><option value="cloud">Cloud / GPU</option><option value="gateway">Gateway / Router</option><option value="inference-api">Inference-API</option><option value="modell-anbieter">Modell-Anbieter</option></select>
     <label class="check"><input type="checkbox" id="f-avv"> nur mit belegtem AVV</label>
+    <label class="check" title="Zeigt nur Anbieter, bei denen AVV, Subprozessorenliste und „kein Training mit Kundendaten“ mit Primärquelle belegt sind. Filtert, sortiert nicht."><input type="checkbox" id="f-belegt"> nur AVV, Subprozessoren und Trainings-Opt-out belegt</label>
     <span id="f-anzahl" class="klein" role="status"></span>
   </div>
   <div class="tabelle-scroll">
@@ -56,7 +57,7 @@
       <thead><tr>
         <th>Anbieter</th><th>Land</th><th>Kategorie</th><th class="num">Preis / 1M Input</th><th>Zertifikate (belegt)</th><th>Training-Opt-out</th><th class="num" title="Anteil der Angaben mit verlinkter Primärquelle">Beleg-Quote</th>
       </tr></thead>
-      <tbody><tr data-land="DE" data-kategorie="modell-anbieter" data-avv="0" data-name="aleph alpha">
+      <tbody><tr data-land="DE" data-kategorie="modell-anbieter" data-avv="0" data-belegt="0" data-name="aleph alpha">
         <td><a href="anbieter/aleph-alpha/">Aleph Alpha</a><span class="klein">Heidelberg, Deutschland</span></td>
         <td>DE</td>
         <td>Modell-Anbieter</td>
@@ -65,7 +66,7 @@
         <td><span class="leer">unbelegt</span></td>
         <td class="num"><span class="quote">50&nbsp;%</span></td>
       </tr>
-<tr data-land="DE" data-kategorie="modell-anbieter" data-avv="0" data-name="black forest labs">
+<tr data-land="DE" data-kategorie="modell-anbieter" data-avv="0" data-belegt="0" data-name="black forest labs">
         <td><a href="anbieter/black-forest-labs/">Black Forest Labs</a><span class="klein">Freiburg, Deutschland</span></td>
         <td>DE</td>
         <td>Modell-Anbieter</td>
@@ -74,7 +75,7 @@
         <td><span class="warnung">trainiert mit Daten</span></td>
         <td class="num"><span class="quote">62&nbsp;%</span></td>
       </tr>
-<tr data-land="DE" data-kategorie="modell-anbieter" data-avv="1" data-name="deepl">
+<tr data-land="DE" data-kategorie="modell-anbieter" data-avv="1" data-belegt="0" data-name="deepl">
         <td><a href="anbieter/deepl/">DeepL</a><span class="klein">Köln, Deutschland</span></td>
         <td>DE</td>
         <td>Modell-Anbieter</td>
@@ -83,7 +84,7 @@
         <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></td>
         <td class="num"><span class="quote">69&nbsp;%</span></td>
       </tr>
-<tr data-land="NL" data-kategorie="gateway" data-avv="1" data-name="eurouter">
+<tr data-land="NL" data-kategorie="gateway" data-avv="1" data-belegt="1" data-name="eurouter">
         <td><a href="anbieter/eurouter/">EUrouter</a><span class="klein">Amsterdam, Niederlande</span></td>
         <td>NL</td>
         <td>Gateway / Router</td>
@@ -92,7 +93,7 @@
         <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></td>
         <td class="num"><span class="quote">58&nbsp;%</span></td>
       </tr>
-<tr data-land="CH" data-kategorie="cloud" data-avv="1" data-name="exoscale">
+<tr data-land="CH" data-kategorie="cloud" data-avv="1" data-belegt="0" data-name="exoscale">
         <td><a href="anbieter/exoscale/">Exoscale</a><span class="klein">Lausanne, Schweiz</span></td>
         <td>CH</td>
         <td>Cloud / GPU</td>
@@ -101,7 +102,7 @@
         <td><span class="leer">unbelegt</span></td>
         <td class="num"><span class="quote">67&nbsp;%</span></td>
       </tr>
-<tr data-land="LU" data-kategorie="inference-api" data-avv="1" data-name="gcore">
+<tr data-land="LU" data-kategorie="inference-api" data-avv="1" data-belegt="0" data-name="gcore">
         <td><a href="anbieter/gcore/">Gcore</a><span class="klein">Contern, Luxemburg</span></td>
         <td>LU</td>
         <td>Inference-API</td>
@@ -110,7 +111,7 @@
         <td><span class="leer">unbelegt</span></td>
         <td class="num"><span class="quote">38&nbsp;%</span></td>
       </tr>
-<tr data-land="NL" data-kategorie="inference-api" data-avv="1" data-name="greenpt">
+<tr data-land="NL" data-kategorie="inference-api" data-avv="1" data-belegt="1" data-name="greenpt">
         <td><a href="anbieter/greenpt/">GreenPT</a><span class="klein">Utrecht, Niederlande</span></td>
         <td>NL</td>
         <td>Inference-API</td>
@@ -119,7 +120,7 @@
         <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></td>
         <td class="num"><span class="quote">80&nbsp;%</span></td>
       </tr>
-<tr data-land="DE" data-kategorie="cloud" data-avv="1" data-name="hetzner">
+<tr data-land="DE" data-kategorie="cloud" data-avv="1" data-belegt="0" data-name="hetzner">
         <td><a href="anbieter/hetzner/">Hetzner</a><span class="klein">Gunzenhausen, Deutschland</span></td>
         <td>DE</td>
         <td>Cloud / GPU</td>
@@ -128,7 +129,7 @@
         <td><span class="leer">unbelegt</span></td>
         <td class="num"><span class="quote">57&nbsp;%</span></td>
       </tr>
-<tr data-land="CH" data-kategorie="inference-api" data-avv="1" data-name="infomaniak">
+<tr data-land="CH" data-kategorie="inference-api" data-avv="1" data-belegt="0" data-name="infomaniak">
         <td><a href="anbieter/infomaniak/">Infomaniak</a><span class="klein">Genf (Les Acacias), Schweiz</span></td>
         <td>CH</td>
         <td>Inference-API</td>
@@ -137,7 +138,7 @@
         <td><span class="status s-beansprucht"><span class="dot" aria-hidden="true"></span>beansprucht</span></td>
         <td class="num"><span class="quote">67&nbsp;%</span></td>
       </tr>
-<tr data-land="DE" data-kategorie="inference-api" data-avv="1" data-name="ionos (ai model hub)">
+<tr data-land="DE" data-kategorie="inference-api" data-avv="1" data-belegt="1" data-name="ionos (ai model hub)">
         <td><a href="anbieter/ionos/">IONOS (AI Model Hub)</a><span class="klein">Montabaur, Deutschland</span></td>
         <td>DE</td>
         <td>Inference-API</td>
@@ -146,7 +147,7 @@
         <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></td>
         <td class="num"><span class="quote">93&nbsp;%</span></td>
       </tr>
-<tr data-land="DE" data-kategorie="inference-api" data-avv="1" data-name="lyceum technology">
+<tr data-land="DE" data-kategorie="inference-api" data-avv="1" data-belegt="0" data-name="lyceum technology">
         <td><a href="anbieter/lyceum/">Lyceum Technology</a><span class="klein">Berlin, Deutschland</span></td>
         <td>DE</td>
         <td>Inference-API</td>
@@ -155,7 +156,7 @@
         <td><span class="status s-beansprucht"><span class="dot" aria-hidden="true"></span>beansprucht</span></td>
         <td class="num"><span class="quote">46&nbsp;%</span></td>
       </tr>
-<tr data-land="FR" data-kategorie="modell-anbieter" data-avv="1" data-name="mistral ai (la plateforme)">
+<tr data-land="FR" data-kategorie="modell-anbieter" data-avv="1" data-belegt="1" data-name="mistral ai (la plateforme)">
         <td><a href="anbieter/mistral/">Mistral AI (La Plateforme)</a><span class="klein">Paris, Frankreich</span></td>
         <td>FR</td>
         <td>Modell-Anbieter</td>
@@ -164,7 +165,7 @@
         <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></td>
         <td class="num"><span class="quote">93&nbsp;%</span></td>
       </tr>
-<tr data-land="NL" data-kategorie="inference-api" data-avv="1" data-name="nebius (token factory)">
+<tr data-land="NL" data-kategorie="inference-api" data-avv="1" data-belegt="1" data-name="nebius (token factory)">
         <td><a href="anbieter/nebius/">Nebius (Token Factory)</a><span class="klein">Amsterdam, Niederlande</span></td>
         <td>NL</td>
         <td>Inference-API</td>
@@ -173,7 +174,7 @@
         <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></td>
         <td class="num"><span class="quote">85&nbsp;%</span></td>
       </tr>
-<tr data-land="EE" data-kategorie="inference-api" data-avv="0" data-name="nordference">
+<tr data-land="EE" data-kategorie="inference-api" data-avv="0" data-belegt="0" data-name="nordference">
         <td><a href="anbieter/nordference/">Nordference</a><span class="klein">Tallinn, Estland</span></td>
         <td>EE</td>
         <td>Inference-API</td>
@@ -182,7 +183,7 @@
         <td><span class="leer">unbelegt</span></td>
         <td class="num"><span class="quote">50&nbsp;%</span></td>
       </tr>
-<tr data-land="SE" data-kategorie="gateway" data-avv="1" data-name="opper ai">
+<tr data-land="SE" data-kategorie="gateway" data-avv="1" data-belegt="1" data-name="opper ai">
         <td><a href="anbieter/opper-ai/">Opper AI</a><span class="klein">Stockholm, Schweden</span></td>
         <td>SE</td>
         <td>Gateway / Router</td>
@@ -191,7 +192,7 @@
         <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></td>
         <td class="num"><span class="quote">67&nbsp;%</span></td>
       </tr>
-<tr data-land="FR" data-kategorie="inference-api" data-avv="1" data-name="ovhcloud (ai endpoints)">
+<tr data-land="FR" data-kategorie="inference-api" data-avv="1" data-belegt="1" data-name="ovhcloud (ai endpoints)">
         <td><a href="anbieter/ovhcloud/">OVHcloud (AI Endpoints)</a><span class="klein">Roubaix, Frankreich</span></td>
         <td>FR</td>
         <td>Inference-API</td>
@@ -200,7 +201,7 @@
         <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></td>
         <td class="num"><span class="quote">94&nbsp;%</span></td>
       </tr>
-<tr data-land="IT" data-kategorie="inference-api" data-avv="1" data-name="regolo.ai">
+<tr data-land="IT" data-kategorie="inference-api" data-avv="1" data-belegt="0" data-name="regolo.ai">
         <td><a href="anbieter/regolo/">Regolo.ai</a><span class="klein">Frosinone, Italien</span></td>
         <td>IT</td>
         <td>Inference-API</td>
@@ -209,7 +210,7 @@
         <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></td>
         <td class="num"><span class="quote">87&nbsp;%</span></td>
       </tr>
-<tr data-land="GB" data-kategorie="gateway" data-avv="0" data-name="requesty">
+<tr data-land="GB" data-kategorie="gateway" data-avv="0" data-belegt="0" data-name="requesty">
         <td><a href="anbieter/requesty/">Requesty</a><span class="klein">London, Vereinigtes Königreich</span></td>
         <td>GB</td>
         <td>Gateway / Router</td>
@@ -218,7 +219,7 @@
         <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></td>
         <td class="num"><span class="quote">20&nbsp;%</span></td>
       </tr>
-<tr data-land="FR" data-kategorie="inference-api" data-avv="1" data-name="scaleway">
+<tr data-land="FR" data-kategorie="inference-api" data-avv="1" data-belegt="1" data-name="scaleway">
         <td><a href="anbieter/scaleway/">Scaleway</a><span class="klein">Paris, Frankreich</span></td>
         <td>FR</td>
         <td>Inference-API</td>
@@ -227,7 +228,7 @@
         <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></td>
         <td class="num"><span class="quote">86&nbsp;%</span></td>
       </tr>
-<tr data-land="DE" data-kategorie="inference-api" data-avv="0" data-name="stackit">
+<tr data-land="DE" data-kategorie="inference-api" data-avv="0" data-belegt="0" data-name="stackit">
         <td><a href="anbieter/stackit/">STACKIT</a><span class="klein">Neckarsulm, Deutschland</span></td>
         <td>DE</td>
         <td>Inference-API</td>
@@ -236,7 +237,7 @@
         <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></td>
         <td class="num"><span class="quote">77&nbsp;%</span></td>
       </tr>
-<tr data-land="DE" data-kategorie="inference-api" data-avv="1" data-name="t-systems / open telekom cloud (ai foundation services)">
+<tr data-land="DE" data-kategorie="inference-api" data-avv="1" data-belegt="1" data-name="t-systems / open telekom cloud (ai foundation services)">
         <td><a href="anbieter/t-systems/">T-Systems / Open Telekom Cloud (AI Foundation Services)</a><span class="klein">Frankfurt am Main, Deutschland</span></td>
         <td>DE</td>
         <td>Inference-API</td>
@@ -255,6 +256,7 @@
   var land = document.getElementById("f-land");
   var kat = document.getElementById("f-kat");
   var avv = document.getElementById("f-avv");
+  var belegt = document.getElementById("f-belegt");
   var anzahl = document.getElementById("f-anzahl");
   var zeilen = Array.prototype.slice.call(document.querySelectorAll("#anbieter-tabelle tbody tr"));
   function filtern() {
@@ -265,13 +267,14 @@
         (!q || tr.dataset.name.indexOf(q) !== -1) &&
         (!land.value || tr.dataset.land === land.value) &&
         (!kat.value || tr.dataset.kategorie === kat.value) &&
-        (!avv.checked || tr.dataset.avv === "1");
+        (!avv.checked || tr.dataset.avv === "1") &&
+        (!belegt.checked || tr.dataset.belegt === "1");
       tr.style.display = zeig ? "" : "none";
       if (zeig) n++;
     });
     anzahl.textContent = n + " von " + zeilen.length + " Anbietern";
   }
-  [suche, land, kat, avv].forEach(function (el) { el.addEventListener("input", filtern); });
+  [suche, land, kat, avv, belegt].forEach(function (el) { el.addEventListener("input", filtern); });
   filtern();
 })();
 </script>

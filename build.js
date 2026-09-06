@@ -35,6 +35,15 @@ const KATEGORIE_LABEL = {
 
 const STATUS_LABEL = { belegt: "belegt", beansprucht: "beansprucht", unbelegt: "unbelegt" };
 
+/** Vergleichsseiten, die indexiert werden dürfen (Plan Punkt 6, 06.09.2026). Alle anderen tragen
+ *  noindex,follow und fehlen in der Sitemap: 76 fast gleiche Seiten verwässern den Index, acht
+ *  handverlesene Paarungen — je Kategorie die, nach denen ein DSB oder Einkäufer tatsächlich sucht —
+ *  reichen. Redaktionelle Auswahl, kein Beleg; Änderung = Zeile hier ändern. */
+const VERGLEICH_INDEXIERT = new Set([
+  "ionos-vs-t-systems", "ionos-vs-stackit", "stackit-vs-t-systems", "ionos-vs-ovhcloud", "ovhcloud-vs-scaleway",
+  "aleph-alpha-vs-mistral", "exoscale-vs-hetzner", "eurouter-vs-opper-ai",
+]);
+
 /** Baudatum. Über BUILD_DATUM überschreibbar, damit ein Build reproduzierbar bleibt. */
 const BUILD_DATUM = process.env.BUILD_DATUM || new Date().toISOString().slice(0, 10);
 
@@ -200,6 +209,13 @@ function belegQuote(p) {
 }
 
 
+/** Belegt-Filter der Übersicht: AVV, Subprozessoren und Trainings-Opt-out („kein Training“) mit Primärquelle. */
+function vollstaendigBelegt(p) {
+  const v = p.vertrag || {};
+  const b = (f) => f && f.status === "belegt";
+  return b(v.avv) && b(v.subprozessoren) && b(v.training_opt_out) && v.training_opt_out.wert === true;
+}
+
 function zertifikateBelegt(p) {
   return (p.zertifikate || []).filter((z) => z.status === "belegt").map((z) => z.typ);
 }
@@ -297,7 +313,7 @@ function brotkrumenLd(stufen) {
 
 /* ---------------- Layout ---------------- */
 
-function layout({ titel, beschreibung, inhalt, rel, pfad, jsonld }) {
+function layout({ titel, beschreibung, inhalt, rel, pfad, jsonld, noindex }) {
   const nav = [
     ["", "Anbieter"],
     ["fragen/", "Fragen"],
@@ -322,7 +338,7 @@ function layout({ titel, beschreibung, inhalt, rel, pfad, jsonld }) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(titel)}</title>
 <meta name="description" content="${esc(beschreibung)}">
-<link rel="canonical" href="${SITE.baseUrl}/${pfad}">
+${noindex ? '<meta name="robots" content="noindex,follow">' : ""}<link rel="canonical" href="${SITE.baseUrl}/${pfad}">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='14' fill='%235F4B9E'/%3E%3Ctext x='50' y='68' font-size='58' text-anchor='middle' fill='white' font-family='Georgia'%3Eb%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="${rel}fonts.css">
 <link rel="stylesheet" href="${rel}style.css">
@@ -372,7 +388,7 @@ function seiteIndex(providers, stand, aenderungen) {
       const preis = P.guenstigsterPreis(p);
       const zerts = zertifikateBelegt(p);
       const optOut = p.vertrag && p.vertrag.training_opt_out;
-      return `<tr data-land="${esc(p.stammdaten.land)}" data-kategorie="${esc(p.kategorie)}" data-avv="${p.vertrag && p.vertrag.avv && p.vertrag.avv.status === "belegt" ? "1" : "0"}" data-name="${esc(p.name.toLowerCase())}">
+      return `<tr data-land="${esc(p.stammdaten.land)}" data-kategorie="${esc(p.kategorie)}" data-avv="${p.vertrag && p.vertrag.avv && p.vertrag.avv.status === "belegt" ? "1" : "0"}" data-belegt="${vollstaendigBelegt(p) ? "1" : "0"}" data-name="${esc(p.name.toLowerCase())}">
         <td><a href="anbieter/${esc(p.id)}/">${esc(p.name)}</a>${verifiedMini(p)}<span class="klein">${esc(p.stammdaten.sitz || "")}</span></td>
         <td>${esc(p.stammdaten.land)}</td>
         <td>${esc(KATEGORIE_LABEL[p.kategorie] || p.kategorie)}</td>
@@ -415,6 +431,7 @@ function seiteIndex(providers, stand, aenderungen) {
     <select id="f-land" aria-label="Nach Land filtern"><option value="">Alle Länder</option>${laender.map((l) => `<option>${esc(l)}</option>`).join("")}</select>
     <select id="f-kat" aria-label="Nach Kategorie filtern"><option value="">Alle Kategorien</option>${kategorien.map((k) => `<option value="${esc(k)}">${esc(KATEGORIE_LABEL[k] || k)}</option>`).join("")}</select>
     <label class="check"><input type="checkbox" id="f-avv"> nur mit belegtem AVV</label>
+    <label class="check" title="Zeigt nur Anbieter, bei denen AVV, Subprozessorenliste und „kein Training mit Kundendaten“ mit Primärquelle belegt sind. Filtert, sortiert nicht."><input type="checkbox" id="f-belegt"> nur AVV, Subprozessoren und Trainings-Opt-out belegt</label>
     <span id="f-anzahl" class="klein" role="status"></span>
   </div>
   <div class="tabelle-scroll">
@@ -433,6 +450,7 @@ function seiteIndex(providers, stand, aenderungen) {
   var land = document.getElementById("f-land");
   var kat = document.getElementById("f-kat");
   var avv = document.getElementById("f-avv");
+  var belegt = document.getElementById("f-belegt");
   var anzahl = document.getElementById("f-anzahl");
   var zeilen = Array.prototype.slice.call(document.querySelectorAll("#anbieter-tabelle tbody tr"));
   function filtern() {
@@ -443,13 +461,14 @@ function seiteIndex(providers, stand, aenderungen) {
         (!q || tr.dataset.name.indexOf(q) !== -1) &&
         (!land.value || tr.dataset.land === land.value) &&
         (!kat.value || tr.dataset.kategorie === kat.value) &&
-        (!avv.checked || tr.dataset.avv === "1");
+        (!avv.checked || tr.dataset.avv === "1") &&
+        (!belegt.checked || tr.dataset.belegt === "1");
       tr.style.display = zeig ? "" : "none";
       if (zeig) n++;
     });
     anzahl.textContent = n + " von " + zeilen.length + " Anbietern";
   }
-  [suche, land, kat, avv].forEach(function (el) { el.addEventListener("input", filtern); });
+  [suche, land, kat, avv, belegt].forEach(function (el) { el.addEventListener("input", filtern); });
   filtern();
 })();
 </script>`;
@@ -633,6 +652,7 @@ function seiteVergleich(a, b) {
     titel: `${a.name} vs. ${b.name}: DSGVO, Preise, Zertifikate | belegbar.eu`,
     beschreibung: `${a.name} oder ${b.name}? Direkter Vergleich mit belegten Quellen: AVV, Hosting, Preise, Zertifikate, AI-Act-Nachweise.`,
     inhalt, rel: "../../", pfad: `vergleich/${a.id}-vs-${b.id}/`,
+    noindex: !VERGLEICH_INDEXIERT.has(`${a.id}-vs-${b.id}`),
     jsonld: brotkrumenLd([["", "Anbieter"], ["vergleich/", "Vergleiche"], [`vergleich/${a.id}-vs-${b.id}/`, `${a.name} vs. ${b.name}`]]),
   });
 }
@@ -1574,7 +1594,7 @@ function main() {
     .concat(faelle.map((f) => `faelle/${f.slug}/`))
     .concat(facetten.map((e) => `zertifikate/${e.schluessel}/`))
     .concat(providers.map((p) => `anbieter/${p.id}/`))
-    .concat(paare.map(([a, b]) => `vergleich/${a.id}-vs-${b.id}/`))
+    .concat(paare.filter(([a, b]) => VERGLEICH_INDEXIERT.has(`${a.id}-vs-${b.id}`)).map(([a, b]) => `vergleich/${a.id}-vs-${b.id}/`))
     .concat(guides.map((g) => `ratgeber/${g.slug}/`));
 
   const fehlend = urls.filter((u) => !lastmod(u));
