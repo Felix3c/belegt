@@ -100,6 +100,10 @@
     {
       "datum": "2026-09-04",
       "ereignis": "Startseite erneut abgerufen (23:13 UTC): Footer unverändert, „Verified by independent audit … ISO 27001“ ohne Zuordnung. Keine Mail des Anbieters mit der URL der Korrektur. Snapshot: https://web.archive.org/web/20260904231314/https://greenpt.com/. Status bleibt „bestätigt“."
+    },
+    {
+      "datum": "2026-09-06",
+      "ereignis": "Postfach geprüft (11:05 UTC): keine Mail des Anbieters mit der URL der Korrektur. Startseite erneut abgerufen (11:05 UTC): Footer unverändert, „Verified by independent audit … ISO 27001“ ohne Zuordnung (Rohkopie belege/faelle/2026-002/startseite-2026-09-06.html, SHA-256 0d1350b40b281cdba6c3712fe9c327dc1d524006ba063df1f1aeb06f0bc1b8b3). Snapshot: https://web.archive.org/web/20260906110759/https://greenpt.com/. Status bleibt „bestätigt“."
     }
   ]
 }
