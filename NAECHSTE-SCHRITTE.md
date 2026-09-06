@@ -1,6 +1,6 @@
 # belegbar.eu — Nächste Schritte
 
-**Stand:** 2026-09-06, mittags (Postfach leer, beide Fälle unverändert; Plan-Punkte 4, 5, 6 gebaut; erster Widerspruchs-Scan über 19 Anbieter läuft)
+**Stand:** 2026-09-06, nachmittags (Postfach leer, beide Fälle unverändert; Plan-Punkte 4, 5, 6 gebaut; Widerspruchs-Scan ausgewertet; Für-Anbieter-Seite, Verified-Regel, Zitier-Box und Fall-JSON live; Fälle 2026-003 BFL und 2026-004 Scaleway als Entwurf fertig, warten auf Felix’ Versand)
 **Führendes Dokument:** `MESSUNG.md` (Kill-Kriterien) · Ziel-Satz in `~/THESE.md` („Das Ziel ist der Stempel, nicht das Urteil“)
 **Phase:** live, 21 Anbieter, 56 URLs in der Sitemap (seit 06.09.; vorher 124), 2 Fälle. Beide laufen auf ein Ende zu: Requesty auf die Frist 08.09., GreenPT auf die Footer-Korrektur.
 
@@ -21,8 +21,8 @@
 Gegen `~/THESE.md` geprüft (Wer ist gebunden? Was kostet es ihn? Wer braucht das heute? Nachprüfbarer oder bequemer?). Das Produkt sind die Fälle, nicht die Tabelle. Drei Stücke, in dieser Reihenfolge:
 
 1. **Fall-Pipeline (gestartet 06.09.).** Monatlicher Widerspruchs-Scan über alle Anbieter ohne laufenden Fall: Marketing-Aussage gegen eigenes Dokument (Badge vs. Inhaberschaft, „never stored“ vs. Logging-Default, „EU only“ vs. eigene Subprozessorenliste, „kein Training“ vs. AGB). Ergebnis: `outreach/fall-kandidaten.md` mit wörtlichen Zitaten, URLs, Abrufzeiten und Konfidenz. Felix wählt, Claude bereitet den Fall vor (Rohkopien, Hashes, Wayback, Fall-JSON, Mail-Entwurf), Felix schickt. Ziel: **zwei neue Fälle eröffnet bis Ende September**, damit zum Kill-Check nicht nur zwei abgeschlossene, sondern auch laufende Fälle da sind. Bindet: den Anbieter an seine Aussage. Kostet ihn: die öffentliche Dokumentation. Erster Lauf läuft heute (fünf Agenten, 19 Anbieter) — Ergebnis siehe unten.
-2. **Anbieter-Eingang (nicht gebaut, wartet auf Felix).** Kriterium 1 („ein Anbieter meldet sich von selbst“) hat heute keinen Weg: Es gibt keine Seite, die einem Anbieter sagt, was er tun kann. Vorschlag: Seite `/anbieter/nachreichen/` („Für Anbieter“): *Sie finden eine Angabe als „beansprucht“ oder „unbelegt“? Schicken Sie die Primärquelle an hallo@ — wir prüfen binnen sieben Tagen, tragen sie mit Datum ein, und die Änderung steht im Änderungsprotokoll. Sind alle vier Vertragsfelder mit Dokumenten belegt, trägt das Profil den Stempel „Verified“.* Der `verified`-Stempel existiert im Build bereits (`verifiedStempel()`), ist aber bei keinem Anbieter gesetzt und auf der Methodik-Seite nicht erklärt. Regel aus der Methodik gilt weiter: keine Gegenleistung, kein Logo, keine Reihenfolge-Änderung. Das ist der Notar-Stempel aus THESE.md in seiner kleinsten Form: Der Anbieter bindet sich an eingereichte, datierte, gehashte Dokumente. Aufwand: ein Abend (Seite, Methodik-Absatz „Verified“, Mail-Vorlage für die Antwort).
-3. **Zitier-Box (nicht gebaut).** Kriterium 3 („ein Fremder zitiert“) wird leichter, wenn jede Fall- und Profilseite einen Zitiervorschlag mit Permalink, Stand, Hash und Wayback-Link trägt, plus `daten.json` je Fall. Aufwand: ein Abend. Nach 2.
+2. **Anbieter-Eingang — gebaut 06.09. (Commit 3e22ec0), von Felix freigegeben.** Korrektur zur Mittagsfassung: Ein Eingang existierte schon, verstreut (Methodik-Abschnitt „Verified“, Profil-Footer „Sie arbeiten bei X?“, Fall-Footer), aber mit der niedrigsten Latte („hat irgendetwas eingereicht“). Jetzt: Seite `/fuer-anbieter/` (Belege nachreichen mit Zusage „Prüfung binnen sieben Tagen“, Fall beantworten, Verified beantragen, was wir nicht annehmen; verlinkt aus Site-Footer, Profil- und Fall-Footer, Methodik, llms.txt, Sitemap). **Verified-Regel angehoben** (Felix: Variante „vier Vertragsfelder“, einen Tick weicher): AVV, Subprozessorenliste und Trainings-Opt-out durch anbieterbenannte Primärdokumente belegt, ZDR-Frage beantwortet (belegt oder ausdrücklich „keine Zusage“, datiert), benannte Rolle hat gegengelesen; Rolle wird veröffentlicht, kein Name. Datenfeld `verified: { datum, rolle, anmerkung }` in der README. Antwortvorlagen für hallo@ in `outreach/anbieter-antwort-vorlage.md` (Eingangsbestätigung, Ergebnis, Verified-Anfrage, Fall-Antwort). **Die Sieben-Tage-Zusage ist jetzt öffentlich; sie hält nur mit der Postfach-Regel.**
+3. **Zitier-Box — gebaut 06.09. (Commit 3e22ec0).** `lib/zitat.js` (4 Tests) liefert die Zitiertexte; Kasten mit Kopierknopf auf allen Profil- und Fallseiten; `faelle/<slug>/daten.json` mit Zitaten, Hashes, Snapshots, Antworten, Verlauf, Lizenz.
 
 Weiter verschoben bis nach den Gesprächen: Dossier-Generator, MCP/API, Englisch, neue Anbieter. Gestrichen bleibt der Shortlist-Wizard.
 
@@ -32,18 +32,27 @@ Fünf Agenten, 19 Anbieter, Abrufe 11:23 bis 11:54 UTC, alles in `outreach/fall-
 
 **Claudes Empfehlung für die zwei Fälle bis Ende September:** Fall A Black Forest Labs, Fall B Scaleway; Reserve T-Systems (größte Wirkung für Kommunen und DSBs, aber angreifbar, weil Telekom „Prefix-Cache ist keine Speicherung“ einwenden wird). Nicht als erste Fälle: IONOS (kein Datenschutzbezug) und Exoscale (vermutlich veraltete Tabelle, Hinweis-Mail reicht). Nicht prüfbar ohne Browser: Trust Center von Mistral, Lyceum, BFL und Gcores Legal-Tabs — dort können weitere Kandidaten liegen. Alle Zitate stammen aus Agenten-Abrufen; vor einer Eröffnung neu abrufen, hashen, Wayback, Rohkopien (README-Ablauf).
 
+## Fälle 2026-003 und 2026-004 — Entwürfe fertig (06.09., Felix hat BFL + Scaleway gewählt)
+
+- **2026-003 Black Forest Labs / Zero Data Retention.** Entwurf `data/faelle/entwurf/2026-003-black-forest-labs-zero-data-retention.json`, Mail `outreach/mails/11-black-forest-labs-fall-2026-003.md` (an legal@blackforestlabs.ai, CC privacy@ und dpo@). Fünf Seiten abgerufen 13:48 UTC, gehasht, Rohkopien in `belege/faelle/2026-003/`, fünf Wayback-Snapshots. Alle Zitate von Claude in den eigenen Rohkopien wörtlich nachgeprüft, nicht aus dem Agenten-Scan übernommen. Hinweis: Das BFL-Profil trug den Widerspruch schon seit 19.08. als Anmerkung im ZDR-Feld; Mutter ist BFL Inc. (Delaware), das steht im Fall unter „Was es nicht heißt“.
+- **2026-004 Scaleway / Generative APIs „no access“.** Entwurf `data/faelle/entwurf/2026-004-scaleway-generative-apis-no-access.json`, Mail `outreach/mails/12-scaleway-fall-2026-004.md` (an privacy@scaleway.com). Drei Seiten plus Specific Conditions (PDF, Version 07.04.2026) abgerufen, gehasht, Rohkopien in `belege/faelle/2026-004/`, drei Snapshots. ZDR bleibt im Profil „belegt“; der Fall betrifft nur die zwei absoluten Sätze.
+- **Ablauf beim Versand (steht auch in jeder Mail-Datei):** Mail raus → in der JSON `eroeffnet` und `anbieter_informiert` auf das Versanddatum, `antwort_frist` auf +14 Tage, Betreff-Datum anpassen → Datei nach `data/faelle/` verschieben → Verlaufseintrag „Anbieter informiert“ → `node build.js`, Tests, pushen. Ohne `anbieter_informiert` weigert sich der Build. Die Entwürfe sind auf Versand am 07.09. mit Frist 21.09. vorgeschrieben.
+
 ## Nächster konkreter Schritt
 
-**08.09. (Montag):** Postfach. Dann Requesty-DPA und GreenPT-Footer abrufen. Requesty nach Fristablauf auf `bestaetigt` (Anmerkung „Security-Seite korrigiert, DPA-Seite unverändert“), Rohkopie, Hash, Wayback, Verlauf, bauen, testen, pushen. Falls GreenPT-Footer korrigiert: `ausgeraeumt`. Danach aus `outreach/fall-kandidaten.md` den stärksten Kandidaten mit Felix auswählen und den Fall vorbereiten.
+**Felix:** beide Mails (11 und 12) von hallo@ schicken, am besten am 07.09. oder 08.09. Dann Claude sagen: „gesendet am …“ — Claude verschiebt die Entwürfe, setzt die Daten, baut, pusht.
+
+**08.09. (Montag), Claude:** Postfach. Requesty-DPA und GreenPT-Footer abrufen. Requesty nach Fristablauf auf `bestaetigt` (Anmerkung „Security-Seite korrigiert, DPA-Seite unverändert“), Rohkopie, Hash, Wayback, Verlauf, bauen, testen, pushen. Falls GreenPT-Footer korrigiert: `ausgeraeumt`.
 
 ## Wartet auf Felix
 
+- **Mails 11 und 12 schicken** (siehe oben).
 - **Gespräche, Welle 1 (Plan Punkt 3):** LinkedIn-Nachricht an Gossen, C. Arndt, Groß mit dem Text aus `outreach/gespraeche/leitfaden.md`; Köhler-Heite hat angenommen, also gleich mit dazu (dann sind es vier, Hansen-Oest zwei Tage später). Nicht mehr als drei am Tag.
-- **Entwicklungslinie:** Punkt 2 (Anbieter-Eingang) freigeben oder verwerfen; Punkt 6 (acht Paare) gegenlesen.
-- **Requesty-Status am 08.09.:** `bestaetigt` — folgt der GreenPT-Logik, von Felix noch nicht ausdrücklich bestätigt.
-- **Köhl:** „Connect“-Klick auf https://www.linkedin.com/in/stefanie-k%C3%B6hl-8159a1179/ (ohne Notiz) — oder endgültig streichen (`outreach/mails/06`).
+- **Offen gelassen am 06.09. (Frage übersprungen):** Requesty am 08.09. auf `bestaetigt` (Claude macht es nach der GreenPT-Logik, wenn nichts kommt); die acht indexierten Vergleichspaare gegenlesen; Exoscale-Hinweis per Mail ohne Fall (veraltete Zonen-Tabelle) — Claude entwirft auf Zuruf.
 - **LinkedIn:** eine neue, unbekannte Einladung vom 04.09. ansehen.
 - Optional: Kommentar bei Lara Gsell.
+
+Gestrichen am 06.09. (Felix): Stefanie Köhl (`outreach/mails/06`).
 
 ## Blocker
 
