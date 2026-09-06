@@ -94,6 +94,8 @@ Eine Angabe ändern = JSON-Datei editieren, Prüfdatum aktualisieren, neu bauen.
 
 Wer nur ein Feld nachprüft, setzt das Feld-Datum — nicht das Profil-Datum. Sonst behauptet das Profil, alle Angaben seien gleichzeitig geprüft worden.
 
+**Preise (je Modell, `lib/preise.js`):** `preis_input_1m_eur` / `preis_output_1m_eur` sind Tokenpreise je 1 Mio. Token. Wird anders abgerechnet, stehen `preis_einheit` (`"GPU-Stunde"`, `"Bild"`, `"Minute"`, `"Monat"`) und `preis_ab_eur` (niedrigster Wert in dieser Einheit). `0` heißt kostenlos. Veröffentlicht der Anbieter für ein Modell **keinen** Preis (Enterprise, auf Anfrage, hinter Login, noch nicht veröffentlicht), steht `"preis_status": "kein_oeffentlicher_preis"` — das ist die vierte Preisstufe und braucht wie jede belegte Angabe eine `quelle`, die es zeigt. Fehlt alles, gilt der Preis als **unbelegt**: wir haben keinen gefunden, der Anbieter könnte aber einen veröffentlicht haben. Eine Zahl schlägt den Status. Das Abrufdatum eines Preises ist das Feld-`geprueft` des Modells, sonst das Profil-Datum; die Website zeigt es neben dem Preis. Archivkopien der Preisseiten liegen unter `belege/preise/<anbieter>/` (`node preisarchiv.js <anbieter-id>`).
+
 **Zertifikate:** Der `typ` wird im Wortlaut des Anbieters erfasst und so auch angezeigt. Für Filter und Facettenseiten normalisiert `build.js` ihn zusätzlich (`ISO/IEC 27001:2022` → `iso-27001`); die Zuordnung steht in `ZERT_KANON`. Nennt ein Anbieter mehrere Normen in einem Feld (`SOC 1/2/3`), werden sie automatisch aufgeteilt. Nennt er ein Zertifikat nur in der `anmerkung`, wird es **nicht** gezählt — für die Facetten zählt allein ein eigener Eintrag.
 
 ## Veröffentlichen (GitHub Pages)

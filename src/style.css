@@ -118,6 +118,9 @@ p { max-width: 68ch; }
 .s-beansprucht .dot { background: transparent; box-shadow: inset 0 0 0 1.5px var(--anspruch); background-image: linear-gradient(90deg, var(--anspruch) 50%, transparent 50%); }
 .s-unbelegt { background: var(--fehlt-hauch); color: var(--fehlt); }
 .s-unbelegt .dot { background: transparent; box-shadow: inset 0 0 0 1.5px var(--fehlt); }
+/* Preisstufe „kein öffentlicher Preis“: belegt, aber keine Zahl — deshalb weder grün noch rot. */
+.preis-kein { display: inline-block; font-family: "IBM Plex Mono", Consolas, monospace; font-size: 12px; padding: 2px 9px; border-radius: 3px; border: 1px dashed var(--tinte-blass); color: var(--tinte); white-space: nowrap; }
+.preis-stand { display: block; font-weight: 400; }
 
 /* Beleg-Zeile — das Signatur-Element */
 .beleg { background: var(--flaeche); border: 1px solid var(--linie); border-left: 3px solid var(--stempel); border-radius: 4px; padding: 12px 16px; margin: 10px 0; }

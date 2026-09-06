@@ -17,6 +17,7 @@
       "standort": "Frankfurt/EU (AWS Bedrock)",
       "preis_input_1m_eur": null,
       "preis_output_1m_eur": null,
+      "preis_status": "kein_oeffentlicher_preis",
       "quelle": "https://docs.requesty.ai/features/eu-routing",
       "status": "beansprucht",
       "anmerkung": "Pass-through + 5% Markup; öffentliche Preisliste nur hinter Login"

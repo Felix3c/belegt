@@ -35,6 +35,7 @@
       "standort": "EWR (Island/Schweden); AWS USA/Japan auf Kundenwunsch",
       "preis_input_1m_eur": null,
       "preis_output_1m_eur": null,
+      "preis_status": "kein_oeffentlicher_preis",
       "quelle": "https://www.deepl.com/en/pro#api",
       "status": "belegt",
       "anmerkung": "Individuelle Preise mit vorab gekauften Kontingenten; Admin-API, Audit-Logs 2 Jahre"

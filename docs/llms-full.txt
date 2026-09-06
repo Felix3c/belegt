@@ -1,6 +1,6 @@
 # belegbar.eu — vollständiger Datenbestand
 
-Stand: 2026-08-25. 21 europäische KI-Anbieter, jede Angabe mit Quelle, Prüfdatum und Beleg-Status.
+Stand: 2026-09-06. 21 europäische KI-Anbieter, jede Angabe mit Quelle, Prüfdatum und Beleg-Status.
 
 ## Wie diese Datei zu lesen ist
 
@@ -15,7 +15,7 @@ nachweisbar ist. Wer diese Daten zitiert, sollte den Status mitzitieren.
 Lizenz: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Nutzung und Zitat frei mit
 Namensnennung "belegbar.eu" und Angabe des Prüfdatums.
 
-Zitierform: belegbar.eu, Stand 2026-08-25, https://belegbar.eu
+Zitierform: belegbar.eu, Stand 2026-09-06, https://belegbar.eu
 
 ## Direkt beantwortete Fragen
 
@@ -74,10 +74,10 @@ AI Act:
 - GPAI Code of Practice unterzeichnet [Status: belegt] | Quelle: https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai | Anmerkung: In der offiziellen Signatarliste der EU-Kommission enthalten.
 - Code of Practice on Transparency of AI-generated Content unterzeichnet [Status: belegt] | Quelle: https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content | Anmerkung: Eigene Ankündigung im Aleph-Alpha-Blog.
 
-Modelle und Preise (EUR je 1 Mio. Token):
-- Pharia-1-LLM-7B-control | Hosting: unbelegt | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control | Anmerkung: Modellkarte öffentlich; keine öffentlichen API-Tokenpreise — Vertrieb über Enterprise-Verträge und Self-Hosting, Preise auf Anfrage.
-- Pharia-1-Embedding-4608-control | Hosting: unbelegt | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://huggingface.co/Aleph-Alpha/Pharia-1-Embedding-4608-control | Anmerkung: Keine öffentlichen Preise.
-- Specialized Language Models (SLLMs) | Hosting: unbelegt | Input: unbelegt | Output: unbelegt [Status: beansprucht] | Quelle: https://aleph-alpha.com/ | Anmerkung: Website bewirbt domänenspezifische SLLMs auf europäischer Infrastruktur; keine öffentlichen Modellkarten oder Preise. PhariaAI-as-a-Service-Partnerschaft mit STACKIT beansprucht.
+Modelle und Preise (EUR je 1 Mio. Token, sofern keine andere Einheit genannt; „kein öffentlicher Preis“ = der Anbieter veröffentlicht keinen):
+- Pharia-1-LLM-7B-control | Hosting: unbelegt | Preis: kein öffentlicher Preis | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control | Anmerkung: Modellkarte öffentlich; keine öffentlichen API-Tokenpreise — Vertrieb über Enterprise-Verträge und Self-Hosting, Preise auf Anfrage.
+- Pharia-1-Embedding-4608-control | Hosting: unbelegt | Preis: kein öffentlicher Preis | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://huggingface.co/Aleph-Alpha/Pharia-1-Embedding-4608-control | Anmerkung: Keine öffentlichen Preise.
+- Specialized Language Models (SLLMs) | Hosting: unbelegt | Preis: kein öffentlicher Preis | Preis-Stand: 2026-08-19 [Status: beansprucht] | Quelle: https://aleph-alpha.com/ | Anmerkung: Website bewirbt domänenspezifische SLLMs auf europäischer Infrastruktur; keine öffentlichen Modellkarten oder Preise. PhariaAI-as-a-Service-Partnerschaft mit STACKIT beansprucht.
 
 ### Black Forest Labs
 
@@ -102,13 +102,13 @@ Zertifikate:
 AI Act:
 - GPAI-Pflichten als Modellanbieter (Art. 53 ff.) [Status: belegt] | Quelle: https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai | Anmerkung: Auf der EU-Kommissionsseite als Unterzeichner des General-Purpose AI Code of Practice gelistet (alle Kapitel, ohne Ausnahmen)
 
-Modelle und Preise (EUR je 1 Mio. Token):
-- FLUX.2 [pro] | Hosting: Region wählbar: global (api.bfl.ai), EU-Cluster (api.eu.bfl.ai) oder US; Cloud-Betreiber dahinter nicht offengelegt | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.bfl.ai/quick_start/pricing | Anmerkung: Bildmodell, Abrechnung pro Bild nach Megapixel: ab 0,03 $/Bild (Text-zu-Bild), ab 0,045 $/Bild (Editing); Preise in USD
-- FLUX.2 [max] | Hosting: Region wählbar (global/EU/US) | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.bfl.ai/quick_start/pricing | Anmerkung: ab 0,07 $/Bild, megapixelbasiert
-- FLUX.2 [flex] | Hosting: Region wählbar (global/EU/US) | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.bfl.ai/quick_start/pricing | Anmerkung: ab 0,05 $/Bild
-- FLUX.2 [klein] (4B / 9B) | Hosting: Region wählbar (global/EU/US); [dev]-Variante nur self-hosted | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.bfl.ai/quick_start/pricing | Anmerkung: ab 0,014 $/Bild (4B) bzw. 0,015 $/Bild (9B)
-- FLUX.1 Kontext [pro] / [max] | Hosting: Region wählbar (global/EU/US) | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.bfl.ai/quick_start/pricing | Anmerkung: Bild-Editing: 0,04 $/Bild (pro), 0,08 $/Bild (max)
-- FLUX 3 (Video) | Hosting: Region wählbar (global/EU/US) | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.bfl.ai/quick_start/pricing | Anmerkung: Abrechnung pro Sekunde: Text/Bild-zu-Video 0,17–0,29 $/s (Full Render), Draft 0,06 $/s
+Modelle und Preise (EUR je 1 Mio. Token, sofern keine andere Einheit genannt; „kein öffentlicher Preis“ = der Anbieter veröffentlicht keinen):
+- FLUX.2 [pro] | Hosting: Region wählbar: global (api.bfl.ai), EU-Cluster (api.eu.bfl.ai) oder US; Cloud-Betreiber dahinter nicht offengelegt | Preis: unbelegt | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://docs.bfl.ai/quick_start/pricing | Anmerkung: Bildmodell, Abrechnung pro Bild nach Megapixel: ab 0,03 $/Bild (Text-zu-Bild), ab 0,045 $/Bild (Editing); Preise in USD
+- FLUX.2 [max] | Hosting: Region wählbar (global/EU/US) | Preis: unbelegt | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://docs.bfl.ai/quick_start/pricing | Anmerkung: ab 0,07 $/Bild, megapixelbasiert
+- FLUX.2 [flex] | Hosting: Region wählbar (global/EU/US) | Preis: unbelegt | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://docs.bfl.ai/quick_start/pricing | Anmerkung: ab 0,05 $/Bild
+- FLUX.2 [klein] (4B / 9B) | Hosting: Region wählbar (global/EU/US); [dev]-Variante nur self-hosted | Preis: unbelegt | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://docs.bfl.ai/quick_start/pricing | Anmerkung: ab 0,014 $/Bild (4B) bzw. 0,015 $/Bild (9B)
+- FLUX.1 Kontext [pro] / [max] | Hosting: Region wählbar (global/EU/US) | Preis: unbelegt | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://docs.bfl.ai/quick_start/pricing | Anmerkung: Bild-Editing: 0,04 $/Bild (pro), 0,08 $/Bild (max)
+- FLUX 3 (Video) | Hosting: Region wählbar (global/EU/US) | Preis: unbelegt | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://docs.bfl.ai/quick_start/pricing | Anmerkung: Abrechnung pro Sekunde: Text/Bild-zu-Video 0,17–0,29 $/s (Full Render), Draft 0,06 $/s
 
 ### DeepL
 
@@ -138,11 +138,11 @@ AI Act:
 - AI-Governance / Responsible-AI-Dokumentation [Status: beansprucht] | Quelle: https://trust.deepl.com/ | Anmerkung: Trust Center listet 'AI Governance' und ein 'Responsible AI Statement'; Inhalte zugriffsbeschränkt, ohne öffentlich prüfbaren Text
 - AI-Act-spezifische Kundeninformation (Art. 50) [Status: unbelegt] | Anmerkung: Keine dedizierte AI-Act-Infoseite gefunden; für den Finanzsektor existiert eine DORA-Seite (deepl.com/en/dora-info), die DeepL als ICT-Drittdienstleister für 'non-critical functions' einordnet
 
-Modelle und Preise (EUR je 1 Mio. Token):
-- DeepL API Developer (Free) | Hosting: EWR (DeepL-eigene Rechenzentren Island/Schweden); Self-Serve-Verträge ab 13.02.2025 ggf. auch AWS | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://www.deepl.com/en/pro#api | Anmerkung: Kostenloser Testplan: 1 Mio. Zeichen insgesamt, 1 API-Key, ohne Speech-to-Text. Abrechnung pro Zeichen, nicht pro Token
-- DeepL API Growth (Übersetzung, Write, Voice) | Hosting: EWR (Island/Schweden); AWS USA/Japan nur auf Kundenwunsch | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://www.deepl.com/en/pro#api | Anmerkung: Zeichenbasiert: 23,80 €/Monat (jährlich, inkl. MwSt., DE-Preisansicht 20.08.2026) + Verbrauch oberhalb der Inklusivmengen (12 Mio. Zeichen/Jahr, 120 h Speech-to-Text/Jahr); Pay-as-you-go-Satz je 1M Zeichen öffentlich nicht beziffert, erst im Checkout sichtbar
-- DeepL API Enterprise | Hosting: EWR (Island/Schweden); AWS USA/Japan auf Kundenwunsch | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://www.deepl.com/en/pro#api | Anmerkung: Individuelle Preise mit vorab gekauften Kontingenten; Admin-API, Audit-Logs 2 Jahre
-- DeepL Pro Translator (Individual/Team/Business, ohne API) | Hosting: EWR (Island/Schweden) | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://www.deepl.com/en/pro | Anmerkung: Nutzerbasierte Abos (DE, inkl. MwSt., jährlich): Individual 7,49 €, Team 24,99 €, Business 49,99 € je Nutzer/Monat; als Kontext aufgenommen, da DSB-relevant
+Modelle und Preise (EUR je 1 Mio. Token, sofern keine andere Einheit genannt; „kein öffentlicher Preis“ = der Anbieter veröffentlicht keinen):
+- DeepL API Developer (Free) | Hosting: EWR (DeepL-eigene Rechenzentren Island/Schweden); Self-Serve-Verträge ab 13.02.2025 ggf. auch AWS | Preis: unbelegt | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://www.deepl.com/en/pro#api | Anmerkung: Kostenloser Testplan: 1 Mio. Zeichen insgesamt, 1 API-Key, ohne Speech-to-Text. Abrechnung pro Zeichen, nicht pro Token
+- DeepL API Growth (Übersetzung, Write, Voice) | Hosting: EWR (Island/Schweden); AWS USA/Japan nur auf Kundenwunsch | Preis: unbelegt | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://www.deepl.com/en/pro#api | Anmerkung: Zeichenbasiert: 23,80 €/Monat (jährlich, inkl. MwSt., DE-Preisansicht 20.08.2026) + Verbrauch oberhalb der Inklusivmengen (12 Mio. Zeichen/Jahr, 120 h Speech-to-Text/Jahr); Pay-as-you-go-Satz je 1M Zeichen öffentlich nicht beziffert, erst im Checkout sichtbar
+- DeepL API Enterprise | Hosting: EWR (Island/Schweden); AWS USA/Japan auf Kundenwunsch | Preis: kein öffentlicher Preis | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://www.deepl.com/en/pro#api | Anmerkung: Individuelle Preise mit vorab gekauften Kontingenten; Admin-API, Audit-Logs 2 Jahre
+- DeepL Pro Translator (Individual/Team/Business, ohne API) | Hosting: EWR (Island/Schweden) | Preis: unbelegt | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://www.deepl.com/en/pro | Anmerkung: Nutzerbasierte Abos (DE, inkl. MwSt., jährlich): Individual 7,49 €, Team 24,99 €, Business 49,99 € je Nutzer/Monat; als Kontext aufgenommen, da DSB-relevant
 
 ### EUrouter
 
@@ -167,12 +167,12 @@ Zertifikate:
 AI Act:
 - Transparenz-/Compliance-Angaben zum EU AI Act [Status: unbelegt] | Anmerkung: Keine AI-Act-spezifischen Angaben auf Website oder Preisseite gefunden
 
-Modelle und Preise (EUR je 1 Mio. Token):
-- DeepSeek V3.2 | Hosting: EU (EU-West) | Input: 0.3 | Output: 0.5 [Status: belegt] | Quelle: https://eurouter.ai/models | Anmerkung: Preis in USD
-- Kimi K2.6 | Hosting: EU (EU-West) | Input: 0.8 | Output: 3.5 [Status: belegt] | Quelle: https://eurouter.ai/models | Anmerkung: Preis in USD
-- Gemma 4 | Hosting: EU (EU-West) | Input: 0.1 | Output: 0.5 [Status: belegt] | Quelle: https://eurouter.ai/models | Anmerkung: Preis in USD
-- Claude (Opus 5 / Sonnet / Haiku) | Hosting: EU (via AWS Bedrock / Microsoft Foundry EU-Regionen) | Input: unbelegt | Output: unbelegt [Status: beansprucht] | Quelle: https://eurouter.ai/models | Anmerkung: Modell gelistet, konkrete Preise in der öffentlichen Tabelle nicht extrahierbar
-- Mistral Large 3 | Hosting: EU (u.a. Mistral AI, Frankreich) | Input: unbelegt | Output: unbelegt [Status: beansprucht] | Quelle: https://eurouter.ai/models | Anmerkung: Modell gelistet, konkrete Preise in der öffentlichen Tabelle nicht extrahierbar
+Modelle und Preise (EUR je 1 Mio. Token, sofern keine andere Einheit genannt; „kein öffentlicher Preis“ = der Anbieter veröffentlicht keinen):
+- DeepSeek V3.2 | Hosting: EU (EU-West) | Input: 0.3 | Output: 0.5 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://eurouter.ai/models | Anmerkung: Preis in USD
+- Kimi K2.6 | Hosting: EU (EU-West) | Input: 0.8 | Output: 3.5 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://eurouter.ai/models | Anmerkung: Preis in USD
+- Gemma 4 | Hosting: EU (EU-West) | Input: 0.1 | Output: 0.5 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://eurouter.ai/models | Anmerkung: Preis in USD
+- Claude (Opus 5 / Sonnet / Haiku) | Hosting: EU (via AWS Bedrock / Microsoft Foundry EU-Regionen) | Preis: unbelegt | Preis-Stand: 2026-08-19 [Status: beansprucht] | Quelle: https://eurouter.ai/models | Anmerkung: Modell gelistet, konkrete Preise in der öffentlichen Tabelle nicht extrahierbar
+- Mistral Large 3 | Hosting: EU (u.a. Mistral AI, Frankreich) | Preis: unbelegt | Preis-Stand: 2026-08-19 [Status: beansprucht] | Quelle: https://eurouter.ai/models | Anmerkung: Modell gelistet, konkrete Preise in der öffentlichen Tabelle nicht extrahierbar
 
 ### Exoscale
 
@@ -180,7 +180,7 @@ URL: https://belegbar.eu/anbieter/exoscale/ | Rohdaten: https://belegbar.eu/anbi
 Kategorie: Cloud / GPU | Sitz: Lausanne, Schweiz (CH) | Gegründet: 2011
 Rechtsraum: Schweiz — Drittland mit Angemessenheitsbeschluss der EU-Kommission — Übermittlung ohne zusätzliche Garantien zulässig (Art. 45 DSGVO). [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
 Mutterkonzern: A1 Digital / A1 Telekom Austria Group (Mehrheitseigner: América Móvil, MX) | US-Eigentümerstruktur: nein
-Beleg-Quote: 67 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-08-19
+Beleg-Quote: 67 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-09-06
 
 Schweizer Cloud-Anbieter (Akenes SA, Lausanne) im Besitz von A1 Digital/A1 Telekom Austria Group (Mehrheitseigner: América Móvil, MX) mit rein europäischen Zonen; KI-Angebot ist heute GPU-/Dedicated-Inference-Infrastruktur, die tokenbasierte Managed Inference ist angekündigt.
 
@@ -199,10 +199,10 @@ Zertifikate:
 AI Act:
 - GPAI Code of Practice unterzeichnet [Status: unbelegt] | Anmerkung: Kein GPAI-Modellanbieter (reine Infrastruktur); eigene AI-Act-Dokumentation nicht auffindbar
 
-Modelle und Preise (EUR je 1 Mio. Token):
-- gpt-oss-120b (Dedicated Inference) | Hosting: Wien (AT), Genf (CH), Frankfurt (DE), Zagreb (HR) | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://www.exoscale.com/ai-cloud-infrastructure/dedicated-inference/ | Anmerkung: Kein Tokenpreis: Abrechnung pro GPU-Sekunde (z.B. A5000 1,34 €/h); beliebige Hugging-Face-Modelle deploybar
-- Qwen3-Coder-480B (Dedicated Inference) | Hosting: Wien (AT), Genf (CH), Frankfurt (DE), Zagreb (HR) | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://www.exoscale.com/ai-cloud-infrastructure/dedicated-inference/ | Anmerkung: Kein Tokenpreis, GPU-Sekundenabrechnung
-- Managed Inference (Modellkatalog) | Hosting: EU und Schweiz (geplant) | Input: unbelegt | Output: unbelegt [Status: beansprucht] | Quelle: https://www.exoscale.com/ai-cloud-infrastructure/managed-inference/ | Anmerkung: Pay-per-Token-Dienst angekündigt (Warteliste); Preise werden erst zum Launch veröffentlicht
+Modelle und Preise (EUR je 1 Mio. Token, sofern keine andere Einheit genannt; „kein öffentlicher Preis“ = der Anbieter veröffentlicht keinen):
+- gpt-oss-120b (Dedicated Inference) | Hosting: Wien (AT), Genf (CH), Frankfurt (DE), Zagreb (HR) | Preis: ab 1,34 € / GPU-Stunde | Preis-Stand: 2026-09-06 [Status: belegt] | Quelle: https://www.exoscale.com/ai-cloud-infrastructure/dedicated-inference/ | Anmerkung: Kein Tokenpreis: Dedicated Inference kostet nichts extra, abgerechnet wird die GPU-Zeit sekundengenau. 1,34 € = GPUA5000 small (1,34028 €/h) laut Preis-API portal.exoscale.com/api/pricing/opencompute, abgerufen 06.09.2026 (Archivkopie belege/preise/exoscale/). Günstigste GPU-Instanz insgesamt: RTX 3080 Ti small 0,92 €/h; ob sie für Dedicated Inference zugelassen ist, ist nicht dokumentiert. Beliebige Hugging-Face-Modelle deploybar.
+- Qwen3-Coder-480B (Dedicated Inference) | Hosting: Wien (AT), Genf (CH), Frankfurt (DE), Zagreb (HR) | Preis: ab 1,34 € / GPU-Stunde | Preis-Stand: 2026-09-06 [Status: belegt] | Quelle: https://www.exoscale.com/ai-cloud-infrastructure/dedicated-inference/ | Anmerkung: Kein Tokenpreis, GPU-Sekundenabrechnung; Preis siehe Anmerkung beim ersten Modell.
+- Managed Inference (Modellkatalog) | Hosting: EU und Schweiz (geplant) | Preis: kein öffentlicher Preis | Preis-Stand: 2026-08-19 [Status: beansprucht] | Quelle: https://www.exoscale.com/ai-cloud-infrastructure/managed-inference/ | Anmerkung: Pay-per-Token-Dienst angekündigt (Warteliste); Preise werden erst zum Launch veröffentlicht
 
 ### Gcore
 
@@ -229,11 +229,11 @@ AI Act:
 - GPAI-Modellanbieter-Pflichten (Art. 53 ff.) [Status: unbelegt] | Anmerkung: Gcore hostet fremde Open-Source-Modelle als Infrastruktur-Anbieter, tritt nicht als GPAI-Modellanbieter auf; keine eigene AI-Act-Compliance-Dokumentation gefunden
 - Unterstützung der Kunden-Compliance (Datenlokalisierung) [Status: beansprucht] | Quelle: https://gcore.com/blog/ai-regulations-2024-eu | Anmerkung: Marketing-Positionierung: regionale Workload-Steuerung und EU-Rechenzentren als Compliance-Mittel; zudem 'Sovereign Inference'-Pilot mit Orange Business. Keine vertragliche Zusicherung gefunden
 
-Modelle und Preise (EUR je 1 Mio. Token):
-- Whisper Large v3 Turbo (dediziertes Deployment) | Hosting: wählbar (Multi-Region, bis zu 6 Regionen pro Deployment) | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://gcore.com/everywhere-inference/whisper-large-v3-turbo | Anmerkung: Feste monatliche GPU-Miete statt Minutenpreis; konkrete Raten nicht öffentlich
-- LLaMA Pro 8B | Hosting: Edge-Inferenz-Netz (laut Pressemitteilung 180+ Standorte) | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://gcore.com/press-releases/gcore-unveils-inference-at-the-edge-bringing-ai-applications-closer-to-end-users-for-seamless-real-time-performance | Anmerkung: Abrechnung nach genutzten Ressourcen (docs.gcore.com/edge-ai/billing.md: 'charged per minute'), keine Token-Preise
-- Mistral 7B | Hosting: Edge-Inferenz-Netz (laut Pressemitteilung 180+ Standorte) | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://gcore.com/press-releases/gcore-unveils-inference-at-the-edge-bringing-ai-applications-closer-to-end-users-for-seamless-real-time-performance | Anmerkung: Keine öffentlichen Token-Preise
-- Stable Diffusion XL | Hosting: Edge-Inferenz-Netz (laut Pressemitteilung 180+ Standorte) | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://gcore.com/press-releases/gcore-unveils-inference-at-the-edge-bringing-ai-applications-closer-to-end-users-for-seamless-real-time-performance | Anmerkung: Bildmodell, Token-Preislogik nicht anwendbar
+Modelle und Preise (EUR je 1 Mio. Token, sofern keine andere Einheit genannt; „kein öffentlicher Preis“ = der Anbieter veröffentlicht keinen):
+- Whisper Large v3 Turbo (dediziertes Deployment) | Hosting: wählbar (Multi-Region, bis zu 6 Regionen pro Deployment) | Preis: kein öffentlicher Preis | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://gcore.com/everywhere-inference/whisper-large-v3-turbo | Anmerkung: Feste monatliche GPU-Miete statt Minutenpreis; konkrete Raten nicht öffentlich
+- LLaMA Pro 8B | Hosting: Edge-Inferenz-Netz (laut Pressemitteilung 180+ Standorte) | Preis: unbelegt | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://gcore.com/press-releases/gcore-unveils-inference-at-the-edge-bringing-ai-applications-closer-to-end-users-for-seamless-real-time-performance | Anmerkung: Abrechnung nach genutzten Ressourcen (docs.gcore.com/edge-ai/billing.md: 'charged per minute'), keine Token-Preise
+- Mistral 7B | Hosting: Edge-Inferenz-Netz (laut Pressemitteilung 180+ Standorte) | Preis: unbelegt | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://gcore.com/press-releases/gcore-unveils-inference-at-the-edge-bringing-ai-applications-closer-to-end-users-for-seamless-real-time-performance | Anmerkung: Keine öffentlichen Token-Preise
+- Stable Diffusion XL | Hosting: Edge-Inferenz-Netz (laut Pressemitteilung 180+ Standorte) | Preis: unbelegt | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://gcore.com/press-releases/gcore-unveils-inference-at-the-edge-bringing-ai-applications-closer-to-end-users-for-seamless-real-time-performance | Anmerkung: Bildmodell, Token-Preislogik nicht anwendbar
 
 ### GreenPT
 
@@ -260,13 +260,13 @@ AI Act:
 - Transparenz über eingesetzte Modelle (Model Cards) [Status: belegt] | Quelle: https://docs.greenpt.ai/model-cards | Anmerkung: Öffentliche Model Cards mit Upstream-Modell, Anbieter, Kontext und Preisen; ausschließlich Open-Weight-Modelle
 - Explizite EU-AI-Act-Konformitätsangaben [Status: unbelegt] | Anmerkung: Keine AI-Act-spezifischen Aussagen auf Website, in ToS oder Privacy Policy gefunden; nur GDPR-Compliance wird benannt
 
-Modelle und Preise (EUR je 1 Mio. Token):
-- green-r (GPT-OSS 120B) | Hosting: EU (Scaleway, Paris, Frankreich) | Input: 0.35 | Output: 0.95 [Status: belegt] | Quelle: https://docs.greenpt.ai/model-cards | Anmerkung: Reasoning-Modell, 128k Kontext
-- mistral-small-3.2-24b-instruct-2506 | Hosting: EU (Scaleway, Paris, Frankreich) | Input: 0.2 | Output: 0.4 [Status: belegt] | Quelle: https://docs.greenpt.ai/model-cards | Anmerkung: 128k Kontext
-- gemma4 | Hosting: EU (Scaleway, Paris, Frankreich) | Input: 0.5 | Output: 1.5 [Status: belegt] | Quelle: https://docs.greenpt.ai/model-cards | Anmerkung: 256k Kontext, selbst gehostet
-- glm-5.2 | Hosting: EU (Verda, Helsinki, Finnland) | Input: 1.1 | Output: 4.4 [Status: belegt] | Quelle: https://docs.greenpt.ai/model-cards | Anmerkung: Coding-Modell, 1M Kontext; Coding-Modelle laufen laut Sustainability-Seite in Helsinki
-- kimi-k3 | Hosting: EU (Verda, Helsinki, Finnland) | Input: 3.3 | Output: 16.5 [Status: belegt] | Quelle: https://docs.greenpt.ai/model-cards | Anmerkung: Moonshot AI, 1M Kontext
-- green-embedding | Hosting: EU (Scaleway, Paris, Frankreich) | Input: 0.2 | Output: unbelegt [Status: belegt] | Quelle: https://docs.greenpt.ai/model-cards | Anmerkung: Embedding-Modell, 32k Kontext, keine Output-Kosten
+Modelle und Preise (EUR je 1 Mio. Token, sofern keine andere Einheit genannt; „kein öffentlicher Preis“ = der Anbieter veröffentlicht keinen):
+- green-r (GPT-OSS 120B) | Hosting: EU (Scaleway, Paris, Frankreich) | Input: 0.35 | Output: 0.95 | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://docs.greenpt.ai/model-cards | Anmerkung: Reasoning-Modell, 128k Kontext
+- mistral-small-3.2-24b-instruct-2506 | Hosting: EU (Scaleway, Paris, Frankreich) | Input: 0.2 | Output: 0.4 | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://docs.greenpt.ai/model-cards | Anmerkung: 128k Kontext
+- gemma4 | Hosting: EU (Scaleway, Paris, Frankreich) | Input: 0.5 | Output: 1.5 | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://docs.greenpt.ai/model-cards | Anmerkung: 256k Kontext, selbst gehostet
+- glm-5.2 | Hosting: EU (Verda, Helsinki, Finnland) | Input: 1.1 | Output: 4.4 | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://docs.greenpt.ai/model-cards | Anmerkung: Coding-Modell, 1M Kontext; Coding-Modelle laufen laut Sustainability-Seite in Helsinki
+- kimi-k3 | Hosting: EU (Verda, Helsinki, Finnland) | Input: 3.3 | Output: 16.5 | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://docs.greenpt.ai/model-cards | Anmerkung: Moonshot AI, 1M Kontext
+- green-embedding | Hosting: EU (Scaleway, Paris, Frankreich) | Input: 0.2 | Output: unbelegt | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://docs.greenpt.ai/model-cards | Anmerkung: Embedding-Modell, 32k Kontext, keine Output-Kosten
 
 ### Hetzner
 
@@ -290,8 +290,8 @@ Zertifikate:
 AI Act:
 - Art.-53-Transparenzdokumentation [Status: unbelegt] | Anmerkung: Hetzner serviert ein Fremdmodell (Qwen, Apache 2.0); Art.-53-Pflichten liegen beim Modellhersteller. Keine AI-Act-Dokumentation gefunden.
 
-Modelle und Preise (EUR je 1 Mio. Token):
-- Qwen3.6-35B-A3B-FP8 (experimentell) | Hosting: unbelegt | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.hetzner.com/general/company-and-policy/experiments/inference/ | Anmerkung: Einziges Modell der experimentellen Inference-API; kostenlos, 'as is', ohne Verfügbarkeitsgarantie; RZ-Standort der Instanz nicht spezifiziert (Hetzner-RZ: Nürnberg, Falkenstein, Helsinki).
+Modelle und Preise (EUR je 1 Mio. Token, sofern keine andere Einheit genannt; „kein öffentlicher Preis“ = der Anbieter veröffentlicht keinen):
+- Qwen3.6-35B-A3B-FP8 (experimentell) | Hosting: unbelegt | Preis: kostenlos | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://docs.hetzner.com/general/company-and-policy/experiments/inference/ | Anmerkung: Einziges Modell der experimentellen Inference-API; kostenlos, 'as is', ohne Verfügbarkeitsgarantie; RZ-Standort der Instanz nicht spezifiziert (Hetzner-RZ: Nürnberg, Falkenstein, Helsinki).
 
 ### Infomaniak
 
@@ -320,14 +320,14 @@ AI Act:
 - GPAI-Transparenzpflichten (Art. 53 AI Act) [Status: unbelegt] | Anmerkung: CH ist nicht EU, der AI Act gilt aber, soweit die API im EU-Markt angeboten wird. Infomaniak ist reiner Inferenz-Anbieter fremder Open-Source-Modelle, nicht Modellhersteller; keine AI-Act-spezifische Selbsteinordnung auffindbar
 - Öffentliche AI-Act-Compliance-Aussage [Status: unbelegt] | Anmerkung: Beworben wird Konformität zu DSGVO und Schweizer DSG ('full compliance with the FADP and GDPR'); DSGVO-Konformität ist nicht mit AI-Act-Konformität gleichzusetzen
 
-Modelle und Preise (EUR je 1 Mio. Token):
-- Qwen3.5-397B-A17B-FP8 | Hosting: Schweiz (eigene Rechenzentren) | Input: 0.8 | Output: 3.6 [Status: belegt] | Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices | Anmerkung: Preis in CHF, exkl. MwSt.; 200k Kontext, multimodal, Beta
-- Qwen3.5-122B-A10B-FP8 | Hosting: Schweiz (eigene Rechenzentren) | Input: 0.4 | Output: 3.2 [Status: belegt] | Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices | Anmerkung: Preis in CHF, exkl. MwSt.; 200k Kontext
-- Kimi-K2.6 | Hosting: Schweiz (eigene Rechenzentren) | Input: 0.6 | Output: 3 [Status: belegt] | Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices | Anmerkung: Preis in CHF, exkl. MwSt.; Coding-Modell, 256k Kontext, Beta
-- Mistral-Small-4-119B-2603 | Hosting: Schweiz (eigene Rechenzentren) | Input: 0.2 | Output: 0.75 [Status: belegt] | Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices | Anmerkung: Preis in CHF, exkl. MwSt.; 256k Kontext
-- Apertus-v1.5-70B (swiss-ai) | Hosting: Schweiz (eigene Rechenzentren) | Input: 0.7 | Output: 2.5 [Status: belegt] | Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices | Anmerkung: Preis in CHF, exkl. MwSt.; Schweizer Open-Source-Modell (ETH/EPFL-Umfeld), offene Gewichte und Trainingsdaten, Beta
-- gemma-4-31B-it | Hosting: Schweiz (eigene Rechenzentren) | Input: 0.2 | Output: 0.4 [Status: belegt] | Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices | Anmerkung: Preis in CHF, exkl. MwSt.; 100k Kontext
-- Whisper V3 (Audio-Transkription) | Hosting: Schweiz (eigene Rechenzentren) | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices | Anmerkung: Abrechnung pro Minute Generierungszeit (CHF 0.006/min), nicht pro Token; zudem Embedding-/Reranker-Modelle und Bildgenerierung (Flux schnell) im Angebot
+Modelle und Preise (EUR je 1 Mio. Token, sofern keine andere Einheit genannt; „kein öffentlicher Preis“ = der Anbieter veröffentlicht keinen):
+- Qwen3.5-397B-A17B-FP8 | Hosting: Schweiz (eigene Rechenzentren) | Input: 0.8 | Output: 3.6 | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices | Anmerkung: Preis in CHF, exkl. MwSt.; 200k Kontext, multimodal, Beta
+- Qwen3.5-122B-A10B-FP8 | Hosting: Schweiz (eigene Rechenzentren) | Input: 0.4 | Output: 3.2 | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices | Anmerkung: Preis in CHF, exkl. MwSt.; 200k Kontext
+- Kimi-K2.6 | Hosting: Schweiz (eigene Rechenzentren) | Input: 0.6 | Output: 3 | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices | Anmerkung: Preis in CHF, exkl. MwSt.; Coding-Modell, 256k Kontext, Beta
+- Mistral-Small-4-119B-2603 | Hosting: Schweiz (eigene Rechenzentren) | Input: 0.2 | Output: 0.75 | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices | Anmerkung: Preis in CHF, exkl. MwSt.; 256k Kontext
+- Apertus-v1.5-70B (swiss-ai) | Hosting: Schweiz (eigene Rechenzentren) | Input: 0.7 | Output: 2.5 | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices | Anmerkung: Preis in CHF, exkl. MwSt.; Schweizer Open-Source-Modell (ETH/EPFL-Umfeld), offene Gewichte und Trainingsdaten, Beta
+- gemma-4-31B-it | Hosting: Schweiz (eigene Rechenzentren) | Input: 0.2 | Output: 0.4 | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices | Anmerkung: Preis in CHF, exkl. MwSt.; 100k Kontext
+- Whisper V3 (Audio-Transkription) | Hosting: Schweiz (eigene Rechenzentren) | Preis: unbelegt | Preis-Stand: 2026-08-20 [Status: belegt] | Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices | Anmerkung: Abrechnung pro Minute Generierungszeit (CHF 0.006/min), nicht pro Token; zudem Embedding-/Reranker-Modelle und Bildgenerierung (Flux schnell) im Angebot
 
 ### IONOS (AI Model Hub)
 
@@ -354,13 +354,13 @@ AI Act:
 - EU-AI-Act-Rollen- und Transparenzdokumentation (Distributor/Provider) [Status: belegt] | Quelle: https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/eu-ai-act | Anmerkung: Eigene Doku-Seite: IONOS als Distributor für unveränderte Open-Source-Modelle und AI Provider für selbst quantisierte Modelle, mit Transparenzpflichten; Kunden werden als Deployer eingeordnet.
 - GPAI Code of Practice unterzeichnet [Status: unbelegt] | Anmerkung: Keine Erwähnung gefunden; als Hoster/Distributor fremder Modelle kein typischer Unterzeichner.
 
-Modelle und Preise (EUR je 1 Mio. Token):
-- Llama 3.3 70B Instruct | Hosting: Deutschland | Input: 0.65 | Output: 0.65 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
-- Llama 3.1 8B Instruct | Hosting: Deutschland | Input: 0.15 | Output: 0.15 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
-- Mistral Small 24B Instruct | Hosting: Deutschland | Input: 0.1 | Output: 0.3 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
-- Mistral Nemo Instruct | Hosting: Deutschland | Input: 0.15 | Output: 0.15 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
-- gpt-oss-120b | Hosting: Deutschland | Input: 0.15 | Output: 0.65 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
-- Qwen3.5-397B-A17B | Hosting: Deutschland | Input: 0.6 | Output: 3.6 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
+Modelle und Preise (EUR je 1 Mio. Token, sofern keine andere Einheit genannt; „kein öffentlicher Preis“ = der Anbieter veröffentlicht keinen):
+- Llama 3.3 70B Instruct | Hosting: Deutschland | Input: 0.65 | Output: 0.65 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
+- Llama 3.1 8B Instruct | Hosting: Deutschland | Input: 0.15 | Output: 0.15 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
+- Mistral Small 24B Instruct | Hosting: Deutschland | Input: 0.1 | Output: 0.3 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
+- Mistral Nemo Instruct | Hosting: Deutschland | Input: 0.15 | Output: 0.15 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
+- gpt-oss-120b | Hosting: Deutschland | Input: 0.15 | Output: 0.65 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
+- Qwen3.5-397B-A17B | Hosting: Deutschland | Input: 0.6 | Output: 3.6 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
 
 ### Lyceum Technology
 
@@ -386,12 +386,12 @@ Zertifikate:
 AI Act:
 - GPAI Code of Practice unterzeichnet [Status: unbelegt] | Anmerkung: Kein Nachweis; hostet Open-Source-Fremdmodelle
 
-Modelle und Preise (EUR je 1 Mio. Token):
-- DeepSeek V4 Pro | Hosting: EU (u.a. Frankreich, Deutschland, Dänemark) | Input: 1.75 | Output: 3.5 [Status: belegt] | Quelle: https://lyceum.technology/products/inference/models/ | Anmerkung: Preis in USD
-- DeepSeek V3.2 | Hosting: EU (u.a. Frankreich, Deutschland, Dänemark) | Input: 0.3 | Output: 0.45 [Status: belegt] | Quelle: https://lyceum.technology/products/inference/models/ | Anmerkung: Preis in USD
-- Qwen3 235B A22B | Hosting: EU (u.a. Frankreich, Deutschland, Dänemark) | Input: 0.2 | Output: 0.6 [Status: belegt] | Quelle: https://lyceum.technology/products/inference/models/ | Anmerkung: Preis in USD
-- Kimi K2.6 | Hosting: EU (u.a. Frankreich, Deutschland, Dänemark) | Input: 1 | Output: 4 [Status: belegt] | Quelle: https://lyceum.technology/products/inference/models/ | Anmerkung: Preis in USD
-- gpt-oss 120B | Hosting: EU (u.a. Frankreich, Deutschland, Dänemark) | Input: 0.15 | Output: 0.6 [Status: belegt] | Quelle: https://lyceum.technology/products/inference/models/ | Anmerkung: Preis in USD
+Modelle und Preise (EUR je 1 Mio. Token, sofern keine andere Einheit genannt; „kein öffentlicher Preis“ = der Anbieter veröffentlicht keinen):
+- DeepSeek V4 Pro | Hosting: EU (u.a. Frankreich, Deutschland, Dänemark) | Input: 1.75 | Output: 3.5 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://lyceum.technology/products/inference/models/ | Anmerkung: Preis in USD
+- DeepSeek V3.2 | Hosting: EU (u.a. Frankreich, Deutschland, Dänemark) | Input: 0.3 | Output: 0.45 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://lyceum.technology/products/inference/models/ | Anmerkung: Preis in USD
+- Qwen3 235B A22B | Hosting: EU (u.a. Frankreich, Deutschland, Dänemark) | Input: 0.2 | Output: 0.6 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://lyceum.technology/products/inference/models/ | Anmerkung: Preis in USD
+- Kimi K2.6 | Hosting: EU (u.a. Frankreich, Deutschland, Dänemark) | Input: 1 | Output: 4 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://lyceum.technology/products/inference/models/ | Anmerkung: Preis in USD
+- gpt-oss 120B | Hosting: EU (u.a. Frankreich, Deutschland, Dänemark) | Input: 0.15 | Output: 0.6 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://lyceum.technology/products/inference/models/ | Anmerkung: Preis in USD
 
 ### Mistral AI (La Plateforme)
 
@@ -418,12 +418,12 @@ AI Act:
 - GPAI Code of Practice unterzeichnet [Status: belegt] | Quelle: https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai | Anmerkung: Mistral AI ist auf der offiziellen Signatoren-Liste der EU-Kommission namentlich aufgeführt.
 - Art.-53-Transparenzdokumentation (Model Documentation Form) veröffentlicht [Status: unbelegt] | Anmerkung: Als CoP-Signatar verpflichtet, ein konkretes veröffentlichtes Dokument wurde aber nicht gefunden.
 
-Modelle und Preise (EUR je 1 Mio. Token):
-- Mistral Large 3 | Hosting: EU (Standard-Endpoint; US nur per Opt-in) | Input: 0.5 | Output: 1.5 [Status: belegt] | Quelle: https://mistral.ai/pricing/api | Anmerkung: Preis in USD
-- Mistral Medium 3.5 | Hosting: EU (Standard-Endpoint; US nur per Opt-in) | Input: 1.5 | Output: 7.5 [Status: belegt] | Quelle: https://mistral.ai/pricing/api | Anmerkung: Preis in USD
-- Mistral Small 4 | Hosting: EU (Standard-Endpoint; US nur per Opt-in) | Input: 0.15 | Output: 0.6 [Status: belegt] | Quelle: https://mistral.ai/pricing/api | Anmerkung: Preis in USD
-- Codestral | Hosting: EU (Standard-Endpoint; US nur per Opt-in) | Input: 0.3 | Output: 0.9 [Status: belegt] | Quelle: https://mistral.ai/pricing/api | Anmerkung: Preis in USD
-- Ministral 3 (8B) | Hosting: EU (Standard-Endpoint; US nur per Opt-in) | Input: 0.15 | Output: 0.15 [Status: belegt] | Quelle: https://mistral.ai/pricing/api | Anmerkung: Preis in USD; auch als 3B und 14B verfügbar
+Modelle und Preise (EUR je 1 Mio. Token, sofern keine andere Einheit genannt; „kein öffentlicher Preis“ = der Anbieter veröffentlicht keinen):
+- Mistral Large 3 | Hosting: EU (Standard-Endpoint; US nur per Opt-in) | Input: 0.5 | Output: 1.5 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://mistral.ai/pricing/api | Anmerkung: Preis in USD
+- Mistral Medium 3.5 | Hosting: EU (Standard-Endpoint; US nur per Opt-in) | Input: 1.5 | Output: 7.5 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://mistral.ai/pricing/api | Anmerkung: Preis in USD
+- Mistral Small 4 | Hosting: EU (Standard-Endpoint; US nur per Opt-in) | Input: 0.15 | Output: 0.6 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://mistral.ai/pricing/api | Anmerkung: Preis in USD
+- Codestral | Hosting: EU (Standard-Endpoint; US nur per Opt-in) | Input: 0.3 | Output: 0.9 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://mistral.ai/pricing/api | Anmerkung: Preis in USD
+- Ministral 3 (8B) | Hosting: EU (Standard-Endpoint; US nur per Opt-in) | Input: 0.15 | Output: 0.15 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://mistral.ai/pricing/api | Anmerkung: Preis in USD; auch als 3B und 14B verfügbar
 
 ### Nebius (Token Factory)
 
@@ -450,11 +450,11 @@ Zertifikate:
 AI Act:
 - GPAI Code of Practice unterzeichnet [Status: unbelegt] | Anmerkung: Keine Unterzeichnung auffindbar; hostet Open-Source-Fremdmodelle. Trust Center nennt NIS 2 und DORA, aber keine AI-Act-Dokumentation
 
-Modelle und Preise (EUR je 1 Mio. Token):
-- gpt-oss-120b | Hosting: EU (Finnland/Frankreich); US-Region optional | Input: 0.15 | Output: 0.6 [Status: belegt] | Quelle: https://openrouter.ai/provider/nebius | Anmerkung: Preis in USD; offizielle Preisseite nur nach Login, Preise über das Live-Listing bei OpenRouter verifiziert
-- Qwen3-235B-A22B-Instruct | Hosting: EU (Finnland/Frankreich); US-Region optional | Input: 0.2 | Output: 0.6 [Status: belegt] | Quelle: https://openrouter.ai/provider/nebius | Anmerkung: Preis in USD
-- Llama 3.3 70B Instruct | Hosting: EU (Finnland/Frankreich); US-Region optional | Input: 0.13 | Output: 0.4 [Status: belegt] | Quelle: https://openrouter.ai/provider/nebius | Anmerkung: Preis in USD
-- GLM-5.1 | Hosting: EU (Finnland/Frankreich); US-Region optional | Input: 1.4 | Output: 4.4 [Status: belegt] | Quelle: https://openrouter.ai/provider/nebius | Anmerkung: Preis in USD
+Modelle und Preise (EUR je 1 Mio. Token, sofern keine andere Einheit genannt; „kein öffentlicher Preis“ = der Anbieter veröffentlicht keinen):
+- gpt-oss-120b | Hosting: EU (Finnland/Frankreich); US-Region optional | Input: 0.15 | Output: 0.6 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://openrouter.ai/provider/nebius | Anmerkung: Preis in USD; offizielle Preisseite nur nach Login, Preise über das Live-Listing bei OpenRouter verifiziert
+- Qwen3-235B-A22B-Instruct | Hosting: EU (Finnland/Frankreich); US-Region optional | Input: 0.2 | Output: 0.6 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://openrouter.ai/provider/nebius | Anmerkung: Preis in USD
+- Llama 3.3 70B Instruct | Hosting: EU (Finnland/Frankreich); US-Region optional | Input: 0.13 | Output: 0.4 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://openrouter.ai/provider/nebius | Anmerkung: Preis in USD
+- GLM-5.1 | Hosting: EU (Finnland/Frankreich); US-Region optional | Input: 1.4 | Output: 4.4 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://openrouter.ai/provider/nebius | Anmerkung: Preis in USD
 
 ### Nordference
 
@@ -479,12 +479,12 @@ Zertifikate:
 AI Act:
 - Transparenz-/Compliance-Angaben zum EU AI Act [Status: unbelegt] | Anmerkung: NIS2/DORA als Claim, zum AI Act keinerlei Angaben
 
-Modelle und Preise (EUR je 1 Mio. Token):
-- Llama 3.1 8B Instruct | Hosting: Estland | Input: 0.055 | Output: 0.11 [Status: belegt] | Quelle: https://nordference.ai/models
-- Mistral 7B Instruct | Hosting: Estland | Input: 0.05 | Output: 0.1 [Status: belegt] | Quelle: https://nordference.ai/models
-- Gemma 2 9B Instruct | Hosting: Estland | Input: 0.08 | Output: 0.16 [Status: belegt] | Quelle: https://nordference.ai/models
-- CodeLlama 7B Instruct | Hosting: Estland | Input: 0.06 | Output: 0.12 [Status: belegt] | Quelle: https://nordference.ai/models
-- Llama 3.2 3B Instruct | Hosting: Estland | Input: 0.03 | Output: 0.06 [Status: belegt] | Quelle: https://nordference.ai/models
+Modelle und Preise (EUR je 1 Mio. Token, sofern keine andere Einheit genannt; „kein öffentlicher Preis“ = der Anbieter veröffentlicht keinen):
+- Llama 3.1 8B Instruct | Hosting: Estland | Input: 0.055 | Output: 0.11 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://nordference.ai/models
+- Mistral 7B Instruct | Hosting: Estland | Input: 0.05 | Output: 0.1 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://nordference.ai/models
+- Gemma 2 9B Instruct | Hosting: Estland | Input: 0.08 | Output: 0.16 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://nordference.ai/models
+- CodeLlama 7B Instruct | Hosting: Estland | Input: 0.06 | Output: 0.12 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://nordference.ai/models
+- Llama 3.2 3B Instruct | Hosting: Estland | Input: 0.03 | Output: 0.06 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://nordference.ai/models
 
 ### Opper AI
 
@@ -509,12 +509,12 @@ Zertifikate:
 AI Act:
 - Logging/Audit-Trails zur Unterstützung von EU-AI-Act-, DORA- und NIS2-Reviews [Status: beansprucht] | Quelle: https://opper.ai/ai-compliance | Anmerkung: Compliance-Seite bewirbt Call-Logging und Audit-Trail; keine konkreten AI-Act-Konformitätsdokumente
 
-Modelle und Preise (EUR je 1 Mio. Token):
-- Claude Opus 5 | Hosting: EU + US (mehrere Provider) | Input: 5 | Output: 25 [Status: belegt] | Quelle: https://opper.ai/models | Anmerkung: Preis in USD; Pass-through + 3% Gateway-Gebühr
-- Claude Sonnet 5 | Hosting: EU + US (mehrere Provider) | Input: 2 | Output: 10 [Status: belegt] | Quelle: https://opper.ai/models | Anmerkung: Preis in USD
-- GPT-5.4 | Hosting: EU + US (mehrere Provider) | Input: 2.5 | Output: 15 [Status: belegt] | Quelle: https://opper.ai/models | Anmerkung: Preis in USD
-- DeepSeek V4 Pro | Hosting: EU + US (mehrere Provider) | Input: 1.3 | Output: 2.6 [Status: belegt] | Quelle: https://opper.ai/models | Anmerkung: Preis in USD
-- Gemini 3.5 Flash | Hosting: EU + US (mehrere Provider) | Input: 1.5 | Output: 9 [Status: belegt] | Quelle: https://opper.ai/models | Anmerkung: Preis in USD
+Modelle und Preise (EUR je 1 Mio. Token, sofern keine andere Einheit genannt; „kein öffentlicher Preis“ = der Anbieter veröffentlicht keinen):
+- Claude Opus 5 | Hosting: EU + US (mehrere Provider) | Input: 5 | Output: 25 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://opper.ai/models | Anmerkung: Preis in USD; Pass-through + 3% Gateway-Gebühr
+- Claude Sonnet 5 | Hosting: EU + US (mehrere Provider) | Input: 2 | Output: 10 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://opper.ai/models | Anmerkung: Preis in USD
+- GPT-5.4 | Hosting: EU + US (mehrere Provider) | Input: 2.5 | Output: 15 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://opper.ai/models | Anmerkung: Preis in USD
+- DeepSeek V4 Pro | Hosting: EU + US (mehrere Provider) | Input: 1.3 | Output: 2.6 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://opper.ai/models | Anmerkung: Preis in USD
+- Gemini 3.5 Flash | Hosting: EU + US (mehrere Provider) | Input: 1.5 | Output: 9 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://opper.ai/models | Anmerkung: Preis in USD
 
 ### OVHcloud (AI Endpoints)
 
@@ -544,13 +544,13 @@ AI Act:
 - AI-Act-Informationsmaterial veröffentlicht [Status: belegt] | Quelle: https://blog.ovhcloud.com/en/posts/ai-act-in-a-nutshell/ | Anmerkung: Offizieller Beitrag 'AI Act in a nutshell'; Positionierung über Modelltransparenz durch Open-Weight-Modelle.
 - GPAI Code of Practice unterzeichnet [Status: unbelegt] | Anmerkung: Keine Unterzeichnung auffindbar; als Hoster fremder Open-Weight-Modelle kein typischer Pflichtenadressat.
 
-Modelle und Preise (EUR je 1 Mio. Token):
-- Llama 3.3 70B Instruct | Hosting: Gravelines, Frankreich | Input: 0.67 | Output: 0.67 [Status: belegt] | Quelle: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/
-- gpt-oss-120b | Hosting: Gravelines, Frankreich | Input: 0.08 | Output: 0.4 [Status: belegt] | Quelle: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/
-- gpt-oss-20b | Hosting: Gravelines, Frankreich | Input: 0.04 | Output: 0.15 [Status: belegt] | Quelle: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/
-- Qwen3.5-397B-A17B | Hosting: Gravelines, Frankreich | Input: 0.6 | Output: 3.6 [Status: belegt] | Quelle: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/
-- Qwen3.6-27B | Hosting: Gravelines, Frankreich | Input: 0.4 | Output: 2.7 [Status: belegt] | Quelle: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/
-- Qwen3.5-9B | Hosting: Gravelines, Frankreich | Input: 0.1 | Output: 0.15 [Status: belegt] | Quelle: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/
+Modelle und Preise (EUR je 1 Mio. Token, sofern keine andere Einheit genannt; „kein öffentlicher Preis“ = der Anbieter veröffentlicht keinen):
+- Llama 3.3 70B Instruct | Hosting: Gravelines, Frankreich | Input: 0.67 | Output: 0.67 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/
+- gpt-oss-120b | Hosting: Gravelines, Frankreich | Input: 0.08 | Output: 0.4 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/
+- gpt-oss-20b | Hosting: Gravelines, Frankreich | Input: 0.04 | Output: 0.15 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/
+- Qwen3.5-397B-A17B | Hosting: Gravelines, Frankreich | Input: 0.6 | Output: 3.6 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/
+- Qwen3.6-27B | Hosting: Gravelines, Frankreich | Input: 0.4 | Output: 2.7 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/
+- Qwen3.5-9B | Hosting: Gravelines, Frankreich | Input: 0.1 | Output: 0.15 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/
 
 ### Regolo.ai
 
@@ -577,13 +577,13 @@ Zertifikate:
 AI Act:
 - AI-Act-Alignment (Transparenz, Sicherheit, Accountability) [Status: beansprucht] | Quelle: https://regolo.ai/zero-data-retention/ | Anmerkung: Proaktive Ausrichtung am EU AI Act erklärt; kein Primärdokument öffentlich. Kein GPAI-Modellanbieter
 
-Modelle und Preise (EUR je 1 Mio. Token):
-- gpt-oss-120b | Hosting: Italien (Seeweb-RZ, Frosinone/Mailand) | Input: 1 | Output: 4.2 [Status: belegt] | Quelle: https://regolo.ai/pricing/
-- Llama 3.3 70B Instruct | Hosting: Italien (Seeweb-RZ, Frosinone/Mailand) | Input: 0.6 | Output: 2.7 [Status: belegt] | Quelle: https://regolo.ai/pricing/
-- Qwen3.5-122B | Hosting: Italien (Seeweb-RZ, Frosinone/Mailand) | Input: 1 | Output: 4.2 [Status: belegt] | Quelle: https://regolo.ai/pricing/
-- Apertus-70B | Hosting: Italien (Seeweb-RZ, Frosinone/Mailand) | Input: 0.4 | Output: 2.1 [Status: belegt] | Quelle: https://regolo.ai/pricing/ | Anmerkung: Europäisches Open-Source-Modell (Swiss AI)
-- Mistral Small 4 (119B) | Hosting: Italien (Seeweb-RZ, Frosinone/Mailand) | Input: 0.5 | Output: 2.1 [Status: belegt] | Quelle: https://regolo.ai/pricing/
-- GLM-5.2 | Hosting: Italien (Seeweb-RZ, Frosinone/Mailand) | Input: 2 | Output: 5.2 [Status: belegt] | Quelle: https://regolo.ai/pricing/
+Modelle und Preise (EUR je 1 Mio. Token, sofern keine andere Einheit genannt; „kein öffentlicher Preis“ = der Anbieter veröffentlicht keinen):
+- gpt-oss-120b | Hosting: Italien (Seeweb-RZ, Frosinone/Mailand) | Input: 1 | Output: 4.2 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://regolo.ai/pricing/
+- Llama 3.3 70B Instruct | Hosting: Italien (Seeweb-RZ, Frosinone/Mailand) | Input: 0.6 | Output: 2.7 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://regolo.ai/pricing/
+- Qwen3.5-122B | Hosting: Italien (Seeweb-RZ, Frosinone/Mailand) | Input: 1 | Output: 4.2 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://regolo.ai/pricing/
+- Apertus-70B | Hosting: Italien (Seeweb-RZ, Frosinone/Mailand) | Input: 0.4 | Output: 2.1 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://regolo.ai/pricing/ | Anmerkung: Europäisches Open-Source-Modell (Swiss AI)
+- Mistral Small 4 (119B) | Hosting: Italien (Seeweb-RZ, Frosinone/Mailand) | Input: 0.5 | Output: 2.1 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://regolo.ai/pricing/
+- GLM-5.2 | Hosting: Italien (Seeweb-RZ, Frosinone/Mailand) | Input: 2 | Output: 5.2 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://regolo.ai/pricing/
 
 ### Requesty
 
@@ -608,10 +608,10 @@ Zertifikate:
 AI Act:
 - Transparenz-/Compliance-Angaben zum EU AI Act [Status: unbelegt] | Anmerkung: Keine AI-Act-Angaben auf Website, Security-Seite oder in den Docs gefunden
 
-Modelle und Preise (EUR je 1 Mio. Token):
-- Claude Sonnet (Bedrock @eu-central-1) | Hosting: Frankfurt/EU (AWS Bedrock) | Input: unbelegt | Output: unbelegt [Status: beansprucht] | Quelle: https://docs.requesty.ai/features/eu-routing | Anmerkung: Pass-through + 5% Markup; öffentliche Preisliste nur hinter Login
-- Gemini 3.5 Flash (Vertex @eu) | Hosting: EU (Google Vertex EU-Region) | Input: unbelegt | Output: unbelegt [Status: beansprucht] | Quelle: https://docs.requesty.ai/features/eu-routing | Anmerkung: Keine öffentliche Preisangabe verifizierbar
-- Mistral-Modelle | Hosting: EU (Mistral, 'hosted in EU by default') | Input: unbelegt | Output: unbelegt [Status: beansprucht] | Quelle: https://docs.requesty.ai/features/eu-routing | Anmerkung: Keine öffentliche Preisangabe verifizierbar
+Modelle und Preise (EUR je 1 Mio. Token, sofern keine andere Einheit genannt; „kein öffentlicher Preis“ = der Anbieter veröffentlicht keinen):
+- Claude Sonnet (Bedrock @eu-central-1) | Hosting: Frankfurt/EU (AWS Bedrock) | Preis: kein öffentlicher Preis | Preis-Stand: 2026-08-19 [Status: beansprucht] | Quelle: https://docs.requesty.ai/features/eu-routing | Anmerkung: Pass-through + 5% Markup; öffentliche Preisliste nur hinter Login
+- Gemini 3.5 Flash (Vertex @eu) | Hosting: EU (Google Vertex EU-Region) | Preis: unbelegt | Preis-Stand: 2026-08-19 [Status: beansprucht] | Quelle: https://docs.requesty.ai/features/eu-routing | Anmerkung: Keine öffentliche Preisangabe verifizierbar
+- Mistral-Modelle | Hosting: EU (Mistral, 'hosted in EU by default') | Preis: unbelegt | Preis-Stand: 2026-08-19 [Status: beansprucht] | Quelle: https://docs.requesty.ai/features/eu-routing | Anmerkung: Keine öffentliche Preisangabe verifizierbar
 
 ### Scaleway
 
@@ -637,13 +637,13 @@ Zertifikate:
 AI Act:
 - GPAI Code of Practice / Art.-53-Transparenzdokumentation [Status: unbelegt] | Anmerkung: Keine eigene AI-Act-Veröffentlichung auffindbar. Scaleway hostet fremde offene Modelle und trainiert keine eigenen GPAI-Modelle; Art.-53-Pflichten treffen primär die Modellhersteller.
 
-Modelle und Preise (EUR je 1 Mio. Token):
-- gpt-oss-120b | Hosting: Paris, Frankreich | Input: 0.15 | Output: 0.6 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
-- Llama 3.3 70B Instruct | Hosting: Paris, Frankreich | Input: 0.9 | Output: 0.9 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
-- Mistral Small 3.2 24B | Hosting: Paris, Frankreich | Input: 0.15 | Output: 0.35 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
-- Qwen3 235B A22B Instruct | Hosting: Paris, Frankreich | Input: 0.75 | Output: 2.25 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
-- DeepSeek V4 Flash | Hosting: Paris, Frankreich | Input: 0.4 | Output: 0.8 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
-- GLM-5.2 | Hosting: Paris, Frankreich | Input: 1.8 | Output: 5.5 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
+Modelle und Preise (EUR je 1 Mio. Token, sofern keine andere Einheit genannt; „kein öffentlicher Preis“ = der Anbieter veröffentlicht keinen):
+- gpt-oss-120b | Hosting: Paris, Frankreich | Input: 0.15 | Output: 0.6 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
+- Llama 3.3 70B Instruct | Hosting: Paris, Frankreich | Input: 0.9 | Output: 0.9 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
+- Mistral Small 3.2 24B | Hosting: Paris, Frankreich | Input: 0.15 | Output: 0.35 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
+- Qwen3 235B A22B Instruct | Hosting: Paris, Frankreich | Input: 0.75 | Output: 2.25 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
+- DeepSeek V4 Flash | Hosting: Paris, Frankreich | Input: 0.4 | Output: 0.8 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
+- GLM-5.2 | Hosting: Paris, Frankreich | Input: 1.8 | Output: 5.5 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
 
 ### STACKIT
 
@@ -670,11 +670,11 @@ Zertifikate:
 AI Act:
 - Art.-53-Transparenzdokumentation [Status: unbelegt] | Anmerkung: STACKIT betreibt Fremdmodelle; GPAI-Pflichten liegen bei den Modellherstellern. Keine eigene AI-Act-Dokumentation gefunden.
 
-Modelle und Preise (EUR je 1 Mio. Token):
-- Llama 3.3 70B | Hosting: Germany South (EU01), Deutschland | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models/ | Anmerkung: Modell und Region belegt; Preise nur als Kategorien (Standard 0,15/0,25 €, Plus 0,45/0,65 €, Premium 1,50/1,75 € je 1M In/Out) — Zuordnung Modell→Kategorie nicht öffentlich, Preis daher nicht als belegt ausgewiesen.
-- GPT-OSS 120B | Hosting: Germany South (EU01), Deutschland | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models/ | Anmerkung: Preis siehe Kategorien-Anmerkung.
-- Qwen3-VL 235B | Hosting: Germany South (EU01), Deutschland | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models/ | Anmerkung: Preis siehe Kategorien-Anmerkung.
-- Gemma 4 31B | Hosting: Germany South (EU01), Deutschland | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models/ | Anmerkung: Preis siehe Kategorien-Anmerkung.
+Modelle und Preise (EUR je 1 Mio. Token, sofern keine andere Einheit genannt; „kein öffentlicher Preis“ = der Anbieter veröffentlicht keinen):
+- Llama 3.3 70B | Hosting: Germany South (EU01), Deutschland | Preis: unbelegt | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models/ | Anmerkung: Modell und Region belegt; Preise nur als Kategorien (Standard 0,15/0,25 €, Plus 0,45/0,65 €, Premium 1,50/1,75 € je 1M In/Out) — Zuordnung Modell→Kategorie nicht öffentlich, Preis daher nicht als belegt ausgewiesen.
+- GPT-OSS 120B | Hosting: Germany South (EU01), Deutschland | Preis: unbelegt | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models/ | Anmerkung: Preis siehe Kategorien-Anmerkung.
+- Qwen3-VL 235B | Hosting: Germany South (EU01), Deutschland | Preis: unbelegt | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models/ | Anmerkung: Preis siehe Kategorien-Anmerkung.
+- Gemma 4 31B | Hosting: Germany South (EU01), Deutschland | Preis: unbelegt | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models/ | Anmerkung: Preis siehe Kategorien-Anmerkung.
 
 ### T-Systems / Open Telekom Cloud (AI Foundation Services)
 
@@ -701,12 +701,12 @@ Zertifikate:
 AI Act:
 - Art.-53-Transparenzdokumentation [Status: unbelegt] | Anmerkung: Plattform serviert Fremdmodelle; Art.-53-Pflichten liegen bei den Herstellern. Keine eigene AI-Act-Dokumentation gefunden.
 
-Modelle und Preise (EUR je 1 Mio. Token):
-- Llama 3.3 70B | Hosting: T-Cloud, Deutschland | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.llmhub.t-systems.net/models/ | Anmerkung: Modell und Standort belegt; Preisseite nennt 0,20/0,65 € je 1M In/Out nur als Beispielpreis, modellgenaue Preise nur im interaktiven Katalog. Tarife: Essential 1.000 €/Monat, Professional 3.000 €, Agentic 5.000 €.
-- Mistral Small 4 | Hosting: T-Cloud, Deutschland | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.llmhub.t-systems.net/models/ | Anmerkung: Preis siehe Anmerkung beim ersten Modell.
-- GPT-OSS 120B | Hosting: T-Cloud, Deutschland | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.llmhub.t-systems.net/models/ | Anmerkung: Preis siehe Anmerkung beim ersten Modell.
-- GPT-5 | Hosting: Azure, Schweden | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.llmhub.t-systems.net/models/ | Anmerkung: Proprietäres Modell, Weiterleitung an Microsoft Azure; es gelten dessen Datenbedingungen.
-- Claude 4.6 Sonnet | Hosting: GCP, Europa | Input: unbelegt | Output: unbelegt [Status: belegt] | Quelle: https://docs.llmhub.t-systems.net/models/ | Anmerkung: Via Google Cloud (Europa); Gateway-Funktion, keine T-Cloud-Hosting-Garantie.
+Modelle und Preise (EUR je 1 Mio. Token, sofern keine andere Einheit genannt; „kein öffentlicher Preis“ = der Anbieter veröffentlicht keinen):
+- Llama 3.3 70B | Hosting: T-Cloud, Deutschland | Preis: unbelegt | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://docs.llmhub.t-systems.net/models/ | Anmerkung: Modell und Standort belegt; Preisseite nennt 0,20/0,65 € je 1M In/Out nur als Beispielpreis, modellgenaue Preise nur im interaktiven Katalog. Tarife: Essential 1.000 €/Monat, Professional 3.000 €, Agentic 5.000 €.
+- Mistral Small 4 | Hosting: T-Cloud, Deutschland | Preis: unbelegt | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://docs.llmhub.t-systems.net/models/ | Anmerkung: Preis siehe Anmerkung beim ersten Modell.
+- GPT-OSS 120B | Hosting: T-Cloud, Deutschland | Preis: unbelegt | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://docs.llmhub.t-systems.net/models/ | Anmerkung: Preis siehe Anmerkung beim ersten Modell.
+- GPT-5 | Hosting: Azure, Schweden | Preis: unbelegt | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://docs.llmhub.t-systems.net/models/ | Anmerkung: Proprietäres Modell, Weiterleitung an Microsoft Azure; es gelten dessen Datenbedingungen.
+- Claude 4.6 Sonnet | Hosting: GCP, Europa | Preis: unbelegt | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://docs.llmhub.t-systems.net/models/ | Anmerkung: Via Google Cloud (Europa); Gateway-Funktion, keine T-Cloud-Hosting-Garantie.
 
 ## Ratgeber
 

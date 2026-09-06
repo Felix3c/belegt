@@ -1,0 +1,1397 @@
+<!doctype html>
+<html
+    lang="en"
+>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>
+            Managed Inference: Pay-As-You-Go AI Models in Europe</title>
+        <meta name="description" content="Access production-ready AI models with usage-based, pay-as-you-go pricing via API on Exoscale&#39;s 100% sovereign European cloud." />
+        
+        <link
+            rel="canonical"
+            href="https://www.exoscale.com/ai-cloud-infrastructure/managed-inference/"
+        />
+        
+           <!-- Open Graph data -->
+    <meta property="og:title" content="Managed Inference: Pay-As-You-Go AI Models in Europe" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.exoscale.com/ai-cloud-infrastructure/managed-inference/" />
+    <meta property="og:site_name" content="Exoscale" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content="https://www.exoscale.com/static/img/og/ai-managed-inference.png" />
+<meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+<meta property="og:description" content="Access production-ready AI models with usage-based, pay-as-you-go pricing via API on Exoscale&#39;s 100% sovereign European cloud." />
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@exoscale" />
+    <meta name="twitter:title" content="Managed Inference: Pay-As-You-Go AI Models in Europe" />
+<meta name="twitter:description" content="Access production-ready AI models with usage-based, pay-as-you-go pricing via API on Exoscale&#39;s 100% sovereign European cloud." />
+<meta name="twitter:image" content="https://www.exoscale.com/static/img/og/ai-managed-inference.png" /><meta name="robots" content="noodp" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+        <meta
+            name="google-site-verification"
+            content="vjANWwA8lyj1eKC8mXHMs5o0-MTTYNoidWF48NMl1AU"
+        />
+        <meta name="alexaVerifyID" content="kwjX4eRey3avM5YvZqshIqI3J40" />
+
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="/static/apple-touch-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="/static/apple-touch-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="/static/apple-touch-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="/static/apple-touch-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="/static/apple-touch-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="/static/apple-touch-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="/static/apple-touch-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="/static/apple-touch-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/static/apple-touch-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/static/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/static/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/static/manifest.json" />
+        <link
+            rel="mask-icon"
+            href="/static/safari-pinned-tab.svg"
+            color="#da291c"
+        />
+        <link rel="shortcut icon" href="/static/favicon.ico" />
+        <meta name="apple-mobile-web-app-title" content="exoscale.com" />
+        <meta name="application-name" content="exoscale.com" />
+        <meta name="msapplication-config" content="/static/browserconfig.xml" />
+        <meta name="theme-color" content="#da291c" />
+
+        
+        <link rel="stylesheet" href="/static/css/base.css?9f06c4aa" />
+        
+
+        <!-- Schema.org WebSite -->
+        <script type="application/ld+json">
+            {"@context": "https://schema.org", "@id": "https://www.exoscale.com/#website", "@type": "WebSite", "description": "Exoscale is a European cloud provider offering high-performance compute, cloud storage, networking, IAM and database hosting solutions. GDPR compliant, secure, scalable, and designed for EU businesses.", "inLanguage": "en", "name": "Exoscale", "publisher": {"@id": "https://www.exoscale.com/#organization"}, "url": "https://www.exoscale.com"}
+        </script>
+        
+        <!-- Schema.org BreadcrumbList -->
+        <script type="application/ld+json">
+            {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://www.exoscale.com/", "name": "Exoscale - European Cloud Hosting Services", "position": 1}, {"@type": "ListItem", "item": "https://www.exoscale.com/ai-cloud-infrastructure/", "name": "AI Cloud Infrastructure", "position": 2}, {"@type": "ListItem", "name": "Managed Inference", "position": 3}]}
+        </script>
+        
+        
+         
+<!-- Matomo Tag Manager — cookieless / anonymous (no consent banner).
+     The container's "Matomo Configuration" variable MUST have
+     "Disable cookies" enabled for this to stay truly cookieless. -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  _paq.push(['disableCookies']);
+  var _mtm = window._mtm = window._mtm || [];
+  _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+  (function() {
+    var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+    g.async = true;
+    
+    g.src = 'https://stats.exoscale.com/js/container_FWj5R44J.js';
+    
+    s.parentNode.insertBefore(g, s);
+  })();
+</script>
+
+    </head>
+
+    <body
+        id="top"
+        class="no-js root tmpl-product_managed_inference tmpl-product-managed-inference lang-en"
+        data-api-url="https://portal.exoscale.com"
+    >
+        <!--[if IE]><div class="ie"><![endif]-->
+        <!--[if lte IE 9]><div class="ie9"><![endif]-->
+          
+<div class="top-bar--secondary">
+    
+<div class="top-bar--secondary__claim" id="whatsnew-banner" role="region" aria-label="Announcements" hidden>
+    <style>
+        #whatsnew-banner {
+            align-items: center;
+            color: rgba(255, 255, 255, .85);
+            display: flex;
+            font-size: 12px;
+            letter-spacing: .2px;
+            line-height: 1.2;
+            min-width: 0;
+        }
+
+        /* Keep occupying the claim slot when hidden, so the 50/50 grid of the
+           secondary bar keeps the links right-aligned. */
+        #whatsnew-banner[hidden] {
+            visibility: hidden;
+        }
+
+        /* Small vertical line on the left: fills top-to-bottom over the 7s
+           rotation cycle, restarted on each new announcement. */
+        #whatsnew-banner__indicator {
+            background: rgba(255, 255, 255, .3);
+            border-radius: 1px;
+            flex: none;
+            height: 14px;
+            margin-right: 8px;
+            overflow: hidden;
+            position: relative;
+            width: 2px;
+        }
+
+        #whatsnew-banner__indicator i {
+            animation: whatsnew-fill 7s linear infinite;
+            background: #fff;
+            display: block;
+            height: 100%;
+            transform: scaleY(0);
+            transform-origin: bottom;
+            width: 100%;
+        }
+
+        @keyframes whatsnew-fill {
+            from { transform: scaleY(0); }
+            to { transform: scaleY(1); }
+        }
+
+        #whatsnew-banner__msg {
+            min-width: 0;
+            overflow: hidden;
+            /* Breathing room inside the clipping box (used by the ellipsis and
+               the ticker) so the nudging arrow never gets cut off. */
+            padding: 3px 4px 3px 0;
+            text-overflow: ellipsis;
+            transition: transform .25s ease, opacity .25s ease;
+            white-space: nowrap;
+        }
+
+        /* Ticker transition: current message slides down and out, the next
+           one drops in from the top. */
+        #whatsnew-banner__msg.whatsnew-out {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+
+        #whatsnew-banner__msg.whatsnew-in {
+            opacity: 0;
+            transform: translateY(-10px);
+            transition: none;
+        }
+
+        #whatsnew-banner__msg a {
+            color: #fff;
+            margin-left: 5px;
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+
+        /* Small outbound arrow after the link: periodic nudge up-right so the
+           destination reads as external, stronger on hover. */
+        #whatsnew-banner__arrow {
+            animation: whatsnew-nudge 2.4s ease-in-out infinite;
+            display: inline-block;
+            margin-left: 4px;
+            text-decoration: none;
+        }
+
+        #whatsnew-banner__msg a:hover #whatsnew-banner__arrow {
+            animation: none;
+            transform: translate(2px, -2px);
+        }
+
+        @keyframes whatsnew-nudge {
+            0%, 70%, 100% { transform: translate(0, 0); }
+            82% { transform: translate(2px, -2px); }
+        }
+
+        /* Below the large breakpoint the secondary bar is hidden by default:
+           re-enable it as a slim strip above the logo bar, announcement only. */
+        @media (max-width: 61.9375em) {
+            .top-bar--secondary.whatsnew-visible {
+                align-items: center;
+                display: flex;
+                height: auto;
+                justify-content: center;
+                padding-bottom: 7px;
+                padding-top: 7px;
+            }
+
+            .top-bar--secondary.whatsnew-visible .top-bar--secondary__links {
+                display: none;
+            }
+        }
+    </style>
+    <span id="whatsnew-banner__indicator" aria-hidden="true"><i></i></span>
+    <span id="whatsnew-banner__msg"></span>
+    <script>
+        (function () {
+            var banner = document.getElementById("whatsnew-banner");
+            var msg = document.getElementById("whatsnew-banner__msg");
+
+            function fetchWithRetry(url, attempts) {
+                return fetch(url).catch(function (err) {
+                    if (attempts <= 1) throw err;
+                    return new Promise(function (resolve) { setTimeout(resolve, 1000); })
+                        .then(function () { return fetchWithRetry(url, attempts - 1); });
+                });
+            }
+
+            fetchWithRetry("/static/whatsnew.json", 3)
+                .then(function (r) { return r.json(); })
+                .then(function (data) {
+                    var items = (Array.isArray(data) ? data : [data]).filter(function (d) { return d && d.text; });
+                    if (!items.length) return;
+                    items.sort(function (a, b) { return (b.date || "").localeCompare(a.date || ""); });
+
+                    function render(item) {
+                        msg.innerHTML = "";
+                        if (item.message) msg.appendChild(document.createTextNode(item.message + ":"));
+                        if (item.link) {
+                            var a = document.createElement("a");
+                            a.href = item.link;
+                            a.textContent = item.text;
+                            a.target = "_blank";
+                            a.rel = "noopener noreferrer";
+                            var arrow = document.createElement("span");
+                            arrow.id = "whatsnew-banner__arrow";
+                            arrow.setAttribute("aria-hidden", "true");
+                            arrow.textContent = "\u2197";
+                            a.appendChild(arrow);
+                            msg.appendChild(a);
+                        } else {
+                            msg.appendChild(document.createTextNode(" " + item.text));
+                        }
+                    }
+
+                    render(items[0]);
+
+                    if (items.length > 1) {
+                        var idx = 0;
+                        var fill = document.querySelector("#whatsnew-banner__indicator i");
+                        setInterval(function () {
+                            msg.classList.add("whatsnew-out");
+                            setTimeout(function () {
+                                idx = (idx + 1) % items.length;
+                                render(items[idx]);
+                                msg.classList.remove("whatsnew-out");
+                                msg.classList.add("whatsnew-in");
+                                void msg.offsetWidth;
+                                msg.classList.remove("whatsnew-in");
+                            }, 250);
+                            fill.style.animation = "none";
+                            void fill.offsetWidth;
+                            fill.style.animation = "";
+                        }, 7000);
+                    } else {
+                        document.getElementById("whatsnew-banner__indicator").remove();
+                    }
+
+                    banner.hidden = false;
+                    banner.closest(".top-bar--secondary").classList.add("whatsnew-visible");
+                })
+                .catch(function () { /* leave the claim slot empty on failure */ });
+        })();
+    </script>
+</div>
+    <div class="top-bar--secondary__links">
+        <a href="/newsletter/">Newsletter</a> 
+        <a href="/blog/">Blog</a>
+        <a href="/partner-programs/">Partner Programs</a>
+        <a href="/academy/">Academy</a>
+        <a href="/contact/">Contact us</a>
+    </div>
+</div>
+<div class="top-bar--main">
+    <div class="top-bar--main__logo">
+        <a class="brand" href="/">Exoscale</a>
+    </div>
+
+    <div class="top-bar--main__links">
+        <div class="top-bar--main__link">
+            <a data-top-bar-dropdown="dropdown-products">Products</a>
+            <div class="top-bar__dropdown" id="dropdown-products">
+                
+<a href="/compute/">Compute Instances</a>
+<a href="/ai-cloud-infrastructure/">Concrete AI</a>
+<a href="/sks/">Managed Kubernetes</a>
+<a href="/dbaas/">DBaaS</a>
+<a href="/object-storage/">Object Storage</a>
+<a href="/block-storage/">Block Storage</a>
+<a href="/gpu/">GPU Servers</a>
+<hr />
+<a class="top-bar__dropdown__footer-link" href="/products/"
+    >All products</a
+>
+
+            </div>
+        </div>
+        <div class="top-bar--main__link">
+            <a href="/marketplace/">Marketplace</a>
+        </div>
+        <div class="top-bar--main__link">
+            <a href="/pricing/">Pricing</a>
+        </div>
+        <div class="top-bar--main__link">
+            <a data-top-bar-dropdown="dropdown-resources">Resources</a>
+            <div class="top-bar__dropdown" id="dropdown-resources">
+                
+<a href="https://community.exoscale.com/">Documentation</a>
+<a href="https://community.exoscale.com/reference/api/">API</a>
+<a href="/blog/">Blog</a>
+<a href="/integration/">Integration</a>
+<a href="/support/">Support</a>
+
+            </div>
+        </div>
+        <div class="top-bar--main__link">
+            <a href="https://changelog.exoscale.com/">Changelog</a>
+        </div>
+    </div>
+
+    <div class="top-bar--main__buttons">
+        <a
+            href="https://portal.exoscale.com/"
+            class="top-bar--main__buttons--login"
+            >Log in</a
+        >
+        <a
+            href="https://portal.exoscale.com/register"
+            class="top-bar--main__buttons--register"
+            >Register</a
+        >
+    </div>
+
+    <button
+        class="top-bar--main__hamburgher"
+        type="button"
+        data-top-bar-dropdown="menu-mobile"
+        id="mobile-nav-button"
+        aria-label="Toggle navigation menu"
+        aria-expanded="false"
+        aria-controls="menu-mobile"
+    >
+        <span class="top-bar--main__hamburgher__label">Menu</span>
+    </button>
+
+    <div class="top-bar__dropdown top-bar__dropdown--mobile" id="menu-mobile">
+        <div class="top-bar__dropdown--mobile__cta">
+            <a
+                href="https://portal.exoscale.com/register"
+                class="top-bar--main__buttons--register"
+                >Register</a
+            >
+            <a
+                href="https://portal.exoscale.com/"
+                class="top-bar--main__buttons--login"
+                >Log in</a
+            >
+        </div>
+        <div class="top-bar__dropdown--mobile__section">
+            <span class="top-bar__dropdown--mobile__heading">Products</span>
+            
+<a href="/compute/">Compute Instances</a>
+<a href="/ai-cloud-infrastructure/">Concrete AI</a>
+<a href="/sks/">Managed Kubernetes</a>
+<a href="/dbaas/">DBaaS</a>
+<a href="/object-storage/">Object Storage</a>
+<a href="/block-storage/">Block Storage</a>
+<a href="/gpu/">GPU Servers</a>
+<hr />
+<a class="top-bar__dropdown__footer-link" href="/products/"
+    >All products</a
+>
+
+        </div>
+        <div class="top-bar__dropdown--mobile__section">
+            <a class="top-bar__dropdown--mobile__heading" href="/marketplace/">Marketplace</a>
+        </div>
+        <div class="top-bar__dropdown--mobile__section">
+            <a class="top-bar__dropdown--mobile__heading" href="/pricing/">Pricing</a>
+        </div>
+        <div class="top-bar__dropdown--mobile__section">
+            <span class="top-bar__dropdown--mobile__heading">Resources</span>
+            
+<a href="https://community.exoscale.com/">Documentation</a>
+<a href="https://community.exoscale.com/reference/api/">API</a>
+<a href="/blog/">Blog</a>
+<a href="/integration/">Integration</a>
+<a href="/support/">Support</a>
+
+        </div>
+        <div class="top-bar__dropdown--mobile__section">
+            <a href="https://changelog.exoscale.com/">What's new</a>
+        </div>
+        <hr class="top-bar__dropdown--mobile__divider" />
+        <div class="top-bar__dropdown--mobile__secondary">
+            <a href="/newsletter/">Newsletter</a>
+            <a href="/blog/">Blog</a>
+            <a href="/partner-programs/">Partner Programs</a>
+            <a href="/academy/">Academy</a>
+            <a href="/contact/">Contact us</a>
+        </div>
+    </div>
+</div>
+ 
+
+<!-- start: .page-core -->
+<main class="page-core">
+    
+    <div class="page-header ">
+    
+    <div class="page-header__breadcrumbs">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <ol class="breadcrumbs__list" itemscope itemtype="https://schema.org/BreadcrumbList">
+      
+        <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          
+            <a class="breadcrumbs__link" href="/" itemprop="item">
+              <span itemprop="name">Exoscale - European Cloud Hosting Services</span>
+            </a>
+          
+          <meta itemprop="position" content="1">
+        </li>
+      
+        <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          
+            <a class="breadcrumbs__link" href="/ai-cloud-infrastructure/" itemprop="item">
+              <span itemprop="name">AI Cloud Infrastructure</span>
+            </a>
+          
+          <meta itemprop="position" content="2">
+        </li>
+      
+        <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          
+            <span class="breadcrumbs__current" aria-current="page" itemprop="name">Managed Inference</span>
+          
+          <meta itemprop="position" content="3">
+        </li>
+      
+    </ol>
+  </nav>
+    </div>
+    
+    <div class="container">
+
+        <div class="page-header__title">Managed Inference</div>
+
+        
+        <div class="page-header__extra">
+            <div class="page-header__body">
+                <h1 class="page-header__subtitle">Coming soon: Pay-as-you-go Managed AI inference on a sovereign European cloud.</h1>
+
+                
+                <div class="page-header__text">AI as a Service: Access a curated catalog of production-ready AI models with usage-based, pay-per-token pricing on Exoscale's sovereign European cloud.
+</div>
+                
+            </div>
+
+            
+            <div class="page-header__cta-group">
+            
+
+            
+            <div class="page-header__cta">
+                <a id="product-hero-cta"
+                    href="https://app.formbricks.com/s/bvhxssleo5lamrhyldpuxhld"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="page-header__cta__button btn btn-secondary ">Join the Waitlist</a>
+            </div>
+            
+
+            </div>
+            
+
+        </div>
+        
+    </div>
+</div>
+
+
+    
+
+    
+    
+    <section id="split-figures"
+    class="page-section ">
+    
+    
+        
+        
+        
+
+<div
+  id="managed-inference-overview"
+  class="container container-split-fig split-fig--inference-hero">
+  
+  <article class="split-fig-left">
+    <div>
+      <h2 class="h3">
+        Exoscale’s Managed Inference
+      </h2>
+
+      <div class="split-fig__content features-list">
+        <p><br>
+Managed Inference API endpoints is our usage-based AI inference offering. It gives you direct access to a curated catalog of production-ready models via a managed API, enabling you to integrate AI features quickly.
+<br>
+<br>
+There are no instances to size and no idle costs. You simply connect to our API and pay only for what you consume. It’s the perfect operating model for rapid prototyping, unpredictable traffic, and teams that want immediate AI capabilities on a secure, sovereign European cloud.</p>
+      </div>
+    </div>
+
+    
+    <figure class="split-fig__image hidden-xs hidden-sm">
+      
+      <img
+        src="/static/img/ai_managed_inference.svg"
+        alt="Exoscale’s Managed Inference"
+        width="920"
+        height="920"
+        
+        >
+      
+      
+    </figure>
+  </article>
+
+</div>
+
+
+        
+    
+</section>
+    
+    
+
+    
+    
+    <section id="product-key-arguments"
+    class="page-section container container-key-arguments "><hgroup class="container-key-arguments__hgroup"><h2 class="h3 page-section__title">Why Choose Managed Inference on Exoscale?</h2></hgroup><div class="container-key-arguments__arguments fx-row fx-center-xs">
+    
+        <article class="fx-col-xs-12 fx-col-sm-6 fx-col-md-4 container-key-arguments__argument "><figure class="container-key-arguments__argument__figure">
+                <img src="/static/img/picto-compliance-red.svg"
+                    alt="EU &amp; Switzerland availability">
+            </figure><h2 class="container-key-arguments__title h4">EU & Switzerland availability</h2><p class="container-key-arguments__argument__text">All models are planned to be deployed in both the EU and Switzerland locations, giving you the flexibility to choose where your Managed Inference runs while maintaining full sovereignty and compliance.</p>
+        </article>
+    
+        <article class="fx-col-xs-12 fx-col-sm-6 fx-col-md-4 container-key-arguments__argument "><figure class="container-key-arguments__argument__figure">
+                <img src="/static/img/picto-datasets.svg"
+                    alt="Curated production-ready model catalog">
+            </figure><h2 class="container-key-arguments__title h4">Curated production-ready model catalog</h2><p class="container-key-arguments__argument__text">Instead of hundreds of experimental models, access a focused catalog covering common enterprise AI needs such as general-purpose assistants, coding, small models, embeddings, OCR, and speech workloads.</p>
+        </article>
+    
+        <article class="fx-col-xs-12 fx-col-sm-6 fx-col-md-4 container-key-arguments__argument "><figure class="container-key-arguments__argument__figure">
+                <img src="/static/img/picto-pricing-sla-red.svg"
+                    alt="Reliable performance by design">
+            </figure><h2 class="container-key-arguments__title h4">Reliable performance by design</h2><p class="container-key-arguments__argument__text">Built on proven infrastructure and optimized for inference workloads, delivering consistent performance and low-latency responses for your AI applications.</p>
+        </article>
+    
+        <article class="fx-col-xs-12 fx-col-sm-6 fx-col-md-4 container-key-arguments__argument "><figure class="container-key-arguments__argument__figure">
+                <img src="/static/img/picto-save-costs.svg"
+                    alt="Usage-Based Pricing">
+            </figure><h2 class="container-key-arguments__title h4">Usage-Based Pricing</h2><p class="container-key-arguments__argument__text">Pay exclusively for what you use. No GPU sizing, no capacity planning, no infrastructure operations.</p>
+        </article>
+    
+        <article class="fx-col-xs-12 fx-col-sm-6 fx-col-md-4 container-key-arguments__argument "><figure class="container-key-arguments__argument__figure">
+                <img src="/static/img/picto-extended-life-time.svg"
+                    alt="Clear model lifecycle">
+            </figure><h2 class="container-key-arguments__title h4">Clear model lifecycle</h2><p class="container-key-arguments__argument__text">Get transparency on model availability and lifecycle so you can plan adoption, integration, and future updates with more confidence.</p>
+        </article>
+    
+        <article class="fx-col-xs-12 fx-col-sm-6 fx-col-md-4 container-key-arguments__argument "><figure class="container-key-arguments__argument__figure">
+                <img src="/static/img/picto-cloud-native-red.svg"
+                    alt="Integrated with the Exoscale platform">
+            </figure><h2 class="container-key-arguments__title h4">Integrated with the Exoscale platform</h2><p class="container-key-arguments__argument__text">Connect AI as a Service with the rest of your sovereign Concrete AI portfolio, including Vector databases, Storage, and Kubernetes.</p>
+        </article>
+    
+    </div>
+
+    
+
+    
+</section>
+
+
+
+
+    
+    
+
+    
+    <section class="page-section">
+        <div class="container container-customer-trust">
+            <h2 class="h3">
+                Shape Our Production-Ready Catalog
+            </h2>
+            <p>We’re building a curated, production-ready models catalog for our upcoming pay-per-use Managed Inference product. Tell us which models you need most and help us prioritize the roadmap.</p>
+            <a
+                id="managed-inference-customer-trust-cta"
+                class="btn btn-primary"
+                title="Share Your Input"
+                href="https://app.formbricks.com/s/bvhxssleo5lamrhyldpuxhld"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Share Your Input</a
+            >
+        </div>
+    </section>
+    
+
+    
+
+    
+
+    
+
+    
+    
+    <section id="split-figures"
+    class="page-section ">
+    
+        <div class="page-section__header">
+            <h2 class="page-section__title features-grid__main-title h3">Designed for common AI workloads</h2>
+            
+            <div class="cta-lead features-grid__lead">
+                <div class="cta-lead__leading leading"><p>Managed Inference API endpoints are optimized for fast adoption, experimentation, and workloads with variable demand where operating dedicated GPUs would add unnecessary complexity.</p></div>
+            </div>
+            
+        </div>
+    
+    
+        
+        
+        
+
+<div
+  id="rapid-prototyping-experimentation"
+  class="container container-split-fig split-fig--rapid-prototyping-experimentation">
+  
+  <article class="split-fig-right">
+    <div>
+      <h2 class="h3">
+        Rapid prototyping &amp; experimentation
+      </h2>
+
+      <div class="split-fig__content features-list">
+        <p><br>
+Test models, prompts, and use cases quickly without provisioning infrastructure. Ideal for early-stage projects and proof-of-concept.</p>
+      </div>
+    </div>
+
+    
+    <figure class="split-fig__image hidden-xs hidden-sm">
+      
+      <img
+        src="/static/img/ai_prototyping.svg"
+        alt="rapid prototyping and experimentation"
+        
+        
+        
+        >
+      
+      
+    </figure>
+  </article>
+
+</div>
+
+
+        
+    
+        
+        
+        
+
+<div
+  id="variable-traffic"
+  class="container container-split-fig split-fig--variable-traffic">
+  
+  <article class="split-fig-left">
+    <div>
+      <h2 class="h3">
+        Variable or unpredictable traffic
+      </h2>
+
+      <div class="split-fig__content features-list">
+        <p><br>
+Handle bursty workloads and changing demand patterns with token-based consumption, without committing to fixed GPU capacity.</p>
+      </div>
+    </div>
+
+    
+    <figure class="split-fig__image hidden-xs hidden-sm">
+      
+      <img
+        src="/static/img/ai_variable_traffic.svg"
+        alt="variable or unpredictable traffic"
+        
+        
+        
+        >
+      
+      
+    </figure>
+  </article>
+
+</div>
+
+
+        
+    
+        
+        
+        
+
+<div
+  id="multi-team-decentralized-usage"
+  class="container container-split-fig ">
+  
+  <article class="split-fig-right">
+    <div>
+      <h2 class="h3">
+        Multi-team or decentralized usage
+      </h2>
+
+      <div class="split-fig__content features-list">
+        <p><br>
+Provide a shared AI capability across teams via API access, without requiring each team to manage infrastructure or deployments.</p>
+      </div>
+    </div>
+
+    
+    <figure class="split-fig__image hidden-xs hidden-sm">
+      
+      <img
+        src="/static/img/devops.svg"
+        alt="multi-team or decentralized usage"
+        
+        
+        
+        >
+      
+      
+    </figure>
+  </article>
+
+</div>
+
+
+        
+    
+        
+        
+        
+
+<div
+  id="gradual-path-to-production"
+  class="container container-split-fig ">
+  
+  <article class="split-fig-left">
+    <div>
+      <h2 class="h3">
+        Gradual path to production
+      </h2>
+
+      <div class="split-fig__content features-list">
+        <p><br>
+Start with managed models and move to <a href="/ai-cloud-infrastructure/dedicated-inference/">dedicated deployments</a> when workloads become predictable or mission-critical.</p>
+      </div>
+    </div>
+
+    
+    <figure class="split-fig__image hidden-xs hidden-sm">
+      
+      <img
+        src="/static/img/dbaas-opensearch-process-data.svg"
+        alt="gradual path to production"
+        
+        
+        
+        >
+      
+      
+    </figure>
+  </article>
+
+</div>
+
+
+        
+    
+</section>
+    
+    
+
+    
+
+    
+    
+    <section id="k8s-compatible"
+    class="page-section container container-key-arguments container-key-arguments--products"><hgroup class="container-key-arguments__hgroup"><h2 class="h3 page-section__title">Combine Managed Inference with…</h2><div class="cta-lead">    
+        <div class="cta-lead__leading leading"><p>…other Exoscale products. Easily compatible with Dedicated Inference, pgvector and/or Vector search.</p></div>
+    </div></hgroup><div class="container-key-arguments__arguments fx-row fx-center-xs">
+    
+        <article class="fx-col-xs-12 fx-col-sm-6 fx-col-md-4 container-key-arguments__argument "><a class="container-key-arguments__argument__figure-link" href="/ai-cloud-infrastructure/dedicated-inference/" id="dedicated-inference"><figure class="container-key-arguments__argument__figure">
+                <img src="/static/img/AI_di.svg"
+                    alt="Dedicated Inference">
+            </figure></a><h3 class="container-key-arguments__title h4">Dedicated Inference</h3><p class="container-key-arguments__argument__text">Fully managed, secure, and production-ready API endpoints for any open-weight AI model.
+</p><a id="gpu"
+                class="container-key-arguments__argument__cta btn btn-sm btn-primary"
+                href="/ai-cloud-infrastructure/dedicated-inference/">Discover</a>
+        </article>
+    
+        <article class="fx-col-xs-12 fx-col-sm-6 fx-col-md-4 container-key-arguments__argument "><a class="container-key-arguments__argument__figure-link" href="https://www.exoscale.com/dbaas/pgvector/" id="pgvector"><figure class="container-key-arguments__argument__figure">
+                <img src="/static/img/img-dbaas-pg.svg"
+                    alt="Managed pgvector">
+            </figure></a><h3 class="container-key-arguments__title h4">Managed pgvector</h3><p class="container-key-arguments__argument__text">PostgreSQL with pgvector extension. Perfect for hybrid workloads needing both relational and vector data.
+</p><a id="pgvector"
+                class="container-key-arguments__argument__cta btn btn-sm btn-primary"
+                href="https://www.exoscale.com/dbaas/pgvector/">Discover</a>
+        </article>
+    
+        <article class="fx-col-xs-12 fx-col-sm-6 fx-col-md-4 container-key-arguments__argument "><a class="container-key-arguments__argument__figure-link" href="https://www.exoscale.com/dbaas/vectorsearch/" id="vectorsearch"><figure class="container-key-arguments__argument__figure">
+                <img src="/static/img/img-dbaas-opensearch.svg"
+                    alt="Managed Vector search">
+            </figure></a><h3 class="container-key-arguments__title h4">Managed Vector search</h3><p class="container-key-arguments__argument__text">OpenSearch-based vector database. Optimized for pure AI workloads and large-scale semantic search.
+</p><a id="vectorsearch"
+                class="container-key-arguments__argument__cta btn btn-sm btn-primary"
+                href="https://www.exoscale.com/dbaas/vectorsearch/">Discover</a>
+        </article>
+    
+    </div>
+
+    
+
+    
+</section>
+
+
+
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    <section id="combine-concrete-ai"
+    class="page-section container container-key-arguments container-key-arguments--products"><hgroup class="container-key-arguments__hgroup"><h2 class="h3 page-section__title">Explore More Exoscale Services</h2><div class="cta-lead">    
+        <div class="cta-lead__leading leading"><p>Boost your Managed Inference solution by adding complementary offerings to help you achieve greater availability and performance, as well as expert support for any workload. Exoscale has the right service to support your project’s growth.</p></div>
+    </div></hgroup><div class="container-key-arguments__arguments fx-row fx-center-xs">
+    
+        <article class="fx-col-xs-12 fx-col-sm-6 fx-col-md-4 container-key-arguments__argument "><a class="container-key-arguments__argument__figure-link" href="/sks/" id="sks"><figure class="container-key-arguments__argument__figure">
+                <img src="/static/img/picto-home-sks.svg"
+                    alt="Kubernetes">
+            </figure></a><h3 class="container-key-arguments__title h4">Scalable Kubernetes Service</h3><p class="container-key-arguments__argument__text">Deploy containerized applications on a production-ready Kubernetes cluster in under two minutes. 
+Use SKS as the control layer for your virtual machine instances, with support for CLI, API, Terraform, and other DevOps tools.
+</p><a id="sks"
+                class="container-key-arguments__argument__cta btn btn-sm btn-primary"
+                href="/sks/">Discover</a>
+        </article>
+    
+        <article class="fx-col-xs-12 fx-col-sm-6 fx-col-md-4 container-key-arguments__argument "><a class="container-key-arguments__argument__figure-link" href="/object-storage/" id="object-storage"><figure class="container-key-arguments__argument__figure">
+                <img src="/static/img/picto-home-storage-object.svg"
+                    alt="object-storage">
+            </figure></a><h3 class="container-key-arguments__title h4">Simple Object Storage</h3><p class="container-key-arguments__argument__text">Use a highly scalable and S3-compatible storage solution for unstructured data. Ideal for storing backups, logs, static assets, or media, fully integrated with Exoscale regions and access-controlled via API.
+</p><a id="object-storage"
+                class="container-key-arguments__argument__cta btn btn-sm btn-primary"
+                href="/object-storage/">Discover</a>
+        </article>
+    
+        <article class="fx-col-xs-12 fx-col-sm-6 fx-col-md-4 container-key-arguments__argument "><a class="container-key-arguments__argument__figure-link" href="/support/" id="support"><figure class="container-key-arguments__argument__figure">
+                <img src="/static/img/picto-home-support.svg"
+                    alt="Support Plans">
+            </figure></a><h3 class="container-key-arguments__title h4">Support Plans</h3><p class="container-key-arguments__argument__text">Get the help you need to run your infrastructure with confidence through flexible support plans, designed to provide expert guidance, faster response times, and dedicated assistance tailored to your business.
+</p><a id="support"
+                class="container-key-arguments__argument__cta btn btn-sm btn-primary"
+                href="/support/">Discover</a>
+        </article>
+    
+    </div>
+
+    
+
+    
+</section>
+
+
+
+
+    
+    
+
+    
+    
+    <section id="faq"
+    class="page-section section-faq page-section--no-bottom">
+    <div class="features-band features-band--base">
+    <div class="container">
+
+        <h2 class="h3 page-section__title">Frequently Asked Questions about Managed Inference</h2>
+
+        <div class="section-faq__wrapper fx-row">
+            
+                <article class="section-faq__faq fx-col-xs-12 fx-col-md-6">
+                    <h3 class="h4" id="what-is-managed-inference">What is a Managed Inference service?</h3>
+                    <div>
+                        <p>Managed Inference is Exoscale&rsquo;s token-based AI inference service. It provides access to a curated catalog of production-ready models through a managed API, without requiring you to operate GPUs or model-serving infrastructure.</p>
+                    </div>
+                </article>
+            
+                <article class="section-faq__faq fx-col-xs-12 fx-col-md-6">
+                    <h3 class="h4" id="managed-vs-dedicated-inference">How is Managed Inference different from Dedicated Inference?</h3>
+                    <div>
+                        <p>Managed Inference is designed for flexible, usage-based consumption (you pay per token) of a curated model catalog. <a href="/ai-cloud-infrastructure/dedicated-inference/">Dedicated Inference</a> is designed for customers who want to deploy and operate their own chosen model on managed, dedicated GPU-backed infrastructure.</p>
+                    </div>
+                </article>
+            
+                <article class="section-faq__faq fx-col-xs-12 fx-col-md-6">
+                    <h3 class="h4" id="model-categories">Will I be able to choose from multiple model categories?</h3>
+                    <div>
+                        <p>Yes. The Managed Inference service is planned to cover several common enterprise AI categories, including general-purpose models, coding, small models, embeddings, OCR, and speech workloads.</p>
+                    </div>
+                </article>
+            
+                <article class="section-faq__faq fx-col-xs-12 fx-col-md-6">
+                    <h3 class="h4" id="token-pricing">How does the token pricing work?</h3>
+                    <div>
+                        <p>Pricing is calculated based on the number of tokens processed. A token represents a piece of a word (roughly 4 characters in English). You are billed based on input tokens (the prompt you send) and output tokens (the response generated by the model). Detailed pricing tiers per 1M tokens per model will be published upon launch.</p>
+                    </div>
+                </article>
+            
+                <article class="section-faq__faq fx-col-xs-12 fx-col-md-6">
+                    <h3 class="h4" id="service-availability">Where will the Managed Inference solution run?</h3>
+                    <div>
+                        <p>The service is planned for deployment on Exoscale infrastructure in Europe and Switzerland, with clear location transparency.</p>
+                    </div>
+                </article>
+            
+        </div>
+    </div>
+</section>
+    
+    
+
+</main>
+<!-- end: .page-core -->
+
+  
+<footer class="page-footer " id="footer">
+    <nav class="nav-sitemap">
+        <div class="container">
+            <div class="nav-sitemap__wrapper">
+                
+                <div class="nav-sitemap__navigation">
+                    <div class="nav-sitemap__column">
+                        <div class="nav-sitemap__column__subtitle">
+                            Exoscale
+                        </div>
+                        <ul class="nav-sitemap__column__link-list">
+                            <li>
+                                <a
+                                    id="footer-company"
+                                    href="/about-us/"
+                                    >Company</a
+                                >
+                            </li>
+                            <li>
+                                <a id="footer-jobs" href="/jobs/"
+                                    >Jobs</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    id="footer-sustainability"
+                                    href="/sustainability/"
+                                    >Sustainability</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    id="footer-partners"
+                                    href="/partner-programs/"
+                                    >Partner Programs</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    id="footer-academy"
+                                    href="/academy/"
+                                    >Academy</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    id="footer-events"
+                                    href="https://events.exoscale.com/events"
+                                    >Events</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    id="footer-contact"
+                                    href="/contact/"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav-sitemap__column">
+                        <div class="nav-sitemap__column__subtitle">
+                            Cloud Hosting
+                        </div>
+                        <ul class="nav-sitemap__column__link-list">
+                            <li>
+                                <a
+                                    id="footer-compute"
+                                    href="/compute/"
+                                    >Cloud Server</a
+                                >
+                            </li>
+                            <li>
+                                <a id="footer-sks" href="/sks/"
+                                    >Kubernetes</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    id="footer-dbaas"
+                                    href="/dbaas/"
+                                    >DBaaS</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    id="footer-object-storage"
+                                    href="/object-storage/"
+                                    >Object Storage</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    id="footer-block-storage"
+                                    href="/block-storage/"
+                                    >Block Storage</a
+                                >
+                            </li>
+                            <li>
+                                <a id="footer-gpu" href="/gpu/"
+                                    >GPU</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    id="footer-networking"
+                                    href="/networking/"
+                                    >Networking</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    id="footer-vpc"
+                                    href="/virtual-private-cloud/"
+                                    >Virtual Private Cloud</a
+                                >
+                            </li>
+                            <li>
+                                <a id="footer-dns" href="/dns/"
+                                    >Cloud DNS</a
+                                >
+                            </li>
+                            <li>
+                                <a id="footer-cdn" href="/cdn/"
+                                    >CDN</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav-sitemap__column">
+                        <div class="nav-sitemap__column__subtitle">
+                            Infrastructure
+                        </div>
+                        <ul class="nav-sitemap__column__link-list">
+                            <li>
+                                <a
+                                    id="footer-templates"
+                                    href="/templates/"
+                                    >Templates</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    id="footer-datacenters"
+                                    href="/datacenters/"
+                                    >Datacenters</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    id="footer-security"
+                                    href="/security/"
+                                    >Security</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    id="footer-compliance"
+                                    href="/compliance/"
+                                    >Compliance</a
+                                >
+                            </li>
+                            <li>
+                                <a id="footer-faq" href="/faq/general/"
+                                    >FAQ</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    id="footer-status"
+                                    href="https://exoscalestatus.com/"
+                                    >Status</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav-sitemap__column">
+                        <div class="nav-sitemap__column__subtitle">
+                            Resources
+                        </div>
+                        <ul class="nav-sitemap__column__link-list">
+                            <li>
+                                <a
+                                    id="footer-documentation"
+                                    href="https://community.exoscale.com/"
+                                    >Documentation</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    id="footer-api"
+                                    href="https://community.exoscale.com/reference/api/"
+                                    >API</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    id="footer-blog"
+                                    href="/blog/"
+                                    >Blog</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    id="footer-backup"
+                                    href="/backup/"
+                                    >Backup</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    id="footer-integration"
+                                    href="/integration/"
+                                    >Integration</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    id="footer-technology-providers"
+                                    href="/technology-providers/"
+                                    >Technology Providers</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    id="footer-changelog"
+                                    href="https://changelog.exoscale.com/"
+                                    >Changelog</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    id="footer-newsletter"
+                                    href="/newsletter/"
+                                    >Newsletter</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    id="footer-support"
+                                    href="/support/"
+                                    >Support</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    id="footer-data-portability"
+                                    href="/data-portability/"
+                                    >Data Portability</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    id="footer-abuse"
+                                    href="/abuse/"
+                                    >Abuse</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="nav-sitemap__legal">
+                    <a
+                        class="nav-sitemap__legal__element brand"
+                        href="/"
+                        >Exoscale</a
+                    >
+                    <div class="nav-sitemap__legal__element address">
+                        <span
+                            >Boulevard de Grancy 19A</span
+                        ><br>
+                        <span
+                            >1006</span
+                        >
+                        &ndash;
+                        <span>Lausanne</span
+                        ><br>
+                        <span
+                            >Switzerland</span
+                        >
+                    </div>
+                    <div class="nav-sitemap__legal__element address-complement">
+                        <a
+                            id="footer-contact-link"
+                            href="/contact/"
+                        >Contact us</a>
+                    </div>
+                    <div class="nav-sitemap__legal__element terms">
+                        <span
+                            ><a
+                                id="footer-privacy"
+                                href="/privacy/"
+                                >Privacy</a
+                            ></span
+                        ><span
+                            ><a id="footer-terms" href="/terms/"
+                                >Terms and Conditions</a
+                            ></span
+                        ><span
+                            ><a id="footer-sla" href="/sla/"
+                                >SLA</a
+                            ></span
+                        >
+                    </div>
+                    <div class="nav-sitemap__legal__element">
+                        Exoscale is a registered trademark
+                        <span class="text-nowrap">of Akenes SA</span> -
+                        <span class="text-nowrap">Reg/VAT CHE-423.524.322</span
+                        ><br>
+                        &copy; 2026 Exoscale
+                    </div>
+                    <div class="nav-sitemap__legal__element social">
+                        <a
+                            href="https://bsky.app/profile/exoscale.com"
+                            target="_blank"
+                            rel="noopener"
+                            ><img
+                                src="/static/img/picto-social-bluesky-footer.svg"
+                                alt="bluesky"
+                        /></a>
+                        <a
+                            href="https://www.linkedin.com/company/exoscale/"
+                            target="_blank"
+                            rel="noopener"
+                            ><img
+                                src="/static/img/picto-social-linkedin.svg"
+                                alt="linkedin"
+                        /></a>
+                        <a
+                            href="https://github.com/exoscale"
+                            target="_blank"
+                            rel="noopener"
+                            ><img
+                                src="/static/img/picto-social-github-footer.svg"
+                                alt="github"
+                        /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end: .container -->
+    </nav>
+    <!-- end: .nav-sitemap -->
+    <div class="page-footer__sub-footer">
+        <div class="container">
+            <div class="page-footer__sub-footer__a1">
+                Member of <a href="https://www.a1.digital/">A1 Digital</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- end: .page-footer -->  <div class="top-jump-button"></div>
+
+
+        <!--[if lte IE 9]></div><![endif]-->
+        <!--[if IE]></div><![endif]-->
+
+        <script src="/static/js/base.js?9f06c4aa"></script>
+
+        
+     
+<script src="/static/js/pricing.ng.js?9f06c4aa"></script>
+
+    </body>
+</html>
