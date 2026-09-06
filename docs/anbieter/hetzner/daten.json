@@ -15,8 +15,8 @@
     {
       "name": "Qwen3.6-35B-A3B-FP8 (experimentell)",
       "standort": null,
-      "preis_input_1m_eur": null,
-      "preis_output_1m_eur": null,
+      "preis_input_1m_eur": 0,
+      "preis_output_1m_eur": 0,
       "quelle": "https://docs.hetzner.com/general/company-and-policy/experiments/inference/",
       "status": "belegt",
       "anmerkung": "Einziges Modell der experimentellen Inference-API; kostenlos, 'as is', ohne Verfügbarkeitsgarantie; RZ-Standort der Instanz nicht spezifiziert (Hetzner-RZ: Nürnberg, Falkenstein, Helsinki)."

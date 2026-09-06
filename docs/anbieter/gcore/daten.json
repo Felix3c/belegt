@@ -17,6 +17,7 @@
       "standort": "wählbar (Multi-Region, bis zu 6 Regionen pro Deployment)",
       "preis_input_1m_eur": null,
       "preis_output_1m_eur": null,
+      "preis_status": "kein_oeffentlicher_preis",
       "quelle": "https://gcore.com/everywhere-inference/whisper-large-v3-turbo",
       "status": "belegt",
       "anmerkung": "Feste monatliche GPU-Miete statt Minutenpreis; konkrete Raten nicht öffentlich"

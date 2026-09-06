@@ -1,6 +1,6 @@
 {
   "quelle": "https://belegbar.eu",
-  "stand": "2026-08-25",
+  "stand": "2026-09-06",
   "lizenz": "https://creativecommons.org/licenses/by/4.0/",
   "lizenzhinweis": "CC BY 4.0 — Nutzung frei mit Namensnennung 'belegbar.eu' und Prüfdatum; Statusstufe (belegt/beansprucht/unbelegt) gehört zur Information.",
   "statusstufen": {
@@ -29,6 +29,7 @@
           "standort": null,
           "preis_input_1m_eur": null,
           "preis_output_1m_eur": null,
+          "preis_status": "kein_oeffentlicher_preis",
           "quelle": "https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control",
           "status": "belegt",
           "anmerkung": "Modellkarte öffentlich; keine öffentlichen API-Tokenpreise — Vertrieb über Enterprise-Verträge und Self-Hosting, Preise auf Anfrage."
@@ -38,6 +39,7 @@
           "standort": null,
           "preis_input_1m_eur": null,
           "preis_output_1m_eur": null,
+          "preis_status": "kein_oeffentlicher_preis",
           "quelle": "https://huggingface.co/Aleph-Alpha/Pharia-1-Embedding-4608-control",
           "status": "belegt",
           "anmerkung": "Keine öffentlichen Preise."
@@ -47,6 +49,7 @@
           "standort": null,
           "preis_input_1m_eur": null,
           "preis_output_1m_eur": null,
+          "preis_status": "kein_oeffentlicher_preis",
           "quelle": "https://aleph-alpha.com/",
           "status": "beansprucht",
           "anmerkung": "Website bewirbt domänenspezifische SLLMs auf europäischer Infrastruktur; keine öffentlichen Modellkarten oder Preise. PhariaAI-as-a-Service-Partnerschaft mit STACKIT beansprucht."
@@ -291,6 +294,7 @@
           "standort": "EWR (Island/Schweden); AWS USA/Japan auf Kundenwunsch",
           "preis_input_1m_eur": null,
           "preis_output_1m_eur": null,
+          "preis_status": "kein_oeffentlicher_preis",
           "quelle": "https://www.deepl.com/en/pro#api",
           "status": "belegt",
           "anmerkung": "Individuelle Preise mit vorab gekauften Kontingenten; Admin-API, Audit-Logs 2 Jahre"
@@ -558,24 +562,31 @@
           "standort": "Wien (AT), Genf (CH), Frankfurt (DE), Zagreb (HR)",
           "preis_input_1m_eur": null,
           "preis_output_1m_eur": null,
+          "preis_einheit": "GPU-Stunde",
+          "preis_ab_eur": 1.34,
           "quelle": "https://www.exoscale.com/ai-cloud-infrastructure/dedicated-inference/",
+          "geprueft": "2026-09-06",
           "status": "belegt",
-          "anmerkung": "Kein Tokenpreis: Abrechnung pro GPU-Sekunde (z.B. A5000 1,34 €/h); beliebige Hugging-Face-Modelle deploybar"
+          "anmerkung": "Kein Tokenpreis: Dedicated Inference kostet nichts extra, abgerechnet wird die GPU-Zeit sekundengenau. 1,34 € = GPUA5000 small (1,34028 €/h) laut Preis-API portal.exoscale.com/api/pricing/opencompute, abgerufen 06.09.2026 (Archivkopie belege/preise/exoscale/). Günstigste GPU-Instanz insgesamt: RTX 3080 Ti small 0,92 €/h; ob sie für Dedicated Inference zugelassen ist, ist nicht dokumentiert. Beliebige Hugging-Face-Modelle deploybar."
         },
         {
           "name": "Qwen3-Coder-480B (Dedicated Inference)",
           "standort": "Wien (AT), Genf (CH), Frankfurt (DE), Zagreb (HR)",
           "preis_input_1m_eur": null,
           "preis_output_1m_eur": null,
+          "preis_einheit": "GPU-Stunde",
+          "preis_ab_eur": 1.34,
           "quelle": "https://www.exoscale.com/ai-cloud-infrastructure/dedicated-inference/",
+          "geprueft": "2026-09-06",
           "status": "belegt",
-          "anmerkung": "Kein Tokenpreis, GPU-Sekundenabrechnung"
+          "anmerkung": "Kein Tokenpreis, GPU-Sekundenabrechnung; Preis siehe Anmerkung beim ersten Modell."
         },
         {
           "name": "Managed Inference (Modellkatalog)",
           "standort": "EU und Schweiz (geplant)",
           "preis_input_1m_eur": null,
           "preis_output_1m_eur": null,
+          "preis_status": "kein_oeffentlicher_preis",
           "quelle": "https://www.exoscale.com/ai-cloud-infrastructure/managed-inference/",
           "status": "beansprucht",
           "anmerkung": "Pay-per-Token-Dienst angekündigt (Warteliste); Preise werden erst zum Launch veröffentlicht"
@@ -656,7 +667,7 @@
       "geprueft": "2026-08-19",
       "url": "https://belegbar.eu/anbieter/exoscale/",
       "beleg_quote_prozent": 67,
-      "zuletzt_geprueft": "2026-08-19",
+      "zuletzt_geprueft": "2026-09-06",
       "rechtsraum": {
         "land": "CH",
         "name": "Schweiz",
@@ -686,6 +697,7 @@
           "standort": "wählbar (Multi-Region, bis zu 6 Regionen pro Deployment)",
           "preis_input_1m_eur": null,
           "preis_output_1m_eur": null,
+          "preis_status": "kein_oeffentlicher_preis",
           "quelle": "https://gcore.com/everywhere-inference/whisper-large-v3-turbo",
           "status": "belegt",
           "anmerkung": "Feste monatliche GPU-Miete statt Minutenpreis; konkrete Raten nicht öffentlich"
@@ -968,8 +980,8 @@
         {
           "name": "Qwen3.6-35B-A3B-FP8 (experimentell)",
           "standort": null,
-          "preis_input_1m_eur": null,
-          "preis_output_1m_eur": null,
+          "preis_input_1m_eur": 0,
+          "preis_output_1m_eur": 0,
           "quelle": "https://docs.hetzner.com/general/company-and-policy/experiments/inference/",
           "status": "belegt",
           "anmerkung": "Einziges Modell der experimentellen Inference-API; kostenlos, 'as is', ohne Verfügbarkeitsgarantie; RZ-Standort der Instanz nicht spezifiziert (Hetzner-RZ: Nürnberg, Falkenstein, Helsinki)."
@@ -2370,6 +2382,7 @@
           "standort": "Frankfurt/EU (AWS Bedrock)",
           "preis_input_1m_eur": null,
           "preis_output_1m_eur": null,
+          "preis_status": "kein_oeffentlicher_preis",
           "quelle": "https://docs.requesty.ai/features/eu-routing",
           "status": "beansprucht",
           "anmerkung": "Pass-through + 5% Markup; öffentliche Preisliste nur hinter Login"

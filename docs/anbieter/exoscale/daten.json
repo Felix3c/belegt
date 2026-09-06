@@ -17,24 +17,31 @@
       "standort": "Wien (AT), Genf (CH), Frankfurt (DE), Zagreb (HR)",
       "preis_input_1m_eur": null,
       "preis_output_1m_eur": null,
+      "preis_einheit": "GPU-Stunde",
+      "preis_ab_eur": 1.34,
       "quelle": "https://www.exoscale.com/ai-cloud-infrastructure/dedicated-inference/",
+      "geprueft": "2026-09-06",
       "status": "belegt",
-      "anmerkung": "Kein Tokenpreis: Abrechnung pro GPU-Sekunde (z.B. A5000 1,34 €/h); beliebige Hugging-Face-Modelle deploybar"
+      "anmerkung": "Kein Tokenpreis: Dedicated Inference kostet nichts extra, abgerechnet wird die GPU-Zeit sekundengenau. 1,34 € = GPUA5000 small (1,34028 €/h) laut Preis-API portal.exoscale.com/api/pricing/opencompute, abgerufen 06.09.2026 (Archivkopie belege/preise/exoscale/). Günstigste GPU-Instanz insgesamt: RTX 3080 Ti small 0,92 €/h; ob sie für Dedicated Inference zugelassen ist, ist nicht dokumentiert. Beliebige Hugging-Face-Modelle deploybar."
     },
     {
       "name": "Qwen3-Coder-480B (Dedicated Inference)",
       "standort": "Wien (AT), Genf (CH), Frankfurt (DE), Zagreb (HR)",
       "preis_input_1m_eur": null,
       "preis_output_1m_eur": null,
+      "preis_einheit": "GPU-Stunde",
+      "preis_ab_eur": 1.34,
       "quelle": "https://www.exoscale.com/ai-cloud-infrastructure/dedicated-inference/",
+      "geprueft": "2026-09-06",
       "status": "belegt",
-      "anmerkung": "Kein Tokenpreis, GPU-Sekundenabrechnung"
+      "anmerkung": "Kein Tokenpreis, GPU-Sekundenabrechnung; Preis siehe Anmerkung beim ersten Modell."
     },
     {
       "name": "Managed Inference (Modellkatalog)",
       "standort": "EU und Schweiz (geplant)",
       "preis_input_1m_eur": null,
       "preis_output_1m_eur": null,
+      "preis_status": "kein_oeffentlicher_preis",
       "quelle": "https://www.exoscale.com/ai-cloud-infrastructure/managed-inference/",
       "status": "beansprucht",
       "anmerkung": "Pay-per-Token-Dienst angekündigt (Warteliste); Preise werden erst zum Launch veröffentlicht"
@@ -115,7 +122,7 @@
   "geprueft": "2026-08-19",
   "url": "https://belegbar.eu/anbieter/exoscale/",
   "beleg_quote_prozent": 67,
-  "zuletzt_geprueft": "2026-08-19",
+  "zuletzt_geprueft": "2026-09-06",
   "rechtsraum": {
     "land": "CH",
     "name": "Schweiz",

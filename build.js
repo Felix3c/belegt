@@ -9,6 +9,8 @@
 const fs = require("fs");
 const path = require("path");
 const A = require("./lib/aenderungen.js");
+const P = require("./lib/preise.js");
+const eur = P.eur;
 
 const ROOT = __dirname;
 const REPO_URL = "https://github.com/Felix3c/belegt";
@@ -113,14 +115,43 @@ function datumDE(iso) {
   return `${d}.${m}.${y}`;
 }
 
-function eur(n) {
-  if (n === null || n === undefined || isNaN(n)) return "–";
-  return n.toLocaleString("de-DE", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + " €";
-}
 
 function statusBadge(status) {
   const s = STATUS_LABEL[status] ? status : "unbelegt";
   return `<span class="status s-${s}"><span class="dot" aria-hidden="true"></span>${STATUS_LABEL[s]}</span>`;
+}
+
+/** Preisstufe „kein öffentlicher Preis“ als eigene Marke — sie ist belegt, aber keine Zahl. */
+function keinPreisBadge() {
+  return `<span class="preis-kein" title="Der Anbieter veröffentlicht für dieses Modell keinen Preis (Enterprise, auf Anfrage, hinter Login). Belegt über die Quelle.">${esc(P.KEIN_PREIS_LABEL)}</span>`;
+}
+
+/** Übersichtszelle: günstigster Preis eines Anbieters, je nach Preisart. */
+function preisZelle(g) {
+  if (!g) return "–";
+  if (g.art === "token") return "ab " + eur(g.wert);
+  if (g.art === "einheit") return `ab ${eur(g.wert)} <span class="klein">/ ${esc(g.einheit)}</span>`;
+  if (g.art === "kostenlos") return "kostenlos";
+  return keinPreisBadge();
+}
+
+/** Profil-Modelltabelle: die beiden Preisspalten plus Abrufdatum. */
+function preisZellen(m, p) {
+  const t = P.preisText(m);
+  const stand = P.preisStand(m, p);
+  const standHtml = stand ? `<span class="klein preis-stand">Stand ${datumDE(stand)}</span>` : "";
+  if (t.art === "token") return `<td class="num">${t.input}</td><td class="num">${t.output}${standHtml}</td>`;
+  if (t.art === "einheit") return `<td class="num" colspan="2">${esc(t.text)}${standHtml}</td>`;
+  if (t.art === "kostenlos") return `<td class="num" colspan="2">kostenlos${standHtml}</td>`;
+  if (t.art === P.KEIN_PREIS) return `<td class="num" colspan="2">${keinPreisBadge()}${standHtml}</td>`;
+  return `<td class="num" colspan="2"><span class="leer">unbelegt</span></td>`;
+}
+
+/** Klartext für llms-full.txt. */
+function preisZeileText(m) {
+  const t = P.preisText(m);
+  if (t.art === "token") return `Input: ${m.preis_input_1m_eur ?? "unbelegt"} | Output: ${m.preis_output_1m_eur ?? "unbelegt"}`;
+  return `Preis: ${t.text}`;
 }
 
 /** Verified-Stempel: nur wenn der Anbieter Nachweise eingereicht hat und wir sie geprüft haben. */
@@ -168,12 +199,6 @@ function belegQuote(p) {
   return total ? ok / total : 0;
 }
 
-function guenstigsterPreis(p) {
-  const preise = (p.modelle || [])
-    .map((m) => m.preis_input_1m_eur)
-    .filter((v) => typeof v === "number" && !isNaN(v));
-  return preise.length ? Math.min(...preise) : null;
-}
 
 function zertifikateBelegt(p) {
   return (p.zertifikate || []).filter((z) => z.status === "belegt").map((z) => z.typ);
@@ -344,14 +369,14 @@ function seiteIndex(providers, stand, aenderungen) {
   const zeilen = providers
     .map((p) => {
       const quote = Math.round(belegQuote(p) * 100);
-      const preis = guenstigsterPreis(p);
+      const preis = P.guenstigsterPreis(p);
       const zerts = zertifikateBelegt(p);
       const optOut = p.vertrag && p.vertrag.training_opt_out;
       return `<tr data-land="${esc(p.stammdaten.land)}" data-kategorie="${esc(p.kategorie)}" data-avv="${p.vertrag && p.vertrag.avv && p.vertrag.avv.status === "belegt" ? "1" : "0"}" data-name="${esc(p.name.toLowerCase())}">
         <td><a href="anbieter/${esc(p.id)}/">${esc(p.name)}</a>${verifiedMini(p)}<span class="klein">${esc(p.stammdaten.sitz || "")}</span></td>
         <td>${esc(p.stammdaten.land)}</td>
         <td>${esc(KATEGORIE_LABEL[p.kategorie] || p.kategorie)}</td>
-        <td class="num">${preis === null ? "–" : "ab " + eur(preis)}</td>
+        <td class="num">${preisZelle(preis)}</td>
         <td>${zerts.length ? zerts.map((z) => `<span class="zert">${esc(z)}</span>`).join(" ") : '<span class="leer">–</span>'}</td>
         <td>${optOut && optOut.wert === true ? statusBadge(optOut.status) : optOut && optOut.wert === false ? '<span class="warnung">trainiert mit Daten</span>' : '<span class="leer">unbelegt</span>'}</td>
         <td class="num"><span class="quote">${quote}&nbsp;%</span></td>
@@ -463,8 +488,7 @@ function seiteAnbieter(p, alleProvider, facetten, faelle) {
     .map((m) => `<tr>
       <td>${esc(m.name)}</td>
       <td>${m.standort ? esc(m.standort) : '<span class="leer">unbelegt</span>'}</td>
-      <td class="num">${eur(m.preis_input_1m_eur)}</td>
-      <td class="num">${eur(m.preis_output_1m_eur)}</td>
+      ${preisZellen(m, p)}
       <td>${statusBadge(m.status)} ${m.quelle ? `<a class="klein" href="${esc(m.quelle)}" rel="noopener nofollow" target="_blank">Quelle</a>` : ""}${m.anmerkung ? `<span class="klein">${esc(m.anmerkung)}</span>` : ""}</td>
     </tr>`)
     .join("\n");
@@ -582,7 +606,7 @@ function seiteVergleich(a, b) {
     return `${wert} ${statusBadge(f.status)}`;
   };
   const zerts = (p) => zertifikateBelegt(p).map((z) => `<span class="zert">${esc(z)}</span>`).join(" ") || '<span class="leer">keine belegt</span>';
-  const preis = (p) => { const v = guenstigsterPreis(p); return v === null ? "–" : "ab " + eur(v) + " / 1M Input"; };
+  const preis = (p) => P.preisKurz(p);
 
   const inhalt = `
 <nav class="brotkrumen" aria-label="Pfad"><a href="../../">Anbieter</a> / <a href="../">Vergleiche</a> / ${esc(a.name)} vs. ${esc(b.name)}</nav>
@@ -813,6 +837,10 @@ function seiteMethodik() {
 ${belegZeile("belegt", "Die Angabe ist durch ein Primärdokument oder eine offizielle, konkrete Anbieterseite nachgewiesen — Vertragsdokument, Audit-Zertifikat, Preisliste, Subprozessorenliste. Die Quelle ist direkt verlinkt.", { status: "belegt" }, null)}
 ${belegZeile("beansprucht", "Der Anbieter behauptet die Eigenschaft auf Marketing-Seiten, wir haben aber kein prüfbares Dokument gefunden. Das ist kein Vorwurf — aber ein Unterschied, den Einkäufer und Datenschutzbeauftragte kennen sollten.", { status: "beansprucht" }, null)}
 ${belegZeile("unbelegt", "Wir haben keine belastbare Angabe gefunden. Auch das ist eine Information: Ein Anbieter, dessen AVV nicht auffindbar ist, macht Ihnen die Compliance-Arbeit schwer.", { status: "unbelegt" }, null)}
+
+<h2 id="preise">Preise: eine vierte Stufe</h2>
+<p>Preise tragen dieselben drei Status wie jede andere Angabe. Dazu kommt eine vierte, die es nur bei Preisen gibt: <span class="preis-kein">kein öffentlicher Preis</span>. Sie steht dort, wo der Anbieter für ein Modell nachweislich keinen Preis veröffentlicht — Enterprise-Vertrieb, „auf Anfrage“, Preisliste erst nach Login, oder noch nicht veröffentlicht. Das ist keine Lücke in unseren Daten, sondern eine Eigenschaft des Angebots, und sie ist über die verlinkte Quelle belegt. „unbelegt“ heißt dagegen: Wir haben keinen Preis gefunden; der Anbieter könnte einen veröffentlicht haben.</p>
+<p>Wo nicht je Token abgerechnet wird, nennen wir die Einheit des Anbieters (GPU-Stunde, Bild, Minute, Monat) und den niedrigsten Wert („ab“). Preise verschiedener Einheiten vergleichen wir nicht. Jeder Preis trägt sein Abrufdatum; Archivkopien der Preisseiten liegen im <a href="https://github.com/Felix3c/belegt/tree/main/belege/preise" rel="noopener" target="_blank">Repository</a>.</p>
 
 <h2>Beleg-Quote</h2>
 <p>Die Beleg-Quote eines Anbieters ist der Anteil seiner erfassten Angaben mit Status „belegt“. Sie misst <em>Nachweisbarkeit, nicht Qualität</em> — ein junger Anbieter mit ehrlicher Dokumentation kann eine höhere Quote haben als ein Konzern mit verstreuten PDFs.</p>
@@ -1279,9 +1307,9 @@ function llmsFull(providers, guides, fragen, stand) {
         ? (p.ai_act || []).map((a) => `- ${a.pflicht} [Status: ${a.status}]${a.quelle ? " | Quelle: " + a.quelle : ""}${a.anmerkung ? " | Anmerkung: " + a.anmerkung : ""}`).join("\n")
         : "- keine erfasst",
       "",
-      "Modelle und Preise (EUR je 1 Mio. Token):",
+      "Modelle und Preise (EUR je 1 Mio. Token, sofern keine andere Einheit genannt; „kein öffentlicher Preis“ = der Anbieter veröffentlicht keinen):",
       (p.modelle || []).length
-        ? (p.modelle || []).map((m) => `- ${m.name} | Hosting: ${m.standort || "unbelegt"} | Input: ${m.preis_input_1m_eur === null || m.preis_input_1m_eur === undefined ? "unbelegt" : m.preis_input_1m_eur} | Output: ${m.preis_output_1m_eur === null || m.preis_output_1m_eur === undefined ? "unbelegt" : m.preis_output_1m_eur} [Status: ${m.status}]${m.quelle ? " | Quelle: " + m.quelle : ""}${m.anmerkung ? " | Anmerkung: " + m.anmerkung : ""}`).join("\n")
+        ? (p.modelle || []).map((m) => `- ${m.name} | Hosting: ${m.standort || "unbelegt"} | ${preisZeileText(m)} | Preis-Stand: ${P.preisStand(m, p) || "unbekannt"} [Status: ${m.status}]${m.quelle ? " | Quelle: " + m.quelle : ""}${m.anmerkung ? " | Anmerkung: " + m.anmerkung : ""}`).join("\n")
         : "- keine erfasst",
     ].filter((z) => z !== null).join("\n");
   }).join("\n\n");

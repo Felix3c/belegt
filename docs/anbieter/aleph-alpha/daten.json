@@ -17,6 +17,7 @@
       "standort": null,
       "preis_input_1m_eur": null,
       "preis_output_1m_eur": null,
+      "preis_status": "kein_oeffentlicher_preis",
       "quelle": "https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control",
       "status": "belegt",
       "anmerkung": "Modellkarte öffentlich; keine öffentlichen API-Tokenpreise — Vertrieb über Enterprise-Verträge und Self-Hosting, Preise auf Anfrage."
@@ -26,6 +27,7 @@
       "standort": null,
       "preis_input_1m_eur": null,
       "preis_output_1m_eur": null,
+      "preis_status": "kein_oeffentlicher_preis",
       "quelle": "https://huggingface.co/Aleph-Alpha/Pharia-1-Embedding-4608-control",
       "status": "belegt",
       "anmerkung": "Keine öffentlichen Preise."
@@ -35,6 +37,7 @@
       "standort": null,
       "preis_input_1m_eur": null,
       "preis_output_1m_eur": null,
+      "preis_status": "kein_oeffentlicher_preis",
       "quelle": "https://aleph-alpha.com/",
       "status": "beansprucht",
       "anmerkung": "Website bewirbt domänenspezifische SLLMs auf europäischer Infrastruktur; keine öffentlichen Modellkarten oder Preise. PhariaAI-as-a-Service-Partnerschaft mit STACKIT beansprucht."
