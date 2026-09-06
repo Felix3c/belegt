@@ -106,6 +106,10 @@
     {
       "datum": "2026-09-04",
       "ereignis": "Dem Anbieter geantwortet (23:24 UTC, von Felix Lind persönlich an Thibault Jaigu, ohne KI-Entwurf): Bestätigung, dass ein Mensch schreibt; Hinweis, dass allein der Satz „never stored“ auf der DPA-Seite offen ist und eine Zeile dazu genügt. Text in outreach/mails/10-requesty-felix-persoenlich.md. Keine neue Frist."
+    },
+    {
+      "datum": "2026-09-06",
+      "ereignis": "Postfach geprüft (11:05 UTC): keine Antwort des Anbieters auf die Mail vom 04.09. DPA-Seite erneut abgerufen (11:05 UTC): byte-identisch mit dem Abruf vom 04.09. (Rohkopie belege/faelle/2026-001/dpa-2026-09-06.html, SHA-256 6c3cab7ac15d182d3865710f824a746be6356e19731c7f2dcd0fe5867a1f897a), der Satz „request and response bodies are never stored“ steht weiterhin ohne Einschränkung. Snapshot: https://web.archive.org/web/20260906110722/https://www.requesty.ai/dpa. Status bleibt „beantwortet“; Frist 08.09.2026 läuft."
     }
   ]
 }
