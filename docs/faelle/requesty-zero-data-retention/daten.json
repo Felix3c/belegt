@@ -1,0 +1,118 @@
+{
+  "id": "2026-001",
+  "slug": "requesty-zero-data-retention",
+  "anbieter": "requesty",
+  "feld": "vertrag.zero_data_retention",
+  "titel": "Requesty: „never stored“ — und 30 Tage Logging als Standard",
+  "kurz": "Die DPA- und Security-Seiten von Requesty sagen ohne Einschränkung, Anfrage- und Antwortinhalte würden „never stored“. Dieselben Seiten sagen im Kleingedruckten: Auf Self-Serve-Tarifen ist das Logging von Prompts und Ausgaben standardmäßig an, Aufbewahrung 30 Tage. Beide Aussagen können nicht zugleich für den Standardfall gelten.",
+  "eroeffnet": "2026-08-25",
+  "status": "beantwortet",
+  "anbieter_informiert": "2026-08-25",
+  "antwort_frist": "2026-09-08",
+  "behauptung": [
+    {
+      "zitat": "requests on the EU gateway are processed in Frankfurt, request and response bodies are never stored, and EU-region deployments of Claude, GPT, Gemini and Mistral keep the full request path inside the European Union.",
+      "quelle": "https://www.requesty.ai/dpa",
+      "kontext": "DPA-Seite, Absatz zur Frage, warum sich der DPA leicht freigeben lasse. Keine Einschränkung auf einen Tarif oder eine Konfiguration.",
+      "abgerufen": "2026-08-25T15:25:50Z",
+      "sha256": "32ddc01cb6657896bfe89d9c9426bb7d31de25c12ced46289ee16e61071ff4c9",
+      "archiv": "https://web.archive.org/web/20260825152721/https://www.requesty.ai/dpa"
+    },
+    {
+      "zitat": "Your data flows through our gateway, and with zero data retention it is never stored […] Requesty Gateway Frankfurt, EU — No data stored",
+      "quelle": "https://www.requesty.ai/security",
+      "kontext": "Security-Seite, Architektur-Diagramm „Secure Architecture“. Das Diagramm beschriftet den Gateway-Knoten mit „No data stored“; die Einschränkung „with zero data retention“ steht im Fließtext daneben.",
+      "abgerufen": "2026-08-25T15:25:50Z",
+      "sha256": "bf3acf8d8572c030719661d3b01c927887bc53a62da4dd1fc0fec7ff73402784",
+      "archiv": "https://web.archive.org/web/20260825152830/https://www.requesty.ai/security"
+    }
+  ],
+  "beleg": [
+    {
+      "zitat": "prompt and output logging is on by default on self serve plans with a 30 day retention window, it can be disabled per API key, and organisation wide Zero Data Retention is available on written request.",
+      "quelle": "https://www.requesty.ai/dpa",
+      "kontext": "Dieselbe DPA-Seite, Abschnitt zu den Logging-Optionen des DPA.",
+      "abgerufen": "2026-08-25T15:25:50Z",
+      "sha256": "32ddc01cb6657896bfe89d9c9426bb7d31de25c12ced46289ee16e61071ff4c9",
+      "archiv": "https://web.archive.org/web/20260825152721/https://www.requesty.ai/dpa"
+    },
+    {
+      "zitat": "Do you retain my prompts or completions? On self serve plans, prompt and output logging is enabled by default and retained for up to 30 days in encrypted form within the EU, and you can disable it per API key",
+      "quelle": "https://www.requesty.ai/security",
+      "kontext": "Security-Seite, FAQ-Abschnitt.",
+      "abgerufen": "2026-08-25T15:25:50Z",
+      "sha256": "bf3acf8d8572c030719661d3b01c927887bc53a62da4dd1fc0fec7ff73402784",
+      "archiv": "https://web.archive.org/web/20260825152830/https://www.requesty.ai/security"
+    },
+    {
+      "zitat": "When logging is enabled, data is stored encrypted within the EU for up to 30 days.",
+      "quelle": "https://www.requesty.ai/privacy",
+      "kontext": "Privacy Policy.",
+      "abgerufen": "2026-08-25T15:25:50Z",
+      "sha256": "38b3dd0b1f2d4898908c7f3e3b808874dcbf8f76f38a02ded380f061e5f8ff6b",
+      "archiv": "https://web.archive.org/web/20260825152843/https://www.requesty.ai/privacy"
+    }
+  ],
+  "widerspruch": "Die Aussage „request and response bodies are never stored“ steht auf der DPA-Seite ohne Vorbehalt — an der Stelle, an der ein Datenschutzbeauftragter entscheidet, ob der Vertrag freigegeben werden kann. Nach den eigenen Angaben von Requesty gilt sie aber nur, wenn Zero Data Retention aktiv ist: pro API-Schlüssel abgeschaltet oder organisationsweit auf schriftlichen Antrag. Im Standardfall (Self-Serve, nichts umgestellt) werden Prompts und Ausgaben 30 Tage lang gespeichert. Wer nur die Überschrift liest, trifft seine Entscheidung auf einer Annahme, die für ihn nicht zutrifft.",
+  "was_es_nicht_heisst": "Dies ist kein Vorwurf der Täuschung. Requesty dokumentiert die 30-Tage-Speicherung an drei Stellen offen, nennt die Verschlüsselung und den EU-Speicherort, und bietet Zero Data Retention tatsächlich an. Der Fall betrifft ausschließlich die unqualifizierte Formulierung an prominenter Stelle. Ob eine 30-tägige verschlüsselte Speicherung in der EU für einen konkreten Einsatz ein Problem ist, bewerten wir nicht — das ist eine Entscheidung des Kunden.",
+  "aufloesung": [
+    "Requesty qualifiziert die Aussage auf DPA- und Security-Seite (z. B. „never stored when Zero Data Retention is enabled; on self-serve plans logging is on by default for 30 days“). Dann ist der Widerspruch ausgeräumt.",
+    "Requesty macht Zero Data Retention zum Standard für alle Tarife und belegt das. Dann ist die Aussage richtig und der Widerspruch ausgeräumt.",
+    "Requesty legt dar, warum beide Aussagen zugleich zutreffen. Wir veröffentlichen die Erklärung wörtlich und prüfen sie."
+  ],
+  "antworten": [
+    {
+      "datum": "2026-08-25",
+      "von": "Thibault Jaigu, Co-Founder Requesty (per E-Mail, 16:10 UTC)",
+      "text": "Hi Felix,\n\nIs this written by an AI agent? Please ensure a human reviews this before breaking rules such as publicly providing our DPA information which is for customers only.\n\nI would highly advise getting in touch with providers before publishing anything based on assumptions and especially using AI to do the writing for you.\n\nI'll be at your disposal if you want accurate information.\n\nThanks\n\nThibault Jaigu\nCo-Founder | Requesty",
+      "anmerkung": "Wörtlich und ungekürzt. Die Antwort ging 26 Minuten nach unserer E-Mail ein, wurde von uns aber erst am 28.08.2026 gelesen — der Fall war am Abend des 25.08. bereits veröffentlicht. Zur Sache: Die Seite requesty.ai/dpa ist ohne Anmeldung öffentlich abrufbar, robots.txt und Meta-Tags erlauben die Indexierung, das Internet Archive hält eine Kopie vom 25.08.; beide zitierten Sätze stehen am 28.08. unverändert auf der Seite. Unsere E-Mail wurde mit KI-Unterstützung entworfen, von Felix Lind geprüft und gesendet; jedes Zitat wurde von Hand gegen die Seite geprüft."
+    },
+    {
+      "datum": "2026-09-02",
+      "von": "Thibault Jaigu, Co-Founder Requesty (per E-Mail an hallo@belegbar.eu, 18:52 UTC)",
+      "text": "Is this an AI agent?\n\nI have a hard time understanding what this emails mean.\nWe have over 1000 customers and never seen anything like this\n\nThibault Jaigu\nCo-Founder | Requesty",
+      "anmerkung": "Wörtlich und ungekürzt; weggelassen ist nur das Zitat unserer E-Mail unter der Antwort. Die Antwort ging drei Minuten nach unserem Nachfassen vom 02.09. (18:49 UTC) ein und wurde von uns erst am 04.09. (23:00 UTC) gelesen — zum zweiten Mal in diesem Fall ein Verzug von drei Tagen auf unserer Seite. Zur Sache: Die Antwort enthält keine Aussage zum Satz auf der DPA-Seite, kein Dokument und keine angekündigte Änderung. Zur Frage: Unsere E-Mails vom 25.08., 28.08. und 02.09. wurden mit KI-Unterstützung entworfen und von Felix Lind geprüft und gesendet; diese Frage beantwortet Felix Lind persönlich. Der Status bleibt „beantwortet“, weil die Antwort den Widerspruch weder ausräumt noch bestätigt; die Frist 08.09.2026 läuft."
+    }
+  ],
+  "verlauf": [
+    {
+      "datum": "2026-08-19",
+      "ereignis": "Widerspruch bei der Erstprüfung des Profils notiert; Feld Zero Data Retention als „beansprucht“ geführt."
+    },
+    {
+      "datum": "2026-08-25",
+      "ereignis": "Alle drei Seiten erneut abgerufen, Wortlaut unverändert. Inhalte per SHA-256 gesichert, alle drei Seiten im Internet Archive gespeichert. Fall eröffnet."
+    },
+    {
+      "datum": "2026-08-25",
+      "ereignis": "Anbieter per E-Mail (sales@requesty.ai) mit dem vollständigen Text des Falls informiert. Antwortfrist bis 08.09.2026."
+    },
+    {
+      "datum": "2026-08-28",
+      "ereignis": "Antwort des Anbieters vom 25.08. (16:10 UTC, 26 Minuten nach unserer E-Mail) erst heute gelesen — Fehler in unserem Ablauf: Der Fall war am Abend des 25.08. veröffentlicht worden, ohne die Antwort zu kennen. Antwort wörtlich eingetragen, Status auf „beantwortet“ gesetzt. DPA-Seite erneut abgerufen: öffentlich, Wortlaut unverändert."
+    },
+    {
+      "datum": "2026-09-02",
+      "ereignis": "DPA- und Security-Seite erneut abgerufen (17:37 UTC). DPA-Seite: Der Satz „request and response bodies are never stored“ steht unverändert und weiterhin ohne Einschränkung. Security-Seite: vollständig neu aufgebaut (Kopfzeile „compliance / status September 2026“). Das Diagramm „Secure Architecture“ mit der Beschriftung „No data stored“ und der Satz „with zero data retention it is never stored“ sind nicht mehr enthalten. Der Gateway-Knoten heißt jetzt „logged per your retention setting“, der Provider-Knoten „zero data retention terms when required“; die FAQ-Antwort lautet jetzt: „On self serve plans, prompt and output logging is on by default and retained for up to 30 days in encrypted form within the EU. You can turn it off per API key at any time. Organization-wide zero data retention, under which no prompt or output content is persisted and our own caching is disabled, is enabled on written request.“ Damit ist die Security-Seite qualifiziert (Auflösungsweg 1, eine der beiden Seiten); die DPA-Seite trägt die unqualifizierte Aussage weiter, der Widerspruch besteht dort fort. Zeitpunkt der Änderung: zwischen dem 01.09. (letzte Prüfung, beide Seiten unverändert) und dem 02.09.; das Internet Archive hält keinen Zwischenstand. Der Anbieter hat die Änderung nicht mitgeteilt. Neue Snapshots: https://web.archive.org/web/20260902173945/https://www.requesty.ai/security und https://web.archive.org/web/20260902174004/https://www.requesty.ai/dpa. Status bleibt „beantwortet“."
+    },
+    {
+      "datum": "2026-09-02",
+      "ereignis": "Nachfassen an den Anbieter gesendet (18:49 UTC, an Thibault Jaigu, Kopie sales@requesty.ai): Änderung der Security-Seite als erfüllten Teil von Auflösungsweg 1 benannt, auf den unveränderten Satz der DPA-Seite hingewiesen, an die Frist 08.09.2026 erinnert. Keine neue Frist."
+    },
+    {
+      "datum": "2026-09-04",
+      "ereignis": "Zweite Antwort des Anbieters vom 02.09. (18:52 UTC, drei Minuten nach unserem Nachfassen) erst heute (23:00 UTC) gelesen — zum zweiten Mal ein Verzug von drei Tagen in unserem Ablauf. Regel ab heute: Vor jeder Arbeit an einem Fall zuerst das Postfach. Die Antwort fragt erneut, ob ein KI-Agent schreibe, und enthält keine Aussage zur Sache; wörtlich eingetragen. DPA-Seite erneut abgerufen (23:14 UTC): Der Satz „request and response bodies are never stored“ steht unverändert und ohne Einschränkung, daneben unverändert „prompt and output logging is on by default on self serve plans with a 30 day retention window“. Rohkopie: belege/faelle/2026-001/dpa-2026-09-04.html (SHA-256 6c3cab7ac15d182d3865710f824a746be6356e19731c7f2dcd0fe5867a1f897a). Speicherung im Internet Archive zweimal fehlgeschlagen (HTTP 520); letzter Snapshot bleibt der vom 02.09. Status bleibt „beantwortet“; Frist 08.09.2026 läuft."
+    },
+    {
+      "datum": "2026-09-04",
+      "ereignis": "Dem Anbieter geantwortet (23:24 UTC, von Felix Lind persönlich an Thibault Jaigu, ohne KI-Entwurf): Bestätigung, dass ein Mensch schreibt; Hinweis, dass allein der Satz „never stored“ auf der DPA-Seite offen ist und eine Zeile dazu genügt. Text in outreach/mails/10-requesty-felix-persoenlich.md. Keine neue Frist."
+    },
+    {
+      "datum": "2026-09-06",
+      "ereignis": "Postfach geprüft (11:05 UTC): keine Antwort des Anbieters auf die Mail vom 04.09. DPA-Seite erneut abgerufen (11:05 UTC): byte-identisch mit dem Abruf vom 04.09. (Rohkopie belege/faelle/2026-001/dpa-2026-09-06.html, SHA-256 6c3cab7ac15d182d3865710f824a746be6356e19731c7f2dcd0fe5867a1f897a), der Satz „request and response bodies are never stored“ steht weiterhin ohne Einschränkung. Snapshot: https://web.archive.org/web/20260906110722/https://www.requesty.ai/dpa. Status bleibt „beantwortet“; Frist 08.09.2026 läuft."
+    }
+  ],
+  "url": "https://belegbar.eu/faelle/requesty-zero-data-retention/",
+  "lizenz": "CC BY 4.0",
+  "stand": "2026-09-06"
+}

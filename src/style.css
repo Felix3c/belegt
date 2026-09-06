@@ -227,3 +227,11 @@ th.num { text-align: right; }
 .aenderung { padding: .7rem 0; border-top: 1px solid var(--linie); }
 .aenderung-kopf { margin: 0 0 .25rem; }
 .aenderung-grund { margin: 0 0 .25rem; color: var(--tinte-soft); }
+
+/* Zitier-Box auf Profil- und Fallseiten: markierbarer Text, Kopierknopf nur mit Script. */
+.zitat { margin: 1.5rem 0; padding: 0.9rem 1rem; border: 1px solid var(--linie, #d9d4c7); border-left: 4px solid var(--tinte-blass, #8a8577); background: var(--papier-hauch, #faf8f3); }
+.zitat h2 { margin: 0 0 0.4rem; font-size: 1rem; }
+.zitat pre { margin: 0.4rem 0; padding: 0.5rem 0.7rem; white-space: pre-wrap; word-break: break-word; font-family: "IBM Plex Mono", Consolas, monospace; font-size: 13px; background: transparent; border: 1px dashed var(--tinte-blass, #8a8577); user-select: all; }
+.zitat button { font: inherit; font-size: 13px; padding: 3px 10px; border: 1px solid var(--tinte, #2b2925); background: transparent; color: inherit; border-radius: 3px; cursor: pointer; }
+.zitat button:hover { background: var(--tinte, #2b2925); color: #fff; }
+.zitat .klein { display: block; margin-top: 0.4rem; }
