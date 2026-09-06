@@ -10,6 +10,7 @@ const fs = require("fs");
 const path = require("path");
 const A = require("./lib/aenderungen.js");
 const P = require("./lib/preise.js");
+const Z = require("./lib/zitat.js");
 const eur = P.eur;
 
 const ROOT = __dirname;
@@ -154,6 +155,18 @@ function preisZellen(m, p) {
   if (t.art === "kostenlos") return `<td class="num" colspan="2">kostenlos${standHtml}</td>`;
   if (t.art === P.KEIN_PREIS) return `<td class="num" colspan="2">${keinPreisBadge()}${standHtml}</td>`;
   return `<td class="num" colspan="2"><span class="leer">unbelegt</span></td>`;
+}
+
+/** Zitier-Box: markierbarer Zitiertext, Permalink, Rohdaten-Link, Kopierknopf nur mit Script. */
+function zitierBox(text, rohdatenHref, rohdatenLabel) {
+  const id = "zitat-" + require("crypto").createHash("sha256").update(text).digest("hex").slice(0, 8);
+  return `<aside class="zitat" aria-labelledby="${id}-h">
+  <h2 id="${id}-h">Zitieren</h2>
+  <pre id="${id}">${esc(text)}</pre>
+  <button type="button" hidden data-kopiere="${id}">Zitat kopieren</button>
+  <span class="klein">Rohdaten mit Quellen: <a href="${esc(rohdatenHref)}">${esc(rohdatenLabel)}</a> · Das Datum im Zitat ist der Stand dieser Seite, nicht der des Anbieters.</span>
+  <script>(function(){var b=document.querySelector('[data-kopiere="${id}"]');if(!b||!navigator.clipboard)return;b.hidden=false;b.addEventListener("click",function(){navigator.clipboard.writeText(document.getElementById("${id}").textContent).then(function(){b.textContent="Kopiert";setTimeout(function(){b.textContent="Zitat kopieren";},1500);});});})();</script>
+</aside>`;
 }
 
 /** Klartext für llms-full.txt. */
@@ -370,7 +383,7 @@ ${inhalt}
   <div class="shell">
     <p><strong>belegbar.eu</strong> — ${esc(SITE.claim)}</p>
     <p>Statusstufen: <span class="status s-belegt"><span class="dot"></span>belegt</span> = Primärquelle verlinkt · <span class="status s-beansprucht"><span class="dot"></span>beansprucht</span> = Anbieterangabe ohne Dokument · <span class="status s-unbelegt"><span class="dot"></span>unbelegt</span> = keine belastbare Angabe gefunden. Details in der <a href="${rel}methodik/">Methodik</a>.</p>
-    <p>Keine Rechtsberatung. Fehler gefunden? <a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a> · <a href="${rel}ueber/">Impressum &amp; Über</a></p>
+    <p>Keine Rechtsberatung. Fehler gefunden? <a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a> · <a href="${rel}fuer-anbieter/">Für Anbieter</a> · <a href="${rel}ueber/">Impressum &amp; Über</a></p>
   </div>
 </footer>
 </body>
@@ -584,9 +597,9 @@ ${eigeneFaelle.map((f) => `  <aside class="fall-hinweis fall-${esc(f.status)}"><
 
   <footer class="dossier-fuss">
     <p>Vollständig geprüft am ${datumDE(p.geprueft)}${juengstesDatum(p) !== p.geprueft ? `, einzelne Angaben zuletzt am ${datumDE(juengstesDatum(p))} nachgeprüft` : ""}. Alle Angaben ohne Gewähr, keine Rechtsberatung.</p>
-    <p class="klein">Zitieren als: „${esc(p.name)} — Beleg-Check“, belegbar.eu, Stand ${datumDE(juengstesDatum(p))}, ${SITE.baseUrl}/anbieter/${esc(p.id)}/ · Rohdaten dieses Profils (JSON, mit Quellen): <a href="daten.json">daten.json</a></p>
-    <p><strong>Sie arbeiten bei ${esc(p.name)}?</strong> Schicken Sie uns fehlende Nachweise und erhalten Sie den Verified-Status — kostenlos, <a href="../../methodik/#verified">so funktioniert es</a>: <a href="mailto:${SITE.kontakt}?subject=Verifizierung%20${encodeURIComponent(p.name)}">${SITE.kontakt}</a></p>
+    <p><strong>Sie arbeiten bei ${esc(p.name)}?</strong> Belege nachreichen, einen Fall beantworten oder den Verified-Stempel beantragen: <a href="../../fuer-anbieter/">Für Anbieter</a> — kostenlos, ohne Gegenleistung. Mail an <a href="mailto:${SITE.kontakt}?subject=Verifizierung%20${encodeURIComponent(p.name)}">${SITE.kontakt}</a>.</p>
   </footer>
+  ${zitierBox(Z.zitatProfil(p, juengstesDatum(p), SITE.baseUrl), "daten.json", "daten.json dieses Profils")}
 </article>`;
 
   const jsonld = {
@@ -757,9 +770,9 @@ ${f.verlauf.map((v) => `<tr><td class="datum">${datumDE(v.datum)}</td><td>${esc(
 
 <footer class="dossier-fuss">
   <p>Status <strong>${esc(st.label)}</strong>: ${esc(st.text)}. Ein Fall wird nie gelöscht — auch ein ausgeräumter Fall bleibt mit seinem Verlauf stehen. Was ein Fall ist und was nicht: <a href="../../methodik/#faelle">Methodik</a>.</p>
-  <p class="klein">Zitieren als: „Fall ${esc(f.id)} — ${esc(f.titel)}“, belegbar.eu, Stand ${datumDE(stand)}, ${SITE.baseUrl}/faelle/${esc(f.slug)}/ · Lizenz CC BY 4.0</p>
-  <p><strong>Sie arbeiten bei ${esc(provider.name)}?</strong> Antworten Sie an <a href="mailto:${SITE.kontakt}?subject=Fall%20${encodeURIComponent(f.id)}%20${encodeURIComponent(provider.name)}">${SITE.kontakt}</a> — Ihre Antwort erscheint wörtlich auf dieser Seite.</p>
+  <p><strong>Sie arbeiten bei ${esc(provider.name)}?</strong> Antworten Sie an <a href="mailto:${SITE.kontakt}?subject=Fall%20${encodeURIComponent(f.id)}%20${encodeURIComponent(provider.name)}">${SITE.kontakt}</a> — Ihre Antwort erscheint wörtlich auf dieser Seite. Was Sie sonst tun können: <a href="../../fuer-anbieter/">Für Anbieter</a>.</p>
 </footer>
+${zitierBox(Z.zitatFall(f, stand, SITE.baseUrl, st.label), "daten.json", "daten.json dieses Falls (Zitate, Hashes, Snapshots, Verlauf)")}
 </article>`;
   const jsonld = [
     {
@@ -847,6 +860,44 @@ ${gruppen.filter((e) => e.datum === t).map(zeile).join("\n")}
   });
 }
 
+function seiteFuerAnbieter() {
+  const inhalt = `
+<article class="artikel">
+<h1>Für Anbieter: Belege nachreichen, Fälle beantworten, Verified beantragen</h1>
+<p>Diese Datenbank listet Sie, ob Sie mitwirken oder nicht: Gelistet wird, wer für europäische Käufer relevant ist, mit dem, was öffentlich belegbar ist. Mitwirken lohnt sich trotzdem — nicht, weil es ein Ranking gäbe, sondern weil jede Angabe, die Sie belegen, mit Datum und Quelle im Profil steht und im <a href="../aenderungen/">Änderungsprotokoll</a> erscheint. Drei Wege, alle kostenlos, alle ohne Gegenleistung:</p>
+
+<h2 id="belege">1. Belege nachreichen</h2>
+<p>Steht eine Angabe in Ihrem Profil auf „beansprucht“ oder „unbelegt“, schicken Sie das Primärdokument an <a href="mailto:${SITE.kontakt}?subject=Beleg%20[Anbietername]">${SITE.kontakt}</a>, Betreff „Beleg [Anbietername]“. Als Beleg zählt, was auch sonst für „belegt“ gilt: Vertragsdokument, Zertifikat mit Auditor und Geltungsbereich, Subprozessorenliste, Policy-Dokument, Preisliste. Ein Link ist so gut wie ein PDF; eine Marketing-Seite ist kein Beleg.</p>
+<p><strong>Unsere Zusage:</strong> Wir prüfen binnen sieben Tagen nach Eingang. Was den Maßstab erfüllt, setzen wir auf „belegt“, mit Prüfdatum und verlinkter Quelle. Was ihn nicht erfüllt, bleibt, wie es ist, und Sie erfahren in einem Satz, warum. Jede Änderung steht datiert im Änderungsprotokoll, für jeden nachrechenbar.</p>
+
+<h2 id="fall">2. Einen Fall beantworten</h2>
+<p>Ein <a href="../faelle/">Fall</a> dokumentiert, dass zwei Ihrer öffentlichen Aussagen nicht zugleich wahr sein können. Sie erfahren davon vor der Veröffentlichung, mit dem vollständigen Text und 14 Tagen Frist. Ihre Antwort erscheint wörtlich und ungekürzt neben dem Fall. Ein Fall ist kein Pranger: Er ist so geschrieben, dass Sie ihn mit einer Korrektur ausräumen können, und ein ausgeräumter Fall zeigt, dass Sie innerhalb von Tagen reagiert haben — das ist eine der nützlichsten Informationen, die diese Datenbank über einen Anbieter enthält. Antworten Sie an ${SITE.kontakt} mit dem Betreff aus unserer Mail („Fall [Nummer] [Anbietername]“).</p>
+
+<h2 id="verified">3. Den Verified-Stempel beantragen</h2>
+<p>Der Stempel sagt nicht „geprüft gut“, sondern: <em>Dieser Anbieter hat sich an seine Aussagen gebunden.</em> Sie bekommen ihn, wenn drei Dinge zusammenkommen (die vollständige Regel steht in der <a href="../methodik/#verified">Methodik</a>):</p>
+<ol>
+<li>AVV, Subprozessorenliste und die Zusage, nicht mit Kundendaten zu trainieren, sind durch von Ihnen benannte Primärdokumente belegt.</li>
+<li>Zur Speicherung von Anfragen und Antworten (Zero Data Retention) liegt ein Dokument vor, oder Sie sagen ausdrücklich, dass es keine Zusage gibt. Beides tragen wir mit Datum ein.</li>
+<li>Eine benannte Rolle in Ihrem Unternehmen (etwa Datenschutzbeauftragter oder CTO) hat das Profil gegengelesen. Wir veröffentlichen die Rolle, keinen Namen.</li>
+</ol>
+<p>Mail an <a href="mailto:${SITE.kontakt}?subject=Verifizierung%20[Anbietername]">${SITE.kontakt}</a>, Betreff „Verifizierung [Anbietername]“. Der Stempel trägt sein Datum und verfällt, wenn sich die Fakten ändern.</p>
+
+<h2 id="nicht">Was wir nicht annehmen</h2>
+<ul>
+<li>Kein Logo, kein Badge, kein Link-Tausch, keine „Partner“-Kennzeichnung.</li>
+<li>Keine Testzugänge, Guthaben, Rabatte oder Bezahlung — nicht für Einträge, nicht für Status, nicht für Fälle. Angebote dieser Art dokumentieren wir auf Anfrage.</li>
+<li>Keine Änderung der Reihenfolge, keine Löschung öffentlich belegbarer Angaben. Korrekturen mit Beleg: jederzeit.</li>
+</ul>
+<p>Die vollständigen Regeln zur Unabhängigkeit stehen in der <a href="../methodik/#unabhaengigkeit">Methodik</a>. Die Daten stehen unter CC BY 4.0; Ihr Profil und alles, was Sie belegen, darf jeder zitieren.</p>
+</article>`;
+  return layout({
+    titel: "Für Anbieter: Belege nachreichen, Fälle beantworten, Verified beantragen | belegbar.eu",
+    beschreibung: "Was ein KI-Anbieter auf belegbar.eu tun kann: Belege nachreichen (Prüfung binnen sieben Tagen), einen Fall beantworten (Antwort erscheint wörtlich), den datierten Verified-Stempel beantragen. Kostenlos, ohne Gegenleistung.",
+    inhalt, rel: "../", pfad: "fuer-anbieter/",
+    jsonld: brotkrumenLd([["", "Anbieter"], ["fuer-anbieter/", "Für Anbieter"]]),
+  });
+}
+
 function seiteMethodik() {
   const inhalt = `
 <article class="artikel">
@@ -877,14 +928,15 @@ ${belegZeile("unbelegt", "Wir haben keine belastbare Angabe gefunden. Auch das i
 </ul>
 <p><strong>Finanzierung, Stand 28.08.2026:</strong> belegbar.eu wird privat von <a href="${SITE.baseUrl}/ueber/">Felix Lind</a> betrieben und bezieht keine Einnahmen. Sollte sich das je ändern, gilt: Bezahlte Leistungen dürfen weder Statusstufen noch Reihenfolge, Verified-Kennzeichen oder Fälle beeinflussen, und jede Einnahmequelle wird an dieser Stelle mit Datum ausgewiesen. Fehlt hier ein Eintrag, gibt es keine.</p>
 
-<h2 id="verified">Verified-Status: So funktioniert es</h2>
-<p>Anbieter, die uns fehlende Nachweise direkt zusenden, erhalten das Verified-Kennzeichen mit Datum. Der Ablauf:</p>
+<h2 id="verified">Verified-Stempel: Was er bedeutet und wie man ihn bekommt</h2>
+<p>Der Stempel „Verified“ mit Datum sagt nicht „geprüft gut“. Er sagt: <em>Dieser Anbieter hat sich an seine Aussagen gebunden.</em> Er hat die Dokumente selbst benannt, wir haben sie geprüft, und eine benannte Rolle im Unternehmen hat das Profil gegengelesen. Ab dann ist jede Abweichung zwischen Dokument und Website ein Fall, den der Anbieter selbst mit Datum unterschrieben hat. Regel seit 06.09.2026 (vorher genügte es, überhaupt Nachweise einzureichen):</p>
 <ol>
-<li><strong>Nachweise einreichen.</strong> Eine E-Mail an <a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a> mit Betreff „Verifizierung [Anbietername]“ genügt. Als Nachweis zählt, was auch sonst für „belegt“ gilt: Primärdokumente — Zertifikat mit Auditor, unterschriftsreifer AVV, Subprozessorenliste, Policy-Dokument. Ein Link ist so gut wie ein PDF.</li>
-<li><strong>Wir prüfen.</strong> Marketing-Aussagen, Badges und Absichtserklärungen reichen nicht — genau darum gibt es diese Datenbank. Was den Beleg-Maßstab erfüllt, wird im Profil auf „belegt“ gesetzt, mit neuem Prüfdatum und verlinkter Quelle.</li>
-<li><strong>Das Kennzeichen.</strong> Das Profil erhält den Verified-Stempel mit dem Datum der Prüfung. Er bedeutet genau eines: <em>Dieser Anbieter hat aktiv Nachweise eingereicht, und wir haben sie geprüft.</em> Er ist keine Qualitäts- oder Rechtskonformitäts-Aussage.</li>
-<li><strong>Aktualität.</strong> Der Stempel trägt sein Datum sichtbar. Ändern sich Fakten wesentlich (z. B. neuer Eigentümer, ausgelaufenes Zertifikat), prüfen wir neu — das Kennzeichen bleibt nur mit aktuellem Stand bestehen.</li>
+<li><strong>Drei Felder belegt.</strong> AVV, Subprozessorenliste und die Zusage, nicht mit Kundendaten zu trainieren, stehen durch vom Anbieter benannte Primärdokumente auf „belegt“ — Vertragsdokument, Liste, Policy. Ein Link ist so gut wie ein PDF; Marketing-Seiten, Badges und Absichtserklärungen zählen nicht. Es sind dieselben drei Felder wie im Filter „nur AVV, Subprozessoren und Trainings-Opt-out belegt“ auf der Übersicht.</li>
+<li><strong>Die Speicherfrage beantwortet.</strong> Zur Speicherung von Anfragen und Antworten (Zero Data Retention) liegt entweder ein Dokument vor, oder der Anbieter sagt ausdrücklich, dass es keine Zusage gibt. Beides tragen wir mit Datum ein. Was nicht geht: die Frage offenlassen.</li>
+<li><strong>Gegengelesen.</strong> Eine benannte Rolle (etwa „Datenschutzbeauftragter“ oder „CTO“) bestätigt, dass das Profil den Stand des Unternehmens wiedergibt. Wir veröffentlichen die Rolle, keinen Namen.</li>
+<li><strong>Datiert, nicht dauerhaft.</strong> Der Stempel trägt sein Datum sichtbar. Ändern sich Fakten wesentlich (neuer Eigentümer, ausgelaufenes Zertifikat, geänderte Policy) oder findet der monatliche Quellenlauf ein verschwundenes Dokument, prüfen wir neu; bis dahin steht der Stempel mit altem Datum, danach fällt er oder wird erneuert.</li>
 </ol>
+<p>Der Weg dorthin, die Sieben-Tage-Zusage für nachgereichte Belege und die Betreffzeilen stehen auf der Seite <a href="../fuer-anbieter/">Für Anbieter</a>.</p>
 <p><strong>Was Verified nicht ist:</strong> Es ist nicht käuflich, kein Ranking-Vorteil und keine Bedingung für die Aufnahme — gelistet wird, wer relevant ist, mit oder ohne Mitwirkung. Anbieter können der Listung ihrer öffentlich verfügbaren Angaben nicht widersprechen, wohl aber jederzeit Korrekturen mit Beleg verlangen.</p>
 
 <h2 id="faelle">Fälle: Wenn Behauptung und Beleg auseinanderlaufen</h2>
@@ -993,7 +1045,8 @@ ${guideZeilen}
 
 ## Methodik und Hintergrund
 
-- [Methodik](${SITE.baseUrl}/methodik/): Was „belegt“ heißt, die drei Statusstufen, Beleg-Quote, der Verified-Prozess für Anbieter und die Regeln für Fälle
+- [Methodik](${SITE.baseUrl}/methodik/): Was „belegt“ heißt, die drei Statusstufen, Beleg-Quote, die Verified-Regel und die Regeln für Fälle
+- [Für Anbieter](${SITE.baseUrl}/fuer-anbieter/): Belege nachreichen (Prüfung binnen sieben Tagen), Fälle beantworten, Verified-Stempel beantragen — kostenlos, ohne Gegenleistung
 - [Direktvergleiche](${SITE.baseUrl}/vergleich/): Anbieter derselben Kategorie Feld für Feld gegenübergestellt
 - [Über & Impressum](${SITE.baseUrl}/ueber/): Betreiber und Kontakt
 `;
@@ -1531,6 +1584,9 @@ function main() {
 
   schreibe("faelle/index.html", seiteFaelleIndex(faelle, providers, stand));
   faelle.forEach((f) => schreibe(`faelle/${f.slug}/index.html`, seiteFall(f, providers.find((p) => p.id === f.anbieter), stand)));
+  // Rohdaten je Fall, wie daten.json je Profil: Zitate, Hashes, Snapshots, Antworten, Verlauf — für alle, die zitieren.
+  faelle.forEach((f) => fs.writeFileSync(path.join(OUT, "faelle", f.slug, "daten.json"), JSON.stringify({ ...f, url: `${SITE.baseUrl}/faelle/${f.slug}/`, lizenz: "CC BY 4.0", stand }, null, 2)));
+  schreibe("fuer-anbieter/index.html", seiteFuerAnbieter());
   schreibe("aenderungen/index.html", seiteAenderungen(aenderungen, providers, faelle, stand));
   fs.writeFileSync(path.join(OUT, "aenderungen", "feed.xml"), A.atomFeed(aenderungen, { baseUrl: SITE.baseUrl, name: SITE.name, anbieterName: (id) => (providers.find((p) => p.id === id) || {}).name || id, heute: BUILD_DATUM }));
   schreibe("methodik/index.html", seiteMethodik());
@@ -1589,7 +1645,7 @@ function main() {
   // Sitemap. lastmod kommt aus dem Ledger, also aus dem tatsächlichen Änderungsdatum der Seite —
   // nicht aus dem Prüfdatum der Anbieterdaten. Beides fiel auseinander, sobald sich das Template
   // änderte: Der Inhalt war neu, das lastmod blieb alt, und Crawler kamen nicht wieder.
-  const urls = ["", "fragen/", "zertifikate/", "faelle/", "aenderungen/", "vergleich/", "ratgeber/", "methodik/", "ueber/"]
+  const urls = ["", "fragen/", "zertifikate/", "faelle/", "aenderungen/", "vergleich/", "ratgeber/", "methodik/", "fuer-anbieter/", "ueber/"]
     .concat(fragen.map((f) => `fragen/${f.slug}/`))
     .concat(faelle.map((f) => `faelle/${f.slug}/`))
     .concat(facetten.map((e) => `zertifikate/${e.schluessel}/`))
