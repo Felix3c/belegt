@@ -1,15 +1,15 @@
 {
   "": {
-    "hash": "10ad3d42c705c178",
-    "datum": "2026-09-06"
+    "hash": "1156b1a8f0dd84eb",
+    "datum": "2026-09-08"
   },
   "404.html": {
     "hash": "5486e0fdd04a414e",
     "datum": "2026-09-06"
   },
   "aenderungen/": {
-    "hash": "4e15b6c4946ebf93",
-    "datum": "2026-09-06"
+    "hash": "1cce96e97027a985",
+    "datum": "2026-09-08"
   },
   "anbieter/aleph-alpha/": {
     "hash": "5686ce51c124f11f",
@@ -80,8 +80,8 @@
     "datum": "2026-09-06"
   },
   "anbieter/requesty/": {
-    "hash": "b5724a1efebbf2cb",
-    "datum": "2026-09-06"
+    "hash": "738152f2326f92bb",
+    "datum": "2026-09-08"
   },
   "anbieter/scaleway/": {
     "hash": "b9b928715e5f9b0c",
@@ -96,16 +96,16 @@
     "datum": "2026-09-06"
   },
   "faelle/": {
-    "hash": "b8e84c0425d0ad47",
-    "datum": "2026-09-06"
+    "hash": "c2e02e06110aa2b1",
+    "datum": "2026-09-08"
   },
   "faelle/greenpt-iso-27001/": {
-    "hash": "41aaabe47b5da74a",
-    "datum": "2026-09-06"
+    "hash": "77118a7b919a3936",
+    "datum": "2026-09-08"
   },
   "faelle/requesty-zero-data-retention/": {
-    "hash": "51d6f3e98676d15b",
-    "datum": "2026-09-06"
+    "hash": "817ee31dec407cae",
+    "datum": "2026-09-08"
   },
   "fragen/": {
     "hash": "4453e69f88b43f16",
