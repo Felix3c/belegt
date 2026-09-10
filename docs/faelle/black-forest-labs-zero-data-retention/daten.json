@@ -5,9 +5,10 @@
   "feld": "vertrag.zero_data_retention",
   "titel": "Black Forest Labs: „Zero data retention“ — und eine unbefristete Lizenz zum Speichern und Trainieren in den eigenen API-Terms",
   "kurz": "Die Enterprise-Seite von Black Forest Labs bewirbt die Managed API mit „Zero data retention“, ohne Einschränkung auf einen Vertragstyp. Die für dieselbe FLUX API geltenden Terms — auch die am 26.08.2026 revidierte EU-Fassung — räumen dem Unternehmen eine unbefristete, weltweite Lizenz ein, Inputs und Outputs zu speichern und zum Training zu nutzen; Privacy Policy und Terms of Service sagen dasselbe. Beide Aussagen können nicht zugleich für den öffentlichen API-Zugang gelten.",
-  "eroeffnet": "2026-09-07",
+  "eroeffnet": "2026-09-10",
+  "anbieter_informiert": "2026-09-10",
   "status": "offen",
-  "antwort_frist": "2026-09-21",
+  "antwort_frist": "2026-09-24",
   "behauptung": [
     {
       "zitat": "Zero data retention and auto-scaling infrastructure. Go from integration to production in minutes. Already powering billions of image generations per year.",
@@ -64,6 +65,13 @@
     {
       "datum": "2026-09-06",
       "ereignis": "Widerspruch im ersten Widerspruchs-Scan über alle Anbieter gefunden (Kandidat Nr. 1 in outreach/fall-kandidaten.md). Fünf Seiten abgerufen (13:48 UTC), SHA-256-Hashes gebildet, Rohkopien nach belege/faelle/2026-003/, Internet-Archive-Snapshots für alle fünf Seiten angelegt. Fall-Entwurf und Anschreiben vorbereitet; noch nicht veröffentlicht, Anbieter noch nicht informiert."
+    },
+    {
+      "datum": "2026-09-10",
+      "ereignis": "Anbieter per E-Mail (legal@blackforestlabs.ai, CC privacy@ und dpo@blackforestlabs.ai) mit dem vollständigen Text des Falls informiert. Antwortfrist bis 24.09.2026. Fall veröffentlicht."
     }
-  ]
+  ],
+  "url": "https://belegbar.eu/faelle/black-forest-labs-zero-data-retention/",
+  "lizenz": "CC BY 4.0",
+  "stand": "2026-09-06"
 }
