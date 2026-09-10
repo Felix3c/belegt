@@ -5,14 +5,28 @@
   <id>https://belegbar.eu/aenderungen/</id>
   <link rel="alternate" href="https://belegbar.eu/aenderungen/"/>
   <link rel="self" href="https://belegbar.eu/aenderungen/feed.xml"/>
-  <updated>2026-09-08T00:00:00Z</updated>
+  <updated>2026-09-10T00:00:00Z</updated>
   <rights>CC BY 4.0</rights>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-09-10-black-forest-labs-fall-2026-003</id>
+    <title>Black Forest Labs: Fall 2026-003 eröffnet</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-09-10-black-forest-labs-fall-2026-003"/>
+    <updated>2026-09-10T00:00:00Z</updated>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-09-10-scaleway-fall-2026-004</id>
+    <title>Scaleway: Fall 2026-004 eröffnet</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-09-10-scaleway-fall-2026-004"/>
+    <updated>2026-09-10T00:00:00Z</updated>
+    <content type="text"></content>
+  </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-09-08-requesty-fall-2026-001</id>
     <title>Requesty: Fall 2026-001 beantwortet → bestätigt</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-09-08-requesty-fall-2026-001"/>
     <updated>2026-09-08T00:00:00Z</updated>
-    <content type="text"></content>
+    <content type="text">Commit 957ada4: docs: Prüfung 08.09. — Requesty auf „bestätigt“ (Frist abgelaufen, DPA-Satz unverändert), GreenPT Footer unverändert; Rohkopien, Hashes, Wayback</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-09-02-greenpt-fall-2026-002</id>
