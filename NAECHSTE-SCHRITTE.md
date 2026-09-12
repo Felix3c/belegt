@@ -1,32 +1,53 @@
 # belegbar.eu — Nächste Schritte
 
-**Stand:** 2026-09-06, abends (Plan-Punkte 4–6 gebaut; Widerspruchs-Scan über 19 Anbieter ausgewertet; Für-Anbieter-Seite, Verified-Regel, Zitier-Box und Fall-JSON live; Fälle 2026-003 BFL und 2026-004 Scaleway als Entwurf fertig, warten auf Felix’ Versand)
-**Führendes Dokument:** `MESSUNG.md` (Kill-Kriterien) · Ziel-Satz in `~/THESE.md` („Das Ziel ist der Stempel, nicht das Urteil“)
-**Phase:** live, 21 Anbieter, 57 URLs in der Sitemap (seit 06.09.; vorher 124), 2 Fälle live, 2 Fälle im Entwurf. Git sauber, alles gepusht (HEAD `fad849a`), Tests 4/10/15/13 grün (zitat, preise, quellen, aenderungen; einzeln aufrufen, `node --test test/` meldet fälschlich 1 fail).
+**Stand:** 2026-09-12, mittags (Welle 1 Tag 1 ist raus: drei Gesprächsbitten auf LinkedIn.
+Die Datei stand vorher auf dem 06.09. und war überholt — die Fall-Stände sind jetzt gegen
+`data/faelle/*.json` und die Commit-Historie nachgezogen.)
+**Führendes Dokument:** `MESSUNG.md` (Kill-Kriterien) · Ziel-Satz in `~/THESE.md`
+**Phase:** live, 4 Fälle, Engpass ist nicht mehr Code, sondern Rücklauf von außen.
 
 ## Wo wir stehen
 
-- **Fall 2026-001 Requesty / ZDR — `beantwortet`.** 06.09. (11:05 UTC): keine Antwort auf Felix’ persönliche Mail vom 04.09. DPA-Seite byte-identisch zum 04.09., „request and response bodies are never stored“ weiter ohne Vorbehalt. Snapshot `web.archive.org/web/20260906110722`. Frist 08.09.
-- **Fall 2026-002 GreenPT / ISO 27001 — `bestaetigt`.** 06.09.: keine Mail von Robert mit der Footer-URL, Footer unverändert (Snapshot `…20260906110759`). `ausgeraeumt`, sobald der korrigierte Footer live ist.
-- **Postfach 06.09.:** Requesty, GreenPT, Regolo, Gossen nichts; keine eingehende Anfrage. LinkedIn: Anke Köhler-Heite hat am 04.09. angenommen; eine weitere, noch nicht angesehene Einladung liegt vor.
-- **Fälle 2026-003 und 2026-004 — Entwürfe fertig, nicht gebaut.** Felix hat am 06.09. BFL und Scaleway gewählt (aus `outreach/fall-kandidaten.md`, 28 Kandidaten, 7 hoch). Entwürfe in `data/faelle/entwurf/` (der Build liest diesen Ordner nicht), Rohkopien und SHA256SUMS in `belege/faelle/2026-003/` (5 Seiten) und `2026-004/` (3 Seiten + Specific-Conditions-PDF), Wayback-Snapshots für alle acht HTML-Seiten. Alle Zitate in den eigenen Rohkopien wörtlich nachgeprüft. Mails in `outreach/mails/11-…` (BFL, an legal@blackforestlabs.ai, CC privacy@ und dpo@) und `12-…` (Scaleway, an privacy@scaleway.com); der Ordner ist per .gitignore privat. Entwürfe sind auf Versand 07.09., Frist 21.09. vorgeschrieben.
-- **Gebaut 06.09.:** Preis-Statusstufen (`lib/preise.js`, vierte Stufe „kein öffentlicher Preis“, Einheitenpreise, Stand je Preis, `preisarchiv.js`, Commit 7480547) · Belegt-Filter auf der Übersicht, trifft 9 von 21 · noindex auf 68 von 76 Vergleichsseiten, acht Paare bleiben (`VERGLEICH_INDEXIERT` in build.js, Claudes Auswahl, Commit 44b9b50) · Seite `/fuer-anbieter/`, Verified-Regel angehoben (drei Vertragsfelder durch anbieterbenannte Primärdokumente belegt, ZDR-Frage beantwortet, benannte Rolle hat gegengelesen; Feld `verified: { datum, rolle, anmerkung }`), Zitier-Box mit Kopierknopf, `faelle/<slug>/daten.json`, Antwortvorlagen in `outreach/anbieter-antwort-vorlage.md` (Commit 3e22ec0). **Die Sieben-Tage-Zusage auf der Für-Anbieter-Seite ist öffentlich; sie hält nur mit der Postfach-Regel.**
-- **Entwicklungslinie (06.09., Felix: „kann nicht sein, dass es am Zenit ist“):** Das Produkt sind die Fälle. Fall-Pipeline = monatlicher Widerspruchs-Scan (erster Lauf 06.09., nächster ~28.09. mit dem Quellenlauf; dann die Vanta-Trust-Center von Mistral, Lyceum, BFL und Gcores Legal-Tabs im Browser lesen). Ziel: zwei neue Fälle eröffnet bis Ende September — die Entwürfe liegen.
-- **Bewusste Lücken:** Preisstufen-Wechsel erscheinen nicht im Änderungsprotokoll (zählt nur `status`/`quelle`). Hetzner hat keinen GPU-Stundenpreis, weil nur die kostenlose Inference-API als Modell erfasst ist.
-- **Build-Eigenheiten:** `build.js` und Fall-JSON 001 haben CRLF, 002 und die Entwürfe LF. JSONs nur zeilenweise per String-Ersatz ändern. Der Bash-Wrapper in Claude Code scheitert bei Heredocs mit `→`, `’` oder einfachen Anführungszeichen; große Texte per Write-Tool oder als Script-Datei. Ledger zählt „Seiten mit Änderungsdatum heute“ kumulativ.
-- **Regel seit 04.09. (Felix):** Vor jeder Arbeit an belegt zuerst beide Postfächer (hallo@, Gmail).
+- **Fälle, Stand aus den JSONs:** 2026-001 Requesty `bestaetigt` (Frist 08.09. abgelaufen),
+  2026-002 GreenPT `bestaetigt` (Frist 11.09.), 2026-003 Black Forest Labs und 2026-004
+  Scaleway `offen`, beide Frist **24.09.**, Anbieter am 10.09. informiert (Commit 4956fe2).
+  `data/faelle/entwurf/` ist leer, es liegt kein unveröffentlichter Fall mehr herum.
+- **Welle 1, Tag 1 — gesendet 12.09. von Claude mit Felix' ausdrücklicher Erlaubnis:**
+  Heiko Gossen 12:01, Marc Groß 12:02, Claus Arndt 12:04 (neuer Thread). Text ist das
+  Anschreiben aus `outreach/gespraeche/leitfaden.md`, Sie-Form, keine Zahl, kein Verkauf;
+  bei Groß mit dem KGSt/Vitako-Leitfaden und dem KGSt-Forum nächste Woche als Aufhänger,
+  bei Arndt auf die letzte Freigabe in Moers zugeschnitten. Alle drei mit Sendehaken
+  gegengeprüft. Uhrzeiten im Status-Block von `outreach/mails/06-linkedin-kontakte.md`.
+  Nachmittags erneut live geprüft: alle drei mit Haken im Postfach, noch keine Antwort,
+  keine Benachrichtigung von den dreien.
+- **LinkedIn sonst (12.09. live geprüft):** 9 Kontakte, keine Antwort auf die Notizen vom
+  22./24./28.08., keine eingehende Einladung, sieben eigene Anfragen weiterhin offen
+  (Kroll, Hedde, Herwig, Hense, Ganten, Kücük, vom Sondern). Anke Köhler-Heite ist laut
+  Profil weiter bei PROSOZ Herten.
+- **Unstimmigkeit, nur Felix kann sie klären:** David Arndt, Uda Bastians und Katrin Giebel
+  stehen weder unter „Gesendet" noch in den Kontakten, obwohl die Kontaktliste sie für den
+  28.08. als gesendet führt. Entweder nie abgeschickt oder zurückgezogen.
+- **Ungeklärt:** ob seit dem 24.08. noch einmal nach `MESSUNG.md` gemessen wurde (geplant
+  war 1.–3.09.). Vor dem Kill-Check nachholen, sonst fehlt die Reihe.
+- **Regel seit 04.09. (Felix):** Vor jeder Arbeit an belegt zuerst beide Postfächer prüfen
+  (hallo@, Gmail). Die Sieben-Tage-Zusage auf `/fuer-anbieter/` hängt daran.
+- Git sauber, nichts ungepusht, HEAD `130d42f`.
 
 ## Nächster konkreter Schritt
 
-**08.09. (Montag), Claude:** Postfach prüfen. Dann `https://www.requesty.ai/dpa` und `https://greenpt.com/` roh abrufen, hashen, Wayback. Requesty nach Fristablauf auf `bestaetigt` setzen, Anmerkung „Security-Seite korrigiert, DPA-Seite unverändert“, sofern die DPA-Zeile nicht qualifiziert ist; GreenPT auf `ausgeraeumt`, falls der Footer korrigiert ist. Verlauf, `node build.js`, Tests, committen, pushen. Meldet Felix „Mail 11/12 gesendet am …“: in der jeweiligen Entwurfs-JSON `eroeffnet` und `anbieter_informiert` auf das Versanddatum, `antwort_frist` auf +14 Tage, Verlaufseintrag „Anbieter informiert“, Datei nach `data/faelle/`, bauen, pushen.
+**Mo 14.09.: Welle 1 Tag 3** — die Gesprächsbitte an Anke Köhler-Heite und Stephan
+Hansen-Oest, Text aus `outreach/gespraeche/leitfaden.md`, danach Uhrzeiten in den
+Status-Block von `outreach/mails/06-linkedin-kontakte.md`. Felix' Zuruf genügt
+(„Welle 1 Tag 3"), die Erlaubnis für Tag 1 galt nur für die drei von heute.
 
 ## Wartet auf Felix
 
-- **Mails 11 (BFL) und 12 (Scaleway) von hallo@ schicken**, am besten 07.09. oder 08.09.; Betreff-Datum ggf. anpassen. Danach Claude das Versanddatum nennen.
-- **Gespräche, Welle 1 (Plan Punkt 3):** Tag 1 erledigt 12.09. 12:01–12:04 (Gossen, Groß, C. Arndt, Uhrzeiten in `outreach/mails/06-linkedin-kontakte.md`). **Tag 3 = Mo 14.09.: Köhler-Heite und Hansen-Oest** mit dem Text aus `outreach/gespraeche/leitfaden.md`. Antworten einzeln bearbeiten, je Gespräch am selben Abend das Raster füllen. Ziel: fünf Raster bis 30.09. Offen: D. Arndt, Bastians, Giebel sind weder gesendet noch Kontakte (Felix klären).
-- **Offen gelassen 06.09.:** Requesty-Status am 08.09. (Claude setzt `bestaetigt` nach GreenPT-Logik, wenn nichts kommt); die acht indexierten Vergleichspaare gegenlesen; Exoscale-Hinweis per Mail ohne Fall (veraltete Zonen-Tabelle), Claude entwirft auf Zuruf.
-- **LinkedIn:** eine neue, unbekannte Einladung vom 04.09. ansehen. Optional: Kommentar bei Lara Gsell.
-- Gestrichen 06.09. (Felix): Stefanie Köhl.
+- **Antworten auf die drei Nachrichten** kommen in sein Postfach. Je Gespräch am selben
+  Abend das Raster aus dem Leitfaden ausfüllen (`outreach/gespraeche/NN-name.md`), sonst
+  verfällt die wörtliche Formulierung. Ziel: fünf Raster bis 30.09.
+- **D. Arndt, Bastians, Giebel:** waren die Anfragen vom 28.08. je draußen?
+- Die acht indexierten Vergleichspaare gegenlesen (offen seit 06.09.).
+- Exoscale-Hinweis per Mail ohne Fall (veraltete Zonen-Tabelle) — Claude entwirft auf Zuruf.
 
 ## Blocker
 
@@ -34,9 +55,11 @@ Keiner.
 
 ## Termine
 
-- 08.09.: Frist Fall 2026-001 (Requesty) · GreenPT-Footer selbst nachsehen · Versand Mails 11 und 12.
-- 14.09.: Halbzeit-Nachfassen für 003 und 004, falls gesendet und keine Antwort.
-- 21.09.: Frist 003 und 004 (bei Versand am 07.09.).
-- ~28.09.: erster monatlicher Quellenlauf (`node quellenlauf.js`) · zweiter Widerspruchs-Scan.
-- 30.09.: Ziel fünf ausgefüllte Gesprächsraster · zwei neue Fälle eröffnet.
-- ~14.10.: Kill-Kriterien-Check (`MESSUNG.md`, `~/THESE.md`).
+- **~17.09.:** Halbzeit-Nachfassen für 003 und 004 (Mitte zwischen Versand 10.09. und Frist
+  24.09.; die alte Angabe 14.09. galt für einen Versand am 07.09.).
+- **24.09.:** Frist Fälle 003 und 004.
+- **~28.09.:** erster monatlicher Quellenlauf (`node quellenlauf.js`) und zweiter
+  Widerspruchs-Scan.
+- **30.09.:** fünf ausgefüllte Gesprächsraster, zwei neue Fälle eröffnet.
+- **~14.10.:** Kill-Check nach `~/THESE.md` — ein Anbieter meldet sich von selbst, zwei
+  Fälle abgeschlossen, ein Fremder zitiert.
