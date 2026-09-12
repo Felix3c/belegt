@@ -23,7 +23,7 @@
 ## Wartet auf Felix
 
 - **Mails 11 (BFL) und 12 (Scaleway) von hallo@ schicken**, am besten 07.09. oder 08.09.; Betreff-Datum ggf. anpassen. Danach Claude das Versanddatum nennen.
-- **Gespräche, Welle 1 (Plan Punkt 3):** LinkedIn-Nachricht an Gossen, C. Arndt, Groß und Köhler-Heite mit dem Text aus `outreach/gespraeche/leitfaden.md`, nicht mehr als drei am Tag; Hansen-Oest zwei Tage später. Ziel: fünf Raster bis 30.09.
+- **Gespräche, Welle 1 (Plan Punkt 3):** Tag 1 erledigt 12.09. 12:01–12:04 (Gossen, Groß, C. Arndt, Uhrzeiten in `outreach/mails/06-linkedin-kontakte.md`). **Tag 3 = Mo 14.09.: Köhler-Heite und Hansen-Oest** mit dem Text aus `outreach/gespraeche/leitfaden.md`. Antworten einzeln bearbeiten, je Gespräch am selben Abend das Raster füllen. Ziel: fünf Raster bis 30.09. Offen: D. Arndt, Bastians, Giebel sind weder gesendet noch Kontakte (Felix klären).
 - **Offen gelassen 06.09.:** Requesty-Status am 08.09. (Claude setzt `bestaetigt` nach GreenPT-Logik, wenn nichts kommt); die acht indexierten Vergleichspaare gegenlesen; Exoscale-Hinweis per Mail ohne Fall (veraltete Zonen-Tabelle), Claude entwirft auf Zuruf.
 - **LinkedIn:** eine neue, unbekannte Einladung vom 04.09. ansehen. Optional: Kommentar bei Lara Gsell.
 - Gestrichen 06.09. (Felix): Stefanie Köhl.
