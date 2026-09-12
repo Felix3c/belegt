@@ -1,6 +1,6 @@
 # belegbar.eu — Nächste Schritte
 
-**Stand:** 2026-09-12, 12:35 (Welle 1 komplett: fünf Gesprächsbitten auf LinkedIn.
+**Stand:** 2026-09-12, 16:05 (Welle 1 komplett raus, erste Antwort war eine Absage.
 Die Datei stand vorher auf dem 06.09. und war überholt — die Fall-Stände sind jetzt gegen
 `data/faelle/*.json` und die Commit-Historie nachgezogen.)
 **Führendes Dokument:** `MESSUNG.md` (Kill-Kriterien) · Ziel-Satz in `~/THESE.md`
@@ -24,6 +24,10 @@ Die Datei stand vorher auf dem 06.09. und war überholt — die Fall-Stände sin
   Anke Köhler-Heite 12:26 (neuer Thread, PROSOZ-Zugehörigkeit im Profil bestätigt) und
   Stephan Hansen-Oest 12:31 (bestehender Thread). Beide mit Sendehaken. Welle 1 ist
   damit an alle fünf raus, noch keine Antwort von niemandem.
+- **Erste Antwort 13:28, Hansen-Oest:** 20 Minuten nur als Erstberatung, 250 € netto + USt.
+  Felix hat abgesagt („Ja sag ihm ab"), Absage 16:00 von Claude gesendet. Datenpunkt in
+  `outreach/gespraeche/05-hansen-oest.md`: für den Anwalt ist Anbieterprüfung eine bezahlte
+  Leistung der Käuferseite. Zählt nicht als Gespräch. **Welle 1: 4 offen, 1 abgesagt.**
 - **LinkedIn sonst (12.09. live geprüft):** 9 Kontakte, keine Antwort auf die Notizen vom
   22./24./28.08., keine eingehende Einladung, sieben eigene Anfragen weiterhin offen
   (Kroll, Hedde, Herwig, Hense, Ganten, Kücük, vom Sondern). Anke Köhler-Heite ist laut
@@ -39,16 +43,17 @@ Die Datei stand vorher auf dem 06.09. und war überholt — die Fall-Stände sin
 
 ## Nächster konkreter Schritt
 
-**Warten auf Rücklauf.** Welle 1 ist komplett. Nächste Claude-Handlung erst bei Antwort
+**Warten auf Rücklauf** von Gossen, Groß, C. Arndt, Köhler-Heite. Nächste Claude-Handlung erst bei Antwort
 (dann Terminvorschlag entwerfen, Felix schickt) oder am **~19.09.**, wenn bis dahin
 niemand geantwortet hat: dann Welle 2 vorbereiten (Kandidaten 6–11 in
 `outreach/gespraeche/kandidaten.md`; davon sind nur Seniuk und Gsell schon Kontakte,
-Kroll, Giebel, Hedde und Bastians haben die Anfrage noch nicht angenommen). Kein
+Kroll, Giebel, Hedde und Bastians haben die Anfrage noch nicht angenommen; Anwälte
+künftig anders anschreiben, siehe Lehre in 05-hansen-oest.md). Kein
 Nachfassen bei den fünf vor dem 26.09. (zwei Wochen).
 
 ## Wartet auf Felix
 
-- **Antworten auf die drei Nachrichten** kommen in sein Postfach. Je Gespräch am selben
+- **Antworten auf die vier offenen Nachrichten** kommen in sein Postfach. Je Gespräch am selben
   Abend das Raster aus dem Leitfaden ausfüllen (`outreach/gespraeche/NN-name.md`), sonst
   verfällt die wörtliche Formulierung. Ziel: fünf Raster bis 30.09.
 - **D. Arndt, Bastians, Giebel:** waren die Anfragen vom 28.08. je draußen?
