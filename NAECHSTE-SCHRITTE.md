@@ -1,6 +1,6 @@
 # belegbar.eu — Nächste Schritte
 
-**Stand:** 2026-09-12, mittags (Welle 1 Tag 1 ist raus: drei Gesprächsbitten auf LinkedIn.
+**Stand:** 2026-09-12, 12:35 (Welle 1 komplett: fünf Gesprächsbitten auf LinkedIn.
 Die Datei stand vorher auf dem 06.09. und war überholt — die Fall-Stände sind jetzt gegen
 `data/faelle/*.json` und die Commit-Historie nachgezogen.)
 **Führendes Dokument:** `MESSUNG.md` (Kill-Kriterien) · Ziel-Satz in `~/THESE.md`
@@ -20,6 +20,10 @@ Die Datei stand vorher auf dem 06.09. und war überholt — die Fall-Stände sin
   gegengeprüft. Uhrzeiten im Status-Block von `outreach/mails/06-linkedin-kontakte.md`.
   Nachmittags erneut live geprüft: alle drei mit Haken im Postfach, noch keine Antwort,
   keine Benachrichtigung von den dreien.
+- **Welle 1, Tag 3 vorgezogen auf 12.09. (Felix: „warum nicht jetzt?", dann „mach"):**
+  Anke Köhler-Heite 12:26 (neuer Thread, PROSOZ-Zugehörigkeit im Profil bestätigt) und
+  Stephan Hansen-Oest 12:31 (bestehender Thread). Beide mit Sendehaken. Welle 1 ist
+  damit an alle fünf raus, noch keine Antwort von niemandem.
 - **LinkedIn sonst (12.09. live geprüft):** 9 Kontakte, keine Antwort auf die Notizen vom
   22./24./28.08., keine eingehende Einladung, sieben eigene Anfragen weiterhin offen
   (Kroll, Hedde, Herwig, Hense, Ganten, Kücük, vom Sondern). Anke Köhler-Heite ist laut
@@ -35,10 +39,12 @@ Die Datei stand vorher auf dem 06.09. und war überholt — die Fall-Stände sin
 
 ## Nächster konkreter Schritt
 
-**Mo 14.09.: Welle 1 Tag 3** — die Gesprächsbitte an Anke Köhler-Heite und Stephan
-Hansen-Oest, Text aus `outreach/gespraeche/leitfaden.md`, danach Uhrzeiten in den
-Status-Block von `outreach/mails/06-linkedin-kontakte.md`. Felix' Zuruf genügt
-(„Welle 1 Tag 3"), die Erlaubnis für Tag 1 galt nur für die drei von heute.
+**Warten auf Rücklauf.** Welle 1 ist komplett. Nächste Claude-Handlung erst bei Antwort
+(dann Terminvorschlag entwerfen, Felix schickt) oder am **~19.09.**, wenn bis dahin
+niemand geantwortet hat: dann Welle 2 vorbereiten (Kandidaten 6–11 in
+`outreach/gespraeche/kandidaten.md`; davon sind nur Seniuk und Gsell schon Kontakte,
+Kroll, Giebel, Hedde und Bastians haben die Anfrage noch nicht angenommen). Kein
+Nachfassen bei den fünf vor dem 26.09. (zwei Wochen).
 
 ## Wartet auf Felix
 
