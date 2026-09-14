@@ -49,7 +49,7 @@ Antwort seit 14.09. live, Status „beantwortet“. LinkedIn: keine Antwort auf 
   war 1.–3.09.). Vor dem Kill-Check nachholen, sonst fehlt die Reihe.
 - **Regel seit 04.09. (Felix):** Vor jeder Arbeit an belegt zuerst beide Postfächer prüfen
   (hallo@, Gmail). Die Sieben-Tage-Zusage auf `/fuer-anbieter/` hängt daran.
-- Git sauber, nichts ungepusht, HEAD `130d42f`.
+- Git sauber, nichts ungepusht, HEAD `898b7c9` (14.09.).
 
 ## Nächster konkreter Schritt
 
