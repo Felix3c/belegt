@@ -1,15 +1,15 @@
 {
   "": {
-    "hash": "516f31555322f56a",
-    "datum": "2026-09-10"
+    "hash": "188870f20bc891ff",
+    "datum": "2026-09-14"
   },
   "404.html": {
     "hash": "5486e0fdd04a414e",
     "datum": "2026-09-06"
   },
   "aenderungen/": {
-    "hash": "8f6de3abf773744c",
-    "datum": "2026-09-10"
+    "hash": "323d45b34b6e8f6c",
+    "datum": "2026-09-14"
   },
   "anbieter/aleph-alpha/": {
     "hash": "5686ce51c124f11f",
@@ -84,8 +84,8 @@
     "datum": "2026-09-08"
   },
   "anbieter/scaleway/": {
-    "hash": "3c651d715990b40b",
-    "datum": "2026-09-10"
+    "hash": "9fe67bf9cd65bb53",
+    "datum": "2026-09-14"
   },
   "anbieter/stackit/": {
     "hash": "73458cd3dd1b0030",
@@ -96,8 +96,8 @@
     "datum": "2026-09-06"
   },
   "faelle/": {
-    "hash": "dfa6c8eac29a155e",
-    "datum": "2026-09-10"
+    "hash": "b47a8723f0b6a196",
+    "datum": "2026-09-14"
   },
   "faelle/black-forest-labs-zero-data-retention/": {
     "hash": "76ca00b45388863b",
@@ -112,8 +112,8 @@
     "datum": "2026-09-08"
   },
   "faelle/scaleway-generative-apis-no-access/": {
-    "hash": "045e336d7edcf3b2",
-    "datum": "2026-09-10"
+    "hash": "77480251c9d6be47",
+    "datum": "2026-09-14"
   },
   "fragen/": {
     "hash": "4453e69f88b43f16",
