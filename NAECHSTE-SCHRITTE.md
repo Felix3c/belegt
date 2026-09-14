@@ -18,7 +18,7 @@ Antwort seit 14.09. live, Status „beantwortet“. LinkedIn: keine Antwort auf 
   abgerufen (absolute Sätze unverändert, Rohkopien in `belege/faelle/2026-004/`), Commit
   `d105ef1`, live geprüft. Wayback-Snapshots vom 14.09. sind zweimal mit 500 gescheitert,
   nachholen. Antwortentwurf an Scaleway steht in `outreach/mails/12-scaleway-fall-2026-004.md`
-  unten, **Felix sendet** von hallo@ als Antwort im Thread. Halbzeit-Nachfassen 17.09. entfällt.
+  unten; **gesendet 14.09. 14:05 UTC** von hallo@ im Thread (Claude, auf Felix' Zuruf). Halbzeit-Nachfassen 17.09. entfällt.
 - **Welle 1, Tag 1 — gesendet 12.09. von Claude mit Felix' ausdrücklicher Erlaubnis:**
   Heiko Gossen 12:01, Marc Groß 12:02, Claus Arndt 12:04 (neuer Thread). Text ist das
   Anschreiben aus `outreach/gespraeche/leitfaden.md`, Sie-Form, keine Zahl, kein Verkauf;
@@ -53,8 +53,7 @@ Antwort seit 14.09. live, Status „beantwortet“. LinkedIn: keine Antwort auf 
 
 ## Nächster konkreter Schritt
 
-**1. Felix schickt die Antwort an Scaleway** (Entwurf in `outreach/mails/12-scaleway-fall-2026-004.md`,
-als Antwort im Zendesk-Thread, Betreff unverändert). Danach Fall 004 nur noch beobachten: sobald
+**1. Fall 004 nur noch beobachten** (Antwort an Scaleway ist am 14.09. raus): sobald
 Scaleway den neuen Text meldet oder ein Abruf ihn zeigt, Seite hashen, Snapshot, Status `ausgeraeumt`;
 Produktseite dabei mitprüfen (Antwort erwähnt sie nicht).
 
@@ -67,8 +66,6 @@ künftig anders anschreiben, siehe Lehre in 05-hansen-oest.md). Kein
 Nachfassen bei den fünf vor dem 26.09. (zwei Wochen).
 
 ## Wartet auf Felix
-
-- **Antwort an Scaleway senden** (Entwurf liegt, hallo@, im Thread). Selbstgesetzt: bis 15.09.
 
 - **Antworten auf die vier offenen Nachrichten** kommen in sein Postfach. Je Gespräch am selben
   Abend das Raster aus dem Leitfaden ausfüllen (`outreach/gespraeche/NN-name.md`), sonst

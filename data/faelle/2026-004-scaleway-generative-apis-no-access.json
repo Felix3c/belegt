@@ -72,6 +72,10 @@
     {
       "datum": "2026-09-14",
       "ereignis": "Antwort des Anbieters (Scaleway Privacy Team, 09:37 UTC) eingegangen und wörtlich eingetragen. Scaleway kündigt an, dem zuständigen Team die qualifizierte Fassung des AI-Act-Satzes vorzuschlagen, und bittet um „ausgeräumt“, sobald der neue Text live ist. Doku-Seite „Security and reliability“ und Produktseite erneut abgerufen: beide absoluten Sätze unverändert (Rohkopien belege/faelle/2026-004/*-2026-09-14.html, SHA-256 1e03da8a353f97dbb5f2bd419aa959a4e66fbef4681742d04db6ccae12168cad und 2b09d9bf5e1ac56caef50f5a94eb5f7b731bd7ca7275c7552b9f9ecfdb8accf2; Seiten nicht byte-identisch mit dem 06.09., die zitierten Sätze aber wortgleich). Status auf „beantwortet“ gesetzt."
+    },
+    {
+      "datum": "2026-09-14",
+      "ereignis": "Dem Anbieter geantwortet (14:05 UTC, von hallo@belegbar.eu im Zendesk-Thread): Veröffentlichung der Antwort mitgeteilt, Status-Logik erläutert (ausgeräumt, sobald der geänderte Satz live ist), darauf hingewiesen, dass die Antwort die Produktseite nicht erwähnt, die die absolute Fassung wiederholt. Keine Vorgabe zum Wortlaut."
     }
   ]
 }
