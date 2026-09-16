@@ -383,7 +383,7 @@ ${inhalt}
   <div class="shell">
     <p><strong>belegbar.eu</strong> — ${esc(SITE.claim)}</p>
     <p>Statusstufen: <span class="status s-belegt"><span class="dot"></span>belegt</span> = Primärquelle verlinkt · <span class="status s-beansprucht"><span class="dot"></span>beansprucht</span> = Anbieterangabe ohne Dokument · <span class="status s-unbelegt"><span class="dot"></span>unbelegt</span> = keine belastbare Angabe gefunden. Details in der <a href="${rel}methodik/">Methodik</a>.</p>
-    <p>Keine Rechtsberatung. Fehler gefunden? <a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a> · <a href="${rel}fuer-anbieter/">Für Anbieter</a> · <a href="${rel}ueber/">Impressum &amp; Über</a> · <a href="${rel}datenschutz/">Datenschutz</a></p>
+    <p>Keine Rechtsberatung. Fehler gefunden? <a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a> · <a href="${rel}fuer-anbieter/">Für Anbieter</a> · <a href="${rel}fuer-kaeufer/">Für Käufer</a> · <a href="${rel}ueber/">Impressum &amp; Über</a> · <a href="${rel}datenschutz/">Datenschutz</a></p>
   </div>
 </footer>
 </body>
@@ -597,7 +597,7 @@ ${eigeneFaelle.map((f) => `  <aside class="fall-hinweis fall-${esc(f.status)}"><
 
   <footer class="dossier-fuss">
     <p>Vollständig geprüft am ${datumDE(p.geprueft)}${juengstesDatum(p) !== p.geprueft ? `, einzelne Angaben zuletzt am ${datumDE(juengstesDatum(p))} nachgeprüft` : ""}. Alle Angaben ohne Gewähr, keine Rechtsberatung.</p>
-    <p><strong>Sie arbeiten bei ${esc(p.name)}?</strong> Belege nachreichen, einen Fall beantworten oder den Verified-Stempel beantragen: <a href="../../fuer-anbieter/">Für Anbieter</a> — kostenlos, ohne Gegenleistung. Mail an <a href="mailto:${SITE.kontakt}?subject=Verifizierung%20${encodeURIComponent(p.name)}">${SITE.kontakt}</a>.</p>
+    <p><strong>Sie arbeiten bei ${esc(p.name)}?</strong> Belege nachreichen, einen Fall beantworten oder den Verified-Stempel beantragen: <a href="../../fuer-anbieter/">Für Anbieter</a> — Belege, Fälle und Verified kostenlos, ohne Gegenleistung. Mail an <a href="mailto:${SITE.kontakt}?subject=Verifizierung%20${encodeURIComponent(p.name)}">${SITE.kontakt}</a>.</p>
   </footer>
   ${zitierBox(Z.zitatProfil(p, juengstesDatum(p), SITE.baseUrl), "daten.json", "daten.json dieses Profils")}
 </article>`;
@@ -864,7 +864,7 @@ function seiteFuerAnbieter() {
   const inhalt = `
 <article class="artikel">
 <h1>Für Anbieter: Belege nachreichen, Fälle beantworten, Verified beantragen</h1>
-<p>Diese Datenbank listet Sie, ob Sie mitwirken oder nicht: Gelistet wird, wer für europäische Käufer relevant ist, mit dem, was öffentlich belegbar ist. Mitwirken lohnt sich trotzdem — nicht, weil es ein Ranking gäbe, sondern weil jede Angabe, die Sie belegen, mit Datum und Quelle im Profil steht und im <a href="../aenderungen/">Änderungsprotokoll</a> erscheint. Drei Wege, alle kostenlos, alle ohne Gegenleistung:</p>
+<p>Diese Datenbank listet Sie, ob Sie mitwirken oder nicht: Gelistet wird, wer für europäische Käufer relevant ist, mit dem, was öffentlich belegbar ist. Mitwirken lohnt sich trotzdem — nicht, weil es ein Ranking gäbe, sondern weil jede Angabe, die Sie belegen, mit Datum und Quelle im Profil steht und im <a href="../aenderungen/">Änderungsprotokoll</a> erscheint. Drei Wege, alle kostenlos, alle ohne Gegenleistung. Daneben zwei Dinge, die Geld kosten, weil sie Arbeit auf Ihren Wunsch sind; was sie kaufen und was nicht, steht unten unter <a href="#eintritt">Eintritt zum Festpreis</a>:</p>
 
 <h2 id="belege">1. Belege nachreichen</h2>
 <p>Steht eine Angabe in Ihrem Profil auf „beansprucht“ oder „unbelegt“, schicken Sie das Primärdokument an <a href="mailto:${SITE.kontakt}?subject=Beleg%20[Anbietername]">${SITE.kontakt}</a>, Betreff „Beleg [Anbietername]“. Als Beleg zählt, was auch sonst für „belegt“ gilt: Vertragsdokument, Zertifikat mit Auditor und Geltungsbereich, Subprozessorenliste, Policy-Dokument, Preisliste. Ein Link ist so gut wie ein PDF; eine Marketing-Seite ist kein Beleg.</p>
@@ -882,19 +882,45 @@ function seiteFuerAnbieter() {
 </ol>
 <p>Mail an <a href="mailto:${SITE.kontakt}?subject=Verifizierung%20[Anbietername]">${SITE.kontakt}</a>, Betreff „Verifizierung [Anbietername]“. Der Stempel trägt sein Datum und verfällt, wenn sich die Fakten ändern.</p>
 
+<h2 id="eintritt">Eintritt zum Festpreis</h2>
+<p>Alles, was diese Datenbank über Sie festhält, ist kostenlos: der Eintrag, jede Korrektur mit Beleg, jede Antwort auf einen Fall, jeder Status, der Verified-Stempel. Zwei Dinge kosten Geld, weil sie auf Ihren Wunsch geschehen und Arbeit sind. Der Preis ist veröffentlicht, gilt für alle gleich und wird im Profil ausgewiesen.</p>
+<p><strong>Aufnahme auf eigenen Antrag, 490 €, einmalig.</strong> Sie sind noch nicht gelistet und wollen es sein. Sie schicken die Primärdokumente, wir bauen binnen 14 Tagen ein Profil nach derselben Methodik wie für alle anderen: gleiche Felder, gleiche Statusstufen, gleiche Prüfung. Im Profil und im <a href="../aenderungen/">Änderungsprotokoll</a> steht: „auf eigenen Antrag aufgenommen, Festpreis, [Datum]“. Wen wir ohnehin für relevant halten, listen wir weiter kostenlos; der Antrag ist der Weg für alle anderen. Mail an <a href="mailto:${SITE.kontakt}?subject=Aufnahme%20[Anbietername]">${SITE.kontakt}</a>, Betreff „Aufnahme [Anbietername]“.</p>
+<p><strong>Hinterlegte Zusage, 190 € je Zusage.</strong> Sie kündigen etwas an, das sich prüfen lässt: eine Textkorrektur, ein Testat, einen EU-Endpunkt, eine bereinigte Subprozessorenliste. Wir halten die Zusage wörtlich fest, mit benannter Rolle, Datum, Frist und Hash. Zur Frist prüfen wir und tragen ein: „eingehalten am [Datum], Beleg“ oder „nicht eingehalten“. Der Preis ist derselbe, ob Sie die Zusage halten oder nicht. Die Frist liegt mindestens 30 Tage in der Zukunft. Eine Zusage, die einen offenen Fall betrifft, können Sie nicht hinterlegen; die Antwort auf einen Fall bleibt kostenlos. Mail an <a href="mailto:${SITE.kontakt}?subject=Zusage%20[Anbietername]">${SITE.kontakt}</a>, Betreff „Zusage [Anbietername]“.</p>
+<p><strong>Was das Geld nie kauft:</strong> keinen Status, kein Wort im Profil, keine Reihenfolge, keine Löschung, keinen Einfluss auf einen Fall, keinen milderen Ausgang. Ein bezahlter Eintrag wird genauso geprüft und genauso gezählt wie jeder andere.</p>
+<p><strong>Öffentliche Grenze:</strong> Einnahmen von gelisteten Anbietern dürfen nie mehr als ein Drittel der Gesamteinnahmen von belegbar.eu ausmachen. Wird die Grenze erreicht, nehmen wir keine weiteren Anträge und Zusagen an, bis sie wieder unterschritten ist. Der Stand steht in der <a href="../methodik/#unabhaengigkeit">Methodik</a>.</p>
+<p>Alle Preise ohne Umsatzsteuer (Kleinunternehmer nach § 19 UStG). Regel seit 16.09.2026; der Wortlaut davor steht in der Methodik unter <a href="../methodik/#regelaenderungen">Regeländerungen</a>.</p>
+
 <h2 id="nicht">Was wir nicht annehmen</h2>
 <ul>
 <li>Kein Logo, kein Badge, kein Link-Tausch, keine „Partner“-Kennzeichnung.</li>
-<li>Keine Testzugänge, Guthaben, Rabatte oder Bezahlung — nicht für Einträge, nicht für Status, nicht für Fälle. Angebote dieser Art dokumentieren wir auf Anfrage.</li>
+<li>Keine Testzugänge, Guthaben, Rabatte oder Bezahlung für Einträge, Status oder Fälle. Geld nehmen wir nur als <a href="#eintritt">Eintritt zum veröffentlichten Festpreis</a>, sonst nicht. Andere Angebote dokumentieren wir auf Anfrage.</li>
 <li>Keine Änderung der Reihenfolge, keine Löschung öffentlich belegbarer Angaben. Korrekturen mit Beleg: jederzeit.</li>
 </ul>
 <p>Die vollständigen Regeln zur Unabhängigkeit stehen in der <a href="../methodik/#unabhaengigkeit">Methodik</a>. Die Daten stehen unter CC BY 4.0; Ihr Profil und alles, was Sie belegen, darf jeder zitieren.</p>
 </article>`;
   return layout({
     titel: "Für Anbieter: Belege nachreichen, Fälle beantworten, Verified beantragen | belegbar.eu",
-    beschreibung: "Was ein KI-Anbieter auf belegbar.eu tun kann: Belege nachreichen (Prüfung binnen sieben Tagen), einen Fall beantworten (Antwort erscheint wörtlich), den datierten Verified-Stempel beantragen. Kostenlos, ohne Gegenleistung.",
+    beschreibung: "Was ein KI-Anbieter auf belegbar.eu tun kann: Belege nachreichen (Prüfung binnen sieben Tagen), einen Fall beantworten (Antwort erscheint wörtlich), den datierten Verified-Stempel beantragen. Kostenlos, ohne Gegenleistung; Aufnahme auf Antrag und hinterlegte Zusagen zum veröffentlichten Festpreis.",
     inhalt, rel: "../", pfad: "fuer-anbieter/",
     jsonld: brotkrumenLd([["", "Anbieter"], ["fuer-anbieter/", "Für Anbieter"]]),
+  });
+}
+
+function seiteFuerKaeufer() {
+  const inhalt = `
+<article class="artikel">
+<h1>Für Käufer: das Anbieter-Dossier</h1>
+<p>Sie müssen einen KI-Anbieter freigeben und brauchen dafür etwas, das Sie unterschreiben können. Alles, was diese Datenbank über den Anbieter weiß, steht kostenlos in seinem Profil. Das Dossier ist dieselbe Information, zusammengestellt, datiert und unterschrieben, damit Sie sie nicht selbst nachbauen müssen.</p>
+<p><strong>Was Sie bekommen, 390 € je Anbieter, ohne Umsatzsteuer (Kleinunternehmer nach § 19 UStG):</strong> ein datiertes Dokument mit jeder Angabe aus dem Profil, je mit Quelle, Prüfdatum, SHA-256 der Quelle und Archivkopie; ausdrücklich den Abschnitt „nicht belegbar“, also was wir trotz Suche nicht gefunden haben; die offenen und ausgeräumten <a href="../faelle/">Fälle</a> mit Verlauf; dazu zwölf Monate Änderungsalarm per Mail, wenn der monatliche Quellenlauf bei diesem Anbieter etwas findet: ein Zertifikat läuft ab, ein Subprozessor kommt dazu, ein Fall wird eröffnet. Lieferung binnen fünf Werktagen, unterschrieben vom Betreiber.</p>
+<p><strong>Was Sie nicht bekommen:</strong> keine Bewertung, keine Empfehlung, kein „geeignet“ oder „ungeeignet“, keine Rechtsberatung. Nichts, was nicht auch im öffentlichen Profil steht oder stehen könnte. Wenn Sie die Stunden selbst haben, brauchen Sie das Dossier nicht.</p>
+<p><strong>Was das für die Datenbank bedeutet:</strong> Das Dossier ist eine Leistung des Betreibers, nicht der Datenbank. Es ändert nichts am Profil des Anbieters, und der Anbieter erfährt nicht, wer ein Dossier bestellt hat. Die Daten bleiben CC BY 4.0. Die Regeln zur Unabhängigkeit stehen in der <a href="../methodik/#unabhaengigkeit">Methodik</a>.</p>
+<p>Bestellung: Mail an <a href="mailto:${SITE.kontakt}?subject=Dossier%20[Anbietername]">${SITE.kontakt}</a>, Betreff „Dossier [Anbietername]“.</p>
+</article>`;
+  return layout({
+    titel: "Für Käufer: das Anbieter-Dossier | belegbar.eu",
+    beschreibung: "Ein datiertes, unterschriebenes Dossier zu einem KI-Anbieter für Datenschutzbeauftragte und Einkauf: jede Angabe mit Quelle, Prüfdatum und Hash, der Abschnitt „nicht belegbar“, die Fälle, zwölf Monate Änderungsalarm. 390 €, ohne Umsatzsteuer.",
+    inhalt, rel: "../", pfad: "fuer-kaeufer/",
+    jsonld: brotkrumenLd([["", "Anbieter"], ["fuer-kaeufer/", "Für Käufer"]]),
   });
 }
 
@@ -923,10 +949,10 @@ ${belegZeile("unbelegt", "Wir haben keine belastbare Angabe gefunden. Auch das i
 <p>Diese Datenbank ist nur so viel wert wie ihre Neutralität. Deshalb gilt für alle gelisteten Anbieter dieselbe Regel, ohne Ausnahme für die am besten belegten:</p>
 <ul>
 <li><strong>Kein Logo, kein Badge, kein Link-Tausch.</strong> Auf belegbar.eu erscheint kein Anbieter-Logo und keine „Partner“-Kennzeichnung. Wir setzen keine Affiliate-Links und nehmen an keinem Empfehlungsprogramm teil.</li>
-<li><strong>Keine Gegenleistung für Einträge oder Status.</strong> Wir nehmen keine Testzugänge, Guthaben, Tokens, Rabatte oder Bezahlung dafür an, dass ein Anbieter gelistet, ein Status vergeben, ein Fall eröffnet, verzögert oder ausgeräumt wird. Angebote dieser Art lehnen wir ab und dokumentieren sie auf Anfrage.</li>
+<li><strong>Keine Gegenleistung für Einträge oder Status.</strong> Wir nehmen keine Testzugänge, Guthaben, Tokens, Rabatte oder Bezahlung dafür an, dass ein Anbieter gelistet, ein Status vergeben, ein Fall eröffnet, verzögert oder ausgeräumt wird. Angebote dieser Art lehnen wir ab und dokumentieren sie auf Anfrage. Die einzige Ausnahme ist der Eintritt zum veröffentlichten Festpreis: ein Anbieter kann seine <a href="../fuer-anbieter/#eintritt">Aufnahme beantragen oder eine Zusage hinterlegen</a> lassen. Beides ist Arbeit auf seinen Wunsch, wird im Profil ausgewiesen und ändert weder Status noch Wortlaut noch Reihenfolge. Regel seit 16.09.2026.</li>
 <li><strong>Keine Sponsorenposts.</strong> Wenn wir über einen Anbieter schreiben oder posten, dann weil die Belege es hergeben — nicht, weil er uns darum gebeten oder dafür etwas geboten hat.</li>
 </ul>
-<p><strong>Finanzierung, Stand 28.08.2026:</strong> belegbar.eu wird privat von <a href="${SITE.baseUrl}/ueber/">Felix Lind</a> betrieben und bezieht keine Einnahmen. Sollte sich das je ändern, gilt: Bezahlte Leistungen dürfen weder Statusstufen noch Reihenfolge, Verified-Kennzeichen oder Fälle beeinflussen, und jede Einnahmequelle wird an dieser Stelle mit Datum ausgewiesen. Fehlt hier ein Eintrag, gibt es keine.</p>
+<p><strong>Finanzierung, Stand 16.09.2026:</strong> belegbar.eu wird privat von <a href="${SITE.baseUrl}/ueber/">Felix Lind</a> betrieben und hat bisher keine Einnahmen. belegbar.eu betreibt keine eigene KI-Infrastruktur und ist an keinem gelisteten Anbieter beteiligt. Seit dem 16.09.2026 gibt es drei bezahlte Leistungen, alle zum veröffentlichten Festpreis und ohne Umsatzsteuer (Kleinunternehmer nach § 19 UStG): das <a href="../fuer-kaeufer/">Anbieter-Dossier für die Käuferseite</a> (390 €), die <a href="../fuer-anbieter/#eintritt">Aufnahme auf eigenen Antrag</a> (490 €) und die <a href="../fuer-anbieter/#eintritt">hinterlegte Zusage</a> (190 €). Es gilt: Bezahlte Leistungen beeinflussen weder Statusstufen noch Reihenfolge, Verified-Kennzeichen oder Fälle; Einnahmen von gelisteten Anbietern bleiben unter einem Drittel der Gesamteinnahmen; jede Einnahmequelle wird an dieser Stelle mit Datum ausgewiesen. Fehlt hier ein Eintrag, gibt es keine. Stand der Einnahmen: 0 € (16.09.2026).</p>
 
 <h2 id="verified">Verified-Stempel: Was er bedeutet und wie man ihn bekommt</h2>
 <p>Der Stempel „Verified“ mit Datum sagt nicht „geprüft gut“. Er sagt: <em>Dieser Anbieter hat sich an seine Aussagen gebunden.</em> Er hat die Dokumente selbst benannt, wir haben sie geprüft, und eine benannte Rolle im Unternehmen hat das Profil gegengelesen. Ab dann ist jede Abweichung zwischen Dokument und Website ein Fall, den der Anbieter selbst mit Datum unterschrieben hat. Regel seit 06.09.2026 (vorher genügte es, überhaupt Nachweise einzureichen):</p>
@@ -962,8 +988,12 @@ ${belegZeile("unbelegt", "Wir haben keine belastbare Angabe gefunden. Auch das i
 <h2>Lizenz</h2>
 <p>Die Daten dieser Datenbank stehen unter <a href="https://creativecommons.org/licenses/by/4.0/deed.de" rel="noopener" target="_blank">CC BY 4.0</a>: Nutzung und Zitat sind frei — mit Namensnennung „belegbar.eu“ und Angabe des Prüfdatums. Maschinenlesbare Rohdaten: <a href="${SITE.baseUrl}/daten.json">daten.json</a>.</p>
 
-<h2>Unabhängigkeit</h2>
-<p>belegbar.eu betreibt keine eigene KI-Infrastruktur und ist an keinem gelisteten Anbieter beteiligt. Etwaige künftige Sponsorings werden als solche gekennzeichnet und haben keinen Einfluss auf Statusbewertungen.</p>
+<h2 id="regelaenderungen">Regeländerungen</h2>
+<p>Diese Seite ändert sich. Jede Änderung einer Regel steht hier mit Datum, damit niemand raten muss, was wann galt. Die <a href="https://github.com/Felix3c/belegt/commits/main/build.js" rel="noopener" target="_blank">Git-Historie der Seite</a> ist der Beleg.</p>
+<ul>
+<li><strong>06.09.2026, Verified-Stempel.</strong> Vorher: es genügte, überhaupt Nachweise einzureichen. Seither: drei Felder belegt, Speicherfrage beantwortet, Rolle hat gegengelesen, Stempel datiert. Grund: ein Stempel ohne Bindung war nichts wert.</li>
+<li><strong>16.09.2026, Geld von Anbietern.</strong> Vorher: „Keine Bezahlung, nicht für Einträge, nicht für Status, nicht für Fälle.“ Seither: Bezahlung nur als Eintritt zum veröffentlichten Festpreis (Aufnahme auf Antrag, hinterlegte Zusage), ausgewiesen im Profil, gedeckelt auf ein Drittel der Einnahmen, ohne Einfluss auf Status, Wortlaut, Reihenfolge oder Fälle. Dazu das Anbieter-Dossier für Käufer als Leistung des Betreibers. Der Satz „Etwaige künftige Sponsorings werden als solche gekennzeichnet“ am Ende dieser Seite ist gestrichen; er widersprach „Keine Sponsorenposts“. Grund: Wer sich auf eigenen Wunsch prüfen oder festnageln lässt, trägt das Risiko selbst; das ist keine Gegenleistung, sondern Eintritt.</li>
+</ul>
 </article>`;
   return layout({
     titel: "Methodik — was „belegt“ heißt | belegbar.eu",
@@ -1110,7 +1140,8 @@ ${guideZeilen}
 ## Methodik und Hintergrund
 
 - [Methodik](${SITE.baseUrl}/methodik/): Was „belegt“ heißt, die drei Statusstufen, Beleg-Quote, die Verified-Regel und die Regeln für Fälle
-- [Für Anbieter](${SITE.baseUrl}/fuer-anbieter/): Belege nachreichen (Prüfung binnen sieben Tagen), Fälle beantworten, Verified-Stempel beantragen — kostenlos, ohne Gegenleistung
+- [Für Anbieter](${SITE.baseUrl}/fuer-anbieter/): Belege nachreichen (Prüfung binnen sieben Tagen), Fälle beantworten, Verified-Stempel beantragen — kostenlos, ohne Gegenleistung; daneben Aufnahme auf eigenen Antrag und hinterlegte Zusagen zum veröffentlichten Festpreis
+- [Für Käufer](${SITE.baseUrl}/fuer-kaeufer/): das Anbieter-Dossier, datiert und unterschrieben, für Datenschutzbeauftragte und Einkauf
 - [Direktvergleiche](${SITE.baseUrl}/vergleich/): Anbieter derselben Kategorie Feld für Feld gegenübergestellt
 - [Über & Impressum](${SITE.baseUrl}/ueber/): Betreiber und Kontakt
 `;
@@ -1651,6 +1682,7 @@ function main() {
   // Rohdaten je Fall, wie daten.json je Profil: Zitate, Hashes, Snapshots, Antworten, Verlauf — für alle, die zitieren.
   faelle.forEach((f) => fs.writeFileSync(path.join(OUT, "faelle", f.slug, "daten.json"), JSON.stringify({ ...f, url: `${SITE.baseUrl}/faelle/${f.slug}/`, lizenz: "CC BY 4.0", stand }, null, 2)));
   schreibe("fuer-anbieter/index.html", seiteFuerAnbieter());
+  schreibe("fuer-kaeufer/index.html", seiteFuerKaeufer());
   schreibe("aenderungen/index.html", seiteAenderungen(aenderungen, providers, faelle, stand));
   fs.writeFileSync(path.join(OUT, "aenderungen", "feed.xml"), A.atomFeed(aenderungen, { baseUrl: SITE.baseUrl, name: SITE.name, anbieterName: (id) => (providers.find((p) => p.id === id) || {}).name || id, heute: BUILD_DATUM }));
   schreibe("methodik/index.html", seiteMethodik());
@@ -1710,7 +1742,7 @@ function main() {
   // Sitemap. lastmod kommt aus dem Ledger, also aus dem tatsächlichen Änderungsdatum der Seite —
   // nicht aus dem Prüfdatum der Anbieterdaten. Beides fiel auseinander, sobald sich das Template
   // änderte: Der Inhalt war neu, das lastmod blieb alt, und Crawler kamen nicht wieder.
-  const urls = ["", "fragen/", "zertifikate/", "faelle/", "aenderungen/", "vergleich/", "ratgeber/", "methodik/", "fuer-anbieter/", "ueber/", "datenschutz/"]
+  const urls = ["", "fragen/", "zertifikate/", "faelle/", "aenderungen/", "vergleich/", "ratgeber/", "methodik/", "fuer-anbieter/", "fuer-kaeufer/", "ueber/", "datenschutz/"]
     .concat(fragen.map((f) => `fragen/${f.slug}/`))
     .concat(faelle.map((f) => `faelle/${f.slug}/`))
     .concat(facetten.map((e) => `zertifikate/${e.schluessel}/`))

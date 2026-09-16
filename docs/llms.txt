@@ -76,6 +76,7 @@ Jede Status- und Quellenänderung, jeder Fall-Statuswechsel und jede Aufnahme ei
 ## Methodik und Hintergrund
 
 - [Methodik](https://belegbar.eu/methodik/): Was „belegt“ heißt, die drei Statusstufen, Beleg-Quote, die Verified-Regel und die Regeln für Fälle
-- [Für Anbieter](https://belegbar.eu/fuer-anbieter/): Belege nachreichen (Prüfung binnen sieben Tagen), Fälle beantworten, Verified-Stempel beantragen — kostenlos, ohne Gegenleistung
+- [Für Anbieter](https://belegbar.eu/fuer-anbieter/): Belege nachreichen (Prüfung binnen sieben Tagen), Fälle beantworten, Verified-Stempel beantragen — kostenlos, ohne Gegenleistung; daneben Aufnahme auf eigenen Antrag und hinterlegte Zusagen zum veröffentlichten Festpreis
+- [Für Käufer](https://belegbar.eu/fuer-kaeufer/): das Anbieter-Dossier, datiert und unterschrieben, für Datenschutzbeauftragte und Einkauf
 - [Direktvergleiche](https://belegbar.eu/vergleich/): Anbieter derselben Kategorie Feld für Feld gegenübergestellt
 - [Über & Impressum](https://belegbar.eu/ueber/): Betreiber und Kontakt

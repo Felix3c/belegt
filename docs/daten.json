@@ -3305,7 +3305,7 @@
       "quelle_neu": null,
       "grund": null,
       "commit": {
-        "sha": "d105ef1",
+        "sha": "d9e889c",
         "betreff": "feat: Fall 2026-004 beantwortet (Scaleway kündigt qualifizierten AI-Act-Satz an)"
       }
     },
@@ -3323,7 +3323,7 @@
       "quelle_neu": null,
       "grund": null,
       "commit": {
-        "sha": "957ada4",
+        "sha": "163bc17",
         "betreff": "docs: Prüfung 08.09. — Requesty auf „bestätigt“ (Frist abgelaufen, DPA-Satz unverändert), GreenPT Footer unverändert; Rohkopien, Hashes, Wayback"
       }
     },
@@ -3341,7 +3341,7 @@
       "quelle_neu": null,
       "grund": null,
       "commit": {
-        "sha": "84c3412",
+        "sha": "5707aec",
         "betreff": "feat: Fall 2026-002 — Status bestätigt (Antwort bestätigt den Befund, Footer unverändert), Anmerkung und Verlauf"
       }
     },
@@ -3359,7 +3359,7 @@
       "quelle_neu": null,
       "grund": null,
       "commit": {
-        "sha": "dbd5d30",
+        "sha": "0d26e68",
         "betreff": "feat: Fall 2026-002 — Antwort GreenPT (Robert Keus, 01.09.) wörtlich eingetragen, Status beantwortet; Profil-Anmerkung ISO 27001"
       }
     },
@@ -3377,7 +3377,7 @@
       "quelle_neu": null,
       "grund": null,
       "commit": {
-        "sha": "63dcfad",
+        "sha": "5293015",
         "betreff": "feat: Fall 2026-002 veröffentlicht (GreenPT, ISO 27001)"
       }
     },
@@ -3395,7 +3395,7 @@
       "quelle_neu": null,
       "grund": null,
       "commit": {
-        "sha": "ebc1f48",
+        "sha": "3164894",
         "betreff": "fix: Fall 2026-001 — Antwort von Requesty vom 25.08. wörtlich eingetragen, Status beantwortet; Anmerkung zu Antworten gerendert"
       }
     },
@@ -3413,7 +3413,7 @@
       "quelle_neu": null,
       "grund": null,
       "commit": {
-        "sha": "d70d311",
+        "sha": "46f3c54",
         "betreff": "feat: Fall 2026-001 veröffentlicht"
       }
     },
@@ -3429,7 +3429,7 @@
       "quelle_neu": "https://www.deepl.com/de/blog/c5-type2-attestation",
       "grund": "C5-Typ-2-Testat des BSI, von DeepL am 03.10.2025 im eigenen Blog und per Pressemitteilung bestätigt (114 Kriterien, Wirksamkeitsnachweis über mindestens sechs Monate). Gleichlautende Pressemitteilung auf deepl.com/de/press-release/. Einschränkung: Der Testatsbericht selbst ist nicht öffentlich, ein prüfender Wirtschaftsprüfer wird nicht genannt; belegt ist die datierte Anbieteraussage über ein erteiltes Testat, nicht der Bericht. Früherer Stand bis 24.08.2026: beansprucht (Selbstverpflichtung im Trust Center) — die Angabe war veraltet.",
       "commit": {
-        "sha": "ebfa861",
+        "sha": "70c566e",
         "betreff": "feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen"
       }
     },
@@ -3445,7 +3445,7 @@
       "quelle_neu": "https://blog.ovhcloud.com/en/posts/ai-act-in-a-nutshell/",
       "grund": null,
       "commit": {
-        "sha": "ebfa861",
+        "sha": "70c566e",
         "betreff": "feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen"
       }
     },
@@ -3461,7 +3461,7 @@
       "quelle_neu": "https://www.ovhcloud.com/en/compliance/",
       "grund": null,
       "commit": {
-        "sha": "ebfa861",
+        "sha": "70c566e",
         "betreff": "feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen"
       }
     },
@@ -3477,7 +3477,7 @@
       "quelle_neu": "https://www.ovhcloud.com/en/compliance/",
       "grund": null,
       "commit": {
-        "sha": "ebfa861",
+        "sha": "70c566e",
         "betreff": "feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen"
       }
     },
@@ -3493,7 +3493,7 @@
       "quelle_neu": "https://www.ovhcloud.com/en/compliance/",
       "grund": null,
       "commit": {
-        "sha": "ebfa861",
+        "sha": "70c566e",
         "betreff": "feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen"
       }
     },
@@ -3509,7 +3509,7 @@
       "quelle_neu": "https://www.ovhcloud.com/en/compliance/",
       "grund": null,
       "commit": {
-        "sha": "ebfa861",
+        "sha": "70c566e",
         "betreff": "feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen"
       }
     },
@@ -3525,7 +3525,7 @@
       "quelle_neu": "https://www.ovhcloud.com/en/compliance/",
       "grund": null,
       "commit": {
-        "sha": "ebfa861",
+        "sha": "70c566e",
         "betreff": "feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen"
       }
     },
@@ -3541,7 +3541,7 @@
       "quelle_neu": "https://www.ovhcloud.com/en/compliance/",
       "grund": null,
       "commit": {
-        "sha": "ebfa861",
+        "sha": "70c566e",
         "betreff": "feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen"
       }
     },
@@ -3557,7 +3557,7 @@
       "quelle_neu": "https://docs.requesty.ai/quickstart",
       "grund": null,
       "commit": {
-        "sha": "ebfa861",
+        "sha": "70c566e",
         "betreff": "feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen"
       }
     },
@@ -3573,7 +3573,7 @@
       "quelle_neu": null,
       "grund": "Beleg verloren: Bis mindestens 19.08.2026 war der \"AVV STACKIT Cloud, Stand Januar 2022, Version 1.0\" als PDF unter www.stackit.de öffentlich abrufbar. Beim Quellen-Check am 24.08.2026 leitet die gesamte Domain www.stackit.de auf die Startseite stackit.com/de um; das Dokument ist dort nicht mehr auffindbar, und weder stackit.com/de/compliance noch die Zertifikatsseite bieten einen AVV zum Download. Das heißt nicht, dass STACKIT keinen AVV hätte — es heißt, dass er nicht mehr öffentlich nachweisbar ist. Tote Beleg-URL: https://www.stackit.de/wp-content/uploads/2022/06/Auftragsverarbeitungsvertrag_STACKIT-Cloud_Stand-Januar-2022_Version-1.0.pdf",
       "commit": {
-        "sha": "ebfa861",
+        "sha": "70c566e",
         "betreff": "feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen"
       }
     },
@@ -3589,7 +3589,7 @@
       "quelle_neu": "https://www.t-cloud-public.com/_Resources/Persistent/7/4/4/5/744591c2cdff8be6c3876c3bf6e187fb024cad04/OTC%20ErgB-AV%20TDG_DE.pdf",
       "grund": null,
       "commit": {
-        "sha": "ebfa861",
+        "sha": "70c566e",
         "betreff": "feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen"
       }
     },
@@ -3605,7 +3605,7 @@
       "quelle_neu": "https://bfl.ai",
       "grund": null,
       "commit": {
-        "sha": "669f6db",
+        "sha": "3f175a2",
         "betreff": "feat: 5 neue Anbieter — GreenPT, Infomaniak, Gcore, DeepL, Black Forest Labs (21 Anbieter, 76 Vergleiche)"
       }
     },
@@ -3621,7 +3621,7 @@
       "quelle_neu": "https://www.deepl.com",
       "grund": null,
       "commit": {
-        "sha": "669f6db",
+        "sha": "3f175a2",
         "betreff": "feat: 5 neue Anbieter — GreenPT, Infomaniak, Gcore, DeepL, Black Forest Labs (21 Anbieter, 76 Vergleiche)"
       }
     },
@@ -3637,7 +3637,7 @@
       "quelle_neu": "https://gcore.com",
       "grund": null,
       "commit": {
-        "sha": "669f6db",
+        "sha": "3f175a2",
         "betreff": "feat: 5 neue Anbieter — GreenPT, Infomaniak, Gcore, DeepL, Black Forest Labs (21 Anbieter, 76 Vergleiche)"
       }
     },
@@ -3653,7 +3653,7 @@
       "quelle_neu": "https://greenpt.com",
       "grund": null,
       "commit": {
-        "sha": "669f6db",
+        "sha": "3f175a2",
         "betreff": "feat: 5 neue Anbieter — GreenPT, Infomaniak, Gcore, DeepL, Black Forest Labs (21 Anbieter, 76 Vergleiche)"
       }
     },
@@ -3669,7 +3669,7 @@
       "quelle_neu": "https://www.infomaniak.com/en/hosting/ai-services",
       "grund": null,
       "commit": {
-        "sha": "669f6db",
+        "sha": "3f175a2",
         "betreff": "feat: 5 neue Anbieter — GreenPT, Infomaniak, Gcore, DeepL, Black Forest Labs (21 Anbieter, 76 Vergleiche)"
       }
     },
