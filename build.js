@@ -383,7 +383,7 @@ ${inhalt}
   <div class="shell">
     <p><strong>belegbar.eu</strong> — ${esc(SITE.claim)}</p>
     <p>Statusstufen: <span class="status s-belegt"><span class="dot"></span>belegt</span> = Primärquelle verlinkt · <span class="status s-beansprucht"><span class="dot"></span>beansprucht</span> = Anbieterangabe ohne Dokument · <span class="status s-unbelegt"><span class="dot"></span>unbelegt</span> = keine belastbare Angabe gefunden. Details in der <a href="${rel}methodik/">Methodik</a>.</p>
-    <p>Keine Rechtsberatung. Fehler gefunden? <a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a> · <a href="${rel}fuer-anbieter/">Für Anbieter</a> · <a href="${rel}ueber/">Impressum &amp; Über</a></p>
+    <p>Keine Rechtsberatung. Fehler gefunden? <a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a> · <a href="${rel}fuer-anbieter/">Für Anbieter</a> · <a href="${rel}ueber/">Impressum &amp; Über</a> · <a href="${rel}datenschutz/">Datenschutz</a></p>
   </div>
 </footer>
 </body>
@@ -985,14 +985,78 @@ Felix Lind<br>
 Euskirchener Straße 55<br>
 40547 Düsseldorf<br>
 E-Mail: <a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a></p>
+<p>Betreiber: Felix Lind, natürliche Person; keine Handelsregister-Eintragung, keine Umsatzsteuer-Identifikationsnummer.</p>
 <p>Verantwortlich für den Inhalt: Felix Lind (Anschrift wie oben).</p>
 <h2>Datenschutz</h2>
-<p>Diese Website setzt keine Cookies, lädt keine Tracker, bindet keine Drittanbieter-Dienste ein (auch Schriften werden lokal ausgeliefert) und speichert keine personenbezogenen Daten. Beim Aufruf fallen lediglich die technisch notwendigen Server-Logs des Hosters an.</p>
+<p>Diese Website setzt keine Cookies, lädt keine Tracker und keine Drittanbieter-Dienste; welche Daten beim Aufruf, bei Kontaktaufnahme und in der Datenbank verarbeitet werden, steht in der <a href="../datenschutz/">Datenschutzerklärung</a>.</p>
 </article>`;
   return layout({
     titel: "Über & Impressum | belegbar.eu",
     beschreibung: "Warum es belegbar.eu gibt, wer dahinter steht und wie Sie uns erreichen.",
     inhalt, rel: "../", pfad: "ueber/",
+  });
+}
+
+/** Datenschutzerklärung. Jede Aussage über Drittanbieter folgt dem Befund im gebauten docs/:
+ *  keine externen Skripte, Schriften, Bilder oder Einbettungen (Stand 16.09.2026). Ändert sich
+ *  das, muss dieser Text mitziehen. */
+function seiteDatenschutz() {
+  const inhalt = `
+<article class="artikel">
+<h1>Datenschutzerklärung</h1>
+<p>Diese Erklärung beschreibt, welche personenbezogenen Daten beim Besuch von belegbar.eu, bei Kontaktaufnahme und in der Datenbank verarbeitet werden, auf welcher Rechtsgrundlage das geschieht und welche Rechte Sie haben.</p>
+
+<h2 id="verantwortlicher">1. Verantwortlicher</h2>
+<p>Felix Lind<br>
+Euskirchener Straße 55<br>
+40547 Düsseldorf<br>
+E-Mail: <a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a></p>
+<p>Weitere Angaben stehen im <a href="../ueber/">Impressum</a>. Ein Datenschutzbeauftragter ist nicht bestellt.</p>
+
+<h2 id="hosting">2. Hosting und Server-Logs</h2>
+<p>Die Website wird als statische Seite über GitHub Pages ausgeliefert, einen Dienst der GitHub, Inc., San Francisco (USA); GitHub nennt in seiner Datenschutzerklärung daneben die GitHub B.V., Amsterdam (Niederlande), als europäische Gesellschaft. Beim Aufruf einer Seite übermittelt Ihr Browser technisch bedingt Daten an die Server von GitHub, darunter Ihre IP-Adresse, die aufgerufene Adresse, Datum und Uhrzeit, den Referrer und die Kennung Ihres Browsers. GitHub speichert diese Daten in Server-Logs zu Sicherheitszwecken; wir selbst haben auf diese Logs keinen Zugriff und werten sie nicht aus.</p>
+<p>Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse liegt darin, die Website sicher und zuverlässig auszuliefern, ohne dafür eigene Server betreiben zu müssen. Wie GitHub mit diesen Daten umgeht, beschreibt die <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub General Privacy Statement</a>. Da GitHub seinen Sitz in den USA hat, kann eine Übermittlung in ein Drittland stattfinden; GitHub gibt an, sich auf die EU-Standardvertragsklauseln und das EU-US Data Privacy Framework zu stützen.</p>
+
+<h2 id="cookies">3. Cookies, Tracking, Analyse</h2>
+<p>Diese Website setzt keine Cookies, verwendet keine Tracking-Pixel, kein Fingerprinting und keine Analyse-Dienste. Es gibt keine Einwilligungsabfrage, weil es nichts gibt, in das eingewilligt werden müsste. Die Website ist in der Google Search Console angemeldet; dieses Werkzeug wertet ausschließlich Daten aus Googles eigener Suche aus und lädt auf dieser Website nichts nach.</p>
+
+<h2 id="drittanbieter">4. Eingebundene Inhalte Dritter</h2>
+<p>Die Website lädt keine Inhalte von fremden Servern: keine externen Skripte, keine Web-Schriften von Google Fonts oder anderen Anbietern (die Schriften IBM Plex liegen auf demselben Server wie die Seiten), keine eingebetteten Karten, Videos oder Social-Media-Elemente. Das Favicon ist im Seitenquelltext enthalten. Beim reinen Lesen der Seiten erfährt außer dem Hoster niemand, dass Sie hier waren.</p>
+<p>Die Datenbank verweist mit Links auf Dokumente der gelisteten Anbieter und auf archivierte Kopien beim Internet Archive (web.archive.org). Erst wenn Sie einen solchen Link anklicken, verlassen Sie diese Website; ab dann gelten die Datenschutzbestimmungen des jeweiligen Betreibers.</p>
+
+<h2 id="kontakt">5. Kontakt per E-Mail</h2>
+<p>Wenn Sie uns an <a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a> schreiben, verarbeiten wir Ihre E-Mail-Adresse, den Inhalt der Nachricht und die von Ihnen angegebenen Daten, um Ihr Anliegen zu bearbeiten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO; unser berechtigtes Interesse ist die Beantwortung von Anfragen, Korrekturhinweisen und Anbieter-Antworten. Die Nachrichten werden gelöscht, sobald das Anliegen erledigt ist und keine Aufbewahrungspflicht entgegensteht. Antworten von Anbietern zu einem <a href="../faelle/">Fall</a> werden, wie in der <a href="../methodik/#faelle">Methodik</a> beschrieben, wörtlich veröffentlicht, jedoch ohne die Namen der Mitarbeitenden, die sie geschrieben haben.</p>
+
+<h2 id="anbieterdaten">6. Angaben zu Anbietern in der Datenbank</h2>
+<p>Die Datenbank enthält Angaben über Unternehmen, die KI-Dienste in Europa anbieten: Hosting-Standorte, Zertifikate, Vertragsdokumente, Subprozessorenlisten, Preise. Diese Angaben stammen ausschließlich aus den eigenen Veröffentlichungen der Unternehmen und werden mit Quelle, Prüfdatum und Prüfsumme (Hash) der abgerufenen Seite gespeichert. Angaben zu Unternehmen sind in der Regel keine personenbezogenen Daten. Wo Personen vorkommen, etwa als Ansprechpartner für einen Beleg oder als Gegenleser eines Profils, erscheinen sie ausschließlich mit ihrer Funktionsbezeichnung (zum Beispiel „Privacy Team“ oder „Datenschutzbeauftragter“), nicht mit Namen. Antworten auf Fälle werden ohne Namen von Mitarbeitenden veröffentlicht.</p>
+<p>Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Das berechtigte Interesse besteht darin, Käufer, Datenschutzbeauftragte und Einkäufer über belegbare Eigenschaften von KI-Anbietern zu informieren; die Anbieter haben die Angaben selbst veröffentlicht und müssen mit ihrer Wiedergabe rechnen. Anbieter können jederzeit per E-Mail an <a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a> die Berichtigung einer Angabe verlangen; jede Änderung erscheint datiert im <a href="../aenderungen/">Änderungsprotokoll</a>. Das Verfahren steht auf der Seite <a href="../fuer-anbieter/">Für Anbieter</a>.</p>
+
+<h2 id="dossier">7. Auftraggeber von Dossiers (geplantes Angebot)</h2>
+<p>Wir planen, auf Anfrage Dossiers zu einzelnen Anbietern zu erstellen und die enthaltenen Angaben über zwölf Monate auf Änderungen zu überwachen. Wer ein solches Dossier beauftragt, teilt uns dazu Name, Organisation und E-Mail-Adresse mit. Diese Daten verarbeiten wir, um das Dossier zu erstellen, zuzustellen und den Änderungsalarm während der zwölf Monate zu versenden. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Erfüllung eines Vertrags). Die Daten werden nach Ablauf der zwölf Monate gelöscht, soweit keine gesetzliche Aufbewahrungspflicht, etwa für Rechnungen, eine längere Speicherung verlangt. Eine Weitergabe an Dritte, auch an den Anbieter, um den es im Dossier geht, findet nicht statt.</p>
+
+<h2 id="rechte">8. Ihre Rechte</h2>
+<p>Soweit wir personenbezogene Daten von Ihnen verarbeiten, haben Sie nach der DSGVO folgende Rechte:</p>
+<ul>
+<li>Auskunft über die zu Ihrer Person gespeicherten Daten (Art. 15),</li>
+<li>Berichtigung unrichtiger Daten (Art. 16),</li>
+<li>Löschung (Art. 17),</li>
+<li>Einschränkung der Verarbeitung (Art. 18),</li>
+<li>Datenübertragbarkeit (Art. 20),</li>
+<li>Widerspruch gegen eine Verarbeitung, die auf Art. 6 Abs. 1 lit. f DSGVO gestützt ist, aus Gründen, die sich aus Ihrer besonderen Situation ergeben (Art. 21).</li>
+</ul>
+<p>Zur Ausübung dieser Rechte genügt eine E-Mail an <a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a>.</p>
+
+<h2 id="beschwerde">9. Beschwerderecht</h2>
+<p>Sie haben das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren (Art. 77 DSGVO). Zuständig für den Verantwortlichen ist die Landesbeauftragte für Datenschutz und Informationsfreiheit Nordrhein-Westfalen (LDI NRW), Kavalleriestraße 2–4, 40213 Düsseldorf, <a href="https://www.ldi.nrw.de/" rel="noopener">www.ldi.nrw.de</a>.</p>
+
+<h2 id="stand">10. Stand</h2>
+<p>Stand dieser Erklärung: 16. September 2026. Ändert sich die Technik der Website oder das Angebot, wird diese Erklärung angepasst; das Datum hier zeigt die letzte Änderung.</p>
+</article>`;
+  return layout({
+    titel: "Datenschutzerklärung | belegbar.eu",
+    beschreibung: "Welche Daten belegbar.eu beim Besuch, bei Kontaktaufnahme und in der Anbieter-Datenbank verarbeitet: Hosting bei GitHub Pages, keine Cookies, keine Tracker, keine Drittanbieter-Einbettungen.",
+    inhalt, rel: "../", pfad: "datenschutz/",
+    jsonld: brotkrumenLd([["", "Anbieter"], ["datenschutz/", "Datenschutz"]]),
   });
 }
 
@@ -1591,6 +1655,7 @@ function main() {
   fs.writeFileSync(path.join(OUT, "aenderungen", "feed.xml"), A.atomFeed(aenderungen, { baseUrl: SITE.baseUrl, name: SITE.name, anbieterName: (id) => (providers.find((p) => p.id === id) || {}).name || id, heute: BUILD_DATUM }));
   schreibe("methodik/index.html", seiteMethodik());
   schreibe("ueber/index.html", seiteUeber());
+  schreibe("datenschutz/index.html", seiteDatenschutz());
   schreibe("404.html", seite404());
 
   // GEO: llms.txt, Volltextfassung und Rohdaten-Export
@@ -1645,7 +1710,7 @@ function main() {
   // Sitemap. lastmod kommt aus dem Ledger, also aus dem tatsächlichen Änderungsdatum der Seite —
   // nicht aus dem Prüfdatum der Anbieterdaten. Beides fiel auseinander, sobald sich das Template
   // änderte: Der Inhalt war neu, das lastmod blieb alt, und Crawler kamen nicht wieder.
-  const urls = ["", "fragen/", "zertifikate/", "faelle/", "aenderungen/", "vergleich/", "ratgeber/", "methodik/", "fuer-anbieter/", "ueber/"]
+  const urls = ["", "fragen/", "zertifikate/", "faelle/", "aenderungen/", "vergleich/", "ratgeber/", "methodik/", "fuer-anbieter/", "ueber/", "datenschutz/"]
     .concat(fragen.map((f) => `fragen/${f.slug}/`))
     .concat(faelle.map((f) => `faelle/${f.slug}/`))
     .concat(facetten.map((e) => `zertifikate/${e.schluessel}/`))
