@@ -7,3 +7,9 @@ Thumbs.db
 outreach/mails/
 PHASE3-STATUS.md
 MESSUNG.md
+
+# Dossiers enthalten Auftraggeber-Namen — nie ins öffentliche Repo
+dossiers/
+# Gespraechsnotizen und Kandidatenlisten enthalten Namen Dritter
+outreach/gespraeche/kandidaten.md
+outreach/gespraeche/05-hansen-oest.md
