@@ -4,7 +4,7 @@
   "anbieter": "scaleway",
   "feld": "vertrag.zero_data_retention",
   "titel": "Scaleway: „no access to, nor knowledge of any inputs and outputs“ — und auf derselben Seite: „we may temporarily store and access the full content of HTTP requests“",
-  "kurz": "Die Doku-Seite „Security and reliability“ zu Scaleways Generative APIs sagt im Abschnitt zum AI Act ohne Vorbehalt, Scaleway habe keinen Zugriff auf und keine Kenntnis von Ein- und Ausgaben der Modelle; die Produktseite wiederholt das („We do not collect, read, reuse, or analyse the content of your inputs, prompts or outputs“). Dieselbe Doku-Seite sagt im Abschnitt „Scaleway access“: Bei Störungen könne Scaleway den vollständigen Inhalt von HTTP-Anfragen vorübergehend speichern und einsehen; die Privacy Policy nennt dafür bis zu zwei Wochen. Beide Aussagen können nicht zugleich uneingeschränkt gelten.",
+  "kurz": "Die Doku-Seite „Security and reliability“ zu Scaleways Generative APIs sagt in ihrem Abschnitt zur Modell-Transparenz ohne Vorbehalt, Scaleway habe keinen Zugriff auf und keine Kenntnis von Ein- und Ausgaben der Modelle; die Produktseite wiederholt das („We do not collect, read, reuse, or analyse the content of your inputs, prompts or outputs“). Dieselbe Doku-Seite sagt im Abschnitt „Scaleway access“: Bei Störungen könne Scaleway den vollständigen Inhalt von HTTP-Anfragen vorübergehend speichern und einsehen; die Privacy Policy nennt dafür bis zu zwei Wochen. Beide Aussagen können nicht zugleich uneingeschränkt gelten.",
   "eroeffnet": "2026-09-10",
   "anbieter_informiert": "2026-09-10",
   "status": "beantwortet",
