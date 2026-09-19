@@ -5,8 +5,22 @@
   <id>https://belegbar.eu/aenderungen/</id>
   <link rel="alternate" href="https://belegbar.eu/aenderungen/"/>
   <link rel="self" href="https://belegbar.eu/aenderungen/feed.xml"/>
-  <updated>2026-09-14T00:00:00Z</updated>
+  <updated>2026-09-18T00:00:00Z</updated>
   <rights>CC BY 4.0</rights>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-09-18-scaleway-ai-act-gpai-code-of-practice-art.-53-transparenzdokumentation</id>
+    <title>Scaleway: AI Act: GPAI Code of Practice / Art.-53-Transparenzdokumentation unbelegt → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-09-18-scaleway-ai-act-gpai-code-of-practice-art.-53-transparenzdokumentation"/>
+    <updated>2026-09-18T00:00:00Z</updated>
+    <content type="text">Commit 1d5488b: feat: Dossier-Waechter gegen Normenbezug, Scaleway auf Tatsachen</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-09-18-scaleway-ai-act-transparenzdokumentation-f-r-basismodelle-gpai-code-of-practice</id>
+    <title>Scaleway: AI Act: Transparenzdokumentation für Basismodelle (GPAI Code of Practice) – → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-09-18-scaleway-ai-act-transparenzdokumentation-f-r-basismodelle-gpai-code-of-practice"/>
+    <updated>2026-09-18T00:00:00Z</updated>
+    <content type="text">Keine eigene Veröffentlichung dazu auffindbar. Scaleway hostet fremde offene Modelle und gibt an, keine eigenen Basismodelle zu trainieren. · Commit 1d5488b: feat: Dossier-Waechter gegen Normenbezug, Scaleway auf Tatsachen</content>
+  </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-09-14-scaleway-fall-2026-004</id>
     <title>Scaleway: Fall 2026-004 offen → beantwortet</title>

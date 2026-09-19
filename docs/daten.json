@@ -2544,7 +2544,7 @@
           "wert": "https://www-uploads.scaleway.com/DPA_2024_ENG_b0abb5cc26.pdf",
           "status": "belegt",
           "quelle": "https://www.scaleway.com/en/contracts/",
-          "anmerkung": "DPA 2024 (EN) als Primärdokument geprüft; deckt Art.-28-DSGVO-Pflichten ab. Auf der Contracts-Seite auch SCCs und TOM-Dokument."
+          "anmerkung": "DPA 2024 (EN) als Primärdokument vorhanden; auf der Contracts-Seite auch SCCs und TOM-Dokument."
         },
         "subprozessoren": {
           "wert": "https://www.scaleway.com/en/subprocessorlist/",
@@ -2596,10 +2596,10 @@
       ],
       "ai_act": [
         {
-          "pflicht": "GPAI Code of Practice / Art.-53-Transparenzdokumentation",
+          "pflicht": "Transparenzdokumentation für Basismodelle (GPAI Code of Practice)",
           "status": "unbelegt",
           "quelle": null,
-          "anmerkung": "Keine eigene AI-Act-Veröffentlichung auffindbar. Scaleway hostet fremde offene Modelle und trainiert keine eigenen GPAI-Modelle; Art.-53-Pflichten treffen primär die Modellhersteller."
+          "anmerkung": "Keine eigene Veröffentlichung dazu auffindbar. Scaleway hostet fremde offene Modelle und gibt an, keine eigenen Basismodelle zu trainieren."
         }
       ],
       "geprueft": "2026-08-19",
@@ -2908,7 +2908,7 @@
       "anbieter": "scaleway",
       "feld": "vertrag.zero_data_retention",
       "titel": "Scaleway: „no access to, nor knowledge of any inputs and outputs“ — und auf derselben Seite: „we may temporarily store and access the full content of HTTP requests“",
-      "kurz": "Die Doku-Seite „Security and reliability“ zu Scaleways Generative APIs sagt im Abschnitt zum AI Act ohne Vorbehalt, Scaleway habe keinen Zugriff auf und keine Kenntnis von Ein- und Ausgaben der Modelle; die Produktseite wiederholt das („We do not collect, read, reuse, or analyse the content of your inputs, prompts or outputs“). Dieselbe Doku-Seite sagt im Abschnitt „Scaleway access“: Bei Störungen könne Scaleway den vollständigen Inhalt von HTTP-Anfragen vorübergehend speichern und einsehen; die Privacy Policy nennt dafür bis zu zwei Wochen. Beide Aussagen können nicht zugleich uneingeschränkt gelten.",
+      "kurz": "Die Doku-Seite „Security and reliability“ zu Scaleways Generative APIs sagt in ihrem Abschnitt zur Modell-Transparenz ohne Vorbehalt, Scaleway habe keinen Zugriff auf und keine Kenntnis von Ein- und Ausgaben der Modelle; die Produktseite wiederholt das („We do not collect, read, reuse, or analyse the content of your inputs, prompts or outputs“). Dieselbe Doku-Seite sagt im Abschnitt „Scaleway access“: Bei Störungen könne Scaleway den vollständigen Inhalt von HTTP-Anfragen vorübergehend speichern und einsehen; die Privacy Policy nennt dafür bis zu zwei Wochen. Beide Aussagen können nicht zugleich uneingeschränkt gelten.",
       "eroeffnet": "2026-09-10",
       "anbieter_informiert": "2026-09-10",
       "status": "beantwortet",
@@ -3054,6 +3054,10 @@
         {
           "datum": "2026-09-10",
           "ereignis": "Anbieter per E-Mail (legal@blackforestlabs.ai, CC privacy@ und dpo@blackforestlabs.ai) mit dem vollständigen Text des Falls informiert. Antwortfrist bis 24.09.2026. Fall veröffentlicht."
+        },
+        {
+          "datum": "2026-09-19",
+          "ereignis": "Halbzeit-Erinnerung an den Anbieter gesendet (09:07 UTC, im Thread der Mail vom 10.09.; technisch als Antwort-an-alle von felix.h.lind@gmail.com mit hallo@belegbar.eu im An-Feld und legal@, privacy@, dpo@blackforestlabs.ai in CC). Inhalt: Frist 24.09.2026 bleibt, danach Status „bestätigt“, eine Zeile Antwort genügt, um „offen“ zu halten. Bis dahin keine Antwort des Anbieters eingegangen."
         }
       ]
     },
@@ -3291,6 +3295,38 @@
     }
   ],
   "aenderungen": [
+    {
+      "datum": "2026-09-18",
+      "anbieter": "scaleway",
+      "typ": "status",
+      "pfad": "ai_act[GPAI Code of Practice / Art.-53-Transparenzdokumentation]",
+      "feld": "AI Act: GPAI Code of Practice / Art.-53-Transparenzdokumentation",
+      "alt": "unbelegt",
+      "neu": null,
+      "quelle_alt": null,
+      "quelle_neu": null,
+      "grund": null,
+      "commit": {
+        "sha": "1d5488b",
+        "betreff": "feat: Dossier-Waechter gegen Normenbezug, Scaleway auf Tatsachen"
+      }
+    },
+    {
+      "datum": "2026-09-18",
+      "anbieter": "scaleway",
+      "typ": "status",
+      "pfad": "ai_act[Transparenzdokumentation für Basismodelle (GPAI Code of Practice)]",
+      "feld": "AI Act: Transparenzdokumentation für Basismodelle (GPAI Code of Practice)",
+      "alt": null,
+      "neu": "unbelegt",
+      "quelle_alt": null,
+      "quelle_neu": null,
+      "grund": "Keine eigene Veröffentlichung dazu auffindbar. Scaleway hostet fremde offene Modelle und gibt an, keine eigenen Basismodelle zu trainieren.",
+      "commit": {
+        "sha": "1d5488b",
+        "betreff": "feat: Dossier-Waechter gegen Normenbezug, Scaleway auf Tatsachen"
+      }
+    },
     {
       "datum": "2026-09-14",
       "anbieter": "scaleway",

@@ -624,7 +624,7 @@ Beleg-Quote: 86 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 20
 Französischer Cloud-Anbieter (Iliad-Gruppe), der über seine Generative APIs offene LLMs serverlos in Pariser Rechenzentren als OpenAI-kompatible Inferenz-API anbietet.
 
 Vertrag und Datenschutz:
-- AVV / Auftragsverarbeitungsvertrag: https://www-uploads.scaleway.com/DPA_2024_ENG_b0abb5cc26.pdf [Status: belegt] | Quelle: https://www.scaleway.com/en/contracts/ | Anmerkung: DPA 2024 (EN) als Primärdokument geprüft; deckt Art.-28-DSGVO-Pflichten ab. Auf der Contracts-Seite auch SCCs und TOM-Dokument.
+- AVV / Auftragsverarbeitungsvertrag: https://www-uploads.scaleway.com/DPA_2024_ENG_b0abb5cc26.pdf [Status: belegt] | Quelle: https://www.scaleway.com/en/contracts/ | Anmerkung: DPA 2024 (EN) als Primärdokument vorhanden; auf der Contracts-Seite auch SCCs und TOM-Dokument.
 - Subprozessoren-Liste: https://www.scaleway.com/en/subprocessorlist/ [Status: belegt] | Quelle: https://www.scaleway.com/en/subprocessorlist/ | Anmerkung: Offizielle Liste, Stand Juli 2025 (u.a. AtNorth, Equinix EMEA, Iron Mountain, Digital Realty, Opcore); Änderungshistorie öffentlich.
 - Kein Training mit Kundendaten: ja [Status: belegt] | Quelle: https://www.scaleway.com/en/docs/generative-apis/reference-content/data-privacy/ | Anmerkung: Doku-Zitat: 'Your data is not used for training, retraining, or improving the base models' — Training findet grundsätzlich nicht statt, kein Opt-out nötig.
 - Zero Data Retention: ja [Status: belegt] | Quelle: https://www.scaleway.com/en/docs/generative-apis/reference-content/data-privacy/ | Anmerkung: Scaleway speichert Prompt-Inhalte nicht; Ausnahme: temporäre Speicherung, wenn zur Diensterbringung nötig (z.B. Batch-Verarbeitung).
@@ -635,7 +635,7 @@ Zertifikate:
 - SecNumCloud [normiert: secnumcloud] [Status: beansprucht] | Quelle: https://www.scaleway.com/en/news/scaleway-begins-the-secnumcloud-qualification-process/ | Anmerkung: Noch keine Qualifikation: ANSSI-Prozess seit Januar 2025 begonnen (Meilenstein J0 bestanden), Audit läuft.
 
 AI Act:
-- GPAI Code of Practice / Art.-53-Transparenzdokumentation [Status: unbelegt] | Anmerkung: Keine eigene AI-Act-Veröffentlichung auffindbar. Scaleway hostet fremde offene Modelle und trainiert keine eigenen GPAI-Modelle; Art.-53-Pflichten treffen primär die Modellhersteller.
+- Transparenzdokumentation für Basismodelle (GPAI Code of Practice) [Status: unbelegt] | Anmerkung: Keine eigene Veröffentlichung dazu auffindbar. Scaleway hostet fremde offene Modelle und gibt an, keine eigenen Basismodelle zu trainieren.
 
 Modelle und Preise (EUR je 1 Mio. Token, sofern keine andere Einheit genannt; „kein öffentlicher Preis“ = der Anbieter veröffentlicht keinen):
 - gpt-oss-120b | Hosting: Paris, Frankreich | Input: 0.15 | Output: 0.6 | Preis-Stand: 2026-08-19 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/

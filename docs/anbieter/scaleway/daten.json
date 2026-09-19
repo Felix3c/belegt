@@ -66,7 +66,7 @@
       "wert": "https://www-uploads.scaleway.com/DPA_2024_ENG_b0abb5cc26.pdf",
       "status": "belegt",
       "quelle": "https://www.scaleway.com/en/contracts/",
-      "anmerkung": "DPA 2024 (EN) als Primärdokument geprüft; deckt Art.-28-DSGVO-Pflichten ab. Auf der Contracts-Seite auch SCCs und TOM-Dokument."
+      "anmerkung": "DPA 2024 (EN) als Primärdokument vorhanden; auf der Contracts-Seite auch SCCs und TOM-Dokument."
     },
     "subprozessoren": {
       "wert": "https://www.scaleway.com/en/subprocessorlist/",
@@ -118,10 +118,10 @@
   ],
   "ai_act": [
     {
-      "pflicht": "GPAI Code of Practice / Art.-53-Transparenzdokumentation",
+      "pflicht": "Transparenzdokumentation für Basismodelle (GPAI Code of Practice)",
       "status": "unbelegt",
       "quelle": null,
-      "anmerkung": "Keine eigene AI-Act-Veröffentlichung auffindbar. Scaleway hostet fremde offene Modelle und trainiert keine eigenen GPAI-Modelle; Art.-53-Pflichten treffen primär die Modellhersteller."
+      "anmerkung": "Keine eigene Veröffentlichung dazu auffindbar. Scaleway hostet fremde offene Modelle und gibt an, keine eigenen Basismodelle zu trainieren."
     }
   ],
   "geprueft": "2026-08-19",

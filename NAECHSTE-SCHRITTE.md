@@ -1,6 +1,6 @@
 # belegbar.eu — Nächste Schritte
 
-**Stand:** 2026-09-18, nachts (Dossier-Wächter gegen Normenbezug committet und gepusht, `1d5488b`, 64 Tests grün; Felix' drei Antworten eingearbeitet, siehe Abschnitt „18.09., Dossier-Wächter". Davor:) · 2026-09-14, 16:10 (Scaleway hat auf Fall 004 geantwortet und kündigt die Korrektur an;
+**Stand:** 2026-09-19, vormittags (Halbzeit-Erinnerung Fall 003 gesendet, Verlauf eingetragen; keine Antwort von BFL bis dahin. Davor:) · 2026-09-18, nachts (Dossier-Wächter gegen Normenbezug committet und gepusht, `1d5488b`, 64 Tests grün; Felix' drei Antworten eingearbeitet, siehe Abschnitt „18.09., Dossier-Wächter". Davor:) · 2026-09-14, 16:10 (Scaleway hat auf Fall 004 geantwortet und kündigt die Korrektur an;
 Antwort seit 14.09. live, Status „beantwortet“. LinkedIn: keine Antwort auf Welle 1.) · **16.09. abends (Home-Tab):** Nachfassen an alle vier offenen Welle-1-Kontakte gesendet (`outreach/mails/14-…`), **Perplexity zitiert belegbar.eu (Kriterium 1 erstmals erfüllt, Details MESSUNG.md)**, ChatGPT nicht; Angebots-Entwurf in `ANGEBOT-ENTWURF.md`; **Beschlüsse Felix 21:15 in MESSUNG.md** (B zuerst, GUARD-Wortlaut, kein Einfrieren 14.10.); gebaut und ungetrackt: `dossier.js`, `lib/dossier.js`, `test/dossier.test.js`, `dossiers/BEISPIEL-scaleway-2026-09-16.md`, `ENTWURF-FESTPREIS-ABSATZ.md` (Diff-Plan gegen build.js). **16.09. 21:15: Freigabe erteilt, umgesetzt, LIVE (Commit `e2c64e5`):** /fuer-anbieter/ mit „Eintritt zum Festpreis“ (490 € Aufnahme, 190 € Zusage), neue Seite /fuer-kaeufer/ (Dossier 390 €), Methodik mit Finanzierung Stand 16.09. und Abschnitt „Regeländerungen“; alle Preise ohne USt (§ 19 UStG). Search Console 16.09.: 4 Klicks, 174 Impressionen (28 Tage), 21 Seiten indexiert (24.08.: 0 / 1 / 4). Folgearbeit: Profilfeld für bezahlte Einträge (Entwurf Punkt 10), Dossier-Vorlage, MESSUNG Kriterium 3 auf GUARD-Wortlaut.
 **Führendes Dokument:** `MESSUNG.md` (Kill-Kriterien) · Ziel-Satz in `~/THESE.md`
 **Phase:** live, 4 Fälle, Engpass ist nicht mehr Code, sondern Rücklauf von außen. Erster Anbieter, der eine Korrektur wörtlich ankündigt: Scaleway (14.09.).
@@ -84,7 +84,7 @@ Keiner.
 
 ## Termine
 
-- **~17.09.:** Halbzeit-Nachfassen nur noch für 003 (Black Forest Labs); 004 hat geantwortet.
+- **~17.09.:** Halbzeit-Nachfassen nur noch für 003 (Black Forest Labs); 004 hat geantwortet. **Erledigt 19.09. 09:07 UTC** (Verlauf im Fall-JSON, Details `outreach/mails/11-…`; ging von der Gmail-Adresse mit BFL in CC, nicht von hallo@).
 - **24.09.:** Frist Fall 003. Für 004 ohne Bedeutung mehr.
 - **~28.09.:** erster monatlicher Quellenlauf (`node quellenlauf.js`) und zweiter
   Widerspruchs-Scan.
