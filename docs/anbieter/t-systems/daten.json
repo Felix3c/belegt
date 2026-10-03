@@ -17,45 +17,50 @@
       "standort": "T-Cloud, Deutschland",
       "preis_input_1m_eur": null,
       "preis_output_1m_eur": null,
-      "quelle": "https://docs.llmhub.t-systems.net/models/",
-      "status": "belegt",
-      "anmerkung": "Modell und Standort belegt; Preisseite nennt 0,20/0,65 € je 1M In/Out nur als Beispielpreis, modellgenaue Preise nur im interaktiven Katalog. Tarife: Essential 1.000 €/Monat, Professional 3.000 €, Agentic 5.000 €."
+      "quelle": null,
+      "geprueft": "2026-10-03",
+      "status": "unbelegt",
+      "anmerkung": "Aussage stand bis 2026-08-19 auf https://docs.llmhub.t-systems.net/models/, am 03.10.2026 nicht mehr — laut Retired-Seite seit 2026-09-01 abgeschaltet ('Retired 2026-09-01, Replacement GPT-OSS 120B'), neue Anfragen an die Modell-ID liefern einen Fehler."
     },
     {
       "name": "Mistral Small 4",
       "standort": "T-Cloud, Deutschland",
-      "preis_input_1m_eur": null,
-      "preis_output_1m_eur": null,
-      "quelle": "https://docs.llmhub.t-systems.net/models/",
+      "preis_input_1m_eur": 0.6,
+      "preis_output_1m_eur": 1.2,
+      "quelle": "https://docs.llmhub.t-systems.net/models/llms/",
+      "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Preis siehe Anmerkung beim ersten Modell."
+      "anmerkung": "Modellgenauer Preis seit 03.10.2026 öffentlich auf /models/llms/ (zuvor nur Beispielpreis auf /models/): 0,60 € / 1,20 € je 1M In/Out, 'Cloud: T-Cloud, Server Location: Germany, Data Processing: Germany'. Tarife: Essential 1.000 €/Monat, Professional 3.000 €, Agentic 5.000 € (andere Seite, nicht erneut geprüft)."
     },
     {
       "name": "GPT-OSS 120B",
       "standort": "T-Cloud, Deutschland",
-      "preis_input_1m_eur": null,
-      "preis_output_1m_eur": null,
-      "quelle": "https://docs.llmhub.t-systems.net/models/",
+      "preis_input_1m_eur": 0.2,
+      "preis_output_1m_eur": 0.65,
+      "quelle": "https://docs.llmhub.t-systems.net/models/llms/",
+      "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Preis siehe Anmerkung beim ersten Modell."
+      "anmerkung": "0,20 € / 0,65 € je 1M In/Out, 'T-Cloud, Germany' — entspricht dem früheren Beispielpreis, jetzt als modellgenauer Preis bestätigt."
     },
     {
       "name": "GPT-5",
       "standort": "Azure, Schweden",
-      "preis_input_1m_eur": null,
-      "preis_output_1m_eur": null,
-      "quelle": "https://docs.llmhub.t-systems.net/models/",
+      "preis_input_1m_eur": 1.2,
+      "preis_output_1m_eur": 9.55,
+      "quelle": "https://docs.llmhub.t-systems.net/models/llms/",
+      "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Proprietäres Modell, Weiterleitung an Microsoft Azure; es gelten dessen Datenbedingungen."
+      "anmerkung": "1,20 € / 9,55 € je 1M In/Out, 'Cloud: Azure, Server Location: Sweden, Data Processing: EU'. Proprietäres Modell, Weiterleitung an Microsoft Azure; es gelten dessen Datenbedingungen."
     },
     {
       "name": "Claude 4.6 Sonnet",
       "standort": "GCP, Europa",
-      "preis_input_1m_eur": null,
-      "preis_output_1m_eur": null,
-      "quelle": "https://docs.llmhub.t-systems.net/models/",
+      "preis_input_1m_eur": 2.97,
+      "preis_output_1m_eur": 14.85,
+      "quelle": "https://docs.llmhub.t-systems.net/models/llms/",
+      "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Via Google Cloud (Europa); Gateway-Funktion, keine T-Cloud-Hosting-Garantie."
+      "anmerkung": "2,97 € / 14,85 € je 1M In/Out, 'Cloud: GCP, Server Location: Europe, Data Processing: EU' (Preisliste nennt die Cloud teils als 'GCP / Azure'). Via Google Cloud (Europa); Gateway-Funktion, keine T-Cloud-Hosting-Garantie."
     }
   ],
   "vertrag": {
@@ -70,13 +75,15 @@
       "wert": null,
       "status": "belegt",
       "quelle": "https://docs.llmhub.t-systems.net/reference/enterprise-trust",
-      "anmerkung": "Keine öffentliche Listen-URL; Enterprise-Trust-Doku belegt: EU-betriebene Modelle (Kategorie 1) ohne Dritt-Subprozessoren, bei Fremdmodellen (Kategorie 2) können Subprozessoren des Upstream-Anbieters weltweit verarbeiten."
+      "geprueft": "2026-10-03",
+      "anmerkung": "Keine öffentliche Listen-URL; Enterprise-Trust-Doku (03.10.2026) beschreibt Kategorie 1 jetzt als 'EU/EEA & adequacy-decision processing' (auch Länder mit Angemessenheitsbeschluss, nicht nur EU/EWR); die frühere Formulierung 'ohne Dritt-Subprozessoren' steht so nicht mehr da. Kategorie 2 (Fremdmodelle): 'The third-party provider may operate sub-processors worldwide'."
     },
     "training_opt_out": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://docs.llmhub.t-systems.net/reference/enterprise-trust",
-      "anmerkung": "'Customer prompts and responses are never saved or used to train or fine-tune any model' (beide Modellkategorien)."
+      "geprueft": "2026-10-03",
+      "anmerkung": "Wörtlich (03.10.2026): 'Regardless of which model you select hosted by Telekom, customer prompts and responses are never saved or used to train or fine-tune any model.' Tabelle: 'Training use: Not used for model training' in beiden Kategorien; Modellseite ergänzend: 'Customer data is not used for model training, regardless of which model you select.'"
     },
     "zero_data_retention": {
       "wert": true,
@@ -138,7 +145,7 @@
   ],
   "geprueft": "2026-08-19",
   "url": "https://belegbar.eu/anbieter/t-systems/",
-  "beleg_quote_prozent": 93,
+  "beleg_quote_prozent": 86,
   "zuletzt_geprueft": "2026-10-03",
   "rechtsraum": {
     "land": "DE",

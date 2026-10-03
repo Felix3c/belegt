@@ -35,11 +35,12 @@
     {
       "name": "Llama 3.3 70B Instruct",
       "standort": "EU (Finnland/Frankreich); US-Region optional",
-      "preis_input_1m_eur": 0.13,
-      "preis_output_1m_eur": 0.4,
-      "quelle": "https://openrouter.ai/provider/nebius",
-      "status": "belegt",
-      "anmerkung": "Preis in USD"
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": null,
+      "geprueft": "2026-10-03",
+      "status": "unbelegt",
+      "anmerkung": "Aussage stand bis 2026-08-19 auf https://openrouter.ai/provider/nebius (0,13 $ / 0,40 $ je 1M), am 03.10.2026 nicht mehr — nicht mehr in der aktuellen Modellliste des Providers (10 Modelle, u.a. GLM 5.3, Kimi K2.7 Code, GLM 5.1, gpt-oss-120b, Qwen3 235B)"
     },
     {
       "name": "GLM-5.1",
@@ -64,19 +65,22 @@
       "wert": "https://docs.nebius.com/legal/sub-processors",
       "status": "belegt",
       "quelle": "https://docs.nebius.com/legal/sub-processors",
-      "anmerkung": "Liste enthält mehrere US-Subprozessoren (HubSpot, Slack, Oracle/NetSuite, Microsoft, Sentry) sowie konzerninterne Subprozessoren u.a. in USA, UK, Israel und Serbien — relevant für die Souveränitätsbewertung"
+      "geprueft": "2026-10-03",
+      "anmerkung": "Liste vom 15.09.2026 ('AI Cloud sub-processors'; Token Factory hat eine eigene, separate Liste, nicht abgerufen). Weiterhin enthalten: Microsoft (Sentinel), Sentry, Hubspot, Slack, Nebius Inc. (US), UK, Israel, Serbien. Oracle/NetSuite ist nicht mehr gelistet; neu u.a. Atlassian Pty Ltd. (Jira, Australien), Nebius AI Spain, Nebius France SAS, CZ, GmbH, DC Oy"
     },
     "training_opt_out": {
-      "wert": true,
-      "status": "belegt",
-      "quelle": "https://nebius.com/services/token-factory",
-      "anmerkung": "Produktseite: 'requests and outputs are never stored or reused for training' (im Zero-Retention-Modus)"
+      "wert": null,
+      "status": "unbelegt",
+      "quelle": null,
+      "geprueft": "2026-10-03",
+      "anmerkung": "Aussage stand bis 2026-08-19 auf https://nebius.com/services/token-factory ('requests and outputs are never stored or reused for training'), am 03.10.2026 nicht mehr — Seite enthält keine Aussage mehr zu Training/Retention auf Kundendaten (nur Post-Training-Produktwerbung)"
     },
     "zero_data_retention": {
-      "wert": true,
-      "status": "beansprucht",
-      "quelle": "https://nebius.com/services/token-factory",
-      "anmerkung": "'Zero-retention mode' beworben; ob Standard oder Opt-in, ist nicht eindeutig — vor Vertragsschluss klären"
+      "wert": null,
+      "status": "unbelegt",
+      "quelle": null,
+      "geprueft": "2026-10-03",
+      "anmerkung": "Aussage stand bis 2026-08-19 auf https://nebius.com/services/token-factory ('Zero-retention mode'), am 03.10.2026 nicht mehr — weder 'Zero-retention mode' noch 'retention' kommt auf der Seite noch vor"
     }
   },
   "zertifikate": [
@@ -131,7 +135,7 @@
   ],
   "geprueft": "2026-08-19",
   "url": "https://belegbar.eu/anbieter/nebius/",
-  "beleg_quote_prozent": 85,
+  "beleg_quote_prozent": 69,
   "zuletzt_geprueft": "2026-10-03",
   "rechtsraum": {
     "land": "NL",

@@ -28,8 +28,9 @@
       "preis_input_1m_eur": null,
       "preis_output_1m_eur": null,
       "quelle": "https://www.deepl.com/en/pro#api",
+      "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Zeichenbasiert: 23,80 €/Monat (jährlich, inkl. MwSt., DE-Preisansicht 20.08.2026) + Verbrauch oberhalb der Inklusivmengen (12 Mio. Zeichen/Jahr, 120 h Speech-to-Text/Jahr); Pay-as-you-go-Satz je 1M Zeichen öffentlich nicht beziffert, erst im Checkout sichtbar"
+      "anmerkung": "Zeichenbasiert: 23,80 €/Monat (jährlich, inkl. MwSt., DE-Preisansicht 03.10.2026) + Verbrauch; inklusive 12 Mio. Zeichen/Jahr, 120 h Speech-to-Text/Jahr, 60 h Speech-to-Speech/Jahr; Mehrverbrauch öffentlich beziffert: 22,00 € je 1 Mio. Zeichen, 1,96 € je Speech-to-Text-Stunde, 3,93 € je Speech-to-Speech-Stunde; Limits 50 Mio. Zeichen und 300 Voice-Stunden pro Monat"
     },
     {
       "name": "DeepL API Enterprise",
@@ -58,7 +59,8 @@
       "wert": null,
       "status": "belegt",
       "quelle": "https://www.deepl.com/en/pro-license",
-      "anmerkung": "Existenz vertraglich belegt: Pro-AGB Ziff. 8.1.5 verpflichtet zum Abschluss von 'DeepL's data processing agreement (which shall be provided by DeepL)'. Kein öffentlicher Direktlink; AVV liegt für Kunden im Kundenkonto. Für den Finanzsektor ergänzend DORA-Infoseite mit Audit-Recht: deepl.com/en/dora-info"
+      "geprueft": "2026-10-03",
+      "anmerkung": "Existenz vertraglich belegt: Pro-AGB Ziff. 8.1.5 verweist auf 'DeepL's Data Processing Agreement, available for download in the DeepL Trust Centre at https://deepl.safebase.us/item/data-processing-agreement', das 'forms an integral part of this Agreement' ist und mit Vertragsschluss verbindlich wird. Für den Finanzsektor ergänzend DORA-Infoseite mit Audit-Recht: deepl.com/en/dora-info"
     },
     "subprozessoren": {
       "wert": null,
@@ -70,7 +72,8 @@
       "wert": true,
       "status": "belegt",
       "quelle": "https://www.deepl.com/en/products/api",
-      "anmerkung": "Bei Bezahlprodukten standardmäßig kein Training: 'Pro customer data is never used to train DeepL's models'; Plan-Vergleich weist 'No data training' für alle API- und Pro-Pläne aus. Achtung: gilt nicht für den kostenlosen Übersetzer"
+      "geprueft": "2026-10-03",
+      "anmerkung": "'Pro customer data is never used to train DeepL's models'. Der Plan-Vergleich im API-Tab (deepl.com/en/pro#api) weist 'No data training' für alle bezahlten Pläne aus; der kostenlose API-Plan Developer (Free) hat es nicht ('No data training' kommt erst ab Growth). Gilt nicht für den kostenlosen Übersetzer"
     },
     "zero_data_retention": {
       "wert": true,

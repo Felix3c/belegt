@@ -78,14 +78,14 @@
 <tr>
       <td>DeepSeek V4 Pro</td>
       <td>EU + US (mehrere Provider)</td>
-      <td class="num">1,30 €</td><td class="num">2,60 €<span class="klein preis-stand">Stand 19.08.2026</span></td>
-      <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span> <a class="klein" href="https://opper.ai/models" rel="noopener nofollow" target="_blank">Quelle</a><span class="klein">Preis in USD</span></td>
+      <td class="num">0,87 €</td><td class="num">1,74 €<span class="klein preis-stand">Stand 03.10.2026</span></td>
+      <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span> <a class="klein" href="https://opper.ai/models" rel="noopener nofollow" target="_blank">Quelle</a><span class="klein">Preis in USD; 'Pricing from' = günstigste Route. Separater Eintrag 'DeepSeek V4 Pro 0813' läuft zu $1.06/$2.60</span></td>
     </tr>
 <tr>
       <td>Gemini 3.5 Flash</td>
       <td>EU + US (mehrere Provider)</td>
-      <td class="num">1,50 €</td><td class="num">9,00 €<span class="klein preis-stand">Stand 19.08.2026</span></td>
-      <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span> <a class="klein" href="https://opper.ai/models" rel="noopener nofollow" target="_blank">Quelle</a><span class="klein">Preis in USD</span></td>
+      <td class="num">1,50 €</td><td class="num">9,00 €<span class="klein preis-stand">Stand 03.10.2026</span></td>
+      <td><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span> <a class="klein" href="https://opper.ai/models" rel="noopener nofollow" target="_blank">Quelle</a><span class="klein">Preis in USD. Verfügbar nur über Google Cloud (US), Region-Tag 'US, Multi, EU'</span></td>
     </tr></tbody>
   </table></div>
 
@@ -93,8 +93,8 @@
   <div class="beleg">
     <div class="beleg-kopf"><span class="beleg-label">AVV / Auftragsverarbeitungsvertrag</span><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></div>
     <div class="beleg-wert"><a href="https://opper.ai/data-processing-agreement" rel="noopener nofollow" target="_blank">Vertragsdokument</a></div>
-    <div class="beleg-anm">Öffentliches DPA (Stand 14.03.2026); erlaubt Verarbeitung außerhalb des EWR unter DSGVO-Bedingungen (SCCs auf Anfrage)</div>
-    <div class="beleg-fuss"><span class="quelle"><a href="https://opper.ai/data-processing-agreement" rel="noopener nofollow" target="_blank">Quelle</a> · geprüft 19.08.2026</span></div>
+    <div class="beleg-anm">Öffentliches DPA, Stand jetzt 23.09.2026 (zuvor 14.03.2026). Abschnitt 5: Verarbeitung im EU/EWR oder Drittland mit Angemessenheitsbeschluss oder SCCs; Abschnitt 2.1 ausdrücklich: 'Model inference may take place inside or outside the EEA depending on the model route used; it is not restricted to the EEA by default.' SCCs 'on request' stehen nur in der Security Overview, nicht im DPA selbst. Die Compliance-Seite wirbt dagegen mit 'EU data residency on every plan' — Widerspruch zwischen den Anbieterseiten</div>
+    <div class="beleg-fuss"><span class="quelle"><a href="https://opper.ai/data-processing-agreement" rel="noopener nofollow" target="_blank">Quelle</a> · geprüft 03.10.2026</span></div>
   </div>
 <div class="beleg">
     <div class="beleg-kopf"><span class="beleg-label">Subprozessoren-Liste</span><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></div>
@@ -105,22 +105,22 @@
 <div class="beleg">
     <div class="beleg-kopf"><span class="beleg-label">Kein Training mit Kundendaten</span><span class="status s-belegt"><span class="dot" aria-hidden="true"></span>belegt</span></div>
     <div class="beleg-wert">Ja — Kundendaten werden nicht zum Training genutzt</div>
-    <div class="beleg-anm">'Opper does not use customer data to train models'; im DPA selbst nicht explizit; Upstream-Retention bis 30 Tage je nach Route</div>
-    <div class="beleg-fuss"><span class="quelle"><a href="https://opper.ai/security-overview" rel="noopener nofollow" target="_blank">Quelle</a> · geprüft 19.08.2026</span></div>
+    <div class="beleg-anm">'Opper does not use customer data to train models and does not share it with providers for training' (Stand 2026-09-28); im DPA selbst nicht explizit</div>
+    <div class="beleg-fuss"><span class="quelle"><a href="https://opper.ai/security-overview" rel="noopener nofollow" target="_blank">Quelle</a> · geprüft 03.10.2026</span></div>
   </div>
 <div class="beleg">
     <div class="beleg-kopf"><span class="beleg-label">Zero Data Retention</span><span class="status s-beansprucht"><span class="dot" aria-hidden="true"></span>beansprucht</span></div>
     <div class="beleg-wert">Ja — keine Speicherung der Anfragen</div>
-    <div class="beleg-anm">Inhalte werden im Gateway-Tarif nicht gespeichert; echte Zero Retention nur als Enterprise-Konfiguration, kein genereller Default</div>
-    <div class="beleg-fuss"><span class="quelle"><a href="https://opper.ai/security-overview" rel="noopener nofollow" target="_blank">Quelle</a> · geprüft 19.08.2026</span></div>
+    <div class="beleg-anm">Prompts und Antworten werden nicht gespeichert, außer eine Tracing-Regel ist aktiv; Retention 1–30 Tage je Organisation, ein Projekt kann auf 0 Tage stellen; Provider-Routen mit Zero Data Retention sind im Modellverzeichnis markiert; Enterprise kann ZDR auf Nutzungsmetadaten ausdehnen. Die frühere Aussage 'echte Zero Retention nur als Enterprise-Konfiguration' stimmt nicht mehr (Projektregel 0 Tage auch ohne Enterprise möglich); einzelne Routen können laut Doku weiter zur Missbrauchsüberwachung vorhalten</div>
+    <div class="beleg-fuss"><span class="quelle"><a href="https://opper.ai/security-overview" rel="noopener nofollow" target="_blank">Quelle</a> · geprüft 03.10.2026</span></div>
   </div>
 
   <h2>Zertifikate</h2>
   <div class="beleg">
-    <div class="beleg-kopf"><span class="beleg-label">ISO 27001</span><span class="status s-unbelegt"><span class="dot" aria-hidden="true"></span>unbelegt</span></div>
+    <div class="beleg-kopf"><span class="beleg-label">ISO 27001</span><span class="status s-beansprucht"><span class="dot" aria-hidden="true"></span>beansprucht</span></div>
     <div class="beleg-wert"><a href="../../zertifikate/iso-27001/">Wer weist ISO/IEC 27001 nach?</a></div>
-    <div class="beleg-anm">Security Overview nennt keine Zertifikate</div>
-    <div class="beleg-fuss"><span class="quelle">geprüft 19.08.2026</span></div>
+    <div class="beleg-anm">Seit spätestens 03.10.2026 auf Security Overview und AI-Compliance-Seite: 'Opper is certified against ISO/IEC 27001:2022 … the certificate is available there [Trust Center] on request.' Zertifikat selbst nicht öffentlich einsehbar. Frühere Prüfung (Stand 2026-08-19) fand keine Zertifikatsnennung</div>
+    <div class="beleg-fuss"><span class="quelle"><a href="https://opper.ai/security-overview" rel="noopener nofollow" target="_blank">Quelle</a> · geprüft 03.10.2026</span></div>
   </div>
 <div class="beleg">
     <div class="beleg-kopf"><span class="beleg-label">SOC 2</span><span class="status s-unbelegt"><span class="dot" aria-hidden="true"></span>unbelegt</span></div>

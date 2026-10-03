@@ -25,11 +25,12 @@
     {
       "name": "DeepSeek V3.2",
       "standort": "EU (u.a. Frankreich, Deutschland, Dänemark)",
-      "preis_input_1m_eur": 0.3,
-      "preis_output_1m_eur": 0.45,
-      "quelle": "https://lyceum.technology/products/inference/models/",
-      "status": "belegt",
-      "anmerkung": "Preis in USD"
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": null,
+      "geprueft": "2026-10-03",
+      "status": "unbelegt",
+      "anmerkung": "Aussage stand bis 2026-08-19 auf https://lyceum.technology/products/inference/models/ (0,30 $ / 0,45 $ je 1M), am 03.10.2026 nicht mehr — Modell laut Retired-Liste abgeschaltet ('Requests to their model IDs return 404 model not found'); Nachfolger laut Anbieter DeepSeek V4.1 Flash ($0.50/$1.50)"
     },
     {
       "name": "Qwen3 235B A22B",
@@ -54,11 +55,12 @@
     {
       "name": "gpt-oss 120B",
       "standort": "EU (u.a. Frankreich, Deutschland, Dänemark)",
-      "preis_input_1m_eur": 0.15,
-      "preis_output_1m_eur": 0.6,
-      "quelle": "https://lyceum.technology/products/inference/models/",
-      "status": "belegt",
-      "anmerkung": "Preis in USD"
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": null,
+      "geprueft": "2026-10-03",
+      "status": "unbelegt",
+      "anmerkung": "Aussage stand bis 2026-08-19 auf https://lyceum.technology/products/inference/models/ (0,15 $ / 0,60 $ je 1M), am 03.10.2026 nicht mehr — laut Retired-Liste abgeschaltet; Nachfolger laut Anbieter GLM-5.3 Flash ($0.20/$0.50)"
     }
   ],
   "vertrag": {
@@ -77,10 +79,11 @@
       "anmerkung": "Keine öffentliche Liste; 'DPA with named sub-processors available on request'"
     },
     "training_opt_out": {
-      "wert": true,
-      "status": "beansprucht",
-      "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/",
-      "anmerkung": "Eigenaussage 'no training on customer data'; vertragliches Primärdokument nicht öffentlich"
+      "wert": null,
+      "status": "unbelegt",
+      "quelle": null,
+      "geprueft": "2026-10-03",
+      "anmerkung": "Aussage stand bis 2026-08-19 auf https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/, am 03.10.2026 nicht mehr (Volltext nach 'train'/'never'/'not' durchsucht, nur Fließtext zum Training von Kundenmodellen gefunden). Vertragliche Zusicherung ggf. im Trust Center/DPA, nicht öffentlich geprüft"
     },
     "zero_data_retention": {
       "wert": null,
@@ -131,7 +134,7 @@
   ],
   "geprueft": "2026-08-19",
   "url": "https://belegbar.eu/anbieter/lyceum/",
-  "beleg_quote_prozent": 46,
+  "beleg_quote_prozent": 31,
   "zuletzt_geprueft": "2026-10-03",
   "rechtsraum": {
     "land": "DE",

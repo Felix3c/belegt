@@ -68,8 +68,9 @@
       "preis_input_1m_eur": null,
       "preis_output_1m_eur": null,
       "quelle": "https://docs.bfl.ai/quick_start/pricing",
+      "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Abrechnung pro Sekunde: Text/Bild-zu-Video 0,17–0,29 $/s (Full Render), Draft 0,06 $/s"
+      "anmerkung": "Abrechnung pro Sekunde: Text-/Bild-zu-Video 0,17 $/s (hd), 0,29 $/s (fhd), 0,40 $/s (qhd), 0,80 $/s (uhd); Draft 0,06 $/s; Video-Continuation (v2v) 0,41–0,95 $/s, Draft 0,12 $/s. Die frühere Spanne 0,17–0,29 $/s gilt nur für hd/fhd"
     }
   ],
   "vertrag": {
@@ -90,7 +91,8 @@
       "wert": false,
       "status": "belegt",
       "quelle": "https://bfl.ai/legal/terms-of-service",
-      "anmerkung": "Standardmäßig dürfen Inputs/Outputs zum Training genutzt werden ('to provide, develop, train and improve our technologies'); Opt-out nur per E-Mail (privacy@blackforestlabs.ai, Betreff 'Training Opt Out' laut Privacy Policy), kein Dashboard-Schalter"
+      "geprueft": "2026-10-03",
+      "anmerkung": "Standardmäßig dürfen Inputs/Outputs zum Training genutzt werden ('to provide, develop, train and improve our technologies'); Opt-out laut ToS per E-Mail an legal@blackforestlabs.ai (Betreff 'Training Opt Out' und die Adresse privacy@blackforestlabs.ai stammen aus der separaten Privacy Policy, nicht aus den ToS), kein Dashboard-Schalter"
     },
     "zero_data_retention": {
       "wert": null,
@@ -105,7 +107,8 @@
       "typ": "SOC 2 Type II",
       "status": "beansprucht",
       "quelle": "https://bfl.ai/enterprise",
-      "anmerkung": "Auf der Enterprise-Seite genannt; kein Trust-Center oder Auditbericht öffentlich abrufbar",
+      "geprueft": "2026-10-03",
+      "anmerkung": "Auf der Enterprise-Seite genannt; Trust-Center per Link vorhanden (trust.bfl.ai, JS-Seite, Inhalt/Auditbericht ungeprüft)",
       "normiert": [
         "soc-2"
       ]

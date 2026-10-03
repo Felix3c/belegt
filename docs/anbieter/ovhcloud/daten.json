@@ -72,7 +72,8 @@
       "wert": "https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/5cec77c-OVH_Data_Protection_Agreement-IE-6.2.pdf",
       "status": "belegt",
       "quelle": "https://us.ovhcloud.com/legal/faqs/gdpr-compliance/",
-      "anmerkung": "Offizielles OVH Data Processing Agreement (Version 6.2); je Region/Sprache eigene DPA-Versionen im Contracts-Storage."
+      "geprueft": "2026-10-03",
+      "anmerkung": "FAQ-Seite bestätigt: 'Does OVHcloud have a DPA? Yes, we have posted our DPA on the OVHcloud website.' Die Versionsangabe 6.2 steht nicht auf dieser FAQ-Seite (nur im PDF-Dateinamen); je Region/Sprache eigene DPA-Versionen im Contracts-Storage. Der PDF-Link selbst liefert weiterhin HTTP 200, Inhalt nicht erneut gelesen."
     },
     "subprozessoren": {
       "wert": "https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/6045f8b-OVH_Sub_processors-GB-3.0.pdf",
@@ -101,7 +102,8 @@
       "typ": "ISO 27001",
       "status": "belegt",
       "quelle": "https://www.ovhcloud.com/en/compliance/",
-      "anmerkung": "Inkl. ISO 27017/27018; auf alle Cloud-Lösungen ausgeweitet.",
+      "geprueft": "2026-10-03",
+      "anmerkung": "Compliance-Seite (03.10.2026): 'ISO/IEC 27001:2013 Certification and ISMS relating to information security management systems for cloud services', zusätzlich ISO 27017/27018. Die frühere Zusatzaussage 'auf alle Cloud-Lösungen ausgeweitet' steht auf der Seite nicht.",
       "normiert": [
         "iso-27001"
       ]
@@ -164,7 +166,8 @@
       "pflicht": "AI-Act-Informationsmaterial veröffentlicht",
       "status": "belegt",
       "quelle": "https://blog.ovhcloud.com/en/posts/ai-act-in-a-nutshell/",
-      "anmerkung": "Offizieller Beitrag 'AI Act in a nutshell'; Positionierung über Modelltransparenz durch Open-Weight-Modelle."
+      "geprueft": "2026-10-03",
+      "anmerkung": "Offizieller Beitrag 'AI Act in a nutshell' (Stand 03.10.2026): 'OVHcloud and ETHIQAIS have been among the very first signatories of the AI Pact'; Positionierung als 'European Trusted Cloud'. Die frühere Formulierung 'Modelltransparenz durch Open-Weight-Modelle' steht im Artikel nicht."
     },
     {
       "pflicht": "GPAI Code of Practice unterzeichnet",

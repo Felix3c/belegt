@@ -124,7 +124,8 @@
       "pflicht": "Unterstützung der Kunden-Compliance (Datenlokalisierung)",
       "status": "beansprucht",
       "quelle": "https://gcore.com/blog/ai-regulations-2024-eu",
-      "anmerkung": "Marketing-Positionierung: regionale Workload-Steuerung und EU-Rechenzentren als Compliance-Mittel; zudem 'Sovereign Inference'-Pilot mit Orange Business. Keine vertragliche Zusicherung gefunden"
+      "geprueft": "2026-10-03",
+      "anmerkung": "Marketing-Positionierung (Blogbeitrag vom 20.11.2024): regionale Workload-Steuerung und EU-Rechenzentren als Compliance-Mittel. Keine vertragliche Zusicherung gefunden; der an anderer Stelle beworbene 'Sovereign Inference'-Pilot mit Orange Business steht auf dieser Seite nicht (Quelle dafür unklar)"
     }
   ],
   "geprueft": "2026-08-20",

@@ -24,10 +24,12 @@
     {
       "name": "Llama 3.1 8B Instruct",
       "standort": "Deutschland",
-      "preis_input_1m_eur": 0.15,
-      "preis_output_1m_eur": 0.15,
-      "quelle": "https://cloud.ionos.de/managed/ai-model-hub",
-      "status": "belegt"
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": null,
+      "geprueft": "2026-10-03",
+      "status": "unbelegt",
+      "anmerkung": "Aussage stand bis 2026-08-19 auf https://cloud.ionos.de/managed/ai-model-hub (0,15 € / 0,15 € je 1M), am 03.10.2026 nicht mehr — Modell nicht mehr in der Preisliste. Aktuell stattdessen u.a. Qwen3.5-9B (0,10/0,15 €) und Qwen3.8-27B (0,40/2,70 €)"
     },
     {
       "name": "Mistral Small 24B Instruct",
@@ -78,19 +80,22 @@
       "wert": "https://www.ionos.de/terms-gtc/fileadmin/pdf/terms-gtc/DE/AVV/AVV_Liste_Subunternehmen_v4_5_DE.pdf",
       "status": "belegt",
       "quelle": "https://www.ionos.de/terms-gtc/avv/",
-      "anmerkung": "Anhang 2 zum AVV ('Liste Subunternehmen', v4.5), direkt aus dem offiziellen AVV verlinkt; PDF abgerufen und existent."
+      "geprueft": "2026-10-03",
+      "anmerkung": "Anhang 2 zum AVV ('Liste Subunternehmen', v4.5), direkt aus dem offiziellen AVV verlinkt; PDF abgerufen und existent. Ergänzend laut Data-Handling-Doku (docs.ionos.com, 03.10.2026): 'No third-party sub-processors are engaged for AI Model Hub'."
     },
     "training_opt_out": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling",
-      "anmerkung": "Doku wörtlich: 'Your interactions remain private, free from logging, recording, or reuse for model training.' Kein Opt-out nötig."
+      "geprueft": "2026-10-03",
+      "anmerkung": "Doku wörtlich (Stand 03.10.2026): 'it is not used to train, fine-tune or otherwise improve any model; and it is not disclosed to any third party.' Kein Opt-out nötig. Die frühere Formulierung 'Your interactions remain private, free from logging, recording, or reuse for model training' steht auf der Seite nicht mehr. Ergänzend: 'No third-party sub-processors are engaged for AI Model Hub'"
     },
     "zero_data_retention": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling",
-      "anmerkung": "'AI Model Hub operates as a stateless service, discarding user prompts and outputs at the end of each session.' Einschränkung: Document Collections (RAG-Vektor-DB) werden persistent in Berlin gespeichert."
+      "geprueft": "2026-10-03",
+      "anmerkung": "Doku wörtlich (Stand 03.10.2026): 'never logged … not written to any log or to persistent storage'; 'The inference API is stateless per request'; weder Prompt noch Ausgabe werden persistent gespeichert. Neu dokumentiert: Metadaten (Zeitstempel, Modell, Tokenzahl) werden gespeichert. Die frühere Formulierung 'discarding user prompts and outputs at the end of each session' steht nicht mehr wörtlich da. Die Angabe zu Document Collections (RAG-Vektor-DB, persistent in Berlin) steht auf dieser Seite nicht (nicht erneut geprüft)"
     }
   },
   "zertifikate": [
@@ -130,7 +135,8 @@
       "pflicht": "EU-AI-Act-Rollen- und Transparenzdokumentation (Distributor/Provider)",
       "status": "belegt",
       "quelle": "https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/eu-ai-act",
-      "anmerkung": "Eigene Doku-Seite: IONOS als Distributor für unveränderte Open-Source-Modelle und AI Provider für selbst quantisierte Modelle, mit Transparenzpflichten; Kunden werden als Deployer eingeordnet."
+      "geprueft": "2026-10-03",
+      "anmerkung": "Eigene Doku-Seite (Stand 03.10.2026): 'IONOS CLOUD is the provider of the system within the meaning of Article 3(3). This applies to every model in the catalogue, irrespective of whether we modify it.' Modellentwickler sind Provider des GPAI-Modells (Art. 53), Kunden Deployer; das Wort 'Distributor' kommt nicht mehr vor. Neu: Art.-50(2)-Kennzeichnung wird laut Doku noch umgesetzt ('implementing … machine-readable marking')."
     },
     {
       "pflicht": "GPAI Code of Practice unterzeichnet",
@@ -141,7 +147,7 @@
   ],
   "geprueft": "2026-08-19",
   "url": "https://belegbar.eu/anbieter/ionos/",
-  "beleg_quote_prozent": 93,
+  "beleg_quote_prozent": 87,
   "zuletzt_geprueft": "2026-10-03",
   "rechtsraum": {
     "land": "DE",

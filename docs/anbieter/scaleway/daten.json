@@ -54,7 +54,9 @@
       "preis_input_1m_eur": 0.4,
       "preis_output_1m_eur": 0.8,
       "quelle": "https://www.scaleway.com/en/pricing/model-as-a-service/",
-      "status": "belegt"
+      "geprueft": "2026-10-03",
+      "status": "belegt",
+      "anmerkung": "Modellname auf der Preisseite jetzt 'deepseek-v4-flash-0731'; Preise unverändert"
     },
     {
       "name": "GLM-5.2",
@@ -92,7 +94,8 @@
       "wert": true,
       "status": "belegt",
       "quelle": "https://www.scaleway.com/en/docs/generative-apis/reference-content/data-privacy/",
-      "anmerkung": "Scaleway speichert Prompt-Inhalte nicht; Ausnahme: temporäre Speicherung, wenn zur Diensterbringung nötig (z.B. Batch-Verarbeitung)."
+      "geprueft": "2026-10-03",
+      "anmerkung": "Doku (reviewed 03.10.2025): 'By default we apply a Zero Data Retention Policy, collecting only data required to provide the service reliably and securely.' Ausnahmen laut aktuellem Wortlaut: (a) API-Metadaten/Token-Zahlen ohne Prompt-Inhalt, Aggregate bis 6 Monate; (b) Caching nur mit ephemeren Zwischenwerten (Prefix-Hashes, KV), nicht abschaltbar; (c) bei Missbrauch/Fehlern temporäre Speicherung voller HTTP-Request-Inhalte bis zu zwei Wochen. 'Batch-Verarbeitung' als Ausnahme steht so nicht mehr; Speicherregion Paris."
     }
   },
   "zertifikate": [
@@ -120,7 +123,8 @@
       "typ": "SecNumCloud",
       "status": "beansprucht",
       "quelle": "https://www.scaleway.com/en/news/scaleway-begins-the-secnumcloud-qualification-process/",
-      "anmerkung": "Noch keine Qualifikation: ANSSI-Prozess seit Januar 2025 begonnen (Meilenstein J0 bestanden), Audit läuft.",
+      "geprueft": "2026-10-03",
+      "anmerkung": "Noch keine Qualifikation: Meilenstein J0 bestanden, Ziel 'by the end of 2025' laut News-Artikel (Veröffentlichungsdatum auf der Seite als 01/09/2025 angegeben, Format uneindeutig) ist verstrichen; Security-and-Compliance-Seite führt SecNumCloud weiterhin als 'ongoing', Audit/Bewertung läuft.",
       "normiert": [
         "secnumcloud"
       ]

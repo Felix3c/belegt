@@ -35,14 +35,15 @@
       "anmerkung": "Keine öffentlichen Preise."
     },
     {
-      "name": "Specialized Language Models (SLLMs)",
+      "name": "Kolibri (spezialisiertes souveränes LLM)",
       "standort": null,
       "preis_input_1m_eur": null,
       "preis_output_1m_eur": null,
       "preis_status": "kein_oeffentlicher_preis",
       "quelle": "https://aleph-alpha.com/",
+      "geprueft": "2026-10-03",
       "status": "beansprucht",
-      "anmerkung": "Website bewirbt domänenspezifische SLLMs auf europäischer Infrastruktur; keine öffentlichen Modellkarten oder Preise. PhariaAI-as-a-Service-Partnerschaft mit STACKIT beansprucht."
+      "anmerkung": "Website bewirbt seit 03.10.2026 'Kolibri', ein spezialisiertes souveränes Sprachmodell für geschäftskritische Umgebungen; keine öffentlichen Modellkarten oder Preise. Frühere Aussagen zu 'europäischer Infrastruktur' und zur PhariaAI-as-a-Service-Partnerschaft mit STACKIT stehen auf der Seite nicht mehr; neu beworben wird eine Vereinbarung mit Cohere ('erste transatlantische souveräne KI-Lösung')."
     }
   ],
   "vertrag": {
@@ -95,7 +96,8 @@
       "pflicht": "Code of Practice on Transparency of AI-generated Content unterzeichnet",
       "status": "belegt",
       "quelle": "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content",
-      "anmerkung": "Eigene Ankündigung im Aleph-Alpha-Blog."
+      "geprueft": "2026-10-03",
+      "anmerkung": "In der Liste der Unterstützer (Section 1) der EU-Kommissionsmeldung vom 31.07.2026 genannt."
     }
   ],
   "geprueft": "2026-08-19",
