@@ -20,7 +20,7 @@
       "quelle": "https://mistral.ai/pricing/api",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Preis in USD"
+      "anmerkung": "Preis in USD. Standort laut Mistral-Hilfe „Where do you store my data…“ (12.08.2026, abgerufen 03.10.2026): „By default, your data is hosted in the European Union“; nur bei ausdrücklicher Nutzung des US-API-Endpunkts in den USA."
     },
     {
       "name": "Mistral Medium 3.5",
@@ -30,7 +30,7 @@
       "quelle": "https://mistral.ai/pricing/api",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Preis in USD"
+      "anmerkung": "Preis in USD. Standort laut Mistral-Hilfe „Where do you store my data…“ (12.08.2026, abgerufen 03.10.2026): „By default, your data is hosted in the European Union“; nur bei ausdrücklicher Nutzung des US-API-Endpunkts in den USA."
     },
     {
       "name": "Mistral Small 4",
@@ -40,7 +40,7 @@
       "quelle": "https://mistral.ai/pricing/api",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Preis in USD"
+      "anmerkung": "Preis in USD. Standort laut Mistral-Hilfe „Where do you store my data…“ (12.08.2026, abgerufen 03.10.2026): „By default, your data is hosted in the European Union“; nur bei ausdrücklicher Nutzung des US-API-Endpunkts in den USA."
     },
     {
       "name": "Codestral",
@@ -50,7 +50,7 @@
       "quelle": "https://mistral.ai/pricing/api",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Preis in USD"
+      "anmerkung": "Preis in USD. Standort laut Mistral-Hilfe „Where do you store my data…“ (12.08.2026, abgerufen 03.10.2026): „By default, your data is hosted in the European Union“; nur bei ausdrücklicher Nutzung des US-API-Endpunkts in den USA."
     },
     {
       "name": "Ministral 3 (8B)",
@@ -60,7 +60,7 @@
       "quelle": "https://mistral.ai/pricing/api",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Preis in USD; auch als 3B und 14B verfügbar"
+      "anmerkung": "Preis in USD; auch als 3B und 14B verfügbar. Standort laut Mistral-Hilfe „Where do you store my data…“ (12.08.2026, abgerufen 03.10.2026): „By default, your data is hosted in the European Union“; nur bei ausdrücklicher Nutzung des US-API-Endpunkts in den USA."
     }
   ],
   "vertrag": {

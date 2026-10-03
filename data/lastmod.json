@@ -8,7 +8,7 @@
     "datum": "2026-09-16"
   },
   "aenderungen/": {
-    "hash": "16ac928d4378004d",
+    "hash": "10dfd7d1838e1d89",
     "datum": "2026-10-03"
   },
   "anbieter/aleph-alpha/": {
@@ -16,19 +16,19 @@
     "datum": "2026-10-03"
   },
   "anbieter/black-forest-labs/": {
-    "hash": "7892beaf153c4118",
+    "hash": "e05de517e68a7c7e",
     "datum": "2026-10-03"
   },
   "anbieter/deepl/": {
-    "hash": "e0e5bbd5b66979ce",
+    "hash": "5d852ff13ec4f079",
     "datum": "2026-10-03"
   },
   "anbieter/eurouter/": {
-    "hash": "8f9a706b495c012c",
+    "hash": "d89288a88eda3e0a",
     "datum": "2026-10-03"
   },
   "anbieter/exoscale/": {
-    "hash": "8931dfdd14e0ddf7",
+    "hash": "f2953c479aee4bad",
     "datum": "2026-10-03"
   },
   "anbieter/gcore/": {
@@ -36,7 +36,7 @@
     "datum": "2026-10-03"
   },
   "anbieter/greenpt/": {
-    "hash": "f336bae2740d562d",
+    "hash": "a136ada4fb05aa3b",
     "datum": "2026-10-03"
   },
   "anbieter/hetzner/": {
@@ -44,7 +44,7 @@
     "datum": "2026-10-03"
   },
   "anbieter/infomaniak/": {
-    "hash": "a1a7556cd30c3961",
+    "hash": "41c22796faebb6bb",
     "datum": "2026-10-03"
   },
   "anbieter/ionos/": {
@@ -56,11 +56,11 @@
     "datum": "2026-10-03"
   },
   "anbieter/mistral/": {
-    "hash": "18dd84068231737e",
+    "hash": "2b6eeb1c2a538b2a",
     "datum": "2026-10-03"
   },
   "anbieter/nebius/": {
-    "hash": "aebaaaea9ff03703",
+    "hash": "feac8069bda1c06e",
     "datum": "2026-10-03"
   },
   "anbieter/nordference/": {
@@ -132,7 +132,7 @@
     "datum": "2026-10-03"
   },
   "fragen/dsgvo-konform-inference-api-eu-hosting/": {
-    "hash": "5eb9c9aacc4aac2e",
+    "hash": "32099e15d21d2876",
     "datum": "2026-10-03"
   },
   "fragen/souveraene-ki-kommunen-anbieter/": {

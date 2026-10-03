@@ -14,7 +14,7 @@
   "modelle": [
     {
       "name": "gpt-oss-120b (Dedicated Inference)",
-      "standort": "Wien (AT), Genf (CH), Frankfurt (DE), Zagreb (HR)",
+      "standort": "Exoscale-Zonen, je nach GPU: Frankfurt (DE), Zagreb (HR), Zürich (CH) mit RTX Pro 6000; Wien (AT) mit A5000",
       "preis_input_1m_eur": null,
       "preis_output_1m_eur": null,
       "preis_einheit": "GPU-Stunde",
@@ -22,11 +22,11 @@
       "quelle": "https://www.exoscale.com/ai-cloud-infrastructure/dedicated-inference/",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Kein Tokenpreis: Dedicated Inference kostet nichts extra, abgerechnet wird die GPU-Zeit sekundengenau. Preistabelle der Seite (03.10.2026): gpt-oss-120b auf 1x GPU RTX Pro 6000 ab 2,15 €/h (alternativ 4x GPU A5000 für 4,55 €/h); das bisher geführte 1,34 €/h (GPUA5000 small, Preis-API, 06.09.2026) ist der Preis für gpt-oss-20b, nicht für gpt-oss-120b. Beliebige Hugging-Face-Modelle deploybar."
+      "anmerkung": "Kein Tokenpreis: Dedicated Inference kostet nichts extra, abgerechnet wird die GPU-Zeit sekundengenau. Preistabelle der Seite (03.10.2026): gpt-oss-120b auf 1x GPU RTX Pro 6000 ab 2,15 €/h (alternativ 4x GPU A5000 für 4,55 €/h); das bisher geführte 1,34 €/h (GPUA5000 small, Preis-API, 06.09.2026) ist der Preis für gpt-oss-20b, nicht für gpt-oss-120b. Beliebige Hugging-Face-Modelle deploybar. Standort laut Exoscale-Doku „Limits and Quotas“ (Dedicated Inference, Stand 30.09.2026): GPU-Verfügbarkeit „varies by zone and GPU type“; die Beispielausgabe zeigt RTX Pro 6000 in de-fra-1 (Frankfurt), hr-zag-1 (Zagreb), ch-dk-2 (Zürich), A5000 in at-vie-2 (Wien). Genf (ch-gva-2) ist dort nicht als GPU-Zone genannt."
     },
     {
       "name": "Qwen3-Coder-480B (Dedicated Inference)",
-      "standort": "Wien (AT), Genf (CH), Frankfurt (DE), Zagreb (HR)",
+      "standort": "Exoscale-Zonen mit RTX Pro 6000: Frankfurt (DE), Zagreb (HR), Zürich (CH)",
       "preis_input_1m_eur": null,
       "preis_output_1m_eur": null,
       "preis_einheit": "GPU-Stunde",
@@ -34,7 +34,7 @@
       "quelle": "https://www.exoscale.com/ai-cloud-infrastructure/dedicated-inference/",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Kein Tokenpreis, GPU-Sekundenabrechnung. Preistabelle (03.10.2026): QuantTrio/Qwen3-Coder-480B-A35B-Instruct-AWQ auf 4x GPU RTX Pro 6000 ab 15,97 €/h — nicht ab 1,34 €/h (das war der veraltete Pauschalwert aus der Preis-API, der zu diesem Modell nicht passt)."
+      "anmerkung": "Kein Tokenpreis, GPU-Sekundenabrechnung. Preistabelle (03.10.2026): QuantTrio/Qwen3-Coder-480B-A35B-Instruct-AWQ auf 4x GPU RTX Pro 6000 ab 15,97 €/h — nicht ab 1,34 €/h (das war der veraltete Pauschalwert aus der Preis-API, der zu diesem Modell nicht passt). Standort laut Exoscale-Doku „Limits and Quotas“ (Dedicated Inference, Stand 30.09.2026): GPU-Verfügbarkeit „varies by zone and GPU type“; die Beispielausgabe zeigt RTX Pro 6000 in de-fra-1 (Frankfurt), hr-zag-1 (Zagreb), ch-dk-2 (Zürich), A5000 in at-vie-2 (Wien). Genf (ch-gva-2) ist dort nicht als GPU-Zone genannt."
     },
     {
       "name": "Managed Inference (Modellkatalog)",

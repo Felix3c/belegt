@@ -14,43 +14,43 @@
   "modelle": [
     {
       "name": "gpt-oss-120b",
-      "standort": "EU (Finnland/Frankreich); US-Region optional",
+      "standort": "Global (Serverless: Ort wechselt ohne Ankündigung, keine Regionsgarantie); feste Region nur per Dedicated Endpoint",
       "preis_input_1m_eur": 0.15,
       "preis_output_1m_eur": 0.6,
       "quelle": "https://openrouter.ai/provider/nebius",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Preis in USD; offizielle Preisseite nur nach Login, Preise über das Live-Listing bei OpenRouter verifiziert"
+      "anmerkung": "Preis in USD; offizielle Preisseite nur nach Login, Preise über das Live-Listing bei OpenRouter verifiziert. Standort laut docs.tokenfactory.nebius.com/public-serverless (03.10.2026): öffentliche Endpunkte zeigen Region „Global“, „the processing location is decided dynamically and can change at any time, without notice“; feste Region nur über Dedicated Endpoints. Die frühere Angabe „EU (Finnland/Frankreich)“ ist für den Serverless-Zugang nicht gedeckt."
     },
     {
       "name": "Qwen3-235B-A22B-Instruct",
-      "standort": "EU (Finnland/Frankreich); US-Region optional",
+      "standort": "Global (Serverless: Ort wechselt ohne Ankündigung, keine Regionsgarantie); feste Region nur per Dedicated Endpoint",
       "preis_input_1m_eur": 0.2,
       "preis_output_1m_eur": 0.6,
       "quelle": "https://openrouter.ai/provider/nebius",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Preis in USD"
+      "anmerkung": "Preis in USD. Standort laut docs.tokenfactory.nebius.com/public-serverless (03.10.2026): öffentliche Endpunkte zeigen Region „Global“, „the processing location is decided dynamically and can change at any time, without notice“; feste Region nur über Dedicated Endpoints. Die frühere Angabe „EU (Finnland/Frankreich)“ ist für den Serverless-Zugang nicht gedeckt."
     },
     {
       "name": "Llama 3.3 70B Instruct",
-      "standort": "EU (Finnland/Frankreich); US-Region optional",
+      "standort": "Global (Serverless: Ort wechselt ohne Ankündigung, keine Regionsgarantie); feste Region nur per Dedicated Endpoint",
       "preis_input_1m_eur": null,
       "preis_output_1m_eur": null,
       "quelle": null,
       "geprueft": "2026-10-03",
       "status": "unbelegt",
-      "anmerkung": "Aussage stand bis 2026-08-19 auf https://openrouter.ai/provider/nebius (0,13 $ / 0,40 $ je 1M), am 03.10.2026 nicht mehr — nicht mehr in der aktuellen Modellliste des Providers (10 Modelle, u.a. GLM 5.3, Kimi K2.7 Code, GLM 5.1, gpt-oss-120b, Qwen3 235B)"
+      "anmerkung": "Aussage stand bis 2026-08-19 auf https://openrouter.ai/provider/nebius (0,13 $ / 0,40 $ je 1M), am 03.10.2026 nicht mehr — nicht mehr in der aktuellen Modellliste des Providers (10 Modelle, u.a. GLM 5.3, Kimi K2.7 Code, GLM 5.1, gpt-oss-120b, Qwen3 235B). Standort laut docs.tokenfactory.nebius.com/public-serverless (03.10.2026): öffentliche Endpunkte zeigen Region „Global“, „the processing location is decided dynamically and can change at any time, without notice“; feste Region nur über Dedicated Endpoints. Die frühere Angabe „EU (Finnland/Frankreich)“ ist für den Serverless-Zugang nicht gedeckt."
     },
     {
       "name": "GLM-5.1",
-      "standort": "EU (Finnland/Frankreich); US-Region optional",
+      "standort": "Global (Serverless: Ort wechselt ohne Ankündigung, keine Regionsgarantie); feste Region nur per Dedicated Endpoint",
       "preis_input_1m_eur": 1.4,
       "preis_output_1m_eur": 4.4,
       "quelle": "https://openrouter.ai/provider/nebius",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Preis in USD"
+      "anmerkung": "Preis in USD. Standort laut docs.tokenfactory.nebius.com/public-serverless (03.10.2026): öffentliche Endpunkte zeigen Region „Global“, „the processing location is decided dynamically and can change at any time, without notice“; feste Region nur über Dedicated Endpoints. Die frühere Angabe „EU (Finnland/Frankreich)“ ist für den Serverless-Zugang nicht gedeckt."
     }
   ],
   "vertrag": {

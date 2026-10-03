@@ -20,7 +20,7 @@
       "quelle": "https://www.infomaniak.com/en/hosting/ai-services/prices",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Preis in CHF, exkl. MwSt.; 200k Kontext, multimodal, Beta"
+      "anmerkung": "Preis in CHF, exkl. MwSt.; 200k Kontext, multimodal, Beta. Standort laut infomaniak.com/en/hosting/ai-services (03.10.2026): „Our AI and GPU services are powered from the heart of Europe in our data centers located in Switzerland“. Die Preisseite selbst nennt keinen Standort."
     },
     {
       "name": "Qwen3.5-122B-A10B-FP8",
@@ -30,7 +30,7 @@
       "quelle": "https://www.infomaniak.com/en/hosting/ai-services/prices",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Preis in CHF, exkl. MwSt.; 200k Kontext"
+      "anmerkung": "Preis in CHF, exkl. MwSt.; 200k Kontext. Standort laut infomaniak.com/en/hosting/ai-services (03.10.2026): „Our AI and GPU services are powered from the heart of Europe in our data centers located in Switzerland“. Die Preisseite selbst nennt keinen Standort."
     },
     {
       "name": "Kimi-K2.6",
@@ -40,7 +40,7 @@
       "quelle": "https://www.infomaniak.com/en/hosting/ai-services/prices",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Preis in CHF, exkl. MwSt.; Coding-Modell, 256k Kontext, Beta"
+      "anmerkung": "Preis in CHF, exkl. MwSt.; Coding-Modell, 256k Kontext, Beta. Standort laut infomaniak.com/en/hosting/ai-services (03.10.2026): „Our AI and GPU services are powered from the heart of Europe in our data centers located in Switzerland“. Die Preisseite selbst nennt keinen Standort."
     },
     {
       "name": "Mistral-Small-4-119B-2603",
@@ -50,7 +50,7 @@
       "quelle": "https://www.infomaniak.com/en/hosting/ai-services/prices",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Preis in CHF, exkl. MwSt.; 256k Kontext"
+      "anmerkung": "Preis in CHF, exkl. MwSt.; 256k Kontext. Standort laut infomaniak.com/en/hosting/ai-services (03.10.2026): „Our AI and GPU services are powered from the heart of Europe in our data centers located in Switzerland“. Die Preisseite selbst nennt keinen Standort."
     },
     {
       "name": "Apertus-v1.5-70B (swiss-ai)",
@@ -60,7 +60,7 @@
       "quelle": "https://www.infomaniak.com/en/hosting/ai-services/prices",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Preis in CHF, exkl. MwSt.; Schweizer Open-Source-Modell (ETH/EPFL-Umfeld), offene Gewichte und Trainingsdaten, Beta"
+      "anmerkung": "Preis in CHF, exkl. MwSt.; Schweizer Open-Source-Modell (ETH/EPFL-Umfeld), offene Gewichte und Trainingsdaten, Beta. Standort laut infomaniak.com/en/hosting/ai-services (03.10.2026): „Our AI and GPU services are powered from the heart of Europe in our data centers located in Switzerland“. Die Preisseite selbst nennt keinen Standort."
     },
     {
       "name": "gemma-4-31B-it",
@@ -70,7 +70,7 @@
       "quelle": "https://www.infomaniak.com/en/hosting/ai-services/prices",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Preis in CHF, exkl. MwSt.; 100k Kontext"
+      "anmerkung": "Preis in CHF, exkl. MwSt.; 100k Kontext. Standort laut infomaniak.com/en/hosting/ai-services (03.10.2026): „Our AI and GPU services are powered from the heart of Europe in our data centers located in Switzerland“. Die Preisseite selbst nennt keinen Standort."
     },
     {
       "name": "Whisper V3 (Audio-Transkription)",
@@ -80,7 +80,7 @@
       "quelle": "https://www.infomaniak.com/en/hosting/ai-services/prices",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Abrechnung pro Minute Generierungszeit (CHF 0.006/min), nicht pro Token; zudem Embedding-/Reranker-Modelle und Bildgenerierung (Flux schnell) im Angebot"
+      "anmerkung": "Abrechnung pro Minute Generierungszeit (CHF 0.006/min), nicht pro Token; zudem Embedding-/Reranker-Modelle und Bildgenerierung (Flux schnell) im Angebot. Standort laut infomaniak.com/en/hosting/ai-services (03.10.2026): „Our AI and GPU services are powered from the heart of Europe in our data centers located in Switzerland“. Die Preisseite selbst nennt keinen Standort."
     }
   ],
   "vertrag": {

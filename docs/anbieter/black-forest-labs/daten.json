@@ -20,7 +20,7 @@
       "quelle": "https://docs.bfl.ai/quick_start/pricing",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Bildmodell, Abrechnung pro Bild nach Megapixel: ab 0,03 $/Bild (Text-zu-Bild), ab 0,045 $/Bild (Editing); Preise in USD"
+      "anmerkung": "Bildmodell, Abrechnung pro Bild nach Megapixel: ab 0,03 $/Bild (Text-zu-Bild), ab 0,045 $/Bild (Editing); Preise in USD. Standort laut docs.bfl.ai/api_integration/integration_guidelines (03.10.2026): global api.bfl.ai „routes requests across all available clusters globally“, api.eu.bfl.ai „multi-cluster routing limited to EU regions“, api.us.bfl.ai auf US-Regionen begrenzt; Cloud-Betreiber nicht genannt."
     },
     {
       "name": "FLUX.2 [max]",
@@ -30,7 +30,7 @@
       "quelle": "https://docs.bfl.ai/quick_start/pricing",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "ab 0,07 $/Bild, megapixelbasiert"
+      "anmerkung": "ab 0,07 $/Bild, megapixelbasiert. Standort laut docs.bfl.ai/api_integration/integration_guidelines (03.10.2026): global api.bfl.ai „routes requests across all available clusters globally“, api.eu.bfl.ai „multi-cluster routing limited to EU regions“, api.us.bfl.ai auf US-Regionen begrenzt; Cloud-Betreiber nicht genannt."
     },
     {
       "name": "FLUX.2 [flex]",
@@ -40,7 +40,7 @@
       "quelle": "https://docs.bfl.ai/quick_start/pricing",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "ab 0,05 $/Bild"
+      "anmerkung": "ab 0,05 $/Bild. Standort laut docs.bfl.ai/api_integration/integration_guidelines (03.10.2026): global api.bfl.ai „routes requests across all available clusters globally“, api.eu.bfl.ai „multi-cluster routing limited to EU regions“, api.us.bfl.ai auf US-Regionen begrenzt; Cloud-Betreiber nicht genannt."
     },
     {
       "name": "FLUX.2 [klein] (4B / 9B)",
@@ -50,7 +50,7 @@
       "quelle": "https://docs.bfl.ai/quick_start/pricing",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "ab 0,014 $/Bild (4B) bzw. 0,015 $/Bild (9B)"
+      "anmerkung": "ab 0,014 $/Bild (4B) bzw. 0,015 $/Bild (9B). Standort laut docs.bfl.ai/api_integration/integration_guidelines (03.10.2026): global api.bfl.ai „routes requests across all available clusters globally“, api.eu.bfl.ai „multi-cluster routing limited to EU regions“, api.us.bfl.ai auf US-Regionen begrenzt; Cloud-Betreiber nicht genannt."
     },
     {
       "name": "FLUX.1 Kontext [pro] / [max]",
@@ -60,7 +60,7 @@
       "quelle": "https://docs.bfl.ai/quick_start/pricing",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Bild-Editing: 0,04 $/Bild (pro), 0,08 $/Bild (max)"
+      "anmerkung": "Bild-Editing: 0,04 $/Bild (pro), 0,08 $/Bild (max). Standort laut docs.bfl.ai/api_integration/integration_guidelines (03.10.2026): global api.bfl.ai „routes requests across all available clusters globally“, api.eu.bfl.ai „multi-cluster routing limited to EU regions“, api.us.bfl.ai auf US-Regionen begrenzt; Cloud-Betreiber nicht genannt."
     },
     {
       "name": "FLUX 3 (Video)",
@@ -70,7 +70,7 @@
       "quelle": "https://docs.bfl.ai/quick_start/pricing",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Abrechnung pro Sekunde: Text-/Bild-zu-Video 0,17 $/s (hd), 0,29 $/s (fhd), 0,40 $/s (qhd), 0,80 $/s (uhd); Draft 0,06 $/s; Video-Continuation (v2v) 0,41–0,95 $/s, Draft 0,12 $/s. Die frühere Spanne 0,17–0,29 $/s gilt nur für hd/fhd"
+      "anmerkung": "Abrechnung pro Sekunde: Text-/Bild-zu-Video 0,17 $/s (hd), 0,29 $/s (fhd), 0,40 $/s (qhd), 0,80 $/s (uhd); Draft 0,06 $/s; Video-Continuation (v2v) 0,41–0,95 $/s, Draft 0,12 $/s. Die frühere Spanne 0,17–0,29 $/s gilt nur für hd/fhd. Standort laut docs.bfl.ai/api_integration/integration_guidelines (03.10.2026): global api.bfl.ai „routes requests across all available clusters globally“, api.eu.bfl.ai „multi-cluster routing limited to EU regions“, api.us.bfl.ai auf US-Regionen begrenzt; Cloud-Betreiber nicht genannt."
     }
   ],
   "vertrag": {

@@ -12,14 +12,14 @@
     <title>Aleph Alpha: Modell Kolibri (spezialisiertes souveränes LLM) – → beansprucht</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-03-aleph-alpha-modelle-kolibri-spezialisiertes-souver-nes-llm"/>
     <updated>2026-10-03T00:00:00Z</updated>
-    <content type="text">Website bewirbt seit 03.10.2026 'Kolibri', ein spezialisiertes souveränes Sprachmodell für geschäftskritische Umgebungen; keine öffentlichen Modellkarten oder Preise. Frühere Aussagen zu 'europäischer Infrastruktur' und zur PhariaAI-as-a-Service-Partnerschaft mit STACKIT stehen auf der Seite nicht mehr; neu beworben wird eine Vereinbarung mit Cohere ('erste transatlantische souveräne KI-Lösung'). · Neue Quelle: https://aleph-alpha.com/</content>
+    <content type="text">Website bewirbt seit 03.10.2026 'Kolibri', ein spezialisiertes souveränes Sprachmodell für geschäftskritische Umgebungen; keine öffentlichen Modellkarten oder Preise. Frühere Aussagen zu 'europäischer Infrastruktur' und zur PhariaAI-as-a-Service-Partnerschaft mit STACKIT stehen auf der Seite nicht mehr; neu beworben wird eine Vereinbarung mit Cohere ('erste transatlantische souveräne KI-Lösung'). · Neue Quelle: https://aleph-alpha.com/ · Commit 623c72a: fix: Quellenlauf 03.10. – 61 Angaben nach Quellenänderung korrigiert</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-03-aleph-alpha-modelle-specialized-language-models-sllms</id>
     <title>Aleph Alpha: Modell Specialized Language Models (SLLMs) beansprucht → –</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-03-aleph-alpha-modelle-specialized-language-models-sllms"/>
     <updated>2026-10-03T00:00:00Z</updated>
-    <content type="text">Alte Quelle: https://aleph-alpha.com/</content>
+    <content type="text">Alte Quelle: https://aleph-alpha.com/ · Commit 623c72a: fix: Quellenlauf 03.10. – 61 Angaben nach Quellenänderung korrigiert</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-03-black-forest-labs-fall-2026-003</id>
@@ -33,42 +33,42 @@
     <title>EUrouter: Modell Claude (Opus 5 / Sonnet / Haiku) beansprucht → belegt</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-03-eurouter-modelle-claude-opus-5-sonnet-haiku"/>
     <updated>2026-10-03T00:00:00Z</updated>
-    <content type="text">Modell gelistet; Preise (USD/1M, Input/Output, nach 'Show all' sichtbar) je Variante: Claude Opus 5 5.50/27.50, Opus 5.5 4.40/22.00, Sonnet 5 2.20/11.00, Sonnet 4.6 3.30/16.50, Haiku 4.5 1.10/5.50 — als Sammeleintrag mit mehreren Preisen daher ohne einzelnes preis_*_eur-Feld geführt</content>
+    <content type="text">Modell gelistet; Preise (USD/1M, Input/Output, nach 'Show all' sichtbar) je Variante: Claude Opus 5 5.50/27.50, Opus 5.5 4.40/22.00, Sonnet 5 2.20/11.00, Sonnet 4.6 3.30/16.50, Haiku 4.5 1.10/5.50 — als Sammeleintrag mit mehreren Preisen daher ohne einzelnes preis_*_eur-Feld geführt · Commit 623c72a: fix: Quellenlauf 03.10. – 61 Angaben nach Quellenänderung korrigiert</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-03-eurouter-modelle-mistral-large-3</id>
     <title>EUrouter: Modell Mistral Large 3 beansprucht → belegt</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-03-eurouter-modelle-mistral-large-3"/>
     <updated>2026-10-03T00:00:00Z</updated>
-    <content type="text">Preis in USD (256K Kontext)</content>
+    <content type="text">Preis in USD (256K Kontext) · Commit 623c72a: fix: Quellenlauf 03.10. – 61 Angaben nach Quellenänderung korrigiert</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-03-ionos-modelle-llama-3.1-8b-instruct</id>
     <title>IONOS (AI Model Hub): Modell Llama 3.1 8B Instruct belegt → unbelegt</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-03-ionos-modelle-llama-3.1-8b-instruct"/>
     <updated>2026-10-03T00:00:00Z</updated>
-    <content type="text">Aussage stand bis 2026-08-19 auf https://cloud.ionos.de/managed/ai-model-hub (0,15 € / 0,15 € je 1M), am 03.10.2026 nicht mehr — Modell nicht mehr in der Preisliste. Aktuell stattdessen u.a. Qwen3.5-9B (0,10/0,15 €) und Qwen3.8-27B (0,40/2,70 €) · Alte Quelle: https://cloud.ionos.de/managed/ai-model-hub</content>
+    <content type="text">Aussage stand bis 2026-08-19 auf https://cloud.ionos.de/managed/ai-model-hub (0,15 € / 0,15 € je 1M), am 03.10.2026 nicht mehr — Modell nicht mehr in der Preisliste. Aktuell stattdessen u.a. Qwen3.5-9B (0,10/0,15 €) und Qwen3.8-27B (0,40/2,70 €) · Alte Quelle: https://cloud.ionos.de/managed/ai-model-hub · Commit 623c72a: fix: Quellenlauf 03.10. – 61 Angaben nach Quellenänderung korrigiert</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-03-lyceum-modelle-deepseek-v3.2</id>
     <title>Lyceum Technology: Modell DeepSeek V3.2 belegt → unbelegt</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-03-lyceum-modelle-deepseek-v3.2"/>
     <updated>2026-10-03T00:00:00Z</updated>
-    <content type="text">Aussage stand bis 2026-08-19 auf https://lyceum.technology/products/inference/models/ (0,30 $ / 0,45 $ je 1M), am 03.10.2026 nicht mehr — Modell laut Retired-Liste abgeschaltet ('Requests to their model IDs return 404 model not found'); Nachfolger laut Anbieter DeepSeek V4.1 Flash ($0.50/$1.50) · Alte Quelle: https://lyceum.technology/products/inference/models/</content>
+    <content type="text">Aussage stand bis 2026-08-19 auf https://lyceum.technology/products/inference/models/ (0,30 $ / 0,45 $ je 1M), am 03.10.2026 nicht mehr — Modell laut Retired-Liste abgeschaltet ('Requests to their model IDs return 404 model not found'); Nachfolger laut Anbieter DeepSeek V4.1 Flash ($0.50/$1.50) · Alte Quelle: https://lyceum.technology/products/inference/models/ · Commit 623c72a: fix: Quellenlauf 03.10. – 61 Angaben nach Quellenänderung korrigiert</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-03-lyceum-modelle-gpt-oss-120b</id>
     <title>Lyceum Technology: Modell gpt-oss 120B belegt → unbelegt</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-03-lyceum-modelle-gpt-oss-120b"/>
     <updated>2026-10-03T00:00:00Z</updated>
-    <content type="text">Aussage stand bis 2026-08-19 auf https://lyceum.technology/products/inference/models/ (0,15 $ / 0,60 $ je 1M), am 03.10.2026 nicht mehr — laut Retired-Liste abgeschaltet; Nachfolger laut Anbieter GLM-5.3 Flash ($0.20/$0.50) · Alte Quelle: https://lyceum.technology/products/inference/models/</content>
+    <content type="text">Aussage stand bis 2026-08-19 auf https://lyceum.technology/products/inference/models/ (0,15 $ / 0,60 $ je 1M), am 03.10.2026 nicht mehr — laut Retired-Liste abgeschaltet; Nachfolger laut Anbieter GLM-5.3 Flash ($0.20/$0.50) · Alte Quelle: https://lyceum.technology/products/inference/models/ · Commit 623c72a: fix: Quellenlauf 03.10. – 61 Angaben nach Quellenänderung korrigiert</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-03-lyceum-vertrag.training-opt-out</id>
     <title>Lyceum Technology: Kein Training mit Kundendaten beansprucht → unbelegt</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-03-lyceum-vertrag.training-opt-out"/>
     <updated>2026-10-03T00:00:00Z</updated>
-    <content type="text">Aussage stand bis 2026-08-19 auf https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/, am 03.10.2026 nicht mehr (Volltext nach 'train'/'never'/'not' durchsucht, nur Fließtext zum Training von Kundenmodellen gefunden). Vertragliche Zusicherung ggf. im Trust Center/DPA, nicht öffentlich geprüft · Alte Quelle: https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/</content>
+    <content type="text">Aussage stand bis 2026-08-19 auf https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/, am 03.10.2026 nicht mehr (Volltext nach 'train'/'never'/'not' durchsucht, nur Fließtext zum Training von Kundenmodellen gefunden). Vertragliche Zusicherung ggf. im Trust Center/DPA, nicht öffentlich geprüft · Alte Quelle: https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/ · Commit 623c72a: fix: Quellenlauf 03.10. – 61 Angaben nach Quellenänderung korrigiert</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-03-mistral-vertrag.training-opt-out</id>
@@ -89,21 +89,21 @@
     <title>Nebius (Token Factory): Modell Llama 3.3 70B Instruct belegt → unbelegt</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-03-nebius-modelle-llama-3.3-70b-instruct"/>
     <updated>2026-10-03T00:00:00Z</updated>
-    <content type="text">Aussage stand bis 2026-08-19 auf https://openrouter.ai/provider/nebius (0,13 $ / 0,40 $ je 1M), am 03.10.2026 nicht mehr — nicht mehr in der aktuellen Modellliste des Providers (10 Modelle, u.a. GLM 5.3, Kimi K2.7 Code, GLM 5.1, gpt-oss-120b, Qwen3 235B) · Alte Quelle: https://openrouter.ai/provider/nebius</content>
+    <content type="text">Aussage stand bis 2026-08-19 auf https://openrouter.ai/provider/nebius (0,13 $ / 0,40 $ je 1M), am 03.10.2026 nicht mehr — nicht mehr in der aktuellen Modellliste des Providers (10 Modelle, u.a. GLM 5.3, Kimi K2.7 Code, GLM 5.1, gpt-oss-120b, Qwen3 235B) · Alte Quelle: https://openrouter.ai/provider/nebius · Commit 623c72a: fix: Quellenlauf 03.10. – 61 Angaben nach Quellenänderung korrigiert</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-03-nebius-vertrag.training-opt-out</id>
     <title>Nebius (Token Factory): Kein Training mit Kundendaten belegt → unbelegt</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-03-nebius-vertrag.training-opt-out"/>
     <updated>2026-10-03T00:00:00Z</updated>
-    <content type="text">Aussage stand bis 2026-08-19 auf https://nebius.com/services/token-factory ('requests and outputs are never stored or reused for training'), am 03.10.2026 nicht mehr — Seite enthält keine Aussage mehr zu Training/Retention auf Kundendaten (nur Post-Training-Produktwerbung) · Alte Quelle: https://nebius.com/services/token-factory</content>
+    <content type="text">Aussage stand bis 2026-08-19 auf https://nebius.com/services/token-factory ('requests and outputs are never stored or reused for training'), am 03.10.2026 nicht mehr — Seite enthält keine Aussage mehr zu Training/Retention auf Kundendaten (nur Post-Training-Produktwerbung) · Alte Quelle: https://nebius.com/services/token-factory · Commit 623c72a: fix: Quellenlauf 03.10. – 61 Angaben nach Quellenänderung korrigiert</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-03-nebius-vertrag.zero-data-retention</id>
     <title>Nebius (Token Factory): Zero Data Retention beansprucht → unbelegt</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-03-nebius-vertrag.zero-data-retention"/>
     <updated>2026-10-03T00:00:00Z</updated>
-    <content type="text">Aussage stand bis 2026-08-19 auf https://nebius.com/services/token-factory ('Zero-retention mode'), am 03.10.2026 nicht mehr — weder 'Zero-retention mode' noch 'retention' kommt auf der Seite noch vor · Alte Quelle: https://nebius.com/services/token-factory</content>
+    <content type="text">Aussage stand bis 2026-08-19 auf https://nebius.com/services/token-factory ('Zero-retention mode'), am 03.10.2026 nicht mehr — weder 'Zero-retention mode' noch 'retention' kommt auf der Seite noch vor · Alte Quelle: https://nebius.com/services/token-factory · Commit 623c72a: fix: Quellenlauf 03.10. – 61 Angaben nach Quellenänderung korrigiert</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-03-opper-ai-vertrag.subprozessoren</id>
@@ -117,14 +117,14 @@
     <title>Opper AI: Zertifikat ISO 27001 unbelegt → beansprucht</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-03-opper-ai-zertifikate-iso-27001"/>
     <updated>2026-10-03T00:00:00Z</updated>
-    <content type="text">Seit spätestens 03.10.2026 auf Security Overview und AI-Compliance-Seite: 'Opper is certified against ISO/IEC 27001:2022 … the certificate is available there [Trust Center] on request.' Zertifikat selbst nicht öffentlich einsehbar. Frühere Prüfung (Stand 2026-08-19) fand keine Zertifikatsnennung · Neue Quelle: https://opper.ai/security-overview</content>
+    <content type="text">Seit spätestens 03.10.2026 auf Security Overview und AI-Compliance-Seite: 'Opper is certified against ISO/IEC 27001:2022 … the certificate is available there [Trust Center] on request.' Zertifikat selbst nicht öffentlich einsehbar. Frühere Prüfung (Stand 2026-08-19) fand keine Zertifikatsnennung · Neue Quelle: https://opper.ai/security-overview · Commit 623c72a: fix: Quellenlauf 03.10. – 61 Angaben nach Quellenänderung korrigiert</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-03-regolo-modelle-llama-3.3-70b-instruct</id>
     <title>Regolo.ai: Modell Llama 3.3 70B Instruct belegt → unbelegt</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-03-regolo-modelle-llama-3.3-70b-instruct"/>
     <updated>2026-10-03T00:00:00Z</updated>
-    <content type="text">Aussage stand bis 2026-08-19 auf https://regolo.ai/pricing/ (0,60 € / 2,70 € je 1M), am 03.10.2026 nicht mehr — kein 'llama' mehr in der Preisliste (0 Treffer im HTML). Aktuelle Chatmodelle u.a. apertus-70b, gemma4-31b, glm5.2, gpt-oss-120b/20b, mistral-small-4-119b, qwen3.5-122b/9b, qwen3.8-27b · Alte Quelle: https://regolo.ai/pricing/</content>
+    <content type="text">Aussage stand bis 2026-08-19 auf https://regolo.ai/pricing/ (0,60 € / 2,70 € je 1M), am 03.10.2026 nicht mehr — kein 'llama' mehr in der Preisliste (0 Treffer im HTML). Aktuelle Chatmodelle u.a. apertus-70b, gemma4-31b, glm5.2, gpt-oss-120b/20b, mistral-small-4-119b, qwen3.5-122b/9b, qwen3.8-27b · Alte Quelle: https://regolo.ai/pricing/ · Commit 623c72a: fix: Quellenlauf 03.10. – 61 Angaben nach Quellenänderung korrigiert</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-03-scaleway-fall-2026-004</id>
@@ -138,14 +138,14 @@
     <title>T-Systems / Open Telekom Cloud (AI Foundation Services): Modell Claude 4.6 Sonnet — Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-03-t-systems-modelle-claude-4.6-sonnet"/>
     <updated>2026-10-03T00:00:00Z</updated>
-    <content type="text">Betroffene Felder: Modell Claude 4.6 Sonnet, Modell GPT-5, Modell GPT-OSS 120B, Modell Mistral Small 4 · 2,97 € / 14,85 € je 1M In/Out, 'Cloud: GCP, Server Location: Europe, Data Processing: EU' (Preisliste nennt die Cloud teils als 'GCP / Azure'). Via Google Cloud (Europa); Gateway-Funktion, keine T-Cloud-Hosting-Garantie. · Alte Quelle: https://docs.llmhub.t-systems.net/models/ · Neue Quelle: https://docs.llmhub.t-systems.net/models/llms/</content>
+    <content type="text">Betroffene Felder: Modell Claude 4.6 Sonnet, Modell GPT-5, Modell GPT-OSS 120B, Modell Mistral Small 4 · 2,97 € / 14,85 € je 1M In/Out, 'Cloud: GCP, Server Location: Europe, Data Processing: EU' (Preisliste nennt die Cloud teils als 'GCP / Azure'). Via Google Cloud (Europa); Gateway-Funktion, keine T-Cloud-Hosting-Garantie. · Alte Quelle: https://docs.llmhub.t-systems.net/models/ · Neue Quelle: https://docs.llmhub.t-systems.net/models/llms/ · Commit 623c72a: fix: Quellenlauf 03.10. – 61 Angaben nach Quellenänderung korrigiert</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-03-t-systems-modelle-llama-3.3-70b</id>
     <title>T-Systems / Open Telekom Cloud (AI Foundation Services): Modell Llama 3.3 70B belegt → unbelegt</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-03-t-systems-modelle-llama-3.3-70b"/>
     <updated>2026-10-03T00:00:00Z</updated>
-    <content type="text">Aussage stand bis 2026-08-19 auf https://docs.llmhub.t-systems.net/models/, am 03.10.2026 nicht mehr — laut Retired-Seite seit 2026-09-01 abgeschaltet ('Retired 2026-09-01, Replacement GPT-OSS 120B'), neue Anfragen an die Modell-ID liefern einen Fehler. · Alte Quelle: https://docs.llmhub.t-systems.net/models/</content>
+    <content type="text">Aussage stand bis 2026-08-19 auf https://docs.llmhub.t-systems.net/models/, am 03.10.2026 nicht mehr — laut Retired-Seite seit 2026-09-01 abgeschaltet ('Retired 2026-09-01, Replacement GPT-OSS 120B'), neue Anfragen an die Modell-ID liefern einen Fehler. · Alte Quelle: https://docs.llmhub.t-systems.net/models/ · Commit 623c72a: fix: Quellenlauf 03.10. – 61 Angaben nach Quellenänderung korrigiert</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-09-18-scaleway-ai-act-gpai-code-of-practice-art.-53-transparenzdokumentation</id>

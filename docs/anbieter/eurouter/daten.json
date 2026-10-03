@@ -14,33 +14,33 @@
   "modelle": [
     {
       "name": "DeepSeek V3.2",
-      "standort": "EU (EU-West)",
+      "standort": "EU (konkreter Ort je Modell nicht genannt)",
       "preis_input_1m_eur": 0.3,
       "preis_output_1m_eur": 0.5,
       "quelle": "https://eurouter.ai/models",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Preis in USD"
+      "anmerkung": "Preis in USD. Standort laut eurouter.ai/providers (03.10.2026): „All models in EUrouter use EU inference profiles or EU regional deployments to ensure data stays within the EU.“ Eine Region „EU-West“ wird nicht genannt."
     },
     {
       "name": "Kimi K2.6",
-      "standort": "EU (EU-West)",
+      "standort": "EU (konkreter Ort je Modell nicht genannt)",
       "preis_input_1m_eur": 0.66,
       "preis_output_1m_eur": 3.5,
       "quelle": "https://eurouter.ai/models",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Preis in USD"
+      "anmerkung": "Preis in USD. Standort laut eurouter.ai/providers (03.10.2026): „All models in EUrouter use EU inference profiles or EU regional deployments to ensure data stays within the EU.“ Eine Region „EU-West“ wird nicht genannt."
     },
     {
       "name": "Gemma 4",
-      "standort": "EU (EU-West)",
+      "standort": "EU (konkreter Ort je Modell nicht genannt)",
       "preis_input_1m_eur": 0.1,
       "preis_output_1m_eur": 0.35,
       "quelle": "https://eurouter.ai/models",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Preis in USD"
+      "anmerkung": "Preis in USD. Standort laut eurouter.ai/providers (03.10.2026): „All models in EUrouter use EU inference profiles or EU regional deployments to ensure data stays within the EU.“ Eine Region „EU-West“ wird nicht genannt."
     },
     {
       "name": "Claude (Opus 5 / Sonnet / Haiku)",
@@ -50,7 +50,7 @@
       "quelle": "https://eurouter.ai/models",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Modell gelistet; Preise (USD/1M, Input/Output, nach 'Show all' sichtbar) je Variante: Claude Opus 5 5.50/27.50, Opus 5.5 4.40/22.00, Sonnet 5 2.20/11.00, Sonnet 4.6 3.30/16.50, Haiku 4.5 1.10/5.50 — als Sammeleintrag mit mehreren Preisen daher ohne einzelnes preis_*_eur-Feld geführt"
+      "anmerkung": "Modell gelistet; Preise (USD/1M, Input/Output, nach 'Show all' sichtbar) je Variante: Claude Opus 5 5.50/27.50, Opus 5.5 4.40/22.00, Sonnet 5 2.20/11.00, Sonnet 4.6 3.30/16.50, Haiku 4.5 1.10/5.50 — als Sammeleintrag mit mehreren Preisen daher ohne einzelnes preis_*_eur-Feld geführt. Standort laut eurouter.ai/providers (03.10.2026): „All models in EUrouter use EU inference profiles or EU regional deployments to ensure data stays within the EU.“ Eine Region „EU-West“ wird nicht genannt."
     },
     {
       "name": "Mistral Large 3",
@@ -60,7 +60,7 @@
       "quelle": "https://eurouter.ai/models",
       "geprueft": "2026-10-03",
       "status": "belegt",
-      "anmerkung": "Preis in USD (256K Kontext)"
+      "anmerkung": "Preis in USD (256K Kontext). Standort laut eurouter.ai/providers (03.10.2026): „All models in EUrouter use EU inference profiles or EU regional deployments to ensure data stays within the EU.“ Eine Region „EU-West“ wird nicht genannt."
     }
   ],
   "vertrag": {
