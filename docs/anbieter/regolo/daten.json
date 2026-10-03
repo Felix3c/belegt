@@ -18,6 +18,7 @@
       "preis_input_1m_eur": 1,
       "preis_output_1m_eur": 4.2,
       "quelle": "https://regolo.ai/pricing/",
+      "geprueft": "2026-10-03",
       "status": "belegt"
     },
     {
@@ -34,6 +35,7 @@
       "preis_input_1m_eur": 1,
       "preis_output_1m_eur": 4.2,
       "quelle": "https://regolo.ai/pricing/",
+      "geprueft": "2026-10-03",
       "status": "belegt"
     },
     {
@@ -42,6 +44,7 @@
       "preis_input_1m_eur": 0.4,
       "preis_output_1m_eur": 2.1,
       "quelle": "https://regolo.ai/pricing/",
+      "geprueft": "2026-10-03",
       "status": "belegt",
       "anmerkung": "Europäisches Open-Source-Modell (Swiss AI)"
     },
@@ -51,6 +54,7 @@
       "preis_input_1m_eur": 0.5,
       "preis_output_1m_eur": 2.1,
       "quelle": "https://regolo.ai/pricing/",
+      "geprueft": "2026-10-03",
       "status": "belegt"
     },
     {
@@ -59,6 +63,7 @@
       "preis_input_1m_eur": 2,
       "preis_output_1m_eur": 5.2,
       "quelle": "https://regolo.ai/pricing/",
+      "geprueft": "2026-10-03",
       "status": "belegt"
     }
   ],
@@ -67,24 +72,28 @@
       "wert": "https://regolo.ai/terms-and-conditions/#data-processor-agreement",
       "status": "belegt",
       "quelle": "https://regolo.ai/terms-and-conditions/",
+      "geprueft": "2026-10-03",
       "anmerkung": "Vollständiges Data Processor Agreement nach Art. 28 DSGVO als Bestandteil der Enterprise-AGB; Verantwortlicher ist Seeweb S.r.l., Frosinone"
     },
     "subprozessoren": {
       "wert": null,
       "status": "unbelegt",
       "quelle": "https://regolo.ai/terms-and-conditions/",
+      "geprueft": "2026-10-03",
       "anmerkung": "Keine öffentliche Liste; laut DPA nur mit schriftlicher Genehmigung, autorisierte Liste wird geführt — Betrieb auf eigener Seeweb-Infrastruktur"
     },
     "training_opt_out": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://regolo.ai/zero-data-retention/",
+      "geprueft": "2026-10-03",
       "anmerkung": "Keine Wiederverwendung für Training oder Fine-Tuning ('Your data serves one purpose only: delivering the response you requested, then it is gone')"
     },
     "zero_data_retention": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://regolo.ai/zero-data-retention/",
+      "geprueft": "2026-10-03",
       "anmerkung": "Prompts/Outputs nur flüchtig in ephemeren Containern, keine Logs/Persistenz; ZDR-Policy durch externe Prüfgesellschaft zertifiziert (24.07.2026)"
     }
   },
@@ -93,6 +102,7 @@
       "typ": "ISO 27001",
       "status": "belegt",
       "quelle": "https://regolo.ai/terms-and-conditions/",
+      "geprueft": "2026-10-03",
       "anmerkung": "Zertifikat der Betreibergesellschaft Seeweb S.r.l.",
       "normiert": [
         "iso-27001"
@@ -102,6 +112,7 @@
       "typ": "ISO 27017 / 27018",
       "status": "belegt",
       "quelle": "https://regolo.ai/terms-and-conditions/",
+      "geprueft": "2026-10-03",
       "anmerkung": "Zusätzlich ISO 9001, 14001, 20000 der Seeweb S.r.l.",
       "normiert": [
         "iso-27017",
@@ -112,6 +123,7 @@
       "typ": "CSA STAR Level 1",
       "status": "belegt",
       "quelle": "https://regolo.ai/terms-and-conditions/",
+      "geprueft": "2026-10-03",
       "anmerkung": "",
       "normiert": [
         "csa-star"
@@ -121,6 +133,7 @@
       "typ": "Zero-Data-Retention-Zertifizierung (extern)",
       "status": "belegt",
       "quelle": "https://regolo.ai/zero-data-retention/",
+      "geprueft": "2026-10-03",
       "anmerkung": "Formale Bestätigung der ZDR-Architektur durch externe Prüffirma, ausgestellt 24.07.2026",
       "normiert": []
     }
@@ -130,13 +143,14 @@
       "pflicht": "AI-Act-Alignment (Transparenz, Sicherheit, Accountability)",
       "status": "beansprucht",
       "quelle": "https://regolo.ai/zero-data-retention/",
+      "geprueft": "2026-10-03",
       "anmerkung": "Proaktive Ausrichtung am EU AI Act erklärt; kein Primärdokument öffentlich. Kein GPAI-Modellanbieter"
     }
   ],
   "geprueft": "2026-08-19",
   "url": "https://belegbar.eu/anbieter/regolo/",
   "beleg_quote_prozent": 87,
-  "zuletzt_geprueft": "2026-08-19",
+  "zuletzt_geprueft": "2026-10-03",
   "rechtsraum": {
     "land": "IT",
     "name": "Italien",

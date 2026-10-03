@@ -18,6 +18,7 @@
       "preis_input_1m_eur": 5,
       "preis_output_1m_eur": 25,
       "quelle": "https://opper.ai/models",
+      "geprueft": "2026-10-03",
       "status": "belegt",
       "anmerkung": "Preis in USD; Pass-through + 3% Gateway-Gebühr"
     },
@@ -27,6 +28,7 @@
       "preis_input_1m_eur": 2,
       "preis_output_1m_eur": 10,
       "quelle": "https://opper.ai/models",
+      "geprueft": "2026-10-03",
       "status": "belegt",
       "anmerkung": "Preis in USD"
     },
@@ -36,6 +38,7 @@
       "preis_input_1m_eur": 2.5,
       "preis_output_1m_eur": 15,
       "quelle": "https://opper.ai/models",
+      "geprueft": "2026-10-03",
       "status": "belegt",
       "anmerkung": "Preis in USD"
     },
@@ -110,6 +113,7 @@
       "pflicht": "Logging/Audit-Trails zur Unterstützung von EU-AI-Act-, DORA- und NIS2-Reviews",
       "status": "beansprucht",
       "quelle": "https://opper.ai/ai-compliance",
+      "geprueft": "2026-10-03",
       "anmerkung": "Compliance-Seite bewirbt Call-Logging und Audit-Trail; keine konkreten AI-Act-Konformitätsdokumente"
     }
   ],

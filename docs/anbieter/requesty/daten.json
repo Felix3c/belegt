@@ -19,6 +19,7 @@
       "preis_output_1m_eur": null,
       "preis_status": "kein_oeffentlicher_preis",
       "quelle": "https://docs.requesty.ai/features/eu-routing",
+      "geprueft": "2026-10-03",
       "status": "beansprucht",
       "anmerkung": "Pass-through + 5% Markup; öffentliche Preisliste nur hinter Login"
     },
@@ -28,6 +29,7 @@
       "preis_input_1m_eur": null,
       "preis_output_1m_eur": null,
       "quelle": "https://docs.requesty.ai/features/eu-routing",
+      "geprueft": "2026-10-03",
       "status": "beansprucht",
       "anmerkung": "Keine öffentliche Preisangabe verifizierbar"
     },
@@ -37,6 +39,7 @@
       "preis_input_1m_eur": null,
       "preis_output_1m_eur": null,
       "quelle": "https://docs.requesty.ai/features/eu-routing",
+      "geprueft": "2026-10-03",
       "status": "beansprucht",
       "anmerkung": "Keine öffentliche Preisangabe verifizierbar"
     }
@@ -46,6 +49,7 @@
       "wert": null,
       "status": "beansprucht",
       "quelle": "https://www.requesty.ai/dpa",
+      "geprueft": "2026-10-03",
       "anmerkung": "DPA-Infoseite vorhanden, das eigentliche Dokument nur auf Anfrage per E-Mail; kein öffentlicher Volltext"
     },
     "subprozessoren": {
@@ -58,13 +62,14 @@
       "wert": true,
       "status": "belegt",
       "quelle": "https://docs.requesty.ai/quickstart",
+      "geprueft": "2026-10-03",
       "anmerkung": "'Requesty is a pass-through gateway. We don't train on your requests'; Ausnahme: Free-Plan-Modelle von NVIDIA/Poolside erlauben Upstream-Training"
     },
     "zero_data_retention": {
       "wert": null,
       "status": "beansprucht",
       "quelle": "https://www.requesty.ai/dpa",
-      "geprueft": "2026-08-25",
+      "geprueft": "2026-10-03",
       "fall": "2026-001",
       "anmerkung": "Widersprüchlich: DPA- und Security-Seite sagen ohne Einschränkung 'request and response bodies are never stored' bzw. 'No data stored'; dieselben Seiten und die Privacy Policy nennen für Self-Serve-Tarife Prompt-/Output-Logging als Standard mit 30 Tagen Aufbewahrung. ZDR nur pro API-Schlüssel abschaltbar oder organisationsweit auf schriftliche Anfrage. Dokumentiert als Fall 2026-001."
     }
@@ -100,7 +105,7 @@
   "geprueft": "2026-08-19",
   "url": "https://belegbar.eu/anbieter/requesty/",
   "beleg_quote_prozent": 20,
-  "zuletzt_geprueft": "2026-08-25",
+  "zuletzt_geprueft": "2026-10-03",
   "rechtsraum": {
     "land": "GB",
     "name": "Vereinigtes Königreich",

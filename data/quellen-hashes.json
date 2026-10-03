@@ -1,304 +1,402 @@
 {
   "https://aleph-alpha.com": {
     "nur_erreichbar": true,
-    "gesehen": "2026-08-28"
+    "gesehen": "2026-10-03"
   },
   "https://aleph-alpha.com/": {
     "hash": "550fe560083fb983",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "50fe53ca7ddd774b",
+    "veraendert_seit": "2026-10-03"
   },
   "https://bfl.ai": {
     "nur_erreichbar": true,
-    "gesehen": "2026-08-28"
+    "gesehen": "2026-10-03"
   },
   "https://bfl.ai/enterprise": {
     "hash": "55d4d4adec07b229",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "df04f01ec778de12",
+    "veraendert_seit": "2026-10-03"
   },
   "https://bfl.ai/legal/terms-of-service": {
     "hash": "4da7a0d5865b958c",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "372f0775c3ccbea5",
+    "veraendert_seit": "2026-10-03"
   },
   "https://blog.ovhcloud.com/en/posts/ai-act-in-a-nutshell/": {
     "hash": "9f2ffb96918a851d",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "bae11d54fb99ee2b",
+    "veraendert_seit": "2026-10-03"
   },
   "https://cloud.ionos.de/managed/ai-model-hub": {
     "hash": "3282b65bd15d3374",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "98a52c6d88f4b101",
+    "veraendert_seit": "2026-10-03"
   },
   "https://cloud.ionos.de/zertifikate": {
     "hash": "7683ba8be232c9da",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "2f017df5cd514c7a",
+    "veraendert_seit": "2026-10-03"
   },
   "https://community.exoscale.com/platform/compliance/": {
     "hash": "1a01836df6b6f1ac",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "f985f4cd7fd6d048",
+    "veraendert_seit": "2026-10-03"
   },
   "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content": {
     "hash": "05bde5cc580159dd",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "0f994e45e267c4bd",
+    "veraendert_seit": "2026-10-03"
   },
   "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai": {
     "hash": "f50f68ece3c6055a",
-    "gesehen": "2026-08-28",
+    "gesehen": "2026-10-03",
     "geaendert": "2026-08-28"
   },
   "https://docs.bfl.ai/quick_start/pricing": {
     "hash": "89e2556b28dbb87c",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "68a5cf2e03e9eb14",
+    "veraendert_seit": "2026-10-03"
   },
   "https://docs.greenpt.ai/model-cards": {
     "hash": "57957cd4b5002e49",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "455574be9c3bc85e",
+    "veraendert_seit": "2026-10-03"
   },
   "https://docs.hetzner.com/general/company-and-policy/experiments/inference/": {
     "hash": "1f8133423acee4ad",
-    "gesehen": "2026-08-28",
+    "gesehen": "2026-10-03",
     "geaendert": "2026-08-28"
   },
   "https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling": {
     "hash": "53eb56edb8722af8",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "d5b256ecb26ce941",
+    "veraendert_seit": "2026-10-03"
   },
   "https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/eu-ai-act": {
     "hash": "82324e09c0238164",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "af0e2ed29c7a16f5",
+    "veraendert_seit": "2026-10-03"
   },
   "https://docs.llmhub.t-systems.net/models/": {
     "hash": "71cc90ac59ee9036",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "981097381e146ebd",
+    "veraendert_seit": "2026-10-03"
   },
   "https://docs.llmhub.t-systems.net/reference/enterprise-trust": {
     "hash": "092a0b8762cf8f2f",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "f6e5df8a830e5691",
+    "veraendert_seit": "2026-10-03"
   },
   "https://docs.mistral.ai/admin/monitor-comply/privacy-data-controls": {
     "hash": "a18fc21573e9e18f",
     "gesehen": "2026-08-28",
     "geaendert": "2026-08-28"
   },
+  "https://docs.mistral.ai/admin/monitor-comply/zero-data-retention": {
+    "hash": "5adb570b40c96704",
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-10-03"
+  },
   "https://docs.nebius.com/legal/": {
     "hash": "25c7bb04bc2ff3bd",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "cccf634f89d02ac9",
+    "veraendert_seit": "2026-10-03"
   },
   "https://docs.nebius.com/legal/dpa": {
     "hash": "bcc06dc294a51643",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "89319fab4254aa68",
+    "veraendert_seit": "2026-10-03"
   },
   "https://docs.nebius.com/legal/sub-processors": {
     "hash": "a0f05cca748a3014",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "d3d0208641beb122",
+    "veraendert_seit": "2026-10-03"
   },
   "https://docs.requesty.ai/features/eu-routing": {
     "hash": "e1c362f7df269dfd",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "01bc291e0a379736",
+    "veraendert_seit": "2026-10-03"
   },
   "https://docs.requesty.ai/quickstart": {
     "hash": "1fe7253a64194c61",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "993e53c96e7e6a60",
+    "veraendert_seit": "2026-10-03"
   },
   "https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models/": {
     "hash": "7442d2124b8a663e",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "ca93b8846f16991b",
+    "veraendert_seit": "2026-10-03"
   },
   "https://eurouter.ai": {
     "nur_erreichbar": true,
-    "gesehen": "2026-08-28"
+    "gesehen": "2026-10-03"
   },
   "https://eurouter.ai/dpa": {
     "hash": "35d288f86e35210a",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "5faa7de23dde8896",
+    "veraendert_seit": "2026-10-03"
   },
   "https://eurouter.ai/models": {
     "hash": "420587415a296885",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "8ddf522e676006b5",
+    "veraendert_seit": "2026-10-03"
   },
   "https://eurouter.ai/providers": {
     "hash": "b4c821b46bf780f7",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "9565c0d51985ddfc",
+    "veraendert_seit": "2026-10-03"
   },
   "https://gcore.com": {
     "nur_erreichbar": true,
-    "gesehen": "2026-08-28"
+    "gesehen": "2026-10-03"
   },
   "https://gcore.com/blog/ai-regulations-2024-eu": {
     "hash": "7cb873cd74bddaad",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "a6c017b6f3e54716",
+    "veraendert_seit": "2026-10-03"
   },
   "https://gcore.com/everywhere-inference/whisper-large-v3-turbo": {
     "hash": "6cc8d90a95e5ee76",
-    "gesehen": "2026-08-28",
+    "gesehen": "2026-10-03",
     "geaendert": "2026-08-28"
   },
   "https://gcore.com/infrastructure": {
     "hash": "b829f27b96085cbe",
-    "gesehen": "2026-08-28",
+    "gesehen": "2026-10-03",
     "geaendert": "2026-08-28"
   },
   "https://gcore.com/legal": {
     "hash": "67cf018dc45aa5c8",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "ec7e22c6db4d5672",
+    "veraendert_seit": "2026-10-03"
   },
   "https://gcore.com/press-releases/gcore-unveils-inference-at-the-edge-bringing-ai-applications-closer-to-end-users-for-seamless-real-time-performance": {
     "hash": "efcd2da3caa86e20",
-    "gesehen": "2026-08-28",
+    "gesehen": "2026-10-03",
     "geaendert": "2026-08-28"
   },
   "https://greenpt.com": {
     "nur_erreichbar": true,
-    "gesehen": "2026-08-28"
+    "gesehen": "2026-10-03"
   },
   "https://greenpt.com/privacy-policy": {
     "hash": "fcf28429aa2de715",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "44329b7f0d720824",
+    "veraendert_seit": "2026-10-03"
   },
   "https://greenpt.com/sustainability": {
     "hash": "77870b0f62f55419",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "bb987c8b3eb01b81",
+    "veraendert_seit": "2026-10-03"
   },
   "https://greenpt.com/terms-of-service": {
     "hash": "a5d667cad29cc118",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "341829fc2f9e7f77",
+    "veraendert_seit": "2026-10-03"
   },
   "https://help.mistral.ai/en/articles/347638-do-you-have-soc-2-or-iso-27001-certification": {
     "hash": "fb646a7e88952742",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "41540be2fe87de4b",
+    "veraendert_seit": "2026-10-03"
+  },
+  "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training": {
+    "hash": "96bad4984ff506f3",
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-10-03"
   },
   "https://help.mistral.ai/en/articles/455208-who-are-your-subprocessors-and-how-can-i-stay-updated-on-changes": {
     "hash": "9c1d4e830533d376",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "2c770e94190b83c4",
+    "veraendert_seit": "2026-10-03"
   },
   "https://huggingface.co/Aleph-Alpha/Pharia-1-Embedding-4608-control": {
     "hash": "a82749f54866706c",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "3ba198afcd336be5",
+    "veraendert_seit": "2026-10-03"
   },
   "https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control": {
     "hash": "7f6bfd19e606094f",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "914533dcfe4501b9",
+    "veraendert_seit": "2026-10-03"
   },
   "https://legal.mistral.ai/terms": {
     "hash": "2128020641e81128",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "44c7010fb67b94ef",
+    "veraendert_seit": "2026-10-03"
   },
   "https://legal.mistral.ai/terms/data-processing-addendum": {
     "hash": "a33b79777e3622a7",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "64e83c25be5711b1",
+    "veraendert_seit": "2026-10-03"
   },
   "https://lyceum.technology": {
     "nur_erreichbar": true,
-    "gesehen": "2026-08-28"
+    "gesehen": "2026-10-03"
   },
   "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/": {
     "hash": "6fc455be5946c8be",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "ba1f072d421e0bb4",
+    "veraendert_seit": "2026-10-03"
   },
   "https://lyceum.technology/products/inference/models/": {
     "hash": "2d884b2c638f8f15",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "0a4b68d0a9efcd37",
+    "veraendert_seit": "2026-10-03"
   },
   "https://mistral.ai": {
     "nur_erreichbar": true,
-    "gesehen": "2026-08-28"
+    "gesehen": "2026-10-03"
   },
   "https://mistral.ai/pricing/api": {
     "hash": "8077ad235ac0a1fe",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "ce7518355ecf1de0",
+    "veraendert_seit": "2026-10-03"
   },
   "https://nebius.com": {
     "nur_erreichbar": true,
-    "gesehen": "2026-08-28"
+    "gesehen": "2026-10-03"
   },
   "https://nebius.com/services/token-factory": {
     "hash": "760566018b980871",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "6c396bcf8d3b86ce",
+    "veraendert_seit": "2026-10-03"
   },
   "https://nebius.com/trust-center": {
     "hash": "687a426ce7eac345",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "478cd25d9f1a1a43",
+    "veraendert_seit": "2026-10-03"
   },
   "https://nordference.ai": {
     "hash": "913d1c3c047184f3",
-    "gesehen": "2026-08-28",
+    "gesehen": "2026-10-03",
     "geaendert": "2026-08-28"
   },
   "https://nordference.ai/gdpr": {
     "hash": "913d1c3c047184f3",
-    "gesehen": "2026-08-28",
+    "gesehen": "2026-10-03",
     "geaendert": "2026-08-28"
   },
   "https://nordference.ai/models": {
     "hash": "913d1c3c047184f3",
-    "gesehen": "2026-08-28",
+    "gesehen": "2026-10-03",
     "geaendert": "2026-08-28"
   },
   "https://openrouter.ai/provider/nebius": {
     "hash": "554fc9d0a8a32c78",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "793403bb66481d05",
+    "veraendert_seit": "2026-10-03"
   },
   "https://opper.ai": {
     "nur_erreichbar": true,
-    "gesehen": "2026-08-28"
+    "gesehen": "2026-10-03"
   },
   "https://opper.ai/ai-compliance": {
     "hash": "13e869b6369aafa8",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "7277925d9e80abc6",
+    "veraendert_seit": "2026-10-03"
   },
   "https://opper.ai/data-processing-agreement": {
     "hash": "3f054d59193da6e6",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "c63b3e4d589e4691",
+    "veraendert_seit": "2026-10-03"
   },
   "https://opper.ai/models": {
     "hash": "41aa0d338b591121",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "385becf4e85ffe37",
+    "veraendert_seit": "2026-10-03"
   },
   "https://opper.ai/security-overview": {
     "hash": "6d4d14baf6b71f19",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "a5d6796eac077408",
+    "veraendert_seit": "2026-10-03"
   },
   "https://opper.ai/sub-processors": {
     "hash": "d76b6fa02fa215a9",
@@ -307,100 +405,129 @@
   },
   "https://regolo.ai": {
     "nur_erreichbar": true,
-    "gesehen": "2026-08-28"
+    "gesehen": "2026-10-03"
   },
   "https://regolo.ai/pricing/": {
     "hash": "356ad2e098c25ad3",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "e1a050a51062255b",
+    "veraendert_seit": "2026-10-03"
   },
   "https://regolo.ai/terms-and-conditions/": {
     "hash": "dbf8b775449f7226",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "2bcd211c61ab12b7",
+    "veraendert_seit": "2026-10-03"
   },
   "https://regolo.ai/terms-and-conditions/#data-processor-agreement": {
     "hash": "dbf8b775449f7226",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "2bcd211c61ab12b7",
+    "veraendert_seit": "2026-10-03"
   },
   "https://regolo.ai/zero-data-retention/": {
     "hash": "c0e51e6a0248ae61",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "ed65e8e185a7abd8",
+    "veraendert_seit": "2026-10-03"
   },
   "https://stackit.com": {
     "nur_erreichbar": true,
-    "gesehen": "2026-08-28"
+    "gesehen": "2026-10-03"
   },
   "https://stackit.com/en/products/data-ai/stackit-ai-model-serving": {
     "hash": "001a250c68d4a2fd",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "ad1d7407b9887eb7",
+    "veraendert_seit": "2026-10-03"
   },
   "https://stackit.com/en/why-stackit/benefits/certificates": {
     "hash": "ab4ae4e788a61f25",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "48e22e446084b0ed",
+    "veraendert_seit": "2026-10-03"
   },
   "https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/5cec77c-OVH_Data_Protection_Agreement-IE-6.2.pdf": {
     "hash": "fb1e976275e745d2",
-    "gesehen": "2026-08-28",
+    "gesehen": "2026-10-03",
     "geaendert": "2026-08-28"
   },
   "https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/6045f8b-OVH_Sub_processors-GB-3.0.pdf": {
     "hash": "80f72d5aee95e66e",
-    "gesehen": "2026-08-28",
+    "gesehen": "2026-10-03",
     "geaendert": "2026-08-28"
   },
   "https://trust.lyceum.technology/": {
     "hash": "dba8dd56e5c919ff",
-    "gesehen": "2026-08-28",
+    "gesehen": "2026-10-03",
     "geaendert": "2026-08-28"
   },
   "https://trust.mistral.ai/subprocessors": {
     "hash": "0cde34641a6ab24f",
-    "gesehen": "2026-08-28",
+    "gesehen": "2026-10-03",
     "geaendert": "2026-08-28"
+  },
+  "https://trust.opper.ai/": {
+    "hash": "cc05845d293b0787",
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-10-03"
   },
   "https://us.ovhcloud.com/legal/faqs/gdpr-compliance/": {
     "hash": "cdcad96f5e01276f",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "0bacaeab742b7041",
+    "veraendert_seit": "2026-10-03"
   },
   "https://www-uploads.scaleway.com/DPA_2024_ENG_b0abb5cc26.pdf": {
     "hash": "f9155cf31e57385c",
-    "gesehen": "2026-08-28",
+    "gesehen": "2026-10-03",
     "geaendert": "2026-08-28"
   },
   "https://www.deepl.com": {
     "nur_erreichbar": true,
-    "gesehen": "2026-08-28"
+    "gesehen": "2026-10-03"
   },
   "https://www.deepl.com/de/blog/c5-type2-attestation": {
     "hash": "34b43243fef1d41d",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "7ebc9996e5a36bfd",
+    "veraendert_seit": "2026-10-03"
   },
   "https://www.deepl.com/en/pro": {
     "hash": "d7b3f15f99047e64",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "58c63b6812f2fc95",
+    "veraendert_seit": "2026-10-03"
   },
   "https://www.deepl.com/en/pro#api": {
     "hash": "d7b3f15f99047e64",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "58c63b6812f2fc95",
+    "veraendert_seit": "2026-10-03"
   },
   "https://www.deepl.com/en/pro-license": {
     "hash": "9c6a2782f9bfa65e",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "90f2ce75fb30514f",
+    "veraendert_seit": "2026-10-03"
   },
   "https://www.deepl.com/en/products/api": {
     "hash": "49832b08c48f122d",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "42cdae201e4449a8",
+    "veraendert_seit": "2026-10-03"
   },
   "https://www.dqsglobal.com/en/customer-database/aleph-alpha-gmbh": {
     "hash": "63e559af3cc641ee",
@@ -411,156 +538,194 @@
   },
   "https://www.exoscale.com": {
     "nur_erreichbar": true,
-    "gesehen": "2026-08-28"
+    "gesehen": "2026-10-03"
   },
   "https://www.exoscale.com/ai-cloud-infrastructure/dedicated-inference/": {
     "hash": "c121db822493ccda",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "acb25a206884ff14",
+    "veraendert_seit": "2026-10-03"
   },
   "https://www.exoscale.com/ai-cloud-infrastructure/managed-inference/": {
     "hash": "42c2d8eaee827999",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "a90ec79bb32ed64d",
+    "veraendert_seit": "2026-10-03"
   },
   "https://www.exoscale.com/dpa/": {
     "hash": "93f4400024ae1e60",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "d820041c1436ca68",
+    "veraendert_seit": "2026-10-03"
   },
   "https://www.hetzner.com": {
     "nur_erreichbar": true,
-    "gesehen": "2026-08-28"
+    "gesehen": "2026-10-03"
   },
   "https://www.hetzner.com/AV/DPA_en.pdf": {
     "hash": "fdb71eb26775fdc0",
-    "gesehen": "2026-08-28",
+    "gesehen": "2026-10-03",
     "geaendert": "2026-08-28"
   },
   "https://www.hetzner.com/AV/subunternehmer.pdf": {
     "hash": "3ed8362276610d1c",
-    "gesehen": "2026-08-28",
+    "gesehen": "2026-10-03",
     "geaendert": "2026-08-28"
   },
   "https://www.hetzner.com/unternehmen/zertifizierung/": {
     "hash": "966db0df78abfb01",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "4fa026c9b5d97455",
+    "veraendert_seit": "2026-10-03"
   },
   "https://www.infomaniak.com/documents/privacy/DPA/Data_Processing_Agreement_(DPA).pdf": {
     "hash": "b229af8754dfe06d",
-    "gesehen": "2026-08-28",
+    "gesehen": "2026-10-03",
     "geaendert": "2026-08-28"
   },
   "https://www.infomaniak.com/en/certifications": {
     "hash": "78f8e8fbb25f5e8d",
-    "gesehen": "2026-08-28",
+    "gesehen": "2026-10-03",
     "geaendert": "2026-08-28"
   },
   "https://www.infomaniak.com/en/hosting/ai-services": {
     "hash": "6dda6c17a73eca60",
-    "gesehen": "2026-08-28",
+    "gesehen": "2026-10-03",
     "geaendert": "2026-08-28"
   },
   "https://www.infomaniak.com/en/hosting/ai-services/prices": {
     "hash": "544922f95f52b6ec",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "78ebf48645b8c754",
+    "veraendert_seit": "2026-10-03"
   },
   "https://www.ionos.de/terms-gtc/avv/": {
     "hash": "bb1f8c4054bcfe0e",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "c1d8e73656ebf2bc",
+    "veraendert_seit": "2026-10-03"
   },
   "https://www.ionos.de/terms-gtc/fileadmin/pdf/terms-gtc/DE/AVV/AVV_Liste_Subunternehmen_v4_5_DE.pdf": {
     "hash": "33ae8ffe5a011bd9",
-    "gesehen": "2026-08-28",
+    "gesehen": "2026-10-03",
     "geaendert": "2026-08-28"
   },
   "https://www.ovhcloud.com": {
     "nur_erreichbar": true,
-    "gesehen": "2026-08-28"
+    "gesehen": "2026-10-03"
   },
   "https://www.ovhcloud.com/en/compliance/": {
     "hash": "7510784bfee77112",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "dd74edb0487d9106",
+    "veraendert_seit": "2026-10-03"
   },
   "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/": {
     "hash": "ecbc270e30a39604",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "8c2af5ea17a52777",
+    "veraendert_seit": "2026-10-03"
   },
   "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/": {
     "hash": "2f1ab2af52ff9270",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "a0507b5384fc1395",
+    "veraendert_seit": "2026-10-03"
   },
   "https://www.requesty.ai": {
     "nur_erreichbar": true,
-    "gesehen": "2026-08-28"
+    "gesehen": "2026-10-03"
   },
   "https://www.requesty.ai/dpa": {
     "hash": "2a2e42c2e2cce0ae",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "c1dde5fa0a1da741",
+    "veraendert_seit": "2026-10-03"
   },
   "https://www.requesty.ai/privacy/subprocessors": {
     "hash": "56a47a2438843901",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "bf95ab0c509caf2e",
+    "veraendert_seit": "2026-10-03"
   },
   "https://www.requesty.ai/security": {
     "hash": "510c3098957b4602",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "75203814743ac036",
+    "veraendert_seit": "2026-10-03"
   },
   "https://www.scaleway.com": {
     "nur_erreichbar": true,
-    "gesehen": "2026-08-28"
+    "gesehen": "2026-10-03"
   },
   "https://www.scaleway.com/en/contracts/": {
     "hash": "987de93b84bd305d",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "5066c4bbf19688af",
+    "veraendert_seit": "2026-10-03"
   },
   "https://www.scaleway.com/en/docs/generative-apis/reference-content/data-privacy/": {
     "hash": "ef4305cfab9c5e11",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "3b8f9cb0751c48d8",
+    "veraendert_seit": "2026-10-03"
   },
   "https://www.scaleway.com/en/news/scaleway-begins-the-secnumcloud-qualification-process/": {
     "hash": "c83ccf49ba8aa462",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "3c57dd2f0dc235ab",
+    "veraendert_seit": "2026-10-03"
   },
   "https://www.scaleway.com/en/pricing/model-as-a-service/": {
     "hash": "a5fa862df75cd68e",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "ed265275596a1149",
+    "veraendert_seit": "2026-10-03"
   },
   "https://www.scaleway.com/en/security-and-compliance/": {
     "hash": "5d97fc13de883bd0",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "78079ca0ad7adad7",
+    "veraendert_seit": "2026-10-03"
   },
   "https://www.scaleway.com/en/subprocessorlist/": {
     "hash": "7195be538982d59e",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "501636e32ec35d3e",
+    "veraendert_seit": "2026-10-03"
   },
   "https://www.t-cloud-public.com/_Resources/Persistent/7/4/4/5/744591c2cdff8be6c3876c3bf6e187fb024cad04/OTC%20ErgB-AV%20TDG_DE.pdf": {
     "hash": "4bd3759e1e0508d4",
-    "gesehen": "2026-08-28",
+    "gesehen": "2026-10-03",
     "geaendert": "2026-08-28"
   },
   "https://www.t-cloud-public.com/en/products-services/core-services/certifications": {
     "hash": "f34e9a731db6dc4b",
-    "gesehen": "2026-08-28",
-    "geaendert": "2026-08-28"
+    "gesehen": "2026-10-03",
+    "geaendert": "2026-08-28",
+    "neu_hash": "b891143ab60ba210",
+    "veraendert_seit": "2026-10-03"
   },
   "https://www.t-systems.com": {
     "nur_erreichbar": true,
-    "gesehen": "2026-08-28"
+    "gesehen": "2026-10-03"
   }
 }

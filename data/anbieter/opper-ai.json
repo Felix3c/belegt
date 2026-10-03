@@ -5,9 +5,9 @@
   "kurzbeschreibung": "Schwedischer LLM-Router (Opper Technology AB, gehostet auf AWS Stockholm) für 700+ Modelle — neben EU-Providern (Mistral, Inceptron, Berget AI, Infercom, Regolo) auch zahlreiche US-Provider; EU-Residency ist wählbar, aber nicht der Default für alle Modelle.",
   "stammdaten": { "sitz": "Stockholm, Schweden", "land": "SE", "mutterkonzern": "Opper Technology AB", "us_eigner": false, "gegruendet": 2023, "website": "https://opper.ai" },
   "modelle": [
-    { "name": "Claude Opus 5", "standort": "EU + US (mehrere Provider)", "preis_input_1m_eur": 5.00, "preis_output_1m_eur": 25.00, "quelle": "https://opper.ai/models", "status": "belegt", "anmerkung": "Preis in USD; Pass-through + 3% Gateway-Gebühr" },
-    { "name": "Claude Sonnet 5", "standort": "EU + US (mehrere Provider)", "preis_input_1m_eur": 2.00, "preis_output_1m_eur": 10.00, "quelle": "https://opper.ai/models", "status": "belegt", "anmerkung": "Preis in USD" },
-    { "name": "GPT-5.4", "standort": "EU + US (mehrere Provider)", "preis_input_1m_eur": 2.50, "preis_output_1m_eur": 15.00, "quelle": "https://opper.ai/models", "status": "belegt", "anmerkung": "Preis in USD" },
+    { "name": "Claude Opus 5", "standort": "EU + US (mehrere Provider)", "preis_input_1m_eur": 5.00, "preis_output_1m_eur": 25.00, "quelle": "https://opper.ai/models", "geprueft": "2026-10-03", "status": "belegt", "anmerkung": "Preis in USD; Pass-through + 3% Gateway-Gebühr" },
+    { "name": "Claude Sonnet 5", "standort": "EU + US (mehrere Provider)", "preis_input_1m_eur": 2.00, "preis_output_1m_eur": 10.00, "quelle": "https://opper.ai/models", "geprueft": "2026-10-03", "status": "belegt", "anmerkung": "Preis in USD" },
+    { "name": "GPT-5.4", "standort": "EU + US (mehrere Provider)", "preis_input_1m_eur": 2.50, "preis_output_1m_eur": 15.00, "quelle": "https://opper.ai/models", "geprueft": "2026-10-03", "status": "belegt", "anmerkung": "Preis in USD" },
     { "name": "DeepSeek V4 Pro", "standort": "EU + US (mehrere Provider)", "preis_input_1m_eur": 1.30, "preis_output_1m_eur": 2.60, "quelle": "https://opper.ai/models", "status": "belegt", "anmerkung": "Preis in USD" },
     { "name": "Gemini 3.5 Flash", "standort": "EU + US (mehrere Provider)", "preis_input_1m_eur": 1.50, "preis_output_1m_eur": 9.00, "quelle": "https://opper.ai/models", "status": "belegt", "anmerkung": "Preis in USD" }
   ],
@@ -22,7 +22,7 @@
     { "typ": "SOC 2", "status": "unbelegt", "quelle": null, "anmerkung": "Nicht erwähnt" }
   ],
   "ai_act": [
-    { "pflicht": "Logging/Audit-Trails zur Unterstützung von EU-AI-Act-, DORA- und NIS2-Reviews", "status": "beansprucht", "quelle": "https://opper.ai/ai-compliance", "anmerkung": "Compliance-Seite bewirbt Call-Logging und Audit-Trail; keine konkreten AI-Act-Konformitätsdokumente" }
+    { "pflicht": "Logging/Audit-Trails zur Unterstützung von EU-AI-Act-, DORA- und NIS2-Reviews", "status": "beansprucht", "quelle": "https://opper.ai/ai-compliance", "geprueft": "2026-10-03", "anmerkung": "Compliance-Seite bewirbt Call-Logging und Audit-Trail; keine konkreten AI-Act-Konformitätsdokumente" }
   ],
   "geprueft": "2026-08-19"
 }

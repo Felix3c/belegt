@@ -18,6 +18,7 @@
       "preis_input_1m_eur": 0.3,
       "preis_output_1m_eur": 0.5,
       "quelle": "https://eurouter.ai/models",
+      "geprueft": "2026-10-03",
       "status": "belegt",
       "anmerkung": "Preis in USD"
     },
@@ -63,6 +64,7 @@
       "wert": "https://eurouter.ai/dpa",
       "status": "belegt",
       "quelle": "https://eurouter.ai/dpa",
+      "geprueft": "2026-10-03",
       "anmerkung": "Vollständiges DPA (Stand Mai 2026), signierbare Version zum Download; Verarbeitung ausschließlich im EWR zugesichert"
     },
     "subprozessoren": {
@@ -75,12 +77,14 @@
       "wert": true,
       "status": "belegt",
       "quelle": "https://eurouter.ai/dpa",
+      "geprueft": "2026-10-03",
       "anmerkung": "DPA: 'EUrouter does not use Customer API Data to train, fine-tune or improve AI models' — standardmäßig ausgeschlossen"
     },
     "zero_data_retention": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://eurouter.ai/dpa",
+      "geprueft": "2026-10-03",
       "anmerkung": "Zero-Retention als Standard für Request-/Response-Inhalte; nur Metadaten (Timestamps, Token-Counts) für Abrechnung"
     }
   },
@@ -115,7 +119,7 @@
   "geprueft": "2026-08-19",
   "url": "https://belegbar.eu/anbieter/eurouter/",
   "beleg_quote_prozent": 58,
-  "zuletzt_geprueft": "2026-08-19",
+  "zuletzt_geprueft": "2026-10-03",
   "rechtsraum": {
     "land": "NL",
     "name": "Niederlande",

@@ -19,6 +19,7 @@
       "preis_output_1m_eur": null,
       "preis_status": "kein_oeffentlicher_preis",
       "quelle": "https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control",
+      "geprueft": "2026-10-03",
       "status": "belegt",
       "anmerkung": "Modellkarte öffentlich; keine öffentlichen API-Tokenpreise — Vertrieb über Enterprise-Verträge und Self-Hosting, Preise auf Anfrage."
     },
@@ -29,6 +30,7 @@
       "preis_output_1m_eur": null,
       "preis_status": "kein_oeffentlicher_preis",
       "quelle": "https://huggingface.co/Aleph-Alpha/Pharia-1-Embedding-4608-control",
+      "geprueft": "2026-10-03",
       "status": "belegt",
       "anmerkung": "Keine öffentlichen Preise."
     },
@@ -86,6 +88,7 @@
       "pflicht": "GPAI Code of Practice unterzeichnet",
       "status": "belegt",
       "quelle": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai",
+      "geprueft": "2026-10-03",
       "anmerkung": "In der offiziellen Signatarliste der EU-Kommission enthalten."
     },
     {

@@ -18,6 +18,7 @@
       "preis_input_1m_eur": null,
       "preis_output_1m_eur": null,
       "quelle": "https://www.deepl.com/en/pro#api",
+      "geprueft": "2026-10-03",
       "status": "belegt",
       "anmerkung": "Kostenloser Testplan: 1 Mio. Zeichen insgesamt, 1 API-Key, ohne Speech-to-Text. Abrechnung pro Zeichen, nicht pro Token"
     },
@@ -37,6 +38,7 @@
       "preis_output_1m_eur": null,
       "preis_status": "kein_oeffentlicher_preis",
       "quelle": "https://www.deepl.com/en/pro#api",
+      "geprueft": "2026-10-03",
       "status": "belegt",
       "anmerkung": "Individuelle Preise mit vorab gekauften Kontingenten; Admin-API, Audit-Logs 2 Jahre"
     },
@@ -46,6 +48,7 @@
       "preis_input_1m_eur": null,
       "preis_output_1m_eur": null,
       "quelle": "https://www.deepl.com/en/pro",
+      "geprueft": "2026-10-03",
       "status": "belegt",
       "anmerkung": "Nutzerbasierte Abos (DE, inkl. MwSt., jährlich): Individual 7,49 €, Team 24,99 €, Business 49,99 € je Nutzer/Monat; als Kontext aufgenommen, da DSB-relevant"
     }
@@ -73,6 +76,7 @@
       "wert": true,
       "status": "belegt",
       "quelle": "https://www.deepl.com/en/pro-license",
+      "geprueft": "2026-10-03",
       "anmerkung": "Pro-AGB Ziff. 3.1.2: nur temporäre Speicherung, soweit technisch nötig; Support-Doku: 'texts are deleted immediately after the translation'. Einschränkungen: bei Fehlern verschlüsselte Speicherung bis max. 72 h (Debugging), aktiv gespeicherte Inhalte (Glossare) 90 Tage nach Vertragsende gelöscht — kein absolutes Zero Retention, aber keine dauerhafte Speicherung per Default"
     }
   },
@@ -99,6 +103,7 @@
       "typ": "HIPAA",
       "status": "beansprucht",
       "quelle": "https://www.deepl.com/en/products/api",
+      "geprueft": "2026-10-03",
       "anmerkung": "Als 'certification' beworben; HIPAA kennt keine formale Zertifizierung, kein Prüfer genannt. Nur für US-Gesundheitskontext relevant",
       "normiert": [
         "hipaa"
@@ -108,7 +113,7 @@
       "typ": "BSI C5",
       "status": "belegt",
       "quelle": "https://www.deepl.com/de/blog/c5-type2-attestation",
-      "geprueft": "2026-08-24",
+      "geprueft": "2026-10-03",
       "anmerkung": "C5-Typ-2-Testat des BSI, von DeepL am 03.10.2025 im eigenen Blog und per Pressemitteilung bestätigt (114 Kriterien, Wirksamkeitsnachweis über mindestens sechs Monate). Gleichlautende Pressemitteilung auf deepl.com/de/press-release/. Einschränkung: Der Testatsbericht selbst ist nicht öffentlich, ein prüfender Wirtschaftsprüfer wird nicht genannt; belegt ist die datierte Anbieteraussage über ein erteiltes Testat, nicht der Bericht. Früherer Stand bis 24.08.2026: beansprucht (Selbstverpflichtung im Trust Center) — die Angabe war veraltet.",
       "normiert": [
         "bsi-c5"
@@ -145,7 +150,7 @@
   "geprueft": "2026-08-20",
   "url": "https://belegbar.eu/anbieter/deepl/",
   "beleg_quote_prozent": 69,
-  "zuletzt_geprueft": "2026-08-24",
+  "zuletzt_geprueft": "2026-10-03",
   "rechtsraum": {
     "land": "DE",
     "name": "Deutschland",

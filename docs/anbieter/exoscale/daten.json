@@ -43,6 +43,7 @@
       "preis_output_1m_eur": null,
       "preis_status": "kein_oeffentlicher_preis",
       "quelle": "https://www.exoscale.com/ai-cloud-infrastructure/managed-inference/",
+      "geprueft": "2026-10-03",
       "status": "beansprucht",
       "anmerkung": "Pay-per-Token-Dienst angekündigt (Warteliste); Preise werden erst zum Launch veröffentlicht"
     }
@@ -52,12 +53,14 @@
       "wert": "https://www.exoscale.com/dpa/",
       "status": "belegt",
       "quelle": "https://www.exoscale.com/dpa/",
+      "geprueft": "2026-10-03",
       "anmerkung": "DSGVO-konformes DPA der Akenes SA; Datentransfers auf CH/EU/EWR bzw. Angemessenheitsländer beschränkt, Löschung binnen 10 Werktagen nach Vertragsende"
     },
     "subprozessoren": {
       "wert": "https://www.exoscale.com/dpa/",
       "status": "belegt",
       "quelle": "https://www.exoscale.com/dpa/",
+      "geprueft": "2026-10-03",
       "anmerkung": "Keine separate Liste; genehmigte Subprozessoren sind Bestandteil des DPA (aktuell Aiven Oy, Helsinki, für DBaaS); Änderungen mit 30 Tagen Vorankündigung und Widerspruchsrecht"
     },
     "training_opt_out": {
@@ -78,6 +81,7 @@
       "typ": "ISO 27001",
       "status": "belegt",
       "quelle": "https://community.exoscale.com/platform/compliance/",
+      "geprueft": "2026-10-03",
       "anmerkung": "ISO/IEC 27001:2022, zertifiziert seit 2018; Reports im Compliance Center (NDA)",
       "normiert": [
         "iso-27001"
@@ -87,6 +91,7 @@
       "typ": "SOC 2 Type II",
       "status": "belegt",
       "quelle": "https://community.exoscale.com/platform/compliance/",
+      "geprueft": "2026-10-03",
       "anmerkung": "",
       "normiert": [
         "soc-2"
@@ -96,6 +101,7 @@
       "typ": "BSI C5",
       "status": "belegt",
       "quelle": "https://community.exoscale.com/platform/compliance/",
+      "geprueft": "2026-10-03",
       "anmerkung": "C5:2020 Typ 2",
       "normiert": [
         "bsi-c5"
@@ -122,7 +128,7 @@
   "geprueft": "2026-08-19",
   "url": "https://belegbar.eu/anbieter/exoscale/",
   "beleg_quote_prozent": 67,
-  "zuletzt_geprueft": "2026-09-06",
+  "zuletzt_geprueft": "2026-10-03",
   "rechtsraum": {
     "land": "CH",
     "name": "Schweiz",

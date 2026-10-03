@@ -18,6 +18,7 @@
       "preis_input_1m_eur": 0.67,
       "preis_output_1m_eur": 0.67,
       "quelle": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/",
+      "geprueft": "2026-10-03",
       "status": "belegt"
     },
     {
@@ -26,6 +27,7 @@
       "preis_input_1m_eur": 0.08,
       "preis_output_1m_eur": 0.4,
       "quelle": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/",
+      "geprueft": "2026-10-03",
       "status": "belegt"
     },
     {
@@ -34,6 +36,7 @@
       "preis_input_1m_eur": 0.04,
       "preis_output_1m_eur": 0.15,
       "quelle": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/",
+      "geprueft": "2026-10-03",
       "status": "belegt"
     },
     {
@@ -42,6 +45,7 @@
       "preis_input_1m_eur": 0.6,
       "preis_output_1m_eur": 3.6,
       "quelle": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/",
+      "geprueft": "2026-10-03",
       "status": "belegt"
     },
     {
@@ -50,6 +54,7 @@
       "preis_input_1m_eur": 0.4,
       "preis_output_1m_eur": 2.7,
       "quelle": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/",
+      "geprueft": "2026-10-03",
       "status": "belegt"
     },
     {
@@ -58,6 +63,7 @@
       "preis_input_1m_eur": 0.1,
       "preis_output_1m_eur": 0.15,
       "quelle": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/",
+      "geprueft": "2026-10-03",
       "status": "belegt"
     }
   ],
@@ -72,18 +78,21 @@
       "wert": "https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/6045f8b-OVH_Sub_processors-GB-3.0.pdf",
       "status": "belegt",
       "quelle": "https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/6045f8b-OVH_Sub_processors-GB-3.0.pdf",
+      "geprueft": "2026-10-03",
       "anmerkung": "Offizielle Sub-Processor-Liste als PDF (GB-3.0), per Abruf verifiziert; enthält Intra-Group-Subprozessoren und Drittanbieter."
     },
     "training_opt_out": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/",
+      "geprueft": "2026-10-03",
       "anmerkung": "Produktseite: 'Your data will never be used to train or improve our AI models' — kein Training per Default."
     },
     "zero_data_retention": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/",
+      "geprueft": "2026-10-03",
       "anmerkung": "Produktseite: 'Zero data retention: We keep only the data required for billing purposes.'"
     }
   },
@@ -101,6 +110,7 @@
       "typ": "ISO 27701",
       "status": "belegt",
       "quelle": "https://www.ovhcloud.com/en/compliance/",
+      "geprueft": "2026-10-03",
       "anmerkung": "PIMS für Personendaten-Verarbeitung.",
       "normiert": [
         "iso-27701"
@@ -110,6 +120,7 @@
       "typ": "SOC 1/2/3",
       "status": "belegt",
       "quelle": "https://www.ovhcloud.com/en/compliance/",
+      "geprueft": "2026-10-03",
       "anmerkung": "SSAE 16/ISAE 3402 Type 2 im Compliance-Portal gelistet.",
       "normiert": [
         "soc-1",
@@ -121,6 +132,7 @@
       "typ": "BSI C5",
       "status": "belegt",
       "quelle": "https://www.ovhcloud.com/en/compliance/",
+      "geprueft": "2026-10-03",
       "anmerkung": "Im Compliance-Portal gelistet; Geltungsbereich je Produkt prüfen.",
       "normiert": [
         "bsi-c5"
@@ -130,6 +142,7 @@
       "typ": "SecNumCloud",
       "status": "belegt",
       "quelle": "https://www.ovhcloud.com/en/compliance/",
+      "geprueft": "2026-10-03",
       "anmerkung": "ANSSI-Qualifikation für bestimmte OVHcloud-Angebote — gilt nicht automatisch für AI Endpoints.",
       "normiert": [
         "secnumcloud"
@@ -139,6 +152,7 @@
       "typ": "HDS",
       "status": "belegt",
       "quelle": "https://www.ovhcloud.com/en/compliance/",
+      "geprueft": "2026-10-03",
       "anmerkung": "Französische Gesundheitsdaten-Zertifizierung (ANS).",
       "normiert": [
         "hds"
@@ -162,7 +176,7 @@
   "geprueft": "2026-08-19",
   "url": "https://belegbar.eu/anbieter/ovhcloud/",
   "beleg_quote_prozent": 94,
-  "zuletzt_geprueft": "2026-08-19",
+  "zuletzt_geprueft": "2026-10-03",
   "rechtsraum": {
     "land": "FR",
     "name": "Frankreich",

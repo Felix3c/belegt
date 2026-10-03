@@ -18,6 +18,7 @@
       "preis_input_1m_eur": 0.15,
       "preis_output_1m_eur": 0.6,
       "quelle": "https://openrouter.ai/provider/nebius",
+      "geprueft": "2026-10-03",
       "status": "belegt",
       "anmerkung": "Preis in USD; offizielle Preisseite nur nach Login, Preise über das Live-Listing bei OpenRouter verifiziert"
     },
@@ -27,6 +28,7 @@
       "preis_input_1m_eur": 0.2,
       "preis_output_1m_eur": 0.6,
       "quelle": "https://openrouter.ai/provider/nebius",
+      "geprueft": "2026-10-03",
       "status": "belegt",
       "anmerkung": "Preis in USD"
     },
@@ -45,6 +47,7 @@
       "preis_input_1m_eur": 1.4,
       "preis_output_1m_eur": 4.4,
       "quelle": "https://openrouter.ai/provider/nebius",
+      "geprueft": "2026-10-03",
       "status": "belegt",
       "anmerkung": "Preis in USD"
     }
@@ -54,6 +57,7 @@
       "wert": "https://docs.nebius.com/legal/dpa",
       "status": "belegt",
       "quelle": "https://docs.nebius.com/legal/",
+      "geprueft": "2026-10-03",
       "anmerkung": "Standard-DPA im offiziellen Legal-Verzeichnis; Custom DPAs für Enterprise möglich"
     },
     "subprozessoren": {
@@ -80,6 +84,7 @@
       "typ": "ISO 27001",
       "status": "belegt",
       "quelle": "https://nebius.com/trust-center",
+      "geprueft": "2026-10-03",
       "anmerkung": "",
       "normiert": [
         "iso-27001"
@@ -89,6 +94,7 @@
       "typ": "SOC 2 Type II",
       "status": "belegt",
       "quelle": "https://nebius.com/trust-center",
+      "geprueft": "2026-10-03",
       "anmerkung": "Inkl. HIPAA-Mapping; zudem SOC 3",
       "normiert": [
         "soc-2"
@@ -98,6 +104,7 @@
       "typ": "ISO 27701",
       "status": "belegt",
       "quelle": "https://nebius.com/trust-center",
+      "geprueft": "2026-10-03",
       "anmerkung": "Zusätzlich ISO 27018, 27799, 22301, 27032 gelistet",
       "normiert": [
         "iso-27701"
@@ -107,6 +114,7 @@
       "typ": "CSA STAR Level 1",
       "status": "belegt",
       "quelle": "https://nebius.com/trust-center",
+      "geprueft": "2026-10-03",
       "anmerkung": "",
       "normiert": [
         "csa-star"
@@ -124,7 +132,7 @@
   "geprueft": "2026-08-19",
   "url": "https://belegbar.eu/anbieter/nebius/",
   "beleg_quote_prozent": 85,
-  "zuletzt_geprueft": "2026-08-19",
+  "zuletzt_geprueft": "2026-10-03",
   "rechtsraum": {
     "land": "NL",
     "name": "Niederlande",
