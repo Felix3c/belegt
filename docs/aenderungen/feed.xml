@@ -5,8 +5,22 @@
   <id>https://belegbar.eu/aenderungen/</id>
   <link rel="alternate" href="https://belegbar.eu/aenderungen/"/>
   <link rel="self" href="https://belegbar.eu/aenderungen/feed.xml"/>
-  <updated>2026-09-18T00:00:00Z</updated>
+  <updated>2026-10-03T00:00:00Z</updated>
   <rights>CC BY 4.0</rights>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-03-black-forest-labs-fall-2026-003</id>
+    <title>Black Forest Labs: Fall 2026-003 offen → bestätigt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-03-black-forest-labs-fall-2026-003"/>
+    <updated>2026-10-03T00:00:00Z</updated>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-03-scaleway-fall-2026-004</id>
+    <title>Scaleway: Fall 2026-004 beantwortet → bestätigt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-03-scaleway-fall-2026-004"/>
+    <updated>2026-10-03T00:00:00Z</updated>
+    <content type="text"></content>
+  </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-09-18-scaleway-ai-act-gpai-code-of-practice-art.-53-transparenzdokumentation</id>
     <title>Scaleway: AI Act: GPAI Code of Practice / Art.-53-Transparenzdokumentation unbelegt → –</title>

@@ -7,7 +7,7 @@
   "kurz": "Die Enterprise-Seite von Black Forest Labs bewirbt die Managed API mit „Zero data retention“, ohne Einschränkung auf einen Vertragstyp. Die für dieselbe FLUX API geltenden Terms — auch die am 26.08.2026 revidierte EU-Fassung — räumen dem Unternehmen eine unbefristete, weltweite Lizenz ein, Inputs und Outputs zu speichern und zum Training zu nutzen; Privacy Policy und Terms of Service sagen dasselbe. Beide Aussagen können nicht zugleich für den öffentlichen API-Zugang gelten.",
   "eroeffnet": "2026-09-10",
   "anbieter_informiert": "2026-09-10",
-  "status": "offen",
+  "status": "bestaetigt",
   "antwort_frist": "2026-09-24",
   "behauptung": [
     {
@@ -73,6 +73,10 @@
     {
       "datum": "2026-09-19",
       "ereignis": "Halbzeit-Erinnerung an den Anbieter gesendet (09:07 UTC, im Thread der Mail vom 10.09.; technisch als Antwort-an-alle von felix.h.lind@gmail.com mit hallo@belegbar.eu im An-Feld und legal@, privacy@, dpo@blackforestlabs.ai in CC). Inhalt: Frist 24.09.2026 bleibt, danach Status „bestätigt“, eine Zeile Antwort genügt, um „offen“ zu halten. Bis dahin keine Antwort des Anbieters eingegangen."
+    },
+    {
+      "datum": "2026-10-03",
+      "ereignis": "Prüfung nach Ablauf der Antwortfrist (24.09.2026). Keine Antwort des Anbieters eingegangen, auch nicht auf die Halbzeit-Erinnerung vom 19.09. Alle vier Seiten erneut abgerufen (11:38 UTC): Die Zusage „Zero data retention“ auf der Enterprise-Seite und die Lizenz zur Nutzung von Inputs und Outputs für Training in den EU FLUX API Service Terms und den Terms of Service stehen unverändert; die Privacy Policy enthält den zitierten Satz unverändert, ergänzt um einen nachgestellten Satz zum Zweck des Trainings. Rohkopien belege/faelle/2026-003/*-2026-10-03.html, SHA-256 in SHA256SUMS (Enterprise-Seite 37e2e11f8368fc2df4cb9322f34081716049e6dd5cb7225edd9c3e69584dff9b). Snapshot: https://web.archive.org/web/20261003113917/https://bfl.ai/enterprise. Status auf „bestätigt“ gesetzt: Frist verstrichen, keine Antwort, beide Aussagen unverändert. Eine spätere Antwort wird wörtlich eingetragen; sobald eine der Auflösungen eintritt, geht der Fall auf „ausgeräumt“."
     }
   ],
   "url": "https://belegbar.eu/faelle/black-forest-labs-zero-data-retention/",

@@ -1,23 +1,23 @@
 {
   "": {
-    "hash": "b03bec2100ea0200",
-    "datum": "2026-09-19"
+    "hash": "c9df7b1714f963f7",
+    "datum": "2026-10-03"
   },
   "404.html": {
     "hash": "826986f530da7952",
     "datum": "2026-09-16"
   },
   "aenderungen/": {
-    "hash": "979a5b9be0486437",
-    "datum": "2026-09-19"
+    "hash": "1c044355aea99ae3",
+    "datum": "2026-10-03"
   },
   "anbieter/aleph-alpha/": {
     "hash": "e54add86ccc22a13",
     "datum": "2026-09-16"
   },
   "anbieter/black-forest-labs/": {
-    "hash": "7f1a6e14fa2b452d",
-    "datum": "2026-09-16"
+    "hash": "bea1f35c8a528043",
+    "datum": "2026-10-03"
   },
   "anbieter/deepl/": {
     "hash": "816051163898bd34",
@@ -84,8 +84,8 @@
     "datum": "2026-09-16"
   },
   "anbieter/scaleway/": {
-    "hash": "1c63b3d359dc964a",
-    "datum": "2026-09-19"
+    "hash": "43313a599381868a",
+    "datum": "2026-10-03"
   },
   "anbieter/stackit/": {
     "hash": "5e97611314152a7d",
@@ -100,12 +100,12 @@
     "datum": "2026-09-16"
   },
   "faelle/": {
-    "hash": "111e6d1f1706e209",
-    "datum": "2026-09-19"
+    "hash": "a219871d40555766",
+    "datum": "2026-10-03"
   },
   "faelle/black-forest-labs-zero-data-retention/": {
-    "hash": "3f3343b2753c7fc2",
-    "datum": "2026-09-19"
+    "hash": "2b1b3458b136cb1c",
+    "datum": "2026-10-03"
   },
   "faelle/greenpt-iso-27001/": {
     "hash": "bafd7e8257de2d8d",
@@ -116,8 +116,8 @@
     "datum": "2026-09-16"
   },
   "faelle/scaleway-generative-apis-no-access/": {
-    "hash": "021bbda2cad3b060",
-    "datum": "2026-09-19"
+    "hash": "4ff842f57aa0a4ff",
+    "datum": "2026-10-03"
   },
   "fragen/": {
     "hash": "6d593283d4718d1f",
