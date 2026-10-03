@@ -1,6 +1,6 @@
 # belegbar.eu — Nächste Schritte
 
-**Stand:** 2026-09-19, vormittags (Halbzeit-Erinnerung Fall 003 gesendet, Verlauf eingetragen; keine Antwort von BFL bis dahin. Davor:) · 2026-09-18, nachts (Dossier-Wächter gegen Normenbezug committet und gepusht, `1d5488b`, 64 Tests grün; Felix' drei Antworten eingearbeitet, siehe Abschnitt „18.09., Dossier-Wächter". Davor:) · 2026-09-14, 16:10 (Scaleway hat auf Fall 004 geantwortet und kündigt die Korrektur an;
+**Stand:** 2026-10-03, 13:45 (Dauerlauf, Tagesprüfung: Fall 003 BFL und Fall 004 Scaleway nach Fristablauf lokal auf „bestätigt“, Commit `f322fe9`, **nicht gepusht**; Scaleway hat den Doku-Satz wörtlich wie angekündigt qualifiziert, Produktseite unverändert; Antwortentwurf an Scaleway liegt als Gmail-Entwurf im Zendesk-Thread. Davor:) · 2026-09-19, vormittags (Halbzeit-Erinnerung Fall 003 gesendet, Verlauf eingetragen; keine Antwort von BFL bis dahin. Davor:) · 2026-09-18, nachts (Dossier-Wächter gegen Normenbezug committet und gepusht, `1d5488b`, 64 Tests grün; Felix' drei Antworten eingearbeitet, siehe Abschnitt „18.09., Dossier-Wächter". Davor:) · 2026-09-14, 16:10 (Scaleway hat auf Fall 004 geantwortet und kündigt die Korrektur an;
 Antwort seit 14.09. live, Status „beantwortet“. LinkedIn: keine Antwort auf Welle 1.) · **16.09. abends (Home-Tab):** Nachfassen an alle vier offenen Welle-1-Kontakte gesendet (`outreach/mails/14-…`), **Perplexity zitiert belegbar.eu (Kriterium 1 erstmals erfüllt, Details MESSUNG.md)**, ChatGPT nicht; Angebots-Entwurf in `ANGEBOT-ENTWURF.md`; **Beschlüsse Felix 21:15 in MESSUNG.md** (B zuerst, GUARD-Wortlaut, kein Einfrieren 14.10.); gebaut und ungetrackt: `dossier.js`, `lib/dossier.js`, `test/dossier.test.js`, `dossiers/BEISPIEL-scaleway-2026-09-16.md`, `ENTWURF-FESTPREIS-ABSATZ.md` (Diff-Plan gegen build.js). **16.09. 21:15: Freigabe erteilt, umgesetzt, LIVE (Commit `e2c64e5`):** /fuer-anbieter/ mit „Eintritt zum Festpreis“ (490 € Aufnahme, 190 € Zusage), neue Seite /fuer-kaeufer/ (Dossier 390 €), Methodik mit Finanzierung Stand 16.09. und Abschnitt „Regeländerungen“; alle Preise ohne USt (§ 19 UStG). Search Console 16.09.: 4 Klicks, 174 Impressionen (28 Tage), 21 Seiten indexiert (24.08.: 0 / 1 / 4). Folgearbeit: Profilfeld für bezahlte Einträge (Entwurf Punkt 10), Dossier-Vorlage, MESSUNG Kriterium 3 auf GUARD-Wortlaut.
 **Führendes Dokument:** `MESSUNG.md` (Kill-Kriterien) · Ziel-Satz in `~/THESE.md`
 **Phase:** live, 4 Fälle, Engpass ist nicht mehr Code, sondern Rücklauf von außen. Erster Anbieter, der eine Korrektur wörtlich ankündigt: Scaleway (14.09.).
@@ -54,6 +54,15 @@ Antwort seit 14.09. live, Status „beantwortet“. LinkedIn: keine Antwort auf 
 - **Regel seit 04.09. (Felix):** Vor jeder Arbeit an belegt zuerst beide Postfächer prüfen
   (hallo@, Gmail). Die Sieben-Tage-Zusage auf `/fuer-anbieter/` hängt daran.
 - Git sauber, nichts ungepusht, HEAD `898b7c9` (14.09.).
+
+## Tagesprüfung 03.10.2026 (Dauerlauf)
+
+- **Postfach** (Gmail, hallo@ läuft dort mit ein): keine Antwort von BFL, keine neue von Scaleway, keine Anfrage über /fuer-anbieter/.
+- **Fall 2026-003 BFL:** Frist 24.09. ohne Antwort verstrichen, alle vier Seiten am 03.10. 11:38 UTC unverändert (Privacy Policy nur um einen nachgestellten Satz zum Trainingszweck ergänzt). Status lokal `bestaetigt`, Verlauf, Rohkopien `*-2026-10-03.html`, SHA256SUMS, Snapshot Enterprise-Seite.
+- **Fall 2026-004 Scaleway:** Doku-Seite „Security and reliability“ jetzt qualifiziert (wörtlich die am 14.09. angekündigte Fassung), Produktseite wiederholt die absolute Aussage. Status lokal `bestaetigt` nach dem Muster von Fall 001 (eine Seite korrigiert, eine nicht), geht auf `ausgeraeumt`, sobald die Produktseite qualifiziert ist. Snapshots beider Seiten 03.10.
+- Build und 64 Tests grün (`node --test test/*.test.js`; `node --test test/` ohne Glob schlägt fehl, kein package.json). Commit `f322fe9`, **Push wartet auf Felix' „steht“**.
+- **Gmail-Entwurf an privacy@scaleway.com** im bestehenden Thread: Dank, Doku-Satz live, Produktseite offen, Fall jetzt „bestätigt“. Erst nach dem Push senden; Absender vorher auf hallo@belegbar.eu umstellen (frühere Antworten gingen von hallo@).
+- Hinweis Technik: `core.autocrlf=true` ohne `.gitattributes` → Git normalisiert die HTML-Rohkopien beim Commit auf LF. Die Arbeitskopien stimmen mit SHA256SUMS überein, ein frischer Klon nicht. Vorschlag: `.gitattributes` mit `belege/** -text` (betrifft auch ältere Belege).
 
 ## Nächster konkreter Schritt
 
