@@ -253,3 +253,20 @@ SHA-256 der Abrufe 03.10. 18:54 UTC (nur Prüfung, keine Rohkopien im Repo, weil
 ts-trust `df454e98…`, Leistungsbeschreibung-PDF `5c4292ad…`, ts-cache `681e82f2…`, rg-zdr `de1a02c5…`, rg-pp `6ec26403…`, rg-blog `4580afc1…`, io-doc `b728c6d4…`, io-agb `01ed83ce…`.
 
 **Einschätzung für den nächsten Fall-Entwurf:** Nr. 3 T-Systems ist der stärkste offene Kandidat: großer Name, die Trust-Seite nennt die Leistungsbeschreibung selbst „the binding source“, und genau die widerspricht ihr. Nr. 5 Regolo ist sauberer belegt, aber kleiner. Nr. 6 bleibt ohne Datenschutzbezug zweite Wahl. Kein Entwurf angelegt (Frage 47 an Felix).
+
+## Nachtrag 03.10.2026, 19:57–20:05 UTC: Archivkopien für Nr. 3 und Nr. 5 (Dauerlauf)
+
+Bisher gab es für die zwei stärksten offenen Kandidaten nur Hashes, keine Archivkopie. Ändert ein Anbieter die Seite, bevor ein Fall eröffnet ist, wäre der Beleg weg. Jetzt archiviert (Wayback „Save Page Now“) und **jedes Zitat wörtlich in der Archivkopie geprüft** (`lib/archiv.js` → `zitatInText`, Abruf mit `id_`): 11 von 11 Zitaten belegt. PDFs per SHA-256 gegen den Live-Abruf verglichen.
+
+| Nr. | Seite | Archivkopie | Prüfung |
+|---|---|---|---|
+| 3 | Trust-Seite | https://web.archive.org/web/20261003195658/https://docs.llmhub.t-systems.net/reference/enterprise-trust/ | „never saved or used to train…“, „not stored and not viewable…“, „is the binding source“ OK |
+| 3 | Leistungsbeschreibung v1.23 (PDF) | https://web.archive.org/web/20260924143456/https://docs.llmhub.t-systems.net/files/Leistungsbeschreibung-LLM-Serving-Service.pdf | SHA-256 `5c4292ad…` = Live 03.10. (Wayback hat dedupliziert, Kopie vom 24.09. ist byte-gleich) |
+| 3 | Prefix-Caching-Doku | https://web.archive.org/web/20261003195704/https://docs.llmhub.t-systems.net/guides/prefix-caching/ | „Caching is on by default…“, „save_cache: false…“ OK |
+| 5 | ZDR-Seite | https://web.archive.org/web/20261003195709/https://regolo.ai/zero-data-retention/ | „no records of any kind“, „No logs, no traces“ OK |
+| 5 | Privacy Policy | https://web.archive.org/web/20261002111700/https://regolo.ai/privacy-policy/ | „request type (without the content)…“, „Until the cancellation of the Account“ OK (Neuabruf 03.10. scheiterte zweimal mit 520, Kopie vom 02.10. trägt) |
+| 5 | Blog (Logging-Daemon) | https://web.archive.org/web/20261003195910/https://regolo.ai/zero-data-retention-llm-gdpr-ai-act-compliance/ | „API key identifier“ OK |
+| 23 | Red-Hive-Urkunde (PDF) | https://web.archive.org/web/20260915205027/https://regolo.ai/wp-content/uploads/2026/07/Certificate_REGOLO.AI24-Jul-2026.pdf | SHA-256 `0f28c18c…` = Live 03.10. |
+| 28 | FAQ | https://web.archive.org/web/20261003200024/https://regolo.ai/faq/ | „fully GDPR-compliant by design“ OK |
+
+Damit kann ein Fall-Entwurf zu Nr. 3 (oder Ersatz Nr. 5) nach Felix' Antwort auf Frage 47 direkt auf diese Kopien zeigen; Rohkopien ins Repo kommen erst mit dem Entwurf (`belege/faelle/2026-006/`).
