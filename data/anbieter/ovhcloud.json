@@ -24,7 +24,9 @@
     { "typ": "SOC 1/2/3", "status": "belegt", "quelle": "https://www.ovhcloud.com/en/compliance/", "geprueft": "2026-10-03", "anmerkung": "SSAE 16/ISAE 3402 Type 2 im Compliance-Portal gelistet." },
     { "typ": "BSI C5", "status": "belegt", "quelle": "https://www.ovhcloud.com/en/compliance/", "geprueft": "2026-10-03", "anmerkung": "Im Compliance-Portal gelistet; Geltungsbereich je Produkt prüfen." },
     { "typ": "SecNumCloud", "status": "belegt", "quelle": "https://www.ovhcloud.com/en/compliance/", "geprueft": "2026-10-03", "anmerkung": "ANSSI-Qualifikation für bestimmte OVHcloud-Angebote — gilt nicht automatisch für AI Endpoints." },
-    { "typ": "HDS", "status": "belegt", "quelle": "https://www.ovhcloud.com/en/compliance/", "geprueft": "2026-10-03", "anmerkung": "Französische Gesundheitsdaten-Zertifizierung (ANS)." }
+    { "typ": "HDS", "status": "belegt", "quelle": "https://www.ovhcloud.com/en/compliance/", "geprueft": "2026-10-03", "anmerkung": "Französische Gesundheitsdaten-Zertifizierung (ANS)." },
+    { "typ": "ISO 27017", "status": "belegt", "quelle": "https://www.ovhcloud.com/en/compliance/", "geprueft": "2026-10-03", "anmerkung": "Compliance-Seite (03.10.2026): Block 'ISO 27001 / 27017 / 27018'. Bisher nur in der Anmerkung zu ISO 27001 geführt." },
+    { "typ": "ISO 27018", "status": "belegt", "quelle": "https://www.ovhcloud.com/en/compliance/", "geprueft": "2026-10-03", "anmerkung": "Compliance-Seite (03.10.2026): Block 'ISO 27001 / 27017 / 27018'. Bisher nur in der Anmerkung zu ISO 27001 geführt." }
   ],
   "ai_act": [
     { "pflicht": "AI-Act-Informationsmaterial veröffentlicht", "status": "belegt", "quelle": "https://blog.ovhcloud.com/en/posts/ai-act-in-a-nutshell/", "geprueft": "2026-10-03", "anmerkung": "Offizieller Beitrag 'AI Act in a nutshell' (Stand 03.10.2026): 'OVHcloud and ETHIQAIS have been among the very first signatories of the AI Pact'; Positionierung als 'European Trusted Cloud'. Die frühere Formulierung 'Modelltransparenz durch Open-Weight-Modelle' steht im Artikel nicht." },
