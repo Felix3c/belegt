@@ -270,3 +270,7 @@ Bisher gab es für die zwei stärksten offenen Kandidaten nur Hashes, keine Arch
 | 28 | FAQ | https://web.archive.org/web/20261003200024/https://regolo.ai/faq/ | „fully GDPR-compliant by design“ OK |
 
 Damit kann ein Fall-Entwurf zu Nr. 3 (oder Ersatz Nr. 5) nach Felix' Antwort auf Frage 47 direkt auf diese Kopien zeigen; Rohkopien ins Repo kommen erst mit dem Entwurf (`belege/faelle/2026-006/`).
+
+## Entwurf 03.10.2026, 20:05 UTC: Nr. 3 T-Systems als Fall 2026-006 (Freigabe Felix, Frage 47)
+
+`data/faelle/entwurf/2026-006-t-systems-not-stored-cache.json`, Rohkopien + SHA256SUMS in `belege/faelle/2026-006/` (Trust-Seite, Prefix-Caching-Doku, Leistungsbeschreibung v1.23). Neuabruf 20:05 UTC: Leistungsbeschreibung weiter v1.23 / 31.08.2026, SHA-256 `5c4292ad…` unverändert; alle vier Zitate wörtlich in Rohkopie und Archivkopie (PDF per Hash). Die Trust-Seite erwähnt den Cache weiter nur als Navigationslink „Prefix Caching“. Nicht eröffnet, Telekom nicht informiert. Vor einer Eröffnung: neu abrufen, hashen, Eröffnen nur nach „steht“. Offen und im Fall als „nicht geprüft“ vermerkt: Cache-Dauer und ob Telekom-Personal auf den Cache zugreifen kann. Erwartbares Gegenargument: Ein Prefix-Cache sei keine Speicherung der Anfrage; dagegen steht die eigene Doku („retained“, „held“, „stored“).
