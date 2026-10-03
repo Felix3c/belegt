@@ -74,6 +74,7 @@
       "typ": "ISO 27001",
       "status": "belegt",
       "quelle": "https://www.dqsglobal.com/en/customer-database/aleph-alpha-gmbh",
+      "geprueft": "2026-10-03",
       "anmerkung": "ISO/IEC 27001:2022 für Aleph Alpha GmbH, nachgewiesen über die Zertifikatsdatenbank des Zertifizierers DQS.",
       "normiert": [
         "iso-27001"
@@ -97,7 +98,7 @@
   "geprueft": "2026-08-19",
   "url": "https://belegbar.eu/anbieter/aleph-alpha/",
   "beleg_quote_prozent": 50,
-  "zuletzt_geprueft": "2026-08-19",
+  "zuletzt_geprueft": "2026-10-03",
   "rechtsraum": {
     "land": "DE",
     "name": "Deutschland",

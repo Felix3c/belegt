@@ -66,10 +66,11 @@
       "anmerkung": "Öffentliches DPA (Stand 14.03.2026); erlaubt Verarbeitung außerhalb des EWR unter DSGVO-Bedingungen (SCCs auf Anfrage)"
     },
     "subprozessoren": {
-      "wert": "https://opper.ai/sub-processors",
+      "wert": "https://trust.opper.ai/",
       "status": "belegt",
-      "quelle": "https://opper.ai/sub-processors",
-      "anmerkung": "Detaillierte Liste inkl. vieler US-Inference-Provider (teils bis 30 Tage Retention) sowie EU-Providern (Mistral FR, Inceptron SE, Berget AI, Infercom, Regolo)"
+      "quelle": "https://trust.opper.ai/",
+      "geprueft": "2026-10-03",
+      "anmerkung": "Liste seit spätestens 03.10.2026 im Trust Center (opper.ai/sub-processors leitet dorthin um): je Subprozessor Zweck und Datenumgang, u. a. US-Inference-Provider (teils bis 30 Tage Retention fürs Abuse-Monitoring, Moonshot AI darf Anfragen zum Training nutzen) sowie EU-Provider (Mistral FR, Inceptron SE, Berget, Infercom, Regolo, GreenPT, evroc)."
     },
     "training_opt_out": {
       "wert": true,
@@ -115,7 +116,7 @@
   "geprueft": "2026-08-19",
   "url": "https://belegbar.eu/anbieter/opper-ai/",
   "beleg_quote_prozent": 67,
-  "zuletzt_geprueft": "2026-08-19",
+  "zuletzt_geprueft": "2026-10-03",
   "rechtsraum": {
     "land": "SE",
     "name": "Schweden",

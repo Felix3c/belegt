@@ -12,14 +12,35 @@
     <title>Black Forest Labs: Fall 2026-003 offen → bestätigt</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-03-black-forest-labs-fall-2026-003"/>
     <updated>2026-10-03T00:00:00Z</updated>
-    <content type="text"></content>
+    <content type="text">Commit f322fe9: docs: Tagesprüfung 03.10. - Fall 2026-003 (BFL) und 2026-004 (Scaleway) nach Fristablauf auf bestätigt</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-03-mistral-vertrag.training-opt-out</id>
+    <title>Mistral AI (La Plateforme): Kein Training mit Kundendaten — Quelle geändert</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-03-mistral-vertrag.training-opt-out"/>
+    <updated>2026-10-03T00:00:00Z</updated>
+    <content type="text">Opt-out für Studio und API im Admin-Panel (Privacy → 'Anonymous improvement data'), getrennt vom Vibe-Schalter. Stand Help Center 03.09.2026: Free-Modus wird standardmäßig zum Training genutzt; für Pay-as-you-go nennt Mistral nur das Opt-out-Recht, keinen Standard mehr — die frühere Doku-Aussage 'API-Daten werden nicht zum Training genutzt' ist mit der alten Seite (404 seit spätestens 03.10.2026) entfallen. Vibe Enterprise ist standardmäßig ausgeschlossen. · Alte Quelle: https://docs.mistral.ai/admin/monitor-comply/privacy-data-controls · Neue Quelle: https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-03-mistral-vertrag.zero-data-retention</id>
+    <title>Mistral AI (La Plateforme): Zero Data Retention — Quelle geändert</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-03-mistral-vertrag.zero-data-retention"/>
+    <updated>2026-10-03T00:00:00Z</updated>
+    <content type="text">ZDR auf bezahlten Plänen, nur auf Antrag mit Begründung (Mistral prüft und kann ablehnen), nur für zustandslose API-Aufrufe (Chat, FIM, Embeddings, Moderation, Klassifikation, OCR, Audio), nicht für Labs-Modelle, Agents, Batch, Files, Vibe. Die früher belegte Standard-Retention von 30 Tagen nennt die neue Seite nicht mehr. · Alte Quelle: https://docs.mistral.ai/admin/monitor-comply/privacy-data-controls · Neue Quelle: https://docs.mistral.ai/admin/monitor-comply/zero-data-retention</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-03-opper-ai-vertrag.subprozessoren</id>
+    <title>Opper AI: Subprozessoren-Liste — Quelle geändert</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-03-opper-ai-vertrag.subprozessoren"/>
+    <updated>2026-10-03T00:00:00Z</updated>
+    <content type="text">Liste seit spätestens 03.10.2026 im Trust Center (opper.ai/sub-processors leitet dorthin um): je Subprozessor Zweck und Datenumgang, u. a. US-Inference-Provider (teils bis 30 Tage Retention fürs Abuse-Monitoring, Moonshot AI darf Anfragen zum Training nutzen) sowie EU-Provider (Mistral FR, Inceptron SE, Berget, Infercom, Regolo, GreenPT, evroc). · Alte Quelle: https://opper.ai/sub-processors · Neue Quelle: https://trust.opper.ai/</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-03-scaleway-fall-2026-004</id>
     <title>Scaleway: Fall 2026-004 beantwortet → bestätigt</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-03-scaleway-fall-2026-004"/>
     <updated>2026-10-03T00:00:00Z</updated>
-    <content type="text"></content>
+    <content type="text">Commit f322fe9: docs: Tagesprüfung 03.10. - Fall 2026-003 (BFL) und 2026-004 (Scaleway) nach Fristablauf auf bestätigt</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-09-18-scaleway-ai-act-gpai-code-of-practice-art.-53-transparenzdokumentation</id>

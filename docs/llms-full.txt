@@ -1,6 +1,6 @@
 # belegbar.eu — vollständiger Datenbestand
 
-Stand: 2026-09-06. 21 europäische KI-Anbieter, jede Angabe mit Quelle, Prüfdatum und Beleg-Status.
+Stand: 2026-10-03. 21 europäische KI-Anbieter, jede Angabe mit Quelle, Prüfdatum und Beleg-Status.
 
 ## Wie diese Datei zu lesen ist
 
@@ -15,7 +15,7 @@ nachweisbar ist. Wer diese Daten zitiert, sollte den Status mitzitieren.
 Lizenz: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Nutzung und Zitat frei mit
 Namensnennung "belegbar.eu" und Angabe des Prüfdatums.
 
-Zitierform: belegbar.eu, Stand 2026-09-06, https://belegbar.eu
+Zitierform: belegbar.eu, Stand 2026-10-03, https://belegbar.eu
 
 ## Direkt beantwortete Fragen
 
@@ -57,7 +57,7 @@ URL: https://belegbar.eu/anbieter/aleph-alpha/ | Rohdaten: https://belegbar.eu/a
 Kategorie: Modell-Anbieter | Sitz: Heidelberg, Deutschland (DE) | Gegründet: 2019
 Rechtsraum: Deutschland — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
 Mutterkonzern: keiner bekannt | US-Eigentümerstruktur: nein
-Beleg-Quote: 50 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-08-19
+Beleg-Quote: 50 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-10-03
 
 Heidelberger KI-Modellanbieter (PhariaAI-Plattform, Pharia-Modellfamilie, Fokus auf spezialisierte Sprachmodelle für Industrie und Verwaltung); die im April 2026 angekündigte Fusion mit dem kanadischen Anbieter Cohere ist noch nicht vollzogen.
 
@@ -399,15 +399,15 @@ URL: https://belegbar.eu/anbieter/mistral/ | Rohdaten: https://belegbar.eu/anbie
 Kategorie: Modell-Anbieter | Sitz: Paris, Frankreich (FR) | Gegründet: 2023
 Rechtsraum: Frankreich — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
 Mutterkonzern: keiner bekannt | US-Eigentümerstruktur: nein
-Beleg-Quote: 93 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-08-19
+Beleg-Quote: 93 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-10-03
 
 Französischer KI-Modellanbieter mit eigener Inferenz-API (La Plateforme), die standardmäßig in der EU gehostet wird und offene wie proprietäre Mistral-Modelle bereitstellt.
 
 Vertrag und Datenschutz:
 - AVV / Auftragsverarbeitungsvertrag: https://legal.mistral.ai/terms/data-processing-addendum [Status: belegt] | Quelle: https://legal.mistral.ai/terms | Anmerkung: Öffentliches Data Processing Addendum (wirksam 27.07.2026), inkl. SCC-Regelung für Drittlandtransfers.
 - Subprozessoren-Liste: https://trust.mistral.ai/subprocessors [Status: belegt] | Quelle: https://help.mistral.ai/en/articles/455208-who-are-your-subprocessors-and-how-can-i-stay-updated-on-changes | Anmerkung: URL im DPA (Abschnitt 7.1) und Help Center offiziell benannt, mit Benachrichtigungs-Abo; Trust-Center-Seite ist JS-gerendert, Einträge nicht maschinell auslesbar.
-- Kein Training mit Kundendaten: ja [Status: belegt] | Quelle: https://docs.mistral.ai/admin/monitor-comply/privacy-data-controls | Anmerkung: 'API: data sent through the API isn't used for model training' (Standard). Ausnahme: experimentelle Labs-Modelle erlauben Training unabhängig vom Opt-out.
-- Zero Data Retention: ja [Status: belegt] | Quelle: https://docs.mistral.ai/admin/monitor-comply/privacy-data-controls | Anmerkung: ZDR nur im Scale-Plan und nur für zustandslose API-Aufrufe (Chat, Embeddings, Moderation, OCR, Audio); Standard ohne ZDR: 30 Tage Retention für Abuse-Monitoring.
+- Kein Training mit Kundendaten: ja [Status: belegt] | Quelle: https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training | geprüft 2026-10-03 | Anmerkung: Opt-out für Studio und API im Admin-Panel (Privacy → 'Anonymous improvement data'), getrennt vom Vibe-Schalter. Stand Help Center 03.09.2026: Free-Modus wird standardmäßig zum Training genutzt; für Pay-as-you-go nennt Mistral nur das Opt-out-Recht, keinen Standard mehr — die frühere Doku-Aussage 'API-Daten werden nicht zum Training genutzt' ist mit der alten Seite (404 seit spätestens 03.10.2026) entfallen. Vibe Enterprise ist standardmäßig ausgeschlossen.
+- Zero Data Retention: ja [Status: belegt] | Quelle: https://docs.mistral.ai/admin/monitor-comply/zero-data-retention | geprüft 2026-10-03 | Anmerkung: ZDR auf bezahlten Plänen, nur auf Antrag mit Begründung (Mistral prüft und kann ablehnen), nur für zustandslose API-Aufrufe (Chat, FIM, Embeddings, Moderation, Klassifikation, OCR, Audio), nicht für Labs-Modelle, Agents, Batch, Files, Vibe. Die früher belegte Standard-Retention von 30 Tagen nennt die neue Seite nicht mehr.
 
 Zertifikate:
 - ISO 27001 [normiert: iso-27001] [Status: belegt] | Quelle: https://help.mistral.ai/en/articles/347638-do-you-have-soc-2-or-iso-27001-certification | Anmerkung: Offizielle Aussage: SOC 2 Type II und ISO 27001/27701; Report nur auf Anfrage über Trust Center.
@@ -492,13 +492,13 @@ URL: https://belegbar.eu/anbieter/opper-ai/ | Rohdaten: https://belegbar.eu/anbi
 Kategorie: Gateway / Router | Sitz: Stockholm, Schweden (SE) | Gegründet: 2023
 Rechtsraum: Schweden — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
 Mutterkonzern: Opper Technology AB | US-Eigentümerstruktur: nein
-Beleg-Quote: 67 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-08-19
+Beleg-Quote: 67 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-10-03
 
 Schwedischer LLM-Router (Opper Technology AB, gehostet auf AWS Stockholm) für 700+ Modelle — neben EU-Providern (Mistral, Inceptron, Berget AI, Infercom, Regolo) auch zahlreiche US-Provider; EU-Residency ist wählbar, aber nicht der Default für alle Modelle.
 
 Vertrag und Datenschutz:
 - AVV / Auftragsverarbeitungsvertrag: https://opper.ai/data-processing-agreement [Status: belegt] | Quelle: https://opper.ai/data-processing-agreement | Anmerkung: Öffentliches DPA (Stand 14.03.2026); erlaubt Verarbeitung außerhalb des EWR unter DSGVO-Bedingungen (SCCs auf Anfrage)
-- Subprozessoren-Liste: https://opper.ai/sub-processors [Status: belegt] | Quelle: https://opper.ai/sub-processors | Anmerkung: Detaillierte Liste inkl. vieler US-Inference-Provider (teils bis 30 Tage Retention) sowie EU-Providern (Mistral FR, Inceptron SE, Berget AI, Infercom, Regolo)
+- Subprozessoren-Liste: https://trust.opper.ai/ [Status: belegt] | Quelle: https://trust.opper.ai/ | geprüft 2026-10-03 | Anmerkung: Liste seit spätestens 03.10.2026 im Trust Center (opper.ai/sub-processors leitet dorthin um): je Subprozessor Zweck und Datenumgang, u. a. US-Inference-Provider (teils bis 30 Tage Retention fürs Abuse-Monitoring, Moonshot AI darf Anfragen zum Training nutzen) sowie EU-Provider (Mistral FR, Inceptron SE, Berget, Infercom, Regolo, GreenPT, evroc).
 - Kein Training mit Kundendaten: ja [Status: belegt] | Quelle: https://opper.ai/security-overview | Anmerkung: 'Opper does not use customer data to train models'; im DPA selbst nicht explizit; Upstream-Retention bis 30 Tage je nach Route
 - Zero Data Retention: ja [Status: beansprucht] | Quelle: https://opper.ai/security-overview | Anmerkung: Inhalte werden im Gateway-Tarif nicht gespeichert; echte Zero Retention nur als Enterprise-Konfiguration, kein genereller Default
 

@@ -133,3 +133,9 @@ test("bestaetigeVeraendert: transienter Fehler wird nachgeladen — ok beim zwei
   assert.deepEqual(n.unveraendert.map((e) => e.url), ["https://t"]);
   assert.deepEqual(n.verschwunden.map((e) => e.url), ["https://tot"]);
 });
+
+test("pruefe: DQS-Zertifikatsdatenbank (Cloudflare-Sperre) wird ohne Abruf übersprungen", async () => {
+  const { pruefe } = require("../lib/quellen.js");
+  const e = await pruefe({ url: "https://www.dqsglobal.com/en/customer-database/aleph-alpha-gmbh" });
+  assert.equal(e.befund, "uebersprungen");
+});

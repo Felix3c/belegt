@@ -74,14 +74,16 @@
     "training_opt_out": {
       "wert": true,
       "status": "belegt",
-      "quelle": "https://docs.mistral.ai/admin/monitor-comply/privacy-data-controls",
-      "anmerkung": "'API: data sent through the API isn't used for model training' (Standard). Ausnahme: experimentelle Labs-Modelle erlauben Training unabhängig vom Opt-out."
+      "quelle": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+      "geprueft": "2026-10-03",
+      "anmerkung": "Opt-out für Studio und API im Admin-Panel (Privacy → 'Anonymous improvement data'), getrennt vom Vibe-Schalter. Stand Help Center 03.09.2026: Free-Modus wird standardmäßig zum Training genutzt; für Pay-as-you-go nennt Mistral nur das Opt-out-Recht, keinen Standard mehr — die frühere Doku-Aussage 'API-Daten werden nicht zum Training genutzt' ist mit der alten Seite (404 seit spätestens 03.10.2026) entfallen. Vibe Enterprise ist standardmäßig ausgeschlossen."
     },
     "zero_data_retention": {
       "wert": true,
       "status": "belegt",
-      "quelle": "https://docs.mistral.ai/admin/monitor-comply/privacy-data-controls",
-      "anmerkung": "ZDR nur im Scale-Plan und nur für zustandslose API-Aufrufe (Chat, Embeddings, Moderation, OCR, Audio); Standard ohne ZDR: 30 Tage Retention für Abuse-Monitoring."
+      "quelle": "https://docs.mistral.ai/admin/monitor-comply/zero-data-retention",
+      "geprueft": "2026-10-03",
+      "anmerkung": "ZDR auf bezahlten Plänen, nur auf Antrag mit Begründung (Mistral prüft und kann ablehnen), nur für zustandslose API-Aufrufe (Chat, FIM, Embeddings, Moderation, Klassifikation, OCR, Audio), nicht für Labs-Modelle, Agents, Batch, Files, Vibe. Die früher belegte Standard-Retention von 30 Tagen nennt die neue Seite nicht mehr."
     }
   },
   "zertifikate": [
@@ -130,7 +132,7 @@
   "geprueft": "2026-08-19",
   "url": "https://belegbar.eu/anbieter/mistral/",
   "beleg_quote_prozent": 93,
-  "zuletzt_geprueft": "2026-08-19",
+  "zuletzt_geprueft": "2026-10-03",
   "rechtsraum": {
     "land": "FR",
     "name": "Frankreich",

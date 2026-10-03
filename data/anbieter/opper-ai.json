@@ -13,7 +13,7 @@
   ],
   "vertrag": {
     "avv": { "wert": "https://opper.ai/data-processing-agreement", "status": "belegt", "quelle": "https://opper.ai/data-processing-agreement", "anmerkung": "Öffentliches DPA (Stand 14.03.2026); erlaubt Verarbeitung außerhalb des EWR unter DSGVO-Bedingungen (SCCs auf Anfrage)" },
-    "subprozessoren": { "wert": "https://opper.ai/sub-processors", "status": "belegt", "quelle": "https://opper.ai/sub-processors", "anmerkung": "Detaillierte Liste inkl. vieler US-Inference-Provider (teils bis 30 Tage Retention) sowie EU-Providern (Mistral FR, Inceptron SE, Berget AI, Infercom, Regolo)" },
+    "subprozessoren": { "wert": "https://trust.opper.ai/", "status": "belegt", "quelle": "https://trust.opper.ai/", "geprueft": "2026-10-03", "anmerkung": "Liste seit spätestens 03.10.2026 im Trust Center (opper.ai/sub-processors leitet dorthin um): je Subprozessor Zweck und Datenumgang, u. a. US-Inference-Provider (teils bis 30 Tage Retention fürs Abuse-Monitoring, Moonshot AI darf Anfragen zum Training nutzen) sowie EU-Provider (Mistral FR, Inceptron SE, Berget, Infercom, Regolo, GreenPT, evroc)." },
     "training_opt_out": { "wert": true, "status": "belegt", "quelle": "https://opper.ai/security-overview", "anmerkung": "'Opper does not use customer data to train models'; im DPA selbst nicht explizit; Upstream-Retention bis 30 Tage je nach Route" },
     "zero_data_retention": { "wert": true, "status": "beansprucht", "quelle": "https://opper.ai/security-overview", "anmerkung": "Inhalte werden im Gateway-Tarif nicht gespeichert; echte Zero Retention nur als Enterprise-Konfiguration, kein genereller Default" }
   },

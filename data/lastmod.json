@@ -1,6 +1,6 @@
 {
   "": {
-    "hash": "c9df7b1714f963f7",
+    "hash": "8dcdac842c8d4a40",
     "datum": "2026-10-03"
   },
   "404.html": {
@@ -8,12 +8,12 @@
     "datum": "2026-09-16"
   },
   "aenderungen/": {
-    "hash": "1c044355aea99ae3",
+    "hash": "886f57c9b1dce466",
     "datum": "2026-10-03"
   },
   "anbieter/aleph-alpha/": {
-    "hash": "e54add86ccc22a13",
-    "datum": "2026-09-16"
+    "hash": "e04d928c307f691b",
+    "datum": "2026-10-03"
   },
   "anbieter/black-forest-labs/": {
     "hash": "bea1f35c8a528043",
@@ -56,8 +56,8 @@
     "datum": "2026-09-16"
   },
   "anbieter/mistral/": {
-    "hash": "eaa982c11c90b0bc",
-    "datum": "2026-09-16"
+    "hash": "5ab76532dafc204f",
+    "datum": "2026-10-03"
   },
   "anbieter/nebius/": {
     "hash": "7920799c359f7cd5",
@@ -68,8 +68,8 @@
     "datum": "2026-09-16"
   },
   "anbieter/opper-ai/": {
-    "hash": "b7d593aec8a9f484",
-    "datum": "2026-09-16"
+    "hash": "a808cdb17e870307",
+    "datum": "2026-10-03"
   },
   "anbieter/ovhcloud/": {
     "hash": "4e2e183fe51289ae",
@@ -100,48 +100,48 @@
     "datum": "2026-09-16"
   },
   "faelle/": {
-    "hash": "a219871d40555766",
+    "hash": "b7b850452a91a333",
     "datum": "2026-10-03"
   },
   "faelle/black-forest-labs-zero-data-retention/": {
-    "hash": "2b1b3458b136cb1c",
+    "hash": "9b17771c607f3f57",
     "datum": "2026-10-03"
   },
   "faelle/greenpt-iso-27001/": {
-    "hash": "bafd7e8257de2d8d",
-    "datum": "2026-09-16"
+    "hash": "6b3600be220d7f9a",
+    "datum": "2026-10-03"
   },
   "faelle/requesty-zero-data-retention/": {
-    "hash": "8ca3a32f1819bf27",
-    "datum": "2026-09-16"
+    "hash": "7f6cc6ac5a1336ee",
+    "datum": "2026-10-03"
   },
   "faelle/scaleway-generative-apis-no-access/": {
-    "hash": "4ff842f57aa0a4ff",
+    "hash": "0aa3fb876b97c379",
     "datum": "2026-10-03"
   },
   "fragen/": {
-    "hash": "6d593283d4718d1f",
-    "datum": "2026-09-16"
+    "hash": "f4a3f6171f40cd7a",
+    "datum": "2026-10-03"
   },
   "fragen/ai-act-pflichten-nachweis-ki-anbieter/": {
-    "hash": "f6c55b8338561458",
-    "datum": "2026-09-16"
+    "hash": "8d8d4ed9bf817331",
+    "datum": "2026-10-03"
   },
   "fragen/bsi-c5-testat-ki-anbieter/": {
-    "hash": "77cc321e7d6bb568",
-    "datum": "2026-09-16"
+    "hash": "257f5383926d9703",
+    "datum": "2026-10-03"
   },
   "fragen/dsgvo-konform-inference-api-eu-hosting/": {
-    "hash": "d94cd77d631f8171",
-    "datum": "2026-09-16"
+    "hash": "5eb9c9aacc4aac2e",
+    "datum": "2026-10-03"
   },
   "fragen/souveraene-ki-kommunen-anbieter/": {
-    "hash": "43d759c242382d06",
-    "datum": "2026-09-16"
+    "hash": "25fae999f7ff6dd2",
+    "datum": "2026-10-03"
   },
   "fragen/uebersicht-eu-ki-anbieter-zertifikate-nachweis/": {
-    "hash": "59082db8881c3ec6",
-    "datum": "2026-09-16"
+    "hash": "8cb31eb2d36952bd",
+    "datum": "2026-10-03"
   },
   "fuer-anbieter/": {
     "hash": "4943ea8da501d2eb",
@@ -212,8 +212,8 @@
     "datum": "2026-09-16"
   },
   "vergleich/eurouter-vs-opper-ai/": {
-    "hash": "b19360841547adb7",
-    "datum": "2026-09-16"
+    "hash": "80c32441473ab1c6",
+    "datum": "2026-10-03"
   },
   "vergleich/eurouter-vs-requesty/": {
     "hash": "7c9e43aea4058a49",
@@ -448,8 +448,8 @@
     "datum": "2026-09-16"
   },
   "vergleich/opper-ai-vs-requesty/": {
-    "hash": "811fa2b3ec3a1f49",
-    "datum": "2026-09-16"
+    "hash": "095bdb56f970e4b0",
+    "datum": "2026-10-03"
   },
   "vergleich/ovhcloud-vs-regolo/": {
     "hash": "45906f4f848be728",
@@ -492,31 +492,31 @@
     "datum": "2026-09-16"
   },
   "zertifikate/": {
-    "hash": "72d2fe342ed8739e",
-    "datum": "2026-09-16"
+    "hash": "393037006c507f57",
+    "datum": "2026-10-03"
   },
   "zertifikate/bsi-c5/": {
-    "hash": "7c370799c5ba5026",
-    "datum": "2026-09-16"
+    "hash": "7406d6bfef7dee79",
+    "datum": "2026-10-03"
   },
   "zertifikate/iso-27001/": {
-    "hash": "5b06c304bf91a53f",
-    "datum": "2026-09-16"
+    "hash": "997705602aabb643",
+    "datum": "2026-10-03"
   },
   "zertifikate/iso-27701/": {
-    "hash": "462c8c7f28966196",
-    "datum": "2026-09-16"
+    "hash": "3660c9798daca0ec",
+    "datum": "2026-10-03"
   },
   "zertifikate/iso-50001/": {
-    "hash": "132c9da2399a04e2",
-    "datum": "2026-09-16"
+    "hash": "3dcd93da09fc4ed2",
+    "datum": "2026-10-03"
   },
   "zertifikate/soc-2/": {
-    "hash": "81d9c01a3fe04378",
-    "datum": "2026-09-16"
+    "hash": "f28d33be95f625f0",
+    "datum": "2026-10-03"
   },
   "zertifikate/tisax/": {
-    "hash": "205db0cabe4dd8eb",
-    "datum": "2026-09-16"
+    "hash": "0c87886a7fd57905",
+    "datum": "2026-10-03"
   }
 }
