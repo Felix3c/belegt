@@ -207,3 +207,15 @@ Single-Page-App (HTML 2,8 KB); alle Texte inklusive Privacy Policy, Terms, SLA i
 ## Nächster Lauf
 
 ~28.09.2026, zusammen mit dem Quellenlauf. Dann zusätzlich: die drei Vanta-Trust-Center und Gcores Legal-Tabs im Browser lesen; Anbieter mit zwischenzeitlich abgeschlossenen Fällen wieder aufnehmen.
+
+## Nachtrag 03.10.2026: Widerspruchs-Scan aus dem Quellenlauf
+
+Kein vollständiger Scan wie am 06.09., sondern Nebenbefund der Handprüfung aller 75 am 03.10. als „verändert“ gemeldeten Quellen (drei Prüfer, ca. 16:00–16:25 UTC, `curl` mit Browser-User-Agent; Befunde außerhalb des Repos in `~/allein/ql-teile/befund1-3.md`). Gesucht wurde dabei nur nebenbei nach Aussage gegen Aussage.
+
+| # | Anbieter | Kurz | Konfidenz | Muster |
+|---|---|---|---|---|
+| 23 | Opper AI | Compliance-Seite „EU data residency on every plan“ vs. DPA 2.1 „Model inference may take place inside or outside the EEA depending on the model route used; it is not restricted to the EEA by default.“ (DPA „Last updated“ jetzt 23.09.2026) | mittel | Lesart: „data residency“ kann gespeicherte Daten meinen, nicht die Inferenz |
+
+- Weiter bestehend, schon Fall: Requesty (2026-001) — DPA-Seite „bodies are never stored“ und auf derselben Seite 30 Tage Logging als Standard.
+- Kein neuer Kandidat: Scaleway (Doku jetzt „By default we apply a Zero Data Retention Policy“ mit genannten Ausnahmen, in sich stimmig), T-Systems (Training-Aussage jetzt einheitlich „Not used for model training“).
+- Vor einer Eröffnung: beide Opper-Seiten neu abrufen, hashen, archivieren (Ablauf README). Eröffnen nur nach „steht“ von Felix.
