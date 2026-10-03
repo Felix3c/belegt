@@ -122,6 +122,26 @@
       "normiert": [
         "tisax"
       ]
+    },
+    {
+      "typ": "ISO 27017",
+      "status": "belegt",
+      "quelle": "https://stackit.com/en/why-stackit/benefits/certificates",
+      "geprueft": "2026-10-03",
+      "anmerkung": "Seite (03.10.2026): 'Certifications according to ISO/IEC 27001, 27017 and 27018' und 'ISO 27017 for cloud security'; gilt für die STACKIT Cloud. Bisher nur in der Anmerkung zu ISO 27001 geführt.",
+      "normiert": [
+        "iso-27017"
+      ]
+    },
+    {
+      "typ": "ISO 27018",
+      "status": "belegt",
+      "quelle": "https://stackit.com/en/why-stackit/benefits/certificates",
+      "geprueft": "2026-10-03",
+      "anmerkung": "Seite (03.10.2026): 'ISO 27018 for data protection (PII)'; gilt für die STACKIT Cloud. Bisher nur in der Anmerkung zu ISO 27001 geführt.",
+      "normiert": [
+        "iso-27018"
+      ]
     }
   ],
   "ai_act": [
@@ -134,7 +154,7 @@
   ],
   "geprueft": "2026-08-19",
   "url": "https://belegbar.eu/anbieter/stackit/",
-  "beleg_quote_prozent": 77,
+  "beleg_quote_prozent": 80,
   "zuletzt_geprueft": "2026-10-03",
   "rechtsraum": {
     "land": "DE",

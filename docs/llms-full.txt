@@ -431,7 +431,7 @@ URL: https://belegbar.eu/anbieter/nebius/ | Rohdaten: https://belegbar.eu/anbiet
 Kategorie: Inference-API | Sitz: Amsterdam, Niederlande (NL) | Gegründet: 2024
 Rechtsraum: Niederlande — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
 Mutterkonzern: Nebius Group N.V. (Nasdaq: NBIS, hervorgegangen aus Yandex N.V.) | US-Eigentümerstruktur: ja
-Beleg-Quote: 69 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-10-03
+Beleg-Quote: 71 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-10-03
 
 Inference-Plattform der Nebius Group N.V. mit EU-Sitz in Amsterdam und EU-Rechenzentren (Finnland, Frankreich) — aber hervorgegangen aus Yandex N.V., Nasdaq-notiert (NBIS), mit US-Kapitalverflechtung und US-Subprozessoren im Betrieb; souveränitätsbewusste Nutzer sollten das einpreisen.
 
@@ -446,6 +446,7 @@ Zertifikate:
 - SOC 2 Type II [normiert: soc-2] [Status: belegt] | Quelle: https://nebius.com/trust-center | Anmerkung: Inkl. HIPAA-Mapping; zudem SOC 3
 - ISO 27701 [normiert: iso-27701] [Status: belegt] | Quelle: https://nebius.com/trust-center | Anmerkung: Zusätzlich ISO 27018, 27799, 22301, 27032 gelistet
 - CSA STAR Level 1 [normiert: csa-star] [Status: belegt] | Quelle: https://nebius.com/trust-center
+- ISO 27018 [normiert: iso-27018] [Status: belegt] | Quelle: https://nebius.com/trust-center | Anmerkung: Trust Center (03.10.2026) listet 'ISO 27018'. Bisher nur in der Anmerkung zu ISO 27701 geführt.
 
 AI Act:
 - GPAI Code of Practice unterzeichnet [Status: unbelegt] | Anmerkung: Keine Unterzeichnung auffindbar; hostet Open-Source-Fremdmodelle. Trust Center nennt NIS 2 und DORA, aber keine AI-Act-Dokumentation
@@ -522,7 +523,7 @@ URL: https://belegbar.eu/anbieter/ovhcloud/ | Rohdaten: https://belegbar.eu/anbi
 Kategorie: Inference-API | Sitz: Roubaix, Frankreich (FR) | Gegründet: 1999
 Rechtsraum: Frankreich — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
 Mutterkonzern: OVH Groupe SA (börsennotiert, Euronext Paris) | US-Eigentümerstruktur: nein
-Beleg-Quote: 94 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-10-03
+Beleg-Quote: 95 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-10-03
 
 Serverlose Inferenz-API des französischen Cloud-Anbieters OVHcloud mit über 40 offenen Modellen (u.a. Llama, Qwen, gpt-oss), gehostet in europäischen Rechenzentren mit Zero-Data-Retention-Zusage.
 
@@ -539,6 +540,8 @@ Zertifikate:
 - BSI C5 [normiert: bsi-c5] [Status: belegt] | Quelle: https://www.ovhcloud.com/en/compliance/ | Anmerkung: Im Compliance-Portal gelistet; Geltungsbereich je Produkt prüfen.
 - SecNumCloud [normiert: secnumcloud] [Status: belegt] | Quelle: https://www.ovhcloud.com/en/compliance/ | Anmerkung: ANSSI-Qualifikation für bestimmte OVHcloud-Angebote — gilt nicht automatisch für AI Endpoints.
 - HDS [normiert: hds] [Status: belegt] | Quelle: https://www.ovhcloud.com/en/compliance/ | Anmerkung: Französische Gesundheitsdaten-Zertifizierung (ANS).
+- ISO 27017 [normiert: iso-27017] [Status: belegt] | Quelle: https://www.ovhcloud.com/en/compliance/ | Anmerkung: Compliance-Seite (03.10.2026): Block 'ISO 27001 / 27017 / 27018'. Bisher nur in der Anmerkung zu ISO 27001 geführt.
+- ISO 27018 [normiert: iso-27018] [Status: belegt] | Quelle: https://www.ovhcloud.com/en/compliance/ | Anmerkung: Compliance-Seite (03.10.2026): Block 'ISO 27001 / 27017 / 27018'. Bisher nur in der Anmerkung zu ISO 27001 geführt.
 
 AI Act:
 - AI-Act-Informationsmaterial veröffentlicht [Status: belegt] | Quelle: https://blog.ovhcloud.com/en/posts/ai-act-in-a-nutshell/ | Anmerkung: Offizieller Beitrag 'AI Act in a nutshell' (Stand 03.10.2026): 'OVHcloud and ETHIQAIS have been among the very first signatories of the AI Pact'; Positionierung als 'European Trusted Cloud'. Die frühere Formulierung 'Modelltransparenz durch Open-Weight-Modelle' steht im Artikel nicht.
@@ -651,7 +654,7 @@ URL: https://belegbar.eu/anbieter/stackit/ | Rohdaten: https://belegbar.eu/anbie
 Kategorie: Inference-API | Sitz: Neckarsulm, Deutschland (DE) | Gegründet: 2019
 Rechtsraum: Deutschland — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
 Mutterkonzern: Schwarz Gruppe | US-Eigentümerstruktur: nein
-Beleg-Quote: 77 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-10-03
+Beleg-Quote: 80 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-10-03
 
 Souveräne deutsche Cloud der Schwarz Gruppe, die mit AI Model Serving offene LLMs (u.a. Llama, GPT-OSS, Qwen, Gemma) über eine OpenAI-kompatible API aus deutschen Rechenzentren bereitstellt.
 
@@ -666,6 +669,8 @@ Zertifikate:
 - BSI C5 [normiert: bsi-c5] [Status: belegt] | Quelle: https://stackit.com/en/why-stackit/benefits/certificates | Anmerkung: C5 Typ 2; bestätigt per Pressemitteilung Schwarz Digits.
 - SOC 2 [normiert: soc-2] [Status: belegt] | Quelle: https://stackit.com/en/why-stackit/benefits/certificates | Anmerkung: ISAE 3000 (SOC 2) und ISAE 3402 begleitend zum C5-Testat.
 - TISAX [normiert: tisax] [Status: belegt] | Quelle: https://stackit.com/en/why-stackit/benefits/certificates | Anmerkung: TISAX Level 3 (Assessment ID ATA163-1, über ENX-Portal einsehbar).
+- ISO 27017 [normiert: iso-27017] [Status: belegt] | Quelle: https://stackit.com/en/why-stackit/benefits/certificates | Anmerkung: Seite (03.10.2026): 'Certifications according to ISO/IEC 27001, 27017 and 27018' und 'ISO 27017 for cloud security'; gilt für die STACKIT Cloud. Bisher nur in der Anmerkung zu ISO 27001 geführt.
+- ISO 27018 [normiert: iso-27018] [Status: belegt] | Quelle: https://stackit.com/en/why-stackit/benefits/certificates | Anmerkung: Seite (03.10.2026): 'ISO 27018 for data protection (PII)'; gilt für die STACKIT Cloud. Bisher nur in der Anmerkung zu ISO 27001 geführt.
 
 AI Act:
 - Art.-53-Transparenzdokumentation [Status: unbelegt] | Anmerkung: STACKIT betreibt Fremdmodelle; GPAI-Pflichten liegen bei den Modellherstellern. Keine eigene AI-Act-Dokumentation gefunden.
@@ -682,7 +687,7 @@ URL: https://belegbar.eu/anbieter/t-systems/ | Rohdaten: https://belegbar.eu/anb
 Kategorie: Inference-API | Sitz: Frankfurt am Main, Deutschland (DE) | Gegründet: 2000
 Rechtsraum: Deutschland — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
 Mutterkonzern: Deutsche Telekom AG | US-Eigentümerstruktur: nein
-Beleg-Quote: 86 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-10-03
+Beleg-Quote: 88 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-10-03
 
 Telekom-Tochter, die mit den AI Foundation Services (LLM Hub) über 30 offene LLMs DSGVO-konform auf der T-Cloud in Deutschland serviert und zusätzlich als Gateway proprietäre Modelle (GPT-5, Claude, Gemini) über Azure/GCP in Europa anbindet.
 
@@ -697,6 +702,9 @@ Zertifikate:
 - ISO 27001 [normiert: iso-27001] [Status: belegt] | Quelle: https://www.t-cloud-public.com/en/products-services/core-services/certifications | Anmerkung: Zusätzlich ISO 27017/27018/27701; deckt laut Enterprise-Trust-Doku auch die AI-Foundation-Services-Infrastruktur ab.
 - SOC 2 [normiert: soc-2] [Status: belegt] | Quelle: https://www.t-cloud-public.com/en/products-services/core-services/certifications | Anmerkung: SOC 1 Type II, SOC 2 Type II und SOC 3.
 - TISAX [normiert: tisax] [Status: belegt] | Quelle: https://www.t-cloud-public.com/en/products-services/core-services/certifications | Anmerkung: TISAX Level 3.
+- ISO 27017 [normiert: iso-27017] [Status: belegt] | Quelle: https://www.t-cloud-public.com/en/products-services/core-services/certifications | Anmerkung: Zertifikatsseite (03.10.2026): 'ISO/IEC 27017 Certification of additional information security controls for the use of cloud services', mit Download des Zertifikats. Bisher nur in der Anmerkung zu ISO 27001 geführt.
+- ISO 27018 [normiert: iso-27018] [Status: belegt] | Quelle: https://www.t-cloud-public.com/en/products-services/core-services/certifications | Anmerkung: Zertifikatsseite (03.10.2026): 'ISO/IEC 27018 Certification of protection of personally identifiable information (PII) in public clouds acting as PII processors', mit Download. Bisher nur in der Anmerkung zu ISO 27001 geführt.
+- ISO 27701 [normiert: iso-27701] [Status: belegt] | Quelle: https://www.t-cloud-public.com/en/products-services/core-services/certifications | Anmerkung: Zertifikatsseite (03.10.2026): 'ISO/IEC 27701 Certification to establish, implement, maintain and continually improve a' Datenschutz-Managementsystem, mit Download. Bisher nur in der Anmerkung zu ISO 27001 geführt.
 
 AI Act:
 - Art.-53-Transparenzdokumentation [Status: unbelegt] | Anmerkung: Plattform serviert Fremdmodelle; Art.-53-Pflichten liegen bei den Herstellern. Keine eigene AI-Act-Dokumentation gefunden.

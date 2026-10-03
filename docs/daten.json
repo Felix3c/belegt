@@ -1899,6 +1899,16 @@
           "normiert": [
             "csa-star"
           ]
+        },
+        {
+          "typ": "ISO 27018",
+          "status": "belegt",
+          "quelle": "https://nebius.com/trust-center",
+          "geprueft": "2026-10-03",
+          "anmerkung": "Trust Center (03.10.2026) listet 'ISO 27018'. Bisher nur in der Anmerkung zu ISO 27701 geführt.",
+          "normiert": [
+            "iso-27018"
+          ]
         }
       ],
       "ai_act": [
@@ -1911,7 +1921,7 @@
       ],
       "geprueft": "2026-08-19",
       "url": "https://belegbar.eu/anbieter/nebius/",
-      "beleg_quote_prozent": 69,
+      "beleg_quote_prozent": 71,
       "zuletzt_geprueft": "2026-10-03",
       "rechtsraum": {
         "land": "NL",
@@ -2346,6 +2356,26 @@
           "normiert": [
             "hds"
           ]
+        },
+        {
+          "typ": "ISO 27017",
+          "status": "belegt",
+          "quelle": "https://www.ovhcloud.com/en/compliance/",
+          "geprueft": "2026-10-03",
+          "anmerkung": "Compliance-Seite (03.10.2026): Block 'ISO 27001 / 27017 / 27018'. Bisher nur in der Anmerkung zu ISO 27001 geführt.",
+          "normiert": [
+            "iso-27017"
+          ]
+        },
+        {
+          "typ": "ISO 27018",
+          "status": "belegt",
+          "quelle": "https://www.ovhcloud.com/en/compliance/",
+          "geprueft": "2026-10-03",
+          "anmerkung": "Compliance-Seite (03.10.2026): Block 'ISO 27001 / 27017 / 27018'. Bisher nur in der Anmerkung zu ISO 27001 geführt.",
+          "normiert": [
+            "iso-27018"
+          ]
         }
       ],
       "ai_act": [
@@ -2365,7 +2395,7 @@
       ],
       "geprueft": "2026-08-19",
       "url": "https://belegbar.eu/anbieter/ovhcloud/",
-      "beleg_quote_prozent": 94,
+      "beleg_quote_prozent": 95,
       "zuletzt_geprueft": "2026-10-03",
       "rechtsraum": {
         "land": "FR",
@@ -2940,6 +2970,26 @@
           "normiert": [
             "tisax"
           ]
+        },
+        {
+          "typ": "ISO 27017",
+          "status": "belegt",
+          "quelle": "https://stackit.com/en/why-stackit/benefits/certificates",
+          "geprueft": "2026-10-03",
+          "anmerkung": "Seite (03.10.2026): 'Certifications according to ISO/IEC 27001, 27017 and 27018' und 'ISO 27017 for cloud security'; gilt für die STACKIT Cloud. Bisher nur in der Anmerkung zu ISO 27001 geführt.",
+          "normiert": [
+            "iso-27017"
+          ]
+        },
+        {
+          "typ": "ISO 27018",
+          "status": "belegt",
+          "quelle": "https://stackit.com/en/why-stackit/benefits/certificates",
+          "geprueft": "2026-10-03",
+          "anmerkung": "Seite (03.10.2026): 'ISO 27018 for data protection (PII)'; gilt für die STACKIT Cloud. Bisher nur in der Anmerkung zu ISO 27001 geführt.",
+          "normiert": [
+            "iso-27018"
+          ]
         }
       ],
       "ai_act": [
@@ -2952,7 +3002,7 @@
       ],
       "geprueft": "2026-08-19",
       "url": "https://belegbar.eu/anbieter/stackit/",
-      "beleg_quote_prozent": 77,
+      "beleg_quote_prozent": 80,
       "zuletzt_geprueft": "2026-10-03",
       "rechtsraum": {
         "land": "DE",
@@ -3099,6 +3149,36 @@
           "normiert": [
             "tisax"
           ]
+        },
+        {
+          "typ": "ISO 27017",
+          "status": "belegt",
+          "quelle": "https://www.t-cloud-public.com/en/products-services/core-services/certifications",
+          "geprueft": "2026-10-03",
+          "anmerkung": "Zertifikatsseite (03.10.2026): 'ISO/IEC 27017 Certification of additional information security controls for the use of cloud services', mit Download des Zertifikats. Bisher nur in der Anmerkung zu ISO 27001 geführt.",
+          "normiert": [
+            "iso-27017"
+          ]
+        },
+        {
+          "typ": "ISO 27018",
+          "status": "belegt",
+          "quelle": "https://www.t-cloud-public.com/en/products-services/core-services/certifications",
+          "geprueft": "2026-10-03",
+          "anmerkung": "Zertifikatsseite (03.10.2026): 'ISO/IEC 27018 Certification of protection of personally identifiable information (PII) in public clouds acting as PII processors', mit Download. Bisher nur in der Anmerkung zu ISO 27001 geführt.",
+          "normiert": [
+            "iso-27018"
+          ]
+        },
+        {
+          "typ": "ISO 27701",
+          "status": "belegt",
+          "quelle": "https://www.t-cloud-public.com/en/products-services/core-services/certifications",
+          "geprueft": "2026-10-03",
+          "anmerkung": "Zertifikatsseite (03.10.2026): 'ISO/IEC 27701 Certification to establish, implement, maintain and continually improve a' Datenschutz-Managementsystem, mit Download. Bisher nur in der Anmerkung zu ISO 27001 geführt.",
+          "normiert": [
+            "iso-27701"
+          ]
         }
       ],
       "ai_act": [
@@ -3111,7 +3191,7 @@
       ],
       "geprueft": "2026-08-19",
       "url": "https://belegbar.eu/anbieter/t-systems/",
-      "beleg_quote_prozent": 86,
+      "beleg_quote_prozent": 88,
       "zuletzt_geprueft": "2026-10-03",
       "rechtsraum": {
         "land": "DE",
@@ -3754,6 +3834,22 @@
     },
     {
       "datum": "2026-10-03",
+      "anbieter": "nebius",
+      "typ": "status",
+      "pfad": "zertifikate[ISO 27018]",
+      "feld": "Zertifikat ISO 27018",
+      "alt": null,
+      "neu": "belegt",
+      "quelle_alt": null,
+      "quelle_neu": "https://nebius.com/trust-center",
+      "grund": "Trust Center (03.10.2026) listet 'ISO 27018'. Bisher nur in der Anmerkung zu ISO 27701 geführt.",
+      "commit": {
+        "sha": "0ab47eb",
+        "betreff": "fix: ISO 27017/27018/27701 aus Freitext-Anmerkungen als eigene Einträge (STACKIT, T-Systems, Nebius, OVHcloud)"
+      }
+    },
+    {
+      "datum": "2026-10-03",
       "anbieter": "opper-ai",
       "typ": "quelle",
       "pfad": "vertrag.subprozessoren",
@@ -3782,6 +3878,38 @@
       "commit": {
         "sha": "623c72a",
         "betreff": "fix: Quellenlauf 03.10. – 61 Angaben nach Quellenänderung korrigiert"
+      }
+    },
+    {
+      "datum": "2026-10-03",
+      "anbieter": "ovhcloud",
+      "typ": "status",
+      "pfad": "zertifikate[ISO 27017]",
+      "feld": "Zertifikat ISO 27017",
+      "alt": null,
+      "neu": "belegt",
+      "quelle_alt": null,
+      "quelle_neu": "https://www.ovhcloud.com/en/compliance/",
+      "grund": "Compliance-Seite (03.10.2026): Block 'ISO 27001 / 27017 / 27018'. Bisher nur in der Anmerkung zu ISO 27001 geführt.",
+      "commit": {
+        "sha": "0ab47eb",
+        "betreff": "fix: ISO 27017/27018/27701 aus Freitext-Anmerkungen als eigene Einträge (STACKIT, T-Systems, Nebius, OVHcloud)"
+      }
+    },
+    {
+      "datum": "2026-10-03",
+      "anbieter": "ovhcloud",
+      "typ": "status",
+      "pfad": "zertifikate[ISO 27018]",
+      "feld": "Zertifikat ISO 27018",
+      "alt": null,
+      "neu": "belegt",
+      "quelle_alt": null,
+      "quelle_neu": "https://www.ovhcloud.com/en/compliance/",
+      "grund": "Compliance-Seite (03.10.2026): Block 'ISO 27001 / 27017 / 27018'. Bisher nur in der Anmerkung zu ISO 27001 geführt.",
+      "commit": {
+        "sha": "0ab47eb",
+        "betreff": "fix: ISO 27017/27018/27701 aus Freitext-Anmerkungen als eigene Einträge (STACKIT, T-Systems, Nebius, OVHcloud)"
       }
     },
     {
@@ -3816,6 +3944,38 @@
       "commit": {
         "sha": "f322fe9",
         "betreff": "docs: Tagesprüfung 03.10. - Fall 2026-003 (BFL) und 2026-004 (Scaleway) nach Fristablauf auf bestätigt"
+      }
+    },
+    {
+      "datum": "2026-10-03",
+      "anbieter": "stackit",
+      "typ": "status",
+      "pfad": "zertifikate[ISO 27017]",
+      "feld": "Zertifikat ISO 27017",
+      "alt": null,
+      "neu": "belegt",
+      "quelle_alt": null,
+      "quelle_neu": "https://stackit.com/en/why-stackit/benefits/certificates",
+      "grund": "Seite (03.10.2026): 'Certifications according to ISO/IEC 27001, 27017 and 27018' und 'ISO 27017 for cloud security'; gilt für die STACKIT Cloud. Bisher nur in der Anmerkung zu ISO 27001 geführt.",
+      "commit": {
+        "sha": "0ab47eb",
+        "betreff": "fix: ISO 27017/27018/27701 aus Freitext-Anmerkungen als eigene Einträge (STACKIT, T-Systems, Nebius, OVHcloud)"
+      }
+    },
+    {
+      "datum": "2026-10-03",
+      "anbieter": "stackit",
+      "typ": "status",
+      "pfad": "zertifikate[ISO 27018]",
+      "feld": "Zertifikat ISO 27018",
+      "alt": null,
+      "neu": "belegt",
+      "quelle_alt": null,
+      "quelle_neu": "https://stackit.com/en/why-stackit/benefits/certificates",
+      "grund": "Seite (03.10.2026): 'ISO 27018 for data protection (PII)'; gilt für die STACKIT Cloud. Bisher nur in der Anmerkung zu ISO 27001 geführt.",
+      "commit": {
+        "sha": "0ab47eb",
+        "betreff": "fix: ISO 27017/27018/27701 aus Freitext-Anmerkungen als eigene Einträge (STACKIT, T-Systems, Nebius, OVHcloud)"
       }
     },
     {
@@ -3896,6 +4056,54 @@
       "commit": {
         "sha": "623c72a",
         "betreff": "fix: Quellenlauf 03.10. – 61 Angaben nach Quellenänderung korrigiert"
+      }
+    },
+    {
+      "datum": "2026-10-03",
+      "anbieter": "t-systems",
+      "typ": "status",
+      "pfad": "zertifikate[ISO 27017]",
+      "feld": "Zertifikat ISO 27017",
+      "alt": null,
+      "neu": "belegt",
+      "quelle_alt": null,
+      "quelle_neu": "https://www.t-cloud-public.com/en/products-services/core-services/certifications",
+      "grund": "Zertifikatsseite (03.10.2026): 'ISO/IEC 27017 Certification of additional information security controls for the use of cloud services', mit Download des Zertifikats. Bisher nur in der Anmerkung zu ISO 27001 geführt.",
+      "commit": {
+        "sha": "0ab47eb",
+        "betreff": "fix: ISO 27017/27018/27701 aus Freitext-Anmerkungen als eigene Einträge (STACKIT, T-Systems, Nebius, OVHcloud)"
+      }
+    },
+    {
+      "datum": "2026-10-03",
+      "anbieter": "t-systems",
+      "typ": "status",
+      "pfad": "zertifikate[ISO 27018]",
+      "feld": "Zertifikat ISO 27018",
+      "alt": null,
+      "neu": "belegt",
+      "quelle_alt": null,
+      "quelle_neu": "https://www.t-cloud-public.com/en/products-services/core-services/certifications",
+      "grund": "Zertifikatsseite (03.10.2026): 'ISO/IEC 27018 Certification of protection of personally identifiable information (PII) in public clouds acting as PII processors', mit Download. Bisher nur in der Anmerkung zu ISO 27001 geführt.",
+      "commit": {
+        "sha": "0ab47eb",
+        "betreff": "fix: ISO 27017/27018/27701 aus Freitext-Anmerkungen als eigene Einträge (STACKIT, T-Systems, Nebius, OVHcloud)"
+      }
+    },
+    {
+      "datum": "2026-10-03",
+      "anbieter": "t-systems",
+      "typ": "status",
+      "pfad": "zertifikate[ISO 27701]",
+      "feld": "Zertifikat ISO 27701",
+      "alt": null,
+      "neu": "belegt",
+      "quelle_alt": null,
+      "quelle_neu": "https://www.t-cloud-public.com/en/products-services/core-services/certifications",
+      "grund": "Zertifikatsseite (03.10.2026): 'ISO/IEC 27701 Certification to establish, implement, maintain and continually improve a' Datenschutz-Managementsystem, mit Download. Bisher nur in der Anmerkung zu ISO 27001 geführt.",
+      "commit": {
+        "sha": "0ab47eb",
+        "betreff": "fix: ISO 27017/27018/27701 aus Freitext-Anmerkungen als eigene Einträge (STACKIT, T-Systems, Nebius, OVHcloud)"
       }
     },
     {

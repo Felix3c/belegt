@@ -159,6 +159,26 @@
       "normiert": [
         "hds"
       ]
+    },
+    {
+      "typ": "ISO 27017",
+      "status": "belegt",
+      "quelle": "https://www.ovhcloud.com/en/compliance/",
+      "geprueft": "2026-10-03",
+      "anmerkung": "Compliance-Seite (03.10.2026): Block 'ISO 27001 / 27017 / 27018'. Bisher nur in der Anmerkung zu ISO 27001 geführt.",
+      "normiert": [
+        "iso-27017"
+      ]
+    },
+    {
+      "typ": "ISO 27018",
+      "status": "belegt",
+      "quelle": "https://www.ovhcloud.com/en/compliance/",
+      "geprueft": "2026-10-03",
+      "anmerkung": "Compliance-Seite (03.10.2026): Block 'ISO 27001 / 27017 / 27018'. Bisher nur in der Anmerkung zu ISO 27001 geführt.",
+      "normiert": [
+        "iso-27018"
+      ]
     }
   ],
   "ai_act": [
@@ -178,7 +198,7 @@
   ],
   "geprueft": "2026-08-19",
   "url": "https://belegbar.eu/anbieter/ovhcloud/",
-  "beleg_quote_prozent": 94,
+  "beleg_quote_prozent": 95,
   "zuletzt_geprueft": "2026-10-03",
   "rechtsraum": {
     "land": "FR",

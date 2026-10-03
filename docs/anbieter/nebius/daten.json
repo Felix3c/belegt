@@ -123,6 +123,16 @@
       "normiert": [
         "csa-star"
       ]
+    },
+    {
+      "typ": "ISO 27018",
+      "status": "belegt",
+      "quelle": "https://nebius.com/trust-center",
+      "geprueft": "2026-10-03",
+      "anmerkung": "Trust Center (03.10.2026) listet 'ISO 27018'. Bisher nur in der Anmerkung zu ISO 27701 geführt.",
+      "normiert": [
+        "iso-27018"
+      ]
     }
   ],
   "ai_act": [
@@ -135,7 +145,7 @@
   ],
   "geprueft": "2026-08-19",
   "url": "https://belegbar.eu/anbieter/nebius/",
-  "beleg_quote_prozent": 69,
+  "beleg_quote_prozent": 71,
   "zuletzt_geprueft": "2026-10-03",
   "rechtsraum": {
     "land": "NL",
