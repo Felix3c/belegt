@@ -238,3 +238,18 @@ Anlass: Beim Quellenlauf wurden beide Standortangaben korrigiert (DeepL seit 202
 - Legal Quick Guide (7e1a7231…) und Doku „Public Serverless Endpoints“ (d5eb5ba6…) sagen offen und übereinstimmend: öffentliche Endpunkte „Global“, Ort „can change at any time without prior notice“, nicht für Produktion mit Regionsbedarf; feste Region nur über Dedicated Endpoint, dort als Vertragspflicht (DPA 6.1). Speculative-Decoding-Speicher liegt in Finnland.
 - Trust Center (f18d90ab…) „ensuring that customer data remains within the geographic region of their choice“ bleibt wie Nr. 18 eine Prinzip-Aussage; mit der Doku lesbar als „Wahl = Dedicated Endpoint“. Keine Verschärfung.
 - Nr. 16 (Produktseite-FAQ „Data centers are located in Finland and France and US, and meet EU and US data-residency requirements“): steht im ausgelieferten HTML von nebius.com/services/token-factory (3c1024fc…) nicht mehr. Ob die Seite den Satz clientseitig nachlädt: ungeklärt (Browser nötig).
+
+## Nachtrag 03.10.2026, 18:54 UTC: Nr. 3, 5 und 6 live nachgeprüft (Dauerlauf)
+
+Alle Seiten per curl abgerufen (HTTP 200), Text wörtlich gegen die Zitate oben geprüft. Ergebnis: **alle drei Widersprüche stehen unverändert.**
+
+| Nr. | Anbieter | Aussage A (03.10.) | Aussage B (03.10.) | Stand |
+|---|---|---|---|---|
+| 3 | T-Systems | Trust-Seite: „never saved or used to train“, Category 1 „not stored“, Tabelle „Storage — Not stored“; Cache wird auf der Seite nirgends erwähnt (nur Navigationslink „Prefix Caching“) | Leistungsbeschreibung **weiter v1.23, Stand 31.08.2026**, § 2.3.1 Cache-Funktion „standardmäßig eingeschaltet“; Prefix-Caching-Doku „Caching is on by default on T-Cloud-hosted models“ | steht |
+| 5 | Regolo | ZDR-Seite: „no records of any kind“, „No API call logging“, „permanently discarded. No logs, no traces“ | Privacy Policy: LOGs mit IP, Verbindungszeit, Request-Typ, Dauer „Until the cancellation of the Account“; eigener Blog jetzt zusätzlich: geloggt werden „timestamp, HTTP status code, request duration …, input/output token counts, and **API key identifier**“ | steht, eher stärker (Schlüssel-Kennung macht die Zeilen personenbeziehbar) |
+| 6 | IONOS | Doku EU AI Act: „If your application's use case falls into a high-risk category … The AI Model Hub provides the flexible infrastructure to help you achieve …“ | KI-AGB Ziffer 4.2 wortgleich auf cloud.ionos.de und ionos.de: Hochrisiko „ausdrücklich untersagt“, Freistellung | steht |
+
+SHA-256 der Abrufe 03.10. 18:54 UTC (nur Prüfung, keine Rohkopien im Repo, weil kein Fall):
+ts-trust `df454e98…`, Leistungsbeschreibung-PDF `5c4292ad…`, ts-cache `681e82f2…`, rg-zdr `de1a02c5…`, rg-pp `6ec26403…`, rg-blog `4580afc1…`, io-doc `b728c6d4…`, io-agb `01ed83ce…`.
+
+**Einschätzung für den nächsten Fall-Entwurf:** Nr. 3 T-Systems ist der stärkste offene Kandidat: großer Name, die Trust-Seite nennt die Leistungsbeschreibung selbst „the binding source“, und genau die widerspricht ihr. Nr. 5 Regolo ist sauberer belegt, aber kleiner. Nr. 6 bleibt ohne Datenschutzbezug zweite Wahl. Kein Entwurf angelegt (Frage 47 an Felix).
