@@ -1,0 +1,65 @@
+{
+  "id": "2026-005",
+  "slug": "opper-eu-data-residency",
+  "anbieter": "opper-ai",
+  "feld": "vertrag.avv",
+  "titel": "Opper: „EU data residency on every plan“ — und im eigenen DPA: Inferenz „not restricted to the EEA by default“",
+  "kurz": "Die Compliance-Seite von Opper verspricht im ersten Satz „EU data residency on every plan“ und „One EU sub-processor for every model“. Das eigene Data Processing Agreement sagt in Abschnitt 2.1: Die Modell-Inferenz kann innerhalb oder außerhalb des EWR stattfinden und ist standardmäßig nicht auf den EWR beschränkt; eine Beschränkung der Routen per Regel gibt es nur, wo der Tarif sie vorsieht. Dieselbe Compliance-Seite räumt weiter unten ein, dass ein Modellname ohne Anbieter-Präfix aus jeder Region bedient werden kann.",
+  "eroeffnet": "",
+  "status": "offen",
+  "antwort_frist": "",
+  "behauptung": [
+    {
+      "zitat": "Opper is the ISO 27001 certified, GDPR-compliant AI gateway, hosted in AWS Stockholm with EU data residency on every plan, zero data retention when you need it, and one DPA that covers every model you add.",
+      "quelle": "https://opper.ai/ai-compliance",
+      "kontext": "Compliance-Seite („Last updated: 2026-09-23“), Einleitung direkt unter der Überschrift „One EU sub-processor for every model“. Der Satz nennt „EU data residency“ ohne Einschränkung auf Speicherung, Plattform oder bestimmte Routen.",
+      "abgerufen": "2026-10-03T17:20:24Z",
+      "sha256": "1b72098a54cc029b64f7e92cb0a32c72b9ce933628b4da90eb7017dccb412100",
+      "archiv": "https://web.archive.org/web/20261003172112/https://opper.ai/ai-compliance"
+    },
+    {
+      "zitat": "The platform runs in AWS Stockholm, and EU routes keep inference in the EU end to end on every plan, pay-as-you-go included.",
+      "quelle": "https://opper.ai/ai-compliance",
+      "kontext": "Dieselbe Seite, Abschnitt „GDPR & EU data residency“. Hier ist die Aussage bereits auf „EU routes“ eingegrenzt.",
+      "abgerufen": "2026-10-03T17:20:24Z",
+      "sha256": "1b72098a54cc029b64f7e92cb0a32c72b9ce933628b4da90eb7017dccb412100",
+      "archiv": "https://web.archive.org/web/20261003172112/https://opper.ai/ai-compliance"
+    }
+  ],
+  "beleg": [
+    {
+      "zitat": "This does not mean that all processing connected with the Services takes place within the European Economic Area (“EEA”). Other processing, including billing and email delivery, may take place outside the EEA, as described in the Sub-processors list and Section 5. Model inference may take place inside or outside the EEA depending on the model route used; it is not restricted to the EEA by default. The Customer may select models for its requests and, where Rules are available under its plan, restrict eligible routes for Customer-selected model calls based on the recorded inference and storage locations.",
+      "quelle": "https://opper.ai/data-processing-agreement",
+      "kontext": "Data Processing Agreement („Last updated on: 2026-09-23“, also derselbe Tag wie die Compliance-Seite), Abschnitt 2 „Scope of processing“, Ziffer 2.1, direkt nach dem Satz zum Hosting in AWS Stockholm. Abschnitt 5 erlaubt ausdrücklich Verarbeitung in Drittländern.",
+      "abgerufen": "2026-10-03T17:20:24Z",
+      "sha256": "6d8713c70b16c848b0af98152f871d4457d8d1cd24205c2c42922bd4fb0d54af",
+      "archiv": "https://web.archive.org/web/20261003172142/https://opper.ai/data-processing-agreement"
+    },
+    {
+      "zitat": "A model name without a provider prefix can be served from any region in its pool, and every EU route is listed at opper.ai/models/eu.",
+      "quelle": "https://opper.ai/ai-compliance",
+      "kontext": "Compliance-Seite, FAQ „Where is my data processed?“. Auf derselben Seite, in der Grafik zu den EU-Routen: „Data leaves the EU only on a route hosted elsewhere, which a bare model name may pick“.",
+      "abgerufen": "2026-10-03T17:20:24Z",
+      "sha256": "1b72098a54cc029b64f7e92cb0a32c72b9ce933628b4da90eb7017dccb412100",
+      "archiv": "https://web.archive.org/web/20261003172112/https://opper.ai/ai-compliance"
+    }
+  ],
+  "widerspruch": "Der Einleitungssatz der Compliance-Seite stellt „EU data residency“ als Eigenschaft jedes Tarifs dar, neben „hosted in AWS Stockholm“ und unter der Überschrift „One EU sub-processor for every model“. Das eigene DPA vom selben Tag sagt das Gegenteil für den Standardfall: Die Inferenz, also die Verarbeitung der Prompts und Antworten durch das Modell, ist nicht auf den EWR beschränkt, und eine Beschränkung per Regel gibt es nur, wo der Tarif Regeln vorsieht. Auch die Compliance-Seite selbst sagt weiter unten, dass ein Modellname ohne Präfix aus jeder Region bedient werden kann. Wer den Einleitungssatz liest und Opper mit einem gewöhnlichen Modellnamen nutzt, bekommt nicht, was der Satz verspricht. Beide Aussagen können nur zugleich gelten, wenn „data residency“ allein die Plattform (Speicherung, Traces, Analytics in Stockholm) meint und nicht die Inferenz.",
+  "was_es_nicht_heisst": "Dies ist kein Vorwurf der Täuschung. Opper ist an dieser Stelle ungewöhnlich offen: Die Einschränkung steht im DPA klar formuliert, die Compliance-Seite nennt sie selbst in FAQ und Grafik, und jede EU-Route ist in einem eigenen Verzeichnis gelistet. Dass Plattform, Traces und Analytics in AWS Stockholm liegen, wird nicht bestritten, und dass EU-Routen die Inferenz in der EU halten, auch nicht. Es ist eine Lesart-Frage: Viele Anbieter verwenden „data residency“ für den Speicherort, nicht für den Verarbeitungsort. Der Fall betrifft nur den Einleitungssatz, der diese Unterscheidung nicht macht und als erster Satz der Seite für sich gelesen wird.",
+  "aufloesung": [
+    "Opper ergänzt den Einleitungssatz um die Einschränkung (z. B. „EU data residency for the platform on every plan, EU inference on EU routes“). Dann ist der Widerspruch ausgeräumt.",
+    "Opper beschränkt die Inferenz standardmäßig auf EU-Routen und passt DPA 2.1 an. Dann ist der Einleitungssatz richtig und der Widerspruch ausgeräumt.",
+    "Opper legt dar, warum beide Darstellungen zugleich zutreffen. Wir veröffentlichen die Erklärung wörtlich und prüfen sie."
+  ],
+  "antworten": [],
+  "verlauf": [
+    {
+      "datum": "2026-10-03",
+      "ereignis": "Beim monatlichen Quellenlauf als Nebenbefund notiert (Kandidat 23 in der internen Kandidatenliste): Compliance-Seite und DPA tragen beide „Last updated“ 23.09.2026 (das Profil zitierte bis dahin die DPA-Fassung vom 14.03.2026; ob Ziffer 2.1 dort schon so stand, ist ungeklärt)."
+    },
+    {
+      "datum": "2026-10-03",
+      "ereignis": "Compliance-Seite, DPA, Security Overview und Trust Center (Subprozessorenliste) abgerufen (17:20 UTC), Inhalte per SHA-256 gesichert, Compliance-Seite und DPA im Internet Archive gespeichert. Fall als Entwurf vorbereitet, noch nicht veröffentlicht, Anbieter noch nicht informiert."
+    }
+  ]
+}
