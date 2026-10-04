@@ -15,6 +15,13 @@
     <content type="text">Datenschutzerklärung Abschnitt 4.5.2 Inference: Prompts und Outputs werden 'auch nicht anderweitig zum Training oder zur Verbesserung der KI-Modelle verwendet' — standardmäßig ausgeschlossen. Die Inference-Doku selbst sagt dazu nichts. · Neue Quelle: https://www.hetzner.com/de/rechtliches/datenschutz · Commit 11dba23: fix: Hetzner ZDR und Training belegt (Datenschutz 4.5.2), Log-Fristen bei Mistral/EUrouter</content>
   </entry>
   <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-04-hetzner-vertrag.training-opt-out-2</id>
+    <title>Hetzner: Kein Training mit Kundendaten — Quelle geändert</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-04-hetzner-vertrag.training-opt-out-2"/>
+    <updated>2026-10-04T00:00:00Z</updated>
+    <content type="text">Betroffene Felder: Kein Training mit Kundendaten, Zero Data Retention · Alte Quelle: https://www.hetzner.com/de/rechtliches/datenschutz · Neue Quelle: https://www.hetzner.com/de/legal/privacy-policy/ · Commit 33b30a6: fix: Hetzner-Quelle auf Ziel-URL nach 301 (Archivkopie 20261004035559)</content>
+  </entry>
+  <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-04-hetzner-vertrag.zero-data-retention</id>
     <title>Hetzner: Zero Data Retention unbelegt → belegt</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-04-hetzner-vertrag.zero-data-retention"/>

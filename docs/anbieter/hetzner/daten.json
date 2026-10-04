@@ -41,14 +41,14 @@
     "training_opt_out": {
       "wert": true,
       "status": "belegt",
-      "quelle": "https://www.hetzner.com/de/rechtliches/datenschutz",
+      "quelle": "https://www.hetzner.com/de/legal/privacy-policy/",
       "geprueft": "2026-10-04",
       "anmerkung": "Datenschutzerklärung Abschnitt 4.5.2 Inference: Prompts und Outputs werden 'auch nicht anderweitig zum Training oder zur Verbesserung der KI-Modelle verwendet' — standardmäßig ausgeschlossen. Die Inference-Doku selbst sagt dazu nichts."
     },
     "zero_data_retention": {
       "wert": true,
       "status": "belegt",
-      "quelle": "https://www.hetzner.com/de/rechtliches/datenschutz",
+      "quelle": "https://www.hetzner.com/de/legal/privacy-policy/",
       "geprueft": "2026-10-04",
       "anmerkung": "Datenschutzerklärung Abschnitt 4.5.2 Inference: 'Prompts und Outputs : Werden im Rahmen unserer Zero-Retention-Policy nicht gespeichert.' Logfiles (anonymisierte IP, Zeitpunkt, Metadaten, Einstellungen, ohne Inhalte) 6 Monate, Abrechnungsdaten 8 Jahre. Die Inference-Doku selbst sagt dazu nichts."
     }

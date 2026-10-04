@@ -1071,14 +1071,14 @@
         "training_opt_out": {
           "wert": true,
           "status": "belegt",
-          "quelle": "https://www.hetzner.com/de/rechtliches/datenschutz",
+          "quelle": "https://www.hetzner.com/de/legal/privacy-policy/",
           "geprueft": "2026-10-04",
           "anmerkung": "Datenschutzerklärung Abschnitt 4.5.2 Inference: Prompts und Outputs werden 'auch nicht anderweitig zum Training oder zur Verbesserung der KI-Modelle verwendet' — standardmäßig ausgeschlossen. Die Inference-Doku selbst sagt dazu nichts."
         },
         "zero_data_retention": {
           "wert": true,
           "status": "belegt",
-          "quelle": "https://www.hetzner.com/de/rechtliches/datenschutz",
+          "quelle": "https://www.hetzner.com/de/legal/privacy-policy/",
           "geprueft": "2026-10-04",
           "anmerkung": "Datenschutzerklärung Abschnitt 4.5.2 Inference: 'Prompts und Outputs : Werden im Rahmen unserer Zero-Retention-Policy nicht gespeichert.' Logfiles (anonymisierte IP, Zeitpunkt, Metadaten, Einstellungen, ohne Inhalte) 6 Monate, Abrechnungsdaten 8 Jahre. Die Inference-Doku selbst sagt dazu nichts."
         }
@@ -3637,6 +3637,22 @@
     {
       "datum": "2026-10-04",
       "anbieter": "hetzner",
+      "typ": "quelle",
+      "pfad": "vertrag.training_opt_out",
+      "feld": "Kein Training mit Kundendaten",
+      "alt": "belegt",
+      "neu": "belegt",
+      "quelle_alt": "https://www.hetzner.com/de/rechtliches/datenschutz",
+      "quelle_neu": "https://www.hetzner.com/de/legal/privacy-policy/",
+      "grund": null,
+      "commit": {
+        "sha": "33b30a6",
+        "betreff": "fix: Hetzner-Quelle auf Ziel-URL nach 301 (Archivkopie 20261004035559)"
+      }
+    },
+    {
+      "datum": "2026-10-04",
+      "anbieter": "hetzner",
       "typ": "status",
       "pfad": "vertrag.zero_data_retention",
       "feld": "Zero Data Retention",
@@ -3648,6 +3664,22 @@
       "commit": {
         "sha": "11dba23",
         "betreff": "fix: Hetzner ZDR und Training belegt (Datenschutz 4.5.2), Log-Fristen bei Mistral/EUrouter"
+      }
+    },
+    {
+      "datum": "2026-10-04",
+      "anbieter": "hetzner",
+      "typ": "quelle",
+      "pfad": "vertrag.zero_data_retention",
+      "feld": "Zero Data Retention",
+      "alt": "belegt",
+      "neu": "belegt",
+      "quelle_alt": "https://www.hetzner.com/de/rechtliches/datenschutz",
+      "quelle_neu": "https://www.hetzner.com/de/legal/privacy-policy/",
+      "grund": null,
+      "commit": {
+        "sha": "33b30a6",
+        "betreff": "fix: Hetzner-Quelle auf Ziel-URL nach 301 (Archivkopie 20261004035559)"
       }
     },
     {
