@@ -1,6 +1,6 @@
 {
   "": {
-    "hash": "6bd90452634e59cb",
+    "hash": "b57983750a025ae3",
     "datum": "2026-10-04"
   },
   "404.html": {
@@ -8,12 +8,12 @@
     "datum": "2026-09-16"
   },
   "aenderungen/": {
-    "hash": "404b4d8e56b4884c",
+    "hash": "4e456480c6ff1199",
     "datum": "2026-10-04"
   },
   "anbieter/aleph-alpha/": {
-    "hash": "cb392e2f5911e506",
-    "datum": "2026-10-03"
+    "hash": "4b2f93c5073a7e15",
+    "datum": "2026-10-04"
   },
   "anbieter/black-forest-labs/": {
     "hash": "e05de517e68a7c7e",
@@ -140,7 +140,7 @@
     "datum": "2026-10-04"
   },
   "fragen/uebersicht-eu-ki-anbieter-zertifikate-nachweis/": {
-    "hash": "e809f0cc648f6b16",
+    "hash": "58f91e9da4f4d7c5",
     "datum": "2026-10-04"
   },
   "fuer-anbieter/": {
@@ -188,15 +188,15 @@
     "datum": "2026-09-16"
   },
   "vergleich/aleph-alpha-vs-black-forest-labs/": {
-    "hash": "6c8a56f95d30a3e2",
+    "hash": "d3d4ff543bc30788",
     "datum": "2026-10-04"
   },
   "vergleich/aleph-alpha-vs-deepl/": {
-    "hash": "db4bb139f8147ee0",
+    "hash": "aed71070014d1e3b",
     "datum": "2026-10-04"
   },
   "vergleich/aleph-alpha-vs-mistral/": {
-    "hash": "70d0c546bab14ea0",
+    "hash": "bc13169b22b13871",
     "datum": "2026-10-04"
   },
   "vergleich/black-forest-labs-vs-deepl/": {

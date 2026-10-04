@@ -14,7 +14,7 @@
       "id": "aleph-alpha",
       "name": "Aleph Alpha",
       "kategorie": "modell-anbieter",
-      "kurzbeschreibung": "Heidelberger KI-Modellanbieter (PhariaAI-Plattform, Pharia-Modellfamilie, Fokus auf spezialisierte Sprachmodelle für Industrie und Verwaltung); die im April 2026 angekündigte Fusion mit dem kanadischen Anbieter Cohere ist noch nicht vollzogen.",
+      "kurzbeschreibung": "Heidelberger KI-Modellanbieter (PhariaAI-Plattform, Pharia-Modellfamilie, Fokus auf spezialisierte Sprachmodelle für Industrie und Verwaltung); mit dem kanadischen Anbieter Cohere am 16.09.2026 eine verbindliche Zusammenschlussvereinbarung unterzeichnet, das vereinte Unternehmen soll unter dem Namen Cohere auftreten — der Vollzug steht noch unter dem Vorbehalt behördlicher Genehmigungen.",
       "stammdaten": {
         "sitz": "Heidelberg, Deutschland",
         "land": "DE",
@@ -47,41 +47,45 @@
           "anmerkung": "Keine öffentlichen Preise."
         },
         {
-          "name": "Kolibri (spezialisiertes souveränes LLM)",
+          "name": "Kolibri-1",
           "standort": null,
           "preis_input_1m_eur": null,
           "preis_output_1m_eur": null,
           "preis_status": "kein_oeffentlicher_preis",
-          "quelle": "https://aleph-alpha.com/",
-          "geprueft": "2026-10-03",
-          "status": "beansprucht",
-          "anmerkung": "Website bewirbt seit 03.10.2026 'Kolibri', ein spezialisiertes souveränes Sprachmodell für geschäftskritische Umgebungen; keine öffentlichen Modellkarten oder Preise. Frühere Aussagen zu 'europäischer Infrastruktur' und zur PhariaAI-as-a-Service-Partnerschaft mit STACKIT stehen auf der Seite nicht mehr; neu beworben wird eine Vereinbarung mit Cohere ('erste transatlantische souveräne KI-Lösung')."
+          "quelle": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+          "geprueft": "2026-10-04",
+          "status": "belegt",
+          "anmerkung": "Seit 03.10.2026 offene Gewichte unter Apache 2.0 (Modellkarte auf Hugging Face, nicht zugangsbeschränkt; Blog 'Kolibri Has Landed: A Sovereign Open-Weight Model'): Mixture-of-Experts, 78 Mrd. Parameter, davon 3 Mrd. aktiv, Deutsch/Englisch, Kontext bis 1 Mio. Token. Selbst betreiben (Mindestanforderung laut aleph-alpha.com/kolibri: 2× A100 80 GB oder 1× H200); einen öffentlichen API-Tokenpreis gibt es nicht. Archivkopie: web.archive.org/web/20261004091314/https://huggingface.co/Aleph-Alpha/Kolibri-1"
         }
       ],
       "vertrag": {
         "avv": {
           "wert": null,
           "status": "unbelegt",
-          "quelle": null,
-          "anmerkung": "Kein öffentliches AVV/DPA-Dokument gefunden; Verträge im Enterprise-Vertrieb individuell."
+          "quelle": "https://aleph-alpha.com/datenschutz/",
+          "geprueft": "2026-10-04",
+          "anmerkung": "Kein öffentliches AVV/DPA-Dokument. Die Datenschutzerklärung regelt nur Website, Kontakt, Newsletter und Bewerbungen; die in der Produktdoku verlinkten 'Terms and Conditions' leiten am 04.10.2026 auf die Startseite um. Verträge im Enterprise-Vertrieb individuell."
         },
         "subprozessoren": {
           "wert": null,
           "status": "unbelegt",
-          "quelle": null,
-          "anmerkung": "Keine öffentliche Subprozessorenliste gefunden."
+          "quelle": "https://aleph-alpha.com/datenschutz/",
+          "geprueft": "2026-10-04",
+          "anmerkung": "Keine Subprozessorenliste für die Produkte; die Datenschutzerklärung nennt Auftragsverarbeiter nur für den Website-Betrieb (u. a. Fastly), auch die Produktdoku docs.aleph-alpha.com nennt keine (04.10.2026)."
         },
         "training_opt_out": {
           "wert": null,
-          "status": "unbelegt",
-          "quelle": null,
-          "anmerkung": "Bei Self-Hosting/On-Premises verbleiben Daten beim Kunden; für Managed-/SaaS-Varianten keine öffentliche Trainings-Policy auffindbar."
+          "status": "beansprucht",
+          "quelle": "https://docs.aleph-alpha.com/phariaai-dev-guide/latest/pharia-llm/intro.html",
+          "geprueft": "2026-10-04",
+          "anmerkung": "Eigenaussage in der Produktdoku zu Pharia-1, Abschnitt 'Data privacy': 'We do not train on user data.' Bezugsrahmen sind 'our public API users' und die 'Terms and Conditions' — die verlinkten Bedingungen sind nicht mehr abrufbar, ein Vertragstext liegt nicht vor; für die souveräne SaaS-Variante der PhariaAI-Plattform keine eigene Aussage. Bei Self-Hosting/On-Premises verbleiben Daten beim Kunden. Archivkopie: web.archive.org/web/20261004091251/https://docs.aleph-alpha.com/phariaai-dev-guide/latest/pharia-llm/intro.html"
         },
         "zero_data_retention": {
           "wert": null,
-          "status": "unbelegt",
-          "quelle": null,
-          "anmerkung": "Keine öffentliche Retention-Policy gefunden."
+          "status": "beansprucht",
+          "quelle": "https://docs.aleph-alpha.com/phariaai-dev-guide/latest/pharia-llm/intro.html",
+          "geprueft": "2026-10-04",
+          "anmerkung": "Eigenaussage in derselben Doku: 'No prompt data is stored when using our systems' und 'We do not log user inputs to the models.' Gilt laut Text für 'our public API users'; die verwiesenen 'Terms and Conditions' sind nicht mehr abrufbar, eine vertragliche Zusage oder Frist für Metadaten-Logs fehlt. Archivkopie: web.archive.org/web/20261004091251/https://docs.aleph-alpha.com/phariaai-dev-guide/latest/pharia-llm/intro.html"
         }
       },
       "zertifikate": [
@@ -114,8 +118,8 @@
       ],
       "geprueft": "2026-08-19",
       "url": "https://belegbar.eu/anbieter/aleph-alpha/",
-      "beleg_quote_prozent": 50,
-      "zuletzt_geprueft": "2026-10-03",
+      "beleg_quote_prozent": 60,
+      "zuletzt_geprueft": "2026-10-04",
       "rechtsraum": {
         "land": "DE",
         "name": "Deutschland",
@@ -3626,6 +3630,84 @@
   "aenderungen": [
     {
       "datum": "2026-10-04",
+      "anbieter": "aleph-alpha",
+      "typ": "status",
+      "pfad": "modelle[Kolibri (spezialisiertes souveränes LLM)]",
+      "feld": "Modell Kolibri (spezialisiertes souveränes LLM)",
+      "alt": "beansprucht",
+      "neu": null,
+      "quelle_alt": "https://aleph-alpha.com/",
+      "quelle_neu": null,
+      "grund": null,
+      "commit": null
+    },
+    {
+      "datum": "2026-10-04",
+      "anbieter": "aleph-alpha",
+      "typ": "status",
+      "pfad": "modelle[Kolibri-1]",
+      "feld": "Modell Kolibri-1",
+      "alt": null,
+      "neu": "belegt",
+      "quelle_alt": null,
+      "quelle_neu": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+      "grund": "Seit 03.10.2026 offene Gewichte unter Apache 2.0 (Modellkarte auf Hugging Face, nicht zugangsbeschränkt; Blog 'Kolibri Has Landed: A Sovereign Open-Weight Model'): Mixture-of-Experts, 78 Mrd. Parameter, davon 3 Mrd. aktiv, Deutsch/Englisch, Kontext bis 1 Mio. Token. Selbst betreiben (Mindestanforderung laut aleph-alpha.com/kolibri: 2× A100 80 GB oder 1× H200); einen öffentlichen API-Tokenpreis gibt es nicht. Archivkopie: web.archive.org/web/20261004091314/https://huggingface.co/Aleph-Alpha/Kolibri-1",
+      "commit": null
+    },
+    {
+      "datum": "2026-10-04",
+      "anbieter": "aleph-alpha",
+      "typ": "quelle",
+      "pfad": "vertrag.avv",
+      "feld": "AVV / Auftragsverarbeitungsvertrag",
+      "alt": "unbelegt",
+      "neu": "unbelegt",
+      "quelle_alt": null,
+      "quelle_neu": "https://aleph-alpha.com/datenschutz/",
+      "grund": "Kein öffentliches AVV/DPA-Dokument. Die Datenschutzerklärung regelt nur Website, Kontakt, Newsletter und Bewerbungen; die in der Produktdoku verlinkten 'Terms and Conditions' leiten am 04.10.2026 auf die Startseite um. Verträge im Enterprise-Vertrieb individuell.",
+      "commit": null
+    },
+    {
+      "datum": "2026-10-04",
+      "anbieter": "aleph-alpha",
+      "typ": "quelle",
+      "pfad": "vertrag.subprozessoren",
+      "feld": "Subprozessoren-Liste",
+      "alt": "unbelegt",
+      "neu": "unbelegt",
+      "quelle_alt": null,
+      "quelle_neu": "https://aleph-alpha.com/datenschutz/",
+      "grund": "Keine Subprozessorenliste für die Produkte; die Datenschutzerklärung nennt Auftragsverarbeiter nur für den Website-Betrieb (u. a. Fastly), auch die Produktdoku docs.aleph-alpha.com nennt keine (04.10.2026).",
+      "commit": null
+    },
+    {
+      "datum": "2026-10-04",
+      "anbieter": "aleph-alpha",
+      "typ": "status",
+      "pfad": "vertrag.training_opt_out",
+      "feld": "Kein Training mit Kundendaten",
+      "alt": "unbelegt",
+      "neu": "beansprucht",
+      "quelle_alt": null,
+      "quelle_neu": "https://docs.aleph-alpha.com/phariaai-dev-guide/latest/pharia-llm/intro.html",
+      "grund": "Eigenaussage in der Produktdoku zu Pharia-1, Abschnitt 'Data privacy': 'We do not train on user data.' Bezugsrahmen sind 'our public API users' und die 'Terms and Conditions' — die verlinkten Bedingungen sind nicht mehr abrufbar, ein Vertragstext liegt nicht vor; für die souveräne SaaS-Variante der PhariaAI-Plattform keine eigene Aussage. Bei Self-Hosting/On-Premises verbleiben Daten beim Kunden. Archivkopie: web.archive.org/web/20261004091251/https://docs.aleph-alpha.com/phariaai-dev-guide/latest/pharia-llm/intro.html",
+      "commit": null
+    },
+    {
+      "datum": "2026-10-04",
+      "anbieter": "aleph-alpha",
+      "typ": "status",
+      "pfad": "vertrag.zero_data_retention",
+      "feld": "Zero Data Retention",
+      "alt": "unbelegt",
+      "neu": "beansprucht",
+      "quelle_alt": null,
+      "quelle_neu": "https://docs.aleph-alpha.com/phariaai-dev-guide/latest/pharia-llm/intro.html",
+      "grund": "Eigenaussage in derselben Doku: 'No prompt data is stored when using our systems' und 'We do not log user inputs to the models.' Gilt laut Text für 'our public API users'; die verwiesenen 'Terms and Conditions' sind nicht mehr abrufbar, eine vertragliche Zusage oder Frist für Metadaten-Logs fehlt. Archivkopie: web.archive.org/web/20261004091251/https://docs.aleph-alpha.com/phariaai-dev-guide/latest/pharia-llm/intro.html",
+      "commit": null
+    },
+    {
+      "datum": "2026-10-04",
       "anbieter": "gcore",
       "typ": "quelle",
       "pfad": "vertrag.training_opt_out",
@@ -3635,7 +3717,10 @@
       "quelle_alt": null,
       "quelle_neu": "https://gcore.com/legal",
       "grund": "Kein ausdrücklicher Trainingsausschluss, auch nicht in der Inference-Doku (docs.gcore.com, 04.10.2026). Der MSA bindet nur den Zweck: Lizenz an Customer Content 'solely for the purposes of this Agreement' (§7.2), Nutzung von Customer Data 'solely on behalf of Customer, except where Gcore acts as an independent data controller' (§8.3). Die Modellseiten ('Your data and model interactions never leave our secure infrastructure') betreffen den Ort, nicht das Training. Archivkopie: web.archive.org/web/20261004055218/https://gcore.com/legal",
-      "commit": null
+      "commit": {
+        "sha": "6bf918c",
+        "betreff": "fix: Gcore Training/ZDR nachgeprüft — MSA-Zweckbindung und §16.3 statt alter Anmerkung, Status unverändert unbelegt"
+      }
     },
     {
       "datum": "2026-10-04",
@@ -3648,7 +3733,10 @@
       "quelle_alt": null,
       "quelle_neu": "https://gcore.com/legal",
       "grund": "Keine ZDR-Zusage, auch nicht in der Inference-Doku (docs.gcore.com, 04.10.2026; der Logs-Tab zeigt Pod-Ausgaben, eine Aufbewahrungsfrist steht nirgends). MSA §16.3 regelt nur die Löschung nach Vertragsende, zuerst nach der Leistungsbeschreibung: 'The 48-hour period shall apply only where no such specification exists.'",
-      "commit": null
+      "commit": {
+        "sha": "6bf918c",
+        "betreff": "fix: Gcore Training/ZDR nachgeprüft — MSA-Zweckbindung und §16.3 statt alter Anmerkung, Status unverändert unbelegt"
+      }
     },
     {
       "datum": "2026-10-04",
