@@ -291,3 +291,21 @@ Für Nr. 3 und 5 gab es seit 03.10. Archivkopien, für Nr. 6 nur Hashes. Jetzt a
 | KI-AGB ionos.de | https://web.archive.org/web/20261004020529/https://www.ionos.de/terms-gtc/ki-dienste/ | wie oben (mit „IONOS“ statt „IONOS CLOUD“) OK; SHA-256 live `8a68019e…` (03.10. nicht gehasht) |
 
 Bewertung unverändert: zweite Wahl hinter 006/007, weil ohne Datenschutzbezug. Der Beleg überlebt jetzt aber eine AGB-Änderung. Kein Entwurf angelegt.
+
+## Nachtrag 04.10.2026, 22:30–22:37 UTC: Nr. 4 und 16 Nebius nach dem Vertragswechsel (Dauerlauf)
+
+Anlass: Nachprüfung des Profils. Nebius hat die Vertragsgrundlage der Token Factory ausgetauscht: Die alten „Terms of Service“ (docs.tokenfactory.nebius.com/legal/terms-of-service, Fassung 20.08.2026) gelten laut eigenem Hinweis nur noch für Kunden mit laufender Reserve; für alle anderen gilt seit 28.09.2026 das Nebius Services Agreement (docs.nebius.com/legal/agreement, veröffentlicht 15.09.2026) mit den „Token Factory Supplemental Terms“ (docs.nebius.com/legal/token-factory, 15.09.2026) und dem DPA vom 15.09.2026. Alle Zitate in zwei Abrufen wörtlich (Markdown- und HTML-Fassung, Hash beider Abrufe gleich) und in der Archivkopie.
+
+**Nr. 4 trägt weiter, Aussage B hat eine neue Fundstelle, und der Widerspruch liegt jetzt auch im Vertrag selbst:**
+
+| Dokument | Wortlaut | Archivkopie |
+|---|---|---|
+| Supplemental Terms 5.1 (Vertrag) | „Nebius may access, use, host, cache, store, copy, modify, and otherwise process Input and Output to (a) provide, maintain, monitor, protect, and support the Services, Token Factory Service or (b) train smaller Models used for Speculative Decoding.“ | https://web.archive.org/web/20261004223414/https://docs.nebius.com/legal/token-factory |
+| DPA Anhang 3 (Vertrag) | „Unless Zero Data Retention is enabled, inputs and outputs may be retained and used solely for the documented speculative-decoding purpose and not for model training or improvement.“ | https://web.archive.org/web/20261004223442/https://docs.nebius.com/legal/dpa |
+| Legal Quick Guide 4.2 (Zusammenfassung) | „Your content is not used to train any models in either mode.“ | https://web.archive.org/web/20261004223610/https://docs.tokenfactory.nebius.com/legal/legal-quick-guide |
+
+Rangfolge laut Agreement 20.12: (a) DPA, nur für die Verarbeitung personenbezogener Daten, (c) Service-Specific Terms, (e) Dokumentation. Für personenbezogene Daten gilt also „not for model training“, für alles andere räumt 5.1 das Recht ein, Entwurfsmodelle zu trainieren. Die alte Aussage B („for the purpose of training smaller Models used exclusively for Speculative Decoding“, ToS Abschnitt 7) steht weiter in den alten ToS, gilt aber nur noch für Reserve-Kunden. Was es nicht heißt, bleibt wie oben: Standard = Speicherung und Opt-out ist offen dokumentiert, es geht nicht um die Hauptmodelle.
+
+**Nr. 16, die Subprozessoren-Liste ist umgezogen und hat andere Namen:** neue Adresse docs.nebius.com/legal/sub-processors_tofa (Fassung 23.09.2026, Archiv https://web.archive.org/web/20261004223544/https://docs.nebius.com/legal/sub-processors_tofa). Infrastruktur für die Modellverarbeitung: Nebius B.V. (Frankreich, Island, Finnland, Vereinigtes Königreich), Nebius Inc. (USA), Nebius Israel Ltd. (Israel), RunPod Inc. (Island), BoostRun, LLC (USA), Shadeform, Inc. (USA), Axe Compute Inc. (Kanada). „Data Section, Inc.“ und „Eigen AI, Inc.“ aus der Liste vom 28.08.2026 stehen nicht mehr darin. Die alte Adresse docs.tokenfactory.nebius.com/legal/subprocessors und die Produktseiten-FAQ („Finland and France and US“) wurden in diesem Lauf nicht neu abgerufen; vor einem Fall beides neu prüfen.
+
+Profil am 05.10.2026 nachgezogen (Commit `7281970`): Training `beansprucht` ohne Wert (widersprüchlich, Muster Requesty), Zero Data Retention `belegt` als Schalter (Muster Mistral), Subprozessoren auf die Token-Factory-Liste. Kein Entwurf angelegt; Rang von Nr. 4 unverändert „hoch“.
