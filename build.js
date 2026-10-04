@@ -83,6 +83,9 @@ const ZERT_KANON = [
  *  Quelle: Europäische Kommission, Angemessenheitsbeschlüsse — geprüft am ADEQUACY_GEPRUEFT. */
 const ADEQUACY_QUELLE = "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en";
 const ADEQUACY_GEPRUEFT = "2026-08-24";
+// ISO/IEC 42001 ist (noch) keine im Amtsblatt zitierte harmonisierte Norm zum AI Act → keine Konformitätsvermutung.
+const NORM42001_QUELLE = "https://lawandtechnology.eu/en/iso-iec-42001-and-the-ai-act-why-certification-is-not-yet-a-presumption-of-conformity/";
+const NORM42001_GEPRUEFT = "2026-10-04";
 const LAND_INFO = {
   DE: { name: "Deutschland", raum: "eu" },
   FR: { name: "Frankreich", raum: "eu" },
@@ -1258,10 +1261,12 @@ function fragenKatalog(providers, guides) {
   {
     const mit = providers.map((p) => ({ p, belege: (p.ai_act || []).filter((a) => a.status === "belegt") })).filter((x) => x.belege.length).sort((a, b) => b.belege.length - a.belege.length || a.p.name.localeCompare(b.p.name, "de"));
     const ohne = providers.filter((p) => !(p.ai_act || []).some((a) => a.status === "belegt")).sort(sortName);
+    const mit42001 = (zi.get("iso-42001") || { belegt: [] }).belegt.map((x) => x.p).sort(sortName);
     const antwort =
       `„Die AI-Act-Pflichten erfüllen“ lässt sich von außen nicht feststellen — welche Pflichten überhaupt greifen, hängt von der Rolle (Anbieter, Betreiber, Importeur) und der Risikoklasse des konkreten Systems ab. Nachweisbar ist nur, was ein Anbieter öffentlich dokumentiert. ` +
       `Von ${n} Anbietern ${mz(mit.length, "hat", "haben")} ${mit.length} mindestens einen AI-Act-bezogenen Nachweis mit verlinkter Primärquelle: ${mit.map((x) => nennung(x.p)).join(", ")}. ` +
-      `Bei ${ohne.length} Anbietern haben wir keinen einzigen belegten AI-Act-Nachweis gefunden. Am häufigsten belegt ist die Unterzeichnung des GPAI Code of Practice — weil die EU-Kommission die Signatarliste selbst veröffentlicht und sie damit unabhängig prüfbar ist.`;
+      `Bei ${ohne.length} Anbietern haben wir keinen einzigen belegten AI-Act-Nachweis gefunden. Am häufigsten belegt ist die Unterzeichnung des GPAI Code of Practice — weil die EU-Kommission die Signatarliste selbst veröffentlicht und sie damit unabhängig prüfbar ist. ` +
+      `${mit42001.length} von ${n} Anbietern ${mz(mit42001.length, "weist", "weisen")} ein Zertifikat nach ISO/IEC 42001 (Managementsystem für KI) nach${mit42001.length ? ": " + mit42001.map(nennung).join(", ") : ""}; das zeigt eine externe Prüfung des KI-Betriebs, ist aber kein AI-Act-Nachweis, weil die Norm keine im Amtsblatt der EU zitierte harmonisierte Norm ist.`;
     fragen.push({
       slug: "ai-act-pflichten-nachweis-ki-anbieter",
       frage: "Welche KI-Anbieter erfüllen die AI-Act-Pflichten nachweislich?",
@@ -1273,6 +1278,8 @@ function fragenKatalog(providers, guides) {
           mit.map(({ p, belege }) =>
             `<tr><td><a href="${rel}anbieter/${esc(p.id)}/">${esc(p.name)}</a></td><td>${belege.map((a) => esc(a.pflicht)).join("<br>")}</td><td>${belege.map((a) => (a.quelle ? `<a href="${esc(a.quelle)}" rel="noopener nofollow" target="_blank">Quelle</a>` : "–")).join("<br>")}</td></tr>`)) +
         `<h2>Ohne belegten AI-Act-Nachweis (${ohne.length})</h2><p>${anbieterLinks(ohne, rel)}</p>` +
+        `<h2>Zertifikat nach ISO/IEC 42001 (${mit42001.length})</h2><p>${mit42001.length ? anbieterLinks(mit42001, rel) : '<span class="leer">Kein Anbieter in unserem Bestand weist eines nach.</span>'}</p>` +
+        `<p class="klein">ISO/IEC 42001 beschreibt ein Managementsystem für KI und ist extern zertifizierbar. Eine Vermutung der Konformität mit dem AI Act begründen nur harmonisierte Normen, die im Amtsblatt der EU zitiert sind; ISO/IEC 42001 gehört nicht dazu (<a href="${NORM42001_QUELLE}" rel="noopener nofollow" target="_blank">Quelle</a>, geprüft ${datumDE(NORM42001_GEPRUEFT)}). Wir führen das Zertifikat deshalb getrennt von den AI-Act-Nachweisen.</p>` +
         `<p class="klein">Seit dem 2. August 2026 werden die Pflichten des EU AI Act mit Bußgeldern durchgesetzt. Was die einzelnen Pflichten bedeuten, steht im ${guideLink(guides, "ai-act-pflichten", rel, "Ratgeber zu den AI-Act-Pflichten")}. Keine Rechtsberatung.</p>`,
     });
   }

@@ -3627,7 +3627,10 @@
       "quelle_alt": null,
       "quelle_neu": "https://nebius.com/trust-center/iso-42001",
       "grund": "KI-Managementsystem. Trust Center (04.10.2026): 'Nebius is certified for compliance with ISO/IEC 42001'. Zertifikat als PDF verlinkt: ISO/IEC 42001:2023 für Nebius B.V. (Schiphol, weiterer Standort Tel Aviv), Zert.-Nr. 1128184, gültig 26.08.2026 bis 26.08.2029, Zertifizierer SII-QCD (Standards Institution of Israel). Gültigkeit beim Zertifizierer nicht gegengeprüft.",
-      "commit": null
+      "commit": {
+        "sha": "ada1b8a",
+        "betreff": "feat: ISO/IEC 42001 als Zertifikat erkannt, Nebius belegt (Zertifikat 1128184)"
+      }
     },
     {
       "datum": "2026-10-03",
