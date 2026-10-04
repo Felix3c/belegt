@@ -97,7 +97,8 @@ test("vergleicheFall: Statuswechsel und Eröffnung", () => {
 
 test("ausGit: die echte Historie enthält STACKIT AVV belegt → unbelegt vom 24.08.2026, neueste zuerst", () => {
   const e = ausGit(path.join(__dirname, ".."), "2026-09-05");
-  const stackit = e.find((x) => x.anbieter === "stackit" && x.pfad === "vertrag.avv");
+  // Seit 05.10.2026 gibt es einen neueren Eintrag (unbelegt → belegt, AVV wieder öffentlich).
+  const stackit = e.find((x) => x.anbieter === "stackit" && x.pfad === "vertrag.avv" && x.alt === "belegt");
   assert.ok(stackit, "STACKIT-AVV-Eintrag fehlt");
   assert.equal(stackit.datum, "2026-08-24");
   assert.equal(stackit.alt, "belegt");
