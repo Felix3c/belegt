@@ -15,7 +15,7 @@ vor Veröffentlichung einzeln gegenlesen. Keine Dauer ist geschätzt; fehlt sie,
 |---|---|---|---|
 | Aleph Alpha | „not stored“, „do not log user inputs“ | ungeklärt | – |
 | Black Forest Labs | Privacy Policy: „as long as reasonably necessary“ | ungeklärt | **Training, content moderation tools**, Sicherheit |
-| DeepL API | nur technisch nötig; im Fehlerfall **bis 72 h** | Zugriffslogs: keine Frist | Sicherheit, Statistik |
+| DeepL API | nur technisch nötig; im Fehlerfall **bis 72 h** | Zugriffslogs: keine Frist in der Lizenz; Trust Center: Sicherheits-Logs **90 Tage** (Nachtrag 04.10.) | Sicherheit, Statistik |
 | EUrouter | Standard: keine | **12 Monate** Metadaten, **90 Tage** Fehler/Monitoring | **abuse** |
 | Exoscale | Kunde verantwortlich | ungeklärt | (misuse detection nur Website-DSE) |
 | Gcore | nichts zur Inferenz | ungeklärt (MSA: personenbez. Daten bis 10 J. nach Vertragsende) | fraud, Produktentwicklung |
@@ -58,6 +58,7 @@ Regolo [bis Kündigung], Scaleway, STACKIT). Missbrauch/Moderation als Zweck nen
 - Aleph Alpha: „We do not log user inputs to the models.“ — https://docs.aleph-alpha.com/phariaai-dev-guide/latest/pharia-llm/intro.html
 - BFL: „We retain your information for as long as is reasonably necessary … safety and security reasons“ — https://bfl.ai/legal/privacy-policy; „Zero data retention and auto-scaling infrastructure.“ — https://bfl.ai/enterprise
 - DeepL: „DeepL shall be entitled to create and retain access logs for billing, security and statistical purposes.“; „… for a maximum period of 72 hours in case certain error patterns occur“ — https://www.deepl.com/en/pro-license
+- DeepL (Nachtrag 04.10., Trust Center, Rubrik „Access Monitoring“): „A wide variety of events are recorded from log files and evaluated with the aim of detecting attacks on DeepL. […] DeepL stores these log files for 90 days.“ — https://trust.deepl.com/ (leitet auf deepl.safebase.us; Abruf nur mit Browser-Kennung, 04.10.2026 04:25 UTC, SHA-256 der Seite 772bd4f6…1c5d)
 - EUrouter ✔: „API metadata, such as timestamps, token counts and usage data, for up to 12 months“; „Error and monitoring data is retained for up to 90 days“; „monitor performance, reliability, errors, abuse and security incidents“ — https://www.eurouter.ai/privacy
 - Exoscale: „operational telemetry or log data … to the extent such telemetry or logs do not contain Client Data payloads“ — https://www.exoscale.com/terms/
 - Gcore: „… up to ten (10) years following the termination thereof“ — https://gcore.com/legal?tab=privacy_policy (MSA; DPA nicht erreicht)

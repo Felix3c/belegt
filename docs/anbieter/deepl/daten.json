@@ -66,6 +66,7 @@
       "wert": null,
       "status": "beansprucht",
       "quelle": "https://trust.deepl.com/",
+      "geprueft": "2026-10-04",
       "anmerkung": "Keine öffentliche Gesamtliste; laut Anbieter in Annex 1 der AVV (nur für Kunden). Im Trust Center ist die Rubrik 'Subprocessors' zugriffsbeschränkt; konkret veröffentlicht ist ein Transfer Impact Assessment für AWS als Subprozessor"
     },
     "training_opt_out": {
@@ -88,6 +89,7 @@
       "typ": "ISO/IEC 27001:2022",
       "status": "belegt",
       "quelle": "https://trust.deepl.com/",
+      "geprueft": "2026-10-04",
       "anmerkung": "Im Trust Center (SafeBase-Portal) ausgewiesen; Auditor TÜV Rheinland Cert GmbH, Zertifikat öffentlich abrufbar. Hinweis: trust.deepl.com blockt automatisierte Abrufe, im Browser erreichbar",
       "normiert": [
         "iso-27001"
@@ -97,7 +99,8 @@
       "typ": "SOC 2 Type II",
       "status": "belegt",
       "quelle": "https://trust.deepl.com/",
-      "anmerkung": "Berichtszeitraum 01.01.–30.06.2025; auch auf deepl.com/en/pro-data-security beworben, Bericht als Download",
+      "geprueft": "2026-10-04",
+      "anmerkung": "Berichtszeitraum 01.01.–30.06.2025; auch auf deepl.com/en/pro-data-security beworben, Bericht als Download. Stand 04.10.2026 kein neuerer Bericht im Trust Center; ein Bridge Letter (Erklärung der DeepL-Geschäftsleitung, keine Prüfung) deckt 01.07.2025–30.07.2026 und kündigt das nächste Audit für Kalenderwoche 24/2026 an. Für die Zeit nach dem 30.07.2026 liegt öffentlich weder Bericht noch Bridge Letter vor",
       "normiert": [
         "soc-2"
       ]
@@ -126,6 +129,7 @@
       "typ": "Externe Penetrationstests",
       "status": "belegt",
       "quelle": "https://trust.deepl.com/",
+      "geprueft": "2026-10-04",
       "anmerkung": "Regelmäßige Tests durch wechselnde unabhängige Prüfer; Berichte auf Anfrage",
       "normiert": []
     }
@@ -141,6 +145,7 @@
       "pflicht": "AI-Governance / Responsible-AI-Dokumentation",
       "status": "beansprucht",
       "quelle": "https://trust.deepl.com/",
+      "geprueft": "2026-10-04",
       "anmerkung": "Trust Center listet 'AI Governance' und ein 'Responsible AI Statement'; Inhalte zugriffsbeschränkt, ohne öffentlich prüfbaren Text"
     },
     {
@@ -153,7 +158,7 @@
   "geprueft": "2026-08-20",
   "url": "https://belegbar.eu/anbieter/deepl/",
   "beleg_quote_prozent": 69,
-  "zuletzt_geprueft": "2026-10-03",
+  "zuletzt_geprueft": "2026-10-04",
   "rechtsraum": {
     "land": "DE",
     "name": "Deutschland",
