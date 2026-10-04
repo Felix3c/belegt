@@ -8,6 +8,20 @@
   <updated>2026-10-04T00:00:00Z</updated>
   <rights>CC BY 4.0</rights>
   <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-04-lyceum-vertrag.training-opt-out</id>
+    <title>Lyceum Technology: Kein Training mit Kundendaten unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-04-lyceum-vertrag.training-opt-out"/>
+    <updated>2026-10-04T00:00:00Z</updated>
+    <content type="text">AGB Ziff. 5.2 wörtlich (Abruf 04.10.2026): for the specific 'Inference' product, any inputs and outputs are only processed to generate the respective result for the Customer and are not stored beyond what is technically necessary for this purpose, nor used for training, improvement or analysis of the Provider's or any third party's AI, LLM or other machine learning models — Training per Vertrag ausgeschlossen, kein Opt-out nötig. Für eingereichten Code gilt dasselbe (Ziff. 5.1). Die frühere Aussage im C5-Magazinartikel (bis 19.08.) steht dort weiter nicht mehr. · Neue Quelle: https://lyceum.technology/legal/terms</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-04-lyceum-vertrag.zero-data-retention</id>
+    <title>Lyceum Technology: Zero Data Retention unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-04-lyceum-vertrag.zero-data-retention"/>
+    <updated>2026-10-04T00:00:00Z</updated>
+    <content type="text">AGB Ziff. 5.2 (Abruf 04.10.2026): Inference-Inputs/-Outputs werden nicht gespeichert beyond what is technically necessary — gleiche Formel wie bei DeepL (Pro-AGB 3.1.2). Keine Frist, keine Aussage zu Logs/Metadaten; die Datenschutzerklärung regelt nur Website-/Kontodaten (Speicherung so lange wie nötig). · Neue Quelle: https://lyceum.technology/legal/terms</content>
+  </entry>
+  <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-04-nebius-zertifikate-iso-iec-42001</id>
     <title>Nebius (Token Factory): Zertifikat ISO/IEC 42001 – → belegt</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-04-nebius-zertifikate-iso-iec-42001"/>

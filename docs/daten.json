@@ -1491,17 +1491,17 @@
       "modelle": [
         {
           "name": "DeepSeek V4 Pro",
-          "standort": "EU (u.a. Frankreich, Deutschland, Dänemark)",
+          "standort": "EU (Spanien, Paris, Nordeuropa)",
           "preis_input_1m_eur": 1.75,
           "preis_output_1m_eur": 3.5,
           "quelle": "https://lyceum.technology/products/inference/models/",
           "geprueft": "2026-10-03",
           "status": "belegt",
-          "anmerkung": "Preis in USD"
+          "anmerkung": "Preis in USD — Standort: Modellseite nennt am 04.10.2026 keine Länder mehr; laut Lyceum (magazine/c5-certification-gpu-cloud-germany/ und magazine/eu-data-residency-ai-infrastructure, Abruf 04.10.2026) 'data centers in Spain, Paris and the Nordics'; frühere Angabe Frankreich/Deutschland/Dänemark nicht mehr belegt"
         },
         {
           "name": "DeepSeek V3.2",
-          "standort": "EU (u.a. Frankreich, Deutschland, Dänemark)",
+          "standort": "EU (Spanien, Paris, Nordeuropa)",
           "preis_input_1m_eur": null,
           "preis_output_1m_eur": null,
           "quelle": null,
@@ -1511,27 +1511,27 @@
         },
         {
           "name": "Qwen3 235B A22B",
-          "standort": "EU (u.a. Frankreich, Deutschland, Dänemark)",
+          "standort": "EU (Spanien, Paris, Nordeuropa)",
           "preis_input_1m_eur": 0.2,
           "preis_output_1m_eur": 0.6,
           "quelle": "https://lyceum.technology/products/inference/models/",
           "geprueft": "2026-10-03",
           "status": "belegt",
-          "anmerkung": "Preis in USD"
+          "anmerkung": "Preis in USD — Standort: Modellseite nennt am 04.10.2026 keine Länder mehr; laut Lyceum (magazine/c5-certification-gpu-cloud-germany/ und magazine/eu-data-residency-ai-infrastructure, Abruf 04.10.2026) 'data centers in Spain, Paris and the Nordics'; frühere Angabe Frankreich/Deutschland/Dänemark nicht mehr belegt"
         },
         {
           "name": "Kimi K2.6",
-          "standort": "EU (u.a. Frankreich, Deutschland, Dänemark)",
+          "standort": "EU (Spanien, Paris, Nordeuropa)",
           "preis_input_1m_eur": 1,
           "preis_output_1m_eur": 4,
           "quelle": "https://lyceum.technology/products/inference/models/",
           "geprueft": "2026-10-03",
           "status": "belegt",
-          "anmerkung": "Preis in USD"
+          "anmerkung": "Preis in USD — Standort: Modellseite nennt am 04.10.2026 keine Länder mehr; laut Lyceum (magazine/c5-certification-gpu-cloud-germany/ und magazine/eu-data-residency-ai-infrastructure, Abruf 04.10.2026) 'data centers in Spain, Paris and the Nordics'; frühere Angabe Frankreich/Deutschland/Dänemark nicht mehr belegt"
         },
         {
           "name": "gpt-oss 120B",
-          "standort": "EU (u.a. Frankreich, Deutschland, Dänemark)",
+          "standort": "EU (Spanien, Paris, Nordeuropa)",
           "preis_input_1m_eur": null,
           "preis_output_1m_eur": null,
           "quelle": null,
@@ -1556,17 +1556,18 @@
           "anmerkung": "Keine öffentliche Liste; 'DPA with named sub-processors available on request'"
         },
         "training_opt_out": {
-          "wert": null,
-          "status": "unbelegt",
-          "quelle": null,
-          "geprueft": "2026-10-03",
-          "anmerkung": "Aussage stand bis 2026-08-19 auf https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/, am 03.10.2026 nicht mehr (Volltext nach 'train'/'never'/'not' durchsucht, nur Fließtext zum Training von Kundenmodellen gefunden). Vertragliche Zusicherung ggf. im Trust Center/DPA, nicht öffentlich geprüft"
+          "wert": true,
+          "status": "belegt",
+          "quelle": "https://lyceum.technology/legal/terms",
+          "geprueft": "2026-10-04",
+          "anmerkung": "AGB Ziff. 5.2 wörtlich (Abruf 04.10.2026): for the specific 'Inference' product, any inputs and outputs are only processed to generate the respective result for the Customer and are not stored beyond what is technically necessary for this purpose, nor used for training, improvement or analysis of the Provider's or any third party's AI, LLM or other machine learning models — Training per Vertrag ausgeschlossen, kein Opt-out nötig. Für eingereichten Code gilt dasselbe (Ziff. 5.1). Die frühere Aussage im C5-Magazinartikel (bis 19.08.) steht dort weiter nicht mehr."
         },
         "zero_data_retention": {
-          "wert": null,
-          "status": "unbelegt",
-          "quelle": null,
-          "anmerkung": "Keine ZDR-Zusage für Prompts/Outputs auffindbar"
+          "wert": true,
+          "status": "belegt",
+          "quelle": "https://lyceum.technology/legal/terms",
+          "geprueft": "2026-10-04",
+          "anmerkung": "AGB Ziff. 5.2 (Abruf 04.10.2026): Inference-Inputs/-Outputs werden nicht gespeichert beyond what is technically necessary — gleiche Formel wie bei DeepL (Pro-AGB 3.1.2). Keine Frist, keine Aussage zu Logs/Metadaten; die Datenschutzerklärung regelt nur Website-/Kontodaten (Speicherung so lange wie nötig)."
         }
       },
       "zertifikate": [
@@ -1611,8 +1612,8 @@
       ],
       "geprueft": "2026-08-19",
       "url": "https://belegbar.eu/anbieter/lyceum/",
-      "beleg_quote_prozent": 31,
-      "zuletzt_geprueft": "2026-10-03",
+      "beleg_quote_prozent": 46,
+      "zuletzt_geprueft": "2026-10-04",
       "rechtsraum": {
         "land": "DE",
         "name": "Deutschland",
@@ -3621,6 +3622,32 @@
     }
   ],
   "aenderungen": [
+    {
+      "datum": "2026-10-04",
+      "anbieter": "lyceum",
+      "typ": "status",
+      "pfad": "vertrag.training_opt_out",
+      "feld": "Kein Training mit Kundendaten",
+      "alt": "unbelegt",
+      "neu": "belegt",
+      "quelle_alt": null,
+      "quelle_neu": "https://lyceum.technology/legal/terms",
+      "grund": "AGB Ziff. 5.2 wörtlich (Abruf 04.10.2026): for the specific 'Inference' product, any inputs and outputs are only processed to generate the respective result for the Customer and are not stored beyond what is technically necessary for this purpose, nor used for training, improvement or analysis of the Provider's or any third party's AI, LLM or other machine learning models — Training per Vertrag ausgeschlossen, kein Opt-out nötig. Für eingereichten Code gilt dasselbe (Ziff. 5.1). Die frühere Aussage im C5-Magazinartikel (bis 19.08.) steht dort weiter nicht mehr.",
+      "commit": null
+    },
+    {
+      "datum": "2026-10-04",
+      "anbieter": "lyceum",
+      "typ": "status",
+      "pfad": "vertrag.zero_data_retention",
+      "feld": "Zero Data Retention",
+      "alt": "unbelegt",
+      "neu": "belegt",
+      "quelle_alt": null,
+      "quelle_neu": "https://lyceum.technology/legal/terms",
+      "grund": "AGB Ziff. 5.2 (Abruf 04.10.2026): Inference-Inputs/-Outputs werden nicht gespeichert beyond what is technically necessary — gleiche Formel wie bei DeepL (Pro-AGB 3.1.2). Keine Frist, keine Aussage zu Logs/Metadaten; die Datenschutzerklärung regelt nur Website-/Kontodaten (Speicherung so lange wie nötig).",
+      "commit": null
+    },
     {
       "datum": "2026-10-04",
       "anbieter": "nebius",
