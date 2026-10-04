@@ -90,7 +90,7 @@
       "status": "belegt",
       "quelle": "https://docs.mistral.ai/admin/monitor-comply/zero-data-retention",
       "geprueft": "2026-10-03",
-      "anmerkung": "ZDR auf bezahlten Plänen, nur auf Antrag mit Begründung (Mistral prüft und kann ablehnen), nur für zustandslose API-Aufrufe (Chat, FIM, Embeddings, Moderation, Klassifikation, OCR, Audio), nicht für Labs-Modelle, Agents, Batch, Files, Vibe. Die früher belegte Standard-Retention von 30 Tagen nennt die neue Seite nicht mehr."
+      "anmerkung": "ZDR auf bezahlten Plänen, nur auf Antrag mit Begründung (Mistral prüft und kann ablehnen), nur für zustandslose API-Aufrufe (Chat, FIM, Embeddings, Moderation, Klassifikation, OCR, Audio), nicht für Labs-Modelle, Agents, Batch, Files, Vibe. Ohne ZDR laut Datenschutzerklärung (legal.mistral.ai/terms/privacy-policy, gültig ab 03.09.2026, geprüft 04.10.2026): Input und Output 30 Tage zur Missbrauchsüberwachung, technische Verbindungsdaten 1 Jahr."
     }
   },
   "zertifikate": [

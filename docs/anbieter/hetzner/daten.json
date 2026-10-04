@@ -39,16 +39,18 @@
       "anmerkung": "Öffentliche Subunternehmerliste; enthält auch Nicht-EU-Standorte (Finnland, USA, Singapur) für Colocation/Support."
     },
     "training_opt_out": {
-      "wert": null,
-      "status": "unbelegt",
-      "quelle": null,
-      "anmerkung": "Inference-Doku macht keine Angabe zu Training mit Prompts; Hetzner trainiert keine eigenen Modelle, eine explizite Zusicherung fehlt aber."
+      "wert": true,
+      "status": "belegt",
+      "quelle": "https://www.hetzner.com/de/rechtliches/datenschutz",
+      "geprueft": "2026-10-04",
+      "anmerkung": "Datenschutzerklärung Abschnitt 4.5.2 Inference: Prompts und Outputs werden 'auch nicht anderweitig zum Training oder zur Verbesserung der KI-Modelle verwendet' — standardmäßig ausgeschlossen. Die Inference-Doku selbst sagt dazu nichts."
     },
     "zero_data_retention": {
-      "wert": null,
-      "status": "unbelegt",
-      "quelle": null,
-      "anmerkung": "Keine Angabe zur Speicherung/Retention von Prompts in der Inference-Dokumentation."
+      "wert": true,
+      "status": "belegt",
+      "quelle": "https://www.hetzner.com/de/rechtliches/datenschutz",
+      "geprueft": "2026-10-04",
+      "anmerkung": "Datenschutzerklärung Abschnitt 4.5.2 Inference: 'Prompts und Outputs : Werden im Rahmen unserer Zero-Retention-Policy nicht gespeichert.' Logfiles (anonymisierte IP, Zeitpunkt, Metadaten, Einstellungen, ohne Inhalte) 6 Monate, Abrechnungsdaten 8 Jahre. Die Inference-Doku selbst sagt dazu nichts."
     }
   },
   "zertifikate": [
@@ -73,8 +75,8 @@
   ],
   "geprueft": "2026-08-19",
   "url": "https://belegbar.eu/anbieter/hetzner/",
-  "beleg_quote_prozent": 57,
-  "zuletzt_geprueft": "2026-10-03",
+  "beleg_quote_prozent": 86,
+  "zuletzt_geprueft": "2026-10-04",
   "rechtsraum": {
     "land": "DE",
     "name": "Deutschland",

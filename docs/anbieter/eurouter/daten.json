@@ -90,7 +90,7 @@
       "status": "belegt",
       "quelle": "https://eurouter.ai/dpa",
       "geprueft": "2026-10-03",
-      "anmerkung": "Zero-Retention als Standard für Request-/Response-Inhalte; nur Metadaten (Timestamps, Token-Counts) für Abrechnung"
+      "anmerkung": "Zero-Retention als Standard für Request-/Response-Inhalte; nur Metadaten (Timestamps, Token-Counts) für Abrechnung. Laut Datenschutzerklärung (eurouter.ai/privacy, geprüft 04.10.2026) API-Metadaten bis 12 Monate, Fehler- und Monitoringdaten bis 90 Tage, jeweils länger bei Sicherheits-, Abrechnungs- oder Rechtsgründen."
     }
   },
   "zertifikate": [

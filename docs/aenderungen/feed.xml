@@ -8,6 +8,20 @@
   <updated>2026-10-04T00:00:00Z</updated>
   <rights>CC BY 4.0</rights>
   <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-04-hetzner-vertrag.training-opt-out</id>
+    <title>Hetzner: Kein Training mit Kundendaten unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-04-hetzner-vertrag.training-opt-out"/>
+    <updated>2026-10-04T00:00:00Z</updated>
+    <content type="text">Datenschutzerklärung Abschnitt 4.5.2 Inference: Prompts und Outputs werden 'auch nicht anderweitig zum Training oder zur Verbesserung der KI-Modelle verwendet' — standardmäßig ausgeschlossen. Die Inference-Doku selbst sagt dazu nichts. · Neue Quelle: https://www.hetzner.com/de/rechtliches/datenschutz · Commit 11dba23: fix: Hetzner ZDR und Training belegt (Datenschutz 4.5.2), Log-Fristen bei Mistral/EUrouter</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-04-hetzner-vertrag.zero-data-retention</id>
+    <title>Hetzner: Zero Data Retention unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-04-hetzner-vertrag.zero-data-retention"/>
+    <updated>2026-10-04T00:00:00Z</updated>
+    <content type="text">Datenschutzerklärung Abschnitt 4.5.2 Inference: 'Prompts und Outputs : Werden im Rahmen unserer Zero-Retention-Policy nicht gespeichert.' Logfiles (anonymisierte IP, Zeitpunkt, Metadaten, Einstellungen, ohne Inhalte) 6 Monate, Abrechnungsdaten 8 Jahre. Die Inference-Doku selbst sagt dazu nichts. · Neue Quelle: https://www.hetzner.com/de/rechtliches/datenschutz · Commit 11dba23: fix: Hetzner ZDR und Training belegt (Datenschutz 4.5.2), Log-Fristen bei Mistral/EUrouter</content>
+  </entry>
+  <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-04-nebius-zertifikate-iso-iec-42001</id>
     <title>Nebius (Token Factory): Zertifikat ISO/IEC 42001 – → belegt</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-04-nebius-zertifikate-iso-iec-42001"/>
