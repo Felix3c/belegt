@@ -64,6 +64,10 @@
     {
       "datum": "2026-10-03",
       "ereignis": "Alle drei Quellen neu abgerufen (20:05 UTC), Inhalte per SHA-256 gesichert, alle Zitate wörtlich in den Rohkopien geprüft; die Leistungsbeschreibung ist weiter v1.23 vom 31.08.2026. Fall als Entwurf vorbereitet, noch nicht veröffentlicht, Anbieter noch nicht informiert."
+    },
+    {
+      "datum": "2026-10-04",
+      "ereignis": "Alle drei Quellen erneut abgerufen (15:51 UTC), byte-gleich zum Abruf vom 03.10.2026 (gleiche SHA-256). Anschreiben an den Anbieter als Entwurf vorbereitet, noch nicht gesendet."
     }
   ]
 }
