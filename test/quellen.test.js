@@ -134,8 +134,44 @@ test("bestaetigeVeraendert: transienter Fehler wird nachgeladen — ok beim zwei
   assert.deepEqual(n.verschwunden.map((e) => e.url), ["https://tot"]);
 });
 
-test("pruefe: DQS-Zertifikatsdatenbank (Cloudflare-Sperre) wird ohne Abruf übersprungen", async () => {
+/** Antwort-Attrappe für pruefe({ holen }): kein Netz im Test. */
+const antwort = (status, text, url) => async (u) => ({
+  status, url: url || u, headers: { get: () => "text/html" },
+  arrayBuffer: async () => Buffer.from(text), text: async () => text,
+});
+
+test("pruefe: gesperrte Quelle (DQS, Cloudflare 403) bleibt übersprungen statt fehler", async () => {
   const { pruefe } = require("../lib/quellen.js");
-  const e = await pruefe({ url: "https://www.dqsglobal.com/en/customer-database/aleph-alpha-gmbh" });
+  const e = await pruefe({ url: "https://www.dqsglobal.com/en/customer-database/aleph-alpha-gmbh" },
+    { mitHash: true, holen: antwort(403, "<title>Just a moment...</title>") });
   assert.equal(e.befund, "uebersprungen");
+  assert.match(e.hinweis, /403/);
+});
+
+test("pruefe: gesperrte Quelle, die doch liefert (DeepL Trust Center), wird normal gehasht", async () => {
+  const { pruefe } = require("../lib/quellen.js");
+  const e = await pruefe({ url: "https://trust.deepl.com/" },
+    { mitHash: true, holen: antwort(200, "<p>ISO 27001</p>", "https://deepl.safebase.us/") });
+  assert.equal(e.befund, "ok");
+  assert.equal(e.hash, hashInhalt("text/html", Buffer.from("<p>ISO 27001</p>")));
+});
+
+test("pruefe: Challenge-Seite mit Status 200 auf gesperrter Quelle zählt nicht als Inhalt", async () => {
+  const { pruefe } = require("../lib/quellen.js");
+  const e = await pruefe({ url: "https://trust.deepl.com/" },
+    { mitHash: true, holen: antwort(200, "<title>Just a moment...</title><div id=\"cf-chl-widget\"></div>") });
+  assert.equal(e.befund, "uebersprungen");
+});
+
+test("pruefe: Cloudflare-Hintergrundskript auf echter Seite ist keine Challenge (DeepL, 04.10.)", async () => {
+  const { pruefe } = require("../lib/quellen.js");
+  const html = "<title>DeepL Trust Center</title><p>ISO 27001</p><script>a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js'</script>";
+  const e = await pruefe({ url: "https://trust.deepl.com/" }, { mitHash: true, holen: antwort(200, html) });
+  assert.equal(e.befund, "ok");
+});
+
+test("pruefe: 403 auf einer normalen Quelle bleibt ein Fehler (Sperr-Nachsicht nur für BOT_SPERREN)", async () => {
+  const { pruefe } = require("../lib/quellen.js");
+  const e = await pruefe({ url: "https://example.org/x" }, { mitHash: true, holen: antwort(403, "nope") });
+  assert.equal(e.befund, "fehler");
 });
