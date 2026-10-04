@@ -631,7 +631,7 @@ ${eigeneFaelle.map((f) => `  <aside class="fall-hinweis fall-${esc(f.status)}"><
   });
 }
 
-function seiteVergleich(a, b) {
+function seiteVergleich(a, b, faelle) {
   const zeile = (label, fa, fb) => `<tr><th scope="row">${label}</th><td>${fa}</td><td>${fb}</td></tr>`;
   const feld = (p, k) => {
     const f = p.vertrag && p.vertrag[k];
@@ -643,11 +643,15 @@ function seiteVergleich(a, b) {
   };
   const zerts = (p) => zertifikateBelegt(p).map((z) => `<span class="zert">${esc(z)}</span>`).join(" ") || '<span class="leer">keine belegt</span>';
   const preis = (p) => P.preisKurz(p);
+  // Wie auf der Profilseite: ein Fall gehört neben die Angabe, die er betrifft — sonst liest
+  // „ZDR: ja, belegt“ sich wie unwidersprochen, obwohl ein bestätigter Fall dagegen steht.
+  const fallListe = (p) => (faelle || []).filter((f) => f.anbieter === p.id)
+    .map((f) => `<a href="../../faelle/${esc(f.slug)}/">Fall ${esc(f.id)}</a> ${fallStatusBadge(f.status)}`).join("<br>") || '<span class="leer">keine</span>';
 
   const inhalt = `
 <nav class="brotkrumen" aria-label="Pfad"><a href="../../">Anbieter</a> / <a href="../">Vergleiche</a> / ${esc(a.name)} vs. ${esc(b.name)}</nav>
 <h1>${esc(a.name)} vs. ${esc(b.name)}</h1>
-<p class="klein">Direkter Beleg-Vergleich, Stand ${datumDE(a.geprueft)} / ${datumDE(b.geprueft)}. Vollständige Nachweise in den Profilen: <a href="../../anbieter/${esc(a.id)}/">${esc(a.name)}</a> · <a href="../../anbieter/${esc(b.id)}/">${esc(b.name)}</a></p>
+<p class="klein">Direkter Beleg-Vergleich, vollständig geprüft ${datumDE(a.geprueft)} / ${datumDE(b.geprueft)}${juengstesDatum(a) !== a.geprueft || juengstesDatum(b) !== b.geprueft ? `, einzelne Angaben zuletzt nachgeprüft ${datumDE(juengstesDatum(a))} / ${datumDE(juengstesDatum(b))}` : ""}. Vollständige Nachweise in den Profilen: <a href="../../anbieter/${esc(a.id)}/">${esc(a.name)}</a> · <a href="../../anbieter/${esc(b.id)}/">${esc(b.name)}</a></p>
 <div class="tabelle-scroll"><table class="vergleich">
   <thead><tr><th></th><th>${esc(a.name)}</th><th>${esc(b.name)}</th></tr></thead>
   <tbody>
@@ -660,6 +664,7 @@ function seiteVergleich(a, b) {
     ${zeile("Kein Training mit Kundendaten", feld(a, "training_opt_out"), feld(b, "training_opt_out"))}
     ${zeile("Zero Data Retention", feld(a, "zero_data_retention"), feld(b, "zero_data_retention"))}
     ${zeile("Zertifikate (belegt)", zerts(a), zerts(b))}
+    ${zeile("Fälle", fallListe(a), fallListe(b))}
     ${zeile("Beleg-Quote", Math.round(belegQuote(a) * 100) + " %", Math.round(belegQuote(b) * 100) + " %")}
     ${zeile("Verified", a.verified && a.verified.datum ? `<span class="verified-mini">✓&nbsp;Verified ${datumDE(a.verified.datum)}</span>` : '<span class="leer">–</span>', b.verified && b.verified.datum ? `<span class="verified-mini">✓&nbsp;Verified ${datumDE(b.verified.datum)}</span>` : '<span class="leer">–</span>')}
   </tbody>
@@ -667,7 +672,7 @@ function seiteVergleich(a, b) {
 
   return layout({
     titel: `${a.name} vs. ${b.name}: DSGVO, Preise, Zertifikate | belegbar.eu`,
-    beschreibung: `${a.name} oder ${b.name}? Direkter Vergleich mit belegten Quellen: AVV, Hosting, Preise, Zertifikate, AI-Act-Nachweise.`,
+    beschreibung: `${a.name} oder ${b.name}? Direkter Vergleich mit belegten Quellen: AVV, Subprozessoren, Training, Zero Data Retention, Preise, Zertifikate, Fälle.`,
     inhalt, rel: "../../", pfad: `vergleich/${a.id}-vs-${b.id}/`,
     noindex: !VERGLEICH_INDEXIERT.has(`${a.id}-vs-${b.id}`),
     jsonld: brotkrumenLd([["", "Anbieter"], ["vergleich/", "Vergleiche"], [`vergleich/${a.id}-vs-${b.id}/`, `${a.name} vs. ${b.name}`]]),
@@ -1671,7 +1676,7 @@ function main() {
   for (let i = 0; i < providers.length; i++)
     for (let j = i + 1; j < providers.length; j++)
       if (providers[i].kategorie === providers[j].kategorie) paare.push([providers[i], providers[j]]);
-  paare.forEach(([a, b]) => schreibe(`vergleich/${a.id}-vs-${b.id}/index.html`, seiteVergleich(a, b)));
+  paare.forEach(([a, b]) => schreibe(`vergleich/${a.id}-vs-${b.id}/index.html`, seiteVergleich(a, b, faelle)));
   schreibe("vergleich/index.html", seiteVergleichIndex(paare));
 
   schreibe("ratgeber/index.html", seiteRatgeber(guides));
