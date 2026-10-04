@@ -57,30 +57,30 @@
     "avv": {
       "wert": "https://docs.nebius.com/legal/dpa",
       "status": "belegt",
-      "quelle": "https://docs.nebius.com/legal/",
-      "geprueft": "2026-10-03",
-      "anmerkung": "Standard-DPA im offiziellen Legal-Verzeichnis; Custom DPAs für Enterprise möglich"
+      "quelle": "https://docs.nebius.com/legal/dpa",
+      "geprueft": "2026-10-05",
+      "anmerkung": "Standard-DPA im offiziellen Legal-Verzeichnis, Fassung vom 15.09.2026; gilt ausdrücklich auch für die Token Factory (eigener Anhang 1B, eigene Subprozessoren-Liste) und ist Teil des Nebius Services Agreement, das seit 28.09.2026 die früheren Token-Factory-Nutzungsbedingungen ablöst (diese gelten nur noch für Kunden mit laufender Reserve). Bei Widersprüchen geht der DPA den übrigen Vertragsteilen vor, aber nur für die Verarbeitung personenbezogener Daten (Agreement Ziffer 20.12). Custom DPAs für Enterprise möglich. Archivkopie web.archive.org/web/20261004223442"
     },
     "subprozessoren": {
-      "wert": "https://docs.nebius.com/legal/sub-processors",
+      "wert": "https://docs.nebius.com/legal/sub-processors_tofa",
       "status": "belegt",
-      "quelle": "https://docs.nebius.com/legal/sub-processors",
-      "geprueft": "2026-10-03",
-      "anmerkung": "Liste vom 15.09.2026 ('AI Cloud sub-processors'; Token Factory hat eine eigene, separate Liste, nicht abgerufen). Weiterhin enthalten: Microsoft (Sentinel), Sentry, Hubspot, Slack, Nebius Inc. (US), UK, Israel, Serbien. Oracle/NetSuite ist nicht mehr gelistet; neu u.a. Atlassian Pty Ltd. (Jira, Australien), Nebius AI Spain, Nebius France SAS, CZ, GmbH, DC Oy"
+      "quelle": "https://docs.nebius.com/legal/sub-processors_tofa",
+      "geprueft": "2026-10-05",
+      "anmerkung": "Eigene Liste für die Token Factory, Fassung vom 23.09.2026 (bisher war hier die Liste für AI Cloud verlinkt). Infrastruktur für die Modellverarbeitung: Nebius B.V. (Frankreich, Island, Finnland, Vereinigtes Königreich), Nebius Inc. (USA), Nebius Israel Ltd. (Israel) und vier externe US-Firmen: RunPod Inc. (Verarbeitung in Island), BoostRun, LLC (USA), Shadeform, Inc. (USA), Axe Compute Inc. (Kanada). Welche davon eine Anfrage verarbeitet, hängt laut Liste von Modell, Endpunkt-Typ und Verarbeitungsort ab; bei öffentlichen Endpunkten ist der Ort nicht festgelegt, nur ein Dedicated Endpoint bindet die Region. Betrieb und Support: Nebius-Gesellschaften in den USA, Israel, Serbien, UK und der EU, dazu Microsoft (Sentinel), Sentry, Hubspot, Atlassian (Jira), Slack. Änderungen mit mindestens 15 Tagen Vorankündigung (DPA 4.3). Archivkopie web.archive.org/web/20261004223544"
     },
     "training_opt_out": {
       "wert": null,
-      "status": "unbelegt",
-      "quelle": null,
-      "geprueft": "2026-10-03",
-      "anmerkung": "Aussage stand bis 2026-08-19 auf https://nebius.com/services/token-factory ('requests and outputs are never stored or reused for training'), am 03.10.2026 nicht mehr — Seite enthält keine Aussage mehr zu Training/Retention auf Kundendaten (nur Post-Training-Produktwerbung)"
+      "status": "beansprucht",
+      "quelle": "https://docs.nebius.com/legal/token-factory",
+      "geprueft": "2026-10-05",
+      "anmerkung": "Widersprüchlich, auch innerhalb des Vertrags. Die Token Factory Supplemental Terms (Fassung 15.09.2026, Teil des Nebius Services Agreement), Ziffer 5.1 wörtlich: Nebius may access, use, host, cache, store, copy, modify, and otherwise process Input and Output to (a) provide, maintain, monitor, protect, and support the Services, Token Factory Service or (b) train smaller Models used for Speculative Decoding. Der DPA (Fassung 15.09.2026, Anhang 3) sagt zur selben Verarbeitung: inputs and outputs may be retained and used solely for the documented speculative-decoding purpose and not for model training or improvement. Der Legal Quick Guide der Token Factory (ausdrücklich nur Zusammenfassung, der Vertrag geht vor): Your content is not used to train any models in either mode. Ein Vertragsteil nennt es also Training kleiner Entwurfsmodelle, zwei Dokumente verneinen jedes Training; es geht nicht um Training der angebotenen Hauptmodelle. Abwählbar: laut Supplemental Terms Ziffer 5.4 kann der Kunde der Speicherung und der Nutzung für Speculative Decoding jederzeit widersprechen (Onboarding-Formular oder Support), laut Quick Guide per Schalter Zero Data Retention. Standard ist die Nutzung. Die Produktseite nebius.com/services/token-factory enthält seit spätestens 03.10.2026 keine Aussage mehr dazu (bis 19.08.2026: 'requests and outputs are never stored or reused for training'). Archivkopien web.archive.org/web/20261004223414 (Supplemental Terms), 20261004223442 (DPA), 20261004223610 (Quick Guide)"
     },
     "zero_data_retention": {
-      "wert": null,
-      "status": "unbelegt",
-      "quelle": null,
-      "geprueft": "2026-10-03",
-      "anmerkung": "Aussage stand bis 2026-08-19 auf https://nebius.com/services/token-factory ('Zero-retention mode'), am 03.10.2026 nicht mehr — weder 'Zero-retention mode' noch 'retention' kommt auf der Seite noch vor"
+      "wert": true,
+      "status": "belegt",
+      "quelle": "https://docs.nebius.com/legal/dpa",
+      "geprueft": "2026-10-05",
+      "anmerkung": "Nur als Schalter, nicht als Standard. DPA (Fassung 15.09.2026), Anhang 3 wörtlich: When Zero Data Retention is enabled, Nebius Token Factory does not retain supported chat-completion request and response content after each request is processed, as described in the Documentation. Unless Zero Data Retention is enabled, inputs and outputs may be retained and used solely for the documented speculative-decoding purpose and not for model training or improvement. Ohne den Schalter werden Ein- und Ausgaben also gespeichert, laut Legal Quick Guide in Finnland, unabhängig vom Ort der Verarbeitung; eine Frist nennt keines der Dokumente. Einschränkungen laut DPA: gilt für unterstützte Chat-Completion-Inhalte, auf Ebene der Organisation; request metadata and observability data are retained and are not covered by Zero Data Retention; Löschungen entfernen Daten aus dem aktiven Speicher, nicht einzeln aus Sicherungskopien. Einschalten laut Quick Guide im Kontoprofil, laut Supplemental Terms Ziffer 5.4 über das Onboarding-Formular oder den Support. Die Produktseite wirbt nicht mehr damit (bis 19.08.2026: 'Zero-retention mode'). Archivkopien web.archive.org/web/20261004223442 (DPA), 20261004223610 (Quick Guide), 20261004223414 (Supplemental Terms)"
     }
   },
   "zertifikate": [
@@ -150,13 +150,13 @@
       "pflicht": "GPAI Code of Practice unterzeichnet",
       "status": "unbelegt",
       "quelle": null,
-      "anmerkung": "Keine Unterzeichnung auffindbar; hostet Open-Source-Fremdmodelle. Trust Center nennt NIS 2 und DORA, aber keine AI-Act-Dokumentation"
+      "anmerkung": "Keine Unterzeichnung auffindbar; hostet Open-Source-Fremdmodelle. Trust Center nennt NIS 2 und DORA, aber keine AI-Act-Dokumentation. Die Token Factory Supplemental Terms (Fassung 15.09.2026, Abruf 05.10.2026) regeln den AI Act nur als Pflicht des Kunden: wer die API in ein eigenes Produkt einbaut, ist laut Ziffer 2.4 selbst „provider“ des KI-Systems; Ziffer 4 untersagt den Einsatz in Hochrisiko-KI-Systemen und für verbotene Praktiken. Eine eigene Einordnung von Nebius steht dort nicht"
     }
   ],
   "geprueft": "2026-08-19",
   "url": "https://belegbar.eu/anbieter/nebius/",
-  "beleg_quote_prozent": 73,
-  "zuletzt_geprueft": "2026-10-04",
+  "beleg_quote_prozent": 80,
+  "zuletzt_geprueft": "2026-10-05",
   "rechtsraum": {
     "land": "NL",
     "name": "Niederlande",
