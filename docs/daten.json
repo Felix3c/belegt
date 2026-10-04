@@ -1,6 +1,6 @@
 {
   "quelle": "https://belegbar.eu",
-  "stand": "2026-10-03",
+  "stand": "2026-10-04",
   "lizenz": "https://creativecommons.org/licenses/by/4.0/",
   "lizenzhinweis": "CC BY 4.0 — Nutzung frei mit Namensnennung 'belegbar.eu' und Prüfdatum; Statusstufe (belegt/beansprucht/unbelegt) gehört zur Information.",
   "statusstufen": {
@@ -1909,6 +1909,16 @@
           "normiert": [
             "iso-27018"
           ]
+        },
+        {
+          "typ": "ISO/IEC 42001",
+          "status": "belegt",
+          "quelle": "https://nebius.com/trust-center/iso-42001",
+          "geprueft": "2026-10-04",
+          "anmerkung": "KI-Managementsystem. Trust Center (04.10.2026): 'Nebius is certified for compliance with ISO/IEC 42001'. Zertifikat als PDF verlinkt: ISO/IEC 42001:2023 für Nebius B.V. (Schiphol, weiterer Standort Tel Aviv), Zert.-Nr. 1128184, gültig 26.08.2026 bis 26.08.2029, Zertifizierer SII-QCD (Standards Institution of Israel). Gültigkeit beim Zertifizierer nicht gegengeprüft.",
+          "normiert": [
+            "iso-42001"
+          ]
         }
       ],
       "ai_act": [
@@ -1921,8 +1931,8 @@
       ],
       "geprueft": "2026-08-19",
       "url": "https://belegbar.eu/anbieter/nebius/",
-      "beleg_quote_prozent": 71,
-      "zuletzt_geprueft": "2026-10-03",
+      "beleg_quote_prozent": 73,
+      "zuletzt_geprueft": "2026-10-04",
       "rechtsraum": {
         "land": "NL",
         "name": "Niederlande",
@@ -3606,6 +3616,19 @@
     }
   ],
   "aenderungen": [
+    {
+      "datum": "2026-10-04",
+      "anbieter": "nebius",
+      "typ": "status",
+      "pfad": "zertifikate[ISO/IEC 42001]",
+      "feld": "Zertifikat ISO/IEC 42001",
+      "alt": null,
+      "neu": "belegt",
+      "quelle_alt": null,
+      "quelle_neu": "https://nebius.com/trust-center/iso-42001",
+      "grund": "KI-Managementsystem. Trust Center (04.10.2026): 'Nebius is certified for compliance with ISO/IEC 42001'. Zertifikat als PDF verlinkt: ISO/IEC 42001:2023 für Nebius B.V. (Schiphol, weiterer Standort Tel Aviv), Zert.-Nr. 1128184, gültig 26.08.2026 bis 26.08.2029, Zertifizierer SII-QCD (Standards Institution of Israel). Gültigkeit beim Zertifizierer nicht gegengeprüft.",
+      "commit": null
+    },
     {
       "datum": "2026-10-03",
       "anbieter": "aleph-alpha",

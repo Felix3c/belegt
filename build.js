@@ -61,6 +61,7 @@ const ZERT_KANON = [
   ["ISO(/IEC)? *27018", "iso-27018", "ISO/IEC 27018"],
   ["ISO(/IEC)? *27701", "iso-27701", "ISO/IEC 27701"],
   ["ISO(/IEC)? *20000", "iso-20000", "ISO/IEC 20000-1"],
+  ["ISO(/IEC)? *42001", "iso-42001", "ISO/IEC 42001 (KI-Managementsystem)"],
   ["ISO *9001", "iso-9001", "ISO 9001"],
   ["ISO *14001", "iso-14001", "ISO 14001"],
   ["ISO *50001", "iso-50001", "ISO 50001"],

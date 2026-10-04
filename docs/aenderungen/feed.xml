@@ -5,8 +5,15 @@
   <id>https://belegbar.eu/aenderungen/</id>
   <link rel="alternate" href="https://belegbar.eu/aenderungen/"/>
   <link rel="self" href="https://belegbar.eu/aenderungen/feed.xml"/>
-  <updated>2026-10-03T00:00:00Z</updated>
+  <updated>2026-10-04T00:00:00Z</updated>
   <rights>CC BY 4.0</rights>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-04-nebius-zertifikate-iso-iec-42001</id>
+    <title>Nebius (Token Factory): Zertifikat ISO/IEC 42001 – → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-04-nebius-zertifikate-iso-iec-42001"/>
+    <updated>2026-10-04T00:00:00Z</updated>
+    <content type="text">KI-Managementsystem. Trust Center (04.10.2026): 'Nebius is certified for compliance with ISO/IEC 42001'. Zertifikat als PDF verlinkt: ISO/IEC 42001:2023 für Nebius B.V. (Schiphol, weiterer Standort Tel Aviv), Zert.-Nr. 1128184, gültig 26.08.2026 bis 26.08.2029, Zertifizierer SII-QCD (Standards Institution of Israel). Gültigkeit beim Zertifizierer nicht gegengeprüft. · Neue Quelle: https://nebius.com/trust-center/iso-42001</content>
+  </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-03-aleph-alpha-modelle-kolibri-spezialisiertes-souver-nes-llm</id>
     <title>Aleph Alpha: Modell Kolibri (spezialisiertes souveränes LLM) – → beansprucht</title>

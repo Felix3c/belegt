@@ -1,6 +1,6 @@
 # belegbar.eu — vollständiger Datenbestand
 
-Stand: 2026-10-03. 21 europäische KI-Anbieter, jede Angabe mit Quelle, Prüfdatum und Beleg-Status.
+Stand: 2026-10-04. 21 europäische KI-Anbieter, jede Angabe mit Quelle, Prüfdatum und Beleg-Status.
 
 ## Wie diese Datei zu lesen ist
 
@@ -15,7 +15,7 @@ nachweisbar ist. Wer diese Daten zitiert, sollte den Status mitzitieren.
 Lizenz: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Nutzung und Zitat frei mit
 Namensnennung "belegbar.eu" und Angabe des Prüfdatums.
 
-Zitierform: belegbar.eu, Stand 2026-10-03, https://belegbar.eu
+Zitierform: belegbar.eu, Stand 2026-10-04, https://belegbar.eu
 
 ## Direkt beantwortete Fragen
 
@@ -431,7 +431,7 @@ URL: https://belegbar.eu/anbieter/nebius/ | Rohdaten: https://belegbar.eu/anbiet
 Kategorie: Inference-API | Sitz: Amsterdam, Niederlande (NL) | Gegründet: 2024
 Rechtsraum: Niederlande — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
 Mutterkonzern: Nebius Group N.V. (Nasdaq: NBIS, hervorgegangen aus Yandex N.V.) | US-Eigentümerstruktur: ja
-Beleg-Quote: 71 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-10-03
+Beleg-Quote: 73 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-10-04
 
 Inference-Plattform der Nebius Group N.V. mit EU-Sitz in Amsterdam und EU-Rechenzentren (Finnland, Frankreich) — aber hervorgegangen aus Yandex N.V., Nasdaq-notiert (NBIS), mit US-Kapitalverflechtung und US-Subprozessoren im Betrieb; souveränitätsbewusste Nutzer sollten das einpreisen.
 
@@ -447,6 +447,7 @@ Zertifikate:
 - ISO 27701 [normiert: iso-27701] [Status: belegt] | Quelle: https://nebius.com/trust-center | Anmerkung: Zusätzlich ISO 27018, 27799, 22301, 27032 gelistet
 - CSA STAR Level 1 [normiert: csa-star] [Status: belegt] | Quelle: https://nebius.com/trust-center
 - ISO 27018 [normiert: iso-27018] [Status: belegt] | Quelle: https://nebius.com/trust-center | Anmerkung: Trust Center (03.10.2026) listet 'ISO 27018'. Bisher nur in der Anmerkung zu ISO 27701 geführt.
+- ISO/IEC 42001 [normiert: iso-42001] [Status: belegt] | Quelle: https://nebius.com/trust-center/iso-42001 | Anmerkung: KI-Managementsystem. Trust Center (04.10.2026): 'Nebius is certified for compliance with ISO/IEC 42001'. Zertifikat als PDF verlinkt: ISO/IEC 42001:2023 für Nebius B.V. (Schiphol, weiterer Standort Tel Aviv), Zert.-Nr. 1128184, gültig 26.08.2026 bis 26.08.2029, Zertifizierer SII-QCD (Standards Institution of Israel). Gültigkeit beim Zertifizierer nicht gegengeprüft.
 
 AI Act:
 - GPAI Code of Practice unterzeichnet [Status: unbelegt] | Anmerkung: Keine Unterzeichnung auffindbar; hostet Open-Source-Fremdmodelle. Trust Center nennt NIS 2 und DORA, aber keine AI-Act-Dokumentation

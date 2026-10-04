@@ -21,7 +21,8 @@
     { "typ": "SOC 2 Type II", "status": "belegt", "quelle": "https://nebius.com/trust-center", "geprueft": "2026-10-03", "anmerkung": "Inkl. HIPAA-Mapping; zudem SOC 3" },
     { "typ": "ISO 27701", "status": "belegt", "quelle": "https://nebius.com/trust-center", "geprueft": "2026-10-03", "anmerkung": "Zusätzlich ISO 27018, 27799, 22301, 27032 gelistet" },
     { "typ": "CSA STAR Level 1", "status": "belegt", "quelle": "https://nebius.com/trust-center", "geprueft": "2026-10-03", "anmerkung": "" },
-    { "typ": "ISO 27018", "status": "belegt", "quelle": "https://nebius.com/trust-center", "geprueft": "2026-10-03", "anmerkung": "Trust Center (03.10.2026) listet 'ISO 27018'. Bisher nur in der Anmerkung zu ISO 27701 geführt." }
+    { "typ": "ISO 27018", "status": "belegt", "quelle": "https://nebius.com/trust-center", "geprueft": "2026-10-03", "anmerkung": "Trust Center (03.10.2026) listet 'ISO 27018'. Bisher nur in der Anmerkung zu ISO 27701 geführt." },
+    { "typ": "ISO/IEC 42001", "status": "belegt", "quelle": "https://nebius.com/trust-center/iso-42001", "geprueft": "2026-10-04", "anmerkung": "KI-Managementsystem. Trust Center (04.10.2026): 'Nebius is certified for compliance with ISO/IEC 42001'. Zertifikat als PDF verlinkt: ISO/IEC 42001:2023 für Nebius B.V. (Schiphol, weiterer Standort Tel Aviv), Zert.-Nr. 1128184, gültig 26.08.2026 bis 26.08.2029, Zertifizierer SII-QCD (Standards Institution of Israel). Gültigkeit beim Zertifizierer nicht gegengeprüft." }
   ],
   "ai_act": [
     { "pflicht": "GPAI Code of Practice unterzeichnet", "status": "unbelegt", "quelle": null, "anmerkung": "Keine Unterzeichnung auffindbar; hostet Open-Source-Fremdmodelle. Trust Center nennt NIS 2 und DORA, aber keine AI-Act-Dokumentation" }
