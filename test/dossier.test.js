@@ -60,3 +60,27 @@ test("schreibeDossier erzeugt die Datei aus einem Datenverzeichnis, ohne dieses 
   assert.match(md, /keine Bewertung, keine Empfehlung und keine Rechtsberatung/);
   assert.deepEqual(fs.readdirSync(dataDir).sort(), vorher);
 });
+
+test("Prüfdatum je Zeile ist das des Feldes, nicht das der Erstprüfung; Kopf nennt die jüngste Nachprüfung", () => {
+  const p = profil();
+  p.vertrag.avv.geprueft = "2026-10-03";
+  const z = baueZeilen(p);
+  assert.equal(z.find((e) => e.pfad === "vertrag.avv").pruefdatum, "2026-10-03");
+  assert.equal(z.find((e) => e.pfad === "vertrag.zero_data_retention").pruefdatum, "2026-08-20");
+  const md = rendere(p, z, [], { datum: "2026-10-04" });
+  assert.ok(md.includes("| AVV / Auftragsverarbeitungsvertrag | https://x.example/avv.pdf | https://x.example/avv.pdf | 2026-10-03 |"));
+  assert.ok(md.includes("**Datenstand des Profils:** 2026-08-20 (letzte Prüfung aller Quellen), einzelne Angaben zuletzt nachgeprüft 2026-10-03"));
+  const ohne = rendere(profil(), baueZeilen(profil()), [], { datum: "2026-10-04" });
+  assert.ok(!ohne.includes("einzelne Angaben"));
+});
+
+test("Ein Fall steht in der Zeile der Angabe, die er betrifft; SHA-256 aus dem Fall nennt sein Abrufdatum", () => {
+  const faelle = [{ id: "2026-009", anbieter: "x", feld: "vertrag.zero_data_retention", status: "bestaetigt", slug: "x-zdr", eroeffnet: "2026-09-01", antwort_frist: "2026-09-15",
+    beleg: [{ quelle: "https://x.example/privacy/", abgerufen: "2026-09-06T13:48:52Z", sha256: "deadbeef", archiv: "https://web.archive.org/web/2026/https://x.example/privacy/" }] }];
+  const z = baueZeilen(profil(), { faelle });
+  const zdr = z.find((e) => e.pfad === "vertrag.zero_data_retention");
+  assert.equal(zdr.hashArt, "SHA-256 (Fall 2026-009, abgerufen 2026-09-06)");
+  const md = rendere(profil(), z, faelle, { datum: "2026-10-04" });
+  assert.ok(md.includes("| Zero Data Retention | ja; dazu Fall 2026-009 (bestaetigt), siehe Abschnitt 3 |"));
+  assert.ok(md.includes("| AVV / Auftragsverarbeitungsvertrag | https://x.example/avv.pdf |"));
+});
