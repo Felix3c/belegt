@@ -1,6 +1,6 @@
 {
   "": {
-    "hash": "83b7c6aaab84428f",
+    "hash": "d86b6f4ddf0bc099",
     "datum": "2026-10-04"
   },
   "404.html": {
@@ -8,7 +8,7 @@
     "datum": "2026-09-16"
   },
   "aenderungen/": {
-    "hash": "c1aa709ab672fdba",
+    "hash": "44a0ff8a4cc536df",
     "datum": "2026-10-04"
   },
   "anbieter/aleph-alpha/": {
@@ -44,8 +44,8 @@
     "datum": "2026-10-04"
   },
   "anbieter/infomaniak/": {
-    "hash": "41c22796faebb6bb",
-    "datum": "2026-10-03"
+    "hash": "8907e58f3ac77a16",
+    "datum": "2026-10-04"
   },
   "anbieter/ionos/": {
     "hash": "bc2aa77ebb8e3083",
@@ -136,11 +136,11 @@
     "datum": "2026-10-04"
   },
   "fragen/souveraene-ki-kommunen-anbieter/": {
-    "hash": "d246cb23fd1d55f6",
+    "hash": "cb2818ab6fa59f37",
     "datum": "2026-10-04"
   },
   "fragen/uebersicht-eu-ki-anbieter-zertifikate-nachweis/": {
-    "hash": "361cfa2b6bffc446",
+    "hash": "15e253bdc03d0d23",
     "datum": "2026-10-04"
   },
   "fuer-anbieter/": {
@@ -228,7 +228,7 @@
     "datum": "2026-10-04"
   },
   "vergleich/gcore-vs-infomaniak/": {
-    "hash": "d12ce42f0a804029",
+    "hash": "abc0b8b5ebb17510",
     "datum": "2026-10-04"
   },
   "vergleich/gcore-vs-ionos/": {
@@ -268,7 +268,7 @@
     "datum": "2026-10-04"
   },
   "vergleich/greenpt-vs-infomaniak/": {
-    "hash": "cd73d2fb302d256d",
+    "hash": "0c995302a724c083",
     "datum": "2026-10-04"
   },
   "vergleich/greenpt-vs-ionos/": {
@@ -308,39 +308,39 @@
     "datum": "2026-10-04"
   },
   "vergleich/infomaniak-vs-ionos/": {
-    "hash": "5ed8ab1c93b08e79",
+    "hash": "613d3fcad545ef78",
     "datum": "2026-10-04"
   },
   "vergleich/infomaniak-vs-lyceum/": {
-    "hash": "5816e4f3b09c9724",
+    "hash": "e1b84afca9424af8",
     "datum": "2026-10-04"
   },
   "vergleich/infomaniak-vs-nebius/": {
-    "hash": "4c52c9a88fb8ed36",
+    "hash": "295bf109494d0474",
     "datum": "2026-10-04"
   },
   "vergleich/infomaniak-vs-nordference/": {
-    "hash": "66dc26c6a37e7908",
+    "hash": "873290d1cc5612ac",
     "datum": "2026-10-04"
   },
   "vergleich/infomaniak-vs-ovhcloud/": {
-    "hash": "7c98252f9411431f",
+    "hash": "e3cf72a536d4c7c3",
     "datum": "2026-10-04"
   },
   "vergleich/infomaniak-vs-regolo/": {
-    "hash": "118107fdccb2c5ab",
+    "hash": "f892d6e4725219e8",
     "datum": "2026-10-04"
   },
   "vergleich/infomaniak-vs-scaleway/": {
-    "hash": "7357fe63ecfb33a3",
+    "hash": "06269ed21655d584",
     "datum": "2026-10-04"
   },
   "vergleich/infomaniak-vs-stackit/": {
-    "hash": "d512331b9cf7173b",
+    "hash": "48c917dee30d973b",
     "datum": "2026-10-04"
   },
   "vergleich/infomaniak-vs-t-systems/": {
-    "hash": "ff461d4f8c23839d",
+    "hash": "6abccc4bb5589bba",
     "datum": "2026-10-04"
   },
   "vergleich/ionos-vs-lyceum/": {
@@ -520,7 +520,7 @@
     "datum": "2026-10-04"
   },
   "zertifikate/soc-2/": {
-    "hash": "f6c8505d7a89724e",
+    "hash": "1c1f9941690a057e",
     "datum": "2026-10-04"
   },
   "zertifikate/tisax/": {

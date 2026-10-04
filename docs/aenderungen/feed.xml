@@ -54,14 +54,42 @@
     <title>Hetzner: Kein Training mit Kundendaten unbelegt → belegt</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-04-hetzner-vertrag.training-opt-out"/>
     <updated>2026-10-04T00:00:00Z</updated>
-    <content type="text">Datenschutzerklärung Abschnitt 4.5.2 Inference: Prompts und Outputs werden 'auch nicht anderweitig zum Training oder zur Verbesserung der KI-Modelle verwendet' — standardmäßig ausgeschlossen. Die Inference-Doku selbst sagt dazu nichts. · Neue Quelle: https://www.hetzner.com/de/legal/privacy-policy/</content>
+    <content type="text">Datenschutzerklärung Abschnitt 4.5.2 Inference: Prompts und Outputs werden 'auch nicht anderweitig zum Training oder zur Verbesserung der KI-Modelle verwendet' — standardmäßig ausgeschlossen. Die Inference-Doku selbst sagt dazu nichts. · Neue Quelle: https://www.hetzner.com/de/rechtliches/datenschutz · Commit 11dba23: fix: Hetzner ZDR und Training belegt (Datenschutz 4.5.2), Log-Fristen bei Mistral/EUrouter</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-04-hetzner-vertrag.training-opt-out-2</id>
+    <title>Hetzner: Kein Training mit Kundendaten — Quelle geändert</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-04-hetzner-vertrag.training-opt-out-2"/>
+    <updated>2026-10-04T00:00:00Z</updated>
+    <content type="text">Betroffene Felder: Kein Training mit Kundendaten, Zero Data Retention · Alte Quelle: https://www.hetzner.com/de/rechtliches/datenschutz · Neue Quelle: https://www.hetzner.com/de/legal/privacy-policy/ · Commit 33b30a6: fix: Hetzner-Quelle auf Ziel-URL nach 301 (Archivkopie 20261004035559)</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-04-hetzner-vertrag.zero-data-retention</id>
     <title>Hetzner: Zero Data Retention unbelegt → belegt</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-04-hetzner-vertrag.zero-data-retention"/>
     <updated>2026-10-04T00:00:00Z</updated>
-    <content type="text">Datenschutzerklärung Abschnitt 4.5.2 Inference: 'Prompts und Outputs : Werden im Rahmen unserer Zero-Retention-Policy nicht gespeichert.' Logfiles (anonymisierte IP, Zeitpunkt, Metadaten, Einstellungen, ohne Inhalte) 6 Monate, Abrechnungsdaten 8 Jahre. Die Inference-Doku selbst sagt dazu nichts. · Neue Quelle: https://www.hetzner.com/de/legal/privacy-policy/</content>
+    <content type="text">Datenschutzerklärung Abschnitt 4.5.2 Inference: 'Prompts und Outputs : Werden im Rahmen unserer Zero-Retention-Policy nicht gespeichert.' Logfiles (anonymisierte IP, Zeitpunkt, Metadaten, Einstellungen, ohne Inhalte) 6 Monate, Abrechnungsdaten 8 Jahre. Die Inference-Doku selbst sagt dazu nichts. · Neue Quelle: https://www.hetzner.com/de/rechtliches/datenschutz · Commit 11dba23: fix: Hetzner ZDR und Training belegt (Datenschutz 4.5.2), Log-Fristen bei Mistral/EUrouter</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-04-infomaniak-vertrag.training-opt-out</id>
+    <title>Infomaniak: Kein Training mit Kundendaten beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-04-infomaniak-vertrag.training-opt-out"/>
+    <updated>2026-10-04T00:00:00Z</updated>
+    <content type="text">Besondere Bedingungen „LLM API - Terms and Conditions of Use“ (Fassung „Review of 07/10/2025“, Abruf 04.10.2026), Art. 6 wörtlich: Infomaniak explicitly states it does not use transmitted data (prompts, response content) to train its own AIs or to exploit the data in any other way — Training per Vertrag ausgeschlossen, kein Opt-out nötig. Die Bedingungen gehen den allgemeinen Nutzungsbedingungen vor (Art. 1). Produktseite gleichlautend: 'Your queries are neither recorded nor used to train models or improve our services'. Das PDF wird bei jedem Abruf neu erzeugt (Datei-Hash wechselt, Text gleich) · Alte Quelle: https://www.infomaniak.com/en/hosting/ai-services · Neue Quelle: https://welcome.infomaniak.com/api/web-components/1/cgu/latest?id=87&amp;locale=en_GB · Commit a87c7bc: fix: Infomaniak nachgeprüft — Training und ZDR per Vertrag belegt (LLM-API-Bedingungen Art. 6), Subprozessoren-Anhang genannt, aber nicht öffentlich</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-04-infomaniak-vertrag.zero-data-retention</id>
+    <title>Infomaniak: Zero Data Retention beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-04-infomaniak-vertrag.zero-data-retention"/>
+    <updated>2026-10-04T00:00:00Z</updated>
+    <content type="text">Besondere Bedingungen „LLM API - Terms and Conditions of Use“ (Fassung „Review of 07/10/2025“, Abruf 04.10.2026), Art. 6 wörtlich: Infomaniak does not permanently collect any information transmitted by the Client during API usage, except for data necessary for billing and the proper functioning of the service. Some data is stored temporarily for the duration necessary to process the Client's request. — gleiche Formel wie bei Lyceum und DeepL (Speicherung nur für die Bearbeitung). Der Vertrag ist enger als die Produktseite ('No queries are stored'): Ausnahme für Abrechnung und Betrieb ohne Frist; dauerhaft erfasst werden laut Art. 6 Kunden-ID, Anzahl und Bearbeitungszeit der Anfragen, Zeitstempel und Metadaten (Größe, Format, Dauer, Seitenzahl) · Alte Quelle: https://www.infomaniak.com/en/hosting/ai-services · Neue Quelle: https://welcome.infomaniak.com/api/web-components/1/cgu/latest?id=87&amp;locale=en_GB · Commit a87c7bc: fix: Infomaniak nachgeprüft — Training und ZDR per Vertrag belegt (LLM-API-Bedingungen Art. 6), Subprozessoren-Anhang genannt, aber nicht öffentlich</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-04-infomaniak-zertifikate-soc-2</id>
+    <title>Infomaniak: Zertifikat SOC 2 — Quelle geändert</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-04-infomaniak-zertifikate-soc-2"/>
+    <updated>2026-10-04T00:00:00Z</updated>
+    <content type="text">Kein SOC-2-Bericht: die Zertifikatsseite nennt am 04.10.2026 ISO 27001, 9001, 14001, 50001, die Swiss-Labels und B Corp, SOC 2 nicht · Neue Quelle: https://www.infomaniak.com/en/certifications · Commit a87c7bc: fix: Infomaniak nachgeprüft — Training und ZDR per Vertrag belegt (LLM-API-Bedingungen Art. 6), Subprozessoren-Anhang genannt, aber nicht öffentlich</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-04-lyceum-vertrag.training-opt-out</id>
