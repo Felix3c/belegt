@@ -11,6 +11,7 @@ const path = require("path");
 const A = require("./lib/aenderungen.js");
 const P = require("./lib/preise.js");
 const Z = require("./lib/zitat.js");
+const E = require("./lib/eintritt.js");
 const eur = P.eur;
 
 const ROOT = __dirname;
@@ -549,6 +550,9 @@ function seiteAnbieter(p, alleProvider, facetten, faelle) {
     : '<p class="leer">Noch keine AI-Act-Nachweise erfasst.</p>';
 
   const quote = Math.round(belegQuote(p) * 100);
+  // Bezahlte Leistungen (Regel 16.09.2026): nur wenn es welche gibt, sonst bleibt das Profil byte-gleich.
+  const eintrittHtml = E.eintrittHtml(p, { esc, datumDE });
+  const eintrittAbschnitt = eintrittHtml ? "\n\n  " + eintrittHtml : "";
 
   const inhalt = `
 <nav class="brotkrumen" aria-label="Pfad"><a href="../../">Anbieter</a> / ${esc(p.name)}</nav>
@@ -589,7 +593,7 @@ ${eigeneFaelle.map((f) => `  <aside class="fall-hinweis fall-${esc(f.status)}"><
   ${zertHtml}
 
   <h2>AI Act</h2>
-  ${aiActHtml}
+  ${aiActHtml}${eintrittAbschnitt}
 
   ${partner.length ? `<h2>Direktvergleiche</h2>
   <p class="klein">${esc(p.name)} Feld für Feld gegen andere Anbieter derselben Kategorie:</p>
@@ -1530,6 +1534,8 @@ function leseAnbieter() {
     .map((f) => {
       const p = JSON.parse(fs.readFileSync(path.join(DATA_DIR, f), "utf8"));
       if (!p.id || !p.name || !p.stammdaten) throw new Error(`Ungültige Anbieterdatei: ${f}`);
+      const fehler = E.pruefeEintritt(p);
+      if (fehler.length) throw new Error(`Anbieterdatei ${f}: ${fehler.join("; ")}`);
       return p;
     })
     .sort((a, b) => a.name.localeCompare(b.name, "de"));
