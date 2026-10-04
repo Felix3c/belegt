@@ -1,6 +1,6 @@
 {
   "": {
-    "hash": "b57983750a025ae3",
+    "hash": "83b7c6aaab84428f",
     "datum": "2026-10-04"
   },
   "404.html": {
@@ -8,7 +8,7 @@
     "datum": "2026-09-16"
   },
   "aenderungen/": {
-    "hash": "4e456480c6ff1199",
+    "hash": "c1aa709ab672fdba",
     "datum": "2026-10-04"
   },
   "anbieter/aleph-alpha/": {
@@ -24,8 +24,8 @@
     "datum": "2026-10-04"
   },
   "anbieter/eurouter/": {
-    "hash": "d89288a88eda3e0a",
-    "datum": "2026-10-03"
+    "hash": "7254fbe1b9aaa090",
+    "datum": "2026-10-04"
   },
   "anbieter/exoscale/": {
     "hash": "f2953c479aee4bad",
@@ -40,8 +40,8 @@
     "datum": "2026-10-03"
   },
   "anbieter/hetzner/": {
-    "hash": "856c717b6ad44da3",
-    "datum": "2026-10-03"
+    "hash": "9179410c2c4d6d1f",
+    "datum": "2026-10-04"
   },
   "anbieter/infomaniak/": {
     "hash": "41c22796faebb6bb",
@@ -56,8 +56,8 @@
     "datum": "2026-10-04"
   },
   "anbieter/mistral/": {
-    "hash": "2b6eeb1c2a538b2a",
-    "datum": "2026-10-03"
+    "hash": "0bd8d7e6f8e7e924",
+    "datum": "2026-10-04"
   },
   "anbieter/nebius/": {
     "hash": "279b063f14b1f877",
@@ -120,7 +120,7 @@
     "datum": "2026-10-04"
   },
   "fragen/": {
-    "hash": "3f3235b0518c195b",
+    "hash": "44e8784b1a022325",
     "datum": "2026-10-04"
   },
   "fragen/ai-act-pflichten-nachweis-ki-anbieter/": {
@@ -136,11 +136,11 @@
     "datum": "2026-10-04"
   },
   "fragen/souveraene-ki-kommunen-anbieter/": {
-    "hash": "90b3f8c3fa2dff11",
+    "hash": "d246cb23fd1d55f6",
     "datum": "2026-10-04"
   },
   "fragen/uebersicht-eu-ki-anbieter-zertifikate-nachweis/": {
-    "hash": "58f91e9da4f4d7c5",
+    "hash": "361cfa2b6bffc446",
     "datum": "2026-10-04"
   },
   "fuer-anbieter/": {
@@ -220,7 +220,7 @@
     "datum": "2026-10-04"
   },
   "vergleich/exoscale-vs-hetzner/": {
-    "hash": "0d1fcc103a7289be",
+    "hash": "c5766cb72782e61a",
     "datum": "2026-10-04"
   },
   "vergleich/gcore-vs-greenpt/": {

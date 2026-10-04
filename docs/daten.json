@@ -542,7 +542,7 @@
           "status": "belegt",
           "quelle": "https://eurouter.ai/dpa",
           "geprueft": "2026-10-03",
-          "anmerkung": "Zero-Retention als Standard für Request-/Response-Inhalte; nur Metadaten (Timestamps, Token-Counts) für Abrechnung"
+          "anmerkung": "Zero-Retention als Standard für Request-/Response-Inhalte; nur Metadaten (Timestamps, Token-Counts) für Abrechnung. Laut Datenschutzerklärung (eurouter.ai/privacy, geprüft 04.10.2026) API-Metadaten bis 12 Monate, Fehler- und Monitoringdaten bis 90 Tage, jeweils länger bei Sicherheits-, Abrechnungs- oder Rechtsgründen."
         }
       },
       "zertifikate": [
@@ -1080,16 +1080,18 @@
           "anmerkung": "Öffentliche Subunternehmerliste; enthält auch Nicht-EU-Standorte (Finnland, USA, Singapur) für Colocation/Support."
         },
         "training_opt_out": {
-          "wert": null,
-          "status": "unbelegt",
-          "quelle": null,
-          "anmerkung": "Inference-Doku macht keine Angabe zu Training mit Prompts; Hetzner trainiert keine eigenen Modelle, eine explizite Zusicherung fehlt aber."
+          "wert": true,
+          "status": "belegt",
+          "quelle": "https://www.hetzner.com/de/legal/privacy-policy/",
+          "geprueft": "2026-10-04",
+          "anmerkung": "Datenschutzerklärung Abschnitt 4.5.2 Inference: Prompts und Outputs werden 'auch nicht anderweitig zum Training oder zur Verbesserung der KI-Modelle verwendet' — standardmäßig ausgeschlossen. Die Inference-Doku selbst sagt dazu nichts."
         },
         "zero_data_retention": {
-          "wert": null,
-          "status": "unbelegt",
-          "quelle": null,
-          "anmerkung": "Keine Angabe zur Speicherung/Retention von Prompts in der Inference-Dokumentation."
+          "wert": true,
+          "status": "belegt",
+          "quelle": "https://www.hetzner.com/de/legal/privacy-policy/",
+          "geprueft": "2026-10-04",
+          "anmerkung": "Datenschutzerklärung Abschnitt 4.5.2 Inference: 'Prompts und Outputs : Werden im Rahmen unserer Zero-Retention-Policy nicht gespeichert.' Logfiles (anonymisierte IP, Zeitpunkt, Metadaten, Einstellungen, ohne Inhalte) 6 Monate, Abrechnungsdaten 8 Jahre. Die Inference-Doku selbst sagt dazu nichts."
         }
       },
       "zertifikate": [
@@ -1114,8 +1116,8 @@
       ],
       "geprueft": "2026-08-19",
       "url": "https://belegbar.eu/anbieter/hetzner/",
-      "beleg_quote_prozent": 57,
-      "zuletzt_geprueft": "2026-10-03",
+      "beleg_quote_prozent": 86,
+      "zuletzt_geprueft": "2026-10-04",
       "rechtsraum": {
         "land": "DE",
         "name": "Deutschland",
@@ -1722,7 +1724,7 @@
           "status": "belegt",
           "quelle": "https://docs.mistral.ai/admin/monitor-comply/zero-data-retention",
           "geprueft": "2026-10-03",
-          "anmerkung": "ZDR auf bezahlten Plänen, nur auf Antrag mit Begründung (Mistral prüft und kann ablehnen), nur für zustandslose API-Aufrufe (Chat, FIM, Embeddings, Moderation, Klassifikation, OCR, Audio), nicht für Labs-Modelle, Agents, Batch, Files, Vibe. Die früher belegte Standard-Retention von 30 Tagen nennt die neue Seite nicht mehr."
+          "anmerkung": "ZDR auf bezahlten Plänen, nur auf Antrag mit Begründung (Mistral prüft und kann ablehnen), nur für zustandslose API-Aufrufe (Chat, FIM, Embeddings, Moderation, Klassifikation, OCR, Audio), nicht für Labs-Modelle, Agents, Batch, Files, Vibe. Ohne ZDR laut Datenschutzerklärung (legal.mistral.ai/terms/privacy-policy, gültig ab 03.09.2026, geprüft 04.10.2026): Input und Output 30 Tage zur Missbrauchsüberwachung, technische Verbindungsdaten 1 Jahr."
         }
       },
       "zertifikate": [
@@ -3639,7 +3641,10 @@
       "quelle_alt": "https://aleph-alpha.com/",
       "quelle_neu": null,
       "grund": null,
-      "commit": null
+      "commit": {
+        "sha": "4312aa9",
+        "betreff": "fix: Aleph Alpha nachgeprüft — Kolibri-1 offene Gewichte belegt, Training/ZDR beansprucht (Pharia-Doku), Fusion Cohere unterzeichnet"
+      }
     },
     {
       "datum": "2026-10-04",
@@ -3652,7 +3657,10 @@
       "quelle_alt": null,
       "quelle_neu": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
       "grund": "Seit 03.10.2026 offene Gewichte unter Apache 2.0 (Modellkarte auf Hugging Face, nicht zugangsbeschränkt; Blog 'Kolibri Has Landed: A Sovereign Open-Weight Model'): Mixture-of-Experts, 78 Mrd. Parameter, davon 3 Mrd. aktiv, Deutsch/Englisch, Kontext bis 1 Mio. Token. Selbst betreiben (Mindestanforderung laut aleph-alpha.com/kolibri: 2× A100 80 GB oder 1× H200); einen öffentlichen API-Tokenpreis gibt es nicht. Archivkopie: web.archive.org/web/20261004091314/https://huggingface.co/Aleph-Alpha/Kolibri-1",
-      "commit": null
+      "commit": {
+        "sha": "4312aa9",
+        "betreff": "fix: Aleph Alpha nachgeprüft — Kolibri-1 offene Gewichte belegt, Training/ZDR beansprucht (Pharia-Doku), Fusion Cohere unterzeichnet"
+      }
     },
     {
       "datum": "2026-10-04",
@@ -3665,7 +3673,10 @@
       "quelle_alt": null,
       "quelle_neu": "https://aleph-alpha.com/datenschutz/",
       "grund": "Kein öffentliches AVV/DPA-Dokument. Die Datenschutzerklärung regelt nur Website, Kontakt, Newsletter und Bewerbungen; die in der Produktdoku verlinkten 'Terms and Conditions' leiten am 04.10.2026 auf die Startseite um. Verträge im Enterprise-Vertrieb individuell.",
-      "commit": null
+      "commit": {
+        "sha": "4312aa9",
+        "betreff": "fix: Aleph Alpha nachgeprüft — Kolibri-1 offene Gewichte belegt, Training/ZDR beansprucht (Pharia-Doku), Fusion Cohere unterzeichnet"
+      }
     },
     {
       "datum": "2026-10-04",
@@ -3678,7 +3689,10 @@
       "quelle_alt": null,
       "quelle_neu": "https://aleph-alpha.com/datenschutz/",
       "grund": "Keine Subprozessorenliste für die Produkte; die Datenschutzerklärung nennt Auftragsverarbeiter nur für den Website-Betrieb (u. a. Fastly), auch die Produktdoku docs.aleph-alpha.com nennt keine (04.10.2026).",
-      "commit": null
+      "commit": {
+        "sha": "4312aa9",
+        "betreff": "fix: Aleph Alpha nachgeprüft — Kolibri-1 offene Gewichte belegt, Training/ZDR beansprucht (Pharia-Doku), Fusion Cohere unterzeichnet"
+      }
     },
     {
       "datum": "2026-10-04",
@@ -3691,7 +3705,10 @@
       "quelle_alt": null,
       "quelle_neu": "https://docs.aleph-alpha.com/phariaai-dev-guide/latest/pharia-llm/intro.html",
       "grund": "Eigenaussage in der Produktdoku zu Pharia-1, Abschnitt 'Data privacy': 'We do not train on user data.' Bezugsrahmen sind 'our public API users' und die 'Terms and Conditions' — die verlinkten Bedingungen sind nicht mehr abrufbar, ein Vertragstext liegt nicht vor; für die souveräne SaaS-Variante der PhariaAI-Plattform keine eigene Aussage. Bei Self-Hosting/On-Premises verbleiben Daten beim Kunden. Archivkopie: web.archive.org/web/20261004091251/https://docs.aleph-alpha.com/phariaai-dev-guide/latest/pharia-llm/intro.html",
-      "commit": null
+      "commit": {
+        "sha": "4312aa9",
+        "betreff": "fix: Aleph Alpha nachgeprüft — Kolibri-1 offene Gewichte belegt, Training/ZDR beansprucht (Pharia-Doku), Fusion Cohere unterzeichnet"
+      }
     },
     {
       "datum": "2026-10-04",
@@ -3704,7 +3721,10 @@
       "quelle_alt": null,
       "quelle_neu": "https://docs.aleph-alpha.com/phariaai-dev-guide/latest/pharia-llm/intro.html",
       "grund": "Eigenaussage in derselben Doku: 'No prompt data is stored when using our systems' und 'We do not log user inputs to the models.' Gilt laut Text für 'our public API users'; die verwiesenen 'Terms and Conditions' sind nicht mehr abrufbar, eine vertragliche Zusage oder Frist für Metadaten-Logs fehlt. Archivkopie: web.archive.org/web/20261004091251/https://docs.aleph-alpha.com/phariaai-dev-guide/latest/pharia-llm/intro.html",
-      "commit": null
+      "commit": {
+        "sha": "4312aa9",
+        "betreff": "fix: Aleph Alpha nachgeprüft — Kolibri-1 offene Gewichte belegt, Training/ZDR beansprucht (Pharia-Doku), Fusion Cohere unterzeichnet"
+      }
     },
     {
       "datum": "2026-10-04",
@@ -3737,6 +3757,32 @@
         "sha": "6bf918c",
         "betreff": "fix: Gcore Training/ZDR nachgeprüft — MSA-Zweckbindung und §16.3 statt alter Anmerkung, Status unverändert unbelegt"
       }
+    },
+    {
+      "datum": "2026-10-04",
+      "anbieter": "hetzner",
+      "typ": "status",
+      "pfad": "vertrag.training_opt_out",
+      "feld": "Kein Training mit Kundendaten",
+      "alt": "unbelegt",
+      "neu": "belegt",
+      "quelle_alt": null,
+      "quelle_neu": "https://www.hetzner.com/de/legal/privacy-policy/",
+      "grund": "Datenschutzerklärung Abschnitt 4.5.2 Inference: Prompts und Outputs werden 'auch nicht anderweitig zum Training oder zur Verbesserung der KI-Modelle verwendet' — standardmäßig ausgeschlossen. Die Inference-Doku selbst sagt dazu nichts.",
+      "commit": null
+    },
+    {
+      "datum": "2026-10-04",
+      "anbieter": "hetzner",
+      "typ": "status",
+      "pfad": "vertrag.zero_data_retention",
+      "feld": "Zero Data Retention",
+      "alt": "unbelegt",
+      "neu": "belegt",
+      "quelle_alt": null,
+      "quelle_neu": "https://www.hetzner.com/de/legal/privacy-policy/",
+      "grund": "Datenschutzerklärung Abschnitt 4.5.2 Inference: 'Prompts und Outputs : Werden im Rahmen unserer Zero-Retention-Policy nicht gespeichert.' Logfiles (anonymisierte IP, Zeitpunkt, Metadaten, Einstellungen, ohne Inhalte) 6 Monate, Abrechnungsdaten 8 Jahre. Die Inference-Doku selbst sagt dazu nichts.",
+      "commit": null
     },
     {
       "datum": "2026-10-04",
