@@ -278,3 +278,15 @@ Damit kann ein Fall-Entwurf zu Nr. 3 (oder Ersatz Nr. 5) nach Felix' Antwort auf
 ## Entwurf 04.10.2026, 00:21 UTC: Nr. 5 Regolo als Fall 2026-007 (Dauerlauf, Reserve)
 
 `data/faelle/entwurf/2026-007-regolo-no-records.json`, Rohkopien + SHA256SUMS in `belege/faelle/2026-007/`. Alle drei Seiten byte-gleich zum Abruf 03.10. 18:54 (gleiche SHA-256), alle vier Zitate wörtlich in Rohkopie **und** Archivkopie. Liegt als Reserve hinter Fall 006 T-Systems (Frage 53); nicht eröffnet, Regolo nicht informiert. Nebenbefund: Unser eigenes Profil `data/anbieter/regolo.json` übernimmt in der Anmerkung zu `zero_data_retention` „keine Logs/Persistenz“, das wäre bei Eröffnung auf „keine Inhalte gespeichert, Metadaten werden geloggt“ zu präzisieren.
+
+## Nachtrag 04.10.2026, 02:04–02:06 UTC: Archivkopien für Nr. 6 IONOS (Dauerlauf)
+
+Für Nr. 3 und 5 gab es seit 03.10. Archivkopien, für Nr. 6 nur Hashes. Jetzt archiviert (Wayback „Save Page Now“) und jedes Zitatteil wörtlich in der Archivkopie (Abruf mit `id_`) und live geprüft (`lib/archiv.js` → `zitatInText(...).ok`): **5 von 5 belegt, Widerspruch steht unverändert.**
+
+| Seite | Archivkopie | Prüfung |
+|---|---|---|
+| Doku EU AI Act | https://web.archive.org/web/20261004020427/https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/eu-ai-act | „If your application's use case falls into a high-risk category …“, „The AI Model Hub provides the flexible infrastructure …“ OK; SHA-256 live `b728c6d4…` = 03.10. |
+| KI-AGB cloud.ionos.de | https://web.archive.org/web/20261004020507/https://cloud.ionos.de/terms-gtc/ki-dienste/ | Ziffer 4.2 „Die Nutzung der Dienste zur Entwicklung oder zum Betrieb von“, „(Art. 6 KI-VO) ist ausdrücklich untersagt“, Freistellungssatz OK; SHA-256 live `01ed83ce…` = 03.10. |
+| KI-AGB ionos.de | https://web.archive.org/web/20261004020529/https://www.ionos.de/terms-gtc/ki-dienste/ | wie oben (mit „IONOS“ statt „IONOS CLOUD“) OK; SHA-256 live `8a68019e…` (03.10. nicht gehasht) |
+
+Bewertung unverändert: zweite Wahl hinter 006/007, weil ohne Datenschutzbezug. Der Beleg überlebt jetzt aber eine AGB-Änderung. Kein Entwurf angelegt.
