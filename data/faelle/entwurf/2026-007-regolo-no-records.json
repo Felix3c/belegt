@@ -1,0 +1,69 @@
+{
+  "id": "2026-007",
+  "slug": "regolo-no-records",
+  "anbieter": "regolo",
+  "feld": "vertrag.zero_data_retention",
+  "titel": "Regolo: „no server logs … no records of any kind“, aber laut eigener Datenschutzerklärung und eigenem Blog Logs mit IP-Adresse, Zeit, Token-Zahlen und API-Schlüssel",
+  "kurz": "Die Zero-Data-Retention-Seite von Regolo sagt ohne Einschränkung, es gebe keine Audit-Trails, keine Server-Logs und keine Aufzeichnungen irgendeiner Art; die Vergleichstabelle sagt „No API call logging“. Die Datenschutzerklärung derselben Website nennt automatisch erhobene Logs mit IP-Adresse, Ort, Datum, Verbindungszeit und Anfragetyp, aufbewahrt bis zur Löschung des Kontos. Ein Blogartikel von Regolo zählt auf, was pro Anfrage geloggt wird: Zeitstempel, Statuscode, Dauer, Token-Zahlen und die Kennung des API-Schlüssels.",
+  "eroeffnet": "",
+  "status": "offen",
+  "antwort_frist": "",
+  "behauptung": [
+    {
+      "zitat": "There are no audit trails of your requests, no server logs capturing your data, no records of any kind.",
+      "quelle": "https://regolo.ai/zero-data-retention/",
+      "kontext": "Seite „Zero Data Retention“, Abschnitt „No Logging“, unmittelbar nach „No logging of API calls or content for future analysis.“ In der Vergleichstabelle derselben Seite steht für Regolo „No API call logging“.",
+      "abgerufen": "2026-10-04T00:21:22Z",
+      "sha256": "de1a02c5fa00f8c768aff34e17f5c0d59bb987a9db7bfa7819995911b20c3a73",
+      "archiv": "https://web.archive.org/web/20261003195709/https://regolo.ai/zero-data-retention/"
+    },
+    {
+      "zitat": "Every request is processed in real time and permanently discarded. No logs, no traces, no compromise.",
+      "quelle": "https://regolo.ai/zero-data-retention/",
+      "kontext": "Dieselbe Seite, Einleitung unter „Your Data Never Stays. Your Privacy Always Does.“",
+      "abgerufen": "2026-10-04T00:21:22Z",
+      "sha256": "de1a02c5fa00f8c768aff34e17f5c0d59bb987a9db7bfa7819995911b20c3a73",
+      "archiv": "https://web.archive.org/web/20261003195709/https://regolo.ai/zero-data-retention/"
+    }
+  ],
+  "beleg": [
+    {
+      "zitat": "Information received automatically: LOGs (including IP address, browser and configuration, place, date and connection time, type of device used), origin of the access (eventual entry); usage data: request type (without the content), duration of the access to the service.",
+      "quelle": "https://regolo.ai/privacy-policy/",
+      "kontext": "Datenschutzerklärung von regolo.ai (Verantwortlicher Seeweb S.r.l.), Abschnitt „Information we collect“. In der Tabelle zur Speicherdauer steht für „Information received automatically“: „Until the cancellation of the Account“. Die Archivkopie stammt vom 02.10.2026, weil der Neuabruf durch das Internet Archive am 03.10. zweimal mit 520 scheiterte; beide Zitate stehen wörtlich darin.",
+      "abgerufen": "2026-10-04T00:21:22Z",
+      "sha256": "6ec26403d2b35dacc9826f28f3902651d1b2f0d7beb03cfbfb78ee594ee499b2",
+      "archiv": "https://web.archive.org/web/20261002111700/https://regolo.ai/privacy-policy/"
+    },
+    {
+      "zitat": "Regolo logs only non-content operational telemetry required for platform security and billing: timestamp, HTTP status code, request duration in milliseconds, input/output token counts, and API key identifier.",
+      "quelle": "https://regolo.ai/zero-data-retention-llm-gdpr-ai-act-compliance/",
+      "kontext": "Blogartikel von Regolo zu Zero Data Retention, DSGVO und AI Act, FAQ „What operational metadata does Regolo log for billing and security?“. Unmittelbar danach: „No prompt text, completion text, or user-identifiable payload is ever logged.“",
+      "abgerufen": "2026-10-04T00:21:22Z",
+      "sha256": "4580afc117c345fe81a12c179c84954c2ee7b01e9b68ab293d5a2c4b82b86413",
+      "archiv": "https://web.archive.org/web/20261003195910/https://regolo.ai/zero-data-retention-llm-gdpr-ai-act-compliance/"
+    }
+  ],
+  "widerspruch": "Die Zero-Data-Retention-Seite schließt jede Aufzeichnung aus: keine Audit-Trails, keine Server-Logs, „no records of any kind“, „No API call logging“, „No logs, no traces“. Die Datenschutzerklärung derselben Website beschreibt Logs mit IP-Adresse, Ort, Datum, Verbindungszeit und Anfragetyp, die bis zur Löschung des Kontos aufbewahrt werden. Regolos eigener Blog nennt für jede Anfrage Zeitstempel, Statuscode, Dauer, Token-Zahlen und die Kennung des API-Schlüssels. Damit lässt sich jede einzelne Anfrage einem Konto zuordnen. Wer nur die ZDR-Seite liest, etwa ein Datenschutzbeauftragter bei der Anbieterprüfung, erfährt davon nichts. Beide Aussagen können nur zugleich gelten, wenn „logs“ und „records“ auf der ZDR-Seite allein Inhalte meinen.",
+  "was_es_nicht_heisst": "Dies ist kein Vorwurf der Täuschung. Die Kernzusage, dass Prompts und Antworten nicht gespeichert werden, wird nirgends widersprochen: Die Datenschutzerklärung sagt ausdrücklich „request type (without the content)“ und für Nutzerinhalte „Never, excepted the use of storage services activated by the user“, der Blog sagt „No prompt text, completion text, or user-identifiable payload is ever logged.“ Metadaten für Abrechnung und Sicherheit zu loggen ist üblich und vermutlich nötig. Nicht geprüft ist, ob die Datenschutzerklärung nur die Website oder auch die API betrifft; der Blog betrifft ausdrücklich die Plattform. Der Fall betrifft nur die absolute Formulierung der ZDR-Seite.",
+  "aufloesung": [
+    "Regolo qualifiziert die ZDR-Seite (z. B. „no content is logged; minimal operational metadata such as timestamps, token counts and key identifiers is kept for billing and security“) und passt die Vergleichstabelle an. Dann ist der Widerspruch ausgeräumt.",
+    "Regolo hört auf, Metadaten pro Anfrage zu speichern, und passt Datenschutzerklärung und Blog an. Dann stimmt die ZDR-Seite, und der Widerspruch ist ausgeräumt.",
+    "Regolo legt dar, warum beide Darstellungen zugleich zutreffen (etwa weil die Datenschutzerklärung nur Website-Besucher betreffe). Wir veröffentlichen die Erklärung wörtlich und prüfen sie gegen den Blog."
+  ],
+  "antworten": [],
+  "verlauf": [
+    {
+      "datum": "2026-09-06",
+      "ereignis": "Beim Widerspruchs-Scan als Kandidat 5 in der internen Kandidatenliste notiert (ZDR-Seite gegen Datenschutzerklärung und Blog)."
+    },
+    {
+      "datum": "2026-10-03",
+      "ereignis": "Alle drei Seiten live nachgeprüft, Widerspruch unverändert; der Blog nennt jetzt zusätzlich die Kennung des API-Schlüssels. ZDR-Seite und Blog im Internet Archive gesichert, jedes Zitat wörtlich in der Archivkopie geprüft; für die Datenschutzerklärung trägt die Kopie vom 02.10.2026."
+    },
+    {
+      "datum": "2026-10-04",
+      "ereignis": "Alle drei Quellen neu abgerufen (00:21 UTC), Inhalte per SHA-256 gesichert (byte-gleich zum Abruf vom 03.10.), alle Zitate wörtlich in den Rohkopien geprüft. Fall als Entwurf vorbereitet, noch nicht veröffentlicht, Anbieter noch nicht informiert."
+    }
+  ]
+}

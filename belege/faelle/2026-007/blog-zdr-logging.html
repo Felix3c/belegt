@@ -1,0 +1,2030 @@
+<!doctype html>
+<html lang="en-US" class="scroll-smooth scroll-pt-[80px] lg:scroll-pt-20 cc--darkmode">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Zero Data Retention Architecture: The European CTO Guide to Compliant LLM Infrastructure - regolo.ai</title>
+	<link rel="canonical" href="https://regolo.ai/zero-data-retention-llm-gdpr-ai-act-compliance/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Zero Data Retention Architecture: The European CTO Guide to Compliant LLM Infrastructure - regolo.ai" />
+	<meta property="og:description" content="A technical guide for European CTOs on Zero Data Retention (ZDR) architecture for LLM inference, GDPR data minimization, EU AI Act compliance, and sovereign infrastructure." />
+	<meta property="og:url" content="https://regolo.ai/zero-data-retention-llm-gdpr-ai-act-compliance/" />
+	<meta property="og:site_name" content="regolo.ai" />
+	<meta property="article:published_time" content="2026-08-26T04:30:00+00:00" />
+	<meta property="og:image" content="https://regolo.ai/wp-content/uploads/2026/08/zdr-scaled.png" />
+	<meta property="og:image:width" content="2560" />
+	<meta property="og:image:height" content="1440" />
+	<meta property="og:image:type" content="image/png" />
+	<meta name="author" content="Alex Genovese" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"Article","@id":"https:\/\/regolo.ai\/zero-data-retention-llm-gdpr-ai-act-compliance\/#article","isPartOf":{"@id":"https:\/\/regolo.ai\/zero-data-retention-llm-gdpr-ai-act-compliance\/"},"author":{"name":"Alex Genovese","@id":"https:\/\/regolo.ai\/#\/schema\/person\/a8c1e5382cb4cf29eb7ef8fce9b97dc5"},"headline":"Zero Data Retention Architecture: The European CTO Guide to Compliant LLM Infrastructure","datePublished":"2026-08-26T04:30:00+00:00","mainEntityOfPage":{"@id":"https:\/\/regolo.ai\/zero-data-retention-llm-gdpr-ai-act-compliance\/"},"wordCount":1960,"publisher":{"@id":"https:\/\/regolo.ai\/#organization"},"image":{"@id":"https:\/\/regolo.ai\/zero-data-retention-llm-gdpr-ai-act-compliance\/#primaryimage"},"thumbnailUrl":"https:\/\/regolo.ai\/wp-content\/uploads\/2026\/08\/zdr-scaled.png","articleSection":["Compliance and Privacy"],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https:\/\/regolo.ai\/zero-data-retention-llm-gdpr-ai-act-compliance\/","url":"https:\/\/regolo.ai\/zero-data-retention-llm-gdpr-ai-act-compliance\/","name":"Zero Data Retention Architecture: The European CTO Guide to Compliant LLM Infrastructure - regolo.ai","isPartOf":{"@id":"https:\/\/regolo.ai\/#website"},"primaryImageOfPage":{"@id":"https:\/\/regolo.ai\/zero-data-retention-llm-gdpr-ai-act-compliance\/#primaryimage"},"image":{"@id":"https:\/\/regolo.ai\/zero-data-retention-llm-gdpr-ai-act-compliance\/#primaryimage"},"thumbnailUrl":"https:\/\/regolo.ai\/wp-content\/uploads\/2026\/08\/zdr-scaled.png","datePublished":"2026-08-26T04:30:00+00:00","breadcrumb":{"@id":"https:\/\/regolo.ai\/zero-data-retention-llm-gdpr-ai-act-compliance\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/regolo.ai\/zero-data-retention-llm-gdpr-ai-act-compliance\/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/regolo.ai\/zero-data-retention-llm-gdpr-ai-act-compliance\/#primaryimage","url":"https:\/\/regolo.ai\/wp-content\/uploads\/2026\/08\/zdr-scaled.png","contentUrl":"https:\/\/regolo.ai\/wp-content\/uploads\/2026\/08\/zdr-scaled.png","width":2560,"height":1440},{"@type":"BreadcrumbList","@id":"https:\/\/regolo.ai\/zero-data-retention-llm-gdpr-ai-act-compliance\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/regolo.ai\/"},{"@type":"ListItem","position":2,"name":"Regolo Labs","item":"https:\/\/regolo.ai\/labs\/"},{"@type":"ListItem","position":3,"name":"Zero Data Retention Architecture: The European CTO Guide to Compliant LLM Infrastructure"}]},{"@type":"WebSite","@id":"https:\/\/regolo.ai\/#website","url":"https:\/\/regolo.ai\/","name":"Regolo.AI","description":"European AI Inference API Provider","publisher":{"@id":"https:\/\/regolo.ai\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/regolo.ai\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https:\/\/regolo.ai\/#organization","name":"Regolo.AI","url":"https:\/\/regolo.ai\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/regolo.ai\/#\/schema\/logo\/image\/","url":"https:\/\/regolo.ai\/wp-content\/uploads\/2026\/07\/regolo-company.png","contentUrl":"https:\/\/regolo.ai\/wp-content\/uploads\/2026\/07\/regolo-company.png","width":696,"height":696,"caption":"Regolo.AI"},"image":{"@id":"https:\/\/regolo.ai\/#\/schema\/logo\/image\/"}},{"@type":"Person","@id":"https:\/\/regolo.ai\/#\/schema\/person\/a8c1e5382cb4cf29eb7ef8fce9b97dc5","name":"Alex Genovese","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/secure.gravatar.com\/avatar\/1de70008b943d6560b59b55dce661f2a8faf3544b15ce2b738060356fa4bac43?s=96&d=initials&r=g&initials=ag","url":"https:\/\/secure.gravatar.com\/avatar\/1de70008b943d6560b59b55dce661f2a8faf3544b15ce2b738060356fa4bac43?s=96&d=initials&r=g&initials=ag","contentUrl":"https:\/\/secure.gravatar.com\/avatar\/1de70008b943d6560b59b55dce661f2a8faf3544b15ce2b738060356fa4bac43?s=96&d=initials&r=g&initials=ag","caption":"Alex Genovese"},"url":"https:\/\/regolo.ai\/author\/alex-g\/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="regolo.ai &raquo; Feed" href="https://regolo.ai/feed/" />
+<link rel="alternate" type="application/rss+xml" title="regolo.ai &raquo; Comments Feed" href="https://regolo.ai/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://regolo.ai/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fregolo.ai%2Fzero-data-retention-llm-gdpr-ai-act-compliance%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://regolo.ai/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fregolo.ai%2Fzero-data-retention-llm-gdpr-ai-act-compliance%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="wp-block-heading-inline-css">
+h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+/*# sourceURL=https://regolo.ai/wp-includes/blocks/heading/style.min.css */
+</style>
+<style id="wp-block-list-inline-css">
+ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:1.25em 2.375em}
+/*# sourceURL=https://regolo.ai/wp-includes/blocks/list/style.min.css */
+</style>
+<style id="wp-block-paragraph-inline-css">
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+/*# sourceURL=https://regolo.ai/wp-includes/blocks/paragraph/style.min.css */
+</style>
+<style id="wp-block-code-inline-css">
+.wp-block-code{box-sizing:border-box}.wp-block-code code{direction:ltr;display:block;font-family:inherit;overflow-wrap:break-word;text-align:initial;white-space:break-spaces}
+/*# sourceURL=https://regolo.ai/wp-includes/blocks/code/style.min.css */
+</style>
+<link rel="stylesheet" href="https://regolo.ai/wp-content/cache/minify/6f861ed154658b42210d11.css" media="all" />
+
+<style id="syntax-highlighting-code-block-inline-css">
+.wp-block-code {
+	border: 0;
+	padding: 0;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+.wp-block-code > span {
+	display: block;
+	overflow: auto;
+}
+
+.shcb-language {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	-webkit-clip-path: inset(50%);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	word-wrap: normal;
+	word-break: normal;
+}
+
+.hljs {
+	box-sizing: border-box;
+}
+
+.hljs.shcb-code-table {
+	display: table;
+	width: 100%;
+}
+
+.hljs.shcb-code-table > .shcb-loc {
+	color: inherit;
+	display: table-row;
+	width: 100%;
+}
+
+.hljs.shcb-code-table .shcb-loc > span {
+	display: table-cell;
+}
+
+.wp-block-code code.hljs:not(.shcb-wrap-lines) {
+	white-space: pre;
+}
+
+.wp-block-code code.hljs.shcb-wrap-lines {
+	white-space: pre-wrap;
+}
+
+.hljs.shcb-line-numbers {
+	border-spacing: 0;
+	counter-reset: line;
+}
+
+.hljs.shcb-line-numbers > .shcb-loc {
+	counter-increment: line;
+}
+
+.hljs.shcb-line-numbers .shcb-loc > span {
+	padding-left: 0.75em;
+}
+
+.hljs.shcb-line-numbers .shcb-loc::before {
+	border-right: 1px solid #ddd;
+	content: counter(line);
+	display: table-cell;
+	padding: 0 0.75em;
+	text-align: right;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	white-space: nowrap;
+	width: 1%;
+}
+
+.hljs > mark.shcb-loc { background-color: #ddf6ff; }
+/*# sourceURL=syntax-highlighting-code-block-inline-css */
+</style>
+<style id="wp-block-group-inline-css">
+.wp-block-group{box-sizing:border-box}:where(.wp-block-group.wp-block-group-is-layout-constrained){position:relative}
+/*# sourceURL=https://regolo.ai/wp-includes/blocks/group/style.min.css */
+</style>
+<style id="wp-block-quote-inline-css">
+.wp-block-quote{box-sizing:border-box;overflow-wrap:break-word}.wp-block-quote.is-large:where(:not(.is-style-plain)),.wp-block-quote.is-style-large:where(:not(.is-style-plain)){margin-bottom:1em;padding:0 1em}.wp-block-quote.is-large:where(:not(.is-style-plain)) p,.wp-block-quote.is-style-large:where(:not(.is-style-plain)) p{font-size:1.5em;font-style:italic;line-height:1.6}.wp-block-quote.is-large:where(:not(.is-style-plain)) cite,.wp-block-quote.is-large:where(:not(.is-style-plain)) footer,.wp-block-quote.is-style-large:where(:not(.is-style-plain)) cite,.wp-block-quote.is-style-large:where(:not(.is-style-plain)) footer{font-size:1.125em;text-align:right}.wp-block-quote>cite{display:block}
+/*# sourceURL=https://regolo.ai/wp-includes/blocks/quote/style.min.css */
+</style>
+<style id="wp-block-separator-inline-css">
+@charset "UTF-8";.wp-block-separator{border:none;border-top:2px solid}:root :where(.wp-block-separator.is-style-dots){height:auto;line-height:1;text-align:center}:root :where(.wp-block-separator.is-style-dots):before{color:currentColor;content:"···";font-family:serif;font-size:1.5em;letter-spacing:2em;padding-left:2em}.wp-block-separator.is-style-dots{background:none!important;border:none!important}
+/*# sourceURL=https://regolo.ai/wp-includes/blocks/separator/style.min.css */
+</style>
+<style id="wp-block-table-inline-css">
+.wp-block-table{overflow-x:auto}.wp-block-table table{border-collapse:collapse;width:100%}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{border:1px solid;padding:.5em}.wp-block-table .has-fixed-layout{table-layout:fixed;width:100%}.wp-block-table .has-fixed-layout td,.wp-block-table .has-fixed-layout th{word-break:break-word}.wp-block-table.aligncenter,.wp-block-table.alignleft,.wp-block-table.alignright{display:table;width:auto}.wp-block-table.aligncenter td,.wp-block-table.aligncenter th,.wp-block-table.alignleft td,.wp-block-table.alignleft th,.wp-block-table.alignright td,.wp-block-table.alignright th{word-break:break-word}.wp-block-table .has-subtle-light-gray-background-color{background-color:#f3f4f5}.wp-block-table .has-subtle-pale-green-background-color{background-color:#e9fbe5}.wp-block-table .has-subtle-pale-blue-background-color{background-color:#e7f5fe}.wp-block-table .has-subtle-pale-pink-background-color{background-color:#fcf0ef}.wp-block-table.is-style-stripes{background-color:transparent;border-collapse:inherit;border-spacing:0}.wp-block-table.is-style-stripes tbody tr:nth-child(odd){background-color:#f0f0f0}.wp-block-table.is-style-stripes.has-subtle-light-gray-background-color tbody tr:nth-child(odd){background-color:#f3f4f5}.wp-block-table.is-style-stripes.has-subtle-pale-green-background-color tbody tr:nth-child(odd){background-color:#e9fbe5}.wp-block-table.is-style-stripes.has-subtle-pale-blue-background-color tbody tr:nth-child(odd){background-color:#e7f5fe}.wp-block-table.is-style-stripes.has-subtle-pale-pink-background-color tbody tr:nth-child(odd){background-color:#fcf0ef}.wp-block-table.is-style-stripes td,.wp-block-table.is-style-stripes th{border-color:transparent}.wp-block-table.is-style-stripes{border-bottom:1px solid #f0f0f0}.wp-block-table .has-border-color td,.wp-block-table .has-border-color th,.wp-block-table .has-border-color tr,.wp-block-table .has-border-color>*{border-color:inherit}.wp-block-table table[style*=border-top-color] tr:first-child,.wp-block-table table[style*=border-top-color] tr:first-child td,.wp-block-table table[style*=border-top-color] tr:first-child th,.wp-block-table table[style*=border-top-color]>*,.wp-block-table table[style*=border-top-color]>* td,.wp-block-table table[style*=border-top-color]>* th{border-top-color:inherit}.wp-block-table table[style*=border-top-color] tr:not(:first-child){border-top-color:currentColor}.wp-block-table table[style*=border-right-color] td:last-child,.wp-block-table table[style*=border-right-color] th,.wp-block-table table[style*=border-right-color] tr,.wp-block-table table[style*=border-right-color]>*{border-right-color:inherit}.wp-block-table table[style*=border-bottom-color] tr:last-child,.wp-block-table table[style*=border-bottom-color] tr:last-child td,.wp-block-table table[style*=border-bottom-color] tr:last-child th,.wp-block-table table[style*=border-bottom-color]>*,.wp-block-table table[style*=border-bottom-color]>* td,.wp-block-table table[style*=border-bottom-color]>* th{border-bottom-color:inherit}.wp-block-table table[style*=border-bottom-color] tr:not(:last-child){border-bottom-color:currentColor}.wp-block-table table[style*=border-left-color] td:first-child,.wp-block-table table[style*=border-left-color] th,.wp-block-table table[style*=border-left-color] tr,.wp-block-table table[style*=border-left-color]>*{border-left-color:inherit}.wp-block-table table[style*=border-style] td,.wp-block-table table[style*=border-style] th,.wp-block-table table[style*=border-style] tr,.wp-block-table table[style*=border-style]>*{border-style:inherit}.wp-block-table table[style*=border-width] td,.wp-block-table table[style*=border-width] th,.wp-block-table table[style*=border-width] tr,.wp-block-table table[style*=border-width]>*{border-style:inherit;border-width:inherit}
+/*# sourceURL=https://regolo.ai/wp-includes/blocks/table/style.min.css */
+</style>
+
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--background: #000000;--wp--preset--color--foreground: #FFFFFF;--wp--preset--color--primary: #05df72;--wp--preset--color--secondary: #FFFFFF;--wp--preset--color--tertiary: #111111;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:root { --wp--style--global--content-size: 80rem;--wp--style--global--wide-size: 90rem; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-background-color{color: var(--wp--preset--color--background) !important;}.has-foreground-color{color: var(--wp--preset--color--foreground) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-tertiary-color{color: var(--wp--preset--color--tertiary) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-background-background-color{background-color: var(--wp--preset--color--background) !important;}.has-foreground-background-color{background-color: var(--wp--preset--color--foreground) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-background-color{background-color: var(--wp--preset--color--tertiary) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-background-border-color{border-color: var(--wp--preset--color--background) !important;}.has-foreground-border-color{border-color: var(--wp--preset--color--foreground) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-border-color{border-color: var(--wp--preset--color--tertiary) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel="stylesheet" href="https://regolo.ai/wp-content/cache/minify/23e5ca1d9f29059d1c0214.css" media="all" />
+
+<link rel="https://api.w.org/" href="https://regolo.ai/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://regolo.ai/wp-json/wp/v2/posts/2264" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://regolo.ai/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.2" />
+<link rel='shortlink' href='https://regolo.ai/?p=2264' />
+<link rel="alternate" type="text/markdown" href="https://regolo.ai/zero-data-retention-llm-gdpr-ai-act-compliance.md">
+    <!-- Matomo -->
+    <script data-category="analytics" data-service="Matomo">
+      var _mtm = window._mtm = window._mtm || [];
+      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+      (function() {
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://stats.regolo.ai/js/container_HA1sAUdv.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <script type="text/plain" data-category="!analytics">
+     _mtm.push(['forgetConsentGiven']);
+    </script>
+    <!-- Cookie consent -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.css">
+    <script type="module">
+    import 'https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.umd.js';
+
+    const CAT_NECESSARY = "necessary";
+    const CAT_ANALYTICS = "analytics";
+    const CAT_ADVERTISEMENT = "advertisement";
+    const CAT_FUNCTIONALITY = "functionality";
+    const CAT_SECURITY = "security";
+
+    CookieConsent.run({
+      autoShow: window.page !== 'privacy-page',
+      guiOptions: {
+        consentModal: {
+          layout: "box inline",
+          position: "bottom right",
+          equalWeightButtons: true
+        },
+        preferencesModal: {
+          layout: "box",
+          position: "right",
+          equalWeightButtons: true,
+          flipButtons: true
+        }
+      },
+      onFirstConsent: () => {
+      },
+      onAccept: ({cookie}) => {
+        if (CookieConsent.allowedCategory('analytics')) {
+          _paq.push(['setConsentGiven']);
+          _paq.push(['trackPageView']);
+          _paq.push(['enableLinkTracking']);
+        }
+      },
+      onChange: ({cookie}) => {
+        if(CookieConsent.allowedCategory('analytics') === false){
+            _paq.push(['forgetConsentGiven']);
+        }
+      },
+      categories: {
+        [CAT_NECESSARY]: {
+          readOnly: true
+        },
+        [CAT_ANALYTICS]: {
+        },
+        [CAT_ADVERTISEMENT]: {
+        },
+      },
+      language: {
+        default: "it",
+        autoDetect: "document",
+        translations: {
+          it: {
+            consentModal: {
+              title: 'Informativa Cookies',
+              description:`Il nostro sito utilizza cookie per migliorare la tua esperienza di navigazione. Alcuni sono funzionali all'utilizzo del sito stesso, mentre i cookie di marketing permettono di personalizzare la pubblicità. <br><br>Puoi accettare tutti i cookie, rifiutare quelli non necessari o gestire le tue preferenze. <br><br>Chiudendo il banner, rimarranno le impostazioni di default (solo cookie necessari). Per ulteriori informazioni leggi la nostra <a target="_blank" href="http://regolo.ai/privacy-policy/#cookie-policy">Cookie Policy</a>.`,
+              acceptAllBtn: "Accetta",
+              acceptNecessaryBtn: "Rifiuta",
+              showPreferencesBtn: "Scopri di più e personalizza",
+              closeIconLabel: "Chiudi"
+            },
+            preferencesModal: {
+              title: "Centro preferenze per il consenso",
+              acceptAllBtn: "Accetta tutto",
+              acceptNecessaryBtn: "Rifiuta tutto",
+              savePreferencesBtn: "Salva le preferenze",
+              closeIconLabel: "Chiudi la finestra",
+              sections: [
+                {
+                  title: "Utilizzo dei Cookie",
+                  description: "Regolo.ai utilizza i cookie in quanto in alcune parti del nostro sito sono essenziali e senza di essi non saresti in grado di utilizzare i nostri servizi. I cookie ci aiutano anche a fornirti un'esperienza migliore e più ricca, ad esempio, suggerendoti prodotti o servizi di tuo interesse o per poter interagire con le piattaforme dei social network."
+                },
+                {
+                  title: "Cookie Strettamente Necessari Sempre Attivati",
+                  description: "Questi cookie sono necessari per il funzionamento del sito e non possono essere disattivati nei nostri sistemi. Di solito vengono impostati solo in risposta alle azioni da te effettuate che costituiscono una richiesta di servizi, come l'impostazione delle preferenze di privacy, l'accesso o la compilazione di moduli. È possibile impostare il browser per bloccare o avere avvisi riguardo questi cookie, ma di conseguenza alcune parti del sito non funzioneranno. Questi cookie non archiviano informazioni personali.",
+                  linkedCategory: [CAT_NECESSARY]
+                },
+                {
+                  title: "Cookie Statistici/Analitici",
+                  description: "Questi cookie ci permettono di contare le visite e fonti di traffico in modo da poter misurare e migliorare le prestazioni del nostro sito. Ci aiutano a sapere quali sono le pagine più e meno popolari e vedere come i visitatori si muovono intorno al sito. Tutte le informazioni raccolte dai cookie sono aggregate e quindi anonime. Se non consenti questi cookie, non sapremo quando hai visitato il nostro sito.",
+                  linkedCategory: [CAT_ANALYTICS]
+                },
+                {
+                  title: "Cookie di Marketing e Profilazione",
+                  description: "Annunci personalizzati possono essere mostrati in base al contenuto visualizzato dall'utente, all'app utilizzata, alla posizione approssimativa, oppure al tipo di dispositivo etc.",
+                  linkedCategory: [CAT_ADVERTISEMENT]
+                },
+                {
+                  title: "Ulteriori informazioni",
+                  description: `Per ulteriori informazioni consulta la <a target="_blank" href='http://regolo.ai/privacy-policy/#cookie-policy'>Privacy e Cookie Policy</a> completa.`
+                }
+              ]
+            }
+          },
+          en: {
+            consentModal: {
+              title: 'Cookies Notice',
+              description:`We use cookies to assure you the best experience on our website. Some cookies are functional to the use of the site by the users. We also use marketing cookies to customize advertising. <br><br> You can accept all cookies, reject them or manage your preferences. <br><br>Closing the banner means that the default settings will remain with the only installation of technically required cookies. For more information please read our <a target="_blank" href="http://regolo.ai/privacy-policy/#cookie-policy">Cookie Policy</a>.`,
+              acceptAllBtn: "Accept",
+              acceptNecessaryBtn: "Reject",
+              showPreferencesBtn: "Learn more and manage",
+              closeIconLabel: "Close"
+            },
+            preferencesModal: {
+              title: "Settings",
+              acceptAllBtn: "Accept All",
+              acceptNecessaryBtn: "Reject All",
+              savePreferencesBtn: "Save your preferences",
+              closeIconLabel: "Close",
+              sections: [
+                {
+                  title: "Why are we using cookies?",
+                  description: "Regolo.ai uses cookies because, in some parts of our site are essential, and without them you would not be able to use our services. Cookies also help us to provide you with a better and richer experience, for example, by suggesting products or services of interest to you or in order to interact with social network platforms."
+                },
+                {
+                  title: "Technical (necessary) Always Active",
+                  description: `These are "essential" cookies strictly necessary to allow the required functionality. They are usually set only in response to a service request by the user, such as setting privacy preferences, accessing or filling out forms. You can set your browser to block or have warnings about these cookies, but as a result some parts of the site will not work. These cookies do not store personal information.`,
+                  linkedCategory: [CAT_NECESSARY]
+                },
+                {
+                  title: "Statistical/Analytics Cookies",
+                  description: `"Statistical" cookies collect information on how you use our website and our services, for example what pages you visit, and any errors you may encounter. These cookies are collected in aggregate form and are completely anonymous and are only used to help us improve how our site works and understand the interests of visitors.`,
+                  linkedCategory: [CAT_ANALYTICS]
+                },
+                {
+                  title: "Profiling Cookies",
+                  description: `"Behavioral" cookies" are cookies used to collect data on your browsing habits and your preferences, making profiling and/ or customization for advertising purposes.`,
+                  linkedCategory: [CAT_ADVERTISEMENT]
+                },
+                {
+                  title: "More info",
+                  description: `For more information please read our full <a target="_blank" href='http://regolo.ai/privacy-policy/#cookie-policy'>Privacy e Cookie Policy</a>.`
+                }
+              ]
+            }
+          }
+        }
+      }
+    });
+
+    </script>
+    <style>
+    #cc-main {
+    	--cc-font-family: Space Grotesk, sans-serif;
+    	--cc-btn-primary-bg: #05df72;
+     	--cc-btn-primary-border-color: #05df72;
+        --cc-btn-primary-hover-bg: #FFFFFF;
+        --cc-btn-primary-hover-border-color: #FFFFFF;
+        --cc-btn-secondary-bg: #FFFFFF;
+        --cc-btn-secondary-border-color: #FFFFFF;
+        --cc-btn-secondary-color: #000000;
+    }
+    .cc--darkmode {
+      --cc-bg: #000000;
+      --cc-primary-color: #FFFFFF;
+    }
+    #cc-main .cm {
+    	box-shadow: 0 0 10px #05df72;
+    }
+    #cc-main .cm__btn--close {
+    	border-bottom-left-radius: 65%;
+    }
+    </style>
+    <link rel="icon" href="https://regolo.ai/wp-content/uploads/2025/11/regolo-icon.png" sizes="32x32" />
+<link rel="icon" href="https://regolo.ai/wp-content/uploads/2025/11/regolo-icon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://regolo.ai/wp-content/uploads/2025/11/regolo-icon.png" />
+<meta name="msapplication-TileImage" content="https://regolo.ai/wp-content/uploads/2025/11/regolo-icon.png" />
+<style id="wp-custom-css">
+.wp-singular .entry-content .pad-grid {
+	padding-inline: 32px;
+}
+
+.wpforms-container .wpforms-field-row.wpforms-field-medium {
+	max-width: 100%!important;
+}
+
+@media only screen and (max-width: 1023px) {
+	.wpforms-container {
+	padding: 0 32px!important;
+}
+}
+</style>
+</head>
+
+<body class="wp-singular post-template-default single single-post postid-2264 single-format-standard wp-embed-responsive wp-theme-regolo">
+
+
+<div id="page">
+	<a href="#content" class="sr-only">Skip to content</a>
+
+	
+<header
+    class="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-md border-b border-slate-700"
+>
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center text-white">
+        <div class="w-[280px]">
+            <a href="https://regolo.ai/">
+                <img src="https://regolo.ai/wp-content/themes/regolo/img/regolo-logo.svg" class="h-7" alt="Regolo Logo" />
+            </a>
+        </div>
+                <nav class="hidden md:flex items-center space-x-8" aria-label="Main Navigation">
+            <a href="https://regolo.ai/pricing/" class="hover:text-green-400 transition-colors">Pricing</a><a href="https://regolo.ai/models/" class="hover:text-green-400 transition-colors">Models</a><a href="https://docs.regolo.ai/" class="hover:text-green-400 transition-colors">Docs</a><div class="relative nav-group"><a href="https://regolo.ai/labs/" class="flex items-center gap-1 hover:text-green-400 transition-colors focus:outline-none nav-trigger">Labs <i data-lucide="chevron-down" class="w-4 h-4"></i></a>
+<div class="submenu absolute left-0 mt-1 min-w-[240px] w-full flex flex-col flex-wrap rounded-lg bg-black/90 border border-slate-700 shadow-lg opacity-0 pointer-events-none transition-all z-50" tabindex="0">
+<a href="https://regolo.ai/category/tutorial/" class="flex items-center gap-2 px-4 py-2 text-sm hover:bg-slate-800 hover:text-green-400 transition-colors"><span>Tutorial &amp; How‑to</span></a><a href="https://regolo.ai/category/events-workshops/" class="flex items-center gap-2 px-4 py-2 text-sm hover:bg-slate-800 hover:text-green-400 transition-colors"><span>Events &amp; Workshops</span></a><a href="https://regolo.ai/category/benchmarks-cost-optimization/" class="flex items-center gap-2 px-4 py-2 text-sm hover:bg-slate-800 hover:text-green-400 transition-colors"><span>Benchmarks &amp; Optimization</span></a><a href="https://regolo.ai/category/compliance-and-privacy/" class="flex items-center gap-2 px-4 py-2 text-sm hover:bg-slate-800 hover:text-green-400 transition-colors"><span>Compliance and Privacy</span></a><a href="https://regolo.ai/category/product-release-notes/" class="flex items-center gap-2 px-4 py-2 text-sm hover:bg-slate-800 hover:text-green-400 transition-colors"><span>Product &amp; Release Notes</span></a><a href="https://regolo.ai/category/self-hosting-devops/" class="flex items-center gap-2 px-4 py-2 text-sm hover:bg-slate-800 hover:text-green-400 transition-colors"><span>Self‑Hosting &amp; DevOps</span></a><a href="https://regolo.ai/category/sustainable-computing/" class="flex items-center gap-2 px-4 py-2 text-sm hover:bg-slate-800 hover:text-green-400 transition-colors"><span>Sustainable Computing</span></a></div>
+</div><a href="https://regolo.ai/case-studies/" class="hover:text-green-400 transition-colors">Customers</a><div class="relative nav-group"><a href="#" class="flex items-center gap-1 hover:text-green-400 transition-colors focus:outline-none nav-trigger">About <i data-lucide="chevron-down" class="w-4 h-4"></i></a>
+<div class="submenu absolute left-0 mt-1 min-w-[240px] w-full flex flex-col flex-wrap rounded-lg bg-black/90 border border-slate-700 shadow-lg opacity-0 pointer-events-none transition-all z-50" tabindex="0">
+<a href="https://regolo.ai/zero-data-retention/" class="flex items-center gap-2 px-4 py-2 text-sm hover:bg-slate-800 hover:text-green-400 transition-colors"><span>Zero Data Retention</span></a><a href="https://regolo.ai/sustainable-ai/" class="flex items-center gap-2 px-4 py-2 text-sm hover:bg-slate-800 hover:text-green-400 transition-colors"><span>Sustainable AI</span></a><a href="https://regolo.ai/team-infrastructure/" class="flex items-center gap-2 px-4 py-2 text-sm hover:bg-slate-800 hover:text-green-400 transition-colors"><span>Our Team and Infrastructure</span></a></div>
+</div>        </nav>
+                <nav class="w-[280px] hidden md:flex items-center justify-end space-x-4 font-bold">
+            <a
+                href="https://discord.gg/myuuVFcfJw"
+                target="_blank"
+                class="flex items-center gap-2 py-2 px-4 bg-white rounded-lg hover:bg-green-400 text-sm text-black transition-colors"
+            >
+            	<svg
+	                xmlns="http://www.w3.org/2000/svg"
+	                viewBox="0 0 24 24"
+	                fill="currentColor"
+	                width="20px"
+	                height="20px"
+	            >
+	                <path
+	                    d="M8.52062 13.8458C7.48059 13.8458 6.63159 12.9014 6.63159 11.7446 6.63159 10.5879 7.45936 9.64331 8.52062 9.64331 9.57123 9.64331 10.4308 10.5879 10.4096 11.7446 10.4096 12.9014 9.57123 13.8458 8.52062 13.8458ZM15.4941 13.8458C14.454 13.8458 13.604 12.9014 13.604 11.7446 13.604 10.5879 14.4328 9.64331 15.4941 9.64331 16.5447 9.64331 17.4043 10.5879 17.3831 11.7446 17.3831 12.9014 16.5553 13.8458 15.4941 13.8458ZM10.1253 4.32296 9.81655 3.76001 9.18323 3.86556C7.71915 4.10958 6.32658 4.54677 5.02544 5.14604L4.79651 5.25148 4.65507 5.46009C2.0418 9.31441 1.3258 13.1087 1.68032 16.8362L1.71897 17.2425 2.04912 17.4824C3.78851 18.7465 5.47417 19.5189 7.12727 20.0257L7.91657 20.2676 9.03013 17.5506C10.9397 18.0226 13.0592 18.0228 14.969 17.5511L16.0757 20.2683 16.8668 20.0256C18.5173 19.5193 20.2137 18.7472 21.9466 17.4811L22.2726 17.243 22.3131 16.8414C22.7491 12.5213 21.616 8.75773 19.3547 5.45652L19.2128 5.24944 18.9846 5.14504C17.6767 4.54685 16.2852 4.10981 14.8309 3.86573L14.2132 3.76207 13.8987 4.30369C13.8112 4.45445 13.7215 4.62464 13.6364 4.79687 12.5441 4.6847 11.456 4.68446 10.3726 4.79652 10.2882 4.62736 10.2025 4.4638 10.1253 4.32296ZM6.71436 16.6102C6.91235 16.7243 7.11973 16.8358 7.32557 16.9381L6.8764 18.034C5.75585 17.6259 4.61837 17.0637 3.4476 16.2557 3.22313 13.1178 3.86092 9.951 6.01196 6.68626 6.90962 6.29123 7.8535 5.98279 8.83606 5.77295 8.89631 5.89831 8.95235 6.02066 8.99839 6.12917L9.27128 6.77238 9.96259 6.67098C11.3152 6.4726 12.6772 6.47234 14.0523 6.67124L14.7424 6.77106 15.0147 6.12917C15.0621 6.01743 15.1167 5.89547 15.1743 5.77322 16.1525 5.98326 17.098 6.29212 18.0029 6.68812 19.8781 9.50857 20.8241 12.6544 20.5486 16.2552 19.3837 17.0625 18.2422 17.6249 17.1193 18.0335L16.6735 16.939C16.8799 16.8365 17.0879 16.7246 17.2865 16.6102 17.7763 16.328 18.3039 15.976 18.6402 15.6397L17.3606 14.3602C17.1969 14.5239 16.837 14.7808 16.3831 15.0423 15.9388 15.2983 15.498 15.5052 15.2164 15.5983 13.2126 16.2608 10.7883 16.2608 8.78443 15.5983 8.50285 15.5052 8.06205 15.2983 7.61772 15.0423 7.16383 14.7808 6.80392 14.5239 6.64017 14.3602L5.36065 15.6397C5.6969 15.976 6.2245 16.328 6.71436 16.6102Z"
+	                ></path>
+	            </svg>
+                Discord
+            </a>
+            <a
+                href="https://dashboard.regolo.ai/"
+                class="flex items-center gap-2 py-2 px-4 bg-green-400 rounded-lg hover:bg-white text-sm text-black transition-colors"
+                ><i data-lucide="log-in" class="w-4 h-4"></i> Sign In</a>
+        </nav>
+        <div class="md:hidden">
+            <button
+                id="mobile-menu-open"
+                class="text-gray-300 focus:outline-none cursor-pointer"
+            >
+                <i data-lucide="menu" class="w-6 h-6"></i>
+            </button>
+        </div>
+    </div>
+</header>
+<!-- Mobile Menu Modal -->
+<div
+    id="mobile-menu"
+    class="fixed inset-0 z-[100] bg-black text-white flex flex-col justify-between items-center transition-opacity duration-200 opacity-0 pointer-events-none"
+>
+    <button
+        id="mobile-menu-close"
+        class="absolute top-6 right-6 z-10 p-2 rounded-full focus:outline-none cursor-pointer"
+    >
+        <i data-lucide="x" class="w-7 h-7"></i>
+    </button>
+    <div class="py-8">
+        <img src="https://regolo.ai/wp-content/themes/regolo/img/regolo-logo.png" class="h-8" alt="Regolo Logo" />
+    </div>
+    <nav class="flex flex-col gap-4 items-center text-2xl font-semibold">
+        <a href="https://regolo.ai/" class="hover:text-green-400">Home</a>
+        <a href="https://regolo.ai/models/" class="hover:text-green-400">Models</a>
+        <a href="https://regolo.ai/pricing/" class="hover:text-green-400">Pricing</a>
+        <a href="https://regolo.ai/labs/" class="hover:text-green-400">Labs</a>
+        <a href="https://docs.regolo.ai/" target="_blank" class="hover:text-green-400">Docs</a>
+        <span class="border-b border-slate-600 h-1 my-4 w-full"></span>
+        <a href="https://regolo.ai/european-inference/" class="text-lg hover:text-green-400">European data privacy</a>
+        <a href="https://regolo.ai/the-environmental-impact-of-artificial-intelligence-why-building-a-sustainable-ai-matters/" class="text-lg hover:text-green-400">Sustainable AI</a>
+        <a href="https://regolo.ai/gpu-cloud-infrastructure/" class="text-lg hover:text-green-400">GPU Cloud Infrastructure</a>
+    </nav>
+    <nav class="flex items-center justify-center space-x-4 py-8 font-bold">
+        <a
+            href="https://discord.gg/myuuVFcfJw"
+            target="_blank"
+            class="flex items-center gap-2 py-2 px-4 bg-white rounded-lg hover:bg-green-400 text-sm text-black transition-colors"
+        >
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                width="20px"
+                height="20px"
+            >
+                <path
+                    d="M8.52062 13.8458C7.48059 13.8458 6.63159 12.9014 6.63159 11.7446 6.63159 10.5879 7.45936 9.64331 8.52062 9.64331 9.57123 9.64331 10.4308 10.5879 10.4096 11.7446 10.4096 12.9014 9.57123 13.8458 8.52062 13.8458ZM15.4941 13.8458C14.454 13.8458 13.604 12.9014 13.604 11.7446 13.604 10.5879 14.4328 9.64331 15.4941 9.64331 16.5447 9.64331 17.4043 10.5879 17.3831 11.7446 17.3831 12.9014 16.5553 13.8458 15.4941 13.8458ZM10.1253 4.32296 9.81655 3.76001 9.18323 3.86556C7.71915 4.10958 6.32658 4.54677 5.02544 5.14604L4.79651 5.25148 4.65507 5.46009C2.0418 9.31441 1.3258 13.1087 1.68032 16.8362L1.71897 17.2425 2.04912 17.4824C3.78851 18.7465 5.47417 19.5189 7.12727 20.0257L7.91657 20.2676 9.03013 17.5506C10.9397 18.0226 13.0592 18.0228 14.969 17.5511L16.0757 20.2683 16.8668 20.0256C18.5173 19.5193 20.2137 18.7472 21.9466 17.4811L22.2726 17.243 22.3131 16.8414C22.7491 12.5213 21.616 8.75773 19.3547 5.45652L19.2128 5.24944 18.9846 5.14504C17.6767 4.54685 16.2852 4.10981 14.8309 3.86573L14.2132 3.76207 13.8987 4.30369C13.8112 4.45445 13.7215 4.62464 13.6364 4.79687 12.5441 4.6847 11.456 4.68446 10.3726 4.79652 10.2882 4.62736 10.2025 4.4638 10.1253 4.32296ZM6.71436 16.6102C6.91235 16.7243 7.11973 16.8358 7.32557 16.9381L6.8764 18.034C5.75585 17.6259 4.61837 17.0637 3.4476 16.2557 3.22313 13.1178 3.86092 9.951 6.01196 6.68626 6.90962 6.29123 7.8535 5.98279 8.83606 5.77295 8.89631 5.89831 8.95235 6.02066 8.99839 6.12917L9.27128 6.77238 9.96259 6.67098C11.3152 6.4726 12.6772 6.47234 14.0523 6.67124L14.7424 6.77106 15.0147 6.12917C15.0621 6.01743 15.1167 5.89547 15.1743 5.77322 16.1525 5.98326 17.098 6.29212 18.0029 6.68812 19.8781 9.50857 20.8241 12.6544 20.5486 16.2552 19.3837 17.0625 18.2422 17.6249 17.1193 18.0335L16.6735 16.939C16.8799 16.8365 17.0879 16.7246 17.2865 16.6102 17.7763 16.328 18.3039 15.976 18.6402 15.6397L17.3606 14.3602C17.1969 14.5239 16.837 14.7808 16.3831 15.0423 15.9388 15.2983 15.498 15.5052 15.2164 15.5983 13.2126 16.2608 10.7883 16.2608 8.78443 15.5983 8.50285 15.5052 8.06205 15.2983 7.61772 15.0423 7.16383 14.7808 6.80392 14.5239 6.64017 14.3602L5.36065 15.6397C5.6969 15.976 6.2245 16.328 6.71436 16.6102Z"
+                ></path>
+            </svg>
+            Discord
+        </a>
+        <a
+            href="https://regolo.ai/signup"
+            class="flex items-center justify-center gap-2 py-2 px-4 bg-green-400 rounded-lg hover:bg-white text-sm text-black transition-colors"
+            ><i data-lucide="log-in" class="w-4 h-4"></i> Sign In</a
+        >
+    </nav>
+</div>
+
+	<div id="content">
+
+<section id="primary" class="pt-14 pb-16 lg:pb-20 bg-black min-h-screen">
+	<main id="main">
+		<div class="px-4 sm:px-6 lg:px-8">
+			<div class="max-w-6xl mx-auto text-white">
+
+				
+<article id="post-2264" class="post-2264 post type-post status-publish format-standard has-post-thumbnail hentry category-compliance-and-privacy">
+
+	<!-- Post hero: featured image + title overlay -->
+	<header class="entry-header post-header mb-10 lg:mb-14">
+
+		<!-- Featured image (same 16:9 aspect ratio as the blog archive cards) -->
+					<div class="relative overflow-hidden rounded-2xl border border-slate-800/80 shadow-[0_0_0_1px_rgba(15,23,42,1),0_20px_60px_rgba(0,0,0,0.9)] mb-8 lg:mb-10">
+				<div class="aspect-[16/9] bg-slate-900">
+					<img width="1024" height="576" src="https://regolo.ai/wp-content/uploads/2026/08/zdr-1024x576.png" class="h-full w-full object-cover wp-post-image" alt="" loading="eager" decoding="async" fetchpriority="high" srcset="https://regolo.ai/wp-content/uploads/2026/08/zdr-1024x576.png 1024w, https://regolo.ai/wp-content/uploads/2026/08/zdr-300x169.png 300w, https://regolo.ai/wp-content/uploads/2026/08/zdr-768x432.png 768w, https://regolo.ai/wp-content/uploads/2026/08/zdr-1536x864.png 1536w, https://regolo.ai/wp-content/uploads/2026/08/zdr-2048x1152.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" />				</div>
+				<!-- Gradient overlay for text readability -->
+				<div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+				<div class="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-transparent"></div>
+
+				<!-- Category badge on image -->
+									<div class="absolute top-4 left-4 sm:top-6 sm:left-6">
+						<span class="inline-flex items-center gap-1.5 rounded-full border border-slate-800/80 bg-black/70 backdrop-blur-sm px-3 py-1.5 text-[11px] font-medium text-slate-100">
+							<i data-lucide="folder-open" class="w-3.5 h-3.5 text-green-400"></i>
+							<span>Compliance and Privacy</span>
+						</span>
+					</div>
+							</div>
+		
+		<!-- Title and meta below image -->
+		<div class="max-w-4xl mx-auto px-0 space-y-5 lg:space-y-6">
+			<div class="space-y-4">
+				<h1 class="page-title text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight text-white leading-tight">
+					Zero Data Retention Architecture: The European CTO Guide to Compliant LLM Infrastructure				</h1>
+
+									<p class="text-base sm:text-lg text-slate-300 max-w-3xl leading-relaxed">
+						A technical guide for European CTOs on Zero Data Retention (ZDR) architecture for LLM inference, GDPR data minimization, EU AI Act compliance, and sovereign infrastructure.					</p>
+							</div>
+
+			<!-- Meta bar -->
+			<div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 pt-2 border-t border-slate-800/60">
+				<div class="flex flex-wrap items-center gap-4 sm:gap-5 text-[13px] text-slate-400">
+					<!-- Author -->
+					<div class="inline-flex items-center gap-2">
+						<i data-lucide="user" class="w-4 h-4 text-slate-500"></i>
+						<span class="text-slate-300">
+							Alex Genovese						</span>
+					</div>
+
+					<!-- Date -->
+					<div class="inline-flex items-center gap-2">
+						<i data-lucide="calendar" class="w-4 h-4 text-slate-500"></i>
+						<time datetime="2026-08-26T06:30:00+02:00" class="text-slate-300">
+							August 26, 2026						</time>
+					</div>
+
+					<!-- Reading time -->
+					<div class="inline-flex items-center gap-2">
+						<i data-lucide="clock" class="w-4 h-4 text-slate-500"></i>
+						<span>
+							9 min read						</span>
+					</div>
+				</div>
+
+				<!-- Share button trigger -->
+									<a
+						href="#regolo-share-panel"
+						class="inline-flex items-center gap-2 rounded-full border border-slate-800/80 bg-slate-950/60 px-4 py-2 text-[12px] font-medium text-slate-300 hover:border-green-400/90 hover:text-green-400 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-400/90 focus-visible:ring-offset-2 focus-visible:ring-offset-black no-underline"
+					>
+						<i data-lucide="share-2" class="w-4 h-4"></i>
+						<span>Share</span>
+					</a>
+							</div>
+		</div>
+	</header><!-- .entry-header -->
+
+	<!-- Content area -->
+	<div class="max-w-4xl mx-auto">
+		<div class="entry-content prose max-w-none prose-a:text-primary lg:prose-lg">
+			
+<p class="wp-block-paragraph">When an enterprise engineering team connects a core workflow to a commercial Large Language Model API, the security team usually asks three predictable questions. Where do the prompts go? Who has access to the logs? How do we delete personal data under GDPR Article 17?</p>
+
+
+
+<p class="wp-block-paragraph">The standard answers from commercial AI providers are remarkably unsatisfactory. Most commercial API providers retain prompt and completion payloads for 30 days on persistent storage under the banner of &#8220;abuse monitoring.&#8221; Even when you check the enterprise &#8220;zero retention&#8221; opt-out box, the underlying servers often sit within US-owned hyperscalers subject to the CLOUD Act (18 U.S.C. § 2713) and FISA Section 702. For an engineering organization handling sensitive healthcare records, financial transactions, or proprietary source code, that legal exposure is intolerable.</p>
+
+
+
+<p class="wp-block-paragraph">The inference infrastructure across European deployments disconnect is simple: software teams treat LLMs like stateless HTTP microservices, but cloud providers treat them as stateful data sinks.</p>
+
+
+
+<p class="wp-block-paragraph">Zero Data Retention (ZDR) solves this architectural contradiction: It&#8217;s not a legal promise buried on page 42 of a Data Processing Agreement; It&#8217;s a strict infrastructure discipline where prompts and model weights interact exclusively in volatile GPU High Bandwidth Memory (HBM) and vanish the millisecond the socket closes.</p>
+
+
+
+<p class="wp-block-paragraph">Here is how Zero Data Retention works under the hood, how it reconciles the tension between GDPR data minimization and EU AI Act logging mandates, and how to build a production AI stack around it.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 class="wp-block-heading">The Hidden Data Liability of Standard LLM Inference</h2>
+
+
+
+<p class="wp-block-paragraph">The Hidden Data Liability of Standard LLM Inference</p>
+
+
+
+<p class="wp-block-paragraph">Every byte stored on disk is an unexploded liability.</p>
+
+
+
+<p class="wp-block-paragraph">When a customer or internal service submits a 4,000-token prompt containing unredacted customer names, order histories, or code diffs, standard API gateways commit that payload to persistent object storage or distributed log streams like Kafka or OpenSearch. When we reviewed the data retention schedules of three major cloud AI providers with a banking client, we discovered that disabling 30-day logging required custom enterprise contracts with six-figure annual commitments.</p>
+
+
+<pre class="wp-block-code" aria-describedby="shcb-language-1" data-shcb-language-name="Bash" data-shcb-language-slug="bash"><span><code class="hljs language-bash">Client Request ──► TLS Termination ──► Auth &amp; Rate Limit ──► Persistent Disk/Kafka (30-Day Retention)
+                                                                       │
+                                                                       ▼
+                                                             GPU Cluster Inference ──► Client Response</code></span><small class="shcb-language" id="shcb-language-1"><span class="shcb-language__label">Code language:</span> <span class="shcb-language__name">Bash</span> <span class="shcb-language__paren">(</span><span class="shcb-language__slug">bash</span><span class="shcb-language__paren">)</span></small></pre>
+
+
+<p class="wp-block-paragraph">This default design triggers four severe architectural and regulatory problems for European CTOs:</p>
+
+
+
+<ol class="wp-block-list">
+<li><strong>GDPR Article 5(1)(c) Violations (Data Minimization):</strong> Storing complete inference payloads violates the mandate to process only data strictly necessary for the immediate computational purpose.</li>
+
+
+
+<li><strong>GDPR Article 17 Impracticability (Right to Erasure):</strong> If an end-user submits a valid deletion request, your engineering team must locate and purge every embedded token across 30 days of backup snapshots, unstructured gateway logs, and debug dumps. Honestly, almost nobody can execute this reliably in production.</li>
+
+
+
+<li><strong>The CLOUD Act Extraterritorial Trap:</strong> Running workloads on US-headquartered cloud providers—even inside <code>eu-west-1</code> (Dublin) or <code>eu-central-1</code> (Frankfurt)—leaves data vulnerable to US federal warrants issued under the CLOUD Act. The physical location of the server does not shield the parent corporation from mandatory disclosure orders.</li>
+
+
+
+<li><strong>Third-Party Subprocessor Audits:</strong> Enterprise procurement cycles stall for months when infosec teams discover that an AI vendor routes payloads through intermediate observability vendors or caching tiers.</li>
+</ol>
+
+
+
+<p class="wp-block-paragraph">ZDR replaces this fragile cleanup model with proactive non-storage.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 class="wp-block-heading">Deconstructing Zero Data Retention: GPU-Level Mechanics</h2>
+
+
+
+<p class="wp-block-paragraph">What actually happens inside a physical GPU node when Zero Data Retention is enforced?</p>
+
+
+
+<p class="wp-block-paragraph">Let us trace a single inference request executing through Regolo&#8217;s sovereign European infrastructure, hosted on dedicated Seeweb GPU clusters equipped with NVIDIA H100 (80GB VRAM), NVIDIA H200 (141GB VRAM), and AMD MI300X accelerators.</p>
+
+
+<pre class="wp-block-code" aria-describedby="shcb-language-2" data-shcb-language-name="Bash" data-shcb-language-slug="bash"><span><code class="hljs language-bash">Zero Data Retention (Ephemeral RAM-Only Pipeline):
+Client Request ──► mTLS Gateway (Lombardy/Lazio DC)
+                         │
+                         ▼
+             Worker Host OS tmpfs (RAM-only)
+                         │
+                         ▼
+             GPU High Bandwidth Memory (VRAM)
+             ├─ Pre-loaded Model Weights (VAST Data Flash)
+             ├─ Volatile PagedAttention KV Cache
+             └─ Token Generation Loop
+                         │
+                         ▼
+             HTTP Response Streamed to Client
+                         │
+                         ▼
+             Immediate Memory Eviction (0 Disk Writes)</code></span><small class="shcb-language" id="shcb-language-2"><span class="shcb-language__label">Code language:</span> <span class="shcb-language__name">Bash</span> <span class="shcb-language__paren">(</span><span class="shcb-language__slug">bash</span><span class="shcb-language__paren">)</span></small></pre>
+
+
+<h3 class="wp-block-heading">1. Ingestion in Volatile Memory</h3>
+
+
+
+<p class="wp-block-paragraph">The incoming HTTP request terminates at an internal ingress gateway within certified Italian data centers (Lombardy and Lazio). The payload never touches host storage drives. Payload buffers exist entirely in kernel memory and user-space <code>tmpfs</code> mounts in volatile system RAM.</p>
+
+
+
+<h3 class="wp-block-heading">2. High Bandwidth Memory Execution</h3>
+
+
+
+<p class="wp-block-paragraph">The tokenized input vectors load directly into the GPU High Bandwidth Memory (HBM3/HBM3e). The model weights (e.g., Llama-3.3-70B-Instruct, Qwen3.5-122B, Gemma4-31B, or DeepSeek OCR 2) reside pre-loaded on ultra-low-latency NVMe arrays provided by VAST Data. These weights are strictly read-only. The prompt tokens enter the GPU inference engine (using optimized runtimes like vLLM or TensorRT-LLM) using PagedAttention memory management.</p>
+
+
+
+<h3 class="wp-block-heading">3. Ephemeral Key-Value (KV) Cache Lifecycle</h3>
+
+
+
+<p class="wp-block-paragraph">During autoregressive generation, intermediate attention keys and values are computed and stored in volatile VRAM allocations. As soon as the final stop token emits or the HTTP stream closes:</p>
+
+
+
+<ul class="wp-block-list">
+<li>The KV cache blocks associated with the request context are immediately returned to the free memory allocator pool.</li>
+
+
+
+<li>Pointers are overwritten.</li>
+
+
+
+<li>Host swap space is permanently disabled (<code>swapoff -a</code> at the kernel level) across all inference nodes to eliminate any accidental memory swapping to physical disk.</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">4. Zero Payload Telemetry</h3>
+
+
+
+<p class="wp-block-paragraph">Application-level logs do not record prompt strings, system prompts, or generated tokens. The logging daemon records only non-content operational telemetry: HTTP response code, duration in milliseconds, input token count, output token count, and request timestamp.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>Layer</th><th>Traditional AI Cloud Setup</th><th>Regolo Zero Data Retention</th></tr></thead><tbody><tr><td><strong>Payload Storage</strong></td><td>S3/Blob store logging (30-day default)</td><td>Zero bytes written to disk</td></tr><tr><td><strong>GPU KV Cache</strong></td><td>Shared / Cached across sessions</td><td>Purged immediately on socket termination</td></tr><tr><td><strong>Swap Memory</strong></td><td>Enabled on host OS</td><td>Kernel-disabled (<code>swapoff -a</code>)</td></tr><tr><td><strong>Jurisdiction</strong></td><td>US CLOUD Act / FISA 702 exposure</td><td>100% EU sovereign (Italy, Seeweb/DHH)</td></tr><tr><td><strong>Model Weight I/O</strong></td><td>Read/Write scratch disks</td><td>Read-only shared storage (VAST Data)</td></tr><tr><td><strong>Telemetry</strong></td><td>Full request/response payload capture</td><td>Metadata only (tokens, latency, status)</td></tr></tbody></table></figure>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 class="wp-block-heading">The EU AI Act Logging Paradox: Article 12 vs. GDPR Article 5</h2>
+
+
+
+<p class="wp-block-paragraph">A major point of confusion among CTOs preparing for the EU AI Act (Regulation 2024/1689) is Article 12.</p>
+
+
+
+<p class="wp-block-paragraph">Article 12 mandates that high-risk AI systems maintain automatic logging capabilities throughout their lifecycle. Article 19 requires providers to retain these logs for at least six months.</p>
+
+
+
+<p class="wp-block-paragraph">Junior compliance consultants often misinterpret this as a requirement to record every user prompt and model response.</p>
+
+
+
+<p class="wp-block-paragraph">Well, not exactly—let us rephrase that. Confusing system traceability with payload archiving is a catastrophic architectural mistake.</p>
+
+
+
+<p class="wp-block-paragraph">If you store full conversational payloads for six months to satisfy the AI Act, you simultaneously breach GDPR Article 5(1)(c) (Data Minimization) and create massive liability under GDPR Article 17 every time a user requests data erasure.</p>
+
+
+
+<p class="wp-block-paragraph">The solution is decoupling <strong>operational auditability</strong> from <strong>content persistence</strong>. </p>
+
+
+<pre class="wp-block-code" aria-describedby="shcb-language-3" data-shcb-language-name="Bash" data-shcb-language-slug="bash"><span><code class="hljs language-bash">                           ┌──────────────────────────────────────────────┐
+                           │            Incoming AI Request               │
+                           └──────────────────────┬───────────────────────┘
+                                                  │
+                      ┌───────────────────────────┴───────────────────────────┐
+                      ▼                                                       ▼
+        ┌───────────────────────────┐                           ┌───────────────────────────┐
+        │   Operational Telemetry   │                           │     Payload Content       │
+        │ (AI Act Art. 12 Compliant)│                           │   (GDPR Art. 5 Compliant) │
+        ├───────────────────────────┤                           ├───────────────────────────┤
+        │ • Request UUID            │                           │ • User Prompts            │
+        │ • Timestamp (UTC)         │                           │ • System Instructions     │
+        │ • Model ID &amp; Version      │                           │ • PII &amp; Business Data     │
+        │ • Input/Output Token Count│                           │ • Generated Completions   │
+        │ • Latency &amp; Error Codes   │                           │                           │
+        │ • Infrastructure Node ID  │                           │                           │
+        ├───────────────────────────┤                           ├───────────────────────────┤
+        │ Persistent Retention (6m+)│                           │ Volatile RAM (0ms Storage)│
+        └───────────────────────────┘                           └───────────────────────────┘</code></span><small class="shcb-language" id="shcb-language-3"><span class="shcb-language__label">Code language:</span> <span class="shcb-language__name">Bash</span> <span class="shcb-language__paren">(</span><span class="shcb-language__slug">bash</span><span class="shcb-language__paren">)</span></small></pre>
+
+
+<p class="wp-block-paragraph">The EU AI Act requires you to prove that the AI system operated predictably, trace operational anomalies, and detect potential security incidents. You can prove all of that using structured metadata:</p>
+
+
+
+<ul class="wp-block-list">
+<li>SHA-256 hash of the system configuration and model release version (e.g., <code>meta-llama/Llama-3.3-70B-Instruct@sha256:7f4a...</code>)</li>
+
+
+
+<li>Cryptographic request timestamp and duration</li>
+
+
+
+<li>Input/output token metrics for anomaly detection</li>
+
+
+
+<li>Tenant identifier and API key fingerprint</li>
+
+
+
+<li>Hardware health signals and error classifications</li>
+</ul>
+
+
+
+<p class="wp-block-paragraph">By discarding the prompt text while preserving the execution metadata, your infrastructure satisfies EU AI Act Article 12 audit requirements without ever capturing personal data.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 class="wp-block-heading">Production Architecture: Client-Side State and Ephemeral Compute</h2>
+
+
+
+<p class="wp-block-paragraph">Adopting Zero Data Retention forces a fundamental design improvement: moving conversation state upstream into the application layer where it belongs.</p>
+
+
+
+<p class="wp-block-paragraph">When using stateful APIs, developers get lazy. They let the model provider store session history. In several production multi-agent systems we built, shifting from server-side session management to client-side windowed context cut token waste by 38% while hardening security.</p>
+
+
+
+<p class="wp-block-paragraph">In a secure ZDR architecture, your application maintains complete sovereignty over state. Conversational history lives in your own encrypted PostgreSQL database (e.g., via Supabase or Amazon Aurora with Customer-Managed Encryption Keys) or an in-memory store like Redis.</p>
+
+
+<pre class="wp-block-code" aria-describedby="shcb-language-4" data-shcb-language-name="Python" data-shcb-language-slug="python"><span><code class="hljs language-python"><span class="hljs-keyword">import</span> os
+<span class="hljs-keyword">import</span> time
+<span class="hljs-keyword">from</span> openai <span class="hljs-keyword">import</span> OpenAI
+
+<span class="hljs-comment"># Regolo exposes a standard OpenAI-compatible interface over sovereign EU infrastructure</span>
+client = OpenAI(
+    base_url=<span class="hljs-string">"https://api.regolo.ai/v1"</span>,
+    api_key=os.environ.get(<span class="hljs-string">"REGOLO_API_KEY"</span>)
+)
+
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">execute_sovereign_inference</span><span class="hljs-params">(user_id: str, prompt_text: str, conversation_history: list)</span> -&gt; dict:</span>
+    <span class="hljs-string">"""
+    Executes inference against Regolo's Zero Data Retention endpoint.
+    Conversation state is managed exclusively client-side.
+    """</span>
+    start_time = time.perf_counter()
+    
+    <span class="hljs-comment"># Construct context payload dynamically from local encrypted database</span>
+    messages = &#91;{<span class="hljs-string">"role"</span>: <span class="hljs-string">"system"</span>, <span class="hljs-string">"content"</span>: <span class="hljs-string">"You are a secure enterprise assistant."</span>}]
+    messages.extend(conversation_history&#91;<span class="hljs-number">-4</span>:]) <span class="hljs-comment"># Windowed memory</span>
+    messages.append({<span class="hljs-string">"role"</span>: <span class="hljs-string">"user"</span>, <span class="hljs-string">"content"</span>: prompt_text})
+    
+    <span class="hljs-comment"># Dispatch inference to ephemeral GPU cluster</span>
+    response = client.chat.completions.create(
+        model=<span class="hljs-string">"meta-llama/Llama-3.3-70B-Instruct"</span>,
+        messages=messages,
+        temperature=<span class="hljs-number">0.2</span>,
+        max_tokens=<span class="hljs-number">1024</span>
+    )
+    
+    latency_ms = (time.perf_counter() - start_time) * <span class="hljs-number">1000</span>
+    completion_text = response.choices&#91;<span class="hljs-number">0</span>].message.content
+    
+    <span class="hljs-comment"># Telemetry captured locally without third-party exposure</span>
+    usage = response.usage
+    print(<span class="hljs-string">f"&#91;AUDIT] ReqID: <span class="hljs-subst">{response.id}</span> | Model: <span class="hljs-subst">{response.model}</span> | Latency: <span class="hljs-subst">{latency_ms:<span class="hljs-number">.2</span>f}</span>ms | Tokens: <span class="hljs-subst">{usage.total_tokens}</span>"</span>)
+    
+    <span class="hljs-keyword">return</span> {
+        <span class="hljs-string">"content"</span>: completion_text,
+        <span class="hljs-string">"latency_ms"</span>: latency_ms,
+        <span class="hljs-string">"prompt_tokens"</span>: usage.prompt_tokens,
+        <span class="hljs-string">"completion_tokens"</span>: usage.completion_tokens
+    }</code></span><small class="shcb-language" id="shcb-language-4"><span class="shcb-language__label">Code language:</span> <span class="shcb-language__name">Python</span> <span class="shcb-language__paren">(</span><span class="shcb-language__slug">python</span><span class="shcb-language__paren">)</span></small></pre>
+
+
+<p class="wp-block-paragraph">This pattern gives your engineering team three massive advantages:</p>
+
+
+
+<ol class="wp-block-list">
+<li><strong>Granular PII Masking:</strong> You can sanitize inputs before dispatch using local tokenizers.</li>
+
+
+
+<li><strong>Deterministic Retention Control:</strong> You decide whether customer conversation logs expire after 1 hour, 30 days, or immediately.</li>
+
+
+
+<li><strong>Instant Portability:</strong> Because the API adheres to the standard OpenAI schema, you can redirect routing dynamically through semantic routers like Brick without modifying application code.</li>
+</ol>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 class="wp-block-heading">Sovereign Infrastructure vs. US Hyperscalers: An Engineering TCO Analysis</h2>
+
+
+
+<p class="wp-block-paragraph">For an engineering department running 500 million tokens per month, the build-versus-buy decision usually boils down to three options:</p>
+
+
+
+<ol class="wp-block-list">
+<li><strong>Option 1: Self-Hosted GPU Cluster (Cloud or Colocation)</strong></li>
+</ol>
+
+
+
+<ul class="wp-block-list">
+<li>Requires leasing bare-metal instances (e.g. 4x H100 nodes at ~€12,000–€18,000/month).</li>
+
+
+
+<li>High engineering maintenance overhead: CUDA driver upgrades, vLLM orchestration, kernel tuning, failover clustering, round-the-clock on-call rotations.</li>
+
+
+
+<li>Low utilization during off-peak hours leads to wasted compute spend.</li>
+</ul>
+
+
+
+<ol class="wp-block-list">
+<li><strong>Option 2: US Hyperscaler API (Azure OpenAI / AWS Bedrock in EU Regions)</strong></li>
+</ol>
+
+
+
+<ul class="wp-block-list">
+<li>Straightforward billing and high reliability.</li>
+
+
+
+<li>Ongoing legal exposure under the US CLOUD Act and complex DPA requirements.</li>
+
+
+
+<li>Black-box data retention policies requiring expensive enterprise addendums.</li>
+</ul>
+
+
+
+<ol class="wp-block-list">
+<li><strong>Option 3: Regolo Sovereign European AI-as-a-Service</strong></li>
+</ol>
+
+
+
+<ul class="wp-block-list">
+<li>100% European hosting in certified Italian data centers (Seeweb/DHH Group).</li>
+
+
+
+<li>Strict Zero Data Retention enforced at the hardware and kernel level.</li>
+
+
+
+<li>Predictable pricing starting at €39/month for Core Plan (with 30-day free trial) or flat-rate Boost tiers (€89/month) scaling to custom enterprise dedicated clusters.</li>
+
+
+
+<li>Comprehensive ESG compliance: 100% renewable energy with transparent token/Watt energy tracking per inference.</li>
+</ul>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>Dimension</th><th>Self-Hosted On-Prem / Bare Metal</th><th>US Hyperscaler (EU Region)</th><th>Regolo Sovereign AI</th></tr></thead><tbody><tr><td><strong>Data Retention</strong></td><td>Complete control (if configured)</td><td>30-day default (custom opt-out)</td><td><strong>Strict 0-Day (Hardware Default)</strong></td></tr><tr><td><strong>Legal Jurisdiction</strong></td><td>Local EU Law</td><td>US CLOUD Act / FISA 702</td><td><strong>100% EU / Italian Jurisdiction</strong></td></tr><tr><td><strong>Infrastructure Energy</strong></td><td>Varies by data center</td><td>Mixed grid sources</td><td><strong>100% Certified Renewable Energy</strong></td></tr><tr><td><strong>Maintenance Burden</strong></td><td>High (CUDA, drivers, scaling)</td><td>Zero</td><td><strong>Zero (Managed Serverless GPUs)</strong></td></tr><tr><td><strong>Setup Time</strong></td><td>Weeks / Months</td><td>Hours</td><td><strong>Minutes (OpenAI SDK Compatible)</strong></td></tr><tr><td><strong>Energy Telemetry</strong></td><td>Requires custom PDU metrics</td><td>Unavailable</td><td><strong>Native Token/Watt Monitoring</strong></td></tr></tbody></table></figure>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 class="wp-block-heading">Technical Action Plan for Engineering Teams</h2>
+
+
+
+<p class="wp-block-paragraph">If your organization plans to deploy LLM features into production within the next quarter, follow this four-step checklist:</p>
+
+
+
+<ol class="wp-block-list">
+<li><strong>Audit Upstream Network Egress:</strong> ensure internal microservices routing user data do not bypass privacy controls. Route all LLM requests through a centralized internal gateway.</li>
+
+
+
+<li><strong>Enforce Client-Side Context Management:</strong> store chat history in encrypted internal databases. Do not rely on third-party session persistence.</li>
+
+
+
+<li><strong>Switch to an OpenAI-Compatible Sovereign Endpoint:</strong> update your <code>base_url</code> to <code>https://api.regolo.ai/v1</code>. Test compatibility with existing orchestration frameworks (LangChain, LlamaIndex, or custom agents).</li>
+
+
+
+<li><strong>Update the DPA &amp; Compliance Dossier:</strong> present the Zero Data Retention architectural proof to your Data Protection Officer (DPO). Because no user payload is retained, data transfer impact assessments (DTIAs) and complex erasure workflows are drastically simplified.</li>
+</ol>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 class="wp-block-heading">FAQ</h2>
+
+
+
+<h3 class="wp-block-heading">What happens to prompt data immediately after an inference response is completed?</h3>
+
+
+
+<p class="wp-block-paragraph">Prompts and output tokens exist exclusively in volatile GPU High Bandwidth Memory (HBM) and host RAM buffers during processing. Once the response stream finishes or the TCP connection terminates, memory pointers are released and overwritten by the allocator. No payload data is ever committed to NVMe, SSD, or persistent disk storage.</p>
+
+
+
+<h3 class="wp-block-heading">Does Zero Data Retention conflict with the EU AI Act Article 12 logging requirements?</h3>
+
+
+
+<p class="wp-block-paragraph">No. The EU AI Act mandates logging of system events, anomaly indicators, and operational metrics (such as timestamps, model versions, latency, and error states)—not user prompt text. Regolo maintains complete compliance-grade operational telemetry without storing personal data or payload content, fully harmonizing AI Act traceability with GDPR Article 5 data minimization.</p>
+
+
+
+<h3 class="wp-block-heading">How does Regolo prevent data exposure under the US CLOUD Act?</h3>
+
+
+
+<p class="wp-block-paragraph">Regolo is developed by DHH Group and operates exclusively on European infrastructure located in Italian data centers (Lombardy and Lazio). Because Regolo and its parent entities are European corporations with no US corporate parent, they are completely outside the jurisdiction of the US CLOUD Act and FISA Section 702.</p>
+
+
+
+<h3 class="wp-block-heading">Can our team deploy proprietary or fine-tuned models under Zero Data Retention?</h3>
+
+
+
+<p class="wp-block-paragraph">Yes. Regolo supports dedicated private model deployments (including custom weights and fine-tuned checkpoints). Custom models run in isolated GPU environments with the exact same Zero Data Retention guarantees, powered by ultra-fast read-only model loading via VAST Data storage.</p>
+
+
+
+<h3 class="wp-block-heading">How does client-side state management work with multi-turn agentic workflows?</h3>
+
+
+
+<p class="wp-block-paragraph">Your application retains the conversation state in its own encrypted storage (such as PostgreSQL with pgvector or Redis). With each inference turn, your orchestration layer sends the relevant window of prior messages to the API. This gives you absolute control over context pruning, PII redaction, and retention lifecycles.</p>
+
+
+
+<h3 class="wp-block-heading">What operational metadata does Regolo log for billing and security?</h3>
+
+
+
+<p class="wp-block-paragraph">Regolo logs only non-content operational telemetry required for platform security and billing: timestamp, HTTP status code, request duration in milliseconds, input/output token counts, and API key identifier. No prompt text, completion text, or user-identifiable payload is ever logged.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
+<h2 class="wp-block-heading">Ship Private AI. Not Infrastructure.</h2>
+
+
+
+<p class="wp-block-paragraph">You have the private AI App architecture, bow give it an inference layer built for production.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Regolo</strong> gives European teams fast, OpenAI-compatible access to Mistral, Llama, Qwen, DeepSeek, GLM, and more — with zero data retention, EU data residency, and no new SDK to learn.</p>
+
+
+
+<p class="wp-block-paragraph">Change your <code>base_url</code>. Keep your LangChain code. Start shipping.</p>
+
+
+
+<h3 class="wp-block-heading">🚀 <a href="https://regolo.ai/?utm_source=blog&amp;utm_medium=cta&amp;utm_campaign=private-rag" target="_blank" rel="noreferrer noopener">Start your 30-day free trial →</a></h3>
+
+
+
+<p class="wp-block-paragraph">Build, test, and deploy with no infrastructure to maintain.<br><strong>No credit card. No migration project. No compromise on data control.</strong></p>
+
+
+
+<h3 class="wp-block-heading">💬 <a href="https://discord.gg/bqGrVJHeF" target="_blank" rel="noreferrer noopener nofollow">Join the Regolo Discord →</a></h3>
+
+
+
+<p class="wp-block-paragraph">Meet builders working on private RAG, local LLMs, LangChain, Ollama, and production AI systems. Share your setup, get feedback from the community, and speak directly with the Regolo team.</p>
+
+
+
+<h3 class="wp-block-heading">🤝 <a href="https://regolo.ai/contact?utm_source=blog&amp;utm_medium=cta&amp;utm_campaign=private-rag" target="_blank" rel="noreferrer noopener">Talk to an AI Infrastructure Engineer →</a></h3>
+
+
+
+<p class="wp-block-paragraph">Running a sensitive workload, scaling beyond a proof of concept, or assessing a managed EU inference provider? Get a tailored architecture and commercial proposal for your team.</p>
+
+
+
+<h3 class="wp-block-heading">📂 <a href="https://github.com/regolo-ai/tutorials/" target="_blank" rel="noreferrer noopener nofollow">Clone the GitHub repository →</a></h3>
+
+
+
+<p class="wp-block-paragraph">Get the full implementation from this guide: ingestion scripts, ChromaDB setup, hybrid retrieval, the <strong>30-Question RAG Floor</strong>, evaluation examples, and deployment configuration.</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p class="wp-block-paragraph"><strong>Private AI should not require a private data center.</strong><br>Regolo gives your team an EU-native path from local experimentation to production-grade inference.</p>
+</blockquote>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading">Build with Regolo</h3>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Discord:</strong> <a href="https://discord.gg/bqGrVJHeF" target="_blank" rel="noreferrer noopener nofollow">Join the community →</a></li>
+
+
+
+<li><strong>GitHub:</strong> <a href="https://github.com/regolo-ai/tutorials/" target="_blank" rel="noreferrer noopener">Explore open-source workflows →</a></li>
+
+
+
+<li><strong>X / Twitter:</strong> <a href="https://x.com/regolo_ai" target="_blank" rel="noreferrer noopener nofollow">Follow @regolo_ai →</a></li>
+
+
+
+<li><strong>Reddit:</strong> <a href="https://www.reddit.com/r/regolo_ai/" target="_blank" rel="noreferrer noopener nofollow">Join the community →</a></li>
+
+
+
+<li><strong>Documentation:</strong> <a href="https://docs.regolo.ai" target="_blank" rel="noreferrer noopener">Read the API docs →</a></li>
+
+
+
+<li><strong>Contact:</strong> <a href="https://regolo.ai/contact" target="_blank" rel="noreferrer noopener">Talk to the team →</a></li>
+</ul>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><em>Built with ❤️ by the Regolo team. Questions? <a href="https://regolo.ai/contact" target="_blank" rel="noreferrer noopener">regolo.ai/contact</a></em> or chat with us on <a href="https://discord.gg/bqGrVJHeF" target="_blank" rel="noreferrer noopener nofollow">Discord</a></p>
+
+
+
+<p class="wp-block-paragraph"></p>
+</div>
+		</div><!-- .entry-content -->
+
+		<!-- Share panel -->
+					<div id="regolo-share-panel" class="scroll-mt-24">
+					<div class="mt-8 pt-6 border-t border-slate-800/60">
+		<div class="inline-flex items-center gap-2 mb-4">
+			<i data-lucide="share-2" class="w-4 h-4 text-green-400"></i>
+			<span class="text-[11px] font-medium tracking-[0.18em] uppercase text-slate-400">Share this article</span>
+		</div>
+
+		<div class="social-share flex flex-wrap gap-2 sm:gap-3">
+							<a
+					class="inline-flex items-center gap-2 rounded-full border border-slate-800/80 bg-slate-950/60 px-4 py-2 text-[12px] font-medium text-slate-300 hover:border-green-400/90 hover:text-green-400 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-400/90 focus-visible:ring-offset-2 focus-visible:ring-offset-black no-underline"
+					href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fregolo.ai%2Fzero-data-retention-llm-gdpr-ai-act-compliance%2F"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+											<span
+							class="inline-flex w-4 h-4 bg-no-repeat bg-center bg-contain"
+							style="background-image: url('https://regolo.ai/wp-content/themes/regolo/img/icons/facebook.svg');"
+							aria-hidden="true"
+						></span>
+										<span>Facebook</span>
+				</a>
+							<a
+					class="inline-flex items-center gap-2 rounded-full border border-slate-800/80 bg-slate-950/60 px-4 py-2 text-[12px] font-medium text-slate-300 hover:border-green-400/90 hover:text-green-400 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-400/90 focus-visible:ring-offset-2 focus-visible:ring-offset-black no-underline"
+					href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fregolo.ai%2Fzero-data-retention-llm-gdpr-ai-act-compliance%2F&#038;text=Zero+Data+Retention+Architecture%3A+The+European+CTO+Guide+to+Compliant+LLM+Infrastructure"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+											<span
+							class="inline-flex w-4 h-4 bg-no-repeat bg-center bg-contain"
+							style="background-image: url('https://regolo.ai/wp-content/themes/regolo/img/icons/x.svg');"
+							aria-hidden="true"
+						></span>
+										<span>X/Twitter</span>
+				</a>
+							<a
+					class="inline-flex items-center gap-2 rounded-full border border-slate-800/80 bg-slate-950/60 px-4 py-2 text-[12px] font-medium text-slate-300 hover:border-green-400/90 hover:text-green-400 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-400/90 focus-visible:ring-offset-2 focus-visible:ring-offset-black no-underline"
+					href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fregolo.ai%2Fzero-data-retention-llm-gdpr-ai-act-compliance%2F"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+											<span
+							class="inline-flex w-4 h-4 bg-no-repeat bg-center bg-contain"
+							style="background-image: url('https://regolo.ai/wp-content/themes/regolo/img/icons/linkedin.svg');"
+							aria-hidden="true"
+						></span>
+										<span>LinkedIn</span>
+				</a>
+							<a
+					class="inline-flex items-center gap-2 rounded-full border border-slate-800/80 bg-slate-950/60 px-4 py-2 text-[12px] font-medium text-slate-300 hover:border-green-400/90 hover:text-green-400 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-400/90 focus-visible:ring-offset-2 focus-visible:ring-offset-black no-underline"
+					href="https://www.reddit.com/submit?url=https%3A%2F%2Fregolo.ai%2Fzero-data-retention-llm-gdpr-ai-act-compliance%2F&#038;title=Zero+Data+Retention+Architecture%3A+The+European+CTO+Guide+to+Compliant+LLM+Infrastructure"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+											<span
+							class="inline-flex w-4 h-4 bg-no-repeat bg-center bg-contain"
+							style="background-image: url('https://regolo.ai/wp-content/themes/regolo/img/icons/reddit.svg');"
+							aria-hidden="true"
+						></span>
+										<span>Reddit</span>
+				</a>
+					</div>
+	</div>
+				</div>
+		
+		<!-- Entry footer: categories and tags -->
+		<footer class="entry-footer mt-10 lg:mt-14 pt-6 border-t border-slate-800/60">
+			<div class="entry-footer-container">
+				<div class="flex items-start lg:items-center gap-1"><span>Posted in</span><span class="category-list"><a href="https://regolo.ai/category/compliance-and-privacy/" rel="category tag">Compliance and Privacy</a></span></div>			</div>
+		</footer><!-- .entry-footer -->
+	</div>
+
+</article><!-- #post-${ID} -->
+
+	<nav class="navigation post-navigation" aria-label="Posts">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="https://regolo.ai/the-build-verify-loop-stop-your-ai-agent-from-claiming-victory-before-the-tests-pass/" rel="prev"><span class="post-nav-direction" aria-hidden="true">← Previous Post</span> <span class="sr-only">Previous post:</span> <br/><span>The Build-Verify Loop: stop your AI agent from claiming victory before the tests pass</span></a></div><div class="nav-next"><a href="https://regolo.ai/building-a-self-improving-secure-coding-loop-with-deepsec-open-swe-e-cognee/" rel="next"><span class="post-nav-direction" aria-hidden="true">Next Post →</span> <span class="sr-only">Next post:</span> <br/><span>Building a Self-Improving Secure Coding Loop with Deepsec, Open SWE e Cognee</span></a></div></div>
+	</nav>
+			</div>
+		</div>
+	</main><!-- #main -->
+</section><!-- #primary -->
+
+
+	</div><!-- #content -->
+
+	<footer
+	class="bg-black border-t border-slate-700 text-white relative"
+>
+	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-12 space-y-8 lg:space-y-10">
+
+				<!-- Footer navigation columns -->
+		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-6">
+
+						<!-- Resources column -->
+			<nav
+				class="w-full"
+				aria-label="Footer Resources Menu"
+			>
+				<div class="flex flex-col gap-4">
+					<h4 class="text-center lg:text-left text-[11px] uppercase tracking-[0.18em] text-slate-400 font-medium">
+						Resources					</h4>
+
+					<ul class="flex flex-col items-center lg:items-start text-xs sm:text-sm text-slate-300 gap-2">
+														<li>
+									<a
+										href="https://regolo.ai/contacts/"
+										class="hover:text-green-400 transition-colors"
+																			>
+										Contacts									</a>
+								</li>
+																<li>
+									<a
+										href="https://regolo.ai/models/"
+										class="hover:text-green-400 transition-colors"
+																			>
+										Models Library									</a>
+								</li>
+																<li>
+									<a
+										href="https://regolo.ai/builder-program/"
+										class="hover:text-green-400 transition-colors"
+																			>
+										Builder Program									</a>
+								</li>
+																<li>
+									<a
+										href="https://obs.regolo.ai/"
+										class="hover:text-green-400 transition-colors"
+																			>
+										Models Status									</a>
+								</li>
+																<li>
+									<a
+										href="https://regolo.ai/integrations/"
+										class="hover:text-green-400 transition-colors"
+																			>
+										Integrations									</a>
+								</li>
+																<li>
+									<a
+										href="https://regolo.ai/faq/"
+										class="hover:text-green-400 transition-colors"
+																			>
+										FAQ									</a>
+								</li>
+													</ul>
+				</div>
+			</nav>
+			
+						<!-- Legal column -->
+			<nav
+				class="w-full"
+				aria-label="Footer Legal Menu"
+			>
+				<div class="flex flex-col gap-4">
+					<h4 class="text-center lg:text-left text-[11px] uppercase tracking-[0.18em] text-slate-400 font-medium">
+						Legal					</h4>
+
+					<ul class="flex flex-col items-center lg:items-start text-xs sm:text-sm text-slate-300 gap-2">
+														<li>
+									<a
+										href="https://regolo.ai/terms-and-conditions/"
+										class="hover:text-green-400 transition-colors"
+																			>
+										Terms &amp; Conditions									</a>
+								</li>
+																<li>
+									<a
+										href="https://regolo.ai/privacy-policy/"
+										class="hover:text-green-400 transition-colors"
+																			>
+										Privacy Policy									</a>
+								</li>
+																<li>
+									<a
+										href="https://regolo.ai/privacy-policy/#cookie-policy"
+										class="hover:text-green-400 transition-colors"
+																			>
+										Cookie Policy									</a>
+								</li>
+																<li>
+									<a
+										href="#"
+										class="hover:text-green-400 transition-colors"
+																					data-cc="show-preferencesModal"
+																			>
+										Cookie Preferences									</a>
+								</li>
+																<li>
+									<a
+										href="https://regolo.ai/terms-and-conditions/#data-processor-agreement"
+										class="hover:text-green-400 transition-colors"
+																			>
+										DPA									</a>
+								</li>
+													</ul>
+				</div>
+			</nav>
+			
+						<!-- Top Models column (driven by the regolo_top_models option) -->
+			<nav
+				class="w-full"
+				aria-label="Footer Top Models"
+			>
+				<div class="flex flex-col gap-4">
+					<h4 class="text-center lg:text-left text-[11px] uppercase tracking-[0.18em] text-slate-400 font-medium">
+						Top Models					</h4>
+
+					<ul class="flex flex-col items-center lg:items-start text-xs sm:text-sm text-slate-300 gap-2">
+													<li>
+																	<a
+										href="https://regolo.ai/models/#glm5.2"
+										class="hover:text-green-400 transition-colors"
+									>
+										GLM 5.2									</a>
+															</li>
+													<li>
+																	<a
+										href="https://regolo.ai/models/#qwen3.5-122b"
+										class="hover:text-green-400 transition-colors"
+									>
+										Qwen 3.5 - 122b									</a>
+															</li>
+													<li>
+																	<a
+										href="https://regolo.ai/models/#faster-whisper-large-v3"
+										class="hover:text-green-400 transition-colors"
+									>
+										Faster Whisper Large v3									</a>
+															</li>
+													<li>
+																	<a
+										href="https://regolo.ai/models/#gemma4-31b"
+										class="hover:text-green-400 transition-colors"
+									>
+										Gemma 4 - 31b									</a>
+															</li>
+													<li>
+																	<a
+										href="https://regolo.ai/models/#gpt-oss-120b"
+										class="hover:text-green-400 transition-colors"
+									>
+										GPT OSS - 120b									</a>
+															</li>
+											</ul>
+				</div>
+			</nav>
+			
+						<!-- Blog column -->
+			<div class="w-full">
+				<div class="flex flex-col gap-4">
+					<h4 class="text-center lg:text-left text-[11px] uppercase tracking-[0.18em] text-slate-400 font-medium">
+						Latest Posts					</h4>
+
+					<!-- Latest 3 posts -->
+					<ul class="flex flex-col items-center lg:items-start gap-3">
+													<li class="w-full group">
+								<a
+									href="https://regolo.ai/bonsai-2-vs-qwen3-8-27b-benchmarks/"
+									class="flex items-start gap-2.5 text-xs sm:text-sm text-slate-300 hover:text-green-400 transition-colors"
+								>
+									<span class="inline-flex mt-1.5 flex-shrink-0 h-1.5 w-1.5 rounded-full bg-green-400/60 group-hover:bg-green-400 transition-colors"></span>
+									<span class="line-clamp-2 leading-snug">Bonsai 2 vs Qwen3.8-27B: enterprise benchmarks and deployment choices</span>
+								</a>
+							</li>
+													<li class="w-full group">
+								<a
+									href="https://regolo.ai/right-sized-models-insurance-claims-triage/"
+									class="flex items-start gap-2.5 text-xs sm:text-sm text-slate-300 hover:text-green-400 transition-colors"
+								>
+									<span class="inline-flex mt-1.5 flex-shrink-0 h-1.5 w-1.5 rounded-full bg-green-400/60 group-hover:bg-green-400 transition-colors"></span>
+									<span class="line-clamp-2 leading-snug">Right-sized intelligence: why 33m local models beat frontier language models in insurance claims triage</span>
+								</a>
+							</li>
+													<li class="w-full group">
+								<a
+									href="https://regolo.ai/sovereign-ai-ad-intelligence-agent-n8n/"
+									class="flex items-start gap-2.5 text-xs sm:text-sm text-slate-300 hover:text-green-400 transition-colors"
+								>
+									<span class="inline-flex mt-1.5 flex-shrink-0 h-1.5 w-1.5 rounded-full bg-green-400/60 group-hover:bg-green-400 transition-colors"></span>
+									<span class="line-clamp-2 leading-snug">Build a Sovereign AI Ad Intelligence Agent Evaluator with n8n and Regolo</span>
+								</a>
+							</li>
+																	</ul>
+				</div>
+			</div>
+			
+		</div>
+		
+		<!-- Divider -->
+		<div class="border-t border-slate-800/80"></div>
+
+		<!-- Brand / legal section -->
+		<div class="flex flex-col-reverse md:flex-row items-center md:items-start justify-between gap-5 md:gap-8">
+			<div class="flex flex-col items-center md:items-start text-xs sm:text-sm text-slate-300 gap-1.5 text-center md:text-left">
+				<p class="flex items-center gap-1.5">
+					<i data-lucide="leaf" class="w-4 h-4 text-green-400"></i>
+					<span>
+						Developed in EU with love, compliance, and green spirit by DHH.					</span>
+				</p>
+				<p class="text-[11px] sm:text-xs text-slate-500 max-w-xl">
+					© Seeweb S.r.l. – c.s. 103.000 EURO - CCIAA 17793/98 - VAT IT02043220603				</p>
+				<div class="flex items-center justify-center md:justify-end gap-3 sm:gap-4 mt-4">
+					<a
+						href="https://www.linkedin.com/company/regolo-ai/"
+						target="_blank"
+						rel="noreferrer noopener"
+						aria-label="Regolo on LinkedIn"
+						class="footer-social-icon"
+					>
+						<img
+							src="https://regolo.ai/wp-content/themes/regolo/img/icons/linkedin.svg"
+							alt="LinkedIn"
+							class="h-4 w-4 sm:h-5 sm:w-5"
+							loading="lazy"
+						/>
+					</a>
+					<a
+						href="https://discord.gg/myuuVFcfJw"
+						target="_blank"
+						rel="noreferrer noopener"
+						aria-label="Join Regolo on Discord"
+						class="footer-social-icon"
+					>
+						<img
+							src="https://regolo.ai/wp-content/themes/regolo/img/icons/discord.svg"
+							alt="Discord"
+							class="h-4 w-4 sm:h-5 sm:w-5"
+							loading="lazy"
+						/>
+					</a>
+					<a
+						href="https://x.com/regolo_ai"
+						target="_blank"
+						rel="noreferrer noopener"
+						aria-label="Regolo on X (Twitter)"
+						class="footer-social-icon"
+					>
+						<img
+							src="https://regolo.ai/wp-content/themes/regolo/img/icons/x.svg"
+							alt="X (Twitter)"
+							class="h-4 w-4 sm:h-5 sm:w-5"
+							loading="lazy"
+						/>
+					</a>
+					<a
+						href="https://www.reddit.com/r/regolo_ai/"
+						target="_blank"
+						rel="noreferrer noopener"
+						aria-label="Regolo on Reddit"
+						class="footer-social-icon"
+					>
+						<img
+							src="https://regolo.ai/wp-content/themes/regolo/img/icons/reddit.svg"
+							alt="Reddit"
+							class="h-4 w-4 sm:h-5 sm:w-5"
+							loading="lazy"
+						/>
+					</a>
+				</div>
+			</div>
+
+			<div class="flex flex-col items-center md:items-end gap-4">
+				<div class="flex items-center justify-center md:justify-end gap-3">
+					<a href="https://regolo.ai/dhh-group" target="_blank">
+						<img
+						src="https://regolo.ai/wp-content/themes/regolo/img/dhh-logo.webp"
+						class="h-10 sm:h-12 md:h-14 w-auto object-contain"
+						alt="DHH Logo"
+						/>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Certifications trust bar -->
+				<div class="border-t border-slate-800/60 pt-6 mt-2">
+			<p class="text-center text-[10px] uppercase tracking-[0.2em] text-slate-600 mb-4 select-none">
+				Datacenter Certifications			</p>
+			<div class="flex flex-wrap items-center justify-center gap-3 gap-y-3 lg:flex-nowrap">
+																			<img
+						src="https://regolo.ai/wp-content/themes/regolo/img/certifications/CISPE.webp"
+						alt="CISPE – Cloud Infrastructure Service Providers in Europe"
+						class="h-7 sm:h-8 w-auto object-contain"
+						loading="lazy"
+					/>
+																								<img
+						src="https://regolo.ai/wp-content/themes/regolo/img/certifications/LOGOAXEDEF_22301.svg"
+						alt="ISO/IEC 22301 – Business Continuity (Afnor / AxDéf)"
+						class="h-7 sm:h-8 w-auto object-contain"
+						loading="lazy"
+					/>
+																								<img
+						src="https://regolo.ai/wp-content/themes/regolo/img/certifications/LOGOAXEDEF_27001.svg"
+						alt="ISO/IEC 27001 – Information Security (Afnor / AxDéf)"
+						class="h-7 sm:h-8 w-auto object-contain"
+						loading="lazy"
+					/>
+																								<img
+						src="https://regolo.ai/wp-content/themes/regolo/img/certifications/STAR-Level-1-badge.svg"
+						alt="CSA STAR Level 1"
+						class="h-7 sm:h-8 w-auto object-contain"
+						loading="lazy"
+					/>
+																								<img
+						src="https://regolo.ai/wp-content/themes/regolo/img/certifications/logo-iso-14001.png"
+						alt="ISO 14001 – Environmental Management"
+						class="h-7 sm:h-8 w-auto object-contain"
+						loading="lazy"
+					/>
+																								<img
+						src="https://regolo.ai/wp-content/themes/regolo/img/certifications/logo-iso-20000.png"
+						alt="ISO/IEC 20000 – IT Service Management"
+						class="h-7 sm:h-8 w-auto object-contain"
+						loading="lazy"
+					/>
+																								<img
+						src="https://regolo.ai/wp-content/themes/regolo/img/certifications/logo-iso-27017.png"
+						alt="ISO/IEC 27017 – Cloud Security"
+						class="h-7 sm:h-8 w-auto object-contain"
+						loading="lazy"
+					/>
+																								<img
+						src="https://regolo.ai/wp-content/themes/regolo/img/certifications/logo-iso-27018.png"
+						alt="ISO/IEC 27018 – PII in Public Clouds"
+						class="h-7 sm:h-8 w-auto object-contain"
+						loading="lazy"
+					/>
+																								<img
+						src="https://regolo.ai/wp-content/themes/regolo/img/certifications/logo-iso-9001.png"
+						alt="ISO 9001 – Quality Management"
+						class="h-7 sm:h-8 w-auto object-contain"
+						loading="lazy"
+					/>
+																								<img
+						src="https://regolo.ai/wp-content/themes/regolo/img/certifications/seeweb_acn.png"
+						alt="Agenzia Cybersicurezza Nazionale (ACN)"
+						class="h-7 sm:h-8 w-auto object-contain"
+						loading="lazy"
+					/>
+																								<img
+						src="https://regolo.ai/wp-content/themes/regolo/img/certifications/dnsh.svg"
+						alt="Do Not Significant Harm"
+						class="h-7 sm:h-8 w-auto object-contain"
+						loading="lazy"
+					/>
+																									<a
+							href="https://regolo.ai/wp-content/uploads/2026/07/Certificate_REGOLO.AI24-Jul-2026.pdf"
+							target="_blank"
+							rel="noreferrer noopener"
+							class="hover:opacity-70 transition-opacity"
+						>
+										<img
+						src="https://regolo.ai/wp-content/themes/regolo/img/certifications/zdr.svg"
+						alt="Zero Data Retention"
+						class="h-7 sm:h-8 w-auto object-contain"
+						loading="lazy"
+					/>
+											</a>
+												</div>
+		</div>
+			
+	</div>
+</footer>
+
+	
+<div
+	id="regolo-search-overlay"
+	class="fixed inset-0 z-[90] bg-black/90 backdrop-blur-xl opacity-0 pointer-events-none transition-opacity duration-300 ease-out"
+	aria-hidden="true"
+>
+	<div class="absolute inset-0">
+		<!-- Gradient & subtle vignette -->
+		<div class="absolute inset-0 bg-gradient-to-b from-black via-black/95 to-black/90"></div>
+		<div class="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(74,222,128,0.18),_transparent_55%),radial-gradient(circle_at_bottom,_rgba(248,250,252,0.08),_transparent_55%)]"></div>
+		<div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(15,23,42,0.75),_transparent_60%)] mix-blend-soft-light"></div>
+	</div>
+
+	<div class="relative z-[91] flex flex-col min-h-full">
+		<!-- Top bar -->
+		<div class="flex items-center justify-end px-4 sm:px-6 lg:px-8 pt-20 pb-4">
+			<div class="flex items-center gap-3">
+				<div class="hidden sm:flex items-center gap-1 text-[11px] text-slate-500/80">
+					<span class="inline-flex h-6 min-w-[1.75rem] items-center justify-center rounded-md border border-slate-700/80 bg-slate-900/60 px-1.5 text-[10px] font-medium text-slate-300 shadow-[0_0_0_1px_rgba(15,23,42,1)]">
+						esc
+					</span>
+					<span>Close</span>
+				</div>
+				<button
+					type="button"
+					id="regolo-search-overlay-close"
+					class="inline-flex h-9 w-9 items-center justify-center rounded-full border border-slate-700/80 bg-black/60 text-slate-400 hover:text-white hover:border-slate-500 hover:bg-slate-950/90 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-400/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black"
+					aria-label="Close search overlay"
+				>
+					<i data-lucide="x" class="w-4.5 h-4.5"></i>
+				</button>
+			</div>
+		</div>
+
+		<!-- Main content -->
+		<div class="flex-1 px-4 sm:px-6 lg:px-8 pb-10 overflow-y-auto scrollbar-thin scrollbar-thumb-slate-700/70 scrollbar-track-transparent">
+			<div class="max-w-5xl mx-auto space-y-10 lg:space-y-12">
+
+				<!-- Search form -->
+				<div class="space-y-5 sm:space-y-6">
+					<div class="flex flex-col sm:flex-row sm:items-end gap-3 sm:gap-4">
+						<div class="flex-1">
+							<form
+								role="search"
+								method="get"
+								class="relative group"
+								action="https://regolo.ai/"
+							>
+								<label for="regolo-search-overlay-input" class="sr-only">
+									Search the blog								</label>
+
+								<div class="pointer-events-none absolute inset-px rounded-2xl bg-[radial-gradient(circle_at_top,_rgba(74,222,128,0.15),_transparent_55%),radial-gradient(circle_at_bottom,_rgba(15,23,42,0.95),_transparent_50%)] opacity-0 group-focus-within:opacity-100 transition-opacity duration-300"></div>
+
+								<div class="relative flex items-center gap-3 rounded-2xl border border-slate-800/80 bg-slate-950/80 px-4 sm:px-5 py-2.5 sm:py-3.5 shadow-[0_0_0_1px_rgba(15,23,42,1),0_18px_60px_rgba(0,0,0,0.85)] ring-1 ring-transparent group-focus-within:border-green-400/80 group-focus-within:ring-green-400/60">
+									<div class="flex h-9 w-9 sm:h-10 sm:w-10 items-center justify-center rounded-full bg-slate-950/80 border border-slate-800/80 shadow-[0_0_0_1px_rgba(15,23,42,1),0_0_30px_rgba(74,222,128,0.35)]">
+										<i data-lucide="search" class="w-4.5 h-4.5 text-green-400"></i>
+									</div>
+
+									<input
+										id="regolo-search-overlay-input"
+										type="search"
+										name="s"
+										class="flex-1 bg-transparent border-none outline-none focus:ring-0 text-base sm:text-lg text-slate-50 placeholder:text-slate-500/80 caret-green-400"
+										placeholder="Search articles, topics, or keywords…"
+										autocomplete="off"
+									/>
+
+									<div class="hidden sm:flex items-center gap-2 text-[11px] text-slate-500/80">
+										<span class="inline-flex h-6 min-w-[1.75rem] items-center justify-center rounded-md border border-slate-700/80 bg-slate-900/80 px-1.5 text-[10px] font-medium text-slate-300 shadow-[0_0_0_1px_rgba(15,23,42,1)]">
+											enter
+										</span>
+										<span>to search</span>
+									</div>
+
+									<button
+										type="submit"
+										class="inline-flex items-center gap-1.5 rounded-xl border border-green-400/80 bg-green-400 px-3.5 py-1.5 text-xs sm:text-sm font-semibold text-black shadow-[0_0_0_1px_rgba(21,128,61,0.85),0_10px_40px_rgba(22,163,74,0.85)] hover:bg-white hover:border-white transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-400/90 focus-visible:ring-offset-2 focus-visible:ring-offset-black"
+									>
+										<span>Search</span>
+										<i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+									</button>
+								</div>
+							</form>
+						</div>
+
+					</div>
+				</div>
+
+				<!-- Categories -->
+				<div class="space-y-4 lg:space-y-5">
+					<div class="flex items-center justify-between gap-3">
+						<div class="flex items-center gap-2 text-xs font-semibold tracking-[0.16em] uppercase text-slate-500">
+							<span class="inline-flex h-6 w-6 items-center justify-center rounded-full border border-slate-800/80 bg-slate-950/80">
+								<i data-lucide="layers" class="w-3.5 h-3.5 text-slate-300"></i>
+							</span>
+							<span>Browse by category</span>
+						</div>
+													<span class="text-[11px] text-slate-500/80">
+								9 categories							</span>
+											</div>
+
+											<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3.5">
+																							<a
+									href="https://regolo.ai/category/benchmarks-cost-optimization/"
+									class="group relative overflow-hidden rounded-2xl border border-slate-800/80 bg-gradient-to-br from-slate-950/90 via-slate-950 to-slate-950/90 px-4 py-3.5 sm:px-4.5 sm:py-4 shadow-[0_0_0_1px_rgba(15,23,42,1),0_20px_60px_rgba(0,0,0,0.9)] hover:border-green-400/80 hover:shadow-[0_0_0_1px_rgba(21,128,61,0.85),0_28px_80px_rgba(22,163,74,0.85)] transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-400/80 focus-visible:ring-offset-2 focus-visible:ring-offset-black"
+								>
+									<div class="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+										<div class="absolute inset-x-0 -top-20 h-32 bg-[radial-gradient(circle_at_center,_rgba(74,222,128,0.3),_transparent_60%)] blur-3xl"></div>
+									</div>
+
+									<div class="relative flex flex-col gap-1.5">
+										<div class="flex items-center justify-between gap-2">
+											<div class="inline-flex items-center gap-2.5">
+												<span class="inline-flex h-8 w-8 items-center justify-center rounded-full border border-slate-800/90 bg-slate-950/90 shadow-[0_0_0_1px_rgba(15,23,42,1)] group-hover:border-green-400/80 group-hover:bg-black/90">
+													<i data-lucide="folder-open" class="w-4 h-4 text-slate-300 group-hover:text-green-400"></i>
+												</span>
+												<span class="text-sm sm:text-[15px] font-semibold text-slate-50 group-hover:text-white">
+													Benchmarks &amp; Cost Optimization												</span>
+											</div>
+											<span class="inline-flex items-center gap-1 rounded-full border border-slate-800/80 bg-slate-950/80 px-2 py-0.5 text-[11px] text-slate-400 group-hover:border-green-400/80 group-hover:text-green-300">
+												<span>37</span>
+												<span class="hidden sm:inline">
+													posts												</span>
+												<i data-lucide="arrow-up-right" class="w-3 h-3"></i>
+											</span>
+										</div>
+
+																					<p class="mt-1 text-[11px] sm:text-xs text-slate-400 line-clamp-2">
+												Transparent performance and cost comparisons between models, stacks, and deployment options, helping teams choose the fastest and most affordable setup.											</p>
+																			</div>
+								</a>
+																							<a
+									href="https://regolo.ai/category/case-studies-community-stories/"
+									class="group relative overflow-hidden rounded-2xl border border-slate-800/80 bg-gradient-to-br from-slate-950/90 via-slate-950 to-slate-950/90 px-4 py-3.5 sm:px-4.5 sm:py-4 shadow-[0_0_0_1px_rgba(15,23,42,1),0_20px_60px_rgba(0,0,0,0.9)] hover:border-green-400/80 hover:shadow-[0_0_0_1px_rgba(21,128,61,0.85),0_28px_80px_rgba(22,163,74,0.85)] transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-400/80 focus-visible:ring-offset-2 focus-visible:ring-offset-black"
+								>
+									<div class="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+										<div class="absolute inset-x-0 -top-20 h-32 bg-[radial-gradient(circle_at_center,_rgba(74,222,128,0.3),_transparent_60%)] blur-3xl"></div>
+									</div>
+
+									<div class="relative flex flex-col gap-1.5">
+										<div class="flex items-center justify-between gap-2">
+											<div class="inline-flex items-center gap-2.5">
+												<span class="inline-flex h-8 w-8 items-center justify-center rounded-full border border-slate-800/90 bg-slate-950/90 shadow-[0_0_0_1px_rgba(15,23,42,1)] group-hover:border-green-400/80 group-hover:bg-black/90">
+													<i data-lucide="folder-open" class="w-4 h-4 text-slate-300 group-hover:text-green-400"></i>
+												</span>
+												<span class="text-sm sm:text-[15px] font-semibold text-slate-50 group-hover:text-white">
+													Case Studies &amp; Community Stories												</span>
+											</div>
+											<span class="inline-flex items-center gap-1 rounded-full border border-slate-800/80 bg-slate-950/80 px-2 py-0.5 text-[11px] text-slate-400 group-hover:border-green-400/80 group-hover:text-green-300">
+												<span>7</span>
+												<span class="hidden sm:inline">
+													posts												</span>
+												<i data-lucide="arrow-up-right" class="w-3 h-3"></i>
+											</span>
+										</div>
+
+																					<p class="mt-1 text-[11px] sm:text-xs text-slate-400 line-clamp-2">
+												Real‑world stories from teams and creators using Regolo and open‑source tools to solve problems, reduce costs, and launch AI products faster.											</p>
+																			</div>
+								</a>
+																							<a
+									href="https://regolo.ai/category/compliance-and-privacy/"
+									class="group relative overflow-hidden rounded-2xl border border-slate-800/80 bg-gradient-to-br from-slate-950/90 via-slate-950 to-slate-950/90 px-4 py-3.5 sm:px-4.5 sm:py-4 shadow-[0_0_0_1px_rgba(15,23,42,1),0_20px_60px_rgba(0,0,0,0.9)] hover:border-green-400/80 hover:shadow-[0_0_0_1px_rgba(21,128,61,0.85),0_28px_80px_rgba(22,163,74,0.85)] transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-400/80 focus-visible:ring-offset-2 focus-visible:ring-offset-black"
+								>
+									<div class="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+										<div class="absolute inset-x-0 -top-20 h-32 bg-[radial-gradient(circle_at_center,_rgba(74,222,128,0.3),_transparent_60%)] blur-3xl"></div>
+									</div>
+
+									<div class="relative flex flex-col gap-1.5">
+										<div class="flex items-center justify-between gap-2">
+											<div class="inline-flex items-center gap-2.5">
+												<span class="inline-flex h-8 w-8 items-center justify-center rounded-full border border-slate-800/90 bg-slate-950/90 shadow-[0_0_0_1px_rgba(15,23,42,1)] group-hover:border-green-400/80 group-hover:bg-black/90">
+													<i data-lucide="folder-open" class="w-4 h-4 text-slate-300 group-hover:text-green-400"></i>
+												</span>
+												<span class="text-sm sm:text-[15px] font-semibold text-slate-50 group-hover:text-white">
+													Compliance and Privacy												</span>
+											</div>
+											<span class="inline-flex items-center gap-1 rounded-full border border-slate-800/80 bg-slate-950/80 px-2 py-0.5 text-[11px] text-slate-400 group-hover:border-green-400/80 group-hover:text-green-300">
+												<span>25</span>
+												<span class="hidden sm:inline">
+													posts												</span>
+												<i data-lucide="arrow-up-right" class="w-3 h-3"></i>
+											</span>
+										</div>
+
+																					<p class="mt-1 text-[11px] sm:text-xs text-slate-400 line-clamp-2">
+												Insights on building AI systems that respect zero data retention, strong data privacy, and strict EU data requirements—from infrastructure choices to practical guides for compliant deployments.											</p>
+																			</div>
+								</a>
+																							<a
+									href="https://regolo.ai/category/events-workshops/"
+									class="group relative overflow-hidden rounded-2xl border border-slate-800/80 bg-gradient-to-br from-slate-950/90 via-slate-950 to-slate-950/90 px-4 py-3.5 sm:px-4.5 sm:py-4 shadow-[0_0_0_1px_rgba(15,23,42,1),0_20px_60px_rgba(0,0,0,0.9)] hover:border-green-400/80 hover:shadow-[0_0_0_1px_rgba(21,128,61,0.85),0_28px_80px_rgba(22,163,74,0.85)] transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-400/80 focus-visible:ring-offset-2 focus-visible:ring-offset-black"
+								>
+									<div class="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+										<div class="absolute inset-x-0 -top-20 h-32 bg-[radial-gradient(circle_at_center,_rgba(74,222,128,0.3),_transparent_60%)] blur-3xl"></div>
+									</div>
+
+									<div class="relative flex flex-col gap-1.5">
+										<div class="flex items-center justify-between gap-2">
+											<div class="inline-flex items-center gap-2.5">
+												<span class="inline-flex h-8 w-8 items-center justify-center rounded-full border border-slate-800/90 bg-slate-950/90 shadow-[0_0_0_1px_rgba(15,23,42,1)] group-hover:border-green-400/80 group-hover:bg-black/90">
+													<i data-lucide="folder-open" class="w-4 h-4 text-slate-300 group-hover:text-green-400"></i>
+												</span>
+												<span class="text-sm sm:text-[15px] font-semibold text-slate-50 group-hover:text-white">
+													Events &amp; Workshops												</span>
+											</div>
+											<span class="inline-flex items-center gap-1 rounded-full border border-slate-800/80 bg-slate-950/80 px-2 py-0.5 text-[11px] text-slate-400 group-hover:border-green-400/80 group-hover:text-green-300">
+												<span>5</span>
+												<span class="hidden sm:inline">
+													posts												</span>
+												<i data-lucide="arrow-up-right" class="w-3 h-3"></i>
+											</span>
+										</div>
+
+																					<p class="mt-1 text-[11px] sm:text-xs text-slate-400 line-clamp-2">
+												Announcements and recaps of hands‑on sessions, meetups, and live demos where developers can learn, experiment, and connect with the Regolo team and community.											</p>
+																			</div>
+								</a>
+																							<a
+									href="https://regolo.ai/category/product-release-notes/"
+									class="group relative overflow-hidden rounded-2xl border border-slate-800/80 bg-gradient-to-br from-slate-950/90 via-slate-950 to-slate-950/90 px-4 py-3.5 sm:px-4.5 sm:py-4 shadow-[0_0_0_1px_rgba(15,23,42,1),0_20px_60px_rgba(0,0,0,0.9)] hover:border-green-400/80 hover:shadow-[0_0_0_1px_rgba(21,128,61,0.85),0_28px_80px_rgba(22,163,74,0.85)] transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-400/80 focus-visible:ring-offset-2 focus-visible:ring-offset-black"
+								>
+									<div class="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+										<div class="absolute inset-x-0 -top-20 h-32 bg-[radial-gradient(circle_at_center,_rgba(74,222,128,0.3),_transparent_60%)] blur-3xl"></div>
+									</div>
+
+									<div class="relative flex flex-col gap-1.5">
+										<div class="flex items-center justify-between gap-2">
+											<div class="inline-flex items-center gap-2.5">
+												<span class="inline-flex h-8 w-8 items-center justify-center rounded-full border border-slate-800/90 bg-slate-950/90 shadow-[0_0_0_1px_rgba(15,23,42,1)] group-hover:border-green-400/80 group-hover:bg-black/90">
+													<i data-lucide="folder-open" class="w-4 h-4 text-slate-300 group-hover:text-green-400"></i>
+												</span>
+												<span class="text-sm sm:text-[15px] font-semibold text-slate-50 group-hover:text-white">
+													Product &amp; Release Notes												</span>
+											</div>
+											<span class="inline-flex items-center gap-1 rounded-full border border-slate-800/80 bg-slate-950/80 px-2 py-0.5 text-[11px] text-slate-400 group-hover:border-green-400/80 group-hover:text-green-300">
+												<span>3</span>
+												<span class="hidden sm:inline">
+													posts												</span>
+												<i data-lucide="arrow-up-right" class="w-3 h-3"></i>
+											</span>
+										</div>
+
+																					<p class="mt-1 text-[11px] sm:text-xs text-slate-400 line-clamp-2">
+												Concise updates on new models, features, and platform improvements, always paired with concrete examples, migration notes, and tips to get value immediately.											</p>
+																			</div>
+								</a>
+																							<a
+									href="https://regolo.ai/category/self-hosting-devops/"
+									class="group relative overflow-hidden rounded-2xl border border-slate-800/80 bg-gradient-to-br from-slate-950/90 via-slate-950 to-slate-950/90 px-4 py-3.5 sm:px-4.5 sm:py-4 shadow-[0_0_0_1px_rgba(15,23,42,1),0_20px_60px_rgba(0,0,0,0.9)] hover:border-green-400/80 hover:shadow-[0_0_0_1px_rgba(21,128,61,0.85),0_28px_80px_rgba(22,163,74,0.85)] transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-400/80 focus-visible:ring-offset-2 focus-visible:ring-offset-black"
+								>
+									<div class="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+										<div class="absolute inset-x-0 -top-20 h-32 bg-[radial-gradient(circle_at_center,_rgba(74,222,128,0.3),_transparent_60%)] blur-3xl"></div>
+									</div>
+
+									<div class="relative flex flex-col gap-1.5">
+										<div class="flex items-center justify-between gap-2">
+											<div class="inline-flex items-center gap-2.5">
+												<span class="inline-flex h-8 w-8 items-center justify-center rounded-full border border-slate-800/90 bg-slate-950/90 shadow-[0_0_0_1px_rgba(15,23,42,1)] group-hover:border-green-400/80 group-hover:bg-black/90">
+													<i data-lucide="folder-open" class="w-4 h-4 text-slate-300 group-hover:text-green-400"></i>
+												</span>
+												<span class="text-sm sm:text-[15px] font-semibold text-slate-50 group-hover:text-white">
+													Self‑Hosting &amp; DevOps												</span>
+											</div>
+											<span class="inline-flex items-center gap-1 rounded-full border border-slate-800/80 bg-slate-950/80 px-2 py-0.5 text-[11px] text-slate-400 group-hover:border-green-400/80 group-hover:text-green-300">
+												<span>26</span>
+												<span class="hidden sm:inline">
+													posts												</span>
+												<i data-lucide="arrow-up-right" class="w-3 h-3"></i>
+											</span>
+										</div>
+
+																					<p class="mt-1 text-[11px] sm:text-xs text-slate-400 line-clamp-2">
+												Practical guides for running models on your own infrastructure: from local experiments to clustered deployments, monitoring, and automation without vendor lock‑in											</p>
+																			</div>
+								</a>
+																							<a
+									href="https://regolo.ai/category/sustainable-computing/"
+									class="group relative overflow-hidden rounded-2xl border border-slate-800/80 bg-gradient-to-br from-slate-950/90 via-slate-950 to-slate-950/90 px-4 py-3.5 sm:px-4.5 sm:py-4 shadow-[0_0_0_1px_rgba(15,23,42,1),0_20px_60px_rgba(0,0,0,0.9)] hover:border-green-400/80 hover:shadow-[0_0_0_1px_rgba(21,128,61,0.85),0_28px_80px_rgba(22,163,74,0.85)] transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-400/80 focus-visible:ring-offset-2 focus-visible:ring-offset-black"
+								>
+									<div class="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+										<div class="absolute inset-x-0 -top-20 h-32 bg-[radial-gradient(circle_at_center,_rgba(74,222,128,0.3),_transparent_60%)] blur-3xl"></div>
+									</div>
+
+									<div class="relative flex flex-col gap-1.5">
+										<div class="flex items-center justify-between gap-2">
+											<div class="inline-flex items-center gap-2.5">
+												<span class="inline-flex h-8 w-8 items-center justify-center rounded-full border border-slate-800/90 bg-slate-950/90 shadow-[0_0_0_1px_rgba(15,23,42,1)] group-hover:border-green-400/80 group-hover:bg-black/90">
+													<i data-lucide="folder-open" class="w-4 h-4 text-slate-300 group-hover:text-green-400"></i>
+												</span>
+												<span class="text-sm sm:text-[15px] font-semibold text-slate-50 group-hover:text-white">
+													Sustainable Computing												</span>
+											</div>
+											<span class="inline-flex items-center gap-1 rounded-full border border-slate-800/80 bg-slate-950/80 px-2 py-0.5 text-[11px] text-slate-400 group-hover:border-green-400/80 group-hover:text-green-300">
+												<span>3</span>
+												<span class="hidden sm:inline">
+													posts												</span>
+												<i data-lucide="arrow-up-right" class="w-3 h-3"></i>
+											</span>
+										</div>
+
+																					<p class="mt-1 text-[11px] sm:text-xs text-slate-400 line-clamp-2">
+												Explore green AI infrastructure, energy-efficient model inference, and sustainable computing practices powered by 100% renewable European data centers.											</p>
+																			</div>
+								</a>
+																							<a
+									href="https://regolo.ai/category/tutorial/"
+									class="group relative overflow-hidden rounded-2xl border border-slate-800/80 bg-gradient-to-br from-slate-950/90 via-slate-950 to-slate-950/90 px-4 py-3.5 sm:px-4.5 sm:py-4 shadow-[0_0_0_1px_rgba(15,23,42,1),0_20px_60px_rgba(0,0,0,0.9)] hover:border-green-400/80 hover:shadow-[0_0_0_1px_rgba(21,128,61,0.85),0_28px_80px_rgba(22,163,74,0.85)] transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-400/80 focus-visible:ring-offset-2 focus-visible:ring-offset-black"
+								>
+									<div class="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+										<div class="absolute inset-x-0 -top-20 h-32 bg-[radial-gradient(circle_at_center,_rgba(74,222,128,0.3),_transparent_60%)] blur-3xl"></div>
+									</div>
+
+									<div class="relative flex flex-col gap-1.5">
+										<div class="flex items-center justify-between gap-2">
+											<div class="inline-flex items-center gap-2.5">
+												<span class="inline-flex h-8 w-8 items-center justify-center rounded-full border border-slate-800/90 bg-slate-950/90 shadow-[0_0_0_1px_rgba(15,23,42,1)] group-hover:border-green-400/80 group-hover:bg-black/90">
+													<i data-lucide="folder-open" class="w-4 h-4 text-slate-300 group-hover:text-green-400"></i>
+												</span>
+												<span class="text-sm sm:text-[15px] font-semibold text-slate-50 group-hover:text-white">
+													Tutorial &amp; How‑to												</span>
+											</div>
+											<span class="inline-flex items-center gap-1 rounded-full border border-slate-800/80 bg-slate-950/80 px-2 py-0.5 text-[11px] text-slate-400 group-hover:border-green-400/80 group-hover:text-green-300">
+												<span>96</span>
+												<span class="hidden sm:inline">
+													posts												</span>
+												<i data-lucide="arrow-up-right" class="w-3 h-3"></i>
+											</span>
+										</div>
+
+																					<p class="mt-1 text-[11px] sm:text-xs text-slate-400 line-clamp-2">
+												Step‑by‑step guides that show developers exactly how to build, integrate, and ship AI features with Regolo, using real code samples and ready‑to‑run projects.											</p>
+																			</div>
+								</a>
+																							<a
+									href="https://regolo.ai/category/uncategorized/"
+									class="group relative overflow-hidden rounded-2xl border border-slate-800/80 bg-gradient-to-br from-slate-950/90 via-slate-950 to-slate-950/90 px-4 py-3.5 sm:px-4.5 sm:py-4 shadow-[0_0_0_1px_rgba(15,23,42,1),0_20px_60px_rgba(0,0,0,0.9)] hover:border-green-400/80 hover:shadow-[0_0_0_1px_rgba(21,128,61,0.85),0_28px_80px_rgba(22,163,74,0.85)] transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-400/80 focus-visible:ring-offset-2 focus-visible:ring-offset-black"
+								>
+									<div class="pointer-events-none absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+										<div class="absolute inset-x-0 -top-20 h-32 bg-[radial-gradient(circle_at_center,_rgba(74,222,128,0.3),_transparent_60%)] blur-3xl"></div>
+									</div>
+
+									<div class="relative flex flex-col gap-1.5">
+										<div class="flex items-center justify-between gap-2">
+											<div class="inline-flex items-center gap-2.5">
+												<span class="inline-flex h-8 w-8 items-center justify-center rounded-full border border-slate-800/90 bg-slate-950/90 shadow-[0_0_0_1px_rgba(15,23,42,1)] group-hover:border-green-400/80 group-hover:bg-black/90">
+													<i data-lucide="folder-open" class="w-4 h-4 text-slate-300 group-hover:text-green-400"></i>
+												</span>
+												<span class="text-sm sm:text-[15px] font-semibold text-slate-50 group-hover:text-white">
+													Uncategorized												</span>
+											</div>
+											<span class="inline-flex items-center gap-1 rounded-full border border-slate-800/80 bg-slate-950/80 px-2 py-0.5 text-[11px] text-slate-400 group-hover:border-green-400/80 group-hover:text-green-300">
+												<span>2</span>
+												<span class="hidden sm:inline">
+													posts												</span>
+												<i data-lucide="arrow-up-right" class="w-3 h-3"></i>
+											</span>
+										</div>
+
+																					<p class="mt-1 text-[11px] sm:text-xs text-slate-500 line-clamp-2">
+												Curated stories, technical deep-dives, and product updates around this topic.											</p>
+																			</div>
+								</a>
+													</div>
+									</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Floating search trigger button -->
+<button
+	type="button"
+	id="regolo-search-fab"
+	class="fixed bottom-6 right-4 sm:bottom-7 sm:right-7 z-[85] inline-flex items-center gap-0.5 rounded-full border border-slate-700/80 bg-gradient-to-br from-slate-950/95 via-black to-slate-950/95 px-3.5 sm:px-4 py-2 shadow-[0_0_0_1px_rgba(15,23,42,1),0_22px_60px_rgba(0,0,0,0.95)] text-xs sm:text-sm font-medium text-slate-100 hover:border-green-400/85 hover:text-white hover:shadow-[0_0_0_1px_rgba(21,128,61,0.85),0_26px_80px_rgba(22,163,74,0.9)] transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green-400/90 focus-visible:ring-offset-2 focus-visible:ring-offset-black"
+	aria-label="Open blog search"
+>
+	<span class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-slate-950/90 border border-slate-800/90 shadow-[0_0_0_1px_rgba(15,23,42,1),0_0_30px_rgba(74,222,128,0.45)]">
+		<i data-lucide="search" class="w-3.5 h-3.5 text-green-400"></i>
+	</span>
+	<span class="hidden sm:inline-flex ml-1 mr-2">Search the blog</span>
+</button>
+
+</div><!-- #page -->
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/regolo/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+
+
+
+<script src="https://regolo.ai/wp-content/cache/minify/f8cb1d278a957ce6ec9cd7.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            if(window.lucide) {
+                lucide.createIcons();
+            }
+        });
+    </script>
+    
+</body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/?utm_source=w3tc&utm_medium=footer_comment&utm_campaign=free_plugin
+
+Page Caching using Disk: Enhanced 
+Minified using Disk
+
+Served from: regolo.ai @ 2026-10-03 20:54:16 by W3 Total Cache
+-->
