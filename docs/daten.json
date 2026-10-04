@@ -799,14 +799,16 @@
         "training_opt_out": {
           "wert": null,
           "status": "unbelegt",
-          "quelle": null,
-          "anmerkung": "Keine explizite vertragliche Aussage gefunden, dass Kundendaten nicht für Modelltraining genutzt werden; die Architektur (dedizierte Deployments) legt es nahe, ist aber kein prüfbares Dokument"
+          "quelle": "https://gcore.com/legal",
+          "geprueft": "2026-10-04",
+          "anmerkung": "Kein ausdrücklicher Trainingsausschluss, auch nicht in der Inference-Doku (docs.gcore.com, 04.10.2026). Der MSA bindet nur den Zweck: Lizenz an Customer Content 'solely for the purposes of this Agreement' (§7.2), Nutzung von Customer Data 'solely on behalf of Customer, except where Gcore acts as an independent data controller' (§8.3). Die Modellseiten ('Your data and model interactions never leave our secure infrastructure') betreffen den Ort, nicht das Training. Archivkopie: web.archive.org/web/20261004055218/https://gcore.com/legal"
         },
         "zero_data_retention": {
           "wert": null,
           "status": "unbelegt",
-          "quelle": null,
-          "anmerkung": "Keine ZDR-Zusage gefunden. MSA regelt nur Löschung von Customer Content nach Vertragsende (Standard 48 Stunden)"
+          "quelle": "https://gcore.com/legal",
+          "geprueft": "2026-10-04",
+          "anmerkung": "Keine ZDR-Zusage, auch nicht in der Inference-Doku (docs.gcore.com, 04.10.2026; der Logs-Tab zeigt Pod-Ausgaben, eine Aufbewahrungsfrist steht nirgends). MSA §16.3 regelt nur die Löschung nach Vertragsende, zuerst nach der Leistungsbeschreibung: 'The 48-hour period shall apply only where no such specification exists.'"
         }
       },
       "zertifikate": [
@@ -834,7 +836,7 @@
           "typ": "SOC 2",
           "status": "unbelegt",
           "quelle": null,
-          "anmerkung": "Keine eigene SOC-2-Attestierung auffindbar",
+          "anmerkung": "Keine eigene SOC-2-Attestierung auffindbar; die Compliance-Liste auf gcore.com/infrastructure nennt am 04.10.2026 nur PCI DSS, ISO 27001 und GDPR",
           "normiert": [
             "soc-2"
           ]
@@ -858,7 +860,7 @@
       "geprueft": "2026-08-20",
       "url": "https://belegbar.eu/anbieter/gcore/",
       "beleg_quote_prozent": 38,
-      "zuletzt_geprueft": "2026-10-03",
+      "zuletzt_geprueft": "2026-10-04",
       "rechtsraum": {
         "land": "LU",
         "name": "Luxemburg",
@@ -3624,6 +3626,32 @@
   "aenderungen": [
     {
       "datum": "2026-10-04",
+      "anbieter": "gcore",
+      "typ": "quelle",
+      "pfad": "vertrag.training_opt_out",
+      "feld": "Kein Training mit Kundendaten",
+      "alt": "unbelegt",
+      "neu": "unbelegt",
+      "quelle_alt": null,
+      "quelle_neu": "https://gcore.com/legal",
+      "grund": "Kein ausdrücklicher Trainingsausschluss, auch nicht in der Inference-Doku (docs.gcore.com, 04.10.2026). Der MSA bindet nur den Zweck: Lizenz an Customer Content 'solely for the purposes of this Agreement' (§7.2), Nutzung von Customer Data 'solely on behalf of Customer, except where Gcore acts as an independent data controller' (§8.3). Die Modellseiten ('Your data and model interactions never leave our secure infrastructure') betreffen den Ort, nicht das Training. Archivkopie: web.archive.org/web/20261004055218/https://gcore.com/legal",
+      "commit": null
+    },
+    {
+      "datum": "2026-10-04",
+      "anbieter": "gcore",
+      "typ": "quelle",
+      "pfad": "vertrag.zero_data_retention",
+      "feld": "Zero Data Retention",
+      "alt": "unbelegt",
+      "neu": "unbelegt",
+      "quelle_alt": null,
+      "quelle_neu": "https://gcore.com/legal",
+      "grund": "Keine ZDR-Zusage, auch nicht in der Inference-Doku (docs.gcore.com, 04.10.2026; der Logs-Tab zeigt Pod-Ausgaben, eine Aufbewahrungsfrist steht nirgends). MSA §16.3 regelt nur die Löschung nach Vertragsende, zuerst nach der Leistungsbeschreibung: 'The 48-hour period shall apply only where no such specification exists.'",
+      "commit": null
+    },
+    {
+      "datum": "2026-10-04",
       "anbieter": "lyceum",
       "typ": "status",
       "pfad": "vertrag.training_opt_out",
@@ -3633,7 +3661,10 @@
       "quelle_alt": null,
       "quelle_neu": "https://lyceum.technology/legal/terms",
       "grund": "AGB Ziff. 5.2 wörtlich (Abruf 04.10.2026): for the specific 'Inference' product, any inputs and outputs are only processed to generate the respective result for the Customer and are not stored beyond what is technically necessary for this purpose, nor used for training, improvement or analysis of the Provider's or any third party's AI, LLM or other machine learning models — Training per Vertrag ausgeschlossen, kein Opt-out nötig. Für eingereichten Code gilt dasselbe (Ziff. 5.1). Die frühere Aussage im C5-Magazinartikel (bis 19.08.) steht dort weiter nicht mehr.",
-      "commit": null
+      "commit": {
+        "sha": "0501d19",
+        "betreff": "fix: Lyceum nachgeprüft (04.10.) – Training und ZDR per AGB Ziff. 5.2 belegt, Standort Spanien/Paris/Nordeuropa"
+      }
     },
     {
       "datum": "2026-10-04",
@@ -3646,7 +3677,10 @@
       "quelle_alt": null,
       "quelle_neu": "https://lyceum.technology/legal/terms",
       "grund": "AGB Ziff. 5.2 (Abruf 04.10.2026): Inference-Inputs/-Outputs werden nicht gespeichert beyond what is technically necessary — gleiche Formel wie bei DeepL (Pro-AGB 3.1.2). Keine Frist, keine Aussage zu Logs/Metadaten; die Datenschutzerklärung regelt nur Website-/Kontodaten (Speicherung so lange wie nötig).",
-      "commit": null
+      "commit": {
+        "sha": "0501d19",
+        "betreff": "fix: Lyceum nachgeprüft (04.10.) – Training und ZDR per AGB Ziff. 5.2 belegt, Standort Spanien/Paris/Nordeuropa"
+      }
     },
     {
       "datum": "2026-10-04",

@@ -72,14 +72,16 @@
     "training_opt_out": {
       "wert": null,
       "status": "unbelegt",
-      "quelle": null,
-      "anmerkung": "Keine explizite vertragliche Aussage gefunden, dass Kundendaten nicht für Modelltraining genutzt werden; die Architektur (dedizierte Deployments) legt es nahe, ist aber kein prüfbares Dokument"
+      "quelle": "https://gcore.com/legal",
+      "geprueft": "2026-10-04",
+      "anmerkung": "Kein ausdrücklicher Trainingsausschluss, auch nicht in der Inference-Doku (docs.gcore.com, 04.10.2026). Der MSA bindet nur den Zweck: Lizenz an Customer Content 'solely for the purposes of this Agreement' (§7.2), Nutzung von Customer Data 'solely on behalf of Customer, except where Gcore acts as an independent data controller' (§8.3). Die Modellseiten ('Your data and model interactions never leave our secure infrastructure') betreffen den Ort, nicht das Training. Archivkopie: web.archive.org/web/20261004055218/https://gcore.com/legal"
     },
     "zero_data_retention": {
       "wert": null,
       "status": "unbelegt",
-      "quelle": null,
-      "anmerkung": "Keine ZDR-Zusage gefunden. MSA regelt nur Löschung von Customer Content nach Vertragsende (Standard 48 Stunden)"
+      "quelle": "https://gcore.com/legal",
+      "geprueft": "2026-10-04",
+      "anmerkung": "Keine ZDR-Zusage, auch nicht in der Inference-Doku (docs.gcore.com, 04.10.2026; der Logs-Tab zeigt Pod-Ausgaben, eine Aufbewahrungsfrist steht nirgends). MSA §16.3 regelt nur die Löschung nach Vertragsende, zuerst nach der Leistungsbeschreibung: 'The 48-hour period shall apply only where no such specification exists.'"
     }
   },
   "zertifikate": [
@@ -107,7 +109,7 @@
       "typ": "SOC 2",
       "status": "unbelegt",
       "quelle": null,
-      "anmerkung": "Keine eigene SOC-2-Attestierung auffindbar",
+      "anmerkung": "Keine eigene SOC-2-Attestierung auffindbar; die Compliance-Liste auf gcore.com/infrastructure nennt am 04.10.2026 nur PCI DSS, ISO 27001 und GDPR",
       "normiert": [
         "soc-2"
       ]
@@ -131,7 +133,7 @@
   "geprueft": "2026-08-20",
   "url": "https://belegbar.eu/anbieter/gcore/",
   "beleg_quote_prozent": 38,
-  "zuletzt_geprueft": "2026-10-03",
+  "zuletzt_geprueft": "2026-10-04",
   "rechtsraum": {
     "land": "LU",
     "name": "Luxemburg",

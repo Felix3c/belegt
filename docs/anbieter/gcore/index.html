@@ -17,7 +17,7 @@
 <meta property="og:description" content="Gcore: Luxemburger Edge-/Cloud-Infrastrukturanbieter (G-Core Labs S.A., gegründet 2014), dessen Produkt 'Everywhere Inference' Open-Source-Modelle auf eigener NVIDIA-GPU-Infrastruktur mit regionaler Workload-Steuerung hostet. Abgerechnet wird nach GPU-Compute-Zeit (pro Sekunde/Minute), nicht pro Token — ein öffentliches Token-Preisblatt existiert nicht. Beleg-Quote 38 %. Alle Angaben mit Quelle und Prüfdatum.">
 <meta property="og:url" content="https://belegbar.eu/anbieter/gcore/">
 <meta name="twitter:card" content="summary">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Gcore — Beleg-Check","url":"https://belegbar.eu/anbieter/gcore/","dateModified":"2026-10-03","license":"https://creativecommons.org/licenses/by/4.0/","isPartOf":{"@id":"https://belegbar.eu/#dataset"},"about":{"@type":"Organization","name":"Gcore","url":"https://gcore.com","location":{"@type":"Place","name":"Contern, Luxemburg"}},"publisher":{"@type":"Organization","name":"belegbar.eu","url":"https://belegbar.eu"}}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Anbieter","item":"https://belegbar.eu/"},{"@type":"ListItem","position":2,"name":"Gcore","item":"https://belegbar.eu/anbieter/gcore/"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Gcore — Beleg-Check","url":"https://belegbar.eu/anbieter/gcore/","dateModified":"2026-10-04","license":"https://creativecommons.org/licenses/by/4.0/","isPartOf":{"@id":"https://belegbar.eu/#dataset"},"about":{"@type":"Organization","name":"Gcore","url":"https://gcore.com","location":{"@type":"Place","name":"Contern, Luxemburg"}},"publisher":{"@type":"Organization","name":"belegbar.eu","url":"https://belegbar.eu"}}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Anbieter","item":"https://belegbar.eu/"},{"@type":"ListItem","position":2,"name":"Gcore","item":"https://belegbar.eu/anbieter/gcore/"}]}</script>
 </head>
 <body>
 <a class="skip" href="#inhalt">Zum Inhalt springen</a>
@@ -99,14 +99,14 @@
 <div class="beleg">
     <div class="beleg-kopf"><span class="beleg-label">Kein Training mit Kundendaten</span><span class="status s-unbelegt"><span class="dot" aria-hidden="true"></span>unbelegt</span></div>
     <div class="beleg-wert"><span class="leer">keine belastbare Angabe gefunden</span></div>
-    <div class="beleg-anm">Keine explizite vertragliche Aussage gefunden, dass Kundendaten nicht für Modelltraining genutzt werden; die Architektur (dedizierte Deployments) legt es nahe, ist aber kein prüfbares Dokument</div>
-    <div class="beleg-fuss"><span class="quelle">geprüft 20.08.2026</span></div>
+    <div class="beleg-anm">Kein ausdrücklicher Trainingsausschluss, auch nicht in der Inference-Doku (docs.gcore.com, 04.10.2026). Der MSA bindet nur den Zweck: Lizenz an Customer Content 'solely for the purposes of this Agreement' (§7.2), Nutzung von Customer Data 'solely on behalf of Customer, except where Gcore acts as an independent data controller' (§8.3). Die Modellseiten ('Your data and model interactions never leave our secure infrastructure') betreffen den Ort, nicht das Training. Archivkopie: web.archive.org/web/20261004055218/https://gcore.com/legal</div>
+    <div class="beleg-fuss"><span class="quelle"><a href="https://gcore.com/legal" rel="noopener nofollow" target="_blank">Quelle</a> · geprüft 04.10.2026</span></div>
   </div>
 <div class="beleg">
     <div class="beleg-kopf"><span class="beleg-label">Zero Data Retention</span><span class="status s-unbelegt"><span class="dot" aria-hidden="true"></span>unbelegt</span></div>
     <div class="beleg-wert"><span class="leer">keine belastbare Angabe gefunden</span></div>
-    <div class="beleg-anm">Keine ZDR-Zusage gefunden. MSA regelt nur Löschung von Customer Content nach Vertragsende (Standard 48 Stunden)</div>
-    <div class="beleg-fuss"><span class="quelle">geprüft 20.08.2026</span></div>
+    <div class="beleg-anm">Keine ZDR-Zusage, auch nicht in der Inference-Doku (docs.gcore.com, 04.10.2026; der Logs-Tab zeigt Pod-Ausgaben, eine Aufbewahrungsfrist steht nirgends). MSA §16.3 regelt nur die Löschung nach Vertragsende, zuerst nach der Leistungsbeschreibung: 'The 48-hour period shall apply only where no such specification exists.'</div>
+    <div class="beleg-fuss"><span class="quelle"><a href="https://gcore.com/legal" rel="noopener nofollow" target="_blank">Quelle</a> · geprüft 04.10.2026</span></div>
   </div>
 
   <h2>Zertifikate</h2>
@@ -125,7 +125,7 @@
 <div class="beleg">
     <div class="beleg-kopf"><span class="beleg-label">SOC 2</span><span class="status s-unbelegt"><span class="dot" aria-hidden="true"></span>unbelegt</span></div>
     <div class="beleg-wert"><a href="../../zertifikate/soc-2/">Wer weist SOC 2 nach?</a></div>
-    <div class="beleg-anm">Keine eigene SOC-2-Attestierung auffindbar</div>
+    <div class="beleg-anm">Keine eigene SOC-2-Attestierung auffindbar; die Compliance-Liste auf gcore.com/infrastructure nennt am 04.10.2026 nur PCI DSS, ISO 27001 und GDPR</div>
     <div class="beleg-fuss"><span class="quelle">geprüft 20.08.2026</span></div>
   </div>
 
@@ -148,15 +148,15 @@
   <p><a href="../../vergleich/gcore-vs-greenpt/">Gcore vs. GreenPT</a> · <a href="../../vergleich/gcore-vs-infomaniak/">Gcore vs. Infomaniak</a> · <a href="../../vergleich/gcore-vs-ionos/">Gcore vs. IONOS (AI Model Hub)</a> · <a href="../../vergleich/gcore-vs-lyceum/">Gcore vs. Lyceum Technology</a> · <a href="../../vergleich/gcore-vs-nebius/">Gcore vs. Nebius (Token Factory)</a> · <a href="../../vergleich/gcore-vs-nordference/">Gcore vs. Nordference</a> · <a href="../../vergleich/gcore-vs-ovhcloud/">Gcore vs. OVHcloud (AI Endpoints)</a> · <a href="../../vergleich/gcore-vs-regolo/">Gcore vs. Regolo.ai</a> · <a href="../../vergleich/gcore-vs-scaleway/">Gcore vs. Scaleway</a> · <a href="../../vergleich/gcore-vs-stackit/">Gcore vs. STACKIT</a> · <a href="../../vergleich/gcore-vs-t-systems/">Gcore vs. T-Systems / Open Telekom Cloud (AI Foundation Services)</a></p>
 
   <footer class="dossier-fuss">
-    <p>Vollständig geprüft am 20.08.2026, einzelne Angaben zuletzt am 03.10.2026 nachgeprüft. Alle Angaben ohne Gewähr, keine Rechtsberatung.</p>
+    <p>Vollständig geprüft am 20.08.2026, einzelne Angaben zuletzt am 04.10.2026 nachgeprüft. Alle Angaben ohne Gewähr, keine Rechtsberatung.</p>
     <p><strong>Sie arbeiten bei Gcore?</strong> Belege nachreichen, einen Fall beantworten oder den Verified-Stempel beantragen: <a href="../../fuer-anbieter/">Für Anbieter</a> — Belege, Fälle und Verified kostenlos, ohne Gegenleistung. Mail an <a href="mailto:hallo@belegbar.eu?subject=Verifizierung%20Gcore">hallo@belegbar.eu</a>.</p>
   </footer>
-  <aside class="zitat" aria-labelledby="zitat-545ca972-h">
-  <h2 id="zitat-545ca972-h">Zitieren</h2>
-  <pre id="zitat-545ca972">„Gcore — Beleg-Check“, belegbar.eu, Stand 03.10.2026, https://belegbar.eu/anbieter/gcore/, Lizenz CC BY 4.0</pre>
-  <button type="button" hidden data-kopiere="zitat-545ca972">Zitat kopieren</button>
+  <aside class="zitat" aria-labelledby="zitat-36876502-h">
+  <h2 id="zitat-36876502-h">Zitieren</h2>
+  <pre id="zitat-36876502">„Gcore — Beleg-Check“, belegbar.eu, Stand 04.10.2026, https://belegbar.eu/anbieter/gcore/, Lizenz CC BY 4.0</pre>
+  <button type="button" hidden data-kopiere="zitat-36876502">Zitat kopieren</button>
   <span class="klein">Rohdaten mit Quellen: <a href="daten.json">daten.json dieses Profils</a> · Das Datum im Zitat ist der Stand dieser Seite, nicht der des Anbieters.</span>
-  <script>(function(){var b=document.querySelector('[data-kopiere="zitat-545ca972"]');if(!b||!navigator.clipboard)return;b.hidden=false;b.addEventListener("click",function(){navigator.clipboard.writeText(document.getElementById("zitat-545ca972").textContent).then(function(){b.textContent="Kopiert";setTimeout(function(){b.textContent="Zitat kopieren";},1500);});});})();</script>
+  <script>(function(){var b=document.querySelector('[data-kopiere="zitat-36876502"]');if(!b||!navigator.clipboard)return;b.hidden=false;b.addEventListener("click",function(){navigator.clipboard.writeText(document.getElementById("zitat-36876502").textContent).then(function(){b.textContent="Kopiert";setTimeout(function(){b.textContent="Zitat kopieren";},1500);});});})();</script>
 </aside>
 </article>
 </main>
