@@ -89,8 +89,9 @@
       "wert": true,
       "status": "belegt",
       "quelle": "https://docs.llmhub.t-systems.net/reference/enterprise-trust",
-      "geprueft": "2026-10-03",
-      "anmerkung": "Für EU-betriebene Modelle keine Speicherung; bei proprietären Fremdmodellen gelten die Bedingungen des jeweiligen Anbieters."
+      "geprueft": "2026-10-05",
+      "fall": "2026-006",
+      "anmerkung": "Für EU-betriebene Modelle keine dauerhafte Speicherung; bei proprietären Fremdmodellen gelten die Bedingungen des jeweiligen Anbieters. Einschränkung: Die Trust-Seite sagt 'Not stored', die verbindliche Leistungsbeschreibung v1.23 (§ 2.3.1) beschreibt einen standardmäßig eingeschalteten Zwischenspeicher für begrenzte Zeit, je Anfrage abschaltbar (save_cache: false); Dauer und Zugriff ungeklärt, siehe Fall 2026-006."
     }
   },
   "zertifikate": [
@@ -176,7 +177,7 @@
   "geprueft": "2026-08-19",
   "url": "https://belegbar.eu/anbieter/t-systems/",
   "beleg_quote_prozent": 88,
-  "zuletzt_geprueft": "2026-10-03",
+  "zuletzt_geprueft": "2026-10-05",
   "rechtsraum": {
     "land": "DE",
     "name": "Deutschland",

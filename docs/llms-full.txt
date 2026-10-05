@@ -692,7 +692,7 @@ URL: https://belegbar.eu/anbieter/t-systems/ | Rohdaten: https://belegbar.eu/anb
 Kategorie: Inference-API | Sitz: Frankfurt am Main, Deutschland (DE) | Gegründet: 2000
 Rechtsraum: Deutschland — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
 Mutterkonzern: Deutsche Telekom AG | US-Eigentümerstruktur: nein
-Beleg-Quote: 88 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-10-03
+Beleg-Quote: 88 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-10-05
 
 Telekom-Tochter, die mit den AI Foundation Services (LLM Hub) über 30 offene LLMs DSGVO-konform auf der T-Cloud in Deutschland serviert und zusätzlich als Gateway proprietäre Modelle (GPT-5, Claude, Gemini) über Azure/GCP in Europa anbindet.
 
@@ -700,7 +700,7 @@ Vertrag und Datenschutz:
 - AVV / Auftragsverarbeitungsvertrag: https://www.t-cloud-public.com/_Resources/Persistent/7/4/4/5/744591c2cdff8be6c3876c3bf6e187fb024cad04/OTC%20ErgB-AV%20TDG_DE.pdf [Status: belegt] | Quelle: https://www.t-cloud-public.com/_Resources/Persistent/7/4/4/5/744591c2cdff8be6c3876c3bf6e187fb024cad04/OTC%20ErgB-AV%20TDG_DE.pdf | geprüft 2026-10-03 | Anmerkung: Öffentliches AVV-Dokument (Stand April 2026) für die Open Telekom Cloud; für AI Foundation Services DPA nach Telekom-Vorlage auf Anfrage.
 - Subprozessoren-Liste: kein Wert hinterlegt [Status: belegt] | Quelle: https://docs.llmhub.t-systems.net/reference/enterprise-trust | geprüft 2026-10-03 | Anmerkung: Keine öffentliche Listen-URL; Enterprise-Trust-Doku (03.10.2026) beschreibt Kategorie 1 jetzt als 'EU/EEA & adequacy-decision processing' (auch Länder mit Angemessenheitsbeschluss, nicht nur EU/EWR); die frühere Formulierung 'ohne Dritt-Subprozessoren' steht so nicht mehr da. Kategorie 2 (Fremdmodelle): 'The third-party provider may operate sub-processors worldwide'.
 - Kein Training mit Kundendaten: ja [Status: belegt] | Quelle: https://docs.llmhub.t-systems.net/reference/enterprise-trust | geprüft 2026-10-03 | Anmerkung: Wörtlich (03.10.2026): 'Regardless of which model you select hosted by Telekom, customer prompts and responses are never saved or used to train or fine-tune any model.' Tabelle: 'Training use: Not used for model training' in beiden Kategorien; Modellseite ergänzend: 'Customer data is not used for model training, regardless of which model you select.'
-- Zero Data Retention: ja [Status: belegt] | Quelle: https://docs.llmhub.t-systems.net/reference/enterprise-trust | geprüft 2026-10-03 | Anmerkung: Für EU-betriebene Modelle keine Speicherung; bei proprietären Fremdmodellen gelten die Bedingungen des jeweiligen Anbieters.
+- Zero Data Retention: ja [Status: belegt] | Quelle: https://docs.llmhub.t-systems.net/reference/enterprise-trust | geprüft 2026-10-05 | Anmerkung: Für EU-betriebene Modelle keine dauerhafte Speicherung; bei proprietären Fremdmodellen gelten die Bedingungen des jeweiligen Anbieters. Einschränkung: Die Trust-Seite sagt 'Not stored', die verbindliche Leistungsbeschreibung v1.23 (§ 2.3.1) beschreibt einen standardmäßig eingeschalteten Zwischenspeicher für begrenzte Zeit, je Anfrage abschaltbar (save_cache: false); Dauer und Zugriff ungeklärt, siehe Fall 2026-006.
 
 Zertifikate:
 - BSI C5 [normiert: bsi-c5] [Status: belegt] | Quelle: https://www.t-cloud-public.com/en/products-services/core-services/certifications | Anmerkung: BSI C5 Typ II (ISAE 3000) für die Open Telekom Cloud / T-Cloud.
