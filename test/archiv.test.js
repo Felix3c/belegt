@@ -1,7 +1,7 @@
 "use strict";
 const { test } = require("node:test");
 const assert = require("node:assert/strict");
-const { normText, zitatTeile, rohUrl, zitatInText, sammleFallZitate } = require("../lib/archiv.js");
+const { normText, zitatTeile, rohUrl, zitatInText, sammleFallZitate, istPdf, pdfTraegt } = require("../lib/archiv.js");
 
 test("normText: Tags, Entities, Trennzeichen und Groß-/Kleinschreibung fallen weg", () => {
   assert.equal(normText("<b>GDPR</b>&nbsp;compliant · ISO&#160;27001 — EU"), "gdpr compliant iso 27001 eu");
@@ -50,4 +50,23 @@ test("sammleFallZitate: behauptung und beleg, Einzelobjekt oder Liste", () => {
     { fall: "2026-009", feld: "beleg", nr: 0, zitat: "d e f", quelle: "q2", archiv: "w2" },
     { fall: "2026-009", feld: "beleg", nr: 1, zitat: "g h i", quelle: "q3", archiv: null },
   ]);
+});
+
+test("istPdf: erkennt PDF am Dateianfang, nicht an der Adresse", () => {
+  assert.equal(istPdf(Buffer.from("%PDF-1.7\n…")), true);
+  assert.equal(istPdf(Buffer.from("<!doctype html><title>x.pdf</title>")), false);
+});
+
+test("pdfTraegt: Archivkopie byte-gleich zur geprüften Rohkopie trägt, sonst Befund", () => {
+  const bytes = Buffer.from("%PDF-1.7 inhalt");
+  const sha = require("crypto").createHash("sha256").update(bytes).digest("hex");
+  assert.deepEqual(pdfTraegt(bytes, sha), { ok: true, grund: "" });
+  assert.equal(pdfTraegt(bytes, "0".repeat(64)).ok, false);
+  assert.match(pdfTraegt(bytes, "0".repeat(64)).grund, /weicht ab/);
+  assert.match(pdfTraegt(bytes, undefined).grund, /keine Prüfsumme/);
+});
+
+test("sammleFallZitate: reicht sha256 durch, wenn vorhanden", () => {
+  const fall = { id: "2026-009", beleg: [{ zitat: "a b c", quelle: "q", archiv: "w", sha256: "ab" }] };
+  assert.equal(sammleFallZitate(fall)[0].sha256, "ab");
 });

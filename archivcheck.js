@@ -3,6 +3,7 @@
  * belegbar.eu — Archiv-Check der Fälle.
  * Prüft für jedes Zitat in data/faelle/*.json, ob die Archivkopie abrufbar ist UND das Zitat wörtlich enthält.
  * Aufruf: node archivcheck.js   (Logik in lib/archiv.js; Erreichbarkeit der Profil-Quellen: linkcheck.js)
+ * PDF-Kopien: byte-gleich zur geprüften Rohkopie (sha256 am Zitat) statt Textsuche.
  * Exit 1 bei fehlender Kopie, Abruffehler oder fehlendem Zitat.
  */
 "use strict";
@@ -29,14 +30,19 @@ const DIR = path.join(__dirname, "data", "faelle");
     if (!seiten.has(url)) {
       try {
         const r = await fetch(url, { signal: AbortSignal.timeout(60000) });
-        seiten.set(url, r.ok ? await r.text() : new Error("HTTP " + r.status));
+        seiten.set(url, r.ok ? Buffer.from(await r.arrayBuffer()) : new Error("HTTP " + r.status));
       } catch (e) {
         seiten.set(url, e);
       }
     }
     const seite = seiten.get(url);
     if (seite instanceof Error) { befunde.push(wo + ": Archivkopie nicht abrufbar (" + seite.message + ") " + z.archiv); continue; }
-    const r = A.zitatInText(z.zitat, seite);
+    if (A.istPdf(seite)) {
+      const p = A.pdfTraegt(seite, z.sha256);
+      if (!p.ok) befunde.push(wo + ": " + p.grund + " " + z.archiv);
+      continue;
+    }
+    const r = A.zitatInText(z.zitat, seite.toString("utf8"));
     if (!r.ok) befunde.push(wo + ": Zitat fehlt in der Archivkopie " + z.archiv + "\n    fehlt: " + r.fehlt.join(" | "));
   }
 
