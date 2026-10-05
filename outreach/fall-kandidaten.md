@@ -384,3 +384,22 @@ Kein Statuswechsel im Profil; Einzelheiten in `NAECHSTE-SCHRITTE.md` (Stand 05.1
 - **Einordnung:** Verfügbarkeit ist kein Feld unserer Profile; nur vermerkt. Kein Fall.
 
 **Ungeklärt, kein Kandidat:** Die Produktseite schreibt bei „Base“ und „Batch“ je „Worldwide availability (non-EU)“. Ob damit Kunden außerhalb der EU gemeint sind oder der Ort der Verarbeitung, steht nirgends; die Dokumentation (03.02.2026) nennt als Ort Gravelines.
+
+## Nachtrag 05.10.2026, 10:52–11:15 UTC: GreenPT nachgeprüft, Nr. 38 neu (Dauerlauf)
+
+Kein Statuswechsel im Profil; Einzelheiten in `NAECHSTE-SCHRITTE.md` (Stand 05.10. 13:20). Fall 2026-002: Footer am 05.10. unverändert („Verified by independent audit · GDPR compliant · ISO 27001 · EU Hosted“, deutsche Startseite: „Durch unabhängige Prüfung bestätigt · DSGVO-konform · ISO 27001 · EU-gehostet“).
+
+**Nr. 38 (mittel), GreenPT, „nur EU“ neben einem eigenen US-Endpunkt:**
+- **Werbung, alle am 05.10.2026 abgerufen:**
+  - greenpt.com/sustainability (Wayback 20261005105944): „Every GreenPT workload runs inside the EU.“
+  - greenpt.com/privacy (Wayback 20261005110838): „All data processing happens exclusively within the European Union. Your information never crosses EU borders“ und „Every model is self-hosted on GreenPT infrastructure, so your data never leaves our environment.“
+  - greenpt.com/privacy-policy, „Last updated January 14, 2026“ (Wayback 20261005110142): „All your data stays in the European Union. GreenPT processes all personal data exclusively within EU data centres located in France“. Die Unterauftragnehmer-Tabelle derselben Seite nennt drei Hoster in Finnland und Brave Search (USA), Neuralwatt nicht.
+  - Deutsche Startseite greenpt.com/de (nicht archiviert, lokale Kopie): „Die Daten verlassen die EU zu keinem Zeitpunkt.“ und „Alle Daten werden innerhalb der EU verarbeitet“; auf derselben Seite oben das Banner „EU- und US-Regionen jetzt verfügbar“.
+- **Eigene Doku und Ankündigung:**
+  - Blog „EU and US regions are now available“, Robert Keus, 24.09.2026 (Wayback 20261005110329): „US inference is available through a dedicated endpoint, with Neuralwatt as the US inference provider.“ und „Existing integrations stay on the EU endpoint unless you explicitly change the base URL.“
+  - docs.greenpt.ai/regions (Wayback 20261005105804): „The default GreenPT endpoint always uses EU inference; to use US inference, call the US endpoint explicitly.“ US-Endpunkt `https://api.us.greenpt.ai/v1` mit fünf Modellen (deepseek-v4.1-flash, glm-5.3-flash, glm-5.3, kimi-k3, qwen3-embedding-8b).
+  - docs.greenpt.ai/privacy/processor (Wayback 20261005105622): Neuralwatt, „United States“, „Request content and generated output“; „Requests you send to the US endpoint may therefore be processed outside the EU.“ Ebenso docs.greenpt.ai/privacy/locations (Wayback 20261005110608).
+- **Einordnung:** Die absoluten Sätze („every workload“, „never crosses EU borders“, „zu keinem Zeitpunkt“) stimmen seit dem 24.09.2026 nicht mehr für jede Anfrage. Dagegen steht: Der US-Weg ist nur auf ausdrückliche Wahl der Basis-URL offen, der Standard bleibt EU, und GreenPT legt ihn selbst in Blog und Doku offen. Unabhängig vom US-Endpunkt widerspricht „self-hosted on GreenPT infrastructure“ der eigenen Liste mit drei Hosting-Partnern, und „exclusively … in France“ der Tabelle mit Finnland auf derselben Seite. Im Profil stehen US-Endpunkt und Neuralwatt jetzt in Kurzbeschreibung, Unterauftragnehmern und bei kimi-k3. Kein Entwurf, keine Frage an den Anbieter vorbereitet (Frage 135 an Felix).
+- **Ungeklärt:** wie Neuralwatt Inc. mit Anfragen umgeht (Speicherung, Training); GreenPT verweist auf deren Datenschutzerklärung, nicht geprüft. Ob es einen Übermittlungsmechanismus (Standardvertragsklauseln o. Ä.) für den US-Endpunkt gibt, steht auf den abgerufenen Seiten nicht.
+
+**Berichtigt, kein Kandidat:** Im Profil stand bei glm-5.2 „Preis am 03.10.2026 geändert“; der Changelog nennt den 26.09.2026 (von 1,25/4,30 € auf 1,55/4,60 €). Bei Brave Search stand „Standort nicht genannt“; die Tabelle nennt „USA“. Der Satz „No training on your data“ steht in der Privacy Policy nur im Seitenmenü; der wörtliche Beleg steht auf greenpt.com/privacy, die Quelle des Feldes zeigt jetzt dorthin.
