@@ -369,3 +369,18 @@ Der Nebenbefund vom 03.10. (Nachfolger von Nr. 8, „does not share it with prov
 **Zum Zertifikat:** Das Trust Center zeigt „ISO/IEC 27001:2022“, „Valid through Sep 15, 2029“, „Certificate 160926-1“, „Request certificate“. Eine Zertifizierungsstelle steht nirgends; in den eingebetteten Seitendaten ist `"auditor":null` und, bei ISO 27001 wie bei GDPR, `"status":"in-progress"` neben `"verification_status":"compliant"`. Was das Feld `status` im Werkzeug (Noru) bedeutet, ist ungeklärt; ich lese daraus nichts ab. Eine Websuche nach der Nummer fand keinen Registereintrag. Status bleibt `beansprucht`.
 
 **Nicht geprüft:** AGB (07.07.2026) und Datenschutzerklärung (17.09.2026) nur auf Training und Speicherung durchsucht (kein Treffer außer Buchhaltungsfristen), nicht ganz gelesen; die 46 Anbieterzeilen nicht einzeln gegen die Bedingungen der Anbieter gehalten (nur Mistral, Scaleway, Nebius gegen unsere Profile); Provider-Verzeichnis und einzelne Modellseiten nicht gelesen; IAF CertSearch nicht abgefragt; Handelsregister nicht abgefragt.
+
+## Nachtrag 05.10.2026, 07:29–07:40 UTC: OVHcloud nachgeprüft, Nr. 36 und 37 neu (Dauerlauf)
+
+Kein Statuswechsel im Profil; Einzelheiten in `NAECHSTE-SCHRITTE.md` (Stand 05.10. 09:40). Beide Kandidaten niedrig, kein Entwurf, keine Frage an den Anbieter vorbereitet.
+
+**Nr. 36 (niedrig), OVHcloud, „Zero data retention“ ohne die Batch-Ausnahme:**
+- **Werbung:** Produktseite www.ovhcloud.com/en/public-cloud/ai-endpoints/ (Wayback 20261005073237): „Zero data retention: We keep only the data required for billing purposes.“ Dieselbe Seite bietet „Base“ und „Batch“ (Beta) nebeneinander an.
+- **Vertrag:** Besondere Vertragsbedingungen für Public-Cloud-Dienste, Stand 26. August 2026, Anhang 10 Ziffer 2 (Wayback 20261005073126): „Der AI Endpoints Dienst beinhaltet keine Backups oder Storages, auch nicht für kurze Zeit (mit Ausnahme des Dienstes „AI Endpoint Batch API“, bei dem es sich um ein asynchrones Dienstangebot handelt, das die Ein- und Ausgabedaten des Dienstes vorübergehend speichert).“
+- **Einordnung:** Ein Batch-Dienst muss zwischenspeichern, das ist technisch erwartbar und steht offen im Vertrag; die Werbezeile nennt die Ausnahme nur nicht. Wie lange gespeichert wird, steht im Vertrag nicht (ungeklärt). Im Profil steht die Ausnahme jetzt in der Anmerkung und in der Kurzbeschreibung. Kein Fall.
+
+**Nr. 37 (niedrig), OVHcloud, zwei Verfügbarkeitszahlen auf einer Seite:**
+- Dieselbe Produktseite nennt im Block „Base“ „SLA: 99.98%“ und unter „Key features“ „Guaranteed service level API availability - 99.5% SLA.“ Der Vertrag (Anhang 10 Ziffer 4) gibt Gutschriften erst unterhalb von 99,5 % monatlicher Verfügbarkeit.
+- **Einordnung:** Verfügbarkeit ist kein Feld unserer Profile; nur vermerkt. Kein Fall.
+
+**Ungeklärt, kein Kandidat:** Die Produktseite schreibt bei „Base“ und „Batch“ je „Worldwide availability (non-EU)“. Ob damit Kunden außerhalb der EU gemeint sind oder der Ort der Verarbeitung, steht nirgends; die Dokumentation (03.02.2026) nennt als Ort Gravelines.
