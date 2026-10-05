@@ -1,6 +1,6 @@
 {
   "": {
-    "hash": "ba9e5197046145cf",
+    "hash": "f0d6e07db96d6385",
     "datum": "2026-10-05"
   },
   "404.html": {
@@ -8,7 +8,7 @@
     "datum": "2026-09-16"
   },
   "aenderungen/": {
-    "hash": "b6e843ccef5f9fae",
+    "hash": "a03986759cc120e6",
     "datum": "2026-10-05"
   },
   "anbieter/aleph-alpha/": {
@@ -28,8 +28,8 @@
     "datum": "2026-10-04"
   },
   "anbieter/exoscale/": {
-    "hash": "f2953c479aee4bad",
-    "datum": "2026-10-03"
+    "hash": "1451009a5d61e8b3",
+    "datum": "2026-10-05"
   },
   "anbieter/gcore/": {
     "hash": "f1acb3723f462353",
@@ -60,8 +60,8 @@
     "datum": "2026-10-04"
   },
   "anbieter/nebius/": {
-    "hash": "a5babd14745fdce7",
-    "datum": "2026-10-04"
+    "hash": "915c155fb4c8fdbd",
+    "datum": "2026-10-05"
   },
   "anbieter/nordference/": {
     "hash": "072592654744fcc9",
@@ -72,20 +72,20 @@
     "datum": "2026-10-03"
   },
   "anbieter/ovhcloud/": {
-    "hash": "b4427c1de36ba0fc",
-    "datum": "2026-10-03"
+    "hash": "6c9b89def84546f2",
+    "datum": "2026-10-05"
   },
   "anbieter/regolo/": {
-    "hash": "03bf189959497a12",
-    "datum": "2026-10-03"
+    "hash": "24dfeb953c06f8b1",
+    "datum": "2026-10-05"
   },
   "anbieter/requesty/": {
     "hash": "097251f119687f9e",
     "datum": "2026-10-03"
   },
   "anbieter/scaleway/": {
-    "hash": "7d55dcd037b7a659",
-    "datum": "2026-10-03"
+    "hash": "1698a0a6dacab24e",
+    "datum": "2026-10-05"
   },
   "anbieter/stackit/": {
     "hash": "325805c9d41a5f0f",
@@ -140,7 +140,7 @@
     "datum": "2026-10-05"
   },
   "fragen/uebersicht-eu-ki-anbieter-zertifikate-nachweis/": {
-    "hash": "5c64c9cd51c71424",
+    "hash": "4a06eb2b65d85e44",
     "datum": "2026-10-05"
   },
   "fuer-anbieter/": {
@@ -220,8 +220,8 @@
     "datum": "2026-10-04"
   },
   "vergleich/exoscale-vs-hetzner/": {
-    "hash": "c5766cb72782e61a",
-    "datum": "2026-10-04"
+    "hash": "3f14c5237cf8d911",
+    "datum": "2026-10-05"
   },
   "vergleich/gcore-vs-greenpt/": {
     "hash": "659c16212b373785",
@@ -492,24 +492,32 @@
     "datum": "2026-10-04"
   },
   "zertifikate/": {
-    "hash": "1b05b00808afa103",
-    "datum": "2026-10-04"
+    "hash": "c9c391633dd564e3",
+    "datum": "2026-10-05"
   },
   "zertifikate/bsi-c5/": {
     "hash": "6bf7b764cbc856bd",
     "datum": "2026-10-04"
   },
+  "zertifikate/csa-star/": {
+    "hash": "3f15d86ad56f8de1",
+    "datum": "2026-10-05"
+  },
+  "zertifikate/hds/": {
+    "hash": "49d42fe7deda4c78",
+    "datum": "2026-10-05"
+  },
   "zertifikate/iso-27001/": {
-    "hash": "12167407b90d146d",
+    "hash": "7d3e360e13f11c28",
     "datum": "2026-10-05"
   },
   "zertifikate/iso-27017/": {
-    "hash": "430e3fbf35e3bdfc",
-    "datum": "2026-10-04"
+    "hash": "8d73832e786a3b78",
+    "datum": "2026-10-05"
   },
   "zertifikate/iso-27018/": {
-    "hash": "5ce6cfd0243f7735",
-    "datum": "2026-10-04"
+    "hash": "3d9d3a51d111bbaa",
+    "datum": "2026-10-05"
   },
   "zertifikate/iso-27701/": {
     "hash": "5716c3ceacd2b824",
@@ -524,7 +532,7 @@
     "datum": "2026-10-05"
   },
   "zertifikate/tisax/": {
-    "hash": "c79cb89b275c0f84",
-    "datum": "2026-10-04"
+    "hash": "c778d09337d6c92f",
+    "datum": "2026-10-05"
   }
 }

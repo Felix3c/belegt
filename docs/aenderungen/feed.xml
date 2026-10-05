@@ -8,6 +8,55 @@
   <updated>2026-10-05T00:00:00Z</updated>
   <rights>CC BY 4.0</rights>
   <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-05-exoscale-modelle-gpt-oss-120b-dedicated-inference</id>
+    <title>Exoscale: Modell gpt-oss-120b (Dedicated Inference) — Quelle geändert</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-exoscale-modelle-gpt-oss-120b-dedicated-inference"/>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <content type="text">Betroffene Felder: Modell gpt-oss-120b (Dedicated Inference), Modell Qwen3-Coder-480B (Dedicated Inference) · Kein Tokenpreis: Dedicated Inference kostet nichts extra, abgerechnet wird die GPU-Zeit sekundengenau. Preistabelle der Seite (05.10.2026, unverändert seit 03.10.; Archivkopie web.archive.org/web/20261005025203 byte-gleich; die Seite ist jetzt unter /inference/dedicated/ verlinkt, die alte Adresse /dedicated-inference/ liefert denselben Inhalt): gpt-oss-120b auf 1x GPU RTX Pro 6000 ab 2,15 €/h (alternativ 4x GPU A5000 für 4,55 €/h); das bisher geführte 1,34 €/h (GPUA5000 small, Preis-API, 06.09.2026) ist der Preis für gpt-oss-20b, nicht für gpt-oss-120b. Beliebige Hugging-Face-Modelle deploybar. Standort laut Exoscale-Doku „Limits and Quotas“ (Dedicated Inference, Stand 30.09.2026): GPU-Verfügbarkeit „varies by zone and GPU type“; die Beispielausgabe zeigt RTX Pro 6000 in de-fra-1 (Frankfurt), hr-zag-1 (Zagreb), ch-dk-2 (Zürich), A5000 in at-vie-2 (Wien). Genf (ch-gva-2) ist dort nicht als GPU-Zone genannt. · Alte Quelle: https://www.exoscale.com/ai-cloud-infrastructure/dedicated-inference/ · Neue Quelle: https://www.exoscale.com/ai-cloud-infrastructure/inference/dedicated/</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-05-exoscale-modelle-managed-inference-modellkatalog</id>
+    <title>Exoscale: Modell Managed Inference (Modellkatalog) beansprucht → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-exoscale-modelle-managed-inference-modellkatalog"/>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <content type="text">Alte Quelle: https://www.exoscale.com/ai-cloud-infrastructure/managed-inference/</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-05-exoscale-modelle-on-demand-inference-modellkatalog</id>
+    <title>Exoscale: Modell On-Demand Inference (Modellkatalog) – → beansprucht</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-exoscale-modelle-on-demand-inference-modellkatalog"/>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <content type="text">Pay-per-Token-Dienst angekündigt ('Coming soon', Warteliste); wörtlich: 'Detailed pricing tiers per 1M tokens per model will be published upon launch.' und 'All models are planned to be deployed in both the EU and Switzerland locations'. Exoscale nennt den Dienst 'On-Demand Inference' (hier bis 03.10.2026 als 'Managed Inference' geführt; die alte Adresse /managed-inference/ liefert denselben Inhalt). Die Übersichtsseite /inference/ kündigt zusätzlich 'Batch Inference' an ('Coming soon'). Zu Speicherung und Training der Anfragen steht auf der Seite nichts. Abruf 05.10.2026, Archivkopie web.archive.org/web/20261005025311 byte-gleich. · Neue Quelle: https://www.exoscale.com/ai-cloud-infrastructure/inference/on-demand/</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-05-exoscale-zertifikate-csa-star-level-1</id>
+    <title>Exoscale: Zertifikat CSA STAR Level 1 – → beansprucht</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-exoscale-zertifikate-csa-star-level-1"/>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <content type="text">Selbstauskunft, kein Zertifikat. Exoscale schreibt: 'Exoscale participates in the CSA STAR program by publishing our self-assessment using the CAIQ', der ausgefüllte Fragebogen sei 'published on the CSA STAR Registry for full transparency'. In der Liste des CSA STAR Registry (cloudsecurityalliance.org/star/registry, Abruf 05.10.2026, 2.810 Einträge; Nebius und Scaleway stehen darin) war kein Eintrag unter Exoscale, Akenes oder A1 zu finden; ob er unter anderem Namen geführt wird, ist ungeklärt. Deshalb beansprucht, nicht belegt. Die Doku-Seite community.exoscale.com/platform/compliance/ nennt CSA STAR nicht (deshalb am 03.10.2026 hier entfernt), die Website exoscale.com/compliance/ führt es unter 'Security control frameworks'. Archivkopie web.archive.org/web/20261005024847 byte-gleich. · Neue Quelle: https://www.exoscale.com/compliance/csa-star/</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-05-exoscale-zertifikate-hds</id>
+    <title>Exoscale: Zertifikat HDS – → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-exoscale-zertifikate-hds"/>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <content type="text">Französische Zertifizierung für das Hosting von Gesundheitsdaten; Compliance-Seite: 'HDS French health data hosting certification', Scope 1–4 und 6. Bisher nur in der Anmerkung zu TISAX geführt. · Neue Quelle: https://community.exoscale.com/platform/compliance/</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-05-exoscale-zertifikate-iso-27017</id>
+    <title>Exoscale: Zertifikat ISO 27017 – → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-exoscale-zertifikate-iso-27017"/>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <content type="text">Compliance-Seite, Tabelle 'Third-Party Certifications': 'ISO/IEC 27017 Security controls for cloud services', Typ 'Certification'. Die Tabelle nennt als 'Latest Revision' 2022, die Zertifikatsseite exoscale.com/compliance/iso27017/ die Ausgabe ISO/IEC 27017:2015; Zertifikat nur im Compliance Center (NDA). Bisher nicht als eigener Eintrag geführt. Archivkopie web.archive.org/web/20261005024823 byte-gleich. · Neue Quelle: https://community.exoscale.com/platform/compliance/</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-05-exoscale-zertifikate-iso-27018</id>
+    <title>Exoscale: Zertifikat ISO 27018 – → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-exoscale-zertifikate-iso-27018"/>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <content type="text">Compliance-Seite, Tabelle 'Third-Party Certifications': 'ISO/IEC 27018 Protection of Personally Identifiable Information (PII) in public clouds', Typ 'Certification'. Die Tabelle nennt als 'Latest Revision' 2022, die Zertifikatsseite exoscale.com/compliance/iso27018/ die Ausgabe ISO/IEC 27018:2019; Zertifikat nur im Compliance Center (NDA). Bisher nicht als eigener Eintrag geführt. Archivkopie web.archive.org/web/20261005024823 byte-gleich. · Neue Quelle: https://community.exoscale.com/platform/compliance/</content>
+  </entry>
+  <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-05-nebius-vertrag.avv</id>
     <title>Nebius (Token Factory): AVV / Auftragsverarbeitungsvertrag — Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-nebius-vertrag.avv"/>
@@ -40,14 +89,14 @@
     <title>Nordference: AI Act: Transparenz-/Compliance-Angaben zum EU AI Act unbelegt → beansprucht</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-nordference-ai-act-transparenz--compliance-angaben-zum-eu-ai-act"/>
     <updated>2026-10-05T00:00:00Z</updated>
-    <content type="text">Vergleichstabelle auf der Startseite: Zeile 'EU AI Act Ready' mit Häkchen bei Nordference ('Typical Providers': 'Varies'). Kein Dokument, keine Erklärung, was damit zugesagt ist; die About-Seite spricht nur von 'upcoming AI Act requirements'. Bis 03.10.2026 stand hier 'unbelegt, keinerlei Angaben' — das Häkchen steht nicht als Text auf der Seite, sondern entsteht aus der Tabellen-Definition im Skript-Bündel (https://nordference.ai/assets/index-CGzvo87P.js, Archivkopie web.archive.org/web/20261005012917). · Neue Quelle: https://nordference.ai/</content>
+    <content type="text">Vergleichstabelle auf der Startseite: Zeile 'EU AI Act Ready' mit Häkchen bei Nordference ('Typical Providers': 'Varies'). Kein Dokument, keine Erklärung, was damit zugesagt ist; die About-Seite spricht nur von 'upcoming AI Act requirements'. Bis 03.10.2026 stand hier 'unbelegt, keinerlei Angaben' — das Häkchen steht nicht als Text auf der Seite, sondern entsteht aus der Tabellen-Definition im Skript-Bündel (https://nordference.ai/assets/index-CGzvo87P.js, Archivkopie web.archive.org/web/20261005012917). · Neue Quelle: https://nordference.ai/ · Commit 99a2de0: fix: Nordference nachgeprüft — Training per Startseiten-Satz belegt, AI Act als Häkchen beansprucht (bisher übersehen), private Beta und API-Host ohne DNS-Eintrag in der Kurzbeschreibung</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-05-nordference-vertrag.training-opt-out</id>
     <title>Nordference: Kein Training mit Kundendaten unbelegt → belegt</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-nordference-vertrag.training-opt-out"/>
     <updated>2026-10-05T00:00:00Z</updated>
-    <content type="text">Startseite, Abschnitt 'Built for Regulated Industries', Kachel 'Legal', wörtlich: 'Maintain attorney-client privilege with zero data retention. Your prompts and outputs are never stored or used for training.' Dazu die About-Seite: 'No black boxes, no hidden training on your data.' Einschränkung: Das ist Werbetext. In Terms of Service, Privacy Policy und GDPR-Seite (alle Stand 28.01.2026) kommt das Wort Training nicht vor; die Terms sagen nur 'You retain all rights to your input data and generated outputs.' Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 05.10.2026, Archivkopie web.archive.org/web/20261005012917 byte-gleich). · Neue Quelle: https://nordference.ai/</content>
+    <content type="text">Startseite, Abschnitt 'Built for Regulated Industries', Kachel 'Legal', wörtlich: 'Maintain attorney-client privilege with zero data retention. Your prompts and outputs are never stored or used for training.' Dazu die About-Seite: 'No black boxes, no hidden training on your data.' Einschränkung: Das ist Werbetext. In Terms of Service, Privacy Policy und GDPR-Seite (alle Stand 28.01.2026) kommt das Wort Training nicht vor; die Terms sagen nur 'You retain all rights to your input data and generated outputs.' Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 05.10.2026, Archivkopie web.archive.org/web/20261005012917 byte-gleich). · Neue Quelle: https://nordference.ai/ · Commit 99a2de0: fix: Nordference nachgeprüft — Training per Startseiten-Satz belegt, AI Act als Häkchen beansprucht (bisher übersehen), private Beta und API-Host ohne DNS-Eintrag in der Kurzbeschreibung</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-05-stackit-vertrag.avv</id>
