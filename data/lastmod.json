@@ -1,15 +1,15 @@
 {
   "": {
-    "hash": "0fd9e2c2781331e8",
-    "datum": "2026-10-04"
+    "hash": "ba9e5197046145cf",
+    "datum": "2026-10-05"
   },
   "404.html": {
     "hash": "826986f530da7952",
     "datum": "2026-09-16"
   },
   "aenderungen/": {
-    "hash": "c0a8976e4e557316",
-    "datum": "2026-10-04"
+    "hash": "b6e843ccef5f9fae",
+    "datum": "2026-10-05"
   },
   "anbieter/aleph-alpha/": {
     "hash": "4b2f93c5073a7e15",
@@ -64,8 +64,8 @@
     "datum": "2026-10-04"
   },
   "anbieter/nordference/": {
-    "hash": "44de2dcc5e8e0bee",
-    "datum": "2026-10-03"
+    "hash": "072592654744fcc9",
+    "datum": "2026-10-05"
   },
   "anbieter/opper-ai/": {
     "hash": "0d3f18ee0b6c4cf4",
@@ -136,12 +136,12 @@
     "datum": "2026-10-04"
   },
   "fragen/souveraene-ki-kommunen-anbieter/": {
-    "hash": "a88cdfba4a99c40f",
-    "datum": "2026-10-04"
+    "hash": "c0e3e8d7dc87e486",
+    "datum": "2026-10-05"
   },
   "fragen/uebersicht-eu-ki-anbieter-zertifikate-nachweis/": {
-    "hash": "0d3a1cb2e32361cd",
-    "datum": "2026-10-04"
+    "hash": "5c64c9cd51c71424",
+    "datum": "2026-10-05"
   },
   "fuer-anbieter/": {
     "hash": "4943ea8da501d2eb",
@@ -244,8 +244,8 @@
     "datum": "2026-10-04"
   },
   "vergleich/gcore-vs-nordference/": {
-    "hash": "13fed4699397d7b3",
-    "datum": "2026-10-04"
+    "hash": "1816eeacd8cd7fc9",
+    "datum": "2026-10-05"
   },
   "vergleich/gcore-vs-ovhcloud/": {
     "hash": "a96a82cc57571d48",
@@ -284,8 +284,8 @@
     "datum": "2026-10-04"
   },
   "vergleich/greenpt-vs-nordference/": {
-    "hash": "aa01c3a97678db3c",
-    "datum": "2026-10-04"
+    "hash": "2c32b405eb51d286",
+    "datum": "2026-10-05"
   },
   "vergleich/greenpt-vs-ovhcloud/": {
     "hash": "ddf7069d8399afd0",
@@ -320,8 +320,8 @@
     "datum": "2026-10-04"
   },
   "vergleich/infomaniak-vs-nordference/": {
-    "hash": "873290d1cc5612ac",
-    "datum": "2026-10-04"
+    "hash": "8369860049d8b570",
+    "datum": "2026-10-05"
   },
   "vergleich/infomaniak-vs-ovhcloud/": {
     "hash": "e3cf72a536d4c7c3",
@@ -352,8 +352,8 @@
     "datum": "2026-10-04"
   },
   "vergleich/ionos-vs-nordference/": {
-    "hash": "af81684e2ea7ac26",
-    "datum": "2026-10-04"
+    "hash": "c815be0bf9507e45",
+    "datum": "2026-10-05"
   },
   "vergleich/ionos-vs-ovhcloud/": {
     "hash": "4300f121c8ea76de",
@@ -380,8 +380,8 @@
     "datum": "2026-10-04"
   },
   "vergleich/lyceum-vs-nordference/": {
-    "hash": "b070df27709a22a8",
-    "datum": "2026-10-04"
+    "hash": "86a6b0206a83ca6c",
+    "datum": "2026-10-05"
   },
   "vergleich/lyceum-vs-ovhcloud/": {
     "hash": "fb472f5f8e940f27",
@@ -404,8 +404,8 @@
     "datum": "2026-10-04"
   },
   "vergleich/nebius-vs-nordference/": {
-    "hash": "7411782bc80909e3",
-    "datum": "2026-10-04"
+    "hash": "2c6105ae06009f64",
+    "datum": "2026-10-05"
   },
   "vergleich/nebius-vs-ovhcloud/": {
     "hash": "5579f9182f0a64a5",
@@ -428,24 +428,24 @@
     "datum": "2026-10-04"
   },
   "vergleich/nordference-vs-ovhcloud/": {
-    "hash": "a10dc1fbb90b9dc4",
-    "datum": "2026-10-04"
+    "hash": "0b2c64f8a41b421b",
+    "datum": "2026-10-05"
   },
   "vergleich/nordference-vs-regolo/": {
-    "hash": "7a84323390324fa8",
-    "datum": "2026-10-04"
+    "hash": "fdefec39b8acf451",
+    "datum": "2026-10-05"
   },
   "vergleich/nordference-vs-scaleway/": {
-    "hash": "201962803f36ff49",
-    "datum": "2026-10-04"
+    "hash": "95a2ef89fea59ee7",
+    "datum": "2026-10-05"
   },
   "vergleich/nordference-vs-stackit/": {
-    "hash": "2be0a45dbfbc2b2a",
-    "datum": "2026-10-04"
+    "hash": "0c5602c92d62f9e1",
+    "datum": "2026-10-05"
   },
   "vergleich/nordference-vs-t-systems/": {
-    "hash": "7a2da31823767acd",
-    "datum": "2026-10-04"
+    "hash": "267d4bf9480441ad",
+    "datum": "2026-10-05"
   },
   "vergleich/opper-ai-vs-requesty/": {
     "hash": "5c9a2c29193b006e",
@@ -500,8 +500,8 @@
     "datum": "2026-10-04"
   },
   "zertifikate/iso-27001/": {
-    "hash": "8f1a9a97fe8fa2fa",
-    "datum": "2026-10-04"
+    "hash": "12167407b90d146d",
+    "datum": "2026-10-05"
   },
   "zertifikate/iso-27017/": {
     "hash": "430e3fbf35e3bdfc",
@@ -520,8 +520,8 @@
     "datum": "2026-10-04"
   },
   "zertifikate/soc-2/": {
-    "hash": "12d2411d4251d876",
-    "datum": "2026-10-04"
+    "hash": "b8961d7690795f59",
+    "datum": "2026-10-05"
   },
   "zertifikate/tisax/": {
     "hash": "c79cb89b275c0f84",

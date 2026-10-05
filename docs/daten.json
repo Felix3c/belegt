@@ -1962,7 +1962,7 @@
       "id": "nordference",
       "name": "Nordference",
       "kategorie": "inference-api",
-      "kurzbeschreibung": "Estnischer Inference-Anbieter (Rechtsträger 3NV OÜ, Tallinner Rechenzentrumsbetreiber) für kleine Open-Source-Modelle (1B–12B), nach eigenen Angaben vollständig in Estland gehostet — sehr dünne öffentliche Dokumentation.",
+      "kurzbeschreibung": "Estnischer Inference-Anbieter (Rechtsträger 3NV OÜ, Tallinner Rechenzentrumsbetreiber) für kleine Open-Source-Modelle (1B–12B), nach eigenen Angaben vollständig in Estland gehostet — sehr dünne öffentliche Dokumentation. Zugang nur über eine private Beta („Request Beta Access“); der auf der Website genannte API-Host api.nordference.ai war am 05.10.2026 im DNS nicht eingetragen.",
       "stammdaten": {
         "sitz": "Tallinn, Estland",
         "land": "EE",
@@ -2018,25 +2018,29 @@
           "wert": null,
           "status": "beansprucht",
           "quelle": "https://nordference.ai/gdpr",
-          "anmerkung": "GDPR-Seite: 'Enterprise customers can request a DPA' — kein öffentliches Dokument"
+          "geprueft": "2026-10-05",
+          "anmerkung": "GDPR-Seite (Stand laut Seite: 28.01.2026), wörtlich: 'Enterprise customers can request a Data Processing Agreement (DPA) that outlines the terms under which we process data on their behalf. Contact sales@nordference.ai for more information.' Kein öffentliches Dokument, und laut diesem Satz nur für Enterprise-Kunden; ob Pay-as-you-go-Kunden einen AVV bekommen, steht nirgends. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 05.10.2026, Archivkopie web.archive.org/web/20261005012917 byte-gleich)."
         },
         "subprozessoren": {
           "wert": null,
           "status": "unbelegt",
           "quelle": null,
-          "anmerkung": "Keine Subprozessorliste auffindbar; unklar, ob Inference auf eigener Hardware (3NV TLL-1) oder bei Dritten läuft"
+          "geprueft": "2026-10-05",
+          "anmerkung": "Keine Subprozessorliste auffindbar (05.10.2026: die Website hat nur die Seiten Start, Models, Pricing, About, Privacy, Terms, SLA, GDPR; das Wort 'subprocessor' kommt im gesamten Text nicht vor). Zwei Hinweise auf Dritte: Die Privacy Policy nennt einen Zahlungsdienstleister ohne Namen ('payment information (processed securely through our payment provider)'), und die Website selbst wird über Cloudflare ausgeliefert (Antwortkopf 'Server: cloudflare', Nameserver bei Cloudflare). Dem steht die Aussage der GDPR-Seite gegenüber: 'we do not transfer data to third countries outside the EEA'. Unklar bleibt, ob Inference auf eigener Hardware (3NV TLL-1) oder bei Dritten läuft."
         },
         "training_opt_out": {
-          "wert": null,
-          "status": "unbelegt",
-          "quelle": null,
-          "anmerkung": "Training mit Kundendaten wird auf GDPR- und Privacy-Seiten nicht thematisiert"
+          "wert": true,
+          "status": "belegt",
+          "quelle": "https://nordference.ai/",
+          "geprueft": "2026-10-05",
+          "anmerkung": "Startseite, Abschnitt 'Built for Regulated Industries', Kachel 'Legal', wörtlich: 'Maintain attorney-client privilege with zero data retention. Your prompts and outputs are never stored or used for training.' Dazu die About-Seite: 'No black boxes, no hidden training on your data.' Einschränkung: Das ist Werbetext. In Terms of Service, Privacy Policy und GDPR-Seite (alle Stand 28.01.2026) kommt das Wort Training nicht vor; die Terms sagen nur 'You retain all rights to your input data and generated outputs.' Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 05.10.2026, Archivkopie web.archive.org/web/20261005012917 byte-gleich)."
         },
         "zero_data_retention": {
           "wert": true,
           "status": "belegt",
           "quelle": "https://nordference.ai/gdpr",
-          "anmerkung": "GDPR-Seite: 'Zero retention for inference data'; alle Daten laut Anbieter innerhalb der EU (Estland)"
+          "geprueft": "2026-10-05",
+          "anmerkung": "GDPR-Seite: 'Zero retention for inference data'; Privacy Policy (Stand 28.01.2026), Abschnitt 4, wörtlich: 'We maintain a zero data retention policy for inference data. Your prompts and model outputs are processed in real-time and are not stored on our systems. Account and billing information is retained as required by law.' Alle Daten laut Anbieter innerhalb der EU (Estland). Ob Protokolle (Zeitpunkt, Tokenzahl, IP-Adresse) gespeichert werden und wie lange, steht nirgends; als erhobene Nutzungsdaten nennt die Privacy Policy 'API calls, token counts'. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 05.10.2026, Archivkopie web.archive.org/web/20261005012917 byte-gleich)."
         }
       },
       "zertifikate": [
@@ -2044,7 +2048,8 @@
           "typ": "ISO 27001",
           "status": "beansprucht",
           "quelle": "https://nordference.ai",
-          "anmerkung": "Nur als Badge/Claim auf der Startseite; kein Zertifikat, kein Auditor, kein Nachweis auffindbar",
+          "geprueft": "2026-10-05",
+          "anmerkung": "Nur als Schlagwort in der Branchenkachel 'Government' auf der Startseite ('NIS2', 'EU Data Residency', 'ISO 27001'); kein Zertifikat, kein Auditor, kein Inhaber genannt, das Wort 'certified' kommt auf der gesamten Website nicht vor (05.10.2026).",
           "normiert": [
             "iso-27001"
           ]
@@ -2053,7 +2058,8 @@
           "typ": "SOC 2 Type II",
           "status": "beansprucht",
           "quelle": "https://nordference.ai",
-          "anmerkung": "Nur Startseiten-Claim, kein Report auffindbar",
+          "geprueft": "2026-10-05",
+          "anmerkung": "Nur als Schlagwort in der Branchenkachel 'Finance' auf der Startseite ('DORA', 'SOC 2 Type II', 'Audit Trails'); kein Report auffindbar (05.10.2026).",
           "normiert": [
             "soc-2"
           ]
@@ -2062,15 +2068,16 @@
       "ai_act": [
         {
           "pflicht": "Transparenz-/Compliance-Angaben zum EU AI Act",
-          "status": "unbelegt",
-          "quelle": null,
-          "anmerkung": "NIS2/DORA als Claim, zum AI Act keinerlei Angaben"
+          "status": "beansprucht",
+          "quelle": "https://nordference.ai/",
+          "geprueft": "2026-10-05",
+          "anmerkung": "Vergleichstabelle auf der Startseite: Zeile 'EU AI Act Ready' mit Häkchen bei Nordference ('Typical Providers': 'Varies'). Kein Dokument, keine Erklärung, was damit zugesagt ist; die About-Seite spricht nur von 'upcoming AI Act requirements'. Bis 03.10.2026 stand hier 'unbelegt, keinerlei Angaben' — das Häkchen steht nicht als Text auf der Seite, sondern entsteht aus der Tabellen-Definition im Skript-Bündel (https://nordference.ai/assets/index-CGzvo87P.js, Archivkopie web.archive.org/web/20261005012917)."
         }
       ],
-      "geprueft": "2026-10-03",
+      "geprueft": "2026-10-05",
       "url": "https://belegbar.eu/anbieter/nordference/",
-      "beleg_quote_prozent": 50,
-      "zuletzt_geprueft": "2026-10-03",
+      "beleg_quote_prozent": 58,
+      "zuletzt_geprueft": "2026-10-05",
       "rechtsraum": {
         "land": "EE",
         "name": "Estland",
@@ -3696,6 +3703,32 @@
         "sha": "7281970",
         "betreff": "fix: Nebius nachgeprüft — ZDR per DPA als Schalter belegt, Training widersprüchlich (Supplemental Terms 5.1 gegen DPA Anhang 3), eigene Subprozessoren-Liste der Token Factory"
       }
+    },
+    {
+      "datum": "2026-10-05",
+      "anbieter": "nordference",
+      "typ": "status",
+      "pfad": "ai_act[Transparenz-/Compliance-Angaben zum EU AI Act]",
+      "feld": "AI Act: Transparenz-/Compliance-Angaben zum EU AI Act",
+      "alt": "unbelegt",
+      "neu": "beansprucht",
+      "quelle_alt": null,
+      "quelle_neu": "https://nordference.ai/",
+      "grund": "Vergleichstabelle auf der Startseite: Zeile 'EU AI Act Ready' mit Häkchen bei Nordference ('Typical Providers': 'Varies'). Kein Dokument, keine Erklärung, was damit zugesagt ist; die About-Seite spricht nur von 'upcoming AI Act requirements'. Bis 03.10.2026 stand hier 'unbelegt, keinerlei Angaben' — das Häkchen steht nicht als Text auf der Seite, sondern entsteht aus der Tabellen-Definition im Skript-Bündel (https://nordference.ai/assets/index-CGzvo87P.js, Archivkopie web.archive.org/web/20261005012917).",
+      "commit": null
+    },
+    {
+      "datum": "2026-10-05",
+      "anbieter": "nordference",
+      "typ": "status",
+      "pfad": "vertrag.training_opt_out",
+      "feld": "Kein Training mit Kundendaten",
+      "alt": "unbelegt",
+      "neu": "belegt",
+      "quelle_alt": null,
+      "quelle_neu": "https://nordference.ai/",
+      "grund": "Startseite, Abschnitt 'Built for Regulated Industries', Kachel 'Legal', wörtlich: 'Maintain attorney-client privilege with zero data retention. Your prompts and outputs are never stored or used for training.' Dazu die About-Seite: 'No black boxes, no hidden training on your data.' Einschränkung: Das ist Werbetext. In Terms of Service, Privacy Policy und GDPR-Seite (alle Stand 28.01.2026) kommt das Wort Training nicht vor; die Terms sagen nur 'You retain all rights to your input data and generated outputs.' Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 05.10.2026, Archivkopie web.archive.org/web/20261005012917 byte-gleich).",
+      "commit": null
     },
     {
       "datum": "2026-10-05",
