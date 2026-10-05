@@ -95,6 +95,7 @@ Nachfassen bei den fünf vor dem 26.09. (zwei Wochen).
   verfällt die wörtliche Formulierung. Ziel: fünf Raster bis 30.09.
 - **D. Arndt, Bastians, Giebel:** waren die Anfragen vom 28.08. je draußen?
 - ~~Die acht indexierten Vergleichspaare gegenlesen~~ erledigt 04.10. (Dauerlauf, `a14b107`); Push + zwei Darstellungsfragen = Frage 65.
+- **Push main** (fünf Commits `9bc5bf0`…`14ba6db`, Fall 006 wird erst damit öffentlich; der Rechte-Filter des Dauerlaufs hat den Push am 05.10. 16:57 gesperrt): `git -C ~/belegt push origin main`. Die Mail an T-Systems nennt die Adresse belegbar.eu/faelle/t-systems-not-stored-cache/, bis zum Push gibt sie 404.
 - **GreenPT-Nachfrage senden** (Gmail-Entwurf an robert@greenpt.ai vom 05.10. 16:56, Absender auf hallo@ stellen; `outreach/mails/18-…`).
 - **Ausschreibungs-Baustein lesen** (Frage 96 a): `git checkout fuer-vergabestellen`, `docs/fuer-vergabestellen/index.html`, zurück `git checkout main`; danach „steht“ oder Änderungen. WBS-Zeile (96 b) kommt in die nächste WBS-Anfrage.
 - Exoscale-Hinweis per Mail ohne Fall (veraltete Zonen-Tabelle) — Claude entwirft auf Zuruf.
