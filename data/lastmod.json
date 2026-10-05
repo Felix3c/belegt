@@ -68,8 +68,8 @@
     "datum": "2026-10-05"
   },
   "anbieter/opper-ai/": {
-    "hash": "0d3f18ee0b6c4cf4",
-    "datum": "2026-10-03"
+    "hash": "096bf92526cf034a",
+    "datum": "2026-10-05"
   },
   "anbieter/ovhcloud/": {
     "hash": "6c9b89def84546f2",
@@ -212,7 +212,7 @@
     "datum": "2026-10-04"
   },
   "vergleich/eurouter-vs-opper-ai/": {
-    "hash": "b021f2d07619ada6",
+    "hash": "7d228de7ac9fd5bf",
     "datum": "2026-10-05"
   },
   "vergleich/eurouter-vs-requesty/": {
@@ -448,8 +448,8 @@
     "datum": "2026-10-05"
   },
   "vergleich/opper-ai-vs-requesty/": {
-    "hash": "5c9a2c29193b006e",
-    "datum": "2026-10-04"
+    "hash": "f9a38acd0310a45a",
+    "datum": "2026-10-05"
   },
   "vergleich/ovhcloud-vs-regolo/": {
     "hash": "808aa4134de24dc9",
@@ -508,7 +508,7 @@
     "datum": "2026-10-05"
   },
   "zertifikate/iso-27001/": {
-    "hash": "a75560d54869186c",
+    "hash": "215b2eb956758837",
     "datum": "2026-10-05"
   },
   "zertifikate/iso-27017/": {
@@ -528,7 +528,7 @@
     "datum": "2026-10-04"
   },
   "zertifikate/soc-2/": {
-    "hash": "4605bcd674bb0a7c",
+    "hash": "564feaf6bf515627",
     "datum": "2026-10-05"
   },
   "zertifikate/tisax/": {
