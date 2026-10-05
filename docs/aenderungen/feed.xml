@@ -57,6 +57,20 @@
     <content type="text">Compliance-Seite, Tabelle 'Third-Party Certifications': 'ISO/IEC 27018 Protection of Personally Identifiable Information (PII) in public clouds', Typ 'Certification'. Die Tabelle nennt als 'Latest Revision' 2022, die Zertifikatsseite exoscale.com/compliance/iso27018/ die Ausgabe ISO/IEC 27018:2019; Zertifikat nur im Compliance Center (NDA). Bisher nicht als eigener Eintrag geführt. Archivkopie web.archive.org/web/20261005024823 byte-gleich. · Neue Quelle: https://community.exoscale.com/platform/compliance/ · Commit 4e11beb: fix: Exoscale nachgeprüft — ISO 27017/27018 und HDS als eigene Einträge, CSA STAR Level 1 als beansprucht (Registry-Eintrag nicht auffindbar), On-Demand Inference statt Managed Inference, Anmerkungen zu Training und Speicherung präzisiert</content>
   </entry>
   <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-05-greenpt-vertrag.subprozessoren</id>
+    <title>GreenPT: Subprozessoren-Liste — Quelle geändert</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-greenpt-vertrag.subprozessoren"/>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <content type="text">Liste in der Doku (Data Processors, 05.10.2026), nach Region getrennt. EU-Endpunkt (Standard): Scaleway SAS (FR), Inceptron, Tensorix, Melious (alle Verda-Rechenzentrum, FI). US-Endpunkt api.us.greenpt.ai: Neuralwatt Inc. (USA), „Request content and generated output“, nur für Anfragen an diese Basis-URL. Unabhängig von der Region: Scaleway (Konto- und Nutzungsdaten), Mollie B.V. (NL, Zahlung), Google Workspace (Irland), Cirrux (NL), Brave Search (USA, nur search.greenpt.ai). Die Tabelle in der Privacy Policy auf greenpt.com/privacy-policy („Last updated January 14, 2026“) nennt Neuralwatt nicht · Alte Quelle: https://greenpt.com/privacy-policy · Neue Quelle: https://docs.greenpt.ai/privacy/processor</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-05-greenpt-vertrag.training-opt-out</id>
+    <title>GreenPT: Kein Training mit Kundendaten — Quelle geändert</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-greenpt-vertrag.training-opt-out"/>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <content type="text">greenpt.com/privacy (05.10.2026): „We never use your conversations, documents, or API traffic to train AI models, ours or anyone else's.“ Die Privacy Policy selbst (Stand 14.01.2026) enthält keinen Satz zum Training, 'No training on your data' steht dort nur im Seitenmenü. Hinweis: ToS enthalten eine Lizenz 'to operate and improve the Services'; Details regelt der DPA · Alte Quelle: https://greenpt.com/privacy-policy · Neue Quelle: https://greenpt.com/privacy</content>
+  </entry>
+  <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-05-nebius-vertrag.avv</id>
     <title>Nebius (Token Factory): AVV / Auftragsverarbeitungsvertrag — Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-nebius-vertrag.avv"/>

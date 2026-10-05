@@ -1,6 +1,6 @@
 {
   "": {
-    "hash": "70cc14c3880b0fa2",
+    "hash": "7d100602bfe31298",
     "datum": "2026-10-05"
   },
   "404.html": {
@@ -8,7 +8,7 @@
     "datum": "2026-09-16"
   },
   "aenderungen/": {
-    "hash": "6cf8f15c8f7e5d1a",
+    "hash": "df03a55821e8ed02",
     "datum": "2026-10-05"
   },
   "anbieter/aleph-alpha/": {
@@ -36,8 +36,8 @@
     "datum": "2026-10-04"
   },
   "anbieter/greenpt/": {
-    "hash": "a136ada4fb05aa3b",
-    "datum": "2026-10-03"
+    "hash": "5f8e5264cab5a1aa",
+    "datum": "2026-10-05"
   },
   "anbieter/hetzner/": {
     "hash": "9179410c2c4d6d1f",
@@ -132,7 +132,7 @@
     "datum": "2026-10-04"
   },
   "fragen/dsgvo-konform-inference-api-eu-hosting/": {
-    "hash": "5b39c72128932d9e",
+    "hash": "7ab4743e2bf6958b",
     "datum": "2026-10-05"
   },
   "fragen/souveraene-ki-kommunen-anbieter/": {
@@ -224,8 +224,8 @@
     "datum": "2026-10-05"
   },
   "vergleich/gcore-vs-greenpt/": {
-    "hash": "659c16212b373785",
-    "datum": "2026-10-04"
+    "hash": "22b56a1400ab6610",
+    "datum": "2026-10-05"
   },
   "vergleich/gcore-vs-infomaniak/": {
     "hash": "abc0b8b5ebb17510",
@@ -268,44 +268,44 @@
     "datum": "2026-10-04"
   },
   "vergleich/greenpt-vs-infomaniak/": {
-    "hash": "0c995302a724c083",
-    "datum": "2026-10-04"
+    "hash": "7b01128a16a341e3",
+    "datum": "2026-10-05"
   },
   "vergleich/greenpt-vs-ionos/": {
-    "hash": "6086d4bfa0955212",
-    "datum": "2026-10-04"
+    "hash": "5c6c738437a263aa",
+    "datum": "2026-10-05"
   },
   "vergleich/greenpt-vs-lyceum/": {
-    "hash": "b454c5f55890fb4a",
-    "datum": "2026-10-04"
+    "hash": "0fe3b6101ec3894b",
+    "datum": "2026-10-05"
   },
   "vergleich/greenpt-vs-nebius/": {
-    "hash": "21332d253f54093b",
-    "datum": "2026-10-04"
+    "hash": "09a989029b098ef6",
+    "datum": "2026-10-05"
   },
   "vergleich/greenpt-vs-nordference/": {
-    "hash": "2c32b405eb51d286",
+    "hash": "1bce12bdca3e55af",
     "datum": "2026-10-05"
   },
   "vergleich/greenpt-vs-ovhcloud/": {
-    "hash": "2d74aa7a4103b910",
+    "hash": "e0daad521619c7a5",
     "datum": "2026-10-05"
   },
   "vergleich/greenpt-vs-regolo/": {
-    "hash": "e7a57b7eaaa42368",
-    "datum": "2026-10-04"
+    "hash": "93d0417feee2109b",
+    "datum": "2026-10-05"
   },
   "vergleich/greenpt-vs-scaleway/": {
-    "hash": "33c4a1a34e6dfd41",
-    "datum": "2026-10-04"
+    "hash": "3b43ad2cb66bf9e5",
+    "datum": "2026-10-05"
   },
   "vergleich/greenpt-vs-stackit/": {
-    "hash": "138be910677b9837",
-    "datum": "2026-10-04"
+    "hash": "4cc893039166b5fe",
+    "datum": "2026-10-05"
   },
   "vergleich/greenpt-vs-t-systems/": {
-    "hash": "10230b990603deef",
-    "datum": "2026-10-04"
+    "hash": "f381921e0556625e",
+    "datum": "2026-10-05"
   },
   "vergleich/infomaniak-vs-ionos/": {
     "hash": "613d3fcad545ef78",
@@ -508,7 +508,7 @@
     "datum": "2026-10-05"
   },
   "zertifikate/iso-27001/": {
-    "hash": "c6dd0ed91ad13cc3",
+    "hash": "0ee01f68f9f0c420",
     "datum": "2026-10-05"
   },
   "zertifikate/iso-27017/": {
