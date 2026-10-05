@@ -5,9 +5,10 @@
   "feld": "vertrag.zero_data_retention",
   "titel": "T-Systems LLM Hub: „never saved“ und „Not stored“ — und in der eigenen Leistungsbeschreibung: Zwischenspeicher standardmäßig eingeschaltet",
   "kurz": "Die Trust-Seite des LLM Hub sagt ohne Einschränkung, dass Prompts und Antworten bei den von der Telekom betriebenen Modellen nie gespeichert werden, und fasst das in der Tabelle mit „Storage: Not stored“ zusammen. Dieselbe Seite nennt die Leistungsbeschreibung v1.23 die verbindliche Quelle. Dort steht in § 2.3.1: Bereits verarbeitete Anfragen werden für eine begrenzte Zeit zwischengespeichert, und diese Funktion ist standardmäßig eingeschaltet. Die Prefix-Caching-Doku sagt dasselbe. Auf der Trust-Seite kommt der Zwischenspeicher nur als Navigationslink vor.",
-  "eroeffnet": "",
+  "eroeffnet": "2026-10-05",
+  "anbieter_informiert": "2026-10-05",
   "status": "offen",
-  "antwort_frist": "",
+  "antwort_frist": "2026-10-20",
   "behauptung": [
     {
       "zitat": "Regardless of which model you select hosted by Telekom, customer prompts and responses are never saved or used to train or fine-tune any model.",
@@ -68,6 +69,10 @@
     {
       "datum": "2026-10-04",
       "ereignis": "Alle drei Quellen erneut abgerufen (15:51 UTC), byte-gleich zum Abruf vom 03.10.2026 (gleiche SHA-256). Anschreiben an den Anbieter als Entwurf vorbereitet, noch nicht gesendet."
+    },
+    {
+      "datum": "2026-10-05",
+      "ereignis": "Alle drei Quellen am Versandtag erneut abgerufen (14:48 UTC), byte-gleich zum Abruf vom 03.10.2026 (gleiche SHA-256). Anbieter per E-Mail (ai@t-systems.com, 13:10 UTC, von hallo@belegbar.eu) mit dem vollständigen Text des Falls informiert. Antwortfrist bis 20.10.2026. Fall veröffentlicht."
     }
   ]
 }
