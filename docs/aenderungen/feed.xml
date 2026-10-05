@@ -61,14 +61,35 @@
     <title>GreenPT: Subprozessoren-Liste — Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-greenpt-vertrag.subprozessoren"/>
     <updated>2026-10-05T00:00:00Z</updated>
-    <content type="text">Liste in der Doku (Data Processors, 05.10.2026), nach Region getrennt. EU-Endpunkt (Standard): Scaleway SAS (FR), Inceptron, Tensorix, Melious (alle Verda-Rechenzentrum, FI). US-Endpunkt api.us.greenpt.ai: Neuralwatt Inc. (USA), „Request content and generated output“, nur für Anfragen an diese Basis-URL. Unabhängig von der Region: Scaleway (Konto- und Nutzungsdaten), Mollie B.V. (NL, Zahlung), Google Workspace (Irland), Cirrux (NL), Brave Search (USA, nur search.greenpt.ai). Die Tabelle in der Privacy Policy auf greenpt.com/privacy-policy („Last updated January 14, 2026“) nennt Neuralwatt nicht · Alte Quelle: https://greenpt.com/privacy-policy · Neue Quelle: https://docs.greenpt.ai/privacy/processor</content>
+    <content type="text">Liste in der Doku (Data Processors, 05.10.2026), nach Region getrennt. EU-Endpunkt (Standard): Scaleway SAS (FR), Inceptron, Tensorix, Melious (alle Verda-Rechenzentrum, FI). US-Endpunkt api.us.greenpt.ai: Neuralwatt Inc. (USA), „Request content and generated output“, nur für Anfragen an diese Basis-URL. Unabhängig von der Region: Scaleway (Konto- und Nutzungsdaten), Mollie B.V. (NL, Zahlung), Google Workspace (Irland), Cirrux (NL), Brave Search (USA, nur search.greenpt.ai). Die Tabelle in der Privacy Policy auf greenpt.com/privacy-policy („Last updated January 14, 2026“) nennt Neuralwatt nicht · Alte Quelle: https://greenpt.com/privacy-policy · Neue Quelle: https://docs.greenpt.ai/privacy/processor · Commit f762744: fix: GreenPT nachgeprüft — kein Statuswechsel, Preise unverändert; US-Endpunkt seit 24.09.2026 (api.us.greenpt.ai, Neuralwatt Inc.) in Kurzbeschreibung, Unterauftragnehmern und bei kimi-k3 ergänzt; Unterauftragnehmer-Quelle auf die Doku-Liste (Data Processors), Brave Search mit Standort USA; Training-Quelle auf greenpt.com/privacy; glm-5.2-Preisänderung auf 26.09.2026 berichtigt; Footer ISO 27001 unverändert</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-05-greenpt-vertrag.training-opt-out</id>
     <title>GreenPT: Kein Training mit Kundendaten — Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-greenpt-vertrag.training-opt-out"/>
     <updated>2026-10-05T00:00:00Z</updated>
-    <content type="text">greenpt.com/privacy (05.10.2026): „We never use your conversations, documents, or API traffic to train AI models, ours or anyone else's.“ Die Privacy Policy selbst (Stand 14.01.2026) enthält keinen Satz zum Training, 'No training on your data' steht dort nur im Seitenmenü. Hinweis: ToS enthalten eine Lizenz 'to operate and improve the Services'; Details regelt der DPA · Alte Quelle: https://greenpt.com/privacy-policy · Neue Quelle: https://greenpt.com/privacy</content>
+    <content type="text">greenpt.com/privacy (05.10.2026): „We never use your conversations, documents, or API traffic to train AI models, ours or anyone else's.“ Die Privacy Policy selbst (Stand 14.01.2026) enthält keinen Satz zum Training, 'No training on your data' steht dort nur im Seitenmenü. Hinweis: ToS enthalten eine Lizenz 'to operate and improve the Services'; Details regelt der DPA · Alte Quelle: https://greenpt.com/privacy-policy · Neue Quelle: https://greenpt.com/privacy · Commit f762744: fix: GreenPT nachgeprüft — kein Statuswechsel, Preise unverändert; US-Endpunkt seit 24.09.2026 (api.us.greenpt.ai, Neuralwatt Inc.) in Kurzbeschreibung, Unterauftragnehmern und bei kimi-k3 ergänzt; Unterauftragnehmer-Quelle auf die Doku-Liste (Data Processors), Brave Search mit Standort USA; Training-Quelle auf greenpt.com/privacy; glm-5.2-Preisänderung auf 26.09.2026 berichtigt; Footer ISO 27001 unverändert</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-05-mistral-zertifikate-iso-27001</id>
+    <title>Mistral AI (La Plateforme): Zertifikat ISO 27001 belegt → beansprucht</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-mistral-zertifikate-iso-27001"/>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <content type="text">Anbieterangabe ohne Dokument: Zertifizierungsstelle, Zertifikatsnummer und Laufzeit sind öffentlich nicht genannt. Offizielle Aussage: SOC 2 Type II und ISO 27001/27701; Report nur auf Anfrage über Trust Center. Wortlaut des Hilfe-Artikels (12.08.2026, am 05.10.2026 unverändert): „Yes, Mistral complies with both SOC 2 Type II and ISO 27001/27701 frameworks.“ Der Satz sagt „complies with“, nicht „certified“; Zertifizierungsstelle, Zertifikatsnummer und Laufzeit stehen dort nicht, das Trust Center (trust.mistral.ai) ist ohne Browser nicht lesbar und wurde nicht eingesehen. Das gilt ebenso für die Einträge SOC 2 Type II und ISO 27701. · Commit f6959b0: fix: Nordference Training und Mistral-Zertifikate auf beansprucht — Nordference: nur Werbesatz der Startseite, kein Vertragstext (Frage 106 a); Mistral ISO 27001, SOC 2 Type II, ISO 27701: Stelle, Nummer und Laufzeit öffentlich nicht genannt, gleicher Maßstab wie Opper (Frage 129 b)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-05-mistral-zertifikate-iso-27701</id>
+    <title>Mistral AI (La Plateforme): Zertifikat ISO 27701 belegt → beansprucht</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-mistral-zertifikate-iso-27701"/>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <content type="text">Anbieterangabe ohne Dokument: Zertifizierungsstelle, Zertifikatsnummer und Laufzeit sind öffentlich nicht genannt. Datenschutz-Erweiterung zu ISO 27001. · Commit f6959b0: fix: Nordference Training und Mistral-Zertifikate auf beansprucht — Nordference: nur Werbesatz der Startseite, kein Vertragstext (Frage 106 a); Mistral ISO 27001, SOC 2 Type II, ISO 27701: Stelle, Nummer und Laufzeit öffentlich nicht genannt, gleicher Maßstab wie Opper (Frage 129 b)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-05-mistral-zertifikate-soc-2-type-ii</id>
+    <title>Mistral AI (La Plateforme): Zertifikat SOC 2 Type II belegt → beansprucht</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-mistral-zertifikate-soc-2-type-ii"/>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <content type="text">Anbieterangabe ohne Dokument: Prüfstelle, Berichtsnummer und Laufzeit sind öffentlich nicht genannt. Report sales-gated, Zugang via Trust Center anfragbar. · Commit f6959b0: fix: Nordference Training und Mistral-Zertifikate auf beansprucht — Nordference: nur Werbesatz der Startseite, kein Vertragstext (Frage 106 a); Mistral ISO 27001, SOC 2 Type II, ISO 27701: Stelle, Nummer und Laufzeit öffentlich nicht genannt, gleicher Maßstab wie Opper (Frage 129 b)</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-05-nebius-vertrag.avv</id>
@@ -111,6 +132,13 @@
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-nordference-vertrag.training-opt-out"/>
     <updated>2026-10-05T00:00:00Z</updated>
     <content type="text">Startseite, Abschnitt 'Built for Regulated Industries', Kachel 'Legal', wörtlich: 'Maintain attorney-client privilege with zero data retention. Your prompts and outputs are never stored or used for training.' Dazu die About-Seite: 'No black boxes, no hidden training on your data.' Einschränkung: Das ist Werbetext. In Terms of Service, Privacy Policy und GDPR-Seite (alle Stand 28.01.2026) kommt das Wort Training nicht vor; die Terms sagen nur 'You retain all rights to your input data and generated outputs.' Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 05.10.2026, Archivkopie web.archive.org/web/20261005012917 byte-gleich). · Neue Quelle: https://nordference.ai/ · Commit 99a2de0: fix: Nordference nachgeprüft — Training per Startseiten-Satz belegt, AI Act als Häkchen beansprucht (bisher übersehen), private Beta und API-Host ohne DNS-Eintrag in der Kurzbeschreibung</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-05-nordference-vertrag.training-opt-out-2</id>
+    <title>Nordference: Kein Training mit Kundendaten belegt → beansprucht</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-nordference-vertrag.training-opt-out-2"/>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <content type="text">Startseite, Abschnitt 'Built for Regulated Industries', Kachel 'Legal', wörtlich: 'Maintain attorney-client privilege with zero data retention. Your prompts and outputs are never stored or used for training.' Dazu die About-Seite: 'No black boxes, no hidden training on your data.' Das ist Werbetext ohne Vertragstext, deshalb Anbieterangabe und nicht belegt: In Terms of Service, Privacy Policy und GDPR-Seite (alle Stand 28.01.2026) kommt das Wort Training nicht vor; die Terms sagen nur 'You retain all rights to your input data and generated outputs.' Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 05.10.2026, Archivkopie web.archive.org/web/20261005012917 byte-gleich). · Commit f6959b0: fix: Nordference Training und Mistral-Zertifikate auf beansprucht — Nordference: nur Werbesatz der Startseite, kein Vertragstext (Frage 106 a); Mistral ISO 27001, SOC 2 Type II, ISO 27701: Stelle, Nummer und Laufzeit öffentlich nicht genannt, gleicher Maßstab wie Opper (Frage 129 b)</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-05-ovhcloud-vertrag.avv</id>

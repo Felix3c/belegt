@@ -70,10 +70,10 @@
     },
     "training_opt_out": {
       "wert": true,
-      "status": "belegt",
+      "status": "beansprucht",
       "quelle": "https://nordference.ai/",
       "geprueft": "2026-10-05",
-      "anmerkung": "Startseite, Abschnitt 'Built for Regulated Industries', Kachel 'Legal', wörtlich: 'Maintain attorney-client privilege with zero data retention. Your prompts and outputs are never stored or used for training.' Dazu die About-Seite: 'No black boxes, no hidden training on your data.' Einschränkung: Das ist Werbetext. In Terms of Service, Privacy Policy und GDPR-Seite (alle Stand 28.01.2026) kommt das Wort Training nicht vor; die Terms sagen nur 'You retain all rights to your input data and generated outputs.' Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 05.10.2026, Archivkopie web.archive.org/web/20261005012917 byte-gleich)."
+      "anmerkung": "Startseite, Abschnitt 'Built for Regulated Industries', Kachel 'Legal', wörtlich: 'Maintain attorney-client privilege with zero data retention. Your prompts and outputs are never stored or used for training.' Dazu die About-Seite: 'No black boxes, no hidden training on your data.' Das ist Werbetext ohne Vertragstext, deshalb Anbieterangabe und nicht belegt: In Terms of Service, Privacy Policy und GDPR-Seite (alle Stand 28.01.2026) kommt das Wort Training nicht vor; die Terms sagen nur 'You retain all rights to your input data and generated outputs.' Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 05.10.2026, Archivkopie web.archive.org/web/20261005012917 byte-gleich)."
     },
     "zero_data_retention": {
       "wert": true,
@@ -116,7 +116,7 @@
   ],
   "geprueft": "2026-10-05",
   "url": "https://belegbar.eu/anbieter/nordference/",
-  "beleg_quote_prozent": 58,
+  "beleg_quote_prozent": 50,
   "zuletzt_geprueft": "2026-10-05",
   "rechtsraum": {
     "land": "EE",
