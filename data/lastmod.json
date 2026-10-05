@@ -1,6 +1,6 @@
 {
   "": {
-    "hash": "f0d6e07db96d6385",
+    "hash": "70cc14c3880b0fa2",
     "datum": "2026-10-05"
   },
   "404.html": {
@@ -8,7 +8,7 @@
     "datum": "2026-09-16"
   },
   "aenderungen/": {
-    "hash": "5bd4bf747c394e45",
+    "hash": "bc2282bf2b5b762c",
     "datum": "2026-10-05"
   },
   "anbieter/aleph-alpha/": {
@@ -72,7 +72,7 @@
     "datum": "2026-10-05"
   },
   "anbieter/ovhcloud/": {
-    "hash": "6c9b89def84546f2",
+    "hash": "60af7319459dae3e",
     "datum": "2026-10-05"
   },
   "anbieter/regolo/": {
@@ -132,8 +132,8 @@
     "datum": "2026-10-04"
   },
   "fragen/dsgvo-konform-inference-api-eu-hosting/": {
-    "hash": "d937d51092fa8967",
-    "datum": "2026-10-04"
+    "hash": "5b39c72128932d9e",
+    "datum": "2026-10-05"
   },
   "fragen/souveraene-ki-kommunen-anbieter/": {
     "hash": "c0e3e8d7dc87e486",
@@ -248,8 +248,8 @@
     "datum": "2026-10-05"
   },
   "vergleich/gcore-vs-ovhcloud/": {
-    "hash": "a96a82cc57571d48",
-    "datum": "2026-10-04"
+    "hash": "9ff8531d619b15e5",
+    "datum": "2026-10-05"
   },
   "vergleich/gcore-vs-regolo/": {
     "hash": "1ab51cee79576e42",
@@ -288,8 +288,8 @@
     "datum": "2026-10-05"
   },
   "vergleich/greenpt-vs-ovhcloud/": {
-    "hash": "ddf7069d8399afd0",
-    "datum": "2026-10-04"
+    "hash": "2d74aa7a4103b910",
+    "datum": "2026-10-05"
   },
   "vergleich/greenpt-vs-regolo/": {
     "hash": "e7a57b7eaaa42368",
@@ -324,8 +324,8 @@
     "datum": "2026-10-05"
   },
   "vergleich/infomaniak-vs-ovhcloud/": {
-    "hash": "e3cf72a536d4c7c3",
-    "datum": "2026-10-04"
+    "hash": "de894404d67288da",
+    "datum": "2026-10-05"
   },
   "vergleich/infomaniak-vs-regolo/": {
     "hash": "f892d6e4725219e8",
@@ -356,8 +356,8 @@
     "datum": "2026-10-05"
   },
   "vergleich/ionos-vs-ovhcloud/": {
-    "hash": "4300f121c8ea76de",
-    "datum": "2026-10-04"
+    "hash": "484fc37a448fe85c",
+    "datum": "2026-10-05"
   },
   "vergleich/ionos-vs-regolo/": {
     "hash": "22a0f700ae2da84f",
@@ -384,8 +384,8 @@
     "datum": "2026-10-05"
   },
   "vergleich/lyceum-vs-ovhcloud/": {
-    "hash": "fb472f5f8e940f27",
-    "datum": "2026-10-04"
+    "hash": "d95145a273462d05",
+    "datum": "2026-10-05"
   },
   "vergleich/lyceum-vs-regolo/": {
     "hash": "3a598ac22cdf70e1",
@@ -408,8 +408,8 @@
     "datum": "2026-10-05"
   },
   "vergleich/nebius-vs-ovhcloud/": {
-    "hash": "5579f9182f0a64a5",
-    "datum": "2026-10-04"
+    "hash": "103f8c4298518d8f",
+    "datum": "2026-10-05"
   },
   "vergleich/nebius-vs-regolo/": {
     "hash": "5027736473745e44",
@@ -428,7 +428,7 @@
     "datum": "2026-10-04"
   },
   "vergleich/nordference-vs-ovhcloud/": {
-    "hash": "0b2c64f8a41b421b",
+    "hash": "93381a32776567a0",
     "datum": "2026-10-05"
   },
   "vergleich/nordference-vs-regolo/": {
@@ -452,20 +452,20 @@
     "datum": "2026-10-05"
   },
   "vergleich/ovhcloud-vs-regolo/": {
-    "hash": "808aa4134de24dc9",
-    "datum": "2026-10-04"
+    "hash": "3b502442a9b1ae93",
+    "datum": "2026-10-05"
   },
   "vergleich/ovhcloud-vs-scaleway/": {
-    "hash": "e369e678bd5e3a90",
-    "datum": "2026-10-04"
+    "hash": "64b65fce2b7d60a5",
+    "datum": "2026-10-05"
   },
   "vergleich/ovhcloud-vs-stackit/": {
-    "hash": "83319da558c4ae3a",
-    "datum": "2026-10-04"
+    "hash": "7f97dbc519d83e95",
+    "datum": "2026-10-05"
   },
   "vergleich/ovhcloud-vs-t-systems/": {
-    "hash": "e86066d7cbac2bca",
-    "datum": "2026-10-04"
+    "hash": "5028691f1808ccb5",
+    "datum": "2026-10-05"
   },
   "vergleich/regolo-vs-scaleway/": {
     "hash": "30f299a02d9d0a39",
@@ -508,7 +508,7 @@
     "datum": "2026-10-05"
   },
   "zertifikate/iso-27001/": {
-    "hash": "215b2eb956758837",
+    "hash": "bc2e3bfd0fe83625",
     "datum": "2026-10-05"
   },
   "zertifikate/iso-27017/": {
