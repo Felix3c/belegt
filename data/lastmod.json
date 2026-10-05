@@ -8,7 +8,7 @@
     "datum": "2026-09-16"
   },
   "aenderungen/": {
-    "hash": "a03986759cc120e6",
+    "hash": "5bd4bf747c394e45",
     "datum": "2026-10-05"
   },
   "anbieter/aleph-alpha/": {
@@ -24,8 +24,8 @@
     "datum": "2026-10-04"
   },
   "anbieter/eurouter/": {
-    "hash": "7254fbe1b9aaa090",
-    "datum": "2026-10-04"
+    "hash": "dca0610b1fbdc958",
+    "datum": "2026-10-05"
   },
   "anbieter/exoscale/": {
     "hash": "1451009a5d61e8b3",
@@ -212,12 +212,12 @@
     "datum": "2026-10-04"
   },
   "vergleich/eurouter-vs-opper-ai/": {
-    "hash": "cddf46f100e53d41",
-    "datum": "2026-10-04"
+    "hash": "b021f2d07619ada6",
+    "datum": "2026-10-05"
   },
   "vergleich/eurouter-vs-requesty/": {
-    "hash": "ad25a38daf720ac2",
-    "datum": "2026-10-04"
+    "hash": "8353ed848fe24c8f",
+    "datum": "2026-10-05"
   },
   "vergleich/exoscale-vs-hetzner/": {
     "hash": "3f14c5237cf8d911",
@@ -508,7 +508,7 @@
     "datum": "2026-10-05"
   },
   "zertifikate/iso-27001/": {
-    "hash": "7d3e360e13f11c28",
+    "hash": "a75560d54869186c",
     "datum": "2026-10-05"
   },
   "zertifikate/iso-27017/": {
@@ -528,7 +528,7 @@
     "datum": "2026-10-04"
   },
   "zertifikate/soc-2/": {
-    "hash": "b8961d7690795f59",
+    "hash": "4605bcd674bb0a7c",
     "datum": "2026-10-05"
   },
   "zertifikate/tisax/": {
