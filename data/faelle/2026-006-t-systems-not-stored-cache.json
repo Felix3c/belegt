@@ -73,6 +73,10 @@
     {
       "datum": "2026-10-05",
       "ereignis": "Alle drei Quellen am Versandtag erneut abgerufen (14:48 UTC), byte-gleich zum Abruf vom 03.10.2026 (gleiche SHA-256). Anbieter per E-Mail (ai@t-systems.com, 13:10 UTC, von hallo@belegbar.eu) mit dem vollständigen Text des Falls informiert. Antwortfrist bis 20.10.2026. Fall veröffentlicht."
+    },
+    {
+      "datum": "2026-10-06",
+      "ereignis": "Alle drei Quellen erneut abgerufen (16:12 UTC); alle drei Dateien unterscheiden sich vom Abruf vom 03.10.2026. Die Leistungsbeschreibung ist jetzt Version 1.24, Stand 30.09.2026; § 2.3.1 steht wörtlich unverändert, die Cache-Funktion ist weiter standardmäßig eingeschaltet. Die Trust-Seite enthält beide zitierten Sätze und „Not stored“ unverändert und nennt weiter v1.23 als verbindliche Quelle. Die Prefix-Caching-Doku enthält das zitierte Satzstück unverändert. Die Wayback-Aufnahme 20261006161218 der Leistungsbeschreibung ist byte-gleich zu unserer Kopie. Rohkopien: belege/faelle/2026-006/*-2026-10-06.* (SHA-256 in SHA256SUMS). Der Stand 30.09.2026 liegt vor unserer E-Mail vom 05.10.; ob die Änderung mit dem Fall zusammenhängt, ist ungeklärt. Am selben Tag (13:41 UTC) meldete Gmail, dass unsere E-Mail vom 05.10. an ai@t-systems.com noch nicht zugestellt ist: Der Mailserver der Telekom lehnt sie vorübergehend ab („554 … poor reputation of a domain used in message transfer“, Status 4.7.1); Gmail versucht die Zustellung bis 08.10.2026 15:10 UTC weiter. Ob der Anbieter den Fall erhalten hat, ist damit ungeklärt."
     }
   ]
 }
