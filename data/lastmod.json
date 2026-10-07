@@ -1,15 +1,15 @@
 {
   "": {
-    "hash": "6a00bb8624d05779",
-    "datum": "2026-10-05"
+    "hash": "41c8df1b3e557ead",
+    "datum": "2026-10-07"
   },
   "404.html": {
     "hash": "826986f530da7952",
     "datum": "2026-09-16"
   },
   "aenderungen/": {
-    "hash": "bded2588b8fb9c74",
-    "datum": "2026-10-05"
+    "hash": "38b1fa86ae6bb7d4",
+    "datum": "2026-10-07"
   },
   "anbieter/aleph-alpha/": {
     "hash": "4b2f93c5073a7e15",
@@ -48,8 +48,8 @@
     "datum": "2026-10-04"
   },
   "anbieter/ionos/": {
-    "hash": "bc2aa77ebb8e3083",
-    "datum": "2026-10-03"
+    "hash": "6b2dcde31c1cb1ba",
+    "datum": "2026-10-07"
   },
   "anbieter/lyceum/": {
     "hash": "ef563769358b1ec1",
@@ -100,52 +100,52 @@
     "datum": "2026-09-16"
   },
   "faelle/": {
-    "hash": "23aad31303839ed1",
-    "datum": "2026-10-05"
+    "hash": "8c63a06740b382fb",
+    "datum": "2026-10-07"
   },
   "faelle/black-forest-labs-zero-data-retention/": {
-    "hash": "deed2cb74aa957dd",
-    "datum": "2026-10-04"
+    "hash": "972a6c854691fc92",
+    "datum": "2026-10-07"
   },
   "faelle/greenpt-iso-27001/": {
-    "hash": "57291ef0b9ee324e",
-    "datum": "2026-10-04"
+    "hash": "00c9fadddb5b44b5",
+    "datum": "2026-10-07"
   },
   "faelle/requesty-zero-data-retention/": {
-    "hash": "00de5459e7a99bf4",
-    "datum": "2026-10-04"
+    "hash": "c94d4771339e3f53",
+    "datum": "2026-10-07"
   },
   "faelle/scaleway-generative-apis-no-access/": {
-    "hash": "1ae8d5d62c6154d6",
-    "datum": "2026-10-04"
+    "hash": "d9e66c2e0e51fd31",
+    "datum": "2026-10-07"
   },
   "faelle/t-systems-not-stored-cache/": {
-    "hash": "6e4cd4132994c452",
-    "datum": "2026-10-06"
+    "hash": "cb1d25d7ea3df578",
+    "datum": "2026-10-07"
   },
   "fragen/": {
-    "hash": "80b1ec33e227d727",
-    "datum": "2026-10-05"
+    "hash": "e0331cbc39a73cea",
+    "datum": "2026-10-07"
   },
   "fragen/ai-act-pflichten-nachweis-ki-anbieter/": {
-    "hash": "dcfb7d32b05278ed",
-    "datum": "2026-10-04"
+    "hash": "8eff5fcb54c7ac70",
+    "datum": "2026-10-07"
   },
   "fragen/bsi-c5-testat-ki-anbieter/": {
-    "hash": "795b342ea562c7ad",
-    "datum": "2026-10-04"
+    "hash": "de50a4e8030baccd",
+    "datum": "2026-10-07"
   },
   "fragen/dsgvo-konform-inference-api-eu-hosting/": {
-    "hash": "7ab4743e2bf6958b",
-    "datum": "2026-10-05"
+    "hash": "3cff44554c12c62e",
+    "datum": "2026-10-07"
   },
   "fragen/souveraene-ki-kommunen-anbieter/": {
-    "hash": "02bf69d327af0b77",
-    "datum": "2026-10-05"
+    "hash": "c64caff46d5c643a",
+    "datum": "2026-10-07"
   },
   "fragen/uebersicht-eu-ki-anbieter-zertifikate-nachweis/": {
-    "hash": "0cfd74161d671360",
-    "datum": "2026-10-05"
+    "hash": "bc03094a7da24499",
+    "datum": "2026-10-07"
   },
   "fuer-anbieter/": {
     "hash": "f756613e99d6c255",
@@ -236,8 +236,8 @@
     "datum": "2026-10-04"
   },
   "vergleich/gcore-vs-ionos/": {
-    "hash": "08a57ddd1966b48e",
-    "datum": "2026-10-04"
+    "hash": "b7f9319fa412c9e1",
+    "datum": "2026-10-07"
   },
   "vergleich/gcore-vs-lyceum/": {
     "hash": "217efb3062576020",
@@ -276,8 +276,8 @@
     "datum": "2026-10-05"
   },
   "vergleich/greenpt-vs-ionos/": {
-    "hash": "5c6c738437a263aa",
-    "datum": "2026-10-05"
+    "hash": "40741eb2af8d35ee",
+    "datum": "2026-10-07"
   },
   "vergleich/greenpt-vs-lyceum/": {
     "hash": "0fe3b6101ec3894b",
@@ -312,8 +312,8 @@
     "datum": "2026-10-05"
   },
   "vergleich/infomaniak-vs-ionos/": {
-    "hash": "613d3fcad545ef78",
-    "datum": "2026-10-04"
+    "hash": "a954494aedd628e2",
+    "datum": "2026-10-07"
   },
   "vergleich/infomaniak-vs-lyceum/": {
     "hash": "e1b84afca9424af8",
@@ -348,36 +348,36 @@
     "datum": "2026-10-05"
   },
   "vergleich/ionos-vs-lyceum/": {
-    "hash": "9b946bd0f24f4b84",
-    "datum": "2026-10-04"
+    "hash": "2aee1ca429a28d85",
+    "datum": "2026-10-07"
   },
   "vergleich/ionos-vs-nebius/": {
-    "hash": "5475000aec292894",
-    "datum": "2026-10-04"
+    "hash": "a83c3d5b28b72941",
+    "datum": "2026-10-07"
   },
   "vergleich/ionos-vs-nordference/": {
-    "hash": "5acd16aa886d51c3",
-    "datum": "2026-10-05"
+    "hash": "6972797b2ef3bab8",
+    "datum": "2026-10-07"
   },
   "vergleich/ionos-vs-ovhcloud/": {
-    "hash": "484fc37a448fe85c",
-    "datum": "2026-10-05"
+    "hash": "ee6c6899992e2e33",
+    "datum": "2026-10-07"
   },
   "vergleich/ionos-vs-regolo/": {
-    "hash": "22a0f700ae2da84f",
-    "datum": "2026-10-04"
+    "hash": "61c12e557de4baf6",
+    "datum": "2026-10-07"
   },
   "vergleich/ionos-vs-scaleway/": {
-    "hash": "16e665435713bf47",
-    "datum": "2026-10-04"
+    "hash": "b196c70316bfd8fc",
+    "datum": "2026-10-07"
   },
   "vergleich/ionos-vs-stackit/": {
-    "hash": "b2ffb59dd5720c33",
-    "datum": "2026-10-04"
+    "hash": "e831c0f2377981ed",
+    "datum": "2026-10-07"
   },
   "vergleich/ionos-vs-t-systems/": {
-    "hash": "83a3f38512657525",
-    "datum": "2026-10-05"
+    "hash": "0c116cae61265279",
+    "datum": "2026-10-07"
   },
   "vergleich/lyceum-vs-nebius/": {
     "hash": "19413e55566f9b84",
@@ -496,47 +496,47 @@
     "datum": "2026-10-05"
   },
   "zertifikate/": {
-    "hash": "70c2e040825538fc",
-    "datum": "2026-10-05"
+    "hash": "a3be7c2d8c7c9b10",
+    "datum": "2026-10-07"
   },
   "zertifikate/bsi-c5/": {
-    "hash": "6bf7b764cbc856bd",
-    "datum": "2026-10-04"
+    "hash": "181c07c12fc16339",
+    "datum": "2026-10-07"
   },
   "zertifikate/csa-star/": {
-    "hash": "3f15d86ad56f8de1",
-    "datum": "2026-10-05"
+    "hash": "470e01aca0008e67",
+    "datum": "2026-10-07"
   },
   "zertifikate/hds/": {
-    "hash": "49d42fe7deda4c78",
-    "datum": "2026-10-05"
+    "hash": "130c9465f225c7f4",
+    "datum": "2026-10-07"
   },
   "zertifikate/iso-27001/": {
-    "hash": "6e3457778a2b1b02",
-    "datum": "2026-10-05"
+    "hash": "8ea584bbabd15d6e",
+    "datum": "2026-10-07"
   },
   "zertifikate/iso-27017/": {
-    "hash": "8d73832e786a3b78",
-    "datum": "2026-10-05"
+    "hash": "97be58237390bfd7",
+    "datum": "2026-10-07"
   },
   "zertifikate/iso-27018/": {
-    "hash": "3d9d3a51d111bbaa",
-    "datum": "2026-10-05"
+    "hash": "1e00d85b5fb935b2",
+    "datum": "2026-10-07"
   },
   "zertifikate/iso-27701/": {
-    "hash": "c3a34c790544b12e",
-    "datum": "2026-10-05"
+    "hash": "6333e1a82142ca20",
+    "datum": "2026-10-07"
   },
   "zertifikate/iso-50001/": {
-    "hash": "3317d4e2640e54e8",
-    "datum": "2026-10-04"
+    "hash": "0d8b59a7fc150975",
+    "datum": "2026-10-07"
   },
   "zertifikate/soc-2/": {
-    "hash": "d7120886db47671a",
-    "datum": "2026-10-05"
+    "hash": "729d110d78432f68",
+    "datum": "2026-10-07"
   },
   "zertifikate/tisax/": {
-    "hash": "c778d09337d6c92f",
-    "datum": "2026-10-05"
+    "hash": "4548a3eabc68585e",
+    "datum": "2026-10-07"
   }
 }

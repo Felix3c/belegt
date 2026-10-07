@@ -1,6 +1,6 @@
 # belegbar.eu — vollständiger Datenbestand
 
-Stand: 2026-10-05. 21 europäische KI-Anbieter, jede Angabe mit Quelle, Prüfdatum und Beleg-Status.
+Stand: 2026-10-07. 21 europäische KI-Anbieter, jede Angabe mit Quelle, Prüfdatum und Beleg-Status.
 
 ## Wie diese Datei zu lesen ist
 
@@ -15,7 +15,7 @@ nachweisbar ist. Wer diese Daten zitiert, sollte den Status mitzitieren.
 Lizenz: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Nutzung und Zitat frei mit
 Namensnennung "belegbar.eu" und Angabe des Prüfdatums.
 
-Zitierform: belegbar.eu, Stand 2026-10-05, https://belegbar.eu
+Zitierform: belegbar.eu, Stand 2026-10-07, https://belegbar.eu
 
 ## Direkt beantwortete Fragen
 
@@ -339,19 +339,19 @@ URL: https://belegbar.eu/anbieter/ionos/ | Rohdaten: https://belegbar.eu/anbiete
 Kategorie: Inference-API | Sitz: Montabaur, Deutschland (DE) | Gegründet: 1988
 Rechtsraum: Deutschland — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
 Mutterkonzern: IONOS Group SE (Mehrheitseigner: United Internet AG) | US-Eigentümerstruktur: nein
-Beleg-Quote: 87 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-10-03
+Beleg-Quote: 87 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-10-07
 
 Deutscher Cloud-Anbieter, der über den AI Model Hub eine OpenAI-kompatible Inferenz-API für offene LLMs (Llama, Mistral, Qwen, gpt-oss) mit Datenverarbeitung ausschließlich in Deutschland anbietet.
 
 Vertrag und Datenschutz:
-- AVV / Auftragsverarbeitungsvertrag: https://www.ionos.de/terms-gtc/avv/ [Status: belegt] | Quelle: https://www.ionos.de/terms-gtc/avv/ | geprüft 2026-10-03 | Anmerkung: AVV nach Art. 28 Abs. 3 DSGVO; seit 19.07.2022 automatisch Bestandteil der IONOS AGB, kein separater Abschluss nötig.
-- Subprozessoren-Liste: https://www.ionos.de/terms-gtc/fileadmin/pdf/terms-gtc/DE/AVV/AVV_Liste_Subunternehmen_v4_5_DE.pdf [Status: belegt] | Quelle: https://www.ionos.de/terms-gtc/avv/ | geprüft 2026-10-03 | Anmerkung: Anhang 2 zum AVV ('Liste Subunternehmen', v4.5), direkt aus dem offiziellen AVV verlinkt; PDF abgerufen und existent. Ergänzend laut Data-Handling-Doku (docs.ionos.com, 03.10.2026): 'No third-party sub-processors are engaged for AI Model Hub'.
-- Kein Training mit Kundendaten: ja [Status: belegt] | Quelle: https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling | geprüft 2026-10-03 | Anmerkung: Doku wörtlich (Stand 03.10.2026): 'it is not used to train, fine-tune or otherwise improve any model; and it is not disclosed to any third party.' Kein Opt-out nötig. Die frühere Formulierung 'Your interactions remain private, free from logging, recording, or reuse for model training' steht auf der Seite nicht mehr. Ergänzend: 'No third-party sub-processors are engaged for AI Model Hub'
-- Zero Data Retention: ja [Status: belegt] | Quelle: https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling | geprüft 2026-10-03 | Anmerkung: Doku wörtlich (Stand 03.10.2026): 'never logged … not written to any log or to persistent storage'; 'The inference API is stateless per request'; weder Prompt noch Ausgabe werden persistent gespeichert. Neu dokumentiert: Metadaten (Zeitstempel, Modell, Tokenzahl) werden gespeichert. Die frühere Formulierung 'discarding user prompts and outputs at the end of each session' steht nicht mehr wörtlich da. Die Angabe zu Document Collections (RAG-Vektor-DB, persistent in Berlin) steht auf dieser Seite nicht (nicht erneut geprüft)
+- AVV / Auftragsverarbeitungsvertrag: https://www.ionos.de/terms-gtc/avv/ [Status: belegt] | Quelle: https://www.ionos.de/terms-gtc/avv/ | geprüft 2026-10-07 | Anmerkung: AVV nach Art. 28 Abs. 3 DSGVO; seit 19.07.2022 automatisch Bestandteil der IONOS AGB, kein separater Abschluss nötig.
+- Subprozessoren-Liste: https://www.ionos.de/terms-gtc/fileadmin/pdf/terms-gtc/DE/AVV/AVV_Liste_Subunternehmen_v4_5_DE.pdf [Status: belegt] | Quelle: https://www.ionos.de/terms-gtc/avv/ | geprüft 2026-10-07 | Anmerkung: Anhang 2 zum AVV ('Liste Subunternehmen', v4.5), direkt aus dem offiziellen AVV verlinkt; PDF abgerufen und existent (07.10.2026 weiter v4.5, Stand 04/2026). Ergänzend laut Data-Handling-Doku (docs.ionos.com, 03.10.2026): 'No third-party sub-processors are engaged for AI Model Hub'.
+- Kein Training mit Kundendaten: ja [Status: belegt] | Quelle: https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling | geprüft 2026-10-07 | Anmerkung: Doku wörtlich (Stand 03.10.2026): 'it is not used to train, fine-tune or otherwise improve any model; and it is not disclosed to any third party.' Kein Opt-out nötig. Die frühere Formulierung 'Your interactions remain private, free from logging, recording, or reuse for model training' steht auf der Seite nicht mehr. Ergänzend: 'No third-party sub-processors are engaged for AI Model Hub'
+- Zero Data Retention: ja [Status: belegt] | Quelle: https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling | geprüft 2026-10-07 | Anmerkung: Doku wörtlich (Stand 03.10.2026): 'never logged … not written to any log or to persistent storage'; 'The inference API is stateless per request'; weder Prompt noch Ausgabe werden persistent gespeichert. Neu dokumentiert: Metadaten (Zeitstempel, Modell, Tokenzahl) werden gespeichert. Die frühere Formulierung 'discarding user prompts and outputs at the end of each session' steht nicht mehr wörtlich da. Die Angabe zu Document Collections (RAG-Vektor-DB, persistent in Berlin) steht auf dieser Seite nicht (nicht erneut geprüft)
 
 Zertifikate:
-- ISO 27001 [normiert: iso-27001] [Status: belegt] | Quelle: https://cloud.ionos.de/zertifikate | Anmerkung: TÜV NORD für die IONOS Gruppe; zusätzlich ISO 27001 auf Basis IT-Grundschutz des BSI (BSI-IGZ-0730-2025, gültig bis 13.09.2028).
-- BSI C5 [normiert: bsi-c5] [Status: belegt] | Quelle: https://cloud.ionos.de/zertifikate | Anmerkung: C5:2020 Typ-1-Testat vom 28.05.2026, geprüft durch PwC nach ISAE 3000; bezieht sich auf IONOS-Cloud-Services, nicht explizit auf den AI Model Hub.
+- ISO 27001 [normiert: iso-27001] [Status: belegt] | Quelle: https://cloud.ionos.de/zertifikate | Anmerkung: TÜV NORD CERT für die IONOS Holding SE (ISO/IEC 27001:2022, Registrier-Nr. 44 121 160247-012, gültig 19.04.2025 bis 18.04.2028; Geltungsbereich: Infrastruktur, Plattformen und Applikationen in den Rechenzentren der IONOS); zusätzlich ISO 27001 auf Basis IT-Grundschutz des BSI (BSI-IGZ-0730-2025, gültig bis 13.09.2028, Geltungsbereich nennt Compute Engine, Managed Kubernetes und S3 Object Storage, den AI Model Hub nicht). Die AI-Model-Hub-Doku (07.10.2026) sagt nur 'IONOS CLOUD data centers are certified to ISO 27001'; beide Zertifikats-PDFs am 07.10.2026 von cloud.ionos.de/zertifikate abgerufen.
+- BSI C5 [normiert: bsi-c5] [Status: belegt] | Quelle: https://cloud.ionos.de/zertifikate | Anmerkung: C5:2020 Typ-1-Testat vom 28.05.2026, geprüft durch PwC nach ISAE 3000; Scope laut Zertifikatsseite 33 Services in 10 Service-Clustern, die Liste selbst nur auf Anfrage. Neu (abgerufen 07.10.2026, ob schon am 03.10. vorhanden ungeklärt): die Data-Handling-Doku sagt 'AI Model Hub falls within the scope of BSI C5' (Wayback 20261007214204) — Angabe des Anbieters, am Testat selbst von außen nicht prüfbar.
 - ISO 50001 [normiert: iso-50001] [Status: belegt] | Quelle: https://cloud.ionos.de/zertifikate | Anmerkung: Energiemanagement aller IONOS-Cloud-Rechenzentren.
 
 AI Act:
@@ -359,12 +359,12 @@ AI Act:
 - GPAI Code of Practice unterzeichnet [Status: unbelegt] | Anmerkung: Keine Erwähnung gefunden; als Hoster/Distributor fremder Modelle kein typischer Unterzeichner.
 
 Modelle und Preise (EUR je 1 Mio. Token, sofern keine andere Einheit genannt; „kein öffentlicher Preis“ = der Anbieter veröffentlicht keinen):
-- Llama 3.3 70B Instruct | Hosting: Deutschland | Input: 0.65 | Output: 0.65 | Preis-Stand: 2026-10-03 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
-- Llama 3.1 8B Instruct | Hosting: Deutschland | Preis: unbelegt | Preis-Stand: 2026-10-03 [Status: unbelegt] | Anmerkung: Aussage stand bis 2026-08-19 auf https://cloud.ionos.de/managed/ai-model-hub (0,15 € / 0,15 € je 1M), am 03.10.2026 nicht mehr — Modell nicht mehr in der Preisliste. Aktuell stattdessen u.a. Qwen3.5-9B (0,10/0,15 €) und Qwen3.8-27B (0,40/2,70 €)
-- Mistral Small 24B Instruct | Hosting: Deutschland | Input: 0.1 | Output: 0.3 | Preis-Stand: 2026-10-03 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
-- Mistral Nemo Instruct | Hosting: Deutschland | Input: 0.15 | Output: 0.15 | Preis-Stand: 2026-10-03 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
-- gpt-oss-120b | Hosting: Deutschland | Input: 0.15 | Output: 0.65 | Preis-Stand: 2026-10-03 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
-- Qwen3.5-397B-A17B | Hosting: Deutschland | Input: 0.6 | Output: 3.6 | Preis-Stand: 2026-10-03 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
+- Llama 3.3 70B Instruct | Hosting: Deutschland | Input: 0.65 | Output: 0.65 | Preis-Stand: 2026-10-07 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
+- Llama 3.1 8B Instruct | Hosting: Deutschland | Preis: unbelegt | Preis-Stand: 2026-10-07 [Status: unbelegt] | Anmerkung: Aussage stand bis 2026-08-19 auf https://cloud.ionos.de/managed/ai-model-hub (0,15 € / 0,15 € je 1M), am 03.10.2026 nicht mehr — Modell nicht mehr in der Preisliste. Aktuell stattdessen u.a. Qwen3.5-9B (0,10/0,15 €) und Qwen3.8-27B (0,40/2,70 €)
+- Mistral Small 24B Instruct | Hosting: Deutschland | Input: 0.1 | Output: 0.3 | Preis-Stand: 2026-10-07 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
+- Mistral Nemo Instruct | Hosting: Deutschland | Input: 0.15 | Output: 0.15 | Preis-Stand: 2026-10-07 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
+- gpt-oss-120b | Hosting: Deutschland | Input: 0.15 | Output: 0.65 | Preis-Stand: 2026-10-07 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
+- Qwen3.5-397B-A17B | Hosting: Deutschland | Input: 0.6 | Output: 3.6 | Preis-Stand: 2026-10-07 [Status: belegt] | Quelle: https://cloud.ionos.de/managed/ai-model-hub
 
 ### Lyceum Technology
 
