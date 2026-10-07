@@ -1,6 +1,6 @@
 {
   "": {
-    "hash": "41c8df1b3e557ead",
+    "hash": "c872489436ece09b",
     "datum": "2026-10-07"
   },
   "404.html": {
@@ -8,7 +8,7 @@
     "datum": "2026-09-16"
   },
   "aenderungen/": {
-    "hash": "38b1fa86ae6bb7d4",
+    "hash": "95c241f9dbc3e25b",
     "datum": "2026-10-07"
   },
   "anbieter/aleph-alpha/": {
@@ -16,8 +16,8 @@
     "datum": "2026-10-04"
   },
   "anbieter/black-forest-labs/": {
-    "hash": "e05de517e68a7c7e",
-    "datum": "2026-10-03"
+    "hash": "9b7135e67e291c40",
+    "datum": "2026-10-07"
   },
   "anbieter/deepl/": {
     "hash": "645cb90b6d7c0f84",
@@ -100,51 +100,51 @@
     "datum": "2026-09-16"
   },
   "faelle/": {
-    "hash": "8c63a06740b382fb",
+    "hash": "516091b2d474a0b3",
     "datum": "2026-10-07"
   },
   "faelle/black-forest-labs-zero-data-retention/": {
-    "hash": "972a6c854691fc92",
+    "hash": "abf6047559ff6f11",
     "datum": "2026-10-07"
   },
   "faelle/greenpt-iso-27001/": {
-    "hash": "00c9fadddb5b44b5",
+    "hash": "fc1b5a84b946fa60",
     "datum": "2026-10-07"
   },
   "faelle/requesty-zero-data-retention/": {
-    "hash": "c94d4771339e3f53",
+    "hash": "1a0c3ae10acd3b0d",
     "datum": "2026-10-07"
   },
   "faelle/scaleway-generative-apis-no-access/": {
-    "hash": "d9e66c2e0e51fd31",
+    "hash": "df210870f258584d",
     "datum": "2026-10-07"
   },
   "faelle/t-systems-not-stored-cache/": {
-    "hash": "cb1d25d7ea3df578",
+    "hash": "c095f2dd75d07647",
     "datum": "2026-10-07"
   },
   "fragen/": {
-    "hash": "e0331cbc39a73cea",
+    "hash": "b4585ec2c5c382f4",
     "datum": "2026-10-07"
   },
   "fragen/ai-act-pflichten-nachweis-ki-anbieter/": {
-    "hash": "8eff5fcb54c7ac70",
+    "hash": "a9a9f7e19d4c69b0",
     "datum": "2026-10-07"
   },
   "fragen/bsi-c5-testat-ki-anbieter/": {
-    "hash": "de50a4e8030baccd",
+    "hash": "264d6d3382177c7b",
     "datum": "2026-10-07"
   },
   "fragen/dsgvo-konform-inference-api-eu-hosting/": {
-    "hash": "3cff44554c12c62e",
+    "hash": "984fbc915f2f2241",
     "datum": "2026-10-07"
   },
   "fragen/souveraene-ki-kommunen-anbieter/": {
-    "hash": "c64caff46d5c643a",
+    "hash": "78e8c49864183343",
     "datum": "2026-10-07"
   },
   "fragen/uebersicht-eu-ki-anbieter-zertifikate-nachweis/": {
-    "hash": "bc03094a7da24499",
+    "hash": "ca26ec54a7d09d8a",
     "datum": "2026-10-07"
   },
   "fuer-anbieter/": {
@@ -192,8 +192,8 @@
     "datum": "2026-09-16"
   },
   "vergleich/aleph-alpha-vs-black-forest-labs/": {
-    "hash": "d3d4ff543bc30788",
-    "datum": "2026-10-04"
+    "hash": "a390e2902faac536",
+    "datum": "2026-10-07"
   },
   "vergleich/aleph-alpha-vs-deepl/": {
     "hash": "aed71070014d1e3b",
@@ -204,12 +204,12 @@
     "datum": "2026-10-05"
   },
   "vergleich/black-forest-labs-vs-deepl/": {
-    "hash": "f8dbe5bc93b4dd9d",
-    "datum": "2026-10-04"
+    "hash": "10ee3ce1911960b2",
+    "datum": "2026-10-07"
   },
   "vergleich/black-forest-labs-vs-mistral/": {
-    "hash": "e1f5ba2a3353fdf0",
-    "datum": "2026-10-05"
+    "hash": "0bdc3ae284326f16",
+    "datum": "2026-10-07"
   },
   "vergleich/deepl-vs-mistral/": {
     "hash": "f192e74bceb53577",
@@ -496,47 +496,47 @@
     "datum": "2026-10-05"
   },
   "zertifikate/": {
-    "hash": "a3be7c2d8c7c9b10",
+    "hash": "319c5ca7be47ff58",
     "datum": "2026-10-07"
   },
   "zertifikate/bsi-c5/": {
-    "hash": "181c07c12fc16339",
+    "hash": "855300ae06180395",
     "datum": "2026-10-07"
   },
   "zertifikate/csa-star/": {
-    "hash": "470e01aca0008e67",
+    "hash": "3d2279b9968cde97",
     "datum": "2026-10-07"
   },
   "zertifikate/hds/": {
-    "hash": "130c9465f225c7f4",
+    "hash": "10438c3a913d306c",
     "datum": "2026-10-07"
   },
   "zertifikate/iso-27001/": {
-    "hash": "8ea584bbabd15d6e",
+    "hash": "91ff2cbdaaa834bd",
     "datum": "2026-10-07"
   },
   "zertifikate/iso-27017/": {
-    "hash": "97be58237390bfd7",
+    "hash": "b66046da2ca1e630",
     "datum": "2026-10-07"
   },
   "zertifikate/iso-27018/": {
-    "hash": "1e00d85b5fb935b2",
+    "hash": "4135d4b948bcf6c3",
     "datum": "2026-10-07"
   },
   "zertifikate/iso-27701/": {
-    "hash": "6333e1a82142ca20",
+    "hash": "7dcc41019620e32f",
     "datum": "2026-10-07"
   },
   "zertifikate/iso-50001/": {
-    "hash": "0d8b59a7fc150975",
+    "hash": "20f1feae98a8020c",
     "datum": "2026-10-07"
   },
   "zertifikate/soc-2/": {
-    "hash": "729d110d78432f68",
+    "hash": "b313ff69b82819e7",
     "datum": "2026-10-07"
   },
   "zertifikate/tisax/": {
-    "hash": "4548a3eabc68585e",
+    "hash": "50cc6ce94359d679",
     "datum": "2026-10-07"
   }
 }
