@@ -28,8 +28,8 @@
     "datum": "2026-10-08"
   },
   "anbieter/exoscale/": {
-    "hash": "1451009a5d61e8b3",
-    "datum": "2026-10-05"
+    "hash": "13c09b8db59e33da",
+    "datum": "2026-10-08"
   },
   "anbieter/gcore/": {
     "hash": "bd67d959b503e0a8",
@@ -224,7 +224,7 @@
     "datum": "2026-10-08"
   },
   "vergleich/exoscale-vs-hetzner/": {
-    "hash": "db9c22d5541350e2",
+    "hash": "0b5cb9a9a763c459",
     "datum": "2026-10-08"
   },
   "vergleich/gcore-vs-greenpt/": {
