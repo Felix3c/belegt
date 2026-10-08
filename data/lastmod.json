@@ -1,7 +1,7 @@
 {
   "": {
-    "hash": "c872489436ece09b",
-    "datum": "2026-10-07"
+    "hash": "f67f741dece2446c",
+    "datum": "2026-10-08"
   },
   "404.html": {
     "hash": "826986f530da7952",
@@ -12,8 +12,8 @@
     "datum": "2026-10-07"
   },
   "anbieter/aleph-alpha/": {
-    "hash": "4b2f93c5073a7e15",
-    "datum": "2026-10-04"
+    "hash": "d5e0dfc1abc72b6e",
+    "datum": "2026-10-08"
   },
   "anbieter/black-forest-labs/": {
     "hash": "9b7135e67e291c40",
@@ -192,16 +192,16 @@
     "datum": "2026-09-16"
   },
   "vergleich/aleph-alpha-vs-black-forest-labs/": {
-    "hash": "a390e2902faac536",
-    "datum": "2026-10-07"
+    "hash": "24f8d14ee6791632",
+    "datum": "2026-10-08"
   },
   "vergleich/aleph-alpha-vs-deepl/": {
-    "hash": "096df60dda30a5d2",
+    "hash": "3d8b76020a15d0aa",
     "datum": "2026-10-08"
   },
   "vergleich/aleph-alpha-vs-mistral/": {
-    "hash": "24d21ba413468e78",
-    "datum": "2026-10-05"
+    "hash": "9b61f6349d63ba47",
+    "datum": "2026-10-08"
   },
   "vergleich/black-forest-labs-vs-deepl/": {
     "hash": "e37c8911628d7548",
@@ -512,7 +512,7 @@
     "datum": "2026-10-07"
   },
   "zertifikate/iso-27001/": {
-    "hash": "21b393bcd32402aa",
+    "hash": "75110650dd0b467c",
     "datum": "2026-10-08"
   },
   "zertifikate/iso-27017/": {
