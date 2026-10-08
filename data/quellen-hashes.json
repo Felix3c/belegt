@@ -68,9 +68,9 @@
     "geaendert": "2026-10-03"
   },
   "https://docs.greenpt.ai/model-cards": {
-    "hash": "455574be9c3bc85e",
-    "gesehen": "2026-10-03",
-    "geaendert": "2026-10-03"
+    "hash": "bfa019243f470d57",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   },
   "https://docs.hetzner.com/general/company-and-policy/experiments/inference/": {
     "hash": "1f8133423acee4ad",
@@ -190,19 +190,19 @@
     "gesehen": "2026-10-03"
   },
   "https://greenpt.com/privacy-policy": {
-    "hash": "44329b7f0d720824",
-    "gesehen": "2026-10-03",
-    "geaendert": "2026-10-03"
+    "hash": "5666ab3941a9fd17",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   },
   "https://greenpt.com/sustainability": {
-    "hash": "bb987c8b3eb01b81",
-    "gesehen": "2026-10-03",
-    "geaendert": "2026-10-03"
+    "hash": "1b3b66f5ba03b4ba",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   },
   "https://greenpt.com/terms-of-service": {
-    "hash": "341829fc2f9e7f77",
-    "gesehen": "2026-10-03",
-    "geaendert": "2026-10-03"
+    "hash": "629e971974b03d62",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   },
   "https://help.mistral.ai/en/articles/347638-do-you-have-soc-2-or-iso-27001-certification": {
     "hash": "41540be2fe87de4b",
@@ -622,5 +622,15 @@
   "https://www.t-systems.com": {
     "nur_erreichbar": true,
     "gesehen": "2026-10-03"
+  },
+  "https://greenpt.com/privacy": {
+    "hash": "cfa7df03212be4a9",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
+  },
+  "https://docs.greenpt.ai/privacy/processor": {
+    "hash": "f47b3115c3fc1d34",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   }
 }
