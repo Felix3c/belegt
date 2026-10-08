@@ -204,3 +204,20 @@ test("wortDateiName: stabil je URL, nur Hex, mit .txt", () => {
   assert.notEqual(a, wortDateiName("https://opper.ai/ai-compliance"));
   assert.match(a, /^[0-9a-f]{16}\.txt$/);
 });
+
+/** Wirft wie Node-fetch bei fehlendem Zwischenzertifikat (dpa.gov.al, 08.10.2026). */
+const tlsFehler = (code) => async () => { const e = new TypeError("fetch failed"); e.cause = Object.assign(new Error(code), { code }); throw e; };
+
+test("pruefe: unvollständige TLS-Kette des Servers ist übersprungen, nicht verschwunden (dpa.gov.al, 08.10.)", async () => {
+  const { pruefe } = require("../lib/quellen.js");
+  const e = await pruefe({ url: "http://dpa.gov.al/axe-cs007-shkurt-2026/" },
+    { mitHash: true, holen: tlsFehler("UNABLE_TO_VERIFY_LEAF_SIGNATURE") });
+  assert.equal(e.befund, "uebersprungen");
+  assert.match(e.hinweis, /UNABLE_TO_VERIFY_LEAF_SIGNATURE/);
+});
+
+test("pruefe: echter Netzfehler (DNS) bleibt nicht-erreichbar", async () => {
+  const { pruefe } = require("../lib/quellen.js");
+  const e = await pruefe({ url: "https://gibt-es-nicht.example/" }, { mitHash: true, holen: tlsFehler("ENOTFOUND") });
+  assert.equal(e.befund, "nicht-erreichbar");
+});
