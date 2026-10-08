@@ -12,6 +12,7 @@ const A = require("./lib/aenderungen.js");
 const P = require("./lib/preise.js");
 const Z = require("./lib/zitat.js");
 const E = require("./lib/eintritt.js");
+const PP = require("./lib/pruefpunkte.js");
 const eur = P.eur;
 
 const ROOT = __dirname;
@@ -597,7 +598,9 @@ ${eigeneFaelle.map((f) => `  <aside class="fall-hinweis fall-${esc(f.status)}"><
   ${zertHtml}
 
   <h2>AI Act</h2>
-  ${aiActHtml}${eintrittAbschnitt}
+  ${aiActHtml}
+
+  ${PP.htmlAbschnitt(p, { esc, datumDE, statusBadge, quelleLink })}${eintrittAbschnitt}
 
   ${partner.length ? `<h2>Direktvergleiche</h2>
   <p class="klein">${esc(p.name)} Feld für Feld gegen andere Anbieter derselben Kategorie:</p>
@@ -645,6 +648,11 @@ function seiteVergleich(a, b, faelle) {
     else wert = f.wert ? `<a href="${esc(f.wert)}" rel="noopener nofollow" target="_blank">Dokument</a>` : "–";
     return `${wert} ${statusBadge(f.status)}`;
   };
+  const pruefFeld = (p, d) => {
+    const f = p.vertrag && p.vertrag[d.k];
+    if (!f) return '<span class="leer">nicht erfasst</span>';
+    return `${esc(PP.wertText(d.k, f.wert) || "–")} ${statusBadge(f.status)}`;
+  };
   const zerts = (p) => zertifikateBelegt(p).map((z) => `<span class="zert">${esc(z)}</span>`).join(" ") || '<span class="leer">keine belegt</span>';
   const preis = (p) => P.preisKurz(p);
   // Wie auf der Profilseite: ein Fall gehört neben die Angabe, die er betrifft — sonst liest
@@ -667,6 +675,7 @@ function seiteVergleich(a, b, faelle) {
     ${zeile("Subprozessoren-Liste", feld(a, "subprozessoren"), feld(b, "subprozessoren"))}
     ${zeile("Kein Training mit Kundendaten", feld(a, "training_opt_out"), feld(b, "training_opt_out"))}
     ${zeile("Zero Data Retention", feld(a, "zero_data_retention"), feld(b, "zero_data_retention"))}
+    ${PP.VERTRAG.map((d) => zeile(esc(d.label), pruefFeld(a, d), pruefFeld(b, d))).join("")}
     ${zeile("Zertifikate (belegt)", zerts(a), zerts(b))}
     ${zeile("Fälle", fallListe(a), fallListe(b))}
     ${zeile("Beleg-Quote", Math.round(belegQuote(a) * 100) + " %", Math.round(belegQuote(b) * 100) + " %")}
@@ -1488,6 +1497,9 @@ function llmsFull(providers, guides, fragen, stand) {
         ? (p.zertifikate || []).map((z) => `- ${z.typ}${zertKanon(z.typ).length ? " [normiert: " + zertKanon(z.typ).map((k) => k.schluessel).join(", ") + "]" : ""} [Status: ${z.status}]${z.quelle ? " | Quelle: " + z.quelle : ""}${z.anmerkung ? " | Anmerkung: " + z.anmerkung : ""}`).join("\n")
         : "- keine erfasst",
       "",
+      "Prüfpunkte der Datenschutzprüfung (BayLDA-KI-Checkliste S. 9–11; zählen nicht in die Beleg-Quote):",
+      ...PP.textZeilen(p),
+      "",
       "AI Act:",
       (p.ai_act || []).length
         ? (p.ai_act || []).map((a) => `- ${a.pflicht} [Status: ${a.status}]${a.quelle ? " | Quelle: " + a.quelle : ""}${a.anmerkung ? " | Anmerkung: " + a.anmerkung : ""}`).join("\n")
@@ -1540,6 +1552,9 @@ funktioniert: ${SITE.baseUrl}/methodik/
 
 /* ---------------- Build ---------------- */
 
+/** Sobald alle Profile die Prüfpunkte tragen: true, dann bricht ein fehlendes Feld den Build ab. */
+const PRUEFPUNKTE_STRENG = false;
+
 function leseAnbieter() {
   if (!fs.existsSync(DATA_DIR)) return [];
   return fs
@@ -1548,7 +1563,7 @@ function leseAnbieter() {
     .map((f) => {
       const p = JSON.parse(fs.readFileSync(path.join(DATA_DIR, f), "utf8"));
       if (!p.id || !p.name || !p.stammdaten) throw new Error(`Ungültige Anbieterdatei: ${f}`);
-      const fehler = E.pruefeEintritt(p);
+      const fehler = [...E.pruefeEintritt(p), ...PP.pruefe(p, { streng: PRUEFPUNKTE_STRENG })];
       if (fehler.length) throw new Error(`Anbieterdatei ${f}: ${fehler.join("; ")}`);
       return p;
     })

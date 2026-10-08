@@ -235,3 +235,5 @@ th.num { text-align: right; }
 .zitat button { font: inherit; font-size: 13px; padding: 3px 10px; border: 1px solid var(--tinte, #2b2925); background: transparent; color: inherit; border-radius: 3px; cursor: pointer; }
 .zitat button:hover { background: var(--tinte, #2b2925); color: #fff; }
 .zitat .klein { display: block; margin-top: 0.4rem; }
+table.pruefpunkte th[scope="row"] { width: 32%; text-align: left; font-weight: 600; vertical-align: top; }
+table.pruefpunkte td { vertical-align: top; }
