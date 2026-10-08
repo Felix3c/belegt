@@ -175,3 +175,32 @@ test("pruefe: 403 auf einer normalen Quelle bleibt ein Fehler (Sperr-Nachsicht n
   const e = await pruefe({ url: "https://example.org/x" }, { mitHash: true, holen: antwort(403, "nope") });
   assert.equal(e.befund, "fehler");
 });
+
+const { woerterInhalt, wortDiff, wortDateiName } = require("../lib/quellen.js");
+
+test("woerterInhalt: HTML ergibt die sortierte Wortliste, die auch dem Hash zugrunde liegt", () => {
+  const w = woerterInhalt("text/html", Buffer.from("<p>b a</p><script>x</script><p>a</p>"));
+  assert.deepEqual(w, ["a", "a", "b"]);
+});
+
+test("woerterInhalt: Nicht-HTML (PDF) hat kein Wortprotokoll", () => {
+  assert.equal(woerterInhalt("application/pdf", Buffer.from("%PDF-1 a b")), null);
+});
+
+test("wortDiff: zählt Mehrfachmengen, nennt nur Unterschiede", () => {
+  const d = wortDiff(["1,234", "Downloads", "a", "a"], ["1,241", "Downloads", "a"]);
+  assert.deepEqual(d.weg, [["1,234", 1], ["a", 1]]);
+  assert.deepEqual(d.dazu, [["1,241", 1]]);
+});
+
+test("wortDiff: gleiche Mengen in anderer Reihenfolge ergeben keinen Unterschied", () => {
+  const d = wortDiff(["b", "a"], ["a", "b"]);
+  assert.deepEqual(d, { weg: [], dazu: [] });
+});
+
+test("wortDateiName: stabil je URL, nur Hex, mit .txt", () => {
+  const a = wortDateiName("https://opper.ai/models");
+  assert.equal(a, wortDateiName("https://opper.ai/models"));
+  assert.notEqual(a, wortDateiName("https://opper.ai/ai-compliance"));
+  assert.match(a, /^[0-9a-f]{16}\.txt$/);
+});

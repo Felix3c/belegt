@@ -12,6 +12,11 @@
  *   --uebernehmen  die beim letzten Lauf als "verändert" gemeldeten Hashes als neue Referenz übernehmen
  *                  (nur nach Handprüfung — sonst gilt die Änderung nächsten Monat als "unverändert")
  *   LAUF_DATUM=2026-09-28 setzt das Datum (Standard: heute)
+ *
+ * Wortprotokoll (seit 08.10.2026): Zu jedem HTML-Hash, der Referenz ist, liegt die Wortliste in
+ * data/quellen-woerter/<sha(url)>.txt. Bei "verändert" zeigt der Bericht, welche Wörter weg und dazu
+ * sind — so sieht man, ob nur ein Zähler tickt oder die Aussage sich ändert. Fehlt der Wortstand
+ * (Einträge von vor dem 08.10.), wird er beim nächsten "unverändert" nachgetragen.
  */
 "use strict";
 
@@ -20,6 +25,31 @@ const path = require("path");
 const Q = require("./lib/quellen.js");
 
 const LEDGER_DATEI = path.join(__dirname, "data", "quellen-hashes.json");
+const WORT_DIR = path.join(__dirname, "data", "quellen-woerter");
+const WORT_ZEIGEN = 12; // je Richtung höchstens so viele Wörter im Bericht
+
+const wortPfad = (url) => path.join(WORT_DIR, Q.wortDateiName(url));
+function liesWoerter(url) {
+  try { return fs.readFileSync(wortPfad(url), "utf8").split("\n").filter(Boolean); } catch { return null; }
+}
+
+/** Wortstand schreiben, wo ein Hash in diesem Lauf Referenz ist oder wird. Gibt die Anzahl zurück. */
+function schreibeWoerter(o, uebernehmen) {
+  const ziele = [...o.neu, ...o.unveraendert.filter((e) => !fs.existsSync(wortPfad(e.url))), ...(uebernehmen ? o.veraendert : [])];
+  let n = 0;
+  for (const e of ziele) {
+    if (!e.woerter) continue;
+    fs.mkdirSync(WORT_DIR, { recursive: true });
+    fs.writeFileSync(wortPfad(e.url), e.woerter.join("\n") + "\n");
+    n++;
+  }
+  return n;
+}
+
+const zeigeWoerter = (liste) => liste.slice(0, WORT_ZEIGEN).map(([w, k]) => (k > 1 ? k + "× " : "") + JSON.stringify(w)).join(", ") + (liste.length > WORT_ZEIGEN ? " … (+" + (liste.length - WORT_ZEIGEN) + ")" : "");
+const zeigeDiff = (e) => !e.wortDiff ? "\n    Wortprotokoll: kein Wortstand zur Referenz (wird beim nächsten unverändert/--uebernehmen angelegt)"
+  : "\n    weg:  " + (zeigeWoerter(e.wortDiff.weg) || "–") + "\n    dazu: " + (zeigeWoerter(e.wortDiff.dazu) || "–");
+
 const arg = (n) => process.argv.includes(n);
 const DATUM = process.env.LAUF_DATUM || new Date().toISOString().slice(0, 10);
 if (!/^\d{4}-\d{2}-\d{2}$/.test(DATUM)) { console.error("LAUF_DATUM muss YYYY-MM-DD sein"); process.exit(2); }
@@ -72,6 +102,10 @@ const zeile = (e) => "  " + e.anbieter + " " + e.feld + (e.felder.length > 1 ? "
 
   const ergebnis = await Q.pruefeAlle(urls, { mitHash: true });
   const o = await Q.bestaetigeVeraendert(Q.ordneLauf(ergebnis, alt), alt);
+  for (const e of o.veraendert) {
+    const ref = e.woerter && liesWoerter(e.url);
+    if (ref) e.wortDiff = Q.wortDiff(ref, e.woerter);
+  }
 
   const jsonIdx = process.argv.indexOf("--json");
   if (jsonIdx > -1 && process.argv[jsonIdx + 1]) fs.writeFileSync(process.argv[jsonIdx + 1], JSON.stringify({ datum: DATUM, ...o }, null, 2));
@@ -81,7 +115,7 @@ const zeile = (e) => "  " + e.anbieter + " " + e.feld + (e.felder.length > 1 ? "
   if (o.veraendert.length) {
     console.log("\nVERÄNDERT (" + o.veraendert.length + ") — diese Quellen von Hand lesen. Sagt sie noch dasselbe? Dann Feld-geprueft setzen;");
     console.log("sagt sie etwas anderes? Dann Angabe/Status/Anmerkung anpassen. Danach: node quellenlauf.js --uebernehmen");
-    o.veraendert.forEach((e) => console.log(zeile(e) + (alt[e.url].veraendert_seit ? "\n    offen seit " + alt[e.url].veraendert_seit : "")));
+    o.veraendert.forEach((e) => console.log(zeile(e) + (alt[e.url].veraendert_seit ? "\n    offen seit " + alt[e.url].veraendert_seit : "") + (e.woerter ? zeigeDiff(e) : "")));
   }
   if (o.verschwunden.length) {
     console.log("\nVERSCHWUNDEN (" + o.verschwunden.length + ") — Beleg trägt nicht mehr. Status im Profil zurücksetzen, tote URL in der Anmerkung festhalten:");
@@ -93,6 +127,7 @@ const zeile = (e) => "  " + e.anbieter + " " + e.feld + (e.felder.length > 1 ? "
   if (dateien.length) console.log("\nPrüfdatum " + DATUM + (trocken ? " würde fortgeschrieben" : " fortgeschrieben") + " in " + dateien.length + " Anbieter-Dateien:\n  " + dateien.join("\n  "));
 
   if (!trocken) fs.writeFileSync(LEDGER_DATEI, JSON.stringify(neuerLedger(alt, o, uebernehmen), null, 2) + "\n");
+  if (!trocken) { const n = schreibeWoerter(o, uebernehmen); if (n) console.log("\nWortstand geschrieben für " + n + " Quellen: data/quellen-woerter/"); }
   console.log("\n" + (trocken ? "Trockenlauf, nichts geschrieben." : "Ledger geschrieben: data/quellen-hashes.json.") + (dateien.length && !trocken ? " Jetzt: node build.js, dann committen." : ""));
   if (o.veraendert.length || o.verschwunden.length) process.exit(1);
 })();
