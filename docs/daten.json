@@ -55,7 +55,7 @@
           "quelle": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
           "geprueft": "2026-10-08",
           "status": "belegt",
-          "anmerkung": "Seit 03.10.2026 offene Gewichte unter Apache 2.0 (Modellkarte auf Hugging Face, nicht zugangsbeschränkt; Blog 'Kolibri Has Landed: A Sovereign Open-Weight Model'): Mixture-of-Experts, 78 Mrd. Parameter, davon 3 Mrd. aktiv, Deutsch/Englisch, Kontext bis 1 Mio. Token. Selbst betreiben (Mindestanforderung laut aleph-alpha.com/kolibri: 2× A100 80 GB oder 1× H200); einen öffentlichen API-Tokenpreis gibt es nicht. Archivkopie: web.archive.org/web/20261004091314/https://huggingface.co/Aleph-Alpha/Kolibri-1"
+          "anmerkung": "Seit 03.10.2026 offene Gewichte unter Apache 2.0 (Modellkarte auf Hugging Face, nicht zugangsbeschränkt; Blog 'Kolibri Has Landed: A Sovereign Open-Weight Model'): Mixture-of-Experts, 78 Mrd. Parameter, davon 3,46 Mrd. aktiv je Token, Deutsch/Englisch, Kontext bis 1 Mio. Token. Selbst betreiben (Mindestanforderung laut aleph-alpha.com/kolibri: 2× A100 80 GB oder 1× H200); einen öffentlichen API-Tokenpreis gibt es nicht. Archivkopie: web.archive.org/web/20261004091314/https://huggingface.co/Aleph-Alpha/Kolibri-1"
         }
       ],
       "vertrag": {
