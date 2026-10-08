@@ -1,6 +1,6 @@
 {
   "": {
-    "hash": "976d7a7f2dd06b22",
+    "hash": "830499d31159ddb9",
     "datum": "2026-10-08"
   },
   "404.html": {
@@ -8,7 +8,7 @@
     "datum": "2026-09-16"
   },
   "aenderungen/": {
-    "hash": "1a03c0870c953d5e",
+    "hash": "a6b7db73fc36d3f6",
     "datum": "2026-10-08"
   },
   "anbieter/aleph-alpha/": {
@@ -52,8 +52,8 @@
     "datum": "2026-10-07"
   },
   "anbieter/lyceum/": {
-    "hash": "ef563769358b1ec1",
-    "datum": "2026-10-04"
+    "hash": "3c409f626d2ac62b",
+    "datum": "2026-10-08"
   },
   "anbieter/mistral/": {
     "hash": "ba20d611ad9a6fe1",
@@ -132,19 +132,19 @@
     "datum": "2026-10-07"
   },
   "fragen/bsi-c5-testat-ki-anbieter/": {
-    "hash": "264d6d3382177c7b",
-    "datum": "2026-10-07"
+    "hash": "ad76470c4d4f1231",
+    "datum": "2026-10-08"
   },
   "fragen/dsgvo-konform-inference-api-eu-hosting/": {
-    "hash": "984fbc915f2f2241",
-    "datum": "2026-10-07"
+    "hash": "5ac66a5fc5e0b8d9",
+    "datum": "2026-10-08"
   },
   "fragen/souveraene-ki-kommunen-anbieter/": {
     "hash": "78e8c49864183343",
     "datum": "2026-10-07"
   },
   "fragen/uebersicht-eu-ki-anbieter-zertifikate-nachweis/": {
-    "hash": "f2633fdc04659cba",
+    "hash": "3cb8eb117054eadc",
     "datum": "2026-10-08"
   },
   "fuer-anbieter/": {
@@ -240,7 +240,7 @@
     "datum": "2026-10-08"
   },
   "vergleich/gcore-vs-lyceum/": {
-    "hash": "070933fa02ada59d",
+    "hash": "47511346c4d86d29",
     "datum": "2026-10-08"
   },
   "vergleich/gcore-vs-nebius/": {
@@ -280,8 +280,8 @@
     "datum": "2026-10-07"
   },
   "vergleich/greenpt-vs-lyceum/": {
-    "hash": "0fe3b6101ec3894b",
-    "datum": "2026-10-05"
+    "hash": "8f1a2d485fd3f394",
+    "datum": "2026-10-08"
   },
   "vergleich/greenpt-vs-nebius/": {
     "hash": "09a989029b098ef6",
@@ -316,7 +316,7 @@
     "datum": "2026-10-08"
   },
   "vergleich/infomaniak-vs-lyceum/": {
-    "hash": "c506af7627fcad46",
+    "hash": "0dead67a0db1e22b",
     "datum": "2026-10-08"
   },
   "vergleich/infomaniak-vs-nebius/": {
@@ -348,8 +348,8 @@
     "datum": "2026-10-08"
   },
   "vergleich/ionos-vs-lyceum/": {
-    "hash": "2aee1ca429a28d85",
-    "datum": "2026-10-07"
+    "hash": "a0cd3355f73af0ad",
+    "datum": "2026-10-08"
   },
   "vergleich/ionos-vs-nebius/": {
     "hash": "a83c3d5b28b72941",
@@ -380,32 +380,32 @@
     "datum": "2026-10-07"
   },
   "vergleich/lyceum-vs-nebius/": {
-    "hash": "19413e55566f9b84",
-    "datum": "2026-10-04"
+    "hash": "efb190c5222b585f",
+    "datum": "2026-10-08"
   },
   "vergleich/lyceum-vs-nordference/": {
-    "hash": "38c702d205219eae",
-    "datum": "2026-10-05"
+    "hash": "b74f7f676d57bc66",
+    "datum": "2026-10-08"
   },
   "vergleich/lyceum-vs-ovhcloud/": {
-    "hash": "d95145a273462d05",
-    "datum": "2026-10-05"
+    "hash": "808be6159a0e649d",
+    "datum": "2026-10-08"
   },
   "vergleich/lyceum-vs-regolo/": {
-    "hash": "f0cd2047c930b8f3",
+    "hash": "b773becd292ea0d8",
     "datum": "2026-10-08"
   },
   "vergleich/lyceum-vs-scaleway/": {
-    "hash": "47af4a9532eba9c0",
+    "hash": "8a5d0d5012e63130",
     "datum": "2026-10-08"
   },
   "vergleich/lyceum-vs-stackit/": {
-    "hash": "62a5de8544a2b9ce",
-    "datum": "2026-10-04"
+    "hash": "7049c63b3e7c74ce",
+    "datum": "2026-10-08"
   },
   "vergleich/lyceum-vs-t-systems/": {
-    "hash": "7ab3fb723c217719",
-    "datum": "2026-10-05"
+    "hash": "bc42fe5758781427",
+    "datum": "2026-10-08"
   },
   "vergleich/nebius-vs-nordference/": {
     "hash": "dc8ffda03b5f9f8d",
@@ -500,8 +500,8 @@
     "datum": "2026-10-07"
   },
   "zertifikate/bsi-c5/": {
-    "hash": "855300ae06180395",
-    "datum": "2026-10-07"
+    "hash": "a225997ce2cd37f3",
+    "datum": "2026-10-08"
   },
   "zertifikate/csa-star/": {
     "hash": "3d2279b9968cde97",

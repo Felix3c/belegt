@@ -2,7 +2,7 @@
   "id": "lyceum",
   "name": "Lyceum Technology",
   "kategorie": "inference-api",
-  "kurzbeschreibung": "Berliner GPU-Cloud-Startup (gegründet 2025, 10,3 Mio. € Pre-Seed) mit Serverless-Inference auf 30+ Open-Source-Modellen in EU-Rechenzentren — transparent bei Zertifikaten: hält nach eigener Aussage aktuell weder C5 noch ISO 27001 noch SOC 2.",
+  "kurzbeschreibung": "Berliner GPU-Cloud-Startup (gegründet 2025, 10,3 Mio. € Pre-Seed) mit Serverless-Inference auf 23 Open-Source-Modellen (Modellseite 08.10.2026) in EU-Rechenzentren in Paris und Finnland — transparent bei Zertifikaten: hält nach eigener Aussage aktuell weder C5 noch ISO 27001 noch SOC 2.",
   "stammdaten": {
     "sitz": "Berlin, Deutschland",
     "land": "DE",
@@ -14,13 +14,13 @@
   "modelle": [
     {
       "name": "DeepSeek V4 Pro",
-      "standort": "EU (Spanien, Paris, Nordeuropa)",
+      "standort": "EU (Paris, Finnland)",
       "preis_input_1m_eur": 1.75,
       "preis_output_1m_eur": 3.5,
-      "quelle": "https://lyceum.technology/products/inference/models/",
-      "geprueft": "2026-10-03",
+      "quelle": "https://lyceum.technology/models/",
+      "geprueft": "2026-10-08",
       "status": "belegt",
-      "anmerkung": "Preis in USD — Standort: Modellseite nennt am 04.10.2026 keine Länder mehr; laut Lyceum (magazine/c5-certification-gpu-cloud-germany/ und magazine/eu-data-residency-ai-infrastructure, Abruf 04.10.2026) 'data centers in Spain, Paris and the Nordics'; frühere Angabe Frankreich/Deutschland/Dänemark nicht mehr belegt"
+      "anmerkung": "Preis in USD — Modellseite seit spätestens 08.10.2026 unter /models/ (alte Adresse /products/inference/models/ leitet per Skript dorthin, HTTP 200): 'GPUs run in European data centres'; Länder laut Lyceum (magazine/c5-certification-gpu-cloud-germany/, 'Last updated 3 August 2026', und magazine/eu-data-residency-ai-infrastructure, Abruf 08.10.2026) 'European data centres in Paris and Finland', ausdrücklich ohne deutsches Rechenzentrum; die Angabe 'Spain, Paris and the Nordics' vom 04.10.2026 steht dort nicht mehr; Modell-ID deepseek/deepseek-v4-pro, Kontext dort 'Not confirmed'; daneben neu DeepSeek V4 Pro 0813 ($2.00/$4.00)"
     },
     {
       "name": "DeepSeek V3.2",
@@ -35,22 +35,42 @@
     {
       "name": "Qwen3 235B A22B",
       "standort": "EU (Spanien, Paris, Nordeuropa)",
-      "preis_input_1m_eur": 0.2,
-      "preis_output_1m_eur": 0.6,
-      "quelle": "https://lyceum.technology/products/inference/models/",
-      "geprueft": "2026-10-03",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": null,
+      "geprueft": "2026-10-08",
+      "status": "unbelegt",
+      "anmerkung": "Aussage stand bis 2026-10-04 auf https://lyceum.technology/products/inference/models/ (0,20 $ / 0,60 $ je 1M), am 08.10.2026 nicht mehr — laut Retired-Liste auf https://lyceum.technology/models/ abgeschaltet (Modell-ID qwen/qwen3-235b-a22b-instruct-2507, 'Requests to their model IDs return 404 model not found'); Nachfolger laut Anbieter Qwen3.8 2.4T A95B"
+    },
+    {
+      "name": "Qwen3.8 2.4T A95B",
+      "standort": "EU (Paris, Finnland)",
+      "preis_input_1m_eur": 2.5,
+      "preis_output_1m_eur": 6,
+      "quelle": "https://lyceum.technology/models/",
+      "geprueft": "2026-10-08",
       "status": "belegt",
-      "anmerkung": "Preis in USD — Standort: Modellseite nennt am 04.10.2026 keine Länder mehr; laut Lyceum (magazine/c5-certification-gpu-cloud-germany/ und magazine/eu-data-residency-ai-infrastructure, Abruf 04.10.2026) 'data centers in Spain, Paris and the Nordics'; frühere Angabe Frankreich/Deutschland/Dänemark nicht mehr belegt"
+      "anmerkung": "Preis in USD — Modellseite seit spätestens 08.10.2026 unter /models/ (alte Adresse /products/inference/models/ leitet per Skript dorthin, HTTP 200): 'GPUs run in European data centres'; Länder laut Lyceum (magazine/c5-certification-gpu-cloud-germany/, 'Last updated 3 August 2026', und magazine/eu-data-residency-ai-infrastructure, Abruf 08.10.2026) 'European data centres in Paris and Finland', ausdrücklich ohne deutsches Rechenzentrum; die Angabe 'Spain, Paris and the Nordics' vom 04.10.2026 steht dort nicht mehr; Modell-ID qwen/qwen3.8-2.4t-a95b, 256K Kontext, Nachfolger von Qwen3 235B A22B laut Retired-Liste"
     },
     {
       "name": "Kimi K2.6",
       "standort": "EU (Spanien, Paris, Nordeuropa)",
-      "preis_input_1m_eur": 1,
-      "preis_output_1m_eur": 4,
-      "quelle": "https://lyceum.technology/products/inference/models/",
-      "geprueft": "2026-10-03",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": null,
+      "geprueft": "2026-10-08",
+      "status": "unbelegt",
+      "anmerkung": "Aussage stand bis 2026-10-04 auf https://lyceum.technology/products/inference/models/ (1,00 $ / 4,00 $ je 1M), am 08.10.2026 nicht mehr — laut Retired-Liste auf https://lyceum.technology/models/ abgeschaltet (Modell-ID moonshotai/kimi-k2.6); Nachfolger laut Anbieter Kimi K3"
+    },
+    {
+      "name": "Kimi K3",
+      "standort": "EU (Paris, Finnland)",
+      "preis_input_1m_eur": 3,
+      "preis_output_1m_eur": 15,
+      "quelle": "https://lyceum.technology/models/",
+      "geprueft": "2026-10-08",
       "status": "belegt",
-      "anmerkung": "Preis in USD — Standort: Modellseite nennt am 04.10.2026 keine Länder mehr; laut Lyceum (magazine/c5-certification-gpu-cloud-germany/ und magazine/eu-data-residency-ai-infrastructure, Abruf 04.10.2026) 'data centers in Spain, Paris and the Nordics'; frühere Angabe Frankreich/Deutschland/Dänemark nicht mehr belegt"
+      "anmerkung": "Preis in USD — Modellseite seit spätestens 08.10.2026 unter /models/ (alte Adresse /products/inference/models/ leitet per Skript dorthin, HTTP 200): 'GPUs run in European data centres'; Länder laut Lyceum (magazine/c5-certification-gpu-cloud-germany/, 'Last updated 3 August 2026', und magazine/eu-data-residency-ai-infrastructure, Abruf 08.10.2026) 'European data centres in Paris and Finland', ausdrücklich ohne deutsches Rechenzentrum; die Angabe 'Spain, Paris and the Nordics' vom 04.10.2026 steht dort nicht mehr; Modell-ID moonshotai/kimi-k3, 1M Kontext, Nachfolger von Kimi K2.6 laut Retired-Liste"
     },
     {
       "name": "gpt-oss 120B",
@@ -68,29 +88,29 @@
       "wert": "https://trust.lyceum.technology/",
       "status": "belegt",
       "quelle": "https://trust.lyceum.technology/",
-      "geprueft": "2026-10-03",
+      "geprueft": "2026-10-08",
       "anmerkung": "DPA als Ressource im Trust Center gelistet (neben TOMs); direkter Dokumentenzugriff ggf. erst nach Anfrage"
     },
     "subprozessoren": {
       "wert": null,
       "status": "beansprucht",
       "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/",
-      "geprueft": "2026-10-03",
-      "anmerkung": "Keine öffentliche Liste; 'DPA with named sub-processors available on request'"
+      "geprueft": "2026-10-08",
+      "anmerkung": "Keine öffentliche Liste; 'DPA with named sub-processors available on request' (Abruf 08.10.2026 wörtlich; dazu 'will name the sub-processors involved in a DPA on request')"
     },
     "training_opt_out": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://lyceum.technology/legal/terms",
-      "geprueft": "2026-10-04",
-      "anmerkung": "AGB Ziff. 5.2 wörtlich (Abruf 04.10.2026): for the specific 'Inference' product, any inputs and outputs are only processed to generate the respective result for the Customer and are not stored beyond what is technically necessary for this purpose, nor used for training, improvement or analysis of the Provider's or any third party's AI, LLM or other machine learning models — Training per Vertrag ausgeschlossen, kein Opt-out nötig. Für eingereichten Code gilt dasselbe (Ziff. 5.1). Die frühere Aussage im C5-Magazinartikel (bis 19.08.) steht dort weiter nicht mehr."
+      "geprueft": "2026-10-08",
+      "anmerkung": "AGB Ziff. 5.2 wörtlich (Abruf 04.10.2026, am 08.10.2026 unverändert): for the specific 'Inference' product, any inputs and outputs are only processed to generate the respective result for the Customer and are not stored beyond what is technically necessary for this purpose, nor used for training, improvement or analysis of the Provider's or any third party's AI, LLM or other machine learning models — Training per Vertrag ausgeschlossen, kein Opt-out nötig. Für eingereichten Code gilt dasselbe (Ziff. 5.1). Die frühere Aussage im C5-Magazinartikel (bis 19.08.) steht dort weiter nicht mehr."
     },
     "zero_data_retention": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://lyceum.technology/legal/terms",
-      "geprueft": "2026-10-04",
-      "anmerkung": "AGB Ziff. 5.2 (Abruf 04.10.2026): Inference-Inputs/-Outputs werden nicht gespeichert beyond what is technically necessary — gleiche Formel wie bei DeepL (Pro-AGB 3.1.2). Keine Frist, keine Aussage zu Logs/Metadaten; die Datenschutzerklärung regelt nur Website-/Kontodaten (Speicherung so lange wie nötig)."
+      "geprueft": "2026-10-08",
+      "anmerkung": "AGB Ziff. 5.2 (Abruf 04.10.2026, am 08.10.2026 unverändert; die Modellseite sagt zusätzlich 'Prompts and outputs are processed, not stored, and never used for training'): Inference-Inputs/-Outputs werden nicht gespeichert beyond what is technically necessary — gleiche Formel wie bei DeepL (Pro-AGB 3.1.2). Keine Frist, keine Aussage zu Logs/Metadaten; die Datenschutzerklärung regelt nur Website-/Kontodaten (Speicherung so lange wie nötig)."
     }
   },
   "zertifikate": [
@@ -98,8 +118,8 @@
       "typ": "BSI C5",
       "status": "unbelegt",
       "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/",
-      "geprueft": "2026-10-03",
-      "anmerkung": "Eigene Aussage: 'Lyceum holds no C5 attestation … today, and says so plainly' — bemerkenswert ehrlich, aber nicht gehalten",
+      "geprueft": "2026-10-08",
+      "anmerkung": "Eigene Aussage (Abruf 08.10.2026): 'Lyceum holds no C5 attestation, and no ISO 27001 or SOC 2 certificate today, and says so plainly' — bemerkenswert ehrlich, aber nicht gehalten",
       "normiert": [
         "bsi-c5"
       ]
@@ -108,7 +128,7 @@
       "typ": "ISO 27001",
       "status": "unbelegt",
       "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/",
-      "geprueft": "2026-10-03",
+      "geprueft": "2026-10-08",
       "anmerkung": "Laut eigener Aussage aktuell nicht zertifiziert; Trust Center listet eine 'ISO Certification'-Ressource (vermutlich RZ-Zertifikat) — Widerspruch vor Vertragsschluss klären",
       "normiert": [
         "iso-27001"
@@ -118,7 +138,7 @@
       "typ": "SOC 2",
       "status": "unbelegt",
       "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/",
-      "geprueft": "2026-10-03",
+      "geprueft": "2026-10-08",
       "anmerkung": "Laut eigener Aussage aktuell nicht zertifiziert",
       "normiert": [
         "soc-2"
@@ -133,10 +153,10 @@
       "anmerkung": "Kein Nachweis; hostet Open-Source-Fremdmodelle"
     }
   ],
-  "geprueft": "2026-08-19",
+  "geprueft": "2026-10-08",
   "url": "https://belegbar.eu/anbieter/lyceum/",
-  "beleg_quote_prozent": 46,
-  "zuletzt_geprueft": "2026-10-04",
+  "beleg_quote_prozent": 40,
+  "zuletzt_geprueft": "2026-10-08",
   "rechtsraum": {
     "land": "DE",
     "name": "Deutschland",

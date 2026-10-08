@@ -19,7 +19,42 @@
     <title>Infomaniak: Modell Ministral-3-14B-Instruct-2512 – → belegt</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-08-infomaniak-modelle-ministral-3-14b-instruct-2512"/>
     <updated>2026-10-08T00:00:00Z</updated>
-    <content type="text">Preis in CHF, exkl. MwSt.; 100k Kontext, Bild-Text zu Text, nicht als Beta gekennzeichnet (infomaniak.com/en/hosting/ai-services/open-source-models, Abruf 08.10.2026). Am 08.10.2026 erstmals im Profil; seit wann Infomaniak es anbietet, ist ungeklärt (die Wayback-Kopie der Preisseite vom 24.09.2026 enthält die Modellliste nicht, sie wurde damals nachgeladen). Standort laut infomaniak.com/en/hosting/ai-services (08.10.2026): „Our AI and GPU services are powered from the heart of Europe in our data centers located in Switzerland“. Die Preisseite selbst nennt keinen Standort. · Neue Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices</content>
+    <content type="text">Preis in CHF, exkl. MwSt.; 100k Kontext, Bild-Text zu Text, nicht als Beta gekennzeichnet (infomaniak.com/en/hosting/ai-services/open-source-models, Abruf 08.10.2026). Am 08.10.2026 erstmals im Profil; seit wann Infomaniak es anbietet, ist ungeklärt (die Wayback-Kopie der Preisseite vom 24.09.2026 enthält die Modellliste nicht, sie wurde damals nachgeladen). Standort laut infomaniak.com/en/hosting/ai-services (08.10.2026): „Our AI and GPU services are powered from the heart of Europe in our data centers located in Switzerland“. Die Preisseite selbst nennt keinen Standort. · Neue Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices · Commit 8548e1b: data: Infomaniak nachgeprüft 08.10., Modell Ministral-3-14B-Instruct-2512 ergänzt (Preisseite, CHF 0.30/0.40)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-08-lyceum-modelle-deepseek-v4-pro</id>
+    <title>Lyceum Technology: Modell DeepSeek V4 Pro — Quelle geändert</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-08-lyceum-modelle-deepseek-v4-pro"/>
+    <updated>2026-10-08T00:00:00Z</updated>
+    <content type="text">Preis in USD — Modellseite seit spätestens 08.10.2026 unter /models/ (alte Adresse /products/inference/models/ leitet per Skript dorthin, HTTP 200): 'GPUs run in European data centres'; Länder laut Lyceum (magazine/c5-certification-gpu-cloud-germany/, 'Last updated 3 August 2026', und magazine/eu-data-residency-ai-infrastructure, Abruf 08.10.2026) 'European data centres in Paris and Finland', ausdrücklich ohne deutsches Rechenzentrum; die Angabe 'Spain, Paris and the Nordics' vom 04.10.2026 steht dort nicht mehr; Modell-ID deepseek/deepseek-v4-pro, Kontext dort 'Not confirmed'; daneben neu DeepSeek V4 Pro 0813 ($2.00/$4.00) · Alte Quelle: https://lyceum.technology/products/inference/models/ · Neue Quelle: https://lyceum.technology/models/</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-08-lyceum-modelle-kimi-k2.6</id>
+    <title>Lyceum Technology: Modell Kimi K2.6 belegt → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-08-lyceum-modelle-kimi-k2.6"/>
+    <updated>2026-10-08T00:00:00Z</updated>
+    <content type="text">Aussage stand bis 2026-10-04 auf https://lyceum.technology/products/inference/models/ (1,00 $ / 4,00 $ je 1M), am 08.10.2026 nicht mehr — laut Retired-Liste auf https://lyceum.technology/models/ abgeschaltet (Modell-ID moonshotai/kimi-k2.6); Nachfolger laut Anbieter Kimi K3 · Alte Quelle: https://lyceum.technology/products/inference/models/</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-08-lyceum-modelle-kimi-k3</id>
+    <title>Lyceum Technology: Modell Kimi K3 – → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-08-lyceum-modelle-kimi-k3"/>
+    <updated>2026-10-08T00:00:00Z</updated>
+    <content type="text">Preis in USD — Modellseite seit spätestens 08.10.2026 unter /models/ (alte Adresse /products/inference/models/ leitet per Skript dorthin, HTTP 200): 'GPUs run in European data centres'; Länder laut Lyceum (magazine/c5-certification-gpu-cloud-germany/, 'Last updated 3 August 2026', und magazine/eu-data-residency-ai-infrastructure, Abruf 08.10.2026) 'European data centres in Paris and Finland', ausdrücklich ohne deutsches Rechenzentrum; die Angabe 'Spain, Paris and the Nordics' vom 04.10.2026 steht dort nicht mehr; Modell-ID moonshotai/kimi-k3, 1M Kontext, Nachfolger von Kimi K2.6 laut Retired-Liste · Neue Quelle: https://lyceum.technology/models/</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-08-lyceum-modelle-qwen3-235b-a22b</id>
+    <title>Lyceum Technology: Modell Qwen3 235B A22B belegt → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-08-lyceum-modelle-qwen3-235b-a22b"/>
+    <updated>2026-10-08T00:00:00Z</updated>
+    <content type="text">Aussage stand bis 2026-10-04 auf https://lyceum.technology/products/inference/models/ (0,20 $ / 0,60 $ je 1M), am 08.10.2026 nicht mehr — laut Retired-Liste auf https://lyceum.technology/models/ abgeschaltet (Modell-ID qwen/qwen3-235b-a22b-instruct-2507, 'Requests to their model IDs return 404 model not found'); Nachfolger laut Anbieter Qwen3.8 2.4T A95B · Alte Quelle: https://lyceum.technology/products/inference/models/</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-08-lyceum-modelle-qwen3.8-2.4t-a95b</id>
+    <title>Lyceum Technology: Modell Qwen3.8 2.4T A95B – → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-08-lyceum-modelle-qwen3.8-2.4t-a95b"/>
+    <updated>2026-10-08T00:00:00Z</updated>
+    <content type="text">Preis in USD — Modellseite seit spätestens 08.10.2026 unter /models/ (alte Adresse /products/inference/models/ leitet per Skript dorthin, HTTP 200): 'GPUs run in European data centres'; Länder laut Lyceum (magazine/c5-certification-gpu-cloud-germany/, 'Last updated 3 August 2026', und magazine/eu-data-residency-ai-infrastructure, Abruf 08.10.2026) 'European data centres in Paris and Finland', ausdrücklich ohne deutsches Rechenzentrum; die Angabe 'Spain, Paris and the Nordics' vom 04.10.2026 steht dort nicht mehr; Modell-ID qwen/qwen3.8-2.4t-a95b, 256K Kontext, Nachfolger von Qwen3 235B A22B laut Retired-Liste · Neue Quelle: https://lyceum.technology/models/</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-05-exoscale-modelle-gpt-oss-120b-dedicated-inference</id>
