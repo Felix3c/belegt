@@ -248,10 +248,20 @@
     "nur_erreichbar": true,
     "gesehen": "2026-10-03"
   },
+  "https://lyceum.technology/legal/terms": {
+    "hash": "3945092d7e00182d",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
+  },
   "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/": {
-    "hash": "ba1f072d421e0bb4",
-    "gesehen": "2026-10-03",
-    "geaendert": "2026-10-03"
+    "hash": "530a7eeec5247792",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
+  },
+  "https://lyceum.technology/models/": {
+    "hash": "e876bb509bec415f",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   },
   "https://lyceum.technology/products/inference/models/": {
     "hash": "0a4b68d0a9efcd37",
@@ -380,7 +390,7 @@
   },
   "https://trust.lyceum.technology/": {
     "hash": "dba8dd56e5c919ff",
-    "gesehen": "2026-10-03",
+    "gesehen": "2026-10-08",
     "geaendert": "2026-08-28"
   },
   "https://trust.mistral.ai/subprocessors": {
