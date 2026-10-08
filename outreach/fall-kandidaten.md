@@ -406,7 +406,7 @@ Kein Statuswechsel im Profil; Einzelheiten in `NAECHSTE-SCHRITTE.md` (Stand 05.1
 
 **Berichtigt, kein Kandidat:** Im Profil stand bei glm-5.2 „Preis am 03.10.2026 geändert“; der Changelog nennt den 26.09.2026 (von 1,25/4,30 € auf 1,55/4,60 €). Bei Brave Search stand „Standort nicht genannt“; die Tabelle nennt „USA“. Der Satz „No training on your data“ steht in der Privacy Policy nur im Seitenmenü; der wörtliche Beleg steht auf greenpt.com/privacy, die Quelle des Feldes zeigt jetzt dorthin.
 
-## Nachtrag 08.10.2026, 00:05–00:25 UTC: Requesty nachgeprüft, Nr. 39 neu (Dauerlauf)
+## Nachtrag 08.10.2026, 23:55–00:10 UTC (07./08.10.): Requesty nachgeprüft, Nr. 39 neu (Dauerlauf)
 
 Kein Statuswechsel im Profil. DPA-Seite und Security-Seite seit 03.10. unverändert (Quellen-Hash gleich); auf der DPA-Seite steht „request and response bodies are never stored“ weiter ohne Einschränkung (Fall 2026-001). Die Anmerkung im Profil sagte noch, auch die Security-Seite sage „No data stored“; das stimmt seit dem Umbau im September nicht mehr und ist berichtigt. Subprozessoren-Liste „Last updated: 6 October 2026“, Teil B 37 → 41 Einträge (neu sicher: Thinking Machines Lab, US; der Rest ungeklärt, Internet Archive am 08.10. offline). Rohkopien mit SHA-256 in `belege/faelle/2026-001/*-2026-10-08.html`.
 
