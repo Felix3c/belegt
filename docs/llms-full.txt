@@ -85,7 +85,7 @@ URL: https://belegbar.eu/anbieter/black-forest-labs/ | Rohdaten: https://belegba
 Kategorie: Modell-Anbieter | Sitz: Freiburg, Deutschland (DE) | Gegründet: 2024
 Rechtsraum: Deutschland — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
 Mutterkonzern: Black Forest Labs Inc. (Delaware/San Francisco, USA) | US-Eigentümerstruktur: ja
-Beleg-Quote: 62 % | vollständig geprüft: 2026-08-20 | jüngstes Prüfdatum: 2026-10-08
+Beleg-Quote: 62 % | vollständig geprüft: 2026-10-08 | jüngstes Prüfdatum: 2026-10-08
 
 Bildmodell-Labor aus Freiburg (gegründet 2024 von Ex-Stability-AI-Forschern), bekannt für die FLUX-Modellfamilie. Gehostete Bild-/Video-API mit wählbarem EU- oder US-Cluster; seit der Finanzierungsrunde Ende 2025 ist die Konzernspitze eine US-Gesellschaft (Delaware Inc.), die deutsche BFL GmbH bleibt Datenverantwortliche für den EWR.
 
@@ -605,7 +605,7 @@ URL: https://belegbar.eu/anbieter/requesty/ | Rohdaten: https://belegbar.eu/anbi
 Kategorie: Gateway / Router | Sitz: London, Vereinigtes Königreich (GB) | Gegründet: 2023
 Rechtsraum: Vereinigtes Königreich — Drittland mit Angemessenheitsbeschluss der EU-Kommission — Übermittlung ohne zusätzliche Garantien zulässig (Art. 45 DSGVO). Der Angemessenheitsbeschluss wurde im Dezember 2025 verlängert — je eine Erneuerung unter der DSGVO und unter der Richtlinie für den Strafverfolgungsbereich (LED). [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
 Mutterkonzern: keiner bekannt | US-Eigentümerstruktur: nein
-Beleg-Quote: 20 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-10-08
+Beleg-Quote: 20 % | vollständig geprüft: 2026-10-08 | jüngstes Prüfdatum: 2026-10-08
 
 Britisches (nicht EU-ansässiges) AI-Gateway mit EU-Endpoint in Frankfurt; die eigene Verarbeitung bleibt in der EU, Inference läuft aber je nach Modellwahl bei über 30 Providern — darunter viele US- und China-Firmen. Echte EU-Residency nur bei expliziter Beschränkung auf EU-gehostete Modellvarianten.
 

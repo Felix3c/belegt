@@ -16,8 +16,8 @@
     "datum": "2026-10-08"
   },
   "anbieter/black-forest-labs/": {
-    "hash": "9b7135e67e291c40",
-    "datum": "2026-10-07"
+    "hash": "042e7e2359564447",
+    "datum": "2026-10-08"
   },
   "anbieter/deepl/": {
     "hash": "e3faf87ec509435b",
@@ -80,7 +80,7 @@
     "datum": "2026-10-08"
   },
   "anbieter/requesty/": {
-    "hash": "31faf9e1070e68e4",
+    "hash": "74da5683bcd4d000",
     "datum": "2026-10-08"
   },
   "anbieter/scaleway/": {
@@ -192,7 +192,7 @@
     "datum": "2026-09-16"
   },
   "vergleich/aleph-alpha-vs-black-forest-labs/": {
-    "hash": "24f8d14ee6791632",
+    "hash": "3d63954d269f75f9",
     "datum": "2026-10-08"
   },
   "vergleich/aleph-alpha-vs-deepl/": {
@@ -204,11 +204,11 @@
     "datum": "2026-10-08"
   },
   "vergleich/black-forest-labs-vs-deepl/": {
-    "hash": "e37c8911628d7548",
+    "hash": "f25ca8675cba8a5a",
     "datum": "2026-10-08"
   },
   "vergleich/black-forest-labs-vs-mistral/": {
-    "hash": "65563ba49da89552",
+    "hash": "c138a488fb29ebf5",
     "datum": "2026-10-08"
   },
   "vergleich/deepl-vs-mistral/": {
@@ -220,7 +220,7 @@
     "datum": "2026-10-08"
   },
   "vergleich/eurouter-vs-requesty/": {
-    "hash": "178c917cf74fa333",
+    "hash": "4ca703ab23d7bd54",
     "datum": "2026-10-08"
   },
   "vergleich/exoscale-vs-hetzner/": {
@@ -452,7 +452,7 @@
     "datum": "2026-10-08"
   },
   "vergleich/opper-ai-vs-requesty/": {
-    "hash": "fbad64e8bcdef1b6",
+    "hash": "9fee03f65adc6f8d",
     "datum": "2026-10-08"
   },
   "vergleich/ovhcloud-vs-regolo/": {
