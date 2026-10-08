@@ -33,6 +33,24 @@
 
 Diese Frage misst, ob die Käuferseite sich binden lässt. Wer unterschreibt, ist gebunden; das ist die Bedingung, unter der ein Dossier ein Stempel wäre und kein Ratgeber (`~/THESE.md`).
 
+**Nachhaken, wenn die Antwort „kommt darauf an“ lautet** (so in Gespräch 1, Schlademann 09:04: „Es kommt darauf an, aus welcher Quelle das kommt … Vertrauensstellung“): drei Sekunden schweigen, dann
+
+8a. „Was müsste die Quelle vorweisen, damit Sie unterschreiben? Eine Person mit Namen, eine Haftung, eine Akkreditierung, eine Verbandsmitgliedschaft, etwas anderes?“
+
+8b. „Und wenn sie das vorweist: Unterschreiben Sie dann, ja oder nein?“
+
+Ohne 8a/8b zählt die Antwort als „bedingt“ und hilft der Entscheidungsregel nicht.
+
+## Lehren aus Gespräch 1 (Schlademann, 08.10.2026)
+
+Was dort nicht erfragt wurde und deshalb in jedem weiteren Gespräch fest dazugehört (Quelle: `06-schlademann.md`, Abschnitt „Offene Punkte“):
+
+- **Geldfrage kurz stellen**, nicht mit Aufzählung: „Was hat die Prüfung gekostet, in Euro oder in Stunden?“ Die lange Fassung (Kanzlei, Berater, Tool) ging im Gespräch unter, es kam keine Zahl.
+- **Wartezeit des Fachbereichs** in Wochen (zu Frage 3), getrennt von den Arbeitsstunden.
+- **Aussehen des Ergebnisdokuments** (zu Frage 5): Seitenzahl, Gliederung, ob es oben eine Ja/Nein-Zusammenfassung hat.
+- **Nicht-öffentliche Teile** (zu Frage 4): „Welche der Unterlagen hätte ein Außenstehender ohne NDA bekommen?“ Das trennt, was ein öffentliches Profil leisten kann, von dem, was nur ein Audit leistet.
+- **Die vier BayLDA-Punkte** (Filter/Marketing, Betroffenenrechte, vorgeschaltete Filter, Log-Fristen) nicht vortragen, sondern fragen, ob sie geprüft wurden. Vorgetragen bekam Felix ein allgemeines „mir ist es aufgefallen“, keine einzelne Bestätigung.
+
 ## Abschluss (5 Minuten)
 
 - Nur wenn die Person danach fragt oder Zeit bleibt: das Profil eines Anbieters zeigen, den sie selbst geprüft hat. Nicht erklären. Beobachten, wohin der Blick geht, und fragen: „Was fehlt hier, damit Sie es beim nächsten Mal benutzt hätten?“
@@ -52,6 +70,7 @@ Diese Frage misst, ob die Käuferseite sich binden lässt. Wer unterschreibt, is
 | Änderungen nachverfolgt? Wie? | |
 | Kosten der letzten Prüfung, Budgetgeber | |
 | Guard-Frage: unterschreiben? Begründung wörtlich | |
+| Bei „kommt darauf an“: was müsste die Quelle vorweisen (8a), dann ja/nein (8b) | |
 | Alarm gewünscht? Für welche Anbieter? | |
 | Zwei Namen | |
 | Wörtliche Sätze, die auf die Seite gehören | |
