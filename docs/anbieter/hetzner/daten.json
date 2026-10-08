@@ -69,7 +69,7 @@
       "status": "belegt",
       "quelle": "https://www.hetzner.com/unternehmen/zertifizierung/",
       "geprueft": "2026-10-08",
-      "anmerkung": "ISO/IEC 27001:2022 (SOCOTEC), Scope: alle Hosting-Services und Rechenzentren. BSI C5, SOC 2, TISAX werden nicht genannt.",
+      "anmerkung": "ISO/IEC 27001:2022 (SOCOTEC) für Hetzner Online GmbH und Hetzner Finland Oy; Scope laut Zertifizierungsseite: Infrastruktur, Betrieb und Kundensupport der Rechenzentrumsparks Nürnberg, Falkenstein und Helsinki (Standorte USA und Singapur nicht genannt). BSI C5, SOC 2, TISAX werden nicht genannt.",
       "normiert": [
         "iso-27001"
       ]

@@ -40,7 +40,7 @@
     "datum": "2026-10-08"
   },
   "anbieter/hetzner/": {
-    "hash": "58c64fe68392ddb6",
+    "hash": "630a60f868919465",
     "datum": "2026-10-08"
   },
   "anbieter/infomaniak/": {
@@ -508,7 +508,7 @@
     "datum": "2026-10-08"
   },
   "zertifikate/iso-27001/": {
-    "hash": "d1c54d9cefb22a04",
+    "hash": "846f9c82b601dc01",
     "datum": "2026-10-08"
   },
   "zertifikate/iso-27017/": {
