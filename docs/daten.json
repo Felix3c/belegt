@@ -2670,7 +2670,7 @@
           "preis_output_1m_eur": null,
           "preis_status": "kein_oeffentlicher_preis",
           "quelle": "https://docs.requesty.ai/features/eu-routing",
-          "geprueft": "2026-10-03",
+          "geprueft": "2026-10-08",
           "status": "beansprucht",
           "anmerkung": "Pass-through + 5% Markup; öffentliche Preisliste nur hinter Login"
         },
@@ -2680,7 +2680,7 @@
           "preis_input_1m_eur": null,
           "preis_output_1m_eur": null,
           "quelle": "https://docs.requesty.ai/features/eu-routing",
-          "geprueft": "2026-10-03",
+          "geprueft": "2026-10-08",
           "status": "beansprucht",
           "anmerkung": "Keine öffentliche Preisangabe verifizierbar"
         },
@@ -2690,7 +2690,7 @@
           "preis_input_1m_eur": null,
           "preis_output_1m_eur": null,
           "quelle": "https://docs.requesty.ai/features/eu-routing",
-          "geprueft": "2026-10-03",
+          "geprueft": "2026-10-08",
           "status": "beansprucht",
           "anmerkung": "Keine öffentliche Preisangabe verifizierbar"
         }
@@ -2700,30 +2700,30 @@
           "wert": null,
           "status": "beansprucht",
           "quelle": "https://www.requesty.ai/dpa",
-          "geprueft": "2026-10-03",
+          "geprueft": "2026-10-08",
           "anmerkung": "DPA-Infoseite vorhanden, das eigentliche Dokument nur auf Anfrage per E-Mail; kein öffentlicher Volltext"
         },
         "subprozessoren": {
           "wert": "https://www.requesty.ai/privacy/subprocessors",
           "status": "belegt",
           "quelle": "https://www.requesty.ai/privacy/subprocessors",
-          "geprueft": "2026-10-03",
-          "anmerkung": "Liste 'Last updated: 30 August 2026': AWS Frankfurt (Teil A) plus 37 Modellprovider (Teil B, zuvor 32), davon 15 reine US-Provider (OpenAI, Anthropic, xAI, DeepInfra, Groq, Novita, Parasail, Perplexity, Together, Fireworks, NVIDIA, Poolside, Relace, Sail Research, TypeSafe) sowie gemischte US/EU-Einträge (Vertex, Azure, Bedrock) und Gemini API 'Global'; China: DeepSeek, Moonshot AI, Xiaomi, Tencent (zuvor nur DeepSeek/Moonshot/Tencent genannt). 'Trains on Prompts = Yes' bei NVIDIA und Poolside. Neu in der Liste: Regolo.ai und Scaleway SAS (beide 'No (Zero Data Retention)')"
+          "geprueft": "2026-10-08",
+          "anmerkung": "Liste 'Last updated: 6 October 2026' (am 03.10. noch '30 August 2026'): AWS Frankfurt (Teil A) plus 41 Modellprovider (Teil B, zuvor 37), davon 16 reine US-Provider (OpenAI, Anthropic, xAI, DeepInfra, Groq, Novita, Parasail, Perplexity, Together, Fireworks, NVIDIA, Poolside, Relace, Sail Research, TypeSafe, neu Thinking Machines Lab) sowie gemischte US/EU-Einträge (Vertex, Azure, Bedrock), Cloudflare 'US, Global network' und Gemini API 'Global'; China: DeepSeek, Moonshot AI, Xiaomi, Tencent; Singapur: Alibaba Cloud, Z.ai, MiniMax. 'Trains on Prompts = Yes' weiter nur bei NVIDIA und Poolside. EU-Einträge u. a. Mistral, Nebius, Inceptron, sference, TensorX, Regolo.ai, Scaleway SAS, Lyceum, Melious. Welche der vier Einträge seit 03.10. neu sind, ist außer Thinking Machines ungeklärt (Internet Archive am 08.10. offline, keine eigene Kopie vom 03.10.). Neu auf der Seite: Teil B wird nur beauftragt, wenn man an das Modell routet; einschränkbar über 'Approved Models'. Rohkopie belege/faelle/2026-001/subprocessors-2026-10-08.html"
         },
         "training_opt_out": {
           "wert": true,
           "status": "belegt",
           "quelle": "https://docs.requesty.ai/quickstart",
-          "geprueft": "2026-10-03",
-          "anmerkung": "'Requesty is a pass-through gateway. We don't train on your requests'; Ausnahme: Free-Plan-Modelle von NVIDIA/Poolside erlauben Upstream-Training"
+          "geprueft": "2026-10-08",
+          "anmerkung": "'Requesty is a pass-through gateway. We don't train on your requests'; Ausnahme: Free-Plan-Modelle von NVIDIA/Poolside erlauben Upstream-Training. Die Privacy Policy schränkt weiter ein (Wortlaut seit mindestens 25.08.2026, am 08.10. unverändert): 'On any paid plan this is absolute: Requesty never trains on your data […] Requesty's own use of content for training is limited to free plan accounts.' Für bezahlte Tarife belegt; für den Free-Plan behält sich Requesty eigenes Training vor, was die Quickstart-Antwort ohne Einschränkung nicht sagt (Fall-Kandidat Nr. 39)"
         },
         "zero_data_retention": {
           "wert": null,
           "status": "beansprucht",
           "quelle": "https://www.requesty.ai/dpa",
-          "geprueft": "2026-10-03",
+          "geprueft": "2026-10-08",
           "fall": "2026-001",
-          "anmerkung": "Widersprüchlich: DPA- und Security-Seite sagen ohne Einschränkung 'request and response bodies are never stored' bzw. 'No data stored'; dieselben Seiten und die Privacy Policy nennen für Self-Serve-Tarife Prompt-/Output-Logging als Standard mit 30 Tagen Aufbewahrung. ZDR nur pro API-Schlüssel abschaltbar oder organisationsweit auf schriftliche Anfrage. Dokumentiert als Fall 2026-001."
+          "anmerkung": "Widersprüchlich: Die DPA-Seite sagt am 08.10.2026 weiter ohne Einschränkung 'request and response bodies are never stored' (Seite seit 03.10. unverändert); die Security-Seite ist seit September umgebaut, 'No data stored' ist dort weg und sie sagt jetzt 'Logging is on by default, encrypted, in the EU, for 30 days'. DPA-Seite, Security-Seite und die Privacy Policy nennen für Self-Serve-Tarife Prompt-/Output-Logging als Standard mit 30 Tagen Aufbewahrung. ZDR nur pro API-Schlüssel abschaltbar oder organisationsweit auf schriftliche Anfrage. Dokumentiert als Fall 2026-001."
         }
       },
       "zertifikate": [
@@ -2731,8 +2731,8 @@
           "typ": "SOC 2 Type II",
           "status": "beansprucht",
           "quelle": "https://www.requesty.ai/security",
-          "geprueft": "2026-10-03",
-          "anmerkung": "Laut Security-Seite (03.10.2026) 'programme in progress', noch nicht erteilt; der zuvor genannte Zieltermin 'expected Q3 2026' steht auf der Seite nicht mehr (kein neuer Termin genannt)",
+          "geprueft": "2026-10-08",
+          "anmerkung": "Laut Security-Seite (Tabelle 'compliance / status September 2026', abgerufen 08.10.2026) 'SOC 2 Type II programme in progress', noch nicht erteilt, kein Zieltermin; Status verweist auf trust.requesty.ai (lädt nur per JavaScript, ohne Browser nicht lesbar)",
           "normiert": [
             "soc-2"
           ]
@@ -2758,7 +2758,7 @@
       "geprueft": "2026-08-19",
       "url": "https://belegbar.eu/anbieter/requesty/",
       "beleg_quote_prozent": 20,
-      "zuletzt_geprueft": "2026-10-03",
+      "zuletzt_geprueft": "2026-10-08",
       "rechtsraum": {
         "land": "GB",
         "name": "Vereinigtes Königreich",

@@ -80,8 +80,8 @@
     "datum": "2026-10-05"
   },
   "anbieter/requesty/": {
-    "hash": "097251f119687f9e",
-    "datum": "2026-10-03"
+    "hash": "31faf9e1070e68e4",
+    "datum": "2026-10-08"
   },
   "anbieter/scaleway/": {
     "hash": "1698a0a6dacab24e",
@@ -220,8 +220,8 @@
     "datum": "2026-10-05"
   },
   "vergleich/eurouter-vs-requesty/": {
-    "hash": "8353ed848fe24c8f",
-    "datum": "2026-10-05"
+    "hash": "1f1bb78e453c7aeb",
+    "datum": "2026-10-08"
   },
   "vergleich/exoscale-vs-hetzner/": {
     "hash": "3f14c5237cf8d911",
@@ -452,8 +452,8 @@
     "datum": "2026-10-05"
   },
   "vergleich/opper-ai-vs-requesty/": {
-    "hash": "f9a38acd0310a45a",
-    "datum": "2026-10-05"
+    "hash": "d2902cebb099a309",
+    "datum": "2026-10-08"
   },
   "vergleich/ovhcloud-vs-regolo/": {
     "hash": "3b502442a9b1ae93",
@@ -532,8 +532,8 @@
     "datum": "2026-10-07"
   },
   "zertifikate/soc-2/": {
-    "hash": "b313ff69b82819e7",
-    "datum": "2026-10-07"
+    "hash": "8158c473aeec1cd4",
+    "datum": "2026-10-08"
   },
   "zertifikate/tisax/": {
     "hash": "50cc6ce94359d679",
