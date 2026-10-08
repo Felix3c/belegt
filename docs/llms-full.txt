@@ -627,31 +627,31 @@ URL: https://belegbar.eu/anbieter/scaleway/ | Rohdaten: https://belegbar.eu/anbi
 Kategorie: Inference-API | Sitz: Paris, Frankreich (FR) | Gegründet: 1999
 Rechtsraum: Frankreich — EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht. [Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en, geprüft 2026-08-24]
 Mutterkonzern: Iliad Group | US-Eigentümerstruktur: nein
-Beleg-Quote: 86 % | vollständig geprüft: 2026-08-19 | jüngstes Prüfdatum: 2026-10-03
+Beleg-Quote: 86 % | vollständig geprüft: 2026-10-08 | jüngstes Prüfdatum: 2026-10-08
 
 Französischer Cloud-Anbieter (Iliad-Gruppe), der über seine Generative APIs offene LLMs serverlos in Pariser Rechenzentren als OpenAI-kompatible Inferenz-API anbietet.
 
 Vertrag und Datenschutz:
-- AVV / Auftragsverarbeitungsvertrag: https://www-uploads.scaleway.com/DPA_2024_ENG_b0abb5cc26.pdf [Status: belegt] | Quelle: https://www.scaleway.com/en/contracts/ | geprüft 2026-10-03 | Anmerkung: DPA 2024 (EN) als Primärdokument vorhanden; auf der Contracts-Seite auch SCCs und TOM-Dokument.
-- Subprozessoren-Liste: https://www.scaleway.com/en/subprocessorlist/ [Status: belegt] | Quelle: https://www.scaleway.com/en/subprocessorlist/ | geprüft 2026-10-03 | Anmerkung: Offizielle Liste, Stand Juli 2025 (u.a. AtNorth, Equinix EMEA, Iron Mountain, Digital Realty, Opcore); Änderungshistorie öffentlich.
-- Kein Training mit Kundendaten: ja [Status: belegt] | Quelle: https://www.scaleway.com/en/docs/generative-apis/reference-content/data-privacy/ | geprüft 2026-10-03 | Anmerkung: Doku-Zitat: 'Your data is not used for training, retraining, or improving the base models' — Training findet grundsätzlich nicht statt, kein Opt-out nötig.
-- Zero Data Retention: ja [Status: belegt] | Quelle: https://www.scaleway.com/en/docs/generative-apis/reference-content/data-privacy/ | geprüft 2026-10-03 | Anmerkung: Doku (reviewed 03.10.2025): 'By default we apply a Zero Data Retention Policy, collecting only data required to provide the service reliably and securely.' Ausnahmen laut aktuellem Wortlaut: (a) API-Metadaten/Token-Zahlen ohne Prompt-Inhalt, Aggregate bis 6 Monate; (b) Caching nur mit ephemeren Zwischenwerten (Prefix-Hashes, KV), nicht abschaltbar; (c) bei Missbrauch/Fehlern temporäre Speicherung voller HTTP-Request-Inhalte bis zu zwei Wochen. 'Batch-Verarbeitung' als Ausnahme steht so nicht mehr; Speicherregion Paris.
+- AVV / Auftragsverarbeitungsvertrag: https://www-uploads.scaleway.com/DPA_2024_ENG_b0abb5cc26.pdf [Status: belegt] | Quelle: https://www.scaleway.com/en/contracts/ | geprüft 2026-10-08 | Anmerkung: DPA 2024 (EN) als Primärdokument vorhanden; auf der Contracts-Seite auch SCCs und TOM-Dokument.
+- Subprozessoren-Liste: https://www.scaleway.com/en/subprocessorlist/ [Status: belegt] | Quelle: https://www.scaleway.com/en/subprocessorlist/ | geprüft 2026-10-08 | Anmerkung: Offizielle Liste, Stand Juli 2025 (u.a. AtNorth, Equinix EMEA, Iron Mountain, Digital Realty, Opcore); Änderungshistorie öffentlich.
+- Kein Training mit Kundendaten: ja [Status: belegt] | Quelle: https://www.scaleway.com/en/docs/generative-apis/reference-content/data-privacy/ | geprüft 2026-10-08 | Anmerkung: Doku-Zitat: 'Your data is not used for training, retraining, or improving the base models' — Training findet grundsätzlich nicht statt, kein Opt-out nötig.
+- Zero Data Retention: ja [Status: belegt] | Quelle: https://www.scaleway.com/en/docs/generative-apis/reference-content/data-privacy/ | geprüft 2026-10-08 | Anmerkung: Doku (reviewed 03.10.2025): 'By default we apply a Zero Data Retention Policy, collecting only data required to provide the service reliably and securely.' Ausnahmen laut aktuellem Wortlaut: (a) API-Metadaten/Token-Zahlen ohne Prompt-Inhalt, Aggregate bis 6 Monate; (b) Caching nur mit ephemeren Zwischenwerten (Prefix-Hashes, KV), nicht abschaltbar; (c) bei Missbrauch/Fehlern temporäre Speicherung voller HTTP-Request-Inhalte bis zu zwei Wochen. 'Batch-Verarbeitung' als Ausnahme steht so nicht mehr; Speicherregion Paris.
 
 Zertifikate:
 - ISO 27001 [normiert: iso-27001] [Status: belegt] | Quelle: https://www.scaleway.com/en/security-and-compliance/ | Anmerkung: ISO/IEC 27001:2022 auf der offiziellen Security-and-Compliance-Seite als erreicht ausgewiesen.
 - HDS [normiert: hds] [Status: belegt] | Quelle: https://www.scaleway.com/en/security-and-compliance/ | Anmerkung: Französische Zertifizierung für das Hosting von Gesundheitsdaten.
-- SecNumCloud [normiert: secnumcloud] [Status: beansprucht] | Quelle: https://www.scaleway.com/en/news/scaleway-begins-the-secnumcloud-qualification-process/ | Anmerkung: Noch keine Qualifikation: Meilenstein J0 bestanden, Ziel 'by the end of 2025' laut News-Artikel (Veröffentlichungsdatum auf der Seite als 01/09/2025 angegeben, Format uneindeutig) ist verstrichen; Security-and-Compliance-Seite führt SecNumCloud weiterhin als 'ongoing', Audit/Bewertung läuft.
+- SecNumCloud [normiert: secnumcloud] [Status: beansprucht] | Quelle: https://www.scaleway.com/en/news/scaleway-begins-the-secnumcloud-qualification-process/ | Anmerkung: Noch keine Qualifikation: Meilenstein J0 bestanden, Ziel 'by the end of 2025' laut News-Artikel (Veröffentlichungsdatum auf der Seite als 01/09/2025 angegeben, Format uneindeutig) ist verstrichen; Security-and-Compliance-Seite führt SecNumCloud weiterhin als 'ongoing', Audit/Bewertung läuft. Eigene SecNumCloud-Seite am 08.10.2026 wörtlich: 'undergoing SecNumCloud (ANSSI) qualification — … not yet granted'.
 
 AI Act:
 - Transparenzdokumentation für Basismodelle (GPAI Code of Practice) [Status: unbelegt] | Anmerkung: Keine eigene Veröffentlichung dazu auffindbar. Scaleway hostet fremde offene Modelle und gibt an, keine eigenen Basismodelle zu trainieren.
 
 Modelle und Preise (EUR je 1 Mio. Token, sofern keine andere Einheit genannt; „kein öffentlicher Preis“ = der Anbieter veröffentlicht keinen):
-- gpt-oss-120b | Hosting: Paris, Frankreich | Input: 0.15 | Output: 0.6 | Preis-Stand: 2026-10-03 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
-- Llama 3.3 70B Instruct | Hosting: Paris, Frankreich | Input: 0.9 | Output: 0.9 | Preis-Stand: 2026-10-03 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
-- Mistral Small 3.2 24B | Hosting: Paris, Frankreich | Input: 0.15 | Output: 0.35 | Preis-Stand: 2026-10-03 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
-- Qwen3 235B A22B Instruct | Hosting: Paris, Frankreich | Input: 0.75 | Output: 2.25 | Preis-Stand: 2026-10-03 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
-- DeepSeek V4 Flash | Hosting: Paris, Frankreich | Input: 0.4 | Output: 0.8 | Preis-Stand: 2026-10-03 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/ | Anmerkung: Modellname auf der Preisseite jetzt 'deepseek-v4-flash-0731'; Preise unverändert
-- GLM-5.2 | Hosting: Paris, Frankreich | Input: 1.8 | Output: 5.5 | Preis-Stand: 2026-10-03 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
+- gpt-oss-120b | Hosting: Paris, Frankreich | Input: 0.15 | Output: 0.6 | Preis-Stand: 2026-10-08 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
+- Llama 3.3 70B Instruct | Hosting: Paris, Frankreich | Input: 0.9 | Output: 0.9 | Preis-Stand: 2026-10-08 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
+- Mistral Small 3.2 24B | Hosting: Paris, Frankreich | Input: 0.15 | Output: 0.35 | Preis-Stand: 2026-10-08 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
+- Qwen3 235B A22B Instruct | Hosting: Paris, Frankreich | Input: 0.75 | Output: 2.25 | Preis-Stand: 2026-10-08 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
+- DeepSeek V4 Flash | Hosting: Paris, Frankreich | Input: 0.4 | Output: 0.8 | Preis-Stand: 2026-10-08 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/ | Anmerkung: Modellname auf der Preisseite jetzt 'deepseek-v4-flash-0731'; Preise unverändert; Preisseite führt zusätzlich einen Cache-Preis (0,08 €/1M Input-Token, cached), nicht in die Tabelle übernommen
+- GLM-5.2 | Hosting: Paris, Frankreich | Input: 1.8 | Output: 5.5 | Preis-Stand: 2026-10-08 [Status: belegt] | Quelle: https://www.scaleway.com/en/pricing/model-as-a-service/
 
 ### STACKIT
 
