@@ -124,18 +124,28 @@
   },
   "https://docs.nebius.com/legal/": {
     "hash": "cccf634f89d02ac9",
-    "gesehen": "2026-10-03",
+    "gesehen": "2026-10-08",
     "geaendert": "2026-10-03"
   },
   "https://docs.nebius.com/legal/dpa": {
     "hash": "89319fab4254aa68",
-    "gesehen": "2026-10-03",
+    "gesehen": "2026-10-08",
     "geaendert": "2026-10-03"
   },
   "https://docs.nebius.com/legal/sub-processors": {
     "hash": "d3d0208641beb122",
     "gesehen": "2026-10-03",
     "geaendert": "2026-10-03"
+  },
+  "https://docs.nebius.com/legal/sub-processors_tofa": {
+    "hash": "f28fe7e3869f6fc1",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
+  },
+  "https://docs.nebius.com/legal/token-factory": {
+    "hash": "0845b14820a9b5fc",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   },
   "https://docs.requesty.ai/features/eu-routing": {
     "hash": "f7eebb434fe83723",
@@ -151,6 +161,11 @@
     "hash": "ca93b8846f16991b",
     "gesehen": "2026-10-03",
     "geaendert": "2026-10-03"
+  },
+  "https://docs.tokenfactory.nebius.com/public-serverless": {
+    "hash": "f07bfd58c7b574d2",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   },
   "https://eurouter.ai": {
     "nur_erreichbar": true,
@@ -299,17 +314,22 @@
   },
   "https://nebius.com": {
     "nur_erreichbar": true,
-    "gesehen": "2026-10-03"
+    "gesehen": "2026-10-08"
   },
   "https://nebius.com/services/token-factory": {
-    "hash": "6c396bcf8d3b86ce",
-    "gesehen": "2026-10-03",
-    "geaendert": "2026-10-03"
+    "hash": "d1ce94798d9d9073",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   },
   "https://nebius.com/trust-center": {
-    "hash": "478cd25d9f1a1a43",
-    "gesehen": "2026-10-03",
-    "geaendert": "2026-10-03"
+    "hash": "c037f6d05fc83a5d",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
+  },
+  "https://nebius.com/trust-center/iso-42001": {
+    "hash": "bca8b779ed6a74cc",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   },
   "https://nordference.ai": {
     "hash": "913d1c3c047184f3",
@@ -327,9 +347,9 @@
     "geaendert": "2026-08-28"
   },
   "https://openrouter.ai/provider/nebius": {
-    "hash": "793403bb66481d05",
-    "gesehen": "2026-10-03",
-    "geaendert": "2026-10-03"
+    "hash": "cd4cc3497127c1ee",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   },
   "https://opper.ai": {
     "nur_erreichbar": true,
