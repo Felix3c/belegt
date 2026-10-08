@@ -21,7 +21,21 @@
       "quelle": "https://gcore.com/everywhere-inference/whisper-large-v3-turbo",
       "geprueft": "2026-10-08",
       "status": "belegt",
-      "anmerkung": "Feste monatliche GPU-Miete statt Minutenpreis; konkrete Raten nicht öffentlich"
+      "anmerkung": "Feste monatliche GPU-Miete statt Minutenpreis; konkrete Raten nicht öffentlich",
+      "backup_standort": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": "https://gcore.com/legal",
+        "geprueft": "2026-10-08",
+        "anmerkung": "Kein Backup-Ort genannt. DPA (Stand 17.06.2026) Schedule B nur allgemein: 'Realization of a regular backup schedule'; gcore.com/infrastructure: 'Reliable storage, backup, and restore functions'. Die Inference-Doku (docs.gcore.com/edge-ai, 08.10.2026) beschreibt Regionenwahl und Failover ('automatic failover'), aber keine Sicherungen von Anfragen oder Ausgaben."
+      },
+      "vorgeschaltete_filter": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-08",
+        "anmerkung": "Weder Inference-Doku (docs.gcore.com/edge-ai: Overview, Deploy from Catalog, Manage deployments, 08.10.2026) noch MSA/DPA/AUP-Verweise nennen eigene Moderation, Guardrails oder Vor-/Nachverarbeitung vor dem gehosteten Modell; eine ausdrückliche Aussage 'wir filtern nicht' gibt es aber auch nicht."
+      }
     },
     {
       "name": "LLaMA Pro 8B",
@@ -31,7 +45,21 @@
       "quelle": "https://gcore.com/press-releases/gcore-unveils-inference-at-the-edge-bringing-ai-applications-closer-to-end-users-for-seamless-real-time-performance",
       "geprueft": "2026-10-08",
       "status": "belegt",
-      "anmerkung": "Abrechnung nach genutzten Ressourcen (docs.gcore.com/edge-ai/billing.md: 'charged per minute'), keine Token-Preise"
+      "anmerkung": "Abrechnung nach genutzten Ressourcen (docs.gcore.com/edge-ai/billing.md: 'charged per minute'), keine Token-Preise",
+      "backup_standort": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": "https://gcore.com/legal",
+        "geprueft": "2026-10-08",
+        "anmerkung": "Kein Backup-Ort genannt. DPA (Stand 17.06.2026) Schedule B nur allgemein: 'Realization of a regular backup schedule'; gcore.com/infrastructure: 'Reliable storage, backup, and restore functions'. Die Inference-Doku (docs.gcore.com/edge-ai, 08.10.2026) beschreibt Regionenwahl und Failover ('automatic failover'), aber keine Sicherungen von Anfragen oder Ausgaben."
+      },
+      "vorgeschaltete_filter": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-08",
+        "anmerkung": "Weder Inference-Doku (docs.gcore.com/edge-ai: Overview, Deploy from Catalog, Manage deployments, 08.10.2026) noch MSA/DPA/AUP-Verweise nennen eigene Moderation, Guardrails oder Vor-/Nachverarbeitung vor dem gehosteten Modell; eine ausdrückliche Aussage 'wir filtern nicht' gibt es aber auch nicht."
+      }
     },
     {
       "name": "Mistral 7B",
@@ -41,7 +69,21 @@
       "quelle": "https://gcore.com/press-releases/gcore-unveils-inference-at-the-edge-bringing-ai-applications-closer-to-end-users-for-seamless-real-time-performance",
       "geprueft": "2026-10-08",
       "status": "belegt",
-      "anmerkung": "Keine öffentlichen Token-Preise"
+      "anmerkung": "Keine öffentlichen Token-Preise",
+      "backup_standort": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": "https://gcore.com/legal",
+        "geprueft": "2026-10-08",
+        "anmerkung": "Kein Backup-Ort genannt. DPA (Stand 17.06.2026) Schedule B nur allgemein: 'Realization of a regular backup schedule'; gcore.com/infrastructure: 'Reliable storage, backup, and restore functions'. Die Inference-Doku (docs.gcore.com/edge-ai, 08.10.2026) beschreibt Regionenwahl und Failover ('automatic failover'), aber keine Sicherungen von Anfragen oder Ausgaben."
+      },
+      "vorgeschaltete_filter": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-08",
+        "anmerkung": "Weder Inference-Doku (docs.gcore.com/edge-ai: Overview, Deploy from Catalog, Manage deployments, 08.10.2026) noch MSA/DPA/AUP-Verweise nennen eigene Moderation, Guardrails oder Vor-/Nachverarbeitung vor dem gehosteten Modell; eine ausdrückliche Aussage 'wir filtern nicht' gibt es aber auch nicht."
+      }
     },
     {
       "name": "Stable Diffusion XL",
@@ -51,7 +93,21 @@
       "quelle": "https://gcore.com/press-releases/gcore-unveils-inference-at-the-edge-bringing-ai-applications-closer-to-end-users-for-seamless-real-time-performance",
       "geprueft": "2026-10-08",
       "status": "belegt",
-      "anmerkung": "Bildmodell, Token-Preislogik nicht anwendbar"
+      "anmerkung": "Bildmodell, Token-Preislogik nicht anwendbar",
+      "backup_standort": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": "https://gcore.com/legal",
+        "geprueft": "2026-10-08",
+        "anmerkung": "Kein Backup-Ort genannt. DPA (Stand 17.06.2026) Schedule B nur allgemein: 'Realization of a regular backup schedule'; gcore.com/infrastructure: 'Reliable storage, backup, and restore functions'. Die Inference-Doku (docs.gcore.com/edge-ai, 08.10.2026) beschreibt Regionenwahl und Failover ('automatic failover'), aber keine Sicherungen von Anfragen oder Ausgaben."
+      },
+      "vorgeschaltete_filter": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-08",
+        "anmerkung": "Weder Inference-Doku (docs.gcore.com/edge-ai: Overview, Deploy from Catalog, Manage deployments, 08.10.2026) noch MSA/DPA/AUP-Verweise nennen eigene Moderation, Guardrails oder Vor-/Nachverarbeitung vor dem gehosteten Modell; eine ausdrückliche Aussage 'wir filtern nicht' gibt es aber auch nicht."
+      }
     }
   ],
   "vertrag": {
@@ -82,6 +138,34 @@
       "quelle": "https://gcore.com/legal",
       "geprueft": "2026-10-08",
       "anmerkung": "Keine ZDR-Zusage, auch nicht in der Inference-Doku (docs.gcore.com, 04.10.2026; der Logs-Tab zeigt Pod-Ausgaben, eine Aufbewahrungsfrist steht nirgends). MSA §16.3 regelt nur die Löschung nach Vertragsende, zuerst nach der Leistungsbeschreibung: 'The 48-hour period shall apply only where no such specification exists.'"
+    },
+    "zweckbindung": {
+      "wert": false,
+      "status": "belegt",
+      "quelle": "https://gcore.com/legal",
+      "geprueft": "2026-10-08",
+      "anmerkung": "Für Customer Content ist der Zweck gebunden (MSA §7.2: 'solely for the purposes of this Agreement'; DPA 4.1/4.2: 'only Process Personal Data insofar as strictly necessary for the performance of the Services', 'not allowed to Process the Personal Data for any other purpose'). Der MSA §8.4(ii) erlaubt aber für Customer Data (Definition schließt 'End User Data' und 'content transmission data when such data identifies Customer' ein) eine Nutzung als eigener Verantwortlicher für 'maintenance, support and product development, fraud detection and prevention, sales, revenue and Customer analysis and reporting, marketing and Customer use analysis'. Ob personenbezogene Inhalte in Prompts darunter fallen, regeln die Dokumente nicht ausdrücklich; laut DPA 2.3 geht der DPA bei Widerspruch vor."
+    },
+    "betroffenenrechte_traeger": {
+      "wert": "auftraggeber",
+      "status": "belegt",
+      "quelle": "https://gcore.com/legal",
+      "geprueft": "2026-10-08",
+      "anmerkung": "DPA (Tab 'Data Processing Agreement', Stand 17.06.2026) 8.1: 'Processor shall notify immediately in writing upon receipt of any request from a data subject exercising their rights under the GDPR ... Processor shall assist Controller in taking any reasonable action the latter deems appropriate in dealing with such a request'; MSA §9.7: 'Customer will act as a data controller and Gcore as a data processor'. Für Daten, die Gcore als eigener Verantwortlicher verarbeitet (MSA §9.5.6), bedient Gcore Anfragen selbst (privacy@gcore.lu)."
+    },
+    "log_frist": {
+      "wert": null,
+      "status": "unbelegt",
+      "quelle": "https://gcore.com/legal",
+      "geprueft": "2026-10-08",
+      "anmerkung": "Keine Frist für Anfrage-Logs der Inferenz. DPA 12.1: 'only for as long as necessary in order to provide the Services, unless there is a duty or legitimate reason for retention'. Datenschutzerklärung (Stand 08.05.2026, Tab Privacy Policy): Vertragsdaten 'usually ... for a period of ten years following termination or expiration of the relevant contract', Interessenten max. drei Jahre — beides keine Log-Frist. Inference-Doku: Logs-Tab zeigt 'real-time output from the deployment pods', Aufbewahrung nicht genannt."
+    },
+    "log_zweck": {
+      "wert": null,
+      "status": "unbelegt",
+      "quelle": "https://gcore.com/legal",
+      "geprueft": "2026-10-08",
+      "anmerkung": "Kein dokumentierter Zweck für Anfrage-Logs der Inferenz. Die Datenschutzerklärung (Stand 08.05.2026) nennt für Nutzungs- und Betriebsdaten ('technical and operational details of your usage of Gcore's products ... crucial for the management and upkeep of products') allgemein Zwecke wie 'troubleshooting, data analysis, testing, research, statistical and survey purposes' und 'fraud detection and prevention'; ob und welche Inferenz-Logs darunter fallen, steht dort nicht."
     }
   },
   "zertifikate": [
@@ -91,6 +175,27 @@
       "quelle": "https://gcore.com/infrastructure",
       "geprueft": "2026-10-08",
       "anmerkung": "Eigenaussage über unabhängiges Audit; Zertifikat selbst nicht zum Download angeboten. Dieselbe Seite nennt am 08.10.2026 die Version: ‚ISO/IEC 27001:2013 certified‘ (Wayback 20261008014212). Nach IAF MD 26:2023 sind alle Zertifizierungen nach ISO/IEC 27001:2013 mit Ende der Übergangsfrist am 31.10.2025 abgelaufen oder zurückgezogen; ob Gcore ein Zertifikat nach ISO/IEC 27001:2022 hält: ungeklärt (auf gcore.com und docs.gcore.com am 08.10. nicht genannt)",
+      "anwendungsbereich": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": "https://trustcentre.gcore.com/",
+        "geprueft": "2026-10-08",
+        "anmerkung": "Zertifikat nicht öffentlich: Im Vanta-Trust-Center steht 'ISO 27001:2022 certificate' nur nach Zugangsanfrage (Request access, 08.10.2026). gcore.com/infrastructure nennt keinen Scope ('Our multi-level information protection infrastructure is ISO/IEC 27001:2013 certified')."
+      },
+      "zertifizierer": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-08",
+        "anmerkung": "Zertifizierungsstelle weder auf gcore.com/infrastructure ('Through an independent audit') noch frei im Trust Center trustcentre.gcore.com genannt; Zertifikat nur nach Zugangsanfrage (08.10.2026)."
+      },
+      "akkreditiert_dakks": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-08",
+        "anmerkung": "Nicht prüfbar, da die Zertifizierungsstelle unbekannt ist (Zertifikat im Trust Center nur nach Zugangsanfrage, 08.10.2026)."
+      },
       "normiert": [
         "iso-27001"
       ]
@@ -101,6 +206,27 @@
       "quelle": "https://gcore.com/infrastructure",
       "geprueft": "2026-10-08",
       "anmerkung": "Eigenaussage (jährliches QSA-Audit); Attest nicht abrufbar",
+      "anwendungsbereich": {
+        "wert": "G-Core Labs S.A.; Dienste und Standorte nennt das Zertifikat nicht",
+        "status": "belegt",
+        "quelle": "https://trustcentre.gcore.com/doc/trust?rid=6979bcedc3c6bc8e8bc5c3c0&r=i4tqj3n1h7cftvpijy0za6",
+        "geprueft": "2026-10-08",
+        "anmerkung": "Frei abrufbares 'Certificate of PCI DSS Compliance' (Bilddatei) im Trust Center: 'G-Core Labs S.A. Has been assessed by Compliance Control Ltd. and was found to be compliant with Payment Card Industry Data Security Standard 4.0.1', Nr. 80YE-1TCQ-TJYT, ausgestellt 08.11.2025, 'valid till: 7 November 2026'. Der eigentliche Scope steht in der AOC, die nicht veröffentlicht ist."
+      },
+      "zertifizierer": {
+        "wert": "Compliance Control Ltd. (QSA)",
+        "status": "belegt",
+        "quelle": "https://trustcentre.gcore.com/doc/trust?rid=6979bcedc3c6bc8e8bc5c3c0&r=i4tqj3n1h7cftvpijy0za6",
+        "geprueft": "2026-10-08",
+        "anmerkung": "'It was confirmed by annual security assessment performed by QSAs of Compliance Control Ltd.', unterzeichnet von Ivan Tverdokhlebov, Duly Authorized Officer."
+      },
+      "akkreditiert_dakks": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-08",
+        "anmerkung": "PCI DSS ist keine akkreditierte Zertifizierung nach ISO/IEC 17021/17065: Prüfer werden vom PCI Security Standards Council als QSA zugelassen, nicht von DAkkS oder einer anderen nationalen Akkreditierungsstelle. QSA-Listung von Compliance Control Ltd. beim PCI SSC nicht geprüft."
+      },
       "normiert": [
         "pci-dss"
       ]
@@ -110,6 +236,27 @@
       "status": "unbelegt",
       "quelle": null,
       "anmerkung": "Keine eigene SOC-2-Attestierung auffindbar; die Compliance-Liste auf gcore.com/infrastructure nennt am 04.10.2026 nur PCI DSS, ISO 27001 und GDPR",
+      "anwendungsbereich": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": "https://trustcentre.gcore.com/",
+        "geprueft": "2026-10-08",
+        "anmerkung": "Kein Bericht einsehbar. Das Trust Center listet am 08.10.2026 'SOC 2 Type 1' und einen 'SOC 2 type 1 report', nur nach Zugangsanfrage; Scope unbekannt."
+      },
+      "zertifizierer": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-08",
+        "anmerkung": "Prüfer nicht genannt; SOC-2-Type-1-Bericht im Trust Center trustcentre.gcore.com nur nach Zugangsanfrage (08.10.2026)."
+      },
+      "akkreditiert_dakks": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-08",
+        "anmerkung": "SOC 2 ist ein Testat eines Wirtschaftsprüfers, keine akkreditierte Zertifizierung"
+      },
       "normiert": [
         "soc-2"
       ]

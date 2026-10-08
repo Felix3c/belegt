@@ -1553,7 +1553,7 @@ funktioniert: ${SITE.baseUrl}/methodik/
 /* ---------------- Build ---------------- */
 
 /** Sobald alle Profile die Prüfpunkte tragen: true, dann bricht ein fehlendes Feld den Build ab. */
-const PRUEFPUNKTE_STRENG = false;
+const PRUEFPUNKTE_STRENG = true;
 
 function leseAnbieter() {
   if (!fs.existsSync(DATA_DIR)) return [];
