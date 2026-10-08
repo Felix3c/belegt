@@ -72,6 +72,11 @@
     "gesehen": "2026-10-08",
     "geaendert": "2026-10-08"
   },
+  "https://docs.greenpt.ai/privacy/processor": {
+    "hash": "f47b3115c3fc1d34",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
+  },
   "https://docs.hetzner.com/general/company-and-policy/experiments/inference/": {
     "hash": "1f8133423acee4ad",
     "gesehen": "2026-10-08",
@@ -103,9 +108,19 @@
     "geaendert": "2026-08-28"
   },
   "https://docs.mistral.ai/admin/monitor-comply/zero-data-retention": {
-    "hash": "5adb570b40c96704",
-    "gesehen": "2026-10-03",
-    "geaendert": "2026-10-03"
+    "hash": "b280a9942e29c806",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
+  },
+  "https://docs.mistral.ai/inference/pricing": {
+    "hash": "24076bde2e085ada",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
+  },
+  "https://docs.mistral.ai/models/mistral-large-4-0": {
+    "hash": "02258e65a6a7534c",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   },
   "https://docs.nebius.com/legal/": {
     "hash": "cccf634f89d02ac9",
@@ -189,6 +204,11 @@
     "nur_erreichbar": true,
     "gesehen": "2026-10-03"
   },
+  "https://greenpt.com/privacy": {
+    "hash": "cfa7df03212be4a9",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
+  },
   "https://greenpt.com/privacy-policy": {
     "hash": "5666ab3941a9fd17",
     "gesehen": "2026-10-08",
@@ -205,19 +225,19 @@
     "geaendert": "2026-10-08"
   },
   "https://help.mistral.ai/en/articles/347638-do-you-have-soc-2-or-iso-27001-certification": {
-    "hash": "41540be2fe87de4b",
-    "gesehen": "2026-10-03",
-    "geaendert": "2026-10-03"
+    "hash": "fd4cdd20d919f36f",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   },
   "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training": {
-    "hash": "96bad4984ff506f3",
-    "gesehen": "2026-10-03",
-    "geaendert": "2026-10-03"
+    "hash": "3a284fc8c2e4c871",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   },
   "https://help.mistral.ai/en/articles/455208-who-are-your-subprocessors-and-how-can-i-stay-updated-on-changes": {
-    "hash": "2c770e94190b83c4",
-    "gesehen": "2026-10-03",
-    "geaendert": "2026-10-03"
+    "hash": "0d32adbdc44c5136",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   },
   "https://huggingface.co/Aleph-Alpha/Kolibri-1": {
     "hash": "83c46418a6c6f154",
@@ -236,12 +256,12 @@
   },
   "https://legal.mistral.ai/terms": {
     "hash": "44c7010fb67b94ef",
-    "gesehen": "2026-10-03",
+    "gesehen": "2026-10-08",
     "geaendert": "2026-10-03"
   },
   "https://legal.mistral.ai/terms/data-processing-addendum": {
     "hash": "64e83c25be5711b1",
-    "gesehen": "2026-10-03",
+    "gesehen": "2026-10-08",
     "geaendert": "2026-10-03"
   },
   "https://lyceum.technology": {
@@ -270,7 +290,7 @@
   },
   "https://mistral.ai": {
     "nur_erreichbar": true,
-    "gesehen": "2026-10-03"
+    "gesehen": "2026-10-08"
   },
   "https://mistral.ai/pricing/api": {
     "hash": "ce7518355ecf1de0",
@@ -395,7 +415,7 @@
   },
   "https://trust.mistral.ai/subprocessors": {
     "hash": "0cde34641a6ab24f",
-    "gesehen": "2026-10-03",
+    "gesehen": "2026-10-08",
     "geaendert": "2026-08-28"
   },
   "https://trust.opper.ai/": {
@@ -622,15 +642,5 @@
   "https://www.t-systems.com": {
     "nur_erreichbar": true,
     "gesehen": "2026-10-03"
-  },
-  "https://greenpt.com/privacy": {
-    "hash": "cfa7df03212be4a9",
-    "gesehen": "2026-10-08",
-    "geaendert": "2026-10-08"
-  },
-  "https://docs.greenpt.ai/privacy/processor": {
-    "hash": "f47b3115c3fc1d34",
-    "gesehen": "2026-10-08",
-    "geaendert": "2026-10-08"
   }
 }
