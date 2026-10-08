@@ -76,8 +76,8 @@
     "datum": "2026-10-05"
   },
   "anbieter/regolo/": {
-    "hash": "24dfeb953c06f8b1",
-    "datum": "2026-10-05"
+    "hash": "ef41b07c215199b8",
+    "datum": "2026-10-08"
   },
   "anbieter/requesty/": {
     "hash": "31faf9e1070e68e4",
@@ -256,8 +256,8 @@
     "datum": "2026-10-05"
   },
   "vergleich/gcore-vs-regolo/": {
-    "hash": "1ab51cee79576e42",
-    "datum": "2026-10-04"
+    "hash": "98f7dfaff4e82feb",
+    "datum": "2026-10-08"
   },
   "vergleich/gcore-vs-scaleway/": {
     "hash": "f0d4902256cf5918",
@@ -296,8 +296,8 @@
     "datum": "2026-10-05"
   },
   "vergleich/greenpt-vs-regolo/": {
-    "hash": "93d0417feee2109b",
-    "datum": "2026-10-05"
+    "hash": "707de9c2b06fd93b",
+    "datum": "2026-10-08"
   },
   "vergleich/greenpt-vs-scaleway/": {
     "hash": "3b43ad2cb66bf9e5",
@@ -332,8 +332,8 @@
     "datum": "2026-10-05"
   },
   "vergleich/infomaniak-vs-regolo/": {
-    "hash": "f892d6e4725219e8",
-    "datum": "2026-10-04"
+    "hash": "5b1a3fad3e7210e9",
+    "datum": "2026-10-08"
   },
   "vergleich/infomaniak-vs-scaleway/": {
     "hash": "06269ed21655d584",
@@ -364,8 +364,8 @@
     "datum": "2026-10-07"
   },
   "vergleich/ionos-vs-regolo/": {
-    "hash": "61c12e557de4baf6",
-    "datum": "2026-10-07"
+    "hash": "427c56a493fa149d",
+    "datum": "2026-10-08"
   },
   "vergleich/ionos-vs-scaleway/": {
     "hash": "b196c70316bfd8fc",
@@ -392,8 +392,8 @@
     "datum": "2026-10-05"
   },
   "vergleich/lyceum-vs-regolo/": {
-    "hash": "3a598ac22cdf70e1",
-    "datum": "2026-10-04"
+    "hash": "f0cd2047c930b8f3",
+    "datum": "2026-10-08"
   },
   "vergleich/lyceum-vs-scaleway/": {
     "hash": "ada6d74b9dfe3f2f",
@@ -416,8 +416,8 @@
     "datum": "2026-10-05"
   },
   "vergleich/nebius-vs-regolo/": {
-    "hash": "5027736473745e44",
-    "datum": "2026-10-04"
+    "hash": "df9f28b69f4b4d14",
+    "datum": "2026-10-08"
   },
   "vergleich/nebius-vs-scaleway/": {
     "hash": "36ac96da8657d42d",
@@ -436,8 +436,8 @@
     "datum": "2026-10-05"
   },
   "vergleich/nordference-vs-regolo/": {
-    "hash": "2b99a72d9384f61e",
-    "datum": "2026-10-05"
+    "hash": "6e6ad495c5ace9ba",
+    "datum": "2026-10-08"
   },
   "vergleich/nordference-vs-scaleway/": {
     "hash": "dc9ddbed4cb365bf",
@@ -456,8 +456,8 @@
     "datum": "2026-10-08"
   },
   "vergleich/ovhcloud-vs-regolo/": {
-    "hash": "3b502442a9b1ae93",
-    "datum": "2026-10-05"
+    "hash": "8865b6a397f6e50b",
+    "datum": "2026-10-08"
   },
   "vergleich/ovhcloud-vs-scaleway/": {
     "hash": "64b65fce2b7d60a5",
@@ -472,16 +472,16 @@
     "datum": "2026-10-05"
   },
   "vergleich/regolo-vs-scaleway/": {
-    "hash": "30f299a02d9d0a39",
-    "datum": "2026-10-04"
+    "hash": "dc25170580f7b98e",
+    "datum": "2026-10-08"
   },
   "vergleich/regolo-vs-stackit/": {
-    "hash": "1c7d494b7d0dc0aa",
-    "datum": "2026-10-04"
+    "hash": "50ea3235bbb8fce8",
+    "datum": "2026-10-08"
   },
   "vergleich/regolo-vs-t-systems/": {
-    "hash": "eb28323e258bd47a",
-    "datum": "2026-10-05"
+    "hash": "6e683d952360311a",
+    "datum": "2026-10-08"
   },
   "vergleich/scaleway-vs-stackit/": {
     "hash": "ccebbc61f1bb13ad",
@@ -512,16 +512,16 @@
     "datum": "2026-10-07"
   },
   "zertifikate/iso-27001/": {
-    "hash": "91ff2cbdaaa834bd",
-    "datum": "2026-10-07"
+    "hash": "21b393bcd32402aa",
+    "datum": "2026-10-08"
   },
   "zertifikate/iso-27017/": {
-    "hash": "b66046da2ca1e630",
-    "datum": "2026-10-07"
+    "hash": "86b9294e8d085229",
+    "datum": "2026-10-08"
   },
   "zertifikate/iso-27018/": {
-    "hash": "4135d4b948bcf6c3",
-    "datum": "2026-10-07"
+    "hash": "9b5fe710ae83ef48",
+    "datum": "2026-10-08"
   },
   "zertifikate/iso-27701/": {
     "hash": "7dcc41019620e32f",
