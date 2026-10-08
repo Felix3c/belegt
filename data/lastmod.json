@@ -20,8 +20,8 @@
     "datum": "2026-10-07"
   },
   "anbieter/deepl/": {
-    "hash": "645cb90b6d7c0f84",
-    "datum": "2026-10-04"
+    "hash": "e3faf87ec509435b",
+    "datum": "2026-10-08"
   },
   "anbieter/eurouter/": {
     "hash": "dca0610b1fbdc958",
@@ -196,24 +196,24 @@
     "datum": "2026-10-07"
   },
   "vergleich/aleph-alpha-vs-deepl/": {
-    "hash": "aed71070014d1e3b",
-    "datum": "2026-10-04"
+    "hash": "096df60dda30a5d2",
+    "datum": "2026-10-08"
   },
   "vergleich/aleph-alpha-vs-mistral/": {
     "hash": "24d21ba413468e78",
     "datum": "2026-10-05"
   },
   "vergleich/black-forest-labs-vs-deepl/": {
-    "hash": "10ee3ce1911960b2",
-    "datum": "2026-10-07"
+    "hash": "e37c8911628d7548",
+    "datum": "2026-10-08"
   },
   "vergleich/black-forest-labs-vs-mistral/": {
     "hash": "0bdc3ae284326f16",
     "datum": "2026-10-07"
   },
   "vergleich/deepl-vs-mistral/": {
-    "hash": "f192e74bceb53577",
-    "datum": "2026-10-05"
+    "hash": "b3681b2bab21fcef",
+    "datum": "2026-10-08"
   },
   "vergleich/eurouter-vs-opper-ai/": {
     "hash": "7d228de7ac9fd5bf",
@@ -532,7 +532,7 @@
     "datum": "2026-10-07"
   },
   "zertifikate/soc-2/": {
-    "hash": "8158c473aeec1cd4",
+    "hash": "e5420e518a91249f",
     "datum": "2026-10-08"
   },
   "zertifikate/tisax/": {
