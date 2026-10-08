@@ -74,7 +74,7 @@
   },
   "https://docs.hetzner.com/general/company-and-policy/experiments/inference/": {
     "hash": "1f8133423acee4ad",
-    "gesehen": "2026-10-03",
+    "gesehen": "2026-10-08",
     "geaendert": "2026-08-28"
   },
   "https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling": {
@@ -460,21 +460,26 @@
   },
   "https://www.hetzner.com": {
     "nur_erreichbar": true,
-    "gesehen": "2026-10-03"
+    "gesehen": "2026-10-08"
   },
   "https://www.hetzner.com/AV/DPA_en.pdf": {
     "hash": "fdb71eb26775fdc0",
-    "gesehen": "2026-10-03",
+    "gesehen": "2026-10-08",
     "geaendert": "2026-08-28"
   },
   "https://www.hetzner.com/AV/subunternehmer.pdf": {
     "hash": "3ed8362276610d1c",
-    "gesehen": "2026-10-03",
+    "gesehen": "2026-10-08",
     "geaendert": "2026-08-28"
+  },
+  "https://www.hetzner.com/de/legal/privacy-policy/": {
+    "hash": "014337646b1bc9f5",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   },
   "https://www.hetzner.com/unternehmen/zertifizierung/": {
     "hash": "4fa026c9b5d97455",
-    "gesehen": "2026-10-03",
+    "gesehen": "2026-10-08",
     "geaendert": "2026-10-03"
   },
   "https://www.infomaniak.com/documents/privacy/DPA/Data_Processing_Agreement_(DPA).pdf": {
