@@ -64,8 +64,8 @@
     "datum": "2026-10-05"
   },
   "anbieter/nordference/": {
-    "hash": "cba8d2dfe5822069",
-    "datum": "2026-10-05"
+    "hash": "42f07402f1e1e800",
+    "datum": "2026-10-08"
   },
   "anbieter/opper-ai/": {
     "hash": "49bff2e0fb738958",
@@ -248,7 +248,7 @@
     "datum": "2026-10-08"
   },
   "vergleich/gcore-vs-nordference/": {
-    "hash": "021933f6e2e287c3",
+    "hash": "afe758def2e78402",
     "datum": "2026-10-08"
   },
   "vergleich/gcore-vs-ovhcloud/": {
@@ -288,8 +288,8 @@
     "datum": "2026-10-05"
   },
   "vergleich/greenpt-vs-nordference/": {
-    "hash": "2f479b8a40411e64",
-    "datum": "2026-10-05"
+    "hash": "e346fb0434102f2f",
+    "datum": "2026-10-08"
   },
   "vergleich/greenpt-vs-ovhcloud/": {
     "hash": "e0daad521619c7a5",
@@ -324,7 +324,7 @@
     "datum": "2026-10-08"
   },
   "vergleich/infomaniak-vs-nordference/": {
-    "hash": "45c41d08f8cb351e",
+    "hash": "fe1bf5b5f5644a6f",
     "datum": "2026-10-08"
   },
   "vergleich/infomaniak-vs-ovhcloud/": {
@@ -356,8 +356,8 @@
     "datum": "2026-10-07"
   },
   "vergleich/ionos-vs-nordference/": {
-    "hash": "6972797b2ef3bab8",
-    "datum": "2026-10-07"
+    "hash": "69623b0ccff48482",
+    "datum": "2026-10-08"
   },
   "vergleich/ionos-vs-ovhcloud/": {
     "hash": "ee6c6899992e2e33",
@@ -384,7 +384,7 @@
     "datum": "2026-10-08"
   },
   "vergleich/lyceum-vs-nordference/": {
-    "hash": "b74f7f676d57bc66",
+    "hash": "7d724baeaed99c36",
     "datum": "2026-10-08"
   },
   "vergleich/lyceum-vs-ovhcloud/": {
@@ -408,8 +408,8 @@
     "datum": "2026-10-08"
   },
   "vergleich/nebius-vs-nordference/": {
-    "hash": "dc8ffda03b5f9f8d",
-    "datum": "2026-10-05"
+    "hash": "f5c157092a9ae3b8",
+    "datum": "2026-10-08"
   },
   "vergleich/nebius-vs-ovhcloud/": {
     "hash": "103f8c4298518d8f",
@@ -432,24 +432,24 @@
     "datum": "2026-10-05"
   },
   "vergleich/nordference-vs-ovhcloud/": {
-    "hash": "589d207b412354dc",
-    "datum": "2026-10-05"
+    "hash": "04560c18d73c3990",
+    "datum": "2026-10-08"
   },
   "vergleich/nordference-vs-regolo/": {
-    "hash": "6e6ad495c5ace9ba",
+    "hash": "0caba2108c85f8c2",
     "datum": "2026-10-08"
   },
   "vergleich/nordference-vs-scaleway/": {
-    "hash": "63dd39dbe6339f17",
+    "hash": "4b1779ebde0b8cd2",
     "datum": "2026-10-08"
   },
   "vergleich/nordference-vs-stackit/": {
-    "hash": "eed93e3e05a81f3b",
-    "datum": "2026-10-05"
+    "hash": "9bd80eeb92d2521a",
+    "datum": "2026-10-08"
   },
   "vergleich/nordference-vs-t-systems/": {
-    "hash": "ccb0f1b5cda252fc",
-    "datum": "2026-10-05"
+    "hash": "5f410b65c8b38572",
+    "datum": "2026-10-08"
   },
   "vergleich/opper-ai-vs-requesty/": {
     "hash": "d2902cebb099a309",
