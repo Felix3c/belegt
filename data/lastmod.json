@@ -8,7 +8,7 @@
     "datum": "2026-09-16"
   },
   "aenderungen/": {
-    "hash": "a6b7db73fc36d3f6",
+    "hash": "22d3625471adc067",
     "datum": "2026-10-08"
   },
   "anbieter/aleph-alpha/": {
@@ -24,8 +24,8 @@
     "datum": "2026-10-08"
   },
   "anbieter/eurouter/": {
-    "hash": "dca0610b1fbdc958",
-    "datum": "2026-10-05"
+    "hash": "7dd53cb1be7c4d1c",
+    "datum": "2026-10-08"
   },
   "anbieter/exoscale/": {
     "hash": "1451009a5d61e8b3",
@@ -216,11 +216,11 @@
     "datum": "2026-10-08"
   },
   "vergleich/eurouter-vs-opper-ai/": {
-    "hash": "7d228de7ac9fd5bf",
-    "datum": "2026-10-05"
+    "hash": "9e6c1ea40c3ac526",
+    "datum": "2026-10-08"
   },
   "vergleich/eurouter-vs-requesty/": {
-    "hash": "1f1bb78e453c7aeb",
+    "hash": "178c917cf74fa333",
     "datum": "2026-10-08"
   },
   "vergleich/exoscale-vs-hetzner/": {
