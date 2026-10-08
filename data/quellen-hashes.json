@@ -159,7 +159,7 @@
   },
   "https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models/": {
     "hash": "ca93b8846f16991b",
-    "gesehen": "2026-10-03",
+    "gesehen": "2026-10-08",
     "geaendert": "2026-10-03"
   },
   "https://docs.tokenfactory.nebius.com/public-serverless": {
@@ -406,16 +406,16 @@
   },
   "https://stackit.com": {
     "nur_erreichbar": true,
-    "gesehen": "2026-10-03"
+    "gesehen": "2026-10-08"
   },
   "https://stackit.com/en/products/data-ai/stackit-ai-model-serving": {
     "hash": "ad1d7407b9887eb7",
-    "gesehen": "2026-10-03",
+    "gesehen": "2026-10-08",
     "geaendert": "2026-10-03"
   },
   "https://stackit.com/en/why-stackit/benefits/certificates": {
     "hash": "48e22e446084b0ed",
-    "gesehen": "2026-10-03",
+    "gesehen": "2026-10-08",
     "geaendert": "2026-10-03"
   },
   "https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/5cec77c-OVH_Data_Protection_Agreement-IE-6.2.pdf": {
@@ -662,5 +662,25 @@
   "https://www.t-systems.com": {
     "nur_erreichbar": true,
     "gesehen": "2026-10-03"
+  },
+  "https://stackit.com/de/agb/cloud-services": {
+    "hash": "e104c31b7fcae11d",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
+  },
+  "https://stackit.com/de/asset/download/34534/file/STACKIT_Auftragsverarbeitungsvertrag.pdf": {
+    "hash": "7d22a276d8e702d0",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
+  },
+  "https://stackit.com/de/asset/download/34346/file/Leistungsschein_STACKIT_AI_Model_Serving.pdf": {
+    "hash": "9d2fe1645eaed5e6",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
+  },
+  "https://stackit.com/de/asset/download/61500/file/Leistungsschein_STACKIT_AI_Model_Serving_1-4.pdf": {
+    "hash": "0bf44427dd308a14",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   }
 }
