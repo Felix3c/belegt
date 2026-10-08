@@ -44,7 +44,7 @@
   },
   "https://community.exoscale.com/platform/compliance/": {
     "hash": "f985f4cd7fd6d048",
-    "gesehen": "2026-10-03",
+    "gesehen": "2026-10-08",
     "geaendert": "2026-10-03"
   },
   "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content": {
@@ -451,21 +451,36 @@
   },
   "https://www.exoscale.com": {
     "nur_erreichbar": true,
-    "gesehen": "2026-10-03"
+    "gesehen": "2026-10-08"
   },
   "https://www.exoscale.com/ai-cloud-infrastructure/dedicated-inference/": {
     "hash": "acb25a206884ff14",
-    "gesehen": "2026-10-03",
+    "gesehen": "2026-10-08",
     "geaendert": "2026-10-03"
+  },
+  "https://www.exoscale.com/ai-cloud-infrastructure/inference/dedicated/": {
+    "hash": "acb25a206884ff14",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
+  },
+  "https://www.exoscale.com/ai-cloud-infrastructure/inference/on-demand/": {
+    "hash": "a90ec79bb32ed64d",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   },
   "https://www.exoscale.com/ai-cloud-infrastructure/managed-inference/": {
     "hash": "a90ec79bb32ed64d",
-    "gesehen": "2026-10-03",
+    "gesehen": "2026-10-08",
     "geaendert": "2026-10-03"
+  },
+  "https://www.exoscale.com/compliance/csa-star/": {
+    "hash": "702b53d29493de91",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   },
   "https://www.exoscale.com/dpa/": {
     "hash": "d820041c1436ca68",
-    "gesehen": "2026-10-03",
+    "gesehen": "2026-10-08",
     "geaendert": "2026-10-03"
   },
   "https://www.hetzner.com": {
