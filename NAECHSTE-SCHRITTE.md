@@ -9,7 +9,7 @@ Antwort seit 14.09. live, Status „beantwortet“. LinkedIn: keine Antwort auf 
 
 - Keine ältere Rohkopie, Wayback 429; beide Seiten zweimal im Abstand von 20 s abgerufen, Hash jeweils gleich (kein Kippen). Datenschutzerklärung „Stand: 14. September 2026“: Abschnitt 4.5.2 Inference mit beiden Profil-Zitaten wörtlich da („Werden im Rahmen unserer Zero-Retention-Policy nicht gespeichert.“, „… auch nicht anderweitig zum Training oder zur Verbesserung der KI-Modelle verwendet.“), Logfiles 6 Monate, Abrechnung 8 Jahre. Kein Statuswechsel.
 - **Eigener Fehler berichtigt:** Das Profil nannte als ISO-27001-Scope „alle Hosting-Services und Rechenzentren“. Die Zertifizierungsseite sagt: Hetzner Online GmbH und Hetzner Finland Oy, Infrastruktur, Betrieb und Kundensupport der Rechenzentrumsparks **Nürnberg, Falkenstein und Helsinki** (USA und Singapur nicht genannt). Anmerkung angepasst, Status bleibt „belegt“. Ob der Scope früher anders formuliert war: ungeklärt (keine Rohkopie).
-- Ledger: Datenschutz , Zertifizierung . 98 Tests grün, Build ok, lokal , damit 1 vor origin. Push = Felix.
+- Ledger: Datenschutz `1d2ba3941ff95d11`, Zertifizierung `f656a40a47bcee6d`. 98 Tests grün, Build ok, lokal `0b722a9` + Doku-Commit, damit 2 vor origin (origin stand vorher auf `5bc583a`, also zwischenzeitlich gepusht). Push = Felix.
 - `quellenlauf.js --trocken` meldet jetzt noch 8 verändert: Aleph-HF (3) und Opper (2) (Frage 203, H16b ab 12:30), T-Systems (2, bis H7), EUrouter `/providers` (nächstes Stück reihum).
 
 ## Neu 08.10.2026 11:11 (Dauerlauf): Scaleway Data-Privacy nachgeprüft
