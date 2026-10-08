@@ -1,12 +1,17 @@
 {
   "https://aleph-alpha.com": {
     "nur_erreichbar": true,
-    "gesehen": "2026-10-03"
+    "gesehen": "2026-10-08"
   },
   "https://aleph-alpha.com/": {
     "hash": "50fe53ca7ddd774b",
     "gesehen": "2026-10-03",
     "geaendert": "2026-10-03"
+  },
+  "https://aleph-alpha.com/datenschutz/": {
+    "hash": "127563f9d82b812d",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   },
   "https://bfl.ai": {
     "nur_erreichbar": true,
@@ -44,13 +49,18 @@
   },
   "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content": {
     "hash": "0f994e45e267c4bd",
-    "gesehen": "2026-10-03",
+    "gesehen": "2026-10-08",
     "geaendert": "2026-10-03"
   },
   "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai": {
-    "hash": "f50f68ece3c6055a",
-    "gesehen": "2026-10-03",
-    "geaendert": "2026-08-28"
+    "hash": "6223d988c316212a",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
+  },
+  "https://docs.aleph-alpha.com/phariaai-dev-guide/latest/pharia-llm/intro.html": {
+    "hash": "1c006ea1b4573fd8",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   },
   "https://docs.bfl.ai/quick_start/pricing": {
     "hash": "68a5cf2e03e9eb14",
@@ -209,15 +219,20 @@
     "gesehen": "2026-10-03",
     "geaendert": "2026-10-03"
   },
+  "https://huggingface.co/Aleph-Alpha/Kolibri-1": {
+    "hash": "83c46418a6c6f154",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
+  },
   "https://huggingface.co/Aleph-Alpha/Pharia-1-Embedding-4608-control": {
-    "hash": "3ba198afcd336be5",
-    "gesehen": "2026-10-03",
-    "geaendert": "2026-10-03"
+    "hash": "5e619b4e9645c3ac",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   },
   "https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control": {
-    "hash": "914533dcfe4501b9",
-    "gesehen": "2026-10-03",
-    "geaendert": "2026-10-03"
+    "hash": "401907c469d99a78",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   },
   "https://legal.mistral.ai/terms": {
     "hash": "44c7010fb67b94ef",
@@ -419,7 +434,7 @@
   },
   "https://www.dqsglobal.com/en/customer-database/aleph-alpha-gmbh": {
     "hash": "63e559af3cc641ee",
-    "gesehen": "2026-08-28",
+    "gesehen": "2026-10-08",
     "geaendert": "2026-08-28",
     "nur_erreichbar": true,
     "grund": "Seite blendet bei jedem Abruf andere Highlight-/Menüblöcke ein (3 Varianten am 28.08.2026 beobachtet); Zertifikatsangabe von Hand prüfen"
