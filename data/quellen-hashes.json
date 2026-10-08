@@ -353,27 +353,27 @@
   },
   "https://opper.ai": {
     "nur_erreichbar": true,
-    "gesehen": "2026-10-03"
+    "gesehen": "2026-10-08"
   },
   "https://opper.ai/ai-compliance": {
-    "hash": "7277925d9e80abc6",
-    "gesehen": "2026-10-03",
-    "geaendert": "2026-10-03"
+    "hash": "2baa0489573fed25",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   },
   "https://opper.ai/data-processing-agreement": {
-    "hash": "c63b3e4d589e4691",
-    "gesehen": "2026-10-03",
-    "geaendert": "2026-10-03"
+    "hash": "d65cc16d281b6878",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   },
   "https://opper.ai/models": {
-    "hash": "385becf4e85ffe37",
-    "gesehen": "2026-10-03",
-    "geaendert": "2026-10-03"
+    "hash": "0f1ebce01a9dd0b5",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   },
   "https://opper.ai/security-overview": {
-    "hash": "a5d6796eac077408",
-    "gesehen": "2026-10-03",
-    "geaendert": "2026-10-03"
+    "hash": "fcd30e1574491650",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
   },
   "https://opper.ai/sub-processors": {
     "hash": "d76b6fa02fa215a9",
@@ -408,6 +408,26 @@
     "nur_erreichbar": true,
     "gesehen": "2026-10-08"
   },
+  "https://stackit.com/de/agb/cloud-services": {
+    "hash": "e104c31b7fcae11d",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
+  },
+  "https://stackit.com/de/asset/download/34346/file/Leistungsschein_STACKIT_AI_Model_Serving.pdf": {
+    "hash": "9d2fe1645eaed5e6",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
+  },
+  "https://stackit.com/de/asset/download/34534/file/STACKIT_Auftragsverarbeitungsvertrag.pdf": {
+    "hash": "7d22a276d8e702d0",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
+  },
+  "https://stackit.com/de/asset/download/61500/file/Leistungsschein_STACKIT_AI_Model_Serving_1-4.pdf": {
+    "hash": "0bf44427dd308a14",
+    "gesehen": "2026-10-08",
+    "geaendert": "2026-10-08"
+  },
   "https://stackit.com/en/products/data-ai/stackit-ai-model-serving": {
     "hash": "ad1d7407b9887eb7",
     "gesehen": "2026-10-08",
@@ -440,7 +460,7 @@
   },
   "https://trust.opper.ai/": {
     "hash": "cc05845d293b0787",
-    "gesehen": "2026-10-03",
+    "gesehen": "2026-10-08",
     "geaendert": "2026-10-03"
   },
   "https://us.ovhcloud.com/legal/faqs/gdpr-compliance/": {
@@ -662,25 +682,5 @@
   "https://www.t-systems.com": {
     "nur_erreichbar": true,
     "gesehen": "2026-10-03"
-  },
-  "https://stackit.com/de/agb/cloud-services": {
-    "hash": "e104c31b7fcae11d",
-    "gesehen": "2026-10-08",
-    "geaendert": "2026-10-08"
-  },
-  "https://stackit.com/de/asset/download/34534/file/STACKIT_Auftragsverarbeitungsvertrag.pdf": {
-    "hash": "7d22a276d8e702d0",
-    "gesehen": "2026-10-08",
-    "geaendert": "2026-10-08"
-  },
-  "https://stackit.com/de/asset/download/34346/file/Leistungsschein_STACKIT_AI_Model_Serving.pdf": {
-    "hash": "9d2fe1645eaed5e6",
-    "gesehen": "2026-10-08",
-    "geaendert": "2026-10-08"
-  },
-  "https://stackit.com/de/asset/download/61500/file/Leistungsschein_STACKIT_AI_Model_Serving_1-4.pdf": {
-    "hash": "0bf44427dd308a14",
-    "gesehen": "2026-10-08",
-    "geaendert": "2026-10-08"
   }
 }
