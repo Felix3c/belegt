@@ -65,10 +65,10 @@ test("setzeGeprueft: URL-Präfix trifft keine andere URL", () => {
   assert.equal(setzeGeprueft(src, "https://a.example/p", "2026-09-28"), src);
 });
 
-test("setzeTopGeprueft: setzt das Top-Level-Datum und entfernt Feld-Daten", () => {
-  const src = '{\n  "x": { "quelle": "https://a.example/p", "geprueft": "2026-08-01", "anmerkung": "a" },\n  "geprueft": "2026-08-01"\n}';
+test("setzeTopGeprueft: setzt Top-Level- und alle Feld-Daten auf denselben Tag (Prüfpunkte brauchen Feld-Daten, 09.10.)", () => {
+  const src = '{\n  "x": { "quelle": "https://a.example/p", "geprueft": "2026-08-01", "anmerkung": "a" },\n  "y": { "wert": null, "status": "unbelegt", "geprueft": "2026-08-02" }, "z": { "status": "belegt", "geprueft": "2026-08-03" },\n  "geprueft": "2026-08-01"\n}';
   const out = setzeTopGeprueft(src, "2026-09-28");
-  assert.equal(out, '{\n  "x": { "quelle": "https://a.example/p", "anmerkung": "a" },\n  "geprueft": "2026-09-28"\n}');
+  assert.equal(out, '{\n  "x": { "quelle": "https://a.example/p", "geprueft": "2026-09-28", "anmerkung": "a" },\n  "y": { "wert": null, "status": "unbelegt", "geprueft": "2026-09-28" }, "z": { "status": "belegt", "geprueft": "2026-09-28" },\n  "geprueft": "2026-09-28"\n}');
 });
 
 test("ordneLauf: neu / unverändert / verändert / verschwunden", () => {
@@ -235,4 +235,38 @@ test("pruefe: echter Netzfehler (DNS) bleibt nicht-erreichbar", async () => {
   const { pruefe } = require("../lib/quellen.js");
   const e = await pruefe({ url: "https://gibt-es-nicht.example/" }, { mitHash: true, holen: tlsFehler("ENOTFOUND") });
   assert.equal(e.befund, "nicht-erreichbar");
+});
+
+const { teileUebernahme, planeFortschreibung } = require("../lib/quellen.js");
+const lauf = () => ({
+  neu: [], verschwunden: [], uebersprungen: [],
+  unveraendert: [{ url: "https://a.example/agb" }],
+  veraendert: [{ url: "https://www.deepl.com/en/pro" }, { url: "https://www.deepl.com/en/pro-license" }, { url: "https://huggingface.co/x" }],
+});
+
+test("teileUebernahme: nur Quellen mit passendem URL-Anfang wandern nach uebernommen (09.10., DeepL-Banner)", () => {
+  const o = teileUebernahme(lauf(), ["https://www.deepl.com/"]);
+  assert.deepEqual(o.uebernommen.map((e) => e.url), ["https://www.deepl.com/en/pro", "https://www.deepl.com/en/pro-license"]);
+  assert.deepEqual(o.veraendert.map((e) => e.url), ["https://huggingface.co/x"]);
+});
+
+test("teileUebernahme: ändert den Eingang nicht und kennt ohne Präfix keine Übernahme", () => {
+  const ein = lauf();
+  const o = teileUebernahme(ein, []);
+  assert.equal(ein.veraendert.length, 3);
+  assert.equal(o.uebernommen.length, 0);
+  assert.equal(o.veraendert.length, 3);
+});
+
+test("teileUebernahme: leerer Präfix ist kein Joker (pauschal bleibt --uebernehmen)", () => {
+  assert.equal(teileUebernahme(lauf(), [""]).uebernommen.length, 0);
+});
+
+test("planeFortschreibung: übernommene Quellen bekommen das Prüfdatum wie unveränderte", () => {
+  const o = teileUebernahme(lauf(), ["https://www.deepl.com/en/pro-license"]);
+  const urls = [
+    { url: "https://www.deepl.com/en/pro-license", felder: [{ datei: "deepl.json", schluessel: "quelle" }] },
+    { url: "https://www.deepl.com/en/pro", felder: [{ datei: "deepl.json", schluessel: "quelle" }] },
+  ];
+  assert.deepEqual(planeFortschreibung(o, urls), { "deepl.json": { modus: "felder", urls: ["https://www.deepl.com/en/pro-license"] } });
 });

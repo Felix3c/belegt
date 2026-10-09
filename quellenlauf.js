@@ -10,6 +10,8 @@
  * Aufruf: node quellenlauf.js [--trocken] [--uebernehmen] [--json datei]
  *   --trocken      nichts schreiben, nur Bericht
  *   --uebernehmen  die beim letzten Lauf als "verändert" gemeldeten Hashes als neue Referenz übernehmen
+ *   --uebernehmen-nur <URL-Anfang>  (mehrfach) nur diese von Hand gelesenen "verändert"-Quellen übernehmen;
+ *                  sie bekommen zusätzlich das Prüfdatum wie unveränderte
  *                  (nur nach Handprüfung — sonst gilt die Änderung nächsten Monat als "unverändert")
  *   LAUF_DATUM=2026-09-28 setzt das Datum (Standard: heute)
  *
@@ -35,7 +37,7 @@ function liesWoerter(url) {
 
 /** Wortstand schreiben, wo ein Hash in diesem Lauf Referenz ist oder wird. Gibt die Anzahl zurück. */
 function schreibeWoerter(o, uebernehmen) {
-  const ziele = [...o.neu, ...o.unveraendert.filter((e) => !fs.existsSync(wortPfad(e.url))), ...(uebernehmen ? o.veraendert : [])];
+  const ziele = [...o.neu, ...o.unveraendert.filter((e) => !fs.existsSync(wortPfad(e.url))), ...(uebernehmen ? o.veraendert : []), ...(o.uebernommen || [])];
   let n = 0;
   for (const e of ziele) {
     if (!e.woerter) continue;
@@ -51,6 +53,7 @@ const zeigeDiff = (e) => !e.wortDiff ? "\n    Wortprotokoll: kein Wortstand zur 
   : "\n    weg:  " + (zeigeWoerter(e.wortDiff.weg) || "–") + "\n    dazu: " + (zeigeWoerter(e.wortDiff.dazu) || "–");
 
 const arg = (n) => process.argv.includes(n);
+const werte = (n) => process.argv.flatMap((a, i) => (a === n && process.argv[i + 1] ? [process.argv[i + 1]] : []));
 const DATUM = process.env.LAUF_DATUM || new Date().toISOString().slice(0, 10);
 if (!/^\d{4}-\d{2}-\d{2}$/.test(DATUM)) { console.error("LAUF_DATUM muss YYYY-MM-DD sein"); process.exit(2); }
 
@@ -69,6 +72,7 @@ function neuerLedger(alt, o, uebernehmen) {
       ? { hash: e.hash, gesehen: DATUM, geaendert: DATUM }
       : { ...l[e.url], gesehen: DATUM, neu_hash: e.hash, veraendert_seit: l[e.url].veraendert_seit || DATUM };
   }
+  for (const e of o.uebernommen || []) l[e.url] = { hash: e.hash, gesehen: DATUM, geaendert: DATUM };
   for (const e of o.verschwunden) l[e.url] = { ...l[e.url], gesehen: DATUM, verschwunden: e.befund };
   const sortiert = {};
   for (const k of Object.keys(l).sort()) sortiert[k] = JSON.parse(JSON.stringify(l[k]));
@@ -101,8 +105,8 @@ const zeile = (e) => "  " + e.anbieter + " " + e.feld + (e.felder.length > 1 ? "
   process.stderr.write("Quellenlauf " + DATUM + ": " + urls.length + " URLs" + (erstlauf ? " (Erstlauf — Ledger wird nur befüllt)" : "") + (trocken ? " [trocken]" : "") + " …\n");
 
   const ergebnis = await Q.pruefeAlle(urls, { mitHash: true });
-  const o = await Q.bestaetigeVeraendert(Q.ordneLauf(ergebnis, alt), alt);
-  for (const e of o.veraendert) {
+  const o = Q.teileUebernahme(await Q.bestaetigeVeraendert(Q.ordneLauf(ergebnis, alt), alt), werte("--uebernehmen-nur"));
+  for (const e of [...o.veraendert, ...o.uebernommen]) {
     const ref = e.woerter && liesWoerter(e.url);
     if (ref) e.wortDiff = Q.wortDiff(ref, e.woerter);
   }
@@ -110,8 +114,12 @@ const zeile = (e) => "  " + e.anbieter + " " + e.feld + (e.felder.length > 1 ? "
   const jsonIdx = process.argv.indexOf("--json");
   if (jsonIdx > -1 && process.argv[jsonIdx + 1]) fs.writeFileSync(process.argv[jsonIdx + 1], JSON.stringify({ datum: DATUM, ...o }, null, 2));
 
-  console.log("\nGeprüft: " + ergebnis.length + " — unverändert: " + o.unveraendert.length + ", verändert: " + o.veraendert.length + ", verschwunden: " + o.verschwunden.length + ", neu: " + o.neu.length + ", übersprungen: " + o.uebersprungen.length);
+  console.log("\nGeprüft: " + ergebnis.length + " — unverändert: " + o.unveraendert.length + ", verändert: " + o.veraendert.length + "" + (o.uebernommen.length ? ", übernommen: " + o.uebernommen.length : "") + ", verschwunden: " + o.verschwunden.length + ", neu: " + o.neu.length + ", übersprungen: " + o.uebersprungen.length);
 
+  if (o.uebernommen.length) {
+    console.log("\nÜBERNOMMEN (" + o.uebernommen.length + ") — von Hand gelesen, neue Referenz" + (trocken ? " (trocken: nichts geschrieben)" : "") + ":");
+    o.uebernommen.forEach((e) => console.log(zeile(e) + (e.woerter ? zeigeDiff(e) : "")));
+  }
   if (o.veraendert.length) {
     console.log("\nVERÄNDERT (" + o.veraendert.length + ") — diese Quellen von Hand lesen. Sagt sie noch dasselbe? Dann Feld-geprueft setzen;");
     console.log("sagt sie etwas anderes? Dann Angabe/Status/Anmerkung anpassen. Danach: node quellenlauf.js --uebernehmen");
