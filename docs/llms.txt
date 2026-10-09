@@ -26,10 +26,10 @@ Build aus den Anbieterdaten berechnet und können deshalb nicht von der Datenban
 - [ISO/IEC 27018](https://belegbar.eu/zertifikate/iso-27018/): 6 Anbieter mit verlinktem Nachweis (Exoscale, Nebius (Token Factory), OVHcloud (AI Endpoints), Regolo.ai, STACKIT, T-Systems / Open Telekom Cloud (AI Foundation Services))
 - [ISO/IEC 27017](https://belegbar.eu/zertifikate/iso-27017/): 5 Anbieter mit verlinktem Nachweis (Exoscale, OVHcloud (AI Endpoints), Regolo.ai, STACKIT, T-Systems / Open Telekom Cloud (AI Foundation Services))
 - [ISO/IEC 27701](https://belegbar.eu/zertifikate/iso-27701/): 3 Anbieter mit verlinktem Nachweis (Mistral AI (La Plateforme), Nebius (Token Factory), T-Systems / Open Telekom Cloud (AI Foundation Services)), 1 beansprucht ohne Nachweis (OVHcloud (AI Endpoints))
-- [TISAX](https://belegbar.eu/zertifikate/tisax/): 3 Anbieter mit verlinktem Nachweis (Exoscale, STACKIT, T-Systems / Open Telekom Cloud (AI Foundation Services))
 - [CSA STAR](https://belegbar.eu/zertifikate/csa-star/): 2 Anbieter mit verlinktem Nachweis (Nebius (Token Factory), Regolo.ai), 1 beansprucht ohne Nachweis (Exoscale)
 - [HDS (Gesundheitsdaten, Frankreich)](https://belegbar.eu/zertifikate/hds/): 2 Anbieter mit verlinktem Nachweis (Exoscale, OVHcloud (AI Endpoints)), 1 beansprucht ohne Nachweis (Scaleway)
 - [ISO 50001](https://belegbar.eu/zertifikate/iso-50001/): 2 Anbieter mit verlinktem Nachweis (Infomaniak, IONOS (AI Model Hub)), 1 beansprucht ohne Nachweis (GreenPT)
+- [TISAX](https://belegbar.eu/zertifikate/tisax/): 1 Anbieter mit verlinktem Nachweis (STACKIT), 2 beansprucht ohne Nachweis (Exoscale, T-Systems / Open Telekom Cloud (AI Foundation Services))
 
 ## Fälle: dokumentierte Widersprüche
 
