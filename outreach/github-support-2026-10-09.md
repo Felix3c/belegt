@@ -62,6 +62,6 @@ Felix Lind
 ---
 
 ## Nach dem Absenden
-- Ticketnummer hier eintragen: …
+- **Ticket #4840405**, gesendet 09.10.2026 15:09 von felix.h.lind@gmail.com, Weg: Repositories → Repository features (Branches) → Solution-Seite „Continue with a sensitive data removal ticket“ → Type „Errors, problems“. Status Open, Priority Normal. Übersicht: https://support.github.com/tickets
 - Prüfung nach Antwort: `curl -s -o /dev/null -w "%{http_code}" https://github.com/Felix3c/belegt/commit/ceacb04` muss 404 liefern.
 - Lokal liegen die alten Objekte weiter im Reflog von `~/belegt` (Zweig `vor-bereinigung-0910` wurde nicht angelegt); `git reflog expire --expire=now --all && git gc --prune=now` erst, wenn der Support fertig ist, falls die alte Fassung noch gebraucht wird.
