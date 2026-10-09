@@ -16,7 +16,7 @@
       "kontext": "Produktseite AI Endpoints (englisch), Kachel „Security“ zwischen „Sovereign“ und „Confidentiality“.",
       "abgerufen": "2026-10-09T06:59:41Z",
       "sha256": "849ec1234a9c4dd06161f63c593579f239f48e2505da73ee472433ec44c261ec",
-      "archiv": ""
+      "archiv": "https://web.archive.org/web/20261009070243/https://www.ovhcloud.com/en/public-cloud/ai-endpoints/"
     }
   ],
   "beleg": [
@@ -26,7 +26,7 @@
       "kontext": "Compliance-Seite HDS von OVHcloud. Der Link führt über help.ovhcloud.com (KB0061194) auf die Dokumentationsseite „OVHcloud products HDS certification“ (nächster Beleg).",
       "abgerufen": "2026-10-09T06:59:41Z",
       "sha256": "c8310702394c3e82e5272b09a2965cceac17d94100b71a89492db8852eb51d4d",
-      "archiv": ""
+      "archiv": "https://web.archive.org/web/20261009070311/https://www.ovhcloud.com/en/compliance/hds/"
     },
     {
       "zitat": "The following page aims at presenting products covered by the \"Hébergement de Données de Santé\" (HDS) norm (Healthcare Data Hosting in France).",
@@ -34,7 +34,7 @@
       "kontext": "Dokumentationsseite „OVHcloud products HDS certification“, Stand „Last updated: June 2, 2026“. Darunter die Tabelle „Currently certified OVHcloud products“ mit 36 Zeilen (u. a. Public Cloud Instances, Notebooks Interface, Managed Containers, Object Storage). AI Endpoints steht in der Tabelle nicht; der Name kommt auf der Seite nur im Navigationsmenü vor.",
       "abgerufen": "2026-10-09T06:59:41Z",
       "sha256": "cc22a339bc1fc231f52549dde3e463474a0464f1aace3c67e79ec5af41566681",
-      "archiv": ""
+      "archiv": "https://web.archive.org/web/20261009070341/https://docs.ovhcloud.com/en/guides/account-and-service-management/account-information/hds-certification"
     },
     {
       "zitat": "OVHcloud Public Cloud services are HDS certified for certain activities listed in the certification reference of the French Digital Health Agency. The list of certified OVHcloud products is available on the page “ OVHcloud products HDS certification ”.",
@@ -42,7 +42,7 @@
       "kontext": "Anleitung „Activate HDS certification“ für Public-Cloud-Projekte, Abschnitt „Objective“, Stand 28.03.2024. Die Option setzt den Support-Level Business oder Enterprise voraus.",
       "abgerufen": "2026-10-09T06:59:41Z",
       "sha256": "446831bb0db4f8689f41fc5f322eb8d753ef52f5a032948f32424bba27eeade2",
-      "archiv": ""
+      "archiv": "https://web.archive.org/web/20261009070544/https://docs.ovhcloud.com/en/guides/public-cloud/cross-functional/activate-hds-certification"
     }
   ],
   "widerspruch": "Die Produktseite nennt AI Endpoints ohne Einschränkung einen HDS-zertifizierten Dienst. OVH selbst bestimmt an zwei Stellen, wo nachzulesen ist, welche Produkte HDS-zertifiziert sind: die Compliance-Seite („View the list of HDS-certified OVHcloud products“) und die Anleitung für Public-Cloud-Projekte („The list of certified OVHcloud products is available on the page …“). Beide führen auf dieselbe Liste, und dort fehlt AI Endpoints. Wer als Klinik, Praxis-Software-Anbieter oder Datenschutzbeauftragter die Produktseite liest, geht von einer HDS-Zertifizierung aus, die OVHs eigene Referenzliste nicht bestätigt. Auch die Bedingungen der HDS-Option (Support-Level Business oder Enterprise, Aktivierung im Projekt) nennt die Produktseite nicht.",
