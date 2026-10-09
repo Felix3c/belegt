@@ -149,10 +149,10 @@
   "zertifikate": [
     {
       "typ": "ISO 27001",
-      "status": "belegt",
+      "status": "beansprucht",
       "quelle": "https://community.exoscale.com/platform/compliance/",
       "geprueft": "2026-10-09",
-      "anmerkung": "ISO/IEC 27001:2022, zertifiziert seit 2018; Reports im Compliance Center (NDA). Archivkopie web.archive.org/web/20261005024823 byte-gleich.",
+      "anmerkung": "Nur beansprucht (bis 09.10.2026 hier „belegt“, Strenge-Runde Frage 217): Zertifikat und SoA liegen nur im Compliance Center des Exoscale-Kontos; exoscale.com/compliance/iso27001/ (Abruf 09.10.2026): 'Customers can access our current ISO/IEC 27001 certificate and Statement of Applicability (SoA) through the Exoscale Compliance Center. Additional audit reports and details are also available to customers under NDA.' Öffentlich ist nur die Nennung durch den Anbieter. ISO/IEC 27001:2022, zertifiziert seit 2018; Reports im Compliance Center (NDA). Archivkopie web.archive.org/web/20261005024823 byte-gleich.",
       "anwendungsbereich": {
         "wert": "Cloud-Hosting (Compute, Netzwerk, Storage) an allen Standorten — Stand 2019",
         "status": "beansprucht",
@@ -180,10 +180,10 @@
     },
     {
       "typ": "SOC 2 Type II",
-      "status": "belegt",
+      "status": "beansprucht",
       "quelle": "https://community.exoscale.com/platform/compliance/",
       "geprueft": "2026-10-09",
-      "anmerkung": "",
+      "anmerkung": "Nur beansprucht (bis 09.10.2026 hier „belegt“, Strenge-Runde Frage 217): Bericht nicht öffentlich; exoscale.com/compliance/soc-2/ (Abruf 09.10.2026): 'available for download via the Compliance Center to customers and partners. For more details, or to request the report under NDA, please contact our Compliance Team.'",
       "anwendungsbereich": {
         "wert": null,
         "status": "unbelegt",
@@ -211,10 +211,10 @@
     },
     {
       "typ": "BSI C5",
-      "status": "belegt",
+      "status": "beansprucht",
       "quelle": "https://community.exoscale.com/platform/compliance/",
       "geprueft": "2026-10-09",
-      "anmerkung": "C5:2020 Typ 2",
+      "anmerkung": "Nur beansprucht (bis 09.10.2026 hier „belegt“, Strenge-Runde Frage 217): Testat nicht öffentlich; exoscale.com/compliance/bsi-c5/ (Abruf 09.10.2026) beschreibt das Typ-2-Testat, verlinkt aber keinen Bericht, Berichte liegen laut Compliance-Seite nur im Compliance Center (NDA). C5:2020 Typ 2",
       "anwendungsbereich": {
         "wert": null,
         "status": "unbelegt",
@@ -273,10 +273,10 @@
     },
     {
       "typ": "ISO 27017",
-      "status": "belegt",
+      "status": "beansprucht",
       "quelle": "https://community.exoscale.com/platform/compliance/",
       "geprueft": "2026-10-09",
-      "anmerkung": "Compliance-Seite, Tabelle 'Third-Party Certifications': 'ISO/IEC 27017 Security controls for cloud services', Typ 'Certification'. Die Tabelle nennt als 'Latest Revision' 2022, die Zertifikatsseite exoscale.com/compliance/iso27017/ die Ausgabe ISO/IEC 27017:2015; Zertifikat nur im Compliance Center (NDA). Bisher nicht als eigener Eintrag geführt. Archivkopie web.archive.org/web/20261005024823 byte-gleich.",
+      "anmerkung": "Nur beansprucht (bis 09.10.2026 hier „belegt“, Strenge-Runde Frage 217): Zertifikat nicht öffentlich; exoscale.com/compliance/iso27017/ (Abruf 09.10.2026): 'compliance documentation via the Exoscale Compliance Center. Additional audit details are available to customers on request or under NDA.' Compliance-Seite, Tabelle 'Third-Party Certifications': 'ISO/IEC 27017 Security controls for cloud services', Typ 'Certification'. Die Tabelle nennt als 'Latest Revision' 2022, die Zertifikatsseite exoscale.com/compliance/iso27017/ die Ausgabe ISO/IEC 27017:2015; Zertifikat nur im Compliance Center (NDA). Bisher nicht als eigener Eintrag geführt. Archivkopie web.archive.org/web/20261005024823 byte-gleich.",
       "anwendungsbereich": {
         "wert": null,
         "status": "unbelegt",
@@ -304,10 +304,10 @@
     },
     {
       "typ": "ISO 27018",
-      "status": "belegt",
+      "status": "beansprucht",
       "quelle": "https://community.exoscale.com/platform/compliance/",
       "geprueft": "2026-10-09",
-      "anmerkung": "Compliance-Seite, Tabelle 'Third-Party Certifications': 'ISO/IEC 27018 Protection of Personally Identifiable Information (PII) in public clouds', Typ 'Certification'. Die Tabelle nennt als 'Latest Revision' 2022, die Zertifikatsseite exoscale.com/compliance/iso27018/ die Ausgabe ISO/IEC 27018:2019; Zertifikat nur im Compliance Center (NDA). Bisher nicht als eigener Eintrag geführt. Archivkopie web.archive.org/web/20261005024823 byte-gleich.",
+      "anmerkung": "Nur beansprucht (bis 09.10.2026 hier „belegt“, Strenge-Runde Frage 217): Zertifikat nicht öffentlich; exoscale.com/compliance/iso27018/ (Abruf 09.10.2026): 'available via the Exoscale Compliance Center. Additional privacy and compliance documentation can be provided to customers on request or under NDA.' Compliance-Seite, Tabelle 'Third-Party Certifications': 'ISO/IEC 27018 Protection of Personally Identifiable Information (PII) in public clouds', Typ 'Certification'. Die Tabelle nennt als 'Latest Revision' 2022, die Zertifikatsseite exoscale.com/compliance/iso27018/ die Ausgabe ISO/IEC 27018:2019; Zertifikat nur im Compliance Center (NDA). Bisher nicht als eigener Eintrag geführt. Archivkopie web.archive.org/web/20261005024823 byte-gleich.",
       "anwendungsbereich": {
         "wert": "Cloud-Hosting (Compute, Netzwerk, Storage) an allen Standorten — Stand 2019",
         "status": "beansprucht",
@@ -336,29 +336,29 @@
     {
       "typ": "HDS",
       "status": "belegt",
-      "quelle": "https://community.exoscale.com/platform/compliance/",
+      "quelle": "https://esante.gouv.fr/offres-services/hds/liste-des-hebergeurs-certifies",
       "geprueft": "2026-10-09",
-      "anmerkung": "Französische Zertifizierung für das Hosting von Gesundheitsdaten; Compliance-Seite: 'HDS French health data hosting certification', Scope 1–4 und 6. Bisher nur in der Anmerkung zu TISAX geführt.",
+      "anmerkung": "Belegt über das öffentliche Register der französischen Gesundheitsagentur ANS (Liste der zertifizierten Hoster, Abruf 09.10.2026 im Browser, die Seite lädt nur dort): 'AKENES 1, 2, 3, 4, 6, sur version V2.0 … Bureau Veritas Certification France'. Akenes SA ist die Betreibergesellschaft von Exoscale. Ein Gültigkeitsdatum nennt das Register nicht, das Zertifikat selbst liegt nur im Compliance Center. Französische Zertifizierung für das Hosting von Gesundheitsdaten; Compliance-Seite: 'HDS French health data hosting certification', Scope 1–4 und 6. Bisher nur in der Anmerkung zu TISAX geführt.",
       "anwendungsbereich": {
-        "wert": "HDS-Tätigkeiten 1–4 und 6",
-        "status": "beansprucht",
-        "quelle": "https://community.exoscale.com/platform/compliance/",
+        "wert": "HDS-Tätigkeiten 1, 2, 3, 4 und 6 nach Referenzrahmen V2.0 (Akenes SA)",
+        "status": "belegt",
+        "quelle": "https://esante.gouv.fr/offres-services/hds/liste-des-hebergeurs-certifies",
         "geprueft": "2026-10-09",
-        "anmerkung": "Compliance-Seite (Abruf 08.10.2026): 'HDS French health data hosting certification ... Scope: 1–4 and 6'. Zertifikat nur im Compliance Center (NDA); welche Zonen erfasst sind, ist öffentlich nicht belegt."
+        "anmerkung": "ANS-Register (Abruf 09.10.2026): 'AKENES 1, 2, 3, 4, 6, sur version V2.0'; deckt sich mit der Compliance-Seite ('Scope: 1–4 and 6'). Welche Zonen erfasst sind, nennt das Register nicht."
       },
       "zertifizierer": {
-        "wert": null,
-        "status": "unbelegt",
-        "quelle": null,
+        "wert": "Bureau Veritas Certification France",
+        "status": "belegt",
+        "quelle": "https://esante.gouv.fr/offres-services/hds/liste-des-hebergeurs-certifies",
         "geprueft": "2026-10-09",
-        "anmerkung": "Nicht öffentlich genannt; exoscale.com/compliance/hds/: 'validated by an independent auditor', ohne Namen. Zertifikat, Umfang und Bericht liegen nur im Compliance Center (Exoscale-Konto, nach NDA); öffentlich nicht einsehbar (Abruf 08.10.2026)."
+        "anmerkung": "ANS-Register (Abruf 09.10.2026), Spalte Zertifizierungsstelle beim Eintrag AKENES. Exoscale selbst nennt keinen Namen ('validated by an independent auditor')."
       },
       "akkreditiert_dakks": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
         "geprueft": "2026-10-09",
-        "anmerkung": "Nicht prüfbar: Zertifizierungsstelle unbekannt. HDS-Zertifizierer müssen nach französischem Recht akkreditiert sein (COFRAC oder EA-Partner); ohne Namen keine Prüfung möglich."
+        "anmerkung": "Zertifizierungsstelle laut ANS-Register Bureau Veritas Certification France; deren Akkreditierung (COFRAC) ist hier nicht geprüft. Eine DAkkS-Akkreditierung ist für HDS nicht vorgesehen."
       },
       "normiert": [
         "hds"
@@ -415,7 +415,7 @@
   ],
   "geprueft": "2026-10-09",
   "url": "https://belegbar.eu/anbieter/exoscale/",
-  "beleg_quote_prozent": 63,
+  "beleg_quote_prozent": 31,
   "zuletzt_geprueft": "2026-10-09",
   "rechtsraum": {
     "land": "CH",

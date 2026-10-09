@@ -1,0 +1,510 @@
+Panneau de gestion des cookies
+Afin d’améliorer votre expérience de navigation, ce site utilise des cookies destinées à réaliser des statistiques de fréquentation et vous proposer des vidéos, des boutons de partage, des remontées de contenus de plateformes sociales et des contenus animés et interactifs. Pour en savoir plus, nous vous invitons à prendre connaissance de la politique de gestion de cookies.
+Tout accepter Tout refuser Personnaliser Politique de gestion des cookies
+Aller au contenu
+Aller à la navigation
+E-SANTÉ
+PROFESSIONNEL ET STRUCTURE LIBÉRALE
+ÉTABLISSEMENT DE SANTÉ
+STRUCTURE MÉDICO-SOCIALE
+ENTREPRISE DU NUMÉRIQUE EN SANTÉ
+Stratégie nationale
+L'Agence
+Recherche
+Accessibilité
+
+Besoin d'être guidé ?
+
+Trouvez l'information ou la démarche correspondant à votre situation
+
+Accueil 
+Liste des hébergeurs certifiés
+Liste des hébergeurs certifiés
+
+Dans le cadre de la procédure de certification des hébergeurs de données de santé à caractère personnel précisée par le décret 2018-137 du 26 février 2018, les hébergeurs suivants sont, à ce jour, certifiés.
+
+Filtrer par lettre et sigle
+#
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+Dénomination de l'hébergeur
+	Activités HDS couvertes et version	Détails
++SIMPLE.FR	4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+123 C.S	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+720 IT	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	CYBEVAL
+ABBOTT DIABETES CARE - RESEARCH &
+DEVELOPMENT	3, 4, 5, 6, sur version V2.0	BSI Group
+ABICOM	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+ABSCISSE-INFORMATIQUE	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+ACCENTURE GALLIA MARKET UNIT	1, 2, 3, 4, 5, 6, sur version V2.0	BSI Group
+ACCENTURE LLP	1, 2, 3, 4, 5, 6, sur version V2.0	BSI Group
+ACCESS GLOBAL SECURITY	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BYCYB
+ACCESS HEBERGEMENT	1, 2, 3, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+ACESI	4, 5, sur version V2.0 Présentation des garanties	CYBEVAL
+ACMI	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+ACRONIS INTERNATIONAL GMBH	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BSI Group
+ADISTA	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BSI Group
+ADVANCED MEDIO MATRIX	1, 2, sur version V2.0 Présentation des garanties	CERTI-TRUST
+AGORA CALYCE	2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+AGPM GROUPE	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+AIRON TELEMATICA	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	CERTI-TRUST
+AKENES	1, 2, 3, 4, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+ALE INTERNATIONAL EXERÇANT SOUS LA MARQUE / OPERATING UNDER THE BRAND ALCATEL-LUCENT ENTERPRISE	4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+ALIBABA CLOUD COMPUTING LTD.	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BSI Group
+ALL4IT FRANCE	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+ALMERYS	3, 5, 6, sur version V2.0 Présentation des garanties	CYBEVAL
+ALPILINK CLOUD	1, 2, 3, 4, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+ALTER WAY	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+AMAZON WEB SERVICES INC	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+ANTEMETA	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+APICEM	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+APX INTEGRATION EXERÇANT SOUS LA MARQUE COMMERCIALE AXIANS	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+AQUA RAY	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+ARCHE HOLDING	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+ARKHN	3, 4, 5, sur version V2.0 Présentation des garanties	BYCYB
+ARONDOR	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+ARX ONE	2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	CERTI-TRUST
+ASSISTANCE PUBLIQUE - HOPITAUX DE MARSEILLE DIRECTION DES SERVICES NUMERIQUES	1, 2, 3, 4, 5, 6, sur version V2.0	AFNOR Certification
+ASSISTANCE PUBLIQUE DES HOPITAUX DE PARIS (APHP) - DIRECTION DES SYSTEMES D’INFORMATION	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+ASTEN CLOUD	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+ATEMIS	2, 3, 4, 5, 6, sur version V2.0	LSTI
+ATOL CONSEILS ET DEVELOPPEMENTS	3, 4, 5, 6, sur version V2.0 Présentation des garanties	BYCYB
+ATOS FRANCE	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+AUGUSTA VIROMANDUORUM NUMERICAM	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BYCYB
+AURIC / SDV	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+AVENIR TELEMATIQUE	2, 3, 4, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+AVM INFORMATIQUE SOUS LA MARQUE COMMERCIALE AVM UP	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+AXESS GROUPE	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BYCYB
+AXON'CABLE SAS	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+AYMING DIGITAL	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+AZNETWORK	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+BASWARE OY	4, 5, 6, sur version V2.0	Bureau Veritas Certification France
+BERGER LEVRAULT	1, 2, 3, 4, 5, 6, sur version V2.0	BSI Group
+BEYS CLOUD France	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	CYBEVAL
+BEYS HEALTH SOLUTIONS France	3, 5, sur version V2.0 Présentation des garanties	CYBEVAL
+BIOTRONIK	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	CERTI-TRUST
+BLEU	1, 2, 3, 4, 5, 6, sur version V2.0	LSTI
+BOSTON SCIENTIFIC CORPORATION	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+BOUYGUES TELECOM BUSINESS SOLUTION	2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BYCYB
+BOX, INC.	1, 2, 3, 4, 6, sur version V2.0 Présentation des garanties	Schellman Compliance
+BRETAGNE TELECOM	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+BRIGHTINSIGHT INC	3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+BSO NETWORK SOLUTIONS	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+BULL	3, 4, sur version V2.0 Présentation des garanties	AFNOR Certification
+C'CIN - C'CHARTRES INNOVATIONS NUMERIQUES	1, 2, 3, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+C.B.A INFORMATIQUE LIBERALE	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+CAPGEMINI TECHNOLOGIE SERVICES
+CLOUD INFRASTRUCTURE SERVICES FRANCE	1, 2, 3, 4, 5, 6, sur version V2.0	BSI Group
+CASD	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+CASTLE IT	1, 2, 3, 4, sur version V2.0 Présentation des garanties	CYBEVAL
+CATAPULT GROUP INTERNATIONAL LTD	1, 2, 3, 4, 6, sur version V2.0 Présentation des garanties	Schellman Compliance
+CDC INFORMATIQUE	1, 2, 3, 4, 5, sur version V2.0	LSTI
+CEGEDIM SANTE	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+CEGEDIM.CLOUD	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+CEGI ALFA (GROUPE CEGI)	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+CELEONET	2, 3, 4, 5, 6, sur version V2.0	LSTI
+CELESTE	1, 2, 3, 4, 5, 6, sur version V2.0	CERTI-TRUST
+CENTAURUS GROUP (EX AGENA 3000)	2, 3, 4, 5, sur version V2.0 Présentation des garanties	CERTI-TRUST
+CENTRE HOSPITALIER LEON JEAN GREGORY	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+CEOS-IT	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+CERTIGNA	1, 2, 3, 4, 5, 6, sur version V2.0	LSTI
+CERTILIENCE	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+CGI FRANCE	3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+CH EURE SEINE	1, 2, 3, 4, 5, 6, sur version V2.0	CYBEVAL
+CHEOPS TECHNOLOGY FRANCE	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+CHI NICE	1, 2, 3, 4, 5, sur version V2.0	LSTI
+CHR METZ-THIONVILLE	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+CHRU DE NANCY	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BSI Group
+CHU - HOPITAUX UNIVERSITAIRES DE STRASBOURG	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+CHU AMIENS-PICARDIE	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BSI Group
+CHU ANGERS	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+CHU DE MONTPELLIER	1, 2, 3, 4, 5, sur version V2.0	AFNOR Certification
+CHU DE NANTES	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+CHU DE REIMS	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BSI Group
+CHU DE RENNES - DSN	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+CHU DE TOULOUSE - DSI	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+CHU LIMOGES DUPUYTREN	1, 2, 3, 4, 5, 6, sur version V2.0	AFNOR Certification
+CIMUT	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+CINES	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+CIRIL GROUP	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+CISCO SYSTEMS, INC.	1, 2, 3, 4, 6, sur version V2.0 Présentation des garanties	Schellman Compliance
+CLARANET (GROUPE CLARANET FRANCE)	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+CLARISYS INFORMATIQUE	2, 3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+CLEVER CLOUD	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+CLINSEARCH	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BYCYB
+CLOUD ADVICE (SÆPIENS)	2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	CERTI-TRUST
+CLOUD TEMPLE	2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	CYBEVAL
+CM.COM NETHERLANDS B.V.	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BSI Group
+CNP ASSURANCES PROTECTION	5, sur version V2.0	LSTI
+CNRS - UAR 3758 GRICAD	1, 2, 3, 4, sur version V2.0 Présentation des garanties	AFNOR Certification
+COAXIS ASP	1, 2, 3, 4, sur version V2.0 Présentation des garanties	AFNOR Certification
+COMARCH	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+COMMERCETOOLS GMBH	3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+CORELIA	2, 3, 4, 5, sur version V2.0 Présentation des garanties	BYCYB
+CORSANO HEALTH B.V.	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BSI Group
+COUCHBASE, INC.	1, 2, 3, 4, 6, sur version V2.0 Présentation des garanties	Schellman Compliance
+CRIANN	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BSI Group
+CS2R AVAILABILITY SERVICES	3, 4, 5, 6, sur version V2.0 Présentation des garanties	BYCYB
+CTI STRASBOURG ET CTI SUD	1, 2, 3, 4, 5, sur version V2.0	LSTI
+CURE 51	3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+CYLLENE ITS	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+DATA 4 MANAGEMENT FRANCE	1, 2, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+DAWN HEALTH A/S	3, 4, 5, sur version V2.0 Présentation des garanties	BSI Group
+DECIMA	1, sur version V2.0 Présentation des garanties	AFNOR Certification
+DELETEC	1, 2, 3, 4, 5, 6, sur version V2.0	BSI Group
+DENTAL MONITORING SAS	1, 2, 3, 4, 5, 6, sur version V2.0	BSI Group
+DESTINY FRANCE ENTREPRISES	1, 2, 3, 4, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+DH HEALTHCARE GMBH	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	CERTI-TRUST
+DIATEM	1, 2, 3, 4, 5, 6, sur version V2.0	LSTI
+DIGDEO	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	CERTI-TRUST
+DIGITAL RURAL INFORMATIQUE	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+DIXISOFT	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+DOCAPOSTE	1, 2, 3, 4, 5, 6, sur version V2.0	LSTI
+DOCAPOSTE ARKHINEO	2, 3, 4, 5, 6, sur version V2.0	BYCYB
+DOCAPOSTE SANTE	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+DOCTOLIB SAS	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BSI Group
+DOXALLIA	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+DTIX	1, sur version V2.0 Présentation des garanties	AFNOR Certification
+DXC TECHNOLOGY FINANCIAL SERVICES	5, 6, sur version V2.0	BSI Group
+DXC TECHNOLOGY FRANCE	1, 2, 3, 4, 5, 6, sur version V2.0	BSI Group
+DYNAMIPS	4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+ECRITEL	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+EDF - DTEO - CENTRE DE CALCUL	1, sur version V2.0 Présentation des garanties	AFNOR Certification
+EDIEYES VISION CARE	5, 6, sur version V2.0 Présentation des garanties	CYBEVAL
+EDL - EDITION ET DEVELOPPEMENT LOGICIELS	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+EIG SAS	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BSI Group
+ELEVENLABS, INC.	1, 2, 3, 4, 6, sur version V2.0 Présentation des garanties	Schellman Compliance
+ELIONIS RPP 80129890	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+ELOQUANT	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+EMEIS (EX.ORPEA)	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	CERTI-TRUST
+ENOVACOM PÔLE ESANTE D'ORANGE BUSINESS	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+EPICONCEPT	1, 2, 3, 4, 5, 6, sur version V2.0	LSTI
+EQUASENS	1, 2, 3, 5, 6, sur version V2.0 Présentation des garanties	BSI Group
+EQUINIX, INC.	1, sur version V2.0 Présentation des garanties	Schellman Compliance
+ESII	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+ESSILOR LUXOTTICA SA	3, 4, 5, 6, sur version V2.0 Présentation des garanties	SGS
+ETIX EVERYWHERE FRANCE	1, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+ETIX LYON # 1	1, sur version V2.0 Présentation des garanties	AFNOR Certification
+EURIS HEALTH CLOUD (CLOUD SANTÉ)	1, 2, 3, 4, 5, 6, sur version V2.0	BYCYB
+EURO SYSTEME D'INFORMATION	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+EUROFIBER DC	1, sur version V2.0 Présentation des garanties	AFNOR Certification
+EVOLUCARE	3, 4, 5, 6, sur version V2.0	LSTI
+EXODATA	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	CERTI-TRUST
+EXTRA HORIZON	4, 5, 6, sur version V2.0 Présentation des garanties	BSI Group
+FIDECIEL	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+FISHER & PAYKEL HEALTHCARE	3, 4, 5, sur version V2.0 Présentation des garanties	BSI Group
+FOLIATEAM	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	CERTI-TRUST
+FOLIATEAM OPÉRATEUR	1, sur version V2.0 Présentation des garanties	CERTI-TRUST
+FREE PRO	1, 2, 3, 4, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+FRESENIUS MEDICAL CARE DEUTSCHLAND GMBH	3, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+GAIA AG	3, 4, 5, 6, sur version V2.0 Présentation des garanties	BSI Group
+GALEON	3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+GCS E-SANTE ARCHIPEL 97-1	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+GCS TESIS	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+GENERATION, GROUPE ADELAÏDE	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	CERTI-TRUST
+GENESYS	3, 4, 5, 6, sur version V2.0 Présentation des garanties	SGS
+GHBS (GROUPE HOSPITALIER BRETAGNE SUD)	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+GIE ALMAVIVA SANTÉ	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BSI Group
+GIE IMAGERIE CALLOT	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+GIP OKANTIS	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+GIP PULSY	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BSI Group
+GLOBAL SWITCH	1, 2, sur version V2.0	BSI Group
+GONEXA	3, 4, 5, sur version V2.0	LSTI
+GOOGLE LLC GCP	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	Ernst&Young
+GOOGLE LLC WORKSPACE	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	Ernst&Young
+GPCA	3, 4, sur version V2.0	LSTI
+GPLEXPERT	2, 3, 4, 5, 6, sur version V2.0	LSTI
+GRADES - BOURGOGNE FRANCHE COMTE	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+GROUPE CONSTELLATION - EASYTEAM -	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	CERTI-TRUST
+GROUPE D-LAKE	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BSI Group
+GROUPE DIFFUSION PLUS	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	BYCYB
+GROUPE ITC	1, 2, 3, 4, 6, sur version V2.0 Présentation des garanties	BSI Group
+GROUPE VITAL	5, sur version V2.0	LSTI
+GROUPEMENT D'INTÉRÊT PUBLIC NUMÉRIQUE BRETAGNE	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BYCYB
+GROUPEMENT DE COOPERATION SANITAIRE NORMAND'E-SANTE	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+HELIAQ SOLUTIONS ( EX KOESIO CORPORATE
+TECHNOLOGIES)	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	CERTI-TRUST
+HEXANET	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+HIGH CONNEXION	2, 3, 4, 5, sur version V2.0 Présentation des garanties	CERTI-TRUST
+HOPLA	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+HOSPICES CIVILS DE LYON	1, 2, 3, 4, 5, sur version V2.0	AFNOR Certification
+HUMA THERAPEUTICS LIMITED	3, 4, 5, sur version V2.0	BSI Group
+I VISION EXERÇANT SOUS MARQUE COMMERCIALE/OPERATING UNDER THE TRADEMARK DEESSI	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+I.S. MANAGEMENT – MA SAUVEGARDE	6, sur version V2.0 Présentation des garanties	CERTI-TRUST
+IAF	2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+IBM CLOUD INFRASTRUCTURE AS A SERVICE (IAAS)	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+ICODIA	1, 2, 3, 4, 6, sur version V2.0 Présentation des garanties	CYBEVAL
+ICOMETRIX	3, 4, 5, 6, sur version V2.0 Présentation des garanties	BSI Group
+ICURE	3, 4, 5, 6, sur version V2.0 Présentation des garanties	CERTI-TRUST
+IDOVEN 1903 S.L.	1, 2, 3, 4, 5, 6, sur version V2.0	BSI Group
+IGUANE SOLUTIONS	2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+IMADIS GROUP	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+IMAGINE HUMAN FRANCE	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+IMP 360 SECURE	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+IMPLICITY	5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+IMSA	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+INCEPTO MEDICAL	3, 4, 5, 6, sur version V2.0 Présentation des garanties	SGS
+INETUM	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+INFOCLIP	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+INGECAP SARL	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+INITSYS	1, sur version V2.0 Présentation des garanties	AFNOR Certification
+INNOVATION E-SANTE SUD	3, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+INSERM	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+INTERCOM, INC.	1, 2, 3, 4, 6, sur version V2.0 Présentation des garanties	Schellman Compliance
+INTERNATIONAL COMMUNICATIONS DATA NETWORKS	2, 3, 4, sur version V2.0 Présentation des garanties	BYCYB
+INTERXION FRANCE	1, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+IPHH INTERNET PORT HAMBURG GMBH	1, 2, sur version V2.0 Présentation des garanties	BSI Group
+IRON MOUNTAIN FRANCE	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+ISKERNEL	4, 5, 6, sur version V2.0	LSTI
+ITGEST IS - INFRAESTRUTURAS E SEGURANCA, LDA	3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+ITINSELL CLOUD	4, 5, 6, sur version V2.0 Présentation des garanties	BSI Group
+ITS INTEGRA	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+IZARRALDE	1, 2, 3, 4, sur version V2.0	LSTI
+JDS	4, 5, 6, sur version V2.0 Présentation des garanties	CYBEVAL
+JOTELULU S.L.U	1, 2, 3, 4, 6, sur version V2.0 Présentation des garanties	BYCYB
+KALANDA	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+KDDI FRANCE	1, 2, 3, 4, 6, sur version V2.0 Présentation des garanties	BSI Group
+KENORA TECHNOLOGIES	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BSI Group
+KIOSC	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+KITRY	1, 2, 3, 4, 5, 6, sur version V2.0	LSTI
+KIWI BACKUP	3, 4, 5, 6, sur version V2.0 Présentation des garanties	CERTI-TRUST
+KLEE CONSEIL ET INTEGRATION	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+KOR.CARE	3, 4, 5, sur version V2.0 Présentation des garanties	CERTI-TRUST
+KYNDRYL FRANCE	1, 2, 3, 4, 5, 6, sur version V2.0	Bureau Veritas Certification France
+LAFAB	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+LECPAC-CONSULTING	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+LEVIIA	3, 4, 5, 6, sur version V2.0	LSTI
+LEX PERSONA / GOODFLAG	1, 2, 3, 4, 5, 6, sur version V2.0	LSTI
+LIFEN	4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+LINKT	1, sur version V2.0 Présentation des garanties	AFNOR Certification
+LNA SANTÉ	1, 2, 3, 4, 5, 6, sur version V2.0	LSTI
+LUCIS	3, 4, 5, 6, sur version V2.0 Présentation des garanties	BYCYB
+LUXCONNECT	1, 2, sur version V2.0 Présentation des garanties	CERTI-TRUST
+LUXTRUST MONACO (EX FISAM SARL)	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	CERTI-TRUST
+MAGELLAN STRATEGIC SOLUTIONS & SERVICES	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+MARIGOLD EUROPE NV	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+MASIMO CORPORATION (MASIMO SAFETYNET)	3, 4, sur version V2.0	BSI Group
+MEDIAN TECHNOLOGIES	3, 4, 5, 6, sur version V2.0 Présentation des garanties	BYCYB
+MEDTRONIC	3, 4, 5, sur version V2.0	BSI Group
+MEDTRONIC MINIMED	3, 4, 5, sur version V2.0 Présentation des garanties	BSI Group
+MESOIGNER	5, sur version V2.0	LSTI
+MGEN TECHNOLOGIES	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+MICROSOFT CORPORATION	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Schellman Compliance
+MIND TECHNOLOGIES	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	CERTI-TRUST
+MINISTERE DES ARMEES	1, 2, 3, 4, 5, 6, sur version V2.0	Bureau Veritas Certification France
+MONACO CLOUD	3, 4, 5, sur version V2.0 Présentation des garanties	BSI Group
+MONGODB, INC.	1, 2, 3, 4, 6, sur version V2.0	Schellman Compliance
+MUONA	2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	CERTI-TRUST
+MUTUELLE GENERALE DE LA POLICE DITE MGP	1, 2, 3, 4, 5, 6, sur version V2.0	AFNOR Certification
+MVP SSII	2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+NAMIRIAL SPA	3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+NANOCODE SAS	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+NETEXPLORER	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+NEXEREN	1, sur version V2.0 Présentation des garanties	AFNOR Certification
+NEXPUBLICA FRANCE	1, 2, 3, 4, 5, 6, sur version V2.0	BSI Group
+NEYRIAL CENTRE FRANCE	1, 2, 3, 4, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+NFRANCE CONSEIL	1, 2, sur version V2.0 Présentation des garanties	AFNOR Certification
+NIWANET ( EX KOOKLINE)	3, 4, 6, sur version V2.0 Présentation des garanties	CERTI-TRUST
+NLIGHTEN HQ BV	1, sur version V2.0 Présentation des garanties	Schellman Compliance
+NOOVLE S.P.A.	1, sur version V2.0	BSI Group
+NUBEVIA PROVENCE	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+NUMBERLY	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	SGS
+NUMIH FRANCE	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+NUMSPOT	1, 2, 3, 4, sur version V2.0 Présentation des garanties	BYCYB
+NXO FRANCE	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+NXO OCEAN INDIEN	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+OBSERVATOIRE RÉGIONAL DE LA SANTÉ
+ET DU SOCIAL - OR2S	2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BSI Group
+OCI CLOUD	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+OCI OUEST	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+ODASEVA TECHNOLOGIES SAS	3, 4, 5, 6, sur version V2.0 Présentation des garanties	Ernst&Young
+ODIGO	2, 3, 4, 5, 6, sur version V2.0	AFNOR Certification
+OELIS	1, 2, 3, 4, 5, 6, sur version V2.0	AFNOR Certification
+OLEA MEDICAL	1, 2, 3, 4, 5, sur version V2.0	CERTI-TRUST
+ON X GROUPE	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BYCYB
+OODRIVE SAS	2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Ernst&Young
+OPCORE	1, sur version V2.0 Présentation des garanties	BSI Group
+ORACLE AMERICA, INC. (ORACLE CLOUD SOFTWARE AS A SERVICE (SAAS))	1, 2, 3, 4, 6, sur version V2.0 Présentation des garanties	Schellman Compliance
+ORACLE AMERICA, INC. (ORACLE HEALTH)	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Schellman Compliance
+ORACLE CLOUD INFRASTRUCTURE	1, 2, 3, 4, sur version V2.0 Présentation des garanties	Ernst&Young
+ORANGE BUSINESS SERVICES	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+ORTTO INC.	4, 5, sur version V2.0 Présentation des garanties	CERTI-TRUST
+OSPI	1, 2, 3, 4, 5, 6, sur version V2.0	LSTI
+OUTSCALE	1, 2, 3, 4, sur version V2.0 Présentation des garanties	BYCYB
+OVH GROUPE	1, 2, 3, 4, 5, 6, sur version V2.0	BYCYB
+OXLIN	1, 2, 3, 4, 5, sur version V2.0	LSTI
+OXYA	1, 2, 3, 4, 5, 6, sur version V2.0	BYCYB
+OZITEM	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+PADOA	1, 2, 3, 4, 5, 6, sur version V2.0	BSI Group
+PADOK	3, 4, 5, 6, sur version V2.0 Présentation des garanties	BSI Group
+PANDALAB	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+PARTITIO	3, 4, 5, 6, sur version V2.0 Présentation des garanties	BYCYB
+PEGASYSTEMS INC	3, 4, 5, 6, sur version V2.0 Présentation des garanties	BYCYB
+PERSEI VIVARIUM	3, 4, 5, sur version V2.0 Présentation des garanties	CERTI-TRUST
+PERSONAL MEDSYSTEMS GMBH	3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+PHILIPS	3, 4, 5, 6, sur version V2.0	BSI Group
+PHILIPS HCIS	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BSI Group
+PHOCEA DC	1, sur version V2.0	AFNOR Certification
+PREDIMED	3, 5, 6, sur version V2.0 Présentation des garanties	BYCYB
+PRISMA SOUS LES MARQUES SAFEO ET GMI EXPERT	2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+PROBESYS	2, 3, 4, 5, 6, sur version V2.0	LSTI
+PROGINOV	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+PROREXEM	2, 3, 4, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+QARNOT COMPUTING	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	CERTI-TRUST
+QIAGEN REDWOOD CITY, INC.	1, 2, 3, 4, sur version V2.0 Présentation des garanties	Schellman Compliance
+QUINTEN FRANCE	3, 4, 5, 6, sur version V2.0 Présentation des garanties	BYCYB
+QYNAPSE	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BSI Group
+RECTANGLE	3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+RED HAT, INC	3, 4, 5, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+RESMED FRANCE	1, 2, 3, 4, 5, 6, sur version V2.0	BSI Group
+RIZLUM	5, 6, sur version V2.0 Présentation des garanties	CYBEVAL
+RPLUS SANTE / RESOPHARMA	3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+SA COMUNICARE SOLUTIONS	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+SALESFORCE, INC. - (OWN (FROM SALESFORCE))	1, 2, 3, 4, 6, sur version V2.0 Présentation des garanties	Schellman Compliance
+SALESFORCE.COM, INC.	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	Ernst&Young
+SANTECLAIR	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+SAP SE	1, 2, 3, 4, 6, sur version V2.0	BSI Group
+SAPIO SCIENCES LLC	1, 2, 3, 4, 6, sur version V2.0 Présentation des garanties	Schellman Compliance
+SAS PODALIRE SOUS LA DENOMINATION COMMERCIALE MEDAVIZ	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+SCALABILITY AB	2, 3, 4, 6, sur version V2.0 Présentation des garanties	BYCYB
+SCALAIR	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+SCALESQUAD	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+SCALEWAY	1, 2, 3, 4, sur version V2.0	BSI Group
+SCALINGO	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BYCYB
+SCC TECHNOLOGIES (SCC FRANCE)	1, 2, 3, sur version V2.0 Présentation des garanties	AFNOR Certification
+SECURE 4 ALL	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+SEQONE	4, 5, 6, sur version V2.0 Présentation des garanties	BYCYB
+SERVICENOW INC.	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	CERTI-TRUST
+SEWAN	1, 2, 3, 4, 5, sur version V2.0	LSTI
+SFR SOUS LA MARQUE COMMERCIALE/UNDER THE TRADENAME SFR BUSINESS	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+SHIFT TECHNOLOGY	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+SIGMA INFORMATIQUE	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+SIGMA-RH SOLUTIONS
+SIGMA-RH FRANCE	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	CERTI-TRUST
+SIMPLICIT	1, 2, 3, 4, 5, sur version V2.0	BSI Group
+SKERA	1, 2, 3, 4, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+SKYLOUD	3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+SMARTGENE AG	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+SNOWFLAKE, INC.	1, 2, 3, 4, sur version V2.0 Présentation des garanties	Schellman Compliance
+SOFTWAY MEDICAL	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BYCYB
+SOPRASTERIA I2S	1, 2, 3, 4, 5, 6, sur version V2.0	LSTI
+SPIE ICS	2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+ST JUDE MEDICAL, LLC - ABBOTT	1, 2, 3, sur version V2.0 Présentation des garanties	BSI Group
+STE INFORMATIQUE ET TELEMATIQUE CORSE	1, 2, 3, 4, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+STORDATA	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+SYCOR GMBH	1, 2, 3, 4, 5, sur version V2.0	BSI Group
+SYNAPSE AYANT POUR MARQUE COMMERCIALE MEDADOM	1, 2, 3, 4, 5, sur version V2.0	AFNOR Certification
+SYNDICAT INTERCOMMUNAL D’INFORMATIQUE	5, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+SYNDICAT MIXTE SOMME NUMERIQUE	1, sur version V2.0 Présentation des garanties	AFNOR Certification
+SYNLAB MEDICAL DIGITAL SERVICES	3, 4, 5, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+SYNOVO	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+SYNTEN	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+SYSTEL	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	CERTI-TRUST
+SYSTEMES INFORMATION HARMONIE MUTUELLE GIE	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+TAS FRANCE	1, 2, 3, 4, 5, 6, sur version V2.0	BSI Group
+TEKKARE	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+TELEDIFFUSION DE FRANCE	1, 2, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+TELEHOUSE INTERNATIONAL CORPORATION	1, 2, sur version V2.0 Présentation des garanties	BSI Group
+TELEOPHTALMO	1, 2, 3, 4, sur version V2.0 Présentation des garanties	AFNOR Certification
+TENEXA CLOUD (ANCIENNEMENT PROLIVAL)	1, 2, 3, 4, 5, 6, sur version V2.0	LSTI
+TERSEDIA	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BSI Group
+TESSI TECHNOLOGIES	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+THALES	1, 2, 3, 4, 5, sur version V2.0	LSTI
+THALES CLOUD SECURISE	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+THERAPANACEA SAS	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BSI Group
+THERAPIXEL	2, 3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+THESEE DATACENTER	1, sur version V2.0 Présentation des garanties	BYCYB
+TODO EN CLOUD SL	1, 2, 3, 4, 5, 6, sur version V2.0	Bureau Veritas Certification France
+TREELOGIE	3, 4, 5, 6, sur version V2.0 Présentation des garanties	CYBEVAL
+TRINAPS SAS	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+TRUSTTEAM NV	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+ULTRAEDGE	1, sur version V2.0 Présentation des garanties	AFNOR Certification
+UNIFIED SOFTWARE EXERÇANT SOUS LE NOM COMMERCIAL YOO SOFT	4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+UNITEL TECHNOLOGIES	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+UNIVERSITE BOURGOGNE EUROPE	1, 2, 3, 4, sur version V2.0	AFNOR Certification
+USENSE	5, sur version V2.0 Présentation des garanties	CERTI-TRUST
+VAL SOLUTIONS	3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+VALEUR & CONFORMITE	3, 4, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+VALIDATED ID, S.L.	1, 2, 3, 5, sur version V2.0	BSI Group
+VANTIVE US	3, 4, 5, sur version V2.0	BSI Group
+VARIAN MEDICAL SYSTEMS FINLAND	1, 2, 3, 4, 5, 6, sur version V2.0	BSI Group
+VARONIS SYSTEMS, INC.	1, 2, 3, 4, 6, sur version V2.0 Présentation des garanties	Schellman Compliance
+VEEVA SYSTEMS INC	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Schellman Compliance
+VIAMEDIS	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	AFNOR Certification
+VILLE DE PARIS – DSIN	1, sur version V2.0 Présentation des garanties	BYCYB
+VIVALTO SANTE SERVICES PARTAGES	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+VOLUNTIS SA – APTAR DIGITAL HEALTH	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	BYCYB
+VYV3 IT	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	CERTI-TRUST
+WEBAXYS	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+WIDIP	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+WITHINGS	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+WORLDLINE	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	Bureau Veritas Certification France
+WS AUDIOLOGY CANADA INC.	1, 2, 3, 4, 5, sur version V2.0 Présentation des garanties	BSI Group
+XANO, INC.	1, 2, 3, 4, 6, sur version V2.0 Présentation des garanties	Schellman Compliance
+XELIANS ARCHIVAGE	1, 2, 3, 4, sur version V2.0	AFNOR Certification
+XELYA	1, 2, 3, 4, 5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+XL DATACENTER	1, sur version V2.0 Présentation des garanties	CERTI-TRUST
+ZENDESK, INC.	1, 2, 3, 4, 6, sur version V2.0 Présentation des garanties	Schellman Compliance
+ZENOTI INDIA PRIVATE LIMITED	3, 4, 5, sur version V2.0	BSI Group
+ZITEC	5, 6, sur version V2.0 Présentation des garanties	AFNOR Certification
+ZOHO CORPORATION PRIVATE LIMITED	1, 2, 3, 4, 5, sur version V2.0	BSI Group
+ZOOM COMMUNICATIONS, INC.	1, 2, 3, 4, 6, sur version V2.0 Présentation des garanties	Schellman Compliance
+ZUORA, INC.	1, 2, 3, 4, 6, sur version V2.0 Présentation des garanties	Schellman Compliance
+Les activités pour lesquelles un hébergeur peut être certifié sont :
+la mise à disposition et le maintien en condition opérationnelle des sites physiques permettant d’héberger l’infrastructure matérielle du système d’information utilisé pour le traitement des données de santé ;
+la mise à disposition et le maintien en condition opérationnelle de l’infrastructure matérielle du système d’information utilisé pour le traitement de données de santé ;
+la mise à disposition et le maintien en condition opérationnelle de la plateforme d’hébergement d’applications du système d’information ;
+la mise à disposition et le maintien en condition opérationnelle de l’infrastructure virtuelle du système d’information utilisé pour le traitement des données de santé ;
+l’administration et l’exploitation du système d’information contenant les données de santé;
+la sauvegarde de données de santé.
+
+Agence du Numérique en Santé
+2-10 Rue d'Oradour-sur-Glane
+75015 Paris
+
+linkedin
+twitter
+youtube
+rss
+Footer Left ANS
+Nous rejoindre
+Espace presse
+Inscrivez-vous à la newsletter
+Footer Right ANS
+Webinaires
+Contactez-nous
+Contactez-nous (support dédié aux Entreprises du numérique en santé)
+Footer Bottom ANS
+Ministère de la santé, des familles, de l'autonomie et des personnes handicapées
+Legifrance.gouv.fr
+Service-public.fr
+Mentions légales
+Politique de protection des données personnelles
+Politique de gestion de cookies
+Gestion des cookies
+Plan du site
+Accessibilité : partiellement conforme

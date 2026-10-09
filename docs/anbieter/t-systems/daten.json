@@ -195,10 +195,10 @@
   "zertifikate": [
     {
       "typ": "BSI C5",
-      "status": "belegt",
+      "status": "beansprucht",
       "quelle": "https://www.t-cloud-public.com/en/products-services/core-services/certifications",
       "geprueft": "2026-10-09",
-      "anmerkung": "BSI C5 Typ II (ISAE 3000) für die Open Telekom Cloud / T-Cloud.",
+      "anmerkung": "Nur beansprucht (bis 09.10.2026 hier „belegt“, Strenge-Runde Frage 217): Testat nicht öffentlich; die Zertifikatsseite (Abruf 09.10.2026) verlinkt zu C5 kein Dokument. BSI C5 Typ II (ISAE 3000) für die Open Telekom Cloud / T-Cloud.",
       "anwendungsbereich": {
         "wert": "T Cloud Public (früher Open Telekom Cloud), laut Anbieterseite",
         "status": "beansprucht",
@@ -257,10 +257,10 @@
     },
     {
       "typ": "SOC 2",
-      "status": "belegt",
+      "status": "beansprucht",
       "quelle": "https://www.t-cloud-public.com/en/products-services/core-services/certifications",
       "geprueft": "2026-10-09",
-      "anmerkung": "SOC 1 Type II, SOC 2 Type II und SOC 3.",
+      "anmerkung": "Nur beansprucht (bis 09.10.2026 hier „belegt“, Strenge-Runde Frage 217): Kein SOC-1- oder SOC-2-Bericht öffentlich; der auf der Zertifikatsseite verlinkte 'TS OTC SOC 3 Report.pdf' ist kennwortgeschützt und ließ sich am 09.10.2026 nicht öffnen. SOC 1 Type II, SOC 2 Type II und SOC 3.",
       "anwendungsbereich": {
         "wert": "T Cloud Public, laut Anbieterseite",
         "status": "beansprucht",
@@ -430,7 +430,7 @@
   ],
   "geprueft": "2026-10-09",
   "url": "https://belegbar.eu/anbieter/t-systems/",
-  "beleg_quote_prozent": 82,
+  "beleg_quote_prozent": 71,
   "zuletzt_geprueft": "2026-10-09",
   "rechtsraum": {
     "land": "DE",

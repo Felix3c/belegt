@@ -202,10 +202,10 @@
     },
     {
       "typ": "SOC 2 Type II",
-      "status": "belegt",
+      "status": "beansprucht",
       "quelle": "https://trust.deepl.com/",
       "geprueft": "2026-10-09",
-      "anmerkung": "Berichtszeitraum 01.01.–30.06.2025; auch auf deepl.com/en/pro-data-security beworben, Bericht als Download. Stand 08.10.2026 (wie 04.10.) kein neuerer Bericht im Trust Center; ein Bridge Letter (Erklärung der DeepL-Geschäftsleitung, keine Prüfung) deckt 01.07.2025–30.07.2026 und kündigt das nächste Audit für Kalenderwoche 24/2026 an. Für die Zeit nach dem 30.07.2026 liegt öffentlich weder Bericht noch Bridge Letter vor",
+      "anmerkung": "Nur beansprucht (bis 09.10.2026 hier „belegt“, Strenge-Runde Frage 217): Der aktuelle Bericht (01.01.–30.06.2025) ist im Trust Center zugriffsbeschränkt; öffentlich ist nur das Prüfurteil der HKKG für 01.10.2022–30.09.2023 (verlinkt auf deepl.com/en/pro-data-security, PDF am 09.10.2026 erneut abgerufen), das den heutigen Stand nicht belegt. Berichtszeitraum 01.01.–30.06.2025; auch auf deepl.com/en/pro-data-security beworben, Bericht als Download. Stand 08.10.2026 (wie 04.10.) kein neuerer Bericht im Trust Center; ein Bridge Letter (Erklärung der DeepL-Geschäftsleitung, keine Prüfung) deckt 01.07.2025–30.07.2026 und kündigt das nächste Audit für Kalenderwoche 24/2026 an. Für die Zeit nach dem 30.07.2026 liegt öffentlich weder Bericht noch Bridge Letter vor",
       "anwendungsbereich": {
         "wert": "Cloud-Service-Produkt der DeepL SE; Trust-Services-Kriterien Security, Availability, Confidentiality (laut Bericht 2022/23)",
         "status": "beansprucht",
@@ -355,7 +355,7 @@
   ],
   "geprueft": "2026-10-09",
   "url": "https://belegbar.eu/anbieter/deepl/",
-  "beleg_quote_prozent": 50,
+  "beleg_quote_prozent": 44,
   "zuletzt_geprueft": "2026-10-09",
   "rechtsraum": {
     "land": "DE",

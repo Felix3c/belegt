@@ -201,10 +201,10 @@
     },
     {
       "typ": "SOC 2 Type II",
-      "status": "belegt",
+      "status": "beansprucht",
       "quelle": "https://nebius.com/trust-center",
       "geprueft": "2026-10-09",
-      "anmerkung": "Inkl. HIPAA-Mapping; zudem SOC 3",
+      "anmerkung": "Nur beansprucht (bis 09.10.2026 hier „belegt“, Strenge-Runde Frage 217): Bericht nur nach NDA; nebius.com/trust-center/soc-2 (Abruf 09.10.2026): 'a non-disclosure agreement (NDA) is required to access the Nebius SOC 2 Type II report'. Prüfer Deloitte und Umfang nur laut Trust Center. Inkl. HIPAA-Mapping; zudem SOC 3",
       "anwendungsbereich": {
         "wert": "Nebius AI Cloud, AI Studio (heute Token Factory) und Tracto AI",
         "status": "beansprucht",
@@ -295,9 +295,9 @@
     {
       "typ": "ISO 27018",
       "status": "belegt",
-      "quelle": "https://nebius.com/trust-center",
+      "quelle": "https://assets.nebius.com/assets/9a3a30ea-f708-4e07-8903-bdaa6a3eaa2b/ISO27018%20CERTIFICATE.PDF",
       "geprueft": "2026-10-09",
-      "anmerkung": "Trust Center (03.10.2026) listet 'ISO 27018'. Bisher nur in der Anmerkung zu ISO 27701 geführt.",
+      "anmerkung": "Belegt über das öffentliche Zertifikat (SII-QCD Nr. 1125668, ISO/IEC 27018:2019, Nebius B.V., gültig 26.08.2025 bis 26.08.2028, revidiert 16.09.2026; Abruf 09.10.2026). Quelle bis 09.10.2026 nur die Trust-Center-Liste (Strenge-Runde Frage 217). Trust Center (03.10.2026) listet 'ISO 27018'. Bisher nur in der Anmerkung zu ISO 27701 geführt.",
       "anwendungsbereich": {
         "wert": "Nebius B.V. (Schiphol, Niederlande), weitere Standorte: Tel Aviv (Yitzhak Sadeh 8); Geltungsbereich laut Zertifikat 'Nebius is a global AI cloud company delivering infrastructure and services to accelerate the full AI pipeline from foundational model builders to enterprise solutions'",
         "status": "belegt",
@@ -374,7 +374,7 @@
   ],
   "geprueft": "2026-10-09",
   "url": "https://belegbar.eu/anbieter/nebius/",
-  "beleg_quote_prozent": 73,
+  "beleg_quote_prozent": 67,
   "zuletzt_geprueft": "2026-10-09",
   "rechtsraum": {
     "land": "NL",

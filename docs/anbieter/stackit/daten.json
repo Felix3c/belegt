@@ -201,10 +201,10 @@
     },
     {
       "typ": "BSI C5",
-      "status": "belegt",
+      "status": "beansprucht",
       "quelle": "https://stackit.com/en/why-stackit/benefits/certificates",
       "geprueft": "2026-10-09",
-      "anmerkung": "C5 Typ 2; bestätigt per Pressemitteilung Schwarz Digits.",
+      "anmerkung": "Nur beansprucht (bis 09.10.2026 hier „belegt“, Strenge-Runde Frage 217): Testat nicht öffentlich; die Zertifikatsseite (Abruf 09.10.2026) verlinkt Zertifikate zu ISO 27001, ISO 20000-1, ISO 22301, ISO 50001, BSI-IGZ-0691-2025 und CCI, aber keinen C5-Bericht; auch die Pressemitteilung ist eine Angabe der Schwarz-Gruppe. C5 Typ 2; bestätigt per Pressemitteilung Schwarz Digits.",
       "anwendungsbereich": {
         "wert": "STACKIT-Infrastruktur, laut Anbieterseite 21 Produkte, darunter 'STACKIT AI Model Serving'",
         "status": "beansprucht",
@@ -232,10 +232,10 @@
     },
     {
       "typ": "SOC 2",
-      "status": "belegt",
+      "status": "beansprucht",
       "quelle": "https://stackit.com/en/why-stackit/benefits/certificates",
       "geprueft": "2026-10-09",
-      "anmerkung": "ISAE 3000 (SOC 2) und ISAE 3402 begleitend zum C5-Testat.",
+      "anmerkung": "Nur beansprucht (bis 09.10.2026 hier „belegt“, Strenge-Runde Frage 217): Kein Bericht veröffentlicht; die Zertifikatsseite (Abruf 09.10.2026) verlinkt keinen ISAE-3000-/SOC-2-Bericht. ISAE 3000 (SOC 2) und ISAE 3402 begleitend zum C5-Testat.",
       "anwendungsbereich": {
         "wert": "Begleitend zum C5-Testat, laut Anbieterseite dieselben Produkte",
         "status": "beansprucht",
@@ -375,7 +375,7 @@
   ],
   "geprueft": "2026-10-09",
   "url": "https://belegbar.eu/anbieter/stackit/",
-  "beleg_quote_prozent": 93,
+  "beleg_quote_prozent": 80,
   "zuletzt_geprueft": "2026-10-09",
   "rechtsraum": {
     "land": "DE",

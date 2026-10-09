@@ -246,9 +246,9 @@
     {
       "typ": "ISO 27017 / 27018",
       "status": "belegt",
-      "quelle": "https://regolo.ai/terms-and-conditions/",
+      "quelle": "https://www.seeweb.it/files/Certificato_Appendice_SEEWEB_27017_R4_2024.pdf",
       "geprueft": "2026-10-09",
-      "anmerkung": "Zusätzlich ISO 9001, 14001, 20000, 22301 der Seeweb S.r.l., dazu CISPE und ACN-Qualifizierung (Logos im Seitenfuß, 08.10.2026)",
+      "anmerkung": "Belegt nur über die öffentlichen Zertifikatsanhänge der Betreibergesellschaft Seeweb S.r.l. (ISO/IEC 27017 und 27018, AXE Register, gültig bis 28.11.2027; beide PDFs am 09.10.2026 erneut abgerufen), nicht über ein Zertifikat von Regolo selbst; Regolo zeigt die Normen nur als Logo (regolo.ai/terms-and-conditions/). Quelle bis 09.10.2026 die Regolo-AGB (Strenge-Runde Frage 217). Zusätzlich ISO 9001, 14001, 20000, 22301 der Seeweb S.r.l., dazu CISPE und ACN-Qualifizierung (Logos im Seitenfuß, 08.10.2026)",
       "anwendungsbereich": {
         "wert": "Seeweb S.r.l., Standorte Mailand (Via Caldera 21) und Frosinone (Via Armando Vona 66): Cloud Computing und Cloud Storage, Hosting, Housing und Colocation, E-Mail, Domains, IT-Sicherheit, Disaster Recovery",
         "status": "belegt",
