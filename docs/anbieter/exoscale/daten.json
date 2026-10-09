@@ -95,15 +95,15 @@
       "wert": "https://www.exoscale.com/dpa/",
       "status": "belegt",
       "quelle": "https://www.exoscale.com/dpa/",
-      "geprueft": "2026-10-08",
-      "anmerkung": "DSGVO-konformes DPA der Akenes SA; Datentransfers auf CH/EU/EWR bzw. Angemessenheitsländer beschränkt, Löschung binnen 10 Werktagen nach Vertragsende"
+      "geprueft": "2026-10-09",
+      "anmerkung": "DSGVO-konformes DPA der Akenes SA; Datentransfers für die im Auftrag verarbeiteten Kundendaten auf CH/EU/EWR bzw. Angemessenheitsländer beschränkt, Löschung binnen 10 Werktagen nach Vertragsende. Das gilt nicht für Exoscales eigene Kundenstammdaten: Laut Datenschutzerklärung gehen Daten über Kunden an 'Amazon Web Services', Zweck 'Data archival', Ort 'United States' (siehe Subprozessoren)."
     },
     "subprozessoren": {
       "wert": "https://www.exoscale.com/dpa/",
       "status": "belegt",
       "quelle": "https://www.exoscale.com/dpa/",
-      "geprueft": "2026-10-08",
-      "anmerkung": "Keine separate Liste; genehmigte Subprozessoren sind Bestandteil des DPA (aktuell Aiven Oy, Helsinki, für DBaaS); Änderungen mit 30 Tagen Vorankündigung und Widerspruchsrecht"
+      "geprueft": "2026-10-09",
+      "anmerkung": "Keine separate Liste; genehmigte Subprozessoren sind Bestandteil des DPA (aktuell Aiven Oy, Helsinki, für DBaaS; für 'Compute, Storage, SKS' laut Datenschutzerklärung '(currently no third-party processor)'); Änderungen mit 30 Tagen Vorankündigung und Widerspruchsrecht. Daneben nennt die Datenschutzerklärung (https://www.exoscale.com/privacy/, 'Effective date: September 1st, 2021', Abruf 09.10.2026) 'Third-party providers', an die Exoscale 'forwards data about its Clients', darunter 'Amazon Web Services', 'Data archival', 'United States' sowie PayPal und Twilio (beide 'United States'); hochgeladene Kundendaten gehen dort laut Erklärung nicht hin ('Under no circumstances is data uploaded by Clients to Exoscale Services transferred to these providers'). Dieselbe Erklärung sagt über Exoscales eigene Daten: 'Our data isn’t encrypted at-rest, however we control access to our datacenter locations with physical and network security.' Bis 09.10. fehlten diese Angaben hier."
     },
     "training_opt_out": {
       "wert": null,
@@ -157,8 +157,8 @@
         "wert": "Cloud-Hosting (Compute, Netzwerk, Storage) an allen Standorten — Stand 2019",
         "status": "beansprucht",
         "quelle": "https://changelog.exoscale.com/exoscale-security-certificates-for-iso-iso-and-csa/",
-        "geprueft": "2026-10-08",
-        "anmerkung": "Changelog vom 10.01.2019 (Abruf 08.10.2026): 'We have reached full compliance level with certifications on all aspects of our cloud hosting - compute, network and storage - in all locations for: ISO27001 ... ISO27018'. Aktueller Umfang und SoA nur im Compliance Center (NDA): 'Customers can access our current ISO/IEC 27001 certificate and Statement of Applicability (SoA) through the Exoscale Compliance Center' (exoscale.com/compliance/iso27001/). Ob GPU/Dedicated Inference im Umfang ist, ist öffentlich nicht belegt."
+        "geprueft": "2026-10-09",
+        "anmerkung": "Changelog vom 10.01.2019 (Abruf 09.10.2026): 'We have reached full compliance level with certifications on all aspects of our cloud hosting - compute, network and storage - in all locations for: ISO27001: Managing Information Security / CSA Star 2: Securing cloud computing environments / ISO27018: Protecting personal data'. Die dort genannte CSA-STAR-Stufe 2 beansprucht Exoscale heute nicht mehr (nur Selbstauskunft Stufe 1, siehe Eintrag CSA STAR); der Changelog ist in diesem Punkt veraltet. Aktueller Umfang und SoA nur im Compliance Center (NDA): 'Customers can access our current ISO/IEC 27001 certificate and Statement of Applicability (SoA) through the Exoscale Compliance Center' (exoscale.com/compliance/iso27001/). Ob GPU/Dedicated Inference im Umfang ist, ist öffentlich nicht belegt."
       },
       "zertifizierer": {
         "wert": null,
@@ -312,8 +312,8 @@
         "wert": "Cloud-Hosting (Compute, Netzwerk, Storage) an allen Standorten — Stand 2019",
         "status": "beansprucht",
         "quelle": "https://changelog.exoscale.com/exoscale-security-certificates-for-iso-iso-and-csa/",
-        "geprueft": "2026-10-08",
-        "anmerkung": "Changelog vom 10.01.2019 (Abruf 08.10.2026): 'full compliance level with certifications on all aspects of our cloud hosting - compute, network and storage - in all locations for: ... ISO27018'. Aktueller Umfang nur im Compliance Center (NDA)."
+        "geprueft": "2026-10-09",
+        "anmerkung": "Changelog vom 10.01.2019 (Abruf 09.10.2026): 'full compliance level with certifications on all aspects of our cloud hosting - compute, network and storage - in all locations for: ISO27001 [...] CSA Star 2 [...] ISO27018'. Die dort genannte CSA-STAR-Stufe 2 beansprucht Exoscale heute nicht mehr (siehe Eintrag CSA STAR). Aktueller Umfang nur im Compliance Center (NDA)."
       },
       "zertifizierer": {
         "wert": null,
@@ -368,14 +368,14 @@
       "typ": "CSA STAR Level 1",
       "status": "beansprucht",
       "quelle": "https://www.exoscale.com/compliance/csa-star/",
-      "geprueft": "2026-10-08",
-      "anmerkung": "Selbstauskunft, kein Zertifikat. Exoscale schreibt: 'Exoscale participates in the CSA STAR program by publishing our self-assessment using the CAIQ', der ausgefüllte Fragebogen sei 'published on the CSA STAR Registry for full transparency'. In der Liste des CSA STAR Registry (cloudsecurityalliance.org/star/registry, Abruf 05.10.2026, 2.810 Einträge; Nebius und Scaleway stehen darin) war kein Eintrag unter Exoscale, Akenes oder A1 zu finden; ob er unter anderem Namen geführt wird, ist ungeklärt. Deshalb beansprucht, nicht belegt. Die Doku-Seite community.exoscale.com/platform/compliance/ nennt CSA STAR nicht (deshalb am 03.10.2026 hier entfernt), die Website exoscale.com/compliance/ führt es unter 'Security control frameworks'. Archivkopie web.archive.org/web/20261005024847 byte-gleich.",
+      "geprueft": "2026-10-09",
+      "anmerkung": "Selbstauskunft, kein Zertifikat. Exoscale schreibt: 'Exoscale participates in the CSA STAR program by publishing our self-assessment using the CAIQ', der ausgefüllte Fragebogen sei 'published on the CSA STAR Registry for full transparency' (Abruf 09.10.2026). In der Liste des CSA STAR Registry (cloudsecurityalliance.org/star/registry, Abruf 05.10.2026 mit 2.810 Einträgen und erneut 09.10.2026; Nebius und Scaleway stehen darin) war kein Eintrag unter Exoscale, Akenes oder A1 zu finden; ob er unter anderem Namen geführt wird, ist ungeklärt. Deshalb beansprucht, nicht belegt. Widerspruch zu früher: Der Changelog vom 10.01.2019 (https://changelog.exoscale.com/exoscale-security-certificates-for-iso-iso-and-csa/, Abruf 09.10.2026) meldet noch 'CSA Star 2: Securing cloud computing environments', also eine geprüfte Stufe 2; heute beansprucht Exoscale nur noch die Selbstauskunft (Stufe 1). Ein Level-2-Nachweis ist öffentlich nicht zu finden. Die Doku-Seite community.exoscale.com/platform/compliance/ nennt CSA STAR nicht (deshalb am 03.10.2026 hier entfernt), die Website exoscale.com/compliance/ führt es unter 'Security control frameworks'. Archivkopie web.archive.org/web/20261005024847 byte-gleich.",
       "anwendungsbereich": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
-        "anmerkung": "Selbstauskunft (CAIQ) ohne veröffentlichten Umfang; im CSA STAR Registry am 05.10.2026 nicht gefunden (siehe Eintrag)."
+        "geprueft": "2026-10-09",
+        "anmerkung": "Selbstauskunft (CAIQ) ohne veröffentlichten Umfang; im CSA STAR Registry am 05.10. und 09.10.2026 nicht gefunden (siehe Eintrag)."
       },
       "zertifizierer": {
         "wert": null,
@@ -407,7 +407,7 @@
   "geprueft": "2026-10-08",
   "url": "https://belegbar.eu/anbieter/exoscale/",
   "beleg_quote_prozent": 69,
-  "zuletzt_geprueft": "2026-10-08",
+  "zuletzt_geprueft": "2026-10-09",
   "rechtsraum": {
     "land": "CH",
     "name": "Schweiz",

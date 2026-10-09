@@ -171,9 +171,9 @@
     {
       "typ": "ISO 27001",
       "status": "belegt",
-      "quelle": "https://nebius.com/trust-center",
-      "geprueft": "2026-10-08",
-      "anmerkung": "",
+      "quelle": "https://assets.nebius.com/assets/75a09e82-d39b-4bd4-a064-babf034b8a6b/ISO27001%20CERTIFICATION.pdf",
+      "geprueft": "2026-10-09",
+      "anmerkung": "Zertifikat öffentlich (Abruf 09.10.2026, unverändert gegenüber 08.10.), Inhaber nur Nebius B.V.: 'This is to certify that the Information Security Management System of Nebius B.V. Schiphol Boulevard 165, 1118 BG Schiphol, the Netherlands', weitere Standorte Tel Aviv und Mäntsälä. Andere Nebius-Gesellschaften (z. B. Nebius Inc., USA) stehen nicht darauf. Dass die Token Factory im Scope ist, sagt nur das Trust Center (nebius.com/trust-center/iso-27001, 09.10.2026): 'The scope of ISO 27001 includes the controls supporting Nebius AI Cloud, AI Studio (now Nebius Token Factory) and Tracto AI. [...] The scope does not extend to other subsidiaries or third-party service providers.'",
       "anwendungsbereich": {
         "wert": "Nebius B.V. (Schiphol, Niederlande), weitere Standorte: Tel Aviv (Yitzhak Sadeh 8) und Rechenzentrum Mäntsälä (Finnland); Geltungsbereich laut Zertifikat 'Nebius is a global AI cloud company delivering infrastructure and services to accelerate the full AI pipeline from foundational model builders to enterprise solutions'",
         "status": "belegt",
@@ -264,9 +264,9 @@
     {
       "typ": "CSA STAR Level 1",
       "status": "belegt",
-      "quelle": "https://nebius.com/trust-center",
-      "geprueft": "2026-10-08",
-      "anmerkung": "",
+      "quelle": "https://cloudsecurityalliance.org/star/registry/nebius-bv",
+      "geprueft": "2026-10-09",
+      "anmerkung": "Selbstauskunft, kein Zertifikat, und nur für 'Nebius AI Cloud', nicht für die Token Factory. CSA-Register (09.10.2026): ein Eintrag 'Nebius B.V', 'Listed Since: 2023-02-18', Typ CAIQ, Beschreibung 'Nebius provides AI-native cloud infrastructure and platform services for AI, machine learning, and data-intensive workloads'. Trust Center (nebius.com/trust-center/csa-star, 09.10.2026): 'CSA STAR Level 1 is based on a self-assessment' und 'What Nebius products are within the scope of assessment? Nebius AI Cloud infrastructure and platform services.' Die Token Factory wird weder im Register noch auf der Trust-Center-Seite genannt.",
       "anwendungsbereich": {
         "wert": "Nebius AI Cloud (Infrastruktur und Plattformdienste); Token Factory nicht genannt",
         "status": "beansprucht",
@@ -366,7 +366,7 @@
   "geprueft": "2026-10-08",
   "url": "https://belegbar.eu/anbieter/nebius/",
   "beleg_quote_prozent": 80,
-  "zuletzt_geprueft": "2026-10-08",
+  "zuletzt_geprueft": "2026-10-09",
   "rechtsraum": {
     "land": "NL",
     "name": "Niederlande",

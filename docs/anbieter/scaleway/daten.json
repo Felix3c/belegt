@@ -178,8 +178,8 @@
       "wert": true,
       "status": "belegt",
       "quelle": "https://www.scaleway.com/en/docs/generative-apis/reference-content/data-privacy/",
-      "geprueft": "2026-10-08",
-      "anmerkung": "Doku (reviewed 03.10.2025): 'By default we apply a Zero Data Retention Policy, collecting only data required to provide the service reliably and securely.' Ausnahmen laut aktuellem Wortlaut: (a) API-Metadaten/Token-Zahlen ohne Prompt-Inhalt, Aggregate bis 6 Monate; (b) Caching nur mit ephemeren Zwischenwerten (Prefix-Hashes, KV), nicht abschaltbar; (c) bei Missbrauch/Fehlern temporäre Speicherung voller HTTP-Request-Inhalte bis zu zwei Wochen. 'Batch-Verarbeitung' als Ausnahme steht so nicht mehr; Speicherregion Paris."
+      "geprueft": "2026-10-09",
+      "anmerkung": "Doku (reviewed 03.10.2025, Abruf 09.10.2026): 'By default we apply a Zero Data Retention Policy, collecting only data required to provide the service reliably and securely.' Ausnahmen laut aktuellem Wortlaut: (a) API-Metadaten/Token-Zahlen ohne Prompt-Inhalt, Aggregate bis 6 Monate; (b) Caching nur mit ephemeren Zwischenwerten (Prefix-Hashes, KV), nicht abschaltbar; (c) bei Missbrauch/Fehlern temporäre Speicherung voller HTTP-Request-Inhalte bis zu zwei Wochen; (d) Batch-Verarbeitung: Die Doku nennt sie nicht mehr als Ausnahme, die Specific Conditions AI Services (Version of 07/04/2026, https://www-uploads.scaleway.com/Specific_Conditions_AI_Services_275907180f.pdf, Abruf 09.10.2026) aber weiterhin: 'when Batch Processing mode is used, Inputs are stored only for the duration of processing, i.e., twenty-four (24) hours. Beyond this duration, data is deleted.' Speicherregion Paris."
     },
     "zweckbindung": {
       "wert": false,
@@ -213,10 +213,10 @@
   "zertifikate": [
     {
       "typ": "ISO 27001",
-      "status": "belegt",
+      "status": "beansprucht",
       "quelle": "https://www.scaleway.com/en/security-and-compliance/",
-      "geprueft": "2026-10-08",
-      "anmerkung": "ISO/IEC 27001:2022 auf der offiziellen Security-and-Compliance-Seite als erreicht ausgewiesen.",
+      "geprueft": "2026-10-09",
+      "anmerkung": "Nur auf der Marketingseite beansprucht, Zertifikat nicht öffentlich. Security-and-Compliance-Seite (09.10.2026): 'Certifications and Qualifications ISO/IEC 27001:2022' und 'Scaleway is committed to obtaining the most stringent certifications (ISO 27001, HDS, SecNumCloud – currently undergoing assessment)'. Im Trust Center (security.scaleway.com, nur im Browser abrufbar, 09.10.2026) steht nur 'Scaleway has undergone an ISO 27001:2022 audit.'; das Zertifikat 'SGS_ISO_IEC 27001_2022_FR2600000200_EN.pdf' ist dort ohne Download-Link gelistet und nur nach 'Get access' (Zugangsanfrage) erhältlich.",
       "anwendungsbereich": {
         "wert": null,
         "status": "unbelegt",
@@ -244,10 +244,10 @@
     },
     {
       "typ": "HDS",
-      "status": "belegt",
+      "status": "beansprucht",
       "quelle": "https://www.scaleway.com/en/security-and-compliance/",
-      "geprueft": "2026-10-08",
-      "anmerkung": "Französische Zertifizierung für das Hosting von Gesundheitsdaten.",
+      "geprueft": "2026-10-09",
+      "anmerkung": "Französische Zertifizierung für das Hosting von Gesundheitsdaten; nur auf der Marketingseite beansprucht, Zertifikat nicht öffentlich. Security-and-Compliance-Seite (09.10.2026): 'Scaleway is HDS-certified for the hosting of health data'. Im Trust Center (security.scaleway.com, nur im Browser abrufbar, 09.10.2026) ist 'SGS_HDS_FR2600000195_FR.pdf' ohne Download-Link gelistet und nur nach 'Get access' (Zugangsanfrage) erhältlich. Generative APIs gehören laut Trust Center nicht zum HDS-Umfang (siehe Anwendungsbereich).",
       "anwendungsbereich": {
         "wert": "Dedibox und Elastic Metal (Aktivitäten 1–2), Kapsule (1–5), Object Storage, Block Storage und Instances (1–4), Load Balancer und VPC (1–3) nach ANS HDS:2024; Hosting nur in Frankreich",
         "status": "beansprucht",
@@ -315,8 +315,8 @@
   ],
   "geprueft": "2026-10-08",
   "url": "https://belegbar.eu/anbieter/scaleway/",
-  "beleg_quote_prozent": 86,
-  "zuletzt_geprueft": "2026-10-08",
+  "beleg_quote_prozent": 71,
+  "zuletzt_geprueft": "2026-10-09",
   "rechtsraum": {
     "land": "FR",
     "name": "Frankreich",

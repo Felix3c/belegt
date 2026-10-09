@@ -215,8 +215,8 @@
       "typ": "ISO 27001",
       "status": "belegt",
       "quelle": "https://cloud.ionos.de/zertifikate",
-      "geprueft": "2026-10-08",
-      "anmerkung": "TÜV NORD CERT für die IONOS Holding SE (ISO/IEC 27001:2022, Registrier-Nr. 44 121 160247-012, gültig 19.04.2025 bis 18.04.2028; Geltungsbereich: Infrastruktur, Plattformen und Applikationen in den Rechenzentren der IONOS); zusätzlich ISO 27001 auf Basis IT-Grundschutz des BSI (BSI-IGZ-0730-2025, gültig bis 13.09.2028, Geltungsbereich nennt Compute Engine, Managed Kubernetes und S3 Object Storage, den AI Model Hub nicht). Die AI-Model-Hub-Doku (07.10.2026) sagt nur 'IONOS CLOUD data centers are certified to ISO 27001'; beide Zertifikats-PDFs am 07.10.2026 von cloud.ionos.de/zertifikate abgerufen.",
+      "geprueft": "2026-10-09",
+      "anmerkung": "TÜV NORD CERT für die IONOS Holding SE (ISO/IEC 27001:2022, Registrier-Nr. 44 121 160247-012, gültig 19.04.2025 bis 18.04.2028; Geltungsbereich: Infrastruktur, Plattformen und Applikationen in den Rechenzentren der IONOS); zusätzlich ISO 27001 auf Basis IT-Grundschutz des BSI (BSI-IGZ-0730-2025, gültig bis 13.09.2028, Geltungsbereich nennt Compute Engine, Managed Kubernetes und S3 Object Storage, den AI Model Hub nicht). Für den AI Model Hub ist ISO 27001 damit nicht belegt: Weder das TÜV-NORD-Zertifikat noch das BSI-Grundschutz-Zertifikat nennt ihn (beide PDFs am 09.10.2026 erneut abgerufen, byte-gleich zum 07./08.10.). Die AI-Model-Hub-Doku (docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling, Abruf 09.10.2026) sagt nur 'data centers are certified to ISO 27001', also die Rechenzentren, nicht der Dienst.",
       "anwendungsbereich": {
         "wert": "IONOS Holding SE, Standort IONOS SE Montabaur: 'Betrieb und Entwicklung von Infrastruktur, Plattformen und Applikationen für Internetprodukte und -dienstleistungen in den Rechenzentren der IONOS sowie der zugehörige Kundenservice'",
         "status": "belegt",
@@ -246,8 +246,8 @@
       "typ": "BSI C5",
       "status": "belegt",
       "quelle": "https://cloud.ionos.de/zertifikate",
-      "geprueft": "2026-10-08",
-      "anmerkung": "C5:2020 Typ-1-Testat vom 28.05.2026, geprüft durch PwC nach ISAE 3000; Scope laut Zertifikatsseite 33 Services in 10 Service-Clustern, die Liste selbst nur auf Anfrage. Neu (abgerufen 07.10.2026, ob schon am 03.10. vorhanden ungeklärt): die Data-Handling-Doku sagt 'AI Model Hub falls within the scope of BSI C5' (Wayback 20261007214204) — Angabe des Anbieters, am Testat selbst von außen nicht prüfbar.",
+      "geprueft": "2026-10-09",
+      "anmerkung": "C5:2020 Typ-1-Testat vom 28.05.2026, geprüft durch PwC nach ISAE 3000; Scope laut Zertifikatsseite 33 Services in 10 Service-Clustern, die Liste selbst nur auf Anfrage. Dass der AI Model Hub im C5-Scope liegt, steht nur in der Data-Handling-Doku (docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling, Abruf 09.10.2026 unverändert: 'AI Model Hub falls within the scope of BSI C5'; zuerst gesehen 07.10.2026, Wayback 20261007214204, ob schon am 03.10. vorhanden ungeklärt). Die Zertifikatsseite cloud.ionos.de/zertifikate (Abruf 09.10.2026) nennt den AI Model Hub beim C5-Testat nicht, das Testat selbst ist nicht öffentlich — die Zuordnung ist reine Anbieterangabe. Auch in den beiden ISO-27001-Zertifikaten (TÜV NORD, BSI-IGZ-0730-2025) ist der AI Model Hub nicht genannt.",
       "anwendungsbereich": {
         "wert": "33 Services in 10 Service-Clustern; AI Model Hub laut Anbieter-Doku im Scope",
         "status": "beansprucht",
@@ -323,7 +323,7 @@
   "geprueft": "2026-10-08",
   "url": "https://belegbar.eu/anbieter/ionos/",
   "beleg_quote_prozent": 87,
-  "zuletzt_geprueft": "2026-10-08",
+  "zuletzt_geprueft": "2026-10-09",
   "rechtsraum": {
     "land": "DE",
     "name": "Deutschland",

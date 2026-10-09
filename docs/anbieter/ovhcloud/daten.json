@@ -213,10 +213,10 @@
   "zertifikate": [
     {
       "typ": "ISO 27001",
-      "status": "belegt",
+      "status": "beansprucht",
       "quelle": "https://www.ovhcloud.com/en/compliance/",
-      "geprueft": "2026-10-08",
-      "anmerkung": "Compliance-Seite (am 05.10.2026 unverändert): 'ISO/IEC 27001:2013 Certification and ISMS relating to information security management systems for cloud services', zusätzlich ISO 27017/27018. Die Unterseite www.ovhcloud.com/en/compliance/iso-27001-27017-27018/ nennt als Zertifizierungsstelle das 'Laboratoire National de Métrologie de d'Essais' (LNE) und listet die zertifizierten Dienste, darunter 'AI & machine learning'; AI Endpoints ist dort nicht einzeln genannt. Die Produktseite von AI Endpoints schreibt nur: 'Underlying platform with ISO 27000, SOC, and healthcare data certifications.' Das Zertifikat selbst wurde nicht eingesehen. Archivkopien web.archive.org/web/20261005073337 (Compliance-Seite), 20261005073205 (Unterseite), beide byte-gleich zum Abruf. Neu auf der Produktseite AI Endpoints (08.10.2026, nicht in der Archivkopie vom 05.10.): 'ISO 27001, SOC 2 Type II, and HDS (health data) certified service'; damit ordnet der Anbieter die Zertifizierung ausdrücklich dem Dienst AI Endpoints zu, ein Bericht oder Geltungsbereich-Dokument dazu ist nicht verlinkt (Archivkopie web.archive.org/web/20261008040757).",
+      "geprueft": "2026-10-09",
+      "anmerkung": "Nur beansprucht (bis 08.10.2026 hier „belegt“): Ein Zertifikat ist öffentlich nicht zu finden, und der genannte Zertifizierer ist für diese Norm nicht akkreditiert. Die Unterseite sagt am 09.10.2026 weiter 'The ISO/IEC 27001 certification that OVHcloud holds is available on the website of the certification body “Laboratoire National de Métrologie de d’Essais”'; der Link führt auf www.lne.fr/recherche-certificats, deren Datenbank am 09.10.2026 für 'ovh' 0 Treffer liefert. Die COFRAC-Akkreditierung des LNE (tools.cofrac.fr/annexes/sect4/4-0038.pdf, Rev. 54, gültig 09.04.2026 bis 31.01.2029, am 09.10.2026 byte-gleich zum Abruf vom 08.10.) deckt nur ISO 14001, ISO 9001, ISO 45001 und ISO 50001, nicht ISO/IEC 27001. Compliance-Seite (am 05.10.2026 und 09.10.2026 unverändert): 'ISO/IEC 27001:2013 Certification and ISMS relating to information security management systems for cloud services', zusätzlich ISO 27017/27018. Die Unterseite www.ovhcloud.com/en/compliance/iso-27001-27017-27018/ nennt als Zertifizierungsstelle das 'Laboratoire National de Métrologie de d'Essais' (LNE) und listet die zertifizierten Dienste, darunter 'AI & machine learning'; AI Endpoints ist dort nicht einzeln genannt. Die Produktseite von AI Endpoints schreibt nur: 'Underlying platform with ISO 27000, SOC, and healthcare data certifications.' Das Zertifikat selbst wurde nicht eingesehen. Archivkopien web.archive.org/web/20261005073337 (Compliance-Seite), 20261005073205 (Unterseite), beide byte-gleich zum Abruf. Neu auf der Produktseite AI Endpoints (08.10.2026, nicht in der Archivkopie vom 05.10.): 'ISO 27001, SOC 2 Type II, and HDS (health data) certified service'; damit ordnet der Anbieter die Zertifizierung ausdrücklich dem Dienst AI Endpoints zu, ein Bericht oder Geltungsbereich-Dokument dazu ist nicht verlinkt (Archivkopie web.archive.org/web/20261008040757).",
       "anwendungsbereich": {
         "wert": "OVHcloud-Dienste in allen Rechenzentren außer USA; zertifizierte Dienste laut Compliance-Seite u. a. Public Cloud Compute, Public Cloud Storage und „AI & machine learning“; AI Endpoints in der Produktliste der Doku nicht aufgeführt",
         "status": "beansprucht",
@@ -244,10 +244,10 @@
     },
     {
       "typ": "ISO 27701",
-      "status": "belegt",
-      "quelle": "https://www.ovhcloud.com/en/compliance/",
-      "geprueft": "2026-10-08",
-      "anmerkung": "PIMS für Personendaten-Verarbeitung.",
+      "status": "beansprucht",
+      "quelle": "https://www.ovhcloud.com/en/compliance/iso-27701/",
+      "geprueft": "2026-10-09",
+      "anmerkung": "PIMS für Personendaten-Verarbeitung. Nur beansprucht (bis 08.10.2026 hier „belegt“): Die Compliance-Seite (Abruf 09.10.2026) sagt 'The ISO/IEC 27701 certificate that OVHcloud holds is available on request from our sales department or from the “Laboratoire National de Métrologie et d’Essais” certification body' — öffentlich ist kein Zertifikat. Das LNE ist laut COFRAC-Anlage 4-0038 (Rev. 54, Abruf 09.10.2026) nur für ISO 14001, 9001, 45001 und 50001 akkreditiert, nicht für ISO/IEC 27701; die LNE-Datenbank liefert am 09.10.2026 für 'ovh' 0 Treffer.",
       "anwendungsbereich": {
         "wert": "OVHcloud-Dienste in allen Rechenzentren außer USA; zertifizierte Dienste u. a. Public Cloud Compute/Storage und „AI & Machine Learning“; AI Endpoints in der Produktliste der Doku nicht aufgeführt",
         "status": "beansprucht",
@@ -479,8 +479,8 @@
   ],
   "geprueft": "2026-10-08",
   "url": "https://belegbar.eu/anbieter/ovhcloud/",
-  "beleg_quote_prozent": 95,
-  "zuletzt_geprueft": "2026-10-08",
+  "beleg_quote_prozent": 85,
+  "zuletzt_geprueft": "2026-10-09",
   "rechtsraum": {
     "land": "FR",
     "name": "Frankreich",
