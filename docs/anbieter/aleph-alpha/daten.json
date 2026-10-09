@@ -93,14 +93,14 @@
       "wert": null,
       "status": "unbelegt",
       "quelle": "https://aleph-alpha.com/datenschutz/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Kein öffentliches AVV/DPA-Dokument. Die Datenschutzerklärung regelt nur Website, Kontakt, Newsletter und Bewerbungen; die in der Produktdoku verlinkten 'Terms and Conditions' leiten am 04.10.2026 auf die Startseite um. Verträge im Enterprise-Vertrieb individuell."
     },
     "subprozessoren": {
       "wert": null,
       "status": "unbelegt",
       "quelle": "https://aleph-alpha.com/datenschutz/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Keine Subprozessorenliste für die Produkte; die Datenschutzerklärung nennt Auftragsverarbeiter nur für den Website-Betrieb (u. a. Fastly), auch die Produktdoku docs.aleph-alpha.com nennt keine (04.10.2026)."
     },
     "training_opt_out": {

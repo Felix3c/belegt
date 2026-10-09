@@ -9,11 +9,9 @@
     "geaendert": "2026-10-03"
   },
   "https://aleph-alpha.com/datenschutz/": {
-    "hash": "127563f9d82b812d",
+    "hash": "e12c1c2dd5c6e50d",
     "gesehen": "2026-10-09",
-    "geaendert": "2026-10-08",
-    "neu_hash": "e12c1c2dd5c6e50d",
-    "veraendert_seit": "2026-10-09"
+    "geaendert": "2026-10-09"
   },
   "https://anabdirectory.remoteauditor.com/": {
     "hash": "2622e5881032239b",
@@ -180,18 +178,14 @@
     "geaendert": "2026-08-28"
   },
   "https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling": {
-    "hash": "6791f3e7cedded5c",
+    "hash": "82df522c139f093d",
     "gesehen": "2026-10-09",
-    "geaendert": "2026-10-08",
-    "neu_hash": "82df522c139f093d",
-    "veraendert_seit": "2026-10-09"
+    "geaendert": "2026-10-09"
   },
   "https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/eu-ai-act": {
-    "hash": "f225792a2a6c0877",
+    "hash": "4798da62c150dcbb",
     "gesehen": "2026-10-09",
-    "geaendert": "2026-10-08",
-    "neu_hash": "4798da62c150dcbb",
-    "veraendert_seit": "2026-10-09"
+    "geaendert": "2026-10-09"
   },
   "https://docs.llmhub.t-systems.net/models/": {
     "hash": "981097381e146ebd",
@@ -204,11 +198,9 @@
     "geaendert": "2026-10-09"
   },
   "https://docs.llmhub.t-systems.net/reference/enterprise-trust": {
-    "hash": "f6e5df8a830e5691",
+    "hash": "6c3d859bf13fd543",
     "gesehen": "2026-10-09",
-    "geaendert": "2026-10-03",
-    "neu_hash": "6c3d859bf13fd543",
-    "veraendert_seit": "2026-10-09"
+    "geaendert": "2026-10-09"
   },
   "https://docs.mistral.ai/admin/monitor-comply/privacy-data-controls": {
     "hash": "a18fc21573e9e18f",
@@ -295,11 +287,9 @@
     "geaendert": "2026-10-03"
   },
   "https://eurouter.ai/models": {
-    "hash": "db38cfc54f2f0a12",
+    "hash": "fb3f3b167d78a495",
     "gesehen": "2026-10-09",
-    "geaendert": "2026-10-08",
-    "neu_hash": "fb3f3b167d78a495",
-    "veraendert_seit": "2026-10-09"
+    "geaendert": "2026-10-09"
   },
   "https://eurouter.ai/privacy": {
     "hash": "509c24691db32ccd",
@@ -388,7 +378,7 @@
     "hash": "763555eb64fffa70",
     "gesehen": "2026-10-09",
     "geaendert": "2026-10-08",
-    "neu_hash": "1dc30bce04764f2b",
+    "neu_hash": "85eeda39c8e5891f",
     "veraendert_seit": "2026-10-09"
   },
   "https://huggingface.co/Aleph-Alpha/Pharia-1-Embedding-4608-control": {
@@ -430,11 +420,9 @@
     "geaendert": "2026-10-08"
   },
   "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/": {
-    "hash": "530a7eeec5247792",
+    "hash": "dc5637ad76facdcf",
     "gesehen": "2026-10-09",
-    "geaendert": "2026-10-08",
-    "neu_hash": "dc5637ad76facdcf",
-    "veraendert_seit": "2026-10-09"
+    "geaendert": "2026-10-09"
   },
   "https://lyceum.technology/models/": {
     "hash": "e876bb509bec415f",
@@ -515,11 +503,9 @@
     "geaendert": "2026-10-09"
   },
   "https://openrouter.ai/provider/nebius": {
-    "hash": "cd4cc3497127c1ee",
+    "hash": "c308d811b48c3fcf",
     "gesehen": "2026-10-09",
-    "geaendert": "2026-10-08",
-    "neu_hash": "c308d811b48c3fcf",
-    "veraendert_seit": "2026-10-09"
+    "geaendert": "2026-10-09"
   },
   "https://opper.ai": {
     "nur_erreichbar": true,
@@ -867,11 +853,9 @@
     "geaendert": "2026-08-28"
   },
   "https://www.hetzner.com/de/legal/privacy-policy/": {
-    "hash": "1d2ba3941ff95d11",
+    "hash": "f2b3c57a56ed084a",
     "gesehen": "2026-10-09",
-    "geaendert": "2026-10-08",
-    "neu_hash": "f2b3c57a56ed084a",
-    "veraendert_seit": "2026-10-09"
+    "geaendert": "2026-10-09"
   },
   "https://www.hetzner.com/unternehmen/zertifizierung/": {
     "hash": "f656a40a47bcee6d",
@@ -1070,11 +1054,9 @@
     "geaendert": "2026-10-09"
   },
   "https://www.t-cloud-public.com/en/products-services/core-services/certifications": {
-    "hash": "b891143ab60ba210",
+    "hash": "64c64479e8addc03",
     "gesehen": "2026-10-09",
-    "geaendert": "2026-10-03",
-    "neu_hash": "64c64479e8addc03",
-    "veraendert_seit": "2026-10-09"
+    "geaendert": "2026-10-09"
   },
   "https://www.t-systems.com": {
     "nur_erreichbar": true,

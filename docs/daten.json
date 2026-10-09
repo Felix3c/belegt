@@ -105,14 +105,14 @@
           "wert": null,
           "status": "unbelegt",
           "quelle": "https://aleph-alpha.com/datenschutz/",
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "anmerkung": "Kein öffentliches AVV/DPA-Dokument. Die Datenschutzerklärung regelt nur Website, Kontakt, Newsletter und Bewerbungen; die in der Produktdoku verlinkten 'Terms and Conditions' leiten am 04.10.2026 auf die Startseite um. Verträge im Enterprise-Vertrieb individuell."
         },
         "subprozessoren": {
           "wert": null,
           "status": "unbelegt",
           "quelle": "https://aleph-alpha.com/datenschutz/",
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "anmerkung": "Keine Subprozessorenliste für die Produkte; die Datenschutzerklärung nennt Auftragsverarbeiter nur für den Website-Betrieb (u. a. Fastly), auch die Produktdoku docs.aleph-alpha.com nennt keine (04.10.2026)."
         },
         "training_opt_out": {
@@ -932,45 +932,45 @@
           "preis_input_1m_eur": 0.3,
           "preis_output_1m_eur": 0.5,
           "quelle": "https://eurouter.ai/models",
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "status": "belegt",
           "anmerkung": "Preis in USD. Standort laut eurouter.ai/providers (05.10.2026): „All models in EUrouter use EU inference profiles or EU regional deployments to ensure data stays within the EU.“ Eine Region „EU-West“ wird nicht genannt.",
           "backup_standort": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Kein Ort für Sicherungen genannt (Abruf 08.10.2026). DPA Annex 1 'Backups': 'Backups are used for relevant account, billing, configuration and operational systems. Transient API payload content is not expected to be available in backups.' Kerninfrastruktur laut Subprozessorliste: 'Compute and storage in Scaleway nl-ams (Amsterdam)'. Sicherungen beim jeweiligen Modellanbieter regelt EUrouter nicht."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Keine Moderation oder Inhaltsfilter von EUrouter beschrieben (DPA, AGB, Doku Routing/Providers, Abruf 08.10.2026). Einzige Nachverarbeitung ist das Plugin 'Response Healing', das 'syntactically invalid JSON' repariert — nur bei Strukturausgaben, standardmäßig aus ('If neither is set, Response Healing stays off', eurouter.ai/docs/concepts/plugins). Filter der nachgeschalteten Modellanbieter sind nicht dokumentiert."
           }
         },
         {
           "name": "Kimi K2.6",
           "standort": "EU (konkreter Ort je Modell nicht genannt)",
-          "preis_input_1m_eur": 0.66,
+          "preis_input_1m_eur": 0.73,
           "preis_output_1m_eur": 3.5,
           "quelle": "https://eurouter.ai/models",
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "status": "belegt",
-          "anmerkung": "Preis in USD. Standort laut eurouter.ai/providers (05.10.2026): „All models in EUrouter use EU inference profiles or EU regional deployments to ensure data stays within the EU.“ Eine Region „EU-West“ wird nicht genannt.",
+          "anmerkung": "Preis in USD; Modellseite eurouter.ai/models/kimi-k2.6 am 09.10.2026: Input $0.73, Output $3.50 (bis 08.10. Input $0.66, am 03.10. davor $0.80; Archivkopie web.archive.org/web/20261009094926/https://www.eurouter.ai/models/kimi-k2.6). Standort laut eurouter.ai/providers (05.10.2026): „All models in EUrouter use EU inference profiles or EU regional deployments to ensure data stays within the EU.“ Eine Region „EU-West“ wird nicht genannt.",
           "backup_standort": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Kein Ort für Sicherungen genannt (Abruf 08.10.2026). DPA Annex 1 'Backups': 'Backups are used for relevant account, billing, configuration and operational systems. Transient API payload content is not expected to be available in backups.' Kerninfrastruktur laut Subprozessorliste: 'Compute and storage in Scaleway nl-ams (Amsterdam)'. Sicherungen beim jeweiligen Modellanbieter regelt EUrouter nicht."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Keine Moderation oder Inhaltsfilter von EUrouter beschrieben (DPA, AGB, Doku Routing/Providers, Abruf 08.10.2026). Einzige Nachverarbeitung ist das Plugin 'Response Healing', das 'syntactically invalid JSON' repariert — nur bei Strukturausgaben, standardmäßig aus ('If neither is set, Response Healing stays off', eurouter.ai/docs/concepts/plugins). Filter der nachgeschalteten Modellanbieter sind nicht dokumentiert."
           }
         },
@@ -978,23 +978,23 @@
           "name": "Gemma 4",
           "standort": "EU (konkreter Ort je Modell nicht genannt)",
           "preis_input_1m_eur": 0.1,
-          "preis_output_1m_eur": 0.35,
+          "preis_output_1m_eur": 0.5,
           "quelle": "https://eurouter.ai/models",
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "status": "belegt",
-          "anmerkung": "Preis in USD. Standort laut eurouter.ai/providers (05.10.2026): „All models in EUrouter use EU inference profiles or EU regional deployments to ensure data stays within the EU.“ Eine Region „EU-West“ wird nicht genannt.",
+          "anmerkung": "Preis in USD; Modellseite eurouter.ai/models/gemma-4 am 09.10.2026: Input $0.10, Output $0.50 (bis 08.10. Output $0.35; Archivkopie web.archive.org/web/20261009094947/https://www.eurouter.ai/models/gemma-4). Standort laut eurouter.ai/providers (05.10.2026): „All models in EUrouter use EU inference profiles or EU regional deployments to ensure data stays within the EU.“ Eine Region „EU-West“ wird nicht genannt.",
           "backup_standort": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Kein Ort für Sicherungen genannt (Abruf 08.10.2026). DPA Annex 1 'Backups': 'Backups are used for relevant account, billing, configuration and operational systems. Transient API payload content is not expected to be available in backups.' Kerninfrastruktur laut Subprozessorliste: 'Compute and storage in Scaleway nl-ams (Amsterdam)'. Sicherungen beim jeweiligen Modellanbieter regelt EUrouter nicht."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Keine Moderation oder Inhaltsfilter von EUrouter beschrieben (DPA, AGB, Doku Routing/Providers, Abruf 08.10.2026). Einzige Nachverarbeitung ist das Plugin 'Response Healing', das 'syntactically invalid JSON' repariert — nur bei Strukturausgaben, standardmäßig aus ('If neither is set, Response Healing stays off', eurouter.ai/docs/concepts/plugins). Filter der nachgeschalteten Modellanbieter sind nicht dokumentiert."
           }
         },
@@ -1004,21 +1004,21 @@
           "preis_input_1m_eur": null,
           "preis_output_1m_eur": null,
           "quelle": "https://eurouter.ai/models",
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "status": "belegt",
           "anmerkung": "Modell gelistet; Preise (USD/1M, Input/Output, nach 'Show all' sichtbar) je Variante: Claude Opus 5 5.50/27.50, Opus 5.5 4.40/22.00, Sonnet 5 2.20/11.00, Sonnet 4.6 3.30/16.50, Haiku 4.5 1.10/5.50 — als Sammeleintrag mit mehreren Preisen daher ohne einzelnes preis_*_eur-Feld geführt. Standort laut eurouter.ai/providers (05.10.2026): „All models in EUrouter use EU inference profiles or EU regional deployments to ensure data stays within the EU.“ Eine Region „EU-West“ wird nicht genannt.",
           "backup_standort": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Kein Ort für Sicherungen genannt (Abruf 08.10.2026). DPA Annex 1 'Backups': 'Backups are used for relevant account, billing, configuration and operational systems. Transient API payload content is not expected to be available in backups.' Kerninfrastruktur laut Subprozessorliste: 'Compute and storage in Scaleway nl-ams (Amsterdam)'. Sicherungen beim jeweiligen Modellanbieter regelt EUrouter nicht."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Keine Moderation oder Inhaltsfilter von EUrouter beschrieben (DPA, AGB, Doku Routing/Providers, Abruf 08.10.2026). Einzige Nachverarbeitung ist das Plugin 'Response Healing', das 'syntactically invalid JSON' repariert — nur bei Strukturausgaben, standardmäßig aus ('If neither is set, Response Healing stays off', eurouter.ai/docs/concepts/plugins). Filter der nachgeschalteten Modellanbieter sind nicht dokumentiert."
           }
         },
@@ -1028,21 +1028,21 @@
           "preis_input_1m_eur": 0.55,
           "preis_output_1m_eur": 1.65,
           "quelle": "https://eurouter.ai/models",
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "status": "belegt",
           "anmerkung": "Preis in USD (256K Kontext). Standort laut eurouter.ai/providers (05.10.2026): „All models in EUrouter use EU inference profiles or EU regional deployments to ensure data stays within the EU.“ Eine Region „EU-West“ wird nicht genannt.",
           "backup_standort": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Kein Ort für Sicherungen genannt (Abruf 08.10.2026). DPA Annex 1 'Backups': 'Backups are used for relevant account, billing, configuration and operational systems. Transient API payload content is not expected to be available in backups.' Kerninfrastruktur laut Subprozessorliste: 'Compute and storage in Scaleway nl-ams (Amsterdam)'. Sicherungen beim jeweiligen Modellanbieter regelt EUrouter nicht."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Keine Moderation oder Inhaltsfilter von EUrouter beschrieben (DPA, AGB, Doku Routing/Providers, Abruf 08.10.2026). Einzige Nachverarbeitung ist das Plugin 'Response Healing', das 'syntactically invalid JSON' repariert — nur bei Strukturausgaben, standardmäßig aus ('If neither is set, Response Healing stays off', eurouter.ai/docs/concepts/plugins). Filter der nachgeschalteten Modellanbieter sind nicht dokumentiert."
           }
         }
@@ -1110,27 +1110,27 @@
           "typ": "ISO 27001",
           "status": "unbelegt",
           "quelle": null,
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "anmerkung": "Am 05.10.2026 gesucht auf Startseite, About, Pricing, FAQ, Providers, Docs-Einstieg, AGB, Datenschutzerklärung und DPA: kein Zertifikat genannt. Das DPA (§11) sagt nur, der Processor dürfe anstelle eines Audits 'recent, relevant independent certifications or audit reports' vorlegen, ohne eines zu nennen. Eine Trust-, Security- oder Compliance-Seite gibt es nicht (/security, /trust, /compliance liefern 404).",
           "anwendungsbereich": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Kein Zertifikat vorhanden (siehe Eintrag), daher kein Umfang."
           },
           "zertifizierer": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Kein Zertifikat vorhanden, daher kein Zertifizierer."
           },
           "akkreditiert_dakks": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Kein Zertifikat vorhanden, daher keine Zertifizierungsstelle zu prüfen."
           },
           "normiert": [
@@ -1141,27 +1141,27 @@
           "typ": "SOC 2",
           "status": "unbelegt",
           "quelle": null,
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "anmerkung": "Am 05.10.2026 auf denselben Seiten wie ISO 27001 gesucht: nicht erwähnt.",
           "anwendungsbereich": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Kein Zertifikat vorhanden (siehe Eintrag), daher kein Umfang."
           },
           "zertifizierer": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Kein Zertifikat vorhanden, daher kein Zertifizierer."
           },
           "akkreditiert_dakks": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "SOC 2 ist ein Testat eines Wirtschaftsprüfers, keine akkreditierte Zertifizierung; zudem kein Bericht vorhanden."
           },
           "normiert": [
@@ -1183,11 +1183,11 @@
           "pflicht": "Transparenz-/Compliance-Angaben zum EU AI Act",
           "status": "unbelegt",
           "quelle": null,
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "anmerkung": "Keine Angabe zur eigenen Rolle oder zu eigenen Pflichten nach dem AI Act. Fundstellen am 05.10.2026: Die Startseite nennt den AI Act als Kaufgrund ('The EU AI Act introduces strict requirements for AI systems operating in Europe. Organizations must ensure transparency, accountability, and data governance for any AI they deploy.'), ohne zu sagen, was EUrouter dazu beiträgt; die AGB (Juni 2026, Ziffer 9) verpflichten den Kunden, den Dienst nicht unter Verstoß gegen den AI Act zu nutzen. Der Slogan 'comply effortlessly' im Seitenfuß nennt kein Gesetz. Archivkopien web.archive.org/web/20261005043115 (Startseite), 20261005043013 (AGB)"
         }
       ],
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "url": "https://belegbar.eu/anbieter/eurouter/",
       "beleg_quote_prozent": 75,
       "zuletzt_geprueft": "2026-10-09",
@@ -2339,14 +2339,14 @@
             "wert": "Keine Backups (laut Doku)",
             "status": "belegt",
             "quelle": "https://docs.hetzner.com/general/company-and-policy/experiments/inference/",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Doku 'Inference API' (Last change 2026-07-24): 'No backups are created, so you are responsible for backing up your own configurations and should not use the platform for production environments.' Prompts und Outputs werden laut Datenschutzerklärung 4.5.2 ohnehin nicht gespeichert. Gilt für beide Modelle."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Doku 'Inference API' (Last change 2026-07-24) und Datenschutzerklärung 4.5.2 (Stand 14. September 2026) nennen weder eigene Filter, Moderation oder Guardrails noch schließen sie solche aus. Gilt für beide Modelle."
           }
         },
@@ -2363,14 +2363,14 @@
             "wert": "Keine Backups (laut Doku)",
             "status": "belegt",
             "quelle": "https://docs.hetzner.com/general/company-and-policy/experiments/inference/",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Doku 'Inference API' (Last change 2026-07-24): 'No backups are created, so you are responsible for backing up your own configurations and should not use the platform for production environments.' Prompts und Outputs werden laut Datenschutzerklärung 4.5.2 ohnehin nicht gespeichert. Gilt für beide Modelle."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Doku 'Inference API' (Last change 2026-07-24) und Datenschutzerklärung 4.5.2 (Stand 14. September 2026) nennen weder eigene Filter, Moderation oder Guardrails noch schließen sie solche aus. Gilt für beide Modelle."
           }
         }
@@ -2394,21 +2394,21 @@
           "wert": true,
           "status": "belegt",
           "quelle": "https://www.hetzner.com/de/legal/privacy-policy/",
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "anmerkung": "Datenschutzerklärung Abschnitt 4.5.2 Inference: Prompts und Outputs werden 'auch nicht anderweitig zum Training oder zur Verbesserung der KI-Modelle verwendet' — standardmäßig ausgeschlossen. Die Inference-Doku selbst sagt dazu nichts."
         },
         "zero_data_retention": {
           "wert": true,
           "status": "belegt",
           "quelle": "https://www.hetzner.com/de/legal/privacy-policy/",
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "anmerkung": "Datenschutzerklärung Abschnitt 4.5.2 Inference: 'Prompts und Outputs : Werden im Rahmen unserer Zero-Retention-Policy nicht gespeichert.' Logfiles (anonymisierte IP, Zeitpunkt, Metadaten, Einstellungen, ohne Inhalte) 6 Monate, Abrechnungsdaten (u. a. Token-Zahlen, ohne Inhalte) 8 Jahre (Stand der Erklärung: 14. September 2026). Die Inference-Doku sagt dasselbe: 'We do not store the content of request and response' (FAQ; dort auch: gespeichert werden nur Nutzungsdaten wie Zeitstempel und Token-Zahlen, für eine spätere Abrechnung). Bis 08.10. stand hier, die Doku sage dazu nichts."
         },
         "zweckbindung": {
           "wert": true,
           "status": "belegt",
           "quelle": "https://www.hetzner.com/de/legal/privacy-policy/",
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "anmerkung": "Datenschutzerklärung 4.5.2 Inference (Stand 14. September 2026): 'Wir verarbeiten die Inhalte Ihrer Anfragen und die Abrechnungsdaten, um Ihnen den Inference-Dienst bereitzustellen und die Abrechnung durchzuführen.' und zu Prompts und Outputs: 'Sie werden auch nicht anderweitig zum Training oder zur Verbesserung der KI-Modelle verwendet.' Logfiles (ohne Inhalte) dienen zusätzlich dem 'sicheren und zuverlässigen Betrieb des Dienstes'. Doku-FAQ: 'Our intention is solely to use our data centers and hardware to provide customers with affordable access to open-weight models.' Die Zusage steht in der Datenschutzerklärung, nicht im AVV."
         },
         "betroffenenrechte_traeger": {
@@ -2422,14 +2422,14 @@
           "wert": "Logfiles 6 Monate (ohne Inhalte), Abrechnungsdaten 8 Jahre; Prompts und Outputs werden nicht gespeichert",
           "status": "belegt",
           "quelle": "https://www.hetzner.com/de/legal/privacy-policy/",
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "anmerkung": "Datenschutzerklärung 4.5.2 (Stand 14. September 2026): 'Prompts und Outputs : Werden im Rahmen unserer Zero-Retention-Policy nicht gespeichert.' 'Logfiles : 6 Monate' 'Abrechnungsdaten : 8 Jahre (gemäß steuer- und handelsrechtlicher Aufbewahrungspflichten)'. Logfile-Inhalt: anonymisierte IP, Datum/Uhrzeit, Metadaten der API-Anfrage, Einstellungen; 'Die Inhalte Ihrer Anfragen und Antworten sind nicht Bestandteil des Logfiles.'"
         },
         "log_zweck": {
           "wert": "Logfiles: sicherer und zuverlässiger Betrieb; Abrechnungsdaten: Abrechnung und gesetzliche Aufbewahrung",
           "status": "belegt",
           "quelle": "https://www.hetzner.com/de/legal/privacy-policy/",
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "anmerkung": "Datenschutzerklärung 4.5.2: 'Die Logfiles verarbeiten wir, um einen sicheren und zuverlässigen Betrieb des Dienstes sicherzustellen. (Art. 6 Abs. 1 lit. f DSGVO)'; Abrechnungsdaten 'um Ihnen den Inference-Dienst bereitzustellen und die Abrechnung durchzuführen'."
         }
       },
@@ -2514,7 +2514,7 @@
           "anmerkung": "Hetzner serviert ein Fremdmodell (Qwen, Apache 2.0); Art.-53-Pflichten liegen beim Modellhersteller. Keine AI-Act-Dokumentation gefunden."
         }
       ],
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "url": "https://belegbar.eu/anbieter/hetzner/",
       "beleg_quote_prozent": 89,
       "zuletzt_geprueft": "2026-10-09",
@@ -3013,14 +3013,14 @@
             "wert": "Keine Sicherungen von Prompts und Ausgaben (werden nicht persistent gespeichert); Verarbeitung nur in IONOS-Rechenzentren in Deutschland",
             "status": "belegt",
             "quelle": "https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Doku (abgerufen 08.10.2026) wörtlich: 'Neither the prompt nor the generated output is written to persistent storage.' und 'All inference is performed in IONOS CLOUD data centers in Germany, and your prompts and the generated outputs are processed there and nowhere else.' Wo die gespeicherten Metadaten (Zeitstempel, Modell, Tokenzahl) und deren Sicherungen liegen, steht dort nicht; nur 'Access to this operational data is restricted to IONOS CLOUD personnel located within the European Union'. Gilt für alle Modelle des AI Model Hub."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Data-Handling- und EU-AI-Act-Doku des AI Model Hub (abgerufen 08.10.2026) erwähnen weder Moderation noch Filter oder Guardrails vor oder hinter dem Modell; ausdrücklich verneint wird es aber auch nicht. Die AI-Act-Seite kündigt eine maschinenlesbare Kennzeichnung nach Art. 50(2) an ('We are implementing the machine-readable marking and detection measures …'), noch nicht umgesetzt."
           }
         },
@@ -3030,21 +3030,21 @@
           "preis_input_1m_eur": null,
           "preis_output_1m_eur": null,
           "quelle": null,
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "status": "unbelegt",
           "anmerkung": "Aussage stand bis 2026-08-19 auf https://cloud.ionos.de/managed/ai-model-hub (0,15 € / 0,15 € je 1M), am 03.10.2026 nicht mehr — Modell nicht mehr in der Preisliste. Aktuell stattdessen u.a. Qwen3.5-9B (0,10/0,15 €) und Qwen3.8-27B (0,40/2,70 €)",
           "backup_standort": {
             "wert": "Keine Sicherungen von Prompts und Ausgaben (werden nicht persistent gespeichert); Verarbeitung nur in IONOS-Rechenzentren in Deutschland",
             "status": "belegt",
             "quelle": "https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Doku (abgerufen 08.10.2026) wörtlich: 'Neither the prompt nor the generated output is written to persistent storage.' und 'All inference is performed in IONOS CLOUD data centers in Germany, and your prompts and the generated outputs are processed there and nowhere else.' Wo die gespeicherten Metadaten (Zeitstempel, Modell, Tokenzahl) und deren Sicherungen liegen, steht dort nicht; nur 'Access to this operational data is restricted to IONOS CLOUD personnel located within the European Union'. Gilt für alle Modelle des AI Model Hub."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Data-Handling- und EU-AI-Act-Doku des AI Model Hub (abgerufen 08.10.2026) erwähnen weder Moderation noch Filter oder Guardrails vor oder hinter dem Modell; ausdrücklich verneint wird es aber auch nicht. Die AI-Act-Seite kündigt eine maschinenlesbare Kennzeichnung nach Art. 50(2) an ('We are implementing the machine-readable marking and detection measures …'), noch nicht umgesetzt."
           }
         },
@@ -3060,14 +3060,14 @@
             "wert": "Keine Sicherungen von Prompts und Ausgaben (werden nicht persistent gespeichert); Verarbeitung nur in IONOS-Rechenzentren in Deutschland",
             "status": "belegt",
             "quelle": "https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Doku (abgerufen 08.10.2026) wörtlich: 'Neither the prompt nor the generated output is written to persistent storage.' und 'All inference is performed in IONOS CLOUD data centers in Germany, and your prompts and the generated outputs are processed there and nowhere else.' Wo die gespeicherten Metadaten (Zeitstempel, Modell, Tokenzahl) und deren Sicherungen liegen, steht dort nicht; nur 'Access to this operational data is restricted to IONOS CLOUD personnel located within the European Union'. Gilt für alle Modelle des AI Model Hub."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Data-Handling- und EU-AI-Act-Doku des AI Model Hub (abgerufen 08.10.2026) erwähnen weder Moderation noch Filter oder Guardrails vor oder hinter dem Modell; ausdrücklich verneint wird es aber auch nicht. Die AI-Act-Seite kündigt eine maschinenlesbare Kennzeichnung nach Art. 50(2) an ('We are implementing the machine-readable marking and detection measures …'), noch nicht umgesetzt."
           }
         },
@@ -3083,14 +3083,14 @@
             "wert": "Keine Sicherungen von Prompts und Ausgaben (werden nicht persistent gespeichert); Verarbeitung nur in IONOS-Rechenzentren in Deutschland",
             "status": "belegt",
             "quelle": "https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Doku (abgerufen 08.10.2026) wörtlich: 'Neither the prompt nor the generated output is written to persistent storage.' und 'All inference is performed in IONOS CLOUD data centers in Germany, and your prompts and the generated outputs are processed there and nowhere else.' Wo die gespeicherten Metadaten (Zeitstempel, Modell, Tokenzahl) und deren Sicherungen liegen, steht dort nicht; nur 'Access to this operational data is restricted to IONOS CLOUD personnel located within the European Union'. Gilt für alle Modelle des AI Model Hub."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Data-Handling- und EU-AI-Act-Doku des AI Model Hub (abgerufen 08.10.2026) erwähnen weder Moderation noch Filter oder Guardrails vor oder hinter dem Modell; ausdrücklich verneint wird es aber auch nicht. Die AI-Act-Seite kündigt eine maschinenlesbare Kennzeichnung nach Art. 50(2) an ('We are implementing the machine-readable marking and detection measures …'), noch nicht umgesetzt."
           }
         },
@@ -3106,14 +3106,14 @@
             "wert": "Keine Sicherungen von Prompts und Ausgaben (werden nicht persistent gespeichert); Verarbeitung nur in IONOS-Rechenzentren in Deutschland",
             "status": "belegt",
             "quelle": "https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Doku (abgerufen 08.10.2026) wörtlich: 'Neither the prompt nor the generated output is written to persistent storage.' und 'All inference is performed in IONOS CLOUD data centers in Germany, and your prompts and the generated outputs are processed there and nowhere else.' Wo die gespeicherten Metadaten (Zeitstempel, Modell, Tokenzahl) und deren Sicherungen liegen, steht dort nicht; nur 'Access to this operational data is restricted to IONOS CLOUD personnel located within the European Union'. Gilt für alle Modelle des AI Model Hub."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Data-Handling- und EU-AI-Act-Doku des AI Model Hub (abgerufen 08.10.2026) erwähnen weder Moderation noch Filter oder Guardrails vor oder hinter dem Modell; ausdrücklich verneint wird es aber auch nicht. Die AI-Act-Seite kündigt eine maschinenlesbare Kennzeichnung nach Art. 50(2) an ('We are implementing the machine-readable marking and detection measures …'), noch nicht umgesetzt."
           }
         },
@@ -3129,14 +3129,14 @@
             "wert": "Keine Sicherungen von Prompts und Ausgaben (werden nicht persistent gespeichert); Verarbeitung nur in IONOS-Rechenzentren in Deutschland",
             "status": "belegt",
             "quelle": "https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Doku (abgerufen 08.10.2026) wörtlich: 'Neither the prompt nor the generated output is written to persistent storage.' und 'All inference is performed in IONOS CLOUD data centers in Germany, and your prompts and the generated outputs are processed there and nowhere else.' Wo die gespeicherten Metadaten (Zeitstempel, Modell, Tokenzahl) und deren Sicherungen liegen, steht dort nicht; nur 'Access to this operational data is restricted to IONOS CLOUD personnel located within the European Union'. Gilt für alle Modelle des AI Model Hub."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Data-Handling- und EU-AI-Act-Doku des AI Model Hub (abgerufen 08.10.2026) erwähnen weder Moderation noch Filter oder Guardrails vor oder hinter dem Modell; ausdrücklich verneint wird es aber auch nicht. Die AI-Act-Seite kündigt eine maschinenlesbare Kennzeichnung nach Art. 50(2) an ('We are implementing the machine-readable marking and detection measures …'), noch nicht umgesetzt."
           }
         }
@@ -3160,21 +3160,21 @@
           "wert": true,
           "status": "belegt",
           "quelle": "https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling",
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "anmerkung": "Doku wörtlich (Stand 03.10.2026): 'it is not used to train, fine-tune or otherwise improve any model; and it is not disclosed to any third party.' Kein Opt-out nötig. Die frühere Formulierung 'Your interactions remain private, free from logging, recording, or reuse for model training' steht auf der Seite nicht mehr. Ergänzend: 'No third-party sub-processors are engaged for AI Model Hub'"
         },
         "zero_data_retention": {
           "wert": true,
           "status": "belegt",
           "quelle": "https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling",
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "anmerkung": "Doku wörtlich (Stand 03.10.2026): 'never logged … not written to any log or to persistent storage'; 'The inference API is stateless per request'; weder Prompt noch Ausgabe werden persistent gespeichert. Neu dokumentiert: Metadaten (Zeitstempel, Modell, Tokenzahl) werden gespeichert. Die frühere Formulierung 'discarding user prompts and outputs at the end of each session' steht nicht mehr wörtlich da. Die Angabe zu Document Collections (RAG-Vektor-DB, persistent in Berlin) steht auf dieser Seite nicht (nicht erneut geprüft)"
         },
         "zweckbindung": {
           "wert": true,
           "status": "belegt",
           "quelle": "https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling",
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "anmerkung": "Doku: Inhalte werden 'not written to any log or to persistent storage', 'not used to train, fine-tune or otherwise improve any model' und 'not disclosed to any third party'. Metadaten nur: 'required for accurate billing and for the operation of the service'. AVV Ziffer 2.2 (www.ionos.de/terms-gtc/avv/): 'Zwecke der Verarbeitung sind alle zur Erbringung der vertraglich vereinbarten Leistung … erforderlichen Zwecke.' Weitere Zwecke (Missbrauchserkennung, Produktverbesserung, Analytics) nennt keines der beiden Dokumente."
         },
         "betroffenenrechte_traeger": {
@@ -3188,14 +3188,14 @@
           "wert": null,
           "status": "unbelegt",
           "quelle": "https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling",
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "anmerkung": "Keine Frist genannt. Doku wörtlich: 'Operational logs and metrics are retained only for the period necessary to operate the service reliably, in accordance with IONOS CLOUD's internal retention policy.' Die interne Richtlinie ist nicht öffentlich; AVV nennt ebenfalls keine Frist. Inhalte (Prompts/Ausgaben) werden laut Doku nicht geloggt."
         },
         "log_zweck": {
           "wert": "Abrechnung und Betrieb des Dienstes (Metadaten: Zeitstempel, Modell, Tokenzahl; keine Inhalte)",
           "status": "belegt",
           "quelle": "https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling",
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "anmerkung": "Doku: 'We record metadata describing each API call: the timestamp, the model invoked and the number of tokens processed. This metadata is required for accurate billing and for the operation of the service. It contains no part of your prompt or of the generated output.'"
         }
       },
@@ -3210,21 +3210,21 @@
             "wert": "IONOS Holding SE, Standort IONOS SE Montabaur: 'Betrieb und Entwicklung von Infrastruktur, Plattformen und Applikationen für Internetprodukte und -dienstleistungen in den Rechenzentren der IONOS sowie der zugehörige Kundenservice'",
             "status": "belegt",
             "quelle": "https://var.uicdn.net/shopsshort/pdf/IONOS-SE-ISO-27001-DE.pdf",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Zertifikat (abgerufen 08.10.2026): 'Unter Berücksichtigung der Erklärung zur Anwendbarkeit vom 03.03.2025 (Version 5.0)'; die Erklärung selbst ist nicht öffentlich. Der AI Model Hub ist nicht namentlich genannt. Zweites Zertifikat ISO 27001 auf Basis IT-Grundschutz (BSI-IGZ-0730-2025, https://var.uicdn.net/shopsshort/pdf/ISO-27001-Zertifikat-auf-der-Basis-von-IT-Grundschutz.pdf): Informationsverbund 'ISMS der IONOS Gruppe und Infrastruktur für die IONOS Cloud Services in Deutschland, IONOS Cloud Compute Engine, Managed Kubernetes und S3 Object Storage inkl. Provisionierung, IONOS Backbone' — AI Model Hub dort ebenfalls nicht genannt."
           },
           "zertifizierer": {
             "wert": "TÜV NORD CERT GmbH, Essen (zweites Zertifikat auf Basis IT-Grundschutz: BSI)",
             "status": "belegt",
             "quelle": "https://var.uicdn.net/shopsshort/pdf/IONOS-SE-ISO-27001-DE.pdf",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Zertifikat-Registrier-Nr. 44 121 160247-012, gültig 19.04.2025 bis 18.04.2028, 'Zertifizierungsentscheidung gemäß ISO/IEC 27006:2015/Amd.1:2020'. Das IT-Grundschutz-Zertifikat BSI-IGZ-0730-2025 stellt die Zertifizierungsstelle des BSI (Bonn) aus, Auditteamleiter Peter Herrmann."
           },
           "akkreditiert_dakks": {
             "wert": true,
             "status": "belegt",
             "quelle": "https://dakks.de/files/data/as/pdf/D-ZM-12007-01-06.pdf",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "DAkkS-Urkundenanlage D-ZM-12007-01-06 (gültig ab 13.10.2025, ausgestellt 14.11.2025) für TÜV NORD CERT GmbH, Essen: 'DIN EN ISO/IEC 27006-01:2024-08 … Für Zertifizierungen im Bereich DIN EN ISO/IEC 27001:2024-01' (u. a. Standort Essen). Gilt für das TÜV-NORD-Zertifikat. Das IT-Grundschutz-Zertifikat stammt von der Zertifizierungsstelle des BSI selbst, nicht von einer DAkkS-akkreditierten Stelle."
           },
           "normiert": [
@@ -3241,21 +3241,21 @@
             "wert": "33 Services in 10 Service-Clustern; AI Model Hub laut Anbieter-Doku im Scope",
             "status": "beansprucht",
             "quelle": "https://cloud.ionos.de/zertifikate",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Zertifikatsseite (08.10.2026): 'Im Scope: 33 Services in 10 Service-Clustern.' Die Liste der Services ist nicht öffentlich. Data-Handling-Doku: 'AI Model Hub falls within the scope of BSI C5.' Testatsbericht nicht eingesehen."
           },
           "zertifizierer": {
             "wert": "PricewaterhouseCoopers (PwC), Prüfung nach ISAE 3000",
             "status": "beansprucht",
             "quelle": "https://cloud.ionos.de/zertifikate",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Zertifikatsseite: 'Das unabhängige Prüfungsunternehmen PricewaterhouseCoopers (PwC) bestätigt, dass 136 Controls … angemessen ausgestaltet sind.' C5:2020 Typ 1 vom 28.05.2026; Bericht nicht öffentlich."
           },
           "akkreditiert_dakks": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "C5 ist ein Testat eines Wirtschaftsprüfers nach ISAE 3000, keine akkreditierte Zertifizierung; eine DAkkS-Akkreditierung gibt es dafür nicht."
           },
           "normiert": [
@@ -3272,21 +3272,21 @@
             "wert": "IONOS Holding SE mit Standorten gemäß Anlage: 'Konzeption und Betrieb von Rechenzentrumsinfrastruktur für Internetprodukte und -dienstleistungen weltweit'",
             "status": "belegt",
             "quelle": "https://var.uicdn.net/shopsshort/pdf/44764160247-IONOS-Holding-50001-DE-2022.pdf",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Zertifikat-Registrier-Nr. 44 764 160247, gültig 23.11.2025 bis 22.11.2028. Die Standort-Anlage steht im abgerufenen PDF nicht. Energiemanagement, kein Sicherheits- oder Datenschutzzertifikat."
           },
           "zertifizierer": {
             "wert": "TÜV NORD CERT GmbH, Essen",
             "status": "belegt",
             "quelle": "https://var.uicdn.net/shopsshort/pdf/44764160247-IONOS-Holding-50001-DE-2022.pdf",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Zertifikat: 'Die Zertifizierungsstelle TÜV NORD CERT GmbH bestätigt … gemäß ISO/IEC 17021-1:2015'."
           },
           "akkreditiert_dakks": {
             "wert": true,
             "status": "belegt",
             "quelle": "https://dakks.de/files/data/as/pdf/D-ZM-12007-01-07.pdf",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "DAkkS-Urkundenanlage D-ZM-12007-01-07 (gültig ab 11.03.2025, ausgestellt 13.10.2025) für TÜV NORD CERT GmbH: 'Zertifizierungen von Managementsystemen im Bereich DIN EN ISO 50001:2018 Energiemanagementsysteme gemäß DIN ISO 50003:2022'."
           },
           "normiert": [
@@ -3308,7 +3308,7 @@
           "pflicht": "EU-AI-Act-Rollen- und Transparenzdokumentation (Distributor/Provider)",
           "status": "belegt",
           "quelle": "https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/eu-ai-act",
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "anmerkung": "Eigene Doku-Seite (Stand 03.10.2026): 'IONOS CLOUD is the provider of the system within the meaning of Article 3(3). This applies to every model in the catalogue, irrespective of whether we modify it.' Modellentwickler sind Provider des GPAI-Modells (Art. 53), Kunden Deployer; das Wort 'Distributor' kommt nicht mehr vor. Neu: Art.-50(2)-Kennzeichnung wird laut Doku noch umgesetzt ('implementing … machine-readable marking')."
         },
         {
@@ -3318,7 +3318,7 @@
           "anmerkung": "Keine Erwähnung gefunden; als Hoster/Distributor fremder Modelle kein typischer Unterzeichner."
         }
       ],
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "url": "https://belegbar.eu/anbieter/ionos/",
       "beleg_quote_prozent": 87,
       "zuletzt_geprueft": "2026-10-09",
@@ -3359,14 +3359,14 @@
             "wert": null,
             "status": "unbelegt",
             "quelle": "https://lyceum.technology/legal/terms",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Keine Aussage zu Backups. AGB Ziff. 19.1: 'any data stored by the Provider is of a transient nature' und Lyceum 'does not assume any duty to permanently retain or archive Customer data'; Ziff. 15.4 verlangt eigene Backups des Kunden. Modellseite: 'Prompts and outputs are processed, not stored'."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "AGB, Modellseite (lyceum.technology/models/) und Doku (docs.lyceum.technology/llms-full.txt) nennen weder Filter noch Moderation noch Vor-/Nachverarbeitung, sagen aber auch nicht ausdrücklich, dass nichts gefiltert wird (Abruf 08.10.2026)."
           }
         },
@@ -3383,14 +3383,14 @@
             "wert": null,
             "status": "unbelegt",
             "quelle": "https://lyceum.technology/legal/terms",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Keine Aussage zu Backups. AGB Ziff. 19.1: 'any data stored by the Provider is of a transient nature' und Lyceum 'does not assume any duty to permanently retain or archive Customer data'; Ziff. 15.4 verlangt eigene Backups des Kunden. Modellseite: 'Prompts and outputs are processed, not stored'."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "AGB, Modellseite (lyceum.technology/models/) und Doku (docs.lyceum.technology/llms-full.txt) nennen weder Filter noch Moderation noch Vor-/Nachverarbeitung, sagen aber auch nicht ausdrücklich, dass nichts gefiltert wird (Abruf 08.10.2026)."
           }
         },
@@ -3407,14 +3407,14 @@
             "wert": null,
             "status": "unbelegt",
             "quelle": "https://lyceum.technology/legal/terms",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Keine Aussage zu Backups. AGB Ziff. 19.1: 'any data stored by the Provider is of a transient nature' und Lyceum 'does not assume any duty to permanently retain or archive Customer data'; Ziff. 15.4 verlangt eigene Backups des Kunden. Modellseite: 'Prompts and outputs are processed, not stored'."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "AGB, Modellseite (lyceum.technology/models/) und Doku (docs.lyceum.technology/llms-full.txt) nennen weder Filter noch Moderation noch Vor-/Nachverarbeitung, sagen aber auch nicht ausdrücklich, dass nichts gefiltert wird (Abruf 08.10.2026)."
           }
         },
@@ -3431,14 +3431,14 @@
             "wert": null,
             "status": "unbelegt",
             "quelle": "https://lyceum.technology/legal/terms",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Keine Aussage zu Backups. AGB Ziff. 19.1: 'any data stored by the Provider is of a transient nature' und Lyceum 'does not assume any duty to permanently retain or archive Customer data'; Ziff. 15.4 verlangt eigene Backups des Kunden. Modellseite: 'Prompts and outputs are processed, not stored'."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "AGB, Modellseite (lyceum.technology/models/) und Doku (docs.lyceum.technology/llms-full.txt) nennen weder Filter noch Moderation noch Vor-/Nachverarbeitung, sagen aber auch nicht ausdrücklich, dass nichts gefiltert wird (Abruf 08.10.2026)."
           }
         },
@@ -3455,14 +3455,14 @@
             "wert": null,
             "status": "unbelegt",
             "quelle": "https://lyceum.technology/legal/terms",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Keine Aussage zu Backups. AGB Ziff. 19.1: 'any data stored by the Provider is of a transient nature' und Lyceum 'does not assume any duty to permanently retain or archive Customer data'; Ziff. 15.4 verlangt eigene Backups des Kunden. Modellseite: 'Prompts and outputs are processed, not stored'."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "AGB, Modellseite (lyceum.technology/models/) und Doku (docs.lyceum.technology/llms-full.txt) nennen weder Filter noch Moderation noch Vor-/Nachverarbeitung, sagen aber auch nicht ausdrücklich, dass nichts gefiltert wird (Abruf 08.10.2026)."
           }
         },
@@ -3479,14 +3479,14 @@
             "wert": null,
             "status": "unbelegt",
             "quelle": "https://lyceum.technology/legal/terms",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Keine Aussage zu Backups. AGB Ziff. 19.1: 'any data stored by the Provider is of a transient nature' und Lyceum 'does not assume any duty to permanently retain or archive Customer data'; Ziff. 15.4 verlangt eigene Backups des Kunden. Modellseite: 'Prompts and outputs are processed, not stored'."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "AGB, Modellseite (lyceum.technology/models/) und Doku (docs.lyceum.technology/llms-full.txt) nennen weder Filter noch Moderation noch Vor-/Nachverarbeitung, sagen aber auch nicht ausdrücklich, dass nichts gefiltert wird (Abruf 08.10.2026)."
           }
         },
@@ -3503,14 +3503,14 @@
             "wert": null,
             "status": "unbelegt",
             "quelle": "https://lyceum.technology/legal/terms",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Keine Aussage zu Backups. AGB Ziff. 19.1: 'any data stored by the Provider is of a transient nature' und Lyceum 'does not assume any duty to permanently retain or archive Customer data'; Ziff. 15.4 verlangt eigene Backups des Kunden. Modellseite: 'Prompts and outputs are processed, not stored'."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "AGB, Modellseite (lyceum.technology/models/) und Doku (docs.lyceum.technology/llms-full.txt) nennen weder Filter noch Moderation noch Vor-/Nachverarbeitung, sagen aber auch nicht ausdrücklich, dass nichts gefiltert wird (Abruf 08.10.2026)."
           }
         }
@@ -3527,7 +3527,7 @@
           "wert": null,
           "status": "beansprucht",
           "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/",
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "anmerkung": "Keine öffentliche Liste; 'DPA with named sub-processors available on request' (Abruf 08.10.2026 wörtlich; dazu 'will name the sub-processors involved in a DPA on request')"
         },
         "training_opt_out": {
@@ -3578,27 +3578,27 @@
           "typ": "BSI C5",
           "status": "unbelegt",
           "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/",
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "anmerkung": "Eigene Aussage (Abruf 08.10.2026): 'Lyceum holds no C5 attestation, and no ISO 27001 or SOC 2 certificate today, and says so plainly' — bemerkenswert ehrlich, aber nicht gehalten",
           "anwendungsbereich": {
             "wert": null,
             "status": "unbelegt",
             "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Kein C5-Nachweis vorhanden: 'Lyceum holds no C5 attestation, and no ISO 27001 or SOC 2 certificate today, and says so plainly' (Abruf 08.10.2026)."
           },
           "zertifizierer": {
             "wert": null,
             "status": "unbelegt",
             "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Kein Zertifikat/Testat, daher kein Zertifizierer oder Prüfer."
           },
           "akkreditiert_dakks": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Nicht prüfbar: kein Zertifikat und keine Zertifizierungsstelle genannt."
           },
           "normiert": [
@@ -3609,27 +3609,27 @@
           "typ": "ISO 27001",
           "status": "unbelegt",
           "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/",
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "anmerkung": "Laut eigener Aussage aktuell nicht zertifiziert; Trust Center listet eine 'ISO Certification'-Ressource (vermutlich RZ-Zertifikat) — Widerspruch vor Vertragsschluss klären",
           "anwendungsbereich": {
             "wert": null,
             "status": "unbelegt",
             "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Kein ISO-27001-Nachweis vorhanden: 'Lyceum holds no C5 attestation, and no ISO 27001 or SOC 2 certificate today, and says so plainly' (Abruf 08.10.2026)."
           },
           "zertifizierer": {
             "wert": null,
             "status": "unbelegt",
             "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Kein Zertifikat/Testat, daher kein Zertifizierer oder Prüfer."
           },
           "akkreditiert_dakks": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Nicht prüfbar: kein Zertifikat und keine Zertifizierungsstelle genannt."
           },
           "normiert": [
@@ -3640,27 +3640,27 @@
           "typ": "SOC 2",
           "status": "unbelegt",
           "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/",
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "anmerkung": "Laut eigener Aussage aktuell nicht zertifiziert",
           "anwendungsbereich": {
             "wert": null,
             "status": "unbelegt",
             "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Kein SOC-2-Nachweis vorhanden: 'Lyceum holds no C5 attestation, and no ISO 27001 or SOC 2 certificate today, and says so plainly' (Abruf 08.10.2026)."
           },
           "zertifizierer": {
             "wert": null,
             "status": "unbelegt",
             "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Kein Zertifikat/Testat, daher kein Zertifizierer oder Prüfer."
           },
           "akkreditiert_dakks": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Nicht prüfbar: kein Zertifikat und keine Zertifizierungsstelle genannt."
           },
           "normiert": [
@@ -3685,7 +3685,7 @@
           "anmerkung": "Kein Nachweis; hostet Open-Source-Fremdmodelle"
         }
       ],
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "url": "https://belegbar.eu/anbieter/lyceum/",
       "beleg_quote_prozent": 40,
       "zuletzt_geprueft": "2026-10-09",
@@ -4076,14 +4076,14 @@
             "wert": null,
             "status": "unbelegt",
             "quelle": "https://docs.nebius.com/legal/dpa",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Ort der Sicherungen nicht genannt. DPA (Fassung 15.09.2026), Anhang 3: 'For Nebius Token Factory, Nebius backs up control-plane and service-configuration metadata for platform recovery' und 'Supported deletions remove applicable data from active storage but do not individually purge existing backup copies.' Wo diese Sicherungen liegen, steht weder im DPA noch im Legal Quick Guide. Bekannt ist nur der Speicherort der für Speculative Decoding aufbewahrten Ein- und Ausgaben (ohne Zero Data Retention): 'stored in Finland (EU), regardless of where real-time processing takes place' (Legal Quick Guide, 5.1), sowie für Observability-Metriken 'eventually stored at eu-north region' (docs.tokenfactory.nebius.com/ai-models-inference/observability)."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": "https://docs.nebius.com/legal/token-factory",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Keine Angabe zu vorgeschalteten Filtern, Moderation oder Guardrails gefunden (Supplemental Terms, DPA, Legal Quick Guide, Inhaltsverzeichnis docs.tokenfactory.nebius.com/llms.txt am 08.10.2026). Die Token Factory Supplemental Terms (Fassung 15.09.2026), Ziffer 5.3, behalten sich aber vor: 'Nebius reserves the right, and has absolute discretion, to remove, screen, or delete any Inputs or Outputs at any time, for any reason, and without notice.' Speculative Decoding (Entwurfsmodell schlägt Tokens vor, Hauptmodell prüft) ist eine Beschleunigung, kein Filter. Ein ausdrückliches 'wir filtern nicht' gibt es nicht."
           }
         },
@@ -4100,14 +4100,14 @@
             "wert": null,
             "status": "unbelegt",
             "quelle": "https://docs.nebius.com/legal/dpa",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Ort der Sicherungen nicht genannt. DPA (Fassung 15.09.2026), Anhang 3: 'For Nebius Token Factory, Nebius backs up control-plane and service-configuration metadata for platform recovery' und 'Supported deletions remove applicable data from active storage but do not individually purge existing backup copies.' Wo diese Sicherungen liegen, steht weder im DPA noch im Legal Quick Guide. Bekannt ist nur der Speicherort der für Speculative Decoding aufbewahrten Ein- und Ausgaben (ohne Zero Data Retention): 'stored in Finland (EU), regardless of where real-time processing takes place' (Legal Quick Guide, 5.1), sowie für Observability-Metriken 'eventually stored at eu-north region' (docs.tokenfactory.nebius.com/ai-models-inference/observability)."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": "https://docs.nebius.com/legal/token-factory",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Keine Angabe zu vorgeschalteten Filtern, Moderation oder Guardrails gefunden (Supplemental Terms, DPA, Legal Quick Guide, Inhaltsverzeichnis docs.tokenfactory.nebius.com/llms.txt am 08.10.2026). Die Token Factory Supplemental Terms (Fassung 15.09.2026), Ziffer 5.3, behalten sich aber vor: 'Nebius reserves the right, and has absolute discretion, to remove, screen, or delete any Inputs or Outputs at any time, for any reason, and without notice.' Speculative Decoding (Entwurfsmodell schlägt Tokens vor, Hauptmodell prüft) ist eine Beschleunigung, kein Filter. Ein ausdrückliches 'wir filtern nicht' gibt es nicht."
           }
         },
@@ -4124,14 +4124,14 @@
             "wert": null,
             "status": "unbelegt",
             "quelle": "https://docs.nebius.com/legal/dpa",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Ort der Sicherungen nicht genannt. DPA (Fassung 15.09.2026), Anhang 3: 'For Nebius Token Factory, Nebius backs up control-plane and service-configuration metadata for platform recovery' und 'Supported deletions remove applicable data from active storage but do not individually purge existing backup copies.' Wo diese Sicherungen liegen, steht weder im DPA noch im Legal Quick Guide. Bekannt ist nur der Speicherort der für Speculative Decoding aufbewahrten Ein- und Ausgaben (ohne Zero Data Retention): 'stored in Finland (EU), regardless of where real-time processing takes place' (Legal Quick Guide, 5.1), sowie für Observability-Metriken 'eventually stored at eu-north region' (docs.tokenfactory.nebius.com/ai-models-inference/observability)."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": "https://docs.nebius.com/legal/token-factory",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Keine Angabe zu vorgeschalteten Filtern, Moderation oder Guardrails gefunden (Supplemental Terms, DPA, Legal Quick Guide, Inhaltsverzeichnis docs.tokenfactory.nebius.com/llms.txt am 08.10.2026). Die Token Factory Supplemental Terms (Fassung 15.09.2026), Ziffer 5.3, behalten sich aber vor: 'Nebius reserves the right, and has absolute discretion, to remove, screen, or delete any Inputs or Outputs at any time, for any reason, and without notice.' Speculative Decoding (Entwurfsmodell schlägt Tokens vor, Hauptmodell prüft) ist eine Beschleunigung, kein Filter. Ein ausdrückliches 'wir filtern nicht' gibt es nicht."
           }
         },
@@ -4148,14 +4148,14 @@
             "wert": null,
             "status": "unbelegt",
             "quelle": "https://docs.nebius.com/legal/dpa",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Ort der Sicherungen nicht genannt. DPA (Fassung 15.09.2026), Anhang 3: 'For Nebius Token Factory, Nebius backs up control-plane and service-configuration metadata for platform recovery' und 'Supported deletions remove applicable data from active storage but do not individually purge existing backup copies.' Wo diese Sicherungen liegen, steht weder im DPA noch im Legal Quick Guide. Bekannt ist nur der Speicherort der für Speculative Decoding aufbewahrten Ein- und Ausgaben (ohne Zero Data Retention): 'stored in Finland (EU), regardless of where real-time processing takes place' (Legal Quick Guide, 5.1), sowie für Observability-Metriken 'eventually stored at eu-north region' (docs.tokenfactory.nebius.com/ai-models-inference/observability)."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": "https://docs.nebius.com/legal/token-factory",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Keine Angabe zu vorgeschalteten Filtern, Moderation oder Guardrails gefunden (Supplemental Terms, DPA, Legal Quick Guide, Inhaltsverzeichnis docs.tokenfactory.nebius.com/llms.txt am 08.10.2026). Die Token Factory Supplemental Terms (Fassung 15.09.2026), Ziffer 5.3, behalten sich aber vor: 'Nebius reserves the right, and has absolute discretion, to remove, screen, or delete any Inputs or Outputs at any time, for any reason, and without notice.' Speculative Decoding (Entwurfsmodell schlägt Tokens vor, Hauptmodell prüft) ist eine Beschleunigung, kein Filter. Ein ausdrückliches 'wir filtern nicht' gibt es nicht."
           }
         }
@@ -4229,14 +4229,14 @@
             "wert": "Nebius B.V. (Schiphol, Niederlande), weitere Standorte: Tel Aviv (Yitzhak Sadeh 8) und Rechenzentrum Mäntsälä (Finnland); Geltungsbereich laut Zertifikat 'Nebius is a global AI cloud company delivering infrastructure and services to accelerate the full AI pipeline from foundational model builders to enterprise solutions'",
             "status": "belegt",
             "quelle": "https://assets.nebius.com/assets/75a09e82-d39b-4bd4-a064-babf034b8a6b/ISO27001%20CERTIFICATION.pdf",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Zertifikat ISO/IEC 27001:2022, Nr. 1129086, gültig 11.08.2025 bis 11.08.2028, revidiert 01.09.2026, 'According to Statement of Applicability: 01.08.2025'. Die Dienste nennt nur das Trust Center: 'The scope of ISO 27001 includes the controls supporting Nebius AI Cloud, AI Studio (now Nebius Token Factory) and Tracto AI. [...] The scope does not extend to other subsidiaries or third-party service providers.' (nebius.com/trust-center/iso-27001). Das Zertifikat nennt keine einzelnen Dienste, keine weiteren Nebius-Gesellschaften und keine Rechenzentren außer den genannten Standorten; Nebius Inc. (USA) und die externen Token-Factory-Unterauftragnehmer (RunPod, BoostRun, Shadeform, Axe Compute) stehen nicht darauf."
           },
           "zertifizierer": {
             "wert": "SII-QCD (Quality and Certification Division der Standards Institution of Israel, Tel Aviv)",
             "status": "belegt",
             "quelle": "https://assets.nebius.com/assets/75a09e82-d39b-4bd4-a064-babf034b8a6b/ISO27001%20CERTIFICATION.pdf",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Zertifikat: 'Has been assessed and reviewed by SII - QCD'; auditiert nach ISO/IEC 27006-1:2024."
           },
           "akkreditiert_dakks": {
@@ -4260,21 +4260,21 @@
             "wert": "Nebius AI Cloud, AI Studio (heute Token Factory) und Tracto AI",
             "status": "beansprucht",
             "quelle": "https://nebius.com/trust-center/soc-2",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Trust Center: 'The Nebius SOC 2 Type II audit includes AI Cloud, AI Studio (now Nebius Token Factory) and Tracto AI within its scope'. Der SOC-2-Bericht selbst ist nur nach NDA erhältlich ('The report is available upon signing an NDA'). Der öffentliche SOC-3-Bericht (Prüfzeitraum 01.04.2025 bis 31.07.2025) nennt als System 'Nebius's full-stack infrastructure for AI system' und nimmt die Rechenzentrums- und Colocation-Dienstleister ausdrücklich aus ('Our examination did not include the services provided by the subservice organizations')."
           },
           "zertifizierer": {
             "wert": "Deloitte",
             "status": "beansprucht",
             "quelle": "https://nebius.com/trust-center/soc-2",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Trust Center: 'Who performs the independent third-party audit? Deloitte [...]'. Im Text des öffentlichen SOC-3-Berichts (PDF im Trust Center) steht kein Prüfername; der SOC-2-Bericht ist nur nach NDA einsehbar."
           },
           "akkreditiert_dakks": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "SOC 2 ist ein Testat eines Wirtschaftsprüfers, keine akkreditierte Zertifizierung."
           },
           "normiert": [
@@ -4291,14 +4291,14 @@
             "wert": "Nebius B.V. (Schiphol, Niederlande), weitere Standorte: Tel Aviv (Yitzhak Sadeh 8); Geltungsbereich laut Zertifikat 'Nebius is a global AI cloud company delivering infrastructure and services to accelerate the full AI pipeline from foundational model builders to enterprise solutions'",
             "status": "belegt",
             "quelle": "https://assets.nebius.com/assets/c294d714-bab4-44b6-932f-8bfa8057651f/ISO27701%20CERTIFICATE.PDF",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Zertifikat ISO/IEC 27701:2019, Nr. 1125669, gültig 26.08.2025 bis 26.08.2028, revidiert 16.09.2026. Die Dienste nennt nur das Trust Center: 'Nebius is certified under ISO/IEC 27701 as both a PII controller and a PII processor' und 'The scope includes Nebius AI Cloud, AI Studio (now Nebius Token Factory) and Tracto AI' (nebius.com/trust-center/iso-27701). Das Zertifikat nennt keine einzelnen Dienste, keine weiteren Nebius-Gesellschaften und keine Rechenzentren außer den genannten Standorten; Nebius Inc. (USA) und die externen Token-Factory-Unterauftragnehmer (RunPod, BoostRun, Shadeform, Axe Compute) stehen nicht darauf."
           },
           "zertifizierer": {
             "wert": "SII-QCD (Quality and Certification Division der Standards Institution of Israel, Tel Aviv)",
             "status": "belegt",
             "quelle": "https://assets.nebius.com/assets/c294d714-bab4-44b6-932f-8bfa8057651f/ISO27701%20CERTIFICATE.PDF",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Zertifikat: 'Has been assessed and reviewed by SII - QCD'."
           },
           "akkreditiert_dakks": {
@@ -4322,21 +4322,21 @@
             "wert": "Nebius AI Cloud (Infrastruktur und Plattformdienste); Token Factory nicht genannt",
             "status": "beansprucht",
             "quelle": "https://nebius.com/trust-center/csa-star",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Trust Center: 'What Nebius products are within the scope of assessment? Nebius AI Cloud infrastructure and platform services.' Kein Zertifikat, sondern ein selbst ausgefüllter Fragebogen (CAIQ) im CSA STAR Registry."
           },
           "zertifizierer": {
             "wert": "keiner (Selbstauskunft)",
             "status": "belegt",
             "quelle": "https://nebius.com/trust-center/csa-star",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Trust Center: 'CSA STAR Level 1 is based on a self-assessment. Nebius completed the CSA Consensus Assessments Initiative Questionnaire (CAIQ)'. Level 1 wird von keiner dritten Stelle geprüft."
           },
           "akkreditiert_dakks": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "CSA STAR Level 1 ist eine Selbstauskunft ohne Zertifizierungsstelle; eine Akkreditierung gibt es dafür nicht."
           },
           "normiert": [
@@ -4353,14 +4353,14 @@
             "wert": "Nebius B.V. (Schiphol, Niederlande), weitere Standorte: Tel Aviv (Yitzhak Sadeh 8); Geltungsbereich laut Zertifikat 'Nebius is a global AI cloud company delivering infrastructure and services to accelerate the full AI pipeline from foundational model builders to enterprise solutions'",
             "status": "belegt",
             "quelle": "https://assets.nebius.com/assets/9a3a30ea-f708-4e07-8903-bdaa6a3eaa2b/ISO27018%20CERTIFICATE.PDF",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Zertifikat ISO/IEC 27018:2019 ('ISMS which supports the protecting of PII in public clouds'), Nr. 1125668, gültig 26.08.2025 bis 26.08.2028, revidiert 16.09.2026. Die Dienste nennt nur das Trust Center: 'The scope includes controls supporting Nebius AI Cloud, AI Studio (now Nebius Token Factory) and Tracto AI' (nebius.com/trust-center/iso-27018). Das Zertifikat nennt keine einzelnen Dienste, keine weiteren Nebius-Gesellschaften und keine Rechenzentren außer den genannten Standorten; Nebius Inc. (USA) und die externen Token-Factory-Unterauftragnehmer (RunPod, BoostRun, Shadeform, Axe Compute) stehen nicht darauf."
           },
           "zertifizierer": {
             "wert": "SII-QCD (Quality and Certification Division der Standards Institution of Israel, Tel Aviv)",
             "status": "belegt",
             "quelle": "https://assets.nebius.com/assets/9a3a30ea-f708-4e07-8903-bdaa6a3eaa2b/ISO27018%20CERTIFICATE.PDF",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Zertifikat: 'Has been assessed and reviewed by SII - QCD and complies with the requirements of: ISO/IEC 27018:2019 Best Practices'."
           },
           "akkreditiert_dakks": {
@@ -4384,14 +4384,14 @@
             "wert": "Nebius B.V. (Schiphol, Niederlande), weitere Standorte: Tel Aviv (Igal Alon 94); Geltungsbereich laut Zertifikat 'Nebius is a global AI cloud company delivering infrastructure and services to accelerate the full AI pipeline from foundational model builders to enterprise solutions'",
             "status": "belegt",
             "quelle": "https://assets.nebius.com/assets/096a71d3-c011-4a50-b51d-bb81a1387bb5/p1336800343_FFPDF-English-1128184.PDF",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Zertifikat ISO/IEC 42001:2023, Nr. 1128184, gültig 26.08.2026 bis 26.08.2029. Die Dienste nennt nur das Trust Center: die Seite nebius.com/trust-center/iso-42001 nennt keine Produkte, nur 'Nebius is certified for compliance with ISO/IEC 42001'. Das Zertifikat nennt keine einzelnen Dienste, keine weiteren Nebius-Gesellschaften und keine Rechenzentren außer den genannten Standorten; Nebius Inc. (USA) und die externen Token-Factory-Unterauftragnehmer (RunPod, BoostRun, Shadeform, Axe Compute) stehen nicht darauf."
           },
           "zertifizierer": {
             "wert": "SII-QCD (Quality and Certification Division der Standards Institution of Israel, Tel Aviv)",
             "status": "belegt",
             "quelle": "https://assets.nebius.com/assets/096a71d3-c011-4a50-b51d-bb81a1387bb5/p1336800343_FFPDF-English-1128184.PDF",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Zertifikat: 'Has been assessed and reviewed by SII - QCD'; Trust Center: 'The certifying agent is The Standards Institution of Israel (SII)'."
           },
           "akkreditiert_dakks": {
@@ -4423,7 +4423,7 @@
           "anmerkung": "Keine Unterzeichnung auffindbar; hostet Open-Source-Fremdmodelle. Trust Center nennt NIS 2 und DORA, aber keine AI-Act-Dokumentation. Die Token Factory Supplemental Terms (Fassung 15.09.2026, Abruf 05.10.2026) regeln den AI Act nur als Pflicht des Kunden: wer die API in ein eigenes Produkt einbaut, ist laut Ziffer 2.4 selbst „provider“ des KI-Systems; Ziffer 4 untersagt den Einsatz in Hochrisiko-KI-Systemen und für verbotene Praktiken. Eine eigene Einordnung von Nebius steht dort nicht"
         }
       ],
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "url": "https://belegbar.eu/anbieter/nebius/",
       "beleg_quote_prozent": 80,
       "zuletzt_geprueft": "2026-10-09",
@@ -6865,21 +6865,21 @@
           "preis_input_1m_eur": null,
           "preis_output_1m_eur": null,
           "quelle": null,
-          "geprueft": "2026-10-03",
+          "geprueft": "2026-10-09",
           "status": "unbelegt",
           "anmerkung": "Aussage stand bis 2026-08-19 auf https://docs.llmhub.t-systems.net/models/, am 03.10.2026 nicht mehr — laut Retired-Seite seit 2026-09-01 abgeschaltet ('Retired 2026-09-01, Replacement GPT-OSS 120B'), neue Anfragen an die Modell-ID liefern einen Fehler.",
           "backup_standort": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Modell laut Profil seit 01.09.2026 abgeschaltet; Angaben gelten für die T-Cloud-Modelle allgemein. Kein Ort für Sicherungen genannt. Enterprise-Trust-Seite (08.10.2026), Kategorie 1: 'Storage: Not stored'. Leistungsbeschreibung v1.24, § 2.3.1: Anfragen und Antworten werden 'standardmäßig nicht dauerhaft gespeichert'; ein Zwischenspeicher hält verarbeitete Anfragen 'für eine begrenzte Zeit', standardmäßig an, abschaltbar. Der AVV der T Cloud Public (Anhang III, Maßnahme 'Backup-Konzept') beschreibt nur allgemein eine Backup-Strategie ('Statt einer „klassischen“ Backuplösung ist auch der Betrieb von Spiegelsystemen in einem anderen Sicherheitsbereich ... möglich'), ohne Ort und ohne Bezug auf AI Foundation Services."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Keine Aussage gefunden, weder dass T-Systems eigene Filter, Moderation oder Guardrails vorschaltet, noch dass es keine gibt. Durchsucht am 08.10.2026: Leistungsbeschreibung v1.24 (Stand 30.09.2026), Enterprise-Trust-Seite und alle 86 aktuellen Seiten von docs.llmhub.t-systems.net laut Sitemap (Suchwörter filter, guardrail, moderation, safety, content policy)."
           }
         },
@@ -6896,14 +6896,14 @@
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Kein Ort für Sicherungen genannt. Enterprise-Trust-Seite (08.10.2026), Kategorie 1: 'Storage: Not stored'. Leistungsbeschreibung v1.24, § 2.3.1: Anfragen und Antworten werden 'standardmäßig nicht dauerhaft gespeichert'; ein Zwischenspeicher hält verarbeitete Anfragen 'für eine begrenzte Zeit', standardmäßig an, abschaltbar. Der AVV der T Cloud Public (Anhang III, Maßnahme 'Backup-Konzept') beschreibt nur allgemein eine Backup-Strategie ('Statt einer „klassischen“ Backuplösung ist auch der Betrieb von Spiegelsystemen in einem anderen Sicherheitsbereich ... möglich'), ohne Ort und ohne Bezug auf AI Foundation Services."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Keine Aussage gefunden, weder dass T-Systems eigene Filter, Moderation oder Guardrails vorschaltet, noch dass es keine gibt. Durchsucht am 08.10.2026: Leistungsbeschreibung v1.24 (Stand 30.09.2026), Enterprise-Trust-Seite und alle 86 aktuellen Seiten von docs.llmhub.t-systems.net laut Sitemap (Suchwörter filter, guardrail, moderation, safety, content policy)."
           }
         },
@@ -6920,14 +6920,14 @@
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Kein Ort für Sicherungen genannt. Enterprise-Trust-Seite (08.10.2026), Kategorie 1: 'Storage: Not stored'. Leistungsbeschreibung v1.24, § 2.3.1: Anfragen und Antworten werden 'standardmäßig nicht dauerhaft gespeichert'; ein Zwischenspeicher hält verarbeitete Anfragen 'für eine begrenzte Zeit', standardmäßig an, abschaltbar. Der AVV der T Cloud Public (Anhang III, Maßnahme 'Backup-Konzept') beschreibt nur allgemein eine Backup-Strategie ('Statt einer „klassischen“ Backuplösung ist auch der Betrieb von Spiegelsystemen in einem anderen Sicherheitsbereich ... möglich'), ohne Ort und ohne Bezug auf AI Foundation Services."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Keine Aussage gefunden, weder dass T-Systems eigene Filter, Moderation oder Guardrails vorschaltet, noch dass es keine gibt. Durchsucht am 08.10.2026: Leistungsbeschreibung v1.24 (Stand 30.09.2026), Enterprise-Trust-Seite und alle 86 aktuellen Seiten von docs.llmhub.t-systems.net laut Sitemap (Suchwörter filter, guardrail, moderation, safety, content policy)."
           }
         },
@@ -6944,14 +6944,14 @@
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Kein Ort für Sicherungen genannt. Kategorie 2 (Weiterleitung an Microsoft Azure); Enterprise-Trust-Seite (08.10.2026): 'Storage: Per third-party provider’s terms'. T-Systems macht dazu keine eigene Angabe."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Keine Aussage von T-Systems zu eigenen Filtern (durchsucht am 08.10.2026: Leistungsbeschreibung v1.24, Enterprise-Trust-Seite, alle 86 aktuellen Seiten von docs.llmhub.t-systems.net). Das Modell ist Kategorie 2 und wird an Microsoft Azure weitergeleitet; ob dort Inhaltsfilter des Drittanbieters laufen, sagt T-Systems nicht, es gelten laut Leistungsbeschreibung dessen Bedingungen."
           }
         },
@@ -6968,14 +6968,14 @@
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Kein Ort für Sicherungen genannt. Kategorie 2 (Weiterleitung an Google Cloud bzw. Microsoft Azure); Enterprise-Trust-Seite (08.10.2026): 'Storage: Per third-party provider’s terms'. T-Systems macht dazu keine eigene Angabe."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Keine Aussage von T-Systems zu eigenen Filtern (durchsucht am 08.10.2026: Leistungsbeschreibung v1.24, Enterprise-Trust-Seite, alle 86 aktuellen Seiten von docs.llmhub.t-systems.net). Das Modell ist Kategorie 2 und wird an Google Cloud bzw. Microsoft Azure weitergeleitet; ob dort Inhaltsfilter des Drittanbieters laufen, sagt T-Systems nicht, es gelten laut Leistungsbeschreibung dessen Bedingungen."
           }
         }
@@ -6992,14 +6992,14 @@
           "wert": null,
           "status": "belegt",
           "quelle": "https://docs.llmhub.t-systems.net/reference/enterprise-trust",
-          "geprueft": "2026-10-03",
+          "geprueft": "2026-10-09",
           "anmerkung": "Keine öffentliche Listen-URL; Enterprise-Trust-Doku (03.10.2026) beschreibt Kategorie 1 jetzt als 'EU/EEA & adequacy-decision processing' (auch Länder mit Angemessenheitsbeschluss, nicht nur EU/EWR); die frühere Formulierung 'ohne Dritt-Subprozessoren' steht so nicht mehr da. Kategorie 2 (Fremdmodelle): 'The third-party provider may operate sub-processors worldwide'."
         },
         "training_opt_out": {
           "wert": true,
           "status": "belegt",
           "quelle": "https://docs.llmhub.t-systems.net/reference/enterprise-trust",
-          "geprueft": "2026-10-03",
+          "geprueft": "2026-10-09",
           "anmerkung": "Wörtlich (03.10.2026): 'Regardless of which model you select hosted by Telekom, customer prompts and responses are never saved or used to train or fine-tune any model.' Tabelle: 'Training use: Not used for model training' in beiden Kategorien; Modellseite ergänzend: 'Customer data is not used for model training, regardless of which model you select.'"
         },
         "zero_data_retention": {
@@ -7028,14 +7028,14 @@
           "wert": null,
           "status": "unbelegt",
           "quelle": null,
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "anmerkung": "Keine Frist gefunden. Leistungsbeschreibung v1.24, Enterprise-Trust-Seite und AVV (Stand April 2026) nennen keine Aufbewahrungsdauer für Protokolle. Der AVV führt in Anhang II als Datenart 'personenbezogene Daten zur Protokollierung (z.B. Benutzerkennung, IP-Adresse)' und sagt in Anhang III nur 'Speicherdauer und Löschfristen sind gemäß den gesetzlichen oder vertraglichen Vorgaben festgelegt'. Der Zwischenspeicher für Anfragen (Prefix Cache, 'für eine begrenzte Zeit') ist kein Protokoll; seine Dauer ist ungeklärt (Fall 2026-006). Vorarbeit 04.10.2026 kam zum selben Ergebnis ('ungeklärt')."
         },
         "log_zweck": {
           "wert": null,
           "status": "unbelegt",
           "quelle": null,
-          "geprueft": "2026-10-08",
+          "geprueft": "2026-10-09",
           "anmerkung": "Kein Zweck für Protokolle zu Anfragen genannt. Der AVV (Anhang III, Maßnahme 'Protokollierung der Datenverarbeitung') sagt nur allgemein: 'Zugriffe von Benutzern und/oder Systemadministratoren auf personenbezogene Daten werden unter Berücksichtigung des Grundsatzes der Datenminimierung und des Schutzbedarfs protokolliert und regelmäßig überprüft.' Leistungsbeschreibung v1.24 und Enterprise-Trust-Seite sagen dazu nichts."
         }
       },
@@ -7044,27 +7044,27 @@
           "typ": "BSI C5",
           "status": "belegt",
           "quelle": "https://www.t-cloud-public.com/en/products-services/core-services/certifications",
-          "geprueft": "2026-10-03",
+          "geprueft": "2026-10-09",
           "anmerkung": "BSI C5 Typ II (ISAE 3000) für die Open Telekom Cloud / T-Cloud.",
           "anwendungsbereich": {
             "wert": "T Cloud Public (früher Open Telekom Cloud), laut Anbieterseite",
             "status": "beansprucht",
             "quelle": "https://www.t-cloud-public.com/en/products-services/core-services/certifications",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Zertifikatsseite (08.10.2026): 'BSI C5 Typ II (ISAE 3000) — This report verifies the minimum information security requirements for cloud services of the BSI Cloud Computing Compliance Criteria Catalogue (BSI C5).' Der Bericht ist nur über ein myWorkplace-Konto abrufbar (Seite 'Audit reports for download via self-service'); welche Dienste im Prüfgegenstand liegen und ob AI Foundation Services dazugehört, ist öffentlich nicht zu sehen."
           },
           "zertifizierer": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Die prüfende Wirtschaftsprüfungsgesellschaft wird öffentlich nicht genannt; der Bericht ist nur nach Login (myWorkplace) erhältlich."
           },
           "akkreditiert_dakks": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Das C5-Testat ist ein Prüfbericht eines Wirtschaftsprüfers nach ISAE 3000, keine akkreditierte Zertifizierung."
           },
           "normiert": [
@@ -7081,21 +7081,21 @@
             "wert": "Deutsche Telekom AG, Multi-Site-Dachzertifikat 172572.00DE: 'Development, operation and maintenance of Information Technology (IT) / Operational Technology (OT) / Network Technology (NT) solutions, products and consulting as well as Shared Services'; im Anhang (22 Seiten) u. a. T-Systems International GmbH in Frankfurt, Magdeburg und Biere ('Development, operation and maintenance of Information Technology based on Cloud Services, Digital Enabling and Security as well as Advisory')",
             "status": "belegt",
             "quelle": "https://www.t-cloud-public.com/_Resources/Persistent/a/6/6/1/a661457952c225c023711124c8af5721a2f56d5a/06_27001_Dachzertifikat_20240229_en_de.pdf",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Zertifikat ISO/IEC 27001:2022, erstmals 04.12.2024, neu ausgestellt 10.02.2026, gültig bis 03.12.2027; SoA 'Version: May 06, 2025'. AI Foundation Services ist im Zertifikat nicht namentlich genannt; dass die AIFS-Infrastruktur abgedeckt ist, sagt nur die Enterprise-Trust-Seite ('covering information security management for the infrastructure and processes underlying AI Foundation Services')."
           },
           "zertifizierer": {
             "wert": "DEKRA Certification, Inc. (Atlanta, USA)",
             "status": "belegt",
             "quelle": "https://www.t-cloud-public.com/_Resources/Persistent/a/6/6/1/a661457952c225c023711124c8af5721a2f56d5a/06_27001_Dachzertifikat_20240229_en_de.pdf",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Zertifikat unterzeichnet von 'Dr. Cem O. Onus, Managing Director, DEKRA Certification, Inc., 1945 The Exchange Ste #300, Atlanta, GA 30339'. Die Zertifikatsseite nennt nur 'ISO27001 Audits by DEKRA'."
           },
           "akkreditiert_dakks": {
             "wert": false,
             "status": "belegt",
             "quelle": "https://anabdirectory.remoteauditor.com/",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Nicht DAkkS, aber akkreditiert durch ANAB (ANSI National Accreditation Board, USA; IAF-MLA, gleichwertig anerkannt). ANAB-Verzeichnis der Zertifizierungsstellen (Suche 'DEKRA', Norm ISO/IEC 27001, Abruf 08.10.2026): 'DEKRA-MS-7497 - DEKRA Certification, Inc.', 'Accredited To: AS9100, AS9110, AS9120, ISO 13485, ISO 14001, ISO 45001, ISO 50001, ISO 9001, ISO/IEC 27001, ISO/IEC 27701, ISO/IEC 42001, TL 9000'. Das Zertifikat trägt die Zeichen von ANAB und IAF. In der DAkkS-Datenbank (Suche 'DEKRA Certification', 08.10.2026) steht nur die DEKRA Certification GmbH in Stuttgart (D-ZM-16029), nicht die US-Gesellschaft, die dieses Zertifikat ausgestellt hat."
           },
           "normiert": [
@@ -7106,27 +7106,27 @@
           "typ": "SOC 2",
           "status": "belegt",
           "quelle": "https://www.t-cloud-public.com/en/products-services/core-services/certifications",
-          "geprueft": "2026-10-03",
+          "geprueft": "2026-10-09",
           "anmerkung": "SOC 1 Type II, SOC 2 Type II und SOC 3.",
           "anwendungsbereich": {
             "wert": "T Cloud Public, laut Anbieterseite",
             "status": "beansprucht",
             "quelle": "https://www.t-cloud-public.com/en/products-services/core-services/certifications",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Zertifikatsseite (08.10.2026): 'SOC 2 Type II (ISAE 3000) — As part of the audit, relevant checks to ensure the Trust Service Criteria - security, availability, integrity, confidentiality and data protection - are performed'. Bericht nur über myWorkplace; der öffentliche SOC-3-Bericht ('TS OTC SOC 3 Report.pdf') ließ sich am 08.10.2026 nicht öffnen (PDF mit Kennwortschutz)."
           },
           "zertifizierer": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Prüfer nicht ermittelbar: SOC-2-Bericht nur nach Login, SOC-3-Bericht (soll laut Seite 'an assessment by our external auditor' enthalten) am 08.10.2026 kennwortgeschützt."
           },
           "akkreditiert_dakks": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "SOC 2 ist ein Testat eines Wirtschaftsprüfers, keine akkreditierte Zertifizierung."
           },
           "normiert": [
@@ -7143,21 +7143,21 @@
             "wert": "T Cloud Public, Regionen Deutschland und Niederlande (Standorte Aalsmeer und Almere einbezogen), Schutzbedarf Level 3; ENX-Code P0R4YM",
             "status": "beansprucht",
             "quelle": "https://www.t-cloud-public.com/en/blog/benefits/vda-tisax-certificate",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Blog des Anbieters: 'T Cloud Public thus also achieved protection level three for the Netherlands region' und 'The official entry of T Cloud Public can be found on the portal of the ENX Association ... under the code P0R4YM.' Das ENX-Portal zeigt Ergebnisse nur registrierten TISAX-Teilnehmern; der Prüfbericht ist 'on request'."
           },
           "zertifizierer": {
             "wert": "DEKRA (laut Anbieter, Assessment Januar bis Juni 2023)",
             "status": "beansprucht",
             "quelle": "https://www.t-cloud-public.com/en/blog/benefits/vda-tisax-certificate",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Blog des Anbieters: 'In 2023, between January and June, DEKRA carried out a review and recertification according to TISAX.' Welche DEKRA-Gesellschaft, steht nicht da; ein neueres Assessment wird nicht genannt."
           },
           "akkreditiert_dakks": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "TISAX ist ein Assessment im Verfahren der ENX Association (eigene Liste der 'Audit providers'), keine DAkkS-akkreditierte Zertifizierung; in den DAkkS-Anlagen der DEKRA Certification GmbH (D-ZM-16029-01-00 bis -09, geprüft 08.10.2026) kommt TISAX nicht vor. Das ENX-Ergebnis ist öffentlich nicht einsehbar."
           },
           "normiert": [
@@ -7174,21 +7174,21 @@
             "wert": "Deutsche Telekom AG mit 23 Standorten laut Anhang (u. a. T-Systems International GmbH Frankfurt, Magdeburg und Biere, dazu Standorte in Österreich, Brasilien, Schweiz, Spanien, Mexiko, Niederlande, Singapur und USA): ISO/IEC 27017:2015 als Quelle zusätzlicher Maßnahmen in der SoA umgesetzt",
             "status": "belegt",
             "quelle": "https://www.t-cloud-public.com/_Resources/Persistent/2/b/4/b/2b4b3a469a354b21500fca6acda2a8652ff6c478/04_27017_27018_Testat_en_20221130.pdf",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Testat (kein eigenständiges Zertifikat): 'DEKRA Certification GmbH hereby attests that the organization Deutsche Telekom AG ... included and implemented the ISO/IEC 27017:2015 and ISO/IEC 27018:2019 standards as sources for the extension of measures of the sets of measures in the statement of applicability.' Registriernummer DS-1221076/1, gültig 04.12.2024 bis 03.12.2027, letzte Aktualisierung 17.12.2025. Die Zertifikatsseite nennt es 'Certification'."
           },
           "zertifizierer": {
             "wert": "DEKRA Certification GmbH (Stuttgart)",
             "status": "belegt",
             "quelle": "https://www.t-cloud-public.com/_Resources/Persistent/2/b/4/b/2b4b3a469a354b21500fca6acda2a8652ff6c478/04_27017_27018_Testat_en_20221130.pdf",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Testat unterzeichnet 'Dr. Rolf Krökel, DEKRA Certification GmbH, Stuttgart, 2025-12-17'."
           },
           "akkreditiert_dakks": {
             "wert": false,
             "status": "belegt",
             "quelle": "https://www.dakks.de/files/data/as/pdf/D-ZM-16029-01-04.pdf",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Die DEKRA Certification GmbH ist bei der DAkkS akkreditiert (D-ZM-16029-01-00), ihre Anlage für Informationssicherheit D-ZM-16029-01-04 (gültig ab 01.08.2026) nennt aber nur Zertifizierungen 'im Bereich DIN EN ISO/IEC 27001:2024-01' (dazu IT-Sicherheitskatalog, ISO 22301, ISO/IEC 20000-1); ISO/IEC 27017 kommt in keiner der zehn Anlagen vor (alle am 08.10.2026 geprüft). Das Dokument ist ein Testat ohne Akkreditierungszeichen."
           },
           "normiert": [
@@ -7205,21 +7205,21 @@
             "wert": "Deutsche Telekom AG mit 23 Standorten laut Anhang (u. a. T-Systems International GmbH Frankfurt, Magdeburg und Biere, dazu Standorte in Österreich, Brasilien, Schweiz, Spanien, Mexiko, Niederlande, Singapur und USA): ISO/IEC 27018:2019 als Quelle zusätzlicher Maßnahmen in der SoA umgesetzt",
             "status": "belegt",
             "quelle": "https://www.t-cloud-public.com/_Resources/Persistent/2/b/4/b/2b4b3a469a354b21500fca6acda2a8652ff6c478/04_27017_27018_Testat_en_20221130.pdf",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Dasselbe Testat wie ISO 27017 (kein eigenständiges Zertifikat), Registriernummer DS-1221076/1, gültig 04.12.2024 bis 03.12.2027, letzte Aktualisierung 17.12.2025: 'included and implemented the ISO/IEC 27017:2015 and ISO/IEC 27018:2019 standards as sources for the extension of measures'."
           },
           "zertifizierer": {
             "wert": "DEKRA Certification GmbH (Stuttgart)",
             "status": "belegt",
             "quelle": "https://www.t-cloud-public.com/_Resources/Persistent/2/b/4/b/2b4b3a469a354b21500fca6acda2a8652ff6c478/04_27017_27018_Testat_en_20221130.pdf",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Testat unterzeichnet 'Dr. Rolf Krökel, DEKRA Certification GmbH, Stuttgart, 2025-12-17'."
           },
           "akkreditiert_dakks": {
             "wert": false,
             "status": "belegt",
             "quelle": "https://www.dakks.de/files/data/as/pdf/D-ZM-16029-01-04.pdf",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Die DEKRA Certification GmbH ist bei der DAkkS akkreditiert (D-ZM-16029-01-00), ihre Anlage für Informationssicherheit D-ZM-16029-01-04 (gültig ab 01.08.2026) nennt aber nur Zertifizierungen 'im Bereich DIN EN ISO/IEC 27001:2024-01'; ISO/IEC 27018 kommt in keiner der zehn Anlagen vor (alle am 08.10.2026 geprüft). Das Dokument ist ein Testat ohne Akkreditierungszeichen."
           },
           "normiert": [
@@ -7236,21 +7236,21 @@
             "wert": "Deutsche Telekom AG, Multi-Site-Zertifikat DE182572.00 (Scope wie ISO 27001, 'Both PII controller and PII processor'); im Anhang (12 Seiten) u. a. T-Systems International GmbH in Frankfurt, Magdeburg und Biere",
             "status": "belegt",
             "quelle": "https://www.t-cloud-public.com/_Resources/Persistent/5/c/2/5/5c25ff467eb2c4ff6557b8d7eb87e9b6214bb0f7/03_27701_Umbrella-Certificate_20230216.pdf",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Zertifikat ISO/IEC 27701:2019, erstmals 04.12.2024, neu ausgestellt 10.02.2026, gültig bis 03.12.2027; 'This certification is dependent upon continued validity of ISO 27001 Certificate Number: 172572.00DE'. AI Foundation Services ist nicht namentlich genannt."
           },
           "zertifizierer": {
             "wert": "DEKRA Certification, Inc. (Atlanta, USA)",
             "status": "belegt",
             "quelle": "https://www.t-cloud-public.com/_Resources/Persistent/5/c/2/5/5c25ff467eb2c4ff6557b8d7eb87e9b6214bb0f7/03_27701_Umbrella-Certificate_20230216.pdf",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Zertifikat unterzeichnet von 'Dr. Cem O. Onus, Managing Director, DEKRA Certification, Inc.'."
           },
           "akkreditiert_dakks": {
             "wert": false,
             "status": "belegt",
             "quelle": "https://anabdirectory.remoteauditor.com/",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-09",
             "anmerkung": "Nicht DAkkS, aber akkreditiert durch ANAB (ANSI National Accreditation Board, USA; IAF-MLA, gleichwertig anerkannt). ANAB-Verzeichnis der Zertifizierungsstellen (Suche 'DEKRA', Norm ISO/IEC 27701, Abruf 08.10.2026): 'DEKRA-MS-7497 - DEKRA Certification, Inc.', 'Accredited To: AS9100, AS9110, AS9120, ISO 13485, ISO 14001, ISO 45001, ISO 50001, ISO 9001, ISO/IEC 27001, ISO/IEC 27701, ISO/IEC 42001, TL 9000'. Das Zertifikat trägt die Zeichen von ANAB und IAF. In der DAkkS-Datenbank (Suche 'DEKRA Certification', 08.10.2026) steht nur die DEKRA Certification GmbH in Stuttgart (D-ZM-16029), nicht die US-Gesellschaft, die dieses Zertifikat ausgestellt hat."
           },
           "normiert": [
@@ -7275,7 +7275,7 @@
           "anmerkung": "Plattform serviert Fremdmodelle; Art.-53-Pflichten liegen bei den Herstellern. Keine eigene AI-Act-Dokumentation gefunden."
         }
       ],
-      "geprueft": "2026-08-19",
+      "geprueft": "2026-10-09",
       "url": "https://belegbar.eu/anbieter/t-systems/",
       "beleg_quote_prozent": 88,
       "zuletzt_geprueft": "2026-10-09",
