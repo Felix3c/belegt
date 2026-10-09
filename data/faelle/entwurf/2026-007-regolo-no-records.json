@@ -64,6 +64,10 @@
     {
       "datum": "2026-10-04",
       "ereignis": "Alle drei Quellen neu abgerufen (00:21 UTC), Inhalte per SHA-256 gesichert (byte-gleich zum Abruf vom 03.10.), alle Zitate wörtlich in den Rohkopien geprüft. Fall als Entwurf vorbereitet, noch nicht veröffentlicht, Anbieter noch nicht informiert."
+    },
+    {
+      "datum": "2026-10-08",
+      "ereignis": "Bei der Prüfpunkt-Durchsicht aller 21 Profile erneut als Widerspruch gefunden (ZDR-Seite gegen Datenschutzerklärung). Alle drei Quellen neu abgerufen; die Hashes haben sich nur durch einen neuen Blog-Titel im Menü geändert, alle vier Zitate stehen weiter wörtlich in den Rohkopien vom 08.10.2026."
     }
   ]
 }

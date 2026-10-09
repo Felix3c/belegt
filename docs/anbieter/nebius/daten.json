@@ -192,8 +192,8 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://www.rva.nl/en/alle-geaccrediteerden/c096/",
-        "geprueft": "2026-10-08",
-        "anmerkung": "SII-QCD ist eine israelische Stelle; eine DAkkS-Akkreditierung ist weder behauptet noch auffindbar (die DAkkS-Suche liefert Treffer nur per Skript, am 08.10.2026 nicht abrufbar). Nebius schreibt im Trust Center, SII-QCD sei 'accredited by international bodies including the ANSI National Accreditation Board (ANAB) and the Dutch Accreditation Council (RvA), authorizing it to certify management systems such as ISO 27001'. Die RvA-Akkreditierung C096 (Anlage gültig 03.09.2025 bis 01.09.2028, Abruf 08.10.2026, https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C096-sce.pdf) umfasst aber nur ISO 9001, ISO 13485 und ISO 14001, nicht ISO/IEC 27001. Das ANAB-Verzeichnis (anabpd.ansi.org) war hinter einer Cloudflare-Abfrage nicht abrufbar. Eine Akkreditierung für ISO/IEC 27001 ist damit nicht belegt."
+        "geprueft": "2026-10-09",
+        "anmerkung": "SII-QCD ist eine israelische Stelle; eine DAkkS-Akkreditierung ist weder behauptet noch auffindbar (die DAkkS-Suche liefert Treffer nur per Skript, am 08.10.2026 nicht abrufbar). Nebius schreibt im Trust Center, SII-QCD sei 'accredited by international bodies including the ANSI National Accreditation Board (ANAB) and the Dutch Accreditation Council (RvA), authorizing it to certify management systems such as ISO 27001'. Die RvA-Akkreditierung C096 (Anlage gültig 03.09.2025 bis 01.09.2028, Abruf 08.10.2026, https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C096-sce.pdf) umfasst aber nur ISO 9001, ISO 13485 und ISO 14001, nicht ISO/IEC 27001. Die ANAB-Anlage MS-4932 (Scope of Accreditation, Ausgabe 24.01.2024, gültig bis 07.11.2026, veröffentlicht von SII unter https://www.sii.org.il/media/0wxmot4f/sii-scope-of-accreditation-executed-01242024.pdf, Abruf 09.10.2026) nennt ISO/IEC 27001:2022 (akkreditiert seit 28.06.2023). Die Nebius-Aussage stimmt damit über ANAB, nicht über RvA; eine DAkkS-Akkreditierung bleibt unbelegt. Das ANAB-Verzeichnis selbst (anabpd.ansi.org) war am 08. und 09.10.2026 hinter einer Cloudflare-Abfrage nicht abrufbar."
       },
       "normiert": [
         "iso-27001"
@@ -254,8 +254,8 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://www.rva.nl/en/alle-geaccrediteerden/c096/",
-        "geprueft": "2026-10-08",
-        "anmerkung": "SII-QCD ist eine israelische Stelle; eine DAkkS-Akkreditierung ist weder behauptet noch auffindbar (die DAkkS-Suche liefert Treffer nur per Skript, am 08.10.2026 nicht abrufbar). Nebius schreibt im Trust Center, SII-QCD sei 'accredited by international bodies including the ANSI National Accreditation Board (ANAB) and the Dutch Accreditation Council (RvA), authorizing it to certify management systems such as ISO 27001'. Die RvA-Akkreditierung C096 (Anlage gültig 03.09.2025 bis 01.09.2028, Abruf 08.10.2026, https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C096-sce.pdf) umfasst aber nur ISO 9001, ISO 13485 und ISO 14001, nicht ISO/IEC 27701. Das ANAB-Verzeichnis (anabpd.ansi.org) war hinter einer Cloudflare-Abfrage nicht abrufbar. Eine Akkreditierung für ISO/IEC 27701 ist damit nicht belegt."
+        "geprueft": "2026-10-09",
+        "anmerkung": "SII-QCD ist eine israelische Stelle; eine DAkkS-Akkreditierung ist weder behauptet noch auffindbar (die DAkkS-Suche liefert Treffer nur per Skript, am 08.10.2026 nicht abrufbar). Nebius schreibt im Trust Center, SII-QCD sei 'accredited by international bodies including the ANSI National Accreditation Board (ANAB) and the Dutch Accreditation Council (RvA), authorizing it to certify management systems such as ISO 27001'. Die RvA-Akkreditierung C096 (Anlage gültig 03.09.2025 bis 01.09.2028, Abruf 08.10.2026, https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C096-sce.pdf) umfasst aber nur ISO 9001, ISO 13485 und ISO 14001, nicht ISO/IEC 27701. Die ANAB-Anlage MS-4932 (Scope of Accreditation, Ausgabe 24.01.2024, gültig bis 07.11.2026, veröffentlicht von SII unter https://www.sii.org.il/media/0wxmot4f/sii-scope-of-accreditation-executed-01242024.pdf, Abruf 09.10.2026) nennt nur ISO 9001, AS9100/AS9120, ISO 22000 und ISO/IEC 27001, nicht ISO/IEC 27701. Eine Akkreditierung für ISO/IEC 27701 ist damit nicht belegt."
       },
       "normiert": [
         "iso-27701"
@@ -316,8 +316,8 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://www.rva.nl/en/alle-geaccrediteerden/c096/",
-        "geprueft": "2026-10-08",
-        "anmerkung": "SII-QCD ist eine israelische Stelle; eine DAkkS-Akkreditierung ist weder behauptet noch auffindbar (die DAkkS-Suche liefert Treffer nur per Skript, am 08.10.2026 nicht abrufbar). Nebius schreibt im Trust Center, SII-QCD sei 'accredited by international bodies including the ANSI National Accreditation Board (ANAB) and the Dutch Accreditation Council (RvA), authorizing it to certify management systems such as ISO 27001'. Die RvA-Akkreditierung C096 (Anlage gültig 03.09.2025 bis 01.09.2028, Abruf 08.10.2026, https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C096-sce.pdf) umfasst aber nur ISO 9001, ISO 13485 und ISO 14001, nicht ISO/IEC 27018. Das ANAB-Verzeichnis (anabpd.ansi.org) war hinter einer Cloudflare-Abfrage nicht abrufbar. Eine Akkreditierung für ISO/IEC 27018 ist damit nicht belegt."
+        "geprueft": "2026-10-09",
+        "anmerkung": "SII-QCD ist eine israelische Stelle; eine DAkkS-Akkreditierung ist weder behauptet noch auffindbar (die DAkkS-Suche liefert Treffer nur per Skript, am 08.10.2026 nicht abrufbar). Nebius schreibt im Trust Center, SII-QCD sei 'accredited by international bodies including the ANSI National Accreditation Board (ANAB) and the Dutch Accreditation Council (RvA), authorizing it to certify management systems such as ISO 27001'. Die RvA-Akkreditierung C096 (Anlage gültig 03.09.2025 bis 01.09.2028, Abruf 08.10.2026, https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C096-sce.pdf) umfasst aber nur ISO 9001, ISO 13485 und ISO 14001, nicht ISO/IEC 27018. Die ANAB-Anlage MS-4932 (Scope of Accreditation, Ausgabe 24.01.2024, gültig bis 07.11.2026, veröffentlicht von SII unter https://www.sii.org.il/media/0wxmot4f/sii-scope-of-accreditation-executed-01242024.pdf, Abruf 09.10.2026) nennt nur ISO 9001, AS9100/AS9120, ISO 22000 und ISO/IEC 27001, nicht ISO/IEC 27018. Eine Akkreditierung für ISO/IEC 27018 ist damit nicht belegt."
       },
       "normiert": [
         "iso-27018"
@@ -347,8 +347,8 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://www.rva.nl/en/alle-geaccrediteerden/c096/",
-        "geprueft": "2026-10-08",
-        "anmerkung": "SII-QCD ist eine israelische Stelle; eine DAkkS-Akkreditierung ist weder behauptet noch auffindbar (die DAkkS-Suche liefert Treffer nur per Skript, am 08.10.2026 nicht abrufbar). Nebius schreibt im Trust Center, SII-QCD sei 'accredited by international bodies including the ANSI National Accreditation Board (ANAB) and the Dutch Accreditation Council (RvA), authorizing it to certify management systems such as ISO 27001'. Die RvA-Akkreditierung C096 (Anlage gültig 03.09.2025 bis 01.09.2028, Abruf 08.10.2026, https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C096-sce.pdf) umfasst aber nur ISO 9001, ISO 13485 und ISO 14001, nicht ISO/IEC 42001. Das ANAB-Verzeichnis (anabpd.ansi.org) war hinter einer Cloudflare-Abfrage nicht abrufbar. Eine Akkreditierung für ISO/IEC 42001 ist damit nicht belegt."
+        "geprueft": "2026-10-09",
+        "anmerkung": "SII-QCD ist eine israelische Stelle; eine DAkkS-Akkreditierung ist weder behauptet noch auffindbar (die DAkkS-Suche liefert Treffer nur per Skript, am 08.10.2026 nicht abrufbar). Nebius schreibt im Trust Center, SII-QCD sei 'accredited by international bodies including the ANSI National Accreditation Board (ANAB) and the Dutch Accreditation Council (RvA), authorizing it to certify management systems such as ISO 27001'. Die RvA-Akkreditierung C096 (Anlage gültig 03.09.2025 bis 01.09.2028, Abruf 08.10.2026, https://www.rva.nl/wp-content/uploads/scopes_files/home/rva-ftp/C096-sce.pdf) umfasst aber nur ISO 9001, ISO 13485 und ISO 14001, nicht ISO/IEC 42001. Die ANAB-Anlage MS-4932 (Scope of Accreditation, Ausgabe 24.01.2024, gültig bis 07.11.2026, veröffentlicht von SII unter https://www.sii.org.il/media/0wxmot4f/sii-scope-of-accreditation-executed-01242024.pdf, Abruf 09.10.2026) nennt nur ISO 9001, AS9100/AS9120, ISO 22000 und ISO/IEC 27001, nicht ISO/IEC 42001. Eine Akkreditierung für ISO/IEC 42001 ist damit nicht belegt."
       },
       "normiert": [
         "iso-42001"

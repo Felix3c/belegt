@@ -1,0 +1,66 @@
+{
+  "id": "2026-008",
+  "slug": "ovhcloud-ai-endpoints-hds",
+  "anbieter": "ovhcloud",
+  "feld": "zertifikate",
+  "titel": "OVHcloud AI Endpoints: „HDS (health data) certified service“, aber OVHs eigene Liste der HDS-zertifizierten Produkte nennt AI Endpoints nicht",
+  "kurz": "Die Produktseite von AI Endpoints wirbt mit „ISO 27001, SOC 2 Type II, and HDS (health data) certified service“. Für HDS, die französische Zertifizierung für das Hosten von Gesundheitsdaten, verweisen OVHs Compliance-Seite und OVHs Anleitung zur HDS-Option in Public-Cloud-Projekten beide auf dieselbe Liste der zertifizierten Produkte. Diese Liste (zuletzt aktualisiert am 2. Juni 2026) führt 36 Produkte auf; AI Endpoints ist nicht darunter.",
+  "eroeffnet": "",
+  "anbieter_informiert": "",
+  "status": "offen",
+  "antwort_frist": "",
+  "behauptung": [
+    {
+      "zitat": "ISO 27001, SOC 2 Type II, and HDS (health data) certified service",
+      "quelle": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/",
+      "kontext": "Produktseite AI Endpoints (englisch), Kachel „Security“ zwischen „Sovereign“ und „Confidentiality“.",
+      "abgerufen": "2026-10-09T06:59:41Z",
+      "sha256": "849ec1234a9c4dd06161f63c593579f239f48e2505da73ee472433ec44c261ec",
+      "archiv": ""
+    }
+  ],
+  "beleg": [
+    {
+      "zitat": "View the list of HDS-certified OVHcloud products and their guarantees",
+      "quelle": "https://www.ovhcloud.com/en/compliance/hds/",
+      "kontext": "Compliance-Seite HDS von OVHcloud. Der Link führt über help.ovhcloud.com (KB0061194) auf die Dokumentationsseite „OVHcloud products HDS certification“ (nächster Beleg).",
+      "abgerufen": "2026-10-09T06:59:41Z",
+      "sha256": "c8310702394c3e82e5272b09a2965cceac17d94100b71a89492db8852eb51d4d",
+      "archiv": ""
+    },
+    {
+      "zitat": "The following page aims at presenting products covered by the \"Hébergement de Données de Santé\" (HDS) norm (Healthcare Data Hosting in France).",
+      "quelle": "https://docs.ovhcloud.com/en/guides/account-and-service-management/account-information/hds-certification",
+      "kontext": "Dokumentationsseite „OVHcloud products HDS certification“, Stand „Last updated: June 2, 2026“. Darunter die Tabelle „Currently certified OVHcloud products“ mit 36 Zeilen (u. a. Public Cloud Instances, Notebooks Interface, Managed Containers, Object Storage). AI Endpoints steht in der Tabelle nicht; der Name kommt auf der Seite nur im Navigationsmenü vor.",
+      "abgerufen": "2026-10-09T06:59:41Z",
+      "sha256": "cc22a339bc1fc231f52549dde3e463474a0464f1aace3c67e79ec5af41566681",
+      "archiv": ""
+    },
+    {
+      "zitat": "OVHcloud Public Cloud services are HDS certified for certain activities listed in the certification reference of the French Digital Health Agency. The list of certified OVHcloud products is available on the page “ OVHcloud products HDS certification ”.",
+      "quelle": "https://docs.ovhcloud.com/en/guides/public-cloud/cross-functional/activate-hds-certification",
+      "kontext": "Anleitung „Activate HDS certification“ für Public-Cloud-Projekte, Abschnitt „Objective“, Stand 28.03.2024. Die Option setzt den Support-Level Business oder Enterprise voraus.",
+      "abgerufen": "2026-10-09T06:59:41Z",
+      "sha256": "446831bb0db4f8689f41fc5f322eb8d753ef52f5a032948f32424bba27eeade2",
+      "archiv": ""
+    }
+  ],
+  "widerspruch": "Die Produktseite nennt AI Endpoints ohne Einschränkung einen HDS-zertifizierten Dienst. OVH selbst bestimmt an zwei Stellen, wo nachzulesen ist, welche Produkte HDS-zertifiziert sind: die Compliance-Seite („View the list of HDS-certified OVHcloud products“) und die Anleitung für Public-Cloud-Projekte („The list of certified OVHcloud products is available on the page …“). Beide führen auf dieselbe Liste, und dort fehlt AI Endpoints. Wer als Klinik, Praxis-Software-Anbieter oder Datenschutzbeauftragter die Produktseite liest, geht von einer HDS-Zertifizierung aus, die OVHs eigene Referenzliste nicht bestätigt. Auch die Bedingungen der HDS-Option (Support-Level Business oder Enterprise, Aktivierung im Projekt) nennt die Produktseite nicht.",
+  "was_es_nicht_heisst": "Dies ist kein Vorwurf der Täuschung, und es heißt nicht, dass AI Endpoints auf unsicherer Infrastruktur läuft. Möglich ist, dass AI Endpoints auf zertifizierten Bausteinen wie Public Cloud Instances läuft oder dass die Liste seit Juni 2026 nicht nachgezogen wurde; beides ist von außen nicht prüfbar. Die Anleitung zur HDS-Option sagt außerdem, die Dienste eines Projekts seien nach Aktivierung „HDS certified, in accordance with the contractual conditions“; ob AI Endpoints zu diesen Diensten zählt, sagt sie nicht. Der Fall betrifft nur HDS. Bei ISO 27001 ist die Lage weniger klar: OVHs ISO-Liste in der Dokumentation nennt AI Endpoints ebenfalls nicht (nur „Notebooks Interface“), die Compliance-Seite zu ISO 27001 zählt aber pauschal „AI & machine learning“ zu den zertifizierten Diensten. Deshalb ist ISO 27001 nicht Teil des Falls. SOC 2 haben wir nicht geprüft; der Bericht ist nur auf Anfrage erhältlich.",
+  "aufloesung": [
+    "OVHcloud nimmt AI Endpoints in die Liste der HDS-zertifizierten Produkte auf (oder legt einen anderen Nachweis vor, dass der Dienst im Geltungsbereich des HDS-Zertifikats liegt). Dann ist der Widerspruch ausgeräumt.",
+    "OVHcloud ändert die Produktseite, sodass sie HDS nur noch für zertifizierte Bausteine oder mit den Bedingungen der Option nennt. Dann ist der Widerspruch ausgeräumt.",
+    "OVHcloud legt dar, warum beide Aussagen zugleich zutreffen (etwa weil AI Endpoints in einem HDS-Projekt automatisch abgedeckt sei). Wir veröffentlichen die Erklärung wörtlich und prüfen sie gegen die Liste."
+  ],
+  "antworten": [],
+  "verlauf": [
+    {
+      "datum": "2026-10-08",
+      "ereignis": "Bei der Prüfpunkt-Durchsicht aller 21 Profile als Kandidat notiert (Produktseite gegen OVHs eigene Zertifikatslisten)."
+    },
+    {
+      "datum": "2026-10-09",
+      "ereignis": "Produktseite, Compliance-Seiten HDS und ISO 27001, HDS-Produktliste, ISO-Produktliste und Anleitung zur HDS-Option neu abgerufen (06:59 UTC), per SHA-256 gesichert, alle Zitate wörtlich in den Rohkopien geprüft. Weil die ISO-Compliance-Seite „AI & machine learning“ pauschal nennt, beschränkt sich der Fall auf HDS. Internet Archive war beim Sichern vorübergehend offline; Archivlinks folgen. Fall als Entwurf vorbereitet, noch nicht veröffentlicht, Anbieter noch nicht informiert."
+    }
+  ]
+}
