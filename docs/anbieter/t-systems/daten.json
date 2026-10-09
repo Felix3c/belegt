@@ -44,7 +44,7 @@
       "quelle": "https://docs.llmhub.t-systems.net/models/llms/",
       "geprueft": "2026-10-09",
       "status": "belegt",
-      "anmerkung": "Modellgenauer Preis seit 03.10.2026 öffentlich auf /models/llms/ (zuvor nur Beispielpreis auf /models/): 0,60 € / 1,20 € je 1M In/Out, 'Cloud: T-Cloud, Server Location: Germany, Data Processing: Germany'. Tarife: Essential 1.000 €/Monat, Professional 3.000 €, Agentic 5.000 € (andere Seite, nicht erneut geprüft).",
+      "anmerkung": "Modellgenauer Preis seit 03.10.2026 öffentlich auf /models/llms/ (zuvor nur Beispielpreis auf /models/): 0,60 € / 1,20 € je 1M In/Out, „Hosted on T-Cloud Public — Telekom's sovereign infrastructure in Germany.“ (Wortlaut 09.10.2026; bis 03.10. 'Cloud: T-Cloud, Server Location: Germany, Data Processing: Germany', Inhalt gleich). Tarife: Essential 1.000 €/Monat, Professional 3.000 €, Agentic 5.000 € (andere Seite, nicht erneut geprüft).",
       "backup_standort": {
         "wert": null,
         "status": "unbelegt",
@@ -68,7 +68,7 @@
       "quelle": "https://docs.llmhub.t-systems.net/models/llms/",
       "geprueft": "2026-10-09",
       "status": "belegt",
-      "anmerkung": "0,20 € / 0,65 € je 1M In/Out, 'T-Cloud, Germany' — entspricht dem früheren Beispielpreis, jetzt als modellgenauer Preis bestätigt.",
+      "anmerkung": "0,20 € / 0,65 € je 1M In/Out, „Hosted on T-Cloud Public — Telekom's sovereign infrastructure in Germany.“ (Wortlaut 09.10.2026) — entspricht dem früheren Beispielpreis, jetzt als modellgenauer Preis bestätigt.",
       "backup_standort": {
         "wert": null,
         "status": "unbelegt",
@@ -86,13 +86,13 @@
     },
     {
       "name": "GPT-5",
-      "standort": "Azure, Schweden",
+      "standort": "Azure, EU-Regionen (Frankreich/Schweden)",
       "preis_input_1m_eur": 1.2,
       "preis_output_1m_eur": 9.55,
       "quelle": "https://docs.llmhub.t-systems.net/models/llms/",
       "geprueft": "2026-10-09",
       "status": "belegt",
-      "anmerkung": "1,20 € / 9,55 € je 1M In/Out, 'Cloud: Azure, Server Location: Sweden, Data Processing: EU'. Proprietäres Modell, Weiterleitung an Microsoft Azure; es gelten dessen Datenbedingungen.",
+      "anmerkung": "1,20 € / 9,55 € je 1M In/Out, 'Hosted on Microsoft Azure (EU regions).' (Wortlaut 09.10.2026; bis 03.10. 'Server Location: Sweden'). Die Enterprise-Trust-Seite nennt für die GPT-5-Familie 'Microsoft Azure (France/Sweden)'. Proprietäres Modell, Weiterleitung an Microsoft Azure; es gelten dessen Datenbedingungen.",
       "backup_standort": {
         "wert": null,
         "status": "unbelegt",
@@ -110,13 +110,13 @@
     },
     {
       "name": "Claude 4.6 Sonnet",
-      "standort": "GCP, Europa",
+      "standort": "GCP oder Azure, Region nicht genannt",
       "preis_input_1m_eur": 2.97,
       "preis_output_1m_eur": 14.85,
       "quelle": "https://docs.llmhub.t-systems.net/models/llms/",
       "geprueft": "2026-10-09",
       "status": "belegt",
-      "anmerkung": "2,97 € / 14,85 € je 1M In/Out, 'Cloud: GCP, Server Location: Europe, Data Processing: EU' (Preisliste nennt die Cloud teils als 'GCP / Azure'). Via Google Cloud (Europa); Gateway-Funktion, keine T-Cloud-Hosting-Garantie.",
+      "anmerkung": "2,97 € / 14,85 € je 1M In/Out, 'GCP / Azure', 'Google Cloud Platform & Microsoft Azure' (Wortlaut 09.10.2026). Bis 03.10. stand hier 'Cloud: GCP, Server Location: Europe, Data Processing: EU'; am 09.10. nennt die Seite keine Region mehr. Die Enterprise-Trust-Seite (09.10.2026) führt Claude 4.6 in Kategorie 2: 'on Google Cloud or Microsoft Azure', 'The third-party provider may operate sub-processors worldwide, so customer data may be processed worldwide'. Ein Standort in Europa ist damit nicht mehr belegt; Gateway-Funktion, keine T-Cloud-Hosting-Garantie.",
       "backup_standort": {
         "wert": null,
         "status": "unbelegt",

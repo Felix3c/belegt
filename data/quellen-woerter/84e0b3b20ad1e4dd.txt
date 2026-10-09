@@ -29,7 +29,7 @@
 (GDPR)
 (HTTPS)
 (HTTPS)
-(JEV)
+(Jefan)
 (LLMs)
 (PDF)
 (PDF)

@@ -6891,7 +6891,7 @@
           "quelle": "https://docs.llmhub.t-systems.net/models/llms/",
           "geprueft": "2026-10-09",
           "status": "belegt",
-          "anmerkung": "Modellgenauer Preis seit 03.10.2026 öffentlich auf /models/llms/ (zuvor nur Beispielpreis auf /models/): 0,60 € / 1,20 € je 1M In/Out, 'Cloud: T-Cloud, Server Location: Germany, Data Processing: Germany'. Tarife: Essential 1.000 €/Monat, Professional 3.000 €, Agentic 5.000 € (andere Seite, nicht erneut geprüft).",
+          "anmerkung": "Modellgenauer Preis seit 03.10.2026 öffentlich auf /models/llms/ (zuvor nur Beispielpreis auf /models/): 0,60 € / 1,20 € je 1M In/Out, „Hosted on T-Cloud Public — Telekom's sovereign infrastructure in Germany.“ (Wortlaut 09.10.2026; bis 03.10. 'Cloud: T-Cloud, Server Location: Germany, Data Processing: Germany', Inhalt gleich). Tarife: Essential 1.000 €/Monat, Professional 3.000 €, Agentic 5.000 € (andere Seite, nicht erneut geprüft).",
           "backup_standort": {
             "wert": null,
             "status": "unbelegt",
@@ -6915,7 +6915,7 @@
           "quelle": "https://docs.llmhub.t-systems.net/models/llms/",
           "geprueft": "2026-10-09",
           "status": "belegt",
-          "anmerkung": "0,20 € / 0,65 € je 1M In/Out, 'T-Cloud, Germany' — entspricht dem früheren Beispielpreis, jetzt als modellgenauer Preis bestätigt.",
+          "anmerkung": "0,20 € / 0,65 € je 1M In/Out, „Hosted on T-Cloud Public — Telekom's sovereign infrastructure in Germany.“ (Wortlaut 09.10.2026) — entspricht dem früheren Beispielpreis, jetzt als modellgenauer Preis bestätigt.",
           "backup_standort": {
             "wert": null,
             "status": "unbelegt",
@@ -6933,13 +6933,13 @@
         },
         {
           "name": "GPT-5",
-          "standort": "Azure, Schweden",
+          "standort": "Azure, EU-Regionen (Frankreich/Schweden)",
           "preis_input_1m_eur": 1.2,
           "preis_output_1m_eur": 9.55,
           "quelle": "https://docs.llmhub.t-systems.net/models/llms/",
           "geprueft": "2026-10-09",
           "status": "belegt",
-          "anmerkung": "1,20 € / 9,55 € je 1M In/Out, 'Cloud: Azure, Server Location: Sweden, Data Processing: EU'. Proprietäres Modell, Weiterleitung an Microsoft Azure; es gelten dessen Datenbedingungen.",
+          "anmerkung": "1,20 € / 9,55 € je 1M In/Out, 'Hosted on Microsoft Azure (EU regions).' (Wortlaut 09.10.2026; bis 03.10. 'Server Location: Sweden'). Die Enterprise-Trust-Seite nennt für die GPT-5-Familie 'Microsoft Azure (France/Sweden)'. Proprietäres Modell, Weiterleitung an Microsoft Azure; es gelten dessen Datenbedingungen.",
           "backup_standort": {
             "wert": null,
             "status": "unbelegt",
@@ -6957,13 +6957,13 @@
         },
         {
           "name": "Claude 4.6 Sonnet",
-          "standort": "GCP, Europa",
+          "standort": "GCP oder Azure, Region nicht genannt",
           "preis_input_1m_eur": 2.97,
           "preis_output_1m_eur": 14.85,
           "quelle": "https://docs.llmhub.t-systems.net/models/llms/",
           "geprueft": "2026-10-09",
           "status": "belegt",
-          "anmerkung": "2,97 € / 14,85 € je 1M In/Out, 'Cloud: GCP, Server Location: Europe, Data Processing: EU' (Preisliste nennt die Cloud teils als 'GCP / Azure'). Via Google Cloud (Europa); Gateway-Funktion, keine T-Cloud-Hosting-Garantie.",
+          "anmerkung": "2,97 € / 14,85 € je 1M In/Out, 'GCP / Azure', 'Google Cloud Platform & Microsoft Azure' (Wortlaut 09.10.2026). Bis 03.10. stand hier 'Cloud: GCP, Server Location: Europe, Data Processing: EU'; am 09.10. nennt die Seite keine Region mehr. Die Enterprise-Trust-Seite (09.10.2026) führt Claude 4.6 in Kategorie 2: 'on Google Cloud or Microsoft Azure', 'The third-party provider may operate sub-processors worldwide, so customer data may be processed worldwide'. Ein Standort in Europa ist damit nicht mehr belegt; Gateway-Funktion, keine T-Cloud-Hosting-Garantie.",
           "backup_standort": {
             "wert": null,
             "status": "unbelegt",
@@ -7767,7 +7767,10 @@
       "quelle_alt": "https://gcore.com/legal",
       "quelle_neu": "https://assets.gcore.pro/site/legal/Gcore_List_of_subprocessors_25_11__2025.pdf",
       "grund": "Öffentliche Liste 'List of Personal Data subprocessors' (G-Core Labs S.A., Date: 25 November 2025), verlinkt im DPA 10.1 (Tab 'Data Processing Agreement', Stand 17.06.2026: 'The current list of subprocessors is available at link'; Linkziel nur im Browser sichtbar, am 09.10.2026 gelesen). Gilt allgemein für Gcore als Processor, nicht eigens fürs Inference-Produkt: 'The exact list of subprocessors that process the Personal Data of an individual Customer will depend on which specific Gcore services the Customer chooses to use.' 13 Einträge: 10 Gcore-Gesellschaften (Deutschland, Luxemburg, Litauen, Polen, Zypern, USA, Serbien, Philippinen, Georgien, Usbekistan), dazu Microsoft Ireland (Microsoft 365), Zendesk Inc (USA, Ticketing), HubSpot Ireland (CRM). Änderungen laut DPA 10.1 mit 15 Tagen Vorankündigung und Widerspruchsrecht. Die Liste ist älter als der DPA; ob sie noch vollständig ist, ungeklärt. Rohkopie belege/anbieter/gcore/ (SHA-256 ee96b623…), Archivkopie web.archive.org/web/20261009104129/https://assets.gcore.pro/site/legal/Gcore_List_of_subprocessors_25_11__2025.pdf",
-      "commit": null
+      "commit": {
+        "sha": "62c0f69",
+        "betreff": "fix: Gcore Subprozessoren-Liste (DPA 10.1) und Lyceum-DPA aus dem Trust Center belegt"
+      }
     },
     {
       "datum": "2026-10-09",
@@ -7892,7 +7895,10 @@
       "quelle_alt": "https://trust.lyceum.technology/",
       "quelle_neu": "https://trust.lyceum.technology/doc/trust?rid=6a7c197ee2fcaed7c65be63c&r=c4qofycqho2osff5cnm92x",
       "grund": "DPA ('Annex 1 Data Processing Agreement', Lyceum Technology Germany GmbH, 10 Seiten, ohne Datum) liegt im Trust Center öffentlich zum Ansehen und Herunterladen, ohne Zugangsanfrage (am 09.10.2026 im Browser und per Direktabruf gelesen; nur die TOMs brauchen eine Anfrage). Die AGB nennen den AVV als 'Annex 1'. Enthält Schedule 1 'Zero Data Retention Policy for Inference Services'. Rohkopie belege/anbieter/lyceum/ (SHA-256 86095503…), Archivkopie web.archive.org/web/20261009104347/https://trust.lyceum.technology/doc/trust?rid=6a7c197ee2fcaed7c65be63c&r=c4qofycqho2osff5cnm92x",
-      "commit": null
+      "commit": {
+        "sha": "62c0f69",
+        "betreff": "fix: Gcore Subprozessoren-Liste (DPA 10.1) und Lyceum-DPA aus dem Trust Center belegt"
+      }
     },
     {
       "datum": "2026-10-09",
@@ -7905,7 +7911,10 @@
       "quelle_alt": "https://lyceum.technology/legal/terms",
       "quelle_neu": "https://trust.lyceum.technology/doc/trust?rid=6a7c197ee2fcaed7c65be63c&r=c4qofycqho2osff5cnm92x",
       "grund": "DPA (öffentlich im Trust Center, 09.10.2026) 4.1: 'The Controller is responsible for the lawfulness of the data processing and the protection of the rights of the data subjects'; 6.3: der Processor 'shall, where possible, assist the Controller ... to respond to requests from data subjects'; 6.4: wendet sich eine betroffene Person an Lyceum, darf Lyceum sie an den Kunden verweisen. AGB Ziff. 17.4: Lyceum 'shall act as a processor'.",
-      "commit": null
+      "commit": {
+        "sha": "62c0f69",
+        "betreff": "fix: Gcore Subprozessoren-Liste (DPA 10.1) und Lyceum-DPA aus dem Trust Center belegt"
+      }
     },
     {
       "datum": "2026-10-09",
@@ -7918,7 +7927,10 @@
       "quelle_alt": "https://lyceum.technology/legal/terms",
       "quelle_neu": "https://trust.lyceum.technology/doc/trust?rid=6a7c197ee2fcaed7c65be63c&r=c4qofycqho2osff5cnm92x",
       "grund": "Keine Frist. DPA Schedule 1, 2.1 (09.10.2026): der Processor 'may retain system logs and other metadata that do not contain Customer Content or personal data', ohne Dauer; Inhalte unter den Ausnahmen in 2.2 nur 'for the minimum period strictly necessary' (2.3). AGB, Datenschutzerklärung und Modellseite nennen ebenfalls keine Frist; die Doku beschreibt Loki-Logs nur für Serverless-Runs (stdout/stderr), ohne Frist (08.10.2026).",
-      "commit": null
+      "commit": {
+        "sha": "62c0f69",
+        "betreff": "fix: Gcore Subprozessoren-Liste (DPA 10.1) und Lyceum-DPA aus dem Trust Center belegt"
+      }
     },
     {
       "datum": "2026-10-09",
@@ -7931,7 +7943,10 @@
       "quelle_alt": "https://lyceum.technology/legal/terms",
       "quelle_neu": "https://trust.lyceum.technology/doc/trust?rid=6a7c197ee2fcaed7c65be63c&r=c4qofycqho2osff5cnm92x",
       "grund": "DPA Schedule 1, 2.1 (öffentlich im Trust Center, 09.10.2026): System-Logs und Metadaten ohne Kundeninhalt oder personenbezogene Daten 'for the purposes of operating, securing, and performing analytics in relation to the Inference Service, including for capacity planning, performance monitoring, and usage analytics'; Kundeninhalte nur unter den Ausnahmen 2.2 a–d.",
-      "commit": null
+      "commit": {
+        "sha": "62c0f69",
+        "betreff": "fix: Gcore Subprozessoren-Liste (DPA 10.1) und Lyceum-DPA aus dem Trust Center belegt"
+      }
     },
     {
       "datum": "2026-10-09",
@@ -7944,7 +7959,10 @@
       "quelle_alt": "https://lyceum.technology/legal/terms",
       "quelle_neu": "https://trust.lyceum.technology/doc/trust?rid=6a7c197ee2fcaed7c65be63c&r=c4qofycqho2osff5cnm92x",
       "grund": "DPA Schedule 1 'Zero Data Retention Policy for Inference Services' (öffentlich im Trust Center, 09.10.2026), 2.2: 'the Processor shall not retain Customer Content following the completion of the individual processing request, except to the limited extent required: a) by applicable law or binding regulatory order; b) for fraud prevention or abuse detection; c) for cybersecurity purposes; or d) to ensure the stability and integrity of the Inference Service'; 2.3 nur 'for the minimum period strictly necessary', keine Frist. Zusage also mit vier Ausnahmen. Die Modellseite sagt ohne Einschränkung 'Prompts and outputs are processed, not stored, and never used for training'; AGB Ziff. 5.2 (04.10.2026, 08.10. unverändert): nicht gespeichert 'beyond what is technically necessary'.",
-      "commit": null
+      "commit": {
+        "sha": "62c0f69",
+        "betreff": "fix: Gcore Subprozessoren-Liste (DPA 10.1) und Lyceum-DPA aus dem Trust Center belegt"
+      }
     },
     {
       "datum": "2026-10-09",
