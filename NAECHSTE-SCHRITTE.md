@@ -5,6 +5,13 @@ Antwort seit 14.09. live, Status „beantwortet“. LinkedIn: keine Antwort auf 
 **Führendes Dokument:** `MESSUNG.md` (Kill-Kriterien) · Ziel-Satz in `~/THESE.md`
 **Phase:** live, 4 Fälle, Engpass ist nicht mehr Code, sondern Rücklauf von außen. Erster Anbieter, der eine Korrektur wörtlich ankündigt: Scaleway (14.09.).
 
+## Neu 09.10.2026 14:35 (Dauerlauf K1, Frage 222 b): Historie bereinigt, Force-Push vorbereitet
+
+- Felix 09.10. 14:10: „222 b steht (Historie bereinigen, Force-Push vorbereiten und Befehl zeigen)“. Push macht Felix.
+- Skript `~/allein/tmp/k1-force-push.sh`: klont `~/belegt` frisch, entfernt die beiden internen Fachantwort-Notizen aus allen Commits, ersetzt Wortlaut, Namen und Kanzleien in allen früheren Fassungen (auch Commit-Nachrichten), prüft 0 Treffer, Tests, Build, Archivcheck. Probe 14:33: 0 Treffer, 294 → 294 Commits, 129/129 Tests, Build + Archivcheck ok; Inhalt des aktuellen Stands ändert sich nur in `.gitignore` (Muster `07-*fachantwort*`, `08-*fachantwort*`) und einer Zeile hier.
+- **Befehl für Felix:** `bash ~/allein/tmp/k1-force-push.sh` (Probe) und dann `bash ~/allein/tmp/k1-force-push.sh --push`. Danach steht `~/belegt` auf der neuen Historie, die alte bleibt lokal als Zweig `vor-bereinigung-0910`; nur bei sauberem Arbeitsbaum.
+- Bringt alle 45+ lokalen Commits mit online (u. a. 216-Korrekturen `2bf618b`, TISAX-Hinweis, Fall-Entwurf 006 bleibt Entwurf). Ungeklärt: wie lange GitHub alte Commit-Links aus dem Cache ausliefert; sicher entfernt nur per Anfrage an den GitHub-Support (Formular „Remove data from a repository“).
+
 ## Neu 09.10.2026 13:37 (Dauerlauf, Laufend): TISAX-Gültigkeit
 
 - **ENX-Bedingungen** (TISAX Participation GTC v3.0.2 vom 12.07.2023, `enx.com/tisaxgtcen.pdf`, SHA-256 `ac864878…5a753535`), XII.1: „Assessment Results shall have validity of a maximum period of 36 months.“ XII.2: nach Ablauf kein Gebrauch von Name/Logo bis zur neuen Bewertung.
