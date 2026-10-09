@@ -119,11 +119,11 @@
       "anmerkung": "MSA nennt das Data Processing Agreement als 'integral and essential part' des Vertrags; Drittlandtransfers über EU-Standardvertragsklauseln (MSA §9.5.3). DPA-Volltext liegt in einem Tab des Legal-Portals, als Einzeldokument nicht direkt verlinkbar"
     },
     "subprozessoren": {
-      "wert": null,
-      "status": "beansprucht",
-      "quelle": "https://gcore.com/legal",
+      "wert": "https://assets.gcore.pro/site/legal/Gcore_List_of_subprocessors_25_11__2025.pdf",
+      "status": "belegt",
+      "quelle": "https://assets.gcore.pro/site/legal/Gcore_List_of_subprocessors_25_11__2025.pdf",
       "geprueft": "2026-10-09",
-      "anmerkung": "Keine dedizierte Subprozessoren-Liste fürs Inference-Produkt. MSA §9.4 nennt Dienstleister (HubSpot, Google, Microsoft, Adyen, Slack, Zendesk) im Controller-Kontext — ausdrücklich 'not exhaustive', Details nur auf Anfrage an privacy@gcore.lu"
+      "anmerkung": "Öffentliche Liste 'List of Personal Data subprocessors' (G-Core Labs S.A., Date: 25 November 2025), verlinkt im DPA 10.1 (Tab 'Data Processing Agreement', Stand 17.06.2026: 'The current list of subprocessors is available at link'; Linkziel nur im Browser sichtbar, am 09.10.2026 gelesen). Gilt allgemein für Gcore als Processor, nicht eigens fürs Inference-Produkt: 'The exact list of subprocessors that process the Personal Data of an individual Customer will depend on which specific Gcore services the Customer chooses to use.' 13 Einträge: 10 Gcore-Gesellschaften (Deutschland, Luxemburg, Litauen, Polen, Zypern, USA, Serbien, Philippinen, Georgien, Usbekistan), dazu Microsoft Ireland (Microsoft 365), Zendesk Inc (USA, Ticketing), HubSpot Ireland (CRM). Änderungen laut DPA 10.1 mit 15 Tagen Vorankündigung und Widerspruchsrecht. Die Liste ist älter als der DPA; ob sie noch vollständig ist, ungeklärt. Rohkopie belege/anbieter/gcore/ (SHA-256 ee96b623…), Archivkopie web.archive.org/web/20261009104129/https://assets.gcore.pro/site/legal/Gcore_List_of_subprocessors_25_11__2025.pdf"
     },
     "training_opt_out": {
       "wert": null,
@@ -289,7 +289,7 @@
   ],
   "geprueft": "2026-10-09",
   "url": "https://belegbar.eu/anbieter/gcore/",
-  "beleg_quote_prozent": 46,
+  "beleg_quote_prozent": 54,
   "zuletzt_geprueft": "2026-10-09",
   "rechtsraum": {
     "land": "LU",

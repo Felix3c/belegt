@@ -1751,11 +1751,11 @@
           "anmerkung": "MSA nennt das Data Processing Agreement als 'integral and essential part' des Vertrags; Drittlandtransfers über EU-Standardvertragsklauseln (MSA §9.5.3). DPA-Volltext liegt in einem Tab des Legal-Portals, als Einzeldokument nicht direkt verlinkbar"
         },
         "subprozessoren": {
-          "wert": null,
-          "status": "beansprucht",
-          "quelle": "https://gcore.com/legal",
+          "wert": "https://assets.gcore.pro/site/legal/Gcore_List_of_subprocessors_25_11__2025.pdf",
+          "status": "belegt",
+          "quelle": "https://assets.gcore.pro/site/legal/Gcore_List_of_subprocessors_25_11__2025.pdf",
           "geprueft": "2026-10-09",
-          "anmerkung": "Keine dedizierte Subprozessoren-Liste fürs Inference-Produkt. MSA §9.4 nennt Dienstleister (HubSpot, Google, Microsoft, Adyen, Slack, Zendesk) im Controller-Kontext — ausdrücklich 'not exhaustive', Details nur auf Anfrage an privacy@gcore.lu"
+          "anmerkung": "Öffentliche Liste 'List of Personal Data subprocessors' (G-Core Labs S.A., Date: 25 November 2025), verlinkt im DPA 10.1 (Tab 'Data Processing Agreement', Stand 17.06.2026: 'The current list of subprocessors is available at link'; Linkziel nur im Browser sichtbar, am 09.10.2026 gelesen). Gilt allgemein für Gcore als Processor, nicht eigens fürs Inference-Produkt: 'The exact list of subprocessors that process the Personal Data of an individual Customer will depend on which specific Gcore services the Customer chooses to use.' 13 Einträge: 10 Gcore-Gesellschaften (Deutschland, Luxemburg, Litauen, Polen, Zypern, USA, Serbien, Philippinen, Georgien, Usbekistan), dazu Microsoft Ireland (Microsoft 365), Zendesk Inc (USA, Ticketing), HubSpot Ireland (CRM). Änderungen laut DPA 10.1 mit 15 Tagen Vorankündigung und Widerspruchsrecht. Die Liste ist älter als der DPA; ob sie noch vollständig ist, ungeklärt. Rohkopie belege/anbieter/gcore/ (SHA-256 ee96b623…), Archivkopie web.archive.org/web/20261009104129/https://assets.gcore.pro/site/legal/Gcore_List_of_subprocessors_25_11__2025.pdf"
         },
         "training_opt_out": {
           "wert": null,
@@ -1921,7 +1921,7 @@
       ],
       "geprueft": "2026-10-09",
       "url": "https://belegbar.eu/anbieter/gcore/",
-      "beleg_quote_prozent": 46,
+      "beleg_quote_prozent": 54,
       "zuletzt_geprueft": "2026-10-09",
       "rechtsraum": {
         "land": "LU",
@@ -3517,18 +3517,18 @@
       ],
       "vertrag": {
         "avv": {
-          "wert": "https://trust.lyceum.technology/",
+          "wert": "https://trust.lyceum.technology/doc/trust?rid=6a7c197ee2fcaed7c65be63c&r=c4qofycqho2osff5cnm92x",
           "status": "belegt",
-          "quelle": "https://trust.lyceum.technology/",
+          "quelle": "https://trust.lyceum.technology/doc/trust?rid=6a7c197ee2fcaed7c65be63c&r=c4qofycqho2osff5cnm92x",
           "geprueft": "2026-10-09",
-          "anmerkung": "DPA als Ressource im Trust Center gelistet (neben TOMs); direkter Dokumentenzugriff ggf. erst nach Anfrage"
+          "anmerkung": "DPA ('Annex 1 Data Processing Agreement', Lyceum Technology Germany GmbH, 10 Seiten, ohne Datum) liegt im Trust Center öffentlich zum Ansehen und Herunterladen, ohne Zugangsanfrage (am 09.10.2026 im Browser und per Direktabruf gelesen; nur die TOMs brauchen eine Anfrage). Die AGB nennen den AVV als 'Annex 1'. Enthält Schedule 1 'Zero Data Retention Policy for Inference Services'. Rohkopie belege/anbieter/lyceum/ (SHA-256 86095503…), Archivkopie web.archive.org/web/20261009104347/https://trust.lyceum.technology/doc/trust?rid=6a7c197ee2fcaed7c65be63c&r=c4qofycqho2osff5cnm92x"
         },
         "subprozessoren": {
           "wert": null,
           "status": "beansprucht",
           "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/",
           "geprueft": "2026-10-09",
-          "anmerkung": "Keine öffentliche Liste; 'DPA with named sub-processors available on request' (Abruf 08.10.2026 wörtlich; dazu 'will name the sub-processors involved in a DPA on request')"
+          "anmerkung": "Keine öffentliche Liste. DPA 7.1 (öffentlich im Trust Center, 09.10.2026): 'The Processor engages sub-processors in two separate categories, depending on how the Customer procures the Service' und 'The current list of sub-processors for each category shall be made available to the Controller upon request'; Widerspruch gegen neue Subprozessoren binnen 10 Werktagen (7.2), Drittlandtransfer mit Standardvertragsklauseln erlaubt (8.2). Ebenso der C5-Artikel (Abruf 08.10.2026): 'DPA with named sub-processors available on request'."
         },
         "training_opt_out": {
           "wert": true,
@@ -3540,9 +3540,9 @@
         "zero_data_retention": {
           "wert": true,
           "status": "belegt",
-          "quelle": "https://lyceum.technology/legal/terms",
+          "quelle": "https://trust.lyceum.technology/doc/trust?rid=6a7c197ee2fcaed7c65be63c&r=c4qofycqho2osff5cnm92x",
           "geprueft": "2026-10-09",
-          "anmerkung": "AGB Ziff. 5.2 (Abruf 04.10.2026, am 08.10.2026 unverändert; die Modellseite sagt zusätzlich 'Prompts and outputs are processed, not stored, and never used for training'): Inference-Inputs/-Outputs werden nicht gespeichert beyond what is technically necessary — gleiche Formel wie bei DeepL (Pro-AGB 3.1.2). Keine Frist, keine Aussage zu Logs/Metadaten; die Datenschutzerklärung regelt nur Website-/Kontodaten (Speicherung so lange wie nötig)."
+          "anmerkung": "DPA Schedule 1 'Zero Data Retention Policy for Inference Services' (öffentlich im Trust Center, 09.10.2026), 2.2: 'the Processor shall not retain Customer Content following the completion of the individual processing request, except to the limited extent required: a) by applicable law or binding regulatory order; b) for fraud prevention or abuse detection; c) for cybersecurity purposes; or d) to ensure the stability and integrity of the Inference Service'; 2.3 nur 'for the minimum period strictly necessary', keine Frist. Zusage also mit vier Ausnahmen. Die Modellseite sagt ohne Einschränkung 'Prompts and outputs are processed, not stored, and never used for training'; AGB Ziff. 5.2 (04.10.2026, 08.10. unverändert): nicht gespeichert 'beyond what is technically necessary'."
         },
         "zweckbindung": {
           "wert": true,
@@ -3552,25 +3552,25 @@
           "anmerkung": "AGB Ziff. 5.2 wörtlich: 'for the specific \"Inference\" product, any inputs and outputs are only processed to generate the respective result for the Customer and are not stored beyond what is technically necessary for this purpose, nor used for training, improvement or analysis of the Provider's or any third party's AI, LLM or other machine learning models.' Ziff. 17.2: 'prohibited from processing personal data obtained in the context of the contract for any purpose other than the purpose of fulfilling the respective task'."
         },
         "betroffenenrechte_traeger": {
-          "wert": null,
-          "status": "unbelegt",
-          "quelle": "https://lyceum.technology/legal/terms",
+          "wert": "auftraggeber",
+          "status": "belegt",
+          "quelle": "https://trust.lyceum.technology/doc/trust?rid=6a7c197ee2fcaed7c65be63c&r=c4qofycqho2osff5cnm92x",
           "geprueft": "2026-10-09",
-          "anmerkung": "AGB Ziff. 17.4: Lyceum 'shall act as a processor'; der AVV nach Art. 28 DSGVO ist 'Annex 1' der AGB, aber nicht öffentlich (Trust Center listet ihn, Zugriff erst auf Anfrage). Ziff. 17.3 legt die datenschutzrechtliche Verantwortung beim Kunden; eine Klausel zu Betroffenenanfragen ist öffentlich nicht einsehbar."
+          "anmerkung": "DPA (öffentlich im Trust Center, 09.10.2026) 4.1: 'The Controller is responsible for the lawfulness of the data processing and the protection of the rights of the data subjects'; 6.3: der Processor 'shall, where possible, assist the Controller ... to respond to requests from data subjects'; 6.4: wendet sich eine betroffene Person an Lyceum, darf Lyceum sie an den Kunden verweisen. AGB Ziff. 17.4: Lyceum 'shall act as a processor'."
         },
         "log_frist": {
           "wert": null,
           "status": "unbelegt",
-          "quelle": "https://lyceum.technology/legal/terms",
+          "quelle": "https://trust.lyceum.technology/doc/trust?rid=6a7c197ee2fcaed7c65be63c&r=c4qofycqho2osff5cnm92x",
           "geprueft": "2026-10-09",
-          "anmerkung": "Keine Frist für Protokolle zu Inference-Anfragen: AGB (Ziff. 5.2 nur 'not stored beyond what is technically necessary'), Datenschutzerklärung ('We store personal data only as long as necessary for the intended purpose', betrifft Website-/Kontodaten) und Modellseite ('processed, not stored') nennen keine Frist. Die Doku beschreibt Loki-Logs nur für Serverless-Runs (stdout/stderr), ohne Frist. Geprüft 08.10.2026."
+          "anmerkung": "Keine Frist. DPA Schedule 1, 2.1 (09.10.2026): der Processor 'may retain system logs and other metadata that do not contain Customer Content or personal data', ohne Dauer; Inhalte unter den Ausnahmen in 2.2 nur 'for the minimum period strictly necessary' (2.3). AGB, Datenschutzerklärung und Modellseite nennen ebenfalls keine Frist; die Doku beschreibt Loki-Logs nur für Serverless-Runs (stdout/stderr), ohne Frist (08.10.2026)."
         },
         "log_zweck": {
-          "wert": null,
-          "status": "unbelegt",
-          "quelle": "https://lyceum.technology/legal/terms",
+          "wert": "Betrieb, Absicherung und Auswertung (Kapazitätsplanung, Leistungsüberwachung, Nutzungsanalyse); Inhalte nur ausnahmsweise für Rechtspflichten, Betrugs-/Missbrauchserkennung, Cybersicherheit, Stabilität",
+          "status": "belegt",
+          "quelle": "https://trust.lyceum.technology/doc/trust?rid=6a7c197ee2fcaed7c65be63c&r=c4qofycqho2osff5cnm92x",
           "geprueft": "2026-10-09",
-          "anmerkung": "Kein Zweck für Anfrage-Protokolle genannt (AGB, Datenschutzerklärung, Modellseite und docs.lyceum.technology, Abruf 08.10.2026)."
+          "anmerkung": "DPA Schedule 1, 2.1 (öffentlich im Trust Center, 09.10.2026): System-Logs und Metadaten ohne Kundeninhalt oder personenbezogene Daten 'for the purposes of operating, securing, and performing analytics in relation to the Inference Service, including for capacity planning, performance monitoring, and usage analytics'; Kundeninhalte nur unter den Ausnahmen 2.2 a–d."
         }
       },
       "zertifikate": [
@@ -3610,7 +3610,7 @@
           "status": "unbelegt",
           "quelle": "https://lyceum.technology/magazine/c5-certification-gpu-cloud-germany/",
           "geprueft": "2026-10-09",
-          "anmerkung": "Laut eigener Aussage aktuell nicht zertifiziert; Trust Center listet eine 'ISO Certification'-Ressource (vermutlich RZ-Zertifikat) — Widerspruch vor Vertragsschluss klären",
+          "anmerkung": "Laut eigener Aussage aktuell nicht zertifiziert. Die Trust-Center-Ressource unter 'ISO Certification' ist kein Zertifikat, sondern ein 'Vanta branded Engagement Letter' (öffentlich, am 09.10.2026 gelesen): 'Lyceum has committed to produce an ISO 27001 2022 Report, with the audit engagement projected to start on August 31, 2026.' Aussteller ist Vanta (Plattform), keine Zertifizierungsstelle; kein Widerspruch zur eigenen Aussage. Rohkopie belege/anbieter/lyceum/ (SHA-256 c97b4ad5…), Archivkopie web.archive.org/web/20261009104354/https://trust.lyceum.technology/doc/trust?rid=6a42376c524abf241477a8e9&r=c4qofycqho2osff5cnm92x",
           "anwendungsbereich": {
             "wert": null,
             "status": "unbelegt",
@@ -7759,6 +7759,19 @@
     {
       "datum": "2026-10-09",
       "anbieter": "gcore",
+      "typ": "status",
+      "pfad": "vertrag.subprozessoren",
+      "feld": "Subprozessoren-Liste",
+      "alt": "beansprucht",
+      "neu": "belegt",
+      "quelle_alt": "https://gcore.com/legal",
+      "quelle_neu": "https://assets.gcore.pro/site/legal/Gcore_List_of_subprocessors_25_11__2025.pdf",
+      "grund": "Öffentliche Liste 'List of Personal Data subprocessors' (G-Core Labs S.A., Date: 25 November 2025), verlinkt im DPA 10.1 (Tab 'Data Processing Agreement', Stand 17.06.2026: 'The current list of subprocessors is available at link'; Linkziel nur im Browser sichtbar, am 09.10.2026 gelesen). Gilt allgemein für Gcore als Processor, nicht eigens fürs Inference-Produkt: 'The exact list of subprocessors that process the Personal Data of an individual Customer will depend on which specific Gcore services the Customer chooses to use.' 13 Einträge: 10 Gcore-Gesellschaften (Deutschland, Luxemburg, Litauen, Polen, Zypern, USA, Serbien, Philippinen, Georgien, Usbekistan), dazu Microsoft Ireland (Microsoft 365), Zendesk Inc (USA, Ticketing), HubSpot Ireland (CRM). Änderungen laut DPA 10.1 mit 15 Tagen Vorankündigung und Widerspruchsrecht. Die Liste ist älter als der DPA; ob sie noch vollständig ist, ungeklärt. Rohkopie belege/anbieter/gcore/ (SHA-256 ee96b623…), Archivkopie web.archive.org/web/20261009104129/https://assets.gcore.pro/site/legal/Gcore_List_of_subprocessors_25_11__2025.pdf",
+      "commit": null
+    },
+    {
+      "datum": "2026-10-09",
+      "anbieter": "gcore",
       "typ": "quelle",
       "pfad": "zertifikate[ISO/IEC 27001]",
       "feld": "Zertifikat ISO/IEC 27001",
@@ -7867,6 +7880,71 @@
         "sha": "2bf618b",
         "betreff": "data: Frage 210 – veraltete Profilangaben korrigiert (14 Anbieter, Abruf 09.10.)"
       }
+    },
+    {
+      "datum": "2026-10-09",
+      "anbieter": "lyceum",
+      "typ": "quelle",
+      "pfad": "vertrag.avv",
+      "feld": "AVV / Auftragsverarbeitungsvertrag",
+      "alt": "belegt",
+      "neu": "belegt",
+      "quelle_alt": "https://trust.lyceum.technology/",
+      "quelle_neu": "https://trust.lyceum.technology/doc/trust?rid=6a7c197ee2fcaed7c65be63c&r=c4qofycqho2osff5cnm92x",
+      "grund": "DPA ('Annex 1 Data Processing Agreement', Lyceum Technology Germany GmbH, 10 Seiten, ohne Datum) liegt im Trust Center öffentlich zum Ansehen und Herunterladen, ohne Zugangsanfrage (am 09.10.2026 im Browser und per Direktabruf gelesen; nur die TOMs brauchen eine Anfrage). Die AGB nennen den AVV als 'Annex 1'. Enthält Schedule 1 'Zero Data Retention Policy for Inference Services'. Rohkopie belege/anbieter/lyceum/ (SHA-256 86095503…), Archivkopie web.archive.org/web/20261009104347/https://trust.lyceum.technology/doc/trust?rid=6a7c197ee2fcaed7c65be63c&r=c4qofycqho2osff5cnm92x",
+      "commit": null
+    },
+    {
+      "datum": "2026-10-09",
+      "anbieter": "lyceum",
+      "typ": "status",
+      "pfad": "vertrag.betroffenenrechte_traeger",
+      "feld": "Betroffenenrechte: wer bedient sie",
+      "alt": "unbelegt",
+      "neu": "belegt",
+      "quelle_alt": "https://lyceum.technology/legal/terms",
+      "quelle_neu": "https://trust.lyceum.technology/doc/trust?rid=6a7c197ee2fcaed7c65be63c&r=c4qofycqho2osff5cnm92x",
+      "grund": "DPA (öffentlich im Trust Center, 09.10.2026) 4.1: 'The Controller is responsible for the lawfulness of the data processing and the protection of the rights of the data subjects'; 6.3: der Processor 'shall, where possible, assist the Controller ... to respond to requests from data subjects'; 6.4: wendet sich eine betroffene Person an Lyceum, darf Lyceum sie an den Kunden verweisen. AGB Ziff. 17.4: Lyceum 'shall act as a processor'.",
+      "commit": null
+    },
+    {
+      "datum": "2026-10-09",
+      "anbieter": "lyceum",
+      "typ": "quelle",
+      "pfad": "vertrag.log_frist",
+      "feld": "Log-Aufbewahrung (Frist)",
+      "alt": "unbelegt",
+      "neu": "unbelegt",
+      "quelle_alt": "https://lyceum.technology/legal/terms",
+      "quelle_neu": "https://trust.lyceum.technology/doc/trust?rid=6a7c197ee2fcaed7c65be63c&r=c4qofycqho2osff5cnm92x",
+      "grund": "Keine Frist. DPA Schedule 1, 2.1 (09.10.2026): der Processor 'may retain system logs and other metadata that do not contain Customer Content or personal data', ohne Dauer; Inhalte unter den Ausnahmen in 2.2 nur 'for the minimum period strictly necessary' (2.3). AGB, Datenschutzerklärung und Modellseite nennen ebenfalls keine Frist; die Doku beschreibt Loki-Logs nur für Serverless-Runs (stdout/stderr), ohne Frist (08.10.2026).",
+      "commit": null
+    },
+    {
+      "datum": "2026-10-09",
+      "anbieter": "lyceum",
+      "typ": "status",
+      "pfad": "vertrag.log_zweck",
+      "feld": "Log-Aufbewahrung (Zweck)",
+      "alt": "unbelegt",
+      "neu": "belegt",
+      "quelle_alt": "https://lyceum.technology/legal/terms",
+      "quelle_neu": "https://trust.lyceum.technology/doc/trust?rid=6a7c197ee2fcaed7c65be63c&r=c4qofycqho2osff5cnm92x",
+      "grund": "DPA Schedule 1, 2.1 (öffentlich im Trust Center, 09.10.2026): System-Logs und Metadaten ohne Kundeninhalt oder personenbezogene Daten 'for the purposes of operating, securing, and performing analytics in relation to the Inference Service, including for capacity planning, performance monitoring, and usage analytics'; Kundeninhalte nur unter den Ausnahmen 2.2 a–d.",
+      "commit": null
+    },
+    {
+      "datum": "2026-10-09",
+      "anbieter": "lyceum",
+      "typ": "quelle",
+      "pfad": "vertrag.zero_data_retention",
+      "feld": "Zero Data Retention",
+      "alt": "belegt",
+      "neu": "belegt",
+      "quelle_alt": "https://lyceum.technology/legal/terms",
+      "quelle_neu": "https://trust.lyceum.technology/doc/trust?rid=6a7c197ee2fcaed7c65be63c&r=c4qofycqho2osff5cnm92x",
+      "grund": "DPA Schedule 1 'Zero Data Retention Policy for Inference Services' (öffentlich im Trust Center, 09.10.2026), 2.2: 'the Processor shall not retain Customer Content following the completion of the individual processing request, except to the limited extent required: a) by applicable law or binding regulatory order; b) for fraud prevention or abuse detection; c) for cybersecurity purposes; or d) to ensure the stability and integrity of the Inference Service'; 2.3 nur 'for the minimum period strictly necessary', keine Frist. Zusage also mit vier Ausnahmen. Die Modellseite sagt ohne Einschränkung 'Prompts and outputs are processed, not stored, and never used for training'; AGB Ziff. 5.2 (04.10.2026, 08.10. unverändert): nicht gespeichert 'beyond what is technically necessary'.",
+      "commit": null
     },
     {
       "datum": "2026-10-09",

@@ -23,6 +23,11 @@
     "gesehen": "2026-10-09",
     "geaendert": "2026-10-09"
   },
+  "https://assets.gcore.pro/site/legal/Gcore_List_of_subprocessors_25_11__2025.pdf": {
+    "hash": "b8a0e5252023421c",
+    "gesehen": "2026-10-09",
+    "geaendert": "2026-10-09"
+  },
   "https://assets.nebius.com/assets/096a71d3-c011-4a50-b51d-bb81a1387bb5/p1336800343_FFPDF-English-1128184.PDF": {
     "hash": "1a90ddac7cc28273",
     "gesehen": "2026-10-09",
@@ -195,12 +200,16 @@
   "https://docs.llmhub.t-systems.net/models/llms/": {
     "hash": "f49acd9ccf3ec0d8",
     "gesehen": "2026-10-09",
-    "geaendert": "2026-10-09"
+    "geaendert": "2026-10-09",
+    "neu_hash": "cc1c23bfe2c48dc4",
+    "veraendert_seit": "2026-10-09"
   },
   "https://docs.llmhub.t-systems.net/reference/enterprise-trust": {
     "hash": "6c3d859bf13fd543",
     "gesehen": "2026-10-09",
-    "geaendert": "2026-10-09"
+    "geaendert": "2026-10-09",
+    "neu_hash": "66456a80af6145e8",
+    "veraendert_seit": "2026-10-09"
   },
   "https://docs.mistral.ai/admin/monitor-comply/privacy-data-controls": {
     "hash": "a18fc21573e9e18f",
@@ -289,7 +298,9 @@
   "https://eurouter.ai/models": {
     "hash": "fb3f3b167d78a495",
     "gesehen": "2026-10-09",
-    "geaendert": "2026-10-09"
+    "geaendert": "2026-10-09",
+    "neu_hash": "ec3e00b645ee4926",
+    "veraendert_seit": "2026-10-09"
   },
   "https://eurouter.ai/privacy": {
     "hash": "509c24691db32ccd",
@@ -378,7 +389,7 @@
     "hash": "763555eb64fffa70",
     "gesehen": "2026-10-09",
     "geaendert": "2026-10-08",
-    "neu_hash": "85eeda39c8e5891f",
+    "neu_hash": "986d66fcddadf4b8",
     "veraendert_seit": "2026-10-09"
   },
   "https://huggingface.co/Aleph-Alpha/Pharia-1-Embedding-4608-control": {
@@ -667,6 +678,11 @@
     "hash": "dba8dd56e5c919ff",
     "gesehen": "2026-10-09",
     "geaendert": "2026-08-28"
+  },
+  "https://trust.lyceum.technology/doc/trust?rid=6a7c197ee2fcaed7c65be63c&r=c4qofycqho2osff5cnm92x": {
+    "hash": "860955034521281f",
+    "gesehen": "2026-10-09",
+    "geaendert": "2026-10-09"
   },
   "https://trust.mistral.ai/doc/trust?rid=66e31255854bf4b3d0439435&r=szslmcnli5kzjz02knom&download=true": {
     "hash": "20d7717610842f58",
