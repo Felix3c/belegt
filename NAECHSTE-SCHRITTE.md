@@ -5,7 +5,7 @@ Antwort seit 14.09. live, Status „beantwortet“. LinkedIn: keine Antwort auf 
 **Führendes Dokument:** `MESSUNG.md` (Kill-Kriterien) · Ziel-Satz in `~/THESE.md`
 **Phase:** live, 4 Fälle, Engpass ist nicht mehr Code, sondern Rücklauf von außen. Erster Anbieter, der eine Korrektur wörtlich ankündigt: Scaleway (14.09.).
 
-## Neu 09.10.2026 10:00 (Dauerlauf V6): Aufräumen, zwei Fachantworten waren öffentlich
+## Neu 09.10.2026 09:45 (Dauerlauf V6): Aufräumen, zwei Fachantworten waren öffentlich
 
 - **Befund:** Die Notizen `outreach/gespraeche/07-…` und `08-…` (Wortlaut zweier Anwalts-Antworten, eine mit Vertraulichkeits-Hinweis, eine mit ausdrücklich abgelehnter Veröffentlichung) und deren Zitate in dieser Datei sind seit dem Push 08.10. 11:45 auf GitHub abrufbar (raw-Abruf 09.10. ~09:55: HTTP 200). Nicht auf belegbar.eu selbst (404).
 - **Lokal behoben:** beide Notizen aus dem Index genommen (Dateien liegen weiter auf der Platte) und in `.gitignore`; Zitate und Namen hier durch neutrale Zeilen ersetzt. Ebenfalls ignoriert: `ANGEBOT-ENTWURF.md`, `ENTWURF-FESTPREIS-ABSATZ.md`, `outreach/vergaben-2026-09.md`, `outreach/HALLO-DNS-ANLEITUNG.md`, `belege/faelle/*/*.pdf.txt`. Committet: `.github/workflows/quellenlauf.yml`. 123 Tests grün.
