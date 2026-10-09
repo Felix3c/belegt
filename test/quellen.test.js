@@ -270,3 +270,19 @@ test("planeFortschreibung: übernommene Quellen bekommen das Prüfdatum wie unve
   ];
   assert.deepEqual(planeFortschreibung(o, urls), { "deepl.json": { modus: "felder", urls: ["https://www.deepl.com/en/pro-license"] } });
 });
+
+test("pruefeAufruf: bekannte Schalter gehen durch, Tippfehler und fehlende Werte brechen ab, bevor geschrieben wird", () => {
+  const { pruefeAufruf } = require("../lib/quellen.js");
+  assert.deepEqual(pruefeAufruf([]), { ok: true });
+  assert.deepEqual(pruefeAufruf(["--trocken", "--json", "a.json"]), { ok: true });
+  assert.deepEqual(pruefeAufruf(["--uebernehmen-nur", "https://a.eu/", "--uebernehmen-nur", "https://b.eu/x"]), { ok: true });
+  assert.deepEqual(pruefeAufruf(["--uebernehmen"]), { ok: true });
+  assert.equal(pruefeAufruf(["--help"]).hilfe, true);
+  assert.equal(pruefeAufruf(["-h"]).hilfe, true);
+  assert.match(pruefeAufruf(["--trockn"]).fehler, /--trockn/);
+  assert.match(pruefeAufruf(["trocken"]).fehler, /trocken/);
+  assert.match(pruefeAufruf(["--json"]).fehler, /--json/);
+  assert.match(pruefeAufruf(["--uebernehmen-nur"]).fehler, /--uebernehmen-nur/);
+  assert.match(pruefeAufruf(["--uebernehmen-nur", "--trocken"]).fehler, /--uebernehmen-nur/);
+  assert.match(pruefeAufruf(["--uebernehmen", "--uebernehmen-nur", "https://a.eu/"]).fehler, /zusammen/);
+});

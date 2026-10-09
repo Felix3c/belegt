@@ -7,7 +7,8 @@
  *   verändert    → nur Bericht; diese Quellen liest ein Mensch. Danach: --uebernehmen
  *   verschwunden → nur Bericht; Status im Profil von Hand zurücksetzen (siehe linkcheck.js)
  *
- * Aufruf: node quellenlauf.js [--trocken] [--uebernehmen] [--json datei]
+ * Aufruf: node quellenlauf.js [--trocken] [--uebernehmen | --uebernehmen-nur <URL-Anfang> …] [--json datei] [--help]
+ *   unbekannte Schalter brechen ab, bevor etwas abgerufen oder geschrieben wird
  *   --trocken      nichts schreiben, nur Bericht
  *   --uebernehmen  die beim letzten Lauf als "verändert" gemeldeten Hashes als neue Referenz übernehmen
  *   --uebernehmen-nur <URL-Anfang>  (mehrfach) nur diese von Hand gelesenen "verändert"-Quellen übernehmen;
@@ -51,6 +52,10 @@ function schreibeWoerter(o, uebernehmen) {
 const zeigeWoerter = (liste) => liste.slice(0, WORT_ZEIGEN).map(([w, k]) => (k > 1 ? k + "× " : "") + JSON.stringify(w)).join(", ") + (liste.length > WORT_ZEIGEN ? " … (+" + (liste.length - WORT_ZEIGEN) + ")" : "");
 const zeigeDiff = (e) => !e.wortDiff ? "\n    Wortprotokoll: kein Wortstand zur Referenz (wird beim nächsten unverändert/--uebernehmen angelegt)"
   : "\n    weg:  " + (zeigeWoerter(e.wortDiff.weg) || "–") + "\n    dazu: " + (zeigeWoerter(e.wortDiff.dazu) || "–");
+
+const aufruf = Q.pruefeAufruf(process.argv.slice(2));
+if (aufruf.hilfe) { console.log(fs.readFileSync(__filename, "utf8").match(/\* Aufruf:[\s\S]*?(?=\n \*\n)/)[0].replace(/^ \* ?/gm, "")); process.exit(0); }
+if (aufruf.fehler) { console.error("Abbruch, nichts abgerufen, nichts geschrieben: " + aufruf.fehler + "\n(node quellenlauf.js --help)"); process.exit(2); }
 
 const arg = (n) => process.argv.includes(n);
 const werte = (n) => process.argv.flatMap((a, i) => (a === n && process.argv[i + 1] ? [process.argv[i + 1]] : []));
