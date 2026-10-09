@@ -179,6 +179,15 @@
       ]
     }
   ],
+  "iso_42001": {
+    "status": "unbelegt",
+    "wert": null,
+    "zertifizierer": null,
+    "anwendungsbereich": null,
+    "quelle": null,
+    "geprueft": "2026-10-09",
+    "anmerkung": "Kein Hinweis auf ISO/IEC 42001 gefunden. Die DQS-Kundendatenbank (direkt nicht abrufbar: HTTP 403 bzw. Cloudflare-Pruefung; Inhalt nur ueber Suchmaschinen-Auszug sichtbar) fuehrt Aleph Alpha GmbH mit 'ISO IEC 27001:2022 Informationssicherheits-Managementsystem', nicht mit 42001. aleph-alpha.com/trust/ liefert HTTP 404, die Startseite nennt keine Zertifizierung. Geprüft: https://aleph-alpha.com/, https://aleph-alpha.com/?p=4366, https://aleph-alpha.com/trust/, https://www.dqsglobal.com/en/customer/redirect/31623205, https://www.dqsglobal.com/en/customer-database/?search=Aleph%20Alpha, WebSearch: Aleph Alpha ISO 42001 certification, WebSearch: \"Aleph Alpha GmbH\" DQS certificate ISO"
+  },
   "ai_act": [
     {
       "pflicht": "GPAI Code of Practice unterzeichnet",

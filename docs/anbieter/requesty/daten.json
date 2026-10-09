@@ -208,6 +208,15 @@
       ]
     }
   ],
+  "iso_42001": {
+    "status": "unbelegt",
+    "wert": null,
+    "zertifizierer": null,
+    "anwendungsbereich": null,
+    "quelle": null,
+    "geprueft": "2026-10-09",
+    "anmerkung": "Keine Erwähnung von ISO/IEC 42001. Security-Seite nennt nur SOC 2 Type II als laufend (\"Our SOC 2 Type II programme is in progress.\") und \"We are GDPR compliant.\" Geprüft: https://www.requesty.ai/security, https://trust.requesty.ai/ (nur Titel geladen, Inhalt vermutlich per JavaScript, nicht auswertbar), WebSearch: Requesty \"ISO 42001\""
+  },
   "ai_act": [
     {
       "pflicht": "Transparenz-/Compliance-Angaben zum EU AI Act",

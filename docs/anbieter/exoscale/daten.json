@@ -396,6 +396,15 @@
       ]
     }
   ],
+  "iso_42001": {
+    "status": "unbelegt",
+    "wert": null,
+    "zertifizierer": null,
+    "anwendungsbereich": null,
+    "quelle": null,
+    "geprueft": "2026-10-09",
+    "anmerkung": "Die Compliance-Seite nennt ISO/IEC 27001 ('ISO/IEC 27001 certified since 2018'), 27017, 27018, SOC 2 Type 2, BSI C5 Type 2, HDS und TISAX Level 2. ISO/IEC 42001 und KI-Managementsysteme kommen nicht vor. Geprüft: https://community.exoscale.com/platform/compliance/, https://www.exoscale.com/compliance/ (nur als Suchtreffer), WebSearch: Exoscale ISO 42001"
+  },
   "ai_act": [
     {
       "pflicht": "GPAI Code of Practice unterzeichnet",

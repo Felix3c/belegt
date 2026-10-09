@@ -8,91 +8,91 @@
     "datum": "2026-09-16"
   },
   "aenderungen/": {
-    "hash": "2db9cd7bc1d708a1",
+    "hash": "6e7328e8074cb337",
     "datum": "2026-10-09"
   },
   "anbieter/aleph-alpha/": {
-    "hash": "c57de97979396941",
-    "datum": "2026-10-08"
+    "hash": "ea2f34b4604e9775",
+    "datum": "2026-10-09"
   },
   "anbieter/black-forest-labs/": {
-    "hash": "2d5a26b4e3a09745",
+    "hash": "b8977b50e6ac7f27",
     "datum": "2026-10-09"
   },
   "anbieter/deepl/": {
-    "hash": "b08c556825ad5088",
+    "hash": "5dc6091371ce80d2",
     "datum": "2026-10-09"
   },
   "anbieter/eurouter/": {
-    "hash": "0b1e89d6b6b00d73",
-    "datum": "2026-10-08"
+    "hash": "4e9aee0d9bfed49f",
+    "datum": "2026-10-09"
   },
   "anbieter/exoscale/": {
-    "hash": "b1f7488f1e7f5649",
+    "hash": "431899bde140bab6",
     "datum": "2026-10-09"
   },
   "anbieter/gcore/": {
-    "hash": "884a725d8897767d",
+    "hash": "4b79b0463bcadb92",
     "datum": "2026-10-09"
   },
   "anbieter/greenpt/": {
-    "hash": "8b3c87e43d7c9a29",
-    "datum": "2026-10-08"
+    "hash": "6c680579c30a7ac1",
+    "datum": "2026-10-09"
   },
   "anbieter/hetzner/": {
-    "hash": "aa309f4641cfbf51",
+    "hash": "58fe798d2d88983a",
     "datum": "2026-10-09"
   },
   "anbieter/infomaniak/": {
-    "hash": "0d57cf0c03f432fe",
+    "hash": "b3a61eae64c9fbb2",
     "datum": "2026-10-09"
   },
   "anbieter/ionos/": {
-    "hash": "0c7c0bce4039e4c0",
+    "hash": "2cdb7013ee51c573",
     "datum": "2026-10-09"
   },
   "anbieter/lyceum/": {
-    "hash": "f38ef0fb5c9f58d3",
-    "datum": "2026-10-08"
+    "hash": "2e1442af28aa9ca4",
+    "datum": "2026-10-09"
   },
   "anbieter/mistral/": {
-    "hash": "bbaa14a44e668533",
+    "hash": "c3941dea90446119",
     "datum": "2026-10-09"
   },
   "anbieter/nebius/": {
-    "hash": "0d8eedd1f80d0a40",
+    "hash": "c4177c2ff63ffc18",
     "datum": "2026-10-09"
   },
   "anbieter/nordference/": {
-    "hash": "3ccd6452d37b2829",
-    "datum": "2026-10-08"
+    "hash": "6a7b1ce755213b47",
+    "datum": "2026-10-09"
   },
   "anbieter/opper-ai/": {
-    "hash": "9da4e52a01ac0dd3",
-    "datum": "2026-10-08"
+    "hash": "313fbb092136f747",
+    "datum": "2026-10-09"
   },
   "anbieter/ovhcloud/": {
-    "hash": "f29b4bef53a315e0",
+    "hash": "2a7c48896be19d3b",
     "datum": "2026-10-09"
   },
   "anbieter/regolo/": {
-    "hash": "1d27afa07143ea8b",
+    "hash": "98ea4e810a476b7d",
     "datum": "2026-10-09"
   },
   "anbieter/requesty/": {
-    "hash": "1c4ebab01499b49a",
-    "datum": "2026-10-08"
+    "hash": "a455d228afe348e2",
+    "datum": "2026-10-09"
   },
   "anbieter/scaleway/": {
-    "hash": "35ecef5bae04e8c8",
+    "hash": "a10c7f5811c64e94",
     "datum": "2026-10-09"
   },
   "anbieter/stackit/": {
-    "hash": "46d20880c524f15a",
+    "hash": "5c4fb61561d11672",
     "datum": "2026-10-09"
   },
   "anbieter/t-systems/": {
-    "hash": "86674917795afb9a",
+    "hash": "977bc5230388fbb1",
     "datum": "2026-10-09"
   },
   "datenschutz/": {

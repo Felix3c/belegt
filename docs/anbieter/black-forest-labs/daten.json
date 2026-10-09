@@ -279,6 +279,15 @@
       ]
     }
   ],
+  "iso_42001": {
+    "status": "unbelegt",
+    "wert": null,
+    "zertifizierer": null,
+    "anwendungsbereich": null,
+    "quelle": null,
+    "geprueft": "2026-10-09",
+    "anmerkung": "Das Vanta-Trust-Center (im Browser gerendert) listet unter Compliance nur 'ISO 27001:2022', 'SOC 2' und 'GDPR'; ISO/IEC 42001 kommt nicht vor. Die Websuche ergab keinen Treffer zu BFL und 42001. Geprüft: https://trust.bfl.ai/, WebSearch: Black Forest Labs ISO 42001"
+  },
   "ai_act": [
     {
       "pflicht": "GPAI-Pflichten als Modellanbieter (Art. 53 ff.)",

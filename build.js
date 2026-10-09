@@ -13,6 +13,7 @@ const P = require("./lib/preise.js");
 const Z = require("./lib/zitat.js");
 const E = require("./lib/eintritt.js");
 const PP = require("./lib/pruefpunkte.js");
+const ISO42001 = require("./lib/iso42001.js");
 const eur = P.eur;
 
 const ROOT = __dirname;
@@ -596,6 +597,8 @@ ${eigeneFaelle.map((f) => `  <aside class="fall-hinweis fall-${esc(f.status)}"><
 
   <h2>Zertifikate</h2>
   ${zertHtml}
+
+  ${ISO42001.htmlAbschnitt(p, { esc, statusBadge, quelleLink })}
 
   <h2>AI Act</h2>
   ${aiActHtml}
@@ -1497,6 +1500,8 @@ function llmsFull(providers, guides, fragen, stand) {
         ? (p.zertifikate || []).map((z) => `- ${z.typ}${zertKanon(z.typ).length ? " [normiert: " + zertKanon(z.typ).map((k) => k.schluessel).join(", ") + "]" : ""} [Status: ${z.status}]${z.quelle ? " | Quelle: " + z.quelle : ""}${z.anmerkung ? " | Anmerkung: " + z.anmerkung : ""}`).join("\n")
         : "- keine erfasst",
       "",
+      ISO42001.textZeile(p),
+      "",
       "Prüfpunkte der Datenschutzprüfung (BayLDA-KI-Checkliste S. 9–11; zählen nicht in die Beleg-Quote):",
       ...PP.textZeilen(p),
       "",
@@ -1563,7 +1568,7 @@ function leseAnbieter() {
     .map((f) => {
       const p = JSON.parse(fs.readFileSync(path.join(DATA_DIR, f), "utf8"));
       if (!p.id || !p.name || !p.stammdaten) throw new Error(`Ungültige Anbieterdatei: ${f}`);
-      const fehler = [...E.pruefeEintritt(p), ...PP.pruefe(p, { streng: PRUEFPUNKTE_STRENG })];
+      const fehler = [...E.pruefeEintritt(p), ...PP.pruefe(p, { streng: PRUEFPUNKTE_STRENG }), ...ISO42001.pruefe(p, { streng: PRUEFPUNKTE_STRENG })];
       if (fehler.length) throw new Error(`Anbieterdatei ${f}: ${fehler.join("; ")}`);
       return p;
     })

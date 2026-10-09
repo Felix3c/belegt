@@ -305,6 +305,15 @@
       ]
     }
   ],
+  "iso_42001": {
+    "status": "unbelegt",
+    "wert": null,
+    "zertifizierer": null,
+    "anwendungsbereich": null,
+    "quelle": null,
+    "geprueft": "2026-10-09",
+    "anmerkung": "Keine Erwähnung von ISO/IEC 42001. Genannt werden ISO/IEC 27001:2022 (BSI, Zertifikat IS 787020), HDS und SecNumCloud (\"currently undergoing assessment\"). Geprüft: https://www.scaleway.com/en/security-and-compliance/, WebSearch: Scaleway \"ISO 42001\""
+  },
   "ai_act": [
     {
       "pflicht": "Transparenzdokumentation für Basismodelle (GPAI Code of Practice)",

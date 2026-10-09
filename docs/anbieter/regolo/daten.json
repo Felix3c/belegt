@@ -336,6 +336,15 @@
       "normiert": []
     }
   ],
+  "iso_42001": {
+    "status": "unbelegt",
+    "wert": null,
+    "zertifizierer": null,
+    "anwendungsbereich": null,
+    "quelle": null,
+    "geprueft": "2026-10-09",
+    "anmerkung": "Weder regolo.ai noch die Seeweb-Zertifikatsseite nennen ISO/IEC 42001. Regolo/Seeweb führen ISO 9001, 14001, 20000-1, 22301, 27001:2022, 27017, 27018, CSA STAR Level 1, CISPE, ACN/Qualified CSP, DNSH sowie ein \"Zero Data Retention\"-Zertifikat (PDF); diese Konzernzertifikate sind keine KI-Managementsystem-Zertifizierung. Geprüft: https://regolo.ai/, https://www.seeweb.it/en/company/certifications, https://www.seeweb.it/certificazioni (HTTP 404, nicht abrufbar), https://www.seeweb.it/en/certifications (HTTP 404, nicht abrufbar), WebSearch: Seeweb OR Regolo \"42001\", WebSearch: Seeweb certificazioni ISO 42001"
+  },
   "ai_act": [
     {
       "pflicht": "AI-Act-Alignment (Transparenz, Sicherheit, Accountability)",

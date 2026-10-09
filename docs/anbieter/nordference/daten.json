@@ -245,6 +245,15 @@
       ]
     }
   ],
+  "iso_42001": {
+    "status": "unbelegt",
+    "wert": null,
+    "zertifizierer": null,
+    "anwendungsbereich": null,
+    "quelle": null,
+    "geprueft": "2026-10-09",
+    "anmerkung": "Auf der Startseite stehen nur die Badges \"ISO 27001\" und \"SOC 2 Type II\" (ohne Zertifikat oder Zertifizierer). Die Zeile \"EU AI Act Ready\" hat in der eigenen Vergleichstabelle für Nordference keinen Eintrag. Eine Trust-Seite gibt es nicht, die Websuche fand keinen Treffer zu Nordference. Geprüft: https://nordference.ai, WebSearch: \"Nordference ISO 42001\""
+  },
   "ai_act": [
     {
       "pflicht": "Transparenz-/Compliance-Angaben zum EU AI Act",

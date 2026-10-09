@@ -191,6 +191,15 @@
           ]
         }
       ],
+      "iso_42001": {
+        "status": "unbelegt",
+        "wert": null,
+        "zertifizierer": null,
+        "anwendungsbereich": null,
+        "quelle": null,
+        "geprueft": "2026-10-09",
+        "anmerkung": "Kein Hinweis auf ISO/IEC 42001 gefunden. Die DQS-Kundendatenbank (direkt nicht abrufbar: HTTP 403 bzw. Cloudflare-Pruefung; Inhalt nur ueber Suchmaschinen-Auszug sichtbar) fuehrt Aleph Alpha GmbH mit 'ISO IEC 27001:2022 Informationssicherheits-Managementsystem', nicht mit 42001. aleph-alpha.com/trust/ liefert HTTP 404, die Startseite nennt keine Zertifizierung. Geprüft: https://aleph-alpha.com/, https://aleph-alpha.com/?p=4366, https://aleph-alpha.com/trust/, https://www.dqsglobal.com/en/customer/redirect/31623205, https://www.dqsglobal.com/en/customer-database/?search=Aleph%20Alpha, WebSearch: Aleph Alpha ISO 42001 certification, WebSearch: \"Aleph Alpha GmbH\" DQS certificate ISO"
+      },
       "ai_act": [
         {
           "pflicht": "GPAI Code of Practice unterzeichnet",
@@ -502,6 +511,15 @@
           ]
         }
       ],
+      "iso_42001": {
+        "status": "unbelegt",
+        "wert": null,
+        "zertifizierer": null,
+        "anwendungsbereich": null,
+        "quelle": null,
+        "geprueft": "2026-10-09",
+        "anmerkung": "Das Vanta-Trust-Center (im Browser gerendert) listet unter Compliance nur 'ISO 27001:2022', 'SOC 2' und 'GDPR'; ISO/IEC 42001 kommt nicht vor. Die Websuche ergab keinen Treffer zu BFL und 42001. Geprüft: https://trust.bfl.ai/, WebSearch: Black Forest Labs ISO 42001"
+      },
       "ai_act": [
         {
           "pflicht": "GPAI-Pflichten als Modellanbieter (Art. 53 ff.)",
@@ -850,6 +868,15 @@
           "normiert": []
         }
       ],
+      "iso_42001": {
+        "status": "unbelegt",
+        "wert": null,
+        "zertifizierer": null,
+        "anwendungsbereich": null,
+        "quelle": null,
+        "geprueft": "2026-10-09",
+        "anmerkung": "Das SafeBase-Trust-Center war nicht abrufbar (WebFetch HTTP 403, im Browser haengt die Cloudflare-Pruefung). Laut Suchmaschinen-Auszug listet es C5, GDPR, HIPAA, ISO/IEC 27001:2022 und SOC 2 Type 2, aber nicht 42001. Die Seite pro-data-security nennt nur SOC 2 Type II; auch die Websuche ergab keinen 42001-Bezug. Geprüft: https://trust.deepl.com (308 -> https://deepl.safebase.us/), https://deepl.safebase.us/, https://www.deepl.com/en/pro-data-security, WebSearch: DeepL ISO 42001, WebSearch: DeepL trust center certifications ISO 27001 SOC 2 \"42001\""
+      },
       "ai_act": [
         {
           "pflicht": "GPAI-Verhaltenskodex (Code of Practice, Art. 53/55)",
@@ -1142,6 +1169,15 @@
           ]
         }
       ],
+      "iso_42001": {
+        "status": "unbelegt",
+        "wert": null,
+        "zertifizierer": null,
+        "anwendungsbereich": null,
+        "quelle": null,
+        "geprueft": "2026-10-09",
+        "anmerkung": "Weder auf der Startseite noch auf der About-Seite wird ISO (27001 oder 42001), SOC 2 oder ein Audit erwähnt. Es gibt nur DSGVO-Aussagen wie 'GDPR compliance by default' und 'Compliance: Active' (Dashboard-Mockup), dazu keine eigene Trust- oder Zertifikatsseite. Geprüft: https://www.eurouter.ai/, https://www.eurouter.ai/about, WebSearch: EUrouter eurouter.ai ISO certification compliance"
+      },
       "ai_act": [
         {
           "pflicht": "Transparenz-/Compliance-Angaben zum EU AI Act",
@@ -1563,6 +1599,15 @@
           ]
         }
       ],
+      "iso_42001": {
+        "status": "unbelegt",
+        "wert": null,
+        "zertifizierer": null,
+        "anwendungsbereich": null,
+        "quelle": null,
+        "geprueft": "2026-10-09",
+        "anmerkung": "Die Compliance-Seite nennt ISO/IEC 27001 ('ISO/IEC 27001 certified since 2018'), 27017, 27018, SOC 2 Type 2, BSI C5 Type 2, HDS und TISAX Level 2. ISO/IEC 42001 und KI-Managementsysteme kommen nicht vor. Geprüft: https://community.exoscale.com/platform/compliance/, https://www.exoscale.com/compliance/ (nur als Suchtreffer), WebSearch: Exoscale ISO 42001"
+      },
       "ai_act": [
         {
           "pflicht": "GPAI Code of Practice unterzeichnet",
@@ -1850,6 +1895,15 @@
           ]
         }
       ],
+      "iso_42001": {
+        "status": "unbelegt",
+        "wert": null,
+        "zertifizierer": null,
+        "anwendungsbereich": null,
+        "quelle": null,
+        "geprueft": "2026-10-09",
+        "anmerkung": "Das Vanta-Trust-Center (im Browser gerendert) listet unter Compliance 'ISO 27001:2022', 'PCI-DSS 4.0', 'SOC 2 Type 1' und 'GDPR'. Auf der Resources-Seite steht kein Dokument zu 42001, und die Websuche ergab ebenfalls keinen Treffer. Geprüft: https://trustcentre.gcore.com/, https://trustcentre.gcore.com/resources, https://gcore.com/compliance (HTTP 404), WebSearch: Gcore ISO 42001"
+      },
       "ai_act": [
         {
           "pflicht": "GPAI-Modellanbieter-Pflichten (Art. 53 ff.)",
@@ -2220,6 +2274,15 @@
           "normiert": []
         }
       ],
+      "iso_42001": {
+        "status": "unbelegt",
+        "wert": null,
+        "zertifizierer": null,
+        "anwendungsbereich": null,
+        "quelle": null,
+        "geprueft": "2026-10-09",
+        "anmerkung": "ISO/IEC 42001 wird nirgends erwähnt. Die Website nennt nur 'ISO 27001' unter 'Verified by independent audit' sowie 'Our infrastructure maintains ISO 27001 and SOC 2 Type II certifications', ohne Zertifizierer und ohne Nummer; zum Teil bezieht sich das auf Verdas Rechenzentren. Die Websuche ergab nur Treffer zu Greenlight Guru, einer anderen Firma. Geprüft: https://greenpt.com, https://greenpt.com/privacy, WebSearch: GreenPT ISO 42001 certification"
+      },
       "ai_act": [
         {
           "pflicht": "Transparenz über eingesetzte Modelle (Model Cards)",
@@ -2434,6 +2497,15 @@
           ]
         }
       ],
+      "iso_42001": {
+        "status": "unbelegt",
+        "wert": null,
+        "zertifizierer": null,
+        "anwendungsbereich": null,
+        "quelle": null,
+        "geprueft": "2026-10-09",
+        "anmerkung": "Auf beiden Hetzner-Seiten wird ISO/IEC 42001 nicht erwähnt. Genannt sind DIN ISO/IEC 27001:2022, BSI C5 Type 2, KRITIS/§8a BSIG und PCI DSS (über Computop). Die Websuche lieferte keinen Treffer zu Hetzner und 42001. Geprüft: https://www.hetzner.com/unternehmen/zertifizierung/, https://docs.hetzner.com/general/others/certificates, WebSearch: \"Hetzner ISO 42001\""
+      },
       "ai_act": [
         {
           "pflicht": "Art.-53-Transparenzdokumentation",
@@ -2878,6 +2950,15 @@
           ]
         }
       ],
+      "iso_42001": {
+        "status": "unbelegt",
+        "wert": null,
+        "zertifizierer": null,
+        "anwendungsbereich": null,
+        "quelle": null,
+        "geprueft": "2026-10-09",
+        "anmerkung": "Die Zertifizierungsseite nennt ISO 27001:2022, ISO 9001:2015, ISO 14001:2015 und ISO 50001:2018. Eine Volltextsuche im HTML nach \"42001\" ergab 0 Treffer, auch die Websuche fand nichts. Geprüft: https://www.infomaniak.com/en/certifications, https://www.infomaniak.ch/en/certifications (308-Weiterleitung auf .com), WebSearch: \"Infomaniak ISO 42001\""
+      },
       "ai_act": [
         {
           "pflicht": "GPAI-Transparenzpflichten (Art. 53 AI Act)",
@@ -3213,6 +3294,15 @@
           ]
         }
       ],
+      "iso_42001": {
+        "status": "unbelegt",
+        "wert": null,
+        "zertifizierer": null,
+        "anwendungsbereich": null,
+        "quelle": null,
+        "geprueft": "2026-10-09",
+        "anmerkung": "Die Zertifikatsseite nennt BSI C5:2020 Type 1 (PwC, 28.05.2026), ISO 27001 auf Basis von IT-Grundschutz (BSI-IGZ-0730-2025), ISO/IEC 27001, ISO 50001 und CNCF Kubernetes Conformance. ISO/IEC 42001 kommt nicht vor, die Websuche lieferte nur allgemeine Treffer zur Norm. Geprüft: https://cloud.ionos.de/zertifikate, WebSearch: \"IONOS ISO/IEC 42001 Zertifizierung KI\""
+      },
       "ai_act": [
         {
           "pflicht": "EU-AI-Act-Rollen- und Transparenzdokumentation (Distributor/Provider)",
@@ -3578,6 +3668,15 @@
           ]
         }
       ],
+      "iso_42001": {
+        "status": "unbelegt",
+        "wert": null,
+        "zertifizierer": null,
+        "anwendungsbereich": null,
+        "quelle": null,
+        "geprueft": "2026-10-09",
+        "anmerkung": "Zu ISO/IEC 42001 gibt es keine Aussage. Die Trust-Seite nennt nur ISO 27001, und auch das nicht als Zertifikat: \"Our ISO 27001:2022 audit is in progress.\" (dazu ein Engagement Letter über Vanta). Die Websuche fand keinen Treffer zu Lyceum. Geprüft: https://lyceum.technology, https://lyceum.technology/trust/, WebSearch: \"Lyceum Technology ISO 42001\""
+      },
       "ai_act": [
         {
           "pflicht": "GPAI Code of Practice unterzeichnet",
@@ -3912,6 +4011,15 @@
           ]
         }
       ],
+      "iso_42001": {
+        "status": "unbelegt",
+        "wert": null,
+        "zertifizierer": null,
+        "anwendungsbereich": null,
+        "quelle": null,
+        "geprueft": "2026-10-09",
+        "anmerkung": "Im Trust Center stehen unter Compliance nur \"ISO 27001\", \"ISO 27701\" und \"SOC 2 Type II\" (Zertifikate ISO/IEC 27001:2022 und 27701:2019 sind einsehbar). Im gerenderten Text kommt \"42001\" nicht vor. Der Hilfeartikel (12.08.2026) sagt: \"Yes, Mistral complies with both SOC 2 Type II and ISO 27001/27701 frameworks.\" Geprüft: https://trust.mistral.ai/ (Vanta, per Browser gerendert), https://trust.mistral.ai/resources (per Browser gerendert), https://help.mistral.ai/en/articles/323772-do-you-have-soc2-or-iso27001-certification, https://help.mistral.ai/en/articles/156208-what-compliance-standards-does-mistral-ai-s-api-platform-la-plateforme-adhere-to (HTTP 404), WebSearch: \"Mistral AI ISO 42001\""
+      },
       "ai_act": [
         {
           "pflicht": "GPAI Code of Practice unterzeichnet",
@@ -4298,6 +4406,15 @@
           ]
         }
       ],
+      "iso_42001": {
+        "status": "belegt",
+        "wert": true,
+        "zertifizierer": "SII-QCD (The Standards Institution of Israel, Quality & Certification Division)",
+        "anwendungsbereich": "Nebius is a global AI cloud company delivering infrastructure and services to accelerate the full AI pipeline from foundational model builders to enterprise solutions.",
+        "quelle": "https://assets.nebius.com/assets/096a71d3-c011-4a50-b51d-bb81a1387bb5/p1336800343_FFPDF-English-1128184.PDF",
+        "geprueft": "2026-10-09",
+        "anmerkung": "Akkreditierung der Zertifizierungsstelle für 42001 nicht belegt: SII-QCD ist laut ANAB-Anlage MS-4932 nur für ISO/IEC 27001 akkreditiert, RvA-Anlage C096 nennt 42001 ebenfalls nicht (Prüfung 09.10.2026, belege/anbieter/nebius/). Das Zertifikats-PDF (2 Seiten, HTTP 200) wurde geöffnet und als Text ausgelesen. Inhaber ist Nebius B.V., Schiphol (NL), mit dem Zusatzstandort Tel-Aviv. Laut Trust-Center-Seite gilt: \"Nebius is certified for compliance with ISO/IEC 42001\". Im Text des PDFs steht kein Akkreditierungsvermerk, ein Logo konnte nicht geprüft werden, weil das PDF nicht als Bild darstellbar war. Ein Registereintrag bei sii.org.il wurde nicht geprüft, die Akkreditierung von SII-QCD für 42001 ist also offen. Zert.-Nr. 1128184. Gültig: 26/08/2026 bis 26/08/2029 (Initial Approval 26/08/2026). Wörtlich: 'This is to certify that the Artificial intelligence Management System (AI) of Nebius B.V. [...] Has been assessed and reviewed by SII - QCD and complies with the requirements of: ISO/IEC 42001:2023'"
+      },
       "ai_act": [
         {
           "pflicht": "GPAI Code of Practice unterzeichnet",
@@ -4567,6 +4684,15 @@
           ]
         }
       ],
+      "iso_42001": {
+        "status": "unbelegt",
+        "wert": null,
+        "zertifizierer": null,
+        "anwendungsbereich": null,
+        "quelle": null,
+        "geprueft": "2026-10-09",
+        "anmerkung": "Auf der Startseite stehen nur die Badges \"ISO 27001\" und \"SOC 2 Type II\" (ohne Zertifikat oder Zertifizierer). Die Zeile \"EU AI Act Ready\" hat in der eigenen Vergleichstabelle für Nordference keinen Eintrag. Eine Trust-Seite gibt es nicht, die Websuche fand keinen Treffer zu Nordference. Geprüft: https://nordference.ai, WebSearch: \"Nordference ISO 42001\""
+      },
       "ai_act": [
         {
           "pflicht": "Transparenz-/Compliance-Angaben zum EU AI Act",
@@ -4847,6 +4973,15 @@
           ]
         }
       ],
+      "iso_42001": {
+        "status": "unbelegt",
+        "wert": null,
+        "zertifizierer": null,
+        "anwendungsbereich": null,
+        "quelle": null,
+        "geprueft": "2026-10-09",
+        "anmerkung": "Keine Erwähnung von ISO/IEC 42001 gefunden. Opper nennt nur ISO/IEC 27001:2022 (\"Certified against ISO/IEC 27001:2022\"; Trust Center: Zertifikatsnr. 160926-1, gültig bis 15.09.2029) und GDPR. Geprüft: https://opper.ai/security-overview, https://opper.ai/, https://trust.opper.ai/, WebSearch: Opper AI \"ISO 42001\""
+      },
       "ai_act": [
         {
           "pflicht": "Logging/Audit-Trails zur Unterstützung von EU-AI-Act-, DORA- und NIS2-Reviews",
@@ -5334,6 +5469,15 @@
           ]
         }
       ],
+      "iso_42001": {
+        "status": "unbelegt",
+        "wert": null,
+        "zertifizierer": null,
+        "anwendungsbereich": null,
+        "quelle": null,
+        "geprueft": "2026-10-09",
+        "anmerkung": "Compliance-Seite listet 22 Rahmenwerke (u. a. ISO 27001/27017/27018/27701, SecNumCloud, C5, ISO 9001/14001/50001), aber kein ISO/IEC 42001. Doku-Seite zu ISO-Zertifikaten nennt nur ISO/IEC 27001:2022, 27017, 27018, 27701 (Doku-Seite nur bis Zeichen 100000 gelesen). Geprüft: https://www.ovhcloud.com/en/compliance/, https://docs.ovhcloud.com/en/guides/account-and-service-management/account-information/security-certifications, WebSearch: OVHcloud \"ISO 42001\""
+      },
       "ai_act": [
         {
           "pflicht": "AI-Act-Informationsmaterial veröffentlicht",
@@ -5701,6 +5845,15 @@
           "normiert": []
         }
       ],
+      "iso_42001": {
+        "status": "unbelegt",
+        "wert": null,
+        "zertifizierer": null,
+        "anwendungsbereich": null,
+        "quelle": null,
+        "geprueft": "2026-10-09",
+        "anmerkung": "Weder regolo.ai noch die Seeweb-Zertifikatsseite nennen ISO/IEC 42001. Regolo/Seeweb führen ISO 9001, 14001, 20000-1, 22301, 27001:2022, 27017, 27018, CSA STAR Level 1, CISPE, ACN/Qualified CSP, DNSH sowie ein \"Zero Data Retention\"-Zertifikat (PDF); diese Konzernzertifikate sind keine KI-Managementsystem-Zertifizierung. Geprüft: https://regolo.ai/, https://www.seeweb.it/en/company/certifications, https://www.seeweb.it/certificazioni (HTTP 404, nicht abrufbar), https://www.seeweb.it/en/certifications (HTTP 404, nicht abrufbar), WebSearch: Seeweb OR Regolo \"42001\", WebSearch: Seeweb certificazioni ISO 42001"
+      },
       "ai_act": [
         {
           "pflicht": "AI-Act-Alignment (Transparenz, Sicherheit, Accountability)",
@@ -5934,6 +6087,15 @@
           ]
         }
       ],
+      "iso_42001": {
+        "status": "unbelegt",
+        "wert": null,
+        "zertifizierer": null,
+        "anwendungsbereich": null,
+        "quelle": null,
+        "geprueft": "2026-10-09",
+        "anmerkung": "Keine Erwähnung von ISO/IEC 42001. Security-Seite nennt nur SOC 2 Type II als laufend (\"Our SOC 2 Type II programme is in progress.\") und \"We are GDPR compliant.\" Geprüft: https://www.requesty.ai/security, https://trust.requesty.ai/ (nur Titel geladen, Inhalt vermutlich per JavaScript, nicht auswertbar), WebSearch: Requesty \"ISO 42001\""
+      },
       "ai_act": [
         {
           "pflicht": "Transparenz-/Compliance-Angaben zum EU AI Act",
@@ -6263,6 +6425,15 @@
           ]
         }
       ],
+      "iso_42001": {
+        "status": "unbelegt",
+        "wert": null,
+        "zertifizierer": null,
+        "anwendungsbereich": null,
+        "quelle": null,
+        "geprueft": "2026-10-09",
+        "anmerkung": "Keine Erwähnung von ISO/IEC 42001. Genannt werden ISO/IEC 27001:2022 (BSI, Zertifikat IS 787020), HDS und SecNumCloud (\"currently undergoing assessment\"). Geprüft: https://www.scaleway.com/en/security-and-compliance/, WebSearch: Scaleway \"ISO 42001\""
+      },
       "ai_act": [
         {
           "pflicht": "Transparenzdokumentation für Basismodelle (GPAI Code of Practice)",
@@ -6642,6 +6813,15 @@
           ]
         }
       ],
+      "iso_42001": {
+        "status": "unbelegt",
+        "wert": null,
+        "zertifizierer": null,
+        "anwendungsbereich": null,
+        "quelle": null,
+        "geprueft": "2026-10-09",
+        "anmerkung": "Zertifikatsseite listet C5 Type 2, ISAE 3000/3402, ISO/IEC 27001/27017/27018, ISO 27001 auf Basis IT-Grundschutz, TISAX, ISO 20000, ISO 50001, TSI, ISO 22301 – kein ISO/IEC 42001. Geprüft: https://www.stackit.com/en/why-stackit/benefits/certificates, WebSearch: STACKIT \"42001\""
+      },
       "ai_act": [
         {
           "pflicht": "Art.-53-Transparenzdokumentation",
@@ -7078,6 +7258,15 @@
           ]
         }
       ],
+      "iso_42001": {
+        "status": "unbelegt",
+        "wert": null,
+        "zertifizierer": null,
+        "anwendungsbereich": null,
+        "quelle": null,
+        "geprueft": "2026-10-09",
+        "anmerkung": "Weder T Cloud Public (24 Einträge, u. a. ISO 27001/27017/27018/27701, C5, SOC) noch T-Systems (ISO-Zertifikate \"Under the umbrella certificate of Deutsche Telekom AG\") nennen ISO/IEC 42001; AI Foundation Services taucht in keinem Zertifikats-Anwendungsbereich auf. Treffer zu ISO 42001 betrafen nur Telekom Malaysia, ein anderes Unternehmen. Geprüft: https://www.t-cloud-public.com/en/products-services/core-services/certifications, https://www.t-cloud-public.com/en/security/certifications (HTTP 404, nicht abrufbar), https://www.t-cloud-public.com/en/certifications (HTTP 404, nicht abrufbar), https://www.t-systems.com/de/en/company/about-t-systems/t-systems-certificates, WebSearch: \"42001\" Deutsche Telekom T-Systems, WebSearch: Telekom \"ISO 42001\" zertifiziert, WebSearch: T-Systems \"AI Foundation Services\" certification ISO, WebSearch: Open Telekom Cloud T Cloud Public certificates ISO 42001"
+      },
       "ai_act": [
         {
           "pflicht": "Art.-53-Transparenzdokumentation",

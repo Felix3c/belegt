@@ -420,6 +420,15 @@
       ]
     }
   ],
+  "iso_42001": {
+    "status": "unbelegt",
+    "wert": null,
+    "zertifizierer": null,
+    "anwendungsbereich": null,
+    "quelle": null,
+    "geprueft": "2026-10-09",
+    "anmerkung": "Die Zertifizierungsseite nennt ISO 27001:2022, ISO 9001:2015, ISO 14001:2015 und ISO 50001:2018. Eine Volltextsuche im HTML nach \"42001\" ergab 0 Treffer, auch die Websuche fand nichts. Geprüft: https://www.infomaniak.com/en/certifications, https://www.infomaniak.ch/en/certifications (308-Weiterleitung auf .com), WebSearch: \"Infomaniak ISO 42001\""
+  },
   "ai_act": [
     {
       "pflicht": "GPAI-Transparenzpflichten (Art. 53 AI Act)",

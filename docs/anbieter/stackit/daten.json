@@ -355,6 +355,15 @@
       ]
     }
   ],
+  "iso_42001": {
+    "status": "unbelegt",
+    "wert": null,
+    "zertifizierer": null,
+    "anwendungsbereich": null,
+    "quelle": null,
+    "geprueft": "2026-10-09",
+    "anmerkung": "Zertifikatsseite listet C5 Type 2, ISAE 3000/3402, ISO/IEC 27001/27017/27018, ISO 27001 auf Basis IT-Grundschutz, TISAX, ISO 20000, ISO 50001, TSI, ISO 22301 – kein ISO/IEC 42001. Geprüft: https://www.stackit.com/en/why-stackit/benefits/certificates, WebSearch: STACKIT \"42001\""
+  },
   "ai_act": [
     {
       "pflicht": "Art.-53-Transparenzdokumentation",

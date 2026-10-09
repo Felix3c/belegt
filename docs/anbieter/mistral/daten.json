@@ -310,6 +310,15 @@
       ]
     }
   ],
+  "iso_42001": {
+    "status": "unbelegt",
+    "wert": null,
+    "zertifizierer": null,
+    "anwendungsbereich": null,
+    "quelle": null,
+    "geprueft": "2026-10-09",
+    "anmerkung": "Im Trust Center stehen unter Compliance nur \"ISO 27001\", \"ISO 27701\" und \"SOC 2 Type II\" (Zertifikate ISO/IEC 27001:2022 und 27701:2019 sind einsehbar). Im gerenderten Text kommt \"42001\" nicht vor. Der Hilfeartikel (12.08.2026) sagt: \"Yes, Mistral complies with both SOC 2 Type II and ISO 27001/27701 frameworks.\" Geprüft: https://trust.mistral.ai/ (Vanta, per Browser gerendert), https://trust.mistral.ai/resources (per Browser gerendert), https://help.mistral.ai/en/articles/323772-do-you-have-soc2-or-iso27001-certification, https://help.mistral.ai/en/articles/156208-what-compliance-standards-does-mistral-ai-s-api-platform-la-plateforme-adhere-to (HTTP 404), WebSearch: \"Mistral AI ISO 42001\""
+  },
   "ai_act": [
     {
       "pflicht": "GPAI Code of Practice unterzeichnet",

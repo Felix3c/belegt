@@ -334,6 +334,15 @@
       ]
     }
   ],
+  "iso_42001": {
+    "status": "unbelegt",
+    "wert": null,
+    "zertifizierer": null,
+    "anwendungsbereich": null,
+    "quelle": null,
+    "geprueft": "2026-10-09",
+    "anmerkung": "Zu ISO/IEC 42001 gibt es keine Aussage. Die Trust-Seite nennt nur ISO 27001, und auch das nicht als Zertifikat: \"Our ISO 27001:2022 audit is in progress.\" (dazu ein Engagement Letter über Vanta). Die Websuche fand keinen Treffer zu Lyceum. Geprüft: https://lyceum.technology, https://lyceum.technology/trust/, WebSearch: \"Lyceum Technology ISO 42001\""
+  },
   "ai_act": [
     {
       "pflicht": "GPAI Code of Practice unterzeichnet",

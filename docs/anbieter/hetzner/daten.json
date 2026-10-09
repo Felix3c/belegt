@@ -183,6 +183,15 @@
       ]
     }
   ],
+  "iso_42001": {
+    "status": "unbelegt",
+    "wert": null,
+    "zertifizierer": null,
+    "anwendungsbereich": null,
+    "quelle": null,
+    "geprueft": "2026-10-09",
+    "anmerkung": "Auf beiden Hetzner-Seiten wird ISO/IEC 42001 nicht erwähnt. Genannt sind DIN ISO/IEC 27001:2022, BSI C5 Type 2, KRITIS/§8a BSIG und PCI DSS (über Computop). Die Websuche lieferte keinen Treffer zu Hetzner und 42001. Geprüft: https://www.hetzner.com/unternehmen/zertifizierung/, https://docs.hetzner.com/general/others/certificates, WebSearch: \"Hetzner ISO 42001\""
+  },
   "ai_act": [
     {
       "pflicht": "Art.-53-Transparenzdokumentation",

@@ -411,6 +411,15 @@
       ]
     }
   ],
+  "iso_42001": {
+    "status": "unbelegt",
+    "wert": null,
+    "zertifizierer": null,
+    "anwendungsbereich": null,
+    "quelle": null,
+    "geprueft": "2026-10-09",
+    "anmerkung": "Weder T Cloud Public (24 Einträge, u. a. ISO 27001/27017/27018/27701, C5, SOC) noch T-Systems (ISO-Zertifikate \"Under the umbrella certificate of Deutsche Telekom AG\") nennen ISO/IEC 42001; AI Foundation Services taucht in keinem Zertifikats-Anwendungsbereich auf. Treffer zu ISO 42001 betrafen nur Telekom Malaysia, ein anderes Unternehmen. Geprüft: https://www.t-cloud-public.com/en/products-services/core-services/certifications, https://www.t-cloud-public.com/en/security/certifications (HTTP 404, nicht abrufbar), https://www.t-cloud-public.com/en/certifications (HTTP 404, nicht abrufbar), https://www.t-systems.com/de/en/company/about-t-systems/t-systems-certificates, WebSearch: \"42001\" Deutsche Telekom T-Systems, WebSearch: Telekom \"ISO 42001\" zertifiziert, WebSearch: T-Systems \"AI Foundation Services\" certification ISO, WebSearch: Open Telekom Cloud T Cloud Public certificates ISO 42001"
+  },
   "ai_act": [
     {
       "pflicht": "Art.-53-Transparenzdokumentation",

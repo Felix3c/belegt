@@ -462,6 +462,15 @@
       ]
     }
   ],
+  "iso_42001": {
+    "status": "unbelegt",
+    "wert": null,
+    "zertifizierer": null,
+    "anwendungsbereich": null,
+    "quelle": null,
+    "geprueft": "2026-10-09",
+    "anmerkung": "Compliance-Seite listet 22 Rahmenwerke (u. a. ISO 27001/27017/27018/27701, SecNumCloud, C5, ISO 9001/14001/50001), aber kein ISO/IEC 42001. Doku-Seite zu ISO-Zertifikaten nennt nur ISO/IEC 27001:2022, 27017, 27018, 27701 (Doku-Seite nur bis Zeichen 100000 gelesen). Geprüft: https://www.ovhcloud.com/en/compliance/, https://docs.ovhcloud.com/en/guides/account-and-service-management/account-information/security-certifications, WebSearch: OVHcloud \"ISO 42001\""
+  },
   "ai_act": [
     {
       "pflicht": "AI-Act-Informationsmaterial veröffentlicht",

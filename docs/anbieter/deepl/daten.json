@@ -323,6 +323,15 @@
       "normiert": []
     }
   ],
+  "iso_42001": {
+    "status": "unbelegt",
+    "wert": null,
+    "zertifizierer": null,
+    "anwendungsbereich": null,
+    "quelle": null,
+    "geprueft": "2026-10-09",
+    "anmerkung": "Das SafeBase-Trust-Center war nicht abrufbar (WebFetch HTTP 403, im Browser haengt die Cloudflare-Pruefung). Laut Suchmaschinen-Auszug listet es C5, GDPR, HIPAA, ISO/IEC 27001:2022 und SOC 2 Type 2, aber nicht 42001. Die Seite pro-data-security nennt nur SOC 2 Type II; auch die Websuche ergab keinen 42001-Bezug. Geprüft: https://trust.deepl.com (308 -> https://deepl.safebase.us/), https://deepl.safebase.us/, https://www.deepl.com/en/pro-data-security, WebSearch: DeepL ISO 42001, WebSearch: DeepL trust center certifications ISO 27001 SOC 2 \"42001\""
+  },
   "ai_act": [
     {
       "pflicht": "GPAI-Verhaltenskodex (Code of Practice, Art. 53/55)",

@@ -255,6 +255,15 @@
       ]
     }
   ],
+  "iso_42001": {
+    "status": "unbelegt",
+    "wert": null,
+    "zertifizierer": null,
+    "anwendungsbereich": null,
+    "quelle": null,
+    "geprueft": "2026-10-09",
+    "anmerkung": "Keine Erwähnung von ISO/IEC 42001 gefunden. Opper nennt nur ISO/IEC 27001:2022 (\"Certified against ISO/IEC 27001:2022\"; Trust Center: Zertifikatsnr. 160926-1, gültig bis 15.09.2029) und GDPR. Geprüft: https://opper.ai/security-overview, https://opper.ai/, https://trust.opper.ai/, WebSearch: Opper AI \"ISO 42001\""
+  },
   "ai_act": [
     {
       "pflicht": "Logging/Audit-Trails zur Unterstützung von EU-AI-Act-, DORA- und NIS2-Reviews",
