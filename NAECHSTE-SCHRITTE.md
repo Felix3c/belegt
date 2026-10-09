@@ -5,7 +5,7 @@ Antwort seit 14.09. live, Status „beantwortet“. LinkedIn: keine Antwort auf 
 **Führendes Dokument:** `MESSUNG.md` (Kill-Kriterien) · Ziel-Satz in `~/THESE.md`
 **Phase:** live, 4 Fälle, Engpass ist nicht mehr Code, sondern Rücklauf von außen. Erster Anbieter, der eine Korrektur wörtlich ankündigt: Scaleway (14.09.).
 
-## Neu 10.10.2026 00:30 (Dauerlauf Tagesprüfung): Rosenthal erlaubt Zitat
+## Neu 10.10.2026 00:05 (Dauerlauf Tagesprüfung): Rosenthal erlaubt Zitat
 
 - David Rosenthal (VISCHER) am 09.10. 23:38, Gmail `1a1229a2ef338d4c`: Zitat mit Namen erlaubt, aber nur in seiner Fassung: „Die Speicherung von Daten für eigene Zwecke im Klartext durch einen Provider, auch wenn nur in gewissen Fällen, ist kein Zero Data Retention mehr nach unserem Verständnis.“ Er wünscht dazu einen Link auf https://vischerlnk.com/ki-tools-0726-blog.
 - Einbau auf der Fallseite Scaleway als Aufgabe R1 in ALLEIN.md (ab 10.10. 08:00), Push erst nach Frage 231 „steht“.
