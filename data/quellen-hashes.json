@@ -388,21 +388,21 @@
     "hash": "763555eb64fffa70",
     "gesehen": "2026-10-09",
     "geaendert": "2026-10-08",
-    "neu_hash": "f6a2f8119c9be747",
+    "neu_hash": "1dc30bce04764f2b",
     "veraendert_seit": "2026-10-09"
   },
   "https://huggingface.co/Aleph-Alpha/Pharia-1-Embedding-4608-control": {
     "hash": "a6ba34aea7da769c",
     "gesehen": "2026-10-09",
     "geaendert": "2026-10-08",
-    "neu_hash": "0374116c5774c383",
+    "neu_hash": "eddef9729a3b02fa",
     "veraendert_seit": "2026-10-09"
   },
   "https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control": {
     "hash": "35e880a3567f8219",
     "gesehen": "2026-10-09",
     "geaendert": "2026-10-08",
-    "neu_hash": "8c9571a9dfcc0c54",
+    "neu_hash": "79656edc59284e61",
     "veraendert_seit": "2026-10-09"
   },
   "https://legal.mistral.ai/terms": {
@@ -559,24 +559,24 @@
     "gesehen": "2026-10-09"
   },
   "https://regolo.ai/pricing/": {
-    "hash": "e6f0abecd04f0bb6",
+    "hash": "4a96abcea1a5df38",
     "gesehen": "2026-10-09",
-    "geaendert": "2026-10-08"
+    "geaendert": "2026-10-09"
   },
   "https://regolo.ai/privacy-policy/": {
-    "hash": "70790bf17d79ad0b",
+    "hash": "9d8ee55bad7c223d",
     "gesehen": "2026-10-09",
     "geaendert": "2026-10-09"
   },
   "https://regolo.ai/terms-and-conditions/": {
-    "hash": "7a24c8472b4759f9",
+    "hash": "5d47ad1d9ecc4939",
     "gesehen": "2026-10-09",
-    "geaendert": "2026-10-08"
+    "geaendert": "2026-10-09"
   },
   "https://regolo.ai/terms-and-conditions/#data-processor-agreement": {
-    "hash": "7a24c8472b4759f9",
+    "hash": "5d47ad1d9ecc4939",
     "gesehen": "2026-10-09",
-    "geaendert": "2026-10-08"
+    "geaendert": "2026-10-09"
   },
   "https://regolo.ai/wp-content/uploads/2026/07/Certificate_REGOLO.AI24-Jul-2026.pdf": {
     "hash": "6ca52c07caa3f189",
@@ -584,9 +584,9 @@
     "geaendert": "2026-10-09"
   },
   "https://regolo.ai/zero-data-retention/": {
-    "hash": "3d3f27a172a7380b",
+    "hash": "c5d0bb4816b01df0",
     "gesehen": "2026-10-09",
-    "geaendert": "2026-10-08"
+    "geaendert": "2026-10-09"
   },
   "https://security.scaleway.com/": {
     "hash": "a90241cb743e45c8",
@@ -772,38 +772,38 @@
     "gesehen": "2026-10-09"
   },
   "https://www.deepl.com/de/blog/c5-type2-attestation": {
-    "hash": "e437abd3c58b86a8",
+    "hash": "4387c72eeea2c1f6",
     "gesehen": "2026-10-09",
-    "geaendert": "2026-10-08"
+    "geaendert": "2026-10-09"
   },
   "https://www.deepl.com/en/pro": {
-    "hash": "bf428c261f7b86a3",
+    "hash": "c3c8dfb9a40a077b",
     "gesehen": "2026-10-09",
-    "geaendert": "2026-10-08"
+    "geaendert": "2026-10-09"
   },
   "https://www.deepl.com/en/pro#api": {
-    "hash": "bf428c261f7b86a3",
+    "hash": "c3c8dfb9a40a077b",
     "gesehen": "2026-10-09",
-    "geaendert": "2026-10-08"
+    "geaendert": "2026-10-09"
   },
   "https://www.deepl.com/en/pro-data-security": {
-    "hash": "64692e3647fb7a6d",
+    "hash": "f8eb2cd88323de1a",
     "gesehen": "2026-10-09",
     "geaendert": "2026-10-09"
   },
   "https://www.deepl.com/en/pro-license": {
-    "hash": "e685caa0984af4fc",
+    "hash": "3b96e4fc1321ec6f",
     "gesehen": "2026-10-09",
-    "geaendert": "2026-10-08"
+    "geaendert": "2026-10-09"
   },
   "https://www.deepl.com/en/products/api": {
-    "hash": "e768f18ab6f4ea66",
+    "hash": "32f58d3175d7d08d",
     "gesehen": "2026-10-09",
-    "geaendert": "2026-10-08"
+    "geaendert": "2026-10-09"
   },
   "https://www.dqsglobal.com/en/customer-database/aleph-alpha-gmbh": {
     "hash": "63e559af3cc641ee",
-    "gesehen": "2026-10-08",
+    "gesehen": "2026-10-09",
     "geaendert": "2026-08-28",
     "nur_erreichbar": true,
     "grund": "Seite blendet bei jedem Abruf andere Highlight-/Menüblöcke ein (3 Varianten am 28.08.2026 beobachtet); Zertifikatsangabe von Hand prüfen"
@@ -870,7 +870,7 @@
     "hash": "1d2ba3941ff95d11",
     "gesehen": "2026-10-09",
     "geaendert": "2026-10-08",
-    "neu_hash": "299c5082c5d94799",
+    "neu_hash": "f2b3c57a56ed084a",
     "veraendert_seit": "2026-10-09"
   },
   "https://www.hetzner.com/unternehmen/zertifizierung/": {

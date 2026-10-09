@@ -30,7 +30,7 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://nordference.ai/terms",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Keine Angabe zu Filtern, Moderation oder Vor-/Nachverarbeitung (Terms, Privacy Policy, GDPR-Seite, Modellseite; 08.10.2026). Die Terms (Stand 28.01.2026), Ziffer 4, verbieten dem Kunden nur 'to generate harmful or misleading content'; ob und wie Nordference das technisch durchsetzt, steht nirgends. Kein ausdrückliches 'wir filtern nicht'. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
       }
     },
@@ -52,7 +52,7 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://nordference.ai/terms",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Keine Angabe zu Filtern, Moderation oder Vor-/Nachverarbeitung (Terms, Privacy Policy, GDPR-Seite, Modellseite; 08.10.2026). Die Terms (Stand 28.01.2026), Ziffer 4, verbieten dem Kunden nur 'to generate harmful or misleading content'; ob und wie Nordference das technisch durchsetzt, steht nirgends. Kein ausdrückliches 'wir filtern nicht'. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
       }
     },
@@ -74,7 +74,7 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://nordference.ai/terms",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Keine Angabe zu Filtern, Moderation oder Vor-/Nachverarbeitung (Terms, Privacy Policy, GDPR-Seite, Modellseite; 08.10.2026). Die Terms (Stand 28.01.2026), Ziffer 4, verbieten dem Kunden nur 'to generate harmful or misleading content'; ob und wie Nordference das technisch durchsetzt, steht nirgends. Kein ausdrückliches 'wir filtern nicht'. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
       }
     },
@@ -96,7 +96,7 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://nordference.ai/terms",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Keine Angabe zu Filtern, Moderation oder Vor-/Nachverarbeitung (Terms, Privacy Policy, GDPR-Seite, Modellseite; 08.10.2026). Die Terms (Stand 28.01.2026), Ziffer 4, verbieten dem Kunden nur 'to generate harmful or misleading content'; ob und wie Nordference das technisch durchsetzt, steht nirgends. Kein ausdrückliches 'wir filtern nicht'. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
       }
     },
@@ -118,7 +118,7 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://nordference.ai/terms",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Keine Angabe zu Filtern, Moderation oder Vor-/Nachverarbeitung (Terms, Privacy Policy, GDPR-Seite, Modellseite; 08.10.2026). Die Terms (Stand 28.01.2026), Ziffer 4, verbieten dem Kunden nur 'to generate harmful or misleading content'; ob und wie Nordference das technisch durchsetzt, steht nirgends. Kein ausdrückliches 'wir filtern nicht'. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
       }
     }
@@ -135,14 +135,14 @@
       "wert": null,
       "status": "unbelegt",
       "quelle": null,
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Keine Subprozessorliste auffindbar (05.10.2026: die Website hat nur die Seiten Start, Models, Pricing, About, Privacy, Terms, SLA, GDPR; das Wort 'subprocessor' kommt im gesamten Text nicht vor). Zwei Hinweise auf Dritte: Die Privacy Policy nennt einen Zahlungsdienstleister ohne Namen ('payment information (processed securely through our payment provider)'), und die Website selbst wird über Cloudflare ausgeliefert (Antwortkopf 'Server: cloudflare', Nameserver bei Cloudflare). Dem steht die Aussage der GDPR-Seite gegenüber: 'we do not transfer data to third countries outside the EEA'. Unklar bleibt, ob Inference auf eigener Hardware (3NV TLL-1) oder bei Dritten läuft."
     },
     "training_opt_out": {
       "wert": true,
       "status": "beansprucht",
       "quelle": "https://nordference.ai/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Startseite, Abschnitt 'Built for Regulated Industries', Kachel 'Legal', wörtlich: 'Maintain attorney-client privilege with zero data retention. Your prompts and outputs are never stored or used for training.' Dazu die About-Seite: 'No black boxes, no hidden training on your data.' Das ist Werbetext ohne Vertragstext, deshalb Anbieterangabe und nicht belegt: In Terms of Service, Privacy Policy und GDPR-Seite (alle Stand 28.01.2026) kommt das Wort Training nicht vor; die Terms sagen nur 'You retain all rights to your input data and generated outputs.' Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 05.10.2026, Archivkopie web.archive.org/web/20261005012917 byte-gleich)."
     },
     "zero_data_retention": {
@@ -156,28 +156,28 @@
       "wert": null,
       "status": "unbelegt",
       "quelle": "https://nordference.ai/privacy",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Kein Dokument nennt die Zwecke. Die Privacy Policy (Stand 28.01.2026) hat keinen Abschnitt zur Verwendung der Daten; die GDPR-Seite sagt nur allgemein 'Purpose Limitation: Data is collected for specified, explicit purposes', ohne sie zu benennen. Ein- und Ausgaben werden laut Privacy Policy nicht gespeichert ('processed in real-time and are not stored on our systems'); 'never stored or used for training' steht nur in Werbetext der Startseite. Der DPA ist nicht öffentlich und laut GDPR-Seite nur für Enterprise-Kunden erhältlich. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
     },
     "betroffenenrechte_traeger": {
       "wert": "anbieter",
       "status": "belegt",
       "quelle": "https://nordference.ai/privacy",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Privacy Policy (Stand 28.01.2026), Abschnitt 2: '3NV OÜ, registered in Estonia (EU), acts as the data controller for personal data processed through our services.' Abschnitt 6: 'To exercise these rights, contact us at privacy@nordference.ai.' GDPR-Seite: 'to exercise your rights, contact our Data Protection Officer at dpo@nordference.ai. We will respond to all requests within 30 days'. Nordference bezeichnet sich also selbst als Verantwortlichen und nimmt die Anfragen an; ein Auftragsverarbeitungsvertrag, der das für Kundendaten anders regeln könnte, ist laut GDPR-Seite nur für Enterprise-Kunden auf Anfrage erhältlich und nicht öffentlich. Hinweis: zwei verschiedene Kontaktadressen (privacy@ und dpo@). Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
     },
     "log_frist": {
       "wert": null,
       "status": "unbelegt",
       "quelle": "https://nordference.ai/privacy",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Keine Frist genannt. Privacy Policy (Stand 28.01.2026): erhoben werden 'usage data (API calls, token counts)'; Aufbewahrung nur 'Account and billing information is retained as required by law'. Die Preistabelle nennt in allen Tarifen 'Activity Logs & Export', ohne Inhalt oder Frist dieser Protokolle; die Branchenkachel 'Finance' wirbt mit 'Audit Trails'. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
     },
     "log_zweck": {
       "wert": null,
       "status": "unbelegt",
       "quelle": "https://nordference.ai/privacy",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Kein Zweck für die erhobenen Nutzungsdaten ('API calls, token counts') oder die 'Activity Logs' genannt; Privacy Policy, Terms und GDPR-Seite (Stand 28.01.2026) enthalten keinen Abschnitt zur Verwendung. Die Abrechnung erfolgt laut Terms Ziffer 5 'on a per-token basis', ein ausdrücklicher Zweck der Protokolle steht dort aber nicht. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
     }
   },
@@ -192,21 +192,21 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://nordference.ai/",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Kein Zertifikat, kein Bericht, kein Geltungsbereich auffindbar; 'ISO 27001' steht nur als Schlagwort in einer Branchenkachel der Startseite (08.10.2026). Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
       },
       "zertifizierer": {
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://nordference.ai/",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Kein Zertifizierer oder Prüfer genannt; das Wort 'certified' kommt auf der Website nicht vor. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
       },
       "akkreditiert_dakks": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Nicht prüfbar: kein Zertifikat und keine Zertifizierungsstelle genannt, daher nichts in der DAkkS-Datenbank nachzuschlagen."
       },
       "normiert": [
@@ -223,21 +223,21 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://nordference.ai/",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Kein Zertifikat, kein Bericht, kein Geltungsbereich auffindbar; 'SOC 2 Type II' steht nur als Schlagwort in einer Branchenkachel der Startseite (08.10.2026). Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
       },
       "zertifizierer": {
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://nordference.ai/",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Kein Zertifizierer oder Prüfer genannt; das Wort 'certified' kommt auf der Website nicht vor. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
       },
       "akkreditiert_dakks": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "SOC 2 ist ein Testat eines Wirtschaftsprüfers, keine akkreditierte Zertifizierung; zudem ist kein Bericht auffindbar."
       },
       "normiert": [
@@ -259,11 +259,11 @@
       "pflicht": "Transparenz-/Compliance-Angaben zum EU AI Act",
       "status": "beansprucht",
       "quelle": "https://nordference.ai/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Vergleichstabelle auf der Startseite: Zeile 'EU AI Act Ready' mit Häkchen bei Nordference ('Typical Providers': 'Varies'). Kein Dokument, keine Erklärung, was damit zugesagt ist; die About-Seite spricht nur von 'upcoming AI Act requirements'. Bis 03.10.2026 stand hier 'unbelegt, keinerlei Angaben' — das Häkchen steht nicht als Text auf der Seite, sondern entsteht aus der Tabellen-Definition im Skript-Bündel (https://nordference.ai/assets/index-CGzvo87P.js, Archivkopie web.archive.org/web/20261005012917)."
     }
   ],
-  "geprueft": "2026-10-08",
+  "geprueft": "2026-10-09",
   "url": "https://belegbar.eu/anbieter/nordference/",
   "beleg_quote_prozent": 50,
   "zuletzt_geprueft": "2026-10-09",

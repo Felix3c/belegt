@@ -126,7 +126,6 @@
 18
 18
 1‑year
-2
 2.
 2016/679
 2025
@@ -202,7 +201,7 @@ At
 Basis
 Basis
 Benchmarks
-Bonsai
+Build
 Builder
 By
 CCIAA
@@ -479,7 +478,6 @@ Protection
 Purpose
 Purpose
 Qwen
-Qwen3.8-27B:
 RAG
 Rectification
 Reddit
@@ -722,6 +720,7 @@ affected
 affecting
 affects
 agent
+agentic
 agreement
 agreement
 alive,
@@ -739,11 +738,11 @@ an
 an
 an
 an
+an
 analyse
 analytics
 analytics
 analytics
-and
 and
 and
 and
@@ -898,7 +897,6 @@ behavior,
 being
 below.
 below.
-benchmarks
 better
 between
 billing
@@ -965,10 +963,11 @@ changes
 channels
 charged
 choices
-choices
 choices:
 choices:
+cites
 city).
+claim
 classification
 code
 coding
@@ -1137,7 +1136,6 @@ delete
 delete
 deleted
 deleted
-deployment
 deriving
 deriving
 deriving
@@ -1193,7 +1191,6 @@ encrypted
 encrypted
 encrypted
 end
-enterprise
 entry);
 essential
 essential,
@@ -1202,6 +1199,7 @@ etc).
 event
 event
 eventual
+every
 every
 every
 evidence.
@@ -1286,6 +1284,7 @@ geographic
 given
 giving
 go
+graph
 green
 has
 hash
@@ -1399,6 +1398,7 @@ it
 it
 its
 joined
+knowledge
 la
 land
 language,
@@ -2000,6 +2000,7 @@ that
 that
 that
 that
+that
 the
 the
 the
@@ -2318,7 +2319,6 @@ visit
 visited,
 visitor
 visitors’
-vs
 want
 we
 we

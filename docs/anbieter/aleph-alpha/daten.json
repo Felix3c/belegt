@@ -151,7 +151,7 @@
       "typ": "ISO 27001",
       "status": "belegt",
       "quelle": "https://www.dqsglobal.com/en/customer-database/aleph-alpha-gmbh",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "ISO/IEC 27001:2022 für Aleph Alpha GmbH, nachgewiesen über die Zertifikatsdatenbank des Zertifizierers DQS (am 08.10.2026 im Browser erneut bestätigt; die Datenbank sperrt Skriptabrufe per Cloudflare).",
       "anwendungsbereich": {
         "wert": null,

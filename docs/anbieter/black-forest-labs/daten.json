@@ -25,14 +25,14 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Keine Angabe zu Sicherungen oder Spiegelungen gefunden: Privacy Policy (Stand 01.08.2026), ToS, Developer Terms, EU API Service Terms und Integration Guide nennen keinen Backup-Ort. Der Integration Guide beschreibt nur Lastverteilung/Failover ('Routes requests across all available clusters globally', bei api.eu.bfl.ai 'Multi-cluster routing limited to EU regions') und Auslieferung über 'region-specific delivery URLs under delivery.*.bfl.ai' (10 Minuten gültig). Trust Center (trust.bfl.ai) nennt Microsoft Azure als 'Cloud provider', aber keine Region und keine Backups."
       },
       "vorgeschaltete_filter": {
         "wert": true,
         "status": "belegt",
         "quelle": "https://docs.bfl.ai/api_integration/errors",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Moderation vor und nach dem Modell: 'Request Moderated' = 'Your input (prompt or image) was flagged by our content moderation system before processing began'; 'Content Moderated' = 'The generated output was flagged by our content moderation system after processing completed'; Begründung im Feld 'Moderation Reasons' (z. B. Violence, Sexual Content, Self Harm). Zusätzlich ToS 7.3: 'We use both algorithmic and human interventions to detect and address content that may violate these Terms'. Gilt laut Doku für die FLUX-API allgemein, nicht modellweise unterschieden."
       }
     },
@@ -49,14 +49,14 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Keine Angabe zu Sicherungen oder Spiegelungen gefunden: Privacy Policy (Stand 01.08.2026), ToS, Developer Terms, EU API Service Terms und Integration Guide nennen keinen Backup-Ort. Der Integration Guide beschreibt nur Lastverteilung/Failover ('Routes requests across all available clusters globally', bei api.eu.bfl.ai 'Multi-cluster routing limited to EU regions') und Auslieferung über 'region-specific delivery URLs under delivery.*.bfl.ai' (10 Minuten gültig). Trust Center (trust.bfl.ai) nennt Microsoft Azure als 'Cloud provider', aber keine Region und keine Backups."
       },
       "vorgeschaltete_filter": {
         "wert": true,
         "status": "belegt",
         "quelle": "https://docs.bfl.ai/api_integration/errors",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Moderation vor und nach dem Modell: 'Request Moderated' = 'Your input (prompt or image) was flagged by our content moderation system before processing began'; 'Content Moderated' = 'The generated output was flagged by our content moderation system after processing completed'; Begründung im Feld 'Moderation Reasons' (z. B. Violence, Sexual Content, Self Harm). Zusätzlich ToS 7.3: 'We use both algorithmic and human interventions to detect and address content that may violate these Terms'. Gilt laut Doku für die FLUX-API allgemein, nicht modellweise unterschieden."
       }
     },
@@ -73,14 +73,14 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Keine Angabe zu Sicherungen oder Spiegelungen gefunden: Privacy Policy (Stand 01.08.2026), ToS, Developer Terms, EU API Service Terms und Integration Guide nennen keinen Backup-Ort. Der Integration Guide beschreibt nur Lastverteilung/Failover ('Routes requests across all available clusters globally', bei api.eu.bfl.ai 'Multi-cluster routing limited to EU regions') und Auslieferung über 'region-specific delivery URLs under delivery.*.bfl.ai' (10 Minuten gültig). Trust Center (trust.bfl.ai) nennt Microsoft Azure als 'Cloud provider', aber keine Region und keine Backups."
       },
       "vorgeschaltete_filter": {
         "wert": true,
         "status": "belegt",
         "quelle": "https://docs.bfl.ai/api_integration/errors",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Moderation vor und nach dem Modell: 'Request Moderated' = 'Your input (prompt or image) was flagged by our content moderation system before processing began'; 'Content Moderated' = 'The generated output was flagged by our content moderation system after processing completed'; Begründung im Feld 'Moderation Reasons' (z. B. Violence, Sexual Content, Self Harm). Zusätzlich ToS 7.3: 'We use both algorithmic and human interventions to detect and address content that may violate these Terms'. Gilt laut Doku für die FLUX-API allgemein, nicht modellweise unterschieden."
       }
     },
@@ -97,14 +97,14 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Keine Angabe zu Sicherungen oder Spiegelungen gefunden: Privacy Policy (Stand 01.08.2026), ToS, Developer Terms, EU API Service Terms und Integration Guide nennen keinen Backup-Ort. Der Integration Guide beschreibt nur Lastverteilung/Failover ('Routes requests across all available clusters globally', bei api.eu.bfl.ai 'Multi-cluster routing limited to EU regions') und Auslieferung über 'region-specific delivery URLs under delivery.*.bfl.ai' (10 Minuten gültig). Trust Center (trust.bfl.ai) nennt Microsoft Azure als 'Cloud provider', aber keine Region und keine Backups."
       },
       "vorgeschaltete_filter": {
         "wert": true,
         "status": "belegt",
         "quelle": "https://docs.bfl.ai/api_integration/errors",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Moderation vor und nach dem Modell: 'Request Moderated' = 'Your input (prompt or image) was flagged by our content moderation system before processing began'; 'Content Moderated' = 'The generated output was flagged by our content moderation system after processing completed'; Begründung im Feld 'Moderation Reasons' (z. B. Violence, Sexual Content, Self Harm). Zusätzlich ToS 7.3: 'We use both algorithmic and human interventions to detect and address content that may violate these Terms'. Gilt laut Doku für die FLUX-API allgemein, nicht modellweise unterschieden."
       }
     },
@@ -121,14 +121,14 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Keine Angabe zu Sicherungen oder Spiegelungen gefunden: Privacy Policy (Stand 01.08.2026), ToS, Developer Terms, EU API Service Terms und Integration Guide nennen keinen Backup-Ort. Der Integration Guide beschreibt nur Lastverteilung/Failover ('Routes requests across all available clusters globally', bei api.eu.bfl.ai 'Multi-cluster routing limited to EU regions') und Auslieferung über 'region-specific delivery URLs under delivery.*.bfl.ai' (10 Minuten gültig). Trust Center (trust.bfl.ai) nennt Microsoft Azure als 'Cloud provider', aber keine Region und keine Backups."
       },
       "vorgeschaltete_filter": {
         "wert": true,
         "status": "belegt",
         "quelle": "https://docs.bfl.ai/api_integration/errors",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Moderation vor und nach dem Modell: 'Request Moderated' = 'Your input (prompt or image) was flagged by our content moderation system before processing began'; 'Content Moderated' = 'The generated output was flagged by our content moderation system after processing completed'; Begründung im Feld 'Moderation Reasons' (z. B. Violence, Sexual Content, Self Harm). Zusätzlich ToS 7.3: 'We use both algorithmic and human interventions to detect and address content that may violate these Terms'. Gilt laut Doku für die FLUX-API allgemein, nicht modellweise unterschieden."
       }
     },
@@ -145,14 +145,14 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Keine Angabe zu Sicherungen oder Spiegelungen gefunden: Privacy Policy (Stand 01.08.2026), ToS, Developer Terms, EU API Service Terms und Integration Guide nennen keinen Backup-Ort. Der Integration Guide beschreibt nur Lastverteilung/Failover ('Routes requests across all available clusters globally', bei api.eu.bfl.ai 'Multi-cluster routing limited to EU regions') und Auslieferung über 'region-specific delivery URLs under delivery.*.bfl.ai' (10 Minuten gültig). Trust Center (trust.bfl.ai) nennt Microsoft Azure als 'Cloud provider', aber keine Region und keine Backups."
       },
       "vorgeschaltete_filter": {
         "wert": true,
         "status": "belegt",
         "quelle": "https://docs.bfl.ai/api_integration/errors",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Moderation vor und nach dem Modell: 'Request Moderated' = 'Your input (prompt or image) was flagged by our content moderation system before processing began'; 'Content Moderated' = 'The generated output was flagged by our content moderation system after processing completed'; Begründung im Feld 'Moderation Reasons' (z. B. Violence, Sexual Content, Self Harm). Zusätzlich ToS 7.3: 'We use both algorithmic and human interventions to detect and address content that may violate these Terms'. Gilt laut Doku für die FLUX-API allgemein, nicht modellweise unterschieden."
       }
     }
@@ -190,28 +190,28 @@
       "wert": false,
       "status": "belegt",
       "quelle": "https://bfl.ai/legal/eu-api-service-terms",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "EU API Service Terms §2b: Lizenz an Input und Output 'for the purpose of operating the FLUX Services, improving the Company's products and services, and developing new products and services' und 'the Company may use Inputs and Outputs to train and improve its artificial intelligence models'. Privacy Policy (01.08.2026) nennt als Trainingszweck u. a. 'improve our content moderation tools'; weitere Zwecke dort: 'To improve and develop our Services and new features and conduct research', 'To prevent fraud, criminal activity, or misuses of our Services', Marketing an Kontaktdaten. Enterprise-Verträge (nicht öffentlich) können abweichen."
     },
     "betroffenenrechte_traeger": {
       "wert": "auftraggeber",
       "status": "belegt",
       "quelle": "https://bfl.ai/legal/privacy-policy",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Privacy Policy Abschnitt 8: 'if you are an end user of a service that incorporates or integrates our Services, the service provider is the controller of your personal data, and you should contact them to exercise any privacy rights.' Für eigene Kontoinhaber ist BFL selbst Verantwortlicher (EWR: BFL GmbH, Anfragen an privacy@blackforestlabs.ai, Antwort 'at least within one month'). Ein AVV/DPA mit konkreter Unterstützungsklausel ist nicht öffentlich ('DPAs ... available on request', bfl.ai/enterprise)."
     },
     "log_frist": {
       "wert": null,
       "status": "unbelegt",
       "quelle": "https://bfl.ai/legal/privacy-policy",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Keine Frist genannt. Privacy Policy Abschnitt 7 (Stand 01.08.2026): 'We retain your information for as long as is reasonably necessary to provide our Service to you, or for other legitimate business purposes such as resolving disputes, safety and security reasons, or complying with our legal obligations.' ToS, Developer Terms und EU API Service Terms nennen ebenfalls keine Log-Frist; nur Ergebnis-URLs verfallen nach 10 Minuten (Integration Guide), Video-Outputs 'may delete them after expiry of the retrieval window'."
     },
     "log_zweck": {
       "wert": "Missbrauchs- und Betrugserkennung, Sicherheit, Streitbeilegung, gesetzliche Pflichten; Inputs/Outputs zusätzlich Training und Verbesserung der Moderationswerkzeuge",
       "status": "belegt",
       "quelle": "https://bfl.ai/legal/privacy-policy",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Privacy Policy: 'analysing log data to identify fraud and abuse in our Services'; Aufbewahrung für 'resolving disputes, safety and security reasons, or complying with our legal obligations'; Inputs/Outputs 'to train and improve our AI models' u. a. um 'improve our content moderation tools'. Die Privacy Policy gilt nicht für Inhalte unter Enterprise-Vertrag ('does not apply to content that we process on behalf of customers of our business offerings pursuant to an enterprise contract')."
     }
   },
@@ -226,21 +226,21 @@
         "wert": "Black Forest Labs Inc; Kriterien Security, Availability, Confidentiality",
         "status": "beansprucht",
         "quelle": "https://trust.bfl.ai/",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Bericht selbst nur nach Zugangsanfrage ('Black Forest Labs Inc Report SOC 2 Type 2 12.17.25.pdf' im Trust Center, Request access); Gesellschaft nur aus dem Dateinamen, Kriterien laut bfl.ai/enterprise: 'Audited security, availability & confidentiality controls'. Ob die BFL GmbH und welche Systeme im Scope sind, ist ohne Bericht nicht prüfbar."
       },
       "zertifizierer": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Prüfer nicht genannt; der SOC-2-Bericht liegt im Vanta-Trust-Center trust.bfl.ai nur nach Zugangsanfrage (08.10.2026)."
       },
       "akkreditiert_dakks": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "SOC 2 ist ein Testat eines Wirtschaftsprüfers, keine akkreditierte Zertifizierung"
       },
       "normiert": [
@@ -257,21 +257,21 @@
         "wert": "Black Forest Labs Inc & Black Forest Labs GmbH; 'The development and provision of AI solutions to clients Worldwide'; Standorte San Francisco (USA) und Sedanstr. 7, Freiburg im Breisgau; SoA Version 1.0 vom 21.08.2025",
         "status": "belegt",
         "quelle": "https://trust.bfl.ai/doc/trust?rid=6936c03e7afd0fe5c25dcad5&r=0cb6ffww8qmy60nxzo3p5&download=true",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Zertifikat Nr. 269758 nach ISO/IEC 27001:2022, frei herunterladbar im Trust Center trust.bfl.ai; Erstzertifizierung 01.12.2025, gültig bis 30.11.2028, 'Subject to annual assessments'. Die Freiburger Adresse im Zertifikat (Sedanstr. 7) weicht von der Adresse in der Privacy Policy (Ingeborg-Krummer-Schroth-Straße 18) ab. Rechenzentren/Cloud-Betrieb sind als Standort nicht genannt."
       },
       "zertifizierer": {
         "wert": "British Assessment Bureau Ltd (Amtivo Group Limited), Kings Hill, Kent, UK",
         "status": "belegt",
         "quelle": "https://trust.bfl.ai/doc/trust?rid=6936c03e7afd0fe5c25dcad5&r=0cb6ffww8qmy60nxzo3p5&download=true",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Zertifikat: 'Certificate issued by Amtivo Group Limited T/A British Assessment Bureau Ltd.', unterzeichnet von Steve Russell, Chief Governance Officer; UKAS-Zeichen Nr. 8289 und IAF-MLA-Zeichen auf dem Zertifikat."
       },
       "akkreditiert_dakks": {
         "wert": false,
         "status": "belegt",
         "quelle": "https://www.ukas.com/download-schedule/8289/ManagementSystems",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "nicht DAkkS, aber akkreditiert durch UKAS (EA-MLA, gleichwertig anerkannt): UKAS Schedule of Accreditation 8289, 'British Assessment Bureau Limited t/a Amtivo', Issue No 039 vom 24.04.2026, enthält 'Information Security Management Systems (ISMS) to ISO/IEC 27001:2022' nach ISO/IEC 17021-1 und ISO/IEC 27006-1:2024. Eine DAkkS-Akkreditierung der Stelle wurde nicht gesucht, da es eine britische Stelle ist."
       },
       "normiert": [
@@ -297,7 +297,7 @@
       "anmerkung": "Auf der EU-Kommissionsseite als Unterzeichner des General-Purpose AI Code of Practice gelistet (alle Kapitel, ohne Ausnahmen)"
     }
   ],
-  "geprueft": "2026-10-08",
+  "geprueft": "2026-10-09",
   "url": "https://belegbar.eu/anbieter/black-forest-labs/",
   "beleg_quote_prozent": 77,
   "zuletzt_geprueft": "2026-10-09",

@@ -25,14 +25,14 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://trust.deepl.com/",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "DeepL nennt keinen Backup-Standort. Trust Center 'Backups': Backup-Routine 'defines backup frequency, the types of backups created, intended storage locations, and scope' — die Orte selbst stehen nicht da. Data-Residency-Add-on: 'customer content data is stored, processed, and managed exclusively within your selected region' (keine ausdrückliche Aussage zu Backups); 'logging and monitoring may operate outside your selected primary region'. Datenschutzerklärung (Voice): 'we may retain some technical logs and backups … for … disaster recovery', ohne Ort. Angabe eines Dritten (DORA-Prüfung, Backups bei fester Region nicht bestätigt) steht im Standort-Feld; sie ist keine Anbieteraussage."
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://support.deepl.com/hc/article_attachments/27532887446428",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Keine Aussage zu Inhaltsfiltern oder Moderation. Whitepaper nennt nur Netzwerk-/Routing-Schritte: Cloudflare 'filtering out malicious bot requests' und 'Translation requests are assessed, for example by language pair, before being sent to our translation engines'."
       }
     },
@@ -49,14 +49,14 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://trust.deepl.com/",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "DeepL nennt keinen Backup-Standort. Trust Center 'Backups': Backup-Routine 'defines backup frequency, the types of backups created, intended storage locations, and scope' — die Orte selbst stehen nicht da. Data-Residency-Add-on: 'customer content data is stored, processed, and managed exclusively within your selected region' (keine ausdrückliche Aussage zu Backups); 'logging and monitoring may operate outside your selected primary region'. Datenschutzerklärung (Voice): 'we may retain some technical logs and backups … for … disaster recovery', ohne Ort. Angabe eines Dritten (DORA-Prüfung, Backups bei fester Region nicht bestätigt) steht im Standort-Feld; sie ist keine Anbieteraussage."
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://support.deepl.com/hc/article_attachments/27532887446428",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Keine Aussage zu Inhaltsfiltern oder Moderation. Whitepaper nennt nur Netzwerk-/Routing-Schritte: Cloudflare 'filtering out malicious bot requests' und 'Translation requests are assessed, for example by language pair, before being sent to our translation engines'."
       }
     },
@@ -74,14 +74,14 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://trust.deepl.com/",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "DeepL nennt keinen Backup-Standort. Trust Center 'Backups': Backup-Routine 'defines backup frequency, the types of backups created, intended storage locations, and scope' — die Orte selbst stehen nicht da. Data-Residency-Add-on: 'customer content data is stored, processed, and managed exclusively within your selected region' (keine ausdrückliche Aussage zu Backups); 'logging and monitoring may operate outside your selected primary region'. Datenschutzerklärung (Voice): 'we may retain some technical logs and backups … for … disaster recovery', ohne Ort. Angabe eines Dritten (DORA-Prüfung, Backups bei fester Region nicht bestätigt) steht im Standort-Feld; sie ist keine Anbieteraussage."
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://support.deepl.com/hc/article_attachments/27532887446428",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Keine Aussage zu Inhaltsfiltern oder Moderation. Whitepaper nennt nur Netzwerk-/Routing-Schritte: Cloudflare 'filtering out malicious bot requests' und 'Translation requests are assessed, for example by language pair, before being sent to our translation engines'."
       }
     },
@@ -98,14 +98,14 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://trust.deepl.com/",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "DeepL nennt keinen Backup-Standort. Trust Center 'Backups': Backup-Routine 'defines backup frequency, the types of backups created, intended storage locations, and scope' — die Orte selbst stehen nicht da. Data-Residency-Add-on: 'customer content data is stored, processed, and managed exclusively within your selected region' (keine ausdrückliche Aussage zu Backups); 'logging and monitoring may operate outside your selected primary region'. Datenschutzerklärung (Voice): 'we may retain some technical logs and backups … for … disaster recovery', ohne Ort. Angabe eines Dritten (DORA-Prüfung, Backups bei fester Region nicht bestätigt) steht im Standort-Feld; sie ist keine Anbieteraussage."
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://support.deepl.com/hc/article_attachments/27532887446428",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Keine Aussage zu Inhaltsfiltern oder Moderation. Whitepaper nennt nur Netzwerk-/Routing-Schritte: Cloudflare 'filtering out malicious bot requests' und 'Translation requests are assessed, for example by language pair, before being sent to our translation engines'."
       }
     }
@@ -122,7 +122,7 @@
       "wert": null,
       "status": "beansprucht",
       "quelle": "https://trust.deepl.com/",
-      "geprueft": "2026-10-04",
+      "geprueft": "2026-10-09",
       "anmerkung": "Keine öffentliche Gesamtliste; laut Anbieter in Annex 1 der AVV (nur für Kunden). Im Trust Center ist die Rubrik 'Subprocessors' zugriffsbeschränkt; konkret veröffentlicht ist ein Transfer Impact Assessment für AWS als Subprozessor"
     },
     "training_opt_out": {
@@ -150,14 +150,14 @@
       "wert": null,
       "status": "unbelegt",
       "quelle": "https://trust.deepl.com/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Der AVV ('DeepL's Data Processing Agreement', Pro-AGB Ziff. 8.1.5) liegt im Trust Center nur zugriffsbeschränkt; öffentlich keine Klausel dazu, wer Betroffenenanfragen bedient. Pro-AGB und Datenschutzerklärung (für Voice: 'we act in our capacity as processor') regeln es nicht ausdrücklich (Abruf 08.10.2026)."
     },
     "log_frist": {
       "wert": "Log-Dateien 90 Tage; darin enthaltene nicht abrechnungsrelevante personenbezogene Daten nach 14 Tagen gelöscht; Inhalte im Fehlerfall verschlüsselt bis 72 h; Zugriffslogs laut AGB ohne Frist",
       "status": "belegt",
       "quelle": "https://trust.deepl.com/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Trust Center, Karte 'Log storage': 'Log files are stored for 90 days. Personal data (related to the GDPR) that is not relevant for accounting purposes will be deleted after 14 days.' Karte 'Access Monitoring': 'DeepL stores these log files for 90 days.' Pro-AGB 3.1.4: Speicherung von Inhalten 'for a maximum period of 72 hours in case certain error patterns occur'. Pro-AGB 3.1.2 erlaubt Zugriffslogs mit Metadaten ('time of the API Request and size of the transmitted Content') ohne Frist. Abruf 08.10.2026."
     },
     "log_zweck": {
@@ -173,27 +173,27 @@
       "typ": "ISO/IEC 27001:2022",
       "status": "belegt",
       "quelle": "https://trust.deepl.com/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Im Trust Center (SafeBase-Portal) ausgewiesen; Auditor TÜV Rheinland Cert GmbH, Zertifikat öffentlich abrufbar. Hinweis: trust.deepl.com blockt automatisierte Abrufe, im Browser erreichbar",
       "anwendungsbereich": {
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://trust.deepl.com/",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Zertifikat (DeepL_ISO_27001_EN.pdf) und 'Statement of applicability (SoA) v32' sind im Trust Center als öffentlich gelistet, der Abruf scheiterte am 08.10.2026 an der Cloudflare-Prüfung (auch im Browser-Automaten). Scope nicht gelesen; auch keine Scope-Angabe auf den Anbieterseiten."
       },
       "zertifizierer": {
         "wert": "TÜV Rheinland Cert GmbH",
         "status": "belegt",
         "quelle": "https://trust.deepl.com/",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Trust Center, Eintrag 'ISO/IEC 27001:2022': 'auditor':'TÜV Rheinland Cert GmbH' (Abruf 08.10.2026)."
       },
       "akkreditiert_dakks": {
         "wert": true,
         "status": "belegt",
         "quelle": "https://www.dakks.de/files/data/as/pdf/D-ZM-16031-01-04.pdf",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "DAkkS-Urkundenanlage D-ZM-16031-01-04 (gültig ab 18.02.2025, ausgestellt 05.02.2026) für TÜV Rheinland Cert GmbH, Köln: Zertifizierung nach 'DIN EN ISO/IEC 27001:2024-01' auf Grundlage DIN EN ISO/IEC 27006-1."
       },
       "normiert": [
@@ -204,27 +204,27 @@
       "typ": "SOC 2 Type II",
       "status": "belegt",
       "quelle": "https://trust.deepl.com/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Berichtszeitraum 01.01.–30.06.2025; auch auf deepl.com/en/pro-data-security beworben, Bericht als Download. Stand 08.10.2026 (wie 04.10.) kein neuerer Bericht im Trust Center; ein Bridge Letter (Erklärung der DeepL-Geschäftsleitung, keine Prüfung) deckt 01.07.2025–30.07.2026 und kündigt das nächste Audit für Kalenderwoche 24/2026 an. Für die Zeit nach dem 30.07.2026 liegt öffentlich weder Bericht noch Bridge Letter vor",
       "anwendungsbereich": {
         "wert": "Cloud-Service-Produkt der DeepL SE; Trust-Services-Kriterien Security, Availability, Confidentiality (laut Bericht 2022/23)",
         "status": "beansprucht",
         "quelle": "https://assets.ctfassets.net/pplyeawnfzc7/6ME8nhfxNMIx54UhI88rNg/aa65dbf11f0a6979750babccb8f2336d/Audit_Verdict_DeepL_SOC_2_Type_2.pdf",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Öffentlich ist nur das Prüfurteil für 01.10.2022–30.09.2023 ('System Description of the Cloud Service Product of DeepL SE'; 'security, confidentiality and availability principles'), verlinkt auf deepl.com/en/pro-data-security. Der aktuelle Bericht (01.01.–30.06.2025) ist zugriffsbeschränkt, sein Scope nicht einsehbar."
       },
       "zertifizierer": {
         "wert": "HKKG GmbH Wirtschaftsprüfungsgesellschaft, Köln",
         "status": "belegt",
         "quelle": "https://trust.deepl.com/",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Trust Center, Eintrag 'SOC 2 Type 2': 'auditor':'HKKG', Berichtszeitraum 01.01.–30.06.2025. Das öffentliche Prüfurteil 2022/23 ist unterschrieben 'Cologne, December 22, 2023, HKKG GmbH, Auditing company'."
       },
       "akkreditiert_dakks": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "SOC 2 ist ein Testat eines Wirtschaftsprüfers, keine akkreditierte Zertifizierung."
       },
       "normiert": [
@@ -241,21 +241,21 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://trust.deepl.com/",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "HIPAA kennt keine Zertifizierung; Trust Center beschreibt nur Einhaltung ('You can trust DeepL to protect your data and support your compliance needs'), ohne Umfang oder Prüfdokument."
       },
       "zertifizierer": {
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://trust.deepl.com/",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Trust Center nennt keinen Prüfer ('auditor' leer)."
       },
       "akkreditiert_dakks": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Keine Zertifizierung, daher keine Akkreditierung prüfbar."
       },
       "normiert": [
@@ -272,21 +272,21 @@
         "wert": "'specific in-scope services and regions, including AWS Stockholm (eu-north-1)'",
         "status": "beansprucht",
         "quelle": "https://support.deepl.com/hc/article_attachments/27532887446428",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "DeepL 'Security and data residency whitepaper' (Anhang des Hilfeartikels 'DeepL infrastructure and data protection', hochgeladen 18.05.2026): 'Compliance with the BSI Cloud Computing Compliance Controls Catalogue (C5) is maintained for specific in-scope services and regions, including AWS Stockholm (eu-north-1)'. Welche Dienste genau, steht nicht da; Testatsbericht nicht öffentlich."
       },
       "zertifizierer": {
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://trust.deepl.com/",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Kein Prüfer genannt: Trust-Center-Eintrag 'C5' hat leeres 'auditor'-Feld, Blog vom 03.10.2025 nennt keinen Wirtschaftsprüfer (spricht vom 'C5‑Typ‑2-Testat vom Bundesamt für Sicherheit in der Informationstechnik (BSI)'; C5-Testate stellen aber Wirtschaftsprüfer aus, nicht das BSI)."
       },
       "akkreditiert_dakks": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "C5 ist ein Testat eines Wirtschaftsprüfers (ISAE 3000), keine akkreditierte Zertifizierung."
       },
       "normiert": [
@@ -297,27 +297,27 @@
       "typ": "Externe Penetrationstests",
       "status": "belegt",
       "quelle": "https://trust.deepl.com/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Regelmäßige Tests durch wechselnde unabhängige Prüfer; Berichte auf Anfrage",
       "anwendungsbereich": {
         "wert": "Infrastruktur und Kubernetes (ein veröffentlichter Bericht)",
         "status": "beansprucht",
         "quelle": "https://www.deepl.com/en/pro-data-security",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Kein Zertifikat. deepl.com/en/pro-data-security verlinkt 'Download our security assessment' auf static.deepl.com/files/Infrastructure-and-K8s-Cure53-Pentest.pdf (Text im PDF nicht maschinenlesbar, Inhalt nicht geprüft). Trust Center: Tests 'by different external, independent experts'."
       },
       "zertifizierer": {
         "wert": "Cure53 (laut Dateiname des veröffentlichten Berichts)",
         "status": "beansprucht",
         "quelle": "https://www.deepl.com/en/pro-data-security",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Nur aus dem Dateinamen 'Infrastructure-and-K8s-Cure53-Pentest.pdf' abgeleitet; Trust Center nennt keine Prüfer."
       },
       "akkreditiert_dakks": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Penetrationstest ist keine Zertifizierung; keine Akkreditierung prüfbar."
       },
       "normiert": []
@@ -343,7 +343,7 @@
       "pflicht": "AI-Governance / Responsible-AI-Dokumentation",
       "status": "beansprucht",
       "quelle": "https://trust.deepl.com/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Trust Center listet 'AI Governance' und ein 'Responsible AI Statement'; Inhalte zugriffsbeschränkt, ohne öffentlich prüfbaren Text"
     },
     {
@@ -353,7 +353,7 @@
       "anmerkung": "Keine dedizierte AI-Act-Infoseite gefunden; für den Finanzsektor existiert eine DORA-Seite (deepl.com/en/dora-info), die DeepL als ICT-Drittdienstleister für 'non-critical functions' einordnet"
     }
   ],
-  "geprueft": "2026-10-08",
+  "geprueft": "2026-10-09",
   "url": "https://belegbar.eu/anbieter/deepl/",
   "beleg_quote_prozent": 56,
   "zuletzt_geprueft": "2026-10-09",

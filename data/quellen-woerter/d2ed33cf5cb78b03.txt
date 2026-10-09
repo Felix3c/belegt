@@ -40,7 +40,6 @@ API
 API
 API
 API
-API
 AWS
 About
 Academy
@@ -63,7 +62,6 @@ Borderless
 Both
 Bring
 Browser
-Build
 Building
 Business
 Careers
@@ -102,7 +100,6 @@ Customer
 Customization
 Customization
 Data
-DeepL
 DeepL
 DeepL
 DeepL
@@ -562,7 +559,6 @@ essential
 every
 every
 expansion
-experiences
 experts
 extension
 extension
@@ -636,7 +632,6 @@ integrations
 integrations
 internal
 internal
-into
 is
 is
 is
@@ -661,7 +656,6 @@ measures.
 mind,
 model
 more
-multilingual
 multilingual
 needs
 never
@@ -700,7 +694,6 @@ privacy,
 process,
 processes
 productivity
-products
 professional
 protected
 protected
@@ -828,7 +821,6 @@ workflows
 worldwide—ensuring
 writing
 writing
-your
 your
 your
 your

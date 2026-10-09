@@ -180,14 +180,14 @@
       "wert": "API-Metadaten bis 12 Monate, Fehler- und Monitoringdaten bis 90 Tage; Inhalte standardmäßig nicht gespeichert",
       "status": "belegt",
       "quelle": "https://eurouter.ai/privacy",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Datenschutzerklärung (Version 1.2, Abruf 08.10.2026): 'We keep API metadata, such as timestamps, token counts and usage data, for up to 12 months, unless longer retention is necessary for security, billing, legal claims or compliance purposes. By default, we do not store the prompts, inputs, uploaded files, outputs and model responses after they have been processed and returned. Error and monitoring data is retained for up to 90 days where applicable, unless longer retention is needed for security or legal reasons.' Zusätzlich längere Aufbewahrung 'in cases of fraud or abuse investigation'. Das DPA (§10) verweist für die Frist auf Annex 1, der nennt aber keine. Metadaten laut DPA Annex 1 u. a. 'IP address', 'end-user identifiers'."
     },
     "log_zweck": {
       "wert": "Abrechnung, Betrieb und Zuverlässigkeit, Sicherheit, Erkennung von Missbrauch und Betrug",
       "status": "belegt",
       "quelle": "https://eurouter.ai/privacy",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Datenschutzerklärung (Abruf 08.10.2026): 'to provide, operate, maintain and secure the Services ... and to monitor performance, reliability, errors, abuse and security incidents'. DPA §10: Metadaten 'strictly necessary for billing and service operation'; DPA Annex 1 'Logging and monitoring': 'metadata needed for security, billing and reliability'."
     }
   },

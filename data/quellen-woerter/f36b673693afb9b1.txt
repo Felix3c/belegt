@@ -57,7 +57,6 @@
 1M
 1M
 1M
-2
 20
 20
 20-million-token
@@ -175,7 +174,6 @@ Audio
 Benchmarks
 Best
 Best-in-class
-Bonsai
 Boost
 Boost
 Boost
@@ -185,6 +183,7 @@ Boost
 Boost
 Boost
 Boost,
+Build
 Builder
 Built
 Built
@@ -535,7 +534,6 @@ Qwen
 Qwen-Image
 Qwen3-Embedding-8B
 Qwen3-Reranker-4B
-Qwen3.8-27B:
 R&amp;D
 RAG
 RAM
@@ -703,6 +701,7 @@ additional
 affordable
 against
 agent
+agentic
 agreements
 alerts
 all
@@ -716,7 +715,7 @@ along
 also
 always
 an
-and
+an
 and
 and
 and
@@ -774,7 +773,6 @@ based
 batch
 become
 before
-benchmarks
 best
 best
 beyond
@@ -829,11 +827,12 @@ charges
 charges.
 chat
 chat,
-choices
 choose
 choose
 choose
 choose
+cites
+claim
 clearly
 click
 coding
@@ -920,7 +919,6 @@ deliver
 demand
 demand
 demanding
-deployment
 deployments.
 directly
 directly
@@ -949,12 +947,12 @@ ends.
 engineer
 engineering
 engineers
-enterprise
 enterprises
 enterprises
 enterprises
 environments
 estimate
+every
 every
 every
 every
@@ -1041,6 +1039,7 @@ go
 gpt-oss-120b
 gpt-oss-20b
 grab
+graph
 greater
 green
 groups
@@ -1107,6 +1106,7 @@ key,
 key?
 keys
 keys.
+knowledge
 less
 lets
 library
@@ -1465,6 +1465,7 @@ that
 that
 that
 that
+that
 the
 the
 the
@@ -1604,7 +1605,6 @@ variable
 visibility
 volume
 volume
-vs
 waiting
 want
 want

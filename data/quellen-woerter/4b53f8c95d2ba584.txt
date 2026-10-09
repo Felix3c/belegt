@@ -15,7 +15,6 @@
 120b
 122b
 17793/98
-2
 2026
 24
 3.5
@@ -51,7 +50,7 @@ Are
 Arrives
 At
 Benchmarks
-Bonsai
+Build
 Builder
 Building
 CCIAA
@@ -222,7 +221,6 @@ Program
 Provider
 Purpose
 Qwen
-Qwen3.8-27B:
 RAG
 Read
 Ready
@@ -318,15 +316,16 @@ activity
 adherence
 after
 agent
+agentic
 aligned
 already
 an
 an
 an
 an
+an
 analysis.
 analytics
-and
 and
 and
 and
@@ -377,7 +376,6 @@ audit
 back
 behind
 believe
-benchmarks
 beyond
 bolt
 build
@@ -406,7 +404,8 @@ certification
 certified
 certify
 choice
-choices
+cites
+claim
 claim
 claim,
 close
@@ -461,7 +460,6 @@ decision
 deliberate
 delivering
 delivery.
-deployment
 design
 design
 development
@@ -477,9 +475,9 @@ embedded
 ensuring
 ensuring
 ensuring
-enterprise
 entire
 entirely
+every
 every
 every
 every
@@ -517,6 +515,7 @@ generated,
 geographical
 goes
 gone.
+graph
 green
 guarantee
 guarantees
@@ -571,6 +570,7 @@ just
 keeping
 kind.
 know.
+knowledge
 law.
 laws.
 leave
@@ -771,6 +771,7 @@ that
 that
 that
 that
+that
 that's
 the
 the
@@ -838,7 +839,6 @@ users
 v3
 verified
 verified
-vs
 way
 we
 we

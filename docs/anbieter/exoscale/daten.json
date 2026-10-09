@@ -27,14 +27,14 @@
         "wert": "Im vom Kunden gewählten Land der Zone; keine Replikation außerhalb dieses Landes, auch nicht für Backups, Snapshots und DR-Kopien",
         "status": "belegt",
         "quelle": "https://www.exoscale.com/terms/",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "AGB 5.2 (gültig ab 02.07.2026, Abruf 08.10.2026): 'Supplier shall store Client Data exclusively within the country selected by Client for the relevant Service and shall not migrate or replicate Client Data outside that country, including for backups, snapshots, and disaster recovery copies, except where (i) expressly instructed by Client through the Services or (ii) required by applicable law or court order.' Ausgenommen sind Betriebs-Logs ohne Client-Data-Payloads (5.2 d). Ob Exoscale für Dedicated Inference überhaupt Sicherungen anlegt, steht nirgends."
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Keine Aussage (Abruf 08.10.2026): Produktseiten zu Dedicated und On-Demand Inference, AGB und DPA erwähnen weder Moderation noch Filter oder Guardrails. Bei Dedicated Inference bringt der Kunde das Modell selbst mit ('Fully dedicated down to logs and GPU memory'); eine Zwischenschicht von Exoscale ist nicht beschrieben, aber auch nicht ausgeschlossen."
       }
     },
@@ -53,14 +53,14 @@
         "wert": "Im vom Kunden gewählten Land der Zone; keine Replikation außerhalb dieses Landes, auch nicht für Backups, Snapshots und DR-Kopien",
         "status": "belegt",
         "quelle": "https://www.exoscale.com/terms/",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "AGB 5.2 (gültig ab 02.07.2026, Abruf 08.10.2026): 'Supplier shall store Client Data exclusively within the country selected by Client for the relevant Service and shall not migrate or replicate Client Data outside that country, including for backups, snapshots, and disaster recovery copies, except where (i) expressly instructed by Client through the Services or (ii) required by applicable law or court order.' Ausgenommen sind Betriebs-Logs ohne Client-Data-Payloads (5.2 d). Ob Exoscale für Dedicated Inference überhaupt Sicherungen anlegt, steht nirgends."
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Keine Aussage (Abruf 08.10.2026): Produktseiten zu Dedicated und On-Demand Inference, AGB und DPA erwähnen weder Moderation noch Filter oder Guardrails. Bei Dedicated Inference bringt der Kunde das Modell selbst mit ('Fully dedicated down to logs and GPU memory'); eine Zwischenschicht von Exoscale ist nicht beschrieben, aber auch nicht ausgeschlossen."
       }
     },
@@ -78,14 +78,14 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Dienst noch nicht gestartet ('Coming soon'); die Seite sagt nur 'All models are planned to be deployed in both the EU and Switzerland locations' (Abruf 08.10.2026). Ob die Standortzusage der AGB 5.2 (keine Replikation außerhalb des gewählten Landes, auch nicht für Backups) für diesen Dienst gilt und welches Land gewählt wird, ist offen."
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Keine Aussage (Abruf 08.10.2026): Produktseiten zu Dedicated und On-Demand Inference, AGB und DPA erwähnen weder Moderation noch Filter oder Guardrails. Bei Dedicated Inference bringt der Kunde das Modell selbst mit ('Fully dedicated down to logs and GPU memory'); eine Zwischenschicht von Exoscale ist nicht beschrieben, aber auch nicht ausgeschlossen."
       }
     }
@@ -135,14 +135,14 @@
       "wert": null,
       "status": "unbelegt",
       "quelle": null,
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Keine Frist für Protokolle der Inferenz-Dienste (Abruf 08.10.2026): AGB (gültig ab 02.07.2026), DPA (ab 05.05.2025), Datenschutzerklärung und die Seite zu Dedicated Inference nennen keine Aufbewahrungsdauer für Betriebs- oder Deployment-Logs. Die Datenschutzerklärung nennt Server-Logs nur für Website-Besucher, ebenfalls ohne Frist."
     },
     "log_zweck": {
       "wert": "Bereitstellung, Absicherung und Support der Dienste",
       "status": "belegt",
       "quelle": "https://www.exoscale.com/terms/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "AGB 5.2 (gültig ab 02.07.2026, Abruf 08.10.2026) nimmt von der Standortzusage aus: '(d) operational telemetry or log data necessary to provide, secure, and support the Services to the extent such telemetry or logs do not contain Client Data payloads'. Für Website und Konten nennt die Datenschutzerklärung zusätzlich 'For intrusion and misuse detection and securing access to our systems as well as enforcing our Terms of Service'."
     }
   },
@@ -164,14 +164,14 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Nicht öffentlich genannt. exoscale.com/compliance/iso27001/: 'Exoscale has maintained ISO/IEC 27001 certification by an accredited auditor since 2018', ohne Namen. Zertifikat, Umfang und Bericht liegen nur im Compliance Center (Exoscale-Konto, nach NDA); öffentlich nicht einsehbar (Abruf 08.10.2026)."
       },
       "akkreditiert_dakks": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Nicht prüfbar: Ohne Namen der Zertifizierungsstelle ist keine Abfrage in der DAkkS- oder einer anderen Akkreditierungsdatenbank möglich. Exoscale behauptet nur allgemein: 'All certifications and attestations are performed by accredited third-party auditors' (community.exoscale.com/platform/compliance/, Abruf 08.10.2026)."
       },
       "normiert": [
@@ -188,21 +188,21 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Berichtszeitraum laut Compliance-Seite 'May 1st – May 1st'; Systembeschreibung und Umfang nur im Bericht. Zertifikat, Umfang und Bericht liegen nur im Compliance Center (Exoscale-Konto, nach NDA); öffentlich nicht einsehbar (Abruf 08.10.2026)."
       },
       "zertifizierer": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Prüfer nicht öffentlich genannt. Zertifikat, Umfang und Bericht liegen nur im Compliance Center (Exoscale-Konto, nach NDA); öffentlich nicht einsehbar (Abruf 08.10.2026)."
       },
       "akkreditiert_dakks": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "SOC 2 ist ein Testat eines Wirtschaftsprüfers, keine akkreditierte Zertifizierung."
       },
       "normiert": [
@@ -219,21 +219,21 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "C5:2020 Typ 2, Berichtszeitraum laut Compliance-Seite 'May 1st – May 1st'; welche Dienste und Zonen der Bericht abdeckt, steht nur im Bericht. Zertifikat, Umfang und Bericht liegen nur im Compliance Center (Exoscale-Konto, nach NDA); öffentlich nicht einsehbar (Abruf 08.10.2026)."
       },
       "zertifizierer": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Prüfer nicht öffentlich genannt. Zertifikat, Umfang und Bericht liegen nur im Compliance Center (Exoscale-Konto, nach NDA); öffentlich nicht einsehbar (Abruf 08.10.2026)."
       },
       "akkreditiert_dakks": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "BSI C5 ist ein Testat eines Wirtschaftsprüfers nach ISAE 3000 (so auch exoscale.com/compliance/bsi-c5/: 'attestation schemes (not certifications)'), keine akkreditierte Zertifizierung; eine DAkkS-Akkreditierung ist dafür nicht vorgesehen."
       },
       "normiert": [
@@ -250,21 +250,21 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Umfang (Standorte, Prüfziele) nur im ENX-Portal für registrierte Partner: 'Exoscale's TISAX assessment results (Level 2) are published on the ENX portal and can be accessed by authorized automotive industry partners' (exoscale.com/compliance/tisax/, Abruf 08.10.2026)."
       },
       "zertifizierer": {
         "wert": "DEKRA (laut Exoscale 2023; aktueller Prüfdienstleister nicht öffentlich)",
         "status": "beansprucht",
         "quelle": "https://www.exoscale.com/blog/exoscale-tisax-certification/",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Blog vom 20.04.2023: 'we have achieved TISAX Level 2 certification from Dekra Deutschland'. TISAX-Ergebnisse gelten drei Jahre; ob die aktuelle Bewertung ebenfalls von DEKRA stammt, ist öffentlich nicht belegt."
       },
       "akkreditiert_dakks": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "TISAX ist ein Assessment der Automobilbranche; die Prüfdienstleister werden von der ENX Association zugelassen, nicht von der DAkkS für diese Norm akkreditiert."
       },
       "normiert": [
@@ -281,21 +281,21 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Umfang nur im Compliance Center. Zertifikat, Umfang und Bericht liegen nur im Compliance Center (Exoscale-Konto, nach NDA); öffentlich nicht einsehbar (Abruf 08.10.2026)."
       },
       "zertifizierer": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Nicht öffentlich genannt. Zertifikat, Umfang und Bericht liegen nur im Compliance Center (Exoscale-Konto, nach NDA); öffentlich nicht einsehbar (Abruf 08.10.2026)."
       },
       "akkreditiert_dakks": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Nicht prüfbar: Zertifizierungsstelle unbekannt (Zertifikat nur unter NDA). Exoscale behauptet allgemein 'performed by accredited third-party auditors' (community.exoscale.com/platform/compliance/)."
       },
       "normiert": [
@@ -319,14 +319,14 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Nicht öffentlich genannt. Zertifikat, Umfang und Bericht liegen nur im Compliance Center (Exoscale-Konto, nach NDA); öffentlich nicht einsehbar (Abruf 08.10.2026)."
       },
       "akkreditiert_dakks": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Nicht prüfbar: Zertifizierungsstelle unbekannt (Zertifikat nur unter NDA). Exoscale behauptet allgemein 'performed by accredited third-party auditors' (community.exoscale.com/platform/compliance/)."
       },
       "normiert": [
@@ -343,21 +343,21 @@
         "wert": "HDS-Tätigkeiten 1–4 und 6",
         "status": "beansprucht",
         "quelle": "https://community.exoscale.com/platform/compliance/",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Compliance-Seite (Abruf 08.10.2026): 'HDS French health data hosting certification ... Scope: 1–4 and 6'. Zertifikat nur im Compliance Center (NDA); welche Zonen erfasst sind, ist öffentlich nicht belegt."
       },
       "zertifizierer": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Nicht öffentlich genannt; exoscale.com/compliance/hds/: 'validated by an independent auditor', ohne Namen. Zertifikat, Umfang und Bericht liegen nur im Compliance Center (Exoscale-Konto, nach NDA); öffentlich nicht einsehbar (Abruf 08.10.2026)."
       },
       "akkreditiert_dakks": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Nicht prüfbar: Zertifizierungsstelle unbekannt. HDS-Zertifizierer müssen nach französischem Recht akkreditiert sein (COFRAC oder EA-Partner); ohne Namen keine Prüfung möglich."
       },
       "normiert": [
@@ -381,14 +381,14 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Kein Zertifizierer: STAR Level 1 ist eine Selbstauskunft ('publishing our self-assessment using the CAIQ', exoscale.com/compliance/csa-star/, Abruf 08.10.2026)."
       },
       "akkreditiert_dakks": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Selbstauskunft ohne Prüfstelle; die Frage nach einer Akkreditierung stellt sich hier nicht."
       },
       "normiert": [
@@ -413,7 +413,7 @@
       "anmerkung": "Kein GPAI-Modellanbieter (reine Infrastruktur); eigene AI-Act-Dokumentation nicht auffindbar. Nachprüfung 05.10.2026: Auf den Inference-, Compliance- und Vertragsseiten sowie in der Dedicated-Inference-Doku kommt der AI Act nicht vor."
     }
   ],
-  "geprueft": "2026-10-08",
+  "geprueft": "2026-10-09",
   "url": "https://belegbar.eu/anbieter/exoscale/",
   "beleg_quote_prozent": 69,
   "zuletzt_geprueft": "2026-10-09",

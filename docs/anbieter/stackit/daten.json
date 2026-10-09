@@ -25,14 +25,14 @@
         "wert": "Kein Backup der Anfragen (laut Leistungsschein)",
         "status": "belegt",
         "quelle": "https://stackit.com/de/asset/download/34346/file/Leistungsschein_STACKIT_AI_Model_Serving.pdf",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Leistungsschein STACKIT AI Model Serving, Version 1.3 (gültig ab 18.09.2025), Abschnitt Backup: 'Ein Backup der Anfragen des Kunden erfolgt nicht.' Anhang: 'Kundendaten werden nicht dauerhaft gespeichert.' Version 1.4 (gültig ab 06.11.2026) wörtlich gleich (beide am 08.10.2026 abgerufen). Gilt für alle Modelle des Dienstes. Wo die 30-Tage-Logs (E-Mail, Subject ID) gesichert werden, sagt der Leistungsschein nicht; die Zertifikatsseite sagt nur allgemein für die STACKIT Cloud 'The data is also backed up in compliance with GDPR.'"
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Keine Aussage gefunden, weder zu eigenen Filtern, Moderation oder Guardrails noch dass es keine gibt. Durchsucht am 08.10.2026: Leistungsschein 1.3 und 1.4, Produktseite und alle 20 Seiten der AI-Model-Serving-Doku auf docs.stackit.cloud laut Sitemap (Suchwörter filter, guardrail, moderation, safety). Genannt sind nur Rate-Limits: 'To prevent misuse and service overuse we enforce rate-limits.'"
       }
     },
@@ -49,14 +49,14 @@
         "wert": "Kein Backup der Anfragen (laut Leistungsschein)",
         "status": "belegt",
         "quelle": "https://stackit.com/de/asset/download/34346/file/Leistungsschein_STACKIT_AI_Model_Serving.pdf",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Leistungsschein STACKIT AI Model Serving, Version 1.3 (gültig ab 18.09.2025), Abschnitt Backup: 'Ein Backup der Anfragen des Kunden erfolgt nicht.' Anhang: 'Kundendaten werden nicht dauerhaft gespeichert.' Version 1.4 (gültig ab 06.11.2026) wörtlich gleich (beide am 08.10.2026 abgerufen). Gilt für alle Modelle des Dienstes. Wo die 30-Tage-Logs (E-Mail, Subject ID) gesichert werden, sagt der Leistungsschein nicht; die Zertifikatsseite sagt nur allgemein für die STACKIT Cloud 'The data is also backed up in compliance with GDPR.'"
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Keine Aussage gefunden, weder zu eigenen Filtern, Moderation oder Guardrails noch dass es keine gibt. Durchsucht am 08.10.2026: Leistungsschein 1.3 und 1.4, Produktseite und alle 20 Seiten der AI-Model-Serving-Doku auf docs.stackit.cloud laut Sitemap (Suchwörter filter, guardrail, moderation, safety). Genannt sind nur Rate-Limits: 'To prevent misuse and service overuse we enforce rate-limits.'"
       }
     },
@@ -73,14 +73,14 @@
         "wert": "Kein Backup der Anfragen (laut Leistungsschein)",
         "status": "belegt",
         "quelle": "https://stackit.com/de/asset/download/34346/file/Leistungsschein_STACKIT_AI_Model_Serving.pdf",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Leistungsschein STACKIT AI Model Serving, Version 1.3 (gültig ab 18.09.2025), Abschnitt Backup: 'Ein Backup der Anfragen des Kunden erfolgt nicht.' Anhang: 'Kundendaten werden nicht dauerhaft gespeichert.' Version 1.4 (gültig ab 06.11.2026) wörtlich gleich (beide am 08.10.2026 abgerufen). Gilt für alle Modelle des Dienstes. Wo die 30-Tage-Logs (E-Mail, Subject ID) gesichert werden, sagt der Leistungsschein nicht; die Zertifikatsseite sagt nur allgemein für die STACKIT Cloud 'The data is also backed up in compliance with GDPR.'"
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Keine Aussage gefunden, weder zu eigenen Filtern, Moderation oder Guardrails noch dass es keine gibt. Durchsucht am 08.10.2026: Leistungsschein 1.3 und 1.4, Produktseite und alle 20 Seiten der AI-Model-Serving-Doku auf docs.stackit.cloud laut Sitemap (Suchwörter filter, guardrail, moderation, safety). Genannt sind nur Rate-Limits: 'To prevent misuse and service overuse we enforce rate-limits.'"
       }
     },
@@ -97,14 +97,14 @@
         "wert": "Kein Backup der Anfragen (laut Leistungsschein)",
         "status": "belegt",
         "quelle": "https://stackit.com/de/asset/download/34346/file/Leistungsschein_STACKIT_AI_Model_Serving.pdf",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Leistungsschein STACKIT AI Model Serving, Version 1.3 (gültig ab 18.09.2025), Abschnitt Backup: 'Ein Backup der Anfragen des Kunden erfolgt nicht.' Anhang: 'Kundendaten werden nicht dauerhaft gespeichert.' Version 1.4 (gültig ab 06.11.2026) wörtlich gleich (beide am 08.10.2026 abgerufen). Gilt für alle Modelle des Dienstes. Wo die 30-Tage-Logs (E-Mail, Subject ID) gesichert werden, sagt der Leistungsschein nicht; die Zertifikatsseite sagt nur allgemein für die STACKIT Cloud 'The data is also backed up in compliance with GDPR.'"
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Keine Aussage gefunden, weder zu eigenen Filtern, Moderation oder Guardrails noch dass es keine gibt. Durchsucht am 08.10.2026: Leistungsschein 1.3 und 1.4, Produktseite und alle 20 Seiten der AI-Model-Serving-Doku auf docs.stackit.cloud laut Sitemap (Suchwörter filter, guardrail, moderation, safety). Genannt sind nur Rate-Limits: 'To prevent misuse and service overuse we enforce rate-limits.'"
       }
     }
@@ -163,7 +163,7 @@
       "wert": null,
       "status": "unbelegt",
       "quelle": null,
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Der Leistungsschein (1.3 und 1.4) nennt keinen Zweck für die 30-Tage-Logs. Er sagt nur allgemein, dass außer abrechnungsrelevanten Daten keine Kundendaten erhoben oder ausgewertet werden. Der AVV (Ziffer 2.3) nennt Zwecke für 'Nutzungsdaten' allgemein (u. a. IT- und Datensicherheit, Fehlerdiagnose, Optimierung und Weiterentwicklung), ohne die Logs des AI Model Serving zu erwähnen."
     }
   },
@@ -178,21 +178,21 @@
         "wert": "STACKIT GmbH & Co. KG, Neckarsulm: 'Cloud infrastructure and platform services (IaaS and PaaS) as well as colocation in the form of providing data center or rack space.' SoA Version 22 vom 28.11.2025",
         "status": "belegt",
         "quelle": "https://stackit.com/en/asset/download/50680/file/ISO%253AIEC%252027001_2022_EN.pdf?version=2",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Zertifikat 01 153 2500863, gültig 09.02.2026 bis 08.02.2029. AI Model Serving ist nicht namentlich genannt. Daneben verlinkt die Zertifikatsseite ein BSI-Zertifikat 'ISO 27001-Zertifikat auf der Basis von IT-Grundschutz' (BSI-IGZ-0691-2025, gültig bis 29.04.2028), dessen Informationsverbund nur Compute Engine, Network & Security, Block Storage und Object Storage umfasst, nicht AI Model Serving."
       },
       "zertifizierer": {
         "wert": "TÜV Rheinland Cert GmbH (Köln)",
         "status": "belegt",
         "quelle": "https://stackit.com/en/asset/download/50680/file/ISO%253AIEC%252027001_2022_EN.pdf?version=2",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Zertifikat: 'TÜV Rheinland Cert GmbH, Am Grauen Stein, 51105 Köln', ausgestellt 09.02.2026."
       },
       "akkreditiert_dakks": {
         "wert": true,
         "status": "belegt",
         "quelle": "https://www.dakks.de/files/data/as/pdf/D-ZM-16031-01-04.pdf",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Zertifikat trägt das DAkkS-Zeichen 'D-ZM-16031-01-00'. DAkkS-Anlage D-ZM-16031-01-04 (gültig ab 18.02.2025, ausgestellt 05.02.2026) der TÜV Rheinland Cert GmbH: 'Für Zertifizierungen im Bereich DIN EN ISO/IEC 27001:2024-01 Informationssicherheit, Cybersicherheit und Datenschutz – Informationssicherheitsmanagementsysteme'. In der DAkkS-Datenbank am 08.10.2026 aktiv."
       },
       "normiert": [
@@ -209,21 +209,21 @@
         "wert": "STACKIT-Infrastruktur, laut Anbieterseite 21 Produkte, darunter 'STACKIT AI Model Serving'",
         "status": "beansprucht",
         "quelle": "https://stackit.com/en/why-stackit/benefits/certificates",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Zertifikatsseite (08.10.2026): 'The STACKIT infrastructure is certified according to C5 Type 2 ... The report covers the following products and ALL basic and additional criteria.' Die Liste nennt u. a. Compute Engine (inkl. GPU), Kubernetes Engine, Object Storage und 'STACKIT AI Model Serving'. Den Bericht gibt es nur auf Anfrage ('Request certificates: iso@digits.schwarz')."
       },
       "zertifizierer": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Prüfer nicht genannt: Zertifikatsseite und Pressemitteilung von Schwarz Digits (2024) nennen keine Wirtschaftsprüfungsgesellschaft; Bericht nur auf Anfrage."
       },
       "akkreditiert_dakks": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Das C5-Testat ist ein Prüfbericht eines Wirtschaftsprüfers nach ISAE 3000, keine akkreditierte Zertifizierung."
       },
       "normiert": [
@@ -240,21 +240,21 @@
         "wert": "Begleitend zum C5-Testat, laut Anbieterseite dieselben Produkte",
         "status": "beansprucht",
         "quelle": "https://stackit.com/en/why-stackit/benefits/certificates",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Zertifikatsseite (08.10.2026): 'Thanks to the additional ISAE 3000 certification (SOC 2) and the ISAE 3402 certificate, international compliance and security requirements are also met.' Ein eigener Scope für SOC 2 steht dort nicht; Bericht nur auf Anfrage."
       },
       "zertifizierer": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Prüfer nicht genannt; Bericht nur auf Anfrage (iso@digits.schwarz)."
       },
       "akkreditiert_dakks": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "SOC 2 ist ein Testat eines Wirtschaftsprüfers, keine akkreditierte Zertifizierung."
       },
       "normiert": [
@@ -271,21 +271,21 @@
         "wert": "TISAX Level 3, Scope-ID SH938N, Assessment-ID ATA163-1 (Inhalt des Scopes nur im ENX-Portal)",
         "status": "beansprucht",
         "quelle": "https://stackit.com/en/why-stackit/benefits/certificates",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Zertifikatsseite (08.10.2026): 'For details on our TISAX assessment, simply log in to the ENX portal and search for STACKIT. Alternatively, you can access the results directly via our assessment ID ATA163-1 or the scope ID SH938N.' Das ENX-Portal zeigt Ergebnisse nur registrierten TISAX-Teilnehmern."
       },
       "zertifizierer": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Der Prüfdienstleister wird auf der Zertifikatsseite nicht genannt; das ENX-Ergebnis ist öffentlich nicht einsehbar."
       },
       "akkreditiert_dakks": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "TISAX ist ein Assessment im Verfahren der ENX Association, keine DAkkS-akkreditierte Zertifizierung; der Prüfdienstleister ist zudem unbekannt."
       },
       "normiert": [
@@ -302,21 +302,21 @@
         "wert": "Zusatzmaßnahmen nach ISO/IEC 27017:2015 in der SoA (Version 22, 28.11.2025) des ISO-27001-Zertifikats der STACKIT GmbH & Co. KG; Scope: 'Cloud infrastructure and platform services (IaaS and PaaS) as well as colocation'",
         "status": "belegt",
         "quelle": "https://stackit.com/en/asset/download/50680/file/ISO%253AIEC%252027001_2022_EN.pdf?version=2",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Kein eigenes ISO-27017-Zertifikat: Das ISO-27001-Zertifikat 01 153 2500863 nennt 'Statement of Applicability (SoA): Version 22, vom 28.11.2025 with the additional measures for ISO/IEC 27017:2015 & ISO/IEC 27018:2019.' Die Zertifikatsseite spricht von 'specific certifications ISO 27017 for cloud security and ISO 27018 for data protection (PII)'; ein gesondertes Dokument dazu ist dort nicht verlinkt."
       },
       "zertifizierer": {
         "wert": "TÜV Rheinland Cert GmbH (im Rahmen der ISO-27001-Zertifizierung)",
         "status": "belegt",
         "quelle": "https://stackit.com/en/asset/download/50680/file/ISO%253AIEC%252027001_2022_EN.pdf?version=2",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Steht auf dem ISO-27001-Zertifikat 01 153 2500863, das die 27017-Maßnahmen in der SoA nennt."
       },
       "akkreditiert_dakks": {
         "wert": false,
         "status": "belegt",
         "quelle": "https://www.dakks.de/files/data/as/pdf/D-ZM-16031-01-04.pdf",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Die TÜV Rheinland Cert GmbH ist für ISO/IEC 27001 DAkkS-akkreditiert (Anlage D-ZM-16031-01-04), keine ihrer zehn Anlagen D-ZM-16031-01-00 bis -09 nennt ISO/IEC 27017 (alle am 08.10.2026 geprüft). Die Zusatzmaßnahmen wurden im akkreditierten 27001-Audit mitgeprüft; eine eigene akkreditierte Zertifizierung nach ISO/IEC 27017 ist das nicht."
       },
       "normiert": [
@@ -333,21 +333,21 @@
         "wert": "Zusatzmaßnahmen nach ISO/IEC 27018:2019 in der SoA (Version 22, 28.11.2025) des ISO-27001-Zertifikats der STACKIT GmbH & Co. KG; Scope: 'Cloud infrastructure and platform services (IaaS and PaaS) as well as colocation'",
         "status": "belegt",
         "quelle": "https://stackit.com/en/asset/download/50680/file/ISO%253AIEC%252027001_2022_EN.pdf?version=2",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Kein eigenes ISO-27018-Zertifikat: Das ISO-27001-Zertifikat 01 153 2500863 nennt 'Statement of Applicability (SoA): Version 22, vom 28.11.2025 with the additional measures for ISO/IEC 27017:2015 & ISO/IEC 27018:2019.' Die Zertifikatsseite spricht von 'specific certifications ISO 27017 for cloud security and ISO 27018 for data protection (PII)'; ein gesondertes Dokument dazu ist dort nicht verlinkt."
       },
       "zertifizierer": {
         "wert": "TÜV Rheinland Cert GmbH (im Rahmen der ISO-27001-Zertifizierung)",
         "status": "belegt",
         "quelle": "https://stackit.com/en/asset/download/50680/file/ISO%253AIEC%252027001_2022_EN.pdf?version=2",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Steht auf dem ISO-27001-Zertifikat 01 153 2500863, das die 27018-Maßnahmen in der SoA nennt."
       },
       "akkreditiert_dakks": {
         "wert": false,
         "status": "belegt",
         "quelle": "https://www.dakks.de/files/data/as/pdf/D-ZM-16031-01-04.pdf",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Die TÜV Rheinland Cert GmbH ist für ISO/IEC 27001 DAkkS-akkreditiert (Anlage D-ZM-16031-01-04), keine ihrer zehn Anlagen D-ZM-16031-01-00 bis -09 nennt ISO/IEC 27018 (alle am 08.10.2026 geprüft). Die Zusatzmaßnahmen wurden im akkreditierten 27001-Audit mitgeprüft; eine eigene akkreditierte Zertifizierung nach ISO/IEC 27018 ist das nicht."
       },
       "normiert": [
@@ -369,11 +369,11 @@
       "pflicht": "Art.-53-Transparenzdokumentation",
       "status": "unbelegt",
       "quelle": null,
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "STACKIT betreibt Fremdmodelle; GPAI-Pflichten liegen bei den Modellherstellern. Keine eigene AI-Act-Dokumentation gefunden (Suche 05.10.2026: Produktseite, Zertifikatsseite, Compliance-Seite, AGB-Seite, Leistungsschein). Der Leistungsschein AI Model Serving (Version 1.3) regelt den AI Act nur als Sache des Kunden: STACKIT weist zusätzlich darauf hin, dass der Kunde etwaig einschlägige gesetzliche Bestimmungen für vom Kunden erstellte KI-Anwendungen einzuhalten hat. Die Wissensseite stackit.com/en/learn/knowledge/cloud/cloud-ai/ai-act (30.07.2026) ist Werbung ohne Nachweis ('meets all key requirements of the AI Act') und nennt keine eigene Rolle von STACKIT nach der Verordnung. Nachsuche 08.10.2026 (Produktseite DE/EN, Zertifikatsseite, AGB-Seite, Leistungsschein 1.4): weiter kein Treffer zu AI Act oder KI-Verordnung."
     }
   ],
-  "geprueft": "2026-10-08",
+  "geprueft": "2026-10-09",
   "url": "https://belegbar.eu/anbieter/stackit/",
   "beleg_quote_prozent": 93,
   "zuletzt_geprueft": "2026-10-09",

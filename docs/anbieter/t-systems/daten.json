@@ -42,7 +42,7 @@
       "preis_input_1m_eur": 0.6,
       "preis_output_1m_eur": 1.2,
       "quelle": "https://docs.llmhub.t-systems.net/models/llms/",
-      "geprueft": "2026-10-03",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "anmerkung": "Modellgenauer Preis seit 03.10.2026 öffentlich auf /models/llms/ (zuvor nur Beispielpreis auf /models/): 0,60 € / 1,20 € je 1M In/Out, 'Cloud: T-Cloud, Server Location: Germany, Data Processing: Germany'. Tarife: Essential 1.000 €/Monat, Professional 3.000 €, Agentic 5.000 € (andere Seite, nicht erneut geprüft).",
       "backup_standort": {
@@ -66,7 +66,7 @@
       "preis_input_1m_eur": 0.2,
       "preis_output_1m_eur": 0.65,
       "quelle": "https://docs.llmhub.t-systems.net/models/llms/",
-      "geprueft": "2026-10-03",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "anmerkung": "0,20 € / 0,65 € je 1M In/Out, 'T-Cloud, Germany' — entspricht dem früheren Beispielpreis, jetzt als modellgenauer Preis bestätigt.",
       "backup_standort": {
@@ -90,7 +90,7 @@
       "preis_input_1m_eur": 1.2,
       "preis_output_1m_eur": 9.55,
       "quelle": "https://docs.llmhub.t-systems.net/models/llms/",
-      "geprueft": "2026-10-03",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "anmerkung": "1,20 € / 9,55 € je 1M In/Out, 'Cloud: Azure, Server Location: Sweden, Data Processing: EU'. Proprietäres Modell, Weiterleitung an Microsoft Azure; es gelten dessen Datenbedingungen.",
       "backup_standort": {
@@ -114,7 +114,7 @@
       "preis_input_1m_eur": 2.97,
       "preis_output_1m_eur": 14.85,
       "quelle": "https://docs.llmhub.t-systems.net/models/llms/",
-      "geprueft": "2026-10-03",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "anmerkung": "2,97 € / 14,85 € je 1M In/Out, 'Cloud: GCP, Server Location: Europe, Data Processing: EU' (Preisliste nennt die Cloud teils als 'GCP / Azure'). Via Google Cloud (Europa); Gateway-Funktion, keine T-Cloud-Hosting-Garantie.",
       "backup_standort": {
@@ -290,7 +290,7 @@
       "typ": "TISAX",
       "status": "belegt",
       "quelle": "https://www.t-cloud-public.com/en/products-services/core-services/certifications",
-      "geprueft": "2026-10-03",
+      "geprueft": "2026-10-09",
       "anmerkung": "TISAX Level 3.",
       "anwendungsbereich": {
         "wert": "T Cloud Public, Regionen Deutschland und Niederlande (Standorte Aalsmeer und Almere einbezogen), Schutzbedarf Level 3; ENX-Code P0R4YM",

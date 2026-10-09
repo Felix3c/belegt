@@ -26,14 +26,14 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Keine Angabe zu Backups oder Spiegelungen (Security-Seite, Privacy Policy, DPA-Seite, 08.10.2026). Bekannt ist nur: Prompt-/Output-Logs liegen 'encrypted within the EU for up to 30 days' (Privacy Policy); wo der jeweilige Modellanbieter (AWS Bedrock, Google Vertex, Mistral) sichert, schreibt Requesty nicht. Gilt für alle Modelle."
       },
       "vorgeschaltete_filter": {
         "wert": true,
         "status": "belegt",
         "quelle": "https://docs.requesty.ai/features/guardrails",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Doku 'Guardrails' (08.10.2026): 'Guardrails scan AI request content for sensitive information before it reaches a model provider.' Scanner für PII und Secrets (auch modellbasiert), Aktionen 'Disabled', 'Report' oder 'Mask' ('replaces detected values before provider processing'). Vom Organisations-Admin einzuschalten; ob sie standardmäßig laufen, sagt die Doku nicht. Die Security-Seite nennt zusätzlich 'prompt injection blocked'. Gilt für alle Modelle."
       }
     },
@@ -50,14 +50,14 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Keine Angabe zu Backups oder Spiegelungen (Security-Seite, Privacy Policy, DPA-Seite, 08.10.2026). Bekannt ist nur: Prompt-/Output-Logs liegen 'encrypted within the EU for up to 30 days' (Privacy Policy); wo der jeweilige Modellanbieter (AWS Bedrock, Google Vertex, Mistral) sichert, schreibt Requesty nicht. Gilt für alle Modelle."
       },
       "vorgeschaltete_filter": {
         "wert": true,
         "status": "belegt",
         "quelle": "https://docs.requesty.ai/features/guardrails",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Doku 'Guardrails' (08.10.2026): 'Guardrails scan AI request content for sensitive information before it reaches a model provider.' Scanner für PII und Secrets (auch modellbasiert), Aktionen 'Disabled', 'Report' oder 'Mask' ('replaces detected values before provider processing'). Vom Organisations-Admin einzuschalten; ob sie standardmäßig laufen, sagt die Doku nicht. Die Security-Seite nennt zusätzlich 'prompt injection blocked'. Gilt für alle Modelle."
       }
     },
@@ -74,14 +74,14 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Keine Angabe zu Backups oder Spiegelungen (Security-Seite, Privacy Policy, DPA-Seite, 08.10.2026). Bekannt ist nur: Prompt-/Output-Logs liegen 'encrypted within the EU for up to 30 days' (Privacy Policy); wo der jeweilige Modellanbieter (AWS Bedrock, Google Vertex, Mistral) sichert, schreibt Requesty nicht. Gilt für alle Modelle."
       },
       "vorgeschaltete_filter": {
         "wert": true,
         "status": "belegt",
         "quelle": "https://docs.requesty.ai/features/guardrails",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Doku 'Guardrails' (08.10.2026): 'Guardrails scan AI request content for sensitive information before it reaches a model provider.' Scanner für PII und Secrets (auch modellbasiert), Aktionen 'Disabled', 'Report' oder 'Mask' ('replaces detected values before provider processing'). Vom Organisations-Admin einzuschalten; ob sie standardmäßig laufen, sagt die Doku nicht. Die Security-Seite nennt zusätzlich 'prompt injection blocked'. Gilt für alle Modelle."
       }
     }
@@ -120,14 +120,14 @@
       "wert": false,
       "status": "belegt",
       "quelle": "https://www.requesty.ai/privacy",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Privacy Policy (08.10.2026): 'Requesty's own use of content for training is limited to free plan accounts.' – im Free-Plan also eigenes Training mit Inhalten; für bezahlte Tarife: 'Requesty never trains on your data'. Zusätzlich erhoben: 'usage and log data (IP, timestamps, token counts, latency)'. Außerdem veröffentlicht Requesty Auswertungen des Kundenverkehrs ('Citable data notes from the Requesty production gateway', www.requesty.ai/data, z. B. finish_reason-Anteile je Modell und Anbieter). Der DPA-Volltext ist nicht öffentlich."
     },
     "betroffenenrechte_traeger": {
       "wert": null,
       "status": "unbelegt",
       "quelle": null,
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "DPA nur auf Anfrage per E-Mail; die DPA-Seite nennt als Inhalte 'scope, confidentiality, security measures, subprocessors, breach notification, deletion', aber keine Regel zu Anfragen Betroffener. Privacy Policy (Kurzfassung) regelt das ebenfalls nicht."
     },
     "log_frist": {
@@ -156,21 +156,21 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Kein Bericht: laut Security-Seite (08.10.2026) 'SOC 2 Type II programme in progress'; trust.requesty.ai lädt nur per JavaScript."
       },
       "zertifizierer": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Kein Prüfer genannt; Testat noch nicht erteilt (Security-Seite 08.10.2026)."
       },
       "akkreditiert_dakks": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "SOC 2 ist ein Testat eines Wirtschaftsprüfers, keine akkreditierte Zertifizierung; hier zudem noch nicht erteilt."
       },
       "normiert": [
@@ -186,21 +186,21 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Kein ISO-27001-Zertifikat erwähnt (Security-Seite, Privacy Policy, DPA-Seite, 08.10.2026)."
       },
       "zertifizierer": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Kein Zertifikat, daher kein Zertifizierer."
       },
       "akkreditiert_dakks": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Kein Zertifikat, daher nicht prüfbar."
       },
       "normiert": [
@@ -225,7 +225,7 @@
       "anmerkung": "Keine AI-Act-Angaben auf Website, Security-Seite oder in den Docs gefunden"
     }
   ],
-  "geprueft": "2026-10-08",
+  "geprueft": "2026-10-09",
   "url": "https://belegbar.eu/anbieter/requesty/",
   "beleg_quote_prozent": 20,
   "zuletzt_geprueft": "2026-10-09",

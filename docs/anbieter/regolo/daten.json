@@ -186,7 +186,7 @@
       "wert": true,
       "status": "belegt",
       "quelle": "https://regolo.ai/privacy-policy/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Datenschutzerklärung zu Inputs und Outputs: 'collected for providing you the service requested. Other uses of the input data are not expected or possible.' bzw. 'Other uses of the output data are not expected or possible.' ZDR-Seite: 'Your data serves one purpose only: delivering the response you requested'. DPA Ziff. 3: Verarbeitung ist 'the mere technical transit'. Für Konto- und Log-Daten nennt die Datenschutzerklärung weitere Zwecke (siehe Log-Zweck), nicht für Ein-/Ausgaben."
     },
     "betroffenenrechte_traeger": {
@@ -200,14 +200,14 @@
       "wert": "Automatisch erfasste Logs (IP-Adresse, Browser, Ort, Datum/Uhrzeit, Gerät, Request-Typ ohne Inhalt, Zugriffsdauer) bis zur Kündigung des Kontos; Inputs/Outputs nie",
       "status": "belegt",
       "quelle": "https://regolo.ai/privacy-policy/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Datenschutzerklärung, Tabelle 'Duration': 'Information received automatically: Until the cancellation of the Account, without prejudice to the rights and obligations of collection deriving from the terms of legal prescription in case of controversies.' Definition: 'LOGs (including IP address, browser and configuration, place, date and connection time, type of device used) … usage data: request type (without the content), duration of the access to the service.' Inputs/Outputs: 'Never, excepted the use of storage services activated by the user.'"
     },
     "log_zweck": {
       "wert": "Dienst erbringen, Behördenanfragen/gesetzliche Pflichten, Aufklärung von Cyberkriminalität, Werbe-E-Mails (ohne Zuordnung je Datenart)",
       "status": "belegt",
       "quelle": "https://regolo.ai/privacy-policy/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Datenschutzerklärung 'Purpose and Legal Basis' wörtlich: 'We treat customer information (1) to provide the service purchased, (2) to respond to any requests of the authority or satisfy other law obligations, (3) for the assessment of responsibilities in case of eventual cybercrime to damage the IT infrastructure, (4) for sending email communications related to products and services similar to those you are already using.' Welche Zwecke für die Logs gelten, sagt sie nicht einzeln."
     }
   },

@@ -125,7 +125,6 @@
 120b
 122b
 17793/98
-2
 2.
 2.1.
 2.2.
@@ -337,11 +336,11 @@ BY
 BY
 Benchmarks
 Binding
-Bonsai
 Boost)
 Boost):
 Breach)
 Breach)
+Build
 Builder
 By
 By
@@ -912,7 +911,6 @@ Pursuant
 Pursuant
 Pursuant
 Qwen
-Qwen3.8-27B:
 RAG
 REGULATION
 RESULTING
@@ -1455,6 +1453,7 @@ after
 after
 against
 agent
+agentic
 agree
 agreed
 agreed,
@@ -1513,10 +1512,10 @@ an
 an
 an
 an
+an
 analyze
 analyze
 analyze
-and
 and
 and
 and
@@ -1922,7 +1921,6 @@ behalf
 behalf
 believes
 belong.
-benchmarks
 better
 between
 between
@@ -2046,13 +2044,14 @@ changes.
 charge
 check
 checks,
-choices
 chosen
 chosen
 chosen
 chosen
 chosen,
 circulation
+cites
+claim
 claim
 claim
 claim
@@ -2264,7 +2263,6 @@ democratic
 demonstrate
 dependent
 deployers.
-deployment
 deploys
 described
 description
@@ -2347,7 +2345,6 @@ ensuring
 ensuring
 ensuring,
 entering
-enterprise
 entirely
 entities
 entitled
@@ -2368,6 +2365,7 @@ establishing
 etc.)
 ethics,
 event
+every
 every
 except
 except
@@ -2509,6 +2507,7 @@ granted
 granted
 granting
 grants
+graph
 green
 gross
 guarantee
@@ -2760,6 +2759,7 @@ key,
 kind
 know
 know-how
+knowledge
 knowledge
 last
 later
@@ -3960,6 +3960,7 @@ that
 that
 that
 that
+that
 that:
 that:
 the
@@ -4704,7 +4705,6 @@ violate
 violate
 violates
 vocational
-vs
 vulnerabilities
 vulnerability
 warranties
