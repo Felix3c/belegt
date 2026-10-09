@@ -291,7 +291,7 @@
       "status": "belegt",
       "quelle": "https://www.t-cloud-public.com/en/products-services/core-services/certifications",
       "geprueft": "2026-10-09",
-      "anmerkung": "TISAX Level 3.",
+      "anmerkung": "TISAX Level 3. Gültigkeit (Nachprüfung 09.10.2026): Die letzte öffentlich genannte Bewertung stammt von Januar bis Juni 2023 (Blog des Anbieters, DEKRA), die Frist wäre damit spätestens im Juni 2026 abgelaufen. TISAX-Ergebnisse gelten höchstens 36 Monate (ENX, TISAX Participation General Terms and Conditions v3.0.2 vom 12.07.2023, XII.1: 'Assessment Results shall have validity of a maximum period of 36 months.'; https://www.enx.com/tisaxgtcen.pdf). Eine Erneuerung nach 2023 nennt der Anbieter öffentlich nicht (Websuche 09.10.2026 ohne Treffer); ob das Label heute gilt, zeigt nur das ENX-Portal, und das ist laut ENX nicht öffentlich ('TISAX assessment results are only used within this community and not for the general public', portal.enx.com/en-US/TISAX/tisaxassessmentresults/, Abruf 09.10.2026).",
       "anwendungsbereich": {
         "wert": "T Cloud Public, Regionen Deutschland und Niederlande (Standorte Aalsmeer und Almere einbezogen), Schutzbedarf Level 3; ENX-Code P0R4YM",
         "status": "beansprucht",

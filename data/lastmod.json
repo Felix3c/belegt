@@ -28,7 +28,7 @@
     "datum": "2026-10-09"
   },
   "anbieter/exoscale/": {
-    "hash": "baf442df6b758833",
+    "hash": "b48ce1b77bdce70a",
     "datum": "2026-10-09"
   },
   "anbieter/gcore/": {
@@ -92,7 +92,7 @@
     "datum": "2026-10-09"
   },
   "anbieter/t-systems/": {
-    "hash": "2eda421f25f178ba",
+    "hash": "af26dba7032cca9a",
     "datum": "2026-10-09"
   },
   "datenschutz/": {
@@ -532,7 +532,7 @@
     "datum": "2026-10-09"
   },
   "zertifikate/tisax/": {
-    "hash": "ead7ead74befa631",
+    "hash": "f21bcf07167d7357",
     "datum": "2026-10-09"
   }
 }
