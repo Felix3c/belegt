@@ -1,9 +1,16 @@
 # belegbar.eu — Nächste Schritte
 
-**Stand:** 2026-10-09, 09:25 (Dauerlauf: V3 Vorschlag Dossier-Format liegt in `dossiers/VORSCHLAG-FORMAT-V3.md`, Frage 219, nichts gebaut; davor V2 ISO 42001 lokal `92b2325`, kein Push)
+**Stand:** 2026-10-09, 09:30 (Dauerlauf: V4 Vorschlag Quellenlauf sichtbar liegt in `dossiers/VORSCHLAG-QUELLENLAUF-V4.md`, Frage 220, nichts gebaut; davor V3 Vorschlag Dossier-Format `dossiers/VORSCHLAG-FORMAT-V3.md`, Frage 219; davor V2 ISO 42001 lokal `92b2325`, kein Push)
 Antwort seit 14.09. live, Status „beantwortet“. LinkedIn: keine Antwort auf Welle 1.) · **16.09. abends (Home-Tab):** Nachfassen an alle vier offenen Welle-1-Kontakte gesendet (`outreach/mails/14-…`), **Perplexity zitiert belegbar.eu (Kriterium 1 erstmals erfüllt, Details MESSUNG.md)**, ChatGPT nicht; Angebots-Entwurf in `ANGEBOT-ENTWURF.md`; **Beschlüsse Felix 21:15 in MESSUNG.md** (B zuerst, GUARD-Wortlaut, kein Einfrieren 14.10.); gebaut und ungetrackt: `dossier.js`, `lib/dossier.js`, `test/dossier.test.js`, `dossiers/BEISPIEL-scaleway-2026-09-16.md`, `ENTWURF-FESTPREIS-ABSATZ.md` (Diff-Plan gegen build.js). **16.09. 21:15: Freigabe erteilt, umgesetzt, LIVE (Commit `e2c64e5`):** /fuer-anbieter/ mit „Eintritt zum Festpreis“ (490 € Aufnahme, 190 € Zusage), neue Seite /fuer-kaeufer/ (Dossier 390 €), Methodik mit Finanzierung Stand 16.09. und Abschnitt „Regeländerungen“; alle Preise ohne USt (§ 19 UStG). Search Console 16.09.: 4 Klicks, 174 Impressionen (28 Tage), 21 Seiten indexiert (24.08.: 0 / 1 / 4). Folgearbeit: Profilfeld für bezahlte Einträge (Entwurf Punkt 10), Dossier-Vorlage, MESSUNG Kriterium 3 auf GUARD-Wortlaut.
 **Führendes Dokument:** `MESSUNG.md` (Kill-Kriterien) · Ziel-Satz in `~/THESE.md`
 **Phase:** live, 4 Fälle, Engpass ist nicht mehr Code, sondern Rücklauf von außen. Erster Anbieter, der eine Korrektur wörtlich ankündigt: Scaleway (14.09.).
+
+## Neu 09.10.2026 09:30 (Dauerlauf): V4 Quellenlauf sichtbar, nur Vorschlag
+
+- `dossiers/VORSCHLAG-QUELLENLAUF-V4.md` (gitignored): Kasten „Quellenlauf“ je Profilseite (zuletzt am, x von y belegenden Quellen nachgelesen, unverändert / verändert-gelesen / **offen** / verschwunden, Statuswechsel 30 Tage), „unverändert seit“ an jeder Quelle, Block `quellenlauf` in `daten.json`; `/aenderungen/` bleibt ohne Hash-Wechsel.
+- Befund: **77 von 198 Quellen-URLs fehlen im Ledger** `data/quellen-hashes.json` (neue Belege aus H19/V1/V2; OVHcloud 10/15, Nebius 8/15, BFL 7/11, T-Systems 7/11, Regolo 6/11) → werden bis zum nächsten Quellenlauf nicht überwacht. Lokaler Quellenlauf ist als V4b im Dauerlauf eingereiht (geht ohne Felix).
+- Ledger trennt „erstmals gesehen“ nicht von „verändert und übernommen“ (beide `geaendert`); Bau bräuchte Felder `erst`/`uebernommen`.
+- Wartet auf Felix (Frage 220: a Kasten / b nur daten.json / c lassen; Empfehlung a). Bau ~1,5–2 h nach „steht“.
 
 ## Neu 09.10.2026 09:25 (Dauerlauf): V3 Dossier-Format, nur Vorschlag
 
