@@ -1,7 +1,7 @@
 "use strict";
 const { test } = require("node:test");
 const assert = require("node:assert/strict");
-const { normalisiereText, hashInhalt, setzeGeprueft, setzeTopGeprueft, ordneLauf } = require("../lib/quellen.js");
+const { normalisiereText, hashInhalt, hashInhaltAlt, setzeGeprueft, setzeTopGeprueft, ordneLauf } = require("../lib/quellen.js");
 
 test("normalisiereText: Scripts, Styles, Tags und Whitespace fallen weg, sichtbarer Text bleibt", () => {
   const html = `<html><head><style>.a{}</style><script>var n="nonce-123"</script></head>
@@ -22,6 +22,21 @@ test("hashInhalt: PDFs werden als Bytes gehasht", () => {
   const a = hashInhalt("application/pdf", Buffer.from("%PDF-1"));
   const b = hashInhalt("application/pdf", Buffer.from("%PDF-2"));
   assert.notEqual(a, b);
+});
+
+test("hashInhalt: bei jedem Abruf neu erzeugte PDFs (Infomaniak-AGB) — Zeitstempel und /ID zählen nicht, der Inhalt schon", () => {
+  const pdf = (zeit, id, text) => Buffer.from(`%PDF-1.7\n5 0 obj\n<< /Producer (CPDF)\n/CreationDate (D:${zeit}+02'00')\n/ModDate (D:${zeit}+02'00')\n>>\nendobj\nBT (${text}) Tj ET\ntrailer\n<<\n/ID[<${id}><${id}>]\n>>\n%%EOF`);
+  const a = hashInhalt("application/pdf", pdf("20261009093038", "44b22e1b2c51e3527e9c752c9d272482", "No training"));
+  const b = hashInhalt("application/pdf", pdf("20261009093040", "6ca5521ff2b2a3fd90b9bf81274cb504", "No training"));
+  const c = hashInhalt("application/pdf", pdf("20261009093040", "6ca5521ff2b2a3fd90b9bf81274cb504", "Training allowed"));
+  assert.equal(a, b);
+  assert.notEqual(b, c);
+});
+
+test("hashInhaltAlt: Byte-Hash wie vor dem 09.10.2026 (für die Umstellung des Ledgers)", () => {
+  const bytes = Buffer.from("%PDF-1.7\n/CreationDate (D:20261009093038+02'00')\n");
+  assert.equal(hashInhaltAlt(bytes), require("crypto").createHash("sha256").update(bytes).digest("hex").slice(0, 16));
+  assert.notEqual(hashInhaltAlt(bytes), hashInhalt("application/pdf", bytes));
 });
 
 test("setzeGeprueft: vorhandenes Feld-geprueft wird nur in Zeilen mit dieser URL ersetzt", () => {
