@@ -84,3 +84,23 @@ test("Ein Fall steht in der Zeile der Angabe, die er betrifft; SHA-256 aus dem F
   assert.ok(md.includes("| Zero Data Retention | ja; dazu Fall 2026-009 (bestaetigt), siehe Abschnitt 3 |"));
   assert.ok(md.includes("| AVV / Auftragsverarbeitungsvertrag | https://x.example/avv.pdf |"));
 });
+
+test("Prüfpunkt-Unterfelder zeigen ihren Wert statt „—“ (Befund V3, 09.10.2026)", () => {
+  const p = profil();
+  p.vertrag.betroffenenrechte_traeger = { wert: "geteilt", status: "belegt", quelle: "https://x.example/dpa", geprueft: "2026-10-09" };
+  p.vertrag.log_frist = { wert: "30 Tage", status: "belegt", quelle: "https://x.example/dpa", geprueft: "2026-10-09" };
+  p.zertifikate[0].zertifizierer = { wert: "SGS", status: "belegt", quelle: "https://x.example/trust", geprueft: "2026-10-09" };
+  p.zertifikate[0].akkreditiert_dakks = { wert: false, status: "belegt", quelle: "https://x.example/trust", geprueft: "2026-10-09" };
+  p.modelle[0].backup_standort = { wert: "Amsterdam", status: "beansprucht", quelle: "https://x.example/m", geprueft: "2026-10-09" };
+  p.modelle[0].vorgeschaltete_filter = { wert: null, status: "unbelegt", quelle: null, geprueft: "2026-10-09" };
+  const z = baueZeilen(p);
+  const angabe = (pfad) => z.find((e) => e.pfad === pfad).angabe;
+  assert.equal(angabe("vertrag.betroffenenrechte_traeger"), "geteilt (Anbieter und Auftraggeber)");
+  assert.equal(angabe("vertrag.log_frist"), "30 Tage");
+  assert.equal(angabe("zertifikate[SOC 2].zertifizierer"), "SGS");
+  assert.equal(angabe("zertifikate[SOC 2].akkreditiert_dakks"), "nein");
+  assert.equal(angabe("modelle[M1].backup_standort"), "Amsterdam");
+  assert.equal(angabe("modelle[M1].vorgeschaltete_filter"), null);
+  // Die Modellzeile selbst bleibt unverändert.
+  assert.equal(angabe("modelle[M1]"), "Standort Paris, Input 1 €/1M, Output 2 €/1M");
+});
