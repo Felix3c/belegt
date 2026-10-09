@@ -1,9 +1,15 @@
 # belegbar.eu — Nächste Schritte
 
-**Stand:** 2026-10-09, 09:50 (Dauerlauf: V4b Quellenlauf, alle 198 Quellen jetzt im Ledger, PDF-Hash ohne Zeitstempel, lokal `75f45ca` + `a940568`, kein Push; davor 09:30 V4 Vorschlag Quellenlauf sichtbar liegt in `dossiers/VORSCHLAG-QUELLENLAUF-V4.md`, Frage 220, nichts gebaut; davor V3 Vorschlag Dossier-Format `dossiers/VORSCHLAG-FORMAT-V3.md`, Frage 219; davor V2 ISO 42001 lokal `92b2325`, kein Push)
+**Stand:** 2026-10-09, 09:40 real (Dauerlauf: V5 Vorschlag „Wer prüft hier, wie“ in `dossiers/VORSCHLAG-WER-PRUEFT-V5.md`, Frage 221, nichts gebaut; davor V4b Quellenlauf, alle 198 Quellen jetzt im Ledger, PDF-Hash ohne Zeitstempel, lokal `75f45ca` + `a940568`, kein Push; davor 09:30 V4 Vorschlag Quellenlauf sichtbar liegt in `dossiers/VORSCHLAG-QUELLENLAUF-V4.md`, Frage 220, nichts gebaut; davor V3 Vorschlag Dossier-Format `dossiers/VORSCHLAG-FORMAT-V3.md`, Frage 219; davor V2 ISO 42001 lokal `92b2325`, kein Push)
 Antwort seit 14.09. live, Status „beantwortet“. LinkedIn: keine Antwort auf Welle 1.) · **16.09. abends (Home-Tab):** Nachfassen an alle vier offenen Welle-1-Kontakte gesendet (`outreach/mails/14-…`), **Perplexity zitiert belegbar.eu (Kriterium 1 erstmals erfüllt, Details MESSUNG.md)**, ChatGPT nicht; Angebots-Entwurf in `ANGEBOT-ENTWURF.md`; **Beschlüsse Felix 21:15 in MESSUNG.md** (B zuerst, GUARD-Wortlaut, kein Einfrieren 14.10.); gebaut und ungetrackt: `dossier.js`, `lib/dossier.js`, `test/dossier.test.js`, `dossiers/BEISPIEL-scaleway-2026-09-16.md`, `ENTWURF-FESTPREIS-ABSATZ.md` (Diff-Plan gegen build.js). **16.09. 21:15: Freigabe erteilt, umgesetzt, LIVE (Commit `e2c64e5`):** /fuer-anbieter/ mit „Eintritt zum Festpreis“ (490 € Aufnahme, 190 € Zusage), neue Seite /fuer-kaeufer/ (Dossier 390 €), Methodik mit Finanzierung Stand 16.09. und Abschnitt „Regeländerungen“; alle Preise ohne USt (§ 19 UStG). Search Console 16.09.: 4 Klicks, 174 Impressionen (28 Tage), 21 Seiten indexiert (24.08.: 0 / 1 / 4). Folgearbeit: Profilfeld für bezahlte Einträge (Entwurf Punkt 10), Dossier-Vorlage, MESSUNG Kriterium 3 auf GUARD-Wortlaut.
 **Führendes Dokument:** `MESSUNG.md` (Kill-Kriterien) · Ziel-Satz in `~/THESE.md`
 **Phase:** live, 4 Fälle, Engpass ist nicht mehr Code, sondern Rücklauf von außen. Erster Anbieter, der eine Korrektur wörtlich ankündigt: Scaleway (14.09.).
+
+## Neu 09.10.2026 09:40 (Dauerlauf): V5 Seite „Wer prüft hier, wie“, nur Vorschlag
+
+- `dossiers/VORSCHLAG-WER-PRUEFT-V5.md` (gitignored): neue Seite `/wer-prueft/` mit sechs Abschnitten (1 Wer — **schreibt Felix**, 2 Mensch/Software, 3 vier Schritte Erfassen/Sichern/Nachlesen/Widersprüche, 4 Ergebnis mit beim Build gezählten Zahlen, 5 was wir nicht prüfen, 6 Fehler melden). Ersetzt die Methodik nicht.
+- Zahlen 09.10.: 21 Anbieter, Angaben 407 belegt / 86 beansprucht / 362 unbelegt (inkl. Prüfpunkt-Unterfelder; beim Bau dieselbe Zählung wie Beleg-Quote), 4 Fälle alle bestätigt, Antworten von Requesty, GreenPT, Scaleway, Scaleway-Doku laut Verlauf 03.10. korrigiert, Ledger 216.
+- Wartet auf Felix: Abschnitt 1 + Frage 221 (KI-Assistent offenlegen; Empfehlung a). Bau ~1 h danach.
 
 ## Neu 09.10.2026 09:50 (Dauerlauf): V4b Quellenlauf, Ledger vollständig
 
