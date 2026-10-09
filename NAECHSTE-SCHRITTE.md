@@ -5,6 +5,11 @@ Antwort seit 14.09. live, Status „beantwortet“. LinkedIn: keine Antwort auf 
 **Führendes Dokument:** `MESSUNG.md` (Kill-Kriterien) · Ziel-Satz in `~/THESE.md`
 **Phase:** live, 4 Fälle, Engpass ist nicht mehr Code, sondern Rücklauf von außen. Erster Anbieter, der eine Korrektur wörtlich ankündigt: Scaleway (14.09.).
 
+## Neu 09.10.2026 14:45 (Home-Tab, Nachtrag Dauerlauf 15:05): Force-Push erledigt
+
+- **222 b und 216 erledigt:** Historie bereinigt (filter-repo, 295 Commits, Notizen 07/08 + beide Zitatzeilen weg), Force-Push `5bc583a` → `6ca0283` auf main, `~/belegt` lokal nachgezogen. Damit sind auch die 216-Korrekturen online. **Historie ist neu:** vor jedem Commit `git -C ~/belegt log --oneline -1` ansehen.
+- **Rest nur Felix (eilig):** GitHub liefert den alten Commit `ceacb04` per Adresse weiter aus (raw HTTP 200, 09.10. 14:44), bis die Garbage Collection läuft. Supporttext liegt in `outreach/github-support-2026-10-09.md` (lokal `173f26b`); Felix sendet über support.github.com („Remove sensitive data“).
+
 ## Neu 09.10.2026 14:35 (Dauerlauf K1, Frage 222 b): Historie bereinigt, Force-Push vorbereitet
 
 - Felix 09.10. 14:10: „222 b steht (Historie bereinigen, Force-Push vorbereiten und Befehl zeigen)“. Push macht Felix.
