@@ -277,10 +277,10 @@
     },
     {
       "typ": "CSA STAR Level 1",
-      "status": "belegt",
+      "status": "beansprucht",
       "quelle": "https://cloudsecurityalliance.org/star/registry/seeweb/",
       "geprueft": "2026-10-09",
-      "anmerkung": "Gilt nicht für Regolo. Der Registereintrag (Abruf 09.10.2026) führt nur zwei Seeweb-Produkte, 'Foundation Server PRO' (Listed Since: 2022-06-07) und 'Virtual Private Cloud' (Listed Since: 2022-06-02), jeweils CAIQ-Selbstauskunft ('At level one organizations submit a self-assessment'); Seeweb-Seite seeweb.it/azienda/certificazioni: 'Certificazione Cloud Security Alliance per Virtual Private Cloud e Foundation Server PRO'. Regolo zeigt das Logo im Seitenfuß „Datacenter Certifications“ (Alt-Text 'CSA STAR Level 1') ohne diese Einschränkung.",
+      "anmerkung": "Nur beansprucht (bis 09.10.2026 hier „belegt“, Strenge-Runde Frage 217): Der Registereintrag gilt nur für zwei Produkte der Betreibergesellschaft Seeweb, nicht für den Dienst Regolo. Gilt nicht für Regolo. Der Registereintrag (Abruf 09.10.2026) führt nur zwei Seeweb-Produkte, 'Foundation Server PRO' (Listed Since: 2022-06-07) und 'Virtual Private Cloud' (Listed Since: 2022-06-02), jeweils CAIQ-Selbstauskunft ('At level one organizations submit a self-assessment'); Seeweb-Seite seeweb.it/azienda/certificazioni: 'Certificazione Cloud Security Alliance per Virtual Private Cloud e Foundation Server PRO'. Regolo zeigt das Logo im Seitenfuß „Datacenter Certifications“ (Alt-Text 'CSA STAR Level 1') ohne diese Einschränkung.",
       "anwendungsbereich": {
         "wert": "Seeweb: 'Foundation Server PRO' (gelistet seit 07.06.2022) und 'Virtual Private Cloud' (seit 02.06.2022), jeweils CAIQ; Regolo nicht gelistet",
         "status": "belegt",
@@ -356,7 +356,7 @@
   ],
   "geprueft": "2026-10-08",
   "url": "https://belegbar.eu/anbieter/regolo/",
-  "beleg_quote_prozent": 80,
+  "beleg_quote_prozent": 73,
   "zuletzt_geprueft": "2026-10-09",
   "rechtsraum": {
     "land": "IT",

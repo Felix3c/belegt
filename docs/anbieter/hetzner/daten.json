@@ -153,10 +153,10 @@
     },
     {
       "typ": "BSI C5",
-      "status": "belegt",
+      "status": "beansprucht",
       "quelle": "https://files.hetzner.com/docs/BSI-C52020Typ2_Testat_2026.pdf",
       "geprueft": "2026-10-09",
-      "anmerkung": "BSI C5:2020 Typ 2, uneingeschränkt; Prüfungsbericht vom 17.11.2025. Öffentlich ist nur eine von Hetzner selbst erstellte Bescheinigung vom 02.03.2026 (verlinkt aus der Doku 'Informationssicherheit bei Hetzner', https://docs.hetzner.com/de/general/company-and-policy/information-security-at-hetzner/: 'Hetzner hat ein BSI C5-Testat Typ 2 erhalten'); dort steht: 'Diese Bescheinigung wurde nach Vorliegen des Prüfungsberichts durch die Hetzner Online GmbH erstellt.' Belegt ist damit die datierte Anbieteraussage mit genanntem Prüfer, nicht der Bericht selbst. Gilt NICHT für die experimentelle Inference-API: Sie fehlt in der Produktliste der Bescheinigung. Bis 09.10. fehlte das Testat in diesem Profil.",
+      "anmerkung": "Nur beansprucht (bis 09.10.2026 hier „belegt“, Strenge-Runde Frage 217): Öffentlich ist nur eine vom Anbieter selbst erstellte Bescheinigung, nicht der Prüfungsbericht. BSI C5:2020 Typ 2, uneingeschränkt; Prüfungsbericht vom 17.11.2025. Öffentlich ist nur eine von Hetzner selbst erstellte Bescheinigung vom 02.03.2026 (verlinkt aus der Doku 'Informationssicherheit bei Hetzner', https://docs.hetzner.com/de/general/company-and-policy/information-security-at-hetzner/: 'Hetzner hat ein BSI C5-Testat Typ 2 erhalten'); dort steht: 'Diese Bescheinigung wurde nach Vorliegen des Prüfungsberichts durch die Hetzner Online GmbH erstellt.' Belegt ist damit die datierte Anbieteraussage mit genanntem Prüfer, nicht der Bericht selbst. Gilt NICHT für die experimentelle Inference-API: Sie fehlt in der Produktliste der Bescheinigung. Bis 09.10. fehlte das Testat in diesem Profil.",
       "anwendungsbereich": {
         "wert": "Hetzner Online GmbH: Dedicated Server, Managed Server, Storage (Share, Box, Object Storage), Webhosting und Domains, Cloud Server (u. a. Snapshots, Block Storage, Load Balancer, vSwitches, Floating IPs, Firewall-Regeln), Colocation; nicht die Inference-API",
         "status": "beansprucht",
@@ -202,7 +202,7 @@
   ],
   "geprueft": "2026-10-09",
   "url": "https://belegbar.eu/anbieter/hetzner/",
-  "beleg_quote_prozent": 89,
+  "beleg_quote_prozent": 78,
   "zuletzt_geprueft": "2026-10-09",
   "rechtsraum": {
     "land": "DE",

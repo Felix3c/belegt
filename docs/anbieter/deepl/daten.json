@@ -295,10 +295,10 @@
     },
     {
       "typ": "Externe Penetrationstests",
-      "status": "belegt",
+      "status": "beansprucht",
       "quelle": "https://trust.deepl.com/",
       "geprueft": "2026-10-09",
-      "anmerkung": "Regelmäßige Tests durch wechselnde unabhängige Prüfer; Berichte auf Anfrage",
+      "anmerkung": "Nur beansprucht (bis 09.10.2026 hier „belegt“, Strenge-Runde Frage 217): Berichte gibt es nur auf Anfrage, kein Prüfer ist genannt; belegt war nur die Angabe im Trust Center des Anbieters. Regelmäßige Tests durch wechselnde unabhängige Prüfer; Berichte auf Anfrage",
       "anwendungsbereich": {
         "wert": "Infrastruktur und Kubernetes (ein veröffentlichter Bericht)",
         "status": "beansprucht",
@@ -355,7 +355,7 @@
   ],
   "geprueft": "2026-10-09",
   "url": "https://belegbar.eu/anbieter/deepl/",
-  "beleg_quote_prozent": 56,
+  "beleg_quote_prozent": 50,
   "zuletzt_geprueft": "2026-10-09",
   "rechtsraum": {
     "land": "DE",

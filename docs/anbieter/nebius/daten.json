@@ -263,10 +263,10 @@
     },
     {
       "typ": "CSA STAR Level 1",
-      "status": "belegt",
+      "status": "beansprucht",
       "quelle": "https://cloudsecurityalliance.org/star/registry/nebius-bv",
       "geprueft": "2026-10-09",
-      "anmerkung": "Selbstauskunft, kein Zertifikat, und nur für 'Nebius AI Cloud', nicht für die Token Factory. CSA-Register (09.10.2026): ein Eintrag 'Nebius B.V', 'Listed Since: 2023-02-18', Typ CAIQ, Beschreibung 'Nebius provides AI-native cloud infrastructure and platform services for AI, machine learning, and data-intensive workloads'. Trust Center (nebius.com/trust-center/csa-star, 09.10.2026): 'CSA STAR Level 1 is based on a self-assessment' und 'What Nebius products are within the scope of assessment? Nebius AI Cloud infrastructure and platform services.' Die Token Factory wird weder im Register noch auf der Trust-Center-Seite genannt.",
+      "anmerkung": "Nur beansprucht (bis 09.10.2026 hier „belegt“, Strenge-Runde Frage 217): Der Registereintrag gilt nur für Nebius AI Cloud, nicht für die Token Factory, und ist eine Selbstauskunft. Selbstauskunft, kein Zertifikat, und nur für 'Nebius AI Cloud', nicht für die Token Factory. CSA-Register (09.10.2026): ein Eintrag 'Nebius B.V', 'Listed Since: 2023-02-18', Typ CAIQ, Beschreibung 'Nebius provides AI-native cloud infrastructure and platform services for AI, machine learning, and data-intensive workloads'. Trust Center (nebius.com/trust-center/csa-star, 09.10.2026): 'CSA STAR Level 1 is based on a self-assessment' und 'What Nebius products are within the scope of assessment? Nebius AI Cloud infrastructure and platform services.' Die Token Factory wird weder im Register noch auf der Trust-Center-Seite genannt.",
       "anwendungsbereich": {
         "wert": "Nebius AI Cloud (Infrastruktur und Plattformdienste); Token Factory nicht genannt",
         "status": "beansprucht",
@@ -374,7 +374,7 @@
   ],
   "geprueft": "2026-10-09",
   "url": "https://belegbar.eu/anbieter/nebius/",
-  "beleg_quote_prozent": 80,
+  "beleg_quote_prozent": 73,
   "zuletzt_geprueft": "2026-10-09",
   "rechtsraum": {
     "land": "NL",
