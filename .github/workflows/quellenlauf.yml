@@ -1,0 +1,56 @@
+name: Quellenlauf (monatlich)
+# Ruft alle Quellen-URLs ab, hasht den sichtbaren Inhalt, schreibt Prüfdatum und Ledger fort,
+# baut die Site neu und committet das Ergebnis — wie der Köln-Fall in festgehalten.
+# Veränderte oder verschwundene Quellen werden nur gemeldet: Der Lauf scheitert dann laut
+# (GitHub mailt), lesen tut sie ein Mensch (danach: node quellenlauf.js --uebernehmen).
+# Cron ist UTC, krumme Minute mit Absicht (volle Stunden fallen bei GitHub unter Last aus):
+#   17 6 28 * *  = 08:17 MESZ / 07:17 MEZ am 28. jedes Monats. Erstlauf im Ledger: 28.08.2026.
+# Von Hand: Actions → "Quellenlauf (monatlich)" → Run workflow. "trocken" (Standard) = nur Bericht.
+# Nach einem Lauf mit Commit: lokal `git pull`, bevor gepusht wird.
+on:
+  schedule:
+    - cron: "17 6 28 * *"
+  workflow_dispatch:
+    inputs:
+      trocken:
+        description: "Nur Bericht — nichts schreiben, nichts committen"
+        type: boolean
+        default: true
+permissions:
+  contents: write
+concurrency: quellenlauf
+env:
+  TZ: Europe/Berlin
+jobs:
+  quellenlauf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - name: Tests
+        run: node --test
+      - name: Quellen abrufen und hashen
+        id: lauf
+        continue-on-error: true
+        run: |
+          if [ "${{ inputs.trocken }}" = "true" ]; then trocken=--trocken; else trocken=; fi
+          node quellenlauf.js $trocken --json quellenlauf-ergebnis.json | tee quellenlauf-bericht.txt
+      - name: Bericht in die Zusammenfassung
+        run: |
+          { printf '```\n'; cat quellenlauf-bericht.txt; printf '```\n'; } >> "$GITHUB_STEP_SUMMARY"
+      - name: Site bauen und Ergebnis committen
+        if: inputs.trocken != true
+        run: |
+          node build.js
+          git config user.name "quellenlauf (GitHub Actions)"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/quellen-hashes.json data/lastmod.json data/anbieter docs
+          if git diff --cached --quiet; then echo "Nichts geändert, kein Commit."; exit 0; fi
+          git commit -m "data: Quellenlauf $(date +%Y-%m-%d)"
+          git push
+      - name: Befund melden
+        if: steps.lauf.outcome == 'failure'
+        run: |
+          echo "::error::Quellenlauf meldet veränderte oder verschwundene Quellen — Bericht in der Zusammenfassung. Von Hand lesen, dann: node quellenlauf.js --uebernehmen"
+          exit 1

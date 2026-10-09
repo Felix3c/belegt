@@ -5,6 +5,12 @@ Antwort seit 14.09. live, Status „beantwortet“. LinkedIn: keine Antwort auf 
 **Führendes Dokument:** `MESSUNG.md` (Kill-Kriterien) · Ziel-Satz in `~/THESE.md`
 **Phase:** live, 4 Fälle, Engpass ist nicht mehr Code, sondern Rücklauf von außen. Erster Anbieter, der eine Korrektur wörtlich ankündigt: Scaleway (14.09.).
 
+## Neu 09.10.2026 10:00 (Dauerlauf V6): Aufräumen, zwei Fachantworten waren öffentlich
+
+- **Befund:** Die Notizen `outreach/gespraeche/07-…` und `08-…` (Wortlaut zweier Anwalts-Antworten, eine mit Vertraulichkeits-Hinweis, eine mit ausdrücklich abgelehnter Veröffentlichung) und deren Zitate in dieser Datei sind seit dem Push 08.10. 11:45 auf GitHub abrufbar (raw-Abruf 09.10. ~09:55: HTTP 200). Nicht auf belegbar.eu selbst (404).
+- **Lokal behoben:** beide Notizen aus dem Index genommen (Dateien liegen weiter auf der Platte) und in `.gitignore`; Zitate und Namen hier durch neutrale Zeilen ersetzt. Ebenfalls ignoriert: `ANGEBOT-ENTWURF.md`, `ENTWURF-FESTPREIS-ABSATZ.md`, `outreach/vergaben-2026-09.md`, `outreach/HALLO-DNS-ANLEITUNG.md`, `belege/faelle/*/*.pdf.txt`. Committet: `.github/workflows/quellenlauf.yml`. 123 Tests grün.
+- **Offen (Felix, Frage 222):** Push dieser Korrektur; die alte Fassung bleibt in der Git-Historie sichtbar, bis sie umgeschrieben wird (Force-Push). Grundsätzlich: diese Datei ist öffentlich; Gesprächsinhalte Dritter gehören nicht hinein.
+
 ## Neu 09.10.2026 09:40 (Dauerlauf): V5 Seite „Wer prüft hier, wie“, nur Vorschlag
 
 - `dossiers/VORSCHLAG-WER-PRUEFT-V5.md` (gitignored): neue Seite `/wer-prueft/` mit sechs Abschnitten (1 Wer — **schreibt Felix**, 2 Mensch/Software, 3 vier Schritte Erfassen/Sichern/Nachlesen/Widersprüche, 4 Ergebnis mit beim Build gezählten Zahlen, 5 was wir nicht prüfen, 6 Fehler melden). Ersetzt die Methodik nicht.
@@ -168,11 +174,11 @@ Larissa Holzki (Handelsblatt, KI-Team) hat am 09.10. 08:29 auf die BFL-Mail von 
 - Einziger Kopfdatum-Nachzügler jetzt t-systems (19.08.), bewusst zurückgestellt bis Fall 006 zugestellt ist (ALLEIN H7, Do nachmittags).
 - Presse: Jürgen Hill (Computerwoche, STACKIT-Mail 07:32) ist laut Abwesenheitsnotiz bis Mo 12.10. weg, Vertretung Manfred Bremmer. Nicht an die Vertretung weiterleiten, nicht nachfassen vor 19.10. (`allein/ENTWUERFE-LISTE.md` Tag 3 Nr 10).
 
-## Neu 08.10.2026 09:20 (Dauerlauf): Fachantwort David Rosenthal (VISCHER) zu Fall 2026-004
+## Neu 08.10.2026 09:20 (Dauerlauf): Fachantwort zu Fall 2026-004 (intern)
 
-- Rosenthal: Fachantwort erhalten (Wortlaut am 09.10.2026 aus der Historie entfernt, vertraulich).
+- Fachantwort eines Anwalts zu Fall 2026-004 (manuelles Abuse Monitoring) ist eingegangen. Wortlaut, Name und Auswertung nur intern (`outreach/gespraeche/08-…`, seit 09.10. nicht mehr im Repo; Vertraulichkeits-Hinweis).
 - Stützt Fall 2026-004 (Scaleway) in der Sache. Grenzen: gilt für Berufsgeheimnis-Inhalte und nur, wenn der Kunde die Einsicht nicht genehmigt hat; ob Scaleways Vertragswerk eine solche Genehmigung enthält, ist ungeklärt; kein Gutachten zum Fall.
-- Wortlaut und Auswertung: `outreach/gespraeche/08-rosenthal-fachantwort-2026-10-08.md`. Dank-Entwurf mit Bitte um Zitat auf der Fallseite liegt im Thread (`r-1217056453211120046`, cc Hunger/Baeriswyl), Felix sendet (Frage 200). Bis zur Erlaubnis nur namenlos verwenden (Vertraulichkeits-Hinweis), z. B. im BvD-Gespräch heute 17:30.
+- Dank-Entwurf mit Zitat-Bitte lag im Gmail-Thread, Felix entscheidet (Frage 200). Ohne Erlaubnis nichts verwenden.
 
 ## Neu 08.10.2026 09:15 (Dauerlauf): IONOS nachgeprüft
 
@@ -182,11 +188,11 @@ Larissa Holzki (Handelsblatt, KI-Team) hat am 09.10. 08:29 auf die BFL-Mail von 
 - Vier Seiten-Hashes neu (Modellseite, Zertifikatsseite, beide Doku-Seiten) bei gleichem Inhalt der Belegstellen; Ledger nachgezogen. Archivkopien 20261008070121 (Data Handling), 20261008070200 (AI Act), 20261008070354 (Zertifikate); Modellseite Save ohne Antwort (Zeitüberschreitung), ungeklärt ob gespeichert.
 - 15 Prüfdaten + Kopfdatum (stand noch auf 19.08.) auf 08.10.; 93 Tests grün, Build, Archivcheck ok (23 Zitate); lokal `c39b6d7` + `eac8652`, damit 55 vor origin. Push = Felix. Kopfdatum-Nachzügler jetzt nur noch black-forest-labs (20.08.), requesty (19.08.) und t-systems (19.08., wegen Fall 006 zurückgestellt) → nächste reihum: black-forest-labs, dann requesty.
 
-## Neu 08.10.2026 08:55 (Dauerlauf): Fachantwort RA Marxen (Vergaberecht)
+## Neu 08.10.2026 08:55 (Dauerlauf): Fachantwort Vergaberecht (intern)
 
-- Marxen: Fachantwort erhalten (Wortlaut am 09.10.2026 aus der Historie entfernt, vertraulich).
-- Wortlaut und Auswertung: `outreach/gespraeche/07-marxen-fachantwort-2026-10-08.md`. Dank-Entwurf mit Bitte um Zitat auf /fuer-kaeufer/ liegt im Thread (`r5840326345172559234`), Felix sendet (Frage 199). Bis zur Erlaubnis nur namenlos verwenden (Vertraulichkeits-Hinweis in der Mail).
-- **15:40: Zitat abgelehnt.** Dank-Mail ging 11:30 raus (`1a11ad92bc2bb1ed`); Marxen stimmt einer Veröffentlichung nicht zu (berufsrechtliches Risiko, Nachricht `1a11bbec49207296`). Nichts davon auf die Seite, auch nicht namenlos als „ein Fachanwalt sagt“. Seite geprüft: enthält nichts von ihm.
+- Fachantwort eines Anwalts zur Vergabefrage ist eingegangen. Wortlaut, Name und Auswertung nur intern (`outreach/gespraeche/07-…`, seit 09.10. nicht mehr im Repo). Veröffentlichung abgelehnt.
+- Dank-Mail mit Zitat-Bitte (Frage 199).
+- **15:40: Zitat abgelehnt.** Dank-Mail ging 11:30 raus (`1a11ad92bc2bb1ed`); Veröffentlichung abgelehnt (Nachricht `1a11bbec49207296`). Nichts davon auf die Seite, auch nicht namenlos als „ein Fachanwalt sagt“. Seite geprüft: enthält nichts von ihm.
 
 ## Neu 08.10.2026 08:35 (Dauerlauf): STACKIT nachgeprüft
 

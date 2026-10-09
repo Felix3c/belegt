@@ -14,3 +14,14 @@ dossiers/
 outreach/gespraeche/kandidaten.md
 outreach/gespraeche/05-hansen-oest.md
 outreach/gespraeche/06-schlademann*.md
+
+# Fachantworten Dritter (S/MIME, Vertraulichkeits-Hinweis, Marxen lehnt Veröffentlichung ab) — nie öffentlich
+outreach/gespraeche/07-marxen*.md
+outreach/gespraeche/08-rosenthal*.md
+# Interne Entwürfe und Recherchelisten (Aufräumen V6, 09.10.2026)
+ANGEBOT-ENTWURF.md
+ENTWURF-FESTPREIS-ABSATZ.md
+outreach/vergaben-2026-09.md
+outreach/HALLO-DNS-ANLEITUNG.md
+# Textauszüge aus Beleg-PDFs sind Arbeitskopien, nicht Teil von SHA256SUMS
+belege/faelle/*/*.pdf.txt
