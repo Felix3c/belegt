@@ -138,42 +138,42 @@
       "wert": "https://eurouter.ai/dpa",
       "status": "belegt",
       "quelle": "https://eurouter.ai/dpa",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Vollständiges DPA ('Last updated: May 2026'), signierbare Version zum Download; Vertragspartner EUrouter B.V. (KVK 42054357); §5: Verarbeitung ausschließlich im EWR zugesichert; geht laut Einleitung bei personenbezogenen Daten den AGB vor. Archivkopie web.archive.org/web/20261005042945 (byte-gleich zum Abruf)"
     },
     "subprozessoren": {
       "wert": "https://eurouter.ai/providers",
       "status": "belegt",
       "quelle": "https://eurouter.ai/dpa",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Provider- und Subprozessorliste im DPA (Stand 25.08.2026, am 05.10.2026 unverändert): 15 AI-Provider, Scaleway (nl-ams) als Kerninfrastruktur, Better Stack und PostHog Cloud EU für Diagnose, Mollie für Zahlungen; 2 der 15 Provider haben US-Sitz (AWS Bedrock, Microsoft Foundry). Sentry ist nicht mehr gelistet. Die Liste führt bei allen 15 Providern denselben Eintrag 'No prompt retention / no training' und sagt dazu selbst: 'Provider retention and model-training positions may vary. Customers should select providers that match their requirements.' Der Eintrag gibt wieder, was EUrouter für den Provider vermerkt hat; ob er für jeden Provider dessen eigenen Bedingungen entspricht, ist hier nicht geprüft (siehe die Profile von Mistral, Nebius und Scaleway). Archivkopie web.archive.org/web/20261005042945"
     },
     "training_opt_out": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://eurouter.ai/dpa",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "DPA: 'EUrouter does not use Customer API Data to train, fine-tune or improve AI models' — standardmäßig ausgeschlossen. Ebenso in den AGB (General Terms and Conditions, 'Last updated: June 2026'): 'EUrouter shall not use Input Data for any purpose other than delivering the Service or use Input Data to train, fine-tune, or improve any AI Model.' Gilt für EUrouter selbst; für die nachgeschalteten Provider verweist das DPA auf deren eigene Position. Archivkopien web.archive.org/web/20261005042945 (DPA), 20261005043013 (AGB)"
     },
     "zero_data_retention": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://eurouter.ai/dpa",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Zero-Retention als Standard für Request-/Response-Inhalte; nur Metadaten (Timestamps, Token-Counts) für Abrechnung. DPA §10: 'By default, the Processor applies a zero-retention policy with respect to the content of API requests and responses.' AGB (Juni 2026): 'EUrouter applies a zero data retention policy to the content of API Requests and Outputs by default. Such content is not stored or used by EUrouter for any purpose beyond delivering the Service in real time.' Gilt für EUrouter selbst, nicht für den gewählten Provider; per Anfrage-Parameter max_retention_days lässt sich laut Doku auf Provider ohne Speicherung einschränken. Archivkopien web.archive.org/web/20261005042945 (DPA), 20261005043013 (AGB), 20261005043044 (Datenschutzerklärung). Laut Datenschutzerklärung (eurouter.ai/privacy, Version 1.2 vom 25.08.2026, geprüft 05.10.2026) API-Metadaten bis 12 Monate, Fehler- und Monitoringdaten bis 90 Tage, jeweils länger bei Sicherheits-, Abrechnungs- oder Rechtsgründen."
     },
     "zweckbindung": {
       "wert": false,
       "status": "belegt",
       "quelle": "https://eurouter.ai/dpa",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "DPA (Last updated: May 2026, Abruf 08.10.2026), Annex 1 'Purpose(s)' nennt neben Routing und Rückgabe auch: 'measuring usage, calculating costs and supporting billing'; 'maintaining the security, availability, reliability and performance of the Services'; 'detecting and preventing abuse, fraud, misuse and security incidents'; 'providing technical or customer support at the Controller's request'. 'Nature of the Processing' ergänzt 'monitoring performance and reliability, detecting errors, preventing abuse, investigating security issues'. Die AGB (Juni 2026) sagen enger: 'EUrouter shall not use Input Data for any purpose other than delivering the Service' — für Inhalte gilt das, für Metadaten nennt das DPA die weiteren Zwecke. Kein Training, kein Verkauf ('does not use Customer API Data to train, fine-tune or improve AI models and does not sell Customer API Data')."
     },
     "betroffenenrechte_traeger": {
       "wert": "auftraggeber",
       "status": "belegt",
       "quelle": "https://eurouter.ai/dpa",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "DPA §6: 'the Processor shall not respond to such request on behalf of the Controller and shall refer the Data Subject to the Controller without undue delay', Benachrichtigung binnen 5 Werktagen; Unterstützung 'with all assistance upon first request'. Abruf 08.10.2026."
     },
     "log_frist": {
@@ -276,7 +276,7 @@
   "geprueft": "2026-10-08",
   "url": "https://belegbar.eu/anbieter/eurouter/",
   "beleg_quote_prozent": 75,
-  "zuletzt_geprueft": "2026-10-08",
+  "zuletzt_geprueft": "2026-10-09",
   "rechtsraum": {
     "land": "NL",
     "name": "Niederlande",

@@ -18,7 +18,7 @@
       "preis_input_1m_eur": 1,
       "preis_output_1m_eur": 4.2,
       "quelle": "https://regolo.ai/pricing/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "backup_standort": {
         "wert": null,
@@ -41,7 +41,7 @@
       "preis_input_1m_eur": null,
       "preis_output_1m_eur": null,
       "quelle": null,
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "unbelegt",
       "anmerkung": "Aussage stand bis 2026-08-19 auf https://regolo.ai/pricing/ (0,60 € / 2,70 € je 1M), am 03.10.2026 nicht mehr — kein 'llama' mehr in der Preisliste (0 Treffer im HTML). Aktuelle Chatmodelle u.a. apertus-70b, gemma4-31b, glm5.2, gpt-oss-120b/20b, mistral-small-4-119b, qwen3.5-122b/9b, qwen3.8-27b",
       "backup_standort": {
@@ -65,7 +65,7 @@
       "preis_input_1m_eur": 1,
       "preis_output_1m_eur": 4.2,
       "quelle": "https://regolo.ai/pricing/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "backup_standort": {
         "wert": null,
@@ -88,7 +88,7 @@
       "preis_input_1m_eur": 0.4,
       "preis_output_1m_eur": 2.1,
       "quelle": "https://regolo.ai/pricing/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "anmerkung": "Europäisches Open-Source-Modell (Swiss AI)",
       "backup_standort": {
@@ -112,7 +112,7 @@
       "preis_input_1m_eur": 0.5,
       "preis_output_1m_eur": 2.1,
       "quelle": "https://regolo.ai/pricing/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "backup_standort": {
         "wert": null,
@@ -135,7 +135,7 @@
       "preis_input_1m_eur": 2,
       "preis_output_1m_eur": 5.2,
       "quelle": "https://regolo.ai/pricing/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "backup_standort": {
         "wert": null,
@@ -158,28 +158,28 @@
       "wert": "https://regolo.ai/terms-and-conditions/#data-processor-agreement",
       "status": "belegt",
       "quelle": "https://regolo.ai/terms-and-conditions/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Vollständiges Data Processor Agreement nach Art. 28 DSGVO als Bestandteil der Enterprise-AGB; Verantwortlicher ist Seeweb S.r.l., Frosinone"
     },
     "subprozessoren": {
       "wert": null,
       "status": "unbelegt",
       "quelle": "https://regolo.ai/terms-and-conditions/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Keine öffentliche Liste; laut DPA nur mit schriftlicher Genehmigung, autorisierte Liste wird geführt — Betrieb auf eigener Seeweb-Infrastruktur"
     },
     "training_opt_out": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://regolo.ai/zero-data-retention/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Keine Wiederverwendung für Training oder Fine-Tuning ('Your data serves one purpose only: delivering the response you requested, then it is gone')"
     },
     "zero_data_retention": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://regolo.ai/zero-data-retention/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Prompts/Outputs nur flüchtig in ephemeren Containern, keine Logs/Persistenz; ZDR-Policy durch externe Prüfgesellschaft zertifiziert (24.07.2026)"
     },
     "zweckbindung": {
@@ -193,7 +193,7 @@
       "wert": "auftraggeber",
       "status": "belegt",
       "quelle": "https://regolo.ai/terms-and-conditions/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "DPA (Teil der AGB) Ziff. 7 'Rights of Data Subjects': 'Processor assists and supports the Controller with appropriate technical and organizational measures, to the extent possible, to fulfill the Controller's obligation to respond to the data subject's rights'; Ziff. 1: Controller ist 'solely responsible … for fulfilling all transparency obligations toward Data Subjects'."
     },
     "log_frist": {
@@ -247,7 +247,7 @@
       "typ": "ISO 27017 / 27018",
       "status": "belegt",
       "quelle": "https://regolo.ai/terms-and-conditions/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Zusätzlich ISO 9001, 14001, 20000, 22301 der Seeweb S.r.l., dazu CISPE und ACN-Qualifizierung (Logos im Seitenfuß, 08.10.2026)",
       "anwendungsbereich": {
         "wert": "Seeweb S.r.l., Standorte Mailand (Via Caldera 21) und Frosinone (Via Armando Vona 66): Cloud Computing und Cloud Storage, Hosting, Housing und Colocation, E-Mail, Domains, IT-Sicherheit, Disaster Recovery",
@@ -310,7 +310,7 @@
       "typ": "Zero-Data-Retention-Zertifizierung (extern)",
       "status": "belegt",
       "quelle": "https://regolo.ai/zero-data-retention/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Formale Bestätigung der ZDR-Architektur durch externe Prüffirma, ausgestellt 24.07.2026",
       "anwendungsbereich": {
         "wert": "REGOLO.AI: 'does not log user prompts, messages and responses'",
@@ -350,7 +350,7 @@
       "pflicht": "AI-Act-Alignment (Transparenz, Sicherheit, Accountability)",
       "status": "beansprucht",
       "quelle": "https://regolo.ai/zero-data-retention/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Proaktive Ausrichtung am EU AI Act erklärt; kein Primärdokument öffentlich. Kein GPAI-Modellanbieter"
     }
   ],

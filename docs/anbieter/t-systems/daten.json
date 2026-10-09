@@ -138,7 +138,7 @@
       "wert": "https://www.t-cloud-public.com/_Resources/Persistent/7/4/4/5/744591c2cdff8be6c3876c3bf6e187fb024cad04/OTC%20ErgB-AV%20TDG_DE.pdf",
       "status": "belegt",
       "quelle": "https://www.t-cloud-public.com/_Resources/Persistent/7/4/4/5/744591c2cdff8be6c3876c3bf6e187fb024cad04/OTC%20ErgB-AV%20TDG_DE.pdf",
-      "geprueft": "2026-10-03",
+      "geprueft": "2026-10-09",
       "anmerkung": "Öffentliches AVV-Dokument (Stand April 2026) für die Open Telekom Cloud; für AI Foundation Services DPA nach Telekom-Vorlage auf Anfrage."
     },
     "subprozessoren": {
@@ -167,14 +167,14 @@
       "wert": true,
       "status": "belegt",
       "quelle": "https://www.t-cloud-public.com/_Resources/Persistent/7/4/4/5/744591c2cdff8be6c3876c3bf6e187fb024cad04/OTC%20ErgB-AV%20TDG_DE.pdf",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "AVV (ErgB-AV T Cloud Public, Stand April 2026), Klausel 7.2: 'Der Auftragsverarbeiter verarbeitet die personenbezogenen Daten nur für den/die in Anhang II genannten spezifischen Zweck(e), sofern er keine weiteren Weisungen des Verantwortlichen erhält.' Anhang II Ziffer 3: 'Die Art der Leistung sowie der Verarbeitungszweck sind in den Produkt-AGB und der Leistungsbeschreibung abschließend geregelt.' Die Leistungsbeschreibung LLM-Serving-Service v1.24 (Stand 30.09.2026, https://docs.llmhub.t-systems.net/files/Leistungsbeschreibung-LLM-Serving-Service.pdf) § 2.3.1: Anfragen und Antworten werden 'standardmäßig nicht dauerhaft gespeichert und auch nicht dazu verwendet, die Sprachmodelle zu trainieren'; der Zwischenspeicher dient dazu, dass 'der Service schneller antwortet'. Weitere Zwecke (Missbrauchserkennung, Produktverbesserung, Analytics) nennt sie nicht. Einschränkungen: Der öffentliche AVV ist der für die T Cloud Public; für AI Foundation Services schließt der Kunde laut Leistungsbeschreibung Ziffer 5.2 d eine Vereinbarung 'nach dem Muster der Telekom' ab, 'welches die Telekom dem Kunden auf Anfrage zur Verfügung stellt'. Für Kategorie-2-Modelle (GPT-5, Claude) gelten die Bedingungen des Drittanbieters."
     },
     "betroffenenrechte_traeger": {
       "wert": "auftraggeber",
       "status": "belegt",
       "quelle": "https://www.t-cloud-public.com/_Resources/Persistent/7/4/4/5/744591c2cdff8be6c3876c3bf6e187fb024cad04/OTC%20ErgB-AV%20TDG_DE.pdf",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "AVV (ErgB-AV T Cloud Public, Stand April 2026), Klausel 8 a: 'Der Auftragsverarbeiter unterrichtet den Verantwortlichen unverzüglich über jeden Antrag, den er von der betroffenen Person erhalten hat. Er beantwortet den Antrag nicht selbst, es sei denn, er wurde vom Verantwortlichen dazu ermächtigt.' Klausel 8 b: Er 'unterstützt ... den Verantwortlichen bei der Erfüllung von dessen Pflicht, Anträge betroffener Personen ... zu beantworten'. Enterprise-Trust-Seite: 'Telekom acts as a data processor; the customer remains the data controller.' Der AVV speziell für AI Foundation Services ist nur auf Anfrage erhältlich."
     },
     "log_frist": {

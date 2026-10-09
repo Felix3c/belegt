@@ -18,7 +18,7 @@
       "preis_input_1m_eur": 0.65,
       "preis_output_1m_eur": 0.65,
       "quelle": "https://cloud.ionos.de/managed/ai-model-hub",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "backup_standort": {
         "wert": "Keine Sicherungen von Prompts und Ausgaben (werden nicht persistent gespeichert); Verarbeitung nur in IONOS-Rechenzentren in Deutschland",
@@ -65,7 +65,7 @@
       "preis_input_1m_eur": 0.1,
       "preis_output_1m_eur": 0.3,
       "quelle": "https://cloud.ionos.de/managed/ai-model-hub",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "backup_standort": {
         "wert": "Keine Sicherungen von Prompts und Ausgaben (werden nicht persistent gespeichert); Verarbeitung nur in IONOS-Rechenzentren in Deutschland",
@@ -88,7 +88,7 @@
       "preis_input_1m_eur": 0.15,
       "preis_output_1m_eur": 0.15,
       "quelle": "https://cloud.ionos.de/managed/ai-model-hub",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "backup_standort": {
         "wert": "Keine Sicherungen von Prompts und Ausgaben (werden nicht persistent gespeichert); Verarbeitung nur in IONOS-Rechenzentren in Deutschland",
@@ -111,7 +111,7 @@
       "preis_input_1m_eur": 0.15,
       "preis_output_1m_eur": 0.65,
       "quelle": "https://cloud.ionos.de/managed/ai-model-hub",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "backup_standort": {
         "wert": "Keine Sicherungen von Prompts und Ausgaben (werden nicht persistent gespeichert); Verarbeitung nur in IONOS-Rechenzentren in Deutschland",
@@ -134,7 +134,7 @@
       "preis_input_1m_eur": 0.6,
       "preis_output_1m_eur": 3.6,
       "quelle": "https://cloud.ionos.de/managed/ai-model-hub",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "backup_standort": {
         "wert": "Keine Sicherungen von Prompts und Ausgaben (werden nicht persistent gespeichert); Verarbeitung nur in IONOS-Rechenzentren in Deutschland",
@@ -157,14 +157,14 @@
       "wert": "https://www.ionos.de/terms-gtc/avv/",
       "status": "belegt",
       "quelle": "https://www.ionos.de/terms-gtc/avv/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "AVV nach Art. 28 Abs. 3 DSGVO; seit 19.07.2022 automatisch Bestandteil der IONOS AGB, kein separater Abschluss nötig."
     },
     "subprozessoren": {
       "wert": "https://www.ionos.de/terms-gtc/fileadmin/pdf/terms-gtc/DE/AVV/AVV_Liste_Subunternehmen_v4_5_DE.pdf",
       "status": "belegt",
       "quelle": "https://www.ionos.de/terms-gtc/avv/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Anhang 2 zum AVV ('Liste Subunternehmen', v4.5), direkt aus dem offiziellen AVV verlinkt; PDF abgerufen und existent (07.10.2026 weiter v4.5, Stand 04/2026). Ergänzend laut Data-Handling-Doku (docs.ionos.com, 03.10.2026): 'No third-party sub-processors are engaged for AI Model Hub'."
     },
     "training_opt_out": {
@@ -192,7 +192,7 @@
       "wert": "auftraggeber",
       "status": "belegt",
       "quelle": "https://www.ionos.de/terms-gtc/avv/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "AVV Ziffer 7 'Anfragen betroffener Personen': 'Der Auftragnehmer unterrichtet den Auftraggeber unverzüglich über jeden Antrag, den er von der betroffenen Person erhalten hat. Er beantwortet den Antrag nicht selbst, es sei denn, er wurde vom Auftraggeber dazu ermächtigt.' Ziffer 5.2: Unterstützung bei Betroffenenrechten gegen 'angemessene Vergütung'."
     },
     "log_frist": {
@@ -277,7 +277,7 @@
       "typ": "ISO 50001",
       "status": "belegt",
       "quelle": "https://cloud.ionos.de/zertifikate",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Energiemanagement aller IONOS-Cloud-Rechenzentren.",
       "anwendungsbereich": {
         "wert": "IONOS Holding SE mit Standorten gemäß Anlage: 'Konzeption und Betrieb von Rechenzentrumsinfrastruktur für Internetprodukte und -dienstleistungen weltweit'",

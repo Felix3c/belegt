@@ -18,7 +18,7 @@
       "preis_input_1m_eur": 0.35,
       "preis_output_1m_eur": 0.95,
       "quelle": "https://docs.greenpt.ai/model-cards",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "anmerkung": "Reasoning-Modell, 128k Kontext. Seit 22.09.2026 unter 'Not recommended model ids' geführt (aus der empfohlenen Katalogansicht genommen), bleibt aber im Angebot. Standort laut greenpt.com/sustainability (05.10.2026): „The platform is hosted by Scaleway in France“ (Tabelle: Paris, Scaleway); Helsinki (Verda) nur für die Code-Modelle glm-5.3 und kimi-k2.7-code. Die Model-Cards nennen keinen Ort je Modell.",
       "backup_standort": {
@@ -42,7 +42,7 @@
       "preis_input_1m_eur": 0.2,
       "preis_output_1m_eur": 0.4,
       "quelle": "https://docs.greenpt.ai/model-cards",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "anmerkung": "128k Kontext. Seit 22.09.2026 'Not recommended' ('use glm-5.3-flash'), bleibt im Angebot. Standort laut greenpt.com/sustainability (05.10.2026): „The platform is hosted by Scaleway in France“ (Tabelle: Paris, Scaleway); Helsinki (Verda) nur für die Code-Modelle glm-5.3 und kimi-k2.7-code. Die Model-Cards nennen keinen Ort je Modell.",
       "backup_standort": {
@@ -66,7 +66,7 @@
       "preis_input_1m_eur": 0.5,
       "preis_output_1m_eur": 1.5,
       "quelle": "https://docs.greenpt.ai/model-cards",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "anmerkung": "256k Kontext, selbst gehostet. Seit 22.09.2026 'Not recommended', bleibt im Angebot. Standort laut greenpt.com/sustainability (05.10.2026): „The platform is hosted by Scaleway in France“ (Tabelle: Paris, Scaleway); Helsinki (Verda) nur für die Code-Modelle glm-5.3 und kimi-k2.7-code. Die Model-Cards nennen keinen Ort je Modell.",
       "backup_standort": {
@@ -90,7 +90,7 @@
       "preis_input_1m_eur": 1.55,
       "preis_output_1m_eur": 4.6,
       "quelle": "https://docs.greenpt.ai/model-cards",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "anmerkung": "Coding-Modell, 1M Kontext. Preis laut Changelog am 26.09.2026 geändert (vorher 1,25/4,30 €; Model-Cards-Verlauf: „Moved to TensorX“); als 'Not recommended' geführt ('use glm-5.3'), das als Nachfolger zum früheren Preis 1,10/4,40 € läuft. Standort Helsinki laut /sustainability nur für glm-5.3 belegt, für glm-5.2 nicht bestätigt. Standort laut greenpt.com/privacy-policy (05.10.2026): Unterauftragnehmer „Inceptron / Tensorix / Melious — Verda data centre, Finland (EU)“; Anbieterwechsel zu TensorX laut Verlauf auf den Model-Cards.",
       "backup_standort": {
@@ -114,7 +114,7 @@
       "preis_input_1m_eur": 3.3,
       "preis_output_1m_eur": 16.5,
       "quelle": "https://docs.greenpt.ai/model-cards",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "anmerkung": "Moonshot AI, 1M Kontext. Standort: kimi-k3 ist weder auf den Model-Cards noch auf /sustainability einem Rechenzentrum zugeordnet (05.10.2026); Helsinki ist nicht belegt. Laut docs.greenpt.ai/regions (05.10.2026) wird kimi-k3 auch über den US-Endpunkt api.us.greenpt.ai angeboten (Neuralwatt Inc., USA; eigener Preis); der Standard-Endpunkt „always uses EU inference“.",
       "backup_standort": {
@@ -138,7 +138,7 @@
       "preis_input_1m_eur": 0.2,
       "preis_output_1m_eur": null,
       "quelle": "https://docs.greenpt.ai/model-cards",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "anmerkung": "Embedding-Modell, 32k Kontext, keine Output-Kosten. Standort laut greenpt.com/sustainability (05.10.2026): „The platform is hosted by Scaleway in France“ (Tabelle: Paris, Scaleway); Helsinki (Verda) nur für die Code-Modelle glm-5.3 und kimi-k2.7-code. Die Model-Cards nennen keinen Ort je Modell.",
       "backup_standort": {
@@ -162,28 +162,28 @@
       "wert": null,
       "status": "belegt",
       "quelle": "https://greenpt.com/terms-of-service",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "DPA (v1.0) laut öffentlicher ToS per Verweis Vertragsbestandteil ('In the event of conflict, the DPA prevails'); signiertes Dokument auf Anfrage, nicht öffentlich abrufbar"
     },
     "subprozessoren": {
       "wert": "https://docs.greenpt.ai/privacy/processor",
       "status": "belegt",
       "quelle": "https://docs.greenpt.ai/privacy/processor",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Liste in der Doku (Data Processors, 05.10.2026), nach Region getrennt. EU-Endpunkt (Standard): Scaleway SAS (FR), Inceptron, Tensorix, Melious (alle Verda-Rechenzentrum, FI). US-Endpunkt api.us.greenpt.ai: Neuralwatt Inc. (USA), „Request content and generated output“, nur für Anfragen an diese Basis-URL. Unabhängig von der Region: Scaleway (Konto- und Nutzungsdaten), Mollie B.V. (NL, Zahlung), Google Workspace (Irland), Cirrux (NL), Brave Search (USA, nur search.greenpt.ai). Die Tabelle in der Privacy Policy auf greenpt.com/privacy-policy („Last updated January 14, 2026“) nennt Neuralwatt nicht"
     },
     "training_opt_out": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://greenpt.com/privacy",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "greenpt.com/privacy (05.10.2026): „We never use your conversations, documents, or API traffic to train AI models, ours or anyone else's.“ Die Privacy Policy selbst (Stand 14.01.2026) enthält keinen Satz zum Training, 'No training on your data' steht dort nur im Seitenmenü. Hinweis: ToS enthalten eine Lizenz 'to operate and improve the Services'; Details regelt der DPA"
     },
     "zero_data_retention": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://greenpt.com/privacy-policy",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Für die API: 'API payloads and audio: No persistent storage (processed in-memory only)'. Chat-Verläufe im Chat-Produkt werden dagegen bis Löschung bzw. max. 12 Monate gespeichert. Die Aussage betrifft GreenPT; für Anfragen an den US-Endpunkt verweist GreenPT auf die Datenschutzerklärung von Neuralwatt Inc. (nicht geprüft)"
     },
     "zweckbindung": {
@@ -220,7 +220,7 @@
       "typ": "ISO 27001",
       "status": "beansprucht",
       "quelle": "https://greenpt.com/sustainability",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Footer-Badge; Sustainability-Seite präzisiert, dass sich die Zertifizierung auf die genutzten Rechenzentren (Scaleway, Verda) bezieht — kein eigenes GreenPT-Zertifikat auffindbar. Vom Anbieter am 01.09.2026 schriftlich bestätigt: GreenPT BV hält heute kein eigenes ISO-27001-Zertifikat, eigene Zertifizierung läuft (Fall 2026-002). Footer am 05.10.2026 unverändert: „Verified by independent audit · GDPR compliant · ISO 27001 · EU Hosted“",
       "anwendungsbereich": {
         "wert": "Rechenzentren der Infrastrukturpartner (Scaleway, Paris; Verda, Helsinki), nicht GreenPT BV",
@@ -251,7 +251,7 @@
       "typ": "SOC 2 Type II",
       "status": "beansprucht",
       "quelle": "https://greenpt.com/privacy",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "greenpt.com/privacy (Abschnitt „Security Certifications“, am 05.10. und 08.10.2026 gleich): „Our infrastructure maintains ISO 27001 and SOC 2 Type II certifications“. Gemeint ist laut Wortlaut die Infrastruktur, nicht GreenPT BV; kein Bericht verlinkt. Die Seite „Security & Compliance“ von Scaleway nennt am 08.10.2026 kein SOC 2; für Verda ungeklärt. Wessen SOC-2-Bericht gemeint ist: ungeklärt",
       "anwendungsbereich": {
         "wert": "'Our infrastructure' (laut Wortlaut die Infrastruktur, nicht GreenPT BV)",
@@ -282,7 +282,7 @@
       "typ": "ISO 50001",
       "status": "beansprucht",
       "quelle": "https://greenpt.com/sustainability",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Energiemanagement der genutzten Rechenzentren, nicht von GreenPT BV selbst; kein Zertifikat verlinkt",
       "anwendungsbereich": {
         "wert": "Rechenzentren der Infrastrukturpartner (Scaleway, Paris; Verda, Helsinki), nicht GreenPT BV",
@@ -313,7 +313,7 @@
       "typ": "Nachhaltigkeits-Kennzahlen (PUE 1.25, WUE 0.25, 100 % erneuerbar)",
       "status": "belegt",
       "quelle": "https://greenpt.com/sustainability",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Mit Primärquellen belegt (Scaleway Impact Report 2025, Verda Trust Center); GreenPT räumt selbst ein, dass das Training der genutzten Modelle nicht verifizierbar ist",
       "anwendungsbereich": {
         "wert": null,
@@ -353,7 +353,7 @@
       "pflicht": "Transparenz über eingesetzte Modelle (Model Cards)",
       "status": "belegt",
       "quelle": "https://docs.greenpt.ai/model-cards",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Öffentliche Model Cards mit Upstream-Modell, Anbieter, Kontext und Preisen; ausschließlich Open-Weight-Modelle"
     },
     {
@@ -366,7 +366,7 @@
   "geprueft": "2026-10-08",
   "url": "https://belegbar.eu/anbieter/greenpt/",
   "beleg_quote_prozent": 75,
-  "zuletzt_geprueft": "2026-10-08",
+  "zuletzt_geprueft": "2026-10-09",
   "rechtsraum": {
     "land": "NL",
     "name": "Niederlande",

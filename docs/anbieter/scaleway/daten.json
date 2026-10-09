@@ -18,7 +18,7 @@
       "preis_input_1m_eur": 0.15,
       "preis_output_1m_eur": 0.6,
       "quelle": "https://www.scaleway.com/en/pricing/model-as-a-service/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "backup_standort": {
         "wert": "Keine Sicherung von Anfragen und Ausgaben durch Scaleway; Speicherregion Paris",
@@ -41,7 +41,7 @@
       "preis_input_1m_eur": 0.9,
       "preis_output_1m_eur": 0.9,
       "quelle": "https://www.scaleway.com/en/pricing/model-as-a-service/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "backup_standort": {
         "wert": "Keine Sicherung von Anfragen und Ausgaben durch Scaleway; Speicherregion Paris",
@@ -64,7 +64,7 @@
       "preis_input_1m_eur": 0.15,
       "preis_output_1m_eur": 0.35,
       "quelle": "https://www.scaleway.com/en/pricing/model-as-a-service/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "backup_standort": {
         "wert": "Keine Sicherung von Anfragen und Ausgaben durch Scaleway; Speicherregion Paris",
@@ -87,7 +87,7 @@
       "preis_input_1m_eur": 0.75,
       "preis_output_1m_eur": 2.25,
       "quelle": "https://www.scaleway.com/en/pricing/model-as-a-service/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "backup_standort": {
         "wert": "Keine Sicherung von Anfragen und Ausgaben durch Scaleway; Speicherregion Paris",
@@ -110,7 +110,7 @@
       "preis_input_1m_eur": 0.4,
       "preis_output_1m_eur": 0.8,
       "quelle": "https://www.scaleway.com/en/pricing/model-as-a-service/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "anmerkung": "Modellname auf der Preisseite jetzt 'deepseek-v4-flash-0731'; Preise unverändert; Preisseite führt zusätzlich einen Cache-Preis (0,08 €/1M Input-Token, cached), nicht in die Tabelle übernommen",
       "backup_standort": {
@@ -134,7 +134,7 @@
       "preis_input_1m_eur": 1.8,
       "preis_output_1m_eur": 5.5,
       "quelle": "https://www.scaleway.com/en/pricing/model-as-a-service/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "backup_standort": {
         "wert": "Keine Sicherung von Anfragen und Ausgaben durch Scaleway; Speicherregion Paris",
@@ -157,21 +157,21 @@
       "wert": "https://www-uploads.scaleway.com/DPA_2024_ENG_b0abb5cc26.pdf",
       "status": "belegt",
       "quelle": "https://www.scaleway.com/en/contracts/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "DPA 2024 (EN) als Primärdokument vorhanden; auf der Contracts-Seite auch SCCs und TOM-Dokument."
     },
     "subprozessoren": {
       "wert": "https://www.scaleway.com/en/subprocessorlist/",
       "status": "belegt",
       "quelle": "https://www.scaleway.com/en/subprocessorlist/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Offizielle Liste, Stand Juli 2025 (u.a. AtNorth, Equinix EMEA, Iron Mountain, Digital Realty, Opcore); Änderungshistorie öffentlich."
     },
     "training_opt_out": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://www.scaleway.com/en/docs/generative-apis/reference-content/data-privacy/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Doku-Zitat: 'Your data is not used for training, retraining, or improving the base models' — Training findet grundsätzlich nicht statt, kein Opt-out nötig."
     },
     "zero_data_retention": {
@@ -185,28 +185,28 @@
       "wert": false,
       "status": "belegt",
       "quelle": "https://www.scaleway.com/en/docs/generative-apis/reference-content/data-privacy/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Doku: 'The personal data collected is used exclusively for: Providing access to the Generative API services. Generating and managing API keys. Monitoring and improving the Generative API service through anonymized data for statistical analysis.' Inhalte im Missbrauchs-/Fehlerfall: 'to identify a root cause issue or any security vulnerability, and to ensure quality of service for all customers'. Für Inhalte sagen die Specific Conditions (07/04/2026) dagegen 'is not used to improve the Service', der DPA Ziffer 3.1.4 'not to process Personal Data for purposes other than those necessary for the performance of the Services'."
     },
     "betroffenenrechte_traeger": {
       "wert": "auftraggeber",
       "status": "belegt",
       "quelle": "https://www-uploads.scaleway.com/DPA_2024_ENG_b0abb5cc26.pdf",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "DPA 2024 Ziffer 10.1: 'Scaleway undertakes to reasonably cooperate with the Client in order to guarantee the handling of requests from Data Subjects … Scaleway undertakes to inform the Client of any requests submitted by a Data Subject to exercise such rights.'"
     },
     "log_frist": {
       "wert": "Nutzungsmetadaten aggregiert/anonymisiert bis 6 Monate; volle HTTP-Request-Inhalte im Missbrauchs-/Fehlerfall bis 2 Wochen; Batch-Eingaben 24 Stunden",
       "status": "belegt",
       "quelle": "https://www.scaleway.com/en/docs/generative-apis/reference-content/data-privacy/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Doku: 'Aggregated and anonymized data is stored for up to 6 months for performance monitoring and improvement.'; 'Data is stored for up to two weeks, only to reproduce, investigate, and fix the underlying issue.' Specific Conditions AI Services (07/04/2026): 'when Batch Processing mode is used, Inputs are stored only for the duration of processing, i.e., twenty-four (24) hours.' Erfasste Metadaten laut Doku: 'API request metadata (HTTP calls, status codes, timestamps, etc.)', Tokenzahlen und Parameter ohne Prompt-Inhalt."
     },
     "log_zweck": {
       "wert": "Leistungsüberwachung und Verbesserung (Metadaten); Fehler- und Ursachenanalyse, Sicherheitslücken und Missbrauch (Request-Inhalte)",
       "status": "belegt",
       "quelle": "https://www.scaleway.com/en/docs/generative-apis/reference-content/data-privacy/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Doku: Metadaten 'for performance monitoring and improvement'; Request-Inhalte 'in the event of misuse harming the service functionality … to identify a root cause issue or any security vulnerability, and to ensure quality of service for all customers'."
     }
   },
@@ -277,7 +277,7 @@
       "typ": "SecNumCloud",
       "status": "beansprucht",
       "quelle": "https://www.scaleway.com/en/news/scaleway-begins-the-secnumcloud-qualification-process/",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Noch keine Qualifikation: Meilenstein J0 bestanden, Ziel 'by the end of 2025' laut News-Artikel (Veröffentlichungsdatum auf der Seite als 01/09/2025 angegeben, Format uneindeutig) ist verstrichen; Security-and-Compliance-Seite führt SecNumCloud weiterhin als 'ongoing', Audit/Bewertung läuft. Eigene SecNumCloud-Seite am 08.10.2026 wörtlich: 'undergoing SecNumCloud (ANSSI) qualification — … not yet granted'.",
       "anwendungsbereich": {
         "wert": null,

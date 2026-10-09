@@ -23,7 +23,7 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://nordference.ai/privacy",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Zu Sicherungen steht nichts in Privacy Policy, Terms, SLA oder GDPR-Seite (alle Stand 28.01.2026). Privacy Policy, Abschnitt 5: 'All data processing occurs within the European Union, specifically in Estonia.' Abschnitt 4: 'Your prompts and model outputs are processed in real-time and are not stored on our systems. Account and billing information is retained as required by law.' Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
       },
       "vorgeschaltete_filter": {
@@ -45,7 +45,7 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://nordference.ai/privacy",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Zu Sicherungen steht nichts in Privacy Policy, Terms, SLA oder GDPR-Seite (alle Stand 28.01.2026). Privacy Policy, Abschnitt 5: 'All data processing occurs within the European Union, specifically in Estonia.' Abschnitt 4: 'Your prompts and model outputs are processed in real-time and are not stored on our systems. Account and billing information is retained as required by law.' Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
       },
       "vorgeschaltete_filter": {
@@ -67,7 +67,7 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://nordference.ai/privacy",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Zu Sicherungen steht nichts in Privacy Policy, Terms, SLA oder GDPR-Seite (alle Stand 28.01.2026). Privacy Policy, Abschnitt 5: 'All data processing occurs within the European Union, specifically in Estonia.' Abschnitt 4: 'Your prompts and model outputs are processed in real-time and are not stored on our systems. Account and billing information is retained as required by law.' Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
       },
       "vorgeschaltete_filter": {
@@ -89,7 +89,7 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://nordference.ai/privacy",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Zu Sicherungen steht nichts in Privacy Policy, Terms, SLA oder GDPR-Seite (alle Stand 28.01.2026). Privacy Policy, Abschnitt 5: 'All data processing occurs within the European Union, specifically in Estonia.' Abschnitt 4: 'Your prompts and model outputs are processed in real-time and are not stored on our systems. Account and billing information is retained as required by law.' Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
       },
       "vorgeschaltete_filter": {
@@ -111,7 +111,7 @@
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://nordference.ai/privacy",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-09",
         "anmerkung": "Zu Sicherungen steht nichts in Privacy Policy, Terms, SLA oder GDPR-Seite (alle Stand 28.01.2026). Privacy Policy, Abschnitt 5: 'All data processing occurs within the European Union, specifically in Estonia.' Abschnitt 4: 'Your prompts and model outputs are processed in real-time and are not stored on our systems. Account and billing information is retained as required by law.' Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
       },
       "vorgeschaltete_filter": {
@@ -128,7 +128,7 @@
       "wert": null,
       "status": "beansprucht",
       "quelle": "https://nordference.ai/gdpr",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "GDPR-Seite (Stand laut Seite: 28.01.2026), wörtlich: 'Enterprise customers can request a Data Processing Agreement (DPA) that outlines the terms under which we process data on their behalf. Contact sales@nordference.ai for more information.' Kein öffentliches Dokument, und laut diesem Satz nur für Enterprise-Kunden; ob Pay-as-you-go-Kunden einen AVV bekommen, steht nirgends. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 05.10.2026, Archivkopie web.archive.org/web/20261005012917 byte-gleich; Nachprüfung 08.10.2026: Bündel unter demselben Namen, byte-gleich zur Archivkopie)."
     },
     "subprozessoren": {
@@ -149,7 +149,7 @@
       "wert": true,
       "status": "belegt",
       "quelle": "https://nordference.ai/gdpr",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "GDPR-Seite: 'Zero retention for inference data'; Privacy Policy (Stand 28.01.2026), Abschnitt 4, wörtlich: 'We maintain a zero data retention policy for inference data. Your prompts and model outputs are processed in real-time and are not stored on our systems. Account and billing information is retained as required by law.' Alle Daten laut Anbieter innerhalb der EU (Estland). Ob Protokolle (Zeitpunkt, Tokenzahl, IP-Adresse) gespeichert werden und wie lange, steht nirgends; als erhobene Nutzungsdaten nennt die Privacy Policy 'API calls, token counts'. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 05.10.2026, Archivkopie web.archive.org/web/20261005012917 byte-gleich)."
     },
     "zweckbindung": {
@@ -186,7 +186,7 @@
       "typ": "ISO 27001",
       "status": "beansprucht",
       "quelle": "https://nordference.ai",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Nur als Schlagwort in der Branchenkachel 'Government' auf der Startseite ('NIS2', 'EU Data Residency', 'ISO 27001'); kein Zertifikat, kein Auditor, kein Inhaber genannt, das Wort 'certified' kommt auf der gesamten Website nicht vor (05.10.2026).",
       "anwendungsbereich": {
         "wert": null,
@@ -217,7 +217,7 @@
       "typ": "SOC 2 Type II",
       "status": "beansprucht",
       "quelle": "https://nordference.ai",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Nur als Schlagwort in der Branchenkachel 'Finance' auf der Startseite ('DORA', 'SOC 2 Type II', 'Audit Trails'); kein Report auffindbar (05.10.2026).",
       "anwendungsbereich": {
         "wert": null,
@@ -266,7 +266,7 @@
   "geprueft": "2026-10-08",
   "url": "https://belegbar.eu/anbieter/nordference/",
   "beleg_quote_prozent": 50,
-  "zuletzt_geprueft": "2026-10-08",
+  "zuletzt_geprueft": "2026-10-09",
   "rechtsraum": {
     "land": "EE",
     "name": "Estland",

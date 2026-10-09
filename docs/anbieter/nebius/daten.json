@@ -18,7 +18,7 @@
       "preis_input_1m_eur": 0.15,
       "preis_output_1m_eur": 0.6,
       "quelle": "https://openrouter.ai/provider/nebius",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "anmerkung": "Preis in USD; offizielle Preisseite nur nach Login, Preise über das Live-Listing bei OpenRouter verifiziert. Standort laut docs.tokenfactory.nebius.com/public-serverless (03.10.2026): öffentliche Endpunkte zeigen Region „Global“, „the processing location is decided dynamically and can change at any time, without notice“; feste Region nur über Dedicated Endpoints. Die frühere Angabe „EU (Finnland/Frankreich)“ ist für den Serverless-Zugang nicht gedeckt.",
       "backup_standort": {
@@ -42,7 +42,7 @@
       "preis_input_1m_eur": 0.2,
       "preis_output_1m_eur": 0.6,
       "quelle": "https://openrouter.ai/provider/nebius",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "anmerkung": "Preis in USD. Standort laut docs.tokenfactory.nebius.com/public-serverless (03.10.2026): öffentliche Endpunkte zeigen Region „Global“, „the processing location is decided dynamically and can change at any time, without notice“; feste Region nur über Dedicated Endpoints. Die frühere Angabe „EU (Finnland/Frankreich)“ ist für den Serverless-Zugang nicht gedeckt.",
       "backup_standort": {
@@ -66,7 +66,7 @@
       "preis_input_1m_eur": null,
       "preis_output_1m_eur": null,
       "quelle": null,
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "unbelegt",
       "anmerkung": "Aussage stand bis 2026-08-19 auf https://openrouter.ai/provider/nebius (0,13 $ / 0,40 $ je 1M), am 03.10.2026 nicht mehr — nicht mehr in der aktuellen Modellliste des Providers (10 Modelle, u.a. GLM 5.3, Kimi K2.7 Code, GLM 5.1, gpt-oss-120b, Qwen3 235B); am 08.10.2026 ebenfalls nicht (12 Modelle, neu u.a. DeepSeek V4 Pro 0813, Hermes 4 405B). Standort laut docs.tokenfactory.nebius.com/public-serverless (03.10.2026): öffentliche Endpunkte zeigen Region „Global“, „the processing location is decided dynamically and can change at any time, without notice“; feste Region nur über Dedicated Endpoints. Die frühere Angabe „EU (Finnland/Frankreich)“ ist für den Serverless-Zugang nicht gedeckt.",
       "backup_standort": {
@@ -90,7 +90,7 @@
       "preis_input_1m_eur": 1.4,
       "preis_output_1m_eur": 4.4,
       "quelle": "https://openrouter.ai/provider/nebius",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "status": "belegt",
       "anmerkung": "Preis in USD. Standort laut docs.tokenfactory.nebius.com/public-serverless (03.10.2026): öffentliche Endpunkte zeigen Region „Global“, „the processing location is decided dynamically and can change at any time, without notice“; feste Region nur über Dedicated Endpoints. Die frühere Angabe „EU (Finnland/Frankreich)“ ist für den Serverless-Zugang nicht gedeckt.",
       "backup_standort": {
@@ -114,56 +114,56 @@
       "wert": "https://docs.nebius.com/legal/dpa",
       "status": "belegt",
       "quelle": "https://docs.nebius.com/legal/dpa",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Standard-DPA im offiziellen Legal-Verzeichnis, Fassung vom 15.09.2026; gilt ausdrücklich auch für die Token Factory (eigener Anhang 1B, eigene Subprozessoren-Liste) und ist Teil des Nebius Services Agreement, das seit 28.09.2026 die früheren Token-Factory-Nutzungsbedingungen ablöst (diese gelten nur noch für Kunden mit laufender Reserve). Bei Widersprüchen geht der DPA den übrigen Vertragsteilen vor, aber nur für die Verarbeitung personenbezogener Daten (Agreement Ziffer 20.12). Custom DPAs für Enterprise möglich. Archivkopie web.archive.org/web/20261004223442"
     },
     "subprozessoren": {
       "wert": "https://docs.nebius.com/legal/sub-processors_tofa",
       "status": "belegt",
       "quelle": "https://docs.nebius.com/legal/sub-processors_tofa",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Eigene Liste für die Token Factory, Fassung vom 23.09.2026 (bisher war hier die Liste für AI Cloud verlinkt). Infrastruktur für die Modellverarbeitung: Nebius B.V. (Frankreich, Island, Finnland, Vereinigtes Königreich), Nebius Inc. (USA), Nebius Israel Ltd. (Israel) und vier externe US-Firmen: RunPod Inc. (Verarbeitung in Island), BoostRun, LLC (USA), Shadeform, Inc. (USA), Axe Compute Inc. (Kanada). Welche davon eine Anfrage verarbeitet, hängt laut Liste von Modell, Endpunkt-Typ und Verarbeitungsort ab; bei öffentlichen Endpunkten ist der Ort nicht festgelegt, nur ein Dedicated Endpoint bindet die Region. Betrieb und Support: Nebius-Gesellschaften in den USA, Israel, Serbien, UK und der EU, dazu Microsoft (Sentinel), Sentry, Hubspot, Atlassian (Jira), Slack. Änderungen mit mindestens 15 Tagen Vorankündigung (DPA 4.3). Archivkopie web.archive.org/web/20261004223544"
     },
     "training_opt_out": {
       "wert": null,
       "status": "beansprucht",
       "quelle": "https://docs.nebius.com/legal/token-factory",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Widersprüchlich, auch innerhalb des Vertrags. Die Token Factory Supplemental Terms (Fassung 15.09.2026, Teil des Nebius Services Agreement), Ziffer 5.1 wörtlich: Nebius may access, use, host, cache, store, copy, modify, and otherwise process Input and Output to (a) provide, maintain, monitor, protect, and support the Services, Token Factory Service or (b) train smaller Models used for Speculative Decoding. Der DPA (Fassung 15.09.2026, Anhang 3) sagt zur selben Verarbeitung: inputs and outputs may be retained and used solely for the documented speculative-decoding purpose and not for model training or improvement. Der Legal Quick Guide der Token Factory (ausdrücklich nur Zusammenfassung, der Vertrag geht vor): Your content is not used to train any models in either mode. Ein Vertragsteil nennt es also Training kleiner Entwurfsmodelle, zwei Dokumente verneinen jedes Training; es geht nicht um Training der angebotenen Hauptmodelle. Abwählbar: laut Supplemental Terms Ziffer 5.4 kann der Kunde der Speicherung und der Nutzung für Speculative Decoding jederzeit widersprechen (Onboarding-Formular oder Support), laut Quick Guide per Schalter Zero Data Retention. Standard ist die Nutzung. Die Produktseite nebius.com/services/token-factory enthält seit spätestens 03.10.2026 keine Aussage mehr dazu (bis 19.08.2026: 'requests and outputs are never stored or reused for training'). Archivkopien web.archive.org/web/20261004223414 (Supplemental Terms), 20261004223442 (DPA), 20261004223610 (Quick Guide)"
     },
     "zero_data_retention": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://docs.nebius.com/legal/dpa",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Nur als Schalter, nicht als Standard. DPA (Fassung 15.09.2026), Anhang 3 wörtlich: When Zero Data Retention is enabled, Nebius Token Factory does not retain supported chat-completion request and response content after each request is processed, as described in the Documentation. Unless Zero Data Retention is enabled, inputs and outputs may be retained and used solely for the documented speculative-decoding purpose and not for model training or improvement. Ohne den Schalter werden Ein- und Ausgaben also gespeichert, laut Legal Quick Guide in Finnland, unabhängig vom Ort der Verarbeitung; eine Frist nennt keines der Dokumente. Einschränkungen laut DPA: gilt für unterstützte Chat-Completion-Inhalte, auf Ebene der Organisation; request metadata and observability data are retained and are not covered by Zero Data Retention; Löschungen entfernen Daten aus dem aktiven Speicher, nicht einzeln aus Sicherungskopien. Einschalten laut Quick Guide im Kontoprofil, laut Supplemental Terms Ziffer 5.4 über das Onboarding-Formular oder den Support. Die Produktseite wirbt nicht mehr damit (bis 19.08.2026: 'Zero-retention mode'). Archivkopien web.archive.org/web/20261004223442 (DPA), 20261004223610 (Quick Guide), 20261004223414 (Supplemental Terms)"
     },
     "zweckbindung": {
       "wert": false,
       "status": "belegt",
       "quelle": "https://docs.nebius.com/legal/token-factory",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Token Factory Supplemental Terms (Fassung 15.09.2026), Ziffer 5.1: Nebius may 'access, use, host, cache, store, copy, modify, and otherwise process Input and Output to (a) provide, maintain, monitor, protect, and support the Services, Token Factory Service or (b) train smaller Models used for Speculative Decoding'; 'Nebius may collect usage data and technical logs [...] for security, support, and billing'. Ziffer 5.3: 'remove, screen, or delete any Inputs or Outputs at any time, for any reason'. Der DPA (Anhang 3) begrenzt die Aufbewahrung ohne Zero Data Retention auf 'the documented speculative-decoding purpose and not for model training or improvement'. Über die reine Erbringung hinaus also: Überwachung und Schutz des Dienstes, Speculative Decoding (laut Supplemental Terms Training kleiner Entwurfsmodelle)."
     },
     "betroffenenrechte_traeger": {
       "wert": "auftraggeber",
       "status": "belegt",
       "quelle": "https://docs.nebius.com/legal/dpa",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "DPA (Fassung 15.09.2026), Ziffer 3.1: 'Customer is responsible for responding to and complying with requests from data subjects [...]. If Nebius receives a DSR directly [...] Nebius will promptly forward the DSR to Customer. Unless legally required to respond, Nebius will not respond to the data subject except to acknowledge receipt and refer the individual to Customer' – Nebius leistet 'reasonable assistance'."
     },
     "log_frist": {
       "wert": null,
       "status": "unbelegt",
       "quelle": "https://docs.nebius.com/legal/dpa",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Keine Frist genannt. DPA (Fassung 15.09.2026), Anhang 3: 'request metadata and observability data are retained and are not covered by Zero Data Retention'; ohne Zero Data Retention werden auch Ein- und Ausgaben gespeichert (Legal Quick Guide 4.2), ebenfalls ohne Frist. Der DPA nennt nur allgemein 'Nebius retains Customer Personal Data only for as long as necessary to provide the applicable Services or meet applicable legal obligations'. Für die kundenseitigen Observability-Daten (Metriken der Dedicated Endpoints) gilt laut Doku: 'Observability data is tied to the project lifecycle. When a project is deleted associated observability data is automatically removed.' Supplemental Terms, Datenschutzerklärung (docs.nebius.com/legal/privacy) und Quick Guide nennen keine Frist für Protokolle."
     },
     "log_zweck": {
       "wert": "Sicherheit, Support und Abrechnung; Funktionsfähigkeit, Sicherheit und Integrität des Dienstes",
       "status": "belegt",
       "quelle": "https://docs.nebius.com/legal/token-factory",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Token Factory Supplemental Terms (Fassung 15.09.2026), Ziffer 5.1: 'Nebius may collect usage data and technical logs relating to Customer's use of the Token Factory Service for security, support, and billing.' Ziffer 5.2: technische Metadaten 'may include log data and IP addresses. This processing may be reasonably necessary to ensure the proper functioning, security, and integrity of the Token Factory Service or the Platform.'"
     }
   },
@@ -203,7 +203,7 @@
       "typ": "SOC 2 Type II",
       "status": "belegt",
       "quelle": "https://nebius.com/trust-center",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Inkl. HIPAA-Mapping; zudem SOC 3",
       "anwendungsbereich": {
         "wert": "Nebius AI Cloud, AI Studio (heute Token Factory) und Tracto AI",
@@ -234,7 +234,7 @@
       "typ": "ISO 27701",
       "status": "belegt",
       "quelle": "https://nebius.com/trust-center",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Zusätzlich ISO 27018, 27799, 22301, 27032 gelistet",
       "anwendungsbereich": {
         "wert": "Nebius B.V. (Schiphol, Niederlande), weitere Standorte: Tel Aviv (Yitzhak Sadeh 8); Geltungsbereich laut Zertifikat 'Nebius is a global AI cloud company delivering infrastructure and services to accelerate the full AI pipeline from foundational model builders to enterprise solutions'",
@@ -296,7 +296,7 @@
       "typ": "ISO 27018",
       "status": "belegt",
       "quelle": "https://nebius.com/trust-center",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "Trust Center (03.10.2026) listet 'ISO 27018'. Bisher nur in der Anmerkung zu ISO 27701 geführt.",
       "anwendungsbereich": {
         "wert": "Nebius B.V. (Schiphol, Niederlande), weitere Standorte: Tel Aviv (Yitzhak Sadeh 8); Geltungsbereich laut Zertifikat 'Nebius is a global AI cloud company delivering infrastructure and services to accelerate the full AI pipeline from foundational model builders to enterprise solutions'",
@@ -327,7 +327,7 @@
       "typ": "ISO/IEC 42001",
       "status": "belegt",
       "quelle": "https://nebius.com/trust-center/iso-42001",
-      "geprueft": "2026-10-08",
+      "geprueft": "2026-10-09",
       "anmerkung": "KI-Managementsystem. Trust Center (04.10.2026): 'Nebius is certified for compliance with ISO/IEC 42001'. Zertifikat als PDF verlinkt: ISO/IEC 42001:2023 für Nebius B.V. (Schiphol, weiterer Standort Tel Aviv), Zert.-Nr. 1128184, gültig 26.08.2026 bis 26.08.2029, Zertifizierer SII-QCD (Standards Institution of Israel). Gültigkeit beim Zertifizierer nicht gegengeprüft.",
       "anwendungsbereich": {
         "wert": "Nebius B.V. (Schiphol, Niederlande), weitere Standorte: Tel Aviv (Igal Alon 94); Geltungsbereich laut Zertifikat 'Nebius is a global AI cloud company delivering infrastructure and services to accelerate the full AI pipeline from foundational model builders to enterprise solutions'",
