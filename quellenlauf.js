@@ -66,24 +66,6 @@ function liesLedger() {
   try { return JSON.parse(fs.readFileSync(LEDGER_DATEI, "utf8")); } catch { return {}; }
 }
 
-/** Ledger fortschreiben: neu/unverändert → Referenz; verändert → nur neu_hash merken. */
-function neuerLedger(alt, o, uebernehmen) {
-  const l = { ...alt };
-  for (const e of o.neu) l[e.url] = { hash: e.hash, gesehen: DATUM, geaendert: DATUM };
-  for (const e of o.unveraendert) l[e.url] = e.nurErreichbar ? { nur_erreichbar: true, gesehen: DATUM } : { ...l[e.url], gesehen: DATUM, neu_hash: undefined };
-  // Von Hand gesetztes nur_erreichbar (mit grund) bleibt erhalten; der Hash wird trotzdem mitgeführt.
-  for (const e of o.veraendert) {
-    l[e.url] = uebernehmen
-      ? { hash: e.hash, gesehen: DATUM, geaendert: DATUM }
-      : { ...l[e.url], gesehen: DATUM, neu_hash: e.hash, veraendert_seit: l[e.url].veraendert_seit || DATUM };
-  }
-  for (const e of o.uebernommen || []) l[e.url] = { hash: e.hash, gesehen: DATUM, geaendert: DATUM };
-  for (const e of o.verschwunden) l[e.url] = { ...l[e.url], gesehen: DATUM, verschwunden: e.befund };
-  const sortiert = {};
-  for (const k of Object.keys(l).sort()) sortiert[k] = JSON.parse(JSON.stringify(l[k]));
-  return sortiert;
-}
-
 /** Anbieter-Dateien: Prüfdatum fortschreiben. Gibt die geänderten Dateinamen zurück. */
 function schreibeGeprueft(plan, trocken) {
   const geaendert = [];
@@ -139,7 +121,7 @@ const zeile = (e) => "  " + e.anbieter + " " + e.feld + (e.felder.length > 1 ? "
   const dateien = schreibeGeprueft(plan, trocken);
   if (dateien.length) console.log("\nPrüfdatum " + DATUM + (trocken ? " würde fortgeschrieben" : " fortgeschrieben") + " in " + dateien.length + " Anbieter-Dateien:\n  " + dateien.join("\n  "));
 
-  if (!trocken) fs.writeFileSync(LEDGER_DATEI, JSON.stringify(neuerLedger(alt, o, uebernehmen), null, 2) + "\n");
+  if (!trocken) fs.writeFileSync(LEDGER_DATEI, JSON.stringify(Q.fuehreLedger(alt, o, uebernehmen, DATUM), null, 2) + "\n");
   if (!trocken) { const n = schreibeWoerter(o, uebernehmen); if (n) console.log("\nWortstand geschrieben für " + n + " Quellen: data/quellen-woerter/"); }
   console.log("\n" + (trocken ? "Trockenlauf, nichts geschrieben." : "Ledger geschrieben: data/quellen-hashes.json.") + (dateien.length && !trocken ? " Jetzt: node build.js, dann committen." : ""));
   if (o.veraendert.length || o.verschwunden.length) process.exit(1);

@@ -208,6 +208,16 @@
   "url": "https://belegbar.eu/anbieter/aleph-alpha/",
   "beleg_quote_prozent": 60,
   "zuletzt_geprueft": "2026-10-09",
+  "quellenlauf": {
+    "zuletzt": "2026-10-09",
+    "quellen": 9,
+    "nachgelesen": 8,
+    "unveraendert": 2,
+    "veraendert_gelesen": 3,
+    "offen": 3,
+    "verschwunden": 0,
+    "statuswechsel_30_tage": 8
+  },
   "rechtsraum": {
     "land": "DE",
     "name": "Deutschland",

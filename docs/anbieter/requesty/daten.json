@@ -229,6 +229,16 @@
   "url": "https://belegbar.eu/anbieter/requesty/",
   "beleg_quote_prozent": 20,
   "zuletzt_geprueft": "2026-10-09",
+  "quellenlauf": {
+    "zuletzt": "2026-10-09",
+    "quellen": 7,
+    "nachgelesen": 7,
+    "unveraendert": 2,
+    "veraendert_gelesen": 5,
+    "offen": 0,
+    "verschwunden": 0,
+    "statuswechsel_30_tage": 0
+  },
   "rechtsraum": {
     "land": "GB",
     "name": "Vereinigtes Königreich",

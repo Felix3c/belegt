@@ -237,3 +237,6 @@ th.num { text-align: right; }
 .zitat .klein { display: block; margin-top: 0.4rem; }
 table.pruefpunkte th[scope="row"] { width: 32%; text-align: left; font-weight: 600; vertical-align: top; }
 table.pruefpunkte td { vertical-align: top; }
+.quellenlauf { margin-top: 32px; padding: 12px 16px; border: 1px solid var(--linie); font-size: 14px; color: var(--tinte-soft); }
+.quellenlauf p { margin: .2rem 0; }
+.lauf-offen { font-weight: 600; }

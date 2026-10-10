@@ -100,6 +100,17 @@
 <p><strong>Ein Beispiel vom 24. August 2026:</strong> Der öffentliche Auftragsverarbeitungsvertrag von STACKIT war bis dahin als PDF verlinkt und der AVV entsprechend als „belegt“ geführt. Beim Quellen-Check leitete die gesamte alte Domain auf die neue Startseite um; das Dokument war öffentlich nicht mehr auffindbar. Wir haben die Angabe auf „unbelegt“ zurückgesetzt und die verlorene URL in der Anmerkung dokumentiert. Das heißt ausdrücklich nicht, dass STACKIT keinen AVV hätte — es heißt, dass er sich nicht mehr öffentlich nachweisen lässt. Genau diesen Unterschied festzuhalten, ist der Zweck dieser Datenbank. Solche Wechsel stehen seitdem im <a href="../aenderungen/">Änderungsprotokoll</a>, das aus der öffentlichen Git-Historie berechnet wird.</p>
 <p>Am selben Tag ging es auch in die andere Richtung: DeepLs BSI-C5-Angabe stand als „beansprucht“, weil zum Erfassungszeitpunkt nur eine Selbstverpflichtung auffindbar war. Die Prüfung förderte Blogbeitrag und Pressemitteilung zum tatsächlich erteilten C5-Typ-2-Testat zutage — die Angabe steht seitdem auf „belegt“, mit eigenem Prüfdatum.</p>
 
+<h2 id="quellenlauf">Quellenlauf: was jedes Profil zeigt</h2>
+<p>Mindestens einmal im Monat ruft ein Skript jede Quellen-URL ab und vergleicht den sichtbaren Text mit dem Stand, den wir zuletzt gelesen haben (Hash über den Text; Skripte, Stile und die Zeitstempel neu erzeugter PDFs zählen nicht). Jedes Profil zeigt das Ergebnis im Kasten „Quellenlauf“ über dem Fuß:</p>
+<ul>
+<li><strong>nachgelesen</strong>: wie viele der belegenden Quellen der Lauf inhaltlich verglichen hat. Startseiten zählen nicht, sie belegen nichts. Eine Quelle, die erst nach dem letzten Lauf eingetragen wurde, fehlt bis zum nächsten.</li>
+<li><strong>unverändert</strong>: Text gleich wie beim letzten Lesen.</li>
+<li><strong>verändert und von Hand gelesen</strong>: Der Text hat sich bewegt, ein Mensch hat die Quelle gelesen und das Profil mit ihr abgeglichen. Änderte sich dabei eine Aussage, steht der Wechsel im <a href="https://belegbar.eu/aenderungen/">Änderungsprotokoll</a>; meist sind es Menüpunkte oder Zähler.</li>
+<li><strong>offen</strong>: verändert und noch nicht von Hand gelesen. Diese Zahl steht absichtlich öffentlich da: Sie zeigt, dass wir nachlesen, auch wenn nichts passiert, und sie zwingt uns, Änderungen zügig zu lesen.</li>
+<li><strong>verschwunden</strong>: beim letzten Lauf nicht mehr erreichbar.</li>
+</ul>
+<p>An jeder Quelle steht zusätzlich, seit wann ihr Text unverändert ist, oder dass er sich verändert hat und noch nicht gelesen wurde. Dieselben Zahlen stehen in den Rohdaten jedes Profils im Feld <code>quellenlauf</code>.</p>
+
 <h2>Prüfdatum je Angabe</h2>
 <p>Jedes Profil trägt ein Datum der letzten vollständigen Prüfung. Wird eine einzelne Angabe zwischendurch nachgeprüft, bekommt sie zusätzlich ihr eigenes Prüfdatum — sichtbar an der Quelle und in den Rohdaten. So behauptet ein Profil nie, alle seine Angaben seien gleichzeitig geprüft worden.</p>
 

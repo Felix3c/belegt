@@ -333,6 +333,16 @@
   "url": "https://belegbar.eu/anbieter/ionos/",
   "beleg_quote_prozent": 80,
   "zuletzt_geprueft": "2026-10-09",
+  "quellenlauf": {
+    "zuletzt": "2026-10-09",
+    "quellen": 10,
+    "nachgelesen": 10,
+    "unveraendert": 5,
+    "veraendert_gelesen": 5,
+    "offen": 0,
+    "verschwunden": 0,
+    "statuswechsel_30_tage": 2
+  },
   "rechtsraum": {
     "land": "DE",
     "name": "Deutschland",

@@ -376,6 +376,16 @@
   "url": "https://belegbar.eu/anbieter/nebius/",
   "beleg_quote_prozent": 67,
   "zuletzt_geprueft": "2026-10-09",
+  "quellenlauf": {
+    "zuletzt": "2026-10-09",
+    "quellen": 14,
+    "nachgelesen": 14,
+    "unveraendert": 11,
+    "veraendert_gelesen": 3,
+    "offen": 0,
+    "verschwunden": 0,
+    "statuswechsel_30_tage": 14
+  },
   "rechtsraum": {
     "land": "NL",
     "name": "Niederlande",

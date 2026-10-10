@@ -267,6 +267,16 @@
   "url": "https://belegbar.eu/anbieter/nordference/",
   "beleg_quote_prozent": 50,
   "zuletzt_geprueft": "2026-10-09",
+  "quellenlauf": {
+    "zuletzt": "2026-10-09",
+    "quellen": 6,
+    "nachgelesen": 6,
+    "unveraendert": 6,
+    "veraendert_gelesen": 0,
+    "offen": 0,
+    "verschwunden": 0,
+    "statuswechsel_30_tage": 3
+  },
   "rechtsraum": {
     "land": "EE",
     "name": "Estland",

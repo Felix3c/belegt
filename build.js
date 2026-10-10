@@ -15,6 +15,8 @@ const E = require("./lib/eintritt.js");
 const PP = require("./lib/pruefpunkte.js");
 const ISO42001 = require("./lib/iso42001.js");
 const EO = require("./lib/einordnung.js");
+const Q = require("./lib/quellen.js");
+const QS = require("./lib/quellenstand.js");
 const eur = P.eur;
 
 const ROOT = __dirname;
@@ -54,6 +56,11 @@ const BUILD_DATUM = process.env.BUILD_DATUM || new Date().toISOString().slice(0,
 
 /** Ledger: Inhalts-Hash je URL. Das lastmod einer Seite wandert nur, wenn ihr HTML wandert. */
 const LEDGER_DATEI = path.join(ROOT, "data", "lastmod.json");
+
+/** Quellenlauf (quellenlauf.js): Inhalts-Hash je Quellen-URL. Speist den Kasten „Quellenlauf“ je Profil,
+ *  „unverändert seit“ an jeder Quelle und das Feld quellenlauf in daten.json (V4, Frage 220 a). */
+const QUELLEN_LEDGER = fs.existsSync(path.join(ROOT, "data", "quellen-hashes.json")) ? JSON.parse(fs.readFileSync(path.join(ROOT, "data", "quellen-hashes.json"), "utf8")) : {};
+const QUELLEN_URLS = Q.sammleUrls();
 
 /** Kanonische Zertifikats-Schlüssel. Der Originaltext des Anbieters bleibt überall sichtbar —
  *  normalisiert wird ausschließlich für Filter, Facettenseiten und die Rohdaten-Auswertung.
@@ -199,6 +206,8 @@ function quelleLink(quelle, geprueft) {
   const parts = [];
   if (quelle) parts.push(`<a href="${esc(quelle)}" rel="noopener nofollow" target="_blank">Quelle</a>`);
   if (geprueft) parts.push(`geprüft ${datumDE(geprueft)}`);
+  const h = quelle ? QS.hinweis(QUELLEN_LEDGER[quelle]) : null;
+  if (h) parts.push(h.art === "unveraendert" ? `unverändert seit ${datumDE(h.datum)}` : h.art === "offen" ? `<span class="lauf-offen">verändert seit ${datumDE(h.datum)}, noch nicht gelesen</span>` : `<span class="lauf-offen">beim Quellenlauf ${datumDE(h.datum)} nicht erreichbar</span>`);
   return parts.length ? `<span class="quelle">${parts.join(" · ")}</span>` : "";
 }
 
@@ -514,7 +523,24 @@ function seiteIndex(providers, stand, aenderungen) {
   });
 }
 
-function seiteAnbieter(p, alleProvider, facetten, faelle) {
+/** Kasten „Quellenlauf“ über dem Profilfuß: was die Maschine nachgelesen hat, auch wenn nichts passiert ist. */
+function quellenlaufDaten(p, aenderungen) {
+  return { ...QS.zaehle(p.id, QUELLEN_URLS, QUELLEN_LEDGER), statuswechsel_30_tage: QS.statuswechsel30(p.id, aenderungen, BUILD_DATUM) };
+}
+
+function quellenlaufKasten(z) {
+  if (!z.quellen) return "";
+  const nachgelesen = z.nachgelesen
+    ? `zuletzt am ${datumDE(z.zuletzt)} · ${z.nachgelesen} von ${z.quellen} ${z.quellen === 1 ? "Quelle" : "Quellen"} maschinell nachgelesen`
+    : `noch keine der ${z.quellen} Quellen maschinell nachgelesen`;
+  return `<section class="quellenlauf" id="quellenlauf">
+    <p><strong>Quellenlauf</strong> · ${nachgelesen}</p>
+    <p>${z.unveraendert} unverändert · ${z.veraendert_gelesen} verändert und von Hand gelesen · <span${z.offen ? ' class="lauf-offen"' : ""}>${z.offen} offen (verändert, noch nicht gelesen)</span> · ${z.verschwunden} verschwunden</p>
+    <p>Status- oder Quellenwechsel in den letzten 30 Tagen: ${z.statuswechsel_30_tage} → <a href="../../aenderungen/">Änderungsprotokoll</a> · <a href="../../methodik/#quellenlauf">So arbeitet der Quellenlauf</a></p>
+  </section>`;
+}
+
+function seiteAnbieter(p, alleProvider, facetten, faelle, aenderungen) {
   const eigeneFaelle = (faelle || []).filter((f) => f.anbieter === p.id);
   const s = p.stammdaten;
   const li = landInfo(s.land);
@@ -609,6 +635,8 @@ ${eigeneFaelle.map((f) => `  <aside class="fall-hinweis fall-${esc(f.status)}"><
   ${partner.length ? `<h2>Direktvergleiche</h2>
   <p class="klein">${esc(p.name)} Feld für Feld gegen andere Anbieter derselben Kategorie:</p>
   <p>${partner.map(vergleichLink).join(" · ")}</p>` : ""}
+
+  ${quellenlaufKasten(quellenlaufDaten(p, aenderungen))}
 
   <footer class="dossier-fuss">
     <p>Vollständig geprüft am ${datumDE(p.geprueft)}${juengstesDatum(p) !== p.geprueft ? `, einzelne Angaben zuletzt am ${datumDE(juengstesDatum(p))} nachgeprüft` : ""}. Alle Angaben ohne Gewähr, keine Rechtsberatung.</p>
@@ -1007,6 +1035,17 @@ ${belegZeile("unbelegt", "Wir haben keine belastbare Angabe gefunden. Auch das i
 <p>Deshalb prüfen wir regelmäßig jede hinterlegte Quellen-URL — und zwar nicht nur auf den Statuscode. Eine gelöschte Dokumentseite antwortet häufig mit „200 OK“, weil der Server auf die Startseite weiterleitet. Wir bewerten deshalb das Ziel der Weiterleitung mit: Landet ein tief verlinktes Dokument auf einer Startseite, gilt der Beleg als verloren.</p>
 <p><strong>Ein Beispiel vom 24. August 2026:</strong> Der öffentliche Auftragsverarbeitungsvertrag von STACKIT war bis dahin als PDF verlinkt und der AVV entsprechend als „belegt“ geführt. Beim Quellen-Check leitete die gesamte alte Domain auf die neue Startseite um; das Dokument war öffentlich nicht mehr auffindbar. Wir haben die Angabe auf „unbelegt“ zurückgesetzt und die verlorene URL in der Anmerkung dokumentiert. Das heißt ausdrücklich nicht, dass STACKIT keinen AVV hätte — es heißt, dass er sich nicht mehr öffentlich nachweisen lässt. Genau diesen Unterschied festzuhalten, ist der Zweck dieser Datenbank. Solche Wechsel stehen seitdem im <a href="../aenderungen/">Änderungsprotokoll</a>, das aus der öffentlichen Git-Historie berechnet wird.</p>
 <p>Am selben Tag ging es auch in die andere Richtung: DeepLs BSI-C5-Angabe stand als „beansprucht“, weil zum Erfassungszeitpunkt nur eine Selbstverpflichtung auffindbar war. Die Prüfung förderte Blogbeitrag und Pressemitteilung zum tatsächlich erteilten C5-Typ-2-Testat zutage — die Angabe steht seitdem auf „belegt“, mit eigenem Prüfdatum.</p>
+
+<h2 id="quellenlauf">Quellenlauf: was jedes Profil zeigt</h2>
+<p>Mindestens einmal im Monat ruft ein Skript jede Quellen-URL ab und vergleicht den sichtbaren Text mit dem Stand, den wir zuletzt gelesen haben (Hash über den Text; Skripte, Stile und die Zeitstempel neu erzeugter PDFs zählen nicht). Jedes Profil zeigt das Ergebnis im Kasten „Quellenlauf“ über dem Fuß:</p>
+<ul>
+<li><strong>nachgelesen</strong>: wie viele der belegenden Quellen der Lauf inhaltlich verglichen hat. Startseiten zählen nicht, sie belegen nichts. Eine Quelle, die erst nach dem letzten Lauf eingetragen wurde, fehlt bis zum nächsten.</li>
+<li><strong>unverändert</strong>: Text gleich wie beim letzten Lesen.</li>
+<li><strong>verändert und von Hand gelesen</strong>: Der Text hat sich bewegt, ein Mensch hat die Quelle gelesen und das Profil mit ihr abgeglichen. Änderte sich dabei eine Aussage, steht der Wechsel im <a href="${SITE.baseUrl}/aenderungen/">Änderungsprotokoll</a>; meist sind es Menüpunkte oder Zähler.</li>
+<li><strong>offen</strong>: verändert und noch nicht von Hand gelesen. Diese Zahl steht absichtlich öffentlich da: Sie zeigt, dass wir nachlesen, auch wenn nichts passiert, und sie zwingt uns, Änderungen zügig zu lesen.</li>
+<li><strong>verschwunden</strong>: beim letzten Lauf nicht mehr erreichbar.</li>
+</ul>
+<p>An jeder Quelle steht zusätzlich, seit wann ihr Text unverändert ist, oder dass er sich verändert hat und noch nicht gelesen wurde. Dieselben Zahlen stehen in den Rohdaten jedes Profils im Feld <code>quellenlauf</code>.</p>
 
 <h2>Prüfdatum je Angabe</h2>
 <p>Jedes Profil trägt ein Datum der letzten vollständigen Prüfung. Wird eine einzelne Angabe zwischendurch nachgeprüft, bekommt sie zusätzlich ihr eigenes Prüfdatum — sichtbar an der Quelle und in den Rohdaten. So behauptet ein Profil nie, alle seine Angaben seien gleichzeitig geprüft worden.</p>
@@ -1701,7 +1740,7 @@ function main() {
 
   // Seiten
   schreibe("index.html", seiteIndex(providers, stand, aenderungen));
-  providers.forEach((p) => schreibe(`anbieter/${p.id}/index.html`, seiteAnbieter(p, providers, facettenSet, faelle)));
+  providers.forEach((p) => schreibe(`anbieter/${p.id}/index.html`, seiteAnbieter(p, providers, facettenSet, faelle, aenderungen)));
 
   const paare = [];
   for (let i = 0; i < providers.length; i++)
@@ -1745,6 +1784,7 @@ function main() {
       url: `${SITE.baseUrl}/anbieter/${p.id}/`,
       beleg_quote_prozent: Math.round(belegQuote(p) * 100),
       zuletzt_geprueft: juengstesDatum(p),
+      quellenlauf: quellenlaufDaten(p, aenderungen),
       rechtsraum: {
         land: p.stammdaten.land,
         name: li.name,

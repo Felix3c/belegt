@@ -1,7 +1,7 @@
 {
   "": {
-    "hash": "efe1a394a70b03ae",
-    "datum": "2026-10-09"
+    "hash": "83c0b511422a87c0",
+    "datum": "2026-10-10"
   },
   "404.html": {
     "hash": "826986f530da7952",
@@ -12,88 +12,88 @@
     "datum": "2026-10-10"
   },
   "anbieter/aleph-alpha/": {
-    "hash": "4a62666c2001909a",
-    "datum": "2026-10-09"
+    "hash": "6e739e23507588af",
+    "datum": "2026-10-10"
   },
   "anbieter/black-forest-labs/": {
-    "hash": "57dc5827ae7371d1",
-    "datum": "2026-10-09"
+    "hash": "f0643ab9e44f6828",
+    "datum": "2026-10-10"
   },
   "anbieter/deepl/": {
-    "hash": "e1f7f3991501ded2",
-    "datum": "2026-10-09"
+    "hash": "4cb366af97eb65e8",
+    "datum": "2026-10-10"
   },
   "anbieter/eurouter/": {
-    "hash": "8b4c11e2070eb61e",
-    "datum": "2026-10-09"
+    "hash": "2b62709e60ace12d",
+    "datum": "2026-10-10"
   },
   "anbieter/exoscale/": {
-    "hash": "ef59162e64f6ab3b",
-    "datum": "2026-10-09"
+    "hash": "1592b01f74f7e0d3",
+    "datum": "2026-10-10"
   },
   "anbieter/gcore/": {
-    "hash": "969d6ad9a592d8ac",
-    "datum": "2026-10-09"
+    "hash": "f08338856a4a2dba",
+    "datum": "2026-10-10"
   },
   "anbieter/greenpt/": {
-    "hash": "d0ecfa4c8eb127a8",
-    "datum": "2026-10-09"
+    "hash": "34549c5e981e0314",
+    "datum": "2026-10-10"
   },
   "anbieter/hetzner/": {
-    "hash": "8d82b0f36b7fcc9f",
-    "datum": "2026-10-09"
+    "hash": "d4b890bf40623b67",
+    "datum": "2026-10-10"
   },
   "anbieter/infomaniak/": {
-    "hash": "f59706f5764e9249",
-    "datum": "2026-10-09"
+    "hash": "f33c6ac17206ef88",
+    "datum": "2026-10-10"
   },
   "anbieter/ionos/": {
-    "hash": "23295fbec3ddb689",
-    "datum": "2026-10-09"
+    "hash": "370e0abd1bc99446",
+    "datum": "2026-10-10"
   },
   "anbieter/lyceum/": {
-    "hash": "4af399dc87c60509",
-    "datum": "2026-10-09"
+    "hash": "5273c3803edcc772",
+    "datum": "2026-10-10"
   },
   "anbieter/mistral/": {
-    "hash": "e26df3a67b19cd77",
-    "datum": "2026-10-09"
+    "hash": "7b07c4910702b2f4",
+    "datum": "2026-10-10"
   },
   "anbieter/nebius/": {
-    "hash": "bcec1cf8e3e8142d",
-    "datum": "2026-10-09"
+    "hash": "ac503191221274eb",
+    "datum": "2026-10-10"
   },
   "anbieter/nordference/": {
-    "hash": "9c05792713a2f7eb",
-    "datum": "2026-10-09"
+    "hash": "fc8d02ebfc721064",
+    "datum": "2026-10-10"
   },
   "anbieter/opper-ai/": {
-    "hash": "f25a48b6d6dd1082",
-    "datum": "2026-10-09"
+    "hash": "d6e74796ef54d2fd",
+    "datum": "2026-10-10"
   },
   "anbieter/ovhcloud/": {
-    "hash": "2a5eada626e66d5a",
-    "datum": "2026-10-09"
+    "hash": "d5a4cbd4b78da3ae",
+    "datum": "2026-10-10"
   },
   "anbieter/regolo/": {
-    "hash": "aadb8bd36d8dfe10",
-    "datum": "2026-10-09"
+    "hash": "3ffc58a295b81bc1",
+    "datum": "2026-10-10"
   },
   "anbieter/requesty/": {
-    "hash": "b315fb03a5046bc7",
-    "datum": "2026-10-09"
+    "hash": "0a8623bd3b9b7e12",
+    "datum": "2026-10-10"
   },
   "anbieter/scaleway/": {
-    "hash": "0e9b004c4abe760c",
-    "datum": "2026-10-09"
+    "hash": "87a899adff8da586",
+    "datum": "2026-10-10"
   },
   "anbieter/stackit/": {
-    "hash": "4d87cac95f228e60",
-    "datum": "2026-10-09"
+    "hash": "20405ea3c3687e44",
+    "datum": "2026-10-10"
   },
   "anbieter/t-systems/": {
-    "hash": "85e0f6896fc49ce8",
-    "datum": "2026-10-09"
+    "hash": "34d937bab7b864bd",
+    "datum": "2026-10-10"
   },
   "datenschutz/": {
     "hash": "635a725dcb2f1dec",
@@ -152,8 +152,8 @@
     "datum": "2026-09-16"
   },
   "methodik/": {
-    "hash": "347c28eb6a3dfc0a",
-    "datum": "2026-10-06"
+    "hash": "d8ddbdfe95fdddeb",
+    "datum": "2026-10-10"
   },
   "ratgeber/": {
     "hash": "6b070ad813ee0fec",

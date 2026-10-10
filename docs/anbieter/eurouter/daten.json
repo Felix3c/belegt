@@ -277,6 +277,16 @@
   "url": "https://belegbar.eu/anbieter/eurouter/",
   "beleg_quote_prozent": 75,
   "zuletzt_geprueft": "2026-10-09",
+  "quellenlauf": {
+    "zuletzt": "2026-10-09",
+    "quellen": 4,
+    "nachgelesen": 4,
+    "unveraendert": 1,
+    "veraendert_gelesen": 2,
+    "offen": 1,
+    "verschwunden": 0,
+    "statuswechsel_30_tage": 2
+  },
   "rechtsraum": {
     "land": "NL",
     "name": "Niederlande",

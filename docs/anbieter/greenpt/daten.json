@@ -367,6 +367,16 @@
   "url": "https://belegbar.eu/anbieter/greenpt/",
   "beleg_quote_prozent": 75,
   "zuletzt_geprueft": "2026-10-09",
+  "quellenlauf": {
+    "zuletzt": "2026-10-09",
+    "quellen": 7,
+    "nachgelesen": 7,
+    "unveraendert": 3,
+    "veraendert_gelesen": 4,
+    "offen": 0,
+    "verschwunden": 0,
+    "statuswechsel_30_tage": 3
+  },
   "rechtsraum": {
     "land": "NL",
     "name": "Niederlande",

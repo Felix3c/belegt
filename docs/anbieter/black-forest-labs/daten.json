@@ -303,6 +303,16 @@
   "url": "https://belegbar.eu/anbieter/black-forest-labs/",
   "beleg_quote_prozent": 77,
   "zuletzt_geprueft": "2026-10-09",
+  "quellenlauf": {
+    "zuletzt": "2026-10-09",
+    "quellen": 11,
+    "nachgelesen": 11,
+    "unveraendert": 7,
+    "veraendert_gelesen": 4,
+    "offen": 0,
+    "verschwunden": 0,
+    "statuswechsel_30_tage": 2
+  },
   "rechtsraum": {
     "land": "DE",
     "name": "Deutschland",

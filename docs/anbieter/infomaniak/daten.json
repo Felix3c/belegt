@@ -449,6 +449,16 @@
   "url": "https://belegbar.eu/anbieter/infomaniak/",
   "beleg_quote_prozent": 79,
   "zuletzt_geprueft": "2026-10-09",
+  "quellenlauf": {
+    "zuletzt": "2026-10-09",
+    "quellen": 8,
+    "nachgelesen": 8,
+    "unveraendert": 6,
+    "veraendert_gelesen": 2,
+    "offen": 0,
+    "verschwunden": 0,
+    "statuswechsel_30_tage": 5
+  },
   "rechtsraum": {
     "land": "CH",
     "name": "Schweiz",

@@ -277,6 +277,16 @@
   "url": "https://belegbar.eu/anbieter/opper-ai/",
   "beleg_quote_prozent": 67,
   "zuletzt_geprueft": "2026-10-09",
+  "quellenlauf": {
+    "zuletzt": "2026-10-09",
+    "quellen": 5,
+    "nachgelesen": 5,
+    "unveraendert": 1,
+    "veraendert_gelesen": 2,
+    "offen": 2,
+    "verschwunden": 0,
+    "statuswechsel_30_tage": 2
+  },
   "rechtsraum": {
     "land": "SE",
     "name": "Schweden",

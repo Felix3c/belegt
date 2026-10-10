@@ -220,6 +220,16 @@
       "url": "https://belegbar.eu/anbieter/aleph-alpha/",
       "beleg_quote_prozent": 60,
       "zuletzt_geprueft": "2026-10-09",
+      "quellenlauf": {
+        "zuletzt": "2026-10-09",
+        "quellen": 9,
+        "nachgelesen": 8,
+        "unveraendert": 2,
+        "veraendert_gelesen": 3,
+        "offen": 3,
+        "verschwunden": 0,
+        "statuswechsel_30_tage": 8
+      },
       "rechtsraum": {
         "land": "DE",
         "name": "Deutschland",
@@ -535,6 +545,16 @@
       "url": "https://belegbar.eu/anbieter/black-forest-labs/",
       "beleg_quote_prozent": 77,
       "zuletzt_geprueft": "2026-10-09",
+      "quellenlauf": {
+        "zuletzt": "2026-10-09",
+        "quellen": 11,
+        "nachgelesen": 11,
+        "unveraendert": 7,
+        "veraendert_gelesen": 4,
+        "offen": 0,
+        "verschwunden": 0,
+        "statuswechsel_30_tage": 2
+      },
       "rechtsraum": {
         "land": "DE",
         "name": "Deutschland",
@@ -904,6 +924,16 @@
       "url": "https://belegbar.eu/anbieter/deepl/",
       "beleg_quote_prozent": 44,
       "zuletzt_geprueft": "2026-10-09",
+      "quellenlauf": {
+        "zuletzt": "2026-10-09",
+        "quellen": 10,
+        "nachgelesen": 10,
+        "unveraendert": 4,
+        "veraendert_gelesen": 6,
+        "offen": 0,
+        "verschwunden": 0,
+        "statuswechsel_30_tage": 4
+      },
       "rechtsraum": {
         "land": "DE",
         "name": "Deutschland",
@@ -1193,6 +1223,16 @@
       "url": "https://belegbar.eu/anbieter/eurouter/",
       "beleg_quote_prozent": 75,
       "zuletzt_geprueft": "2026-10-09",
+      "quellenlauf": {
+        "zuletzt": "2026-10-09",
+        "quellen": 4,
+        "nachgelesen": 4,
+        "unveraendert": 1,
+        "veraendert_gelesen": 2,
+        "offen": 1,
+        "verschwunden": 0,
+        "statuswechsel_30_tage": 2
+      },
       "rechtsraum": {
         "land": "NL",
         "name": "Niederlande",
@@ -1622,6 +1662,16 @@
       "url": "https://belegbar.eu/anbieter/exoscale/",
       "beleg_quote_prozent": 31,
       "zuletzt_geprueft": "2026-10-09",
+      "quellenlauf": {
+        "zuletzt": "2026-10-09",
+        "quellen": 9,
+        "nachgelesen": 8,
+        "unveraendert": 6,
+        "veraendert_gelesen": 2,
+        "offen": 0,
+        "verschwunden": 0,
+        "statuswechsel_30_tage": 17
+      },
       "rechtsraum": {
         "land": "CH",
         "name": "Schweiz",
@@ -1925,6 +1975,16 @@
       "url": "https://belegbar.eu/anbieter/gcore/",
       "beleg_quote_prozent": 54,
       "zuletzt_geprueft": "2026-10-09",
+      "quellenlauf": {
+        "zuletzt": "2026-10-09",
+        "quellen": 7,
+        "nachgelesen": 7,
+        "unveraendert": 3,
+        "veraendert_gelesen": 4,
+        "offen": 0,
+        "verschwunden": 0,
+        "statuswechsel_30_tage": 7
+      },
       "rechtsraum": {
         "land": "LU",
         "name": "Luxemburg",
@@ -2304,6 +2364,16 @@
       "url": "https://belegbar.eu/anbieter/greenpt/",
       "beleg_quote_prozent": 75,
       "zuletzt_geprueft": "2026-10-09",
+      "quellenlauf": {
+        "zuletzt": "2026-10-09",
+        "quellen": 7,
+        "nachgelesen": 7,
+        "unveraendert": 3,
+        "veraendert_gelesen": 4,
+        "offen": 0,
+        "verschwunden": 0,
+        "statuswechsel_30_tage": 3
+      },
       "rechtsraum": {
         "land": "NL",
         "name": "Niederlande",
@@ -2520,6 +2590,16 @@
       "url": "https://belegbar.eu/anbieter/hetzner/",
       "beleg_quote_prozent": 78,
       "zuletzt_geprueft": "2026-10-09",
+      "quellenlauf": {
+        "zuletzt": "2026-10-09",
+        "quellen": 7,
+        "nachgelesen": 7,
+        "unveraendert": 6,
+        "veraendert_gelesen": 1,
+        "offen": 0,
+        "verschwunden": 0,
+        "statuswechsel_30_tage": 8
+      },
       "rechtsraum": {
         "land": "DE",
         "name": "Deutschland",
@@ -2981,6 +3061,16 @@
       "url": "https://belegbar.eu/anbieter/infomaniak/",
       "beleg_quote_prozent": 79,
       "zuletzt_geprueft": "2026-10-09",
+      "quellenlauf": {
+        "zuletzt": "2026-10-09",
+        "quellen": 8,
+        "nachgelesen": 8,
+        "unveraendert": 6,
+        "veraendert_gelesen": 2,
+        "offen": 0,
+        "verschwunden": 0,
+        "statuswechsel_30_tage": 5
+      },
       "rechtsraum": {
         "land": "CH",
         "name": "Schweiz",
@@ -3326,6 +3416,16 @@
       "url": "https://belegbar.eu/anbieter/ionos/",
       "beleg_quote_prozent": 80,
       "zuletzt_geprueft": "2026-10-09",
+      "quellenlauf": {
+        "zuletzt": "2026-10-09",
+        "quellen": 10,
+        "nachgelesen": 10,
+        "unveraendert": 5,
+        "veraendert_gelesen": 5,
+        "offen": 0,
+        "verschwunden": 0,
+        "statuswechsel_30_tage": 2
+      },
       "rechtsraum": {
         "land": "DE",
         "name": "Deutschland",
@@ -3693,6 +3793,16 @@
       "url": "https://belegbar.eu/anbieter/lyceum/",
       "beleg_quote_prozent": 40,
       "zuletzt_geprueft": "2026-10-09",
+      "quellenlauf": {
+        "zuletzt": "2026-10-09",
+        "quellen": 4,
+        "nachgelesen": 4,
+        "unveraendert": 3,
+        "veraendert_gelesen": 1,
+        "offen": 0,
+        "verschwunden": 0,
+        "statuswechsel_30_tage": 15
+      },
       "rechtsraum": {
         "land": "DE",
         "name": "Deutschland",
@@ -4047,6 +4157,16 @@
       "url": "https://belegbar.eu/anbieter/mistral/",
       "beleg_quote_prozent": 93,
       "zuletzt_geprueft": "2026-10-09",
+      "quellenlauf": {
+        "zuletzt": "2026-10-09",
+        "quellen": 14,
+        "nachgelesen": 14,
+        "unveraendert": 8,
+        "veraendert_gelesen": 6,
+        "offen": 0,
+        "verschwunden": 0,
+        "statuswechsel_30_tage": 14
+      },
       "rechtsraum": {
         "land": "FR",
         "name": "Frankreich",
@@ -4435,6 +4555,16 @@
       "url": "https://belegbar.eu/anbieter/nebius/",
       "beleg_quote_prozent": 67,
       "zuletzt_geprueft": "2026-10-09",
+      "quellenlauf": {
+        "zuletzt": "2026-10-09",
+        "quellen": 14,
+        "nachgelesen": 14,
+        "unveraendert": 11,
+        "veraendert_gelesen": 3,
+        "offen": 0,
+        "verschwunden": 0,
+        "statuswechsel_30_tage": 14
+      },
       "rechtsraum": {
         "land": "NL",
         "name": "Niederlande",
@@ -4714,6 +4844,16 @@
       "url": "https://belegbar.eu/anbieter/nordference/",
       "beleg_quote_prozent": 50,
       "zuletzt_geprueft": "2026-10-09",
+      "quellenlauf": {
+        "zuletzt": "2026-10-09",
+        "quellen": 6,
+        "nachgelesen": 6,
+        "unveraendert": 6,
+        "veraendert_gelesen": 0,
+        "offen": 0,
+        "verschwunden": 0,
+        "statuswechsel_30_tage": 3
+      },
       "rechtsraum": {
         "land": "EE",
         "name": "Estland",
@@ -5003,6 +5143,16 @@
       "url": "https://belegbar.eu/anbieter/opper-ai/",
       "beleg_quote_prozent": 67,
       "zuletzt_geprueft": "2026-10-09",
+      "quellenlauf": {
+        "zuletzt": "2026-10-09",
+        "quellen": 5,
+        "nachgelesen": 5,
+        "unveraendert": 1,
+        "veraendert_gelesen": 2,
+        "offen": 2,
+        "verschwunden": 0,
+        "statuswechsel_30_tage": 2
+      },
       "rechtsraum": {
         "land": "SE",
         "name": "Schweden",
@@ -5505,6 +5655,16 @@
       "url": "https://belegbar.eu/anbieter/ovhcloud/",
       "beleg_quote_prozent": 65,
       "zuletzt_geprueft": "2026-10-09",
+      "quellenlauf": {
+        "zuletzt": "2026-10-09",
+        "quellen": 15,
+        "nachgelesen": 14,
+        "unveraendert": 10,
+        "veraendert_gelesen": 4,
+        "offen": 0,
+        "verschwunden": 0,
+        "statuswechsel_30_tage": 13
+      },
       "rechtsraum": {
         "land": "FR",
         "name": "Frankreich",
@@ -5879,6 +6039,16 @@
       "url": "https://belegbar.eu/anbieter/regolo/",
       "beleg_quote_prozent": 73,
       "zuletzt_geprueft": "2026-10-09",
+      "quellenlauf": {
+        "zuletzt": "2026-10-09",
+        "quellen": 10,
+        "nachgelesen": 9,
+        "unveraendert": 4,
+        "veraendert_gelesen": 5,
+        "offen": 0,
+        "verschwunden": 0,
+        "statuswechsel_30_tage": 5
+      },
       "rechtsraum": {
         "land": "IT",
         "name": "Italien",
@@ -6120,6 +6290,16 @@
       "url": "https://belegbar.eu/anbieter/requesty/",
       "beleg_quote_prozent": 20,
       "zuletzt_geprueft": "2026-10-09",
+      "quellenlauf": {
+        "zuletzt": "2026-10-09",
+        "quellen": 7,
+        "nachgelesen": 7,
+        "unveraendert": 2,
+        "veraendert_gelesen": 5,
+        "offen": 0,
+        "verschwunden": 0,
+        "statuswechsel_30_tage": 0
+      },
       "rechtsraum": {
         "land": "GB",
         "name": "Vereinigtes Königreich",
@@ -6462,6 +6642,16 @@
       "url": "https://belegbar.eu/anbieter/scaleway/",
       "beleg_quote_prozent": 71,
       "zuletzt_geprueft": "2026-10-09",
+      "quellenlauf": {
+        "zuletzt": "2026-10-09",
+        "quellen": 10,
+        "nachgelesen": 10,
+        "unveraendert": 4,
+        "veraendert_gelesen": 6,
+        "offen": 0,
+        "verschwunden": 0,
+        "statuswechsel_30_tage": 4
+      },
       "rechtsraum": {
         "land": "FR",
         "name": "Frankreich",
@@ -6851,6 +7041,16 @@
       "url": "https://belegbar.eu/anbieter/stackit/",
       "beleg_quote_prozent": 80,
       "zuletzt_geprueft": "2026-10-09",
+      "quellenlauf": {
+        "zuletzt": "2026-10-09",
+        "quellen": 8,
+        "nachgelesen": 8,
+        "unveraendert": 5,
+        "veraendert_gelesen": 3,
+        "offen": 0,
+        "verschwunden": 0,
+        "statuswechsel_30_tage": 11
+      },
       "rechtsraum": {
         "land": "DE",
         "name": "Deutschland",
@@ -7299,6 +7499,16 @@
       "url": "https://belegbar.eu/anbieter/t-systems/",
       "beleg_quote_prozent": 71,
       "zuletzt_geprueft": "2026-10-09",
+      "quellenlauf": {
+        "zuletzt": "2026-10-09",
+        "quellen": 10,
+        "nachgelesen": 10,
+        "unveraendert": 7,
+        "veraendert_gelesen": 3,
+        "offen": 0,
+        "verschwunden": 0,
+        "statuswechsel_30_tage": 17
+      },
       "rechtsraum": {
         "land": "DE",
         "name": "Deutschland",

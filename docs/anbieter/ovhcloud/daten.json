@@ -490,6 +490,16 @@
   "url": "https://belegbar.eu/anbieter/ovhcloud/",
   "beleg_quote_prozent": 65,
   "zuletzt_geprueft": "2026-10-09",
+  "quellenlauf": {
+    "zuletzt": "2026-10-09",
+    "quellen": 15,
+    "nachgelesen": 14,
+    "unveraendert": 10,
+    "veraendert_gelesen": 4,
+    "offen": 0,
+    "verschwunden": 0,
+    "statuswechsel_30_tage": 13
+  },
   "rechtsraum": {
     "land": "FR",
     "name": "Frankreich",

@@ -417,6 +417,16 @@
   "url": "https://belegbar.eu/anbieter/exoscale/",
   "beleg_quote_prozent": 31,
   "zuletzt_geprueft": "2026-10-09",
+  "quellenlauf": {
+    "zuletzt": "2026-10-09",
+    "quellen": 9,
+    "nachgelesen": 8,
+    "unveraendert": 6,
+    "veraendert_gelesen": 2,
+    "offen": 0,
+    "verschwunden": 0,
+    "statuswechsel_30_tage": 17
+  },
   "rechtsraum": {
     "land": "CH",
     "name": "Schweiz",

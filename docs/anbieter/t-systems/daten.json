@@ -436,6 +436,16 @@
   "url": "https://belegbar.eu/anbieter/t-systems/",
   "beleg_quote_prozent": 71,
   "zuletzt_geprueft": "2026-10-09",
+  "quellenlauf": {
+    "zuletzt": "2026-10-09",
+    "quellen": 10,
+    "nachgelesen": 10,
+    "unveraendert": 7,
+    "veraendert_gelesen": 3,
+    "offen": 0,
+    "verschwunden": 0,
+    "statuswechsel_30_tage": 17
+  },
   "rechtsraum": {
     "land": "DE",
     "name": "Deutschland",
