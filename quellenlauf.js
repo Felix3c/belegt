@@ -26,6 +26,7 @@
 const fs = require("fs");
 const path = require("path");
 const Q = require("./lib/quellen.js");
+Q.mitZwischenzertifikaten();
 
 const LEDGER_DATEI = path.join(__dirname, "data", "quellen-hashes.json");
 const WORT_DIR = path.join(__dirname, "data", "quellen-woerter");

@@ -1272,14 +1272,14 @@
             "wert": "Im vom Kunden gewählten Land der Zone; keine Replikation außerhalb dieses Landes, auch nicht für Backups, Snapshots und DR-Kopien",
             "status": "belegt",
             "quelle": "https://www.exoscale.com/terms/",
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "AGB 5.2 (gültig ab 02.07.2026, Abruf 08.10.2026): 'Supplier shall store Client Data exclusively within the country selected by Client for the relevant Service and shall not migrate or replicate Client Data outside that country, including for backups, snapshots, and disaster recovery copies, except where (i) expressly instructed by Client through the Services or (ii) required by applicable law or court order.' Ausgenommen sind Betriebs-Logs ohne Client-Data-Payloads (5.2 d). Ob Exoscale für Dedicated Inference überhaupt Sicherungen anlegt, steht nirgends."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Keine Aussage (Abruf 08.10.2026): Produktseiten zu Dedicated und On-Demand Inference, AGB und DPA erwähnen weder Moderation noch Filter oder Guardrails. Bei Dedicated Inference bringt der Kunde das Modell selbst mit ('Fully dedicated down to logs and GPU memory'); eine Zwischenschicht von Exoscale ist nicht beschrieben, aber auch nicht ausgeschlossen."
           }
         },
@@ -1298,14 +1298,14 @@
             "wert": "Im vom Kunden gewählten Land der Zone; keine Replikation außerhalb dieses Landes, auch nicht für Backups, Snapshots und DR-Kopien",
             "status": "belegt",
             "quelle": "https://www.exoscale.com/terms/",
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "AGB 5.2 (gültig ab 02.07.2026, Abruf 08.10.2026): 'Supplier shall store Client Data exclusively within the country selected by Client for the relevant Service and shall not migrate or replicate Client Data outside that country, including for backups, snapshots, and disaster recovery copies, except where (i) expressly instructed by Client through the Services or (ii) required by applicable law or court order.' Ausgenommen sind Betriebs-Logs ohne Client-Data-Payloads (5.2 d). Ob Exoscale für Dedicated Inference überhaupt Sicherungen anlegt, steht nirgends."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Keine Aussage (Abruf 08.10.2026): Produktseiten zu Dedicated und On-Demand Inference, AGB und DPA erwähnen weder Moderation noch Filter oder Guardrails. Bei Dedicated Inference bringt der Kunde das Modell selbst mit ('Fully dedicated down to logs and GPU memory'); eine Zwischenschicht von Exoscale ist nicht beschrieben, aber auch nicht ausgeschlossen."
           }
         },
@@ -1323,14 +1323,14 @@
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Dienst noch nicht gestartet ('Coming soon'); die Seite sagt nur 'All models are planned to be deployed in both the EU and Switzerland locations' (Abruf 08.10.2026). Ob die Standortzusage der AGB 5.2 (keine Replikation außerhalb des gewählten Landes, auch nicht für Backups) für diesen Dienst gilt und welches Land gewählt wird, ist offen."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Keine Aussage (Abruf 08.10.2026): Produktseiten zu Dedicated und On-Demand Inference, AGB und DPA erwähnen weder Moderation noch Filter oder Guardrails. Bei Dedicated Inference bringt der Kunde das Modell selbst mit ('Fully dedicated down to logs and GPU memory'); eine Zwischenschicht von Exoscale ist nicht beschrieben, aber auch nicht ausgeschlossen."
           }
         }
@@ -1380,7 +1380,7 @@
           "wert": null,
           "status": "unbelegt",
           "quelle": null,
-          "geprueft": "2026-10-09",
+          "geprueft": "2026-10-10",
           "anmerkung": "Keine Frist für Protokolle der Inferenz-Dienste (Abruf 08.10.2026): AGB (gültig ab 02.07.2026), DPA (ab 05.05.2025), Datenschutzerklärung und die Seite zu Dedicated Inference nennen keine Aufbewahrungsdauer für Betriebs- oder Deployment-Logs. Die Datenschutzerklärung nennt Server-Logs nur für Website-Besucher, ebenfalls ohne Frist."
         },
         "log_zweck": {
@@ -1402,21 +1402,21 @@
             "wert": "Cloud-Hosting (Compute, Netzwerk, Storage) an allen Standorten — Stand 2019",
             "status": "beansprucht",
             "quelle": "https://changelog.exoscale.com/exoscale-security-certificates-for-iso-iso-and-csa/",
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Changelog vom 10.01.2019 (Abruf 09.10.2026): 'We have reached full compliance level with certifications on all aspects of our cloud hosting - compute, network and storage - in all locations for: ISO27001: Managing Information Security / CSA Star 2: Securing cloud computing environments / ISO27018: Protecting personal data'. Die dort genannte CSA-STAR-Stufe 2 beansprucht Exoscale heute nicht mehr (nur Selbstauskunft Stufe 1, siehe Eintrag CSA STAR); der Changelog ist in diesem Punkt veraltet. Aktueller Umfang und SoA nur im Compliance Center (NDA): 'Customers can access our current ISO/IEC 27001 certificate and Statement of Applicability (SoA) through the Exoscale Compliance Center' (exoscale.com/compliance/iso27001/). Ob GPU/Dedicated Inference im Umfang ist, ist öffentlich nicht belegt."
           },
           "zertifizierer": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Nicht öffentlich genannt. exoscale.com/compliance/iso27001/: 'Exoscale has maintained ISO/IEC 27001 certification by an accredited auditor since 2018', ohne Namen. Zertifikat, Umfang und Bericht liegen nur im Compliance Center (Exoscale-Konto, nach NDA); öffentlich nicht einsehbar (Abruf 08.10.2026)."
           },
           "akkreditiert_dakks": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Nicht prüfbar: Ohne Namen der Zertifizierungsstelle ist keine Abfrage in der DAkkS- oder einer anderen Akkreditierungsdatenbank möglich. Exoscale behauptet nur allgemein: 'All certifications and attestations are performed by accredited third-party auditors' (community.exoscale.com/platform/compliance/, Abruf 08.10.2026)."
           },
           "normiert": [
@@ -1433,21 +1433,21 @@
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Berichtszeitraum laut Compliance-Seite 'May 1st – May 1st'; Systembeschreibung und Umfang nur im Bericht. Zertifikat, Umfang und Bericht liegen nur im Compliance Center (Exoscale-Konto, nach NDA); öffentlich nicht einsehbar (Abruf 08.10.2026)."
           },
           "zertifizierer": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Prüfer nicht öffentlich genannt. Zertifikat, Umfang und Bericht liegen nur im Compliance Center (Exoscale-Konto, nach NDA); öffentlich nicht einsehbar (Abruf 08.10.2026)."
           },
           "akkreditiert_dakks": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "SOC 2 ist ein Testat eines Wirtschaftsprüfers, keine akkreditierte Zertifizierung."
           },
           "normiert": [
@@ -1464,21 +1464,21 @@
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "C5:2020 Typ 2, Berichtszeitraum laut Compliance-Seite 'May 1st – May 1st'; welche Dienste und Zonen der Bericht abdeckt, steht nur im Bericht. Zertifikat, Umfang und Bericht liegen nur im Compliance Center (Exoscale-Konto, nach NDA); öffentlich nicht einsehbar (Abruf 08.10.2026)."
           },
           "zertifizierer": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Prüfer nicht öffentlich genannt. Zertifikat, Umfang und Bericht liegen nur im Compliance Center (Exoscale-Konto, nach NDA); öffentlich nicht einsehbar (Abruf 08.10.2026)."
           },
           "akkreditiert_dakks": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "BSI C5 ist ein Testat eines Wirtschaftsprüfers nach ISAE 3000 (so auch exoscale.com/compliance/bsi-c5/: 'attestation schemes (not certifications)'), keine akkreditierte Zertifizierung; eine DAkkS-Akkreditierung ist dafür nicht vorgesehen."
           },
           "normiert": [
@@ -1495,21 +1495,21 @@
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Umfang (Standorte, Prüfziele) nur im ENX-Portal für registrierte Partner: 'Exoscale's TISAX assessment results (Level 2) are published on the ENX portal and can be accessed by authorized automotive industry partners' (exoscale.com/compliance/tisax/, Abruf 08.10.2026)."
           },
           "zertifizierer": {
             "wert": "DEKRA (laut Exoscale 2023; aktueller Prüfdienstleister nicht öffentlich)",
             "status": "beansprucht",
             "quelle": "https://www.exoscale.com/blog/exoscale-tisax-certification/",
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Blog vom 20.04.2023: 'we have achieved TISAX Level 2 certification from Dekra Deutschland'. TISAX-Ergebnisse gelten drei Jahre; ob die aktuelle Bewertung ebenfalls von DEKRA stammt, ist öffentlich nicht belegt."
           },
           "akkreditiert_dakks": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "TISAX ist ein Assessment der Automobilbranche; die Prüfdienstleister werden von der ENX Association zugelassen, nicht von der DAkkS für diese Norm akkreditiert."
           },
           "normiert": [
@@ -1526,21 +1526,21 @@
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Umfang nur im Compliance Center. Zertifikat, Umfang und Bericht liegen nur im Compliance Center (Exoscale-Konto, nach NDA); öffentlich nicht einsehbar (Abruf 08.10.2026)."
           },
           "zertifizierer": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Nicht öffentlich genannt. Zertifikat, Umfang und Bericht liegen nur im Compliance Center (Exoscale-Konto, nach NDA); öffentlich nicht einsehbar (Abruf 08.10.2026)."
           },
           "akkreditiert_dakks": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Nicht prüfbar: Zertifizierungsstelle unbekannt (Zertifikat nur unter NDA). Exoscale behauptet allgemein 'performed by accredited third-party auditors' (community.exoscale.com/platform/compliance/)."
           },
           "normiert": [
@@ -1557,21 +1557,21 @@
             "wert": "Cloud-Hosting (Compute, Netzwerk, Storage) an allen Standorten — Stand 2019",
             "status": "beansprucht",
             "quelle": "https://changelog.exoscale.com/exoscale-security-certificates-for-iso-iso-and-csa/",
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Changelog vom 10.01.2019 (Abruf 09.10.2026): 'full compliance level with certifications on all aspects of our cloud hosting - compute, network and storage - in all locations for: ISO27001 [...] CSA Star 2 [...] ISO27018'. Die dort genannte CSA-STAR-Stufe 2 beansprucht Exoscale heute nicht mehr (siehe Eintrag CSA STAR). Aktueller Umfang nur im Compliance Center (NDA)."
           },
           "zertifizierer": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Nicht öffentlich genannt. Zertifikat, Umfang und Bericht liegen nur im Compliance Center (Exoscale-Konto, nach NDA); öffentlich nicht einsehbar (Abruf 08.10.2026)."
           },
           "akkreditiert_dakks": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Nicht prüfbar: Zertifizierungsstelle unbekannt (Zertifikat nur unter NDA). Exoscale behauptet allgemein 'performed by accredited third-party auditors' (community.exoscale.com/platform/compliance/)."
           },
           "normiert": [
@@ -1582,27 +1582,27 @@
           "typ": "HDS",
           "status": "belegt",
           "quelle": "https://esante.gouv.fr/offres-services/hds/liste-des-hebergeurs-certifies",
-          "geprueft": "2026-10-09",
+          "geprueft": "2026-10-10",
           "anmerkung": "Belegt über das öffentliche Register der französischen Gesundheitsagentur ANS (Liste der zertifizierten Hoster, Abruf 09.10.2026 im Browser, die Seite lädt nur dort): 'AKENES 1, 2, 3, 4, 6, sur version V2.0 … Bureau Veritas Certification France'. Akenes SA ist die Betreibergesellschaft von Exoscale. Ein Gültigkeitsdatum nennt das Register nicht, das Zertifikat selbst liegt nur im Compliance Center. Französische Zertifizierung für das Hosting von Gesundheitsdaten; Compliance-Seite: 'HDS French health data hosting certification', Scope 1–4 und 6. Bisher nur in der Anmerkung zu TISAX geführt.",
           "anwendungsbereich": {
             "wert": "HDS-Tätigkeiten 1, 2, 3, 4 und 6 nach Referenzrahmen V2.0 (Akenes SA)",
             "status": "belegt",
             "quelle": "https://esante.gouv.fr/offres-services/hds/liste-des-hebergeurs-certifies",
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "ANS-Register (Abruf 09.10.2026): 'AKENES 1, 2, 3, 4, 6, sur version V2.0'; deckt sich mit der Compliance-Seite ('Scope: 1–4 and 6'). Welche Zonen erfasst sind, nennt das Register nicht."
           },
           "zertifizierer": {
             "wert": "Bureau Veritas Certification France",
             "status": "belegt",
             "quelle": "https://esante.gouv.fr/offres-services/hds/liste-des-hebergeurs-certifies",
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "ANS-Register (Abruf 09.10.2026), Spalte Zertifizierungsstelle beim Eintrag AKENES. Exoscale selbst nennt keinen Namen ('validated by an independent auditor')."
           },
           "akkreditiert_dakks": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Zertifizierungsstelle laut ANS-Register Bureau Veritas Certification France; deren Akkreditierung (COFRAC) ist hier nicht geprüft. Eine DAkkS-Akkreditierung ist für HDS nicht vorgesehen."
           },
           "normiert": [
@@ -1619,21 +1619,21 @@
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Selbstauskunft (CAIQ) ohne veröffentlichten Umfang; im CSA STAR Registry am 05.10. und 09.10.2026 nicht gefunden (siehe Eintrag)."
           },
           "zertifizierer": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Kein Zertifizierer: STAR Level 1 ist eine Selbstauskunft ('publishing our self-assessment using the CAIQ', exoscale.com/compliance/csa-star/, Abruf 08.10.2026)."
           },
           "akkreditiert_dakks": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Selbstauskunft ohne Prüfstelle; die Frage nach einer Akkreditierung stellt sich hier nicht."
           },
           "normiert": [
@@ -1647,7 +1647,7 @@
         "zertifizierer": null,
         "anwendungsbereich": null,
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Die Compliance-Seite nennt ISO/IEC 27001 ('ISO/IEC 27001 certified since 2018'), 27017, 27018, SOC 2 Type 2, BSI C5 Type 2, HDS und TISAX Level 2. ISO/IEC 42001 und KI-Managementsysteme kommen nicht vor. Geprüft: https://community.exoscale.com/platform/compliance/, https://www.exoscale.com/compliance/ (nur als Suchtreffer), WebSearch: Exoscale ISO 42001"
       },
       "ai_act": [
@@ -1658,7 +1658,7 @@
           "anmerkung": "Kein GPAI-Modellanbieter (reine Infrastruktur); eigene Dokumentation dazu nicht auffindbar. Nachprüfung 05.10.2026: Auf den Inference-, Compliance- und Vertragsseiten sowie in der Dedicated-Inference-Doku kommt das Thema nicht vor."
         }
       ],
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "url": "https://belegbar.eu/anbieter/exoscale/",
       "beleg_quote_prozent": 31,
       "zuletzt_geprueft": "2026-10-10",
@@ -1667,8 +1667,8 @@
         "quellen": 9,
         "nachgelesen": 9,
         "unveraendert": 6,
-        "veraendert_gelesen": 2,
-        "offen": 1,
+        "veraendert_gelesen": 3,
+        "offen": 0,
         "verschwunden": 0,
         "statuswechsel_30_tage": 17
       },
@@ -5190,14 +5190,14 @@
             "wert": "Keine Backups (Vertrag); Ausnahme Batch API: Ein- und Ausgaben werden vorübergehend gespeichert, Ort und Dauer nicht genannt",
             "status": "belegt",
             "quelle": "https://contract.eu.ovhapis.com/1.0/pdf/Conditions_particulieres_OVH_Stack-de.pdf",
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Besondere Vertragsbedingungen Public Cloud (OVH GmbH, Stand 26. August 2026), Anhang 10 Ziffer 2: 'Der AI Endpoints Dienst beinhaltet keine Backups oder Storages, auch nicht für kurze Zeit (mit Ausnahme des Dienstes „AI Endpoint Batch API“, bei dem es sich um ein asynchrones Dienstangebot handelt, das die Ein- und Ausgabedaten des Dienstes vorübergehend speichert). Er umfasst auch keine Snapshots.' Ziffer 5: 'OVHcloud führt kein Backup der Inputs oder Outputs durch.' Wo die Batch API zwischenspeichert, steht weder im Vertrag noch in der Doku (Rechenstandort laut Doku Gravelines). Gilt für alle Modelle."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Vertrag (Anhang 10), Produktseite und Doku 'AI Endpoints - Features, Capabilities and Limitations' nennen weder eigene Filter, Moderation oder Guardrails noch schließen sie solche aus. Der für AI Endpoints verbindliche 'Verhaltenskodex für den Einsatz künstlicher Intelligenz' (Version vom 28.04.2025, contract.eu.ovhapis.com/1.0/pdf/AI_Code-DE.pdf, Ziffer 3 m) verpflichtet den Kunden, 'Die Sicherheitsfilter des KI-Dienstes oder den Betrieb des KI-Dienstes nicht vorsätzlich auf vertragswidrige Weise zu umgehen' – das setzt Sicherheitsfilter voraus, beschreibt sie aber nicht; ob AI Endpoints solche Filter vorschaltet, ist ungeklärt. Gilt für alle Modelle."
           }
         },
@@ -5213,14 +5213,14 @@
             "wert": "Keine Backups (Vertrag); Ausnahme Batch API: Ein- und Ausgaben werden vorübergehend gespeichert, Ort und Dauer nicht genannt",
             "status": "belegt",
             "quelle": "https://contract.eu.ovhapis.com/1.0/pdf/Conditions_particulieres_OVH_Stack-de.pdf",
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Besondere Vertragsbedingungen Public Cloud (OVH GmbH, Stand 26. August 2026), Anhang 10 Ziffer 2: 'Der AI Endpoints Dienst beinhaltet keine Backups oder Storages, auch nicht für kurze Zeit (mit Ausnahme des Dienstes „AI Endpoint Batch API“, bei dem es sich um ein asynchrones Dienstangebot handelt, das die Ein- und Ausgabedaten des Dienstes vorübergehend speichert). Er umfasst auch keine Snapshots.' Ziffer 5: 'OVHcloud führt kein Backup der Inputs oder Outputs durch.' Wo die Batch API zwischenspeichert, steht weder im Vertrag noch in der Doku (Rechenstandort laut Doku Gravelines). Gilt für alle Modelle."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Vertrag (Anhang 10), Produktseite und Doku 'AI Endpoints - Features, Capabilities and Limitations' nennen weder eigene Filter, Moderation oder Guardrails noch schließen sie solche aus. Der für AI Endpoints verbindliche 'Verhaltenskodex für den Einsatz künstlicher Intelligenz' (Version vom 28.04.2025, contract.eu.ovhapis.com/1.0/pdf/AI_Code-DE.pdf, Ziffer 3 m) verpflichtet den Kunden, 'Die Sicherheitsfilter des KI-Dienstes oder den Betrieb des KI-Dienstes nicht vorsätzlich auf vertragswidrige Weise zu umgehen' – das setzt Sicherheitsfilter voraus, beschreibt sie aber nicht; ob AI Endpoints solche Filter vorschaltet, ist ungeklärt. Gilt für alle Modelle."
           }
         },
@@ -5236,14 +5236,14 @@
             "wert": "Keine Backups (Vertrag); Ausnahme Batch API: Ein- und Ausgaben werden vorübergehend gespeichert, Ort und Dauer nicht genannt",
             "status": "belegt",
             "quelle": "https://contract.eu.ovhapis.com/1.0/pdf/Conditions_particulieres_OVH_Stack-de.pdf",
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Besondere Vertragsbedingungen Public Cloud (OVH GmbH, Stand 26. August 2026), Anhang 10 Ziffer 2: 'Der AI Endpoints Dienst beinhaltet keine Backups oder Storages, auch nicht für kurze Zeit (mit Ausnahme des Dienstes „AI Endpoint Batch API“, bei dem es sich um ein asynchrones Dienstangebot handelt, das die Ein- und Ausgabedaten des Dienstes vorübergehend speichert). Er umfasst auch keine Snapshots.' Ziffer 5: 'OVHcloud führt kein Backup der Inputs oder Outputs durch.' Wo die Batch API zwischenspeichert, steht weder im Vertrag noch in der Doku (Rechenstandort laut Doku Gravelines). Gilt für alle Modelle."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Vertrag (Anhang 10), Produktseite und Doku 'AI Endpoints - Features, Capabilities and Limitations' nennen weder eigene Filter, Moderation oder Guardrails noch schließen sie solche aus. Der für AI Endpoints verbindliche 'Verhaltenskodex für den Einsatz künstlicher Intelligenz' (Version vom 28.04.2025, contract.eu.ovhapis.com/1.0/pdf/AI_Code-DE.pdf, Ziffer 3 m) verpflichtet den Kunden, 'Die Sicherheitsfilter des KI-Dienstes oder den Betrieb des KI-Dienstes nicht vorsätzlich auf vertragswidrige Weise zu umgehen' – das setzt Sicherheitsfilter voraus, beschreibt sie aber nicht; ob AI Endpoints solche Filter vorschaltet, ist ungeklärt. Gilt für alle Modelle."
           }
         },
@@ -5259,14 +5259,14 @@
             "wert": "Keine Backups (Vertrag); Ausnahme Batch API: Ein- und Ausgaben werden vorübergehend gespeichert, Ort und Dauer nicht genannt",
             "status": "belegt",
             "quelle": "https://contract.eu.ovhapis.com/1.0/pdf/Conditions_particulieres_OVH_Stack-de.pdf",
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Besondere Vertragsbedingungen Public Cloud (OVH GmbH, Stand 26. August 2026), Anhang 10 Ziffer 2: 'Der AI Endpoints Dienst beinhaltet keine Backups oder Storages, auch nicht für kurze Zeit (mit Ausnahme des Dienstes „AI Endpoint Batch API“, bei dem es sich um ein asynchrones Dienstangebot handelt, das die Ein- und Ausgabedaten des Dienstes vorübergehend speichert). Er umfasst auch keine Snapshots.' Ziffer 5: 'OVHcloud führt kein Backup der Inputs oder Outputs durch.' Wo die Batch API zwischenspeichert, steht weder im Vertrag noch in der Doku (Rechenstandort laut Doku Gravelines). Gilt für alle Modelle."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Vertrag (Anhang 10), Produktseite und Doku 'AI Endpoints - Features, Capabilities and Limitations' nennen weder eigene Filter, Moderation oder Guardrails noch schließen sie solche aus. Der für AI Endpoints verbindliche 'Verhaltenskodex für den Einsatz künstlicher Intelligenz' (Version vom 28.04.2025, contract.eu.ovhapis.com/1.0/pdf/AI_Code-DE.pdf, Ziffer 3 m) verpflichtet den Kunden, 'Die Sicherheitsfilter des KI-Dienstes oder den Betrieb des KI-Dienstes nicht vorsätzlich auf vertragswidrige Weise zu umgehen' – das setzt Sicherheitsfilter voraus, beschreibt sie aber nicht; ob AI Endpoints solche Filter vorschaltet, ist ungeklärt. Gilt für alle Modelle."
           }
         },
@@ -5282,14 +5282,14 @@
             "wert": "Keine Backups (Vertrag); Ausnahme Batch API: Ein- und Ausgaben werden vorübergehend gespeichert, Ort und Dauer nicht genannt",
             "status": "belegt",
             "quelle": "https://contract.eu.ovhapis.com/1.0/pdf/Conditions_particulieres_OVH_Stack-de.pdf",
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Besondere Vertragsbedingungen Public Cloud (OVH GmbH, Stand 26. August 2026), Anhang 10 Ziffer 2: 'Der AI Endpoints Dienst beinhaltet keine Backups oder Storages, auch nicht für kurze Zeit (mit Ausnahme des Dienstes „AI Endpoint Batch API“, bei dem es sich um ein asynchrones Dienstangebot handelt, das die Ein- und Ausgabedaten des Dienstes vorübergehend speichert). Er umfasst auch keine Snapshots.' Ziffer 5: 'OVHcloud führt kein Backup der Inputs oder Outputs durch.' Wo die Batch API zwischenspeichert, steht weder im Vertrag noch in der Doku (Rechenstandort laut Doku Gravelines). Gilt für alle Modelle."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Vertrag (Anhang 10), Produktseite und Doku 'AI Endpoints - Features, Capabilities and Limitations' nennen weder eigene Filter, Moderation oder Guardrails noch schließen sie solche aus. Der für AI Endpoints verbindliche 'Verhaltenskodex für den Einsatz künstlicher Intelligenz' (Version vom 28.04.2025, contract.eu.ovhapis.com/1.0/pdf/AI_Code-DE.pdf, Ziffer 3 m) verpflichtet den Kunden, 'Die Sicherheitsfilter des KI-Dienstes oder den Betrieb des KI-Dienstes nicht vorsätzlich auf vertragswidrige Weise zu umgehen' – das setzt Sicherheitsfilter voraus, beschreibt sie aber nicht; ob AI Endpoints solche Filter vorschaltet, ist ungeklärt. Gilt für alle Modelle."
           }
         },
@@ -5305,14 +5305,14 @@
             "wert": "Keine Backups (Vertrag); Ausnahme Batch API: Ein- und Ausgaben werden vorübergehend gespeichert, Ort und Dauer nicht genannt",
             "status": "belegt",
             "quelle": "https://contract.eu.ovhapis.com/1.0/pdf/Conditions_particulieres_OVH_Stack-de.pdf",
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Besondere Vertragsbedingungen Public Cloud (OVH GmbH, Stand 26. August 2026), Anhang 10 Ziffer 2: 'Der AI Endpoints Dienst beinhaltet keine Backups oder Storages, auch nicht für kurze Zeit (mit Ausnahme des Dienstes „AI Endpoint Batch API“, bei dem es sich um ein asynchrones Dienstangebot handelt, das die Ein- und Ausgabedaten des Dienstes vorübergehend speichert). Er umfasst auch keine Snapshots.' Ziffer 5: 'OVHcloud führt kein Backup der Inputs oder Outputs durch.' Wo die Batch API zwischenspeichert, steht weder im Vertrag noch in der Doku (Rechenstandort laut Doku Gravelines). Gilt für alle Modelle."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Vertrag (Anhang 10), Produktseite und Doku 'AI Endpoints - Features, Capabilities and Limitations' nennen weder eigene Filter, Moderation oder Guardrails noch schließen sie solche aus. Der für AI Endpoints verbindliche 'Verhaltenskodex für den Einsatz künstlicher Intelligenz' (Version vom 28.04.2025, contract.eu.ovhapis.com/1.0/pdf/AI_Code-DE.pdf, Ziffer 3 m) verpflichtet den Kunden, 'Die Sicherheitsfilter des KI-Dienstes oder den Betrieb des KI-Dienstes nicht vorsätzlich auf vertragswidrige Weise zu umgehen' – das setzt Sicherheitsfilter voraus, beschreibt sie aber nicht; ob AI Endpoints solche Filter vorschaltet, ist ungeklärt. Gilt für alle Modelle."
           }
         }
@@ -5364,7 +5364,7 @@
           "wert": null,
           "status": "unbelegt",
           "quelle": null,
-          "geprueft": "2026-10-09",
+          "geprueft": "2026-10-10",
           "anmerkung": "Keine Frist gefunden: Vertrag Anhang 10 (Stand 26.08.2026), AVV (Version 17.10.2025; TOM-Anhang nur allgemein 'OVHcloud must log all records necessary to understand any security events', ohne Dauer), Produktseite ('Zero data retention: We keep only the data required for billing purposes.') und Doku 'AI Endpoints - Features, Capabilities and Limitations' nennen keine Aufbewahrungsdauer für Protokolle oder Abrechnungsdaten. Batch API speichert Ein- und Ausgaben 'vorübergehend', Dauer ungeklärt."
         },
         "log_zweck": {
@@ -5386,21 +5386,21 @@
             "wert": "OVHcloud-Dienste in allen Rechenzentren außer USA; zertifizierte Dienste laut Compliance-Seite u. a. Public Cloud Compute, Public Cloud Storage und „AI & machine learning“; AI Endpoints in der Produktliste der Doku nicht aufgeführt",
             "status": "beansprucht",
             "quelle": "https://www.ovhcloud.com/en/compliance/iso-27001-27017-27018/",
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Compliance-Seite (08.10.2026): 'ISO/IEC 27001, ISO/IEC 27017 and ISO/IEC 27018 certifications are available for OVHcloud services hosted in all our datacentres, except those in the US, which have a specific scope'. Die Doku-Liste 'OVHcloud products ISO27k certifications' (https://docs.ovhcloud.com/en/guides/account-and-service-management/account-information/security-certifications, lastUpdated 2026-06-02, Normen ISO/IEC 27001:2022, 27017:2015, 27018:2019, 27701:2019) führt 36 Produkte auf; aus dem KI-Bereich nur 'Notebooks Interface', AI Endpoints nicht. Zertifikat und Statement of Applicability nicht eingesehen (der Link der Compliance-Seite führt auf die LNE-Zertifikatssuche, dort kein OVHcloud-Eintrag)."
           },
           "zertifizierer": {
             "wert": "Laboratoire national de métrologie et d'essais (LNE), laut OVHcloud",
             "status": "beansprucht",
             "quelle": "https://www.ovhcloud.com/en/compliance/iso-27001-27017-27018/",
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Compliance-Seite: 'The ISO/IEC 27001 certification that OVHcloud holds is available on the website of the certification body “Laboratoire National de Métrologie de d’Essais”'. Die LNE-Zertifikatsdatenbank (www.lne.fr/recherche-certificats, Abfrage 08.10.2026) liefert für 'OVH' 0 Treffer und für ISO 27001 insgesamt nur ein Zertifikat eines anderen Unternehmens; das Zertifikat selbst ist auf ovhcloud.com nicht verlinkt."
           },
           "akkreditiert_dakks": {
             "wert": false,
             "status": "unbelegt",
             "quelle": "https://tools.cofrac.fr/annexes/sect4/4-0038.pdf",
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Nicht DAkkS: Die DAkkS-Datenbank (Suche „Laboratoire national“, 08.10.2026) zeigt nur einen fremden Treffer (Kiwa GmbH). Die französische Akkreditierung des LNE (COFRAC Nr. 4-0038, Rev. 54, gültig ab 09.04.2026) umfasst Umwelt-, Energie-, Qualitäts- und Arbeitsschutz-Managementsysteme, aber keine Zertifizierung nach ISO/IEC 27001 oder 27701. ISO/IEC 27001 ist bei COFRAC unter Nr. 4-0660 für die Stelle BYCYB (Montrouge) akkreditiert (tools.cofrac.fr/annexes/sect4/4-0660.pdf); ob das aktuelle OVHcloud-Zertifikat von BYCYB oder vom LNE ausgestellt ist, lässt sich ohne das Zertifikat nicht prüfen. Eine gleichwertige EA-Akkreditierung des von OVHcloud genannten Zertifizierers für diese Norm ist damit nicht belegt."
           },
           "normiert": [
@@ -5417,21 +5417,21 @@
             "wert": "OVHcloud-Dienste in allen Rechenzentren außer USA; zertifizierte Dienste u. a. Public Cloud Compute/Storage und „AI & Machine Learning“; AI Endpoints in der Produktliste der Doku nicht aufgeführt",
             "status": "beansprucht",
             "quelle": "https://www.ovhcloud.com/en/compliance/iso-27701/",
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Compliance-Seite ISO 27701 (08.10.2026): 'ISO/IEC 27701 certifications are available for OVHcloud services hosted in all of our datacentres, with the exception of the US'. Doku-Liste 'OVHcloud products ISO27k certifications' (lastUpdated 2026-06-02) ohne AI Endpoints. Zertifikat nicht öffentlich: 'available on request from our sales department'."
           },
           "zertifizierer": {
             "wert": "Laboratoire national de métrologie et d'essais (LNE), laut OVHcloud",
             "status": "beansprucht",
             "quelle": "https://www.ovhcloud.com/en/compliance/iso-27701/",
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Compliance-Seite: 'The ISO/IEC 27701 certificate that OVHcloud holds is available on request from our sales department or from the “Laboratoire National de Métrologie et d’Essais” certification body.' Zertifikat nicht eingesehen; LNE-Datenbank ohne OVHcloud-Eintrag (08.10.2026)."
           },
           "akkreditiert_dakks": {
             "wert": false,
             "status": "unbelegt",
             "quelle": "https://tools.cofrac.fr/annexes/sect4/4-0038.pdf",
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Nicht DAkkS: Die DAkkS-Datenbank (Suche „Laboratoire national“, 08.10.2026) zeigt nur einen fremden Treffer (Kiwa GmbH). Die französische Akkreditierung des LNE (COFRAC Nr. 4-0038, Rev. 54, gültig ab 09.04.2026) umfasst Umwelt-, Energie-, Qualitäts- und Arbeitsschutz-Managementsysteme, aber keine Zertifizierung nach ISO/IEC 27001 oder 27701. ISO/IEC 27001 ist bei COFRAC unter Nr. 4-0660 für die Stelle BYCYB (Montrouge) akkreditiert (tools.cofrac.fr/annexes/sect4/4-0660.pdf); ob das aktuelle OVHcloud-Zertifikat von BYCYB oder vom LNE ausgestellt ist, lässt sich ohne das Zertifikat nicht prüfen. Eine gleichwertige EA-Akkreditierung des von OVHcloud genannten Zertifizierers für diese Norm ist damit nicht belegt."
           },
           "normiert": [
@@ -5448,21 +5448,21 @@
             "wert": "SOC 2 Type 2: Kriterien Sicherheit und Verfügbarkeit (laut SOC-Seite); erfasste Dienste nicht genannt",
             "status": "beansprucht",
             "quelle": "https://www.ovhcloud.com/en/compliance/soc-1-2-3/",
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "SOC-Seite (08.10.2026): 'OVHcloud’s SOC 2 Type 2 report covers two aspects of IT systems. Security […] Availability'. Die C5-Seite spricht dagegen von 'security, availability and confidentiality'. Welche Dienste und Gesellschaften der Bericht abdeckt, steht nicht da; Berichte nur auf Anfrage."
           },
           "zertifizierer": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Prüfer nicht genannt. Die C5-Seite schreibt, der SOC-2-Bericht beruhe auf einem Audit 'conducted by the American Institute of Certified Public Accountants (AICPA)' – das AICPA setzt den Standard, prüft aber nicht selbst; der tatsächliche Prüfer bleibt offen."
           },
           "akkreditiert_dakks": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "SOC 2 ist ein Testat eines Wirtschaftsprüfers, keine akkreditierte Zertifizierung."
           },
           "normiert": [
@@ -5481,21 +5481,21 @@
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "C5-Seite (08.10.2026) nennt keine Dienste oder Standorte ('According to the most recent certificate, OVHcloud fulfils all the requirements of this catalogue'); sie verweist auf veraltete Bezugsnormen (ISO/IEC 27001:2013, CSA CCM 3.01). Kein Testat oder Bericht öffentlich."
           },
           "zertifizierer": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Prüfer des C5-Testats nicht genannt (C5-Seite 08.10.2026)."
           },
           "akkreditiert_dakks": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "C5 ist ein Testat eines Wirtschaftsprüfers (Prüfung nach ISAE 3000), keine akkreditierte Zertifizierung; Prüfer nicht genannt."
           },
           "normiert": [
@@ -5512,21 +5512,21 @@
             "wert": "Qualifizierte Angebote: VMware on OVHcloud (seit Dezember 2020), SAP HANA on Private Cloud, Bare Metal Pod, SNC Cloud Platform; Rechenzentren Roubaix, Gravelines, Strasbourg; AI Endpoints nicht genannt",
             "status": "beansprucht",
             "quelle": "https://www.ovhcloud.com/en/compliance/secnumcloud/",
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "SecNumCloud-Seite (08.10.2026): 'In December 2020, OVHcloud obtained the SecNumCloud qualification for its VMware on OVHcloud solution'; 'OVHcloud’s SecNumCloud services are hosted in two of our new datacentres. Built specifically in France, Roubaix, Gravelines and Strasbourg' (zwei Rechenzentren, drei Orte genannt). Bare Metal Pod und SNC Cloud Platform stehen im Menü als 'SecNumCloud-qualified'. Qualifizierungsbescheid nicht verlinkt."
           },
           "zertifizierer": {
             "wert": "ANSSI (Qualifizierung)",
             "status": "beansprucht",
             "quelle": "https://www.ovhcloud.com/en/compliance/secnumcloud/",
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Die Seite nennt die ANSSI als qualifizierende Behörde; die prüfende Evaluierungsstelle wird nicht genannt."
           },
           "akkreditiert_dakks": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "SecNumCloud ist eine staatliche Qualifizierung der französischen ANSSI, keine akkreditierte Managementsystem-Zertifizierung; die Evaluierungsstelle ist nicht genannt."
           },
           "normiert": [
@@ -5543,21 +5543,21 @@
             "wert": "HDS v2018; zertifizierte Produkte laut Doku-Liste u. a. Dedicated Server, Public Cloud Instances, Object Storage, Notebooks Interface; AI Endpoints nicht aufgeführt",
             "status": "beansprucht",
             "quelle": "https://docs.ovhcloud.com/en/guides/account-and-service-management/account-information/hds-certification",
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Doku 'OVHcloud products HDS certification' (lastUpdated 2026-06-02): 'Our current certificate is established following this norm and version: HDS v2018'; Liste mit 36 Produkten ohne AI Endpoints. Die Produktseite AI Endpoints nennt dagegen 'ISO 27001, SOC 2 Type II, and HDS (health data) certified service'. Zertifikat nicht eingesehen."
           },
           "zertifizierer": {
             "wert": "BYCYB",
             "status": "belegt",
             "quelle": "https://esante.gouv.fr/offres-services/hds/liste-des-hebergeurs-certifies",
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "ANS-Register (Abruf 09.10.2026), Spalte Zertifizierungsstelle beim Eintrag OVH GROUPE. OVH selbst nennt auf HDS-Seite und Doku-Liste keine Zertifizierungsstelle."
           },
           "akkreditiert_dakks": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Zertifizierungsstelle laut ANS-Register BYCYB; deren Akkreditierung (COFRAC) ist hier nicht geprüft. Eine DAkkS-Akkreditierung ist für HDS nicht vorgesehen."
           },
           "normiert": [
@@ -5574,21 +5574,21 @@
             "wert": "Wie ISO 27001: OVHcloud-Dienste in allen Rechenzentren außer USA; AI Endpoints in der Produktliste der Doku nicht aufgeführt",
             "status": "beansprucht",
             "quelle": "https://www.ovhcloud.com/en/compliance/iso-27001-27017-27018/",
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Compliance-Seite nennt 27001, 27017 und 27018 gemeinsam mit derselben Dienstliste; Doku-Liste (lastUpdated 2026-06-02) ohne AI Endpoints."
           },
           "zertifizierer": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Die Compliance-Seite nennt das LNE nur für das ISO/IEC-27001-Zertifikat; wer ISO/IEC 27017 bestätigt hat, steht nirgends. Kein Zertifikat veröffentlicht."
           },
           "akkreditiert_dakks": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Zertifizierer nicht genannt, daher nicht prüfbar. ISO/IEC 27017 ist ein Leitfaden (Code of practice) und wird üblicherweise zusammen mit einem 27001-Audit bestätigt; eine eigene Akkreditierung dafür war nicht feststellbar."
           },
           "normiert": [
@@ -5605,21 +5605,21 @@
             "wert": "Wie ISO 27001: OVHcloud-Dienste in allen Rechenzentren außer USA; AI Endpoints in der Produktliste der Doku nicht aufgeführt",
             "status": "beansprucht",
             "quelle": "https://www.ovhcloud.com/en/compliance/iso-27001-27017-27018/",
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Compliance-Seite nennt 27001, 27017 und 27018 gemeinsam mit derselben Dienstliste; Doku-Liste (lastUpdated 2026-06-02) ohne AI Endpoints."
           },
           "zertifizierer": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Die Compliance-Seite nennt das LNE nur für das ISO/IEC-27001-Zertifikat; wer ISO/IEC 27018 bestätigt hat, steht nirgends. Kein Zertifikat veröffentlicht."
           },
           "akkreditiert_dakks": {
             "wert": null,
             "status": "unbelegt",
             "quelle": null,
-            "geprueft": "2026-10-09",
+            "geprueft": "2026-10-10",
             "anmerkung": "Zertifizierer nicht genannt, daher nicht prüfbar. ISO/IEC 27018 ist ein Leitfaden (Code of practice) und wird üblicherweise zusammen mit einem 27001-Audit bestätigt; eine eigene Akkreditierung dafür war nicht feststellbar."
           },
           "normiert": [
@@ -5633,7 +5633,7 @@
         "zertifizierer": null,
         "anwendungsbereich": null,
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Compliance-Seite listet 22 Rahmenwerke (u. a. ISO 27001/27017/27018/27701, SecNumCloud, C5, ISO 9001/14001/50001), aber kein ISO/IEC 42001. Doku-Seite zu ISO-Zertifikaten nennt nur ISO/IEC 27001:2022, 27017, 27018, 27701 (Doku-Seite nur bis Zeichen 100000 gelesen). Geprüft: https://www.ovhcloud.com/en/compliance/, https://docs.ovhcloud.com/en/guides/account-and-service-management/account-information/security-certifications, WebSearch: OVHcloud \"ISO 42001\""
       },
       "ai_act": [
@@ -5651,7 +5651,7 @@
           "anmerkung": "Keine Unterzeichnung auffindbar; als Hoster fremder Open-Weight-Modelle kein typischer Pflichtenadressat."
         }
       ],
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "url": "https://belegbar.eu/anbieter/ovhcloud/",
       "beleg_quote_prozent": 65,
       "zuletzt_geprueft": "2026-10-10",
@@ -5660,8 +5660,8 @@
         "quellen": 15,
         "nachgelesen": 15,
         "unveraendert": 9,
-        "veraendert_gelesen": 5,
-        "offen": 1,
+        "veraendert_gelesen": 6,
+        "offen": 0,
         "verschwunden": 0,
         "statuswechsel_30_tage": 13
       },
@@ -5915,7 +5915,7 @@
             "stelle_ea_mla": true,
             "status": "belegt",
             "quelle": "http://dpa.gov.al/axe-cs007-shkurt-2026/",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-10",
             "anmerkung": "Nicht DAkkS, aber akkreditiert durch DPA Albanien (Drejtoria e Përgjithshme e Akreditimit; EA-MLA, gleichwertig anerkannt): Akkreditierungsurkunde CS 007 für AXE Register Sh.p.k. (Tirana) nach ISO/IEC 17021-1, gültig 24.02.2026–23.02.2030, Anlage nennt 'ISO/IEC 27001:2022' sowie 27001 'duke integruar' ISO/IEC 27017:2015 und ISO/IEC 27018:2019 (S. 8–9). Fußzeile der Urkunde: DPA 'është nënshkruese e EA MLA dhe IAF-MLA për certifikimin e sistemeve të menaxhimit'; das EA-Mitgliederverzeichnis führt DPA als MLA-Unterzeichner u. a. für 'Management System Certification' (Abruf 08.10.2026). Hinweis: Das Seeweb-Zertifikat trägt das DA-Logo mit 'CS 007 25.02.22' (früherer Zyklus) und die italienische Adresse AXE REGISTER, Saronno; akkreditiert ist die albanische Gesellschaft."
           },
           "normiert": [
@@ -5948,7 +5948,7 @@
             "stelle_ea_mla": true,
             "status": "belegt",
             "quelle": "http://dpa.gov.al/axe-cs007-shkurt-2026/",
-            "geprueft": "2026-10-08",
+            "geprueft": "2026-10-10",
             "anmerkung": "Nicht DAkkS, aber akkreditiert durch DPA Albanien (Drejtoria e Përgjithshme e Akreditimit; EA-MLA, gleichwertig anerkannt): Akkreditierungsurkunde CS 007 für AXE Register Sh.p.k. (Tirana) nach ISO/IEC 17021-1, gültig 24.02.2026–23.02.2030, Anlage nennt 'ISO/IEC 27001:2022' sowie 27001 'duke integruar' ISO/IEC 27017:2015 und ISO/IEC 27018:2019 (S. 8–9). Fußzeile der Urkunde: DPA 'është nënshkruese e EA MLA dhe IAF-MLA për certifikimin e sistemeve të menaxhimit'; das EA-Mitgliederverzeichnis führt DPA als MLA-Unterzeichner u. a. für 'Management System Certification' (Abruf 08.10.2026). Hinweis: Das Seeweb-Zertifikat trägt das DA-Logo mit 'CS 007 25.02.22' (früherer Zyklus) und die italienische Adresse AXE REGISTER, Saronno; akkreditiert ist die albanische Gesellschaft."
           },
           "normiert": [
@@ -6042,8 +6042,8 @@
       "quellenlauf": {
         "zuletzt": "2026-10-10",
         "quellen": 10,
-        "nachgelesen": 9,
-        "unveraendert": 3,
+        "nachgelesen": 10,
+        "unveraendert": 4,
         "veraendert_gelesen": 6,
         "offen": 0,
         "verschwunden": 0,

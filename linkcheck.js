@@ -13,6 +13,7 @@
 
 const fs = require("fs");
 const Q = require("./lib/quellen.js");
+Q.mitZwischenzertifikaten();
 
 (async () => {
   const urls = Q.sammleUrls();

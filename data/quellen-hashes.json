@@ -1,4 +1,10 @@
 {
+  "http://dpa.gov.al/axe-cs007-shkurt-2026/": {
+    "hash": "97e2e17ec76eff46",
+    "gesehen": "2026-10-10",
+    "geaendert": "2026-10-10",
+    "erst": "2026-10-10"
+  },
   "https://aleph-alpha.com": {
     "nur_erreichbar": true,
     "gesehen": "2026-10-10"
@@ -365,12 +371,11 @@
     "erst": "2026-10-08"
   },
   "https://esante.gouv.fr/offres-services/hds/liste-des-hebergeurs-certifies": {
-    "hash": "fc53d17e75960ecc",
+    "hash": "2d4c0d5cd180fc4b",
     "gesehen": "2026-10-10",
     "geaendert": "2026-10-10",
     "erst": "2026-10-10",
-    "neu_hash": "798c220c0badd7b0",
-    "veraendert_seit": "2026-10-10"
+    "uebernommen": "2026-10-10"
   },
   "https://eurouter.ai": {
     "nur_erreichbar": true,

@@ -28,7 +28,7 @@
     "datum": "2026-10-10"
   },
   "anbieter/exoscale/": {
-    "hash": "bfded753f73cfee1",
+    "hash": "ab61ba4b3239cf04",
     "datum": "2026-10-10"
   },
   "anbieter/gcore/": {
@@ -72,11 +72,11 @@
     "datum": "2026-10-10"
   },
   "anbieter/ovhcloud/": {
-    "hash": "6e64c38f40ddf54c",
+    "hash": "368c4a510d7ccd29",
     "datum": "2026-10-10"
   },
   "anbieter/regolo/": {
-    "hash": "e2f14f755ccc903b",
+    "hash": "338e4ec107345d5a",
     "datum": "2026-10-10"
   },
   "anbieter/requesty/": {
@@ -220,7 +220,7 @@
     "datum": "2026-10-10"
   },
   "vergleich/exoscale-vs-hetzner/": {
-    "hash": "d36f949be730b633",
+    "hash": "0a7f57bfbe28747a",
     "datum": "2026-10-10"
   },
   "vergleich/gcore-vs-greenpt/": {
@@ -248,7 +248,7 @@
     "datum": "2026-10-10"
   },
   "vergleich/gcore-vs-ovhcloud/": {
-    "hash": "a11058aea04c23e4",
+    "hash": "4426d820a241c314",
     "datum": "2026-10-10"
   },
   "vergleich/gcore-vs-regolo/": {
@@ -288,7 +288,7 @@
     "datum": "2026-10-10"
   },
   "vergleich/greenpt-vs-ovhcloud/": {
-    "hash": "189cf3b414e655f6",
+    "hash": "94fac7bd8aa64f84",
     "datum": "2026-10-10"
   },
   "vergleich/greenpt-vs-regolo/": {
@@ -324,7 +324,7 @@
     "datum": "2026-10-10"
   },
   "vergleich/infomaniak-vs-ovhcloud/": {
-    "hash": "74dbb7a6cd647c5f",
+    "hash": "e53e57c2baefb464",
     "datum": "2026-10-10"
   },
   "vergleich/infomaniak-vs-regolo/": {
@@ -356,7 +356,7 @@
     "datum": "2026-10-10"
   },
   "vergleich/ionos-vs-ovhcloud/": {
-    "hash": "1e3f4238470890c0",
+    "hash": "4b2e0fdbabd99b13",
     "datum": "2026-10-10"
   },
   "vergleich/ionos-vs-regolo/": {
@@ -384,7 +384,7 @@
     "datum": "2026-10-10"
   },
   "vergleich/lyceum-vs-ovhcloud/": {
-    "hash": "597ece1ee8e14e82",
+    "hash": "76b0dda348c9a3b6",
     "datum": "2026-10-10"
   },
   "vergleich/lyceum-vs-regolo/": {
@@ -408,7 +408,7 @@
     "datum": "2026-10-10"
   },
   "vergleich/nebius-vs-ovhcloud/": {
-    "hash": "f0f1773aaab4f93e",
+    "hash": "9594b436a2338d98",
     "datum": "2026-10-10"
   },
   "vergleich/nebius-vs-regolo/": {
@@ -428,7 +428,7 @@
     "datum": "2026-10-10"
   },
   "vergleich/nordference-vs-ovhcloud/": {
-    "hash": "bc399de86641b18c",
+    "hash": "8bd1584d84371365",
     "datum": "2026-10-10"
   },
   "vergleich/nordference-vs-regolo/": {
@@ -452,19 +452,19 @@
     "datum": "2026-10-10"
   },
   "vergleich/ovhcloud-vs-regolo/": {
-    "hash": "539401fe4987f591",
+    "hash": "f5ca045919f8e17f",
     "datum": "2026-10-10"
   },
   "vergleich/ovhcloud-vs-scaleway/": {
-    "hash": "f6d0758150bb268d",
+    "hash": "75be3f7ca2ee7a7d",
     "datum": "2026-10-10"
   },
   "vergleich/ovhcloud-vs-stackit/": {
-    "hash": "d925af9d45db4648",
+    "hash": "d64d640de27b625a",
     "datum": "2026-10-10"
   },
   "vergleich/ovhcloud-vs-t-systems/": {
-    "hash": "5d84b7409daf86ca",
+    "hash": "4489f28cfdd776be",
     "datum": "2026-10-10"
   },
   "vergleich/regolo-vs-scaleway/": {

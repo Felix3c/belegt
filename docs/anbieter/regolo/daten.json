@@ -238,7 +238,7 @@
         "stelle_ea_mla": true,
         "status": "belegt",
         "quelle": "http://dpa.gov.al/axe-cs007-shkurt-2026/",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-10",
         "anmerkung": "Nicht DAkkS, aber akkreditiert durch DPA Albanien (Drejtoria e Përgjithshme e Akreditimit; EA-MLA, gleichwertig anerkannt): Akkreditierungsurkunde CS 007 für AXE Register Sh.p.k. (Tirana) nach ISO/IEC 17021-1, gültig 24.02.2026–23.02.2030, Anlage nennt 'ISO/IEC 27001:2022' sowie 27001 'duke integruar' ISO/IEC 27017:2015 und ISO/IEC 27018:2019 (S. 8–9). Fußzeile der Urkunde: DPA 'është nënshkruese e EA MLA dhe IAF-MLA për certifikimin e sistemeve të menaxhimit'; das EA-Mitgliederverzeichnis führt DPA als MLA-Unterzeichner u. a. für 'Management System Certification' (Abruf 08.10.2026). Hinweis: Das Seeweb-Zertifikat trägt das DA-Logo mit 'CS 007 25.02.22' (früherer Zyklus) und die italienische Adresse AXE REGISTER, Saronno; akkreditiert ist die albanische Gesellschaft."
       },
       "normiert": [
@@ -271,7 +271,7 @@
         "stelle_ea_mla": true,
         "status": "belegt",
         "quelle": "http://dpa.gov.al/axe-cs007-shkurt-2026/",
-        "geprueft": "2026-10-08",
+        "geprueft": "2026-10-10",
         "anmerkung": "Nicht DAkkS, aber akkreditiert durch DPA Albanien (Drejtoria e Përgjithshme e Akreditimit; EA-MLA, gleichwertig anerkannt): Akkreditierungsurkunde CS 007 für AXE Register Sh.p.k. (Tirana) nach ISO/IEC 17021-1, gültig 24.02.2026–23.02.2030, Anlage nennt 'ISO/IEC 27001:2022' sowie 27001 'duke integruar' ISO/IEC 27017:2015 und ISO/IEC 27018:2019 (S. 8–9). Fußzeile der Urkunde: DPA 'është nënshkruese e EA MLA dhe IAF-MLA për certifikimin e sistemeve të menaxhimit'; das EA-Mitgliederverzeichnis führt DPA als MLA-Unterzeichner u. a. für 'Management System Certification' (Abruf 08.10.2026). Hinweis: Das Seeweb-Zertifikat trägt das DA-Logo mit 'CS 007 25.02.22' (früherer Zyklus) und die italienische Adresse AXE REGISTER, Saronno; akkreditiert ist die albanische Gesellschaft."
       },
       "normiert": [
@@ -365,8 +365,8 @@
   "quellenlauf": {
     "zuletzt": "2026-10-10",
     "quellen": 10,
-    "nachgelesen": 9,
-    "unveraendert": 3,
+    "nachgelesen": 10,
+    "unveraendert": 4,
     "veraendert_gelesen": 6,
     "offen": 0,
     "verschwunden": 0,
