@@ -18,7 +18,7 @@
       "preis_input_1m_eur": 1,
       "preis_output_1m_eur": 4.2,
       "quelle": "https://regolo.ai/pricing/",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "status": "belegt",
       "backup_standort": {
         "wert": null,
@@ -41,7 +41,7 @@
       "preis_input_1m_eur": null,
       "preis_output_1m_eur": null,
       "quelle": null,
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "status": "unbelegt",
       "anmerkung": "Aussage stand bis 2026-08-19 auf https://regolo.ai/pricing/ (0,60 € / 2,70 € je 1M), am 03.10.2026 nicht mehr — kein 'llama' mehr in der Preisliste (0 Treffer im HTML). Aktuelle Chatmodelle u.a. apertus-70b, gemma4-31b, glm5.2, gpt-oss-120b/20b, mistral-small-4-119b, qwen3.5-122b/9b, qwen3.8-27b",
       "backup_standort": {
@@ -65,7 +65,7 @@
       "preis_input_1m_eur": 1,
       "preis_output_1m_eur": 4.2,
       "quelle": "https://regolo.ai/pricing/",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "status": "belegt",
       "backup_standort": {
         "wert": null,
@@ -88,7 +88,7 @@
       "preis_input_1m_eur": 0.4,
       "preis_output_1m_eur": 2.1,
       "quelle": "https://regolo.ai/pricing/",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "status": "belegt",
       "anmerkung": "Europäisches Open-Source-Modell (Swiss AI)",
       "backup_standort": {
@@ -112,7 +112,7 @@
       "preis_input_1m_eur": 0.5,
       "preis_output_1m_eur": 2.1,
       "quelle": "https://regolo.ai/pricing/",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "status": "belegt",
       "backup_standort": {
         "wert": null,
@@ -135,7 +135,7 @@
       "preis_input_1m_eur": 2,
       "preis_output_1m_eur": 5.2,
       "quelle": "https://regolo.ai/pricing/",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "status": "belegt",
       "backup_standort": {
         "wert": null,
@@ -158,56 +158,56 @@
       "wert": "https://regolo.ai/terms-and-conditions/#data-processor-agreement",
       "status": "belegt",
       "quelle": "https://regolo.ai/terms-and-conditions/",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Vollständiges Data Processor Agreement als Bestandteil der Enterprise-AGB; Verantwortlicher ist Seeweb S.r.l., Frosinone"
     },
     "subprozessoren": {
       "wert": null,
       "status": "unbelegt",
       "quelle": "https://regolo.ai/terms-and-conditions/",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Keine öffentliche Liste; laut DPA nur mit schriftlicher Genehmigung, autorisierte Liste wird geführt — Betrieb auf eigener Seeweb-Infrastruktur"
     },
     "training_opt_out": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://regolo.ai/zero-data-retention/",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Keine Wiederverwendung für Training oder Fine-Tuning ('Your data serves one purpose only: delivering the response you requested, then it is gone')"
     },
     "zero_data_retention": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://regolo.ai/zero-data-retention/",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Prompts/Outputs nur flüchtig in ephemeren Containern, keine Logs/Persistenz; ZDR-Policy durch externe Prüfgesellschaft zertifiziert (24.07.2026)"
     },
     "zweckbindung": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://regolo.ai/privacy-policy/",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Datenschutzerklärung zu Inputs und Outputs: 'collected for providing you the service requested. Other uses of the input data are not expected or possible.' bzw. 'Other uses of the output data are not expected or possible.' ZDR-Seite: 'Your data serves one purpose only: delivering the response you requested'. DPA Ziff. 3: Verarbeitung ist 'the mere technical transit'. Für Konto- und Log-Daten nennt die Datenschutzerklärung weitere Zwecke (siehe Log-Zweck), nicht für Ein-/Ausgaben."
     },
     "betroffenenrechte_traeger": {
       "wert": "auftraggeber",
       "status": "belegt",
       "quelle": "https://regolo.ai/terms-and-conditions/",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "DPA (Teil der AGB) Ziff. 7 'Rights of Data Subjects': 'Processor assists and supports the Controller with appropriate technical and organizational measures, to the extent possible, to fulfill the Controller's obligation to respond to the data subject's rights'; Ziff. 1: Controller ist 'solely responsible … for fulfilling all transparency obligations toward Data Subjects'."
     },
     "log_frist": {
       "wert": "Automatisch erfasste Logs (IP-Adresse, Browser, Ort, Datum/Uhrzeit, Gerät, Request-Typ ohne Inhalt, Zugriffsdauer) bis zur Kündigung des Kontos; Inputs/Outputs nie",
       "status": "belegt",
       "quelle": "https://regolo.ai/privacy-policy/",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Datenschutzerklärung, Tabelle 'Duration': 'Information received automatically: Until the cancellation of the Account, without prejudice to the rights and obligations of collection deriving from the terms of legal prescription in case of controversies.' Definition: 'LOGs (including IP address, browser and configuration, place, date and connection time, type of device used) … usage data: request type (without the content), duration of the access to the service.' Inputs/Outputs: 'Never, excepted the use of storage services activated by the user.'"
     },
     "log_zweck": {
       "wert": "Dienst erbringen, Behördenanfragen/gesetzliche Pflichten, Aufklärung von Cyberkriminalität, Werbe-E-Mails (ohne Zuordnung je Datenart)",
       "status": "belegt",
       "quelle": "https://regolo.ai/privacy-policy/",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Datenschutzerklärung 'Purpose and Legal Basis' wörtlich: 'We treat customer information (1) to provide the service purchased, (2) to respond to any requests of the authority or satisfy other law obligations, (3) for the assessment of responsibilities in case of eventual cybercrime to damage the IT infrastructure, (4) for sending email communications related to products and services similar to those you are already using.' Welche Zwecke für die Logs gelten, sagt sie nicht einzeln."
     }
   },
@@ -216,7 +216,7 @@
       "typ": "ISO 27001",
       "status": "belegt",
       "quelle": "https://www.seeweb.it/files/Certificato_SEEWEB_IT18-27702D-R4_2024.pdf",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Zertifikat der Betreibergesellschaft Seeweb S.r.l., nicht von Regolo selbst: ISO/IEC 27001:2022, Nr. IT18-27702D, gültig bis 28.11.2027, ausgestellt von AXE Register (Saronno); akkreditiert ist AXE Register Sh.p.k. (Tirana) durch DPA Albanien (EA-MLA), nicht DAkkS. Seeweb-Seite (09.10.2026): 'Certificato AXE REGISTER n. IT18-27702D valido fino al 28 Novembre 2027'. Das Logo im Regolo-Seitenfuß „Datacenter Certifications“ trägt am 09.10.2026 weiterhin den Alt-Text 'ISO/IEC 27001 – Information Security (Afnor / AxDéf)'; Afnor ist nicht der Zertifizierer.",
       "anwendungsbereich": {
         "wert": "Seeweb S.r.l. (Sitz Frosinone), Standorte Via Caldera 21 Mailand und Via Armando Vona 66 Frosinone: 'Progettazione e fornitura servizi di Cloud Computing e Cloud Storage, Hosting, Housing e Colocation, Posta Elettronica, Domini Internet, Sicurezza Informatica e Disaster Recovery'; SoA vom 14.10.2024",
@@ -249,7 +249,7 @@
       "typ": "ISO 27017 / 27018",
       "status": "belegt",
       "quelle": "https://www.seeweb.it/files/Certificato_Appendice_SEEWEB_27017_R4_2024.pdf",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Belegt nur über die öffentlichen Zertifikatsanhänge der Betreibergesellschaft Seeweb S.r.l. (ISO/IEC 27017 und 27018, AXE Register, gültig bis 28.11.2027; beide PDFs am 09.10.2026 erneut abgerufen), nicht über ein Zertifikat von Regolo selbst; Regolo zeigt die Normen nur als Logo (regolo.ai/terms-and-conditions/). Quelle bis 09.10.2026 die Regolo-AGB (Strenge-Runde Frage 217). Zusätzlich ISO 9001, 14001, 20000, 22301 der Seeweb S.r.l., dazu CISPE und ACN-Qualifizierung (Logos im Seitenfuß, 08.10.2026)",
       "anwendungsbereich": {
         "wert": "Seeweb S.r.l., Standorte Mailand (Via Caldera 21) und Frosinone (Via Armando Vona 66): Cloud Computing und Cloud Storage, Hosting, Housing und Colocation, E-Mail, Domains, IT-Sicherheit, Disaster Recovery",
@@ -283,7 +283,7 @@
       "typ": "CSA STAR Level 1",
       "status": "beansprucht",
       "quelle": "https://cloudsecurityalliance.org/star/registry/seeweb/",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Nur beansprucht (bis 09.10.2026 hier „belegt“, Strenge-Runde Frage 217): Der Registereintrag gilt nur für zwei Produkte der Betreibergesellschaft Seeweb, nicht für den Dienst Regolo. Gilt nicht für Regolo. Der Registereintrag (Abruf 09.10.2026) führt nur zwei Seeweb-Produkte, 'Foundation Server PRO' (Listed Since: 2022-06-07) und 'Virtual Private Cloud' (Listed Since: 2022-06-02), jeweils CAIQ-Selbstauskunft ('At level one organizations submit a self-assessment'); Seeweb-Seite seeweb.it/azienda/certificazioni: 'Certificazione Cloud Security Alliance per Virtual Private Cloud e Foundation Server PRO'. Regolo zeigt das Logo im Seitenfuß „Datacenter Certifications“ (Alt-Text 'CSA STAR Level 1') ohne diese Einschränkung.",
       "anwendungsbereich": {
         "wert": "Seeweb: 'Foundation Server PRO' (gelistet seit 07.06.2022) und 'Virtual Private Cloud' (seit 02.06.2022), jeweils CAIQ; Regolo nicht gelistet",
@@ -314,7 +314,7 @@
       "typ": "Zero-Data-Retention-Zertifizierung (extern)",
       "status": "belegt",
       "quelle": "https://regolo.ai/zero-data-retention/",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Formale Bestätigung der ZDR-Architektur durch externe Prüffirma, ausgestellt 24.07.2026",
       "anwendungsbereich": {
         "wert": "REGOLO.AI: 'does not log user prompts, messages and responses'",
@@ -354,20 +354,20 @@
       "pflicht": "AI-Act-Alignment (Transparenz, Sicherheit, Accountability)",
       "status": "beansprucht",
       "quelle": "https://regolo.ai/zero-data-retention/",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Proaktive Ausrichtung an den EU-Regeln für KI erklärt; kein Primärdokument öffentlich. Kein GPAI-Modellanbieter"
     }
   ],
   "geprueft": "2026-10-08",
   "url": "https://belegbar.eu/anbieter/regolo/",
   "beleg_quote_prozent": 73,
-  "zuletzt_geprueft": "2026-10-09",
+  "zuletzt_geprueft": "2026-10-10",
   "quellenlauf": {
-    "zuletzt": "2026-10-09",
+    "zuletzt": "2026-10-10",
     "quellen": 10,
     "nachgelesen": 9,
-    "unveraendert": 4,
-    "veraendert_gelesen": 5,
+    "unveraendert": 3,
+    "veraendert_gelesen": 6,
     "offen": 0,
     "verschwunden": 0,
     "statuswechsel_30_tage": 5

@@ -1,6 +1,6 @@
 {
   "": {
-    "hash": "83c0b511422a87c0",
+    "hash": "892823aa045a432f",
     "datum": "2026-10-10"
   },
   "404.html": {
@@ -8,91 +8,91 @@
     "datum": "2026-09-16"
   },
   "aenderungen/": {
-    "hash": "79abedfa88bd65fd",
+    "hash": "24a1f4b786378a5e",
     "datum": "2026-10-10"
   },
   "anbieter/aleph-alpha/": {
-    "hash": "6e739e23507588af",
+    "hash": "e55091a81a102f42",
     "datum": "2026-10-10"
   },
   "anbieter/black-forest-labs/": {
-    "hash": "0a884d63a8a7c27d",
+    "hash": "ab8d69bb4f5d2d4f",
     "datum": "2026-10-10"
   },
   "anbieter/deepl/": {
-    "hash": "ffec9436dbd12c25",
+    "hash": "b8f62141fea47d9e",
     "datum": "2026-10-10"
   },
   "anbieter/eurouter/": {
-    "hash": "da331f5c03a0b1b8",
+    "hash": "0ecd466dbe45499f",
     "datum": "2026-10-10"
   },
   "anbieter/exoscale/": {
-    "hash": "53cb97cefd8277bf",
+    "hash": "bfded753f73cfee1",
     "datum": "2026-10-10"
   },
   "anbieter/gcore/": {
-    "hash": "4f705b687c3c8fd3",
+    "hash": "fd783beaecf82579",
     "datum": "2026-10-10"
   },
   "anbieter/greenpt/": {
-    "hash": "d4aa684a0a7e1b8d",
+    "hash": "6bb29dbca6b742d1",
     "datum": "2026-10-10"
   },
   "anbieter/hetzner/": {
-    "hash": "e1e539722cd9f392",
+    "hash": "4f304ab4bbc47688",
     "datum": "2026-10-10"
   },
   "anbieter/infomaniak/": {
-    "hash": "788ee5915a4c398e",
+    "hash": "72058e6b6f8fb7da",
     "datum": "2026-10-10"
   },
   "anbieter/ionos/": {
-    "hash": "987910f112e48810",
+    "hash": "74b717aff83c78e6",
     "datum": "2026-10-10"
   },
   "anbieter/lyceum/": {
-    "hash": "5273c3803edcc772",
+    "hash": "da8a15f930be15f7",
     "datum": "2026-10-10"
   },
   "anbieter/mistral/": {
-    "hash": "d6c9b6497f8c6a21",
+    "hash": "131d4c1f7db6b808",
     "datum": "2026-10-10"
   },
   "anbieter/nebius/": {
-    "hash": "71f2939995a7d9cc",
+    "hash": "91251ddc6971bf1a",
     "datum": "2026-10-10"
   },
   "anbieter/nordference/": {
-    "hash": "5b58a9fdb533c901",
+    "hash": "7bbc69b18a659b69",
     "datum": "2026-10-10"
   },
   "anbieter/opper-ai/": {
-    "hash": "ae3eebcc436e2b69",
+    "hash": "db99e0aacb1a9987",
     "datum": "2026-10-10"
   },
   "anbieter/ovhcloud/": {
-    "hash": "54113455ff09333c",
+    "hash": "6e64c38f40ddf54c",
     "datum": "2026-10-10"
   },
   "anbieter/regolo/": {
-    "hash": "0f311ec96c59e9b4",
+    "hash": "e2f14f755ccc903b",
     "datum": "2026-10-10"
   },
   "anbieter/requesty/": {
-    "hash": "4900ed2ecb6bbd4f",
+    "hash": "13fb02757909ba2b",
     "datum": "2026-10-10"
   },
   "anbieter/scaleway/": {
-    "hash": "87a899adff8da586",
+    "hash": "09a36ffa71466877",
     "datum": "2026-10-10"
   },
   "anbieter/stackit/": {
-    "hash": "f0132d8615b106c8",
+    "hash": "d0e4d2fe91715bce",
     "datum": "2026-10-10"
   },
   "anbieter/t-systems/": {
-    "hash": "46a899caeb02e3e7",
+    "hash": "daaf3ea44454742e",
     "datum": "2026-10-10"
   },
   "datenschutz/": {
@@ -100,48 +100,48 @@
     "datum": "2026-09-16"
   },
   "faelle/": {
-    "hash": "66e5b3178098cf74",
-    "datum": "2026-10-09"
+    "hash": "ae2015ddd88e2d75",
+    "datum": "2026-10-10"
   },
   "faelle/black-forest-labs-zero-data-retention/": {
-    "hash": "53b962aae2adb198",
-    "datum": "2026-10-09"
+    "hash": "0a4e1a7aac554945",
+    "datum": "2026-10-10"
   },
   "faelle/greenpt-iso-27001/": {
-    "hash": "fc5aeac8481d1c43",
-    "datum": "2026-10-09"
+    "hash": "e0c3b0a6b17dbe2e",
+    "datum": "2026-10-10"
   },
   "faelle/requesty-zero-data-retention/": {
-    "hash": "4f662780e799ecf8",
-    "datum": "2026-10-09"
+    "hash": "2be1cd988e7afc57",
+    "datum": "2026-10-10"
   },
   "faelle/scaleway-generative-apis-no-access/": {
-    "hash": "a0276ca852663f97",
+    "hash": "fdbc584ce98d7a4a",
     "datum": "2026-10-10"
   },
   "fragen/": {
-    "hash": "e30a05f0c32d1ced",
-    "datum": "2026-10-09"
+    "hash": "bb6a9bab9ba0bf94",
+    "datum": "2026-10-10"
   },
   "fragen/ai-act-pflichten-nachweis-ki-anbieter/": {
-    "hash": "59a46a9c357c0c1f",
-    "datum": "2026-10-09"
+    "hash": "855fb00be4ad801f",
+    "datum": "2026-10-10"
   },
   "fragen/bsi-c5-testat-ki-anbieter/": {
-    "hash": "0ce3cafbb6e9231f",
-    "datum": "2026-10-09"
+    "hash": "feb3c90ef9aa3488",
+    "datum": "2026-10-10"
   },
   "fragen/dsgvo-konform-inference-api-eu-hosting/": {
-    "hash": "1e39cd7308172454",
-    "datum": "2026-10-09"
+    "hash": "1b42e3c563bcd0c1",
+    "datum": "2026-10-10"
   },
   "fragen/souveraene-ki-kommunen-anbieter/": {
-    "hash": "5929ccb190c21df1",
-    "datum": "2026-10-09"
+    "hash": "6a57e2880a4ac7b7",
+    "datum": "2026-10-10"
   },
   "fragen/uebersicht-eu-ki-anbieter-zertifikate-nachweis/": {
-    "hash": "ba1811b30eca4b66",
-    "datum": "2026-10-09"
+    "hash": "aa6d302470052b80",
+    "datum": "2026-10-10"
   },
   "fuer-anbieter/": {
     "hash": "f756613e99d6c255",
@@ -188,351 +188,351 @@
     "datum": "2026-09-16"
   },
   "vergleich/aleph-alpha-vs-black-forest-labs/": {
-    "hash": "cf8664e1b01488d9",
-    "datum": "2026-10-09"
+    "hash": "f86ea7f7c681649c",
+    "datum": "2026-10-10"
   },
   "vergleich/aleph-alpha-vs-deepl/": {
-    "hash": "f23e123ebeacfe87",
-    "datum": "2026-10-09"
+    "hash": "77c25b4b60bba2c7",
+    "datum": "2026-10-10"
   },
   "vergleich/aleph-alpha-vs-mistral/": {
-    "hash": "a41ebc62bf9626c1",
-    "datum": "2026-10-09"
+    "hash": "1464d990ea1aee27",
+    "datum": "2026-10-10"
   },
   "vergleich/black-forest-labs-vs-deepl/": {
-    "hash": "6b364c9b9410d879",
-    "datum": "2026-10-09"
+    "hash": "e7917fbe555cef8d",
+    "datum": "2026-10-10"
   },
   "vergleich/black-forest-labs-vs-mistral/": {
-    "hash": "6cb0ba3fe4b05115",
-    "datum": "2026-10-09"
+    "hash": "2fb575a05c632118",
+    "datum": "2026-10-10"
   },
   "vergleich/deepl-vs-mistral/": {
-    "hash": "b2599612329bc2ce",
-    "datum": "2026-10-09"
+    "hash": "8325734aa7f71de5",
+    "datum": "2026-10-10"
   },
   "vergleich/eurouter-vs-opper-ai/": {
-    "hash": "3d59b854a6ad3d12",
-    "datum": "2026-10-09"
+    "hash": "bb39c235ba1d05a7",
+    "datum": "2026-10-10"
   },
   "vergleich/eurouter-vs-requesty/": {
-    "hash": "3c71cf21bd21be3b",
-    "datum": "2026-10-09"
+    "hash": "9a33cf7bdca314a1",
+    "datum": "2026-10-10"
   },
   "vergleich/exoscale-vs-hetzner/": {
-    "hash": "270220e00161fccc",
-    "datum": "2026-10-09"
+    "hash": "d36f949be730b633",
+    "datum": "2026-10-10"
   },
   "vergleich/gcore-vs-greenpt/": {
-    "hash": "d8e94e1ade16ab21",
-    "datum": "2026-10-09"
+    "hash": "2373784899314b12",
+    "datum": "2026-10-10"
   },
   "vergleich/gcore-vs-infomaniak/": {
-    "hash": "3aa293911f445831",
-    "datum": "2026-10-09"
+    "hash": "d16ed548247391f1",
+    "datum": "2026-10-10"
   },
   "vergleich/gcore-vs-ionos/": {
-    "hash": "2360a94bec5e9c85",
-    "datum": "2026-10-09"
+    "hash": "bf25511c56e9fc7a",
+    "datum": "2026-10-10"
   },
   "vergleich/gcore-vs-lyceum/": {
-    "hash": "a7a30d4f1de0c6bd",
-    "datum": "2026-10-09"
+    "hash": "5e09afd9e3789954",
+    "datum": "2026-10-10"
   },
   "vergleich/gcore-vs-nebius/": {
-    "hash": "2a469344e772945c",
-    "datum": "2026-10-09"
+    "hash": "e84580731378a5a8",
+    "datum": "2026-10-10"
   },
   "vergleich/gcore-vs-nordference/": {
-    "hash": "9ecdf17627cb8185",
-    "datum": "2026-10-09"
+    "hash": "d337e2d67e1e0701",
+    "datum": "2026-10-10"
   },
   "vergleich/gcore-vs-ovhcloud/": {
-    "hash": "268bf1727b5dca3c",
-    "datum": "2026-10-09"
+    "hash": "a11058aea04c23e4",
+    "datum": "2026-10-10"
   },
   "vergleich/gcore-vs-regolo/": {
-    "hash": "1e1f929a58bfa1a7",
-    "datum": "2026-10-09"
+    "hash": "8422c91b331c69dc",
+    "datum": "2026-10-10"
   },
   "vergleich/gcore-vs-scaleway/": {
-    "hash": "28ac2cc083ba91b0",
-    "datum": "2026-10-09"
+    "hash": "819df9c1d1b8e060",
+    "datum": "2026-10-10"
   },
   "vergleich/gcore-vs-stackit/": {
-    "hash": "cf1be4183af56613",
-    "datum": "2026-10-09"
+    "hash": "ae00b9f9fde9b345",
+    "datum": "2026-10-10"
   },
   "vergleich/gcore-vs-t-systems/": {
-    "hash": "d6f537ecb57a0852",
-    "datum": "2026-10-09"
+    "hash": "57b0f83b7b917698",
+    "datum": "2026-10-10"
   },
   "vergleich/greenpt-vs-infomaniak/": {
-    "hash": "6a2fc81118d8553b",
-    "datum": "2026-10-09"
+    "hash": "36bf26ba82379ff6",
+    "datum": "2026-10-10"
   },
   "vergleich/greenpt-vs-ionos/": {
-    "hash": "01243f02da6bab9f",
-    "datum": "2026-10-09"
+    "hash": "537c48d200bcc2aa",
+    "datum": "2026-10-10"
   },
   "vergleich/greenpt-vs-lyceum/": {
-    "hash": "1d8c9bf14bead079",
-    "datum": "2026-10-09"
+    "hash": "5b56e65d124da85f",
+    "datum": "2026-10-10"
   },
   "vergleich/greenpt-vs-nebius/": {
-    "hash": "f90ce5c035b3c064",
-    "datum": "2026-10-09"
+    "hash": "a57d7ce0f59c2176",
+    "datum": "2026-10-10"
   },
   "vergleich/greenpt-vs-nordference/": {
-    "hash": "80f094eab490a6dc",
-    "datum": "2026-10-09"
+    "hash": "63f85faf44eeee2d",
+    "datum": "2026-10-10"
   },
   "vergleich/greenpt-vs-ovhcloud/": {
-    "hash": "339d01699c5899db",
-    "datum": "2026-10-09"
+    "hash": "189cf3b414e655f6",
+    "datum": "2026-10-10"
   },
   "vergleich/greenpt-vs-regolo/": {
-    "hash": "2176758376d96e83",
-    "datum": "2026-10-09"
+    "hash": "2473d5a0670361da",
+    "datum": "2026-10-10"
   },
   "vergleich/greenpt-vs-scaleway/": {
-    "hash": "7d0eceb87e7bc254",
-    "datum": "2026-10-09"
+    "hash": "0c8aa1b80a9a606f",
+    "datum": "2026-10-10"
   },
   "vergleich/greenpt-vs-stackit/": {
-    "hash": "a41268681de0b8cf",
-    "datum": "2026-10-09"
+    "hash": "5cba265fed878761",
+    "datum": "2026-10-10"
   },
   "vergleich/greenpt-vs-t-systems/": {
-    "hash": "ca7dcede579f2b6d",
-    "datum": "2026-10-09"
+    "hash": "c802c4dba0ec0fd2",
+    "datum": "2026-10-10"
   },
   "vergleich/infomaniak-vs-ionos/": {
-    "hash": "1df84833dd9267df",
-    "datum": "2026-10-09"
+    "hash": "e7202a96bf21a8f8",
+    "datum": "2026-10-10"
   },
   "vergleich/infomaniak-vs-lyceum/": {
-    "hash": "5a65764de5fabe72",
-    "datum": "2026-10-09"
+    "hash": "c0599df893cd0b2f",
+    "datum": "2026-10-10"
   },
   "vergleich/infomaniak-vs-nebius/": {
-    "hash": "7af061968bcfb41d",
-    "datum": "2026-10-09"
+    "hash": "a6da4fccdb925e88",
+    "datum": "2026-10-10"
   },
   "vergleich/infomaniak-vs-nordference/": {
-    "hash": "b25f3d29265fef82",
-    "datum": "2026-10-09"
+    "hash": "7dab99a86011e80f",
+    "datum": "2026-10-10"
   },
   "vergleich/infomaniak-vs-ovhcloud/": {
-    "hash": "cc5a7ae9a1baed5d",
-    "datum": "2026-10-09"
+    "hash": "74dbb7a6cd647c5f",
+    "datum": "2026-10-10"
   },
   "vergleich/infomaniak-vs-regolo/": {
-    "hash": "00c974a0ca8d7b7a",
-    "datum": "2026-10-09"
+    "hash": "f9af53fb0ec422eb",
+    "datum": "2026-10-10"
   },
   "vergleich/infomaniak-vs-scaleway/": {
-    "hash": "b41da80ffc086662",
-    "datum": "2026-10-09"
+    "hash": "e7c0b2ed07ce312c",
+    "datum": "2026-10-10"
   },
   "vergleich/infomaniak-vs-stackit/": {
-    "hash": "ead41c430a7fd587",
-    "datum": "2026-10-09"
+    "hash": "fb216394958f31ae",
+    "datum": "2026-10-10"
   },
   "vergleich/infomaniak-vs-t-systems/": {
-    "hash": "c3d12123908e0203",
-    "datum": "2026-10-09"
+    "hash": "14ae5e89d8e6179e",
+    "datum": "2026-10-10"
   },
   "vergleich/ionos-vs-lyceum/": {
-    "hash": "d2398602ba386bd0",
-    "datum": "2026-10-09"
+    "hash": "8334ce4892cf96a8",
+    "datum": "2026-10-10"
   },
   "vergleich/ionos-vs-nebius/": {
-    "hash": "3ca96d40f5428911",
-    "datum": "2026-10-09"
+    "hash": "8fb2b4e481f1063d",
+    "datum": "2026-10-10"
   },
   "vergleich/ionos-vs-nordference/": {
-    "hash": "19d90f80e00856ad",
-    "datum": "2026-10-09"
+    "hash": "3adfdea7ce51f2b1",
+    "datum": "2026-10-10"
   },
   "vergleich/ionos-vs-ovhcloud/": {
-    "hash": "a8b51b6c962ffe6e",
-    "datum": "2026-10-09"
+    "hash": "1e3f4238470890c0",
+    "datum": "2026-10-10"
   },
   "vergleich/ionos-vs-regolo/": {
-    "hash": "af35dc71691dcce2",
-    "datum": "2026-10-09"
+    "hash": "99f59019f00acc85",
+    "datum": "2026-10-10"
   },
   "vergleich/ionos-vs-scaleway/": {
-    "hash": "1dd171e4e1e2385d",
-    "datum": "2026-10-09"
+    "hash": "5dd19c65387ae30d",
+    "datum": "2026-10-10"
   },
   "vergleich/ionos-vs-stackit/": {
-    "hash": "18141fb5e9d9f4ba",
-    "datum": "2026-10-09"
+    "hash": "2cd0731df4a1b519",
+    "datum": "2026-10-10"
   },
   "vergleich/ionos-vs-t-systems/": {
-    "hash": "2b2c235d5e7927a1",
-    "datum": "2026-10-09"
+    "hash": "b2ea4e92aafdbb9e",
+    "datum": "2026-10-10"
   },
   "vergleich/lyceum-vs-nebius/": {
-    "hash": "76fb58c26a772ac0",
-    "datum": "2026-10-09"
+    "hash": "e4fd3807e38e452c",
+    "datum": "2026-10-10"
   },
   "vergleich/lyceum-vs-nordference/": {
-    "hash": "1a7cf9db90caecbd",
-    "datum": "2026-10-09"
+    "hash": "049dba30a96ce0bb",
+    "datum": "2026-10-10"
   },
   "vergleich/lyceum-vs-ovhcloud/": {
-    "hash": "20bcbe971eb4e2ed",
-    "datum": "2026-10-09"
+    "hash": "597ece1ee8e14e82",
+    "datum": "2026-10-10"
   },
   "vergleich/lyceum-vs-regolo/": {
-    "hash": "f058d207897537d2",
-    "datum": "2026-10-09"
+    "hash": "3201d379c466e46f",
+    "datum": "2026-10-10"
   },
   "vergleich/lyceum-vs-scaleway/": {
-    "hash": "5afbe0b41d9a9384",
-    "datum": "2026-10-09"
+    "hash": "99c580750269545a",
+    "datum": "2026-10-10"
   },
   "vergleich/lyceum-vs-stackit/": {
-    "hash": "57b83f700d6f5ddd",
-    "datum": "2026-10-09"
+    "hash": "e515f6719139e9cb",
+    "datum": "2026-10-10"
   },
   "vergleich/lyceum-vs-t-systems/": {
-    "hash": "fcce2a4f55217247",
-    "datum": "2026-10-09"
+    "hash": "1ad55073fbd2d81e",
+    "datum": "2026-10-10"
   },
   "vergleich/nebius-vs-nordference/": {
-    "hash": "6539c361966bff04",
-    "datum": "2026-10-09"
+    "hash": "b09c5ffb05020d3d",
+    "datum": "2026-10-10"
   },
   "vergleich/nebius-vs-ovhcloud/": {
-    "hash": "39c9e62c61df00c5",
-    "datum": "2026-10-09"
+    "hash": "f0f1773aaab4f93e",
+    "datum": "2026-10-10"
   },
   "vergleich/nebius-vs-regolo/": {
-    "hash": "e61341b31a18808f",
-    "datum": "2026-10-09"
+    "hash": "1623851e854ad859",
+    "datum": "2026-10-10"
   },
   "vergleich/nebius-vs-scaleway/": {
-    "hash": "669378ac0e5d0108",
-    "datum": "2026-10-09"
+    "hash": "9e9aef5123f6ba57",
+    "datum": "2026-10-10"
   },
   "vergleich/nebius-vs-stackit/": {
-    "hash": "75d60b1d2238c8be",
-    "datum": "2026-10-09"
+    "hash": "ec43bdd96cd2b0b7",
+    "datum": "2026-10-10"
   },
   "vergleich/nebius-vs-t-systems/": {
-    "hash": "cb4fe4d1ea10ffc9",
-    "datum": "2026-10-09"
+    "hash": "2f3ca0251e627cc8",
+    "datum": "2026-10-10"
   },
   "vergleich/nordference-vs-ovhcloud/": {
-    "hash": "4afcb1e119d03907",
-    "datum": "2026-10-09"
+    "hash": "bc399de86641b18c",
+    "datum": "2026-10-10"
   },
   "vergleich/nordference-vs-regolo/": {
-    "hash": "b56a9f445af52859",
-    "datum": "2026-10-09"
+    "hash": "3729226b2236a7b8",
+    "datum": "2026-10-10"
   },
   "vergleich/nordference-vs-scaleway/": {
-    "hash": "555e3933244ab691",
-    "datum": "2026-10-09"
+    "hash": "173900cd43925d49",
+    "datum": "2026-10-10"
   },
   "vergleich/nordference-vs-stackit/": {
-    "hash": "2fc82962afc2522e",
-    "datum": "2026-10-09"
+    "hash": "a1708deb7ea2c9fa",
+    "datum": "2026-10-10"
   },
   "vergleich/nordference-vs-t-systems/": {
-    "hash": "2ca7deb1128c61bb",
-    "datum": "2026-10-09"
+    "hash": "0068566fb99c4244",
+    "datum": "2026-10-10"
   },
   "vergleich/opper-ai-vs-requesty/": {
-    "hash": "90317b9b5b8b6bed",
-    "datum": "2026-10-09"
+    "hash": "efecff2c9a3f4f11",
+    "datum": "2026-10-10"
   },
   "vergleich/ovhcloud-vs-regolo/": {
-    "hash": "4205323279a0a821",
-    "datum": "2026-10-09"
+    "hash": "539401fe4987f591",
+    "datum": "2026-10-10"
   },
   "vergleich/ovhcloud-vs-scaleway/": {
-    "hash": "4da6ca28827f37a5",
-    "datum": "2026-10-09"
+    "hash": "f6d0758150bb268d",
+    "datum": "2026-10-10"
   },
   "vergleich/ovhcloud-vs-stackit/": {
-    "hash": "db4f30d3daa13ae2",
-    "datum": "2026-10-09"
+    "hash": "d925af9d45db4648",
+    "datum": "2026-10-10"
   },
   "vergleich/ovhcloud-vs-t-systems/": {
-    "hash": "0e815fabc019df79",
-    "datum": "2026-10-09"
+    "hash": "5d84b7409daf86ca",
+    "datum": "2026-10-10"
   },
   "vergleich/regolo-vs-scaleway/": {
-    "hash": "e2437a554e8901ef",
-    "datum": "2026-10-09"
+    "hash": "ad656d7c2247b929",
+    "datum": "2026-10-10"
   },
   "vergleich/regolo-vs-stackit/": {
-    "hash": "be2ce2e2b4ef0645",
-    "datum": "2026-10-09"
+    "hash": "7fdb3c2da734935c",
+    "datum": "2026-10-10"
   },
   "vergleich/regolo-vs-t-systems/": {
-    "hash": "5bd66695df35d687",
-    "datum": "2026-10-09"
+    "hash": "9b6a733478589349",
+    "datum": "2026-10-10"
   },
   "vergleich/scaleway-vs-stackit/": {
-    "hash": "85e748f2f7337a1c",
-    "datum": "2026-10-09"
+    "hash": "0c639706e04d05de",
+    "datum": "2026-10-10"
   },
   "vergleich/scaleway-vs-t-systems/": {
-    "hash": "bed8e455570ad0ef",
-    "datum": "2026-10-09"
+    "hash": "56d066a68fafc0dd",
+    "datum": "2026-10-10"
   },
   "vergleich/stackit-vs-t-systems/": {
-    "hash": "a8b83f74b9a1131c",
-    "datum": "2026-10-09"
+    "hash": "660cbf5e6bf7b756",
+    "datum": "2026-10-10"
   },
   "zertifikate/": {
-    "hash": "b9e34c5ed9054d56",
-    "datum": "2026-10-09"
+    "hash": "09907b96cd2c0df3",
+    "datum": "2026-10-10"
   },
   "zertifikate/bsi-c5/": {
-    "hash": "57ac9be6e42aa119",
-    "datum": "2026-10-09"
+    "hash": "ba186a9bf27106dd",
+    "datum": "2026-10-10"
   },
   "zertifikate/csa-star/": {
-    "hash": "4158a8059602e8a6",
-    "datum": "2026-10-09"
+    "hash": "4dde3c3e817d5aad",
+    "datum": "2026-10-10"
   },
   "zertifikate/hds/": {
-    "hash": "f4d9ce0acb0279aa",
-    "datum": "2026-10-09"
+    "hash": "f696b72f027e7fbb",
+    "datum": "2026-10-10"
   },
   "zertifikate/iso-27001/": {
-    "hash": "3b526335c410ca1d",
+    "hash": "e2efefb5042e05d2",
     "datum": "2026-10-10"
   },
   "zertifikate/iso-27017/": {
-    "hash": "15f22b869340f1fe",
-    "datum": "2026-10-09"
+    "hash": "1431e3b54cf8c53b",
+    "datum": "2026-10-10"
   },
   "zertifikate/iso-27018/": {
-    "hash": "7346c4e5aa72ac5f",
-    "datum": "2026-10-09"
+    "hash": "51c39bb60641f52f",
+    "datum": "2026-10-10"
   },
   "zertifikate/iso-27701/": {
-    "hash": "633ed5fbf269e4f1",
-    "datum": "2026-10-09"
+    "hash": "19afddc762e32aea",
+    "datum": "2026-10-10"
   },
   "zertifikate/iso-50001/": {
-    "hash": "d66ad56e80f88fcd",
-    "datum": "2026-10-09"
+    "hash": "92ab257041902e26",
+    "datum": "2026-10-10"
   },
   "zertifikate/soc-2/": {
-    "hash": "3530ccb8c0eb1398",
-    "datum": "2026-10-09"
+    "hash": "e2ca1f19eec4558c",
+    "datum": "2026-10-10"
   },
   "zertifikate/tisax/": {
-    "hash": "383515592adbd732",
-    "datum": "2026-10-09"
+    "hash": "7549e0a872c4ec4e",
+    "datum": "2026-10-10"
   }
 }

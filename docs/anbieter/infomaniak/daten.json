@@ -18,21 +18,21 @@
       "preis_input_1m_eur": 0.8,
       "preis_output_1m_eur": 3.6,
       "quelle": "https://www.infomaniak.com/en/hosting/ai-services/prices",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "status": "belegt",
       "anmerkung": "Preis in CHF, exkl. MwSt.; 200k Kontext, multimodal, Beta. Standort laut infomaniak.com/en/hosting/ai-services (03.10.2026): „Our AI and GPU services are powered from the heart of Europe in our data centers located in Switzerland“. Die Preisseite selbst nennt keinen Standort.",
       "backup_standort": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Keine Aussage zu Sicherungen oder Spiegelungen der KI-Dienste (Abruf 08.10.2026): LLM-Bedingungen Ziffer 6 sagen nur 'Some data is stored temporarily for the duration necessary to process the Client's request', die Produktseite 'No queries are stored'; der AVV (Ziffer 6.4) legt Backups allgemein in die Verantwortung des Kunden. Rechenzentren laut Produktseite in der Schweiz."
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Weder LLM-Bedingungen noch Produktseite (infomaniak.com/en/hosting/ai-services, Abruf 08.10.2026) erwähnen Moderation, Inhaltsfilter oder Guardrails — weder als Angebot noch als Ausschluss."
       }
     },
@@ -42,21 +42,21 @@
       "preis_input_1m_eur": 0.4,
       "preis_output_1m_eur": 3.2,
       "quelle": "https://www.infomaniak.com/en/hosting/ai-services/prices",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "status": "belegt",
       "anmerkung": "Preis in CHF, exkl. MwSt.; 200k Kontext. Standort laut infomaniak.com/en/hosting/ai-services (03.10.2026): „Our AI and GPU services are powered from the heart of Europe in our data centers located in Switzerland“. Die Preisseite selbst nennt keinen Standort.",
       "backup_standort": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Keine Aussage zu Sicherungen oder Spiegelungen der KI-Dienste (Abruf 08.10.2026): LLM-Bedingungen Ziffer 6 sagen nur 'Some data is stored temporarily for the duration necessary to process the Client's request', die Produktseite 'No queries are stored'; der AVV (Ziffer 6.4) legt Backups allgemein in die Verantwortung des Kunden. Rechenzentren laut Produktseite in der Schweiz."
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Weder LLM-Bedingungen noch Produktseite (infomaniak.com/en/hosting/ai-services, Abruf 08.10.2026) erwähnen Moderation, Inhaltsfilter oder Guardrails — weder als Angebot noch als Ausschluss."
       }
     },
@@ -66,21 +66,21 @@
       "preis_input_1m_eur": 0.3,
       "preis_output_1m_eur": 0.4,
       "quelle": "https://www.infomaniak.com/en/hosting/ai-services/prices",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "status": "belegt",
       "anmerkung": "Preis in CHF, exkl. MwSt.; 100k Kontext, Bild-Text zu Text, nicht als Beta gekennzeichnet (infomaniak.com/en/hosting/ai-services/open-source-models, Abruf 08.10.2026). Am 08.10.2026 erstmals im Profil; seit wann Infomaniak es anbietet, ist ungeklärt (die Wayback-Kopie der Preisseite vom 24.09.2026 enthält die Modellliste nicht, sie wurde damals nachgeladen). Standort laut infomaniak.com/en/hosting/ai-services (08.10.2026): „Our AI and GPU services are powered from the heart of Europe in our data centers located in Switzerland“. Die Preisseite selbst nennt keinen Standort.",
       "backup_standort": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Keine Aussage zu Sicherungen oder Spiegelungen der KI-Dienste (Abruf 08.10.2026): LLM-Bedingungen Ziffer 6 sagen nur 'Some data is stored temporarily for the duration necessary to process the Client's request', die Produktseite 'No queries are stored'; der AVV (Ziffer 6.4) legt Backups allgemein in die Verantwortung des Kunden. Rechenzentren laut Produktseite in der Schweiz."
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Weder LLM-Bedingungen noch Produktseite (infomaniak.com/en/hosting/ai-services, Abruf 08.10.2026) erwähnen Moderation, Inhaltsfilter oder Guardrails — weder als Angebot noch als Ausschluss."
       }
     },
@@ -90,21 +90,21 @@
       "preis_input_1m_eur": 0.6,
       "preis_output_1m_eur": 3,
       "quelle": "https://www.infomaniak.com/en/hosting/ai-services/prices",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "status": "belegt",
       "anmerkung": "Preis in CHF, exkl. MwSt.; Coding-Modell, 256k Kontext, Beta. Standort laut infomaniak.com/en/hosting/ai-services (03.10.2026): „Our AI and GPU services are powered from the heart of Europe in our data centers located in Switzerland“. Die Preisseite selbst nennt keinen Standort.",
       "backup_standort": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Keine Aussage zu Sicherungen oder Spiegelungen der KI-Dienste (Abruf 08.10.2026): LLM-Bedingungen Ziffer 6 sagen nur 'Some data is stored temporarily for the duration necessary to process the Client's request', die Produktseite 'No queries are stored'; der AVV (Ziffer 6.4) legt Backups allgemein in die Verantwortung des Kunden. Rechenzentren laut Produktseite in der Schweiz."
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Weder LLM-Bedingungen noch Produktseite (infomaniak.com/en/hosting/ai-services, Abruf 08.10.2026) erwähnen Moderation, Inhaltsfilter oder Guardrails — weder als Angebot noch als Ausschluss."
       }
     },
@@ -114,21 +114,21 @@
       "preis_input_1m_eur": 0.2,
       "preis_output_1m_eur": 0.75,
       "quelle": "https://www.infomaniak.com/en/hosting/ai-services/prices",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "status": "belegt",
       "anmerkung": "Preis in CHF, exkl. MwSt.; 256k Kontext. Standort laut infomaniak.com/en/hosting/ai-services (03.10.2026): „Our AI and GPU services are powered from the heart of Europe in our data centers located in Switzerland“. Die Preisseite selbst nennt keinen Standort.",
       "backup_standort": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Keine Aussage zu Sicherungen oder Spiegelungen der KI-Dienste (Abruf 08.10.2026): LLM-Bedingungen Ziffer 6 sagen nur 'Some data is stored temporarily for the duration necessary to process the Client's request', die Produktseite 'No queries are stored'; der AVV (Ziffer 6.4) legt Backups allgemein in die Verantwortung des Kunden. Rechenzentren laut Produktseite in der Schweiz."
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Weder LLM-Bedingungen noch Produktseite (infomaniak.com/en/hosting/ai-services, Abruf 08.10.2026) erwähnen Moderation, Inhaltsfilter oder Guardrails — weder als Angebot noch als Ausschluss."
       }
     },
@@ -138,21 +138,21 @@
       "preis_input_1m_eur": 0.7,
       "preis_output_1m_eur": 2.5,
       "quelle": "https://www.infomaniak.com/en/hosting/ai-services/prices",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "status": "belegt",
       "anmerkung": "Preis in CHF, exkl. MwSt.; Schweizer Open-Source-Modell (ETH/EPFL-Umfeld), offene Gewichte und Trainingsdaten, Beta. Standort laut infomaniak.com/en/hosting/ai-services (03.10.2026): „Our AI and GPU services are powered from the heart of Europe in our data centers located in Switzerland“. Die Preisseite selbst nennt keinen Standort.",
       "backup_standort": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Keine Aussage zu Sicherungen oder Spiegelungen der KI-Dienste (Abruf 08.10.2026): LLM-Bedingungen Ziffer 6 sagen nur 'Some data is stored temporarily for the duration necessary to process the Client's request', die Produktseite 'No queries are stored'; der AVV (Ziffer 6.4) legt Backups allgemein in die Verantwortung des Kunden. Rechenzentren laut Produktseite in der Schweiz."
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Weder LLM-Bedingungen noch Produktseite (infomaniak.com/en/hosting/ai-services, Abruf 08.10.2026) erwähnen Moderation, Inhaltsfilter oder Guardrails — weder als Angebot noch als Ausschluss."
       }
     },
@@ -162,21 +162,21 @@
       "preis_input_1m_eur": 0.2,
       "preis_output_1m_eur": 0.4,
       "quelle": "https://www.infomaniak.com/en/hosting/ai-services/prices",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "status": "belegt",
       "anmerkung": "Preis in CHF, exkl. MwSt.; 100k Kontext. Standort laut infomaniak.com/en/hosting/ai-services (03.10.2026): „Our AI and GPU services are powered from the heart of Europe in our data centers located in Switzerland“. Die Preisseite selbst nennt keinen Standort.",
       "backup_standort": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Keine Aussage zu Sicherungen oder Spiegelungen der KI-Dienste (Abruf 08.10.2026): LLM-Bedingungen Ziffer 6 sagen nur 'Some data is stored temporarily for the duration necessary to process the Client's request', die Produktseite 'No queries are stored'; der AVV (Ziffer 6.4) legt Backups allgemein in die Verantwortung des Kunden. Rechenzentren laut Produktseite in der Schweiz."
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Weder LLM-Bedingungen noch Produktseite (infomaniak.com/en/hosting/ai-services, Abruf 08.10.2026) erwähnen Moderation, Inhaltsfilter oder Guardrails — weder als Angebot noch als Ausschluss."
       }
     },
@@ -186,21 +186,21 @@
       "preis_input_1m_eur": null,
       "preis_output_1m_eur": null,
       "quelle": "https://www.infomaniak.com/en/hosting/ai-services/prices",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "status": "belegt",
       "anmerkung": "Abrechnung pro Minute Generierungszeit (CHF 0.006/min), nicht pro Token; zudem Embedding-/Reranker-Modelle und Bildgenerierung (Flux schnell, Photomaker V2, je CHF 0.30/min) im Angebot. Standort laut infomaniak.com/en/hosting/ai-services (03.10.2026): „Our AI and GPU services are powered from the heart of Europe in our data centers located in Switzerland“. Die Preisseite selbst nennt keinen Standort.",
       "backup_standort": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Keine Aussage zu Sicherungen oder Spiegelungen der KI-Dienste (Abruf 08.10.2026): LLM-Bedingungen Ziffer 6 sagen nur 'Some data is stored temporarily for the duration necessary to process the Client's request', die Produktseite 'No queries are stored'; der AVV (Ziffer 6.4) legt Backups allgemein in die Verantwortung des Kunden. Rechenzentren laut Produktseite in der Schweiz."
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Weder LLM-Bedingungen noch Produktseite (infomaniak.com/en/hosting/ai-services, Abruf 08.10.2026) erwähnen Moderation, Inhaltsfilter oder Guardrails — weder als Angebot noch als Ausschluss."
       }
     }
@@ -210,56 +210,56 @@
       "wert": "https://www.infomaniak.com/documents/privacy/DPA/Data_Processing_Agreement_(DPA).pdf",
       "status": "belegt",
       "quelle": "https://www.infomaniak.com/documents/privacy/DPA/Data_Processing_Agreement_(DPA).pdf",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Öffentliches AVV-PDF nach EU- und Schweizer Datenschutzrecht; Schweizer Recht, Gerichtsstand Genf; Ziffer 13: keine Übermittlung außerhalb EU/EWR ohne vorherige schriftliche Zustimmung. Generischer Hosting-AVV, nicht KI-spezifisch"
     },
     "subprozessoren": {
       "wert": null,
       "status": "unbelegt",
       "quelle": "https://www.infomaniak.com/documents/privacy/DPA/Data_Processing_Agreement_(DPA).pdf",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Keine öffentliche Subprozessoren-Liste; AVV Ziffer 5 regelt Vorabinformation und 30 Tage Widerspruchsfrist. Die Datenschutzerklärung (infomaniak.com/en/legal/confidentiality-policy, Abruf 04.10.2026) verweist für dienstspezifische Unterauftragnehmer auf einen Anhang: they are listed in the “Third-Party Subcontractors” annex of our Data Processing Agreement (DPA) — das öffentliche AVV-PDF enthält keinen solchen Anhang, die Seite der Vertragsdokumente verlinkt als Anhang nur die technisch-organisatorischen Maßnahmen (Stand 04.10.2026). Ob für die KI-API Unterauftragnehmer eingesetzt werden, steht in keinem öffentlichen Dokument"
     },
     "training_opt_out": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://welcome.infomaniak.com/api/web-components/1/cgu/latest?id=87&locale=en_GB",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Besondere Bedingungen „LLM API - Terms and Conditions of Use“ (Fassung „Review of 07/10/2025“, Abruf 04.10.2026), Ziffer 6 wörtlich: Infomaniak explicitly states it does not use transmitted data (prompts, response content) to train its own AIs or to exploit the data in any other way — Training per Vertrag ausgeschlossen, kein Opt-out nötig. Die Bedingungen gehen den allgemeinen Nutzungsbedingungen vor (Ziffer 1). Produktseite gleichlautend: 'Your queries are neither recorded nor used to train models or improve our services'. Das PDF wird bei jedem Abruf neu erzeugt (Datei-Hash wechselt, Text gleich)"
     },
     "zero_data_retention": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://welcome.infomaniak.com/api/web-components/1/cgu/latest?id=87&locale=en_GB",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Besondere Bedingungen „LLM API - Terms and Conditions of Use“ (Fassung „Review of 07/10/2025“, Abruf 04.10.2026), Ziffer 6 wörtlich: Infomaniak does not permanently collect any information transmitted by the Client during API usage, except for data necessary for billing and the proper functioning of the service. Some data is stored temporarily for the duration necessary to process the Client's request. — gleiche Formel wie bei Lyceum und DeepL (Speicherung nur für die Bearbeitung). Der Vertrag ist enger als die Produktseite ('No queries are stored'): Ausnahme für Abrechnung und Betrieb ohne Frist; dauerhaft erfasst werden laut Ziffer 6 Kunden-ID, Anzahl und Bearbeitungszeit der Anfragen, Zeitstempel und Metadaten (Größe, Format, Dauer, Seitenzahl)"
     },
     "zweckbindung": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://welcome.infomaniak.com/api/web-components/1/cgu/latest?id=87&locale=en_GB",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Besondere Bedingungen 'LLM API - Terms and Conditions of Use' (Review of 07/10/2025, Abruf 08.10.2026), Ziffer 6 wörtlich: 'Infomaniak explicitly states it does not use transmitted data (prompts, response content) to train its own AIs or to exploit the data in any other way.' Dauerhaft erfasst werden nur Betriebsdaten ('except for data necessary for billing and the proper functioning of the service'): Kunden-ID, Anzahl und Bearbeitungszeit der Anfragen, Zeitstempel, Metadaten. Der AVV (Ziffer 2.1.4) ergänzt: 'not to access or use the Company's Personal Data for purposes other than those necessary for the performance of the Services (in particular for incident management)'. Produktseite gleichlautend: 'neither recorded nor used to train models or improve our services'."
     },
     "betroffenenrechte_traeger": {
       "wert": "auftraggeber",
       "status": "belegt",
       "quelle": "https://www.infomaniak.com/documents/privacy/DPA/Data_Processing_Agreement_(DPA).pdf",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "AVV Ziffer 6.1: Infomaniak 'must assist the Company ... to respond to requests to exercise the rights of Data Subjects'; Ziffer 6.2: Infomaniak muss den Kunden benachrichtigen und darf 'not respond to such a request, except on documented instructions from the Company or as required by applicable laws'. Abruf 08.10.2026."
     },
     "log_frist": {
       "wert": null,
       "status": "unbelegt",
       "quelle": "https://welcome.infomaniak.com/api/web-components/1/cgu/latest?id=87&locale=en_GB",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Für die Betriebsdaten der LLM API (Kunden-ID, Anzahl/Bearbeitungszeit, Zeitstempel, Metadaten; Ziffer 6 der LLM-Bedingungen) nennt kein Dokument eine Frist: weder die LLM-Bedingungen noch der AVV noch die Datenschutzerklärung (Abruf 08.10.2026). Die Datenschutzerklärung nennt nur für Konto-Logs 'Log files for your account (IP addresses): up to twelve months' — das betrifft das Kundenkonto, nicht ausdrücklich die API-Anfragen. Inhalte: 'Some data is stored temporarily for the duration necessary to process the Client's request.'"
     },
     "log_zweck": {
       "wert": "Abrechnung und ordnungsgemäßer Betrieb des Dienstes",
       "status": "belegt",
       "quelle": "https://welcome.infomaniak.com/api/web-components/1/cgu/latest?id=87&locale=en_GB",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "LLM-Bedingungen Ziffer 6 wörtlich: 'except for data necessary for billing and the proper functioning of the service', Überschrift der Liste 'Data Collected for Operational Purposes'. Abruf 08.10.2026."
     }
   },
@@ -268,20 +268,20 @@
       "typ": "ISO 27001:2022",
       "status": "belegt",
       "quelle": "https://www.infomaniak.com/documents/iso/27001_1EN.pdf",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Zertifikat CH21/0527.00 von SGS United Kingdom Ltd für 'Infomaniak Group SA', gültig 30.03.2024 bis 29.03.2027, 'Issue 3. Certified since 30 April 2021'. Vertragspartnerin der LLM API ist dagegen 'Infomaniak Network SA' (LLM-Bedingungen, Review of 07/10/2025, Abruf 09.10.2026; ebenso der AVV); ob die Network SA unter das Zertifikat fällt, ist ungeklärt. Das veröffentlichte PDF hat nur 'Page 1 / 2', die Folgeseite mit den weiteren Standorten ('Certified activities performed by additional sites are listed on subsequent pages') fehlt. Die Zertifikatsseite (https://www.infomaniak.com/en/certifications, Abruf 09.10.2026) sagt weiter 'Infomaniak has been certified ISO 27001 since June 2018'; belegt ist durch das Zertifikat nur 'since 30 April 2021'. Bis 09.10. stand hier 'Seit Juni 2018; Zertifikat als Download angeboten'.",
       "anwendungsbereich": {
         "wert": "Infomaniak Group SA, Rue Eugène-Marziano 25, 1227 Genf: 'Development and provision of cloud infrastructures, web services, apps, customer support, operational maintenance of data centers'; SoA Version 2023, keine Ausschlüsse von Annex A",
         "status": "belegt",
         "quelle": "https://www.infomaniak.com/documents/iso/27001_1EN.pdf",
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Zertifikat CH21/0527.00 (Abruf 09.10.2026, gleiche Datei wie am 08.10.): 'In accordance with Statement of Applicability version 2023. No exclusions to Annex A controls.' Inhaber ist Infomaniak Group SA, nicht die Vertragspartnerin der LLM API (Infomaniak Network SA, laut LLM-Bedingungen); ob die Network SA mit abgedeckt ist, sagt das Zertifikat nicht ausdrücklich. 'Certified activities performed by additional sites are listed on subsequent pages' — das veröffentlichte PDF hat nur Seite 1 von 2, die Standortliste fehlt. Die KI-Dienste sind nicht eigens genannt, fallen aber unter 'cloud infrastructures, web services'."
       },
       "zertifizierer": {
         "wert": "SGS United Kingdom Ltd (Zertifikat CH21/0527.00, gültig 30.03.2024 bis 29.03.2027)",
         "status": "belegt",
         "quelle": "https://www.infomaniak.com/documents/iso/27001_1EN.pdf",
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Zertifikat: 'SGS United Kingdom Ltd, Rossmore Business Park, Ellesmere Port', 'Issue 3. Certified since 30 April 2021'. Die Zertifikatsseite nennt 'certified ISO 27001 since June 2018'; die Zeit vor April 2021 ist durch kein veröffentlichtes Zertifikat belegt."
       },
       "akkreditiert_dakks": {
@@ -290,7 +290,7 @@
         "stelle_ea_mla": true,
         "status": "belegt",
         "quelle": "https://www.ukas.com/download-schedule/0005/ManagementSystems",
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Nicht DAkkS, aber akkreditiert durch UKAS (EA-MLA, gleichwertig anerkannt): Das Zertifikat trägt das UKAS-Zeichen 0005; der UKAS-Akkreditierungsumfang für SGS United Kingdom Limited (Nr. 0005, Issue 212 vom 15.04.2026, Abruf 08.10.2026) nennt 'Information Security Management Systems (ISMS) to ISO/IEC 27001:2022'."
       },
       "normiert": [
@@ -301,27 +301,27 @@
       "typ": "ISO 9001 / 14001 / 50001",
       "status": "belegt",
       "quelle": "https://www.infomaniak.com/en/certifications",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Qualitäts-, Umwelt- und Energiemanagement",
       "anwendungsbereich": {
         "wert": "Infomaniak Group SA, Rue Eugène-Marziano 25, 1227 Genf: 'Development and provision of cloud infrastructures, web services, apps, customer support, operational maintenance of data centers' (gleich für ISO 9001:2015, 14001:2015, 50001:2018)",
         "status": "belegt",
         "quelle": "https://www.infomaniak.com/documents/iso/9001_1EN.pdf",
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Drei Zertifikate, Abruf 08.10.2026: ISO 9001 CH22/0364.00 (gültig bis 12.03.2027), ISO 14001 CH21/0526.00 und ISO 50001 CH21/0528.00 (beide gültig bis 29.03.2027), jeweils mit gleichem Tätigkeitsbereich; weitere PDFs: infomaniak.com/documents/iso/14001_1EN.pdf und 50001_1EN.pdf. Weitere Standorte stehen laut Zertifikat auf Seite 2, die im veröffentlichten PDF fehlt. Die Zertifikatsseite nennt ISO 14001 und 50001 'since April 2015', die Zertifikate 'Certified since 30 April 2021'."
       },
       "zertifizierer": {
         "wert": "SGS Société Générale de Surveillance SA, Zürich (ISO 9001, ISO 14001); SGS Italia S.p.A., Mailand (ISO 50001)",
         "status": "belegt",
         "quelle": "https://www.infomaniak.com/documents/iso/9001_1EN.pdf",
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Laut den drei Zertifikaten (Abruf 08.10.2026)."
       },
       "akkreditiert_dakks": {
         "wert": false,
         "status": "beansprucht",
         "quelle": "https://www.infomaniak.com/documents/iso/9001_1EN.pdf",
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Nicht DAkkS. Die Zertifikate tragen das Zeichen des Schweizer SAS (SCESm 0017, ISO 9001/14001) bzw. von Accredia (Italien, ISO 50001), beide EA-MLA, gleichwertig anerkannt. Nicht in den Datenbanken von SAS und Accredia nachgeprüft (SAS-Suche lädt nur per Skript); deshalb beansprucht, nicht belegt."
       },
       "normiert": [
@@ -334,27 +334,27 @@
       "typ": "B Corp",
       "status": "belegt",
       "quelle": "https://www.infomaniak.com/en/certifications",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Seit 2025",
       "anwendungsbereich": {
         "wert": null,
         "status": "unbelegt",
         "quelle": "https://www.infomaniak.com/en/certifications",
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Die Zertifikatsseite sagt nur 'Infomaniak has been certified B Corp since 2025' und verlinkt das Profil bcorporation.net/en-us/find-a-b-corp/company/infomaniak-group-sa/ (Abruf 08.10.2026: HTTP 403, nicht lesbar). B Corp bewertet das Unternehmen als Ganzes, nicht einzelne Dienste."
       },
       "zertifizierer": {
         "wert": "B Lab (Herausgeber des B-Corp-Labels)",
         "status": "beansprucht",
         "quelle": "https://www.infomaniak.com/en/certifications",
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Die Zertifikatsseite verlinkt das B-Corp-Verzeichnis von B Lab; das Profil selbst war am 08.10.2026 nicht abrufbar (HTTP 403)."
       },
       "akkreditiert_dakks": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "B Corp ist ein Label von B Lab, keine akkreditierte Zertifizierung nach einer Norm; eine DAkkS-Akkreditierung gibt es dafür nicht."
       },
       "normiert": [
@@ -365,27 +365,27 @@
       "typ": "Swiss-Hosting-Label",
       "status": "belegt",
       "quelle": "https://www.infomaniak.com/en/certifications",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Bestätigt Sitz und Hosting der Kundendaten in Schweizer Rechenzentren unter eigener Kontrolle",
       "anwendungsbereich": {
         "wert": "Infomaniak als Ganzes: Kundendaten, Online-Werkzeuge, SaaS und Geschäftsdaten in Rechenzentren in der Schweiz",
         "status": "beansprucht",
         "quelle": "https://www.infomaniak.com/en/certifications",
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Zertifikatsseite (Abruf 08.10.2026): 'certifies that Infomaniak is legally and physically located in Switzerland and that the customer data, online tools, software as a service (SaaS) and factual data ... are hosted and executed in a data center located in Switzerland'. Kein Label-Dokument mit Umfang veröffentlicht."
       },
       "zertifizierer": {
         "wert": "swiss made software (Labelgeberin; Lizenz an Mitglieder, keine Prüfung beschrieben)",
         "status": "belegt",
         "quelle": "https://www.swissmadesoftware.org/en/swiss-hosting.html",
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Labelseite (Abruf 08.10.2026): 'The swiss hosting label was developed by the company swiss made software and is offered exclusively to its members.' Lizenznehmer müssen 'declare the intended use and agree to the relevant term and conditions'; eine Prüfung durch Dritte beschreibt die Seite nicht."
       },
       "akkreditiert_dakks": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Label eines Verbands mit Nutzungsbedingungen, keine akkreditierte Zertifizierung; eine Akkreditierung ist dafür nicht vorgesehen."
       },
       "normiert": []
@@ -394,27 +394,27 @@
       "typ": "SOC 2",
       "status": "unbelegt",
       "quelle": "https://www.infomaniak.com/en/certifications",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Kein SOC-2-Bericht: die Zertifikatsseite nennt am 04.10.2026 ISO 27001, 9001, 14001, 50001, die Swiss-Labels und B Corp, SOC 2 nicht",
       "anwendungsbereich": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Kein SOC-2-Bericht vorhanden (siehe Eintrag), daher kein Umfang."
       },
       "zertifizierer": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Kein SOC-2-Bericht vorhanden, daher kein Prüfer."
       },
       "akkreditiert_dakks": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "SOC 2 ist ein Testat eines Wirtschaftsprüfers, keine akkreditierte Zertifizierung; bei Infomaniak gibt es zudem keinen Bericht."
       },
       "normiert": [
@@ -428,7 +428,7 @@
     "zertifizierer": null,
     "anwendungsbereich": null,
     "quelle": null,
-    "geprueft": "2026-10-09",
+    "geprueft": "2026-10-10",
     "anmerkung": "Die Zertifizierungsseite nennt ISO 27001:2022, ISO 9001:2015, ISO 14001:2015 und ISO 50001:2018. Eine Volltextsuche im HTML nach \"42001\" ergab 0 Treffer, auch die Websuche fand nichts. Geprüft: https://www.infomaniak.com/en/certifications, https://www.infomaniak.ch/en/certifications (308-Weiterleitung auf .com), WebSearch: \"Infomaniak ISO 42001\""
   },
   "ai_act": [
@@ -445,12 +445,12 @@
       "anmerkung": "Beworben wird nur Datenschutz (Schweizer und EU-Recht), keine Aussage zu KI-spezifischen Pflichten. Am 04.10.2026 unverändert: Produktseite und Bedingungen der LLM API ohne Aussage dazu"
     }
   ],
-  "geprueft": "2026-10-09",
+  "geprueft": "2026-10-10",
   "url": "https://belegbar.eu/anbieter/infomaniak/",
   "beleg_quote_prozent": 79,
-  "zuletzt_geprueft": "2026-10-09",
+  "zuletzt_geprueft": "2026-10-10",
   "quellenlauf": {
-    "zuletzt": "2026-10-09",
+    "zuletzt": "2026-10-10",
     "quellen": 8,
     "nachgelesen": 8,
     "unveraendert": 6,

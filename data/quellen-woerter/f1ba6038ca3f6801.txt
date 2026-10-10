@@ -905,6 +905,8 @@ Kolibri:
 Kolibri:
 Kommunikation
 Kontakt
+Kontakt
+Kontakt
 Kontaktanfrage
 Kontaktanfrage
 Kontaktaufnahme
@@ -1086,8 +1088,6 @@ SCCON
 SCCON
 Safari)
 Sales
-Sales
-Sales
 Scheer
 Scheer
 Schutzniveau
@@ -1260,6 +1260,10 @@ Uhr
 Uhrzeit
 Umfang,
 Ungefährer
+Unsere
+Unsere
+Unsere
+Unsere
 Unsere
 Unternehmen
 Unternehmen
@@ -2207,8 +2211,6 @@ klicken
 kommunizieren.
 kommunizieren.
 komprimierten
-kontaktieren
-kontaktieren
 kontaktieren
 kontaktieren,
 kontaktieren,

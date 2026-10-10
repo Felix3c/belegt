@@ -18,21 +18,21 @@
       "preis_input_1m_eur": 0.3,
       "preis_output_1m_eur": 0.5,
       "quelle": "https://eurouter.ai/models",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "status": "belegt",
       "anmerkung": "Preis in USD. Standort laut eurouter.ai/providers (05.10.2026): „All models in EUrouter use EU inference profiles or EU regional deployments to ensure data stays within the EU.“ Eine Region „EU-West“ wird nicht genannt.",
       "backup_standort": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Kein Ort für Sicherungen genannt (Abruf 08.10.2026). DPA Annex 1 'Backups': 'Backups are used for relevant account, billing, configuration and operational systems. Transient API payload content is not expected to be available in backups.' Kerninfrastruktur laut Subprozessorliste: 'Compute and storage in Scaleway nl-ams (Amsterdam)'. Sicherungen beim jeweiligen Modellanbieter regelt EUrouter nicht."
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Keine Moderation oder Inhaltsfilter von EUrouter beschrieben (DPA, AGB, Doku Routing/Providers, Abruf 08.10.2026). Einzige Nachverarbeitung ist das Plugin 'Response Healing', das 'syntactically invalid JSON' repariert — nur bei Strukturausgaben, standardmäßig aus ('If neither is set, Response Healing stays off', eurouter.ai/docs/concepts/plugins). Filter der nachgeschalteten Modellanbieter sind nicht dokumentiert."
       }
     },
@@ -42,21 +42,21 @@
       "preis_input_1m_eur": 0.73,
       "preis_output_1m_eur": 3.5,
       "quelle": "https://eurouter.ai/models",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "status": "belegt",
       "anmerkung": "Preis in USD; Modellseite eurouter.ai/models/kimi-k2.6 am 09.10.2026: Input $0.73, Output $3.50 (bis 08.10. Input $0.66, am 03.10. davor $0.80; Archivkopie web.archive.org/web/20261009094926/https://www.eurouter.ai/models/kimi-k2.6). Standort laut eurouter.ai/providers (05.10.2026): „All models in EUrouter use EU inference profiles or EU regional deployments to ensure data stays within the EU.“ Eine Region „EU-West“ wird nicht genannt.",
       "backup_standort": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Kein Ort für Sicherungen genannt (Abruf 08.10.2026). DPA Annex 1 'Backups': 'Backups are used for relevant account, billing, configuration and operational systems. Transient API payload content is not expected to be available in backups.' Kerninfrastruktur laut Subprozessorliste: 'Compute and storage in Scaleway nl-ams (Amsterdam)'. Sicherungen beim jeweiligen Modellanbieter regelt EUrouter nicht."
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Keine Moderation oder Inhaltsfilter von EUrouter beschrieben (DPA, AGB, Doku Routing/Providers, Abruf 08.10.2026). Einzige Nachverarbeitung ist das Plugin 'Response Healing', das 'syntactically invalid JSON' repariert — nur bei Strukturausgaben, standardmäßig aus ('If neither is set, Response Healing stays off', eurouter.ai/docs/concepts/plugins). Filter der nachgeschalteten Modellanbieter sind nicht dokumentiert."
       }
     },
@@ -66,21 +66,21 @@
       "preis_input_1m_eur": 0.1,
       "preis_output_1m_eur": 0.5,
       "quelle": "https://eurouter.ai/models",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "status": "belegt",
       "anmerkung": "Preis in USD; Modellseite eurouter.ai/models/gemma-4 am 09.10.2026: Input $0.10, Output $0.50 (bis 08.10. Output $0.35; Archivkopie web.archive.org/web/20261009094947/https://www.eurouter.ai/models/gemma-4). Standort laut eurouter.ai/providers (05.10.2026): „All models in EUrouter use EU inference profiles or EU regional deployments to ensure data stays within the EU.“ Eine Region „EU-West“ wird nicht genannt.",
       "backup_standort": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Kein Ort für Sicherungen genannt (Abruf 08.10.2026). DPA Annex 1 'Backups': 'Backups are used for relevant account, billing, configuration and operational systems. Transient API payload content is not expected to be available in backups.' Kerninfrastruktur laut Subprozessorliste: 'Compute and storage in Scaleway nl-ams (Amsterdam)'. Sicherungen beim jeweiligen Modellanbieter regelt EUrouter nicht."
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Keine Moderation oder Inhaltsfilter von EUrouter beschrieben (DPA, AGB, Doku Routing/Providers, Abruf 08.10.2026). Einzige Nachverarbeitung ist das Plugin 'Response Healing', das 'syntactically invalid JSON' repariert — nur bei Strukturausgaben, standardmäßig aus ('If neither is set, Response Healing stays off', eurouter.ai/docs/concepts/plugins). Filter der nachgeschalteten Modellanbieter sind nicht dokumentiert."
       }
     },
@@ -90,21 +90,21 @@
       "preis_input_1m_eur": null,
       "preis_output_1m_eur": null,
       "quelle": "https://eurouter.ai/models",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "status": "belegt",
       "anmerkung": "Modell gelistet; Preise (USD/1M, Input/Output, nach 'Show all' sichtbar) je Variante: Claude Opus 5 5.50/27.50, Opus 5.5 4.40/22.00, Sonnet 5 2.20/11.00, Sonnet 4.6 3.30/16.50, Haiku 4.5 1.10/5.50 — als Sammeleintrag mit mehreren Preisen daher ohne einzelnes preis_*_eur-Feld geführt. Standort laut eurouter.ai/providers (05.10.2026): „All models in EUrouter use EU inference profiles or EU regional deployments to ensure data stays within the EU.“ Eine Region „EU-West“ wird nicht genannt.",
       "backup_standort": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Kein Ort für Sicherungen genannt (Abruf 08.10.2026). DPA Annex 1 'Backups': 'Backups are used for relevant account, billing, configuration and operational systems. Transient API payload content is not expected to be available in backups.' Kerninfrastruktur laut Subprozessorliste: 'Compute and storage in Scaleway nl-ams (Amsterdam)'. Sicherungen beim jeweiligen Modellanbieter regelt EUrouter nicht."
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Keine Moderation oder Inhaltsfilter von EUrouter beschrieben (DPA, AGB, Doku Routing/Providers, Abruf 08.10.2026). Einzige Nachverarbeitung ist das Plugin 'Response Healing', das 'syntactically invalid JSON' repariert — nur bei Strukturausgaben, standardmäßig aus ('If neither is set, Response Healing stays off', eurouter.ai/docs/concepts/plugins). Filter der nachgeschalteten Modellanbieter sind nicht dokumentiert."
       }
     },
@@ -114,21 +114,21 @@
       "preis_input_1m_eur": 0.55,
       "preis_output_1m_eur": 1.65,
       "quelle": "https://eurouter.ai/models",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "status": "belegt",
       "anmerkung": "Preis in USD (256K Kontext). Standort laut eurouter.ai/providers (05.10.2026): „All models in EUrouter use EU inference profiles or EU regional deployments to ensure data stays within the EU.“ Eine Region „EU-West“ wird nicht genannt.",
       "backup_standort": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Kein Ort für Sicherungen genannt (Abruf 08.10.2026). DPA Annex 1 'Backups': 'Backups are used for relevant account, billing, configuration and operational systems. Transient API payload content is not expected to be available in backups.' Kerninfrastruktur laut Subprozessorliste: 'Compute and storage in Scaleway nl-ams (Amsterdam)'. Sicherungen beim jeweiligen Modellanbieter regelt EUrouter nicht."
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Keine Moderation oder Inhaltsfilter von EUrouter beschrieben (DPA, AGB, Doku Routing/Providers, Abruf 08.10.2026). Einzige Nachverarbeitung ist das Plugin 'Response Healing', das 'syntactically invalid JSON' repariert — nur bei Strukturausgaben, standardmäßig aus ('If neither is set, Response Healing stays off', eurouter.ai/docs/concepts/plugins). Filter der nachgeschalteten Modellanbieter sind nicht dokumentiert."
       }
     }
@@ -138,56 +138,56 @@
       "wert": "https://eurouter.ai/dpa",
       "status": "belegt",
       "quelle": "https://eurouter.ai/dpa",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Vollständiges DPA ('Last updated: May 2026'), signierbare Version zum Download; Vertragspartner EUrouter B.V. (KVK 42054357); Ziffer 5: Verarbeitung ausschließlich im EWR zugesichert; geht laut Einleitung bei personenbezogenen Daten den AGB vor. Archivkopie web.archive.org/web/20261005042945 (byte-gleich zum Abruf)"
     },
     "subprozessoren": {
       "wert": "https://eurouter.ai/providers",
       "status": "belegt",
       "quelle": "https://eurouter.ai/dpa",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Provider- und Subprozessorliste im DPA (Stand 25.08.2026, am 05.10.2026 unverändert): 15 AI-Provider, Scaleway (nl-ams) als Kerninfrastruktur, Better Stack und PostHog Cloud EU für Diagnose, Mollie für Zahlungen; 2 der 15 Provider haben US-Sitz (AWS Bedrock, Microsoft Foundry). Sentry ist nicht mehr gelistet. Die Liste führt bei allen 15 Providern denselben Eintrag 'No prompt retention / no training' und sagt dazu selbst: 'Provider retention and model-training positions may vary. Customers should select providers that match their requirements.' Der Eintrag gibt wieder, was EUrouter für den Provider vermerkt hat; ob er für jeden Provider dessen eigenen Bedingungen entspricht, ist hier nicht geprüft (siehe die Profile von Mistral, Nebius und Scaleway). Archivkopie web.archive.org/web/20261005042945"
     },
     "training_opt_out": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://eurouter.ai/dpa",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "DPA: 'EUrouter does not use Customer API Data to train, fine-tune or improve AI models' — standardmäßig ausgeschlossen. Ebenso in den AGB (General Terms and Conditions, 'Last updated: June 2026'): 'EUrouter shall not use Input Data for any purpose other than delivering the Service or use Input Data to train, fine-tune, or improve any AI Model.' Gilt für EUrouter selbst; für die nachgeschalteten Provider verweist das DPA auf deren eigene Position. Archivkopien web.archive.org/web/20261005042945 (DPA), 20261005043013 (AGB)"
     },
     "zero_data_retention": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://eurouter.ai/dpa",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Zero-Retention als Standard für Request-/Response-Inhalte; nur Metadaten (Timestamps, Token-Counts) für Abrechnung. DPA Ziffer 10: 'By default, the Processor applies a zero-retention policy with respect to the content of API requests and responses.' AGB (Juni 2026): 'EUrouter applies a zero data retention policy to the content of API Requests and Outputs by default. Such content is not stored or used by EUrouter for any purpose beyond delivering the Service in real time.' Gilt für EUrouter selbst, nicht für den gewählten Provider; per Anfrage-Parameter max_retention_days lässt sich laut Doku auf Provider ohne Speicherung einschränken. Archivkopien web.archive.org/web/20261005042945 (DPA), 20261005043013 (AGB), 20261005043044 (Datenschutzerklärung). Laut Datenschutzerklärung (eurouter.ai/privacy, Version 1.2 vom 25.08.2026, geprüft 05.10.2026) API-Metadaten bis 12 Monate, Fehler- und Monitoringdaten bis 90 Tage, jeweils länger bei Sicherheits-, Abrechnungs- oder Rechtsgründen."
     },
     "zweckbindung": {
       "wert": false,
       "status": "belegt",
       "quelle": "https://eurouter.ai/dpa",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "DPA (Last updated: May 2026, Abruf 08.10.2026), Annex 1 'Purpose(s)' nennt neben Routing und Rückgabe auch: 'measuring usage, calculating costs and supporting billing'; 'maintaining the security, availability, reliability and performance of the Services'; 'detecting and preventing abuse, fraud, misuse and security incidents'; 'providing technical or customer support at the Controller's request'. 'Nature of the Processing' ergänzt 'monitoring performance and reliability, detecting errors, preventing abuse, investigating security issues'. Die AGB (Juni 2026) sagen enger: 'EUrouter shall not use Input Data for any purpose other than delivering the Service' — für Inhalte gilt das, für Metadaten nennt das DPA die weiteren Zwecke. Kein Training, kein Verkauf ('does not use Customer API Data to train, fine-tune or improve AI models and does not sell Customer API Data')."
     },
     "betroffenenrechte_traeger": {
       "wert": "auftraggeber",
       "status": "belegt",
       "quelle": "https://eurouter.ai/dpa",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "DPA Ziffer 6: 'the Processor shall not respond to such request on behalf of the Controller and shall refer the Data Subject to the Controller without undue delay', Benachrichtigung binnen 5 Werktagen; Unterstützung 'with all assistance upon first request'. Abruf 08.10.2026."
     },
     "log_frist": {
       "wert": "API-Metadaten bis 12 Monate, Fehler- und Monitoringdaten bis 90 Tage; Inhalte standardmäßig nicht gespeichert",
       "status": "belegt",
       "quelle": "https://eurouter.ai/privacy",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Datenschutzerklärung (Version 1.2, Abruf 08.10.2026): 'We keep API metadata, such as timestamps, token counts and usage data, for up to 12 months, unless longer retention is necessary for security, billing, legal claims or compliance purposes. By default, we do not store the prompts, inputs, uploaded files, outputs and model responses after they have been processed and returned. Error and monitoring data is retained for up to 90 days where applicable, unless longer retention is needed for security or legal reasons.' Zusätzlich längere Aufbewahrung 'in cases of fraud or abuse investigation'. Das DPA (Ziffer 10) verweist für die Frist auf Annex 1, der nennt aber keine. Metadaten laut DPA Annex 1 u. a. 'IP address', 'end-user identifiers'."
     },
     "log_zweck": {
       "wert": "Abrechnung, Betrieb und Zuverlässigkeit, Sicherheit, Erkennung von Missbrauch und Betrug",
       "status": "belegt",
       "quelle": "https://eurouter.ai/privacy",
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Datenschutzerklärung (Abruf 08.10.2026): 'to provide, operate, maintain and secure the Services ... and to monitor performance, reliability, errors, abuse and security incidents'. DPA Ziffer 10: Metadaten 'strictly necessary for billing and service operation'; DPA Annex 1 'Logging and monitoring': 'metadata needed for security, billing and reliability'."
     }
   },
@@ -196,27 +196,27 @@
       "typ": "ISO 27001",
       "status": "unbelegt",
       "quelle": null,
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Am 05.10.2026 gesucht auf Startseite, About, Pricing, FAQ, Providers, Docs-Einstieg, AGB, Datenschutzerklärung und DPA: kein Zertifikat genannt. Das DPA (Ziffer 11) sagt nur, der Processor dürfe anstelle eines Audits 'recent, relevant independent certifications or audit reports' vorlegen, ohne eines zu nennen. Eine Trust-, Security- oder Compliance-Seite gibt es nicht (/security, /trust, /compliance liefern 404).",
       "anwendungsbereich": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Kein Zertifikat vorhanden (siehe Eintrag), daher kein Umfang."
       },
       "zertifizierer": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Kein Zertifikat vorhanden, daher kein Zertifizierer."
       },
       "akkreditiert_dakks": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Kein Zertifikat vorhanden, daher keine Zertifizierungsstelle zu prüfen."
       },
       "normiert": [
@@ -227,27 +227,27 @@
       "typ": "SOC 2",
       "status": "unbelegt",
       "quelle": null,
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Am 05.10.2026 auf denselben Seiten wie ISO 27001 gesucht: nicht erwähnt.",
       "anwendungsbereich": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Kein Zertifikat vorhanden (siehe Eintrag), daher kein Umfang."
       },
       "zertifizierer": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "Kein Zertifikat vorhanden, daher kein Zertifizierer."
       },
       "akkreditiert_dakks": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-09",
+        "geprueft": "2026-10-10",
         "anmerkung": "SOC 2 ist ein Testat eines Wirtschaftsprüfers, keine akkreditierte Zertifizierung; zudem kein Bericht vorhanden."
       },
       "normiert": [
@@ -261,7 +261,7 @@
     "zertifizierer": null,
     "anwendungsbereich": null,
     "quelle": null,
-    "geprueft": "2026-10-09",
+    "geprueft": "2026-10-10",
     "anmerkung": "Weder auf der Startseite noch auf der About-Seite wird ISO (27001 oder 42001), SOC 2 oder ein Audit erwähnt. Es gibt nur allgemeine Datenschutz-Aussagen und 'Compliance: Active' (Dashboard-Mockup), dazu keine eigene Trust- oder Zertifikatsseite. Geprüft: https://www.eurouter.ai/, https://www.eurouter.ai/about, WebSearch: EUrouter eurouter.ai ISO certification compliance"
   },
   "ai_act": [
@@ -269,21 +269,21 @@
       "pflicht": "Transparenz-/Compliance-Angaben zum EU AI Act",
       "status": "unbelegt",
       "quelle": null,
-      "geprueft": "2026-10-09",
+      "geprueft": "2026-10-10",
       "anmerkung": "Keine Angabe zur eigenen Rolle oder zu eigenen Pflichten. Fundstellen am 05.10.2026: Die Startseite nennt die neuen EU-Regeln für KI als Kaufgrund ('The […] introduces strict requirements for AI systems operating in Europe. Organizations must ensure transparency, accountability, and data governance for any AI they deploy.'), ohne zu sagen, was EUrouter dazu beiträgt; die AGB (Juni 2026, Ziffer 9) verpflichten den Kunden, beim Einsatz des Dienstes die EU-Regeln für KI einzuhalten. Der Slogan 'comply effortlessly' im Seitenfuß nennt kein Gesetz. Archivkopien web.archive.org/web/20261005043115 (Startseite), 20261005043013 (AGB)"
     }
   ],
-  "geprueft": "2026-10-09",
+  "geprueft": "2026-10-10",
   "url": "https://belegbar.eu/anbieter/eurouter/",
   "beleg_quote_prozent": 75,
-  "zuletzt_geprueft": "2026-10-09",
+  "zuletzt_geprueft": "2026-10-10",
   "quellenlauf": {
-    "zuletzt": "2026-10-09",
+    "zuletzt": "2026-10-10",
     "quellen": 4,
     "nachgelesen": 4,
     "unveraendert": 1,
-    "veraendert_gelesen": 2,
-    "offen": 1,
+    "veraendert_gelesen": 3,
+    "offen": 0,
     "verschwunden": 0,
     "statuswechsel_30_tage": 2
   },
