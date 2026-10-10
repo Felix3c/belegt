@@ -14,6 +14,7 @@ const Z = require("./lib/zitat.js");
 const E = require("./lib/eintritt.js");
 const PP = require("./lib/pruefpunkte.js");
 const ISO42001 = require("./lib/iso42001.js");
+const EO = require("./lib/einordnung.js");
 const eur = P.eur;
 
 const ROOT = __dirname;
@@ -778,7 +779,7 @@ ${f.beleg.map(zitatBlock).join("\n")}
 <p>${esc(f.widerspruch)}</p>
 
 ${f.was_es_nicht_heisst ? `<h2>Was dieser Fall nicht heißt</h2>
-<p>${esc(f.was_es_nicht_heisst)}</p>` : ""}
+<p>${esc(f.was_es_nicht_heisst)}</p>` : ""}${EO.einordnungHtml(f.einordnung)}
 
 ${(f.aufloesung || []).length ? `<h2>Was den Fall ausräumt</h2>
 <ol>${f.aufloesung.map((a) => `<li>${esc(a)}</li>`).join("")}</ol>` : ""}
@@ -1599,6 +1600,7 @@ function leseFaelle(providers) {
       if (!ids.has(x.anbieter)) throw new Error(`Fall ${f}: Anbieter "${x.anbieter}" existiert nicht`);
       for (const z of [...x.behauptung, ...x.beleg])
         if (!z.zitat || !z.quelle || !z.abgerufen || !z.sha256) throw new Error(`Fall ${f}: Zitat ohne zitat/quelle/abgerufen/sha256`);
+      EO.pruefeEinordnung(x.einordnung, f);
       if (!x.anbieter_informiert && !process.env.BUILD_VORSCHAU)
         throw new Error(`Fall ${x.id}: "anbieter_informiert" ist leer. Erst den Anbieter informieren, dann veröffentlichen (Vorschau: BUILD_VORSCHAU=1).`);
       return x;
