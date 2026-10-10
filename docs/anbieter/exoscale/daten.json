@@ -96,7 +96,7 @@
       "status": "belegt",
       "quelle": "https://www.exoscale.com/dpa/",
       "geprueft": "2026-10-09",
-      "anmerkung": "DSGVO-konformes DPA der Akenes SA; Datentransfers für die im Auftrag verarbeiteten Kundendaten auf CH/EU/EWR bzw. Angemessenheitsländer beschränkt, Löschung binnen 10 Werktagen nach Vertragsende. Das gilt nicht für Exoscales eigene Kundenstammdaten: Laut Datenschutzerklärung gehen Daten über Kunden an 'Amazon Web Services', Zweck 'Data archival', Ort 'United States' (siehe Subprozessoren)."
+      "anmerkung": "DPA der Akenes SA; Datentransfers für die im Auftrag verarbeiteten Kundendaten auf CH/EU/EWR bzw. Angemessenheitsländer beschränkt, Löschung binnen 10 Werktagen nach Vertragsende. Das gilt nicht für Exoscales eigene Kundenstammdaten: Laut Datenschutzerklärung gehen Daten über Kunden an 'Amazon Web Services', Zweck 'Data archival', Ort 'United States' (siehe Subprozessoren)."
     },
     "subprozessoren": {
       "wert": "https://www.exoscale.com/dpa/",
@@ -410,7 +410,7 @@
       "pflicht": "GPAI Code of Practice unterzeichnet",
       "status": "unbelegt",
       "quelle": null,
-      "anmerkung": "Kein GPAI-Modellanbieter (reine Infrastruktur); eigene AI-Act-Dokumentation nicht auffindbar. Nachprüfung 05.10.2026: Auf den Inference-, Compliance- und Vertragsseiten sowie in der Dedicated-Inference-Doku kommt der AI Act nicht vor."
+      "anmerkung": "Kein GPAI-Modellanbieter (reine Infrastruktur); eigene Dokumentation dazu nicht auffindbar. Nachprüfung 05.10.2026: Auf den Inference-, Compliance- und Vertragsseiten sowie in der Dedicated-Inference-Doku kommt das Thema nicht vor."
     }
   ],
   "geprueft": "2026-10-09",

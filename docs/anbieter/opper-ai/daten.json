@@ -174,7 +174,7 @@
       "status": "belegt",
       "quelle": "https://opper.ai/data-processing-agreement",
       "geprueft": "2026-10-09",
-      "anmerkung": "DPA Ziffer 1.1: 'The Customer is the data controller and Opper is the data processor'. Ziffer 3.3: 'Opper will assist the Customer in meeting its obligations under Chapter III of the GDPR, including data subject rights such as access, deletion, correction, and data portability. Opper will notify the Customer without undue delay of any such requests from data subjects.'"
+      "anmerkung": "DPA Ziffer 1.1: 'The Customer is the data controller and Opper is the data processor'. Ziffer 3.3: 'Opper will assist the Customer in meeting its obligations under Chapter III […], including data subject rights such as access, deletion, correction, and data portability. Opper will notify the Customer without undue delay of any such requests from data subjects.'"
     },
     "log_frist": {
       "wert": "Nutzungsmetadaten 5 Jahre (auch ohne Tracing); Prompts und Antworten nur bei aktivem Tracing 1 bis 30 Tage (Projekt bis 0 Tage); Backups: tägliche Snapshots 5 Wochen, wöchentliche 14 Monate",
@@ -262,7 +262,7 @@
     "anwendungsbereich": null,
     "quelle": null,
     "geprueft": "2026-10-09",
-    "anmerkung": "Keine Erwähnung von ISO/IEC 42001 gefunden. Opper nennt nur ISO/IEC 27001:2022 (\"Certified against ISO/IEC 27001:2022\"; Trust Center: Zertifikatsnr. 160926-1, gültig bis 15.09.2029) und GDPR. Geprüft: https://opper.ai/security-overview, https://opper.ai/, https://trust.opper.ai/, WebSearch: Opper AI \"ISO 42001\""
+    "anmerkung": "Keine Erwähnung von ISO/IEC 42001 gefunden. Opper nennt nur ISO/IEC 27001:2022 (\"Certified against ISO/IEC 27001:2022\"; Trust Center: Zertifikatsnr. 160926-1, gültig bis 15.09.2029) und Datenschutz. Geprüft: https://opper.ai/security-overview, https://opper.ai/, https://trust.opper.ai/, WebSearch: Opper AI \"ISO 42001\""
   },
   "ai_act": [
     {
@@ -270,7 +270,7 @@
       "status": "beansprucht",
       "quelle": "https://opper.ai/ai-compliance",
       "geprueft": "2026-10-08",
-      "anmerkung": "Compliance-Seite ('Last updated: 2026-09-23'), FAQ 'How does Opper support EU AI Act, DORA, or NIS2 reviews?': 'Every call is logged with model, cost, latency, and policy decisions, and the Control Plane adds retention rules, spend limits, and model allowlists, plus full traces of each call once you turn tracing on. That gives compliance teams the audit trail and documentation these reviews ask for.' (Wortlaut 08.10.2026; die Seite trägt kein 'Last updated' mehr, bis 05.10. stand dort 2026-09-23; Archivkopie web.archive.org/web/20261008050530.) Keine Angabe zur eigenen Rolle nach dem AI Act, keine Konformitätsdokumente. Archivkopie web.archive.org/web/20261005054113"
+      "anmerkung": "Compliance-Seite ('Last updated: 2026-09-23'), FAQ 'How does Opper support […], DORA, or NIS2 reviews?' (die Lücke nennt die EU-Regeln für KI): 'Every call is logged with model, cost, latency, and policy decisions, and the Control Plane adds retention rules, spend limits, and model allowlists, plus full traces of each call once you turn tracing on. That gives compliance teams the audit trail and documentation these reviews ask for.' (Wortlaut 08.10.2026; die Seite trägt kein 'Last updated' mehr, bis 05.10. stand dort 2026-09-23; Archivkopie web.archive.org/web/20261008050530.) Keine Angabe zur eigenen Rolle, keine Konformitätsdokumente. Archivkopie web.archive.org/web/20261005054113"
     }
   ],
   "geprueft": "2026-10-08",

@@ -16,39 +16,39 @@
     "datum": "2026-10-10"
   },
   "anbieter/black-forest-labs/": {
-    "hash": "f0643ab9e44f6828",
+    "hash": "0a884d63a8a7c27d",
     "datum": "2026-10-10"
   },
   "anbieter/deepl/": {
-    "hash": "4cb366af97eb65e8",
+    "hash": "ffec9436dbd12c25",
     "datum": "2026-10-10"
   },
   "anbieter/eurouter/": {
-    "hash": "2b62709e60ace12d",
+    "hash": "da331f5c03a0b1b8",
     "datum": "2026-10-10"
   },
   "anbieter/exoscale/": {
-    "hash": "1592b01f74f7e0d3",
+    "hash": "53cb97cefd8277bf",
     "datum": "2026-10-10"
   },
   "anbieter/gcore/": {
-    "hash": "f08338856a4a2dba",
+    "hash": "4f705b687c3c8fd3",
     "datum": "2026-10-10"
   },
   "anbieter/greenpt/": {
-    "hash": "34549c5e981e0314",
+    "hash": "d4aa684a0a7e1b8d",
     "datum": "2026-10-10"
   },
   "anbieter/hetzner/": {
-    "hash": "d4b890bf40623b67",
+    "hash": "e1e539722cd9f392",
     "datum": "2026-10-10"
   },
   "anbieter/infomaniak/": {
-    "hash": "f33c6ac17206ef88",
+    "hash": "788ee5915a4c398e",
     "datum": "2026-10-10"
   },
   "anbieter/ionos/": {
-    "hash": "370e0abd1bc99446",
+    "hash": "987910f112e48810",
     "datum": "2026-10-10"
   },
   "anbieter/lyceum/": {
@@ -56,31 +56,31 @@
     "datum": "2026-10-10"
   },
   "anbieter/mistral/": {
-    "hash": "7b07c4910702b2f4",
+    "hash": "d6c9b6497f8c6a21",
     "datum": "2026-10-10"
   },
   "anbieter/nebius/": {
-    "hash": "ac503191221274eb",
+    "hash": "71f2939995a7d9cc",
     "datum": "2026-10-10"
   },
   "anbieter/nordference/": {
-    "hash": "fc8d02ebfc721064",
+    "hash": "5b58a9fdb533c901",
     "datum": "2026-10-10"
   },
   "anbieter/opper-ai/": {
-    "hash": "d6e74796ef54d2fd",
+    "hash": "ae3eebcc436e2b69",
     "datum": "2026-10-10"
   },
   "anbieter/ovhcloud/": {
-    "hash": "d5a4cbd4b78da3ae",
+    "hash": "54113455ff09333c",
     "datum": "2026-10-10"
   },
   "anbieter/regolo/": {
-    "hash": "3ffc58a295b81bc1",
+    "hash": "0f311ec96c59e9b4",
     "datum": "2026-10-10"
   },
   "anbieter/requesty/": {
-    "hash": "0a8623bd3b9b7e12",
+    "hash": "4900ed2ecb6bbd4f",
     "datum": "2026-10-10"
   },
   "anbieter/scaleway/": {
@@ -88,11 +88,11 @@
     "datum": "2026-10-10"
   },
   "anbieter/stackit/": {
-    "hash": "20405ea3c3687e44",
+    "hash": "f0132d8615b106c8",
     "datum": "2026-10-10"
   },
   "anbieter/t-systems/": {
-    "hash": "34d937bab7b864bd",
+    "hash": "46a899caeb02e3e7",
     "datum": "2026-10-10"
   },
   "datenschutz/": {
@@ -508,8 +508,8 @@
     "datum": "2026-10-09"
   },
   "zertifikate/iso-27001/": {
-    "hash": "e45d5cf23563b34a",
-    "datum": "2026-10-09"
+    "hash": "3b526335c410ca1d",
+    "datum": "2026-10-10"
   },
   "zertifikate/iso-27017/": {
     "hash": "15f22b869340f1fe",

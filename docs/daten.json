@@ -433,7 +433,7 @@
           "status": "belegt",
           "quelle": "https://bfl.ai/legal/eu-api-service-terms",
           "geprueft": "2026-10-09",
-          "anmerkung": "EU API Service Terms §2b: Lizenz an Input und Output 'for the purpose of operating the FLUX Services, improving the Company's products and services, and developing new products and services' und 'the Company may use Inputs and Outputs to train and improve its artificial intelligence models'. Privacy Policy (01.08.2026) nennt als Trainingszweck u. a. 'improve our content moderation tools'; weitere Zwecke dort: 'To improve and develop our Services and new features and conduct research', 'To prevent fraud, criminal activity, or misuses of our Services', Marketing an Kontaktdaten. Enterprise-Verträge (nicht öffentlich) können abweichen."
+          "anmerkung": "EU API Service Terms Ziffer 2b: Lizenz an Input und Output 'for the purpose of operating the FLUX Services, improving the Company's products and services, and developing new products and services' und 'the Company may use Inputs and Outputs to train and improve its artificial intelligence models'. Privacy Policy (01.08.2026) nennt als Trainingszweck u. a. 'improve our content moderation tools'; weitere Zwecke dort: 'To improve and develop our Services and new features and conduct research', 'To prevent fraud, criminal activity, or misuses of our Services', Marketing an Kontaktdaten. Enterprise-Verträge (nicht öffentlich) können abweichen."
         },
         "betroffenenrechte_traeger": {
           "wert": "auftraggeber",
@@ -530,7 +530,7 @@
         "anwendungsbereich": null,
         "quelle": null,
         "geprueft": "2026-10-09",
-        "anmerkung": "Das Vanta-Trust-Center (im Browser gerendert) listet unter Compliance nur 'ISO 27001:2022', 'SOC 2' und 'GDPR'; ISO/IEC 42001 kommt nicht vor. Die Websuche ergab keinen Treffer zu BFL und 42001. Geprüft: https://trust.bfl.ai/, WebSearch: Black Forest Labs ISO 42001"
+        "anmerkung": "Das Vanta-Trust-Center (im Browser gerendert) listet unter Compliance nur 'ISO 27001:2022', 'SOC 2' und einen Datenschutz-Eintrag; ISO/IEC 42001 kommt nicht vor. Die Websuche ergab keinen Treffer zu BFL und 42001. Geprüft: https://trust.bfl.ai/, WebSearch: Black Forest Labs ISO 42001"
       },
       "ai_act": [
         {
@@ -725,7 +725,7 @@
           "status": "belegt",
           "quelle": "https://trust.deepl.com/",
           "geprueft": "2026-10-09",
-          "anmerkung": "Trust Center, Karte 'Log storage': 'Log files are stored for 90 days. Personal data (related to the GDPR) that is not relevant for accounting purposes will be deleted after 14 days.' Karte 'Access Monitoring': 'DeepL stores these log files for 90 days.' Pro-AGB 3.1.4: Speicherung von Inhalten 'for a maximum period of 72 hours in case certain error patterns occur'. Pro-AGB 3.1.2 erlaubt Zugriffslogs mit Metadaten ('time of the API Request and size of the transmitted Content') ohne Frist. Abruf 08.10.2026."
+          "anmerkung": "Trust Center, Karte 'Log storage': 'Log files are stored for 90 days. Personal data […] that is not relevant for accounting purposes will be deleted after 14 days.' Karte 'Access Monitoring': 'DeepL stores these log files for 90 days.' Pro-AGB 3.1.4: Speicherung von Inhalten 'for a maximum period of 72 hours in case certain error patterns occur'. Pro-AGB 3.1.2 erlaubt Zugriffslogs mit Metadaten ('time of the API Request and size of the transmitted Content') ohne Frist. Abruf 08.10.2026."
         },
         "log_zweck": {
           "wert": "Abrechnung, Sicherheit (Angriffserkennung), Statistik; Fehlerdiagnose",
@@ -897,7 +897,7 @@
         "anwendungsbereich": null,
         "quelle": null,
         "geprueft": "2026-10-09",
-        "anmerkung": "Das SafeBase-Trust-Center war nicht abrufbar (WebFetch HTTP 403, im Browser haengt die Cloudflare-Pruefung). Laut Suchmaschinen-Auszug listet es C5, GDPR, HIPAA, ISO/IEC 27001:2022 und SOC 2 Type 2, aber nicht 42001. Die Seite pro-data-security nennt nur SOC 2 Type II; auch die Websuche ergab keinen 42001-Bezug. Geprüft: https://trust.deepl.com (308 -> https://deepl.safebase.us/), https://deepl.safebase.us/, https://www.deepl.com/en/pro-data-security, WebSearch: DeepL ISO 42001, WebSearch: DeepL trust center certifications ISO 27001 SOC 2 \"42001\""
+        "anmerkung": "Das SafeBase-Trust-Center war nicht abrufbar (WebFetch HTTP 403, im Browser haengt die Cloudflare-Pruefung). Laut Suchmaschinen-Auszug listet es C5, einen Datenschutz-Eintrag, HIPAA, ISO/IEC 27001:2022 und SOC 2 Type 2, aber nicht 42001. Die Seite pro-data-security nennt nur SOC 2 Type II; auch die Websuche ergab keinen 42001-Bezug. Geprüft: https://trust.deepl.com (308 -> https://deepl.safebase.us/), https://deepl.safebase.us/, https://www.deepl.com/en/pro-data-security, WebSearch: DeepL ISO 42001, WebSearch: DeepL trust center certifications ISO 27001 SOC 2 \"42001\""
       },
       "ai_act": [
         {
@@ -1085,7 +1085,7 @@
           "status": "belegt",
           "quelle": "https://eurouter.ai/dpa",
           "geprueft": "2026-10-09",
-          "anmerkung": "Vollständiges DPA ('Last updated: May 2026'), signierbare Version zum Download; Vertragspartner EUrouter B.V. (KVK 42054357); §5: Verarbeitung ausschließlich im EWR zugesichert; geht laut Einleitung bei personenbezogenen Daten den AGB vor. Archivkopie web.archive.org/web/20261005042945 (byte-gleich zum Abruf)"
+          "anmerkung": "Vollständiges DPA ('Last updated: May 2026'), signierbare Version zum Download; Vertragspartner EUrouter B.V. (KVK 42054357); Ziffer 5: Verarbeitung ausschließlich im EWR zugesichert; geht laut Einleitung bei personenbezogenen Daten den AGB vor. Archivkopie web.archive.org/web/20261005042945 (byte-gleich zum Abruf)"
         },
         "subprozessoren": {
           "wert": "https://eurouter.ai/providers",
@@ -1106,7 +1106,7 @@
           "status": "belegt",
           "quelle": "https://eurouter.ai/dpa",
           "geprueft": "2026-10-09",
-          "anmerkung": "Zero-Retention als Standard für Request-/Response-Inhalte; nur Metadaten (Timestamps, Token-Counts) für Abrechnung. DPA §10: 'By default, the Processor applies a zero-retention policy with respect to the content of API requests and responses.' AGB (Juni 2026): 'EUrouter applies a zero data retention policy to the content of API Requests and Outputs by default. Such content is not stored or used by EUrouter for any purpose beyond delivering the Service in real time.' Gilt für EUrouter selbst, nicht für den gewählten Provider; per Anfrage-Parameter max_retention_days lässt sich laut Doku auf Provider ohne Speicherung einschränken. Archivkopien web.archive.org/web/20261005042945 (DPA), 20261005043013 (AGB), 20261005043044 (Datenschutzerklärung). Laut Datenschutzerklärung (eurouter.ai/privacy, Version 1.2 vom 25.08.2026, geprüft 05.10.2026) API-Metadaten bis 12 Monate, Fehler- und Monitoringdaten bis 90 Tage, jeweils länger bei Sicherheits-, Abrechnungs- oder Rechtsgründen."
+          "anmerkung": "Zero-Retention als Standard für Request-/Response-Inhalte; nur Metadaten (Timestamps, Token-Counts) für Abrechnung. DPA Ziffer 10: 'By default, the Processor applies a zero-retention policy with respect to the content of API requests and responses.' AGB (Juni 2026): 'EUrouter applies a zero data retention policy to the content of API Requests and Outputs by default. Such content is not stored or used by EUrouter for any purpose beyond delivering the Service in real time.' Gilt für EUrouter selbst, nicht für den gewählten Provider; per Anfrage-Parameter max_retention_days lässt sich laut Doku auf Provider ohne Speicherung einschränken. Archivkopien web.archive.org/web/20261005042945 (DPA), 20261005043013 (AGB), 20261005043044 (Datenschutzerklärung). Laut Datenschutzerklärung (eurouter.ai/privacy, Version 1.2 vom 25.08.2026, geprüft 05.10.2026) API-Metadaten bis 12 Monate, Fehler- und Monitoringdaten bis 90 Tage, jeweils länger bei Sicherheits-, Abrechnungs- oder Rechtsgründen."
         },
         "zweckbindung": {
           "wert": false,
@@ -1120,21 +1120,21 @@
           "status": "belegt",
           "quelle": "https://eurouter.ai/dpa",
           "geprueft": "2026-10-09",
-          "anmerkung": "DPA §6: 'the Processor shall not respond to such request on behalf of the Controller and shall refer the Data Subject to the Controller without undue delay', Benachrichtigung binnen 5 Werktagen; Unterstützung 'with all assistance upon first request'. Abruf 08.10.2026."
+          "anmerkung": "DPA Ziffer 6: 'the Processor shall not respond to such request on behalf of the Controller and shall refer the Data Subject to the Controller without undue delay', Benachrichtigung binnen 5 Werktagen; Unterstützung 'with all assistance upon first request'. Abruf 08.10.2026."
         },
         "log_frist": {
           "wert": "API-Metadaten bis 12 Monate, Fehler- und Monitoringdaten bis 90 Tage; Inhalte standardmäßig nicht gespeichert",
           "status": "belegt",
           "quelle": "https://eurouter.ai/privacy",
           "geprueft": "2026-10-09",
-          "anmerkung": "Datenschutzerklärung (Version 1.2, Abruf 08.10.2026): 'We keep API metadata, such as timestamps, token counts and usage data, for up to 12 months, unless longer retention is necessary for security, billing, legal claims or compliance purposes. By default, we do not store the prompts, inputs, uploaded files, outputs and model responses after they have been processed and returned. Error and monitoring data is retained for up to 90 days where applicable, unless longer retention is needed for security or legal reasons.' Zusätzlich längere Aufbewahrung 'in cases of fraud or abuse investigation'. Das DPA (§10) verweist für die Frist auf Annex 1, der nennt aber keine. Metadaten laut DPA Annex 1 u. a. 'IP address', 'end-user identifiers'."
+          "anmerkung": "Datenschutzerklärung (Version 1.2, Abruf 08.10.2026): 'We keep API metadata, such as timestamps, token counts and usage data, for up to 12 months, unless longer retention is necessary for security, billing, legal claims or compliance purposes. By default, we do not store the prompts, inputs, uploaded files, outputs and model responses after they have been processed and returned. Error and monitoring data is retained for up to 90 days where applicable, unless longer retention is needed for security or legal reasons.' Zusätzlich längere Aufbewahrung 'in cases of fraud or abuse investigation'. Das DPA (Ziffer 10) verweist für die Frist auf Annex 1, der nennt aber keine. Metadaten laut DPA Annex 1 u. a. 'IP address', 'end-user identifiers'."
         },
         "log_zweck": {
           "wert": "Abrechnung, Betrieb und Zuverlässigkeit, Sicherheit, Erkennung von Missbrauch und Betrug",
           "status": "belegt",
           "quelle": "https://eurouter.ai/privacy",
           "geprueft": "2026-10-09",
-          "anmerkung": "Datenschutzerklärung (Abruf 08.10.2026): 'to provide, operate, maintain and secure the Services ... and to monitor performance, reliability, errors, abuse and security incidents'. DPA §10: Metadaten 'strictly necessary for billing and service operation'; DPA Annex 1 'Logging and monitoring': 'metadata needed for security, billing and reliability'."
+          "anmerkung": "Datenschutzerklärung (Abruf 08.10.2026): 'to provide, operate, maintain and secure the Services ... and to monitor performance, reliability, errors, abuse and security incidents'. DPA Ziffer 10: Metadaten 'strictly necessary for billing and service operation'; DPA Annex 1 'Logging and monitoring': 'metadata needed for security, billing and reliability'."
         }
       },
       "zertifikate": [
@@ -1143,7 +1143,7 @@
           "status": "unbelegt",
           "quelle": null,
           "geprueft": "2026-10-09",
-          "anmerkung": "Am 05.10.2026 gesucht auf Startseite, About, Pricing, FAQ, Providers, Docs-Einstieg, AGB, Datenschutzerklärung und DPA: kein Zertifikat genannt. Das DPA (§11) sagt nur, der Processor dürfe anstelle eines Audits 'recent, relevant independent certifications or audit reports' vorlegen, ohne eines zu nennen. Eine Trust-, Security- oder Compliance-Seite gibt es nicht (/security, /trust, /compliance liefern 404).",
+          "anmerkung": "Am 05.10.2026 gesucht auf Startseite, About, Pricing, FAQ, Providers, Docs-Einstieg, AGB, Datenschutzerklärung und DPA: kein Zertifikat genannt. Das DPA (Ziffer 11) sagt nur, der Processor dürfe anstelle eines Audits 'recent, relevant independent certifications or audit reports' vorlegen, ohne eines zu nennen. Eine Trust-, Security- oder Compliance-Seite gibt es nicht (/security, /trust, /compliance liefern 404).",
           "anwendungsbereich": {
             "wert": null,
             "status": "unbelegt",
@@ -1208,7 +1208,7 @@
         "anwendungsbereich": null,
         "quelle": null,
         "geprueft": "2026-10-09",
-        "anmerkung": "Weder auf der Startseite noch auf der About-Seite wird ISO (27001 oder 42001), SOC 2 oder ein Audit erwähnt. Es gibt nur DSGVO-Aussagen wie 'GDPR compliance by default' und 'Compliance: Active' (Dashboard-Mockup), dazu keine eigene Trust- oder Zertifikatsseite. Geprüft: https://www.eurouter.ai/, https://www.eurouter.ai/about, WebSearch: EUrouter eurouter.ai ISO certification compliance"
+        "anmerkung": "Weder auf der Startseite noch auf der About-Seite wird ISO (27001 oder 42001), SOC 2 oder ein Audit erwähnt. Es gibt nur allgemeine Datenschutz-Aussagen und 'Compliance: Active' (Dashboard-Mockup), dazu keine eigene Trust- oder Zertifikatsseite. Geprüft: https://www.eurouter.ai/, https://www.eurouter.ai/about, WebSearch: EUrouter eurouter.ai ISO certification compliance"
       },
       "ai_act": [
         {
@@ -1216,7 +1216,7 @@
           "status": "unbelegt",
           "quelle": null,
           "geprueft": "2026-10-09",
-          "anmerkung": "Keine Angabe zur eigenen Rolle oder zu eigenen Pflichten nach dem AI Act. Fundstellen am 05.10.2026: Die Startseite nennt den AI Act als Kaufgrund ('The EU AI Act introduces strict requirements for AI systems operating in Europe. Organizations must ensure transparency, accountability, and data governance for any AI they deploy.'), ohne zu sagen, was EUrouter dazu beiträgt; die AGB (Juni 2026, Ziffer 9) verpflichten den Kunden, den Dienst nicht unter Verstoß gegen den AI Act zu nutzen. Der Slogan 'comply effortlessly' im Seitenfuß nennt kein Gesetz. Archivkopien web.archive.org/web/20261005043115 (Startseite), 20261005043013 (AGB)"
+          "anmerkung": "Keine Angabe zur eigenen Rolle oder zu eigenen Pflichten. Fundstellen am 05.10.2026: Die Startseite nennt die neuen EU-Regeln für KI als Kaufgrund ('The […] introduces strict requirements for AI systems operating in Europe. Organizations must ensure transparency, accountability, and data governance for any AI they deploy.'), ohne zu sagen, was EUrouter dazu beiträgt; die AGB (Juni 2026, Ziffer 9) verpflichten den Kunden, beim Einsatz des Dienstes die EU-Regeln für KI einzuhalten. Der Slogan 'comply effortlessly' im Seitenfuß nennt kein Gesetz. Archivkopien web.archive.org/web/20261005043115 (Startseite), 20261005043013 (AGB)"
         }
       ],
       "geprueft": "2026-10-09",
@@ -1341,7 +1341,7 @@
           "status": "belegt",
           "quelle": "https://www.exoscale.com/dpa/",
           "geprueft": "2026-10-09",
-          "anmerkung": "DSGVO-konformes DPA der Akenes SA; Datentransfers für die im Auftrag verarbeiteten Kundendaten auf CH/EU/EWR bzw. Angemessenheitsländer beschränkt, Löschung binnen 10 Werktagen nach Vertragsende. Das gilt nicht für Exoscales eigene Kundenstammdaten: Laut Datenschutzerklärung gehen Daten über Kunden an 'Amazon Web Services', Zweck 'Data archival', Ort 'United States' (siehe Subprozessoren)."
+          "anmerkung": "DPA der Akenes SA; Datentransfers für die im Auftrag verarbeiteten Kundendaten auf CH/EU/EWR bzw. Angemessenheitsländer beschränkt, Löschung binnen 10 Werktagen nach Vertragsende. Das gilt nicht für Exoscales eigene Kundenstammdaten: Laut Datenschutzerklärung gehen Daten über Kunden an 'Amazon Web Services', Zweck 'Data archival', Ort 'United States' (siehe Subprozessoren)."
         },
         "subprozessoren": {
           "wert": "https://www.exoscale.com/dpa/",
@@ -1655,7 +1655,7 @@
           "pflicht": "GPAI Code of Practice unterzeichnet",
           "status": "unbelegt",
           "quelle": null,
-          "anmerkung": "Kein GPAI-Modellanbieter (reine Infrastruktur); eigene AI-Act-Dokumentation nicht auffindbar. Nachprüfung 05.10.2026: Auf den Inference-, Compliance- und Vertragsseiten sowie in der Dedicated-Inference-Doku kommt der AI Act nicht vor."
+          "anmerkung": "Kein GPAI-Modellanbieter (reine Infrastruktur); eigene Dokumentation dazu nicht auffindbar. Nachprüfung 05.10.2026: Auf den Inference-, Compliance- und Vertragsseiten sowie in der Dedicated-Inference-Doku kommt das Thema nicht vor."
         }
       ],
       "geprueft": "2026-10-09",
@@ -1800,7 +1800,7 @@
           "status": "belegt",
           "quelle": "https://gcore.com/legal",
           "geprueft": "2026-10-09",
-          "anmerkung": "MSA nennt das Data Processing Agreement als 'integral and essential part' des Vertrags; Drittlandtransfers über EU-Standardvertragsklauseln (MSA §9.5.3). DPA-Volltext liegt in einem Tab des Legal-Portals, als Einzeldokument nicht direkt verlinkbar"
+          "anmerkung": "MSA nennt das Data Processing Agreement als 'integral and essential part' des Vertrags; Drittlandtransfers über EU-Standardvertragsklauseln (MSA Ziffer 9.5.3). DPA-Volltext liegt in einem Tab des Legal-Portals, als Einzeldokument nicht direkt verlinkbar"
         },
         "subprozessoren": {
           "wert": "https://assets.gcore.pro/site/legal/Gcore_List_of_subprocessors_25_11__2025.pdf",
@@ -1814,28 +1814,28 @@
           "status": "unbelegt",
           "quelle": "https://gcore.com/legal",
           "geprueft": "2026-10-09",
-          "anmerkung": "Kein ausdrücklicher Trainingsausschluss, auch nicht in der Inference-Doku (docs.gcore.com, 04.10.2026). Der MSA bindet nur den Zweck: Lizenz an Customer Content 'solely for the purposes of this Agreement' (§7.2), Nutzung von Customer Data 'solely on behalf of Customer, except where Gcore acts as an independent data controller' (§8.3). Die Modellseiten ('Your data and model interactions never leave our secure infrastructure') betreffen den Ort, nicht das Training. Archivkopie: web.archive.org/web/20261004055218/https://gcore.com/legal"
+          "anmerkung": "Kein ausdrücklicher Trainingsausschluss, auch nicht in der Inference-Doku (docs.gcore.com, 04.10.2026). Der MSA bindet nur den Zweck: Lizenz an Customer Content 'solely for the purposes of this Agreement' (Ziffer 7.2), Nutzung von Customer Data 'solely on behalf of Customer, except where Gcore acts as an independent data controller' (Ziffer 8.3). Die Modellseiten ('Your data and model interactions never leave our secure infrastructure') betreffen den Ort, nicht das Training. Archivkopie: web.archive.org/web/20261004055218/https://gcore.com/legal"
         },
         "zero_data_retention": {
           "wert": null,
           "status": "unbelegt",
           "quelle": "https://gcore.com/legal",
           "geprueft": "2026-10-09",
-          "anmerkung": "Keine ZDR-Zusage, auch nicht in der Inference-Doku (docs.gcore.com, 04.10.2026; der Logs-Tab zeigt Pod-Ausgaben, eine Aufbewahrungsfrist steht nirgends). MSA §16.3 regelt nur die Löschung nach Vertragsende, zuerst nach der Leistungsbeschreibung: 'The 48-hour period shall apply only where no such specification exists.'"
+          "anmerkung": "Keine ZDR-Zusage, auch nicht in der Inference-Doku (docs.gcore.com, 04.10.2026; der Logs-Tab zeigt Pod-Ausgaben, eine Aufbewahrungsfrist steht nirgends). MSA Ziffer 16.3 regelt nur die Löschung nach Vertragsende, zuerst nach der Leistungsbeschreibung: 'The 48-hour period shall apply only where no such specification exists.'"
         },
         "zweckbindung": {
           "wert": false,
           "status": "belegt",
           "quelle": "https://gcore.com/legal",
           "geprueft": "2026-10-09",
-          "anmerkung": "Für Customer Content ist der Zweck gebunden (MSA §7.2: 'solely for the purposes of this Agreement'; DPA 4.1/4.2: 'only Process Personal Data insofar as strictly necessary for the performance of the Services', 'not allowed to Process the Personal Data for any other purpose'). Der MSA §8.4(ii) erlaubt aber für Customer Data (Definition schließt 'End User Data' und 'content transmission data when such data identifies Customer' ein) eine Nutzung als eigener Verantwortlicher für 'maintenance, support and product development, fraud detection and prevention, sales, revenue and Customer analysis and reporting, marketing and Customer use analysis'. Ob personenbezogene Inhalte in Prompts darunter fallen, regeln die Dokumente nicht ausdrücklich; laut DPA 2.3 geht der DPA bei Widerspruch vor."
+          "anmerkung": "Für Customer Content ist der Zweck gebunden (MSA Ziffer 7.2: 'solely for the purposes of this Agreement'; DPA 4.1/4.2: 'only Process Personal Data insofar as strictly necessary for the performance of the Services', 'not allowed to Process the Personal Data for any other purpose'). Der MSA Ziffer 8.4(ii) erlaubt aber für Customer Data (Definition schließt 'End User Data' und 'content transmission data when such data identifies Customer' ein) eine Nutzung als eigener Verantwortlicher für 'maintenance, support and product development, fraud detection and prevention, sales, revenue and Customer analysis and reporting, marketing and Customer use analysis'. Ob personenbezogene Inhalte in Prompts darunter fallen, regeln die Dokumente nicht ausdrücklich; laut DPA 2.3 geht der DPA bei Widerspruch vor."
         },
         "betroffenenrechte_traeger": {
           "wert": "auftraggeber",
           "status": "belegt",
           "quelle": "https://gcore.com/legal",
           "geprueft": "2026-10-09",
-          "anmerkung": "DPA (Tab 'Data Processing Agreement', Stand 17.06.2026) 8.1: 'Processor shall notify immediately in writing upon receipt of any request from a data subject exercising their rights under the GDPR ... Processor shall assist Controller in taking any reasonable action the latter deems appropriate in dealing with such a request'; MSA §9.7: 'Customer will act as a data controller and Gcore as a data processor'. Für Daten, die Gcore als eigener Verantwortlicher verarbeitet (MSA §9.5.6), bedient Gcore Anfragen selbst (privacy@gcore.lu)."
+          "anmerkung": "DPA (Tab 'Data Processing Agreement', Stand 17.06.2026) 8.1: 'Processor shall notify immediately in writing upon receipt of any request from a data subject exercising their rights […] ... Processor shall assist Controller in taking any reasonable action the latter deems appropriate in dealing with such a request'; MSA Ziffer 9.7: 'Customer will act as a data controller and Gcore as a data processor'. Für Daten, die Gcore als eigener Verantwortlicher verarbeitet (MSA Ziffer 9.5.6), bedient Gcore Anfragen selbst (privacy@gcore.lu)."
         },
         "log_frist": {
           "wert": null,
@@ -1858,7 +1858,7 @@
           "status": "beansprucht",
           "quelle": "https://trustcentre.gcore.com/",
           "geprueft": "2026-10-09",
-          "anmerkung": "Das Vanta-Trust-Center trustcentre.gcore.com nennt unter 'Compliance' ‚ISO 27001:2022‘ und bietet ein ‚ISO 27001:2022 certificate‘ an, aber nur nach Zugangsanfrage (Request access; am 09.10.2026 im Browser gelesen, gleich wie am 08.10.2026; ohne Browser nicht lesbar, da JS-Seite). Damit beansprucht Gcore die Version 2022; Zertifizierungsstelle, Nummer, Scope und Laufzeit sind öffentlich nicht einsehbar. Widerspruch: gcore.com/infrastructure sagt am 09.10.2026 weiterhin ‚ISO/IEC 27001:2013 certified and compliant with PCI DCC and GDPR‘ (Wayback 20261008014212); nach IAF MD 26:2023 sind Zertifikate nach ISO/IEC 27001:2013 seit 31.10.2025 abgelaufen, die Angabe dort ist also veraltet.",
+          "anmerkung": "Das Vanta-Trust-Center trustcentre.gcore.com nennt unter 'Compliance' ‚ISO 27001:2022‘ und bietet ein ‚ISO 27001:2022 certificate‘ an, aber nur nach Zugangsanfrage (Request access; am 09.10.2026 im Browser gelesen, gleich wie am 08.10.2026; ohne Browser nicht lesbar, da JS-Seite). Damit beansprucht Gcore die Version 2022; Zertifizierungsstelle, Nummer, Scope und Laufzeit sind öffentlich nicht einsehbar. Widerspruch: gcore.com/infrastructure sagt am 09.10.2026 weiterhin ‚ISO/IEC 27001:2013 certified and compliant with PCI DCC and […]‘ (Wayback 20261008014212); nach IAF MD 26:2023 sind Zertifikate nach ISO/IEC 27001:2013 seit 31.10.2025 abgelaufen, die Angabe dort ist also veraltet.",
           "anwendungsbereich": {
             "wert": null,
             "status": "unbelegt",
@@ -1954,7 +1954,7 @@
         "anwendungsbereich": null,
         "quelle": null,
         "geprueft": "2026-10-09",
-        "anmerkung": "Das Vanta-Trust-Center (im Browser gerendert) listet unter Compliance 'ISO 27001:2022', 'PCI-DSS 4.0', 'SOC 2 Type 1' und 'GDPR'. Auf der Resources-Seite steht kein Dokument zu 42001, und die Websuche ergab ebenfalls keinen Treffer. Geprüft: https://trustcentre.gcore.com/, https://trustcentre.gcore.com/resources, https://gcore.com/compliance (HTTP 404), WebSearch: Gcore ISO 42001"
+        "anmerkung": "Das Vanta-Trust-Center (im Browser gerendert) listet unter Compliance 'ISO 27001:2022', 'PCI-DSS 4.0', 'SOC 2 Type 1' und einen Datenschutz-Eintrag. Auf der Resources-Seite steht kein Dokument zu 42001, und die Websuche ergab ebenfalls keinen Treffer. Geprüft: https://trustcentre.gcore.com/, https://trustcentre.gcore.com/resources, https://gcore.com/compliance (HTTP 404), WebSearch: Gcore ISO 42001"
       },
       "ai_act": [
         {
@@ -2218,7 +2218,7 @@
           "status": "beansprucht",
           "quelle": "https://greenpt.com/sustainability",
           "geprueft": "2026-10-09",
-          "anmerkung": "Footer-Badge; Sustainability-Seite präzisiert, dass sich die Zertifizierung auf die genutzten Rechenzentren (Scaleway, Verda) bezieht — kein eigenes GreenPT-Zertifikat auffindbar. Vom Anbieter am 01.09.2026 schriftlich bestätigt: GreenPT BV hält heute kein eigenes ISO-27001-Zertifikat, eigene Zertifizierung läuft (Fall 2026-002). Footer am 05.10.2026 unverändert: „Verified by independent audit · GDPR compliant · ISO 27001 · EU Hosted“",
+          "anmerkung": "Footer-Badge; Sustainability-Seite präzisiert, dass sich die Zertifizierung auf die genutzten Rechenzentren (Scaleway, Verda) bezieht — kein eigenes GreenPT-Zertifikat auffindbar. Vom Anbieter am 01.09.2026 schriftlich bestätigt: GreenPT BV hält heute kein eigenes ISO-27001-Zertifikat, eigene Zertifizierung läuft (Fall 2026-002). Footer am 05.10.2026 unverändert: „Verified by independent audit · […] · ISO 27001 · EU Hosted“",
           "anwendungsbereich": {
             "wert": "Rechenzentren der Infrastrukturpartner (Scaleway, Paris; Verda, Helsinki), nicht GreenPT BV",
             "status": "beansprucht",
@@ -2357,7 +2357,7 @@
           "pflicht": "Explizite EU-AI-Act-Konformitätsangaben",
           "status": "unbelegt",
           "quelle": null,
-          "anmerkung": "Keine AI-Act-spezifischen Aussagen auf Website, in ToS oder Privacy Policy gefunden; nur GDPR-Compliance wird benannt"
+          "anmerkung": "Keine KI-spezifischen Aussagen auf Website, in ToS oder Privacy Policy gefunden; benannt wird nur Datenschutz"
         }
       ],
       "geprueft": "2026-10-09",
@@ -2453,7 +2453,7 @@
           "status": "belegt",
           "quelle": "https://www.hetzner.com/AV/DPA_en.pdf",
           "geprueft": "2026-10-09",
-          "anmerkung": "DPA-PDF nach Art. 28 DSGVO (Abschluss über Kundenkonto); TOMs öffentlich, extern geprüft (TÜV Rheinland). Ob die experimentelle Inference-API vom AVV erfasst ist, ist nicht dokumentiert."
+          "anmerkung": "DPA-PDF (Abschluss über Kundenkonto); TOMs öffentlich, extern geprüft (TÜV Rheinland). Ob die experimentelle Inference-API vom AVV erfasst ist, ist nicht dokumentiert."
         },
         "subprozessoren": {
           "wert": "https://www.hetzner.com/AV/subunternehmer.pdf",
@@ -2488,7 +2488,7 @@
           "status": "belegt",
           "quelle": "https://www.hetzner.com/AV/DPA_en.pdf",
           "geprueft": "2026-10-09",
-          "anmerkung": "AVV (DPA_en.pdf) Ziffer 7 'Support for requests from Data Subjects': 'The Processor shall reasonably assist the Controller in fulfilling requests and claims of Data Subjects pursuant to Chapter III of the GDPR. If a Data Subject contacts the Processor directly in this regard, the Processor shall promptly refer the Data Subject to the Controller'. Ob der AVV die experimentelle Inference-API erfasst, ist nicht dokumentiert; die Datenschutzerklärung 4.5.2 beschreibt die Verarbeitung der Prompts mit eigener Rechtsgrundlage (Art. 6 Abs. 1 lit. b DSGVO), also aus Sicht Hetzners als Verantwortlicher."
+          "anmerkung": "AVV (DPA_en.pdf) Ziffer 7 'Support for requests from Data Subjects': 'The Processor shall reasonably assist the Controller in fulfilling requests and claims of Data Subjects pursuant to Chapter III […]. If a Data Subject contacts the Processor directly in this regard, the Processor shall promptly refer the Data Subject to the Controller'. Ob der AVV die experimentelle Inference-API erfasst, ist nicht dokumentiert; die Datenschutzerklärung 4.5.2 beschreibt die Verarbeitung der Prompts mit eigener Rechtsgrundlage, also aus Sicht Hetzners als Verantwortlicher."
         },
         "log_frist": {
           "wert": "Logfiles 6 Monate (ohne Inhalte), Abrechnungsdaten 8 Jahre; Prompts und Outputs werden nicht gespeichert",
@@ -2502,7 +2502,7 @@
           "status": "belegt",
           "quelle": "https://www.hetzner.com/de/legal/privacy-policy/",
           "geprueft": "2026-10-09",
-          "anmerkung": "Datenschutzerklärung 4.5.2: 'Die Logfiles verarbeiten wir, um einen sicheren und zuverlässigen Betrieb des Dienstes sicherzustellen. (Art. 6 Abs. 1 lit. f DSGVO)'; Abrechnungsdaten 'um Ihnen den Inference-Dienst bereitzustellen und die Abrechnung durchzuführen'."
+          "anmerkung": "Datenschutzerklärung 4.5.2: 'Die Logfiles verarbeiten wir, um einen sicheren und zuverlässigen Betrieb des Dienstes sicherzustellen. […]'; Abrechnungsdaten 'um Ihnen den Inference-Dienst bereitzustellen und die Abrechnung durchzuführen'."
         }
       },
       "zertifikate": [
@@ -2576,14 +2576,14 @@
         "anwendungsbereich": null,
         "quelle": null,
         "geprueft": "2026-10-09",
-        "anmerkung": "Auf beiden Hetzner-Seiten wird ISO/IEC 42001 nicht erwähnt. Genannt sind DIN ISO/IEC 27001:2022, BSI C5 Type 2, KRITIS/§8a BSIG und PCI DSS (über Computop). Die Websuche lieferte keinen Treffer zu Hetzner und 42001. Geprüft: https://www.hetzner.com/unternehmen/zertifizierung/, https://docs.hetzner.com/general/others/certificates, WebSearch: \"Hetzner ISO 42001\""
+        "anmerkung": "Auf beiden Hetzner-Seiten wird ISO/IEC 42001 nicht erwähnt. Genannt sind DIN ISO/IEC 27001:2022, BSI C5 Type 2, KRITIS-Nachweis und PCI DSS (über Computop). Die Websuche lieferte keinen Treffer zu Hetzner und 42001. Geprüft: https://www.hetzner.com/unternehmen/zertifizierung/, https://docs.hetzner.com/general/others/certificates, WebSearch: \"Hetzner ISO 42001\""
       },
       "ai_act": [
         {
           "pflicht": "Art.-53-Transparenzdokumentation",
           "status": "unbelegt",
           "quelle": null,
-          "anmerkung": "Hetzner serviert ein Fremdmodell (Qwen, Apache 2.0); Art.-53-Pflichten liegen beim Modellhersteller. Keine AI-Act-Dokumentation gefunden."
+          "anmerkung": "Hetzner serviert ein Fremdmodell (Qwen, Apache 2.0); die Transparenzpflichten für das Modell liegen beim Modellhersteller. Keine eigene Dokumentation dazu gefunden."
         }
       ],
       "geprueft": "2026-10-09",
@@ -2638,7 +2638,7 @@
             "status": "unbelegt",
             "quelle": null,
             "geprueft": "2026-10-09",
-            "anmerkung": "Keine Aussage zu Sicherungen oder Spiegelungen der KI-Dienste (Abruf 08.10.2026): LLM-Bedingungen Art. 6 sagen nur 'Some data is stored temporarily for the duration necessary to process the Client's request', die Produktseite 'No queries are stored'; der AVV (Art. 6.4) legt Backups allgemein in die Verantwortung des Kunden. Rechenzentren laut Produktseite in der Schweiz."
+            "anmerkung": "Keine Aussage zu Sicherungen oder Spiegelungen der KI-Dienste (Abruf 08.10.2026): LLM-Bedingungen Ziffer 6 sagen nur 'Some data is stored temporarily for the duration necessary to process the Client's request', die Produktseite 'No queries are stored'; der AVV (Ziffer 6.4) legt Backups allgemein in die Verantwortung des Kunden. Rechenzentren laut Produktseite in der Schweiz."
           },
           "vorgeschaltete_filter": {
             "wert": null,
@@ -2662,7 +2662,7 @@
             "status": "unbelegt",
             "quelle": null,
             "geprueft": "2026-10-09",
-            "anmerkung": "Keine Aussage zu Sicherungen oder Spiegelungen der KI-Dienste (Abruf 08.10.2026): LLM-Bedingungen Art. 6 sagen nur 'Some data is stored temporarily for the duration necessary to process the Client's request', die Produktseite 'No queries are stored'; der AVV (Art. 6.4) legt Backups allgemein in die Verantwortung des Kunden. Rechenzentren laut Produktseite in der Schweiz."
+            "anmerkung": "Keine Aussage zu Sicherungen oder Spiegelungen der KI-Dienste (Abruf 08.10.2026): LLM-Bedingungen Ziffer 6 sagen nur 'Some data is stored temporarily for the duration necessary to process the Client's request', die Produktseite 'No queries are stored'; der AVV (Ziffer 6.4) legt Backups allgemein in die Verantwortung des Kunden. Rechenzentren laut Produktseite in der Schweiz."
           },
           "vorgeschaltete_filter": {
             "wert": null,
@@ -2686,7 +2686,7 @@
             "status": "unbelegt",
             "quelle": null,
             "geprueft": "2026-10-09",
-            "anmerkung": "Keine Aussage zu Sicherungen oder Spiegelungen der KI-Dienste (Abruf 08.10.2026): LLM-Bedingungen Art. 6 sagen nur 'Some data is stored temporarily for the duration necessary to process the Client's request', die Produktseite 'No queries are stored'; der AVV (Art. 6.4) legt Backups allgemein in die Verantwortung des Kunden. Rechenzentren laut Produktseite in der Schweiz."
+            "anmerkung": "Keine Aussage zu Sicherungen oder Spiegelungen der KI-Dienste (Abruf 08.10.2026): LLM-Bedingungen Ziffer 6 sagen nur 'Some data is stored temporarily for the duration necessary to process the Client's request', die Produktseite 'No queries are stored'; der AVV (Ziffer 6.4) legt Backups allgemein in die Verantwortung des Kunden. Rechenzentren laut Produktseite in der Schweiz."
           },
           "vorgeschaltete_filter": {
             "wert": null,
@@ -2710,7 +2710,7 @@
             "status": "unbelegt",
             "quelle": null,
             "geprueft": "2026-10-09",
-            "anmerkung": "Keine Aussage zu Sicherungen oder Spiegelungen der KI-Dienste (Abruf 08.10.2026): LLM-Bedingungen Art. 6 sagen nur 'Some data is stored temporarily for the duration necessary to process the Client's request', die Produktseite 'No queries are stored'; der AVV (Art. 6.4) legt Backups allgemein in die Verantwortung des Kunden. Rechenzentren laut Produktseite in der Schweiz."
+            "anmerkung": "Keine Aussage zu Sicherungen oder Spiegelungen der KI-Dienste (Abruf 08.10.2026): LLM-Bedingungen Ziffer 6 sagen nur 'Some data is stored temporarily for the duration necessary to process the Client's request', die Produktseite 'No queries are stored'; der AVV (Ziffer 6.4) legt Backups allgemein in die Verantwortung des Kunden. Rechenzentren laut Produktseite in der Schweiz."
           },
           "vorgeschaltete_filter": {
             "wert": null,
@@ -2734,7 +2734,7 @@
             "status": "unbelegt",
             "quelle": null,
             "geprueft": "2026-10-09",
-            "anmerkung": "Keine Aussage zu Sicherungen oder Spiegelungen der KI-Dienste (Abruf 08.10.2026): LLM-Bedingungen Art. 6 sagen nur 'Some data is stored temporarily for the duration necessary to process the Client's request', die Produktseite 'No queries are stored'; der AVV (Art. 6.4) legt Backups allgemein in die Verantwortung des Kunden. Rechenzentren laut Produktseite in der Schweiz."
+            "anmerkung": "Keine Aussage zu Sicherungen oder Spiegelungen der KI-Dienste (Abruf 08.10.2026): LLM-Bedingungen Ziffer 6 sagen nur 'Some data is stored temporarily for the duration necessary to process the Client's request', die Produktseite 'No queries are stored'; der AVV (Ziffer 6.4) legt Backups allgemein in die Verantwortung des Kunden. Rechenzentren laut Produktseite in der Schweiz."
           },
           "vorgeschaltete_filter": {
             "wert": null,
@@ -2758,7 +2758,7 @@
             "status": "unbelegt",
             "quelle": null,
             "geprueft": "2026-10-09",
-            "anmerkung": "Keine Aussage zu Sicherungen oder Spiegelungen der KI-Dienste (Abruf 08.10.2026): LLM-Bedingungen Art. 6 sagen nur 'Some data is stored temporarily for the duration necessary to process the Client's request', die Produktseite 'No queries are stored'; der AVV (Art. 6.4) legt Backups allgemein in die Verantwortung des Kunden. Rechenzentren laut Produktseite in der Schweiz."
+            "anmerkung": "Keine Aussage zu Sicherungen oder Spiegelungen der KI-Dienste (Abruf 08.10.2026): LLM-Bedingungen Ziffer 6 sagen nur 'Some data is stored temporarily for the duration necessary to process the Client's request', die Produktseite 'No queries are stored'; der AVV (Ziffer 6.4) legt Backups allgemein in die Verantwortung des Kunden. Rechenzentren laut Produktseite in der Schweiz."
           },
           "vorgeschaltete_filter": {
             "wert": null,
@@ -2782,7 +2782,7 @@
             "status": "unbelegt",
             "quelle": null,
             "geprueft": "2026-10-09",
-            "anmerkung": "Keine Aussage zu Sicherungen oder Spiegelungen der KI-Dienste (Abruf 08.10.2026): LLM-Bedingungen Art. 6 sagen nur 'Some data is stored temporarily for the duration necessary to process the Client's request', die Produktseite 'No queries are stored'; der AVV (Art. 6.4) legt Backups allgemein in die Verantwortung des Kunden. Rechenzentren laut Produktseite in der Schweiz."
+            "anmerkung": "Keine Aussage zu Sicherungen oder Spiegelungen der KI-Dienste (Abruf 08.10.2026): LLM-Bedingungen Ziffer 6 sagen nur 'Some data is stored temporarily for the duration necessary to process the Client's request', die Produktseite 'No queries are stored'; der AVV (Ziffer 6.4) legt Backups allgemein in die Verantwortung des Kunden. Rechenzentren laut Produktseite in der Schweiz."
           },
           "vorgeschaltete_filter": {
             "wert": null,
@@ -2806,7 +2806,7 @@
             "status": "unbelegt",
             "quelle": null,
             "geprueft": "2026-10-09",
-            "anmerkung": "Keine Aussage zu Sicherungen oder Spiegelungen der KI-Dienste (Abruf 08.10.2026): LLM-Bedingungen Art. 6 sagen nur 'Some data is stored temporarily for the duration necessary to process the Client's request', die Produktseite 'No queries are stored'; der AVV (Art. 6.4) legt Backups allgemein in die Verantwortung des Kunden. Rechenzentren laut Produktseite in der Schweiz."
+            "anmerkung": "Keine Aussage zu Sicherungen oder Spiegelungen der KI-Dienste (Abruf 08.10.2026): LLM-Bedingungen Ziffer 6 sagen nur 'Some data is stored temporarily for the duration necessary to process the Client's request', die Produktseite 'No queries are stored'; der AVV (Ziffer 6.4) legt Backups allgemein in die Verantwortung des Kunden. Rechenzentren laut Produktseite in der Schweiz."
           },
           "vorgeschaltete_filter": {
             "wert": null,
@@ -2823,56 +2823,56 @@
           "status": "belegt",
           "quelle": "https://www.infomaniak.com/documents/privacy/DPA/Data_Processing_Agreement_(DPA).pdf",
           "geprueft": "2026-10-09",
-          "anmerkung": "Öffentliches AVV-PDF nach Art. 28 DSGVO und Art. 9 Schweizer DSG; Schweizer Recht, Gerichtsstand Genf; Art. 13: keine Übermittlung außerhalb EU/EWR ohne vorherige schriftliche Zustimmung. Generischer Hosting-AVV, nicht KI-spezifisch"
+          "anmerkung": "Öffentliches AVV-PDF nach EU- und Schweizer Datenschutzrecht; Schweizer Recht, Gerichtsstand Genf; Ziffer 13: keine Übermittlung außerhalb EU/EWR ohne vorherige schriftliche Zustimmung. Generischer Hosting-AVV, nicht KI-spezifisch"
         },
         "subprozessoren": {
           "wert": null,
           "status": "unbelegt",
           "quelle": "https://www.infomaniak.com/documents/privacy/DPA/Data_Processing_Agreement_(DPA).pdf",
           "geprueft": "2026-10-09",
-          "anmerkung": "Keine öffentliche Subprozessoren-Liste; AVV Art. 5 regelt Vorabinformation und 30 Tage Widerspruchsfrist. Die Datenschutzerklärung (infomaniak.com/en/legal/confidentiality-policy, Abruf 04.10.2026) verweist für dienstspezifische Unterauftragnehmer auf einen Anhang: they are listed in the “Third-Party Subcontractors” annex of our Data Processing Agreement (DPA) — das öffentliche AVV-PDF enthält keinen solchen Anhang, die Seite der Vertragsdokumente verlinkt als Anhang nur die technisch-organisatorischen Maßnahmen (Stand 04.10.2026). Ob für die KI-API Unterauftragnehmer eingesetzt werden, steht in keinem öffentlichen Dokument"
+          "anmerkung": "Keine öffentliche Subprozessoren-Liste; AVV Ziffer 5 regelt Vorabinformation und 30 Tage Widerspruchsfrist. Die Datenschutzerklärung (infomaniak.com/en/legal/confidentiality-policy, Abruf 04.10.2026) verweist für dienstspezifische Unterauftragnehmer auf einen Anhang: they are listed in the “Third-Party Subcontractors” annex of our Data Processing Agreement (DPA) — das öffentliche AVV-PDF enthält keinen solchen Anhang, die Seite der Vertragsdokumente verlinkt als Anhang nur die technisch-organisatorischen Maßnahmen (Stand 04.10.2026). Ob für die KI-API Unterauftragnehmer eingesetzt werden, steht in keinem öffentlichen Dokument"
         },
         "training_opt_out": {
           "wert": true,
           "status": "belegt",
           "quelle": "https://welcome.infomaniak.com/api/web-components/1/cgu/latest?id=87&locale=en_GB",
           "geprueft": "2026-10-09",
-          "anmerkung": "Besondere Bedingungen „LLM API - Terms and Conditions of Use“ (Fassung „Review of 07/10/2025“, Abruf 04.10.2026), Art. 6 wörtlich: Infomaniak explicitly states it does not use transmitted data (prompts, response content) to train its own AIs or to exploit the data in any other way — Training per Vertrag ausgeschlossen, kein Opt-out nötig. Die Bedingungen gehen den allgemeinen Nutzungsbedingungen vor (Art. 1). Produktseite gleichlautend: 'Your queries are neither recorded nor used to train models or improve our services'. Das PDF wird bei jedem Abruf neu erzeugt (Datei-Hash wechselt, Text gleich)"
+          "anmerkung": "Besondere Bedingungen „LLM API - Terms and Conditions of Use“ (Fassung „Review of 07/10/2025“, Abruf 04.10.2026), Ziffer 6 wörtlich: Infomaniak explicitly states it does not use transmitted data (prompts, response content) to train its own AIs or to exploit the data in any other way — Training per Vertrag ausgeschlossen, kein Opt-out nötig. Die Bedingungen gehen den allgemeinen Nutzungsbedingungen vor (Ziffer 1). Produktseite gleichlautend: 'Your queries are neither recorded nor used to train models or improve our services'. Das PDF wird bei jedem Abruf neu erzeugt (Datei-Hash wechselt, Text gleich)"
         },
         "zero_data_retention": {
           "wert": true,
           "status": "belegt",
           "quelle": "https://welcome.infomaniak.com/api/web-components/1/cgu/latest?id=87&locale=en_GB",
           "geprueft": "2026-10-09",
-          "anmerkung": "Besondere Bedingungen „LLM API - Terms and Conditions of Use“ (Fassung „Review of 07/10/2025“, Abruf 04.10.2026), Art. 6 wörtlich: Infomaniak does not permanently collect any information transmitted by the Client during API usage, except for data necessary for billing and the proper functioning of the service. Some data is stored temporarily for the duration necessary to process the Client's request. — gleiche Formel wie bei Lyceum und DeepL (Speicherung nur für die Bearbeitung). Der Vertrag ist enger als die Produktseite ('No queries are stored'): Ausnahme für Abrechnung und Betrieb ohne Frist; dauerhaft erfasst werden laut Art. 6 Kunden-ID, Anzahl und Bearbeitungszeit der Anfragen, Zeitstempel und Metadaten (Größe, Format, Dauer, Seitenzahl)"
+          "anmerkung": "Besondere Bedingungen „LLM API - Terms and Conditions of Use“ (Fassung „Review of 07/10/2025“, Abruf 04.10.2026), Ziffer 6 wörtlich: Infomaniak does not permanently collect any information transmitted by the Client during API usage, except for data necessary for billing and the proper functioning of the service. Some data is stored temporarily for the duration necessary to process the Client's request. — gleiche Formel wie bei Lyceum und DeepL (Speicherung nur für die Bearbeitung). Der Vertrag ist enger als die Produktseite ('No queries are stored'): Ausnahme für Abrechnung und Betrieb ohne Frist; dauerhaft erfasst werden laut Ziffer 6 Kunden-ID, Anzahl und Bearbeitungszeit der Anfragen, Zeitstempel und Metadaten (Größe, Format, Dauer, Seitenzahl)"
         },
         "zweckbindung": {
           "wert": true,
           "status": "belegt",
           "quelle": "https://welcome.infomaniak.com/api/web-components/1/cgu/latest?id=87&locale=en_GB",
           "geprueft": "2026-10-09",
-          "anmerkung": "Besondere Bedingungen 'LLM API - Terms and Conditions of Use' (Review of 07/10/2025, Abruf 08.10.2026), Art. 6 wörtlich: 'Infomaniak explicitly states it does not use transmitted data (prompts, response content) to train its own AIs or to exploit the data in any other way.' Dauerhaft erfasst werden nur Betriebsdaten ('except for data necessary for billing and the proper functioning of the service'): Kunden-ID, Anzahl und Bearbeitungszeit der Anfragen, Zeitstempel, Metadaten. Der AVV (Art. 2.1.4) ergänzt: 'not to access or use the Company's Personal Data for purposes other than those necessary for the performance of the Services (in particular for incident management)'. Produktseite gleichlautend: 'neither recorded nor used to train models or improve our services'."
+          "anmerkung": "Besondere Bedingungen 'LLM API - Terms and Conditions of Use' (Review of 07/10/2025, Abruf 08.10.2026), Ziffer 6 wörtlich: 'Infomaniak explicitly states it does not use transmitted data (prompts, response content) to train its own AIs or to exploit the data in any other way.' Dauerhaft erfasst werden nur Betriebsdaten ('except for data necessary for billing and the proper functioning of the service'): Kunden-ID, Anzahl und Bearbeitungszeit der Anfragen, Zeitstempel, Metadaten. Der AVV (Ziffer 2.1.4) ergänzt: 'not to access or use the Company's Personal Data for purposes other than those necessary for the performance of the Services (in particular for incident management)'. Produktseite gleichlautend: 'neither recorded nor used to train models or improve our services'."
         },
         "betroffenenrechte_traeger": {
           "wert": "auftraggeber",
           "status": "belegt",
           "quelle": "https://www.infomaniak.com/documents/privacy/DPA/Data_Processing_Agreement_(DPA).pdf",
           "geprueft": "2026-10-09",
-          "anmerkung": "AVV Art. 6.1: Infomaniak 'must assist the Company ... to respond to requests to exercise the rights of Data Subjects'; Art. 6.2: Infomaniak muss den Kunden benachrichtigen und darf 'not respond to such a request, except on documented instructions from the Company or as required by applicable laws'. Abruf 08.10.2026."
+          "anmerkung": "AVV Ziffer 6.1: Infomaniak 'must assist the Company ... to respond to requests to exercise the rights of Data Subjects'; Ziffer 6.2: Infomaniak muss den Kunden benachrichtigen und darf 'not respond to such a request, except on documented instructions from the Company or as required by applicable laws'. Abruf 08.10.2026."
         },
         "log_frist": {
           "wert": null,
           "status": "unbelegt",
           "quelle": "https://welcome.infomaniak.com/api/web-components/1/cgu/latest?id=87&locale=en_GB",
           "geprueft": "2026-10-09",
-          "anmerkung": "Für die Betriebsdaten der LLM API (Kunden-ID, Anzahl/Bearbeitungszeit, Zeitstempel, Metadaten; Art. 6 der LLM-Bedingungen) nennt kein Dokument eine Frist: weder die LLM-Bedingungen noch der AVV noch die Datenschutzerklärung (Abruf 08.10.2026). Die Datenschutzerklärung nennt nur für Konto-Logs 'Log files for your account (IP addresses): up to twelve months' — das betrifft das Kundenkonto, nicht ausdrücklich die API-Anfragen. Inhalte: 'Some data is stored temporarily for the duration necessary to process the Client's request.'"
+          "anmerkung": "Für die Betriebsdaten der LLM API (Kunden-ID, Anzahl/Bearbeitungszeit, Zeitstempel, Metadaten; Ziffer 6 der LLM-Bedingungen) nennt kein Dokument eine Frist: weder die LLM-Bedingungen noch der AVV noch die Datenschutzerklärung (Abruf 08.10.2026). Die Datenschutzerklärung nennt nur für Konto-Logs 'Log files for your account (IP addresses): up to twelve months' — das betrifft das Kundenkonto, nicht ausdrücklich die API-Anfragen. Inhalte: 'Some data is stored temporarily for the duration necessary to process the Client's request.'"
         },
         "log_zweck": {
           "wert": "Abrechnung und ordnungsgemäßer Betrieb des Dienstes",
           "status": "belegt",
           "quelle": "https://welcome.infomaniak.com/api/web-components/1/cgu/latest?id=87&locale=en_GB",
           "geprueft": "2026-10-09",
-          "anmerkung": "LLM-Bedingungen Art. 6 wörtlich: 'except for data necessary for billing and the proper functioning of the service', Überschrift der Liste 'Data Collected for Operational Purposes'. Abruf 08.10.2026."
+          "anmerkung": "LLM-Bedingungen Ziffer 6 wörtlich: 'except for data necessary for billing and the proper functioning of the service', Überschrift der Liste 'Data Collected for Operational Purposes'. Abruf 08.10.2026."
         }
       },
       "zertifikate": [
@@ -3048,13 +3048,13 @@
           "pflicht": "GPAI-Transparenzpflichten (Art. 53 AI Act)",
           "status": "unbelegt",
           "quelle": null,
-          "anmerkung": "CH ist nicht EU, der AI Act gilt aber, soweit die API im EU-Markt angeboten wird. Infomaniak ist reiner Inferenz-Anbieter fremder Open-Source-Modelle, nicht Modellhersteller; keine AI-Act-spezifische Selbsteinordnung auffindbar (04.10.2026: weder die Produktseite noch die Bedingungen der LLM API nennen den AI Act; Art. 7 der Bedingungen sagt nur, Infomaniak respektiere die Lizenzen der eingesetzten Modelle)"
+          "anmerkung": "Infomaniak sitzt in der Schweiz und bietet die API auch im EU-Markt an. Infomaniak ist reiner Inferenz-Anbieter fremder Open-Source-Modelle, nicht Modellhersteller; keine eigene Selbsteinordnung dazu auffindbar (04.10.2026: weder die Produktseite noch die Bedingungen der LLM API nennen die EU-Regeln für KI; Ziffer 7 der Bedingungen sagt nur, Infomaniak respektiere die Lizenzen der eingesetzten Modelle)"
         },
         {
           "pflicht": "Öffentliche AI-Act-Compliance-Aussage",
           "status": "unbelegt",
           "quelle": null,
-          "anmerkung": "Beworben wird Konformität zu DSGVO und Schweizer DSG ('full compliance with the FADP and GDPR'); DSGVO-Konformität ist nicht mit AI-Act-Konformität gleichzusetzen. Am 04.10.2026 unverändert: Produktseite und Bedingungen der LLM API ohne Aussage zum AI Act"
+          "anmerkung": "Beworben wird nur Datenschutz (Schweizer und EU-Recht), keine Aussage zu KI-spezifischen Pflichten. Am 04.10.2026 unverändert: Produktseite und Bedingungen der LLM API ohne Aussage dazu"
         }
       ],
       "geprueft": "2026-10-09",
@@ -3115,7 +3115,7 @@
             "status": "unbelegt",
             "quelle": null,
             "geprueft": "2026-10-09",
-            "anmerkung": "Data-Handling- und EU-AI-Act-Doku des AI Model Hub (abgerufen 08.10.2026) erwähnen weder Moderation noch Filter oder Guardrails vor oder hinter dem Modell; ausdrücklich verneint wird es aber auch nicht. Die AI-Act-Seite kündigt eine maschinenlesbare Kennzeichnung nach Art. 50(2) an ('We are implementing the machine-readable marking and detection measures …'), noch nicht umgesetzt."
+            "anmerkung": "Data-Handling- und KI-Compliance-Doku des AI Model Hub (abgerufen 08.10.2026) erwähnen weder Moderation noch Filter oder Guardrails vor oder hinter dem Modell; ausdrücklich verneint wird es aber auch nicht. Die KI-Compliance-Seite kündigt eine maschinenlesbare Kennzeichnung an ('We are implementing the machine-readable marking and detection measures …'), noch nicht umgesetzt."
           }
         },
         {
@@ -3139,7 +3139,7 @@
             "status": "unbelegt",
             "quelle": null,
             "geprueft": "2026-10-09",
-            "anmerkung": "Data-Handling- und EU-AI-Act-Doku des AI Model Hub (abgerufen 08.10.2026) erwähnen weder Moderation noch Filter oder Guardrails vor oder hinter dem Modell; ausdrücklich verneint wird es aber auch nicht. Die AI-Act-Seite kündigt eine maschinenlesbare Kennzeichnung nach Art. 50(2) an ('We are implementing the machine-readable marking and detection measures …'), noch nicht umgesetzt."
+            "anmerkung": "Data-Handling- und KI-Compliance-Doku des AI Model Hub (abgerufen 08.10.2026) erwähnen weder Moderation noch Filter oder Guardrails vor oder hinter dem Modell; ausdrücklich verneint wird es aber auch nicht. Die KI-Compliance-Seite kündigt eine maschinenlesbare Kennzeichnung an ('We are implementing the machine-readable marking and detection measures …'), noch nicht umgesetzt."
           }
         },
         {
@@ -3162,7 +3162,7 @@
             "status": "unbelegt",
             "quelle": null,
             "geprueft": "2026-10-09",
-            "anmerkung": "Data-Handling- und EU-AI-Act-Doku des AI Model Hub (abgerufen 08.10.2026) erwähnen weder Moderation noch Filter oder Guardrails vor oder hinter dem Modell; ausdrücklich verneint wird es aber auch nicht. Die AI-Act-Seite kündigt eine maschinenlesbare Kennzeichnung nach Art. 50(2) an ('We are implementing the machine-readable marking and detection measures …'), noch nicht umgesetzt."
+            "anmerkung": "Data-Handling- und KI-Compliance-Doku des AI Model Hub (abgerufen 08.10.2026) erwähnen weder Moderation noch Filter oder Guardrails vor oder hinter dem Modell; ausdrücklich verneint wird es aber auch nicht. Die KI-Compliance-Seite kündigt eine maschinenlesbare Kennzeichnung an ('We are implementing the machine-readable marking and detection measures …'), noch nicht umgesetzt."
           }
         },
         {
@@ -3185,7 +3185,7 @@
             "status": "unbelegt",
             "quelle": null,
             "geprueft": "2026-10-09",
-            "anmerkung": "Data-Handling- und EU-AI-Act-Doku des AI Model Hub (abgerufen 08.10.2026) erwähnen weder Moderation noch Filter oder Guardrails vor oder hinter dem Modell; ausdrücklich verneint wird es aber auch nicht. Die AI-Act-Seite kündigt eine maschinenlesbare Kennzeichnung nach Art. 50(2) an ('We are implementing the machine-readable marking and detection measures …'), noch nicht umgesetzt."
+            "anmerkung": "Data-Handling- und KI-Compliance-Doku des AI Model Hub (abgerufen 08.10.2026) erwähnen weder Moderation noch Filter oder Guardrails vor oder hinter dem Modell; ausdrücklich verneint wird es aber auch nicht. Die KI-Compliance-Seite kündigt eine maschinenlesbare Kennzeichnung an ('We are implementing the machine-readable marking and detection measures …'), noch nicht umgesetzt."
           }
         },
         {
@@ -3208,7 +3208,7 @@
             "status": "unbelegt",
             "quelle": null,
             "geprueft": "2026-10-09",
-            "anmerkung": "Data-Handling- und EU-AI-Act-Doku des AI Model Hub (abgerufen 08.10.2026) erwähnen weder Moderation noch Filter oder Guardrails vor oder hinter dem Modell; ausdrücklich verneint wird es aber auch nicht. Die AI-Act-Seite kündigt eine maschinenlesbare Kennzeichnung nach Art. 50(2) an ('We are implementing the machine-readable marking and detection measures …'), noch nicht umgesetzt."
+            "anmerkung": "Data-Handling- und KI-Compliance-Doku des AI Model Hub (abgerufen 08.10.2026) erwähnen weder Moderation noch Filter oder Guardrails vor oder hinter dem Modell; ausdrücklich verneint wird es aber auch nicht. Die KI-Compliance-Seite kündigt eine maschinenlesbare Kennzeichnung an ('We are implementing the machine-readable marking and detection measures …'), noch nicht umgesetzt."
           }
         },
         {
@@ -3231,7 +3231,7 @@
             "status": "unbelegt",
             "quelle": null,
             "geprueft": "2026-10-09",
-            "anmerkung": "Data-Handling- und EU-AI-Act-Doku des AI Model Hub (abgerufen 08.10.2026) erwähnen weder Moderation noch Filter oder Guardrails vor oder hinter dem Modell; ausdrücklich verneint wird es aber auch nicht. Die AI-Act-Seite kündigt eine maschinenlesbare Kennzeichnung nach Art. 50(2) an ('We are implementing the machine-readable marking and detection measures …'), noch nicht umgesetzt."
+            "anmerkung": "Data-Handling- und KI-Compliance-Doku des AI Model Hub (abgerufen 08.10.2026) erwähnen weder Moderation noch Filter oder Guardrails vor oder hinter dem Modell; ausdrücklich verneint wird es aber auch nicht. Die KI-Compliance-Seite kündigt eine maschinenlesbare Kennzeichnung an ('We are implementing the machine-readable marking and detection measures …'), noch nicht umgesetzt."
           }
         }
       ],
@@ -3241,7 +3241,7 @@
           "status": "belegt",
           "quelle": "https://www.ionos.de/terms-gtc/avv/",
           "geprueft": "2026-10-09",
-          "anmerkung": "AVV nach Art. 28 Abs. 3 DSGVO; seit 19.07.2022 automatisch Bestandteil der IONOS AGB, kein separater Abschluss nötig."
+          "anmerkung": "AVV seit 19.07.2022 automatisch Bestandteil der IONOS AGB, kein separater Abschluss nötig."
         },
         "subprozessoren": {
           "wert": "https://www.ionos.de/terms-gtc/fileadmin/pdf/terms-gtc/DE/AVV/AVV_Liste_Subunternehmen_v4_5_DE.pdf",
@@ -3403,7 +3403,7 @@
           "status": "belegt",
           "quelle": "https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/eu-ai-act",
           "geprueft": "2026-10-09",
-          "anmerkung": "Eigene Doku-Seite (Stand 03.10.2026): 'IONOS CLOUD is the provider of the system within the meaning of Article 3(3). This applies to every model in the catalogue, irrespective of whether we modify it.' Modellentwickler sind Provider des GPAI-Modells (Art. 53), Kunden Deployer; das Wort 'Distributor' kommt nicht mehr vor. Neu: Art.-50(2)-Kennzeichnung wird laut Doku noch umgesetzt ('implementing … machine-readable marking')."
+          "anmerkung": "Eigene Doku-Seite (Stand 03.10.2026): 'IONOS CLOUD is the provider of the system […]. This applies to every model in the catalogue, irrespective of whether we modify it.' Modellentwickler sind Provider des GPAI-Modells, Kunden Deployer; das Wort 'Distributor' kommt nicht mehr vor. Neu: Die maschinenlesbare Kennzeichnung wird laut Doku noch umgesetzt ('implementing … machine-readable marking')."
         },
         {
           "pflicht": "GPAI Code of Practice unterzeichnet",
@@ -3992,14 +3992,14 @@
           "status": "belegt",
           "quelle": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
           "geprueft": "2026-10-09",
-          "anmerkung": "Opt-out für Studio und API im Admin-Panel (Privacy → 'Anonymous improvement data'), getrennt vom Vibe-Schalter. Stand Help Center 03.09.2026: Free-Modus wird standardmäßig zum Training genutzt; für Pay-as-you-go nennt Mistral nur das Opt-out-Recht, keinen Standard mehr — die frühere Doku-Aussage 'API-Daten werden nicht zum Training genutzt' ist mit der alten Seite (404 seit spätestens 03.10.2026) entfallen. Vibe Enterprise ist standardmäßig ausgeschlossen. Nachgeprüft 05.10.2026: beide Hilfe-Artikel unverändert (455207 vom 03.09.2026; 347617 vom 31.08.2026: Free mode „we may use your data (input and output) to train our artificial intelligence models“, Pay-as-you-go „Customers retain full control over this processing and have the right to opt out at any time“). Vertragstext dazu: Commercial Terms of Service („Effective: September 25, 2026“) Ziffer 4.2: kein Training, außer wenn der Kunde bei einem Produkt mit Voreinstellung „an“ nicht widersprochen hat, bei Feedback (Daumen hoch/runter) und bei Labs- oder Preview-Modellen; Ziffer 4.3: bei Labs- und Preview-Modellen gelten weder das Opt-out noch Zero Data Retention. Das betrifft seit 06.10.2026 auch Mistral Large 4, das als „Public Preview“ angeboten wird (eigener Eintrag oben). Hilfe-Artikel 455207 und 347617 am 08.10.2026 unverändert (Stand 03.09. bzw. 31.08.2026). Welche Voreinstellung für Pay-as-you-go gilt, steht in keiner der gelesenen Quellen (ungeklärt)."
+          "anmerkung": "Opt-out für Studio und API im Admin-Panel (Privacy → 'Anonymous improvement data'), getrennt vom Vibe-Schalter. Stand Help Center 03.09.2026: Free-Modus wird standardmäßig zum Training genutzt; für Pay-as-you-go nennt Mistral nur das Opt-out-Recht, keinen Standard mehr — die frühere Doku-Aussage 'API-Daten werden nicht zum Training genutzt' ist mit der alten Seite (404 seit spätestens 03.10.2026) entfallen. Vibe Enterprise ist standardmäßig ausgeschlossen. Nachgeprüft 05.10.2026: beide Hilfeseiten unverändert (Nr. 455207 vom 03.09.2026; 347617 vom 31.08.2026: Free mode „we may use your data (input and output) to train our artificial intelligence models“, Pay-as-you-go „Customers retain full control over this processing and have the right to opt out at any time“). Vertragstext dazu: Commercial Terms of Service („Effective: September 25, 2026“) Ziffer 4.2: kein Training, außer wenn der Kunde bei einem Produkt mit Voreinstellung „an“ nicht widersprochen hat, bei Feedback (Daumen hoch/runter) und bei Labs- oder Preview-Modellen; Ziffer 4.3: bei Labs- und Preview-Modellen gelten weder das Opt-out noch Zero Data Retention. Das betrifft seit 06.10.2026 auch Mistral Large 4, das als „Public Preview“ angeboten wird (eigener Eintrag oben). Hilfeseiten Nr. 455207 und 347617 am 08.10.2026 unverändert (Stand 03.09. bzw. 31.08.2026). Welche Voreinstellung für Pay-as-you-go gilt, steht in keiner der gelesenen Quellen (ungeklärt)."
         },
         "zero_data_retention": {
           "wert": true,
           "status": "belegt",
           "quelle": "https://docs.mistral.ai/admin/monitor-comply/zero-data-retention",
           "geprueft": "2026-10-09",
-          "anmerkung": "ZDR auf bezahlten Plänen, nur auf Antrag mit Begründung (Mistral prüft und kann ablehnen), nur für zustandslose API-Aufrufe (Chat, FIM, Embeddings, Moderation, Klassifikation, OCR, Audio), nicht für Labs-Modelle, Agents, Batch, Conversations, Libraries, Files, Vibe Work und Chat. Wortlaut am 05.10.2026, Doku: „Include enough detail about your legitimate reason for requesting ZDR. We review each request and may approve or deny it.“; Hilfe-Artikel 347612 (12.08.2026): „available only with pay-as-you-go and only for stateless API calls“ und „We will review your request and, at our discretion, approve or deny it.“ Eine Bewilligung erscheint laut Doku im Admin-Panel des Kunden (am 05.10.2026 „Admin Panel › API › Privacy“, am 08.10.2026 „Admin Panel › Vibe › Privacy“; sonst ist die Doku am 08.10. satzgleich zur Archivkopie web.archive.org/web/20261005091937); eine öffentliche Liste bewilligter Konten haben wir nicht gefunden, von außen ist es also für kein Konto nachprüfbar. Ohne ZDR laut Datenschutzerklärung (legal.mistral.ai/terms/privacy-policy, gültig ab 03.09.2026, geprüft 04.10.2026): Input und Output 30 Tage zur Missbrauchsüberwachung, technische Verbindungsdaten 1 Jahr."
+          "anmerkung": "ZDR auf bezahlten Plänen, nur auf Antrag mit Begründung (Mistral prüft und kann ablehnen), nur für zustandslose API-Aufrufe (Chat, FIM, Embeddings, Moderation, Klassifikation, OCR, Audio), nicht für Labs-Modelle, Agents, Batch, Conversations, Libraries, Files, Vibe Work und Chat. Wortlaut am 05.10.2026, Doku: „Include enough detail about your legitimate reason for requesting ZDR. We review each request and may approve or deny it.“; Hilfeseite Nr. 347612 (12.08.2026): „available only with pay-as-you-go and only for stateless API calls“ und „We will review your request and, at our discretion, approve or deny it.“ Eine Bewilligung erscheint laut Doku im Admin-Panel des Kunden (am 05.10.2026 „Admin Panel › API › Privacy“, am 08.10.2026 „Admin Panel › Vibe › Privacy“; sonst ist die Doku am 08.10. satzgleich zur Archivkopie web.archive.org/web/20261005091937); eine öffentliche Liste bewilligter Konten haben wir nicht gefunden, von außen ist es also für kein Konto nachprüfbar. Ohne ZDR laut Datenschutzerklärung (legal.mistral.ai/terms/privacy-policy, gültig ab 03.09.2026, geprüft 04.10.2026): Input und Output 30 Tage zur Missbrauchsüberwachung, technische Verbindungsdaten 1 Jahr."
         },
         "zweckbindung": {
           "wert": false,
@@ -4548,7 +4548,7 @@
           "pflicht": "GPAI Code of Practice unterzeichnet",
           "status": "unbelegt",
           "quelle": null,
-          "anmerkung": "Keine Unterzeichnung auffindbar; hostet Open-Source-Fremdmodelle. Trust Center nennt NIS 2 und DORA, aber keine AI-Act-Dokumentation. Die Token Factory Supplemental Terms (Fassung 15.09.2026, Abruf 05.10.2026) regeln den AI Act nur als Pflicht des Kunden: wer die API in ein eigenes Produkt einbaut, ist laut Ziffer 2.4 selbst „provider“ des KI-Systems; Ziffer 4 untersagt den Einsatz in Hochrisiko-KI-Systemen und für verbotene Praktiken. Eine eigene Einordnung von Nebius steht dort nicht"
+          "anmerkung": "Keine Unterzeichnung auffindbar; hostet Open-Source-Fremdmodelle. Trust Center nennt NIS 2 und DORA, aber keine eigene KI-Dokumentation. Die Token Factory Supplemental Terms (Fassung 15.09.2026, Abruf 05.10.2026) regeln das Thema nur als Pflicht des Kunden: wer die API in ein eigenes Produkt einbaut, ist laut Ziffer 2.4 selbst „provider“ des KI-Systems; Ziffer 4 untersagt den Einsatz in Hochrisiko-KI-Systemen und für verbotene Praktiken. Eine eigene Einordnung von Nebius steht dort nicht"
         }
       ],
       "geprueft": "2026-10-09",
@@ -4601,14 +4601,14 @@
             "status": "unbelegt",
             "quelle": "https://nordference.ai/privacy",
             "geprueft": "2026-10-09",
-            "anmerkung": "Zu Sicherungen steht nichts in Privacy Policy, Terms, SLA oder GDPR-Seite (alle Stand 28.01.2026). Privacy Policy, Abschnitt 5: 'All data processing occurs within the European Union, specifically in Estonia.' Abschnitt 4: 'Your prompts and model outputs are processed in real-time and are not stored on our systems. Account and billing information is retained as required by law.' Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
+            "anmerkung": "Zu Sicherungen steht nichts in Privacy Policy, Terms, SLA oder Datenschutzseite (alle Stand 28.01.2026). Privacy Policy, Abschnitt 5: 'All data processing occurs within the European Union, specifically in Estonia.' Abschnitt 4: 'Your prompts and model outputs are processed in real-time and are not stored on our systems. Account and billing information is retained as required by law.' Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": "https://nordference.ai/terms",
             "geprueft": "2026-10-09",
-            "anmerkung": "Keine Angabe zu Filtern, Moderation oder Vor-/Nachverarbeitung (Terms, Privacy Policy, GDPR-Seite, Modellseite; 08.10.2026). Die Terms (Stand 28.01.2026), Ziffer 4, verbieten dem Kunden nur 'to generate harmful or misleading content'; ob und wie Nordference das technisch durchsetzt, steht nirgends. Kein ausdrückliches 'wir filtern nicht'. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
+            "anmerkung": "Keine Angabe zu Filtern, Moderation oder Vor-/Nachverarbeitung (Terms, Privacy Policy, Datenschutzseite, Modellseite; 08.10.2026). Die Terms (Stand 28.01.2026), Ziffer 4, verbieten dem Kunden nur 'to generate harmful or misleading content'; ob und wie Nordference das technisch durchsetzt, steht nirgends. Kein ausdrückliches 'wir filtern nicht'. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
           }
         },
         {
@@ -4623,14 +4623,14 @@
             "status": "unbelegt",
             "quelle": "https://nordference.ai/privacy",
             "geprueft": "2026-10-09",
-            "anmerkung": "Zu Sicherungen steht nichts in Privacy Policy, Terms, SLA oder GDPR-Seite (alle Stand 28.01.2026). Privacy Policy, Abschnitt 5: 'All data processing occurs within the European Union, specifically in Estonia.' Abschnitt 4: 'Your prompts and model outputs are processed in real-time and are not stored on our systems. Account and billing information is retained as required by law.' Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
+            "anmerkung": "Zu Sicherungen steht nichts in Privacy Policy, Terms, SLA oder Datenschutzseite (alle Stand 28.01.2026). Privacy Policy, Abschnitt 5: 'All data processing occurs within the European Union, specifically in Estonia.' Abschnitt 4: 'Your prompts and model outputs are processed in real-time and are not stored on our systems. Account and billing information is retained as required by law.' Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": "https://nordference.ai/terms",
             "geprueft": "2026-10-09",
-            "anmerkung": "Keine Angabe zu Filtern, Moderation oder Vor-/Nachverarbeitung (Terms, Privacy Policy, GDPR-Seite, Modellseite; 08.10.2026). Die Terms (Stand 28.01.2026), Ziffer 4, verbieten dem Kunden nur 'to generate harmful or misleading content'; ob und wie Nordference das technisch durchsetzt, steht nirgends. Kein ausdrückliches 'wir filtern nicht'. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
+            "anmerkung": "Keine Angabe zu Filtern, Moderation oder Vor-/Nachverarbeitung (Terms, Privacy Policy, Datenschutzseite, Modellseite; 08.10.2026). Die Terms (Stand 28.01.2026), Ziffer 4, verbieten dem Kunden nur 'to generate harmful or misleading content'; ob und wie Nordference das technisch durchsetzt, steht nirgends. Kein ausdrückliches 'wir filtern nicht'. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
           }
         },
         {
@@ -4645,14 +4645,14 @@
             "status": "unbelegt",
             "quelle": "https://nordference.ai/privacy",
             "geprueft": "2026-10-09",
-            "anmerkung": "Zu Sicherungen steht nichts in Privacy Policy, Terms, SLA oder GDPR-Seite (alle Stand 28.01.2026). Privacy Policy, Abschnitt 5: 'All data processing occurs within the European Union, specifically in Estonia.' Abschnitt 4: 'Your prompts and model outputs are processed in real-time and are not stored on our systems. Account and billing information is retained as required by law.' Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
+            "anmerkung": "Zu Sicherungen steht nichts in Privacy Policy, Terms, SLA oder Datenschutzseite (alle Stand 28.01.2026). Privacy Policy, Abschnitt 5: 'All data processing occurs within the European Union, specifically in Estonia.' Abschnitt 4: 'Your prompts and model outputs are processed in real-time and are not stored on our systems. Account and billing information is retained as required by law.' Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": "https://nordference.ai/terms",
             "geprueft": "2026-10-09",
-            "anmerkung": "Keine Angabe zu Filtern, Moderation oder Vor-/Nachverarbeitung (Terms, Privacy Policy, GDPR-Seite, Modellseite; 08.10.2026). Die Terms (Stand 28.01.2026), Ziffer 4, verbieten dem Kunden nur 'to generate harmful or misleading content'; ob und wie Nordference das technisch durchsetzt, steht nirgends. Kein ausdrückliches 'wir filtern nicht'. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
+            "anmerkung": "Keine Angabe zu Filtern, Moderation oder Vor-/Nachverarbeitung (Terms, Privacy Policy, Datenschutzseite, Modellseite; 08.10.2026). Die Terms (Stand 28.01.2026), Ziffer 4, verbieten dem Kunden nur 'to generate harmful or misleading content'; ob und wie Nordference das technisch durchsetzt, steht nirgends. Kein ausdrückliches 'wir filtern nicht'. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
           }
         },
         {
@@ -4667,14 +4667,14 @@
             "status": "unbelegt",
             "quelle": "https://nordference.ai/privacy",
             "geprueft": "2026-10-09",
-            "anmerkung": "Zu Sicherungen steht nichts in Privacy Policy, Terms, SLA oder GDPR-Seite (alle Stand 28.01.2026). Privacy Policy, Abschnitt 5: 'All data processing occurs within the European Union, specifically in Estonia.' Abschnitt 4: 'Your prompts and model outputs are processed in real-time and are not stored on our systems. Account and billing information is retained as required by law.' Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
+            "anmerkung": "Zu Sicherungen steht nichts in Privacy Policy, Terms, SLA oder Datenschutzseite (alle Stand 28.01.2026). Privacy Policy, Abschnitt 5: 'All data processing occurs within the European Union, specifically in Estonia.' Abschnitt 4: 'Your prompts and model outputs are processed in real-time and are not stored on our systems. Account and billing information is retained as required by law.' Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": "https://nordference.ai/terms",
             "geprueft": "2026-10-09",
-            "anmerkung": "Keine Angabe zu Filtern, Moderation oder Vor-/Nachverarbeitung (Terms, Privacy Policy, GDPR-Seite, Modellseite; 08.10.2026). Die Terms (Stand 28.01.2026), Ziffer 4, verbieten dem Kunden nur 'to generate harmful or misleading content'; ob und wie Nordference das technisch durchsetzt, steht nirgends. Kein ausdrückliches 'wir filtern nicht'. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
+            "anmerkung": "Keine Angabe zu Filtern, Moderation oder Vor-/Nachverarbeitung (Terms, Privacy Policy, Datenschutzseite, Modellseite; 08.10.2026). Die Terms (Stand 28.01.2026), Ziffer 4, verbieten dem Kunden nur 'to generate harmful or misleading content'; ob und wie Nordference das technisch durchsetzt, steht nirgends. Kein ausdrückliches 'wir filtern nicht'. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
           }
         },
         {
@@ -4689,14 +4689,14 @@
             "status": "unbelegt",
             "quelle": "https://nordference.ai/privacy",
             "geprueft": "2026-10-09",
-            "anmerkung": "Zu Sicherungen steht nichts in Privacy Policy, Terms, SLA oder GDPR-Seite (alle Stand 28.01.2026). Privacy Policy, Abschnitt 5: 'All data processing occurs within the European Union, specifically in Estonia.' Abschnitt 4: 'Your prompts and model outputs are processed in real-time and are not stored on our systems. Account and billing information is retained as required by law.' Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
+            "anmerkung": "Zu Sicherungen steht nichts in Privacy Policy, Terms, SLA oder Datenschutzseite (alle Stand 28.01.2026). Privacy Policy, Abschnitt 5: 'All data processing occurs within the European Union, specifically in Estonia.' Abschnitt 4: 'Your prompts and model outputs are processed in real-time and are not stored on our systems. Account and billing information is retained as required by law.' Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
           },
           "vorgeschaltete_filter": {
             "wert": null,
             "status": "unbelegt",
             "quelle": "https://nordference.ai/terms",
             "geprueft": "2026-10-09",
-            "anmerkung": "Keine Angabe zu Filtern, Moderation oder Vor-/Nachverarbeitung (Terms, Privacy Policy, GDPR-Seite, Modellseite; 08.10.2026). Die Terms (Stand 28.01.2026), Ziffer 4, verbieten dem Kunden nur 'to generate harmful or misleading content'; ob und wie Nordference das technisch durchsetzt, steht nirgends. Kein ausdrückliches 'wir filtern nicht'. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
+            "anmerkung": "Keine Angabe zu Filtern, Moderation oder Vor-/Nachverarbeitung (Terms, Privacy Policy, Datenschutzseite, Modellseite; 08.10.2026). Die Terms (Stand 28.01.2026), Ziffer 4, verbieten dem Kunden nur 'to generate harmful or misleading content'; ob und wie Nordference das technisch durchsetzt, steht nirgends. Kein ausdrückliches 'wir filtern nicht'. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
           }
         }
       ],
@@ -4706,42 +4706,42 @@
           "status": "beansprucht",
           "quelle": "https://nordference.ai/gdpr",
           "geprueft": "2026-10-09",
-          "anmerkung": "GDPR-Seite (Stand laut Seite: 28.01.2026), wörtlich: 'Enterprise customers can request a Data Processing Agreement (DPA) that outlines the terms under which we process data on their behalf. Contact sales@nordference.ai for more information.' Kein öffentliches Dokument, und laut diesem Satz nur für Enterprise-Kunden; ob Pay-as-you-go-Kunden einen AVV bekommen, steht nirgends. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 05.10.2026, Archivkopie web.archive.org/web/20261005012917 byte-gleich; Nachprüfung 08.10.2026: Bündel unter demselben Namen, byte-gleich zur Archivkopie)."
+          "anmerkung": "Datenschutzseite (Stand laut Seite: 28.01.2026), wörtlich: 'Enterprise customers can request a Data Processing Agreement (DPA) that outlines the terms under which we process data on their behalf. Contact sales@nordference.ai for more information.' Kein öffentliches Dokument, und laut diesem Satz nur für Enterprise-Kunden; ob Pay-as-you-go-Kunden einen AVV bekommen, steht nirgends. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 05.10.2026, Archivkopie web.archive.org/web/20261005012917 byte-gleich; Nachprüfung 08.10.2026: Bündel unter demselben Namen, byte-gleich zur Archivkopie)."
         },
         "subprozessoren": {
           "wert": null,
           "status": "unbelegt",
           "quelle": null,
           "geprueft": "2026-10-09",
-          "anmerkung": "Keine Subprozessorliste auffindbar (05.10.2026: die Website hat nur die Seiten Start, Models, Pricing, About, Privacy, Terms, SLA, GDPR; das Wort 'subprocessor' kommt im gesamten Text nicht vor). Zwei Hinweise auf Dritte: Die Privacy Policy nennt einen Zahlungsdienstleister ohne Namen ('payment information (processed securely through our payment provider)'), und die Website selbst wird über Cloudflare ausgeliefert (Antwortkopf 'Server: cloudflare', Nameserver bei Cloudflare). Dem steht die Aussage der GDPR-Seite gegenüber: 'we do not transfer data to third countries outside the EEA'. Unklar bleibt, ob Inference auf eigener Hardware (3NV TLL-1) oder bei Dritten läuft."
+          "anmerkung": "Keine Subprozessorliste auffindbar (05.10.2026: die Website hat nur die Seiten Start, Models, Pricing, About, Privacy, Terms, SLA und eine Datenschutzseite; das Wort 'subprocessor' kommt im gesamten Text nicht vor). Zwei Hinweise auf Dritte: Die Privacy Policy nennt einen Zahlungsdienstleister ohne Namen ('payment information (processed securely through our payment provider)'), und die Website selbst wird über Cloudflare ausgeliefert (Antwortkopf 'Server: cloudflare', Nameserver bei Cloudflare). Dem steht die Aussage der Datenschutzseite gegenüber: 'we do not transfer data to third countries outside the EEA'. Unklar bleibt, ob Inference auf eigener Hardware (3NV TLL-1) oder bei Dritten läuft."
         },
         "training_opt_out": {
           "wert": true,
           "status": "beansprucht",
           "quelle": "https://nordference.ai/",
           "geprueft": "2026-10-09",
-          "anmerkung": "Startseite, Abschnitt 'Built for Regulated Industries', Kachel 'Legal', wörtlich: 'Maintain attorney-client privilege with zero data retention. Your prompts and outputs are never stored or used for training.' Dazu die About-Seite: 'No black boxes, no hidden training on your data.' Das ist Werbetext ohne Vertragstext, deshalb Anbieterangabe und nicht belegt: In Terms of Service, Privacy Policy und GDPR-Seite (alle Stand 28.01.2026) kommt das Wort Training nicht vor; die Terms sagen nur 'You retain all rights to your input data and generated outputs.' Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 05.10.2026, Archivkopie web.archive.org/web/20261005012917 byte-gleich)."
+          "anmerkung": "Startseite, Abschnitt 'Built for Regulated Industries', Kachel 'Legal', wörtlich: 'Maintain attorney-client privilege with zero data retention. Your prompts and outputs are never stored or used for training.' Dazu die About-Seite: 'No black boxes, no hidden training on your data.' Das ist Werbetext ohne Vertragstext, deshalb Anbieterangabe und nicht belegt: In Terms of Service, Privacy Policy und Datenschutzseite (alle Stand 28.01.2026) kommt das Wort Training nicht vor; die Terms sagen nur 'You retain all rights to your input data and generated outputs.' Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 05.10.2026, Archivkopie web.archive.org/web/20261005012917 byte-gleich)."
         },
         "zero_data_retention": {
           "wert": true,
           "status": "belegt",
           "quelle": "https://nordference.ai/gdpr",
           "geprueft": "2026-10-09",
-          "anmerkung": "GDPR-Seite: 'Zero retention for inference data'; Privacy Policy (Stand 28.01.2026), Abschnitt 4, wörtlich: 'We maintain a zero data retention policy for inference data. Your prompts and model outputs are processed in real-time and are not stored on our systems. Account and billing information is retained as required by law.' Alle Daten laut Anbieter innerhalb der EU (Estland). Ob Protokolle (Zeitpunkt, Tokenzahl, IP-Adresse) gespeichert werden und wie lange, steht nirgends; als erhobene Nutzungsdaten nennt die Privacy Policy 'API calls, token counts'. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 05.10.2026, Archivkopie web.archive.org/web/20261005012917 byte-gleich)."
+          "anmerkung": "Datenschutzseite: 'Zero retention for inference data'; Privacy Policy (Stand 28.01.2026), Abschnitt 4, wörtlich: 'We maintain a zero data retention policy for inference data. Your prompts and model outputs are processed in real-time and are not stored on our systems. Account and billing information is retained as required by law.' Alle Daten laut Anbieter innerhalb der EU (Estland). Ob Protokolle (Zeitpunkt, Tokenzahl, IP-Adresse) gespeichert werden und wie lange, steht nirgends; als erhobene Nutzungsdaten nennt die Privacy Policy 'API calls, token counts'. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 05.10.2026, Archivkopie web.archive.org/web/20261005012917 byte-gleich)."
         },
         "zweckbindung": {
           "wert": null,
           "status": "unbelegt",
           "quelle": "https://nordference.ai/privacy",
           "geprueft": "2026-10-09",
-          "anmerkung": "Kein Dokument nennt die Zwecke. Die Privacy Policy (Stand 28.01.2026) hat keinen Abschnitt zur Verwendung der Daten; die GDPR-Seite sagt nur allgemein 'Purpose Limitation: Data is collected for specified, explicit purposes', ohne sie zu benennen. Ein- und Ausgaben werden laut Privacy Policy nicht gespeichert ('processed in real-time and are not stored on our systems'); 'never stored or used for training' steht nur in Werbetext der Startseite. Der DPA ist nicht öffentlich und laut GDPR-Seite nur für Enterprise-Kunden erhältlich. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
+          "anmerkung": "Kein Dokument nennt die Zwecke. Die Privacy Policy (Stand 28.01.2026) hat keinen Abschnitt zur Verwendung der Daten; die Datenschutzseite sagt nur allgemein 'Purpose Limitation: Data is collected for specified, explicit purposes', ohne sie zu benennen. Ein- und Ausgaben werden laut Privacy Policy nicht gespeichert ('processed in real-time and are not stored on our systems'); 'never stored or used for training' steht nur in Werbetext der Startseite. Der DPA ist nicht öffentlich und laut Datenschutzseite nur für Enterprise-Kunden erhältlich. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
         },
         "betroffenenrechte_traeger": {
           "wert": "anbieter",
           "status": "belegt",
           "quelle": "https://nordference.ai/privacy",
           "geprueft": "2026-10-09",
-          "anmerkung": "Privacy Policy (Stand 28.01.2026), Abschnitt 2: '3NV OÜ, registered in Estonia (EU), acts as the data controller for personal data processed through our services.' Abschnitt 6: 'To exercise these rights, contact us at privacy@nordference.ai.' GDPR-Seite: 'to exercise your rights, contact our Data Protection Officer at dpo@nordference.ai. We will respond to all requests within 30 days'. Nordference bezeichnet sich also selbst als Verantwortlichen und nimmt die Anfragen an; ein Auftragsverarbeitungsvertrag, der das für Kundendaten anders regeln könnte, ist laut GDPR-Seite nur für Enterprise-Kunden auf Anfrage erhältlich und nicht öffentlich. Hinweis: zwei verschiedene Kontaktadressen (privacy@ und dpo@). Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
+          "anmerkung": "Privacy Policy (Stand 28.01.2026), Abschnitt 2: '3NV OÜ, registered in Estonia (EU), acts as the data controller for personal data processed through our services.' Abschnitt 6: 'To exercise these rights, contact us at privacy@nordference.ai.' Datenschutzseite: 'to exercise your rights, contact our Data Protection Officer at dpo@nordference.ai. We will respond to all requests within 30 days'. Nordference bezeichnet sich also selbst als Verantwortlichen und nimmt die Anfragen an; ein Auftragsverarbeitungsvertrag, der das für Kundendaten anders regeln könnte, ist laut Datenschutzseite nur für Enterprise-Kunden auf Anfrage erhältlich und nicht öffentlich. Hinweis: zwei verschiedene Kontaktadressen (privacy@ und dpo@). Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
         },
         "log_frist": {
           "wert": null,
@@ -4755,7 +4755,7 @@
           "status": "unbelegt",
           "quelle": "https://nordference.ai/privacy",
           "geprueft": "2026-10-09",
-          "anmerkung": "Kein Zweck für die erhobenen Nutzungsdaten ('API calls, token counts') oder die 'Activity Logs' genannt; Privacy Policy, Terms und GDPR-Seite (Stand 28.01.2026) enthalten keinen Abschnitt zur Verwendung. Die Abrechnung erfolgt laut Terms Ziffer 5 'on a per-token basis', ein ausdrücklicher Zweck der Protokolle steht dort aber nicht. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
+          "anmerkung": "Kein Zweck für die erhobenen Nutzungsdaten ('API calls, token counts') oder die 'Activity Logs' genannt; Privacy Policy, Terms und Datenschutzseite (Stand 28.01.2026) enthalten keinen Abschnitt zur Verwendung. Die Abrechnung erfolgt laut Terms Ziffer 5 'on a per-token basis', ein ausdrücklicher Zweck der Protokolle steht dort aber nicht. Die Website ist eine Ein-Seiten-Anwendung; der zitierte Text steht im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js (Abruf 08.10.2026, SHA-256 e68e235c…d9ad)."
         }
       },
       "zertifikate": [
@@ -5040,7 +5040,7 @@
           "status": "belegt",
           "quelle": "https://opper.ai/data-processing-agreement",
           "geprueft": "2026-10-09",
-          "anmerkung": "DPA Ziffer 1.1: 'The Customer is the data controller and Opper is the data processor'. Ziffer 3.3: 'Opper will assist the Customer in meeting its obligations under Chapter III of the GDPR, including data subject rights such as access, deletion, correction, and data portability. Opper will notify the Customer without undue delay of any such requests from data subjects.'"
+          "anmerkung": "DPA Ziffer 1.1: 'The Customer is the data controller and Opper is the data processor'. Ziffer 3.3: 'Opper will assist the Customer in meeting its obligations under Chapter III […], including data subject rights such as access, deletion, correction, and data portability. Opper will notify the Customer without undue delay of any such requests from data subjects.'"
         },
         "log_frist": {
           "wert": "Nutzungsmetadaten 5 Jahre (auch ohne Tracing); Prompts und Antworten nur bei aktivem Tracing 1 bis 30 Tage (Projekt bis 0 Tage); Backups: tägliche Snapshots 5 Wochen, wöchentliche 14 Monate",
@@ -5128,7 +5128,7 @@
         "anwendungsbereich": null,
         "quelle": null,
         "geprueft": "2026-10-09",
-        "anmerkung": "Keine Erwähnung von ISO/IEC 42001 gefunden. Opper nennt nur ISO/IEC 27001:2022 (\"Certified against ISO/IEC 27001:2022\"; Trust Center: Zertifikatsnr. 160926-1, gültig bis 15.09.2029) und GDPR. Geprüft: https://opper.ai/security-overview, https://opper.ai/, https://trust.opper.ai/, WebSearch: Opper AI \"ISO 42001\""
+        "anmerkung": "Keine Erwähnung von ISO/IEC 42001 gefunden. Opper nennt nur ISO/IEC 27001:2022 (\"Certified against ISO/IEC 27001:2022\"; Trust Center: Zertifikatsnr. 160926-1, gültig bis 15.09.2029) und Datenschutz. Geprüft: https://opper.ai/security-overview, https://opper.ai/, https://trust.opper.ai/, WebSearch: Opper AI \"ISO 42001\""
       },
       "ai_act": [
         {
@@ -5136,7 +5136,7 @@
           "status": "beansprucht",
           "quelle": "https://opper.ai/ai-compliance",
           "geprueft": "2026-10-08",
-          "anmerkung": "Compliance-Seite ('Last updated: 2026-09-23'), FAQ 'How does Opper support EU AI Act, DORA, or NIS2 reviews?': 'Every call is logged with model, cost, latency, and policy decisions, and the Control Plane adds retention rules, spend limits, and model allowlists, plus full traces of each call once you turn tracing on. That gives compliance teams the audit trail and documentation these reviews ask for.' (Wortlaut 08.10.2026; die Seite trägt kein 'Last updated' mehr, bis 05.10. stand dort 2026-09-23; Archivkopie web.archive.org/web/20261008050530.) Keine Angabe zur eigenen Rolle nach dem AI Act, keine Konformitätsdokumente. Archivkopie web.archive.org/web/20261005054113"
+          "anmerkung": "Compliance-Seite ('Last updated: 2026-09-23'), FAQ 'How does Opper support […], DORA, or NIS2 reviews?' (die Lücke nennt die EU-Regeln für KI): 'Every call is logged with model, cost, latency, and policy decisions, and the Control Plane adds retention rules, spend limits, and model allowlists, plus full traces of each call once you turn tracing on. That gives compliance teams the audit trail and documentation these reviews ask for.' (Wortlaut 08.10.2026; die Seite trägt kein 'Last updated' mehr, bis 05.10. stand dort 2026-09-23; Archivkopie web.archive.org/web/20261008050530.) Keine Angabe zur eigenen Rolle, keine Konformitätsdokumente. Archivkopie web.archive.org/web/20261005054113"
         }
       ],
       "geprueft": "2026-10-08",
@@ -5642,7 +5642,7 @@
           "status": "belegt",
           "quelle": "https://blog.ovhcloud.com/en/posts/ai-act-in-a-nutshell/",
           "geprueft": "2026-10-09",
-          "anmerkung": "Offizieller Beitrag 'AI Act in a nutshell' (am 05.10.2026 unverändert): 'OVHcloud and ETHIQAIS have been among the very first signatories of the AI Pact'; Positionierung als 'European Trusted Cloud'. Die frühere Formulierung 'Modelltransparenz durch Open-Weight-Modelle' steht im Artikel nicht."
+          "anmerkung": "Offizieller Beitrag zu den EU-Regeln für KI ('[…] in a nutshell') (am 05.10.2026 unverändert): 'OVHcloud and ETHIQAIS have been among the very first signatories of the AI Pact'; Positionierung als 'European Trusted Cloud'. Die frühere Formulierung 'Modelltransparenz durch Open-Weight-Modelle' steht im Artikel nicht."
         },
         {
           "pflicht": "GPAI Code of Practice unterzeichnet",
@@ -5836,7 +5836,7 @@
           "status": "belegt",
           "quelle": "https://regolo.ai/terms-and-conditions/",
           "geprueft": "2026-10-09",
-          "anmerkung": "Vollständiges Data Processor Agreement nach Art. 28 DSGVO als Bestandteil der Enterprise-AGB; Verantwortlicher ist Seeweb S.r.l., Frosinone"
+          "anmerkung": "Vollständiges Data Processor Agreement als Bestandteil der Enterprise-AGB; Verantwortlicher ist Seeweb S.r.l., Frosinone"
         },
         "subprozessoren": {
           "wert": null,
@@ -6032,7 +6032,7 @@
           "status": "beansprucht",
           "quelle": "https://regolo.ai/zero-data-retention/",
           "geprueft": "2026-10-09",
-          "anmerkung": "Proaktive Ausrichtung am EU AI Act erklärt; kein Primärdokument öffentlich. Kein GPAI-Modellanbieter"
+          "anmerkung": "Proaktive Ausrichtung an den EU-Regeln für KI erklärt; kein Primärdokument öffentlich. Kein GPAI-Modellanbieter"
         }
       ],
       "geprueft": "2026-10-08",
@@ -6276,7 +6276,7 @@
         "anwendungsbereich": null,
         "quelle": null,
         "geprueft": "2026-10-09",
-        "anmerkung": "Keine Erwähnung von ISO/IEC 42001. Security-Seite nennt nur SOC 2 Type II als laufend (\"Our SOC 2 Type II programme is in progress.\") und \"We are GDPR compliant.\" Geprüft: https://www.requesty.ai/security, https://trust.requesty.ai/ (nur Titel geladen, Inhalt vermutlich per JavaScript, nicht auswertbar), WebSearch: Requesty \"ISO 42001\""
+        "anmerkung": "Keine Erwähnung von ISO/IEC 42001. Security-Seite nennt nur SOC 2 Type II als laufend (\"Our SOC 2 Type II programme is in progress.\") und eine allgemeine Datenschutz-Aussage Geprüft: https://www.requesty.ai/security, https://trust.requesty.ai/ (nur Titel geladen, Inhalt vermutlich per JavaScript, nicht auswertbar), WebSearch: Requesty \"ISO 42001\""
       },
       "ai_act": [
         {
@@ -6690,7 +6690,7 @@
             "status": "belegt",
             "quelle": "https://stackit.com/de/asset/download/34346/file/Leistungsschein_STACKIT_AI_Model_Serving.pdf",
             "geprueft": "2026-10-09",
-            "anmerkung": "Leistungsschein STACKIT AI Model Serving, Version 1.3 (gültig ab 18.09.2025), Abschnitt Backup: 'Ein Backup der Anfragen des Kunden erfolgt nicht.' Anhang: 'Kundendaten werden nicht dauerhaft gespeichert.' Version 1.4 (gültig ab 06.11.2026) wörtlich gleich (beide am 08.10.2026 abgerufen). Gilt für alle Modelle des Dienstes. Wo die 30-Tage-Logs (E-Mail, Subject ID) gesichert werden, sagt der Leistungsschein nicht; die Zertifikatsseite sagt nur allgemein für die STACKIT Cloud 'The data is also backed up in compliance with GDPR.'"
+            "anmerkung": "Leistungsschein STACKIT AI Model Serving, Version 1.3 (gültig ab 18.09.2025), Abschnitt Backup: 'Ein Backup der Anfragen des Kunden erfolgt nicht.' Anhang: 'Kundendaten werden nicht dauerhaft gespeichert.' Version 1.4 (gültig ab 06.11.2026) wörtlich gleich (beide am 08.10.2026 abgerufen). Gilt für alle Modelle des Dienstes. Wo die 30-Tage-Logs (E-Mail, Subject ID) gesichert werden, sagt der Leistungsschein nicht; die Zertifikatsseite sagt nur allgemein für die STACKIT Cloud 'The data is also backed up […]' (mit Verweis auf Datenschutz)"
           },
           "vorgeschaltete_filter": {
             "wert": null,
@@ -6714,7 +6714,7 @@
             "status": "belegt",
             "quelle": "https://stackit.com/de/asset/download/34346/file/Leistungsschein_STACKIT_AI_Model_Serving.pdf",
             "geprueft": "2026-10-09",
-            "anmerkung": "Leistungsschein STACKIT AI Model Serving, Version 1.3 (gültig ab 18.09.2025), Abschnitt Backup: 'Ein Backup der Anfragen des Kunden erfolgt nicht.' Anhang: 'Kundendaten werden nicht dauerhaft gespeichert.' Version 1.4 (gültig ab 06.11.2026) wörtlich gleich (beide am 08.10.2026 abgerufen). Gilt für alle Modelle des Dienstes. Wo die 30-Tage-Logs (E-Mail, Subject ID) gesichert werden, sagt der Leistungsschein nicht; die Zertifikatsseite sagt nur allgemein für die STACKIT Cloud 'The data is also backed up in compliance with GDPR.'"
+            "anmerkung": "Leistungsschein STACKIT AI Model Serving, Version 1.3 (gültig ab 18.09.2025), Abschnitt Backup: 'Ein Backup der Anfragen des Kunden erfolgt nicht.' Anhang: 'Kundendaten werden nicht dauerhaft gespeichert.' Version 1.4 (gültig ab 06.11.2026) wörtlich gleich (beide am 08.10.2026 abgerufen). Gilt für alle Modelle des Dienstes. Wo die 30-Tage-Logs (E-Mail, Subject ID) gesichert werden, sagt der Leistungsschein nicht; die Zertifikatsseite sagt nur allgemein für die STACKIT Cloud 'The data is also backed up […]' (mit Verweis auf Datenschutz)"
           },
           "vorgeschaltete_filter": {
             "wert": null,
@@ -6738,7 +6738,7 @@
             "status": "belegt",
             "quelle": "https://stackit.com/de/asset/download/34346/file/Leistungsschein_STACKIT_AI_Model_Serving.pdf",
             "geprueft": "2026-10-09",
-            "anmerkung": "Leistungsschein STACKIT AI Model Serving, Version 1.3 (gültig ab 18.09.2025), Abschnitt Backup: 'Ein Backup der Anfragen des Kunden erfolgt nicht.' Anhang: 'Kundendaten werden nicht dauerhaft gespeichert.' Version 1.4 (gültig ab 06.11.2026) wörtlich gleich (beide am 08.10.2026 abgerufen). Gilt für alle Modelle des Dienstes. Wo die 30-Tage-Logs (E-Mail, Subject ID) gesichert werden, sagt der Leistungsschein nicht; die Zertifikatsseite sagt nur allgemein für die STACKIT Cloud 'The data is also backed up in compliance with GDPR.'"
+            "anmerkung": "Leistungsschein STACKIT AI Model Serving, Version 1.3 (gültig ab 18.09.2025), Abschnitt Backup: 'Ein Backup der Anfragen des Kunden erfolgt nicht.' Anhang: 'Kundendaten werden nicht dauerhaft gespeichert.' Version 1.4 (gültig ab 06.11.2026) wörtlich gleich (beide am 08.10.2026 abgerufen). Gilt für alle Modelle des Dienstes. Wo die 30-Tage-Logs (E-Mail, Subject ID) gesichert werden, sagt der Leistungsschein nicht; die Zertifikatsseite sagt nur allgemein für die STACKIT Cloud 'The data is also backed up […]' (mit Verweis auf Datenschutz)"
           },
           "vorgeschaltete_filter": {
             "wert": null,
@@ -6762,7 +6762,7 @@
             "status": "belegt",
             "quelle": "https://stackit.com/de/asset/download/34346/file/Leistungsschein_STACKIT_AI_Model_Serving.pdf",
             "geprueft": "2026-10-09",
-            "anmerkung": "Leistungsschein STACKIT AI Model Serving, Version 1.3 (gültig ab 18.09.2025), Abschnitt Backup: 'Ein Backup der Anfragen des Kunden erfolgt nicht.' Anhang: 'Kundendaten werden nicht dauerhaft gespeichert.' Version 1.4 (gültig ab 06.11.2026) wörtlich gleich (beide am 08.10.2026 abgerufen). Gilt für alle Modelle des Dienstes. Wo die 30-Tage-Logs (E-Mail, Subject ID) gesichert werden, sagt der Leistungsschein nicht; die Zertifikatsseite sagt nur allgemein für die STACKIT Cloud 'The data is also backed up in compliance with GDPR.'"
+            "anmerkung": "Leistungsschein STACKIT AI Model Serving, Version 1.3 (gültig ab 18.09.2025), Abschnitt Backup: 'Ein Backup der Anfragen des Kunden erfolgt nicht.' Anhang: 'Kundendaten werden nicht dauerhaft gespeichert.' Version 1.4 (gültig ab 06.11.2026) wörtlich gleich (beide am 08.10.2026 abgerufen). Gilt für alle Modelle des Dienstes. Wo die 30-Tage-Logs (E-Mail, Subject ID) gesichert werden, sagt der Leistungsschein nicht; die Zertifikatsseite sagt nur allgemein für die STACKIT Cloud 'The data is also backed up […]' (mit Verweis auf Datenschutz)"
           },
           "vorgeschaltete_filter": {
             "wert": null,
@@ -7034,7 +7034,7 @@
           "status": "unbelegt",
           "quelle": null,
           "geprueft": "2026-10-09",
-          "anmerkung": "STACKIT betreibt Fremdmodelle; GPAI-Pflichten liegen bei den Modellherstellern. Keine eigene AI-Act-Dokumentation gefunden (Suche 05.10.2026: Produktseite, Zertifikatsseite, Compliance-Seite, AGB-Seite, Leistungsschein). Der Leistungsschein AI Model Serving (Version 1.3) regelt den AI Act nur als Sache des Kunden: STACKIT weist zusätzlich darauf hin, dass der Kunde etwaig einschlägige gesetzliche Bestimmungen für vom Kunden erstellte KI-Anwendungen einzuhalten hat. Die Wissensseite stackit.com/en/learn/knowledge/cloud/cloud-ai/ai-act (30.07.2026) ist Werbung ohne Nachweis ('meets all key requirements of the AI Act') und nennt keine eigene Rolle von STACKIT nach der Verordnung. Nachsuche 08.10.2026 (Produktseite DE/EN, Zertifikatsseite, AGB-Seite, Leistungsschein 1.4): weiter kein Treffer zu AI Act oder KI-Verordnung."
+          "anmerkung": "STACKIT betreibt Fremdmodelle; GPAI-Pflichten liegen bei den Modellherstellern. Keine eigene Dokumentation dazu gefunden (Suche 05.10.2026: Produktseite, Zertifikatsseite, Compliance-Seite, AGB-Seite, Leistungsschein). Der Leistungsschein AI Model Serving (Version 1.3) regelt das Thema nur als Sache des Kunden: STACKIT weist zusätzlich darauf hin, dass der Kunde etwaig einschlägige gesetzliche Bestimmungen für vom Kunden erstellte KI-Anwendungen einzuhalten hat. Die Wissensseite stackit.com/en/learn/knowledge/cloud/cloud-ai/ai-act (30.07.2026) ist Werbung ohne Nachweis ('meets all key requirements of the […]') und nennt keine eigene Rolle von STACKIT. Nachsuche 08.10.2026 (Produktseite DE/EN, Zertifikatsseite, AGB-Seite, Leistungsschein 1.4): weiter kein Treffer zum Thema."
         }
       ],
       "geprueft": "2026-10-09",
@@ -7065,7 +7065,7 @@
       "id": "t-systems",
       "name": "T-Systems / Open Telekom Cloud (AI Foundation Services)",
       "kategorie": "inference-api",
-      "kurzbeschreibung": "Telekom-Tochter, die mit den AI Foundation Services (LLM Hub) über 30 offene LLMs DSGVO-konform auf der T-Cloud in Deutschland serviert und zusätzlich als Gateway proprietäre Modelle (GPT-5, Claude, Gemini) über Azure/GCP in Europa anbindet.",
+      "kurzbeschreibung": "Telekom-Tochter, die mit den AI Foundation Services (LLM Hub) über 30 offene LLMs auf der T-Cloud in Deutschland serviert und zusätzlich als Gateway proprietäre Modelle (GPT-5, Claude, Gemini) über Azure/GCP in Europa anbindet.",
       "stammdaten": {
         "sitz": "Frankfurt am Main, Deutschland",
         "land": "DE",
@@ -7089,7 +7089,7 @@
             "status": "unbelegt",
             "quelle": null,
             "geprueft": "2026-10-09",
-            "anmerkung": "Modell laut Profil seit 01.09.2026 abgeschaltet; Angaben gelten für die T-Cloud-Modelle allgemein. Kein Ort für Sicherungen genannt. Enterprise-Trust-Seite (08.10.2026), Kategorie 1: 'Storage: Not stored'. Leistungsbeschreibung v1.24, § 2.3.1: Anfragen und Antworten werden 'standardmäßig nicht dauerhaft gespeichert'; ein Zwischenspeicher hält verarbeitete Anfragen 'für eine begrenzte Zeit', standardmäßig an, abschaltbar. Der AVV der T Cloud Public (Anhang III, Maßnahme 'Backup-Konzept') beschreibt nur allgemein eine Backup-Strategie ('Statt einer „klassischen“ Backuplösung ist auch der Betrieb von Spiegelsystemen in einem anderen Sicherheitsbereich ... möglich'), ohne Ort und ohne Bezug auf AI Foundation Services."
+            "anmerkung": "Modell laut Profil seit 01.09.2026 abgeschaltet; Angaben gelten für die T-Cloud-Modelle allgemein. Kein Ort für Sicherungen genannt. Enterprise-Trust-Seite (08.10.2026), Kategorie 1: 'Storage: Not stored'. Leistungsbeschreibung v1.24, Ziffer 2.3.1: Anfragen und Antworten werden 'standardmäßig nicht dauerhaft gespeichert'; ein Zwischenspeicher hält verarbeitete Anfragen 'für eine begrenzte Zeit', standardmäßig an, abschaltbar. Der AVV der T Cloud Public (Anhang III, Maßnahme 'Backup-Konzept') beschreibt nur allgemein eine Backup-Strategie ('Statt einer „klassischen“ Backuplösung ist auch der Betrieb von Spiegelsystemen in einem anderen Sicherheitsbereich ... möglich'), ohne Ort und ohne Bezug auf AI Foundation Services."
           },
           "vorgeschaltete_filter": {
             "wert": null,
@@ -7113,7 +7113,7 @@
             "status": "unbelegt",
             "quelle": null,
             "geprueft": "2026-10-09",
-            "anmerkung": "Kein Ort für Sicherungen genannt. Enterprise-Trust-Seite (08.10.2026), Kategorie 1: 'Storage: Not stored'. Leistungsbeschreibung v1.24, § 2.3.1: Anfragen und Antworten werden 'standardmäßig nicht dauerhaft gespeichert'; ein Zwischenspeicher hält verarbeitete Anfragen 'für eine begrenzte Zeit', standardmäßig an, abschaltbar. Der AVV der T Cloud Public (Anhang III, Maßnahme 'Backup-Konzept') beschreibt nur allgemein eine Backup-Strategie ('Statt einer „klassischen“ Backuplösung ist auch der Betrieb von Spiegelsystemen in einem anderen Sicherheitsbereich ... möglich'), ohne Ort und ohne Bezug auf AI Foundation Services."
+            "anmerkung": "Kein Ort für Sicherungen genannt. Enterprise-Trust-Seite (08.10.2026), Kategorie 1: 'Storage: Not stored'. Leistungsbeschreibung v1.24, Ziffer 2.3.1: Anfragen und Antworten werden 'standardmäßig nicht dauerhaft gespeichert'; ein Zwischenspeicher hält verarbeitete Anfragen 'für eine begrenzte Zeit', standardmäßig an, abschaltbar. Der AVV der T Cloud Public (Anhang III, Maßnahme 'Backup-Konzept') beschreibt nur allgemein eine Backup-Strategie ('Statt einer „klassischen“ Backuplösung ist auch der Betrieb von Spiegelsystemen in einem anderen Sicherheitsbereich ... möglich'), ohne Ort und ohne Bezug auf AI Foundation Services."
           },
           "vorgeschaltete_filter": {
             "wert": null,
@@ -7137,7 +7137,7 @@
             "status": "unbelegt",
             "quelle": null,
             "geprueft": "2026-10-09",
-            "anmerkung": "Kein Ort für Sicherungen genannt. Enterprise-Trust-Seite (08.10.2026), Kategorie 1: 'Storage: Not stored'. Leistungsbeschreibung v1.24, § 2.3.1: Anfragen und Antworten werden 'standardmäßig nicht dauerhaft gespeichert'; ein Zwischenspeicher hält verarbeitete Anfragen 'für eine begrenzte Zeit', standardmäßig an, abschaltbar. Der AVV der T Cloud Public (Anhang III, Maßnahme 'Backup-Konzept') beschreibt nur allgemein eine Backup-Strategie ('Statt einer „klassischen“ Backuplösung ist auch der Betrieb von Spiegelsystemen in einem anderen Sicherheitsbereich ... möglich'), ohne Ort und ohne Bezug auf AI Foundation Services."
+            "anmerkung": "Kein Ort für Sicherungen genannt. Enterprise-Trust-Seite (08.10.2026), Kategorie 1: 'Storage: Not stored'. Leistungsbeschreibung v1.24, Ziffer 2.3.1: Anfragen und Antworten werden 'standardmäßig nicht dauerhaft gespeichert'; ein Zwischenspeicher hält verarbeitete Anfragen 'für eine begrenzte Zeit', standardmäßig an, abschaltbar. Der AVV der T Cloud Public (Anhang III, Maßnahme 'Backup-Konzept') beschreibt nur allgemein eine Backup-Strategie ('Statt einer „klassischen“ Backuplösung ist auch der Betrieb von Spiegelsystemen in einem anderen Sicherheitsbereich ... möglich'), ohne Ort und ohne Bezug auf AI Foundation Services."
           },
           "vorgeschaltete_filter": {
             "wert": null,
@@ -7224,14 +7224,14 @@
           "quelle": "https://docs.llmhub.t-systems.net/reference/enterprise-trust",
           "geprueft": "2026-10-09",
           "fall": "2026-006",
-          "anmerkung": "Für EU-betriebene Modelle keine dauerhafte Speicherung; bei proprietären Fremdmodellen gelten die Bedingungen des jeweiligen Anbieters. Einschränkung: Die Trust-Seite sagt 'Not stored', die verbindliche Leistungsbeschreibung (https://docs.llmhub.t-systems.net/files/Leistungsbeschreibung-LLM-Serving-Service.pdf, am 09.10.2026 Version 1.24, Stand 30.09.2026) sagt in § 2.3.1: 'Damit der Service schneller antwortet, gibt es eine sogenannte Cache-Funktion: Dabei werden bereits verarbeitete Anfragen für eine begrenzte Zeit zwischengespeichert ... Diese Funktion ist standardmäßig eingeschaltet, kann von Kunden aber jederzeit ein- oder ausgeschaltet werden.' Ziffer und Wortlaut sind gleich wie in der Vorversion 1.23 (31.08.2026); je Anfrage abschaltbar (save_cache: false). Die Trust-Seite nennt am 09.10.2026 weiter 'the Service Description (PDF) (v1.23) is the binding source'. Dauer und Zugriff ungeklärt, siehe Fall 2026-006."
+          "anmerkung": "Für EU-betriebene Modelle keine dauerhafte Speicherung; bei proprietären Fremdmodellen gelten die Bedingungen des jeweiligen Anbieters. Einschränkung: Die Trust-Seite sagt 'Not stored', die verbindliche Leistungsbeschreibung (https://docs.llmhub.t-systems.net/files/Leistungsbeschreibung-LLM-Serving-Service.pdf, am 09.10.2026 Version 1.24, Stand 30.09.2026) sagt in Ziffer 2.3.1: 'Damit der Service schneller antwortet, gibt es eine sogenannte Cache-Funktion: Dabei werden bereits verarbeitete Anfragen für eine begrenzte Zeit zwischengespeichert ... Diese Funktion ist standardmäßig eingeschaltet, kann von Kunden aber jederzeit ein- oder ausgeschaltet werden.' Ziffer und Wortlaut sind gleich wie in der Vorversion 1.23 (31.08.2026); je Anfrage abschaltbar (save_cache: false). Die Trust-Seite nennt am 09.10.2026 weiter 'the Service Description (PDF) (v1.23) is the binding source'. Dauer und Zugriff ungeklärt, siehe Fall 2026-006."
         },
         "zweckbindung": {
           "wert": true,
           "status": "belegt",
           "quelle": "https://www.t-cloud-public.com/_Resources/Persistent/7/4/4/5/744591c2cdff8be6c3876c3bf6e187fb024cad04/OTC%20ErgB-AV%20TDG_DE.pdf",
           "geprueft": "2026-10-09",
-          "anmerkung": "AVV (ErgB-AV T Cloud Public, Stand April 2026), Klausel 7.2: 'Der Auftragsverarbeiter verarbeitet die personenbezogenen Daten nur für den/die in Anhang II genannten spezifischen Zweck(e), sofern er keine weiteren Weisungen des Verantwortlichen erhält.' Anhang II Ziffer 3: 'Die Art der Leistung sowie der Verarbeitungszweck sind in den Produkt-AGB und der Leistungsbeschreibung abschließend geregelt.' Die Leistungsbeschreibung LLM-Serving-Service v1.24 (Stand 30.09.2026, https://docs.llmhub.t-systems.net/files/Leistungsbeschreibung-LLM-Serving-Service.pdf) § 2.3.1: Anfragen und Antworten werden 'standardmäßig nicht dauerhaft gespeichert und auch nicht dazu verwendet, die Sprachmodelle zu trainieren'; der Zwischenspeicher dient dazu, dass 'der Service schneller antwortet'. Weitere Zwecke (Missbrauchserkennung, Produktverbesserung, Analytics) nennt sie nicht. Einschränkungen: Der öffentliche AVV ist der für die T Cloud Public; für AI Foundation Services schließt der Kunde laut Leistungsbeschreibung Ziffer 5.2 d eine Vereinbarung 'nach dem Muster der Telekom' ab, 'welches die Telekom dem Kunden auf Anfrage zur Verfügung stellt'. Für Kategorie-2-Modelle (GPT-5, Claude) gelten die Bedingungen des Drittanbieters."
+          "anmerkung": "AVV (ErgB-AV T Cloud Public, Stand April 2026), Klausel 7.2: 'Der Auftragsverarbeiter verarbeitet die personenbezogenen Daten nur für den/die in Anhang II genannten spezifischen Zweck(e), sofern er keine weiteren Weisungen des Verantwortlichen erhält.' Anhang II Ziffer 3: 'Die Art der Leistung sowie der Verarbeitungszweck sind in den Produkt-AGB und der Leistungsbeschreibung abschließend geregelt.' Die Leistungsbeschreibung LLM-Serving-Service v1.24 (Stand 30.09.2026, https://docs.llmhub.t-systems.net/files/Leistungsbeschreibung-LLM-Serving-Service.pdf) Ziffer 2.3.1: Anfragen und Antworten werden 'standardmäßig nicht dauerhaft gespeichert und auch nicht dazu verwendet, die Sprachmodelle zu trainieren'; der Zwischenspeicher dient dazu, dass 'der Service schneller antwortet'. Weitere Zwecke (Missbrauchserkennung, Produktverbesserung, Analytics) nennt sie nicht. Einschränkungen: Der öffentliche AVV ist der für die T Cloud Public; für AI Foundation Services schließt der Kunde laut Leistungsbeschreibung Ziffer 5.2 d eine Vereinbarung 'nach dem Muster der Telekom' ab, 'welches die Telekom dem Kunden auf Anfrage zur Verfügung stellt'. Für Kategorie-2-Modelle (GPT-5, Claude) gelten die Bedingungen des Drittanbieters."
         },
         "betroffenenrechte_traeger": {
           "wert": "auftraggeber",
@@ -7492,7 +7492,7 @@
           "pflicht": "Art.-53-Transparenzdokumentation",
           "status": "unbelegt",
           "quelle": null,
-          "anmerkung": "Plattform serviert Fremdmodelle; Art.-53-Pflichten liegen bei den Herstellern. Keine eigene AI-Act-Dokumentation gefunden."
+          "anmerkung": "Plattform serviert Fremdmodelle; die Transparenzpflichten für die Modelle liegen bei den Herstellern. Keine eigene Dokumentation dazu gefunden."
         }
       ],
       "geprueft": "2026-10-09",

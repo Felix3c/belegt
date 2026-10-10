@@ -2,7 +2,7 @@
   "id": "t-systems",
   "name": "T-Systems / Open Telekom Cloud (AI Foundation Services)",
   "kategorie": "inference-api",
-  "kurzbeschreibung": "Telekom-Tochter, die mit den AI Foundation Services (LLM Hub) über 30 offene LLMs DSGVO-konform auf der T-Cloud in Deutschland serviert und zusätzlich als Gateway proprietäre Modelle (GPT-5, Claude, Gemini) über Azure/GCP in Europa anbindet.",
+  "kurzbeschreibung": "Telekom-Tochter, die mit den AI Foundation Services (LLM Hub) über 30 offene LLMs auf der T-Cloud in Deutschland serviert und zusätzlich als Gateway proprietäre Modelle (GPT-5, Claude, Gemini) über Azure/GCP in Europa anbindet.",
   "stammdaten": {
     "sitz": "Frankfurt am Main, Deutschland",
     "land": "DE",
@@ -26,7 +26,7 @@
         "status": "unbelegt",
         "quelle": null,
         "geprueft": "2026-10-09",
-        "anmerkung": "Modell laut Profil seit 01.09.2026 abgeschaltet; Angaben gelten für die T-Cloud-Modelle allgemein. Kein Ort für Sicherungen genannt. Enterprise-Trust-Seite (08.10.2026), Kategorie 1: 'Storage: Not stored'. Leistungsbeschreibung v1.24, § 2.3.1: Anfragen und Antworten werden 'standardmäßig nicht dauerhaft gespeichert'; ein Zwischenspeicher hält verarbeitete Anfragen 'für eine begrenzte Zeit', standardmäßig an, abschaltbar. Der AVV der T Cloud Public (Anhang III, Maßnahme 'Backup-Konzept') beschreibt nur allgemein eine Backup-Strategie ('Statt einer „klassischen“ Backuplösung ist auch der Betrieb von Spiegelsystemen in einem anderen Sicherheitsbereich ... möglich'), ohne Ort und ohne Bezug auf AI Foundation Services."
+        "anmerkung": "Modell laut Profil seit 01.09.2026 abgeschaltet; Angaben gelten für die T-Cloud-Modelle allgemein. Kein Ort für Sicherungen genannt. Enterprise-Trust-Seite (08.10.2026), Kategorie 1: 'Storage: Not stored'. Leistungsbeschreibung v1.24, Ziffer 2.3.1: Anfragen und Antworten werden 'standardmäßig nicht dauerhaft gespeichert'; ein Zwischenspeicher hält verarbeitete Anfragen 'für eine begrenzte Zeit', standardmäßig an, abschaltbar. Der AVV der T Cloud Public (Anhang III, Maßnahme 'Backup-Konzept') beschreibt nur allgemein eine Backup-Strategie ('Statt einer „klassischen“ Backuplösung ist auch der Betrieb von Spiegelsystemen in einem anderen Sicherheitsbereich ... möglich'), ohne Ort und ohne Bezug auf AI Foundation Services."
       },
       "vorgeschaltete_filter": {
         "wert": null,
@@ -50,7 +50,7 @@
         "status": "unbelegt",
         "quelle": null,
         "geprueft": "2026-10-09",
-        "anmerkung": "Kein Ort für Sicherungen genannt. Enterprise-Trust-Seite (08.10.2026), Kategorie 1: 'Storage: Not stored'. Leistungsbeschreibung v1.24, § 2.3.1: Anfragen und Antworten werden 'standardmäßig nicht dauerhaft gespeichert'; ein Zwischenspeicher hält verarbeitete Anfragen 'für eine begrenzte Zeit', standardmäßig an, abschaltbar. Der AVV der T Cloud Public (Anhang III, Maßnahme 'Backup-Konzept') beschreibt nur allgemein eine Backup-Strategie ('Statt einer „klassischen“ Backuplösung ist auch der Betrieb von Spiegelsystemen in einem anderen Sicherheitsbereich ... möglich'), ohne Ort und ohne Bezug auf AI Foundation Services."
+        "anmerkung": "Kein Ort für Sicherungen genannt. Enterprise-Trust-Seite (08.10.2026), Kategorie 1: 'Storage: Not stored'. Leistungsbeschreibung v1.24, Ziffer 2.3.1: Anfragen und Antworten werden 'standardmäßig nicht dauerhaft gespeichert'; ein Zwischenspeicher hält verarbeitete Anfragen 'für eine begrenzte Zeit', standardmäßig an, abschaltbar. Der AVV der T Cloud Public (Anhang III, Maßnahme 'Backup-Konzept') beschreibt nur allgemein eine Backup-Strategie ('Statt einer „klassischen“ Backuplösung ist auch der Betrieb von Spiegelsystemen in einem anderen Sicherheitsbereich ... möglich'), ohne Ort und ohne Bezug auf AI Foundation Services."
       },
       "vorgeschaltete_filter": {
         "wert": null,
@@ -74,7 +74,7 @@
         "status": "unbelegt",
         "quelle": null,
         "geprueft": "2026-10-09",
-        "anmerkung": "Kein Ort für Sicherungen genannt. Enterprise-Trust-Seite (08.10.2026), Kategorie 1: 'Storage: Not stored'. Leistungsbeschreibung v1.24, § 2.3.1: Anfragen und Antworten werden 'standardmäßig nicht dauerhaft gespeichert'; ein Zwischenspeicher hält verarbeitete Anfragen 'für eine begrenzte Zeit', standardmäßig an, abschaltbar. Der AVV der T Cloud Public (Anhang III, Maßnahme 'Backup-Konzept') beschreibt nur allgemein eine Backup-Strategie ('Statt einer „klassischen“ Backuplösung ist auch der Betrieb von Spiegelsystemen in einem anderen Sicherheitsbereich ... möglich'), ohne Ort und ohne Bezug auf AI Foundation Services."
+        "anmerkung": "Kein Ort für Sicherungen genannt. Enterprise-Trust-Seite (08.10.2026), Kategorie 1: 'Storage: Not stored'. Leistungsbeschreibung v1.24, Ziffer 2.3.1: Anfragen und Antworten werden 'standardmäßig nicht dauerhaft gespeichert'; ein Zwischenspeicher hält verarbeitete Anfragen 'für eine begrenzte Zeit', standardmäßig an, abschaltbar. Der AVV der T Cloud Public (Anhang III, Maßnahme 'Backup-Konzept') beschreibt nur allgemein eine Backup-Strategie ('Statt einer „klassischen“ Backuplösung ist auch der Betrieb von Spiegelsystemen in einem anderen Sicherheitsbereich ... möglich'), ohne Ort und ohne Bezug auf AI Foundation Services."
       },
       "vorgeschaltete_filter": {
         "wert": null,
@@ -161,14 +161,14 @@
       "quelle": "https://docs.llmhub.t-systems.net/reference/enterprise-trust",
       "geprueft": "2026-10-09",
       "fall": "2026-006",
-      "anmerkung": "Für EU-betriebene Modelle keine dauerhafte Speicherung; bei proprietären Fremdmodellen gelten die Bedingungen des jeweiligen Anbieters. Einschränkung: Die Trust-Seite sagt 'Not stored', die verbindliche Leistungsbeschreibung (https://docs.llmhub.t-systems.net/files/Leistungsbeschreibung-LLM-Serving-Service.pdf, am 09.10.2026 Version 1.24, Stand 30.09.2026) sagt in § 2.3.1: 'Damit der Service schneller antwortet, gibt es eine sogenannte Cache-Funktion: Dabei werden bereits verarbeitete Anfragen für eine begrenzte Zeit zwischengespeichert ... Diese Funktion ist standardmäßig eingeschaltet, kann von Kunden aber jederzeit ein- oder ausgeschaltet werden.' Ziffer und Wortlaut sind gleich wie in der Vorversion 1.23 (31.08.2026); je Anfrage abschaltbar (save_cache: false). Die Trust-Seite nennt am 09.10.2026 weiter 'the Service Description (PDF) (v1.23) is the binding source'. Dauer und Zugriff ungeklärt, siehe Fall 2026-006."
+      "anmerkung": "Für EU-betriebene Modelle keine dauerhafte Speicherung; bei proprietären Fremdmodellen gelten die Bedingungen des jeweiligen Anbieters. Einschränkung: Die Trust-Seite sagt 'Not stored', die verbindliche Leistungsbeschreibung (https://docs.llmhub.t-systems.net/files/Leistungsbeschreibung-LLM-Serving-Service.pdf, am 09.10.2026 Version 1.24, Stand 30.09.2026) sagt in Ziffer 2.3.1: 'Damit der Service schneller antwortet, gibt es eine sogenannte Cache-Funktion: Dabei werden bereits verarbeitete Anfragen für eine begrenzte Zeit zwischengespeichert ... Diese Funktion ist standardmäßig eingeschaltet, kann von Kunden aber jederzeit ein- oder ausgeschaltet werden.' Ziffer und Wortlaut sind gleich wie in der Vorversion 1.23 (31.08.2026); je Anfrage abschaltbar (save_cache: false). Die Trust-Seite nennt am 09.10.2026 weiter 'the Service Description (PDF) (v1.23) is the binding source'. Dauer und Zugriff ungeklärt, siehe Fall 2026-006."
     },
     "zweckbindung": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://www.t-cloud-public.com/_Resources/Persistent/7/4/4/5/744591c2cdff8be6c3876c3bf6e187fb024cad04/OTC%20ErgB-AV%20TDG_DE.pdf",
       "geprueft": "2026-10-09",
-      "anmerkung": "AVV (ErgB-AV T Cloud Public, Stand April 2026), Klausel 7.2: 'Der Auftragsverarbeiter verarbeitet die personenbezogenen Daten nur für den/die in Anhang II genannten spezifischen Zweck(e), sofern er keine weiteren Weisungen des Verantwortlichen erhält.' Anhang II Ziffer 3: 'Die Art der Leistung sowie der Verarbeitungszweck sind in den Produkt-AGB und der Leistungsbeschreibung abschließend geregelt.' Die Leistungsbeschreibung LLM-Serving-Service v1.24 (Stand 30.09.2026, https://docs.llmhub.t-systems.net/files/Leistungsbeschreibung-LLM-Serving-Service.pdf) § 2.3.1: Anfragen und Antworten werden 'standardmäßig nicht dauerhaft gespeichert und auch nicht dazu verwendet, die Sprachmodelle zu trainieren'; der Zwischenspeicher dient dazu, dass 'der Service schneller antwortet'. Weitere Zwecke (Missbrauchserkennung, Produktverbesserung, Analytics) nennt sie nicht. Einschränkungen: Der öffentliche AVV ist der für die T Cloud Public; für AI Foundation Services schließt der Kunde laut Leistungsbeschreibung Ziffer 5.2 d eine Vereinbarung 'nach dem Muster der Telekom' ab, 'welches die Telekom dem Kunden auf Anfrage zur Verfügung stellt'. Für Kategorie-2-Modelle (GPT-5, Claude) gelten die Bedingungen des Drittanbieters."
+      "anmerkung": "AVV (ErgB-AV T Cloud Public, Stand April 2026), Klausel 7.2: 'Der Auftragsverarbeiter verarbeitet die personenbezogenen Daten nur für den/die in Anhang II genannten spezifischen Zweck(e), sofern er keine weiteren Weisungen des Verantwortlichen erhält.' Anhang II Ziffer 3: 'Die Art der Leistung sowie der Verarbeitungszweck sind in den Produkt-AGB und der Leistungsbeschreibung abschließend geregelt.' Die Leistungsbeschreibung LLM-Serving-Service v1.24 (Stand 30.09.2026, https://docs.llmhub.t-systems.net/files/Leistungsbeschreibung-LLM-Serving-Service.pdf) Ziffer 2.3.1: Anfragen und Antworten werden 'standardmäßig nicht dauerhaft gespeichert und auch nicht dazu verwendet, die Sprachmodelle zu trainieren'; der Zwischenspeicher dient dazu, dass 'der Service schneller antwortet'. Weitere Zwecke (Missbrauchserkennung, Produktverbesserung, Analytics) nennt sie nicht. Einschränkungen: Der öffentliche AVV ist der für die T Cloud Public; für AI Foundation Services schließt der Kunde laut Leistungsbeschreibung Ziffer 5.2 d eine Vereinbarung 'nach dem Muster der Telekom' ab, 'welches die Telekom dem Kunden auf Anfrage zur Verfügung stellt'. Für Kategorie-2-Modelle (GPT-5, Claude) gelten die Bedingungen des Drittanbieters."
     },
     "betroffenenrechte_traeger": {
       "wert": "auftraggeber",
@@ -429,7 +429,7 @@
       "pflicht": "Art.-53-Transparenzdokumentation",
       "status": "unbelegt",
       "quelle": null,
-      "anmerkung": "Plattform serviert Fremdmodelle; Art.-53-Pflichten liegen bei den Herstellern. Keine eigene AI-Act-Dokumentation gefunden."
+      "anmerkung": "Plattform serviert Fremdmodelle; die Transparenzpflichten für die Modelle liegen bei den Herstellern. Keine eigene Dokumentation dazu gefunden."
     }
   ],
   "geprueft": "2026-10-09",

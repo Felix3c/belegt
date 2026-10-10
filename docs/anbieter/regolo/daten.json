@@ -159,7 +159,7 @@
       "status": "belegt",
       "quelle": "https://regolo.ai/terms-and-conditions/",
       "geprueft": "2026-10-09",
-      "anmerkung": "Vollständiges Data Processor Agreement nach Art. 28 DSGVO als Bestandteil der Enterprise-AGB; Verantwortlicher ist Seeweb S.r.l., Frosinone"
+      "anmerkung": "Vollständiges Data Processor Agreement als Bestandteil der Enterprise-AGB; Verantwortlicher ist Seeweb S.r.l., Frosinone"
     },
     "subprozessoren": {
       "wert": null,
@@ -355,7 +355,7 @@
       "status": "beansprucht",
       "quelle": "https://regolo.ai/zero-data-retention/",
       "geprueft": "2026-10-09",
-      "anmerkung": "Proaktive Ausrichtung am EU AI Act erklärt; kein Primärdokument öffentlich. Kein GPAI-Modellanbieter"
+      "anmerkung": "Proaktive Ausrichtung an den EU-Regeln für KI erklärt; kein Primärdokument öffentlich. Kein GPAI-Modellanbieter"
     }
   ],
   "geprueft": "2026-10-08",

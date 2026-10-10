@@ -191,7 +191,7 @@
       "status": "belegt",
       "quelle": "https://bfl.ai/legal/eu-api-service-terms",
       "geprueft": "2026-10-09",
-      "anmerkung": "EU API Service Terms §2b: Lizenz an Input und Output 'for the purpose of operating the FLUX Services, improving the Company's products and services, and developing new products and services' und 'the Company may use Inputs and Outputs to train and improve its artificial intelligence models'. Privacy Policy (01.08.2026) nennt als Trainingszweck u. a. 'improve our content moderation tools'; weitere Zwecke dort: 'To improve and develop our Services and new features and conduct research', 'To prevent fraud, criminal activity, or misuses of our Services', Marketing an Kontaktdaten. Enterprise-Verträge (nicht öffentlich) können abweichen."
+      "anmerkung": "EU API Service Terms Ziffer 2b: Lizenz an Input und Output 'for the purpose of operating the FLUX Services, improving the Company's products and services, and developing new products and services' und 'the Company may use Inputs and Outputs to train and improve its artificial intelligence models'. Privacy Policy (01.08.2026) nennt als Trainingszweck u. a. 'improve our content moderation tools'; weitere Zwecke dort: 'To improve and develop our Services and new features and conduct research', 'To prevent fraud, criminal activity, or misuses of our Services', Marketing an Kontaktdaten. Enterprise-Verträge (nicht öffentlich) können abweichen."
     },
     "betroffenenrechte_traeger": {
       "wert": "auftraggeber",
@@ -288,7 +288,7 @@
     "anwendungsbereich": null,
     "quelle": null,
     "geprueft": "2026-10-09",
-    "anmerkung": "Das Vanta-Trust-Center (im Browser gerendert) listet unter Compliance nur 'ISO 27001:2022', 'SOC 2' und 'GDPR'; ISO/IEC 42001 kommt nicht vor. Die Websuche ergab keinen Treffer zu BFL und 42001. Geprüft: https://trust.bfl.ai/, WebSearch: Black Forest Labs ISO 42001"
+    "anmerkung": "Das Vanta-Trust-Center (im Browser gerendert) listet unter Compliance nur 'ISO 27001:2022', 'SOC 2' und einen Datenschutz-Eintrag; ISO/IEC 42001 kommt nicht vor. Die Websuche ergab keinen Treffer zu BFL und 42001. Geprüft: https://trust.bfl.ai/, WebSearch: Black Forest Labs ISO 42001"
   },
   "ai_act": [
     {

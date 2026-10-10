@@ -67,7 +67,7 @@
       "status": "belegt",
       "quelle": "https://www.hetzner.com/AV/DPA_en.pdf",
       "geprueft": "2026-10-09",
-      "anmerkung": "DPA-PDF nach Art. 28 DSGVO (Abschluss über Kundenkonto); TOMs öffentlich, extern geprüft (TÜV Rheinland). Ob die experimentelle Inference-API vom AVV erfasst ist, ist nicht dokumentiert."
+      "anmerkung": "DPA-PDF (Abschluss über Kundenkonto); TOMs öffentlich, extern geprüft (TÜV Rheinland). Ob die experimentelle Inference-API vom AVV erfasst ist, ist nicht dokumentiert."
     },
     "subprozessoren": {
       "wert": "https://www.hetzner.com/AV/subunternehmer.pdf",
@@ -102,7 +102,7 @@
       "status": "belegt",
       "quelle": "https://www.hetzner.com/AV/DPA_en.pdf",
       "geprueft": "2026-10-09",
-      "anmerkung": "AVV (DPA_en.pdf) Ziffer 7 'Support for requests from Data Subjects': 'The Processor shall reasonably assist the Controller in fulfilling requests and claims of Data Subjects pursuant to Chapter III of the GDPR. If a Data Subject contacts the Processor directly in this regard, the Processor shall promptly refer the Data Subject to the Controller'. Ob der AVV die experimentelle Inference-API erfasst, ist nicht dokumentiert; die Datenschutzerklärung 4.5.2 beschreibt die Verarbeitung der Prompts mit eigener Rechtsgrundlage (Art. 6 Abs. 1 lit. b DSGVO), also aus Sicht Hetzners als Verantwortlicher."
+      "anmerkung": "AVV (DPA_en.pdf) Ziffer 7 'Support for requests from Data Subjects': 'The Processor shall reasonably assist the Controller in fulfilling requests and claims of Data Subjects pursuant to Chapter III […]. If a Data Subject contacts the Processor directly in this regard, the Processor shall promptly refer the Data Subject to the Controller'. Ob der AVV die experimentelle Inference-API erfasst, ist nicht dokumentiert; die Datenschutzerklärung 4.5.2 beschreibt die Verarbeitung der Prompts mit eigener Rechtsgrundlage, also aus Sicht Hetzners als Verantwortlicher."
     },
     "log_frist": {
       "wert": "Logfiles 6 Monate (ohne Inhalte), Abrechnungsdaten 8 Jahre; Prompts und Outputs werden nicht gespeichert",
@@ -116,7 +116,7 @@
       "status": "belegt",
       "quelle": "https://www.hetzner.com/de/legal/privacy-policy/",
       "geprueft": "2026-10-09",
-      "anmerkung": "Datenschutzerklärung 4.5.2: 'Die Logfiles verarbeiten wir, um einen sicheren und zuverlässigen Betrieb des Dienstes sicherzustellen. (Art. 6 Abs. 1 lit. f DSGVO)'; Abrechnungsdaten 'um Ihnen den Inference-Dienst bereitzustellen und die Abrechnung durchzuführen'."
+      "anmerkung": "Datenschutzerklärung 4.5.2: 'Die Logfiles verarbeiten wir, um einen sicheren und zuverlässigen Betrieb des Dienstes sicherzustellen. […]'; Abrechnungsdaten 'um Ihnen den Inference-Dienst bereitzustellen und die Abrechnung durchzuführen'."
     }
   },
   "zertifikate": [
@@ -190,14 +190,14 @@
     "anwendungsbereich": null,
     "quelle": null,
     "geprueft": "2026-10-09",
-    "anmerkung": "Auf beiden Hetzner-Seiten wird ISO/IEC 42001 nicht erwähnt. Genannt sind DIN ISO/IEC 27001:2022, BSI C5 Type 2, KRITIS/§8a BSIG und PCI DSS (über Computop). Die Websuche lieferte keinen Treffer zu Hetzner und 42001. Geprüft: https://www.hetzner.com/unternehmen/zertifizierung/, https://docs.hetzner.com/general/others/certificates, WebSearch: \"Hetzner ISO 42001\""
+    "anmerkung": "Auf beiden Hetzner-Seiten wird ISO/IEC 42001 nicht erwähnt. Genannt sind DIN ISO/IEC 27001:2022, BSI C5 Type 2, KRITIS-Nachweis und PCI DSS (über Computop). Die Websuche lieferte keinen Treffer zu Hetzner und 42001. Geprüft: https://www.hetzner.com/unternehmen/zertifizierung/, https://docs.hetzner.com/general/others/certificates, WebSearch: \"Hetzner ISO 42001\""
   },
   "ai_act": [
     {
       "pflicht": "Art.-53-Transparenzdokumentation",
       "status": "unbelegt",
       "quelle": null,
-      "anmerkung": "Hetzner serviert ein Fremdmodell (Qwen, Apache 2.0); Art.-53-Pflichten liegen beim Modellhersteller. Keine AI-Act-Dokumentation gefunden."
+      "anmerkung": "Hetzner serviert ein Fremdmodell (Qwen, Apache 2.0); die Transparenzpflichten für das Modell liegen beim Modellhersteller. Keine eigene Dokumentation dazu gefunden."
     }
   ],
   "geprueft": "2026-10-09",

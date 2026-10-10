@@ -158,7 +158,7 @@
       "status": "belegt",
       "quelle": "https://trust.deepl.com/",
       "geprueft": "2026-10-09",
-      "anmerkung": "Trust Center, Karte 'Log storage': 'Log files are stored for 90 days. Personal data (related to the GDPR) that is not relevant for accounting purposes will be deleted after 14 days.' Karte 'Access Monitoring': 'DeepL stores these log files for 90 days.' Pro-AGB 3.1.4: Speicherung von Inhalten 'for a maximum period of 72 hours in case certain error patterns occur'. Pro-AGB 3.1.2 erlaubt Zugriffslogs mit Metadaten ('time of the API Request and size of the transmitted Content') ohne Frist. Abruf 08.10.2026."
+      "anmerkung": "Trust Center, Karte 'Log storage': 'Log files are stored for 90 days. Personal data […] that is not relevant for accounting purposes will be deleted after 14 days.' Karte 'Access Monitoring': 'DeepL stores these log files for 90 days.' Pro-AGB 3.1.4: Speicherung von Inhalten 'for a maximum period of 72 hours in case certain error patterns occur'. Pro-AGB 3.1.2 erlaubt Zugriffslogs mit Metadaten ('time of the API Request and size of the transmitted Content') ohne Frist. Abruf 08.10.2026."
     },
     "log_zweck": {
       "wert": "Abrechnung, Sicherheit (Angriffserkennung), Statistik; Fehlerdiagnose",
@@ -330,7 +330,7 @@
     "anwendungsbereich": null,
     "quelle": null,
     "geprueft": "2026-10-09",
-    "anmerkung": "Das SafeBase-Trust-Center war nicht abrufbar (WebFetch HTTP 403, im Browser haengt die Cloudflare-Pruefung). Laut Suchmaschinen-Auszug listet es C5, GDPR, HIPAA, ISO/IEC 27001:2022 und SOC 2 Type 2, aber nicht 42001. Die Seite pro-data-security nennt nur SOC 2 Type II; auch die Websuche ergab keinen 42001-Bezug. Geprüft: https://trust.deepl.com (308 -> https://deepl.safebase.us/), https://deepl.safebase.us/, https://www.deepl.com/en/pro-data-security, WebSearch: DeepL ISO 42001, WebSearch: DeepL trust center certifications ISO 27001 SOC 2 \"42001\""
+    "anmerkung": "Das SafeBase-Trust-Center war nicht abrufbar (WebFetch HTTP 403, im Browser haengt die Cloudflare-Pruefung). Laut Suchmaschinen-Auszug listet es C5, einen Datenschutz-Eintrag, HIPAA, ISO/IEC 27001:2022 und SOC 2 Type 2, aber nicht 42001. Die Seite pro-data-security nennt nur SOC 2 Type II; auch die Websuche ergab keinen 42001-Bezug. Geprüft: https://trust.deepl.com (308 -> https://deepl.safebase.us/), https://deepl.safebase.us/, https://www.deepl.com/en/pro-data-security, WebSearch: DeepL ISO 42001, WebSearch: DeepL trust center certifications ISO 27001 SOC 2 \"42001\""
   },
   "ai_act": [
     {
