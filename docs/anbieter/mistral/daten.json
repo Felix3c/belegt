@@ -238,6 +238,8 @@
       },
       "akkreditiert_dakks": {
         "wert": false,
+        "stelle": "IAS (USA)",
+        "stelle_ea_mla": false,
         "status": "belegt",
         "quelle": "https://www.iasonline.org/wp-content/uploads/2022/03/MSCB-267-Cert-Virtual-Office.pdf",
         "geprueft": "2026-10-09",
@@ -300,6 +302,8 @@
       },
       "akkreditiert_dakks": {
         "wert": false,
+        "stelle": "IAS (USA)",
+        "stelle_ea_mla": false,
         "status": "belegt",
         "quelle": "https://www.iasonline.org/wp-content/uploads/2022/03/MSCB-267-Cert-Virtual-Office.pdf",
         "geprueft": "2026-10-09",

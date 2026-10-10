@@ -246,6 +246,8 @@
       },
       "akkreditiert_dakks": {
         "wert": false,
+        "stelle": "ANAB (USA)",
+        "stelle_ea_mla": false,
         "status": "belegt",
         "quelle": "https://anabdirectory.remoteauditor.com/",
         "geprueft": "2026-10-09",
@@ -401,6 +403,8 @@
       },
       "akkreditiert_dakks": {
         "wert": false,
+        "stelle": "ANAB (USA)",
+        "stelle_ea_mla": false,
         "status": "belegt",
         "quelle": "https://anabdirectory.remoteauditor.com/",
         "geprueft": "2026-10-09",

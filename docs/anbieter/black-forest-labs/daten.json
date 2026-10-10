@@ -269,6 +269,8 @@
       },
       "akkreditiert_dakks": {
         "wert": false,
+        "stelle": "UKAS",
+        "stelle_ea_mla": true,
         "status": "belegt",
         "quelle": "https://www.ukas.com/download-schedule/8289/ManagementSystems",
         "geprueft": "2026-10-09",

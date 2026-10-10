@@ -234,6 +234,8 @@
       },
       "akkreditiert_dakks": {
         "wert": false,
+        "stelle": "DPA Albanien",
+        "stelle_ea_mla": true,
         "status": "belegt",
         "quelle": "http://dpa.gov.al/axe-cs007-shkurt-2026/",
         "geprueft": "2026-10-08",
@@ -265,6 +267,8 @@
       },
       "akkreditiert_dakks": {
         "wert": false,
+        "stelle": "DPA Albanien",
+        "stelle_ea_mla": true,
         "status": "belegt",
         "quelle": "http://dpa.gov.al/axe-cs007-shkurt-2026/",
         "geprueft": "2026-10-08",

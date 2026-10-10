@@ -120,3 +120,13 @@ test("textZeilen: llms-full-Zeilen für Vertrag, Zertifikat und Modell", () => {
   assert.ok(z.includes("ISO 27001 — Zertifizierer: SOCOTEC [Status: belegt]"));
   assert.ok(z.includes("M1 — Backup-Standort: unbelegt [Status: unbelegt]"));
 });
+
+test("Akkreditierungsstelle: stelle (Text) und stelle_ea_mla (ja/nein) nur zusammen", () => {
+  const f = (x) => ({ zertifikate: [{ typ: "ISO 27001", akkreditiert_dakks: { wert: false, status: "belegt", quelle: "https://x.example/a", geprueft: "2026-10-10", ...x } }] });
+  const fehler = (x) => PP.pruefe(f(x)).filter((e) => /stelle/i.test(e));
+  assert.deepEqual(fehler({ stelle: "COFRAC", stelle_ea_mla: true }), []);
+  assert.deepEqual(fehler({}), []);
+  assert.equal(fehler({ stelle: "COFRAC" }).length, 1);
+  assert.equal(fehler({ stelle: "", stelle_ea_mla: true }).length, 1);
+  assert.equal(fehler({ stelle: "COFRAC", stelle_ea_mla: "ja" }).length, 1);
+});

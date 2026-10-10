@@ -233,6 +233,8 @@
       },
       "akkreditiert_dakks": {
         "wert": false,
+        "stelle": "COFRAC",
+        "stelle_ea_mla": true,
         "status": "belegt",
         "quelle": "https://tools.cofrac.fr/annexes/sect4/4-0008.pdf",
         "geprueft": "2026-10-09",
@@ -264,6 +266,8 @@
       },
       "akkreditiert_dakks": {
         "wert": false,
+        "stelle": "COFRAC",
+        "stelle_ea_mla": true,
         "status": "belegt",
         "quelle": "https://tools.cofrac.fr/annexes/sect4/4-0008.pdf",
         "geprueft": "2026-10-09",

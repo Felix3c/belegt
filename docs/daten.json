@@ -501,6 +501,8 @@
           },
           "akkreditiert_dakks": {
             "wert": false,
+            "stelle": "UKAS",
+            "stelle_ea_mla": true,
             "status": "belegt",
             "quelle": "https://www.ukas.com/download-schedule/8289/ManagementSystems",
             "geprueft": "2026-10-09",
@@ -2816,6 +2818,8 @@
           },
           "akkreditiert_dakks": {
             "wert": false,
+            "stelle": "UKAS",
+            "stelle_ea_mla": true,
             "status": "belegt",
             "quelle": "https://www.ukas.com/download-schedule/0005/ManagementSystems",
             "geprueft": "2026-10-09",
@@ -3939,6 +3943,8 @@
           },
           "akkreditiert_dakks": {
             "wert": false,
+            "stelle": "IAS (USA)",
+            "stelle_ea_mla": false,
             "status": "belegt",
             "quelle": "https://www.iasonline.org/wp-content/uploads/2022/03/MSCB-267-Cert-Virtual-Office.pdf",
             "geprueft": "2026-10-09",
@@ -4001,6 +4007,8 @@
           },
           "akkreditiert_dakks": {
             "wert": false,
+            "stelle": "IAS (USA)",
+            "stelle_ea_mla": false,
             "status": "belegt",
             "quelle": "https://www.iasonline.org/wp-content/uploads/2022/03/MSCB-267-Cert-Virtual-Office.pdf",
             "geprueft": "2026-10-09",
@@ -5743,6 +5751,8 @@
           },
           "akkreditiert_dakks": {
             "wert": false,
+            "stelle": "DPA Albanien",
+            "stelle_ea_mla": true,
             "status": "belegt",
             "quelle": "http://dpa.gov.al/axe-cs007-shkurt-2026/",
             "geprueft": "2026-10-08",
@@ -5774,6 +5784,8 @@
           },
           "akkreditiert_dakks": {
             "wert": false,
+            "stelle": "DPA Albanien",
+            "stelle_ea_mla": true,
             "status": "belegt",
             "quelle": "http://dpa.gov.al/axe-cs007-shkurt-2026/",
             "geprueft": "2026-10-08",
@@ -6353,6 +6365,8 @@
           },
           "akkreditiert_dakks": {
             "wert": false,
+            "stelle": "COFRAC",
+            "stelle_ea_mla": true,
             "status": "belegt",
             "quelle": "https://tools.cofrac.fr/annexes/sect4/4-0008.pdf",
             "geprueft": "2026-10-09",
@@ -6384,6 +6398,8 @@
           },
           "akkreditiert_dakks": {
             "wert": false,
+            "stelle": "COFRAC",
+            "stelle_ea_mla": true,
             "status": "belegt",
             "quelle": "https://tools.cofrac.fr/annexes/sect4/4-0008.pdf",
             "geprueft": "2026-10-09",
@@ -7093,6 +7109,8 @@
           },
           "akkreditiert_dakks": {
             "wert": false,
+            "stelle": "ANAB (USA)",
+            "stelle_ea_mla": false,
             "status": "belegt",
             "quelle": "https://anabdirectory.remoteauditor.com/",
             "geprueft": "2026-10-09",
@@ -7248,6 +7266,8 @@
           },
           "akkreditiert_dakks": {
             "wert": false,
+            "stelle": "ANAB (USA)",
+            "stelle_ea_mla": false,
             "status": "belegt",
             "quelle": "https://anabdirectory.remoteauditor.com/",
             "geprueft": "2026-10-09",
