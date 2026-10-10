@@ -1041,7 +1041,7 @@ ${belegZeile("unbelegt", "Wir haben keine belastbare Angabe gefunden. Auch das i
 <ul>
 <li><strong>nachgelesen</strong>: wie viele der belegenden Quellen der Lauf inhaltlich verglichen hat. Startseiten zählen nicht, sie belegen nichts. Eine Quelle, die erst nach dem letzten Lauf eingetragen wurde, fehlt bis zum nächsten.</li>
 <li><strong>unverändert</strong>: Text gleich wie beim letzten Lesen.</li>
-<li><strong>verändert und von Hand gelesen</strong>: Der Text hat sich bewegt, ein Mensch hat die Quelle gelesen und das Profil mit ihr abgeglichen. Änderte sich dabei eine Aussage, steht der Wechsel im <a href="${SITE.baseUrl}/aenderungen/">Änderungsprotokoll</a>; meist sind es Menüpunkte oder Zähler.</li>
+<li><strong>verändert und von Hand gelesen</strong>: Der Text hat sich bewegt, die Quelle wurde gelesen und mit dem Profil abgeglichen; die Freigabe gibt Felix Lind. Änderte sich dabei eine Aussage, steht der Wechsel im <a href="${SITE.baseUrl}/aenderungen/">Änderungsprotokoll</a>; meist sind es Menüpunkte oder Zähler.</li>
 <li><strong>offen</strong>: verändert und noch nicht von Hand gelesen. Diese Zahl steht absichtlich öffentlich da: Sie zeigt, dass wir nachlesen, auch wenn nichts passiert, und sie zwingt uns, Änderungen zügig zu lesen.</li>
 <li><strong>verschwunden</strong>: beim letzten Lauf nicht mehr erreichbar.</li>
 </ul>
