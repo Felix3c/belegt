@@ -1,0 +1,6 @@
+Quelle: https://www.t-cloud-public.com/en/products-services/core-services/certifications
+Abruf: 2026-10-15 (curl, 464949 Bytes, HTML-SHA256 96b214f616bba79391d392f6e788564e8995f1c5462608be70d5f49191ffc42a), nur Textstellen mit 'C5'
+
+ (Germany and the Netherlands) are now certified. Find out more Privacy and security assessment PSA takes an integral part of ensuring data privacy and security for our customers, which is validated in the ISO27001 Audits by DEKRA. Find out more BSI C5 Typ II (ISAE 3000) This report verifies the minimum information security requirements for cloud services of the BSI Cloud Computing Compliance Criteria Catalogue (BSI C5). Request report SOC 1 Type II (ISAE 3402) As part of the audit, relevant check
+
+cial Addendum for DORA-regulated financial companies The Financial Addendum supports you in implementing your DORA requirements . BSI requirements in the public sector T Cloud Public meets the BSI requirements for public clients , exemplified by its C5 certification. Book now and claim 250 € starting credit* Book now *Voucher can be redeemed until 31 December 2026 and expires two months after conclusion of the contract. The credit is deducted according to the valid list prices as per the service d

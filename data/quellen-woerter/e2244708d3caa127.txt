@@ -388,6 +388,7 @@ August
 August
 August
 August
+Automation
 BAAI
 Backed
 Backed
@@ -723,7 +724,6 @@ Multilingual
 Multilingual
 Multilingual
 Multilingual
-New
 New
 New
 New
@@ -1719,6 +1719,7 @@ pipelines.
 pixtral-12b-2409
 pixtral-12b-2409
 pixtral-12b-2409
+platforms
 pre-recorded
 pre-recorded
 pre-recorded

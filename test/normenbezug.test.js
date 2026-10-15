@@ -190,3 +190,21 @@ test("Integration: schreibeDossier mit erlaubeNormenbezug:true schreibt trotz No
   assert.ok(fs.existsSync(r.pfad));
   assert.match(fs.readFileSync(r.pfad, "utf8"), /Verstoß gegen § 5 UWG/);
 });
+
+test("Reine URL in einem Quellenfeld löst den Wächter nicht aus (nordference.ai/gdpr, 14.10.)", () => {
+  const profil = sauberesProfil();
+  profil.vertrag.avv.quelle = "https://nordference.ai/gdpr";
+  assert.deepEqual(pruefeProfilUndFaelle(profil), []);
+  profil.vertrag.avv.anmerkung = "Steht auf der DSGVO-Seite.";
+  assert.equal(pruefeProfilUndFaelle(profil).length, 1);
+});
+
+test("Pilot-Vorrat: jedes Anbieterprofil ergibt ein Dossier ohne erlaubeNormenbezug (14.10.)", () => {
+  const dir = path.join(__dirname, "..", "data", "anbieter");
+  const fehler = [];
+  for (const datei of fs.readdirSync(dir).filter((d) => d.endsWith(".json"))) {
+    const id = datei.replace(/\.json$/, "");
+    try { erzeugeDossier(id, { datum: "2026-10-14" }); } catch (e) { fehler.push(`${id}: ${e.message.split("\n")[1] || e.message}`); }
+  }
+  assert.deepEqual(fehler, []);
+});

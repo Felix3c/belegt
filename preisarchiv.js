@@ -7,7 +7,7 @@
  *  Holt jede Quelle der Modell-Einträge (plus --url) und legt sie unter belege/preise/<id>/<datum>-<slug>.<ext>
  *  ab, mit Zeile in SHA256SUMS. Setzt kein geprueft: Abrufen ist nicht Nachprüfen — das Feld-Datum
  *  setzt, wer den Preis gelesen und verglichen hat. Seiten, die Preise per Script nachladen (Exoscale),
- *  brauchen die Datenquelle zusätzlich per --url. */
+ *  brauchen die Datenquelle zusätzlich per --url, oder sie steht im Modell als "preisdaten" (BFL, 15.10.2026). */
 const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
@@ -53,7 +53,7 @@ async function main() {
   const datei = path.join(DATA_DIR, id + ".json");
   if (!fs.existsSync(datei)) { console.error("Unbekannter Anbieter:", id); process.exit(2); }
   const p = JSON.parse(fs.readFileSync(datei, "utf8"));
-  const urls = [...new Set([...(p.modelle || []).map((m) => m.quelle).filter(Boolean), ...extra])];
+  const urls = [...new Set([...(p.modelle || []).flatMap((m) => [m.quelle, m.preisdaten]).filter(Boolean), ...extra])];
   const ziel = path.join(__dirname, "belege", "preise", id);
   for (const url of urls) {
     try {

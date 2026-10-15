@@ -1,0 +1,12 @@
+Quelle: https://www.ovhcloud.com/en/compliance/c5/
+Abruf: 2026-10-15 (curl, 989328 Bytes, HTML-SHA256 095895b69a043a69c6766e1730544dfba9689836257a28af6da781d487d94c9e), nur Textstellen mit 'C5'
+
+ C5 | OVHcloud Worldwide Open menu Webmail Notifications Back to menu No pending order No pending ticket My customer account Contact Sales Support World [$] Back to menu Country Currency Select <div class="odss-dropdown__content"></div> Website (languag
+
+Additional databases SSL Certificates CDN option USES How do I create a website? Host your WordPress website Create your website in 1 click Create an online store Documentation Roadmap & Changelog All Exchange plans Documentation Roadmap & Changelog C5 Compliance and certification C5 C5 - Cloud Computing Compliance Criteria Catalogue The Cloud Compliance Criteria Catalogue (C5), created by the German Federal Office for Information Technology Security (BSI), certifies that cloud service providers a
+
+urity Alliance) AICPA Trust Service Principles Criteria 2014 (AICPA - American Institute of Certified Public Accountants) Would you like more information, or to place an order? You can request a free callback from an OVHcloud advisor. Get a callback C5 - Cloud Computing Compliance Controls The German Federal Office for Information Technology Security (BSI) created the Cloud Computing Compliance Controls Catalogue (C5) as an audit standard. This standard was last updated in 2020. For OVHcloud custo
+
+mers and partners, C5 certification can be used to prove and attest that a platform complies with the relevant security controls. C5 adds a regulation-defined IT Security level that is equivalent to the IT-Grundschutz, with the addition of cloud specific controls. Find out more about the C5 criteria Parameters and certificates The requirements analysed as part of the C5 certifica
+
+uch as data protection), the customers’ own policies or potential threats relating to industrial espionage make the usage of the respective cloud service seem appropriate.” Find out more about the BSI SOC 2 Type 2 reports According to Section 3.3 of C5:2020 - Connection to other audits, a C5: 2020 audit can be combined with a SOC 2 audit so that parts of the system description and audit results can be reused for overlapping controls. OVHcloud provides its customers with a SOC 2 Type 2 certificate 

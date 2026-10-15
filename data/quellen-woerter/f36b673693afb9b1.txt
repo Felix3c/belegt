@@ -156,13 +156,13 @@ API
 API
 API
 API
+APIs
 APIs,
 APIs.
 About
 Access
 Access
 Adjust
-Agentic
 All
 All
 All
@@ -358,6 +358,7 @@ How
 However,
 How‑to
 Huggingface
+Hybrid
 I
 I
 I
@@ -535,7 +536,6 @@ Qwen-Image
 Qwen3-Embedding-8B
 Qwen3-Reranker-4B
 R&amp;D
-RAG
 RAM
 RTX6000
 RTXA6000
@@ -645,7 +645,6 @@ Trial
 Trial
 Trial
 Tutorial
-Tutorial:
 Up
 Up
 Up
@@ -751,6 +750,7 @@ and
 and
 and
 and
+and
 any
 any
 any
@@ -771,6 +771,7 @@ available
 avoid
 based
 batch
+beat
 become
 before
 best
@@ -785,7 +786,6 @@ brick-complexity-pro
 brick-v1-beta
 budget
 budget
-build
 build,
 builders.
 building.
@@ -835,6 +835,7 @@ cites
 claim
 clearly
 click
+closed
 coding
 cold
 commitment
@@ -915,6 +916,7 @@ dedicated
 dedicated
 deepseek-ocr-2
 default
+default:
 deliver
 demand
 demand
@@ -1094,6 +1096,7 @@ is
 is
 is
 is
+is
 it
 items
 iterate.
@@ -1126,6 +1129,7 @@ list
 listed
 love
 love,
+managed
 maximum
 maximum
 maximum
@@ -1234,6 +1238,7 @@ only
 only
 only
 only
+open
 or
 or
 or
@@ -1357,7 +1362,6 @@ rates
 real
 real
 real‑time,
-reasons
 recognition
 reflect
 reflect
@@ -1373,12 +1377,12 @@ requirements
 requirements.
 researchers,
 reset
-retrieval
 review
 right
 right.
 risk‑free.
 room
+routing
 rules
 run
 runaway
@@ -1396,6 +1400,7 @@ second
 second
 secure,
 see
+self-hosting
 service
 set
 set
@@ -1465,7 +1470,7 @@ that
 that
 that
 that
-that
+the
 the
 the
 the
@@ -1611,6 +1616,7 @@ want
 way.
 we
 weekly,
+weights
 what
 what
 what
@@ -1623,6 +1629,7 @@ whenever
 where
 whichever
 while
+why
 will),
 with
 with

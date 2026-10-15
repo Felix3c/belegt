@@ -22,7 +22,6 @@
 .
 .
 /
-03/2026
 1
 1
 1
@@ -32,7 +31,7 @@
 1.
 1.1
 1.2
-1.3
+1.4
 10.
 10.
 10.1
@@ -40,6 +39,7 @@
 10.3
 10.4
 10.5
+10/2026
 11.
 11.
 11.1.
@@ -51,6 +51,7 @@
 12.3
 12.4
 12.5
+12.6
 14
 14
 2
@@ -202,7 +203,9 @@ Auffassung
 Aufklärung
 Aufsichtsbehörde
 Auftrag
+Auftrag
 Auftrages
+Auftraggeber
 Auftraggeber
 Auftraggeber
 Auftraggeber
@@ -337,6 +340,7 @@ Auftragnehmer
 Auftragnehmer)
 Auftragnehmer,
 Auftragnehmer,
+Auftragnehmer,
 Auftragnehmer.
 Auftragnehmer.
 Auftragnehmers
@@ -446,6 +450,8 @@ Daten
 Daten
 Daten
 Daten
+Daten
+Daten,
 Daten.
 Daten.
 Datenschutz-Grundverordnung
@@ -463,6 +469,7 @@ Dauer
 Dauer
 Dauer
 Dauer
+Der
 Der
 Der
 Der
@@ -786,6 +793,7 @@ Pflichten.
 Pfändung
 Preisliste
 Produkt/e
+Produktverbesserung
 Produktwahl,
 Produktwahl,
 Prüfer
@@ -1024,6 +1032,7 @@ Zusammenhang
 Zusatzleistungen
 Zweck
 Zweck
+Zweck
 Zwecke
 Zwecke
 Zwecke.
@@ -1078,6 +1087,9 @@ angemessenen
 angemessenen
 angemessener
 angesichts
+anonymisieren
+anonymisierten
+anschließend
 anwendbare
 anwendbaren
 anzusehen
@@ -1245,6 +1257,7 @@ dem
 dem
 dem
 dem
+dem
 den
 den
 den
@@ -1296,6 +1309,7 @@ den
 den
 denn,
 denn,
+der
 der
 der
 der
@@ -1548,6 +1562,8 @@ die
 die
 die
 die
+die
+die
 die/das
 diejenigen
 dies
@@ -1706,6 +1722,7 @@ erheben.
 erhoben
 erkennt
 erklärt
+erlaubt
 ermächtigt.
 ermöglicht
 erscheint,
@@ -1822,6 +1839,7 @@ ihm
 ihm
 ihn
 ihrer
+im
 im
 im
 im
@@ -2033,6 +2051,7 @@ organisatorischen
 organisatorischen
 organisatorischen
 passt
+personenbezogene
 personenbezogenen
 personenbezogenen
 personenbezogenen
@@ -2199,6 +2218,7 @@ und
 und
 und
 und
+und
 unmittelbare
 unter
 unter
@@ -2227,6 +2247,7 @@ unwirksam
 verantwortlich
 verarbeiten.
 verarbeiten.
+verarbeitet
 verarbeiteten
 verbietet
 vereinbart
@@ -2248,6 +2269,7 @@ verstößt.
 vertraglich
 vertraglich
 verweist.
+verwenden.
 veröffentlicht.
 vollständig
 vom
@@ -2344,7 +2366,10 @@ wurde.
 wurde.
 wurde.
 wurde.
+wurden,
 wäre)
+zu
+zu
 zu
 zu
 zu
@@ -2370,6 +2395,7 @@ zukommen
 zukommen
 zukommen
 zukommen
+zum
 zum
 zum
 zumutbar

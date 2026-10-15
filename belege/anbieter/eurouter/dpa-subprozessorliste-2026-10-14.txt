@@ -1,0 +1,98 @@
+Quelle: https://eurouter.ai/dpa
+Abruf: 2026-10-14 (urllib, 161736 Bytes, HTML-SHA256 8d627aae0ea336be1e6f6b0c69c254f4370880e23f9d460a247c9d2547f081a3), Textauszug ohne Skripte, Zeilen 136–230 der Textfassung
+
+The Controller is responsible for its own applications, accounts, API keys, end users, provider selections, outputs and data classification decisions.
+EUrouter Provider and Sub-Processor List
+Last updated:
+9 October 2026
+The list below contains the sub-Processors and providers engaged by EUrouter in the performance of its services. For each sub-Processor or provider, the purpose of the processing and the country in which the processing takes place are indicated. For more information on the processing activities and security measures of the individual sub-Processors and provider, please refer to the website of the relevant sub-Processor or provider below. EUrouter reserves the right to amend this list. The Controller will be informed of changes by email.
+For the standard Service, Customer API Data is routed through EU/EEA configurations only. Customers can select or filter AI providers based on data-residency, retention and model-training information shown in the Service and this list.
+Sub-Processors for Customer API Data
+Provider
+Purpose
+Customer API Data
+Location / safeguards
+Scaleway
+Core infrastructure, hosting, compute, databases and networking.
+May process API traffic and API metadata transiently.
+EU/EEA. Compute and storage in Scaleway nl-ams (Amsterdam).
+AI model providers selected or authorised by the customer
+AI model processing, inference, embeddings and related services.
+Yes, only for selected models/routes.
+EU/EEA configurations only. See provider table below.
+Better Stack
+Logs, traces, error tracking and reliability diagnostics.
+No substantive API content intended. May process diagnostic metadata if present in error events.
+EU-hosted data region. Transfers involving Better Stack or its sub-processors are protected by the EU-US Data Privacy Framework or Standard Contractual Clauses where applicable.
+PostHog Cloud EU
+Error tracking and diagnostics.
+No substantive API content intended. May process diagnostic metadata if present in error events.
+EU-hosted (eu.posthog.com / eu.i.posthog.com).
+AI model providers
+The customer authorises an AI provider by selecting, allowing, or configuring the relevant provider, model, route, or fallback setting. The list below is generated from EUrouter’s currently enabled providers and reflects the headquarters, retention and training position recorded for each in the Service.
+Provider
+Purpose
+Approved location / configuration
+Retention / training information
+AKI.IO
+AI model processing
+EU/EEA configurations only (Germany)
+No prompt retention / no training
+AWS Bedrock
+AI model processing
+EU/EEA configurations only (HQ: United States)
+No prompt retention / no training
+GreenPT
+AI model processing
+EU/EEA configurations only (Netherlands)
+No prompt retention / no training
+Inceptron
+AI model processing
+EU/EEA configurations only (Sweden)
+No prompt retention / no training
+Infercom
+AI model processing
+EU/EEA configurations only (Luxembourg)
+No prompt retention / no training
+IONOS Cloud
+AI model processing
+EU/EEA configurations only (Germany)
+No prompt retention / no training
+Lyceum Technology GmbH
+AI model processing
+EU/EEA configurations only (Germany)
+No prompt retention / no training
+Microsoft Foundry
+AI model processing
+EU/EEA configurations only (HQ: United States)
+No prompt retention / no training
+Mistral AI
+AI model processing
+EU/EEA configurations only (France)
+No prompt retention / no training
+Nebius
+AI model processing
+EU/EEA configurations only (Netherlands)
+No prompt retention / no training
+Nebul
+AI model processing
+EU/EEA configurations only (Netherlands)
+No prompt retention / no training
+OVHcloud
+AI model processing
+EU/EEA configurations only (France)
+No prompt retention / no training
+Regolo
+AI model processing
+EU/EEA configurations only (Italy)
+No prompt retention / no training
+Scaleway
+AI model processing
+EU/EEA configurations only (France)
+No prompt retention / no training
+Tensorix
+AI model processing
+EU/EEA configurations only (Ireland)
+No prompt retention / no training
+Controller-data service providers
+The providers below are used primarily for EUrouter controller data, such as account, billing, analytics, website, email, marketing, authentication, business operations or status-page data. They are not used for Customer API Data unless separately stated above or in an updated DPA/list.

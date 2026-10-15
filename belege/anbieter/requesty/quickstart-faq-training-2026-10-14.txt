@@ -1,0 +1,12 @@
+Quelle: https://docs.requesty.ai/quickstart
+Abruf: 2026-10-14 (urllib, 607359 Bytes, HTML-SHA256 8efb3254845c28a9ee169f0824a7f54da33abdecfb9d49459e24146945ce4ce6), Textauszug ohne Skripte, Zeilen 676–684 der Textfassung
+
+you created.
+Is my data used for training?
+No. Requesty is a pass-through gateway and does not train on your requests or responses. Each model’s retention and training policy is shown in the
+Model Library
+, and
+Data Privacy
+covers what Requesty stores.
+Can I keep my data in the EU?
+Yes. Use

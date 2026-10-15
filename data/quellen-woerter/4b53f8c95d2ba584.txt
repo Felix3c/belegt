@@ -37,11 +37,11 @@ API
 API
 API
 API
+APIs
 About
 Act
 Act,
 Afterthought.
-Agentic
 Aligned
 Always
 Anyone
@@ -143,6 +143,7 @@ Generate
 Have
 Home
 How‑to
+Hybrid
 IT02043220603
 Immediate
 In
@@ -221,7 +222,6 @@ Program
 Provider
 Purpose
 Qwen
-RAG
 Read
 Ready
 Ready
@@ -271,7 +271,6 @@ This
 This
 Top
 Tutorial
-Tutorial:
 Typical
 VAT
 View
@@ -350,6 +349,7 @@ and
 and
 and
 and
+and
 any
 any
 any
@@ -374,11 +374,11 @@ audit
 audit
 audit
 back
+beat
 behind
 believe
 beyond
 bolt
-build
 build
 building
 but
@@ -409,6 +409,7 @@ claim
 claim
 claim,
 close
+closed
 coding
 commitment
 communications
@@ -457,6 +458,7 @@ database.
 day
 days
 decision
+default:
 deliberate
 delivering
 delivery.
@@ -557,6 +559,7 @@ is
 is
 is
 is
+is
 issued
 it
 it
@@ -586,6 +589,7 @@ logs
 logs,
 love,
 made
+managed
 management
 management
 management.
@@ -637,6 +641,7 @@ only
 only
 only
 only:
+open
 operates
 operational
 or
@@ -704,7 +709,6 @@ purpose.
 questions
 real
 real
-reasons
 records
 regulation
 regulatory
@@ -731,16 +735,17 @@ retention
 retention
 retention,
 retention,
-retrieval
 reuse
 review
 reviewed
 reviewed
 rights
 rigorous
+routing
 secondary
 security,
 security,
+self-hosting
 server
 serves
 service
@@ -771,8 +776,8 @@ that
 that
 that
 that
-that
 that's
+the
 the
 the
 the
@@ -844,8 +849,10 @@ we
 we
 we
 we
+weights
 what
 where
+why
 with
 with
 with

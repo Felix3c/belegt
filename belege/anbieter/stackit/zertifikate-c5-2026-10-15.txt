@@ -1,0 +1,8 @@
+Quelle: https://stackit.com/en/why-stackit/benefits/certificates
+Abruf: 2026-10-15 (curl, 250510 Bytes, HTML-SHA256 f3c00dcae4593b1219c6eebf4277e25a1133c886e26a10c26bb31b0808b2857c), nur Textstellen mit 'C5'
+
+of data in Germany Processes such as the collection, storage and processing of data in the STACKIT Cloud take place exclusively in our own German data centers. We therefore guarantee the highest security standards and EU data protection regulations. C5 certificate Technical and industrial standards in cloud technology C5 of the BSI, ISAE 3000 (SOC 2) and ISAE 3402 certified The C5 criteria catalog (Cloud Computing Compliance Criteria Catalog) of the German Federal Office for Information Security (
+
+BSI) defines minimum requirements for secure cloud computing. The STACKIT infrastructure is certified according to C5 Type 2 and thus fulfills one of the highest standards in the area of cybersecurity. Thanks to the additional ISAE 3000 certification (SOC 2) and the ISAE 3402 certificate, international compliance and security requirements are also met. The report c
+
+overs the following products and ALL basic and additional criteria. Request certificates: iso@digits.schwarz C5 certified cloud products: STACKIT Compute Engine (inkl. GPU) STACKIT Load Balancer STACKIT Server Update Management STACKIT Network & Security STACKIT Windows Server STACKIT Kubernetes Engine (SKE) STACKIT Red Hat Enterprise Linux STACKIT PostgreSQL

@@ -17,6 +17,9 @@ const ISO42001 = require("./lib/iso42001.js");
 const EO = require("./lib/einordnung.js");
 const Q = require("./lib/quellen.js");
 const QS = require("./lib/quellenstand.js");
+const KS = require("./lib/kaeuferseite.js");
+const DOS = require("./lib/dossier.js");
+const GUIDES = require("./lib/guides.js");
 const eur = P.eur;
 
 const ROOT = __dirname;
@@ -759,7 +762,7 @@ function seiteGuide(g) {
 <nav class="brotkrumen" aria-label="Pfad"><a href="../../">Anbieter</a> / <a href="../">Ratgeber</a> / ${esc(g.titel)}</nav>
 <article class="artikel">
 ${g.html}
-<footer class="dossier-fuss"><p>Stand: August 2026. Keine Rechtsberatung — für verbindliche Auskünfte wenden Sie sich an Fachanwälte oder Ihre Datenschutzbeauftragten.</p></footer>
+<footer class="dossier-fuss"><p>${esc(GUIDES.standText(g))}. Keine Rechtsberatung — für verbindliche Auskünfte wenden Sie sich an Fachanwälte oder Ihre Datenschutzbeauftragten.</p></footer>
 </article>`;
   const jsonld = {
     "@context": "https://schema.org",
@@ -960,15 +963,33 @@ function seiteFuerAnbieter() {
   });
 }
 
-function seiteFuerKaeufer() {
+/** Muster-Dossier für /fuer-kaeufer/ (B2): aus den aktuellen Daten, ohne Auftraggeber. Lässt es sich nicht
+ *  ausstellen (Normenbezugs-Filter), steht die Seite ohne Muster und der Build sagt es laut. */
+function baueMuster(providers) {
+  const id = KS.MUSTER_ANBIETER;
+  try {
+    const d = DOS.erzeugeDossier(id, { datum: BUILD_DATUM, auftraggeber: KS.MUSTER_AUFTRAGGEBER });
+    const datei = KS.musterDatei(id);
+    fs.mkdirSync(path.join(OUT, "fuer-kaeufer"), { recursive: true });
+    fs.writeFileSync(path.join(OUT, "fuer-kaeufer", datei), d.markdown, "utf8");
+    return { name: (providers.find((p) => p.id === id) || {}).name || id, datei, ergebnis: d.ergebnis, datum: BUILD_DATUM };
+  } catch (e) {
+    console.warn(`WARNUNG: Muster-Dossier ${id} nicht ausgestellt, /fuer-kaeufer/ ohne Muster:
+${e.message}`);
+    return null;
+  }
+}
+
+function seiteFuerKaeufer(muster = null) {
   const inhalt = `
 <article class="artikel">
 <h1>Für Käufer: das Anbieter-Dossier</h1>
-<p>Sie müssen einen KI-Anbieter freigeben und brauchen dafür etwas, das Sie unterschreiben können. Alles, was diese Datenbank über den Anbieter weiß, steht kostenlos in seinem Profil. Das Dossier ist dieselbe Information, zusammengestellt, datiert und unterschrieben, damit Sie sie nicht selbst nachbauen müssen.</p>
+<p>Sie müssen einen KI-Anbieter freigeben und brauchen dafür etwas, das Sie unterschreiben können. Alles, was diese Datenbank über den Anbieter weiß, steht kostenlos in seinem Profil. Das Dossier ist dieselbe Information, zusammengestellt, datiert und unterschrieben, damit Sie sie nicht selbst nachbauen müssen. Sie prüfen Anbieter für Dritte, als Datenschutzbeauftragter oder Auditor? <a href="#auditoren">Hier steht, welcher Teil Ihrer Prüfung öffentlich vorab erledigt werden kann</a>, mit Muster.</p>
 <p><strong>Was Sie bekommen, 390 € je Anbieter, ohne Umsatzsteuer (Kleinunternehmer nach § 19 UStG):</strong> ein datiertes Dokument mit jeder Angabe aus dem Profil, je mit Quelle, Prüfdatum, SHA-256 der Quelle und Archivkopie; ausdrücklich den Abschnitt „nicht belegbar“, also was wir trotz Suche nicht gefunden haben; die offenen und ausgeräumten <a href="../faelle/">Fälle</a> mit Verlauf; dazu zwölf Monate Änderungsalarm per Mail, wenn der monatliche Quellenlauf bei diesem Anbieter etwas findet: ein Zertifikat läuft ab, ein Subprozessor kommt dazu, ein Fall wird eröffnet. Lieferung binnen fünf Werktagen, unterschrieben vom Betreiber.</p>
 <p><strong>Was Sie nicht bekommen:</strong> keine Bewertung, keine Empfehlung, kein „geeignet“ oder „ungeeignet“, keine Rechtsberatung. Nichts, was nicht auch im öffentlichen Profil steht oder stehen könnte. Wenn Sie die Stunden selbst haben, brauchen Sie das Dossier nicht.</p>
 <p><strong>Was das für die Datenbank bedeutet:</strong> Das Dossier ist eine Leistung des Betreibers, nicht der Datenbank. Es ändert nichts am Profil des Anbieters, und der Anbieter erfährt nicht, wer ein Dossier bestellt hat. Die Daten bleiben CC BY 4.0. Die Regeln zur Unabhängigkeit stehen in der <a href="../methodik/#unabhaengigkeit">Methodik</a>.</p>
-<p>Bestellung: Mail an <a href="mailto:${SITE.kontakt}?subject=Dossier%20[Anbietername]">${SITE.kontakt}</a>, Betreff „Dossier [Anbietername]“.</p>
+<p>Bestellung: Mail an <a href="mailto:${SITE.kontakt}?subject=Dossier%20[Anbietername]">${SITE.kontakt}</a>, Betreff „Dossier [Anbietername]“. Nennen Sie gern die Prüfpunkte, die für Sie zählen.</p>
+${KS.abschnittAuditoren({ muster })}
 </article>`;
   return layout({
     titel: "Für Käufer: das Anbieter-Dossier | belegbar.eu",
@@ -1653,13 +1674,7 @@ function leseGuides() {
     .readdirSync(GUIDES_DIR)
     .filter((f) => f.endsWith(".html"))
     .sort()
-    .map((f) => {
-      const raw = fs.readFileSync(path.join(GUIDES_DIR, f), "utf8");
-      const m = raw.match(/^<!--META\s*(\{[\s\S]*?\})\s*-->/);
-      if (!m) throw new Error(`Guide ohne META-Kopf: ${f}`);
-      const meta = JSON.parse(m[1]);
-      return { ...meta, html: raw.slice(m[0].length).trim() };
-    });
+    .map((f) => GUIDES.leseGuideText(fs.readFileSync(path.join(GUIDES_DIR, f), "utf8"), f));
 }
 
 /* Der Ledger ist der Kern der lastmod-Korrektheit: Er merkt sich den Inhalts-Hash jeder
@@ -1763,7 +1778,7 @@ function main() {
   // Rohdaten je Fall, wie daten.json je Profil: Zitate, Hashes, Snapshots, Antworten, Verlauf — für alle, die zitieren.
   faelle.forEach((f) => fs.writeFileSync(path.join(OUT, "faelle", f.slug, "daten.json"), JSON.stringify({ ...f, url: `${SITE.baseUrl}/faelle/${f.slug}/`, lizenz: "CC BY 4.0", stand }, null, 2)));
   schreibe("fuer-anbieter/index.html", seiteFuerAnbieter());
-  schreibe("fuer-kaeufer/index.html", seiteFuerKaeufer());
+  schreibe("fuer-kaeufer/index.html", seiteFuerKaeufer(baueMuster(providers)));
   schreibe("aenderungen/index.html", seiteAenderungen(aenderungen, providers, faelle, stand));
   fs.writeFileSync(path.join(OUT, "aenderungen", "feed.xml"), A.atomFeed(aenderungen, { baseUrl: SITE.baseUrl, name: SITE.name, anbieterName: (id) => (providers.find((p) => p.id === id) || {}).name || id, heute: BUILD_DATUM }));
   schreibe("methodik/index.html", seiteMethodik());

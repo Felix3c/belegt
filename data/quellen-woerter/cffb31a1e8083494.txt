@@ -6,7 +6,6 @@
 (Denmark,
 (EU-hosted
 (France,
-(Germany,
 (Google
 (Google
 (Netherlands
@@ -33,7 +32,7 @@
 .
 1
 1.
-1.2
+1.3
 10%
 1053
 1053HM
@@ -44,7 +43,6 @@
 2026
 2026
 24
-25
 3.
 30
 30
@@ -60,6 +58,7 @@
 72
 78H
 78H,
+9
 90
 A
 AI
@@ -103,7 +102,6 @@ App.
 Area
 Article
 Article
-August
 B.V.
 B.V.
 B.V.
@@ -114,11 +112,9 @@ Besides,
 Besides,
 Better
 Better
-Bot
 Brevo
 Budgets
 By
-CaptchaFox
 Chamber
 Chamber
 Children&#x27;s
@@ -162,7 +158,6 @@ Documentation
 During
 EEA,
 EU
-EU):
 EU):
 EU):
 EU):
@@ -211,7 +206,6 @@ GLM-5.2,
 General
 GitHub
 GitHub)
-GmbH
 Google
 Google/GitHub
 HM
@@ -253,7 +247,6 @@ Jobs
 K3
 KVK:
 Kimi
-Labs
 LangChain
 Last
 Lennepstraat
@@ -274,6 +267,7 @@ Netherlands
 Norway,
 Note.
 Observability
+October
 Only
 OpenAI
 OpenAI
@@ -328,7 +322,6 @@ Routing
 SDK
 SDK
 Scaleway
-Scoria
 Services
 Services
 Services
@@ -569,6 +562,7 @@ added
 additional
 address
 address
+address
 address,
 address.
 adequacy
@@ -617,7 +611,6 @@ analytical
 analytics,
 analytics,
 analyze
-and
 and
 and
 and
@@ -821,7 +814,6 @@ authority
 authority
 authorized
 automated
-automated-signup
 availability,
 available
 aware
@@ -880,7 +872,6 @@ browser
 browser
 browser
 browser
-browser
 browser-ID,
 business
 business
@@ -899,7 +890,6 @@ business
 business-related
 business.
 but
-by
 by
 by
 by
@@ -1199,7 +1189,6 @@ details,
 details,
 details.
 details.
-detection
 determine
 determines
 device
@@ -1213,7 +1202,6 @@ diplomas,
 directed
 directly
 directly
-distinguish
 do
 do
 do
@@ -1236,6 +1224,7 @@ each
 effectively
 effortlessly,
 elsewhere.
+email
 email
 email
 email
@@ -1327,7 +1316,6 @@ fraud
 fraud.
 freedoms,
 freedoms,
-from
 from
 from
 from
@@ -1604,7 +1592,6 @@ legitimate
 legitimate
 legitimate
 legitimate
-legitimate
 let
 letters),
 level
@@ -1614,7 +1601,6 @@ like
 like
 like
 likely
-limited
 limited
 link
 list
@@ -1979,6 +1965,7 @@ parties
 parties
 parties,
 password
+password
 payloads,
 payment
 payment
@@ -2067,7 +2054,6 @@ postal
 preferences.
 prepare
 prevent
-prevention.
 pricing
 privacy
 privacy
@@ -2160,6 +2146,7 @@ purposes.
 purposes.
 put
 qualifications,
+rate-limit
 reach
 reactivate
 read
@@ -2179,6 +2166,7 @@ records,
 records,
 records,
 records.
+recovery,
 rectify
 reference,
 references,
@@ -2223,7 +2211,6 @@ reply
 reports.
 represent
 representative
-request
 request
 request
 request
@@ -2354,9 +2341,8 @@ share
 share.
 shared
 sharing
-signals
+sign-in
 signed
-signups
 situation(s)
 situations,
 situations,

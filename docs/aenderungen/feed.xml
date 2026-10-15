@@ -5,8 +5,218 @@
   <id>https://belegbar.eu/aenderungen/</id>
   <link rel="alternate" href="https://belegbar.eu/aenderungen/"/>
   <link rel="self" href="https://belegbar.eu/aenderungen/feed.xml"/>
-  <updated>2026-10-09T00:00:00Z</updated>
+  <updated>2026-10-15T00:00:00Z</updated>
   <rights>CC BY 4.0</rights>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-black-forest-labs-modelle-flux-3-bild</id>
+    <title>Black Forest Labs: Modell FLUX 3 (Bild) – → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-black-forest-labs-modelle-flux-3-bild"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Preis pro Bild nach Auflösung: 0,041 $ (768×768), 0,048 $ (1k), 0,07 $ (1.5k), 0,10 $ (2k), 0,607 $ (4k). Preise am 15.10.2026 aus der öffentlichen Preisdatenbank gelesen, aus der docs.bfl.ai/quick_start/pricing seit Oktober 2026 ihre Tabellen erst im Browser füllt (Sanity-Abfrage *[_type == &quot;pricing&quot;], Werte in Credits, 1 Credit = 0,01 $); Beleg belege/preise/black-forest-labs/2026-10-15-2gpum2i6-api-sanity-io-v2025-02-19-data-query-production.json. Standort laut docs.bfl.ai/api_integration/integration_guidelines (03.10.2026): global api.bfl.ai „routes requests across all available clusters globally“, api.eu.bfl.ai „multi-cluster routing limited to EU regions“, api.us.bfl.ai auf US-Regionen begrenzt; Cloud-Betreiber nicht genannt. · Neue Quelle: https://docs.bfl.ai/quick_start/pricing · Commit 7a1c334: fix: BFL-Preise aus der Sanity-Preisquelle belegt, FLUX 3 Video gesenkt, FLUX 3 Bild neu</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-infomaniak-zertifikate-b-corp-.anwendungsbereich</id>
+    <title>Infomaniak: B Corp: Anwendungsbereich unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-infomaniak-zertifikate-b-corp-.anwendungsbereich"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">B-Lab-Verzeichnis (Abruf 15.10.2026, HTTP 200; am 08.10.2026 noch HTTP 403): 'INFOMANIAK GROUP SA', 'Certified since 2025', 'Version of the Standards 2.2', 'Industry: Data processing &amp; hosting', 'Operates in: Switzerland'. Eine Punktzahl nennt das Profil nicht. B Corp bewertet das Unternehmen als Ganzes, nicht einzelne Dienste. Beleg belege/anbieter/infomaniak/bcorp-profil-2026-10-15.txt. · Alte Quelle: https://www.infomaniak.com/en/certifications · Neue Quelle: https://www.bcorporation.net/en-us/find-a-b-corp/company/infomaniak-group-sa/ · Commit 2596830: fix: Infomaniak B Corp - B-Lab-Verzeichnis jetzt lesbar, Zertifizierer und Geltungsbereich belegt (Beleg + SHA)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-infomaniak-zertifikate-b-corp-.zertifizierer</id>
+    <title>Infomaniak: B Corp: Zertifizierer beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-infomaniak-zertifikate-b-corp-.zertifizierer"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Eintrag im Verzeichnis von B Lab selbst: 'INFOMANIAK GROUP SA - Certified B Corporation - B Lab' (Abruf 15.10.2026; am 08.10.2026 noch HTTP 403). Beleg belege/anbieter/infomaniak/bcorp-profil-2026-10-15.txt. · Alte Quelle: https://www.infomaniak.com/en/certifications · Neue Quelle: https://www.bcorporation.net/en-us/find-a-b-corp/company/infomaniak-group-sa/ · Commit 2596830: fix: Infomaniak B Corp - B-Lab-Verzeichnis jetzt lesbar, Zertifizierer und Geltungsbereich belegt (Beleg + SHA)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-14-black-forest-labs-ai-act-gpai-pflichten-als-modellanbieter-art.-53-ff.</id>
+    <title>Black Forest Labs: AI Act: GPAI-Pflichten als Modellanbieter (Art. 53 ff.) belegt → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-black-forest-labs-ai-act-gpai-pflichten-als-modellanbieter-art.-53-ff."/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <content type="text">Alte Quelle: https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-14-black-forest-labs-ai-act-pflichten-als-anbieter-von-basismodellen-gpai</id>
+    <title>Black Forest Labs: AI Act: Pflichten als Anbieter von Basismodellen (GPAI) – → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-black-forest-labs-ai-act-pflichten-als-anbieter-von-basismodellen-gpai"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <content type="text">Auf der EU-Kommissionsseite als Unterzeichner des General-Purpose AI Code of Practice gelistet (alle Kapitel, ohne Ausnahmen) · Neue Quelle: https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-14-deepl-ai-act-ai-act-spezifische-kundeninformation-art.-50</id>
+    <title>DeepL: AI Act: AI-Act-spezifische Kundeninformation (Art. 50) unbelegt → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-deepl-ai-act-ai-act-spezifische-kundeninformation-art.-50"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <content type="text">Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-14-deepl-ai-act-ai-act-spezifische-kundeninformation-transparenzpflichten</id>
+    <title>DeepL: AI Act: AI-Act-spezifische Kundeninformation (Transparenzpflichten) – → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-deepl-ai-act-ai-act-spezifische-kundeninformation-transparenzpflichten"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <content type="text">Keine dedizierte AI-Act-Infoseite gefunden; für den Finanzsektor existiert eine DORA-Seite (deepl.com/en/dora-info), die DeepL als ICT-Drittdienstleister für 'non-critical functions' einordnet · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-14-deepl-ai-act-gpai-verhaltenskodex-code-of-practice-art.-53-55</id>
+    <title>DeepL: AI Act: GPAI-Verhaltenskodex (Code of Practice, Art. 53/55) unbelegt → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-deepl-ai-act-gpai-verhaltenskodex-code-of-practice-art.-53-55"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <content type="text">Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-14-deepl-ai-act-gpai-verhaltenskodex-code-of-practice</id>
+    <title>DeepL: AI Act: GPAI-Verhaltenskodex (Code of Practice) – → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-deepl-ai-act-gpai-verhaltenskodex-code-of-practice"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <content type="text">Keine öffentliche Aussage zur Unterzeichnung; DeepL taucht in der Signatory-Liste des EU AI Office nicht auf (geprüft 20.08.2026 und 08.10.2026; Liste am 08.10. mit 22 Unterzeichnern, darunter Aleph Alpha, Black Forest Labs, Mistral AI). Ob DeepLs In-house-Modelle als GPAI einzustufen sind, ist offen · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-14-eurouter-ai-act-transparenz--compliance-angaben-zu-den-eu-regeln-f-r-ki</id>
+    <title>EUrouter: AI Act: Transparenz-/Compliance-Angaben zu den EU-Regeln für KI – → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-eurouter-ai-act-transparenz--compliance-angaben-zu-den-eu-regeln-f-r-ki"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <content type="text">Keine Angabe zur eigenen Rolle oder zu eigenen Pflichten. Fundstellen am 05.10.2026: Die Startseite nennt die neuen EU-Regeln für KI als Kaufgrund ('The […] introduces strict requirements for AI systems operating in Europe. Organizations must ensure transparency, accountability, and data governance for any AI they deploy.'), ohne zu sagen, was EUrouter dazu beiträgt; die AGB (Juni 2026, Ziffer 9) verpflichten den Kunden, beim Einsatz des Dienstes die EU-Regeln für KI einzuhalten. Der Slogan 'comply effortlessly' im Seitenfuß nennt kein Gesetz. Archivkopien web.archive.org/web/20261005043115 (Startseite), 20261005043013 (AGB) · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-14-eurouter-ai-act-transparenz--compliance-angaben-zum-eu-ai-act</id>
+    <title>EUrouter: AI Act: Transparenz-/Compliance-Angaben zum EU AI Act unbelegt → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-eurouter-ai-act-transparenz--compliance-angaben-zum-eu-ai-act"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <content type="text">Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-14-gcore-ai-act-gpai-modellanbieter-pflichten-art.-53-ff.</id>
+    <title>Gcore: AI Act: GPAI-Modellanbieter-Pflichten (Art. 53 ff.) unbelegt → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-gcore-ai-act-gpai-modellanbieter-pflichten-art.-53-ff."/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <content type="text">Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-14-gcore-ai-act-gpai-modellanbieter-pflichten</id>
+    <title>Gcore: AI Act: GPAI-Modellanbieter-Pflichten – → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-gcore-ai-act-gpai-modellanbieter-pflichten"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <content type="text">Gcore hostet fremde Open-Source-Modelle als Infrastruktur-Anbieter, tritt nicht als GPAI-Modellanbieter auf; keine eigene AI-Act-Compliance-Dokumentation gefunden · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-14-hetzner-ai-act-art.-53-transparenzdokumentation</id>
+    <title>Hetzner: AI Act: Art.-53-Transparenzdokumentation unbelegt → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-hetzner-ai-act-art.-53-transparenzdokumentation"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <content type="text">Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-14-hetzner-ai-act-transparenzdokumentation-f-r-basismodelle</id>
+    <title>Hetzner: AI Act: Transparenzdokumentation für Basismodelle – → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-hetzner-ai-act-transparenzdokumentation-f-r-basismodelle"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <content type="text">Hetzner serviert ein Fremdmodell (Qwen, Apache 2.0); die Transparenzpflichten für das Modell liegen beim Modellhersteller. Keine eigene Dokumentation dazu gefunden. · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-14-infomaniak-ai-act-gpai-transparenzpflichten-art.-53-ai-act</id>
+    <title>Infomaniak: AI Act: GPAI-Transparenzpflichten (Art. 53 AI Act) unbelegt → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-infomaniak-ai-act-gpai-transparenzpflichten-art.-53-ai-act"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <content type="text">Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-14-infomaniak-ai-act-gpai-transparenzpflichten</id>
+    <title>Infomaniak: AI Act: GPAI-Transparenzpflichten – → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-infomaniak-ai-act-gpai-transparenzpflichten"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <content type="text">Infomaniak sitzt in der Schweiz und bietet die API auch im EU-Markt an. Infomaniak ist reiner Inferenz-Anbieter fremder Open-Source-Modelle, nicht Modellhersteller; keine eigene Selbsteinordnung dazu auffindbar (04.10.2026: weder die Produktseite noch die Bedingungen der LLM API nennen die EU-Regeln für KI; Ziffer 7 der Bedingungen sagt nur, Infomaniak respektiere die Lizenzen der eingesetzten Modelle) · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-14-mistral-ai-act-art.-53-transparenzdokumentation-model-documentation-form-ver-ffentlicht</id>
+    <title>Mistral AI (La Plateforme): AI Act: Art.-53-Transparenzdokumentation (Model Documentation Form) veröffentlicht unbelegt → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-mistral-ai-act-art.-53-transparenzdokumentation-model-documentation-form-ver-ffentlicht"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <content type="text">Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-14-mistral-ai-act-transparenzdokumentation-f-r-basismodelle-model-documentation-form-ver-ffentlicht</id>
+    <title>Mistral AI (La Plateforme): AI Act: Transparenzdokumentation für Basismodelle (Model Documentation Form) veröffentlicht – → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-mistral-ai-act-transparenzdokumentation-f-r-basismodelle-model-documentation-form-ver-ffentlicht"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <content type="text">Als CoP-Signatar verpflichtet, ein konkretes veröffentlichtes Dokument wurde aber nicht gefunden. · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-14-nordference-ai-act-transparenz--compliance-angaben-zu-den-eu-regeln-f-r-ki</id>
+    <title>Nordference: AI Act: Transparenz-/Compliance-Angaben zu den EU-Regeln für KI – → beansprucht</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-nordference-ai-act-transparenz--compliance-angaben-zu-den-eu-regeln-f-r-ki"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <content type="text">Vergleichstabelle auf der Startseite: Zeile zur Bereitschaft für die EU-Regeln für KI ('… Ready') mit Häkchen bei Nordference ('Typical Providers': 'Varies'). Kein Dokument, keine Erklärung, was damit zugesagt ist; die About-Seite kündigt nur künftige Anforderungen dieser Regeln an ('upcoming … requirements'). Bis 03.10.2026 stand hier 'unbelegt, keinerlei Angaben' — das Häkchen steht nicht als Text auf der Seite, sondern entsteht aus der Tabellen-Definition im Skript-Bündel (https://nordference.ai/assets/index-CGzvo87P.js, Archivkopie web.archive.org/web/20261005012917). · Neue Quelle: https://nordference.ai/ · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-14-nordference-ai-act-transparenz--compliance-angaben-zum-eu-ai-act</id>
+    <title>Nordference: AI Act: Transparenz-/Compliance-Angaben zum EU AI Act beansprucht → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-nordference-ai-act-transparenz--compliance-angaben-zum-eu-ai-act"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <content type="text">Alte Quelle: https://nordference.ai/ · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-14-requesty-ai-act-transparenz--compliance-angaben-zu-den-eu-regeln-f-r-ki</id>
+    <title>Requesty: AI Act: Transparenz-/Compliance-Angaben zu den EU-Regeln für KI – → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-requesty-ai-act-transparenz--compliance-angaben-zu-den-eu-regeln-f-r-ki"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <content type="text">Keine AI-Act-Angaben auf Website, Security-Seite oder in den Docs gefunden · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-14-requesty-ai-act-transparenz--compliance-angaben-zum-eu-ai-act</id>
+    <title>Requesty: AI Act: Transparenz-/Compliance-Angaben zum EU AI Act unbelegt → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-requesty-ai-act-transparenz--compliance-angaben-zum-eu-ai-act"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <content type="text">Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-14-stackit-ai-act-art.-53-transparenzdokumentation</id>
+    <title>STACKIT: AI Act: Art.-53-Transparenzdokumentation unbelegt → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-stackit-ai-act-art.-53-transparenzdokumentation"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <content type="text">Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-14-stackit-ai-act-transparenzdokumentation-f-r-basismodelle</id>
+    <title>STACKIT: AI Act: Transparenzdokumentation für Basismodelle – → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-stackit-ai-act-transparenzdokumentation-f-r-basismodelle"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <content type="text">STACKIT betreibt Fremdmodelle; GPAI-Pflichten liegen bei den Modellherstellern. Keine eigene Dokumentation dazu gefunden (Suche 05.10.2026: Produktseite, Zertifikatsseite, Compliance-Seite, AGB-Seite, Leistungsschein). Der Leistungsschein AI Model Serving (Version 1.3) regelt das Thema nur als Sache des Kunden: STACKIT weist zusätzlich darauf hin, dass der Kunde etwaig einschlägige gesetzliche Bestimmungen für vom Kunden erstellte KI-Anwendungen einzuhalten hat. Die Wissensseite stackit.com/en/learn/knowledge/cloud/cloud-ai/ai-act (30.07.2026) ist Werbung ohne Nachweis ('meets all key requirements of the […]') und nennt keine eigene Rolle von STACKIT. Nachsuche 08.10.2026 (Produktseite DE/EN, Zertifikatsseite, AGB-Seite, Leistungsschein 1.4): weiter kein Treffer zum Thema. · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-14-t-systems-ai-act-art.-53-transparenzdokumentation</id>
+    <title>T-Systems / Open Telekom Cloud (AI Foundation Services): AI Act: Art.-53-Transparenzdokumentation unbelegt → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-t-systems-ai-act-art.-53-transparenzdokumentation"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <content type="text">Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-14-t-systems-ai-act-transparenzdokumentation-f-r-basismodelle</id>
+    <title>T-Systems / Open Telekom Cloud (AI Foundation Services): AI Act: Transparenzdokumentation für Basismodelle – → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-t-systems-ai-act-transparenzdokumentation-f-r-basismodelle"/>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <content type="text">Plattform serviert Fremdmodelle; die Transparenzpflichten für die Modelle liegen bei den Herstellern. Keine eigene Dokumentation dazu gefunden. · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-11-ovhcloud-zertifikate-hds-.akkreditiert-dakks</id>
+    <title>OVHcloud (AI Endpoints): HDS: Zertifizierer akkreditiert (DAkkS) unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-11-ovhcloud-zertifikate-hds-.akkreditiert-dakks"/>
+    <updated>2026-10-11T00:00:00Z</updated>
+    <content type="text">Nicht DAkkS, aber akkreditiert durch COFRAC (EA-MLA, gleichwertig anerkannt; eine DAkkS-Akkreditierung ist für HDS nicht vorgesehen): Attestation d'accréditation N° 4-0660 Rev. 4 für 'BYCYB' (Montrouge) nach NF EN ISO/IEC 17021-1:2015, gültig 02/06/2026 bis 31/01/2029, Anhang u. a. 'Certification selon le référentiel Hébergeurs de données de santé HDS' (Référentiel d'accréditation HDS V2, Programme 'Référentiel de certification HDS – Exigences et contrôles V2') und 'ISO/IEC 27001:2022' nach NF EN ISO/IEC 27006-1:2024 (Abruf 11.10.2026, Kopie belege/anbieter/ovhcloud/cofrac-4-0660-bycyb-2026-10-11.txt). Passt zum ANS-Register (OVH GROUPE, V2.0, BYCYB). Dass das OVH-Zertifikat unter genau dieser Akkreditierung ausgestellt ist, lässt sich ohne das Zertifikat nicht prüfen. · Neue Quelle: https://tools.cofrac.fr/annexes/Sect4/4-0660.pdf · Commit b783141: fix: OVH HDS – BYCYB-Akkreditierung bei COFRAC (4-0660, HDS V2) belegt</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-10-ionos-modelle-qwen3.5-9b</id>
+    <title>IONOS (AI Model Hub): Modell Qwen3.5-9B – → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-10-ionos-modelle-qwen3.5-9b"/>
+    <updated>2026-10-10T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://cloud.ionos.de/managed/ai-model-hub · Commit 5a83607: fix: IONOS Modellliste 10.10. — Qwen3.5-9B und Qwen3.8-27B ergänzt, Llama 3.1 8B mit Abschaltdatum 15.10.2026</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-10-ionos-modelle-qwen3.8-27b</id>
+    <title>IONOS (AI Model Hub): Modell Qwen3.8-27B – → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-10-ionos-modelle-qwen3.8-27b"/>
+    <updated>2026-10-10T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://cloud.ionos.de/managed/ai-model-hub · Commit 5a83607: fix: IONOS Modellliste 10.10. — Qwen3.5-9B und Qwen3.8-27B ergänzt, Llama 3.1 8B mit Abschaltdatum 15.10.2026</content>
+  </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-09-black-forest-labs-vertrag.subprozessoren</id>
     <title>Black Forest Labs: Subprozessoren-Liste unbelegt → belegt</title>

@@ -40,7 +40,6 @@
 (embeddings)
 (for
 (the
-(v1.23)
 ,
 .
 .

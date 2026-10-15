@@ -1,9 +1,363 @@
 # belegbar.eu — Nächste Schritte
 
-**Stand:** 2026-10-10, 14:26 (Dauerlauf Laufend: Quellenlauf liest dpa.gov.al, lokal `da6e66b`); davor 2026-10-10, 14:10 (Dauerlauf Laufend: Quellenlauf, 15 veränderte Quellen von Hand gelesen, IAS-Blatt Mistral-Zertifizierer neu, lokal `c474152`, Frage 236); davor 2026-10-10, 11:45 (Dauerlauf E1: Anmerkungen ohne Normenbezug nach 232 a, lokal `fbe8ede`, Dossiers 3 → 10 von 21, Frage 234); davor 2026-10-10, 10:59 (Dauerlauf K7: V5 Abschnitt 2 neu gefasst nach 221 a, nur Entwurf, Frage 233 zu „ein Mensch hat gelesen“); davor 2026-10-10, 10:33 (Dauerlauf K6: Quellenlauf-Kasten V4 gebaut, lokal `f692f6d`, main 18 vor origin, kein Push ohne „steht“); davor 2026-10-10, 09:13 (Dauerlauf K5: Dossier V3 gebaut, lokal `eb7030c`, kein Push nötig); davor 2026-10-10, 08:07 (Dauerlauf R1: Rosenthal-Zitat als „Fachliche Einordnung“ auf Fall 004, lokal `bddccdc`, kein Push bis Frage 231); davor 2026-10-09, 20:55 (Dauerlauf K4b: Strenge-Runde außerhalb der 217-Liste, lokal `f8765e2`, kein Push); davor 19:35 (Dauerlauf K4: Strenge-Runde 217, zehn Einträge auf „beansprucht“, lokal `6cf0a88`, kein Push); davor 18:55 (Dauerlauf K3: TISAX Exoscale/T-Systems auf „beansprucht“, lokal `facf6e5`, kein Push); davor 13:37 real (Dauerlauf Laufend: TISAX-Gültigkeit Exoscale/T-Systems, lokal `2109a6c`, kein Push, Frage 228; davor 13:25 real (Dauerlauf Laufend: T-Systems-Modellstandorte nach Wortlaut 09.10. berichtigt, EUrouter-Website zeigt 0 Modelle, API-Preise stimmen, lokal `bd46fcb`, kein Push); davor 12:50 real (Dauerlauf Laufend: Gcore-Subprozessoren und Lyceum-DPA aus dem Browser belegt, lokal `62c0f69`, kein Push; davor 12:35 Dauerlauf Laufend: Quellenlauf bricht bei unbekanntem Schalter ab, lokal `35e72a6` + `e6b3929`, kein Push; davor 12:20 Dauerlauf Laufend: Dossier-Anzeigefehler Prüfpunkt-Unterfelder behoben, lokal, kein Push; davor 11:53 Dauerlauf Laufend: Einzelprüfung der offenen „verändert“-Quellen, EUrouter-Preise Kimi K2.6/Gemma 4 berichtigt, lokal `179ce37`, kein Push; davor 11:38 Laufend: Quellenlauf 11:35, Top-Modus-Fehler behoben, `--uebernehmen-nur` neu, lokal `3ef1ee3` + `709a961`, kein Push; davor 09:40 V5 Vorschlag „Wer prüft hier, wie“ in `dossiers/VORSCHLAG-WER-PRUEFT-V5.md`, Frage 221, nichts gebaut; davor V4b Quellenlauf, alle 198 Quellen jetzt im Ledger, PDF-Hash ohne Zeitstempel, lokal `75f45ca` + `a940568`, kein Push; davor 09:30 V4 Vorschlag Quellenlauf sichtbar liegt in `dossiers/VORSCHLAG-QUELLENLAUF-V4.md`, Frage 220, nichts gebaut; davor V3 Vorschlag Dossier-Format `dossiers/VORSCHLAG-FORMAT-V3.md`, Frage 219; davor V2 ISO 42001 lokal `92b2325`, kein Push)
+## Neu 15.10.2026 ~16:35: Entscheidungen Felix (Home-Tab)
+
+- Name: bei belegbar.eu bleiben bis zum Kill-Check 09.12. (Attestry/OnRecord nicht weiter verfolgen).
+- Presse-Entwurf an netzpolitik.org (Mistral-Zertifikat) senden nach Prüfschritt, Entwurf an Bitkom löschen (Aufgabe EG4 im Dauerlauf).
+
+## Neu 15.10.2026 ~15:55 (Dauerlauf Laufend): Infomaniak B Corp nachgeprüft, lokal `2596830`
+
+- Das B-Lab-Verzeichnis (bcorporation.net/en-us/find-a-b-corp/company/infomaniak-group-sa/) war am 08.10. HTTP 403, heute mit Browser-Kennung per curl HTTP 200. Es zeigt „INFOMANIAK GROUP SA“, „Certified since 2025“, Standards Version 2.2, Branche „Data processing & hosting“, Schweiz; keine Punktzahl.
+- `data/anbieter/infomaniak.json` B Corp: Zertifizierer B Lab „beansprucht“ → „belegt“ (Register des Ausstellers, wie DQS bei Aleph Alpha); Geltungsbereich „unbelegt“ → „belegt“ (ganzes Unternehmen INFOMANIAK GROUP SA). Beleg `belege/anbieter/infomaniak/bcorp-profil-2026-10-15.txt` + SHA.
+- DQS-Kundendatenbank (Aleph Alpha) heute erneut versucht: weiter Cloudflare-Prüfung (HTTP 403, „Just a moment“), nicht umgangen, Profil unverändert.
+- 188/188 Tests, Build streng ok, Archivcheck 19/13 ok. Kein Push; geht mit `bash dossiers/push-sauber.sh --push` durch Felix mit.
+
+## Neu 15.10.2026 ~15:35 (Dauerlauf Laufend): Fall-Entwurf 005 (Opper) nachgezogen — Widerspruch von Opper selbst weitgehend behoben
+
+- Der Entwurf stand seit 03.10. unverändert, das Profil kannte die Änderung schon seit 08.10. Neu abgerufen 15.10. 13:28 UTC: Die Compliance-Seite (dateModified 2026-10-05; Wayback alt 05.10. 05:41 UTC, neu 08.10. 05:05 UTC) sagt in der Einleitung jetzt „with EU routes on every plan“ statt „EU data residency on every plan“. Beide Behauptungs-Zitate stehen nicht mehr auf der Seite. DPA 2.1 und der FAQ-Satz zum Modellnamen ohne Präfix unverändert.
+- Rest: „EU data residency“ ohne Einschränkung nur noch in der Meta-Beschreibung, „EU residency“ im Schlussaufruf. Das trägt keinen Fall.
+- Verlaufseintrag im Entwurf, Rohkopien `belege/faelle/2026-005/*-2026-10-15.html` + SHA256SUMS. Status unverändert „offen“ (zurückgestellt). **Empfehlung: Fall 005 einstellen** (Frage 340). Opper änderte, ohne informiert zu sein.
+- 188/188 Tests, Build streng ok, Website unverändert. Lokal, kein Push.
+
+## Neu 15.10.2026 ~15:20 (Dauerlauf DT1): DeepL ISO 42001 nachgeprüft, lokal `4cef032`
+
+- trust.deepl.com antwortet mit Browser-Kennung per curl (HTTP 200), ohne sie mit Cloudflare-Prüfung (403). Das Trust Center nennt als „four core compliance programs“ ISO 27001:2022, SOC 2 Type 2, HIPAA, BSI C5:2020 Type 2; „42001“ kommt im ganzen Dokument nicht vor.
+- `data/anbieter/deepl.json` iso_42001: Status bleibt „unbelegt“, Anmerkung berichtigt (nicht mehr „nicht abrufbar“), geprüft 15.10. Beleg `belege/anbieter/deepl/iso42001-trustcenter-2026-10-15.txt` + SHA.
+- 188/188 Tests, Build streng ok. Kein Push; geht mit `bash dossiers/push-sauber.sh --push` durch Felix mit.
+
+## Neu 15.10.2026 ~15:30 (Dauerlauf Laufend): C5-Fassung je Anbieter nachgetragen, lokal `b079284`
+
+- Offener Punkt aus RG2 Teil 3 erledigt: Bei allen sieben Anbietern mit C5-Angabe steht jetzt die Fassung. C5:2020 bei Exoscale, Hetzner, IONOS (stand schon da), neu DeepL (Trust Center, Karte „Compliance Overview“: „BSI C5:2020 Type 2“) und OVHcloud (C5-Seite, FAQ zum SOC-2-Bericht mit C5:2020). STACKIT und T-Systems nennen keine Fassung → „ungeklärt“. Dazu je ein Satz: C5:2026 gilt seit 07.04.2026, Pflicht erst für Prüfungen ab 01.06.2027.
+- Belege mit SHA in `belege/anbieter/{deepl,ovhcloud,stackit,t-systems}/` (Abruf 15.10.2026 per curl). Status bleibt überall „beansprucht“.
+- Nebenbefund: trust.deepl.com war am 15.10. per curl lesbar (HTTP 200, Inhalte als JSON eingebettet); das Profil sagt bei ISO 42001 noch „nicht abrufbar (HTTP 403)“. Nachprüfen, ob das Trust Center ISO 42001 nennt, wäre ein eigener Punkt (nicht gemacht).
+- 188/188 Tests, Build streng ok. Kein Push; geht mit `bash dossiers/push-sauber.sh --push` durch Felix mit.
+
+## Neu 15.10.2026 ~15:10 (Dauerlauf, RG2 Teil 4): Kommunen-Ratgeber nachgeprüft, lokal `d77f854` — damit alle fünf Ratgeber geprüft
+
+- Berichtigt: „KI-Kompetenz-Pflicht (Art. 4)“ → Förderpflicht ohne garantiertes Niveau seit Digital Omnibus (VO (EU) 2026/1744), gleicher Wortlaut wie AI-Act-Ratgeber.
+- Ergänzt: Grundrechte-Folgenabschätzung (Art. 27) für öffentliche Stellen bei Hochrisiko nach Anhang III ab 02.12.2027 (artificialintelligenceact.eu/de/ai-act-explorer/digital-omnibus/, digitalpolicyalert.org/change/333, buzer.de/27_KI-VO.htm, abgerufen 15.10.).
+- Stimmig: BITV 2.0 (letzte Änderung 24.10.2023, BMAS-Änderungsentwurf nicht in Kraft; buzer.de/3_BITV.htm, abgerufen 15.10.), RL 2016/2102, Art. 50, C5/ISO-27001-Hinweis, Vergabe-Hinweis mit SEAL (passt zu Ratgeber 04).
+- `"stand":"15.10.2026"`; 188/188, Build streng ok. Kein Push; alle fünf Ratgeber gehen mit `bash dossiers/push-sauber.sh --push` durch Felix mit.
+
+## Neu 15.10.2026 ~15:20 (Dauerlauf, RG2 Teil 3): Zertifikate-Ratgeber nachgeprüft, lokal `faa465b`
+
+- Berichtigt (1): SEAL heißt „Sovereignty Effectiveness Assurance Level“ und hat die Stufen 0–4, je Souveränitätsziel (vorher „Sovereign European Assurance Level, Stufen 1–4“). Quelle: Cloud Sovereignty Framework der EU-Kommission, Version 1.2.1, Okt. 2025 (PDF-Kopie über ppc.land, sha256 aa5b6ad1…82cc, abgerufen 15.10.).
+- Berichtigt (2): „Cloud-III-Vergabe 2026: OVHcloud, STACKIT, Scaleway SEAL-3“ → Sovereign-Cloud-Ausschreibung, Zuschlag April 2026: STACKIT, Scaleway und Bietergemeinschaft Post Telecom mit OVHcloud + Clever Cloud SEAL-3, Proximus/S3NS SEAL-2 (commission.europa.eu, Meldung 17.04.2026, abgerufen 15.10.).
+- Ergänzt: C5:2026 seit 07.04.2026 (heise 07.04.2026), ersetzt C5:2020, Pflicht für alle C5-Prüfungen ab 01.06.2027, alte Testate bleiben gültig (roedl.com 08.04.2026). Profile nennen „BSI C5“ ohne Fassung; Fassung je Anbieter nachtragen wäre ein eigener Punkt (nicht gemacht).
+- Stimmig: ISO 27001/SOC 2, Aleph Alpha DQS (Profil 08.10.), SecNumCloud, ISO 42001 seit 2023, Lyceum-Transparenz (Profil 09.10.).
+- `"stand":"15.10.2026"`; 188/188, Build streng ok. Kein Push. Offen: 05 (Kommunen).
+
+## Neu 15.10.2026 ~15:05 (Dauerlauf, RG2 Teil 2): CLOUD-Act-Ratgeber nachgeprüft, lokal `6a2e667`
+
+- Berichtigt: „rein europäisches Eigentum“ war zu stark. Jetzt „europäische Mehrheitskontrolle“ mit Zahlen: IONOS United Internet 63,8 % (ionos-group.com, Details zur Aktie, Stand 30.06.2026; Warburg Pincus nicht mehr gelistet, Wellington 3,0 % = US-Fonds im Streubesitz), OVHcloud Familie Klaba 68 → 81 % nach Rückkauf 06.01.2025 (Bredin Prat 16.01.2025; Restanteile KKR/TowerBrook ungeklärt). Satz ergänzt: für den CLOUD Act zählt Kontrolle, nicht einzelne Aktien.
+- Rest geprüft und stimmig: CLOUD Act 2018, Art. 48 DSGVO, Nebius Nasdaq, SecNumCloud. EU-US-Abkommen zum CLOUD Act: kein Abschluss gefunden (ungeklärt, keine 2026-Quelle), daher nichts ergänzt.
+- `"stand":"15.10.2026"`; 188/188, Build streng ok. Kein Push. Offen: 04 (Zertifikate), 05 (Kommunen).
+
+## Neu 15.10.2026 ~14:45 (Dauerlauf, RG2 Teil 1): DSGVO-Ratgeber nachgeprüft, lokal `49f7952`
+
+- Mistral-ZDR stand falsch („nur im Scale-Plan“): jetzt laut unserem Profil nur bezahlte Tarife, nur auf begründeten Antrag (Mistral kann ablehnen), nur zustandslose API-Aufrufe; sonst 30 Tage Missbrauchsüberwachung.
+- Gateway-Beispiel „17 US-Modellanbieter“ auf heutige Requesty-Liste (06.10.2026) gebracht: 41 Modellanbieter, davon 16 reine US-Firmen.
+- Ergänzt: Data Privacy Framework gilt weiter (EuG 03.09.2025, T-553/23 Latombe, Klage abgewiesen; Rechtsmittel beim EuGH seit 31.10.2025 offen; Quellen wilmerhale.com 01.12.2025, dataguidance/secureprivacy, abgerufen 15.10.). Neuer Absatz: DSGVO-Teil des Digital Omnibus nicht beschlossen (Quelle acompli.ie 24.09.2026: erste Lesung, Ratsmandat-Abstimmung abgesagt, kein Trilog).
+- `"stand":"15.10.2026"`; 188/188 Tests, Build streng ok. Kein Push. Offen: Ratgeber 03 (CLOUD Act), 04 (Zertifikate), 05 (Kommunen).
+
+## Neu 15.10.2026 ~14:30 (Dauerlauf Laufend): AI-Act-Ratgeber auf den Digital Omnibus gebracht, lokal
+
+- Alle fünf Ratgeber trugen fest „Stand: August 2026“ und waren seit dem 19.08. unverändert. Der AI-Act-Ratgeber war an zwei Stellen veraltet: KI-Kompetenz (Art. 4) ist seit dem Digital Omnibus (Verordnung (EU) 2026/1744, in Kraft 27.07.2026) nur noch eine Förderpflicht ohne garantiertes Niveau; Hochrisiko gilt jetzt ab 02.12.2027 (Anhang III) bzw. 02.08.2028 (Anhang I) statt „bis 2027“. Art. 50 gilt seit 02.08.2026, Übergang für die maschinenlesbare Kennzeichnung bis 02.12.2026 ergänzt.
+- Quellen (abgerufen 15.10.): artificialintelligenceact.eu/ai-act-explorer/digital-omnibus/ (Wortlaut Art. 4 und Art. 113) und nicfab.eu (Amtsblatt 24.07.2026). EUR-Lex selbst liefert ohne Browser nichts (HTTP 202 leer).
+- Neu: Feld `stand` (TT.MM.JJJJ) im META-Kopf eines Ratgebers; Fußzeile dann „Stand: 15.10.2026 (Rechtsstand geprüft)“, ohne Feld bleibt „Stand: August 2026“ (ehrlich: nicht nachgeprüft). Die anderen vier Ratgeber sind noch nicht nachgeprüft.
+- 188/188 Tests (3 neu, vorher rot), Build streng ok, nur die AI-Act-Seite geändert. Kein Push; geht mit `bash dossiers/push-sauber.sh --push` durch Felix mit.
+
+## Neu 15.10.2026 ~13:50 (Dauerlauf Laufend): Fall-Entwurf 008 (OVHcloud HDS) nachgeprüft, lokal
+
+- Alle vier Quellen neu abgerufen (11:49 UTC): Alle vier Zitate stehen weiter wörtlich da. Die HDS-Produktliste trägt weiter „Last updated: June 2, 2026“, Tabelle textgleich zum 09.10., AI Endpoints weiter nicht darin. Widerspruch unverändert, nur Verlaufseintrag im Entwurf.
+- 185/185 Tests, Build streng ok. Fall bleibt Entwurf; Anbieter informieren und Veröffentlichen erst nach Felix' Entscheidung.
+
+## Neu 15.10.2026 ~11:55 (Dauerlauf): Gespräch 2 bestätigt (Mi 21.10.)
+
+- Die Gegenseite hat den Termin Mi 21.10. 18:00 bestätigt und bittet um eine Video-Einladung (Teams). Kalender eingetragen, Antwort-Entwurf liegt. **Offen nur Felix:** Teams-Link erzeugen, in den Entwurf setzen, senden. Einzelheiten privat (`outreach/gespraeche/PRIVAT-NOTIZEN.md`).
+
+## Neu 15.10.2026 ~11:35 (Dauerlauf Laufend): interne Links der Website sauber
+
+- Gebaute Seite `docs/` geprüft: 134 Seiten, 4110 interne Links und Anker, 0 kaputt. Sitemap (65 Einträge) und `noindex` passen genau zusammen (Vergleichsseiten bewusst noindex außer 9, siehe `build.js`:49). Nichts geändert.
+
+## Neu 15.10.2026 ~05:55 (Dauerlauf Laufend): Kill-Check-Stand nachgezogen (privat)
+
+- Die Kill-Check-Tabelle im privaten Messprotokoll steht jetzt auf 15.10.: 1 von 5 Gesprächen, 0 von 2 Bedingungen, 0 von 1 Pilot, 55 Tage bis Mi 09.12. Ein zweites Gespräch ist angefragt, Termin von der Gegenseite unbestätigt.
+- Engpass ist der Versand: Die am 14.10. freigegebenen Anfragen für die Gespräche 3 bis 5 liegen noch als Entwurf. Der nächste Handgriff liegt bei Felix (senden von hallo@), nicht beim Code.
+
+## Neu 15.10.2026 ~04:50 (Dauerlauf Laufend): Aleph Alpha nachgeprüft, lokal
+
+- Aleph Alpha war das einzige Profil mit Prüfständen vom 08.10. Neu abgerufen 15.10.: Startseite, `aleph-alpha.com/datenschutz/` (regelt weiter nur Website, Newsletter, Bewerbungen; kein Wort zu Pharia/API/Kunden), Produktdoku Pharia-LLM (Wortlaut „No prompt data is stored …“, „We do not log user inputs“, „We do not train on user data“ unverändert; die „Terms and Conditions“ sind weiter nicht verlinkt, der einzige Terms-Link `third-party-model-licensing-terms/` liefert 404), `aleph-alpha.com/trust/` weiter 404, Startseite nennt kein Zertifikat.
+- Cohere-Zusammenschluss: Presse (Stand 15.10.) meldet weiter nur die Vereinbarung vom 16.09., kein Vollzug, Genehmigungen (Kanada, Deutschland/EU) offen. Kurzbeschreibung auf „bis 15.10.2026“ gesetzt.
+- 9 Felder (Backup, Filter je Modell, Zweckbindung, Betroffenenrechte, Log-Zweck) `geprueft` 15.10., Status unverändert, darum kein Änderungsprotokoll.
+- Nicht neu datiert: die drei DQS-Felder (Zertifizierer, Anwendungsbereich, DAkkS) und `iso_42001`. DQS-Kundendatenbank gibt weiter HTTP 403, die Angaben hängen an der Browser-Bestätigung vom 08.10. **Nachtrag ~05:00:** Mit Chrome versucht: Cloudflare verlangt jetzt das Häkchen „Bestätigen Sie, dass Sie ein Mensch sind“ (Ray ID a4ab845e89d9c7df). Das klickt der Dauerlauf nicht weg → Nur Felix (1 Klick, dann Zertifikatsnummer, Gültigkeit, Anwendungsbereich ablesen). aleph-alpha.com selbst nennt kein ISO 27001 (Startseite; /trust/, /security/, /compliance/ = 404). Felder bleiben auf 08.10./14.10.
+- 185/185 Tests, Build streng ok. Kein Push; geht mit `bash dossiers/push-sauber.sh --push` durch Felix mit.
+
+## Neu 15.10.2026 ~04:30 (Dauerlauf Laufend): Spickzettel für Gespräch 2 liegt (privat)
+
+- Für das angefragte Gespräch Mi 21.10. liegt ein Spickzettel im privaten Gesprächsordner (gitignored, Muster Gespräch 1): Vertrauensfrage zuerst (Weg A), Ja/Nein festmachen, zwei Namen. Termin von der Gegenseite noch nicht bestätigt; Tagesprüfung achtet darauf. Einzelheiten nur in `outreach/gespraeche/PRIVAT-NOTIZEN.md`.
+
+## Neu 15.10.2026 ~03:45 (Dauerlauf Laufend): Arbeitskopie push-fertig, Regolo-Quelle wieder da
+
+- `VERBESSERER.md` (interne Dauerlauf-Notiz, verweist auf `~/allein`) steht jetzt in `.gitignore`; vorher blockte sie `dossiers/push-sauber.sh` („Arbeitskopie nicht sauber“). Lokal `811b8e8`.
+- Prüfschritte 1–3 von `push-sauber.sh` von Hand nachgefahren (ohne Fetch/Push): keine privaten Namen im Endstand, kein Entwurfsfall in `docs/faelle`, 185/185 Tests, Build streng ohne Änderungen, Arbeitskopie sauber. 50 lokale Commits über dem zuletzt geholten origin/main. **Felix muss nur noch `bash dossiers/push-sauber.sh --push` tippen** (Opper, BFL, IONOS gehen damit online).
+- `dpa.gov.al/axe-cs007-shkurt-2026/` (Regolo-Akkreditierung, Zeitüberschreitung im Trockenlauf 03:05): wieder erreichbar (301 auf das PDF, erster Abruf 11 s, zweiter 0,8 s), Inhalts-Hash `97e2e17ec76eff46` = Ledger. Unverändert, kein Status anzufassen; die Zeitüberschreitung war ein langsamer Server.
+
+## Neu 15.10.2026 ~03:15 (Dauerlauf Laufend): Quellenlauf liest die BFL-Preisdatenbank mit, lokal
+
+- Problem aus BF1: `docs.bfl.ai/quick_start/pricing` liefert ohne Browser leere Tabellen, eine BFL-Preisänderung hätte der Quellenlauf nie gemeldet.
+- Neu im Profil: Feld `preisdaten` je Modell (alle 7 BFL-Modelle) mit der öffentlichen Sanity-Abfrage. `quelle` bleibt die lesbare Preisseite. Der Quellenlauf sammelt `preisdaten` mit und liest sie nach (nicht nur Erreichbarkeit), `preisarchiv.js` nimmt sie ohne `--url` mit.
+- Die Abfrage hängt die Antwortzeit `"ms"` an (6, 7, … je Abruf). Der Inhalts-Hash lässt bei JSON nur dieses oberste Feld weg, alles andere zählt; JSON ohne `ms` bleibt Byte-Hash wie bisher (alte Ledger-Hashes unverändert).
+- Ledger: nur die neue Quelle eingetragen (Hash `d1ceb21413946b7c` = Beleg von 00:40 ohne `ms`, die Preise stimmen also weiter). Die übrigen 21 Dateien nicht fortgeschrieben.
+- 185/185 Tests (3 neu, 2 davon vorher rot), Build streng ok, Archivcheck 19 ok. Kein Push; geht mit dem nächsten `bash dossiers/push-sauber.sh --push` durch Felix mit.
+- Nebenbefund Trockenlauf 03:05: `dpa.gov.al/axe-cs007-shkurt-2026/` (Regolo-Akkreditierung) lief in die Zeitüberschreitung, um 00:20 noch erreichbar. Bei der nächsten Tagesprüfung nachsehen, erst bei zweitem Ausfall Status anfassen.
+
+## Neu 15.10.2026 ~00:40 (Dauerlauf BF1): BFL-Preise wieder belegt, Videopreise gesenkt, lokal, wartet auf Push durch Felix
+
+- Die Preisseite `docs.bfl.ai/quick_start/pricing` füllt ihre Tabellen jetzt per JavaScript aus einer öffentlichen Sanity-Abfrage (`2gpum2i6.api.sanity.io`, `*[_type == "pricing"]`, Werte in Cent). Diese Abfrage ist ohne Browser lesbar; Beleg mit `node preisarchiv.js black-forest-labs --url <Abfrage>` unter `belege/preise/black-forest-labs/` (Seite + JSON, SHA256SUMS). Kein Chrome nötig.
+- FLUX.2 [pro]/[max]/[flex]/[klein], Kontext [pro]/[max]: Profilpreise stimmen, `geprueft` 15.10.
+- **FLUX 3 (Video) billiger:** jetzt 0,15/0,24/0,28/0,41 $/s (hd/fhd/qhd/uhd), v2v 0,21–0,45 $/s, Draft 0,06 $/s, v2v-Draft nicht mehr genannt (vorher 0,17/0,29/0,40/0,80, v2v 0,41–0,95). Anmerkung berichtigt, alter Stand darin genannt.
+- **Neu im Profil: FLUX 3 (Bild)**, 0,041–0,607 $/Bild je Auflösung (768 bis 4k).
+- Fall 2026-003 nennt keine Preise, also nicht betroffen.
+- 182/182 Tests, Build streng ok, Archivcheck 19 ok. Online nur über `bash dossiers/push-sauber.sh --push` durch Felix (zusammen mit Opper/IONOS).
+- Tipp für den Quellenlauf: Die Preis-URL im Profil liefert jetzt immer leere Tabellen; eine Preisänderung sieht der Lauf dort nicht mehr. Bei der nächsten Tagesprüfung die Sanity-Abfrage mitprüfen.
+
+## Neu 15.10.2026 ~00:45 (Dauerlauf OP1): Opper-Profil berichtigt, lokal, wartet auf Push durch Felix
+
+- `data/anbieter/opper-ai.json`: Backup-Zitat in allen 5 Modellen auf „monthly snapshots for fourteen months“ (mit Hinweis auf den alten Wortlaut „weekly“), `vertrag.log_frist` Wert jetzt „monatliche 14 Monate“ + hochgeladene Dateien bleiben, bis der Kunde sie löscht (Tracing-Regeln gelten für sie nicht, auch nicht 0 Tage), Anmerkung mit Zitat Abschnitt 3. `geprueft` dieser 6 Felder 15.10. Status unverändert, darum kein Eintrag im Änderungsprotokoll.
+- Beleg `belege/anbieter/opper-ai/opper-security-overview-2026-10-15.txt` + `SHA256SUMS`, Archivkopie web.archive.org/web/20261014221545 (enthält den neuen Wortlaut, geprüft).
+- 182/182 Tests, Build streng ok, Archivcheck 19 ok. Online nur über `bash dossiers/push-sauber.sh --push` durch Felix (Frage im Dauerlauf). Der Pilot-Vorrat `dossiers/pilot-vorrat-2026-10-14/opper-ai.md` zitiert noch „weekly“; er ist ein datierter Stand und bleibt so, ein neues Opper-Dossier zieht den neuen Wortlaut.
+
+## Neu 15.10.2026 ~00:20 (Dauerlauf Tagesprüfung): Opper umformuliert, BFL-Preise unlesbar
+
+- 182/182 Tests (`node --test test/*.js`), Build streng ok, Archivcheck 19 ok. Quellenlauf trocken 201/176/24/0. Fälle 003/004 inhaltlich unverändert.
+- **Opper** `opper.ai/security-overview` bei gleichem Datum (2026-10-05) umformuliert: Backups jetzt „monthly snapshots for fourteen months“ (vorher „weekly“), Files „Retention rules do not apply to them at any period, including zero days“. Profilfelder `backup_standort`/`vertrag.log_frist` betroffen → Dauerlauf OP1 (lokal, kein Push). Kopie `~/allein/tmp/tp1015/dl/opsec.html`.
+- **BFL** Preis-Seite zeigt ohne Browser keine Einzelpreise mehr → Dauerlauf BF1 (mit Chrome lesen).
+- Lyceum AGB „October 2026“: zitierte Ziffern 5.2, 15.4, 17.2, 19.1 unverändert.
+
+## Neu 14.10.2026 ~18:15 (Dauerlauf): IONOS-Korrektur freigegeben, Push liegt bei Felix
+
+- Frage 278: Felix sagt ja, die korrigierte IONOS-Angabe (AVV 1.4, Ziffer 12.6) soll online, nur über `bash dossiers/push-sauber.sh --push`. Der Dauerlauf darf nicht ins öffentliche Repo pushen (Rechte-Filter hat den Lauf abgelehnt). Felix pusht. Vorher: Arbeitskopie sauber machen (diese Datei committen; `VERBESSERER.md` ist neu und intern, also gitignoren oder aus dem Ordner nehmen), dann erst `bash dossiers/push-sauber.sh` (nur Prüfung), dann `--push`.
+- Ein Gespräch für den Kill-Check ist angefragt (Termin Mi 21.10.), Einzelheiten privat.
+
+## Neu 14.10.2026 ~12:25 (Dauerlauf Verbesserer): Idee Feed je Anbieter, wartet auf Felix
+
+- Bisher gibt es nur einen Atom-Feed für alle Anbieter. Vorbild UpGuard Trust Center (Abo nur für einen Anbieter, nur wesentliche Änderungen). Vorschlag: `/anbieter/<id>/feed.xml`, gefiltert aus `atomFeed`. Details `VERBESSERER.md`, nichts gebaut.
+
+## Neu 14.10.2026 ~10:25 (Dauerlauf Laufend): Messprotokoll zeigt jetzt den gültigen Kill-Check
+
+- `MESSUNG.md` (privat, gitignored) nannte oben noch die August-Kriterien (Zitat, 500 Besucher, zahlender Anbieter). Jetzt steht oben der Kill-Check vom 09.12. mit Zählstand (Gespräche 1/5, Bedingungen 0/2, Pilot 0/1) und Zwischenzielen je Mittwoch (28.10.: 2 Gespräche + 1 Dossier angeboten, 11.11.: 3, 18.11.: 4, 02.12.: 5, eine Woche Puffer). Zwischenziele sind Vorschlag, nicht abgenommen. Die alten Kriterien stehen darunter als Verlauf.
+
+## Neu 14.10.2026 ~09:50 (Dauerlauf Laufend): Push nur noch über `dossiers/push-sauber.sh`, lokal `d7915dd`
+
+- **Befund:** Diese Datei ist öffentlich, trotzdem standen seit 12.10. wieder Mail-Inhalte Dritter darin (zwei Fachantworten, die BvD-Weiterleitung, Kandidatennamen, Entwurfs-IDs, ein Satz über einen Anwalt, der vertraulich bleiben will). Gleiches Muster wie Frage 222 (09.10.).
+- **Bereinigt:** Die Stellen stehen jetzt in `outreach/gespraeche/PRIVAT-NOTIZEN.md` (gitignored), hier neutrale Zeilen. **Regel: Mail- und Gesprächsinhalte Dritter nur dort, nie hier.**
+- **Push-Falle:** Ein normaler `git push` der jetzt 45 Commits stellt die Zwischenstände mit diesen Inhalten in die öffentliche Historie. Deshalb `bash dossiers/push-sauber.sh` (prüft nur) bzw. `--push`: prüft private Namen, Entwurfsfälle in `docs/faelle`, Tests, Build streng, fasst alles zu **einem** Commit über origin/main zusammen (kein Force-Push), Einzelcommits bleiben lokal im Zweig `sicherung-vor-push-<datum>`. An Wegwerf-Kopien geprobt: ein Commit, Baum gleich lokal, eingefügter Name → Stopp; frische Windows-Kopien melden nach dem Build Schein-Änderungen, das Skript löst sie per `git add -u` auf.
+- **Was online ginge:** `dossiers/PUSH-UEBERSICHT-2026-10-14.md` (privat). → Frage 302.
+- 182/182 Tests, Build streng ok.
+
+
+## Neu 14.10.2026 ~09:25 (Dauerlauf Laufend): Nordference-Widerspruch geklärt, lokal `64c7c0d`
+
+- Skript-Bündel `nordference.ai/assets/index-CGzvo87P.js` neu abgerufen (unverändert derselbe Dateiname): Tabellen-Definition `{featureKey:"comparison.features.euAiAct",nordference:!0,…}` → das Bündel zeichnet für Nordference ein **Häkchen** (Wert `true` wird als Haken-Symbol gerendert). Die `ai_act`-Anmerkung stimmte, die `iso_42001`-Anmerkung („keinen Eintrag“) war falsch.
+- `iso_42001`-Anmerkung berichtigt (Häkchen bei der Bereitschafts-Zeile, keine ISO-42001-Zertifizierung damit behauptet), Status `unbelegt` unverändert. Auszug + SHA in `belege/anbieter/nordference/` (neu).
+- 182/182 Tests, Build streng ok, Dossier Nordference ok, Archivcheck ok. Kein Push.
+
+## Neu 14.10.2026 ~09:30 (Dauerlauf Laufend): Pilot-Vorrat, alle 21 Profile ergeben jetzt ein Dossier, lokal `f8a1f3b`
+
+- **Befund:** Für den Pilot (Kill-Check Kriterium 3: „Ich mache Ihnen für den Anbieter, den Sie gerade prüfen, ein Dossier“) lief `node dossier.js <id>` nur bei 10 von 21 Anbietern. Bei 11 (Black Forest Labs, DeepL, EUrouter, Gcore, Hetzner, Infomaniak, Mistral, Nordference, Requesty, STACKIT, T-Systems) verweigerte der Normenbezugs-Wächter die Ausgabe. Ursache: Artikelnummern und „AI Act“ in unseren eigenen `ai_act[].pflicht`-Bezeichnungen, bei Nordference zusätzlich die Quell-URL `nordference.ai/gdpr`.
+- **Behoben nach Beschluss 18.09.** („beim ersten Dossier für so ein Profil wird genau dieses Profil auf Tatsachen umgeschrieben“): Bezeichnungen ohne Artikelnummer, Muster der sauberen Profile („Transparenzdokumentation für Basismodelle“, „EU-Regeln für KI“). Status, Quellen, Zitate unverändert. Bei Nordference zwei Anmerkungen umformuliert, die den Anbieterwortlaut „EU AI Act Ready“ einbetteten (jetzt „Zeile zur Bereitschaft für die EU-Regeln für KI ('… Ready')“).
+- **Wächter-Fehler behoben:** Ein Feld, das nur aus einer URL besteht, wird nicht mehr geprüft (der Kommentar im Code erlaubte URLs schon, die Prüfung nicht). Zwei neue Tests: URL-Feld bleibt sauber, und **jedes Profil in `data/anbieter/` muss ein Dossier ergeben** (fängt künftige Profile ab).
+- **Vorrat:** `dossiers/pilot-vorrat-2026-10-14/<id>.md` für alle 21 (gitignored, Feld „Für:“ leer). Im Gespräch zusagen, danach mit `node dossier.js <id> --fuer "Name, Funktion, Organisation"` frisch erzeugen.
+- Live-Seite zeigt die neuen Bezeichnungen erst nach dem nächsten Push (kein Push ohne „steht“).
+- **Nebenbefund (ERLEDIGT 14.10. ~09:25, `64c7c0d`, Häkchen steht):** Nordference widerspricht sich im eigenen Profil: Die `iso_42001`-Anmerkung sagt, die Bereitschafts-Zeile habe „für Nordference keinen Eintrag“, die `ai_act`-Anmerkung (05.10., aus dem Skript-Bündel) sagt „mit Häkchen“. Beim nächsten Nordference-Quellenlauf von Hand klären.
+- 182/182 Tests, Build streng ok, Archivcheck 19 ok.
+
+## Neu 14.10.2026 08:48 (Dauerlauf Laufend): Quellenlauf, alle 46 offenen Meldungen gesichtet, lokal `1fa0d9e`
+
+- **Exoscale, echte Preisänderung:** Qwen3-Coder-480B (Dedicated Inference, 4x RTX Pro 6000) jetzt **ab 8,61 €/h statt 15,97 €/h** (= 4 × 2,15 €). Profil nachgezogen; gpt-oss-20b/-120b unverändert (1,34 / 2,15 bzw. 4,55 €/h). Live steht bis zum Push noch 15,97 €.
+- **EUrouter:** Subprozessorliste im DPA jetzt „Stand 9 October 2026“ (weiter 15 AI-Provider, Scaleway, Better Stack, PostHog, Mollie; CaptchaFox entfallen), Datenschutzerklärung Version 1.3 vom 09.10.; alle zitierten Sätze wörtlich unverändert, nur Version/Datum im Profil nachgezogen. Modellpreise (DeepSeek V3.2, Kimi K2.6, Gemma 4, Mistral Large 3) über die offene API unverändert.
+- **Regolo:** Datenschutz Fassung 1.1 vom 07.10. (neu nur Google-Ads-Tracking auf der Website, USA per DPF/SCC); Sätze zu Ein-/Ausgaben unverändert, Anmerkung ergänzt.
+- **Requesty:** Quickstart-FAQ neu: „No. Requesty is a pass-through gateway and does not train on your requests or responses.“, NVIDIA/Poolside-Zusatz weg. Privacy Policy behält weiter „own use of content for training is limited to free plan accounts“. Widerspruch damit schärfer; Nachtrag in `outreach/fall-kandidaten.md`, kein Fall eröffnet.
+- Rest Menüs, Cookie-Banner, Blog-Teaser, Download-Zähler (Aleph Alpha, GreenPT, Infomaniak, Lyceum, Scaleway, Opper, OVH, CSA-Register, T-Systems neue Modelle), bei GreenPT/STACKIT die Zitate maschinell gegengeprüft. Belege `belege/anbieter/{exoscale,eurouter,requesty,regolo}/*-2026-10-14.txt` + SHA256SUMS. 47 Quellen übernommen.
+- **Rauschen, bleibt „verändert“:** esante.gouv.fr HDS-Liste (Zufallswert je Abruf) und opper.ai/models (Preise anderer Modelle ändern sich im Minutentakt; unsere fünf fest).
+- 180/180 Tests, Build streng ok, Archivcheck 19 ok. Kein Push.
+
+## Neu 14.10.2026 06:40 (Dauerlauf): Fall 006 Halbzeit-Nachfassen als Entwurf
+
+- Keine Antwort von T-Systems (Thread `1a116649cb8a70cd`, Suche 8 Tage). Quellen neu abgerufen: Leistungsbeschreibung unverändert v1.24; Trust-Seite und Prefix-Caching-Doku haben die **Versionsnummer der Leistungsbeschreibung gestrichen**, „Not stored“/„never saved“ stehen unverändert → nicht ausgeräumt. Kopien `belege/faelle/2026-006/*-2026-10-14.html`.
+- Gmail-Entwurf `r1029420454938602694` im Thread an ai@t-systems.com liegt, **Felix sendet** (von felix.h.lind@gmail.com). Danach Verlauf im Fall-JSON „Halbzeit-Erinnerung gesendet <Datum UTC>“, lokal committen.
+- Frist Mi 21.10.2026: ohne Antwort Status `bestaetigt`, Fall bleibt bis Felix' „steht“ im Entwurf (kein Push).
+
+## Beschluss 12.10.2026 abends (Felix, Home-Tab): neuer Kill-Check, Weg A
+
+- **Grund:** Der alte Kill-Check (KI zitiert, 500 Besucher/Monat, 1 zahlender Anbieter) mass das Geschaeft vom August. Durch das Schlademann-Gespraech wissen wir: Zahler sind eher Datenschutzbeauftragte und Rechtsabteilungen (40 h pro Pruefung). Kriterien 2 und 3 alt waeren sicher verfehlt, sie messen das Falsche.
+- **Neuer Kill-Check, Frist Mi 09.12.2026:** (1) 5 Gespraeche mit Pruefern, Datenschutzbeauftragten oder Rechtsabteilungen (1 geführt: Schlademann 08.10.); (2) mindestens 2 nennen eine konkrete Bedingung, unter der sie zahlen oder unterschreiben; (3) 1 Pilot: jemand nimmt ein Gratis-Dossier an und nutzt es. Bei 2 von 3 verfehlt: einfrieren. Der Check vom Mi 14.10. entfaellt.
+- **Weg A:** Gespraeche 2 bis 5 drehen sich um die Vertrauensfrage: „Was muesste die Quelle vorweisen (Person, Haftung, Versicherung, Akkreditierung, Verbands-Mitgliedschaft), damit Sie dem Stempel vertrauen und dafuer zahlen?“ Der Dauerlauf sucht die Gespraechspartner und bereitet vor, Felix fuehrt die Gespraeche.
+- **Rahmen (Felix):** Guard ist die Mission, belegbar.eu ist das Projekt, das Geld bringt. Daneben Souffleur. Der Rest ist Spass.
+
+
+**Stand:** 2026-10-14, ~09:50 (Dauerlauf Laufend: Mail-Inhalte Dritter aus dieser Datei verschoben, Push nur über `dossiers/push-sauber.sh`, lokal `d7915dd`, Frage 302); davor 2026-10-14, ~09:25 (Dauerlauf Laufend: Nordference-Widerspruch geklärt, lokal `64c7c0d`); davor 2026-10-14, ~09:30 (Dauerlauf Laufend: alle 21 Profile dossierfähig, Wächter-URL-Fehler behoben, lokal `f8a1f3b`); davor 2026-10-14, 08:48 (Dauerlauf Laufend: alle 46 Quellenlauf-Meldungen gesichtet, Exoscale-Preis gesenkt, lokal `1fa0d9e`); davor 2026-10-14, 08:45 (Dauerlauf Laufend: vier vom Quellenlauf gemeldete Quellen von Hand gelesen, OVH SecNumCloud nachgezogen, lokal `d7d8d78`); davor 2026-10-14, 07:50 (Dauerlauf J12: Reichweite-Messung als Verlaufswert, alter Kill-Check 14.10. entfällt, nichts verändert); davor 2026-10-12, 03:45 (Fachantwort zur Zertifikats-Grenze, privat, Frage 271); davor 2026-10-11, 19:05 (Felix hat von hallo@ gesendet: GreenPT-Nachfrage, Opper-Dank, BvD-Ausschuss; Dauerlauf schickte Fachfrage an Kekatos/Clone Systems 18:42; Tagesprüfung achtet auf Antworten, Schlademann-Entwurf bleibt bis zu seiner Antwort); davor 2026-10-11, 01:15 (Dauerlauf AF5: OVH HDS, BYCYB bei COFRAC akkreditiert, lokal `b783141`); davor 2026-10-10, 22:10 (Dauerlauf Laufend: IONOS-Log-Frist erneut gesucht, keine öffentliche Zahl, Profil unverändert); davor 2026-10-10, 21:05 (Dauerlauf Laufend: `node messung.js` = Technik-Teil des Kill-Checks als ein Befehl); davor 2026-10-10, 20:46 (Dauerlauf Laufend: `.gitattributes` LF für docs/guides/src/Ledger, lokal `e14a6b8` + `424b75b`); davor 2026-10-10, 20:30 (Dauerlauf Laufend: Merge-Probe der vier Vorschlags-Zweige + CRLF-Fix Ratgeber, lokal `a905939`); davor 2026-10-10, 20:10 (Dauerlauf Laufend: Filter-Lücke HIPAA u. a., Zweig `vorschlag-257` `8b9bb2b`); davor 2026-10-10, 19:55 (Dauerlauf Laufend: Filter-Lücke DORA/NIS 2, Zweig `vorschlag-256` `88e6882`); davor 2026-10-10, 19:00 (Dauerlauf Laufend: Filter-Lücke „AI-Act“ mit Bindestrich, Zweig `vorschlag-234b` `a4fd71b`); davor 2026-10-10, 18:55 (Dauerlauf HV3: Garantie-Vorschlag für den Kill-Check); davor 2026-10-10, 18:32 (Dauerlauf Laufend: Frage 234 a als Zweig `vorschlag-234` `597e3e3`, main unberührt); davor 2026-10-10, 17:40 (Dauerlauf Laufend: IONOS-Modellliste, lokal `5a83607`); davor 2026-10-10, 17:10 (Dauerlauf Laufend: Welle 3 Gesprächskandidaten, Frage 248); davor 2026-10-10, 15:47 (Dauerlauf B4: Vorlage Kill-Check 14.10. in `MESSUNG.md`, Messung 10.10., Vorschlag „nicht einfrieren bis 30.11.“, Frage 244); davor 2026-10-10, 15:55 (Dauerlauf B3: BvD-Nachfassen an Ausschuss Prüfaufgaben als Gmail-Entwurf, Leitfaden-Kernfragen 3/4/5/7 geschärft); davor 2026-10-10, 15:45 (Dauerlauf B2: /fuer-kaeufer/ Abschnitt für Auditoren/DSB + Muster-Dossier IONOS, lokal `dcb6b45`, Frage 242); davor 2026-10-10, 15:40 (Dauerlauf B1: Pilot-Angebot Schlademann als Gmail-Entwurf); davor 2026-10-10, 14:26 (Dauerlauf Laufend: Quellenlauf liest dpa.gov.al, lokal `da6e66b`); davor 2026-10-10, 14:10 (Dauerlauf Laufend: Quellenlauf, 15 veränderte Quellen von Hand gelesen, IAS-Blatt Mistral-Zertifizierer neu, lokal `c474152`, Frage 236); davor 2026-10-10, 11:45 (Dauerlauf E1: Anmerkungen ohne Normenbezug nach 232 a, lokal `fbe8ede`, Dossiers 3 → 10 von 21, Frage 234); davor 2026-10-10, 10:59 (Dauerlauf K7: V5 Abschnitt 2 neu gefasst nach 221 a, nur Entwurf, Frage 233 zu „ein Mensch hat gelesen“); davor 2026-10-10, 10:33 (Dauerlauf K6: Quellenlauf-Kasten V4 gebaut, lokal `f692f6d`, main 18 vor origin, kein Push ohne „steht“); davor 2026-10-10, 09:13 (Dauerlauf K5: Dossier V3 gebaut, lokal `eb7030c`, kein Push nötig); davor 2026-10-10, 08:07 (Dauerlauf R1: Rosenthal-Zitat als „Fachliche Einordnung“ auf Fall 004, lokal `bddccdc`, kein Push bis Frage 231); davor 2026-10-09, 20:55 (Dauerlauf K4b: Strenge-Runde außerhalb der 217-Liste, lokal `f8765e2`, kein Push); davor 19:35 (Dauerlauf K4: Strenge-Runde 217, zehn Einträge auf „beansprucht“, lokal `6cf0a88`, kein Push); davor 18:55 (Dauerlauf K3: TISAX Exoscale/T-Systems auf „beansprucht“, lokal `facf6e5`, kein Push); davor 13:37 real (Dauerlauf Laufend: TISAX-Gültigkeit Exoscale/T-Systems, lokal `2109a6c`, kein Push, Frage 228; davor 13:25 real (Dauerlauf Laufend: T-Systems-Modellstandorte nach Wortlaut 09.10. berichtigt, EUrouter-Website zeigt 0 Modelle, API-Preise stimmen, lokal `bd46fcb`, kein Push); davor 12:50 real (Dauerlauf Laufend: Gcore-Subprozessoren und Lyceum-DPA aus dem Browser belegt, lokal `62c0f69`, kein Push; davor 12:35 Dauerlauf Laufend: Quellenlauf bricht bei unbekanntem Schalter ab, lokal `35e72a6` + `e6b3929`, kein Push; davor 12:20 Dauerlauf Laufend: Dossier-Anzeigefehler Prüfpunkt-Unterfelder behoben, lokal, kein Push; davor 11:53 Dauerlauf Laufend: Einzelprüfung der offenen „verändert“-Quellen, EUrouter-Preise Kimi K2.6/Gemma 4 berichtigt, lokal `179ce37`, kein Push; davor 11:38 Laufend: Quellenlauf 11:35, Top-Modus-Fehler behoben, `--uebernehmen-nur` neu, lokal `3ef1ee3` + `709a961`, kein Push; davor 09:40 V5 Vorschlag „Wer prüft hier, wie“ in `dossiers/VORSCHLAG-WER-PRUEFT-V5.md`, Frage 221, nichts gebaut; davor V4b Quellenlauf, alle 198 Quellen jetzt im Ledger, PDF-Hash ohne Zeitstempel, lokal `75f45ca` + `a940568`, kein Push; davor 09:30 V4 Vorschlag Quellenlauf sichtbar liegt in `dossiers/VORSCHLAG-QUELLENLAUF-V4.md`, Frage 220, nichts gebaut; davor V3 Vorschlag Dossier-Format `dossiers/VORSCHLAG-FORMAT-V3.md`, Frage 219; davor V2 ISO 42001 lokal `92b2325`, kein Push)
 Antwort seit 14.09. live, Status „beantwortet“. LinkedIn: keine Antwort auf Welle 1.) · **16.09. abends (Home-Tab):** Nachfassen an alle vier offenen Welle-1-Kontakte gesendet (`outreach/mails/14-…`), **Perplexity zitiert belegbar.eu (Kriterium 1 erstmals erfüllt, Details MESSUNG.md)**, ChatGPT nicht; Angebots-Entwurf in `ANGEBOT-ENTWURF.md`; **Beschlüsse Felix 21:15 in MESSUNG.md** (B zuerst, GUARD-Wortlaut, kein Einfrieren 14.10.); gebaut und ungetrackt: `dossier.js`, `lib/dossier.js`, `test/dossier.test.js`, `dossiers/BEISPIEL-scaleway-2026-09-16.md`, `ENTWURF-FESTPREIS-ABSATZ.md` (Diff-Plan gegen build.js). **16.09. 21:15: Freigabe erteilt, umgesetzt, LIVE (Commit `e2c64e5`):** /fuer-anbieter/ mit „Eintritt zum Festpreis“ (490 € Aufnahme, 190 € Zusage), neue Seite /fuer-kaeufer/ (Dossier 390 €), Methodik mit Finanzierung Stand 16.09. und Abschnitt „Regeländerungen“; alle Preise ohne USt (§ 19 UStG). Search Console 16.09.: 4 Klicks, 174 Impressionen (28 Tage), 21 Seiten indexiert (24.08.: 0 / 1 / 4). Folgearbeit: Profilfeld für bezahlte Einträge (Entwurf Punkt 10), Dossier-Vorlage, MESSUNG Kriterium 3 auf GUARD-Wortlaut.
 **Führendes Dokument:** `MESSUNG.md` (Kill-Kriterien) · Ziel-Satz in `~/THESE.md`
 **Phase:** live, 4 Fälle, Engpass ist nicht mehr Code, sondern Rücklauf von außen. Erster Anbieter, der eine Korrektur wörtlich ankündigt: Scaleway (14.09.).
+
+
+## Neu 14.10.2026 08:45 (Dauerlauf Laufend): Quellenlauf, vier Quellen von Hand gelesen, lokal `d7d8d78`
+
+- **OVH SecNumCloud-Seite neu gegliedert, inhaltlich geändert:** neu „In September 2026, OVHcloud obtained the SecNumCloud qualification for the SNC Cloud Platform solution.“; die Stelle von 2020 heißt jetzt „Managed VMware vSphere“ statt „VMware on OVHcloud“ (unser altes Zitat stand damit nicht mehr wörtlich da). Anwendungsbereich und Anmerkung im Profil nachgezogen, Status bleibt „beansprucht“, AI Endpoints weiter nicht unter den qualifizierten Angeboten. Textkopie `belege/anbieter/ovhcloud/secnumcloud-seite-2026-10-14.txt` + SHA256SUMS.
+- **Mistral ZDR:** nur der Linktext zur Training-FAQ geändert; die zitierten Sätze („may approve or deny it“, Admin Panel › Vibe › Privacy) stehen wörtlich. Nichts geändert.
+- **Nebius auf OpenRouter:** die Seite sortiert nur ihre Modellliste um. Über die offene API (`/api/v1/models/<id>/endpoints`) geprüft: GLM-5.1 1,40/4,40, gpt-oss-120b 0,15/0,60, Qwen3-235B 0,20/0,60 USD, unverändert.
+- **RvA C096 (Akkreditierung SII):** nur der Stellenzähler „Work at (1)“ → „(0)“, Akkreditierung unverändert gelistet.
+- Diese vier mit `--uebernehmen-nur` als neue Referenz übernommen; 46 weitere „verändert“ bleiben offen (laut Tagesprüfung fast alles Menüs/Preise/Teaser). 180/180 Tests, Build streng ok, Archivcheck 19 ok. Kein Push.
+
+## Neu 14.10.2026 06:55 (Dauerlauf BA1): Gespräche 2 bis 5 vorbereitet, 9 Entwürfe, nichts gesendet
+
+- Blatt `outreach/gespraeche/GESPRAECHE-2-5.md`: 10 Kandidaten (warm zuerst) mit Quelle, Grund und ob sie für den Kill-Check zählen; Fragezettel mit der **Vertrauensfrage zuerst** (bewusste Abweichung von `leitfaden.md`), dann Ja/Nein, Geld, letztes Mal, Pilot-Angebot, zwei Namen; Einstiegssatz je Person.
+- Gmail-Entwürfe (Felix sendet, Absender auf hallo@ umstellen): 9 Anfragen, Namen und Reihenfolge nur im privaten Blatt; zwei davon erst ab Fr 16.10.
+- Empfehlung zuerst: vier Kandidaten laut Blatt → Frage 286. Das Blatt ist per .gitignore privat (Namen, Entwurfs-IDs).
+- **BvD Ausschuss Prüfaufgaben 13.10.:** Bitte an die Mitglieder weitergeleitet (Inhalt privat: `outreach/gespraeche/PRIVAT-NOTIZEN.md`, gitignored); Tagesprüfung achtet auf Antworten.
+
+## Neu 14.10.2026 06:15 (Dauerlauf Tagesprüfung): IONOS-AVV Version 1.4 mit neuer Ziffer 12.6, eine Fachantwort mit Gesprächsangebot
+
+- **IONOS AVV jetzt Version 1.4, Stand 10/2026** (vorher 1.3, 03/2026). Neu Ziffer 12.6 wörtlich: „Der Auftraggeber erlaubt dem Auftragnehmer, personenbezogene Daten, die im Auftrag verarbeitet wurden, zu anonymisieren und die anonymisierten Daten anschließend zum Zweck der Produktverbesserung zu verwenden.“ Textkopie `belege/anbieter/ionos/ionos-avv-v1.4-2026-10-14.txt` + SHA256SUMS.
+- Damit war der Satz im Profil (Zweckbindung) „Weitere Zwecke (… Produktverbesserung …) nennt keines der beiden Dokumente“ falsch. Anmerkung in `data/anbieter/ionos.json` korrigiert (wörtliches Zitat, Version, Abrufdatum; ob 12.6 für den AI Model Hub greift = ungeklärt). **Wert `zweckbindung: true` nicht geändert** → Frage 278 (Wert ändern? IONOS fragen?). Lokal committet, kein Push; live steht bis zum Push der alte, jetzt falsche Satz.
+- **Fachantwort 13.10.** (Forscher, Prüf-Verfahren) mit Angebot eines Gesprächs → warmer Kontakt für Gespräche 2 bis 5, Frage 279 (Inhalt privat: `outreach/gespraeche/PRIVAT-NOTIZEN.md`, gitignored).
+- 180/180 Tests, Archivcheck 19 ok, Build streng ok. Quellenlauf trocken 201: 149 unverändert, **50 verändert** (seit dem letzten Übernehmen am 10.10. aufgelaufen; fast alles Menüs/Preise/Teaser), 0 verschwunden, 1 neu, 1 übersprungen. Von Hand lesen beim nächsten Laufend-Punkt: OVH SecNumCloud-Seite neu gegliedert (`ovhcloud.zertifikate.4.anwendungsbereich`), Mistral-ZDR-Seite (FAQ „opt out of training“ neu), Nebius-Modellpreise. Fallquellen 003 (BFL) und 004 (Scaleway, nur Menüwörter) inhaltlich unverändert.
+
+## Neu 12.10.2026 03:45 (Dauerlauf): Fachantwort zur Zertifikats-Grenze (Common Criteria / ISO 27001)
+
+- Fachantwort eines Forschers auf die Fachfrage vom 11.10. (Inhalt privat: `outreach/gespraeche/PRIVAT-NOTIZEN.md`, gitignored). Nicht zitieren und nicht nennen ohne Zusage; Bitte um Zitiererlaubnis liegt als Gmail-Entwurf → Frage 271.
+- Käufer-Signal: keins (Forscher, kein Auditor).
+
+## Neu 11.10.2026 01:15 (Dauerlauf AF5): OVH HDS, Zertifizierer BYCYB akkreditiert, lokal `b783141`
+
+- COFRAC-Attestation **N° 4-0660 Rev. 4** für BYCYB (Montrouge, SIREN 942788845) nach NF EN ISO/IEC 17021-1:2015, gültig **02.06.2026 bis 31.01.2029**, Anhang: „Certification selon le référentiel Hébergeurs de données de santé HDS“ (Référentiel d'accréditation HDS V2) und ISO/IEC 27001:2022 (https://tools.cofrac.fr/annexes/Sect4/4-0660.pdf, Abruf 11.10. 01:10, PDF-SHA256 `4d33ba25…6e5f`).
+- `ovhcloud.json` HDS → `akkreditiert_dakks`: von „unbelegt“ auf `wert: false, stelle: COFRAC, stelle_ea_mla: true, belegt` (Muster wie Scaleway HDS). Textkopie `belege/anbieter/ovhcloud/cofrac-4-0660-bycyb-2026-10-11.txt` + SHA256SUMS. Wayback-Sicherung lief in einen Timeout, nicht wiederholt.
+- Offen bleibt: ob das OVH-Zertifikat unter genau dieser Akkreditierung ausgestellt ist (Zertifikat nicht öffentlich), und HDS v2018 (Doku) gegen V2.0 (Register).
+- 180/180 Tests, Build streng ok, Archivcheck 19 ok. Kein Push.
+
+## Neu 11.10.2026 01:05 (Dauerlauf AF4): Infomaniak Swiss-Hosting-Label geprüft
+
+- **Was es zusagt:** laut Labelgeberin einen Rechtsstatus, keine Technik: Sitz und Leitung in der Schweiz, Daten/Anwendungen in einem Schweizer Rechenzentrum, Schweizer Recht, kein Zugriff aus dem Ausland (auch nicht über Konzernfirmen); „a promise of a specific legal status – not a technical one“.
+- **Wer vergibt:** die Firma swiss made software, nur an Mitglieder, per Nutzungsbedingungen mit Sanktionen bei Missbrauch; eine Prüfung durch Dritte beschreibt die Seite nicht, Vertragsdokumente „temporarily unavailable“. Keine Akkreditierung.
+- **Führt Infomaniak es öffentlich:** ja, doppelt: Infomaniak-Zertifikatsseite und die Liste „hosting-partner of swiss hosting“ der Labelgeberin (ohne Teil-Vermerk). Status „belegt“ bleibt damit nach Grundsatz 217 stehen (Labelbesitz durch Dritte öffentlich belegt), Anwendungsbereich bleibt „beansprucht“ (kein Label-Dokument mit Umfang).
+- Anmerkungen im Profil ergänzt, Textkopie `belege/anbieter/infomaniak/swissmadesoftware-swiss-hosting-2026-10-11.txt` + SHA256SUMS. 180/180 Tests, Build streng ok, Archivcheck ok, lokal committet. Kein Push.
+
+## Neu 11.10.2026 00:57 (Dauerlauf AF3): EUrouter-Profil nachgezogen, lokal `619eece`
+
+- `api.eurouter.ai/api/v1/models` (ohne Schlüssel, 144 Modelle, Abruf 10.10. 22:55 UTC, Kopie `~/allein/tmp/af3/models.json`, SHA-256 4d500e68…): Claude Sonnet 5.5 2,20/11,00 USD, Haiku 5.5 0,11/0,55 USD, beide auch auf den Modellseiten `/models/claude-sonnet-5-5` und `/claude-haiku-5-5` (die Einzelseiten sind wieder erreichbar, Fund 10.10. „404“ gilt nicht mehr). In der Claude-Sammelanmerkung nachgetragen; dazu: die API führt für alle Claude-Varianten nur „AWS Bedrock“, Microsoft Foundry nicht. Das `standort`-Feld („AWS Bedrock / Microsoft Foundry EU-Regionen“) ist unverändert, siehe Frage unten.
+- **Gemma 4, Währung bleibt ungeklärt:** Die Modellseite zeigt sichtbar $0.10/$0.50 und im Markup `priceCurrency USD`, API und eingebettete Modelldaten sagen `currency EUR`. In der Anmerkung stehen beide Angaben, das Profil sagt weiter USD (sichtbare Anzeige). Klärbar nur über EUrouter selbst (Fachfrage) oder eine Rechnung.
+- Übrige Preise (DeepSeek V3.2, Kimi K2.6, Mistral Large 3, ältere Claude-Varianten) unverändert. 180/180 Tests, Build streng ok. Kein Push.
+
+## Neu 11.10.2026 00:35 (Dauerlauf, Wöchentlich KW 41): Ausbau-Vorschlag
+
+- Frage 260 an Felix: alle 21 Anbieter zur Prüfung ihres Profils einladen (Gmail-Entwürfe, Felix sendet) und je Profil eine Zeile „Zur Prüfung eingeladen am …, Antwort: …“ (lokaler Zweig `profil-einladung`); zielt auf Kriterium 3. Empfehlung: nach dem Kill-Check 14.10.
+
+## Neu 12.10.2026 00:40 (Dauerlauf Tagesprüfung)
+
+- 180/180 Tests, Archivcheck 19 Zitate in 13 Kopien ok, Quellenlauf trocken 201 Quellen: 182 unverändert, 17 verändert, 0 verschwunden, 1 neu, 1 übersprungen. Fallquellen 003 (BFL) und 004 (Scaleway) unverändert. Gmail: keine Antwort von GreenPT, Opper, BvD oder Anbietern.
+- **EUrouter Datenschutzerklärung jetzt Version 1.3 („Last updated: 9 October 2026“)**, vorher 1.2. Die im Profil zitierten Sätze (12 Monate Metadaten, Inhalte standardmäßig nicht gespeichert, 90 Tage Fehlerdaten) stehen wörtlich weiter. Weg ist die Bot-Abwehr CaptchaFox (Scoria Labs GmbH) bei der Anmeldung, neu ist IP/E-Mail-Rate-Limit bei Registrierung und Login. DPA weiter „Last updated: May 2026“, Ziffer 5 (nur EWR) unverändert; der Unterschied auf /dpa ist dieselbe Bot-Abwehr-Zeile. `eurouter.ai/models` zeigt wieder Preise im HTML. Profil nicht geändert; beim nächsten `--uebernehmen` in der log_frist-Anmerkung „Version 1.2, Abruf 08.10.“ auf 1.3 heben.
+- GreenPT: alle Seiten mit neuem Menü (Honey, Shorthand models, Metis); zitierte Sätze (ISO 27001 auf Sustainability, „No persistent storage“, „We never use your conversations…“) unverändert. Sonst Seitenrauschen (Aleph-Alpha Downloadzähler, Opper-Seitenrahmen, Nebius auf OpenRouter, HDS-Liste Token).
+
+## Neu 11.10.2026 00:25 (Dauerlauf Tagesprüfung)
+
+- 180/180 Tests, Archivcheck 19 Zitate in 13 Kopien ok, Quellenlauf trocken 200 Quellen: 187 unverändert, 12 verändert (nur Nebius-Preise auf OpenRouter und Opper-Seitenrahmen), 0 verschwunden. Fallquellen 003/004/006 unverändert. Gmail: keine Antwort von Anbietern. Nichts geändert.
+
+## Neu 10.10.2026 22:10 (Dauerlauf, Laufend): IONOS-Log-Frist weiter nicht belegbar
+
+- Websuche 10.10. 22:10 nach einer Aufbewahrungsfrist für Metadaten/Betriebslogs des AI Model Hub: keine Zahl. Die gefundenen 7/14/30 Tage (Standard 30) gehören zum **IONOS Logging Service** (docs.ionos.com …/logging-service/…/modify-log-retention-policy), einem anderen Produkt, nicht übertragbar. Muster-Dossier bleibt 12/0/3, bis NW2 (ab Fr 16.10.) Llama 3.1 8B austrägt.
+
+## Neu 10.10.2026 21:05 (Dauerlauf, Laufend): Technik-Messung als ein Befehl
+
+- `node messung.js` ruft die zwölf Pfade der Kill-Check-Messung ab (`/` … `/methodik/`, Liste in `lib/technik.js`) und zählt die Sitemap live gegen `docs/sitemap.xml`; gibt eine Zeile für `MESSUNG.md` aus, Exit 1 wenn ein Pfad nicht 200 liefert. Live ≠ Build gilt nicht als Fehler (main liegt vor origin), wird aber benannt.
+- Erster Lauf 10.10. 21:05: „Technik: 12/12 = 200; Sitemap live 65 = Build 65.“ (gleich der Handmessung von heute).
+- 6 Tests (`test/technik.test.js`), zusammen 180/180 grün. Am Di 13.10. (J12): `node messung.js`, `node linkcheck.js`, dann Websuche von Hand. **Gelaufen 14.10. 07:50** (13.10. lief kein Durchlauf): 12/12 = 200, Sitemap 65, 201 Quellen ohne Befund, Websuche 0/5 zum fünften Mal, Marke zum dritten Mal nicht gefunden; Schlademann und T-Systems ohne Antwort. Details `MESSUNG.md` „Messung 14.10.2026“.
+
+## Neu 10.10.2026 20:46 (Dauerlauf, Laufend): Zeilenenden fest auf LF, lokal `e14a6b8` + `424b75b`
+
+- **Befund:** Nach dem Build um 20:27 zeigte `git status` in `~/belegt` 39 Dateien unter `docs/` als geändert, alle bytegleich mit HEAD (md5 geprüft). Ursache: `core.autocrlf=true`, Build schreibt LF. Im frischen Windows-Klon kamen außerdem `src/style.css`/`src/fonts.css` mit CRLF an und wurden so nach `docs/` kopiert (echter Byte-Unterschied zur Seite).
+- **Fix:** `.gitattributes` um `docs/**`, `guides/**`, `src/**` (`text=auto eol=lf`, damit woff2 binär bleibt) und `data/lastmod.json`, `data/quellen-hashes.json` (`text eol=lf`) ergänzt. `belege/** -text` unverändert (Rohkopien bleiben byte-genau). Index war schon LF, Renormalisieren änderte keinen Inhalt; Schriften per md5 gegen HEAD geprüft.
+- **Beweis:** frischer Klon mit `autocrlf=true`, Build streng → `git status` leer (bis auf `package-lock.json` vom Probe-`npm install`), keine Textdatei in `docs/` mit CR; 174/174 Tests (`node --test test/*.js`) in Klon und `~/belegt`. `~/belegt` jetzt 0 Statuszeilen. Damit ist auch der „zweite Riegel“ aus dem Eintrag 20:30 gesetzt.
+- main 21 vor origin. Kein Push (mit dem nächsten Push nach „steht“).
+
+## Neu 10.10.2026 20:30 (Dauerlauf, Laufend): Merge-Probe 234/234b/256/257 + CRLF-Fix Ratgeber, lokal main `a905939`
+
+- **Merge-Probe:** Die vier Zweige sind eine Kette (234 → 234b → 256 → 257). `git merge vorschlag-257` auf das heutige main geht **ohne Konflikt**, 186/186 Tests, Build streng ok, gebaut = eingecheckt. Wer „257 steht“ sagt, bekommt alle vier auf einmal; soll einer davon NICHT rein, geht es nur mit `cherry-pick` der übrigen (dann neu prüfen).
+- **Befund dabei:** In einem frischen Windows-Arbeitsbaum (`core.autocrlf=true`) checkt Git `guides/*.html` mit CRLF aus. Der Build übernahm das `
+` ins HTML, der lastmod-Ledger sah neue Hashes, und alle fünf Ratgeber-Seiten bekamen in der Sitemap „geändert heute“, obwohl sich nichts geändert hatte. In `~/belegt` (LF) trat es nicht auf, bei einem neuen Klon oder Rechner schon.
+- **Fix:** `leseGuides` liest jetzt über `lib/guides.js` (`leseGuideText`, Zeilenenden auf LF), Test `test/guides.test.js` (4 Fälle, zuerst rot). 174/174 Tests auf main. Beweis im frischen CRLF-Baum: Quelle 19 CR, HTML 0 CR, Ratgeber-Datum bleibt 2026-09-16, kein Inhaltsunterschied. Im selben Commit der Build-Nachzug Commit-Link `5a83607` (IONOS). Ausgabe auf LF unverändert, deshalb direkt auf main; **kein Push** (mit dem nächsten Push nach „steht“).
+- Nicht gemacht: `.gitattributes` für `guides/**` (eol=lf) wäre der zweite Riegel, ändert aber Checkout-Verhalten; nur bei Bedarf.
+
+## Neu 10.10.2026 20:10 (Dauerlauf, Laufend): Filter-Lücke HIPAA u. a. geschlossen, Zweig `vorschlag-257` (`8b9bb2b`), nicht in main
+
+- Prüfung: alle 21 Profile feldweise (ohne Zitat-Felder, ohne Web-Adressen) nach Gesetzesnamen außerhalb der bisherigen Liste durchsucht. Treffer nur **HIPAA**: DeepL (Zertifikatstyp „HIPAA“, Anmerkung „HIPAA kennt keine formale Zertifizierung … Nur für US-Gesundheitskontext relevant“ = eigene Einordnung eines Gesetzes, Anwendungsbereich, iso_42001-Anmerkung) und Nebius („Inkl. HIPAA-Mapping“). CLOUD Act, FISA, CCPA usw.: 0 Treffer, vorsorglich im Filter.
+- Fix: `GESETZESKUERZEL` + HIPAA, CCPA, FISA, BSIG, eIDAS, nDSG; Muster + CLOUD Act, ePrivacy, Data Governance Act. DeepL-Typ → „Gesundheitsdaten-Zusage (USA)“, neue Tabelle `ZERT_FRUEHERE_NAMEN` in `lib/aenderungen.js` (wie AI_ACT_FRUEHERE_NAMEN): Änderungsprotokoll ohne Scheinwechsel (geprüft: /aenderungen/ inhaltlich unverändert). Texte nur noch Tatsachen („kein Zertifikat, kein Prüfer und keine Zertifizierungsstelle genannt“).
+- Bewusst nicht im Filter: KRITIS (Hetzner „KRITIS-Nachweis“, Nachweis wie C5), PCI DSS, SOC 2, HDS, SecNumCloud (Standards/Zertifikate).
+- 182/182 Tests, Build streng ok, ausstellbar weiter **20 von 21**. Zweig baut auf `vorschlag-256` auf. **Bei „257 steht“:** `git merge vorschlag-257` auf main (enthält 234 a, 234 b, 256), Build, Push zusammen mit 242. Frage 257: Typname so oder anders.
+
+## Neu 10.10.2026 19:55 (Dauerlauf, Laufend): Filter-Lücke DORA/NIS 2 geschlossen, Zweig `vorschlag-256` (`88e6882`), nicht in main
+
+- Prüfung: alle 21 Dossiers erzeugt und nach Gesetzesnamen außerhalb von Web-Adressen durchsucht. DeepL („DORA-Infoseite“, „DORA-Prüfung“), Nebius („Trust Center nennt NIS 2 und DORA“) und Opper (Pflicht „… DORA und NIS2“) liefen durch, weil der Filter DSA/DMA kannte, DORA/NIS 2 aber nicht.
+- Fix: `GESETZESKUERZEL` + DORA, BDSG, TDDDG, TKG; Muster + NIS 2 (ohne Folgeziffer), Data Act, Cyber Resilience Act. Negativtest: Hidora, Pandora, „Data Actions“, „NIS 20“ bleiben sauber. Drei Profile umformuliert („Seite/Prüfung zur digitalen Betriebsstabilität im Finanzsektor“, Opper „Reviews nach EU-Regeln (KI, Finanzsektor, Netzsicherheit)“, im Zitat „[…]“ wie bei 234 b); Opper-Pflicht: beide früheren Namen in `AI_ACT_FRUEHERE_NAMEN` direkt auf den neuen, /aenderungen/ unverändert.
+- Bewusst nicht im Filter: Standardvertragsklauseln, Angemessenheitsbeschluss, SCC (Vertragsinstrumente, Prüfpunkt AVV, keine Einordnung).
+- 178/178 Tests, Build streng ok, ausstellbar weiter **20 von 21**. **Bei „256 steht“:** `git merge vorschlag-256` auf main (enthält 234 a und 234 b), Build, Push zusammen mit 242.
+
+## Neu 10.10.2026 19:00 (Dauerlauf, Laufend): Filter-Lücke „AI-Act“ geschlossen, Zweig `vorschlag-234b` (`a4fd71b`), nicht in main
+
+- Befund: `lib/normenbezug.js` kannte nur „AI Act“ mit Leerzeichen. „AI-Act-…“/„EU-AI-Act-…“ rutschten durch, auch im **Muster-Dossier IONOS** („EU-AI-Act-Rollen- und Transparenzdokumentation“), das mit dem Push nach Frage 242 öffentlich würde.
+- Fix: Muster `AI[\s-]?Act`; Web-Adressen (mit Pfad, Endung aus Buchstaben) werden vor der Prüfung durch Leerzeichen gleicher Länge ersetzt, damit „…/eu-ai-act“ oder „…/gdpr-faq“ als Fundort nicht anschlagen („Art.53/55“ bleibt Treffer, Test). Neun Profile im Stil von 234 a umbenannt (DeepL, Gcore, GreenPT, Infomaniak, IONOS, Opper, OVHcloud, Regolo, Requesty), sechs alte Pflicht-Namen in `AI_ACT_FRUEHERE_NAMEN`, Protokoll ohne Scheinwechsel.
+- 176/176 Tests, Build streng ok, ausstellbar **20 von 21** (nur Nordference, 234 b). Zweig baut auf `vorschlag-234` auf. **Bei „255 steht“:** `git merge vorschlag-234b` auf main (enthält 234 a), Build, dann Push zusammen mit 242.
+
+## Neu 10.10.2026 18:55 (Dauerlauf, HV3 Hormozi): Geschenk steht, Garantie als Frage für 14.10.
+
+- Muster-Dossier IONOS als kostenloses Geschenk gibt es schon (B2, lokal `dcb6b45`, live mit Push nach Frage 242).
+- Garantie-Vorschlag („Findet Ihr Auditor einen Beleg, der am Stichtag nicht sagt, was das Dossier sagt, zahlen Sie nichts“) mit enger Definition in `MESSUNG.md` Abschnitt „Geschenk und Garantie“ → Frage 254, Entscheidung am Kill-Check Mi 14.10.
+
+## Neu 10.10.2026 18:32 (Dauerlauf, Laufend): Frage 234 a fertig auf Zweig `vorschlag-234` (`597e3e3`), nicht in main
+
+- Pflicht-Bezeichnungen im AI-Act-Block ohne Artikelnummer und Gesetzesnamen, elf Profile (BFL, DeepL ×2, EUrouter, Gcore, Hetzner, Infomaniak, Mistral, Nordference, Requesty, STACKIT, T-Systems), z. B. „Art.-53-Transparenzdokumentation“ → „Transparenzdokumentation des Modells“, „Transparenz-/Compliance-Angaben zum EU AI Act“ → „… zur KI-Regulierung der EU“.
+- Änderungsprotokoll: `AI_ACT_FRUEHERE_NAMEN` in `lib/aenderungen.js` ordnet alte Namen den neuen zu; das Umbenennen erzeugt 0 Einträge auf /aenderungen/, ältere Einträge behalten ihren Pfad (Anker und Feed-IDs stabil). 4 neue Tests.
+- Ergebnis: Dossiers ausstellbar 10 → **20 von 21**; Nordference bleibt gesperrt (Anbieter-Claim „EU AI Act Ready“ in der Anmerkung, 234 b).
+- 174/174 Tests, Build streng ok. **Bei „234 a steht“:** `git merge vorschlag-234` auf main, Build, Push nach Felix. Nebenbefund, nicht angefasst: Infomaniak „Öffentliche AI-Act-Compliance-Aussage“ rutscht durch den Filter, weil „AI-Act“ mit Bindestrich nicht als Gesetzeskürzel zählt.
+
+## Neu 10.10.2026 17:40 (Dauerlauf, Laufend): IONOS-Modellliste nachgezogen, lokal `5a83607`
+
+- Anlass: Muster-Dossier IONOS hatte 3 „nicht belegbar“; geprüft, ob eins davon öffentlich zu belegen ist.
+- **Modellliste:** `cloud.ionos.de/managed/ai-model-hub` (abgerufen 10.10.) führt sieben Modelle; Qwen3.5-9B (0,10/0,15 €) und Qwen3.8-27B (0,40/2,70 €) fehlten im Profil, jetzt ergänzt (belegt, Standort Deutschland, Backup/Filter wie die übrigen). **Llama 3.1 8B** steht laut `docs.ionos.com/cloud/ai/ai-model-hub/models` unter „Scheduled for Retirement“ am **15.10.2026**, Alternative Qwen3.5-9B; Anmerkung ergänzt, Status bleibt „unbelegt“ (wie bei Lyceum-Abschaltungen).
+- **Log-Frist:** weiter nicht belegbar, Doku sagt nur „retained only for the period necessary to operate the service reliably“ nach interner Richtlinie, keine Zahl. **Filter:** weiter kein Wort zu Moderation/Guardrails.
+- Muster-Dossier bleibt 12 ja / 0 nein / 3 nicht belegbar, bis Llama 3.1 8B raus ist. **Ab Fr 16.10.:** Modellseite erneut abrufen; ist Llama 3.1 8B unter „Retired“, Eintrag aus `modelle` entfernen (Änderungsprotokoll hält es fest) → Punkt 5 wird „ja“, Muster 13/0/2.
+- 170/170 Tests, Build streng ok. main 8 vor origin. Kein Push.
+
+## Neu 10.10.2026 17:10 (Dauerlauf, Laufend): Welle 3 Gesprächskandidaten (Rückfallebene zu B3)
+
+- `outreach/gespraeche/kandidaten.md` Abschnitt „Welle 3“ (gitignored): 11 externe DSB/Auditoren (Nr. 12–22) aus öffentlichen Quellen, je Beleg mit Titel/Datum und geöffneter Impressums-/Kontaktseite, abgerufen 10.10. Niemand kontaktiert.
+- **Befund:** Keiner prüft öffentlich belegt KI-/Cloud-Anbieter für Mandanten (Passung 3 = 0). Nächste vier Namen nur im privaten Blatt.
+- Bündelorte: DAFTA 11.–13.11. Köln (1.340 € netto), BvD-Herbstkonferenz 14.–15.10. Stuttgart, IDACON 27.–29.10. München. GDD-Erfa NRW Herbst vorbei.
+- Frage 248: Empfehlung a, Entwürfe an 12–14 erst, wenn der BvD-Ausschuss bis Mi 21.10. keine Namen liefert.
+
+## Neu 10.10.2026 15:47 (Dauerlauf, B4): Kill-Check 14.10. vorbereitet
+- `MESSUNG.md` Abschnitt „Vorlage Kill-Check Mi 14.10.2026“ (Datei ist gitignored, nur lokal): Messung 10.10. (Technik 12/12 = 200, Sitemap 65, Linkcheck „Alle Belege tragen“, Websuche 0/5 zum vierten Mal, Marke zum zweiten Mal nicht gefunden), Tabelle K1/K2/K3, ehrliche Lesart, Vorschlag mit Gegenargumenten.
+- K1 erfüllt einmal (Perplexity 16.09.), K2 ohne Login nicht messbar (keine Besucherstatistik auf der Seite) → Search Console = Felix, Erwartung verfehlt; K3 0 €.
+- Vorschlag: nicht einfrieren, neuer Prüftermin Antwort Schlademann bzw. Mo 30.11.2026 (Prüffrage: hat ein Auditor/Käufer ein Dossier bezahlt?). Entscheidung Felix am 14.10. (Frage 244).
+- Felix am 14.10. (~20 min): Search Console 3 Zahlen, 5 Fragen an Perplexity + ChatGPT. Dauerlauf am 13./14.10.: Technik, Linkcheck, Websuche, Gmail (Schlademann, T-Systems Fall 006) wiederholen.
+
+## Neu 10.10.2026 15:55 (Dauerlauf, B3): Gespräche 2–5 über den BvD, ENTWURF liegt
+
+- **Leitfaden** (`outreach/gespraeche/leitfaden.md`): die vier „nicht gefragt“-Punkte aus Gespräch 1 stehen jetzt direkt in den Kernfragen: 3 Wartezeit in Wochen getrennt von Stunden, 4 „Was hätte ein Außenstehender ohne NDA bekommen?“, 5 Seiten/Gliederung/Ja-Nein oben, 7 Geldfrage kurz („in Euro oder in Stunden?“) plus Tagessatz/Pauschale bei Externen.
+- **GESENDET 11.10.2026 von Felix (hallo@)** an den BvD-Ausschuss Prüfaufgaben: Bitte um 3–4 Mitglieder für je 30 Minuten (Inhalt privat: `outreach/gespraeche/PRIVAT-NOTIZEN.md`, gitignored).
+
+## Neu 10.10.2026 15:45 (Dauerlauf, B2): /fuer-kaeufer/ für Auditoren/DSB, lokal `dcb6b45`
+
+- Neuer Abschnitt `#auditoren` aus `lib/kaeuferseite.js` (Tests `test/kaeuferseite.test.js`, 7): anonymer 40-Stunden-Satz (Gespräch 06, ohne Namen), Ergebniszeile ja/nein/nicht belegbar erklärt, Tabelle der 15 Prüfpunkte aus `lib/vorgaben.js` mit Muster-Spalte, die 8 festen Anfragen aus `V.IMMER_ANFRAGEN`; Hinweis oben auf der Seite verlinkt dorthin.
+- **Muster-Dossier IONOS** (`KS.MUSTER_ANBIETER`): `build.js` `baueMuster` erzeugt bei jedem Build `docs/fuer-kaeufer/muster-ionos.md` aus den aktuellen Daten (Datum = Baudatum, Unterschrift leer). Heute 12 ja, 0 nein, 3 nicht belegbar (Standort Llama 3.1 8B, Filter, Log-Frist). Sperrt der Normenbezugs-Filter das Muster einmal, steht die Seite ohne Muster und der Build schreibt eine WARNUNG.
+- Dossier-Fuß: „390 € netto“ → „390 € je Anbieter-Dossier, ohne Umsatzsteuer (Kleinunternehmer)“, passend zur Seite.
+- 170/170 Tests, Build ok. main 1 vor origin. **Push nach Frage 242.**
+
+## Neu 10.10.2026 15:40 (Dauerlauf, B1): Pilot-Angebot an Gesprächspartner 1 liegt als ENTWURF
+
+- **Gmail-Entwurf** liegt, **Felix sendet erst nach dessen Antwort** (nicht nachfassen) (Inhalt privat: `outreach/gespraeche/PRIVAT-NOTIZEN.md`, gitignored).
+- **Kern:** Dossier V3 zum Festpreis laut /fuer-kaeufer/ für einen Anbieter, den der Gesprächspartner gerade prüft; Gegenleistung eine Zahl zur gesparten Zeit, Name nur nach Freigabe.
 
 ## Neu 10.10.2026 14:26 (Dauerlauf, Laufend): dpa.gov.al nachgelesen, lokal `da6e66b`
 
@@ -69,7 +423,7 @@ Antwort seit 14.09. live, Status „beantwortet“. LinkedIn: keine Antwort auf 
 
 - **Auf „beansprucht“** (Bericht/Zertifikat nicht öffentlich, Grund vorne in der Anmerkung): Exoscale ISO 27001, SOC 2, BSI C5, ISO 27017, ISO 27018 (alles nur im Compliance Center des Kontos bzw. unter NDA, Wortlaut der Unterseiten 09.10.); Nebius SOC 2 (Trust Center: NDA nötig); DeepL SOC 2 (aktueller Bericht 2025 zugriffsbeschränkt, öffentlich nur Prüfurteil HKKG 2022/23); STACKIT C5 und SOC 2 (Zertifikatsseite verlinkt nur ISO/BSI-IGZ/CCI); T-Systems C5 und SOC 2 (der verlinkte `TS OTC SOC 3 Report.pdf` ist kennwortgeschützt, Kopie `belege/anbieter/t-systems/`).
 - **Belegt über öffentliche Quelle statt Anbieterseite:** HDS bei Exoscale (ANS-Register: „AKENES 1, 2, 3, 4, 6, sur version V2.0 … Bureau Veritas Certification France“, Akenes SA = Betreiber) und **OVH wieder belegt** („OVH GROUPE 1–6, V2.0, BYCYB“; OVH-Doku nennt noch HDS v2018); Zertifizierer jetzt belegt, Akkreditierung (COFRAC) nicht geprüft. ANS-Seite lädt nur im Browser, Textkopie `belege/anbieter/{exoscale,ovhcloud}/ans-hds-liste-2026-10-09.txt`. Regolo ISO 27017/27018 Quelle → Seeweb-Anhänge (Betreiber, nicht Regolo), Nebius ISO 27018 Quelle → Zertifikat SII-QCD 1125668.
-- Unverändert belegt: Mistral SOC 2 (Prüfer-Bescheinigung öffentlich), alle Einträge mit öffentlichem Zertifikats-PDF. Nicht geprüft: Infomaniak Swiss-Hosting-Label.
+- Unverändert belegt: Mistral SOC 2 (Prüfer-Bescheinigung öffentlich), alle Einträge mit öffentlichem Zertifikats-PDF. Infomaniak Swiss-Hosting-Label am 11.10. nachgeprüft (siehe oben), bleibt belegt.
 - 129/129 Tests, Build streng ok, Archivcheck 19 Zitate ok, lokal `f8765e2`, kein Push (nächster Push nur nach „steht“).
 
 ## Neu 09.10.2026 19:35 (Dauerlauf K4, Frage 217): Strenge-Runde Anbieterangaben

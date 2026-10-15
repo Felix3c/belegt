@@ -175,7 +175,6 @@
 (OVIs),
 (QPU)
 (QPU)
-(SDDC)
 (T1/T2)
 (T1/T2)
 (T3)
@@ -229,6 +228,7 @@
 2012,
 2017,
 2020,
+2026,
 2027
 2027
 27001
@@ -404,6 +404,7 @@ BGP
 BLOCKCHAIN
 BYOL
 BYOL
+BYOL
 Back
 Back
 Back
@@ -436,6 +437,8 @@ Balancer
 Balancer
 Balancer
 Balancer,
+Bare
+Bare
 Bare
 Bare
 Bare
@@ -521,7 +524,6 @@ Catalogue
 Catalogue
 Centralised
 Centrally
-Centre
 Centre
 Certificates
 Certificates
@@ -626,6 +628,9 @@ ClickHouse
 ClickHouse
 ClickHouse
 Close
+Cloud
+Cloud
+Cloud
 Cloud
 Cloud
 Cloud
@@ -835,7 +840,6 @@ Data
 Data
 Data
 Data
-Data
 Databases
 Databases
 Databases
@@ -990,7 +994,6 @@ Europe.
 Europe.
 European
 European
-European
 Everything
 Everything
 Everything
@@ -1102,6 +1105,8 @@ H200
 H200
 HA-NAS
 HA-NAS
+HANA
+HANA
 HANA
 HANA
 HANA
@@ -1236,6 +1241,9 @@ Improve
 In
 In
 In
+In
+Included:
+Included:
 Increase
 Indexing,
 Inference
@@ -1396,6 +1404,8 @@ Managed
 Managed
 Managed
 Managed
+Managed
+Managed
 Managed,
 Management
 Management
@@ -1424,6 +1434,8 @@ Manual
 Marketplace
 Maximum
 Maximum
+Metal
+Metal
 Metal
 Metal
 Metal
@@ -1468,7 +1480,6 @@ NETWORK
 NETWORK
 NETWORK
 NETWORK
-NSX
 NSX-T
 NSX-T
 NVIDIA
@@ -1504,6 +1515,7 @@ Networking
 New
 News
 News
+Next-generation
 No
 No
 No
@@ -1534,6 +1546,7 @@ Nutanix
 Nutanix
 Nutanix,
 Nutanix,
+Nutanix-qualified
 Nvidia
 Nvidia
 Nvidia
@@ -1813,9 +1826,12 @@ Platform
 Platform
 Platform
 Platform
+Platform
+Platform
 Platform,
 Plesk
 Plesk
+Pod
 Pod
 Pod
 Pod
@@ -1862,6 +1878,7 @@ Prices
 Prices
 Prices
 Prices
+Private
 Private
 Private
 Private
@@ -2053,6 +2070,8 @@ SAP
 SAP
 SAP
 SAP
+SAP
+SAP
 SAS.
 SDDC
 SDK,
@@ -2074,6 +2093,8 @@ SHAI
 SHAI
 SHAI
 SMEs
+SNC
+SNC
 SNC
 SNC
 SNC
@@ -2113,7 +2134,11 @@ SecNumCloud
 SecNumCloud
 SecNumCloud
 SecNumCloud
+SecNumCloud
+SecNumCloud
+SecNumCloud
 SecNumCloud-certified
+SecNumCloud-qualified
 SecNumCloud-qualified
 SecNumCloud-qualified
 SecNumCloud-qualified
@@ -2180,6 +2205,7 @@ Select
 Select
 Self-Service
 Self-Service
+September
 Server
 Server
 Serverless
@@ -2229,7 +2255,6 @@ Sitemap
 Sketch.
 Sketch.
 Social
-Software-Defined
 Solution
 Solution
 Solutions
@@ -2493,6 +2518,7 @@ Who
 Wholesale
 Wholesale
 Wide
+With
 WordPress
 WordPress
 WordPress
@@ -2543,6 +2569,7 @@ Zone
 [country]
 [country],
 [website]
+a
 a
 a
 a
@@ -2653,6 +2680,7 @@ all
 all
 all
 all
+all
 allocation
 allow
 also
@@ -2699,6 +2727,8 @@ analyse,
 analysis
 analysis
 analysis
+and
+and
 and
 and
 and
@@ -2934,10 +2964,11 @@ authorities,
 authorities,
 authority
 automated
-automated
 automatic
 automatically
+automation.
 availability
+available
 available
 available
 available
@@ -2955,8 +2986,8 @@ batches
 be
 be
 be
-been
 begins
+benefits
 best
 best
 best
@@ -2982,6 +3013,7 @@ business
 business
 business
 business
+by
 by
 by
 by
@@ -3038,6 +3070,7 @@ certifications
 certifications
 certified
 certified
+certified
 certifying
 challenges
 charges
@@ -3078,6 +3111,7 @@ cloud
 cloud-native
 cloud.
 cloud.
+cloud.
 clusters
 code
 code
@@ -3093,6 +3127,7 @@ community
 complete
 complete
 complete
+complete,
 complexity
 complexity
 compliance
@@ -3174,12 +3209,10 @@ custody
 customer
 customer
 customer
-customer
 customers
 customers’
 customers’
 dashboards
-data
 data
 data
 data
@@ -3280,6 +3313,7 @@ e-sports
 e-sports
 economic
 economical,
+efficiency
 efficiently
 efficiently
 effortless
@@ -3299,11 +3333,14 @@ enhanced
 enhanced
 enrich
 ensure
+ensured
 entire
 environment
 environment
+environment
 environment,
 environment,
+environment.
 environmental
 environments
 environments
@@ -3333,7 +3370,6 @@ expertise
 extensions
 extensions
 faster
-features.
 fees
 few
 few
@@ -3421,7 +3457,7 @@ for
 for
 for
 for
-form
+for
 format
 foundation
 foundation
@@ -3442,6 +3478,7 @@ from
 from
 full
 fully
+fully
 future
 gain
 games
@@ -3450,6 +3487,7 @@ games
 gateway
 get
 giving
+giving
 global
 global
 got
@@ -3457,12 +3495,13 @@ graphics
 graphics
 guarantee
 guarantee
+guarantee
 guaranteed
 guide
 guide
 guide
 hardware
-has
+hardware
 has
 have
 heavy
@@ -3471,12 +3510,15 @@ here
 hidden
 high
 high
+high
 high-performance
 high-performance
 highest
 highest
 highest
 highest
+highest
+highly
 highly
 highly
 highly
@@ -3554,6 +3596,9 @@ in
 in
 in
 in
+in
+in
+in
 in-depth
 in-prod
 in-prod
@@ -3561,7 +3606,7 @@ inaccessible
 incident
 incidents
 included
-includes
+industrially
 inference
 inference
 inference
@@ -3569,7 +3614,6 @@ information
 information
 information
 information,
-infrastructure
 infrastructure
 infrastructure
 infrastructure
@@ -3616,7 +3660,6 @@ is
 is
 is
 is
-is
 isolated
 isolated,
 issue.
@@ -3645,8 +3688,10 @@ latency
 launch
 launch
 launching
+legal,
 less
 less
+level
 level
 level
 level
@@ -3700,6 +3745,8 @@ managed
 managed
 managed
 managed
+managed
+managed
 managed,
 managed:
 management
@@ -3735,6 +3782,7 @@ minimal
 minutes.
 mission
 mission.
+mode.
 mode:
 model
 model
@@ -3835,6 +3883,7 @@ object
 obligations
 obtain
 obtained
+obtained
 of
 of
 of
@@ -3876,6 +3925,9 @@ of
 of
 of
 of
+of
+of
+offer
 offerings
 offers
 offers
@@ -3931,7 +3983,6 @@ on
 on
 on
 on
-on
 on-premise
 on-premise
 one
@@ -3945,12 +3996,12 @@ online
 online
 online
 online
-only
 only
 open-source
 open-source
 open-source
 operated,
+operational,
 operators
 operators
 optimise
@@ -4067,6 +4118,7 @@ popular,
 portability
 power
 power
+power
 powerful
 premises
 premises,
@@ -4147,11 +4199,15 @@ public
 public
 public
 public
+public
 published
 purpose
 qualification
 qualification
+qualification
 qualification,
+qualification.
+qualified
 quantum
 quantum
 quantum
@@ -4196,7 +4252,6 @@ region
 region
 region
 regions,
-regulations.
 relating
 relational
 relational
@@ -4257,6 +4312,9 @@ secure
 secure
 secure
 secure
+secure
+secure
+security
 security
 security
 security
@@ -4299,6 +4357,9 @@ servers
 servers
 servers
 servers
+servers
+servers
+servers
 servers,
 service
 service
@@ -4321,6 +4382,7 @@ services
 services
 services,
 services,
+services,
 set
 set
 setup
@@ -4341,6 +4403,7 @@ slowing
 slowing
 smarter
 software
+software
 solution
 solution
 solution
@@ -4349,7 +4412,7 @@ solution
 solution
 solution
 solution,
-solution,
+solution.
 solution.
 solutions
 solutions
@@ -4405,6 +4468,7 @@ standard
 standard
 standard
 standard,
+standards,
 start
 started
 storage
@@ -4425,7 +4489,6 @@ storing,
 storing,
 strategic
 streaming
-subject
 success
 suits
 suits
@@ -4437,6 +4500,7 @@ team)
 team)
 technical
 technical
+technical,
 technology
 terminal
 terminal.
@@ -4449,6 +4513,11 @@ that
 that
 that
 that
+the
+the
+the
+the
+the
 the
 the
 the
@@ -4579,7 +4648,6 @@ to
 to
 to
 to
-to
 today
 today’s
 tomorrow.
@@ -4625,15 +4693,14 @@ uses
 uses
 using
 using
-vCenter,
-vROps
 vRack
 vRack
 vSphere
 vSphere
 vSphere
 vSphere
-vSphere,
+vSphere
+vSphere
 value
 value,
 values,
@@ -4645,6 +4712,7 @@ vault
 verify
 versatility
 versatility
+very
 via
 via
 video
@@ -4702,8 +4770,8 @@ websites
 websites
 websites
 wherever
-which
 will
+with
 with
 with
 with
@@ -4744,6 +4812,7 @@ workloads
 workloads
 workloads
 worrying
+you
 you
 you
 you

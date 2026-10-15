@@ -58,6 +58,7 @@ AI
 AI
 AI
 AI
+AI
 AI,
 AOD
 API
@@ -97,6 +98,7 @@ Boost
 Bounty
 Brand
 Bug
+Build
 CMS
 CO2
 CO2
@@ -149,7 +151,6 @@ Create
 Create
 Create
 Creator
-Créez
 Custom
 DNS
 DV
@@ -179,7 +180,6 @@ Ecology
 Euria,
 Events
 Events,
-Exécutez
 FAQ
 FastAnycast
 Find
@@ -193,7 +193,7 @@ For
 For
 GB
 GPU
-GPU
+GPU-powered
 Geneva
 Genève
 Genève
@@ -213,7 +213,6 @@ Hosting
 Hosting
 Hosting&quot;
 Housing
-IA,
 ICANN
 ICANN
 ICANN,
@@ -345,6 +344,7 @@ Report
 Reserve
 Resources
 Responsibility,
+Run
 SLAs
 SSL
 Sales
@@ -573,7 +573,6 @@ at
 at
 authority
 avec
-avec
 awards
 based
 be
@@ -582,7 +581,6 @@ been
 been
 been
 been
-besoins
 best
 blog
 blog
@@ -595,7 +593,6 @@ business,
 by
 by
 by
-calculs
 can
 center
 center
@@ -646,6 +643,7 @@ competitive
 complete
 compliance
 complying
+computationally
 concerts,
 confidentiality
 confidentiality
@@ -664,7 +662,6 @@ continuously
 continuously.
 control
 cookies
-correspond
 cost
 costs
 costs.
@@ -692,7 +689,6 @@ de
 defines
 defines
 department
-des
 design
 designed
 development
@@ -861,8 +857,9 @@ information
 information
 information,
 infrastructure
+infrastructure
 inscription
-intensifs
+intensive
 interactive
 interests
 international
@@ -891,6 +888,7 @@ its
 its
 its
 its
+jobs
 jobs
 kChat
 kDrive
@@ -930,7 +928,6 @@ login
 loss
 loss,
 low
-l’infrastructure
 machines
 majority
 makes
@@ -950,6 +947,7 @@ measuring
 media
 meet
 meetings
+meets
 method
 micro
 monthly
@@ -966,6 +964,7 @@ myclimate’s
 name
 name
 need
+needs
 new
 news
 newsletter
@@ -1012,6 +1011,7 @@ offset)
 offsets
 on
 on
+on
 ongoing
 online
 online
@@ -1022,10 +1022,10 @@ opinions
 or
 or
 or
+or
 order
 organisations
 origin
-ou
 our
 our
 our
@@ -1081,7 +1081,7 @@ programme
 programme
 projects
 projects
-projets
+projects,
 protecting
 provided
 provides
@@ -1092,7 +1092,6 @@ quality
 quality
 quality
 quality,
-qui
 radio
 receive
 recognised
@@ -1112,7 +1111,7 @@ regulatory
 relating
 relating
 remotely
-rendus
+rendering
 renewable
 report
 represent
@@ -1205,6 +1204,7 @@ sustainable
 synonymous
 system.
 systems
+tasks,
 teams
 terms
 terms
@@ -1221,6 +1221,8 @@ that
 that
 that
 that
+that
+the
 the
 the
 the
@@ -1322,8 +1324,6 @@ values
 via
 view
 view
-vos
-vos
 want
 want
 we
@@ -1395,12 +1395,13 @@ your
 your
 your
 your
+your
+your
 |
 ©2026
 «
 Électricité
 Électricité
-à
 éco21,
 été
 –

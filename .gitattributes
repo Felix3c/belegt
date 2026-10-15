@@ -1,2 +1,10 @@
 # Rohkopien byte-genau halten: SHA256SUMS muss nach jedem Checkout stimmen (Beschluss Felix 03.10.2026)
 belege/** -text
+# Build-Ausgabe und Ratgeber-Quellen immer LF: sonst checkt Windows (autocrlf=true) CRLF aus, der Build
+# schreibt LF, und git status zeigt bytegleiche Dateien als geändert (Befund 10.10.2026, 39 Dateien)
+docs/** text=auto eol=lf
+guides/** text=auto eol=lf
+# Quellen, die der Build bytegenau nach docs/ kopiert, und die Ledger, die Build/Quellenlauf mit LF schreiben
+src/** text=auto eol=lf
+data/lastmod.json text eol=lf
+data/quellen-hashes.json text eol=lf

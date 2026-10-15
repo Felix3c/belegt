@@ -2164,7 +2164,6 @@ Model
 Models
 Models)
 Modify
-Modify
 Modifying
 MongoDB
 MongoDB®
@@ -2266,6 +2265,7 @@ No
 Node.js
 Node.js
 Note
+OCR
 OS
 OS
 OS
@@ -2549,6 +2549,7 @@ Quantum
 Quantum
 Quantum
 Quantum
+Query
 Query
 Query
 Query
@@ -4485,7 +4486,6 @@ container
 container
 container
 container
-container
 containers
 content
 content
@@ -5424,6 +5424,7 @@ models
 models
 models
 models
+models
 models.
 modes
 mongosync
@@ -5794,7 +5795,6 @@ preinstalled
 pricing
 pricing
 pricing
-privacy
 privacy
 privacy
 privacy

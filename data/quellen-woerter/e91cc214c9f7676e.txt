@@ -6,6 +6,7 @@
 &amp;
 &amp;
 &amp;
+(CPU,
 (IP
 (TEM)
 (sorted
@@ -51,6 +52,12 @@
 /
 /
 /
+/
+/
+/
+/
+/
+/
 1
 1,000,000
 1,000,001.
@@ -60,9 +67,11 @@
 24/7
 2400
 27/7
+6
 60
 60
 :
+A
 A
 A
 A
@@ -172,6 +181,7 @@ Blog
 Brand
 Build
 Build
+Builder
 Built
 Built
 By
@@ -197,6 +207,8 @@ Chat
 Chat
 Chat
 Chat
+Chat
+Chat,
 Chat,
 Chat,
 Chat,
@@ -234,6 +246,7 @@ Compute
 Compute
 Compute
 Compute
+Computing
 Computing
 Connectivity
 Console
@@ -371,6 +384,7 @@ Founders
 Free
 Free
 Free
+Free
 French
 From
 Fully
@@ -404,6 +418,7 @@ GPU
 GPU
 GPU
 GPU
+GPU,
 GPUs
 GPUs
 Gaming
@@ -523,6 +538,7 @@ L40S
 L40S-1-48G
 Labs
 Labs
+Labs
 Landing
 Latest
 Leadership
@@ -603,6 +619,7 @@ New
 New
 New
 New
+New
 News
 News
 NoSQL
@@ -667,6 +684,7 @@ Program
 Program
 Program
 Program
+Program
 Protect
 Protect
 Public
@@ -675,6 +693,8 @@ Public
 Purpose
 Push
 Push
+QPU)
+Quantum
 Quantum
 Quantum
 Quantum
@@ -756,6 +776,7 @@ Serverless
 Serverless
 Serverless
 Servers
+Service
 Service
 Service
 Services
@@ -841,6 +862,10 @@ Try
 Try
 Try
 Try
+Try
+Try
+Try
+Unified
 Units
 Universal
 Up
@@ -854,7 +879,9 @@ VPC
 VPCs
 VPN
 VPS
+Validate
 Virtual
+Vision
 Vision
 Vision
 Vision
@@ -903,6 +930,7 @@ a
 a
 a
 a
+accelerate
 access
 account
 accountability
@@ -913,6 +941,7 @@ activity
 address
 address
 ai-PULSE
+algorithms,
 all
 all
 all-in-one
@@ -921,6 +950,9 @@ an
 an
 an
 analytics
+and
+and
+and
 and
 and
 and
@@ -1077,6 +1109,7 @@ by
 by
 cached
 cached
+cached
 call.
 capacity
 case
@@ -1107,6 +1140,7 @@ cloud
 cloud
 cloud
 cloud
+cloud
 cloud.
 cluster
 code
@@ -1114,6 +1148,8 @@ code
 code
 code
 code
+code
+code,
 code,
 code,
 code,
@@ -1182,6 +1218,7 @@ dedicated
 dedicated
 deep
 deepseek-v4-flash-0731
+deepseek-v4.1-flash
 delivery
 delivery
 demanding
@@ -1215,12 +1252,14 @@ emails
 encrypted
 encryption
 energy
+environment
 environmental
 environments.
 establishments
 events
 experience
 experience
+experiments,
 external
 faced
 fast
@@ -1262,11 +1301,13 @@ for
 for
 for
 for
+for
+for
 forecasting
 free
 free
 free
-friction.
+friction
 from
 from
 from
@@ -1282,7 +1323,9 @@ fully
 games
 gemma-4-26b-a4b-it
 generation
+get
 glm-5.2
+glm-5.3
 governments,
 gpt-oss-120b
 great
@@ -1308,6 +1351,7 @@ hosting
 hosting
 hourlyPrice
 huge
+hybrid
 image
 impact
 in
@@ -1369,6 +1413,7 @@ latest
 leaders.
 level
 life
+lightonocr-3-0.8b
 lightweight
 limited
 linkedIn
@@ -1404,6 +1449,12 @@ menu.
 message
 messages
 metal
+million
+million
+million
+million
+million
+million
 million
 million
 million
@@ -1576,6 +1627,7 @@ providers
 public
 purpose-built
 quantum
+quantum
 queue,
 qwen3-235b-a22b-instruct-2507
 qwen3-coder-30b-a3b-instruct
@@ -1588,6 +1640,7 @@ ratio
 raw
 reach
 readiness
+ready
 real-time
 recording
 region
@@ -1817,6 +1870,12 @@ tokens
 tokens
 tokens
 tokens
+tokens
+tokens
+tokens
+tokens
+tokens
+tokens
 tokens.
 tokens.
 tool
@@ -1829,6 +1888,7 @@ transcription.
 transportation,
 tunnels
 type
+unified
 unified
 unifying
 universal
@@ -1902,6 +1962,7 @@ workflows
 workloads
 workloads
 workloads
+workloads
 world&#x27;s
 worldwide,
 x
@@ -1957,12 +2018,16 @@ your
 your
 your
 your
+your
+your
+your
 |
 ©
 €0.003
 €0.08
 €0.10
 €0.10
+€0.12
 €0.12
 €0.15
 €0.15
@@ -1974,6 +2039,7 @@ your
 €0.35
 €0.40
 €0.50
+€0.60
 €0.60
 €0.60
 €0.60
@@ -1989,9 +2055,12 @@ your
 €1.50
 €1.72
 €1.80
+€1.80
+€1.80
 €11,110.57
 €15.22
 €2,481.71
+€2.20
 €2.25
 €21,943.80
 €3.30
@@ -2004,6 +2073,7 @@ your
 €4,99/month
 €4.99/month
 €5,803.50
+€5.50
 €5.50
 €6.68
 €678.90

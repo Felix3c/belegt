@@ -1,7 +1,7 @@
 "use strict";
 const { test } = require("node:test");
 const assert = require("node:assert/strict");
-const { normalisiereText, hashInhalt, hashInhaltAlt, setzeGeprueft, setzeTopGeprueft, ordneLauf } = require("../lib/quellen.js");
+const { normalisiereText, hashInhalt, hashInhaltAlt, setzeGeprueft, setzeTopGeprueft, ordneLauf, sammleUrls } = require("../lib/quellen.js");
 
 test("normalisiereText: Scripts, Styles, Tags und Whitespace fallen weg, sichtbarer Text bleibt", () => {
   const html = `<html><head><style>.a{}</style><script>var n="nonce-123"</script></head>
@@ -285,4 +285,27 @@ test("pruefeAufruf: bekannte Schalter gehen durch, Tippfehler und fehlende Werte
   assert.match(pruefeAufruf(["--uebernehmen-nur"]).fehler, /--uebernehmen-nur/);
   assert.match(pruefeAufruf(["--uebernehmen-nur", "--trocken"]).fehler, /--uebernehmen-nur/);
   assert.match(pruefeAufruf(["--uebernehmen", "--uebernehmen-nur", "https://a.eu/"]).fehler, /zusammen/);
+});
+
+test("hashInhalt: JSON-Preisdatenbank (BFL/Sanity) — die Antwortzeit ms zählt nicht, ein geänderter Preis schon", () => {
+  const antwort = (ms, preis) => Buffer.from(JSON.stringify({ query: "*[_type == \"pricing\"]", result: { pricingCards: [{ apiEndpoint: "/v1/flux-3-image", imageTierRates: { tier1k: preis } }] }, syncTags: ["s1:xwIG8g"], ms }));
+  const a = hashInhalt("application/json; charset=utf-8", antwort(6, 4.8));
+  const b = hashInhalt("application/json; charset=utf-8", antwort(7, 4.8));
+  const c = hashInhalt("application/json; charset=utf-8", antwort(6, 5.2));
+  assert.equal(a, b);
+  assert.notEqual(a, c);
+});
+
+test("hashInhalt: JSON ohne ms und kaputtes JSON bleiben Byte-Hash wie bisher", () => {
+  const roh = Buffer.from('{"a":1}');
+  assert.equal(hashInhalt("application/json", roh), hashInhaltAlt(roh));
+  const kaputt = Buffer.from('{"ms":1');
+  assert.equal(hashInhalt("application/json", kaputt), hashInhaltAlt(kaputt));
+});
+
+test("sammleUrls: Feld preisdaten (maschinenlesbare Preisquelle) wird nachgelesen, nicht nur auf Erreichbarkeit", () => {
+  const bfl = sammleUrls().find((u) => u.url.startsWith("https://2gpum2i6.api.sanity.io/"));
+  assert.ok(bfl, "BFL-Preisdatenbank fehlt im Quellenlauf");
+  assert.equal(bfl.nurErreichbar, false);
+  assert.ok(bfl.felder.every((f) => f.schluessel === "preisdaten" && f.anbieter === "black-forest-labs"));
 });

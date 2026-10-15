@@ -60,6 +60,10 @@
     {
       "datum": "2026-10-03",
       "ereignis": "Compliance-Seite, DPA, Security Overview und Trust Center (Subprozessorenliste) abgerufen (17:20 UTC), Inhalte per SHA-256 gesichert, Compliance-Seite und DPA im Internet Archive gespeichert. Fall als Entwurf vorbereitet, noch nicht veröffentlicht, Anbieter noch nicht informiert."
+    },
+    {
+      "datum": "2026-10-15",
+      "ereignis": "Compliance-Seite und DPA neu abgerufen (13:28 UTC), per SHA-256 gesichert. Opper hat die Compliance-Seite selbst geändert, ohne von diesem Entwurf zu wissen (Anbieter nicht informiert): Die Seite trägt jetzt „dateModified“ 2026-10-05; im Internet Archive steht der alte Wortlaut noch am 05.10. 05:41 UTC, der neue ab 08.10. 05:05 UTC (web.archive.org/web/20261008050530/https://opper.ai/ai-compliance). Die Einleitung lautet jetzt „Opper is your single EU sub-processor for 700+ models, hosted in Stockholm and ISO 27001 certified, with EU routes on every plan and zero data retention when you need it.“ Das unbeschränkte „EU data residency on every plan“ ist damit aus der Einleitung verschwunden; im Abschnitt GDPR heißt es jetzt „EU routes keep inference in Europe end to end on every plan“, die Grafik sagt „Prompts and completions leave the EU only on a route hosted elsewhere, which a bare model name may pick“. Beide Zitate unter „Behauptung“ stehen so nicht mehr auf der Seite. Unverändert: DPA Ziffer 2.1 (weiter „Last updated on: 2026-09-23“) und der FAQ-Satz zum Modellnamen ohne Präfix. Übrig bleibt „EU data residency“ ohne Einschränkung nur noch in der Meta-Beschreibung der Seite und „EU residency“ im Schlussaufruf. Das entspricht weitgehend Auflösung 1; ob der Fall eingestellt wird, entscheidet Felix."
     }
   ]
 }

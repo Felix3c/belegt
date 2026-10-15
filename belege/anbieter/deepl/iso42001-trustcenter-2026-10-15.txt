@@ -1,0 +1,9 @@
+Quelle: https://trust.deepl.com/ (308 -> https://deepl.safebase.us/)
+Abruf: 2026-10-15 13:10 UTC (curl mit Browser-Kennung, HTTP 200, 518634 Bytes, HTML-SHA256 2cb6c9747e0e3451498b8fb70094a4d05f016194d4108df8679f88177f445a4a)
+Ohne Browser-Kennung antwortet die Seite mit der Cloudflare-Pruefung (HTTP 403, 'Just a moment...').
+
+Treffer fuer '42001' im gesamten HTML samt eingebettetem JSON: 0
+Treffer fuer 'AI management' (gross/klein egal): 0
+
+Karte 'Compliance Overview' (Auszug):
+eepL Pro products and their individual features against our four core compliance programs: **ISO 27001:2022**, **SOC 2 Type 2**, **HIPAA**, and **BSI C5:2020 Type 2**. Products are

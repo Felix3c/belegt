@@ -1,0 +1,246 @@
+Quelle: https://eurouter.ai/privacy
+Abruf: 2026-10-14 (urllib, 111016 Bytes, HTML-SHA256 edae77043ce46dafe955ce8b39c42ca33a0f50e6fd4ef1847a220ed65197cd71), Textauszug ohne Skripte
+
+Privacy Policy | EUrouter
+GLM-5.2, Kimi K3 and Opus 5 are now live.
+Try them now
+EUrouter
+Models
+Providers
+Rankings
+Features
+Pricing
+Docs
+Loading authentication actions
+EUrouter
+Privacy Policy
+EUrouter B.V.
+Last updated:
+9 October 2026
+Version:
+1.3
+Introduction
+We process personal data. That is information about individuals.
+In this notice we explain why and how we use personal data. We directly provide you with all the essential information. If you'd like to learn more about a certain topic, you can read the relevant section below.
+Our processing activities
+EUrouter may process personal data in different roles.
+For some processing activities, we act as controller. This means that we determine how and why the personal data is processed. This applies, for example, to account, billing, website, analytics, support, marketing, security and general business data.
+For other processing activities, EUrouter acts as processor on behalf of a business customer. This may be the case where a business customer sends Customer API Data to EUrouter through the API. In those situations, the relevant business customer determines how and why the personal data is processed, and EUrouter processes that data only on that customer's instructions.
+This privacy statement only describes the processing activities for which EUrouter acts as controller. If you are an end-user of one of our business customers and your personal data is processed by EUrouter on behalf of that customer, please contact that customer directly for privacy requests or further information.
+Depending on the situation(s) that apply to you, we use the following personal data:
+1. When you visit our website
+We use
+your IP-address, browser-ID, and information about your use of the website or App (for example, which pages you have visited). We also collect technical information about the device you use to access our services, such as device type, operating system, language settings, time zone, app version, and log information (time and date of access).
+We use this data to
+provide you with a website and App that are adjusted to the standard settings of your browser or device, to analyze the use of our services, and to manage, protect, and improve our website, App, and services.
+Note.
+Please be aware that we also install cookies. If you'd like to learn more about our use of cookies, and what personal data are processed with these cookies, you can read our
+Cookie Statement
+.
+We may use
+this data because we have a
+legitimate interest
+to do so. We namely need this data to provide you with a tailored, functioning, and secure website and App. Besides, this information is needed to make our services better.
+We keep
+this data as long as necessary to provide you with access to our website and to improve our services.
+2. When you register an account
+We use
+the necessary information as registered in your account. This regards your first- and last name and mail address. Besides, you may choose to provide us with your postal address (first- and last name, street and number, postal code, city, and country). We also process your password or login credentials, company details, account settings, workspace data, Google/GitHub login information.
+During email registration, sign-in and password recovery, we also process your IP address and email address to rate-limit automated abuse.
+We use this data to
+register an account for you, to provide you with access to this account and to store useful data in your account in relation to (previous) use of the App and services and to send you promotional emails if you gave us permission to do so.
+We may use
+these personal data because:
+we have a
+legitimate interest
+in storing the information you voluntarily added to your account and in retaining your use of our App and services.
+we only send you promotional emails after you gave us your
+consent
+for it. Please be aware it is always possible to unsubscribe from these e-mails via the link at the bottom of each e-mail.
+We keep
+this data as long as your account or subscription is active. If you remove details or close your account, we delete the data within 30 days after closure, unless we have a legitimate interest or legal obligation to retain your personal data for a longer period. If your account has been inactive for 24 months, we may send you a reminder. If you do not reactivate your account or respond within 6 months after that reminder, we will close your account and delete or anonymise the relevant account data within 30 days after closure, unless we have a legitimate interest or legal obligation to retain certain personal data for a longer period.
+3. When you get in touch with us through our customer support or via social media
+We use
+the contact details you provide, but also account information, company information, message content, attachments and other information you choose to provide. Please be aware that social media networks also use personal data. We do not control this. If you want to know how these networks use your personal data, read their privacy statements.
+We use this data to
+reply to the message and to improve our services.
+We may use
+this data because we have a legitimate interest. We namely need this data to reach out to you and assist you. Besides, this information is needed to make our services better.
+We keep
+this data until we've finished with the message and up to 1 year thereinafter. Information you put on social media is not actively deleted and can usually be deleted by yourself.
+4. When you apply with us for a job
+We use
+contact details, information included in the curriculum vitae (such as qualifications, skills), data included in the application (such as diplomas, videos, recommendation letters), data we see on social media accounts (such as LinkedIn), and notes from interviews and assessments.
+We use this data to
+see whether you are a good fit for the job and to choose the right candidate.
+We may use
+this data because we have a
+legitimate interest
+to do so. We namely need this data for a proper application process. If you give us sensitive personal data, such as information about religion, health, or sexual orientation, we may use such data because you have given your permission to do so. You can always withdraw such permission by contacting us via the contact details provided below.
+We keep
+this data as long as necessary to finish the application procedure and for up to four weeks thereinafter. With your consent, we may retain your data for up to one year in order to match you with other job opportunities.
+5. When you are a business relation
+We use
+contact details and relevant business-related information such as correspondence and financial details. In some cases, we also use personal data in extracts from Chamber of Commerce and other public registers and/or information included in your identity document. We may also use transactional email records, marketing interactions, and unsubscribe records.
+We use this data to
+correspond with our business relations regarding their services and invoices, to keep records, process payments and prevent payment fraud. The extracts of the Chamber of Commerce or other public registers and copies of identity documents are used to verify the identity and representative authority of our business relations. Also, to provide you with relevant service updates and marketing communications, where permitted by law.
+We may use
+these personal data because:
+we are
+legally obliged
+to include certain financial details in our tax administration. In some cases, we are also obliged to verify the identity of our business relations.
+we need these details to enter and fulfill the
+agreement
+.
+we have a
+legitimate interest
+in using personal details of our business relations' employees to communicate and effectively work together, and to ensure our business contact is authorized to represent the business.
+where permitted by law, we have a
+legitimate interest
+in sending relevant product and service updates about the Services to existing business contacts, such as new features, model availability, API changes, pricing updates and security notices, as business contacts can reasonably expect to receive such communications in the context of their use of the Services, and can unsubscribe at any time.
+We keep
+this data for as long as necessary for the above purposes. For billing, tax and accounting records, we retain this data for up to 7 years, or longer where required by applicable law.
+6. When you use our Services
+We use
+your API data and API metadata, including prompts, inputs, messages, files or file references, tool calls, API payloads, selected model/provider, configuration data and outputs sent through or returned by the Services. This may also include account or organisation ID, API key reference, request ID, timestamp, IP address, selected provider and model, token counts, latency, status codes, error information, usage and cost data.
+We use this data to
+provide, operate, maintain and secure the Services, including to route API requests to selected providers and return responses and to monitor performance, reliability, errors, abuse and security incidents.
+We may use
+this data because:
+this processing is necessary for the
+performance of the agreement
+we have concluded with you. We need this data to deliver the Services as agreed, including routing your requests, calculating your usage and ensuring the security and reliability of the Services; and
+we have a
+legitimate interest
+in monitoring the performance, reliability and security of our Services.
+We keep
+API metadata, such as timestamps, token counts and usage data, for up to 12 months, unless longer retention is necessary for security, billing, legal claims or compliance purposes. By default, we do not store the prompts, inputs, uploaded files, outputs and model responses after they have been processed and returned. Error and monitoring data is retained for up to 90 days where applicable, unless longer retention is needed for security or legal reasons.
+Sometimes, we retain personal data longer than specified. This is done only if mandated by law, in cases of fraud or abuse investigation, or when necessary for legal claims. In such situations, we keep these personal data separate from the rest.
+Apart from that, we may use the above data to prepare statistics and reports. This is always done in an aggregated or anonymized form, so that it can no longer be traced back to you.
+Cookies
+When you visit our App, we inform you about our use of cookies. We use functional and analytical cookies. These are small text files stored on your device that help us recognize your browser or device when you return. Functional cookies are strictly necessary for the operation of our service, such as authentication, session management, and storing your consent preferences. Analytical cookies help us understand how our service is used so that we can improve it; we only place these if you agree. With the same consent, Better Stack may collect browser errors, performance metrics, and a 10% sample of masked session replays, using the
+_bs
+identifier and local storage. We do not use advertising cookies or cross-site tracking cookies. You can change or withdraw your consent at any time via the Cookie Settings control in our footer, or by contacting us via the contact details provided below.
+If you'd like to learn more about our use of cookies, and what personal data are processed with these cookies, you can read our
+Cookie Statement
+.
+Third parties
+We work with other organizations that help us process the personal data. They do this on our behalf. This means we remain responsible for the protection of your data during such processing. We use third parties for:
+Optimizing our online experience;
+Verifying and validating submitted information;
+Monitor and manage security risks;
+Email management and communication;
+Data hosting;
+Project management;
+Invoicing and accounting.
+Sometimes, we need to share your personal data with other organizations that use it for their own purposes.
+This means that once they received your personal data, they are responsible to protect it. We only share personal data with others if the law says we must, if you gave us your permission, or in exceptional cases. To know how these parties handle personal data, you can check their privacy notices. We share personal data with:
+Payment service providers.
+When you make a payment, personal data will be used by the payment service provider you selected. For example, your credit card provider, PayPal or another payment method supported in your location.
+Tax authorities.
+Only applicable to the personal data we are legally obliged to share. We are required by law to include (some of) your personal data in our financial records, which may have to be shared with the tax authorities.
+Social login providers.
+If you choose to log in through your Google or GitHub account, we will share certain personal data with that provider, and receive information from them, to verify your identity and create or access your account.
+Furthermore, we only share personal data with third parties if the law obliges us to, if you gave us your permission, or in special situations, like when sharing personal data is necessary to:
+protect our own interests or those of third parties, including our Partners;
+deal with a legal case; or
+sell or merge our company.
+Some of these third parties are located outside the European Economic Area (the European Union, Norway, Iceland, Liechtenstein). We only transfer personal data to these parties if the personal data is adequately protected by the laws of the relevant country or if we have contractual safeguards in place.
+Read more about the countries with an adequate level of data protection
+here
+. Read more about the contractual safeguards
+here
+. If you want more information about this or a copy of the specific safeguards that are in place, please contact us.
+Our sub-processors
+To deliver our service we engage a limited number of sub-processors that process personal data on our behalf and only on our instructions. Our main sub-processors are:
+Scaleway (Netherlands and France, EU):
+Cloud infrastructure, hosting, compute, and database storage (Amsterdam and Paris regions).
+Mollie (Netherlands, EU):
+Payment processing for subscriptions and credit purchases.
+PostHog Cloud EU:
+Website and product analytics, hosted on EU infrastructure.
+Cookiebot by Usercentrics (Denmark, EU):
+Cookie consent management.
+Brevo (France, EU):
+Transactional and marketing email delivery.
+Better Stack (EU-hosted data region):
+Logs, traces, error tracking, browser performance diagnostics, and consented sampled session replay. Transfers to the United States or other locations are protected by the EU-US Data Privacy Framework or Standard Contractual Clauses where applicable.
+We also rely on a small number of providers for optional account login (Google and GitHub) and business and support email (Google Workspace). Where any of these involves a transfer of personal data outside the EEA, that transfer takes place under appropriate safeguards, such as an adequacy decision or Standard Contractual Clauses. When you use EUrouter to access AI models, your API requests are routed only through AI providers with EU/EEA configurations. A complete and up-to-date list of our providers and sub-processors, including the country in which processing takes place, is available in our
+Provider and Sub-Processor List
+.
+Data security
+We implement appropriate technical and organizational measures to protect your personal data, including encryption in transit (TLS) and at rest, access controls, regular security assessments, and incident response procedures. API keys are stored using one-way cryptographic hashes and cannot be retrieved in plain text.
+Data breach notification
+In the event of a personal data breach, we will notify the relevant supervisory authority within 72 hours of becoming aware of the breach, as required by Article 33 of the GDPR. If the breach is likely to result in a high risk to your rights and freedoms, we will also notify you without undue delay, as required by Article 34.
+Children's privacy
+Our service is not directed at individuals under the age of 16. We do not knowingly collect personal data from children. If we become aware that we have collected personal data from a child under 16, we will take steps to delete that data promptly.
+Data Processing Agreement
+Where EUrouter processes personal data on your behalf as a processor, for example Customer API Data sent through the API, this is governed by our Data Processing Agreement. You can review our
+Data Processing Agreement and Provider and Sub-Processor List
+, or request a signed copy by contacting
+legal@eurouter.ai
+.
+Your individual rights
+You have certain rights when it comes to your personal data. You can always contact us to execute your rights. Please be aware that these rights aren't absolute. For instance, sometimes we might not be able to do everything you ask with your data. This could be to protect other people's rights and freedoms, or because we need it for legal reasons. If something like this happens, we'll let you know.
+You have the following rights:
+Access:
+You can request us to provide access to, and/or a copy of, your personal data along with additional relevant details.
+Rectification:
+You can request us to rectify any inaccuracies or complete any incompleteness in your personal data.
+Erasure:
+You can request us to erase your personal data. Sometimes, people call this the 'right to be forgotten'.
+Data portability:
+You can request us to hand over your personal data, so that you can use it elsewhere.
+Restrict processing:
+You can request us to stop using your personal data. We can, however, keep it stored.
+Withdraw consent:
+You can request us to stop using your personal data for the purpose we requested your permission for.
+Besides, you can request to stop the processing of your personal data based on our 'legitimate interest'.
+You can file a complaint with your national data protection authority if you believe we are not handling your personal data properly. You can find a list of the European data protection authorities, their websites and contact details
+here
+.
+We may change this privacy notice from time to time. The most current statement is published on our App. In case major changes are made to the processing activities, we will inform you via a separate email.
+Questions, comments or advice? Please contact us via
+privacy@eurouter.ai
+.
+EUrouter B.V.
+Jacob van Lennepstraat 78H, 1053 HM Amsterdam, The Netherlands
+EUrouter
+The unified API for European AI models. Route intelligently, comply effortlessly, and scale globally.
+EUrouter B.V.
+KVK: 42054357
+Jacob van Lennepstraat 78H
+1053HM Amsterdam
+Product
+Models
+Providers
+Become a Provider
+Pricing
+Referral Program
+Resources
+Documentation
+FAQ
+Features
+Smart Routing
+OpenAI Compatible
+Monitoring & Observability
+Budgets & Limits
+Integrations
+All Integrations
+OpenAI SDK
+LangChain
+Vercel AI SDK
+Cursor
+Company
+About
+Jobs
+Contact
+©
+2026
+EUrouter. All rights reserved.
+Privacy Policy
+General Terms and Conditions
+DPA
+Cookie Statement
+Cookie Settings
+Status Page

@@ -1870,6 +1870,7 @@ Center
 Center
 Center
 Center
+Center
 Central
 Central
 Central
@@ -2741,6 +2742,7 @@ Core
 CoreDNS
 Correcting
 Cosign
+Cost
 Counter-Strike
 Counter-Strike
 Courrier
@@ -3868,7 +3870,6 @@ FileZilla
 Filebeat
 Files
 Filters
-FinOps
 Finalise
 Find
 Fine

@@ -61,6 +61,10 @@
     {
       "datum": "2026-10-09",
       "ereignis": "Produktseite, Compliance-Seiten HDS und ISO 27001, HDS-Produktliste, ISO-Produktliste und Anleitung zur HDS-Option neu abgerufen (06:59 UTC), per SHA-256 gesichert, alle Zitate wörtlich in den Rohkopien geprüft. Weil die ISO-Compliance-Seite „AI & machine learning“ pauschal nennt, beschränkt sich der Fall auf HDS. Internet Archive war beim Sichern vorübergehend offline; Archivlinks folgen. Fall als Entwurf vorbereitet, noch nicht veröffentlicht, Anbieter noch nicht informiert."
+    },
+    {
+      "datum": "2026-10-15",
+      "ereignis": "Alle vier Quellen neu abgerufen (11:49 UTC). Alle vier Zitate stehen weiter wörtlich auf den Seiten. Die Liste der HDS-zertifizierten Produkte trägt weiter „Last updated: June 2, 2026“, die Tabelle ist textgleich zum Abruf vom 09.10., AI Endpoints steht weiter nicht darin. Die Seiten-Hashes unterscheiden sich vom 09.10. nur durch den Seitenrahmen. Widerspruch unverändert; Fall bleibt Entwurf, Anbieter noch nicht informiert."
     }
   ]
 }

@@ -263,6 +263,7 @@ ANY
 ANY
 API
 API
+APIs
 ART.
 AVAILABLE”
 About
@@ -286,7 +287,6 @@ Act
 Act)
 Act:
 Act”)
-Agentic
 Agreement
 Agreement
 Agreement
@@ -608,6 +608,7 @@ Governing
 High-Risk
 Home
 How‑to
+Hybrid
 III
 IMMEDIATELY
 IMMEDIATELY,
@@ -911,7 +912,6 @@ Pursuant
 Pursuant
 Pursuant
 Qwen
-RAG
 REGULATION
 RESULTING
 REVENUES,
@@ -1257,7 +1257,6 @@ This
 Top
 Transfers
 Tutorial
-Tutorial:
 Type
 UNAUTHORIZED
 UNDER
@@ -1684,6 +1683,7 @@ and
 and
 and
 and
+and
 and,
 and,
 and/or
@@ -1906,6 +1906,7 @@ be
 be
 be
 be
+beat
 becomes
 becomes
 becoming
@@ -1946,7 +1947,6 @@ breach
 breach
 breach,
 breach,
-build
 bundled
 business
 business
@@ -2063,6 +2063,7 @@ classification
 classification:
 clicking
 clients.
+closed
 cloud,
 cloud.
 codes,
@@ -2252,6 +2253,7 @@ declare
 declined
 deemed
 defamation,
+default:
 defend,
 defined
 defined
@@ -2723,6 +2725,7 @@ is
 is
 is
 is
+is
 it
 it
 it
@@ -2858,6 +2861,7 @@ malicious
 manage
 manage
 manage
+managed
 management
 management
 management
@@ -3259,6 +3263,7 @@ only
 only
 only
 open
+open
 operates
 operation
 operational
@@ -3615,7 +3620,6 @@ pursuant
 reading
 reasonable
 reasons
-reasons
 rebranding
 recognizes
 recommendations
@@ -3717,7 +3721,6 @@ restriction
 result
 resulting
 results
-retrieval
 reverse
 revocable,
 right
@@ -3745,6 +3748,7 @@ role
 role
 routes
 routes
+routing
 routing
 routing
 s.r.l.
@@ -3782,6 +3786,7 @@ see
 seek
 selected
 self-employment;
+self-hosting
 separate
 separate
 servers
@@ -3960,9 +3965,9 @@ that
 that
 that
 that
-that
 that:
 that:
+the
 the
 the
 the
@@ -4716,6 +4721,7 @@ warranty
 was
 website
 website
+weights
 well
 well
 well
@@ -4746,6 +4752,7 @@ who
 who
 who
 whose
+why
 will
 will
 will

@@ -15,7 +15,6 @@
 (Netherlands)
 (Netherlands)
 (Netherlands)
-(Scoria
 (Sweden)
 (as
 (available
@@ -79,7 +78,6 @@
 2026
 2026
 2026
-25
 28
 3.
 30
@@ -96,6 +94,7 @@
 7.
 78H
 8.
+9
 9.
 9.1
 AI
@@ -125,7 +124,6 @@ AI
 AI
 AI
 AKI.IO
-API
 API
 API
 API
@@ -198,7 +196,6 @@ Article
 Article
 Article
 Audit
-August
 Authority.
 Authority”,
 B.V.
@@ -211,7 +208,6 @@ Better
 Better
 Better
 Billing
-Bot
 Breach
 Breach
 Brevo
@@ -219,7 +215,6 @@ Browser
 Budgets
 By
 Capitalised
-CaptchaFox
 Categories
 Categories
 Chapter
@@ -353,7 +348,6 @@ Customer
 Customer
 Customer
 Customer
-Customer
 Customers
 Customers
 Customers
@@ -386,7 +380,6 @@ DPA.
 DPA.
 DPA/list.
 DPF
-Data
 Data
 Data
 Data
@@ -573,7 +566,6 @@ General
 GitHub
 GitHub
 GmbH
-GmbH)
 Google
 Google
 Google
@@ -581,7 +573,6 @@ GreenPT
 ID,
 ID,
 IONOS
-IP
 IP
 If
 If
@@ -606,7 +597,6 @@ Jobs
 K3
 KVK:
 Kimi
-Labs
 LangChain
 Last
 Last
@@ -677,6 +667,7 @@ OVHcloud
 Obligations
 Obligations
 Observability
+October
 OpenAI
 OpenAI
 Operational
@@ -926,7 +917,6 @@ Services.
 Services.
 Services;
 Settings
-Signup
 Smart
 Stack
 Stack
@@ -1109,7 +1099,6 @@ activities
 activities
 address
 address
-address
 address,
 address,
 adjust
@@ -1172,8 +1161,6 @@ an
 an
 analytics
 analytics,
-and
-and
 and
 and
 and
@@ -1453,7 +1440,6 @@ authorities.
 authority,
 authority,
 authorized
-automated-signup
 automatically
 availability,
 available
@@ -1526,7 +1512,6 @@ breach
 breach,
 breach,
 breach.
-browser/request
 business
 business
 business
@@ -1811,7 +1796,6 @@ destruction
 details
 detecting
 detecting
-detection
 determine
 developers,
 diagnostic
@@ -2227,7 +2211,6 @@ intended.
 intended.
 intended.
 intended.
-intended.
 intent
 internal
 into
@@ -2488,7 +2471,6 @@ networking.
 never
 new
 nl-ams
-no
 no
 no
 no
@@ -2972,7 +2954,6 @@ present
 prevail
 preventing
 preventing
-prevention
 primarily
 principles
 prior
@@ -3436,7 +3417,6 @@ shall,
 shall,
 should
 shown
-signals;
 signed
 so
 so,
@@ -3539,7 +3519,6 @@ taken
 takes
 takes
 taking
-technical
 technical
 technical
 technical

@@ -21,11 +21,11 @@
 
 1. **Anlass.** „Wann haben Sie zuletzt einen KI- oder Cloud-Anbieter geprüft oder freigegeben? Was war der Anlass, wer hat die Prüfung angestoßen?“
 2. **Ablauf.** „Wie sind Sie vorgegangen, Schritt für Schritt? Welche Dokumente haben Sie eingesammelt?“ Nachhaken, ohne vorzusagen: AVV, TOMs, Subprozessoren, Zertifikate mit Geltungsbereich, Hosting-Standort, Trainingsnutzung, Konzernstruktur.
-3. **Dauer.** „Wie lange hat das insgesamt gedauert, in Stunden? Wer war beteiligt, und wie lange hat die Person gewartet, die die Freigabe brauchte?“
-4. **Schmerz.** „Was war am schwersten zu bekommen? Wo haben Sie am Ende geraten, angenommen oder aufgegeben?“
-5. **Ergebnisform.** „Wie haben Sie das Ergebnis festgehalten? Wer hat es gelesen, Geschäftsführung, Auditor, Aufsicht? Können Sie beschreiben, wie das Dokument aussieht?“
+3. **Dauer.** „Wie lange hat das insgesamt gedauert, in Stunden? Wer war beteiligt?“ Dann getrennt: „Und wie viele Wochen hat der Fachbereich auf die Freigabe gewartet?“ (Wartezeit ≠ Arbeitsstunden; bei Schlademann nicht gefragt.)
+4. **Schmerz.** „Was war am schwersten zu bekommen? Wo haben Sie am Ende geraten, angenommen oder aufgegeben?“ Nachhaken: „Welche der Unterlagen hätte ein Außenstehender ohne NDA bekommen?“ (trennt, was ein öffentliches Profil leisten kann, von dem, was nur ein Audit leistet).
+5. **Ergebnisform.** „Wie haben Sie das Ergebnis festgehalten? Wer hat es gelesen, Geschäftsführung, Auditor, Aufsicht?“ Dann konkret: „Wie viele Seiten? Wie gegliedert? Steht oben eine Ja/Nein-Zusammenfassung?“
 6. **Veränderung.** „Was passiert, wenn der Anbieter danach etwas ändert, ein Zertifikat abläuft, ein Subprozessor dazukommt? Erfahren Sie das? Wie?“
-7. **Geld.** „Was hat die letzte Prüfung gekostet, extern oder intern? Kanzlei, Berater, Tool, eigene Stunden? Wer hat das Budget freigegeben?“
+7. **Geld.** Kurz, ohne Aufzählung: „Was hat die Prüfung gekostet, in Euro oder in Stunden?“ Schweigen aushalten. Dann: „Wer hat das Budget freigegeben?“ Bei externen DSB/Auditoren: „Was kostet eine Prüfung dieses Umfangs bei Ihnen üblicherweise, Tagessatz oder Pauschale?“ (Die lange Fassung mit Kanzlei/Berater/Tool ging bei Schlademann unter, es kam keine Zahl.)
 
 ## Guard-Frage (immer stellen, nie zuerst)
 
@@ -43,7 +43,7 @@ Ohne 8a/8b zählt die Antwort als „bedingt“ und hilft der Entscheidungsregel
 
 ## Lehren aus Gespräch 1 (Schlademann, 08.10.2026)
 
-Was dort nicht erfragt wurde und deshalb in jedem weiteren Gespräch fest dazugehört (Quelle: `06-schlademann.md`, Abschnitt „Offene Punkte“):
+Was dort nicht erfragt wurde und deshalb in jedem weiteren Gespräch fest dazugehört (Quelle: `06-schlademann.md`, Abschnitt „Offene Punkte“). Seit 10.10.2026 direkt in die Kernfragen 3, 4, 5 und 7 eingebaut; die Liste bleibt als Begründung:
 
 - **Geldfrage kurz stellen**, nicht mit Aufzählung: „Was hat die Prüfung gekostet, in Euro oder in Stunden?“ Die lange Fassung (Kanzlei, Berater, Tool) ging im Gespräch unter, es kam keine Zahl.
 - **Wartezeit des Fachbereichs** in Wochen (zu Frage 3), getrennt von den Arbeitsstunden.

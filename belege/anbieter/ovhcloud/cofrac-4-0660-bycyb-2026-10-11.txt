@@ -1,0 +1,51 @@
+Quelle: https://tools.cofrac.fr/annexes/Sect4/4-0660.pdf
+Abruf: 2026-10-11 01:10 (curl, HTTP 200, 189305 Bytes, PDF-SHA256 4d33ba258c5e451e893e5b143f72676cc2e70f0db950e495dcefc51372ec6e5f), Textauszug per pypdf
+
+Comité Français d'Accréditation
+52, rue Jacques Hillairet 75012 Paris
+SIRET : 397 897 487 00031
+Téléphone : +33 (0)1.44.68.82.20
+Site internet : www.cofrac.fr
+Attestation d'accréditation
+Accreditation certificate
+N° 4-0660
+Rev. 4
+Bénéficiaire / Beneficiary: BYCYB
+Identifiant légal / Legal identifier: N° 942788845
+Adresse / Address: 11-19 RUE DE LA VANNE, 92120, MONTROUGE, FRANCE
+Le Comité Français d’Accréditation (Cofrac) atteste que l’organisme satisfait aux exigences de la norme NF EN ISO/IEC 17021-1:2015 et aux
+règles d’application du Cofrac pour son activité Certification de systèmes de management, pour les activités et sites précisées dans l’annexe
+technique ci-après, à l’exclusion des activités réalisées dans les pays listés dans le document GEN INF 16, dont la version en vigueur est disponible
+sur le site internet du Cofrac (www.cofrac.fr). / The French Committee for Accreditation (Cofrac) certifies that the body fulfils the requirements of
+the standard NF EN ISO/IEC 17021-1:2015 and Cofrac’s application rules for its activity of Certification of management systems, for the activities
+and locations described in the following technical annex, excluding activities performed in the countries listed in the document GEN INF 16, the
+current version of which is available on Cofrac’s website (www.cofrac.fr).
+Le Cofrac est signataire de l’accord de reconnaissance multilatéral de l’European co-operation for Accreditation (EA) pour les activités objets de la
+présente attestation. / Cofrac is signatory of the European Co-operation for Accreditation (EA) multilateral agreement for the activities covered by
+this certificate.
+Cette version de l’attestation remplace toute version précédemment émise / This version of the certificate supersedes all previously issued versions.
+Seul le texte en français engage la responsabilité du Cofrac / Cofrac’s liability applies only on the French text.
+Date de prise d'effet / Valid from: 02/06/2026 Approuvé par / Approved by:
+Date de fin de validité / Valid until: 31/01/2029
+L’accréditation peut être retirée, suspendue ou sa portée modifiée à tout moment. Pour une utilisation appropriée, la portée de l’accréditation et sa
+validité doivent être vérifiées sur le site internet du Cofrac (www.cofrac.fr). / The accreditation can be withdrawn, suspended or its scope modified
+at any time. For a proper use the scope of accreditation and its validity should be checked on Cofrac’s website (www.cofrac.fr).
+Page 1 sur 4
+
+Annexe technique / Technical annex
+Système de management de la sécurité de l'information / Information security management systems
+Sites intervenant dans le cadre de l’accréditation de l’organisme / Locations included in the organisation's accreditation:
+Désignation Adresse complète
+BYCYB 11-19 RUE DE LA VANNE, 92120, MONTROUGE, FRANCE
+Page 2 sur 4
+BYCYB, 11-19 RUE DE LA VANNE, 92120, MONTROUGE, FRANCE
+Système de management de la sécurité de l'information / Certification selon la norme ISO/IEC 27001 / NF EN ISO/IEC 27006-1 :2024
+Programme de certification
+ISO/IEC 27001:2022 - NF ISO/IEC 27001:2023
+# Système de management de la sécurité de l'information / Certification selon le référentiel Hébergeurs de données de santé HDS # /
+Référentiel d'accréditation HDS V2
+Programme de certification
+Référentiel de certification HDS – Exigences et contrôles V2
+Page 3 sur 4
+# Accréditation rendue obligatoire dans le cadre réglementaire français. # Mandatory accreditation in the French legislative framework.
+Page 4 sur 4

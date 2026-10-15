@@ -1,0 +1,7 @@
+Quelle: https://nordference.ai/assets/index-CGzvo87P.js (Skript-Bündel der Startseite https://nordference.ai/)
+Abruf: 2026-10-14 09:25 (curl, HTTP 200), SHA256 des ganzen Bündels: e68e235c030f22f12e517dd2592ca0e56e4e10bf0b5bcd8f90d9f82f0593d9ad
+Auszug: Tabellen-Definition der Vergleichstabelle und Texte (comparison.*)
+
+features:{dataResidency:"Data Residency",gdprCompliance:"GDPR Compliance",dataRetention:"Default Data Retention",nis2:"NIS2 Directive",euAiAct:"EU AI Act Ready",modelTransparency:"Model Transparency",apiCompatibility:"API Compatibility"},nordference:{location:"Estonia, EU",dataResidency:"EU (Estonia)",gdpr:"Native",retention:"Zero",nis2:"Compliant",transparency:"Open-source",api:"OpenAI SDK"},typical:{location:"Various locations",dataResidency:"Varies (often US)",gdpr:"DPA Required",retention:"Up to 30 days",nis2:"Limited support",euAiAct:"Varies",transparency:"Often closed",api:"Proprietary"},typicalProviders:"Typical Providers",footnote
+
+{featureKey:"comparison.features.nis2",nordferenceKey:"comparison.nordference.nis2",typicalKey:"comparison.typical.nis2"},{featureKey:"comparison.features.euAiAct",nordference:!0,typicalKey:"comparison.typical.euAiAct"},{featureKey:"comparison.features.modelTransparency",nordferenceKey:"comparison.nordference.transparency",typicalKey:"comparison.typical.transparency
