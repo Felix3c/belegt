@@ -1,0 +1,179 @@
+Quelle: https://eurouter.ai/providers
+Abruf: 2026-10-16 01:3x (curl, 109659 Bytes, HTML-SHA256 dfec14432d8946def82cf525d6cf19b3e6f8c3b5b1ee574325d1a94a6fa0da94), Textauszug ohne Skripte, ganze Textfassung
+Archivkopie: web.archive.org/web/20261015233037
+
+AI Providers | EUrouter
+GLM-5.2, Kimi K3 and Opus 5 are now live.
+Try them now
+EUrouter
+Models
+Providers
+Rankings
+Features
+Pricing
+Docs
+Loading authentication actions
+EUrouter
+Providers
+17
+providers
+AKI.IO
+11
+models
+Sovereign German AI inference provider (AKI.IO GmbH, Berlin) running on EU-based HPC hardware. OpenAI- and Anthropic-compatible API, GDPR-compliant, zero data retention.
+HQ:
+DE
+ZDR:
+AWS Bedrock
+41
+models
+AWS Bedrock is a fully managed service that offers foundation models from Amazon and leading AI companies through a unified API. All models in EUrouter use EU inference profiles or EU regional deployments to ensure data stays within the EU.
+HQ:
+US
+ZDR:
+Berget AI AB
+11
+models
+Swedish AI inference provider running open-weight models on its own GPUs in Stockholm, with zero data retention by default and an OpenAI-compatible API for chat, embeddings, reranking and transcription.
+HQ:
+SE
+ZDR:
+Entrim
+3
+models
+Slovenian inference provider serving open-source models through an OpenAI-compatible API from its own GPU datacenter in Slovenia, with no prompt or output logging and no training on customer data.
+HQ:
+SI
+ZDR:
+GreenPT
+33
+models
+Privacy-first, sustainable AI platform. OpenAI-compatible API powered by renewable energy and hosted in Europe (France). Company headquartered in Utrecht, Netherlands.
+HQ:
+NL
+ZDR:
+Inceptron
+6
+models
+Swedish AI provider offering European infrastructure and AI services.
+HQ:
+SE
+ZDR:
+Infercom
+4
+models
+EU-based sovereign AI inference platform headquartered in Luxembourg, powered by SambaNova's dataflow architecture. Delivers up to 10x faster inference than GPU alternatives with full GDPR compliance and European data residency.
+HQ:
+LU
+ZDR:
+IONOS Cloud
+13
+models
+European cloud provider offering the IONOS AI Model Hub with OpenAI-compatible APIs and EU data residency.
+HQ:
+DE
+ZDR:
+Lyceum Technology GmbH
+14
+models
+German AI infrastructure provider offering OpenAI-compatible serverless and dedicated inference APIs with EU-only processing support and EU, UK, and US inference regions.
+HQ:
+DE
+ZDR:
+Microsoft Foundry
+20
+models
+Microsoft Foundry hosting Azure OpenAI models through EU DataZone Standard deployments for inference processing constrained to the European Union.
+HQ:
+US
+ZDR:
+Mistral AI
+14
+models
+French AI company offering La Plateforme API access to Mistral frontier, open, code, reasoning, audio, and embedding models.
+HQ:
+FR
+ZDR:
+Nebius
+12
+models
+Nebius Token Factory provides OpenAI-compatible inference APIs for open-weight language, vision, and embedding models across Nebius-hosted regions.
+HQ:
+NL
+ZDR:
+Nebul
+15
+models
+Dutch sovereign AI cloud (Nebul B.V., Leiden). OpenAI-compatible serverless inference on EU-only NVIDIA infrastructure; no training on customer data, no retention beyond operational needs. Not affiliated with Nebius.
+HQ:
+NL
+ZDR:
+OVHcloud
+13
+models
+European cloud provider offering OVHcloud AI Endpoints with OpenAI-compatible APIs, EU hosting, zero data retention, and no training on prompts.
+HQ:
+FR
+ZDR:
+Regolo
+12
+models
+Italian EU-sovereign AI inference provider by Seeweb (DHH Group), running OpenAI-compatible inference on Seeweb's NVIDIA GPU data centers in Italy. GDPR-compliant, zero data retention.
+HQ:
+IT
+ZDR:
+Scaleway
+15
+models
+French cloud provider offering Scaleway Generative APIs with OpenAI-compatible APIs, serverless inference, European hosting, and zero data retention.
+HQ:
+FR
+ZDR:
+Tensorix
+23
+models
+Irish AI infrastructure provider offering EU-hosted inference with models running in Dublin and Helsinki data centers.
+HQ:
+IE
+ZDR:
+Are you looking to become a provider on EUrouter?
+Apply here
+EUrouter
+The unified API for European AI models. Route intelligently, comply effortlessly, and scale globally.
+EUrouter B.V.
+KVK: 42054357
+Jacob van Lennepstraat 78H
+1053HM Amsterdam
+Product
+Models
+Providers
+Become a Provider
+Pricing
+Referral Program
+Resources
+Documentation
+FAQ
+Features
+Smart Routing
+OpenAI Compatible
+Monitoring & Observability
+Budgets & Limits
+Integrations
+All Integrations
+OpenAI SDK
+LangChain
+Vercel AI SDK
+Cursor
+Company
+About
+Jobs
+Contact
+©
+2026
+EUrouter. All rights reserved.
+Privacy Policy
+General Terms and Conditions
+DPA
+Cookie Statement
+Cookie Settings
+Status Page

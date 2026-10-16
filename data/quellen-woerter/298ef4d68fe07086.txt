@@ -29,7 +29,6 @@
 1999-
 2016/679
 2026
-2026
 24/7
 24/7
 2400
@@ -270,6 +269,7 @@ Designed
 Designed
 Development
 Digital
+Discover
 Discover
 Discover
 Discover
@@ -562,6 +562,7 @@ Metal
 Metal
 Metal
 Metal
+Milan
 Model
 Model-as-a-Service
 Model-as-a-Service
@@ -678,7 +679,6 @@ Ready
 Redis®
 Redis®*
 Region
-Register
 Register
 Registry
 Registry
@@ -948,7 +948,6 @@ address
 adheres
 administrations,
 against
-ai-PULSE
 algorithms,
 all
 all
@@ -1132,6 +1131,7 @@ audits,
 autonomy.
 availability
 availability
+available
 available
 available
 back
@@ -1568,6 +1568,7 @@ in
 in
 in
 in
+in
 incident
 incident
 incidents
@@ -1738,7 +1739,6 @@ next
 no
 non-European
 not
-now
 object
 object
 observability
@@ -1912,6 +1912,7 @@ processing
 processing
 processing
 production-grade
+products
 products
 profits
 program
@@ -2223,6 +2224,7 @@ the
 the
 the
 the
+the
 their
 their
 their
@@ -2242,7 +2244,6 @@ throughout
 throughput
 ticket
 time
-to
 to
 to
 to

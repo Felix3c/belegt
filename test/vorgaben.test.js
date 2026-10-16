@@ -124,12 +124,12 @@ test("Ergebnisblock und Kapitel „Fragen an den Anbieter“ im Dossier, ohne No
   assert.match(md, /\*\*Nicht belegbar:\*\* Anwendungsbereich des Zertifikats genannt/);
   assert.match(md, /\*\*Fall zu einem Prüfpunkt:\*\* 2026-004 \(Zero Data Retention, bestaetigt\)/);
   const k = md.indexOf("## 4. Nicht öffentlich belegbar: Fragen an den Anbieter");
-  assert.ok(k > md.indexOf("## 3. Fälle") && k < md.indexOf("## 5. Änderungsalarm"));
+  assert.ok(k > md.indexOf("## 3. Fälle") && k > md.indexOf("# Belege"));
   assert.match(md, /Welche Gesellschaften, Standorte und Dienste deckt das Zertifikat ab/);
   assert.match(md, /Herstellererklärung: was mit Ein- und Ausgaben tatsächlich geschieht/);
   assert.match(md, /Diese Unterlagen hat belegbar\.eu nicht gesehen\./);
-  assert.match(md, /## 6\. Unterschrift[\s\S]*Die Ergebniszeile folgt allein aus den Vorgaben des Auftraggebers und den belegten Angaben in Abschnitt 1\./);
+  assert.match(md, /## Vermerk[\s\S]*Die Ergebniszeile folgt allein aus den Vorgaben des Auftraggebers und den belegten Angaben in Abschnitt 1\./);
   const block = md.slice(kopf, md.indexOf("## 1. Belegte Angaben"));
   assert.deepEqual(pruefeNormenbezug(block), []);
-  assert.deepEqual(pruefeNormenbezug(md.slice(k, md.indexOf("## 5. Änderungsalarm"))), []);
+  assert.deepEqual(pruefeNormenbezug(md.slice(k, md.lastIndexOf("---"))), []);
 });

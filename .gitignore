@@ -33,3 +33,16 @@ outreach/gespraeche/PRIVAT-NOTIZEN.md
 
 # Interne Verbesserer-Funde des Dauerlaufs (verweisen auf ~/allein), seit 15.10.2026
 VERBESSERER.md
+
+# Strategie-Blatt (belegbar umgedreht, Siegel, Preise), nicht öffentlich, seit 15.10.2026
+VEHIKEL.md
+outreach/gespraeche/MUSTER-WAECHTER-MELDUNG.md
+
+# Änderungs-Wächter: beobachtete Dienste, Ledger, Rohkopien (Strategie, nicht öffentlich), seit 15.10.2026
+waechter/
+
+# Sicherungskopien (z. B. 09-juarez-spickzettel.md.bak-2026-10-16): die Regeln oben greifen bei .bak-Endungen nicht, seit 16.10.2026
+*.bak-20*
+outreach/gespraeche/*.bak*
+# Verkleinerte Mail-Anhänge zu BV3 (Hilfsdateien, keine Belege), seit 16.10.2026
+belege/entkien-2026-10-15/*-klein.*

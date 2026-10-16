@@ -58,10 +58,10 @@
 "unit"
 "user"
 "user"
-%}&quot;,&quot;eos_token&quot;:&quot;&lt;|im_end|>&quot;,&quot;pad_token&quot;:&quot;&lt;|endoftext|>&quot;,&quot;unk_token&quot;:null}},&quot;createdAt&quot;:&quot;2026-10-02T05:54:02.000Z&quot;,&quot;discussionsDisabled&quot;:false,&quot;discussionsSorting&quot;:&quot;recently-created&quot;,&quot;downloads&quot;:15335,&quot;downloadsAllTime&quot;:15335,&quot;id&quot;:&quot;Aleph-Alpha/Kolibri-1&quot;,&quot;isLikedByUser&quot;:false,&quot;availableInferenceProviders&quot;:[],&quot;showHuggingChatEntry&quot;:false,&quot;inference&quot;:&quot;&quot;,&quot;lastModified&quot;:&quot;2026-10-13T10:57:07.000Z&quot;,&quot;likes&quot;:928,&quot;pipeline_tag&quot;:&quot;text-generation&quot;,&quot;library_name&quot;:&quot;vllm&quot;,&quot;librariesOther&quot;:[],&quot;trackDownloads&quot;:true,&quot;model-index&quot;:null,&quot;evalResults&quot;:[{&quot;dataset&quot;:{&quot;id&quot;:&quot;TIGER-Lab/MMLU-Pro&quot;,&quot;isBenchmark&quot;:true,&quot;task_id&quot;:&quot;mmlu_pro&quot;},&quot;value&quot;:80,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
-%}&quot;,&quot;eos_token&quot;:&quot;&lt;|im_end|>&quot;,&quot;pad_token&quot;:&quot;&lt;|endoftext|>&quot;,&quot;unk_token&quot;:null}},&quot;createdAt&quot;:&quot;2026-10-02T05:54:02.000Z&quot;,&quot;discussionsDisabled&quot;:false,&quot;discussionsSorting&quot;:&quot;recently-created&quot;,&quot;downloads&quot;:15335,&quot;downloadsAllTime&quot;:15335,&quot;id&quot;:&quot;Aleph-Alpha/Kolibri-1&quot;,&quot;isLikedByUser&quot;:false,&quot;availableInferenceProviders&quot;:[],&quot;showHuggingChatEntry&quot;:false,&quot;inference&quot;:&quot;&quot;,&quot;lastModified&quot;:&quot;2026-10-13T10:57:07.000Z&quot;,&quot;likes&quot;:928,&quot;pipeline_tag&quot;:&quot;text-generation&quot;,&quot;library_name&quot;:&quot;vllm&quot;,&quot;librariesOther&quot;:[],&quot;trackDownloads&quot;:true,&quot;model-index&quot;:null,&quot;evalResults&quot;:[{&quot;dataset&quot;:{&quot;id&quot;:&quot;TIGER-Lab/MMLU-Pro&quot;,&quot;isBenchmark&quot;:true,&quot;task_id&quot;:&quot;mmlu_pro&quot;},&quot;value&quot;:80,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
-%}&quot;,&quot;eos_token&quot;:&quot;&lt;|im_end|>&quot;,&quot;pad_token&quot;:&quot;&lt;|endoftext|>&quot;,&quot;unk_token&quot;:null}},&quot;createdAt&quot;:&quot;2026-10-02T05:54:02.000Z&quot;,&quot;discussionsDisabled&quot;:false,&quot;discussionsSorting&quot;:&quot;recently-created&quot;,&quot;downloads&quot;:15335,&quot;downloadsAllTime&quot;:15335,&quot;id&quot;:&quot;Aleph-Alpha/Kolibri-1&quot;,&quot;isLikedByUser&quot;:false,&quot;availableInferenceProviders&quot;:[],&quot;showHuggingChatEntry&quot;:false,&quot;inference&quot;:&quot;&quot;,&quot;lastModified&quot;:&quot;2026-10-13T10:57:07.000Z&quot;,&quot;likes&quot;:928,&quot;pipeline_tag&quot;:&quot;text-generation&quot;,&quot;library_name&quot;:&quot;vllm&quot;,&quot;librariesOther&quot;:[],&quot;trackDownloads&quot;:true,&quot;model-index&quot;:null,&quot;evalResults&quot;:[{&quot;dataset&quot;:{&quot;id&quot;:&quot;TIGER-Lab/MMLU-Pro&quot;,&quot;isBenchmark&quot;:true,&quot;task_id&quot;:&quot;mmlu_pro&quot;},&quot;value&quot;:80,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
-%}&quot;,&quot;eos_token&quot;:&quot;&lt;|im_end|>&quot;,&quot;pad_token&quot;:&quot;&lt;|endoftext|>&quot;,&quot;unk_token&quot;:null}},&quot;createdAt&quot;:&quot;2026-10-02T05:54:02.000Z&quot;,&quot;discussionsDisabled&quot;:false,&quot;discussionsSorting&quot;:&quot;recently-created&quot;,&quot;downloads&quot;:15335,&quot;downloadsAllTime&quot;:15335,&quot;id&quot;:&quot;Aleph-Alpha/Kolibri-1&quot;,&quot;isLikedByUser&quot;:false,&quot;availableInferenceProviders&quot;:[],&quot;showHuggingChatEntry&quot;:false,&quot;inference&quot;:&quot;&quot;,&quot;lastModified&quot;:&quot;2026-10-13T10:57:07.000Z&quot;,&quot;likes&quot;:928,&quot;pipeline_tag&quot;:&quot;text-generation&quot;,&quot;library_name&quot;:&quot;vllm&quot;,&quot;librariesOther&quot;:[],&quot;trackDownloads&quot;:true,&quot;model-index&quot;:null,&quot;evalResults&quot;:[{&quot;dataset&quot;:{&quot;id&quot;:&quot;TIGER-Lab/MMLU-Pro&quot;,&quot;isBenchmark&quot;:true,&quot;task_id&quot;:&quot;mmlu_pro&quot;},&quot;value&quot;:80,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
+%}&quot;,&quot;eos_token&quot;:&quot;&lt;|im_end|>&quot;,&quot;pad_token&quot;:&quot;&lt;|endoftext|>&quot;,&quot;unk_token&quot;:null}},&quot;createdAt&quot;:&quot;2026-10-02T05:54:02.000Z&quot;,&quot;discussionsDisabled&quot;:false,&quot;discussionsSorting&quot;:&quot;recently-created&quot;,&quot;downloads&quot;:16805,&quot;downloadsAllTime&quot;:16805,&quot;id&quot;:&quot;Aleph-Alpha/Kolibri-1&quot;,&quot;isLikedByUser&quot;:false,&quot;availableInferenceProviders&quot;:[],&quot;showHuggingChatEntry&quot;:false,&quot;inference&quot;:&quot;&quot;,&quot;lastModified&quot;:&quot;2026-10-13T10:57:07.000Z&quot;,&quot;likes&quot;:938,&quot;pipeline_tag&quot;:&quot;text-generation&quot;,&quot;library_name&quot;:&quot;vllm&quot;,&quot;librariesOther&quot;:[],&quot;trackDownloads&quot;:true,&quot;model-index&quot;:null,&quot;evalResults&quot;:[{&quot;dataset&quot;:{&quot;id&quot;:&quot;TIGER-Lab/MMLU-Pro&quot;,&quot;isBenchmark&quot;:true,&quot;task_id&quot;:&quot;mmlu_pro&quot;},&quot;value&quot;:80,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
+%}&quot;,&quot;eos_token&quot;:&quot;&lt;|im_end|>&quot;,&quot;pad_token&quot;:&quot;&lt;|endoftext|>&quot;,&quot;unk_token&quot;:null}},&quot;createdAt&quot;:&quot;2026-10-02T05:54:02.000Z&quot;,&quot;discussionsDisabled&quot;:false,&quot;discussionsSorting&quot;:&quot;recently-created&quot;,&quot;downloads&quot;:16805,&quot;downloadsAllTime&quot;:16805,&quot;id&quot;:&quot;Aleph-Alpha/Kolibri-1&quot;,&quot;isLikedByUser&quot;:false,&quot;availableInferenceProviders&quot;:[],&quot;showHuggingChatEntry&quot;:false,&quot;inference&quot;:&quot;&quot;,&quot;lastModified&quot;:&quot;2026-10-13T10:57:07.000Z&quot;,&quot;likes&quot;:938,&quot;pipeline_tag&quot;:&quot;text-generation&quot;,&quot;library_name&quot;:&quot;vllm&quot;,&quot;librariesOther&quot;:[],&quot;trackDownloads&quot;:true,&quot;model-index&quot;:null,&quot;evalResults&quot;:[{&quot;dataset&quot;:{&quot;id&quot;:&quot;TIGER-Lab/MMLU-Pro&quot;,&quot;isBenchmark&quot;:true,&quot;task_id&quot;:&quot;mmlu_pro&quot;},&quot;value&quot;:80,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
+%}&quot;,&quot;eos_token&quot;:&quot;&lt;|im_end|>&quot;,&quot;pad_token&quot;:&quot;&lt;|endoftext|>&quot;,&quot;unk_token&quot;:null}},&quot;createdAt&quot;:&quot;2026-10-02T05:54:02.000Z&quot;,&quot;discussionsDisabled&quot;:false,&quot;discussionsSorting&quot;:&quot;recently-created&quot;,&quot;downloads&quot;:16805,&quot;downloadsAllTime&quot;:16805,&quot;id&quot;:&quot;Aleph-Alpha/Kolibri-1&quot;,&quot;isLikedByUser&quot;:false,&quot;availableInferenceProviders&quot;:[],&quot;showHuggingChatEntry&quot;:false,&quot;inference&quot;:&quot;&quot;,&quot;lastModified&quot;:&quot;2026-10-13T10:57:07.000Z&quot;,&quot;likes&quot;:938,&quot;pipeline_tag&quot;:&quot;text-generation&quot;,&quot;library_name&quot;:&quot;vllm&quot;,&quot;librariesOther&quot;:[],&quot;trackDownloads&quot;:true,&quot;model-index&quot;:null,&quot;evalResults&quot;:[{&quot;dataset&quot;:{&quot;id&quot;:&quot;TIGER-Lab/MMLU-Pro&quot;,&quot;isBenchmark&quot;:true,&quot;task_id&quot;:&quot;mmlu_pro&quot;},&quot;value&quot;:80,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
+%}&quot;,&quot;eos_token&quot;:&quot;&lt;|im_end|>&quot;,&quot;pad_token&quot;:&quot;&lt;|endoftext|>&quot;,&quot;unk_token&quot;:null}},&quot;createdAt&quot;:&quot;2026-10-02T05:54:02.000Z&quot;,&quot;discussionsDisabled&quot;:false,&quot;discussionsSorting&quot;:&quot;recently-created&quot;,&quot;downloads&quot;:16805,&quot;downloadsAllTime&quot;:16805,&quot;id&quot;:&quot;Aleph-Alpha/Kolibri-1&quot;,&quot;isLikedByUser&quot;:false,&quot;availableInferenceProviders&quot;:[],&quot;showHuggingChatEntry&quot;:false,&quot;inference&quot;:&quot;&quot;,&quot;lastModified&quot;:&quot;2026-10-13T10:57:07.000Z&quot;,&quot;likes&quot;:938,&quot;pipeline_tag&quot;:&quot;text-generation&quot;,&quot;library_name&quot;:&quot;vllm&quot;,&quot;librariesOther&quot;:[],&quot;trackDownloads&quot;:true,&quot;model-index&quot;:null,&quot;evalResults&quot;:[{&quot;dataset&quot;:{&quot;id&quot;:&quot;TIGER-Lab/MMLU-Pro&quot;,&quot;isBenchmark&quot;:true,&quot;task_id&quot;:&quot;mmlu_pro&quot;},&quot;value&quot;:80,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
 %}\n
 %}\n
 %}\n
@@ -856,7 +856,6 @@
 106B-A12B
 106B-A12B
 10k
-11
 11.1
 11.3
 11.3
@@ -867,7 +866,6 @@
 11.9%
 119B-A6B
 11k
-12
 12.1
 12.1
 12.3
@@ -883,6 +881,7 @@
 128×128
 12B
 12B
+13
 13.1
 13.2%
 13.5
@@ -902,7 +901,6 @@
 14.7
 14.8
 15%
-15,335
 15.0
 15.4
 15.4%
@@ -911,9 +909,11 @@
 15.8%
 15.9
 16
+16
 16,384
 16,384
 16,384-token
+16,805
 16.0
 16.0
 16.3%
@@ -963,6 +963,7 @@
 2
 2
 2
+2
 2,560
 2.0
 2.0
@@ -994,10 +995,10 @@
 2026
 2026
 2026
-2026&quot;},{&quot;dataset&quot;:{&quot;id&quot;:&quot;SWE-bench/SWE-bench_Verified&quot;,&quot;isBenchmark&quot;:true,&quot;task_id&quot;:&quot;swe_bench_%_resolved&quot;},&quot;value&quot;:66.4,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
-2026&quot;},{&quot;dataset&quot;:{&quot;id&quot;:&quot;SWE-bench/SWE-bench_Verified&quot;,&quot;isBenchmark&quot;:true,&quot;task_id&quot;:&quot;swe_bench_%_resolved&quot;},&quot;value&quot;:66.4,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
-2026&quot;},{&quot;dataset&quot;:{&quot;id&quot;:&quot;SWE-bench/SWE-bench_Verified&quot;,&quot;isBenchmark&quot;:true,&quot;task_id&quot;:&quot;swe_bench_%_resolved&quot;},&quot;value&quot;:66.4,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
-2026&quot;},{&quot;dataset&quot;:{&quot;id&quot;:&quot;SWE-bench/SWE-bench_Verified&quot;,&quot;isBenchmark&quot;:true,&quot;task_id&quot;:&quot;swe_bench_%_resolved&quot;},&quot;value&quot;:66.4,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
+2026&quot;},{&quot;dataset&quot;:{&quot;id&quot;:&quot;cais/hle&quot;,&quot;isBenchmark&quot;:false,&quot;task_id&quot;:&quot;hle&quot;},&quot;value&quot;:21.5,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
+2026&quot;},{&quot;dataset&quot;:{&quot;id&quot;:&quot;cais/hle&quot;,&quot;isBenchmark&quot;:false,&quot;task_id&quot;:&quot;hle&quot;},&quot;value&quot;:21.5,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
+2026&quot;},{&quot;dataset&quot;:{&quot;id&quot;:&quot;cais/hle&quot;,&quot;isBenchmark&quot;:false,&quot;task_id&quot;:&quot;hle&quot;},&quot;value&quot;:21.5,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
+2026&quot;},{&quot;dataset&quot;:{&quot;id&quot;:&quot;cais/hle&quot;,&quot;isBenchmark&quot;:false,&quot;task_id&quot;:&quot;hle&quot;},&quot;value&quot;:21.5,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
 2026).
 2026,
 2048
@@ -1279,7 +1280,6 @@
 4:1
 4:1
 4k
-5
 5
 5
 5
@@ -2237,7 +2237,6 @@
 92.7
 92.8
 92.8
-928
 93.0
 93.0
 93.1
@@ -2246,6 +2245,7 @@
 93.4
 93.7
 93.8
+938
 94.0
 94.1
 94.2
@@ -2296,8 +2296,8 @@
 97.8
 97.8
 97.9
-976
 98.5
+989
 99.0
 99.1
 99.3
@@ -2632,10 +2632,10 @@ Chinese
 Closed-Book
 CoT
 CoT
-CoT).&quot;},{&quot;dataset&quot;:{&quot;id&quot;:&quot;MathArena/aime_2026&quot;,&quot;isBenchmark&quot;:true,&quot;task_id&quot;:&quot;MathArena/aime_2026&quot;},&quot;value&quot;:96,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
-CoT).&quot;},{&quot;dataset&quot;:{&quot;id&quot;:&quot;MathArena/aime_2026&quot;,&quot;isBenchmark&quot;:true,&quot;task_id&quot;:&quot;MathArena/aime_2026&quot;},&quot;value&quot;:96,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
-CoT).&quot;},{&quot;dataset&quot;:{&quot;id&quot;:&quot;MathArena/aime_2026&quot;,&quot;isBenchmark&quot;:true,&quot;task_id&quot;:&quot;MathArena/aime_2026&quot;},&quot;value&quot;:96,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
-CoT).&quot;},{&quot;dataset&quot;:{&quot;id&quot;:&quot;MathArena/aime_2026&quot;,&quot;isBenchmark&quot;:true,&quot;task_id&quot;:&quot;MathArena/aime_2026&quot;},&quot;value&quot;:96,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
+CoT).&quot;},{&quot;dataset&quot;:{&quot;id&quot;:&quot;SWE-bench/SWE-bench_Verified&quot;,&quot;isBenchmark&quot;:true,&quot;task_id&quot;:&quot;swe_bench_%_resolved&quot;},&quot;value&quot;:66.4,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
+CoT).&quot;},{&quot;dataset&quot;:{&quot;id&quot;:&quot;SWE-bench/SWE-bench_Verified&quot;,&quot;isBenchmark&quot;:true,&quot;task_id&quot;:&quot;swe_bench_%_resolved&quot;},&quot;value&quot;:66.4,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
+CoT).&quot;},{&quot;dataset&quot;:{&quot;id&quot;:&quot;SWE-bench/SWE-bench_Verified&quot;,&quot;isBenchmark&quot;:true,&quot;task_id&quot;:&quot;swe_bench_%_resolved&quot;},&quot;value&quot;:66.4,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
+CoT).&quot;},{&quot;dataset&quot;:{&quot;id&quot;:&quot;SWE-bench/SWE-bench_Verified&quot;,&quot;isBenchmark&quot;:true,&quot;task_id&quot;:&quot;swe_bench_%_resolved&quot;},&quot;value&quot;:66.4,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
 Code
 Code
 Code
@@ -3622,7 +3622,7 @@ Type
 URL
 URL
 URL-level
-US&quot;,&quot;id&quot;:&quot;region:us&quot;}],&quot;safetensors&quot;:{&quot;parameters&quot;:{&quot;BF16&quot;:705058560,&quot;F8_E4M3&quot;:77398016000},&quot;total&quot;:78103074560,&quot;sharded&quot;:true,&quot;totalFileSize&quot;:78852606661},&quot;hasBlockedOids&quot;:false,&quot;region&quot;:&quot;us&quot;,&quot;isQuantized&quot;:true,&quot;licenseFilePath&quot;:&quot;LICENSE&quot;},&quot;discussionsStats&quot;:{&quot;closed&quot;:1,&quot;open&quot;:11,&quot;total&quot;:12},&quot;query&quot;:{},&quot;inferenceContextData&quot;:{&quot;billableEntities&quot;:[],&quot;entityName2Providers&quot;:{}},&quot;hasQuantizations&quot;:true,&quot;copyToBucketNamespaces&quot;:[]}">
+US&quot;,&quot;id&quot;:&quot;region:us&quot;}],&quot;safetensors&quot;:{&quot;parameters&quot;:{&quot;BF16&quot;:705058560,&quot;F8_E4M3&quot;:77398016000},&quot;total&quot;:78103074560,&quot;sharded&quot;:true,&quot;totalFileSize&quot;:78852606661},&quot;hasBlockedOids&quot;:false,&quot;region&quot;:&quot;us&quot;,&quot;isQuantized&quot;:true,&quot;licenseFilePath&quot;:&quot;LICENSE&quot;},&quot;discussionsStats&quot;:{&quot;closed&quot;:1,&quot;open&quot;:15,&quot;total&quot;:16},&quot;query&quot;:{},&quot;inferenceContextData&quot;:{&quot;billableEntities&quot;:[],&quot;entityName2Providers&quot;:{}},&quot;hasQuantizations&quot;:true,&quot;copyToBucketNamespaces&quot;:[]}">
 US&quot;,&quot;id&quot;:&quot;region:us&quot;}],&quot;safetensors&quot;:{&quot;parameters&quot;:{&quot;BF16&quot;:705058560,&quot;F8_E4M3&quot;:77398016000},&quot;total&quot;:78103074560,&quot;sharded&quot;:true,&quot;totalFileSize&quot;:78852606661},&quot;hasBlockedOids&quot;:false,&quot;region&quot;:&quot;us&quot;,&quot;isQuantized&quot;:true,&quot;licenseFilePath&quot;:&quot;LICENSE&quot;},&quot;inferenceContextData&quot;:{&quot;billableEntities&quot;:[],&quot;entityName2Providers&quot;:{}},&quot;canWrite&quot;:false}">
 US&quot;,&quot;id&quot;:&quot;region:us&quot;}],&quot;safetensors&quot;:{&quot;parameters&quot;:{&quot;BF16&quot;:705058560,&quot;F8_E4M3&quot;:77398016000},&quot;total&quot;:78103074560,&quot;sharded&quot;:true,&quot;totalFileSize&quot;:78852606661},&quot;hasBlockedOids&quot;:false,&quot;region&quot;:&quot;us&quot;,&quot;isQuantized&quot;:true,&quot;licenseFilePath&quot;:&quot;LICENSE&quot;},&quot;queryParams&quot;:{},&quot;inferenceContextData&quot;:{&quot;billableEntities&quot;:[],&quot;entityName2Providers&quot;:{}},&quot;linkToInferenceDiscussion&quot;:{&quot;url&quot;:&quot;/spaces/huggingface/InferenceSupport/discussions/12758&quot;,&quot;numReactions&quot;:22},&quot;isLoggedIn&quot;:false,&quot;canWrite&quot;:false,&quot;examples&quot;:[],&quot;widgetType&quot;:&quot;conversational&quot;,&quot;isMaximized&quot;:false,&quot;isMac&quot;:false}}">
 US&quot;,&quot;id&quot;:&quot;region:us&quot;}],&quot;safetensors&quot;:{&quot;parameters&quot;:{&quot;BF16&quot;:705058560,&quot;F8_E4M3&quot;:77398016000},&quot;total&quot;:78103074560,&quot;sharded&quot;:true,&quot;totalFileSize&quot;:78852606661},&quot;hasBlockedOids&quot;:false,&quot;region&quot;:&quot;us&quot;,&quot;isQuantized&quot;:true,&quot;licenseFilePath&quot;:&quot;LICENSE&quot;}}">
@@ -4647,10 +4647,10 @@ capacity
 capped
 card
 card
-card&quot;,&quot;isExternal&quot;:false},&quot;filename&quot;:&quot;.eval_results/Kolibri-1.yaml&quot;,&quot;verified&quot;:false,&quot;pullRequest&quot;:6,&quot;label&quot;:&quot;Diamond&quot;},{&quot;dataset&quot;:{&quot;id&quot;:&quot;cais/hle&quot;,&quot;isBenchmark&quot;:false,&quot;task_id&quot;:&quot;hle&quot;},&quot;value&quot;:21.5,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
-card&quot;,&quot;isExternal&quot;:false},&quot;filename&quot;:&quot;.eval_results/Kolibri-1.yaml&quot;,&quot;verified&quot;:false,&quot;pullRequest&quot;:6,&quot;label&quot;:&quot;Diamond&quot;},{&quot;dataset&quot;:{&quot;id&quot;:&quot;cais/hle&quot;,&quot;isBenchmark&quot;:false,&quot;task_id&quot;:&quot;hle&quot;},&quot;value&quot;:21.5,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
-card&quot;,&quot;isExternal&quot;:false},&quot;filename&quot;:&quot;.eval_results/Kolibri-1.yaml&quot;,&quot;verified&quot;:false,&quot;pullRequest&quot;:6,&quot;label&quot;:&quot;Diamond&quot;},{&quot;dataset&quot;:{&quot;id&quot;:&quot;cais/hle&quot;,&quot;isBenchmark&quot;:false,&quot;task_id&quot;:&quot;hle&quot;},&quot;value&quot;:21.5,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
-card&quot;,&quot;isExternal&quot;:false},&quot;filename&quot;:&quot;.eval_results/Kolibri-1.yaml&quot;,&quot;verified&quot;:false,&quot;pullRequest&quot;:6,&quot;label&quot;:&quot;Diamond&quot;},{&quot;dataset&quot;:{&quot;id&quot;:&quot;cais/hle&quot;,&quot;isBenchmark&quot;:false,&quot;task_id&quot;:&quot;hle&quot;},&quot;value&quot;:21.5,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
+card&quot;,&quot;isExternal&quot;:false},&quot;filename&quot;:&quot;.eval_results/Kolibri-1.yaml&quot;,&quot;verified&quot;:false,&quot;pullRequest&quot;:6,&quot;label&quot;:&quot;Diamond&quot;},{&quot;dataset&quot;:{&quot;id&quot;:&quot;MathArena/aime_2026&quot;,&quot;isBenchmark&quot;:true,&quot;task_id&quot;:&quot;MathArena/aime_2026&quot;},&quot;value&quot;:96,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
+card&quot;,&quot;isExternal&quot;:false},&quot;filename&quot;:&quot;.eval_results/Kolibri-1.yaml&quot;,&quot;verified&quot;:false,&quot;pullRequest&quot;:6,&quot;label&quot;:&quot;Diamond&quot;},{&quot;dataset&quot;:{&quot;id&quot;:&quot;MathArena/aime_2026&quot;,&quot;isBenchmark&quot;:true,&quot;task_id&quot;:&quot;MathArena/aime_2026&quot;},&quot;value&quot;:96,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
+card&quot;,&quot;isExternal&quot;:false},&quot;filename&quot;:&quot;.eval_results/Kolibri-1.yaml&quot;,&quot;verified&quot;:false,&quot;pullRequest&quot;:6,&quot;label&quot;:&quot;Diamond&quot;},{&quot;dataset&quot;:{&quot;id&quot;:&quot;MathArena/aime_2026&quot;,&quot;isBenchmark&quot;:true,&quot;task_id&quot;:&quot;MathArena/aime_2026&quot;},&quot;value&quot;:96,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
+card&quot;,&quot;isExternal&quot;:false},&quot;filename&quot;:&quot;.eval_results/Kolibri-1.yaml&quot;,&quot;verified&quot;:false,&quot;pullRequest&quot;:6,&quot;label&quot;:&quot;Diamond&quot;},{&quot;dataset&quot;:{&quot;id&quot;:&quot;MathArena/aime_2026&quot;,&quot;isBenchmark&quot;:true,&quot;task_id&quot;:&quot;MathArena/aime_2026&quot;},&quot;value&quot;:96,&quot;source&quot;:{&quot;url&quot;:&quot;https://huggingface.co/Aleph-Alpha/Kolibri-1&quot;,&quot;name&quot;:&quot;Aleph-Alpha/Kolibri-1
 card&quot;,&quot;isExternal&quot;:false},&quot;filename&quot;:&quot;.eval_results/Kolibri-1.yaml&quot;,&quot;verified&quot;:false,&quot;pullRequest&quot;:6,&quot;label&quot;:&quot;Hle&quot;}],&quot;private&quot;:false,&quot;repoType&quot;:&quot;model&quot;,&quot;gated&quot;:false,&quot;tags&quot;:[&quot;vllm&quot;,&quot;safetensors&quot;,&quot;kolibri1&quot;,&quot;reasoning&quot;,&quot;moe&quot;,&quot;text-generation&quot;,&quot;conversational&quot;,&quot;de&quot;,&quot;en&quot;,&quot;arxiv:2512.11614&quot;,&quot;arxiv:2601.17858&quot;,&quot;base_model:Aleph-Alpha/Kolibri-1-BF16&quot;,&quot;base_model:quantized:Aleph-Alpha/Kolibri-1-BF16&quot;,&quot;license:apache-2.0&quot;,&quot;eval-results&quot;,&quot;fp8&quot;,&quot;region:us&quot;],&quot;tag_objs&quot;:[{&quot;id&quot;:&quot;text-generation&quot;,&quot;label&quot;:&quot;Text
 card&quot;,&quot;isExternal&quot;:false},&quot;filename&quot;:&quot;.eval_results/Kolibri-1.yaml&quot;,&quot;verified&quot;:false,&quot;pullRequest&quot;:6,&quot;label&quot;:&quot;Hle&quot;}],&quot;private&quot;:false,&quot;repoType&quot;:&quot;model&quot;,&quot;gated&quot;:false,&quot;tags&quot;:[&quot;vllm&quot;,&quot;safetensors&quot;,&quot;kolibri1&quot;,&quot;reasoning&quot;,&quot;moe&quot;,&quot;text-generation&quot;,&quot;conversational&quot;,&quot;de&quot;,&quot;en&quot;,&quot;arxiv:2512.11614&quot;,&quot;arxiv:2601.17858&quot;,&quot;base_model:Aleph-Alpha/Kolibri-1-BF16&quot;,&quot;base_model:quantized:Aleph-Alpha/Kolibri-1-BF16&quot;,&quot;license:apache-2.0&quot;,&quot;eval-results&quot;,&quot;fp8&quot;,&quot;region:us&quot;],&quot;tag_objs&quot;:[{&quot;id&quot;:&quot;text-generation&quot;,&quot;label&quot;:&quot;Text
 card&quot;,&quot;isExternal&quot;:false},&quot;filename&quot;:&quot;.eval_results/Kolibri-1.yaml&quot;,&quot;verified&quot;:false,&quot;pullRequest&quot;:6,&quot;label&quot;:&quot;Hle&quot;}],&quot;private&quot;:false,&quot;repoType&quot;:&quot;model&quot;,&quot;gated&quot;:false,&quot;tags&quot;:[&quot;vllm&quot;,&quot;safetensors&quot;,&quot;kolibri1&quot;,&quot;reasoning&quot;,&quot;moe&quot;,&quot;text-generation&quot;,&quot;conversational&quot;,&quot;de&quot;,&quot;en&quot;,&quot;arxiv:2512.11614&quot;,&quot;arxiv:2601.17858&quot;,&quot;base_model:Aleph-Alpha/Kolibri-1-BF16&quot;,&quot;base_model:quantized:Aleph-Alpha/Kolibri-1-BF16&quot;,&quot;license:apache-2.0&quot;,&quot;eval-results&quot;,&quot;fp8&quot;,&quot;region:us&quot;],&quot;tag_objs&quot;:[{&quot;id&quot;:&quot;text-generation&quot;,&quot;label&quot;:&quot;Text
@@ -5197,11 +5197,9 @@ else
 else
 else,
 email
-emanforhelp/model-pulse
 embedding
 embeddings
 embeddings,
-embedl/hfviewer
 emit
 empirically
 employed:
@@ -5437,7 +5435,6 @@ false
 fastText
 fastText
 fastText
-fastgpu/vram-and-gpu-cost-calculator
 few-shot
 field
 field.
@@ -9841,9 +9838,6 @@ your
 •
 −
 ≤262,144
-⚡
 🐦
 📈
-📈
 🙋
-🟩

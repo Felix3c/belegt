@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>belegbar.eu — Änderungen</title>
+  <title>belegbar.eu: Änderungen</title>
   <subtitle>Jede Status- und Quellenänderung der Evidenz-Datenbank, aus der öffentlichen Git-Historie berechnet.</subtitle>
   <id>https://belegbar.eu/aenderungen/</id>
   <link rel="alternate" href="https://belegbar.eu/aenderungen/"/>
@@ -8,214 +8,214 @@
   <updated>2026-10-15T00:00:00Z</updated>
   <rights>CC BY 4.0</rights>
   <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-black-forest-labs-ai-act-gpai-pflichten-als-modellanbieter-art.-53-ff.</id>
+    <title>Black Forest Labs: AI Act: GPAI-Pflichten als Modellanbieter (Art. 53 ff.) belegt → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-black-forest-labs-ai-act-gpai-pflichten-als-modellanbieter-art.-53-ff."/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Alte Quelle: https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai · Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-black-forest-labs-ai-act-pflichten-als-anbieter-von-basismodellen-gpai</id>
+    <title>Black Forest Labs: AI Act: Pflichten als Anbieter von Basismodellen (GPAI) – → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-black-forest-labs-ai-act-pflichten-als-anbieter-von-basismodellen-gpai"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Auf der EU-Kommissionsseite als Unterzeichner des General-Purpose AI Code of Practice gelistet (alle Kapitel, ohne Ausnahmen) · Neue Quelle: https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai · Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-15-black-forest-labs-modelle-flux-3-bild</id>
     <title>Black Forest Labs: Modell FLUX 3 (Bild) – → belegt</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-black-forest-labs-modelle-flux-3-bild"/>
     <updated>2026-10-15T00:00:00Z</updated>
-    <content type="text">Preis pro Bild nach Auflösung: 0,041 $ (768×768), 0,048 $ (1k), 0,07 $ (1.5k), 0,10 $ (2k), 0,607 $ (4k). Preise am 15.10.2026 aus der öffentlichen Preisdatenbank gelesen, aus der docs.bfl.ai/quick_start/pricing seit Oktober 2026 ihre Tabellen erst im Browser füllt (Sanity-Abfrage *[_type == &quot;pricing&quot;], Werte in Credits, 1 Credit = 0,01 $); Beleg belege/preise/black-forest-labs/2026-10-15-2gpum2i6-api-sanity-io-v2025-02-19-data-query-production.json. Standort laut docs.bfl.ai/api_integration/integration_guidelines (03.10.2026): global api.bfl.ai „routes requests across all available clusters globally“, api.eu.bfl.ai „multi-cluster routing limited to EU regions“, api.us.bfl.ai auf US-Regionen begrenzt; Cloud-Betreiber nicht genannt. · Neue Quelle: https://docs.bfl.ai/quick_start/pricing · Commit 7a1c334: fix: BFL-Preise aus der Sanity-Preisquelle belegt, FLUX 3 Video gesenkt, FLUX 3 Bild neu</content>
+    <content type="text">Preis pro Bild nach Auflösung: 0,041 $ (768×768), 0,048 $ (1k), 0,07 $ (1.5k), 0,10 $ (2k), 0,607 $ (4k). Preise am 15.10.2026 aus der öffentlichen Preisdatenbank gelesen, aus der docs.bfl.ai/quick_start/pricing seit Oktober 2026 ihre Tabellen erst im Browser füllt (Sanity-Abfrage *[_type == &quot;pricing&quot;], Werte in Credits, 1 Credit = 0,01 $); Beleg belege/preise/black-forest-labs/2026-10-15-2gpum2i6-api-sanity-io-v2025-02-19-data-query-production.json. Standort laut docs.bfl.ai/api_integration/integration_guidelines (03.10.2026): global api.bfl.ai „routes requests across all available clusters globally“, api.eu.bfl.ai „multi-cluster routing limited to EU regions“, api.us.bfl.ai auf US-Regionen begrenzt; Cloud-Betreiber nicht genannt. · Neue Quelle: https://docs.bfl.ai/quick_start/pricing · Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-deepl-ai-act-ai-act-spezifische-kundeninformation-art.-50</id>
+    <title>DeepL: AI Act: AI-Act-spezifische Kundeninformation (Art. 50) unbelegt → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-deepl-ai-act-ai-act-spezifische-kundeninformation-art.-50"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-deepl-ai-act-ai-act-spezifische-kundeninformation-transparenzpflichten</id>
+    <title>DeepL: AI Act: AI-Act-spezifische Kundeninformation (Transparenzpflichten) – → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-deepl-ai-act-ai-act-spezifische-kundeninformation-transparenzpflichten"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Keine dedizierte AI-Act-Infoseite gefunden; für den Finanzsektor existiert eine DORA-Seite (deepl.com/en/dora-info), die DeepL als ICT-Drittdienstleister für 'non-critical functions' einordnet · Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-deepl-ai-act-gpai-verhaltenskodex-code-of-practice-art.-53-55</id>
+    <title>DeepL: AI Act: GPAI-Verhaltenskodex (Code of Practice, Art. 53/55) unbelegt → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-deepl-ai-act-gpai-verhaltenskodex-code-of-practice-art.-53-55"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-deepl-ai-act-gpai-verhaltenskodex-code-of-practice</id>
+    <title>DeepL: AI Act: GPAI-Verhaltenskodex (Code of Practice) – → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-deepl-ai-act-gpai-verhaltenskodex-code-of-practice"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Keine öffentliche Aussage zur Unterzeichnung; DeepL taucht in der Signatory-Liste des EU AI Office nicht auf (geprüft 20.08.2026 und 08.10.2026; Liste am 08.10. mit 22 Unterzeichnern, darunter Aleph Alpha, Black Forest Labs, Mistral AI). Ob DeepLs In-house-Modelle als GPAI einzustufen sind, ist offen · Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-eurouter-ai-act-transparenz--compliance-angaben-zu-den-eu-regeln-f-r-ki</id>
+    <title>EUrouter: AI Act: Transparenz-/Compliance-Angaben zu den EU-Regeln für KI – → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-eurouter-ai-act-transparenz--compliance-angaben-zu-den-eu-regeln-f-r-ki"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Keine Angabe zur eigenen Rolle oder zu eigenen Pflichten. Fundstellen am 05.10.2026: Die Startseite nennt die neuen EU-Regeln für KI als Kaufgrund ('The […] introduces strict requirements for AI systems operating in Europe. Organizations must ensure transparency, accountability, and data governance for any AI they deploy.'), ohne zu sagen, was EUrouter dazu beiträgt; die AGB (Juni 2026, Ziffer 9) verpflichten den Kunden, beim Einsatz des Dienstes die EU-Regeln für KI einzuhalten. Der Slogan 'comply effortlessly' im Seitenfuß nennt kein Gesetz. Archivkopien web.archive.org/web/20261005043115 (Startseite), 20261005043013 (AGB) · Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-eurouter-ai-act-transparenz--compliance-angaben-zum-eu-ai-act</id>
+    <title>EUrouter: AI Act: Transparenz-/Compliance-Angaben zum EU AI Act unbelegt → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-eurouter-ai-act-transparenz--compliance-angaben-zum-eu-ai-act"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-gcore-ai-act-gpai-modellanbieter-pflichten-art.-53-ff.</id>
+    <title>Gcore: AI Act: GPAI-Modellanbieter-Pflichten (Art. 53 ff.) unbelegt → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-gcore-ai-act-gpai-modellanbieter-pflichten-art.-53-ff."/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-gcore-ai-act-gpai-modellanbieter-pflichten</id>
+    <title>Gcore: AI Act: GPAI-Modellanbieter-Pflichten – → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-gcore-ai-act-gpai-modellanbieter-pflichten"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Gcore hostet fremde Open-Source-Modelle als Infrastruktur-Anbieter, tritt nicht als GPAI-Modellanbieter auf; keine eigene AI-Act-Compliance-Dokumentation gefunden · Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-hetzner-ai-act-art.-53-transparenzdokumentation</id>
+    <title>Hetzner: AI Act: Art.-53-Transparenzdokumentation unbelegt → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-hetzner-ai-act-art.-53-transparenzdokumentation"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-hetzner-ai-act-transparenzdokumentation-f-r-basismodelle</id>
+    <title>Hetzner: AI Act: Transparenzdokumentation für Basismodelle – → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-hetzner-ai-act-transparenzdokumentation-f-r-basismodelle"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Hetzner serviert ein Fremdmodell (Qwen, Apache 2.0); die Transparenzpflichten für das Modell liegen beim Modellhersteller. Keine eigene Dokumentation dazu gefunden. · Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-infomaniak-ai-act-gpai-transparenzpflichten-art.-53-ai-act</id>
+    <title>Infomaniak: AI Act: GPAI-Transparenzpflichten (Art. 53 AI Act) unbelegt → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-infomaniak-ai-act-gpai-transparenzpflichten-art.-53-ai-act"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-infomaniak-ai-act-gpai-transparenzpflichten</id>
+    <title>Infomaniak: AI Act: GPAI-Transparenzpflichten – → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-infomaniak-ai-act-gpai-transparenzpflichten"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Infomaniak sitzt in der Schweiz und bietet die API auch im EU-Markt an. Infomaniak ist reiner Inferenz-Anbieter fremder Open-Source-Modelle, nicht Modellhersteller; keine eigene Selbsteinordnung dazu auffindbar (04.10.2026: weder die Produktseite noch die Bedingungen der LLM API nennen die EU-Regeln für KI; Ziffer 7 der Bedingungen sagt nur, Infomaniak respektiere die Lizenzen der eingesetzten Modelle) · Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-15-infomaniak-zertifikate-b-corp-.anwendungsbereich</id>
     <title>Infomaniak: B Corp: Anwendungsbereich unbelegt → belegt</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-infomaniak-zertifikate-b-corp-.anwendungsbereich"/>
     <updated>2026-10-15T00:00:00Z</updated>
-    <content type="text">B-Lab-Verzeichnis (Abruf 15.10.2026, HTTP 200; am 08.10.2026 noch HTTP 403): 'INFOMANIAK GROUP SA', 'Certified since 2025', 'Version of the Standards 2.2', 'Industry: Data processing &amp; hosting', 'Operates in: Switzerland'. Eine Punktzahl nennt das Profil nicht. B Corp bewertet das Unternehmen als Ganzes, nicht einzelne Dienste. Beleg belege/anbieter/infomaniak/bcorp-profil-2026-10-15.txt. · Alte Quelle: https://www.infomaniak.com/en/certifications · Neue Quelle: https://www.bcorporation.net/en-us/find-a-b-corp/company/infomaniak-group-sa/ · Commit 2596830: fix: Infomaniak B Corp - B-Lab-Verzeichnis jetzt lesbar, Zertifizierer und Geltungsbereich belegt (Beleg + SHA)</content>
+    <content type="text">B-Lab-Verzeichnis (Abruf 15.10.2026, HTTP 200; am 08.10.2026 noch HTTP 403): 'INFOMANIAK GROUP SA', 'Certified since 2025', 'Version of the Standards 2.2', 'Industry: Data processing &amp; hosting', 'Operates in: Switzerland'. Eine Punktzahl nennt das Profil nicht. B Corp bewertet das Unternehmen als Ganzes, nicht einzelne Dienste. Beleg belege/anbieter/infomaniak/bcorp-profil-2026-10-15.txt. · Alte Quelle: https://www.infomaniak.com/en/certifications · Neue Quelle: https://www.bcorporation.net/en-us/find-a-b-corp/company/infomaniak-group-sa/ · Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-15-infomaniak-zertifikate-b-corp-.zertifizierer</id>
     <title>Infomaniak: B Corp: Zertifizierer beansprucht → belegt</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-infomaniak-zertifikate-b-corp-.zertifizierer"/>
     <updated>2026-10-15T00:00:00Z</updated>
-    <content type="text">Eintrag im Verzeichnis von B Lab selbst: 'INFOMANIAK GROUP SA - Certified B Corporation - B Lab' (Abruf 15.10.2026; am 08.10.2026 noch HTTP 403). Beleg belege/anbieter/infomaniak/bcorp-profil-2026-10-15.txt. · Alte Quelle: https://www.infomaniak.com/en/certifications · Neue Quelle: https://www.bcorporation.net/en-us/find-a-b-corp/company/infomaniak-group-sa/ · Commit 2596830: fix: Infomaniak B Corp - B-Lab-Verzeichnis jetzt lesbar, Zertifizierer und Geltungsbereich belegt (Beleg + SHA)</content>
+    <content type="text">Eintrag im Verzeichnis von B Lab selbst: 'INFOMANIAK GROUP SA - Certified B Corporation - B Lab' (Abruf 15.10.2026; am 08.10.2026 noch HTTP 403). Beleg belege/anbieter/infomaniak/bcorp-profil-2026-10-15.txt. · Alte Quelle: https://www.infomaniak.com/en/certifications · Neue Quelle: https://www.bcorporation.net/en-us/find-a-b-corp/company/infomaniak-group-sa/ · Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
   </entry>
   <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-14-black-forest-labs-ai-act-gpai-pflichten-als-modellanbieter-art.-53-ff.</id>
-    <title>Black Forest Labs: AI Act: GPAI-Pflichten als Modellanbieter (Art. 53 ff.) belegt → –</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-black-forest-labs-ai-act-gpai-pflichten-als-modellanbieter-art.-53-ff."/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <content type="text">Alte Quelle: https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-14-black-forest-labs-ai-act-pflichten-als-anbieter-von-basismodellen-gpai</id>
-    <title>Black Forest Labs: AI Act: Pflichten als Anbieter von Basismodellen (GPAI) – → belegt</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-black-forest-labs-ai-act-pflichten-als-anbieter-von-basismodellen-gpai"/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <content type="text">Auf der EU-Kommissionsseite als Unterzeichner des General-Purpose AI Code of Practice gelistet (alle Kapitel, ohne Ausnahmen) · Neue Quelle: https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-14-deepl-ai-act-ai-act-spezifische-kundeninformation-art.-50</id>
-    <title>DeepL: AI Act: AI-Act-spezifische Kundeninformation (Art. 50) unbelegt → –</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-deepl-ai-act-ai-act-spezifische-kundeninformation-art.-50"/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <content type="text">Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-14-deepl-ai-act-ai-act-spezifische-kundeninformation-transparenzpflichten</id>
-    <title>DeepL: AI Act: AI-Act-spezifische Kundeninformation (Transparenzpflichten) – → unbelegt</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-deepl-ai-act-ai-act-spezifische-kundeninformation-transparenzpflichten"/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <content type="text">Keine dedizierte AI-Act-Infoseite gefunden; für den Finanzsektor existiert eine DORA-Seite (deepl.com/en/dora-info), die DeepL als ICT-Drittdienstleister für 'non-critical functions' einordnet · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-14-deepl-ai-act-gpai-verhaltenskodex-code-of-practice-art.-53-55</id>
-    <title>DeepL: AI Act: GPAI-Verhaltenskodex (Code of Practice, Art. 53/55) unbelegt → –</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-deepl-ai-act-gpai-verhaltenskodex-code-of-practice-art.-53-55"/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <content type="text">Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-14-deepl-ai-act-gpai-verhaltenskodex-code-of-practice</id>
-    <title>DeepL: AI Act: GPAI-Verhaltenskodex (Code of Practice) – → unbelegt</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-deepl-ai-act-gpai-verhaltenskodex-code-of-practice"/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <content type="text">Keine öffentliche Aussage zur Unterzeichnung; DeepL taucht in der Signatory-Liste des EU AI Office nicht auf (geprüft 20.08.2026 und 08.10.2026; Liste am 08.10. mit 22 Unterzeichnern, darunter Aleph Alpha, Black Forest Labs, Mistral AI). Ob DeepLs In-house-Modelle als GPAI einzustufen sind, ist offen · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-14-eurouter-ai-act-transparenz--compliance-angaben-zu-den-eu-regeln-f-r-ki</id>
-    <title>EUrouter: AI Act: Transparenz-/Compliance-Angaben zu den EU-Regeln für KI – → unbelegt</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-eurouter-ai-act-transparenz--compliance-angaben-zu-den-eu-regeln-f-r-ki"/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <content type="text">Keine Angabe zur eigenen Rolle oder zu eigenen Pflichten. Fundstellen am 05.10.2026: Die Startseite nennt die neuen EU-Regeln für KI als Kaufgrund ('The […] introduces strict requirements for AI systems operating in Europe. Organizations must ensure transparency, accountability, and data governance for any AI they deploy.'), ohne zu sagen, was EUrouter dazu beiträgt; die AGB (Juni 2026, Ziffer 9) verpflichten den Kunden, beim Einsatz des Dienstes die EU-Regeln für KI einzuhalten. Der Slogan 'comply effortlessly' im Seitenfuß nennt kein Gesetz. Archivkopien web.archive.org/web/20261005043115 (Startseite), 20261005043013 (AGB) · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-14-eurouter-ai-act-transparenz--compliance-angaben-zum-eu-ai-act</id>
-    <title>EUrouter: AI Act: Transparenz-/Compliance-Angaben zum EU AI Act unbelegt → –</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-eurouter-ai-act-transparenz--compliance-angaben-zum-eu-ai-act"/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <content type="text">Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-14-gcore-ai-act-gpai-modellanbieter-pflichten-art.-53-ff.</id>
-    <title>Gcore: AI Act: GPAI-Modellanbieter-Pflichten (Art. 53 ff.) unbelegt → –</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-gcore-ai-act-gpai-modellanbieter-pflichten-art.-53-ff."/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <content type="text">Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-14-gcore-ai-act-gpai-modellanbieter-pflichten</id>
-    <title>Gcore: AI Act: GPAI-Modellanbieter-Pflichten – → unbelegt</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-gcore-ai-act-gpai-modellanbieter-pflichten"/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <content type="text">Gcore hostet fremde Open-Source-Modelle als Infrastruktur-Anbieter, tritt nicht als GPAI-Modellanbieter auf; keine eigene AI-Act-Compliance-Dokumentation gefunden · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-14-hetzner-ai-act-art.-53-transparenzdokumentation</id>
-    <title>Hetzner: AI Act: Art.-53-Transparenzdokumentation unbelegt → –</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-hetzner-ai-act-art.-53-transparenzdokumentation"/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <content type="text">Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-14-hetzner-ai-act-transparenzdokumentation-f-r-basismodelle</id>
-    <title>Hetzner: AI Act: Transparenzdokumentation für Basismodelle – → unbelegt</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-hetzner-ai-act-transparenzdokumentation-f-r-basismodelle"/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <content type="text">Hetzner serviert ein Fremdmodell (Qwen, Apache 2.0); die Transparenzpflichten für das Modell liegen beim Modellhersteller. Keine eigene Dokumentation dazu gefunden. · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-14-infomaniak-ai-act-gpai-transparenzpflichten-art.-53-ai-act</id>
-    <title>Infomaniak: AI Act: GPAI-Transparenzpflichten (Art. 53 AI Act) unbelegt → –</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-infomaniak-ai-act-gpai-transparenzpflichten-art.-53-ai-act"/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <content type="text">Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-14-infomaniak-ai-act-gpai-transparenzpflichten</id>
-    <title>Infomaniak: AI Act: GPAI-Transparenzpflichten – → unbelegt</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-infomaniak-ai-act-gpai-transparenzpflichten"/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <content type="text">Infomaniak sitzt in der Schweiz und bietet die API auch im EU-Markt an. Infomaniak ist reiner Inferenz-Anbieter fremder Open-Source-Modelle, nicht Modellhersteller; keine eigene Selbsteinordnung dazu auffindbar (04.10.2026: weder die Produktseite noch die Bedingungen der LLM API nennen die EU-Regeln für KI; Ziffer 7 der Bedingungen sagt nur, Infomaniak respektiere die Lizenzen der eingesetzten Modelle) · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-14-mistral-ai-act-art.-53-transparenzdokumentation-model-documentation-form-ver-ffentlicht</id>
-    <title>Mistral AI (La Plateforme): AI Act: Art.-53-Transparenzdokumentation (Model Documentation Form) veröffentlicht unbelegt → –</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-mistral-ai-act-art.-53-transparenzdokumentation-model-documentation-form-ver-ffentlicht"/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <content type="text">Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-14-mistral-ai-act-transparenzdokumentation-f-r-basismodelle-model-documentation-form-ver-ffentlicht</id>
-    <title>Mistral AI (La Plateforme): AI Act: Transparenzdokumentation für Basismodelle (Model Documentation Form) veröffentlicht – → unbelegt</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-mistral-ai-act-transparenzdokumentation-f-r-basismodelle-model-documentation-form-ver-ffentlicht"/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <content type="text">Als CoP-Signatar verpflichtet, ein konkretes veröffentlichtes Dokument wurde aber nicht gefunden. · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-14-nordference-ai-act-transparenz--compliance-angaben-zu-den-eu-regeln-f-r-ki</id>
-    <title>Nordference: AI Act: Transparenz-/Compliance-Angaben zu den EU-Regeln für KI – → beansprucht</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-nordference-ai-act-transparenz--compliance-angaben-zu-den-eu-regeln-f-r-ki"/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <content type="text">Vergleichstabelle auf der Startseite: Zeile zur Bereitschaft für die EU-Regeln für KI ('… Ready') mit Häkchen bei Nordference ('Typical Providers': 'Varies'). Kein Dokument, keine Erklärung, was damit zugesagt ist; die About-Seite kündigt nur künftige Anforderungen dieser Regeln an ('upcoming … requirements'). Bis 03.10.2026 stand hier 'unbelegt, keinerlei Angaben' — das Häkchen steht nicht als Text auf der Seite, sondern entsteht aus der Tabellen-Definition im Skript-Bündel (https://nordference.ai/assets/index-CGzvo87P.js, Archivkopie web.archive.org/web/20261005012917). · Neue Quelle: https://nordference.ai/ · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-14-nordference-ai-act-transparenz--compliance-angaben-zum-eu-ai-act</id>
-    <title>Nordference: AI Act: Transparenz-/Compliance-Angaben zum EU AI Act beansprucht → –</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-nordference-ai-act-transparenz--compliance-angaben-zum-eu-ai-act"/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <content type="text">Alte Quelle: https://nordference.ai/ · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-14-requesty-ai-act-transparenz--compliance-angaben-zu-den-eu-regeln-f-r-ki</id>
-    <title>Requesty: AI Act: Transparenz-/Compliance-Angaben zu den EU-Regeln für KI – → unbelegt</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-requesty-ai-act-transparenz--compliance-angaben-zu-den-eu-regeln-f-r-ki"/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <content type="text">Keine AI-Act-Angaben auf Website, Security-Seite oder in den Docs gefunden · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-14-requesty-ai-act-transparenz--compliance-angaben-zum-eu-ai-act</id>
-    <title>Requesty: AI Act: Transparenz-/Compliance-Angaben zum EU AI Act unbelegt → –</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-requesty-ai-act-transparenz--compliance-angaben-zum-eu-ai-act"/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <content type="text">Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-14-stackit-ai-act-art.-53-transparenzdokumentation</id>
-    <title>STACKIT: AI Act: Art.-53-Transparenzdokumentation unbelegt → –</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-stackit-ai-act-art.-53-transparenzdokumentation"/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <content type="text">Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-14-stackit-ai-act-transparenzdokumentation-f-r-basismodelle</id>
-    <title>STACKIT: AI Act: Transparenzdokumentation für Basismodelle – → unbelegt</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-stackit-ai-act-transparenzdokumentation-f-r-basismodelle"/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <content type="text">STACKIT betreibt Fremdmodelle; GPAI-Pflichten liegen bei den Modellherstellern. Keine eigene Dokumentation dazu gefunden (Suche 05.10.2026: Produktseite, Zertifikatsseite, Compliance-Seite, AGB-Seite, Leistungsschein). Der Leistungsschein AI Model Serving (Version 1.3) regelt das Thema nur als Sache des Kunden: STACKIT weist zusätzlich darauf hin, dass der Kunde etwaig einschlägige gesetzliche Bestimmungen für vom Kunden erstellte KI-Anwendungen einzuhalten hat. Die Wissensseite stackit.com/en/learn/knowledge/cloud/cloud-ai/ai-act (30.07.2026) ist Werbung ohne Nachweis ('meets all key requirements of the […]') und nennt keine eigene Rolle von STACKIT. Nachsuche 08.10.2026 (Produktseite DE/EN, Zertifikatsseite, AGB-Seite, Leistungsschein 1.4): weiter kein Treffer zum Thema. · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-14-t-systems-ai-act-art.-53-transparenzdokumentation</id>
-    <title>T-Systems / Open Telekom Cloud (AI Foundation Services): AI Act: Art.-53-Transparenzdokumentation unbelegt → –</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-t-systems-ai-act-art.-53-transparenzdokumentation"/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <content type="text">Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-14-t-systems-ai-act-transparenzdokumentation-f-r-basismodelle</id>
-    <title>T-Systems / Open Telekom Cloud (AI Foundation Services): AI Act: Transparenzdokumentation für Basismodelle – → unbelegt</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-14-t-systems-ai-act-transparenzdokumentation-f-r-basismodelle"/>
-    <updated>2026-10-14T00:00:00Z</updated>
-    <content type="text">Plattform serviert Fremdmodelle; die Transparenzpflichten für die Modelle liegen bei den Herstellern. Keine eigene Dokumentation dazu gefunden. · Commit f8a1f3b: fix: alle 21 Profile dossierfähig (Pilot-Vorrat): Wächter lässt reine URLs durch, AI-Act-Bezeichnungen in 11 Profilen ohne Artikelnummern (Beschluss 18.09.)</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-11-ovhcloud-zertifikate-hds-.akkreditiert-dakks</id>
-    <title>OVHcloud (AI Endpoints): HDS: Zertifizierer akkreditiert (DAkkS) unbelegt → belegt</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-11-ovhcloud-zertifikate-hds-.akkreditiert-dakks"/>
-    <updated>2026-10-11T00:00:00Z</updated>
-    <content type="text">Nicht DAkkS, aber akkreditiert durch COFRAC (EA-MLA, gleichwertig anerkannt; eine DAkkS-Akkreditierung ist für HDS nicht vorgesehen): Attestation d'accréditation N° 4-0660 Rev. 4 für 'BYCYB' (Montrouge) nach NF EN ISO/IEC 17021-1:2015, gültig 02/06/2026 bis 31/01/2029, Anhang u. a. 'Certification selon le référentiel Hébergeurs de données de santé HDS' (Référentiel d'accréditation HDS V2, Programme 'Référentiel de certification HDS – Exigences et contrôles V2') und 'ISO/IEC 27001:2022' nach NF EN ISO/IEC 27006-1:2024 (Abruf 11.10.2026, Kopie belege/anbieter/ovhcloud/cofrac-4-0660-bycyb-2026-10-11.txt). Passt zum ANS-Register (OVH GROUPE, V2.0, BYCYB). Dass das OVH-Zertifikat unter genau dieser Akkreditierung ausgestellt ist, lässt sich ohne das Zertifikat nicht prüfen. · Neue Quelle: https://tools.cofrac.fr/annexes/Sect4/4-0660.pdf · Commit b783141: fix: OVH HDS – BYCYB-Akkreditierung bei COFRAC (4-0660, HDS V2) belegt</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-10-ionos-modelle-qwen3.5-9b</id>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-ionos-modelle-qwen3.5-9b</id>
     <title>IONOS (AI Model Hub): Modell Qwen3.5-9B – → belegt</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-10-ionos-modelle-qwen3.5-9b"/>
-    <updated>2026-10-10T00:00:00Z</updated>
-    <content type="text">Neue Quelle: https://cloud.ionos.de/managed/ai-model-hub · Commit 5a83607: fix: IONOS Modellliste 10.10. — Qwen3.5-9B und Qwen3.8-27B ergänzt, Llama 3.1 8B mit Abschaltdatum 15.10.2026</content>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-ionos-modelle-qwen3.5-9b"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://cloud.ionos.de/managed/ai-model-hub · Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
   </entry>
   <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-10-ionos-modelle-qwen3.8-27b</id>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-ionos-modelle-qwen3.8-27b</id>
     <title>IONOS (AI Model Hub): Modell Qwen3.8-27B – → belegt</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-10-ionos-modelle-qwen3.8-27b"/>
-    <updated>2026-10-10T00:00:00Z</updated>
-    <content type="text">Neue Quelle: https://cloud.ionos.de/managed/ai-model-hub · Commit 5a83607: fix: IONOS Modellliste 10.10. — Qwen3.5-9B und Qwen3.8-27B ergänzt, Llama 3.1 8B mit Abschaltdatum 15.10.2026</content>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-ionos-modelle-qwen3.8-27b"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://cloud.ionos.de/managed/ai-model-hub · Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-mistral-ai-act-art.-53-transparenzdokumentation-model-documentation-form-ver-ffentlicht</id>
+    <title>Mistral AI (La Plateforme): AI Act: Art.-53-Transparenzdokumentation (Model Documentation Form) veröffentlicht unbelegt → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-mistral-ai-act-art.-53-transparenzdokumentation-model-documentation-form-ver-ffentlicht"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-mistral-ai-act-transparenzdokumentation-f-r-basismodelle-model-documentation-form-ver-ffentlicht</id>
+    <title>Mistral AI (La Plateforme): AI Act: Transparenzdokumentation für Basismodelle (Model Documentation Form) veröffentlicht – → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-mistral-ai-act-transparenzdokumentation-f-r-basismodelle-model-documentation-form-ver-ffentlicht"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Als CoP-Signatar verpflichtet, ein konkretes veröffentlichtes Dokument wurde aber nicht gefunden. · Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-nordference-ai-act-transparenz--compliance-angaben-zu-den-eu-regeln-f-r-ki</id>
+    <title>Nordference: AI Act: Transparenz-/Compliance-Angaben zu den EU-Regeln für KI – → beansprucht</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-nordference-ai-act-transparenz--compliance-angaben-zu-den-eu-regeln-f-r-ki"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Vergleichstabelle auf der Startseite: Zeile zur Bereitschaft für die EU-Regeln für KI ('… Ready') mit Häkchen bei Nordference ('Typical Providers': 'Varies'). Kein Dokument, keine Erklärung, was damit zugesagt ist; die About-Seite kündigt nur künftige Anforderungen dieser Regeln an ('upcoming … requirements'). Bis 03.10.2026 stand hier 'unbelegt, keinerlei Angaben' — das Häkchen steht nicht als Text auf der Seite, sondern entsteht aus der Tabellen-Definition im Skript-Bündel (https://nordference.ai/assets/index-CGzvo87P.js, Archivkopie web.archive.org/web/20261005012917). · Neue Quelle: https://nordference.ai/ · Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-nordference-ai-act-transparenz--compliance-angaben-zum-eu-ai-act</id>
+    <title>Nordference: AI Act: Transparenz-/Compliance-Angaben zum EU AI Act beansprucht → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-nordference-ai-act-transparenz--compliance-angaben-zum-eu-ai-act"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Alte Quelle: https://nordference.ai/ · Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-ovhcloud-zertifikate-hds-.akkreditiert-dakks</id>
+    <title>OVHcloud (AI Endpoints): HDS: Zertifizierer akkreditiert (DAkkS) unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-ovhcloud-zertifikate-hds-.akkreditiert-dakks"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Nicht DAkkS, aber akkreditiert durch COFRAC (EA-MLA, gleichwertig anerkannt; eine DAkkS-Akkreditierung ist für HDS nicht vorgesehen): Attestation d'accréditation N° 4-0660 Rev. 4 für 'BYCYB' (Montrouge) nach NF EN ISO/IEC 17021-1:2015, gültig 02/06/2026 bis 31/01/2029, Anhang u. a. 'Certification selon le référentiel Hébergeurs de données de santé HDS' (Référentiel d'accréditation HDS V2, Programme 'Référentiel de certification HDS – Exigences et contrôles V2') und 'ISO/IEC 27001:2022' nach NF EN ISO/IEC 27006-1:2024 (Abruf 11.10.2026, Kopie belege/anbieter/ovhcloud/cofrac-4-0660-bycyb-2026-10-11.txt). Passt zum ANS-Register (OVH GROUPE, V2.0, BYCYB). Dass das OVH-Zertifikat unter genau dieser Akkreditierung ausgestellt ist, lässt sich ohne das Zertifikat nicht prüfen. · Neue Quelle: https://tools.cofrac.fr/annexes/Sect4/4-0660.pdf · Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-requesty-ai-act-transparenz--compliance-angaben-zu-den-eu-regeln-f-r-ki</id>
+    <title>Requesty: AI Act: Transparenz-/Compliance-Angaben zu den EU-Regeln für KI – → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-requesty-ai-act-transparenz--compliance-angaben-zu-den-eu-regeln-f-r-ki"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Keine AI-Act-Angaben auf Website, Security-Seite oder in den Docs gefunden · Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-requesty-ai-act-transparenz--compliance-angaben-zum-eu-ai-act</id>
+    <title>Requesty: AI Act: Transparenz-/Compliance-Angaben zum EU AI Act unbelegt → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-requesty-ai-act-transparenz--compliance-angaben-zum-eu-ai-act"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-stackit-ai-act-art.-53-transparenzdokumentation</id>
+    <title>STACKIT: AI Act: Art.-53-Transparenzdokumentation unbelegt → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-stackit-ai-act-art.-53-transparenzdokumentation"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-stackit-ai-act-transparenzdokumentation-f-r-basismodelle</id>
+    <title>STACKIT: AI Act: Transparenzdokumentation für Basismodelle – → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-stackit-ai-act-transparenzdokumentation-f-r-basismodelle"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">STACKIT betreibt Fremdmodelle; GPAI-Pflichten liegen bei den Modellherstellern. Keine eigene Dokumentation dazu gefunden (Suche 05.10.2026: Produktseite, Zertifikatsseite, Compliance-Seite, AGB-Seite, Leistungsschein). Der Leistungsschein AI Model Serving (Version 1.3) regelt das Thema nur als Sache des Kunden: STACKIT weist zusätzlich darauf hin, dass der Kunde etwaig einschlägige gesetzliche Bestimmungen für vom Kunden erstellte KI-Anwendungen einzuhalten hat. Die Wissensseite stackit.com/en/learn/knowledge/cloud/cloud-ai/ai-act (30.07.2026) ist Werbung ohne Nachweis ('meets all key requirements of the […]') und nennt keine eigene Rolle von STACKIT. Nachsuche 08.10.2026 (Produktseite DE/EN, Zertifikatsseite, AGB-Seite, Leistungsschein 1.4): weiter kein Treffer zum Thema. · Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-t-systems-ai-act-art.-53-transparenzdokumentation</id>
+    <title>T-Systems / Open Telekom Cloud (AI Foundation Services): AI Act: Art.-53-Transparenzdokumentation unbelegt → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-t-systems-ai-act-art.-53-transparenzdokumentation"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-15-t-systems-ai-act-transparenzdokumentation-f-r-basismodelle</id>
+    <title>T-Systems / Open Telekom Cloud (AI Foundation Services): AI Act: Transparenzdokumentation für Basismodelle – → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-15-t-systems-ai-act-transparenzdokumentation-f-r-basismodelle"/>
+    <updated>2026-10-15T00:00:00Z</updated>
+    <content type="text">Plattform serviert Fremdmodelle; die Transparenzpflichten für die Modelle liegen bei den Herstellern. Keine eigene Dokumentation dazu gefunden. · Commit 1534ff7: Stand 15.10.2026: 76 lokale Aenderungen zusammengefasst</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-09-black-forest-labs-vertrag.subprozessoren</id>
@@ -268,7 +268,7 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-09-exoscale-zertifikate-hds</id>
-    <title>Exoscale: Zertifikat HDS — Quelle geändert</title>
+    <title>Exoscale: Zertifikat HDS, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-09-exoscale-zertifikate-hds"/>
     <updated>2026-10-09T00:00:00Z</updated>
     <content type="text">Belegt über das öffentliche Register der französischen Gesundheitsagentur ANS (Liste der zertifizierten Hoster, Abruf 09.10.2026 im Browser, die Seite lädt nur dort): 'AKENES 1, 2, 3, 4, 6, sur version V2.0 … Bureau Veritas Certification France'. Akenes SA ist die Betreibergesellschaft von Exoscale. Ein Gültigkeitsdatum nennt das Register nicht, das Zertifikat selbst liegt nur im Compliance Center. Französische Zertifizierung für das Hosting von Gesundheitsdaten; Compliance-Seite: 'HDS French health data hosting certification', Scope 1–4 und 6. Bisher nur in der Anmerkung zu TISAX geführt. · Alte Quelle: https://community.exoscale.com/platform/compliance/ · Neue Quelle: https://esante.gouv.fr/offres-services/hds/liste-des-hebergeurs-certifies · Commit f8765e2: fix: Strenge-Runde 217 ausserhalb der Liste (K4b)</content>
@@ -331,7 +331,7 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-09-gcore-zertifikate-iso-iec-27001</id>
-    <title>Gcore: Zertifikat ISO/IEC 27001 — Quelle geändert</title>
+    <title>Gcore: Zertifikat ISO/IEC 27001, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-09-gcore-zertifikate-iso-iec-27001"/>
     <updated>2026-10-09T00:00:00Z</updated>
     <content type="text">Das Vanta-Trust-Center trustcentre.gcore.com nennt unter 'Compliance' ‚ISO 27001:2022‘ und bietet ein ‚ISO 27001:2022 certificate‘ an, aber nur nach Zugangsanfrage (Request access; am 09.10.2026 im Browser gelesen, gleich wie am 08.10.2026; ohne Browser nicht lesbar, da JS-Seite). Damit beansprucht Gcore die Version 2022; Zertifizierungsstelle, Nummer, Scope und Laufzeit sind öffentlich nicht einsehbar. Widerspruch: gcore.com/infrastructure sagt am 09.10.2026 weiterhin ‚ISO/IEC 27001:2013 certified and compliant with PCI DCC and GDPR‘ (Wayback 20261008014212); nach IAF MD 26:2023 sind Zertifikate nach ISO/IEC 27001:2013 seit 31.10.2025 abgelaufen, die Angabe dort ist also veraltet. · Alte Quelle: https://gcore.com/infrastructure · Neue Quelle: https://trustcentre.gcore.com/ · Commit 38745f5: data: Frage 210 – veraltete Profilangaben korrigiert (14 Anbieter, Abruf 09.10.)</content>
@@ -373,14 +373,14 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-09-hetzner-zertifikate-iso-27001</id>
-    <title>Hetzner: Zertifikat ISO 27001 — Quelle geändert</title>
+    <title>Hetzner: Zertifikat ISO 27001, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-09-hetzner-zertifikate-iso-27001"/>
     <updated>2026-10-09T00:00:00Z</updated>
     <content type="text">ISO/IEC 27001:2022, Zertifikat ZN-2025-35 V 1.1 von SOCOTEC, ausgestellt allein auf 'Hetzner Online GmbH' (Gunzenhausen); Hetzner Finland Oy steht nicht im Zertifikat. Die Zertifizierungsseite (https://www.hetzner.com/unternehmen/zertifizierung/, Abruf 09.10.2026) sagt dagegen weiter, das Zertifikat 'certifies that Hetzner Online GmbH and Hetzner Finland Oy have established and implemented an appropriate information security management system' und nennt als Scope 'the infrastructure, operation and customer support of the data center parks in all three locations: Nuremberg, Falkenstein, and Helsinki'; maßgeblich ist das Zertifikat. Standorte USA und Singapur sind nicht erfasst. Bis 09.10. stand hier, das Zertifikat gelte für Hetzner Online GmbH und Hetzner Finland Oy und Hetzner nenne kein BSI C5; das C5-Testat steht jetzt als eigener Eintrag. SOC 2 und TISAX nennt Hetzner nicht. · Alte Quelle: https://www.hetzner.com/unternehmen/zertifizierung/ · Neue Quelle: https://cdn.hetzner.com/assets/downloads/ISO-Zertifikat.pdf · Commit 38745f5: data: Frage 210 – veraltete Profilangaben korrigiert (14 Anbieter, Abruf 09.10.)</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-09-infomaniak-zertifikate-iso-27001-2022</id>
-    <title>Infomaniak: Zertifikat ISO 27001:2022 — Quelle geändert</title>
+    <title>Infomaniak: Zertifikat ISO 27001:2022, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-09-infomaniak-zertifikate-iso-27001-2022"/>
     <updated>2026-10-09T00:00:00Z</updated>
     <content type="text">Zertifikat CH21/0527.00 von SGS United Kingdom Ltd für 'Infomaniak Group SA', gültig 30.03.2024 bis 29.03.2027, 'Issue 3. Certified since 30 April 2021'. Vertragspartnerin der LLM API ist dagegen 'Infomaniak Network SA' (LLM-Bedingungen, Review of 07/10/2025, Abruf 09.10.2026; ebenso der AVV); ob die Network SA unter das Zertifikat fällt, ist ungeklärt. Das veröffentlichte PDF hat nur 'Page 1 / 2', die Folgeseite mit den weiteren Standorten ('Certified activities performed by additional sites are listed on subsequent pages') fehlt. Die Zertifikatsseite (https://www.infomaniak.com/en/certifications, Abruf 09.10.2026) sagt weiter 'Infomaniak has been certified ISO 27001 since June 2018'; belegt ist durch das Zertifikat nur 'since 30 April 2021'. Bis 09.10. stand hier 'Seit Juni 2018; Zertifikat als Download angeboten'. · Alte Quelle: https://www.infomaniak.com/en/certifications · Neue Quelle: https://www.infomaniak.com/documents/iso/27001_1EN.pdf · Commit 38745f5: data: Frage 210 – veraltete Profilangaben korrigiert (14 Anbieter, Abruf 09.10.)</content>
@@ -394,7 +394,7 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-09-lyceum-vertrag.avv</id>
-    <title>Lyceum Technology: AVV / Auftragsverarbeitungsvertrag — Quelle geändert</title>
+    <title>Lyceum Technology: AVV / Auftragsverarbeitungsvertrag, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-09-lyceum-vertrag.avv"/>
     <updated>2026-10-09T00:00:00Z</updated>
     <content type="text">DPA ('Annex 1 Data Processing Agreement', Lyceum Technology Germany GmbH, 10 Seiten, ohne Datum) liegt im Trust Center öffentlich zum Ansehen und Herunterladen, ohne Zugangsanfrage (am 09.10.2026 im Browser und per Direktabruf gelesen; nur die TOMs brauchen eine Anfrage). Die AGB nennen den AVV als 'Annex 1'. Enthält Schedule 1 'Zero Data Retention Policy for Inference Services'. Rohkopie belege/anbieter/lyceum/ (SHA-256 86095503…), Archivkopie web.archive.org/web/20261009104347/https://trust.lyceum.technology/doc/trust?rid=6a7c197ee2fcaed7c65be63c&amp;r=c4qofycqho2osff5cnm92x · Alte Quelle: https://trust.lyceum.technology/ · Neue Quelle: https://trust.lyceum.technology/doc/trust?rid=6a7c197ee2fcaed7c65be63c&amp;r=c4qofycqho2osff5cnm92x · Commit 514c78f: fix: Gcore Subprozessoren-Liste (DPA 10.1) und Lyceum-DPA aus dem Trust Center belegt</content>
@@ -408,7 +408,7 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-09-lyceum-vertrag.log-frist</id>
-    <title>Lyceum Technology: Log-Aufbewahrung (Frist) — Quelle geändert</title>
+    <title>Lyceum Technology: Log-Aufbewahrung (Frist), Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-09-lyceum-vertrag.log-frist"/>
     <updated>2026-10-09T00:00:00Z</updated>
     <content type="text">Betroffene Felder: Log-Aufbewahrung (Frist), Zero Data Retention · Keine Frist. DPA Schedule 1, 2.1 (09.10.2026): der Processor 'may retain system logs and other metadata that do not contain Customer Content or personal data', ohne Dauer; Inhalte unter den Ausnahmen in 2.2 nur 'for the minimum period strictly necessary' (2.3). AGB, Datenschutzerklärung und Modellseite nennen ebenfalls keine Frist; die Doku beschreibt Loki-Logs nur für Serverless-Runs (stdout/stderr), ohne Frist (08.10.2026). · Alte Quelle: https://lyceum.technology/legal/terms · Neue Quelle: https://trust.lyceum.technology/doc/trust?rid=6a7c197ee2fcaed7c65be63c&amp;r=c4qofycqho2osff5cnm92x · Commit 514c78f: fix: Gcore Subprozessoren-Liste (DPA 10.1) und Lyceum-DPA aus dem Trust Center belegt</content>
@@ -443,7 +443,7 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-09-nebius-zertifikate-csa-star-level-1</id>
-    <title>Nebius (Token Factory): Zertifikat CSA STAR Level 1 — Quelle geändert</title>
+    <title>Nebius (Token Factory): Zertifikat CSA STAR Level 1, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-09-nebius-zertifikate-csa-star-level-1"/>
     <updated>2026-10-09T00:00:00Z</updated>
     <content type="text">Selbstauskunft, kein Zertifikat, und nur für 'Nebius AI Cloud', nicht für die Token Factory. CSA-Register (09.10.2026): ein Eintrag 'Nebius B.V', 'Listed Since: 2023-02-18', Typ CAIQ, Beschreibung 'Nebius provides AI-native cloud infrastructure and platform services for AI, machine learning, and data-intensive workloads'. Trust Center (nebius.com/trust-center/csa-star, 09.10.2026): 'CSA STAR Level 1 is based on a self-assessment' und 'What Nebius products are within the scope of assessment? Nebius AI Cloud infrastructure and platform services.' Die Token Factory wird weder im Register noch auf der Trust-Center-Seite genannt. · Alte Quelle: https://nebius.com/trust-center · Neue Quelle: https://cloudsecurityalliance.org/star/registry/nebius-bv · Commit 38745f5: data: Frage 210 – veraltete Profilangaben korrigiert (14 Anbieter, Abruf 09.10.)</content>
@@ -457,14 +457,14 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-09-nebius-zertifikate-iso-27001</id>
-    <title>Nebius (Token Factory): Zertifikat ISO 27001 — Quelle geändert</title>
+    <title>Nebius (Token Factory): Zertifikat ISO 27001, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-09-nebius-zertifikate-iso-27001"/>
     <updated>2026-10-09T00:00:00Z</updated>
     <content type="text">Zertifikat öffentlich (Abruf 09.10.2026, unverändert gegenüber 08.10.), Inhaber nur Nebius B.V.: 'This is to certify that the Information Security Management System of Nebius B.V. Schiphol Boulevard 165, 1118 BG Schiphol, the Netherlands', weitere Standorte Tel Aviv und Mäntsälä. Andere Nebius-Gesellschaften (z. B. Nebius Inc., USA) stehen nicht darauf. Dass die Token Factory im Scope ist, sagt nur das Trust Center (nebius.com/trust-center/iso-27001, 09.10.2026): 'The scope of ISO 27001 includes the controls supporting Nebius AI Cloud, AI Studio (now Nebius Token Factory) and Tracto AI. [...] The scope does not extend to other subsidiaries or third-party service providers.' · Alte Quelle: https://nebius.com/trust-center · Neue Quelle: https://assets.nebius.com/assets/75a09e82-d39b-4bd4-a064-babf034b8a6b/ISO27001%20CERTIFICATION.pdf · Commit 38745f5: data: Frage 210 – veraltete Profilangaben korrigiert (14 Anbieter, Abruf 09.10.)</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-09-nebius-zertifikate-iso-27018</id>
-    <title>Nebius (Token Factory): Zertifikat ISO 27018 — Quelle geändert</title>
+    <title>Nebius (Token Factory): Zertifikat ISO 27018, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-09-nebius-zertifikate-iso-27018"/>
     <updated>2026-10-09T00:00:00Z</updated>
     <content type="text">Belegt über das öffentliche Zertifikat (SII-QCD Nr. 1125668, ISO/IEC 27018:2019, Nebius B.V., gültig 26.08.2025 bis 26.08.2028, revidiert 16.09.2026; Abruf 09.10.2026). Quelle bis 09.10.2026 nur die Trust-Center-Liste (Strenge-Runde Frage 217). Trust Center (03.10.2026) listet 'ISO 27018'. Bisher nur in der Anmerkung zu ISO 27701 geführt. · Alte Quelle: https://nebius.com/trust-center · Neue Quelle: https://assets.nebius.com/assets/9a3a30ea-f708-4e07-8903-bdaa6a3eaa2b/ISO27018%20CERTIFICATE.PDF · Commit f8765e2: fix: Strenge-Runde 217 ausserhalb der Liste (K4b)</content>
@@ -541,7 +541,7 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-09-regolo-zertifikate-csa-star-level-1</id>
-    <title>Regolo.ai: Zertifikat CSA STAR Level 1 — Quelle geändert</title>
+    <title>Regolo.ai: Zertifikat CSA STAR Level 1, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-09-regolo-zertifikate-csa-star-level-1"/>
     <updated>2026-10-09T00:00:00Z</updated>
     <content type="text">Gilt nicht für Regolo. Der Registereintrag (Abruf 09.10.2026) führt nur zwei Seeweb-Produkte, 'Foundation Server PRO' (Listed Since: 2022-06-07) und 'Virtual Private Cloud' (Listed Since: 2022-06-02), jeweils CAIQ-Selbstauskunft ('At level one organizations submit a self-assessment'); Seeweb-Seite seeweb.it/azienda/certificazioni: 'Certificazione Cloud Security Alliance per Virtual Private Cloud e Foundation Server PRO'. Regolo zeigt das Logo im Seitenfuß „Datacenter Certifications“ (Alt-Text 'CSA STAR Level 1') ohne diese Einschränkung. · Alte Quelle: https://regolo.ai/terms-and-conditions/ · Neue Quelle: https://cloudsecurityalliance.org/star/registry/seeweb/ · Commit 38745f5: data: Frage 210 – veraltete Profilangaben korrigiert (14 Anbieter, Abruf 09.10.)</content>
@@ -555,14 +555,14 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-09-regolo-zertifikate-iso-27001</id>
-    <title>Regolo.ai: Zertifikat ISO 27001 — Quelle geändert</title>
+    <title>Regolo.ai: Zertifikat ISO 27001, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-09-regolo-zertifikate-iso-27001"/>
     <updated>2026-10-09T00:00:00Z</updated>
     <content type="text">Zertifikat der Betreibergesellschaft Seeweb S.r.l., nicht von Regolo selbst: ISO/IEC 27001:2022, Nr. IT18-27702D, gültig bis 28.11.2027, ausgestellt von AXE Register (Saronno); akkreditiert ist AXE Register Sh.p.k. (Tirana) durch DPA Albanien (EA-MLA), nicht DAkkS. Seeweb-Seite (09.10.2026): 'Certificato AXE REGISTER n. IT18-27702D valido fino al 28 Novembre 2027'. Das Logo im Regolo-Seitenfuß „Datacenter Certifications“ trägt am 09.10.2026 weiterhin den Alt-Text 'ISO/IEC 27001 – Information Security (Afnor / AxDéf)'; Afnor ist nicht der Zertifizierer. · Alte Quelle: https://regolo.ai/terms-and-conditions/ · Neue Quelle: https://www.seeweb.it/files/Certificato_SEEWEB_IT18-27702D-R4_2024.pdf · Commit 38745f5: data: Frage 210 – veraltete Profilangaben korrigiert (14 Anbieter, Abruf 09.10.)</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-09-regolo-zertifikate-iso-27017-27018</id>
-    <title>Regolo.ai: Zertifikat ISO 27017 / 27018 — Quelle geändert</title>
+    <title>Regolo.ai: Zertifikat ISO 27017 / 27018, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-09-regolo-zertifikate-iso-27017-27018"/>
     <updated>2026-10-09T00:00:00Z</updated>
     <content type="text">Belegt nur über die öffentlichen Zertifikatsanhänge der Betreibergesellschaft Seeweb S.r.l. (ISO/IEC 27017 und 27018, AXE Register, gültig bis 28.11.2027; beide PDFs am 09.10.2026 erneut abgerufen), nicht über ein Zertifikat von Regolo selbst; Regolo zeigt die Normen nur als Logo (regolo.ai/terms-and-conditions/). Quelle bis 09.10.2026 die Regolo-AGB (Strenge-Runde Frage 217). Zusätzlich ISO 9001, 14001, 20000, 22301 der Seeweb S.r.l., dazu CISPE und ACN-Qualifizierung (Logos im Seitenfuß, 08.10.2026) · Alte Quelle: https://regolo.ai/terms-and-conditions/ · Neue Quelle: https://www.seeweb.it/files/Certificato_Appendice_SEEWEB_27017_R4_2024.pdf · Commit f8765e2: fix: Strenge-Runde 217 ausserhalb der Liste (K4b)</content>
@@ -590,7 +590,7 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-09-stackit-zertifikate-iso-27001</id>
-    <title>STACKIT: Zertifikat ISO 27001 — Quelle geändert</title>
+    <title>STACKIT: Zertifikat ISO 27001, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-09-stackit-zertifikate-iso-27001"/>
     <updated>2026-10-09T00:00:00Z</updated>
     <content type="text">Zertifikat 01 153 2500863 (ISO/IEC 27001:2022, TÜV Rheinland Cert GmbH, gültig 09.02.2026 bis 08.02.2029), 'Certificate Holder: STACKIT GmbH &amp; Co. KG', Neckarsulm; Scope: 'Cloud infrastructure and platform services (IaaS and PaaS) as well as colocation in the form of providing data center or rack space.' AI Model Serving ist nicht genannt. Vertragspartner im AVV (https://stackit.com/de/asset/download/34534/file/STACKIT_Auftragsverarbeitungsvertrag.pdf, Version 2.4.2, 09.10.2026) ist eine andere Gesellschaft: 'Auftragnehmer ist die Schwarz Digits Cloud GmbH &amp; Co. KG, Am Campus 1, 74177 Bad Friedrichshall.' Die Zertifikatsseite (https://stackit.com/en/why-stackit/benefits/certificates) wirbt mit 'Certifications according to ISO/IEC 27001, 27017 and 27018'; 27017/27018 sind nur SoA-Maßnahmen dieses Zertifikats (eigene Einträge). · Alte Quelle: https://stackit.com/en/why-stackit/benefits/certificates · Neue Quelle: https://stackit.com/en/asset/download/50680/file/ISO%253AIEC%252027001_2022_EN.pdf?version=2 · Commit 38745f5: data: Frage 210 – veraltete Profilangaben korrigiert (14 Anbieter, Abruf 09.10.)</content>
@@ -639,7 +639,7 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-09-t-systems-zertifikate-iso-27001</id>
-    <title>T-Systems / Open Telekom Cloud (AI Foundation Services): Zertifikat ISO 27001 — Quelle geändert</title>
+    <title>T-Systems / Open Telekom Cloud (AI Foundation Services): Zertifikat ISO 27001, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-09-t-systems-zertifikate-iso-27001"/>
     <updated>2026-10-09T00:00:00Z</updated>
     <content type="text">Dachzertifikat der Deutsche Telekom AG (Nr. 172572.00DE, ISO/IEC 27001:2022, gültig bis 03.12.2027), ausgestellt von 'DEKRA Certification, Inc.' in Atlanta (USA, ANAB-akkreditiert, nicht DAkkS). Scope: 'Development, operation and maintenance of Information Technology (IT) / Operational Technology (OT) / Network Technology (NT) solutions, products and consulting as well as Shared Services'; AI Foundation Services ist im Zertifikat nicht genannt. Nur die Enterprise-Trust-Seite (https://docs.llmhub.t-systems.net/reference/enterprise-trust/, 09.10.2026) sagt: 'T-Systems operations are ISO 27001 certified, covering information security management for the infrastructure and processes underlying AI Foundation Services.' ISO 27017/27018 sind kein Zertifikat, sondern ein Testat (eigener Eintrag); ISO 27701 eigener Eintrag. · Alte Quelle: https://www.t-cloud-public.com/en/products-services/core-services/certifications · Neue Quelle: https://www.t-cloud-public.com/_Resources/Persistent/a/6/6/1/a661457952c225c023711124c8af5721a2f56d5a/06_27001_Dachzertifikat_20240229_en_de.pdf · Commit 38745f5: data: Frage 210 – veraltete Profilangaben korrigiert (14 Anbieter, Abruf 09.10.)</content>
@@ -674,7 +674,7 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-09-t-systems-zertifikate-iso-27701</id>
-    <title>T-Systems / Open Telekom Cloud (AI Foundation Services): Zertifikat ISO 27701 — Quelle geändert</title>
+    <title>T-Systems / Open Telekom Cloud (AI Foundation Services): Zertifikat ISO 27701, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-09-t-systems-zertifikate-iso-27701"/>
     <updated>2026-10-09T00:00:00Z</updated>
     <content type="text">Dachzertifikat der Deutsche Telekom AG (Nr. DE182572.00, ISO/IEC 27701:2019), ausgestellt von 'DEKRA Certification, Inc.' in Atlanta (USA, ANAB-akkreditiert, nicht DAkkS); 'This certification is dependent upon continued validity of ISO 27001 Certificate Number: 172572.00DE'. AI Foundation Services ist im Zertifikat nicht genannt. · Alte Quelle: https://www.t-cloud-public.com/en/products-services/core-services/certifications · Neue Quelle: https://www.t-cloud-public.com/_Resources/Persistent/5/c/2/5/5c25ff467eb2c4ff6557b8d7eb87e9b6214bb0f7/03_27701_Umbrella-Certificate_20230216.pdf · Commit 38745f5: data: Frage 210 – veraltete Profilangaben korrigiert (14 Anbieter, Abruf 09.10.)</content>
@@ -716,7 +716,7 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-08-lyceum-modelle-deepseek-v4-pro</id>
-    <title>Lyceum Technology: Modell DeepSeek V4 Pro — Quelle geändert</title>
+    <title>Lyceum Technology: Modell DeepSeek V4 Pro, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-08-lyceum-modelle-deepseek-v4-pro"/>
     <updated>2026-10-08T00:00:00Z</updated>
     <content type="text">Preis in USD — Modellseite seit spätestens 08.10.2026 unter /models/ (alte Adresse /products/inference/models/ leitet per Skript dorthin, HTTP 200): 'GPUs run in European data centres'; Länder laut Lyceum (magazine/c5-certification-gpu-cloud-germany/, 'Last updated 3 August 2026', und magazine/eu-data-residency-ai-infrastructure, Abruf 08.10.2026) 'European data centres in Paris and Finland', ausdrücklich ohne deutsches Rechenzentrum; die Angabe 'Spain, Paris and the Nordics' vom 04.10.2026 steht dort nicht mehr; Modell-ID deepseek/deepseek-v4-pro, Kontext dort 'Not confirmed'; daneben neu DeepSeek V4 Pro 0813 ($2.00/$4.00) · Alte Quelle: https://lyceum.technology/products/inference/models/ · Neue Quelle: https://lyceum.technology/models/ · Commit cad7144: data: Lyceum nachgeprüft 08.10., Kimi K2.6 und Qwen3 235B abgeschaltet, Standort Paris/Finnland</content>
@@ -751,7 +751,7 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-08-mistral-modelle-codestral</id>
-    <title>Mistral AI (La Plateforme): Modell Codestral — Quelle geändert</title>
+    <title>Mistral AI (La Plateforme): Modell Codestral, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-08-mistral-modelle-codestral"/>
     <updated>2026-10-08T00:00:00Z</updated>
     <content type="text">Betroffene Felder: Modell Codestral, Modell Ministral 3 (8B), Modell Mistral Large 3, Modell Mistral Medium 3.5, Modell Mistral Small 4 · Alte Quelle: https://mistral.ai/pricing/api · Neue Quelle: https://docs.mistral.ai/inference/pricing · Commit ce0e4ee: data: Mistral nachgeprüft 08.10., kein Statuswechsel, Large 4 (Preview) ergänzt</content>
@@ -765,7 +765,7 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-05-exoscale-modelle-gpt-oss-120b-dedicated-inference</id>
-    <title>Exoscale: Modell gpt-oss-120b (Dedicated Inference) — Quelle geändert</title>
+    <title>Exoscale: Modell gpt-oss-120b (Dedicated Inference), Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-exoscale-modelle-gpt-oss-120b-dedicated-inference"/>
     <updated>2026-10-05T00:00:00Z</updated>
     <content type="text">Betroffene Felder: Modell gpt-oss-120b (Dedicated Inference), Modell Qwen3-Coder-480B (Dedicated Inference) · Kein Tokenpreis: Dedicated Inference kostet nichts extra, abgerechnet wird die GPU-Zeit sekundengenau. Preistabelle der Seite (05.10.2026, unverändert seit 03.10.; Archivkopie web.archive.org/web/20261005025203 byte-gleich; die Seite ist jetzt unter /inference/dedicated/ verlinkt, die alte Adresse /dedicated-inference/ liefert denselben Inhalt): gpt-oss-120b auf 1x GPU RTX Pro 6000 ab 2,15 €/h (alternativ 4x GPU A5000 für 4,55 €/h); das bisher geführte 1,34 €/h (GPUA5000 small, Preis-API, 06.09.2026) ist der Preis für gpt-oss-20b, nicht für gpt-oss-120b. Beliebige Hugging-Face-Modelle deploybar. Standort laut Exoscale-Doku „Limits and Quotas“ (Dedicated Inference, Stand 30.09.2026): GPU-Verfügbarkeit „varies by zone and GPU type“; die Beispielausgabe zeigt RTX Pro 6000 in de-fra-1 (Frankfurt), hr-zag-1 (Zagreb), ch-dk-2 (Zürich), A5000 in at-vie-2 (Wien). Genf (ch-gva-2) ist dort nicht als GPU-Zone genannt. · Alte Quelle: https://www.exoscale.com/ai-cloud-infrastructure/dedicated-inference/ · Neue Quelle: https://www.exoscale.com/ai-cloud-infrastructure/inference/dedicated/ · Commit 4e11beb: fix: Exoscale nachgeprüft — ISO 27017/27018 und HDS als eigene Einträge, CSA STAR Level 1 als beansprucht (Registry-Eintrag nicht auffindbar), On-Demand Inference statt Managed Inference, Anmerkungen zu Training und Speicherung präzisiert</content>
@@ -814,14 +814,14 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-05-greenpt-vertrag.subprozessoren</id>
-    <title>GreenPT: Subprozessoren-Liste — Quelle geändert</title>
+    <title>GreenPT: Subprozessoren-Liste, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-greenpt-vertrag.subprozessoren"/>
     <updated>2026-10-05T00:00:00Z</updated>
     <content type="text">Liste in der Doku (Data Processors, 05.10.2026), nach Region getrennt. EU-Endpunkt (Standard): Scaleway SAS (FR), Inceptron, Tensorix, Melious (alle Verda-Rechenzentrum, FI). US-Endpunkt api.us.greenpt.ai: Neuralwatt Inc. (USA), „Request content and generated output“, nur für Anfragen an diese Basis-URL. Unabhängig von der Region: Scaleway (Konto- und Nutzungsdaten), Mollie B.V. (NL, Zahlung), Google Workspace (Irland), Cirrux (NL), Brave Search (USA, nur search.greenpt.ai). Die Tabelle in der Privacy Policy auf greenpt.com/privacy-policy („Last updated January 14, 2026“) nennt Neuralwatt nicht · Alte Quelle: https://greenpt.com/privacy-policy · Neue Quelle: https://docs.greenpt.ai/privacy/processor · Commit f762744: fix: GreenPT nachgeprüft — kein Statuswechsel, Preise unverändert; US-Endpunkt seit 24.09.2026 (api.us.greenpt.ai, Neuralwatt Inc.) in Kurzbeschreibung, Unterauftragnehmern und bei kimi-k3 ergänzt; Unterauftragnehmer-Quelle auf die Doku-Liste (Data Processors), Brave Search mit Standort USA; Training-Quelle auf greenpt.com/privacy; glm-5.2-Preisänderung auf 26.09.2026 berichtigt; Footer ISO 27001 unverändert</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-05-greenpt-vertrag.training-opt-out</id>
-    <title>GreenPT: Kein Training mit Kundendaten — Quelle geändert</title>
+    <title>GreenPT: Kein Training mit Kundendaten, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-greenpt-vertrag.training-opt-out"/>
     <updated>2026-10-05T00:00:00Z</updated>
     <content type="text">greenpt.com/privacy (05.10.2026): „We never use your conversations, documents, or API traffic to train AI models, ours or anyone else's.“ Die Privacy Policy selbst (Stand 14.01.2026) enthält keinen Satz zum Training, 'No training on your data' steht dort nur im Seitenmenü. Hinweis: ToS enthalten eine Lizenz 'to operate and improve the Services'; Details regelt der DPA · Alte Quelle: https://greenpt.com/privacy-policy · Neue Quelle: https://greenpt.com/privacy · Commit f762744: fix: GreenPT nachgeprüft — kein Statuswechsel, Preise unverändert; US-Endpunkt seit 24.09.2026 (api.us.greenpt.ai, Neuralwatt Inc.) in Kurzbeschreibung, Unterauftragnehmern und bei kimi-k3 ergänzt; Unterauftragnehmer-Quelle auf die Doku-Liste (Data Processors), Brave Search mit Standort USA; Training-Quelle auf greenpt.com/privacy; glm-5.2-Preisänderung auf 26.09.2026 berichtigt; Footer ISO 27001 unverändert</content>
@@ -849,14 +849,14 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-05-nebius-vertrag.avv</id>
-    <title>Nebius (Token Factory): AVV / Auftragsverarbeitungsvertrag — Quelle geändert</title>
+    <title>Nebius (Token Factory): AVV / Auftragsverarbeitungsvertrag, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-nebius-vertrag.avv"/>
     <updated>2026-10-05T00:00:00Z</updated>
     <content type="text">Standard-DPA im offiziellen Legal-Verzeichnis, Fassung vom 15.09.2026; gilt ausdrücklich auch für die Token Factory (eigener Anhang 1B, eigene Subprozessoren-Liste) und ist Teil des Nebius Services Agreement, das seit 28.09.2026 die früheren Token-Factory-Nutzungsbedingungen ablöst (diese gelten nur noch für Kunden mit laufender Reserve). Bei Widersprüchen geht der DPA den übrigen Vertragsteilen vor, aber nur für die Verarbeitung personenbezogener Daten (Agreement Ziffer 20.12). Custom DPAs für Enterprise möglich. Archivkopie web.archive.org/web/20261004223442 · Alte Quelle: https://docs.nebius.com/legal/ · Neue Quelle: https://docs.nebius.com/legal/dpa · Commit 7281970: fix: Nebius nachgeprüft — ZDR per DPA als Schalter belegt, Training widersprüchlich (Supplemental Terms 5.1 gegen DPA Anhang 3), eigene Subprozessoren-Liste der Token Factory</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-05-nebius-vertrag.subprozessoren</id>
-    <title>Nebius (Token Factory): Subprozessoren-Liste — Quelle geändert</title>
+    <title>Nebius (Token Factory): Subprozessoren-Liste, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-nebius-vertrag.subprozessoren"/>
     <updated>2026-10-05T00:00:00Z</updated>
     <content type="text">Eigene Liste für die Token Factory, Fassung vom 23.09.2026 (bisher war hier die Liste für AI Cloud verlinkt). Infrastruktur für die Modellverarbeitung: Nebius B.V. (Frankreich, Island, Finnland, Vereinigtes Königreich), Nebius Inc. (USA), Nebius Israel Ltd. (Israel) und vier externe US-Firmen: RunPod Inc. (Verarbeitung in Island), BoostRun, LLC (USA), Shadeform, Inc. (USA), Axe Compute Inc. (Kanada). Welche davon eine Anfrage verarbeitet, hängt laut Liste von Modell, Endpunkt-Typ und Verarbeitungsort ab; bei öffentlichen Endpunkten ist der Ort nicht festgelegt, nur ein Dedicated Endpoint bindet die Region. Betrieb und Support: Nebius-Gesellschaften in den USA, Israel, Serbien, UK und der EU, dazu Microsoft (Sentinel), Sentry, Hubspot, Atlassian (Jira), Slack. Änderungen mit mindestens 15 Tagen Vorankündigung (DPA 4.3). Archivkopie web.archive.org/web/20261004223544 · Alte Quelle: https://docs.nebius.com/legal/sub-processors · Neue Quelle: https://docs.nebius.com/legal/sub-processors_tofa · Commit 7281970: fix: Nebius nachgeprüft — ZDR per DPA als Schalter belegt, Training widersprüchlich (Supplemental Terms 5.1 gegen DPA Anhang 3), eigene Subprozessoren-Liste der Token Factory</content>
@@ -898,14 +898,14 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-05-ovhcloud-vertrag.avv</id>
-    <title>OVHcloud (AI Endpoints): AVV / Auftragsverarbeitungsvertrag — Quelle geändert</title>
+    <title>OVHcloud (AI Endpoints): AVV / Auftragsverarbeitungsvertrag, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-ovhcloud-vertrag.avv"/>
     <updated>2026-10-05T00:00:00Z</updated>
     <content type="text">Auftragsverarbeitungsvertrag der OVH GmbH (Köln), 'Version vom 17.10.2025' (Datei DE-8.0), verlinkt auf der deutschen Vertragsseite; die Adresse leitet auf die jeweils gültige Fassung um. Der bis 05.10.2026 hier verlinkte Direktlink (IE-6.2, 'Version dated on 09.08.2023', Vertragspartner OVH Hosting Ltd., Irland) ist noch abrufbar, aber überholt: die irische Fassung ist inzwischen IE-7.0 vom 17.10.2025. Ziffer 7.3: Ein neuer oder gewechselter Unterauftragsverarbeiter wird 30 Tage vorher angekündigt (verbundenes Unternehmen in der EU oder in einem Land mit Angemessenheitsbeschluss), sonst 90 Tage vorher; Einspruch binnen 15 Tagen. Archivkopie web.archive.org/web/20261005073138 (byte-gleich zum Abruf). · Alte Quelle: https://us.ovhcloud.com/legal/faqs/gdpr-compliance/ · Neue Quelle: https://www.ovhcloud.com/de/terms-and-conditions/contracts/ · Commit 92485da: fix: OVHcloud nachgeprüft — kein Statuswechsel; Training und Zero Data Retention zusätzlich als Vertragstext (Public-Cloud-Bedingungen 26.08.2026, Anhang 10) belegt, Batch API ausgenommen; AVV-Link auf gültige deutsche Fassung DE-8.0 (17.10.2025) statt überholter IE-6.2; Subprozessoren-Anmerkung berichtigt (Liste nennt keine Dritten); Standort Gravelines mit Fundstelle; über 20 statt über 40 Modelle; Archivkopien</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-05-ovhcloud-vertrag.subprozessoren</id>
-    <title>OVHcloud (AI Endpoints): Subprozessoren-Liste — Quelle geändert</title>
+    <title>OVHcloud (AI Endpoints): Subprozessoren-Liste, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-05-ovhcloud-vertrag.subprozessoren"/>
     <updated>2026-10-05T00:00:00Z</updated>
     <content type="text">Liste 'Unterauftragsverarbeiter', 'Stand: 16. Oktober 2025' (Datei DE-3.0; die bisher verlinkte britische Fassung GB-3.0 trägt dasselbe Datum). Namentlich genannt sind nur Unternehmen der OVH-Gruppe (Abschnitt A, darunter die Rechenzentrums-Gesellschaften). Abschnitt B nennt keine Dritten, sondern verweist: 'so werden diese in den für die betreffenden Dienstleistungen geltenden besonderen Vertragsbedingungen aufgelistet.' Die Besonderen Vertragsbedingungen für Public-Cloud-Dienste (Stand 26. August 2026), Anhang 10 'AI Endpoints', nennen keinen dritten Auftragsverarbeiter. Die frühere Anmerkung, die Liste enthalte Drittanbieter, war falsch. Archivkopie web.archive.org/web/20261005073150 (byte-gleich zum Abruf). · Alte Quelle: https://storage.gra.cloud.ovh.net/v1/AUTH_325716a587c64897acbef9a4a4726e38/contracts/6045f8b-OVH_Sub_processors-GB-3.0.pdf · Neue Quelle: https://contract.eu.ovhapis.com/1.0/pdf/OVH_Sub_processors-de.pdf · Commit 92485da: fix: OVHcloud nachgeprüft — kein Statuswechsel; Training und Zero Data Retention zusätzlich als Vertragstext (Public-Cloud-Bedingungen 26.08.2026, Anhang 10) belegt, Batch API ausgenommen; AVV-Link auf gültige deutsche Fassung DE-8.0 (17.10.2025) statt überholter IE-6.2; Subprozessoren-Anmerkung berichtigt (Liste nennt keine Dritten); Standort Gravelines mit Fundstelle; über 20 statt über 40 Modelle; Archivkopien</content>
@@ -940,7 +940,7 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-04-aleph-alpha-vertrag.avv</id>
-    <title>Aleph Alpha: AVV / Auftragsverarbeitungsvertrag — Quelle geändert</title>
+    <title>Aleph Alpha: AVV / Auftragsverarbeitungsvertrag, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-04-aleph-alpha-vertrag.avv"/>
     <updated>2026-10-04T00:00:00Z</updated>
     <content type="text">Betroffene Felder: AVV / Auftragsverarbeitungsvertrag, Subprozessoren-Liste · Kein öffentliches AVV/DPA-Dokument. Die Datenschutzerklärung regelt nur Website, Kontakt, Newsletter und Bewerbungen; die in der Produktdoku verlinkten 'Terms and Conditions' leiten am 04.10.2026 auf die Startseite um. Verträge im Enterprise-Vertrieb individuell. · Neue Quelle: https://aleph-alpha.com/datenschutz/ · Commit 4312aa9: fix: Aleph Alpha nachgeprüft — Kolibri-1 offene Gewichte belegt, Training/ZDR beansprucht (Pharia-Doku), Fusion Cohere unterzeichnet</content>
@@ -961,7 +961,7 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-04-gcore-vertrag.training-opt-out</id>
-    <title>Gcore: Kein Training mit Kundendaten — Quelle geändert</title>
+    <title>Gcore: Kein Training mit Kundendaten, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-04-gcore-vertrag.training-opt-out"/>
     <updated>2026-10-04T00:00:00Z</updated>
     <content type="text">Betroffene Felder: Kein Training mit Kundendaten, Zero Data Retention · Kein ausdrücklicher Trainingsausschluss, auch nicht in der Inference-Doku (docs.gcore.com, 04.10.2026). Der MSA bindet nur den Zweck: Lizenz an Customer Content 'solely for the purposes of this Agreement' (§7.2), Nutzung von Customer Data 'solely on behalf of Customer, except where Gcore acts as an independent data controller' (§8.3). Die Modellseiten ('Your data and model interactions never leave our secure infrastructure') betreffen den Ort, nicht das Training. Archivkopie: web.archive.org/web/20261004055218/https://gcore.com/legal · Neue Quelle: https://gcore.com/legal · Commit 6bf918c: fix: Gcore Training/ZDR nachgeprüft — MSA-Zweckbindung und §16.3 statt alter Anmerkung, Status unverändert unbelegt</content>
@@ -975,7 +975,7 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-04-hetzner-vertrag.training-opt-out-2</id>
-    <title>Hetzner: Kein Training mit Kundendaten — Quelle geändert</title>
+    <title>Hetzner: Kein Training mit Kundendaten, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-04-hetzner-vertrag.training-opt-out-2"/>
     <updated>2026-10-04T00:00:00Z</updated>
     <content type="text">Betroffene Felder: Kein Training mit Kundendaten, Zero Data Retention · Alte Quelle: https://www.hetzner.com/de/rechtliches/datenschutz · Neue Quelle: https://www.hetzner.com/de/legal/privacy-policy/ · Commit 33b30a6: fix: Hetzner-Quelle auf Ziel-URL nach 301 (Archivkopie 20261004035559)</content>
@@ -1003,7 +1003,7 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-04-infomaniak-zertifikate-soc-2</id>
-    <title>Infomaniak: Zertifikat SOC 2 — Quelle geändert</title>
+    <title>Infomaniak: Zertifikat SOC 2, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-04-infomaniak-zertifikate-soc-2"/>
     <updated>2026-10-04T00:00:00Z</updated>
     <content type="text">Kein SOC-2-Bericht: die Zertifikatsseite nennt am 04.10.2026 ISO 27001, 9001, 14001, 50001, die Swiss-Labels und B Corp, SOC 2 nicht · Neue Quelle: https://www.infomaniak.com/en/certifications · Commit a87c7bc: fix: Infomaniak nachgeprüft — Training und ZDR per Vertrag belegt (LLM-API-Bedingungen Art. 6), Subprozessoren-Anhang genannt, aber nicht öffentlich</content>
@@ -1094,14 +1094,14 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-03-mistral-vertrag.training-opt-out</id>
-    <title>Mistral AI (La Plateforme): Kein Training mit Kundendaten — Quelle geändert</title>
+    <title>Mistral AI (La Plateforme): Kein Training mit Kundendaten, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-03-mistral-vertrag.training-opt-out"/>
     <updated>2026-10-03T00:00:00Z</updated>
     <content type="text">Opt-out für Studio und API im Admin-Panel (Privacy → 'Anonymous improvement data'), getrennt vom Vibe-Schalter. Stand Help Center 03.09.2026: Free-Modus wird standardmäßig zum Training genutzt; für Pay-as-you-go nennt Mistral nur das Opt-out-Recht, keinen Standard mehr — die frühere Doku-Aussage 'API-Daten werden nicht zum Training genutzt' ist mit der alten Seite (404 seit spätestens 03.10.2026) entfallen. Vibe Enterprise ist standardmäßig ausgeschlossen. · Alte Quelle: https://docs.mistral.ai/admin/monitor-comply/privacy-data-controls · Neue Quelle: https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training · Commit 4b0301d: fix: drei verlorene Belege repariert (Linkcheck 03.10.)</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-03-mistral-vertrag.zero-data-retention</id>
-    <title>Mistral AI (La Plateforme): Zero Data Retention — Quelle geändert</title>
+    <title>Mistral AI (La Plateforme): Zero Data Retention, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-03-mistral-vertrag.zero-data-retention"/>
     <updated>2026-10-03T00:00:00Z</updated>
     <content type="text">ZDR auf bezahlten Plänen, nur auf Antrag mit Begründung (Mistral prüft und kann ablehnen), nur für zustandslose API-Aufrufe (Chat, FIM, Embeddings, Moderation, Klassifikation, OCR, Audio), nicht für Labs-Modelle, Agents, Batch, Files, Vibe. Die früher belegte Standard-Retention von 30 Tagen nennt die neue Seite nicht mehr. · Alte Quelle: https://docs.mistral.ai/admin/monitor-comply/privacy-data-controls · Neue Quelle: https://docs.mistral.ai/admin/monitor-comply/zero-data-retention · Commit 4b0301d: fix: drei verlorene Belege repariert (Linkcheck 03.10.)</content>
@@ -1136,7 +1136,7 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-03-opper-ai-vertrag.subprozessoren</id>
-    <title>Opper AI: Subprozessoren-Liste — Quelle geändert</title>
+    <title>Opper AI: Subprozessoren-Liste, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-03-opper-ai-vertrag.subprozessoren"/>
     <updated>2026-10-03T00:00:00Z</updated>
     <content type="text">Liste seit spätestens 03.10.2026 im Trust Center (opper.ai/sub-processors leitet dorthin um): je Subprozessor Zweck und Datenumgang, u. a. US-Inference-Provider (teils bis 30 Tage Retention fürs Abuse-Monitoring, Moonshot AI darf Anfragen zum Training nutzen) sowie EU-Provider (Mistral FR, Inceptron SE, Berget, Infercom, Regolo, GreenPT, evroc). · Alte Quelle: https://opper.ai/sub-processors · Neue Quelle: https://trust.opper.ai/ · Commit 4b0301d: fix: drei verlorene Belege repariert (Linkcheck 03.10.)</content>
@@ -1192,7 +1192,7 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-03-t-systems-modelle-claude-4.6-sonnet</id>
-    <title>T-Systems / Open Telekom Cloud (AI Foundation Services): Modell Claude 4.6 Sonnet — Quelle geändert</title>
+    <title>T-Systems / Open Telekom Cloud (AI Foundation Services): Modell Claude 4.6 Sonnet, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-03-t-systems-modelle-claude-4.6-sonnet"/>
     <updated>2026-10-03T00:00:00Z</updated>
     <content type="text">Betroffene Felder: Modell Claude 4.6 Sonnet, Modell GPT-5, Modell GPT-OSS 120B, Modell Mistral Small 4 · 2,97 € / 14,85 € je 1M In/Out, 'Cloud: GCP, Server Location: Europe, Data Processing: EU' (Preisliste nennt die Cloud teils als 'GCP / Azure'). Via Google Cloud (Europa); Gateway-Funktion, keine T-Cloud-Hosting-Garantie. · Alte Quelle: https://docs.llmhub.t-systems.net/models/ · Neue Quelle: https://docs.llmhub.t-systems.net/models/llms/ · Commit 623c72a: fix: Quellenlauf 03.10. – 61 Angaben nach Quellenänderung korrigiert</content>
@@ -1297,21 +1297,21 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-08-24-ovhcloud-ai-act-ai-act-informationsmaterial-ver-ffentlicht</id>
-    <title>OVHcloud (AI Endpoints): AI Act: AI-Act-Informationsmaterial veröffentlicht — Quelle geändert</title>
+    <title>OVHcloud (AI Endpoints): AI Act: AI-Act-Informationsmaterial veröffentlicht, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-24-ovhcloud-ai-act-ai-act-informationsmaterial-ver-ffentlicht"/>
     <updated>2026-08-24T00:00:00Z</updated>
     <content type="text">Alte Quelle: https://blog.ovhcloud.com/ai-act-in-a-nutshell/ · Neue Quelle: https://blog.ovhcloud.com/en/posts/ai-act-in-a-nutshell/ · Commit 70c566e: feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-08-24-ovhcloud-zertifikate-bsi-c5</id>
-    <title>OVHcloud (AI Endpoints): Zertifikat BSI C5 — Quelle geändert</title>
+    <title>OVHcloud (AI Endpoints): Zertifikat BSI C5, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-24-ovhcloud-zertifikate-bsi-c5"/>
     <updated>2026-08-24T00:00:00Z</updated>
     <content type="text">Betroffene Felder: Zertifikat BSI C5, Zertifikat HDS, Zertifikat ISO 27001, Zertifikat ISO 27701, Zertifikat SecNumCloud, Zertifikat SOC 1/2/3 · Alte Quelle: https://www.ovhcloud.com/en/enterprise/certification-conformity/ · Neue Quelle: https://www.ovhcloud.com/en/compliance/ · Commit 70c566e: feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-08-24-requesty-vertrag.training-opt-out</id>
-    <title>Requesty: Kein Training mit Kundendaten — Quelle geändert</title>
+    <title>Requesty: Kein Training mit Kundendaten, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-24-requesty-vertrag.training-opt-out"/>
     <updated>2026-08-24T00:00:00Z</updated>
     <content type="text">Alte Quelle: https://docs.requesty.ai · Neue Quelle: https://docs.requesty.ai/quickstart · Commit 70c566e: feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen</content>
@@ -1325,7 +1325,7 @@
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-08-24-t-systems-vertrag.avv</id>
-    <title>T-Systems / Open Telekom Cloud (AI Foundation Services): AVV / Auftragsverarbeitungsvertrag — Quelle geändert</title>
+    <title>T-Systems / Open Telekom Cloud (AI Foundation Services): AVV / Auftragsverarbeitungsvertrag, Quelle geändert</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-08-24-t-systems-vertrag.avv"/>
     <updated>2026-08-24T00:00:00Z</updated>
     <content type="text">Alte Quelle: https://open-telekom-cloud.com/av · Neue Quelle: https://www.t-cloud-public.com/_Resources/Persistent/7/4/4/5/744591c2cdff8be6c3876c3bf6e187fb024cad04/OTC%20ErgB-AV%20TDG_DE.pdf · Commit 70c566e: feat: Quellen-Check als Werkzeug, drei belegte Datenkorrekturen</content>

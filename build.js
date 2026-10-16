@@ -55,7 +55,7 @@ const VERGLEICH_INDEXIERT = new Set([
 ]);
 
 /** Baudatum. Über BUILD_DATUM überschreibbar, damit ein Build reproduzierbar bleibt. */
-const BUILD_DATUM = process.env.BUILD_DATUM || new Date().toISOString().slice(0, 10);
+const BUILD_DATUM = process.env.BUILD_DATUM || Q.heuteLokal();
 
 /** Ledger: Inhalts-Hash je URL. Das lastmod einer Seite wandert nur, wenn ihr HTML wandert. */
 const LEDGER_DATEI = path.join(ROOT, "data", "lastmod.json");
@@ -108,12 +108,12 @@ const LAND_INFO = {
   SE: { name: "Schweden", raum: "eu" },
   IT: { name: "Italien", raum: "eu" },
   CH: { name: "Schweiz", raum: "angemessen" },
-  GB: { name: "Vereinigtes Königreich", raum: "angemessen", hinweis: "Der Angemessenheitsbeschluss wurde im Dezember 2025 verlängert — je eine Erneuerung unter der DSGVO und unter der Richtlinie für den Strafverfolgungsbereich (LED)." },
+  GB: { name: "Vereinigtes Königreich", raum: "angemessen", hinweis: "Der Angemessenheitsbeschluss wurde im Dezember 2025 verlängert, je einmal unter der DSGVO und unter der Richtlinie für den Strafverfolgungsbereich (LED)." },
 };
 const RAUM_TEXT = {
-  eu: "EU-Mitgliedstaat — keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
-  angemessen: "Drittland mit Angemessenheitsbeschluss der EU-Kommission — Übermittlung ohne zusätzliche Garantien zulässig (Art. 45 DSGVO).",
-  drittland: "Drittland ohne Angemessenheitsbeschluss — Übermittlung nur mit geeigneten Garantien, etwa Standardvertragsklauseln (Art. 46 DSGVO).",
+  eu: "EU-Mitgliedstaat. Keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
+  angemessen: "Drittland mit Angemessenheitsbeschluss der EU-Kommission. Übermittlung ohne zusätzliche Garantien zulässig (Art. 45 DSGVO).",
+  drittland: "Drittland ohne Angemessenheitsbeschluss. Übermittlung nur mit geeigneten Garantien, etwa Standardvertragsklauseln (Art. 46 DSGVO).",
 };
 /** Stabile ID des einen Datensatzes. Unterseiten verweisen nur darauf, statt ihn zu wiederholen:
  *  Ein eingebettetes Objekt mit "@type" waere fuer einen Parser eine NEUE Entitaet und muesste
@@ -202,7 +202,7 @@ function verifiedStempel(p, rel) {
 
 function verifiedMini(p) {
   if (!p.verified || !p.verified.datum) return "";
-  return ` <span class="verified-mini" title="Verified am ${datumDE(p.verified.datum)} — Anbieter hat Nachweise eingereicht, von uns geprüft">✓&nbsp;Verified</span>`;
+  return ` <span class="verified-mini" title="Verified am ${datumDE(p.verified.datum)}: Anbieter hat Nachweise eingereicht, wir haben sie geprüft">✓&nbsp;Verified</span>`;
 }
 
 function quelleLink(quelle, geprueft) {
@@ -375,7 +375,7 @@ ${noindex ? '<meta name="robots" content="noindex,follow">' : ""}<link rel="cano
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='14' fill='%235F4B9E'/%3E%3Ctext x='50' y='68' font-size='58' text-anchor='middle' fill='white' font-family='Georgia'%3Eb%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="${rel}fonts.css">
 <link rel="stylesheet" href="${rel}style.css">
-<link rel="alternate" type="application/atom+xml" title="belegbar.eu — Änderungen" href="${rel}aenderungen/feed.xml">
+<link rel="alternate" type="application/atom+xml" title="belegbar.eu: Änderungen" href="${rel}aenderungen/feed.xml">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="belegbar.eu">
 <meta property="og:locale" content="de_DE">
@@ -401,7 +401,7 @@ ${inhalt}
 </main>
 <footer class="fuss">
   <div class="shell">
-    <p><strong>belegbar.eu</strong> — ${esc(SITE.claim)}</p>
+    <p><strong>belegbar.eu</strong>: ${esc(SITE.claim)}</p>
     <p>Statusstufen: <span class="status s-belegt"><span class="dot"></span>belegt</span> = Primärquelle verlinkt · <span class="status s-beansprucht"><span class="dot"></span>beansprucht</span> = Anbieterangabe ohne Dokument · <span class="status s-unbelegt"><span class="dot"></span>unbelegt</span> = keine belastbare Angabe gefunden. Details in der <a href="${rel}methodik/">Methodik</a>.</p>
     <p>Keine Rechtsberatung. Fehler gefunden? <a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a> · <a href="${rel}fuer-anbieter/">Für Anbieter</a> · <a href="${rel}fuer-kaeufer/">Für Käufer</a> · <a href="${rel}ueber/">Impressum &amp; Über</a> · <a href="${rel}datenschutz/">Datenschutz</a></p>
   </div>
@@ -439,7 +439,7 @@ function seiteIndex(providers, stand, aenderungen) {
   const beispiel = providers[0];
   const heroBeleg = beispiel
     ? belegZeile(
-        `${beispiel.name} — AVV / Auftragsverarbeitung`,
+        `${beispiel.name}: AVV / Auftragsverarbeitung`,
         beispiel.vertrag && beispiel.vertrag.avv && beispiel.vertrag.avv.wert
           ? `<a href="${esc(beispiel.vertrag.avv.wert)}" rel="noopener nofollow" target="_blank">Vertragsdokument ansehen</a>`
           : "",
@@ -452,7 +452,7 @@ function seiteIndex(providers, stand, aenderungen) {
 <section class="held">
   <div class="held-text">
     <h1>Wem dürfen Sie Ihre Daten geben?<br>Wir belegen es.</h1>
-    <p class="held-claim">${providers.length} europäische KI-Anbieter, geprüft Feld für Feld: Hosting-Standorte, Preise, AVV, Zertifikate, AI-Act-Nachweise — <strong>jede Angabe mit Quelle und Prüfdatum</strong>. Was wir nicht belegen können, steht hier auch: als „unbelegt“.</p>
+    <p class="held-claim">${providers.length} europäische KI-Anbieter, geprüft Feld für Feld: Hosting-Standorte, Preise, AVV, Zertifikate, AI-Act-Nachweise. <strong>Jede Angabe mit Quelle und Prüfdatum</strong>. Was wir nicht belegen können, steht hier auch: als „unbelegt“.</p>
     ${frische}
   </div>
   <div class="held-beleg" aria-hidden="true">${heroBeleg}</div>
@@ -510,7 +510,7 @@ function seiteIndex(providers, stand, aenderungen) {
     "@context": "https://schema.org",
     "@type": "Dataset",
     "@id": DATASET_ID,
-    name: "belegbar.eu — Evidenz-Datenbank europäischer KI-Anbieter",
+    name: "belegbar.eu: Evidenz-Datenbank europäischer KI-Anbieter",
     description: SITE.claim,
     url: SITE.baseUrl,
     license: "https://creativecommons.org/licenses/by/4.0/",
@@ -520,8 +520,8 @@ function seiteIndex(providers, stand, aenderungen) {
   };
 
   return layout({
-    titel: "belegbar.eu — Souveräne KI-Anbieter aus Europa, mit Quelle und Prüfdatum",
-    beschreibung: `${providers.length} europäische KI-Anbieter im Vergleich: Hosting, Preise, AVV, Zertifikate, AI-Act-Nachweise — jede Angabe belegt oder ehrlich als unbelegt markiert.`,
+    titel: "belegbar.eu: Souveräne KI-Anbieter aus Europa, mit Quelle und Prüfdatum",
+    beschreibung: `${providers.length} europäische KI-Anbieter im Vergleich: Hosting, Preise, AVV, Zertifikate, AI-Act-Nachweise. Jede Angabe ist belegt oder als unbelegt markiert.`,
     inhalt, rel: "./", pfad: "", jsonld,
   });
 }
@@ -538,7 +538,7 @@ function quellenlaufKasten(z) {
     : `noch keine der ${z.quellen} Quellen maschinell nachgelesen`;
   return `<section class="quellenlauf" id="quellenlauf">
     <p><strong>Quellenlauf</strong> · ${nachgelesen}</p>
-    <p>${z.unveraendert} unverändert · ${z.veraendert_gelesen} verändert und von Hand gelesen · <span${z.offen ? ' class="lauf-offen"' : ""}>${z.offen} offen (verändert, noch nicht gelesen)</span> · ${z.verschwunden} verschwunden</p>
+    <p>${z.unveraendert} unverändert · ${z.veraendert_gelesen} verändert und gelesen · <span${z.offen ? ' class="lauf-offen"' : ""}>${z.offen} offen (verändert, noch nicht gelesen)</span> · ${z.verschwunden} verschwunden</p>
     <p>Status- oder Quellenwechsel in den letzten 30 Tagen: ${z.statuswechsel_30_tage} → <a href="../../aenderungen/">Änderungsprotokoll</a> · <a href="../../methodik/#quellenlauf">So arbeitet der Quellenlauf</a></p>
   </section>`;
 }
@@ -566,8 +566,8 @@ function seiteAnbieter(p, alleProvider, facetten, faelle, aenderungen) {
   const vertragHtml = [
     belegZeile("AVV / Auftragsverarbeitungsvertrag", v.avv && v.avv.wert ? `<a href="${esc(v.avv.wert)}" rel="noopener nofollow" target="_blank">Vertragsdokument</a>` : "", v.avv, p.geprueft),
     belegZeile("Subprozessoren-Liste", v.subprozessoren && v.subprozessoren.wert ? `<a href="${esc(v.subprozessoren.wert)}" rel="noopener nofollow" target="_blank">Liste ansehen</a>` : "", v.subprozessoren, p.geprueft),
-    belegZeile("Kein Training mit Kundendaten", v.training_opt_out ? (v.training_opt_out.wert === true ? "Ja — Kundendaten werden nicht zum Training genutzt" : v.training_opt_out.wert === false ? "Nein — Anbieter trainiert mit Kundendaten (oder nur mit Opt-out)" : "") : "", v.training_opt_out, p.geprueft),
-    belegZeile("Zero Data Retention", v.zero_data_retention ? (v.zero_data_retention.wert === true ? "Ja — keine Speicherung der Anfragen" : v.zero_data_retention.wert === false ? "Nein — Anfragen werden (zeitweise) gespeichert" : "") : "", v.zero_data_retention, p.geprueft),
+    belegZeile("Kein Training mit Kundendaten", v.training_opt_out ? (v.training_opt_out.wert === true ? "Ja, Kundendaten werden nicht zum Training genutzt" : v.training_opt_out.wert === false ? "Nein, Anbieter trainiert mit Kundendaten (oder nur mit Opt-out)" : "") : "", v.training_opt_out, p.geprueft),
+    belegZeile("Zero Data Retention", v.zero_data_retention ? (v.zero_data_retention.wert === true ? "Ja, keine Speicherung der Anfragen" : v.zero_data_retention.wert === false ? "Nein, Anfragen werden (zeitweise) gespeichert" : "") : "", v.zero_data_retention, p.geprueft),
   ].join("\n");
 
   const zertHtml = (p.zertifikate || []).length
@@ -610,9 +610,9 @@ ${eigeneFaelle.map((f) => `  <aside class="fall-hinweis fall-${esc(f.status)}"><
     <div><dt>Sitz</dt><dd>${esc(s.sitz || "–")}</dd></div>
     <div><dt>Kategorie</dt><dd>${esc(KATEGORIE_LABEL[p.kategorie] || p.kategorie)}</dd></div>
     <div><dt>Mutterkonzern</dt><dd>${esc(s.mutterkonzern || "unabhängig / keiner bekannt")}</dd></div>
-    <div><dt>US-Eigentümerstruktur</dt><dd>${s.us_eigner === true ? '<span class="warnung">ja — CLOUD-Act-Relevanz prüfen</span>' : s.us_eigner === false ? "nein" : "unbelegt"}</dd></div>
+    <div><dt>US-Eigentümerstruktur</dt><dd>${s.us_eigner === true ? '<span class="warnung">ja, CLOUD-Act-Relevanz prüfen</span>' : s.us_eigner === false ? "nein" : "unbelegt"}</dd></div>
     <div><dt>Gegründet</dt><dd>${esc(s.gegruendet || "–")}</dd></div>
-    <div><dt>Rechtsraum</dt><dd>${esc(li.name)} — ${esc(RAUM_TEXT[li.raum])}${li.hinweis ? " " + esc(li.hinweis) : ""} <span class="quelle"><a href="${ADEQUACY_QUELLE}" rel="noopener nofollow" target="_blank">Quelle</a> · geprüft ${datumDE(ADEQUACY_GEPRUEFT)}</span></dd></div>
+    <div><dt>Rechtsraum</dt><dd>${esc(li.name)}: ${esc(RAUM_TEXT[li.raum])}${li.hinweis ? " " + esc(li.hinweis) : ""} <span class="quelle"><a href="${ADEQUACY_QUELLE}" rel="noopener nofollow" target="_blank">Quelle</a> · geprüft ${datumDE(ADEQUACY_GEPRUEFT)}</span></dd></div>
     <div><dt>Website</dt><dd><a href="${esc(s.website)}" rel="noopener nofollow" target="_blank">${esc((s.website || "").replace(/^https?:\/\//, ""))}</a></dd></div>
   </dl>
 
@@ -643,7 +643,7 @@ ${eigeneFaelle.map((f) => `  <aside class="fall-hinweis fall-${esc(f.status)}"><
 
   <footer class="dossier-fuss">
     <p>Vollständig geprüft am ${datumDE(p.geprueft)}${juengstesDatum(p) !== p.geprueft ? `, einzelne Angaben zuletzt am ${datumDE(juengstesDatum(p))} nachgeprüft` : ""}. Alle Angaben ohne Gewähr, keine Rechtsberatung.</p>
-    <p><strong>Sie arbeiten bei ${esc(p.name)}?</strong> Belege nachreichen, einen Fall beantworten oder den Verified-Stempel beantragen: <a href="../../fuer-anbieter/">Für Anbieter</a> — Belege, Fälle und Verified kostenlos, ohne Gegenleistung. Mail an <a href="mailto:${SITE.kontakt}?subject=Verifizierung%20${encodeURIComponent(p.name)}">${SITE.kontakt}</a>.</p>
+    <p><strong>Sie arbeiten bei ${esc(p.name)}?</strong> Belege nachreichen, einen Fall beantworten oder den Verified-Stempel beantragen: <a href="../../fuer-anbieter/">Für Anbieter</a>. Belege, Fälle und Verified sind kostenlos, ohne Gegenleistung. Mail an <a href="mailto:${SITE.kontakt}?subject=Verifizierung%20${encodeURIComponent(p.name)}">${SITE.kontakt}</a>.</p>
   </footer>
   ${zitierBox(Z.zitatProfil(p, juengstesDatum(p), SITE.baseUrl), "daten.json", "daten.json dieses Profils")}
 </article>`;
@@ -651,7 +651,7 @@ ${eigeneFaelle.map((f) => `  <aside class="fall-hinweis fall-${esc(f.status)}"><
   const jsonld = {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    name: `${p.name} — Beleg-Check`,
+    name: `${p.name}: Beleg-Check`,
     url: `${SITE.baseUrl}/anbieter/${p.id}/`,
     dateModified: juengstesDatum(p) || undefined,
     license: "https://creativecommons.org/licenses/by/4.0/",
@@ -666,7 +666,7 @@ ${eigeneFaelle.map((f) => `  <aside class="fall-hinweis fall-${esc(f.status)}"><
   };
 
   return layout({
-    titel: `${p.name} — DSGVO, Hosting, Preise & Zertifikate im Beleg-Check | belegbar.eu`,
+    titel: `${p.name}: DSGVO, Hosting, Preise & Zertifikate im Beleg-Check | belegbar.eu`,
     beschreibung: `${p.name}: ${p.kurzbeschreibung || ""} Beleg-Quote ${quote} %. Alle Angaben mit Quelle und Prüfdatum.`,
     inhalt, rel: "../../", pfad: `anbieter/${p.id}/`,
     jsonld: [jsonld, brotkrumenLd([["", "Anbieter"], [`anbieter/${p.id}/`, p.name]])],
@@ -733,11 +733,11 @@ function seiteVergleichIndex(paare) {
     .join("\n");
   const inhalt = `
 <h1>Direktvergleiche</h1>
-<p>Jeder Vergleich stellt zwei Anbieter derselben Kategorie Feld für Feld gegenüber — mit Beleg-Status pro Angabe.</p>
+<p>Jeder Vergleich stellt zwei Anbieter derselben Kategorie Feld für Feld gegenüber, mit Beleg-Status pro Angabe.</p>
 <ul class="vergleich-liste">${liste}</ul>`;
   return layout({
     titel: "Anbieter-Direktvergleiche | belegbar.eu",
-    beschreibung: "Europäische KI-Anbieter im direkten Vergleich: AVV, Hosting, Preise, Zertifikate — jede Angabe mit Beleg-Status.",
+    beschreibung: "Europäische KI-Anbieter im direkten Vergleich: AVV, Hosting, Preise, Zertifikate. Jede Angabe mit Beleg-Status.",
     inhalt, rel: "../", pfad: "vergleich/",
   });
 }
@@ -748,7 +748,7 @@ function seiteRatgeber(guides) {
     .join("\n");
   const inhalt = `
 <h1>Ratgeber</h1>
-<p>Kompakte Orientierung zu DSGVO, AI Act und Zertifikaten beim Einsatz von KI-Anbietern — geschrieben für Entscheider, nicht für Juristen. Keine Rechtsberatung.</p>
+<p>Kurze Ratgeber zu DSGVO, AI Act und Zertifikaten, wenn Sie KI-Anbieter einsetzen. Geschrieben für Entscheider, nicht für Juristen. Keine Rechtsberatung.</p>
 <ul class="ratgeber-liste">${liste}</ul>`;
   return layout({
     titel: "Ratgeber: DSGVO, AI Act & Zertifikate für KI-Einsatz | belegbar.eu",
@@ -762,7 +762,7 @@ function seiteGuide(g) {
 <nav class="brotkrumen" aria-label="Pfad"><a href="../../">Anbieter</a> / <a href="../">Ratgeber</a> / ${esc(g.titel)}</nav>
 <article class="artikel">
 ${g.html}
-<footer class="dossier-fuss"><p>${esc(GUIDES.standText(g))}. Keine Rechtsberatung — für verbindliche Auskünfte wenden Sie sich an Fachanwälte oder Ihre Datenschutzbeauftragten.</p></footer>
+<footer class="dossier-fuss"><p>${esc(GUIDES.standText(g))}. Keine Rechtsberatung. Für verbindliche Auskünfte wenden Sie sich an Fachanwälte oder Ihre Datenschutzbeauftragten.</p></footer>
 </article>`;
   const jsonld = {
     "@context": "https://schema.org",
@@ -817,7 +817,7 @@ ${(f.aufloesung || []).length ? `<h2>Was den Fall ausräumt</h2>
 
 <h2>Antwort des Anbieters</h2>
 ${f.antworten.length
-    ? f.antworten.map((a) => `<figure class="zitat antwort"><blockquote>${esc(a.text)}</blockquote><figcaption>${esc(provider.name)}, ${datumDE(a.datum)}${a.von ? ", " + esc(a.von) : ""} — wörtlich, ungekürzt</figcaption></figure>${a.anmerkung ? `<p class="klein anmerkung"><strong>Anmerkung belegbar.eu:</strong> ${esc(a.anmerkung)}</p>` : ""}`).join("\n")
+    ? f.antworten.map((a) => `<figure class="zitat antwort"><blockquote>${esc(a.text)}</blockquote><figcaption>${esc(provider.name)}, ${datumDE(a.datum)}${a.von ? ", " + esc(a.von) : ""}, wörtlich und ungekürzt</figcaption></figure>${a.anmerkung ? `<p class="klein anmerkung"><strong>Anmerkung belegbar.eu:</strong> ${esc(a.anmerkung)}</p>` : ""}`).join("\n")
     : `<p class="leer">Noch keine Antwort. ${f.anbieter_informiert ? `Der Anbieter wurde am ${datumDE(f.anbieter_informiert)} informiert; Antwortfrist bis ${datumDE(f.antwort_frist)}.` : `Antwortfrist bis ${datumDE(f.antwort_frist)}.`} Jede Antwort wird hier wörtlich und ungekürzt veröffentlicht.</p>`}
 
 <h2>Verlauf</h2>
@@ -826,8 +826,8 @@ ${f.verlauf.map((v) => `<tr><td class="datum">${datumDE(v.datum)}</td><td>${esc(
 </tbody></table>
 
 <footer class="dossier-fuss">
-  <p>Status <strong>${esc(st.label)}</strong>: ${esc(st.text)}. Ein Fall wird nie gelöscht — auch ein ausgeräumter Fall bleibt mit seinem Verlauf stehen. Was ein Fall ist und was nicht: <a href="../../methodik/#faelle">Methodik</a>.</p>
-  <p><strong>Sie arbeiten bei ${esc(provider.name)}?</strong> Antworten Sie an <a href="mailto:${SITE.kontakt}?subject=Fall%20${encodeURIComponent(f.id)}%20${encodeURIComponent(provider.name)}">${SITE.kontakt}</a> — Ihre Antwort erscheint wörtlich auf dieser Seite. Was Sie sonst tun können: <a href="../../fuer-anbieter/">Für Anbieter</a>.</p>
+  <p>Status <strong>${esc(st.label)}</strong>: ${esc(st.text)}. Ein Fall wird nie gelöscht. Auch ein ausgeräumter Fall bleibt mit seinem Verlauf stehen. Was ein Fall ist und was nicht: <a href="../../methodik/#faelle">Methodik</a>.</p>
+  <p><strong>Sie arbeiten bei ${esc(provider.name)}?</strong> Antworten Sie an <a href="mailto:${SITE.kontakt}?subject=Fall%20${encodeURIComponent(f.id)}%20${encodeURIComponent(provider.name)}">${SITE.kontakt}</a>. Ihre Antwort erscheint wörtlich auf dieser Seite. Was Sie sonst tun können: <a href="../../fuer-anbieter/">Für Anbieter</a>.</p>
 </footer>
 ${zitierBox(Z.zitatFall(f, stand, SITE.baseUrl, st.label), "daten.json", "daten.json dieses Falls (Zitate, Hashes, Snapshots, Verlauf)")}
 </article>`;
@@ -855,14 +855,14 @@ function seiteFaelleIndex(faelle, providers, stand) {
   const inhalt = `
 <article class="artikel">
 <h1>Fälle: Wo Behauptung und Beleg auseinanderlaufen</h1>
-<p>Ein Fall ist kein Urteil. Er dokumentiert, dass zwei öffentliche Aussagen desselben Anbieters — oder eine Aussage und ihr Primärdokument — nicht zugleich wahr sein können. Mit wörtlichem Zitat, Abrufzeitpunkt, Inhalts-Hash und Archivkopie. Der Anbieter wird vor der Veröffentlichung informiert, seine Antwort erscheint wörtlich. <a href="../methodik/#faelle">So funktioniert es.</a></p>
+<p>Ein Fall ist kein Urteil. Er dokumentiert, dass zwei öffentliche Aussagen desselben Anbieters (oder eine Aussage und ihr Primärdokument) nicht zugleich wahr sein können. Mit wörtlichem Zitat, Abrufzeitpunkt, Inhalts-Hash und Archivkopie. Der Anbieter wird vor der Veröffentlichung informiert, seine Antwort erscheint wörtlich. <a href="../methodik/#faelle">So funktioniert es.</a></p>
 ${faelle.length ? `<ul class="liste-faelle">
 ${faelle.map((f) => `<li><p class="fall-kopf">Fall ${esc(f.id)} · ${fallStatusBadge(f.status)} · ${datumDE(f.eroeffnet)} · ${esc((byId.get(f.anbieter) || {}).name || f.anbieter)}</p><a href="${esc(f.slug)}/"><strong>${esc(f.titel)}</strong></a><p class="klein">${esc(f.kurz)}</p></li>`).join("\n")}
 </ul>` : '<p class="leer">Noch kein Fall dokumentiert.</p>'}
 <footer class="dossier-fuss"><p class="klein">Stand ${datumDE(stand)} · Lizenz CC BY 4.0</p></footer>
 </article>`;
   return layout({
-    titel: "Fälle — dokumentierte Widersprüche bei europäischen KI-Anbietern | belegbar.eu",
+    titel: "Fälle: dokumentierte Widersprüche bei europäischen KI-Anbietern | belegbar.eu",
     beschreibung: "Wo Marketing-Aussage und eigenes Dokument eines KI-Anbieters nicht zusammenpassen: wörtlich zitiert, datiert, archiviert, mit Antwortfrist und Antwort des Anbieters.",
     inhalt, rel: "../", pfad: "faelle/",
     jsonld: brotkrumenLd([["", "Anbieter"], ["faelle/", "Fälle"]]),
@@ -901,7 +901,7 @@ function seiteAenderungen(eintraege, providers, faelle, stand) {
   const inhalt = `
 <article class="artikel">
 <h1>Änderungen: Was sich an Belegen bewegt hat</h1>
-<p>Jede Angabe dieser Datenbank trägt einen Status und eine Quelle. Sobald sich eines von beiden ändert, ein Fall seinen Status wechselt oder ein Anbieter aufgenommen wird, steht es hier — mit Datum, altem und neuem Wert, Grund und beiden Quellen. Das Protokoll wird bei jedem Build aus der <a href="${REPO_URL}" rel="noopener" target="_blank">öffentlichen Git-Historie</a> berechnet, nicht von Hand geführt: Jeder kann es aus denselben Commits nachrechnen. Nicht verzeichnet sind fortgeschriebene Prüfdaten und Anmerkungen; das Prüfdatum steht auf jedem Profil.</p>
+<p>Jede Angabe dieser Datenbank trägt einen Status und eine Quelle. Sobald sich eines von beiden ändert, ein Fall seinen Status wechselt oder ein Anbieter aufgenommen wird, steht es hier. Mit Datum, altem und neuem Wert, Grund und beiden Quellen. Das Protokoll wird bei jedem Build aus der <a href="${REPO_URL}" rel="noopener" target="_blank">öffentlichen Git-Historie</a> berechnet, nicht von Hand geführt: Jeder kann es aus denselben Commits nachrechnen. Nicht verzeichnet sind fortgeschriebene Prüfdaten und Anmerkungen; das Prüfdatum steht auf jedem Profil.</p>
 <p class="klein">Abonnieren: <a href="feed.xml">Atom-Feed</a> · Rohdaten: <a href="../daten.json">daten.json</a> (Feld <code>aenderungen</code>) · Wie der monatliche Quellenlauf Änderungen findet: <a href="../methodik/#faelle">Methodik</a></p>
 ${tage.map((t) => `<h2 id="${t}">${datumDE(t)}</h2>
 <ul class="liste-aenderungen">
@@ -910,8 +910,8 @@ ${gruppen.filter((e) => e.datum === t).map(zeile).join("\n")}
 <footer class="dossier-fuss"><p class="klein">${eintraege.length} Einträge seit ${datumDE(eintraege.length ? eintraege[eintraege.length - 1].datum : stand)} · Stand ${datumDE(stand)} · Lizenz CC BY 4.0</p></footer>
 </article>`;
   return layout({
-    titel: "Änderungsprotokoll — jede Status- und Quellenänderung, datiert | belegbar.eu",
-    beschreibung: "Was sich an den Belegen europäischer KI-Anbieter geändert hat: Statuswechsel, umgezogene Quellen, neue Fälle — datiert, mit altem und neuem Wert, aus der öffentlichen Git-Historie berechnet.",
+    titel: "Änderungsprotokoll: jede Status- und Quellenänderung, datiert | belegbar.eu",
+    beschreibung: "Was sich an den Belegen europäischer KI-Anbieter geändert hat: Statuswechsel, umgezogene Quellen, neue Fälle. Datiert, mit altem und neuem Wert, aus der öffentlichen Git-Historie berechnet.",
     inhalt, rel: "../", pfad: "aenderungen/",
     jsonld: brotkrumenLd([["", "Anbieter"], ["aenderungen/", "Änderungen"]]),
   });
@@ -921,14 +921,14 @@ function seiteFuerAnbieter() {
   const inhalt = `
 <article class="artikel">
 <h1>Für Anbieter: Belege nachreichen, Fälle beantworten, Verified beantragen</h1>
-<p>Diese Datenbank listet Sie, ob Sie mitwirken oder nicht: Gelistet wird, wer für europäische Käufer relevant ist, mit dem, was öffentlich belegbar ist. Mitwirken lohnt sich trotzdem — nicht, weil es ein Ranking gäbe, sondern weil jede Angabe, die Sie belegen, mit Datum und Quelle im Profil steht und im <a href="../aenderungen/">Änderungsprotokoll</a> erscheint. Drei Wege, alle kostenlos, alle ohne Gegenleistung. Daneben zwei Dinge, die Geld kosten, weil sie Arbeit auf Ihren Wunsch sind; was sie kaufen und was nicht, steht unten unter <a href="#eintritt">Eintritt zum Festpreis</a>:</p>
+<p>Diese Datenbank listet Sie, ob Sie mitwirken oder nicht: Gelistet wird, wer für europäische Käufer relevant ist, mit dem, was öffentlich belegbar ist. Mitwirken lohnt sich trotzdem. Ein Ranking gibt es nicht, aber jede Angabe, die Sie belegen, mit Datum und Quelle im Profil steht und im <a href="../aenderungen/">Änderungsprotokoll</a> erscheint. Drei Wege, alle kostenlos, alle ohne Gegenleistung. Daneben zwei Dinge, die Geld kosten, weil sie Arbeit auf Ihren Wunsch sind; was sie kaufen und was nicht, steht unten unter <a href="#eintritt">Eintritt zum Festpreis</a>:</p>
 
 <h2 id="belege">1. Belege nachreichen</h2>
 <p>Steht eine Angabe in Ihrem Profil auf „beansprucht“ oder „unbelegt“, schicken Sie das Primärdokument an <a href="mailto:${SITE.kontakt}?subject=Beleg%20[Anbietername]">${SITE.kontakt}</a>, Betreff „Beleg [Anbietername]“. Als Beleg zählt, was auch sonst für „belegt“ gilt: Vertragsdokument, Zertifikat mit Auditor und Geltungsbereich, Subprozessorenliste, Policy-Dokument, Preisliste. Ein Link ist so gut wie ein PDF; eine Marketing-Seite ist kein Beleg.</p>
 <p><strong>Unsere Zusage:</strong> Wir prüfen binnen sieben Tagen nach Eingang. Was den Maßstab erfüllt, setzen wir auf „belegt“, mit Prüfdatum und verlinkter Quelle. Was ihn nicht erfüllt, bleibt, wie es ist, und Sie erfahren in einem Satz, warum. Jede Änderung steht datiert im Änderungsprotokoll, für jeden nachrechenbar.</p>
 
 <h2 id="fall">2. Einen Fall beantworten</h2>
-<p>Ein <a href="../faelle/">Fall</a> dokumentiert, dass zwei Ihrer öffentlichen Aussagen nicht zugleich wahr sein können. Sie erfahren davon zuerst, per Mail mit dem vollständigen Text; am selben Tag erscheint der Fall als „offen“. Ab dieser Mail haben Sie 14 Tage Frist, erst danach kann der Fall ohne Antwort „bestätigt“ werden. Ihre Antwort erscheint wörtlich und ungekürzt neben dem Fall. Ein Fall ist kein Pranger: Er ist so geschrieben, dass Sie ihn mit einer Korrektur ausräumen können, und ein ausgeräumter Fall zeigt, dass Sie innerhalb von Tagen reagiert haben — das ist eine der nützlichsten Informationen, die diese Datenbank über einen Anbieter enthält. Antworten Sie an ${SITE.kontakt} mit dem Betreff aus unserer Mail („Fall [Nummer] [Anbietername]“).</p>
+<p>Ein <a href="../faelle/">Fall</a> dokumentiert, dass zwei Ihrer öffentlichen Aussagen nicht zugleich wahr sein können. Sie erfahren davon zuerst, per Mail mit dem vollständigen Text; am selben Tag erscheint der Fall als „offen“. Ab dieser Mail haben Sie 14 Tage Frist, erst danach kann der Fall ohne Antwort „bestätigt“ werden. Ihre Antwort erscheint wörtlich und ungekürzt neben dem Fall. Ein Fall ist kein Pranger: Er ist so geschrieben, dass Sie ihn mit einer Korrektur ausräumen können, und ein ausgeräumter Fall zeigt, dass Sie innerhalb von Tagen reagiert haben. Das ist eine der nützlichsten Informationen, die diese Datenbank über einen Anbieter enthält. Antworten Sie an ${SITE.kontakt} mit dem Betreff aus unserer Mail („Fall [Nummer] [Anbietername]“).</p>
 
 <h2 id="verified">3. Den Verified-Stempel beantragen</h2>
 <p>Der Stempel sagt nicht „geprüft gut“, sondern: <em>Dieser Anbieter hat sich an seine Aussagen gebunden.</em> Sie bekommen ihn, wenn drei Dinge zusammenkommen (die vollständige Regel steht in der <a href="../methodik/#verified">Methodik</a>):</p>
@@ -984,8 +984,8 @@ function seiteFuerKaeufer(muster = null) {
   const inhalt = `
 <article class="artikel">
 <h1>Für Käufer: das Anbieter-Dossier</h1>
-<p>Sie müssen einen KI-Anbieter freigeben und brauchen dafür etwas, das Sie unterschreiben können. Alles, was diese Datenbank über den Anbieter weiß, steht kostenlos in seinem Profil. Das Dossier ist dieselbe Information, zusammengestellt, datiert und unterschrieben, damit Sie sie nicht selbst nachbauen müssen. Sie prüfen Anbieter für Dritte, als Datenschutzbeauftragter oder Auditor? <a href="#auditoren">Hier steht, welcher Teil Ihrer Prüfung öffentlich vorab erledigt werden kann</a>, mit Muster.</p>
-<p><strong>Was Sie bekommen, 390 € je Anbieter, ohne Umsatzsteuer (Kleinunternehmer nach § 19 UStG):</strong> ein datiertes Dokument mit jeder Angabe aus dem Profil, je mit Quelle, Prüfdatum, SHA-256 der Quelle und Archivkopie; ausdrücklich den Abschnitt „nicht belegbar“, also was wir trotz Suche nicht gefunden haben; die offenen und ausgeräumten <a href="../faelle/">Fälle</a> mit Verlauf; dazu zwölf Monate Änderungsalarm per Mail, wenn der monatliche Quellenlauf bei diesem Anbieter etwas findet: ein Zertifikat läuft ab, ein Subprozessor kommt dazu, ein Fall wird eröffnet. Lieferung binnen fünf Werktagen, unterschrieben vom Betreiber.</p>
+<p>Sie müssen einen KI-Anbieter freigeben und brauchen dafür etwas, das Sie unterschreiben können. Alles, was diese Datenbank über den Anbieter weiß, steht kostenlos in seinem Profil. Das Dossier ist dieselbe Information, zusammengestellt, datiert und freigegeben, damit Sie sie nicht selbst nachbauen müssen. Sie prüfen Anbieter für Dritte, als Datenschutzbeauftragter oder Auditor? <a href="#auditoren">Hier steht, welcher Teil Ihrer Prüfung öffentlich vorab erledigt werden kann</a>, mit Muster.</p>
+<p><strong>Was Sie bekommen, 390 € je Anbieter, ohne Umsatzsteuer (Kleinunternehmer nach § 19 UStG):</strong> ein datiertes Dokument mit jeder Angabe aus dem Profil, je mit Quelle, Prüfdatum, SHA-256 der Quelle und Archivkopie; ausdrücklich den Abschnitt „nicht belegbar“, also was wir trotz Suche nicht gefunden haben; die offenen und ausgeräumten <a href="../faelle/">Fälle</a> mit Verlauf; dazu zwölf Monate Änderungsalarm per Mail, wenn der monatliche Quellenlauf bei diesem Anbieter etwas findet: ein Zertifikat läuft ab, ein Subprozessor kommt dazu, ein Fall wird eröffnet. Lieferung binnen fünf Werktagen. Ein KI-Agent sammelt und vergleicht die Quellen, Felix Lind prüft und gibt frei. Das Dossier dokumentiert, was wann wo stand, mit Abrufdatum und Prüfsumme. Keine Gewähr für die Richtigkeit der Angaben des Anbieters.</p>
 <p><strong>Was Sie nicht bekommen:</strong> keine Bewertung, keine Empfehlung, kein „geeignet“ oder „ungeeignet“, keine Rechtsberatung. Nichts, was nicht auch im öffentlichen Profil steht oder stehen könnte. Wenn Sie die Stunden selbst haben, brauchen Sie das Dossier nicht.</p>
 <p><strong>Was das für die Datenbank bedeutet:</strong> Das Dossier ist eine Leistung des Betreibers, nicht der Datenbank. Es ändert nichts am Profil des Anbieters, und der Anbieter erfährt nicht, wer ein Dossier bestellt hat. Die Daten bleiben CC BY 4.0. Die Regeln zur Unabhängigkeit stehen in der <a href="../methodik/#unabhaengigkeit">Methodik</a>.</p>
 <p>Bestellung: Mail an <a href="mailto:${SITE.kontakt}?subject=Dossier%20[Anbietername]">${SITE.kontakt}</a>, Betreff „Dossier [Anbietername]“. Nennen Sie gern die Prüfpunkte, die für Sie zählen.</p>
@@ -993,7 +993,7 @@ ${KS.abschnittAuditoren({ muster })}
 </article>`;
   return layout({
     titel: "Für Käufer: das Anbieter-Dossier | belegbar.eu",
-    beschreibung: "Ein datiertes, unterschriebenes Dossier zu einem KI-Anbieter für Datenschutzbeauftragte und Einkauf: jede Angabe mit Quelle, Prüfdatum und Hash, der Abschnitt „nicht belegbar“, die Fälle, zwölf Monate Änderungsalarm. 390 €, ohne Umsatzsteuer.",
+    beschreibung: "Ein datiertes, freigegebenes Dossier zu einem KI-Anbieter für Datenschutzbeauftragte und Einkauf: jede Angabe mit Quelle, Prüfdatum und Hash, der Abschnitt „nicht belegbar“, die Fälle, zwölf Monate Änderungsalarm. 390 €, ohne Umsatzsteuer.",
     inhalt, rel: "../", pfad: "fuer-kaeufer/",
     jsonld: brotkrumenLd([["", "Anbieter"], ["fuer-kaeufer/", "Für Käufer"]]),
   });
@@ -1003,76 +1003,79 @@ function seiteMethodik() {
   const inhalt = `
 <article class="artikel">
 <h1>Methodik: Was „belegt“ bei uns heißt</h1>
-<p>belegbar.eu ist eine Evidenz-Datenbank, keine Bestenliste. Wir bewerten nicht, wir belegen — und wo wir nichts belegen können, sagen wir das.</p>
+<p>belegbar.eu ist eine Evidenz-Datenbank, keine Bestenliste. Wir bewerten nicht, wir belegen. Wo wir nichts belegen können, sagen wir das.</p>
+
+<h2 id="wer">Wer hier arbeitet</h2>
+<p>Ein KI-Agent sammelt die Quellen, liest sie und vergleicht sie mit dem Profil. Felix Lind prüft das Ergebnis und gibt es frei. Nichts geht ohne seine Freigabe online, auch kein Fall und kein Dossier. Belegt wird die Fundstelle: was wann wo stand, mit Abrufdatum, Prüfsumme und, wo vorhanden, Archivkopie. Ob die Angabe des Anbieters stimmt, verantwortet der Anbieter. Keine Gewähr für die Richtigkeit seiner Angaben, keine Rechtsberatung.</p>
 
 <h2>Die drei Statusstufen</h2>
-${belegZeile("belegt", "Die Angabe ist durch ein Primärdokument oder eine offizielle, konkrete Anbieterseite nachgewiesen — Vertragsdokument, Audit-Zertifikat, Preisliste, Subprozessorenliste. Die Quelle ist direkt verlinkt.", { status: "belegt" }, null)}
-${belegZeile("beansprucht", "Der Anbieter behauptet die Eigenschaft auf Marketing-Seiten, wir haben aber kein prüfbares Dokument gefunden. Das ist kein Vorwurf — aber ein Unterschied, den Einkäufer und Datenschutzbeauftragte kennen sollten.", { status: "beansprucht" }, null)}
+${belegZeile("belegt", "Die Angabe ist durch ein Primärdokument oder eine offizielle, konkrete Anbieterseite nachgewiesen: Vertragsdokument, Audit-Zertifikat, Preisliste, Subprozessorenliste. Die Quelle ist direkt verlinkt.", { status: "belegt" }, null)}
+${belegZeile("beansprucht", "Der Anbieter behauptet die Eigenschaft auf Marketing-Seiten, wir haben aber kein prüfbares Dokument gefunden. Das ist kein Vorwurf. Einkäufer und Datenschutzbeauftragte sollten den Unterschied trotzdem kennen.", { status: "beansprucht" }, null)}
 ${belegZeile("unbelegt", "Wir haben keine belastbare Angabe gefunden. Auch das ist eine Information: Ein Anbieter, dessen AVV nicht auffindbar ist, macht Ihnen die Compliance-Arbeit schwer.", { status: "unbelegt" }, null)}
 
 <h2 id="preise">Preise: eine vierte Stufe</h2>
-<p>Preise tragen dieselben drei Status wie jede andere Angabe. Dazu kommt eine vierte, die es nur bei Preisen gibt: <span class="preis-kein">kein öffentlicher Preis</span>. Sie steht dort, wo der Anbieter für ein Modell nachweislich keinen Preis veröffentlicht — Enterprise-Vertrieb, „auf Anfrage“, Preisliste erst nach Login, oder noch nicht veröffentlicht. Das ist keine Lücke in unseren Daten, sondern eine Eigenschaft des Angebots, und sie ist über die verlinkte Quelle belegt. „unbelegt“ heißt dagegen: Wir haben keinen Preis gefunden; der Anbieter könnte einen veröffentlicht haben.</p>
+<p>Preise tragen dieselben drei Status wie jede andere Angabe. Dazu kommt eine vierte, die es nur bei Preisen gibt: <span class="preis-kein">kein öffentlicher Preis</span>. Sie steht dort, wo der Anbieter für ein Modell nachweislich keinen Preis veröffentlicht: Enterprise-Vertrieb, „auf Anfrage“, Preisliste erst nach Login, oder noch nicht veröffentlicht. Das ist keine Lücke in unseren Daten, sondern eine Eigenschaft des Angebots, und sie ist über die verlinkte Quelle belegt. „unbelegt“ heißt dagegen: Wir haben keinen Preis gefunden; der Anbieter könnte einen veröffentlicht haben.</p>
 <p>Wo nicht je Token abgerechnet wird, nennen wir die Einheit des Anbieters (GPU-Stunde, Bild, Minute, Monat) und den niedrigsten Wert („ab“). Preise verschiedener Einheiten vergleichen wir nicht. Jeder Preis trägt sein Abrufdatum; Archivkopien der Preisseiten liegen im <a href="https://github.com/Felix3c/belegt/tree/main/belege/preise" rel="noopener" target="_blank">Repository</a>.</p>
 
 <h2>Beleg-Quote</h2>
-<p>Die Beleg-Quote eines Anbieters ist der Anteil seiner erfassten Angaben mit Status „belegt“. Sie misst <em>Nachweisbarkeit, nicht Qualität</em> — ein junger Anbieter mit ehrlicher Dokumentation kann eine höhere Quote haben als ein Konzern mit verstreuten PDFs.</p>
+<p>Die Beleg-Quote eines Anbieters ist der Anteil seiner erfassten Angaben mit Status „belegt“. Sie misst <em>Nachweisbarkeit, nicht Qualität</em>. Ein junger Anbieter mit ehrlicher Dokumentation kann eine höhere Quote haben als ein Konzern mit verstreuten PDFs.</p>
 
 <h2>Prüfdatum und Korrekturen</h2>
-<p>Jede Angabe trägt das Datum ihrer letzten Prüfung. Anbieterangaben ändern sich — wenn Sie einen Fehler finden, schreiben Sie an <a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a>; wir prüfen und korrigieren mit neuem Prüfdatum.</p>
+<p>Jede Angabe trägt das Datum ihrer letzten Prüfung. Anbieterangaben ändern sich. Wenn Sie einen Fehler finden, schreiben Sie an <a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a>; wir prüfen und korrigieren mit neuem Prüfdatum.</p>
 
 <h2 id="unabhaengigkeit">Unabhängigkeit: Was wir von Anbietern nicht annehmen</h2>
 <p>Diese Datenbank ist nur so viel wert wie ihre Neutralität. Deshalb gilt für alle gelisteten Anbieter dieselbe Regel, ohne Ausnahme für die am besten belegten:</p>
 <ul>
 <li><strong>Kein Logo, kein Badge, kein Link-Tausch.</strong> Auf belegbar.eu erscheint kein Anbieter-Logo und keine „Partner“-Kennzeichnung. Wir setzen keine Affiliate-Links und nehmen an keinem Empfehlungsprogramm teil.</li>
 <li><strong>Keine Gegenleistung für Einträge oder Status.</strong> Wir nehmen keine Testzugänge, Guthaben, Tokens, Rabatte oder Bezahlung dafür an, dass ein Anbieter gelistet, ein Status vergeben, ein Fall eröffnet, verzögert oder ausgeräumt wird. Angebote dieser Art lehnen wir ab und dokumentieren sie auf Anfrage. Die einzige Ausnahme ist der Eintritt zum veröffentlichten Festpreis: ein Anbieter kann seine <a href="../fuer-anbieter/#eintritt">Aufnahme beantragen oder eine Zusage hinterlegen</a> lassen. Beides ist Arbeit auf seinen Wunsch, wird im Profil ausgewiesen und ändert weder Status noch Wortlaut noch Reihenfolge. Regel seit 16.09.2026.</li>
-<li><strong>Keine Sponsorenposts.</strong> Wenn wir über einen Anbieter schreiben oder posten, dann weil die Belege es hergeben — nicht, weil er uns darum gebeten oder dafür etwas geboten hat.</li>
+<li><strong>Keine Sponsorenposts.</strong> Wenn wir über einen Anbieter schreiben oder posten, dann weil die Belege es hergeben. Nicht, weil er uns darum gebeten oder dafür etwas geboten hat.</li>
 </ul>
 <p><strong>Finanzierung, Stand 16.09.2026:</strong> belegbar.eu wird privat von <a href="${SITE.baseUrl}/ueber/">Felix Lind</a> betrieben und hat bisher keine Einnahmen. belegbar.eu betreibt keine eigene KI-Infrastruktur und ist an keinem gelisteten Anbieter beteiligt. Seit dem 16.09.2026 gibt es drei bezahlte Leistungen, alle zum veröffentlichten Festpreis und ohne Umsatzsteuer (Kleinunternehmer nach § 19 UStG): das <a href="../fuer-kaeufer/">Anbieter-Dossier für die Käuferseite</a> (390 €), die <a href="../fuer-anbieter/#eintritt">Aufnahme auf eigenen Antrag</a> (490 €) und die <a href="../fuer-anbieter/#eintritt">hinterlegte Zusage</a> (190 €). Es gilt: Bezahlte Leistungen beeinflussen weder Statusstufen noch Reihenfolge, Verified-Kennzeichen oder Fälle; Einnahmen von gelisteten Anbietern bleiben unter einem Drittel der Gesamteinnahmen; jede Einnahmequelle wird an dieser Stelle mit Datum ausgewiesen. Fehlt hier ein Eintrag, gibt es keine. Stand der Einnahmen: 0 € (16.09.2026).</p>
 
 <h2 id="verified">Verified-Stempel: Was er bedeutet und wie man ihn bekommt</h2>
 <p>Der Stempel „Verified“ mit Datum sagt nicht „geprüft gut“. Er sagt: <em>Dieser Anbieter hat sich an seine Aussagen gebunden.</em> Er hat die Dokumente selbst benannt, wir haben sie geprüft, und eine benannte Rolle im Unternehmen hat das Profil gegengelesen. Ab dann ist jede Abweichung zwischen Dokument und Website ein Fall, den der Anbieter selbst mit Datum unterschrieben hat. Regel seit 06.09.2026 (vorher genügte es, überhaupt Nachweise einzureichen):</p>
 <ol>
-<li><strong>Drei Felder belegt.</strong> AVV, Subprozessorenliste und die Zusage, nicht mit Kundendaten zu trainieren, stehen durch vom Anbieter benannte Primärdokumente auf „belegt“ — Vertragsdokument, Liste, Policy. Ein Link ist so gut wie ein PDF; Marketing-Seiten, Badges und Absichtserklärungen zählen nicht. Es sind dieselben drei Felder wie im Filter „nur AVV, Subprozessoren und Trainings-Opt-out belegt“ auf der Übersicht.</li>
+<li><strong>Drei Felder belegt.</strong> AVV, Subprozessorenliste und die Zusage, nicht mit Kundendaten zu trainieren, stehen durch vom Anbieter benannte Primärdokumente auf „belegt“: Vertragsdokument, Liste, Policy. Ein Link ist so gut wie ein PDF; Marketing-Seiten, Badges und Absichtserklärungen zählen nicht. Es sind dieselben drei Felder wie im Filter „nur AVV, Subprozessoren und Trainings-Opt-out belegt“ auf der Übersicht.</li>
 <li><strong>Die Speicherfrage beantwortet.</strong> Zur Speicherung von Anfragen und Antworten (Zero Data Retention) liegt entweder ein Dokument vor, oder der Anbieter sagt ausdrücklich, dass es keine Zusage gibt. Beides tragen wir mit Datum ein. Was nicht geht: die Frage offenlassen.</li>
 <li><strong>Gegengelesen.</strong> Eine benannte Rolle (etwa „Datenschutzbeauftragter“ oder „CTO“) bestätigt, dass das Profil den Stand des Unternehmens wiedergibt. Wir veröffentlichen die Rolle, keinen Namen.</li>
 <li><strong>Datiert, nicht dauerhaft.</strong> Der Stempel trägt sein Datum sichtbar. Ändern sich Fakten wesentlich (neuer Eigentümer, ausgelaufenes Zertifikat, geänderte Policy) oder findet der monatliche Quellenlauf ein verschwundenes Dokument, prüfen wir neu; bis dahin steht der Stempel mit altem Datum, danach fällt er oder wird erneuert.</li>
 </ol>
 <p>Der Weg dorthin, die Sieben-Tage-Zusage für nachgereichte Belege und die Betreffzeilen stehen auf der Seite <a href="../fuer-anbieter/">Für Anbieter</a>.</p>
-<p><strong>Was Verified nicht ist:</strong> Es ist nicht käuflich, kein Ranking-Vorteil und keine Bedingung für die Aufnahme — gelistet wird, wer relevant ist, mit oder ohne Mitwirkung. Anbieter können der Listung ihrer öffentlich verfügbaren Angaben nicht widersprechen, wohl aber jederzeit Korrekturen mit Beleg verlangen.</p>
+<p><strong>Was Verified nicht ist:</strong> Es ist nicht käuflich, kein Ranking-Vorteil und keine Bedingung für die Aufnahme. Gelistet wird, wer relevant ist, mit oder ohne Mitwirkung. Anbieter können der Listung ihrer öffentlich verfügbaren Angaben nicht widersprechen, wohl aber jederzeit Korrekturen mit Beleg verlangen.</p>
 
 <h2 id="faelle">Fälle: Wenn Behauptung und Beleg auseinanderlaufen</h2>
-<p>Die drei Statusstufen sagen, <em>ob</em> eine Angabe belegt ist. Ein <a href="${SITE.baseUrl}/faelle/">Fall</a> dokumentiert etwas Schärferes: dass zwei öffentliche Aussagen desselben Anbieters — oder eine Marketing-Aussage und das eigene Primärdokument — nicht zugleich wahr sein können. Ein Fall ist kein Urteil über Qualität, Rechtskonformität oder Absicht. Er hält fest, was wo stand, und wann.</p>
+<p>Die drei Statusstufen sagen, <em>ob</em> eine Angabe belegt ist. Ein <a href="${SITE.baseUrl}/faelle/">Fall</a> dokumentiert etwas Schärferes: dass zwei öffentliche Aussagen desselben Anbieters (oder eine Marketing-Aussage und das eigene Primärdokument) nicht zugleich wahr sein können. Ein Fall ist kein Urteil über Qualität, Rechtskonformität oder Absicht. Er hält fest, was wo stand, und wann.</p>
 <ol>
-<li><strong>Voraussetzung.</strong> Es genügt nicht, dass ein Beleg fehlt — das ist „beansprucht“. Ein Fall braucht zwei prüfbare, öffentliche Textstellen, die sich widersprechen. Wir zitieren beide wörtlich, mit Abrufzeitpunkt, SHA-256-Hash der abgerufenen Seite und, wo möglich, einer Kopie im Internet Archive. So bleibt der Fall nachprüfbar, auch wenn der Anbieter die Seite später ändert — und so kann uns niemand vorwerfen, wir hätten den Wortlaut nachträglich angepasst.</li>
+<li><strong>Voraussetzung.</strong> Es genügt nicht, dass ein Beleg fehlt. Das ist „beansprucht“. Ein Fall braucht zwei prüfbare, öffentliche Textstellen, die sich widersprechen. Wir zitieren beide wörtlich, mit Abrufzeitpunkt, SHA-256-Hash der abgerufenen Seite und, wo möglich, einer Kopie im Internet Archive. So bleibt der Fall nachprüfbar, auch wenn der Anbieter die Seite später ändert. Und niemand kann uns vorwerfen, wir hätten den Wortlaut nachträglich angepasst.</li>
 <li><strong>Der Anbieter erfährt es zuerst.</strong> Wir schreiben den Anbieter an, mit dem vollständigen Text des Falls; am selben Tag erscheint der Fall hier als <em>offen</em>. Ab dieser Mail läuft eine Antwortfrist von 14 Tagen. Erst nach Ablauf der Frist kann ein Fall ohne Antwort <em>bestätigt</em> werden. Unser Build-Werkzeug veröffentlicht keinen Fall, in dem das Datum dieser Benachrichtigung fehlt.</li>
 <li><strong>Die Antwort erscheint wörtlich.</strong> Was der Anbieter uns schickt, steht ungekürzt neben dem Fall. Wir kommentieren, aber wir kürzen nicht.</li>
-<li><strong>Vier Zustände.</strong> <em>offen</em> (informiert, Frist läuft) · <em>beantwortet</em> (Antwort liegt vor, wird geprüft) · <em>ausgeräumt</em> (Aussage korrigiert oder belegt — der Widerspruch besteht nicht mehr) · <em>bestätigt</em> (Frist verstrichen oder Antwort räumt den Widerspruch nicht aus; eine spätere Antwort ist jederzeit möglich).</li>
+<li><strong>Vier Zustände.</strong> <em>offen</em> (informiert, Frist läuft) · <em>beantwortet</em> (Antwort liegt vor, wird geprüft) · <em>ausgeräumt</em> (Aussage korrigiert oder belegt, der Widerspruch besteht nicht mehr) · <em>bestätigt</em> (Frist verstrichen oder Antwort räumt den Widerspruch nicht aus; eine spätere Antwort ist jederzeit möglich).</li>
 <li><strong>Nichts wird gelöscht.</strong> Auch ein ausgeräumter Fall bleibt mit seinem Verlauf stehen. Dass ein Anbieter eine Aussage innerhalb von Tagen korrigiert hat, ist eine der nützlichsten Informationen, die diese Datenbank enthalten kann.</li>
 </ol>
-<p><strong>Was ein Fall nicht ist:</strong> kein Ranking, nicht käuflich, nicht abwendbar durch Sponsoring — und kein Pranger. Wir schreiben ihn so, dass der Anbieter ihn mit einer Korrektur ausräumen kann und danach besser dasteht als vorher.</p>
+<p><strong>Was ein Fall nicht ist:</strong> kein Ranking, nicht käuflich, nicht abwendbar durch Sponsoring. Und kein Pranger. Wir schreiben ihn so, dass der Anbieter ihn mit einer Korrektur ausräumen kann und danach besser dasteht als vorher.</p>
 
-<h2>Verfallen Belege? Ja — und wir prüfen das</h2>
+<h2>Verfallen Belege? Ja. Deshalb prüfen wir sie</h2>
 <p>Eine Evidenz-Datenbank verfällt nicht dadurch, dass Angaben falsch werden, sondern dadurch, dass ihre Belege verschwinden. Anbieter bauen ihre Websites um, Dokumente wandern, Domains werden zusammengelegt. Ein Link, der ins Leere zeigt, ist schlimmer als eine fehlende Angabe: Er täuscht Nachweisbarkeit vor.</p>
-<p>Deshalb prüfen wir regelmäßig jede hinterlegte Quellen-URL — und zwar nicht nur auf den Statuscode. Eine gelöschte Dokumentseite antwortet häufig mit „200 OK“, weil der Server auf die Startseite weiterleitet. Wir bewerten deshalb das Ziel der Weiterleitung mit: Landet ein tief verlinktes Dokument auf einer Startseite, gilt der Beleg als verloren.</p>
-<p><strong>Ein Beispiel vom 24. August 2026:</strong> Der öffentliche Auftragsverarbeitungsvertrag von STACKIT war bis dahin als PDF verlinkt und der AVV entsprechend als „belegt“ geführt. Beim Quellen-Check leitete die gesamte alte Domain auf die neue Startseite um; das Dokument war öffentlich nicht mehr auffindbar. Wir haben die Angabe auf „unbelegt“ zurückgesetzt und die verlorene URL in der Anmerkung dokumentiert. Das heißt ausdrücklich nicht, dass STACKIT keinen AVV hätte — es heißt, dass er sich nicht mehr öffentlich nachweisen lässt. Genau diesen Unterschied festzuhalten, ist der Zweck dieser Datenbank. Solche Wechsel stehen seitdem im <a href="../aenderungen/">Änderungsprotokoll</a>, das aus der öffentlichen Git-Historie berechnet wird.</p>
-<p>Am selben Tag ging es auch in die andere Richtung: DeepLs BSI-C5-Angabe stand als „beansprucht“, weil zum Erfassungszeitpunkt nur eine Selbstverpflichtung auffindbar war. Die Prüfung förderte Blogbeitrag und Pressemitteilung zum tatsächlich erteilten C5-Typ-2-Testat zutage — die Angabe steht seitdem auf „belegt“, mit eigenem Prüfdatum.</p>
+<p>Deshalb prüfen wir regelmäßig jede hinterlegte Quellen-URL, und zwar nicht nur auf den Statuscode. Eine gelöschte Dokumentseite antwortet häufig mit „200 OK“, weil der Server auf die Startseite weiterleitet. Wir bewerten deshalb das Ziel der Weiterleitung mit: Landet ein tief verlinktes Dokument auf einer Startseite, gilt der Beleg als verloren.</p>
+<p><strong>Ein Beispiel vom 24. August 2026:</strong> Der öffentliche Auftragsverarbeitungsvertrag von STACKIT war bis dahin als PDF verlinkt und der AVV entsprechend als „belegt“ geführt. Beim Quellen-Check leitete die gesamte alte Domain auf die neue Startseite um; das Dokument war öffentlich nicht mehr auffindbar. Wir haben die Angabe auf „unbelegt“ zurückgesetzt und die verlorene URL in der Anmerkung dokumentiert. Das heißt ausdrücklich nicht, dass STACKIT keinen AVV hätte. Er lässt sich nur nicht mehr öffentlich nachweisen. Genau diesen Unterschied festzuhalten, ist der Zweck dieser Datenbank. Solche Wechsel stehen seitdem im <a href="../aenderungen/">Änderungsprotokoll</a>, das aus der öffentlichen Git-Historie berechnet wird.</p>
+<p>Am selben Tag ging es auch in die andere Richtung: DeepLs BSI-C5-Angabe stand als „beansprucht“, weil zum Erfassungszeitpunkt nur eine Selbstverpflichtung auffindbar war. Die Prüfung förderte Blogbeitrag und Pressemitteilung zum tatsächlich erteilten C5-Typ-2-Testat zutage. Die Angabe steht seitdem auf „belegt“, mit eigenem Prüfdatum.</p>
 
 <h2 id="quellenlauf">Quellenlauf: was jedes Profil zeigt</h2>
 <p>Mindestens einmal im Monat ruft ein Skript jede Quellen-URL ab und vergleicht den sichtbaren Text mit dem Stand, den wir zuletzt gelesen haben (Hash über den Text; Skripte, Stile und die Zeitstempel neu erzeugter PDFs zählen nicht). Jedes Profil zeigt das Ergebnis im Kasten „Quellenlauf“ über dem Fuß:</p>
 <ul>
 <li><strong>nachgelesen</strong>: wie viele der belegenden Quellen der Lauf inhaltlich verglichen hat. Startseiten zählen nicht, sie belegen nichts. Eine Quelle, die erst nach dem letzten Lauf eingetragen wurde, fehlt bis zum nächsten.</li>
 <li><strong>unverändert</strong>: Text gleich wie beim letzten Lesen.</li>
-<li><strong>verändert und von Hand gelesen</strong>: Der Text hat sich bewegt, die Quelle wurde gelesen und mit dem Profil abgeglichen; die Freigabe gibt Felix Lind. Änderte sich dabei eine Aussage, steht der Wechsel im <a href="${SITE.baseUrl}/aenderungen/">Änderungsprotokoll</a>; meist sind es Menüpunkte oder Zähler.</li>
-<li><strong>offen</strong>: verändert und noch nicht von Hand gelesen. Diese Zahl steht absichtlich öffentlich da: Sie zeigt, dass wir nachlesen, auch wenn nichts passiert, und sie zwingt uns, Änderungen zügig zu lesen.</li>
+<li><strong>verändert und gelesen</strong>: Der Text hat sich bewegt. Der KI-Agent hat die Quelle gelesen und mit dem Profil abgeglichen, Felix Lind hat geprüft und freigegeben. Änderte sich dabei eine Aussage, steht der Wechsel im <a href="${SITE.baseUrl}/aenderungen/">Änderungsprotokoll</a>; meist sind es Menüpunkte oder Zähler.</li>
+<li><strong>offen</strong>: verändert und noch nicht gelesen. Diese Zahl steht absichtlich öffentlich da: Sie zeigt, dass wir nachlesen, auch wenn nichts passiert, und sie zwingt uns, Änderungen zügig zu lesen.</li>
 <li><strong>verschwunden</strong>: beim letzten Lauf nicht mehr erreichbar.</li>
 </ul>
 <p>An jeder Quelle steht zusätzlich, seit wann ihr Text unverändert ist, oder dass er sich verändert hat und noch nicht gelesen wurde. Dieselben Zahlen stehen in den Rohdaten jedes Profils im Feld <code>quellenlauf</code>.</p>
 
 <h2>Prüfdatum je Angabe</h2>
-<p>Jedes Profil trägt ein Datum der letzten vollständigen Prüfung. Wird eine einzelne Angabe zwischendurch nachgeprüft, bekommt sie zusätzlich ihr eigenes Prüfdatum — sichtbar an der Quelle und in den Rohdaten. So behauptet ein Profil nie, alle seine Angaben seien gleichzeitig geprüft worden.</p>
+<p>Jedes Profil trägt ein Datum der letzten vollständigen Prüfung. Wird eine einzelne Angabe zwischendurch nachgeprüft, bekommt sie zusätzlich ihr eigenes Prüfdatum, sichtbar an der Quelle und in den Rohdaten. So behauptet ein Profil nie, alle seine Angaben seien gleichzeitig geprüft worden.</p>
 
 <h2>Lizenz</h2>
-<p>Die Daten dieser Datenbank stehen unter <a href="https://creativecommons.org/licenses/by/4.0/deed.de" rel="noopener" target="_blank">CC BY 4.0</a>: Nutzung und Zitat sind frei — mit Namensnennung „belegbar.eu“ und Angabe des Prüfdatums. Maschinenlesbare Rohdaten: <a href="${SITE.baseUrl}/daten.json">daten.json</a>.</p>
+<p>Die Daten dieser Datenbank stehen unter <a href="https://creativecommons.org/licenses/by/4.0/deed.de" rel="noopener" target="_blank">CC BY 4.0</a>: Nutzung und Zitat sind frei, mit Namensnennung „belegbar.eu“ und Angabe des Prüfdatums. Maschinenlesbare Rohdaten: <a href="${SITE.baseUrl}/daten.json">daten.json</a>.</p>
 
 <h2 id="regelaenderungen">Regeländerungen</h2>
 <p>Diese Seite ändert sich. Jede Änderung einer Regel steht hier mit Datum, damit niemand raten muss, was wann galt. Die <a href="https://github.com/Felix3c/belegt/commits/main/build.js" rel="noopener" target="_blank">Git-Historie der Seite</a> ist der Beleg.</p>
@@ -1083,7 +1086,7 @@ ${belegZeile("unbelegt", "Wir haben keine belastbare Angabe gefunden. Auch das i
 </ul>
 </article>`;
   return layout({
-    titel: "Methodik — was „belegt“ heißt | belegbar.eu",
+    titel: "Methodik: was „belegt“ heißt | belegbar.eu",
     beschreibung: "Wie belegbar.eu prüft: die drei Statusstufen belegt/beansprucht/unbelegt, die Beleg-Quote und der Umgang mit Korrekturen.",
     inhalt, rel: "../", pfad: "methodik/",
   });
@@ -1093,7 +1096,7 @@ function seiteUeber() {
   const inhalt = `
 <article class="artikel">
 <h1>Über belegbar.eu</h1>
-<p>Seit dem 2. August 2026 wird der EU AI Act mit Bußgeldern durchgesetzt. Gleichzeitig werben Dutzende europäische KI-Anbieter mit „souverän“ und „DSGVO-konform“ — aber wer das prüfen will, findet Marketing statt Dokumente. belegbar.eu schließt diese Lücke: eine neutrale Datenbank, in der jede Angabe eine Quelle und ein Prüfdatum hat.</p>
+<p>Seit dem 2. August 2026 wird der EU AI Act mit Bußgeldern durchgesetzt. Gleichzeitig werben Dutzende europäische KI-Anbieter mit „souverän“ und „DSGVO-konform“. Wer das prüfen will, findet aber Marketing statt Dokumente. belegbar.eu schließt diese Lücke: eine neutrale Datenbank, in der jede Angabe eine Quelle und ein Prüfdatum hat.</p>
 <h2>Kontakt</h2>
 <p><a href="mailto:${SITE.kontakt}">${SITE.kontakt}</a></p>
 <h2>Impressum</h2>
@@ -1189,7 +1192,7 @@ function llmsTxt(providers, guides, fragen, facetten, faelle) {
 
 > Evidenz-Datenbank für europäische KI-Anbieter (Inference-APIs, GPU-Clouds, Gateways): Hosting-Standorte, Preise, AVV, Subprozessoren, Zertifikate und AI-Act-Nachweise. Jede Angabe trägt eine Quelle, ein Prüfdatum und einen von drei Status: „belegt“ (Primärquelle verlinkt), „beansprucht“ (Anbieterangabe ohne Dokument) oder „unbelegt“ (keine belastbare Angabe gefunden).
 
-Die Daten stehen unter der Lizenz CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): Nutzung und Zitat sind frei, mit Namensnennung — bitte als „belegbar.eu, Stand [Prüfdatum]“ mit Link auf das jeweilige Profil. Die Statusstufe gehört zur Information: Eine „beanspruchte“ Angabe ist keine belegte.
+Die Daten stehen unter der Lizenz CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): Nutzung und Zitat sind frei, mit Namensnennung, bitte als „belegbar.eu, Stand [Prüfdatum]“ mit Link auf das jeweilige Profil. Die Statusstufe gehört zur Information: Eine „beanspruchte“ Angabe ist keine belegte.
 
 Maschinenlesbare Rohdaten aller Anbieter (JSON, mit Quellen-URLs und Prüfdatum je Feld): ${SITE.baseUrl}/daten.json
 Vollständiger Datenbestand als Fließtext, in einem einzigen Abruf: ${SITE.baseUrl}/llms-full.txt
@@ -1207,14 +1210,14 @@ ${facetten.map((e) => `- [${e.label}](${SITE.baseUrl}/zertifikate/${e.schluessel
 
 ## Fälle: dokumentierte Widersprüche
 
-Ein Fall hält fest, dass zwei öffentliche Aussagen eines Anbieters nicht zugleich wahr sein können — wörtlich zitiert,
+Ein Fall hält fest, dass zwei öffentliche Aussagen eines Anbieters nicht zugleich wahr sein können, wörtlich zitiert,
 mit Abrufzeitpunkt, SHA-256 und Archivkopie. Der Anbieter wird vorab informiert; seine Antwort erscheint wörtlich. Status je Fall bitte mitzitieren.
 
 ${(faelle || []).length ? faelle.map((f) => `- [Fall ${f.id} (${FALL_STATUS[f.status].label}, ${f.eroeffnet})](${SITE.baseUrl}/faelle/${f.slug}/): ${f.kurz}`).join("\n") : "- Noch kein Fall dokumentiert."}
 
 ## Änderungsprotokoll
 
-Jede Status- und Quellenänderung, jeder Fall-Statuswechsel und jede Aufnahme eines Anbieters, datiert und aus der öffentlichen Git-Historie berechnet: ${SITE.baseUrl}/aenderungen/ — als Atom-Feed: ${SITE.baseUrl}/aenderungen/feed.xml
+Jede Status- und Quellenänderung, jeder Fall-Statuswechsel und jede Aufnahme eines Anbieters, datiert und aus der öffentlichen Git-Historie berechnet: ${SITE.baseUrl}/aenderungen/, als Atom-Feed: ${SITE.baseUrl}/aenderungen/feed.xml
 
 ## Anbieter-Profile
 
@@ -1227,8 +1230,8 @@ ${guideZeilen}
 ## Methodik und Hintergrund
 
 - [Methodik](${SITE.baseUrl}/methodik/): Was „belegt“ heißt, die drei Statusstufen, Beleg-Quote, die Verified-Regel und die Regeln für Fälle
-- [Für Anbieter](${SITE.baseUrl}/fuer-anbieter/): Belege nachreichen (Prüfung binnen sieben Tagen), Fälle beantworten, Verified-Stempel beantragen — kostenlos, ohne Gegenleistung; daneben Aufnahme auf eigenen Antrag und hinterlegte Zusagen zum veröffentlichten Festpreis
-- [Für Käufer](${SITE.baseUrl}/fuer-kaeufer/): das Anbieter-Dossier, datiert und unterschrieben, für Datenschutzbeauftragte und Einkauf
+- [Für Anbieter](${SITE.baseUrl}/fuer-anbieter/): Belege nachreichen (Prüfung binnen sieben Tagen), Fälle beantworten, Verified-Stempel beantragen, kostenlos und ohne Gegenleistung; daneben Aufnahme auf eigenen Antrag und hinterlegte Zusagen zum veröffentlichten Festpreis
+- [Für Käufer](${SITE.baseUrl}/fuer-kaeufer/): das Anbieter-Dossier, datiert und freigegeben, für Datenschutzbeauftragte und Einkauf
 - [Direktvergleiche](${SITE.baseUrl}/vergleich/): Anbieter derselben Kategorie Feld für Feld gegenübergestellt
 - [Über & Impressum](${SITE.baseUrl}/ueber/): Betreiber und Kontakt
 `;
@@ -1262,7 +1265,7 @@ function fragenKatalog(providers, guides) {
     const antwort =
       `Von ${n} geprüften Anbietern ${mz(belegt.length, "weist", "weisen")} ${belegt.length} ein BSI-C5-Testat mit verlinkter Primärquelle nach: ${belegt.map(nennung).join(", ")}. ` +
       (beansprucht.length ? `${beansprucht.length} Anbieter ${mz(beansprucht.length, "beruft", "berufen")} sich auf C5, ohne ein prüfbares Testat zugänglich zu machen: ${beansprucht.map(nennung).join(", ")}. ` : "") +
-      `Bei den übrigen ${ohne.length + e.unbelegt.length} Anbietern haben wir keine belastbare C5-Angabe gefunden — das heißt nicht, dass keine existiert, sondern dass sie nicht öffentlich auffindbar ist.`;
+      `Bei den übrigen ${ohne.length + e.unbelegt.length} Anbietern haben wir keine belastbare C5-Angabe gefunden. Vielleicht gibt es eine, aber öffentlich auffindbar ist sie nicht.`;
     fragen.push({
       slug: "bsi-c5-testat-ki-anbieter",
       frage: "Welche europäischen KI-Anbieter haben ein BSI-C5-Testat?",
@@ -1274,7 +1277,7 @@ function fragenKatalog(providers, guides) {
           [...e.belegt, ...e.beansprucht, ...e.unbelegt].sort((a, b) => a.p.name.localeCompare(b.p.name, "de")).map(({ p, z }) =>
             `<tr><td><a href="${rel}anbieter/${esc(p.id)}/">${esc(p.name)}</a></td><td>${esc(p.stammdaten.land)}</td><td>${statusBadge(z.status)}</td><td>${z.quelle ? `<a href="${esc(z.quelle)}" rel="noopener nofollow" target="_blank">Quelle</a>` : '<span class="leer">–</span>'}</td><td class="klein">${esc(z.anmerkung || "")}</td></tr>`)) +
         `<h2>Ohne jede C5-Angabe (${ohne.length})</h2><p>${anbieterLinks(ohne, rel)}</p>` +
-        `<p class="klein">C5 (Cloud Computing Compliance Criteria Catalogue) ist der Kriterienkatalog des BSI. Ein <em>C5-Testat</em> ist ein Prüfungsurteil eines Wirtschaftsprüfers, keine Zertifizierung — deshalb unterscheiden wir zwischen einem nachgewiesenen Testat und der bloßen Selbstverpflichtung, die Kriterien einhalten zu wollen.</p>`,
+        `<p class="klein">C5 (Cloud Computing Compliance Criteria Catalogue) ist der Kriterienkatalog des BSI. Ein <em>C5-Testat</em> ist ein Prüfungsurteil eines Wirtschaftsprüfers, keine Zertifizierung. Deshalb unterscheiden wir zwischen einem nachgewiesenen Testat und der bloßen Selbstverpflichtung, die Kriterien einhalten zu wollen.</p>`,
     });
   }
 
@@ -1289,7 +1292,7 @@ function fragenKatalog(providers, guides) {
       slug: "uebersicht-eu-ki-anbieter-zertifikate-nachweis",
       frage: "Wo finde ich eine Übersicht, welche EU-KI-Anbieter ihre Zertifikate wirklich nachweisen?",
       titel: "Übersicht: Welche EU-KI-Anbieter weisen ihre Zertifikate wirklich nach?",
-      beschreibung: `Alle ${n} europäischen KI-Anbieter mit Beleg-Quote und verlinkten Zertifikatsnachweisen — belegt, beansprucht und unbelegt sauber getrennt.`,
+      beschreibung: `Alle ${n} europäischen KI-Anbieter mit Beleg-Quote und verlinkten Zertifikatsnachweisen. Belegt, beansprucht und unbelegt getrennt.`,
       antwort,
       inhalt:
         tabelle(["Anbieter", "Land", "Zertifikate mit Nachweis", "Beleg-Quote"],
@@ -1305,10 +1308,10 @@ function fragenKatalog(providers, guides) {
     const treffer = kandidaten.filter((p) => avvBelegt(p) && eu(p) && p.stammdaten.us_eigner !== true).sort(sortName);
     const fastTreffer = kandidaten.filter((p) => treffer.indexOf(p) === -1 && eu(p) && p.stammdaten.us_eigner !== true).sort(sortName);
     const antwort =
-      `Keiner — jedenfalls stellt das niemand fest, der es dürfte. „DSGVO-konform“ ist kein Zustand eines Anbieters, sondern das Ergebnis Ihrer konkreten Verarbeitung; wir treffen diese Feststellung für keinen Anbieter. ` +
-      `Prüfbar ist dagegen, ob die Voraussetzungen überhaupt vorliegen. Von ${kandidaten.length} Inference-Anbietern ${mz(treffer.length, "erfüllt", "erfüllen")} ${treffer.length} alle drei nachweisbaren Bedingungen zugleich — Sitz in einem EU-Mitgliedstaat, keine US-Eigentümerstruktur und ein belegter Auftragsverarbeitungsvertrag: ` +
+      `Keiner. Jedenfalls stellt das niemand fest, der es dürfte. „DSGVO-konform“ ist kein Zustand eines Anbieters, sondern das Ergebnis Ihrer konkreten Verarbeitung; wir treffen diese Feststellung für keinen Anbieter. ` +
+      `Prüfbar ist dagegen, ob die Voraussetzungen überhaupt vorliegen. Von ${kandidaten.length} Inference-Anbietern ${mz(treffer.length, "erfüllt", "erfüllen")} ${treffer.length} alle drei nachweisbaren Bedingungen zugleich: Sitz in einem EU-Mitgliedstaat, keine US-Eigentümerstruktur und ein belegter Auftragsverarbeitungsvertrag: ` +
       (treffer.length ? `${treffer.map(nennung).join(", ")}. ` : "keiner. ") +
-      `Wichtig: Der Unternehmenssitz ist nicht der Hosting-Standort. Wo ein einzelnes Modell tatsächlich läuft, steht — soweit belegbar — in der Modelltabelle des jeweiligen Profils; bei vielen Anbietern ist genau das unbelegt.`;
+      `Wichtig: Der Unternehmenssitz ist nicht der Hosting-Standort. Wo ein einzelnes Modell tatsächlich läuft, steht (soweit belegbar) in der Modelltabelle des jeweiligen Profils; bei vielen Anbietern ist genau das unbelegt.`;
     fragen.push({
       slug: "dsgvo-konform-inference-api-eu-hosting",
       frage: "Welcher europäische Inference-Anbieter ist DSGVO-konform und hostet ausschließlich in der EU?",
@@ -1326,7 +1329,7 @@ function fragenKatalog(providers, guides) {
           })) +
         `<h2>EU-Sitz, aber AVV nicht belegt (${fastTreffer.length})</h2>` +
         `<p>${anbieterLinks(fastTreffer, rel)}</p>` +
-        `<p class="klein">Diese Anbieter sitzen in der EU und stehen unter keiner uns bekannten US-Eigentümerstruktur — es fehlt aber ein öffentlich nachweisbarer Auftragsverarbeitungsvertrag. Für Art. 28 DSGVO brauchen Sie einen; fragen Sie ihn vor Vertragsschluss an.</p>` +
+        `<p class="klein">Diese Anbieter sitzen in der EU und stehen unter keiner uns bekannten US-Eigentümerstruktur. Es fehlt aber ein öffentlich nachweisbarer Auftragsverarbeitungsvertrag. Für Art. 28 DSGVO brauchen Sie einen; fragen Sie ihn vor Vertragsschluss an.</p>` +
         `<p class="klein">Keine Rechtsberatung. Die Rechtsraum-Einordnung folgt den Angemessenheitsbeschlüssen der EU-Kommission (<a href="${ADEQUACY_QUELLE}" rel="noopener nofollow" target="_blank">Quelle</a>, geprüft ${datumDE(ADEQUACY_GEPRUEFT)}).</p>`,
     });
   }
@@ -1337,9 +1340,9 @@ function fragenKatalog(providers, guides) {
     const ohne = providers.filter((p) => !(p.ai_act || []).some((a) => a.status === "belegt")).sort(sortName);
     const mit42001 = (zi.get("iso-42001") || { belegt: [] }).belegt.map((x) => x.p).sort(sortName);
     const antwort =
-      `„Die AI-Act-Pflichten erfüllen“ lässt sich von außen nicht feststellen — welche Pflichten überhaupt greifen, hängt von der Rolle (Anbieter, Betreiber, Importeur) und der Risikoklasse des konkreten Systems ab. Nachweisbar ist nur, was ein Anbieter öffentlich dokumentiert. ` +
+      `„Die AI-Act-Pflichten erfüllen“ lässt sich von außen nicht feststellen. Welche Pflichten überhaupt greifen, hängt von der Rolle (Anbieter, Betreiber, Importeur) und der Risikoklasse des konkreten Systems ab. Nachweisbar ist nur, was ein Anbieter öffentlich dokumentiert. ` +
       `Von ${n} Anbietern ${mz(mit.length, "hat", "haben")} ${mit.length} mindestens einen AI-Act-bezogenen Nachweis mit verlinkter Primärquelle: ${mit.map((x) => nennung(x.p)).join(", ")}. ` +
-      `Bei ${ohne.length} Anbietern haben wir keinen einzigen belegten AI-Act-Nachweis gefunden. Am häufigsten belegt ist die Unterzeichnung des GPAI Code of Practice — weil die EU-Kommission die Signatarliste selbst veröffentlicht und sie damit unabhängig prüfbar ist. ` +
+      `Bei ${ohne.length} Anbietern haben wir keinen einzigen belegten AI-Act-Nachweis gefunden. Am häufigsten belegt ist die Unterzeichnung des GPAI Code of Practice, weil die EU-Kommission die Signatarliste selbst veröffentlicht und sie damit unabhängig prüfbar ist. ` +
       `${mit42001.length} von ${n} Anbietern ${mz(mit42001.length, "weist", "weisen")} ein Zertifikat nach ISO/IEC 42001 (Managementsystem für KI) nach${mit42001.length ? ": " + mit42001.map(nennung).join(", ") : ""}; das zeigt eine externe Prüfung des KI-Betriebs, ist aber kein AI-Act-Nachweis, weil die Norm keine im Amtsblatt der EU zitierte harmonisierte Norm ist.`;
     fragen.push({
       slug: "ai-act-pflichten-nachweis-ki-anbieter",
@@ -1377,10 +1380,10 @@ function fragenKatalog(providers, guides) {
     const antwort =
       `Für Kommunen ist die entscheidende Frage nicht, welcher Anbieter „souverän“ heißt, sondern welche Nachweise sich einem Rechnungsprüfungsamt vorlegen lassen. Wir haben alle ${n} Anbieter gegen sechs prüfbare Kriterien gestellt: EU-Sitz, keine US-Eigentümerstruktur, BSI C5, ISO/IEC 27001, belegter AVV und belegtes Trainings-Opt-out. ` +
       `${spitze.length} Anbieter ${mz(spitze.length, "erfüllt", "erfüllen")} mindestens fünf davon nachweisbar${spitze.length ? ": " + spitze.map((x) => nennung(x.p)).join(", ") : ""}. ` +
-      `${mitC5.length} Anbieter ${mz(mitC5.length, "weist", "weisen")} ein BSI-C5-Testat nach — für die öffentliche Verwaltung meist das gewichtigste Einzelkriterium. Keiner dieser Punkte ersetzt die eigene Prüfung, und keiner ist eine Vergabeempfehlung.`;
+      `${mitC5.length} Anbieter ${mz(mitC5.length, "weist", "weisen")} ein BSI-C5-Testat nach. Für die öffentliche Verwaltung ist das meist das gewichtigste Einzelkriterium. Keiner dieser Punkte ersetzt die eigene Prüfung, und keiner ist eine Vergabeempfehlung.`;
     fragen.push({
       slug: "souveraene-ki-kommunen-anbieter",
-      frage: "Souveräne KI für Kommunen — welche Anbieter kommen infrage?",
+      frage: "Souveräne KI für Kommunen: Welche Anbieter kommen infrage?",
       titel: "Souveräne KI für Kommunen: Anbieter an sechs prüfbaren Kriterien gemessen",
       beschreibung: `Alle ${n} europäischen KI-Anbieter gegen sechs für die öffentliche Verwaltung relevante Nachweise geprüft: EU-Sitz, Eigentümer, BSI C5, ISO 27001, AVV, Trainings-Opt-out.`,
       antwort,
@@ -1388,7 +1391,7 @@ function fragenKatalog(providers, guides) {
         tabelle(["Anbieter", "EU-Sitz", "keine US-Eigner", "BSI C5", "ISO 27001", "AVV", "kein Training", "erfüllt"],
           bewertet.map(({ p, kriterien, treffer }) =>
             `<tr><td><a href="${rel}anbieter/${esc(p.id)}/">${esc(p.name)}</a></td>${kriterien.map((k) => `<td>${k[1] ? "✓" : '<span class="leer">–</span>'}</td>`).join("")}<td class="num">${treffer}/6</td></tr>`)) +
-        `<p class="klein">„✓“ heißt: durch eine verlinkte Primärquelle belegt. „–“ heißt: nicht belegt — das kann bedeuten, dass die Eigenschaft fehlt, oder dass sie nicht öffentlich nachweisbar ist. Beides ist für eine Vergabe relevant, aber es ist nicht dasselbe. Details je Anbieter im Profil.</p>` +
+        `<p class="klein">„✓“ heißt: durch eine verlinkte Primärquelle belegt. „–“ heißt: nicht belegt. Das kann bedeuten, dass die Eigenschaft fehlt, oder dass sie nicht öffentlich nachweisbar ist. Beides ist für eine Vergabe relevant, aber es ist nicht dasselbe. Details je Anbieter im Profil.</p>` +
         `<p class="klein">Was Kommunen beim KI-Einsatz sonst beachten müssen, steht im ${guideLink(guides, "kommunen", rel, "Ratgeber für Kommunen")}. Keine Rechtsberatung und keine Vergabeempfehlung.</p>`,
     });
   }
@@ -1404,7 +1407,7 @@ function seiteFrage(f, providers, stand) {
 <div class="direktantwort"><p><strong>Kurz:</strong> ${esc(f.antwort)}</p></div>
 ${f.inhalt}
 <footer class="dossier-fuss">
-  <p>Berechnet aus ${providers.length} Anbieterprofilen, Stand ${datumDE(stand)}. Die Antwort wird bei jedem Build neu aus den Daten erzeugt — sie kann nicht von der Datenbank abweichen.</p>
+  <p>Berechnet aus ${providers.length} Anbieterprofilen, Stand ${datumDE(stand)}. Die Antwort wird bei jedem Build neu aus den Daten erzeugt. Sie kann nicht von der Datenbank abweichen.</p>
   <p class="klein">Zitieren als: „${esc(f.frage)}“, belegbar.eu, Stand ${datumDE(stand)}, ${SITE.baseUrl}/fragen/${esc(f.slug)}/ · Rohdaten mit Quellen: <a href="${SITE.baseUrl}/daten.json">daten.json</a> · Lizenz CC BY 4.0</p>
 </footer>
 </article>`;
@@ -1426,11 +1429,11 @@ function seiteFragenIndex(fragen, stand) {
   const inhalt = `
 <nav class="brotkrumen" aria-label="Pfad"><a href="../">Anbieter</a> / Fragen</nav>
 <h1>Häufige Fragen, aus den Daten beantwortet</h1>
-<p>Jede Antwort auf diesen Seiten wird beim Build aus den Anbieterprofilen berechnet — mit Beleg-Status, Quelle und Prüfdatum. Wo die Daten keine Antwort hergeben, steht das ausdrücklich dabei.</p>
+<p>Jede Antwort auf diesen Seiten wird beim Build aus den Anbieterprofilen berechnet, mit Beleg-Status, Quelle und Prüfdatum. Wo die Daten keine Antwort hergeben, steht das ausdrücklich dabei.</p>
 <ul class="ratgeber-liste">
 ${fragen.map((f) => `<li><a href="${esc(f.slug)}/"><strong>${esc(f.frage)}</strong></a><p class="klein">${esc(f.beschreibung)}</p></li>`).join("\n")}
 </ul>
-<p class="klein">Stand ${datumDE(stand)}. Alle Angaben unter CC BY 4.0 nachnutzbar — mit Namensnennung „belegbar.eu“ und Prüfdatum.</p>`;
+<p class="klein">Stand ${datumDE(stand)}. Alle Angaben unter CC BY 4.0 nachnutzbar, mit Namensnennung „belegbar.eu“ und Prüfdatum.</p>`;
   const jsonld = [
     {
       "@context": "https://schema.org",
@@ -1441,7 +1444,7 @@ ${fragen.map((f) => `<li><a href="${esc(f.slug)}/"><strong>${esc(f.frage)}</stro
     },
     brotkrumenLd([["", "Anbieter"], ["fragen/", "Fragen"]]),
   ];
-  return layout({ titel: "Fragen & Antworten zu europäischen KI-Anbietern | belegbar.eu", beschreibung: "Direkte, aus Primärquellen belegte Antworten zu BSI C5, DSGVO, AI Act und souveräner KI für Kommunen — jede Zahl aus der Datenbank berechnet.", inhalt, rel: "../", pfad: "fragen/", jsonld });
+  return layout({ titel: "Fragen & Antworten zu europäischen KI-Anbietern | belegbar.eu", beschreibung: "Direkte, aus Primärquellen belegte Antworten zu BSI C5, DSGVO, AI Act und souveräner KI für Kommunen. Jede Zahl aus der Datenbank berechnet.", inhalt, rel: "../", pfad: "fragen/", jsonld });
 }
 
 /** Facettenseiten erst ab so vielen erfassten Anbietern — sonst entstehen dünne Seiten. */
@@ -1464,7 +1467,7 @@ function seiteZertifikat(e, providers, stand) {
 </table></div>
 <h2>Keine Angabe gefunden (${ohne.length})</h2>
 <p>${anbieterLinks(ohne, rel)}</p>
-<p class="klein">„Angabe im Original“ ist der Wortlaut, den wir beim Anbieter vorgefunden haben — dieselbe Norm wird unterschiedlich benannt. Für diese Übersicht fassen wir die Schreibweisen zusammen, ohne den Originaltext zu verändern.</p>
+<p class="klein">„Angabe im Original“ ist der Wortlaut, den wir beim Anbieter vorgefunden haben. Dieselbe Norm wird unterschiedlich benannt. Für diese Übersicht fassen wir die Schreibweisen zusammen, ohne den Originaltext zu verändern.</p>
 <footer class="dossier-fuss"><p class="klein">Stand ${datumDE(stand)} · Zitieren als: „${esc(e.label)} bei europäischen KI-Anbietern“, belegbar.eu, Stand ${datumDE(stand)}, ${SITE.baseUrl}/zertifikate/${esc(e.schluessel)}/ · Lizenz CC BY 4.0</p></footer>
 </article>`;
   const jsonld = [
@@ -1478,7 +1481,7 @@ function seiteZertifikat(e, providers, stand) {
     brotkrumenLd([["", "Anbieter"], ["zertifikate/", "Zertifikate"], [`zertifikate/${e.schluessel}/`, e.label]]),
   ];
   return layout({
-    titel: `${e.label} — europäische KI-Anbieter mit Nachweis | belegbar.eu`,
+    titel: `${e.label}: europäische KI-Anbieter mit Nachweis | belegbar.eu`,
     beschreibung: `${e.belegt.length} europäische KI-Anbieter weisen ${e.label} mit verlinkter Primärquelle nach. Vollständige Liste mit Status, Quelle und Prüfdatum.`,
     inhalt, rel, pfad: `zertifikate/${e.schluessel}/`, jsonld,
   });
@@ -1489,16 +1492,16 @@ function seiteZertifikateIndex(eintraege, alle, providers, stand) {
   const inhalt = `
 <nav class="brotkrumen" aria-label="Pfad"><a href="../">Anbieter</a> / Zertifikate</nav>
 <h1>Zertifikate und Testate im Überblick</h1>
-<p>Welcher Anbieter weist welchen Standard tatsächlich mit einem Dokument nach — und wer beruft sich nur darauf? Die Zählung fasst unterschiedliche Schreibweisen derselben Norm zusammen.</p>
+<p>Welcher Anbieter weist welchen Standard tatsächlich mit einem Dokument nach, und wer beruft sich nur darauf? Die Zählung fasst unterschiedliche Schreibweisen derselben Norm zusammen.</p>
 <div class="tabelle-scroll"><table>
 <thead><tr><th>Standard</th><th class="num">belegt</th><th class="num">beansprucht</th><th>Anbieter mit Nachweis</th></tr></thead>
 <tbody>${eintraege.map((e) => `<tr><td><a href="${esc(e.schluessel)}/">${esc(e.label)}</a></td><td class="num">${e.belegt.length}</td><td class="num">${e.beansprucht.length}</td><td class="klein">${e.belegt.map((x) => esc(x.p.name)).join(", ") || "–"}</td></tr>`).join("\n")}</tbody>
 </table></div>
-${klein.length ? `<h2>Seltener erfasste Standards</h2><p class="klein">Diese Standards sind bei weniger als ${MIN_FACETTE} Anbietern erfasst und bekommen deshalb keine eigene Seite — sie stehen vollständig im jeweiligen Anbieterprofil: ${klein.map((e) => `${esc(e.label)} (${e.belegt.length} belegt)`).join(", ")}.</p>` : ""}
+${klein.length ? `<h2>Seltener erfasste Standards</h2><p class="klein">Diese Standards sind bei weniger als ${MIN_FACETTE} Anbietern erfasst und bekommen deshalb keine eigene Seite. Sie stehen vollständig im jeweiligen Anbieterprofil: ${klein.map((e) => `${esc(e.label)} (${e.belegt.length} belegt)`).join(", ")}.</p>` : ""}
 <p class="klein">Stand ${datumDE(stand)}. Alle Angaben unter CC BY 4.0 nachnutzbar.</p>`;
   return layout({
     titel: "Zertifikate europäischer KI-Anbieter: wer weist was nach | belegbar.eu",
-    beschreibung: "ISO 27001, BSI C5, SOC 2, TISAX und mehr bei europäischen KI-Anbietern — belegt, beansprucht oder unbelegt, mit Quelle und Prüfdatum.",
+    beschreibung: "ISO 27001, BSI C5, SOC 2, TISAX und mehr bei europäischen KI-Anbietern: belegt, beansprucht oder unbelegt, mit Quelle und Prüfdatum.",
     inhalt, rel: "../", pfad: "zertifikate/",
     jsonld: brotkrumenLd([["", "Anbieter"], ["zertifikate/", "Zertifikate"]]),
   });
@@ -1508,7 +1511,7 @@ function seite404() {
   const inhalt = `
 <article class="artikel">
 <h1>Diese Seite gibt es nicht (mehr)</h1>
-<p>Die aufgerufene Adresse führt ins Leere — ein Tippfehler, oder wir haben eine Seite umbenannt.</p>
+<p>Die aufgerufene Adresse führt ins Leere. Ein Tippfehler, oder wir haben eine Seite umbenannt.</p>
 <ul>
 <li><a href="/">Alle Anbieter im Überblick</a></li>
 <li><a href="/fragen/">Fragen und Antworten aus den Daten</a></li>
@@ -1544,7 +1547,7 @@ function llmsFull(providers, guides, fragen, stand) {
       "",
       `URL: ${SITE.baseUrl}/anbieter/${p.id}/ | Rohdaten: ${SITE.baseUrl}/anbieter/${p.id}/daten.json`,
       `Kategorie: ${KATEGORIE_LABEL[p.kategorie] || p.kategorie} | Sitz: ${s.sitz || "unbelegt"} (${s.land}) | Gegründet: ${s.gegruendet || "unbelegt"}`,
-      `Rechtsraum: ${li.name} — ${RAUM_TEXT[li.raum]}${li.hinweis ? " " + li.hinweis : ""} [Quelle: ${ADEQUACY_QUELLE}, geprüft ${ADEQUACY_GEPRUEFT}]`,
+      `Rechtsraum: ${li.name}: ${RAUM_TEXT[li.raum]}${li.hinweis ? " " + li.hinweis : ""} [Quelle: ${ADEQUACY_QUELLE}, geprüft ${ADEQUACY_GEPRUEFT}]`,
       `Mutterkonzern: ${s.mutterkonzern || "keiner bekannt"} | US-Eigentümerstruktur: ${s.us_eigner === true ? "ja" : s.us_eigner === false ? "nein" : "unbelegt"}`,
       `Beleg-Quote: ${Math.round(belegQuote(p) * 100)} % | vollständig geprüft: ${p.geprueft} | jüngstes Prüfdatum: ${juengstesDatum(p)}`,
       p.kurzbeschreibung ? "" : null,
@@ -1578,7 +1581,7 @@ function llmsFull(providers, guides, fragen, stand) {
     ].filter((z) => z !== null).join("\n");
   }).join("\n\n");
 
-  return `# belegbar.eu — vollständiger Datenbestand
+  return `# belegbar.eu: vollständiger Datenbestand
 
 Stand: ${stand}. ${providers.length} europäische KI-Anbieter, jede Angabe mit Quelle, Prüfdatum und Beleg-Status.
 
@@ -1589,7 +1592,7 @@ Jede Angabe trägt einen von drei Status:
 - "beansprucht": der Anbieter behauptet die Eigenschaft, ein prüfbares Dokument fehlt.
 - "unbelegt": keine belastbare Angabe gefunden. Das ist eine Information, keine Lücke.
 
-Ein "unbelegt" heißt nicht, dass die Eigenschaft fehlt — es heißt, dass sie nicht öffentlich
+Ein "unbelegt" heißt nicht, dass die Eigenschaft fehlt. Es heißt, dass sie nicht öffentlich
 nachweisbar ist. Wer diese Daten zitiert, sollte den Status mitzitieren.
 
 Lizenz: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Nutzung und Zitat frei mit
@@ -1640,7 +1643,7 @@ const FAELLE_DIR = path.join(ROOT, "data", "faelle");
 const FALL_STATUS = {
   offen: { label: "offen", text: "Anbieter informiert, Antwortfrist läuft" },
   beantwortet: { label: "beantwortet", text: "Antwort des Anbieters liegt vor und wird geprüft" },
-  ausgeraeumt: { label: "ausgeräumt", text: "Widerspruch besteht nicht mehr — Aussage korrigiert oder belegt" },
+  ausgeraeumt: { label: "ausgeräumt", text: "Widerspruch besteht nicht mehr, Aussage korrigiert oder belegt" },
   bestaetigt: { label: "bestätigt", text: "Frist verstrichen oder Antwort räumt den Widerspruch nicht aus" },
 };
 
@@ -1725,10 +1728,10 @@ function main() {
   fs.writeFileSync(
     path.join(OUT, "robots.txt"),
     [
-      "# belegbar.eu — Evidenz-Datenbank europaeischer KI-Anbieter.",
+      "# belegbar.eu: Evidenz-Datenbank europaeischer KI-Anbieter.",
       "# Die Daten stehen unter CC BY 4.0: Nutzung und Zitat frei mit Namensnennung",
       "# 'belegbar.eu' und Angabe des Pruefdatums. Statusstufe bitte mitzitieren.",
-      "# Wegweiser fuer Sprachmodelle: /llms.txt — vollstaendiger Bestand: /llms-full.txt",
+      "# Wegweiser fuer Sprachmodelle: /llms.txt, vollstaendiger Bestand: /llms-full.txt",
       "",
       "User-agent: *",
       "Allow: /",
@@ -1819,11 +1822,11 @@ function main() {
         quelle: SITE.baseUrl,
         stand,
         lizenz: "https://creativecommons.org/licenses/by/4.0/",
-        lizenzhinweis: "CC BY 4.0 — Nutzung frei mit Namensnennung 'belegbar.eu' und Prüfdatum; Statusstufe (belegt/beansprucht/unbelegt) gehört zur Information.",
+        lizenzhinweis: "CC BY 4.0, Nutzung frei mit Namensnennung 'belegbar.eu' und Prüfdatum; Statusstufe (belegt/beansprucht/unbelegt) gehört zur Information.",
         statusstufen: {
           belegt: "Primärdokument oder konkrete offizielle Anbieterseite verlinkt.",
           beansprucht: "Anbieter behauptet die Eigenschaft, ein prüfbares Dokument fehlt.",
-          unbelegt: "Keine belastbare Angabe gefunden — nicht gleichbedeutend mit 'nicht vorhanden'.",
+          unbelegt: "Keine belastbare Angabe gefunden. Nicht gleichbedeutend mit 'nicht vorhanden'.",
         },
         volltext: `${SITE.baseUrl}/llms-full.txt`,
         anbieter: providers.map(anreichern),

@@ -9,6 +9,7 @@
 const fs = require("fs");
 const path = require("path");
 const T = require("./lib/technik.js");
+const { heuteLokal } = require("./lib/quellen.js");
 
 const BASIS = "https://belegbar.eu";
 
@@ -32,6 +33,6 @@ async function abruf(pfad) {
   }
   const sitemapBuild = T.zaehleSitemapUrls(fs.readFileSync(path.join(__dirname, "docs", "sitemap.xml"), "utf8"));
   const b = T.bewerteTechnik(status, sitemapLive, sitemapBuild);
-  console.log(new Date().toISOString().slice(0, 10) + " " + b.zeile);
+  console.log(heuteLokal() + " " + b.zeile);
   if (!b.ok) process.exit(1);
 })();

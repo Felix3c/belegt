@@ -57,6 +57,7 @@
 1M
 1M
 1M
+1M
 20
 20
 20-million-token
@@ -174,6 +175,8 @@ Audio
 Benchmarks
 Best
 Best-in-class
+Billed
+Boost
 Boost
 Boost
 Boost
@@ -195,6 +198,7 @@ Chat
 Chat
 Check
 Choose
+Clef-Flash
 Cloud
 Complete
 Complete
@@ -219,6 +223,7 @@ Core
 Core
 Core
 Core
+Core
 Cost
 Cost
 Cost
@@ -229,7 +234,6 @@ Custom
 Custom
 Custom
 Customers
-Cut
 DHH.
 DPA
 Daily
@@ -237,6 +241,9 @@ Data
 Data
 Datacenter
 Days
+Decision
+Decision
+Decision
 Dedicated
 Dedicated
 Deploy
@@ -387,6 +394,7 @@ Infrastructure
 Infrastructure
 Infrastructure
 Input
+Input
 Instance
 Integrations
 Is
@@ -413,6 +421,7 @@ M
 M
 M
 Max
+Model
 Model
 Model
 Model
@@ -470,6 +479,7 @@ Not
 Not
 Not
 Not
+Not
 Notes
 November
 OCR
@@ -489,6 +499,7 @@ Pay
 Pay-as-you-Go
 Pay-as-you-Go
 Pay-as-you-Go:
+Pay-as-you-go
 Pay-as-you-go
 Pay-as-you-go
 Pay-as-you-go
@@ -527,6 +538,7 @@ Pro
 Pro
 Pro
 Pro
+Pro
 Pro,
 Product
 Program
@@ -556,12 +568,14 @@ Reranking
 Resources
 Retention
 Retention,
+Route
 S.r.l.
 SLA
 SLAs,
 START
 STT
 Scalable
+Scale
 Scale
 Scale
 Scale
@@ -587,7 +601,6 @@ Sign
 Sign
 Simply
 Skip
-Sol-Pi
 Speech-To-Text
 Speech-to-Text
 Start
@@ -601,6 +614,7 @@ Start
 Start
 Status
 Stricter
+Subscription
 Subscription
 Subscription
 Subscription
@@ -699,7 +713,6 @@ actually
 additional
 affordable
 against
-agent
 agentic
 agreements
 alerts
@@ -715,7 +728,6 @@ also
 always
 an
 an
-and
 and
 and
 and
@@ -834,9 +846,9 @@ choose
 cites
 claim
 clearly
+clef-flash
 click
 closed
-coding
 cold
 commitment
 commitment.
@@ -880,8 +892,8 @@ cores
 cost
 cost
 cost
+cost
 cost-efficient
-costs
 costs
 costs
 costs.
@@ -1020,6 +1032,7 @@ for
 for
 for
 for
+for
 free
 free
 free
@@ -1071,6 +1084,9 @@ in
 in
 in
 in
+in
+included
+included
 included
 included
 included
@@ -1081,6 +1097,8 @@ includes
 individual
 inference
 inference
+input
+input
 input
 input
 instantly
@@ -1143,6 +1161,7 @@ million
 million
 million
 million
+million
 minimum
 minute.
 mission-critical,
@@ -1154,6 +1173,7 @@ model
 model
 model
 model,
+models
 models
 models
 models
@@ -1217,6 +1237,7 @@ no
 no
 no
 no
+not
 of
 of
 of
@@ -1232,12 +1253,14 @@ on
 on
 on
 on
+on
 only
 only
 only
 only
 only
 only
+only,
 open
 or
 or
@@ -1297,6 +1320,8 @@ per
 per
 per
 per
+per
+per
 per-token
 performance,
 performance.
@@ -1313,6 +1338,7 @@ plan,
 plan.
 plans
 plans
+plans.
 platforms.
 popular
 precisely
@@ -1321,6 +1347,7 @@ prefer.
 price
 price
 price
+priced
 priced
 priced
 priced
@@ -1437,6 +1464,8 @@ stop
 storage,
 subscribe
 subscription
+subscription
+support
 support
 support
 support
@@ -1507,6 +1536,7 @@ this
 thresholds
 throttling
 throughput.
+tickets
 time
 time.
 time.
@@ -1554,7 +1584,6 @@ token
 token
 token
 token
-token
 token-based
 tokens
 tokens
@@ -1566,6 +1595,9 @@ tokens
 tokens
 tokens
 tokens
+tokens
+tokens
+tokens.
 tokens.
 tokens/day)
 tokens/day)
@@ -1717,6 +1749,9 @@ zero-retention
 ·
 ·
 ·
+·
+·
+·
 –
 —
 —
@@ -1732,6 +1767,7 @@ zero-retention
 €0.07
 €0.10
 €0.10
+€0.15
 €0.29
 €0.35
 €0.38

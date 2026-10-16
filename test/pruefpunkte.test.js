@@ -117,8 +117,8 @@ test("htmlAbschnitt: zeigt jedes Feld, unbelegte ausdrücklich", () => {
 test("textZeilen: llms-full-Zeilen für Vertrag, Zertifikat und Modell", () => {
   const z = PP.textZeilen(vollesProfil()).join("\n");
   assert.ok(z.includes("Log-Aufbewahrung (Frist): 30 Tage [Status: belegt]"));
-  assert.ok(z.includes("ISO 27001 — Zertifizierer: SOCOTEC [Status: belegt]"));
-  assert.ok(z.includes("M1 — Backup-Standort: unbelegt [Status: unbelegt]"));
+  assert.ok(z.includes("ISO 27001: Zertifizierer: SOCOTEC [Status: belegt]"));
+  assert.ok(z.includes("M1: Backup-Standort: unbelegt [Status: unbelegt]"));
 });
 
 test("Akkreditierungsstelle: stelle (Text) und stelle_ea_mla (ja/nein) nur zusammen", () => {

@@ -194,7 +194,6 @@ Article
 Articles
 As
 At
-August
 Availability
 Availability.
 BDSG
@@ -485,6 +484,7 @@ No
 No
 Notwithstanding
 Obligations
+October
 Offers
 Open
 Open
@@ -803,7 +803,6 @@ Use
 Use
 Use
 Use
-Use
 Warranties
 Warranty
 We
@@ -814,7 +813,6 @@ With
 Your
 ZIP
 [email&#160;protected]
-a
 a
 a
 a
@@ -1159,7 +1157,6 @@ arising
 arising
 arrangements.
 artificial
-as
 as
 as
 as
@@ -2705,7 +2702,6 @@ or
 or
 or
 or
-or
 order
 order
 order
@@ -2782,7 +2778,6 @@ parties
 parties
 parties
 parties,
-parties.
 party
 party's
 party's
@@ -3019,7 +3014,6 @@ requirements,
 requirements,
 requirements.
 requirements.
-reseller
 reservation.
 reservations
 reservations,
@@ -3271,7 +3265,6 @@ subject
 subject
 subject
 subject
-sublicensing
 submission
 submitted
 submitting
@@ -3754,7 +3747,6 @@ third
 third
 third
 third
-third
 third-party
 third-party
 third-party
@@ -3792,7 +3784,6 @@ time,
 time,
 time,
 title,
-to
 to
 to
 to

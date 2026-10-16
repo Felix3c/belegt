@@ -10,8 +10,6 @@
 &
 &
 &
-&
-&
 &amp;
 &amp;
 &amp;
@@ -244,8 +242,6 @@ Fairs
 Fairs
 Fast
 Fast
-Finance
-Finance
 First
 First
 For
@@ -888,8 +884,6 @@ information.
 infrastructure
 inquiries
 insights,
-insurance
-insurance
 intellectual
 intelligence
 intelligence

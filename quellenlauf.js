@@ -55,12 +55,12 @@ const zeigeDiff = (e) => !e.wortDiff ? "\n    Wortprotokoll: kein Wortstand zur 
   : "\n    weg:  " + (zeigeWoerter(e.wortDiff.weg) || "–") + "\n    dazu: " + (zeigeWoerter(e.wortDiff.dazu) || "–");
 
 const aufruf = Q.pruefeAufruf(process.argv.slice(2));
-if (aufruf.hilfe) { console.log(fs.readFileSync(__filename, "utf8").match(/\* Aufruf:[\s\S]*?(?=\n \*\n)/)[0].replace(/^ ?\* ?/gm, "")); process.exit(0); }
+if (aufruf.hilfe) { console.log(Q.hilfeAusKopf(fs.readFileSync(__filename, "utf8"))); process.exit(0); }
 if (aufruf.fehler) { console.error("Abbruch, nichts abgerufen, nichts geschrieben: " + aufruf.fehler + "\n(node quellenlauf.js --help)"); process.exit(2); }
 
 const arg = (n) => process.argv.includes(n);
 const werte = (n) => process.argv.flatMap((a, i) => (a === n && process.argv[i + 1] ? [process.argv[i + 1]] : []));
-const DATUM = process.env.LAUF_DATUM || new Date().toISOString().slice(0, 10);
+const DATUM = process.env.LAUF_DATUM || Q.heuteLokal();
 if (!/^\d{4}-\d{2}-\d{2}$/.test(DATUM)) { console.error("LAUF_DATUM muss YYYY-MM-DD sein"); process.exit(2); }
 
 function liesLedger() {

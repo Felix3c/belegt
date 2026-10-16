@@ -15,6 +15,8 @@
 (Netherlands)
 (Netherlands)
 (Netherlands)
+(Slovenia)
+(Sweden)
 (Sweden)
 (as
 (available
@@ -42,6 +44,8 @@
 ,
 .
 .
+/
+/
 /
 /
 /
@@ -97,6 +101,10 @@
 9
 9.
 9.1
+AB
+AI
+AI
+AI
 AI
 AI
 AI
@@ -204,6 +212,7 @@ Backups
 Backups
 Become
 Bedrock
+Berget
 Better
 Better
 Better
@@ -508,6 +517,8 @@ EU/EEA
 EU/EEA
 EU/EEA
 EU/EEA
+EU/EEA
+EU/EEA
 EU/EEA.
 EUrouter
 EUrouter
@@ -536,6 +547,7 @@ Economic
 Economic
 Email
 Engagement
+Entrim
 Error
 European
 European
@@ -641,6 +653,8 @@ Nebius
 Nebul
 Netherlands.
 New
+No
+No
 No
 No
 No
@@ -1655,6 +1669,8 @@ configurations
 configurations
 configurations
 configurations
+configurations
+configurations
 configured
 configured;
 configuring
@@ -2427,6 +2443,8 @@ model
 model
 model
 model
+model
+model
 model,
 model,
 model-training
@@ -2471,6 +2489,8 @@ networking.
 never
 new
 nl-ams
+no
+no
 no
 no
 no
@@ -2767,6 +2787,8 @@ only
 only
 only
 only
+only
+only
 only.
 only.
 operation,
@@ -3000,12 +3022,16 @@ processing
 processing
 processing
 processing
+processing
+processing
 processing,
 product
 products
 prohibit
 prohibited
 prohibits
+prompt
+prompt
 prompt
 prompt
 prompt
@@ -3238,6 +3264,8 @@ restricts
 retained,
 retaining
 retains
+retention
+retention
 retention
 retention
 retention
@@ -4044,6 +4072,8 @@ tracking
 traffic
 traffic
 train,
+training
+training
 training
 training
 training

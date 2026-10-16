@@ -1,5 +1,117 @@
 # belegbar.eu — Nächste Schritte
 
+## Neu 16.10.2026 ~21:30 (Dauerlauf, Auftrag Felix PZ1): Fachstimme Patel auf der ISO-27001-Seite, lokal `3875d4d`
+
+- Neuer Abschnitt „Wer steht auf dem Zertifikat?“ unter der Tabelle von `zertifikate/iso-27001/`: zwei Sätze Einleitung, dann Patels Satz auf Englisch, wortgleich, Zuordnung „Punit Suketu Patel, Independent Researcher“, Link arxiv.org/abs/2610.10644, Verweis Abschnitt 5.4 und E8 (4.8). Nur diese Seite ändert sich, die anderen neun Zertifikatsseiten bleiben bytegleich.
+- Code: `lib/fachstimmen.js` (Daten + Block, je Zertifikatsschlüssel), eingehängt in `seiteZertifikat` in `build.js`. Test zuerst: `test/fachstimmen.test.js` (5). 210/210 Tests, Build ok.
+- Patel hat die Stelle am 16.10. ~21:30 zur Vorabprüfung bekommen (im selben Thread, gefragt: passt „Sicherheitsforscher“, passt „Fehlerklasse E8“). **Online erst nach seinem Ok**, dann Push nur über `dossiers/push-sauber.sh`.
+
+## Neu 16.10.2026 ~08:45 (Dauerlauf, Auftrag Felix HR1): Muster ohne Haftungsübernahme, KI-Agent offen, lokal `f1a89d5`
+
+- **Dossier (`lib/dossier.js`):** „Ich bestätige, dass die Angaben … vorlagen, und dass Abschnitt 2 vollständig ausweist …“ ist raus. Neu `## Vermerk`: „Die Fundstellen sind mit Abrufdatum und, wo vorhanden, Prüfsumme und Archivkopie dokumentiert. Der Vermerk sagt, was wann wo stand, nicht, ob es stimmt. Keine Gewähr für die Richtigkeit der Angaben des Anbieters, keine Rechtsberatung.“ Darunter „Freigegeben: Köln, den …, Felix Lind“.
+- **Aufbau:** oben Leseseite (Kopf, Ergebnis, `## Auf einen Blick` mit Zahlen und Änderungsalarm, Vermerk), dann `# Belege` mit Abschnitt 1–4. Abschnitt 5 Änderungsalarm und 6 Unterschrift entfallen. Wortgleiche Zeilen werden zusammengefasst (`fasseZusammen`), lange Striche durch Komma/Bindestrich ersetzt, wörtliche Zitate in '…' bleiben. Muster IONOS 4282 → 3065 Wörter.
+- **KI offen:** Dossier-Kopf „**Erstellt:** Ein KI-Agent hat die Quellen gesammelt und verglichen. Felix Lind (belegbar.eu) hat sie geprüft und freigegeben.“ Methodik neuer Abschnitt `#wer` „Wer hier arbeitet“. Quellenlauf-Kasten und Methodik: „verändert und von Hand gelesen“ → „verändert und gelesen“. Käuferseite und llms.txt: „freigegeben“ statt „unterschrieben“.
+- **Offen:** Ältere private Dossiers in `dossiers/` (Scaleway-Beispiele, OVH, Nordference, Pilot-Vorrat) tragen noch den alten Satz. Vor jedem Versand mit `node dossier.js` neu erzeugen.
+- Test zuerst: `test/dossier-haftung.test.js` (5). 205/205 Tests, Build streng ok. Bilder `belege/haftung-2026-10-16/` (vorher/nachher, `vergleich-klein.jpg`). Mail an Felix 08:45, **Push nur durch Felix** (`bash dossiers/push-sauber.sh --push`), Frage 358.
+
+## Neu 16.10.2026 ~08:00 (Dauerlauf Laufend): Lyceum-AGB neu gefasst, 15 weitere „verändert“-Quellen gelesen, lokal `02dfd49`
+
+- **Lyceum AGB** (`lyceum.technology/legal/terms`): Stand jetzt „October 2026“ statt „August 2026“. Satzvergleich gegen Archivkopie web.archive.org/web/20261008004853: gestrichen ist nur das Nutzungsverbot „Use as a reseller or sublicensing to third parties.“ (Liste der verbotenen Nutzungen, Ziff. 6.1); dazu neuer Cookie-Banner („for marketing“). Alle Profilzitate wortgleich: 5.1 (Code nicht fürs Training), 5.2 (Inference: nicht gespeichert, nicht trainiert), 15.4, 17.2, 19.1. Neue Archivkopie 20261016055842. Belege `belege/anbieter/lyceum/terms-*-2026-10-16/-20261008004853.txt` + SHA. Anmerkungen `training_opt_out`/`zweckbindung` nennen den neuen Stand.
+- Lyceum-Modellseite: neu nur ein API-Hinweis („GET /openai/v1/models“). Preise DeepSeek V4 Pro 1.75/3.50, Qwen3.8 2.4T 2.50/6.00, Kimi K3 3.00/15.00 unverändert, Prüfdatum 16.10.
+- Nur Menü/Banner, übernommen: T-Systems (Branchenmenü ohne „Finance & insurance“, 2 Seiten), Scaleway Verträge/Sicherheit/Unterauftragnehmer (Banner „Discover the products available in Milan“), STACKIT AGB + Zertifikate (Teaser „Cloud Security Posture Management“), Gcore Blog/Pressemitteilung/Whisper (Teaser „Traffic Gate“), Aleph Alpha Hugging-Face-Seiten (nur Zähler).
+- **Weiter offen (15):** BFL (Preise nur im Browser, BF1), Opper Security-Overview (OP1), GreenPT-Modellkarten (neues Modell „Decision“/systemone?), Scaleway Preise (Wort „ocr“ neu) und Datenschutz-Doku, STACKIT Modellliste (viele Modellzeilen weg, **lesen lohnt**) und Preisformat, Nebius auf OpenRouter, OVH HDS-Umfang, Exoscale HDS-Liste (Abruf geblockt, Incapsula), Aleph-Alpha Datenschutz, EUrouter-Modelle (schon gelesen 03:40, Zähler 151).
+- 200/200 Tests, Build streng ok. Kein Push.
+
+## Neu 16.10.2026 ~07:15 (Dauerlauf Laufend): Wächter-Vorrat, 14 weitere Dienste vorab geprüft
+
+- Je Dienst Vertrags- und Unterauftragnehmer-Seite gesucht und zweimal mit dem Wächter-Code abgerufen. Ergebnis: 5 voll automatisch beobachtbar, 6 nur zur Hälfte (eine Seite lädt erst im Browser oder antwortet mit Fehlerstatus), 3 nur von Hand (Bot-Sperre bzw. leere Trust-Center-Hülle). Einzelheiten und fertige Einträge privat (`waechter/`, Gesprächsordner).
+- Nichts an `waechter.js` geändert, keine Tests berührt, kein Commit nötig (alles gitignored). Kein Push.
+
+## Neu 16.10.2026 ~07:05 (Dauerlauf Laufend): acht „verändert“-Quellen von Hand gelesen, lokal `42282d8` + `8271542`
+
+- Quellenlauf trocken 16.10.: 203 Quellen, 164 unverändert, 38 verändert. Gelesen und per `--uebernehmen-nur` übernommen: `gcore.com/legal`, `opper.ai/data-processing-agreement`, `opper.ai/ai-compliance`, `opper.ai/models`, `regolo.ai/terms-and-conditions/`, `regolo.ai/privacy-policy/`, `regolo.ai/zero-data-retention/`, `regolo.ai/pricing/`. Vergleich satzweise gegen die nächste Archivkopie (Gcore 04.10., übrige ~08.–14.10.).
+- Ergebnis: Vertragstexte satzgleich, geändert nur Menü, Banner, Blog-Teaser. Alle Profilzitate stehen wörtlich (Gcore MSA 7.2/8.3/9.5.3/16.3, Opper DPA 1.1/2.1/3.3 „Last updated on: 2026-09-23“, Regolo DPA „Frosinone, 28 January 2026“, Zweck-/Frist-/ZDR-Sätze). Alle Profilpreise unverändert (Regolo 5 Modelle, Opper 5 Modelle).
+- Regolo-Datenschutz steht auf Version 1.1 vom 07.10. (Google Ads als Werbepartner neu); betrifft Website-Tracking, keine Profilaussage, Beleg lag schon (`belege/anbieter/regolo/privacy-v1.1-2026-10-14.txt`). Regolo-Preisseite: neuer Reiter „Decision“, Testphase anders formuliert.
+- **Opper-Compliance-Seite trägt kein Datum mehr:** am 05.10. noch „Last updated: 2026-09-23“ (Archiv 20261005054113), am 08.10. ohne (Archiv 20261008050530), heute ohne. Anmerkung in `ai_act` entsprechend datiert. Für den Entwurf von Fall 005 (Satz „EU data residency on every plan“ am 05.10. entfernt) ist das ein weiteres Indiz für eine Überarbeitung in diesen Tagen; der Entwurf selbst ist unverändert.
+- Hinweis zum Archiv: `id_`-Abrufe kommen teils gzip-komprimiert, mit `curl --compressed` lesen (ein erster Abruf ohne sah fälschlich „kein Datum“ und wurde im zweiten Commit korrigiert).
+- Offen von den 38: noch 30, darunter BFL (Preise nur im Browser, BF1), Opper Security-Overview (OP1), STACKIT, Scaleway, T-Systems, Lyceum, GreenPT-Modellkarten, Gcore Blog/Modellseiten.
+- 200/200 Tests, Build streng ok. Kein Push.
+
+## Neu 16.10.2026 ~05:15 (Dauerlauf Laufend): alle Skripte rechnen „heute“ jetzt nach Ortszeit, lokal `2bc9ec5`
+
+- Rest aus dem Datumsfehler von ~01:55: `dossier.js`, `preisarchiv.js`, `messung.js` und der Atom-Feed in `lib/aenderungen.js` (Fallback ohne Einträge) nahmen ihr Standarddatum noch aus UTC. Ein Dossier oder Preisarchiv-Lauf zwischen 00:00 und 02:00 MESZ hätte den Vortag in den Dateinamen geschrieben. Jetzt überall `heuteLokal()`.
+- Neuer Test `test/ortsdatum.test.js` zuerst (rot mit genau diesen vier Dateien, dann grün): durchsucht alle Skripte und `lib/` nach `new Date().toISOString().slice(0, 10)`, damit der Fehler nicht wiederkommt. `anzahlSeit()` rechnet nur mit übergebenen Daten und bleibt.
+- 200/200 Tests, Build streng ok, Arbeitsbaum danach sauber. Kein Push.
+
+## Neu 16.10.2026 ~03:40 (Dauerlauf Laufend): EUrouter-Modellseite gelesen, Gemma 4 billiger, lokal `3d30587`
+
+- `eurouter.ai/models` (Abruf 16.10.): jetzt **151 Modelle** (Banner „GLM-5.2, Kimi K3 and Opus 5 are now live“). Profilpreise DeepSeek V3.2 0.30/0.50, Kimi K2.6 0.73/3.50, Mistral Large 3 0.55/1.65 und alle Claude-Varianten unverändert, Prüfdatum auf 16.10.
+- **Gemma 4 Output $0.50 → $0.20** (Input $0.10 gleich), auf Modellseite, Modellliste und in der Modell-API gleich; Archivkopie web.archive.org/web/20261016012752 zeigt $0.20. Verlauf damit 0.35 (bis 08.10.) → 0.50 (09.10.) → 0.20 (16.10.), ohne Änderungsdatum bei EUrouter. Beleg `belege/anbieter/eurouter/gemma-4-2026-10-16.txt` + SHA, Preisarchiv `belege/preise/eurouter/2026-10-16-*`.
+- **Währungsfrage Gemma 4 erledigt:** API und eingebettete Daten führen Gemma 4 jetzt mit `currency: USD` (am 11.10. noch `EUR`). In der API stehen insgesamt noch 42 von 151 Modellen mit `EUR`; ob das Abrechnung oder Anzeige ist, bleibt ungeklärt (keins davon im Profil).
+- Neu als Gemma-4-Anbieter auf der Modellseite: Berget AI AB (neben Infercom, AKI.IO, GreenPT, Regolo, AR Arkane SARL).
+- 198/198 Tests, Build streng ok. Kein Push. Das Muster-Dossier `dossiers/pilot-vorrat-2026-10-14/eurouter.md` ist ein datierter Stand und bleibt unverändert.
+
+## Neu 16.10.2026 ~03:00 (Dauerlauf Laufend): Wächter meldet jetzt „DÜNN“, wenn eine Seite erst im Browser lädt
+
+- Probe für einen möglichen Pilot (fünf fremde Büro-Tools, je AVV + Unterauftragnehmer, zwei Abrufe): Zoom, Slack, Atlassian, HubSpot stabil lesbar (zwei davon PDF, also ohne Wortprotokoll); Notion liefert ohne Browser 15 Wörter, der Wächter wäre dort still blind gewesen.
+- Fix `waechter.js`: unter 100 Wörtern Zeile `DÜNN: … (N Wörter; lädt vermutlich erst im Browser, Wächter hier blind)`. Test zuerst (rot→grün), 198/198, Trockenlauf über die 10 beobachteten Quellen ohne falschen Alarm. Lokal `560395b`, kein Push.
+- Befund für das Gespräch Mi 21.10. (was ein Pilot noch braucht: PDF-Vergleich von Hand, Browser-Quellen wöchentlich, Feld je Kunde ab Kunde 2) liegt im privaten Gesprächsordner, Datei `09-…-pilot-pruefung.md`.
+
+## Neu 16.10.2026 ~02:05 (Dauerlauf Laufend): `quellenlauf.js --help` stürzt nicht mehr ab
+
+- Ursache: Die Suche nach dem Hilfeblock im Kopfkommentar erwartete `
+`, die Datei hat im Windows-Checkout CRLF. Jetzt `hilfeAusKopf()` in `lib/quellen.js` (Zeilenenden vereinheitlicht, ohne Block klare Meldung statt Absturz); Test `test/hilfe.test.js` zuerst (4 rot, dann grün). Nebenbei den verrutschten Kommentar über `normalisiereText` zurückgestellt.
+- 197/197 Tests, Build streng ok. Kein Push.
+- Weiter offen: `eurouter.ai/models` (Modellzahl/Preise) lesen; `--uebernehmen-nur` muss je URL wiederholt werden.
+
+## Neu 16.10.2026 ~01:55 (Dauerlauf Laufend): EUrouter-Providerliste 17 statt 15, Datumsfehler behoben, lokal `56e1080` + `de0e4a2`
+
+- EUrouter DPA-Liste und `eurouter.ai/providers` (Abruf 16.10.): **neu Berget AI AB (Schweden, 11 Modelle) und Entrim (Slowenien, 3 Modelle)**, beide „EU/EEA configurations only“, „No prompt retention / no training“. Sonst kein Wort weg. **Das Listendatum „9 October 2026“ blieb unverändert**, obwohl zwei Anbieter dazukamen (laut DPA wird die Liste aus den aktuell freigeschalteten Anbietern erzeugt). Profil: Kurzbeschreibung und Subprozessoren auf 17, Archivkopien web.archive.org/web/20261015233016 (DPA) und 20261015233037 (Providerseite), beide geprüft mit den neuen Namen; Textauszüge + SHA in `belege/anbieter/eurouter/`. Quellenlauf: beide URLs nach Handprüfung übernommen.
+- **Fehler behoben:** `quellenlauf.js`, `waechter.js` und `build.js` nahmen als Standarddatum UTC. Ein Lauf um 01:30 MESZ schrieb deshalb den Vortag und setzte 21 Profile von 2026-10-16 auf 2026-10-15 zurück (Lauf verworfen, mit `LAUF_DATUM=2026-10-16` wiederholt). Jetzt `heuteLokal()` in `lib/quellen.js`, Test zuerst (rot, dann grün). `dossier.js`, `preisarchiv.js`, `messung.js` und `lib/aenderungen.js` rechnen weiter in UTC (tagsüber harmlos, nicht angefasst).
+- Offen aus der Tagesprüfung: `eurouter.ai/models` (veränderte Modellzahl/Preise) noch nicht gelesen; `node quellenlauf.js --help` stürzt weiter ab (CRLF).
+- 193/193 Tests, Build streng ok, Archivcheck 19/13 ok. Kein Push.
+
+## Neu 16.10.2026 ~01:10 (Dauerlauf): zweite schriftliche Rückmeldung ausgewertet (privat)
+
+- Einzelheiten nur in `outreach/gespraeche/PRIVAT-NOTIZEN.md` (16.10.). Zwei Fragen an Felix offen: Unterschriftsabschnitt im Muster-Dossier (`lib/dossier.js`:170–172) und ein Satz zur Arbeitsweise auf `/methodik/`. Nichts geändert, nichts gepusht.
+
+## Neu 16.10.2026 ~01:05 (Dauerlauf Laufend): Push-Vorbereitung, lokal `3ab0645`
+
+- Strategie-Absätze vom 15.10. aus dieser (öffentlichen) Datei in die privaten Notizen verschoben; Sicherungskopien `*.bak-20*` und verkleinerte Mail-Bilder in `.gitignore` (eine Sicherungskopie eines privaten Gesprächsblatts war vorher nicht ignoriert).
+- Die Namensprüfung vor dem Push meldete einen Fehlalarm (Fotografenname in einem Bild-Dateinamen eines Fremdbelegs von Fall 002) und hätte jeden Push gestoppt. Prüfung ausgelagert in ein eigenes Skript mit Ausnahmeliste und Test (6/6 grün, beides privat in `dossiers/`).
+- Trockenlauf `bash dossiers/push-sauber.sh` grün: 21 lokale Commits werden zu einem. Push macht Felix, nach Blick auf Vorher/Nachher (Frage 346).
+- 192/192 Tests, Build streng ok.
+
+## Neu 16.10.2026 ~00:40 (Dauerlauf NW2): IONOS-Modellseite nachgeprüft, lokal `4519e16`
+
+- `docs.ionos.com/cloud/ai/ai-model-hub/models` am 16.10. abgerufen: **Llama 3.1 8B steht trotz Datum 15.10.2026 weiter unter „Scheduled for Retirement“**, nicht unter „Retired models“ (Seite „Last updated 8 days ago“). Darum nicht ausgetragen, nur die Anmerkung nachgezogen; Status bleibt „unbelegt“, Muster-Dossier unverändert 12/0/3.
+- **Neu auf derselben Liste: Mistral Nemo (12B) und BGE Large 1.5 werden am 22.10.2026 abgeschaltet** (Alternative Qwen3.5-9B bzw. BGE M3). Nemo steht im Profil als „belegt“ und noch in der Preisliste (0,15/0,15 €), Anmerkung ergänzt, Status unverändert. BGE ist ein Embedding-Modell und steht nicht im Profil.
+- Nachprüfung ab Fr 23.10.: beide Modelle; stehen sie unter „Retired“ oder fehlen sie in der Preisliste, aus `modelle` nehmen bzw. auf „unbelegt“ setzen (eingereiht als NW2b in ALLEIN.md).
+- 192/192 Tests, Build ok. Kein Push.
+
+## Neu 16.10.2026 ~00:50 (Dauerlauf Tagesprüfung): GreenPT-Datenschutz neu gefasst, lokal
+
+- 192/192 Tests, Build streng ok, Archivcheck 19 ok. Quellenlauf trocken 203 Quellen: 156 unverändert, 46 verändert, 1 neu. Fälle 003 (BFL) und 004 (Scaleway): alle 9 Zitate live wörtlich da.
+- **GreenPT** Datenschutzerklärung „Last updated October 14, 2026“ (greenpt.com und docs.greenpt.ai): Google Workspace nicht mehr Unterauftragnehmer, Moneybird (NL, Rechnungen) neu, Brave Search und Deepgram ausdrücklich „not a sub-processor“; Zweck „Anonymised research on aggregated energy-consumption metrics only“ statt „Anonymized research and service improvement“; Hosting „France and Finland“. **Neu: „certifications held by our hosting provider Scaleway; GreenPT BV is working towards its own ISO 27001 certification“** → Verlaufseintrag Fall 2026-002 (Status bleibt „bestätigt“, Footer-Badge unverändert). Profil-Anmerkungen nachgezogen, Textkopien `belege/anbieter/greenpt/*-2026-10-16.txt` + SHA256SUMS. GreenPT- und BFL-Quellen nach Handprüfung übernommen (BFL nur Menü „FLUX Image Klein“). Lokal `3bdd129`, `d4ef58d`, kein Push.
+- Übrige 40 „verändert“ offen gelassen; gelesen und unkritisch: Aleph-Alpha/Opper/Regolo Menü und Teaser, STACKIT Preise jetzt mit €-Zeichen statt langer Dezimalzahlen und Security-Teaser, Scaleway Banner „Milan“. **Lesen lohnt noch:** EUrouter DPA und Providerliste (neue Anbieter u. a. Berget AI (SE), Entrim) bei der nächsten Laufend-Runde.
+- Änderungs-Wächter (WB1) erste Tagesprüfung: 10 Quellen, Google-Cloud-Unterauftragnehmerseite „verändert“, aber nur halbiert (jedes Wort genau halb so oft, kein Wort weg: Tabelle früher doppelt ausgeliefert) → nach Handprüfung übernommen, kein Fund.
+- Kleiner Fehler: `node quellenlauf.js --help` stürzt ab (Regex findet den Hilfeblock wegen CRLF-Zeilenenden nicht). `--uebernehmen-nur` muss je URL wiederholt werden.
+
+## Neu 15.10.2026 ~22:00 (Dauerlauf Laufend): Änderungs-Wächter für Dienste ohne Profil, lokal
+
+- Neues Skript `waechter.js` (Test `test/waechter.test.js`, 4 Fälle): gleiche Hash- und Wortprotokoll-Logik wie `quellenlauf.js`, aber Quellen aus einer eigenen Liste statt aus den Profilen. Liste, Ledger, Wortstände und Rohkopien mit SHA-256 liegen in `waechter/` (gitignored, Auswahl ist Strategie).
+- Grundlinie 15.10.2026 gezogen, zwei Trockenläufe danach je 10/10 unverändert. Eine Seite lieferte ohne Sprachwahl wechselnd zwei Sprachen und ist deshalb mit `?hl=en` festgenagelt.
+- Erster echter Fund aus dem Abgleich mit dem Webarchiv, Einzelheiten nur privat.
+- Aufruf: `node waechter.js` (schreibt), `--trocken` (nur Bericht), `--uebernehmen` nach Handprüfung. Noch kein fester Takt; Vorschlag: in der Tagesprüfung mitlaufen lassen.
+- 192/192 Tests, Build streng ok. Kein Push.
+
+## Neu 15.10.2026 ~21:10 bis ~19:15 (Home-Tab und Dauerlauf): Ausrichtung, Gesprächsfragen, Muster-Meldung
+
+- Inhalte dieser drei Abschnitte (Ausrichtung nach einer schriftlichen Rückmeldung, Zusatzfragen für Gespräche, Muster-Meldung, Kill-Check-Stand) liegen seit 16.10.2026 nur noch privat in `outreach/gespraeche/PRIVAT-NOTIZEN.md` (Strategie, nicht öffentlich).
+- Öffentlich bleibt: IONOS-AVV Version 1.3 per Archivkopie web.archive.org/web/20260917054210 belegt (Abschnitt 12 endet mit 12.5), Beleg `belege/anbieter/ionos/ionos-avv-v1.3-archiv-2026-09-17.txt` + SHA, Profil-Anmerkung verweist darauf.
+- Seite sprachlich überarbeitet (BV3, lokal `6ce7cb5` + `1966ccb`): lange Gedankenstriche im sichtbaren Seitentext durch Punkt, Doppelpunkt, Komma oder Klammer ersetzt, einige Sätze kürzer, Inhalt unverändert. Texte in `data/` bewusst nicht angefasst (Zitate, Änderungsprotokoll). Bilder vorher/nachher in `belege/entkien-2026-10-15/`. Push wartet auf Felix (Frage 346).
+- Änderungs-Wächter läuft ab Fr 16.10. täglich in der Tagesprüfung (WB1).
+
 ## Neu 15.10.2026 ~16:35: Entscheidungen Felix (Home-Tab)
 
 - Name: bei belegbar.eu bleiben bis zum Kill-Check 09.12. (Attestry/OnRecord nicht weiter verfolgen).

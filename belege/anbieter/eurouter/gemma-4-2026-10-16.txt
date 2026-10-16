@@ -1,0 +1,141 @@
+Quelle: https://eurouter.ai/models/gemma-4
+Abruf: 2026-10-16 03:2x (curl, 98453 Bytes, HTML-SHA256 c77b148de4e758191daec572ee21f7b211a80606d120b4397b5941e326c1b3d6), Textauszug ohne Skripte
+Archivkopie: web.archive.org/web/20261016012752 (zeigt ebenfalls Input $0.10 / Output $0.20)
+Gegenprobe: api.eurouter.ai/api/v1/models (Abruf 2026-10-16, 151 Modelle, JSON-SHA256 bd7632c986be3d1c2c1aa9edafbb89c25c0d14a51a82bdbf270d89573932dd27), Eintrag gemma-4 pricing:
+{"prompt": "0.0000001", "completion": "0.0000002", "discount": 1, "input_cache_read": "0.0000001", "currency": "USD"}
+Modellliste eurouter.ai/models (Abruf 2026-10-16, HTML-SHA256 644fe9a8237ff5edc770af09dbaa24282fc574cb9b792d4f01d6c6cd6bd9c730): Karte Gemma 4 "in: $0.10 out: $0.20"
+
+Gemma 4 API (EU Routed) | EUrouter
+GLM-5.2, Kimi K3 and Opus 5 are now live. Try them now
+EUrouter
+Models
+Providers
+Rankings
+Features
+Pricing
+Docs
+Loading authentication actions
+EUrouter
+Home /
+Models /
+Gemma 4
+Back to Models
+Gemma 4
+by google
+Image Gen
+Description
+Gemma 4 is Google DeepMind's open model family built from Gemini 3 research and technology for high intelligence-per-parameter. The 31B variant offers long-context multimodal reasoning, function-calling support, multilingual understanding, and efficient deployment on personal hardware.
+Providers
+Infercom
+View provider details and policies.
+AKI.IO
+View provider details and policies.
+GreenPT
+View provider details and policies.
+Regolo
+View provider details and policies.
+AR
+Arkane SARL
+View provider details and policies.
+Berget AI AB
+View provider details and policies.
+Pricing
+Input
+$0.10 /1M tokens
+Output
+$0.20 /1M tokens
+Get Your API Key
+Specifications
+Context
+131K tokens
+Parameters
+—
+License
+—
+Released
+Apr 2026
+Capabilities
+Reasoning
+Vision
+EU-Compliant API Access
+Use Gemma 4 with a simple API call. OpenAI-compatible endpoint, EU data residency guaranteed.
+JavaScript
+Copy
+const response = await fetch("https://api.eurouter.ai/api/v1/chat/completions", {
+method: "POST",
+headers: {
+"Content-Type": "application/json",
+"Authorization": `Bearer ${process.env.EUROUTER_API_KEY}`,
+},
+body: JSON.stringify({
+model: "gemma-4",
+messages: [
+{ role: "user", content: "Hello!" }
+],
+}),
+});
+const data = await response.json();
+console.log(data.choices[0].message.content);
+More from google
+Gemma 2 2B IT
+$0.02 / $0.06
+Gemma 3 27B IT
+$0.10 / $0.30
+Explore more
+Infercom provider
+View Infercom's data policy and model catalog.
+AKI.IO provider
+View AKI.IO's data policy and model catalog.
+GreenPT provider
+View GreenPT's data policy and model catalog.
+Regolo provider
+View Regolo's data policy and model catalog.
+Arkane SARL provider
+View Arkane SARL's data policy and model catalog.
+Berget AI AB provider
+View Berget AI AB's data policy and model catalog.
+Browse all models
+Explore the full EUrouter model catalog.
+Models API
+List models and capabilities via the API.
+Quickstart
+Authenticate and make your first request.
+Integrate AI without GDPR risk.
+You need AI that won’t create compliance headaches. Your data stays in the EU, GDPR is enforced by default, and every request is routed for the best balance of cost, latency, and uptime, reducing risk while improving performance.
+Get Your API Key
+GDPR by default
+EU data residency
+Smart routing
+EUrouter
+The unified API for European AI models. Route intelligently, comply effortlessly, and scale globally.
+EUrouter B.V.
+KVK: 42054357
+Jacob van Lennepstraat 78H
+1053HM Amsterdam
+Product
+Models
+Providers
+Become a Provider
+Pricing
+Referral Program
+Resources
+Documentation
+FAQ
+Features
+Smart Routing
+OpenAI Compatible
+Monitoring & Observability
+Budgets & Limits
+Integrations
+All Integrations
+OpenAI SDK
+LangChain
+Vercel AI SDK
+Cursor
+Company
+About
+Jobs
+Contact
+© 2026 EUrouter. All rights reserved.
+Privacy Policy General Terms and Conditions DPA Cookie Statement Cookie Settings
+Status Page

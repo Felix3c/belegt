@@ -309,3 +309,12 @@ test("sammleUrls: Feld preisdaten (maschinenlesbare Preisquelle) wird nachgelese
   assert.equal(bfl.nurErreichbar, false);
   assert.ok(bfl.felder.every((f) => f.schluessel === "preisdaten" && f.anbieter === "black-forest-labs"));
 });
+
+test("heuteLokal: Datum nach Ortszeit, nicht UTC (Lauf um 01:30 MESZ ist schon der nächste Tag)", () => {
+  const { heuteLokal } = require("../lib/quellen.js");
+  // 16.10.2026 01:30 Ortszeit; in Köln (UTC+2) ist das UTC noch der 15.10.
+  const d = new Date(2026, 9, 16, 1, 30);
+  assert.equal(heuteLokal(d), "2026-10-16");
+  assert.equal(heuteLokal(new Date(2026, 0, 5, 23, 59)), "2026-01-05");
+  assert.match(heuteLokal(), /^\d{4}-\d{2}-\d{2}$/);
+});

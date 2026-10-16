@@ -211,6 +211,7 @@ Cloud
 Cloud
 Cloud
 Cloud
+Cloud
 Cloud-Migration
 Cloud-Services
 Cloud.
@@ -311,6 +312,7 @@ ES³
 ES³,
 EU
 Easily
+Effectively
 Ellhofen
 Enabled
 Enabler
@@ -492,6 +494,7 @@ Management
 Management
 Management
 Management
+Management
 Manager
 Manager
 Manufacturing
@@ -570,6 +573,7 @@ Portal
 Portal
 PostgreSQL
 PostgreSQL
+Posture
 Powerful
 Pre-configuration
 Price
@@ -749,6 +753,7 @@ STACKIT
 STACKIT
 STACKIT
 STACKIT
+STACKIT
 STACKIT,
 STACKIT.
 STACKIT.
@@ -763,6 +768,7 @@ Secure
 Secure
 Secure
 Secure.
+Security
 Security
 Security
 Security
@@ -983,6 +989,7 @@ an
 analytics
 analyze
 analyze
+and
 and
 and
 and
@@ -1534,6 +1541,7 @@ major
 make
 make
 manage
+manage
 managed
 managed
 managed
@@ -1559,6 +1567,7 @@ message
 met.
 minimal
 minimum
+mitigate
 model
 model
 model.
@@ -1775,6 +1784,7 @@ retail
 right
 risk
 risks
+risks
 roadmap
 role:
 roots.
@@ -1804,6 +1814,7 @@ secure
 securely
 securely
 securely
+security
 security
 security
 security

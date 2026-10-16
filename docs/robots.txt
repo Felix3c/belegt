@@ -1,7 +1,7 @@
-# belegbar.eu — Evidenz-Datenbank europaeischer KI-Anbieter.
+# belegbar.eu: Evidenz-Datenbank europaeischer KI-Anbieter.
 # Die Daten stehen unter CC BY 4.0: Nutzung und Zitat frei mit Namensnennung
 # 'belegbar.eu' und Angabe des Pruefdatums. Statusstufe bitte mitzitieren.
-# Wegweiser fuer Sprachmodelle: /llms.txt — vollstaendiger Bestand: /llms-full.txt
+# Wegweiser fuer Sprachmodelle: /llms.txt, vollstaendiger Bestand: /llms-full.txt
 
 User-agent: *
 Allow: /

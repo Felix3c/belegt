@@ -1,0 +1,255 @@
+Quelle: https://greenpt.com/privacy
+Abgerufen: 2026-10-16 (Dauerlauf, curl)
+
+
+. -->
+Privacy at GreenPT: EU-hosted, no training on your data
+ injection (e.g. consent banner + ad tracking on
+ campaign pages). Empty on every other page, so zero added weight. -->
+Skip to content
+GreenPT
+Free on Google Play
+ Install 
+New
+Meet Metis, our decision model
+Meet Metis
+ Research 
+ Research overview 
+The same answers, with less compute.
+ Honey 
+Same answers in fewer tokens, from the tools you use to the model weights.
+ Shorthand models 
+Coming soon
+A model that thinks in short notes, then answers in plain language.
+ Decision models 
+Metis weighs every possible answer and tells you how sure it is.
+Product
+Meet Metis: a decision model that weighs every answer
+October 7, 2026
+ Products 
+ Chat 
+Your everyday AI assistant, on 100% renewable energy and hosted in Europe.
+ Apps 
+Ten focused tools that ask the right questions and deliver on the first try.
+ Frida 
+Build your own AI assistant, trained on everything you know.
+ Honey 
+Make AI write less without losing quality. Fewer tokens, less carbon, lower cost.
+Product
+Meet Honey: less code, fewer tokens, same result
+September 1, 2026
+ Developers 
+ API 
+OpenAI-compatible API for open-weight models.
+ Models 
+The full catalog: chat, reasoning, coding, vision, and speech.
+ GreenPT Code 
+Open-weight coding models for agents: glm-5.3, MiniMax, Kimi.
+ Document OCR 
+Turn PDFs and scans into clean, structured text.
+ Speech-to-Text 
+Fast, accurate transcription powered by Deepgram Nova.
+ Websearch 
+Live web results your app can cite, in one call.
+ Metis 
+Decision model: a probability for every answer, in one pass.
+ Docs 
+Guides, quick starts and the API reference.
+Product
+DeepSeek V4.1 Flash: early EU access on GreenPT
+September 11, 2026
+ Solutions 
+ For Business 
+GreenPT for your whole team.
+ Government 
+AI for public-sector organisations.
+ Partners 
+Resell, integrate or refer GreenPT.
+ AI for lawyers 
+Private AI for legal work.
+ AI for doctors 
+Private AI for medical practice.
+ Advisory 
+Measure the AI running in your organisation.
+Company
+GreenPT partners with Open Knowledge Foundation on sustainable AI
+September 30, 2026
+ Company 
+Sustainability
+Renewable energy, European data centres, impact we actually measure.
+Privacy
+No training on your data. Privacy by design, hosted in Europe.
+About
+Who we are, why we started, and what we are building.
+Blog
+News, research and product updates.
+Contact
+Talk to our team.
+Pricing
+Login
+Create account
+EN
+English
+Nederlands
+Deutsch
+US
+Research
+Research overview
+Honey
+Shorthand models
+Decision models
+Products
+Chat
+Apps
+Frida
+Honey
+Developers
+API
+Models
+GreenPT Code
+Document OCR
+Speech-to-Text
+Websearch
+Solutions
+For Business
+Government
+Partners
+AI for lawyers
+AI for doctors
+Advisory
+Company
+Sustainability
+Privacy
+About
+Blog
+Contact
+Pricing
+Login
+Create account
+EN
+English
+Nederlands
+Deutsch
+US
+GreenPT Privacy
+Privacy-first AI
+ Built from the ground up with privacy by design, and backed by a positive DPIA (Data Privacy Impact Assessment). 
+ Most AI providers quietly train new models on what you type, store your conversations on US servers under the CLOUD Act, and route your data through a long list of third-party processors. GreenPT does none of that. Every chat stays inside the European Union, is never used to train a model, and is never shared with anyone for their own purposes. Every model runs on European infrastructure (Scaleway in France and our EU AI hosting partners in Finland), so no US cloud provider ever sees your data. We can sign a custom Data Processing Agreement tailored to your specific requirements and use case. 
+Check our Privacy Policy
+ Privacy isn't a setting. It's the architecture. 
+EU Data Sovereignty
+All data processing happens exclusively within the European Union. Your information never crosses EU borders, ensuring full compliance with EU data protection laws.
+No Training Data Usage
+We store your chat only for your personal history, and you can manage your own conversations. We never use your data to train our AI models.
+End-to-End Privacy
+From encryption in transit to secure processing in ISO-certified data centers, your privacy is protected at every step of the AI interaction.
+Privacy Infrastructure
+We believe in complete transparency about our data practices. You have full control over your data and can exercise all your privacy rights at any time.
+Advanced Encryption
+All data is encrypted in transit and at rest using industry-standard AES-256 encryption. Your conversations are protected from the moment they leave your device.
+Security Certifications
+Our infrastructure maintains ISO 27001 and SOC 2 Type II certifications, ensuring the highest standards of information security and data protection.
+Privacy Monitoring
+Continuous monitoring and audit trails ensure complete transparency in how your data is handled, with regular compliance reviews and security assessments.
+Minimal Data Collection
+We only collect the absolute minimum data necessary to provide our AI services.
+Your Rights Respected
+Full GDPR compliance means you can access, correct, delete, or port your data at any time. Your privacy rights are not just respected but actively protected.
+Open Source Models
+We use open-source AI models that can be audited and verified. No black box algorithms or hidden data processing.
+Privacy FAQ
+Where is my data stored?
+All data is stored and processed exclusively within the European Union. Our platform runs on Scaleway data centers in France. The AI models run on Scaleway infrastructure and with our European AI hosting partners Inceptron, Tensorix and Melious, in Verda's ISO 27001 certified data centers in Finland. Your information never crosses EU borders, ensuring full compliance with GDPR and EU data protection laws.
+Do you use my data to train AI models?
+No. We never use your conversations, documents, or API traffic to train AI models, ours or anyone else's. Every model is self-hosted on GreenPT infrastructure, so your data never leaves our environment.
+Can I request a custom Data Processing Agreement?
+Yes. We sign a standard Data Processing Agreement with every paying customer, and we're happy to negotiate a custom DPA tailored to your specific requirements and use case. Get in touch and our team will work with your legal department directly.
+Is my data encrypted?
+Yes. All data is encrypted in transit using TLS, and at rest on the underlying ISO 27001 certified storage. Access to your environment is scoped per-account, with audit logging on every administrative action.
+Can I delete my chat history?
+Yes. You can manage and delete your own conversations directly from your account at any time. On account closure, your data is removed from our active systems and purged from backups according to our retention schedule.
+Who can access my conversations?
+Only you, and the people you explicitly invite to your workspace. GreenPT staff have no routine access to customer content; access requires a documented support request from you and is fully logged.
+Free for 14 days
+ Your data, your terms, your control. 
+Try every capability with your data fully inside the EU. No training, no third parties, no surprises.
+Start my free trial
+14 days, full access
+(opens in a new tab)
+Request a custom DPA
+Cancel any time.
+GDPR Compliant
+EU Hosted
+ISO 27001
+↳ One last thing
+ Ready to try AI without the compromise? 
+Start free for 14 days. No credit card needed.
+ Start free trial 
+ See pricing 
+Product
+Chat
+GreenPT for iOS
+GreenPT for Android
+Frida
+Honey
+Business
+API
+GreenPT Code
+Document OCR API
+Scraper API
+Speech-to-text API
+Websearch API
+Pricing
+Sustainability
+Eco-friendly AI
+Privacy-first AI
+Privacy
+Solutions
+ChatGPT alternative
+European AI
+Private AI chatbot
+AI for lawyers
+AI for doctors
+For government
+For B Corps
+Features
+Company
+About us
+Partners
+Blog
+Changelog
+Status
+Resources
+Documentation
+Support
+Get in touch
+Legal
+Privacy Policy
+Terms of Service
+Cookie Policy
+Verified by independent audit
+GDPR compliant
+ISO 27001
+EU Hosted
+100% Renewable energy
+GreenPT
+·
+Sustainable AI powered by renewable energy and open-source models.
+© 2026 GreenPT. All rights reserved.
+🇬🇧
+EN
+, English
+🇳🇱
+NL
+, Nederlands
+🇩🇪
+DE
+, Deutsch
+🇺🇸
+US
+, US
+International
+|
+🇺🇸
+ US
+

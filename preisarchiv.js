@@ -11,7 +11,7 @@
 const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
-const { DATA_DIR } = require("./lib/quellen.js");
+const { DATA_DIR, heuteLokal } = require("./lib/quellen.js");
 
 const UA = "Mozilla/5.0 (compatible; belegbar.eu-preisarchiv/1.0; +https://belegbar.eu/)";
 const TIMEOUT_MS = 30000;
@@ -20,7 +20,7 @@ function argumente(argv) {
   const id = argv.find((a) => !a.startsWith("--") && !/^\d{4}-\d{2}-\d{2}$/.test(a) && !argv[argv.indexOf(a) - 1]?.startsWith("--"));
   const extra = [], datumIdx = argv.indexOf("--datum");
   for (let i = 0; i < argv.length; i++) if (argv[i] === "--url" && argv[i + 1]) extra.push(argv[++i]);
-  return { id, extra, datum: datumIdx > -1 ? argv[datumIdx + 1] : new Date().toISOString().slice(0, 10) };
+  return { id, extra, datum: datumIdx > -1 ? argv[datumIdx + 1] : heuteLokal() };
 }
 
 function slug(url) {

@@ -68,7 +68,6 @@ API
 API
 API
 API
-API
 About
 About
 About
@@ -163,6 +162,7 @@ EU
 EU
 EU
 EU
+EU
 EU-hosted,
 EU.
 Eco-friendly
@@ -182,6 +182,7 @@ European
 European
 Every
 Every
+Every
 FAQ
 Fast,
 Features
@@ -194,7 +195,7 @@ For
 For
 For
 Foundation
-France,
+France
 France.
 Free
 Free
@@ -411,10 +412,8 @@ Union.
 Union.
 Usage
 V4.1
-Verda
 Verda&#39;s
 Verified
-We
 We
 We
 We
@@ -700,14 +699,12 @@ every
 every
 every
 every
-every
 everyday
 everything
 exclusively
 exclusively
 exercise
 explicitly
-external
 fewer
 fewer
 first
@@ -762,6 +759,7 @@ history,
 history?
 hosted
 hosted
+hosting
 hosting
 how
 how
@@ -895,7 +893,6 @@ no
 no
 no
 no
-no
 none
 not
 notes,
@@ -945,6 +942,7 @@ our
 our
 our
 our
+our
 ours
 over
 overview
@@ -954,6 +952,7 @@ own
 own
 own
 parties,
+partners
 partners
 partners
 pass.
@@ -1028,6 +1027,7 @@ routine
 run
 running
 runs
+runs
 same
 same
 scans
@@ -1037,7 +1037,6 @@ secure
 security
 security
 sees
-self-host
 self-hosted
 servers
 services.

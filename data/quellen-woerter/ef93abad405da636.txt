@@ -23,10 +23,10 @@ $0.0071
 +
 +
 +
-+
 ,
 ,
 .
+1
 1
 1
 1
@@ -37,13 +37,13 @@ $0.0071
 10
 10M+
 11
-11
 119
+12
 121
 14
 14
 14
-14
+15
 15
 15
 19
@@ -70,14 +70,14 @@ $0.0071
 27001:2022,
 27001:2022.
 27001:2022.
-28
 28):
 3
 30
 30-day
+32
 33
-33
-35
+36
+39
 4
 4
 49
@@ -86,7 +86,7 @@ $0.0071
 5
 5
 50k+
-53
+54
 6
 6
 61
@@ -187,6 +187,7 @@ Baidu
 Bedrock
 Bedrock
 Bedrock
+Benchmark
 Berget
 Berget
 Best
@@ -262,6 +263,8 @@ Data
 Data
 Data
 Data
+Decision
+Decision
 DeepInfra
 DeepSeek
 Demo
@@ -312,6 +315,7 @@ EU
 EU
 EU
 EU
+EU,
 EU,
 EU,
 EU,
@@ -406,13 +410,14 @@ ISO/IEC
 ISO/IEC
 ISO/IEC
 Inceptron
-India,
+India
 Infercom
 Infrastructure
 Is
 Is
 Is
 It
+JevMan
 KMS
 LLM
 LLM
@@ -463,6 +468,7 @@ Multi
 Multi
 Multi
 Multi
+Multi,
 Multi,
 Multi,
 Multi,
@@ -617,6 +623,7 @@ Reference
 Region,
 Regolo
 Release
+Research
 Retained
 Retained
 Retained
@@ -638,6 +645,7 @@ SSO/SAML,
 Scaleway
 Security
 Security
+See
 See
 See
 See
@@ -727,9 +735,10 @@ US
 US
 US
 US
-US
 US,
 US,
+US,
+Upright
 Uptime
 VPC
 VPC
@@ -743,6 +752,7 @@ What
 When
 Where
 Which
+Yes
 Yes
 Yes
 Yes
@@ -1003,7 +1013,7 @@ behind
 behind
 behind
 below
-benchmark
+benchmarks
 between
 binding
 by
@@ -1395,7 +1405,6 @@ its
 its
 its
 itself
-jevman
 keep
 keep
 keep
@@ -1494,6 +1503,7 @@ model
 model,
 model,
 model.
+models
 models
 models
 models
@@ -1712,6 +1722,7 @@ page
 page
 page
 page
+page
 page.
 page;
 paperwork
@@ -1786,6 +1797,7 @@ prompts
 prompts
 prompts
 prompts?
+provider
 provider
 provider
 provider
