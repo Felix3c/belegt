@@ -63,11 +63,9 @@
 1,000,001.
 1999-
 2026
-2026
 24/7
 2400
 27/7
-6
 60
 60
 :
@@ -306,6 +304,7 @@ Deployment
 Designed
 Designed
 Development
+Discover
 Discover
 Discover
 Discover
@@ -593,6 +592,7 @@ Metal
 Metal
 Metal
 Metal
+Milan
 Model
 Model-as-a-Service
 Model-as-a-Service
@@ -712,7 +712,6 @@ Redis®*
 Region
 Region
 Region
-Register
 Register
 Registry
 Registry
@@ -940,7 +939,6 @@ across
 activity
 address
 address
-ai-PULSE
 algorithms,
 all
 all
@@ -1066,6 +1064,7 @@ at
 at
 audio
 availability
+available
 available
 back
 backbone
@@ -1368,6 +1367,7 @@ in
 in
 in
 in
+in
 industry
 inference
 inference
@@ -1518,11 +1518,11 @@ new
 next
 notice
 notice
-now
 number
 object
 object
 observability
+ocr
 of
 of
 of
@@ -1618,6 +1618,7 @@ processing
 processing
 product
 production-grade
+products
 products
 profits
 program
@@ -1790,6 +1791,7 @@ the
 the
 the
 the
+the
 them
 them
 them
@@ -1803,7 +1805,6 @@ ticket
 tier
 tier
 time
-to
 to
 to
 to

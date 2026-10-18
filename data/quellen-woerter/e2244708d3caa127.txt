@@ -28,6 +28,7 @@
 ,
 ,
 ,
+,
 -honey
 -lite
 -ponytail
@@ -37,6 +38,7 @@
 .
 /v1/models
 /v1/models/{id}
+/v1/systemone,
 0.05
 0.11
 0.12
@@ -76,7 +78,7 @@
 10
 10
 10
-10
+11
 11
 128k
 128k
@@ -230,6 +232,7 @@
 2026
 2026
 2026
+2026
 22
 22
 22
@@ -281,6 +284,8 @@
 31
 32
 32
+32
+32k
 32k
 32k
 32k
@@ -405,6 +410,7 @@ Cached
 Cached
 Cached
 Cached
+Called
 Carbon
 Cards
 Cards
@@ -461,11 +467,16 @@ Context
 Context
 Context
 Context
+Context
 Copy
 Create
 Credits
 Cross-encoder
+Decision
+Decision
 Decisions
+Decisions
+Decisions.
 DeepSeek
 DeepSeek
 DeepSeek
@@ -574,6 +585,7 @@ GreenPT
 GreenPT
 GreenPT
 GreenPT
+GreenPT
 GreenPT&#x27;s
 H
 Hybrid
@@ -608,9 +620,11 @@ Input
 Input
 Input
 Input
+Input
 Instruction-aware
 Instruction-aware
 Instruction-aware
+It
 Jul
 Jul
 July
@@ -724,6 +738,7 @@ Multilingual
 Multilingual
 Multilingual
 Multilingual
+Multiple
 New
 New
 New
@@ -762,6 +777,8 @@ New
 New
 New
 New
+New
+No
 No
 No
 No
@@ -828,6 +845,7 @@ Open
 OpenAI
 OpenAI-compatible
 OpenAI-compatible
+Ordered
 Output
 Output
 Output
@@ -854,6 +872,8 @@ Output
 Output
 Output
 Output
+Output
+POST
 Partners
 Per
 Per
@@ -924,6 +944,7 @@ Released
 Released
 Released
 Released
+Released
 Representation
 Representation
 Reranker
@@ -939,6 +960,7 @@ Search
 See
 Semantic
 Semantic
+Sep
 Sep
 Sep
 September
@@ -996,6 +1018,7 @@ The
 The
 The
 The
+The
 These
 To
 Token
@@ -1016,6 +1039,7 @@ Unsupported
 Unsupported
 Unsupported
 Unsupported
+Up
 Us
 Usage
 Use
@@ -1030,6 +1054,9 @@ We
 Web
 Welcome
 When
+Yes/no
+a
+a
 a
 a
 a
@@ -1100,8 +1127,12 @@ and
 and
 and
 and
+and
+and
 answer,
 answer.
+answer.
+answers
 answers
 api.greenpt.ai/v1
 applies
@@ -1141,6 +1172,7 @@ cached
 cached
 caching
 calculations
+called
 calling
 capabilities.
 carries
@@ -1149,6 +1181,7 @@ carry
 carry
 carry
 carry
+case
 cases;
 catalog
 catalog
@@ -1175,8 +1208,11 @@ changes
 charge
 charge
 charge
+charge
 chat
 chat
+chat
+choice
 client
 coding
 coding
@@ -1187,6 +1223,7 @@ coding,
 coding,
 coding.
 completion
+completions.
 compression
 configurable
 configurable
@@ -1199,6 +1236,8 @@ context
 counts
 date.
 decides
+decision
+decision)
 deepseek-r1-distill-llama-70b
 deepseek-r1-distill-llama-70b
 deepseek-r1-distill-llama-70b
@@ -1257,6 +1296,7 @@ ended.
 endpoint
 enough
 environmental
+every
 explicit
 first,
 first.
@@ -1288,6 +1328,7 @@ for
 for
 for
 for
+for
 from
 from
 from
@@ -1311,6 +1352,7 @@ gemma4
 gemma4
 gemma4
 gemma4
+generates
 generation
 generic
 gets
@@ -1422,6 +1464,7 @@ is
 is
 is
 is
+is
 it
 it.
 job
@@ -1493,6 +1536,8 @@ message
 message
 message:
 metis
+metis
+metis
 million
 minimax-m3
 minimax-m3
@@ -1507,6 +1552,8 @@ mistral-small-3.2-24b-instruct-2506
 mistral-small-3.2-24b-instruct-2506
 mistral-small-3.2-24b-instruct-2506
 mistral-small-3.2-24b-instruct-2506
+model
+model
 model
 model
 model
@@ -1594,13 +1641,16 @@ multilingual
 multilingual
 multimodal
 multimodal
+multiple-choice
 native
 newer
 newest
 newest
 no
 no
+no
 none,
+not
 noted
 notice
 of
@@ -1651,6 +1701,7 @@ of
 on
 on
 on
+once
 one
 one
 only
@@ -1703,10 +1754,12 @@ output
 output
 output
 output
+output
 output-compression
 over
 own,
 page
+per
 per
 per
 per
@@ -1720,6 +1773,7 @@ pixtral-12b-2409
 pixtral-12b-2409
 pixtral-12b-2409
 platforms
+possible
 pre-recorded
 pre-recorded
 pre-recorded
@@ -1749,6 +1803,7 @@ pricing
 pricing
 pricing
 pricing
+probability
 programmatically,
 promo
 promo
@@ -1761,6 +1816,8 @@ prompts
 prompts
 proxy
 query.
+questions
+questions
 qwen3-235b-a22b-instruct-2507
 qwen3-235b-a22b-instruct-2507
 qwen3-235b-a22b-instruct-2507
@@ -1780,6 +1837,7 @@ qwen3.6-35b-a3b
 qwen3.6-35b-a3b
 qwen3.6-35b-a3b
 raw
+reads
 reasoning
 reasoning
 reasoning
@@ -1844,6 +1902,7 @@ recorded
 release,
 relevance
 reorders
+request
 request,
 requests
 requests
@@ -1858,7 +1917,7 @@ requests
 requests
 reranking
 reranking
-reranking)
+reranking,
 result
 results
 retrieval,
@@ -1883,6 +1942,8 @@ same
 same
 same
 same
+scale
+scales
 scores
 scoring
 search
@@ -1890,6 +1951,7 @@ search
 search
 search,
 search,
+see
 see
 see
 semantic
@@ -1925,6 +1987,8 @@ system
 system
 system
 tenth
+text.
+that
 that
 that
 the
@@ -1971,7 +2035,10 @@ their
 this
 through
 through
+through
+through
 tier
+to
 to
 to
 to
@@ -2062,8 +2129,10 @@ with
 with
 with
 with
+with
 work,
 workflows.
+yes/no,
 you
 you
 your
@@ -2093,6 +2162,7 @@ z.ai
 €0.11
 €0.11
 €0.11
+€0.12
 €0.12
 €0.14
 €0.198

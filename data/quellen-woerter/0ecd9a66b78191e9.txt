@@ -43,17 +43,19 @@
 1998.
 2
 2
-20
+20-minute
 2009–
 2022-06-02
 2022-06-07
 2026
-30-minute
+21
 501(c)(3)
 501(c)(3)
+9
 A
 A
 A
+AI
 AI
 AI
 AI
@@ -74,7 +76,7 @@ AI
 AI
 AI,
 AI,
-AI-driven
+AI,
 AI.
 AI.
 About
@@ -276,6 +278,7 @@ CxO
 CxO
 Cybersecurity
 Cybersecurity
+December
 Decline
 Definition
 Digest
@@ -641,6 +644,7 @@ Submit
 Submit
 Switzerland,
 TAISE
+Talks
 Team
 Terms
 Thought
@@ -686,6 +690,7 @@ Training
 Training
 Trainings
 Trainings
+Trust
 Trust
 Trust
 Trust
@@ -772,7 +777,6 @@ a
 a
 a
 a
-a
 a...
 about
 about
@@ -818,6 +822,8 @@ and
 and
 and
 and
+and
+and
 any
 are
 as
@@ -834,7 +840,6 @@ attestation.
 attestation.
 auditor
 auditor
-automation
 been
 best
 best
@@ -891,6 +896,7 @@ cookies,
 credits.
 credits.
 customer’s
+data
 data
 dedicated
 dedicated
@@ -951,7 +957,7 @@ help
 high
 highlights,
 highlights,
-how
+identity,
 improve
 improve
 in
@@ -1045,7 +1051,6 @@ one
 one
 one
 open
-operations
 opportunities
 or
 or
@@ -1094,6 +1099,7 @@ response
 response
 reviews,
 rights
+risks
 secure
 secure
 secure
@@ -1173,7 +1179,6 @@ total
 training,
 training,
 training,
-transforms
 trust
 trustworthy
 trustworthy
@@ -1190,7 +1195,6 @@ updates
 updates
 updates
 us
-us
 usage
 use
 users
@@ -1200,7 +1204,7 @@ vendors
 vendors
 way
 way
-webinar
+webinars
 webinars,
 website
 website.

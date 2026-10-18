@@ -1,3 +1,4 @@
+&#038;
 &#8211;
 &#8211;
 &#8211;
@@ -17,6 +18,7 @@
 &amp;
 &amp;
 &amp;
+(0.6B
 (1
 (1)
 (1)
@@ -125,6 +127,7 @@
 120b
 122b
 17793/98
+2
 2.
 2.1.
 2.2.
@@ -204,6 +207,7 @@
 82
 830054,
 880041,
+8B):
 9.
 9.1.
 9.2.
@@ -335,12 +339,12 @@ BY
 BY
 BY
 Benchmarks
+Benchmarks
 Binding
 Boost)
 Boost):
 Breach)
 Breach)
-Build
 Builder
 By
 By
@@ -362,10 +366,12 @@ Categories
 Certifications
 Clef-Flash
 Cloud
+Code
 Companies,
 Company
 Compliance
 Compliance
+Compression,
 Computing
 Conditions
 Conditions
@@ -529,6 +535,7 @@ EXPRESSLY
 EXTENT
 Effective
 Effective
+EmbeddingGemma
 Enterprise
 European
 European
@@ -702,6 +709,7 @@ MERCHANTABILITY,
 MISCONDUCT
 MONTH
 Material
+Matryoshka
 Milan
 Model
 Model
@@ -912,6 +920,7 @@ Pursuant
 Pursuant
 Pursuant
 Qwen
+Qwen3-Embedding
 REGULATION
 RESULTING
 REVENUES,
@@ -952,10 +961,12 @@ Regulation
 Release
 Reliance
 Renewal:
+Reranking
 Resale
 Resources
 Restrictions
 Retention
+Retrieval,
 Rights
 Risk
 Route
@@ -1451,7 +1462,6 @@ after
 after
 after
 against
-agentic
 agree
 agreed
 agreed,
@@ -1510,10 +1520,10 @@ an
 an
 an
 an
-an
 analyze
 analyze
 analyze
+and
 and
 and
 and
@@ -2048,8 +2058,6 @@ chosen
 chosen
 chosen,
 circulation
-cites
-claim
 claim
 claim
 claim
@@ -2364,7 +2372,6 @@ etc.)
 ethics,
 event
 every
-every
 except
 except
 except
@@ -2505,7 +2512,6 @@ granted
 granted
 granting
 grants
-graph
 green
 gross
 guarantee
@@ -2758,7 +2764,6 @@ key,
 kind
 know
 know-how
-knowledge
 knowledge
 last
 later
@@ -3962,7 +3967,6 @@ that
 that
 that
 that
-that
 that:
 that:
 the
@@ -4708,6 +4712,7 @@ violate
 violate
 violates
 vocational
+vs
 vulnerabilities
 vulnerability
 warranties

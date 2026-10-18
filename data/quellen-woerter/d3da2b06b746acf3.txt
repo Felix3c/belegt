@@ -226,6 +226,7 @@ DDoS
 DDoS
 DDoS
 DDoS
+DDoS
 DNS
 DNS
 DNS
@@ -393,6 +394,7 @@ Gcore’s
 Gcore’s
 Gcore’s
 Gcore’s
+Get
 Get
 Get
 Get
@@ -601,7 +603,6 @@ Protect
 Protect
 Protect
 Protect
-Protect
 Protection
 Protection
 Protection
@@ -696,7 +697,6 @@ Shield
 Shield
 Sign
 Sign
-Sign
 Slurm,
 Software
 Solutions
@@ -708,6 +708,7 @@ Sovereignty
 Spain
 Spotlight
 Stable-Diffusion
+Start
 Startup
 Startup
 Startups
@@ -925,7 +926,6 @@ and
 and
 and
 and
-and
 and&#160;Gcore
 announced
 announced
@@ -991,7 +991,6 @@ at
 at
 attack
 attack?
-attacks
 attacks
 attacks
 attacks
@@ -1249,13 +1248,11 @@ for
 for
 for
 for
-for
 foundation
 framework
 free
 free
 frequency&#160;LUXEMBOURG,
-from
 from
 from
 from
@@ -1442,7 +1439,6 @@ media
 metal
 metal
 min
-mistakes.
 model
 model
 model
@@ -1502,6 +1498,7 @@ none
 not
 now
 now.
+now.
 numerous
 object
 object
@@ -1545,6 +1542,7 @@ on,
 on-demand
 on-demand
 on-prem
+onboarding
 one
 online
 online
@@ -1563,7 +1561,6 @@ or
 or
 origin
 origin
-our
 our
 our
 our
@@ -1623,6 +1620,7 @@ project?
 project?
 protected
 protected
+protection
 protection:
 provider
 provider
@@ -1718,7 +1716,6 @@ security
 security:
 selected
 sends
-server
 serverless
 serverless
 serverless
@@ -1735,7 +1732,6 @@ services
 services
 services.
 servicesLuxembourg,
-setup
 setup
 setup
 setup.
@@ -1814,7 +1810,6 @@ surges.
 systems
 systems
 t
-targeted
 team
 team
 team
@@ -1973,7 +1968,6 @@ unwanted
 unwanted
 up
 up
-up
 upcoming
 upcoming
 updates
@@ -2015,7 +2009,6 @@ we
 we'll
 we'll
 web
-webinar
 were
 what
 what
@@ -2081,7 +2074,6 @@ you
 you
 you
 you
-your
 your
 your
 your

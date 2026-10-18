@@ -47,6 +47,7 @@
 3
 3
 3
+3
 400
 402
 403
@@ -185,6 +186,7 @@ Image
 Image
 Image
 Image
+Image
 Impressum
 In
 Index
@@ -198,14 +200,15 @@ Introducing
 K
 Key
 Key
+Klein,
 Kontext
 Labs
 Labs
 Labs
+Learn
 Legacy
 Legal
 Lower
-MCP
 MCP
 MCP
 Management
@@ -307,7 +310,6 @@ Training
 Training
 Training
 Training
-Try
 Try
 Try-On
 Try-On
@@ -541,12 +543,12 @@ moments.
 more
 more
 more
+more
 naming
 needs
 not
 not
 not
-now
 null
 null
 null
@@ -559,11 +561,11 @@ of
 of
 of
 of
-official
 on
 on
 on
 one
+open
 or
 or
 or
@@ -684,7 +686,6 @@ the
 the
 the
 the
-the
 these
 these
 this
@@ -729,6 +730,7 @@ was
 was
 was
 was
+weights
 when
 while
 with

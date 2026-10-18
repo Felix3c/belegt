@@ -1,0 +1,6 @@
+Quelle: https://docs.bfl.ai/api_integration/errors
+Abruf: 2026-10-18 (Dauerlauf)
+Banner: Introducing FLUX 3 Image Klein, open weights • Learn more Bl
+
+Auszug Moderation:
+t , you’ll receive one of these response types: Ready Your generation is complete and the result is available for download. Pending Your request is still being processed. Check back in a few moments. Request Moderated Your input (prompt or image) was flagged by our content moderation system before processing began. Content Moderated The generated output was flagged by our content moderation system after processing completed. Task not found The specified task ID does not exist or has expired. Error An error occurred during processing. Check the error details for more information. ​ Moderation Responses The moderation system can flag content at two stages, each with its own status: Status Stage What it means Request Moderated Before processing Your input (prompt or image) was flagged at submission time, so the request was rejected. Content Moderated After processing The generated output was flagged, so the result can’t be delivered. In both cases result is null and the details field includes a Moderation Reasons array naming the categories that triggered the filter (for example Violenc

@@ -1,9 +1,9 @@
 # Anbieter-Dossier: IONOS (AI Model Hub)
 
-**Ausgestellt am:** 2026-10-16  
+**Ausgestellt am:** 2026-10-18  
 **Für:** Muster, kein Auftrag. Alle 15 Standard-Prüfpunkte  
 **Erstellt:** Ein KI-Agent hat die Quellen gesammelt und verglichen. Felix Lind (belegbar.eu) hat sie geprüft und freigegeben.  
-**Datenstand des Profils:** 2026-10-16 (letzte Prüfung aller Quellen)  
+**Datenstand des Profils:** 2026-10-18 (letzte Prüfung aller Quellen)  
 **Anbieter:** IONOS (AI Model Hub), Montabaur, Deutschland, IONOS Group SE (Mehrheitseigner: United Internet AG), https://cloud.ionos.de/managed/ai-model-hub
 
 Dieses Dossier stellt datiert zusammen, was der Anbieter öffentlich belegt, mit Quelle, Prüfdatum und, wo vorhanden, Hash und Archivkopie. Es enthält **keine Bewertung, keine Empfehlung und keine Rechtsberatung**. Ob der Anbieter für einen Zweck geeignet ist, entscheidet der Auftraggeber. Jede Angabe lässt sich beim Anbieter selbst nachprüfen.
@@ -40,7 +40,7 @@ Die Vorgaben setzt der Auftraggeber; ohne Auswahl gelten alle 15 Prüfpunkte. �
 - Nicht belegbar: 15 Angaben (Abschnitt 2)
 - Fälle auf belegbar.eu: 0 (Abschnitt 3)
 - Offene Prüfpunkte, als Frage an den Anbieter: 3 (Abschnitt 4)
-- Änderungsalarm: 2026-10-16 bis 2027-10-16. Sie bekommen eine Mail, wenn der monatliche Quellenlauf bei diesem Anbieter etwas findet: eine Angabe wechselt den Status, AVV, Subprozessoren oder ein Zertifikat ändern sich, ein Fall wird eröffnet oder geschlossen. Grundlage: https://belegbar.eu/aenderungen/
+- Änderungsalarm: 2026-10-18 bis 2027-10-18. Sie bekommen eine Mail, wenn der monatliche Quellenlauf bei diesem Anbieter etwas findet: eine Angabe wechselt den Status, AVV, Subprozessoren oder ein Zertifikat ändern sich, ein Fall wird eröffnet oder geschlossen. Grundlage: https://belegbar.eu/aenderungen/
 
 ## Vermerk
 
@@ -57,27 +57,27 @@ Felix Lind, belegbar.eu
 
 | Feld | Angabe | Quelle | Prüfdatum | Hash | Archiv |
 |---|---|---|---|---|---|
-| AVV / Auftragsverarbeitungsvertrag | https://www.ionos.de/terms-gtc/avv/ | https://www.ionos.de/terms-gtc/avv/ | 2026-10-16 | 67d6abf334011543 (Kurz-Hash Quellenlauf, gesehen 2026-10-16) | keine Archivkopie |
-| Subprozessoren-Liste | https://www.ionos.de/terms-gtc/fileadmin/pdf/terms-gtc/DE/AVV/AVV_Liste_Subunternehmen_v4_5_DE.pdf | https://www.ionos.de/terms-gtc/avv/ | 2026-10-16 | 67d6abf334011543 (Kurz-Hash Quellenlauf, gesehen 2026-10-16) | keine Archivkopie |
-| Kein Training mit Kundendaten; Zero Data Retention; Zweckbindung über Training hinaus | ja | https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling | 2026-10-16 | 82df522c139f093d (Kurz-Hash Quellenlauf, gesehen 2026-10-16) | keine Archivkopie |
-| Zertifikat ISO 27001; Zertifikat ISO 50001 |, | https://cloud.ionos.de/zertifikate | 2026-10-16 | 45f3a9b5afb608e3 (Kurz-Hash Quellenlauf, gesehen 2026-10-16) | keine Archivkopie |
-| AI Act: EU-AI-Act-Rollen- und Transparenzdokumentation (Distributor/Provider) |, | https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/eu-ai-act | 2026-10-16 | 4798da62c150dcbb (Kurz-Hash Quellenlauf, gesehen 2026-10-16) | keine Archivkopie |
-| Modell Llama 3.3 70B Instruct | Standort Deutschland, Input 0.65 €/1M, Output 0.65 €/1M | https://cloud.ionos.de/managed/ai-model-hub | 2026-10-16 | 12f8cb1992bb4645 (Kurz-Hash Quellenlauf, gesehen 2026-10-16) | keine Archivkopie |
-| Modell Mistral Small 24B Instruct | Standort Deutschland, Input 0.1 €/1M, Output 0.3 €/1M | https://cloud.ionos.de/managed/ai-model-hub | 2026-10-16 | 12f8cb1992bb4645 (Kurz-Hash Quellenlauf, gesehen 2026-10-16) | keine Archivkopie |
-| Modell Mistral Nemo Instruct | Standort Deutschland, Input 0.15 €/1M, Output 0.15 €/1M | https://cloud.ionos.de/managed/ai-model-hub | 2026-10-16 | 12f8cb1992bb4645 (Kurz-Hash Quellenlauf, gesehen 2026-10-16) | keine Archivkopie |
-| Modell gpt-oss-120b | Standort Deutschland, Input 0.15 €/1M, Output 0.65 €/1M | https://cloud.ionos.de/managed/ai-model-hub | 2026-10-16 | 12f8cb1992bb4645 (Kurz-Hash Quellenlauf, gesehen 2026-10-16) | keine Archivkopie |
-| Modell Qwen3.5-397B-A17B | Standort Deutschland, Input 0.6 €/1M, Output 3.6 €/1M | https://cloud.ionos.de/managed/ai-model-hub | 2026-10-16 | 12f8cb1992bb4645 (Kurz-Hash Quellenlauf, gesehen 2026-10-16) | keine Archivkopie |
-| Modell Qwen3.5-9B | Standort Deutschland, Input 0.1 €/1M, Output 0.15 €/1M | https://cloud.ionos.de/managed/ai-model-hub | 2026-10-16 | 12f8cb1992bb4645 (Kurz-Hash Quellenlauf, gesehen 2026-10-16) | keine Archivkopie |
-| Modell Qwen3.8-27B | Standort Deutschland, Input 0.4 €/1M, Output 2.7 €/1M | https://cloud.ionos.de/managed/ai-model-hub | 2026-10-16 | 12f8cb1992bb4645 (Kurz-Hash Quellenlauf, gesehen 2026-10-16) | keine Archivkopie |
-| Betroffenenrechte: wer bedient sie | Auftraggeber | https://www.ionos.de/terms-gtc/avv/ | 2026-10-16 | 67d6abf334011543 (Kurz-Hash Quellenlauf, gesehen 2026-10-16) | keine Archivkopie |
-| Log-Aufbewahrung (Zweck) | Abrechnung und Betrieb des Dienstes (Metadaten: Zeitstempel, Modell, Tokenzahl; keine Inhalte) | https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling | 2026-10-16 | 82df522c139f093d (Kurz-Hash Quellenlauf, gesehen 2026-10-16) | keine Archivkopie |
-| ISO 27001: Anwendungsbereich | IONOS Holding SE, Standort IONOS SE Montabaur: 'Betrieb und Entwicklung von Infrastruktur, Plattformen und Applikationen für Internetprodukte und -dienstleistungen in den Rechenzentren der IONOS sowie der zugehörige Kundenservice' | https://var.uicdn.net/shopsshort/pdf/IONOS-SE-ISO-27001-DE.pdf | 2026-10-16 | ac3c6f5a0aea7277 (Kurz-Hash Quellenlauf, gesehen 2026-10-16) | keine Archivkopie |
-| ISO 27001: Zertifizierer | TÜV NORD CERT GmbH, Essen (zweites Zertifikat auf Basis IT-Grundschutz: BSI) | https://var.uicdn.net/shopsshort/pdf/IONOS-SE-ISO-27001-DE.pdf | 2026-10-16 | ac3c6f5a0aea7277 (Kurz-Hash Quellenlauf, gesehen 2026-10-16) | keine Archivkopie |
-| ISO 27001: Zertifizierer akkreditiert (DAkkS) | ja | https://dakks.de/files/data/as/pdf/D-ZM-12007-01-06.pdf | 2026-10-16 | 921ed99bce8500d1 (Kurz-Hash Quellenlauf, gesehen 2026-10-16) | keine Archivkopie |
-| ISO 50001: Anwendungsbereich | IONOS Holding SE mit Standorten gemäß Anlage: 'Konzeption und Betrieb von Rechenzentrumsinfrastruktur für Internetprodukte und -dienstleistungen weltweit' | https://var.uicdn.net/shopsshort/pdf/44764160247-IONOS-Holding-50001-DE-2022.pdf | 2026-10-16 | ecab043ace048285 (Kurz-Hash Quellenlauf, gesehen 2026-10-16) | keine Archivkopie |
-| ISO 50001: Zertifizierer | TÜV NORD CERT GmbH, Essen | https://var.uicdn.net/shopsshort/pdf/44764160247-IONOS-Holding-50001-DE-2022.pdf | 2026-10-16 | ecab043ace048285 (Kurz-Hash Quellenlauf, gesehen 2026-10-16) | keine Archivkopie |
-| ISO 50001: Zertifizierer akkreditiert (DAkkS) | ja | https://dakks.de/files/data/as/pdf/D-ZM-12007-01-07.pdf | 2026-10-16 | 428438ee1cd876d3 (Kurz-Hash Quellenlauf, gesehen 2026-10-16) | keine Archivkopie |
-| Llama 3.3 70B Instruct: Backup-Standort; Llama 3.1 8B Instruct: Backup-Standort; Mistral Small 24B Instruct: Backup-Standort; Mistral Nemo Instruct: Backup-Standort; gpt-oss-120b: Backup-Standort; Qwen3.5-397B-A17B: Backup-Standort; Qwen3.5-9B: Backup-Standort; Qwen3.8-27B: Backup-Standort | Keine Sicherungen von Prompts und Ausgaben (werden nicht persistent gespeichert); Verarbeitung nur in IONOS-Rechenzentren in Deutschland | https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling | 2026-10-16 | 82df522c139f093d (Kurz-Hash Quellenlauf, gesehen 2026-10-16) | keine Archivkopie |
+| AVV / Auftragsverarbeitungsvertrag | https://www.ionos.de/terms-gtc/avv/ | https://www.ionos.de/terms-gtc/avv/ | 2026-10-18 | 67d6abf334011543 (Kurz-Hash Quellenlauf, gesehen 2026-10-18) | keine Archivkopie |
+| Subprozessoren-Liste | https://www.ionos.de/terms-gtc/fileadmin/pdf/terms-gtc/DE/AVV/AVV_Liste_Subunternehmen_v4_5_DE.pdf | https://www.ionos.de/terms-gtc/avv/ | 2026-10-18 | 67d6abf334011543 (Kurz-Hash Quellenlauf, gesehen 2026-10-18) | keine Archivkopie |
+| Kein Training mit Kundendaten; Zero Data Retention; Zweckbindung über Training hinaus | ja | https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling | 2026-10-18 | 82df522c139f093d (Kurz-Hash Quellenlauf, gesehen 2026-10-18) | keine Archivkopie |
+| Zertifikat ISO 27001; Zertifikat ISO 50001 |, | https://cloud.ionos.de/zertifikate | 2026-10-18 | 45f3a9b5afb608e3 (Kurz-Hash Quellenlauf, gesehen 2026-10-18) | keine Archivkopie |
+| AI Act: EU-AI-Act-Rollen- und Transparenzdokumentation (Distributor/Provider) |, | https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/eu-ai-act | 2026-10-18 | 4798da62c150dcbb (Kurz-Hash Quellenlauf, gesehen 2026-10-18) | keine Archivkopie |
+| Modell Llama 3.3 70B Instruct | Standort Deutschland, Input 0.65 €/1M, Output 0.65 €/1M | https://cloud.ionos.de/managed/ai-model-hub | 2026-10-18 | 12f8cb1992bb4645 (Kurz-Hash Quellenlauf, gesehen 2026-10-18) | keine Archivkopie |
+| Modell Mistral Small 24B Instruct | Standort Deutschland, Input 0.1 €/1M, Output 0.3 €/1M | https://cloud.ionos.de/managed/ai-model-hub | 2026-10-18 | 12f8cb1992bb4645 (Kurz-Hash Quellenlauf, gesehen 2026-10-18) | keine Archivkopie |
+| Modell Mistral Nemo Instruct | Standort Deutschland, Input 0.15 €/1M, Output 0.15 €/1M | https://cloud.ionos.de/managed/ai-model-hub | 2026-10-18 | 12f8cb1992bb4645 (Kurz-Hash Quellenlauf, gesehen 2026-10-18) | keine Archivkopie |
+| Modell gpt-oss-120b | Standort Deutschland, Input 0.15 €/1M, Output 0.65 €/1M | https://cloud.ionos.de/managed/ai-model-hub | 2026-10-18 | 12f8cb1992bb4645 (Kurz-Hash Quellenlauf, gesehen 2026-10-18) | keine Archivkopie |
+| Modell Qwen3.5-397B-A17B | Standort Deutschland, Input 0.6 €/1M, Output 3.6 €/1M | https://cloud.ionos.de/managed/ai-model-hub | 2026-10-18 | 12f8cb1992bb4645 (Kurz-Hash Quellenlauf, gesehen 2026-10-18) | keine Archivkopie |
+| Modell Qwen3.5-9B | Standort Deutschland, Input 0.1 €/1M, Output 0.15 €/1M | https://cloud.ionos.de/managed/ai-model-hub | 2026-10-18 | 12f8cb1992bb4645 (Kurz-Hash Quellenlauf, gesehen 2026-10-18) | keine Archivkopie |
+| Modell Qwen3.8-27B | Standort Deutschland, Input 0.4 €/1M, Output 2.7 €/1M | https://cloud.ionos.de/managed/ai-model-hub | 2026-10-18 | 12f8cb1992bb4645 (Kurz-Hash Quellenlauf, gesehen 2026-10-18) | keine Archivkopie |
+| Betroffenenrechte: wer bedient sie | Auftraggeber | https://www.ionos.de/terms-gtc/avv/ | 2026-10-18 | 67d6abf334011543 (Kurz-Hash Quellenlauf, gesehen 2026-10-18) | keine Archivkopie |
+| Log-Aufbewahrung (Zweck) | Abrechnung und Betrieb des Dienstes (Metadaten: Zeitstempel, Modell, Tokenzahl; keine Inhalte) | https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling | 2026-10-18 | 82df522c139f093d (Kurz-Hash Quellenlauf, gesehen 2026-10-18) | keine Archivkopie |
+| ISO 27001: Anwendungsbereich | IONOS Holding SE, Standort IONOS SE Montabaur: 'Betrieb und Entwicklung von Infrastruktur, Plattformen und Applikationen für Internetprodukte und -dienstleistungen in den Rechenzentren der IONOS sowie der zugehörige Kundenservice' | https://var.uicdn.net/shopsshort/pdf/IONOS-SE-ISO-27001-DE.pdf | 2026-10-18 | ac3c6f5a0aea7277 (Kurz-Hash Quellenlauf, gesehen 2026-10-18) | keine Archivkopie |
+| ISO 27001: Zertifizierer | TÜV NORD CERT GmbH, Essen (zweites Zertifikat auf Basis IT-Grundschutz: BSI) | https://var.uicdn.net/shopsshort/pdf/IONOS-SE-ISO-27001-DE.pdf | 2026-10-18 | ac3c6f5a0aea7277 (Kurz-Hash Quellenlauf, gesehen 2026-10-18) | keine Archivkopie |
+| ISO 27001: Zertifizierer akkreditiert (DAkkS) | ja | https://dakks.de/files/data/as/pdf/D-ZM-12007-01-06.pdf | 2026-10-18 | 921ed99bce8500d1 (Kurz-Hash Quellenlauf, gesehen 2026-10-18) | keine Archivkopie |
+| ISO 50001: Anwendungsbereich | IONOS Holding SE mit Standorten gemäß Anlage: 'Konzeption und Betrieb von Rechenzentrumsinfrastruktur für Internetprodukte und -dienstleistungen weltweit' | https://var.uicdn.net/shopsshort/pdf/44764160247-IONOS-Holding-50001-DE-2022.pdf | 2026-10-18 | ecab043ace048285 (Kurz-Hash Quellenlauf, gesehen 2026-10-18) | keine Archivkopie |
+| ISO 50001: Zertifizierer | TÜV NORD CERT GmbH, Essen | https://var.uicdn.net/shopsshort/pdf/44764160247-IONOS-Holding-50001-DE-2022.pdf | 2026-10-18 | ecab043ace048285 (Kurz-Hash Quellenlauf, gesehen 2026-10-18) | keine Archivkopie |
+| ISO 50001: Zertifizierer akkreditiert (DAkkS) | ja | https://dakks.de/files/data/as/pdf/D-ZM-12007-01-07.pdf | 2026-10-18 | 428438ee1cd876d3 (Kurz-Hash Quellenlauf, gesehen 2026-10-18) | keine Archivkopie |
+| Llama 3.3 70B Instruct: Backup-Standort; Llama 3.1 8B Instruct: Backup-Standort; Mistral Small 24B Instruct: Backup-Standort; Mistral Nemo Instruct: Backup-Standort; gpt-oss-120b: Backup-Standort; Qwen3.5-397B-A17B: Backup-Standort; Qwen3.5-9B: Backup-Standort; Qwen3.8-27B: Backup-Standort | Keine Sicherungen von Prompts und Ausgaben (werden nicht persistent gespeichert); Verarbeitung nur in IONOS-Rechenzentren in Deutschland | https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling | 2026-10-18 | 82df522c139f093d (Kurz-Hash Quellenlauf, gesehen 2026-10-18) | keine Archivkopie |
 
 Anmerkungen aus dem Profil:
 

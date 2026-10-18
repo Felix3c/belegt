@@ -1389,6 +1389,7 @@ DDoS
 DDoS
 DDoS
 DDoS
+DDoS
 DEFINITIONS
 DNS
 DNS
@@ -2144,6 +2145,7 @@ Gcore’s
 General
 Get
 Get
+Get
 Given
 Global
 Global
@@ -2805,7 +2807,6 @@ Protect
 Protect
 Protect
 Protect
-Protect
 Protection
 Protection
 Protection
@@ -3292,7 +3293,6 @@ Should
 Should
 Sign
 Sign
-Sign
 Solutions
 Solutions
 Solutions
@@ -3308,6 +3308,7 @@ Specifications,
 Specifications,
 Spotlight
 Standard
+Start
 Start
 Start
 Start
@@ -4721,7 +4722,6 @@ and
 and
 and
 and
-and
 and,
 and,
 and,
@@ -5344,7 +5344,6 @@ at
 at
 attack,
 attack?
-attacks
 attacks
 attacks
 attacks
@@ -7521,7 +7520,6 @@ for
 for
 for
 for
-for
 for,
 force.
 foregoing
@@ -7581,7 +7579,6 @@ free
 free
 free,
 freely
-from
 from
 from
 from
@@ -9273,7 +9270,6 @@ misconduct
 misconduct
 misconduct,
 misconduct;
-mistakes.
 mitigate
 modality
 model
@@ -9673,6 +9669,7 @@ notifying
 notifying
 notwithstanding
 now
+now.
 nuclear,
 number
 number,
@@ -10344,6 +10341,7 @@ on
 on-demand
 on-demand
 on-site
+onboarding
 one
 one
 one
@@ -11056,7 +11054,6 @@ our
 our
 our
 our
-our
 out
 out
 out
@@ -11608,6 +11605,7 @@ protect
 protect
 protected
 protected
+protection
 protection
 protection
 protection
@@ -12428,7 +12426,6 @@ seriousness
 seriousness
 serve
 serve
-server
 serverless
 serverless
 serverless
@@ -12515,7 +12512,6 @@ settlement
 settlement,
 settlement,
 settlements,
-setup
 setup
 setup
 setup
@@ -13051,7 +13047,6 @@ taken
 taken
 taking
 tangible
-targeted
 tariff
 tariff
 tariff
@@ -15170,7 +15165,6 @@ unwanted
 up
 up
 up
-up
 upcoming
 upcoming
 updated
@@ -15378,7 +15372,6 @@ we'll
 we'll
 web
 web
-webinar
 website
 websites
 websites,
@@ -15855,7 +15848,6 @@ you
 you
 you
 you,
-your
 your
 your
 your

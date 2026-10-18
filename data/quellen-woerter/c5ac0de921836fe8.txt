@@ -44,7 +44,6 @@
 (EU
 (EU
 (EU
-(Jefan)
 (LLMs)
 (LLMs)
 (LLMs)
@@ -61,6 +60,8 @@
 (≤272k)&#34;,&#34;category&#34;:&#34;llms&#34;,&#34;categories&#34;:[&#34;llms&#34;],&#34;provider&#34;:&#34;OpenAI&#34;,&#34;cloud&#34;:&#34;Azure&#34;,&#34;inputs&#34;:[&#34;Text&#34;],&#34;outputs&#34;:[&#34;Text&#34;],&#34;streaming&#34;:true,&#34;toolCalling&#34;:true,&#34;contextWindowRaw&#34;:&#34;272K&#34;,&#34;contextWindowNum&#34;:272000,&#34;reasoningEffort&#34;:[&#34;low&#34;,&#34;medium&#34;,&#34;high&#34;,&#34;xhigh&#34;],&#34;reasoningTokensUsage&#34;:&#34;completion_tokens_details&#34;,&#34;inputPrice&#34;:2.14,&#34;outputPrice&#34;:10.68,&#34;cachedInputPrice&#34;:null,&#34;plans&#34;:[&#34;Essential&#34;,&#34;Professional&#34;,&#34;Agentic&#34;]},{&#34;key&#34;:&#34;claude-haiku-4.5&#34;,&#34;displayModelName&#34;:&#34;Claude
 (≤272k)&#34;,&#34;category&#34;:&#34;llms&#34;,&#34;categories&#34;:[&#34;llms&#34;],&#34;provider&#34;:&#34;OpenAI&#34;,&#34;cloud&#34;:&#34;Azure&#34;,&#34;inputs&#34;:[&#34;Text&#34;],&#34;outputs&#34;:[&#34;Text&#34;],&#34;streaming&#34;:true,&#34;toolCalling&#34;:true,&#34;contextWindowRaw&#34;:&#34;272K&#34;,&#34;contextWindowNum&#34;:272000,&#34;reasoningEffort&#34;:[&#34;none&#34;,&#34;low&#34;,&#34;medium&#34;,&#34;high&#34;,&#34;xhigh&#34;],&#34;reasoningTokensUsage&#34;:&#34;completion_tokens_details&#34;,&#34;inputPrice&#34;:0.11,&#34;outputPrice&#34;:0.54,&#34;cachedInputPrice&#34;:null,&#34;plans&#34;:[&#34;Essential&#34;,&#34;Professional&#34;,&#34;Agentic&#34;]},{&#34;key&#34;:&#34;gpt-6.1-sol-long-context&#34;,&#34;displayModelName&#34;:&#34;GPT-6.1
 +
+-
+-
 -
 -
 -
@@ -138,7 +139,6 @@
 256K
 256K
 26B
-26B
 272K
 272K
 272k)&#34;,&#34;category&#34;:&#34;llms&#34;,&#34;categories&#34;:[&#34;llms&#34;],&#34;provider&#34;:&#34;OpenAI&#34;,&#34;cloud&#34;:&#34;Azure&#34;,&#34;inputs&#34;:[&#34;Text&#34;],&#34;outputs&#34;:[&#34;Text&#34;],&#34;streaming&#34;:true,&#34;toolCalling&#34;:true,&#34;contextWindowRaw&#34;:&#34;—&#34;,&#34;contextWindowNum&#34;:null,&#34;reasoningEffort&#34;:[&#34;none&#34;,&#34;low&#34;,&#34;medium&#34;,&#34;high&#34;,&#34;xhigh&#34;],&#34;reasoningTokensUsage&#34;:&#34;completion_tokens_details&#34;,&#34;inputPrice&#34;:0.22,&#34;outputPrice&#34;:0.81,&#34;cachedInputPrice&#34;:null,&#34;plans&#34;:[&#34;Essential&#34;,&#34;Professional&#34;,&#34;Agentic&#34;]},{&#34;key&#34;:&#34;gpt-6-luna&#34;,&#34;displayModelName&#34;:&#34;GPT-6
@@ -163,8 +163,8 @@
 3.8
 3.8
 35B
-38
-38
+39
+39
 4
 4
 4.5
@@ -195,7 +195,6 @@
 5.5
 5.5&#34;,&#34;category&#34;:&#34;llms&#34;,&#34;categories&#34;:[&#34;llms&#34;,&#34;vision&#34;],&#34;provider&#34;:&#34;Anthropic&#34;,&#34;cloud&#34;:&#34;GCP&#34;,&#34;inputs&#34;:[&#34;Text&#34;,&#34;Image&#34;],&#34;outputs&#34;:[&#34;Text&#34;],&#34;streaming&#34;:true,&#34;toolCalling&#34;:true,&#34;contextWindowRaw&#34;:&#34;—&#34;,&#34;contextWindowNum&#34;:null,&#34;reasoningEffort&#34;:[&#34;none&#34;,&#34;minimal&#34;,&#34;low&#34;,&#34;medium&#34;,&#34;high&#34;,&#34;xhigh&#34;,&#34;max&#34;],&#34;reasoningTokensUsage&#34;:&#34;none&#34;,&#34;inputPrice&#34;:2.97,&#34;outputPrice&#34;:14.85,&#34;cachedInputPrice&#34;:null,&#34;plans&#34;:[&#34;Essential&#34;,&#34;Professional&#34;,&#34;Agentic&#34;]},{&#34;key&#34;:&#34;gemini-3-flash&#34;,&#34;displayModelName&#34;:&#34;Gemini
 5.5&#34;,&#34;category&#34;:&#34;llms&#34;,&#34;categories&#34;:[&#34;llms&#34;,&#34;vision&#34;],&#34;provider&#34;:&#34;Anthropic&#34;,&#34;cloud&#34;:&#34;GCP&#34;,&#34;inputs&#34;:[&#34;Text&#34;,&#34;Image&#34;],&#34;outputs&#34;:[&#34;Text&#34;],&#34;streaming&#34;:true,&#34;toolCalling&#34;:true,&#34;contextWindowRaw&#34;:&#34;—&#34;,&#34;contextWindowNum&#34;:null,&#34;reasoningEffort&#34;:[&#34;none&#34;,&#34;minimal&#34;,&#34;low&#34;,&#34;medium&#34;,&#34;high&#34;,&#34;xhigh&#34;,&#34;max&#34;],&#34;reasoningTokensUsage&#34;:&#34;none&#34;,&#34;inputPrice&#34;:3.92,&#34;outputPrice&#34;:19.58,&#34;cachedInputPrice&#34;:null,&#34;plans&#34;:[&#34;Professional&#34;,&#34;Agentic&#34;]},{&#34;key&#34;:&#34;claude-sonnet-5&#34;,&#34;displayModelName&#34;:&#34;Claude
-A4B
 A4B
 AI
 AI
@@ -374,7 +373,6 @@ Description
 Deutsch
 Deutsch
 DiffusionGemma
-DiffusionGemma
 Effort
 Embeddings
 Embeddings
@@ -435,6 +433,7 @@ Flash&#34;,&#34;category&#34;:&#34;llms&#34;,&#34;categories&#34;:[&#34;llms&#34
 Foundation
 Foundation
 Foundation
+Free
 Function
 Function
 GCP
@@ -482,6 +481,7 @@ Gemma
 General-purpose
 Generation
 Generation
+Germany.
 Germany.
 Germany.
 Germany.
@@ -554,6 +554,8 @@ Hosted
 Hosted
 Hosted
 Hosted
+Hosted
+Image
 Image
 Image
 Image
@@ -577,6 +579,7 @@ Image,
 Image,
 Imprint
 In
+Independent
 Independent
 Index
 Input
@@ -762,6 +765,7 @@ Public
 Public
 Public
 Public
+Public
 Queued
 Quickstart
 Qwen
@@ -830,6 +834,7 @@ T-Cloud
 T-Cloud
 T-Cloud
 T-Cloud
+T-Cloud
 T-Cloud-hosted
 T-Systems
 Telekom
@@ -842,6 +847,8 @@ Telekom
 Telekom
 Telekom
 Telekom
+Telekom
+Telekom&#39;s
 Telekom&#39;s
 Telekom&#39;s
 Telekom&#39;s
@@ -855,6 +862,7 @@ Terra
 Test
 Test
 Test
+Test
 Text
 Text
 Text
@@ -915,6 +923,8 @@ Text
 Text
 Text
 Text
+Text
+Text,
 Text,
 Text,
 Text,
@@ -953,7 +963,6 @@ added
 agents,
 and
 and
-and
 are
 be
 but
@@ -965,7 +974,6 @@ calling
 calling.
 can
 carries
-chat
 completion_tokens_details
 completion_tokens_details
 completion_tokens_details
@@ -995,8 +1003,10 @@ content
 conversational
 count).
 current
+d3
+d3
 datasheet.
-decisions
+decisions,
 external
 filters
 filters.
@@ -1005,7 +1015,6 @@ for
 for
 for
 for
-free
 from
 from
 generation,
@@ -1041,6 +1050,7 @@ high
 high
 high
 high
+image
 in
 in
 in
@@ -1053,6 +1063,8 @@ in
 in
 in
 in
+in
+infrastructure
 infrastructure
 infrastructure
 infrastructure
@@ -1064,6 +1076,7 @@ infrastructure
 infrastructure
 input
 input
+input.
 invocations.
 is
 language
@@ -1099,6 +1112,7 @@ low
 low
 low
 low-latency,
+maker
 maker
 match
 max
@@ -1142,6 +1156,7 @@ minimal
 minimal
 minimal
 minimal
+model
 model
 model
 model
@@ -1211,12 +1226,14 @@ not
 not
 not
 now
+now
 number
 object:
 of
 of
 of
 of
+on
 on
 on
 on
@@ -1273,6 +1290,7 @@ reasoning.
 reasoning.
 reasoning_effort
 reasons,
+recommended
 regions).
 regions).
 regions).
@@ -1317,10 +1335,12 @@ sovereign
 sovereign
 sovereign
 sovereign
+sovereign
 streaming
 structured
 support
 text
+the
 the
 the
 the
@@ -1366,6 +1386,7 @@ version
 via
 vs
 will
+with
 xhigh
 xhigh
 xhigh
@@ -1381,6 +1402,11 @@ xhigh
 xhigh
 xhigh
 |
+—
+—
+—
+—
+—
 —
 —
 —
@@ -1567,5 +1593,7 @@ xhigh
 ✓
 ✓
 ✓
+✗
+✗
 ✗
 ✗

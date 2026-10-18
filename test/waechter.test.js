@@ -1,7 +1,7 @@
 "use strict";
 const { test } = require("node:test");
 const assert = require("node:assert/strict");
-const { ladeListe, rohName, berichtZeilen } = require("../waechter.js");
+const { ladeListe, rohName, rohBeleg, rohBelege, berichtZeilen } = require("../waechter.js");
 
 test("ladeListe: gültige Liste wird zu Quellen im Format von pruefeAlle", () => {
   const l = ladeListe({ quellen: [{ anbieter: "openai", art: "unterauftragnehmer", url: "https://openai.com/policies/sub-processor-list/" }] });
@@ -51,4 +51,58 @@ test("berichtZeilen: Seite mit kaum Wörtern (lädt erst im Browser) wird als D�
   assert.match(z, /DÜNN: notion unterauftragnehmer https:\/\/n\/ \(15 Wörter/);
   assert.doesNotMatch(z, /DÜNN: zoom/);
   assert.ok(z.indexOf("DÜNN") < z.indexOf("neu 1"));
+});
+
+test("ordner: Standard waechter/, Unterordner per WAECHTER_DIR, nichts außerhalb (bleibt gitignored)", () => {
+  const { ordner } = require("../waechter.js");
+  const path = require("path");
+  const basis = path.join(__dirname, "..", "waechter");
+  assert.equal(ordner({}), basis);
+  assert.equal(ordner({ WAECHTER_DIR: "waechter/pilot" }), path.join(basis, "pilot"));
+  assert.throws(() => ordner({ WAECHTER_DIR: "pilot" }), /waechter/);
+  assert.throws(() => ordner({ WAECHTER_DIR: "waechter/../docs" }), /waechter/);
+  assert.throws(() => ordner({ WAECHTER_DIR: "waechter-pilot" }), /waechter/);
+});
+
+test("rohBeleg: Notion-Seite mit Wörtern wird .txt, SHA-Anfang gleich dem Ledger-Hash", () => {
+  const crypto = require("crypto");
+  const q = { anbieter: "notion", art: "unterauftragnehmer", url: "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734" };
+  const woerter = ["AWS", "Google", "Subprocessors"];
+  Object.defineProperty(q, "woerter", { value: woerter, enumerable: false });
+  q.hash = crypto.createHash("sha256").update(woerter.join(" ")).digest("hex").slice(0, 16);
+  const b = rohBeleg(q);
+  assert.equal(b.name, "notion-unterauftragnehmer.txt");
+  assert.equal(b.bytes.toString("utf8"), "AWS Google Subprocessors");
+  const ledgerHash = crypto.createHash("sha256").update(woerter.join(" ")).digest("hex").slice(0, 16);
+  assert.equal(crypto.createHash("sha256").update(b.bytes).digest("hex").slice(0, 16), ledgerHash);
+});
+
+test("rohBeleg: andere Seiten und Notion ohne Wörter brauchen den Abruf (null)", () => {
+  assert.equal(rohBeleg({ anbieter: "slack", art: "avv", url: "https://slack.com/terms-of-service/data-processing", woerter: ["a"] }), null);
+  assert.equal(rohBeleg({ anbieter: "notion", art: "avv", url: "https://notion.notion.site/Data-Processing-Addendum-361b540101274b1fa7e16b90402b0d99" }), null);
+  // API gescheitert: Wörter stammen aus der HTML-Hülle, Hash ist der HTML-Hash, also kein .txt-Beleg.
+  const huelle = { anbieter: "notion", art: "avv", url: "https://notion.notion.site/Data-Processing-Addendum-361b540101274b1fa7e16b90402b0d99", hash: "99bf620a5fce29fb" };
+  Object.defineProperty(huelle, "woerter", { value: ["Notion", "JavaScript"], enumerable: false });
+  assert.equal(rohBeleg(huelle), null);
+});
+
+test("rohBelege: Notion mit Lesefolge → Wort-Beleg plus -lesefolge.txt (eine Zeile je Block)", () => {
+  const crypto = require("crypto");
+  const q = { anbieter: "notion", art: "unterauftragnehmer", url: "https://notion.notion.site/Notion-s-List-of-Subprocessors-268fa5bcfa0f46b6bc29436b21676734" };
+  const woerter = ["AWS", "Hosting", "Subprocessors"];
+  Object.defineProperty(q, "woerter", { value: woerter, enumerable: false });
+  Object.defineProperty(q, "lesefolge", { value: ["Subprocessors", "AWS | Hosting"], enumerable: false });
+  q.hash = crypto.createHash("sha256").update(woerter.join(" ")).digest("hex").slice(0, 16);
+  const b = rohBelege(q);
+  assert.deepEqual(b.map((x) => x.name), ["notion-unterauftragnehmer.txt", "notion-unterauftragnehmer-lesefolge.txt"]);
+  assert.equal(b[1].bytes.toString("utf8"), "Subprocessors\nAWS | Hosting\n");
+});
+
+test("rohBelege: ohne Lesefolge nur der Wort-Beleg; ohne API-Wörter leer (Abruf nötig)", () => {
+  const crypto = require("crypto");
+  const q = { anbieter: "notion", art: "avv", url: "https://notion.notion.site/Data-Processing-Addendum-361b540101274b1fa7e16b90402b0d99" };
+  Object.defineProperty(q, "woerter", { value: ["a"], enumerable: false });
+  q.hash = crypto.createHash("sha256").update("a").digest("hex").slice(0, 16);
+  assert.deepEqual(rohBelege(q).map((x) => x.name), ["notion-avv.txt"]);
+  assert.deepEqual(rohBelege({ anbieter: "slack", art: "avv", url: "https://slack.com/x" }), []);
 });

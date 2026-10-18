@@ -5,7 +5,7 @@
  * data/anbieter/*.json. Liste, Ledger, Wortstände und Rohkopien liegen in waechter/ (gitignored,
  * die Auswahl der beobachteten Dienste ist Strategie und nicht öffentlich).
  *
- * Aufruf: node waechter.js [--trocken] [--uebernehmen]
+ * Aufruf: [WAECHTER_DIR=waechter/pilot] node waechter.js [--trocken] [--uebernehmen]
  *   --trocken      nichts schreiben, nur Bericht
  *   --uebernehmen  "verändert" nach Handprüfung als neue Referenz übernehmen
  *   LAUF_DATUM=2026-10-15 setzt das Datum (Standard: heute)
@@ -20,7 +20,16 @@ const path = require("path");
 const crypto = require("crypto");
 const Q = require("./lib/quellen.js");
 
-const DIR = path.join(__dirname, "waechter");
+// WAECHTER_DIR=waechter/pilot trennt z. B. eine Pilot-Liste vom Hauptbestand; nur unter waechter/ (gitignored).
+function ordner(env) {
+  const basis = path.join(__dirname, "waechter");
+  if (!env.WAECHTER_DIR) return basis;
+  const ziel = path.resolve(__dirname, env.WAECHTER_DIR);
+  if (!ziel.startsWith(basis + path.sep)) throw new Error("WAECHTER_DIR muss unter waechter/ liegen: " + env.WAECHTER_DIR);
+  return ziel;
+}
+
+const DIR = ordner(process.env);
 const LISTE = path.join(DIR, "liste.json");
 const LEDGER = path.join(DIR, "ledger.json");
 const WORT_DIR = path.join(DIR, "woerter");
@@ -65,15 +74,41 @@ function berichtZeilen(o) {
   return z;
 }
 
+// Notion-Seiten: die HTML-Hülle belegt nichts (~15 Wörter). Kamen die Wörter aus der Seiten-API, ist ihr
+// Text genau das, worüber der Ledger-Hash läuft; der SHA-Anfang in SHA256SUMS ist dann gleich dem Ledger-Hash.
+// Die Wörter sind sortiert (so hasht quellen.js), Lesereihenfolge geht verloren. Sonst null: Abruf nötig.
+function rohBeleg(q) {
+  if (!Q.notionSeite(q.url) || !Array.isArray(q.woerter) || !q.woerter.length) return null;
+  const bytes = Buffer.from(q.woerter.join(" "), "utf8");
+  if (crypto.createHash("sha256").update(bytes).digest("hex").slice(0, 16) !== q.hash) return null;
+  return { name: `${q.anbieter}-${q.art}.txt`, bytes };
+}
+
+// Alle Belege ohne Abruf: der Wort-Beleg und, wenn die API die Seitenreihenfolge lieferte, der Text als
+// `-lesefolge.txt` (eine Zeile je Block, Tabellenzeilen mit " | "). Nur der liefert ein wörtliches Zitat.
+function rohBelege(q) {
+  const wort = rohBeleg(q);
+  if (!wort) return [];
+  const belege = [wort];
+  if (Array.isArray(q.lesefolge) && q.lesefolge.length) {
+    belege.push({ name: `${q.anbieter}-${q.art}-lesefolge.txt`, bytes: Buffer.from(q.lesefolge.join("\n") + "\n", "utf8") });
+  }
+  return belege;
+}
+
 async function sichereRoh(q, datum) {
-  const r = await fetch(q.url, { headers: { "user-agent": UA }, signal: AbortSignal.timeout(20000) });
-  const bytes = Buffer.from(await r.arrayBuffer());
+  let belege = rohBelege(q);
+  if (!belege.length) {
+    const r = await fetch(q.url, { headers: { "user-agent": UA }, signal: AbortSignal.timeout(20000) });
+    belege = [{ name: rohName(q, r.headers.get("content-type")), bytes: Buffer.from(await r.arrayBuffer()) }];
+  }
   const ziel = path.join(DIR, "roh", datum);
   fs.mkdirSync(ziel, { recursive: true });
-  const name = rohName(q, r.headers.get("content-type"));
-  fs.writeFileSync(path.join(ziel, name), bytes);
-  const sha = crypto.createHash("sha256").update(bytes).digest("hex");
-  fs.appendFileSync(path.join(ziel, "SHA256SUMS"), `${sha}  ${name}  ${q.url}\n`);
+  for (const { name, bytes } of belege) {
+    fs.writeFileSync(path.join(ziel, name), bytes);
+    const sha = crypto.createHash("sha256").update(bytes).digest("hex");
+    fs.appendFileSync(path.join(ziel, "SHA256SUMS"), `${sha}  ${name}  ${q.url}\n`);
+  }
 }
 
 async function main(argv) {
@@ -103,5 +138,5 @@ async function main(argv) {
   fs.writeFileSync(LEDGER, JSON.stringify(Q.fuehreLedger(ledger, o, uebernehmen, datum), null, 2) + "\n");
 }
 
-module.exports = { ladeListe, rohName, berichtZeilen };
+module.exports = { ladeListe, rohName, rohBeleg, rohBelege, berichtZeilen, ordner };
 if (require.main === module) main(process.argv.slice(2)).catch((e) => { console.error(e); process.exit(1); });

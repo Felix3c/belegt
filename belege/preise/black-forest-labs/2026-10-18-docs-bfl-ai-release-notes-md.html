@@ -1,0 +1,572 @@
+> ## Documentation Index
+> Fetch the complete documentation index at: https://docs.bfl.ml/llms.txt
+> Use this file to discover all available pages before exploring further.
+
+# Release Notes
+
+> Latest FLUX model releases, API changes, performance upgrades, and feature announcements from Black Forest Labs.
+
+<Update label="October 15, 2026">
+  ## FLUX 3 Image Klein
+
+  FLUX 3 Image Klein is a 5.6B parameter version of FLUX 3 Image with open weights. It supports the same features: text to image, image editing, multi reference, and bounding boxes. Run it through the API, download the weights from Hugging Face, or load it in ComfyUI.
+
+  ### Key Features
+
+  * **Same request as FLUX 3 Image:** `prompt`, `images`, `aspect_ratio`, `resolution`, and the bounding box format are unchanged. A FLUX 3 Image request runs on Klein by switching the endpoint
+  * **Two variants:** Klein (Distilled) runs 16 steps at CFG 1 for fast inference. Klein Base runs 50 steps at CFG 3.5 and is the model for fine-tuning and LoRA training
+  * **Open weights:** both variants are on Hugging Face under the FLUX Kommunity License and run on consumer GPUs, down to an RTX 3090
+  * **Up to 4K output:** `resolution` from `768sq` to `4k`, with up to ten reference images per request
+  * **LoRA training:** train on Klein Base with AI Toolkit (`arch: flux3`) or Diffusers. The trained LoRA also loads into Klein (Distilled)
+
+  ### Pricing
+
+  Per image, by `resolution`. Text to image and image editing cost the same.
+
+  | `resolution` | Price |
+  | - | - |
+  | `768sq` | \$0.008 |
+  | `1k` | \$0.009 |
+  | `1.5k` | \$0.011 |
+  | `2k` | \$0.014 |
+  | `4k` | \$0.036 |
+
+  ### Endpoint
+
+  [FLUX 3 Image Klein API reference](/api-reference/utility/generate-an-image-with-flux-3-klein)
+
+  ### Weights
+
+  * [FLUX 3 Image Klein](https://huggingface.co/black-forest-labs/flux-3-image-klein) (Distilled)
+  * [FLUX 3 Image Klein Base](https://huggingface.co/black-forest-labs/flux-3-image-klein-base)
+  * [ComfyUI weights](https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy) and the [ComfyUI Klein workflow](https://comfy.org/flux-3-image-klein)
+
+  Start with the [FLUX 3 Image Klein overview](/flux_3/flux3_image_klein).
+</Update>
+
+<Update label="October 1, 2026">
+  ## FLUX 3 Image
+
+  FLUX 3 Image gives you maximum control over every pixel. Generate an image
+  from a prompt, edit specific parts of an image, and combine up to ten references, all through
+  one endpoint.
+
+  ### Key Features
+
+  * **Bounding boxes in the prompt:** place every element of a layout, such as a headline, a face in a crowd, or each panel of a grid. Add a JSON list of boxes to the end of `prompt`; there is no separate parameter
+  * **Pixel-exact local edits:** mark the element to change and keep the rest of the image as it was. Recolor, replace, move, resize, or remove several elements in one request
+  * **Up to ten references:** name each image by its position in the prompt to restyle an image or combine references into a new composition
+  * **Up to 4K output:** `resolution` goes from `768sq` for fast previews to `4k` (about 16 megapixels), at 15 aspect ratios
+  * **One endpoint:** the prompt decides whether to generate or edit. There is no `mode` field
+
+  ### Pricing
+
+  Per image, by `resolution`:
+
+  | `resolution` | Price |
+  | - | - |
+  | `768sq` | \$0.041 |
+  | `1k` | \$0.048 |
+  | `2k` | \$0.100 |
+  | `4k` | \$0.607 |
+
+  ### Endpoint
+
+  [FLUX 3 Image API reference](/api-reference/utility/generate-an-image-with-flux-3)
+
+  Start with the [FLUX 3 Image overview](/flux_3/flux3_image_overview), see the box
+  format in [FLUX 3 Image Editing](/flux_3/flux3_image_layout), or follow the
+  [Bounding boxes](/flux_3/flux3_image_bounding_boxes) tutorial.
+</Update>
+
+<Update label="September 10, 2026">
+  ## FLUX 3 Video — 2K and 4K Output
+
+  `resolution` on `POST /v1/flux-3-video` now takes `qhd` and `uhd` alongside `hd` and `fhd`, so a 2K or 4K clip comes back from a single request instead of a generation followed by a separate upscale call.
+
+  ### Key Features
+
+  * **`qhd`** — 2560 × 1440 at 16:9
+  * **`uhd`** — 3840 × 2176 at 16:9
+  * **Same generation, larger canvas** — every class above `hd` runs the same generation and differs only in the canvas the video upsampler renders, so the shot does not change with the resolution you pick
+  * **Available on `draft_enhance` too** — commit a draft straight to 2K or 4K. Drafts themselves still render at `hd`
+
+  ### Pricing
+
+  Per second of output, in addition to the existing `hd` and `fhd` rates:
+
+  | Mode | `qhd` | `uhd` |
+  | - | - | - |
+  | Text to Video (`t2v`) | \$0.40/s | \$0.80/s |
+  | Image to Video (`i2v`) | \$0.40/s | \$0.80/s |
+  | Video Continuation (`v2v`) | \$0.65/s | \$0.95/s |
+
+  ### Endpoint
+
+  `POST /v1/flux-3-video`
+
+  Delivered dimensions for every aspect ratio are in the [FLUX 3 video documentation](/flux_3/flux3_video#resolution), and full rates on the [pricing page](/quick_start/pricing).
+</Update>
+
+<Update label="August 27, 2026">
+  ## Auto Top-Up for Credits
+
+  You can now recharge your credit balance automatically. Set a threshold and a target on the Credits page, and whenever your balance falls below the threshold, your saved card is charged to bring it back up to the target.
+
+  * **When balance falls below** — the balance that triggers a recharge, minimum \$5
+  * **Recharge balance to** — the balance after a recharge, at least \$10 above the threshold
+
+  Automatic recharges appear in your Purchase History with invoices like any other purchase. See [Credits & Billing](/account_management/credits_billing#auto-top-up) for setup.
+</Update>
+
+<Update label="August 20, 2026">
+  ## FLUX Video Upscale — 1080p, 2K, and 4K Video Super-Resolution
+
+  FLUX Video Upscale brings FLUX 3 powered super-resolution to video. Send a clip of up to 20 seconds and get it back at up to 4K, with the original audio track preserved.
+
+  ### Key Features
+
+  * **1.5×–3× upscaling** — `upscale_factor` scales relative to the source resolution; the output keeps the source aspect ratio, capped at about 14.4 megapixels per frame
+  * **Two modes** — `creativity: 0` (precise) preserves the source exactly and sharpens it, ideal for faces, products, and brand assets; `creativity: 1` (creative, default) restores and invents fine detail for generated footage, textures, and scenery
+  * **Optional `prompt`** — describe the clip's content to steer the enhanced detail in creative mode
+  * **Source limits** — up to 20 seconds, 50MB, and 2560 × 1440; rejected clips are not charged
+  * **Pay for delivered output only** — \$0.07 (precise) / \$0.10 (creative) per megapixel-second
+
+  ### Endpoint
+
+  `POST /v1/flux-tools/video-upscale-v1`
+
+  See the [FLUX Video Upscale documentation](/flux_tools/flux_video_upscale) to get started, and the [pricing page](/quick_start/pricing#flux-tools-video) for per-resolution rates.
+</Update>
+
+<Update label="August 17, 2026">
+  ## FLUX 3 — Video Continuation Duration Limit
+
+  The maximum duration for video continuation (`v2v`) requests is now **15 seconds**. Text-to-video, image-to-video, and draft enhance are unchanged at up to 20 seconds.
+</Update>
+
+<Update label="August 11, 2026">
+  ## FLUX MCP Server — Video Generation
+
+  The [FLUX MCP server](/api_integration/mcp_integration) now generates video with FLUX 3, directly from Claude, Cursor, Codex, Windsurf, or any MCP-compatible client.
+
+  ### Key Features
+
+  * **`generate_video`** — Text to video, image to video from keyframes, and video continuation, with a prompt plus optional `duration` (5–20 seconds), `aspect_ratio`, and `resolution`. Up to 4 clips per call, audio on by default
+  * **`enhance_video`** — Re-render a finished draft at full quality with the same composition, seed, and prompt plan: the commit step of the draft-then-enhance loop
+
+  See the [MCP integration documentation](/api_integration/mcp_integration) for setup and the full tool reference.
+</Update>
+
+<Update label="August 7, 2026">
+  ## FLUX 3 Video Agent Skills
+
+  Six new Agent Skills teach coding agents like Claude Code, Cursor, and Windsurf how to direct FLUX 3 video generations.
+
+  * **`flux-3-video`** — Routes a request to the skills it needs
+  * **`flux-3-prompt-doctor`** — Catches the decisions that change the payload before anything is generated
+  * **`flux-3-cinematic-inserts`** — Shot craft for text-to-video
+  * **`flux-3-keyframes-continuation`** — Building from supplied images or extending an existing clip
+  * **`flux-3-audio-dialogue`** — Ambience, effects, and speech
+  * **`flux-3-generate`** — Submitting, polling, drafts, and downloads
+
+  Install from the [black-forest-labs/skills](https://github.com/black-forest-labs/skills) repository — see the [Agent Skills documentation](/api_integration/mcp_integration#agent-skills) for per-client instructions.
+</Update>
+
+<Update label="August 4, 2026">
+  ## FLUX 3 — Video With Synchronized Audio
+
+  FLUX 3 is our first video model: one model trained across image, video, and audio, generating video with synchronized sound. Available now as a preview.
+
+  ### Key Features
+
+  * **Up to 20 seconds at FHD** (1920 × 1088 for 16:9), 24 fps, in a single request
+  * **Synchronized audio** — multilingual speech with strong lipsync, plus effects and ambience, generated with the frames
+  * **Four modes on one endpoint** — text to video (`t2v`), image to video with 1–10 pinned keyframes (`i2v`), video continuation (`v2v`), and draft enhance (`draft_enhance`)
+  * **Multiple scenes and camera angles in one generation**, with accurate in-scene text and typography
+
+  ### Endpoint
+
+  `POST /v1/flux-3-video`
+
+  The final polling response includes `cost`, the settled cost in credits for the request.
+
+  See the [FLUX 3 documentation](/flux_3/flux3_overview) to get started, and the [pricing page](/quick_start/pricing) for per-second rates. Video editing and Omni Reference with images and videos will be available soon.
+</Update>
+
+<Update label="July 23, 2026">
+  ## Announcing FLUX 3
+
+  FLUX 3 is our new multimodal foundation model: one model jointly trained across image, video, and audio, built toward real-world visual intelligence. Read the [announcement](https://bfl.ai/blog/flux-3).
+
+  ### Capabilities
+
+  * **Video with native audio** — up to 20 seconds per generation, from text, images, or a reference clip, with multilingual dialogue
+  * **Keyframe control** — pin images at chosen moments for controlled transitions
+  * **Broad stylistic range** — from candid footage to animation and cinematics, with strong typography and animated designs
+  * **Image synthesis and editing** — from the same underlying model
+
+  ### Rollout
+
+  Capabilities become available in phases, each after an early access period: video generation and editing first, action prediction with selected partners, image synthesis and editing, and open-weight access to a multimodal backbone.
+</Update>
+
+<Update label="July 17, 2026">
+  ## FLUX Virtual Try-On v2 — Sharper Face Preservation
+
+  `vto-v2` is a new version of FLUX Virtual Try-On focused on keeping the person's identity intact, with additional gains in garment fidelity.
+
+  ### Key Features
+
+  * **Improved face preservation** — markedly better retention of the model's identity and facial features in the try-on result
+  * **Better garment detail** — minor improvements to garment textures, prints, and trims
+  * **Higher-resolution output** — inputs up to 4 Megapixels are used as-is, and the result follows the model image's resolution (up from 2 Megapixels in `vto-v1`)
+  * **Drop-in migration** — identical request and response format to `vto-v1`; just swap the endpoint path
+
+  ### Endpoint
+
+  `POST /v1/flux-tools/vto-v2`
+
+  `vto-v2` is now the recommended version. `vto-v1` remains available, and we recommend migrating to v2 — see the [FLUX Virtual Try-On documentation](/flux_tools/flux_vto#versions).
+</Update>
+
+<Update label="June 25, 2026">
+  ## FLUX Deblur — Sharpen Blurry Images
+
+  A new FLUX Tools endpoint that takes a single blurry image and returns a sharper version of the same scene — no prompt, no mask.
+
+  ### Key Features
+
+  * **Faithful restoration** — Reconstructs fine detail while preserving character identity, colors, objects, lighting, and composition
+  * **No prompt required** — Send the image; the model sharpens the whole frame automatically
+  * **Up to 4MP input** — As base64 or an image URL
+  * **Built for volume** — Low-latency and low-cost, suited to interactive and high-throughput workflows
+
+  ### Endpoint
+
+  `POST /v1/flux-tools/deblur-v1`
+
+  Get started in the [FLUX Deblur documentation](/flux_tools/flux_deblur).
+</Update>
+
+<Update label="June 15, 2026">
+  ## Moderation Responses Now Include Reasons
+
+  When a request or result is moderated, the polling response's `details` field now includes a `Moderation Reasons` array naming the categories that triggered the filter (for example `Violence` or `Sexual Content`). Use it to adjust the request or surface a message to your users.
+
+  This applies to both `Request Moderated` (input flagged at submission) and `Content Moderated` (generated output flagged). See the [Errors reference](/api_integration/errors#moderation-responses) for the response format.
+</Update>
+
+<Update label="June 9, 2026">
+  ## FLUX Outpainting — New Fast Mode
+
+  FLUX Outpainting now supports a `mode` parameter that trades quality for speed.
+
+  ### Key Features
+
+  * **`mode: "fast"`** — Significantly faster extension, well-suited for landscapes, backgrounds, textures, and products. Typically lower cost.
+  * **`mode: "high"` (default)** — Unchanged highest-fidelity path; recommended when fine detail, prompt adherence, or consistency with complex source content matters.
+  * **Same contract** — Both modes share the same request fields and response format; omit `mode` to keep the existing `high` behavior.
+
+  ### Endpoint
+
+  `POST /v1/flux-tools/outpainting-v1`
+
+  See [Choosing a mode](/flux_tools/flux_outpainting#choosing-a-mode) in the FLUX Outpainting documentation.
+</Update>
+
+<Update label="May 28, 2026">
+  ## FLUX Virtual Try-On — See Any Garment On Any Person
+
+  A new FLUX Tools endpoint that applies clothing to a person image while preserving their face and pose — built for interactive, low-latency applications.
+
+  ### Key Features
+
+  * **Flexible references** — Single garments, multi-garment outfits, and model-to-model references
+  * **Packshot or on-model** — Accepts both flat-lay garment images and on-model imagery
+  * **Low latency** — Optimized for fitting rooms, social filters, and interactive experiences
+  * **Up to 2MP input** — Larger inputs auto-downscale to \~1MP
+
+  ### Endpoint
+
+  `POST /v1/flux-tools/vto-v1`
+
+  Get started in the [FLUX Virtual Try-On documentation](/flux_tools/flux_vto), or try the [public demo](https://flux-tools.bfl.ai/virtual-try-on).
+</Update>
+
+<Update label="May 21, 2026">
+  ## FLUX Erase — Remove Anything, Leave No Trace
+
+  A new FLUX Tools endpoint for clean, prompt-free object removal. Provide an image and a binary mask; the model removes the masked content and reconstructs the scene coherently.
+
+  ### Key Features
+
+  * **Broad removal scope** — Objects, people, text, watermarks, and complex compositions
+  * **Coherent reconstruction** — Automatically matches lighting, texture, and background
+  * **Optional edge expansion** — Cleaner results on soft-edged subjects
+  * **No prompt required** — Just an image and a binary mask
+
+  On a held-out benchmark of 198 object-removal images, FLUX Erase matches or outperforms frontier alternatives at substantially lower cost.
+
+  ### Endpoint
+
+  `POST /v1/flux-tools/erase-v1`
+
+  Get started in the [FLUX Erase documentation](https://docs.bfl.ai/flux_tools/flux_erase), try the [public demo](https://flux-tools.bfl.ai/erase), or read the [announcement](https://bfl.ai/blog/flux-erase-remove-anything-leave-no-trace).
+</Update>
+
+<Update label="May 14, 2026">
+  ## FLUX Outpainting — Extend Any Image in Any Direction
+
+  A new FLUX Tools endpoint that extends an image beyond its borders in a single call — no prompt required.
+
+  ### Key Features
+
+  * **Natural scene extension** — Carries lighting, texture, depth, and composition past the original frame
+  * **Flexible canvas control** — Direct width / height and reference placement via `reference_offset_x` / `reference_offset_y`
+  * **Up to 4MP output** — Production-ready resolutions for banners, social formats, and aspect-ratio changes
+  * **No prompt needed** — The model continues the existing scene on its own
+
+  ### Endpoint
+
+  `POST /v1/flux-tools/outpainting-v1`
+
+  Get started in the [FLUX Outpainting documentation](/flux_tools/flux_outpainting), try the [public demo](https://flux-tools.bfl.ai/outpainting), or read the [announcement](https://bfl.ai/blog/outpainting-extend-any-image-in-any-direction).
+</Update>
+
+<Update label="May 11, 2026">
+  ## FLUX MCP Server
+
+  The official FLUX MCP server is live at `https://mcp.bfl.ai` — generate, edit, vary, and browse FLUX images directly inside Claude, Cursor, Codex, Windsurf, or any MCP-compatible client.
+
+  ### Key Features
+
+  * **OAuth sign-in** — Connect with your BFL account; no API keys to paste into the conversation
+  * **All FLUX.2 models** — Pro, Max, Klein 4B/9B, and Flex, plus the FLUX Tools
+  * **Full creative loop** — Generate options in parallel, edit attached images through prompts, branch into variations from any result, and browse your generation history
+
+  Get started in the [MCP integration documentation](/api_integration/mcp_integration) or see the [GitHub repository](https://github.com/black-forest-labs/flux-mcp).
+</Update>
+
+<Update label="April 23, 2026">
+  ## FLUX.2 LoRA Inference — Public Beta
+
+  Run your own trained LoRAs on FLUX.2 \[klein] through the BFL API. Train with the tools of your choice (AI-Toolkit, Diffusers, …), upload once in the Dashboard, then serve inference through a managed `-finetuned` endpoint — no GPUs to provision. This is a new self-serve path, separate from the FLUX.1-era Finetuning API deprecated in October 2025.
+
+  ### Key Features
+
+  * **Bring your own LoRA** — Upload trained LoRAs to the Dashboard, where they appear as Finetunes
+  * **Same request shape** — Each `-finetuned` endpoint matches its base endpoint, with two added parameters: `finetune_id` and `finetune_strength`
+  * **Six endpoints** — Covering FLUX.2 \[klein] 4B, 9B, and Base variants in FP8, plus a BF16 option
+  * **Base-endpoint pricing during beta** — Fine-tuned requests are billed at the same rate as the underlying base endpoint
+
+  ### Endpoints
+
+  `POST /v1/{base_model}-finetuned`, e.g. `/v1/flux-2-klein-9b-kv-finetuned`
+
+  See the [LoRA inference guide](/flux_2/flux2_lora_inference) for the full endpoint list and a worked example.
+</Update>
+
+<Update label="March 3, 2026">
+  ## FLUX.2 \[pro] Speed Upgrade & Preview Endpoint
+
+  FLUX.2 \[pro] is now approximately **2x faster** across both text-to-image and image editing — with no quality loss and no price change.
+
+  * **\~2x faster generation** — Across text-to-image and image editing workloads
+  * **No quality loss** — On par with the original across all benchmarks
+  * **No price change** — Faster generation at the same price
+  * **Same API contract** — Drop-in upgrade, no code changes required
+
+  ### New: `flux-2-pro-preview` Endpoint
+
+  We're introducing `flux-2-pro-preview`, where our latest FLUX.2 \[pro] improvements land first. This speed upgrade is available now on `flux-2-pro-preview`, and the endpoint will continue to be updated as we ship new capabilities.
+
+  The existing `flux-2-pro` endpoint remains **unchanged** as a fixed snapshot for workflows that require reproducibility.
+
+  Learn more in the [Preview Endpoint documentation](/flux_2/flux2_overview#preview-endpoints).
+</Update>
+
+<Update label="February 17, 2026">
+  ## Webhook Payloads Now Match Polling Responses
+
+  Webhook payloads are now consistent with polling responses.
+
+  ### What Changed
+
+  * Status field now returns `Ready` instead of `SUCCESS`
+
+  ### Action Required
+
+  If your webhook handler checks for `SUCCESS` status, update it to check for `Ready` instead.
+</Update>
+
+<Update label="January 29, 2026">
+  ## FLUX.2 \[flex] Performance Update
+
+  FLUX.2 \[flex] is now up to **3x faster** while maintaining the same quality. Typography rendering, prompt adherence, and fine-grained control remain unchanged.
+</Update>
+
+<Update label="January 23, 2026">
+  ## Agent Skills for FLUX
+
+  FLUX Agent Skills teach coding agents like Claude Code, Cursor, and Windsurf how to write FLUX API code and direct FLUX generations — prompting patterns, model selection, async generation, rate-limit handling, and webhook verification.
+
+  Install from the [black-forest-labs/skills](https://github.com/black-forest-labs/skills) repository; the skills follow the open [agentskills.io](https://agentskills.io) specification. See the [Agent Skills documentation](/api_integration/mcp_integration#agent-skills) to get started.
+</Update>
+
+<Update label="January 15, 2026">
+  ## FLUX.2 \[klein] Launch
+
+  We're excited to announce **FLUX.2 \[klein]** — our fastest model family with **sub-second inference**.
+
+  ### Key Features
+
+  * **Sub-second generation** — Real-time image generation for interactive applications
+  * **Two variants** — 4B from (\$0.014 / image) and 9B from (\$0.015 / image) models
+  * **Runs on consumer hardware** — As little as 13GB VRAM required
+  * **Open weights available** — 4B under Apache 2.0, 9B under FLUX Non-Commercial License
+
+  ### API Endpoints
+
+  * `flux-2-klein-4b` — Fastest, ideal for high-volume and local deployment
+  * `flux-2-klein-9b` — Balanced quality and speed with 8B Qwen3 text embedder
+
+  Download open weights from [Hugging Face](https://huggingface.co/black-forest-labs) or get started with the [API documentation](/flux_2/flux2_text_to_image).
+</Update>
+
+<Update label="January 8, 2026">
+  ## Credit Transfer
+
+  You can now **transfer credits between organizations** directly from the dashboard.
+
+  * Navigate to your organization's Credits page
+  * Click "Transfer Credits" to move credits to another organization you own
+  * Credits transfer instantly with full audit logging
+</Update>
+
+<Update label="December 16, 2025">
+  ## FLUX.2 \[max] Launch
+
+  Introducing **FLUX.2 \[max]** — our highest quality model with groundbreaking capabilities.
+
+  ### Key Features
+
+  * **Maximum quality** — Highest editing consistency, strongest prompt following, and faithful style representation
+  * **Grounding search** — Generate images grounded in real-time information from the web
+  * **Multi-reference editing** — Combine up to 10 input images while maintaining identity
+  * **Vast world knowledge** — Create visuals of current events, real-time weather, or historical moments
+
+  ### Grounding Search Examples
+
+  FLUX.2 \[max] can search the web to visualize:
+
+  * Yesterday's football scores
+  * Real-time weather in any city
+  * Recent news events
+  * Historical moments from specific dates and locations
+
+  Try it in the [playground](https://playground.bfl.ai) or via the [API](/flux_2/flux2_text_to_image).
+</Update>
+
+<Update label="December 15, 2025">
+  ## Organizations & Projects
+
+  We've introduced a new way to organize your teams and work with **Organizations** and **Projects**.
+
+  ### What's New
+
+  * **Organizations** - Create organizations to group your projects and team members. Each organization has its own billing, credits, and member management.
+  * **Projects** - Organize your work into projects with dedicated API keys, usage tracking, and spending limits.
+  * **Role-Based Access Control** - Invite team members with granular permissions: Administrator, Developer, Billing Manager, or Viewer.
+  * **Project-Scoped API Keys** - API keys are now tied to specific projects for better security and tracking.
+  * **Spending Limits** - Set daily, weekly, and monthly credit limits per project.
+  * **Activity Logging** - Full audit trail of all organizational activity.
+
+  ### For Existing Users
+
+  Your account has been automatically migrated:
+
+  * A "Default" organization was created with your existing credits
+  * A "Default" project contains your existing API keys
+  * **Your API keys continue to work** - no changes required
+
+  Learn more in our [Organizations & Projects documentation](/account_management/organizations_projects).
+</Update>
+
+<Update label="November 25, 2025">
+  ## FLUX.2 \[pro] and \[flex] Launch
+
+  Introducing the next generation of FLUX models — **FLUX.2 \[pro]** and **FLUX.2 \[flex]**.
+
+  ### FLUX.2 \[pro]
+
+  Production-grade image generation at scale.
+
+  * **Top performance at affordable price** — High quality generation from \$0.03/MP
+  * **Fast turnaround** — Optimized for high-volume applications
+  * **Multi-reference editing** — Combine up to 8 input images (10 in playground)
+  * **Photorealistic output** — Closes the gap between generated and real imagery
+
+  ### FLUX.2 \[flex]
+
+  Fine-grained control for precise results.
+
+  * **Specialized for typography** — Best-in-class text rendering
+  * **Adjustable parameters** — Control inference steps (up to 50) and guidance scale (1.5–10)
+  * **Detail preservation** — Maintains small details in complex scenes
+  * **Production workflows** — Ideal for designs requiring exact specifications
+
+  ### Key Capabilities
+
+  Both models support:
+
+  * **Exact color control** — Specify brand colors via hex codes with precision matching
+  * **Structured prompting** — JSON-style prompts for automated workflows
+  * **Multi-reference editing** — Character consistency, style transfer, and pose guidance
+  * **Up to 4MP output** — High-resolution generation at any aspect ratio
+
+  Get started with the [API documentation](/flux_2/flux2_text_to_image) or try them in the [playground](https://playground.bfl.ai).
+</Update>
+
+<Update label="October 31, 2025">
+  ## API Deprecations - Now In Effect
+
+  As of today, the Flux Pro 1.0 endpoints (`flux-pro-1.0`, `flux-pro-1.0-depth`, `flux-pro-1.0-canny`) and the Finetuning API are officially deprecated. See details in the October 3 announcement below.
+</Update>
+
+<Update label="October 3, 2025">
+  ## API Deprecations
+
+  ### October 31, 2025 - Flux Pro 1.0 Endpoints
+
+  The following endpoints will be deprecated. Migrate to [flux-pro-1.1](https://docs.bfl.ai/flux_models/flux_1_1_pro#using-flux1-1-%5Bpro%5D-api-for-text-to-image-generation) or [flux-kontext-pro](https://docs.bfl.ai/kontext/kontext_text_to_image#using-flux-1-kontext-api-for-text-to-image-generation).
+
+  **Deprecated endpoints:**
+
+  * `flux-pro-1.0`
+  * `flux-pro-1.0-depth`
+  * `flux-pro-1.0-canny`
+
+  **Migration targets:**
+
+  * [FLUX1.1 \[pro\] documentation](https://docs.bfl.ai/flux_models/flux_1_1_pro)
+  * [FLUX.1 Kontext \[pro\] documentation](https://docs.bfl.ai/kontext/kontext_text_to_image)
+
+  ### October 31, 2025 - Finetuning API
+
+  The finetuning API will be deprecated, including all finetuning-related endpoints.
+
+  **Deprecated endpoints:**
+
+  * `/v1/finetune`
+  * `flux-pro-finetuned`
+  * `flux-pro-1.1-ultra-finetuned`
+  * `flux-pro-1.0-depth-finetuned`
+  * `flux-pro-1.0-canny-finetuned`
+  * `flux-pro-1.0-fill-finetuned`
+
+  No migration path available. Finetuning functionality will be discontinued.
+</Update>
+
+
+This documentation is built and hosted on [Mintlify](https://mintlify.com), a developer documentation platform.

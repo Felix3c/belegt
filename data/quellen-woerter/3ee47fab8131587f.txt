@@ -2,6 +2,7 @@ $0.0020
 $0.0028
 $0.0036
 $0.0040
+$0.0060
 $0.01
 $0.01
 $0.01
@@ -13,14 +14,18 @@ $0.04
 $0.05
 $0.05
 $0.05
+$0.05
+$0.05
 $0.07
 $0.07
 $0.07
 $0.07
 $0.07
-$0.10
-$0.10
-$0.10
+$0.08
+$0.08
+$0.08
+$0.08
+$0.09
 $0.10
 $0.10
 $0.10
@@ -28,7 +33,6 @@ $0.10
 $0.10
 $0.11
 $0.14
-$0.14
 $0.15
 $0.15
 $0.17
@@ -36,7 +40,6 @@ $0.17
 $0.17
 $0.17
 $0.18
-$0.18
 $0.20
 $0.20
 $0.20
@@ -46,15 +49,13 @@ $0.20
 $0.20
 $0.20
 $0.20
-$0.23
 $0.25
 $0.25
 $0.28
 $0.28
-$0.30
 $0.30
 $0.35
-$0.39
+$0.36
 $0.40
 $0.43
 $0.50
@@ -68,6 +69,8 @@ $0.50
 $0.50
 $0.50
 $0.50
+$0.55
+$0.55
 $0.68
 $0.75
 $0.75
@@ -77,7 +80,6 @@ $0.87
 $1.00
 $1.00
 $1.06
-$1.15
 $1.20
 $1.25
 $1.50
@@ -97,7 +99,6 @@ $12.00
 $12.75
 $14.00
 $14.00
-$15.00
 $15.00
 $2.00
 $2.00
@@ -119,8 +120,7 @@ $25.00
 $25.00
 $25.00
 $25.00
-$3.00
-$3.36
+$3.38
 $3.75
 $3.75
 $3.75
@@ -147,6 +147,8 @@ $9.00
 &quot;Abuse
 (
 (0731)
+(1017)
+(1017)
 (15B
 (42B
 (49B
@@ -347,8 +349,8 @@ $9.00
 0731,
 0813
 0813
-1,178
-1,206
+1,194
+1,222
 1.02T
 1.05M
 1.05M-token
@@ -581,11 +583,13 @@ $9.00
 1M-token
 1M-token
 1M-token
+1M-token
 1T-parameter
 2.0
 2.4
 2.4T-parameter
 2.8
+2026
 2026
 2026
 2026
@@ -621,8 +625,6 @@ $9.00
 4.6
 4.6
 4.6
-4.6
-4.6
 4.7
 4.7
 4.7
@@ -653,7 +655,7 @@ $9.00
 500K-token
 524K
 552B
-607
+609
 6B
 700+
 700+
@@ -690,7 +692,6 @@ API
 API
 API
 API
-AWS
 AWS
 AWS
 AWS
@@ -768,14 +769,11 @@ Anthropic
 Anthropic
 Anthropic
 Anthropic
-Anthropic
-Anthropic
 Anthropic&#x27;s
 Anthropic&#x27;s
 Anthropic&#x27;s
 Anthropic&#x27;s
 Anthropic&#x27;s
-Anthropic,
 Anthropic,
 Anthropic,
 Anthropic,
@@ -867,14 +865,12 @@ Azure
 Azure
 Azure
 Azure
-Azure
 Baidu
 Baidu
 Baidu
 Baidu
 Baidu
 Because
-Bedrock
 Bedrock
 Bedrock
 Bedrock
@@ -915,7 +911,7 @@ Cerebras
 Changelog
 Chat
 Chat
-China
+China,
 China,
 Claude
 Claude
@@ -938,9 +934,6 @@ Claude
 Claude
 Claude
 Claude
-Claude
-Claude
-Cloud
 Cloud
 Cloud
 Cloud
@@ -1003,6 +996,7 @@ DeepInfra
 DeepInfra
 DeepInfra
 DeepInfra
+DeepInfra
 DeepSeek
 DeepSeek
 DeepSeek
@@ -1020,6 +1014,10 @@ DeepSeek
 DeepSeek
 DeepSeek
 DeepSeek
+DeepSeek
+DeepSeek
+DeepSeek
+DeepSeek&#x27;s
 DeepSeek&#x27;s
 Demo
 Developers
@@ -1120,7 +1118,18 @@ EU
 EU
 EU
 EU
-EU,
+EU
+EU
+EU
+EU
+EU
+EU
+EU
+EU
+EU
+EU
+EU
+EU
 EU,
 EU,
 EU,
@@ -1182,6 +1191,9 @@ Fireworks
 Fireworks
 Fireworks
 Fireworks
+Fireworks
+Flash
+Flash
 Flash
 Flash
 Flash
@@ -1202,6 +1214,7 @@ Flash,
 Flash,
 Flash-Next
 Flash-Next
+Flash:
 For
 Frequently
 GDPR
@@ -1257,7 +1270,6 @@ Geodd
 Geodd
 Get
 Get
-Google
 Google
 Google
 Google
@@ -1341,6 +1353,16 @@ Luna
 Luna
 Luna,
 Luna,
+Lyceum
+Lyceum
+Lyceum
+Lyceum
+Lyceum
+Lyceum
+Lyceum
+Lyceum
+Lyceum
+Lyceum
 MCP
 MCP
 MCP
@@ -1383,6 +1405,7 @@ MoE
 MoE
 MoE
 MoE
+MoE
 Modal
 Modal
 Modal
@@ -1394,6 +1417,7 @@ Models
 Moonshot
 Moonshot
 Moonshot:
+Morph
 Morph
 Morph
 Morph
@@ -1424,7 +1448,7 @@ Multi
 Multi
 Multi
 Multi
-Multi
+Multi,
 Multi,
 Multi,
 Multi,
@@ -1524,6 +1548,7 @@ Novita
 Novita
 Novita
 Novita
+October
 On
 On
 On
@@ -1815,8 +1840,6 @@ Sonnet
 Sonnet
 Sonnet
 Sonnet
-Sonnet
-Sonnet
 Sort
 Sort:
 Sovereign
@@ -1842,6 +1865,7 @@ Tencent
 Tencent
 Tencent
 Tencent
+TensorX
 TensorX
 TensorX
 TensorX
@@ -2016,6 +2040,7 @@ US
 US
 US
 US
+US
 US,
 US,
 US,
@@ -2060,6 +2085,9 @@ V4
 V4
 V4
 V4
+V4.1
+V4.1
+V4.1
 V4.1
 V4.1
 Vercel
@@ -2228,6 +2256,7 @@ a
 a
 a
 a
+a
 abuse
 abuse
 abuse
@@ -2263,7 +2292,6 @@ account?
 across
 across
 across
-across
 activating
 active
 active
@@ -2278,6 +2306,7 @@ adaptive
 adjustable
 advanced
 advanced
+agent
 agent
 agent
 agent
@@ -2433,6 +2462,7 @@ and
 answer
 answer
 answers
+answers.
 any
 any
 any
@@ -2450,6 +2480,7 @@ as
 as
 as
 asked
+at
 at
 at
 at
@@ -2492,7 +2523,6 @@ built-in
 bulk
 but
 but
-by
 by
 by
 by
@@ -2671,7 +2701,7 @@ coding
 coding
 coding
 coding
-coding,
+coding
 coding,
 coding,
 coding,
@@ -2696,7 +2726,6 @@ complex
 complex
 complex
 compliance
-computer
 computer
 computer
 configurable
@@ -2778,6 +2807,7 @@ context
 context
 context
 context
+context,
 context,
 context,
 context,
@@ -3071,7 +3101,6 @@ frontier
 frontier
 frontier-level
 full
-full
 gains
 gateway
 gateway
@@ -3246,6 +3275,7 @@ is
 is
 is
 is
+is
 it
 it
 it
@@ -3300,7 +3330,6 @@ llms.txt
 long
 long
 long,
-long-context
 long-horizon
 long-horizon
 long-running
@@ -3468,6 +3497,7 @@ multimodal
 multimodal
 multimodal
 multimodal
+multimodal
 my
 name,
 name,
@@ -3496,6 +3526,7 @@ not
 not
 nothing
 nothing.
+now
 observability
 of
 of
@@ -3813,7 +3844,6 @@ reasoning,
 reasoning.
 reasoning.
 reasoning.
-reasoning.
 region
 region,
 region,
@@ -3922,6 +3952,7 @@ runs
 runs
 same
 same
+same
 sample
 scientific
 scoped
@@ -3951,6 +3982,7 @@ service
 setup
 short
 short
+shorter
 shown
 side
 side
@@ -3985,6 +4017,7 @@ step
 stories
 string
 strong
+stronger
 structured
 such
 summaries,
@@ -4015,6 +4048,7 @@ that
 that
 that
 that
+the
 the
 the
 the
@@ -4102,6 +4136,7 @@ to
 to
 to
 to
+to
 toggleable
 token
 token
@@ -4161,12 +4196,11 @@ untick
 up
 up
 up
-upgrade
+update
 use
 use
 use
 use
-use,
 use,
 use,
 use,
@@ -4217,6 +4251,7 @@ while
 while
 while
 while
+while
 window
 window
 window
@@ -4303,9 +4338,11 @@ with
 with
 with
 with
+with
 without
 without
 without
+work
 work
 work
 work
@@ -4326,6 +4363,7 @@ workflows,
 workflows.
 workhorse
 works
+writing
 writing
 xAI
 xAI
@@ -4389,6 +4427,16 @@ zero
 zero-data-retention
 |
 ©
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
 ·
 ·
 ·

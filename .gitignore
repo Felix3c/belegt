@@ -20,6 +20,10 @@ outreach/gespraeche/07-marxen*.md
 outreach/gespraeche/08-rosenthal*.md
 outreach/gespraeche/GESPRAECHE-2-5.md
 outreach/gespraeche/09-*.md
+outreach/gespraeche/10-*.md
+outreach/gespraeche/11-*.md
+outreach/gespraeche/13-*.md
+outreach/gespraeche/14-*.md
 # Interne Entwürfe und Recherchelisten (Aufräumen V6, 09.10.2026)
 ANGEBOT-ENTWURF.md
 ENTWURF-FESTPREIS-ABSATZ.md
@@ -46,3 +50,4 @@ waechter/
 outreach/gespraeche/*.bak*
 # Verkleinerte Mail-Anhänge zu BV3 (Hilfsdateien, keine Belege), seit 16.10.2026
 belege/entkien-2026-10-15/*-klein.*
+outreach/gespraeche/12-haftung-recherche-2026-10-18.md

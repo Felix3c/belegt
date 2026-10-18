@@ -1,0 +1,5 @@
+Abruf 2026-10-18T00:14:19Z, Quelle https://openrouter.ai/api/v1/models/<id>/endpoints, nur Nebius-Zeilen, Preise USD je 1M Token (In/Out)
+z-ai/glm-5.1 nebius/fp8 1.4 4.4 status 0 kontext 202752
+openai/gpt-oss-120b nebius/fp4 0.15 0.6 status 0 kontext 131072
+qwen/qwen3-235b-a22b-2507 nebius/fp8 0.2 0.6 status -2 kontext 262144
+meta-llama/llama-3.3-70b-instruct : kein Nebius-Endpunkt (von 11 Endpunkten)

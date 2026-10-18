@@ -1,0 +1,5 @@
+Abruf 2026-10-18T00:36:55Z über https://huggingface.co/api/models/Aleph-Alpha/<id> (sha = Git-Revision der Modellkarte)
+Kolibri-1 sha=452723312f300bf9542cd425f9d39bf832c2af40 lastModified=2026-10-16T10:14:30.000Z likes=948 downloads=19214 license=apache-2.0
+Pharia-1-Embedding-4608-control sha=f795f86d14cd9e6642f257ae46acbe982fc11d38 lastModified=2024-12-19T13:51:34.000Z likes=1 downloads=0 license=other
+Pharia-1-LLM-7B-control sha=da14cc4984b8d0bacbed1f034d6187b56449749a lastModified=2024-08-30T11:25:00.000Z likes=70 downloads=0 license=other
+Befund: Revisionen unverändert (Kolibri-1 lastModified wie Beleg 16.10.); quellenlauf meldete nur Zähler (Downloads 17864->19214, Likes 944->948, Org-Zähler 992->996) und ein neu verlinktes Fremd-Finetune angelosb3/kolibri-1-opencode.

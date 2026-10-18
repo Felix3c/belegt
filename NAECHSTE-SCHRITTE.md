@@ -1,10 +1,210 @@
 # belegbar.eu — Nächste Schritte
 
-## Neu 16.10.2026 ~21:30 (Dauerlauf, Auftrag Felix PZ1): Fachstimme Patel auf der ISO-27001-Seite, lokal `3875d4d`
+## Neu 18.10.2026 ~19:00 (Dauerlauf Laufend): Reserve für Gespräche 2–5 steht bereit
 
-- Neuer Abschnitt „Wer steht auf dem Zertifikat?“ unter der Tabelle von `zertifikate/iso-27001/`: zwei Sätze Einleitung, dann Patels Satz auf Englisch, wortgleich, Zuordnung „Punit Suketu Patel, Independent Researcher“, Link arxiv.org/abs/2610.10644, Verweis Abschnitt 5.4 und E8 (4.8). Nur diese Seite ändert sich, die anderen neun Zertifikatsseiten bleiben bytegleich.
-- Code: `lib/fachstimmen.js` (Daten + Block, je Zertifikatsschlüssel), eingehängt in `seiteZertifikat` in `build.js`. Test zuerst: `test/fachstimmen.test.js` (5). 210/210 Tests, Build ok.
-- Patel hat die Stelle am 16.10. ~21:30 zur Vorabprüfung bekommen (im selben Thread, gefragt: passt „Sicherheitsforscher“, passt „Fehlerklasse E8“). **Online erst nach seinem Ok**, dann Push nur über `dossiers/push-sauber.sh`.
+- Falls die sechs Anfragen vom 15./16.10. bis Do 29.10. weniger als zwei Termine bringen: zwei Ersatz-Prüfer (externer DSB Köln, AVV-Prüfer Bayern) sind am 18.10. live nachgeprüft (Beitrag, Impressum, Adresse), je ein fertiger Text liegt im privaten Gesprächsordner. Zwei weitere Reserve-Namen sind nicht mehr sauber belegt und bleiben draußen.
+- Nichts gesendet, kein Entwurf angelegt. Ab 29.10. eine Ja/Nein-Frage an Felix, dann Entwürfe. Lokal nur `.gitignore` committet (`036b205`), kein Push.
+
+## Neu 18.10.2026 ~17:10 (Dauerlauf Laufend): Notion-Beleg jetzt auch wörtlich zitierbar
+
+- Grenze aus WP1 behoben: Der Wort-Beleg ist sortiert und taugt nicht als Zitat. Neu legt der Wächter daneben `<anbieter>-<art>-lesefolge.txt` ab: der Text in Seitenreihenfolge, eine Zeile je Block, Tabellenzeilen als „Subprocessor | Purpose of Processing | Location“, mit eigenem SHA in `SHA256SUMS`.
+- Der Ledger-Hash bleibt der über die sortierten Wörter, alte Einträge bleiben gültig. Reihenfolge kommt aus dem Seitenbaum (`content`), Spalten aus `table_block_column_order`; Blöcke außerhalb des Baums hinten, nichts geht verloren.
+- Test zuerst (4 Tests ohne Netz), 234/234, Build streng ok. Probe ohne Schreiben gegen die zwei echten Notion-Seiten: AVV 147 Zeilen, Liste 68 Zeilen, Zeilen lesen sich wie die Seite, Hashes gleich dem Pilot-Ledger. Lokal `5710677`, kein Push.
+
+## Neu 18.10.2026 ~16:10 (Dauerlauf, WP1): Notion-Meldungen haben jetzt einen echten Beleg
+
+- Bisher legte der Wächter bei einer Notion-Seite nur die HTML-Hülle (~15 Wörter) als Rohkopie ab; eine Notion-Meldung hätte keinen lesbaren Beleg gehabt.
+- Jetzt landet der Text aus der Seiten-API als `<anbieter>-<art>.txt` in `roh/<datum>/`, mit SHA in `SHA256SUMS`. Der Text ist genau das, worüber der Ledger-Hash läuft: die ersten 16 Zeichen des SHA sind gleich dem Ledger-Hash, der Beleg lässt sich also gegen den Ledger nachrechnen. Scheitert die API, bleibt es beim Abruf wie bisher (kein falscher .txt-Beleg aus der Hülle).
+- Grenze: die Wörter sind sortiert (so hasht der Quellenlauf), die Lesereihenfolge geht im Beleg verloren. Für „welcher Unterauftragnehmer kam dazu“ reicht das, für ein wörtliches Zitat nicht (dann Seite im Browser speichern).
+- Test zuerst (2 Tests ohne Netz), 230/230; Probe ohne Schreiben gegen die zwei echten Notion-Seiten: 6146 und 724 Wörter, Hashes gleich dem Pilot-Ledger. Lokal `60747e7`, kein Push.
+
+## Neu 18.10.2026 ~15:50 (Dauerlauf Laufend): Probe-Pilot mit fünf Büro-Tools läuft
+
+- Der Wächter kann jetzt eine zweite, getrennte Liste führen: `WAECHTER_DIR=waechter/pilot node waechter.js` (nur Unterordner von `waechter/`, bleibt gitignored). Test zuerst, 228/228, Build streng ok, lokal `57ed244`, kein Push.
+- Probe-Pilot gestartet 18.10.: Zoom, Slack, Atlassian, HubSpot, Notion, je AVV + Unterauftragnehmer-Liste (10 Quellen; Auswahl ist eine Annahme, nicht die Tools eines echten Kunden). Erster Lauf: alle 10 gelesen, Wortstände 724 bis 20.054 Wörter, keine DÜNN-Meldung; Gegenlauf nach 20 s: 10/10 unverändert. Läuft ab jetzt in jeder Tagesprüfung mit, damit es bei einem Pilot schon eine Verlaufsreihe gibt.
+- Schwachstelle gefunden (nicht gebaut): Die Rohkopie als Beleg (`sichereRoh`) lädt bei Notion die HTML-Hülle, nicht den Text aus der Seiten-API. Der Beleg einer Notion-Meldung wäre damit leer. Fix: bei Notion die API-Wörter als Textbeleg mit SHA ablegen.
+
+## Neu 18.10.2026 ~14:50 (Dauerlauf Laufend): Notion-Seiten ohne Browser lesbar
+
+- Notion veröffentlicht Unterauftragnehmer-Liste und AVV als Notion-Seiten. Deren Text lädt erst im Browser; ohne Browser sah der Wächter nur ~15 Wörter Hülle und meldete DÜNN (Lücke 2 der Pilot-Prüfung, Handabruf 1x pro Woche).
+- Jetzt liest `pruefe` Seiten unter `<x>.notion.site/…-<32 Hex>` über die offene Seiten-API (`/api/v3/loadPageChunk`, blättert per Cursor, höchstens 30 Chunks) und hasht die Wörter, wie bei den Hugging-Face-Karten. Geht die API nicht oder liefert sie keinen Text, gilt der alte HTML-Hash, und die DÜNN-Meldung greift weiter.
+- Probe 18.10.: Liste 724 Wörter (vorher 15), AVV 6.146 Wörter, je zwei Abrufe im Abstand von 15 s gleicher Hash. In Listen die `notion.site`-Adresse eintragen; `notion.so`/`notion.com` leiten ohne Browser auf eine 404.
+- Test zuerst (`test/notion.test.js`, 4 Tests ohne Netz), 227/227, Build streng ok, lokal `3c8544e`, kein Push. Offen aus der Pilot-Prüfung bleibt nur das Feld „für welchen Kunden“ (erst ab zwei Kunden nötig).
+
+## Neu 18.10.2026 ~13:50 (Dauerlauf Laufend): Wortprotokoll jetzt auch für PDF-Quellen
+
+- Bisher meldeten Quellenlauf und Wächter bei geänderten PDFs (AVV, Unterauftragnehmer-Listen als PDF) nur „verändert“, ohne zu sagen, welche Wörter weg oder dazu sind. Eine Meldung brauchte einen Handvergleich (~15 min je Fund).
+- Jetzt liest `woerterPdf` den Text über pdftotext (xpdf, liegt Git for Windows bei; Suche: `PDFTOTEXT`, PATH, Git-Pfad). Der Ledger-Hash bleibt der Byte-Hash, alte Einträge bleiben gültig. Fehlt pdftotext, läuft alles wie vorher. Probe an einem echten 15.600-Wörter-AVV ok.
+- Der Wortstand für PDFs entsteht beim nächsten echten Lauf (Tagesprüfung), ab dann zeigt „verändert“ die Wörter. Test zuerst (`test/pdf-woerter.test.js`, Mini-PDF ohne Netz), 223/223, Build streng ok, lokal `649efe6`, kein Push.
+
+## Neu 18.10.2026 ~11:40 (Dauerlauf Laufend): Opper, Gemini-Regionsangabe berichtigt
+
+- Der Quellenlauf meldete opper.ai/models und /ai-compliance erneut als verändert. Abruf 18.10.: Die Preise aller fünf Profilmodelle stehen unverändert (Opus 5 5/25, Sonnet 5 2/10, GPT-5.4 2,5/15, DeepSeek V4 Pro 0,87/1,74, Gemini 3.5 Flash 1,5/9; „0813“ weiter 1,06/2,60). Auf /ai-compliance hat sich nur die Zählertabelle geändert, das zitierte FAQ steht wortgleich.
+- Fehler gefunden: Die Anmerkung zu Gemini 3.5 Flash nannte noch „Google Cloud (US)“ und den Region-Tag „US, Multi, EU“ (Stand 03.10.). Live steht „Available on Google Cloud“ ohne Region und der Tag „Multi, EU“, so auch schon im Beleg vom 17.10. Wann sich das geändert hat, ist ungeklärt. Die Anmerkung ist berichtigt. Das Feld `standort` bleibt bewusst stehen, weil Opper nicht sagt, was „Multi“ heißt; ein „EU + Multi“ würde die EU-Prüfung fälschlich auf „ja“ setzen.
+- Archivkopie web.archive.org/web/20261018093030, Beleg `belege/anbieter/opper-ai/opper-models-2026-10-18.txt` + SHA, beide Quellen per `--uebernehmen-nur`. 217/217 Tests, Build streng ok, lokal `10388d4`, kein Push.
+
+## Neu 18.10.2026 ~05:20 (Dauerlauf Laufend): Exoscale HDS, Register bleibt für den Rechner gesperrt
+
+- Das ANS-Register (esante.gouv.fr, Liste der HDS-Hoster) liefert dem Rechner nur die Incapsula-Sperrseite, per curl und auch im automatisierten Chrome („Request unsuccessful“). Der Quellenlauf führt es richtig unter „übersprungen“ (seit 16.10.), es ist kein echter Änderungsfall.
+- Gegenprobe über Exoscales eigene Seiten (Abruf 18.10.): exoscale.com/compliance/hds/ und die Compliance-Seite nennen HDS weiter mit Scope 1–4 und 6. Als Satz in der HDS-Anmerkung des Profils ergänzt; Status „belegt“ und Prüfdatum 14.10. bleiben, Registerstand bleibt der vom 09.10.
+- 217/217 Tests, Build streng ok, lokal `0f13859`, kein Push. Der Blick ins Register geht nur in einem normalen Browser (Handgriff für Felix, eine Minute, nicht eilig).
+
+## Neu 18.10.2026 ~04:55 (Dauerlauf Laufend): letzte fünf offenen Quellen gelesen, Quellenlauf wieder leer
+
+- T-Systems (Zertifikatsseite + TISAX-Blog): neu ist nur der Menüpunkt „Database & Analysis“. Alle zitierten Sätze stehen live (C5 Typ II, „This report verifies…“, „ISO27001 Audits by DEKRA“, SOC-3-PDF-Link, TISAX „protection level three for the Netherlands region“, „P0R4YM“, „between January and June, DEKRA…“).
+- Nebius auf OpenRouter: Seite nennt jetzt 14 Modelle (03.10.: 10, 08.10.: 12); Llama 3.3 70B hat weiter keinen Nebius-Endpunkt (Endpunkt-API), Anmerkung ergänzt, Beleg `belege/anbieter/nebius/provider-seite-2026-10-18.txt`. Preise waren um 02:20 schon geprüft.
+- Opper: /models und /ai-compliance wie in der Tagesprüfung 18.10. gelesen (nur Liste/Zähler, Profilpreise gleich).
+- Alle fünf per `--uebernehmen-nur`. 217/217 Tests, Build streng ok, lokal `802ad3b`, kein Push. Offen bleibt nur Exoscale HDS-Liste (Browser).
+
+## Neu 18.10.2026 ~04:35 (Dauerlauf Laufend): BFL, vier offene Quellen gelesen, neues Modell FLUX 3 Image Klein
+
+- Preisdatenbank (Sanity-Abfrage, Abruf 18.10.): alle bisherigen Preise unverändert. Neu ist nur eine Karte „FLUX 3 Image Klein“ (`/v1/flux-3-image-klein`), 0,008/0,009/0,011/0,014/0,036 $ je Bild (768/1k/1.5k/2k/4k). Die Release Notes vom 15.10. (docs.bfl.ai/release-notes) nennen dieselben Preise, 5,6 Mrd. Parameter, offene Gewichte unter „FLUX Kommunity License“ (Lizenztext nicht geprüft). Als eigenes Modell ins Profil, Prüfdatum 18.10.
+- Fehlerseite (Moderations-Belege): nur das Ankündigungs-Banner ist neu, die zitierten Sätze zu „Request Moderated“/„Content Moderated“ stehen unverändert.
+- ISO-27001-Zertifikat (Trust-Center-PDF): Nummer 269758, Erstzertifizierung 01.12.2025, Ablauf 30.11.2028, Geltungsbereich und Standorte gleich. Inhabername („Black Forest Labs Inc. & BFL GmbH“) und Ausstellerzeile („British Assessment Bureau Limited t/a Amtivo“) lauten anders als das alte Zitat; ob das PDF umformuliert wurde, ist ungeklärt (keine Kopie vom 09.10.). Zitat berichtigt, Textauszug + SHA unter `belege/anbieter/black-forest-labs/`.
+- Preis-Belege `belege/preise/black-forest-labs/2026-10-18-*`, vier Quellen per `--uebernehmen-nur`. 217/217 Tests, Build streng ok. Lokal committet, kein Push.
+- Weiter offen: Nebius-Seite auf OpenRouter (Zahlen, Preise schon über die API geprüft), Opper (Zähler), T-Systems (zwei Seiten, nur „&amp;“/„Analysis“/„Database“ neu), Exoscale HDS-Liste (Browser).
+
+## Neu 18.10.2026 ~04:30 (Dauerlauf Laufend): Kill-Check-Stand auf 18.10. nachgezogen (privat)
+
+- Die Tabelle in der privaten Messdatei stand noch auf 15.10. Neu: Gespräche 1 sicher, 2 nach der Zählregel (eine schriftliche Antwort auf die Vertrauensfrage, als Gespräch noch nicht von Felix bestätigt, Frage 406); Bedingungen 1 von 2 (von Felix am 15.10. gezählt); Pilot 0, auch noch keiner angeboten. 52 Tage bis Mi 09.12., nächster Messpunkt Do 22.10.
+- Befund: Der Pilot ist das schwächste Kriterium. Beide schriftlichen Antworten sagen, ein Dossier ohne Haftung habe keinen Wert; ein Pilot gelingt eher als Arbeitsvorlage denn als Beleg (Vermutung, die Gespräche ab 22.10. zeigen es). Keine Vorlage geändert, nichts gesendet.
+
+## Neu 18.10.2026 ~03:45 (Dauerlauf Laufend): Antworten auf die Gesprächsbitten vorbereitet (privat)
+
+- Für die sechs noch offenen Gesprächsbitten (gesendet 15./16.10., Antworten ab Do 22.10. erwartet) liegt ein privates Blatt mit je einer fertigen Antwort für Zusage, Rückfrage, Absage und „keine Antwort bis 29.10.“ sowie Terminvorschlägen ab Mi 28.10. Felix sagt nur „Name, Fall, Termin“, der Dauerlauf füllt aus und sendet. Gmail 18.10. ~03:40: noch keine Antwort. Datei gitignored (`.gitignore` lokal `d221cfc`), kein Push.
+
+## Neu 18.10.2026 ~03:30 (Dauerlauf Laufend): Hugging-Face-Karten jetzt über die Git-Revision überwacht
+
+- Die Idee von 02:40 ist gebaut: Für Modellseiten `huggingface.co/<org>/<modell>` hasht der Quellenlauf nicht mehr die HTML-Seite (Download-, Like- und Org-Zähler ticken täglich), sondern `sha` und `lastModified` aus der offenen API `huggingface.co/api/models/<id>`. Ist die API nicht lesbar oder fehlt `sha`, gilt wie bisher der HTML-Hash. Das Wortprotokoll zeigt bei einer echten Änderung die alte und neue Revision.
+- Einmalige Umstellung: Die drei Aleph-Alpha-Karten meldeten wegen der neuen Hash-Grundlage „verändert“. Die Revisionen stimmen mit der Handprüfung von 02:40 überein, darum per `--uebernehmen-nur` übernommen. Danach meldet ein Trockenlauf keine HF-Quelle mehr.
+- 4 neue Tests (217/217), Build streng ok. Lokal committet, kein Push.
+
+## Neu 18.10.2026 ~02:40 (Dauerlauf Laufend): Aleph Alpha, drei Hugging-Face-Karten gelesen, nur Zähler, lokal `a26c8e4`
+
+- Der Quellenlauf meldete Kolibri-1 (offen seit 16.10.) und die zwei Pharia-Karten (seit 17.10.) als verändert. Über die offene API (`huggingface.co/api/models/Aleph-Alpha/<id>`, Abruf 18.10. 00:36 UTC) die Git-Revision jeder Karte geprüft: Kolibri-1 `lastModified` 16.10. 10:14 wie im Beleg vom 16.10., Pharia-LLM (2024-08-30) und Pharia-Embedding (2024-12-19) unverändert. Geändert haben sich nur Downloads (17.864 → 19.214), Likes (944 → 948), der Organisations-Zähler (992 → 996) und ein neu verlinktes Fremd-Finetune (`angelosb3/kolibri-1-opencode`).
+- Beleg `belege/anbieter/aleph-alpha/hf-revisionen-2026-10-18.txt` + SHA, `--uebernehmen-nur` für die drei Karten (Prüfdatum 18.10.). 213/213 Tests, Build streng ok. Kein Push.
+- Weiter offen: BFL (Preise nur im Browser), Exoscale HDS-Liste (Browser). Idee für später: HF-Karten über die API-Revision statt über die HTML-Seite überwachen, dann fallen die Zähler-Meldungen weg (nicht gebaut).
+
+## Neu 18.10.2026 ~02:20 (Dauerlauf Laufend): Nebius auf OpenRouter, Preise unverändert
+
+- Über die offene API (`openrouter.ai/api/v1/models/<id>/endpoints`, Abruf 18.10. 00:14 UTC) die drei Profilmodelle mit Nebius-Endpunkt gelesen: GLM-5.1 1,40/4,40, gpt-oss-120b 0,15/0,60, Qwen3-235B 0,20/0,60 USD je 1M, alle wie im Profil. Llama 3.3 70B hat weiter keinen Nebius-Endpunkt (bleibt „unbelegt“). Randnotiz: Der Qwen3-Endpunkt trägt bei OpenRouter `status -2` (die anderen 0); was das Feld bedeutet, ist ungeklärt, nicht übernommen.
+- Beleg `belege/anbieter/nebius/openrouter-endpunkte-2026-10-18.txt` + SHA. Profil nicht geändert. Kein Push.
+- Weiter offen: BFL (Preise nur im Browser), Aleph Alpha (Pharia-Zähler), Exoscale HDS-Liste (Browser).
+
+## Neu 18.10.2026 ~01:45 (Dauerlauf Laufend): EUrouter-Modellseite gelesen, Gemma 4 wieder teurer
+
+- `eurouter.ai/models` + Modell-API `api.eurouter.ai/api/v1/models` (Abruf 18.10.): weiter **151 Modelle**, keins neu, keins weg. Profilpreise DeepSeek V3.2 0.30/0.50, Kimi K2.6 0.73/3.50, Mistral Large 3 0.55/1.65 und alle Claude-Varianten unverändert, Prüfdatum 18.10.
+- **Gemma 4 Output $0.20 → $0.50** (Input $0.10 gleich), Modellseite und API gleich; Archivkopie web.archive.org/web/20261017233433 zeigt $0.50. Die API führt Gemma 4 wieder mit `currency: EUR` (am 16.10. `USD`). Verlauf damit 0.35 (bis 08.10.) → 0.50 (09.10.) → 0.20 (16.10.) → 0.50 (18.10.), ohne Änderungsdatum bei EUrouter. Als Anbieter fehlt jetzt AR Arkane SARL (16.10. noch da). Beleg `belege/anbieter/eurouter/gemma-4-2026-10-18.txt` + SHA, Preisarchiv `belege/preise/eurouter/2026-10-18-*`.
+- Weitere Preisänderungen in der API, alle nicht im Profil: deepseek-v4-pro 1.70/3.40 → 1.75/3.50, glm-4.7 0.70/2.80 → 0.72/2.64, glm-5.3 1.40/4.40 USD → 1.47/4.62 EUR, llama-3.3-70b 0.70 → 0.71, minimax-m3 0.30/1.20 → 0.40/2.00, ministral-3-14b 0.15 → 0.22, mistral-medium-3.5 gleich, aber USD → EUR. Das Hin und Her bei Gemma 4 (dreimal in zehn Tagen) ist ein gutes Beispiel für den Änderungs-Wächter.
+- `--uebernehmen-nur https://eurouter.ai/models` (setzt wie vorgesehen das Prüfdatum aller unveränderten Quellen auf 18.10.). 213/213 Tests, Build streng ok. Kein Push.
+- Weiter offen: BFL (Preise nur im Browser), Aleph Alpha (Pharia-Zähler), Nebius auf OpenRouter, Exoscale HDS-Liste (Browser).
+
+## Neu 18.10.2026 ~01:05 (Dauerlauf Laufend): Spickzettel fürs Gespräch am 21.10. nachgezogen
+
+Der private Spickzettel (eine Bildschirmseite) enthält jetzt das Ergebnis der Haftungs-Recherche und die Vehikel-Fragen als Minute 22–24
+(drei Fragen, Felix wählt zwei) sowie je Antwort den nächsten Schritt. Kein neues Material, nur zusammengeführt; nichts gesendet, nichts committet.
+
+## Neu 18.10.2026 ~00:30 (Dauerlauf): Kann Felix der Haftende sein? (vor dem Gespräch am 21.10.)
+
+Abschnitt 7 im privaten Entscheidungsblatt (Recherche mit Quellen privat daneben). Ergebnis: ja für Tatsachen, als Einzelunternehmer,
+mit Versicherung (Kandidat Markel Pro Media, 500.000 € ≈ 340 € netto/Jahr) und ohne Wörter wie „konform“; keine UG jetzt.
+Zwei Anwalts-Entwürfe auf die Frage „Haftung für Tatsachen ohne Rechtsdienstleistung?“ geschärft, eine Deckungsanfrage an
+den Versicherer als Entwurf (Empfänger fehlt noch). Nichts gesendet, alles wartet auf Felix' Freigabe nach Gespräch 2 (21.10.).
+
+## Neu 17.10.2026 ~22:45 (Dauerlauf): Entscheidungsblatt Vehikel vor dem Gespräch am 21.10.
+
+- Auf Felix' Auftrag (Idee gut, Vehikel vielleicht falsch; mehrere Abos; einen Prüfer dazuholen) ein privates Blatt im Gesprächsordner, eine Seite, nichts entschieden. Empfehlung: Vehikel erst nach dem Gespräch am 21.10. wechseln; Kandidat „belegbar liefert, ein benannter Prüfer zeichnet“. Drei Fragen an Felix (389–391), Antwort bis Di 20.10. abends. Datei ist in `.gitignore` (lokal `174121e`).
+
+## Neu 17.10.2026 ~12:50 (Dauerlauf Laufend): STACKIT, Preise jetzt direkt je Modell belegt, lokal `f3f3a2e`
+
+- `stackit.com/en/products/data-ai/stackit-ai-model-serving`: Die Preistabelle nennt jetzt jedes Modell einzeln (bis 16.10. nur Kategoriepreise Standard/Plus/Premium, ohne Modellnamen). Für die vier Profilmodelle: Llama 3.3 70B, GPT-OSS 120B, Gemma 4 31B je 0,45/0,65 €, Qwen3-VL 235B 1,50/1,75 € (je 1M In/Out, EU01). Damit war der Grund für den leeren Preis weg (nur ableitbar, nicht direkt verlinkt). Die Preise stehen jetzt im Profil, die Quelle der vier Modelle ist die Produktseite, und die Doku-Modellseite (Region „Germany South“, Status) steht in der Anmerkung. Die Übersicht zeigt STACKIT mit „ab 0,45 €“ statt „–“. Der Trainings-Satz ist wortgleich.
+- `why-stackit/benefits/certificates`: Alle zitierten Sätze (C5 Type 2, 21 Produkte inkl. AI Model Serving, ISAE 3000/3402, ISO 27001/27017/27018, TISAX ATA163-1/SH938N, „The data is also backed up“) sind wortgleich, die Zertifikatslinks unverändert. Neu ist nur der Rechenzentrums-Block anstelle der alten Standortliste: „The certifications apply to Schwarz Digits KG, Schwarz Digits IT KG and Schwarz Digits Cloud GmbH & Co. KG as units of the Schwarz Group.“ (gilt dort für Rechenzentrums-Zertifikate). Das ist eine Randnotiz und nicht übernommen.
+- Archivkopien web.archive.org/web/20261017104106 (Produktseite) und …/20261017104129 (Zertifikate), beide byte-gleich zum Abruf. Textauszüge `belege/anbieter/stackit/{produktseite-preise,zertifikate}-2026-10-17.txt` + `SHA256SUMS`, beide per `--uebernehmen-nur` übernommen. 213/213 Tests, Build streng ok. Kein Push.
+- Nebenwirkung: Die Doku-Modellseite ist keine `quelle` mehr und wird darum vom Quellenlauf nicht mehr überwacht. Verschwindet ein Modell, fällt es trotzdem auf, weil es dann auch aus der Preistabelle der Produktseite fehlt.
+- Weiter offen: BFL (Preise nur im Browser), Aleph Alpha (Pharia-Zähler), EUrouter-Modelle, Nebius auf OpenRouter, Exoscale HDS-Liste (Browser).
+
+## Neu 17.10.2026 ~19:30 (Dauerlauf): Anfrage an deutsche Berufsrechtler vorbereitet
+
+- Nach Frage 383: zwei deutsche Anwälte mit belegter Spezialisierung auf Berufsrecht/RDG ausgewählt, Anfrage als Gmail-Entwurf (RDG-Grenze für den Software-Teil, Honorar des zeichnenden Anwalts, gibt es ein Muster). Nichts gesendet; Freigabe einzeln durch Felix (Frage 388). Namen und Belege privat.
+
+## Neu 17.10.2026 ~11:20 (Dauerlauf): Schweizer Anwalt sagt ab
+
+- Antwort auf die Nachfrage vom 16.10.: keine Einschätzung zu Berufsrecht/Honorar/RDG, kein Gespräch; Verweis auf seine Veröffentlichungen erlaubt. Grund: keine Auskunft, für die er haften müsste. Zählt nicht für den Kill-Check. Auswertung privat (GESPRAECHE-2-5, Antwort C). Anwalt-Preisstufe bleibt offen, bis ein deutscher Berufsrechtler antwortet (Frage 383).
+
+## Neu 17.10.2026 ~11:30 (Dauerlauf Laufend): Opper, drei gemeldete Quellen gelesen, nichts Inhaltliches, lokal `e1b223b`
+
+- `opper.ai/ai-compliance`: FAQ-Satz zu EU AI Act/DORA/NIS2 wortgleich (Profil `ai_act`), Seite weiter ohne „Last updated“. Geändert hat sich nur die Live-Tabelle „Data handling by provider“: Lyceum (EU, ZDR Yes) neu, Zählerstände. Randnotiz, nicht übernommen: In dieser Tabelle führt Opper Scaleway und Alibaba mit „Abuse monitoring“, GreenPT mit „Yes“ (Opper-Sicht, keine Anbieterquelle).
+- `opper.ai/models`: alle fünf Profilpreise unverändert (Opus 5 5/25, Sonnet 5 2/10, GPT-5.4 2,50/15, DeepSeek V4 Pro 0,87/1,74, Gemini 3.5 Flash 1,50/9; 0813 weiter 1,06/2,60), 1.220 statt 1.206 Modelle, Lyceum EU als neue Route.
+- `opper.ai/security-overview`: Text gegen Beleg vom 15.10. Satz für Satz gleich, nur die Fußzeile (Menü) anders.
+- Belege `belege/anbieter/opper-ai/opper-{ai-compliance,models,security-overview}-2026-10-17.txt` + `SHA256SUMS`, Hashes per `--uebernehmen-nur`. 213/213 Tests, Build streng ok. Kein Push.
+- Weiter offen: BFL (Preise nur im Browser), STACKIT Preisseite + Zertifikate, Aleph Alpha (Pharia-Zähler), EUrouter-Modelle, Nebius auf OpenRouter, Exoscale HDS-Liste (Browser).
+
+## Neu 17.10.2026 ~10:55 (Dauerlauf Laufend): Scaleway, Preisseite und Datenschutz-Doku gelesen, nichts Inhaltliches
+
+- `scaleway.com/en/pricing/model-as-a-service/`: alle sechs Profilpreise unverändert (gpt-oss-120b 0,15/0,60, Llama 3.3 70B 0,90/0,90, Mistral Small 3.2 0,15/0,35, Qwen3 235B 0,75/2,25, deepseek-v4-flash-0731 0,40/0,80, GLM-5.2 1,80/5,50). Neu sind nur das OCR-Modell „lightonocr-3-0.8b“ (2,20 €/1M) und ein Banner „Discover the products available in Milan“. Daneben steht `deepseek-v4.1-flash` (0,60/1,80), nicht im Profil; seit wann, ist ungeklärt.
+- `docs/generative-apis/reference-content/data-privacy/`: weiter „Reviewed on October 03, 2025“, Trainings-Satz und „Paris, France“ wörtlich da; geändert hat sich nur das Seitenmenü (Containers/Functions).
+- Textauszüge `belege/anbieter/scaleway/preise-maas-2026-10-17.txt` und `datenschutz-genapis-2026-10-17.txt` + `SHA256SUMS`, beide per `--uebernehmen-nur` übernommen. 213/213 Tests, Build streng ok (das Datum 17.10. aus dem Build ist jetzt mit committet). Kein Push.
+- Weiter offen: BFL (Preise nur im Browser), Opper, STACKIT Preisseite + Zertifikate, Aleph Alpha (Kolibri-Zähler, Pharia-Karte), EUrouter-Modelle, Nebius, Exoscale HDS-Liste (Browser).
+
+## Neu 17.10.2026 ~10:20 (Dauerlauf Laufend): T-Systems, vier gemeldete Quellen gelesen, nichts Inhaltliches
+
+- `docs.llmhub.t-systems.net/models/llms/`: alle vier Profilpreise unverändert (Mistral Small 4 0,60/1,20, GPT-OSS 120B 0,20/0,65, GPT-5 1,20/9,55, Claude 4.6 Sonnet 2,97/14,85). Neu ist nur das Modell „d3“ (Independent maker, auf T-Cloud Public, Plan „Test“, ohne Preis), 39 statt 38 Modelle, dazu ein neues Werbebanner. Steht nicht im Profil, also keine Änderung. Textauszug `belege/anbieter/t-systems/llmhub-modelle-2026-10-17.txt` + SHA.
+- `reference/enterprise-trust`: nur das Banner gewechselt (d3 statt Chat-Werbung), Kategorien 1/2 unverändert.
+- `t-cloud-public.com` Zertifizierungen und TISAX-Blog: nur das Menü (Branchen „Finance & insurance“ statt der alten Punkte).
+- Alle vier per `--uebernehmen-nur` übernommen (setzt wie vorgesehen auch das Prüfdatum der unveränderten Quellen auf 17.10.). 213/213 Tests, Build streng ok. Kein Push.
+
+## Neu 17.10.2026 ~00:15 (Dauerlauf Tagesprüfung): nichts Neues, nichts committet
+
+- 213/213 Tests, Build streng ok, Archivcheck 19 Zitate ok. Fälle 003/004: alle Zitate live (Scaleway-Zusatz „except temporarily…“ seit 03.10. bekannt).
+- Wächter: 4× „verändert“ nur neue Menüpunkte (Anthropic, Google), privat protokolliert und übernommen; OpenAI 403 wie bekannt.
+- Quellenlauf trocken: 18 verändert (Stichprobe Likezähler/Banner), Handlesen bleibt Laufend-Aufgabe.
+- Achtung: `build.js` hat das Datum 17.10. in `data/lastmod.json`, `docs/sitemap.xml`, `docs/fuer-kaeufer/` geschrieben (nur Datum). Nicht committet; vor dem nächsten Commit mitnehmen oder neu bauen.
+
+## Neu 16.10.2026 ~23:35 (Dauerlauf): Fachstimme ISO 27001 freigegeben und wieder eingesetzt, lokal `e18571d`/`12bfc20`
+
+- Der Zitierte hat den ganzen Abschnitt gegengelesen und freigegeben, ohne Korrektur. Rücknahme `c1b009d` rückgängig gemacht (`e18571d`), Freigabe im Code vermerkt (`12bfc20`). 213/213 Tests, Build streng ok.
+- Push der ISO-27001-Seite wartet auf Felix' „steht“ (nur über `dossiers/push-sauber.sh`).
+
+## Neu 16.10.2026 ~23:15 (Dauerlauf Laufend): GreenPT Model Cards gelesen, lokal `d4c1a53`
+
+- `docs.greenpt.ai/model-cards` meldete „verändert“ (+12). Von Hand gelesen: alle sechs Preise im Profil stimmen (green-r 0,35/0,95, mistral-small 0,20/0,40, gemma4 0,50/1,50, glm-5.2 1,55/4,60, kimi-k3 3,30/16,50, green-embedding 0,20). Neu ist nur das Entscheidungsmodell **metis** (Verlauf „30 September 2026 · New model“): beantwortet Ja/Nein-, Auswahl- und Skalenfragen mit Wahrscheinlichkeiten, erzeugt keinen Text, Aufruf über `POST /v1/systemone`, 0,12 € Input, kein Output-Preis, 32k Kontext. Katalog zeigt jetzt 11 Modelle im EU-Filter. Kein Profil-Eintrag, weil wir nur Text-/Embedding-Modelle führen.
+- Beleg `belege/anbieter/greenpt/model-cards-2026-10-16.txt` + `SHA256SUMS`; Hash per `--uebernehmen-nur`, Prüfdatum der Felder mit dieser Quelle 16.10. 208/208 Tests, Build streng ok. Aleph Alpha zeigt nach dem Lauf wieder 1 offene Quelle.
+- Weiter offen (16): BFL (4, Preise nur im Browser), EUrouter-Modelle, Exoscale HDS-Liste (Browser), Nebius auf OpenRouter, Opper (3), Scaleway Datenschutz-Doku + Preise, STACKIT Preisseite + Zertifikate, T-Systems (2), Aleph Alpha (1).
+- Kein Push.
+
+## Neu 16.10.2026 ~23:10 (Dauerlauf Laufend): HDS-Liste war seit 14.10. blind, Quellenlauf erkennt Sperrseiten jetzt überall, lokal `e6d1716`
+
+- `esante.gouv.fr/.../liste-des-hebergeurs-certifies` (HDS-Register, Beleg für Exoscale und OVHcloud) liefert unserem Abruf seit 14.10. nur eine Imperva/Incapsula-Sperrseite mit Status 200 („Request unsuccessful. Incapsula incident ID …“). Die „technische Kennzahl“, die am 14.10. übernommen wurde, war diese Sperrseite; seitdem meldete jeder Lauf „verändert“, weil die Incident-ID wechselt. Der Inhalt der Liste wurde also seit 14.10. nicht mehr geprüft.
+- Fix in `lib/quellen.js`: Sperrseiten (Cloudflare und Incapsula) zählen auf **jeder** Quelle als „übersprungen, im Browser prüfen“, nicht mehr nur auf den gelisteten. Test zuerst, 3 neue Fälle in `test/quellen.test.js`; 208/208 Tests, Build streng ok.
+- Beleg für beide Profile bleibt der Auszug vom 09.10. (`belege/anbieter/exoscale/ans-hds-liste-2026-10-09.txt` + SHA). Neueste brauchbare Archivkopie 26.09.; die heute angestoßene Kopie (web.archive.org/web/20261016205933) zeigt ebenfalls nur die Sperrseite.
+- **Offen:** HDS-Liste einmal im Browser öffnen, Exoscale (Akenes) und OVHcloud suchen, Textauszug mit Datum ablegen. Die Ledger-Referenz ist noch der Hash der Sperrseite; sobald die echte Seite wieder durchkommt, meldet der Lauf „verändert“ und sie muss von Hand gelesen werden.
+- Kein Push.
+
+## Neu 16.10.2026 ~22:35 (Dauerlauf Laufend): Kolibri-1-Modellkarte gelesen, lokal `c9b677b` + `c10976d`
+
+- Inhaltlich neu ist nur ein Punkt: In der Übersicht steht jetzt „Acceptable Use Policy n/a, cf. Responsible Use“, im Abschnitt Responsible Use neu „we do not implement an acceptable use policy“ (am 04.10. stand dort nur der Appell, nichts Rechtswidriges zu tun). Lizenz weiter Apache 2.0, Kontext 1.048.576 Token, Parameter unverändert; neu genannt ist der Wissensstand 18.06.2026 (EN/DE). Sonst nur Zähler (Downloads, Quantisierungen, Community).
+- Profil-Anmerkung ergänzt, Status unverändert. Beleg `belege/anbieter/aleph-alpha/kolibri-1-modellkarte-2026-10-16.txt` + `SHA256SUMS`, Archivkopie web.archive.org/web/20261016203048 (enthält den neuen Satz). Hash per `--uebernehmen-nur` übernommen.
+- Weiter offen (17): BFL (4, Preise nur im Browser), EUrouter-Modelle, Exoscale HDS-Liste, GreenPT-Modellkarten, Nebius auf OpenRouter, Opper (3), Scaleway Datenschutz-Doku + Preise, STACKIT Preisseite + Zertifikate, T-Systems (2).
+- 205/205 Tests, Build streng ok. Kein Push.
+
+## Neu 16.10.2026 ~22:10 (Dauerlauf Laufend): STACKIT-Modellseite gelesen, 26 Quellen übernommen, lokal `59153d1`
+
+- **STACKIT Shared Models** („Last updated on Oct 15, 2026“): entfernt ist nur Gemma 3 27B, das schon als „Deprecated“ geführt war und nie im Profil stand. Die vier Profilmodelle (Llama 3.3 70B, GPT-OSS 120B, Qwen3-VL 235B, Gemma 4 31B) weiter „Supported“, Kategorien unverändert, keines als Preview (wichtig wegen Leistungsschein 1.4 ab 06.11.). Anmerkung im Profil ergänzt, Textauszug `belege/anbieter/stackit/modelle-shared-2026-10-16.txt` + SHA.
+- Seit dem Lauf am Morgen hatten Gcore, Regolo, OVH, Scaleway, CSA-Register, Aleph Alpha (Datenschutz, zwei Pharia-Karten) und STACKIT-AGB **wieder** nur Teaser, Menü, Webinar-Banner oder Zähler gewechselt; per Wortprotokoll vollständig gelesen und übernommen (25). Sonst hätte die Seite sie als „offen“ gezählt.
+- **Weiter offen (18):** Kolibri-1-Modellkarte (neu „Acceptable Use Policy“, lesen lohnt), BFL (4, Preise nur im Browser), EUrouter-Modelle (151), Exoscale HDS-Liste, GreenPT-Modellkarten, Nebius auf OpenRouter, Opper (3), Scaleway Datenschutz-Doku + Preise, STACKIT Preisseite + Zertifikate, T-Systems (2).
+- 205/205 Tests, Build streng ok. Kein Push.
+
+## Neu 16.10.2026 ~22:00 (Dauerlauf, Auftrag Felix GP1b): GreenPT-Profil mit der Klarstellung des Anbieters zum US-Endpunkt, lokal `5ff356b`
+
+- Anmerkung bei den Unterauftragnehmern ergänzt: US-Endpunkt ist Opt-in, Standard bleibt EU, Konto/Abrechnung bleiben bei EU-Dienstleistern, die Processor-Seite ist die maßgebliche Liste, Übermittlungsgarantien nur im DPA auf Anfrage (Mechanismus öffentlich nicht genannt). Quelle: Mail des Anbieters vom 13.10., Anbieter hat der Aufnahme zugestimmt.
+- Status unverändert. 205/205 Tests, Build streng ok. Kein Push (geht mit dem nächsten freigegebenen Push über `dossiers/push-sauber.sh`).
+- Offen: Sobald GreenPT den Mechanismus auf docs.greenpt.ai/privacy/processor nennt, dort verlinken und den Satz „öffentlich nicht genannt“ ersetzen.
+
+## Neu 16.10.2026 ~21:30 (Dauerlauf, Auftrag Felix PZ1): Fachstimme eines Sicherheitsforschers auf der ISO-27001-Seite, nur auf eigenem Zweig
+
+- Neuer Abschnitt „Wer steht auf dem Zertifikat?“ unter der Tabelle von `zertifikate/iso-27001/` (Code `lib/fachstimmen.js`, Test `test/fachstimmen.test.js`). Die anderen neun Zertifikatsseiten bleiben bytegleich.
+- Beim Push 16.10. ~21:40 (`87ff205`) auf main zurückgenommen, liegt auf einem eigenen Zweig. **Online erst nach dem Ok des Zitierten**, dann cherry-pick und Push nur über `dossiers/push-sauber.sh`. Namen, Zweig und Thread in `outreach/gespraeche/PRIVAT-NOTIZEN.md`.
+- Diese Datei ist öffentlich: Namen von Gesprächspartnern und Zitierten stehen nur in den PRIVAT-NOTIZEN (Felix 16.10.).
 
 ## Neu 16.10.2026 ~08:45 (Dauerlauf, Auftrag Felix HR1): Muster ohne Haftungsübernahme, KI-Agent offen, lokal `f1a89d5`
 
@@ -1059,16 +1259,17 @@ Nachfassen bei den fünf vor dem 26.09. (zwei Wochen).
 
 ## Wartet auf Felix
 
-- **Antworten auf die vier offenen Nachrichten** kommen in sein Postfach. Je Gespräch am selben
-  Abend das Raster aus dem Leitfaden ausfüllen (`outreach/gespraeche/NN-name.md`), sonst
-  verfällt die wörtliche Formulierung. Ziel: fünf Raster bis 30.09.
-- **D. Arndt, Bastians, Giebel:** waren die Anfragen vom 28.08. je draußen?
-- ~~Die acht indexierten Vergleichspaare gegenlesen~~ erledigt 04.10. (Dauerlauf, `a14b107`); Push + zwei Darstellungsfragen = Frage 65.
-- **Push main** (fünf Commits `9bc5bf0`…`14ba6db`, Fall 006 wird erst damit öffentlich; der Rechte-Filter des Dauerlaufs hat den Push am 05.10. 16:57 gesperrt): `git -C ~/belegt push origin main`. Die Mail an T-Systems nennt die Adresse belegbar.eu/faelle/t-systems-not-stored-cache/, bis zum Push gibt sie 404.
-- **BvD-Gespräch Schlademann: GEFÜHRT 08.10. 17:30.** Rohe Stichpunkte an Claude geben → Raster (`06-schlademann.md`). Siehe Abschnitt 18:15 oben.
-- **GreenPT-Nachfrage senden** (Gmail-Entwurf an robert@greenpt.ai vom 05.10. 16:56, Absender auf hallo@ stellen; `outreach/mails/18-…`).
-- **Ausschreibungs-Baustein lesen** (Frage 96 a): `git checkout fuer-vergabestellen`, `docs/fuer-vergabestellen/index.html`, zurück `git checkout main`; danach „steht“ oder Änderungen. WBS-Zeile (96 b) kommt in die nächste WBS-Anfrage.
-- Exoscale-Hinweis per Mail ohne Fall (veraltete Zonen-Tabelle) — Claude entwirft auf Zuruf.
+*Stand 16.10.2026 ~22:00 (Dauerlauf). Neues oben, Erledigtes gestrichen.*
+
+*(Modell bis 09.12. eingefroren; hier nur, was von Felix abhängt.)*
+
+- ~~**Nachfrage beim Schweizer Anwalt** (Frage 359)~~ gesendet 16.10., Absage 17.10. (keine Auskunft, für die er haftet). Offen: deutscher Ansprechpartner für Berufsrecht (Frage 383).
+- **Prüfer-Gespräch Mi 21.10. 18:00** (Teams, englisch): Spickzettel Di abends einmal lesen; Haftungsfrage ist die Hauptfrage.
+- **Fachstimme ISO 27001:** Zitat ging am 16.10. zur Vorabprüfung; ohne Antwort bis Fr 23.10. fragt der Dauerlauf, ob ohne Prüfung online.
+- **Frage 360:** Versicherungs-Anfrage für Haftung 1 erst nach dem Gespräch am 21.10. **Frage 303:** Zwischenziele Kill-Check (2 Gespräche bis 28.10., 3 bis 11.11., 4 bis 18.11., 5 bis 02.12.).
+- Weniger eilig: 345 (Anbieter unterschreiben selbst), 307 (Feed je Anbieter), 338 (stille Änderungen öffentlich), 340 (Opper-Fall still einstellen), 299 (Requesty vormerken), 291 (Brännström-Entwurf löschen), 96 a (Ausschreibungs-Baustein lesen).
+
+*Erledigt/überholt:* GitHub-2FA eingeschaltet 16.10. ~21:40; Nachfass an den BvD-Gesprächspartner gesendet 16.10. ~21:35 (Frage 352); BvD-Gespräch 08.10. geführt; belegbar gepusht 16.10. ~21:40 (`87ff205`); GreenPT-Nachfrage 16.10. gesendet; Push main nur noch über push-sauber; Anfragen vom 28.08. (Arndt, Bastians, Giebel) überholt.
 
 ## Blocker
 

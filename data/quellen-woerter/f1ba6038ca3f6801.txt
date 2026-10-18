@@ -345,6 +345,10 @@ B.
 B.:
 BDSG
 Baden-Württemberg
+Balancing
+Balancing
+Balancing
+Balancing
 Bayreuth
 Begründung
 Bei
@@ -683,6 +687,10 @@ Erleben
 Erleben
 Erleben
 Erstansprache
+Exact
+Exact
+Experts
+Experts
 Fachkräfte
 Fall
 Fall,
@@ -863,6 +871,8 @@ Informationen
 Informationen
 Informationen
 Informationen:
+Injection
+Injection
 Intel-Prozessor)
 Interaktionen
 Interaktionen):
@@ -923,8 +933,6 @@ Kontaktsperrliste
 Konto
 Konto
 Konto
-LLMs
-LLMs
 Land
 Lebenslauf
 Length
@@ -935,6 +943,8 @@ LinkedIn
 LinkedIn)
 LinkedIn)
 LinkedIn-Profil
+Load-Error
+Load-Error
 Löschung
 Löschung
 Mac
@@ -1039,6 +1049,8 @@ Produkte
 Produkte
 Profil
 Profil
+Quantile
+Quantile
 Rahmen
 Rahmen
 Rahmen
@@ -1096,6 +1108,8 @@ SCCON
 SCCON
 Safari)
 Sales
+Scales:
+Scales:
 Scheer
 Scheer
 Schutzniveau
@@ -1203,8 +1217,6 @@ Solutions
 Sourcing
 Soweit
 Soweit
-Specialised
-Specialised
 Speicherfrist
 Speicherfristen
 Speicherfristen
@@ -1257,6 +1269,8 @@ Treffen
 Treffen
 Treffen
 Treffen
+Two
+Two
 USA
 USA
 USA
@@ -1438,8 +1452,6 @@ abläuft.
 abmelden.
 abmelden.
 abonnieren.
-above
-above
 abschließen,
 abschließen,
 absolut
@@ -1470,6 +1482,8 @@ an
 an
 analysieren,
 anbieten,
+and
+and
 andere
 andere
 anderem
@@ -1492,6 +1506,8 @@ anwendbar).
 anzubahnen,
 anzumelden.
 anzuzeigen,
+at
+at
 auch
 auch
 auch
@@ -2441,8 +2457,6 @@ potenzielle
 privacy@aleph-alpha.com
 privacy@aleph-alpha.com
 prüfen
-punch
-punch
 qualifizierter
 reagieren
 reagieren,
@@ -2521,8 +2535,6 @@ technischen
 technischen
 the
 the
-their
-their
 tun.
 um
 um
@@ -2759,8 +2771,6 @@ vorübergehenden
 wann
 warum
 was
-weight
-weight
 weil
 weiter,
 weiter,

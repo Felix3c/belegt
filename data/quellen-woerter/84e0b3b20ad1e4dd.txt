@@ -29,7 +29,6 @@
 (GDPR)
 (HTTPS)
 (HTTPS)
-(Jefan)
 (LLMs)
 (PDF)
 (PDF)
@@ -62,7 +61,6 @@
 2,
 2016/679
 2024/1689
-26B
 27001
 27B
 3
@@ -80,7 +78,6 @@
 5.3
 5.5
 A
-A4B
 AI
 AI
 AI
@@ -215,7 +212,6 @@ Description
 Determined
 Deutsch
 Deutsch
-DiffusionGemma
 EU
 EU
 EU
@@ -257,6 +253,7 @@ Foundation
 Foundation
 Foundation
 Foundation
+Free
 Function
 GDPR
 GDPR
@@ -555,7 +552,6 @@ and
 and
 and
 and
-and
 any
 any
 applicable
@@ -597,7 +593,6 @@ categories
 certifications
 certifications
 certified,
-chat
 clearly
 complete
 completed
@@ -625,6 +620,7 @@ customer
 customer
 customer
 customer’s
+d3
 data
 data
 data
@@ -639,7 +635,7 @@ data-protection
 data-sovereignty
 deactivated
 decision
-decisions
+decisions,
 defined
 deleted.
 delivered
@@ -678,7 +674,6 @@ for
 for
 formats).
 forwarded
-free
 from
 gives
 happens
@@ -686,6 +681,7 @@ health
 high-risk
 hosted
 if
+image
 in
 in
 in
@@ -699,6 +695,7 @@ infrastructure
 infrastructure
 infrastructure,
 infrastructure.
+input.
 inside
 into
 is
@@ -747,6 +744,7 @@ model
 model
 model
 model
+model
 model,
 models
 models:
@@ -763,6 +761,7 @@ not
 not
 not
 notice
+now
 now
 obligations
 of
@@ -851,6 +850,7 @@ questionnaires
 questionnaires
 questions
 receive
+recommended
 regime.
 remains
 request
@@ -911,6 +911,7 @@ terms,
 terms,
 terms.
 that
+the
 the
 the
 the
@@ -1034,6 +1035,7 @@ vs
 which
 which
 who
+with
 with
 with
 with

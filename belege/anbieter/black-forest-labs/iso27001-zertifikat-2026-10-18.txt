@@ -1,0 +1,40 @@
+Quelle: https://trust.bfl.ai/doc/trust?rid=6936c03e7afd0fe5c25dcad5&r=0cb6ffww8qmy60nxzo3p5&download=true
+Abruf: 2026-10-18 (Dauerlauf), HTTP 200, application/pdf, 587315 Bytes, 2 Seiten
+SHA-256 des PDF: 131b803d61b2f6b54287009df4cc40afd8716e5f8b74abdc5a753582108ff74b
+PDF-Metadaten: Title 'Amtivo Certificate', CreationDate/ModDate 2026-05-13 15:31:05 UTC
+Textauszug (pdftotext -layout):
+
+CERTIFICATE OF REGISTRATION
+                     The management system of certificate number 269758
+                Black Forest Labs Inc. & BFL GmbH
+                               2261 Market St Ste 22997, San Francisco, CA 94114, USA
+              has been assessed and certified as meeting the requirements of:
+                            ISO/IEC 27001:2022
+                                           The development and provision of AI solutions to clients Worldwide
+          This is in accordance with the Statement of Applicability Version 1.0, Approved on 21/08/2025 .
+      Further clarifications regarding the scope of this certificate and the applicability of requirements may be obtained by
+                                                                           consulting the certifier.
+                                                     Valid from:
+                                Initial certification: 01 December 2025
+                                     Latest issue: 01 December 2025
+                                     Expiry date: 30 November 2028
+                                                 Subject to annual assessments.
+                                                               Authorised by
+                                                               Steve Russell
+                                                      Chief Governance Officer
+                              british-assessment.co.uk
+                         Certificate issued by British Assessment Bureau Limited t/a Amtivo
+Certification is conditional on maintaining the required performance standards throughout the certified period of registration.
+                                           Amtivo Group Limited. 30 Tower View, Kings Hill, Kent, ME19 4UY.
+CERTIFICATE OF REGISTRATION
+       Expiry date: 30 November 2028
+       Locations covered:
+             Black Forest Labs Inc. & BFL GmbH
+             2261 Market St Ste 22997, San Francisco, CA 94114, USA
+             Black Forest Labs Inc. & BFL GmbH
+             Sedanstr. 7, Freiburg Im Breisgau, Baden-Württemberg, 79098, Germany
+             As per Scope
+                              british-assessment.co.uk
+                         Certificate issued by British Assessment Bureau Limited t/a Amtivo
+Certification is conditional on maintaining the required performance standards throughout the certified period of registration.
+                                           Amtivo Group Limited. 30 Tower View, Kings Hill, Kent, ME19 4UY.

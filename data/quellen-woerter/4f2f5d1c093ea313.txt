@@ -129,6 +129,7 @@ Compute
 Computing
 Computing
 Computing
+Computing
 Confidential
 Confidential
 Confidential
@@ -309,6 +310,7 @@ Ingestion
 Intake
 Integration
 Integration
+Integration
 Integrität
 Intelligente
 Jetzt
@@ -467,6 +469,7 @@ Produktivität
 Programm
 Programm
 Quanten
+Quantum
 Quantum
 Quantum
 Quantum

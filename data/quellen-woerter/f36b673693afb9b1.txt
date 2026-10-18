@@ -1,10 +1,12 @@
 "Edit"
+&#038;
 &amp;
 &amp;
 &amp;
 &amp;
 &amp;
 &amp;
+(0.6B
 (Pay-As-You-Go
 (and
 (completion)
@@ -58,6 +60,7 @@
 1M
 1M
 1M
+2
 20
 20
 20-million-token
@@ -135,6 +138,7 @@
 8
 80
 80
+8B):
 94.5
 96
 96
@@ -173,6 +177,7 @@ Are
 Asked
 Audio
 Benchmarks
+Benchmarks
 Best
 Best-in-class
 Billed
@@ -186,7 +191,6 @@ Boost
 Boost
 Boost
 Boost,
-Build
 Builder
 Built
 Built
@@ -200,10 +204,12 @@ Check
 Choose
 Clef-Flash
 Cloud
+Code
 Complete
 Complete
 Complete
 Compliance
+Compression,
 Computing
 Conditions
 Contacts
@@ -281,6 +287,7 @@ EURO
 Email
 Embedding
 Embedding
+EmbeddingGemma
 Enterprise
 Enterprise
 Enterprise
@@ -420,6 +427,7 @@ M
 M
 M
 M
+Matryoshka
 Max
 Model
 Model
@@ -545,6 +553,7 @@ Program
 Questions
 Qwen
 Qwen-Image
+Qwen3-Embedding
 Qwen3-Embedding-8B
 Qwen3-Reranker-4B
 R&amp;D
@@ -565,9 +574,11 @@ Release
 Rerank
 Rerank
 Reranking
+Reranking
 Resources
 Retention
 Retention,
+Retrieval,
 Route
 S.r.l.
 SLA
@@ -713,7 +724,6 @@ actually
 additional
 affordable
 against
-agentic
 agreements
 alerts
 all
@@ -727,7 +737,7 @@ along
 also
 always
 an
-an
+and
 and
 and
 and
@@ -843,8 +853,6 @@ choose
 choose
 choose
 choose
-cites
-claim
 clearly
 clef-flash
 click
@@ -969,7 +977,6 @@ estimate
 every
 every
 every
-every
 everyday
 everyday
 exact
@@ -1054,7 +1061,6 @@ go
 gpt-oss-120b
 gpt-oss-20b
 grab
-graph
 greater
 green
 groups
@@ -1127,7 +1133,6 @@ key,
 key?
 keys
 keys.
-knowledge
 less
 lets
 library
@@ -1498,7 +1503,6 @@ that
 that
 that
 that
-that
 the
 the
 the
@@ -1642,6 +1646,7 @@ variable
 visibility
 volume
 volume
+vs
 waiting
 want
 want

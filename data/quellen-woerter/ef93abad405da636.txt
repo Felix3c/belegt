@@ -29,9 +29,8 @@ $0.0071
 1
 1
 1
-1
-1
 1,847
+10
 10
 10
 10
@@ -39,14 +38,18 @@ $0.0071
 11
 119
 12
-121
-14
+12
+122
 14
 14
 15
 15
 15
+16
 19
+2
+2
+2
 2
 2
 2
@@ -79,14 +82,13 @@ $0.0071
 36
 39
 4
-4
 49
 5
 5
 5
 5
 50k+
-54
+55
 6
 6
 61
@@ -101,7 +103,6 @@ $0.0071
 8
 8
 8
-9
 9
 9
 9
@@ -148,7 +149,6 @@ AWS
 AWS
 AWS
 AWS
-Abuse
 Abuse
 Abuse
 Abuse
@@ -315,6 +315,7 @@ EU
 EU
 EU
 EU
+EU
 EU,
 EU,
 EU,
@@ -429,6 +430,7 @@ Legal
 LiteLLM
 Live
 Login
+Lyceum
 MCP
 Media
 Melious
@@ -477,6 +479,7 @@ NIS2
 Nebius
 Network
 Nextbit
+No
 No
 No
 No
@@ -629,6 +632,7 @@ Retained
 Retained
 Retained
 Retained
+Retained
 Retained.
 Retention
 Roundtable
@@ -752,6 +756,7 @@ What
 When
 Where
 Which
+Yes
 Yes
 Yes
 Yes
@@ -1519,7 +1524,6 @@ models,
 models.
 models?
 monitored
-monitoring
 monitoring
 monitoring
 monitoring

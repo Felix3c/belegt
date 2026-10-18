@@ -20,6 +20,7 @@ const QS = require("./lib/quellenstand.js");
 const KS = require("./lib/kaeuferseite.js");
 const DOS = require("./lib/dossier.js");
 const GUIDES = require("./lib/guides.js");
+const FS = require("./lib/fachstimmen.js");
 const eur = P.eur;
 
 const ROOT = __dirname;
@@ -1468,7 +1469,7 @@ function seiteZertifikat(e, providers, stand) {
 <h2>Keine Angabe gefunden (${ohne.length})</h2>
 <p>${anbieterLinks(ohne, rel)}</p>
 <p class="klein">„Angabe im Original“ ist der Wortlaut, den wir beim Anbieter vorgefunden haben. Dieselbe Norm wird unterschiedlich benannt. Für diese Übersicht fassen wir die Schreibweisen zusammen, ohne den Originaltext zu verändern.</p>
-<footer class="dossier-fuss"><p class="klein">Stand ${datumDE(stand)} · Zitieren als: „${esc(e.label)} bei europäischen KI-Anbietern“, belegbar.eu, Stand ${datumDE(stand)}, ${SITE.baseUrl}/zertifikate/${esc(e.schluessel)}/ · Lizenz CC BY 4.0</p></footer>
+${FS.fachstimmeBlock(FS.FACHSTIMMEN[e.schluessel], esc)}<footer class="dossier-fuss"><p class="klein">Stand ${datumDE(stand)} · Zitieren als: „${esc(e.label)} bei europäischen KI-Anbietern“, belegbar.eu, Stand ${datumDE(stand)}, ${SITE.baseUrl}/zertifikate/${esc(e.schluessel)}/ · Lizenz CC BY 4.0</p></footer>
 </article>`;
   const jsonld = [
     {

@@ -5,8 +5,22 @@
   <id>https://belegbar.eu/aenderungen/</id>
   <link rel="alternate" href="https://belegbar.eu/aenderungen/"/>
   <link rel="self" href="https://belegbar.eu/aenderungen/feed.xml"/>
-  <updated>2026-10-15T00:00:00Z</updated>
+  <updated>2026-10-18T00:00:00Z</updated>
   <rights>CC BY 4.0</rights>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-18-black-forest-labs-modelle-flux-3-image-klein</id>
+    <title>Black Forest Labs: Modell FLUX 3 Image Klein – → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-18-black-forest-labs-modelle-flux-3-image-klein"/>
+    <updated>2026-10-18T00:00:00Z</updated>
+    <content type="text">Seit 15.10.2026 (Release Notes docs.bfl.ai/release-notes): kleinere FLUX-3-Bildvariante mit 5,6 Mrd. Parametern, API-Endpunkt /v1/flux-3-image-klein; Gewichte (Klein und Klein Base) offen auf Hugging Face unter der „FLUX Kommunity License“ (Lizenztext nicht geprüft). Preis pro Bild nach Auflösung: 0,008 $ (768×768), 0,009 $ (1k), 0,011 $ (1.5k), 0,014 $ (2k), 0,036 $ (4k); Text-zu-Bild und Editing gleich. Preise am 18.10.2026 aus der öffentlichen Preisdatenbank gelesen (Werte in Credits, 1 Credit = 0,01 $), deckungsgleich mit der Tabelle in den Release Notes; Belege belege/preise/black-forest-labs/2026-10-18-2gpum2i6-api-sanity-io-v2025-02-19-data-query-production.json und 2026-10-18-docs-bfl-ai-release-notes-md.html. Standort wie die übrigen FLUX-Modelle laut docs.bfl.ai/api_integration/integration_guidelines (03.10.2026); Cloud-Betreiber nicht genannt. · Neue Quelle: https://docs.bfl.ai/quick_start/pricing · Commit 6717a83: data: BFL FLUX 3 Image Klein neu, ISO-Zitat berichtigt, Quellen 18.10. gelesen</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-17-stackit-modelle-gemma-4-31b</id>
+    <title>STACKIT: Modell Gemma 4 31B, Quelle geändert</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-17-stackit-modelle-gemma-4-31b"/>
+    <updated>2026-10-17T00:00:00Z</updated>
+    <content type="text">Betroffene Felder: Modell Gemma 4 31B, Modell GPT-OSS 120B, Modell Llama 3.3 70B, Modell Qwen3-VL 235B · Preis direkt auf der Produktseite (Abruf 17.10.2026): 'Google Gemma 4 31b Chat EU01 0.45€ 0.65€', SKU 'Model Serving-llm-standard-plus-EU01'; Beleg und Archivkopie wie beim ersten Modell. Kategorie 'LLM-Plus' und Status 'Supported' laut Modellseite der Doku (16.10.2026). · Alte Quelle: https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models/ · Neue Quelle: https://stackit.com/en/products/data-ai/stackit-ai-model-serving · Commit f3f3a2e: feat: STACKIT-Modellpreise direkt von der Produktseite belegt</content>
+  </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-15-black-forest-labs-ai-act-gpai-pflichten-als-modellanbieter-art.-53-ff.</id>
     <title>Black Forest Labs: AI Act: GPAI-Pflichten als Modellanbieter (Art. 53 ff.) belegt → –</title>

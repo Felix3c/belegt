@@ -185,6 +185,27 @@ test("pruefe: Cloudflare-Hintergrundskript auf echter Seite ist keine Challenge 
   assert.equal(e.befund, "ok");
 });
 
+test("pruefe: Incapsula-Sperrseite mit Status 200 auf beliebiger Quelle zählt nicht als Inhalt (esante HDS, 16.10.)", async () => {
+  const { pruefe } = require("../lib/quellen.js");
+  const html = "<html><head><META NAME=\"robots\" CONTENT=\"noindex,nofollow\"><script src=\"/_Incapsula_Resource?SWJIYLWA=5074a7\"></script></head><body>Request unsuccessful. Incapsula incident ID: 4557000291536178053-668915975257393016</body></html>";
+  const e = await pruefe({ url: "https://esante.gouv.fr/offres-services/hds/liste-des-hebergeurs-certifies" }, { mitHash: true, holen: antwort(200, html) });
+  assert.equal(e.befund, "uebersprungen");
+  assert.match(e.hinweis, /Challenge/);
+  assert.equal(e.hash, undefined);
+});
+
+test("pruefe: Cloudflare-Challenge auf nicht gelisteter Quelle wird ebenfalls übersprungen statt gehasht", async () => {
+  const { pruefe } = require("../lib/quellen.js");
+  const e = await pruefe({ url: "https://example.org/x" }, { mitHash: true, holen: antwort(200, "<title>Just a moment...</title><div id=\"cf-chl-widget\"></div>") });
+  assert.equal(e.befund, "uebersprungen");
+});
+
+test("pruefe: echte Seite, die das Wort Incapsula im Text nennt, bleibt Inhalt", async () => {
+  const { pruefe } = require("../lib/quellen.js");
+  const e = await pruefe({ url: "https://example.org/x" }, { mitHash: true, holen: antwort(200, "<p>Wir nutzen Imperva Incapsula als CDN.</p>") });
+  assert.equal(e.befund, "ok");
+});
+
 test("pruefe: 403 auf einer normalen Quelle bleibt ein Fehler (Sperr-Nachsicht nur für BOT_SPERREN)", async () => {
   const { pruefe } = require("../lib/quellen.js");
   const e = await pruefe({ url: "https://example.org/x" }, { mitHash: true, holen: antwort(403, "nope") });
@@ -317,4 +338,53 @@ test("heuteLokal: Datum nach Ortszeit, nicht UTC (Lauf um 01:30 MESZ ist schon d
   assert.equal(heuteLokal(d), "2026-10-16");
   assert.equal(heuteLokal(new Date(2026, 0, 5, 23, 59)), "2026-01-05");
   assert.match(heuteLokal(), /^\d{4}-\d{2}-\d{2}$/);
+});
+
+// HF-Modellkarten (18.10.2026): Die HTML-Seite enthält Download-/Like-Zähler, die täglich ticken und
+// "verändert" melden, obwohl die Karte gleich bleibt. Gehasht wird stattdessen die Git-Revision aus der API.
+test("hfModellId: nur Modellseiten auf huggingface.co, keine API-, Datei- oder Org-Seiten", () => {
+  const { hfModellId } = require("../lib/quellen.js");
+  assert.equal(hfModellId("https://huggingface.co/Aleph-Alpha/Kolibri-1"), "Aleph-Alpha/Kolibri-1");
+  assert.equal(hfModellId("https://huggingface.co/Aleph-Alpha/Kolibri-1/"), "Aleph-Alpha/Kolibri-1");
+  assert.equal(hfModellId("https://huggingface.co/Aleph-Alpha"), null);
+  assert.equal(hfModellId("https://huggingface.co/api/models/Aleph-Alpha/Kolibri-1"), null);
+  assert.equal(hfModellId("https://huggingface.co/Aleph-Alpha/Kolibri-1/blob/main/README.md"), null);
+  assert.equal(hfModellId("https://huggingface.co/datasets/x/y"), null);
+  assert.equal(hfModellId("https://huggingface.co/spaces/x/y"), null);
+  assert.equal(hfModellId("https://example.org/Aleph-Alpha/Kolibri-1"), null);
+});
+
+const hfHolen = (sha, downloads, html) => async (u) => {
+  const api = u.startsWith("https://huggingface.co/api/models/");
+  const text = api ? JSON.stringify({ id: "Aleph-Alpha/Kolibri-1", sha, lastModified: "2026-10-16T10:14:00.000Z", downloads, likes: downloads % 7 }) : html;
+  return { status: 200, url: u, headers: { get: () => (api ? "application/json" : "text/html") }, arrayBuffer: async () => Buffer.from(text), text: async () => text };
+};
+
+test("pruefe: HF-Modellkarte, nur Zähler anders → gleicher Hash", async () => {
+  const { pruefe } = require("../lib/quellen.js");
+  const t = { url: "https://huggingface.co/Aleph-Alpha/Kolibri-1" };
+  const a = await pruefe(t, { mitHash: true, holen: hfHolen("abc123", 17864, "<p>Downloads 17,864</p>") });
+  const b = await pruefe(t, { mitHash: true, holen: hfHolen("abc123", 19214, "<p>Downloads 19,214</p>") });
+  assert.equal(a.befund, "ok");
+  assert.equal(a.hash, b.hash);
+  assert.deepEqual(a.woerter, ["hf-revision:abc123", "lastModified:2026-10-16T10:14:00.000Z"]);
+});
+
+test("pruefe: HF-Modellkarte, neue Revision → anderer Hash", async () => {
+  const { pruefe } = require("../lib/quellen.js");
+  const t = { url: "https://huggingface.co/Aleph-Alpha/Kolibri-1" };
+  const a = await pruefe(t, { mitHash: true, holen: hfHolen("abc123", 1, "<p>x</p>") });
+  const b = await pruefe(t, { mitHash: true, holen: hfHolen("def456", 1, "<p>x</p>") });
+  assert.notEqual(a.hash, b.hash);
+});
+
+test("pruefe: HF-API ohne sha oder nicht erreichbar → Hash über die HTML-Seite wie bisher", async () => {
+  const { pruefe, hashInhalt } = require("../lib/quellen.js");
+  const t = { url: "https://huggingface.co/Aleph-Alpha/Kolibri-1" };
+  const e = await pruefe(t, { mitHash: true, holen: hfHolen(undefined, 1, "<p>Karte</p>") });
+  assert.equal(e.hash, hashInhalt("text/html", Buffer.from("<p>Karte</p>")));
+  const kaputt = async (u) => { if (u.includes("/api/")) throw new Error("netz weg"); return hfHolen("x", 1, "<p>Karte</p>")(u); };
+  const f = await pruefe(t, { mitHash: true, holen: kaputt });
+  assert.equal(f.befund, "ok");
+  assert.equal(f.hash, hashInhalt("text/html", Buffer.from("<p>Karte</p>")));
 });

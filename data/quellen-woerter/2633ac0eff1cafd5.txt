@@ -298,6 +298,7 @@ DDoS
 DDoS
 DDoS
 DDoS
+DDoS
 DNS
 DNS
 DNS
@@ -490,6 +491,7 @@ Get
 Get
 Get
 Get
+Get
 Global
 Global
 Global
@@ -672,7 +674,6 @@ Protect
 Protect
 Protect
 Protect
-Protect
 Protection
 Protection
 Protection
@@ -768,7 +769,6 @@ Sifted
 Sifted
 Sign
 Sign
-Sign
 Since
 Solutions
 Solutions
@@ -776,6 +776,7 @@ Solutions
 Sovereignty
 Sovereignty
 Spotlight
+Start
 Startup
 Startup
 Startups
@@ -1098,7 +1099,6 @@ and
 and
 and
 and
-and
 and&#160;Gcore
 annual
 anonymization
@@ -1184,7 +1184,6 @@ at
 at
 at
 attack?
-attacks
 attacks
 attacks
 attacks
@@ -1626,7 +1625,6 @@ for
 for
 for
 for
-for
 for&#160;free
 force
 forgotten
@@ -1640,7 +1638,6 @@ free
 free
 free
 free
-from
 from
 from
 from
@@ -1967,7 +1964,6 @@ minimal
 minimization
 minimize
 minimizes
-mistakes.
 mitigate
 model
 models
@@ -2037,6 +2033,7 @@ not
 not
 not
 not
+now.
 number
 objections
 obligation
@@ -2110,6 +2107,7 @@ on
 on
 on-demand
 on-demand
+onboarding
 one
 one
 one
@@ -2149,7 +2147,6 @@ origin
 other
 other
 other
-our
 our
 our
 our
@@ -2268,6 +2265,7 @@ projected
 proposition
 protected
 protecting
+protection
 protection
 protection
 protection
@@ -2423,7 +2421,6 @@ seeks
 sensitive
 separating
 serious
-server
 serverless
 serverless
 serverless
@@ -2441,7 +2438,6 @@ services.
 services.
 set
 sets
-setup
 setup
 setup
 setup.
@@ -2568,7 +2564,6 @@ take
 take
 take
 taken
-targeted
 targets
 team
 team
@@ -2855,7 +2850,6 @@ unwanted
 up
 up
 up
-up
 upcoming
 upcoming
 updates
@@ -2917,7 +2911,6 @@ we
 we'll
 we'll
 web
-webinar
 what
 what
 what
@@ -3001,7 +2994,6 @@ you
 you
 you
 you
-your
 your
 your
 your

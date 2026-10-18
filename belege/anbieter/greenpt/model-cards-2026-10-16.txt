@@ -1,0 +1,951 @@
+Model Cards — GreenPT Docs
+GreenPT Docs
+GreenPT Docs
+Search
+⌘
+K
+Getting started
+Welcome
+Get started
+Region Inference
+Models
+Models API
+Model Cards
+Text generation
+Chat Completion
+Chat Completion Streaming
+Reasoning effort
+Prompt caching
+Compression models
+Agents & coding
+Skills
+GreenPT Code
+Automation platforms
+Search & documents
+Embeddings
+Reranker
+Decisions
+Search
+Web Search
+Scraper
+Documents (OCR)
+Audio
+Pre-Recorded Audio (STT)
+Live Audio Streaming (STT)
+Apps
+GreenPT Apps
+GreenPT Chat
+Frida
+Account
+Account Management
+Subscriptions
+API Credits
+Usage Analytics
+Token Pricing
+Resources
+Partners
+Sustainability
+Token compression
+Privacy & Legal
+Support
+Roadmap
+Changelog
+University Collaboration
+AI Privacy Scan
+Contact Us
+Model Cards
+Model Cards
+Full GreenPT model catalog (chat, coding, embeddings, speech-to-text, reranking, and decision) with pricing and EU/US inference availability per model.
+Copy Markdown
+Open
+Token
+prices are in EUR per 1M tokens; speech-to-text models are billed per hour of
+audio. To list models programmatically, see the
+Models API
+. The
+decision model
+metis
+is called through
+Decisions
+, not chat
+completions.
+Catalog
+All
+Chat
+Coding
+Embedding
+Speech-to-Text
+Reranking
+Decision
+EU
+US
+11
+models
+·
+EU
+api.greenpt.ai/v1 (EU default)
+·
+Region Inference
+kimi-k3
+Moonshot AI
+Moonshot Kimi K3, an open-weight 2.8T-parameter native multimodal agentic model with hybrid reasoning for long-horizon coding, knowledge work, and reasoning.
+Input
+€3.30
+Cached input
+€0.825
+Output
+€16.50
+Context
+1M
+Released
+Jul 2026
+Chat
+Hybrid reasoning
+Agentic coding
+Vision
+glm-5.3
+z.ai
+The newest z.ai flagship reasoning model, successor to glm-5.2, with agentic tool-use at the same price.
+Input
+€1.10
+Cached input
+€0.275
+Output
+€4.40
+Context
+1M
+Released
+Aug 2026
+Chat
+Reasoning
+Tool use
+Agentic coding
+glm-5.3-flash
+z.ai
+The light tier of GLM-5.3: the same 1M-token context window and reasoning ladder at a tenth of the price. Reasoning is on by default, so allow enough output budget for it.
+Input
+€0.11
+Cached input
+€0.022
+Output
+€0.44
+Context
+1M
+Released
+Sep 2026
+Chat
+Reasoning
+Tool use
+Long context
+deepseek-v4.1-flash
+DeepSeek
+DeepSeek V4.1 Flash, a multimodal reasoning model with a 1M-token context window for chat and agentic coding.
+Input
+€0.22
+Cached input
+€0.011
+Output
+€1.10
+Context
+1M
+Released
+Sep 2026
+Chat
+Reasoning
+Vision
+Long context
+minimax-m3
+MiniMax
+MiniMax M3, a reasoning model with image input, tool calling and a 1M-token context window for agentic coding and long-horizon workflows.
+Input
+€0.44
+Cached input
+€0.11
+Output
+€2.20
+Context
+1M
+Max output
+64k
+Released
+Jul 2026
+Chat
+Reasoning
+Agentic coding
+Vision
+green-embedding
+GreenPT
+Backed by Qwen3-Embedding-4B
+Dense multilingual embedding model for semantic search, retrieval, and RAG pipelines. Supports Matryoshka Representation Learning, so output dimensions are configurable from 32 up to 2560.
+Input
+€0.20
+Output
+No output charge
+Context
+32k
+Dimensions
+up to 2560
+Released
+Jun 2025
+Dense embeddings
+Multilingual (100+ languages)
+Semantic search
+RAG
+MRL (custom dimensions)
+Instruction-aware
+qwen3-embedding-8b
+Qwen
+Backed by Qwen3-Embedding-8B
+State-of-the-art multilingual embedding model for semantic search, retrieval, and RAG pipelines. Supports Matryoshka Representation Learning, so output dimensions are configurable from 32 up to 4096.
+Input
+€0.25
+Output
+No output charge
+Context
+32k
+Dimensions
+up to 4096
+Released
+2026
+Dense embeddings
+Multilingual (100+ languages)
+Semantic search
+RAG
+MRL (custom dimensions)
+Instruction-aware
+green-s
+GreenPT
+Speech-to-text model for pre-recorded and live transcription.
+Input
+€0.23/hr
+Output
+€0.31/hr live
+Released
+2025
+Pre-recorded transcription
+Live transcription
+green-s-pro
+GreenPT
+Pro
+Advanced speech-to-text model with multilingual transcription options.
+Input
+€0.23/hr recorded
+Output
+€0.31/hr live
+Released
+2025
+Pre-recorded transcription
+Live transcription
+Multilingual input €0.28/hr
+Multilingual live €0.37/hr
+green-rerank
+GreenPT
+Backed by Qwen3-Reranker-4B
+Cross-encoder reranking model that scores and reorders search or RAG results by relevance to a query.
+Input
+€0.12
+Output
+No output charge
+Context
+32k
+Released
+Jun 2025
+Document reranking
+RAG result scoring
+Multilingual (100+ languages)
+Instruction-aware
+metis
+GreenPT
+New
+Decision model that reads a case once and answers yes/no, multiple-choice and scale questions with a probability for every possible answer. It generates no text. Called through POST /v1/systemone, see Decisions.
+Input
+€0.12
+Output
+No output charge
+Context
+32k
+Released
+Sep 2026
+Yes/no
+Multiple choice
+Ordered scales
+Up to 32 questions per request
+Not recommended model ids
+(
+17
+)
+These ids still answer, but a newer model does the job better. Open Details for an id's price and limits.
+bge-multilingual-gemma2
+BAAI
+Not recommended
+use
+qwen3-embedding-8b
+Details
+and pricing for
+bge-multilingual-gemma2
+Input
+€0.11
+Context
+8k
+Released
+1 April 2026
+deepseek-v4-flash-0731
+DeepSeek
+Not recommended
+use
+deepseek-v4.1-flash
+Details
+and pricing for
+deepseek-v4-flash-0731
+Input
+€0.14
+Cached input
+€0.04
+Output
+€0.35
+Context
+1M
+Released
+3 August 2026
+gemma4
+Google
+Not recommended
+Details
+and pricing for
+gemma4
+Input
+€0.50
+Output
+€1.50
+Context
+256k
+Max output
+32k
+Released
+20 April 2026
+glm-5.2
+z.ai
+Not recommended
+use
+glm-5.3
+Details
+and pricing for
+glm-5.2
+Input
+€1.55
+Cached input
+€0.40
+Output
+€4.60
+Context
+1M
+Released
+29 June 2026
+gpt-oss-120b
+OpenAI
+Not recommended
+Details
+and pricing for
+gpt-oss-120b
+Input
+€0.20
+Output
+€0.70
+Context
+128k
+Max output
+32k
+Released
+7 October 2025
+green-l
+GreenPT
+Not recommended
+Details
+and pricing for
+green-l
+Input
+€0.25
+Output
+€0.80
+Context
+128k
+Max output
+32k
+Released
+9 May 2025
+green-l-raw
+GreenPT
+Not recommended
+Details
+and pricing for
+green-l-raw
+Input
+€0.25
+Output
+€0.80
+Context
+128k
+Max output
+32k
+Released
+9 May 2025
+green-r
+GreenPT
+Not recommended
+Details
+and pricing for
+green-r
+Input
+€0.35
+Output
+€0.95
+Context
+128k
+Max output
+32k
+Released
+9 May 2025
+green-r-raw
+GreenPT
+Not recommended
+Details
+and pricing for
+green-r-raw
+Input
+€0.35
+Output
+€0.95
+Context
+128k
+Max output
+32k
+Released
+9 May 2025
+kimi-k2.6
+Moonshot AI
+Not recommended
+Details
+and pricing for
+kimi-k2.6
+Input
+€0.66
+Cached input
+€0.22
+Output
+€3.75
+Context
+256k
+Max output
+256k
+Released
+30 June 2026
+kimi-k2.7-code
+Moonshot AI
+Not recommended
+Details
+and pricing for
+kimi-k2.7-code
+Input
+€0.77
+Cached input
+€0.198
+Output
+€3.85
+Context
+256k
+Max output
+256k
+Released
+30 June 2026
+llama-3.3-70b-instruct
+Meta
+Not recommended
+Details
+and pricing for
+llama-3.3-70b-instruct
+Input
+€1.10
+Output
+€1.10
+Context
+128k
+Max output
+16k
+Released
+7 October 2025
+mistral-medium-3.5-128b
+Mistral
+Not recommended
+Details
+and pricing for
+mistral-medium-3.5-128b
+Input
+€1.80
+Output
+€9.00
+Context
+180k
+Max output
+16k
+Released
+9 June 2026
+mistral-small-3.2-24b-instruct-2506
+Mistral
+Not recommended
+use
+glm-5.3-flash
+Details
+and pricing for
+mistral-small-3.2-24b-instruct-2506
+Input
+€0.20
+Output
+€0.40
+Context
+128k
+Max output
+32k
+Released
+7 October 2025
+qwen3-235b-a22b-instruct-2507
+Qwen
+Not recommended
+Details
+and pricing for
+qwen3-235b-a22b-instruct-2507
+Input
+€0.90
+Output
+€2.70
+Context
+250k
+Max output
+16k
+Released
+7 October 2025
+qwen3.5-397b-a17b
+Qwen
+Not recommended
+Details
+and pricing for
+qwen3.5-397b-a17b
+Input
+€0.70
+Output
+€4.35
+Context
+250k
+Max output
+16k
+Released
+18 March 2026
+qwen3.6-35b-a3b
+Qwen
+Not recommended
+Details
+and pricing for
+qwen3.6-35b-a3b
+Input
+€0.30
+Output
+€1.80
+Context
+256k
+Max output
+32k
+Released
+9 June 2026
+Deprecated model ids
+(
+10
+)
+An id under a deprecation notice answers until the listed date. A deprecated id is no longer listed by
+GET /v1/models
+, requests to it return
+400 Unsupported model
+, and a direct
+GET /v1/models/{id}
+lookup returns 404.
+pixtral-12b-2409
+Mistral
+Deprecated
+end of life
+24 September 2026
+·
+use
+glm-5.3-flash
+qwen3-coder-30b-a3b-instruct
+Qwen
+Deprecated
+end of life
+24 September 2026
+·
+use
+deepseek-v4.1-flash
+devstral-2-123b-instruct-2512
+Mistral
+Deprecated
+end of life
+1 September 2026
+·
+use
+glm-5.3
+gemma-3-27b-it
+Google
+Deprecated
+end of life
+1 September 2026
+·
+use
+deepseek-v4.1-flash
+holo2-30b-a3b
+H Company
+Deprecated
+end of life
+1 September 2026
+·
+use
+deepseek-v4.1-flash
+voxtral-small-24b-2507
+Mistral
+Deprecated
+end of life
+2 August 2026
+·
+use
+green-s-pro
+deepseek-r1-distill-llama-70b
+DeepSeek
+Deprecated
+end of life
+16 April 2026
+·
+use
+deepseek-v4.1-flash
+mistral-nemo-instruct-2407
+Mistral
+Deprecated
+end of life
+16 April 2026
+·
+use
+deepseek-v4.1-flash
+devstral-small-2505
+Mistral
+Deprecated
+end of life
+14 November 2025
+·
+use
+deepseek-v4.1-flash
+llama-3.1-8b-instruct
+Meta
+Deprecated
+end of life
+14 November 2025
+·
+use
+deepseek-v4.1-flash
+Model changes
+Every release, price change and status change, newest first.
+1 October 2026
+green-s
+Price
+The launch promo ended. Per hour of audio, pre-recorded from EUR 0.12 to 0.23, live from 0.16 to 0.31.
+1 October 2026
+green-s-pro
+Price
+The launch promo ended. Per hour of audio, monolingual pre-recorded from EUR 0.12 to 0.23 and live from 0.16 to 0.31; multilingual pre-recorded from 0.14 to 0.28 and live from 0.19 to 0.37.
+30 September 2026
+metis
+New model
+26 September 2026
+glm-5.2
+Price
+Moved to TensorX. Per 1M tokens, input from EUR 1.25 to 1.55, cached input from 0.30 to 0.40, output from 4.30 to 4.60.
+24 September 2026
+bge-multilingual-gemma2
+Price
+Input from EUR 0.05 to 0.11 per 1M tokens.
+24 September 2026
+glm-5.2
+Price
+Moved to Inceptron. Per 1M tokens, input from EUR 1.10 to 1.25, cached input from 0.275 to 0.30, output from 4.40 to 4.30.
+24 September 2026
+kimi-k2.7-code
+Price
+Cached input from EUR 0.165 to 0.198 per 1M tokens.
+24 September 2026
+pixtral-12b-2409
+Deprecated
+End of life; requests return 400 Unsupported model. Use glm-5.3-flash instead.
+24 September 2026
+qwen3-coder-30b-a3b-instruct
+Deprecated
+End of life; requests return 400 Unsupported model. Use deepseek-v4.1-flash instead.
+22 September 2026
+bge-multilingual-gemma2
+Not recommended
+Moved out of the recommended catalogue.
+22 September 2026
+deepseek-v4-flash-0731
+Not recommended
+Moved out of the recommended catalogue.
+22 September 2026
+gemma4
+Not recommended
+Moved out of the recommended catalogue.
+22 September 2026
+glm-5.2
+Not recommended
+Moved out of the recommended catalogue.
+22 September 2026
+gpt-oss-120b
+Not recommended
+Moved out of the recommended catalogue.
+22 September 2026
+green-l
+Not recommended
+Moved out of the recommended catalogue.
+22 September 2026
+green-l-raw
+Not recommended
+Moved out of the recommended catalogue.
+22 September 2026
+green-r
+Not recommended
+Moved out of the recommended catalogue.
+22 September 2026
+green-r-raw
+Not recommended
+Moved out of the recommended catalogue.
+22 September 2026
+kimi-k2.6
+Not recommended
+Moved out of the recommended catalogue.
+22 September 2026
+kimi-k2.7-code
+Not recommended
+Moved out of the recommended catalogue.
+22 September 2026
+llama-3.3-70b-instruct
+Not recommended
+Moved out of the recommended catalogue.
+22 September 2026
+mistral-medium-3.5-128b
+Not recommended
+Moved out of the recommended catalogue.
+22 September 2026
+mistral-small-3.2-24b-instruct-2506
+Not recommended
+Moved out of the recommended catalogue.
+22 September 2026
+qwen3-235b-a22b-instruct-2507
+Not recommended
+Moved out of the recommended catalogue.
+22 September 2026
+qwen3.5-397b-a17b
+Not recommended
+Moved out of the recommended catalogue.
+22 September 2026
+qwen3.6-35b-a3b
+Not recommended
+Moved out of the recommended catalogue.
+11 September 2026
+deepseek-v4.1-flash
+New model
+1 September 2026
+devstral-2-123b-instruct-2512
+Deprecated
+End of life; requests return 400 Unsupported model. Use glm-5.3 instead.
+1 September 2026
+gemma-3-27b-it
+Deprecated
+End of life; requests return 400 Unsupported model.
+1 September 2026
+holo2-30b-a3b
+Deprecated
+End of life; requests return 400 Unsupported model.
+31 August 2026
+glm-5.3
+New model
+31 August 2026
+glm-5.3-flash
+New model
+3 August 2026
+deepseek-v4-flash-0731
+New model
+2 August 2026
+voxtral-small-24b-2507
+Deprecated
+End of life; requests return 400 Unsupported model. Use green-s-pro instead.
+27 July 2026
+kimi-k3
+New model
+7 July 2026
+minimax-m3
+New model
+30 June 2026
+kimi-k2.6
+New model
+30 June 2026
+kimi-k2.7-code
+New model
+29 June 2026
+devstral-2-123b-instruct-2512
+New model
+29 June 2026
+glm-5.2
+New model
+26 June 2026
+qwen3-embedding-8b
+New model
+9 June 2026
+holo2-30b-a3b
+New model
+9 June 2026
+mistral-medium-3.5-128b
+New model
+9 June 2026
+qwen3.6-35b-a3b
+New model
+20 April 2026
+gemma-3-27b-it
+New model
+20 April 2026
+gemma4
+New model
+16 April 2026
+deepseek-r1-distill-llama-70b
+Deprecated
+End of life; requests return 400 Unsupported model.
+16 April 2026
+mistral-nemo-instruct-2407
+Deprecated
+End of life; requests return 400 Unsupported model.
+1 April 2026
+bge-multilingual-gemma2
+New model
+1 April 2026
+pixtral-12b-2409
+New model
+18 March 2026
+qwen3.5-397b-a17b
+New model
+14 November 2025
+devstral-small-2505
+Deprecated
+End of life; requests return 400 Unsupported model.
+14 November 2025
+llama-3.1-8b-instruct
+Deprecated
+End of life; requests return 400 Unsupported model.
+7 October 2025
+deepseek-r1-distill-llama-70b
+New model
+7 October 2025
+devstral-small-2505
+New model
+7 October 2025
+gpt-oss-120b
+New model
+7 October 2025
+llama-3.1-8b-instruct
+New model
+7 October 2025
+llama-3.3-70b-instruct
+New model
+7 October 2025
+mistral-nemo-instruct-2407
+New model
+7 October 2025
+mistral-small-3.2-24b-instruct-2506
+New model
+7 October 2025
+qwen3-235b-a22b-instruct-2507
+New model
+7 October 2025
+qwen3-coder-30b-a3b-instruct
+New model
+7 October 2025
+voxtral-small-24b-2507
+New model
+10 September 2025
+green-embedding
+New model
+10 September 2025
+green-rerank
+New model
+10 September 2025
+green-s-pro
+New model
+9 June 2025
+green-s
+New model
+9 May 2025
+green-l
+New model
+9 May 2025
+green-l-raw
+New model
+9 May 2025
+green-r
+New model
+9 May 2025
+green-r-raw
+New model
+Built-in system prompts
+Some ids carry a system prompt of their own, so the id you send decides which
+rules the model gets on top of yours:
+Compression models
+(
+glm-5.2-caveman
+,
+-honey
+and
+-ponytail
+, each
+also in
+-lite
+and
+-ultra
+) carry an output-compression ruleset: the same
+model and price per token as
+glm-5.2
+, with a shorter answer. See
+Compression models
+.
+GreenPT models
+(
+green-l
+,
+green-r
+) carry GreenPT's Sustainability
+system prompt, optimized for our use cases; their raw twins (
+green-l-raw
+,
+green-r-raw
+) carry none, so yours is the only system prompt sent to the model.
+Every other id in the catalog carries no system prompt.
+When a model carries one and you send one too, both go to the model as a single
+system message: yours first, the model's rules last. Picking the id is an
+explicit opt-in to that style, so on a conflict the model's rules win over a
+generic prompt your client happens to send. A
+developer
+message counts as a
+system message here and merges the same way.
+Catalog Notes
+All models are served through the GreenPT API proxy with an OpenAI-compatible
+interface. Prices are in EUR per million tokens unless noted otherwise, and
+API pricing applies to API usage only. For how we measure the environmental
+footprint of a request, see
+Carbon calculations
+.
+Models API
+GreenPT Models API. List the models available through the OpenAI-compatible endpoint and their capabilities.
+Chat Completion
+Create a chat completion with a GreenPT model. We recommend glm-5.3.
+On this page
+Catalog
+Built-in system prompts
+Catalog Notes

@@ -176,6 +176,7 @@ DDoS
 DDoS
 DDoS
 DDoS
+DDoS
 DNS
 DNS
 DNS
@@ -302,6 +303,7 @@ Gcore
 Gcore
 Gcore
 Gcore.
+Get
 Get
 Get
 Get
@@ -498,7 +500,6 @@ Protect
 Protect
 Protect
 Protect
-Protect
 Protection
 Protection
 Protection
@@ -587,7 +588,6 @@ Shield
 Shield
 Sign
 Sign
-Sign
 Solutions
 Solutions
 Solutions
@@ -595,6 +595,7 @@ Sovereignty
 Sovereignty
 Speech
 Spotlight
+Start
 Start
 Startup
 Startup
@@ -810,7 +811,6 @@ and
 and
 and
 and
-and
 answers
 answers
 any
@@ -862,7 +862,6 @@ at
 at
 at
 attack?
-attacks
 attacks
 attacks
 attacks
@@ -1120,10 +1119,8 @@ for
 for
 for
 for
-for
 free
 free
-from
 from
 from
 from
@@ -1297,7 +1294,6 @@ million
 minimal
 minimal
 minute
-mistakes.
 model
 model
 model
@@ -1345,6 +1341,7 @@ next
 noisy
 not
 now
+now.
 of
 of
 of
@@ -1375,6 +1372,7 @@ on
 on
 on-demand
 on-demand
+onboarding
 online
 online
 only
@@ -1395,7 +1393,6 @@ origin
 origin
 other
 other
-our
 our
 our
 our
@@ -1488,6 +1485,7 @@ property
 proprietary
 protected
 protecting
+protection
 protection.
 providers
 providers
@@ -1571,7 +1569,6 @@ securely
 securely
 sensitive
 sensitive
-server
 serverless
 serverless
 serverless
@@ -1586,7 +1583,6 @@ services
 services
 services,
 services.
-setup
 setup
 setup
 setup.
@@ -1667,7 +1663,6 @@ surprises
 systems
 systems
 systems,
-targeted
 team
 team
 team
@@ -1798,7 +1793,6 @@ unwanted
 unwanted
 up
 up
-up
 upcoming
 upcoming
 updates
@@ -1851,7 +1845,6 @@ we
 we'll
 we'll
 web
-webinar
 what
 what
 what's
@@ -1937,7 +1930,6 @@ you
 you
 you
 you
-your
 your
 your
 your

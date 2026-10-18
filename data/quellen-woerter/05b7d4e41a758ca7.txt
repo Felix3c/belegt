@@ -135,14 +135,6 @@
 &amp;
 &amp;
 &amp;
-&amp;
-&amp;
-&amp;
-&amp;
-&amp;
-&amp;
-&amp;
-&amp;
 &lt;div
 &lt;div
 &lt;div
@@ -221,8 +213,6 @@
 -
 -
 .
-/
-/
 /
 /
 /
@@ -580,8 +570,6 @@ Billing:
 Block
 Block
 Block
-Block
-Block
 Blog
 Both
 Bring
@@ -820,12 +808,6 @@ Coming
 Coming
 Coming
 Coming
-Coming
-Coming
-Coming
-Coming
-Coming
-Coming
 Commercial
 Community
 Community
@@ -896,8 +878,6 @@ Compute
 Compute
 Compute
 Compute
-Compute
-Compute
 Compute,
 Compute-intensive
 Conditions
@@ -913,8 +893,6 @@ Contact
 Contact
 Contact
 Container
-Containers
-Containers
 Containers
 Containers
 Containers
@@ -1377,8 +1355,6 @@ IAM
 IAM
 IAM
 IAM
-IAM
-IAM
 IAM,
 IAM,
 ICANN
@@ -1486,8 +1462,6 @@ KMS
 KMS
 KMS
 KMS
-KMS
-KMS
 KMS,
 KMS,
 KVM
@@ -1578,8 +1552,6 @@ Logs
 Logs
 Logs
 Logs
-Logs
-Logs
 Logs,
 Logs,
 MB
@@ -1604,8 +1576,6 @@ Manage
 Manage
 Manage
 Manage
-Managed
-Managed
 Managed
 Managed
 Managed
@@ -1670,8 +1640,6 @@ Metal,
 Metrics
 Metrics
 Metrics
-Metrics
-Metrics
 Metrics,
 Metrics,
 Microsoft
@@ -1721,8 +1689,6 @@ Nano,
 Native
 Native
 NetApp
-Network
-Network
 Network
 Network
 Network
@@ -1963,8 +1929,6 @@ OVHcloud’s
 Object
 Object
 Object
-Object
-Object
 Observability
 Observability
 Observability
@@ -2008,8 +1972,6 @@ Optimised
 Optimised
 Optimised
 Optimised
-Orchestration
-Orchestration
 Our
 Our
 Our
@@ -2553,8 +2515,6 @@ Solutions
 Solutions
 Solutions
 Solutions
-Soon
-Soon
 Sovereign
 Sovereign
 Sovereignty
@@ -2583,10 +2543,6 @@ Startup
 Startup
 Status
 Stay
-Storage
-Storage
-Storage
-Storage
 Storage
 Storage
 Storage
@@ -3784,8 +3740,6 @@ data.
 data.
 data.
 database
-databases
-databases
 databases
 databases
 databases
@@ -5392,12 +5346,6 @@ solutions
 solutions
 solutions
 solutions
-soon
-soon
-soon
-soon
-soon
-soon
 soon
 soon
 soon
