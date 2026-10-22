@@ -60,6 +60,36 @@ test("setzeGeprueft: ohne Feld-geprueft wird es direkt hinter der quelle eingef�
   assert.equal(out, '{\n  "x": { "status": "belegt", "quelle": "https://a.example/p", "geprueft": "2026-09-28", "anmerkung": "a" },\n  "geprueft": "2026-08-01"\n}');
 });
 
+test("setzeGeprueft: mehrere Belege in einer Zeile, nur das Datum hinter der passenden quelle (OVHcloud HDS, 21.10.)", () => {
+  // Echte Form: Zertifikat mit gesperrtem Register als quelle, Anwendungsbereich mit eigener, geprüfter quelle.
+  // Bis 21.10. ersetzte der Lauf das erste Datum der Zeile, also das des Registers, das er gar nicht lesen konnte.
+  const src = [
+    '{',
+    '  "zertifikate": [',
+    '    { "typ": "HDS", "status": "belegt", "quelle": "https://reg.example/liste", "geprueft": "2026-10-14", "anwendungsbereich": { "wert": "1-6", "quelle": "https://doku.example/hds", "geprueft": "2026-10-14" }, "zertifizierer": { "wert": "X", "quelle": "https://reg.example/liste", "geprueft": "2026-10-14" } }',
+    '  ],',
+    '  "geprueft": "2026-10-14"',
+    '}',
+  ].join("\n");
+  const out = setzeGeprueft(src, "https://doku.example/hds", "2026-10-21");
+  assert.match(out, /"quelle": "https:\/\/reg.example\/liste", "geprueft": "2026-10-14", "anwendungsbereich"/);
+  assert.match(out, /"quelle": "https:\/\/doku.example\/hds", "geprueft": "2026-10-21"/);
+  assert.match(out, /"wert": "X", "quelle": "https:\/\/reg.example\/liste", "geprueft": "2026-10-14"/);
+  assert.ok(JSON.parse(out));
+  // Umgekehrt: Register geprüft → beide Register-Daten neu, Doku-Datum bleibt.
+  const out2 = setzeGeprueft(src, "https://reg.example/liste", "2026-10-21");
+  assert.equal((out2.match(/"geprueft": "2026-10-21"/g) || []).length, 2);
+  assert.match(out2, /"quelle": "https:\/\/doku.example\/hds", "geprueft": "2026-10-14"/);
+});
+
+test("setzeGeprueft: Beleg ohne Datum neben einem mit Datum in derselben Zeile bekommt ein eigenes", () => {
+  const src = '{\n  "x": { "quelle": "https://b.example/q", "geprueft": "2026-08-01", "y": { "quelle": "https://a.example/p", "anmerkung": "a" } },\n  "geprueft": "2026-08-01"\n}';
+  const out = setzeGeprueft(src, "https://a.example/p", "2026-09-28");
+  assert.match(out, /"quelle": "https:\/\/b.example\/q", "geprueft": "2026-08-01"/);
+  assert.match(out, /"quelle": "https:\/\/a.example\/p", "geprueft": "2026-09-28", "anmerkung"/);
+  assert.ok(JSON.parse(out));
+});
+
 test("setzeGeprueft: URL-Präfix trifft keine andere URL", () => {
   const src = '{\n  "x": { "quelle": "https://a.example/p-lang", "anmerkung": "a" },\n  "geprueft": "2026-08-01"\n}';
   assert.equal(setzeGeprueft(src, "https://a.example/p", "2026-09-28"), src);

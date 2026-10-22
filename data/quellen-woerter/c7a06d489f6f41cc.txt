@@ -1,7 +1,6 @@
 %
 &
 &
-&
 &amp;
 &amp;
 &amp;
@@ -68,10 +67,6 @@
 0,15
 0,15
 0,15
-0,15
-0,15
-0,15
-0,15
 0,30
 0,30
 0,40
@@ -101,8 +96,6 @@
 030
 030
 030
-1
-1
 1
 1
 1
@@ -123,7 +116,7 @@
 1&amp;1
 100
 100.000€
-18
+17
 18
 18
 2
@@ -338,7 +331,6 @@ CLOUD
 CLOUD
 CLOUD
 CLOUD-Marktplatz
-CLOUD?
 Cases
 Center
 Center
@@ -432,6 +424,7 @@ Cloud-Speicher
 Cloud-Tools
 Cloud:
 Cloud:
+Cloud?
 Clustering.
 Co.
 Code
@@ -625,6 +618,7 @@ Erstellen
 Erstellen
 Erstellen
 Erstellung
+Erweitern
 Erweiterungen
 Erzeugen
 Erzielen
@@ -852,6 +846,7 @@ Ihre
 Ihre
 Ihre
 Ihre
+Ihre
 Ihrem
 Ihrem
 Ihren
@@ -900,12 +895,9 @@ Input-Token
 Input-Token
 Input-Token
 Input-Token
-Input-Token
 Instagram
 Instanzen
 Institutionen
-Instruct
-Instruct
 Instruct
 Instruct
 Instruct
@@ -1116,12 +1108,8 @@ Million
 Million
 Million
 Million
-Million
-Million
 Millionen
 Minuten
-Mistral
-Mistral
 Mistral
 Mistral
 Mit
@@ -1157,7 +1145,6 @@ Modell
 Modell
 Modell
 Modell
-Modell
 Modelle
 Modelle
 Modellen
@@ -1183,8 +1170,6 @@ NVMe-Speicher
 NVMe-Speicher
 NVMe-Speicher
 Nachhaltigkeit
-Nemo
-Nemo
 Network
 Network
 Network
@@ -1264,6 +1249,7 @@ On
 Online-Nutzung,
 Online-Präsenz
 Online-Präsenz
+Online-Präsenz
 Online-Zahlungen
 Onlineshop
 Onlineshop
@@ -1286,7 +1272,6 @@ OpenNebula
 Optimieren
 Optimiertes
 Optionen
-Output-Token
 Output-Token
 Output-Token
 Output-Token
@@ -1329,8 +1314,6 @@ PostgreSQL
 Power
 Power
 Praxis
-Preis
-Preis
 Preis
 Preis
 Preis
@@ -1506,6 +1489,7 @@ Sicherheit
 Sicherheit
 Sicherheit
 Sicherheitsfunktionen
+Sie
 Sie
 Sie
 Sie
@@ -2322,8 +2306,6 @@ pro
 pro
 pro
 pro
-pro
-pro
 produktiver
 professionell
 professionell
@@ -2402,6 +2384,7 @@ testen
 testen
 testen
 transformieren
+um
 um
 umfassenden
 umweltschonenden
@@ -2524,6 +2507,7 @@ voraus.
 vs.
 was
 wechseln
+weitere
 weltweiten,
 weniger
 werden
@@ -2594,10 +2578,6 @@ zwischen
 –
 –
 –
-€
-€
-€
-€
 €
 €
 €

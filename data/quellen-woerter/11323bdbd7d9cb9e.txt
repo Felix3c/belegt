@@ -35,6 +35,7 @@
 3
 3
 3
+3
 4B
 9B
 A
@@ -130,6 +131,7 @@ FLUX
 FLUX
 FLUX
 FLUX
+FLUX
 FLUX.1
 FLUX.2
 FLUX.2
@@ -173,6 +175,7 @@ Legal
 License
 Licensing
 Managed
+Max
 Microsoft
 Microsoft-backed
 Models

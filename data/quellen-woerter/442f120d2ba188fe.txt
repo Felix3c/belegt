@@ -76,13 +76,13 @@
 2),
 2026
 2026
+21
 27001,
 30
 30
 30
 30
 5.9
-6
 600+
 71‑75
 8.1
@@ -183,6 +183,7 @@ Docs
 Doubleword
 Doubleword
 Due‑diligence
+EMEA
 EU
 EU
 EU
@@ -235,7 +236,6 @@ Guides
 Helicone
 ISO
 If
-Inc.
 Inc.
 Inc.
 Inc.
@@ -513,6 +513,7 @@ Router
 Routing
 Runware
 Runware
+SARL
 SAS
 SAS
 SOC

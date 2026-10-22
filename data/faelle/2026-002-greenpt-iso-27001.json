@@ -112,6 +112,10 @@
     {
       "datum": "2026-10-16",
       "ereignis": "Datenschutzerklärung von GreenPT in neuer Fassung („Last updated October 14, 2026“, Abruf 16.10.2026): „ISO 27001, ISO 50001 and HDS certified infrastructure (certifications held by our hosting provider Scaleway; GreenPT BV is working towards its own ISO 27001 certification)“. Damit ordnet GreenPT das Zertifikat erstmals in einem eigenen Dokument der Infrastruktur zu. Der Footer der Website zeigt am 16.10.2026 weiter „Verified by independent audit · GDPR compliant · ISO 27001 · EU Hosted“ ohne Zuordnung, die Seite greenpt.com/privacy weiter „Our infrastructure maintains ISO 27001 and SOC 2 Type II certifications“. Textkopie belege/anbieter/greenpt/privacy-policy-2026-10-16.txt, SHA-256 d8c656798366a04bd4da7e3d4c77bb640e794180170b34f03c4f87c2e0ad1569. Status bleibt „bestätigt“; ausgeräumt erst, wenn das Badge selbst zugeordnet ist (Auflösung 1)."
+    },
+    {
+      "datum": "2026-10-21",
+      "ereignis": "Auch die Seite greenpt.com/privacy ordnet das Zertifikat jetzt den Rechenzentren zu: Abschnitt „Security Certifications“ lautet „The data centres we run on are ISO 27001 certified for information security. GreenPT BV is working towards its own ISO 27001 certification.“; der Satz „Our infrastructure maintains ISO 27001 and SOC 2 Type II certifications“ und jede Erwähnung von SOC 2 sind weg (Abruf 21.10.2026, Textkopie belege/anbieter/greenpt/privacy-2026-10-21.txt, SHA-256 12dec8a08be18165bdc86626a666e9583310a681fd288e550b18297dd8a4a60b). Der Footer zeigt weiter „Verified by independent audit · GDPR compliant · ISO 27001 · EU Hosted“ ohne Zuordnung. Status bleibt „bestätigt“; ausgeräumt erst, wenn das Badge selbst zugeordnet ist (Auflösung 1)."
     }
   ]
 }

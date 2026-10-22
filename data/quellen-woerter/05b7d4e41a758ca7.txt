@@ -126,15 +126,6 @@
 &amp;
 &amp;
 &amp;
-&amp;
-&amp;
-&amp;
-&amp;
-&amp;
-&amp;
-&amp;
-&amp;
-&amp;
 &lt;div
 &lt;div
 &lt;div
@@ -331,15 +322,11 @@ AI
 AI
 AI
 AI
-AI
-AI
 AI-powered
 AI-powered
 AND
 ANSSI-qualified
 ANSSI-qualified
-API
-API
 API
 API
 API
@@ -403,8 +390,6 @@ Agentic
 Agentless
 Aggregation
 Aggregation
-Air
-Air
 Airflow
 Airflow
 All
@@ -424,7 +409,6 @@ Already
 Already
 An
 An
-Analytics
 Analytics
 Analytics
 Analytics
@@ -524,7 +508,6 @@ Bare
 Bare
 Bare
 Bare
-Bare
 Base
 Base
 Base
@@ -563,7 +546,6 @@ Become
 Benefits
 Benefits
 Beta
-Big
 Billing
 Billing
 Billing:
@@ -588,7 +570,6 @@ By
 CDN
 CDN
 CEPH
-CEPH,
 CLI
 CLI
 CLI
@@ -645,7 +626,6 @@ Certifications
 Certifications
 Certifications
 Certifications
-Certified
 Changelog
 Changelog
 Changelog
@@ -761,10 +741,6 @@ Cloud
 Cloud
 Cloud
 Cloud
-Cloud
-Cloud
-Cloud
-Cloud
 Cloud-Native
 Cloud-Native
 Cloud-Native
@@ -789,18 +765,6 @@ Code,
 Coding
 Cold
 Cold
-Coming
-Coming
-Coming
-Coming
-Coming
-Coming
-Coming
-Coming
-Coming
-Coming
-Coming
-Coming
 Coming
 Coming
 Coming
@@ -876,8 +840,6 @@ Comprehensive
 Compute
 Compute
 Compute
-Compute
-Compute
 Compute,
 Compute-intensive
 Conditions
@@ -918,7 +880,6 @@ Customer
 Customisable
 Cutting-edge
 Cutting-edge
-DB
 DDoS
 DDoS
 DDoS
@@ -935,7 +896,6 @@ DOMAINS
 Dashboards
 Dashboards
 Dashboards
-Dashboards,
 Data
 Data
 Data
@@ -977,8 +937,6 @@ Deploy
 Deploy
 Deployed
 Deployed
-Deployment
-Deployment
 Design,
 Designed
 Designed
@@ -1153,7 +1111,6 @@ FOCUS
 FOR
 FOUNDATIONS
 FOUNDATIONS
-Fabric,
 Face
 Face
 Face.
@@ -1206,7 +1163,6 @@ GPU
 GPU
 GPU
 GPU
-GPU,
 GPUs
 GPUs
 GPUs
@@ -1220,8 +1176,6 @@ Game
 Game
 Game
 Game
-Gap
-Gap
 Gateway
 Gateway
 Gateway
@@ -1246,8 +1200,6 @@ Go
 Go
 Gouvernance
 Gouvernance
-Governance
-Governance
 Governance:
 Grade
 Grade
@@ -1290,7 +1242,6 @@ HANA
 HANA
 HANA
 HANA
-HANA
 HANA-certified
 HCI
 HDS
@@ -1298,8 +1249,6 @@ HOSTED
 HOSTING
 HOSTING
 HOSTING
-HPC
-HPC
 HSM
 HSM
 HSM
@@ -1353,9 +1302,6 @@ I
 I
 IAM
 IAM
-IAM
-IAM
-IAM,
 IAM,
 ICANN
 ID).
@@ -1389,9 +1335,6 @@ IPs
 IPs
 IPs,
 ISO
-ISVs
-IaC
-IaC
 Icons/concept/Hands/Handshake
 Ideal
 Identities
@@ -1461,7 +1404,6 @@ Jupyter
 KMS
 KMS
 KMS
-KMS
 KMS,
 KMS,
 KVM
@@ -1488,7 +1430,6 @@ Kubernetes
 Kubernetes
 Kubernetes
 Kubernetes,
-Kubernetes,
 L233-3
 L4
 L4
@@ -1504,7 +1445,6 @@ Landing
 Landing
 Landing
 Landing
-Large
 Launch
 Learn
 Learn
@@ -1553,15 +1493,12 @@ Logs
 Logs
 Logs
 Logs,
-Logs,
 MB
 MB)
 MCP
 MCP
 MCP
 METAL
-MFA,
-ML
 MODE
 MODE
 Machine
@@ -1613,8 +1550,6 @@ Management
 Management
 Management
 Management
-Management
-Management
 Manager
 Manager
 Manager
@@ -1636,11 +1571,9 @@ Metal
 Metal
 Metal
 Metal
-Metal,
 Metrics
 Metrics
 Metrics
-Metrics,
 Metrics,
 Microsoft
 Microsoft
@@ -1656,7 +1589,6 @@ Monitor
 Monitor
 Monitor,
 Monitor,
-Monitoring
 More
 More
 Multi-cluster,
@@ -1685,9 +1617,6 @@ NSX-T
 NSX-T
 NVIDIA
 NVIDIA
-Nano,
-Native
-Native
 NetApp
 Network
 Network
@@ -1704,9 +1633,6 @@ Network
 Network
 Network
 Network
-Network
-Network,
-Network,
 Network,
 Networking
 Networking
@@ -1718,7 +1644,6 @@ No
 No
 NoSQL
 NoSQL
-Nodes
 Nodes
 Nodes
 Nodes
@@ -1742,7 +1667,6 @@ Nutanix
 Nutanix
 Nutanix
 Nutanix,
-Nutanix,
 Nvidia
 Nvidia
 Nvidia
@@ -1763,8 +1687,6 @@ OBSERVABILITY
 OBSERVABILITY
 ON-PREM
 ONTAP
-OPCP
-OPCP
 OPCP
 OS
 OS
@@ -1933,8 +1855,6 @@ Observability
 Observability
 Observability
 Observability
-Observability
-Observability
 On-Prem
 On-Prem
 On-demand
@@ -1946,7 +1866,6 @@ Open
 Open-source
 Open-source
 Open-source
-Open-source
 OpenAI
 OpenAI)
 OpenAI-compatible
@@ -1955,7 +1874,6 @@ OpenCode
 OpenCode,
 OpenSearch
 OpenSearch
-OpenStack,
 OpenZFS
 Operations
 Operations
@@ -1996,9 +1914,6 @@ PROTECTION
 PROTECTION
 PROTECTION
 PROTECTION
-Package
-Packager
-Packager
 Packs
 Packs
 Panels
@@ -2070,8 +1985,6 @@ Pod
 Pod
 Pod
 Popular
-Portal,
-Portal,
 PostgreSQL
 PostgreSQL
 PostgreSQL
@@ -2160,8 +2073,6 @@ Protection
 Protection
 Protection
 Providing
-Provision
-Proxmox
 Proxmox
 Public
 Public
@@ -2203,13 +2114,10 @@ Quantum
 Quantum
 Queuing
 Quickly
-Quotas
-Quotas
 RAM,
 RAM,
 RANGES
 RANGES
-RBAC,
 RCS
 RPC
 Rancher
@@ -2329,7 +2237,6 @@ SAP
 SAP
 SAP
 SAP
-SAP
 SAS.
 SDDC
 SDK,
@@ -2368,7 +2275,6 @@ SSL
 SSL
 SSL
 SSL
-SSO,
 Sales
 Savings
 Savings
@@ -2433,8 +2339,6 @@ Security
 Security
 Security
 Security
-Security,
-Security,
 See
 See
 See
@@ -2457,8 +2361,6 @@ Select
 Select
 Select
 Select
-Self-Service
-Self-Service
 Server
 Server
 Serverless
@@ -2526,7 +2428,6 @@ Speed
 Spend
 Spend
 Standard
-Standard,
 Start
 Start
 Starter,
@@ -2561,14 +2462,9 @@ Storage
 Storage
 Storage
 Storage
-Storage
-Storage
 Storage,
 Storage,
 Storage,
-Storage,
-Store
-Store
 Store,
 Stream
 Stream
@@ -2583,8 +2479,6 @@ TECHNOLOGIES
 THE
 TTS/STT,
 Take
-Tenant
-Tenant
 Terms
 Terraform
 Terraform
@@ -2720,7 +2614,6 @@ VMware
 VMware
 VMware
 VMware,
-VMware,
 VPC
 VPC
 VPS
@@ -2762,9 +2655,6 @@ Virtual
 Virtual
 Virtual
 Virtual
-Virtual
-Virtualisation
-Virtualisation
 Virtualisation
 Virtualisation
 Virtually
@@ -2924,7 +2814,6 @@ access
 access
 access
 access
-access
 accessed
 accessible
 accessible
@@ -2994,7 +2883,6 @@ all
 all
 all
 all
-allocation
 allowing
 already
 already
@@ -3053,12 +2941,6 @@ analysis
 analysis),
 analysis,
 analytics
-and
-and
-and
-and
-and
-and
 and
 and
 and
@@ -3505,7 +3387,6 @@ cases
 cases
 catalogue
 catalogue
-catalogue,
 centralised,
 centre
 certificates
@@ -3732,7 +3613,6 @@ data
 data
 data
 data
-data
 data)
 data,
 data,
@@ -3759,7 +3639,6 @@ defined
 defined
 delay
 delivered
-demand
 demand
 demand
 demanding
@@ -3793,7 +3672,6 @@ directly
 directly
 directly
 disclosure
-disk
 disks,
 displayed
 dispute
@@ -3843,7 +3721,6 @@ enable,
 encrypted
 encryption
 encryption
-encryption,
 end
 ends.
 engagement,
@@ -4045,7 +3922,6 @@ framework
 framework
 framework
 framework.
-frameworks,
 fraudulent
 fraudulent
 free
@@ -4401,7 +4277,6 @@ library
 licence
 licences
 licences
-licences,
 limit:
 limited
 limits
@@ -4433,7 +4308,6 @@ lower
 machine
 machines
 machines
-machines,
 made
 maintain
 make
@@ -4458,7 +4332,6 @@ managed
 managed
 managed,
 managed:
-management
 management
 management
 management
@@ -4510,8 +4383,6 @@ mission.
 mode
 mode,
 mode:
-model
-model
 model
 model
 model
@@ -4725,7 +4596,6 @@ offers
 offers
 offers
 offers
-on
 on
 on
 on
@@ -5175,8 +5045,6 @@ resilience
 resilience
 resilient
 resolved
-resource
-resources
 resources
 resources
 resources
@@ -5271,13 +5139,11 @@ service
 service
 service
 service
-service
 service,
 service,
 service,
 service,
 service?
-services
 services
 services
 services
@@ -5346,18 +5212,6 @@ solutions
 solutions
 solutions
 solutions
-soon
-soon
-soon
-soon
-soon
-soon
-soon
-soon
-soon
-soon
-soon
-soon
 soon
 soon
 soon
@@ -6043,8 +5897,6 @@ you
 you
 you
 you'll
-your
-your
 your
 your
 your

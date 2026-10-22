@@ -127,15 +127,6 @@
 &amp;
 &amp;
 &amp;
-&amp;
-&amp;
-&amp;
-&amp;
-&amp;
-&amp;
-&amp;
-&amp;
-&amp;
 &lt;div
 &lt;div
 &lt;div
@@ -260,13 +251,9 @@ AI
 AI
 AI
 AI
-AI
-AI
 AND
 ANSSI-qualified
 ANSSI-qualified
-API
-API
 API
 API
 API
@@ -313,8 +300,6 @@ Agent),
 Agentless
 Aggregation
 Aggregation
-Air
-Air
 All
 All
 All
@@ -330,7 +315,6 @@ All
 All
 Already
 An
-Analytics
 Analytics
 Analytics
 Analytics
@@ -423,7 +407,6 @@ Bare
 Bare
 Bare
 Bare
-Bare
 Base
 Base
 Batch
@@ -455,7 +438,6 @@ Become
 Become
 Become
 Become
-Big
 Billing
 Block
 Block
@@ -475,7 +457,6 @@ Business
 CDN
 CDN
 CEPH
-CEPH,
 CLI
 CLI
 CLI
@@ -530,7 +511,6 @@ Certifications
 Certifications
 Certifications
 Certifications
-Certified
 Changelog
 Changelog
 Changelog
@@ -628,10 +608,6 @@ Cloud
 Cloud
 Cloud
 Cloud
-Cloud
-Cloud
-Cloud
-Cloud
 Cloud-Native
 Cloud-Native
 Cloud-Native
@@ -650,18 +626,6 @@ Cluster
 Code
 Cold
 Cold
-Coming
-Coming
-Coming
-Coming
-Coming
-Coming
-Coming
-Coming
-Coming
-Coming
-Coming
-Coming
 Coming
 Coming
 Coming
@@ -737,8 +701,6 @@ Compute
 Compute
 Compute
 Compute
-Compute
-Compute
 Compute-intensive
 Connect
 Connect
@@ -769,7 +731,6 @@ Customer
 Customisable
 Cutting-edge
 Cutting-edge
-DB
 DDoS
 DDoS
 DDoS
@@ -786,7 +747,6 @@ DOMAINS
 Dashboards
 Dashboards
 Dashboards
-Dashboards,
 Data
 Data
 Data
@@ -827,8 +787,6 @@ Deploy
 Deploy
 Deployed
 Deployed
-Deployment
-Deployment
 Designed
 Designed
 Designed
@@ -968,7 +926,6 @@ FOCUS
 FOR
 FOUNDATIONS
 FOUNDATIONS
-Fabric,
 File
 File
 File
@@ -1001,7 +958,6 @@ GPU
 GPU
 GPU
 GPU
-GPU,
 GPUs
 GPUs
 GPUs
@@ -1015,8 +971,6 @@ Game
 Game
 Game
 Game
-Gap
-Gap
 Gateway
 Gateway
 Gateway
@@ -1031,8 +985,6 @@ Go
 Go
 Gouvernance
 Gouvernance
-Governance
-Governance
 Governance:
 Grade
 Grade
@@ -1067,15 +1019,12 @@ HANA
 HANA
 HANA
 HANA
-HANA
 HANA-certified
 HCI
 HOSTED
 HOSTING
 HOSTING
 HOSTING
-HPC
-HPC
 HSM
 HSM
 HSM
@@ -1127,9 +1076,6 @@ I
 I
 IAM
 IAM
-IAM
-IAM
-IAM,
 IAM,
 ICANN
 INFRASTRUCTURE
@@ -1168,9 +1114,6 @@ ISO/IEC
 ISO/IEC
 ISO/IEC
 ISO/IEC
-ISVs
-IaC
-IaC
 Identities
 Identity
 Identity
@@ -1232,7 +1175,6 @@ Jupyter
 KMS
 KMS
 KMS
-KMS
 KMS,
 KMS,
 KVM
@@ -1253,7 +1195,6 @@ Kubernetes
 Kubernetes
 Kubernetes
 Kubernetes,
-Kubernetes,
 Kubernetes®
 L4
 L4
@@ -1267,7 +1208,6 @@ Landing
 Landing
 Landing
 Landing
-Large
 Learn
 Learning
 Learning
@@ -1305,13 +1245,10 @@ Logs
 Logs
 Logs
 Logs,
-Logs,
 MCP
 MCP
 MCP
 METAL
-MFA,
-ML
 MODE
 MODE
 Machine
@@ -1364,8 +1301,6 @@ Management
 Management
 Management
 Management
-Management
-Management
 Manager
 Manager
 Manager
@@ -1385,11 +1320,9 @@ Metal
 Metal
 Metal
 Metal
-Metal,
 Metrics
 Metrics
 Metrics
-Metrics,
 Metrics,
 Microsoft
 Microsoft
@@ -1405,7 +1338,6 @@ Monitor
 Monitor
 Monitor,
 Monitor,
-Monitoring
 Multi-cluster,
 Multisites
 Multisites
@@ -1424,10 +1356,7 @@ NSX-T
 NSX-T
 NVIDIA
 NVIDIA
-Nano,
 National
-Native
-Native
 Need
 NetApp
 Network
@@ -1445,9 +1374,6 @@ Network
 Network
 Network
 Network
-Network
-Network,
-Network,
 Networking
 Networking
 New
@@ -1458,7 +1384,6 @@ No
 No
 NoSQL
 NoSQL
-Nodes
 Nodes
 Nodes
 Nodes
@@ -1482,7 +1407,6 @@ Nutanix
 Nutanix
 Nutanix
 Nutanix,
-Nutanix,
 Nvidia
 Nvidia
 Nvidia
@@ -1503,8 +1427,6 @@ OBSERVABILITY
 OBSERVABILITY
 ON-PREM
 ONTAP
-OPCP
-OPCP
 OPCP
 OS
 OS
@@ -1642,8 +1564,6 @@ Observability
 Observability
 Observability
 Observability
-Observability
-Observability
 On-Prem
 On-Prem
 On-demand
@@ -1651,10 +1571,8 @@ On-demand
 On-site
 Open
 Open
-Open-source
 OpenSearch
 OpenSearch
-OpenStack,
 OpenZFS
 Operations
 Operations
@@ -1693,9 +1611,6 @@ PROTECTION
 PROTECTION
 PROTECTION
 PROTECTION
-Package
-Packager
-Packager
 Packs
 Packs
 Panels
@@ -1768,8 +1683,6 @@ Pod
 Pod
 Pod
 Pod
-Portal,
-Portal,
 PostgreSQL
 PostgreSQL
 PostgreSQL
@@ -1858,8 +1771,6 @@ Protection
 Protection
 Protection
 Protection
-Provision
-Proxmox
 Proxmox
 Public
 Public
@@ -1884,13 +1795,10 @@ Quantum
 Quantum
 Queuing
 Quickly
-Quotas
-Quotas
 RAM,
 RAM,
 RANGES
 RANGES
-RBAC,
 RPC
 Rancher
 Rancher
@@ -1999,7 +1907,6 @@ SAP
 SAP
 SAP
 SAP
-SAP
 SAS.
 SDDC
 SDK,
@@ -2031,7 +1938,6 @@ SSL
 SSL
 SSL
 SSL
-SSO,
 Sales
 Savings
 Savings
@@ -2094,8 +2000,6 @@ Security
 Security
 Security
 Security
-Security,
-Security,
 See
 See
 Select
@@ -2104,8 +2008,6 @@ Select
 Select
 Select
 Select
-Self-Service
-Self-Service
 Server
 Server
 Serverless
@@ -2167,7 +2069,6 @@ Special
 Speed
 Spend
 Spend
-Standard,
 Starter,
 Startup
 Startup
@@ -2201,13 +2102,8 @@ Storage
 Storage
 Storage
 Storage
-Storage
-Storage
 Storage,
 Storage,
-Storage,
-Store
-Store
 Store,
 Stream
 Stream
@@ -2221,8 +2117,6 @@ System
 TDI-compliant
 TECHNOLOGIES
 THE
-Tenant
-Tenant
 Terraform
 Terraform
 Terraform
@@ -2326,7 +2220,6 @@ VMware
 VMware
 VMware
 VMware,
-VMware,
 VPC
 VPC
 VPS
@@ -2365,9 +2258,6 @@ Virtual
 Virtual
 Virtual
 Virtual
-Virtual
-Virtualisation
-Virtualisation
 Virtualisation
 Virtualisation
 Virtually
@@ -2493,7 +2383,6 @@ access
 access
 access
 access
-access
 accessed
 accessible
 accessible
@@ -2539,7 +2428,6 @@ all
 all
 all
 all
-allocation
 allows
 also
 an
@@ -2581,12 +2469,6 @@ analyse,
 analyse,
 analysis
 analysis
-and
-and
-and
-and
-and
-and
 and
 and
 and
@@ -2878,7 +2760,6 @@ carried
 cases
 cases
 catalogue
-catalogue,
 centre
 certain
 certificate
@@ -3039,7 +2920,6 @@ data
 data
 data
 data
-data
 data,
 data,
 data.
@@ -3060,7 +2940,6 @@ dedicated,
 default
 default
 delay
-demand
 demand
 demand
 demanding
@@ -3084,7 +2963,6 @@ developing
 development
 directly
 disclosure
-disk
 disks,
 distribution
 do
@@ -3122,7 +3000,6 @@ enable,
 encrypted
 encryption
 encryption
-encryption,
 engine
 engine
 engines
@@ -3248,7 +3125,6 @@ format
 foundation
 foundation
 fr
-frameworks,
 free
 free
 free
@@ -3444,7 +3320,6 @@ library
 licence
 licences
 licences
-licences,
 limits
 links
 lives
@@ -3465,7 +3340,6 @@ lower
 lower
 machines
 machines
-machines,
 made
 maintenance
 make
@@ -3498,7 +3372,6 @@ management
 management
 management
 management
-management
 management,
 management.
 managing
@@ -3521,8 +3394,6 @@ minutes.
 mission
 mission.
 mode:
-model
-model
 model
 models
 models
@@ -3641,7 +3512,6 @@ of
 of
 offers
 offers
-on
 on
 on
 on
@@ -3952,8 +3822,6 @@ resilience
 resilience
 resilience
 resilient
-resource
-resources
 resources
 resources
 resources
@@ -4019,11 +3887,9 @@ servers
 servers
 servers,
 service
-service
 service,
 service.
 service?
-services
 services
 services
 services
@@ -4071,18 +3937,6 @@ solutions
 solutions
 solutions
 solutions
-soon
-soon
-soon
-soon
-soon
-soon
-soon
-soon
-soon
-soon
-soon
-soon
 soon
 soon
 soon
@@ -4409,8 +4263,6 @@ you
 you
 you
 you'll
-your
-your
 your
 your
 your

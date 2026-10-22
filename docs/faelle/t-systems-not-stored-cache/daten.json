@@ -4,10 +4,10 @@
   "anbieter": "t-systems",
   "feld": "vertrag.zero_data_retention",
   "titel": "T-Systems LLM Hub: „never saved“ und „Not stored“ — und in der eigenen Leistungsbeschreibung: Zwischenspeicher standardmäßig eingeschaltet",
-  "kurz": "Die Trust-Seite des LLM Hub sagt ohne Einschränkung, dass Prompts und Antworten bei den von der Telekom betriebenen Modellen nie gespeichert werden, und fasst das in der Tabelle mit „Storage: Not stored“ zusammen. Dieselbe Seite nennt die Leistungsbeschreibung v1.23 die verbindliche Quelle. Dort steht in § 2.3.1: Bereits verarbeitete Anfragen werden für eine begrenzte Zeit zwischengespeichert, und diese Funktion ist standardmäßig eingeschaltet. Die Prefix-Caching-Doku sagt dasselbe. Auf der Trust-Seite kommt der Zwischenspeicher nur als Navigationslink vor.",
+  "kurz": "Die Trust-Seite des LLM Hub sagt ohne Einschränkung, dass Prompts und Antworten bei den von der Telekom betriebenen Modellen nie gespeichert werden, und fasst das in der Tabelle mit „Storage: Not stored“ zusammen. Dieselbe Seite nennt die Leistungsbeschreibung v1.23 die verbindliche Quelle. Dort steht in Abschnitt 2.3.1: Bereits verarbeitete Anfragen werden für eine begrenzte Zeit zwischengespeichert, und diese Funktion ist standardmäßig eingeschaltet. Die Prefix-Caching-Doku sagt dasselbe. Auf der Trust-Seite kommt der Zwischenspeicher nur als Navigationslink vor.",
   "eroeffnet": "2026-10-05",
   "anbieter_informiert": "2026-10-07",
-  "status": "offen",
+  "status": "bestaetigt",
   "antwort_frist": "2026-10-21",
   "behauptung": [
     {
@@ -72,7 +72,7 @@
     },
     {
       "datum": "2026-10-05",
-      "ereignis": "Alle drei Quellen am Versandtag erneut abgerufen (14:48 UTC), byte-gleich zum Abruf vom 03.10.2026 (gleiche SHA-256). Anbieter per E-Mail (ai@t-systems.com, 13:10 UTC, von hallo@belegbar.eu) mit dem vollständigen Text des Falls informiert. Antwortfrist bis 20.10.2026. Fall veröffentlicht."
+      "ereignis": "Alle drei Quellen am Versandtag erneut abgerufen (14:48 UTC), byte-gleich zum Abruf vom 03.10.2026 (gleiche SHA-256). Anbieter per E-Mail (ai@t-systems.com, 13:10 UTC, von hallo@belegbar.eu) mit dem vollständigen Text des Falls informiert. Antwortfrist bis 20.10.2026."
     },
     {
       "datum": "2026-10-06",
@@ -85,6 +85,21 @@
     {
       "datum": "2026-10-08",
       "ereignis": "Bis 15:16 UTC, gut 24 Stunden nach dem Versand, keine Verzögerungs- oder Fehlermeldung zur E-Mail vom 07.10.; beim ersten Versand kam die erste Verzögerungsmeldung nach rund 24,5 Stunden. Die Zustellung gilt damit als belegt, eine Lesebestätigung gibt es nicht. Die E-Mail vom 05.10. (von hallo@belegbar.eu) hat Gmail am 08.10.2026 endgültig als nicht zustellbar gemeldet."
+    },
+    {
+      "datum": "2026-10-14",
+      "ereignis": "Alle drei Quellen erneut abgerufen. Die Leistungsbeschreibung ist unverändert Version 1.24, § 2.3.1 wörtlich gleich. Die Trust-Seite nennt die Leistungsbeschreibung weiter „the binding source“, aber ohne Versionsnummer (vorher „(v1.23)“); beide zitierten Sätze und „Storage: Not stored“ stehen unverändert. Die Prefix-Caching-Doku enthält das zitierte Satzstück unverändert. Rohkopien belege/faelle/2026-006/*-2026-10-14.html, SHA-256 in SHA256SUMS."
+    },
+    {
+      "datum": "2026-10-15",
+      "ereignis": "Halbzeit-Erinnerung an den Anbieter gesendet (14:31 UTC, im Thread der Mail vom 07.10., von felix.h.lind@gmail.com an ai@t-systems.com). Inhalt: Frist 21.10.2026 bleibt, danach Status „bestätigt“, der Fall bleibt für eine Antwort offen."
+    },
+    {
+      "datum": "2026-10-21",
+      "ereignis": "Prüfung nach Ablauf der Antwortfrist (21.10.2026). Keine Antwort des Anbieters eingegangen, auch nicht auf die Halbzeit-Erinnerung vom 15.10. (Postfach geprüft 21.10.2026 22:55 UTC). Alle drei Quellen erneut abgerufen (22:56 UTC): Die Leistungsbeschreibung ist byte-gleich zum Abruf vom 06.10.2026 (Version 1.24, § 2.3.1 unverändert, Cache-Funktion standardmäßig eingeschaltet). Die Trust-Seite enthält beide zitierten Sätze und „Storage: Not stored“ unverändert und erwähnt den Zwischenspeicher weiter nur als Navigationslink; neu sind nur Menüpunkte und ein Werbebanner. Die Prefix-Caching-Doku enthält das zitierte Satzstück unverändert. Rohkopien belege/faelle/2026-006/*-2026-10-22.*, SHA-256 in SHA256SUMS (Trust-Seite 9ca26b80d34b46d63064bec646f9e51f15f4ec4a090a036585b9aec1aa2b9c29). Snapshot: https://web.archive.org/web/20261021225741/https://docs.llmhub.t-systems.net/reference/enterprise-trust/ (byte-gleich zu unserer Kopie). Status auf „bestätigt“ gesetzt: Frist verstrichen, keine Antwort, beide Aussagen unverändert. Eine spätere Antwort wird wörtlich eingetragen; sobald eine der Auflösungen eintritt, geht der Fall auf „ausgeräumt“."
     }
-  ]
+  ],
+  "url": "https://belegbar.eu/faelle/t-systems-not-stored-cache/",
+  "lizenz": "CC BY 4.0",
+  "stand": "2026-10-22"
 }

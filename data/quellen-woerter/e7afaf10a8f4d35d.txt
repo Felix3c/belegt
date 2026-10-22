@@ -11,6 +11,7 @@
 ,
 ,
 ,
+,
 .
 .
 0.25
@@ -120,6 +121,7 @@ API
 API
 API
 API
+API
 About
 About
 About
@@ -151,6 +153,7 @@ Cancel
 Center
 Certified
 Changelog
+Chat
 Chat
 Chat
 Chat
@@ -224,6 +227,7 @@ FAQ
 FIN-01
 FIN-02
 FIN-03
+FR
 Facilities
 Fast,
 Features
@@ -242,6 +246,9 @@ Foundation
 France
 France.
 France.
+Français
+Français
+Français
 Free
 Free
 Frida
@@ -320,7 +327,10 @@ Legal
 Live
 Location
 Locations
-Login
+Log
+Log
+Log
+Log
 Login
 Lower
 Lower
@@ -598,6 +608,8 @@ and
 and
 and
 and
+and
+and
 annual
 answer
 answer
@@ -609,6 +621,7 @@ answers,
 any
 any
 app
+apps
 are
 are
 are
@@ -645,6 +658,7 @@ because
 better:
 better:
 better:
+billing
 broken
 building.
 but
@@ -695,6 +709,8 @@ certifications
 certifications,
 certified
 certified
+chat
+chat
 chat,
 chat,
 chatbot
@@ -715,6 +731,8 @@ computational
 computational
 compute.
 computing
+console
+console
 consume
 consumes
 consumption
@@ -898,6 +916,10 @@ in
 in
 in
 in
+in
+in
+in
+in
 independent
 independent
 independently
@@ -943,6 +965,7 @@ it?
 its
 itself.
 keeps
+keys,
 kimi-k2.7-code)
 know.
 lands.
@@ -1291,6 +1314,10 @@ to
 to
 to
 to
+to
+to
+to
+to
 token
 token
 tokens,
@@ -1320,6 +1347,7 @@ up
 up.
 updates.
 us
+usage
 usage
 usage
 usage.
@@ -1426,6 +1454,7 @@ your
 ·
 ↳
 🇩🇪
+🇫🇷
 🇬🇧
 🇳🇱
 🇺🇸

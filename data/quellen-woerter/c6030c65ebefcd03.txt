@@ -86,7 +86,7 @@
 2024
 24/7
 3.00
-3.20
+3.00
 3.60
 3/4
 4
@@ -267,7 +267,7 @@ For
 Free
 GB
 GPU
-GPU-powered
+GPU
 Gemma2
 Generate
 Get
@@ -402,8 +402,8 @@ QR
 Quote
 Qwen/Qwen3-Embedding-8B
 Qwen/Qwen3-Reranker-0.6B
-Qwen/Qwen3.5-122B-A10B-FP8
 Qwen/Qwen3.5-397B-A17B-FP8
+Qwen/Qwen3.8-27B-FP8
 REST
 Radio
 Renewal
@@ -689,7 +689,7 @@ compiled
 complete
 complexity
 comply
-computationally
+computations
 concerts,
 confidentiality
 confidentiality
@@ -999,7 +999,6 @@ on
 on
 on
 on
-on
 online
 online
 online
@@ -1047,6 +1046,7 @@ per
 per-minute
 per-minute
 per-minute
+perform
 period,
 photos
 planet.
@@ -1163,7 +1163,6 @@ suite
 suite
 support
 swiss-ai/Apertus-v1.5-70B
-tasks,
 teams
 templates
 templates
@@ -1333,6 +1332,7 @@ use
 use.
 use?
 used
+using
 using
 using
 using

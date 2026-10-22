@@ -27,8 +27,10 @@
 4
 5.2
 8B):
+92%
 A
 A
+AI
 AI
 AI
 AI
@@ -41,7 +43,6 @@ API
 API
 API
 API
-APIs
 About
 Act
 Act,
@@ -147,10 +148,10 @@ GPT
 GPU
 Gemma
 Generate
+Getting
 Have
 Home
 How‑to
-Hybrid
 IT02043220603
 Immediate
 In
@@ -174,6 +175,7 @@ July
 Jurisdiction
 Keep
 Key
+LLM
 Labs
 Labs
 Large
@@ -236,7 +238,6 @@ Ready
 Ready
 Real-Time
 Regolo
-Regolo
 Regolo's
 Regolo,
 Regolo.ai
@@ -251,7 +252,6 @@ Retention
 Retention
 Retrieval,
 Reuse
-Route
 S.r.l.
 Secure
 Seeweb
@@ -320,6 +320,7 @@ a
 a
 a
 a
+a
 accountability
 activity
 activity
@@ -327,6 +328,7 @@ adherence
 after
 aligned
 already
+an
 an
 an
 an
@@ -363,6 +365,7 @@ any
 any
 any
 approach
+approves
 architectural
 architecture
 architecture
@@ -378,11 +381,11 @@ as
 aspect
 at
 at
+at
 audit
 audit
 audit
 back
-beat
 behind
 believe
 beyond
@@ -415,7 +418,7 @@ choice
 claim
 claim,
 close
-closed
+codebases
 commitment
 communications
 community
@@ -430,7 +433,9 @@ constraint.
 contact
 content
 content
+context-mode
 controls
+cost
 credit
 custom
 daily
@@ -461,8 +466,8 @@ data,
 database.
 day
 days
+decides,
 decision
-default:
 deliberate
 delivering
 delivery.
@@ -523,8 +528,10 @@ gone.
 green
 guarantee
 guarantees
+guardrails:
 handled
 have
+headroom:
 identity
 immediately
 immediately
@@ -561,7 +568,6 @@ is
 is
 is
 is
-is
 issued
 it
 it
@@ -575,6 +581,7 @@ just
 keeping
 kind.
 know.
+large
 law.
 laws.
 leave
@@ -589,8 +596,8 @@ logging
 logs
 logs,
 love,
+lower
 made
-managed
 management
 management
 management.
@@ -633,7 +640,6 @@ on
 on
 on
 on
-on
 on,
 on.
 once
@@ -643,7 +649,6 @@ only
 only
 only
 only:
-open
 operates
 operational
 or
@@ -673,6 +678,7 @@ party
 permanently
 permanently
 persisted
+person
 philosophy
 pipeline,
 place
@@ -731,6 +737,7 @@ response
 response
 response
 responses
+responses
 result.
 retain,
 retention
@@ -739,15 +746,14 @@ retention,
 retention,
 reuse
 review
+review
 reviewed
 reviewed
 rights
 rigorous
-routing
 secondary
 security,
 security,
-self-hosting
 server
 serves
 service
@@ -764,9 +770,9 @@ stack,
 stack.
 stage
 standards
+started
 storage
 storage
-support
 sustainability.
 takes
 takes
@@ -796,12 +802,10 @@ the
 the
 the
 the
-the
 then
 third
 third-party
 through
-tickets
 time
 time,
 to
@@ -817,6 +821,7 @@ to
 to
 to
 to
+token
 tools
 trace
 trace.
@@ -835,6 +840,7 @@ truly
 trust,
 under
 under
+understand
 upcoming
 us
 us:
@@ -852,10 +858,9 @@ we
 we
 we
 we
-weights
 what
 where
-why
+with
 with
 with
 with
@@ -865,6 +870,7 @@ with
 with
 works
 worth
+writes,
 written
 you
 you

@@ -126,12 +126,12 @@
 1
 1
 1024
-12,
 1st
 2
 2
 2
 2
+20,
 2026
 2nd
 3
@@ -360,6 +360,8 @@ EU
 EU
 EU
 EU
+EU
+EU
 EU,
 EU,
 EU,
@@ -410,7 +412,7 @@ Frankfurt,
 Frankfurt,
 Free
 Full
-GCP.
+GCP
 GDPR
 GDPR
 Gateway
@@ -504,6 +506,7 @@ Metadata
 Metadata
 Minimization
 Mintlify,
+Mistral
 Mistral
 Mistral)
 Model
@@ -661,6 +664,7 @@ Serving
 Serving
 Session
 Sign-On
+Signatures
 Single
 Single-model
 Skip
@@ -728,6 +732,7 @@ Vertex
 Video
 Was
 Web
+Webhook
 Weight
 What
 Where
@@ -764,7 +769,6 @@ a
 accept
 across
 across
-across
 actually
 admin
 admin.
@@ -790,6 +794,7 @@ an
 an
 an
 analytics,
+and
 and
 and
 and
@@ -988,6 +993,7 @@ from
 from
 from
 from
+frontier
 full
 full
 full
@@ -1040,9 +1046,11 @@ in
 in
 in
 in
+in
 include:
 including
 index
+inference
 inference
 inference
 inference
@@ -1113,6 +1121,7 @@ models
 models
 models
 models
+models
 models,
 models.
 modified
@@ -1141,6 +1150,7 @@ only
 only
 only
 only
+only:
 only:
 openai
 openai.OpenAI(
@@ -1178,6 +1188,7 @@ page
 pages
 per-request
 platform
+plus
 policies
 policy
 policy.
@@ -1195,6 +1206,7 @@ processing
 processing,
 provider
 provider,
+providers.
 reaches
 region
 region
@@ -1216,6 +1228,7 @@ regions
 regions
 regions
 regions
+regions,
 regions:
 regions:
 regions:

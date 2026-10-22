@@ -117,6 +117,7 @@ API
 API
 API
 API
+API
 API,
 About
 About
@@ -149,6 +150,7 @@ Chamber
 Changelog
 Changes
 Changes
+Chat
 Chat
 Chat
 Chat
@@ -292,7 +294,10 @@ Legal
 Legal
 Limitation
 Live
-Login
+Log
+Log
+Log
+Log
 Login
 Make
 Material
@@ -544,6 +549,8 @@ and
 and
 and
 and
+and
+and
 announced
 announced
 anonymise
@@ -563,6 +570,7 @@ any
 any
 app
 applies
+apps
 are
 are
 are
@@ -594,6 +602,7 @@ be
 been
 between
 biased
+billing
 binding
 both
 breaches,
@@ -624,6 +633,8 @@ centres,
 changes
 changes
 chat
+chat
+chat
 chat,
 chatbot
 cite,
@@ -643,6 +654,8 @@ compute.
 confidential
 conflict,
 consequential
+console
+console
 constitute
 constitutes
 content
@@ -823,6 +836,10 @@ in
 in
 in
 in
+in
+in
+in
+in
 in-app
 inaccurate,
 incidental,
@@ -858,6 +875,7 @@ its
 jurisdiction,
 keep
 key,
+keys,
 know.
 knowingly
 language-processing
@@ -1244,6 +1262,10 @@ to
 to
 to
 to
+to
+to
+to
+to
 tokens,
 tokens,
 tokens,
@@ -1270,6 +1292,7 @@ updates.
 uptime.
 us
 us
+usage
 usage
 usage-based
 use

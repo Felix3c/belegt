@@ -79,7 +79,7 @@
 10
 10
 11
-11
+12
 128k
 128k
 128k
@@ -100,6 +100,8 @@
 16k
 16k
 17
+17
+18
 18
 18
 180k
@@ -115,6 +117,8 @@
 1M
 1M
 1M
+1M
+1M-token
 1M-token
 1M-token
 1M-token
@@ -158,6 +162,9 @@
 2025
 2025
 2025
+2026
+2026
+2026
 2026
 2026
 2026
@@ -410,6 +417,7 @@ Cached
 Cached
 Cached
 Cached
+Cached
 Called
 Carbon
 Cards
@@ -421,6 +429,7 @@ Catalog
 Catalog
 Catalog
 Changelog
+Chat
 Chat
 Chat
 Chat
@@ -468,6 +477,7 @@ Context
 Context
 Context
 Context
+Context
 Copy
 Create
 Credits
@@ -477,6 +487,8 @@ Decision
 Decisions
 Decisions
 Decisions.
+DeepSeek
+DeepSeek
 DeepSeek
 DeepSeek
 DeepSeek
@@ -556,6 +568,7 @@ End
 Every
 Every
 Flash,
+Flash:
 For
 Frida
 Full
@@ -621,6 +634,7 @@ Input
 Input
 Input
 Input
+Input
 Instruction-aware
 Instruction-aware
 Instruction-aware
@@ -655,6 +669,7 @@ List
 Live
 Live
 Live
+Long
 Long
 Long
 M3,
@@ -778,6 +793,8 @@ New
 New
 New
 New
+New
+New
 No
 No
 No
@@ -823,6 +840,9 @@ November
 November
 November
 November
+Oct
+October
+October
 October
 October
 October
@@ -846,6 +866,7 @@ OpenAI
 OpenAI-compatible
 OpenAI-compatible
 Ordered
+Output
 Output
 Output
 Output
@@ -915,8 +936,10 @@ Reasoning
 Reasoning
 Reasoning
 Reasoning
+Reasoning
 Region
 Region
+Released
 Released
 Released
 Released
@@ -1019,11 +1042,13 @@ The
 The
 The
 The
+The
 These
 To
 Token
 Token
 Token
+Tool
 Tool
 Tool
 US
@@ -1047,6 +1072,8 @@ Use
 Use
 Use
 V4.1
+V4.1
+Vision
 Vision
 Vision
 Vision
@@ -1076,6 +1103,8 @@ a
 a
 a
 a
+a
+agentic
 agentic
 agentic
 agentic
@@ -1087,6 +1116,8 @@ an
 an
 an
 an
+and
+and
 and
 and
 and
@@ -1174,6 +1205,7 @@ caching
 calculations
 called
 calling
+calling
 capabilities.
 carries
 carries
@@ -1212,6 +1244,7 @@ charge
 chat
 chat
 chat
+chat
 choice
 client
 coding
@@ -1222,12 +1255,15 @@ coding
 coding,
 coding,
 coding.
+coding.
 completion
 completions.
 compression
 configurable
 configurable
 conflict
+context
+context
 context
 context
 context
@@ -1256,6 +1292,8 @@ deepseek-v4.1-flash
 deepseek-v4.1-flash
 deepseek-v4.1-flash
 deepseek-v4.1-flash
+deepseek-v4.1-flash-1017
+deepseek-v4.1-flash-1017
 default)
 default,
 deprecated
@@ -1302,6 +1340,7 @@ first,
 first.
 flagship
 footprint
+for
 for
 for
 for
@@ -1439,6 +1478,7 @@ in
 in
 in
 inference
+input
 input
 input
 input
@@ -1609,6 +1649,7 @@ model
 model
 model
 model
+model
 model&#x27;s
 model&#x27;s
 model,
@@ -1641,6 +1682,7 @@ multilingual
 multilingual
 multimodal
 multimodal
+multimodal
 multiple-choice
 native
 newer
@@ -1653,6 +1695,7 @@ none,
 not
 noted
 notice
+of
 of
 of
 of
@@ -1844,6 +1887,7 @@ reasoning
 reasoning
 reasoning
 reasoning
+reasoning,
 reasoning.
 recommend
 recommended
@@ -1963,6 +2007,7 @@ sent
 served
 shorter
 single
+snapshot
 so
 so
 so
@@ -2076,6 +2121,7 @@ tokens.
 tokens;
 too,
 tool
+tool
 tool-use
 top
 transcription
@@ -2110,6 +2156,7 @@ use
 use
 use
 use
+use
 voxtral-small-24b-2507
 voxtral-small-24b-2507
 voxtral-small-24b-2507
@@ -2117,6 +2164,7 @@ way.
 we
 which
 win
+window
 window
 window
 window
@@ -2159,6 +2207,7 @@ z.ai
 €0.011
 €0.022
 €0.04
+€0.04
 €0.11
 €0.11
 €0.11
@@ -2184,6 +2233,7 @@ z.ai
 €0.35
 €0.35
 €0.35
+€0.36
 €0.37/hr
 €0.40
 €0.40
@@ -2204,6 +2254,7 @@ z.ai
 €1.10
 €1.10
 €1.10
+€1.45
 €1.50
 €1.55
 €1.80

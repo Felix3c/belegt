@@ -1,0 +1,257 @@
+{
+  "id": "microsoft-copilot",
+  "name": "Microsoft Copilot (früher Microsoft 365 Copilot), Unternehmensfassung",
+  "kategorie": "assistent",
+  "kurzbeschreibung": "KI-Assistent in Microsoft 365 für Unternehmen. Microsoft nutzt eigene Azure-Modelle sowie OpenAI und Anthropic als Unterauftragnehmer.",
+  "stammdaten": {
+    "sitz": "Redmond, USA (Microsoft Corporation); Microsoft Ireland Operations Limited laut Vertrag Vertreter für EWR und Schweiz",
+    "land": "US",
+    "mutterkonzern": null,
+    "us_eigner": true,
+    "gegruendet": 1975,
+    "website": "https://www.microsoft.com",
+    "dpf": {
+      "status": "belegt",
+      "wert": true,
+      "quelle": "https://www.dataprivacyframework.gov/participant/6474",
+      "geprueft": "2026-10-22",
+      "anmerkung": "Amtliche DPF-Liste (US-Handelsministerium), Eintrag „Microsoft Corporation“, Redmond: „EU-US Certification“ Status „Active“, HR- und Nicht-HR-Daten, seit 12.08.2016, gültig bis 31.08.2027; Swiss-US und UK Extension ebenfalls aktiv. Abruf über die Schnittstelle der Liste, Kopie + SHA-256 in belege/rechtsraum/dpf-2026-10-22/"
+    }
+  },
+  "modelle": [
+    {
+      "name": "Von Microsoft auf Azure betriebene Modelle (Azure OpenAI)",
+      "standort": "Datengrenze EU/EFTA für EU-Nutzer; bei Flex routing auch United States, Canada oder Australia",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy",
+      "geprueft": "2026-10-21",
+      "status": "belegt",
+      "anmerkung": "Microsoft: „EU traffic stays within the EU Data Boundary while worldwide traffic can be sent to the EU and other countries or regions for LLM processing.“ Ausnahme Flex routing (Seite vom 29.09.2026): „If flex routing is enabled, LLM inferencing may occur in the United States, Canada, or Australia during times of peak demand.“ und „Flex routing is on by default for eligible tenants that were created after March 25, 2026.“ Websuchanfragen an Bing liegen außerhalb dieser Zusage: „the EU Data Boundary don't apply to generated search queries.“ Preis je Nutzerlizenz, nicht je Token, hier nicht erfasst.",
+      "backup_standort": {
+        "wert": "Replikation nur innerhalb des gewählten geografischen Gebiets; für EU-Data-Boundary-Dienste Speicherung im Ruhezustand in EU und EFTA",
+        "status": "belegt",
+        "quelle": "https://learn.microsoft.com/en-us/compliance/regulatory/offering-iso-27001",
+        "geprueft": "2026-10-21",
+        "anmerkung": "Microsoft: „Microsoft may replicate customer data to other regions within the same geographic area … but Microsoft will not replicate customer data outside the chosen geographic area.“ Zusage allgemein für Microsoft 365, nicht eigens für Copilot. Ausnahme laut Flex-routing-Seite: „limited pseudonymized data which may be stored outside the EU Data Boundary for security and operational purposes.“"
+      },
+      "vorgeschaltete_filter": {
+        "wert": true,
+        "status": "belegt",
+        "quelle": "https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy",
+        "geprueft": "2026-10-21",
+        "anmerkung": "Microsoft: „jailbreak and cross-prompt injection attack (XPIA) classifiers … help block high-risk prompts prior to model execution. These classifiers may not be available in all Microsoft Copilot scenarios.“ Dazu „content harm filters“ für Eingaben und Antworten."
+      }
+    },
+    {
+      "name": "Von OpenAI betriebene Modelle (OpenAI als Unterauftragnehmer seit 09.07.2026)",
+      "standort": "laut Microsoft in der Datengrenze EU/EFTA, soweit die Seite zu Teilübermittlungen nichts anderes nennt",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://learn.microsoft.com/en-us/microsoft-365/copilot/openai-subprocessor",
+      "geprueft": "2026-10-21",
+      "status": "belegt",
+      "anmerkung": "Microsoft (Seite vom 09.10.2026): „OpenAI operated models are included in the EU Data Boundary, except as otherwise noted in the EU Data Boundary documentation.“ Die Seite zu Teilübermittlungen (09.10.2026) nennt für den AI Subprocessor: „may process and store a pseudonymized user ID or session GUID outside the EU Data Boundary, including in the United States.“ Zertifikate: „Certifications for OpenAI operated models in Microsoft Online Services are maintained and managed by OpenAI.“",
+      "backup_standort": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-21",
+        "anmerkung": "Für die von OpenAI betriebenen Modelle nennt Microsoft keinen Ort für Sicherungen."
+      },
+      "vorgeschaltete_filter": {
+        "wert": true,
+        "status": "belegt",
+        "quelle": "https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy",
+        "geprueft": "2026-10-21",
+        "anmerkung": "Microsoft: „jailbreak and cross-prompt injection attack (XPIA) classifiers … help block high-risk prompts prior to model execution. These classifiers may not be available in all Microsoft Copilot scenarios.“ Dazu „content harm filters“ für Eingaben und Antworten."
+      }
+    },
+    {
+      "name": "Anthropic-Modelle (Anthropic als Unterauftragnehmer)",
+      "standort": "kein Ort genannt; laut Microsoft ausdrücklich ausgenommen von der Datengrenze der Union",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://learn.microsoft.com/en-us/microsoft-365/copilot/connect-to-ai-subprocessor",
+      "geprueft": "2026-10-21",
+      "status": "belegt",
+      "anmerkung": "Microsoft (Seite vom 18.09.2026): „Anthropic models deployed in Microsoft offerings such as Microsoft Copilot … are currently excluded from the EU Data Boundary … Customers within the EU Data Boundary and customers in the UK have Anthropic models disabled by default.“ Seit 03.04.2026 gibt es eine Einstellung, mit der Anthropic Standardmodell in Word, Excel und PowerPoint werden kann. Für „Anthropic models with Data Retention“ gilt laut Microsoft der Kundenvertrag mit Microsoft nicht: „data is stored by Anthropic and not subject to your Microsoft Customer Agreement“; Anthropic ist dann „an independent processor“.",
+      "backup_standort": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-21",
+        "anmerkung": "Microsoft nennt für Anthropic-Modelle weder Verarbeitungs- noch Sicherungsort."
+      },
+      "vorgeschaltete_filter": {
+        "wert": true,
+        "status": "belegt",
+        "quelle": "https://learn.microsoft.com/en-us/microsoft-365/copilot/connect-to-ai-subprocessor",
+        "geprueft": "2026-10-21",
+        "anmerkung": "Neben den Copilot-Klassifikatoren: „Anthropic models have built-in safeguards, instantiated and operated by Anthropic, to detect illegal content.“"
+      }
+    }
+  ],
+  "vertrag": {
+    "avv": {
+      "wert": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(May2026)(CR).docx",
+      "status": "belegt",
+      "quelle": "https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA",
+      "geprueft": "2026-10-21",
+      "anmerkung": "„Microsoft Products and Services Data Protection Addendum“, „Last updated May 22, 2026“, frei als .docx abrufbar. Microsoft (Seite Enterprise Data Protection, 18.08.2026): „The use of Microsoft Copilot and Microsoft Copilot Chat, as used by organizations, is covered by the terms of the Microsoft Products and Services Data Protection Addendum (DPA) and Microsoft Product Terms, with Microsoft acting as a data processor.“ Ob Microsoft Ireland Operations Limited Vertragspartei ist, steht dort nicht ausdrücklich (ungeklärt)."
+    },
+    "subprozessoren": {
+      "wert": "https://aka.ms/subprocessor",
+      "status": "beansprucht",
+      "quelle": "https://learn.microsoft.com/en-us/microsoft-365/copilot/connect-to-ai-subprocessor",
+      "geprueft": "2026-10-21",
+      "anmerkung": "Microsoft: „To see a list of Microsoft subprocessors, see Service Trust Portal.“ Der Link führt auf servicetrust.microsoft.com/DocumentPage/115f1cb5-7f7b-4a5e-838d-df6d03c84dda; die Seite zeigte beim Abruf am 21.10.2026 nur den Titel, die Liste war ohne Anmeldung nicht lesbar. Ankündigungsfrist laut Vertrag: „for subprocessors that support artificial intelligence functionality, 30 days' notice“."
+    },
+    "training_opt_out": {
+      "wert": true,
+      "status": "belegt",
+      "quelle": "https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy",
+      "geprueft": "2026-10-21",
+      "anmerkung": "Microsoft: „Prompts, responses, and data accessed through Microsoft Graph aren't used to train foundation LLMs, including those used by Microsoft Copilot.“ Freiwilliges Feedback kann zur Verbesserung von Copilot genutzt werden, nicht zum Training der Grundmodelle."
+    },
+    "zero_data_retention": {
+      "wert": false,
+      "status": "belegt",
+      "quelle": "https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy",
+      "geprueft": "2026-10-21",
+      "anmerkung": "Microsoft: „The stored data includes the user's prompt and Copilot's response, including citations …“. Technisch (Purview-Seite, 25.06.2026): „Data from generative AI messages is stored in a hidden folder in the mailbox of the user who runs the AI app.“ Eine Standardfrist ohne Aufbewahrungsrichtlinie nennt Microsoft nicht. Null-Speicherung nennt Microsoft nur für die OpenAI Responses API, nicht für Copilot als Ganzes."
+    },
+    "zweckbindung": {
+      "wert": false,
+      "status": "belegt",
+      "quelle": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(May2026)(CR).docx",
+      "geprueft": "2026-10-21",
+      "anmerkung": "Vertrag: Verarbeitung „(a) to provide Customer the Products and Services … and (b) for business operations incident to providing the Products and Services“; genannt sind „billing and account management; compensation …; internal reporting and business modeling …; and financial reporting“. Dafür handelt Microsoft als eigenständiger Verantwortlicher. Für Websuchanfragen an Bing (Seite 18.08.2026): „Microsoft acts as a data controller“, und der Vertrag „doesn't apply to the use of generated web search queries“."
+    },
+    "betroffenenrechte_traeger": {
+      "wert": "auftraggeber",
+      "status": "belegt",
+      "quelle": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(May2026)(CR).docx",
+      "geprueft": "2026-10-21",
+      "anmerkung": "Vertrag: „Microsoft will redirect the data subject to make its request directly to Customer. Customer will be responsible for responding to any such request …“"
+    },
+    "log_frist": {
+      "wert": null,
+      "status": "unbelegt",
+      "quelle": null,
+      "geprueft": "2026-10-21",
+      "anmerkung": "Für Copilot nennt Microsoft keine Frist für Protokolle. Microsoft: „While abuse monitoring, which includes human review of content, is available in Azure OpenAI, Microsoft Copilot services have opted out of it.“ Nur für „Anthropic models with Data Retention“ stehen Fristen von Anthropic: bis 30 Tage, bei Verdacht bis zwei Jahre, Klassifikationswerte bis sieben Jahre (Seite vom 18.09.2026)."
+    },
+    "log_zweck": {
+      "wert": "Fehlersuche, Debugging und Sicherheit (pseudonyme Nutzer- oder Sitzungskennung, auch in den USA)",
+      "status": "belegt",
+      "quelle": "https://learn.microsoft.com/en-us/privacy/eudb/eu-data-boundary-ongoing-partial-transfers",
+      "geprueft": "2026-10-21",
+      "anmerkung": "Microsoft (09.10.2026): „For troubleshooting, debugging, and security purposes, the AI Subprocessor may process and store a pseudonymized user ID or session GUID outside the EU Data Boundary, including in the United States.“"
+    }
+  },
+  "zertifikate": [
+    {
+      "typ": "ISO 27001",
+      "status": "beansprucht",
+      "quelle": "https://learn.microsoft.com/en-us/compliance/regulatory/offering-iso-27001",
+      "geprueft": "2026-10-21",
+      "anmerkung": "Die Seite verlinkt „Microsoft 365 - ISO 27001:2022 Certificate (2024-2027)“ im Service Trust Portal (DocumentPage 6af50cea-280c-4859-acff-bd1ea8e2660a); beim Abruf am 21.10.2026 nur Seitentitel, Zertifikat nicht lesbar. Die Copilot-Seite nennt ISO 27001 unter den „compliance offerings and certifications“.",
+      "anwendungsbereich": {
+        "wert": "Liste von Microsoft-365-Diensten (u. a. Exchange Online, SharePoint Online, OneDrive, Microsoft Teams); Copilot ist dort nicht genannt",
+        "status": "belegt",
+        "quelle": "https://learn.microsoft.com/en-us/compliance/regulatory/offering-iso-27001",
+        "geprueft": "2026-10-21",
+        "anmerkung": "Copilot steht nicht ausdrücklich in der Liste der Dienste im Geltungsbereich. Unter ISO 42001 nennt Microsoft dagegen „Microsoft Copilot“ und „Microsoft Copilot Chat“ ausdrücklich."
+      },
+      "zertifizierer": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-21",
+        "anmerkung": "Die Seite sagt nur: „audited once a year for ISO/IEC 27001 compliance by a third-party accredited certification body“; ein Name steht dort nicht, das Zertifikat war nicht lesbar."
+      },
+      "akkreditiert_dakks": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-21",
+        "anmerkung": "Microsoft schreibt nur „accredited“, ohne die Akkreditierungsstelle zu nennen."
+      },
+      "normiert": [
+        "iso-27001"
+      ]
+    },
+    {
+      "typ": "ISO/IEC 42001",
+      "status": "beansprucht",
+      "quelle": "https://learn.microsoft.com/en-us/compliance/regulatory/offering-iso-42001",
+      "geprueft": "2026-10-21",
+      "anmerkung": "KI-Managementsystem. Auf der Seite unter „Microsoft AI services in scope for ISO 42001 certification“; die Zertifikate liegen im Service Trust Portal und waren nicht lesbar.",
+      "anwendungsbereich": {
+        "wert": "Microsoft Copilot, Microsoft Copilot Chat",
+        "status": "beansprucht",
+        "quelle": "https://learn.microsoft.com/en-us/compliance/regulatory/offering-iso-42001",
+        "geprueft": "2026-10-21",
+        "anmerkung": "Geltungsbereich nur laut Anbieterseite, Zertifikat nicht lesbar."
+      },
+      "zertifizierer": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": "https://learn.microsoft.com/en-us/compliance/regulatory/offering-iso-42001",
+        "geprueft": "2026-10-21",
+        "anmerkung": "Zertifizierungsstelle nicht öffentlich lesbar."
+      },
+      "akkreditiert_dakks": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": "https://learn.microsoft.com/en-us/compliance/regulatory/offering-iso-42001",
+        "geprueft": "2026-10-21",
+        "anmerkung": "Akkreditierung nicht geprüft, Zertifikat nicht lesbar."
+      },
+      "normiert": [
+        "iso-42001"
+      ]
+    }
+  ],
+  "iso_42001": {
+    "status": "beansprucht",
+    "wert": true,
+    "zertifizierer": null,
+    "anwendungsbereich": "Microsoft Copilot, Microsoft Copilot Chat",
+    "quelle": "https://learn.microsoft.com/en-us/compliance/regulatory/offering-iso-42001",
+    "geprueft": "2026-10-21",
+    "anmerkung": "Auf der Seite unter „Microsoft AI services in scope for ISO 42001 certification“; die Zertifikate liegen im Service Trust Portal und waren nicht lesbar."
+  },
+  "ai_act": [],
+  "geprueft": "2026-10-21",
+  "url": "https://belegbar.eu/anbieter/microsoft-copilot/",
+  "beleg_quote_prozent": 67,
+  "zuletzt_geprueft": "2026-10-21",
+  "quellenlauf": {
+    "zuletzt": null,
+    "quellen": 10,
+    "nachgelesen": 0,
+    "unveraendert": 0,
+    "veraendert_gelesen": 0,
+    "offen": 0,
+    "verschwunden": 0,
+    "statuswechsel_30_tage": 1
+  },
+  "rechtsraum": {
+    "land": "US",
+    "name": "USA",
+    "einordnung": "dpf",
+    "erlaeuterung": "Drittland. Der Angemessenheitsbeschluss der EU-Kommission vom 10.07.2023 gilt nur für Unternehmen, die am EU-US Data Privacy Framework teilnehmen (Art. 45 DSGVO); sonst nur mit geeigneten Garantien, etwa Standardvertragsklauseln (Art. 46 DSGVO).",
+    "hinweis": "Der Anbieter nimmt laut der amtlichen Liste dataprivacyframework.gov aktiv am EU-US Data Privacy Framework teil; der Beschluss gilt damit für Übermittlungen an ihn.",
+    "dpf": {
+      "status": "belegt",
+      "wert": true,
+      "quelle": "https://www.dataprivacyframework.gov/participant/6474",
+      "geprueft": "2026-10-22",
+      "anmerkung": "Amtliche DPF-Liste (US-Handelsministerium), Eintrag „Microsoft Corporation“, Redmond: „EU-US Certification“ Status „Active“, HR- und Nicht-HR-Daten, seit 12.08.2016, gültig bis 31.08.2027; Swiss-US und UK Extension ebenfalls aktiv. Abruf über die Schnittstelle der Liste, Kopie + SHA-256 in belege/rechtsraum/dpf-2026-10-22/"
+    },
+    "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+    "geprueft": "2026-10-22"
+  }
+}

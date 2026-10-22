@@ -32,6 +32,7 @@
 3
 3
 3
+3
 3.
 4.
 5.
@@ -304,6 +305,7 @@ FLUX
 FLUX
 FLUX
 FLUX
+FLUX
 FOREST
 Face
 Fees
@@ -360,6 +362,7 @@ Limits
 Limits
 Limits&quot;),
 Limits,
+Max
 Model
 Model
 Model

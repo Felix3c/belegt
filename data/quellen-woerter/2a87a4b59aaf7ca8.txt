@@ -648,6 +648,7 @@ Erstellen
 Erstellen
 Erstellen
 Erstellung
+Erweitern
 Erweiterungen
 Erzielen
 Es
@@ -869,6 +870,7 @@ Ihr
 Ihr
 Ihr
 Ihr
+Ihre
 Ihre
 Ihre
 Ihre
@@ -1237,6 +1239,7 @@ On
 Online-Nutzung,
 Online-Präsenz
 Online-Präsenz
+Online-Präsenz
 Online-Zahlungen
 Onlineshop
 Onlineshop
@@ -1481,6 +1484,7 @@ Sicherheitsnachweis
 Sicherheitsniveaus
 Sicherheitsrichtlinien:
 Sicherheitsstandards
+Sie
 Sie
 Sie
 Sie
@@ -2500,6 +2504,7 @@ täglichen
 u.a.
 um
 um
+um
 umfangreichen
 umfassend
 umfasst
@@ -2507,7 +2512,6 @@ umweltschonenden
 umweltschädlicher
 umziehen
 unabhängige
-und
 und
 und
 und
@@ -2655,6 +2659,7 @@ vs.
 wechseln
 weisen
 weist
+weitere
 weiterführende
 weitergibt,
 weltweiten,

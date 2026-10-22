@@ -54,10 +54,6 @@
 /
 /
 /
-/
-/
-/
-/
 1
 1,000,000
 1,000,001.
@@ -197,8 +193,6 @@ Center
 Centralize
 Changelog
 Changelog
-Chat
-Chat
 Chat
 Chat
 Chat
@@ -478,6 +472,7 @@ Industrial
 Industries
 Inference
 Input
+Instagram
 Instance
 Instance
 Instance
@@ -550,6 +545,7 @@ Legal
 Legal
 Level
 Life
+LinkedIn
 Lithium
 Load
 Log
@@ -745,6 +741,11 @@ Scaleway
 Scaleway
 Scaleway
 Scaleway
+Scaleway
+Scaleway
+Scaleway
+Scaleway
+Scaleway
 Sciences
 Secret
 Secret
@@ -789,6 +790,7 @@ Skip
 Skip
 Skip
 Skip
+Slack
 Slack
 Slack
 Social
@@ -862,8 +864,6 @@ Try
 Try
 Try
 Try
-Try
-Try
 Unified
 Units
 Universal
@@ -887,7 +887,6 @@ Vision
 Vision
 Vision
 Vision
-Vision
 WAF
 Warehouse
 Warehouse
@@ -897,6 +896,7 @@ Web
 Web
 Web
 Workload
+X
 You
 You
 You&#x27;ll
@@ -948,8 +948,6 @@ an
 an
 an
 analytics
-and
-and
 and
 and
 and
@@ -1142,7 +1140,6 @@ cloud
 cloud
 cloud.
 cluster
-code
 code
 code
 code
@@ -1385,7 +1382,6 @@ infrastructures
 innovation
 innovation
 innovation
-instagram
 instantly
 institutions,
 insurance
@@ -1416,7 +1412,6 @@ life
 lightonocr-3-0.8b
 lightweight
 limited
-linkedIn
 list
 llama-3.3-70b-instruct
 local
@@ -1449,10 +1444,6 @@ menu.
 message
 messages
 metal
-million
-million
-million
-million
 million
 million
 million
@@ -1552,6 +1543,11 @@ on
 on
 on
 on
+on
+on
+on
+on
+on
 once
 one
 one-year
@@ -1597,7 +1593,6 @@ performance
 performance,
 performance,
 performed
-pixtral-12b-2409
 platforms
 potential
 power
@@ -1631,7 +1626,6 @@ quantum
 quantum
 queue,
 qwen3-235b-a22b-instruct-2507
-qwen3-coder-30b-a3b-instruct
 qwen3-embedding-8b
 qwen3.5-397b-a17b
 qwen3.6-35b-a3b
@@ -1716,7 +1710,6 @@ simplify
 single
 single
 six-month,
-slack
 solution
 solution
 solution
@@ -1873,10 +1866,6 @@ tokens
 tokens
 tokens
 tokens
-tokens
-tokens
-tokens
-tokens
 tokens.
 tokens.
 tool
@@ -1966,7 +1955,6 @@ workloads
 workloads
 world&#x27;s
 worldwide,
-x
 year
 years.
 you
@@ -2032,9 +2020,6 @@ your
 €0.12
 €0.15
 €0.15
-€0.20
-€0.20
-€0.20
 €0.25
 €0.25
 €0.35
@@ -2045,7 +2030,6 @@ your
 €0.60
 €0.60
 €0.75
-€0.80
 €0.80
 €0.90
 €0.90

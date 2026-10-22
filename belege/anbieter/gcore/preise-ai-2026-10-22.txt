@@ -1,0 +1,398 @@
+ 
+ Global Hosting, CDN, Edge and Cloud Services | Gcore 
+ Get DDoS protection now. Start onboarding 
+ Under attack? EN 
+ Log in 
+ Products Overview 
+ Edge Network 
+ AI 
+ Cloud 
+ Security 
+ Edge Network 
+ CDN 
+ Accelerate dynamic and static content delivery 
+ DNS 
+ Keep services reachable with fast & global DNS 
+ Streaming 
+ Stream on-demand and live videos at any scale 
+ Fast Edge 
+ Run serverless apps at the edge with ultra-low latency 
+ Image Optimization 
+ Optimize and compress images automatically 
+ Traffic Gate 
+ Save your origin for the traffic that matters 
+ AI Inference 
+ Train and run AI workloads on NVIDIA GPUs 
+ GPU Cloud 
+ Deploy AI models without managing infrastructure 
+ AI Cloud 
+ Private AI Cloud platform for enterprises 
+ Everywhere AI 
+ Deploy AI models anywhere, securely and efficiently 
+ Gclaw 
+ Run an AI agent without the setup 
+ Compute 
+ Run apps on virtual machines or bare metal 
+ Storage 
+ Store and access data with S3-compatible storage 
+ Containers 
+ Run containerized apps and serverless functions 
+ Databases 
+ Run managed databases without the ops overhead 
+ Cloud Networking 
+ Connect resources with private networks 
+ Hosting 
+ Rent dedicated or virtual servers globally 
+ Colocation 
+ House hardware in reliable facilities 
+ WAF 
+ Protect apps and APIs from attacks and unwanted traffic 
+ DDoS Protection 
+ Shield networks from DDoS and L3/L4 threats 
+ Bot Management 
+ Stop bad bots before they cause damage 
+ API Security 
+ Protect APIs against attacks and unauthorized access 
+ Edge Proxy 
+ Stop DDoS attacks at the edge 
+ Working on a larger project? Talk to Sales 
+ Working on a larger project? Talk to Sales 
+ Working on a larger project? Talk to Sales 
+ Working on a larger project? Talk to Sales 
+ Spotlight 
+ How Microsoft scaled global content delivery 
+ Find out how Microsoft used Gcore to strengthen delivery across regions. 
+ Read the case study 
+ How ProSieben scaled GNTM's app TOPSHOT 
+ Explore how ProSieben brought real-time AI portraits to GNTM's audience. 
+ Read the case study 
+ How Higgsfield scaled AI video generation 
+ See how Gcore helped Higgsfield scale with GPUs and Managed Kubernetes. 
+ Read the case study 
+ How Fawkes Games stopped DDoS attacks 
+ See how Gcore protected gaming servers from massive DDoS threats without disrupting gameplay. 
+ Read the case study 
+ Solutions Overview 
+ By industry By need 
+ By industry 
+ Gaming 
+ Keep lag out of play 
+ Media & Streaming 
+ Stream live and on demand 
+ Ecommerce & Retail 
+ Keep carts moving at peak 
+ ERP Hosting 
+ Keep critical systems running 
+ Fintech 
+ Keep payments & apps reachable 
+ Hosting Providers 
+ Protect every tenant you host 
+ Ecommerce Agencies 
+ Build ecommerce sites that scale 
+ Online Education 
+ Deliver seamless learning online 
+ iGaming 
+ Power every high-stakes moment 
+ Dynamic Web Acceleration 
+ Make pages and apps feel faster 
+ Global Content Delivery 
+ Deliver sites, files & media globally 
+ Multi-CDN Resilience 
+ Route traffic across providers 
+ Live Streaming at Scale 
+ Keep broadcasts smooth at peak 
+ Secure Cloud Computing 
+ Protect cloud workloads 
+ Cloud Migration 
+ Move workloads without disruption 
+ Bot Protection 
+ Control automated traffic 
+ Online Events 
+ Stream events worldwide 
+ Digital Sovereignty 
+ Keep your stack sovereign 
+ Need something specific? Tell us your use case and we'll shape the right setup. Talk to an expert 
+ Need something specific? Tell us your use case and we'll shape the right setup. Talk to an expert 
+ Network 
+ Pricing 
+ Resources Using Gcore 
+ Docs 
+ Browse product docs 
+ API 
+ Automate API endpoints 
+ Developer Tools 
+ Test and debug 
+ Insights 
+ Blog 
+ Read product updates 
+ Case studies 
+ See how we help you win 
+ Reports 
+ See the research 
+ Community 
+ Events 
+ See upcoming events 
+ Startup Program 
+ Grow with Gcore 
+ Discord 
+ Connect with developers 
+ Help 
+ Help center 
+ Find answers fast 
+ Support 
+ Get help 24/7 
+ Changelog 
+ Read what's new 
+ Service Status 
+ Gcore status page 
+ Track uptime, service availability, incidents and maintenances across the Gcore platform and services. 
+ See live status 
+ About Meet Gcore 
+ About us 
+ Who we are and what we stand for 
+ Contact Us 
+ Find the right team to help 
+ Press 
+ Press 
+ Read latest news about Gcore 
+ Awards 
+ Recognition behind our work 
+ Inside Gcore 
+ Careers 
+ Explore open roles at Gcore 
+ Open positions 
+ Explore our job vacancies 
+ We're hiring 
+ Help build the next chapter of the web 
+ We're not just filling seats. We're building a team that will write the next chapter of the internet. 
+ Find your next career 
+ Contact us 
+ Sign up for free 
+ Products Edge Network 
+ CDN 
+ Accelerate dynamic and static content delivery 
+ DNS 
+ Keep services reachable with fast & global DNS 
+ Streaming 
+ Stream on-demand and live videos at any scale 
+ Fast Edge 
+ Run serverless apps at the edge with ultra-low latency 
+ Image Optimization 
+ Optimize and compress images automatically 
+ Traffic Gate 
+ Save your origin for the traffic that matters 
+ AI 
+ AI Inference 
+ Train and run AI workloads on NVIDIA GPUs 
+ GPU Cloud 
+ Deploy AI models without managing infrastructure 
+ AI Cloud 
+ Private AI Cloud platform for enterprises 
+ Everywhere AI 
+ Deploy AI models anywhere, securely and efficiently 
+ Gclaw 
+ Run an AI agent without the setup 
+ Cloud 
+ Compute 
+ Run apps on virtual machines or bare metal 
+ Storage 
+ Store and access data with S3-compatible storage 
+ Containers 
+ Run containerized apps and serverless functions 
+ Databases 
+ Run managed databases without the ops overhead 
+ Cloud Networking 
+ Connect resources with private networks 
+ Hosting 
+ Rent dedicated or virtual servers globally 
+ Colocation 
+ House hardware in reliable facilities 
+ Security 
+ WAF 
+ Protect apps and APIs from attacks and unwanted traffic 
+ DDoS Protection 
+ Shield networks from DDoS and L3/L4 threats 
+ Bot Management 
+ Stop bad bots before they cause damage 
+ API Security 
+ Protect APIs against attacks and unauthorized access 
+ Edge Proxy 
+ Stop DDoS attacks at the edge 
+ Solutions By industry 
+ Gaming 
+ Keep lag out of play 
+ Media & Streaming 
+ Stream live and on demand 
+ Ecommerce & Retail 
+ Keep carts moving at peak 
+ ERP Hosting 
+ Keep critical systems running 
+ Fintech 
+ Keep payments & apps reachable 
+ Hosting Providers 
+ Protect every tenant you host 
+ Ecommerce Agencies 
+ Build ecommerce sites that scale 
+ Online Education 
+ Deliver seamless learning online 
+ iGaming 
+ Power every high-stakes moment 
+ By need 
+ Dynamic Web Acceleration 
+ Make pages and apps feel faster 
+ Global Content Delivery 
+ Deliver sites, files & media globally 
+ Multi-CDN Resilience 
+ Route traffic across providers 
+ Live Streaming at Scale 
+ Keep broadcasts smooth at peak 
+ Secure Cloud Computing 
+ Protect cloud workloads 
+ Cloud Migration 
+ Move workloads without disruption 
+ Bot Protection 
+ Control automated traffic 
+ Online Events 
+ Stream events worldwide 
+ Digital Sovereignty 
+ Keep your stack sovereign 
+ Network 
+ Pricing 
+ Resources Using Gcore 
+ Docs 
+ Browse product docs 
+ API 
+ Automate API endpoints 
+ Developer Tools 
+ Test and debug 
+ Insights 
+ Blog 
+ Read product updates 
+ Case studies 
+ See how we help you win 
+ Reports 
+ See the research 
+ Community 
+ Events 
+ See upcoming events 
+ Startup Program 
+ Grow with Gcore 
+ Discord 
+ Connect with developers 
+ Help 
+ Help center 
+ Find answers fast 
+ Support 
+ Get help 24/7 
+ Changelog 
+ Read what's new 
+ About Meet Gcore 
+ About us 
+ Who we are and what we stand for 
+ Contact Us 
+ Find the right team to help 
+ Press 
+ Press 
+ Read latest news about Gcore 
+ Awards 
+ Recognition behind our work 
+ Inside Gcore 
+ Careers 
+ Explore open roles at Gcore 
+ Open positions 
+ Explore our job vacancies 
+ Log in 
+ Contact us 
+ Sign up for free 
+ Choose the right plan for you
+ AI 
+ Cloud 
+ Network 
+ Security 
+ Colocation 
+ AI 
+ AI Cloud Network Security Colocation 
+ GPU Cloud Calculator
+ Bare Metal GPU Clusters 
+ Virtual GPU Clusters 
+ Bare Metal GPU Clusters 
+ H100
+ Get started 
+ A100
+ Get started 
+ L40S
+ Get started 
+ H200
+ Get started 
+ NEW B300
+ Contact sales 
+ NEW GB300
+ Contact sales 
+ Price €21.82 /hr 
+ €2.73 per GPU 
+ €10.91 /hr 
+ €1.36 per GPU 
+ €10.18 /hr 
+ €1.27 per GPU 
+ €25.45 /hr 
+ €3.18 per GPU 
+ €48.00 /hr 
+ €6.00 per GPU 
+ Contact sales 
+ Configuration 
+ GPU 8×H100 SXM 8×A100 SXM 8×L40S PCIe 8×H200 SXM 8×B300 SXM 72×GB300 NVL72 
+ VRAM, GB 640 640 384 1,128 2,304 20,736 
+ RAM, GB 2,048 2,048 2,048 2,048 3,072 17,280 
+ vCPUs 224 192 192 224 256 2,592 
+ Storage 2×960 GB SSD + 8×3.84 TB NVMe 2×960 GB SSD + 8×3.84 TB NVMe 2×960 SSD OS + 4×7.68 TB NVMe 2×960 GB SSD + 8×3.84 TB NVMe 2×960 GB SSD + 4×3.84 TB NVMe 61.44 TB NVMe 
+ InfiniBand, Gbps 3,200 800 — 3,200 3,600 NVLink 
+ 130 TB/s
+ GPU ↔ GPU in rack 
+ InfiniBand 
+ ~57.6 Tb/s per rack
+ GPU ↔ GPU in rack 
+ Prices do not include VAT
+ Everywhere Inference
+ Billing is determined by the exact compute time you use, measured down to the minute. Benefit from effortless autoscaling, fast cold starts, and a wide range of GPU options, along with secure deployments and protected endpoints—all while keeping costs low. 
+ GPU Configuration GPU Memory CPU/RAM Cost per hour 
+ 1×L40S 48 GB 16 vCPU / 232 GiB RAM €1.08 Get started 
+ 2×L40S 96 GB 32 vCPU / 464 GiB RAM €2.16 Get started 
+ 4×L40S 192 GB 64 vCPU / 928 GiB RAM €4.32 Get started 
+ 1×A100 80 GB 16 vCPU / 232 GiB RAM €1.26 Get started 
+ 2×A100 160 GB 32 vCPU / 464 GiB RAM €2.52 Get started 
+ 4×A100 240 GB 64 vCPU / 928 GiB RAM €5.04 Get started 
+ 8×A100 960 GB 92 vCPU / 1856 GiB RAM €10.08 Get started 
+ 1×H100 80 GB 16 vCPU / 232 GiB RAM €1.53 Get started 
+ 2×H100 160 GB 32 vCPU / 464 GiB RAM €3.06 Get started 
+ 4×H100 240 GB 64 vCPU / 928 GiB RAM €6.12 Get started 
+ 8×H100 960 GB 92 vCPU / 1856 GiB RAM €12.24 Get started 
+ Prices do not include VAT. 
+For third-party cloud and on‑premise deployments please get in touch with our sales team.
+ Virtual GPU
+ Start with just one GPU, no full bare metal commitment required. Pay only while powered on. Shelving preserves your IPs and volumes at zero compute cost. Spin up multi-node GPU clusters in a single API call with automatic InfiniBand setup. 
+ GPU Configuration GPU Memory CPU/RAM Storage Cost per hour 
+ 1×H100 80 GB 24 vCPU / 232 GB RAM 1250 GB €2.82 Get started 
+ 2×H100 160 GB 48 vCPU / 464 GB RAM 2500 GB €4.73 Get started 
+ 4×H100 320 GB 96 vCPU / 928 GB RAM 5000 GB €9.45 Get started 
+ 8×H100 640 GB 192 vCPU / 1856 GB RAM 10000 GB €18.91 Get started 
+ Prices do not include VAT.
+ Back to top GPU Cloud Calculator GPU Cloud prices and configuration Everywhere Inference Virtual GPU 
+ Products 
+ AI Cloud Network Security Colocation Pricing Technical Support 
+ Resources 
+ Blog Case Studies Resource Library Events Startups Program 
+ Documentation 
+ Docs API Product Roadmap Help Center Gcore Status 
+ Platform 
+ Network Infrastructure Internet Peering Points Compliance 
+ Company 
+ About Gcore Press Awards Careers Legal Information Discord 
+ Partners 
+ White Label Solutions 
+ Contact us 
+ sales@gcore.com support@gcore.com info@gcore.com +352 208 80 507 
+ EN 
+ ©2026 Gcore. All rights reserved. Terms of Service 
+ Privacy Policy 
+ Report Abuse 
+ 

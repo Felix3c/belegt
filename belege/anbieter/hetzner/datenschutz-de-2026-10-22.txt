@@ -1,0 +1,699 @@
+ 
+ Datenschutzhinweise 
+ Diese Website verwendet Cookies
+ Um Ihnen einen optimalen Service anzubieten und Ihr Nutzererlebnis auf der Webseite fortlaufend zu verbessern, setzen wir funktional notwendige Cookies sowie Cookies zur Websiteanalyse ein. Weitere Infos finden Sie in unserer 
+ privacy policy . Ihre Cookie-Einstellungen können Sie dort jederzeit ändern. 
+ Alle Cookies erlauben
+ Notwendige Cookies erlauben
+ × 
+ Wählen Sie Ihre Standorteinstellungen
+ Sprache
+ Deutsch 
+ English 
+ Français 
+ Español 
+ Währung
+ € EUR 
+ $ USD 
+ Land (USt.)
+ Country (VAT) 
+ Alle anderen
+ Australien
+ Belgien
+ Bulgarien
+ Dänemark
+ Deutschland
+ Estland
+ Finnland
+ Frankreich
+ Griechenland
+ Grossbritannien
+ Irland
+ Italien
+ Kroatien
+ Lettland
+ Litauen
+ Luxemburg
+ Malta
+ Niederlande
+ Norwegen
+ Österreich
+ Polen
+ Portugal
+ Rumänien
+ Schweden
+ Schweiz
+ Singapur
+ Slowakei
+ Slowenien
+ Spanien
+ Südafrika
+ Tschechische Republik
+ Ukraine
+ Ungarn
+ USA
+ Zypern
+ Einstellungen speichern 
+ Automatically translated by AI. Discrepancies or errors may occur.
+ Ask AI
+ Console
+ Robot
+ konsoleH
+ Dedicated 
+ Server Finder
+ Finde den passenden Server 
+ AX-Line
+ AMD-basierte Server 
+ EX-Line
+ Intel-basierte Server 
+ GPU-Line
+ Für KI-Workloads 
+ SX-Line
+ Für große Datenmengen 
+ DX-Line
+ Marken-Hardware von Dell 
+ Serverbörse
+ Refurbished Dedicated Deals 
+ Serverbörse 
+ Jetzt Geld und Ressourcen sparen – mit refurbished Servern unserer Serverbörse 
+ ab 
+ 80,56 € pro Monat, inkl. 19 % MwSt. 
+ Cloud 
+ Cloud Übersicht
+ Günstiges Cloud-Hosting 
+ Cost-Optimized
+ Perfekt für Testumgebungen 
+ Regular Performance
+ Bestes Preis-Leistungs-Verhältnis 
+ General Purpose
+ Optimiert für Businessanwendungen 
+ Europäische Cloud 
+ Preisgünstig und DSGVO-konform – mit Hetzner Cloud 
+ Storage 
+ Object Storage
+ S3-kompatibler Speicher 
+ Storage Box
+ Günstige Backup-Server 
+ Souveränität beginnt beim selbst Hosten. 
+ Starte mit Hetzner dein Self-Hosting. 
+ Managed 
+ Web & Mail
+ Webhosting
+ Günstiges Webhosting 
+ Domain Check
+ Nach Domains suchen 
+ Registration Robot
+ Domain Registrierung 
+ Servers
+ Managed Server
+ Komplett verwaltete Server 
+ Cloud Storage
+ Storage Share
+ DSGVO-konformer Speicher 
+ Hilfe gesucht? 
+ In unseren Docs findest du Hilfe deine Probleme zu lösen, Infos und technische Details. 
+ Services 
+ Domain & Sicherheit
+ DNS Management
+ Intuitive DNS-Verwaltung 
+ SSL Zertifikate
+ Für jeden Anspruch 
+ Netzwerk
+ Load Balancer
+ Automatische Lastverteilung 
+ Für Unternehmen
+ Custom Solutions
+ Individuelle IT-Infrastruktur 
+ Hilfe gesucht? 
+ In unseren Docs findest du Hilfe deine Probleme zu lösen, Infos und technische Details. 
+ Resources 
+ Neu 
+ Blog
+ Inspiration, Usecases & Insights 
+ Newsletter
+ Produkt News & Updates 
+ Docs
+ Self-Service und technische Dokumentation 
+ Tutorials
+ Anleitungen and How-tos 
+ Forum
+ Community Support & Diskussionen 
+ Status
+ System und Service Status 
+ API
+ Automatisierungen via REST API 
+ Downloads
+ Dokumente und Formulare 
+ Aktuelle Themen 
+ Entwicklung 
+ Inference Experiment 
+ Entwicklung 
+ Self-Hosting per Klick mit Coolify 
+ Entwicklung 
+ VPN-Server mit WireGuard 
+ We noticed you're browsing from a different part of the world.
+ Switch to settings tailored to your location?
+ yes
+ no
+ Datenschutz
+ Datenschutz
+ Rechtliches
+ Impressum
+ Datenschutz
+ System Policies
+ Dedicated Server
+ Cloud- und vServer
+ Managed Server
+ Webhosting
+ Storage Box
+ Storage Share
+ AGB
+ Digital Services Act
+ Widerrufsformular
+ TLD-Vergabebedingungen
+ Lieferantenselbstauskunft
+ Rechtliches 
+ Impressum
+ Datenschutz
+ System Policies
+ Dedicated Server
+ Cloud- und vServer
+ Managed Server
+ Webhosting
+ Storage Box
+ Storage Share
+ AGB
+ Digital Services Act
+ Widerrufsformular
+ TLD-Vergabebedingungen
+ Lieferantenselbstauskunft
+ Datenschutzhinweise
+ 1. Allgemein
+ Diese Datenschutzhinweise informieren Sie über die Verarbeitung personenbezogener Daten im Rahmen unserer Webseiten und Onlineauftritte.
+ 2. Wer ist für die Verarbeitung der Daten verantwortlich?
+ Hetzner Online GmbH 
+ Industriestr. 25
+ 91710 Gunzenhausen
+ Deutschland.
+ Weitere Informationen zu unserem Unternehmen finden Sie in unserem Impressum .
+ 3. An wen können Sie sich bei Fragen zum Datenschutz wenden?
+ Sie können sich direkt an unseren Datenschutzbeauftragten wenden:
+ E-Mail: data-protection@hetzner.com 
+ Postanschrift: 
+ Hetzner Online GmbH
+ Datenschutz
+ Industriestr. 25
+ 91710 Gunzenhausen
+ Telefon: +49 (0)9831 505216
+ Fax: +49 (0)3745 744472361
+ 4. Wie verarbeiten wir Ihre personenbezogenen Daten?
+ Hinweis zu diesem Kapitel: Sofern nicht anders angegeben, verbleiben Ihre Daten innerhalb der EU und werden nicht an Dritte weitergegeben.
+ 4.1 Bewerbungen 
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Abhängig von den Anforderungen der ausgeschriebenen Stelle verarbeiten wir: Stammdaten, Angaben zu beruflichen Rahmenbedingungen (u. a. Kündigungsfrist), Informationen zu bisheriger Ausbildung und Berufserfahrung, Fachkenntnisse, Bewerbungsunterlagen, ggf. besondere Kategorien personenbezogener Daten (z. B. Angaben zu einer Schwerbehinderung), Notizen und Einschätzungen aus Vorstellungsgesprächen sowie alle weiteren Angaben, die uns im Bewerbungsprozess mitgeteilt werden.
+ Diese Daten erhalten wir direkt von Ihnen oder – falls Sie über eine Personalvermittlungsagentur vermittelt wurden – von der Agentur.
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Abschluss eines Arbeitsvertrags: Prüfung und Bearbeitung Ihrer Bewerbung. Ziel ist der Abschluss eines Arbeitsvertrags. (Art. 6 Abs. 1 lit. b DSGVO)
+ Gewährleistung von Schutzrechten: Verarbeitung besonderer Kategorien personenbezogener Daten zur Wahrung Ihrer gesetzlichen Schutzrechte. (Art. 9 Abs. 2 lit. b DSGVO i. V. m. Art. 6 Abs. 1 lit. b DSGVO)
+ Aufnahme in den Talentpool: Speicherung Ihrer Unterlagen für zukünftige Stellen im Unternehmen auf Basis Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Diese können Sie jederzeit über career@hetzner.com widerrufen.
+ Gesetzliche Nachweispflichten: Speicherung zur Absicherung gegen potenzielle rechtliche Ansprüche oder um diese im Bedarfsfall geltend zu machen. (Art. 6 Abs. 1 lit. f DSGVO)
+ Wie werden die Bewerberdaten verwaltet?
+ Alle Bewerbungen werden zentral in unser Bewerbermanagementsystem übernommen. Postalische Bewerbungen werden digitalisiert, die Originale senden wir Ihnen anschließend zurück.
+ Zur internen Bearbeitung wird in dem System ein Bewerberprofil erstellt. Sie haben keinen Zugriff auf dieses Profil. 
+ Wer hat Zugriff auf die Daten und werden sie an Dritte weitergegeben?
+ Wir nutzen den externen Software-Anbieter Rexx für unser Bewerbermanagementsystem. Dieser kann im Zusammenhang mit der Wartung und Pflege des Systems Zugriff auf Ihre Daten erhalten. Wir haben mit dem Anbieter einen Auftragsverarbeitungsvertrag (kurz: AV-Vertrag) abgeschlossen. Dieser regelt, dass die Daten nur nach unseren Vorgaben und in Übereinstimmung mit den geltenden Datenschutzbestimmungen verarbeitet werden.
+ Weitere Informationen finden sich in den Datenschutzhinweisen von Rexx (Rexx Systems GmbH, Süderstrasse 75-79, 20097 Hamburg, Deutschland): https://www.rexx-systems.com/datenschutz/ .
+ Wenn Ihre Bewerbung nicht zu einer Stelle bei der Hetzner Online passt, prüfen wir, ob die Weitergabe Ihrer Unterlagen innerhalb unserer Unternehmensgruppe (Hetzner Cloud GmbH, Hetzer Finland Oy) im Sinne Ihrer Karrierechancen wäre (Art. 6 Abs. 1 lit. f DSGVO). Die Weiterleitung erfolgt nur für gleichwertige oder ähnliche Positionen.
+ Sollten Sie mit der Weitergabe der Unterlagen nicht einverstanden sein, können Sie diesem über career@hetzner.com widersprechen.
+ Wie lange werden die Daten gespeichert?
+ Absage/Rücknahme der Bewerbung: Sechs Monate nach Absage/Rücknahme
+ Talentpool: 24 Monate. Sie können Ihre Einwilligung jederzeit widerrufen. Bitte wenden Sie sich hierfür an unser Personalteam unter career@hetzner.com .
+ Einstellung: Übernahme der Daten in Ihre Personalakte .
+ Nach Ablauf der Fristen werden Ihre Daten gelöscht .
+ 4.2 Feedback 
+ 4.2.1 Allgemeines Feedback
+ Über https://feedback.hetzner.com/ können Sie uns Feedback zu unseren Produkten und Services geben.
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Wir verarbeiten die Informationen, die Sie uns im Rahmen Ihres Feedbacks mitteilen. Die Angabe personenbezogener Daten ist hierfür nicht erforderlich.
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Wir nutzen das Feedback zur Analyse und kontinuierlichen Verbesserung unseres (Kunden)services . (Art. 6 Abs. 1 lit. f DSGVO)
+ Wer hat Zugriff auf die Daten und werden sie an Dritte weitergegeben?
+ Der Zugriff auf das Feedback ist nur berechtigten Hetzner-Mitarbeitenden gestattet.
+ Wie lange werden die Daten gespeichert?
+ 3 Jahre (gemäß §§ 195, 199 BGB), anschließend löschen wir die Daten.
+ 4.2.2 Feedback zu unserem Kundenservice
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Sie können nach Abschluss eines Supportkontakts freiwillig Feedback geben. Wir verarbeiten dabei :
+ Ticketnummer
+ die von Ihnen im Freitextfeld mitgeteilten Inhalte
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Wir nutzen das Feedback zur Analyse und kontinuierlichen Verbesserung unseres (Kunden)services . (Art. 6 Abs. 1 lit. f DSGVO)
+ Wer hat Zugriff auf die Daten und werden sie an Dritte weitergegeben?
+ Der Zugriff auf das Feedback ist nur berechtigten Hetzner-Mitarbeitenden gestattet.
+ Wie lange werden die Daten gespeichert?
+ 2 Jahre , anschließend anonymisieren wir die Daten.
+ 4.2.3 Feedback zu Produkten auf experiments.hetzner.com
+ Allgemeines Feedback 
+ Über https://experiments.hetzner.com/support können Sie uns allgemeines Feedback zu unseren Experiments-Produkten geben.
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Wir verarbeiten Ihre Kontaktdaten sowie die mit dem Experiment verbundenen Produktinformationen (bspw. API-Token) .
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Wir nutzen das Feedback zur Analyse und kontinuierlichen Verbesserung unseres (Kunden)services . (Art. 6 Abs. 1 lit. f DSGVO)
+ Wer hat Zugriff auf die Daten und werden sie an Dritte weitergegeben?
+ Der Zugriff auf das Feedback ist nur berechtigten Hetzner-Mitarbeitenden gestattet.
+ Wie lange werden die Daten gespeichert?
+ 1 Jahr . Danach anonymisieren wir die Daten.
+ Feedback-Umfragen 
+ Auf unserer Experiments-Plattform können Sie Prototypen und mögliche zukünftige Hetzner-Produkte kostenlos testen. Für uns ist besonders wichtig von Ihnen zu erfahren, was gut funktioniert, wo es Probleme gibt und was wir noch verbessern können. Im Rahmen der Nutzung kontaktieren wir Sie gegebenenfalls, um Ihr Feedback zu erhalten.
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ In unserem Feedback-Formular können Sie freiwillig Ihre Kontaktdaten angeben. Eine Teilnahme ist aber auch anonym möglich.
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Wir nutzen das Feedback zur Analyse und Weiterentwicklung unserer Produkte. (Art. 6 Abs. 1 lit. f DSGVO)
+ Wer hat Zugriff auf die Daten und werden sie an Dritte weitergegeben?
+ Der Zugriff auf das Feedback ist nur berechtigten Hetzner-Mitarbeitenden gestattet.
+ Wie lange werden die Daten gespeichert?
+ Wir speichern die mit dem Feedback verbundenen Kontaktdaten für 2 Jahre. Anschließend anonymisieren wir die Daten.
+ 4.3 Forum 
+ In unserem Forum können sich Nutzer über technische Themen und unsere Dienstleistungen austauschen.
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Bei Ihrer Registrierung in unserem Forum verarbeiten wir den von Ihnen gewählten Nutzernamen sowie Ihre E-Mail-Adresse. 
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Das Forum dient der Kommunikation zwischen unseren Community-Mitgliedern. (Art. 6 Abs. 1 lit. f DSGVO)
+ Wie lange werden die Daten gespeichert?
+ Sobald Sie Ihr Benutzerkonto löschen, werden Ihre Daten gelöscht.
+ 4.4 Gewinnspiele 
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Wenn Sie an einem unserer Gewinnspiele teilnehmen, verarbeiten wir, je nach Art des Gewinnspiels, folgende Daten: Vor- und Nachname, E-Mail-Adresse, Anschrift und ggf. Social-Media-Nutzername. Diese Daten erhalten wir direkt von Ihnen, z. B. über ein Formular auf unserer Website oder durch Ihre Interaktion zu unseren Social-Media-Beiträgen.
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Die Daten dienen der Durchführung des Gewinnspiels und der Benachrichtigung des/der Gewinner. (Art. 6 Abs. 1 lit. b DSGVO)
+ Wie lange werden die Daten gespeichert?
+ Nach Abschluss des Gewinnspiels und Versand der Gewinne / des Gewinns löschen wir die Daten.
+ 4.5 KI 
+ 4.5.1 Chatbot Ask AI
+ Auf dieser Webseite ist ein KI-Chatbot integriert, der Ihnen allgemeine Fragen zu unseren Produkten beantwortet.
+ Bei Fragen zu Ihrem Kundenaccount kontaktieren Sie uns bitte über https://accounts.hetzner.com .
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Chatbot 
+ Wir verarbeiten die Informationen, die Sie im Chat eingeben . Für die Nutzung des Chatbots sind keine personenbezogenen Daten erforderlich .
+ Ihre Anfrage wird zunächst an Hetzner übermittelt und automatisch auf personenbezogene Daten überprüft (PII-Tool). Erkannte personenbezogene Daten werden entfernt, bevor die Anfrage an unseren externen KI-Dienst übermittelt wird. Der externe KI-Dienst erstellt dann die Antwort und übermittelt diese an Hetzner. Bei Bedarf ergänzen wir die Antwort um die zuvor entfernten personenbezogenen Daten. Anschließend wird Ihnen die Antwort im Chat angezeigt.
+ Kann der Chatbot Ihre Anfrage nicht beantworten, können Sie uns eine Supportanfrage senden . In diesem Zusammenhang verarbeiten wir:
+ Name
+ E-Mail-Adresse
+ Kundennummer
+ Chat-ID
+ KI-generierte Zusammenfassung Ihres Problems
+ Weitere Informationen finden Sie im Abschnitt „Kundenanfragen“ .
+ Cookies 
+ Es werden die für den allgemeinen Betrieb unserer Website erforderlichen Cookies verwendet. Weitere Informationen finden Sie im Abschnitt „Website“ .
+ Erstellung von Logfiles 
+ Es werden die für den allgemeinen Betrieb unserer Website erforderlichen Logfiles erfasst. Weitere Informationen finden Sie im Abschnitt „Website“ .
+ Zusätzlich vergeben wir für jede Anfrage eine interne Kennung ( Request-ID ) und erfassen, ob die Verarbeitung erfolgreich war (Status- und Fehlermeldungen).
+ Der externe KI-Dienst verarbeitet außerdem technische Daten, die für den Betrieb, die Sicherheit und die Überwachung des Dienstes erforderlich sind.
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Die Inhalte Ihrer Anfrage verarbeiten wir zur Beantwortung Ihrer Fragen . (Art. 6 Abs. 1 lit. f DSGVO)
+ Die Verarbeitung technischer Daten erfolgt für den sicheren und zuverlässigen Betrieb des Chatbots . (Art. 6 Abs. 1 lit. f DSGVO)
+ Wer hat Zugriff auf die Daten und werden sie an Dritte weitergegeben?
+ Ihre Daten sind nur für berechtigte Hetzner-Mitarbeitende zugänglich.
+ Für die Bereitstellung der KI-Funktion setzen wir einen externen KI-Dienst mit Serverstandort in der EU ein. Der Anbieter erhält nur die zuvor bereinigte Anfrage ohne personenbezogene Daten. Der Dienstleister verarbeitet die Daten ausschließlich nach unseren Anweisungen. Wir haben mit diesem einen Vertrag zur Einhaltung der datenschutzrechtlichen Vorgaben abgeschlossen.
+ Ihre Anfragen werden nicht zum Training oder zur Verbesserung von KI-Modellen verwendet.
+ Wie lange werden die Daten gespeichert?
+ Chatverläufe und damit verbundene Logfiles : 3 Jahre (§§ 195, 199 BGB)
+ Logfiles bei unserem externen KI-Dienst : bis zu 90 Tage
+ Sofern Sie ein Supportticket eröffnen: Hier möchten wir Sie auf den Abschnitt „Kundenanfragen“ verweisen.
+ 4.5.2 Inference
+ Mit Inference stellen wir Ihnen KI-Modelle zur Verfügung, die Sie über eine Programmierschnittstelle (API) in Ihre Anwendungen einbinden können. Die KI-Modelle werden vollständig auf unserer eigenen Hetzner-Infrastruktur betrieben .
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Prompts und Outputs 
+ Die Inhalte Ihrer Anfrage (Prompt) werden an unsere Hetzner-Server übermittelt und dort verarbeitet, um eine Antwort (Output) zu erzeugen.
+ Logfiles 
+ Bei der Nutzung der API werden darüber hinaus folgende technische Daten in einem Logfile gespeichert:
+ IP-Adresse (diese speichern wir anonymisiert)
+ Datum und Uhrzeit des Zugriffs
+ Metadaten der API-Anfrage (u. a. HTTP-Aufrufe und Statuscodes)
+ Vom Nutzer festgelegte Einstellungen für die API-Anfrage (z. B. die maximale Länge der erzeugten Antwort)
+ Die Inhalte Ihrer Anfragen und Antworten sind nicht Bestandteil des Logfiles.
+ Abrechnungsdaten 
+ Für die Nutzung von Inference ist ein Hetzner-Kundenkonto erforderlich, über das die Abrechnung der KI-Nutzung erfolgt. Wir speichern in diesem Zusammenhang die folgenden Abrechnungsdaten :
+ Projekt-ID
+ Name des API-Tokens (diesen können Sie selbst wählen)
+ Zeitpunkt der Anfrage
+ Anzahl der verarbeiteten Ein- und Ausgabetoken
+ Die Inhalte Ihrer Anfragen und Antworten sind nicht Bestandteil der Abrechnungsdaten.
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Wir verarbeiten die Inhalte Ihrer Anfragen und die Abrechnungsdaten, um Ihnen den Inference-Dienst bereitzustellen und die Abrechnung durchzuführen. (Art. 6 Abs. 1 lit. b DSGVO)
+ Die Logfiles verarbeiten wir, um einen sicheren und zuverlässigen Betrieb des Dienstes sicherzustellen. (Art. 6 Abs. 1 lit. f DSGVO)
+ Wer hat Zugriff auf die Daten und werden sie an Dritte weitergegeben?
+ Ihre Anfragen und die Antworten werden auf unseren Servern verarbeitet und verlassen die Hetzner-Infrastruktur nicht. 
+ Zugriff auf die Abrechnungsdaten und die Logfiles ist nur berechtigten Hetzner-Mitarbeitenden gestattet.
+ Wie lange werden die Daten gespeichert?
+ Prompts und Outputs : Werden im Rahmen unserer Zero-Retention-Policy nicht gespeichert. Sie werden auch nicht anderweitig zum Training oder zur Verbesserung der KI-Modelle verwendet.
+ Logfiles : 6 Monate
+ Abrechnungsdaten : 8 Jahre (gemäß steuer- und handelsrechtlicher Aufbewahrungspflichten)
+ 4.6 Kundenaccount 
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Bei der Erstellung eines Kundenaccounts verarbeiten wir die von Ihnen mitgeteilten Stammdaten, Kontaktdaten und Zahlungsinformationen. Weiterhin wird uns über Ihren Browser Ihre IP-Adresse automatisch übermittelt.
+ Wenn Sie zu einem Cloud Projekt eingeladen wurden, speichern wir ausschließlich Ihre E-Mail-Adresse. 
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Die Verarbeitung erfolgt zur Erstellung und Verwaltung des Kundenaccounts. Dieser ist erforderlich, um Ihnen den Kauf unserer Produkte und Dienstleistungen zu ermöglichen. (Art. 6 Abs. 1 lit. b DSGVO)
+ Wer hat Zugriff auf die Daten und werden sie an Dritte weitergegeben?
+ Wir erfassen und speichern keine Kreditkartendaten. Diese geben Sie ausschließlich unserem externen Zahlungsdienstleister Computop bekannt. Weitere Informationen finden Sie in den Datenschutzhinweisen der Computop Paygate GmbH (Schwarzenbergstr. 4, 96050 Bamberg, Deutschland): https://computop.com/us/data-protection .
+ Damit Sie Ihre Kreditkartendaten nicht bei jedem Bezahlvorgang erneut eingeben müssen, speichern wir in Ihrem Kundenkonto eine Pseudokartennummer. 
+ Wenn wir für Sie eine Domain registrieren, geben wir die hierfür notwendigen Daten an die zuständige Registrierungsstelle (abhängig von Domain) weiter.
+ Wenn es trotz mehrmaliger Erinnerung zu einem Zahlungsverzug kommt, behalten wir uns vor, das Inkassounternehmen Intrum, mit der Forderungsdurchsetzung zu beauftragen. Intrum ist für die weitere Verarbeitung Ihrer Daten selbst Verantwortlicher. Weitere Informationen finden Sie in der Datenschutzerklärung von Intrum (Intrum Deutschland Gmbh, Donnersbergstraße 1, 64646 Heppenheim, Deutschland): https://www.intrum.de/zahlungserinnerung-erhalten/uber-intrum/datenschutz/ .
+ Wie lange werden die Daten gespeichert?
+ Nach einer Deaktivierung des Kundenaccounts gelten folgende Speicherfristen:
+ Ohne Produktnutzung: 3 Jahre 
+ Mit Produktnutzung (Rechnungsstellung): 14 Jahre (gemäß steuer- und handelsrechtlicher Aufbewahrungspflichten)
+ Nicht-verifizierter Kundenaccount: 14 Tage nach Ablauf der erfolglos abgelaufenen Verifizierungsfrist.
+ Nach Ablauf der Fristen werden Ihre Daten gelöscht .
+ 4.6.1 Prüfung von Kundenangaben
+ 4.6.1.1 Neukunden 
+ Zur Minimierung unseres Geschäftsrisikos und zur Betrugsprävention führen wir bei der Registrierung neuer Kundenkonten eine Risikoprüfung durch.
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Wir bewerten anhand festgelegter Kriterien und Erfahrungswerte, wie wahrscheinlich es ist, dass Sie Ihre vertraglichen Zahlungsverpflichtungen erfüllen und unsere Dienste verantwortungsvoll nutzen.
+ Bei der Bewertung werden insbesondere die von Ihnen angegebenen Registrierungsdaten, technische Merkmale sowie, sofern zutreffend, Erkenntnisse aus bestehenden oder früheren Vertragsbeziehungen berücksichtigt. Darüber hinaus binden wir einen externen Dienstleister zur Unterstützung der Risikobewertung ein.
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Wir verarbeiten Ihre Daten zur Minimierung unseres Geschäftsrisikos und zur Betrugsprävention . (Art. 6 Abs. 1 lit. f DSGVO)
+ Wer hat Zugriff auf die Daten und werden sie an Dritte weitergegeben?
+ Zugriff auf die Daten haben unsere dafür zuständigen Mitarbeitenden .
+ Darüber hinaus binden wir einen externen Dienstleister zur Unterstützung der Risikobewertung ein. Aus Sicherheitsgründen machen wir keine Angaben zu den konkreten Bewertungskriterien oder deren Gewichtung, da dies es Nutzern erleichtern könnte, Fake-Accounts zu erstellen oder unsere Dienste zu missbrauchen.
+ Wie lange werden meine Daten gespeichert?
+ Das Ergebnis der Überprüfung wird für die Dauer der Kundenbeziehung in Ihrem Kundenkonto gespeichert.
+ Informationen zu den Speicher- und Löschfristen von Kundenkonten finden Sie im Abschnitt „Kundenaccount“.
+ Weitere Informationen zur Risikoprüfung
+ Das Ergebnis der Risikoprüfung wird als einen von mehreren Entscheidungsfaktoren berücksichtigt. Die endgültige Entscheidung , ob ein Kundenkonto freigeschaltet wird, wird stets von einem unserer dafür zuständigen Mitarbeitenden getroffen und erfolgt damit nicht ausschließlich automatisiert. 
+ Aus Sicherheitsgründen geben wir keine konkreten Details dazu bekannt, warum eine Verifizierung fehlgeschlagen ist. Auch die zugrunde liegende Logik des Prozesses wird nicht offengelegt, da dies es Nutzern erleichtern könnte, Fake-Accounts zu erstellen oder unsere Dienste zu missbrauchen.
+ Sofern Sie eine Überprüfung einer im Zusammenhang mit der Risikobewertung getroffenen Entscheidung wünschen, können Sie sich an cda-review@hetzner.com wenden. 
+ 4.6.1.2 Bestandskunden 
+ Zur Vermeidung von Zahlungsausfällen, zur Betrugsprävention sowie zum Schutz unserer Dienste führen wir während der bestehenden Kundenbeziehung eine fortlaufende Risikobewertung anhand festgelegter Kriterien und Erfahrungswerte durch.
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Wir verarbeiten insbesondere Informationen über die bestehende Geschäftsbeziehung , beispielsweise das bisherige Zahlungsverhalten, Bestellvorgänge und die bisherige Nutzung unserer Produkte und Dienste.
+ Für die Prüfung einzelner Bestellungen können wir Sie außerdem dazu auffordern, Angaben zur geplanten Nutzung unserer Produkte zu machen.
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Wir verarbeiten diese Daten zur Vermeidung von Zahlungsausfällen , zur Betrugsprävention sowie zum Schutz unserer Dienste . (Art. 6 Abs. 1 lit. f DSGVO)
+ Wer hat Zugriff auf die Daten und werden sie an Dritte weitergegeben?
+ Zugriff auf die Daten haben unsere dafür zuständigen Mitarbeitenden . Es erfolgt keine Weitergabe an Dritte.
+ Wie lange werden meine Daten gespeichert?
+ Das Ergebnis der Überprüfung wird für die Dauer der Kundenbeziehung in Ihrem Kundenkonto gespeichert und fortlaufend aktualisiert . Informationen zu den Speicher- und Löschfristen von Kundenkonten finden Sie im Abschnitt „Kundenaccount“.
+ Angaben, die Sie uns im Rahmen einer Bestellprüfung zur Verfügung stellen, speichern wir für einen Zeitraum von drei Jahren. (§§ 195, 199 BGB)
+ Weitere Informationen zur Risikoprüfung
+ Die endgültige Entscheidung , welche Produkte oder Dienstleistungen bestellt werden können, welche Bestell- oder Nutzungslimits gelten und welche Funktionen innerhalb des Kundenkontos zur Verfügung stehen, wird stets von einem unserer dafür zuständigen Mitarbeitenden getroffen und erfolgt damit nicht ausschließlich automatisiert. 
+ 4.6.1.3 Identitätsverifikation 
+ In Einzelfällen fordern wir dazu auf, sich über ein gültiges Ausweisdokument zu verifizieren. Dabei erfolgt die Verifizierung durch einen unserer Mitarbeitenden oder durch unseren externen Dienstleister iDenfy.
+ iDenfy agiert für uns als Auftragsverarbeiter, wir haben einen entsprechenden AV-Vertrag mit dem Unternehmen abgeschlossen.
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Identitätsprüfung durch Hetzner : Über das von Ihnen zur Verfügung gestellte Ausweisdokument erhalten wir Angaben zu: Name, Adresse und Ablaufdatum des Dokumentes . Weitere Angaben können im Ausweisdokument geschwärzt werden .
+ Identitätsprüfung durch iDenfy : Für die Daten, die durch iDenfy erhoben werden, verweisen wir auf die Datenschutzhinweise des Unternehmens iDenfy UAB (K. Baršausko g. 59, LT-51423 Kaunas, Litauen): https://www.idenfy.com/privacy-policy/ . Wir erhalten im Anschluss das Verifizierungsergebnis.
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Die Identitätsverifikation erfolgt zur Vermeidung von Betrugsfällen und Zahlungsausfällen sowie zum Schutz unserer Dienste vor missbräuchlicher Nutzung . (Art. 6 Abs. 1 lit. f DSGVO)
+ Darüber hinaus erfolgt dies zur Vertragserfüllung , da Sie dazu verpflichtet sind, uns auf Anfrage einen Nachweis über die Richtigkeit Ihrer Daten zu erbringen. (Art. 6 Abs. 1 lit. b DSGVO in Verbindung mit Punkt 2.3 unserer AGB)
+ Wer hat Zugriff auf die Daten und werden sie an Dritte weitergegeben?
+ Identitätsprüfung durch Hetzner : Zugriff auf die Daten haben nur unsere dafür zuständigen Mitarbeitenden . Es erfolgt keine Weitergabe an Dritte.
+ Identitätsprüfung durch iDenfy : Wir leiten Ihren Namen und das Land, in dem Sie wohnen, an iDenfy weiter . Die Daten werden jedoch erst mit Ihrem Klick auf den Verifizierungslink übermittelt. 
+ Wie lange werden meine Daten gespeichert?
+ Identitätsprüfung durch Hetzner : Ihre Daten werden nach der Prüfung unverzüglich gelöscht .
+ Identitätsprüfung durch iDenfy : Der Anbieter speichert Ihre Daten für zwei Monate . Eine individuelle Ausnahme von diesem automatisierten Lösch- und Aufbewahrungsprozess ist derzeit nicht vorgesehen. Dies gilt auch in Fällen, in denen nach Abschluss der Identitätsprüfung kein Kundenverhältnis zustande gekommen ist.
+ 4.6.2 Kundenanfragen
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Wenn Sie uns eine Anfrage senden , verarbeiten wir insbesondere folgende Daten :
+ Kundennummer
+ E-Mail-Adresse
+ bei Fragen zu einem Produkt: die zugehörige Produkt- oder Projekt-ID
+ weitere personenbezogene Daten, die Sie uns in Ihrer Anfrage mitteilen, z. B. eine Rechnungsnummer.
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Wir verarbeiten Ihre Daten, um Ihre Anfrage zu beantworten und Sie bei Fragen zu bestehenden oder neuen Produkten zu unterstützen. (Art. 6 Abs. 1 lit. b DSGVO).
+ Wer hat Zugriff auf die Daten und werden sie an Dritte weitergegeben?
+ Der Zugriff ist nur berechtigten Hetzner-Mitarbeitenden gestattet.
+ Wie lange werden die Daten gespeichert?
+ Die Daten werden für 3 Jahre gespeichert (§§ 195, 199 BGB) und anschließend gelöscht.
+ 4.6.3 One-Time Password
+ Wenn Sie sich von einem neuen Gerät oder einem ungewöhnlichen Standort in Ihrem Kundenaccount einloggen, senden wir Ihnen ein One-Time-Passwort (OTP) zu.
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Wir verarbeiten bei jedem Login-Versuch folgende Daten:
+ Kundennummer
+ Datum und Uhrzeit
+ IP-Adresse
+ Art der Anmeldung (OTP oder 2FA)
+ Information, ob die Anmeldung erfolgreich war
+ Die Daten werden bei der Anmeldung automatisch erfasst .
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Wir verarbeiten die Daten, um Ihren Kundenaccount vor unberechtigten Zugriffen zu schützen. (Art. 6 Abs. 1 lit. f DSGVO)
+ Wer hat Zugriff auf die Daten und werden sie an Dritte weitergegeben?
+ Ihre Daten sind nur für berechtigte Hetzner-Mitarbeitende zugänglich.
+ Wie lange werden die Daten gespeichert?
+ Für die Prüfung der Anmeldungen werden die Daten der letzten 100 Tage berücksichtigt.
+ 4.6.4 Verifizierung von Domaininhaberdaten
+ Durch gesetzliche Vorgaben zur Cybersicherheit ist die DENIC eG als zentrale Registrierungsstelle für .de-Domains verpflichtet, sicherzustellen, dass für jede .de-Domain korrekte und erreichbare Inhaberdaten vorliegen.
+ Hat die DENIC Zweifel an der Richtigkeit oder Gültigkeit der für Ihre Domain hinterlegten Inhaberdaten, sind wir als Registrar verpflichtet, die Angaben zu überprüfen.
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Bei Privatpersonen benötigen wir zur Überprüfung Ihrer Inhaberdaten einen Nachweis zu Ihrer Identität und Anschrift . Diesen Nachweis können Sie beispielsweise über ein Ausweisdokument, eine Meldebescheinigung oder die Rechnung eines Versorgungsunternehmens erbringen.
+ Bei Unternehmen benötigen wir darüber hinaus noch einen zusätzlichen Nachweis über das Unternehmen , bspw. über einen Handelsregisterauszug.
+ Die Nachweise werden von Ihnen direkt an Hetzner übermittelt, nachdem wir Sie zur Verifizierung der Daten aufgefordert haben .
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Wir verarbeiten die Daten, um die Richtigkeit der bei der Domainregistrierung hinterlegten Inhaberdaten zu überprüfen und das Ergebnis der Prüfung an die DENIC zu übermitteln .
+ Die Verarbeitung erfolgt zur Erfüllung einer rechtlichen Verpflichtung. (Art. 6 Abs. 1 lit. c DSGVO in Verbindung mit den gesetzlichen Anforderungen an die Überprüfung von Domaininhaberdaten sowie der darauf beruhenden Vorgaben der DENIC.)
+ Wer hat Zugriff auf die Daten und werden sie an Dritte weitergegeben?
+ Auf die Nachweise haben nur die für die Prüfung zuständigen Hetzner-Mitarbeitenden Zugriff.
+ Wir leiten ausschließlich das Ergebnis der Prüfung sowie gegebenenfalls aktualisierte Inhaberdaten an die DENIC weiter.
+ Die von Ihnen eingereichten Nachweisdokumente werden nicht an die DENIC weitergegeben. 
+ Wie lange werden die Daten gespeichert?
+ Die eingereichten Nachweisdokumente werden nach der Durchführung der Prüfung unverzüglich gelöscht .
+ Weitere Informationen
+ Hetzner hat keinen Einfluss auf die Prüfung der DENIC und kann keine Aussagen dazu treffen, warum und welche Daten als ungültig markiert wurden.
+ Werden die erforderlichen Nachweise nicht erbracht oder können die Inhaberdaten nicht bestätigt werden, kann die DENIC Maßnahmen bis hin zur Deaktivierung und Löschung der Domain ergreifen.
+ 4.6.5 Inkasso
+ Wenn Sie trotz mehrfacher Zahlungserinnerungen nicht zahlen, können wir das Inkassounternehmen Intrum (Intrum Deutschland GmbH, Donnersbergstraße 1, 64646 Heppenheim, Deutschland) mit dem Einzug der offenen Forderung beauftragen.
+ Welche Daten werden verarbeitet und wie gelangen diese zu Intrum?
+ Wir übermitteln folgende Daten an Intrum:
+ Kontaktdaten
+ Umsatzsteuer-Identifikationsnummer (VAT ID)
+ Kundennummer
+ Fallnummer
+ Rechnungsnummer, -datum und -betrag
+ Auf Anfrage von Intrum übermitteln wir darüber hinaus weitere Informationen, die für den Einzug der Forderung erforderlich sind, z. B. Rechnungen, Zahlungserinnerungen, Mahnungen, Kündigungen.
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Wir übermitteln die Daten zur Durchsetzung unserer Zahlungsansprüche . (Art. 6 Abs. 1 lit. f DSGVO)
+ Wer hat Zugriff auf die Daten und werden sie an Dritte weitergegeben?
+ Bei Hetzner haben nur berechtigte Hetzner-Mitarbeitende Zugriff.
+ Für den Einzug offener Forderungen übermitteln wir die erforderlichen Daten an Intrum. Intrum verarbeitet die übermittelten Daten in eigener Verantwortung. Weitere Informationen finden Sie in den Datenschutzhinweisen von Intrum: https://www.intrum.de/zahlungserinnerung-erhalten/ 
+ Wie lange werden die Daten gespeichert?
+ Wir speichern die bei uns vorhandenen Daten aufgrund gesetzlicher Aufbewahrungspflichten für acht Jahre . (§ 257 HGB, § 147 AO)
+ 4.6.6 Abuse-Meldungen
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Wir verarbeiten die personenbezogenen Daten, die Sie uns im Rahmen Ihrer Abuse-Meldung mitteilen.
+ Verarbeitet werden dabei insbesondere Ihr Name und Ihre E-Mail-Adresse sowie weitere personenbezogene Daten , die Sie uns in der Meldung oder in Anhängen mitteilen.
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Wir verarbeiten Ihre personenbezogenen Daten, um Ihre Abuse-Meldung zu bearbeiten . (Art. 6 Abs. 1 lit. f DSGVO)
+ Wer hat Zugriff auf die Daten und werden sie an Dritte weitergegeben?
+ Zugriff auf Ihre personenbezogenen Daten haben ausschließlich die Mitarbeitenden, die diese zur Bearbeitung Ihrer Abuse-Meldung benötigen .
+ Je nach betroffenem Produkt kann es erforderlich sein, Ihre Abuse-Meldung an den betroffenen Hetzner-Kunden weiterzuleiten , da wir nicht bei allen Produkten Zugriff auf die betroffenen Systeme haben.
+ Stellt sich im Rahmen unserer Bearbeitung heraus, dass eine Weiterleitung Ihrer Missbrauchsmeldung erforderlich ist und der betroffene Hetzner-Kunde diese ohne die Weitergabe Ihres Namens und Ihrer E-Mail-Adresse nicht bearbeiten kann, erfolgt die Weitergabe auf Grundlage Ihrer im Abuse-Formular erteilten Einwilligung . (Art. 6 Abs. 1 lit. a DSGVO) Liegt uns keine Einwilligung vor, fragen wir Sie zunächst nach Ihrer Einwilligung. Erteilen Sie diese nicht, kann es sein, dass wir Ihre Missbrauchsmeldung ohne weitere Bearbeitung schließen.
+ Wie lange werden die Daten gespeichert?
+ Wir speichern die Abuse-Meldung für maximal zehn Jahre .
+ Sofern die Daten für die Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen benötigt werden, erfolgt die Löschung erst nach Abschluss des entsprechenden Verfahrens.
+ 4.7 Newsletter 
+ In unserem Newsletter informieren wir Sie über neue Produkte und aktuelle Themen.
+ 1. Anmeldung zum Newsletter
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Wenn Sie sich für unseren Newsletter anmelden, stellen Sie uns Ihre E-Mail-Adresse zur Verfügung. Darüber hinaus können Sie bei der Anmeldung freiwillig Angaben zu Ihrem Namen und Ihrem Jobprofil machen.
+ Im Hintergrund wird das Datum der Anmeldung gespeichert. Darüber hinaus überträgt Ihr Browser automatisch Ihre IP-Adresse .
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Die Anmeldung zum Newsletter erfolgt freiwillig. Über einen Double-Opt-In -Link, den wir Ihnen nach der Anmeldung zusenden, bestätigen Sie den künftigen Erhalt unseres Newsletters. Das bedeutet: Erst wenn Sie den Link in der Bestätigungs-E-Mail anklicken, ist Ihre Anmeldung erfolgreich abgeschlossen. (Art. 6 Abs. 1 lit. a DSGVO)
+ Wie lange werden die Daten gespeichert?
+ Sie müssen dem künftigen Erhalt des Newsletters innerhalb von 30 Tagen zustimmen. Erfolgt innerhalb dieser Frist keine Bestätigung, löschen wir Ihre Daten.
+ Sofern Sie den Erhalt bestätigen, speichern wir Ihre Daten, einschließlich des Double-Opt-Ins bis zu Ihrer Abmeldung vom Newsletter. Für weitere Informationen verweisen wir auf den Abschnitt "Abmeldung vom Newsletter".
+ 2. Versand des Newsletters
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Beim Versand unseres Newsletters speichern wir den vollständigen Inhalt der E-Mail inkl. Betreff, Empfänger-E-Mail-Adresse und Name des Empfängers ( E-Mail-Vorschau ).
+ Außerdem werden technische Ereignisse wie der Status der E-Mail (z. B. „versendet“) und Fehlermeldungen gespeichert.
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Wir speichern diese Daten, um den ordnungsgemäßen Versand unseres Newsletters sicherzustellen. (Art. 6 Abs. 1 lit. f DSGVO)
+ Wie lange werden die Daten gespeichert?
+ Die Daten werden für 24 Monate gespeichert und im Anschluss gelöscht.
+ 3. Tracking
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Unser Newsletter enthält Tracking-Pixel , die beim Öffnen des Newsletters vom Server unseres Newsletter-Dienstleisters geladen werden.
+ Wir erfassen in diesem Zusammenhang: Ob, wann und wie oft Sie den Newsletter öffnen ( Öffnungsrate und Öffnungszeitpunkt ) und wie oft und welche Links Sie anklicken ( Klickverhalten und Klickrate ). Dabei werden ebenfalls das Datum , die E-Mail-Adresse und die IP-Adresse verarbeitet.
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Das Tracking wird bei uns genutzt, um unseren Newsletter stetig zu verbessern und auf die Interessen unserer Leser anzupassen. Wir werten diese Daten insbesondere in aggregierter Form aus.
+ Die Verarbeitung der Daten erfolgt auf Basis Ihrer Einwilligung , die Sie bei der Anmeldung zum Newsletter abgegeben haben. (Art. 6 Abs. 1 lit. a DSGVO).
+ Sie können Ihre Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen, indem Sie sich über den Abmeldelink im Newsletter abmelden.
+ Wie lange werden die Daten gespeichert?
+ Die Daten werden für 24 Monate gespeichert und im Anschluss gelöscht.
+ 4. Abmeldung vom Newsletter
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Wenn Sie sich vom Newsletter abmelden, speichern wir das Datum der Abmeldung und verknüpfen dies mit Ihren Anmeldedaten (Name, E-Mail-Adresse, Jobprofil, Double-Opt-In).
+ Zusätzlich wird Ihre E-Mail-Adresse in unsere Sperrliste ( Blacklist ) aufgenommen, damit wir Ihnen zukünftig keinen Newsletter mehr zusenden.
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Wir verarbeiten diese Daten zum einen, um Ihre Abmeldung nachvollziehbar zu dokumentieren und zum anderen, um einen erneuten Versand an Ihre E-Mail-Adresse zu verhindern . (Art. 6 Abs. 1 lit. f DSGVO)
+ Wie lange werden die Daten gespeichert?
+ Die Daten zum Nachweis der Abmeldung inkl. Ihrer bei der Anmeldung angegebenen Daten speichern wir für 3 Jahre nach der Abmeldung (§§ 195, 199 BGB) und löschen sie anschließend.
+ Die E-Mail-Adresse speichern wir dauerhaft in der Blacklist , um einen erneuten Versand zu verhindern (Art. 6 Abs. 1 lit. f DSGVO).
+ 5. Sonstige
+ Auf Messen können Sie uns Ihr Messe-Badge zur Verfügung stellen, um auch künftig Informationen zu unserem Unternehmen zu erhalten.
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Wir verarbeiten die Kontaktdaten, die uns beim Scannen Ihres Messe-Badges übermittelt werden (in der Regel Name, E-Mail-Adresse und Jobprofil ).
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Indem Sie uns Ihr Messe-Badge freiwillig zum Scannen zur Verfügung stellen, verarbeiten wir Ihre Daten für die Anmeldung zu unserem Newsletter und die Zusendung des Promo-Codes (Art. 6 Abs. 1 lit. a DSGVO).
+ Wie lange werden die Daten gespeichert?
+ Die Verbindung zwischen dem Promo-Code und Ihren Daten wird nach zwei Monaten aufgehoben.
+ Ihre Kontaktdaten werden für den Newsletter-Versand gespeichert, bis Sie Ihre Einwilligung zum Erhalt des Newsletters widerrufen. Für weitere Informationen verweisen wir auf den Abschnitt "Anmeldung zum Newsletter".
+ Wer hat Zugriff auf die Daten und werden sie an Dritte weitergegeben?
+ Ihre Daten können von unseren für das Marketing zuständigen Mitarbeitenden eingesehen werden.
+ Für die Anmeldung, Verwaltung und den Versand unseres Newsletters sowie die oben beschriebenen damit verbundenen Verarbeitungsschritte nutzen wir den externen Dienstleister für digitales Marketing. Wir haben mit diesem Anbieter einen Auftragsverarbeitungsvertrag gemäß Art. 28 DSGVO abgeschlossen, der sicherstellt, dass die Daten nur gemäß unseren Anweisungen und unter Einhaltung der geltenden Datenschutzbestimmungen verarbeitet werden.
+ 4.8 Hetzner Status 
+ Über unseren Status finden Sie allgemeine Statusmeldungen zu unseren Produkten und Services.
+ Welche personenbezogenen Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Bei der Anmeldung teilen Sie uns Ihre E-Mail-Adresse mit.
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Wir verarbeiten Ihre Daten, um Sie bspw. über Störungen und Wartungsarbeiten benachrichtigen zu können. (Art. 6 Abs. 1 lit. b DSGVO)
+ Wie lange werden die Daten gespeichert?
+ Die Daten werden gelöscht, sobald Sie sich vom Benachrichtigungsdienst abmelden.
+ 4.9 Social Media 
+ Facebook
+ Anbieter: Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour Dublin 2, Irland.
+ Datenschutzerklärung: https://www.facebook.com/about/privacy/ 
+ Opt-Out: https://www.facebook.com/settings?tab=ads .
+ Wir betreiben eine Unternehmensseite auf Facebook. Die folgenden Informationen gelten für Sie als Besucher unserer Facebook-Seite.
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Interaktion mit uns 
+ Wenn Sie mit uns interagieren, etwa durch Kommentare, Likes oder Nachrichten, verarbeiten wir Ihren Benutzernamen, öffentlich zugängliche Profilinformationen sowie den Inhalt Ihrer Interaktion.
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ im Rahmen unserer Öffentlichkeitsarbeit (Art. 6 Abs. 1 lit. f DSGVO)
+ zur Kommunikation mit Nutzern (Art. 6 Abs. 1 lit. f DSGVO)
+ Wer hat Zugriff auf die Daten und werden sie an Dritte weitergegeben?
+ Die Daten werden sowohl durch uns als auch durch Meta verarbeitet. Dabei kann es zu einer Übermittlung personenbezogener Daten in Drittländer, insbesondere in die USA, kommen.
+ Wie lange werden die Daten gespeichert?
+ Wir speichern selbst keine Zugriffsdaten aus Ihrem Besuch. Inhalte und Interaktionen bleiben auf Facebook gespeichert, bis sie von Ihnen oder dem Plattformbetreiber gelöscht werden. Die Speicherdauer durch Meta richtet sich nach deren Datenschutzbestimmungen.
+ Instagram
+ Anbieter: Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour Dublin 2, Irland.
+ Datenschutzerklärung: https://instagram.com/about/legal/privacy/ 
+ Opt-Out: https://instagram.com/about/legal/privacy/ 
+ Wir betreiben ein Profil auf Instagram. Die folgenden Informationen gelten für Sie als Besucher unserer Instagram-Seite.
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Interaktion mit uns 
+ Wenn Sie mit uns interagieren, etwa durch Kommentare, Likes oder Nachrichten, verarbeiten wir Ihren Benutzernamen, öffentlich sichtbare Profilinformationen sowie die Inhalte Ihrer Interaktion.
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ im Rahmen unserer Öffentlichkeitsarbeit (Art. 6 Abs. 1 lit. f DSGVO)
+ zur Kommunikation mit Nutzern (Art. 6 Abs. 1 lit. f DSGVO)
+ Wer hat Zugriff auf die Daten und werden sie an Dritte weitergegeben?
+ Die Daten werden sowohl durch uns als auch durch Meta verarbeitet. Dabei kann es zu einer Übermittlung personenbezogener Daten in Drittländer, insbesondere in die USA, kommen.
+ Wie lange werden die Daten gespeichert?
+ Wir speichern selbst keine Zugriffsdaten. Inhalte und Interaktionen bleiben auf der Plattform gespeichert, bis sie gelöscht werden. Die Speicherdauer richtet sich im Übrigen nach den Vorgaben von Meta.
+ X
+ Anbieter: Twitter International Unlimited Company, One Cumberland Place, Fenian Street Dublin 2, D02 AX07 Irland.
+ Datenschutzerklärung: https://twitter.com/de/privacy 
+ Opt-Out: https://help.twitter.com/de/safety-and-security/privacy-controls-for-tailored-ads 
+ Wir betreiben ein Profil auf X. Die folgenden Informationen gelten für Sie als Besucher unserer X-Seite.
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Interaktion mit uns 
+ Wenn Sie mit uns interagieren, etwa durch Tweets, Antworten oder Direktnachrichten, verarbeiten wir Ihren Benutzernamen, öffentlich zugängliche Profilinformationen sowie die Inhalte Ihrer Interaktion.
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ im Rahmen unserer Öffentlichkeitsarbeit (Art. 6 Abs. 1 lit. f DSGVO)
+ zur Kommunikation mit Nutzern (Art. 6 Abs. 1 lit. f DSGVO)
+ Wer hat Zugriff auf die Daten und werden sie an Dritte weitergegeben?
+ Die Daten werden durch den Anbieter X verarbeitet. Dabei kann es zu einer weltweiten Verarbeitung und Übermittlung personenbezogener Daten in Drittländer, insbesondere in die USA, kommen.
+ Wie lange werden die Daten gespeichert?
+ Wir speichern selbst keine Zugriffsdaten. Inhalte und Interaktionen bleiben auf der Plattform gespeichert, bis sie gelöscht werden. Die konkrete Speicherdauer wird durch den Anbieter festgelegt.
+ YouTube
+ Anbieter: Google Ireland Limited (Gordon House, Barrow Street Dublin 4, Irland)
+ Datenschutzerklärung: https://www.google.com/policies/privacy/ 
+ Opt-Out: https://youtube.com/opt-out .
+ Wir betreiben einen Kanal auf YouTube. Die folgenden Informationen gelten für Sie als Besucher unseres YouTube-Kanals.
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Interaktion mit uns 
+ Wenn Sie mit uns interagieren, etwa durch Kommentare oder Likes, verarbeiten wir Ihren Benutzernamen, öffentlich sichtbare Profilinformationen sowie die Inhalte Ihrer Interaktion.
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ im Rahmen unserer Öffentlichkeitsarbeit (Art. 6 Abs. 1 lit. f DSGVO)
+ zur Kommunikation mit Nutzern (Art. 6 Abs. 1 lit. f DSGVO)
+ Wer hat Zugriff auf die Daten und werden sie an Dritte weitergegeben?
+ Die Daten werden durch uns und durch Google verarbeitet. Dabei kann es zu einer Übermittlung personenbezogener Daten in Drittländer, insbesondere in die USA, kommen.
+ Wie lange werden die Daten gespeichert?
+ Wir speichern selbst keine Zugriffsdaten. Inhalte und Interaktionen bleiben auf YouTube gespeichert, bis sie gelöscht werden. Die Speicherdauer richtet sich nach den Vorgaben von Google.
+ 4.10 Veranstaltungen 
+ Anmeldung und Teilnahme an Veranstaltungen
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Die verarbeiteten Daten variieren je nach Art der Veranstaltung und können folgende Kategorien umfassen: Name, Kontaktdaten, zusätzliche Informationen wie Angaben zu Nahrungsmittelunverträglichkeiten oder Allergien, T-Shirt-Größe, Geburtsdatum. Diese Daten erhalten wir direkt von Ihnen bei der Anmeldung.
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Wir verarbeiten die Daten, um Ihre Teilnahme an der Veranstaltung zu organisieren und durchzuführen. (Art. 6 Abs. 1 lit. f DSGVO)
+ Wie lange werden die Daten gespeichert?
+ Die Daten werden nach Abschluss der Veranstaltung gelöscht.
+ Foto- und Videoaufnahmen
+ Im Rahmen unserer Veranstaltungen fertigen wir Foto- und Videoaufnahmen an. Dabei liegt der Fokus insbesondere auf Aufnahmen, bei denen die Veranstaltung und nicht einzelne Personen im Vordergrund stehen . Wir verwenden die Aufnahmen zur Veröffentlichung auf unseren Social-Media-Kanälen sowie in unseren internen Kommunikationsmedien (Intranet, Mitarbeiterzeitschrift) und unserem Pressebereich .
+ Da bei unseren Veranstaltungen eine große Anzahl an Personen teilnehmen kann und insbesondere Übersichts- und Gruppenaufnahmen angefertigt werden, können wir nicht vollständig ausschließen, dass Sie auf einer solchen Aufnahme zu sehen sind. Sollten Sie auf einer veröffentlichten Aufnahme erkennbar sein und die weitere Veröffentlichung nicht wünschen, können Sie uns die betreffende Aufnahme unter event@hetzner.com mitteilen. Wir werden diese prüfen und gegebenenfalls geeignete Maßnahmen ergreifen.
+ Wir weisen darauf hin, dass Fotos und Videos bei der Veröffentlichung im Internet weltweit gespeichert und abgerufen werden können . Eine Weiterverwendung durch Dritte oder das Auffinden durch Suchmaschinen kann daher auch nach einer späteren Entfernung der Aufnahmen aus unseren Social-Media-Kanälen nicht vollständig ausgeschlossen werden.
+ 4.11 Videoüberwachung 
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Im Rahmen der Videoüberwachung werden Bildaufnahmen der Personen verarbeitet, die den überwachten Bereich betreten .
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Die Videoüberwachung erfolgt zum Schutz unseres Eigentums , insbesondere zur Verhinderung und Aufklärung von Straftaten (z. B. Diebstahl oder Vandalismus) sowie zur Wahrung unseres Hausrechts.
+ Wer hat Zugriff auf die Daten und werden sie an Dritte weitergegeben?
+ Zugriff auf die Aufnahmen haben ausschließlich die Mitarbeitenden, die diesen zur Erfüllung ihrer Aufgaben benötigen . Eine Weitergabe an Dritte erfolgt nur, soweit dies gesetzlich zulässig oder erforderlich ist, beispielsweise an Strafverfolgungsbehörden oder Gerichte.
+ Wie lange werden meine Daten gespeichert?
+ Die Aufnahmen werden unverzüglich gelöscht, sobald sie zur Erreichung der genannten Zwecke nicht mehr erforderlich sind.
+ 4.12 Website 
+ Logfiles
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Wenn Sie unsere Internetseiten aufrufen, übermittelt Ihr Browser automatisch: IP-Adresse, Typ und Version des verwendeten Browsers, Datum und Uhrzeit des Zugriffs Website, sowie die Seite von der aus Sie zu uns gelangen.
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Wir verarbeiten die Daten für einen sicheren und stabilen Betrieb unserer Website. (Art. 6 Abs. 1 lit. f DSGVO)
+ Wie lange werden die Daten gespeichert?
+ Da die IP-Adresse anonymisiert gespeichert wird, ist keine Speicherfrist notwendig.
+ Website-Analyse (Cookies)
+ Welche Daten werden verarbeitet und wie gelangen diese zu Hetzner?
+ Wenn Sie unsere Website besuchen und der Nutzung aller Cookies zustimmen, setzen wir Matomo zur Analyse Ihres Nutzerverhaltens ein. Dabei werden Cookies gespeichert und die folgenden Daten verarbeitet: IP-Adresse, besuchte Seiten, Verweildauer auf der jeweiligen Seite, verwendeter Browser und von welcher Website Sie zu uns gekommen sind. Die Daten werden automatisch über Ihren Browser übermittelt. 
+ Sie können die Speicherung von Cookies (notwendige, als auch nicht-notwendige) durch eine entsprechende Einstellung in Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall möglicherweise nicht alle Funktionen dieser Website nutzen können.
+ Eine nachträgliche Deaktivierung der nicht-notwendigen Cookies erfolgt über: Show Preferences .
+ Warum und auf welcher rechtlichen Grundlage werden die Daten verarbeitet?
+ Die Erhebung des Cookies dient der Optimierung unserer Website. Die Verarbeitung erfolgt auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO).
+ Wie lange werden die Daten gespeichert?
+ Die IP-Adresse wird anonymisiert gespeichert. Insofern ist kein Personenbezug herstellbar.
+ 5. Welche Rechte haben Sie in Bezug auf Ihre Daten?
+ Recht auf Auskunft: 
+ Sie haben das Recht jederzeit Auskunft darüber zu erhalten, ob und welche personenbezogenen Daten wir über Sie gespeichert haben.
+ Recht auf Berichtigung: 
+ Sollten die von uns über Sie gespeicherten Daten falsch oder unvollständig sind, können Sie die Korrektur bzw. Vervollständigung dieser verlangen.
+ Recht auf Löschung („Recht auf Vergessenwerden“): 
+ Sie können die Löschung Ihrer Daten verlangen. Bitte beachten Sie, dass eine sofortige Löschung in manchen Fällen aufgrund gesetzlicher oder vertraglicher Aufbewahrungspflichten nicht möglich ist.
+ Recht auf Einschränkung der Verarbeitung: 
+ Wenn Sie die Richtigkeit Ihrer Daten bestreiten oder Ihnen die Verarbeitung dieser unrechtmäßig erscheint, können Sie verlangen, dass wir die Verarbeitung dieser einschränken.
+ Recht auf Datenübertragbarkeit: 
+ Sie haben das Recht, dass wir Ihnen Ihre Daten in einem strukturierten, gängigen und maschinenlesbaren Format zur Verfügung stellen. Auch können Sie eine direkte Übermittlung an einen Dritten fordern (sofern technisch möglich).
+ Recht auf Widerspruch: 
+ Sie können der Verarbeitung Ihrer Daten jederzeit widersprechen, sofern keine zwingenden schutzwürdigen Gründe bestehen.
+ Recht auf keine automatisierte Entscheidung: 
+ Bei uns werden keine automatisierten Entscheidungen über Sie getroffen. Falls dies der Fall wäre, hätten Sie das Recht, nicht ausschließlich durch Algorithmen beurteilt zu werden.
+ Bitte wenden Sie sich zur Ausübung Ihrer Rechte an unseren Datenschutzbeauftragten. 
+ 6. Beschwerderecht bei der zuständigen Datenschutzaufsichtsbehörde
+ Wenn Sie der Ansicht sind, dass wir bei der Verarbeitung Ihrer Daten gegen geltende Datenschutzgesetze verstoßen, können Sie sich bei der für uns zuständigen Datenschutzaufsichtsbehörde beschweren.
+ Wir möchten Sie jedoch ermutigen, dass Sie sich mit Ihrem Anliegen zunächst an unseren Datenschutzbeauftragten wenden. Unser Ziel ist es, eventuelle Unstimmigkeiten schnell und einvernehmlich zu klären und Konflikte zu vermeiden.
+ 7. Freiwilligkeit der Datenzurverfügungstellung
+ Sie sind nicht verpflichtet, uns Ihre Daten mitzuteilen. Allerdings können Sie dadurch bestimmte Dienste von uns nicht in Anspruch nehmen.
+ 8. Allgemeiner Hinweis
+ Bitte beachten Sie, dass wir es uns vorbehalten, diese Datenschutzerklärung von Zeit zu Zeit anzupassen. Bei einem erneuten Besuch dieser Seite gilt die aktualisierte Datenschutzerklärung.
+ Stand: 14. September 2026 
+ Subscribe to our Newsletter 
+ Hetzner
+ Unternehmen
+ Unsere Kunden
+ Nachhaltigkeit
+ neu 
+ Blog
+ Karriere
+ Pressroom
+ Support
+ Support Center
+ Kontakt
+ Downloads
+ Hetzner Docs
+ Status
+ Rechtliches
+ Impressum
+ Datenschutz
+ System Policies
+ AGB
+ Digital Services Act
+ Abuse-Formular
+ © 2026
+ Hetzner Online GmbH. Alle Rechte vorbehalten.
+ Preise 

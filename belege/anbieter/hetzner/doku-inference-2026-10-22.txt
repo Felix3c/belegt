@@ -1,0 +1,143 @@
+ Inference API - Hetzner Docs Docs English 
+ Choose platform 
+ Ask AI AI 
+ Docs 
+ General 
+ Company and Policy 
+ Inference API
+ Last change on 2026-07-24 • Created on 2026-07-24 • ID: GE-A8173 
+ Note: This service is provided for experimental purposes only and is offered "as is". We have no control over or liability for their behavior.
+Performance and availability are not guaranteed, especially during periods of high demand. No backups are created, so you are responsible for backing up your own configurations and should not use the platform for production environments.
+ The Inference API provides access to open-source large language models via an OpenAI-compatible REST API. It currently exposes three standard endpoints: /v1/models , /v1/completions and /v1/chat/completions . You can use it with any OpenAI-compatible SDK or by manually crafting requests with any HTTP client.
+ Base URL: https://inference.hetzner.com/api/v1 
+ Available Models
+ Only a selected list of models is available. This selection will change during the experimental phase. You can query the current list of available models at any time using the /v1/models endpoint. The response of the models endpoint is definitive.
+ curl -s https://inference.hetzner.com/api/v1/models \ 
+ -H "Authorization: Bearer <YOUR_TOKEN>" 
+ Model 
+ Type 
+ Context Length 
+ Modalities 
+ Qwen/Qwen3.6-35B-A3B-FP8
+ Causal LM + Vision (MoE, 35B total / 3B active)
+ 262,144 tokens
+ Text, Image
+ Qwen3.8-27B
+ Dense
+ 262,144 tokens
+ Text, Image
+ Python OpenAI Examples
+ All examples use the OpenAI Python SDK . Install it with:
+ pip install openai 
+ Initialize the client:
+ from openai import OpenAI
+client = OpenAI ( 
+ base_url = "https://inference.hetzner.com/api/v1" ,
+ api_key = "<YOUR_TOKEN>" ,
+ ) 
+ Chat Completions
+ Send a conversation and receive a model-generated response.
+ response = client.chat.completions.create ( 
+ model = "Qwen/Qwen3.6-35B-A3B-FP8" ,
+ messages = [ 
+ { "role" : "system" , "content" : "You are a helpful assistant." } ,
+ { "role" : "user" , "content" : "Please give me a very short description of Hetzner services!" } ,
+ ] 
+ ) 
+print ( response.choices [ 0 ] .message.content ) 
+ Image Processing
+ Send an image URL alongside your prompt to use the models vision capabilities.
+ response = client.chat.completions.create ( 
+ model = "Qwen/Qwen3.6-35B-A3B-FP8" ,
+ messages = [ 
+ { 
+ "role" : "user" ,
+ "content" : [ 
+ { "type" : "text" , "text" : "Describe this image in detail." } ,
+ { 
+ "type" : "image_url" ,
+ "image_url" : { "url" : "https://cdn.hetzner.de/cdn/public/Uploads/Finnland_Luftaufnahme-v2.jpg" } ,
+ } ,
+ ] ,
+ } 
+ ] ,
+ ) 
+print ( response.choices [ 0 ] .message.content ) 
+ Curl Examples
+ Chat Completion
+ curl -s https://inference.hetzner.com/api/v1/chat/completions \ 
+ -H "Authorization: Bearer <YOUR_TOKEN>" \ 
+ -H "Content-Type: application/json" \ 
+ -d '{
+ "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+ "messages": [
+ {"role": "system", "content": "You are a helpful assistant."},
+ {"role": "user", "content": "What are the three laws of thermodynamics?"}
+ ]
+ }' 
+ Image Processing
+ curl -s https://inference.hetzner.com/api/v1/chat/completions \ 
+ -H "Authorization: Bearer <YOUR_TOKEN>" \ 
+ -H "Content-Type: application/json" \ 
+ -d '{
+ "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+ "messages": [
+ {
+ "role": "user",
+ "content": [
+ {"type": "text", "text": "Describe this image in detail."},
+ {
+ "type": "image_url",
+ "image_url": {"url": "https://cdn.hetzner.de/cdn/public/Uploads/Finnland_Luftaufnahme-v2.jpg"}
+ }
+ ]
+ }
+ ]
+ }' 
+ FAQ
+ Can I use the Inference API for free?
+ As long as the Inference API remains in experimental status, it is free of charge. Should this status change, we will notify you in advance via email with detailed information.
+ What information is stored?
+ We do only keep data that is necessary in order to track usage and (in the future) bill usage: request timestamps, token counts etc.
+ We do not store the content of request and response and we do not plan on doing so in the future (unless some law requires us to do so). Our intention is solely to use our data centers and hardware to provide customers with affordable access to open-weight models.
+ What limits apply?
+ The API enforces rate limits to ensure fair usage and service stability. Current limits are applied per API key:
+ Timeframe 
+ Input Tokens 
+ Output Tokens 
+ 60s
+ 4M
+ 100k
+ Additionally, we enforce request-level rate-limits as follows:
+ Timeframe 
+ Requests 
+ 60s
+ 10
+ If you exceed any of the rate limits, the API will respond with HTTP Status Code 429 .
+ Why is there only a limited selection of models?
+ The Inference API is currently in experimental status. We are starting with a selection of high-quality models to validate the platform, gather feedback, and ensure reliability.
+Additional models will be added based on demand and operational experience.
+ How can I give feedback?
+ We'd love to hear from you! Please write us here . Whether it's a bug report, a feature request, or general impressions.
+ Open-Source Model Licenses & Attribution
+ The models available through this API are open-source and subject to their respective licenses. By using this API, you acknowledge the applicable license terms of the underlying model(s).
+ Model 
+ Developer 
+ License 
+ Source 
+ Qwen3.6-35B-A3B
+ Alibaba Cloud (Qwen Team)
+ Apache 2.0
+ Hugging Face
+ Qwen3.8-27B
+ Alibaba Cloud (Qwen Team)
+ Apache 2.0
+ Hugging Face
+ All models are provided by their respective developers "AS IS", without warranties of any kind. See each model's license for full terms.
+ Table of Contents
+ Legal notice 
+ Data privacy 
+ System policies 
+ Terms and conditions 
+ © 2026. Hetzner Online GmbH. All Rights Reserved. 
+ 

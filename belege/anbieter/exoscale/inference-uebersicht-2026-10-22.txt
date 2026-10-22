@@ -1,0 +1,628 @@
+Exoscale Inference: Dedicated and On-Demand AI Endpoints
+Skip to main content
+Blog
+Changelog
+Documentation
+Newsletter
+Support
+Contact Us
+Exoscale
+Products
+Compute
+Virtual machines, GPUs and Kubernetes
+Concrete AI
+Our AI infrastructure suite, from GPUs to inference endpoints
+Storage
+Store any volume of data in Europe
+DBaaS
+Open-source database and analytics engines, fully operated
+Networking
+Connect, route and protect your traffic
+Security
+Keys, access and encryption
+Compute Instances
+SSD-backed VMs billed by the second
+GPU Servers
+1 to 8 NVIDIA cards per instance
+Managed Kubernetes
+Exoscale runs the control plane
+Concrete AI Overview
+The whole AI suite at a glance
+Inference
+Dedicated Inference
+Any model as an API on dedicated GPUs
+On-Demand Inference
+Pay-as-you-go AI model catalog
+GPUs and Databases
+GPU Servers
+1 to 8 NVIDIA cards per instance
+Vector Databases
+Store and search AI embeddings
+Object Storage
+Object Storage
+S3-compatible storage across 8 European zones
+Archival Storage
+Cold archives and long-term backups
+Block Storage
+Block Storage
+Persistent volumes you can reattach to other instances
+Managed Databases
+Plans, pricing and how DBaaS works
+Relational
+PostgreSQL
+The feature-rich open-source relational database
+MySQL
+The most widely deployed relational database
+NoSQL
+OpenSearch
+Full-text search, log analytics and dashboards
+Valkey
+In-memory key-value store for caching
+Streaming and Analytics
+Kafka
+Event streaming for real-time pipelines
+ClickHouse
+Columnar analytics at real-time speed
+Vector Databases
+pgvector
+Vector similarity search inside PostgreSQL
+Vector Search
+Semantic search over your own data
+Observability
+Grafana
+Dashboards for your metrics and logs
+Thanos
+Long-term storage for Prometheus metrics
+Networking
+Private Networks, Network Load Balancer and Elastic IPs
+Virtual Private Cloud
+Dedicated hypervisors and Private Connect
+DNS
+Anycast resolution at low latency
+CDN
+Deliver content directly from your buckets
+Key Management Service
+Create and control your own encryption keys
+IAM
+Roles, API keys and fine-grained access control
+Audit Trails
+A record of every action taken on your account
+Encryption
+Encryption at rest and in transit
+Browse All Products
+Resources
+Documentation
+Everything you need to start and integrate
+Trust and Compliance
+Certifications, security and data protection
+Infrastructure
+Where and how the platform runs
+News and Learning
+Product news, training and events
+Support
+Plans, status and how to reach us
+Company
+Who runs the platform
+Platform
+Quick Start
+First setup, registration and verification
+Billing
+Billed by the exact time or unit consumed
+Products
+Compute
+Instances and dedicated hypervisors
+Containers (SKS)
+Cluster setup, operations and recipes
+Concrete AI
+OpenAI-compatible inference endpoints
+Storage
+Object Storage and Block Storage
+DBaaS
+Engines, plans and service boundaries
+Networking
+Load balancing, DNS, CDN and Private Networks
+Security
+Key Management Service and IAM
+Support
+Support priorities and SLA
+Reference
+API Reference
+The public Exoscale API
+CLI
+Manage your resources with the exo CLI
+Terraform Provider
+Declare your infrastructure as code
+SDKs
+Client libraries per language
+Integrations
+Terraform, Kubernetes, Packer, Pulumi
+Compliance
+GDPR
+European Union data protection law
+Swiss FDPA
+Swiss federal act on data protection
+BSI C5
+German cloud computing security criteria
+ISO 27001
+Information security management system
+Commitments
+Security
+How we secure the platform
+Data Portability
+Take your data out whenever you want
+SLA
+Availability commitments per product
+Datacenters
+European zones and data residency
+Sustainability
+Renewable energy and heat reuse
+Liquid Cooling
+Liquid-cooled GPU racks
+Changelog
+What changes on the platform
+Blog
+Announcements and engineering write-ups
+Academy
+Training and certification
+Learning Center
+Hands-on Kubernetes and cloud-native workshops
+Tutorials
+Step-by-step guides for selected topics
+Newsletter
+Subscribe to product news by email
+Events
+Meetups and conferences
+Support Plans
+Free support included, paid plans available
+FAQ
+Answers to common questions
+Status
+Incidents and planned maintenance
+Report Abuse
+How to submit a report
+About Us
+Exoscale and the A1 Group
+Jobs
+Join the team
+Contact
+Questions about your next cloud project
+Browse the Documentation
+Partners
+Marketplace
+Ready-to-deploy applications
+Become a Partner
+Resell, integrate or refer Exoscale
+Marketplace
+Appliances, managed services and VM templates
+Templates
+Linux and Windows images for Compute Instances
+Partner Programs
+Overview of the programs
+Value Added Partners
+Resell with added value
+Agents
+Refer clients and earn over the whole contract
+Technology Providers
+Software vendors and technology partners
+Pricing
+Pricing
+Rates per product, billed by the second
+Pricing Calculator
+Estimate the cost of a deployment
+Volume Discounts
+Reduced rates for larger volumes
+Log in
+Register
+Menu
+Products
+Resources
+Partners
+Pricing
+Blog
+Changelog
+Documentation
+Newsletter
+Support
+Contact Us
+Back to
+Main Menu
+Products
+Products
+Compute
+Virtual machines, GPUs and Kubernetes
+Concrete AI
+Our AI infrastructure suite, from GPUs to inference endpoints
+Storage
+Store any volume of data in Europe
+DBaaS
+Open-source database and analytics engines, fully operated
+Networking
+Connect, route and protect your traffic
+Security
+Keys, access and encryption
+Browse All Products
+Back to
+Products
+Compute
+Compute
+Virtual machines, GPUs and Kubernetes
+Compute Instances
+SSD-backed VMs billed by the second
+GPU Servers
+1 to 8 NVIDIA cards per instance
+Managed Kubernetes
+Exoscale runs the control plane
+Back to
+Products
+Concrete AI
+Concrete AI
+Our AI infrastructure suite, from GPUs to inference endpoints
+Concrete AI Overview
+The whole AI suite at a glance
+Inference
+Dedicated Inference
+Any model as an API on dedicated GPUs
+On-Demand Inference
+Pay-as-you-go AI model catalog
+GPUs and Databases
+GPU Servers
+1 to 8 NVIDIA cards per instance
+Vector Databases
+Store and search AI embeddings
+Back to
+Products
+Storage
+Storage
+Store any volume of data in Europe
+Object Storage
+Object Storage
+S3-compatible storage across 8 European zones
+Archival Storage
+Cold archives and long-term backups
+Block Storage
+Block Storage
+Persistent volumes you can reattach to other instances
+Back to
+Products
+DBaaS
+DBaaS
+Open-source database and analytics engines, fully operated
+Managed Databases
+Plans, pricing and how DBaaS works
+Relational
+PostgreSQL
+The feature-rich open-source relational database
+MySQL
+The most widely deployed relational database
+NoSQL
+OpenSearch
+Full-text search, log analytics and dashboards
+Valkey
+In-memory key-value store for caching
+Streaming and Analytics
+Kafka
+Event streaming for real-time pipelines
+ClickHouse
+Columnar analytics at real-time speed
+Vector Databases
+pgvector
+Vector similarity search inside PostgreSQL
+Vector Search
+Semantic search over your own data
+Observability
+Grafana
+Dashboards for your metrics and logs
+Thanos
+Long-term storage for Prometheus metrics
+Back to
+Products
+Networking
+Networking
+Connect, route and protect your traffic
+Networking
+Private Networks, Network Load Balancer and Elastic IPs
+Virtual Private Cloud
+Dedicated hypervisors and Private Connect
+DNS
+Anycast resolution at low latency
+CDN
+Deliver content directly from your buckets
+Back to
+Products
+Security
+Security
+Keys, access and encryption
+Key Management Service
+Create and control your own encryption keys
+IAM
+Roles, API keys and fine-grained access control
+Audit Trails
+A record of every action taken on your account
+Encryption
+Encryption at rest and in transit
+Back to
+Main Menu
+Resources
+Resources
+Documentation
+Everything you need to start and integrate
+Trust and Compliance
+Certifications, security and data protection
+Infrastructure
+Where and how the platform runs
+News and Learning
+Product news, training and events
+Support
+Plans, status and how to reach us
+Company
+Who runs the platform
+Browse the Documentation
+Back to
+Resources
+Documentation
+Documentation
+Everything you need to start and integrate
+Platform
+Quick Start
+First setup, registration and verification
+Billing
+Billed by the exact time or unit consumed
+Products
+Compute
+Instances and dedicated hypervisors
+Containers (SKS)
+Cluster setup, operations and recipes
+Concrete AI
+OpenAI-compatible inference endpoints
+Storage
+Object Storage and Block Storage
+DBaaS
+Engines, plans and service boundaries
+Networking
+Load balancing, DNS, CDN and Private Networks
+Security
+Key Management Service and IAM
+Support
+Support priorities and SLA
+Reference
+API Reference
+The public Exoscale API
+CLI
+Manage your resources with the exo CLI
+Terraform Provider
+Declare your infrastructure as code
+SDKs
+Client libraries per language
+Integrations
+Terraform, Kubernetes, Packer, Pulumi
+Back to
+Resources
+Trust and Compliance
+Trust and Compliance
+Certifications, security and data protection
+Compliance
+GDPR
+European Union data protection law
+Swiss FDPA
+Swiss federal act on data protection
+BSI C5
+German cloud computing security criteria
+ISO 27001
+Information security management system
+Commitments
+Security
+How we secure the platform
+Data Portability
+Take your data out whenever you want
+SLA
+Availability commitments per product
+Back to
+Resources
+Infrastructure
+Infrastructure
+Where and how the platform runs
+Datacenters
+European zones and data residency
+Sustainability
+Renewable energy and heat reuse
+Liquid Cooling
+Liquid-cooled GPU racks
+Back to
+Resources
+News and Learning
+News and Learning
+Product news, training and events
+Changelog
+What changes on the platform
+Blog
+Announcements and engineering write-ups
+Academy
+Training and certification
+Learning Center
+Hands-on Kubernetes and cloud-native workshops
+Tutorials
+Step-by-step guides for selected topics
+Newsletter
+Subscribe to product news by email
+Events
+Meetups and conferences
+Back to
+Resources
+Support
+Support
+Plans, status and how to reach us
+Support Plans
+Free support included, paid plans available
+FAQ
+Answers to common questions
+Status
+Incidents and planned maintenance
+Report Abuse
+How to submit a report
+Back to
+Resources
+Company
+Company
+Who runs the platform
+About Us
+Exoscale and the A1 Group
+Jobs
+Join the team
+Contact
+Questions about your next cloud project
+Back to
+Main Menu
+Partners
+Partners
+Marketplace
+Marketplace
+Appliances, managed services and VM templates
+Templates
+Linux and Windows images for Compute Instances
+Become a Partner
+Partner Programs
+Overview of the programs
+Value Added Partners
+Resell with added value
+Agents
+Refer clients and earn over the whole contract
+Technology Providers
+Software vendors and technology partners
+Back to
+Main Menu
+Pricing
+Pricing
+Pricing
+Rates per product, billed by the second
+Pricing Calculator
+Estimate the cost of a deployment
+Volume Discounts
+Reduced rates for larger volumes
+Log in
+Register
+Exoscale - European Cloud Hosting Services
+AI Cloud Infrastructure
+Inference
+Run AI Inference Your Way
+Dedicated GPU Endpoints or Pay-as-You-Go Access to a Curated Model Catalog
+Exoscale Inference gives you two ways to put AI models into production. Reserve dedicated NVIDIA GPUs for full control and predictable performance, or call a pay-per-token API against a curated catalog of ready-to-use models. Both share the same OpenAI-compatible API and run exclusively on sovereign European infrastructure.
+Why Run Inference on Exoscale?
+Start Fast, Scale on Your Terms
+Prototype with pay-per-token access to a curated model catalog, then move to dedicated GPUs once you need guaranteed capacity and predictable latency. Both run on the same platform, so there is nothing to migrate.
+European Data Sovereignty
+Run inference in Exoscale's European and Swiss locations, with control over where your workloads and data are hosted. This helps you meet your data residency and GDPR obligations.
+Built for Production
+Both inference options are engineered for stable, predictable operation, with 99,95% SLA. Open interfaces and an OpenAI-compatible API keep your workloads portable and your integrations simple.
+Inference Options
+Choose the inference option that matches how much control you need and how your traffic looks. Dedicated and On-demand Inference share the same sovereign infrastructure and OpenAI-compatible API, with Batch Inference coming soon.
+Dedicated Inference
+Reserve dedicated NVIDIA GPUs for any open-source or custom AI model, public, gated or private, from Hugging Face. Get an OpenAI-compatible endpoint with full isolation, per-second billing, and the option to scale to zero when idle. Zero infrastructure operations required.
+Discover
+On-Demand Inference
+Call a curated catalog of production-ready models through a pay-per-token API. No GPU sizing, no capacity planning, no infrastructure to manage. Ideal for rapid prototyping, variable traffic, and teams who want AI capabilities without running dedicated GPUs.
+Discover
+Batch Inference
+Process large volumes of AI requests asynchronously for workloads that do not require real-time responses. Ideal for data enrichment, document processing, evaluations, and scheduled jobs. Coming soon.
+Contact us
+What You Get With Either Option
+European Sovereignty & Sustainability
+Your data remains in Europe, ensuring GDPR compliance and sovereignty. Our data centers use renewable power and efficient cooling to reduce environmental impact significantly. Built in Europe, for Europe.
+Predictable, Transparent Pricing
+Pay per second for the GPU time you reserve with Dedicated Inference, or per token for what you consume with On-demand Inference. Transparent billing, no hidden fees.
+OpenAI API Compatibility
+Both Dedicated and On-demand Inference integrate easily with your existing AI tools. No vendor lock-in and a simple transition to our sovereign cloud infrastructure.
+Dedicated Hardware & Privacy
+When you need it, Dedicated Inference runs on fully isolated infrastructure, guaranteeing maximum privacy and performance for your workload.
+Local, Expert, Premium Support
+Get 24/7 support with a 30-minute response time, handled directly by Exoscale engineers in Europe.
+A Complete, Integrated Platform
+Run your entire AI stack on Exoscale: GPUs, vector databases, inference, compute, storage, networking, and more, all fully integrated, cloud-native, and sovereign.
+Complete Your AI Stack
+Pair Inference with the rest of Exoscale’s AI infrastructure and cloud services to build a complete, sovereign platform.
+High-Performance GPUs
+Accelerate AI training, fine-tuning, and volume inference using powerful NVIDIA GPUs. Scale from a single GPU to multi-GPU setups without complex orchestration. Perfect for machine learning, data processing, 3D rendering, inference, and scientific computing.
+Discover
+Managed Vector Databases
+Essential tools for modern AI, powering Retrieval-Augmented Generation (RAG) and semantic search workloads. Fully managed PostgreSQL with pgvector and OpenSearch-based vector search.
+Discover
+Support Plans
+Get the help you need to run your infrastructure with confidence through flexible support plans that provide expert guidance and guaranteed response times (SLA), ensuring our experts are there when you need them most.
+Discover
+Trusted by Engineering Teams Across Europe
+Running AI inference in production needs a dependable partner. Our engineering and support teams help organizations across Europe deploy, scale, and move between Dedicated and On-demand Inference on Exoscale’s sovereign, sustainable cloud platform.
+Contact us
+Frequently Asked Questions
+What is the difference between Dedicated Inference and On-Demand Inference?
+Dedicated Inference reserves NVIDIA GPUs for you. You get full isolation, predictable latency, and per-second billing, and you can run any open-source or custom model from Hugging Face. On-demand Inference gives you pay-per-token access to a curated catalog of ready-to-use models, with no GPU sizing or capacity planning needed. Both share the same OpenAI-compatible API.
+Can I move from On-Demand to Dedicated Inference as my usage grows?
+Yes. Both options run on the same sovereign infrastructure and expose the same OpenAI-compatible API, so moving a workload from On-demand to a dedicated GPU deployment does not require rewriting your integration.
+When Should I Choose On-Demand Inference?
+On-demand Inference is ideal for rapid prototyping, applications with variable or unpredictable traffic, and teams that want to use production-ready AI models without sizing GPUs or managing infrastructure. You pay per token and can access models through an OpenAI-compatible API.
+What is Batch Inference for?
+Batch Inference is designed for high-volume jobs that do not need an immediate response, such as document processing, data enrichment, evaluations, and scheduled workloads. It is coming soon on Exoscale.
+Can I use my own AI models on Exoscale?
+Yes, with Dedicated Inference. You can deploy any public, gated, or private model from Hugging Face, including models from your own organization’s Hugging Face account, on dedicated GPU infrastructure.
+How is Inference priced?
+Dedicated Inference is billed per second for the GPU time you reserve. On-demand Inference is billed per token, so you pay only for what you consume, with no upfront GPU cost. Both are transparent, with no hidden fees.
+Is Inference on Exoscale GDPR compliant?
+Yes. All Inference workloads run in European and Swiss data centers, so your data never leaves European jurisdiction. This applies to both Dedicated and On-demand Inference.
+Does Inference support open standards?
+Yes. Both Dedicated and On-demand Inference expose an OpenAI-compatible API, so you can connect your existing tools and libraries without proprietary lock-in.
+Exoscale
+About Us
+Jobs
+Sustainability
+Partner Programs
+Academy
+Events
+Contact
+Cloud Hosting
+Compute Instances
+Concrete AI
+Managed Kubernetes
+DBaaS
+Object Storage
+Block Storage
+GPU Servers
+Networking
+Virtual Private Cloud
+DNS
+CDN
+Infrastructure
+Templates
+Datacenters
+Security
+Compliance
+FAQ
+Status
+Resources
+Pricing
+Documentation
+API
+Blog
+Backup
+Marketplace
+Integrations
+Technology Providers
+Changelog
+Newsletter
+Support
+Data Portability
+Report Abuse
+Exoscale
+Boulevard de Grancy 19A
+1006
+–
+Lausanne
+Switzerland
+Contact Us
+Privacy
+Terms and Conditions
+SLA
+Exoscale is a registered trademark
+of Akenes SA
+-
+Reg/VAT CHE-423.524.322
+© 2026 Exoscale
+Member of
+A1 Digital

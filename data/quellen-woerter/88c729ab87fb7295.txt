@@ -16,10 +16,10 @@ $3.59
 'did
 'sovereign'
 (17
-(2026)
 (AI
 (BSI)
 (BSI)
+(BSI).
 (C5)
 (Cloud
 (GDPR).
@@ -31,12 +31,10 @@ $3.59
 .
 1
 1
-1
 1.
 100
 100
 14
-15
 15
 15
 15
@@ -63,6 +61,7 @@ $3.59
 2
 2,
 2.
+20
 2025,
 2025,
 2026
@@ -102,8 +101,6 @@ $3.59
 27001
 27001
 27001
-27001
-27001
 27001,
 27001,
 27001,
@@ -122,6 +119,7 @@ $3.59
 4
 4.
 7
+8
 8-GPU
 ;
 ;
@@ -184,12 +182,12 @@ AI
 AI
 AI
 AI
-AI
-AI
 AI,
 AI.
 API
 API
+API
+APIs
 APIs
 APIs
 APIs,
@@ -221,6 +219,7 @@ Actually
 Actually
 All
 Amen
+An
 Annex
 Annex
 Annex
@@ -337,6 +336,9 @@ C5
 C5
 C5
 C5
+C5
+C5
+C5
 C5-Gleichwertigkeitsverordnung
 C5-attested
 C5-attested
@@ -360,7 +362,6 @@ Catalogue)
 Catalogue:
 Catalogue:
 Catalogue:
-Certification
 Certification
 Certification
 Certifications
@@ -392,6 +393,7 @@ Compliance
 Compliance
 Compliance
 Compliance
+Compliance
 Compliant
 Compute
 Compute
@@ -413,6 +415,7 @@ Cryptography,
 Cycle:
 Cycle:
 Cycle:
+DPA
 DPA
 DPA
 DPA
@@ -438,6 +441,7 @@ Dive:
 Docs
 Docs
 Docs
+Documents
 Does
 Does
 Domains
@@ -473,7 +477,6 @@ Economic
 Economic
 Egress
 Ensure
-Enterprise
 Establish
 Europe
 Europe
@@ -500,8 +503,10 @@ Evidence
 Explained
 Explained
 Explained
+FAQ
 FAQ,
 Failure
+Federal
 Federal
 Federal
 Fine-tuning
@@ -510,7 +515,6 @@ Finland,
 Finland.
 Finland.
 Finland.
-For
 For
 For
 For
@@ -600,9 +604,11 @@ German
 German
 German
 German
+German
 Germany
 Germany
 Germany
+Germany&#39;s
 Germany,
 Germany,
 Germany,
@@ -614,7 +620,6 @@ GmbH
 Granularity:
 Grünewald
 Grünewald
-Guide
 Guide
 Guide
 Guide
@@ -650,8 +655,6 @@ ISO
 ISO
 ISO
 ISO
-ISO
-ISO
 ISO/IEC
 ISO/IEC
 IT-Grundschutz,
@@ -672,7 +675,7 @@ Inference:
 Information
 Information
 Information
-Infrastructure
+Information
 Infrastructure
 Infrastructure
 Infrastructure
@@ -692,9 +695,14 @@ LLM
 LLM
 LLM
 LLM
+LLM
+LLM
 Last
 Latency:
 Learn
+Legal
+Legal
+Legal
 Legal
 Lehmkühler
 LinkedIn
@@ -746,7 +754,6 @@ Management,
 Mandatory
 Manufacturing
 Marketplace
-May
 Meet
 Meet
 Meet
@@ -770,6 +777,8 @@ Network
 News
 News
 Not
+October
+Office
 Office
 Office
 Once
@@ -855,6 +864,7 @@ SVG
 Scale
 Section
 Sector
+Security
 Security
 Security
 Security
@@ -984,9 +994,6 @@ To
 Transitioning
 Transparency
 Trust
-Trust
-Trust
-Trust
 Type
 Type
 Type
@@ -1060,6 +1067,7 @@ Your
 Your
 Your
 Your
+Your
 ZIP
 Zurich
 [1]
@@ -1067,6 +1075,9 @@ Zurich
 [3]
 [4]
 [5]
+a
+a
+a
 a
 a
 a
@@ -1218,6 +1229,7 @@ advantage.
 against
 against
 against
+against
 align
 alignment
 all
@@ -1257,6 +1269,8 @@ an
 an
 an
 analysis;
+and
+and
 and
 and
 and
@@ -1478,6 +1492,7 @@ auditing
 auditor
 auditor
 auditor
+auditor
 audits,
 authorities
 automatic
@@ -1498,7 +1513,6 @@ balance
 barrier
 base
 base
-baseline
 baseline
 basis
 be
@@ -1621,6 +1635,7 @@ catalogue
 catalogue
 catalogue
 catalogue
+catalogue
 catalogue's
 catalogue.
 category.
@@ -1643,7 +1658,6 @@ certificate
 certificate
 certificates
 certification
-certification
 certification,
 chain
 chain's
@@ -1662,19 +1676,20 @@ charges
 charges,
 check
 checks
+checks
 choice
 choice
 choice:
 choose
 choosing
 choosing
-clients
 cliff
 cliff&#39;
 cliff'
 cliff.'
 clinics.
 clock
+cloud
 cloud
 cloud
 cloud
@@ -1823,6 +1838,7 @@ courts
 cover
 covering
 covers
+covers
 creates
 credits
 credits
@@ -1862,7 +1878,6 @@ dashboard
 dashboard
 dashboard
 dashboard
-data
 data
 data
 data
@@ -2054,6 +2069,7 @@ evidence
 evidence
 evidence
 evidence
+exact
 exactly
 examination
 examines
@@ -2113,6 +2129,8 @@ follow
 followed
 footprint,
 footprint,
+for
+for
 for
 for
 for
@@ -2239,7 +2257,6 @@ growth-stage
 guarantee
 guide
 guide
-hand
 hand,
 handle
 handle
@@ -2318,12 +2335,14 @@ hyperscalers.
 identity
 if
 if
+if
 impact
 implementation
 implementation
 important
 important
 improve
+in
 in
 in
 in
@@ -2549,8 +2568,10 @@ is
 is
 is
 is
+is
 isolation
 issues
+it
 it
 it
 it
@@ -2748,6 +2769,7 @@ meeting
 meets
 meets
 merely
+met
 metrics
 migrate
 migration
@@ -2759,6 +2781,7 @@ min
 min
 minimal
 minimizing
+minimum
 minimum
 mistake
 misunderstood,
@@ -2785,7 +2808,6 @@ most
 most
 most
 most
-move
 move
 move
 moved
@@ -2841,7 +2863,6 @@ node
 non-compliant
 non-negotiable
 normally
-not
 not
 not
 not
@@ -3015,6 +3036,7 @@ only
 only
 only
 only
+only
 open
 open-source
 open-stack
@@ -3074,7 +3096,6 @@ over
 over
 over
 over
-over
 overhead
 overhead.
 overhead.
@@ -3112,6 +3133,7 @@ performance
 performance,
 performance,
 period
+period
 period,
 period.
 period.
@@ -3123,7 +3145,6 @@ physical
 physical
 physically
 piece
-pilot
 pipelines,
 places
 places
@@ -3197,16 +3218,14 @@ product
 production
 production
 production.
-production.
 products
 profitability
 project.
 projects
-proof
+projects
 proof
 proof
 property
-proprietary
 proprietary
 proprietary
 proprietary
@@ -3223,6 +3242,7 @@ provide
 provide
 provide
 provided
+provider
 provider
 provider
 provider
@@ -3265,6 +3285,7 @@ providing
 provision
 provisioning
 provisions
+public-sector
 published
 purposes
 quality
@@ -3319,6 +3340,7 @@ recommendatory
 reconsider
 reference
 regardless
+region
 registered
 regulated
 regulated
@@ -3342,6 +3364,8 @@ removes
 removing
 replacement
 report
+report
+report.
 report.
 reporting
 request
@@ -3358,8 +3382,9 @@ required
 requirement
 requirement
 requirement
-requirement
 requirement.
+requirements
+requirements
 requirements
 requirements
 requirements
@@ -3471,11 +3496,11 @@ security
 security
 security
 security
+security
 security,
 security,
 security,
 security,
-security.
 security.
 see
 seek
@@ -3491,6 +3516,7 @@ service
 service
 service
 service
+service,
 services
 services
 services
@@ -3574,7 +3600,6 @@ startup
 startup,
 startups
 startups
-startups,
 startups,
 startups?
 states
@@ -3669,6 +3694,7 @@ technical
 technical
 technical
 temporary
+tender
 test
 than
 than
@@ -3682,6 +3708,7 @@ than
 than
 than
 than
+that
 that
 that
 that
@@ -4044,8 +4071,6 @@ to
 to
 to
 to
-to
-to
 today,
 today,
 today.
@@ -4103,6 +4128,7 @@ use
 use
 use
 use,
+use.
 use.
 used
 useful
@@ -4216,7 +4242,6 @@ without
 without
 without
 without
-without
 workload
 workload
 workload
@@ -4230,8 +4255,10 @@ workloads,
 workloads.
 world
 would
+writes
 writing,
 yet
+you
 you
 you
 you

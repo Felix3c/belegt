@@ -177,12 +177,13 @@
 8B):
 9.
 90
+92%
 A
 A
 A.
 AI
 AI
-APIs
+AI
 About
 Access
 Access
@@ -361,6 +362,7 @@ Garante
 Gemma
 Generated
 Generated
+Getting
 Given
 Google
 Google
@@ -378,7 +380,6 @@ How
 How
 How
 How‑to
-Hybrid
 ID
 ID)
 ID,
@@ -429,6 +430,7 @@ Jan
 Jul
 Keep
 LLC)
+LLM
 LOGs
 Labs
 Labs
@@ -537,7 +539,6 @@ Reddit
 Reddit)
 Reddit,
 Regolo
-Regolo
 Regolo.ai
 Regolo.ai
 Regolo.ai
@@ -562,7 +563,6 @@ Revoke
 Right
 Rights
 Rights
-Route
 S.r.l.
 SDK
 SDKs
@@ -732,6 +732,7 @@ a
 a
 a
 a
+a
 able
 able
 about
@@ -794,6 +795,7 @@ already
 already
 also
 also
+an
 an
 an
 an
@@ -876,6 +878,7 @@ any
 appear
 appears
 appears
+approves
 approximate
 approximation.
 are
@@ -907,6 +910,7 @@ ask
 assessment
 associated
 asynchronous
+at
 at
 at
 at
@@ -952,7 +956,6 @@ be
 be
 be
 be
-beat
 because,
 before
 before
@@ -1032,8 +1035,8 @@ choices:
 city).
 classification
 click
-closed
 code
+codebases
 collect
 collect
 collect,
@@ -1101,6 +1104,7 @@ contents
 contents
 contents
 contents.
+context-mode
 contract
 control
 controller
@@ -1140,6 +1144,7 @@ copy
 correct
 correction,
 correctness,
+cost
 created
 customer
 cybercrime
@@ -1193,10 +1198,10 @@ date,
 dati
 days
 deadline
+decides,
 decision-making.
 declares
 dedicated
-default:
 dei
 delay.
 delete
@@ -1353,6 +1358,7 @@ given
 giving
 go
 green
+guardrails:
 has
 hash
 hash).
@@ -1364,6 +1370,7 @@ have
 have
 have
 have
+headroom:
 help
 help
 highlighting
@@ -1461,7 +1468,6 @@ is
 is
 is
 is
-is
 issue
 it
 it
@@ -1470,6 +1476,7 @@ joined
 la
 land
 language,
+large
 law
 law
 law.
@@ -1509,11 +1516,11 @@ logging
 logs)
 logs;
 love,
+lower
 made:
 make
 manage
 manage
-managed
 marketing
 marketing
 material
@@ -1680,12 +1687,10 @@ on
 on
 on
 on
-on
 once
 only
 only
 opaque
-open
 operating
 optimising
 options)
@@ -1762,6 +1767,7 @@ parts
 per
 period
 periods
+person
 personal
 personal
 personal
@@ -1934,6 +1940,7 @@ required)
 required)
 respond
 response
+responses
 responsibilities
 rest).
 retained
@@ -1942,6 +1949,7 @@ retention
 retention
 retrieve
 retroactively
+review
 review
 review
 revision
@@ -1959,7 +1967,6 @@ rights
 rights
 rights.
 rights.
-routing
 s.r.l,
 satisfy
 scope.
@@ -1971,7 +1978,6 @@ security,
 see
 selected
 self
-self-hosting
 send
 sending
 sending
@@ -2020,6 +2026,7 @@ specific
 specify
 spent
 spirit
+started
 state
 state.
 stop
@@ -2046,7 +2053,6 @@ subscription),
 suggesting
 supervisory
 supervisory
-support
 surname,
 surname,
 synchronous
@@ -2211,7 +2217,6 @@ the
 the
 the
 the
-the
 them
 theme
 these
@@ -2231,7 +2236,6 @@ this
 those
 those
 through
-tickets
 time
 time
 time,
@@ -2305,6 +2309,7 @@ to.
 toggle
 toggles
 toggles.
+token
 trackers
 trackers
 trackers
@@ -2341,6 +2346,7 @@ types
 under
 under
 under
+understand
 understanding
 undue
 unless
@@ -2429,7 +2435,6 @@ web‑beacon
 web‑beacon,
 web‑beacons,
 web‑beacons,
-weights
 what
 what’s
 what’s
@@ -2440,7 +2445,6 @@ where
 which
 which
 while
-why
 will
 will
 will
@@ -2450,6 +2454,7 @@ will
 will
 will
 will
+with
 with
 with
 with
@@ -2480,6 +2485,7 @@ without
 without
 without
 would
+writes,
 wrong
 www.regolo.ai.
 year

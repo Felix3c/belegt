@@ -28,6 +28,8 @@
 (GDPR),
 (HDS)
 (HDS)
+(HDS)
+(HDS)
 (HTTP
 (IPv4)
 (IPv6)
@@ -117,6 +119,8 @@ AI
 AI
 AI
 AI
+API
+API
 API
 API
 API
@@ -481,6 +485,7 @@ Build
 Build
 Buy
 By
+CLI
 CLI
 CLI
 CLI
@@ -1028,6 +1033,7 @@ Data
 Data
 Data
 Data
+Data
 Database
 Database
 Database
@@ -1257,6 +1263,7 @@ Enabling
 Enabling
 Enabling
 Encrypt
+Encrypting
 Encrypting
 Encrypting
 Encrypting
@@ -1773,6 +1780,8 @@ Instances
 Instances
 Instances
 Instances
+Instances
+Instances
 InstantApps
 Integrate
 Integrating
@@ -1848,6 +1857,7 @@ Kapsule
 Kapsule
 Kapsule
 Kapsule
+Key
 Key
 Key
 Key
@@ -2095,6 +2105,7 @@ Manager
 Manager
 Manager
 Manager
+Manager
 Managing
 Managing
 Managing
@@ -2230,6 +2241,8 @@ NVIDIA
 NVLink
 NeMo
 Netplan
+Network
+Network
 Network
 Network
 Network
@@ -2455,6 +2468,8 @@ Privacy
 Privacy
 Privacy
 Privacy
+Private
+Private
 Private
 Private
 Private
@@ -3082,6 +3097,8 @@ TAO
 TEM
 TLS
 TLS
+Tag
+Tag
 Technical
 Terminate
 Terminate
@@ -3260,6 +3277,7 @@ Understanding
 Understanding
 Understanding
 Understanding
+Understanding
 Union
 Unlock
 Unlock
@@ -3278,6 +3296,7 @@ Upgrade
 Upgrade
 Upload
 Upload
+Use
 Use
 Use
 Use
@@ -4594,6 +4613,8 @@ data
 data
 data
 data
+data
+data
 data,
 data:
 data:
@@ -4962,6 +4983,7 @@ for
 for
 for
 for
+for
 for:
 format
 format
@@ -5034,6 +5056,7 @@ groups
 groups
 groups
 groups
+groups
 groups,
 guide
 guidelines
@@ -5052,6 +5075,8 @@ headers
 health
 healthcare
 healthcare
+healthcare
+healthcare
 help?
 helpful?
 helps
@@ -5061,6 +5086,8 @@ hosted
 hosted
 hosted
 hosted
+hosting
+hosting
 hosting
 hosting
 hosting
@@ -5161,6 +5188,8 @@ integration
 integration
 integration
 interaction
+interfaces
+interfaces
 intermediate
 internal
 internal
@@ -5427,7 +5456,6 @@ mongosync
 monitor
 monitoring
 monthly
-monthly
 months
 more
 most
@@ -5632,6 +5660,7 @@ or
 or
 or
 or
+or
 organizational
 other
 our
@@ -5794,6 +5823,7 @@ privacy
 privacy
 privacy
 privacy
+privacy
 privacy@scaleway.com
 private
 private
@@ -5906,7 +5936,7 @@ remote
 replication
 replication
 replication
-report
+reports
 represent
 reproduce,
 reputation
@@ -6039,6 +6069,7 @@ section
 secured
 secured
 securely.
+security
 security
 security
 security
@@ -6253,6 +6284,8 @@ that
 that
 that
 that
+the
+the
 the
 the
 the
@@ -6755,6 +6788,8 @@ using
 using
 using
 using
+using
+using
 v1
 v1alpha1
 v1alpha2
@@ -6784,6 +6819,7 @@ versions
 versions
 versions
 very
+via
 via
 via
 via
@@ -6820,6 +6856,7 @@ volume
 volumes
 volumes
 volumes
+volumes
 voucher
 vs
 vs
@@ -6848,6 +6885,7 @@ when
 when
 which
 will
+with
 with
 with
 with

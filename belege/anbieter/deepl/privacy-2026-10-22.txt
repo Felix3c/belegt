@@ -1,0 +1,10 @@
+Quelle: https://www.deepl.com/en/privacy
+Abruf: 2026-10-22 ~06:55 UTC (curl mit Browser-Kennung, HTTP 200, 567817 Bytes, HTML-SHA256 adef224b5975b268e16fc0b2db005644a436b280d7152a01d4debe7d8065c66c)
+Seitenangabe: "Last update: October 2026"
+Wayback: https://web.archive.org/web/20261022070139/https://www.deepl.com/en/privacy
+
+Abschnitt 7.1 (wörtlich):
+7.1 Translation of Documents with DeepL Translator and DeepL Pro You can translate documents in different file formats both with DeepL Pro (.docx, .pptx, .html, .pdf and .txt) as well as with DeepL Translator (.docx, .pptx and .pdf). When using document translation in DeepL Translator, section 3 of this privacy policy applies. If you translate documents of the file types mentioned above while you are logged in to your DeepL Pro account, the texts you submit will only be processed temporarily and will be deleted after the completion of the translation process, including the translations themselves (see also section 4 and 6.3 of this privacy policy). With both DeepL Pro and DeepL Translator, the translation of your documents will be provided exclusively by DeepL and processed on our infrastructure in the EEA.
+
+Abschnitt 3 (Anfang, wörtlich):
+3. Texts, Translations and Improvements - DeepL Translator / Write (free version) When using our free services , please only enter content that you wish to transfer to our services. The transmission of this content is necessary in order for us to provide the translation or improvement and offer you our service. We process the content you upload and their translations or improvements for a limited period of time to train and improve our neural networks and algorithms. This also applies to corrections you make to our translation or improvement suggestions. If you use the glossary feature within our free services without a DeepL account and enter certain pairs of terms there, this data is only

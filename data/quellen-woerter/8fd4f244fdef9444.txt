@@ -1,6 +1,7 @@
 "Abmeldung
 "Anmeldung
 $
+%
 &amp;
 &amp;
 &amp;
@@ -246,6 +247,7 @@ $
 14
 14.
 147
+19
 195,
 195,
 195,
@@ -373,6 +375,7 @@ $
 75-79,
 8
 8.
+80,56
 9
 90
 91710
@@ -398,6 +401,7 @@ AGB
 AGB)
 AI
 AI
+AI.
 AMD-basierte
 AO)
 API
@@ -624,7 +628,6 @@ Ask
 Ask
 Auch
 Auch
-Auction
 Auf
 Auf
 Auf
@@ -665,6 +668,7 @@ Ausweisdokument
 Ausweisdokument,
 Ausübung
 Ausübung
+Automatically
 Automatische
 Automatisierungen
 Außerdem
@@ -1299,6 +1303,7 @@ Digital
 Digital
 Digital
 Direktnachrichten,
+Discrepancies
 Diskussionen
 Docs
 Docs
@@ -1460,6 +1465,7 @@ Es
 Es
 Es
 Es
+Español
 Estland
 Europäische
 Experiment
@@ -1530,6 +1536,7 @@ Fragen
 Fragen
 Fragen
 Frankreich
+Français
 Freitextfeld
 Freiwilligkeit
 Frist
@@ -1711,6 +1718,8 @@ Hetzner?
 Hetzner?
 Hetzner?
 Hier
+Hilfe
+Hilfe
 Hilfe
 Hilfe
 Hintergrund
@@ -2206,6 +2215,7 @@ Mitarbeitenden
 Mitarbeitenden,
 Mitarbeitenden,
 Mitarbeiterzeitschrift)
+Monat,
 Monate
 Monate
 Monate
@@ -2213,6 +2223,7 @@ Monate
 Monate
 Monate.
 Monaten
+MwSt.
 Nach
 Nach
 Nach
@@ -2244,8 +2255,6 @@ Name,
 Namen
 Namen
 Namens
-Need
-Need
 Netzwerk
 Neu
 Neukunden
@@ -2513,7 +2522,7 @@ Server
 Server
 Server
 Server
-Server
+Serverbörse
 Serverbörse
 Serverbörse
 Servern
@@ -3669,6 +3678,7 @@ bleiben
 browsing
 bspw.
 bspw.
+by
 bzw.
 c
 career@hetzner.com
@@ -4490,6 +4500,7 @@ erneuten
 erneuten
 erneuten
 erreichbare
+errors
 erscheint,
 erst
 erst
@@ -4805,6 +4816,8 @@ gestattet.
 gestattet.
 gestattet.
 gestellte
+gesucht?
+gesucht?
 getroffen
 getroffen
 getroffen.
@@ -4865,8 +4878,6 @@ hat
 hat
 hat
 hat
-help?
-help?
 heraus,
 herstellbar.
 hierfür
@@ -4998,6 +5009,7 @@ indem
 individuelle
 informieren
 informieren
+inkl.
 inkl.
 inkl.
 innerhalb
@@ -5266,6 +5278,7 @@ markiert
 maschinenlesbaren
 maximal
 maximale
+may
 mehr
 mehr
 mehreren
@@ -5399,6 +5412,7 @@ nicht,
 nicht-notwendige)
 nicht-notwendigen
 nicht.
+no
 noch
 noch
 noticed
@@ -5435,6 +5449,7 @@ ob
 ob
 ob
 oben
+occur.
 oder
 oder
 oder
@@ -5480,6 +5495,7 @@ ohne
 ohne
 ohne
 optimalen
+or
 ordnungsgemäßen
 organisieren
 our
@@ -5511,6 +5527,7 @@ personenbezogener
 policy
 potenzielle
 privacy
+pro
 prüfen
 prüfen
 rechtliche
@@ -5734,6 +5751,7 @@ the
 to
 to
 to
+translated
 treffen,
 trotz
 trotz
@@ -7118,4 +7136,5 @@ zwischen
 „Website“
 „Website“
 „versendet“)
+€
 €

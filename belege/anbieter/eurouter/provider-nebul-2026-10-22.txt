@@ -1,0 +1,108 @@
+ Nebul API (EU Routed) | EUrouter 
+ DeepSeek V4.1 Flash 1017, Claude Haiku 5.5 and Mistral Large 4 are now live. Try them now EUrouter Models 
+ Providers 
+ Rankings 
+ Features 
+ Pricing 
+ Docs 
+ Loading authentication actions 
+ EUrouter 
+ Home / 
+ Providers / 
+ Nebul 
+ Nebul
+ 19 models available
+ Visit website 
+ About
+ Dutch sovereign AI cloud (Nebul B.V., Leiden). OpenAI-compatible serverless inference on EU-only NVIDIA infrastructure; no training on customer data, no retention beyond operational needs. Not affiliated with Nebius.
+ Data & Compliance
+ Zero data retention 
+ No training on prompts 
+ Headquarters: NL 
+ Available Models ( 19 )
+ SE
+ All MiniLM L6 v2
+ $0.09 / $0.45
+ BGE M3
+ $0.01 / $0
+ BGE Reranker v2 M3
+ $0.10 / $0.10
+ GLM 5.1
+ $1.40 / $4.40
+ GLM 5.2
+ $1.20 / $4.20
+ GLM 5.3
+ $1.10 / $4.40
+ GLM-OCR
+ $0.13 / $0.56
+ GPT-OSS 120B
+ $0.08 / $0.40
+ IN
+ INF Retriever v1
+ $0.09 / $0.45
+ Kimi K3
+ $3.00 / $15.00
+ Ministral 3 14B
+ $0.22 / $0.22
+ Mistral Large 3
+ $0.55 / $1.65
+ IN
+ Multilingual E5 Large Instruct
+ $0.03 / $0.02
+ Nemotron 3 Nano 30B A3B
+ $0.06 / $0.24
+ Nemotron 3 Nano Omni
+ $0.16 / $1.05
+ Nemotron 3 Super 120B A12B
+ $0.30 / $0.90
+ Qwen3 30B A3B Instruct
+ $0.10 / $0.30
+ Qwen3 Embedding 8B
+ $0.01 / $0
+ Qwen3.5 397B A17B
+ $0.67 / $4.00
+ Explore more
+ Browse all providers
+ Compare providers and data policies.
+ Browse all models
+ Explore the full EUrouter catalog.
+ Integrate AI without GDPR risk.
+ You need AI that won’t create compliance headaches. Your data stays in the EU, GDPR is enforced by default, and every request is routed for the best balance of cost, latency, and uptime, reducing risk while improving performance.
+ Get Your API Key 
+ GDPR by default 
+ EU data residency 
+ Smart routing 
+ EUrouter 
+ The unified API for European AI models. Route intelligently, comply effortlessly, and scale globally.
+ EUrouter B.V.
+ KVK: 42054357
+ Jacob van Lennepstraat 78H
+ 1053HM Amsterdam
+ Product
+ Models 
+ Providers 
+ Become a Provider 
+ Pricing 
+ Referral Program 
+ Resources
+ Documentation 
+ FAQ 
+ Features
+ Smart Routing 
+ OpenAI Compatible 
+ Monitoring & Observability 
+ Budgets & Limits 
+ Decisions 
+ Integrations
+ All Integrations 
+ OpenAI SDK 
+ LangChain 
+ Vercel AI SDK 
+ Cursor 
+ Company
+ About 
+ Jobs 
+ Contact 
+ © 2026 EUrouter. All rights reserved.
+ Privacy Policy General Terms and Conditions DPA Cookie Statement Cookie Settings Status Page 
+ 

@@ -139,6 +139,7 @@
 80
 80
 8B):
+92%
 94.5
 96
 96
@@ -155,13 +156,13 @@ AI
 AI
 AI
 AI
+AI
 API
 API
 API
 API
 API
 API
-APIs
 APIs,
 APIs.
 About
@@ -359,6 +360,7 @@ GPU,
 Gemma
 Generation
 Get
+Getting
 H100
 H200
 H200
@@ -372,7 +374,6 @@ How
 However,
 How‑to
 Huggingface
-Hybrid
 I
 I
 I
@@ -412,6 +413,7 @@ L4
 L40S
 L40S
 L40S
+LLM
 LLM
 Labs
 Labs
@@ -568,7 +570,6 @@ RTXPRO6000
 Regolo
 Regolo
 Regolo
-Regolo
 Regolo,
 Release
 Rerank
@@ -579,7 +580,6 @@ Resources
 Retention
 Retention,
 Retrieval,
-Route
 S.r.l.
 SLA
 SLAs,
@@ -708,6 +708,7 @@ a
 a
 a
 a
+a
 access
 access
 access
@@ -736,6 +737,7 @@ allows
 along
 also
 always
+an
 an
 and
 and
@@ -783,8 +785,10 @@ api
 applied
 applies
 apply
+approves
 are
 around
+at
 at
 audio.
 automatic
@@ -793,7 +797,6 @@ available
 avoid
 based
 batch
-beat
 become
 before
 best
@@ -856,7 +859,7 @@ choose
 clearly
 clef-flash
 click
-closed
+codebases
 cold
 commitment
 commitment.
@@ -875,6 +878,7 @@ consume.
 consumption
 consumption
 content
+context-mode
 contracts.
 conversion
 core
@@ -897,6 +901,7 @@ cores
 cores
 cores
 cores
+cost
 cost
 cost
 cost
@@ -932,11 +937,11 @@ day
 days
 days,
 days,
+decides,
 dedicated
 dedicated
 deepseek-ocr-2
 default
-default:
 deliver
 demand
 demand
@@ -1065,10 +1070,12 @@ greater
 green
 groups
 guaranteed,
+guardrails:
 happens
 hardware,
 has
 have
+headroom:
 hidden
 hidden
 high-scale
@@ -1120,7 +1127,6 @@ is
 is
 is
 is
-is
 it
 items
 iterate.
@@ -1133,6 +1139,7 @@ key,
 key?
 keys
 keys.
+large
 less
 lets
 library
@@ -1152,7 +1159,7 @@ list
 listed
 love
 love,
-managed
+lower
 maximum
 maximum
 maximum
@@ -1258,7 +1265,6 @@ on
 on
 on
 on
-on
 only
 only
 only
@@ -1266,7 +1272,6 @@ only
 only
 only
 only,
-open
 or
 or
 or
@@ -1331,6 +1336,7 @@ per-token
 performance,
 performance.
 periodic
+person
 pixel
 pixel.
 plan
@@ -1409,12 +1415,13 @@ requirements
 requirements.
 researchers,
 reset
+responses
+review
 review
 right
 right.
 risk‑free.
 room
-routing
 rules
 run
 runaway
@@ -1432,7 +1439,6 @@ second
 second
 secure,
 see
-self-hosting
 service
 set
 set
@@ -1462,6 +1468,7 @@ squads
 staging,
 start
 start
+started
 starts
 startups,
 stays
@@ -1470,7 +1477,6 @@ storage,
 subscribe
 subscription
 subscription
-support
 support
 support
 support
@@ -1528,7 +1534,6 @@ the
 the
 the
 the
-the
 their
 their
 their
@@ -1540,7 +1545,6 @@ this
 thresholds
 throttling
 throughput.
-tickets
 time
 time.
 time.
@@ -1588,6 +1592,7 @@ token
 token
 token
 token
+token
 token-based
 tokens
 tokens
@@ -1616,6 +1621,7 @@ trial
 trial
 trial
 true
+understand
 unexpected
 unrestricted
 until
@@ -1653,7 +1659,6 @@ want
 way.
 we
 weekly,
-weights
 what
 what
 what
@@ -1666,8 +1671,8 @@ whenever
 where
 whichever
 while
-why
 will),
+with
 with
 with
 with
@@ -1694,6 +1699,7 @@ workloads.
 workloads.
 workloads.
 workloads.
+writes,
 you
 you
 you

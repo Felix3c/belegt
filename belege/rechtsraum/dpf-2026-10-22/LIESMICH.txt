@@ -1,0 +1,8 @@
+Abruf 22.10.2026 ~13:00 MESZ, Schnittstelle der amtlichen DPF-Liste (dieselbe, die www.dataprivacyframework.gov/list im Browser aufruft):
+- POST https://dpfapi.azurewebsites.net/api/participants  Body {"Search":"<Name>","Status":"Active"|"" ,"RowsPerPage":50,...}
+- GET  https://dpfapi.azurewebsites.net/api/participants/<Id>
+Liste zuletzt geändert laut /api/participants/filemodified: "Thursday, October 22, 2026 6:00 AM EST".
+Ergebnis: Microsoft Corporation (Id 6474) EU-US Certification Active, HR + Nicht-HR, seit 12.08.2016, nächste Erneuerung bis 31.08.2027.
+Google LLC (Id 5780) EU-US Certification Active, HR + Nicht-HR, seit 22.09.2016, bis 13.09.2027.
+OpenAI: 0 Treffer bei Status Active und bei allen Status (Suche "OpenAI", "Open AI", "OpCo", "OpenAI OpCo").
+robots.txt der Seite: Disallow leer.

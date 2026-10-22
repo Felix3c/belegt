@@ -64,7 +64,6 @@ Actions
 Admin
 Admin
 Alerts
-Alerts
 All
 An
 Analytics
@@ -376,11 +375,12 @@ Service
 Session
 Set
 Sign-On
+Signatures
+Signatures
 Single
 Skip
 Some
 Spend
-Spending
 Spending
 Standard
 Standard-plan
@@ -428,6 +428,8 @@ Verdict
 Video
 Was
 Web
+Webhook
+Webhook
 What
 What
 When

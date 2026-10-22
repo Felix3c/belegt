@@ -1,0 +1,209 @@
+{
+  "id": "google-gemini-workspace",
+  "name": "Google Gemini für Google Workspace (Gemini-App als Core Service und Gemini in Workspace), Unternehmensfassung",
+  "kategorie": "assistent",
+  "kurzbeschreibung": "KI-Assistent in Google Workspace für Unternehmen, nur mit Google-eigenen Modellen.",
+  "stammdaten": {
+    "sitz": "Mountain View, USA (Google LLC); Vertragspartei für Workspace in der EMEA-Region laut Google: Google Cloud EMEA Limited",
+    "land": "US",
+    "mutterkonzern": "Alphabet Inc.",
+    "us_eigner": true,
+    "gegruendet": 1998,
+    "website": "https://workspace.google.com",
+    "dpf": {
+      "status": "belegt",
+      "wert": true,
+      "quelle": "https://www.dataprivacyframework.gov/participant/5780",
+      "geprueft": "2026-10-22",
+      "anmerkung": "Amtliche DPF-Liste, Eintrag „Google LLC“, Mountain View: „EU-US Certification“ Status „Active“, HR- und Nicht-HR-Daten, seit 22.09.2016, gültig bis 13.09.2027; gilt laut Eintrag für Google LLC und ihre US-Töchter. Vertragspartei für Workspace in EMEA ist Google Cloud EMEA Limited (Irland), siehe Anmerkungen zum Vertrag. Kopie + SHA-256 in belege/rechtsraum/dpf-2026-10-22/"
+    }
+  },
+  "modelle": [
+    {
+      "name": "Google-eigene Gemini-Modelle (Gemini-App als Core Service und Gemini in Gmail, Docs, Drive usw.)",
+      "standort": "Speicherung in der gewählten Data Region (EU oder USA); Verarbeitung nur mit Enterprise oder Assured Controls Data Regions in der Region, sonst überall, wo Google oder Subprozessoren Rechenzentren haben",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://knowledge.workspace.google.com/admin/compliance/data-covered-by-data-regions?hl=en",
+      "geprueft": "2026-10-21",
+      "status": "belegt",
+      "anmerkung": "Data-Regions-Seite (20.10.2026), Fußnote: „Versions of Data Regions not listed in this column do not cover data processed in use.“ Nicht abgedeckt sind „logs or cached content“. Vertrag (SST 1.3, 12.10.2026): „Google may store or process any Customer Data that is not covered by the Data Regions Policy“. Gemini Notebook (früher NotebookLM): „Your organization's file sharing and data region settings do not apply to data in Gemini Notebook.“ Websuche: „When Google Search is used for grounding, any data shared is encrypted and processed ephemerally“; einen Ort nennt Google nicht (ungeklärt). Google nennt nur eigene Modelle: „Gemini uses a collection of models from Google's rich repository.“ Drittanbieter-Modelle wurden nicht gefunden (unbelegt). Preis je Nutzerlizenz, nicht je Token, hier nicht erfasst.",
+      "backup_standort": {
+        "wert": "Replikation über mehrere Rechenzentren, bei gewählter Data Region einschließlich Backups in dieser Region",
+        "status": "belegt",
+        "quelle": "https://cloud.google.com/terms/data-processing-addendum",
+        "geprueft": "2026-10-21",
+        "anmerkung": "CDPA Anhang 2 (08.06.2026): „Subject to any Instructions to the contrary (e.g. in the form of a data location selection), Google replicates Customer Data between multiple geographically dispersed data centers.“ Services Summary (31.08.2026): Data Regions gilt „for certain primary data-at-rest (including backups) within Customer Data“. Zusage allgemein für Workspace, nicht eigens für Gemini."
+      },
+      "vorgeschaltete_filter": {
+        "wert": true,
+        "status": "belegt",
+        "quelle": "https://knowledge.workspace.google.com/admin/security/how-google-helps-protect-gemini-users-from-malicious-content-and-prompt-injections?hl=en",
+        "geprueft": "2026-10-21",
+        "anmerkung": "Google (20.10.2026): „Gemini analyzes that content for threats before taking action.“ und „When Gemini identifies threats in content, it excludes that content from being used to generate a response.“ Dazu „safety features that are designed to help prevent the generation of harmful or offensive content“ (Privacy Hub). Einzelheiten der Klassifikatoren nennt Google nicht."
+      }
+    }
+  ],
+  "vertrag": {
+    "avv": {
+      "wert": "https://cloud.google.com/terms/data-processing-addendum",
+      "status": "belegt",
+      "quelle": "https://cloud.google.com/terms/data-processing-addendum",
+      "geprueft": "2026-10-21",
+      "anmerkung": "„Cloud Data Processing Addendum“, „Last modified June 8, 2026“, frei abrufbar; früher „Data Processing Amendment“ für Workspace. CDPA 4.1: „Google is a processor and Customer is a controller or processor, as applicable, of Customer Personal Data.“ Privacy Hub: „User prompts are considered customer data under the Cloud Data Processing Addendum.“ Vertragspartei für Workspace in der EMEA-Region (außer Frankreich, Italien, Polen): „Google Cloud EMEA Limited“ (Seite vom 30.06.2026)."
+    },
+    "subprozessoren": {
+      "wert": "https://workspace.google.com/intl/en/terms/subprocessors.html",
+      "status": "belegt",
+      "quelle": "https://workspace.google.com/intl/en/terms/subprocessors.html",
+      "geprueft": "2026-10-21",
+      "anmerkung": "Liste frei lesbar, „Last modified October 19, 2026“: externe Dienstleister für „Technical Support“ (u. a. Accenture, Cognizant, Deloitte, IBM, Infosys, TCS, Wipro) und Google-Konzerngesellschaften. Kein KI-Anbieter und kein eigener Abschnitt für Gemini. Ankündigungsfrist laut CDPA 11.4(a): „at least 30 days before the New Subprocessor starts processing any Customer Data“; danach 90 Tage, um durch Kündigung zu widersprechen."
+    },
+    "training_opt_out": {
+      "wert": true,
+      "status": "belegt",
+      "quelle": "https://workspace.google.com/intl/en/terms/service-terms/",
+      "geprueft": "2026-10-21",
+      "anmerkung": "SST 12.11 (12.10.2026): „Google will not use Customer Data to train or fine-tune any of its generative artificial intelligence models“ ohne vorherige Erlaubnis oder Anweisung des Kunden. Gilt für die Gemini-App nur als Core Service in einer passenden Workspace-Edition. Als „Additional Service“ laut Google: „Their chats may be reviewed by human reviewers and used to improve Google's products“."
+    },
+    "zero_data_retention": {
+      "wert": false,
+      "status": "belegt",
+      "quelle": "https://knowledge.workspace.google.com/admin/generative-ai/gemini-app/turn-the-gemini-app-on-or-off?hl=en",
+      "geprueft": "2026-10-21",
+      "anmerkung": "Gemini-App: „conversation history is saved by default for 18 months.“ Admins können 3, 18 oder 36 Monate wählen oder den Verlauf abschalten; auch dann: „new chats are saved in user accounts for up to 72 hours“. Gemini in Gmail, Docs usw.: „90 days to indefinite, as determined by admins“. Gemini Notebook: „Not retained“ (Privacy Hub, 20.10.2026)."
+    },
+    "zweckbindung": {
+      "wert": true,
+      "status": "belegt",
+      "quelle": "https://cloud.google.com/terms/data-processing-addendum",
+      "geprueft": "2026-10-21",
+      "anmerkung": "CDPA 5.2: „Customer instructs Google to process Customer Data … only as follows: a. to provide, secure, and monitor the Services and TSS (if applicable); and b. as further specified via …“. Eigene Zwecke Googles für Kundendaten stehen in den gelesenen Teilen nicht. Offen bleibt „Service Data“ (Nutzungs- und Betriebsdaten): „Google's processing of Service Data as a processor is subject to agreement with relevant enterprise customers of this offering.“ (ISO-27001-Seite); ohne diese Vereinbarung ungeklärt. Freiwilliges Feedback: „Feedback is used to improve generative AI products and services“."
+    },
+    "betroffenenrechte_traeger": {
+      "wert": "auftraggeber",
+      "status": "belegt",
+      "quelle": "https://cloud.google.com/terms/data-processing-addendum",
+      "geprueft": "2026-10-21",
+      "anmerkung": "CDPA 9.2.1: „Google will: a. advise the data subject to submit their request to Customer; b. promptly notify Customer; and c. not otherwise respond … Customer will be responsible for responding to any such request…“"
+    },
+    "log_frist": {
+      "wert": null,
+      "status": "unbelegt",
+      "quelle": null,
+      "geprueft": "2026-10-21",
+      "anmerkung": "Für Gemini in Workspace nennt Google keine Frist für Missbrauchs- oder Sicherheitsprotokolle. Belegt ist nur: „Your chats and uploaded files won't be reviewed by human reviewers“ (Privacy Hub). Die 90 Tage Prompt-Logs zum Abuse Monitoring dokumentiert Google für ein anderes Produkt (Google-Cloud-Plattform), nicht für Workspace."
+    },
+    "log_zweck": {
+      "wert": "Bereitstellung des Dienstes und Verarbeitung von Feedback (72-Stunden-Speicherung bei abgeschaltetem Verlauf); Audit-Logs für Admins",
+      "status": "belegt",
+      "quelle": "https://knowledge.workspace.google.com/admin/gemini/generative-ai-in-google-workspace-privacy-hub?hl=en",
+      "geprueft": "2026-10-21",
+      "anmerkung": "Privacy Hub: Bei abgeschaltetem Verlauf werden neue Chats bis zu 72 Stunden gespeichert, laut Seite zur Bereitstellung des Dienstes und zur Verarbeitung von Feedback. „Google Workspace provides admins with a robust set of audit logs to track user activity“. Zwecke interner Dienstprotokolle Googles nennt die Seite nur allgemein."
+    }
+  },
+  "zertifikate": [
+    {
+      "typ": "ISO 27001",
+      "status": "beansprucht",
+      "quelle": "https://cloud.google.com/security/compliance/iso-27001?hl=en",
+      "geprueft": "2026-10-21",
+      "anmerkung": "Google: „Google Cloud, Google Workspace, and Apigee ISO/IEC 27001 certificates may be requested using the Compliance Reports Manager. Potential customers can reach out to sales for more information.“ Das Zertifikat ist nicht frei abrufbar. Privacy Hub: „Gemini has attained SOC 1/2/3, ISO 9001, ISO/IEC 27001, 27701, 27017, 27018, and 42001 certifications.“",
+      "anwendungsbereich": {
+        "wert": "Liste der Workspace-Dienste mit „Gemini app*“ und „Gemini in Workspace*“",
+        "status": "belegt",
+        "quelle": "https://cloud.google.com/security/compliance/iso-27001?hl=en",
+        "geprueft": "2026-10-21",
+        "anmerkung": "Laut Google-Webseite im Geltungsbereich; das Sternchen bedeutet: „the scope of this certification applies to this offering where Google acts as a processor of Service Data“. Das Zertifikat selbst wurde nicht eingesehen."
+      },
+      "zertifizierer": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-21",
+        "anmerkung": "Die Seite sagt nur „after undergoing an audit by an independent third party“. CDPA: Google nennt die Identität seines Prüfers dem Kunden. Abgelaufene Zertifikate von 2014 bis 2019 nannten laut Suchergebnis EY CertifyPoint; für das aktuelle Zertifikat ungeklärt."
+      },
+      "akkreditiert_dakks": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-21",
+        "anmerkung": "Google schreibt nur „accredited ISO/IEC 27001 certification“, ohne die Akkreditierungsstelle zu nennen."
+      },
+      "normiert": [
+        "iso-27001"
+      ]
+    },
+    {
+      "typ": "ISO/IEC 42001",
+      "status": "beansprucht",
+      "quelle": "https://cloud.google.com/security/compliance/iso-42001?hl=en",
+      "geprueft": "2026-10-21",
+      "anmerkung": "KI-Managementsystem. Google: „Google Cloud, Google Workspace, and Gemini (App) are certified as ISO/IEC 42001:2023 compliant.“ Zertifikat nur über den Compliance Reports Manager.",
+      "anwendungsbereich": {
+        "wert": "Gemini App, Gemini Notebook Enterprise, Google Workspace with Gemini",
+        "status": "beansprucht",
+        "quelle": "https://cloud.google.com/security/compliance/iso-42001?hl=en",
+        "geprueft": "2026-10-21",
+        "anmerkung": "Geltungsbereich nur laut Anbieterseite, Zertifikat nicht lesbar."
+      },
+      "zertifizierer": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": "https://cloud.google.com/security/compliance/iso-42001?hl=en",
+        "geprueft": "2026-10-21",
+        "anmerkung": "Zertifizierungsstelle nicht öffentlich lesbar."
+      },
+      "akkreditiert_dakks": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": "https://cloud.google.com/security/compliance/iso-42001?hl=en",
+        "geprueft": "2026-10-21",
+        "anmerkung": "Akkreditierung nicht geprüft, Zertifikat nicht lesbar."
+      },
+      "normiert": [
+        "iso-42001"
+      ]
+    }
+  ],
+  "iso_42001": {
+    "status": "beansprucht",
+    "wert": true,
+    "zertifizierer": null,
+    "anwendungsbereich": "Gemini App, Gemini Notebook Enterprise, Google Workspace with Gemini",
+    "quelle": "https://cloud.google.com/security/compliance/iso-42001?hl=en",
+    "geprueft": "2026-10-21",
+    "anmerkung": "Google: „Google Cloud, Google Workspace, and Gemini (App) are certified as ISO/IEC 42001:2023 compliant.“ Zertifikat nur über den Compliance Reports Manager."
+  },
+  "ai_act": [],
+  "geprueft": "2026-10-21",
+  "url": "https://belegbar.eu/anbieter/google-gemini-workspace/",
+  "beleg_quote_prozent": 71,
+  "zuletzt_geprueft": "2026-10-21",
+  "quellenlauf": {
+    "zuletzt": null,
+    "quellen": 10,
+    "nachgelesen": 0,
+    "unveraendert": 0,
+    "veraendert_gelesen": 0,
+    "offen": 0,
+    "verschwunden": 0,
+    "statuswechsel_30_tage": 1
+  },
+  "rechtsraum": {
+    "land": "US",
+    "name": "USA",
+    "einordnung": "dpf",
+    "erlaeuterung": "Drittland. Der Angemessenheitsbeschluss der EU-Kommission vom 10.07.2023 gilt nur für Unternehmen, die am EU-US Data Privacy Framework teilnehmen (Art. 45 DSGVO); sonst nur mit geeigneten Garantien, etwa Standardvertragsklauseln (Art. 46 DSGVO).",
+    "hinweis": "Der Anbieter nimmt laut der amtlichen Liste dataprivacyframework.gov aktiv am EU-US Data Privacy Framework teil; der Beschluss gilt damit für Übermittlungen an ihn.",
+    "dpf": {
+      "status": "belegt",
+      "wert": true,
+      "quelle": "https://www.dataprivacyframework.gov/participant/5780",
+      "geprueft": "2026-10-22",
+      "anmerkung": "Amtliche DPF-Liste, Eintrag „Google LLC“, Mountain View: „EU-US Certification“ Status „Active“, HR- und Nicht-HR-Daten, seit 22.09.2016, gültig bis 13.09.2027; gilt laut Eintrag für Google LLC und ihre US-Töchter. Vertragspartei für Workspace in EMEA ist Google Cloud EMEA Limited (Irland), siehe Anmerkungen zum Vertrag. Kopie + SHA-256 in belege/rechtsraum/dpf-2026-10-22/"
+    },
+    "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+    "geprueft": "2026-10-22"
+  }
+}

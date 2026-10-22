@@ -1,0 +1,43 @@
+Quelle: https://www.scaleway.com/en/news/qwen3235b-and-openais-gptoss-models-now-available-on-scaleways-generative-apis-and-managed-inference/
+Abruf: 2026-10-22 (curl, HTTP 200), Textauszug aus HTML, belegbar.eu
+
+Qwen3‑235B and OpenAI’s gpt‑oss Models now available on Scaleway’s Generative APIs and Managed Inference
+Qwen3‑235B and OpenAI’s gpt‑oss Models now available on Scaleway’s Generative APIs and Managed Inference
+Paris, France, August 6, 2025
+– Scaleway, the European AI neocloud, is expanding its catalog of sovereign models with the addition of
+Qwen3-235B-A22B-Instruct-2507
+, as well as
+gpt‑oss‑120B
+and
+gpt‑oss‑20B
+, two newly released open-weight models from OpenAI.
+Qwen3‑235B, developed by Alibaba Cloud, is one of the most advanced open models to date. It ranks in the global top 5 on
+LMArena
+, with performance comparable to proprietary models such as Gemini 2.5 Pro and GPT‑4.5. It delivers strong reasoning capabilities while maintaining low latency and high token efficiency, making it ideal for real-time agentic applications.
+OpenAI’s gpt‑oss models mark the company’s first open-weight release since GPT‑2. Licensed under Apache 2.0, they offer high reasoning performance with lighter compute requirements, enabling developers to build cost-efficient, tool-using agents deployed on dedicated infrastructure.
+Qwen3‑235B
+is now available via
+Generative APIs
+and
+Managed Inference
+, while
+gpt‑oss‑120B
+and
+gpt‑oss‑20B
+are available on
+Managed Inference
+. Support for gpt‑oss models on Generative APIs will be added shortly.
+As always, all inference runs on Scaleway’s sovereign infrastructure in Europe, and prompts are never stored, logged, or reused, in full compliance with our Data Privacy Policy.
+“These additions strengthen our commitment to open AI,”
+said Franck Pagny, Product Manager for Inference at Scaleway.
+“Developers can now run top-tier open models, with full control, right here in Europe.”
+Published on
+08/06/2025
+Products
+All Products
+Betas
+Bare Metal
+Dedibox
+Elastic Metal
+Compute Instances
+GPU

@@ -73,6 +73,7 @@
 1.2
 10
 10.
+1017,
 1053HM
 11.
 12.
@@ -92,8 +93,8 @@
 48
 5
 5
-5
 5.
+5.5
 6.
 7.
 78H
@@ -227,7 +228,9 @@ Capitalised
 Categories
 Categories
 Chapter
+Claude
 Clauses
+Clef-Flash
 Cloud
 Cloud
 Cloud
@@ -483,6 +486,8 @@ Data.
 Data.
 Data.
 Data”,
+Decisions
+DeepSeek
 Description
 Description
 Diagnostic
@@ -556,6 +561,7 @@ European
 FAQ
 Features
 Features
+Flash
 Following
 For
 For
@@ -569,7 +575,6 @@ GDPR
 GDPR,
 GDPR.
 GDPR.
-GLM-5.2,
 General
 General
 General
@@ -582,6 +587,7 @@ Google
 Google
 Google
 GreenPT
+Haiku
 ID,
 ID,
 IONOS
@@ -606,9 +612,7 @@ Integrations
 Integrations
 Jacob
 Jobs
-K3
 KVK:
-Kimi
 LangChain
 Last
 Last
@@ -685,7 +689,6 @@ October
 OpenAI
 OpenAI
 Operational
-Opus
 Order
 Organisational
 Outside
@@ -1053,6 +1056,7 @@ Unless
 Upon
 Usercentrics)
 V
+V4.1
 Vercel
 Website
 Website/product

@@ -1,0 +1,36 @@
+Overview: What is Pharia-1-LLM-7B? :: Aleph Alpha Documentation
+Overview: What is Pharia-1-LLM-7B?
+The Pharia-1-LLM-7B is a model family that encompasses two foundation models developed by Aleph Alpha Research. The models were trained on carefully curated data in compliance with applicable EU and national regulations, including copyright and data privacy laws.
+The models were trained on a multilingual corpus, and therefore they are culturally and linguistically optimised for German, French, and Spanish.
+They are publicly available under the Open Aleph License , which explicitly allows for non-commercial research and educational use.
+In this article:
+Data privacy
+Updates
+Restrictions
+Accessing the model card
+Data privacy
+No prompt data is stored when using our systems, which means that we do not collect personally identifiable information for any of our public API users, as detailed in our Terms and Conditions. We do not log user inputs to the models. We do not train on user data.
+Updates
+See the What’s New
+for updates to the models served. We do not deprecate officially released versions of old model generations when we release newer versions, so you can continue to access older models.
+Restrictions
+The models made available to customers are identical regardless of their geographic location and input language. However, availability is subject to sanction regimes, technology export regulations, and other restrictions that may apply. The same offering is provided to all countries within and external to the European Union if no legal restrictions apply.
+Accessing the model card
+The model card for Pharia-1-LLM-7B is available at Hugging Face:
+Model Card .
+Aleph Alpha
+Copyright © 2025 Aleph Alpha GmbH
+Company
+Release notes
+Aleph Alpha website
+Github
+Pharia-1-LLM-7B models
+Legal
+Data privacy
+Licences
+Imprint
+Support
+About us
+Product support portal
+Contact us
+Blog

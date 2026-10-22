@@ -42,6 +42,7 @@ const KATEGORIE_LABEL = {
   cloud: "Cloud / GPU",
   gateway: "Gateway / Router",
   "modell-anbieter": "Modell-Anbieter",
+  assistent: "KI-Assistent (Unternehmen)",
 };
 
 const STATUS_LABEL = { belegt: "belegt", beansprucht: "beansprucht", unbelegt: "unbelegt" };
@@ -96,36 +97,17 @@ const ZERT_KANON = [
 /** Rechtsgrundlage der Datenübermittlung nach Sitzland des Anbieters.
  *  Quelle: Europäische Kommission, Angemessenheitsbeschlüsse — geprüft am ADEQUACY_GEPRUEFT. */
 const ADEQUACY_QUELLE = "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en";
-const ADEQUACY_GEPRUEFT = "2026-08-24";
+const ADEQUACY_GEPRUEFT = "2026-10-22";
 // ISO/IEC 42001 ist (noch) keine im Amtsblatt zitierte harmonisierte Norm zum AI Act → keine Konformitätsvermutung.
 const NORM42001_QUELLE = "https://lawandtechnology.eu/en/iso-iec-42001-and-the-ai-act-why-certification-is-not-yet-a-presumption-of-conformity/";
 const NORM42001_GEPRUEFT = "2026-10-04";
-const LAND_INFO = {
-  DE: { name: "Deutschland", raum: "eu" },
-  FR: { name: "Frankreich", raum: "eu" },
-  NL: { name: "Niederlande", raum: "eu" },
-  LU: { name: "Luxemburg", raum: "eu" },
-  EE: { name: "Estland", raum: "eu" },
-  SE: { name: "Schweden", raum: "eu" },
-  IT: { name: "Italien", raum: "eu" },
-  CH: { name: "Schweiz", raum: "angemessen" },
-  GB: { name: "Vereinigtes Königreich", raum: "angemessen", hinweis: "Der Angemessenheitsbeschluss wurde im Dezember 2025 verlängert, je einmal unter der DSGVO und unter der Richtlinie für den Strafverfolgungsbereich (LED)." },
-};
-const RAUM_TEXT = {
-  eu: "EU-Mitgliedstaat. Keine Drittlandübermittlung, Art. 44 ff. DSGVO greift nicht.",
-  angemessen: "Drittland mit Angemessenheitsbeschluss der EU-Kommission. Übermittlung ohne zusätzliche Garantien zulässig (Art. 45 DSGVO).",
-  drittland: "Drittland ohne Angemessenheitsbeschluss. Übermittlung nur mit geeigneten Garantien, etwa Standardvertragsklauseln (Art. 46 DSGVO).",
-};
+const { LAND_INFO, RAUM_TEXT, RAUM_KURZ, landInfo, anbieterZahl, rechtsraumHinweis, rechtsraumKurz } = require("./lib/rechtsraum.js");
 /** Stabile ID des einen Datensatzes. Unterseiten verweisen nur darauf, statt ihn zu wiederholen:
  *  Ein eingebettetes Objekt mit "@type" waere fuer einen Parser eine NEUE Entitaet und muesste
  *  alle Pflichtfelder tragen — ein reiner "@id"-Verweis ist dagegen nur ein Zeiger. */
 const DATASET_ID = SITE.baseUrl + "/#dataset";
 
-const RAUM_KURZ = { eu: "EU", angemessen: "Angemessenheitsbeschluss", drittland: "Drittland ohne Beschluss" };
 
-function landInfo(code) {
-  return LAND_INFO[code] || { name: code, raum: "drittland" };
-}
 
 /* ---------------- Helpers ---------------- */
 
@@ -453,7 +435,7 @@ function seiteIndex(providers, stand, aenderungen) {
 <section class="held">
   <div class="held-text">
     <h1>Wem dürfen Sie Ihre Daten geben?<br>Wir belegen es.</h1>
-    <p class="held-claim">${providers.length} europäische KI-Anbieter, geprüft Feld für Feld: Hosting-Standorte, Preise, AVV, Zertifikate, AI-Act-Nachweise. <strong>Jede Angabe mit Quelle und Prüfdatum</strong>. Was wir nicht belegen können, steht hier auch: als „unbelegt“.</p>
+    <p class="held-claim">${anbieterZahl(providers)}, geprüft Feld für Feld: Hosting-Standorte, Preise, AVV, Zertifikate, AI-Act-Nachweise. <strong>Jede Angabe mit Quelle und Prüfdatum</strong>. Was wir nicht belegen können, steht hier auch: als „unbelegt“.</p>
     ${frische}
   </div>
   <div class="held-beleg" aria-hidden="true">${heroBeleg}</div>
@@ -522,7 +504,7 @@ function seiteIndex(providers, stand, aenderungen) {
 
   return layout({
     titel: "belegbar.eu: Souveräne KI-Anbieter aus Europa, mit Quelle und Prüfdatum",
-    beschreibung: `${providers.length} europäische KI-Anbieter im Vergleich: Hosting, Preise, AVV, Zertifikate, AI-Act-Nachweise. Jede Angabe ist belegt oder als unbelegt markiert.`,
+    beschreibung: `${anbieterZahl(providers)} im Vergleich: Hosting, Preise, AVV, Zertifikate, AI-Act-Nachweise. Jede Angabe ist belegt oder als unbelegt markiert.`,
     inhalt, rel: "./", pfad: "", jsonld,
   });
 }
@@ -613,7 +595,7 @@ ${eigeneFaelle.map((f) => `  <aside class="fall-hinweis fall-${esc(f.status)}"><
     <div><dt>Mutterkonzern</dt><dd>${esc(s.mutterkonzern || "unabhängig / keiner bekannt")}</dd></div>
     <div><dt>US-Eigentümerstruktur</dt><dd>${s.us_eigner === true ? '<span class="warnung">ja, CLOUD-Act-Relevanz prüfen</span>' : s.us_eigner === false ? "nein" : "unbelegt"}</dd></div>
     <div><dt>Gegründet</dt><dd>${esc(s.gegruendet || "–")}</dd></div>
-    <div><dt>Rechtsraum</dt><dd>${esc(li.name)}: ${esc(RAUM_TEXT[li.raum])}${li.hinweis ? " " + esc(li.hinweis) : ""} <span class="quelle"><a href="${ADEQUACY_QUELLE}" rel="noopener nofollow" target="_blank">Quelle</a> · geprüft ${datumDE(ADEQUACY_GEPRUEFT)}</span></dd></div>
+    <div><dt>Rechtsraum</dt><dd>${esc(li.name)}: ${esc(RAUM_TEXT[li.raum])}${rechtsraumHinweis(p) ? " " + esc(rechtsraumHinweis(p)) : ""} <span class="quelle"><a href="${ADEQUACY_QUELLE}" rel="noopener nofollow" target="_blank">Quelle</a> · geprüft ${datumDE(ADEQUACY_GEPRUEFT)}${s.dpf && s.dpf.quelle ? ` · <a href="${esc(s.dpf.quelle)}" rel="noopener nofollow" target="_blank">DPF-Liste</a> · geprüft ${datumDE(s.dpf.geprueft)}` : ""}</span></dd></div>
     <div><dt>Website</dt><dd><a href="${esc(s.website)}" rel="noopener nofollow" target="_blank">${esc((s.website || "").replace(/^https?:\/\//, ""))}</a></dd></div>
   </dl>
 
@@ -1271,7 +1253,7 @@ function fragenKatalog(providers, guides) {
       slug: "bsi-c5-testat-ki-anbieter",
       frage: "Welche europäischen KI-Anbieter haben ein BSI-C5-Testat?",
       titel: "Welche europäischen KI-Anbieter haben ein BSI-C5-Testat?",
-      beschreibung: `${belegt.length} von ${n} europäischen KI-Anbietern weisen ein BSI-C5-Testat mit verlinkter Primärquelle nach. Vollständige Liste mit Quelle und Prüfdatum.`,
+      beschreibung: `${belegt.length} von ${anbieterZahl(providers, "dativ")} weisen ein BSI-C5-Testat mit verlinkter Primärquelle nach. Vollständige Liste mit Quelle und Prüfdatum.`,
       antwort,
       inhalt:
         tabelle(["Anbieter", "Land", "C5-Status", "Beleg", "Anmerkung"],
@@ -1287,13 +1269,13 @@ function fragenKatalog(providers, guides) {
     const mitQuote = providers.map((p) => ({ p, q: Math.round(belegQuote(p) * 100), z: zertifikateBelegt(p) })).sort((a, b) => b.q - a.q || a.p.name.localeCompare(b.p.name, "de"));
     const mitZert = mitQuote.filter((x) => x.z.length);
     const antwort =
-      `Diese Seite ist eine solche Übersicht. belegbar.eu führt ${n} europäische KI-Anbieter und trennt bei jeder einzelnen Angabe drei Stufen: „belegt“ (Primärdokument verlinkt), „beansprucht“ (Anbieterangabe ohne prüfbares Dokument) und „unbelegt“ (keine belastbare Angabe gefunden). ` +
+      `Diese Seite ist eine solche Übersicht. belegbar.eu führt ${anbieterZahl(providers)} und trennt bei jeder einzelnen Angabe drei Stufen: „belegt“ (Primärdokument verlinkt), „beansprucht“ (Anbieterangabe ohne prüfbares Dokument) und „unbelegt“ (keine belastbare Angabe gefunden). ` +
       `${mitZert.length} der ${n} Anbieter ${mz(mitZert.length, "hat", "haben")} mindestens ein Zertifikat mit verlinktem Nachweis; bei ${n - mitZert.length} ist kein einziges Zertifikat belegt. Alle Daten stehen unter CC BY 4.0 und sind maschinenlesbar unter ${SITE.baseUrl}/daten.json abrufbar.`;
     fragen.push({
       slug: "uebersicht-eu-ki-anbieter-zertifikate-nachweis",
       frage: "Wo finde ich eine Übersicht, welche EU-KI-Anbieter ihre Zertifikate wirklich nachweisen?",
       titel: "Übersicht: Welche EU-KI-Anbieter weisen ihre Zertifikate wirklich nach?",
-      beschreibung: `Alle ${n} europäischen KI-Anbieter mit Beleg-Quote und verlinkten Zertifikatsnachweisen. Belegt, beansprucht und unbelegt getrennt.`,
+      beschreibung: `Alle ${anbieterZahl(providers, "alle")} mit Beleg-Quote und verlinkten Zertifikatsnachweisen. Belegt, beansprucht und unbelegt getrennt.`,
       antwort,
       inhalt:
         tabelle(["Anbieter", "Land", "Zertifikate mit Nachweis", "Beleg-Quote"],
@@ -1326,7 +1308,7 @@ function fragenKatalog(providers, guides) {
             const li = landInfo(p.stammdaten.land);
             const orte = [...new Set((p.modelle || []).map((m) => m.standort).filter(Boolean))];
             const avv = p.vertrag.avv;
-            return `<tr><td><a href="${rel}anbieter/${esc(p.id)}/">${esc(p.name)}</a></td><td>${esc(p.stammdaten.sitz || "–")}</td><td>${esc(RAUM_KURZ[li.raum])}</td><td>${statusBadge(avv.status)}${avv.wert || avv.quelle ? ` <a class="klein" href="${esc(avv.wert || avv.quelle)}" rel="noopener nofollow" target="_blank">Dokument</a>` : ""}</td><td>${orte.length ? esc(orte.join(", ")) : '<span class="leer">unbelegt</span>'}</td></tr>`;
+            return `<tr><td><a href="${rel}anbieter/${esc(p.id)}/">${esc(p.name)}</a></td><td>${esc(p.stammdaten.sitz || "–")}</td><td>${esc(rechtsraumKurz(p))}</td><td>${statusBadge(avv.status)}${avv.wert || avv.quelle ? ` <a class="klein" href="${esc(avv.wert || avv.quelle)}" rel="noopener nofollow" target="_blank">Dokument</a>` : ""}</td><td>${orte.length ? esc(orte.join(", ")) : '<span class="leer">unbelegt</span>'}</td></tr>`;
           })) +
         `<h2>EU-Sitz, aber AVV nicht belegt (${fastTreffer.length})</h2>` +
         `<p>${anbieterLinks(fastTreffer, rel)}</p>` +
@@ -1349,7 +1331,7 @@ function fragenKatalog(providers, guides) {
       slug: "ai-act-pflichten-nachweis-ki-anbieter",
       frage: "Welche KI-Anbieter erfüllen die AI-Act-Pflichten nachweislich?",
       titel: "AI Act: Welche KI-Anbieter haben ihre Pflichten nachweisbar dokumentiert?",
-      beschreibung: `${mit.length} von ${n} europäischen KI-Anbietern haben mindestens einen AI-Act-Nachweis mit verlinkter Primärquelle. Alle Nachweise einzeln aufgeführt.`,
+      beschreibung: `${mit.length} von ${anbieterZahl(providers, "dativ")} haben mindestens einen AI-Act-Nachweis mit verlinkter Primärquelle. Alle Nachweise einzeln aufgeführt.`,
       antwort,
       inhalt:
         tabelle(["Anbieter", "Belegte AI-Act-Nachweise", "Quelle"],
@@ -1386,7 +1368,7 @@ function fragenKatalog(providers, guides) {
       slug: "souveraene-ki-kommunen-anbieter",
       frage: "Souveräne KI für Kommunen: Welche Anbieter kommen infrage?",
       titel: "Souveräne KI für Kommunen: Anbieter an sechs prüfbaren Kriterien gemessen",
-      beschreibung: `Alle ${n} europäischen KI-Anbieter gegen sechs für die öffentliche Verwaltung relevante Nachweise geprüft: EU-Sitz, Eigentümer, BSI C5, ISO 27001, AVV, Trainings-Opt-out.`,
+      beschreibung: `Alle ${anbieterZahl(providers, "alle")} gegen sechs für die öffentliche Verwaltung relevante Nachweise geprüft: EU-Sitz, Eigentümer, BSI C5, ISO 27001, AVV, Trainings-Opt-out.`,
       antwort,
       inhalt:
         tabelle(["Anbieter", "EU-Sitz", "keine US-Eigner", "BSI C5", "ISO 27001", "AVV", "kein Training", "erfüllt"],
@@ -1483,7 +1465,7 @@ ${FS.fachstimmeBlock(FS.FACHSTIMMEN[e.schluessel], esc)}<footer class="dossier-f
   ];
   return layout({
     titel: `${e.label}: europäische KI-Anbieter mit Nachweis | belegbar.eu`,
-    beschreibung: `${e.belegt.length} europäische KI-Anbieter weisen ${e.label} mit verlinkter Primärquelle nach. Vollständige Liste mit Status, Quelle und Prüfdatum.`,
+    beschreibung: `${anbieterZahl(e.belegt)} weisen ${e.label} mit verlinkter Primärquelle nach. Vollständige Liste mit Status, Quelle und Prüfdatum.`,
     inhalt, rel, pfad: `zertifikate/${e.schluessel}/`, jsonld,
   });
 }
@@ -1548,7 +1530,7 @@ function llmsFull(providers, guides, fragen, stand) {
       "",
       `URL: ${SITE.baseUrl}/anbieter/${p.id}/ | Rohdaten: ${SITE.baseUrl}/anbieter/${p.id}/daten.json`,
       `Kategorie: ${KATEGORIE_LABEL[p.kategorie] || p.kategorie} | Sitz: ${s.sitz || "unbelegt"} (${s.land}) | Gegründet: ${s.gegruendet || "unbelegt"}`,
-      `Rechtsraum: ${li.name}: ${RAUM_TEXT[li.raum]}${li.hinweis ? " " + li.hinweis : ""} [Quelle: ${ADEQUACY_QUELLE}, geprüft ${ADEQUACY_GEPRUEFT}]`,
+      `Rechtsraum: ${li.name}: ${RAUM_TEXT[li.raum]}${rechtsraumHinweis(p) ? " " + rechtsraumHinweis(p) : ""} [Quelle: ${ADEQUACY_QUELLE}, geprüft ${ADEQUACY_GEPRUEFT}${s.dpf && s.dpf.quelle ? `; DPF-Liste: ${s.dpf.quelle}, geprüft ${s.dpf.geprueft}` : ""}]`,
       `Mutterkonzern: ${s.mutterkonzern || "keiner bekannt"} | US-Eigentümerstruktur: ${s.us_eigner === true ? "ja" : s.us_eigner === false ? "nein" : "unbelegt"}`,
       `Beleg-Quote: ${Math.round(belegQuote(p) * 100)} % | vollständig geprüft: ${p.geprueft} | jüngstes Prüfdatum: ${juengstesDatum(p)}`,
       p.kurzbeschreibung ? "" : null,
@@ -1584,7 +1566,7 @@ function llmsFull(providers, guides, fragen, stand) {
 
   return `# belegbar.eu: vollständiger Datenbestand
 
-Stand: ${stand}. ${providers.length} europäische KI-Anbieter, jede Angabe mit Quelle, Prüfdatum und Beleg-Status.
+Stand: ${stand}. ${anbieterZahl(providers)}, jede Angabe mit Quelle, Prüfdatum und Beleg-Status.
 
 ## Wie diese Datei zu lesen ist
 
@@ -1809,7 +1791,8 @@ function main() {
         name: li.name,
         einordnung: li.raum,
         erlaeuterung: RAUM_TEXT[li.raum],
-        hinweis: li.hinweis || null,
+        hinweis: rechtsraumHinweis(p),
+        dpf: p.stammdaten.dpf || null,
         quelle: ADEQUACY_QUELLE,
         geprueft: ADEQUACY_GEPRUEFT,
       },

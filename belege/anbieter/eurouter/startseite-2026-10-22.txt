@@ -1,0 +1,520 @@
+ EUrouter — EU Data Residency for AI 
+ DeepSeek V4.1 Flash 1017, Claude Haiku 5.5 and Mistral Large 4 are now live. Try them now EUrouter Models 
+ Providers 
+ Rankings 
+ Features 
+ Pricing 
+ Docs 
+ Loading authentication actions 
+ EUrouter 
+ The European AI Gateway 
+ Use any AI model.
+Keep your data in Europe.
+ One API to access and intelligently route to all leading AI models, with every request handled safely inside Europe.
+ Get Your API Key Browse 100+ Models 
+ GLM 5.3 Flash
+ GLM 5.3 Flash
+ by Zhipu AI
+ GPT-5.6 Luna
+ GPT-5.6 Luna
+ by OpenAI
+ Mistral Large 3
+ Mistral Large 3
+ by Mistral AI
+ DeepSeek V4 Flash 0731
+ DeepSeek V4 Flash 0731
+ by DeepSeek
+ BGE M3
+ BGE M3
+ by Beijing Academy of AI
+ It's time to stop worrying about your data when using AI.
+ EUrouter makes it easy to integrate any AI model you need, without worrying about data residency and privacy violations. With our smart routing API you are always sure to get the best price, performance or reliability. Whatever your needs are. We guarantee that all your requests are handled safely by the best EU providers, so you are certain your data stays in Europe. 
+ Get Your API Key 
+ Everything you need for safe and compliant AI
+ Built for European AI compliance, from smart routing to real-time observability.
+ Features
+ Smart routing
+ Automatically pick the best model for price, quality or latency.
+ OpenAI compatible
+ Drop-in schema so you can integrate in minutes.
+ Budgets & limits
+ Per-key limits, spend caps and organization controls.
+ Observability
+ Real-time logs, metrics and tracing for every request.
+ Get Your API Key 
+ Best Quality
+ Lowest Latency
+ Cheapest
+ OpenAI
+ GPT-4
+ Anthropic
+ Haiku
+ Mistral
+ Large
+ OpenAI SDK
+ Standard Client Integration
+Compatible
+ Base URL 
+ https://www.eurouter.ai/api/v1 
+ Streaming Support
+ Function Calling
+ JSON Mode
+ Vision
+ API Keys 
+ Active
+ Secret Key
+ sk-eurouter-********************** Copy 
+ Usage This Month €45.00 / €100.00 
+ Requests Today
+ 2,847
+ Avg Latency
+ 142ms
+ live-logs 
+ 200 POST /v1/chat/completions gpt-4 142 ms 
+ 200 POST /v1/chat/completions haiku 89 ms 
+ 429 POST /v1/embeddings text-ems... 12 ms 
+ 200 GET /v1/models - 45 ms 
+ 200 POST /v1/chat/completions claude-3 210 ms 
+ Trace ID: tr_89234902 Real-time
+ One API for all the best AI models.
+ Access leading European AI models and global providers through a single endpoint. Models are the engines that power your applications. We connect you to all of them.
+ Qwen3 Coder Next 80B • 
+ Devstral 2 123B Instruct • 
+ Ministral 3 14B • 
+ Voxtral Small 24B • 
+ Kimi K2.5 • 
+ GPT-4.1 • 
+ Text Embedding 3 Small • 
+ GLM 5.2 Ponytail • 
+ Nemotron 3 Nano Omni • 
+ Faster Whisper Large V3 • 
+ GLM 5.2 Caveman Ultra • 
+ Magistral Medium 1.2 • 
+ Mistral Large 4 • 
+ Text Embedding 3 Large • 
+ GPT-5 Mini • 
+ GPT-5.6 Luna • 
+ MiniMax M2.5 • 
+ GPT-OSS 120B • 
+ GLM 4.7 Flash • 
+ MiniMax M2.1 • 
+ Llama 3.3 70B Instruct • 
+ Cohere Embed Multilingual v3 • 
+ BGE Large EN v1.5 • 
+ GLM 5.2 Caveman Lite • 
+ GLM-OCR • 
+ GLM 5 • 
+ Qwen3.6 35B A3B Instruct • 
+ Text Embedding Ada 002 • 
+ Pixtral Large 25.02 • 
+ Gemma 4 • 
+ GLM 5.2 Caveman • 
+ Qwen3 235B A22B Instruct • 
+ MiniMax M3 • 
+ GreenR • 
+ Kimi K2.6 • 
+ GPT-5.6 Sol • 
+ Qwen3.6 35B • 
+ GPT-4o Mini • 
+ DeepSeek V4.1 Flash • 
+ Mixtral 8x7B Instruct • 
+ Qwen3.5 9B • 
+ Qwen3 Coder 480B A35B Instruct • 
+ DeepSeek V3.1 • 
+ GLM 5.3 • 
+ GPT-OSS 20B • 
+ Cohere Embed v4 • 
+ Magistral Small 1.2 • 
+ GPT-6.1 Sol • 
+ o4-mini • 
+ GLM 5.3 • 
+ DeepSeek V4 Flash 0731 • 
+ GLM 5V Turbo • 
+ Nemotron 3 Nano 30B A3B • 
+ Mistral Medium 3.1 • 
+ Qwen3 32B • 
+ Claude Opus 5 • 
+ GPT-6 Luna • 
+ Mistral Large 3 • 
+ Qwen3.8 2.4T A95B • 
+ Kolibri 1 • 
+ Metis • 
+ GLM 5.2 Ponytail Lite • 
+ GLM 5.2 Honey Lite • 
+ Amazon Titan Embeddings v2 • 
+ Qwen3.8 27B • 
+ Mistral Embed • 
+ Qwen3 30B A3B Instruct • 
+ Clef-Flash • 
+ Mistral Small 4 • 
+ Gemma 3 27B IT • 
+ BGE Multilingual Gemma2 • 
+ Qwen3.5 122B A10B • 
+ KB-Whisper Large • 
+ Qwen3.8 27B • 
+ GPT-4o • 
+ GreenR Raw • 
+ GLM 5 Turbo • 
+ Mistral Small 3.2 24B • 
+ GPT-6 Sol • 
+ Codestral Embed • 
+ Cohere Embed English v3 • 
+ Green Embedding • 
+ Multilingual E5 Large • 
+ Gemma 4 26B A4B • 
+ Klang Pianissimo • 
+ Gemma 4 26B A4B • 
+ Claude Sonnet 5.5 • 
+ Qwen3 VL Reranker 8B • 
+ Claude Haiku 5.5 • 
+ DeepSeek V4 Pro • 
+ GreenL • 
+ BGE Reranker v2 M3 • 
+ Amazon Titan Embeddings G1 - Text • 
+ Qwen3.5 397B A17B • 
+ GPT-5.4 • 
+ Amazon Nova 2 Lite • 
+ GPT-5.6 Terra • 
+ Ministral 3 8B • 
+ GLM 5.1 • 
+ Amazon Nova Lite • 
+ BGE M3 • 
+ Mistral Nemo 12B • 
+ Whisper Large v3 • 
+ GLM 5.3 Flash • 
+ Qwen3.8 Flash Next • 
+ Amazon Titan Multimodal Embeddings • 
+ GPT-4.1 Nano • 
+ Claude Sonnet 4.6 • 
+ GLM 5.2 Honey • 
+ DeepSeek V3.2 • 
+ GPT-5 Nano • 
+ DeepSeek R1 • 
+ Kimi K3 • 
+ Amazon Nova Micro • 
+ GLM 5.2 Ponytail Ultra • 
+ Cohere Rerank 4.0 Pro • 
+ Mistral Large 2402 • 
+ Ministral 3 3B • 
+ o3-mini • 
+ Claude Opus 4.7 • 
+ Paraphrase Multilingual MPNet v2 • 
+ INF Retriever v1 • 
+ GLM 4.7 • 
+ Qwen3 Coder 30B A3B • 
+ Claude Opus 4.5 • 
+ Multilingual E5 Large Instruct • 
+ Apertus 70B Instruct • 
+ Claude Opus 5.5 • 
+ GreenL Raw • 
+ DeepSeek V4 Pro 0813 • 
+ GLM 5.2 • 
+ GPT-4.1 Mini • 
+ Claude Sonnet 4.5 • 
+ Qwen3 Embedding 8B • 
+ Qwen3 VL Embedding 8B • 
+ Mistral Embed • 
+ Mistral 7B Instruct • 
+ Mistral Small 24B Instruct • 
+ Codestral • 
+ Claude Sonnet 5 • 
+ Claude Opus 4.8 • 
+ Nemotron 3 Super 120B A12B • 
+ Whisper Large v3 Turbo • 
+ E5 Mistral 7B Instruct • 
+ Hermes 4 405B • 
+ Claude Opus 4.6 • 
+ Qwen3 Reranker 4B • 
+ Qwen 2.5 VL 72B Instruct • 
+ DeepSeek-OCR 2 • 
+ NB-Whisper Large • 
+ Kimi K2.7 Code • 
+ Claude Haiku 4.5 • 
+ Amazon Nova Pro • 
+ Cohere Rerank 3.5 • 
+ DeepSeek V4.1 Flash 1017 • 
+ All MiniLM L6 v2 • 
+ Mistral Medium 3.5 • 
+ Qwen3 Coder Next 80B • 
+ Devstral 2 123B Instruct • 
+ Ministral 3 14B • 
+ Voxtral Small 24B • 
+ Kimi K2.5 • 
+ GPT-4.1 • 
+ Text Embedding 3 Small • 
+ GLM 5.2 Ponytail • 
+ Nemotron 3 Nano Omni • 
+ Faster Whisper Large V3 • 
+ GLM 5.2 Caveman Ultra • 
+ Magistral Medium 1.2 • 
+ Mistral Large 4 • 
+ Text Embedding 3 Large • 
+ GPT-5 Mini • 
+ GPT-5.6 Luna • 
+ MiniMax M2.5 • 
+ GPT-OSS 120B • 
+ GLM 4.7 Flash • 
+ MiniMax M2.1 • 
+ Llama 3.3 70B Instruct • 
+ Cohere Embed Multilingual v3 • 
+ BGE Large EN v1.5 • 
+ GLM 5.2 Caveman Lite • 
+ GLM-OCR • 
+ GLM 5 • 
+ Qwen3.6 35B A3B Instruct • 
+ Text Embedding Ada 002 • 
+ Pixtral Large 25.02 • 
+ Gemma 4 • 
+ GLM 5.2 Caveman • 
+ Qwen3 235B A22B Instruct • 
+ MiniMax M3 • 
+ GreenR • 
+ Kimi K2.6 • 
+ GPT-5.6 Sol • 
+ Qwen3.6 35B • 
+ GPT-4o Mini • 
+ DeepSeek V4.1 Flash • 
+ Mixtral 8x7B Instruct • 
+ Qwen3.5 9B • 
+ Qwen3 Coder 480B A35B Instruct • 
+ DeepSeek V3.1 • 
+ GLM 5.3 • 
+ GPT-OSS 20B • 
+ Cohere Embed v4 • 
+ Magistral Small 1.2 • 
+ GPT-6.1 Sol • 
+ o4-mini • 
+ GLM 5.3 • 
+ DeepSeek V4 Flash 0731 • 
+ GLM 5V Turbo • 
+ Nemotron 3 Nano 30B A3B • 
+ Mistral Medium 3.1 • 
+ Qwen3 32B • 
+ Claude Opus 5 • 
+ GPT-6 Luna • 
+ Mistral Large 3 • 
+ Qwen3.8 2.4T A95B • 
+ Kolibri 1 • 
+ Metis • 
+ GLM 5.2 Ponytail Lite • 
+ GLM 5.2 Honey Lite • 
+ Amazon Titan Embeddings v2 • 
+ Qwen3.8 27B • 
+ Mistral Embed • 
+ Qwen3 30B A3B Instruct • 
+ Clef-Flash • 
+ Mistral Small 4 • 
+ Gemma 3 27B IT • 
+ BGE Multilingual Gemma2 • 
+ Qwen3.5 122B A10B • 
+ KB-Whisper Large • 
+ Qwen3.8 27B • 
+ GPT-4o • 
+ GreenR Raw • 
+ GLM 5 Turbo • 
+ Mistral Small 3.2 24B • 
+ GPT-6 Sol • 
+ Codestral Embed • 
+ Cohere Embed English v3 • 
+ Green Embedding • 
+ Multilingual E5 Large • 
+ Gemma 4 26B A4B • 
+ Klang Pianissimo • 
+ Gemma 4 26B A4B • 
+ Claude Sonnet 5.5 • 
+ Qwen3 VL Reranker 8B • 
+ Claude Haiku 5.5 • 
+ DeepSeek V4 Pro • 
+ GreenL • 
+ BGE Reranker v2 M3 • 
+ Amazon Titan Embeddings G1 - Text • 
+ Qwen3.5 397B A17B • 
+ GPT-5.4 • 
+ Amazon Nova 2 Lite • 
+ GPT-5.6 Terra • 
+ Ministral 3 8B • 
+ GLM 5.1 • 
+ Amazon Nova Lite • 
+ BGE M3 • 
+ Mistral Nemo 12B • 
+ Whisper Large v3 • 
+ GLM 5.3 Flash • 
+ Qwen3.8 Flash Next • 
+ Amazon Titan Multimodal Embeddings • 
+ GPT-4.1 Nano • 
+ Claude Sonnet 4.6 • 
+ GLM 5.2 Honey • 
+ DeepSeek V3.2 • 
+ GPT-5 Nano • 
+ DeepSeek R1 • 
+ Kimi K3 • 
+ Amazon Nova Micro • 
+ GLM 5.2 Ponytail Ultra • 
+ Cohere Rerank 4.0 Pro • 
+ Mistral Large 2402 • 
+ Ministral 3 3B • 
+ o3-mini • 
+ Claude Opus 4.7 • 
+ Paraphrase Multilingual MPNet v2 • 
+ INF Retriever v1 • 
+ GLM 4.7 • 
+ Qwen3 Coder 30B A3B • 
+ Claude Opus 4.5 • 
+ Multilingual E5 Large Instruct • 
+ Apertus 70B Instruct • 
+ Claude Opus 5.5 • 
+ GreenL Raw • 
+ DeepSeek V4 Pro 0813 • 
+ GLM 5.2 • 
+ GPT-4.1 Mini • 
+ Claude Sonnet 4.5 • 
+ Qwen3 Embedding 8B • 
+ Qwen3 VL Embedding 8B • 
+ Mistral Embed • 
+ Mistral 7B Instruct • 
+ Mistral Small 24B Instruct • 
+ Codestral • 
+ Claude Sonnet 5 • 
+ Claude Opus 4.8 • 
+ Nemotron 3 Super 120B A12B • 
+ Whisper Large v3 Turbo • 
+ E5 Mistral 7B Instruct • 
+ Hermes 4 405B • 
+ Claude Opus 4.6 • 
+ Qwen3 Reranker 4B • 
+ Qwen 2.5 VL 72B Instruct • 
+ DeepSeek-OCR 2 • 
+ NB-Whisper Large • 
+ Kimi K2.7 Code • 
+ Claude Haiku 4.5 • 
+ Amazon Nova Pro • 
+ Cohere Rerank 3.5 • 
+ DeepSeek V4.1 Flash 1017 • 
+ All MiniLM L6 v2 • 
+ Mistral Medium 3.5 • 
+ View All Models Browse Providers 
+ Go live in minutes, not months.
+ Easy to integrate for your developers. A direct YES from your legal team.
+ API Keys 
+ Active
+ Secret Key
+ sk-eurouter-********************** Copy 
+ Usage This Month €45.00 / €100.00 
+ Requests Today
+ 2,847
+ Avg Latency
+ 142ms
+ Before const response = await fetch( 
+ 'https://api.openai.com/v1/chat' , 
+ { ... } 
+ ); 
+ ↓
+ After 
+ const response = await fetch( 
+ 'https://www.eurouter.ai/api/v1/chat' , 
+ { ... } 
+ ); 
+ EU Protected Zone
+ EU Data Perimeter
+ GDPR Ready 
+ Zero Data Retention 
+ EU Servers 
+ Encryption 
+ Compliance: Active Region: EU-West 
+ How it works
+ 01 Get your API key
+ Sign up for an account and get your API key to get access to the best AI models. Set limits and monitor your usage in your dashboard.
+ Get your keys 
+ 02 Integrate in minutes
+ Our API is a drop in replacement for the OpenAI API schema, making it super easy to integrate in your existing codebase.
+ Read the docs 
+ 03 Secure and Compliant
+ That's it. You no longer have to worry about GDPR and sensitive data, while you still can enjoy the latest and greatest AI models.
+ Our commitment 
+ What you get instantly
+ Access to 100+ AI models 
+ GDPR compliance by default 
+ Smart routing for cost & speed 
+ Built-in failover & reliability 
+ Get Your API Key 
+ Why sovereign AI matters
+ European organizations need AI infrastructure they can trust. Here’s why sovereign AI is becoming a business requirement.
+ The EU AI Act demands it
+ The EU AI Act introduces strict requirements for AI systems operating in Europe. Organizations must ensure transparency, accountability, and data governance for any AI they deploy.
+ Data residency is non-negotiable
+ Under the GDPR, personal data processed by AI must stay within the EU/EEA. Routing requests through non-EU infrastructure creates compliance risk, even if the data is encrypted.
+ Reduce vendor lock-in risk
+ Relying on a single non-EU AI provider creates dependency on foreign infrastructure and policy changes. A sovereign AI approach lets you switch providers freely while staying compliant.
+ European AI models are catching up
+ Models from Mistral, Aleph Alpha, and other European AI providers now compete on quality with US alternatives. Sovereign AI no longer means compromising on capability.
+ Integrate AI without GDPR risk.
+ You need AI that won’t create compliance headaches. Your data stays in the EU, GDPR is enforced by default, and every request is routed for the best balance of cost, latency, and uptime, reducing risk while improving performance.
+ Get Your API Key 
+ GDPR by default 
+ EU data residency 
+ Smart routing 
+ Simple, transparent pricing
+ Cheaper than building and maintaining GDPR/privacy compliance in-house, saving you months of engineering and legal time.
+ Free
+ €0 /mo 
+ Pay for what you use 
+ Monthly limit: 10K requests/month
+ Rate limit: 60 RPM
+ 15% markup
+ Get started 
+ Plus
+ €39 /mo 
+ 9% markup + token usage 
+ Monthly limit: 1M requests/month
+ Rate limit: 100 RPM
+ 9% markup
+ Start Plus 
+ Pro
+ €99 /mo 
+ 3% markup + token usage 
+ Monthly limit: 10M requests/month
+ Rate limit: 500 RPM
+ 3% markup
+ Start Pro 
+ Looking for more usage or custom features? Contact us for enterprise plans 
+ Frequently Asked Questions
+ Answers to common questions about EUrouter.
+ Is EUrouter GDPR compliant? 
+ Is your API compatible with OpenAI? 
+ Do you retain my data? 
+ How does routing choose a model? 
+ Do you offer SLAs and enterprise features? 
+ EUrouter 
+ The unified API for European AI models. Route intelligently, comply effortlessly, and scale globally.
+ EUrouter B.V.
+ KVK: 42054357
+ Jacob van Lennepstraat 78H
+ 1053HM Amsterdam
+ Product
+ Models 
+ Providers 
+ Become a Provider 
+ Pricing 
+ Referral Program 
+ Resources
+ Documentation 
+ FAQ 
+ Features
+ Smart Routing 
+ OpenAI Compatible 
+ Monitoring & Observability 
+ Budgets & Limits 
+ Decisions 
+ Integrations
+ All Integrations 
+ OpenAI SDK 
+ LangChain 
+ Vercel AI SDK 
+ Cursor 
+ Company
+ About 
+ Jobs 
+ Contact 
+ © 2026 EUrouter. All rights reserved.
+ Privacy Policy General Terms and Conditions DPA Cookie Statement Cookie Settings Status Page 
+ 

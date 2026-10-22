@@ -1,0 +1,395 @@
+ 
+ Deploy GPT-OSS-120B with Full Chain-of-Thought Reasoning | Gcore Inference 
+ Get DDoS protection now. Start onboarding 
+ Under attack? EN 
+ Log in 
+ Products Overview 
+ Edge Network 
+ AI 
+ Cloud 
+ Security 
+ Edge Network 
+ CDN 
+ Accelerate dynamic and static content delivery 
+ DNS 
+ Keep services reachable with fast & global DNS 
+ Streaming 
+ Stream on-demand and live videos at any scale 
+ Fast Edge 
+ Run serverless apps at the edge with ultra-low latency 
+ Image Optimization 
+ Optimize and compress images automatically 
+ Traffic Gate 
+ Save your origin for the traffic that matters 
+ AI Inference 
+ Train and run AI workloads on NVIDIA GPUs 
+ GPU Cloud 
+ Deploy AI models without managing infrastructure 
+ AI Cloud 
+ Private AI Cloud platform for enterprises 
+ Everywhere AI 
+ Deploy AI models anywhere, securely and efficiently 
+ Gclaw 
+ Run an AI agent without the setup 
+ Compute 
+ Run apps on virtual machines or bare metal 
+ Storage 
+ Store and access data with S3-compatible storage 
+ Containers 
+ Run containerized apps and serverless functions 
+ Databases 
+ Run managed databases without the ops overhead 
+ Cloud Networking 
+ Connect resources with private networks 
+ Hosting 
+ Rent dedicated or virtual servers globally 
+ Colocation 
+ House hardware in reliable facilities 
+ WAF 
+ Protect apps and APIs from attacks and unwanted traffic 
+ DDoS Protection 
+ Shield networks from DDoS and L3/L4 threats 
+ Bot Management 
+ Stop bad bots before they cause damage 
+ API Security 
+ Protect APIs against attacks and unauthorized access 
+ Edge Proxy 
+ Stop DDoS attacks at the edge 
+ Working on a larger project? Talk to Sales 
+ Working on a larger project? Talk to Sales 
+ Working on a larger project? Talk to Sales 
+ Working on a larger project? Talk to Sales 
+ Spotlight 
+ How Microsoft scaled global content delivery 
+ Find out how Microsoft used Gcore to strengthen delivery across regions. 
+ Read the case study 
+ How ProSieben scaled GNTM's app TOPSHOT 
+ Explore how ProSieben brought real-time AI portraits to GNTM's audience. 
+ Read the case study 
+ How Higgsfield scaled AI video generation 
+ See how Gcore helped Higgsfield scale with GPUs and Managed Kubernetes. 
+ Read the case study 
+ How Fawkes Games stopped DDoS attacks 
+ See how Gcore protected gaming servers from massive DDoS threats without disrupting gameplay. 
+ Read the case study 
+ Solutions Overview 
+ By industry By need 
+ By industry 
+ Gaming 
+ Keep lag out of play 
+ Media & Streaming 
+ Stream live and on demand 
+ Ecommerce & Retail 
+ Keep carts moving at peak 
+ ERP Hosting 
+ Keep critical systems running 
+ Fintech 
+ Keep payments & apps reachable 
+ Hosting Providers 
+ Protect every tenant you host 
+ Ecommerce Agencies 
+ Build ecommerce sites that scale 
+ Online Education 
+ Deliver seamless learning online 
+ iGaming 
+ Power every high-stakes moment 
+ Dynamic Web Acceleration 
+ Make pages and apps feel faster 
+ Global Content Delivery 
+ Deliver sites, files & media globally 
+ Multi-CDN Resilience 
+ Route traffic across providers 
+ Live Streaming at Scale 
+ Keep broadcasts smooth at peak 
+ Secure Cloud Computing 
+ Protect cloud workloads 
+ Cloud Migration 
+ Move workloads without disruption 
+ Bot Protection 
+ Control automated traffic 
+ Online Events 
+ Stream events worldwide 
+ Digital Sovereignty 
+ Keep your stack sovereign 
+ Need something specific? Tell us your use case and we'll shape the right setup. Talk to an expert 
+ Need something specific? Tell us your use case and we'll shape the right setup. Talk to an expert 
+ Network 
+ Pricing 
+ Resources Using Gcore 
+ Docs 
+ Browse product docs 
+ API 
+ Automate API endpoints 
+ Developer Tools 
+ Test and debug 
+ Insights 
+ Blog 
+ Read product updates 
+ Case studies 
+ See how we help you win 
+ Reports 
+ See the research 
+ Community 
+ Events 
+ See upcoming events 
+ Startup Program 
+ Grow with Gcore 
+ Discord 
+ Connect with developers 
+ Help 
+ Help center 
+ Find answers fast 
+ Support 
+ Get help 24/7 
+ Changelog 
+ Read what's new 
+ Service Status 
+ Gcore status page 
+ Track uptime, service availability, incidents and maintenances across the Gcore platform and services. 
+ See live status 
+ About Meet Gcore 
+ About us 
+ Who we are and what we stand for 
+ Contact Us 
+ Find the right team to help 
+ Press 
+ Press 
+ Read latest news about Gcore 
+ Awards 
+ Recognition behind our work 
+ Inside Gcore 
+ Careers 
+ Explore open roles at Gcore 
+ Open positions 
+ Explore our job vacancies 
+ We're hiring 
+ Help build the next chapter of the web 
+ We're not just filling seats. We're building a team that will write the next chapter of the internet. 
+ Find your next career 
+ Contact us 
+ Sign up for free 
+ Products Edge Network 
+ CDN 
+ Accelerate dynamic and static content delivery 
+ DNS 
+ Keep services reachable with fast & global DNS 
+ Streaming 
+ Stream on-demand and live videos at any scale 
+ Fast Edge 
+ Run serverless apps at the edge with ultra-low latency 
+ Image Optimization 
+ Optimize and compress images automatically 
+ Traffic Gate 
+ Save your origin for the traffic that matters 
+ AI 
+ AI Inference 
+ Train and run AI workloads on NVIDIA GPUs 
+ GPU Cloud 
+ Deploy AI models without managing infrastructure 
+ AI Cloud 
+ Private AI Cloud platform for enterprises 
+ Everywhere AI 
+ Deploy AI models anywhere, securely and efficiently 
+ Gclaw 
+ Run an AI agent without the setup 
+ Cloud 
+ Compute 
+ Run apps on virtual machines or bare metal 
+ Storage 
+ Store and access data with S3-compatible storage 
+ Containers 
+ Run containerized apps and serverless functions 
+ Databases 
+ Run managed databases without the ops overhead 
+ Cloud Networking 
+ Connect resources with private networks 
+ Hosting 
+ Rent dedicated or virtual servers globally 
+ Colocation 
+ House hardware in reliable facilities 
+ Security 
+ WAF 
+ Protect apps and APIs from attacks and unwanted traffic 
+ DDoS Protection 
+ Shield networks from DDoS and L3/L4 threats 
+ Bot Management 
+ Stop bad bots before they cause damage 
+ API Security 
+ Protect APIs against attacks and unauthorized access 
+ Edge Proxy 
+ Stop DDoS attacks at the edge 
+ Solutions By industry 
+ Gaming 
+ Keep lag out of play 
+ Media & Streaming 
+ Stream live and on demand 
+ Ecommerce & Retail 
+ Keep carts moving at peak 
+ ERP Hosting 
+ Keep critical systems running 
+ Fintech 
+ Keep payments & apps reachable 
+ Hosting Providers 
+ Protect every tenant you host 
+ Ecommerce Agencies 
+ Build ecommerce sites that scale 
+ Online Education 
+ Deliver seamless learning online 
+ iGaming 
+ Power every high-stakes moment 
+ By need 
+ Dynamic Web Acceleration 
+ Make pages and apps feel faster 
+ Global Content Delivery 
+ Deliver sites, files & media globally 
+ Multi-CDN Resilience 
+ Route traffic across providers 
+ Live Streaming at Scale 
+ Keep broadcasts smooth at peak 
+ Secure Cloud Computing 
+ Protect cloud workloads 
+ Cloud Migration 
+ Move workloads without disruption 
+ Bot Protection 
+ Control automated traffic 
+ Online Events 
+ Stream events worldwide 
+ Digital Sovereignty 
+ Keep your stack sovereign 
+ Network 
+ Pricing 
+ Resources Using Gcore 
+ Docs 
+ Browse product docs 
+ API 
+ Automate API endpoints 
+ Developer Tools 
+ Test and debug 
+ Insights 
+ Blog 
+ Read product updates 
+ Case studies 
+ See how we help you win 
+ Reports 
+ See the research 
+ Community 
+ Events 
+ See upcoming events 
+ Startup Program 
+ Grow with Gcore 
+ Discord 
+ Connect with developers 
+ Help 
+ Help center 
+ Find answers fast 
+ Support 
+ Get help 24/7 
+ Changelog 
+ Read what's new 
+ About Meet Gcore 
+ About us 
+ Who we are and what we stand for 
+ Contact Us 
+ Find the right team to help 
+ Press 
+ Press 
+ Read latest news about Gcore 
+ Awards 
+ Recognition behind our work 
+ Inside Gcore 
+ Careers 
+ Explore open roles at Gcore 
+ Open positions 
+ Explore our job vacancies 
+ Log in 
+ Contact us 
+ Sign up for free 
+ Deploy GPT-OSS-120B with full chain-of-thought reasoning
+ Run the production-ready 117B parameter model with configurable inference effort and agentic tools. Get fixed monthly pricing, complete data privacy, and unlimited usage on single H100 GPUs.
+ Deploy now 
+ Why GPT-OSS-120B transforms AI reasoning
+ Full chain-of-thought transparency 
+ Access complete reasoning processes with configurable effort levels (low, medium, high). Debug AI decisions and build trust with transparent thought chains.
+ Production-ready efficiency 
+ 117B parameters with only 5.1B active, optimized with MXFP4 quantization to fit on single H100 GPU. Scale without infrastructure complexity.
+ Apache 2.0 commercial freedom 
+ Build freely without copyleft restrictions or patent risks. Fine-tune for specific use cases and deploy commercially without licensing constraints.
+ Built for enterprise AI applications
+ GPT-OSS-120B on Inference delivers production capabilities with the control and transparency you need for mission-critical applications. 
+ Configurable reasoning effort 
+ Adjust inference effort based on task complexity. Get faster responses for simple queries or deep reasoning for complex problems.
+ Native agentic tools 
+ Built-in function calling, web browsing, Python execution, and structured outputs for advanced AI agent workflows.
+ MXFP4 quantization 
+ Native optimization lets the 120B model run efficiently on single H100 GPUs with minimal memory overhead and maintained performance.
+ Fine-tuning ready 
+ Customize the model for your specific domain and use cases. Maintain full ownership of your fine-tuned models and training data.
+ Complete data privacy 
+ Your data never leaves our secure infrastructure. Perfect for regulated industries requiring HIPAA compliance and data sovereignty.
+ Global GPU deployment 
+ Deploy across 210+ points of presence worldwide with smart routing to the nearest H100 GPU for optimal performance.
+ Industries ready for transparent AI reasoning
+ Healthcare AI 
+ Diagnostic and treatment reasoning 
+ Deploy medical AI with full chain-of-thought transparency for diagnosis support, treatment recommendations, and patient interaction. Meet HIPAA requirements while maintaining explainable AI decisions. 
+ Financial analysis 
+ Risk assessment and trading decisions 
+ Build trading algorithms and risk models with transparent reasoning processes. Understand AI decision-making for regulatory compliance and strategy optimization. 
+ Legal research 
+ Case analysis and document review 
+ Process legal documents with explainable AI reasoning. Maintain attorney-client privilege while leveraging advanced reasoning for case research and contract analysis. 
+ Research & development 
+ Scientific discovery and analysis 
+ Accelerate research with AI that shows its reasoning process. Fine-tune for specific scientific domains while maintaining transparency in hypothesis generation. 
+ How GPT-OSS-120B deployment works
+ Production-ready AI infrastructure with transparent reasoning capabilities 
+ 01 
+ Select your configuration 
+ Choose inference effort levels and deployment options. Configure chain-of-thought transparency and agentic tools based on your use case requirements. 
+ 02 
+ Deploy on H100 infrastructure 
+ Launch your private GPT-OSS-120B instance with MXFP4 optimization across our global network. Smart routing ensures optimal performance and compliance. 
+ 03 
+ Scale with unlimited usage 
+ Use your model with configurable reasoning effort at fixed monthly cost. Access full chain-of-thought processes without per-call limitations. 
+ With Inference, you get enterprise-grade infrastructure management while maintaining complete control over your AI deployment and reasoning transparency.
+ Ready-to-deploy reasoning solutions
+ Chain-of-thought research assistant 
+ Deploy transparent AI reasoning for scientific research, analysis, and hypothesis generation with full thought process visibility.
+ Explainable financial analysis 
+ Build transparent trading and risk assessment tools that show complete decision-making processes for regulatory compliance.
+ Transparent healthcare AI 
+ Deploy diagnostic support tools with full reasoning transparency, meeting medical AI explainability requirements.
+ Frequently asked questions
+ What makes GPT-OSS-120B different from other reasoning models?
+ GPT-OSS-120B provides full chain-of-thought transparency with configurable inference effort levels. Unlike proprietary models, you get complete access to reasoning processes, Apache 2.0 licensing, and the ability to fine-tune for your specific use cases.
+ How does the configurable inference effort work?
+ You can adjust reasoning effort from low (fast responses) to high (deep reasoning) based on task complexity. This lets you optimize for speed on simple tasks while getting thorough analysis for complex problems, all with visible thought processes.
+ What are the hardware requirements for the 117B parameter model?
+ The model runs efficiently on a single H100 GPU thanks to native MXFP4 quantization with only 5.1B active parameters. We handle all infrastructure management, so you don't need to worry about hardware procurement or optimization.
+ Can I fine-tune GPT-OSS-120B for my specific domain?
+ Yes, the Apache 2.0 license allows complete fine-tuning freedom. You can customize the model for your specific use cases, domain knowledge, and reasoning patterns while maintaining full ownership of your fine-tuned models.
+ How does pricing work compared to API-based reasoning models?
+ Instead of paying per reasoning step or API call, you rent GPU capacity at a fixed monthly rate. This eliminates usage-based billing surprises and can be significantly more cost-effective for applications requiring extensive reasoning.
+ Deploy GPT-OSS-120B with transparent reasoning today
+ Get started with production-ready AI that shows its thinking. Fixed pricing, unlimited usage, and complete chain-of-thought transparency.
+ Start deployment 
+ Products 
+ AI Cloud Network Security Colocation Pricing Technical Support 
+ Resources 
+ Blog Case Studies Resource Library Events Startups Program 
+ Documentation 
+ Docs API Product Roadmap Help Center Gcore Status 
+ Platform 
+ Network Infrastructure Internet Peering Points Compliance 
+ Company 
+ About Gcore Press Awards Careers Legal Information Discord 
+ Partners 
+ White Label Solutions 
+ Contact us 
+ sales@gcore.com support@gcore.com info@gcore.com +352 208 80 507 
+ EN 
+ ©2026 Gcore. All rights reserved. Terms of Service 
+ Privacy Policy 
+ Report Abuse 
+ 

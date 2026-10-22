@@ -1,0 +1,557 @@
+ 
+ Legal Information on Gcore Services 
+ Get DDoS protection now. Start onboarding 
+ Under attack? EN 
+ Log in 
+ Products Overview 
+ Edge Network 
+ AI 
+ Cloud 
+ Security 
+ Edge Network 
+ CDN 
+ Accelerate dynamic and static content delivery 
+ DNS 
+ Keep services reachable with fast & global DNS 
+ Streaming 
+ Stream on-demand and live videos at any scale 
+ Fast Edge 
+ Run serverless apps at the edge with ultra-low latency 
+ Image Optimization 
+ Optimize and compress images automatically 
+ Traffic Gate 
+ Save your origin for the traffic that matters 
+ AI Inference 
+ Train and run AI workloads on NVIDIA GPUs 
+ GPU Cloud 
+ Deploy AI models without managing infrastructure 
+ AI Cloud 
+ Private AI Cloud platform for enterprises 
+ Everywhere AI 
+ Deploy AI models anywhere, securely and efficiently 
+ Gclaw 
+ Run an AI agent without the setup 
+ Compute 
+ Run apps on virtual machines or bare metal 
+ Storage 
+ Store and access data with S3-compatible storage 
+ Containers 
+ Run containerized apps and serverless functions 
+ Databases 
+ Run managed databases without the ops overhead 
+ Cloud Networking 
+ Connect resources with private networks 
+ Hosting 
+ Rent dedicated or virtual servers globally 
+ Colocation 
+ House hardware in reliable facilities 
+ WAF 
+ Protect apps and APIs from attacks and unwanted traffic 
+ DDoS Protection 
+ Shield networks from DDoS and L3/L4 threats 
+ Bot Management 
+ Stop bad bots before they cause damage 
+ API Security 
+ Protect APIs against attacks and unauthorized access 
+ Edge Proxy 
+ Stop DDoS attacks at the edge 
+ Working on a larger project? Talk to Sales 
+ Working on a larger project? Talk to Sales 
+ Working on a larger project? Talk to Sales 
+ Working on a larger project? Talk to Sales 
+ Spotlight 
+ How Microsoft scaled global content delivery 
+ Find out how Microsoft used Gcore to strengthen delivery across regions. 
+ Read the case study 
+ How ProSieben scaled GNTM's app TOPSHOT 
+ Explore how ProSieben brought real-time AI portraits to GNTM's audience. 
+ Read the case study 
+ How Higgsfield scaled AI video generation 
+ See how Gcore helped Higgsfield scale with GPUs and Managed Kubernetes. 
+ Read the case study 
+ How Fawkes Games stopped DDoS attacks 
+ See how Gcore protected gaming servers from massive DDoS threats without disrupting gameplay. 
+ Read the case study 
+ Solutions Overview 
+ By industry By need 
+ By industry 
+ Gaming 
+ Keep lag out of play 
+ Media & Streaming 
+ Stream live and on demand 
+ Ecommerce & Retail 
+ Keep carts moving at peak 
+ ERP Hosting 
+ Keep critical systems running 
+ Fintech 
+ Keep payments & apps reachable 
+ Hosting Providers 
+ Protect every tenant you host 
+ Ecommerce Agencies 
+ Build ecommerce sites that scale 
+ Online Education 
+ Deliver seamless learning online 
+ iGaming 
+ Power every high-stakes moment 
+ Dynamic Web Acceleration 
+ Make pages and apps feel faster 
+ Global Content Delivery 
+ Deliver sites, files & media globally 
+ Multi-CDN Resilience 
+ Route traffic across providers 
+ Live Streaming at Scale 
+ Keep broadcasts smooth at peak 
+ Secure Cloud Computing 
+ Protect cloud workloads 
+ Cloud Migration 
+ Move workloads without disruption 
+ Bot Protection 
+ Control automated traffic 
+ Online Events 
+ Stream events worldwide 
+ Digital Sovereignty 
+ Keep your stack sovereign 
+ Need something specific? Tell us your use case and we'll shape the right setup. Talk to an expert 
+ Need something specific? Tell us your use case and we'll shape the right setup. Talk to an expert 
+ Network 
+ Pricing 
+ Resources Using Gcore 
+ Docs 
+ Browse product docs 
+ API 
+ Automate API endpoints 
+ Developer Tools 
+ Test and debug 
+ Insights 
+ Blog 
+ Read product updates 
+ Case studies 
+ See how we help you win 
+ Reports 
+ See the research 
+ Community 
+ Events 
+ See upcoming events 
+ Startup Program 
+ Grow with Gcore 
+ Discord 
+ Connect with developers 
+ Help 
+ Help center 
+ Find answers fast 
+ Support 
+ Get help 24/7 
+ Changelog 
+ Read what's new 
+ Service Status 
+ Gcore status page 
+ Track uptime, service availability, incidents and maintenances across the Gcore platform and services. 
+ See live status 
+ About Meet Gcore 
+ About us 
+ Who we are and what we stand for 
+ Contact Us 
+ Find the right team to help 
+ Press 
+ Press 
+ Read latest news about Gcore 
+ Awards 
+ Recognition behind our work 
+ Inside Gcore 
+ Careers 
+ Explore open roles at Gcore 
+ Open positions 
+ Explore our job vacancies 
+ We're hiring 
+ Help build the next chapter of the web 
+ We're not just filling seats. We're building a team that will write the next chapter of the internet. 
+ Find your next career 
+ Contact us 
+ Sign up for free 
+ Products Edge Network 
+ CDN 
+ Accelerate dynamic and static content delivery 
+ DNS 
+ Keep services reachable with fast & global DNS 
+ Streaming 
+ Stream on-demand and live videos at any scale 
+ Fast Edge 
+ Run serverless apps at the edge with ultra-low latency 
+ Image Optimization 
+ Optimize and compress images automatically 
+ Traffic Gate 
+ Save your origin for the traffic that matters 
+ AI 
+ AI Inference 
+ Train and run AI workloads on NVIDIA GPUs 
+ GPU Cloud 
+ Deploy AI models without managing infrastructure 
+ AI Cloud 
+ Private AI Cloud platform for enterprises 
+ Everywhere AI 
+ Deploy AI models anywhere, securely and efficiently 
+ Gclaw 
+ Run an AI agent without the setup 
+ Cloud 
+ Compute 
+ Run apps on virtual machines or bare metal 
+ Storage 
+ Store and access data with S3-compatible storage 
+ Containers 
+ Run containerized apps and serverless functions 
+ Databases 
+ Run managed databases without the ops overhead 
+ Cloud Networking 
+ Connect resources with private networks 
+ Hosting 
+ Rent dedicated or virtual servers globally 
+ Colocation 
+ House hardware in reliable facilities 
+ Security 
+ WAF 
+ Protect apps and APIs from attacks and unwanted traffic 
+ DDoS Protection 
+ Shield networks from DDoS and L3/L4 threats 
+ Bot Management 
+ Stop bad bots before they cause damage 
+ API Security 
+ Protect APIs against attacks and unauthorized access 
+ Edge Proxy 
+ Stop DDoS attacks at the edge 
+ Solutions By industry 
+ Gaming 
+ Keep lag out of play 
+ Media & Streaming 
+ Stream live and on demand 
+ Ecommerce & Retail 
+ Keep carts moving at peak 
+ ERP Hosting 
+ Keep critical systems running 
+ Fintech 
+ Keep payments & apps reachable 
+ Hosting Providers 
+ Protect every tenant you host 
+ Ecommerce Agencies 
+ Build ecommerce sites that scale 
+ Online Education 
+ Deliver seamless learning online 
+ iGaming 
+ Power every high-stakes moment 
+ By need 
+ Dynamic Web Acceleration 
+ Make pages and apps feel faster 
+ Global Content Delivery 
+ Deliver sites, files & media globally 
+ Multi-CDN Resilience 
+ Route traffic across providers 
+ Live Streaming at Scale 
+ Keep broadcasts smooth at peak 
+ Secure Cloud Computing 
+ Protect cloud workloads 
+ Cloud Migration 
+ Move workloads without disruption 
+ Bot Protection 
+ Control automated traffic 
+ Online Events 
+ Stream events worldwide 
+ Digital Sovereignty 
+ Keep your stack sovereign 
+ Network 
+ Pricing 
+ Resources Using Gcore 
+ Docs 
+ Browse product docs 
+ API 
+ Automate API endpoints 
+ Developer Tools 
+ Test and debug 
+ Insights 
+ Blog 
+ Read product updates 
+ Case studies 
+ See how we help you win 
+ Reports 
+ See the research 
+ Community 
+ Events 
+ See upcoming events 
+ Startup Program 
+ Grow with Gcore 
+ Discord 
+ Connect with developers 
+ Help 
+ Help center 
+ Find answers fast 
+ Support 
+ Get help 24/7 
+ Changelog 
+ Read what's new 
+ About Meet Gcore 
+ About us 
+ Who we are and what we stand for 
+ Contact Us 
+ Find the right team to help 
+ Press 
+ Press 
+ Read latest news about Gcore 
+ Awards 
+ Recognition behind our work 
+ Inside Gcore 
+ Careers 
+ Explore open roles at Gcore 
+ Open positions 
+ Explore our job vacancies 
+ Log in 
+ Contact us 
+ Sign up for free 
+ Legal information
+ Master Services Agreement Master Services Agreement 
+ Data Processing Agreement 
+ Services Specifications 
+ Service Level Agreements 
+ Acceptable Use Policy 
+ Privacy Policy 
+ Privacy Notice for California Residents 
+ Copyright Policy 
+ Cookie Policy 
+ Service Abuse Policy 
+ Online Payment, Return & Refund Policy 
+ Recruitment privacy notice 
+ Reseller Terms 
+ Transparency Report / DSA 
+ Data Act Addendum 
+ Gcore Licence Agreement 
+ Master Services Agreement
+ Last updated: June 17, 2026
+YOU MUST CAREFULLY READ THIS DOCUMENT BEFORE SIGNING, EXECUTING OR OTHERWISE PLACING YOUR ORDER FOR GCORE SERVICES. BY ORDERING OUR SERVICES YOU AGREE TO BE BOUND BY THE LATEST AMENDED VERSION OF THIS AGREEMENT.
+This Master Services Agreement (“ Agreement ” or “ MSA ”) is entered into between G-Core Labs S.A. , incorporated under laws of Luxembourg, established and having its registered office at 2-4, rue Edmond Reuter, L-5326 Contern, Luxembourg (hereinafter referred to as “ Gcore ”), and you, the “ Customer ”,who placed the Service Order or executed a similar document with reference to this Agreement (hereinafter referred to as “Customer” ). Gcore and Customer are hereinafter referred to individually as a “ Party ”, or collectively as the “ Parties ”.
+ 1. DEFINITIONS 
+“ Acceptable Use Policy ” (AUP) means the acceptable use policy currently available at https://gcore.com/legal/, as it may be updated by Gсore from time to time.
+“ Accepted ” or “ Acceptance ” means a Party’s authorized execution and acceptance of a document.
+ “Actual Service Start Date” has the meaning given to it in section 2.1a.
+“ Affiliate ” means an entity directly or indirectly Controlled by, Controlling or under common Control with a Party, now or in the future.
+“ Change of Control ” means one or more transactions whereby: (i) Control of a Party is transferred, directly or indirectly, whether by operation of law or otherwise; (ii) all or substantially all of such Party’s assets or equity securities are acquired by a person, firm or entity; or (iii) such Party is merged or consolidated with or into another entity; provided, that, in any case, such Party’s equity owners of record immediately before such transaction(s) will, immediately after such transaction(s), hold less than 50% of the voting power of the succeeding, acquiring or surviving entity.
+“ Control ” means ownership of more than 50% of the equity or other voting interests of an entity, or possession of management and operational control over such entity, and “Controlled by”, “Controlling” and “under common Control” shall be construed accordingly.
+“ Consumer ” means a natural person, who is acting for purposes which are outside business or trade.
+“ Copyright Policy ” is a policy currently available at https://gcore.com/legal/ , as it may be updated by Gсore from time to time.
+“ Customer Content ” means content, software, data, video or information of Customer or End Users, including third-party content, software, data and equipment, provided or made available to Gcore for storage, delivery or otherwise in connection with Services.
+“ Customer Data ” includes all data that identifies Customer, or their respective End Users. Customer Data may include Customer name, employee contact information, End User Data, data necessary for account establishment, billing data or content transmission data when such data identifies Customer.
+“ Days ” means calendar days unless otherwise indicated.
+“ Defects ” means material failure or deficiency where Services do not meet the requirements of Service Order or any other documents referenced herein.
+ “Downtime” means complete unavailability of Services or as otherwise may be defined in the applicable SLA, excluding any downtime caused by Scheduled Maintenance or other agreed exclusions.
+“ Effective Date ” means a date when this Agreement enters into legal force.
+“ End User ” means a subscriber, member, user, customer or other visitor of an online site or service owned or operated by Customer.
+“ End User Data ” includes the End User name, address, contact information, usage, billing or any other data that personally identifies End Users of the Services.
+“ Fees ” mean fees and charges associated with Services to be performed as set out in Service Orders, or otherwise under this Agreement.
+“ Free Service Period ” means the free service period defined in section 2.11.
+“ Initial Subscription Term ” means a fixed period of twelve (12) months, unless stated otherwise in a Service Order.
+“ Intellectual Property Rights ” means all patents, copyrights, trade secrets, trademarks and trade names, goodwill and marketing rights related thereto, works of authorship, inventions, discoveries, improvements, enhancements, methods, processes, formulas, designs, techniques, derivative works, know-how, all other intellectual property or proprietary rights (registered or not) and equivalents or similar forms of protection existing worldwide, and all applications for and registrations in such rights.
+“ MSA ” or “ Agreement ” means this master services agreement concluded between Gcore and Customer including its Exhibits and all documents referred to therein.
+ “MRC” means all monthly recurring charges.
+“ Privacy Policy ” means Gcore’s privacy policy currently available at https://gcore.com/legal/, as it may be updated by Gcore from time to time.
+“ Quotation ” means a non-binding proposal communicated to Customer, specifying Services to be performed and the associated Fees.
+“ Renewal Term ” means each renewal term defined in section 15.1.
+“ Scheduled Maintenance ” means that Gcore or any of its subcontractors will from time to time carry out routine maintenance or improvements to the network, software, facilities, servers, network equipment or other technical equipment required for the provision of the Services.
+“ Service Credit ” means a credit for a Downtime, as specified in a SLA.
+“ Service Order ” means an online or offline order for Services, which may include service specification, price, quantity and commitment for such Services.
+“ Service Start Date ” means the indicative service start date set forth in the applicable Service Order, subject to section 2.1a.
+“ Service Level Agreement ” or “ SLA ” means all service level agreements that we offer with respect to the Services, currently available at https://gcore.com/ , as may be updated by Gcore from time to time.
+“ Services ” means all of the Gcore services as set forth in any applicable Service Order (or as otherwise agreed by the Parties) that Gcore provides to Customer pursuant to this Agreement.
+“ Services Specification ” means the rights, limitations, restrictions and other service-specific details for particular Services, currently available at https://gcore.com/ , as may be updated by Gсore from time to time.
+“ Subscription Term ” means the Initial Subscription Term or the Renewal Term.
+“ Suspension ” means Gcore’s right to withdraw, revoke or otherwise suspend Services or GPU capacity that have been made available to the Customer, subject to the terms and conditions of this Agreement and the applicable Service Order.
+“ Taxes ” means any applicable foreign or domestic taxes, tax-like charges, tax-related charges and other charges or surcharges assessed in connection with Services, including all excise, use, sales, value-added and other fees, surcharges and levies.
+ “Term” means a period of time during which the Agreement remains in legal effect.
+ "Third Party Products" means products (including applications, operating systems, other software, or hardware) developed and owned by a third party and made accessible to the Customer through Gcore, or that the Customer has directly or indirectly obtained from such third party in connection with the Services.
+ "Website" means https://gcore.com/ or other websites, portals and similar web resources operated by Gcore for the purpose of performing Services or managing Customers’ accounts.
+ 2. Services
+2.1 Gcore will provide Services to Customer as specified in a Service Order, subject to the terms and conditions of this Agreement. A Quotation issued by Gcore is for information purposes only and does not constitute a binding offer. The Customer’s approval of a Quotation does not create any contractual obligation. A binding contract is formed only when the applicable Service Order is executed by both Parties or, where applicable, when the Customer orders Services through its account on the Website and such order is accepted by Gcore. 
+Gcore is not obliged to provide any Services until a Service Order has been duly executed by both Parties or the relevant online order has been accepted by Gcore. Notwithstanding the foregoing, if the Customer begins using the Services prior to the Service Start Date specified in a Service Order, such use will be governed by the terms of this Agreement.
+Gcore provides a variety of pricing options tailored to the nature of the Service, including but not limited to monthly or yearly fixed rates, and pay-as-you-go (usage-based) pricing. These pricing structures may be associated with commitments to specific durations of use or particular billing methods. Pay-as-you-go services are charged based on actual usage of units of time, traffic, bandwidth or other resources.
+Various tariff models may apply depending on the Service selected by the Customer and the applicable Service Order: (i) pay-as-you-go tariff: this model involves no volume or usage commitments by either Gcore or the Customer, unless agreed otherwise. Charges are incurred based on actual usage of the Service. While Gcore agrees not to reclaim or interrupt Services that are actively in use by the Customer under this model, unless otherwise provided in the MSA, capacity is provided on an as-available basis and is not guaranteed upon request. Services under this model continue to operate until terminated by the Customer (e.g., by deletion of the instance) or by Gcore in accordance with the termination provisions set forth in this MSA and are not subject to a fixed term; (ii) spot tariff: under this model, no capacity or usage is reserved or guaranteed. The Customer pays only for the Services consumed. Gcore retains the right to reclaim or interrupt Services provided under the spot tariff, including Services that are actively in use, upon giving twenty-four (24) hours’ prior notice; (iii) subscription tariff: under this model, Gcore commits to making a specified level of capacity or resources available to the Customer for the Subscription Term, as specified in the applicable Service Order. The Customer agrees to pay 100% of the Fees for the reserved capacity through MRCs or other agreed Fees, if the Customer’s actual usage is equal to or lower than the committed amount during the Subscription Term. Any usage exceeding the committed capacity shall be charged additionally on a pay-as-you-go basis at the applicable rates, unless otherwise agreed in the applicable Service Order.
+Unless expressly specified otherwise in the applicable Service Order, the Services shall, by default, be provided under the subscription tariff model set out above. Alternative tariff models shall apply only where expressly agreed in the relevant Service Order. Each tariff model may be subject to additional terms and conditions as set out in the relevant Service Order or the MSA. Gcore may use similar or equivalent naming conventions to describe the tariff models above (e.g., variations of “pay-as-you-go”, “spot” or “subscription”), and any such designations shall be deemed to refer to, and be governed by, the corresponding models described herein.
+Services shall commence on the Actual Service Start Date as defined in section 2.1a. Services shall continue for the duration of the applicable Subscription Term, expiring at 23:59 Luxembourg local time on the final day thereof. Where the applicable Subscription Term is one month, the expiry date shall fall on the day immediately preceding the numerically corresponding date in the following month, or where no such corresponding date exists, on the last day of that following month.
+2.1a The Service Start Date specified in the applicable Service Order is indicative only, unless expressly stated as binding. The actual commencement of the Services ( "Actual Service Start Date" ) shall occur upon Gcore's written confirmation that the Services are ready for delivery, such confirmation to be issued upon the satisfaction of the relevant technical, operational, and third-party dependencies, including but not limited to availability of infrastructure, subcontractors, suppliers, or connectivity.
+Gcore shall be entitled to reasonably postpone the Service Start Date where such dependencies are not met or are delayed. In such event, Gcore shall notify the Customer in writing within seven (7) Days of becoming aware of the dependency issue, providing a good-faith estimate of the anticipated Actual Service Start Date. Any such postponement shall not constitute a breach of the Agreement or the relevant Service Order, provided that Gcore uses all reasonable efforts to commence the Services as soon as practicable.
+If the Actual Service Start Date has not occurred within forty-five (45) Days after the Service Start Date originally specified in the Service Order (the "Long-Stop Date" ), the Customer may, by written notice to Gcore, terminate the affected Service Order without liability to either party, and for the avoidance of doubt, no Early Termination Fee pursuant to section 15.8 shall be payable in connection with such termination. Such termination shall be without prejudice to any Fees already paid or accrued in respect of Services actually delivered prior to termination.
+The Parties agree that the Service Start Date is not an essential element ( condition essentielle ) of the Agreement, and any adjustment thereto shall not affect the validity or enforceability of the Agreement or the applicable Service Order.
+2.2 Customer acknowledges that Gcore (i) does not own or control all local circuit links, leased co-location spaces, leased space cross-connects, Internet service providers (ISP) and networks providing connectivity to Gcore, and except as set forth in the SLA, Gcore will not be responsible for performance or non-performance affected by operations within such locations, networks or interconnection points outside Gcore’s control, (ii) is a mere intermediary (i.e. a mere conduit within the meaning of Article 12 of Directive 2000/31/EC on electronic commerce, as retained by Articles 4 and 5 of Regulation (EU) 2022/2065 (Digital Services Act), and as implemented under Article 60 of the Luxembourg Act of 14 August 2000 on electronic commerce, or under any equivalent or successor provisions) for transmission of Customer Content and does not exercise editorial or other control over such materials and (iii) will not be responsible for, and expressly disclaims any liability arising from Customer Content or other data accessible on the Internet or for any actions when Customer or End Users use Customer Content on the Internet.
+2.3 Gcore is permitted to use the services of one or more Affiliates, suppliers or subcontractors in connection with the performance of its obligations under this Agreement, and Customer’s obligations to Gcore extend to those parties when acting on Gcore’s behalf.
+2.4 To be eligible for a Service Credit, Customer must be in good standing with no unpaid invoices, and Service Credits will only be payable under the circumstances set out in the SLA.
+2.5 Given the nature of the Services, Customer, and not Gcore, is solely responsible for (i) all bandwidth abuse, theft or other unauthorized usage or activity occurring on Customer’s account (e.g., leeching or hotlinking/direct linking to content); (ii) payment of all Fees and costs; (iii) implementing any monitoring, defensive or protective tools or measures (whether offered by Gcore or a third party) related to the Customer’s account, including maintaining a backup of Customer Data and Customer Content; and (iv) regularly monitoring all usage of bandwidth and Services and other activity on Customer’s account. Gcore makes available to Customer, through the Gcore reporting tools, data regarding Customer’s billable usage of bandwidth or Services. However, Gcore is not responsible for notifying Customer of usage or activity patterns occurring on the Customer’s account.
+2.6 Gcore may modify the configuration of the Services, provided such modifications are necessary due to technical, economic or regulatory developments or to maintain the quality standard of Services and such modification will not affect the essential characteristic features of Services ordered. In such event, Gcore shall use commercially reasonable efforts to notify Customer prior to any such modification becoming effective. Customer’s continued use of Services following the modification will constitute Customer’s acceptance of the modification.
+2.7 Scheduled Maintenance may cause interruptions to the Services in part or as a whole without incurring liability on the part of Gcore, or entitlement of Customer to any Service Credits.
+2.8 Gcore may carry out Scheduled Maintenance which is unlikely to substantially affect the Services at its own discretion and without notice. Insofar as Scheduled Maintenance is likely to cause interruptions to the Services in part or as a whole or any substantial problems for the Customer, Gcore will notify Customer at least seven (7) Days in advance or with as much advance notice as reasonably possible in the event that Gcore receives a maintenance notification from an underlying provider. The notification will include time and date, duration and description of any such work. Notwithstanding the foregoing, if Gcore reasonably believes that timely providing such notice would result in an unacceptable risk of a defect, damage or loss of integrity to Gcore’s network or equipment, Gcore may perform such work and may serve notice to Customer of the need to perform emergency maintenance on the network or equipment with a reasonable notice period, given the circumstances.
+2.9 For certain Services specifically identified as such, Gcore will charge the Customer for the full month of such service, regardless of the duration of the Customer’s use of such Services, beginning from the start of the calendar month in which such a Service is activated.
+2.10 For the purposes of this Agreement, one Kbps is equal to 1,000 bits; one Mbps is equal to 1,000 Kbps; one Gbps is equal to 1,000 Mbps etc; one KB is equal to 1,000 bytes; one MB is equal to 1,000 KB; one GB is equal to 1,000 MB; one TB is equal to 1,000 GB; one PB is equal to 1,000 TB etc.
+2.11 Gcore may offer trial versions of the Services free of charge for a specified time period (“Free Service Period”). Please note that the Free Service Period shall be applied independently from any other free trials or free tariffs which may be offered by Gcore. The Free Service Period will expire at the earlier of: (i) the end of the Free Service Period; (ii) the start date of Initial Subscription Term; (iii) termination of the Agreement or suspension of Services; or (iv) termination of the Free Service Period by Gcore in its sole discretion. For the avoidance of doubt, any Free Service Period shall not extend Initial Subscription Term or Renewal Term unless otherwise specified in the Service Order or expressly indicated in writing by Gcore. Gcore will have no liability for any harm or damage arising out of or in connection with any use of the Services during the Free Service Period.
+2.12 Unless otherwise agreed by Gcore, the Free Service Period is intended exclusively for the personal use of private individuals. After the Free Service Period has expired, all data, including Customer Data and Customer Content may be permanently erased. Without prejudice to any other provision of this Agreement, during the Free Service Period unless permitted by Gcore, the Customer is not allowed to:
+(a) use any Service for serving video or a disproportionate percentage of pictures, audio files, or other non-HTML content (if applicable);
+(b) use any Service for commercial or professional purposes;
+(c) resell and/or engage in any subcontracting of the Services.
+2.13 Gcore may at its own discretion and without prior notice change the terms and conditions of the Free Service Period and introduce any restrictions and limitations.
+2.14 Subject to specific commitments outlined in the applicable Service Order or Service Specification, Gcore holds no liability for any technical errors, security vulnerabilities, incompatibilities, or instabilities detected in Third Party Products. Moreover, Gcore disclaims any warranties for these Third Party Products. Customer is required to use these Third Party Products in compliance with the terms of the Agreement and applicable terms of such third parties. Specifically, Customer is prohibited from engaging in activities such as decompiling or accessing the source code of Third Party Products. The Customer bears the full risk when employing these Third Party Products and assumes sole responsibility for ensuring their suitability for its requirements and intended purposes.
+2.15 Gcore reserves the right to modify the Services at any time, including adding, modifying or removing features as well as upgrading their performance. In the event of discontinuing a feature, Gcore will notify the Customer at least thirty (30) Days in advance or will make commercially reasonable efforts to provide such notice. Gcore reserves the right to discontinue any Service offered hereunder in its sole discretion upon providing the Customer with written notice of at least two (2) months, unless Gcore replaces such discontinued Service with a materially similar Service. Upon discontinuing the provision of Services or features, Customer understands and agrees that Gcore has no obligation to maintain copies of information stored by the Customer. Gcore shall not be held liable or responsible for any loss incurred by the Customer arising from the discontinuation of the provision of the Services or features. This right to discontinue a Service is independent of and not limited by any other terms or conditions in this Agreement, including any commitment terms for the Service.
+2.16 Gcore reserves the right to set a credit limit for the Customer at any time, notifying them of the determined amount relative to the value of the Service Order. Should the Customer wish to place orders that exceed this credit limit, they must first make a deposit at least equal to the excess amount.
+Additionally, Gcore may mandate that the Customer provide a reasonable financial guarantee, such as a bank or parent company guarantee, as a prerequisite for accepting an order as detailed in a previous clause. This security, whose form is at Gcore’s discretion, ensures the payment of Fees and other due amounts under the contract.
+The security provided by the Customer will be retained by Gcore and may be utilized to offset any outstanding Fees upon contract termination or cancellation, with any surplus being returned to the Customer. Such deposits will not accrue interest.
+2.17 The Customer is required to furnish all necessary documentation for KYC verification, and all contracts with Gcore are contingent upon successful completion of the KYC check. Subsequently, Gcore reserves the right to verify the accuracy of the information provided by the Customer and may request supporting documentation. Gcore also reserves the right to withhold activation or to deactivate the Customer’s account if any information submitted by the Customer is found to be incomplete, inaccurate, or fraudulent.
+2.18 Gcore may substitute the hardware specified in any Service Order with alternative hardware as follows: (a) where the substitute hardware is of an equivalent or superior tier, Gcore may proceed with performance of the relevant Service Order upon written notice to the Customer (including by email), and pricing under the Service Order shall remain unchanged; (b) where the substitute hardware is of a lower tier, Gcore may compensate by providing additional instances such that the aggregate performance of the substitute hardware is comparable to the originally specified configuration, subject to the Customer’s prior written consent (which shall not be unreasonably withheld), and the Parties may execute an addendum documenting the substituted configuration and confirming the applicable pricing; or (c) where the substitute hardware is of a lower tier and Gcore does not compensate with additional instances, Gcore shall offer the Customer either (i) a pro-rata price adjustment reflecting the reduced capacity, or (ii) the right to reject the substitution and terminate the affected portion of the Service Order, with a refund of prepaid Fees for the remaining term. Gcore shall notify the Customer in writing of any substitution within a reasonable time. If the Customer reasonably demonstrates that any substitution has materially reduced the overall performance of the Services below the level of the originally specified configuration, the Parties shall negotiate in good faith an appropriate adjustment to the Fees.
+If Gcore is unable to provision the full committed volume of instances or capacity by the Service Start Date, Gcore may activate a partial set of instances. In such case: (a) the Customer shall be charged on a pro-rata basis reflecting the volume actually provisioned; (b) Gcore shall use commercially reasonable efforts to provision the remainder within a reasonable timeframe; and (c) billing for each additional instance shall commence on the date such instance is provisioned and made available to the Customer. If the full committed volume has not been provisioned within thirty (30) Days of the initial Service Start Date (or such other period as is specified in the Service Order), the Customer may terminate the Service Order with respect to the undelivered portion and receive a pro-rata refund of any prepaid Fees attributable to such undelivered portion. This section 2.18 is without prejudice to section 2.1a, and the Actual Service Start Date for the purposes of this section shall be the date on which the first partial set of instances is made available to the Customer.
+ 3. Acceptable Use
+3.1 As between the Parties, Customer is solely responsible for any Customer Content stored, reproduced, displayed or distributed using Services. All use of Services, unless otherwise indicated in a Service Order, is governed by the AUP, which is made a part of this Agreement and whose terms apply in addition to the provisions of this Agreement.
+3.2 If Gcore determines, in its sole reasonable discretion, that Customer Content or Customer’s use of Services breaches the AUP or otherwise adversely impacts the Services, Gcore reserves the right to take remedial measures including blocking or disabling access. Gcore will use commercially reasonable efforts to limit the measures to the extent necessary to resolve the adverse impact without undue interruption of Services. The Parties will work together in good faith to resolve the problems or issues causing, in whole or part, the adverse impact.
+3.3 If the primary purpose of the Customer’s use of the Services is to host content from others or to facilitate transactions between third parties on their platform, the Customer must enforce adherence to the Gcore’s AUP by such third parties by: (i) publishing clear guidelines on what content is not allowed (for example, illegal material); (ii) providing an easily accessible way for individuals to report policy violations; and (iii) swiftly responding to such reports and, where necessary, removing the offending or infringing content.
+ 4. Cooperation and Customer Obligations 
+4.1 For Services to function as intended, Customer must cooperate in good faith with Gcore to configure and enable Services. When Customer elects to send or receive Customer Content using Services, Customer is solely responsible for modifying its content identifiers, consistent with instructions that Gcore provides, to enable Gcore to deliver the selected content. This may include changing the alias information in the Customer’s DNS record so that hostname addresses of page objects resolve to Gcore’s servers.
+4.2 Customer acknowledges that the timely and successful performance of Services requires good faith cooperation by the Customer. Therefore, Customer will: (i) provide all information reasonably requested by Gcore; (ii) comply with all laws, regulations, orders and statutes which may be applicable to Customer; and (iii) timely perform its obligations as necessary to meet any schedule or deadline in the applicable Service Order. In the event that any failure by the Customer to comply with the provisions of this section 4 results in any delay, deficiency or interruption in the performance of Services, Gcore shall not be deemed in breach of the applicable Service Order for such delay and Customer shall be responsible for any costs reasonably incurred by Gcore in addressing and remedying such delay, deficiency or interruption.
+4.3 The Services provided by Gcore pursuant to this Agreement and under any Service Order shall only be used for purposes assumed under this Agreement and in accordance with applicable local legislation, rules and regulations. Gcore shall be entitled, at its reasonable option, to immediately suspend Services if in its sole opinion Services are being used in a manner that may result in liability or other damage for Gcore.
+4.4 Gcore’s ability to provide the Customer with colocation in data centers as well as other related services is subject to the terms and ongoing validity of Gcore’s agreement with the third-party data center provider. Gcore reserves the right to change the location of the colocation space and may temporarily suspend services during such a move. Customers will be informed of any planned relocations with at least thirty (30) Days’ prior notice, unless a shorter notice period cannot reasonably be avoided. If Gcore opts to move the colocation space, the Customer must transfer their colocated equipment to the newly designated location. Should the Customer undertake the move, Gcore will compensate them for any reasonable relocation costs incurred, not including the acquisition and installation of additional equipment. If the Customer fails to agree to the relocation within the specified notice period, Gcore is entitled to proceed with the move without the Customer’s consent.
+4.5 The Customer shall obtain and maintain, at its own cost, the following minimum insurance coverage: (i) commercial general liability insurance, including coverage for bodily injury, property damage, and contractual liability; and (ii) property insurance on a full replacement cost basis for the Customer’s equipment and other assets located within Gcore’s colocation space. Each policy shall be with limits no less than EUR 1,000,000 or the average annual Fees expected to be paid to Gcore (whichever is higher). The Customer shall provide Gcore with certificates of insurance as proof of coverage upon request. Failure to provide such proof may be considered a material breach of this Agreement.
+ 5. Fees and Payment
+5.1 Gcore may increase the Fees, including charges for Services provided within Subscription Terms, annually using one of the following price indexations. The maximum annual increase is the higher of: (i) 5%; or (ii) the CPI index in Luxembourg for the previous year. The notification about the indexation will be made either by e-mail or a notice in Gcore’s systems visible to the Customer. The increase can be applied each year on the anniversary of the Service Start Date for a specific Service. For different Services, separate Service Start Dates may apply. In addition to these annual increases, Gcore reserves the right at its sole discretion, at any time, to adjust the Fees based on changes in its operating costs. Modification of Fees based on changes in its operating costs can occur due to Gcore’s increased costs related to the data center or connectivity services, utilities such as electricity, software, and hardware, along with increased taxes, or other relevant expenses. Any adjustments to the Fees based on changes in its operating costs will be determined by Gcore and will be directly related to demonstrable increases in operating costs. In respect to active Service Orders such changes in Fees can be made upon giving Customer 30 Days prior notice. The adjustment will be implemented in the subsequent billing cycle following expiry of this notice period. Gcore shall maintain accurate records and documentation supporting the basis for the Fee adjustment, which shall be made available for inspection upon the Customer’s reasonable request.All charges are exclusive of Taxes. Customer is solely responsible for paying all Taxes that become payable in connection with Services. If Customer provides Gcore with a valid, duly executed tax exemption certificate, Gcore may exempt Customer from Taxes in accordance with applicable law, effective on the date Gcore receives the exemption certificate. If Customer is required by law to make any deduction or withholding from any payment due under this Agreement to Gcore, then, notwithstanding anything to the contrary contained in this Agreement, the gross amount payable by Customer to Gcore will be increased so that, after any such deduction or withholding for Taxes, the net amount received by Gcore will not be less than Gcore would have received had no such deduction or withholding been made.
+5.2 Prices indicated on the website of Gcore are subject to change. Such changes will not apply retroactively.
+5.3 Pursuant to the terms and conditions set forth within the Agreement or on the Gcore platform, the offer of a discount (hereinafter referred to as “Discount”) may be available and published on the Gcore platform or agreed with a Customer in a Service Order, contingent upon the Customer’s selection and subject to availability at the time of such selection. The Discount shall be available to the Customer subject to the terms of availability of selected Services or products. The Customer acknowledges that the public offering of the Discount is subject to change without prior notice and may vary based on prevailing conditions and offerings. The Discount is strictly non-transferable and non-retroactive. It is incumbent upon the Customer to apply the Discount at the time of the initial purchase transaction in strict compliance with the provisions of this Agreement. No application of the Discount shall be permitted post-purchase, nor shall the Discount be assignable to any third party. In accordance with section 5.1 of the Agreement, the Customer acknowledges and agrees that the discounted price is not immune to indexation and adjustments. Such indexation and adjustments to the discounted pricing may be implemented in accordance with indicators detailed within the Agreement. Gcore expressly reserves the unilateral right to amend, modify, or revoke the Discount with respect to future orders. Such alterations or revocations may be predicated upon economic rationale, capacity limitations, or other reasons deemed sufficient by Gcore. The exercise of this right is within Gcore’s sole discretion and is an express condition of the offer of the Discount. Notwithstanding the foregoing, any modifications or revocation of the Discount shall not affect orders that have already been placed and agreed upon, save for the orders agreed as pay-as-you-go or spot model.
+5.4 Upon mutual Acceptance of a Service Order, Gcore will begin billing Customer for the applicable Fees from the Service Start Date, including any prorated portion of a calendar month, unless otherwise expressly stated in the applicable Service Order.
+If Customer exceeds their permitted usage, Gcore will invoice Customer overage charges, along with any other applicable usage-based Fees, at the beginning of the calendar month following the month in which such usage occurred. In accordance with the terms outlined in the applicable Service Order, Gcore will levy charges for service activation, setup and other one-time Fees commencing from the Service Start Date. Service provision may be contingent upon payment of such Fees, provided that Gcore may, at its discretion, permit the Services to commence prior to receipt of payment.
+5.5 This section 5.6 applies exclusively to Services provided under a commitment-based Service Order with a defined Subscription Term, ( “Fixed Term Services” ). For the avoidance of doubt, this section 5.6 governs only the billing and invoicing modality of such Services and does not modify the tariff models described in section 2. Accordingly, this section 5.6 does not apply to pay-as-you-go models, spot or other usage-based Services without a committed minimum, or over-commitment usage, which shall be governed by the applicable Service Order and relevant product-specific terms.
+The Fees for Services may be charged under a postpaid charging model, a prepaid charging model or such other charging model as expressly agreed in the applicable Service Order:
+(a) postpaid charging model - Gcore shall invoice the Customer after the end of the relevant billing period for the Fees accrued during such period, including any prorated portion of a calendar month. Unless expressly stated otherwise in the applicable Service Order, Services shall be provided under a postpaid charging model;
+(b) prepaid charging model - Gcore may require payment of the applicable Fees in advance of the provision or continuation of Services. Gcore shall be entitled to suspend, delay, or refuse to commence Services until payment has been received in full;
+(c) customised charging model - other customised billing arrangements, if expressly agreed in the applicable Service Order.
+The applicable charging model shall not limit Gcore’s right to invoice fixed MRCs monthly, including prorated charges for partial calendar months.
+5.6 For certain products and where indicated in advance the Services will be billed by deducting prepaid credits from the Customer’s Account. These credits are non-refundable and non-transferable. To access the Services with such prepayment requirements, maintaining a positive credit balance in the Customer’s account is mandatory. Customer is accountable for ensuring that the account consistently maintains an adequate amount of credits to cover the Fees of the ordered Service. In the event the credit balance of the account reaches zero or becomes negative, Gcore reserves the right to suspend the Service. Should the Customer’s balance reach zero or be negative, Gcore shall have the right to suspend the Services or terminate the affected Service Order or the Agreement. Consequently, the Customer’s account will be closed, and all Customer Data and Customer Content will be deleted. Additionally, the Customer is responsible for costs related to temporary storage of data, if applicable. Prior to the termination or expiration of the Services, and prior to initiating any deletion, updating, or reinstallation of Services, it is the Customer’s sole responsibility to undertake all necessary measures (including but not limited to creating backups, transferring to alternative solutions, taking snapshots, etc.) to ensure the safeguarding of its content and other data.
+5.7 All Fees will be billed and payable in Euros, unless otherwise mutually agreed in writing.
+5.8 Customer will pay Gcore all Fees incurred on Customer’s account in full, as set forth in this Agreement and any Service Order, without set-off, withholding or deduction.
+5.9 Customer will pay all MRCs for the Subscription Term, regardless of whether or how much Customer uses the committed Services. If Gcore cannot begin timely delivery of Services for any reason caused by Customer, Gcore nonetheless may, in its sole discretion, begin billing Customer for MRCs from the Service Start Date. Any Service Credit granted under an SLA for a Downtime will be applied to the next applicable invoice, against any charges for MRCs and/or overages.
+5.10 Unless otherwise agreed to in writing by the Parties, Customer shall pay all invoices within thirty (30) Days of the invoice date by transferring the invoiced amounts to the bank account designated on the invoice. All invoices may be provided to Customer electronically. In respect of all overdue, unpaid invoiced amounts, Gcore reserves the right to charge in addition to statutory interest: (i) interest of one and three-quarters percent (1.75%) per month of all invoiced amounts from the due date as set out above until full and final payment of such amounts is received; and (ii) reasonable collection costs incurred in respect of such unpaid invoiced amounts, including but not limited to reasonable legal expenses. Not limiting the foregoing, in the event of default or delayed payment, business Customers will be obliged to pay a fixed recovery fee of EUR 40. This is without prejudice to Gcore’s right to claim additional compensation if the recovery costs exceed the fixed fee, subject to the provision of supporting documents.
+5.11 Payments under this Agreement are expected to be made by the Customer directly. Should a third party make a payment on the Customer's behalf, such payment shall be subject to Gcore's prior acceptance, which Gcore may withhold at its discretion. Where such acceptance is granted, the Customer shall proactively disclose to Gcore the third party's company name, registered address, registration number, authorized representatives, and confirmation of its compliance with applicable sanctions and financial regulations. The Customer remains fully responsible for ensuring the third party's timely performance of payment obligations and compliance with all applicable sanctions and financial regulations under this Agreement and applicable law.
+ 6. Defects
+6.1 In case of any Defects, Service Credits, as set out in the SLA, shall be the Customer’s sole and exclusive remedy. Customer may contact Gcore for notification of Defects by email ( support@gcore.com ).
+6.2 Customer must notify Gcore in writing of any Defects immediately upon the Customer’s discovery of the Defects. The notification must contain a Defect report ( “Defect Report” ) to Gcore that includes: (i) Customer name and, as applicable, on-site technical contact information (telephone number, email address and hours of operation of the responsible Customer contact); (ii) a reasonably detailed description of the Defect, together with any supporting information that Customer’s engineers believe will assist Gcore in its diagnostic process (including e.g. time of first occurrence of Defect, affected systems, error messages etc.); and (iii) the date and time that Customer identified the Defect for the first time. All communication between Customer and Gcore regarding Defect Reports and remedying of Defects shall be in English.
+6.3 Gcore is not obliged to remedy Defects, and will not be held otherwise liable, and Service Credits will not be granted in connection with any failure or deficiency caused by or associated with the following (each an “Excluded Cause”): (i) equipment, software or other technology not provided by Gcore; (ii) Customer’s equipment, software or other technology, including without limitation the Customer’s servers; (iii) use of Services other than agreed with Gcore, in particular any use in breach of the terms of the Agreement; (iv) actions, omissions or interventions by Customer or its agents, contractors or vendors, including without limitation, any negligence or wilful misconduct; (v) any third party’s actions or interventions (excluding actions or interventions by Gcore’s Affiliates); (vi) Scheduled Maintenance, emergency maintenance or Customer-requested service interruptions; (vii) failure in local access circuits or cross connects connecting the Customer to Gcore’s network; (viii) conditions at the Customer’s premises such as power supply, climate or housing; (ix) false service outages and downtimes reported due to errors of any SLA measurement system; (x) an event of Force Majeure; and/or (xi) the suspension, interruption or termination of Services in accordance with the Agreement.
+6.4 Customer acknowledges that Customer shall reimburse Gcore for any Services provided by Gcore if Gcore was not obliged to provide these Services due to an Excluded Cause. In particular, Gcore reserves the right to charge Customer for resources devoted by Gcore to the receipt, investigation, troubleshooting and/or clearance of Defects reported by Customer that are not attributable to Gcore (e.g. no Defect is found or the reported Defect is caused by an Excluded Cause). If a Defect reported by Customer is found not to be attributable to Gcore, then Customer shall compensate Gcore at Gcore’s then-current hourly rates (depending on the level of technical qualification of Gcore’s personnel that investigated the alleged Defect) and for any expenses Gcore may have incurred (e.g. for using Gcore’s Affiliates and/or Gcore’s subcontractors) when investigating and/or remedying the alleged Defect. Gcore will invoice these charges for the Defect support and Customer shall make payment in accordance with the terms of the Agreement.
+ 7. Grant of Rights, Intellectual Property
+7.1 Gcore grants to Customer, as applicable, a non-exclusive, non-transferable, non-revocable during the Term except as expressly provided in this Agreement, worldwide right to access and use the Services during the Term solely for the purposes of this Agreement. As between the Parties and subject only to the rights of use expressly granted by Gcore herein, Gcore retains all worldwide rights, title and interest in and to the Services, Gcore’s equipment, network and methodologies, software or other Intellectual Property Rights embodied therein provided in connection with the Services, Gcore’s Confidential Information, all revisions thereto, derivatives thereof and all Intellectual Property Rights therein, whenever developed. Customer will not, except insofar as permitted by applicable law, and will require End Users to not, either directly or indirectly, reverse engineer, decompile, disassemble or otherwise attempt to derive source code or other trade secrets from Services or Gcore Confidential Information. Customer will provide reasonable assistance to Gcore, at Gcore’s cost, to secure protection of Gcore’s Intellectual Property Rights, including assistance in preparing and filing applications, registrations, assignments and other instruments to perfect title.
+7.2 Customer grants to Gcore, and its agents, suppliers and subcontractors, the non-exclusive, worldwide right to access and use, ingest, reproduce, format, store, distribute, display, perform and make modifications to Customer Content, including encoding, decoding, translating, compressing, decompressing, encrypting, decrypting, repackaging, encapsulating, de-encapsulating, chunking, segmenting, storing, transmitting, distributing, making derivative works of and otherwise managing instances of such Customer Content and associated metadata, solely for the purposes of this Agreement. The foregoing license includes the creation, storage, duplication, modification and distribution of packages that include Customer Content in connection with the performance by Gcore of the Services requested by Customer pursuant to this Agreement. As between the Parties and subject only to the licenses expressly granted by Customer herein, Customer or End Users, as applicable, retain all rights, title and interest in and to Customer Content, Customer Confidential Information and other Customer Intellectual Property Rights. Except insofar as permitted by applicable law, Gcore will not, either directly or indirectly, reverse engineer, decompile, disassemble or otherwise attempt to derive source code or other trade secrets from Customer Content or Customer Confidential Information.
+ 8. Customer Data
+8.1 In relation to the processing of any personal data under or in relation to this MSA, each Party agrees to comply with its respective obligations under the Regulation (EU) 2016/679 (the “General Data Protection Regulation” or “GDPR”) and local laws and regulations where applicable (together with the General Data Protection Regulation, the “Data Protection Laws”) and to co-operate with the other Party in putting in place any procedures or documents as may be required in this regard.
+8.2 Customer acknowledges that Gcore, its Affiliates, and their respective agents will, for the purpose of the provision of Services, process Customer Content and Customer Data.
+8.3 Gcore will use reasonable technical and organisational measures to protect Customer Content and Customer Data against unlawful processing, loss or unauthorised disclosure, as further detailed in the Data Processing Agreement. Customer will provide Gcore with direction as to the processing of the Customer Content and Customer Data in accordance with the Customer’s then-current privacy policy and other privacy laws, rules and regulations applicable to Customer. Without prejudice to section 8.4, all use of Customer Data by Gcore will be at Customer’s direction and solely on behalf of Customer, except where Gcore acts as an independent data controller.
+8.4 Customer acknowledges that Gcore, its Affiliates and their respective agents may process and transfer Customer Content and/or Customer Data, including to entities located in countries outside the EEA that may not provide an adequate level of data protection. Such transfers and processing are carried out: (i) in connection with the provision of Services, as a data processor acting on Customer's instructions, in accordance with the Data Processing Agreement, which sets out the applicable technical, organisational and security measures and transfer mechanisms; and (ii) for Gcore's own business purposes as an independent data controller, including incorporation of Customer Data into databases controlled by Gcore and its Affiliates for the purposes of administration, provisioning, billing and reconciliation, verification of Customer identity and solvency, maintenance, support and product development, fraud detection and prevention, sales, revenue and Customer analysis and reporting, marketing and Customer use analysis — in accordance with the Privacy Policy, which sets out the applicable legal bases, transfer mechanisms and safeguards.
+8.5 Customer warrants that it has obtained and will obtain all legally required consents and permissions from relevant parties (including data subjects) for the use, processing and transfer of End User Data and other Customer Data as described in this section.
+8.6 Customer will not provide to Gcore any Customer Content: (i) that is inappropriate or unlawful; (ii) contains viruses, worms, corrupt files, Trojan horses and other forms of corruptive code or any other content, which may compromise the Services or Gcore’s network or equipment; (iii) that violates the property rights of others, including unauthorized images, programs, trademarks or other Intellectual Property Rights; or (iv) that has any links or connections to any of the above.
+ 9. Processing by Gcore as a Data Controller and Data Processor
+9.1 The Parties understand that Gcore may process Customer Data in order to incorporate such Customer Data into databases controlled by Gcore and its Affiliates for the purpose of administration, billing and reconciliation, verification of Customer identity and solvency, maintenance, support and product development, fraud detection and prevention, sales, revenue and Customer analysis and reporting, marketing and Customer use analysis. In this regard, Gcore in principle acts as a data controller and ensures that it will honour its obligations under Data Protection Laws.
+9.2 The Customer shall communicate the information below to the natural persons to whom the Customer Data relates (the “Data Subject(s)” ) and/or to take note of such information to the extent that he/she is such a Data Subject.
+9.3 The categories of personal data processed by Gcore (the “Personal Data” ) are determined as follows: (i) where Gcore acts as a data processor— as set out in the Data Processing Agreement (DPA); and (ii) where Gcore acts as the data controller — as set out in the Privacy Policy.
+9.4 In addition to transfers to Affiliates, Gcore will transfer the Personal Data processed as a data controller to several service providers acting as data processors (the “Data Processor(s)”) for the purposes of: administration and customer relationship management (HubSpot Ireland Limited, Ireland); sales, revenue and Customer analysis and reporting (Google Ireland Limited, Ireland or Google LLC, USA); provisioning, storage and transfer of information (Microsoft Ireland Operations Limited, Ireland); billing and reconciliation (Adyen B.V., the Netherlands); internal communications (Slack Technologies Limited, Ireland); maintenance and support (Zendesk Inc, USA). This list is subject to change and not exhaustive; further details of the service providers acting as data processors on behalf of Gcore in its capacity as data controller are set out in the Privacy Policy and may also be obtained by sending a request to privacy@gcore.lu .
+9.5 9.5 Where Customer is a natural person and acts as a Data Subject in relation to the Personal Data provided to Gcore in connection with this MSA, the following provisions apply:
+9.5.1. The Data Subject acknowledges that the Data Processor(s) act(s) on the instructions of Gcore and might have access to his/her Personal Data.
+9.5.2. The Data Subject further understands that his/her Personal Data might be disclosed to administration and public authorities, social security services, insurance, banking institutions, professional advisers and auditors of Gcore (the “Recipients”).
+9.5.3. The Data Subjects are hereby informed that the Data Processor(s) and the Recipients might be located outside of the EU/EEA in countries which are not deemed by the European Commission to provide for an adequate level of protection, meaning that it is equivalent to the protection afforded under European data protection standards. For such third countries Gcore has implemented Standard Contractual Clauses as a safeguard, that may be replaced from time to time by other safeguards as permitted by applicable Data Protection Laws. The Data Subject may obtain a copy of such safeguard by sending a request to privacy@gcore.lu .
+9.5.4. The Data Subject has the right to request access to his/her Personal Data. He/she may require that his/her Personal Data be rectified in case of error.
+9.5.5. The Data Subject may also request that his/her Personal Data be erased or that data processing be restricted if the Personal Data may no longer be legitimately held or processed. The Data Subject further has a right of objection and a right to data portability under the conditions laid down under Data Protection Laws.
+9.5.6. The Data Subject may exercise his/her rights by writing to Gcore at the address mentioned on the first page of this MSA or to privacy@gcore.lu .
+9.5.7. The Data Subject has the right to lodge a complaint with a supervisory data protection authority (for Luxembourg: Commission Nationale pour la Protection des Données ).
+9.5.8. The Data Subject further understands that any information required to be provided to them under the GDPR that is not expressly set out in this MSA, as well as the procedure for exercising their rights, are set out in the Privacy Policy.
+9.6 The Personal Data of the Data Subjects shall be retained for the duration of this MSA and the business relationship between the Parties. Gcore may retain some specific Personal Data for a longer period to the extent necessary to comply with applicable legal obligations or to exercise or defend legal claims up to ten (10) years following the termination thereof, provided that such retention is in accordance with Data Protection Laws.
+9.7 The Parties understand that Gcore may process End User Data and Customer Content which qualifies as personal data under Data Protection Laws in connection with the provision of the Services to Customer. The Parties agree that in this context, Customer will act as a data controller and Gcore as a data processor, acting upon instruction and on behalf of the Customer. Provided that the Customer, as a data controller, has a legal obligation to enter into a data processing agreement with its data processors, the Parties have concluded the Data Processing Agreement, which lays down the terms and conditions of the processing of personal data by Gcore as a data processor.
+9.8 For the avoidance of doubt, such Data Processing Agreement forms an integral and essential part of this MSA.
+ 10. Confidentiality
+10.1 “Confidential Information” means, with respect to a Party ( “Disclosing Party” ), all non-public confidential information pertaining to such Party’s business (including such information of a Party’s subcontractor or a Party’s Affiliate), in particular information containing customer lists, customer information, technical information (including technical layouts and designs, configurations of cables, network etc.), pricing information, trade secrets, financial positions, customer communications or proposals, benchmarking information, satisfaction surveys or information relating to business planning or business operations and the terms of this Agreement including any Service Order. Gcore and Customer will comply with this section 10 when exchanging Confidential Information under this Agreement, including any Service Order. Confidential Information may be designated or marked as confidential when disclosed. However, any information that the Party receiving such information ( “Receiving Party” ) knew or reasonably should have known, under the circumstances, was considered confidential or proprietary by the Disclosing Party, will be considered Confidential Information of the Disclosing Party even if not designated or marked as such.
+10.2 The Receiving Party shall preserve the confidentiality of the Disclosing Party’s Confidential Information and treat such Confidential Information with at least the same degree of care that Receiving Party uses to protect its own Confidential Information, but not less than a reasonable standard of care. The Receiving Party will use the Confidential Information of the Disclosing Party only to exercise rights and perform obligations under this Agreement. Confidential Information of the Disclosing Party will be disclosed only to those employees of the Receiving Party with a need to know such information. Gcore may, for the purpose of exercising rights and performing obligations under this Agreement, disclose Confidential Information of Customer also to Gcore’s Affiliates and Gcore’s subcontractors.
+10.3 The Receiving Party shall not be liable to the Disclosing Party for the release of Confidential Information if such information: (i) was known to the Receiving Party on or before Effective Date without restriction as to use or disclosure; (ii) is released into the public domain through no fault of the Receiving Party; (iii) was independently developed solely by the Receiving Party who have not had access to Confidential Information; or (iv) is divulged pursuant to any legal proceedings or otherwise required by law.
+10.4 The Receiving Party’s obligation under this section 10 shall expire five (5) years after termination of this Agreement.
+ 11. Warranties
+11.1 Gcore warrants that it shall provide Services in compliance with applicable laws and regulations and in a professional and workmanlike manner. Gcore shall use all commercially reasonable efforts to provide Services without interruptions as set forth in the applicable SLA. The Parties acknowledge, however, that it may be technically impracticable to provide Services free of any Defects or interruptions. Therefore, Gcore cannot and does not guarantee, to the maximum extent permitted by law, that Services will be uninterrupted or error-free.
+11.2 In the event of Defects or interruptions of Services, Customer shall only be entitled to the remedies, if any, as specified in the relevant Service Order or the SLA.
+11.3 Except as otherwise set forth in this section 11, Gcore does not make and disclaims: (i) all warranties that the Services will be uninterrupted, defect-free or completely secure; and (ii) all implied and express warranties (not explicitly stated in this Agreement) including in particular the implied warranties of merchantability and fitness for a particular purpose. To the extent permitted by law, all Services are provided on an “as is” basis and Customer’s use of the Services is solely at its own risk.
+11.4 Customer represents and warrants that it owns, controls or possesses all necessary rights to the Customer Content and any other materials it supplies to Gcore, free, and clear of any and all claims, rights, and obligations whatsoever and is empowered to grant the rights, licenses and privileges granted in this Agreement.
+ 12. Indemnification
+12.1 Customer will, at its cost, defend, indemnify and hold harmless Gcore and its officers, directors, employees, agents and permitted successors and assigns (each a “Gcore Indemnitee”) through final judgment or settlement, from and against any third-party claim, action, suit, proceeding, judgments, settlements, losses, damages, expenses (including reasonable legal fees and expenses) and costs (including allocable costs of in-house counsel) (“Claim”) brought against a Gcore Indemnitee arising out of or based upon: (i) bodily injury, death or loss of or damage to real or tangible personal property to the extent that such Claims were alleged to have been proximately caused by any negligent act, omission or wilful misconduct of Customer or their respective agents or employees; (ii) operation or use of Customer’s products, websites or services; (iii) Customer Content, including any allegation that Customer Content or any other data or information provided by Customer infringes any third party Intellectual Property Rights or otherwise breaches applicable law; (iv) Customer’s failure to comply in any material respect with the AUP or applicable law; (v) the unauthorized use of or access to Services by any person using Customer’s systems or network; (vi) Gcore’s compliance with Customer specifications; (vii) a combination or modification of the Services by or on behalf of Customer by anyone other than Gcore or its authorized agents; (viii) distribution (including by sale or importation), decoding, decrypting, duplication, storage, display/playback, modification or any other use of Customer information by any entity other than Gcore; or (ix) information, data, or other Customer Content provided by or on behalf of Customer to Gcore.
+12.2 Gcore will, at its cost, defend, indemnify and hold harmless Customer and its officers, directors, employees, agents and permitted successors and assigns (each a “Customer Indemnitee”) from and against any third-party Claim brought against Customer Indemnitee based upon allegations that Services directly infringe any patent issued as of the Effective Date of this Agreement under the laws of the country in which the Services are being provided to Customer or any third party copyright. Notwithstanding the foregoing, Gcore will have no liability for any infringement of patents, copyrights or other Intellectual Property Rights based upon or resulting from Customer Content, use of Services in a manner not specified in applicable Gcore documentation, or services or products not supplied by Gcore. If Services are determined to infringe patents or copyrights as outlined above, Gcore will have the option, at its sole cost, to: (i) obtain the right for Customer to continue using Services; (ii) modify Services so that they are non-infringing; (iii) substitute functionally similar, non-infringing services; or (iv) if none of the foregoing is available to Gcore on commercially reasonable terms, terminate the Agreement and return to Customer any unused Customer prepaid Fees for which Services have not been provided as of the date of termination.
+12.3 The Gcore Indemnitee or Customer Indemnitee as applicable (each an “Indemnified Party” ) will: (i) promptly provide notice to the indemnifying Party ( “Indemnifying Party” ) of any Claim for which indemnity is claimed (provided, that, any delay in providing notice will not relieve the Indemnifying Party of its obligations hereunder, except to the extent that the Indemnifying Party is materially prejudiced by such delay); (ii) permit the Indemnifying Party to control the defense of any such Claim; and (iii) provide reasonable assistance at Indemnifying Party’s reasonable cost. Subject to the foregoing, in any Claim for which indemnification is sought, Indemnifying Party may select legal counsel to represent Indemnified Party (such counsel to be reasonably satisfactory to Indemnified Party) and to otherwise control the defense. If Indemnifying Party elects to control the defense, Indemnified Party may fully participate in the defense at its own cost. If Indemnifying Party, within a reasonable time after receipt of notice of Claim, fails to defend Indemnified Party, Indemnified Party may defend and compromise or settle the Claim at Indemnifying Party’s cost. Notwithstanding the foregoing, Indemnifying Party may not consent to entry of any judgment or enter into any settlement that imposes liability or obligations on Indemnified Party or diminishes Indemnified Party’s rights, without obtaining Indemnified Party’s express prior consent, such consent not to be unreasonably withheld or delayed, other than cessation of infringing activity, confidential treatment of the settlement, or payment of money that is fully indemnified by the Indemnifying Party under this Agreement.
+12.4 This section 12 provides the sole and exclusive remedy of Customer and the exclusive obligations of Gcore in connection with any third-party claim, action, suit or other demand asserted against Customer as described in section 12.2 above (in respect of Gcore’s obligations to indemnify Customer only) and Gcore disclaims all other warranties and obligations with respect thereto, to the extent permitted by law. Gcore’s obligations under this section 12 are subject to the limitations in section 13 below.
+ 13. Liability
+13.1 With the sole exceptions of wilful misconduct, fraud, or simple breach or negligence resulting in bodily injuries or death, or any other liability that cannot lawfully be excluded or limited under applicable law, and without prejudice to any limitation of liability contained elsewhere in this Agreement or in any other documents forming part of this Agreement, especially in any relevant Service Order concluded hereunder, Gcore’s total liability to Customer in the aggregate for the entire Term (regardless of whether the claims are brought during or after the Term) with respect to all claims arising from or relating to the subject matter of this Agreement (including any relevant Service Order hereunder) will at no time exceed fifty percent (50%) of the total amount of Fees actually paid by Customer to Gcore under the affected Service Orders concluded hereunder with respect to the twelve (12) month period prior to the event or events giving rise to such liability, plus the amount of Fees due for the month of the affected Services in which the event or events giving rise to such liability occurred.
+13.2 Subject only to the exception of wilful misconduct or fraud, or any liability that cannot lawfully be excluded under applicable law, Gcore shall under no circumstances be held liable for any: (i) economic loss, loss arising from or in connection with loss of revenues, profits, contracts, goodwill, customers or business or from failure to realize anticipated savings; (ii) loss or corruption of any software; (iii) loss or corruption of any data; (iv) loss of use of hardware or other equipment, of software or data; (v) wasted administrative time or management time; (vi) cost of procuring or migrating to substitute services; and (vii) any other indirect, consequential or special loss.
+13.3 The Customer shall not raise any claim under this Agreement more than one (1) year following the date on which the incident causing the claim occurred.
+13.4. The limitations of liability set forth in this section 13 apply to all claims and causes of action made by the Customer with respect to all claims arising from or relating to the subject matter of this Agreement (including any relevant Service Orders thereunder), regardless of whether for breach of contract, tort (including negligence), indemnity or for any other reason.
+13.5 If Gcore fails to meet the service levels set out in the SLA, the Customer will be entitled to Service Credits as outlined in the applicable SLA. Service Credits are the Customer’s only form of compensation for SLA breaches and represent the full extent of Gcore’s liability in such cases.
+ 14. Force Majeure
+14.1 Force Majeure means any circumstance not within a party’s reasonable control including, without limitation: (i) acts of God, storm, flood, drought, earthquake or other natural disasters; (ii) epidemic, pandemic or quarantine restriction; (iii) terrorist attack, civil war, civil commotion, rebellion, insurrection, sabotage or riots, war, the threat of or preparation for war, armed conflict, imposition of sanctions, embargo, or breaking off of diplomatic relations; (iv) accident, nuclear, chemical or biological contamination or sonic boom; (v) any law or any action taken by a government or public authority, including without limitation imposing an export or import restriction, quota or prohibition, or failing to grant a necessary licence or consent; (vi) collapse of buildings, fire, explosion or accident; (vii) any labour or trade dispute, strikes, industrial action or lockouts; and (viii) non-performance by suppliers or subcontractors (other than by Affiliate of Party seeking to rely on this section).
+14.2 Provided it has complied with section 14.3, if a Party is prevented, hindered, or delayed in or from performing any of its obligations under this Agreement by an event of Force Majeure ( “Affected Party” ), the Affected Party shall not be in breach of this Agreement or otherwise liable for any such failure or delay in the performance of such obligations. The time for the performance of such obligations shall be extended accordingly.
+14.3 The Affected Party shall:
+(a) as soon as reasonably practicable after the start of the event of Force Majeure but no later than ten (10) Days from its start, notify the other Party in writing of the Force Majeure, the date on which it started, its likely or potential duration, and the effect of the Force Majeure on its ability to perform any of its obligations under the Agreement; and
+(b) use all reasonable efforts to mitigate the effect of the Force Majeure event on the performance of its obligations.
+If the Force Majeure prevents, hinders, or delays the Affected Party’s performance of its obligations for a continuous period of more than six (6) weeks, the Party not affected by the Force Majeure may terminate this Agreement by giving one (1) week’s written notice to the Affected Party. The remedies stated in this section 14.3 shall not limit the rights available to Gcore under section 14.
+ 15. Term and Termination
+15.1 This Agreement will commence on the Effective Date and will remain in legal effect until terminated in accordance with the provisions of the Agreement or pursuant to applicable laws. Service Orders are issued either on a pay-as-you-go model or for a Subscription Term. Service Orders are by default for an Initial Subscription Term, unless another term or a pay-as-you-go model is agreed in the Service Order. Where a Service Order contains two or more Services with different Initial Subscription Terms, each such Initial Subscription Term shall run independently and termination or expiry of one shall not affect the continuity of the remaining Services under that Service Order, unless Gcore expressly states otherwise in the applicable Service Order. The Services will renew automatically for periods equal to the Initial Subscription Term (each, a successive “Renewal Term”) unless: (a) Customer provides written notice of non-renewal at least thirty (30) Days before the expiration of the then-current Initial Subscription Term or Renewal Term, or (b) Gcore provides written notice of non-renewal before the expiration of the then-current Initial Subscription Term or Renewal Term, with the following minimum notice periods applicable to Gcore: (i) where the Initial Subscription Term exceeds three (3) months, at least thirty (30) Days prior to expiration; (ii) where the Initial Subscription Term is greater than thirty (30) Days but does not exceed three (3) months, at least ten (10) Days prior to expiration; and (iii) where the Initial Subscription Term is thirty (30) Days or less, at any time prior to expiration. As an exception to clause (a), where the Initial Subscription Term is thirty (30) Days or less, the notice period for non-renewal applicable to Customer shall be ten (10) Days prior to expiration. Service Orders expressly agreed as pay-as-you-go model (including Service Orders which do not specify any Initial Subscription Term) are not subject to a fixed term and shall remain in effect until terminated by either Party with fourteen (14) Days prior written notice, unless such Service Order states otherwise.
+15.2 Customer may terminate this Agreement for cause, upon giving written notice to Gcore, if: (i) a receiver or administrator is appointed for Gcore or its property; (ii) Gcore makes a general assignment for the benefit of its creditors; (iii) Gcore commences, or has commenced against it, proceedings under any bankruptcy, insolvency or debtor’s relief law which are not dismissed within sixty (60) Days; (iv) Gcore is liquidated or dissolved; (v) Gcore ceases to do business or otherwise terminates its business operations; or (vi) Gcore materially breaches this Agreement and such breach continues unremedied for twenty (20) Days after receipt of a remediation notice from Customer. For clarity, Downtime is not grounds to terminate this Agreement for cause; the Customer’s sole remedy for Downtime is set forth in the SLA.
+15.3 Gcore may at its discretion terminate this Agreement or specific Service Orders, or alternatively suspend certain Services, if: (i) a receiver or administrator is appointed for Customer or its property; (ii) Customer makes a general assignment for the benefit of its creditors; (iii) Customer commences, or has commenced against it, proceedings under any bankruptcy, insolvency or debtor’s relief law which are not dismissed within sixty (60) Days; (iv) Customer is liquidated or dissolved; (v) Customer ceases to do business or otherwise terminates its business operations; (vi) Customer fails to pay invoiced Fees when due; (vii) any use of Services, including Customer Content, actually or allegedly infringes or misappropriates any Intellectual Property Rights or otherwise violates the terms of the AUP or any applicable law, regulation or order; or (viii) Customer otherwise materially breaches this Agreement and such breach continues unremedied for twenty (20) Days after receipt of a remediation notice from Gcore. Gcore may, in accordance with the Agreement and where grounds for termination exist under the Agreement, terminate any individual Service or all Services under the applicable Service Order independently of each other.
+15.4 In the event that the Services or the admin console are not used for more than twelve (12) months, Gcore may, at its sole discretion and without prior notice, suspend the Services provided to the Customer. Gcore may also discontinue Services to a Customer with a thirty (30) Day notice if: (i) the Customer has neither used the admin console nor generated network traffic for ninety (90) Days; and (ii) has also not accrued any Fees for those Services during that time.
+15.5 Gcore may terminate, interrupt, or suspend Services without prior notice if Gcore considers in its sole discretion that it is necessary to: (i) prevent or protect against fraud; (ii) protect Gcore’s personnel, facilities, equipment, network, or services; (iii) prevent a breach of section 10 or infringement of the rights of a third party; (iv) prevent potential material liability or a third-party claim; (v) to discontinue a Service or product in accordance with section 2.15; or (vi) in the event of a Change of Control of the Customer if Gcore reasonably believes that the creditworthiness or reputation of the Customer has been adversely affected as a result of such change.
+15.6 Gcore reserves the right to terminate a particular Service Order by providing written notice to the Customer, with a notice period of thirty (30) Days under the following circumstances: (i) Gcore has received notification from its lessor or facility owner regarding the termination or expiration of the contract for a data center or another facility relevant to the Service Order; and (ii) Gcore for any reason is unable to secure an alternative and appropriate facility within a thirty (30) Day period after receiving notification from the lessor or facility owner.
+15.7 Upon expiration or termination of the Agreement or a Service Order for any reason: (i) all rights to access or use Services and Gcore’s Intellectual Property Rights will terminate and Gcore will cease providing its Services; (ii) Customer will pay Gcore all Fees accrued but unpaid as of the date of expiration or termination; (iii) all liabilities accrued before the date of expiration or termination will survive; and (iv) Customer will return or destroy, and certify in writing to Gcore such destruction of, all copies of Gcore’s Confidential Information.
+15.8 The Customer will be invoiced and must pay Gcore an amount equal to Customer’s MRCs multiplied by the number of months remaining in the Term ( “Early Termination Fee” ) if: (i) Customer terminates the Agreement or a Service Order other than for cause pursuant to section 15.2; (ii) if the Customer terminates the Agreement pursuant to its rights under the EU Data Act; or (iii) Gcore terminates the Agreement for cause pursuant to section 15.3. If Customer terminates the Agreement for cause pursuant to section 15.2, Customer will not be obligated to pay an Early Termination Fee.
+15.9 In preparing a final invoice to Customer, which Customer will pay pursuant to the terms of this Agreement, Gcore will: (i) calculate the balance due; (ii) deduct from such balance the unused portion, if any, of any prepaid Fees or Customer deposit; and (iii) bill Customer for the remaining balance due. If there remains an unused portion of any prepaid Fees or Customer deposit after satisfaction of the balance due, Gcore will refund to Customer such unused portion.
+15.10 In accordance with Regulation (EU) 2023/2854 of the European Parliament and of the Council of 13 December 2023 on harmonised rules on fair access to and use of data and amending Regulation (EU) 2017/2394 and Directive (EU) 2020/1828 ( “EU Data Act” ) Gcore maintains a data switching Addendum describing the conditions, procedures, technical arrangements and timelines applicable to the switching of data processing services and the portability of Customer Data and Customer Content. The Addendum, as published at ( “Data Act Addendum” ), is hereby incorporated by reference into this Agreement and forms an integral part thereof. Gcore may amend the Addendum from time to time, provided that such amendments shall not adversely affect the Customer’s rights under the EU Data Act in respect of active Service Orders.
+ 16. Suspension of Services
+16.1 Gcore may, upon giving notice to Customer, without prejudice to any of Gcore’s rights to terminate this Agreement or any Service Order hereunder, suspend the provision of all or any of Services in the event that:
+(a) suspension of Services is required in order to comply with the directive of an authority or court;
+(b) Gcore has grounds for suspecting that Customer is committing any illegal or unlawful act in connection with the use of Services;
+(c) if Customer is in default with its payment obligations, and/or
+(d) any other provision within this Agreement or Service Order allows Gcore to suspend provision of all or any of Services.
+16.2 If any Services are suspended as a consequence of Customer’s act or omission; (i) Customer shall remain liable to pay the respective Fees as if Services had been properly provided by Gcore; and (ii) Customer shall reimburse Gcore for any additional charges and expenses incurred due to the suspension and/or recommencement of Services (the charge shall be no less than 50 EUR, with the possibility of a higher charge where additional costs are incurred).
+16.3 Upon suspension of the Services or termination of the Agreement (or any Service Order) for any reason, Gcore may cease to provide all Services immediately and shall be entitled to permanently erase any and all Customer Content or Customer Data immediately or after such period as specified in the applicable Services Specification or any other applicable Gcore policy or documentation incorporated into this Agreement, or any applicable Data Act Addendum. The 48-hour period shall apply only where no such specification exists. Subject to the aforesaid, Gcore shall be also entitled to immediately erase Customer Content or Customer Data without prior notice if Gcore considers in its sole discretion that it is necessary to: (i) prevent or protect against fraud; (ii) protect Gcore’s personnel, facilities, equipment, network, or services; (iii) prevent potential material liability; (iv) prevent breach of section 10 or infringement of the rights of a third party; (v) implement section 3.2; or (vi) enforce other rights available under this Agreement or applicable law.
+ 17. Miscellaneous
+17.1 During the Term, Gcore may publicize the existence of the relationship between the Parties for the purpose of its marketing activities. Subject to the foregoing, neither Party shall make any press announcements concerning the Agreement or publicize the Agreement in any way without the prior written consent of the other Party.
+17.1a Gcore may use the Customer’s electronic contact details (e-mail, telephone), as provided in the context of an existing client relationship, to occasionally invite the Customer to participate in public-facing case studies, and for marketing activities related to Gcore’s products or services. Such participation is entirely voluntary, and the Customer may decline or opt out at any time, without any impact on the Services provided under this Agreement.
+17.2 All notices, requests, approvals, consents and other communications required or permitted herein must be in writing and in English, and delivered through established forms of communication (such as email, which shall serve as the default channel, registered post, or a designated customer platform). Either Party may change its contact information upon giving notice to the other Party. For clarity, if a notice is not received because the receiving Party has failed to notify the other Party in accordance with the preceding sentence or because the receipt is refused, such notice is deemed to have been conclusively made seven (7) Days after delivery was reasonably initiated.
+17.3 If any provision of this Agreement is held by a court of competent jurisdiction to be unenforceable or contrary to law, this will not render the Agreement unenforceable or contrary to law as a whole, and, in such event, the relevant provision will be changed and interpreted so as to best accomplish the objectives of the provision within the limits of applicable law.
+17.4 Neither Party may assign this Agreement, in whole or in part, without the other Party’s express prior consent, however Gcore may freely assign any and all of its rights and obligations under this Agreement: (i) to its parent company or an Affiliate; or (ii) in connection with a Change of Control. This Agreement will be binding upon and inure to the benefit of all permitted successors and assigns. Unless expressly permitted in writing by Gcore, Customer may not assign, transfer, distribute, resell, lease, or otherwise provide access to the Gcore Services to any third party. Gcore can assign, pledge or grant a security interest on any or all Customer receivables (payments owed) to an affiliate, bank, financial institution, or other third party.
+17.5 Each Party acknowledges that the Services, Confidential Information, hardware, software, technology, devices or other materials or information obtained from or provided to the other Party under this Agreement may be protected under, and subject to, import and export control laws of the European Union, its member states, or the United States, as well as any equivalent laws in other jurisdictions; accordingly, their use, import, export and reexport, may be restricted, prohibited or necessitate securing licenses. Each Party agrees not to directly or indirectly export, re-export or cause to be exported or re-exported, any such Services, Confidential Information, hardware, software, technology, device or other such materials or information to any destination or entity prohibited or restricted under the laws of the European Union, its member states, or of the United States, or other respective jurisdictions, as applicable to each Party, unless it will have first obtained express prior consent of the applicable agency or governmental body. Should Gcore reasonably determine that it cannot perform its obligations under this Agreement due to such sanctions-related prohibitions, Gcore may terminate this Agreement or the affected Service Orders effective immediately. Customer agrees to permit Gcore to use information including, but not limited to, business name, place of incorporation, beneficial owners, or directors for the purposes of sanctions screening. For avoidance of doubt the ability or act to screen does not remove any obligation or liability within this Agreement.
+Gcore may terminate this Agreement with immediate effect, if: (i) Customer breaches section 17.5; or (ii) continued performance by Gcore of its obligations pursuant to this Agreement would result in a breach of sanctions or export controls, or risk exposing Gcore to adverse consequences under such regulations; or (iii) any law or any action is taken by a government or public authority imposing an export or import restriction, quota or prohibition that affects the Services; or (iv) there is a failure to grant a necessary licence or consent concerning or otherwise affecting the Services.
+Gcore may terminate this Agreement by giving one (1) week’s notice to the Customer in case of substantial changes and other material adverse effects arising out of political declarations of intentions – official or reported – to regulate, prohibit or monitor specific activities by states, governmental agencies or other public entities which may lead to Gcore’s performance of this Agreement breaching or risking exposure to adverse consequences in the relevant jurisdiction.
+If Gcore terminates this Agreement with immediate effect pursuant to this section 17.5, Gcore shall not be obliged to make any payments, indemnify, or otherwise have any obligations or liabilities to Customer subsequent to the termination of this Agreement (including the refund of prepaid Fees or Customer deposit pursuant to section 15.9). In addition, if Gcore terminates this Agreement pursuant to this section 17.5 for whatever reason, Customer may, at the discretion of Gcore, be billed and required to pay Gcore the Early Termination Fee, as defined in section 15.8 and excluding the termination with prior notice foreseen in the prior paragraph.
+17.6 This Agreement, the Services Specifications, the DPA, the SLA, the AUP, other policies and documentation viewable at https://gcore.com/ and all Service Orders as well as other documents entered into between the Parties are incorporated herein by reference and constitute the entire agreement between the Parties with respect to its subject matter and supersede all other prior or contemporaneous representations, understandings or agreements; and there are no other representations, understandings or agreements between the Parties relative to such subject matter.
+17.7 From time to time this Agreement, including all Services Specifications, the SLA and the AUP can be modified by Gсore. Such modifications will not apply retroactively. The Customer will receive notification of such changes via email, in their Gсore account, or through a pop-up window on the Website. Gcore will notify Customer at least twelve months before discontinuing any Service unless Gcore replaces such discontinued Service with a materially similar Service. Further, Gcore will notify Customer in advance before significantly modifying a Customer-facing Gcore API in a backwards-incompatible manner. This section does not limit Gcore's rights under subsections 2.6 and 5.1.
+17.8 If there is a conflict between the terms and conditions of the Agreement and any other documents referenced herein, the conflict will be resolved in the following order of precedence: (i) any Service Order executed as a separate document between the Parties (highest priority); (ii) the main terms of this Agreement; (iii) Services Specification; (iv) SLA; (v) AUP; (vi) Copyright Policy and Privacy Policy; (vii) DPA and Data Act Addendum and (viii) other documents, including any documents separately agreed by the Parties or published at gcore.com/legal/ .
+17.9 This Agreement and any Service Order hereunder shall be governed by the laws of the Grand Duchy of Luxembourg, without regard to International Private Law. All disputes arising out of or in connection with the present contract shall be finally settled under the Rules of Arbitration of the Arbitration Center of the Luxembourg Chamber of Commerce. The Parties agree, pursuant to Article 22 paragraph 2 of the above Rules, that the simplified proceedings provisions shall apply and the dispute shall be referred to a sole arbitrator appointed in accordance with said Rules. Each Party waives any objection (on the grounds of lack of jurisdiction, forum non conveniens or otherwise) to the exercise of jurisdiction over it by any such arbitral tribunal. However, for Consumers, in the event of a dispute, the courts located at the place of defendant’s residence shall have non-exclusive jurisdiction and the arbitration clause stated above shall not apply.
+ 18. Consumer terms 
+18.1 The following terms only apply where Customer is entering into this Agreement as consumer, i.e. who is acting for purposes which are outside his trade, business, craft, or profession, pursuant to consumer protection laws, as amended or replaced from time to time. For the avoidance of doubt, Services are not intended for use by minors. Gcore does not knowingly provide Services to consumers who lack legal capacity. Any access to or use of Services by such consumers shall occur only with the involvement and responsibility of a parent, guardian, or other legally authorised representative.
+18.2 The following terms override the other terms of this Agreement, to the extent necessary under the mandatory consumer protection laws.
+18.3 By derogation from clause 2.11, Customer may also terminate the Free Service Period in its sole discretion.
+18.4 By derogation from clause 2.13, Gcore may at its own discretion change the terms and conditions of the Free Service Period and introduce any restrictions and limitations to comply with new legislative or regulatory requirements, or if necessary to (i) prevent or protect against fraud, (ii) protect Gcore’s personnel, facilities, equipment, network or services, (iii) prevent violation of section 10 or infringement upon the rights of others or (iv) prevent potential material liability.
+18.5 By reference to clause 5.1, Customer shall have the right to cancel the Agreement if the final price resulting from the indexation is too high in relation to the price agreed when the Agreement was concluded.
+18.6 By derogation from clause 5.2, all charges shall be deemed inclusive of Taxes.
+18.7 By derogation from clause 5.5, Gcore shall only have the right to invoice the amount of the late invoice with the legal interest.
+18.8 By derogation from sections 6 and 11, and subject to the conditions and limitation set out by applicable law, in case of Defects, the Customer has the right to obtain the remedy of the Defects, a reduction of the charges in relation thereof, or the termination of the Agreement under the conditions set out below.
+Gcore shall remedy the Defects within a reasonable amount of time from the notification of the Defect Report, and without any additional costs or causing major inconveniences for the Customer. Gcore shall not remedy any Defects where it is impossible or would impose disproportionate costs having regard to all the circumstances.
+Customer shall be entitled to a proportionate reduction of the charges limited to the non-conformity of the Services pursuant to the SLA for the period impacted by the Defects in the form of the Service Credits pursuant to section 6, where (a) the remedy is impossible or would impose disproportionate costs, (b) Gcore did not remedy the Defects as set out above, (c) a Defect appears despite Gcore's efforts to remedy it, (d) the seriousness of the Defect merits an immediate reduction of the charges or the immediate termination of the Agreement pursuant to the SLA, (e) Gcore notifies the Customer, or the circumstances make it clear that Gcore will not remedy the Defects as set out above.
+Customer shall be entitled to terminate for cause the Agreement within the meaning of clause 15.2 immediately where the seriousness of the Defect merits such termination pursuant to the SLA.
+18.9 The rights of the Customer in relation to the withdrawal from the Agreement, and the consequences thereof are set out in the Online Payment, Return and Refund Policy.
+18.10 By derogation from clause 17.1, Gcore shall not publicize the existence of the relationship between the Parties, unless Customer expressly consents thereto.
+18.11 By derogation from clause 17.5, Gcore shall not have the right to request the Early Termination Fee as provided therein.
+18.12 By derogation from clause 17.9, this Agreement and any Service Order shall be governed by the laws of the Grand Duchy of Luxembourg, without prejudice to applicable mandatory provisions from consumer protection laws. All disputes against Gcore arising out of or in connection with the present contract shall be settled before the competent courts of Luxembourg-City, without prejudice to the competent courts according to applicable law.
+18.13 By derogation from clause 15.1, the Services will renew automatically for periods equal to the Initial Subscription Term, not exceeding one year each.
+ Products 
+ AI Cloud Network Security Colocation Pricing Technical Support 
+ Resources 
+ Blog Case Studies Resource Library Events Startups Program 
+ Documentation 
+ Docs API Product Roadmap Help Center Gcore Status 
+ Platform 
+ Network Infrastructure Internet Peering Points Compliance 
+ Company 
+ About Gcore Press Awards Careers Legal Information Discord 
+ Partners 
+ White Label Solutions 
+ Contact us 
+ sales@gcore.com support@gcore.com info@gcore.com +352 208 80 507 
+ EN 
+ ©2026 Gcore. All rights reserved. Terms of Service 
+ Privacy Policy 
+ Report Abuse 
+ 

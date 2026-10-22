@@ -5,6 +5,7 @@
 &quot;About
 (AWS)
 (BSI),
+(CVE-2026-109618
 (Cloud
 (Cloud
 (DFD)
@@ -46,6 +47,7 @@
 -
 .
 .
+/
 /
 1
 1
@@ -188,6 +190,7 @@ C5
 COMPLIANCE
 COMPLIANCE
 COMPLIANCE
+CVE-2026-109619)
 Can
 Catalog)
 Catalogue)
@@ -347,6 +350,8 @@ DeepL
 DeepL
 DeepL
 DeepL
+DeepL&#x27;s
+DeepL&#x27;s
 DeepL&#x27;s
 DeepL&#x27;s
 DeepL&#x27;s
@@ -545,6 +550,8 @@ Overview
 Overview
 Overview
 Overview
+PHP
+PHP.
 PRODUCT
 Partnering
 Password
@@ -650,6 +657,7 @@ Standards
 Start
 Statement
 Statement
+Statement
 States)
 Status
 Status
@@ -677,6 +685,7 @@ The
 The
 These
 These
+This
 This
 This
 This
@@ -1216,6 +1225,7 @@ disruption
 disruption
 do
 do
+do
 documentation
 documentation.
 documents
@@ -1398,6 +1408,7 @@ include:
 include:
 includes
 includes
+includes
 including
 including
 including:
@@ -1416,6 +1427,7 @@ information
 information
 information
 information,
+infrastructure
 infrastructure
 infrastructure
 infrastructure
@@ -1573,6 +1585,7 @@ not
 not
 not
 not
+not
 notifications
 notified
 now
@@ -1616,7 +1629,9 @@ on
 on
 on
 on
+on
 on-premise
+on.
 one
 one
 ongoing
@@ -1740,6 +1755,7 @@ processing
 processing
 processing
 processing
+products
 progress
 proprietary
 proprietary
@@ -1863,6 +1879,7 @@ rigorous
 risks
 role
 role-based
+run
 safeguarding
 safeguarding
 safeguards
@@ -1927,6 +1944,7 @@ service
 service
 service
 service
+services
 services
 services
 services
@@ -2027,6 +2045,8 @@ that
 that
 that
 that
+that
+the
 the
 the
 the
@@ -2173,6 +2193,7 @@ us
 us
 us.
 use
+use
 used
 used
 used
@@ -2188,6 +2209,7 @@ v32
 vendor
 version
 via
+vulnerabilities
 vulnerability
 vulnerability.
 we

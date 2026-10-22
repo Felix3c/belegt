@@ -1,0 +1,7 @@
+Abruf 22.10.2026 ~08:55 UTC, curl -s, ohne Schlüssel
+GET https://inference.de-fra-1.exoscale-cloud.com/v1/models -> HTTP 401
+{"error":{"message":"missing or malformed Authorization header (expected format: Bearer \u003ctoken\u003e)","type":"authentication_error","param":null,"code":null}}
+
+GET https://inference.ch-gva-2.exoscale-cloud.com/v1/models -> HTTP 401
+{"error":{"message":"missing or malformed Authorization header (expected format: Bearer \u003ctoken\u003e)","type":"authentication_error","param":null,"code":null}}
+

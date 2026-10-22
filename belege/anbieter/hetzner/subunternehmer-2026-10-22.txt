@@ -1,0 +1,65 @@
+Anlage 3 zum Auftragsverarbeitungsvertrag:
+Genehmigte Subunternehmer
+
+Die Hetzner Online GmbH (Auftragnehmer) nimmt für die Datenverarbeitung im Auf-
+trag des Hetzner-Kunden (Auftraggeber) Leistungen von Dritten in Anspruch, die im
+Auftrag der Hetzner Online GmbH Daten verarbeiten (Subunternehmer).
+Die folgenden Unternehmen sind als Subunternehmer genehmigt:
+
+Serverstandort        Name des Sub-                            Anschrift des     Art der Leistung
+Finnland               unternehmens                              Subunter-
+USA                                                               nehmens       · Gebäudever-
+                    Hetzner Finland Oy                                              mietung
+Singapur                                                    Huurrekuja 10,
+                    Hetzner US LLC                          04360 Tuusula       · Technischer
+                                                            (Finnland)              Support
+                    NTT Global Data
+                    Centers Americas,                       1500 Broadway,      · Vermietung von
+                    Inc.                                    19th Fl, New York,      Servern am
+                                                            NY 10036                Standort USA
+                    QTS Investment                          (USA)
+                    Properties Hillsboro,                                       · Colocation-An-
+                    LLC                                     1 625 National          bieter am
+                                                            Drive, Sacra-           Standort USA
+                    Hetzner Singapore                       mento, CA 95834
+                    Pte. Ltd.                               (USA)               · Colocation-An-
+                                                                                    bieter am
+                    NTT Global Data                         Overland Park,          Standort USA
+                    Centers SG1 Pte                         12851 Foster
+                    Ltd                                     Street, Overland    · Vermietung von
+                                                            Park, KS 66213          Servern am
+                                                            (USA)                   Standort Singa-
+                                                                                    pur
+                                                            1 Scotts Road,
+                                                            #21-10 Shaw Cen-    · Colocation-An-
+                                                            tre, Singapore          bieter am
+                                                            228208                  Standort Singa-
+                                                            (Singapur)              pur
+
+                                                            8 Kallang Avenue
+                                                            #15-01/09, Aperia,
+                                                            339509 Singapore
+                                                            (Singapur)
+
+Hetzner Online GmbH                  Industriestraße 25                  Bankverbindung:
+Geschäftsführer: Martin Hetzner,     91710 Gunzenhausen                  Deutsche Bank AG Nürnberg
+Stephan Konvickova, Günther Müller   Tel.: +49 9831 505-0                IBAN: DE92 7607 0012 0750 0077 00
+Registriergericht Ansbach, HRB 6089  Fax.: +49 9831 505-3                BIC: DEUTDEMM760
+USt-IdNr. DE812871812                info@hetzner.com | www.hetzner.com
+
+Name:               Anlage 3 zum AV-Vertrag_Subunternehmer               Klassifikation:  Offen
+Version und Stand:  1.0, - 06.08.2024                                    Seite:           1 von 2
+Bitte beachten Sie den folgenden Hinweis:
+Soweit Sie sich für einen Serverstandort in der EU entschieden haben, werden Ihre
+Serverdaten ausschließlich innerhalb der EU verarbeitet. Supportdienstleistungen er-
+folgen für alle Serverstandorte innerhalb der EU.
+
+Hetzner Online GmbH                  Industriestraße 25                  Bankverbindung:
+Geschäftsführer: Martin Hetzner,     91710 Gunzenhausen                  Deutsche Bank AG Nürnberg
+Stephan Konvickova, Günther Müller   Tel.: +49 9831 505-0                IBAN: DE92 7607 0012 0750 0077 00
+Registriergericht Ansbach, HRB 6089  Fax.: +49 9831 505-3                BIC: DEUTDEMM760
+USt-IdNr. DE812871812                info@hetzner.com | www.hetzner.com
+
+Name:               Anlage 3 zum AV-Vertrag_Subunternehmer               Klassifikation:  Offen
+Version und Stand:  1.0, - 06.08.2024                                    Seite:           2 von 2
+

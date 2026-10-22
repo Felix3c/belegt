@@ -1,0 +1,620 @@
+Quick Start - Concrete AI – Exoscale Documentation
+Skip to content
+CTRL K
+Blog
+Changelog
+Documentation
+Learning
+Contact ↗
+Portal
+CTRL K
+Blog
+Changelog
+Documentation
+Learning
+Contact ↗
+Compute
+Instances
+Quick Start - Instances
+Overview - Instances
+How-To - Instances
+Create Snapshots
+Manage Instance Pools
+Use Application-Consistent Backups
+Use Rescue Mode
+Use SSH Keypairs
+Use Anti-Affinity Groups
+Use BitLocker on Windows
+Scale an Instance
+Use Instance Tags
+Configure Windows Server Language
+Use Labels
+Use Cloud-Init and User Data
+Build Custom Templates
+Manage Flexible Storage
+Create Private Instances
+Run LLMs on GPUs
+Use GPU MIG Partitioning
+Service Boundaries - Instances
+Limits and Quotas - Instances
+SLA - Instances
+Reference - Instances
+API Instances ↗
+CLI Instances ↗
+Containers (SKS)
+Quick Start - Containers
+Overview - Containers
+How-To - Containers
+Configure SKS Egress Filtering
+Manage SKS Lifecycle
+Use Gateway API on SKS
+Autoscale SKS Node Pools
+Configure CPU Manager Policies with Karpenter
+Configure OCI registries pull-through cache
+Enable GPU Support in SKS Nodes
+Use Karpenter on SKS
+Use Load Balancers and Ingress
+Isolate Critical Components
+Manage Certificates and Keys
+Use Feature Gates on SKS
+Use Kubernetes Audit
+Use OpenID Connect
+Use Labels on SKS
+Set Instance Prefixes
+Use Kubernetes Taints
+Use a Custom CNI
+Disable kube-proxy
+Use User Namespaces
+Mount SOS in SKS
+Restrict ingress traffic with IP allow-lists
+Use GPU MIG Partitioning
+Service Boundaries - Containers
+Limits and Quotas - Containers
+SLA - Containers
+Reference - Containers
+API SKS ↗
+CLI SKS ↗
+Recipes - Containers
+Setup GitLab Runners
+Use Rancher with SKS
+Dedicated Hypervisors
+Quick Start - Dedicated Hypervisors
+Overview - Dedicated Hypervisors
+How-To - Dedicated Hypervisors
+Check Capacity
+Provision Dedicated Instance Pools
+Provision Dedicated SKS Nodepools
+Service Boundaries - Dedicated Hypervisors
+Limits and Quotas - Dedicated Hypervisors
+SLA - Dedicated Hypervisors
+Reference - Dedicated Hypervisors
+API Deployment Targets ↗
+CLI Deployment Targets ↗
+Concrete AI
+Quick Start - Concrete AI
+Overview - Concrete AI
+Reference - Concrete AI
+API AI ↗
+API Dedicated Inference ↗
+API AI API Key ↗
+CLI Dedicated Inference ↗
+Service Boundaries - Concrete AI
+Limits and Quotas - AI API Keys
+SLA - Concrete AI
+Dedicated Inference
+Quick Start - Dedicated Inference
+Overview - Dedicated Inference
+How-To - Dedicated Inference
+Use CLI Commands
+Import Gated Models
+Trusted model providers
+Monitor and Troubleshoot
+Optimize Deployment Costs
+Optimize Performance
+Run OCR
+Service Boundaries - Dedicated Inference
+Limits and Quotas - Dedicated Inference
+SLA - Dedicated Inference
+Reference - Dedicated Inference
+API Dedicated Inference ↗
+CLI Dedicated Inference ↗
+Recipes - Dedicated Inference
+OpenCode Setup
+Storage
+Block Storage
+Quick Start - Block Storage
+Overview - Block Storage
+How-To - Block Storage
+Use Persistent Volume
+Use Snapshot
+Service Boundaries - Block Storage
+Limits and Quotas - Block Storage
+SLA - Block Storage
+Reference - Block Storage
+API Block Storage ↗
+CLI Block Storage ↗
+Object Storage
+Quick Start - Object Storage
+Overview - Object Storage
+How-To - Object Storage
+Use ACL
+Use Bucket Policy
+Configure Replication
+Implement Bucket Lifecycle
+Enable Archival Storage
+Enable Encryption
+Manage Metadata
+Enable Versioning
+Use Data Integrity Checksums
+Manage Terraform
+Use Conditional Requests
+Configure CORS
+Use AWS CLI
+Use Mountpoint
+Enable Data Events
+Service Boundaries - Object Storage
+Limits and Quotas - Object Storage
+SLA - Object Storage
+Reference - Object Storage
+API Object Storage ↗
+CLI Object Storage ↗
+Recipes - Object Storage
+Cyberduck
+Back up with Duplicati
+Back up with Duplicity
+HYCU Backup
+Mountain Duck
+Back up a QNAP NAS
+Back up with Restic
+Mount a bucket on Linux with s3fs
+Storage Made Easy (SME) File Fabric
+Back up a Synology NAS
+Synchronize a Synology NAS
+Back up with UrBackup
+Veeam Backup
+Immutable backups with Veeam Backup
+Plakar Backup
+Networking
+IP
+Quick Start - IP
+Overview - IP
+How-To - IP
+Configure IPv6 Security Groups
+Test IPv6 Connections
+Service Boundaries - IP
+Limits and Quotas - IP
+SLA - IP
+Reference - IP
+API IP ↗
+CLI IP ↗
+EIP
+Quick Start - Elastic IP
+Overview - Elastic IP
+How-To - Elastic IP
+Configure IPv6 Addresses
+Configure a Manual Elastic IP
+Create an Elastic IPv6 Prefix
+Attach an Elastic IPv6 Prefix
+Use Elastic IP as Traffic Source
+Configure Elastic IP Health Checks
+Service Boundaries - Elastic IP
+Limits and Quotas - Elastic IP
+SLA - Elastic IP
+Reference - Elastic IP
+API Elastic IP ↗
+CLI Elastic IP ↗
+NLB
+Quick Start - NLB
+Overview - NLB
+How-To - NLB
+Choose Load Balancer Strategies
+Configure NLB Health Checks
+Configure Protocols and Ports
+Service Boundaries - NLB
+Limits and Quotas - NLB
+SLA - NLB
+Reference - NLB
+API Network Load Balancer ↗
+CLI Network Load Balancer ↗
+DNS
+Quick Start - DNS
+Overview - DNS
+How-To - DNS
+Configure DNS Zones
+Use DNS Record Examples
+Service Boundaries - DNS
+Limits and Quotas - DNS
+SLA - DNS
+Reference - DNS
+API DNS ↗
+CLI DNS ↗
+CDN
+Quick Start - CDN
+Overview - CDN
+How-To - CDN
+Configure Cache Control
+Manage CDN Cache
+Service Boundaries - CDN
+Limits and Quotas - CDN
+SLA - CDN
+Reference - CDN
+Security Group
+Quick Start - Security Group
+Overview - Security Group
+How-To - Security Group
+Allow SSH Access
+Organize Security Groups
+Allow ICMP Ping
+Allow HTTP and HTTPS
+Allow Web Traffic
+Restrict Outbound Traffic
+Service Boundaries - Security Group
+Limits and Quotas - Security Group
+SLA - Security Group
+Reference - Security Group
+API Security Group ↗
+CLI Security Group ↗
+Private Network
+Quick Start - Private Network
+Overview - Private Network
+How-To - Private Network
+Change Private Network Type
+Create a Manual Private Network
+Configure DHCP Options
+Create a Managed Private Network
+Service Boundaries - Private Network
+Limits and Quotas - Private Network
+SLA - Private Network
+Reference - Private Network
+API Private Network ↗
+CLI Private Network ↗
+Private Connect
+Quick Start - Private Connect
+Overview - Private Connect
+How-To - Private Connect
+Set Up Private Connect Network
+Set Up Private Connect Routing
+Set Up Private Connect Routes
+Service Boundaries - Private Connect
+Limits and Quotas - Private Connect
+SLA - Private Connect
+Reference - Private Connect
+FAQ
+DBaaS
+Quick Start - DBaaS
+Overview - DBaaS
+How-To - DBaaS
+Connect to a Database
+Use External Integrations
+Manage Backups and Restores
+Manage Maintenance Windows
+Scale DBaaS Services
+Sync SKS IP Filters
+Use Terraform for DBaaS
+Service Boundaries - DBaaS
+Limits and Quotas - DBaaS
+SLA - DBaaS
+Reference - DBaaS
+API DBaaS ↗
+CLI DBaaS ↗
+Service-Specific
+PostgreSQL
+Quick Start - PostgreSQL
+Overview - PostgreSQL
+How-To - PostgreSQL
+Service Boundaries - PostgreSQL
+Reference - PostgreSQL
+API DBaaS ↗
+CLI DBaaS ↗
+MySQL
+Quick Start - MySQL
+Overview - MySQL
+How-To - MySQL
+Service Boundaries - MySQL
+Reference - MySQL
+API DBaaS ↗
+CLI DBaaS ↗
+Kafka
+Quick Start - Kafka
+Overview - Kafka
+How-To - Kafka
+Service Boundaries - Kafka
+Reference - Kafka
+API DBaaS ↗
+CLI DBaaS ↗
+OpenSearch
+Quick Start - OpenSearch
+Overview - OpenSearch
+How-To - OpenSearch
+Service Boundaries - OpenSearch
+Reference - OpenSearch
+API DBaaS ↗
+CLI DBaaS ↗
+Valkey
+Quick Start - Valkey
+Overview - Valkey
+How-To - Valkey
+Service Boundaries - Valkey
+Reference - Valkey
+API DBaaS ↗
+CLI DBaaS ↗
+Grafana
+Quick Start - Grafana
+Overview - Grafana
+How-To - Grafana
+Service Boundaries - Grafana
+Reference - Grafana
+API DBaaS ↗
+CLI DBaaS ↗
+Thanos
+Quick Start - Thanos
+Overview - Thanos
+How-To - Thanos
+Service Boundaries - Thanos
+Reference - Thanos
+API DBaaS ↗
+CLI DBaaS ↗
+ClickHouse
+Quick Start - ClickHouse
+Overview - ClickHouse
+How-To - ClickHouse
+Service Boundaries - ClickHouse
+Reference - ClickHouse
+API DBaaS ↗
+CLI DBaaS ↗
+Security
+Key Management Service (KMS)
+Quick Start - KMS
+Overview - KMS
+How-To - KMS
+Re-Encrypt
+Rotate a KMS Key
+Replicate a KMS Key Across Zones
+Schedule the Deletion of a KMS Key
+Sign and Verify with Asymmetric KMS Keys
+Service Boundaries - KMS
+Limits and Quotas - KMS
+SLA - KMS
+Reference - KMS
+API KMS ↗
+CLI KMS ↗
+IAM
+Quick Start - IAM
+Overview - IAM
+How-To - IAM
+Manage API Keys
+Manage IAM Roles
+Manage Users and API Keys
+Write IAM Policies
+Policy Examples
+Service Boundaries - IAM
+Limits and Quotas - IAM
+SLA - IAM
+Reference - IAM
+API IAM ↗
+CLI IAM ↗
+Resources IAM ↗
+Audit Trails ↗
+Support
+Overview - Support
+Support Case Priority
+SLA - Support
+Light
+Dark
+System
+Light
+Dark
+System
+On this page
+Prerequisites
+First Steps via CLI
+Scopes
+Create the Key
+Call the Endpoint
+Manage Keys
+Clean Up
+First Steps via Portal
+Create an AI API Key
+Next Steps
+Scroll to top
+Product
+Concrete AI
+Quick Start - Concrete AI
+Quick Start - Concrete AI
+Copy Page
+Copy as Markdown
+View as Markdown
+Open in ChatGPT
+Open in Claude
+Use Concrete AI to run models through secure, OpenAI-compatible inference endpoints. This guide shows how to give your application the access it needs to call a Dedicated Inference deployment or a public model on the on-demand endpoint. AI API Keys are managed with
+exo ai api-key
+and are zone-scoped, so pass
+--zone
+on every call.
+Prerequisites
+You need:
+the Exoscale CLI (
+exo
+)
+installed and configured
+an Exoscale IAM API key whose role allows the
+ai
+service
+a running
+Dedicated Inference deployment
+, or access to a public model on the on-demand endpoint
+First Steps via CLI
+The following steps create and manage an AI API Key. This is the credential your application presents when it calls an inference endpoint. First decide which deployments or public models the key may access, then create the key and use its value as a bearer token in your requests.
+Scopes
+A key holds two independent access lists:
+models
+: names of public models served on the on-demand endpoint
+deployments
+: IDs of Dedicated Inference deployments in your organization
+An empty list denies access on that side, and a key with both lists empty can authenticate but reaches nothing.
+Deployments in
+error
+or
+deleted
+state cannot be added to a key; any other state is accepted, so you can scope a key to a deployment that is still being provisioned. Models must be public models.
+Create the Key
+Create a key that can access one deployment:
+exo ai api-key create my-first-key
+\
+--deployment <deployment-id>
+\
+--zone <zone>
+The output contains the plaintext key:
+ID:     <ai-api-key-id>
+Name:   my-first-key
+Value:  xYz...
+Warning
+Store the value somewhere safe right away. It is only shown at creation and cannot be recovered later.
+Parameters:
+NAME
+: 1 to 50 characters. Letters, digits, spaces and
+_'()-
+are accepted, but the name must start and end with a letter or digit.
+--model
+: public model names
+--deployment
+: deployment UUIDs
+--all-models
+: grant access to all public models
+--all-deployments
+: grant access to all deployments
+To grant access to every public model instead, pass
+--all-models
+. To cover every Dedicated Inference deployment, pass
+--all-deployments
+. Both flags together give the key access to everything:
+exo ai api-key create my-first-key
+\
+--all-models
+\
+--all-deployments
+\
+--zone <zone>
+A key restricted to two deployments:
+exo ai api-key create app-prod
+\
+--deployment 32d6938e-c2aa-43a9-8291-87652c91de91,a780ef42-ccde-4a21-b618-acd84f86070a
+\
+--zone <zone>
+Call the Endpoint
+Use the key as a bearer token against your deployment URL:
+curl -X POST
+"https://<deployment-id>.inference.<zone>.exoscale-cloud.com/v1/chat/completions"
+\
+-H
+"Content-Type: application/json"
+\
+-H
+"Authorization: Bearer <key-value>"
+\
+-d
+'{
+"model": "swiss-ai/Apertus-v1.5-70B",
+"messages": [{"role": "user", "content": "Write a joke."}],
+"max_tokens": 300
+}'
+For a dedicated deployment:
+curl
+"https://<deployment-id>.inference.<zone>.exoscale-cloud.com/v1/models"
+\
+-H
+"Authorization: Bearer <key-value>"
+For a public model on the shared endpoint, the URL is
+https://inference.<zone>.exoscale-cloud.com/v1
+and
+model
+is the public model name:
+curl -X POST
+"https://inference.<zone>.exoscale-cloud.com/v1/chat/completions"
+\
+-H
+"Authorization: Bearer <key-value>"
+\
+-H
+"Content-Type: application/json"
+\
+-d
+'{"model": "<public-model-name>", "messages": [{"role": "user", "content": "Hello"}]}'
+A
+403
+means the key is valid but its scope does not cover the target. A
+401
+means the key is unknown or revoked. On the on-demand endpoint,
+429
+means the organization’s consumption quota is exhausted.
+Manage Keys
+exo ai api-key list --zone <zone>
+Returns every key in the organization, including revoked ones still in their 30-day retention window.
+exo ai api-key show <key-id> --zone <zone>
+Shows the key’s name, scope, and timestamps. The plaintext value is never shown outside the creation output.
+exo ai api-key update <key-id> --all-models --zone <zone>
+Flags you omit stay unchanged. To cut access to all public models, pass
+--all-models false
+. A revoked key cannot be updated.
+Clean Up
+Revoke the key when you no longer need it:
+exo ai api-key revoke <key-id> --zone <zone>
+Revocation returns an operation and completes asynchronously. Once propagated, the key gets a
+401
+on inference endpoints. The key entry stays visible in
+api-key list
+with
+revoked-at
+set and is deleted after 30 days.
+First Steps via Portal
+In the
+Exoscale Portal
+, select
+Concrete AI
+to create API Keys.
+Create an AI API Key
+Under
+AI API Keys
+click
+Add
+, add the Name of the API keys, select the inference end point and after clicking
+Add
+again the Secret will be shown. Copy the Secret and please be aware that this value is only available at the moment of creation and will not be retrievable after leaving the page.
+Next Steps
+AI API Key Limits and Quotas
+IAM policy guide
+AI API Key API reference
+Last updated on
+September 30, 2026
+EXOSCALE
+Sovereign by design, reliable by discipline.
+Products
+Compute
+GPU
+Kubernetes (SKS)
+Object Storage
+Databases
+Documentation
+Platform
+Product docs
+API & references
+Tutorials
+Changelog
+Company
+Pricing
+Blog
+Support
+Status
+Contact
+AI & developers
+Every docs page is available as plain Markdown — just add
+index.md
+to its URL.
+llms.txt
+Console
+© 2026
+Exoscale
+is a registered trademark of Akenes SA - Reg/VAT ID CHE-423.524.322 //
+Privacy
+//
+Terms & Conditions

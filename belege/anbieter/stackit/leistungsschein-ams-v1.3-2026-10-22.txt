@@ -1,0 +1,171 @@
+
+
+Leistungsschein
+
+STACKIT AI
+Model Serving
+Autor
+Datum
+
+  Version und     Gültig ab 18.09.2025
+  Geltungsbeginn
+
+  Version 1.3
+
+                                        2/6
+Leistungsschein | STACKIT AI Model
+Serving
+
+Servicename
+
+STACKIT AI Model Serving
+
+Kurzbeschreibung
+
+Der STACKIT AI Model Serving Service ("AI Model Serving") stellt open-source
+Large-Language-Models (LLMs) und andere GenAI-Modelle als geteilte Instanzen bereit.
+Kunden können geteilte Instanzen über eine OpenAI-kompatible REST-API nutzen. Es
+werden u.a. Chat- und Embeddings-Modelle bereitgestellt. Zur Authentifizierung wird ein
+API-Schlüssel genutzt. Bei der Nutzung des AI Model Serving Services werden seitens
+STACKIT außer abrechnungsrelevanten Daten keinerlei Daten des Kunden erhoben oder
+ausgewertet.
+
+Wesentliche Merkmale
+
+    State-of-the-art open-source LLMs
+    Chat- & Embeddings-Modelle
+    DSGVO-konformer Service
+    Nutzungsbasierte Abrechnung nach verbrauchten Tokens
+    OpenAI-kompatible Schnittstelle
+    Einfache Nutzung via API-Key
+
+Servicepläne
+
+Jedes bereitgestellte Modell wird einem Serviceplan zugeordnet. Die Servicepläne werden
+nach aufsteigender Modelgröße in die Kategorien Base, Plus oder Premium eingeordnet.
+Die Zuordnung wird im STACKIT Portal sowie in der STACKIT Dokumentation beschrieben.
+
+Metriken
+
+Die Abrechnung des AI Model Serving erfolgt Token-basiert anhand des Typs des Modells:
+
+    Bei Chat-Modellen nach Anzahl der genutzten Tokens (sowohl der Input-Tokens
+       [Summe der Tokens in der Anfrage] sowie der Output-Tokens [Summe der vom LLM
+       generierten Tokens]) eines Serviceplans, wobei jedes Modell einem Serviceplan
+       zugeordnet ist. Informationen zur Schätzung der Token-Anzahl einer Anfrage können
+       über die jeweiligen Modell-Beschreibungen (Model Cards) innerhalb der STACKIT
+
+Leistungsschein STACKIT AI Model Serving | Version 1.3 | Gültig ab 18.09.2025             3/6
+       Dokumentation gefunden werden. Der über die allgemeine STACKIT Preisliste
+       angegebene Preis gilt pro jeweils bis zu 1 Millionen genutzten Token.
+    Bei Embedding-Modellen werden ausschließlich Input-token berechnet. Der über die
+       allgemeine STACKIT Preisliste angegebene Preis gilt pro jeweils bis zu 1 Millionen
+       genutzten Token.
+    Der jeweilige Modell-Typ wird in der STACKIT Dokumentation ausgewiesen. Der
+       Kunde legt im Rahmen des API-Aufrufs seiner Anwendung fest, welcher Modell-Typ
+       zum Einsatz kommt.
+
+SLA-Spezifika
+
+    Abweichend von den Verfügbarkeitsangeben der allgemeinen STACKIT
+       Servicebeschreibung wird für das AI Model Serving eine Verfügbarkeit von 99,5% im
+       Kalendermonat (gemessen anhand der externen Erreichbarkeit der LLM-API)
+       vereinbart.
+
+Backup
+
+    Ein Backup der Anfragen des Kunden erfolgt nicht.
+
+Zusätzliche Bedingungen
+
+    Der Kunde verpflichtet sich bei Nutzung des jeweils von ihm ausgewählten Modells,
+       die jeweils für das Modell geltenden Lizenzbedingungen einzuhalten, welche über die
+       STACKIT Dokumentation einsehbar sind.
+
+    Modell Deprecation Prozess
+       In Ergänzung der allgemeinen Bestimmungen der Nutzungsbedingungen und der
+       allgemeinen STACKIT Servicebeschreibung können Modelle mit einer
+       Ankündigungsfrist von 6 Monaten durch STACKIT abgekündigt werden. Erfolgt auf
+       eine veraltete Modellversionen der Release eines direkten Nachfolgermodells, können
+       veraltete Modellversionen durch STACKIT mit einer Vorlaufzeit von 3 Monaten
+       abgekündigt und durch das Nachfolgermodell ersetzt werden.
+
+    STACKIT weist zusätzlich darauf hin, dass der Kunde etwaig einschlägige gesetzliche
+       Bestimmungen für vom Kunden erstellte KI-Anwendungen einzuhalten hat.
+
+    Für die Nutzung des STACKIT AI Model Serving gelten zusätzlich die nachfolgenden
+       Bedingungen:
+       https://www.stackit.de/de/agb/leistungsscheine/stackit-compute-engine-gpu/
+
+Leistungsschein STACKIT AI Model Serving | Version 1.3 | Gültig ab 18.09.2025               4/6
+Anhang | Exportierbarkeit
+
+(Online Register)
+
+Datentyp        Beschreibung           Exportierba  Format                     Zusätzliche Anmerkungen
+                                       r            -
+Kundendaten     Daten, die vom         (Ja/Nein)                               Kundendaten werden nicht
+(Datenbank-     Kunden in der          Nein                                    dauerhaft gespeichert.
+inhalte)        Datenbank (sofern                                              Die E-Mail und Subject ID
+                vorhanden) bzw.        Ja           JSON                       werden temporär (30 Tage) in
+Benutzer-       innerhalb des                                                  den Logs des Services
+konten &        Produktes/Services                                             gespeichert und sind dort zu
+Berechtigungen  gespeichert werden                                             finden.
+                Informationen über                                             Der Kunde kann seine
+                Nutzer und deren                                               Authentifizierungstokens
+                Berechtigungen                                                 (Projektweite Ressource)
+                                                                               selbst verwalten via
+System-Metriken Leistungsdaten der Nein             -                          Produkt-API. Dort kann er
+                                                                               selbst neue Tokens erstellen,
+(Instanzen/     Instanz/ genutzten                                             diese auflisten (JSON),
+                                                                               anpassen und löschen.
+Ressourcen in   Ressource (z. B.                                               Wir haben ein
+                                                                               Multimandanten-System, bei
+Nutzung)        CPU-Auslastung,                                                dem keine Systemmetriken
+                                                                               spezifisch für einzelne Kunden
+                Speichernutzung)                                               erhoben werden, da die
+                                                                               Kundenanfragen auf geteilten
+System-         Größen und             Nein.        -                          Ressourcen laufen.
+eigenschaften   Kapazitäten            Betriebs-    Text/JSON                  -
+(Instanzen/                            internum
+Ressourcen in   Kapazitäten der        STACKIT.                                Die angebotenen gemeinsam
+Nutzung)        vorhandenen                                                    genutzten Modelle sind via
+                Ressourcen /           Ja                                      API
+                Instanzen                                                      (https://docs.api.eu01.stackit.c
+                Versionen und                                                  loud/documentation/model-ser
+                Informationen, die                                             ving/version/v1#tag/Models)
+                notwendig sind, um                                             und in der Dokumentation
+                Kompatibilität prüfen                                          einsehbar, inklusive dem Link
+                zu können                                                      zur Quelle (Hugging Face).
+
+Leistungsschein STACKIT AI Model Serving | Version 1.3 | Gültig ab 18.09.2025                                    5/6
+  Produkt /       Konfigurationsdaten  Nein         Header text                Individuelle Ratelimits (auf
+  Service-        und Source Code      (Ausnahme:   für Ratelimits             Projekt-Ebene) sind einsehbar
+  bezogene Daten                       Ratelimits)                             als Header in jeder Antwort
+                  Configuration of                  -                          eines Modells.
+  (Produkt-       IT-Systems/          Nein.        JSON                       Alles Weitere (Code und
+  eigenschaften)  rudimental IT,       Betriebs-                               Konfiguration) ist nicht
+                  Settings,            internum                                einsehbar.
+                  Customizing, IP's,   STACKIT.
+                  VLAN, Interfaces,                                            -
+                  Software Code,       Ja
+                  Scripts                                                      Alle Änderungen an den
+                  Log Daten (nicht                                             Authentifizierungstokens im
+                  personalisiert und                                           Projekt werden in das
+                  personalisiert)                                              STACKIT Audit Log
+                                                                               aufgenommen.
+                  System-Status,
+                  Technical-events,
+                  etc.
+                  Log Daten (nicht
+                  personalisiert und
+                  personalisiert)
+
+                  Login/Logout der
+                  Nutzer,
+                  Nutzeraktivitäten
+
+
+
+Leistungsschein STACKIT AI Model Serving | Version 1.3 | Gültig ab 18.09.2025                                 6/6
+

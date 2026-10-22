@@ -1,0 +1,415 @@
+EU AI Act: Risikoklassen, Pflichten & Cloud-Lösungen | STACKIT
+News
+Schwarz Digits
+Support
+Support Pläne
+STACKIT Advanced Support
+STACKIT Ultimate Support
+Support Übersicht
+Help Center
+DE
+DE
+EN
+Warum STACKIT
+Warum STACKIT
+Schließen
+Vorteile
+Vorteile
+Europäischer Hyperscaler
+Echte Enterprise-Skalierung und ein umfassendes Service-Portfolio mit europäischer DNA, als europäisch verwurzelte Plattform.
+Datensouveränität
+Unabhängig und beständig durch Datensouveränität – aus Europa für Europa
+ES³
+Mit dem ES³ machen wir digitale Unabhängigkeit messbar
+Zertifikate
+Relevante STACKIT Cloud Zertifikate
+Start-up Programm
+Wachstum ohne Kompromisse für die Gestalter der digitalen Zukunft Europas
+Referenzen
+Karriere
+Karriere
+Stellenangebote
+Aktuelle Stellenangebote bei STACKIT
+Cloud-Accelerator-Programm
+Karriere-Einstiegs Programm bei STACKIT
+Unternehmensprofil
+Produkte
+Produkte
+Schließen
+Data & AI
+Data & AI
+STACKIT AI Model Serving
+Führende GenAI-Modelle einfach und sicher nutzen
+STACKIT Dremio
+Das souveräne Data Lakehouse
+STACKIT Workflows
+Orchestrieren Sie Ihre Workflows sicher und zuverlässig
+STACKIT Intake
+Das souveräne Gateway zu Ihrem Data Lakehouse
+STACKIT AI Model Experiments
+Mit MLflow™ as a Service KI-Innovationen schneller realisieren.
+Compute Engine
+Compute Engine
+STACKIT Compute Engine
+Bereitstellung von skalierbaren virtuellen Maschinen
+STACKIT Compute Engine GPU
+Rechenstarke GPUs in virtuellen Maschinen für große und kleine Workloads
+STACKIT Server Update Management
+Automatisierung von Betriebssystem-Update-Prozessen
+STACKIT Windows Server
+Einsatzbereite Windows Server
+STACKIT Red Hat Enterprise Linux
+Red Hat Enterprise Linux Server schnell und einfach bereitstellen
+STACKIT Server Backup Management
+Automatische, überwachte Server-Backups
+Storage
+Storage
+STACKIT Backup Storage
+Speicherung von Backup-Daten
+STACKIT Block Storage
+Flexibler und virtueller Festplattenspeicher
+STACKIT Object Storage
+Flexibel skalierbarer Cloud-Speicher
+STACKIT Archiving Service
+Revisionssichere Datenarchivierung in der Cloud
+STACKIT File Storage
+Sicherer und leistungsstarker NFS-Dateispeicher
+Confidential
+Confidential
+STACKIT Confidential Server
+Sichern Sie besonders kritische Workloads mit STACKIT Confidential Server
+STACKIT Confidential Kubernetes
+Container-Workloads einfach und nachweisbar vor unbefugten Zugriffen Dritter schützen
+Network
+Network
+STACKIT Unified Firewall
+Vereinfacht Ihr Sicherheitsmangement
+STACKIT Network Load Balancer
+Hohe Verfügbarkeit durch effiziente Verteilung des Datenverkehrs
+STACKIT Application Load Balancer
+Intelligente Lastverteilung für Ihre Webanwendungen
+STACKIT DNS
+Schnelle und öffentliche DNS-Auflösung
+STACKIT Content Delivery Network (CDN)
+Einfach und zuverlässig Network Content verteilen
+STACKIT Network & Security
+Robuster und skalierbarer Konnektivitäts- und Sicherheitsservice
+Runtime
+Runtime
+STACKIT Kubernetes Engine (SKE)
+Robuster, skalierbarer und verwalteter Kubernetes-Service
+STACKIT Cloud Foundry
+Vorkonfiguration der Cloud-Infrastruktur
+Database
+Database
+STACKIT MongoDB Flex
+Komplettverwaltete nicht relationale Datenbank im Flex Modell
+STACKIT PostgreSQL Flex
+Komplett verwaltete objekt-relationale Datenbank im Flex Modell
+STACKIT SQLServer Flex
+Maximal zuverlässiger und performanter Speicher dank Enterprise-Datenbank
+STACKIT OpenSearch
+Komplett verwaltete Suchmaschine und Analytics-Engine
+STACKIT MariaDB
+Relationale, für dynamische Webauftritte optimierte Datenbank
+STACKIT Key Value Store
+Flexibler In-Memory-Specher für Cache, Datenbank oder Nachrichtenbroker
+Messaging
+Messaging
+STACKIT RabbitMQ
+Komplett verwalteter Message Broker
+Logging & Monitoring
+Logging & Monitoring
+STACKIT Telemetry Router
+Zentralisiertes Routing und Ingestion von Telemetriedaten
+STACKIT LogMe
+Einfaches Analysieren und schnelles Durchsuchen von Logeinträgen
+STACKIT Observability
+Gemanagter Observability-Service mit leistungsstarkem Toolset
+STACKIT Logs
+Systeme überwachen und Fehler analysieren
+Security
+Security
+STACKIT Secrets Manager
+Sicherer Key-Value-Store für sensible Daten
+STACKIT Key Management Service (KMS)
+Kryptografische Operationen sicher und effizient durchführen
+STACKIT Network & Security
+Robuster und skalierbarer Konnektivitäts- und Sicherheitsservice
+STACKIT Cloud Security Posture Management
+Effektive Verwaltung und Minimierung von Sicherheitsrisiken
+Developer Platform
+Developer Platform
+STACKIT Git
+Code in der STACKIT Cloud speichern und verwalten
+STACKIT Container Registry
+Hosten Sie Ihre Container-Images in der STACKIT Cloud
+Quantum Computing
+Quantum Computing
+STACKIT Quantum
+Ihr Wegbegleiter in die Quanten Ära. Gemeinsam. Souverän.
+Integration
+Integration
+STACKIT Automation Service
+Optimieren Sie Ihren Cloud-Betrieb
+STACKIT Distributed Cloud
+Lösungen
+Lösungen
+Schließen
+Branchen
+Branchen
+Öffentlicher Sektor
+Gewährleistung von Integrität und Sicherheit im öffentlichen Sektor
+Gesundheitswesen
+Erfüllen Sie die besonders hohen Anforderungen im Gesundheitswesen
+Fertigungsindustrie
+Digitale Transformation der Fertigungsindustrie neu denken
+Finanzdienstleistungen
+Höchste Sicherheit trifft auf Skalierbarkeit und Flexibilität
+Handel
+Wie Digitalisierung im Handel zum Gamechanger wird
+Kirche und Wohlfahrt
+Für Non-Profit-Organisationen und kirchliche Einrichtungen
+Data & AI
+Data & AI
+ServiceNow on STACKIT
+Die souveräne Plattform für Ihre KI-gestützten Workflows
+KI-Bürgerportal
+Souveräner Zugriff auf Informationen für Bürger und die Mitarbeiter der öffentlichen Verwaltung
+Cloud-Migration & Digitalisierung
+Cloud-Migration & Digitalisierung
+RISE with SAP on STACKIT
+Die Lösung für eine souveräne Unternehmenstransformation
+Cloud-Migration
+Unsere Experten unterstützen Sie auf Augenhöhe auf Ihrem Weg in die Cloud
+Consulting & Engineering
+Wir sind Ihr zuverlässiger Partner für die digitale Transformation
+Digitale Arbeitsplätze
+Digitale Arbeitsplätze
+Wire on STACKIT
+Souveräne & sichere Kommunikation
+Workspace by STACKIT
+Volle Kontrolle über Daten, Kosten und Compliance bei maximaler Produktivität
+STACKIT Spaces
+Die Metaverse Plattform für Unternehmen
+Domains
+Cyber-Sicherheit
+Cyber-Sicherheit
+Zscaler on STACKIT
+Zero-Trust-Sicherheit als strategischen Business-Enabler nutzen
+Colocation
+Preise
+Preise
+Schließen
+Cloud-Services
+Das STACKIT Cloud Preismodell.
+Colocation
+Das STACKIT Colocation Modell.
+STACKIT Calculator
+Mit dem STACKIT Calculator ermöglichen wir volle Kostentransparenz für unsere Cloud-Services.
+Partner
+Partner
+Schließen
+Partner finden
+Finden Sie den passenden STACKIT Partner.
+Partner werden
+Lust auf eine Win-Win-Partnerschaft? Jetzt Cloud-Partner werden.
+STACKIT Marketplace Partner
+Erschließen Sie neue Kundengruppen mit Ihren Lösungen auf der souveränen STACKIT Cloud.
+Lernen
+Lernen
+Schließen
+STACKIT University
+Lernumgebung mit einem umfangreichen Trainingsangebot
+Wissen
+Informationen rund um das Thema Cloud Computing
+Webinare
+Kostenlose Webinare zu vielfältigen Themen
+Release Notes
+Finden Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen
+STACKIT Docs
+Umfassende Anleitungen, technische Referenzen und praktische Tutorials
+Events
+Marketplace
+Portal
+Marketplace
+Kontakt
+Der EU AI Act im Überblick
+KI-Systeme sicher, transparent und regelkonform betreiben
+Lernen
+Wissen
+Cloud
+Cloud AI
+AI Act
+30.07.2026, Lesezeit: 8 Minuten
+Auf einen Blick: EU AI Act mit STACKIT
+Was ist der EU AI Act?
+Ein europaweiter Rechtsrahmen, der den Einsatz von Künstlicher Intelligenz anhand von vier Risikoklassen (unannehmbar, hoch, begrenzt, minimal) verbindlich regelt.
+Wen betrifft es?
+Alle Unternehmen, Behörden und Anbieter (Provider & Deployer), die KI-Systeme in der EU entwickeln, vertreiben oder einsetzen.
+STACKITs Lösung:
+Eine souveräne, europäische Cloud-Plattform mit zertifizierten Sicherheitsstandards (ISO 27001, C5) und AI Model Serving zur gesetzes- und datenschutzkonformen Nutzung von KI.
+Vorteile für Organisationen:
+Volle Datensouveränität, strukturierte Erfüllung von Dokumentations- und Auditpflichten sowie kein Re-Training von Modellen auf eigenen Nutzerdaten.
+Regulierte KI in Europa: Wie STACKIT Unternehmen sicher durch den AI Act führt
+Kaum eine Technologie hat die Arbeitswelt so rasant verändert wie die Künstliche Intelligenz (KI). Sie analysiert Daten, unterstützt medizinische Diagnosen und automatisiert Prozesse. Dabei verändert sie ganze Branchen. Doch mit dem Fortschritt wächst auch die Verantwortung. Denn die Folgen eines unregulierten Umgangs mit der KI sind unabsehbar.
+Deshalb hat die Europäische Kommission gehandelt und mit dem AI (Artificial Intelligence) Act einen weltweit einzigartigen Rechtsrahmen geschaffen. Die Verordnung ist seit dem 21. Mai 2024 in Kraft und wird schrittweise bis Mitte 2026 umgesetzt. Seit 2025 sind neue, verbindliche Vorgaben für alle Unternehmen hinzugekommen, die KI-Systeme in den Mitgliedstaaten der Europäischen Union entwickeln, einsetzen oder vertreiben.
+Für viele Anwender und Anbieter ist daher spätestens jetzt der Zeitpunkt gekommen, ihre KI-Projekte auf Konformität zu prüfen und diese strukturiert umzusetzen. Erfahren Sie hier, was die KI-Verordnung im Detail regelt, welche konkreten Aufgaben auf Sie zukommen und wie sich Ihr Unternehmen auf diese Vorgaben einstellen kann.
+Zentrale Begriffe rund um den AI Act mit STACKIT
+KI-System
+Ein System, das mithilfe von Daten und Algorithmen eigenständig Vorhersagen, Empfehlungen oder Entscheidungen trifft – mit oder ohne menschliches Eingreifen.
+Risikoklassen
+Vier Kategorien zur Einordnung von KI-Modellen nach ihrem Gefährdungspotenzial:
+Unannehmbar: verboten
+Hoch: strenge Auflagen
+Begrenzt: Kennzeichnungspflicht
+Minimal: keine besonderen Anforderungen
+Provider (Anbieter)
+Organisationen, die KI-Systeme entwickeln oder in Verkehr bringen und für die Einhaltung der Anforderungen des KI-Gesetzes verantwortlich sind.
+Deployer (Betreiber)
+Unternehmen die Künstliche Intelligenz einsetzen, ohne sie selbst zu entwickeln. Betreiber sind verantwortlich für die sichere und gesetzeskonforme Nutzung.
+GPAI (General Purpose AI)
+KI-Modelle mit allgemeinem Verwendungszweck, die flexibel in unterschiedlichen Kontexten einsetzbar sind. Sie unterliegen besonderen Anforderungen, insbesondere wenn sie weiterverwendet oder angepasst werden.
+Konformitätsbewertung
+Verfahren zur Bewertung der AI-Act-Umsetzung. Beinhaltet u. a. Risikoanalysen, technische Dokumentation und ggf. externe Audits.
+AI Office
+Das zentrale Büro für die Überwachung des KI-Gesetzes ist das AI Office der Europäischen Kommission. Dieses Büro koordiniert die Umsetzung und Einhaltung der Inhalte des AI Acts und ist Anlaufstelle für die nationalen Behörden und Unternehmen. Offizielle Unterlagen zur KI-Verordnung stehen auch in Deutsch zur Verfügung.
+Der AI Act mit STACKIT: Ihre Vorteile im Überblick
+Die Umsetzung der 2024 von einem europäischen Gremium der Mitgliedstaaten beschlossenen KI-Verordnung stellt viele Marktteilnehmer vor große Herausforderungen. Gefordert sind Transparenz, Sicherheit, klare Prozesse und eine verlässliche Infrastruktur, die den gesetzlichen Rahmenbedingungen entspricht. Die Cloud-Lösung von STACKIT ist speziell auf die Anwendung der EU-Verordnung zugeschnitten und bietet Ihnen viele Vorteile:
+EU-konforme Cloud-Infrastruktur
+Die leistungsfähige Cloud-Infrastruktur von STACKIT erfüllt alle zentralen Vorgaben des AI Acts: wie Datenschutz, Risikomanagement, Governance oder technische Compliance. Das schafft Rechtssicherheit und stärkt das Vertrauen in Künstliche Intelligenz.
+Regulatorische Umsetzung leicht gemacht
+STACKIT begleitet Organisationen bei der Umsetzung gesetzlicher Pflichten. Dazu gehören Risikoanalysen, technische Dokumentationen und die Einhaltung von Transparenzpflichten bei Hochrisiko-Systemen. Die Vorgaben des AI Acts lassen sich so strukturiert und effizient umsetzen.
+Geprüfte Sicherheit und zertifizierte Standards
+Die Zertifizierungen von STACKIT, wie ISO 27001 und C5, erfüllen die geforderten Sicherheitsbestimmungen aus dem AI Act. Besonders wichtig für Hochrisiko-Anwendungen in den Bereichen Gesundheit, Industrie oder öffentliche Verwaltung.
+Transparenz und Nachvollziehbarkeit von KI-Anwendungen
+Die Plattform erlaubt die vollständige Dokumentation aller KI-Prozesse. So lassen sich Modelle, Datenverarbeitungen und die Abhängigkeit zu anderen Systemen jederzeit nachvollziehen. Die Anforderungen an Auditierbarkeit und Nachweispflichten gegenüber Behörden werden zuverlässig erfüllt.
+Sichere Nutzung von generativen KI-Modellen
+STACKIT AI Model Serving unterstützt den datenschutzkonformen Einsatz von GPAI- und GenAI-Modellen, wie Llama 3.1. Es werden keine Nutzerdaten gespeichert oder für Trainings verwendet. Das erleichtert die Umsetzung der neuen Vorgaben im Bereich Transparenz und Datenschutz.
+Weitere Informationen zu STACKIT AI Model Serving
+Zukunftsfähig dank kontinuierlicher Weiterentwicklung
+STACKIT entwickelt seine Plattform laufend weiter, um auch zukünftige EU-Verordnungen wie den Data Act oder branchenspezifische Regelungen zu berücksichtigen. So bleiben Sie auch langfristig regelkonform aufgestellt.
+Die KI-Verordnung im Detail: Pflichten, Risikoklassen und Aufgaben für Ihr Unternehmen
+Der AI Act ist ein Gesetz, das den Einsatz von Künstlicher Intelligenz in der Europäischen Union umfassend regelt. Ziel der Verordnung ist es, KI-Systeme so zu gestalten, dass sie mit europäischen Werten vereinbar sind – wie dem Schutz der Grundrechte, Datenschutz und Transparenz. Je höher das Risiko für das Individuum und die Gesellschaft, desto strenger die Anforderungen.
+Vier Risikokategorien von KI-Systemen laut EU-Gesetz
+Unannehmbares Risiko:
+Verboten sind KI-Systeme, die Grundrechte verletzen, Menschen gezielt manipulieren oder abwerten. Ebenfalls untersagt sind Systeme, die Personengruppen auf Grundlage ihres Sozialverhaltens bewerten, etwa bei der Vergabe von Krediten oder dem Zugang zu Sozialleistungen. Besonders streng reglementiert ist der Einsatz biometrischer Systeme, etwa zur Gesichtserkennung im öffentlichen Raum. Der Artikel 5.1 des AI Acts definiert diese und andere Praktiken als unannehmbare Risiken und untersagt deren Einsatz in der gesamten Europäischen Union.
+Hohes Risiko:
+Artikel 6 der Verordnung stuft Systeme mit gravierenden Auswirkungen auf die Sicherheit oder die Grundrechte – etwa in der Medizin, der Justiz oder kritischer Infrastruktur – als hochriskant ein. Organisationen sind zu umfangreicher Dokumentation, Risikoanalyse und einer menschlichen Bewertung verpflichtet.
+Begrenztes Risiko:
+Dazu zählen Chatbots oder Empfehlungssysteme. Sie müssen als KI gekennzeichnet sein und dürfen Nutzer nicht täuschen.
+Minimales Risiko:
+Hierunter fallen Spamfilter oder automatische Übersetzungen. Diese gelten als risikoarm und unterliegen keinen besonderen Auflagen.
+Welche Vorschriften müssen Unternehmen erfüllen?
+Alle betroffenen Anbieter und Anwender sind verpflichtet, ihre eingesetzten KI-Systeme systematisch zu erfassen. Diese sind nach den Kriterien des KI-Gesetzes zu klassifizieren und zu bewerten. Auf dieser Grundlage müssen geeignete Maßnahmen zur Einhaltung der gesetzlichen Anforderungen ergriffen werden. Für KI-Systeme mit hohem Risiko kommen zusätzliche Auflagen hinzu, wie eine lückenlose Dokumentation, regelmäßige Prüfungen und Audits sowie transparente Informationen gegenüber Endnutzern. Darüber hinaus müssen Organisationen künftig den Nachweis erbringen, dass ihre KI-Systeme jederzeit den Regeln des Gesetzes entsprechen.
+Der AI Act mit STACKIT in der Praxis
+Die Verordnung betrifft alle, die Künstliche Intelligenz innerhalb der Europäischen Union entwickeln, vertreiben oder nutzen – unabhängig davon, ob es sich um ein Start-up, ein mittelständisches Unternehmen oder einen internationalen Konzern handelt. Entscheidend ist allein, ob ein KI-System im europäischen Markt zum Einsatz kommt. Im Fokus stehen Branchen mit sensiblen Daten und hohem Impact, wie die öffentliche Verwaltung, die Industrie, das Gesundheitswesen, der Finanzsektor oder der Handel. Auch wenn Sie KI-Modelle aus Drittstaaten importieren oder weiterverarbeiten, unterliegen Sie diesen Vorgaben. Damit gelten einheitliche Regeln für alle Marktakteure in den EU-Mitgliedstaaten.
+Öffentlicher Sektor
+Effiziente Antragsbearbeitung mit transparenter KI
+Kommunen verwenden oftmals KI-gestützte Systeme zur automatisierten Antragsbearbeitung ihrer Bürgerservices – etwa für Wohngeldanträge oder Meldebescheinigungen. Mit der zertifizierten STACKIT Cloud verbleiben sämtliche Daten in Europa. Die Plattform kann Kommunen zusätzlich bei der strukturierten Risikoanalyse und der Umsetzung von Transparenz- und Auditierungspflichten unterstützen. Verwaltungsprozesse lassen sich so effizienter gestalten, ohne regulatorische Vorgaben zu verletzen.
+Zur Branchenseite Öffentlicher Sektor
+Digital Health
+Diagnostik mit regelkonformer KI
+In der medizinischen Versorgung spielt Verlässlichkeit eine zentrale Rolle – besonders, wenn KI in der Diagnostik eingesetzt wird. STACKIT AI Model Serving ermöglicht es, sensible Gesundheitsdaten ausschließlich in zertifizierten Rechenzentren innerhalb der EU zu verarbeiten. Gleichzeitig unterstützt Sie die Plattform bei der vollständigen Dokumentation, der Nachvollziehbarkeit von Modellentscheidungen und der Einbindung menschlicher Kontrolle. So lassen sich Innovation und Regulierung sicher verbinden.
+Zur Branchenseite Gesundheitswesen
+Industrie & Fertigung
+Qualität sichern mithilfe von KI
+Produktionsbetriebe, die auf automatisierte Qualitätssicherung setzen, stehen vor der Herausforderung, KI-Modelle nicht nur leistungsfähig, sondern auch gesetzeskonform einzubinden. Mit STACKIT lassen sich Datenströme und Modellversionen zentral verwalten, Risiken systematisch bewerten und regulatorische Vorgaben zuverlässig erfüllen, auch über komplexe Lieferketten hinweg.
+Zur Branchenseite Fertigung
+E-Commerce
+Transparenz bei personalisierten Empfehlungen
+Wo Kundenerwartungen auf intelligente Produktempfehlungen treffen, kommt KI längst routiniert zum Einsatz. Über STACKIT können Onlinehändler sicherstellen, dass alle Kundendaten AI-Act- und DSGVO-konform verarbeitet werden. Die Plattform bietet Funktionen zur transparenten Kennzeichnung von KI-basierten Informationen, vereinfacht die Nachweisführung gegenüber Aufsichtsbehörden und fördert Vertrauen auf beiden Seiten.
+Zur Branchenseite Handel
+Praxistipps für den Einstieg in den AI Act mit STACKIT
+Das AI Gesetz hat die Regeln bereits 2024 klar definiert. 2025 ist also der richtige Zeitpunkt, um die Weichen für Ihren Umgang mit KI zu stellen. So können Sie spätere Risiken vermeiden und KI-Projekte regelkonform zum Erfolg führen. Die folgenden Tipps helfen Ihnen dabei, strukturiert und praxisnah vorzugehen.
+Verschaffen Sie sich frühzeitig einen Überblick
+Identifizieren Sie alle eingesetzten KI-Systeme und ordnen Sie diese den entsprechenden Risikoklassen zu. Ein zentrales AI-Inventar erleichtert die Verwaltung, Dokumentation und spätere Nachverfolgung deutlich.
+Bewerten Sie Risiken systematisch
+Nutzen Sie etablierte Frameworks wie CapAI oder das NIST AI Risk Management Framework, um regulatorische, technische und ethische Risiken strukturiert zu analysieren. So können Sie Schwachstellen früh erkennen und gezielt gegensteuern.
+Integrieren Sie die Dokumentation von Anfang an in Ihren Prozess
+Halten Sie technische Parameter, Datenquellen, Trainingsdaten und Compliance-Nachweise zu jedem KI-System strukturiert fest. Das reduziert den Aufwand im Auditfall und schafft intern wie extern mehr Sicherheit.
+Achten Sie auf Transparenz
+Kennzeichnen Sie KI-gestützte Anwendungen und stellen Sie Informationen zu deren Funktionsweise bereit. Das ist bei vielen Prozessen nicht nur gesetzlich vorgeschrieben, sondern stärkt auch das Vertrauen in Ihre Services.
+Schulen Sie Ihre Belegschaft
+Laut Gesetz müssen alle, die mit Hochrisiko-KI arbeiten, über entsprechende Kompetenzen verfügen. Bieten Sie regelmäßig abteilungsübergreifende Schulungen zu Governance, ethischen Richtlinien und rechtlichen Vorgaben an.
+Überprüfen Sie regelmäßig Ihre Prozesse
+Compliance ist kein statischer Zustand. Etablieren Sie interne Kontrollen, regelmäßige Audits und Update-Prozesse, um auf neue gesetzliche Vorgaben oder technische Änderungen rechtzeitig reagieren zu können.
+Mit STACKIT sicher durch das KI-Regelwerk
+Der AI Act bringt nicht nur neue Pflichten, sondern auch die Chance, Künstliche Intelligenz verantwortungsvoll und zukunftssicher einzusetzen. Für Sie bedeutet das: mehr Struktur und Transparenz innerhalb eines klaren rechtlichen Rahmens. Mit STACKIT als europäischem Cloud-Partner lassen sich die Herausforderungen des AI Acts effizient meistern. Ob in der Verwaltung, der Industrie, dem Gesundheitswesen oder dem Handel – setzen auch Sie 2025 auf KI-Systeme, die heute und in Zukunft ihr Potenzial steigern können.
+Häufig gestellte Fragen zum AI Act mit STACKIT
+Für wen gilt der AI Act?
+Für alle Unternehmen, die KI-Systeme in der Europäischen Union entwickeln, vertreiben oder einsetzen: unabhängig von der Branche, Größe oder dem Unternehmenssitz.
+Was zählt zu Hochrisiko-KI-Systemen?
+Dazu gehören Anwendungen mit potenziell gravierenden Auswirkungen auf die Gesundheit, Sicherheit oder die Grundrechte: zum Beispiel in der Medizin, in der Justiz oder in kritischer Infrastruktur.
+Welche Strafen drohen bei Verstößen?
+Bei Nichteinhaltung können Bußgelder von bis zu 6 % des weltweiten Jahresumsatzes oder bis zu 30 Millionen Euro verhängt werden.
+Wann müssen die Vorschriften umgesetzt sein?
+Die Europäische Kommission beschloss das Maßnahmen-Paket im Mai 2024. Seit August 2024 müssen bereits erste Regelungen, etwa Verbote besonders risikoreicher KI-Anwendungen, umgesetzt sein. Die meisten Pflichten – insbesondere für Hochrisiko-Systeme – greifen ab Mitte 2025 bzw. vollumfänglich ab August 2026.
+© 2026 STACKIT
+STACKIT
+STACKIT. Als europäischer Hyperscaler von Schwarz Digits vereinen wir bewährte Enterprise-Skalierung und ein umfassendes Service-Portfolio mit europäischer DNA.
+STACKIT - Skalierbar. Sicher. Souverän.
+STACKIT Unternehmensprofil
+Kontakt
+Adresse
+Schwarz Digits Cloud GmbH & Co. KG
+Am Campus 1
+74177 Bad Friedrichshall
+info@stackit.cloud
+Support
+07132-30-474747
+Plattformen
+Portal
+Marketplace
+Help Center
+STACKIT Calculator
+Social Media
+Über STACKIT
+Cloud-Vorteile
+Datensouveränität
+Success Stories
+Preise
+Über uns
+News
+Partner
+Newsletter
+Karriere
+STACKIT Fakten
+Produkte
+Confidential
+Compute Engine
+Storage
+Network
+Runtime
+Database
+Messaging
+Logging & Monitoring
+Security
+Data & AI
+Developer Platform
+Quantum Computing
+Integration
+Lösungen
+Handel
+Gesundheitswesen
+Öffentlicher Sektor
+Fertigungsindustrie
+Kirche und Wohlfahrt
+Finanzdienstleistungen
+Know-How
+STACKIT Docs
+Erste Schritte
+Release Notes
+STACKIT University
+Webinare
+Wissen
+Rechtliches
+AGB
+Compliance
+Impressum
+Datenschutz
+Cookie-Note
+Preisliste
+Abuse
+Kontakt für Behörden und DSA Meldungen
+Zertifikate

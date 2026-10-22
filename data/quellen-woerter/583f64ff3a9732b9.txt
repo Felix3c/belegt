@@ -5,6 +5,7 @@
 ,
 ,
 ,
+,
 1,
 100%
 100%
@@ -12,12 +13,12 @@
 14
 14
 14
-2
 2026
 2026
 2026
 2026
 2026
+27001
 27001
 27001
 27001
@@ -68,6 +69,7 @@ API
 API
 API
 API
+API
 About
 About
 About
@@ -89,6 +91,7 @@ Apps
 Apps
 Assessment).
 B
+BV
 Blog
 Blog
 Blog
@@ -103,6 +106,7 @@ Can
 Cancel
 Certifications
 Changelog
+Chat
 Chat
 Chat
 Chat
@@ -184,6 +188,7 @@ Every
 Every
 Every
 FAQ
+FR
 Fast,
 Features
 Fewer
@@ -197,6 +202,9 @@ For
 Foundation
 France
 France.
+Français
+Français
+Français
 Free
 Free
 Frida
@@ -227,6 +235,7 @@ GreenPT
 GreenPT
 GreenPT
 GreenPT
+GreenPT
 GreenPT.
 GreenPT.
 GreenPT:
@@ -241,7 +250,7 @@ Hosted
 Hosted
 I
 I
-II
+ISO
 ISO
 ISO
 ISO
@@ -259,7 +268,10 @@ Kimi.
 Knowledge
 Legal
 Live
-Login
+Log
+Log
+Log
+Log
 Login
 Make
 Measure
@@ -304,7 +316,6 @@ Open
 Open
 Open-weight
 OpenAI-compatible
-Our
 Our
 PDFs
 Partners
@@ -357,7 +368,6 @@ Resell,
 Resources
 Respected
 Rights
-SOC
 Same
 Scaleway
 Scaleway
@@ -396,10 +406,10 @@ Terms
 The
 The
 The
+The
 Training
 Try
 Turn
-Type
 US
 US
 US
@@ -523,7 +533,9 @@ any
 anyone
 anyone
 app
+apps
 architecture.
+are
 are
 are
 are
@@ -547,6 +559,7 @@ backed
 backups
 be
 believe
+billing
 black
 borders,
 borders,
@@ -577,10 +590,14 @@ catalog:
 centers
 centers
 centers,
+centres
 centres,
-certifications,
+certification.
 certified
 certified
+certified
+chat
+chat
 chat
 chat
 chat
@@ -603,6 +620,8 @@ compliance
 compliant
 compromise?
 compute.
+console
+console
 content
 content;
 control
@@ -688,7 +707,6 @@ energy,
 ensure
 ensuring
 ensuring
-ensuring
 environment
 environment.
 ever
@@ -709,6 +727,7 @@ fewer
 fewer
 first
 focused
+for
 for
 for
 for
@@ -754,7 +773,6 @@ happy
 have
 have
 hidden
-highest
 history,
 history?
 hosted
@@ -787,12 +805,15 @@ in
 in
 in
 in
+in
+in
+in
+in
 independent
 industry-standard
 information
 information
 information
-infrastructure
 infrastructure
 infrastructure
 infrastructure,
@@ -814,10 +835,13 @@ is
 is
 is
 is
+is
 is.
 isn&#39;t
 it
+its
 just
+keys,
 know.
 language.
 last
@@ -840,7 +864,6 @@ logging
 long
 losing
 lower
-maintains
 manage
 manage
 means
@@ -900,7 +923,7 @@ of
 of
 of
 of
-of
+on
 on
 on
 on
@@ -951,6 +974,7 @@ own
 own
 own
 own
+own
 parties,
 partners
 partners
@@ -986,7 +1010,6 @@ protected
 protected.
 protection
 protection
-protection.
 provide
 provider
 providers
@@ -1025,6 +1048,7 @@ rights
 route
 routine
 run
+run
 running
 runs
 runs
@@ -1035,7 +1059,7 @@ schedule.
 scoped
 secure
 security
-security
+security.
 sees
 self-hosted
 servers
@@ -1053,7 +1077,6 @@ specific
 speech.
 staff
 standard
-standards
 started,
 starts
 stays
@@ -1102,7 +1125,6 @@ the
 the
 the
 the
-the
 their
 then
 they
@@ -1132,6 +1154,10 @@ to
 to
 to
 to
+to
+to
+to
+to
 tokens,
 tokens,
 tokens,
@@ -1139,6 +1165,7 @@ tools
 tools
 touch
 touch
+towards
 traffic
 trails
 train
@@ -1166,6 +1193,7 @@ underlying
 up
 updates.
 us
+usage
 use
 use
 use
@@ -1178,6 +1206,7 @@ using
 using
 verified.
 vision,
+we
 we
 we
 we
@@ -1210,6 +1239,7 @@ without
 without
 work
 work.
+working
 workspace.
 write
 you
@@ -1259,6 +1289,7 @@ your
 ·
 ↳
 🇩🇪
+🇫🇷
 🇬🇧
 🇳🇱
 🇺🇸
