@@ -1,0 +1,16 @@
+Quelle: https://nordference.ai/gdpr und Startseite https://nordference.ai/ (Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js, Stilvorlage https://nordference.ai/assets/index-DWn1UTBL.css)
+Abruf: 2026-10-23 ~00:55 UTC (curl, HTTP 200), SHA-256 Bündel e68e235c030f22f12e517dd2592ca0e56e4e10bf0b5bcd8f90d9f82f0593d9ad, SHA-256 Stilvorlage 4b78c434c06e7b879ed811945268ed4bcd6c5c65f69ba95ee997d604653eca0e, belegbar.eu
+
+1. Datenschutzseite (Stand laut Seite 28.01.2026), wörtlich:
+No Third-Country Transfers
+Unlike many AI providers, we do not transfer data to third countries outside the EEA. This eliminates concerns about adequacy decisions, Standard Contractual Clauses, or other transfer mechanisms.
+
+2. Startseite, HTML-Kopf, wörtlich:
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+3. Stilvorlage, Anfang, wörtlich:
+@import"https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Geist+Mono:wght@100..900&display=swap"
+@import"https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap"
+
+Lesart: Jede Besucherin lädt die Schriften von fonts.googleapis.com / fonts.gstatic.com (Google). Das betrifft die Website, nicht die API; ob die Aussage der Datenschutzseite auch Website-Besuche meint, sagt die Seite nicht.

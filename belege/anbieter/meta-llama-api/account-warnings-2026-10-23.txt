@@ -1,0 +1,43 @@
+Quelle: https://dev.meta.ai/help/policies-and-privacy/account-warnings
+Abruf: 2026-10-23 01:19:09 +0200
+
+AI Developer Help Center
+
+Meta
+
+StatusContact us
+
+Menu
+
+Status
+
+Contact us
+
+Close popover
+
+Back to Help Center
+
+Why did I receive a warning or enforcement action on my account?
+
+Account warnings and enforcement actions are issued when the system detects activity that may violate the Terms of Service or Acceptable Use Policy.
+
+What to expect
+
+Warnings require you to share the measures you are taking to prevent future violations.
+
+Enforcement actions may include suspension of your API key or blocking of API access.
+
+Failure to respond to a warning, or continued violations, may result in escalating enforcement.
+
+Details about the specific violation and your options are included in the email notification you received.
+
+How to appeal
+
+If you believe the warning or enforcement action was issued in error, contact support.
+
+Terms of ServiceAcceptable Use Policy
+
+Please confirm your identity
+For added security, you need to confirm your identity. You will be taken to your single sign-on provider, where you can enter your password.
+
+CancelContinue

@@ -1,0 +1,1930 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Overview: What is Pharia-1-LLM-7B? :: Aleph Alpha Documentation</title>
+        <meta name="generator" content="Antora 3.1.10">
+        <link rel="stylesheet" href="../../../_/css/site.css">
+        <link rel="stylesheet" href="../../../_/css/vendor/tabs.css">
+<link rel="icon" href="../../../_/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../../_/css/helm-charts.css">
+<link rel="stylesheet" href="../../../_/css/swagger-ui.css"/>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Aleph Alpha Documentation">
+    <meta property="og:title" content="Overview: What is Pharia-1-LLM-7B?">
+
+
+    </head>
+    <body class="article h-fit">
+        <nav aria-label="Main" class="sticky z-50 top-0 w-full bg-core-bg-primary text-core-content-primary">
+    <div class="flex flex-col w-full">
+        <div class="w-full pl-L py-XXS pr-XL border-b border-core-border-default">
+            <div class="flex items-center justify-between">
+                <a class="flex items-center gap-XS hover:no-underline" href="https://aleph-alpha.com">
+    <div class="p-4XS">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <path d="M5.26752 21.056L7.51659 24C8.64113 23.243 9.6177 22.2897 10.5055 21.2803L7.51659 19.0374C6.83595 19.7944 6.09612 20.4673 5.26752 21.056Z" fill="currentColor"/>
+    <path d="M18.7917 2.94392L16.5426 0C15.4181 0.757009 14.4415 1.71028 13.5537 2.71963L16.5426 4.96262C17.2232 4.20561 17.9335 3.53271 18.7917 2.94392Z" fill="currentColor"/>
+    <path d="M13.9088 11.972C13.9088 7.26168 11.4822 2.80374 7.4575 0L5.14924 2.94392C8.25651 5.07477 10.0913 8.46729 10.0913 12.028C10.0913 16.7383 12.5179 21.1963 16.5426 24L18.8508 21.0561C15.7732 18.8972 13.9088 15.5327 13.9088 11.972Z" fill="currentColor"/>
+    <path d="M1.56843 4.20557L0 7.51398C1.80518 8.29902 3.07768 10.0093 3.07768 12C3.07768 13.9906 1.80518 15.7289 0 16.4859L1.56843 19.7943C4.7053 18.4486 6.89519 15.4766 6.89519 12C6.89519 8.52332 4.7053 5.52332 1.56843 4.20557Z" fill="currentColor"/>
+    <path d="M20.9223 12C20.9223 9.98127 22.1948 8.27099 24 7.51398L22.4315 4.20557C19.2947 5.55136 17.1048 8.55136 17.1048 12C17.1048 15.4766 19.2947 18.4486 22.4315 19.7943L24 16.4859C22.1652 15.7289 20.9223 13.9906 20.9223 12Z" fill="currentColor"/>
+</svg>    </div>
+    <div class="whitespace-nowrap text-core-content-primary heading-16">Aleph Alpha</div>
+</a>                <div class="flex gap-XXS">
+                    <a href="https://aleph-alpha.com/" target="_blank" rel="noopener noreferrer" class="header-button label-14-medium p-S text-core-content-secondary">
+                        <div class="px-3XS">Homepage</div>
+                    </a>
+                    <div>
+                        <div class="solution-dropdown label-14-medium p-S text-core-content-secondary border border-transparent">
+                            <div class="px-3XS">Solutions</div>
+                        </div>
+                        <div class="absolute z-51 top-[60px] left-[5%] right-[5%] flex justify-center">
+    <div class="solutions-menu bg-core-bg-tertiary p-3XL rounded-xl grid grid-cols-2">
+        <div class="flex flex-col gap-XXL pr-XXL">
+            <div class="text-core-content-tertiary heading-14">
+                By Verticals
+            </div>
+            <div class="flex flex-col gap-XS">
+                <a class="p-S header-button flex items-center gap-L" href="https://aleph-alpha.com/public-sector/">
+    <div class="h-6 w-6 m-1.5 text-core-content-secondary">
+        <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="14" height="20" viewBox="0 0 14 20" fill="none">
+    <path d="M7 19.077C6.49483 19.077 6.05925 18.902 5.69325 18.552C5.32725 18.202 5.12825 17.7744 5.09625 17.2693H8.90375C8.87175 17.7744 8.67275 18.202 8.30675 18.552C7.94075 18.902 7.50517 19.077 7 19.077ZM4 15.8845C3.78717 15.8845 3.609 15.8128 3.4655 15.6693C3.32183 15.5256 3.25 15.3473 3.25 15.1345C3.25 14.9217 3.32183 14.7435 3.4655 14.6C3.609 14.4563 3.78717 14.3845 4 14.3845H10C10.2128 14.3845 10.391 14.4563 10.5345 14.6C10.6782 14.7435 10.75 14.9217 10.75 15.1345C10.75 15.3473 10.6782 15.5256 10.5345 15.6693C10.391 15.8128 10.2128 15.8845 10 15.8845H4ZM3.40375 13C2.35642 12.3487 1.52733 11.4977 0.9165 10.447C0.3055 9.3965 0 8.2475 0 7C0 5.05133 0.6795 3.3975 2.0385 2.0385C3.3975 0.6795 5.05133 0 7 0C8.94867 0 10.6025 0.6795 11.9615 2.0385C13.3205 3.3975 14 5.05133 14 7C14 8.2475 13.6945 9.3965 13.0835 10.447C12.4727 11.4977 11.6436 12.3487 10.5962 13H3.40375ZM3.85 11.5H10.15C10.9 10.9667 11.4792 10.3083 11.8875 9.525C12.2958 8.74167 12.5 7.9 12.5 7C12.5 5.46667 11.9667 4.16667 10.9 3.1C9.83333 2.03333 8.53333 1.5 7 1.5C5.46667 1.5 4.16667 2.03333 3.1 3.1C2.03333 4.16667 1.5 5.46667 1.5 7C1.5 7.9 1.70417 8.74167 2.1125 9.525C2.52083 10.3083 3.1 10.9667 3.85 11.5Z" fill="currentColor"/>
+</svg>    </div>
+    <div class="flex flex-col gap-0.5">
+        <div class="text-core-content-secondary label-14-bold">Public sector</div>
+        <div class="text-core-content-tertiary label-12">AI solutions for government and administration</div>
+    </div>
+</a>
+                <a class="p-S header-button flex items-center gap-L" href="https://aleph-alpha.com/industry/">
+    <div class="h-6 w-6 m-1.5 text-core-content-secondary">
+        <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="17" height="15" viewBox="0 0 17 15" fill="none">
+    <path d="M2.11525 13V14.25C2.11525 14.4625 2.04342 14.6406 1.89975 14.7843C1.75592 14.9281 1.57775 15 1.36525 15H0.75C0.5375 15 0.359417 14.9281 0.21575 14.7843C0.0719168 14.6406 0 14.4625 0 14.25V6.577L2.04225 0.75C2.11675 0.5205 2.25333 0.338167 2.452 0.203C2.65067 0.0676665 2.87183 0 3.1155 0H13.923C14.157 0 14.3695 0.06875 14.5605 0.20625C14.7513 0.34375 14.8837 0.525 14.9578 0.75L17 6.577V14.25C17 14.4625 16.9281 14.6406 16.7843 14.7843C16.6406 14.9281 16.4625 15 16.25 15H15.6348C15.4223 15 15.2441 14.9281 15.1003 14.7843C14.9566 14.6406 14.8848 14.4625 14.8848 14.25V13H2.11525ZM2.10775 5.077H14.8923L13.6307 1.5H3.36925L2.10775 5.077ZM3.96375 10.3463C4.32758 10.3463 4.63617 10.2188 4.8895 9.964C5.14267 9.70933 5.26925 9.40008 5.26925 9.03625C5.26925 8.67242 5.14192 8.36383 4.88725 8.1105C4.63242 7.85733 4.32308 7.73075 3.95925 7.73075C3.59542 7.73075 3.28692 7.85808 3.03375 8.11275C2.78042 8.36758 2.65375 8.67692 2.65375 9.04075C2.65375 9.40458 2.78117 9.71308 3.036 9.96625C3.29067 10.2196 3.59992 10.3463 3.96375 10.3463ZM13.0408 10.3463C13.4046 10.3463 13.7131 10.2188 13.9663 9.964C14.2196 9.70933 14.3462 9.40008 14.3462 9.03625C14.3462 8.67242 14.2188 8.36383 13.964 8.1105C13.7093 7.85733 13.4001 7.73075 13.0363 7.73075C12.6724 7.73075 12.3638 7.85808 12.1105 8.11275C11.8573 8.36758 11.7308 8.67692 11.7308 9.04075C11.7308 9.40458 11.8581 9.71308 12.1128 9.96625C12.3676 10.2196 12.6769 10.3463 13.0408 10.3463ZM1.5 11.5H15.5V6.577H1.5V11.5Z" fill="currentColor"/>
+</svg>    </div>
+    <div class="flex flex-col gap-0.5">
+        <div class="text-core-content-secondary label-14-bold">Industrials</div>
+        <div class="text-core-content-tertiary label-12">AI-driven automation for manufacturing industries</div>
+    </div>
+</a>
+                <a class="p-S header-button flex items-center gap-L" href="https://aleph-alpha.com/financial-services/">
+    <div class="h-6 w-6 m-1.5 text-core-content-secondary">
+        <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" width="15" height="19" viewBox="0 0 15 19" fill="none">
+    <path d="M6.45 12.6653L11.7538 7.3615L10.6845 6.29225L6.45 10.527L4.33075 8.40775L3.2615 9.477L6.45 12.6653ZM7.5 18.9423C5.33717 18.3524 3.5465 17.0793 2.128 15.123C0.709333 13.1667 0 10.9795 0 8.5615V2.80775L7.5 0L15 2.80775V8.5615C15 10.9795 14.2907 13.1667 12.872 15.123C11.4535 17.0793 9.66283 18.3524 7.5 18.9423ZM7.5 17.3615C9.23333 16.8115 10.6667 15.7115 11.8 14.0615C12.9333 12.4115 13.5 10.5782 13.5 8.5615V3.8365L7.5 1.596L1.5 3.8365V8.5615C1.5 10.5782 2.06667 12.4115 3.2 14.0615C4.33333 15.7115 5.76667 16.8115 7.5 17.3615Z" fill="currentColor"/>
+</svg>    </div>
+    <div class="flex flex-col gap-0.5">
+        <div class="text-core-content-secondary label-14-bold">Financial Services Industry</div>
+        <div class="text-core-content-tertiary label-12">Sovereign AI for banking and insurance</div>
+    </div>
+</a>
+            </div>
+        </div>
+        <div class="flex flex-col gap-XXL pl-XXL border-l border-core-border-default">
+            <div class="text-core-content-tertiary heading-14">
+                By Solutions
+            </div>
+
+            <div class="flex flex-col gap-XS">
+                <a class="p-S header-button flex items-center gap-L" href="https://aleph-alpha.com/financial-services/#DORA-compliance">
+    <div class="h-6 w-6 m-1.5 text-core-content-secondary">
+        <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="15" height="19" viewBox="0 0 15 19" fill="none">
+    <path d="M7.5 18.9423C5.33717 18.3524 3.5465 17.0793 2.128 15.123C0.709333 13.1667 0 10.9795 0 8.5615V2.80775L7.5 0L15 2.80775V8.5615C15 9.83067 14.792 11.0618 14.376 12.2548C13.96 13.4478 13.3437 14.541 12.527 15.5345L9.3845 12.3923C9.11017 12.5819 8.81183 12.7243 8.4895 12.8193C8.167 12.9141 7.83717 12.9615 7.5 12.9615C6.5375 12.9615 5.71358 12.6188 5.02825 11.9333C4.34275 11.2479 4 10.424 4 9.4615C4 8.499 4.34275 7.67508 5.02825 6.98975C5.71358 6.30425 6.5375 5.9615 7.5 5.9615C8.4625 5.9615 9.28642 6.30425 9.97175 6.98975C10.6573 7.67508 11 8.499 11 9.4615C11 9.799 10.9542 10.1251 10.8625 10.4398C10.7708 10.7543 10.6398 11.0538 10.4693 11.3385L12.3345 13.2038C12.6935 12.5013 12.9775 11.7638 13.1865 10.9913C13.3955 10.2189 13.5 9.409 13.5 8.5615V3.8365L7.5 1.596L1.5 3.8365V8.5615C1.5 10.5782 2.06667 12.4115 3.2 14.0615C4.33333 15.7115 5.76667 16.8115 7.5 17.3615C7.93333 17.2282 8.34583 17.0573 8.7375 16.849C9.12917 16.6407 9.51667 16.3948 9.9 16.1115L10.9152 17.1845C10.3909 17.5897 9.85125 17.9381 9.29625 18.2298C8.74108 18.5214 8.14233 18.7589 7.5 18.9423ZM7.5 11.4615C8.05 11.4615 8.52083 11.2657 8.9125 10.874C9.30417 10.4823 9.5 10.0115 9.5 9.4615C9.5 8.9115 9.30417 8.44067 8.9125 8.049C8.52083 7.65733 8.05 7.4615 7.5 7.4615C6.95 7.4615 6.47917 7.65733 6.0875 8.049C5.69583 8.44067 5.5 8.9115 5.5 9.4615C5.5 10.0115 5.69583 10.4823 6.0875 10.874C6.47917 11.2657 6.95 11.4615 7.5 11.4615Z" fill="currentColor"/>
+</svg>    </div>
+    <div class="flex flex-col gap-0.5">
+        <div class="text-core-content-secondary label-14-bold">DORA Contract Compliance</div>
+        <div class="text-core-content-tertiary label-12">AI support for digital risk compliance</div>
+    </div>
+</a>
+                <a class="p-S header-button flex items-center gap-L" href="https://aleph-alpha.com/public-sector/#government-assistant">
+    <div class="h-6 w-6 m-1.5 text-core-content-secondary">
+        <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+    <path d="M2.98075 15.4423V7.94225H4.48075V15.4423H2.98075ZM8.48075 15.4423V7.94225H9.98075V15.4423H8.48075ZM0 18.9423V17.4423H18.4615V18.9423H0ZM13.9808 15.4423V7.94225H15.4808V15.4423H13.9808ZM0 5.94225V4.51925L9.23075 0L18.4615 4.51925V5.94225H0ZM3.546 4.44225H14.9155L9.23075 1.69225L3.546 4.44225Z" fill="currentColor"/>
+</svg>    </div>
+    <div class="flex flex-col gap-0.5">
+        <div class="text-core-content-secondary label-14-bold">GovTech AI Assistant</div>
+        <div class="text-core-content-tertiary label-12">AI assistant for the public sector</div>
+    </div>
+</a>
+                <a class="p-S header-button flex items-center gap-L" href="https://aleph-alpha.com/industry/#pharia-engineering">
+    <div class="h-6 w-6 m-1.5 text-core-content-secondary">
+        <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+    <path d="M1.80775 16.75C1.30908 16.75 0.883083 16.5734 0.52975 16.2203C0.176583 15.8669 0 15.4409 0 14.9423V3C0 2.82433 0.0246668 2.65958 0.0740002 2.50575C0.123334 2.35192 0.203833 2.209 0.3155 2.077L1.69625 0.4155C1.80775 0.277 1.93525 0.173166 2.07875 0.103999C2.22242 0.034666 2.38208 0 2.55775 0H14.4423C14.6179 0 14.7776 0.034666 14.9212 0.103999C15.0647 0.173166 15.1923 0.277 15.3038 0.4155L16.6845 2.077C16.7962 2.209 16.8767 2.35192 16.926 2.50575C16.9753 2.65958 17 2.82433 17 3V14.9423C17 15.4409 16.8234 15.8669 16.4703 16.2203C16.1169 16.5734 15.6909 16.75 15.1923 16.75H1.80775ZM1.9 2.5H15.1L14.25 1.5H2.75L1.9 2.5ZM1.80775 15.25H15.1923C15.2821 15.25 15.3558 15.2212 15.4135 15.1635C15.4712 15.1058 15.5 15.0321 15.5 14.9423V4H1.5V14.9423C1.5 15.0321 1.52883 15.1058 1.5865 15.1635C1.64417 15.2212 1.71792 15.25 1.80775 15.25ZM11.05 12.9345L14.2345 9.75L11.05 6.5655L9.9655 7.65L12.0655 9.75L9.9655 11.85L11.05 12.9345ZM6 12.9345L7.0845 11.85L4.9845 9.75L7.0845 7.65L6 6.5655L2.8155 9.75L6 12.9345Z" fill="currentColor"/>
+</svg>    </div>
+    <div class="flex flex-col gap-0.5">
+        <div class="text-core-content-secondary label-14-bold">Pharia Engineering</div>
+        <div class="text-core-content-tertiary label-12">AI enhancing engineering and production efficiency</div>
+    </div>
+</a>
+            </div>
+        </div>
+    </div>
+</div>
+                    </div>
+                    <a href="https://aleph-alpha.com/blog/" class="header-button label-14-medium p-S text-core-content-secondary">
+                        <div class="px-3XS">Blog</div>
+                    </a>
+                </div>
+                <div class="flex items-center gap-XS">
+                    <button id="id-c8351669-6da2-4dca-814b-a5c0fd09c807" class="dark-mode-switcher p-XXS rounded-sm">
+    <span id="id-c8351669-6da2-4dca-814b-a5c0fd09c807-dark-mode-switcher-default" class="inline">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none">
+    <path d="M10.7 12.4405C11.518 13.2585 12.4296 13.9668 13.4348 14.5655C14.4398 15.1642 15.5134 15.6366 16.6558 15.9827C16.0211 16.7174 15.2622 17.2886 14.379 17.6962C13.4957 18.1039 12.5636 18.3078 11.5828 18.3078C9.70325 18.3078 8.10842 17.6526 6.79825 16.3423C5.48792 15.0321 4.83275 13.4373 4.83275 11.5577C4.83275 10.5769 5.03658 9.64483 5.44425 8.7615C5.85192 7.87833 6.42308 7.11942 7.15775 6.48475C7.50392 7.62708 7.97633 8.70075 8.575 9.70575C9.17367 10.7109 9.882 11.6225 10.7 12.4405ZM17.8635 14.0483C17.6135 13.9841 17.3661 13.9132 17.1213 13.8357C16.8764 13.7581 16.6341 13.6718 16.3943 13.577C16.5341 13.2578 16.6379 12.9296 16.7057 12.5922C16.7738 12.2551 16.8078 11.9102 16.8078 11.5577C16.8078 10.1039 16.2962 8.86542 15.2732 7.84225C14.2501 6.81925 13.0116 6.30775 11.5577 6.30775C11.2052 6.30775 10.8604 6.34008 10.5232 6.40475C10.1859 6.46958 9.85767 6.57183 9.5385 6.7115C9.44367 6.47183 9.36158 6.23533 9.29225 6.002C9.22308 5.76867 9.15642 5.527 9.09225 5.277C9.48592 5.12067 9.89108 5.00333 10.3077 4.925C10.7244 4.84683 11.1494 4.80775 11.5828 4.80775C13.4623 4.80775 15.0571 5.46292 16.3673 6.77325C17.6776 8.08342 18.3328 9.67825 18.3328 11.5577C18.3328 11.9911 18.2937 12.4161 18.2155 12.8328C18.1372 13.2494 18.0198 13.6546 17.8635 14.0483ZM10.8077 2.6925V0H12.3077V2.6925H10.8077ZM10.8077 23.1155V20.423H12.3077V23.1155H10.8077ZM18.3635 5.82125L17.2943 4.752L19.179 2.88275L20.248 3.9365L18.3635 5.82125ZM3.9365 20.2327L2.8675 19.179L4.752 17.2943L5.82125 18.3635L3.9365 20.2327ZM20.423 12.3077V10.8077H23.1155V12.3077H20.423ZM0 12.3077V10.8077H2.6925V12.3077H0ZM19.179 20.248L17.2943 18.3635L18.3635 17.2943L20.2327 19.179L19.179 20.248ZM4.752 5.82125L2.88275 3.9365L3.9365 2.8675L5.82125 4.752L4.752 5.82125Z" fill="currentColor"/>
+</svg>    </span>
+    <span id="id-c8351669-6da2-4dca-814b-a5c0fd09c807-dark-mode-switcher-sun" class="inline">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <path d="M9.37496 2.66005V1.6665C9.37496 1.48942 9.43489 1.34102 9.55475 1.2213C9.67461 1.10143 9.82309 1.0415 10.0002 1.0415C10.1774 1.0415 10.3258 1.10143 10.4454 1.2213C10.5651 1.34102 10.625 1.48942 10.625 1.6665V2.66005C10.625 2.83713 10.565 2.9856 10.4452 3.10546C10.3253 3.22518 10.1768 3.28505 9.99975 3.28505C9.82253 3.28505 9.67413 3.22518 9.55454 3.10546C9.43482 2.9856 9.37496 2.83713 9.37496 2.66005ZM9.37496 18.3332V17.3396C9.37496 17.1625 9.43489 17.0141 9.55475 16.8942C9.67461 16.7745 9.82309 16.7146 10.0002 16.7146C10.1774 16.7146 10.3258 16.7745 10.4454 16.8942C10.5651 17.0141 10.625 17.1625 10.625 17.3396V18.3332C10.625 18.5103 10.565 18.6587 10.4452 18.7784C10.3253 18.8982 10.1768 18.9582 9.99975 18.9582C9.82253 18.9582 9.67413 18.8982 9.55454 18.7784C9.43482 18.6587 9.37496 18.5103 9.37496 18.3332ZM18.3333 10.6248H17.3398C17.1627 10.6248 17.0142 10.5649 16.8943 10.445C16.7746 10.3252 16.7148 10.1767 16.7148 9.99963C16.7148 9.82241 16.7746 9.674 16.8943 9.55442C17.0142 9.4347 17.1627 9.37484 17.3398 9.37484H18.3333C18.5104 9.37484 18.6588 9.43477 18.7785 9.55463C18.8984 9.67449 18.9583 9.82296 18.9583 10C18.9583 10.1773 18.8984 10.3257 18.7785 10.4453C18.6588 10.565 18.5104 10.6248 18.3333 10.6248ZM2.66017 10.6248H1.66663C1.48954 10.6248 1.34114 10.5649 1.22142 10.445C1.10156 10.3252 1.04163 10.1767 1.04163 9.99963C1.04163 9.82241 1.10156 9.674 1.22142 9.55442C1.34114 9.4347 1.48954 9.37484 1.66663 9.37484H2.66017C2.83725 9.37484 2.98572 9.43477 3.10558 9.55463C3.22531 9.67449 3.28517 9.82296 3.28517 10C3.28517 10.1773 3.22531 10.3257 3.10558 10.4453C2.98572 10.565 2.83725 10.6248 2.66017 10.6248ZM16.3141 4.57671L15.862 5.02859C15.7468 5.144 15.6039 5.20303 15.4335 5.20567C15.2631 5.20845 15.1127 5.14463 14.9823 5.01421C14.8627 4.89463 14.8007 4.75095 14.7964 4.58317C14.7921 4.41539 14.8504 4.26692 14.9712 4.13775L15.4358 3.67296C15.5512 3.54907 15.6963 3.48574 15.871 3.48296C16.0456 3.48032 16.1975 3.54366 16.3268 3.67296C16.4561 3.80227 16.5186 3.95289 16.5143 4.12484C16.51 4.29678 16.4433 4.44741 16.3141 4.57671ZM5.02871 15.8619L4.56413 16.3267C4.44871 16.4506 4.30364 16.5139 4.12892 16.5167C3.95433 16.5194 3.80239 16.456 3.67308 16.3267C3.54378 16.1974 3.48128 16.0468 3.48558 15.8748C3.48989 15.7029 3.55663 15.5523 3.68579 15.423L4.13788 14.9711C4.25315 14.8557 4.396 14.7966 4.56642 14.794C4.73683 14.7912 4.88725 14.855 5.01767 14.9855C5.13725 15.105 5.1992 15.2487 5.2035 15.4165C5.20781 15.5843 5.14954 15.7328 5.02871 15.8619ZM15.4231 16.314L14.9712 15.8619C14.8558 15.7466 14.7968 15.6038 14.7941 15.4334C14.7913 15.263 14.8552 15.1125 14.9856 14.9821C15.1052 14.8625 15.2488 14.8006 15.4166 14.7963C15.5844 14.792 15.7329 14.8503 15.862 14.9711L16.3268 15.4357C16.4507 15.5511 16.5141 15.6962 16.5168 15.8709C16.5195 16.0455 16.4561 16.1974 16.3268 16.3267C16.1975 16.456 16.0469 16.5185 15.875 16.5142C15.703 16.5099 15.5524 16.4432 15.4231 16.314ZM4.13788 5.02859L3.67308 4.564C3.5492 4.44859 3.48586 4.30352 3.48308 4.1288C3.48045 3.95421 3.54378 3.80227 3.67308 3.67296C3.80239 3.54366 3.95302 3.48116 4.12496 3.48546C4.2969 3.48977 4.44753 3.5565 4.57683 3.68567L5.02871 4.13775C5.14413 4.25303 5.20315 4.39588 5.20579 4.5663C5.20857 4.73671 5.14475 4.88713 5.01433 5.01755C4.89475 5.13713 4.75107 5.19907 4.58329 5.20338C4.41551 5.20769 4.26704 5.14942 4.13788 5.02859ZM10.0018 14.5832C8.7292 14.5832 7.64684 14.1378 6.75475 13.2469C5.86267 12.3561 5.41663 11.2744 5.41663 10.0017C5.41663 8.72907 5.86204 7.64671 6.75288 6.75463C7.64371 5.86255 8.72545 5.4165 9.99809 5.4165C11.2707 5.4165 12.3531 5.86192 13.2452 6.75275C14.1373 7.64359 14.5833 8.72532 14.5833 9.99796C14.5833 11.2706 14.1379 12.353 13.247 13.245C12.3562 14.1371 11.2745 14.5832 10.0018 14.5832Z" fill="currentColor" />
+</svg>    </span>
+    <span id="id-c8351669-6da2-4dca-814b-a5c0fd09c807-dark-mode-switcher-moon" class="inline">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 14 14" >
+    <path d="M7.08313 13.9706C5.10882 13.9706 3.43472 13.2837 2.06083 11.9098C0.686945 10.5358 0 8.86162 0 6.88731C0 5.24314 0.50875 3.78162 1.52625 2.50273C2.54389 1.22384 3.89938 0.399602 5.59271 0.0300188C5.76799 -0.0138701 5.92236 -0.00963299 6.05583 0.0427281C6.18945 0.0950892 6.29792 0.173075 6.38125 0.276686C6.46458 0.380436 6.51375 0.506269 6.52875 0.654186C6.54361 0.802103 6.50889 0.949811 6.42458 1.09731C6.2525 1.41037 6.12479 1.7362 6.04146 2.07481C5.95813 2.41356 5.91646 2.76773 5.91646 3.13731C5.91646 4.50481 6.39403 5.66613 7.34917 6.62127C8.30431 7.57641 9.46563 8.05398 10.8331 8.05398C11.2424 8.05398 11.6335 8.00217 12.0063 7.89856C12.3792 7.79495 12.7056 7.67474 12.9854 7.53794C13.1222 7.47821 13.2558 7.4571 13.386 7.4746C13.5165 7.49224 13.6281 7.53578 13.721 7.60523C13.8226 7.67467 13.8981 7.76953 13.9477 7.88981C13.9974 8.00995 14.0031 8.1512 13.9646 8.31356C13.6686 9.95245 12.8713 11.305 11.5727 12.3713C10.2741 13.4375 8.77757 13.9706 7.08313 13.9706Z" fill="currentColor"/>
+</svg>    </span>
+    <script>
+        ;(function () {
+            'use strict'
+
+            const DEFAULT_THEME = 0
+            const LIGHT_THEME = 1
+            const DARK_THEME = 2
+
+            const toggle = document.querySelector('#id-c8351669-6da2-4dca-814b-a5c0fd09c807')
+            const defaultImage = document.querySelector('#id-c8351669-6da2-4dca-814b-a5c0fd09c807-dark-mode-switcher-default')
+            const sunImage = document.querySelector('#id-c8351669-6da2-4dca-814b-a5c0fd09c807-dark-mode-switcher-sun')
+            const moonImage = document.querySelector('#id-c8351669-6da2-4dca-814b-a5c0fd09c807-dark-mode-switcher-moon')
+            const ls = window.localStorage
+            if (!toggle || !defaultImage || !sunImage || !moonImage) return
+
+            toggle.addEventListener('click', function (e) {
+                const next = nextTheme(currentTheme())
+                setTheme(next)
+                applyTheme(next)
+
+                // don't let this event get smothered
+                e.stopPropagation()
+            })
+
+            function applyTheme(theme) {
+                switch (theme) {
+                    case DEFAULT_THEME:
+                        if (defaultDark()) {
+                            switchImageSource('light', 'dark')
+                            document.documentElement.setAttribute('data-theme', 'dark')
+                        } else {
+                            switchImageSource('dark', 'light')
+                            document.documentElement.setAttribute('data-theme', 'light')
+                        }
+                        defaultImage.style.display = 'inline'
+                        moonImage.style.display = 'none'
+                        sunImage.style.display = 'none'
+                        break
+                    case LIGHT_THEME:
+                        switchImageSource('dark', 'light')
+                        document.documentElement.setAttribute('data-theme', 'light')
+                        defaultImage.style.display = 'none'
+                        moonImage.style.display = 'none'
+                        sunImage.style.display = 'inline'
+                        break
+                    case DARK_THEME:
+                        switchImageSource('light', 'dark')
+                        document.documentElement.setAttribute('data-theme', 'dark')
+                        defaultImage.style.display = 'none'
+                        moonImage.style.display = 'inline'
+                        sunImage.style.display = 'none'
+                        break
+                }
+            }
+
+            function switchImageSource(from, to) {
+                var images = document.querySelectorAll('img')
+                for (const image of images) {
+                    var src = image.src
+                    if (src === undefined) {
+                        continue
+                    }
+                    var paths = src.split('/')
+                    if (!paths[paths.length - 1].startsWith(from)) {
+                        continue
+                    }
+                    paths[paths.length - 1] = paths[paths.length - 1].replace(from, to)
+                    image.src = paths.join('/')
+                }
+            }
+
+            function defaultDark() {
+                return window.matchMedia('(prefers-color-scheme: dark)').matches
+            }
+
+            function nextTheme(theme) {
+                switch (theme) {
+                    case DEFAULT_THEME:
+                        if (defaultDark()) {
+                            return DARK_THEME
+                        } else {
+                            return LIGHT_THEME
+                        }
+                    case DARK_THEME:
+                        if (defaultDark()) {
+                            return LIGHT_THEME
+                        } else {
+                            return DEFAULT_THEME
+                        }
+                    case LIGHT_THEME:
+                        if (defaultDark()) {
+                            return DEFAULT_THEME
+                        } else {
+                            return DARK_THEME
+                        }
+                    default:
+                        return LIGHT_THEME
+                }
+            }
+
+            function setTheme(theme) {
+                switch (theme) {
+                    case DEFAULT_THEME:
+                        ls.removeItem('darkmode')
+                        break
+                    case LIGHT_THEME:
+                        ls.darkmode = false
+                        break
+                    case DARK_THEME:
+                        ls.darkmode = true
+                        break
+                }
+            }
+
+            function currentTheme() {
+                if (!('darkmode' in ls)) {
+                    return DEFAULT_THEME
+                } else if (ls.darkmode === 'true') {
+                    return DARK_THEME
+                } else {
+                    return LIGHT_THEME
+                }
+            }
+
+            applyTheme(currentTheme())
+        })()
+    </script>
+</button>
+
+                </div>
+            </div>
+        </div>
+        <div class="w-full border-b border-core-border-default pl-L pr-XL py-Large">
+            <div class="flex items-center gap-1">
+                    <a href="
+                        ../../../phariaai-home/latest/index.html
+                    "
+                       class="header-button  navbar__item navbar__link px-3XS label-14-medium header-button items-center text-core-content-secondary rounded-sm"
+                    >
+                        <div class="p-S">PhariaAI home</div>
+                    </a>
+                    <a href="
+                        ../../../phariaai-user-guide/latest/pharia-assistant/index.html
+"
+                       class="header-button  navbar__item navbar__link px-3XS label-14-medium header-button items-center text-core-content-secondary rounded-sm"
+                    >
+                        <div class="p-S">PhariaAssistant</div>
+                    </a>
+                    <a href="
+                        ../../../phariaai-admin-guide/latest/index.html
+                    "
+                       class="header-button  navbar__item navbar__link px-3XS label-14-medium header-button items-center text-core-content-secondary rounded-sm"
+                    >
+                        <div class="p-S">Administrator</div>
+                    </a>
+                    <a href="
+                        ../index.html
+                    "
+                       class="header-button is-current-page navbar__item navbar__link px-3XS label-14-medium header-button items-center text-core-content-secondary rounded-sm"
+                    >
+                        <div class="p-S">Developer</div>
+                    </a>
+                    <a href="
+                        ../../../phariaai-install-config-guide/latest/index.html
+                    "
+                       class="header-button  navbar__item navbar__link px-3XS label-14-medium header-button items-center text-core-content-secondary rounded-sm"
+                    >
+                        <div class="p-S">Installation &amp; configuration</div>
+                    </a>
+                    <a href="
+                        ../../../verticals/index.html
+                    "
+                       class="header-button  navbar__item navbar__link px-3XS label-14-medium header-button items-center text-core-content-secondary rounded-sm"
+                    >
+                        <div class="p-S">Vertical AI solutions</div>
+                    </a>
+                    <a href="
+                        ../pharia-openapi/index.html
+"
+                       class="header-button  navbar__item navbar__link px-3XS label-14-medium header-button items-center text-core-content-secondary rounded-sm"
+                    >
+                        <div class="p-S">API</div>
+                    </a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+        <main class="article doc min-w-0" role="main">
+  <div class="content flex">
+        <div id="article-container" class="flex flex-row w-full">
+    <div id="nav-container" class="nav-container z-40 invisible lg:static lg:visible bg-core-bg-primary">
+  <aside class="nav sticky flex flex-col gap-XXL pt-XXL pb-2 pl-L overflow-visible">
+      <div class="pr-L">
+          <div id="search-field" class="relative inline-flex cursor-pointer items-center rounded-md border w-full">
+              <div class="z-0 absolute right-3 h-4 w-4 pointer-events-none">
+                  <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+    <path d="M4.07683 8.15367C2.93839 8.15367 1.97428 7.75883 1.1845 6.96917C0.394833 6.17939 0 5.21528 0 4.07683C0 2.93839 0.394833 1.97428 1.1845 1.1845C1.97428 0.394833 2.93839 0 4.07683 0C5.21528 0 6.17939 0.394833 6.96917 1.1845C7.75883 1.97428 8.15367 2.93839 8.15367 4.07683C8.15367 4.55294 8.07378 5.00767 7.914 5.441C7.75411 5.87433 7.54083 6.25122 7.27417 6.57167L11.1102 10.4077C11.2025 10.4999 11.2497 10.6159 11.2518 10.7557C11.2539 10.8954 11.2067 11.0136 11.1102 11.1102C11.0136 11.2067 10.8965 11.255 10.7588 11.255C10.6213 11.255 10.5042 11.2067 10.4077 11.1102L6.57167 7.27417C6.23833 7.54939 5.855 7.76478 5.42167 7.92033C4.98833 8.07589 4.54006 8.15367 4.07683 8.15367ZM4.07683 7.15383C4.93583 7.15383 5.66339 6.85572 6.2595 6.2595C6.85572 5.66339 7.15383 4.93583 7.15383 4.07683C7.15383 3.21783 6.85572 2.49028 6.2595 1.89417C5.66339 1.29794 4.93583 0.999833 4.07683 0.999833C3.21783 0.999833 2.49028 1.29794 1.89417 1.89417C1.29794 2.49028 0.999833 3.21783 0.999833 4.07683C0.999833 4.93583 1.29794 5.66339 1.89417 6.2595C2.49028 6.85572 3.21783 7.15383 4.07683 7.15383Z" fill="currentColor"/>
+</svg>              </div>
+              <input id="search-input" class="px-M py-XS w-full text-core-content-secondary bg-core-bg-primary border-core-border-default rounded-md" type="text" placeholder=Search>
+          </div>
+      </div>
+      <div class="panels flex flex-col h-full">
+          <div class="nav-menu-container overflow-auto overscroll-contain pr-L">
+              <div class="nav-panel-menu is-active" data-panel="menu">
+        <nav class="nav-menu">
+                <div class="flex items-center justify-between gap-2 rounded-md ">
+                    <a class="flex items-center w-full h-full py-XS min-h-[32px] text-core-content-tertiary label-14"
+                       href="../index.html"
+                    >
+                        <div class="flex items-center h-full w-full">
+                            <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+                            <div class="w-full">PhariaAI Developer Guide</div>
+                        </div>
+                    </a>
+                    <button class="nav-menu-toggle h-6 pr-S flex items-center justify-center text-core-content-tertiary" aria-label="Toggle expand/collapse all">
+                        <span class="collapse-all-icon" >
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <path d="M12 17.0538L7.927 21.127C7.7885 21.2653 7.61441 21.3362 7.40475 21.3395C7.19525 21.3427 7.018 21.2718 6.873 21.127C6.72816 20.982 6.65575 20.8063 6.65575 20.6C6.65575 20.3937 6.72816 20.218 6.873 20.073L10.9212 16.025C11.2147 15.7315 11.5743 15.5848 12 15.5848C12.4257 15.5848 12.7852 15.7315 13.0787 16.025L17.127 20.073C17.2653 20.2115 17.3362 20.3856 17.3395 20.5953C17.3427 20.8048 17.2718 20.982 17.127 21.127C16.982 21.2718 16.8063 21.3443 16.6 21.3443C16.3937 21.3443 16.218 21.2718 16.073 21.127L12 17.0538ZM12 6.94626L16.073 2.87301C16.2115 2.73468 16.3856 2.66385 16.5952 2.66051C16.8047 2.65735 16.982 2.72818 17.127 2.87301C17.2718 3.01801 17.3442 3.19368 17.3442 3.40001C17.3442 3.60635 17.2718 3.78201 17.127 3.92701L13.0787 7.97501C12.7852 8.26851 12.4257 8.41526 12 8.41526C11.5743 8.41526 11.2147 8.26851 10.9212 7.97501L6.873 3.92701C6.73466 3.78851 6.66383 3.61443 6.6605 3.40476C6.65733 3.19526 6.72816 3.01801 6.873 2.87301C7.018 2.72818 7.19366 2.65576 7.4 2.65576C7.60633 2.65576 7.782 2.72818 7.927 2.87301L12 6.94626Z" fill="currentColor"/>
+</svg>                        </span>
+                        <span class="expand-all-icon" >
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <path d="M12 19.4962L16.0577 15.4577C16.2064 15.3091 16.3804 15.2331 16.5797 15.2297C16.7791 15.2266 16.9563 15.3026 17.1115 15.4577C17.2667 15.6129 17.3442 15.7911 17.3442 15.9922C17.3442 16.1936 17.2667 16.3718 17.1115 16.527L13.0787 20.575C12.7852 20.8685 12.4257 21.0152 12 21.0152C11.5743 21.0152 11.2147 20.8685 10.9212 20.575L6.87299 16.527C6.72433 16.3782 6.65099 16.2015 6.65299 15.997C6.65483 15.7927 6.73333 15.6129 6.88849 15.4577C7.04366 15.3026 7.22183 15.2266 7.42299 15.2297C7.62433 15.2331 7.80258 15.3091 7.95774 15.4577L12 19.4962ZM12 4.50374L7.95774 8.52699C7.80891 8.67566 7.63483 8.74899 7.43549 8.74699C7.23616 8.74516 7.05891 8.67183 6.90374 8.52699C6.74874 8.37183 6.66866 8.19357 6.66349 7.99224C6.65833 7.79107 6.73333 7.61291 6.88849 7.45774L10.9212 3.42499C11.2147 3.13149 11.5743 2.98474 12 2.98474C12.4257 2.98474 12.7852 3.13149 13.0787 3.42499L17.1115 7.45774C17.2602 7.60641 17.3336 7.78299 17.3317 7.98749C17.3297 8.19199 17.2512 8.37183 17.0962 8.52699C16.9411 8.67183 16.7654 8.74516 16.5692 8.74699C16.3731 8.74899 16.1974 8.67566 16.0422 8.52699L12 4.50374Z" fill="currentColor"/>
+</svg>                        </span>
+                    </button>
+            </div>
+            <ul class="nav-list">
+  <li class="nav-item
+             m-0"
+      data-depth="0"
+  >
+    <ul class="nav-list">
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="1"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../get-token.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Get an authorisation token</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="1"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../phariaai-applications/index.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Developing custom PhariaAI applications</div>
+          </div>
+      </a>
+      <button class="pr-S text-core-content-tertiary">
+          <span class="nav-item-chevron flex w-6 h-6 align-middle">
+            <svg class="w-full h-full" width="16px" height="16px" viewBox="0 0 24 24" aria-hidden="true">
+  <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z" fill="currentColor" />
+</svg>          </span>
+      </button>
+    </div>
+    <ul class="nav-list">
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../phariaai-applications/intro.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Overview: Why PhariaAI applications?</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../phariaai-applications/what-are-custom-apps.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">What is a custom PhariaAI application?</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../phariaai-applications/developing-custom-apps.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">The development process of PhariaAI applications</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../phariaai-applications/quick-start-custom-apps.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Quick start guide: building PhariaAI applications</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../phariaai-applications/manage-access-to-apps.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Managing applications in PhariaStudio</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../phariaai-applications/feedback-api.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Collecting user feedback in PhariaAI applications</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../phariaai-applications/feedback-api-tutorial.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Tutorial: Collecting user feedback</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../phariaai-applications/add-app-icons.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Adding app icons and localized texts to custom PhariaAI applications</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../phariaai-applications/ui-library.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Introducing the UI library for PhariaAI applications</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../phariaai-applications/ui-development-best-practices.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">PhariaAI application UI development best practices</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../phariaai-applications/troubleshooting.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Troubleshooting</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+</ul>
+  </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="1"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-studio/index.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">PhariaStudio</div>
+          </div>
+      </a>
+      <button class="pr-S text-core-content-tertiary">
+          <span class="nav-item-chevron flex w-6 h-6 align-middle">
+            <svg class="w-full h-full" width="16px" height="16px" viewBox="0 0 24 24" aria-hidden="true">
+  <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z" fill="currentColor" />
+</svg>          </span>
+      </button>
+    </div>
+    <ul class="nav-list">
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-studio/intro.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Overview: Why PhariaStudio?</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-studio/architecture.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">PhariaStudio architecture</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-studio/managing-projects.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Creating and managing projects</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-studio/playground.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Working in the Playground</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-studio/model-settings.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Model settings</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-studio/add-sdks.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Adding PhariaAI SDKs to your project</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-studio/DEPRECATED-add-intelligence-layer.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">(Deprecated) Adding the Intelligence Layer SDK to your project</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-studio/implement-a-task.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Implementing a simple task</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-studio/execute-submit-trace.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Executing a task and submitting its trace</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-studio/examples-for-datasets.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Creating examples for an evaluation dataset</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-studio/store-dataset.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Storing an evaluation dataset in PhariaStudio</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-studio/create-evaluations.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Creating and submitting evaluations</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+</ul>
+  </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="1"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-assistant/index.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">PhariaAssistant</div>
+          </div>
+      </a>
+      <button class="pr-S text-core-content-tertiary">
+          <span class="nav-item-chevron flex w-6 h-6 align-middle">
+            <svg class="w-full h-full" width="16px" height="16px" viewBox="0 0 24 24" aria-hidden="true">
+  <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z" fill="currentColor" />
+</svg>          </span>
+      </button>
+    </div>
+    <ul class="nav-list">
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-assistant/dev-mode.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Previewing your applications in developer mode</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-assistant/retrieve-feedback.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Retrieving traces and feedback</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-assistant/resource-requirements.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Resource requirements for PhariaAssistant</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-assistant/model-recommendations.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Model recommendations for PhariaAssistant</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-assistant/recommended-index-config.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Recommended index configuration</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-assistant/chat-evaluation.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Chat evaluation framework</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-assistant/connect-analytics-services.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Connecting analytics services to PhariaAssistant</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-assistant/connect-telemetry-services.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Connecting telemetry services to PhariaAssistant</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+</ul>
+  </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="1"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-engine/index.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">PhariaEngine</div>
+          </div>
+      </a>
+      <button class="pr-S text-core-content-tertiary">
+          <span class="nav-item-chevron flex w-6 h-6 align-middle">
+            <svg class="w-full h-full" width="16px" height="16px" viewBox="0 0 24 24" aria-hidden="true">
+  <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z" fill="currentColor" />
+</svg>          </span>
+      </button>
+    </div>
+    <ul class="nav-list">
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-engine/intro.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Overview: Why PhariaEngine?</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-engine/concepts.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Concepts</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-engine/quick-start.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Quick start</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-engine/how-to.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Using the PhariaEngine SDK</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-engine/llm-code-execution.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">LLM code execution</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-engine/faq.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">FAQ</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item
+             m-0"
+      data-depth="0"
+  >
+    <ul class="nav-list">
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="1"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-data/index.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Data and Search Platform</div>
+          </div>
+      </a>
+      <button class="pr-S text-core-content-tertiary">
+          <span class="nav-item-chevron flex w-6 h-6 align-middle">
+            <svg class="w-full h-full" width="16px" height="16px" viewBox="0 0 24 24" aria-hidden="true">
+  <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z" fill="currentColor" />
+</svg>          </span>
+      </button>
+    </div>
+    <ul class="nav-list">
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-data/intro.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">What is the Data and Search Platform?</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-data/core-concepts.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Data and Search Platform: Core concepts</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-data/creating-search-stores.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Creating search stores</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-data/ingesting-files.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Ingesting files</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-data/workflows-and-presets.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Workflows and presets</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-data/configuring-workflows.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Configuring workflows</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-data/workflow-authors.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">For workflow authors</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-data/searching.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Searching your data</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-data/mcp-integration.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Connecting AI agents via MCP</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-data/resource-requirements.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Resource requirements</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-data/config-assistant.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Config Assistant</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-data/troubleshooting.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Troubleshooting</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-openapi/pharia-data.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">API reference</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+</ul>
+  </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="1"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../phariaai-sdks/index.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">PhariaAI SDKs</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="1"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="index.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Pharia-1-LLM-7B</div>
+          </div>
+      </a>
+      <button class="pr-S text-core-content-tertiary">
+          <span class="nav-item-chevron flex w-6 h-6 align-middle">
+            <svg class="w-full h-full" width="16px" height="16px" viewBox="0 0 24 24" aria-hidden="true">
+  <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z" fill="currentColor" />
+</svg>          </span>
+      </button>
+    </div>
+    <ul class="nav-list">
+  <li class="nav-item is-current-page
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 bg-core-bg-secondary">
+      <a class="nav-link  menu__link--active label-14-bold text-core-content-primary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="intro.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-semantic-border-info"></div>
+              <div class="w-full">Overview: What is Pharia-1-LLM-7B?</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="model-variants.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Model variants</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="model-access.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Accessing the models</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="using-the-models.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Using the models</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+</ul>
+  </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="1"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../responses-api/index.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Responses API</div>
+          </div>
+      </a>
+      <button class="pr-S text-core-content-tertiary">
+          <span class="nav-item-chevron flex w-6 h-6 align-middle">
+            <svg class="w-full h-full" width="16px" height="16px" viewBox="0 0 24 24" aria-hidden="true">
+  <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z" fill="currentColor" />
+</svg>          </span>
+      </button>
+    </div>
+    <ul class="nav-list">
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../responses-api/getting-started.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Getting Started</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../responses-api/conversations.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Multi-Turn Conversations</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../responses-api/streaming.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Streaming</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../responses-api/tool-calling.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Tool Calling</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../responses-api/file-search.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">File Search</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../responses-api/async-jobs.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Async Jobs</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../responses-api/managing-responses.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Managing Responses</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../responses-api/compaction.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Context Compaction</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../responses-api/skills.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Skills</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../responses-api/guardrails.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Guardrails</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+</ul>
+  </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="1"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-openapi/index.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Aleph Alpha API reference</div>
+          </div>
+      </a>
+      <button class="pr-S text-core-content-tertiary">
+          <span class="nav-item-chevron flex w-6 h-6 align-middle">
+            <svg class="w-full h-full" width="16px" height="16px" viewBox="0 0 24 24" aria-hidden="true">
+  <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z" fill="currentColor" />
+</svg>          </span>
+      </button>
+    </div>
+    <ul class="nav-list">
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-openapi/pharia-data.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">PhariaData API</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-openapi/pharia-os.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">PhariaOS API</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-openapi/pharia-search.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">PhariaSearch API</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-openapi/pharia-studio.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">PhariaStudio API</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-openapi/pharia-inference/index.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">PhariaInference API</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+  <li class="nav-item
+             pl-L  m-0"
+      data-depth="2"
+  >
+    <div class="nav-item-toggle flex items-center justify-between rounded-md gap-2 ">
+      <a class="nav-link label-14 text-core-content-tertiary flex items-center w-full h-full py-XS pr-S min-h-[32px]"
+         href="../pharia-openapi/responses-api.html"
+      >
+          <div class="flex items-center h-full w-full">
+              <div class="ml-1 mr-3 h-4 w-0 border border-transparent"></div>
+              <div class="w-full">Responses API</div>
+          </div>
+      </a>
+          <div class="pr-S"></div>
+    </div>
+      </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+        </nav>
+    </div>
+          </div>
+      </div>
+  </aside>
+</div>
+    <div class="flex flex-col bg-core-bg-secondary overflow-auto w-full">
+        <div class="flex border-b border-l border-r border-core-border-default pr-M pl-3 lg:pl-0">
+            <div id="nav-bar-dragger" class="flex h-full nav-bar-dragger invisible lg:visible cursor-move">
+                <div class="h-full w-3 bg-core-bg-secondary"></div>
+            </div>
+            <div class="toolbar h-[52px] flex flex-row w-full justify-between" role="navigation">
+    <nav class="flex items-center" role="navigation" aria-label="breadcrumbs">
+        <a href="../../../phariaai-home/latest/index.html" class="flex items-center justify-center px-S py-XXS  text-core-content-secondary rounded-md hover-bg-core-bg-tertiary-hover">
+          <div class="h-5 w-5">
+              <div class="w-full h-full flex justify-center items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="14" viewBox="0 0 13 14" fill="none">
+    <path d="M1.25 12.4519H4.03854V8.25313C4.03854 8.03979 4.11069 7.8609 4.255 7.71646C4.39944 7.57215 4.57833 7.5 4.79167 7.5H7.70833C7.92167 7.5 8.10056 7.57215 8.245 7.71646C8.38931 7.8609 8.46146 8.03979 8.46146 8.25313V12.4519H11.25V5.08C11.25 5.03736 11.2406 4.99868 11.2219 4.96396C11.2033 4.92924 11.1779 4.89847 11.1458 4.87167L6.40229 1.30604C6.35951 1.26868 6.30875 1.25 6.25 1.25C6.19125 1.25 6.14049 1.26868 6.09771 1.30604L1.35417 4.87167C1.32208 4.89847 1.29674 4.92924 1.27813 4.96396C1.25938 4.99868 1.25 5.03736 1.25 5.08V12.4519ZM0 12.4519V5.08C0 4.84153 0.0533332 4.61563 0.16 4.40229C0.266805 4.18882 0.414306 4.01306 0.6025 3.875L5.34625 0.30125C5.60944 0.100417 5.91028 0 6.24875 0C6.58722 0 6.88889 0.100417 7.15375 0.30125L11.8975 3.875C12.0857 4.01306 12.2332 4.18882 12.34 4.40229C12.4467 4.61563 12.5 4.84153 12.5 5.08V12.4519C12.5 12.7927 12.3769 13.0863 12.1306 13.3325C11.8844 13.5788 11.5908 13.7019 11.25 13.7019H7.96479C7.75132 13.7019 7.57243 13.6297 7.42812 13.4852C7.28368 13.3409 7.21146 13.162 7.21146 12.9485V8.75H5.28854V12.9485C5.28854 13.162 5.21632 13.3409 5.07188 13.4852C4.92757 13.6297 4.74868 13.7019 4.53521 13.7019H1.25C0.909167 13.7019 0.615625 13.5788 0.369375 13.3325C0.123125 13.0863 0 12.7927 0 12.4519Z" fill="currentColor"/>
+</svg>              </div>
+          </div>
+        </a>
+          <a href="index.html" class="flex items-center px-XS text-core-content-tertiary label-14-bold rounded-md h-8 hover-bg-core-bg-tertiary-hover">Pharia-1-LLM-7B</a>
+          <div class="flex items-center justify-center w-3 text-core-content-tertiary" style="font-family: Raleway, serif; font-size: 16px; font-style: normal; font-weight: 700; line-height: normal;">
+              /
+          </div>
+        <span class="px-XS text-core-content-primary label-14-bold">Overview: What is Pharia-1-LLM-7B?</span>
+</nav>
+</div>
+        </div>
+        <div class="flex border-l border-r border-core-border-default">
+            <div id="nav-bar-dragger" class="flex h-full nav-bar-dragger invisible lg:visible cursor-move">
+                <div class="h-full w-3 bg-core-bg-secondary"></div>
+            </div>
+            <article class="py-4XL pr-4XL pl-[36px] doc w-full max-w-[100%]">
+                <h1 class="page text-core-content-primary mt-0 mb-4 mr-0">Overview: What is Pharia-1-LLM-7B?</h1>
+            <div class="is-before-toc">
+            </div>
+            <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>The Pharia-1-LLM-7B is a model family that encompasses two foundation models developed by Aleph Alpha Research. The models were trained on carefully curated data in compliance with applicable EU and national regulations, including copyright and data privacy laws.</p>
+</div>
+<div class="paragraph">
+<p>The models were trained on a multilingual corpus, and therefore they are culturally and linguistically optimised for German, French, and Spanish.</p>
+</div>
+<div class="paragraph">
+<p>They are publicly available under the <a href="https://github.com/Aleph-Alpha-Research/.github/blob/main/oal.pdf">Open Aleph License</a>, which explicitly allows for non-commercial research and educational use.</p>
+</div>
+<div class="paragraph">
+<p><br></p>
+</div>
+<div id="toc" class="toc">
+<div id="toctitle" class="title">In this article:</div>
+<ul class="sectlevel1">
+<li><a href="#data-privacy">Data privacy</a></li>
+<li><a href="#updates">Updates</a></li>
+<li><a href="#restrictions">Restrictions</a></li>
+<li><a href="#accessing-the-model-card">Accessing the model card</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="data-privacy"><a class="anchor" href="#data-privacy"></a>Data privacy</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>No prompt data is stored when using our systems, which means that we do not collect personally identifiable information for any of our public API users, as detailed in our Terms and Conditions. We do not log user inputs to the models. We do not train on user data.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="updates"><a class="anchor" href="#updates"></a>Updates</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>See the What&#8217;s New
+for updates to the models served. We do not deprecate officially released versions of old model generations when we release newer versions, so you can continue to access older models.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="restrictions"><a class="anchor" href="#restrictions"></a>Restrictions</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The models made available to customers are identical regardless of their geographic location and input language. However, availability is subject to sanction regimes, technology export regulations, and other restrictions that may apply. The same offering is provided to all countries within and external to the European Union if no legal restrictions apply.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="accessing-the-model-card"><a class="anchor" href="#accessing-the-model-card"></a>Accessing the model card</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The model card for Pharia-1-LLM-7B is available at Hugging Face:
+<a href="https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control/blob/main/README.md">Model Card</a>.</p>
+</div>
+</div>
+</div>
+            </article>
+        </div>
+        <div class="h-full border-l border-r border-core-border-default">
+            <div class="flex justify-between h-full w-full">
+                <div id="nav-bar-dragger" class="flex h-full nav-bar-dragger invisible lg:visible cursor-move">
+                    <div class="h-full w-3 bg-core-bg-secondary"></div>
+                </div>
+                <div class="flex flex-col justify-end py-Large pr-Large pl-0 h-full w-full">
+                    <nav class="pagination flex justify-between w-full">
+    <button class="next-previous-button rounded-md text-left">
+        <a href="index.html">
+            <div class="flex gap-L p-M">
+                <div class="w-6 h-6 flex items-center justify-center text-core-content-secondary">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+    <path d="M2.496 7.9356L7.66525 13.1049C7.81392 13.2535 7.88733 13.4275 7.8855 13.6269C7.8835 13.8262 7.805 14.0034 7.65 14.1586C7.49483 14.3034 7.31917 14.3784 7.123 14.3836C6.92683 14.3888 6.75117 14.3138 6.596 14.1586L0.25575 7.81835C0.162083 7.72468 0.0960833 7.62593 0.0577499 7.5221C0.0192499 7.41827 0 7.3061 0 7.1856C0 7.0651 0.0192499 6.95293 0.0577499 6.8491C0.0960833 6.74527 0.162083 6.64652 0.25575 6.55285L6.596 0.212602C6.7345 0.0741016 6.906 0.0032683 7.1105 0.000101633C7.315 -0.00306503 7.49483 0.0677683 7.65 0.212602C7.805 0.367768 7.8825 0.545935 7.8825 0.747102C7.8825 0.948435 7.805 1.12668 7.65 1.28185L2.496 6.4356H13.873C14.0858 6.4356 14.264 6.50743 14.4075 6.6511C14.5512 6.7946 14.623 6.97277 14.623 7.1856C14.623 7.39843 14.5512 7.5766 14.4075 7.7201C14.264 7.86377 14.0858 7.9356 13.873 7.9356H2.496Z" fill="currentColor"/>
+</svg>                </div>
+                <div class="flex flex-col gap-0.5">
+                    <div class="label-12 text-core-content-tertiary">Previous</div>
+                    <div class="heading-14 text-core-content-secondary">Pharia-1-LLM-7B</div>
+                </div>
+            </div>
+        </a>
+    </button>
+        <button class="next-previous-button rounded-md text-left">
+            <a href="model-variants.html">
+                <div class="flex gap-L p-M">
+                    <div class="flex flex-col gap-0.5">
+                        <div class="label-12 text-core-content-tertiary">Next</div>
+                        <div class="heading-14 text-core-content-secondary">Model variants</div>
+                    </div>
+                    <div class="w-6 h-6 flex items-center justify-center text-core-content-secondary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+    <path d="M12.127 7.94825H0.75C0.537167 7.94825 0.359 7.87642 0.2155 7.73275C0.0718332 7.58925 0 7.41108 0 7.19825C0 6.98542 0.0718332 6.80725 0.2155 6.66375C0.359 6.52008 0.537167 6.44825 0.75 6.44825H12.127L6.95775 1.279C6.80908 1.13033 6.73567 0.956332 6.7375 0.756999C6.7395 0.557665 6.818 0.380416 6.973 0.22525C7.12817 0.0804164 7.30383 0.00541641 7.5 0.00024974C7.69617 -0.00491693 7.87183 0.0700831 8.027 0.22525L14.3673 6.5655C14.4609 6.65917 14.5269 6.75792 14.5652 6.86175C14.6037 6.96558 14.623 7.07775 14.623 7.19825C14.623 7.31875 14.6037 7.43092 14.5652 7.53475C14.5269 7.63858 14.4609 7.73733 14.3673 7.831L8.027 14.1712C7.8885 14.3097 7.717 14.3806 7.5125 14.3837C7.308 14.3869 7.12817 14.3161 6.973 14.1712C6.818 14.0161 6.7405 13.8379 6.7405 13.6367C6.7405 13.4354 6.818 13.2572 6.973 13.102L12.127 7.94825Z" fill="currentColor"/>
+</svg>                    </div>
+                </div>
+            </a>
+        </button>
+</nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="toc-container" class="right-0 flex-shrink-0 flex-grow-0 sticky w-0 lg:w-[250px] hidden lg:block">
+    <aside class="toc sidebar px-L pt-XXL sticky overflow-auto"
+           data-title="Contents"
+           data-levels="2"
+    >
+      <div class="toc-content pt-10">
+        <div class="toc-menu flex flex-col gap-S"></div>
+        <div class="flex flex-col gap-2 border-l-2">
+                      </div>
+      </div>
+    </aside>
+</div></div>
+
+  </div>
+</main>
+        <footer class="footer bg-core-bg-primary border-t border-core-border-default py-5XL px-3XL">
+    <div class="flex justify-center gap-8">
+        <div class="flex flex-col gap-2 w-[303px]">
+            <a class="flex items-center gap-XS hover:no-underline" href="https://aleph-alpha.com">
+    <div class="p-4XS">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <path d="M5.26752 21.056L7.51659 24C8.64113 23.243 9.6177 22.2897 10.5055 21.2803L7.51659 19.0374C6.83595 19.7944 6.09612 20.4673 5.26752 21.056Z" fill="currentColor"/>
+    <path d="M18.7917 2.94392L16.5426 0C15.4181 0.757009 14.4415 1.71028 13.5537 2.71963L16.5426 4.96262C17.2232 4.20561 17.9335 3.53271 18.7917 2.94392Z" fill="currentColor"/>
+    <path d="M13.9088 11.972C13.9088 7.26168 11.4822 2.80374 7.4575 0L5.14924 2.94392C8.25651 5.07477 10.0913 8.46729 10.0913 12.028C10.0913 16.7383 12.5179 21.1963 16.5426 24L18.8508 21.0561C15.7732 18.8972 13.9088 15.5327 13.9088 11.972Z" fill="currentColor"/>
+    <path d="M1.56843 4.20557L0 7.51398C1.80518 8.29902 3.07768 10.0093 3.07768 12C3.07768 13.9906 1.80518 15.7289 0 16.4859L1.56843 19.7943C4.7053 18.4486 6.89519 15.4766 6.89519 12C6.89519 8.52332 4.7053 5.52332 1.56843 4.20557Z" fill="currentColor"/>
+    <path d="M20.9223 12C20.9223 9.98127 22.1948 8.27099 24 7.51398L22.4315 4.20557C19.2947 5.55136 17.1048 8.55136 17.1048 12C17.1048 15.4766 19.2947 18.4486 22.4315 19.7943L24 16.4859C22.1652 15.7289 20.9223 13.9906 20.9223 12Z" fill="currentColor"/>
+</svg>    </div>
+    <div class="whitespace-nowrap text-core-content-primary heading-16">Aleph Alpha</div>
+</a>            <div class="flex gap-S text-core-content-secondary">
+                <a href="https://www.linkedin.com/company/aleph-alpha/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <path d="M22.5 12C22.5 6.20101 17.799 1.5 12 1.5C6.20101 1.5 1.5 6.20101 1.5 12C1.5 17.799 6.20101 22.5 12 22.5C17.799 22.5 22.5 17.799 22.5 12Z" fill="currentColor"/>
+    <path d="M9.46395 7.26911C9.46395 7.97003 8.85638 8.53823 8.10698 8.53823C7.35753 8.53823 6.75 7.97003 6.75 7.26911C6.75 6.5682 7.35753 6 8.10698 6C8.85638 6 9.46395 6.5682 9.46395 7.26911Z" fill="var(--core-bg-primary)"/>
+    <path d="M6.93555 9.47119H9.25513V16.5001H6.93555V9.47119Z" fill="var(--core-bg-primary)"/>
+    <path d="M12.9897 9.47108H10.6701V16.5H12.9897C12.9897 16.5 12.9897 14.2872 12.9897 12.9037C12.9897 12.0732 13.2733 11.2391 14.4047 11.2391C15.6833 11.2391 15.6756 12.3259 15.6696 13.1678C15.6618 14.2683 15.6804 15.3914 15.6804 16.5H18V12.7903C17.9804 10.4216 17.3631 9.33008 15.3325 9.33008C14.1266 9.33008 13.379 9.87758 12.9897 10.3729V9.47108Z" fill="var(--core-bg-primary)"/>
+</svg>                </a>
+            </div>
+            <div class="text-core-content-secondary label-12">
+                Copyright © 2025 Aleph Alpha GmbH
+            </div>
+        </div>
+        <div class="flex flex-col gap-2 label-12 text-accent-color-link w-[200px]">
+            <div class="text-core-content-secondary heading-14">Company</div>
+            <a class="underline" href="../../../phariaai-home/latest/release-notes/index.html">Release notes</a>
+            <a class="underline" href="https://aleph-alpha.com" target="_blank" rel="noopener noreferrer">Aleph Alpha website</a>
+            <a class="underline" href="https://github.com/Aleph-Alpha" target="_blank" rel="noopener noreferrer">Github</a>
+            <a class="underline" href="index.html">Pharia-1-LLM-7B models</a>
+        </div>
+        <div class="flex flex-col gap-2 label-12 text-accent-color-link w-[200px]">
+            <div class="text-core-content-secondary heading-14">Legal</div>
+            <a class="underline" href="https://aleph-alpha.com/data-privacy/" target="_blank" rel="noopener noreferrer">Data privacy</a>
+            <a class="underline" href="https://aleph-alpha.com/third-party-model-licensing-terms/" target="_blank" rel="noopener noreferrer">Licences</a>
+            <a class="underline" href="https://aleph-alpha.com/imprint/" target="_blank" rel="noopener noreferrer">Imprint</a>
+        </div>
+        <div class="flex flex-col gap-2 label-12 text-accent-color-link w-[200px]">
+            <div class="text-core-content-secondary heading-14">Support</div>
+            <a class="underline" href="../../../phariaai-home/latest/about.html">About us</a>
+            <a class="underline" href="https://supportportal.aleph-alpha.com/" target="_blank" rel="noopener noreferrer">Product support portal</a>
+            <a class="underline" href="https://aleph-alpha.com/book-a-demo/" target="_blank" rel="noopener noreferrer">Contact us</a>
+            <a class="underline" href="https://aleph-alpha.com/blog/" target="_blank" rel="noopener noreferrer">Blog</a>
+        </div>
+    </div>
+</footer>
+
+<script id="site-script" src="../../../_/js/site.js" data-ui-root-path="../../../_"></script>
+<script async src="../../../_/js/vendor/highlight.js"></script>
+<script async src="../../../_/js/vendor/datatables.js"></script>
+<script async src="../../../_/js/vendor/tabs.js"></script>
+<script async src="../../../_/js/vendor/medium-zoom.js"></script>
+    <script src="../../../_/js/vendor/lunr.js"></script>
+<script src="../../../_/js/search-ui.js" id="search-ui-script" data-site-root-path="../../.." data-snippet-length="100" data-stylesheet="../../../_/css/search.css"></script>
+<script async src="../../../search-index.js"></script>
+    </body>
+</html>
+

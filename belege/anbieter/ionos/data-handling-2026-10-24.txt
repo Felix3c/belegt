@@ -1,0 +1,186 @@
+Quelle: https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling
+Abruf: 2026-10-24 05:30:51 +0200 (curl direkt, HTTP 200; robots.txt "Allow: /"). SHA-256 der Rohseite: c7036624d9e41c16d4f685103f9d802eefff4ba9757cc751f721e7cc225ed75b
+Inhalt: Doku AI Model Hub, Governance & Compliance, Data Handling ("Last updated 1 month ago"), ganzer Seitentext
+
+Data Handling | Products
+⌘Ctrlk
+Ask
+HomeLog InSign UpSend Feedback
+More
+Guides
+Developer Reference
+API Reference
+SDKs & Tools
+Support
+Tutorials
+Partner Program
+AI Assistant
+I'm here to help you with the docs.
+What is this page about?What should I read next?Can you give an example?
+⌘Ctrli
+AI Based on your contextSend
+Overview
+Most Popular Product Guides
+Release Notes
+October 2026
+Previous Releases
+Set up IONOS CLOUD
+Get Started
+Data Center Designer
+Account Management
+Management
+API Reference
+AI
+AI Model Hub
+Overview
+Models
+Advanced Concepts
+How-Tos
+Governance & Compliance
+Data Handling
+European Union AI Act
+Error Codes
+Troubleshooting
+FAQ
+API Reference
+MCP Server
+Backup & Storage
+Backup Service
+Block Storage
+Images & Snapshots
+IONOS CLOUD Object Storage
+Network File Storage
+Compute Services
+Compute Engine
+Cubes
+Containers
+Managed Kubernetes
+Private Container Registry
+Deploy Red Hat OpenShift Workloads on IONOS CLOUD
+Deploy SUSE Rancher Workloads on IONOS CLOUD
+Data Analytics
+Event Streams for Apache Kafka
+Databases
+Database as a Service
+In-Memory DB
+MariaDB
+MongoDB
+PostgreSQL
+Data Export
+Bulk Data Export
+Self Data Export
+Guidance for European Union (EU) Data Act
+Network Services
+CDN
+Cloud DNS
+Cross Connect
+DDoS Protect
+Flow Logs
+Managed Application Load Balancer
+Managed NAT Gateway
+Managed Network Load Balancer
+VDC Networking
+VM Auto Scaling
+VPN Gateway
+Observability
+Activity Logs
+Logging Service
+Monitoring Service
+Tracing Service
+Monitoring as a Service (Legacy)
+Private Cloud
+IONOS Private Cloud
+Sovereign Workplace
+Nextcloud Workspace
+Security
+Certificate Manager
+Network Security Groups
+SSH Key Manager
+Security Safeguards
+Overview
+Report a Security Event
+Best Practice Guidelines
+Vulnerability Register
+ On this page
+For the complete documentation index, see llms.txt. This page is also available as Markdown.
+AskOn this page
+Guides
+AI
+AI Model Hub
+Governance & Compliance
+Data Handling
+AI Model Hub runs openly available models on IONOS CLOUD infrastructure. All inference is performed in IONOS CLOUD data centers in Germany, and your prompts and the generated outputs are processed there and nowhere else. This page describes what happens to your data when you use the service: what is recorded, who may access it, and what we never do with it.
+Prompts and outputs
+The content of your prompts and of the outputs generated for you is never logged and is never accessed by IONOS CLOUD personnel. It is not written to any log or to persistent storage; it is not used to train, fine-tune or otherwise improve any model; and it is not disclosed to any third party, including the developers of the models we operate. Metadata describing each call is recorded, as set out in Request metadata.
+How your requests are processed
+The inference API is stateless per request. No session or conversation is maintained on our side: where your application maintains a conversation, it does so by transmitting the preceding turns with each new request.
+Separation between customers is enforced logically: each request is authenticated against your contract, responses are returned solely to the caller that issued the request, and no path exists by which one customer may read another customer's requests or outputs.
+During processing, your prompt resides in host memory and in GPU memory. Neither the prompt nor the generated output is written to persistent storage.
+Request metadata
+We record metadata describing each API call: the timestamp, the model invoked and the number of tokens processed. This metadata is required for accurate billing and for the operation of the service. It contains no part of your prompt or of the generated output.
+Operational logs and metrics are retained only for the period necessary to operate the service reliably, in accordance with IONOS CLOUD's internal retention policy. Access to this operational data is restricted to IONOS CLOUD personnel located within the European Union; no access occurs from outside the European Union in the operation, maintenance, support, or fault diagnosis of the service.
+Sub-processors
+No third-party sub-processors are engaged for AI Model Hub.
+Processing is carried out by IONOS CLOUD within the European Union.
+Model developers
+AI Model Hub offers models published by third parties. We obtain the model weights and deploy them onto infrastructure we operate; the weights are the only component originating from the model's developer. The developer accordingly has no access to your data and does not process personal data on your behalf.
+Security measures
+In transit: TLS for all external API traffic.
+At rest: AES-class encryption on all persistent storage.
+Authentication: API access is authenticated by means of API key tokens, which you may create and revoke at any time.
+Pseudonymization and encryption
+Responsibility for the measures required by Article 32 GDPR is shared: we implement the measures set out in Security measures and Request metadata, and you decide what personal data your requests contain.
+IONOS CLOUD does not pseudonymize the content of your requests. The model needs the actual text to return an accurate response. If you require pseudonymization, apply it in your application before the data leaves your environment. For example, replace names and identifiers with tokens, and restore the original values in the response you receive.
+While a request is being processed, the content of your requests is held in plaintext in host and GPU memory. It is not written to persistent storage and is not retained after the request completes.
+As the controller, you remain responsible for deciding what your requests contain.
+Certifications
+IONOS CLOUD data centers are certified to ISO 27001.
+AI Model Hub falls within the scope of BSI C5.
+Special-category data (Article 9 GDPR)
+No restrictions apply beyond the measures described on this page. You remain the controller in respect of the data you transmit, and you are responsible for establishing your own legal basis and, where required, for conducting your own data protection impact assessment.
+Related documents
+The following apply to AI Model Hub as part of IONOS CLOUD and are not reproduced here. AI Model Hub is covered as a platform service, so no product-specific agreement is required. The general technical and organizational measures annex (Article 32 GDPR) applies without a product-specific annex. The sub-processor annex forms part of your data processing agreement.
+Your data processing agreement applies as part of your contract with IONOS CLOUD and does not require separate signature: Article 28(9) GDPR requires the processor contract to be in writing, and electronic form satisfies that requirement.
+The applicable documents for each contracting company:
+Your contracting company
+Data processing agreement (Art. 28 GDPR)
+Terms for AI services
+IONOS CLOUD GmbH (Germany)
+Datenschutzpaket
+Nutzungsbedingungen für KI-Dienste
+IONOS CLOUD Solutions Spain SLU
+Acuerdo de encargo de tratamiento de datos
+Condiciones de uso de los servicios de IA
+IONOS CLOUD France SAS
+Data Processing Agreement of IONOS CLOUD
+Conditions d'utilisation des services d'IA
+IONOS CLOUD UK Ltd. (United Kingdom)
+Data Processing Agreement for IONOS CLOUD
+Specific Conditions for Use of AI Services
+PreviousGovernance & Compliance
+NextEuropean Union AI Act
+Last updated 1 month ago
+Was this helpful?
+Resources
+IONOS CLOUD Blog
+Price Calculator
+Status
+Company
+About IONOS
+IONOS Group
+Jobs
+Legal
+Privacy Policy
+Imprint
+© 2026 IONOS CLOUD SE
+Prompts and outputs
+How your requests are processed
+Request metadata
+Sub-processors
+Model developers
+Security measures
+Pseudonymization and encryption
+Certifications
+Special-category data (Article 9 GDPR)
+Related documents
+Was this helpful?

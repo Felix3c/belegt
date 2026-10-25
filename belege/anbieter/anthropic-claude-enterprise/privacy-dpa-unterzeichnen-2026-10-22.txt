@@ -1,0 +1,71 @@
+Quelle: https://privacy.claude.com/en/articles/7996862-how-do-i-view-and-sign-your-data-processing-addendum-dpa
+Abruf: 2026-10-22 23:50:45 +0200
+
+How do I view and sign your Data Processing Addendum (DPA)? | Anthropic Privacy Center
+
+Skip to main content
+
+API DocsRelease NotesContact Support
+EnglishFrançaisDeutschBahasa IndonesiaItaliano日本語한국어PortuguêsPусский简体中文Español繁體中文
+English
+
+API DocsRelease NotesContact Support
+EnglishFrançaisDeutschBahasa IndonesiaItaliano日本語한국어PortuguêsPусский简体中文Español繁體中文
+English
+
+Search for articles...
+
+All Collections
+
+Commercial Customers
+
+Policies & Terms of Service
+
+How do I view and sign your Data Processing Addendum (DPA)?
+
+How do I view and sign your Data Processing Addendum (DPA)?
+
+March 16, 2026
+
+This article is about our commercial products (e.g. Claude for Work, Claude API). For our consumer products (e.g. Claude Free, Claude Pro), see here.
+
+Anthropic’s DPA with Standard Contractual Clauses (SCCs) is automatically incorporated into our Commercial Terms of Service, and can be viewed here. When you accept Anthropic’s Commercial Terms of Service, you also accept our DPA.
+
+Important note for third-party platform users: If you access Claude via a third-party platform or service provider, your use of Claude in those cases is governed by the third-party platform's terms of service.
+
+Related Articles
+
+Is my data used for model training?
+
+How do you use personal data in model training?
+
+How Do You Use Personal Data in Model Training?
+
+What personal data will be processed by Computer use?
+
+Updates to our Privacy Policy
+
+Did this answer your question?
+Disappointed Reaction😞Neutral Reaction😐Smiley Reaction😃
+
+Product
+
+Research
+
+Company
+
+News
+
+Careers
+
+Terms of Service - Consumer
+
+Terms of Service - Commercial
+
+Privacy Policy
+
+Usage Policy
+
+Responsible Disclosure Policy
+
+Compliance

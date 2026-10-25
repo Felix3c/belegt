@@ -1,0 +1,17 @@
+Quelle: https://nordference.ai/ (Ein-Seiten-Anwendung, Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js)
+Abruf: 2026-10-23 ~00:50 UTC (curl, HTTP 200, 1184517 Bytes), SHA-256 des Bündels e68e235c030f22f12e517dd2592ca0e56e4e10bf0b5bcd8f90d9f82f0593d9ad (byte-gleich zum Abruf 08.10.2026), belegbar.eu
+Inhalt: wörtliche Auszüge aus dem Skript-Bündel zum Formular „Request Beta Access“ (einziger genannter Zugangsweg).
+
+1. Texte des Formulars:
+XU={title:"Request Beta Access",description:"Join our private beta and get free credits to start building."
+betaNote:"Currently in private beta • Request access to join the pilot program"
+successTitle:"Thank you!",successMessage:"We'll be in touch soon."
+toastTitle:"Request submitted!",toastDescription:"We'll be in touch soon with your beta access."
+
+2. Die Funktion, die beim Absenden läuft (wörtlich):
+f=async y=>{a(!0),await new Promise(m=>setTimeout(m,1e3)),console.log("Beta access request:",y),a(!1),o(!0),WT({title:n("betaDialog.toastTitle"),description:n("betaDialog.toastDescription")}),setTimeout(()=>{o(!1),c(),t(!1)},2e3)}
+
+Lesart: Die Funktion wartet 1 Sekunde, schreibt die Eingaben (Name, E-Mail, Firma) in die Konsole des Browsers der Besucherin und zeigt dann „Request submitted!“. Ein Versand an einen Server steht in der Funktion nicht.
+
+3. Suche im ganzen Bündel (Zählung 23.10.2026): XMLHttpRequest 0, sendBeacon 0, axios 0, supabase 0, formspree 0, emailjs 0; fetch( 3 Stellen, alle in eingebundenen Bibliotheken (Modul-Vorladen, Abfrage-Bibliothek), keine mit dem Formular verbunden. Externe Adressen im Bündel: nur https://api.nordference.ai/v1 und …/v1/chat/completions (Code-Beispiele; Name im DNS am 23.10.2026 nicht eingetragen, „Non-existent domain“), https://locize.com, https://radix-ui.com/… (Bibliotheks-Hinweise); einzige mailto-Adresse hello@nordference.ai.
+Ungeklärt: Die Startseite lädt zusätzlich das Analyse-Skript /~flock.js des Website-Baukastens (data-proxy-url="/~api/analytics"); ob dieses Formulareingaben mitschickt, ist nicht abschließend geprüft (bei Durchsicht keine Formular-Erfassung erkennbar).

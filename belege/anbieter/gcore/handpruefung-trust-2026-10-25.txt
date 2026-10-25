@@ -1,0 +1,118 @@
+Handprüfung Trust-Portal Gcore (Vanta), 25.10.2026 ~11:00 MEZ (Dauerlauf)
+Grund: Quellenlauf ist bei https://trustcentre.gcore.com/ blind (HTML-Hülle 3 Wörter, Block DÜNN seit 25.10.).
+Betrifft gcore: zertifikate.0 (ISO/IEC 27001, +anwendungsbereich), zertifikate.2 (SOC 2 Type 1, +anwendungsbereich), iso_42001.
+Methode wie bei Anthropic/Mistral/BFL 25.10.: Chrome headless (--headless=new --virtual-time-budget=20000 --dump-dom), Text aus dem DOM (allein/tmp/hand-anthropic-2510/txt.py).
+Kein früherer gespeicherter Render; dieser Text ist ab heute der Vergleichsstand.
+4ceab645f5690a026e4bb41ea3c629eb2f40751cac8b5ae51fb1d988326d1ff2 start.txt (243 Wörter)
+3243b4bc1c8746f5de4122846dfc7c1f64e7c5020dad8cb4a473b370ee9db7d4 resources.txt (175 Wörter)
+
+Ergebnis: Compliance listet weiter „ISO 27001:2022“, „PCI-DSS 4.0“, „SOC 2 Type 1“, „GDPR“ (gleich wie 08./09.10.).
+Resources: „ISO 27001:2022 certificate“ = Request access; „PCI DSS 4.0.1 certificate“ = Download (frei); „SOC 2 type 1 report“ = Request access.
+Kein Dokument zu ISO 42001, kein SOC 2 Type II (Widerspruch zu gcore.com/european-digital-sovereignty bleibt wie vermerkt).
+Folge: Status und Werte unverändert; je ein Satz „von Hand gerendert 25.10.2026, gleich“ in den Anmerkungen zertifikate.0 und zertifikate.2.
+
+===== Text start (gerendert 25.10.2026) =====
+Trust Center - Gcore
+Skip to navigation
+Skip to main content
+Opens in new tab
+|
+Gcore's Trust Center
+Gcore
+Gcore accelerates AI training, provides comprehensive cloud services, improves content delivery, and protects servers and applications.
+Using modern methods, we provide reliable, multi-level protection for any information. Our infrastructure meets global security requirements, and our certificates confirm this.
+Please see the additional description and details on our Legal page
+https://gcore.com/legal
+Opens in new tab
+support@gcore.com
+Privacy Policy
+Opens in new tab
+Request access
+Overview
+Compliance
+ISO 27001:2022
+PCI-DSS 4.0
+SOC 2 Type 1
+GDPR
+Resources
+View all
+ISO 27001:2022 certificate
+PCI DSS 4.0.1 certificate
+Opens in new tab
+SOC 2 type 1 report
+Controls
+Updated 4 minutes ago
+View all
+Infrastructure security
+Policy on the use of cryptographic controls
+Key management
+Electronic messaging
+View 21 more Infrastructure security controls
+Organizational security
+Ownership of assets
+Return of assets
+Removal of assets
+View 32 more Organizational security controls
+Product security
+System security testing
+Access control to program source code
+Secure development policy
+View 4 more Product security controls
+Internal security procedures
+Information backup
+Planning information security continuity
+Implementing information security continuity
+View 57 more Internal security procedures controls
+Data and privacy
+Classification of information
+Labelling of information
+Handling of assets
+View 7 more Data and privacy controls
+Opens in new tab
+ISO 27001:2022 certificate
+PCI DSS 4.0.1 certificate
+SOC 2 type 1 report
+Vanta connects to a company's core systems to continuously monitor these controls.
+
+===== Text resources (gerendert 25.10.2026) =====
+Trust Center - Gcore
+Skip to navigation
+Skip to main content
+Opens in new tab
+|
+Gcore's Trust Center
+Gcore
+Gcore accelerates AI training, provides comprehensive cloud services, improves content delivery, and protects servers and applications.
+Using modern methods, we provide reliable, multi-level protection for any information. Our infrastructure meets global security requirements, and our certificates confirm this.
+Please see the additional description and details on our Legal page
+https://gcore.com/legal
+Opens in new tab
+support@gcore.com
+Privacy Policy
+Opens in new tab
+Request access
+Resources
+Resources
+Bulk download
+Opens in new tab
+ISO 27001:2022 certificate
+Copy link
+for ISO 27001:2022 certificate
+ISO 27001:2022 certificate
+Request access
+ISO 27001:2022 certificate
+PCI DSS 4.0.1 certificate
+Copy link
+for PCI DSS 4.0.1 certificate
+PCI DSS 4.0.1 certificate
+Download
+PCI DSS 4.0.1 certificate
+Opens in new tab
+SOC 2 type 1 report
+Copy link
+for SOC 2 type 1 report
+SOC 2 type 1 report
+Request access
+SOC 2 type 1 report
+Opens in new tab
+Bulk download will only work on resources that are accessible and not view only.

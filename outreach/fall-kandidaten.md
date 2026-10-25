@@ -437,3 +437,261 @@ Kein Statuswechsel im Profil. MSA auf gcore.com/legal („Last updated: June 17,
 - Quickstart-FAQ neu (Abruf 14.10.2026): „Is my data used for training? No. Requesty is a pass-through gateway and does not train on your requests or responses.“ Der frühere Zusatz zu NVIDIA/Poolside-Free-Modellen steht dort nicht mehr.
 - Privacy Policy am selben Tag weiter wörtlich: „Requesty's own use of content for training is limited to free plan accounts.“
 - Damit sagt die Quickstart ein vorbehaltloses Nein, die Privacy Policy behält eigenes Training auf Free-Plan-Konten vor. Belege `belege/anbieter/requesty/quickstart-faq-training-2026-10-14.txt` und `privacy-zusammenfassung-2026-10-14.txt` (+ SHA256SUMS). Kein Fall eröffnet (nur mit Felix' „steht“).
+
+## Nachtrag 23.10.2026, ~00:45–01:00 UTC: Nordference, erster Widerspruchs-Scan, Nr. 41 neu (Dauerlauf)
+
+Skript-Bündel `index-CGzvo87P.js` byte-gleich zum 08.10. (SHA-256 `e68e235c…d9ad`), `api.nordference.ai` weiter ohne DNS-Eintrag. Belege `belege/anbieter/nordference/*-2026-10-23.txt` (3 Dateien, gestempelt).
+
+**Nr. 41 (mittel), Nordference, Zugangsformular meldet Erfolg und sendet nichts:**
+- **Werbung:** Einziger Zugangsweg ist „Request Beta Access“ („Join our private beta and get free credits to start building.“); nach dem Absenden: „Request submitted! We'll be in touch soon with your beta access.“
+- **Code:** Die Absende-Funktion wartet 1 s, ruft `console.log("Beta access request:", …)` auf und zeigt die Meldung; kein Versand an einen Server (kein XMLHttpRequest/sendBeacon/Formular-fetch im Bündel). Ungeklärt bleibt nur, ob das Analyse-Skript des Baukastens (`/~flock.js`) Eingaben mitnimmt.
+- **Einordnung:** Wer sich anmeldet, wird nie kontaktiert. Zusammen mit dem fehlenden API-Host spricht viel dafür, dass es den Dienst so nicht gibt. Mittel statt hoch, weil niemand Geld verliert und kein Kunde betroffen sein kann; eher ein Grund, Nordference im Katalog deutlich als „nicht nutzbar“ zu kennzeichnen als ein Fall.
+- **Nebenbei (kein eigener Kandidat):** SLA 99,9 %/99,99 % schließt „beta or preview features“ aus, das ganze Angebot ist Beta; Datenschutzseite „we do not transfer data to third countries outside the EEA“, die Website lädt aber Google Fonts; zwei Adressen heißen „Data Protection Officer“ (privacy@ auf /privacy, dpo@ auf /gdpr).
+
+## Nachtrag 23.10.2026, ~02:30 UTC: Opper, Widerspruchs-Scan über 17 Seiten + Trust Center, Nr. 42 und 43 neu (Dauerlauf)
+
+Abruf mit curl, 3 s Abstand, robots.txt erlaubt alles Gelesene. DPA („Last updated on: 2026-09-23“), Security Overview (2026-10-05), Privacy Policy (2026-09-17), Terms (2026-07-07), Trust Center (Oct 19, 2026) mit gleichem Datum wie bei den letzten Prüfungen. Rohseiten in `~/allein/tmp/ws2310o/` (nicht im Repo). Belege `belege/anbieter/opper-ai/opper-zdr-begriff-2026-10-23.txt` und `opper-souveraen-datadog-2026-10-23.txt` (gestempelt).
+
+**Nr. 42 (mittel), Opper, „End-to-end zero data retention on every plan“:**
+- **Aussage A:** https://opper.ai/llm-gateway, Kasten „Zero data retention“: „End-to-end zero data retention on every plan“. Preisseite FAQ: „On Gateway, zero data retention: only usage metadata, no prompts or responses.“
+- **Aussage B:** Security Overview Abschnitt 2: „For every call, Opper records usage metadata: the model, token counts, latency, status and cost. These records power billing and analytics and are kept for five years.“ und „Enterprise agreements can extend zero retention to the usage metadata too.“ Preisseite: „the zero-retention routes for OpenAI models on Azure (azure-zdr) and Gemini on Google Vertex (vertexai-zdr) need a signed Enterprise agreement.“ Dieselbe Gateway-Seite listet selbst „Usage for billing kept“ und sagt oben nur „zero data retention on most EU routes“.
+- **Was es nicht heißt:** Inhalte speichert Opper ohne Tracing tatsächlich nicht; Metadaten zur Abrechnung sind üblich. Der Widerspruch ist das Wort: „zero“ und „every plan“ gegen fünf Jahre Metadaten und Enterprise-Pflicht bei zwei Modellfamilien.
+- **Lesart:** „End-to-end“ kann „auf ZDR-Routen an beiden Stellen“ meinen; „every plan“, dass es auf jedem Tarif ZDR-Routen gibt. Darum mittel, nicht hoch.
+
+**Nr. 43 (niedrig bis mittel), Opper, Souverän-Seite „European at every hop“:**
+- **Aussage A:** https://opper.ai/sovereign-ai: „European at every hop“, „The gateway, the cloud it runs on and the model provider are all European companies under European law.“, „so the gateway, its storage and your traces stay with European companies under European law.“
+- **Aussage B:** trust.opper.ai, Zeile Datadog: „Monitoring of both production environments: infrastructure metrics, traces, access and application logs, request identifiers, IP addresses, and user and organization identifiers. Routine logging is designed to exclude prompts, responses and uploaded files.“ (Datenort Deutschland). Datadog ist laut datadoghq.com/legal/terms/ eine US-Firma („controls the Site from its New York, NY, USA offices“).
+- **Ungeklärt:** ob die Instanz evroc.on.opper.ai zu den „both production environments“ gehört. Wenn nicht, entfällt der Kandidat. Eine Fachfrage an Opper würde das in einem Satz klären (nicht gestellt, eilt nicht).
+
+**Unverändert live:** Nr. 22 („No amendments or objection windows“ auf der Compliance-Seite gegen DPA-Vorlauf 30 Tage). Nr. 23/Fall-Entwurf 005 bleibt schwach, die Seite sagt seit 08.10. „EU routes on every plan“. Ohne Widerspruch: Training (Opper selbst nie, je Route im Trust Center), Ort der Plattform (AWS Stockholm + evroc), ISO 27001 weiter nur Anbieterangabe.
+
+## Nachtrag 23.10.2026, ~04:26 UTC: T-Systems, erster breiter Widerspruchs-Scan (Werbeseiten + Doku), Nr. 44 neu (Dauerlauf)
+
+Abruf mit curl, 3 s Abstand, robots.txt erlaubt alles Gelesene, 19 Seiten: t-systems.com (AIFS englisch/deutsch, Fallstudien Nettetal und amber Tech, Pressemitteilung 12.02.2025), t-cloud-public.com (AIFS, Sovereignty, AI in the Classroom), docs.llmhub.t-systems.net (FAQ en/de, Enterprise Trust en/de, Modelle, LLMs en/de, Service Models, Prefix-Caching, Changelog, Start). Rohseiten in `~/allein/tmp/ws2310t/` (nicht im Repo). Beleg `belege/anbieter/t-systems/afs-hosting-werbung-gegen-doku-2026-10-23.txt` (gestempelt).
+
+**Nr. 44 (mittel bis hoch für Kommunen/DSBs), T-Systems, „hosted in T Cloud“ für die ganze Plattform:**
+- **Aussage A:** t-systems.com/…/ai-foundation-services: „Our AI solutions are hosted in T Cloud, ensuring compliance with regulations such as GDPR“, im selben Absatz „integrate over 40 AI models“; oben „the only European platform enabling regulated industries […] ensuring full data privacy and control“. t-cloud-public.com/…/ai-foundation-services: „The services are stored and operated on T Cloud Public.“, „can be used by individuals subject to professional secrecy“, „A higher sovereignty in the use of AI can hardly be reached in the public cloud.“ Doku-FAQ, erste Antwort: „over 40 language models […] Operated on the T-Cloud in Germany“.
+- **Aussage B:** Modelltabelle /models/llms/: 29 von 39 Zeilen bei Microsoft Azure oder Google Cloud, 10 auf T-Cloud. Enterprise Trust, Kategorie 2: „Forwarded by Telekom directly to the third-party provider“, „customer data may be processed worldwide“. Dieselbe FAQ zwei Antworten weiter: „Closed-source models are forwarded to their upstream provider on Microsoft Azure or Google Cloud“.
+- **Was es nicht heißt:** Die Doku ist an den Fachstellen offen und genau (Kategorien, Spalte Cloud je Modell). Wer ein Modell bewusst auswählt, sieht den Ort. Der Widerspruch steht in den Sätzen, die Entscheider zuerst lesen: Plattform-Sätze über „über 40 Modelle“ nennen nur T-Cloud, obwohl drei Viertel der Modellzeilen woanders laufen.
+- **Lesart:** „Operated on the T-Cloud“ kann die Plattform (Gateway, Abrechnung) meinen, nicht jedes Modell. Darum mittel bis hoch, nicht hoch. Für die Zielgruppe wichtig: Die Kommune Nettetal nutzt laut Fallstudie GPT, Claude und Gemini über dieselbe Plattform („red zone“).
+- **Nebenbefund (klein, kein eigener Fall):** t-cloud-public.com listet als Modelle noch „Meta Llama 3.3, Mistral Small 3 and DeepSeek R“, auf Anfrage „GPT-4o, Claude 3, Gemini 1.5 Pro“. Llama 3.3 ist laut Doku seit 01.09.2026 abgeschaltet. Die Pressemitteilung vom 12.02.2025 („All models and services are operated in Telekom data centers in Germany, Switzerland, and the Netherlands“) ist alt und als Pressemitteilung datiert, darum kein Kandidat.
+
+**Ohne neuen Widerspruch:** Enterprise Trust sagt dasselbe wie im Profil (Kategorie 1 „Not stored“, Kategorie 2 „Per third-party provider’s terms“, „never saved or used to train“); Fall 006 (Cache) unberührt. Die Kategorie-2-Liste nennt heute „OpenAI GPT-5 and GPT-6 families, GPT Image 2, Ada-Text“, „Anthropic Claude (4.6, Opus 4.8, 5 and 5.5 families)“, „Google Gemini 3 family“ und „Mistral Medium 3 — on Google Cloud“ (ob neu gegenüber 09.10.: ungeklärt, kein Wortvergleich gemacht).
+
+## Nachtrag 23.10.2026, ~05:45 UTC: Azure OpenAI, erster Widerspruchs-Scan (Microsoft-Doku), Nr. 45 neu (Dauerlauf)
+
+Gelesen: Datenschutzseite (18.05.2026), Bereitstellungstypen (06.08.2026), Responses-Anleitung (18.08.2026), Stored completions (06.07.2026), Missbrauchsüberwachung, EU Data Boundary, Preisseite. Beleg `belege/anbieter/azure-openai/widerspruchs-scan-2026-10-23.txt`.
+
+**Nr. 45 (niedrig), Azure OpenAI, Umfang der EU-Datenzone:**
+- **Aussage A:** Datenschutzseite: „If you create a DataZone deployment in a Foundry resource located in a European Union Member Nation, prompts and responses may be processed in that or any other European Union Member Nation.“
+- **Aussage B:** Bereitstellungstypen: „The EU Data Zone follows the Azure EU Data Boundary, which can include European Free Trade Association (EFTA) countries and regions such as Norway and Switzerland in addition to EU member states.“ und „Microsoft can add regions to either data zone without prior notice“.
+- **Was es nicht heißt:** Norwegen (EWR) und die Schweiz (Angemessenheitsbeschluss) sind keine unsicheren Drittländer. Der Widerspruch zählt nur für Prüfer, die ihren Kunden vertraglich „nur EU“ zusagen, und wegen „without prior notice“.
+- **Kleiner Zusatz:** Preisseite „Data Zone Deployment – Geographic based (EU or US)“, Bereitstellungsseite „(US, EU, or Asia Pacific (APAC))“.
+
+**Neu im Profil, kein Fall:** Responses-Schnittstelle „By default, response data is retained for 30 days.“ (Speicher an, solange store nicht false ist); die Datenschutzseite nennt dafür keine Frist. Nebenbefund: Die Datenschutzseite beschreibt „Stored completions (preview)“ noch als Funktion, laut eigener Seite „retire on October 15, 2026“.
+
+**Ohne Widerspruch:** gespeicherte Daten immer in der Geografie der Ressource (auch Global/DataZone/Batch), Missbrauchs-Speicher ebenso, Prüfer im EWR für EWR-Bereitstellungen, kein Training ohne Zustimmung.
+
+## Nachtrag 23.10.2026, ~06:22 UTC: Google Vertex AI / Gemini Enterprise Agent Platform, erster Widerspruchs-Scan, Nr. 46 neu (Dauerlauf)
+
+Gelesen: Zero-Data-Retention-Seite, Missbrauchsüberwachung (22.10.2026), Data Residency, Produktseite, Sovereign-Cloud-Seite. Alle 23 Profil-Zitate vom 22.10. stehen weiter wörtlich da; die Doku ist nach docs.cloud.google.com umgezogen (alte Adressen leiten weiter). Beleg `belege/anbieter/google-vertex-gemini-api/widerspruchs-scan-2026-10-23.txt`.
+
+**Nr. 46 (niedrig bis mittel), Google, „ZDR-aligned“ bei 30 Tagen Protokoll:**
+- **Aussage A:** Missbrauchsüberwachung, Google Frontier Models (derzeit Gemini 4 Argon (Cyber Permissive)): „These logs are stored securely inside the customer's environment for up to 30 days.“ und „these logs adhere to ZDR standards for customers with Cloud Master Agreements“.
+- **Aussage B:** Die Zero-Data-Retention-Seite zählt auf, was Kunden für Null-Speicherung selbst abschalten müssen („customers must take additional specific actions within each of these areas“), und nennt diese Protokolle nicht; das Wort „Frontier“ kommt dort nicht vor.
+- **Was es nicht heißt:** Google versteckt die 30 Tage nicht, sie stehen auf der Missbrauchs-Seite. Der Punkt ist das Wort: Google nennt 30 Tage Speicherung „ZDR“, weil sie im Kundenprojekt liegt und kein Mensch hinsieht. Wer ZDR als „nichts wird gespeichert“ liest, liegt falsch. Kunden unter Online-AGB bekommen zusätzlich menschliche Prüfung. Gleiches Muster wie Nr. 42 (Opper, ZDR mit Metadaten).
+
+**Neu im Profil, kein Fall:** Der Zwischenspeicher (24 Stunden) liegt nicht nur im Arbeitsspeicher, sondern standardmäßig auch auf Platte („durable caching“, ohne kundeneigene Schlüssel, beim global-Endpunkt in jeder Region). Stand schon in der Kopie vom 22.10., fehlte im Profil.
+
+**Ohne Widerspruch:** Werbeseiten (Produktseite, Sovereign Cloud) machen für Gemini keine Aussage zu Ort, Frist oder Training; „Core customer data … cannot move“ gilt für das eigene Produkt Data Boundary.
+
+## Nachtrag 23.10.2026, ~06:48 UTC: OpenAI API, erster Widerspruchs-Scan, Nr. 47 neu (Dauerlauf)
+
+Gelesen: Leitfaden „Data controls“ (wortgleich mit der Kopie vom 22.10.), Prompt-Caching-Leitfaden, Hintergrund-Modus, Werbeseite openai.com/api (Archivkopie 23.10.2026, direkt HTTP 403). Beleg `belege/anbieter/openai-api/widerspruchs-scan-2026-10-23.txt`.
+
+**Nr. 47 (niedrig bis mittel), OpenAI, „Zero data retention“ mit Zwischenspeicher:**
+- **Aussage A:** Werbeseite openai.com/api, „Security and data privacy“: „Zero data retention policy by request“.
+- **Aussage B:** Doku, Grenzen bei Chat Completions, Responses und Decisions: „Prompt caching may store encrypted key/value tensors in GPU-local storage as application state. This data is stored on the local GPU machines and is not retained after the 24-hour expiration.“ Für GPT-5.6 und später gibt es nur „30m“ (Standard) und „12h“ als Mindestdauer, kein „in_memory“; die ZDR-Voreinstellung „in_memory“ steht nur bei älteren Modellen. Hintergrund-Modus bei ZDR-Projekten: „Response data is temporarily stored to disk for roughly 10 minutes“.
+- **Was es nicht heißt:** OpenAI versteckt das nicht, es steht als Grenze in der Doku, und die Daten sind verschlüsselt und höchstens 24 Stunden da. Der Punkt ist wieder das Wort: „Zero data retention“ heißt bei OpenAI „keine Missbrauchsprotokolle, kein store“, nicht „nichts wird gespeichert“. Ob ZDR-Kunden bei GPT-6 den Zwischenspeicher abschalten können, ist ungeklärt. Gleiches Muster wie Nr. 42 (Opper) und Nr. 46 (Google).
+
+**Neu im Profil, kein Fall:** Zwischenspeicher und Hintergrund-Modus in `zero_data_retention` und `log_frist`; Satz, dass der erweiterte Zwischenspeicher in Regionen ohne Regional processing die Region verlassen kann (Europa hat Regional processing).
+
+**Ohne Widerspruch:** „No training on your data“ (Tabelle überall „No“), „Data residency controls“ nur über den Vertrieb (Doku: „Contact our sales team to see if you're eligible“).
+
+## Nachtrag 23.10.2026, ~07:48 UTC: ChatGPT Enterprise, erster Widerspruchs-Scan, Nr. 48 neu (Dauerlauf)
+
+Gelesen: Werbeseite chatgpt.com/business/enterprise, Sicherheitsseite openai.com/security-and-privacy, Preisseite chatgpt.com/pricing (alle Archivkopien 22.10.2026, direkt HTTP 403), dazu die gesicherten Kopien von Enterprise-Privacy, Services Agreement und Trust-Portal. Beleg `belege/anbieter/openai-chatgpt-enterprise/widerspruchs-scan-2026-10-23.txt`.
+
+**Nr. 48 (niedrig), OpenAI, „We never train on your data“:**
+- **Aussage A:** Werbeseite ChatGPT Enterprise, Überschrift: „We never train on your data and your data is secure“.
+- **Aussage B:** Satz direkt darunter: „is not used to train our models by default“. Enterprise-Privacy-Seite: „If you have explicitly opted in to share your data with us (for example, through our opt-in feedback mechanisms ) to improve our services, then we may use the shared data to train our models.“ Services Agreement 9.3: Feedback darf OpenAI „without restriction or compensation“ nutzen.
+- **Was es nicht heißt:** Ohne Zustimmung trainiert OpenAI nicht, das sagen Vertrag und Datenschutzseite gleich. Der Punkt ist das Wort „never“ gegen „by default“ auf derselben Seite. Ob ein Daumen hoch/runter einzelner Nutzer als Zustimmung des Kunden zählt, ist ungeklärt; das wäre die Frage an OpenAI.
+
+**Kein Fall:** Die Sicherheitsseite überschreibt „ISO 27001, 27017, 27018, and 27701“; laut Trust-Portal ist es ein 27001-Zertifikat, dessen Umsetzung 27017/27018 folgt und um 27701 erweitert ist. Als Anmerkung im Profil.
+
+**Ohne Widerspruch:** „encryption, retention, and compliance controls“ (Admins legen die Frist fest). Preisseite ohne lesbaren Text, nicht ausgewertet.
+
+## Nachtrag 23.10.2026, ~08:17 UTC: Anthropic Claude API, erster Widerspruchs-Scan, Nr. 49 neu (Dauerlauf)
+
+Gelesen: Werbeseite claude.com/platform/api (www.anthropic.com/api leitet dorthin), Managed-Agents-Leitfäden „Self-hosted sandboxes: security“, „Self-hosted sandboxes: memory“, „Memory“, dazu „API and data retention“ (alle direkt, HTTP 200, robots erlaubt; Archiv antwortete 429). Beleg `belege/anbieter/anthropic-api/widerspruchs-scan-2026-10-23.txt`.
+
+**Nr. 49 (mittel), Anthropic, Gedächtnis „on your infrastructure“:**
+- **Aussage A:** Werbeseite, Kachel „Memory stores“: „Agents remember across sessions, keeping memory files on your infrastructure.“ Der „Learn more“-Link führt auf den Memory-Leitfaden.
+- **Aussage B:** Security-Leitfaden: „Memory stores remain hosted by Anthropic, including their version history.“ Memory-Leitfaden für eigene Sandboxes: „The memory store on Anthropic's side remains the source of truth.“ Versionen bleiben mindestens 30 Tage, die letzten Versionen eines lebenden Eintrags „regardless of age“. Managed Agents insgesamt: ZDR „No“, „transcripts persist until you delete them“, ausdrücklich auch bei „Self-hosted sandboxes“.
+- **Was es nicht heißt:** Mit eigener Sandbox liegt während der Sitzung eine Arbeitskopie beim Kunden, und Konversationsinhalte laufen dort durch. Anthropic beschreibt das genau, nur eben in der Doku. Der Punkt ist der Werbesatz: Wer nur die Werbeseite liest, glaubt, das Gedächtnis seiner Agenten liege bei ihm; es liegt in den USA bei Anthropic (Speicherort laut Profil nur „us“). Für EU-Prüfer wichtig, weil darin Kundendaten über Sitzungen hinweg liegen. Ob „your infrastructure“ eine andere Einstellung meint, die wir nicht gefunden haben: ungeklärt; das wäre die Frage an Anthropic.
+
+**Kein Fall:** „privacy of zero data retention“ gegen „flagged … up to 2 years“ (gleiches Wort-Muster wie Nr. 42/46/47, steht schon im Profil). „Residency … regions in … Europe“ ist auf „On your cloud provider“ eingeschränkt, für die direkte API gibt es keine EU-Region; kein Widerspruch, aber leicht misszuverstehen.
+
+**Ohne Widerspruch:** „By default, Anthropic does not use customer data from commercial deployments to train Claude“ passt zu „never used for model training without your express permission“.
+
+## Nachtrag 23.10.2026, ~08:53 UTC: Google Gemini für Workspace, erster Widerspruchs-Scan, Nr. 50 neu (Dauerlauf)
+
+Gelesen: workspace.google.com/solutions/ai (deutsche Fassung), /pricing (englisch), /security (alle direkt, HTTP 200, robots erlaubt; /intl/-Seiten sind per robots gesperrt und wurden nicht verwendet), dazu die gesicherten Kopien vom 22.10. (Privacy Hub, Gemini-App an/aus). Beleg `belege/anbieter/google-gemini-workspace/widerspruchs-scan-2026-10-23.txt`.
+
+**Nr. 50 (mittel), Google, Gemini Notebook außerhalb der Data Regions:**
+- **Aussage A:** Preisseite: „Gemini Notebook with expanded access to features“ (ab Business Standard) und „Enterprise data regions“ (Enterprise, „All features mentioned, and:“). Werbeseite: „Mit Ihrem sicheren KI-Recherchepartner können Sie Ihre vertrauenswürdigen Geschäftsdateien in Audio-Zusammenfassungen und visuelle Hilfsmittel umwandeln.“
+- **Aussage B:** Privacy Hub: „Gemini Notebook creates a new copy of each file. This new file is stored with the user's Gemini Notebook data, not in their Drive. Your organization's file sharing and data region settings do not apply to data in Gemini Notebook.“
+- **Was es nicht heißt:** Google versteckt das nicht, es steht im Privacy Hub. Der Punkt ist, dass beides im selben Paket verkauft wird: Wer Enterprise wegen der Data Regions kauft und Drive-Dateien in Gemini Notebook lädt, hat Kopien außerhalb der gewählten Region und außerhalb der Freigabe-Regeln. Wo diese Kopien liegen, nennt Google nicht (ungeklärt). Ob es einen Admin-Schalter gibt, der Notebook für Data-Regions-Kunden sperrt oder einschränkt, ist ungeklärt; das wäre die Frage an Google.
+
+**Kein eigener Fall (Anmerkung):** „Ihre Daten … werden weder für das Anzeigen-Targeting noch zum Trainieren von Gemini-Modellen verwendet“ steht ohne Einschränkung auf eine Ausgabe; für Workspace-Ausgaben ohne Gemini als Core Service (u. a. Business Base, Essentials Starter, Workspace Individual) gilt laut Hilfe „Their chats may be reviewed by human reviewers and used to improve Google's products“. Die Core-Service-Zusage selbst sagt „not … used for Generative AI model training outside their domain without permission“; was „outside their domain“ ausnimmt, ist ungeklärt.
+
+**Ohne Widerspruch:** „ISO 42001 und SOC 1/2/3“ passt zur ISO-42001-Seite von Google; „Gemini ruft nur relevante Inhalte … ab, auf die die Nutzerin oder der Nutzer Zugriff hat“, nichts Gegenteiliges gefunden.
+
+## Nachtrag 23.10.2026, ~09:12 UTC: Microsoft Copilot (Unternehmensfassung), erster Widerspruchs-Scan, Nr. 51 neu (Dauerlauf)
+
+Gelesen: microsoft.com/en-us/microsoft-365-copilot/enterprise und die drei Vergleichsseiten gegen ChatGPT Enterprise, Claude Enterprise und Gemini Enterprise (alle direkt, HTTP 200, robots erlaubt; die alten Adressen /en-us/microsoft-365/copilot/… lieferten eine Sperrseite und wurden nicht verwendet), dazu die gesicherten Kopien vom 22.10. (Enterprise Data Protection, Websuche, Anthropic-Seite, Flex routing). Beleg `belege/anbieter/microsoft-copilot/widerspruchs-scan-2026-10-23.txt`.
+
+**Nr. 51 (mittel), Microsoft, „all interactions remain within your Microsoft 365 tenant“:**
+- **Aussage A:** Vergleichsseiten (wortgleich bei ChatGPT und Gemini, bei Claude ohne „all“): „It doesn’t train on your data, and all interactions remain within your Microsoft 365 tenant“. Über den Wettbewerber: „ChatGPT Enterprise is a separate service outside that boundary“, „Gemini Enterprise connectors … store it outside your Microsoft 365 tenant.“
+- **Aussage B:** Enterprise Data Protection: „web search queries … are also a part of Copilot interactions.“ und „The Bing search service operates separately from Microsoft 365 … Microsoft acts as an independent data controller“. Websuche: „The … DPA doesn't apply to the use of generated web search queries … Also, HIPAA compliance and the EU Data Boundary don't apply to generated search queries.“
+- **Zusatz:** Anthropic-Modelle mit Datenspeicherung: „data is stored by Anthropic and not subject to your Microsoft Customer Agreement“; ab Werk aus, erst nach Opt-in des Admins. Die Werbung wirbt mit „Model choice“ ohne diesen Hinweis.
+- **Was es nicht heißt:** Prompts und Antworten selbst bleiben laut Doku in Microsoft 365. Die Websuche ist ab Werk aus, nach Einschalten durch den Admin aber für Nutzer ab Werk an; die Anfrage ist nur ein paar Wörter, ohne Nutzer- und Tenant-Kennung. Der Punkt ist das Wort „all“: Microsoft nennt die Websuchen selbst Interaktionen und hält dem Wettbewerber das Verlassen des Tenants vor. Ob die Werbung mit „interactions“ nur Prompts und Antworten meint, ist ungeklärt; das wäre die Frage an Microsoft.
+
+**Kein eigener Fall (Anmerkung):** Werbeseite nennt die EU-Datengrenze als Raum „within which to store and process Customer Data“; Flex routing ist für Tenants nach dem 25.03.2026 ab Werk an und erlaubt Verarbeitung außerhalb. Steht offen in der Doku und schon im Profil.
+
+**Ohne Widerspruch:** „not used to train foundation models“ passt zur Doku. „no data duplication“ meint laut Kontext das Arbeiten in den Apps, mehrdeutig, kein Kandidat.
+
+## Nachtrag 23.10.2026, ~09:19 UTC: Amazon Bedrock, erster Widerspruchs-Scan, Nr. 52 neu (Dauerlauf)
+
+Gelesen: aws.amazon.com/bedrock/, /bedrock/security-compliance/, /bedrock/anthropic/, /bedrock/guardrails/ (alle direkt, HTTP 200, robots erlaubt), dazu die gesicherten Kopien vom 23.10. (FAQ, Missbrauchserkennung, Datenaufbewahrung, Cross-Region). Beleg `belege/anbieter/amazon-bedrock/widerspruchs-scan-2026-10-23.txt`.
+
+**Nr. 52 (mittel bis hoch), AWS, „stored at rest in the AWS Region where you are using Amazon Bedrock“:**
+- **Aussage A:** FAQ, Frage „Is the content processed by Amazon Bedrock moved outside the AWS Region where I am using Amazon Bedrock?“: „Any customer content processed by Amazon Bedrock is encrypted and stored at rest in the AWS Region where you are using Amazon Bedrock.“
+- **Aussage B:** Missbrauchserkennung: Claude Fable 5/5.1 „all traffic will be retained for up to 30 days“, OpenAI-Modelle (außer gpt-oss/Safeguard) markierter Verkehr ebenso; „If cross-region inference is enabled for these models, retained inputs and outputs are stored in destination regions“. Global-Profil: „processed by compute across supported commercial AWS Regions worldwide“.
+- **Zusatz:** Startseite „Bedrock never stores or uses your data to train models“; mehrdeutig (Training oder Speichern), darum nur Zusatz.
+- **Was es nicht heißt:** AWS nennt die Speicherung offen auf zwei Doku-Seiten; für Fable 5 muss der Kunde aws_review selbst setzen. Der Punkt ist die FAQ-Antwort auf genau die Ortsfrage ohne Ausnahme. Für die Profil-Modelle (Nova Pro, Sonnet 5.5, Mistral Large 3) nennt die Missbrauchsseite keine Speicherung.
+
+**Ohne Widerspruch:** „not shared with model providers“ (Werbung, FAQ) passt zur Missbrauchsseite und zum Altmodus provider_data_share, der heute nichts weitergibt.
+
+## Nachtrag 23.10.2026, ~10:13 UTC: Anthropic Claude Enterprise, erster Widerspruchs-Scan, Nr. 53 neu (Dauerlauf)
+
+Gelesen: claude.com/enterprise (→ /solutions/enterprise) und claude.com/solutions/financial-services (direkt, HTTP 200, robots erlaubt), dazu die gesicherten Kopien vom 22.10. (Speicherdauer Enterprise, Speicherdauer Organisation, Training, Trust Center). Beleg `belege/anbieter/anthropic-claude-enterprise/widerspruchs-scan-2026-10-23.txt`.
+
+**Nr. 53 (mittel), Anthropic, „custom data retention“ für den ganzen Plan:**
+- **Aussage A:** Enterprise-Seite, FAQ: „Enterprise is built for organizations with real compliance obligations: […] Data controls — custom data retention, customer-managed encryption keys, and US-only inference.“ Im selben Plan: „Includes Enterprise security and compliance, chat, Claude Code, Cowork, connectors, SSO, SCIM, audit logs, and more.“
+- **Aussage B:** Hilfe-Artikel Speicherdauer Enterprise: „Custom retention periods apply to content in chats and projects. They do not apply to Claude Design, Claude Tag, Claude Managed Agents, or any other feature that runs Claude Code in the cloud.“ Dazu: „by default, projects are retained indefinitely, so chats inside projects are not deleted by your chat retention period.“ Feedback: „we retain data associated with that submission for 5 years.“
+- **Zusatz:** Finanzseite „Anthropic holds SOC 2 Type II and FedRAMP certification.“; Trust Center: FedRAMP High nur bei Claude for Government, bei Claude Enterprise und Team „N/A“. Für die Firma wahr, für das verkaufte Produkt nicht.
+- **Was es nicht heißt:** Anthropic nennt die Ausnahmen offen im Hilfe-Artikel. Der Punkt ist, dass die Werbeseite die Kontrolle für den Plan nennt und Claude Code mitverkauft, während sie für Claude Code in der Cloud nicht gilt. Welche Speicherdauer dort gilt: ungeklärt.
+
+**Ohne Widerspruch:** Training „by default“ (Feedback-Ausnahme steht offen in der Doku, Owner kann sie abschalten). „GDPR compliance“: kein prüfbares Zertifikat, ungeklärt.
+
+## Nachtrag 23.10.2026, ~12:20 UTC: Meta Model API, erster Widerspruchs-Scan, Nr. 54 neu (Dauerlauf)
+
+Gelesen: dev.meta.ai/products/meta-model-api und dev.meta.ai/legal/commitments (direkt, HTTP 200, robots erlaubt), dazu die gesicherten Kopien vom 23.10. (Nutzungsbedingungen, Preise, Modelle, Zero Data Retention). Beleg `belege/anbieter/meta-llama-api/widerspruchs-scan-2026-10-23.txt`.
+
+**Nr. 54 (mittel), Meta, „Not used to improve our products“:**
+- **Aussage A:** Werbe- und Modellseite, Tabelle „Models and pricing“: bei jedem Standard-Modell „Not used to improve our products.“ (muse-spark-1.3, 1.2, 1.1), bei den billigen Varianten „Used to improve our products.“
+- **Aussage B:** Data Commitments, für Inhalte aller Stufen: „Your Content and Customer Data will be used: […] To improve and maintain the Meta Model API“; Training nur „Discounted Services Content only“. Für Standard zusätzlich „to develop and improve systems that protect the safety and security of Meta's products and services“. Nutzungsbedingungen 4.4: Inhalte werden behalten „for security, safety, abuse, and policy review and improvements“.
+- **Zusatz:** Keine Seite nennt eine Speicherfrist ohne ZDR; „You can view and delete your Content through your Account“ sagt nicht, ob nach 4.4 behaltene Kopien mitgelöscht werden. Frist: ungeklärt.
+- **Was es nicht heißt:** Bedingungen und Doku versprechen sauber „not used to train Meta Models“; das hält. Der Punkt ist das weitere Wort „improve“ in der Werbung, das die eigenen Zusagen für Standard-Inhalte nicht decken. Ob „improve and maintain“ Inhalte selbst oder nur Nutzungsdaten meint: ungeklärt, das wäre die Frage an Meta.
+
+**Ohne Widerspruch:** Contributor-Stufe (Training, Auswertung ohne Entkopplung) steht offen da. Muse Code: Contributor-Modus ab Werk an, steht offen in der Doku, betrifft das Abo, nicht die Model API.
+
+## Nachtrag 24.10.2026, ~01:00 MESZ (22:59 UTC am 23.10.): Cohere, erster Widerspruchs-Scan, Nr. 55 neu (Dauerlauf)
+
+Gelesen: cohere.com/security, cohere.com/saas-agreement, cohere.com/enterprise-data-commitments (direkt, HTTP 200, robots erlaubt), dazu die gesicherten Kopien vom 24.10. ~00:23 MESZ. Beleg `belege/anbieter/cohere/widerspruchs-scan-2026-10-24.txt`.
+
+**Nr. 55 (mittel bis hoch), Cohere, „your data stays yours“:**
+- **Aussage A:** Sicherheitsseite, „Built-in data autonomy“: „Maintain full control over your data with customizable handling and retention settings. Opt out of model training at any time — your data stays yours.“
+- **Aussage B:** SaaS-Vertrag (Stand 08.04.2025), „Ownership; Reservation of Rights“: Kunde gibt Cohere ein „IRREVOCABLE, SUBLICENSABLE“ Recht, Kundendaten zu nutzen, um „IMPROVE AND ENHANCE THE SERVICES AND COHERE’S OTHER OFFERINGS […] INCLUDING BY SHARING API DATA AND FINETUNING DATA WITH THIRD PARTIES WHO MAY USE [IT] […] FOR OTHER PURPOSES PERMITTED UNDER THEIR TERMS AND CONDITIONS“; die Dritten dürfen sie „FOR ITS OWN PURPOSES“ nutzen. „API Data“ = alles, was an die API geht. Nach Vertragsende: „no obligation to delete […] any API Data or Finetuning Data submitted […] in accordance with Section 3(a)(iii).“
+- **Zusatz:** Datenzusagen: Löschung nach 30 Tagen „unless we need to retain them to comply with […] a customer contract“; der Schalter wirkt nur für Daten „created after you make that change“. Ob der Schalter „Data Controls“ auch die Weitergabe an Dritte nach 3(a)(iii) stoppt, steht nirgends (ungeklärt); der Vertrag erwähnt ihn nicht.
+- **Was es nicht heißt:** Cohere schreibt die Rechte offen in den Vertrag, und für Private Deployment und Cloud-Partner („third-party cloud AI/ML platforms“) sagt Cohere, dass es keine Eingaben bekommt; das betrifft nur die SaaS-API. Das DPA (nur gegen Geheimhaltungsvereinbarung) kann 3(a)(iii) einschränken; nicht eingesehen. Der Punkt ist: Die Werbung verspricht „your data stays yours“ mit dem Training-Schalter, der veröffentlichte Vertrag erlaubt Weitergabe an Dritte zu deren Zwecken ohne Löschpflicht. Das wäre die Frage an Cohere: Gilt 3(a)(iii) noch, wenn der Schalter aus ist?
+
+**Ohne Widerspruch:** „ISO 27001 and ISO 42001“, „SOC 2 Type II“ nur auf Anfrage im Trust Center, nicht prüfbar (ungeklärt, kein Widerspruch). Hosting „US-Central“ steht offen im Trust Center und im Profil.
+
+## Nachtrag 24.10.2026, ~01:15 MESZ (23:14 UTC am 23.10.): DeepSeek API, erster Widerspruchs-Scan, Nr. 56 neu (Dauerlauf)
+
+Gelesen: Open-Platform-Bedingungen (gültig ab 29.04.2026), Nutzungsbedingungen (Stand 27.03.2026), Datenschutzerklärung (Stand 10.02.2026), Zusammenfassung der Trainingsdaten V4.1 Flash (je direkt von cdn.deepseek.com, HTTP 200, keine robots.txt), dazu die gesicherten Kopien vom 23.10. ~01:16 MESZ. Beleg `belege/anbieter/deepseek-api/widerspruchs-scan-2026-10-24.txt`.
+
+**Nr. 56 (mittel), DeepSeek API, „you are the controller“ gegen eigenes Training mit den Eingaben:**
+- **Aussage A:** Open-Platform-Bedingungen 3.3 und 5.5: Der Entwickler braucht eine Grundlage für die „delegation of personal information processing to us“ und ist „the controller of personal information processing activities in that scenario“; die Datenschutzerklärung erklärt sich für Daten von Endnutzern nachgelagerter Anwendungen für nicht zuständig („not covered by this privacy policy“).
+- **Aussage B:** Die Open-Platform-Bedingungen gelten nur als „Specific Agreement to the "DeepSeek Terms of Use"“ und sagen zum Training nichts. Damit gilt Nutzungsbedingungen 4.3 auch für die API: „we may, to a minimal extent, use Inputs and Outputs to provide, maintain, operate, develop or improve the Services or the underlying technologies“. Widerspruch nur über den Schalter „Improve the model for everyone“. Die Zusammenfassung V4.1 kreuzt bei Nutzereingaben fürs Training „☒Yes“ an und verweist fürs Abmelden auf die Datenschutzerklärung, die für die Endnutzer-Daten gerade nicht gilt.
+- **Zusatz:** Die Bedingung „strict de-identification“ steht in 4.3 und in der Zusammenfassung, nicht im Trainings-Zweck der Datenschutzerklärung.
+- **Was es nicht heißt:** DeepSeek nennt sich nirgends ausdrücklich Auftragsverarbeiter, und „delegation“ ist nicht dasselbe Wort wie Auftragsverarbeitung nach Art. 28 DSGVO. Dass 4.3 für die API gilt, ist unsere Lesart (kein Widerspruch zu den Sonderbedingungen, also kein Vorrang). Ob API-Konten den Schalter haben und was der Rahmenvertrag hinter der Anmeldung regelt: ungeklärt, nicht eingesehen. Der Punkt ist: Der Entwickler soll als Verantwortlicher seinen Endnutzern alles offenlegen, aber DeepSeek darf deren Eingaben für eigene Modelle nutzen, und der Weg zum Abschalten ist für die API nirgends beschrieben. Das wäre die Frage an DeepSeek: Gilt 4.3 für API-Eingaben, und wie schaltet ein API-Konto das ab?
+
+**Ohne Widerspruch:** Speicherung in der VR China steht offen in der Datenschutzerklärung und im Profil. Kein AVV veröffentlicht, steht offen im Profil.
+
+## Nachtrag 24.10.2026, ~03:20 MESZ: Scaleway Generative APIs, erster Widerspruchs-Scan bei einem EU-Anbieter, Nr. 57 neu (Dauerlauf)
+
+Gelesen: Produktseite Generative APIs, Datenschutz-Doku Generative APIs („Reviewed on October 03, 2025“), Specific Conditions AI Services (Version 07/04/2026), je direkt am 24.10. 03:14 MESZ (HTTP 200), dazu die Kopien vom 22.10. Beleg `belege/anbieter/scaleway/widerspruchs-scan-2026-10-24.txt`.
+
+**Nr. 57 (niedrig bis mittel), Scaleway, Werbeseite ohne die Ausnahme, die Doku und Vertrag nennen:**
+- **Aussage A:** Die Produktseite sagt ohne Einschränkung: „We do not collect, read, reuse, or analyse the content of your inputs, prompts or outputs generated by the APIs.“ Darüber steht „your data remains yours, and only in Europe“.
+- **Aussage B:** Die Doku wiederholt denselben Satz, hängt aber an: „The only exception being …“ (Fehler wie HTTP 500, Missbrauch); dann „may store temporarily and access the full content of HTTP requests“, „up to two weeks“. Der Vertrag sagt „does not retain any requests or generated Content after processing“, erlaubt im selben Abschnitt aber „may temporarily retain the content of the HTTP request“ (ohne Höchstdauer) und Batch-Eingaben 24 Stunden.
+- **Zusatz:** Die Doku nennt „a Zero Data Retention Policy“ als Standard und im selben Abschnitt die zwei Wochen. Ein Zwischenspeicher („KV values“) läuft immer mit, „cannot be disabled“, Dauer ungenannt.
+- **Was es nicht heißt:** Die Ausnahme ist eng (laut Doku etwa 1 von einer Million Anfragen) und steht offen in Doku und Vertrag; die Produktseite verlinkt die Doku. Kein Hinweis, dass Scaleway mehr speichert, als die Doku sagt. Der Punkt ist nur: Wer allein die Werbeseite liest, erfährt nicht, dass ganze Anfragen bis zu zwei Wochen gelesen werden dürfen, und der Vertrag nennt keine Frist. Das wäre die Frage an Scaleway: Gilt die Zwei-Wochen-Grenze vertraglich, und erfährt der Kunde, wenn seine Anfragen gespeichert wurden?
+
+**Ohne Widerspruch:** Standort Paris steht gleich auf Produktseite („Paris only. This may change in the future.“), in der Doku und im Profil. „Not used for training“ steht gleich in Doku und Vertrag. Die Nutzungsdaten, die die Doku „to … improve our service“ sammelt, sind ohne Inhalt der Anfragen; ob sie unter das Vertragswort „Client data … is not used to improve the Service“ fallen, ist Auslegung, darum kein Widerspruch.
+
+## Nachtrag 24.10.2026, ~05:00 MESZ: Mistral AI, erster Widerspruchs-Scan, Nr. 58 neu (Dauerlauf)
+
+Gelesen: Ankündigung Mistral Large 4, Modellseite Large 4 in der Doku, Werbeseiten Sovereign AI und La Plateforme, Commercial Terms of Service (Effective September 25, 2026), DPA (Effective July 27, 2026), je direkt am 24.10. ~04:56 MESZ (HTTP 200). Beleg `belege/anbieter/mistral/widerspruchs-scan-2026-10-24.txt`.
+
+**Nr. 58 (mittel), Mistral, Vorschau-Modell trainiert mit Kundendaten, Werbung schweigt, und die beiden Verträge sagen für Kunden mit Opt-out Verschiedenes:**
+- **Aussage A:** Die Ankündigung vom 06.10. lädt ein: „You can try the preview API today on Mistral Studio“, und wirbt mit „a European deployment that Mistral operates end-to-end … under European law“. Die Werbeseite Sovereign AI: „You control where your data goes and who can use it.“ La Plateforme: „full ownership of your data“.
+- **Aussage B:** Commercial Terms 4.2(d) und 4.3: Bei „Labs or Preview Models“ darf Mistral Kundendaten und Ausgaben zum Training nutzen, mit Lizenz „perpetual, irrevocable“; „the opt-out preferences you selected … (including through zero data retention) does not apply“. „If you do not want your data or outputs used for training, do not use Labs or Preview Models.“ Mistral Large 4 ist laut Modellseite „Public Preview“.
+- **Widerspruch im Vertrag selbst:** Der DPA 2.3 erlaubt Training mit personenbezogenen Daten nur „unless Customer is or has opted-out of training“, ohne Ausnahme für Vorschau-Modelle, und 11.2 sagt, der DPA geht bei Widerspruch vor. Für personenbezogene Daten in Vorschau-Anfragen sagt also ein Vertragsteil „wird trainiert, auch mit Opt-out“, der andere, vorrangige „nicht, wenn Opt-out“. Welche Lesart Mistral anwendet: ungeklärt.
+- **Was es nicht heißt:** Die Vorschau-Regel steht offen in den Terms, in klarer Sprache. Kein Hinweis, dass Mistral außerhalb der Vorschau gegen ein Opt-out trainiert. Ob die Konsole beim Wählen des Modells warnt, ist nicht geprüft (braucht Login). Der Punkt ist: Ankündigung und Modellseite erwähnen das Training nicht, und wer mit Zero Data Retention arbeitet, verliert sie beim Vorschau-Modell, ohne dass es dort steht. Frage an Mistral wäre: Gilt DPA 2.3 auch für Vorschau-Modelle, und zeigt die Konsole einen Hinweis?
+
+**Ohne Widerspruch:** Standort EU für die Vorschau (Ankündigung „served on that same infrastructure“ in Europa) passt zum Profil. Feedback per Daumen trainiert immer (DPA 2.3), steht offen da und ist im Profil schon vermerkt.
+
+## Nachtrag 24.10.2026, ~05:40 MESZ: IONOS CLOUD AI Model Hub, erster Widerspruchs-Scan, Nr. 59 neu (Dauerlauf)
+
+Gelesen: Produktseite cloud.ionos.de/managed/ai-model-hub und Doku „Data Handling“ (je direkt am 24.10. ~05:30 MESZ, HTTP 200), Nutzungsbedingungen für KI-Dienste und Enterprise-Datenschutzpaket (Version 7.4) als Archivkopien vom 24.09.2026, weil robots.txt von cloud.ionos.de „/terms-“ sperrt. Beleg `belege/anbieter/ionos/widerspruchs-scan-2026-10-24.txt`.
+
+**Nr. 59 (niedrig bis mittel), IONOS, Produktseite wirbt für API-Einbindung und Kunden-Chatbots, die KI-Nutzungsbedingungen nennen genau das „missbräuchlich“, wenn die Leistungsbeschreibung es nicht ausdrücklich vorsieht:**
+- **Aussage A:** Produktseite: „Integrieren Sie KI über eine OpenAI-kompatible API in bestehende Systeme und Frameworks.“ und „chatbot-gestützte Kundenanfragen“.
+- **Aussage B:** Nutzungsbedingungen 1.1 gelten ausdrücklich auch für den API-Zugang (PaaS). 2.5: „für die interaktive Nutzung durch eine natürliche Person bestimmt, soweit in der Leistungsbeschreibung nicht ausdrücklich anders vorgesehen ist“. 2.6: Missbrauch sind u. a. „automatisierte oder repetitive Abfragen“, „skript-, makro- oder softwaregesteuerte Nutzung“ und „Überlassung an Dritte“. Folge nach 2.7: Drosselung, Wechsel auf ein schwächeres Modell, Sperre.
+- **Was es nicht heißt:** Der Text ist erkennbar für einen Chat-Dienst geschrieben (Tastatur, Arbeitstag). Eine Leistungsbeschreibung für den AI Model Hub, die die API-Nutzung „ausdrücklich“ vorsieht, war nicht zu finden; sie kann existieren. Kein Hinweis, dass IONOS API-Kunden je so behandelt hat. Frage an IONOS wäre: Gelten 2.5/2.6 für den AI Model Hub, und wo steht die Leistungsbeschreibung?
+
+**Zusatz, kein harter Widerspruch:** Doku „never logged and is never accessed by IONOS CLOUD personnel“; Nutzungsbedingungen 2.3 erlauben die Verwendung der Ein- und Ausgaben „zur Gewährleistung der technischen Sicherheit und Fehlerbehebung“. Datenschutzpaket 4.3 lässt Drittstaaten zu, „sofern … erforderlich“, die Doku sagt „Germany … nowhere else“. Doku „No third-party sub-processors“, Unterauftragnehmer-Anlage hinter einem Link, nicht aufgelöst.
+
+**Ohne Widerspruch:** Kein Training mit Kundendaten (Produktseite, Doku und Nutzungsbedingungen 2.3 gleich). Preise auf der Produktseite gleich dem Profil (Stand 23.10.).
+
+## Nachtrag 24.10.2026, ~06:30 MESZ: Black Forest Labs (FLUX API), erster Widerspruchs-Scan, Nr. 60 neu (Dauerlauf)
+
+Gelesen: bfl.ai/enterprise, EU API Service Terms (Last Revised on August 26, 2026), Privacy Policy (Last Revised on August 1, 2026) und FLUX API Integration Guide (je direkt am 24.10. ~06:23 MESZ, HTTP 200, robots erlaubt). Beleg `belege/anbieter/black-forest-labs/widerspruchs-scan-2026-10-24.txt`.
+
+**Nr. 60 (mittel), Black Forest Labs, Enterprise-Seite verspricht „Zero data retention“ für die Managed API, die EU API Service Terms geben BFL eine dauerhafte, unwiderrufliche Lizenz an Ein- und Ausgaben, ausdrücklich auch zum Training:**
+- **Aussage A:** Enterprise-Seite, Kachel „Managed API“: „Zero data retention and auto-scaling infrastructure.“ Enterprise-Verträge stehen dort als eigene Zeile („available from 200K generations/month“), ZDR also nicht erkennbar an sie gebunden.
+- **Aussage B:** EU API Service Terms 2b: „perpetual, irrevocable, worldwide, non-exclusive, and fully sublicensable right and license to use, … publicly perform, and publicly display Developer's Input and Output“ und „the Company may use Inputs and Outputs to train and improve its artificial intelligence models“. Laut Einleitung gelten die Terms auch in Enterprise-Verträgen, wenn das Order Form sie nennt.
+- **Was es nicht heißt:** Ein Order Form oder DPA ist nicht öffentlich („available on request“); dort kann ZDR geregelt sein. Ob die Standard-API ohne Enterprise-Vertrag speichert, ist ungeklärt. Frage an BFL wäre: Gilt „Zero data retention“ für jede Nutzung der Managed API, und schließt sie Ziffer 2b aus?
+
+**Zusatz, kein harter Widerspruch:** Enterprise-Seite „your data remains private“, 2b erlaubt „publicly display“. Privacy Policy bietet einen „Training Opt Out“ per Mail, 2b nennt die Lizenz „irrevocable“; welche Regel für EU-API-Kunden gilt, ungeklärt. Integration Guide: api.eu.bfl.ai „Multi-cluster routing limited to EU regions“, aber nur als „regional preferences“; Privacy Policy lässt Übermittlung außerhalb des EWR zu.
+
+**Ohne Widerspruch:** Moderation vor und nach dem Modell (Profil, Beleg 18.10.). Preise nicht geprüft (Profil Stand 23.10.).
+
+## Nachtrag 24.10.2026, 08:31 MESZ (Systemuhr): Infomaniak AI Services, erster Widerspruchs-Scan, Nr. 61 neu (Dauerlauf)
+
+Gelesen: Produktseite, Modellseite und Preisseite (mit FAQ) unter infomaniak.com/en/hosting/ai-services, LLM API Special Conditions („Review of 07/10/2025“), DPA-PDF und Privacy Policy (je direkt am 24.10. ~08:25 MESZ, HTTP 200, robots erlaubt). Beleg `belege/anbieter/infomaniak/widerspruchs-scan-2026-10-24.txt`. Damit hat jeder der 33 Anbieter mindestens einen Widerspruchs-Scan.
+
+**Nr. 61 (mittel), Infomaniak, die LLM-Bedingungen versprechen 99,9 % Verfügbarkeit, nehmen Beta-Modelle aber ganz davon aus; 4 der 7 Sprachmodelle sind Beta, darunter die beiden als stärkste beworbenen:**
+- **Aussage A:** LLM-Bedingungen Art. 5: „Infomaniak commits … to maintaining a 99.9% service availability level.“
+- **Aussage B:** Gleicher Artikel: Beta-Modelle „are an exception to the above rules. They may be withdrawn at any time without notice and may also be temporarily unavailable … shall not give rise to any liability or compensation“. Beta am 24.10.: Kimi-K2.6 („The most powerful for vibe coding“), Qwen3.5-397B („The most powerful“), Qwen3.8-27B („The best performance-to-cost ratio“), Apertus-v1.5-70B. Ohne Beta: Mistral-Small-4, gemma-4-31B, Ministral-3-14B.
+- **Was es nicht heißt:** Kein Rechtsbruch; die Ausnahme steht offen im Vertrag. Die Produktseite nennt keine Verfügbarkeitszahl. Wie die 99,9 % gemessen und ob sie vergütet werden, steht nirgends. Frage an Infomaniak wäre: Für welche Modelle gilt die 99,9-%-Zusage heute, und gibt es bei Unterschreitung eine Gutschrift?
+
+**Zusatz, kein Vertragsthema:** FAQ auf Produkt- und Preisseite: Bildfunktionen „currently being analysed“, nennt Mixtral und SDXL-Lightning; dieselbe Preisseite verkauft Flux schnell und Photomaker V2, die Modellseite führt Bild-zu-Text-Modelle. Veralteter FAQ-Text.
+
+**Zusatz, kein harter Widerspruch:** Unterauftragnehmer im Kreis: DPA 5.1 verweist auf Dienstbedingungen oder Datenschutzerklärung, die Datenschutzerklärung auf einen DPA-Anhang „Third-Party Subcontractors“, den das öffentliche DPA nicht hat. „No queries are stored“ gegen Art. 6 „Some data is stored temporarily“ plus Betriebsdaten ohne Frist. DPA 13.1 verbietet Übermittlung außerhalb von EU/EWR ohne schriftliche Zustimmung; die Rechenzentren stehen in der Schweiz (außerhalb EU/EWR), ob der Vertragsschluss als Zustimmung gilt, ungeklärt.
+
+**Ohne Widerspruch:** Kein Training mit Kundendaten (Produktseite und Art. 6 gleich). Preise aller 7 Sprachmodelle gleich dem Profil.

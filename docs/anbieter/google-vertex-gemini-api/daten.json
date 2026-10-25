@@ -1,0 +1,369 @@
+{
+  "id": "google-vertex-gemini-api",
+  "name": "Google Vertex AI (heute Gemini Enterprise Agent Platform) mit Gemini-Modellen, Gemini API über Google Cloud für Unternehmen",
+  "kategorie": "cloud",
+  "kurzbeschreibung": "Gemini-Modelle von Google als API über Google Cloud (Vertex AI, seit 2026 Gemini Enterprise Agent Platform), mit wählbarer EU-Multi-Region und einzelnen EU-Regionen.",
+  "stammdaten": {
+    "sitz": "Mountain View, USA (Google LLC); Vertragspartei für Google Cloud in der EMEA-Region (außer Frankreich, Italien, Polen) laut Google: Google Cloud EMEA Limited",
+    "land": "US",
+    "mutterkonzern": "Alphabet Inc.",
+    "us_eigner": true,
+    "gegruendet": 1998,
+    "website": "https://cloud.google.com/vertex-ai",
+    "dpf": {
+      "status": "belegt",
+      "wert": true,
+      "quelle": "https://www.dataprivacyframework.gov/participant/5780",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Amtliche DPF-Liste, Eintrag „Google LLC“, Mountain View: „EU-US Certification“ Status „Active“, HR- und Nicht-HR-Daten, seit 22.09.2016, gültig bis 13.09.2027; gilt laut Eintrag für Google LLC und ihre US-Töchter. Vertragspartei für Google Cloud in Deutschland ist Google Cloud EMEA Limited (Irland), siehe Anmerkung zum AVV; Google LLC steht als Unterauftragnehmer für alle Google-Cloud-Dienste in der Liste. Kopie + SHA-256 in belege/rechtsraum/dpf-2026-10-22/. Am 25.10.2026 über die Schnittstelle der Liste von Hand neu abgefragt (Liste geändert am 25.10.): Angaben unverändert, Kopie + SHA-256 in belege/rechtsraum/dpf-2026-10-25/ (die Seite selbst lädt ihren Text erst im Browser, der automatische Quellenlauf sieht nur die Hülle)."
+    }
+  },
+  "modelle": [
+    {
+      "name": "Gemini 4 Argon (gemini-4-argon)",
+      "standort": "EU-Multi-Region (Endpunkt eu, nur EU-Mitgliedstaaten) wählbar; keine Einzelregion in Deutschland, Frankreich oder den Niederlanden; global-Endpunkt ohne Ortsgarantie",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/data-residency",
+      "geprueft": "2026-10-24",
+      "status": "belegt",
+      "anmerkung": "Data-Residency-Tabelle (Spalten US multi-region, EU multi-region, Brazil, Canada, France, Germany, Netherlands, United Kingdom …): „Gemini 4 Argon ( gemini-4-argon ) | Supported | Supported | - | - | - | - | - | Supported“. EUR-Preis null, weil Google nur USD nennt: Aktionspreis „Gemini 4 Argon* through November 30, 2026 Input (text, image, video, audio) Global $2 $0.1 Non-global $2.2 $0.11“; ab 01.12.2026 Input 4 USD (global) bzw. 4,40 USD (nicht-global) je 1 Mio. Token, Output 20 bzw. 22 USD. Achtung: Die Variante „Gemini 4 Argon (Cyber Permissive)“ ist ein Google Frontier Model mit eigener 30-Tage-Protokollierung (siehe log_frist). Für alle Gemini-Einträge gilt: „Requests submitted to a global endpoint may be processed in any Google Cloud location around the world, and therefore don't provide any data residency guarantees.“ Die Standorte-Seite warnt: „Endpoints don't guarantee data residency or in-region ML processing.“ Verbindlich ist erst die Data-Residency-Tabelle: „The European Union multi-region ( eu ) endpoint strictly covers data residency within EU member states.“ Vertrag (Service Specific Terms, 12.10.2026, Ziffer 16): Google führt Speicherung und „machine learning processing of Customer Data“ „only in that Multi-Region“ aus, für die auf cloud.google.com/terms/data-residency gelisteten Dienste; dort steht Generative AI „only for models listed in the \"ML processing\" section“ und ausdrücklich „excluding Grounding with Google Search, Web Grounding for Enterprise, Grounding with Google Maps, and RAG Engine“. Preise nur in USD: „Prices are listed in US Dollars (USD).“ Regionale Endpunkte kosten rund 10 % mehr als der globale Endpunkt (Zeile „Non-global“). Vertex AI heißt seit 2026 „Gemini Enterprise Agent Platform (formerly Vertex AI Platform)“.",
+      "backup_standort": {
+        "wert": "Replikation über mehrere Rechenzentren; gespeicherte Daten bleiben in der gewählten Region bzw. Multi-Region",
+        "status": "belegt",
+        "quelle": "https://cloud.google.com/terms/data-processing-addendum",
+        "geprueft": "2026-10-25",
+        "anmerkung": "CDPA Anhang 2 (Last modified June 8, 2026): „Subject to any Instructions to the contrary (e.g. in the form of a data location selection), Google replicates Customer Data between multiple geographically dispersed data centers.“ Data-Residency-Seite (21.10.2026): „Data stored at rest in the customer selected location remains at rest in that location“. Einen eigenen Ort für Sicherungskopien nennt Google für Gemini nicht (ungeklärt)."
+      },
+      "vorgeschaltete_filter": {
+        "wert": true,
+        "status": "belegt",
+        "quelle": "https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/configure-safety-filters",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Seite „Safety and content filters“ (21.10.2026): „Non-configurable safety filters , which block child sexual abuse material (CSAM) and personally identifiable information (PII).“ Eingaben: „The prompt was blocked because it was flagged for containing prohibited contents, usually CSAM.“ Die einstellbaren Inhaltsfilter sind in der Konsole aus: „Off (default): No automated response blocking.“ Daneben laufen Missbrauchs-Klassifikatoren: „Google uses automated safety classifiers to detect potential abuse and violations.“ Welche PII genau blockiert wird, nennt Google nicht (ungeklärt). Gilt für alle Gemini-Einträge."
+      }
+    },
+    {
+      "name": "Gemini 3.8 Flash (gemini-3.8-flash)",
+      "standort": "EU-Multi-Region (Endpunkt eu) wählbar; keine Einzelregion in der EU; global-Endpunkt ohne Ortsgarantie",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/data-residency",
+      "geprueft": "2026-10-24",
+      "status": "belegt",
+      "anmerkung": "Data-Residency-Tabelle: „Gemini 3.8 Flash ( gemini-3.8-flash ) | Supported | Supported | - | - | - | - | - | - | - | - | - | - | -“, also nur US- und EU-Multi-Region. EUR-Preis null, Google nennt nur USD: „Gemini 3.8 Flash, Gemini 3.7 Flash, Gemini 3.6 Flash, and CodeMender using these models are offered with introductory pricing of $0.75 / $3.75 per 1M tokens input / output through December 31, 2026. Starting January 1, 2027, standard pricing of $1.5 / $7.5 per 1M tokens input / output will apply.“ Für alle Gemini-Einträge gilt: „Requests submitted to a global endpoint may be processed in any Google Cloud location around the world, and therefore don't provide any data residency guarantees.“ Die Standorte-Seite warnt: „Endpoints don't guarantee data residency or in-region ML processing.“ Verbindlich ist erst die Data-Residency-Tabelle: „The European Union multi-region ( eu ) endpoint strictly covers data residency within EU member states.“ Vertrag (Service Specific Terms, 12.10.2026, Ziffer 16): Google führt Speicherung und „machine learning processing of Customer Data“ „only in that Multi-Region“ aus, für die auf cloud.google.com/terms/data-residency gelisteten Dienste; dort steht Generative AI „only for models listed in the \"ML processing\" section“ und ausdrücklich „excluding Grounding with Google Search, Web Grounding for Enterprise, Grounding with Google Maps, and RAG Engine“. Preise nur in USD: „Prices are listed in US Dollars (USD).“ Regionale Endpunkte kosten rund 10 % mehr als der globale Endpunkt (Zeile „Non-global“). Vertex AI heißt seit 2026 „Gemini Enterprise Agent Platform (formerly Vertex AI Platform)“.",
+      "backup_standort": {
+        "wert": "Replikation über mehrere Rechenzentren; gespeicherte Daten bleiben in der gewählten Region bzw. Multi-Region",
+        "status": "belegt",
+        "quelle": "https://cloud.google.com/terms/data-processing-addendum",
+        "geprueft": "2026-10-25",
+        "anmerkung": "CDPA Anhang 2 (Last modified June 8, 2026): „Subject to any Instructions to the contrary (e.g. in the form of a data location selection), Google replicates Customer Data between multiple geographically dispersed data centers.“ Data-Residency-Seite (21.10.2026): „Data stored at rest in the customer selected location remains at rest in that location“. Einen eigenen Ort für Sicherungskopien nennt Google für Gemini nicht (ungeklärt)."
+      },
+      "vorgeschaltete_filter": {
+        "wert": true,
+        "status": "belegt",
+        "quelle": "https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/configure-safety-filters",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Seite „Safety and content filters“ (21.10.2026): „Non-configurable safety filters , which block child sexual abuse material (CSAM) and personally identifiable information (PII).“ Eingaben: „The prompt was blocked because it was flagged for containing prohibited contents, usually CSAM.“ Die einstellbaren Inhaltsfilter sind in der Konsole aus: „Off (default): No automated response blocking.“ Daneben laufen Missbrauchs-Klassifikatoren: „Google uses automated safety classifiers to detect potential abuse and violations.“ Welche PII genau blockiert wird, nennt Google nicht (ungeklärt). Gilt für alle Gemini-Einträge."
+      }
+    },
+    {
+      "name": "Gemini 3.5 Flash (gemini-3.5-flash)",
+      "standort": "EU-Multi-Region (eu) oder Einzelregion Frankfurt (europe-west3) mit ML-Verarbeitung in Deutschland; global-Endpunkt ohne Ortsgarantie",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/data-residency",
+      "geprueft": "2026-10-24",
+      "status": "belegt",
+      "anmerkung": "Data-Residency-Tabelle: „Gemini 3.5 Flash ( gemini-3.5-flash ) | Supported | Supported | - | Supported | - | Supported“ (Spalten US, EU, Brazil, Canada, France, Germany (europe-west3)). Einziges aktuelles Gemini-Modell mit Verarbeitung in Deutschland; Google: „For European regions, local in-country processing varies by model type“. EUR-Preis null, nur USD: „Gemini 3.5 Flash Input (text, image, video, audio) Global $1.50 $1.50 $0.15 $0.15 Non-global * $1.65“ (Input je 1 Mio. Token; was die doppelte Spalte bedeutet, zeigt die Textkopie nicht, ungeklärt). Für alle Gemini-Einträge gilt: „Requests submitted to a global endpoint may be processed in any Google Cloud location around the world, and therefore don't provide any data residency guarantees.“ Die Standorte-Seite warnt: „Endpoints don't guarantee data residency or in-region ML processing.“ Verbindlich ist erst die Data-Residency-Tabelle: „The European Union multi-region ( eu ) endpoint strictly covers data residency within EU member states.“ Vertrag (Service Specific Terms, 12.10.2026, Ziffer 16): Google führt Speicherung und „machine learning processing of Customer Data“ „only in that Multi-Region“ aus, für die auf cloud.google.com/terms/data-residency gelisteten Dienste; dort steht Generative AI „only for models listed in the \"ML processing\" section“ und ausdrücklich „excluding Grounding with Google Search, Web Grounding for Enterprise, Grounding with Google Maps, and RAG Engine“. Preise nur in USD: „Prices are listed in US Dollars (USD).“ Regionale Endpunkte kosten rund 10 % mehr als der globale Endpunkt (Zeile „Non-global“). Vertex AI heißt seit 2026 „Gemini Enterprise Agent Platform (formerly Vertex AI Platform)“.",
+      "backup_standort": {
+        "wert": "Replikation über mehrere Rechenzentren; gespeicherte Daten bleiben in der gewählten Region bzw. Multi-Region",
+        "status": "belegt",
+        "quelle": "https://cloud.google.com/terms/data-processing-addendum",
+        "geprueft": "2026-10-25",
+        "anmerkung": "CDPA Anhang 2 (Last modified June 8, 2026): „Subject to any Instructions to the contrary (e.g. in the form of a data location selection), Google replicates Customer Data between multiple geographically dispersed data centers.“ Data-Residency-Seite (21.10.2026): „Data stored at rest in the customer selected location remains at rest in that location“. Einen eigenen Ort für Sicherungskopien nennt Google für Gemini nicht (ungeklärt)."
+      },
+      "vorgeschaltete_filter": {
+        "wert": true,
+        "status": "belegt",
+        "quelle": "https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/configure-safety-filters",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Seite „Safety and content filters“ (21.10.2026): „Non-configurable safety filters , which block child sexual abuse material (CSAM) and personally identifiable information (PII).“ Eingaben: „The prompt was blocked because it was flagged for containing prohibited contents, usually CSAM.“ Die einstellbaren Inhaltsfilter sind in der Konsole aus: „Off (default): No automated response blocking.“ Daneben laufen Missbrauchs-Klassifikatoren: „Google uses automated safety classifiers to detect potential abuse and violations.“ Welche PII genau blockiert wird, nennt Google nicht (ungeklärt). Gilt für alle Gemini-Einträge."
+      }
+    }
+  ],
+  "vertrag": {
+    "avv": {
+      "wert": "https://cloud.google.com/terms/data-processing-addendum",
+      "status": "belegt",
+      "quelle": "https://cloud.google.com/terms/data-processing-addendum",
+      "geprueft": "2026-10-25",
+      "anmerkung": "„Cloud Data Processing Addendum“, Stand „Last modified June 8, 2026“, frei abrufbar. CDPA 4.1: „Google is a processor“ für Kundendaten. Die Data-Governance-Seite verweist darauf: „More details about how Google processes data can also be found in Google's Cloud Data Processing Addendum (CDPA).“ Vertragspartei in Deutschland laut Google-Entity-Seite (30.06.2026): „EMEA except France, Italy and Poland Google Cloud EMEA Limited“."
+    },
+    "subprozessoren": {
+      "wert": "https://cloud.google.com/terms/subprocessors",
+      "status": "belegt",
+      "quelle": "https://cloud.google.com/terms/subprocessors",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Liste frei lesbar, „Last modified October 19, 2026“. Externe Dienstleister mit Zuständigkeit „All AI Solutions, Pre-Trained APIs, AI Platform/Gemini platform (formerly Vertex AI), Generative AI Services and Agentic AI Services“, u. a. Cognizant und GlobalLogic, für Technical Support und Data Labeling; dazu Google LLC (USA) für alle Dienste. Data Labeling heißt laut Liste: „Human labelers apply labels to datasets submitted by Customer based on instructions provided by Customer.“ Ankündigungsfrist CDPA 11.4: „at least 30 days before the New Subprocessor starts processing any Customer Data“, danach 90 Tage zum Widerspruch durch Kündigung."
+    },
+    "tom": {
+      "wert": "https://cloud.google.com/terms/data-processing-addendum",
+      "status": "belegt",
+      "quelle": "https://cloud.google.com/terms/data-processing-addendum",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Die TOM stehen im Cloud Data Processing Addendum als „Appendix 2: Security Measures“, z. B. „Google stores all production data in physically secure data centers.“ Abschnitt 1 heißt „Data Center and Network Security“."
+    },
+    "subprozessoren_anzahl": {
+      "wert": 112,
+      "status": "belegt",
+      "quelle": "https://cloud.google.com/terms/subprocessors",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Gezählt in der gemeinsamen Liste für alle Google-Cloud-Platform-Dienste (Stand „Last modified October 19, 2026“; es gibt keine eigene Vertex-Liste): 37 Dritte und 75 „Google Group Subprocessors“ (konzernintern). Davon gelten 87 für Vertex AI (16 Dritte, 71 konzernintern), nämlich die Zeilen mit „All Google Cloud Platform Services“ oder „AI Platform/Gemini platform (formerly Vertex AI)“; die übrigen betreffen nur andere Dienste wie Bare Metal Solution, Looker oder Apigee."
+    },
+    "drittlaender": {
+      "wert": [
+        "Argentinien",
+        "Australien",
+        "Brasilien",
+        "Chile",
+        "El Salvador",
+        "Hongkong",
+        "Indien",
+        "Indonesien",
+        "Israel",
+        "Japan",
+        "Kanada",
+        "Katar",
+        "Kenia",
+        "Kolumbien",
+        "Malaysia",
+        "Mexiko",
+        "Neuseeland",
+        "Philippinen",
+        "Saudi-Arabien",
+        "Schweiz",
+        "Singapur",
+        "Sri Lanka",
+        "Südafrika",
+        "Südkorea",
+        "Taiwan",
+        "Thailand",
+        "USA",
+        "Vereinigtes Königreich"
+      ],
+      "status": "belegt",
+      "quelle": "https://cloud.google.com/terms/subprocessors",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Aufgenommen sind nur die 87 Einträge, die für Vertex AI gelten (Spalte „Country where processing is performed“), z. B. Uber Technologies (Data Labeling): „India, Kenya, Poland and United States of America“. Einträge, die nur andere Dienste betreffen, bringen weitere Länder (z. B. Isle of Man, Costa Rica); diese sind nicht aufgenommen."
+    },
+    "training_opt_out": {
+      "wert": true,
+      "status": "belegt",
+      "quelle": "https://cloud.google.com/terms/service-terms",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Service Specific Terms (Last modified October 12, 2026), Ziffer 18 Training Restriction: „Google will not use Customer Data to train or fine-tune any AI/ML models without Customer's prior permission or instruction.“ Data-Governance-Seite: „This applies to all managed models on Gemini Enterprise Agent Platform, including GA and pre-GA models.“ Kein Opt-out nötig, das ist Standard. Abgrenzung Gemini Developer API (ai.google.dev, AI Studio): Kostenlose Nutzung dient dem Training: „When you use Unpaid Services, including, for example, Google AI Studio and the unpaid quota on Gemini API, Google uses the content you submit to the Services and any generated responses to provide, improve, and develop Google products“. Für Nutzer im EWR gilt laut denselben Terms die Paid-Regel für alle Dienste: „If you're in the European Economic Area, Switzerland, or the United Kingdom, the terms under“."
+    },
+    "zero_data_retention": {
+      "wert": true,
+      "status": "belegt",
+      "quelle": "https://cloud.google.com/vertex-ai/generative-ai/docs/data-governance",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Erreichbar, aber nicht Standard; der Kunde muss mehrere Dinge selbst abschalten. Data-Governance-Seite (21.10.2026): „To achieve zero data retention, customers must take specific actions within each of these areas“. (1) Missbrauchs-Protokolle: „Only customers whose use of Google Cloud is governed by the Google Cloud Platform Terms of Service are subject to prompt logging for abuse monitoring.“ Kunden mit Rahmenvertrag: „customers with a Google Cloud Master Agreement are exempt from prompt logging for this abuse monitoring by default.“ Wie Kunden mit Online-AGB davon befreit werden, steht nicht in den Kopien (ungeklärt). (2) Zwischenspeicher: „By default, Google's published Gemini models cache Customer Data to reduce latency and accelerate responses.“ Er hält höchstens 24 Stunden („It's deleted no later than 24 hours after it's written“) und lässt sich je Projekt abschalten. (3) Grounding mit Google Search: „There is no way to disable the storage of this information if you use Grounding with Google Search.“ (4) Interactions API: „If you do not specify a value for store , it defaults to true for all models.“ Gemini Developer API zum Vergleich: „If your workload requires guaranteed zero data retention or enterprise data processing agreements, use Vertex AI.“ Nachtrag 23.10.2026 (Widerspruchs-Scan): Der Zwischenspeicher hat zwei Stufen, beide standardmäßig an. Läuft der Arbeitsspeicher voll, legt Google abgeleitete Daten auf Platte ab: „Google stores derived cache data (key-value representations computed from your inputs) in durable storage“, „It's stored at rest and encrypted with Google default encryption.“ und „Customer-managed encryption keys (CMEK) aren't supported for durable caching.“ Beim global-Endpunkt: „requests and their cached data can be served from any region.“ Die Plattenstufe lässt sich je Projekt einzeln abschalten. Beleg belege/anbieter/google-vertex-gemini-api/widerspruchs-scan-2026-10-23.txt."
+    },
+    "zweckbindung": {
+      "wert": true,
+      "status": "belegt",
+      "quelle": "https://cloud.google.com/terms/data-processing-addendum",
+      "geprueft": "2026-10-25",
+      "anmerkung": "CDPA 5.2: „Customer instructs Google to process Customer Data in accordance with the applicable Agreement (including this Addendum) only as follows“, nämlich „to provide, secure, and monitor the Services“. Missbrauchs-Protokolle nur „solely for the purpose of examining whether a violation of the AUP or Prohibited Use Policy has occurred. This data won't be used to train or fine-tune any AI/ML models.“ Ausnahme Grounding mit Google Search (SST Ziffer 20 k): Der Kunde „instructs Google that the stored information can be used for debugging of systems that support Grounding with Google Search“, und Google nennt das selbst „an exception to the security controls for Gemini Enterprise Agent Platform“. Zwischenspeicher: „It's used only to serve your requests faster, and is never used to train or fine-tune models.“"
+    },
+    "betroffenenrechte_traeger": {
+      "wert": "auftraggeber",
+      "status": "belegt",
+      "quelle": "https://cloud.google.com/terms/data-processing-addendum",
+      "geprueft": "2026-10-25",
+      "anmerkung": "CDPA 9.2.1: Google wird „advise the data subject to submit their request to Customer“ und „not otherwise respond to that data subject’s request without authorization from Customer“; „Customer will be responsible for responding to any such request“."
+    },
+    "log_frist": {
+      "wert": "bis 90 Tage (Missbrauchs-Prompt-Logs bei Verdacht, nur Kunden unter Online-AGB); bis 30 Tage (Google Frontier Models); bis 3 Tage (Grounding mit Google Search, nicht abschaltbar); bis 24 Stunden (Zwischenspeicher)",
+      "status": "belegt",
+      "quelle": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/abuse-monitoring",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Abuse-Monitoring-Seite (21.10.2026), Gemini-Standardmodelle: Nur wenn Klassifikatoren anschlagen, „Google may log customer prompts“; „This data is stored securely for up to 90 days in the same region or multi-region selected by the customer for their project“ und „Prompt logs for the purposes of abuse monitoring are not encrypted by Customer-managed encryption keys (CMEK).“ Menschen sehen sie: „Authorized Google employees may assess the flagged prompts“. Google Frontier Models (derzeit „Gemini 4 Argon (Cyber Permissive)“): Prompts und Antworten „are stored securely inside the customer's environment for up to 30 days“. Grounding mit Google Search (SST 20 k): Logs „for up to three (3) days“. Zwischenspeicher: „deleted no later than 24 hours after it's written“. Optionales Request-Response-Logging nach BigQuery: „This feature is disabled by default.“ Nachtrag 23.10.2026 (Widerspruchs-Scan): Google nennt die 30-Tage-Protokolle der Frontier Models für Kunden mit Rahmenvertrag „ZDR-aligned“: „these logs adhere to ZDR standards for customers with Cloud Master Agreements, as they are stored inside the customer's environment and exempt from human review.“ Für Kunden unter Online-AGB: „Google may additionally conduct human review of prompts flagged by our abuse classifiers“. Dazu erzeugt Google aus den Protokollen „anonymized shingles“. Die Zero-Data-Retention-Seite nennt diese Protokolle nicht (Fall-Kandidat 46). Zwischenspeicher: auch auf Platte, ohne CMEK (siehe zero_data_retention)."
+    },
+    "log_zweck": {
+      "wert": "Missbrauchserkennung (Acceptable Use Policy, Prohibited Use Policy); Fehlersuche bei Grounding mit Google Search; Beschleunigung durch Zwischenspeicher",
+      "status": "belegt",
+      "quelle": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/abuse-monitoring",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Abuse-Monitoring-Seite: Google protokolliert „solely for the purpose of examining whether a violation of the AUP or Prohibited Use Policy has occurred“. Frontier Models: „solely for ensuring safe use of the Google Frontier Models and compliance with customer's Google agreement“. Grounding-Logs dienen der Fehlersuche („used for debugging of systems that support Grounding with Google Search“), der Zwischenspeicher nur „to serve your requests faster“."
+    }
+  },
+  "zertifikate": [
+    {
+      "typ": "ISO 27001",
+      "status": "beansprucht",
+      "quelle": "https://cloud.google.com/security/compliance/iso-27001?hl=en",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Google: „Google Cloud, Google Workspace, and Apigee ISO/IEC 27001 certificates may be requested using the Compliance Reports Manager .“ Zertifikat nicht frei abrufbar, nicht eingesehen.",
+      "anwendungsbereich": {
+        "wert": "Google-Cloud-Dienste laut Liste, darunter Generative AI on Gemini Enterprise Agent Platform (formerly Generative AI on Vertex AI)",
+        "status": "belegt",
+        "quelle": "https://cloud.google.com/security/compliance/iso-27001?hl=en",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Laut Google-Webseite (Liste der Dienste im Geltungsbereich): „Generative AI on Gemini Enterprise Agent Platform (formerly Generative AI on Vertex AI)“. Ob das Zertifikat selbst das so ausweist, ist ungeprüft."
+      },
+      "zertifizierer": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "Die Seite sagt nur „accredited ISO/IEC 27001 certification after undergoing an audit by an independent third party“, ohne Namen (neu gelesen 25.10.); Zertifikat nur über den Compliance Reports Manager. Abgelaufene Zertifikate 2014–2019 nannten laut Suchergebnis EY CertifyPoint (siehe Workspace-Profil); für das aktuelle ungeklärt."
+      },
+      "akkreditiert_dakks": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "Google schreibt nur „accredited“, ohne die Akkreditierungsstelle zu nennen."
+      },
+      "normiert": [
+        "iso-27001"
+      ]
+    },
+    {
+      "typ": "ISO/IEC 42001",
+      "status": "beansprucht",
+      "quelle": "https://cloud.google.com/security/compliance/iso-42001?hl=en",
+      "geprueft": "2026-10-25",
+      "anmerkung": "KI-Managementsystem. Google: „Google Cloud, Google Workspace, and Gemini (App) are certified as ISO/IEC 42001:2023 compliant.“ Zertifikat nur über den Compliance Reports Manager.",
+      "anwendungsbereich": {
+        "wert": "Google-Cloud-Dienste laut Liste, darunter Generative AI on Gemini Enterprise Agent Platform (formerly Generative AI on Vertex AI)",
+        "status": "beansprucht",
+        "quelle": "https://cloud.google.com/security/compliance/iso-42001?hl=en",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Laut Anbieterseite im Geltungsbereich: „Generative AI on Gemini Enterprise Agent Platform (formerly Generative AI on Vertex AI)“; Zertifikat nicht lesbar."
+      },
+      "zertifizierer": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "Zertifizierungsstelle nicht öffentlich lesbar."
+      },
+      "akkreditiert_dakks": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "Akkreditierung nicht geprüft, Zertifikat nicht lesbar."
+      },
+      "normiert": [
+        "iso-42001"
+      ]
+    },
+    {
+      "typ": "SOC 2 Type II",
+      "status": "beansprucht",
+      "quelle": "https://cloud.google.com/security/compliance/soc-2?hl=en",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Google: „The core Google Cloud and Google Workspace SOC 2 Type II reports are issued quarterly and can be downloaded via the Compliance Reports Manager .“ Bericht nicht eingesehen.",
+      "anwendungsbereich": {
+        "wert": "Google-Cloud-Dienste laut Liste, darunter Generative AI on Gemini Enterprise Agent Platform (formerly Generative AI on Vertex AI)",
+        "status": "beansprucht",
+        "quelle": "https://cloud.google.com/security/compliance/soc-2?hl=en",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Nur laut Webseite, Liste enthält „Generative AI on Gemini Enterprise Agent Platform (formerly Generative AI on Vertex AI)“; Bericht nicht lesbar."
+      },
+      "zertifizierer": {
+        "wert": "Ernst & Young LLP und Coalfire (laut Google, ohne Zuordnung je Bericht)",
+        "status": "beansprucht",
+        "quelle": "https://cloud.google.com/security/compliance/soc-2?hl=en",
+        "geprueft": "2026-10-25",
+        "anmerkung": "SOC-2-Seite, Frage „Who performs the independent third-party audit?“: „Google Cloud’s independent auditors are Ernst & Young LLP and Coalfire.“ Welche Firma welchen SOC-2-Bericht prüft, sagt die Seite nicht; Bericht selbst nur über den Compliance Reports Manager, nicht eingesehen. Der Satz stand schon in der Kopie vom 22.10., der Eintrag sagte bis 25.10. fälschlich „nicht genannt“."
+      },
+      "akkreditiert_dakks": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "SOC 2 ist ein US-Prüfbericht (AICPA), keine akkreditierte Zertifizierung."
+      },
+      "normiert": [
+        "soc-2"
+      ]
+    },
+    {
+      "typ": "BSI C5:2020",
+      "status": "beansprucht",
+      "quelle": "https://cloud.google.com/security/compliance/bsi-c5?hl=en",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Google: „Through an independent third-party audit, Google Cloud (Google Workspace and Google Cloud) has achieved an attestation against the C5:2020 requirements.“ Bericht nur über den Compliance Reports Manager, nicht eingesehen.",
+      "anwendungsbereich": {
+        "wert": "Google-Cloud-Dienste laut Liste, darunter Generative AI on Vertex AI (alter Name)",
+        "status": "beansprucht",
+        "quelle": "https://cloud.google.com/security/compliance/bsi-c5?hl=en",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Die C5-Liste führt noch den alten Namen „Generative AI on Vertex AI“; Testat nicht lesbar, Prüfzeitraum ungeklärt."
+      },
+      "zertifizierer": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "Prüfer nicht genannt (C5-Seite neu gelesen 25.10.: nur „independent third-party audit“). Die SOC-2-Seite nennt Ernst & Young LLP und Coalfire als Googles Prüfer allgemein; ob einer davon das C5-Testat prüft, ist ungeklärt."
+      },
+      "akkreditiert_dakks": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "C5 ist ein Testat; Prüfer und dessen Zulassung ungeklärt."
+      },
+      "normiert": [
+        "bsi-c5"
+      ]
+    }
+  ],
+  "iso_42001": {
+    "status": "beansprucht",
+    "wert": true,
+    "zertifizierer": null,
+    "anwendungsbereich": "Google Cloud, darunter Generative AI on Gemini Enterprise Agent Platform (formerly Generative AI on Vertex AI)",
+    "quelle": "https://cloud.google.com/security/compliance/iso-42001?hl=en",
+    "geprueft": "2026-10-25",
+    "anmerkung": "Google: „Google Cloud, Google Workspace, and Gemini (App) are certified as ISO/IEC 42001:2023 compliant.“ Zertifikat nur über den Compliance Reports Manager."
+  },
+  "ai_act": [],
+  "geprueft": "2026-10-24",
+  "url": "https://belegbar.eu/anbieter/google-vertex-gemini-api/",
+  "beleg_quote_prozent": 64,
+  "zuletzt_geprueft": "2026-10-25",
+  "quellenlauf": {
+    "zuletzt": "2026-10-25",
+    "quellen": 12,
+    "nachgelesen": 12,
+    "unveraendert": 9,
+    "veraendert_gelesen": 3,
+    "offen": 0,
+    "verschwunden": 0,
+    "statuswechsel_30_tage": 2
+  },
+  "rechtsraum": {
+    "land": "US",
+    "name": "USA",
+    "einordnung": "dpf",
+    "erlaeuterung": "Drittland. Der Angemessenheitsbeschluss der EU-Kommission vom 10.07.2023 gilt nur für Unternehmen, die am EU-US Data Privacy Framework teilnehmen (Art. 45 DSGVO); sonst nur mit geeigneten Garantien, etwa Standardvertragsklauseln (Art. 46 DSGVO).",
+    "hinweis": "Der Anbieter nimmt laut der amtlichen Liste dataprivacyframework.gov aktiv am EU-US Data Privacy Framework teil; der Beschluss gilt damit für Übermittlungen an ihn.",
+    "dpf": {
+      "status": "belegt",
+      "wert": true,
+      "quelle": "https://www.dataprivacyframework.gov/participant/5780",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Amtliche DPF-Liste, Eintrag „Google LLC“, Mountain View: „EU-US Certification“ Status „Active“, HR- und Nicht-HR-Daten, seit 22.09.2016, gültig bis 13.09.2027; gilt laut Eintrag für Google LLC und ihre US-Töchter. Vertragspartei für Google Cloud in Deutschland ist Google Cloud EMEA Limited (Irland), siehe Anmerkung zum AVV; Google LLC steht als Unterauftragnehmer für alle Google-Cloud-Dienste in der Liste. Kopie + SHA-256 in belege/rechtsraum/dpf-2026-10-22/. Am 25.10.2026 über die Schnittstelle der Liste von Hand neu abgefragt (Liste geändert am 25.10.): Angaben unverändert, Kopie + SHA-256 in belege/rechtsraum/dpf-2026-10-25/ (die Seite selbst lädt ihren Text erst im Browser, der automatische Quellenlauf sieht nur die Hülle)."
+    },
+    "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+    "geprueft": "2026-10-22"
+  }
+}

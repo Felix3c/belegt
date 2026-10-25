@@ -50,6 +50,7 @@
 (OpenAI-compatible).
 (PDF)
 (Speech-to-Text)
+(made
 (the
 (≤200k)
 (≤200k)
@@ -163,7 +164,6 @@
 3.8
 3.8
 3.8
-32K
 35B
 39
 39
@@ -197,7 +197,6 @@
 5.5
 5.5&#34;,&#34;category&#34;:&#34;llms&#34;,&#34;categories&#34;:[&#34;llms&#34;,&#34;vision&#34;],&#34;provider&#34;:&#34;Anthropic&#34;,&#34;cloud&#34;:&#34;GCP&#34;,&#34;inputs&#34;:[&#34;Text&#34;,&#34;Image&#34;],&#34;outputs&#34;:[&#34;Text&#34;],&#34;streaming&#34;:true,&#34;toolCalling&#34;:true,&#34;contextWindowRaw&#34;:&#34;—&#34;,&#34;contextWindowNum&#34;:null,&#34;reasoningEffort&#34;:[&#34;none&#34;,&#34;minimal&#34;,&#34;low&#34;,&#34;medium&#34;,&#34;high&#34;,&#34;xhigh&#34;,&#34;max&#34;],&#34;reasoningTokensUsage&#34;:&#34;none&#34;,&#34;inputPrice&#34;:2.97,&#34;outputPrice&#34;:14.85,&#34;cachedInputPrice&#34;:null,&#34;plans&#34;:[&#34;Essential&#34;,&#34;Professional&#34;,&#34;Agentic&#34;]},{&#34;key&#34;:&#34;gemini-3-flash&#34;,&#34;displayModelName&#34;:&#34;Gemini
 5.5&#34;,&#34;category&#34;:&#34;llms&#34;,&#34;categories&#34;:[&#34;llms&#34;,&#34;vision&#34;],&#34;provider&#34;:&#34;Anthropic&#34;,&#34;cloud&#34;:&#34;GCP&#34;,&#34;inputs&#34;:[&#34;Text&#34;,&#34;Image&#34;],&#34;outputs&#34;:[&#34;Text&#34;],&#34;streaming&#34;:true,&#34;toolCalling&#34;:true,&#34;contextWindowRaw&#34;:&#34;—&#34;,&#34;contextWindowNum&#34;:null,&#34;reasoningEffort&#34;:[&#34;none&#34;,&#34;minimal&#34;,&#34;low&#34;,&#34;medium&#34;,&#34;high&#34;,&#34;xhigh&#34;,&#34;max&#34;],&#34;reasoningTokensUsage&#34;:&#34;none&#34;,&#34;inputPrice&#34;:3.92,&#34;outputPrice&#34;:19.58,&#34;cachedInputPrice&#34;:null,&#34;plans&#34;:[&#34;Professional&#34;,&#34;Agentic&#34;]},{&#34;key&#34;:&#34;claude-sonnet-5&#34;,&#34;displayModelName&#34;:&#34;Claude
-8B
 A4B
 AI
 AI
@@ -217,7 +216,6 @@ API
 API
 Accepted
 Active
-Agentic
 Agentic
 Agentic
 Agentic
@@ -381,7 +379,6 @@ Deutsch
 Deutsch
 DiffusionGemma
 Effort
-Embedding
 Embeddings
 Embeddings
 Endpoints
@@ -425,7 +422,7 @@ Essential
 Essential
 Essential
 Essential
-Essential,
+Europe)
 Events.
 FAQ
 FP8
@@ -443,6 +440,7 @@ Flash&#34;,&#34;category&#34;:&#34;llms&#34;,&#34;categories&#34;:[&#34;llms&#34
 Foundation
 Foundation
 Foundation
+Free
 Function
 Function
 GCP
@@ -610,6 +608,7 @@ Latest
 Levels
 Light
 Light
+LightOnOCR-3-4B
 Limits
 Links
 Llama
@@ -617,6 +616,7 @@ Luna
 Luna
 Luna
 Luna
+Markdown
 Medium
 Medium
 Microsoft
@@ -655,9 +655,12 @@ Multimodal
 NVIDIA
 Nemotron
 New
+New
 Next
 No
 Notice
+OCR
+OCR
 On
 On
 OpenAI
@@ -692,6 +695,8 @@ Overview
 Overview
 Overview
 Overview
+PDFs
+PaddleOCR-VL-1.6
 Plans
 Plans
 Plans
@@ -766,7 +771,6 @@ Professional
 Professional
 Professional
 Professional
-Professional
 Provider
 Provider
 Public
@@ -783,7 +787,6 @@ Queued
 Quickstart
 Qwen
 Qwen
-Qwen3
 RAG
 Rate
 Reasoning
@@ -968,8 +971,8 @@ Tool
 Transition
 Trust
 Try
+Try
 UI.
-View
 View
 Vision
 Visual
@@ -980,7 +983,6 @@ Zhipu
 Zhipu
 Zhipu
 a
-a
 accept
 added
 agents,
@@ -988,9 +990,10 @@ and
 and
 and
 and
+and
+and
 are
 are
-available
 be
 but
 cache:
@@ -1030,14 +1033,14 @@ completion_tokens_details
 completion_tokens_details
 completion_tokens_details.reasoning_tokens,
 content
-context.
 conversational
 count).
 current
 d3
 datasheet.
 do.
-embeddings
+documents,
+editable
 external
 few
 filters
@@ -1050,6 +1053,7 @@ from
 from
 generation,
 guide.
+handwriting
 has
 high
 high
@@ -1093,6 +1097,8 @@ in
 in
 in
 in
+in
+in
 infrastructure
 infrastructure
 infrastructure
@@ -1105,8 +1111,8 @@ infrastructure
 infrastructure
 input
 input
+into
 invocations.
-is
 language
 language
 later.
@@ -1194,7 +1200,6 @@ models
 models
 models
 multilingual
-multilingual
 n/a
 n/a
 n/a
@@ -1255,14 +1260,12 @@ not
 not
 not
 not
-now
 number
 object:
 of
 of
 of
 of
-on
 on
 on
 on
@@ -1303,10 +1306,9 @@ page
 page
 parameter,
 per
-plans
-plans
 platform
 prefix
+preview:
 price.
 pricing
 privacy
@@ -1368,6 +1370,7 @@ sovereign
 streaming
 structured
 support
+tables.
 text
 the
 the
@@ -1380,12 +1383,12 @@ the
 the
 the
 the
-the
 theme
 theme
 this
 this
 this
+to
 to
 to
 tokens
@@ -1394,6 +1397,8 @@ tokens
 tool
 tool
 tool/function
+try.
+turn
 usage
 usage
 usage
@@ -1415,7 +1420,6 @@ vs
 what
 what
 will
-with
 xhigh
 xhigh
 xhigh

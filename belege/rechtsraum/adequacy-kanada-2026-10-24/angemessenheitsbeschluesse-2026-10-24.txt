@@ -1,0 +1,726 @@
+Quelle: https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en
+Abruf: 2026-10-24 00:27:32 +0200
+
+Data protection adequacy for non-EU countries
+
+Skip to main content
+
+[European Commission logo]
+
+en
+
+Select your language
+Close
+
+bgбългарски
+
+esespañol
+
+csčeština
+
+dadansk
+
+deDeutsch
+
+eteesti
+
+elελληνικά
+
+enEnglish
+
+frfrançais
+
+gaGaeilge
+
+hrhrvatski
+
+ititaliano
+
+lvlatviešu
+
+ltlietuvių
+
+humagyar
+
+mtMalti
+
+nlNederlands
+
+plpolski
+
+ptportuguês
+
+roromână
+
+skslovenčina
+
+slslovenščina
+
+fisuomi
+
+svsvenska
+
+Search
+Search
+
+European Commission
+
+Menu
+
+Back
+
+Home
+
+About us
+
+About us
+
+Learn more about the role of the European Commission, its leadership and corporate policies
+
+Organisation
+
+President
+
+Commissioners
+
+Departments and executive agencies
+
+Staff
+
+See all
+
+Role
+
+In strategy and policy
+
+In law
+
+In budget and funding
+
+In international relations
+
+See all
+
+Service standards and principles
+
+Transparency
+
+Ethics and Good Administration
+
+Human resources strategy
+
+The Commission’s use of languages
+
+See all
+
+Work with us
+
+Jobs
+
+How to join us
+
+Working at the European Commission
+
+See all
+
+Contact
+
+More about us
+
+FEATURED
+
+2024-2029 Commission: Priorities and leadership
+
+Our priorities
+
+Our priorities
+
+Learn how the EU is building a sustainable, digital, and inclusive future through its seven key priorities.
+
+Competitiveness
+
+Security and defence
+
+European social fairness
+
+Quality of life
+
+Democracy and our values
+
+A global Europe
+
+EU budget and reform
+
+More about our priorities
+
+News and media
+
+News and media
+
+Stay up to date with news from the European Commission. Discover the latest updates, stories, and press and audiovisual material.
+
+News
+
+Press corner
+
+Visual stories
+
+Audiovisual portal
+
+More about news and media
+
+Topics
+
+Topics from A to Z
+
+Discover EU policies designed to bring benefits to citizens, businesses and other stakeholders in the EU
+
+Economy, Business
+
+Budget
+
+Business and industry
+
+Competition
+
+Competitiveness
+
+Consumers
+
+Customs
+
+Economy and the euro
+
+Energy
+
+Financial services
+
+Fiscal policy
+
+Regional and urban policy
+
+Single market
+
+Taxation
+
+See all
+
+FEATURED
+
+EU action to address the energy crisis
+
+Education, Society, Rights
+
+Culture
+
+Democracy
+
+Education and training
+
+Employment and social affairs
+
+Equality and inclusion
+
+Human rights
+
+Information integrity
+
+Migration and asylum
+
+Sport
+
+Youth
+
+See all
+
+FEATURED
+
+Safe clicks: A practical guide to online safety
+
+Health, Environment
+
+Agriculture and rural development
+
+Animal welfare
+
+Climate action
+
+Environment
+
+Fisheries and ocean
+
+Food safety
+
+Public health
+
+Transport and tourism
+
+See all
+
+FEATURED
+
+Protecting the ocean
+
+International relations and partnerships
+
+Eastern Neighbourhood
+
+Enlargement
+
+EU solidarity with Ukraine
+
+Foreign affairs and security policy
+
+Humanitarian aid
+
+International partnerships
+
+Southern Mediterranean and the Gulf
+
+Trade
+
+See all
+
+FEATURED
+
+EU trade in the world
+
+Justice, Security, Public Safety
+
+Borders
+
+Civil protection
+
+Defence
+
+Fraud prevention
+
+Home affairs
+
+Internal security
+
+Justice
+
+Preparedness
+
+See all
+
+FEATURED
+
+European defence: protecting what matters
+
+Research, Innovation, Technology
+
+Artificial Intelligence
+
+Digital economy and society
+
+Research and innovation
+
+Space
+
+See all
+
+FEATURED
+
+Advance your research career in the EU.
+
+All topics
+
+Resources
+
+Resources
+
+Access a range of resources, including publications, statistics, learning material, and tools for stakeholders.
+
+Publications
+
+Statistics
+
+Search Eurostat statistics
+
+Economic forecasts and trends
+
+Tracking EU policy performance and recovery
+
+Public opinion survey
+
+EU open data portal
+
+Guide to European statistics
+
+See all
+
+Eurobarometer
+
+EU law
+
+Learning corner
+
+Europa Web Guide
+
+European Commission visual identity
+
+More about resources
+
+Europe and you
+
+Get involved
+
+Share your views on EU laws and policies, debate Europe's future and find funding for your EU projects.
+
+Engage in EU policymaking
+
+Conference on the Future of Europe
+
+Have your say
+
+European Citizens’ Panels
+
+European Citizens' Initiative
+
+Petition the EU
+
+See all
+
+Funding and tenders
+
+Events
+
+Visit us
+
+Experience Europe
+
+Visitors' Centre
+
+See all
+
+European Commission on social media
+
+More about Europe and you
+
+FEATURED
+
+Protect what matters. Democracy.
+
+Home
+
+…
+
+Law
+
+Law by topic
+
+Data protection
+
+International dimension of data protection
+
+Adequacy decisions
+
+Adequacy decisions
+
+How the EU determines if a non-EU country has an adequate level of data protection.
+
+Page contents
+
+Page contents
+
+The European Commission has the power to determine, on the basis of article 45 of Regulation (EU) 2016/679 whether a country outside the EU offers an adequate level of data protection.
+
+The adoption of an adequacy decision involves:
+
+a proposal from the European Commission;
+
+an opinion of the European Data Protection Board;
+
+an approval from representatives of EU countries;
+
+the adoption of the decision by the European Commission.
+
+At any time, the European Parliament and the Council may request the European Commission to maintain, amend or withdraw the adequacy decision on the grounds that its act exceeds the implementing powers provided for in the regulation.
+
+The effect of such a decision is that personal data can flow from the EU (and Norway, Liechtenstein and Iceland) to that third country without any further safeguard being necessary. In others words, transfers to the country in question will be assimilated to intra-EU transmissions of data.
+
+The European Commission has so far recognised:
+
+Andorra,
+
+Argentina,
+
+Brazil,
+
+Canada (commercial organisations),
+
+Faroe Islands,
+
+Guernsey,
+
+Israel,
+
+Isle of Man,
+
+Japan,
+
+Jersey,
+
+New Zealand,
+
+Republic of Korea,
+
+Switzerland,
+
+the United Kingdom under the GDPR and the LED,  as amended in December 2025 through one renewal decision under the GDPR and one renewal decision under the LED ,
+
+the United States (commercial organisations participating in the EU-US Data Privacy Framework),
+
+Uruguay,
+
+and the European Patent Organisation as providing adequate protection.
+
+With the exception of the United Kingdom, these adequacy decisions do not cover data exchanges in the law enforcement sector which are governed by the Law Enforcement Directive (Article 36 of Directive (EU) 2016/680).
+
+The Commission is required to periodically review the adequacy decisions adopted under the GDPR and its predecessor, Directive 95/46/EC, and to report its findings to the European Parliament and the Council. In line with this obligation, the Commission published its Report on the first periodic review of the adequacy decision for Japan on 4 April 2023. On 15 January 2024 the Commission published its Report on the first review of the functioning of the eleven adequacy decisions adopted pursuant to Directive 95/46/EC, as well as the accompanying country reports. On 9 October 2024, the Commission published its Report on the first review of the functioning of the adequacy decision on the EU-US Data Privacy Framework.
+
+High-level meeting on International Data Flows
+
+On 4 March 2024, the Commission hosted the first ever high-level meeting on safe data flows, gathering responsible Ministers and heads of the data protection authorities of 15 countries and territories for which the EU has adopted an adequacy decision as well as the Chair of the European Data Protection Board. Participants discussed ways to leverage this network of like-minded partners to maximise the benefits of safe and free data flows and explored avenues for closer cooperation on enforcement of data protection rules.
+
+Adequacy decisions latest
+
+23 July 2026
+
+Commission finds that Republic of Korea continues to provide an adequate level of protection of personal data
+
+The Commission concluded today its first review of the 2021 adequacy decision for the Republic of Korea, which allows the free flow of personal data from the EU to this country. Adequacy decisions.
+
+10 February 2026
+
+Joint press statement by Commissioner Michael McGrath and TEZUKA Satoru, Chairperson of the Personal Information Protection Commission of Japan
+
+Joint press statement by Commissioner Michael McGrath and TEZUKA Satoru, Chairperson of the Personal Information Protection Commission of Japan
+
+10 February 2026
+
+Joint Press Statement by Commissioner Michael McGrath and Chairperson Haksoo Ko on the entry into force of the Korean adequacy decision on the EU
+
+Joint Press Statement: Korea DPA
+
+10 February 2026
+
+The EU and Brazil conclude agreements to create the biggest area of free and safe data flows in the world
+
+Today, the European Commission and Brazil adopted mutual adequacy decisions, confirming that their levels of data protection are comparable.
+
+See all
+
+Documents
+
+Report on the first periodic review of the adequacy decision for the Republic of Korea
+
+23 July 2026
+
+English
+Download (158.26 KB - PDF)
+
+Commission Staff Working Document - Report on the first periodic review of the adequacy decision for the Republic of Korea
+
+23 July 2026
+
+English
+Download (279.93 KB - PDF)
+
+Adequacy Decision for Brazil
+
+26 January 2026
+
+English
+Download (500.95 KB - PDF)
+
+Deutsch
+
+(567.5 KB - PDF)
+
+Download
+
+français
+
+(600.15 KB - PDF)
+
+Download
+
+Renewal of EU adequacy decision for the UK under the GDPR
+
+19 December 2025
+
+English
+Download (395.16 KB - PDF)
+
+Renewal of EU adequacy decision for the UK under the LED
+
+19 December 2025
+
+English
+Download (278.34 KB - PDF)
+
+Adequacy decision for the European Patent Organisation
+
+15 July 2025
+
+English
+Download (335.91 KB - PDF)
+
+Technical extension of the UK Adequacy Decision under the GDPR
+
+24 June 2025
+
+English
+Download (98.31 KB - PDF)
+
+Technical extension of the UK Adequacy Decision under the LED
+
+24 June 2025
+
+English
+Download (102.15 KB - PDF)
+
+Report on the first periodic review of the functioning of the adequacy decision on the EU-US Data Privacy Framework
+
+9 October 2024
+
+English
+Download (389.92 KB - PDF)
+
+Report on the first review of the functioning of the adequacy decisions adopted pursuant to Article 25(6) of Directive 95/46/EC
+
+15 January 2024
+
+English
+Download (196.58 KB - HTML)
+
+Commission Staff Working Document - Country reports on the functioning of the adequacy decisions adopted under Directive 95/46/EC
+
+15 January 2024
+
+English
+Download (2.78 MB - PDF)
+
+Adequacy decision for the EU-US Data Privacy Framework
+
+10 July 2023
+
+English
+Download (1.42 MB - HTML)
+
+Report on the first periodic review of the adequacy decision for Japan
+
+4 April 2023
+
+English
+Download (162.83 KB - HTML)
+
+Commission Staff Working Document - Report on the first periodic review of the adequacy decision for Japan
+
+4 April 2023
+
+English
+Download (314.01 KB - HTML)
+
+Decision on the adequate protection of personal data by the Republic of Korea with annexes
+
+17 December 2021
+
+English
+Download (1.69 MB - HTML)
+
+Decision on the adequate protection of personal data by the United Kingdom - General Data Protection Regulation
+
+28 June 2021
+
+English
+Download (900.31 KB - HTML)
+
+Decision on the adequate protection of personal data by the United Kingdom: Law Enforcement Directive
+
+28 June 2021
+
+English
+Download (600.68 KB - HTML)
+
+EU Japan Adequacy Decision - Factsheet
+
+14 January 2019
+
+English
+Download (216.41 KB - PDF)
+
+Related links
+
+Data protection: European Commission launches process on personal data flows to UK
+
+Press release - 19 February 2021
+
+International data flows: Commission launches the adoption of its adequacy decision on Japan
+
+Press release - 5 September 2018
+
+Press statement by Commissioner Věra Jourová, Mr. Lee Hyo-seong, Chairman of the Korea Communications Commission and Mr. Jeong Hyun-cheol, Vice President of the Korea Internet & Security Agency
+
+Press Statement - 20 November 2017
+
+Joint Declaration by Mr. Shinzo Abe, Prime Minister of Japan, and Mr. Jean-Claude Juncker, President of the European Commission
+
+Joint Declaration - 6 July 2017
+
+Joint statement by Commissioner Věra Jourová and Haruhi Kumazawa, Commissioner of the Personal Information Protection Commission of Japan on the state of play of the dialogue on data protection
+
+Joint Statement - 4 July 2017
+
+Help us improve our website
+Fill in the survey
+
+[European Commission logo]
+This site is managed by:
+
+Directorate-General for Communication
+
+About us
+
+Contact us
+
+Priorities
+
+Topics
+
+Work with us
+
+Funding and tenders
+
+Press corner
+
+Events
+
+Follow us
+
+Mastodon
+
+LinkedIn
+
+WSocial
+
+Facebook
+
+Youtube
+
+Other networks
+
+Report an IT vulnerability
+
+Languages on our websites
+
+Cookies
+
+Privacy policy
+
+Legal notice
+
+Accessibility

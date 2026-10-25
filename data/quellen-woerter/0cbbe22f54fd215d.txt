@@ -57,7 +57,7 @@
 1
 1
 10
-12/08/2025
+10/23/2026
 2
 2017
 2018,
@@ -168,6 +168,7 @@ Cloud
 Cloud
 Cloud
 Cloud
+Cloud
 Cloudia
 Commissioned
 Community
@@ -232,7 +233,6 @@ EU-DE
 EU-NL
 Energy
 Energy
-Esquema
 European
 Europe’s
 Events
@@ -321,7 +321,6 @@ Mobile
 More
 MyWorkplace
 MyWorkplace
-Nacional
 Navigator
 Navigator
 Navigator
@@ -329,7 +328,6 @@ Navigator
 Netherlands
 Network
 Network
-New
 News
 News
 Newsletter
@@ -391,6 +389,7 @@ Public
 Public
 Public
 Public
+Public
 Public.
 Public.
 Recovery
@@ -426,7 +425,6 @@ Security
 Security
 Security/GDPR
 Security/GDPR
-Seguridad
 Service
 Service
 Service
@@ -438,6 +436,8 @@ Services
 Services
 Shared
 Shared
+Solutions
+Solutions
 Sovereignty
 Sovereignty
 Status
@@ -466,6 +466,7 @@ Switch
 Switch
 Switzerland
 Switzerland
+T
 T
 T
 T
@@ -695,7 +696,6 @@ carried
 central
 certificate
 certificate
-certificate:
 certificates
 certificates
 certificates
@@ -767,7 +767,6 @@ data
 data.
 day,
 days
-de
 decided
 description
 description
@@ -821,6 +820,7 @@ for
 for
 for
 for
+for
 found
 four
 free
@@ -846,6 +846,7 @@ have
 help
 helps
 high
+holders
 hotline
 hours
 hyperscalers
@@ -1035,6 +1036,7 @@ process,
 processes
 processes.
 product
+professional
 project-related
 projects
 property
@@ -1093,6 +1095,7 @@ role
 scenes.
 seach
 search
+secrecy
 sector
 sector
 secure

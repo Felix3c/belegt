@@ -1,0 +1,9 @@
+Quelle: https://eucoc.cloud/en/public-register/list-of-adherent-services ; https://www.codeofconduct.cloud/public-register/ ; https://www.verhaltensregel.eu/verpflichtete-unternehmen/ (alle direkt per curl; robots.txt: eucoc.cloud liefert 404, also keine Sperre; codeofconduct.cloud liefert eine leere robots.txt, also keine Sperre; verhaltensregel.eu sperrt nur /wp-admin/)
+Abruf: 2026-10-24 00:31:51 +0200 bis 00:31:57 +0200
+
+Suche im HTML (ohne Groß-/Kleinschreibung) nach "Cohere" und "Aleph":
+- EU Cloud Code of Conduct: 0 Treffer. Gegenprobe: "Google Cloud" und "Google LLC" stehen im HTML, die Liste ist da. Rohkopie: register-eucoc-roh-2026-10-24.html
+- CISPE Data Protection Code of Conduct: 0 Treffer. Gegenprobe: Eintrag "vmware-on-aruba-cloud" steht im HTML. Rohkopie: register-cispe-roh-2026-10-24.html
+- Trusted Data Processor: 0 Treffer. Gegenprobe: Eintrag "ECON Application GmbH" steht im HTML. Rohkopie: register-trusted-data-processor-roh-2026-10-24.html
+- Europrivacy: nicht ausgewertet (Verzeichnis lädt per Skript, wie bei DeepSeek am 23.10.2026).
+Hinweis: Cohere betreibt die SaaS-Plattform laut Trust Center auf Google Cloud in den USA. Dass Google Cloud im EU Cloud CoC steht, sagt nichts über Cohere selbst.

@@ -1,0 +1,61 @@
+Quelle: https://dev.meta.ai/help/billing/api-bill
+Abruf: 2026-10-23 01:19:17 +0200
+
+AI Developer Help Center
+
+Meta
+
+StatusContact us
+
+Menu
+
+Status
+
+Contact us
+
+Close popover
+
+Back to Help Center
+
+How am I billed for Model API?
+
+Meta Model API charges are based on token usage — the amount of text processed by the model in your API requests.
+
+What are tokens?
+
+Tokens are the basic units that models use to process text. A token is roughly 3-4 characters of English text. For example, the sentence "Hello, how are you?" is approximately 6 tokens.
+
+Every API request consumes two types of tokens:
+
+Input tokens — the text you send to the model (your prompt, system instructions, and any conversation history).
+
+Output tokens — the text the model generates in response.
+
+Token counts vary by language and content type. Non-English text and code often use more tokens per word, so the same request may cost more. To see exactly how many tokens your requests use, check the Usage dashboard.
+
+How charges are calculated
+
+Your bill reflects the total input and output tokens consumed across all API requests. Output tokens typically cost more than input tokens. Costs also vary by model — larger, more capable models cost more per token.
+
+For current per-model pricing, see Rate limits and pricing in the developer documentation.
+
+When you are charged
+
+Charges accrue as you use the API. Your payment method is charged in one of two situations:
+
+Payment threshold reached. Whenever your current balance reaches your payment threshold amount, your payment method is charged for that amount. As you make successful payments, your payment threshold may be raised until your account reaches a final threshold amount.
+
+Monthly bill date. Any remaining balance is automatically charged on the 1st of each month.
+
+If you have a current balance, you can use Pay now on the Billing page to make an early payment before you reach your payment threshold or monthly bill date.
+
+Monitoring your costs
+
+You can track your team's token usage on the Usage dashboard.
+
+Terms of ServiceAcceptable Use Policy
+
+Please confirm your identity
+For added security, you need to confirm your identity. You will be taken to your single sign-on provider, where you can enter your password.
+
+CancelContinue

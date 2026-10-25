@@ -19,21 +19,21 @@
       "preis_output_1m_eur": null,
       "preis_status": "kein_oeffentlicher_preis",
       "quelle": "https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control",
-      "geprueft": "2026-10-22",
+      "geprueft": "2026-10-25",
       "status": "belegt",
       "anmerkung": "Modellkarte öffentlich; keine öffentlichen API-Tokenpreise — Vertrieb über Enterprise-Verträge und Self-Hosting, Preise auf Anfrage.",
       "backup_standort": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-15",
+        "geprueft": "2026-10-25",
         "anmerkung": "Keine Angabe zu Backups oder Spiegelungen in Produktdoku (Pharia-1 'Data privacy') oder Datenschutzerklärung; ein öffentlicher Vertrag fehlt. Die Modelle werden auch als offene Gewichte zum Selbstbetrieb angeboten, dann liegen Sicherungen beim Betreiber. Gilt für alle Modelle."
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-15",
+        "geprueft": "2026-10-25",
         "anmerkung": "Produktdoku (Pharia-1 'Data privacy') und Datenschutzerklärung nennen weder eigene Filter oder Moderation noch schließen sie solche aus; öffentliche Nutzungsbedingungen gibt es nicht mehr. Gilt für alle Modelle."
       }
     },
@@ -44,21 +44,21 @@
       "preis_output_1m_eur": null,
       "preis_status": "kein_oeffentlicher_preis",
       "quelle": "https://huggingface.co/Aleph-Alpha/Pharia-1-Embedding-4608-control",
-      "geprueft": "2026-10-22",
+      "geprueft": "2026-10-25",
       "status": "belegt",
       "anmerkung": "Keine öffentlichen Preise.",
       "backup_standort": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-15",
+        "geprueft": "2026-10-25",
         "anmerkung": "Keine Angabe zu Backups oder Spiegelungen in Produktdoku (Pharia-1 'Data privacy') oder Datenschutzerklärung; ein öffentlicher Vertrag fehlt. Die Modelle werden auch als offene Gewichte zum Selbstbetrieb angeboten, dann liegen Sicherungen beim Betreiber. Gilt für alle Modelle."
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-15",
+        "geprueft": "2026-10-25",
         "anmerkung": "Produktdoku (Pharia-1 'Data privacy') und Datenschutzerklärung nennen weder eigene Filter oder Moderation noch schließen sie solche aus; öffentliche Nutzungsbedingungen gibt es nicht mehr. Gilt für alle Modelle."
       }
     },
@@ -69,21 +69,21 @@
       "preis_output_1m_eur": null,
       "preis_status": "kein_oeffentlicher_preis",
       "quelle": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
-      "geprueft": "2026-10-22",
+      "geprueft": "2026-10-25",
       "status": "belegt",
       "anmerkung": "Seit 03.10.2026 offene Gewichte unter Apache 2.0 (Modellkarte auf Hugging Face, nicht zugangsbeschränkt; Blog 'Kolibri Has Landed: A Sovereign Open-Weight Model'): Mixture-of-Experts, 78 Mrd. Parameter, davon 3,46 Mrd. aktiv je Token, Deutsch/Englisch, Kontext bis 1 Mio. Token. Selbst betreiben (Mindestanforderung laut aleph-alpha.com/kolibri: 2× A100 80 GB oder 1× H200); einen öffentlichen API-Tokenpreis gibt es nicht. Archivkopie: web.archive.org/web/20261004091314/https://huggingface.co/Aleph-Alpha/Kolibri-1. Seit spätestens 16.10.2026 sagt die Modellkarte ausdrücklich, dass es keine Acceptable Use Policy gibt ('Acceptable Use Policy n/a, cf. Responsible Use'; 'we do not implement an acceptable use policy'); am 04.10. stand nur der Appell, keine rechtswidrige Nutzung. Lizenz weiter Apache 2.0, Wissensstand laut Karte 18.06.2026. Archivkopie 16.10.: web.archive.org/web/20261016203048/https://huggingface.co/Aleph-Alpha/Kolibri-1. Neu (Abruf 22.10.2026): Die Startseite wirbt mit „Now via API. Experience Kolibri […] and use it directly via API.“, die Seite aleph-alpha.com/en/signup-kolibri-api/ ist ein Anmeldeformular (Firma, Branche, geschäftliche E-Mail). Einen Preis, einen Standort oder Angaben zur Speicherung nennt dort keine Seite; die Datenschutzerklärung regelt weiter nur Website, Kontakt, Newsletter und Bewerbungen. Kleinere Abweichung: die Kolibri-Seite nennt „3B“ aktive Parameter, Blog und Modellkarte 3,46 Mrd. Archivkopie Anmeldeseite: web.archive.org/web/20261022074024/https://aleph-alpha.com/en/signup-kolibri-api/",
       "backup_standort": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-15",
+        "geprueft": "2026-10-25",
         "anmerkung": "Keine Angabe zu Backups oder Spiegelungen in Produktdoku (Pharia-1 'Data privacy') oder Datenschutzerklärung; ein öffentlicher Vertrag fehlt. Die Modelle werden auch als offene Gewichte zum Selbstbetrieb angeboten, dann liegen Sicherungen beim Betreiber. Gilt für alle Modelle."
       },
       "vorgeschaltete_filter": {
         "wert": null,
         "status": "unbelegt",
         "quelle": null,
-        "geprueft": "2026-10-15",
+        "geprueft": "2026-10-25",
         "anmerkung": "Produktdoku (Pharia-1 'Data privacy') und Datenschutzerklärung nennen weder eigene Filter oder Moderation noch schließen sie solche aus; öffentliche Nutzungsbedingungen gibt es nicht mehr. Gilt für alle Modelle."
       }
     }
@@ -93,56 +93,77 @@
       "wert": null,
       "status": "unbelegt",
       "quelle": "https://aleph-alpha.com/datenschutz/",
-      "geprueft": "2026-10-22",
+      "geprueft": "2026-10-25",
       "anmerkung": "Kein öffentliches AVV/DPA-Dokument. Die Datenschutzerklärung regelt nur Website, Kontakt, Newsletter und Bewerbungen; die in der Produktdoku verlinkten 'Terms and Conditions' leiten am 04.10.2026 auf die Startseite um. Verträge im Enterprise-Vertrieb individuell."
     },
     "subprozessoren": {
       "wert": null,
       "status": "unbelegt",
       "quelle": "https://aleph-alpha.com/datenschutz/",
-      "geprueft": "2026-10-22",
+      "geprueft": "2026-10-25",
       "anmerkung": "Keine Subprozessorenliste für die Produkte; die Datenschutzerklärung nennt Auftragsverarbeiter nur für den Website-Betrieb (u. a. Fastly), auch die Produktdoku docs.aleph-alpha.com nennt keine (04.10.2026)."
+    },
+    "tom": {
+      "wert": null,
+      "status": "unbelegt",
+      "quelle": "https://aleph-alpha.com/",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Ungeklärt: Kein Link zu TOM, AVV oder Trust Center gefunden. Geprüft: Startseite, /platform/, /signup-kolibri-api/ und docs.aleph-alpha.com; trust.aleph-alpha.com löst nicht auf, /trust/ liefert 404. Die Fußzeile führt unter „Rechtliches“ nur „Datenschutz Impressum“."
+    },
+    "subprozessoren_anzahl": {
+      "wert": null,
+      "status": "unbelegt",
+      "quelle": "https://aleph-alpha.com/datenschutz/",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Ungeklärt: Keine öffentliche Liste der Unterauftragnehmer für das Produkt gefunden. Die Datenschutzerklärung betrifft nur die Website, z. B. „Unsere Website wird bei Namecheap als unserem Auftragsverarbeiter und Datenempfänger gehostet“."
+    },
+    "drittlaender": {
+      "wert": null,
+      "status": "unbelegt",
+      "quelle": "https://aleph-alpha.com/datenschutz/",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Ungeklärt: Es gibt keine Unterauftragnehmer-Liste. Die Datenschutzerklärung nennt die USA nur für Website-Dienste, nicht für das KI-Produkt: „Personenbezogene Daten werden von Namecheap in den USA verarbeitet“."
     },
     "training_opt_out": {
       "wert": null,
       "status": "beansprucht",
       "quelle": "https://docs.aleph-alpha.com/phariaai-dev-guide/latest/pharia-llm/intro.html",
-      "geprueft": "2026-10-22",
+      "geprueft": "2026-10-25",
       "anmerkung": "Eigenaussage in der Produktdoku zu Pharia-1, Abschnitt 'Data privacy': 'We do not train on user data.' Bezugsrahmen sind 'our public API users' und die 'Terms and Conditions' — die verlinkten Bedingungen sind nicht mehr abrufbar, ein Vertragstext liegt nicht vor; für die souveräne SaaS-Variante der PhariaAI-Plattform keine eigene Aussage. Bei Self-Hosting/On-Premises verbleiben Daten beim Kunden. Archivkopie: web.archive.org/web/20261004091251/https://docs.aleph-alpha.com/phariaai-dev-guide/latest/pharia-llm/intro.html"
     },
     "zero_data_retention": {
       "wert": null,
       "status": "beansprucht",
       "quelle": "https://docs.aleph-alpha.com/phariaai-dev-guide/latest/pharia-llm/intro.html",
-      "geprueft": "2026-10-22",
+      "geprueft": "2026-10-25",
       "anmerkung": "Eigenaussage in derselben Doku: 'No prompt data is stored when using our systems' und 'We do not log user inputs to the models.' Gilt laut Text für 'our public API users'; die verwiesenen 'Terms and Conditions' sind nicht mehr abrufbar (am 22.10.2026 in der Doku auch nicht mehr verlinkt, der dortige Link „Licences“ liefert 404); ob die Aussage für den neuen Kolibri-Zugang per API gilt, sagt keine Seite (Abruf 22.10.2026), eine vertragliche Zusage oder Frist für Metadaten-Logs fehlt. Archivkopie: web.archive.org/web/20261004091251/https://docs.aleph-alpha.com/phariaai-dev-guide/latest/pharia-llm/intro.html"
     },
     "zweckbindung": {
       "wert": null,
       "status": "unbelegt",
       "quelle": null,
-      "geprueft": "2026-10-15",
+      "geprueft": "2026-10-25",
       "anmerkung": "Kein öffentlicher Vertrag oder AVV. Die Produktdoku sagt nur 'No prompt data is stored when using our systems' und 'We do not train on user data' (für 'our public API users'); eine Zusage, Ein- und Ausgaben ausschließlich zur Diensterbringung zu nutzen, fehlt. Die verwiesenen 'Terms and Conditions' sind nicht abrufbar."
     },
     "betroffenenrechte_traeger": {
       "wert": null,
       "status": "unbelegt",
       "quelle": null,
-      "geprueft": "2026-10-15",
+      "geprueft": "2026-10-25",
       "anmerkung": "Kein öffentlicher AVV; die Datenschutzerklärung (aleph-alpha.com/datenschutz) regelt nur Website, Kontakt, Newsletter und Bewerbungen. Wer Betroffenenanfragen zu Produktdaten bedient, ist nicht geregelt."
     },
     "log_frist": {
       "wert": "Eingaben werden laut Doku nicht protokolliert; Frist für Metadaten nicht genannt",
       "status": "beansprucht",
       "quelle": "https://docs.aleph-alpha.com/phariaai-dev-guide/latest/pharia-llm/intro.html",
-      "geprueft": "2026-10-22",
+      "geprueft": "2026-10-25",
       "anmerkung": "Produktdoku Pharia-1, Abschnitt 'Data privacy' (08.10.2026): 'No prompt data is stored when using our systems' und 'We do not log user inputs to the models.' Zu Metadaten, Abrechnungs- oder Zugriffsprotokollen keine Angabe; kein Vertragstext."
     },
     "log_zweck": {
       "wert": null,
       "status": "unbelegt",
       "quelle": null,
-      "geprueft": "2026-10-15",
+      "geprueft": "2026-10-25",
       "anmerkung": "Doku und Datenschutzerklärung nennen keinen Zweck für etwaige Protokolle (Metadaten); Inhalte werden laut Doku nicht protokolliert."
     }
   },
@@ -151,28 +172,28 @@
       "typ": "ISO 27001",
       "status": "belegt",
       "quelle": "https://www.dqsglobal.com/en/customer-database/aleph-alpha-gmbh",
-      "geprueft": "2026-10-09",
-      "anmerkung": "ISO/IEC 27001:2022 für Aleph Alpha GmbH, nachgewiesen über die Zertifikatsdatenbank des Zertifizierers DQS (am 08.10.2026 im Browser erneut bestätigt; die Datenbank sperrt Skriptabrufe per Cloudflare).",
+      "geprueft": "2026-10-25",
+      "anmerkung": "ISO/IEC 27001:2022 für Aleph Alpha GmbH, nachgewiesen über die Zertifikatsdatenbank des Zertifizierers DQS. Am 25.10.2026 war dieser Eintrag erstmals per Skript abrufbar (HTTP 200): 'Certified according to : ISO IEC 27001:2022 Information-Security-Management-System This certification belongs to the parent company 31623205'. Der Eintrag der Muttergesellschaft (Skript weiter HTTP 403, im Browser gerendert) verlinkt das Zertifikat selbst (PDF, Stand 01.12.2025, deutsch): Registrier-Nr. 31623205 ISMS22, Zertifizierung 2024-12-20, Revision 2025-11-29, 'Valid until 2027-12-19', Sitz Speyerer Straße 14, Heidelberg, Standorte laut Anhang Berlin (Ritterstrasse 6) und Bayreuth (Rechenzentrum Theodor-Schmidt-Straße 17, Weiherstraße 26). Das PDF sagt selbst: 'The validity of the certification can only be verified by the QR-code.' Kopien mit SHA-256 und Zeitstempel unter belege/anbieter/aleph-alpha/ (dqs-zertifikat-iso27001-2026-10-25.pdf, dqs-kundendatenbank-2026-10-25.txt).",
       "anwendungsbereich": {
-        "wert": null,
-        "status": "unbelegt",
-        "quelle": null,
-        "geprueft": "2026-10-08",
-        "anmerkung": "Der Geltungsbereich steht nur im Eintrag der DQS-Kundendatenbank; ein eigener Abruf am 08.10.2026 scheiterte per Skript (HTTP 403) und per automatisiertem Browser an der Cloudflare-Prüfung. Website (aleph-alpha.com) und Produktdoku nennen weder Zertifikat noch Scope."
+        "wert": "Aleph Alpha GmbH, Heidelberg, mit den Standorten Berlin und Bayreuth (zwei Adressen, eine davon Rechenzentrum): 'Research, development and commercialization of generative AI technology with focus on multimodal large language models.' Statement of applicability Version 1.5 vom 2025-10-14",
+        "status": "belegt",
+        "quelle": "https://www.dqsglobal.com/en/customer/download/15518912117253675202",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Zertifikat-PDF (Stand 01.12.2025), abgerufen 25.10.2026 über den Knopf 'Download certificate' auf https://www.dqsglobal.com/en/customer-database/aleph-alpha-gmbh2 (im Browser; Skript erhält HTTP 403). Am 08.10.2026 war die Datenbank noch ganz gesperrt. Gleicher Scope-Satz für alle drei Standorte im Anhang (Ausgabe 2025-11-29). Ein bestimmtes Produkt (z. B. PhariaAI) nennt der Scope nicht. Die Erklärung zur Anwendbarkeit selbst ist nicht öffentlich."
       },
       "zertifizierer": {
-        "wert": "DQS",
+        "wert": "DQS GmbH, Frankfurt am Main",
         "status": "belegt",
-        "quelle": "https://www.dqsglobal.com/en/customer-database/aleph-alpha-gmbh",
-        "geprueft": "2026-10-08",
-        "anmerkung": "Laut Kundendatenbank des Zertifizierers DQS (bestehender Eintrag, im Browser bestätigt 08.10.2026). Eigener Abruf am 08.10.2026 von Cloudflare blockiert; welche DQS-Gesellschaft ausgestellt hat und die Zertifikatsnummer wurden nicht eingesehen."
+        "quelle": "https://www.dqsglobal.com/en/customer/download/15518912117253675202",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Zertifikat-PDF (abgerufen 25.10.2026): 'Accredited Body: DQS GmbH, August-Schanz-Straße 21, 60433 Frankfurt am Main, Germany', unterzeichnet für die DQS GmbH. Zertifikatsnummer 31623205 ISMS22. Bis zum 25.10.2026 stand hier nur 'DQS', weil Gesellschaft und Nummer nicht einsehbar waren."
       },
       "akkreditiert_dakks": {
         "wert": true,
         "status": "belegt",
         "quelle": "https://www.dakks.de/files/data/as/pdf/D-ZM-16074-01-02.pdf",
-        "geprueft": "2026-10-22",
-        "anmerkung": "DAkkS-Urkundenanlage D-ZM-16074-01-02 (gültig ab 30.03.2026) für die DQS GmbH – Deutsche Gesellschaft zur Zertifizierung von Managementsystemen, Frankfurt am Main: 'DIN EN ISO/IEC 27006-01:2024-08 […] Für Zertifizierungen im Bereich DIN EN ISO/IEC 27001:2024-01'. Vorbehalt: dass das Aleph-Alpha-Zertifikat von genau dieser Gesellschaft stammt, wurde nicht eingesehen (Datenbank gesperrt)."
+        "geprueft": "2026-10-25",
+        "anmerkung": "DAkkS-Urkundenanlage D-ZM-16074-01-02 (gültig ab 30.03.2026) für die DQS GmbH – Deutsche Gesellschaft zur Zertifizierung von Managementsystemen, Frankfurt am Main: 'DIN EN ISO/IEC 27006-01:2024-08 […] Für Zertifizierungen im Bereich DIN EN ISO/IEC 27001:2024-01'. Seit 25.10.2026 im Zertifikat-PDF eingesehen: Aussteller ist genau diese DQS GmbH (August-Schanz-Straße 21, Frankfurt am Main)."
       },
       "normiert": [
         "iso-27001"
@@ -185,38 +206,38 @@
     "zertifizierer": null,
     "anwendungsbereich": null,
     "quelle": null,
-    "geprueft": "2026-10-09",
-    "anmerkung": "Kein Hinweis auf ISO/IEC 42001 gefunden. Die DQS-Kundendatenbank (direkt nicht abrufbar: HTTP 403 bzw. Cloudflare-Pruefung; Inhalt nur ueber Suchmaschinen-Auszug sichtbar) fuehrt Aleph Alpha GmbH mit 'ISO IEC 27001:2022 Informationssicherheits-Managementsystem', nicht mit 42001. aleph-alpha.com/trust/ liefert HTTP 404, die Startseite nennt keine Zertifizierung. Geprüft: https://aleph-alpha.com/, https://aleph-alpha.com/?p=4366, https://aleph-alpha.com/trust/, https://www.dqsglobal.com/en/customer/redirect/31623205, https://www.dqsglobal.com/en/customer-database/?search=Aleph%20Alpha, WebSearch: Aleph Alpha ISO 42001 certification, WebSearch: \"Aleph Alpha GmbH\" DQS certificate ISO"
+    "geprueft": "2026-10-25",
+    "anmerkung": "Kein Hinweis auf ISO/IEC 42001 gefunden. Am 25.10.2026 beide DQS-Einträge von Aleph Alpha selbst gelesen (einer per Skript, einer im Browser): nur ISO IEC 27001:2022, kein 42001. Stand 09.10.2026: Die DQS-Kundendatenbank (direkt nicht abrufbar: HTTP 403 bzw. Cloudflare-Pruefung; Inhalt nur ueber Suchmaschinen-Auszug sichtbar) fuehrt Aleph Alpha GmbH mit 'ISO IEC 27001:2022 Informationssicherheits-Managementsystem', nicht mit 42001. aleph-alpha.com/trust/ liefert HTTP 404, die Startseite nennt keine Zertifizierung. Geprüft: https://aleph-alpha.com/, https://aleph-alpha.com/?p=4366, https://aleph-alpha.com/trust/, https://www.dqsglobal.com/en/customer/redirect/31623205, https://www.dqsglobal.com/en/customer-database/?search=Aleph%20Alpha, WebSearch: Aleph Alpha ISO 42001 certification, WebSearch: \"Aleph Alpha GmbH\" DQS certificate ISO"
   },
   "ai_act": [
     {
       "pflicht": "GPAI Code of Practice unterzeichnet",
       "status": "belegt",
       "quelle": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai",
-      "geprueft": "2026-10-22",
+      "geprueft": "2026-10-25",
       "anmerkung": "In der offiziellen Signatarliste der EU-Kommission enthalten."
     },
     {
       "pflicht": "Code of Practice on Transparency of AI-generated Content unterzeichnet",
       "status": "belegt",
       "quelle": "https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content",
-      "geprueft": "2026-10-22",
+      "geprueft": "2026-10-25",
       "anmerkung": "In der Liste der Unterstützer (Section 1) der EU-Kommissionsmeldung vom 31.07.2026 genannt."
     }
   ],
-  "geprueft": "2026-10-08",
+  "geprueft": "2026-10-25",
   "url": "https://belegbar.eu/anbieter/aleph-alpha/",
   "beleg_quote_prozent": 60,
-  "zuletzt_geprueft": "2026-10-22",
+  "zuletzt_geprueft": "2026-10-25",
   "quellenlauf": {
-    "zuletzt": "2026-10-22",
-    "quellen": 9,
-    "nachgelesen": 8,
+    "zuletzt": "2026-10-25",
+    "quellen": 11,
+    "nachgelesen": 9,
     "unveraendert": 2,
-    "veraendert_gelesen": 6,
+    "veraendert_gelesen": 7,
     "offen": 0,
     "verschwunden": 0,
-    "statuswechsel_30_tage": 8
+    "statuswechsel_30_tage": 10
   },
   "rechtsraum": {
     "land": "DE",

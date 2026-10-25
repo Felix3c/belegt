@@ -1,0 +1,43 @@
+Quelle: https://aws.amazon.com/bedrock/ (direkt), https://aws.amazon.com/bedrock/security-compliance/ (direkt), https://aws.amazon.com/bedrock/anthropic/ und https://aws.amazon.com/bedrock/guardrails/ (direkt, ohne Fund); dazu die schon gesicherten Kopien in diesem Ordner (faq, missbrauchserkennung, datenaufbewahrung, cross-region, cross-region-global vom 23.10. ~00:58 MESZ)
+Abruf: 2026-10-23 ~09:19 UTC (curl direkt, je HTTP 200, 3 s Abstand; robots.txt von aws.amazon.com sperrt /bedrock/ nicht). SHA-256 der Rohseiten: bedrock 56a65255669c1d0b0da0418337c78b81c6dd265deaf5f6912fef7d0f5f89b3fc, security-compliance a04e6de9ec24c03f57182fb67ef84c526a3df71b5905f8bd13e30c217f72c213, anthropic ed7ee0c18aad620c68f7fd4edd462d02d7827bce6fcc8b0d3294123de334dca9, guardrails bc877e725bb988aab1c2e443ca831e89f717aee77a6b8ed9ebb443fd801483e4. Archivkopie dieser Fassung: ungeklärt (nicht angefordert). belegbar.eu
+Inhalt: wörtliche Auszüge aus dem Widerspruchs-Scan Amazon Bedrock (Textfassung). Frage: Sagen die AWS-Seiten untereinander oder in der Werbung etwas anderes als die Doku?
+
+A. FAQ: „gespeichert in der Region, in der Sie Bedrock nutzen“ gegen gespeicherte Missbrauchs-Kopien in der Zielregion (Fall-Kandidat 52)
+
+1. faq (Kopie 23.10., Zeile 580/582), Frage „Is the content processed by Amazon Bedrock moved outside the AWS Region where I am using Amazon Bedrock?“:
+Any customer content processed by Amazon Bedrock is encrypted and stored at rest in the AWS Region where you are using Amazon Bedrock.
+
+2. missbrauchserkennung (Kopie 23.10., Zeile 16):
+For Anthropic Claude Fable 5 and Claude Fable 5.1, all traffic will be retained for up to 30 days for automated offline abuse detection. Classifier-flagged traffic will be subject to potential human review performed by AWS.
+
+3. missbrauchserkennung (Zeile 15):
+For all OpenAI models other than GPT OSS Safeguard 120B, GPT OSS Safeguard 20B, gpt-oss-120b, and gpt-oss-20b, classifier-flagged traffic will be retained for up to 30 days for automated offline abuse detection.
+
+4. missbrauchserkennung (Zeile 19):
+If cross-region inference is enabled for these models, retained inputs and outputs are stored in destination regions (i.e., the region where your inference request is processed).
+
+5. cross-region-global (Kopie 23.10., Zeile 19):
+With global cross-Region inference, your requests can be processed by compute across supported commercial AWS Regions worldwide rather than within a single geography.
+
+Die FAQ beantwortet die Frage nach dem Verlassen der Region ohne Einschränkung mit „stored at rest in the AWS Region where you are using Amazon Bedrock“ (1). Die Seite zur Missbrauchserkennung sagt für Claude Fable 5/5.1 (aller Verkehr) und die meisten OpenAI-Modelle (markierter Verkehr), dass Ein- und Ausgaben bis zu 30 Tage gespeichert werden (2, 3), und zwar bei Cross-Region in der Zielregion (4). Mit dem Global-Profil kann das jede kommerzielle AWS-Region weltweit sein (5). Wer aus Frankfurt aufruft, hat dann gespeicherte Kopien außerhalb von Frankfurt, im Global-Fall auch außerhalb der EU.
+
+B. Startseite: „never stores“ gegen 30 Tage Speicherung (Zusatz zu Nr. 52)
+
+6. bedrock (Abruf 09:19 UTC, Abschnitt „Apply security, privacy, and responsible AI checks“):
+Bedrock never stores or uses your data to train models, ensuring complete security and privacy, with encryption of data in transit and at rest
+
+7. datenaufbewahrung (Kopie 23.10., Zeile 28), Modus default:
+AWS may retain the data for safety and abuse-prevention purposes.
+
+8. datenaufbewahrung (Zeile 189):
+Claude Fable 5 and Claude Fable 5.1 require human review (`allowed_modes: ["aws_review", "provider_data_share"]`). You must explicitly set your data retention mode to `aws_review`, or to the legacy `provider_data_share`, before you can invoke these models.
+
+Satz 6 lässt sich auf zwei Arten lesen: „speichert nie, und nutzt nie zum Training“ oder „speichert und nutzt nie, um Modelle zu trainieren“. In der ersten Lesart widerspricht er 2, 3, 7 und 8. In der zweiten Lesart stimmt er. Darum nur Zusatz, kein eigener Kandidat.
+
+C. Ohne Widerspruch
+
+9. security-compliance: „your data is not shared with model providers, and is not used to improve the base models.“ passt zu missbrauchserkennung Zeile 19 („Retained inputs and outputs are stored and processed by AWS and are not shared with third-party model providers.“) und zur FAQ („Users' inputs and model outputs are not shared with any model providers.“). Der Altmodus `provider_data_share` gibt laut datenaufbewahrung Zeile 30 heute nichts an Anbieter weiter.
+
+10. Werbeseiten anthropic und guardrails: keine Aussage zu Ort oder Speicherung gefunden.
+
+Was es nicht heißt: AWS versteckt die Speicherung nicht, sie steht auf der Seite zur Missbrauchserkennung und in der Seite zur Datenaufbewahrung. Für Fable 5 muss der Kunde den Modus aws_review selbst setzen. Der Punkt ist die FAQ-Antwort auf genau die Frage nach dem Verlassen der Region, die keine Ausnahme nennt. Für die im Profil geführten Modelle (Nova Pro, Claude Sonnet 5.5, Mistral Large 3) nennt die Missbrauchsseite keine Speicherung; ob dort sonst etwas gespeichert wird, ist ungeklärt.

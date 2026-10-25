@@ -1,0 +1,49 @@
+Quelle: https://docs.cloud.google.com/gemini-enterprise-agent-platform/resources/zero-data-retention (Weiterleitung von cloud.google.com/vertex-ai/generative-ai/docs/data-governance), https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/abuse-monitoring, https://docs.cloud.google.com/gemini-enterprise-agent-platform/resources/data-residency, https://cloud.google.com/products/gemini-enterprise-agent-platform (Weiterleitung von cloud.google.com/vertex-ai), https://cloud.google.com/sovereign-cloud
+Abruf: 2026-10-23 ~06:22-06:24 UTC (curl, je HTTP 200, 3 s Abstand, robots.txt erlaubt alles Gelesene). Seitendatum laut Fußzeile: abuse-monitoring 2026-10-22. SHA-256 der Rohseiten: zero-data-retention f71fddfd22b3107b70731f9287a089923461a7d9a5a9ae908497c1c0b7007d7c, abuse-monitoring f959b6ef557dc7fdb83534f0bfde8f197b35fe66a8b470a532e44a03865bfab8, data-residency bffa4ecb6fd8d56ee3771db4bd525313f2d4d7a803aecf8e900c5ab5a9682025, Produktseite e28531f6b8924fe180b4653f8ea4f262c922130abf20df00a3fb80bff8fe3b0e, sovereign-cloud 2c150cceb63f97a74d7a59803e26313bbe8414be2ae7d9edda1b3ac4cb59b7df. belegbar.eu
+Inhalt: wörtliche Auszüge aus dem Widerspruchs-Scan Google Vertex AI / Gemini Enterprise Agent Platform (Textfassung ohne Skripte). Frage: Sagen die Google-Seiten untereinander oder in der Werbung etwas anderes als das Profil?
+
+Vorab: Alle 23 Profil-Zitate vom 22.10. stehen wörtlich auf den neuen Seiten unter docs.cloud.google.com (alte Adressen leiten weiter). Die Missbrauchs-Seite ist bis auf das Datum (21.10. -> 22.10.) und die Navigation wortgleich mit der Kopie vom 22.10.
+
+A. Zwischenspeicher liegt teils auf Platte (stand schon in der Kopie vom 22.10., fehlte im Profil)
+
+1. zero-data-retention, „Implicit data caching“:
+By default, Google's published Gemini models cache Customer Data to reduce latency and accelerate responses. Implicit caching uses two storage tiers:
+In-memory caching : Enabled by default for supported Gemini models.
+Durable caching : Enabled by default for supported Gemini models.
+
+2. zero-data-retention, „Durable data caching“:
+On models that support durable caching, when in-memory cache capacity is exhausted, Google stores derived cache data (key-value representations computed from your inputs) in durable storage within the Agent Platform serving environment.
+It's stored at rest and encrypted with Google default encryption.
+It's deleted no later than 24 hours after it's written, and is often evicted sooner.
+It stays within the selected location and adheres to its Data Residency requirements when you use a regional or multi-regional endpoint. When you use the global endpoint, requests and their cached data can be served from any region.
+Customer-managed encryption keys (CMEK) aren't supported for durable caching.
+
+3. zero-data-retention, „Control data caching“:
+If your organization's policy does not permit Customer Data to be stored at rest, you can disable durable caching on a per-project basis and maintain in-memory caching. Alternatively, you can disable caching entirely.
+
+B. 30 Tage Protokoll heißen „ZDR-aligned“ (Fall-Kandidat 46)
+
+4. abuse-monitoring, „Google Frontier Models“:
+Google may log customer prompts and responses solely for ensuring safe use of the Google Frontier Models and compliance with customer's Google agreement
+This includes automated processing to create anonymized shingles and analyze usage patterns solely for the purpose described above.
+These logs are stored securely inside the customer's environment for up to 30 days.
+
+5. abuse-monitoring, gleich danach:
+ZDR-aligned abuse logging for customers with Cloud Master Agreements : Section 34 "Google Frontier Models" of Service Specific Terms does not give Google the right to conduct human review. Consequently, these logs adhere to ZDR standards for customers with Cloud Master Agreements, as they are stored inside the customer's environment and exempt from human review.
+
+6. abuse-monitoring, für Kunden unter Online-AGB:
+Human review of abuse logs for customers covered under Google Cloud online terms : As outlined in Section 4.3 "Generative AI Safety and Abuse" of Google Cloud Platform Terms of Service , Google may additionally conduct human review of prompts flagged by our abuse classifiers
+Models in scope : Gemini 4 Argon (Cyber Permissive)
+
+7. zero-data-retention, Einleitung der Google-Modelle (zählt Live-Sitzungen, Zwischenspeicher, Grounding, Interactions-Speicher auf, die Frontier-Protokolle nicht; Suchwort „Frontier“ kommt auf der Seite nicht vor):
+To achieve zero data retention for Google trained models, customers must take additional specific actions within each of these areas:
+
+C. Werbung (ohne Widerspruch)
+
+8. Produktseite:
+Gemini platform provides a secure environment for developing and deploying AI models and applications.
+
+9. sovereign-cloud, „Google Cloud Data Boundary“ (eigenes Produkt, kein Versprechen für den normalen Gemini-Zugang):
+Core customer data is stored in your chosen region and cannot move.
+
+Die Produktseite und die Sovereign-Seite nennen für Gemini keine Speicherfrist, keinen Ort und kein „kein Training“. Gegen die Doku steht darum nichts.

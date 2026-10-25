@@ -83,6 +83,7 @@ Calculator
 Campus
 Center
 Center
+Chemieindustrie
 Cloud
 Cloud
 Cloud
@@ -104,6 +105,7 @@ Cloud
 Cloud
 Cloud-Accelerator-Programm
 Cloud-Betrieb
+Cloud-Infrastruktur
 Cloud-Infrastruktur
 Cloud-Migration
 Cloud-Migration
@@ -260,9 +262,11 @@ Flexibel
 Flexibilität
 Flexibler
 Flexibler
+Forschungsdaten
 Foundry
 Friedrichshall
 Funktionen,
+Förderungen.
 Führende
 Für
 GPU
@@ -468,6 +472,8 @@ Produkte
 Produktivität
 Programm
 Programm
+Programm
+Prozesse
 Quanten
 Quantum
 Quantum
@@ -590,6 +596,7 @@ Schließen
 Schließen
 Schnelle
 Schritte
+Schutz
 Schwarz
 Schwarz
 Schwarz
@@ -657,6 +664,7 @@ Souveräner
 Spaces
 Speicher
 Speicherung
+Start
 Start-up
 Stellenangebote
 Stellenangebote
@@ -701,6 +709,7 @@ Unternehmen
 Unternehmensprofil
 Unternehmensprofil
 Unternehmenstransformation
+Up
 Update
 Value
 Verbesserungen
@@ -710,6 +719,8 @@ Verteilung
 Vertragsbedingungen
 Verwaltung
 Verwaltung
+Verwirkliche
+Vision
 Volle
 Vorkonfiguration
 Vorteile
@@ -770,8 +781,10 @@ besonders
 beständig
 bewährte
 by
+chemische
 dank
 das
+deine
 dem
 dem
 den
@@ -811,10 +824,13 @@ einfach
 einfach
 ermöglichen
 europäisch
+europäischen
 europäischer
 europäischer
 europäischer
+exklusiven
 finden
+für
 für
 für
 für
@@ -857,6 +873,7 @@ mit
 mit
 mit
 mit
+mit
 nachweisbar
 neu
 neue
@@ -883,6 +900,7 @@ schnell
 schneller
 schnelles
 schützen
+sensible
 sensible
 sicher
 sicher
@@ -944,8 +962,11 @@ und
 und
 und
 und
+und
+und
 uns
 unsere
+unserer
 unterstützen
 vereinen
 verteilen

@@ -1,0 +1,911 @@
+Quelle: https://workspace.google.com/intl/en/security/ai-privacy/
+Abruf: 2026-10-22 13:04:13 +0200
+
+Generative AI Security, Compliance and Privacy | Google Workspace
+Solutions
+For Individuals
+Overview
+For Business
+Overview
+Small Business
+New Business
+Startups
+For Enterprise
+Overview
+Frontline Workers
+Work Safer
+Developers Education Nonprofits
+Products
+Gmail
+Drive
+Meet
+Chat
+Calendar
+Tasks
+Admin Console
+Docs
+Sheets
+Slides
+Forms
+Sites
+Keep
+Gemini
+Gemini Notebook
+Studio
+Vids
+Pics
+AppSheet
+Voice Separate Plan
+AI solutions Workspace Intelligence Security Add-ons See more apps
+Industries
+Industries
+Financial Services
+Healthcare and Life Sciences
+Retail
+Manufacturing
+Government and Public Sector
+Professional Services
+Technology
+Departments
+Sales
+Marketing
+Human Resources
+Security
+AI
+Pricing
+Resources
+Discover
+Workspace Intelligence
+AI learnings for work
+Security and trust
+Blog
+Customer stories
+Learn
+FAQs
+Training and certification
+Online Events & Webinars
+Gen AI At Work Event Series
+Connect
+Partners
+Marketplace
+Integrations
+Refer Google Workspace
+See more
+Support for admins Support for users
+Download the whitepaper Contact sales
+Skip to main content
+Solutions
+close
+Solutions
+For Individuals
+Overview Google Workspace for individuals
+For Business
+Overview Google Workspace Business
+Small Business Small business productivity tools
+New Business Tools for new businesses
+Startups Startup productivity tools
+For Enterprise
+Overview Google Workspace Enterprise
+Frontline Workers Google Workspace for the frontline
+Work Safer Protect organizations from cyberattacks
+Developers Education Nonprofits
+Products
+close
+Gmail Custom business email
+Drive Cloud storage
+Meet Video conferencing
+Chat Messaging for teams
+Calendar Shared calendars
+Tasks Tasks and task lists
+Admin Console IT management
+Docs Word processing
+Sheets Spreadsheets
+Slides Presentation builder
+Forms Online forms and surveys
+Sites Team and project sites
+Keep Digital notes
+Voice Separate Plan Cloud-based phone plans
+Gemini AI assistant
+Gemini Notebook AI research assistant
+Studio AI automation
+Vids Video editor
+Pics AI image editor
+AppSheet No-code apps
+AI solutions Workspace Intelligence Security Add-ons See more apps
+Industries
+close
+Industries
+Industries
+Financial Services
+Healthcare and Life Sciences
+Retail
+Manufacturing
+Government and Public Sector
+Professional Services
+Technology
+Departments
+Sales
+Marketing
+Human Resources
+Security
+AI
+Pricing
+Resources
+close
+Resources
+See more
+Discover
+Workspace Intelligence Personalized context across every app
+AI learnings for work Guides, tutorials, events, and more
+Security and trust Keep your data safe and compliant
+Blog Latest product news and stories
+Customer stories Case studies and videos
+Learn
+FAQs Answers to commonly asked questions
+Training and certification On-demand or classroom training
+Online Events & Webinars Hear from Workspace experts in digital events
+Gen AI At Work Event Series Attend in-person events about AI at work
+Connect
+Partners Find the right partner
+Marketplace Browse and install apps
+Integrations Partner and custom integrations
+Refer Google Workspace Earn rewards with our Referral Program
+Support for admins Support for users
+Download the whitepaper Contact sales
+Solutions
+close
+Solutions
+For Individuals
+Overview Google Workspace for individuals
+For Business
+Overview Google Workspace Business
+Small Business Small business productivity tools
+New Business Tools for new businesses
+Startups Startup productivity tools
+For Enterprise
+Overview Google Workspace Enterprise
+Frontline Workers Google Workspace for the frontline
+Work Safer Protect organizations from cyberattacks
+Developers Education Nonprofits
+Products
+close
+Gmail Custom business email
+Drive Cloud storage
+Meet Video conferencing
+Chat Messaging for teams
+Calendar Shared calendars
+Tasks Tasks and task lists
+Admin Console IT management
+Docs Word processing
+Sheets Spreadsheets
+Slides Presentation builder
+Forms Online forms and surveys
+Sites Team and project sites
+Keep Digital notes
+Voice Separate Plan Cloud-based phone plans
+Gemini AI assistant
+Gemini Notebook AI research assistant
+Studio AI automation
+Vids Video editor
+Pics AI image editor
+AppSheet No-code apps
+AI solutions Workspace Intelligence Security Add-ons See more apps
+Industries
+close
+Industries
+Industries
+Financial Services
+Healthcare and Life Sciences
+Retail
+Manufacturing
+Government and Public Sector
+Professional Services
+Technology
+Departments
+Sales
+Marketing
+Human Resources
+Security
+AI
+Pricing
+Resources
+close
+Resources
+See more
+Discover
+Workspace Intelligence Personalized context across every app
+AI learnings for work Guides, tutorials, events, and more
+Security and trust Keep your data safe and compliant
+Blog Latest product news and stories
+Customer stories Case studies and videos
+Learn
+FAQs Answers to commonly asked questions
+Training and certification On-demand or classroom training
+Online Events & Webinars Hear from Workspace experts in digital events
+Gen AI At Work Event Series Attend in-person events about AI at work
+Connect
+Partners Find the right partner
+Marketplace Browse and install apps
+Integrations Partner and custom integrations
+Refer Google Workspace Earn rewards with our Referral Program
+Support for admins Support for users
+Contact sales Download the whitepaper
+Enterprise-ready, secure AI
+Google Workspace with Gemini empowers teams to achieve more and helps keep data confidential, compliant, and secure.
+Contact sales Download the whitepaper
+What is generative AI privacy and security?
+Generative AI has become an indispensable tool, integrated into daily life to enhance productivity, foster creativity, and provide convenience. Whether it’s planning a vacation, researching a topic, writing a marketing brief, or staying connected with a global team — generative AI can be a personal creative assistant to spark ideas and help get things done. To accomplish that, it may access various data sources, and not all tools offer the same AI safety and security controls. With its rapid adoption and growing importance, organizations are rightly concerned about potential data security and privacy risks. Evaluating generative AI’s infrastructure, data governance policies, and security controls to protect sensitive data is a must.
+Keep business data confidential, secure, and compliant in Google Workspace with Gemini
+Confidential
+Your data, including personal and business data in products such as Gmail, is not reviewed by humans or otherwise used for generative AI model training outside your domain without permission.
+Secure
+Gemini is built with indirect prompt injection defenses and comes with granular DLP controls to help protect sensitive content.
+Compliant
+Gemini has received security and privacy certifications , including ISO 42001, BSI C5 and FedRAMP High, and can help meet HIPAA requirements.
+Confidential
+Your data, including personal and business data in products such as Gmail, is not reviewed by humans or otherwise used for generative AI model training outside your domain without permission.
+Secure
+Gemini is built with indirect prompt injection defenses and comes with granular DLP controls to help protect sensitive content.
+Compliant
+Gemini has received security and privacy certifications , including ISO 42001, BSI C5 and FedRAMP High, and can help meet HIPAA requirements.
+How to minimize risks with generative AI tools
+Protecting your data
+Gemini integrates with existing data security measures in Workspace to help prevent unauthorized data access and exfiltration.
+Understanding AI usage
+Workspace provides comprehensive logging and exporting capabilities for Gemini activity.
+Deploying AI with flexibility
+Workspace offers granular controls to manage user access, allowing administrators to define who can leverage these powerful and robust AI capabilities.
+Securing access points
+Organizations can implement device-specific access policies to further secure Gemini usage.
+Equifax securely provides Gemini to a global workforce, saving teams hours per day
+Equifax, a leading credit bureau with a global footprint, launched Google Workspace with Gemini, boosting productivity across its organization.
+Gemini in Google Workspace delivers sovereign AI
+Customers can control where their data is stored and processed (EU or US). Customers can also limit data access to Google-support personnel in a specific region to retain sovereign control over their data.
+Customer Testimonials
+Gemini is in a really unique place in being able to securely access all of our documentation while maintaining the security posture we have built up over a decade of using Workspace. It's not something that we can easily replicate in any other tool.
+Jeremy Gibbons, Digital & IT CTO, Air Liquide
+Gemini is an enterprise-grade application that respects our data and infrastructure security while at the same time allowing us to safely experiment with new gen AI capabilities.
+Katie Peperkorn, AVP, Generative AI, AI Platforms & Virtual Agents, ATB Financials Learn more
+Gemini doesn’t change how we trust Workspace with our data. Gemini doesn’t train the model on our data, and features are enterprise-ready as soon as they are released, so our administrators have confidence they can deploy Gemini in a secure manner.
+Tyler Predale, Director, IT Systems, Flashpoint
+The security benefits of this really cannot be overstated. It’s critical to be purposeful and find solutions from a vendor that meets your needs without compromising your security. Gemini has the same security posture already built in that we have existing with Google Workspace.
+Forest Donovan, Senior Director of Strategic Alliances, Fullstory Learn more
+Learn more about how to keep data secure and compliant in Google Workspace with Gemini
+Blog
+Learn how to deploy secure, enterprise-ready AI with confidence
+Read the blog
+Webinar
+Advanced AI with enterprise-grade security controls
+Watch now
+Blog
+Mitigating prompt injection attacks with a layered defense strategy
+Read the blog
+Blog
+Learn how to deploy secure, enterprise-ready AI with confidence
+Read the blog
+Webinar
+Advanced AI with enterprise-grade security controls
+Watch now
+Blog
+Mitigating prompt injection attacks with a layered defense strategy
+Read the blog
+Frequently asked questions
+Expand all
+While generative AI tools are enabling employees to reach new levels of productivity and creativity, it is critical to select a solution that prioritizes AI safety and security. Organizations also need to be intentional about their policies, including limiting the widespread use of “shadow” AI tools that may increase the risk of data loss.
+By leveraging an integrated generative AI assistant that respects user access controls and provides granular management settings, administrators can help safeguard data and reduce the risk of data loss. Google Workspace with Gemini has a robust set of built-in threat defenses, data protections, and compliance controls , allowing organizations to get the most out of generative AI without making tradeoffs to their security posture.
+With Workspace, files are securely stored and automatically versioned in a single place - Google Drive. This makes it easier for IT teams to protect business data and for Gemini to reference one single version of the document based on applied user permissions. Gemini can only retrieve data that the user has permissions to access, which minimizes additional overhead in terms of managing access and costs for separate tools with access to these data sources.
+Security capabilities, such as AI classification, can help identify, manage, and protect data at scale by leveraging labels and data loss prevention (DLP) rules automatically. With content restrictions, such as Information Rights Management (disable downloading, copying, or printing) and client-side encryption, admins can also help restrict Gemini’s access to sensitive data. Take a closer look at available data security controls here .
+Using the capabilities of Google Cloud Data Boundary as a foundation, Gemini in Workspace apps offers authoritative sovereign controls for customer data. Customers can confine Gemini in Workspace data processing to the US or EU. For digital resilience and survivability, customers can also store an independent copy of their Gemini in Workspace apps data in any country of their choice using local data storage.
+Furthermore, for their most critical data, customers can use client-side encryption, a unique technical control that provides end-to-end encryption and places the keys solely in the control of Workspace customers to help prevent all unauthorized access, even by Google, Gemini, and other generative AI assistants in an authoritative manner.
+Google does not use customers’ Workspace data to train or improve the underlying generative AI and large language models (LLMs) that power Gemini, Search, and other systems outside of Workspace without permission. This has also been previously shared in a blog post on how Google protects Workspace data and maintains these privacy commitments in the era of generative AI.
+Google has taken a layered security approach introducing security measures designed for each stage of the prompt lifecycle. From Gemini 2.5 model hardening, to purpose-built machine learning (ML) models detecting malicious instructions, to system-level safeguards, we are meaningfully elevating the difficulty, expense, and complexity faced by an attacker. This approach compels adversaries to resort to methods that are either more easily identified or demand greater resources.
+Our model training with adversarial data significantly enhanced our defenses against indirect prompt injection attacks in Gemini 2.5 models . This inherent model resilience is augmented with additional defenses that we built directly into Gemini. Learn more about these additional defenses .
+Google Workspace with Gemini is enterprise-ready and comes with granular user access and data security controls, helping admins safely and securely deploy AI tools. Check out our step-by-step AI adoption guidelines and whitepaper for further details, find additional information in the Generative AI in Google Workspace Privacy Hub , and get started with a no-cost trial .
+Start today
+Contact sales Download the whitepaper
+Sign up for productivity, collaboration, and AI updates
+1 2
+Continue
+Afghanistan
+Albania
+American Samoa
+Andorra
+Anguilla
+Antarctica
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bosnia and Herzegovina
+Botswana
+Bouvet Island
+Brazil
+British Indian Ocean Territory
+British Virgin Islands
+Brunei
+Bulgaria
+Burkina Faso
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Cayman Islands
+Central African Republic
+Chad
+Chile
+China
+Christmas Island
+Cocos [Keeling] Islands
+Colombia
+Comoros
+Congo [DRC]
+Congo [Republic]
+Cook Islands
+Costa Rica
+Croatia
+Cyprus
+Czech Republic
+Côte d’Ivoire
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Falkland Islands [Islas Malvinas]
+Faroe Islands
+Fiji
+Finland
+France
+French Guiana
+French Polynesia
+French Southern Territories
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and McDonald Islands
+Honduras
+Hong Kong
+Hungary
+Iceland
+India
+Indonesia
+Iraq
+Ireland
+Israel
+Italy
+Jamaica
+Japan
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macau
+Macedonia [FYROM]
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mayotte
+Mexico
+Micronesia
+Moldova
+Monaco
+Mongolia
+Montserrat
+Morocco
+Mozambique
+Namibia
+Nauru
+Nepal
+Netherlands
+Netherlands Antilles
+New Caledonia
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Niue
+Norfolk Island
+Northern Mariana Islands
+Norway
+Oman
+Pakistan
+Palau
+Palestine
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Pitcairn Islands
+Poland
+Portugal
+Puerto Rico
+Qatar
+Romania
+Russia
+Rwanda
+Réunion
+Saint Helena
+Saint Kitts and Nevis
+Saint Lucia
+Saint Pierre and Miquelon
+Saint Vincent and the Grenadines
+Samoa
+San Marino
+Saudi Arabia
+Senegal
+Seychelles
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Georgia and the South Sandwich Islands
+South Korea
+Spain
+Sri Lanka
+Suriname
+Svalbard and Jan Mayen
+Swaziland
+Sweden
+Switzerland
+São Tomé and Príncipe
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Timor-Leste
+Togo
+Tokelau
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkey
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+U.S. Outlying Islands
+U.S. Virgin Islands
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+Uzbekistan
+Vanuatu
+Vatican City
+Venezuela
+Vietnam
+Wallis and Futuna
+Western Sahara
+Yemen
+Zambia
+Zimbabwe
+1
+2-9
+10-19
+20-49
+50-99
+100-199
+200-349
+350-999
+1000-2999
+3000+
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+أريد تلقّي نشرات إخبارية من Google Cloud وWorkspace
+أريد الاشتراك لتلقي الأخبار والمستجدات حول المنتجات ومعلومات عن الفعاليات والعروض المميزة المقدّمة في Google Cloud من Google.
+أدرك أن بياناتي الشخصية ستتم معالجتها بما يتوافق مع سياسة خصوصية Google.
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+Chci dostávat zpravodaje ze služeb Google Cloud a Workspace
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+Jeg vil gerne modtage nyhedsbreve fra Google Cloud og Workspace
+Tilmeld mig, så jeg modtager nyheder, produktopdateringer, oplysninger om begivenheder og særtilbud fra Google.
+Jeg er indforstået med, at mine personoplysninger behandles i overensstemmelse med Googles privatlivspolitikker .
+Ich möchte Newsletter von Google Cloud und Google Workspace erhalten.
+Ich möchte von Google Neuigkeiten, aktuelle Informationen zu Produkten und Veranstaltungen sowie Angebote zu Google Cloud erhalten.
+Ich bin damit einverstanden, dass meine personenbezogenen Daten gemäß der Datenschutzerklärung von Google verarbeitet werden.
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+Quiero recibir boletines informativos de Google Cloud y Workspace
+Quiero registrarme para que Google me envíe noticias, novedades de productos, información de eventos y ofertas especiales de Google Cloud.
+Acepto que mis datos personales se procesen de acuerdo con la Política de Privacidad de Google.
+Quiero recibir newsletters de Google Cloud y Workspace
+Quiero darme de alta para que Google me envíe noticias, novedades de productos, información de eventos y ofertas especiales de Google Cloud.
+Acepto que mis datos personales se traten de acuerdo con la Política de Privacidad de Google.
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+Haluan saada Google Cloudin ja Workspacen uutiskirjeitä
+Haluan saada Googlelta sähköpostiini Google Cloudiin liittyviä uutisia ja tietoa esimerkiksi tuotepäivityksistä, tapahtumista ja erikoistarjouksista.
+Ymmärrän, että henkilökohtaista dataani käsitellään Googlen tietosuojakäytännön mukaisesti.
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+Je souhaite recevoir les newsletters de Google Cloud et Workspace
+Je souhaite que Google m'envoie les actualités, les mises à jour de produits, les informations sur les événements et les offres spéciales concernant Google Cloud.
+Je comprends que mes données à caractère personnel seront traitées conformément aux Règles de confidentialité de Google.
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+Szeretnék hírleveleket kapni a Google Cloudtól és a Workspace-től
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+Saya ingin menerima newsletter dari Google Cloud dan Workspace
+Daftarkan saya untuk menerima berita, info terbaru produk, informasi acara, dan penawaran spesial tentang Google Cloud dari Google.
+Saya memahami bahwa data pribadi saya akan diproses sesuai Kebijakan Privasi Google.
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+Desidero ricevere newsletter da Google Cloud e Workspace
+Voglio ricevere da Google notizie, aggiornamenti di prodotto, informazioni su eventi e offerte speciali relativi a Google Cloud.
+Ho compreso che i miei dati personali verranno trattati conformemente alle Norme sulla privacy di Google.
+אני רוצה לקבל ניוזלטרים מ-Google Cloud ומ-Workspace
+אני רוצה לקבל מ-Google חדשות, עדכוני מוצר, מידע על אירועים ומבצעים מיוחדים שקשורים ל-Google Cloud.
+ברור לי שהמידע האישי שלי יעובד בהתאם ל מדיניות הפרטיות של Google.
+Google Cloud と Workspace のニュースレターの受信を希望する
+Google から、Google Cloud に関する最新情報、製品のアップデート情報、イベントの情報、および特別なオファーを受け取ることを希望します。
+私は、私の個人情報が Google の プライバシー ポリシー に沿って取り扱われることを理解し、私の名前、メールアドレス、電話番号、会社名、役職等の情報は、その関連会社である Google Japan GK、Google LLC および Google Asia Pacific Pte. Ltd. と共有されることを理解しています。Google LLC が所在する米国カリフォルニア州の個人情報保護規制については個人情報保護委員会（以下「PPC」）のウェブサイト内の こちらのリンク 、米国連邦法については PPC のウェブサイト内の こちらのリンク 、Google Asia Pacific Pte. Ltd. の所在地であるシンガポールの法律に関する PPC の ウェブサイトのリンク です。
+私は、私の個人情報が Google の プライバシー ポリシー に沿って取り扱われることを理解しています。
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+Google Cloud 및 Workspace의 뉴스레터를 수신합니다.
+Google Cloud에 대한 뉴스, 제품 업데이트, 이벤트 정보, 특별 혜택에 대한 이메일을 받아 보겠습니다.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud.
+Google 개인정보처리방침 에 따라 Google Cloud가 아래와 같이 내 개인정보를 수집, 사용 및 보유하는 데 동의합니다.
+I agree that Google Cloud will collect, use and retain my personal data as below in accordance with Google's Privacy Policy . If you do not agree with this, you cannot proceed further with this request.
+This is required
+Google 개인정보처리방침 에 따라 Google Cloud가 아래와 같이 내 개인정보를 수집, 사용 및 보유하는 데 동의합니다. 귀하가 이에 부동의하는 경우, 본 요청을 위한 절차를 더 진행하실 수 없습니다.
+수집되는 항목: (영업 전문가에게 문의, 자료신청 또는 이벤트등록) 이름, 직무, 이메일, 회사 전화번호, 회사 정보, 국가; (뉴스레터 구독 시) 이름, 직무, 회사 이메일, 국가
+수집 및 이용 목적 : 문의 처리 및 마케팅 커뮤니케이션 수행
+보유 및 이용 기간 : 문의 처리 및 마케팅 커뮤니케이션 종료 시까지 또는 법적 의무 또는 제한된 사업 목적상 필요한 경우 (자세한 내용은 위 개인정보처리방침 참조)
+I agree that Google Cloud will collect, use and retain my personal data as below in accordance with Google's Privacy Policy . If you do not agree with this, you cannot proceed further with this request.
+Collected Items: (for contact to our sales specialist, gated content or event registration) name, job title, company email, business mobile phone, company information, country; (for newsletter subscription) name, job title, company email, country
+Purpose of collection and use: handling inquiry and conducting marketing communications.
+Retention and use period: until the end of the inquiry process and marketing communications, or as necessary for legal obligations or limited business purposes (see above privacy policy for more details).
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+Ik wil graag nieuwsbrieven van Google Cloud en Workspace ontvangen
+Ik wil dat Google me nieuws, productupdates, informatie over evenementen en speciale aanbiedingen voor Google Cloud stuurt.
+Ik begrijp dat mijn persoonsgegevens worden verwerkt in overeenstemming met het Privacybeleid van Google.
+Jeg ønsker å motta nyhetsbrev fra Google Cloud og Workspace
+Registrer meg for å motta nyheter, produktoppdateringer, arrangementsinformasjon og spesialtilbud om Google Cloud fra Google.
+Jeg forstår at mine personopplysninger vil bli behandlet i henhold til Googles personvernregler .
+Chcę otrzymywać newslettery od Google Cloud i Workspace
+Chcę się zarejestrować, aby otrzymywać od Google aktualności, nowości produktowe, informacje o wydarzeniach i oferty specjalne związane z Google Cloud.
+Rozumiem, że moje dane osobowe będą przetwarzanie zgodnie z polityką prywatności Google .
+Quero receber newsletters do Google Cloud e do Workspace
+Quero receber notícias, atualizações de produtos, informações sobre eventos e ofertas especiais relacionadas ao Google Cloud.
+Entendo que meus dados pessoais serão processados de acordo com a Política de Privacidade do Google.
+Quero receber newsletters do Google Cloud e Workspace
+Inscreva-se para receber notícias, atualizações de produtos, informação de eventos e ofertas especiais acerca do Google Cloud da Google.
+Compreendo que os meus dados pessoais serão processados de acordo com a Política de Privacidade da Google.
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+Я хочу получать рассылку о Google Cloud и Workspace
+Я хочу получать новости, обновления продуктов, информацию о событиях и специальные предложения от Google Cloud.
+Я понимаю, что мои персональные данные будут обрабатываться в соответствии с Политикой конфиденциальности Google.
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+Jag vill få nyhetsbrev från Google Cloud och Workspace
+Jag vill ha nyheter, produktuppdateringar, eventinformation och specialerbjudanden från Google om Google Cloud.
+Jag är medveten om att mina personuppgifter behandlas enligt Googles integritetspolicy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+ฉันต้องการรับจดหมายข่าวจาก Google Cloud และ Workspace
+ลงชื่อสมัครใช้เพื่อรับข่าวสาร ข้อมูลอัปเดตของผลิตภัณฑ์ ข้อมูลกิจกรรม และข้อเสนอพิเศษเกี่ยวกับ Google Cloud จาก Google
+ฉันเข้าใจว่าข้อมูลส่วนตัวของฉันจะได้รับการประมวลผลตาม นโยบายความเป็นส่วนตัว ของ Google
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+Google Cloud ve Workspace bültenlerini almak istiyorum
+Google'dan Google Cloud ile ilgili haberler, ürün güncellemeleri, etkinlik bilgileri ve özel teklifler almak için kaydolmak istiyorum.
+Kişisel verilerimin Google'ın Gizlilik Politikası 'na uygun olarak işleneceğini anlıyorum.
+Я хочу отримувати інформаційні листи від Google Cloud і Workspace
+Я хочу підписатися на розсилку, щоб отримувати від Google новини, оновлення продуктів, інформацію про заходи й спеціальні пропозиції щодо Google Cloud.
+Я розумію, що мої персональні дані оброблятимуться відповідно до Політики конфіденційності Google.
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+Tôi muốn nhận bản tin của Google Cloud và Workspace
+Tôi muốn đăng ký nhận tin tức, tin cập nhật về sản phẩm, thông tin sự kiện và các ưu đãi đặc biệt về Google Cloud từ Google.
+Tôi hiểu rằng dữ liệu cá nhân của tôi sẽ được xử lý theo Chính sách quyền riêng tư của Google.
+我希望收到 Google Cloud 和 Workspace 的最新简报
+我愿意接收 Google 关于 Google Cloud 的新闻、产品更新、活动信息以及特别优惠。
+我理解，我的个人数据将根据 Google 隐私政策 进行处理。
+我想接收 Google Cloud 和 Workspace 的通訊
+我願意收到來自 Google 有關 Google Cloud 的最新消息、產品更新、銷售資訊、活動訊息以及優惠資訊。
+我了解我的個人資料將根據 Google 私隱權政策 進行處理。
+我想收到 Google Cloud 和 Workspace 電子報
+我想收到 Google 發送的 Google Cloud 相關新聞、產品最新動態、活動資訊與特價優惠。
+我瞭解 Google 會依據其《 隱私權政策 》處理我的個人資料。
+Back Sign Up
+Follow our Blog
+Included applications
+Gmail
+Gmail AI
+Meet
+Chat
+Calendar
+Drive
+Docs
+Sheets
+Slides
+Vids
+Pics
+Forms
+Sites
+Keep
+Tasks
+Studio
+Gemini
+Gemini Notebook
+Apps Script
+Security and management
+Admin
+Endpoint
+Vault
+Work Insights
+Solutions
+New Business
+Small Business
+Enterprise
+Retail
+Manufacturing
+Professional Services
+Technology
+Healthcare
+Financial Services
+Government
+Education
+Nonprofits
+Artificial Intelligence
+Pricing
+Compare pricing plans
+Add-ons
+Meet hardware
+Google Voice
+AppSheet
+Workspace Migration
+Migration Overview
+Business Migration
+Enterprise Migration
+Gmail Migration
+Drive Migration
+Google Chat Migration
+Resources
+AI learnings for work
+Security
+Customer Stories
+FAQs
+Partners
+Marketplace
+Integrations
+Training & Certification
+Refer Google Workspace
+AI Project Management
+AI for Meetings
+Learning and support
+Admin Help
+Setup and Deployment Center
+Learning Center for Users
+Forums for Admins
+Google Workspace Dashboard
+What's New in Google Workspace
+Find a Google Workspace Partner
+Join the community of IT Admins
+Press
+More from Google
+Google Cloud
+Google Domains
+Chrome Enterprise
+Google Business Solutions
+Google Ads
+Business Messages
+Included applications
+Gmail
+Gmail AI
+Meet
+Chat
+Calendar
+Drive
+Docs
+Sheets
+Slides
+Vids
+Pics
+Forms
+Sites
+Keep
+Tasks
+Studio
+Gemini
+Gemini Notebook
+Apps Script
+Security and management
+Admin
+Endpoint
+Vault
+Work Insights
+Solutions
+New Business
+Small Business
+Enterprise
+Retail
+Manufacturing
+Professional Services
+Technology
+Healthcare
+Financial Services
+Government
+Education
+Nonprofits
+Artificial Intelligence
+Pricing
+Compare pricing plans
+Add-ons
+Meet hardware
+Google Voice
+AppSheet
+Workspace Migration
+Migration Overview
+Business Migration
+Enterprise Migration
+Gmail Migration
+Drive Migration
+Google Chat Migration
+Resources
+AI learnings for work
+Security
+Customer Stories
+FAQs
+Partners
+Marketplace
+Integrations
+Training & Certification
+Refer Google Workspace
+AI Project Management
+AI for Meetings
+Learning and support
+Admin Help
+Setup and Deployment Center
+Learning Center for Users
+Forums for Admins
+Google Workspace Dashboard
+What's New in Google Workspace
+Find a Google Workspace Partner
+Join the community of IT Admins
+Press
+More from Google
+Google Cloud
+Google Domains
+Chrome Enterprise
+Google Business Solutions
+Google Ads
+Business Messages
+Privacy
+Terms
+About Google
+Google Products
+Help
+Manage cookies
+Help
+English
+Bahasa Indonesia Čeština Dansk Deutsch Deutsch – Schweiz English English – Australia English – Canada English – India English – Indonesia English – Ireland English – Malaysia English – New Zealand English – Philippines English – Singapore English – South Africa English – United Kingdom Español Español (Latinoamérica) Español (Latinoamérica) – Argentina Español (Latinoamérica) – Estados Unidos Español (Latinoamérica) – México Français Français – Canada Français – Suisse Italiano Magyar Nederlands Norsk Polski Português (Brasil) Português (Portugal) Suomi Svenska Tiếng Việt Türkçe Русский Українська עברית العربية العربية – مصر ไทย 한국어 中文 (香港) 中文（简体中文） 中文（繁體中文） 日本語

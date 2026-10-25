@@ -1,0 +1,388 @@
+{
+  "id": "openai-api",
+  "name": "OpenAI API (API Platform für Entwickler und Unternehmen)",
+  "kategorie": "modell-anbieter",
+  "kurzbeschreibung": "Entwickler-Schnittstelle von OpenAI für die eigenen GPT-Modelle (Responses, Chat Completions, Batch, Embeddings u. a.); Datenaufbewahrung je Endpunkt verschieden, Europa-Region nur auf Antrag.",
+  "stammdaten": {
+    "sitz": "San Francisco, USA (OpenAI OpCo, LLC); Vertragspartei des DPA für Kunden im EWR und in der Schweiz: OpenAI Ireland Ltd., Dublin",
+    "land": "US",
+    "mutterkonzern": null,
+    "us_eigner": true,
+    "gegruendet": 2015,
+    "website": "https://openai.com/api/",
+    "dpf": {
+      "status": "belegt",
+      "wert": false,
+      "quelle": "https://www.dataprivacyframework.gov/list",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Suche in der amtlichen DPF-Liste mit den Suchwörtern OpenAI, Open AI, OpCo und OpenAI OpCo am 22.10.2026: 0 Treffer, weder aktiv noch inaktiv (gleiche Prüfung wie beim Profil ChatGPT Enterprise). Der Beschluss vom 10.07.2023 deckt Übermittlungen an OpenAI damit nicht. OpenAI nennt selbst Standardvertragsklauseln: DPA 4.1 „on the basis of agreements containing SCCs that ensure appropriate safeguards for the protection of Customer Data are in place“ (alternativ ein Angemessenheitsbeschluss, den es für OpenAI mangels DPF-Teilnahme nicht gibt) und Unterauftragnehmer-Seite „We use the Standard Contractual Clauses as a valid transfer mechanism among affiliates.“ Kopie der Suchantworten + SHA-256 in belege/rechtsraum/dpf-2026-10-22/. Am 25.10.2026 über die Schnittstelle der Liste von Hand neu abgefragt (Liste geändert am 25.10.): Angaben unverändert, Kopie + SHA-256 in belege/rechtsraum/dpf-2026-10-25/ (die Seite selbst lädt ihren Text erst im Browser, der automatische Quellenlauf sieht nur die Hülle)."
+    }
+  },
+  "modelle": [
+    {
+      "name": "gpt-6-astra",
+      "standort": "Ohne Data Residency nicht zugesagt (weltweite Rechenzentren laut Unterauftragnehmerliste); mit Data Residency (nur nach Freigabe, MAM oder ZDR nötig) Speicherung und Verarbeitung in Europa (EWR + Schweiz) über eu.api.openai.com; Systemdaten weiter außerhalb möglich",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://developers.openai.com/api/docs/pricing",
+      "geprueft": "2026-10-25",
+      "status": "belegt",
+      "anmerkung": "Preisseite (direkt abgerufen 22.10.2026, Standard, „Prices per 1M tokens.“): „| gpt-6-astra | $10.00 | $50.00 | $1.00 |“ = Input/Output je 1 Mio. Token 10,00 / 50,00 USD bei kurzem Kontext („Short context: ≤272K input tokens. Long context: >272K input tokens.“). Kein EUR-Preis veröffentlicht, deshalb preis_input_1m_eur und preis_output_1m_eur null. Laut Leitfaden für Chat Completions und Batches in Europa (Speicherung und Verarbeitung) zugelassen. Data-Residency-Abschnitt im Leitfaden „Data controls in the OpenAI platform“ (direkt abgerufen 22.10.2026; dazu Wayback-Kopie 20261022055502): „Data residency controls are a project configuration option that allow you to configure the location of infrastructure OpenAI uses to provide services.“ Nicht für jeden: „Contact our sales team to see if you’re eligible for using data residency controls.“ und „To use data residency with any region other than the United States, you must be approved for abuse monitoring controls, and execute a Modified Retention amendment.“ Region Europa: „Europe (EEA + Switzerland) eu.api.openai.com Text, Audio, Voice, Image * Storage Yes Processing Yes Requires MAM or ZDR **“. Ausgenommen: „Data residency does not apply to system data, which may be processed and stored outside the selected region.“ Für die API steht dort kein Satz wie im ChatGPT-Hilfeartikel (dort: Nicht-GPU-Verarbeitung weiter weltweit möglich); ob Nicht-GPU-Verarbeitung bei EU-Projekten außerhalb Europas läuft, ist für die API ungeklärt. Einschränkungen in Europa: Chat Completions „Cannot set store=true in non-US regions.“; Fast mode „is not available with EU data residency for GPT-6 Astra.“ Aufpreis laut Preisseite: „Regional processing (data residency) endpoints are charged a 10% uplift for models released on or after March 5, 2026.“ Ohne Data Residency nennt OpenAI keinen Ort; die Unterauftragnehmerliste führt für die API Rechenzentren u. a. in den USA, Europa und Asien. Preise nur in USD, daher Preisfelder null (keine Umrechnung).",
+      "backup_standort": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "Für die API nennt OpenAI keinen Ort für Sicherungen. Der Leitfaden sagt nur, dass Kundeninhalte bei Data Residency „will be stored at rest in the selected region to the extent the endpoint requires data persistence to function“. Die Zusage, Backups und Replikate in der Region zu halten, steht nur im ChatGPT-Hilfeartikel, nicht für die API. Security Measures (Wayback-Kopie 10.10.2026) allgemein: „Ensuring that systems may be restored in the event of an interruption;“. Nachprüfung 25.10.2026: Leitfaden „your data“ direkt abgerufen, der Satz „will be stored at rest in the selected region to the extent the endpoint requires data persistence to function“ steht wörtlich da, weiter kein Wort zu Backups oder Replikaten für die API (Kopie belege/anbieter/openai-api/your-data-2026-10-25.txt). Die Security Measures nicht neu gelesen (Archiv nahm am 25.10. keine Verbindung an)."
+      },
+      "vorgeschaltete_filter": {
+        "wert": true,
+        "status": "belegt",
+        "quelle": "https://developers.openai.com/api/docs/guides/safety-checks",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Safety-Classifier-Seite (direkt abgerufen 22.10.2026): „We classify requests to GPT-5 into risk thresholds.“ und „If your org hits high thresholds repeatedly, OpenAI returns an error and sends a warning email.“ Leitfaden „your data“: Missbrauchsprotokolle enthalten „metadata derived from that customer content, such as classifier outputs“; Bilder und Dateien: „Image and file inputs are scanned for CSAM content upon submission.“ – bei Treffer Aufbewahrung zur manuellen Prüfung auch mit ZDR. Enterprise-Privacy-Seite (gilt laut Seite auch für die API Platform): „We may run any business data submitted to OpenAI’s services through automated content classifiers and safety tools, including to better understand how our services are used.“ Welche Klassifikatoren vor dem Modell laufen und welche danach, legt OpenAI nicht im Einzelnen offen. Der Moderation-Endpunkt (/v1/moderations) ist dagegen ein Werkzeug für den Kunden, kein Filter von OpenAI: „The moderation endpoint is free to use“."
+      }
+    },
+    {
+      "name": "gpt-6.1-sol",
+      "standort": "Ohne Data Residency nicht zugesagt (weltweite Rechenzentren laut Unterauftragnehmerliste); mit Data Residency (nur nach Freigabe, MAM oder ZDR nötig) Speicherung und Verarbeitung in Europa (EWR + Schweiz) über eu.api.openai.com; Systemdaten weiter außerhalb möglich",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://developers.openai.com/api/docs/pricing",
+      "geprueft": "2026-10-25",
+      "status": "belegt",
+      "anmerkung": "Preisseite (direkt abgerufen 22.10.2026, Standard, „Prices per 1M tokens.“): „| gpt-6.1-sol | $2.00 | $10.00 | $0.10 |“ = Input/Output je 1 Mio. Token 2,00 / 10,00 USD bei kurzem Kontext („Short context: ≤272K input tokens. Long context: >272K input tokens.“). Kein EUR-Preis veröffentlicht, deshalb preis_input_1m_eur und preis_output_1m_eur null. Laut Leitfaden für Chat Completions und Batches in Europa (Speicherung und Verarbeitung) zugelassen. Data-Residency-Abschnitt im Leitfaden „Data controls in the OpenAI platform“ (direkt abgerufen 22.10.2026; dazu Wayback-Kopie 20261022055502): „Data residency controls are a project configuration option that allow you to configure the location of infrastructure OpenAI uses to provide services.“ Nicht für jeden: „Contact our sales team to see if you’re eligible for using data residency controls.“ und „To use data residency with any region other than the United States, you must be approved for abuse monitoring controls, and execute a Modified Retention amendment.“ Region Europa: „Europe (EEA + Switzerland) eu.api.openai.com Text, Audio, Voice, Image * Storage Yes Processing Yes Requires MAM or ZDR **“. Ausgenommen: „Data residency does not apply to system data, which may be processed and stored outside the selected region.“ Für die API steht dort kein Satz wie im ChatGPT-Hilfeartikel (dort: Nicht-GPU-Verarbeitung weiter weltweit möglich); ob Nicht-GPU-Verarbeitung bei EU-Projekten außerhalb Europas läuft, ist für die API ungeklärt. Einschränkungen in Europa: Chat Completions „Cannot set store=true in non-US regions.“; Fast mode „is not available with EU data residency for GPT-6 Astra.“ Aufpreis laut Preisseite: „Regional processing (data residency) endpoints are charged a 10% uplift for models released on or after March 5, 2026.“ Ohne Data Residency nennt OpenAI keinen Ort; die Unterauftragnehmerliste führt für die API Rechenzentren u. a. in den USA, Europa und Asien. Preise nur in USD, daher Preisfelder null (keine Umrechnung).",
+      "backup_standort": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "Für die API nennt OpenAI keinen Ort für Sicherungen. Der Leitfaden sagt nur, dass Kundeninhalte bei Data Residency „will be stored at rest in the selected region to the extent the endpoint requires data persistence to function“. Die Zusage, Backups und Replikate in der Region zu halten, steht nur im ChatGPT-Hilfeartikel, nicht für die API. Security Measures (Wayback-Kopie 10.10.2026) allgemein: „Ensuring that systems may be restored in the event of an interruption;“. Nachprüfung 25.10.2026: Leitfaden „your data“ direkt abgerufen, der Satz „will be stored at rest in the selected region to the extent the endpoint requires data persistence to function“ steht wörtlich da, weiter kein Wort zu Backups oder Replikaten für die API (Kopie belege/anbieter/openai-api/your-data-2026-10-25.txt). Die Security Measures nicht neu gelesen (Archiv nahm am 25.10. keine Verbindung an)."
+      },
+      "vorgeschaltete_filter": {
+        "wert": true,
+        "status": "belegt",
+        "quelle": "https://developers.openai.com/api/docs/guides/safety-checks",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Safety-Classifier-Seite (direkt abgerufen 22.10.2026): „We classify requests to GPT-5 into risk thresholds.“ und „If your org hits high thresholds repeatedly, OpenAI returns an error and sends a warning email.“ Leitfaden „your data“: Missbrauchsprotokolle enthalten „metadata derived from that customer content, such as classifier outputs“; Bilder und Dateien: „Image and file inputs are scanned for CSAM content upon submission.“ – bei Treffer Aufbewahrung zur manuellen Prüfung auch mit ZDR. Enterprise-Privacy-Seite (gilt laut Seite auch für die API Platform): „We may run any business data submitted to OpenAI’s services through automated content classifiers and safety tools, including to better understand how our services are used.“ Welche Klassifikatoren vor dem Modell laufen und welche danach, legt OpenAI nicht im Einzelnen offen. Der Moderation-Endpunkt (/v1/moderations) ist dagegen ein Werkzeug für den Kunden, kein Filter von OpenAI: „The moderation endpoint is free to use“."
+      }
+    },
+    {
+      "name": "gpt-6-luna",
+      "standort": "Ohne Data Residency nicht zugesagt (weltweite Rechenzentren laut Unterauftragnehmerliste); mit Data Residency (nur nach Freigabe, MAM oder ZDR nötig) Speicherung und Verarbeitung in Europa (EWR + Schweiz) über eu.api.openai.com; Systemdaten weiter außerhalb möglich",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://developers.openai.com/api/docs/pricing",
+      "geprueft": "2026-10-25",
+      "status": "belegt",
+      "anmerkung": "Preisseite (direkt abgerufen 22.10.2026, Standard, „Prices per 1M tokens.“): „| gpt-6-luna | $0.10 | $0.50 | $0.01 |“ = Input/Output je 1 Mio. Token 0,10 / 0,50 USD bei kurzem Kontext („Short context: ≤272K input tokens. Long context: >272K input tokens.“). Kein EUR-Preis veröffentlicht, deshalb preis_input_1m_eur und preis_output_1m_eur null. Laut Leitfaden für Chat Completions und Batches in Europa (Speicherung und Verarbeitung) zugelassen. Data-Residency-Abschnitt im Leitfaden „Data controls in the OpenAI platform“ (direkt abgerufen 22.10.2026; dazu Wayback-Kopie 20261022055502): „Data residency controls are a project configuration option that allow you to configure the location of infrastructure OpenAI uses to provide services.“ Nicht für jeden: „Contact our sales team to see if you’re eligible for using data residency controls.“ und „To use data residency with any region other than the United States, you must be approved for abuse monitoring controls, and execute a Modified Retention amendment.“ Region Europa: „Europe (EEA + Switzerland) eu.api.openai.com Text, Audio, Voice, Image * Storage Yes Processing Yes Requires MAM or ZDR **“. Ausgenommen: „Data residency does not apply to system data, which may be processed and stored outside the selected region.“ Für die API steht dort kein Satz wie im ChatGPT-Hilfeartikel (dort: Nicht-GPU-Verarbeitung weiter weltweit möglich); ob Nicht-GPU-Verarbeitung bei EU-Projekten außerhalb Europas läuft, ist für die API ungeklärt. Einschränkungen in Europa: Chat Completions „Cannot set store=true in non-US regions.“; Fast mode „is not available with EU data residency for GPT-6 Astra.“ Aufpreis laut Preisseite: „Regional processing (data residency) endpoints are charged a 10% uplift for models released on or after March 5, 2026.“ Ohne Data Residency nennt OpenAI keinen Ort; die Unterauftragnehmerliste führt für die API Rechenzentren u. a. in den USA, Europa und Asien. Preise nur in USD, daher Preisfelder null (keine Umrechnung).",
+      "backup_standort": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "Für die API nennt OpenAI keinen Ort für Sicherungen. Der Leitfaden sagt nur, dass Kundeninhalte bei Data Residency „will be stored at rest in the selected region to the extent the endpoint requires data persistence to function“. Die Zusage, Backups und Replikate in der Region zu halten, steht nur im ChatGPT-Hilfeartikel, nicht für die API. Security Measures (Wayback-Kopie 10.10.2026) allgemein: „Ensuring that systems may be restored in the event of an interruption;“. Nachprüfung 25.10.2026: Leitfaden „your data“ direkt abgerufen, der Satz „will be stored at rest in the selected region to the extent the endpoint requires data persistence to function“ steht wörtlich da, weiter kein Wort zu Backups oder Replikaten für die API (Kopie belege/anbieter/openai-api/your-data-2026-10-25.txt). Die Security Measures nicht neu gelesen (Archiv nahm am 25.10. keine Verbindung an)."
+      },
+      "vorgeschaltete_filter": {
+        "wert": true,
+        "status": "belegt",
+        "quelle": "https://developers.openai.com/api/docs/guides/safety-checks",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Safety-Classifier-Seite (direkt abgerufen 22.10.2026): „We classify requests to GPT-5 into risk thresholds.“ und „If your org hits high thresholds repeatedly, OpenAI returns an error and sends a warning email.“ Leitfaden „your data“: Missbrauchsprotokolle enthalten „metadata derived from that customer content, such as classifier outputs“; Bilder und Dateien: „Image and file inputs are scanned for CSAM content upon submission.“ – bei Treffer Aufbewahrung zur manuellen Prüfung auch mit ZDR. Enterprise-Privacy-Seite (gilt laut Seite auch für die API Platform): „We may run any business data submitted to OpenAI’s services through automated content classifiers and safety tools, including to better understand how our services are used.“ Welche Klassifikatoren vor dem Modell laufen und welche danach, legt OpenAI nicht im Einzelnen offen. Der Moderation-Endpunkt (/v1/moderations) ist dagegen ein Werkzeug für den Kunden, kein Filter von OpenAI: „The moderation endpoint is free to use“."
+      }
+    },
+    {
+      "name": "gpt-5.5",
+      "standort": "Ohne Data Residency nicht zugesagt (weltweite Rechenzentren laut Unterauftragnehmerliste); mit Data Residency (nur nach Freigabe, MAM oder ZDR nötig) Speicherung und Verarbeitung in Europa (EWR + Schweiz) über eu.api.openai.com; Systemdaten weiter außerhalb möglich",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://developers.openai.com/api/docs/pricing",
+      "geprueft": "2026-10-25",
+      "status": "belegt",
+      "anmerkung": "Preisseite (direkt abgerufen 22.10.2026, Standard, „Prices per 1M tokens.“): „| gpt-5.5 (<272K context length) | $5.00 | $30.00 | $0.50 |“ = Input/Output je 1 Mio. Token 5,00 / 30,00 USD bei kurzem Kontext („Short context: ≤272K input tokens. Long context: >272K input tokens.“). Kein EUR-Preis veröffentlicht, deshalb preis_input_1m_eur und preis_output_1m_eur null. Laut Leitfaden für Chat Completions und Batches in Europa (Speicherung und Verarbeitung) zugelassen. Data-Residency-Abschnitt im Leitfaden „Data controls in the OpenAI platform“ (direkt abgerufen 22.10.2026; dazu Wayback-Kopie 20261022055502): „Data residency controls are a project configuration option that allow you to configure the location of infrastructure OpenAI uses to provide services.“ Nicht für jeden: „Contact our sales team to see if you’re eligible for using data residency controls.“ und „To use data residency with any region other than the United States, you must be approved for abuse monitoring controls, and execute a Modified Retention amendment.“ Region Europa: „Europe (EEA + Switzerland) eu.api.openai.com Text, Audio, Voice, Image * Storage Yes Processing Yes Requires MAM or ZDR **“. Ausgenommen: „Data residency does not apply to system data, which may be processed and stored outside the selected region.“ Für die API steht dort kein Satz wie im ChatGPT-Hilfeartikel (dort: Nicht-GPU-Verarbeitung weiter weltweit möglich); ob Nicht-GPU-Verarbeitung bei EU-Projekten außerhalb Europas läuft, ist für die API ungeklärt. Einschränkungen in Europa: Chat Completions „Cannot set store=true in non-US regions.“; Fast mode „is not available with EU data residency for GPT-6 Astra.“ Aufpreis laut Preisseite: „Regional processing (data residency) endpoints are charged a 10% uplift for models released on or after March 5, 2026.“ Ohne Data Residency nennt OpenAI keinen Ort; die Unterauftragnehmerliste führt für die API Rechenzentren u. a. in den USA, Europa und Asien. Preise nur in USD, daher Preisfelder null (keine Umrechnung).",
+      "backup_standort": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "Für die API nennt OpenAI keinen Ort für Sicherungen. Der Leitfaden sagt nur, dass Kundeninhalte bei Data Residency „will be stored at rest in the selected region to the extent the endpoint requires data persistence to function“. Die Zusage, Backups und Replikate in der Region zu halten, steht nur im ChatGPT-Hilfeartikel, nicht für die API. Security Measures (Wayback-Kopie 10.10.2026) allgemein: „Ensuring that systems may be restored in the event of an interruption;“. Nachprüfung 25.10.2026: Leitfaden „your data“ direkt abgerufen, der Satz „will be stored at rest in the selected region to the extent the endpoint requires data persistence to function“ steht wörtlich da, weiter kein Wort zu Backups oder Replikaten für die API (Kopie belege/anbieter/openai-api/your-data-2026-10-25.txt). Die Security Measures nicht neu gelesen (Archiv nahm am 25.10. keine Verbindung an)."
+      },
+      "vorgeschaltete_filter": {
+        "wert": true,
+        "status": "belegt",
+        "quelle": "https://developers.openai.com/api/docs/guides/safety-checks",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Safety-Classifier-Seite (direkt abgerufen 22.10.2026): „We classify requests to GPT-5 into risk thresholds.“ und „If your org hits high thresholds repeatedly, OpenAI returns an error and sends a warning email.“ Leitfaden „your data“: Missbrauchsprotokolle enthalten „metadata derived from that customer content, such as classifier outputs“; Bilder und Dateien: „Image and file inputs are scanned for CSAM content upon submission.“ – bei Treffer Aufbewahrung zur manuellen Prüfung auch mit ZDR. Enterprise-Privacy-Seite (gilt laut Seite auch für die API Platform): „We may run any business data submitted to OpenAI’s services through automated content classifiers and safety tools, including to better understand how our services are used.“ Welche Klassifikatoren vor dem Modell laufen und welche danach, legt OpenAI nicht im Einzelnen offen. Der Moderation-Endpunkt (/v1/moderations) ist dagegen ein Werkzeug für den Kunden, kein Filter von OpenAI: „The moderation endpoint is free to use“."
+      }
+    }
+  ],
+  "vertrag": {
+    "avv": {
+      "wert": "https://web.archive.org/web/20261020000721/https://openai.com/policies/data-processing-addendum/",
+      "status": "belegt",
+      "quelle": "https://web.archive.org/web/20261020000721/https://openai.com/policies/data-processing-addendum/",
+      "geprueft": "2026-10-25",
+      "anmerkung": "„OpenAI Data Processing Addendum“, „Effective: January 1, 2026“ (Wayback-Kopie 20.10.2026; direkt HTTP 403). DPA 1.1: „OpenAI acts as a Data Processor on the Customer’s behalf, and this DPA governs such Processing.“ Vertragspartner für EWR/Schweiz: „in which case it is entered into with OpenAI Ireland Ltd.“ Gilt auch für die API, Enterprise-Privacy-Seite: „Yes, we are able to execute a Data Processing Addendum (DPA) with customers for their use of ChatGPT Business, ChatGPT Enterprise, and the API“. Abschluss über ein Formular."
+    },
+    "subprozessoren": {
+      "wert": "https://web.archive.org/web/20260708120959/https://openai.com/policies/sub-processor-list/",
+      "status": "belegt",
+      "quelle": "https://web.archive.org/web/20260708120959/https://openai.com/policies/sub-processor-list/",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Liste „Last updated: June 2, 2026“, letzte lesbare Archivkopie 08.07.2026 (spätere Kopien nur 403-Seite; ob sich die Liste seitdem geändert hat, ist ungeklärt). Für die API genannt u. a. Microsoft, CoreWeave, Oracle, Google Cloud, AWS, Cerebras (Cloud-Infrastruktur), Cloudflare, Snowflake, Confluent, Cinder, TaskUs, Accenture; nur für die Assistants API: „Fivetran, Inc. Assistants API United States ETL provider“. Moderation durch Dritte: TaskUs und Accenture mit „API & ChatGPT Business: Moderation of content“; dazu „For content that OpenAI’s models flag as being in violation of OpenAI’s policies, OpenAI may share samples of the flagged Customer Content with relevant Sub-processors to assist OpenAI in its review and enforcement.“ Bei Snowflake, Confluent und Cinder steht „API*“ mit „* Except where Zero Data Retention (ZDR) is used“. DPA 2.9: Mitteilung „via blog post, notification within the Services or other reasonable means“, Widerspruch „within 30 days of receiving notice of the change“."
+    },
+    "tom": {
+      "wert": "https://openai.com/security-and-privacy/",
+      "status": "belegt",
+      "quelle": "https://openai.com/security-and-privacy/",
+      "geprueft": "2026-10-23",
+      "anmerkung": "Die Seite beschreibt Maßnahmen nur zusammengefasst, z. B. „Deine Inhalte werden im Ruhezustand und während der Übertragung … verschlüsselt“, dazu Zugriffskontrollen, Change Management, SOC 2 Type 2 und ISO 27001. Das DPA selbst hat keine eigene TOM-Anlage: Abschnitt 2.5 verweist nur auf Maßnahmen „wie in der Vereinbarung festgelegt“. Mehr Details gibt es laut Seite im Sicherheitsportal."
+    },
+    "subprozessoren_anzahl": {
+      "wert": 19,
+      "status": "belegt",
+      "quelle": "https://openai.com/policies/sub-processor-list/",
+      "geprueft": "2026-10-23",
+      "anmerkung": "Die Live-Seite ist aktueller als der Archiv-Stand der Gruppendatei (letzte Aktualisierung 14.10.2026). Gezählt sind nur Zeilen mit dem Produkt „API“: 14 Drittanbieter-Zeilen und 5 „OpenAI entities“ (konzernintern). Die ganze Liste hat 17 Drittanbieter-Zeilen (Cloudflare zweimal) und 5 Konzerngesellschaften; WorkOS, Merge API und die zweite Cloudflare-Zeile gelten nicht für die API. Am 25.10.2026 an der Archivkopie vom 21.10.2026 nachgezählt (web.archive.org/web/20261021154629/https://openai.com/policies/sub-processor-list/); vorher stand hier versehentlich 18."
+    },
+    "drittlaender": {
+      "wert": [
+        "Australien",
+        "Brasilien",
+        "Indien",
+        "Indonesien",
+        "Japan",
+        "Kanada",
+        "Malaysia",
+        "Mexiko",
+        "Neuseeland",
+        "Philippinen",
+        "Schweiz",
+        "Singapur",
+        "Südafrika",
+        "Südkorea",
+        "USA",
+        "Vereinigte Arabische Emirate",
+        "Vereinigtes Königreich"
+      ],
+      "status": "belegt",
+      "quelle": "https://openai.com/policies/sub-processor-list/",
+      "geprueft": "2026-10-23",
+      "anmerkung": "Die Länder stammen aus der Spalte „Location of Processing“ der API-Zeilen, z. B. TaskUs „Philippines“ und Microsoft Corporation mit 27 Ländern („… Switzerland, United Arab Emirates, United Kingdom, United States“). Bei Cloudflare steht kein fester Ort („data center that is closest to the End User“). Die Liste kann deshalb unvollständig sein."
+    },
+    "training_opt_out": {
+      "wert": true,
+      "status": "belegt",
+      "quelle": "https://developers.openai.com/api/docs/guides/your-data",
+      "geprueft": "2026-10-23",
+      "anmerkung": "Leitfaden „your data“: „As of March 1, 2023, data sent to the OpenAI API is not used to train or improve OpenAI models (unless you explicitly opt in to share data with us).“ In der Endpunkt-Tabelle steht bei „Data used for training“ für alle Endpunkte „No“. Services Agreement 4.2: „OpenAI will not use Customer Content to develop or improve the Services, unless Customer explicitly agrees to such use.“"
+    },
+    "zero_data_retention": {
+      "wert": true,
+      "status": "belegt",
+      "quelle": "https://developers.openai.com/api/docs/guides/your-data",
+      "geprueft": "2026-10-23",
+      "anmerkung": "Nur auf Antrag, nicht Standard: „Currently, these controls are subject to prior approval by OpenAI and acceptance of additional requirements.“ Wirkung: „Zero Data Retention excludes customer content from abuse monitoring logs in the same way as Modified Abuse Monitoring.“ und der store-Parameter von Responses und Chat Completions wird als false behandelt. Nicht ZDR-fähig laut Tabelle u. a. /v1/conversations, /v1/assistants, /v1/threads, /v1/vector_stores, /v1/files, /v1/batches, /v1/fine_tuning/jobs, /v1/evals, /v1/agents: „Zero Data Retention ineligible endpoints or capabilities may retain application state when used, even if you have Zero Data Retention enabled.“ Ausnahme Bilder/Dateien: „If the classifier detects potential CSAM content, the image will be retained for manual review, even if Zero Data Retention, Modified Abuse Monitoring“ (oder weitere Schutzstufen) aktiv sind. OpenAI kann ZDR je Modell entziehen: „we reserve the right to make models ineligible for Zero Data Retention or Modified Abuse Monitoring for specific customers“ (mit schriftlicher Vorankündigung). Modified Abuse Monitoring (MAM) nimmt Inhalte aus den Missbrauchsprotokollen, lässt aber gespeicherte Anwendungsdaten zu: „Modified Abuse Monitoring excludes customer content (other than image and file inputs in rare cases, as described below ) from abuse monitoring logs across all API endpoints“. Speicherung ohne ZDR: „the Responses API has a 30 day Application State retention period by default, or when the store parameter is set to true .“ Assistants/Threads/Vector Stores: „Objects that are not deleted via the API or dashboard are retained indefinitely.“ Auch mit ZDR bleibt etwas liegen (Widerspruchs-Scan 23.10.2026, Werbung openai.com/api: „Zero data retention policy by request“): Zwischenspeicher „Prompt caching may store encrypted key/value tensors in GPU-local storage as application state. This data is stored on the local GPU machines and is not retained after the 24-hour expiration.“ (als Grenze bei Chat Completions, Responses und Decisions). Für GPT-5.6 und später (also die GPT-6-Modelle hier) nennt der Caching-Leitfaden nur „30m“ (Standard) und „12h“ als Mindestdauer, kein „in_memory“ und keine eigene ZDR-Regel; die ZDR-Voreinstellung „in_memory“ gilt nur für ältere Modelle. Ob ZDR-Kunden bei GPT-6 ohne Zwischenspeicher arbeiten können, ist ungeklärt. Hintergrund-Modus: „Response data is temporarily stored to disk for roughly 10 minutes to enable asynchronous execution and polling.“ (auch bei ZDR-Projekten)."
+    },
+    "zweckbindung": {
+      "wert": true,
+      "status": "belegt",
+      "quelle": "https://web.archive.org/web/20261008023004/https://openai.com/policies/business-terms/",
+      "geprueft": "2026-10-24",
+      "anmerkung": "Services Agreement 4.2 (Wayback-Kopie 08.10.2026, gültig ab 01.01.2026): „OpenAI will only use Customer Content as necessary to provide Customer with the Services, comply with applicable law, enforce the OpenAI Policies, and prevent abuse.“ DPA 1.2: „OpenAI will only Process Customer Data for the purposes of delivering the Services to Customer pursuant to the Agreement and this DPA.“ Offen: Klassifikatoren laufen laut Enterprise-Privacy-Seite auch „to better understand how our services are used“ (nur Metadaten, Umfang ungeklärt)."
+    },
+    "betroffenenrechte_traeger": {
+      "wert": "auftraggeber",
+      "status": "belegt",
+      "quelle": "https://web.archive.org/web/20261020000721/https://openai.com/policies/data-processing-addendum/",
+      "geprueft": "2026-10-25",
+      "anmerkung": "DPA 2.4: „OpenAI will not respond to any such request without Customer’s prior written authorization, except that Customer authorizes OpenAI to redirect Data Subject Requests as necessary to allow Customer to respond directly.“"
+    },
+    "log_frist": {
+      "wert": "Missbrauchsprotokolle (mit Prompts und Antworten) standardmäßig bis 30 Tage; länger bei Rechtspflicht oder zum Schutz vor Schaden; bei Conversations und ChatKit bis zur Löschung; ohne Inhalte nur mit genehmigtem ZDR/MAM; Zwischenspeicher (Prompt Caching) bis 24 Stunden auf GPU-Speicher, auch mit ZDR; Hintergrund-Modus etwa 10 Minuten auf Platte",
+      "status": "belegt",
+      "quelle": "https://developers.openai.com/api/docs/guides/your-data",
+      "geprueft": "2026-10-23",
+      "anmerkung": "Leitfaden „your data“: „Abuse monitoring logs may contain certain customer content, such as prompts and responses, as well as metadata derived from that customer content, such as classifier outputs. By default, abuse monitoring logs are generated for all API feature usage and retained for up to 30 days, unless longer retention is required by law, or is reasonably necessary to protect our services or any third party from harm.“ Tabelle (Wayback-Kopie): „/v1/conversations No Until deleted Until deleted No No“ – dort gilt die Missbrauchs-Aufbewahrung bis zur Löschung. Keine Missbrauchsprotokolle bei Transkription, Übersetzung und Moderation („None“). Enterprise-Privacy-Seite: „After 30 days, API inputs and outputs are removed from our systems, unless we are legally required to retain them.“ Region: „Extended prompt caching in regions that do not support Regional processing may require that OpenAI process and temporarily store Customer Content outside of the Region to deliver the services.“ Europa (EEA + Switzerland) hat Regional processing, der Satz trifft dort nicht zu (Scan 23.10.2026)."
+    },
+    "log_zweck": {
+      "wert": "Durchsetzung der Nutzungsrichtlinien und Missbrauchsabwehr; Zugriff durch OpenAI-Personal und Dienstleister zur Missbrauchsprüfung",
+      "status": "belegt",
+      "quelle": "https://developers.openai.com/api/docs/guides/your-data",
+      "geprueft": "2026-10-23",
+      "anmerkung": "Leitfaden: „Abuse monitoring logs: Logs generated from your use of the platform, necessary for OpenAI to enforce our Usage Policies and agreements and mitigate harmful uses of AI.“ Enterprise-Privacy-Seite, wer zugreift: „(1) authorized employees that require access for engineering support, investigating potential platform abuse, and legal compliance and (2) specialized third-party contractors who are bound by confidentiality and security obligations, solely to review for abuse and misuse.“ Security Measures: „OpenAI aggregates system logs for security and general observability from a range of systems to facilitate detection and response;“. Fristen dieser Systemprotokolle nennt OpenAI nicht."
+    }
+  },
+  "zertifikate": [
+    {
+      "typ": "ISO 27001",
+      "status": "belegt",
+      "quelle": "https://integrator.schellman.com/public/v2/certificate/1404936-2/file",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Zertifikat selbst eingesehen (Schellman Nr. 1404936-2, ISO/IEC 27001:2022 und ISO/IEC 27701:2019, Inhaber OpenAI, OpCo, LLC, gültig bis 07.08.2028), öffentlich im Zertifikatsverzeichnis von Schellman; im Trust-Portal von OpenAI nur mit Konto. die API Platform steht in der Produktübersicht, auf die der Geltungsbereich verweist, mit Haken bei ISO/IEC 27001:2022 und ISO/IEC 27701:2019 (Wayback-Kopie 08.10.2026). Ausgestellt 21.08.2026, erstmals 08.08.2025, gültig bis 07.08.2028; Standorte San Francisco (1960 Bryant Street, ISMS) und Dublin (St Stephen's Green, PIMS). 27017/27018 nur als zusätzliche Maßnahmen („aligns with the control implementation guidance and additional control sets of ISO/IEC 27017:2015 and ISO/IEC 27018:2025“), kein eigenes Zertifikat.",
+      "anwendungsbereich": {
+        "wert": "Produkte aus OpenAIs Tabelle „Product compliance status“ (Version 1.1, 04.08.2026), darunter die API Platform; ausdrücklich nicht ChatGPT Business, Beta-Dienste, Verbraucherdienste",
+        "status": "belegt",
+        "quelle": "https://integrator.schellman.com/public/v2/certificate/1404936-2/file",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Zertifikat: „The Information Security Management System (ISMS) and Privacy Information Management System (PIMS) of OpenAI and its affiliate companies encompass the people, processes, and technologies used to develop, deploy, operate, and secure OpenAI products and services provided to organizations and API users. The certified scope includes the products listed in the “Product compliance status” table at https://openai.com/product-compliance-status, version 1.1, last updated August 4, 2026. … The scope does not include ChatGPT Business, Beta Services, consumer services …“"
+      },
+      "zertifizierer": {
+        "wert": "Schellman Compliance, LLC (Tampa, USA)",
+        "status": "belegt",
+        "quelle": "https://integrator.schellman.com/public/v2/certificate/1404936-2/file",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Zertifikat Nr. 1404936-2 (Version 2), öffentlich im Zertifikatsverzeichnis von Schellman (www.schellman.com/certificate-directory, Abruf 25.10.2026): „The Certification Body of Schellman Compliance, LLC hereby confirms … that the following organization operates an Information Security Management System and Privacy Information Management System that conforms to the requirements of ISO/IEC 27001:2022 and ISO/IEC 27701:2019“, Inhaber „OpenAI, OpCo, LLC“, unterzeichnet von Danny Manimbo, Managing Principal."
+      },
+      "akkreditiert_dakks": {
+        "wert": false,
+        "stelle": "ANAB (USA)",
+        "stelle_ea_mla": false,
+        "status": "belegt",
+        "quelle": "https://anabdirectory.remoteauditor.com/",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Nicht DAkkS, aber akkreditiert durch ANAB (ANSI National Accreditation Board, USA; IAF-MLA, gleichwertig anerkannt). Das Zertifikat trägt das ANAB-Zeichen. ANAB-Verzeichnis der Zertifizierungsstellen (Suche „Schellman“, Norm ISO/IEC 27001, Abruf 25.10.2026): „Schellman-MS-3780 - Schellman Compliance, LLC“, „Accredited To: ISO 14001, ISO 22301, ISO 45001, ISO 9001, ISO/IEC 20000-1, ISO/IEC 27001, ISO/IEC 27701, ISO/IEC 42001“. Schellman nennt auf seiner Seite zusätzlich UKAS für ISO 27001; auf diesem Zertifikat steht nur ANAB."
+      },
+      "normiert": [
+        "iso-27001"
+      ]
+    },
+    {
+      "typ": "ISO 27701",
+      "status": "belegt",
+      "quelle": "https://integrator.schellman.com/public/v2/certificate/1404936-2/file",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Gemeinsames Zertifikat mit ISO 27001 (Schellman Nr. 1404936-2): „… conforms to the requirements of ISO/IEC 27001:2022 and ISO/IEC 27701:2019“, PIMS „in the role of a personally identifiable information (PII) processor“, Standort des PIMS Dublin. Selbst eingesehen über das öffentliche Zertifikatsverzeichnis von Schellman (25.10.2026).",
+      "anwendungsbereich": {
+        "wert": "Produkte aus OpenAIs Tabelle „Product compliance status“ (Version 1.1, 04.08.2026), darunter die API Platform; OpenAI als Auftragsverarbeiter",
+        "status": "belegt",
+        "quelle": "https://integrator.schellman.com/public/v2/certificate/1404936-2/file",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Zertifikat: „The Information Security Management System (ISMS) and Privacy Information Management System (PIMS) of OpenAI and its affiliate companies encompass the people, processes, and technologies used to develop, deploy, operate, and secure OpenAI products and services provided to organizations and API users. The certified scope includes the products listed in the “Product compliance status” table at https://openai.com/product-compliance-status, version 1.1, last updated August 4, 2026. … The scope does not include ChatGPT Business, Beta Services, consumer services …“ Die Zeile „API Platform“ hat in der Tabelle (Wayback-Kopie 08.10.2026) den Haken bei ISO/IEC 27701:2019."
+      },
+      "zertifizierer": {
+        "wert": "Schellman Compliance, LLC (Tampa, USA)",
+        "status": "belegt",
+        "quelle": "https://integrator.schellman.com/public/v2/certificate/1404936-2/file",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Zertifikat Nr. 1404936-2 (Version 2), öffentlich im Zertifikatsverzeichnis von Schellman (www.schellman.com/certificate-directory, Abruf 25.10.2026): „The Certification Body of Schellman Compliance, LLC hereby confirms … that the following organization operates an Information Security Management System and Privacy Information Management System that conforms to the requirements of ISO/IEC 27001:2022 and ISO/IEC 27701:2019“, Inhaber „OpenAI, OpCo, LLC“, unterzeichnet von Danny Manimbo, Managing Principal."
+      },
+      "akkreditiert_dakks": {
+        "wert": false,
+        "stelle": "ANAB (USA)",
+        "stelle_ea_mla": false,
+        "status": "belegt",
+        "quelle": "https://anabdirectory.remoteauditor.com/",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Nicht DAkkS, aber akkreditiert durch ANAB (ANSI National Accreditation Board, USA; IAF-MLA, gleichwertig anerkannt). Das Zertifikat trägt das ANAB-Zeichen. ANAB-Verzeichnis der Zertifizierungsstellen (Suche „Schellman“, Norm ISO/IEC 27701, Abruf 25.10.2026): „Schellman-MS-3780 - Schellman Compliance, LLC“, „Accredited To: ISO 14001, ISO 22301, ISO 45001, ISO 9001, ISO/IEC 20000-1, ISO/IEC 27001, ISO/IEC 27701, ISO/IEC 42001“. Schellman nennt auf seiner Seite zusätzlich UKAS für ISO 27001; auf diesem Zertifikat steht nur ANAB."
+      },
+      "normiert": [
+        "iso-27701"
+      ]
+    },
+    {
+      "typ": "SOC 2 Type 2",
+      "status": "beansprucht",
+      "quelle": "https://web.archive.org/web/20261015081856/https://trust.openai.com/",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Enterprise-Privacy-Seite: „Our API Platform has been audited and certified for SOC 2 Type 2 compliance.“ Trust-Portal: „OpenAI's most recent SOC2 Report covers the period of July 1, 2025 to June 30, 2026 and is now available to authenticated users on the OpenAI Trust Portal.“ Bericht nur mit Konto, nicht eingesehen. Nachprüfung 25.10.2026: Trust-Portal direkt abgerufen (HTTP 200, Kopie belege/anbieter/openai-api/trust-portal-2026-10-25.txt): beide zitierten Sätze stehen wörtlich da, der Bericht bleibt nur mit Konto einsehbar. Die Enterprise-Privacy-Seite gab am 25.10. HTTP 403 (Bot-Prüfung, nicht umgangen), ihr Satz ist nicht neu geprüft.",
+      "anwendungsbereich": {
+        "wert": "API Platform u. a.",
+        "status": "beansprucht",
+        "quelle": "https://web.archive.org/web/20261015081856/https://trust.openai.com/",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Für den Bericht 2025: „covered controls relevant to the Security, Availability, Confidentiality, and Privacy Trust Services Criteria for the API Platform, ChatGPT Enterprise, ChatGPT Edu, and ChatGPT Team.“ Umfang des Berichts 2026 nicht eingesehen. Nachprüfung 25.10.2026: Trust-Portal direkt abgerufen (HTTP 200, Kopie belege/anbieter/openai-api/trust-portal-2026-10-25.txt): Satz zu 2025 und „This report covered controls relevant to the Security, Availability, Confidentiality, and Privacy Trust Services Criteria.“ zu 2026 wörtlich da; welche Produkte der Bericht 2026 umfasst, verweist das Portal auf die Seite „OpenAI Product Compliance Status“, nicht eingesehen."
+      },
+      "zertifizierer": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "Prüfer im sichtbaren Text nicht genannt. Nachprüfung 25.10.2026: Trust-Portal direkt abgerufen (HTTP 200, Kopie belege/anbieter/openai-api/trust-portal-2026-10-25.txt): dort nur „evaluated by an independent third-party auditor“, kein Name. Im öffentlichen Zertifikatsverzeichnis von Schellman stehen für OpenAI nur ISO-Zertifikate, kein SOC-2-Bericht (Kopie schellman-verzeichnis-openai-2026-10-25.json)."
+      },
+      "akkreditiert_dakks": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "SOC 2 ist ein US-Prüfbericht (AICPA), keine akkreditierte Zertifizierung."
+      },
+      "normiert": [
+        "soc-2"
+      ]
+    },
+    {
+      "typ": "ISO/IEC 42001",
+      "status": "belegt",
+      "quelle": "https://integrator.schellman.com/public/v2/certificate/1764566-1/file",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Zertifikat selbst eingesehen (Schellman Nr. 1764566-1, ISO/IEC 42001:2023, Inhaber OpenAI, OpCo, LLC, gültig bis 10.12.2028), öffentlich im Zertifikatsverzeichnis von Schellman; im Trust-Portal von OpenAI nur mit Konto. Der Geltungsbereich nennt API, ChatGPT Business, Enterprise und Edu ausdrücklich.",
+      "anwendungsbereich": {
+        "wert": "KI-Managementsystem für Entwicklung und Betrieb von OpenAIs Modellen und Produkten, ausdrücklich auch API, ChatGPT Business, Enterprise und Edu",
+        "status": "belegt",
+        "quelle": "https://integrator.schellman.com/public/v2/certificate/1764566-1/file",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Zertifikat: „The scope of the ISO/IEC 42001:2023 certification is limited to the artificial intelligence management system (AIMS) supporting the development and deployment of OpenAI's models and products - including consumer offerings (ChatGPT, Sora) and business offerings (API, ChatGPT Business, Enterprise, and Edu) - in OpenAI's role of an AI producer, AI developer, and AI provider …“ Ausgestellt 11.12.2025, gültig bis 10.12.2028, Standort San Francisco (1455 3rd Street)."
+      },
+      "zertifizierer": {
+        "wert": "Schellman Compliance, LLC (Tampa, USA)",
+        "status": "belegt",
+        "quelle": "https://integrator.schellman.com/public/v2/certificate/1764566-1/file",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Zertifikat Nr. 1764566-1, öffentlich im Zertifikatsverzeichnis von Schellman (Abruf 25.10.2026): „The Certification Body of Schellman Compliance, LLC hereby certifies that the following organization operates an Artificial Intelligence Management System that conforms to the requirements of ISO/IEC 42001:2023“, Inhaber „OpenAI, OpCo, LLC“."
+      },
+      "akkreditiert_dakks": {
+        "wert": false,
+        "stelle": "ANAB (USA)",
+        "stelle_ea_mla": false,
+        "status": "belegt",
+        "quelle": "https://anabdirectory.remoteauditor.com/",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Nicht DAkkS, aber akkreditiert durch ANAB (ANSI National Accreditation Board, USA; IAF-MLA, gleichwertig anerkannt). Das Zertifikat trägt das ANAB-Zeichen. ANAB-Verzeichnis der Zertifizierungsstellen (Suche „Schellman“, Norm ISO/IEC 42001, Abruf 25.10.2026): „Schellman-MS-3780 - Schellman Compliance, LLC“, „Accredited To: ISO 14001, ISO 22301, ISO 45001, ISO 9001, ISO/IEC 20000-1, ISO/IEC 27001, ISO/IEC 27701, ISO/IEC 42001“. Schellman nennt auf seiner Seite zusätzlich UKAS für ISO 27001; auf diesem Zertifikat steht nur ANAB."
+      },
+      "normiert": [
+        "iso-42001"
+      ]
+    }
+  ],
+  "iso_42001": {
+    "status": "belegt",
+    "wert": true,
+    "zertifizierer": "Schellman Compliance, LLC (Tampa, USA), ANAB-akkreditiert",
+    "anwendungsbereich": "KI-Managementsystem für Entwicklung und Betrieb von OpenAIs Modellen und Produkten, ausdrücklich auch API, ChatGPT Business, Enterprise und Edu",
+    "quelle": "https://integrator.schellman.com/public/v2/certificate/1764566-1/file",
+    "geprueft": "2026-10-25",
+    "anmerkung": "Zertifikat Nr. 1764566-1 (ISO/IEC 42001:2023, Inhaber OpenAI, OpCo, LLC, ausgestellt 11.12.2025, gültig bis 10.12.2028), öffentlich im Zertifikatsverzeichnis von Schellman (Abruf 25.10.2026); im Trust-Portal von OpenAI nur mit Konto. Geltungsbereich: „… including consumer offerings (ChatGPT, Sora) and business offerings (API, ChatGPT Business, Enterprise, and Edu) …“"
+  },
+  "ai_act": [],
+  "geprueft": "2026-10-23",
+  "url": "https://belegbar.eu/anbieter/openai-api/",
+  "beleg_quote_prozent": 92,
+  "zuletzt_geprueft": "2026-10-25",
+  "quellenlauf": {
+    "zuletzt": "2026-10-25",
+    "quellen": 13,
+    "nachgelesen": 11,
+    "unveraendert": 4,
+    "veraendert_gelesen": 3,
+    "offen": 0,
+    "verschwunden": 4,
+    "statuswechsel_30_tage": 13
+  },
+  "rechtsraum": {
+    "land": "US",
+    "name": "USA",
+    "einordnung": "dpf",
+    "erlaeuterung": "Drittland. Der Angemessenheitsbeschluss der EU-Kommission vom 10.07.2023 gilt nur für Unternehmen, die am EU-US Data Privacy Framework teilnehmen (Art. 45 DSGVO); sonst nur mit geeigneten Garantien, etwa Standardvertragsklauseln (Art. 46 DSGVO).",
+    "hinweis": "Der Anbieter steht nicht auf der amtlichen Liste dataprivacyframework.gov (weder aktiv noch inaktiv); der Beschluss gilt für ihn nicht, Übermittlungen brauchen geeignete Garantien (Art. 46 DSGVO).",
+    "dpf": {
+      "status": "belegt",
+      "wert": false,
+      "quelle": "https://www.dataprivacyframework.gov/list",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Suche in der amtlichen DPF-Liste mit den Suchwörtern OpenAI, Open AI, OpCo und OpenAI OpCo am 22.10.2026: 0 Treffer, weder aktiv noch inaktiv (gleiche Prüfung wie beim Profil ChatGPT Enterprise). Der Beschluss vom 10.07.2023 deckt Übermittlungen an OpenAI damit nicht. OpenAI nennt selbst Standardvertragsklauseln: DPA 4.1 „on the basis of agreements containing SCCs that ensure appropriate safeguards for the protection of Customer Data are in place“ (alternativ ein Angemessenheitsbeschluss, den es für OpenAI mangels DPF-Teilnahme nicht gibt) und Unterauftragnehmer-Seite „We use the Standard Contractual Clauses as a valid transfer mechanism among affiliates.“ Kopie der Suchantworten + SHA-256 in belege/rechtsraum/dpf-2026-10-22/. Am 25.10.2026 über die Schnittstelle der Liste von Hand neu abgefragt (Liste geändert am 25.10.): Angaben unverändert, Kopie + SHA-256 in belege/rechtsraum/dpf-2026-10-25/ (die Seite selbst lädt ihren Text erst im Browser, der automatische Quellenlauf sieht nur die Hülle)."
+    },
+    "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+    "geprueft": "2026-10-22"
+  }
+}

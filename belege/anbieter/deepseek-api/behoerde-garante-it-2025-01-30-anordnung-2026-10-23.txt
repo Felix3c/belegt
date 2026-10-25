@@ -1,0 +1,586 @@
+Quelle: https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10098477
+Abruf: 2026-10-23 01:22:18 +0200
+
+
+Provvedimento del 30 gennaio 2025 [10098477] - Garante Privacy
+
+Salta direttamente al contenuto
+
+# Navigazione
+
+- Salta al contenuto
+
+## Seguici su Basic
+
+Seguici su
+
+- [seguici su linkedin] linkedin
+
+- [seguici su instagram] instagram
+
+- [seguici su youtube] youtube
+
+- [seguici su telegram] telegram
+
+- [seguici su X] X
+
+- [seguici su spotify] spotify
+
+## Selettore lingua
+
+ITA
+
+- ENG
+
+#
+
+[Logo GPDP]
+Garante per la protezione dei dati personali
+
+## I miei diritti
+
+I miei diritti
+
+## Imprese ed enti
+
+Imprese ed enti
+
+## Servizi online
+
+Servizi online
+
+## Podcast
+
+Podcast
+
+## GGpdp5SearchToggleBar
+
+## Menù di navigazione
+
+## Menu principale
+
+[Garante Protezione dei Dati Personali Logo] Garante Protezione dei Dati Personali
+
+-
+
+L'Autorità
+
+-
+Il Garante
+
+- Collegio
+
+- Compiti
+
+- L'Ufficio
+
+- Regolamenti interni
+
+- Codice etico
+
+-
+Attività
+
+- Relazioni annuali
+
+- Segnalazioni al Parlamento e al Governo
+
+- Codici di condotta
+
+- Attività internazionali
+
+- Formazione
+
+- Convegni, eventi, patrocinio
+
+- Pubblicazioni
+
+- Giornate europee della protezione dei dati personali
+
+- Audizioni, memorie e note istituzionali
+
+- Protocolli e convenzioni
+
+-
+Sistema di informazione visti (VIS)
+
+Sistema d'Informazione Schengen (SIS)
+
+-
+
+Provvedimenti
+
+-
+Provvedimenti
+
+Linee guida
+
+Pareri (per area tematica)
+
+Attività ispettiva (deliberazioni)
+
+Codici di condotta
+
+-
+Autorizzazioni generali
+
+Consultazioni pubbliche
+
+FAQ
+
+-
+
+News
+
+-
+Comunicati Stampa
+
+Notizie
+
+Newsletter
+
+Podcast
+
+Rassegna stampa
+
+-
+L'agenda
+
+Comunicazione istituzionale
+
+Vademecum
+
+Contatti per la stampa
+
+-
+
+Temi
+
+-
+Banche, credito, finanza
+
+Cyberbullismo
+
+Biometria
+
+Cybersecurity
+
+AI - Intelligenza artificiale
+
+-
+Giornalismo
+
+Internet e nuove tecnologie
+
+Lavoro
+
+Minori
+
+Revenge Porn
+
+-
+Sanità e Ricerca scientifica
+
+Scuola
+
+Telemarketing (chiamate indesiderate)
+
+Trasferimento di dati personali all'estero
+
+Videosorveglianza
+
+-
+FAQ
+
+Codice Privacy
+
+GDPR - Regolamento 2016/679
+
+Tutti i temi per categoria
+Dalla A alla Z
+
+-
+
+Normativa
+
+-
+Codice Privacy e Normativa italiana
+
+- Regole deontologiche
+
+-
+GDPR e Normativa europea e internazionale
+
+- GDPR
+
+- Regolamento (UE) 2024/1689 sull'intelligenza artificiale
+
+-
+
+Amministrazione Trasparente
+
+# Provvedimento del 30 gennaio 2025 [10098477]
+
+## g-docweb-display Portlet
+
+- Home
+- Provvedimenti
+- Prescrizioni del Garante
+- Provvedimento del 30 gennaio 2025 [10098477]
+
+##
+Provvedimento del 30 gennaio 2025 [10098477]
+
+Ascolta
+
+Menù azioni
+
+-
+
+[Stampa] Stampa
+Stampa
+
+-
+
+-
+
+e-mail
+
+-
+
+facebook
+
+-
+
+linkedin
+
+-
+
+twitter
+
+Ascolta
+
+[Stampa] Stampa
+Stampa
+
+[Condividi]Condividi
+
+-
+
+e-mail
+
+-
+
+facebook
+
+-
+
+linkedin
+
+-
+
+twitter
+
+VEDI ANCHE
+
+- Comunicato stampa del 30 gennaio 2025
+
+- Comunicato stampa del 28 gennaio 2025
+
+- English version
+
+[doc. web n. 10098477]
+
+Provvedimento del 30 gennaio 2025
+
+Registro dei provvedimenti
+
+n. 33 del 30 gennaio 2025
+
+IL GARANTE PER LA PROTEZIONE DEI DATI PERSONALI
+
+Nella riunione odierna, alla quale hanno preso parte il prof. Pasquale Stanzione, presidente, la prof.ssa Ginevra Cerrina Feroni, vicepresidente, il dott. Agostino Ghiglia e l’avv. Guido Scorza, componenti, e il cons. Fabio Mattei, segretario generale;
+
+VISTO il Regolamento (UE) 2016/679 del Parlamento europeo e del Consiglio del 27 aprile 2016 (di seguito, “Regolamento”);
+
+VISTO il Codice in materia di protezione dei dati personali (d.lgs. 30 giugno 2003, n. 196, di seguito “Codice”);
+
+CONSIDERATO che le società Hangzhou DeepSeek Artificial Intelligence Co., Ltd. e Beijing DeepSeek Artificial Intelligence Co., Ltd. (di seguito le “Società”) gestiscono il servizio DeepSeek (di seguito “servizio DeepSeek”), attraverso app, sito web, software e relativi servizi;
+
+VISTA la richiesta di informazioni (prot. n. 10841/25) inviata dall’Autorità alle Società in data 28 gennaio 2025;
+
+PRESO ATTO del riscontro fornito dalle Società in data 29 gennaio 2025 (prot. n. 11349/25) con cui le stesse hanno dichiarato di non essere entrate e di non avere pianificato di entrare nel mercato italiano, nonché di aver rimosso l’app DeepSeek dagli app store locali [italiani, n.d.r.];
+
+PRESO ATTO che nella medesima comunicazione le Società hanno sostenuto che il Regolamento non trovi applicazione in relazione alle attività di trattamento di dati personali dalle stesse poste in essere;
+
+RILEVATO, da un accertamento effettuato, che alla data del 30 gennaio 2025, l’app DeepSeek non risulta più disponibile negli App Store di Apple e Google e non risulta accessibile neppure tramite il QR Code del sito web che rimanda a tali App Store;
+
+RILEVATO altresì che il servizio risulta, invece, ancora accessibile tramite sito web, sebbene con una limitazione alle registrazioni a causa di "attacchi malevoli su larga scala" al servizio DeepSeek (segnatamente, “Due to large-scale malicious attacks on DeepSeek's services, registration may be busy. Please wait and try again. Registered users can log in normally. Thank you for your understanding and support”;
+
+RILEVATO infine che il servizio risulta ancora accessibile per utenti che si erano precedentemente registrati;
+
+RITENUTO, a fronte degli accertamenti svolti, che non sia revocabile in dubbio il fatto che le Società offrano il servizio DeepSeek ad interessati che si trovano nell’Unione europea, segnatamente in Italia e che, pertanto, trattano i dati personali di questi ultimi;
+
+RITENUTO pertanto che trovi applicazione l’art. 3, par. 2, lett. a), del Regolamento che prevede uno specifico ambito di applicazione territoriale del regolamento stesso;
+
+RILEVATO che le Società, mediante il riscontro alla richiesta di informazioni inoltrata dal Garante, non ha chiarito gli aspetti principali riguardanti le attività di trattamento poste in essere nell’ambito del servizio DeepSeek, in violazione dell’articolo 31 del Regolamento;
+
+RILEVATO che la policy privacy, aggiornata al 5 dicembre 2025, pubblicata sul sito web, è disponibile solo in lingua inglese e non rispetta in modo esaustivo gli obblighi informativi previsti dalla normativa, in violazione dagli articoli 12, 13 e 14 del Regolamento;
+
+RILEVATO, in particolare, che la policy privacy non indica in modo puntuale e granulare le condizioni di liceità relative a ciascuna attività di trattamento posta in essere nell’ambito del servizio DeepSeek, in violazione dell’articolo 6 del Regolamento;
+
+RILEVATO che la carenza di informazioni in ordine alla attività di trattamento svolte nell’ambito del servizio DeepSeek dà luogo ad evidenti conseguenze anche in merito all’esercizio dei diritti, in violazione di quanto previsto dal Capo III del Regolamento;
+
+RILEVATO che, da quanto risulta dalla privacy policy, i dati raccolti dal titolare nell’ambito della fornitura del servizio DeepSeek sono conservati presso la Repubblica popolare cinese, in violazione delle garanzie previste dal Regolamento, in particolare dell’articolo 32 in materia di sicurezza del trattamento;
+
+RILEVATO che il titolare, pur essendo tenuto a rispettare il Regolamento in ragione del servizio offerto (ai sensi dell’art. 3, par.2, del Regolamento), non ha designato per iscritto un rappresentante, in violazione dell’articolo 27 del Regolamento;
+
+RAVVISATA, pertanto, la necessità di disporre, ai sensi dell’art. 58, par. 2, lett. f), del Regolamento - in via d’urgenza e nelle more del completamento della necessaria istruttoria rispetto a quanto sin qui emerso nei confronti delle Società, la misura della limitazione definitiva del trattamento di dati personali di interessati che si trovano nel territorio italiano;
+
+RITENUTO necessario disporre la predetta limitazione con effetto immediato a decorrere dalla data di ricezione del presente provvedimento, riservandosi ogni altra determinazione all’esito della definizione dell’istruttoria avviata sul caso;
+
+RICORDATO che, in caso di inosservanza della misura disposta dal Garante, trova applicazione la sanzione penale di cui all’art. 170 del Codice e le sanzioni amministrative previste dall’art. 83, par. 5, lett. e), del Regolamento;
+
+VISTA la documentazione in atti;
+
+VISTE le osservazioni formulate dal segretario generale ai sensi dell’art. 15 del regolamento del Garante n. 1/2000;
+
+RELATORE la prof.ssa Ginevra Cerrina Feroni;
+
+TUTTO CIÒ PREMESSO IL GARANTE
+
+ai sensi dell’art. 57, par.1, lett.a) e i) del Regolamento dichiara illecito il trattamento descritto nei termini in motivazione effettuato dalle società Hangzhou DeepSeek Artificial Intelligence Co., Ltd., and Beijing DeepSeek Artificial Intelligence Co., Ltd, con sede in 5th Floor, North Building, Block C, Rongke Information Center, No.2 South Science Academy Road, Haidian District Beijing, China, in qualità di titolari del trattamento, per la violazione degli articoli 31,12,13,14,6,32 e 27 e dei diritti di cui al Capo III del Regolamento.
+
+ORDINA
+
+ai sensi dell’art. 58, par. 2, lett. f), alle società Hangzhou DeepSeek Artificial Intelligence Co., Ltd., e Beijing DeepSeek Artificial Intelligence Co., Ltd, con sede in 5th Floor, North Building, Block C, Rongke Information Center, No.2 South Science Academy Road, Haidian District Beijing, China, la limitazione definitiva delle attività di trattamento dei dati personali di interessati che si trovano nel territorio italiano che avvengono nell’ambito del servizio DeepSeek. La predetta limitazione ha effetto immediato a decorrere dalla data di ricezione del presente provvedimento, con riserva di ogni altra determinazione all’esito della definizione dell’istruttoria avviata sul caso.
+
+DISPONE
+
+ai sensi dell’art. 17 del Regolamento del Garante n. 1/2019, l’annotazione nel registro interno dell’Autorità, previsto dall’art. 57, par. 1, lett. u) del Regolamento, delle violazioni e delle misure adottate.
+
+Ai sensi dell’art. 78 del Regolamento, nonché degli artt. 152 del Codice e 10 del d. lg. 1° settembre 2011, n. 150, avverso il presente provvedimento può essere proposta opposizione all’autorità giudiziaria ordinaria, con ricorso depositato al tribunale ordinario del luogo ove ha la residenza il titolare del trattamento dei dati, entro il termine di trenta giorni dalla data di comunicazione del provvedimento stesso, ovvero di sessanta giorni se il ricorrente risiede all’estero.
+
+Roma, 30 gennaio 2025
+
+IL PRESIDENTE
+
+Stanzione
+
+IL RELATORE
+
+Cerrina Feroni
+
+IL SEGRETARIO GENERALE
+
+Mattei
+
+____________
+
+GARANTE PER LA PROTEZIONE DEI DATI PERSONALI
+
+At today's meeting, attended by President Pasquale Stanzione, Vice-President Ginevra Cerrina Feroni, members Agostino Ghiglia and Guido Scorza, and Secretary-General Fabio Mattei;
+
+HAVING REGARD to Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 (hereinafter, the ‘Regulation’);
+
+HAVING REGARD to the Personal Data Protection Code (Legislative Decree No. 196 of 30 June 2003, hereinafter the ‘Code’);
+
+WHEREAS Hangzhou DeepSeek Artificial Intelligence Co., Ltd. and Beijing DeepSeek Artificial Intelligence Co., Ltd. (hereinafter referred to as the ‘Companies’) run the DeepSeek service (hereinafter referred to as the ‘DeepSeek service’), through app, website, software and related services;
+
+HAVING REGARD to the request for information (Reg. No. 10841/25) sent by the Garante to the Companies on 28 January 2025;
+
+TAKING NOTE of the reply provided by the Companies on 29 January 2025 (Reg. No. 11349/25) in which the Companies declared that they had not entered and had not planned to enter the Italian market, as well as that they had removed the DeepSeek app from the [Italian, ed;] local app stores;
+
+TAKING NOTE that in the same reply the Companies claimed that the Regulation does not apply to the personal data processing activities carried out by them;
+
+FINDING, through an investigation carried out, that as of 30 January 2025 the DeepSeek app is no longer available in the Apple and Google App Stores and is not accessible even through the QR Code of the website that redirects to said App Stores;
+
+FINDING that the service is, however, still accessible through the website, albeit with a limitation on registrations due to ‘large-scale malicious attacks’ on the DeepSeek service (more specifically ‘Due to large-scale malicious attacks on DeepSeek's services, registration may be busy. Please wait and try again. Registered users can log in normally. Thank you for your understanding and support’);
+
+FINDING that the service is still accessible for users who had previously registered;
+
+CONSIDERING, as a result of the investigation carried out, that the Companies unquestionably offer the DeepSeek service to data subjects located in the European Union, more specifically in Italy, and therefore process the personal data of such data subjects;
+
+CONSIDERING therefore that Article 3(2)(a) of the Regulation applies, laying down a specific territorial scope for said Regulation;
+
+FINDING that the Company, in its reply to the request for information sent by the Garante failed to clarify the main aspects concerning the processing activities carried out as part of the DeepSeek service, in violation of Article 31 of the Regulation;
+
+FINDING that the privacy policy, updated as of 5 December 2025 and published on the website, is available only in English and does not thoroughly comply with the information requirements laid down by the legislation, in violation of Articles 12, 13 and 14 of the Regulation;
+
+FINDING, in particular, that the privacy policy does not specify in a precise and detailed manner the conditions governing the lawfulness of each processing activity carried out as part of the DeepSeek service, in violation of Article 6 of the Regulation;
+
+FINDING that the lack of information regarding the processing activities carried out within the DeepSeek service entails clear consequences also with regard to the exercise of rights, in violation of Chapter III of the Regulation;
+
+FINDING that, in accordance with the privacy policy, the data collected by the data controller in connection with the provision of the DeepSeek service are stored in the People's Republic of China, in violation of the safeguards provided for by the Regulation, in particular Article 32 on security of processing;
+
+FINDING that the data controller, whilst required to comply with the Regulation on account of the service provided (pursuant to Article 3(2) of the Regulation), has failed to designate a representative by written mandate, in violation of Article 27 of the Regulation;
+
+ACKNOWLEDGING, thus, pursuant to Article 58 (2)(f) of the Regulation - as a matter of urgency and pending the completion of the necessary investigation into the matters that have emerged so far with regard to the Companies - the need to order the definitive limitation on processing of personal data of data subjects located in Italy;
+
+CONSIDERING it necessary to impose the aforesaid limitation with immediate effect as of the date of receipt of this order, reserving the right to take any further measures pending the outcome of the preliminary investigation initiated on the case;
+
+RECALLING that, in case the order imposed by the Garante is not complied with, the criminal penalty provided for in Article 170 of the Code and the administrative fines provided for in Article 83(5)(e) of the Regulation shall apply;
+
+HAVING REGARD to the documentation on record;
+
+HAVING REGARD to the observations made by the Secretary-General pursuant to Article 15 of Garante's Internal Regulation No. 1/2000;
+
+RAPPORTEUR Ginevra Cerrina Feroni;
+
+BASED ON THE FOREGOING THE GARANTE
+
+Pursuant to Article 57(1)(a) and (i) of the Regulation, declares unlawful the processing as described above, carried out by Hangzhou DeepSeek Artificial Intelligence Co, Ltd, established at 5th Floor, North Building, Block C, Rongke Information Center, No. 2 South Science Academy Road, Haidian District Beijing, China, in their capacity as data controllers, for breach of Articles 31,12,13,14,6,32 and 27 and of the rights set out in Chapter III of the Regulation.
+
+ORDERS
+
+Pursuant to Article 58 (2)(f), Hangzhou DeepSeek Artificial Intelligence Co., Ltd., and Beijing DeepSeek Artificial Intelligence Co., Ltd, established at 5th Floor, North Building, Block C, Rongke Information Center, No.2 South Science Academy Road, Haidian District Beijing, China, to definitively limit the processing activities of personal data of data subjects located in the Italian territory that are carried out in the context of the DeepSeek service. The aforementioned limitation shall take immediate effect as from the date of receipt of this order, subject to any other decision upon the outcome of the investigation initiated on the case.
+
+PROVIDES
+
+Pursuant to Article 17 of the Garante's Internal Regulation No. 1/2019, the violations and the measures adopted be recorded in the Garante's internal register in accordance with Article 57(1)(u) of the Regulation.
+
+Pursuant to Article 78 of the Regulation, as well as Article 152 of the Code and Article 10 of Legislative Decree No. 150 of 1 September 2011, an objection to this order may be lodged with the ordinary judicial authorities upon appeal to the ordinary court of the place of residence of the data controller within thirty days from the date of communication of the order, or sixty days if the applicant resides abroad.
+
+Rome, 30 January 2025
+
+THE PRESIDENT
+
+Stanzione
+
+THE RAPPORTEUR
+
+Cerrina Feroni
+
+THE SECRETARY GENERAL
+
+Mattei
+
+### Scheda
+
+Doc-Web
+
+10098477
+
+Data
+
+30/01/25
+
+####
+Argomenti
+
+Intelligenza artificiale
+
+####
+Tipologie
+
+Prescrizioni del Garante
+
+### Documenti citati
+
+-
+
+COMUNICATO STAMPA - Intelligenza artificiale: il Garante privacy blocca DeepSeek
+
+-
+
+COMUNICATO STAMPA - IA: il Garante privacy chiede informazioni a DeepSeek Possibile rischio per i dati di milioni di persone in Italia
+
+### Vedi anche (10)
+
+-
+
+Newsletter 31/01/22 - Riflettori del Garante privacy su cookies, smart toys, app "rubadati" - Marketing: il Garante privacy sanziona l’utilizzo di liste non verificate - Fisco: Garante privacy, attenzione alla limitazione dei diritti dei contribuenti
+
+-
+
+Riconoscimento facciale: il Garante privacy sanziona Clearview per 20 milioni di euro. Vietato l’uso dei dati biometrici e il monitoraggio degli italiani
+
+-
+
+Memoria del Garante per la protezione dei dati personali - COM 2021(206) Proposta di regolamento (UE) sull’intelligenza artificiale
+
+-
+
+Parere alla Banca d’Italia sullo schema di regolamento concernente il trattamento dei dati personali effettuato nell’ambito della gestione degli esposti - 24 febbraio 2022 [9751895]
+
+-
+
+Privacy: dal G7 dei Garanti un modello etico per l’Intelligenza Artificiale. Il contributo del Garante italiano
+
+-
+
+Provvedimento dell'11 febbraio 2021 [9554603]
+
+-
+
+Parere alla Provincia autonoma di Trento su uno schema di regolamento concernente la medicina di iniziativa nel servizio sanitario provinciale - 1° ottobre 2020 [9469372]
+
+-
+
+Ordinanza ingiunzione nei confronti di Clearview AI - 10 febbraio 2022 [9751362]
+
+-
+
+Audizione informale del Presidente del Garante per la protezione dei dati personali - Esame delle risoluzioni Loizzo n. 7-00183 e Girelli n. 7-00183, in materia di raccolta e utilizzo dei dati sanitari
+
+-
+
+Newsletter del 14/03/22 - Sanità: Anagrafe nazionale degli assistiti, ok del Garante privacy - Siti web della Pa: sì del Garante privacy alle Linee guida AgID - Garante privacy: sì al nuovo regolamento Bankitalia sull’analisi degli esposti - Responsabilità civile e AI: i Garanti europei scrivono alla Commissione Ue
+
+## Footer
+
+## Footer
+
+Garante per la protezione dei dati personali
+
+-
+### SEDE
+
+Piazza Venezia 11
+
+00187 - Roma
+
+-
+### CENTRALINO TELEFONICO
+
++39 06.696771
+
+- Stampa URP FAQ RSS
+
+-
+### EMAIL
+
+protocollo@gpdp.it
+
+-
+### PEC
+
+protocollo@pec.gpdp.it
+
+-
+
+- Informativa protezione dati
+
+- Dichiarazione di accessibilità
+
+- Regole del sito
+
+- Mappa del sito
+
+- Link utili
+
+Seguici su
+
+- [linkedin logo]linkedin
+
+- [Instagram logo]instagram
+
+- [Youtube logo]youtube
+
+- [Telegram logo]Telegram
+
+- [X logo]X GPDP
+
+- [Spotify logo]Spotify GPDP
+
+Iscriviti alla Newsletter

@@ -1,0 +1,42 @@
+Quelle: https://bfl.ai/enterprise, https://bfl.ai/legal/eu-api-service-terms, https://bfl.ai/legal/privacy-policy, https://docs.bfl.ml/api_integration/integration_guidelines.md (je direkt); dazu die gesicherten Kopien in diesem Ordner
+Abruf: 2026-10-24 06:23:17 +0200 (curl direkt, je HTTP 200; robots.txt von bfl.ai „Allow: /“, docs.bfl.ml sperrt nur /cdn-cgi/ und /_next/). SHA-256 der Rohseiten steht im Kopf jeder Kopie.
+Inhalt: wörtliche Auszüge aus dem Widerspruchs-Scan Black Forest Labs (FLUX API, EU-Fassung). Frage: Passt das, was die Enterprise-Seite verspricht, zu dem, was die EU API Service Terms und die Privacy Policy erlauben?
+
+A. Enterprise-Seite: Managed API mit „Zero data retention“; EU API Service Terms 2b: dauerhafte, unwiderrufliche Lizenz an Ein- und Ausgaben, ausdrücklich auch zum Training (Fall-Kandidat 60)
+
+1. Enterprise-Seite, Kachel „Managed API“:
+> Zero data retention and auto-scaling infrastructure. Go from integration to production in minutes.
+> Volume-based pricing with enterprise agreements available from 200K generations/month
+
+2. EU API Service Terms (Last Revised on August 26, 2026), Ziffer 2b:
+> Developer grants the Company a fully paid, royalty-free, perpetual, irrevocable, worldwide, non-exclusive, and fully sublicensable right and license to use, sub-license, distribute, reproduce, modify, adapt, publicly perform, and publicly display Developer's Input and Output
+> Developer acknowledges that the foregoing means the Company may use Inputs and Outputs to train and improve its artificial intelligence models, algorithms, and related technology, products, and services.
+
+3. EU API Service Terms, Einleitung (gelten auch für Enterprise-Verträge, wenn das Order Form sie nennt):
+> Where an Order Form to a FLUX Model API Services Agreement specifies these API Terms, these API Terms are also incorporated by reference into the applicable FLUX Model API Services Agreement and accompanying Order Form
+
+B. Enterprise-Seite: Daten bleiben privat; EU API Service Terms 2b: Recht zum öffentlichen Zeigen
+4. Enterprise-Seite, „Your data is in safe hands“:
+> Our enterprise-grade systems are built to global industry standards, so your data remains private and secure.
+5. EU API Service Terms, Ziffer 2b (siehe 2.): Lizenz umfasst „publicly perform, and publicly display Developer's Input and Output“.
+
+C. Privacy Policy: Widerspruch gegen Training per Mail möglich; EU API Service Terms: Lizenz „irrevocable“
+6. Privacy Policy (Last Revised on August 1, 2026), Abschnitt zur Nutzung fürs Training:
+> to train and improve our AI models after implementing appropriate technical safeguards like data minimisation and deidentification techniques.
+> If you object to us using your data for training and improvement purposes, you can contact us at privacy@blackforestlabs.ai using the subject heading “Training Opt Out” and providing your account details.
+7. Privacy Policy, Geltungsbereich:
+> This Privacy Policy does not apply to content that we process on behalf of customers of our business offerings pursuant to an enterprise contract.
+
+D. Zusatz: Ort
+8. Integration Guide, regionaler Endpunkt:
+> Multi-cluster routing limited to EU regions
+> Use `api.eu.bfl.ai` or `api.us.bfl.ai` for regional preferences
+9. Privacy Policy, Übermittlung:
+> For users residing in Switzerland, UK or the EEA, the information we collect from you may be transferred to, and stored at/processed in countries outside the country they were collected from.
+
+E. Einordnung und Nicht gefunden
+Zu A: Die Enterprise-Seite nennt „Zero data retention“ als Merkmal der Managed API, ohne Einschränkung auf Enterprise-Verträge (Enterprise-Verträge stehen dort als eigene Zeile „available from 200K generations/month“). Die EU API Service Terms erlauben dagegen ohne Ausnahme für die Standard-API, Ein- und Ausgaben dauerhaft zu nutzen und damit zu trainieren, und gelten laut Einleitung auch in Enterprise-Verträgen, sobald das Order Form sie nennt. Ob die Managed API ohne Enterprise-Vertrag wirklich nichts speichert: ungeklärt; ein Order Form oder DPA ist nicht öffentlich („available on request“). Training setzt Speicherung voraus; „Zero data retention“ und eine „perpetual“ Trainingslizenz passen für denselben Vertrag nicht zusammen. Welche Aussage für welche Kunden gilt: ungeklärt.
+Zu B: Kein harter Widerspruch, solange BFL von der Lizenz keinen Gebrauch macht; der Vertragstext erlaubt aber das öffentliche Zeigen von Kunden-Eingaben und -Ausgaben, die Seite verspricht „private“.
+Zu C: Die Privacy Policy regelt personenbezogene Daten, die Service Terms die Inhalte. Ob ein „Training Opt Out“ per Mail die „irrevocable“ Lizenz aus 2b für API-Kunden in der EU berührt: ungeklärt. Ein Schalter im Konto wurde nicht gefunden; nur der Mailweg ist genannt.
+Zu D: „Limited to EU regions“ gilt für das Routing des Endpunkts api.eu.bfl.ai, die Doku nennt es „regional preferences“. Die Privacy Policy lässt Übermittlung außerhalb des EWR zu (Standardvertragsklauseln). Kein harter Widerspruch; ob Speicherung, Moderation und Training bei Nutzung von api.eu.bfl.ai in der EU bleiben: ungeklärt.
+Nicht verwendet: FLUX API Service Terms (US-Fassung) und Developer Terms of Service (gelten für Kunden außerhalb der EU); Trust Center trust.bfl.ai (nur im Browser lesbar, Stand im Profil 09.10.2026).

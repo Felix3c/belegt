@@ -1,0 +1,149 @@
+Quelle: https://regolo.ai/team-infrastructure/
+Abruf: 2026-10-23 (curl, HTTP 200), Textauszug aus HTML (ganze Seite, Skripte entfernt), belegbar.eu
+
+GPU Cloud Infrastructure | Scalable Serverless AI
+Skip to content
+Pricing
+Models
+Docs
+Labs
+Tutorial & How‑to
+Events & Workshops
+Benchmarks & Optimization
+Compliance and Privacy
+Product & Release Notes
+Self‑Hosting & DevOps
+Sustainable Computing
+Customers
+About
+Zero Data Retention
+Sustainable AI
+Our Team and Infrastructure
+Discord
+Sign In
+Home
+Models
+Pricing
+Labs
+Docs
+European data privacy
+Sustainable AI
+GPU Cloud Infrastructure
+Discord
+Sign In
+About Regolo
+The Infrastructure Behind
+Your AI Models
+When you use Regolo.ai to access artificial intelligence models via API, you don't need to worry about what happens behind the scenes. Supporting it all is Seeweb's GPU infrastructure, which provides accelerated, modular, and pay-as-you-go computing resources. This means you always have the power you need, without ever having to configure or manage physical servers.
+Generate Your Key
+Read the Docs
+Infrastructure
+Enterprise-Grade GPUs, Instantly Available
+Our infrastructure is powered by Seeweb's cloud, integrating the most advanced GPUs on the market through a serverless, pay-as-you-go model. GPUs scale dynamically with your workload, with zero hardware management required on your side.
+With Regolo.ai and Seeweb, the power of next-generation GPUs becomes invisible: you focus on your models, and we take care of the rest.
+AMD MI300X
+NVIDIA H200
+NVIDIA H100
+NVIDIA A100
+more to come
+Zero Infra Management
+We handle the hardware with Seeweb
+Guaranteed Performance
+GPUs optimized for AI, reduced latency
+Full Transparency
+Token/WATT energy monitoring
+European & GDPR
+Hosted in Europe, fully compliant
+Cost Efficient
+Pay only for what you use
+Auto-Scaling
+Dynamic GPU provisioning
+Kubernetes Native
+API & automation compatible
+VAST Data Storage
+High-performance data-centric platform
+Data Centers
+Where Our Infrastructures Are Located
+Regolo.ai's inference infrastructures are physically hosted in data centers strategically distributed across Europe, ensuring low latency, reliability, and compliance with European regulations.
+All involved data centers are certified and powered by renewable energy sources, contributing to more sustainable AI infrastructures without compromising performance and operational standards.
+🇮🇹
+Lazio, Italy
+Province of Frosinone, near Rome
+A central location in an industrial area that ensures high connectivity to major European networks. This strategic positioning provides optimal routing and minimal latency for inference requests across the continent.
+🇮🇹
+Lombardy, Italy
+One of Europe's leading digital hubs
+One of Europe's leading digital and industrial hubs. The Lombardy region offers world-class connectivity infrastructure and access to a vibrant technology ecosystem.
+🇪🇺
+Ecosystem & DHH S.p.A.
+The infrastructures extend through the Caldera ecosystem, further enhancing resilience and performance. The network continues to expand thanks to additional regions provided by DHH S.p.A., a European group specialized in cloud computing and infrastructure services of which Regolo.ai is part, enabling broader geographic workload distribution and increased operational continuity.
+Renewable Energy
+GDPR Compliant
+Certified DCs
+European Network
+Our Team
+The People Behind Regolo
+A dedicated team of engineers, researchers, and innovators working to make AI accessible, sustainable, and sovereign for everyone in Europe.
+Marco Cristofanilli
+Founder
+Head of AI at Seeweb, where he built the GPUaaS AI infrastructure. Speaker, cloud expert and K8s enthusiast with 20+ years’ experience.
+Eugenio Petullà
+AI Alchemist
+Bridging math, open source, tech speaking and automation to transform your AI products into digital gold.
+Daniele Scasciafratte
+Backend developer
+Proxy Developer at Regolo.ai & Codeat CTO. Author "How to contribute to Open Source: the right way" with a decade of tech speaking and Open Source activities.
+Daniele Vona
+Cloud Manager at Seeweb
+Driving GPU infrastructure at regolo.ai. Specialist in secure cloud and hybrid architectures with 20+ years’ experience.
+Chiara Grande
+Marketing & Partnership
+Chiara is responsible for communication, relationhips, and partnerships at Regolo, as well as for organizing events that promote the brand.
+Andrea Nardoni
+Junior SRE
+Software Developer at Seeweb/Regolo.ai bridging cloud-native infrastructure and AI. Focused on Kubernetes, LLMs, and GPU cloud optimization.
+Francesco Massa
+Applied AI Scientist
+I like reading papers, using expensive GPUs  & doing research on low level AI & ML.
+Fabrizio Bartolomeo
+Software developer
+Computer science student, and coding enthusiast. I aim to foster collaboration between engineering and humanities worlds at all levels.
+Ready to Experience European AI Infrastructure?
+Start building with powerful GPUs, zero infrastructure management, and full European compliance. No credit card required.
+Free 30-day trial
+No credit card required
+GDPR Compliant
+100% Green Energy
+Start Your Free Trial
+Explore the Docs
+Have questions or need a custom plan?
+Join our community on Discord
+or
+contact us
+.
+Resources
+Contacts
+Models Library
+Builder Program
+Models Status
+Integrations
+FAQ
+Legal
+Terms & Conditions
+Privacy Policy
+Cookie Policy
+Cookie Preferences
+DPA
+Top Models
+GLM 5.2
+Qwen 3.5 - 122b
+Faster Whisper Large v3
+Gemma 4 - 31b
+GPT OSS - 120b
+Latest Posts
+Getting started with context-mode and headroom: understand large codebases at 92% lower token cost
+AI review responses with guardrails: Clef-Flash decides, an LLM writes, a person approves
+EmbeddingGemma 2 vs Qwen3-Embedding (0.6B & 8B): Code Retrieval, Matryoshka Compression, and Reranking Benchmarks
+Developed in EU with love, compliance, and green spirit by DHH.
+© Seeweb S.r.l. – c.s. 103.000 EURO - CCIAA 17793/98 - VAT IT02043220603
+Datacenter Certifications

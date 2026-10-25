@@ -1,0 +1,391 @@
+Quelle: https://web.archive.org/web/20260812102423id_/https://www.facebook.com/legal/terms/Privacy/GDTA (Wayback-Kopie)
+Abruf: 2026-10-23 01:32:21 +0200
+
+Facebook
+
+Facebook
+
+Log In
+
+We’re updating this page. To preview the new terms, please click here. These changes will go into effect on August 21, 2026
+
+Meta Global Data Transfer Addendum
+
+Part I
+
+Definitions
+In this Meta Global Data Transfer Addendum (“Transfer Addendum”):
+
+“Affiliate” means, with respect to a party, an entity which, directly or indirectly, owns or controls, is owned or is controlled by, or is under common ownership or control of a party. As used in this term, “control” means the power to direct the management or affairs of an entity, and “ownership” means the beneficial ownership of fifty percent (50%) (or, if the applicable jurisdiction does not allow majority ownership, the maximum amount permitted under such law) or more of the voting equity securities or other equivalent voting interests of the entity.
+
+“Agreement” means each agreement, contract, or written instrument that Company enters into with Meta that incorporates by reference this Transfer Addendum, including any other terms (including data protection addendums) incorporated into such document.
+
+“Applicable Law” means any applicable law, regulation, directive, or other binding requirements (each as may be implemented, amended, extended, superseded, or re-enacted from time to time), including but not limited to, for the avoidance of doubt, Data Protection Requirements.
+
+“Company” means the entity that entered into the Agreement with Meta.
+
+“Data Protection Requirements” means each of the following, as applicable:
+
+“Brazil Data Protection Requirements” means any and all Applicable Law related to data protection, data security, marketing, privacy, or the Processing of Personal Data in Brazil, including, but not limited to the General Personal Data Protection Law, Law No. 13.709/2018.
+
+“KSA Data Protection Requirements” means any and all Applicable Law related to data protection, data security, marketing, privacy, or the Processing of Personal Data in the Kingdom of Saudi Arabia, including, but not limited to the Personal Data Protection Law issued by Royal Decree No. M/19 dated 9/2/1443H (as amended) (“PDPL”), the Implementing Regulation of the PDPL and the Regulation on the Transfer of Personal Data Outside the Kingdom.
+
+“LATAM and Canada Data Protection Requirements” means any and all Applicable Law other than Brazil Data Protection Requirements related to data protection, data security, marketing, privacy, or the Processing of Personal Data in the countries of South America, Central America, Mexico, or Canada.
+
+“Türkiye Data Protection Requirements” means any and all Applicable Law related to data protection, data security, marketing, privacy, or the Processing of Personal Data in Türkiye, including, but not limited to the Regulation on Procedure and Principles regarding Transfer of Personal Data Abroad and the Law on Protection of Personal Data numbered 6698.
+
+“Data Security Terms” means the terms available at https://www.facebook.com/legal/terms/data_security_terms (or a successor location).
+
+“Meta” means Meta Platforms, Inc. and/or its Affiliate(s) entity(ies) that entered into the Agreement with Company.
+
+“Personal Data” means any Personal Information that is Processed by Company or Meta pursuant to the Agreement, to the extent that Data Protection Requirements apply to such Processing.
+
+“Personal Information” means any information in any form, whether true or not, that identifies, relates to, describes, is capable of being associated with, or could be linked directly, or indirectly, to or used to identify, contact or locate a natural person. The term “Personal Information” includes any “personal information,” “personal data,” “personally identifiable information,” “nonpublic personal data,” or similar terms as defined by Data Protection Requirements, and also covers information of juristic persons and deceased natural persons where required under Data Protection Requirements.
+
+“Processing,” “Process,” or “Processed” means any operation or set of operations which is performed on Personal Information or on sets of Personal Information, whether or not by automated means, including access, obtaining, collection, recording, organization, structuring, storage, adaptation, alteration, retrieval, consultation, use, disclosure, transmission, dissemination, making available, alignment, combination, restriction, erasure or destruction.
+
+“SCCs” means, collectively, the following contractual clauses which are incorporated herein by reference:
+
+The Brazilian Data Protection Authority’s standard contractual clauses for international data transfers pursuant to Law No. 13,709 as set out in Annex II of Resolution CD / ANPD No. 19, available at https://www.gov.br/anpd/pt-br/centrais-de-conteudo/outros-documentos-e-publicacoes-institucionais/regulation-on-international-transfer-of-personal-data.pdf (or a successor location) (“Brazil SCCs”).
+
+The Ibero-American Data Protection Network’s model contractual clauses for international data transfers, as published by the Ibero-American Data Protection Network, available at https://www.redipd.org/en/document/annex-model-contractual-clauses-en.pdf (or a successor location) (“LATAM and Canada SCCs”).
+
+The standard contractual clauses for personal data transfer approved by the Saudi Data and Artificial Intelligence Authority pursuant to the Regulation on Personal Data Transfer Outside the Kingdom under the PDPL, the Implementing Regulation of the PDPL and the Regulation on the Transfer of Personal Data Outside the Kingdom, available at https://sdaia.gov.sa/Documents/StandardContractualClausesForPersonalDataTransferEN.pdf (or a successor location) (“KSA SCCs”).
+
+The standard contracts approved by the Personal Data Protection Board of Türkiye with its decision dated June 4, 2024 and numbered 2024/959, available at https://kvkk.gov.tr/Icerik/7938/Standart-Sozlesmeler-ve-Baglayici-Sirket-Kurallarina-Iliskin-Dokumanlar-Hakkinda-Kamuoyu-Duyurusu (or a successor location) (“Türkiye SCCs”).
+
+General
+
+No Modification to SCCs. For avoidance of doubt, nothing in the Agreement including but not limited to this Transfer Addendum is intended to vary or modify any SCCs or prejudice the fundamental rights or freedoms of any natural person.
+
+Adequate Countries or Territories. Parts II-III of this Transfer Addendum shall each not apply to the extent that Personal Data is transferred to a country or territory which is, at the time of such transfer, deemed to ensure an adequate level of protection under the Data Protection Requirements referenced in each respective Part and Section.
+
+Technical and Organizational Measures. For purposes of this Transfer Addendum, Meta and Company shall implement and maintain the technical and organisational security measures set out in the Data Security Terms and hereby amend the definitions for the following terms as used therein as follows: “Meta” shall mean “each party”; “Applicable Product Terms” shall mean “Agreement”; “Applicable Products” shall mean “the processing of Personal Data applicable to the Agreement”; and “Covered Data” shall mean “Personal Data”.
+
+No Optional Clauses Unless Specified. Meta and Company agree that any optional clauses, paragraphs, or language in the SCCs that are not required by Applicable Law are not incorporated unless explicitly specified in the Agreement.
+
+Binding Agreement. Meta and Company agree that the SCCs, to the extent applicable, constitute valid and binding agreements between them.
+
+Regulatory Approval. Where regulatory approval is required under Applicable Law for Company’s use of any SCCs, Company represents that it has obtained such approval or shall obtain such approval at such time when such approval is required.
+
+Alternative Format of SCCs. Each party shall promptly comply with any request by the other party to enter into the SCCs in any alternative format that may be required by Data Protection Requirements (e.g., wet-ink signature), which shall be executed in accordance with this Transfer Addendum and Meta’s and Company’s respective designation as Controller or Processor as specified herein.
+
+Description of Transfer. To the extent required under Data Protection Laws, applicable party and transfer details are set forth in the Processing Details Addendum of the applicable Part.
+
+Conflicts.
+
+All definitions and capitalized terms provided for in the SCCs are hereby adopted “as is” where such SCCs apply to the Processing of Personal Data. If there is a conflict or inconsistency between this Transfer Addendum and any SCCs, the term or definition from the SCCs shall govern to the extent such SCCs apply to the Processing of Personal Data.
+
+If there is conflict or inconsistency between the SCCs of different jurisdictions applying to the same Processing activity, the term that is most protective of Personal Data shall apply.
+
+If Meta or Company enters into the SCCs pursuant to Section 2(g) of Part I of this Transfer Addendum, those terms shall take precedence over any conflicting terms in this Transfer Addendum, to the extent applicable.
+
+If the SCCs or their use in connection with the Agreement are deemed invalid by the relevant regulator for whatever reason and are replaced by other SCCs or another valid transfer mechanism issued or approved by the relevant regulator, Meta and Company shall promptly implement such other SCCs or such replacement transfer mechanism for transferring Personal Data.
+
+Other. Meta may update this Transfer Addendum from time to time and will provide Company with reasonable advance notice of any material updates, unless otherwise required by law.
+
+Part II.A: Meta as Data Importer
+
+Brazil. To the extent that Personal Data which is subject to Brazil Data Protection Requirements is transferred by Company to Meta in connection with the Agreement, such Processing shall be governed by the Brazil SCCs. Where this paragraph applies:
+
+For purposes of the Brazil SCCs:
+
+Where Meta and Company are Controllers, the Exporter and Designated Party shall be Company and the Importer shall be Meta;
+
+Where Meta is a Controller and Company is a Processor, the Exporter shall be Company and the Importer and Designated Party shall be Meta;
+
+Where Meta is a Processor and Company is a Processor, the Exporter shall be Company and the Importer shall be Meta and the applicable Controller and its contact details are as specified in the Agreement; and
+
+Where Meta is a Processor and Company is a Controller, the Exporter and Designated Party shall be Company and the Importer shall be Meta.
+
+Unless otherwise prohibited under the Agreement, Meta is authorized to carry out Onward Transfers of Personal Data provided all provisions of Clause 18 of the Brazil SCCs as well as all applicable provisions of the Agreement are observed.
+
+Kingdom of Saudi Arabia (“KSA”). To the extent that Personal Data which is subject to KSA Data Protection Requirements is transferred by Company to Meta in connection with the Agreement, such Processing shall be governed by the KSA SCCs. For purposes of the KSA SCCs:
+
+Where Meta and Company are Controllers, the Personal Data Exporter shall be Company, the Personal Data Importer shall be Meta, and the First Template (“Controller to Controller”) shall apply;
+
+Where Meta is a Processor and Company is a Controller, the Personal Data Exporter shall be Company, the Personal Data Importer shall be Meta, and the Second Template (“Controller to Processor”) shall apply;
+
+Where Meta is a Processor and Company is a Processor, the Personal Data Exporter shall be Company, the Personal Data Importer shall be Meta, and the Third Template (“Processor to Processor”) shall apply; and
+
+Where Meta is a Controller and Company is a Processor, the Personal Data Exporter shall be Company, the Personal Data Importer shall be Meta, and the Fourth Template (“Processor to Controller”) shall apply.
+
+LATAM and Canada. To the extent that Personal Data which is subject to LATAM and Canada Data Protection Requirements is transferred by Company to Meta in connection with the Agreement, such Processing shall be governed by the LATAM and Canada SCCs. Where this paragraph applies:
+
+For purposes of the LATAM and Canada SCCs:
+
+Where Meta and Company are Controllers, the Data Exporter shall be Company, the Data Importer shall be Meta, and the “Controller to Controller” clauses shall apply; and
+
+Where Meta is a Processor and Company is a Controller, the Data Exporter shall be Company, the Data Importer shall be Meta, and the “Controller to Processor” clauses shall apply. For Clause 7 in those clauses: Option 2 (general written authorization) is selected. Unless otherwise prohibited under the Agreement, Meta is authorized to carry out Onward Transfers of Personal Data to the Sub-processors included in the Agreement in accordance with Clause 7.
+
+Competent Supervisory Authority: according to Applicable Law.
+
+Türkiye. To the extent that Personal Data which is subject to Türkiye Data Protection Requirements is transferred by Company to Meta in connection with the Agreement, such Processing shall be governed by the Türkiye SCCs. For purposes of the Türkiye SCCs:
+
+Where Meta and Company are Controllers, the data exporter shall be Company, the data importer shall be Meta, and the “Data Controller to Data Controller” contract shall apply;
+
+Where Meta is a Controller and Company is a Processor, the data exporter shall be Company, the data importer shall be Meta, and the “Data Processor to Data Controller” contract shall apply;
+
+Where Meta is a Processor and Company is a Processor, the data exporter shall be Company, the data importer shall be Meta, and the “Data Processor to Data Processor” contract shall apply;
+
+Where Meta is a Processor and Company is a Controller, the data exporter shall be Company, the data importer shall be Meta, and the “Data Controller to Data Processor” contract shall apply.
+
+Part II.B: Processing Details Addendum: Meta as Data Importer
+
+Parties
+
+Start Date
+
+The date upon which the parties enter into the Agreement.
+
+The Parties
+
+Exporter
+
+Importer
+
+Parties’ details
+
+Full legal name:
+
+As specified in Company’s online account or payout settings of its account with Meta or as otherwise specified in the Agreement.
+
+Main address (if a company registered address):
+
+As specified in Company’s online account or payout settings of its account with Meta or as otherwise specified in the Agreement.
+
+Full legal name:
+
+The Meta contracting entity specified in the Agreement.
+
+Main address (if a company registered address):
+
+As specified in the Agreement.
+
+Key Contact
+
+Contact person’s name, position, email, and contact details:
+
+As specified in Company’s contact details associated with its Meta account, or as notified by the data exporter to the data importer from time to time.
+
+Contact person’s name, position, email, and contact details:
+
+As notified by the data importer to the data exporter from time to time.
+
+Contact for data subjects
+
+The contact details are available from Company directly.
+
+The contact details are available in Meta's Privacy Policy.
+
+Signature (if required)
+
+The parties agree that execution of the Agreement by the parties shall constitute execution of this Transfer Addendum.
+
+The parties agree that execution of the Agreement by the parties shall constitute execution of this Transfer Addendum.
+
+Transfer
+
+Categories of data subjects whose personal data is transferred
+
+As specified in the Agreement.
+
+Categories of personal data transferred
+
+As specified in the Agreement.
+
+Categories sensitive personal data transferred (if applicable)
+
+None, unless specified in the Agreement.
+
+Frequency of the transfer
+
+Continuous for the duration of the Agreement.
+
+Purpose of the data transfer and further processing
+
+The data importer will process Personal Data for the purposes described in the Agreement.
+
+The period for which the personal data will be retained, or, if that is not possible, the criteria used to determine that period
+
+Until deletion in accordance with the provisions of the Agreement.
+
+For transfers to sub-processors (if applicable), also specify subject matter, nature and duration of the processing
+
+As specified above.
+
+Subprocessors
+
+As specified in the Agreement (if applicable).
+
+Part III.A: Meta as Data Exporter
+
+Brazil. To the extent that Personal Data which is subject to Brazil Data Protection Requirements is transferred by Meta to Company in connection with the Agreement, such Processing shall be governed by the Brazil SCCs. Where this paragraph applies:
+
+For purposes of the Brazil SCCs:
+
+Where Meta and Company are Controllers, the Exporter shall be Meta and the Importer and Designated Party shall be Company;
+
+Where Meta is a Controller and Company is a Processor, the Exporter and Designated Party shall be Meta and the Importer shall be Company;
+
+Where Meta is a Processor and Company is a Processor, the Exporter shall be Meta and the Importer shall be Company and the applicable Controller and its contact details are as specified in the Agreement; and
+
+Where Meta is a Processor and Company is a Controller, the Exporter shall be Meta and the Importer and Designated Party shall be Company.
+
+Unless otherwise prohibited under the Agreement, Company is authorized to carry out Onward Transfers of Meta Platforms Data provided all provisions of Clause 18 of the Brazil SCCs as well as all applicable provisions of the Agreement are observed.
+
+Kingdom of Saudi Arabia (“KSA”). To the extent that Personal Data which is subject to KSA Data Protection Requirements is transferred by Meta to Company in connection with the Agreement, such Processing shall be governed by the KSA SCCs. For purposes of the KSA SCCs:
+
+Where Meta and Company are Controllers, the Personal Data Exporter shall be Meta, the Personal Data Importer shall be Company, and the First Template (“Controller to Controller”) shall apply;
+
+Where Meta is a Controller and Company is a Processor, the Personal Data Exporter shall be Meta, the Personal Data Importer shall be Company, and the Second Template (“Controller to Processor”) shall apply;
+
+Where Meta is a Processor and Company is a Processor, the Personal Data Exporter shall be Meta, the Personal Data Importer shall be Company, and the Third Template (“Processor to Processor”) shall apply; and
+
+Where Meta is a Processor and Company is a Controller, the Personal Data Exporter shall be Meta, the Personal Data Importer shall be Company, and the Fourth Template (“Processor to Controller”) shall apply.
+
+LATAM and Canada. To the extent that Personal Data subject to LATAM and Canada Data Protection Requirements is transferred by Meta to Company in connection with the Agreement, such Processing shall be governed by the LATAM and Canada SCCs. Where this paragraph applies:
+
+For purposes of the LATAM and Canada SCCs:
+
+Where Meta and Company are Controllers, the Data Exporter shall be Meta, the Data Importer shall be Company, and the “Controller to Controller” clauses shall apply; and
+
+Where Meta is a Controller and Company is a Processor, the Data Exporter shall be Meta, the Data Importer shall be Company, the “Controller to Processor” clauses shall apply. For Clause 7 in those clauses: Option 2 (general written authorization) is selected. Unless otherwise prohibited under the Agreement, Meta is authorized to carry out Onward Transfers of Personal Data to the Sub-processors included in the Agreement in accordance with Clause 7.
+
+Competent Supervisory Authority: according to Applicable Law.
+
+Türkiye. To the extent that Personal Data subject to Türkiye Data Protection Requirements is transferred by Meta to Company in connection with the Agreement, such Processing shall be governed by the Türkiye SCCs. For purposes of the Türkiye SCCs:
+
+Where Meta and Company are Controllers, the data exporter shall be Meta, the data importer shall be Company, and the “Data Controller to Data Controller” contract shall apply;
+
+Where Meta is a Controller and Company is a Processor, the data exporter shall be Meta, the data importer shall be Company, and the “Data Controller to Data Processor” contract shall apply;
+
+Where Meta is a Processor and Company is a Processor, the data exporter shall be Meta, the data importer shall be Company, and the “Data Processor to Data Processor” contract shall apply; and
+
+Where Meta is a Processor and Company is a Controller, the data exporter shall be Meta, the data importer shall be Company, and the “Data Processor to Data Controller” contract shall apply.
+
+Part III.B: Processing Details Addendum: Meta as Data Exporter
+
+Parties
+
+Start Date
+
+The date upon which the parties enter into the Agreement.
+
+The Parties
+
+Exporter
+
+Importer
+
+Parties’ details
+
+Full legal name:
+
+The Meta contracting entity specified in the Agreement.
+
+Main address (if a company registered address):
+
+As specified in the Agreement.
+
+Full legal name:
+
+As specified in Company’s online account or payout settings of its account with Meta or as otherwise specified in the Agreement.
+
+Main address (if a company registered address):
+
+As specified in Company’s online account or payout settings of its account with Meta or as otherwise specified in the Agreement.
+
+Key Contact
+
+Contact person’s name, position, email, and contact details:
+
+As notified by the data exporter to the data importer from time to time.
+
+Contact person’s name, position, email, and contact details:
+
+As specified in Company’s contact details associated with its Meta account, or as notified by the data importer to the data exporter from time to time.
+
+Contact for data subjects
+
+The contact details are available in Meta's Privacy Policy.
+
+The contact details are available from Company directly.
+
+Signature (if required)
+
+The parties agree that execution of the Agreement by the parties shall constitute execution of this Transfer Addendum.
+
+The parties agree that execution of the Agreement by the parties shall constitute execution of this Transfer Addendum.
+
+Transfer
+
+Categories of data subjects whose personal data is transferred
+
+As specified in the Agreement.
+
+Categories of personal data transferred
+
+As specified in the Agreement.
+
+Categories sensitive personal data transferred (if applicable)
+
+None, unless specified in the Agreement.
+
+Frequency of the transfer
+
+Continuous for the duration of the Agreement.
+
+Purpose of the data transfer and further processing
+
+The data importer will process Personal Data for the purposes described in the Agreement.
+
+The period for which the personal data will be retained, or, if that is not possible, the criteria used to determine that period
+
+Until deletion in accordance with the provisions of the Agreement.
+
+For transfers to sub-processors (if applicable), also specify subject matter, nature and duration of the processing
+
+As specified above.
+
+Subprocessors
+
+As specified in the Agreement (if applicable).
+
+English (US)
+
+Español
+
+Français (France)
+
+中文(简体)
+
+العربية
+
+Português (Brasil)
+
+Italiano
+
+한국어
+
+Deutsch
+
+हिन्दी
+
+日本語
+
+Sign UpLog InMessengerFacebook LiteVideoMeta PayMeta StoreMeta QuestRay-Ban MetaMeta AIInstagramThreadsPrivacy PolicyConsumer Health PrivacyPrivacy CenterAboutCreate adCreate PageDevelopersCareersCookiesAd choicesTermsHelpContact Uploading & Non-Users
+
+Privacy  ·
+
+Consumer Health Privacy  ·
+
+Terms  ·
+
+Advertising  ·
+
+Ad Choices   ·
+
+Cookies  ·
+
+More

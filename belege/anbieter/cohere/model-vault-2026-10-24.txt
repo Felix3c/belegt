@@ -1,0 +1,910 @@
+Quelle: https://cohere.com/solutions/model-vault
+Abruf: 2026-10-24 00:29:55 +0200
+
+Model Vault | Dedicated Model Inference Platform | Cohere
+
+Skip to content
+
+Rerank 5 is here: sharper search, fewer tokens. Now with Context Focus.
+Learn more
+
+[Cohere]
+
+ProductsProducts
+
+SolutionsSolutions
+
+ResourcesResources
+
+BlogBlog
+
+ResearchResearch
+
+CompanyCompany
+
+Sign in
+
+Request a demo
+
+Platform
+
+North
+
+Enterprise-ready AI for business
+
+Compass
+
+Intelligent search and discovery
+
+Models
+
+Command
+
+Generative language models
+
+Transcribe
+
+Speech recognition model
+
+North Small Translate
+
+Machine translation model
+
+Parse
+
+New
+
+Document parsing model
+
+Embed
+
+New
+
+Semantic representation model
+
+Rerank
+
+New
+
+Retrieval optimization model
+
+Models Overview
+
+Product
+
+Products Overview
+
+Total Cost of AI Ownership
+
+Pricing
+
+Featured
+
+North 2: Cohere's latest platform update — with 15+ new features
+
+Deploy
+
+Model Vault
+
+Dedicated model inference platform
+
+Private Deployments
+
+On-prem or isolated VPCs
+
+Security
+
+Protect your data at every stage
+
+See deployment options
+
+By Industry
+
+Financial Services
+
+Public Sector
+
+Technology
+
+Telecommunications
+
+Energy and Utilities
+
+Healthcare
+
+Life Sciences
+
+Manufacturing
+
+Featured
+
+Model Vault provides fully-isolated, performant inference with Saas simplicity
+
+Insights
+
+Customer Stories
+
+For Developers
+
+Developers
+
+Models Overview
+
+Docs
+
+Discord
+
+LLM University
+
+Connect
+
+Partners
+
+Events
+
+Webinars
+
+Merch Store
+
+Featured
+
+How CoreWeave used Cohere North to transform its customer support in 90 days
+
+Blog
+
+The latest news, launches, and insights
+
+Read more
+
+Cohere to acquire AISLE to advance cyber-resilient sovereign AI
+
+North 2: Enterprise AI without compromises
+
+Introducing Embed 5—A new family of frontier embedding models
+
+Research
+
+Cohere Labs
+
+Cohere’s ML research lab
+
+Explorations
+
+Future(s) of Work
+
+How will AI change the way we work?
+
+Aya Models
+
+Multilingual AI at scale
+
+All Papers
+
+Initiatives
+
+Research Scholars
+
+Finding the new generation of ML talent
+
+Open Science Community
+
+Championing global, open science
+
+Catalyst Grants
+
+Supporting impactful ML endeavors
+
+Resources
+
+Blog
+
+Hugging Face
+
+Events
+
+Featured
+
+The future of work debate has an evidence problem
+
+About
+
+Careers
+
+Newsroom
+
+[Cohere]
+
+Products
+
+Solutions
+
+Resources
+
+Blog
+
+Research
+
+Company
+
+Sign in
+
+Request a demo
+
+Platform
+
+North
+
+Enterprise-ready AI for business
+
+Compass
+
+Intelligent search and discovery
+
+Models
+
+Command
+
+Generative language models
+
+Transcribe
+
+Speech recognition model
+
+North Small Translate
+
+Machine translation model
+
+Parse
+
+New
+
+Document parsing model
+
+Embed
+
+New
+
+Semantic representation model
+
+Rerank
+
+New
+
+Retrieval optimization model
+
+Models Overview
+
+Product
+
+Products Overview
+
+Total Cost of AI Ownership
+
+Pricing
+
+Featured
+
+North 2: Cohere's latest platform update — with 15+ new features
+
+Deploy
+
+Model Vault
+
+Dedicated model inference platform
+
+Private Deployments
+
+On-prem or isolated VPCs
+
+Security
+
+Protect your data at every stage
+
+See deployment options
+
+By Industry
+
+Financial Services
+
+Public Sector
+
+Technology
+
+Telecommunications
+
+Energy and Utilities
+
+Healthcare
+
+Life Sciences
+
+Manufacturing
+
+Featured
+
+Model Vault provides fully-isolated, performant inference with Saas simplicity
+
+Insights
+
+Customer Stories
+
+For Developers
+
+Developers
+
+Models Overview
+
+Docs
+
+Discord
+
+LLM University
+
+Connect
+
+Partners
+
+Events
+
+Webinars
+
+Merch Store
+
+Featured
+
+How CoreWeave used Cohere North to transform its customer support in 90 days
+
+Blog
+
+The latest news, launches, and insights
+
+Read more
+
+Cohere to acquire AISLE to advance cyber-resilient sovereign AI
+
+North 2: Enterprise AI without compromises
+
+Introducing Embed 5—A new family of frontier embedding models
+
+Research
+
+Cohere Labs
+
+Cohere’s ML research lab
+
+Explorations
+
+Future(s) of Work
+
+How will AI change the way we work?
+
+Aya Models
+
+Multilingual AI at scale
+
+All Papers
+
+Initiatives
+
+Research Scholars
+
+Finding the new generation of ML talent
+
+Open Science Community
+
+Championing global, open science
+
+Catalyst Grants
+
+Supporting impactful ML endeavors
+
+Resources
+
+Blog
+
+Hugging Face
+
+Events
+
+Featured
+
+The future of work debate has an evidence problem
+
+About
+
+Careers
+
+Newsroom
+
+[Cohere]
+
+Platforms
+
+North
+
+Compass
+
+Product Overview
+
+Models
+
+Command
+
+Transcribe
+
+Embed
+
+Rerank
+
+Aya
+
+Parse
+
+North Small Translate
+
+Models Overview
+
+Customization
+
+Pricing
+
+Industries
+
+Financial Services
+
+Public Sector
+
+Telecommunications
+
+Technology
+
+Energy and Utilities
+
+Healthcare
+
+Life Sciences
+
+Manufacturing
+
+Solutions Overview
+
+Deployment
+
+Model Vault
+
+Private Deployments
+
+Security
+
+Deployment Options
+
+Resources
+
+Blog
+
+Customer Stories
+
+Developers
+
+Documentation
+
+LLM University
+
+Help Center
+
+Connect
+
+Research
+
+Partners
+
+Events
+
+Webinars
+
+Company
+
+About
+
+Careers
+
+Newsroom
+
+Legal
+
+Legal Center
+
+Trust Center
+
+Privacy Policy
+
+Terms of Use
+
+Platforms
+
+North
+
+Compass
+
+Product Overview
+
+Models
+
+Command
+
+Transcribe
+
+Embed
+
+Rerank
+
+Aya
+
+Parse
+
+North Small Translate
+
+Models Overview
+
+Customization
+
+Pricing
+
+Industries
+
+Financial Services
+
+Public Sector
+
+Telecommunications
+
+Technology
+
+Energy and Utilities
+
+Healthcare
+
+Life Sciences
+
+Manufacturing
+
+Solutions Overview
+
+Deployment
+
+Model Vault
+
+Private Deployments
+
+Security
+
+Deployment Options
+
+Resources
+
+Blog
+
+Customer Stories
+
+Developers
+
+Documentation
+
+LLM University
+
+Help Center
+
+Connect
+
+Research
+
+Partners
+
+Events
+
+Webinars
+
+Company
+
+About
+
+Careers
+
+Newsroom
+
+Legal
+
+Legal Center
+
+Trust Center
+
+Privacy Policy
+
+Terms of Use
+
+Platforms
+
+North
+
+Compass
+
+Product Overview
+
+Models
+
+Command
+
+Transcribe
+
+Embed
+
+Rerank
+
+Aya
+
+Parse
+
+North Small Translate
+
+Models Overview
+
+Customization
+
+Pricing
+
+Industries
+
+Financial Services
+
+Public Sector
+
+Telecommunications
+
+Technology
+
+Energy and Utilities
+
+Healthcare
+
+Life Sciences
+
+Manufacturing
+
+Solutions Overview
+
+Deployment
+
+Model Vault
+
+Private Deployments
+
+Security
+
+Deployment Options
+
+Resources
+
+Blog
+
+Customer Stories
+
+Developers
+
+Documentation
+
+LLM University
+
+Help Center
+
+Connect
+
+Research
+
+Partners
+
+Events
+
+Webinars
+
+Company
+
+About
+
+Careers
+
+Newsroom
+
+Legal
+
+Legal Center
+
+Trust Center
+
+Privacy Policy
+
+Terms of Use
+
+[LinkedIn] [X] [Instagram] [Discord] [Reddit] [Youtube] [Email]
+
+Cohere ©2026
+
+Manage Cookies
+
+English
+
+English
+
+日本語
+
+한국어
+
+Français
+
+Deutsch
+
+MODEL VAULT
+
+Build fast. Stay in control.
+
+Model Vault is your dedicated, fully managed SaaS inference platform for Cohere models. Get the convenience of an API with the security of private hosting without the operational overhead.
+
+Start now
+Talk to sales
+
+[Video thumbnail]
+
+Trusted by the world’s leading enterprises
+
+[Oracle Logo]
+
+[Dell Technologies Logo]
+
+[RBC Logo]
+
+[LG CNS Logo]
+
+[Fujitsu Logo]
+
+[Bell Logo]
+
+[Asana Logo]
+
+[RWS Logo]
+
+[SAP Logo]
+
+[Salesforce Logo]
+
+[TD Bank Logo]
+
+[Ensemble Logo]
+
+[Second Front Logo]
+
+[McKinsey & Company Logo]
+
+[Accenture Logo]
+
+[BambooHR Logo]
+
+[STC Logo]
+
+[Carahsoft Logo]
+
+[Oracle Logo]
+
+[Dell Technologies Logo]
+
+[RBC Logo]
+
+[LG CNS Logo]
+
+[Fujitsu Logo]
+
+[Bell Logo]
+
+[Asana Logo]
+
+[RWS Logo]
+
+[SAP Logo]
+
+[Salesforce Logo]
+
+[TD Bank Logo]
+
+[Ensemble Logo]
+
+[Second Front Logo]
+
+[McKinsey & Company Logo]
+
+[Accenture Logo]
+
+[BambooHR Logo]
+
+[STC Logo]
+
+[Carahsoft Logo]
+
+Fully isolated, high-performance inference. Minus the infrastructure burden.
+
+Decouple inference from development. Let Model Vault take care of model scaling and serving — so you can focus on building.
+
+[Lower cost of ownership icon]
+
+Lower cost of ownership
+
+Reduce the expense of provisioning and operating production-grade AI infrastructure, including GPU procurement.
+
+[Guaranteed performance icon]
+
+Guaranteed performance
+
+Run unlimited, auto-scaled production workloads without rate limits or performance degradation from resource sharing.
+
+[Full network isolation icon]
+
+Full network isolation
+
+Keep your proprietary AI systems compliant, secure, and under your control with fully-isolated model-serving infrastructure.
+
+Enterprise-grade control. SaaS simplicity.
+
+[Cohere-managed platform image]
+
+Cohere-managed platform
+
+We take full operational responsibility for model deployments, maintenance, updates, and scaling.
+
+Full model support
+
+Get access to all our latest embedding, reranker, and generative models.
+
+Self-serve
+
+Create your Model Vault in minutes and launch new models instantly.
+
+Real-time monitoring
+
+Optimize your model operations by tracking live changes in request rates, latency, and token usage.
+
+Confidential Computing keeps your data protected
+
+Confidential Computing inside Model Vault creates a safe and trustworthy execution environment. Memory of in-use data is fully encrypted with keys held inside the hardware, so nobody can look inside.
+
+Any code outside the boundary of your encrypted model vault cannot read the encrypted data, and If verification is needed, seals can be checked on demand to make sure your Model Vault and the data going through it are perfectly safe, and will stay that way.
+
+[Confidential Compute ]
+
+[Confidential Compute ]
+
+[Model Vault page featured graphic]
+
+[Model Vault page featured graphic]
+
+Supercharge your agentic AI stacks
+
+Model Vault plugs seamlessly into any North deployment — engineered to absorb bursty, high-throughput agentic workloads at scale.
+
+Accelerate production using Model Vault as North’s model inference layer
+
+Deploy North’s application control plane with CPU-only infrastructure
+
+Let Cohere handle model inference, GPU optimization, model updates, and scaling
+
+Our Zero Data Retention (ZDR) policy ensures none of your data is stored after processing
+
+Go North
+
+Take full control
+
+of your AI deployment
+
+As one of our private deployment customers, you’ll receive comprehensive technical support at every stage of the rollout.
+
+Our solutions architects will help tailor the deployment to your specific needs
+
+Our Applied Machine Learning (AML) team will optimize your AI model for accuracy and efficiency
+
+Our customer success managers will help ensure your deployment delivers long-term business value

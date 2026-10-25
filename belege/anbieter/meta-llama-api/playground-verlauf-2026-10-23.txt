@@ -1,0 +1,33 @@
+Quelle: https://dev.meta.ai/help/playground/chat-history
+Abruf: 2026-10-23 01:19:29 +0200
+
+AI Developer Help Center
+
+Meta
+
+StatusContact us
+
+Menu
+
+Status
+
+Contact us
+
+Close popover
+
+Back to Help Center
+
+Where do I find my Playground chat history?
+
+The Playground saves your conversations so you can pick up where you left off.
+
+Select the History tab at the top of the Playground to see your past conversations. Choose one to reopen it and keep chatting. Your history stays available after you refresh or return to the Playground later.
+
+If you need a record of your conversation data beyond the Playground, you can download your account information.
+
+Terms of ServiceAcceptable Use Policy
+
+Please confirm your identity
+For added security, you need to confirm your identity. You will be taken to your single sign-on provider, where you can enter your password.
+
+CancelContinue

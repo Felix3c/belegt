@@ -1,0 +1,12 @@
+Abruf 25.10.2026 ~13:15 MEZ, Schnittstelle der amtlichen DPF-Liste (dieselbe, die www.dataprivacyframework.gov/list im Browser aufruft; Anfrageformat wie in dpf-amazon-2026-10-23/LIESMICH.txt).
+Anlass: Die Seiten www.dataprivacyframework.gov/list und /participant/<Id> laden ihren Text erst im Browser (12 Wörter Hülle, Block DÜNN im Quellenlauf). Der Quellenlauf sieht dort nur die Hülle; diese Abfrage prüft die Angaben selbst.
+Liste zuletzt geändert laut /api/participants/filemodified: "Sunday, October 25, 2026 6:00 AM EST".
+Summen in den Antworten: 3688 aktive, 7623 Einträge insgesamt (23.10.: 3686 / 7622).
+Ergebnis:
+- Einträge 5776 (Amazon.com, Inc.), 6474 (Microsoft Corporation), 5780 (Google LLC), 4452 (Meta Platforms, Inc.): Feld für Feld gleich wie die Kopien vom 22.10. (dpf-2026-10-22) bzw. 23.10. (dpf-amazon-2026-10-23, dpf-meta-2026-10-23).
+  Amazon EU-US "Active", nur Nicht-HR, bis 02.01.2027; Microsoft "Active", HR + Nicht-HR, bis 31.08.2027; Google "Active", HR + Nicht-HR, bis 13.09.2027; Meta "Active - Re-certification under Review", nur Nicht-HR, bis 23.07.2027.
+- Suche OpenAI, Open AI, Anthropic, Claude (je aktiv und alle Status): 0 Treffer.
+- Suche Cohere: aktiv 1 Treffer (OpaVote), alle Status 2 (Coherent Inc., OpaVote), ohne Bezug zu Cohere.
+- Gegenprobe Microsoft, Amazon, Google LLC, Meta Platforms: je 1 Treffer, die Abfrage funktioniert.
+Keine Profilangabe geändert.
+robots.txt der Seite: Disallow leer (Prüfung 25.10.2026).

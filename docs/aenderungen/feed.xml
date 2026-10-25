@@ -5,70 +5,532 @@
   <id>https://belegbar.eu/aenderungen/</id>
   <link rel="alternate" href="https://belegbar.eu/aenderungen/"/>
   <link rel="self" href="https://belegbar.eu/aenderungen/feed.xml"/>
-  <updated>2026-10-22T00:00:00Z</updated>
+  <updated>2026-10-25T00:00:00Z</updated>
   <rights>CC BY 4.0</rights>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-aleph-alpha-zertifikate-iso-27001-.anwendungsbereich</id>
+    <title>Aleph Alpha: ISO 27001: Anwendungsbereich unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-aleph-alpha-zertifikate-iso-27001-.anwendungsbereich"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat-PDF (Stand 01.12.2025), abgerufen 25.10.2026 über den Knopf 'Download certificate' auf https://www.dqsglobal.com/en/customer-database/aleph-alpha-gmbh2 (im Browser; Skript erhält HTTP 403). Am 08.10.2026 war die Datenbank noch ganz gesperrt. Gleicher Scope-Satz für alle drei Standorte im Anhang (Ausgabe 2025-11-29). Ein bestimmtes Produkt (z. B. PhariaAI) nennt der Scope nicht. Die Erklärung zur Anwendbarkeit selbst ist nicht öffentlich. · Neue Quelle: https://www.dqsglobal.com/en/customer/download/15518912117253675202</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-aleph-alpha-zertifikate-iso-27001-.zertifizierer</id>
+    <title>Aleph Alpha: ISO 27001: Zertifizierer, Quelle geändert</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-aleph-alpha-zertifikate-iso-27001-.zertifizierer"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat-PDF (abgerufen 25.10.2026): 'Accredited Body: DQS GmbH, August-Schanz-Straße 21, 60433 Frankfurt am Main, Germany', unterzeichnet für die DQS GmbH. Zertifikatsnummer 31623205 ISMS22. Bis zum 25.10.2026 stand hier nur 'DQS', weil Gesellschaft und Nummer nicht einsehbar waren. · Alte Quelle: https://www.dqsglobal.com/en/customer-database/aleph-alpha-gmbh · Neue Quelle: https://www.dqsglobal.com/en/customer/download/15518912117253675202</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-amazon-bedrock-zertifikate-iso-iec-42001</id>
+    <title>Amazon Bedrock (AWS), Modell-Plattform: Zertifikat ISO/IEC 42001 beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-amazon-bedrock-zertifikate-iso-iec-42001"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat selbst eingesehen (Schellman Nr. 1821017-2, ISO/IEC 42001:2023, Inhaber Amazon Web Services, Inc., ausgestellt 20.11.2025, erstmals 15.11.2024, gültig bis 14.11.2027, Version 2), öffentlich im Zertifikatsverzeichnis von Schellman (www.schellman.com/certificate-directory, Abruf 25.10.2026). Bei AWS nur im Konto: „Customers can access the AWS ISO/IEC 42001:2023 Certificate in the AWS Management Console through AWS Artifact.“ · Alte Quelle: https://aws.amazon.com/compliance/iso-42001-faqs/ · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1821017-2/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-amazon-bedrock-zertifikate-iso-iec-42001-.akkreditiert-dakks</id>
+    <title>Amazon Bedrock (AWS), Modell-Plattform: ISO/IEC 42001: Zertifizierer akkreditiert (DAkkS) unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-amazon-bedrock-zertifikate-iso-iec-42001-.akkreditiert-dakks"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Nicht DAkkS, aber akkreditiert durch ANAB (ANSI National Accreditation Board, USA; IAF-MLA, gleichwertig anerkannt). Das Zertifikat trägt nur das ANAB-Zeichen, kein UKAS-Zeichen. ANAB-Verzeichnis der Zertifizierungsstellen (Suche „Schellman“, Abruf 25.10.2026): „Schellman-MS-3780 - Schellman Compliance, LLC“, akkreditiert u. a. für ISO/IEC 42001. · Neue Quelle: https://anabdirectory.remoteauditor.com/</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-amazon-bedrock-zertifikate-iso-iec-42001-.anwendungsbereich</id>
+    <title>Amazon Bedrock (AWS), Modell-Plattform: ISO/IEC 42001: Anwendungsbereich unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-amazon-bedrock-zertifikate-iso-iec-42001-.anwendungsbereich"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat Seite 1: „The scope of the ISO/IEC ISO 42001:2023 certification is limited to the artificial intelligence management system (AIMS) supporting the AWS Services including: Amazon Bedrock, Amazon Q Business, Amazon Transcribe, and Amazon Textract in the role of an AI producer and AI provider, in accordance with the statement of applicability, version 2.0, dated August 25, 2025.“ Ob Modelle aus dem Bedrock Marketplace erfasst sind, sagt das Zertifikat nicht (ungeklärt). · Alte Quelle: https://aws.amazon.com/compliance/iso-42001-faqs/ · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1821017-2/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-amazon-bedrock-zertifikate-iso-iec-42001-.zertifizierer</id>
+    <title>Amazon Bedrock (AWS), Modell-Plattform: ISO/IEC 42001: Zertifizierer beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-amazon-bedrock-zertifikate-iso-iec-42001-.zertifizierer"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat Nr. 1821017-2: „The Certification Body of Schellman Compliance, LLC hereby certifies that the following organization operates an Artificial Intelligence Management System that conforms to the requirements of ISO/IEC 42001:2023“, Inhaber „Amazon Web Services, Inc.“, unterzeichnet von Danny Manimbo, Principal. · Alte Quelle: https://aws.amazon.com/compliance/iso-42001-faqs/ · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1821017-2/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-anthropic-api-zertifikate-iso-27001</id>
+    <title>Anthropic Claude API (Claude Developer Platform): Zertifikat ISO 27001 beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-anthropic-api-zertifikate-iso-27001"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat selbst eingesehen (Schellman Nr. 1279091-2, ISO/IEC 27001:2022, Inhaber Anthropic, PBC, ausgestellt 13.11.2025, erstmals 07.01.2025, gültig bis 06.01.2028), öffentlich im Zertifikatsverzeichnis von Schellman; im Trust-Portal von Anthropic nur nach Zugangsanfrage. Der Geltungsbereich nennt die API (im Zertifikat „Claude Development Platform“; Anthropic selbst nennt sie „Claude Developer Platform“, das Trust-Portal hakt die Zeile „Claude via Anthropic's API“ ab). · Alte Quelle: https://privacy.claude.com/en/articles/10015870-what-certifications-has-anthropic-obtained · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1279091-2/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-anthropic-api-zertifikate-iso-27001-.akkreditiert-dakks</id>
+    <title>Anthropic Claude API (Claude Developer Platform): ISO 27001: Zertifizierer akkreditiert (DAkkS) unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-anthropic-api-zertifikate-iso-27001-.akkreditiert-dakks"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Nicht DAkkS, aber akkreditiert durch UKAS (EA-MLA, gleichwertig anerkannt): Das Zertifikat trägt das UKAS-Zeichen 8685 und zusätzlich das ANAB-Zeichen. UKAS Schedule of Accreditation 8685, „Schellman Compliance, LLC“, Issue No 013 vom 31.10.2025 (Abruf 25.10.2026), nennt „Information Security Management Systems (ISMS) to ISO/IEC 27001:2022“ nach ISO/IEC 17021-1 und ISO/IEC 27006-1:2024. ANAB-Verzeichnis (Abruf 25.10.2026): „Schellman-MS-3780 - Schellman Compliance, LLC“, akkreditiert u. a. für ISO/IEC 27001. · Neue Quelle: https://www.ukas.com/download-schedule/8685/ManagementSystems</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-anthropic-api-zertifikate-iso-27001-.anwendungsbereich</id>
+    <title>Anthropic Claude API (Claude Developer Platform): ISO 27001: Anwendungsbereich beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-anthropic-api-zertifikate-iso-27001-.anwendungsbereich"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat: „The scope of the ISO/IEC 27001:2022 certification is limited to the information security management system (ISMS) supporting the design, development, deployment, and operation of Anthropic’s AI services and products and in accordance with the statement of applicability, version 1.4, dated July 31, 2025. The in-scope products and services include the following: … Claude Development Platform, Claude for Work (Team and Enterprise), Claude Code, AI Research &amp; Development activities supporting the above services“. Standort San Francisco (500 Howard Street). · Alte Quelle: https://trust.anthropic.com/ · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1279091-2/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-anthropic-api-zertifikate-iso-27001-.zertifizierer</id>
+    <title>Anthropic Claude API (Claude Developer Platform): ISO 27001: Zertifizierer unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-anthropic-api-zertifikate-iso-27001-.zertifizierer"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat Nr. 1279091-2 (Version 2), öffentlich im Zertifikatsverzeichnis von Schellman (www.schellman.com/certificate-directory, Abruf 25.10.2026): „The Certification Body of Schellman Compliance, LLC hereby certifies that the following organization operates an Information Security Management System that conforms to the requirements of ISO/IEC 27001:2022“, Inhaber „Anthropic, PBC“, unterzeichnet von Danny Manimbo, Principal. · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1279091-2/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-anthropic-api-zertifikate-iso-iec-42001</id>
+    <title>Anthropic Claude API (Claude Developer Platform): Zertifikat ISO/IEC 42001 beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-anthropic-api-zertifikate-iso-iec-42001"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat selbst eingesehen (Schellman Nr. 1806475-2, ISO/IEC 42001:2023, Inhaber Anthropic, PBC, ausgestellt 13.11.2025, erstmals 06.01.2025, gültig bis 05.01.2028), öffentlich im Zertifikatsverzeichnis von Schellman; im Trust-Portal nur nach Zugangsanfrage. Der Geltungsbereich nennt die API (im Zertifikat „Claude Development Platform“; Anthropic selbst nennt sie „Claude Developer Platform“, das Trust-Portal hakt die Zeile „Claude via Anthropic's API“ ab). · Alte Quelle: https://www.anthropic.com/news/anthropic-achieves-iso-42001-certification-for-responsible-ai · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1806475-2/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-anthropic-api-zertifikate-iso-iec-42001-.akkreditiert-dakks</id>
+    <title>Anthropic Claude API (Claude Developer Platform): ISO/IEC 42001: Zertifizierer akkreditiert (DAkkS) unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-anthropic-api-zertifikate-iso-iec-42001-.akkreditiert-dakks"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Nicht DAkkS, aber akkreditiert durch ANAB (ANSI National Accreditation Board, USA; IAF-MLA, gleichwertig anerkannt). Das Zertifikat trägt nur das ANAB-Zeichen, kein UKAS-Zeichen (UKAS-Umfang 8685 nennt nur ISO/IEC 27001). ANAB-Verzeichnis der Zertifizierungsstellen (Suche „Schellman“, Norm ISO/IEC 42001, Abruf 25.10.2026): „Schellman-MS-3780 - Schellman Compliance, LLC“, „Accredited To: … ISO/IEC 27001, ISO/IEC 27701, ISO/IEC 42001“. · Neue Quelle: https://anabdirectory.remoteauditor.com/</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-anthropic-api-zertifikate-iso-iec-42001-.anwendungsbereich</id>
+    <title>Anthropic Claude API (Claude Developer Platform): ISO/IEC 42001: Anwendungsbereich beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-anthropic-api-zertifikate-iso-iec-42001-.anwendungsbereich"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat: „The scope of the ISO/IEC 42001:2023 certification is limited to the artificial intelligence management system (AIMS) supporting the development and provision of AI services and products, in the role of AI Producer and AI Provider, and in accordance with the statement of applicability, version 1.4, dated July 31, 2025. … Claude large language models and their deployments through Claude Development Platform, Claude for Work, Claude Code …“. Standort San Francisco (500 Howard Street). · Alte Quelle: https://trust.anthropic.com/ · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1806475-2/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-anthropic-api-zertifikate-iso-iec-42001-.zertifizierer</id>
+    <title>Anthropic Claude API (Claude Developer Platform): ISO/IEC 42001: Zertifizierer beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-anthropic-api-zertifikate-iso-iec-42001-.zertifizierer"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat Nr. 1806475-2 (Version 2), öffentlich im Zertifikatsverzeichnis von Schellman (Abruf 25.10.2026): „The Certification Body of Schellman Compliance, LLC hereby certifies that the following organization operates an Artificial Intelligence Management System that conforms to the requirements of ISO/IEC 42001:2023“, Inhaber „Anthropic, PBC“, unterzeichnet von Danny Manimbo, Principal. Deckt sich mit Anthropics Meldung vom 13.01.2025. · Alte Quelle: https://www.anthropic.com/news/anthropic-achieves-iso-42001-certification-for-responsible-ai · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1806475-2/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-anthropic-claude-enterprise-zertifikate-iso-27001</id>
+    <title>Anthropic Claude Enterprise (Unterschiede zum Team-Plan in den Anmerkungen): Zertifikat ISO 27001 beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-anthropic-claude-enterprise-zertifikate-iso-27001"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat selbst eingesehen (Schellman Nr. 1279091-2, ISO/IEC 27001:2022, Inhaber Anthropic, PBC, ausgestellt 13.11.2025, erstmals 07.01.2025, gültig bis 06.01.2028), öffentlich im Zertifikatsverzeichnis von Schellman; im Trust-Portal von Anthropic nur nach Zugangsanfrage. Der Geltungsbereich nennt Claude Enterprise (im Zertifikat „Claude for Work (Team and Enterprise)“). · Alte Quelle: https://privacy.claude.com/en/articles/10015870-what-certifications-has-anthropic-obtained · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1279091-2/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-anthropic-claude-enterprise-zertifikate-iso-27001-.akkreditiert-dakks</id>
+    <title>Anthropic Claude Enterprise (Unterschiede zum Team-Plan in den Anmerkungen): ISO 27001: Zertifizierer akkreditiert (DAkkS) unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-anthropic-claude-enterprise-zertifikate-iso-27001-.akkreditiert-dakks"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Nicht DAkkS, aber akkreditiert durch UKAS (EA-MLA, gleichwertig anerkannt): Das Zertifikat trägt das UKAS-Zeichen 8685 und zusätzlich das ANAB-Zeichen. UKAS Schedule of Accreditation 8685, „Schellman Compliance, LLC“, Issue No 013 vom 31.10.2025 (Abruf 25.10.2026), nennt „Information Security Management Systems (ISMS) to ISO/IEC 27001:2022“ nach ISO/IEC 17021-1 und ISO/IEC 27006-1:2024. ANAB-Verzeichnis (Abruf 25.10.2026): „Schellman-MS-3780 - Schellman Compliance, LLC“, akkreditiert u. a. für ISO/IEC 27001. · Neue Quelle: https://www.ukas.com/download-schedule/8685/ManagementSystems</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-anthropic-claude-enterprise-zertifikate-iso-27001-.anwendungsbereich</id>
+    <title>Anthropic Claude Enterprise (Unterschiede zum Team-Plan in den Anmerkungen): ISO 27001: Anwendungsbereich beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-anthropic-claude-enterprise-zertifikate-iso-27001-.anwendungsbereich"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat: „The scope of the ISO/IEC 27001:2022 certification is limited to the information security management system (ISMS) supporting the design, development, deployment, and operation of Anthropic’s AI services and products and in accordance with the statement of applicability, version 1.4, dated July 31, 2025. The in-scope products and services include the following: … Claude Development Platform, Claude for Work (Team and Enterprise), Claude Code, AI Research &amp; Development activities supporting the above services“. Standort San Francisco (500 Howard Street). · Alte Quelle: https://trust.anthropic.com/ · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1279091-2/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-anthropic-claude-enterprise-zertifikate-iso-27001-.zertifizierer</id>
+    <title>Anthropic Claude Enterprise (Unterschiede zum Team-Plan in den Anmerkungen): ISO 27001: Zertifizierer unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-anthropic-claude-enterprise-zertifikate-iso-27001-.zertifizierer"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat Nr. 1279091-2 (Version 2), öffentlich im Zertifikatsverzeichnis von Schellman (www.schellman.com/certificate-directory, Abruf 25.10.2026): „The Certification Body of Schellman Compliance, LLC hereby certifies that the following organization operates an Information Security Management System that conforms to the requirements of ISO/IEC 27001:2022“, Inhaber „Anthropic, PBC“, unterzeichnet von Danny Manimbo, Principal. · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1279091-2/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-anthropic-claude-enterprise-zertifikate-iso-iec-42001</id>
+    <title>Anthropic Claude Enterprise (Unterschiede zum Team-Plan in den Anmerkungen): Zertifikat ISO/IEC 42001 beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-anthropic-claude-enterprise-zertifikate-iso-iec-42001"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat selbst eingesehen (Schellman Nr. 1806475-2, ISO/IEC 42001:2023, Inhaber Anthropic, PBC, ausgestellt 13.11.2025, erstmals 06.01.2025, gültig bis 05.01.2028), öffentlich im Zertifikatsverzeichnis von Schellman; im Trust-Portal nur nach Zugangsanfrage. Der Geltungsbereich nennt Claude Enterprise (im Zertifikat „Claude for Work (Team and Enterprise)“). · Alte Quelle: https://www.anthropic.com/news/anthropic-achieves-iso-42001-certification-for-responsible-ai · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1806475-2/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-anthropic-claude-enterprise-zertifikate-iso-iec-42001-.akkreditiert-dakks</id>
+    <title>Anthropic Claude Enterprise (Unterschiede zum Team-Plan in den Anmerkungen): ISO/IEC 42001: Zertifizierer akkreditiert (DAkkS) unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-anthropic-claude-enterprise-zertifikate-iso-iec-42001-.akkreditiert-dakks"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Nicht DAkkS, aber akkreditiert durch ANAB (ANSI National Accreditation Board, USA; IAF-MLA, gleichwertig anerkannt). Das Zertifikat trägt nur das ANAB-Zeichen, kein UKAS-Zeichen (UKAS-Umfang 8685 nennt nur ISO/IEC 27001). ANAB-Verzeichnis der Zertifizierungsstellen (Suche „Schellman“, Norm ISO/IEC 42001, Abruf 25.10.2026): „Schellman-MS-3780 - Schellman Compliance, LLC“, „Accredited To: … ISO/IEC 27001, ISO/IEC 27701, ISO/IEC 42001“. · Neue Quelle: https://anabdirectory.remoteauditor.com/</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-anthropic-claude-enterprise-zertifikate-iso-iec-42001-.anwendungsbereich</id>
+    <title>Anthropic Claude Enterprise (Unterschiede zum Team-Plan in den Anmerkungen): ISO/IEC 42001: Anwendungsbereich beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-anthropic-claude-enterprise-zertifikate-iso-iec-42001-.anwendungsbereich"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat: „The scope of the ISO/IEC 42001:2023 certification is limited to the artificial intelligence management system (AIMS) supporting the development and provision of AI services and products, in the role of AI Producer and AI Provider, and in accordance with the statement of applicability, version 1.4, dated July 31, 2025. … Claude large language models and their deployments through Claude Development Platform, Claude for Work, Claude Code …“. Standort San Francisco (500 Howard Street). · Alte Quelle: https://trust.anthropic.com/ · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1806475-2/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-anthropic-claude-enterprise-zertifikate-iso-iec-42001-.zertifizierer</id>
+    <title>Anthropic Claude Enterprise (Unterschiede zum Team-Plan in den Anmerkungen): ISO/IEC 42001: Zertifizierer beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-anthropic-claude-enterprise-zertifikate-iso-iec-42001-.zertifizierer"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat Nr. 1806475-2 (Version 2), öffentlich im Zertifikatsverzeichnis von Schellman (Abruf 25.10.2026): „The Certification Body of Schellman Compliance, LLC hereby certifies that the following organization operates an Artificial Intelligence Management System that conforms to the requirements of ISO/IEC 42001:2023“, Inhaber „Anthropic, PBC“, unterzeichnet von Danny Manimbo, Principal. Deckt sich mit Anthropics Meldung vom 13.01.2025. · Alte Quelle: https://www.anthropic.com/news/anthropic-achieves-iso-42001-certification-for-responsible-ai · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1806475-2/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-azure-openai-zertifikate-iso-27001</id>
+    <title>Microsoft Azure OpenAI (Foundry Models sold by Azure in Microsoft Foundry), Unternehmens-API: Zertifikat ISO 27001 beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-azure-openai-zertifikate-iso-27001"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat selbst eingesehen (Schellman Nr. 1729711-18, ISO/IEC 27001:2022 und ISO/IEC 27701:2019, Inhaber Microsoft Corporation, ausgestellt 25.06.2026, erstmals 29.11.2011, gültig bis 16.06.2029, Version 18), öffentlich im Zertifikatsverzeichnis von Schellman (www.schellman.com/certificate-directory, Abruf 25.10.2026); bei Microsoft nur im Service Trust Portal. Vertraglich (DPA): „those measures shall comply with the requirements set forth in ISO 27001, ISO 27002, and ISO 27018.“ Hinweis: Die Textebene der Seiten 2–16 enthält unsichtbar die Zeile „CONTENT DRAFT“, im gedruckten Bild steht sie nicht; das Verzeichnis führt das Zertifikat als „PUBLISHED“. · Alte Quelle: https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-iso-27001 · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1729711-18/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-azure-openai-zertifikate-iso-27001-.akkreditiert-dakks</id>
+    <title>Microsoft Azure OpenAI (Foundry Models sold by Azure in Microsoft Foundry), Unternehmens-API: ISO 27001: Zertifizierer akkreditiert (DAkkS) unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-azure-openai-zertifikate-iso-27001-.akkreditiert-dakks"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Nicht DAkkS, aber akkreditiert durch ANAB (ANSI National Accreditation Board, USA; IAF-MLA, gleichwertig anerkannt). Das Zertifikat trägt nur das ANAB-Zeichen, kein UKAS-Zeichen. ANAB-Verzeichnis der Zertifizierungsstellen (Suche „Schellman“, Abruf 25.10.2026): „Schellman-MS-3780 - Schellman Compliance, LLC“, akkreditiert u. a. für ISO/IEC 27001 und ISO/IEC 27701. · Neue Quelle: https://anabdirectory.remoteauditor.com/</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-azure-openai-zertifikate-iso-27001-.anwendungsbereich</id>
+    <title>Microsoft Azure OpenAI (Foundry Models sold by Azure in Microsoft Foundry), Unternehmens-API: ISO 27001: Anwendungsbereich beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-azure-openai-zertifikate-iso-27001-.anwendungsbereich"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat Seite 1: „The scope of the ISO/IEC 27001:2022 certification covers the Information Security Management System (ISMS) supporting Microsoft Azure, Dynamics 365, and other Online Services that are deployed in Azure Public and Government Cloud …“; Tabelle „Registered Scope“ Seite 2, Kategorie „AI + Machine Learning“: „Microsoft Foundry: Foundry Models“ mit Haken bei Azure und Azure Government. Die Product Terms zählen „Foundry Models sold by Azure“ zu den „Microsoft Azure Core Services“. Der Name „Azure OpenAI“ steht im Zertifikat nicht, das Profil beschreibt das Produkt als „Foundry Models sold by Azure in Microsoft Foundry“. · Alte Quelle: https://www.microsoft.com/licensing/terms/product/PrivacyandSecurityTerms/all · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1729711-18/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-azure-openai-zertifikate-iso-27001-.zertifizierer</id>
+    <title>Microsoft Azure OpenAI (Foundry Models sold by Azure in Microsoft Foundry), Unternehmens-API: ISO 27001: Zertifizierer unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-azure-openai-zertifikate-iso-27001-.zertifizierer"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat Nr. 1729711-18: „The Certification Body of Schellman Compliance, LLC hereby confirms as a result of the certification decision, according to ISO/IEC 17021-1, that the following organization operates an Information Security Management System and Privacy Information Management System that conforms to the requirements of ISO/IEC 27001:2022 and ISO/IEC 27701:2019“, Inhaber „Microsoft Corporation“, unterzeichnet von Danny Manimbo, Managing Principal. · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1729711-18/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-google-vertex-gemini-api-zertifikate-soc-2-type-ii-.zertifizierer</id>
+    <title>Google Vertex AI (heute Gemini Enterprise Agent Platform) mit Gemini-Modellen, Gemini API über Google Cloud für Unternehmen: SOC 2 Type II: Zertifizierer unbelegt → beansprucht</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-google-vertex-gemini-api-zertifikate-soc-2-type-ii-.zertifizierer"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">SOC-2-Seite, Frage „Who performs the independent third-party audit?“: „Google Cloud’s independent auditors are Ernst &amp; Young LLP and Coalfire.“ Welche Firma welchen SOC-2-Bericht prüft, sagt die Seite nicht; Bericht selbst nur über den Compliance Reports Manager, nicht eingesehen. Der Satz stand schon in der Kopie vom 22.10., der Eintrag sagte bis 25.10. fälschlich „nicht genannt“. · Neue Quelle: https://cloud.google.com/security/compliance/soc-2?hl=en</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-meta-llama-api-zertifikate-iso-27001</id>
+    <title>Meta Model API (früher Llama API): Zertifikat ISO 27001 – → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-meta-llama-api-zertifikate-iso-27001"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat selbst eingesehen (Schellman Nr. 1974840-3, ISO/IEC 27001:2022, Inhaber Meta Platforms, Inc., Version 3, ausgestellt 14.09.2026, erstmals 29.08.2025, gültig bis 28.08.2028), öffentlich im Zertifikatsverzeichnis von Schellman (www.schellman.com/certificate-directory, Abruf 25.10.2026). Meta selbst nennt das Zertifikat auf den Seiten der Model API nicht (Data Commitments sprechen nur von einem eigenen ISMS). Inhaber ist Meta Platforms, Inc. (USA); Vertragspartei für die „European Region“ ist laut Nutzungsbedingungen Meta Platforms Ireland Limited, das Zertifikat nennt die irische Gesellschaft nicht. · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1974840-3/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-openai-api-zertifikate-iso-27001</id>
+    <title>OpenAI API (API Platform für Entwickler und Unternehmen): Zertifikat ISO 27001 beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-openai-api-zertifikate-iso-27001"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat selbst eingesehen (Schellman Nr. 1404936-2, ISO/IEC 27001:2022 und ISO/IEC 27701:2019, Inhaber OpenAI, OpCo, LLC, gültig bis 07.08.2028), öffentlich im Zertifikatsverzeichnis von Schellman; im Trust-Portal von OpenAI nur mit Konto. die API Platform steht in der Produktübersicht, auf die der Geltungsbereich verweist, mit Haken bei ISO/IEC 27001:2022 und ISO/IEC 27701:2019 (Wayback-Kopie 08.10.2026). Ausgestellt 21.08.2026, erstmals 08.08.2025, gültig bis 07.08.2028; Standorte San Francisco (1960 Bryant Street, ISMS) und Dublin (St Stephen's Green, PIMS). 27017/27018 nur als zusätzliche Maßnahmen („aligns with the control implementation guidance and additional control sets of ISO/IEC 27017:2015 and ISO/IEC 27018:2025“), kein eigenes Zertifikat. · Alte Quelle: https://web.archive.org/web/20261015081856/https://trust.openai.com/ · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1404936-2/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-openai-api-zertifikate-iso-27001-.akkreditiert-dakks</id>
+    <title>OpenAI API (API Platform für Entwickler und Unternehmen): ISO 27001: Zertifizierer akkreditiert (DAkkS) unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-openai-api-zertifikate-iso-27001-.akkreditiert-dakks"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Nicht DAkkS, aber akkreditiert durch ANAB (ANSI National Accreditation Board, USA; IAF-MLA, gleichwertig anerkannt). Das Zertifikat trägt das ANAB-Zeichen. ANAB-Verzeichnis der Zertifizierungsstellen (Suche „Schellman“, Norm ISO/IEC 27001, Abruf 25.10.2026): „Schellman-MS-3780 - Schellman Compliance, LLC“, „Accredited To: ISO 14001, ISO 22301, ISO 45001, ISO 9001, ISO/IEC 20000-1, ISO/IEC 27001, ISO/IEC 27701, ISO/IEC 42001“. Schellman nennt auf seiner Seite zusätzlich UKAS für ISO 27001; auf diesem Zertifikat steht nur ANAB. · Neue Quelle: https://anabdirectory.remoteauditor.com/</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-openai-api-zertifikate-iso-27001-.anwendungsbereich</id>
+    <title>OpenAI API (API Platform für Entwickler und Unternehmen): ISO 27001: Anwendungsbereich, Quelle geändert</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-openai-api-zertifikate-iso-27001-.anwendungsbereich"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat: „The Information Security Management System (ISMS) and Privacy Information Management System (PIMS) of OpenAI and its affiliate companies encompass the people, processes, and technologies used to develop, deploy, operate, and secure OpenAI products and services provided to organizations and API users. The certified scope includes the products listed in the “Product compliance status” table at https://openai.com/product-compliance-status, version 1.1, last updated August 4, 2026. … The scope does not include ChatGPT Business, Beta Services, consumer services …“ · Alte Quelle: https://web.archive.org/web/20261015081856/https://trust.openai.com/ · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1404936-2/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-openai-api-zertifikate-iso-27001-.zertifizierer</id>
+    <title>OpenAI API (API Platform für Entwickler und Unternehmen): ISO 27001: Zertifizierer beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-openai-api-zertifikate-iso-27001-.zertifizierer"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat Nr. 1404936-2 (Version 2), öffentlich im Zertifikatsverzeichnis von Schellman (www.schellman.com/certificate-directory, Abruf 25.10.2026): „The Certification Body of Schellman Compliance, LLC hereby confirms … that the following organization operates an Information Security Management System and Privacy Information Management System that conforms to the requirements of ISO/IEC 27001:2022 and ISO/IEC 27701:2019“, Inhaber „OpenAI, OpCo, LLC“, unterzeichnet von Danny Manimbo, Managing Principal. · Alte Quelle: https://web.archive.org/web/20261015081856/https://trust.openai.com/ · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1404936-2/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-openai-api-zertifikate-iso-27701</id>
+    <title>OpenAI API (API Platform für Entwickler und Unternehmen): Zertifikat ISO 27701 beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-openai-api-zertifikate-iso-27701"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Gemeinsames Zertifikat mit ISO 27001 (Schellman Nr. 1404936-2): „… conforms to the requirements of ISO/IEC 27001:2022 and ISO/IEC 27701:2019“, PIMS „in the role of a personally identifiable information (PII) processor“, Standort des PIMS Dublin. Selbst eingesehen über das öffentliche Zertifikatsverzeichnis von Schellman (25.10.2026). · Alte Quelle: https://web.archive.org/web/20261008031611/https://openai.com/product-compliance-status/ · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1404936-2/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-openai-api-zertifikate-iso-27701-.akkreditiert-dakks</id>
+    <title>OpenAI API (API Platform für Entwickler und Unternehmen): ISO 27701: Zertifizierer akkreditiert (DAkkS) unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-openai-api-zertifikate-iso-27701-.akkreditiert-dakks"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Nicht DAkkS, aber akkreditiert durch ANAB (ANSI National Accreditation Board, USA; IAF-MLA, gleichwertig anerkannt). Das Zertifikat trägt das ANAB-Zeichen. ANAB-Verzeichnis der Zertifizierungsstellen (Suche „Schellman“, Norm ISO/IEC 27701, Abruf 25.10.2026): „Schellman-MS-3780 - Schellman Compliance, LLC“, „Accredited To: ISO 14001, ISO 22301, ISO 45001, ISO 9001, ISO/IEC 20000-1, ISO/IEC 27001, ISO/IEC 27701, ISO/IEC 42001“. Schellman nennt auf seiner Seite zusätzlich UKAS für ISO 27001; auf diesem Zertifikat steht nur ANAB. · Neue Quelle: https://anabdirectory.remoteauditor.com/</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-openai-api-zertifikate-iso-27701-.anwendungsbereich</id>
+    <title>OpenAI API (API Platform für Entwickler und Unternehmen): ISO 27701: Anwendungsbereich beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-openai-api-zertifikate-iso-27701-.anwendungsbereich"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat: „The Information Security Management System (ISMS) and Privacy Information Management System (PIMS) of OpenAI and its affiliate companies encompass the people, processes, and technologies used to develop, deploy, operate, and secure OpenAI products and services provided to organizations and API users. The certified scope includes the products listed in the “Product compliance status” table at https://openai.com/product-compliance-status, version 1.1, last updated August 4, 2026. … The scope does not include ChatGPT Business, Beta Services, consumer services …“ Die Zeile „API Platform“ hat in der Tabelle (Wayback-Kopie 08.10.2026) den Haken bei ISO/IEC 27701:2019. · Alte Quelle: https://web.archive.org/web/20261008031611/https://openai.com/product-compliance-status/ · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1404936-2/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-openai-api-zertifikate-iso-27701-.zertifizierer</id>
+    <title>OpenAI API (API Platform für Entwickler und Unternehmen): ISO 27701: Zertifizierer unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-openai-api-zertifikate-iso-27701-.zertifizierer"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat Nr. 1404936-2 (Version 2), öffentlich im Zertifikatsverzeichnis von Schellman (www.schellman.com/certificate-directory, Abruf 25.10.2026): „The Certification Body of Schellman Compliance, LLC hereby confirms … that the following organization operates an Information Security Management System and Privacy Information Management System that conforms to the requirements of ISO/IEC 27001:2022 and ISO/IEC 27701:2019“, Inhaber „OpenAI, OpCo, LLC“, unterzeichnet von Danny Manimbo, Managing Principal. · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1404936-2/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-openai-api-zertifikate-iso-iec-42001</id>
+    <title>OpenAI API (API Platform für Entwickler und Unternehmen): Zertifikat ISO/IEC 42001 beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-openai-api-zertifikate-iso-iec-42001"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat selbst eingesehen (Schellman Nr. 1764566-1, ISO/IEC 42001:2023, Inhaber OpenAI, OpCo, LLC, gültig bis 10.12.2028), öffentlich im Zertifikatsverzeichnis von Schellman; im Trust-Portal von OpenAI nur mit Konto. Der Geltungsbereich nennt API, ChatGPT Business, Enterprise und Edu ausdrücklich. · Alte Quelle: https://web.archive.org/web/20261015081856/https://trust.openai.com/ · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1764566-1/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-openai-api-zertifikate-iso-iec-42001-.akkreditiert-dakks</id>
+    <title>OpenAI API (API Platform für Entwickler und Unternehmen): ISO/IEC 42001: Zertifizierer akkreditiert (DAkkS) unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-openai-api-zertifikate-iso-iec-42001-.akkreditiert-dakks"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Nicht DAkkS, aber akkreditiert durch ANAB (ANSI National Accreditation Board, USA; IAF-MLA, gleichwertig anerkannt). Das Zertifikat trägt das ANAB-Zeichen. ANAB-Verzeichnis der Zertifizierungsstellen (Suche „Schellman“, Norm ISO/IEC 42001, Abruf 25.10.2026): „Schellman-MS-3780 - Schellman Compliance, LLC“, „Accredited To: ISO 14001, ISO 22301, ISO 45001, ISO 9001, ISO/IEC 20000-1, ISO/IEC 27001, ISO/IEC 27701, ISO/IEC 42001“. Schellman nennt auf seiner Seite zusätzlich UKAS für ISO 27001; auf diesem Zertifikat steht nur ANAB. · Alte Quelle: https://web.archive.org/web/20261015081856/https://trust.openai.com/ · Neue Quelle: https://anabdirectory.remoteauditor.com/</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-openai-api-zertifikate-iso-iec-42001-.anwendungsbereich</id>
+    <title>OpenAI API (API Platform für Entwickler und Unternehmen): ISO/IEC 42001: Anwendungsbereich unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-openai-api-zertifikate-iso-iec-42001-.anwendungsbereich"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat: „The scope of the ISO/IEC 42001:2023 certification is limited to the artificial intelligence management system (AIMS) supporting the development and deployment of OpenAI's models and products - including consumer offerings (ChatGPT, Sora) and business offerings (API, ChatGPT Business, Enterprise, and Edu) - in OpenAI's role of an AI producer, AI developer, and AI provider …“ Ausgestellt 11.12.2025, gültig bis 10.12.2028, Standort San Francisco (1455 3rd Street). · Alte Quelle: https://web.archive.org/web/20261015081856/https://trust.openai.com/ · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1764566-1/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-openai-api-zertifikate-iso-iec-42001-.zertifizierer</id>
+    <title>OpenAI API (API Platform für Entwickler und Unternehmen): ISO/IEC 42001: Zertifizierer unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-openai-api-zertifikate-iso-iec-42001-.zertifizierer"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat Nr. 1764566-1, öffentlich im Zertifikatsverzeichnis von Schellman (Abruf 25.10.2026): „The Certification Body of Schellman Compliance, LLC hereby certifies that the following organization operates an Artificial Intelligence Management System that conforms to the requirements of ISO/IEC 42001:2023“, Inhaber „OpenAI, OpCo, LLC“. · Alte Quelle: https://web.archive.org/web/20261015081856/https://trust.openai.com/ · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1764566-1/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-openai-chatgpt-enterprise-zertifikate-iso-27001</id>
+    <title>OpenAI ChatGPT Enterprise (Unterschiede zu ChatGPT Business in den Anmerkungen): Zertifikat ISO 27001 beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-openai-chatgpt-enterprise-zertifikate-iso-27001"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat selbst eingesehen (Schellman Nr. 1404936-2, ISO/IEC 27001:2022 und ISO/IEC 27701:2019, Inhaber OpenAI, OpCo, LLC, gültig bis 07.08.2028), öffentlich im Zertifikatsverzeichnis von Schellman; im Trust-Portal von OpenAI nur mit Konto. ChatGPT Enterprise steht in der Produktübersicht, auf die der Geltungsbereich verweist, mit Haken bei ISO/IEC 27001:2022 und ISO/IEC 27701:2019 (Wayback-Kopie 08.10.2026). Ausgestellt 21.08.2026, erstmals 08.08.2025, gültig bis 07.08.2028; Standorte San Francisco (1960 Bryant Street, ISMS) und Dublin (St Stephen's Green, PIMS). 27017/27018 nur als zusätzliche Maßnahmen („aligns with the control implementation guidance and additional control sets of ISO/IEC 27017:2015 and ISO/IEC 27018:2025“), kein eigenes Zertifikat. Widerspruchs-Scan 23.10.2026: Die Sicherheitsseite openai.com/security-and-privacy (Archivkopie 22.10.2026) überschreibt den Abschnitt „ISO 27001, 27017, 27018, and 27701“ und spricht von „ISO/IEC 27001:2022 and ISO/IEC 27701:2019 certifications“. Laut Trust-Portal ist es ein Zertifikat nach 27001, dessen Umsetzung zusätzlich „conforms to additional control sets of ISO/IEC 27017:2015 and ISO/IEC 27018:2019 and extends to include the PIMS requirements … of ISO/IEC 27701:2019“. 27017 und 27018 sind Leitfäden ohne eigenes Zertifikat (das Zertifikat selbst nennt 27018 in der Fassung 2025 und deckt 27701 mit ab); kein Widerspruch, aber die Überschrift liest sich nach vier Zertifikaten. · Alte Quelle: https://trust.openai.com/ · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1404936-2/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-openai-chatgpt-enterprise-zertifikate-iso-27001-.akkreditiert-dakks</id>
+    <title>OpenAI ChatGPT Enterprise (Unterschiede zu ChatGPT Business in den Anmerkungen): ISO 27001: Zertifizierer akkreditiert (DAkkS) unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-openai-chatgpt-enterprise-zertifikate-iso-27001-.akkreditiert-dakks"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Nicht DAkkS, aber akkreditiert durch ANAB (ANSI National Accreditation Board, USA; IAF-MLA, gleichwertig anerkannt). Das Zertifikat trägt das ANAB-Zeichen. ANAB-Verzeichnis der Zertifizierungsstellen (Suche „Schellman“, Norm ISO/IEC 27001, Abruf 25.10.2026): „Schellman-MS-3780 - Schellman Compliance, LLC“, „Accredited To: ISO 14001, ISO 22301, ISO 45001, ISO 9001, ISO/IEC 20000-1, ISO/IEC 27001, ISO/IEC 27701, ISO/IEC 42001“. Schellman nennt auf seiner Seite zusätzlich UKAS für ISO 27001; auf diesem Zertifikat steht nur ANAB. · Neue Quelle: https://anabdirectory.remoteauditor.com/</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-openai-chatgpt-enterprise-zertifikate-iso-27001-.anwendungsbereich</id>
+    <title>OpenAI ChatGPT Enterprise (Unterschiede zu ChatGPT Business in den Anmerkungen): ISO 27001: Anwendungsbereich, Quelle geändert</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-openai-chatgpt-enterprise-zertifikate-iso-27001-.anwendungsbereich"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat: „The Information Security Management System (ISMS) and Privacy Information Management System (PIMS) of OpenAI and its affiliate companies encompass the people, processes, and technologies used to develop, deploy, operate, and secure OpenAI products and services provided to organizations and API users. The certified scope includes the products listed in the “Product compliance status” table at https://openai.com/product-compliance-status, version 1.1, last updated August 4, 2026. … The scope does not include ChatGPT Business, Beta Services, consumer services …“ · Alte Quelle: https://trust.openai.com/ · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1404936-2/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-openai-chatgpt-enterprise-zertifikate-iso-27001-.zertifizierer</id>
+    <title>OpenAI ChatGPT Enterprise (Unterschiede zu ChatGPT Business in den Anmerkungen): ISO 27001: Zertifizierer beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-openai-chatgpt-enterprise-zertifikate-iso-27001-.zertifizierer"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat Nr. 1404936-2 (Version 2), öffentlich im Zertifikatsverzeichnis von Schellman (www.schellman.com/certificate-directory, Abruf 25.10.2026): „The Certification Body of Schellman Compliance, LLC hereby confirms … that the following organization operates an Information Security Management System and Privacy Information Management System that conforms to the requirements of ISO/IEC 27001:2022 and ISO/IEC 27701:2019“, Inhaber „OpenAI, OpCo, LLC“, unterzeichnet von Danny Manimbo, Managing Principal. · Alte Quelle: https://trust.openai.com/ · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1404936-2/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-openai-chatgpt-enterprise-zertifikate-iso-iec-42001</id>
+    <title>OpenAI ChatGPT Enterprise (Unterschiede zu ChatGPT Business in den Anmerkungen): Zertifikat ISO/IEC 42001 beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-openai-chatgpt-enterprise-zertifikate-iso-iec-42001"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat selbst eingesehen (Schellman Nr. 1764566-1, ISO/IEC 42001:2023, Inhaber OpenAI, OpCo, LLC, gültig bis 10.12.2028), öffentlich im Zertifikatsverzeichnis von Schellman; im Trust-Portal von OpenAI nur mit Konto. Der Geltungsbereich nennt API, ChatGPT Business, Enterprise und Edu ausdrücklich. · Alte Quelle: https://trust.openai.com/ · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1764566-1/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-openai-chatgpt-enterprise-zertifikate-iso-iec-42001-.akkreditiert-dakks</id>
+    <title>OpenAI ChatGPT Enterprise (Unterschiede zu ChatGPT Business in den Anmerkungen): ISO/IEC 42001: Zertifizierer akkreditiert (DAkkS) unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-openai-chatgpt-enterprise-zertifikate-iso-iec-42001-.akkreditiert-dakks"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Nicht DAkkS, aber akkreditiert durch ANAB (ANSI National Accreditation Board, USA; IAF-MLA, gleichwertig anerkannt). Das Zertifikat trägt das ANAB-Zeichen. ANAB-Verzeichnis der Zertifizierungsstellen (Suche „Schellman“, Norm ISO/IEC 42001, Abruf 25.10.2026): „Schellman-MS-3780 - Schellman Compliance, LLC“, „Accredited To: ISO 14001, ISO 22301, ISO 45001, ISO 9001, ISO/IEC 20000-1, ISO/IEC 27001, ISO/IEC 27701, ISO/IEC 42001“. Schellman nennt auf seiner Seite zusätzlich UKAS für ISO 27001; auf diesem Zertifikat steht nur ANAB. · Alte Quelle: https://trust.openai.com/ · Neue Quelle: https://anabdirectory.remoteauditor.com/</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-openai-chatgpt-enterprise-zertifikate-iso-iec-42001-.anwendungsbereich</id>
+    <title>OpenAI ChatGPT Enterprise (Unterschiede zu ChatGPT Business in den Anmerkungen): ISO/IEC 42001: Anwendungsbereich unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-openai-chatgpt-enterprise-zertifikate-iso-iec-42001-.anwendungsbereich"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat: „The scope of the ISO/IEC 42001:2023 certification is limited to the artificial intelligence management system (AIMS) supporting the development and deployment of OpenAI's models and products - including consumer offerings (ChatGPT, Sora) and business offerings (API, ChatGPT Business, Enterprise, and Edu) - in OpenAI's role of an AI producer, AI developer, and AI provider …“ Ausgestellt 11.12.2025, gültig bis 10.12.2028, Standort San Francisco (1455 3rd Street). · Alte Quelle: https://trust.openai.com/ · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1764566-1/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-25-openai-chatgpt-enterprise-zertifikate-iso-iec-42001-.zertifizierer</id>
+    <title>OpenAI ChatGPT Enterprise (Unterschiede zu ChatGPT Business in den Anmerkungen): ISO/IEC 42001: Zertifizierer unbelegt → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-25-openai-chatgpt-enterprise-zertifikate-iso-iec-42001-.zertifizierer"/>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <content type="text">Zertifikat Nr. 1764566-1, öffentlich im Zertifikatsverzeichnis von Schellman (Abruf 25.10.2026): „The Certification Body of Schellman Compliance, LLC hereby certifies that the following organization operates an Artificial Intelligence Management System that conforms to the requirements of ISO/IEC 42001:2023“, Inhaber „OpenAI, OpCo, LLC“. · Alte Quelle: https://trust.openai.com/ · Neue Quelle: https://integrator.schellman.com/public/v2/certificate/1764566-1/file</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-24-azure-openai-vertrag.subprozessoren</id>
+    <title>Microsoft Azure OpenAI (Foundry Models sold by Azure in Microsoft Foundry), Unternehmens-API: Subprozessoren-Liste beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-24-azure-openai-vertrag.subprozessoren"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <content type="text">„Online Services Subprocessors List (2026-09-10)“ im Service Trust Portal, ohne Anmeldung als PDF-Vorschau lesbar (gelesen 24.10.2026 bei der Zählung, siehe Zahl der Unterauftragnehmer). Sie gilt für alle Microsoft Online Services, eine eigene Liste für Azure OpenAI gibt es nicht. Bis 24.10.2026 war die Liste hier nur als „beansprucht“ geführt. DPA: „Microsoft makes available information about Subprocessors on a Microsoft website.“ Frist für neue KI-Unterauftragnehmer: „for subprocessors that support artificial intelligence functionality, 30 days’ notice with the ability to disable use of that subprocessor until at least 6 months after notice“; sonst „at least 6 months in advance“. OpenAI selbst bekommt laut Microsoft keine Daten: Eingaben und Ausgaben „are NOT available to OpenAI or other providers of Models sold by Azure.“ und „Models sold by Azure do NOT interact with any services operated by providers of Models sold by Azure“. · Alte Quelle: https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(May2026)(CR).docx · Neue Quelle: https://servicetrust.microsoft.com/DocumentPage/115f1cb5-7f7b-4a5e-838d-df6d03c84dda</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-24-cohere-anbieter</id>
+    <title>Cohere (SaaS-Plattform und API) aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-24-cohere-anbieter"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://cohere.com</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-24-ionos-vertrag.subprozessoren</id>
+    <title>IONOS (AI Model Hub): Subprozessoren-Liste, Quelle geändert</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-24-ionos-vertrag.subprozessoren"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <content type="text">Eigene Liste der IONOS Cloud GmbH, über die der AI Model Hub läuft (Stand 10/2026, verlinkt im Datenschutzpaket für IONOS Cloud): ein Eintrag, konzernintern, „IONOS SE Elgendorferstr. 57, 56410 Montabaur, Deutschland“, u. a. „Unterstützung und Betrieb des AI-Modell-Hub“. Bis 24.10.2026 war hier die Gruppenliste für ionos.de-Produkte verlinkt (AVV_Liste_Subunternehmen_v4_5_DE.pdf, 27 Einträge), die für den AI Model Hub nicht gilt. Ergänzend laut Data-Handling-Doku (docs.ionos.com, 03.10.2026): 'No third-party sub-processors are engaged for AI Model Hub'. Erreichbarkeit 24.10.2026 geprüft (HTTP 200, PDF). · Alte Quelle: https://www.ionos.de/terms-gtc/avv/ · Neue Quelle: https://cloud.ionos.de/terms-gtc/fileadmin/pdf/terms-gtc/cloud/avv/IONOS-Cloud-GmbH_DE_subprocessor.pdf</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-24-microsoft-copilot-vertrag.subprozessoren</id>
+    <title>Microsoft Copilot (früher Microsoft 365 Copilot), Unternehmensfassung: Subprozessoren-Liste beansprucht → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-24-microsoft-copilot-vertrag.subprozessoren"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <content type="text">Microsoft: „To see a list of Microsoft subprocessors, see Service Trust Portal.“ (learn.microsoft.com, Connect to AI subprocessor). Die Liste „Online Services Subprocessors“ (Stand 10.09.2026) ist im Service Trust Portal ohne Anmeldung als PDF-Vorschau lesbar (gelesen 24.10.2026 bei der Zählung, siehe Zahl der Unterauftragnehmer); am 21.10.2026 zeigte die Seite nur den Titel. Sie gilt für alle Microsoft Online Services, eine eigene Copilot-Liste gibt es nicht. Bis 24.10.2026 stand hier der Kurzlink aka.ms/subprocessor, der auf dieselbe Seite führt. Ankündigungsfrist laut Vertrag: „for subprocessors that support artificial intelligence functionality, 30 days' notice“. · Alte Quelle: https://learn.microsoft.com/en-us/microsoft-365/copilot/connect-to-ai-subprocessor · Neue Quelle: https://servicetrust.microsoft.com/DocumentPage/115f1cb5-7f7b-4a5e-838d-df6d03c84dda</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-24-t-systems-vertrag.subprozessoren</id>
+    <title>T-Systems / Open Telekom Cloud (AI Foundation Services): Subprozessoren-Liste, Quelle geändert</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-24-t-systems-vertrag.subprozessoren"/>
+    <updated>2026-10-24T00:00:00Z</updated>
+    <content type="text">Liste: Anhang IV der ErgB-AV T Cloud Public (1 Unterauftragsverarbeiter + 12 Unter-Unterauftragsverarbeiter, siehe Zahl der Unterauftragnehmer), gilt für die Kategorie-1-Modelle auf T Cloud Public; erreichbar 24.10.2026 (HTTP 200, PDF). Bis 24.10.2026 stand hier kein Link. Bisherige Quelle: docs.llmhub.t-systems.net/reference/enterprise-trust. Keine öffentliche Listen-URL; Enterprise-Trust-Doku (03.10.2026) beschreibt Kategorie 1 jetzt als 'EU/EEA &amp; adequacy-decision processing' (auch Länder mit Angemessenheitsbeschluss, nicht nur EU/EWR); die frühere Formulierung 'ohne Dritt-Subprozessoren' steht so nicht mehr da. Kategorie 2 (Fremdmodelle): 'The third-party provider may operate sub-processors worldwide'. Widerspruchs-Scan 23.10.2026: Werbeseiten sagen für die ganze Plattform „hosted in T Cloud“ (t-systems.com, „integrate over 40 AI models“) bzw. „stored and operated on T Cloud Public“ (t-cloud-public.com), die FAQ-Antwort „What are the AI Foundation Services?“ „over 40 language models […] Operated on the T-Cloud in Germany“. Laut Modelltabelle laufen 29 von 39 Zeilen bei Microsoft Azure oder Google Cloud (Kategorie 2, „customer data may be processed worldwide“); dieselbe FAQ nennt das zwei Antworten weiter selbst. Beleg belege/anbieter/t-systems/afs-hosting-werbung-gegen-doku-2026-10-23.txt. · Alte Quelle: https://docs.llmhub.t-systems.net/reference/enterprise-trust · Neue Quelle: https://www.t-cloud-public.com/_Resources/Persistent/7/4/4/5/744591c2cdff8be6c3876c3bf6e187fb024cad04/OTC%20ErgB-AV%20TDG_DE.pdf</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-23-amazon-bedrock-anbieter</id>
+    <title>Amazon Bedrock (AWS), Modell-Plattform aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-23-amazon-bedrock-anbieter"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://aws.amazon.com/bedrock/</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-23-anthropic-api-anbieter</id>
+    <title>Anthropic Claude API (Claude Developer Platform) aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-23-anthropic-api-anbieter"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://platform.claude.com</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-23-anthropic-claude-enterprise-anbieter</id>
+    <title>Anthropic Claude Enterprise (Unterschiede zum Team-Plan in den Anmerkungen) aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-23-anthropic-claude-enterprise-anbieter"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://claude.com</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-23-deepseek-api-anbieter</id>
+    <title>DeepSeek API (DeepSeek Open Platform) aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-23-deepseek-api-anbieter"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://platform.deepseek.com</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-23-ionos-modelle-llama-3.1-8b-instruct</id>
+    <title>IONOS (AI Model Hub): Modell Llama 3.1 8B Instruct unbelegt → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-23-ionos-modelle-llama-3.1-8b-instruct"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-23-ionos-modelle-mistral-nemo-instruct</id>
+    <title>IONOS (AI Model Hub): Modell Mistral Nemo Instruct unbelegt → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-23-ionos-modelle-mistral-nemo-instruct"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-23-meta-llama-api-anbieter</id>
+    <title>Meta Model API (früher Llama API) aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-23-meta-llama-api-anbieter"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://dev.meta.ai/products/meta-model-api</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-23-nebius-modelle-qwen3-235b-a22b-instruct</id>
+    <title>Nebius (Token Factory): Modell Qwen3-235B-A22B-Instruct, Quelle geändert</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-23-nebius-modelle-qwen3-235b-a22b-instruct"/>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <content type="text">Preis in USD. Quelle seit 23.10.2026 der offizielle Nebius-Modellkatalog: Auf openrouter.ai/provider/nebius steht das Modell seit dem 23.10.2026 nicht mehr (Belegkopie belege/anbieter/nebius/provider-seite-2026-10-23.txt), im Nebius-Katalog dagegen weiter mit 'status': 'active', 0.2 $ Input und 0.6 $ Output je 1 Mio. Token, Region FI eu-north1 (Belegkopie belege/anbieter/nebius/modellkatalog-2026-10-23.json, Abruf ~00:25 MESZ). Standort laut docs.tokenfactory.nebius.com/public-serverless (03.10.2026): öffentliche Endpunkte zeigen Region „Global“, „the processing location is decided dynamically and can change at any time, without notice“; feste Region nur über Dedicated Endpoints. Die frühere Angabe „EU (Finnland/Frankreich)“ ist für den Serverless-Zugang nicht gedeckt. Widerspruch bei Nebius selbst (Scan 22.10.2026, 08:31 UTC): Der offizielle Modellkatalog (tokenfactory.nebius.com/api/public/models_info, laut docs.tokenfactory.nebius.com/model-catalog.md 'the authoritative machine-readable source') nennt für dieses Modell als Region nur {'country_code': 'FI', 'name': 'eu-north1'}; die Doku public-serverless sagt weiter 'Global' ohne Garantie, und der DPA 6.1 verweist auf die Angabe 'in the API'. Welche Angabe vertraglich gilt, ist ungeklärt; Standort darum unverändert. Belegkopie belege/anbieter/nebius/modellkatalog-2026-10-22.json. · Alte Quelle: https://openrouter.ai/provider/nebius · Neue Quelle: https://tokenfactory.nebius.com/api/public/models_info</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-22-azure-openai-anbieter</id>
+    <title>Microsoft Azure OpenAI (Foundry Models sold by Azure in Microsoft Foundry), Unternehmens-API aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-22-azure-openai-anbieter"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://azure.microsoft.com/en-us/pricing/details/azure-openai/</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-22-black-forest-labs-zertifikate-iso-27001</id>
+    <title>Black Forest Labs: Zertifikat ISO 27001, Quelle geändert</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-22-black-forest-labs-zertifikate-iso-27001"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <content type="text">Betroffene Felder: Zertifikat ISO 27001, ISO 27001: Anwendungsbereich, ISO 27001: Zertifizierer · Zertifikat im Trust Center trust.bfl.ai (bis 18.10.2026 frei herunterladbar, zuerst 08./09.10.2026 geladen, erneut 18.10.2026, Textauszug + SHA-256 in belege/anbieter/black-forest-labs/iso27001-zertifikat-2026-10-18.txt): 'The management system of certificate number 269758 Black Forest Labs Inc. &amp; BFL GmbH … has been assessed and certified as meeting the requirements of: ISO/IEC 27001:2022'; 'Initial certification: 01 December 2025', 'Latest issue: 01 December 2025', 'Expiry date: 30 November 2028', 'Subject to annual assessments'; 'Certificate issued by British Assessment Bureau Limited t/a Amtivo' (UKAS 8289). Am 18.10. meldete der Quellenlauf eine geänderte Datei (PDF erzeugt 13.05.2026); Nummer, Daten, Geltungsbereich und Standorte sind gleich, nur Inhabername und Ausstellerzeile lauten anders als das bis 17.10. hier stehende Zitat. Ob das PDF umformuliert wurde oder das alte Zitat ungenau war, ist ungeklärt (vom 09.10. liegt keine Kopie vor). Seit spätestens 21.10.2026 ist der alte Download-Link tot (HTTP 404, „This document could not be found“); das Trust Center listet „Black Forest Labs ISO 27001:2022 Certificate“ weiter unter derselben Ressourcen-ID, aber nur noch per „Request access“ (Abruf 21.10.2026). Nachweis bleibt die Belegkopie vom 18.10.2026. Auch auf bfl.ai/enterprise genannt, im Seitenfuß als „ISO 27001:2022“. Einzelheiten in den Unterfeldern. · Alte Quelle: https://trust.bfl.ai/doc/trust?rid=6936c03e7afd0fe5c25dcad5&amp;r=0cb6ffww8qmy60nxzo3p5&amp;download=true · Neue Quelle: https://trust.bfl.ai/ · Commit d28b2b7: Stand 22.10.2026: 91 lokale Aenderungen zusammengefasst</content>
+  </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-22-google-gemini-workspace-anbieter</id>
     <title>Google Gemini für Google Workspace (Gemini-App als Core Service und Gemini in Workspace), Unternehmensfassung aufgenommen</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-22-google-gemini-workspace-anbieter"/>
     <updated>2026-10-22T00:00:00Z</updated>
-    <content type="text">Neue Quelle: https://workspace.google.com · Commit 0beae83: feat: US-Anbieter Microsoft Copilot, OpenAI ChatGPT Enterprise, Google Gemini Workspace im Katalog (EH1 Teil 1)</content>
+    <content type="text">Neue Quelle: https://workspace.google.com · Commit d28b2b7: Stand 22.10.2026: 91 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-22-google-vertex-gemini-api-anbieter</id>
+    <title>Google Vertex AI (heute Gemini Enterprise Agent Platform) mit Gemini-Modellen, Gemini API über Google Cloud für Unternehmen aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-22-google-vertex-gemini-api-anbieter"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://cloud.google.com/vertex-ai</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-22-greenpt-zertifikate-soc-2-type-ii</id>
+    <title>GreenPT: Zertifikat SOC 2 Type II beansprucht → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-22-greenpt-zertifikate-soc-2-type-ii"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <content type="text">Seit spätestens 21.10.2026 nicht mehr beansprucht: greenpt.com/privacy, Abschnitt „Security Certifications“, lautet jetzt „The data centres we run on are ISO 27001 certified for information security. GreenPT BV is working towards its own ISO 27001 certification.“; SOC 2 steht nirgends mehr auf der Seite (Abruf 21.10.2026, Belegkopie belege/anbieter/greenpt/privacy-2026-10-21.txt). Bis dahin (05.10., 08.10., 16.10. und 20.10.2026) stand dort „Our infrastructure maintains ISO 27001 and SOC 2 Type II certifications“, ohne Bericht und ohne Prüfer; die Seite „Security &amp; Compliance“ von Scaleway nannte am 08.10.2026 kein SOC 2. Wessen Bericht gemeint war, bleibt ungeklärt. Geändert zwischen dem Quellenlauf vom 20.10. (morgens) und dem vom 21.10.2026. · Commit d28b2b7: Stand 22.10.2026: 91 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-22-greenpt-zertifikate-soc-2-type-ii-.anwendungsbereich</id>
+    <title>GreenPT: SOC 2 Type II: Anwendungsbereich beansprucht → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-22-greenpt-zertifikate-soc-2-type-ii-.anwendungsbereich"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <content type="text">Bis 20.10.2026 nannte greenpt.com/privacy nur „Our infrastructure“, ohne Gesellschaft, Dienste oder Prüfzeitraum; seit 21.10.2026 wird SOC 2 dort nicht mehr genannt, also auch kein Anwendungsbereich. · Commit d28b2b7: Stand 22.10.2026: 91 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-22-infomaniak-modelle-qwen3.5-122b-a10b-fp8</id>
+    <title>Infomaniak: Modell Qwen3.5-122B-A10B-FP8 belegt → –</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-22-infomaniak-modelle-qwen3.5-122b-a10b-fp8"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <content type="text">Alte Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices · Commit d28b2b7: Stand 22.10.2026: 91 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-22-infomaniak-modelle-qwen3.8-27b-fp8</id>
+    <title>Infomaniak: Modell Qwen3.8-27B-FP8 – → belegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-22-infomaniak-modelle-qwen3.8-27b-fp8"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <content type="text">Preis in CHF, exkl. MwSt. (Preisseite, Abruf 21.10.2026). Beta, Bild-Text zu Text, Function Calling ja; Kontextlänge ungeklärt, die Modellseite infomaniak.com/en/hosting/ai-services/open-source-models zeigt am 21.10.2026 „Max. input tokens NaN“. Seit spätestens 21.10.2026 in der Preisliste an der Stelle von Qwen3.5-122B-A10B-FP8 (CHF 0.40/3.20, 200k Kontext, zuletzt am 20.10.2026 geführt), das nicht mehr angeboten wird. Standort laut infomaniak.com/en/hosting/ai-services (03.10.2026): „Our AI and GPU services are powered from the heart of Europe in our data centers located in Switzerland“. Die Preisseite selbst nennt keinen Standort. · Neue Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices · Commit d28b2b7: Stand 22.10.2026: 91 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-22-ionos-modelle-mistral-nemo-instruct</id>
+    <title>IONOS (AI Model Hub): Modell Mistral Nemo Instruct belegt → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-22-ionos-modelle-mistral-nemo-instruct"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <content type="text">Aussage stand bis 2026-10-16 auf https://cloud.ionos.de/managed/ai-model-hub (0,15 € / 0,15 € je 1M), am 19.10.2026 abends nicht mehr — Modell nicht mehr in der Preisliste. Laut Modellseite der Doku (https://docs.ionos.com/cloud/ai/ai-model-hub/models, abgerufen 16.10. und 19.10.2026, „Last updated 11 days ago“) steht „Mistral Nemo (12B)“ unter „Scheduled for Retirement“ am 22.10.2026, Alternative Qwen3.5-9B (im Profil vorhanden); danach nicht mehr nutzbar: 'After the specified date, they will no longer be available to use in the AI Model Hub'. Ob es bis zum 22.10. noch buchbar ist, ist ungeklärt. · Alte Quelle: https://cloud.ionos.de/managed/ai-model-hub · Commit d28b2b7: Stand 22.10.2026: 91 lokale Aenderungen zusammengefasst</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-22-microsoft-copilot-anbieter</id>
     <title>Microsoft Copilot (früher Microsoft 365 Copilot), Unternehmensfassung aufgenommen</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-22-microsoft-copilot-anbieter"/>
     <updated>2026-10-22T00:00:00Z</updated>
-    <content type="text">Neue Quelle: https://www.microsoft.com · Commit 0beae83: feat: US-Anbieter Microsoft Copilot, OpenAI ChatGPT Enterprise, Google Gemini Workspace im Katalog (EH1 Teil 1)</content>
+    <content type="text">Neue Quelle: https://www.microsoft.com · Commit d28b2b7: Stand 22.10.2026: 91 lokale Aenderungen zusammengefasst</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-22-mistral-vertrag.training-opt-out</id>
+    <title>Mistral AI (La Plateforme): Kein Training mit Kundendaten belegt → unbelegt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-22-mistral-vertrag.training-opt-out"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <content type="text">Kein Training nur per Opt-out; Voreinstellung für Pay-as-you-go ungeklärt; Preview-Modelle ohne Opt-out. Seit 22.10.2026 deshalb „unbelegt“ statt „ja“: Ein Opt-out ist keine Zusage, nicht zu trainieren (Hinweis eines Datenschutz-Auditors, 19.10.2026). Bisheriger Stand: Opt-out für Studio und API im Admin-Panel (Privacy → 'Anonymous improvement data'), getrennt vom Vibe-Schalter. Stand Help Center 03.09.2026: Free-Modus wird standardmäßig zum Training genutzt; für Pay-as-you-go nennt Mistral nur das Opt-out-Recht, keinen Standard mehr — die frühere Doku-Aussage 'API-Daten werden nicht zum Training genutzt' ist mit der alten Seite (404 seit spätestens 03.10.2026) entfallen. Vibe Enterprise ist standardmäßig ausgeschlossen. Nachgeprüft 05.10.2026: beide Hilfeseiten unverändert (Nr. 455207 vom 03.09.2026; 347617 vom 31.08.2026: Free mode „we may use your data (input and output) to train our artificial intelligence models“, Pay-as-you-go „Customers retain full control over this processing and have the right to opt out at any time“). Vertragstext dazu: Commercial Terms of Service („Effective: September 25, 2026“) Ziffer 4.2: kein Training, außer wenn der Kunde bei einem Produkt mit Voreinstellung „an“ nicht widersprochen hat, bei Feedback (Daumen hoch/runter) und bei Labs- oder Preview-Modellen; Ziffer 4.3: bei Labs- und Preview-Modellen gelten weder das Opt-out noch Zero Data Retention. Das betrifft seit 06.10.2026 auch Mistral Large 4, das als „Public Preview“ angeboten wird (eigener Eintrag oben). Hilfeseiten Nr. 455207 und 347617 am 08.10.2026 unverändert (Stand 03.09. bzw. 31.08.2026). Welche Voreinstellung für Pay-as-you-go gilt, steht in keiner der gelesenen Quellen (ungeklärt).</content>
+  </entry>
+  <entry>
+    <id>https://belegbar.eu/aenderungen/#2026-10-22-openai-api-anbieter</id>
+    <title>OpenAI API (API Platform für Entwickler und Unternehmen) aufgenommen</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-22-openai-api-anbieter"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <content type="text">Neue Quelle: https://openai.com/api/</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-22-openai-chatgpt-enterprise-anbieter</id>
     <title>OpenAI ChatGPT Enterprise (Unterschiede zu ChatGPT Business in den Anmerkungen) aufgenommen</title>
     <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-22-openai-chatgpt-enterprise-anbieter"/>
     <updated>2026-10-22T00:00:00Z</updated>
-    <content type="text">Neue Quelle: https://openai.com · Commit 0beae83: feat: US-Anbieter Microsoft Copilot, OpenAI ChatGPT Enterprise, Google Gemini Workspace im Katalog (EH1 Teil 1)</content>
+    <content type="text">Neue Quelle: https://openai.com · Commit d28b2b7: Stand 22.10.2026: 91 lokale Aenderungen zusammengefasst</content>
   </entry>
   <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-21-black-forest-labs-zertifikate-iso-27001</id>
-    <title>Black Forest Labs: Zertifikat ISO 27001, Quelle geändert</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-21-black-forest-labs-zertifikate-iso-27001"/>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <content type="text">Betroffene Felder: Zertifikat ISO 27001, ISO 27001: Anwendungsbereich, ISO 27001: Zertifizierer · Zertifikat im Trust Center trust.bfl.ai (bis 18.10.2026 frei herunterladbar, zuerst 08./09.10.2026 geladen, erneut 18.10.2026, Textauszug + SHA-256 in belege/anbieter/black-forest-labs/iso27001-zertifikat-2026-10-18.txt): 'The management system of certificate number 269758 Black Forest Labs Inc. &amp; BFL GmbH … has been assessed and certified as meeting the requirements of: ISO/IEC 27001:2022'; 'Initial certification: 01 December 2025', 'Latest issue: 01 December 2025', 'Expiry date: 30 November 2028', 'Subject to annual assessments'; 'Certificate issued by British Assessment Bureau Limited t/a Amtivo' (UKAS 8289). Am 18.10. meldete der Quellenlauf eine geänderte Datei (PDF erzeugt 13.05.2026); Nummer, Daten, Geltungsbereich und Standorte sind gleich, nur Inhabername und Ausstellerzeile lauten anders als das bis 17.10. hier stehende Zitat. Ob das PDF umformuliert wurde oder das alte Zitat ungenau war, ist ungeklärt (vom 09.10. liegt keine Kopie vor). Seit spätestens 21.10.2026 ist der alte Download-Link tot (HTTP 404, „This document could not be found“); das Trust Center listet „Black Forest Labs ISO 27001:2022 Certificate“ weiter unter derselben Ressourcen-ID, aber nur noch per „Request access“ (Abruf 21.10.2026). Nachweis bleibt die Belegkopie vom 18.10.2026. Auch auf bfl.ai/enterprise genannt, im Seitenfuß als „ISO 27001:2022“. Einzelheiten in den Unterfeldern. · Alte Quelle: https://trust.bfl.ai/doc/trust?rid=6936c03e7afd0fe5c25dcad5&amp;r=0cb6ffww8qmy60nxzo3p5&amp;download=true · Neue Quelle: https://trust.bfl.ai/ · Commit 75ff106: fix: QP1 – GreenPT SOC 2 unbelegt, Infomaniak Qwen3.8-27B statt 3.5-122B, Mistral-Aktionspreis beendet, BFL-ISO-Zertifikat nur auf Anfrage; Fall 2026-002 Verlauf 21.10.</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-21-greenpt-zertifikate-soc-2-type-ii</id>
-    <title>GreenPT: Zertifikat SOC 2 Type II beansprucht → unbelegt</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-21-greenpt-zertifikate-soc-2-type-ii"/>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <content type="text">Seit spätestens 21.10.2026 nicht mehr beansprucht: greenpt.com/privacy, Abschnitt „Security Certifications“, lautet jetzt „The data centres we run on are ISO 27001 certified for information security. GreenPT BV is working towards its own ISO 27001 certification.“; SOC 2 steht nirgends mehr auf der Seite (Abruf 21.10.2026, Belegkopie belege/anbieter/greenpt/privacy-2026-10-21.txt). Bis dahin (05.10., 08.10., 16.10. und 20.10.2026) stand dort „Our infrastructure maintains ISO 27001 and SOC 2 Type II certifications“, ohne Bericht und ohne Prüfer; die Seite „Security &amp; Compliance“ von Scaleway nannte am 08.10.2026 kein SOC 2. Wessen Bericht gemeint war, bleibt ungeklärt. Geändert zwischen dem Quellenlauf vom 20.10. (morgens) und dem vom 21.10.2026. · Commit 75ff106: fix: QP1 – GreenPT SOC 2 unbelegt, Infomaniak Qwen3.8-27B statt 3.5-122B, Mistral-Aktionspreis beendet, BFL-ISO-Zertifikat nur auf Anfrage; Fall 2026-002 Verlauf 21.10.</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-21-greenpt-zertifikate-soc-2-type-ii-.anwendungsbereich</id>
-    <title>GreenPT: SOC 2 Type II: Anwendungsbereich beansprucht → unbelegt</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-21-greenpt-zertifikate-soc-2-type-ii-.anwendungsbereich"/>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <content type="text">Bis 20.10.2026 nannte greenpt.com/privacy nur „Our infrastructure“, ohne Gesellschaft, Dienste oder Prüfzeitraum; seit 21.10.2026 wird SOC 2 dort nicht mehr genannt, also auch kein Anwendungsbereich. · Commit 75ff106: fix: QP1 – GreenPT SOC 2 unbelegt, Infomaniak Qwen3.8-27B statt 3.5-122B, Mistral-Aktionspreis beendet, BFL-ISO-Zertifikat nur auf Anfrage; Fall 2026-002 Verlauf 21.10.</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-21-infomaniak-modelle-qwen3.5-122b-a10b-fp8</id>
-    <title>Infomaniak: Modell Qwen3.5-122B-A10B-FP8 belegt → –</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-21-infomaniak-modelle-qwen3.5-122b-a10b-fp8"/>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <content type="text">Alte Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices · Commit 75ff106: fix: QP1 – GreenPT SOC 2 unbelegt, Infomaniak Qwen3.8-27B statt 3.5-122B, Mistral-Aktionspreis beendet, BFL-ISO-Zertifikat nur auf Anfrage; Fall 2026-002 Verlauf 21.10.</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-21-infomaniak-modelle-qwen3.8-27b-fp8</id>
-    <title>Infomaniak: Modell Qwen3.8-27B-FP8 – → belegt</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-21-infomaniak-modelle-qwen3.8-27b-fp8"/>
-    <updated>2026-10-21T00:00:00Z</updated>
-    <content type="text">Preis in CHF, exkl. MwSt. (Preisseite, Abruf 21.10.2026). Beta, Bild-Text zu Text, Function Calling ja; Kontextlänge ungeklärt, die Modellseite infomaniak.com/en/hosting/ai-services/open-source-models zeigt am 21.10.2026 „Max. input tokens NaN“. Seit spätestens 21.10.2026 in der Preisliste an der Stelle von Qwen3.5-122B-A10B-FP8 (CHF 0.40/3.20, 200k Kontext, zuletzt am 20.10.2026 geführt), das nicht mehr angeboten wird. Standort laut infomaniak.com/en/hosting/ai-services (03.10.2026): „Our AI and GPU services are powered from the heart of Europe in our data centers located in Switzerland“. Die Preisseite selbst nennt keinen Standort. · Neue Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices · Commit 75ff106: fix: QP1 – GreenPT SOC 2 unbelegt, Infomaniak Qwen3.8-27B statt 3.5-122B, Mistral-Aktionspreis beendet, BFL-ISO-Zertifikat nur auf Anfrage; Fall 2026-002 Verlauf 21.10.</content>
-  </entry>
-  <entry>
-    <id>https://belegbar.eu/aenderungen/#2026-10-19-ionos-modelle-mistral-nemo-instruct</id>
-    <title>IONOS (AI Model Hub): Modell Mistral Nemo Instruct belegt → unbelegt</title>
-    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-19-ionos-modelle-mistral-nemo-instruct"/>
-    <updated>2026-10-19T00:00:00Z</updated>
-    <content type="text">Aussage stand bis 2026-10-16 auf https://cloud.ionos.de/managed/ai-model-hub (0,15 € / 0,15 € je 1M), am 19.10.2026 abends nicht mehr — Modell nicht mehr in der Preisliste. Laut Modellseite der Doku (https://docs.ionos.com/cloud/ai/ai-model-hub/models, abgerufen 16.10. und 19.10.2026, „Last updated 11 days ago“) steht „Mistral Nemo (12B)“ unter „Scheduled for Retirement“ am 22.10.2026, Alternative Qwen3.5-9B (im Profil vorhanden); danach nicht mehr nutzbar: 'After the specified date, they will no longer be available to use in the AI Model Hub'. Ob es bis zum 22.10. noch buchbar ist, ist ungeklärt. · Alte Quelle: https://cloud.ionos.de/managed/ai-model-hub · Commit 720c078: fix: Abend-Quellenlauf 19.10., IONOS Mistral Nemo aus der Preisliste, Opper Unterauftragnehmer umsortiert (AWS Bedrock)</content>
+    <id>https://belegbar.eu/aenderungen/#2026-10-22-t-systems-fall-2026-006</id>
+    <title>T-Systems / Open Telekom Cloud (AI Foundation Services): Fall 2026-006 offen → bestätigt</title>
+    <link rel="alternate" href="https://belegbar.eu/aenderungen/#2026-10-22-t-systems-fall-2026-006"/>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <content type="text">Commit d28b2b7: Stand 22.10.2026: 91 lokale Aenderungen zusammengefasst</content>
   </entry>
   <entry>
     <id>https://belegbar.eu/aenderungen/#2026-10-18-black-forest-labs-modelle-flux-3-image-klein</id>

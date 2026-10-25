@@ -1,0 +1,54 @@
+Quelle: https://dev.meta.ai/products/meta-model-api (direkt), https://dev.meta.ai/legal/commitments (direkt); dazu die schon gesicherten Kopien in diesem Ordner (produkt-model-api, zusagen, nutzungsbedingungen, preise, modelle, zero-data-retention vom 23.10. ~01:16–01:20 MESZ)
+Abruf: 2026-10-23 ~12:20 UTC (curl direkt, je HTTP 200, 3 s Abstand; robots.txt von dev.meta.ai sperrt nur /*cursor=, /*fb_comment_id=, /ajax/, /tealium/, /intern/, /internal/, /login/, /oidc/callback/, /*.php). SHA-256 der Rohseiten: products/meta-model-api fa36599c0e1c36c7cd8e88d590b5d8ccb6a703f20899728dbede065cf7fe2d65, legal/commitments 3b67d32eda20aa32993041697784ab354b1e9f6f9861a161f61119f3c4f4d585. Beide Wortlaute unten stehen in den Rohseiten dieses Abrufs unverändert („Not used to improve our products“ 6-mal im HTML, „To improve and maintain the Meta Model API“ 2-mal). Archivkopie dieser Fassung: ungeklärt (nicht angefordert). belegbar.eu
+Inhalt: wörtliche Auszüge aus dem Widerspruchs-Scan Meta Model API (Textfassung). Frage: Sagen die Meta-Seiten untereinander oder in der Werbung etwas anderes als die Zusagen und Bedingungen?
+
+A. Werbung „Not used to improve our products“ gegen Datenzusagen „To improve and maintain the Meta Model API“ (Fall-Kandidat 54)
+
+1. products/meta-model-api (Abruf ~12:20 UTC, gleich Kopie produkt-model-api 01:16), Tabelle „Models and pricing“:
+muse-spark-1.3-contributorUsed to improve our products.
+muse-spark-1.3Not used to improve our products.
+muse-spark-1.2Not used to improve our products.
+muse-spark-1.1Not used to improve our products.
+(gleiche Zeilen auf der Modellseite, Kopie modell-muse-spark-1-2)
+
+2. legal/commitments „Meta Model API Data Commitments“ (Abruf ~12:20 UTC, gleich Kopie zusagen 01:16), Absatz Standard Services:
+Standard Services: Meta does not use your Content from Standard Services to train Meta Models. Meta may process Content as necessary to detect, prevent, and respond to violations of the Model API AUP or the Terms of Service, and to develop and improve systems that protect the safety and security of Meta's products and services.
+
+3. legal/commitments, Liste ohne Unterscheidung nach Stufe:
+Your Content and Customer Data will be used:
+To provide the services;
+To improve and maintain the Meta Model API;
+To detect, prevent, and respond to violations of the Model API Acceptable Use Policy;
+[…]
+To train and improve Meta’s AI models (Discounted Services Content only, as described above).
+
+4. nutzungsbedingungen (Kopie 01:16), 4.4 Retention:
+Meta will retain your Content and Usage Data as needed: (i) to provide the Services under these Terms; […] (iii) in connection with the exercise of Meta’s rights to use your Content and Usage Data under these Terms; (iv) when our systems flag data for a potential policy violation; and (v) for security, safety, abuse, and policy review and improvements.
+
+5. nutzungsbedingungen 5.1 (Standard Services):
+[…] and will not use Content submitted in a request to the Standard Services to train Meta Models.
+
+6. preise (Kopie 01:17), Abschnitt „Standard mode“:
+In Standard mode, you pay standard prices and your content is not used to train Meta models.
+
+Die Werbe- und Modellseiten schreiben bei jedem Standard-Modell „Not used to improve our products“ (1). Bedingungen und Doku versprechen enger nur „not used to train Meta Models“ (5, 6). Die Datenzusagen nennen für Inhalte aller Stufen den Zweck „To improve and maintain the Meta Model API“ (3), nur das Training ist auf die billige Stufe beschränkt; bei der Standard-Stufe zusätzlich „develop and improve systems that protect the safety and security of Meta's products and services“ (2), und die Bedingungen behalten Inhalte „for security, safety, abuse, and policy review and improvements“ (4). Wofür „improve“ in (3) genau steht und ob Inhalte selbst oder nur Nutzungsdaten gemeint sind: ungeklärt; das wäre die Frage an Meta.
+
+B. Speicherdauer (Zusatz zu Nr. 54, kein eigener Kandidat)
+
+7. legal/commitments, „Data Retention.“:
+Meta will retain your Content as described in the Terms and Privacy Policy. You can view and delete your Content through your Account. Certain retention may apply as described in the Terms.
+
+8. zero-data-retention (Kopie 01:17):
+ZDR isn't part of standard usage and can't be turned on from the web UI. […] When ZDR is enabled, your prompts and the model's responses are processed in real time and aren't stored by Meta after the response is returned, except where retention is required to comply with the law or to address misuse.
+Policy violations: If a request is flagged for an Acceptable Use Policy violation, Meta may retain the associated inputs and outputs for up to 2 years […]
+
+Eine Frist für normale Konten nennt keine der Seiten; 4.4 nennt nur Zwecke („as needed“). Der Satz „You can view and delete your Content through your Account“ (7) sagt nicht, ob Löschen im Konto auch die nach 4.4 (iv)/(v) behaltenen Kopien löscht. Frist ohne ZDR: ungeklärt.
+
+C. Ohne Widerspruch (Anmerkung)
+
+9. modelle (Kopie 01:18):
+Muse Code subscribers can also use Contributor mode, which is on by default: it gives you more usage in exchange for letting Meta use your content to train future Meta models, and you can turn it off at any time in your settings.
+
+Steht offen in der Doku, gilt für das Abo Muse Code, nicht für die Model API (dort wählt man die Stufe über die Modell-ID). Kein Kandidat; für Muse Code im Profil vermerkenswert.
+
+10. Contributor-Stufe: „Before using Content from Discounted Services to train artificial intelligence models, Meta takes steps designed to disassociate that Content […] However, Meta may use Content for evaluation, safety, abuse, quality, and policy review without first applying those disassociation steps.“ (zusagen) – steht offen da, die Hilfe-Seite verbietet personenbezogene Daten in dieser Stufe. Kein Widerspruch.

@@ -1,0 +1,35 @@
+Quelle: https://dev.meta.ai/help/about-model-api/llama-and-model-api
+Abruf: 2026-10-23 01:16:43 +0200
+
+AI Developer Help Center
+
+Meta
+
+StatusContact us
+
+Menu
+
+Status
+
+Contact us
+
+Close popover
+
+Back to Help Center
+
+Is Llama available on Meta Model API?
+
+Meta Model API is a hosted service for running Meta's AI models through an API and the Playground — there's no infrastructure for you to manage. A couple of related Meta projects have similar names but are separate things:
+
+Llama is Meta's family of open-source models that you download and host yourself, from llama.com. Llama models aren't run for you through Model API.
+
+Llama Stack is an open-source set of standardized APIs for building with models, on GitHub. It's a separate project from Model API.
+
+If your goal is to call Meta's models over an API without hosting them yourself, you're in the right place. To see the models Model API offers, see Models in the developer documentation.
+
+Terms of ServiceAcceptable Use Policy
+
+Please confirm your identity
+For added security, you need to confirm your identity. You will be taken to your single sign-on provider, where you can enter your password.
+
+CancelContinue

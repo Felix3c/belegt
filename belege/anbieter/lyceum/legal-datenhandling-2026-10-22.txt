@@ -1,0 +1,414 @@
+Legal documents and data handling | Lyceum
+Skip to content
+Lyceum
+Inference
+Compute
+Models
+Pricing
+Careers
+Resources
+Docs
+Company
+Legal
+Magazine
+News
+Press
+Start building
+Welcome back,
+Open dashboard
+Talk to an expert
+Inference
+Compute
+Models
+Pricing
+Careers
+Resources
+Docs
+Company
+Legal
+Magazine
+News
+Press
+Talk to an expert
+Start building
+Open dashboard
+Download brand assets
+ZIP
+Download logo
+SVG
+Download white logo
+SVG
+Download logo
+PNG
+Download white logo
+PNG
+Press and company facts
+↗
+Clear answers for your review
+Get the documents and contacts your legal and security teams need, and see what happens to a prompt you send us and who can access what.
+Get the documents
+What happens to a prompt
+Prompts and outputs not stored
+Never used for training
+European data centres
+ISO 27001 audit in progress
+*, .hero-description, .hero-actions > *" data-visual=".page-hero-visual" aria-hidden="true" data-astro-cid-toiq5iae>
+Everything for your legal review
+The DPA, the TOMs and the subprocessor list, one click each. The rest of our documents are below.
+Browse documents in Vanta
+Read the FAQ
+Vanta is our compliance platform
+Annex 1
+Data processing agreement
+Lyceum
+DPA
+Data processing agreement (DPA)
+Read the DPA
+↗
+Security
+Technical and organisational measures
+Lyceum
+TOMs
+Technical and organisational measures (TOMs)
+Request the TOMs
+↗
+By service
+Subprocessor list
+Lyceum
+Subprocessor list
+Subprocessor list
+Ask for the list
+→
+Legal
+Terms of service
+On this site
+Read the terms
+→
+Privacy policy
+On this site
+Read the policy
+→
+Compliance
+ISO 27001 engagement letter
+Open to read
+Read the letter
+↗
+Security controls
+Open to read
+See the controls
+↗
+What happens to your prompt
+Your app calls a model through our serverless API. Here’s what we see and keep at each stop.
+Example prompt
+Move your pointer over it
+D
+r
+a
+f
+t
+a
+t
+h
+a
+n
+k
+-
+y
+o
+u
+n
+o
+t
+e
+t
+o
+t
+h
+e
+t
+e
+a
+m
+w
+h
+o
+f
+i
+x
+e
+d
+t
+h
+e
+o
+f
+f
+i
+c
+e
+c
+o
+f
+f
+e
+e
+m
+a
+c
+h
+i
+n
+e
+.
+Draft a thank-you note to the team who fixed the office coffee machine.
+Draft
+a
+thank-you
+note
+to
+the
+team
+who
+fixed
+the
+office
+coffee
+machine.
+Nobody on our team can open it.
+Prompts and outputs are processed, not stored, and never used for training.
+Serverless inference
+We see
+We keep
+We don’t keep
+Your app
+You send a request
+We see
+Nothing yet. Your request travels over HTTPS, so it’s encrypted on the way.
+We keep
+Nothing.
+We don’t keep
+Your conversation history. It stays in your app, which sends what each request needs.
+Our gateway
+We check your key
+We see
+Your API key, the model you asked for and your prompt, which passes through in memory.
+We keep
+A usage record: your organisation and user, the model, token counts and the time.
+We don’t keep
+Your prompt text. We never log it or write it to a database.
+GPU
+The model runs
+We see
+Your prompt, in GPU memory in a European data centre, while the model writes the answer.
+We keep
+Recent prompt prefixes, in GPU memory, until newer requests replace them. That’s what makes cached input cheaper.
+We don’t keep
+Your prompt, on disk or in a database.
+Your app
+The answer streams back
+We see
+The response, as it streams back to your app.
+We keep
+The output token count, added to the usage record.
+We don’t keep
+The response text.
+usage-record
+Example values
+The only record a request leaves
+We keep it to bill you and run the service. It never contains your prompt or the response.
+What we keep
+Request
+req_8c1e…4f2a
+Organisation
+Your organisation
+User
+The key’s owner
+Model
+moonshotai/kimi-k3
+Input tokens
+1,204
+Of which cached
+896
+Output tokens
+312
+Time
+29 September 2026, 10:42am
+What we never record
+Prompt text
+Never recorded
+Response text
+Never recorded
+What stays, and for how long
+We don’t store your prompts or responses. Here’s what we do keep, why, and what happens to it when you leave.
+During a request
+While the model works
+After a request
+While your contract runs
+When you leave
+Your contract ends or you close your account
+Your prompt and the response
+Everything you send and everything the model writes back.
+During a request
+In memory
+On our gateway and a GPU while the model works.
+After a request
+Not kept
+Recent prompt prefixes stay in GPU memory as a cache until newer requests replace them.
+When you leave
+Nothing to delete
+We never stored them, so there’s nothing to return.
+Usage records and system logs
+Neither contains your prompt or the response.
+During a request
+Written
+As your request passes through our gateway.
+After a request
+Kept
+To bill you, run and secure the service, and plan capacity.
+When you leave
+Deleted or returned
+The personal data in them, unless the law requires us to keep it.
+Your account
+Name, email address, API keys and billing details.
+During a request
+Checked
+We check your API key before your request goes any further.
+After a request
+Kept
+For as long as your contract runs.
+When you leave
+Deleted or returned
+You choose which, unless the law requires us to keep something.
+When you leave, email us whether you want your data deleted or returned.
+[email protected]
+→
+Who can access your data
+Three parties can: our team, our subprocessors and you. Here’s what each can and can’t see.
+The people who run Lyceum
+Can access
+Your account details, usage records and system logs.
+Can’t see
+Your prompts and responses. We never log them or write them to a database, so there’s nothing to open.
+Why
+To run the platform, support you, bill you and keep the service secure.
+Where
+Lyceum Technology Germany GmbH in Berlin and Lyceum Switzerland GmbH in Zurich.
+In writing
+Access only where your contract needs it, and a duty of confidentiality for everyone who has it.
+Companies that run part of the service for us
+Can access
+Only the data their part of the service needs, such as providing GPU capacity or processing payments.
+Can’t see
+Anything outside their part. A payment provider never sees a prompt, for example.
+Why
+To provide that part of the service for us, and for no other purpose.
+Where
+Mainly in the EU and the European Economic Area (EEA). Anything outside it is covered by the GDPR’s safeguards, such as standard contractual clauses.
+In writing
+The same data protection duties we have. We tell you before we add or replace one, and you can object within 10 business days.
+The controller of your data
+Can access
+Your prompts, responses and conversation history in your own app, and your account and API keys in our dashboard.
+Can’t see
+Nothing of yours. Ask us what we hold about your account and we’ll tell you.
+Why
+You decide what we process and why. Under our DPA, you’re the controller and we’re the processor.
+Where
+Your own systems, and our dashboard.
+In writing
+Instruct us in writing at any time, audit us with notice, and choose deletion or return when you leave.
+If something goes wrong, you hear from us straight away.
+Our DPA obliges us to tell you immediately about any breach involving your personal data.
+Who to ask, and what to send
+Security questionnaires
+[email protected]
+Email compliance
+→
+The DPA and your contract
+[email protected]
+Email compliance
+→
+Dedicated endpoints and locations
+A call with our engineers
+Talk to an expert
+→
+Requests about your own data
+[email protected]
+Email privacy
+→
+Questions reviewers often ask
+Do we need to sign a separate DPA?
++
+No. The DPA is Annex 1 of our terms, so it applies when you accept them. If your legal team needs changes, send them to compliance.
+Email compliance
+→
+Can we rule out a subprocessor?
++
+Yes. Which subprocessors apply depends on the service you choose, so your choice of service can rule one out. You can also object to a new subprocessor within 10 business days of our notice.
+Ask for the list
+→
+What about GPU virtual machines and training jobs?
++
+Code you send us stays yours. We don’t store it permanently, never use it for training and delete it promptly when you ask. Storage on a GPU virtual machine is there to run your workload, not to archive it, so keep your own backups.
+Read the terms
+→
+What happens if there’s a security incident?
++
+Our DPA obliges us to tell you immediately about any breach involving your personal data. Service incidents appear on the public status page.
+Check the status page
+↗
+What service levels do you offer?
++
+Our public status page shows live status, per-model latency and past incidents. Business customers also get a direct line to the engineers who run the platform, with contractual response times.
+Talk to an expert
+→
+Where are you with ISO 27001?
++
+Our ISO 27001:2022 audit is in progress. Vanta monitors our controls continuously, and its engagement letter confirms the audit engagement.
+Read the engagement letter
+↗
+Ready when your review is
+Email compliance
+Sovereign European AI inference for open-source models, billed per token.
+Live status
+23 open models
+Run
+Inference
+Compute
+Fine-tuning
+Models
+Pricing
+Learn
+Docs
+↗
+Magazine
+Status
+↗
+llms.txt
+Meet us
+Company
+Careers
+Press
+Contact
+Legal
+Documents
+Compliance
+DPA
+FAQ
+Terms
+Privacy
+Imprint
+Cookies
+© 2026 Lyceum Technology Germany GmbH
+LinkedIn
+↗
+cookies.txt
+We use cookies to improve your experience and for marketing. Read our
+cookie policy
+.
+Reject all
+Accept all
+, behind the
+cookie consent gate. The
+tracking pixel went with it: it
+would have fired for every visitor regardless of their choice. -->

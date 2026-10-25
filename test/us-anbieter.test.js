@@ -92,3 +92,58 @@ test("rechtsraumKurz: Tabelle zeigt DPF ja/nein", () => {
   assert.equal(R.rechtsraumKurz({ stammdaten: { land: "US" } }), R.RAUM_KURZ.dpf);
   assert.equal(R.rechtsraumKurz({ stammdaten: { land: "DE" } }), "EU");
 });
+
+// EH1 Teil 2c (22.10.2026): die API-Produkte als eigene Profile. Gleiche Firma wie das Assistenten-Profil,
+// darum gleiche DPF-Antwort; Kategorie Cloud (Azure, Vertex) bzw. Modell-Anbieter (OpenAI API).
+const API_ERWARTET = {
+  "azure-openai": { kategorie: "cloud", dpf: true },
+  "google-vertex-gemini-api": { kategorie: "cloud", dpf: true },
+  "openai-api": { kategorie: "modell-anbieter", dpf: false },
+};
+// WX1 (23.10.2026): Anthropic als vierte US-Firma, wie EH1 Teil 2c. DPF-Liste: 0 Treffer für „Anthropic“,
+// „Anthropic PBC“, „Anthropic Ireland“, „Claude“ (aktiv und alle Status). API = Modell-Anbieter,
+// Claude for Work (Team/Enterprise) = Assistent wie ChatGPT Enterprise.
+const ANTHROPIC_ERWARTET = {
+  "anthropic-api": { kategorie: "modell-anbieter", dpf: false },
+  "anthropic-claude-enterprise": { kategorie: "assistent", dpf: false },
+};
+// WX1 (23.10.2026): Amazon Bedrock als Modell-Plattform in der AWS-Cloud, Kategorie Cloud wie Azure OpenAI
+// und Vertex. DPF-Antwort aus der amtlichen Liste (Beleg belege/rechtsraum/dpf-amazon-2026-10-23/).
+const BEDROCK_ERWARTET = {
+  "amazon-bedrock": { kategorie: "cloud", dpf: true },
+};
+for (const [id, e] of Object.entries({ ...API_ERWARTET, ...ANTHROPIC_ERWARTET, ...BEDROCK_ERWARTET })) {
+  test(`${id}: API-Profil im Katalog mit Kategorie, DPF und Belegen`, () => {
+    const p = lade(id);
+    assert.equal(p.id, id);
+    assert.equal(p.kategorie, e.kategorie);
+    assert.equal(p.stammdaten.land, "US");
+    assert.equal(p.stammdaten.us_eigner, true);
+    assert.equal(p.stammdaten.dpf.status, "belegt");
+    assert.equal(p.stammdaten.dpf.wert, e.dpf);
+    assert.ok(p.modelle.length >= 1, "mindestens ein Modell");
+    for (const feld of ["avv", "subprozessoren", "training_opt_out", "zero_data_retention", "zweckbindung", "log_frist"]) {
+      const f = p.vertrag[feld];
+      assert.ok(f, `vertrag.${feld} fehlt`);
+      assert.ok(["belegt", "beansprucht", "unbelegt"].includes(f.status), `${feld}: Status ${f.status}`);
+      assert.match(f.geprueft, /^\d{4}-\d{2}-\d{2}$/);
+      if (f.status !== "unbelegt") assert.match(f.anmerkung, /„[^“]{10,}“/, `${feld}: wörtliches Zitat fehlt`);
+    }
+    assert.doesNotMatch(JSON.stringify(p), /PRIVAT|privates Muster|nicht im Katalog/i);
+    const belege = path.join(__dirname, "..", "belege", "anbieter", id);
+    assert.ok(fs.existsSync(path.join(belege, "SHA256SUMS")), "Belegkopien mit SHA256SUMS fehlen");
+    assert.ok(fs.existsSync(path.join(belege, "QUELLEN.md")), "QUELLEN.md fehlt");
+  });
+}
+
+// WX1 (23.10.2026): Amazon Bedrock ist der erste Dienst, der selbst in einem Register steht (CISPE-Kodex,
+// „Amazon Bedrock [excludes Amazon Bedrock Marketplace]“). Dafür braucht es ein eigenes Ergebnis, nicht
+// „Konzern im Register“.
+test("amazon-bedrock: Registerabgleich nennt den CISPE-Eintrag des Dienstes", () => {
+  const REG = require("../lib/register.js");
+  assert.ok(REG.ERGEBNIS_LABEL.dienst_im_register, "Label dienst_im_register fehlt");
+  const e = REG.registerZu("amazon-bedrock", REG.ladeRegister());
+  assert.equal(e.ergebnis, "dienst_im_register");
+  assert.match(e.text, /CISPE/);
+  assert.match(e.text, /Marketplace/);
+});

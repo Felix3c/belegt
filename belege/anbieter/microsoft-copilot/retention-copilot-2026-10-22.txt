@@ -1,0 +1,145 @@
+Quelle: https://learn.microsoft.com/en-us/purview/retention-policies-copilot
+Abruf: 2026-10-22 13:03:45 +0200
+
+Learn about retention for Copilot and AI apps | Microsoft Learn
+Skip to main content
+Skip to Ask Learn chat experience
+This browser is no longer supported.
+Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.
+Download Microsoft Edge
+More info about Internet Explorer and Microsoft Edge
+Table of contents
+Exit editor mode
+Ask Learn
+Ask Learn
+Reading mode
+Table of contents
+Read in English
+Add
+Add to Plans
+Edit
+Copy Markdown
+Print
+Note
+Access to this page requires authorization. You can try signing in or changing directories .
+Access to this page requires authorization. You can try changing directories .
+Learn about retention for Copilot & AI apps
+Feedback
+Summarize this article for me
+In this article
+Microsoft Purview service description
+Note
+Previously, messages from Microsoft 365 Copilot and Microsoft 365 Copilot Chat were automatically included in the retention policy location named Teams chats and Copilot interactions because they were retained and deleted by using the same mechanisms. Users didn't have to be using Teams for the retention policy to apply to Copilot.
+Retention policies for Microsoft 365 Copilot and Microsoft 365 Copilot Chat are now separate from Teams chats, and newly created retention policies support the following locations:
+Microsoft Copilot experiences
+Microsoft 365 Copilot
+Security Copilot
+Copilot in Fabric
+Copilot Studio
+Enterprise AI apps
+Entra-registered AI apps
+ChatGPT Enterprise
+Microsoft Foundry
+Other AI apps
+ChatGPT
+Google Gemini
+Microsoft Copilot (consumer version)
+DeepSeek
+The information in this article supplements Learn about retention because it has information that's specific to interactions with Copilot & AI apps.
+For other workloads, see:
+Learn about retention for SharePoint and OneDrive
+Learn about retention for Viva Engage
+Learn about retention for Exchange
+Learn about retention for Teams
+For more information about Microsoft Purview integration with Copilot & AI apps, see Microsoft Purview data security and compliance protections for generative AI apps .
+What's included for retention and deletion
+Retention policies for AI apps include user prompts and responses for Microsoft 365 Copilot and Copilot Studio, and also user prompts and responses for other Microsoft Copilots and generative AI apps when they have a collection policy with the setting to capture content . These messages can then be retained and deleted for compliance reasons.
+User prompts include text that users type, and selecting AI app prompts that are captured as a prepopulated message. AI app responses include text, links, and references. For Copilot in Teams chat and channels, responses include threaded summaries . Because messages to indicate that a response is in progress don't have business value, these messages aren't captured.
+How retention works with AI apps
+Use this section to understand how your compliance requirements are met by backend storage and processes, and should be verified by eDiscovery tools rather than by messages that are currently visible in your AI apps, such as Copilot.
+You can use a retention policy to retain data from messages in Copilot or another AI app, and delete those messages. Behind the scenes, Exchange mailboxes are used to store data copied from these messages. Data from generative AI messages is stored in a hidden folder in the mailbox of the user who runs the AI app. This hidden folder isn't designed to be directly accessible to users or administrators, but instead, store data that compliance administrators can search with eDiscovery tools.
+The Exchange mailbox for retaining these messages has the RecipientTypeDetails attribute of UserMailbox , which also stores message data for Teams private channels and cloud-based Teams users.
+After a retention policy is configured for AI app interactions, a timer job from the Exchange service periodically evaluates items in the hidden mailbox folder where these messages are stored. The timer job typically takes 1-7 days to run. When these items have expired their retention period, they're moved to the SubstrateHolds folder—another hidden folder that's in every user mailbox to store "soft-deleted" items before they're permanently deleted.
+Messages remain in the SubstrateHolds folder for at least 1 day, and then if they're eligible for deletion, the timer job permanently deletes them the next time it runs.
+Important
+Because of the first principle of retention , and because the AI app messages are stored in Exchange Online mailboxes, permanent deletion from the SubstrateHolds folder is always suspended if the mailbox is affected by another retention policy for the same location, Litigation Hold, delay hold, or if an eDiscovery hold is applied to the mailbox for legal or investigative reasons.
+After a retention policy is configured, the paths the content takes depend on whether the retention policy is to retain and then delete, to retain only, or delete only.
+When the retention policy is to retain and then delete, using Microsoft 365 Copilot as the example:
+In most scenarios, these messages aren't removed. For example, they remain but are hidden when users close a chat window or close the app. However, Copilot messages are removed in the following scenarios:
+Users delete (when this option is available) the associated chat in Microsoft 365 Copilot Chat.
+A request is submitted to delete a user's history of all interactions with Microsoft 365 Copilot .
+For the two paths in the diagram:
+If messages are removed from the AI app , the message is moved to the SubstrateHolds folder where it remains for at least 1 day. When the retention period expires, the message is permanently deleted the next time the timer job runs (typically between 1-7 days).
+If messages remain in the AI app after the retention period expires, the message is copied to the SubstrateHolds folder. This action typically takes between 1-7 days from the expiry date. When the message is in the SubstrateHolds folder, it's stored there for at least 1 day, and then the message is permanently deleted the next time the timer job runs (typically between 1-7 days).
+Note
+Messages stored in mailboxes, including the hidden folders, are searchable by eDiscovery tools. Until messages are permanently deleted from the SubstrateHolds folder, they remain searchable by eDiscovery tools.
+When the retention period expires and copies a message to the SubstrateHolds folder, a delete operation is communicated to the backend service for Copilot, that then relays the same operation to the user app with Copilot. Delays in this communication or caching can explain why, for a short period of time, users continue to see these messages in Copilot.
+Important
+Messages visible in your AI apps are not an accurate reflection of whether they are retained or permanently deleted for compliance requirements.
+When the retention policy is retain-only, or delete-only, the content's paths are variations of retain and delete.
+Content paths for retain-only retention policy
+If messages are removed from your AI app the message is moved to the SubstrateHolds folder after the retention period expires. This action typically takes between 1-7 days from the expiry date. If the retention policy is configured to retain forever, the item remains there. If the retention policy has an end date for the retention period and it expires, the message is permanently deleted the next time the timer job runs (typically between 1-7 days).
+If messages remain in your AI app after the retention period expires, nothing happens before and after the retention period; the message remains in its original location.
+Content paths for delete-only retention policy
+If messages are removed from your AI app during the retention period, the message is moved to the SubstrateHolds folder. The message is stored in the SubstrateHolds folder for at least 1 day and permanently deleted the next time the timer job runs (typically between 1-7 days).
+If messages remain in your AI app after the retention period expires, the message is copied to the SubstrateHolds folder. This action typically takes between 1-7 days from the expiry date. The message is retained there for at least 1 day and then permanently deleted the next time the timer job runs (typically between 1-7 days).
+Example flows and timings for retention policies
+Use the following examples to see how the processes and timings explained in the previous sections apply to retention policies that have the following configurations:
+Example 1: Retain for 30 days and then delete
+Example 2: Delete-only after 1 day
+For all examples that refer to permanent deletion, because of the principles of retention , this action is suspended if the message is subject to another retention policy to retain the item or it's subject to an eDiscovery hold.
+Example 1: Retain for 30 days and then delete
+On day 1, a user sends a prompt to Copilot and the prompt is removed after 10 days.
+Retention outcome:
+After day 10, the message is moved to the SubstrateHolds folder, where it can still be searched with eDiscovery tools.
+At the end of the retention period (30 days from day 1), the message is permanently deleted typically within 1-7 days after the minimum of 1 day, and then won't be returned with eDiscovery searches.
+Example 2: Delete-only after 1 day
+Note
+Because of the short one-day duration of this configuration and retention processes that operate within a time period of 1-7 days, this section shows example timings that are within the typical time ranges.
+On day 1, a user sends a prompt to Copilot and this prompt isn't removed from Copilot.
+Example retention outcome if the user's prompt isn't removed:
+Day 5 (typically 1-7 days after the start of the retention period on day 2):
+The message is copied to the SubstrateHolds folder and remains there for at least 1 day.
+Day 9 (typically 1-7 days after a minimum of 1 day in the SubstrateHolds folder):
+The message is permanently deleted and then won't be returned with eDiscovery searches.
+As this example shows, although you can configure a retention policy to delete messages after just one day, the service undergoes multiple processes to ensure a compliant deletion. As a result, a delete action after 1 day could take 16 days before the message is permanently deleted so that it's no longer returned in eDiscovery searches.
+When a user leaves the organization
+If a user leaves your organization and their Microsoft 365 account is deleted, their Copilot and other AI app messages that are subject to retention are stored in an inactive mailbox. The messages remain subject to any retention policy that was placed on the user before their mailbox was made inactive, and the contents are available to an eDiscovery search. For more information, see Learn about inactive mailboxes .
+Configuration guidance
+If you're new to configuring retention in Microsoft 365, see Get started with data lifecycle management .
+If you're ready to configure a retention policy for Copilot interactions, see Create and configure retention policies .
+Feedback
+Was this page helpful?
+Yes
+No
+No
+Need help with this topic?
+Want to try using Ask Learn to clarify or guide you through this topic?
+Ask Learn
+Ask Learn
+Suggest a fix?
+Additional resources
+Last updated on
+2025-09-26
+In this article
+Was this page helpful?
+Need help with this topic?
+Want to try using Ask Learn to clarify or guide you through this topic?
+Ask Learn
+Ask Learn
+Suggest a fix?
+en-us
+Your Privacy Choices
+Theme
+Light
+Dark
+High contrast
+AI Disclaimer
+Previous Versions
+Blog
+Contribute
+Privacy
+Consumer Health Privacy
+Terms of Use
+Trademarks
+© Microsoft 2026

@@ -1,0 +1,66 @@
+Quelle: https://www.microsoft.com/en-us/microsoft-365-copilot/enterprise (direkt), https://www.microsoft.com/en-us/copilot/resources/compete-copilot-vs-chatgpt-enterprise, https://www.microsoft.com/en-us/copilot/resources/compete-copilot-vs-claude-enterprise, https://www.microsoft.com/en-us/copilot/resources/compete-copilot-vs-gemini-enterprise (Weiterleitungen von /en-us/microsoft-365-copilot/copilot-vs-…); dazu die schon gesicherten Kopien in diesem Ordner (enterprise-data-protection, public-web-access, anthropic-subprocessor, flex-routing vom 22.10.)
+Abruf: 2026-10-23 ~09:10-09:12 UTC (curl direkt, je HTTP 200, 3 s Abstand; robots.txt von www.microsoft.com sperrt /en/microsoft-365, nicht /en-us/ und nicht /en-us/copilot/). Die alten Adressen /en-us/microsoft-365/copilot/… lieferten eine Sperrseite („Your request has been blocked“) und wurden nicht verwendet. SHA-256 der Rohseiten: enterprise 791e11292bb3b62bbbec923dc22ec9c5efc10328e7cc1a25aa2b6f7c1fc1bb40, vs-chatgpt 8707f4023af6cd54a4770986d3506cd153270cf7ef4a540c9e29f9b697c01845, vs-claude 77cb59ce4cd3a2433f8bc326e5210f3ccefd90301b208eecea0ced0a7ce4618d, vs-gemini e0ea2db8525c6106ca1e81faba57508ecf9aaaf8f72c3cafb766cef021179530. Archivkopie dieser Fassung: ungeklärt (nicht angefordert; ältere Fassungen im Internet Archive vom 08.08.2026). belegbar.eu
+Inhalt: wörtliche Auszüge aus dem Widerspruchs-Scan Microsoft Copilot, Unternehmensfassung (Textfassung). Frage: Sagen die Microsoft-Seiten untereinander oder in der Werbung etwas anderes als das Profil?
+
+A. Werbung: „alle Interaktionen bleiben im Tenant“ (Fall-Kandidat 51)
+
+1. vs-chatgpt (FAQ „How does Microsoft Copilot help secure AI for business?“), wortgleich in vs-gemini:
+It doesn’t train on your data, and all interactions remain within your Microsoft 365 tenant—helping you work confidently with sensitive information.
+
+2. vs-claude, gleiche Frage:
+It doesn’t train on your data, and interactions remain within your Microsoft 365 tenant—helping you work confidently with sensitive information.
+
+3. vs-chatgpt, über den Wettbewerber:
+ChatGPT Enterprise is a separate service outside that boundary and is governed by its own security and governance controls.
+
+4. vs-gemini, über den Wettbewerber:
+Gemini Enterprise connectors to Microsoft 365 create a mirror of your data and store it outside your Microsoft 365 tenant.
+
+B. Doku: Websuchen sind Teil der Interaktionen und gehen an einen Dienst außerhalb von Microsoft 365
+
+5. enterprise-data-protection (Kopie 22.10., Zeile 47):
+In addition to prompts and responses, web search queries (different from Microsoft Graph queries) are also a part of Copilot interactions.
+
+6. enterprise-data-protection (Zeile 50):
+The Bing search service operates separately from Microsoft 365 and has different data-handling practices covered by the Microsoft Services Agreement between each user and Microsoft, together with the Microsoft Privacy Statement . This means that Microsoft acts as an independent data controller
+
+7. public-web-access (Kopie 22.10., Zeile 95):
+The Microsoft Products and Services Data Protection Addendum (DPA) doesn't apply to the use of generated web search queries in Microsoft Copilot, Microsoft Copilot Chat, or the Bing search service. Also, HIPAA compliance and the EU Data Boundary don't apply to generated search queries.
+
+8. public-web-access (Zeile 111): Web search is available, but is turned off by default.
+   (Zeile 116): If the IT admin enables web search, the Web content toggle is turned on by default.
+
+Microsoft zählt Websuchen selbst zu den „Copilot interactions“ (5) und schickt sie an einen Dienst, der „separately from Microsoft 365“ läuft, ohne DPA und ohne EU-Datengrenze (6, 7). Die Werbung sagt ohne Einschränkung „all interactions remain within your Microsoft 365 tenant“ (1) und hält dem Wettbewerber genau das vor, was hier für die Websuche gilt (3, 4). Die Suchanfrage ist laut Doku nur ein paar Wörter aus dem Prompt, ohne Nutzer- und Tenant-Kennung; Prompts und Antworten selbst „never leave the service boundary … without customer direction“ (public-web-access Zeile 47).
+
+C. Doku: Anthropic-Modelle mit Datenspeicherung bei Anthropic (Zusatz zu Nr. 51)
+
+9. vs-chatgpt, Werbung „Model choice“:
+Access multiple leading models in one experience—the right model for each task, no tool-switching required.
+
+10. anthropic-subprocessor (Kopie 22.10., Zeile 66):
+Anthropic models with Data Retention are advanced models (such as Claude Fable 5 and Claude Mythos 5 ) that require data retention by Anthropic. This means data is stored by Anthropic and not subject to your Microsoft Customer Agreement including commitments in the Product Terms and DPA.
+
+11. Dieselbe Zeile: … are off by default for all scenarios … No users will have access to these models until the tenant admin explicitly opts in
+
+12. anthropic-subprocessor (Zeile 37): Microsoft enables Anthropic models on by default for most customers in commercial cloud (excluding EU/EFTA and UK).
+
+Mit Einschalten durch den Admin liegen Daten bei Anthropic außerhalb des Microsoft-Vertrags; das ist eine „customer direction“, aber in der Werbung (1, 9) nicht erwähnt. Für EU, EFTA und UK sind Anthropic-Modelle ab Werk aus.
+
+D. Werbung EU-Datengrenze gegen Flex routing (Anmerkung, steht schon im Profil)
+
+13. enterprise, Abschnitt „Shield your AI assets with data protection and compliance frameworks“:
+EU Data Boundary
+, a geographical boundary within which to store and process Customer Data and personal data; and
+
+14. flex-routing (Kopie 22.10., Zeile 33):
+Flex routing is on by default for eligible tenants that were created after March 25, 2026.
+
+15. flex-routing (Zeile 31): … allow large language model (LLM) inferencing to occur outside the EU Data Boundary during periods of peak demand
+
+Für neue Tenants seit 25.03.2026 ist die Verarbeitung außerhalb der EU-Datengrenze ab Werk erlaubt. Die Werbeseite nennt die EU-Datengrenze ohne diesen Hinweis. Kein eigener Kandidat: Die Doku sagt es offen, und das Profil führt es schon im Feld Standort.
+
+E. Ohne Widerspruch
+
+16. enterprise: „not used to train foundation models“ – passt zu „Prompts, responses, and data accessed through Microsoft Graph aren't used to train foundation LLMs“ (Profil training_opt_out).
+
+17. enterprise: „your data is protected by enterprise-grade security and compliance controls—no data duplication“ – gemeint ist laut Kontext, dass Copilot in den Apps arbeitet statt Kopien anzulegen; Prompts und Antworten werden laut Doku gespeichert (Profil zero_data_retention = nein). Mehrdeutig, kein Kandidat.

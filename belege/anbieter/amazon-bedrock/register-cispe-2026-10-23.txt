@@ -1,0 +1,3414 @@
+Quelle: https://www.codeofconduct.cloud/public-register/
+Abruf: 2026-10-23 00:58:13 +0200
+
+Public Register
+
+Skip to content
+
+Menu +
+×
+expanded
+collapsed
+
+Home
+
+The Code
+
+Declare a service
+
+Public Register
+
+Monitoring Bodies
+
+Media & Resources
+
+Public Register
+
+This Public Registry and all the service declarations it contains comply with the latest version of the CISPE Data Protection Code approved by the CNIL in 2021.
+
+Click on the tabs below to read the full description
+
+Self – Assessment
+
+Controlled Adherence
+
+A CISP must complete a self-assessment of its service against the Code Requirements and present it to the CISPE Secretariat:
+
+• its Declaration of Adherence; and
+• a completed Compliance Checklist as set out in Annex B of the Code, and any supporting information.
+
+CISPs that follow the Self-Assessment process shall be entitled to have the
+self-assessed service into the CISPE Public Register as “Candidate to the Code”, for a maximum period of 12 months following the date of incorporation of the Declaration of Adherence into the CISPE Public Register.
+
+A CISP must first submit the relevant service for Monitoring Body assessment and verification, and present it to the Secretariat:
+
+• its Declaration of Adherence;
+• a completed Compliance Checklist as set out in Annex B of the Code, and any supporting information; and
+• written confirmation from its Monitoring Body that the CISP service adheres to the Code.
+
+Monitoring Body eligibility is determined by the CNIL (Commission Nationale de l’Informatique et des Libertés), the Designated Supervisory Authority for the CISPE Code of Conduct. Accredited Monitoring Bodies currently are: EY CertifyPoint, Bureau Veritas, LNE as detailed in the Monitoring Bodies section.
+
+| Seller of Record
+
+| Website
+
+| Service Name
+
+| Service URL
+
+| Storage and processing
+
+| Declaration Type
+
+| Monitoring Body
+
+| Date of declaration
+
+| Due Date
+
+| AlphaNet Spółka z o.o.
+
+| www.arubacloud.pl
+
+| OpenStack Cloud Server
+
+| https://www.cloud.it/openstack-cloud-server/
+
+| Italy
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 07/01/2026
+
+| 07/01/2029
+
+| AlphaNet Spółka z o.o.
+
+| www.arubacloud.pl
+
+| VMware Cloud Server
+
+| https://www.cloud.it/vmware-on-aruba-cloud/vmware-cloud-server/
+
+| Italy, Czech Republic, France, Germany, Poland
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 07/01/2026
+
+| 07/01/2029
+
+| Aruba Business SRL
+
+| https://business.aruba.it/
+
+| OpenStack Cloud Server
+
+| https://www.cloud.it/openstack-cloud-server/
+
+| Italy
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 07/01/2026
+
+| 07/01/2029
+
+| Aruba Business SRL
+
+| https://business.aruba.it/
+
+| VMware Cloud Server
+
+| https://www.cloud.it/vmware-on-aruba-cloud/vmware-cloud-server/
+
+| Italy, Czech Republic, France, Germany, Poland
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 07/01/2026
+
+| 07/01/2029
+
+| Aruba SpA
+
+| https://www.aruba.it/en/
+
+| IaaS SAP for Hana
+
+| https://www.cloud.it/private-and-hybrid-cloud/sap-hana-iaas/
+
+| Italy
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 07/01/2026
+
+| 07/01/2029
+
+| Aruba SpA
+
+| https://www.aruba.it/en/
+
+| OpenStack Cloud Server
+
+| https://www.cloud.it/openstack-cloud-server/
+
+| Italy
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 07/01/2026
+
+| 07/01/2029
+
+| Aruba SpA
+
+| https://www.aruba.it/en/
+
+| Virtual Data Center
+
+| https://www.cloud.it/virtual-data-center/
+
+| Italy
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 07/01/2026
+
+| 07/01/2029
+
+| Aruba SpA
+
+| https://www.aruba.it/en/
+
+| VMware Cloud Server
+
+| https://www.cloud.it/vmware-on-aruba-cloud/vmware-cloud-server/
+
+| Italy, Czech Republic, France, Germany, Poland
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 07/01/2026
+
+| 07/01/2029
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon API Gateway
+
+| https://aws.amazon.com/api-gateway/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon AppFlow
+
+| https://aws.amazon.com/appflow/
+
+| France, Germany, Ireland, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 14/06/2024
+
+| 14/06/2027
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Workspaces Applications
+
+| https://aws.amazon.com/workspaces/applications/
+
+| France, Germany, Ireland, Italy, Spain, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 14/06/2024
+
+| 14/06/2027
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Athena
+
+| https://aws.amazon.com/athena/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Augmented AI (Amazon A2I)
+
+| https://aws.amazon.com/augmented-ai/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Bedrock [excludes Amazon Bedrock Marketplace]
+
+| https://aws.amazon.com/bedrock/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 14/06/2024
+
+| 14/06/2027
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Cloud Directory
+
+| https://aws.amazon.com/cloud-directory/
+
+| Germany, Ireland, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon CloudWatch
+
+| https://aws.amazon.com/cloudwatch/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon CloudWatch Logs
+
+| https://aws.amazon.com/cloudwatch/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Cognito
+
+| https://aws.amazon.com/cognito/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Comprehend
+
+| https://aws.amazon.com/comprehend/
+
+| Germany, Ireland, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Connect Customer [excludes Customer Profiles, Tasks, and Contact Lens]
+
+| https://aws.amazon.com/products/connect/customer/
+
+| Germany, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Data Firehose
+
+| https://aws.amazon.com/firehose/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Detective
+
+| https://aws.amazon.com/detective/
+
+| France, Germany, Ireland, Italy, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon DocumentDB (with MongoDB compatibility)
+
+| https://aws.amazon.com/documentdb/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/06/2023
+
+| 22/04/2029
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon DynamoDB
+
+| https://aws.amazon.com/dynamodb/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Elastic Block Store (Amazon EBS)
+
+| https://aws.amazon.com/ebs/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Elastic Compute Cloud (Amazon EC2)
+
+| https://aws.amazon.com/ec2/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Elastic Container Registry (Amazon ECR)
+
+| https://aws.amazon.com/ecr/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Elastic Container Service (Amazon ECS) [both Fargate and EC2 launch types]
+
+| https://aws.amazon.com/ecs/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Elastic File System (Amazon EFS)
+
+| https://aws.amazon.com/efs/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Elastic Kubernetes Service (Amazon EKS)
+
+| https://aws.amazon.com/eks/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon ElastiCache
+
+| https://aws.amazon.com/elasticache/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/06/2023
+
+| 22/04/2029
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon EMR
+
+| https://aws.amazon.com/emr/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/06/2023
+
+| 22/04/2029
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon EventBridge
+
+| https://aws.amazon.com/eventbridge/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Forecast
+
+| https://aws.amazon.com/forecast/
+
+| Germany, Ireland, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Fraud Detector
+
+| https://aws.amazon.com/fraud-detector/
+
+| Ireland, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/06/2023
+
+| 22/04/2029
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon FSx
+
+| https://aws.amazon.com/fsx/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon GuardDuty
+
+| https://aws.amazon.com/guardduty/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Inspector
+
+| https://aws.amazon.com/inspector/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Keyspaces (for Apache Cassandra)
+
+| https://aws.amazon.com/keyspaces/
+
+| France, Germany, Ireland, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Kinesis Data Streams
+
+| https://aws.amazon.com/kinesis/data-streams/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Kinesis Video Streams
+
+| https://aws.amazon.com/kinesis/video-streams/
+
+| France, Germany, Ireland, Spain, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Lex
+
+| https://aws.amazon.com/lex/
+
+| Germany, Ireland, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Macie
+
+| https://aws.amazon.com/macie/
+
+| France, Germany, Ireland, Italy, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Managed Grafana
+
+| https://aws.amazon.com/grafana/
+
+| Germany, Ireland, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Managed Service for Apache Flink
+
+| https://aws.amazon.com/managed-service-apache-flink/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Managed Service for Prometheus
+
+| https://aws.amazon.com/prometheus/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Managed Streaming for Apache Kafka (Amazon MSK)
+
+| https://aws.amazon.com/msk/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Managed Workflows for Apache Airflow (Amazon MWAA)
+
+| https://aws.amazon.com/managed-workflows-for-apache-airflow/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon MemoryDB
+
+| https://aws.amazon.com/memorydb/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 14/06/2024
+
+| 14/06/2027
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon MQ
+
+| https://aws.amazon.com/amazon-mq/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Neptune
+
+| https://aws.amazon.com/neptune/
+
+| France, Germany, Ireland, Sweden, Spain, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon OpenSearch Service
+
+| https://aws.amazon.com/opensearch-service/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Personalize
+
+| https://aws.amazon.com/personalize/
+
+| Germany, Ireland, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Polly
+
+| https://aws.amazon.com/polly/
+
+| France, Germany, Ireland, Sweden, Spain, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Quick
+
+| https://aws.amazon.com/quick/
+
+| France, Germany, Ireland, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Redshift
+
+| https://aws.amazon.com/redshift/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Rekognition
+
+| https://aws.amazon.com/rekognition/
+
+| Germany, Ireland, Spain, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Relational Database Service (Amazon RDS) [includes Amazon Aurora]
+
+| https://aws.amazon.com/rds/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon S3 Glacier
+
+| https://aws.amazon.com/s3/storage-classes/glacier/
+
+| France, Germany, Ireland, Italy, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon SageMaker AI
+
+| https://aws.amazon.com/sagemaker/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Security Lake
+
+| https://aws.amazon.com/security-lake/
+
+| France, Germany, Ireland, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Simple Queue Service (Amazon SQS)
+
+| https://aws.amazon.com/sqs/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Simple Storage Service (Amazon S3)
+
+| https://aws.amazon.com/s3/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Simple Workflow Service (Amazon SWF)
+
+| https://aws.amazon.com/swf/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Textract
+
+| https://aws.amazon.com/textract/
+
+| France, Germany, Ireland, Spain, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Timestream
+
+| https://aws.amazon.com/timestream/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Transcribe
+
+| https://aws.amazon.com/transcribe/
+
+| France, Germany, Ireland, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Translate
+
+| https://aws.amazon.com/translate/
+
+| France, Germany, Ireland, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Virtual Private Cloud (Amazon VPC)
+
+| https://aws.amazon.com/vpc/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon WorkSpaces
+
+| https://aws.amazon.com/workspaces/
+
+| France, Germany, Ireland, Spain, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Amplify
+
+| https://aws.amazon.com/amplify/
+
+| France, Germany, Ireland, Italy, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS App Mesh
+
+| https://aws.amazon.com/app-mesh/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS App Runner
+
+| https://aws.amazon.com/apprunner/
+
+| France, Germany, Ireland, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 14/06/2024
+
+| 14/06/2027
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS AppFabric
+
+| https://aws.amazon.com/appfabric/
+
+| Ireland, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 14/06/2024
+
+| 14/06/2027
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Application Migration Service
+
+| https://aws.amazon.com/application-migration-service/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/06/2023
+
+| 22/04/2029
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS AppSync
+
+| https://aws.amazon.com/appsync/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Audit Manager
+
+| https://aws.amazon.com/audit-manager/
+
+| Germany, Ireland, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Backup
+
+| https://aws.amazon.com/backup/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Certificate Manager (ACM)
+
+| https://aws.amazon.com/certificate-manager/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Clean Rooms
+
+| https://aws.amazon.com/clean-rooms/
+
+| Germany, Ireland, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 14/06/2024
+
+| 14/06/2027
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Cloud9
+
+| https://aws.amazon.com/cloud9/
+
+| France, Germany, Ireland, Italy, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 14/06/2024
+
+| 14/06/2027
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS CloudFormation
+
+| https://aws.amazon.com/cloudformation/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS CloudHSM
+
+| https://aws.amazon.com/cloudhsm/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS CloudShell
+
+| https://aws.amazon.com/cloudshell/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS CloudTrail
+
+| https://aws.amazon.com/cloudtrail/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS CodeBuild
+
+| https://aws.amazon.com/codebuild/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS CodeCommit
+
+| https://aws.amazon.com/codecommit/
+
+| France, Germany, Ireland, Italy, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS CodeDeploy
+
+| https://aws.amazon.com/codedeploy/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS CodePipeline
+
+| https://aws.amazon.com/codepipeline/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Config
+
+| https://aws.amazon.com/config/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Control Tower
+
+| https://aws.amazon.com/controltower/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Data Exchange
+
+| https://aws.amazon.com/data-exchange/
+
+| Germany, Ireland, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Database Migration Service (AWS DMS)
+
+| https://aws.amazon.com/dms/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/06/2023
+
+| 22/04/2029
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS DataSync
+
+| https://aws.amazon.com/datasync/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Directory Service [excludes Simple AD]
+
+| https://aws.amazon.com/directoryservice/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Elastic Beanstalk
+
+| https://aws.amazon.com/elasticbeanstalk/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Elastic Disaster Recovery
+
+| https://aws.amazon.com/disaster-recovery/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 14/06/2024
+
+| 14/06/2027
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Elemental MediaConvert
+
+| https://aws.amazon.com/mediaconvert/
+
+| France, Germany, Ireland, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Elemental MediaLive
+
+| https://aws.amazon.com/medialive/
+
+| France, Germany, Ireland, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Glue
+
+| https://aws.amazon.com/glue/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Glue DataBrew
+
+| https://aws.amazon.com/glue/features/databrew/
+
+| France, Germany, Ireland, Italy, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/06/2023
+
+| 22/04/2029
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS HealthImaging
+
+| https://aws.amazon.com/healthimaging/
+
+| Ireland, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS HealthOmics
+
+| https://aws.amazon.com/healthomics/
+
+| Germany, Ireland, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS IAM Identity Center
+
+| https://aws.amazon.com/iam/identity-center/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS IoT Core
+
+| https://aws.amazon.com/iot-core/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS IoT Device Management
+
+| https://aws.amazon.com/iot-device-management/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS IoT Events
+
+| https://aws.amazon.com/iot-events/
+
+| Germany, Ireland, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS IoT Greengrass
+
+| https://aws.amazon.com/greengrass/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Key Management Service (AWS KMS)
+
+| https://aws.amazon.com/kms/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Lake Formation
+
+| https://aws.amazon.com/lake-formation/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Lambda
+
+| https://aws.amazon.com/lambda/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS License Manager
+
+| https://aws.amazon.com/license-manager/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Mainframe Modernization
+
+| https://aws.amazon.com/mainframe-modernization/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Outposts
+
+| https://aws.amazon.com/outposts/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Secrets Manager
+
+| https://aws.amazon.com/secrets-manager/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Security Hub
+
+| https://aws.amazon.com/security-hub/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Serverless Application Repository
+
+| https://aws.amazon.com/serverless/serverlessrepo/
+
+| France, Germany, Ireland, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Service Catalog
+
+| https://aws.amazon.com/servicecatalog/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Snowball
+
+| https://aws.amazon.com/snowball/
+
+| France, Germany, Ireland, Italy, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Step Functions
+
+| https://aws.amazon.com/step-functions/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Storage Gateway
+
+| https://aws.amazon.com/storagegateway/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Systems Manager
+
+| https://aws.amazon.com/systems-manager/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Transfer Family
+
+| https://aws.amazon.com/aws-transfer-family/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Verified Access
+
+| https://aws.amazon.com/verified-access/
+
+| Germany, Ireland, Italy, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS Wickr
+
+| https://aws.amazon.com/wickr/
+
+| Germany, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS X-Ray
+
+| https://aws.amazon.com/xray/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| FreeRTOS
+
+| https://aws.amazon.com/freertos/
+
+| France, Germany, Ireland, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 19/05/2025
+
+| 19/05/2028
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon WorkSpaces Secure Browser
+
+| https://aws.amazon.com/workspaces/secure-browser/
+
+| Germany, Ireland, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 22/04/2026
+
+| 22/04/2029
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS HealthLake
+
+| https://aws.amazon.com/healthlake/
+
+| Ireland, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 22/04/2026
+
+| 22/04/2029
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| AWS IoT TwinMaker
+
+| https://aws.amazon.com/iot-twinmaker/
+
+| Germany, Ireland, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 22/04/2026
+
+| 22/04/2029
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Q Business
+
+| https://aws.amazon.com/q/business/
+
+| Ireland, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 22/04/2026
+
+| 22/04/2029
+
+| AWS (Amazon Web Services EMEA SARL)
+
+| https://aws.amazon.com/
+
+| Amazon Verified Permissions
+
+| https://aws.amazon.com/verified-permissions/
+
+| France, Germany, Ireland, Italy, Spain, Sweden, EEA
+
+| Controlled adherence
+
+| Ernst & Young CertifyPoint
+
+| 22/04/2026
+
+| 22/04/2029
+
+| BlazeArts Kft.
+
+| www.arubacloud.hu
+
+| OpenStack Cloud Server
+
+| https://www.cloud.it/openstack-cloud-server/
+
+| Italy
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 07/01/2026
+
+| 07/01/2029
+
+| BlazeArts Kft.
+
+| www.arubacloud.hu
+
+| VMware Cloud Server
+
+| https://www.cloud.it/vmware-on-aruba-cloud/vmware-cloud-server/
+
+| Italy, Czech Republic, France, Germany, Poland
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 07/01/2026
+
+| 07/01/2029
+
+| Cloud Temple
+
+| https://www.cloud-temple.com/
+
+| IaaS BareMetal
+
+| https://docs.cloud-temple.com/iaas_bare-metal
+
+| France
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 24/10/2025
+
+| 24/10/2028
+
+| Cloud Temple
+
+| https://www.cloud-temple.com/
+
+| IaaS OpenSource
+
+| https://docs.cloud-temple.com/iaas_opensource
+
+| France
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 24/10/2025
+
+| 24/10/2028
+
+| Cloud Temple
+
+| https://www.cloud-temple.com/
+
+| PaaS OpenShift
+
+| https://www.cloud-temple.com/produits/paas-openshift/
+
+| France
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 24/10/2025
+
+| 24/10/2028
+
+| INTERNET CZ, a.s.
+
+| www.forpsicloud.cz - www.forpsicloud.sk
+
+| OpenStack Cloud Server
+
+| https://www.cloud.it/openstack-cloud-server/
+
+| Italy
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 07/01/2026
+
+| 07/01/2029
+
+| INTERNET CZ, a.s.
+
+| www.forpsicloud.cz - www.forpsicloud.sk
+
+| VMware Cloud Server
+
+| https://www.cloud.it/vmware-on-aruba-cloud/vmware-cloud-server/
+
+| Italy, Czech Republic, France, Germany, Poland
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 07/01/2026
+
+| 07/01/2029
+
+| JOTELULU, S.L.
+
+| https://jotelulu.com
+
+| File Storage
+
+| https://jotelulu.com/en-gb/productos/file-storage/
+
+| Spain, France
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 25/04/2025
+
+| 25/04/2028
+
+| JOTELULU, S.L.
+
+| https://jotelulu.com
+
+| Object Storage
+
+| https://jotelulu.com/en-gb/productos/object-storage/
+
+| Spain, France
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 25/04/2025
+
+| 25/04/2028
+
+| JOTELULU, S.L.
+
+| https://jotelulu.com
+
+| Remote Desktop
+
+| https://jotelulu.com/en-gb/productos/remote-desktop/
+
+| Spain, France
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 25/04/2025
+
+| 25/04/2028
+
+| JOTELULU, S.L.
+
+| https://jotelulu.com
+
+| Servers
+
+| https://jotelulu.com/en-gb/productos/servers/
+
+| Spain, France
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 25/04/2025
+
+| 25/04/2028
+
+| OPIQUAD SRL a socio unico
+
+| www.opiquad.it
+
+| bWireless
+
+| https://www.opiquad.it/b-wireless-free-wifi-marketing/
+
+| Italy, EEA
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 27/09/2024
+
+| 27/09/2027
+
+| OPIQUAD SRL a socio unico
+
+| www.opiquad.it
+
+| DAD - digital asset defender
+
+| https://www.opiquad.it/dad-digital-asset-defender/
+
+| Italy, EEA
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 27/09/2024
+
+| 27/09/2027
+
+| OPIQUAD SRL a socio unico
+
+| www.opiquad.it
+
+| Email Backup
+
+| https://www.emailbackup.it/
+
+| Italy, EEA
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 27/09/2024
+
+| 27/09/2027
+
+| OPIQUAD SRL a socio unico
+
+| www.opiquad.it
+
+| IaaS
+
+| https://www.opiquad.it/greencloud/
+
+| Italy, EEA
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 27/09/2024
+
+| 27/09/2027
+
+| OPIQUAD SRL a socio unico
+
+| www.opiquad.it
+
+| Opivoice
+
+| https://www.opiquad.it/opivoice-comunicazione-collaborazione-cloud/
+
+| Italy, EEA
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 27/09/2024
+
+| 27/09/2027
+
+| Orange Business
+
+| https://cloud.orange-business.com
+
+| Cloud Avenue
+
+| https://cloud.orange-business.com/offres/infrastructure-iaas/cloud-avenue/
+
+| France
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 27/08/2024
+
+| 17/06/2027
+
+| SEEWEB SRL
+
+| https://www.seeweb.it
+
+| Cloud Backup
+
+| https://www.seeweb.it/prodotti/cloud-backup
+
+| Italy, EEA
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 26/02/2024
+
+| 26/02/2027
+
+| SEEWEB SRL
+
+| https://www.seeweb.it
+
+| Cloud Data Protection
+
+| https://www.seeweb.it/prodotti/cloud-data-protection
+
+| Italy, EEA
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 26/02/2024
+
+| 26/02/2027
+
+| SEEWEB SRL
+
+| https://www.seeweb.it
+
+| Cloud Mail
+
+| https://www.seeweb.it/prodotti/cloud-mail
+
+| Italy, EEA
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 26/02/2024
+
+| 26/02/2027
+
+| SEEWEB SRL
+
+| https://www.seeweb.it
+
+| Cloud Object Storage
+
+| https://www.seeweb.it/prodotti/cloud-object-storage
+
+| Italy, EEA
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 26/02/2024
+
+| 26/02/2027
+
+| SEEWEB SRL
+
+| https://www.seeweb.it
+
+| Cloud Server family
+
+| https://www.seeweb.it/prodotti/cloud-server
+
+| Italy, EEA
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 26/02/2024
+
+| 26/02/2027
+
+| SEEWEB SRL
+
+| https://www.seeweb.it
+
+| Cloud Server GPU
+
+| https://www.seeweb.it/prodotti/cloud-server-gpu
+
+| Italy, EEA
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 26/02/2024
+
+| 26/02/2027
+
+| SEEWEB SRL
+
+| https://www.seeweb.it
+
+| Cloud Server High Memory
+
+| https://www.seeweb.it/prodotti/cloud-server-high-memory
+
+| Italy, EEA
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 26/02/2024
+
+| 26/02/2027
+
+| SEEWEB SRL
+
+| https://www.seeweb.it
+
+| Cloud Server Shared CPU
+
+| https://www.seeweb.it/prodotti/cloud-server-shared-cpu
+
+| Italy, EEA
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 26/02/2024
+
+| 26/02/2027
+
+| SEEWEB SRL
+
+| https://www.seeweb.it
+
+| Cloud Streaming
+
+| https://www.seeweb.it/prodotti/cloud-streaming
+
+| Italy, EEA
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 26/02/2024
+
+| 26/02/2027
+
+| SEEWEB SRL
+
+| https://www.seeweb.it
+
+| Foundation Server
+
+| https://www.seeweb.it/prodotti/foundation-server
+
+| Italy, EEA
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 26/02/2024
+
+| 26/02/2027
+
+| SEEWEB SRL
+
+| https://www.seeweb.it
+
+| Virtual Private Cloud
+
+| https://www.seeweb.it/prodotti/virtual-private-cloud
+
+| Italy, EEA
+
+| Controlled adherence
+
+| Bureau Veritas Italia SpA
+
+| 26/02/2024
+
+| 26/02/2027
+
+| Tencent Cloud Europe B.V.
+
+| https://www.tencentcloud.com/?lang=en
+
+| Cloud Virtual Machine (CVM)
+
+| https://www.tencentcloud.com/products/cvm
+
+| EEA
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 11/05/2026
+
+| 11/05/2029
+
+| Tencent Cloud Europe B.V.
+
+| https://www.tencentcloud.com/?lang=en
+
+| Cloud Block Storage (CBS)
+
+| https://www.tencentcloud.com/products/cbs
+
+| EEA
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 11/05/2026
+
+| 11/05/2029
+
+| Tencent Cloud Europe B.V.
+
+| https://www.tencentcloud.com/?lang=en
+
+| Cloud Object Storage (COS)
+
+| https://www.tencentcloud.com/products/cos
+
+| EEA
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 11/05/2026
+
+| 11/05/2029
+
+| Tencent Cloud Europe B.V.
+
+| https://www.tencentcloud.com/?lang=en
+
+| TencentDB for MySQL
+
+| https://www.tencentcloud.com/products/cdb
+
+| EEA
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 11/05/2026
+
+| 11/05/2029
+
+| Tencent Cloud Europe B.V.
+
+| https://www.tencentcloud.com/?lang=en
+
+| Tencent Cloud Distributed Cache (Redis * OSS-Compatible)
+
+| https://www.tencentcloud.com/products/tcdc
+
+| EEA
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 11/05/2026
+
+| 11/05/2029
+
+| Tencent Cloud Europe B.V.
+
+| https://www.tencentcloud.com/?lang=en
+
+| TencentDB for MongoDB
+
+| https://www.tencentcloud.com/products/mongodb
+
+| EEA
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 11/05/2026
+
+| 11/05/2029
+
+| Tencent Cloud Europe B.V.
+
+| https://www.tencentcloud.com/?lang=en
+
+| Virtual Private Cloud (VPC)
+
+| https://www.tencentcloud.com/products/vpc
+
+| EEA
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 11/05/2026
+
+| 11/05/2029
+
+| Tencent Cloud Europe B.V.
+
+| https://www.tencentcloud.com/?lang=en
+
+| Cloud Load Balance (CLB)
+
+| https://www.tencentcloud.com/products/clb
+
+| EEA
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 11/05/2026
+
+| 11/05/2029
+
+| Tencent Cloud Europe B.V.
+
+| https://www.tencentcloud.com/?lang=en
+
+| Tencent Kubernetes Engine (TKE）
+
+| https://www.tencentcloud.com/products/tke
+
+| EEA
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 11/05/2026
+
+| 11/05/2029
+
+| Tencent Cloud Europe B.V.
+
+| https://www.tencentcloud.com/?lang=en
+
+| Tencent Cloud EdgeOne
+
+| https://www.tencentcloud.com/products/teo
+
+| EEA
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 11/05/2026
+
+| 11/05/2029
+
+| Tencent Cloud Europe B.V.
+
+| https://www.tencentcloud.com/?lang=en
+
+| Cloud Streaming Services (CSS）
+
+| https://www.tencentcloud.com/products/css
+
+| EEA
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 11/05/2026
+
+| 11/05/2029
+
+| Tencent Cloud Europe B.V.
+
+| https://www.tencentcloud.com/?lang=en
+
+| Cloud Log Service (CLS）
+
+| https://www.tencentcloud.com/products/cls
+
+| EEA
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 11/05/2026
+
+| 11/05/2029
+
+| Tencent Cloud Europe B.V.
+
+| https://www.tencentcloud.com/?lang=en
+
+| Elastic MapReduce (EMR)
+
+| https://www.tencentcloud.com/products/emr
+
+| EEA
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 11/05/2026
+
+| 11/05/2029
+
+| Thesee Datacenter
+
+| https://thesee-datacenter.com/
+
+| Housing in TDC 1
+
+| https://thesee-datacenter.net/prestations/
+
+| France, EEA
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 11/07/2024
+
+| 11/07/2027
+
+| Thesee Datacenter
+
+| https://thesee-datacenter.com/
+
+| Housing in TDC 2
+
+| https://thesee-datacenter.net/prestations/
+
+| France, EEA
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 11/07/2024
+
+| 11/07/2027
+
+| UpCloud Oy
+
+| https://upcloud.com/products
+
+| Backup
+
+| https://upcloud.com/products
+
+| EEA, Finland, Germany,in, Netherlands, Poland, United Kingdom
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 17/06/2024
+
+| 17/06/2027
+
+| UpCloud Oy
+
+| https://upcloud.com/products
+
+| Block Storage
+
+| https://upcloud.com/products
+
+| EEA, Finland, Germany,in, Netherlands, Poland, United Kingdom
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 17/06/2024
+
+| 17/06/2027
+
+| UpCloud Oy
+
+| https://upcloud.com/products
+
+| Cloud Infrastructure
+
+| https://upcloud.com/products
+
+| EEA, Finland, Germany,in, Netherlands, Poland, United Kingdom
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 17/06/2024
+
+| 17/06/2027
+
+| UpCloud Oy
+
+| https://upcloud.com/products
+
+| Cloud Servers
+
+| https://upcloud.com/products
+
+| EEA, Finland, Germany,in, Netherlands, Poland, United Kingdom
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 17/06/2024
+
+| 17/06/2027
+
+| UpCloud Oy
+
+| https://upcloud.com/products
+
+| Managed Databases
+
+| https://upcloud.com/products
+
+| EEA, Finland, Germany,in, Netherlands, Poland, United Kingdom
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 17/06/2024
+
+| 17/06/2027
+
+| UpCloud Oy
+
+| https://upcloud.com/products
+
+| Managed Kubernetes
+
+| https://upcloud.com/products
+
+| EEA, Finland, Germany,in, Netherlands, Poland, United Kingdom
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 17/06/2024
+
+| 17/06/2027
+
+| UpCloud Oy
+
+| https://upcloud.com/products
+
+| Managed Loadbalancer
+
+| https://upcloud.com/products
+
+| EEA, Finland, Germany,in, Netherlands, Poland, United Kingdom
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 17/06/2024
+
+| 17/06/2027
+
+| UpCloud Oy
+
+| https://upcloud.com/products
+
+| Object Storage
+
+| https://upcloud.com/products
+
+| EEA, Finland, Germany,in, Netherlands, Poland, United Kingdom
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 17/06/2024
+
+| 17/06/2027
+
+| UpCloud Oy
+
+| https://upcloud.com/products
+
+| Private Cloud
+
+| https://upcloud.com/products
+
+| EEA, Finland, Germany,in, Netherlands, Poland, United Kingdom
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 17/06/2024
+
+| 17/06/2027
+
+| UpCloud Oy
+
+| https://upcloud.com/products
+
+| SDN
+
+| https://upcloud.com/products
+
+| EEA, Finland, Germany,in, Netherlands, Poland, United Kingdom
+
+| Controlled adherence
+
+| LNE (Laboratoire national de métrologie et d’essais)
+
+| 17/06/2024
+
+| 17/06/2027
+
+Generated by wpDataTables
+
+Privacy policy
+
+Privacy Policy
+
+proudly powered by WordPress.
+
+×
+
+Are you sure?
+
+Please confirm deletion. There is no undo!
+
+Cancel
+Delete

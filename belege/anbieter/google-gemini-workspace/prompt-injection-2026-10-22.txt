@@ -1,0 +1,453 @@
+Quelle: https://knowledge.workspace.google.com/admin/security/how-google-helps-protect-gemini-users-from-malicious-content-and-prompt-injections?hl=en
+Abruf: 2026-10-22 12:59:30 +0200
+
+How Google helps protect Gemini users from malicious content & prompt injections | Security & data protection | Google Workspace Help
+Skip to main content
+Security & data protection
+Documentation
+Administrators
+Getting started
+Set up and manage services
+Apps and integrations
+Billing and subscriptions
+Data migration
+Data synchronization
+Device management
+Domain management
+Generative AI
+Reports and monitoring
+Security and data protection
+User management
+Legal and compliance
+Support and troubleshooting
+Users
+Beam
+Calendar
+Chat
+Cloud Search
+Gmail
+Groups
+Docs, Forms, Sheets, and Slides
+Drive
+Keep
+Marketplace
+Meet
+Meet Hardware
+Sites
+Vault
+Vids
+Developers
+Apps Script
+Marketplace
+Workspace APIs
+Training & business user guides
+Workspace Learning Center
+Google Skills
+Community
+Communities
+Workspace Admin Community
+Workspace Developers Community
+Support
+/
+English
+Deutsch
+Español
+Français
+Indonesia
+Italiano
+Nederlands
+Polski
+Português – Brasil
+Svenska
+Türkçe
+Русский
+עברית
+العربيّة
+ภาษาไทย
+中文 – 简体
+中文 – 繁體
+日本語
+한국어
+Sign in
+Administrators
+Security & data protection
+Admin console
+Contact us
+Overview
+Guides
+Security & data protection
+Overview
+Guides
+Documentation
+More
+Community
+More
+Support
+Get started
+Security checklists
+Security center: Prevent, detect & remediate security threats
+About the security center
+View the security dashboard, investigation tool, and security health page
+Security investigation tool
+About the security investigation tool
+Admin privileges for the security investigation tool
+Run a search in the security investigation tool
+Data sources for the security investigation tool
+Group results by attribute when searching
+Customize searches with nested queries
+Run a search for device data
+Run a search for Gmail message data
+Run a search for user data
+Manage your investigations
+Configure settings for your investigations
+Save, share, delete, and duplicate investigations
+Change the time zone in the security investigation tool
+Common uses for the security investigation tool
+Take action based on search results
+Use the investigation tool to end meetings
+Use the investigation tool to view sensitive content
+Investigate chat messages to moderate content and protect your data
+Investigate reports of malicious emails
+Investigate file sharing
+Investigate users across data sources
+Transfer a Drive file from an unknown owner
+Search and investigate user log events
+Investigate and take action on suspicious files
+Investigate and take action on suspicious session cookies
+Require reviewers for bulk actions
+Start an investigation from the alert center
+View VirusTotal reports from the investigation tool
+Create and manage activity rules
+Admin access to reporting rules & activity rules
+Security dashboard reports
+Use the security dashboard
+Create a custom chart based on an investigation
+Security health page
+Get started with the security health page
+Threat types
+Monitor the health of your Calendar settings
+Monitor the health of your device management settings
+Monitor the health of your Drive settings
+Monitor the health of your Gmail settings
+Monitor the health of your Groups settings
+Monitor the health of your Marketplace apps settings
+Monitor the health of your security settings
+Monitor the health of your Sites settings
+Admin auditing for the security center
+Admin privileges for the security center
+Security advisor
+Security advisor: Turn on recommended settings
+Security advisor for app access protection
+Security advisor for data protection
+Account security
+Set up 2-Step Verification for your organization
+About 2SV enforcement for admins
+Protect your business with 2-Step Verification
+Recover an account protected by 2-Step Verification
+Avoid account lockouts when 2-Step Verification is enforced by your organization
+Deploy 2-Step Verification
+How 2-Step Verification works with legacy apps
+How 2-Step Verification works with third-party IdPs
+Manage a user's security settings
+Protect Google Workspace accounts with security challenges
+Add employee ID as a login challenge
+Temporarily turn off login challenges for a user
+Prevent cookie theft with session binding
+Block access to consumer accounts
+Set session length for Google Cloud services
+Set session length for Google services
+Advanced Protection Program
+Protect users with the Advanced Protection Program
+Enable user enrollment in the Advanced Protection Program
+Manage Advanced Protection Program user enrollment
+Advanced Protection Program FAQ
+Set up email authentication
+About authentication methods
+Authentication report
+Help prevent Drive spam and phishing
+Set up BIMI
+Set up DKIM
+Set up DMARC
+Set up SPF
+Manage Gemini & control access to agents
+How Google helps protect Gemini users from malicious content & prompt injections
+Control access to Gemini Enterprise agents
+Manage Gemini Enterprise agents for Workspace users
+Set up Agent Gateway for Workspace MCP ingress
+Indirect prompt injections & Google's layered defense strategy for Gemini
+Alert center
+About the alert center
+Configure alert center email notifications
+Delete alerts
+Grant access to the alert center
+Provide feedback on alerts
+Recommended actions: Take action in response to alerts
+Use rules to turn alerts on or off
+Use the alert center
+View alert details
+View and change alert assignees
+View and change alert severity
+View and change alert status
+View VirusTotal reports from the alert center
+Assured Controls & Access Transparency
+About Assured Controls and Assured Controls Plus
+Access Approvals: Require Google staff to request approval before viewing support data
+Access Management: Limit the Google staff who can take support actions related to your data
+Assured Controls rules for Access Management & Access Approvals
+Access Transparency log events
+Access Transparency: View logs on Google access to user content
+What data is covered by Access Management and Access Approvals?
+Chrome Enterprise
+Chrome data protection summary report
+Chrome high risk domains report
+Chrome high risk users report
+Chrome threat protection summary report
+Domain types with most content transfer on Chrome report
+Domains with most content transfer on Chrome report
+Monitoring for insider risk and data loss
+Protect Chrome users with Chrome Enterprise Premium
+Sensitive content transfers on Chrome report
+Set up timeout deadlines for DLP & malware scans
+Use Chrome Enterprise Premium to integrate DLP with Chrome
+Use custom URL lists for DLP in Chrome
+Use data masking to strengthen DLP in Chrome
+Users with most content transfer on Chrome report
+Set up Workspace Client-side encryption
+About Client-side encryption
+Protect your organization's data with CSE
+Set up Client-side encryption (standard method)
+Set up Client-side encryption (simplified method)
+Add and manage key services for Client-side encryption
+Assign Client-side encryption to users
+Choose your key service for Client-side encryption
+Client-side encryption FAQ
+Client-side encryption user experience overview
+Connect to your identity provider for Client-side encryption
+Convert exported and decrypted Google files to Microsoft Office files
+Decrypt exported Client-side encrypted files and email
+Gmail only: Configure S/MIME for Client-side encryption
+Set up and manage hardware keys for Gmail
+Migrate messages to Gmail as client-side encrypted email
+Provide external access to client-side encrypted content
+Set up your external key service for Client-side encryption
+Turn Client-side encryption on or off for users
+View logs and reports for Client-side encryption
+Classification labels
+Apply Default classification labels to new files automatically
+Apply classification labels to Drive files automatically with DLP rules
+Create classification labels for your organization
+Edit and monitor classification labels for your organization
+Enable or disable a classification label
+Get started as a classification labels admin
+Label Google Drive files automatically using AI classification
+Context-Aware Access
+About Context-Aware Access
+Allow users to unblock apps with remediation messages in Context Aware Access
+Apply recommended access levels
+Assign Context-Aware access levels to apps
+Assign Context-Aware access levels to the Admin console
+Assign access levels to Google-owned apps
+Assign access levels to private web apps
+Assign access levels to third-party apps
+Apply a default Context-Aware Access policy for all SAML apps
+Context-Aware Access examples for Advanced mode
+Context-Aware Access examples for Basic mode
+Context-Aware Access FAQ
+Control access to actions in apps
+Create Context-Aware access levels
+Delete access levels (which are a shared resource)
+Deploy Context-Aware Access
+Protect your business with Context-Aware Access
+Use Context-Aware Access with configuration groups
+Use case: Device policy enforcement
+Use case: Managed Chrome browser enforcement
+Use case: Public IP address enforcement
+Use case: Require enterprise certificates
+Use cases: Exempt trusted third-party apps from being blocked
+Data loss prevention
+Get started with DLP
+Create data protection rules
+Combine data protection rules with Context-Aware Access conditions
+DLP Data Protection Insights reports
+Data protection rules with nested condition operators
+How to use predefined content detectors
+Prevent data leaks with Data protection recommended rules
+View content that triggers data protection rules
+View DLP content and rule size limits
+About DLP for Calendar
+About DLP for Chat
+About DLP for Gemini
+About DLP for Studio
+Drive DLP
+About DLP for Drive
+Create DLP for Drive rules and custom content detectors
+View DLP for Drive dashboard incidents, alerts, and audit events
+Prevent users from downloading, printing, or copying files
+Set up sharing boundaries in data protection rules
+DLP for Drive FAQ
+Gmail DLP
+About DLP for Gmail
+Add custom notes
+Apply classification labels automatically
+Rules
+Create and manage trust rules for Drive sharing
+Create & manage rules from the Rules page
+Automated account suspension for specific IP logins
+Other
+Firewall and proxy settings
+Guidelines for setting up a third-party CASB with Google Workspace
+Manage Google Workspace smart features for your users
+Moderate Chat and Gmail messages
+Multi-party approval for sensitive actions
+Obtain Google IP address ranges
+Administrators
+Getting started
+Set up and manage services
+Apps and integrations
+Billing and subscriptions
+Data migration
+Data synchronization
+Device management
+Domain management
+Generative AI
+Reports and monitoring
+Security and data protection
+User management
+Legal and compliance
+Support and troubleshooting
+Users
+Beam
+Calendar
+Chat
+Cloud Search
+Gmail
+Groups
+Docs, Forms, Sheets, and Slides
+Drive
+Keep
+Marketplace
+Meet
+Meet Hardware
+Sites
+Vault
+Vids
+Developers
+Apps Script
+Marketplace
+Workspace APIs
+Training & business user guides
+Workspace Learning Center
+Google Skills
+Communities
+Workspace Admin Community
+Workspace Developers Community
+Google Workspace Help
+Administrators
+Security & data protection
+Guides
+Send feedback
+How Google helps protect Gemini users from malicious content & prompt injections
+Stay organized with collections
+Save and categorize content based on your preferences.
+This article is for Google Workspace administrators. Gemini users: Learn how Google protects you when you use the Gemini app or Gemini in Workspace apps: Gmail , Docs editors , Drive , and Chat .
+Gemini has become a powerful collaborative partner for Google Workspace
+business users. Thousands of organizations rely on Gemini to create content,
+summarize data, brainstorm, and increase productivity. At the same time,
+emerging threats have begun to target generative AI platforms.
+To defend against these threats, Google uses a robust framework of security
+measures. This article explains what happens when those security measures are
+applied, and how they might affect the user experience with
+Google Workspace with Gemini and Gemini Apps.
+On this page
+About emerging gen AI threats
+How Gemini helps protect users
+What users can expect
+What users should do
+About emerging gen AI threats
+Emerging gen AI threats include suspicious URLs and malicious prompts. Similar
+to malware and phishing scams, these threats can be difficult for users to spot.
+Attackers try to hide malicious prompts in legitimate-looking email messages or
+documents, with the goal of getting gen AI to do something unintended or
+harmful.
+For example, malicious prompts might ask gen AI to share personal information,
+or perform unauthorized tasks.
+How Gemini helps protect users
+When users ask Gemini to summarize content such as email messages or documents,
+Gemini analyzes that content for threats before taking action. When Gemini
+identifies threats in content, it excludes that content from being used to
+generate a response.
+For example:
+If you ask Gemini to summarize email messages, and one of those messages
+contains malicious prompts, that message is excluded from Gemini's summary.
+If you prompt Gemini to use content in files, such as docs, Gemini checks
+those files for suspicious links or prompts before processing your request.
+What users can expect
+When threats are detected, Gemini displays the following types of notifications
+to users:
+Threat
+Notification to users
+All email messages or documents referenced in a prompt are suspicious, or a conversation contains malicious instructions attempting a prompt injection attack
+A security risk was identified and blocked
+Some messages or documents are suspicious
+Some content was excluded for security reasons
+What users should do
+Users should send feedback to Google if they're concerned about gen AI security
+risks, or if they think Gemini made a mistake.
+For instructions, go to:
+Feedback for Google Workspace with Gemini
+Feedback for Gemini Apps
+Related topics
+Manage Google Workspace with Gemini for your organization
+Google Workspace with Gemini FAQ
+Tips for using Gemini in your job or role
+Learn how Google protects gen AI users in:
+Gmail
+Docs editors
+Gemini Apps
+Google, Google Workspace, and related marks and logos are trademarks of Google LLC. All other company and product names are trademarks of the companies with which they are associated.
+Send feedback
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License , and code samples are licensed under the Apache 2.0 License . For details, see the Google Developers Site Policies . Java is a registered trademark of Oracle and/or its affiliates.
+Last updated 2026-10-20 UTC.
+Need to tell us more?
+[[["Easy to understand","easyToUnderstand","thumb-up"],["Solved my problem","solvedMyProblem","thumb-up"],["Other","otherUp","thumb-up"]],[["Missing the information I need","missingTheInformationINeed","thumb-down"],["Too complicated / too many steps","tooComplicatedTooManySteps","thumb-down"],["Out of date","outOfDate","thumb-down"],["Samples / code issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],["Last updated 2026-10-20 UTC."],[],[]]
+Try Google Workspace
+Boost your productivity with AI at no cost
+Admin Community
+Get answers from industry peers and experts
+Customer Care
+Learn about support options and services
+Documentation & training
+Help Centers
+Developer guides
+Learning Center
+Google Skills
+Tools
+Admin console
+Apps Script Dashboard
+Google Cloud console
+Support
+Admin Community
+Developers Community
+Customer Care
+Terms
+Privacy
+Manage cookies
+English
+Deutsch
+Español
+Français
+Indonesia
+Italiano
+Nederlands
+Polski
+Português – Brasil
+Svenska
+Türkçe
+Русский
+עברית
+العربيّة
+ภาษาไทย
+中文 – 简体
+中文 – 繁體
+日本語
+한국어

@@ -1,0 +1,427 @@
+Handprüfung Service Trust Portal Microsoft, 25.10.2026 ~11:40 MEZ (Dauerlauf)
+Grund: Quellenlauf ist bei https://servicetrust.microsoft.com/DocumentPage/115f1cb5-7f7b-4a5e-838d-df6d03c84dda und https://aka.ms/subprocessor blind (12 Wörter Hülle „You need to enable JavaScript“, Block DÜNN).
+aka.ms/subprocessor leitet am 25.10. weiter auf dieselbe DocumentPage (Location-Header).
+Methode: Seite per Chrome headless gerendert (Titel „Microsoft General - Online Services Subprocessors List (2026-09-10)“, „Last Update: 10. Sept. 2026“);
+PDF ohne Anmeldung über https://api.servicetrust.microsoft.com/api/v2/downloadDocuments/115f1cb5-7f7b-4a5e-838d-df6d03c84dda (application/pdf, 309787 Bytes), Text mit pdftotext.
+df629bf7fe9eb49f407e113622b0d15bfc9adedf72dc2c67d853bd46f4e21652  liste.pdf
+
+Zählung (je Abschnitt DnB-Nummern bzw. Tabellenzeilen): 1) integrierte Technologien 7, 2) Zusatzdienste 4, 3) KI 5 (Anthropic, GitHub, Fireworks AI, OpenAI, SpaceXAI), 4) Personaldienstleister 35, Rechenzentrums-Gesellschaften 17 + 20 = 37. Summe 88, ohne konzerninterne 51.
+Folge: azure-openai stand bei 89 (38 Rechenzentrums-Gesellschaften) → auf 88 korrigiert; microsoft-copilot 88 bestätigt. Länderliste (Drittländer) gegen die Tabelle gelesen, unverändert.
+Änderungen seit der letzten Liste laut PDF: „Added SpaceXAI, LLC to the "Artificial Intelligence Subprocessors" category.“
+
+===== Text PDF (pdftotext -layout, 25.10.2026) =====
+          Microsoft Online Services Subprocessors
+
+DATE OF ISSUE: September 10, 2026
+
+When you use Microsoft Online Services, Microsoft subprocessors, as defined in the Products and Services Data Protection Addendum (DPA),
+may process Customer Data and Personal Data (consisting of pseudonymized personal identifiers). In accordance with GDPR and other
+regulations, we disclose these subprocessors to you in advance of their first engagement with Microsoft and then on an ongoing basis. We
+permit these subprocessors to process your data only to perform the work Microsoft has retained them to perform, and they are prohibited
+from using your data for any other purpose.
+Microsoft has designated four categories of subprocessors: (1) third-party subprocessors that power integrated cloud technologies; (2) third-
+party subprocessors that provide ancillary services; (3) artificial intelligence subprocessors; and (4) third-party organizations that provide
+contract staff to Microsoft. Additionally, we are providing information about Microsoft datacenter entities that provide the infrastructure on
+which Microsoft Online Services run.
+
+Software as a Service (SaaS) Administrators (Microsoft 365, Dynamics 365) for tenants located in the European Economic Area (EEA) and the
+United Kingdom will receive automatic notifications of updates to this list via the Service Message Center. Infrastructure as a service (IaaS)
+and platform as a service (PaaS) customers (Azure) and any other users of SaaS services may sign up to receive notifications of updates to
+this disclosure via My Library on the Service Trust Portal.
+                                                                                             Microsoft Online Services Subprocessors
+
+1) Third-Party Subprocessors That Power Integrated Cloud Technologies
+
+The following subprocessors power technologies that are integrated with Microsoft Online Services and in part power the Microsoft cloud
+functions. If you use one of the services below, the subprocessor(s) identified for that service may process, store, or otherwise access
+Customer Data and Personal Data (consisting of pseudonymized personal identifiers) while helping to provide that service.
+
+       Entity Name       Applicable    Sub-processing           Processing         DnB       Headquarters       DnB     Parent Company
+                           Online           Activity           Location(s)     Registered        Ireland    Registered
+Accenture International
+          Limited        Service or      Hardware and         In accordance      Address     United States   Number
+                         Product     software installation        with the                   United States
+ Akamai Technologies,                                           customer-        1 Grand                    985015354   Accenture Public
+             Inc.        SAP HANA       and operations           specified    Canal Square                                    Limited
+                          on Azure                                                                                          Company
+     Databricks, Inc.                Operating Content        regionality of    Dublin 2,
+                            (Large    Delivery Network        SAP HANA on         Ireland                   47775205        Akamai
+                         Instances)  (CDN) infrastructure      Azure (Large                                             Technologies,
+                                     to efficiently deliver                         150
+                             Any      content; Network          Instances)     Broadway,                                      Inc.
+                         Microsoft   Traffic Management                        Cambridge
+                                                                Worldwide     MA, 02142-                    79356302 Databricks, Inc.
+                           Online          Deploying,                           1413 USA
+                           Service      operating, and       Canada, France,
+                                       troubleshooting           Germany,       160 Spear
+                            Azure      Azure Databricks                       Street, Floor
+                         Databricks                           Netherlands,
+                                                                  United         13, San
+                                                                                Francisco,
+                                                                 Kingdom,      CA, 94105-
+                                                              United States     1546 USA
+
+                                                                                                                        P a g e 2 | 12
+                                                                                   Microsoft Online Services Subprocessors
+
+Entity Name     Applicable    Sub-processing       Processing            DnB       Headquarters       DnB     Parent Company
+NetApp, Inc.      Online           Activity        Location(s)       Registered    United States  Registered
+Red Hat, Inc.                                                                      United States
+                Service or        Deploying,      In accordance        Address                     Number
+ Redis, Inc.    Product        operating, and        with the
+                              troubleshooting       customer-       495 East Java                 802054742   NetApp, Inc.
+                   Azure     Azure NetApp files      specified           Drive,
+               NetApp files                                                                       1368083     International
+                                  Deploying,      regionality of     Sunnyvale,                                 Business
+                Azure Red      operating, and    Azure NetApp        CA 94089-                                  Machines
+                    Hat       troubleshooting                         1125 USA
+                               Azure Red Hat            files                                                 Corporation
+                OpenShift                            Australia,        100 East
+                                  OpenShift      Belgium, Brazil,   Davie Street,
+                                                 Canada, Czech       Raleigh, NC
+                                                     Republic,      27601-1806
+                                                      France,
+                                                 Germany, India,         USA
+                                                  Ireland, Israel,
+                                                 Poland, Spain,
+                                                  United States
+
+                 Azure          Deploying,           Bulgaria,         303 2nd     United States  79198799    Redis, Ltd.
+               Managed       operating, and      Canada, France,    Street, North
+                             troubleshooting      India, Ireland,   Tower, Suite
+                 Redis       Azure Managed
+                                                       Israel,         525, San
+                                    Redis         Netherlands,      Francisco, CA
+                                                    Singapore,
+                                                  Spain, United         94107
+
+                                                     Kingdom,
+                                                  United States
+
+                                                                                                              P a g e 3 | 12
+                                                                                           Microsoft Online Services Subprocessors
+
+ Entity Name    Applicable    Sub-processing              Processing           DnB         Headquarters       DnB     Parent Company
+                   Online          Activity               Location(s)     Registered        Netherlands   Registered
+TomTom North
+ America, Inc.   Service or  Web services used          Germany, India,     Address                        Number
+                 Product     by the Azure Maps           Ireland, South
+                                                                         11 Lafayette                     413782843 TomTom N.V.
+                Azure Maps            APIs                    Korea,         Street,
+                                                         Netherlands,
+                                                        Poland, United   Lebanon, NH,
+                                                                          03766 USA
+                                                              States
+
+2) Third-Party Subprocessors That Provide Ancillary Services
+
+The following subprocessors provide ancillary services to help support, operate, and maintain Microsoft Online Services. In such cases, the
+subprocessor(s) identified may process, store, or otherwise access Customer Data and Personal Data (consisting of pseudonymized personal
+identifiers) while providing their ancillary services. Subprocessors that only process pseudonymous personal data have been identified with
+an asterisk (*) in the table below.
+
+ Entity     Applicable      Sub-processing Activity           Processing          DnB      Headquarters       DnB         Parent
+ Name     Online Service                                     Location(s)      Registered                  Registered    Company
+                               Multi-Cloud Scanning
+Amazon     or Product       Connectors for Microsoft     Microsoft Purview     Address                     Number     Amazon.com,
+  Web                                                   (processing location                                                Inc.
+             Microsoft                  Purview          varies; will depend   410 Terry   United States  884745530
+Services      Purview                                                           Avenue
+                          Acquisitions that run on AWS      on location of    Seattle, WA
+                           are eventually moved to be     customers' AWS      98109-5210
+                           hosted on Microsoft Azure      storage account)
+                                                                                   USA
+
+                                                                                                                      P a g e 4 | 12
+                                                                                            Microsoft Online Services Subprocessors
+
+Entity        Applicable    Sub-processing Activity         Processing            DnB       Headquarters       DnB          Parent
+Name        Online Service                                  Location(s)       Registered    United States  Registered     Company
+                                                                                            United States               Arkose Labs
+             or Product                                 Australia, Ireland,     Address     United States   Number     Holdings, Inc.
+                                                        Singapore, United                                  81348417
+ Arkose     Azure Web       CAPTCHA based activity for                             250                                  Interana, Inc.
+Labs, Inc.  Application     Fraud + Abuse Prevention           States        Montgomery                    18378999
+                                                                             Street, Floor                             Snowflake, Inc.
+              Firewall                                     United States                                   31802369
+                                                                                 10, San
+   Scuba       Teams,       Customer experience (CX)       United States     Francisco, CA
+Analytics,     Stream,                 analytics                             94104-3431
+             SharePoint
+   Inc. *      Online,           Data warehousing                                  USA
+            OneDrive for                                                      800 West El
+Snowflake,    Business                                                       Camino Real,
+   Inc. *                                                                      Suite 180,
+            Viva Engage                                                        Mountain
+              (Formerly
+              known as                                                          View, CA
+              Yammer)                                                        94040-2586
+
+                                                                                   USA
+                                                                              450 Concar
+                                                                               Drive, San
+                                                                              Mateo, CA
+                                                                              94402 USA
+
+3) Artificial Intelligence Subprocessors
+
+The following subprocessors provide services to support, operate, or maintain artificial intelligence (AI) functionality in Microsoft Online Services. In
+such cases, the subprocessor(s) identified may process, store, or otherwise access Customer Data and/or Personal Data. Such subprocessors may
+also be used by Microsoft to help maintain and build Microsoft Online Services.
+
+                                                                                                                       P a g e 5 | 12
+                                                                                                Microsoft Online Services Subprocessors
+
+Entity          Applicable    Sub-processing Activity        Processing              DnB        Headquarters       DnB          Parent
+Name          Online Service      AI model provider          Location(s)         Registered     United States  Registered     Company
+                                  AI model provider                                             United States
+               or Product                                   United States         Address       United States   Number     Anthropic PBC
+                              Model hosting, inference,                                         United States  117910058
+Anthropic,    Microsoft         and training platform       United States       548 Market                                  GitHub, Inc.
+    PBC        Online             AI model provider                               St., PMB                      3488095
+              Services                                   Canada, Germany,                                                   Fireworks AI,
+                                  AI model provider        Iceland, Japan,       90375, San                    119120685          Inc.
+GitHub, Inc.  Microsoft                                     United States      Francisco, CA
+               Online                                                           94104, USA                     117090222   OpenAI OpCo,
+              Services                                       Worldwide                                                            LLC
+                                                                                 88 Colin P.
+Fireworks     Microsoft                                                            Kelly Jr.                                    Space
+ AI, Inc.      Online                                                                                                       Exploration
+              Services                                                           Street, San                               Technologies
+                                                                               Francisco, CA,
+ OpenAI       Microsoft                                                                                                         Corp.
+OpCo, LLC      Online                                                           94107, USA
+              Services                                                          900 Concar
+                                                                               Drive, Floor 5,
+                                                                                San Mateo,
+                                                                                 CA 94402,
+
+                                                                                     USA
+                                                                                1455 3rd St,
+                                                                               San Francisco,
+                                                                                 CA 94158,
+
+                                                                                     USA
+
+SpaceXAI,     Microsoft                                      Belgium, India,    1450 Page       United States  119029257
+    LLC        Online                                    Japan, Saudi Arabia,  Mill Rd, Palo
+              Services
+                                                              South Korea,       Alto, CA
+                                                         Switzerland, United      94304
+                                                         Arab Emirate, United
+
+                                                                  States
+
+                                                                                                                           P a g e 6 | 12
+                                                                                                                      Microsoft Online Services Subprocessors
+
+4) Third-Party Organizations That Provide Contract Staff
+
+The following organizations provide contract staff who work in close coordination with Microsoft employees to operate, deliver and maintain
+the Microsoft Online Services. While doing so, the staff of these organizations may process Customer Data or Personal Data (consisting of
+pseudonymized personal identifiers) on our behalf. In all such cases the data resides only on Microsoft systems and is subject to Microsoft
+policies and supervision. Organizations that only process pseudonymous personal data have been identified with an asterisk (*) in the table
+below.
+
+For more information regarding Microsoft's contract staff personnel locations, visit Locations of Microsoft Online Services Personnel with
+Remote Access to Data.
+
+         Staffing Provider              DnB Registered Address        Headquarters   DnB Registered       Parent Company
+Accenture International Limited                                           Ireland        Number      Accenture Public Limited
+                                          1 Grand Canal Square
+            Akvelon, Inc.                     Dublin 2, Ireland       United States     985015354              Company
+  Allegis Group Holdings, Inc.                                        United States     829720676            Akvelon, Inc.
+                                    3120 139th Avenue SE Ste 100      United States     121768035
+              Allyis, Inc           Bellevue, WA 98005-4491 USA       United States     179609185        Allegis Group, Inc.
+       Apex Systems, LLC *                                            United States     157674896
+Aptly Technology Corporation                  7437 Race Road          United States      86158760     Tech Mahindra Limited
+ Beyondsoft Consulting, Inc. *      Hanover, MD 21076-1112 USA        United States      32506448
+     Blueprint Technologies      17425 NE Union Hill Road, Suite 100  United States      70678945        Asgn Incorporated
+    Capgemini America, Inc.                                                             069918125        Aptly Technology
+                                       Redmond, WA 98052, USA
+                                               4400 Cox Road                                                 Corporation
+                                                                                                     Beyondsoft Corporation
+                                    Glen Allen, VA 23060-3216 USA                                    Blueprint Technologies,
+                                             875 140th Ave NE
+                                                                                                                   LLC
+                                  Bellevue, WA 98005, United States                                  Capgemini International
+                                   3025 112th Avenue NE, Suite 200
+                                                                                                                   B.V.
+                                    Bellevue, WA 98004-8002 USA
+                                   2600 116th Avenue NE, First Floor                                          P a g e 7 | 12
+
+                                        Bellevue, WA 98004 USA
+                                               79 5th Ave Fl 3.
+
+                                       New York, NY 10003-3034
+                                                                                       Microsoft Online Services Subprocessors
+
+           Staffing Provider              DnB Registered Address        Headquarters   DnB Registered        Parent Company
+       Capgemini, Espa�a, S.L.                                              France         Number
+     Centific Technologies, Inc.     C/ Puerto de Somport, 9, 28050,                                     Capgemini SE (France)
+ Cognizant Technology Solutions                  Madrid (Spain)         United States     465156958
+                                                                        United States      84526354    Pactera Technologies, Inc.
+          CSI Interfusion, Inc.        14980 NE 31ST Way, Suite 120     United States     108756307       Cognizant Worldwide
+  Dxc Technology Services LLC *      Redmond, WA, 98052-5349 USA        United States      2587864                 Limited
+                                    500 Frank Burr Boulevard, Suite 50  United States      80521853         CSI Interfusion Inc.
+          Ernst & Young, LLP                                            United States     058369562
+                  Experis                       Teaneck, NJ, US         United States      19639852    Dxc Technology Company
+                                             11808 Northup Way          United States     197298524      Ernst & Young, Global
+            Hcl America, Inc.         Bellevue, WA 98005-1944 USA       United States      67938874                Limited
+        Hi-Tech Talents LLC *         20408 Bashan Drive, Suite 231     United States     109508454         Manpower Group
+                                       Ashburn, VA 20147-5551 USA       United States     969790281
+             Infosys Limited                                            United States     964739804    Hcl Technologies Limited
+          Insight Global, Inc.                  1 Manhattan W                              17980124
+Latentview Analytics Corporation *           New York NY 10001                India                        Hi-Tech Talents LLC
+          Launch Consulting                 29973 Network Place
+         LTIMindtree Limited            Chicago, IL 60673-1299 USA                                            Infosys Limited
+   (Formerly known as Mindtree               330 Potrero Avenue
+                                     Sunnyvale, CA 94085-4113 USA                                           Insight Global, Inc.
+                 Limited)                  1530 140th Avenue NE                                           Latentview Analytics
+                                      Bellevue, WA 98005-4574 USA
+                                       5010 148th Ave NE, Suite 100                                           Private Limited
+                                     Redmond, WA, 98052-5127 USA                                            The Planet Group
+                                             1224 Hammond Dr.
+                                        Dunwoody, GA 30346, USA                        650046436       LTIMindtree Limited
+                                    2540 North First Street, Suite 108
+                                      San Jose, CA 95131-1016 USA                                             P a g e 8 | 12
+                                            275 118th Avenue SE
+                                      Bellevue, WA 98005-3538 USA
+
+                                    Global Village, RVCE Post, Mysore
+                                      Road, Bangalore, KA 560059 IN
+                                                                                        Microsoft Online Services Subprocessors
+
+            Staffing Provider              DnB Registered Address        Headquarters   DnB Registered       Parent Company
+                Maq LLC *                                                United States      Number                 Maq LLC
+                                            2027 152nd Avenue NE                            6650365
+           Matchpoint It Ltd.         Redmond, WA 98052-5501 USA              Israel                         Matchpoint It Ltd
+Mu Sigma Business Solutions, LLC *                                       United States     533527867           Mu Sigma, Inc.
+                                                 1 Atir yeda Kfar                          796812233
+    Shanghai Wicresoft Co, Ltd. *                   Saba, Israel              China                      Shanghai Wicresoft Co,
+                                                                                           544851165                   Ltd
+       Sonata Software Limited          3400 Dundee Road, Suite 160            India
+   Tata Consultancy Services Ltd.     Northbrook, IL 60062-3400 USA      United States     808157663    Sonata Software Limited
+                                    No.1000, Zixing Road, Wujing Town,                      54328054    Tata Consultancy Services
+                Tek Experts                                                  Cyprus        565541241
+       Teleion Consulting, LLC *          Minhang District Shanghai,     United States      19550357     Tek Experts Global Ltd.
+      Telus International Ai, Inc.          Shanghai, 200241 China       United States     824891477     Teleion Consulting LLC
+                                            1/4, APS Trust Building      United States     962380312    Lionbridge Technologies
+              Valorem, LLC                                               United States     138481934
+         Wicloud Corporation        Bull Temple Bangalore, India 56004                     650174378        Valorem Consulting
+                                              14335 NE 24th Street             India                                Group
+              Wipro Limited
+                                       Bellevue, WA 98007-3737 USA                                         Wicloud Corporation
+                                        2nd Floor Nicosia City Center                                          Wipro Limited
+                                    64 Kallipoleos, Nicosia 1071 Cyprus
+                                     1000 Dexter Avenue N., Suite 520
+                                         Seattle WA 98109-3581 USA
+
+                                          2251 S. Decatur Boulevard
+                                           Las Vegas, NV 89102 USA
+                                       2101 Broadway Street, Suite 11
+                                     Kansas City, MO 64108-2167 USA
+
+                                                6516 127th Ln NE
+                                           Kirkland, WA 98033-8568
+
+                                                 Sy. No. 76P-80P
+                                         Bengaluru, KA 560035 India
+
+                                                                                                        P a g e 9 | 12
+                                                          Microsoft Online Services Subprocessors
+
+Microsoft Datacenter Infrastructure Entities
+
+The following Microsoft entities provide the datacenter infrastructure on which the Microsoft Online Services run. The data within
+datacenters is encrypted, and no personnel within the datacenters are permitted to access it. This is a list of all Microsoft datacenter
+infrastructure entities; those relevant to your scenario may vary depending on the regions in which you deploy or use your Online Services
+(when regional selection is available).
+
+For more information on Microsoft datacenters, please see the Azure global infrastructure site: Global Infrastructure | Microsoft Azure
+
+For more information regarding Microsoft's personnel locations, visit Locations of Microsoft Online Services Personnel with Remote Access to
+Data.
+
+Microsoft Datacenter Infrastructure entity     Country
+Microsoft Datacenter (Australia) Pty Limited   Australia
+Microsoft Datacenter (Austria) GmbH            Austria
+Microsoft 2354 Belgium B.V.                    Belgium
+Microsoft 272945 Brasil LTDA                   Brazil
+3288212 Nova Scotia Limited                    Canada
+Microsoft Datacenter Chile Limitada            Chile
+Microsoft (China) Company Limited              China
+Microsoft 3366 Denmark ApS                     Denmark
+Microsoft Oy                                   Finland
+Microsoft 1985 France S.� r.l.                 France
+Microsoft Deutschland MCIO GmbH                Germany
+Microsoft Datacenter Holdings (HK) Limited     Hong Kong
+Microsoft Corporation (India) Private Limited  India
+PT Microsoft Operations Indonesia              Indonesia
+Microsoft Ireland Operations Limited           Ireland
+Microsoft RL Unlimited Company                 Ireland
+Microsoft 4772 Israel Ltd.                     Israel
+
+                                                          P a g e 10 | 12
+                                                                  Microsoft Online Services Subprocessors
+
+Microsoft Datacenter Infrastructure entity  Country
+Microsoft 4825 Italy S.R.L.                 Italy
+Microsoft Japan Co., Ltd.                   Japan
+Microsoft 5673 Korea Yuhan Chaegim Hoesa    Korea
+Microsoft Payments (Malaysia) Sdn. Bhd.     Malaysia
+Microsoft 6394 Mexico S. de R.L. de C.V.    Mexico
+Microsoft Datacenter Netherlands B.V.       Netherlands
+Microsoft 6399 New Zealand Limited          New Zealand
+Microsoft Datacenter Norway AS              Norway
+Microsoft Poland Operations Sp.z o.o.       Poland
+Microsoft 7282 Qatar QFZ LLC                Qatar
+Microsoft Operations Pte Ltd                Singapore
+Microsoft 1968 South Africa (Pty.) Ltd.     South Africa
+Microsoft 7724 Spain, S.L.                  Spain
+Microsoft Sweden 1172 AB                    Sweden
+Microsoft MCIO Schweiz GmbH                 Switzerland
+Microsoft Operations Taiwan Limited         Taiwan
+Microsoft Operations 38224 FZE              United Arab Emirates
+Microsoft Corporation - Abu Dhabi           United Arab Emirates
+MSFT MCIO Limited                           United Kingdom
+Microsoft Corporation                       United States
+
+Summary of Changes Since the Last Disclosure
+
+This is a list of substantive changes since our last disclosure.
+
+Entity name    Change Description
+SpaceXAI, LLC  Added SpaceXAI, LLC to the "Artificial Intelligence Subprocessors" category.
+
+                                                                                             P a g e 11 | 12
+                                                         Microsoft Online Services Subprocessors
+
+Helpful Definitions and Related Information
+
+For the most up-to-date definitions, refer to the Microsoft Products and Services Data Protection Addendum (DPA) located on the Microsoft
+website.
+
+Terms                         Description
+"Subprocessor"                Means other processors used by Microsoft to process Customer Data, Professional Services Data, and Personal Data,
+"Customer Data"               as described in Article 28 of the GDPR.
+"Professional Services Data"  Means all data, including all text, sound, video, or image files, and software, that are provided to Microsoft by, or on
+                              behalf of, Customer through use of the Online Service. Customer Data does not include Professional Services Data.
+"Personal Data"               Means all data, including all text, sound, video, image files or software, that are provided to Microsoft, by or on behalf
+                              of a Customer (or that Customer authorizes Microsoft to obtain from a Product) or otherwise obtained or processed
+"Pseudonymous personal data"  by or on behalf of Microsoft through an engagement with Microsoft to obtain Professional Services.
+Dun & Bradstreet (DnB)        To learn more about Professional Services subprocessors, visit Microsoft Commercial Support Subprocessors.
+                              Means any information relating to an identified or identifiable natural person. An identifiable natural person is one
+                              who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification
+                              number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic,
+                              mental, economic, cultural or social identity of that natural person.
+                              Pseudonymous personal data is limited to pseudonymous identifiers that are generated by Microsoft through the
+                              operation of the Online Services. Pseudonymous personal identifiers do not directly identify persons but could
+                              theoretically be linked with identifiable individuals when correlated with additional information.
+                              The Dun & Bradstreet Corporation provides commercial insights, commercial data, and analytics for businesses. More
+                              information can be found at https://www.dnb.com
+
+NOTICE: This document is subject to change at any time.
+
+                                                         P a g e 12 | 12
+

@@ -1,0 +1,29 @@
+Quelle: https://dev.meta.ai/help/policies-and-privacy/data-handling
+Abruf: 2026-10-23 01:17:07 +0200
+
+AI Developer Help Center
+
+Meta
+
+StatusContact us
+
+Menu
+
+Status
+
+Contact us
+
+Close popover
+
+Back to Help Center
+
+How does Meta handle my data?
+
+Full details on how Meta handles your data are available at the AI Developer Legal Center.
+
+Terms of ServiceAcceptable Use Policy
+
+Please confirm your identity
+For added security, you need to confirm your identity. You will be taken to your single sign-on provider, where you can enter your password.
+
+CancelContinue

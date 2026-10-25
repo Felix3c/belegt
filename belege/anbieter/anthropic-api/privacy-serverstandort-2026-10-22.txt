@@ -1,0 +1,71 @@
+Quelle: https://privacy.claude.com/en/articles/7996890-where-are-your-servers-located-do-you-host-your-models-on-eu-servers
+Abruf: 2026-10-22 23:50:27 +0200
+
+Where are your servers located? Do you host your models on EU servers? | Anthropic Privacy Center
+
+Skip to main content
+
+API DocsRelease NotesContact Support
+EnglishFrançaisDeutschBahasa IndonesiaItaliano日本語한국어PortuguêsPусский简体中文Español繁體中文
+English
+
+API DocsRelease NotesContact Support
+EnglishFrançaisDeutschBahasa IndonesiaItaliano日本語한국어PortuguêsPусский简体中文Español繁體中文
+English
+
+Search for articles...
+
+All Collections
+
+Commercial Customers
+
+Data Handling & Retention
+
+Where are your servers located? Do you host your models on EU servers?
+
+Where are your servers located? Do you host your models on EU servers?
+
+June 15, 2026
+
+This article is about our commercial products such as Claude Enterprise and the Anthropic API. For our consumer products such as Claude Free, Pro, Max and when accounts from those plans use Claude Code, see here.
+
+Anthropic utilizes multiple cloud service providers to process customer data, as documented in our Subprocessor list. By default, we may route customer traffic to select countries in the US, Europe, Asia and Australia, unless otherwise agreed upon or at your instructions. Learn more about selecting your traffic routing location for Claude Developer Platform users here, and more about selecting your traffic routing location for Enterprise Plan users on usage-based billing here. Note that data is stored in the US. We may also process data for internal processes (such as safety-related review, product support, or incident response) in countries where we or our affiliates operate.
+
+To receive proactive updates of where we or our Subprocessors operate, please subscribe to our Trust Center News Feed.
+
+Related Articles
+
+How long do you store my organization’s data?
+
+How do you use personal data in model training?
+
+I have a zero data retention agreement with Anthropic. What products does it apply to?
+
+How Do You Use Personal Data in Model Training?
+
+Does Claude use my team members’ location?
+
+Did this answer your question?
+Disappointed Reaction😞Neutral Reaction😐Smiley Reaction😃
+
+Product
+
+Research
+
+Company
+
+News
+
+Careers
+
+Terms of Service - Consumer
+
+Terms of Service - Commercial
+
+Privacy Policy
+
+Usage Policy
+
+Responsible Disclosure Policy
+
+Compliance

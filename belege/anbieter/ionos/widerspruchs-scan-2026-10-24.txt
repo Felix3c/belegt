@@ -1,0 +1,52 @@
+Quelle: https://cloud.ionos.de/managed/ai-model-hub, https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling (je direkt); https://cloud.ionos.de/terms-gtc/ki-dienste/ und https://cloud.ionos.de/terms-gtc/terms-enterprise-cloud/enterprise-datenschutzpaket/ (je Archivkopie vom 24.09.2026, weil robots.txt von cloud.ionos.de „Disallow: /terms-“ setzt); dazu die gesicherten Kopien in diesem Ordner
+Abruf: 2026-10-24 05:30:45 +0200 (Produktseite und Doku curl direkt, je HTTP 200; Verträge aus dem Internet Archive, HTTP 200). SHA-256 der Rohseiten steht im Kopf jeder Kopie.
+Inhalt: wörtliche Auszüge aus dem Widerspruchs-Scan IONOS CLOUD AI Model Hub (Textfassung). Frage: Passt das, was Produktseite und Doku versprechen, zu dem, was die Nutzungsbedingungen für KI-Dienste und die Auftragsverarbeitung erlauben?
+
+A. Produktseite wirbt für die Anbindung per API an bestehende Systeme und für Kunden-Chatbots; die Nutzungsbedingungen für KI-Dienste nennen skriptgesteuerte, automatisierte Abfragen und die Überlassung an Dritte „missbräuchlich“, außer die Leistungsbeschreibung sieht es ausdrücklich vor (Fall-Kandidat 59)
+
+1. Produktseite AI Model Hub:
+> Integrieren Sie KI über eine OpenAI-kompatible API in bestehende Systeme und Frameworks.
+> Nutzen Sie die interne Wissensbasis Ihres Unternehmens für chatbot-gestützte Kundenanfragen.
+
+2. Nutzungsbedingungen für KI-Dienste, Ziffer 1.1 (gelten auch für den API-Zugang):
+> sowohl für die Nutzung von KI-Systemen (Software-as-a-Service) als auch für die Bereitstellung des Zugriffs auf KI-Modelle und deren API-Schnittstellen (Platform-as-a-Service), hiernach zusammen KI-Dienste.
+
+3. Nutzungsbedingungen, Ziffer 2.5 und 2.6:
+> Die KI-Dienste sind für die interaktive Nutzung durch eine natürliche Person bestimmt, soweit in der Leistungsbeschreibung nicht ausdrücklich anders vorgesehen ist.
+> Eine missbräuchliche Nutzung liegt insbesondere vor, wenn der Kunde den Rahmen nach Ziffer 2.5 überschreitet (etwa durch massenhaftes Einfügen vorgefertigter oder extern erzeugter Inhalte, automatisierte oder repetitive Abfragen,
+> skript-, makro- oder softwaregesteuerte Nutzung einschließlich RPA-Werkzeugen
+> sonstige entgeltliche oder unentgeltliche Überlassung an Dritte
+
+4. Nutzungsbedingungen, Ziffer 2.7 (Folge):
+> die vorübergehende Umstellung auf ein leistungsärmeres KI-Modell (Downgrade) oder die vorübergehende Sperrung. Bei festgestelltem Verstoß können diese Maßnahmen dauerhaft erfolgen.
+
+B. Doku: Inhalte werden nie protokolliert und nie von Personal eingesehen; Nutzungsbedingungen erlauben die Verwendung der Ein- und Ausgaben zur Fehlerbehebung
+5. Doku Data Handling, „Prompts and outputs“:
+> The content of your prompts and of the outputs generated for you is never logged and is never accessed by IONOS CLOUD personnel.
+6. Nutzungsbedingungen, Ziffer 2.3:
+> Die In- und Output-Daten dürfen von IONOS CLOUD ausschließlich zur vertragsgemäßen Bereitstellung der KI-Dienste sowie zur Gewährleistung der technischen Sicherheit und Fehlerbehebung verwendet werden.
+> Jegliche darüber hinausgehende Nutzung, insbesondere für die Weiterentwicklung, das Training oder das Retraining des zugrundeliegenden KI-Modells oder anderer Modelle, ist ausdrücklich untersagt.
+
+C. Zusatz: Ort
+7. Produktseite, Überschrift und Absatz „Vollständig DSGVO-konform“:
+> 100 % DSGVO-konform und sicher in Deutschland gehostet
+> Ihre KI-Anwendungen laufen in europäischen IONOS CLOUD Rechenzentren, Ihre Daten bleiben unter Ihrer Kontrolle und werden nicht für Trainingszwecke genutzt.
+8. Doku Data Handling, Einleitung und „Request metadata“:
+> All inference is performed in IONOS CLOUD data centers in Germany, and your prompts and the generated outputs are processed there and nowhere else.
+> no access occurs from outside the European Union in the operation, maintenance, support, or fault diagnosis of the service.
+9. Enterprise-Datenschutzpaket (Version 7.4, Stand 06/2023), Ziffer 4.3:
+> Die vertraglich vereinbarte Datenverarbeitung findet in einem Mitgliedstaat der Europäischen Union oder in einem anderen Vertragsstaat des Abkommens über den Europäischen Wirtschaftsraum statt, sofern nicht zur Erbringung der Leistung der Datentransfer in Drittstaaten erforderlich ist.
+
+D. Zusatz: Unterauftragnehmer
+10. Doku Data Handling, „Sub-processors“ und „Related documents“:
+> No third-party sub-processors are engaged for AI Model Hub.
+> The sub-processor annex forms part of your data processing agreement.
+11. Enterprise-Datenschutzpaket, Ziffer 10.2:
+> Die aktuell eingesetzten weiteren Auftragsverarbeiter sind als Anlage zu dieser Vereinbarung unter diesem Link aufrufbar.
+
+E. Einordnung und Nicht gefunden
+Zu A: Ob die Leistungsbeschreibung des AI Model Hub die automatisierte Nutzung per API „ausdrücklich“ vorsieht, ist ungeklärt; eine eigene Leistungsbeschreibung für den AI Model Hub war weder auf den Vertragsseiten im Archiv noch über Produktseite und Doku zu finden. Die Ausnahme in Ziffer 2.8 nennt nur die Anbindung eigener oder fremder KI-Modelle. Der Wortlaut der Ziffern 2.5/2.6 passt sichtbar auf einen Chat-Dienst (Tastatur, Arbeitstag); dass er nach 1.1 auch die API umfasst, steht so im Text. Ob IONOS ihn auf API-Kunden anwendet: ungeklärt.
+Zu B: Kein harter Widerspruch. „Fehlerbehebung“ mit Ein- und Ausgaben setzt nicht zwingend voraus, dass Personal sie liest; die Doku schließt das Lesen aus, der Vertrag nicht. Welche Fassung im Streit gilt, ist ungeklärt (die Doku verweist auf die Nutzungsbedingungen als geltendes Dokument).
+Zu C: „Europäisch“ auf der Produktseite und „Deutschland“ in Überschrift und Doku widersprechen sich nicht, sind aber verschieden eng. Das Datenschutzpaket ist allgemein für die ganze IONOS CLOUD und lässt Drittstaaten zu, „sofern … erforderlich“; eine Zusage nur für Deutschland steht dort nicht.
+Zu D: Die Anlage mit den Unterauftragnehmern liegt hinter einem Link, der in der Archivkopie nicht aufgelöst wurde; ob dort Dienstleister für den AI Model Hub stehen, ist ungeklärt.
+Die jüngere Archivkopie der Nutzungsbedingungen (04.10.2026) antwortete nicht; ob sich der Text seit 24.09. geändert hat, ist ungeklärt. Die IONOS-SE-Fassung auf www.ionos.de (AVV Version 1.4, Ziffer 12.6 anonymisierte Daten zur Produktverbesserung) gilt für einen anderen Vertragspartner und ist hier nicht verwendet.

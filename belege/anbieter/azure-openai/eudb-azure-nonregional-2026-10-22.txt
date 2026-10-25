@@ -1,0 +1,139 @@
+Quelle: https://learn.microsoft.com/en-us/privacy/eudb/eu-data-boundary-configure-azure-nonregional-services
+Abruf: 2026-10-22 18:42:46 +0200
+
+Configuring Azure non-regional services for the EU Data Boundary - Microsoft Privacy | Microsoft Learn
+Skip to main content
+Skip to Ask Learn chat experience
+This browser is no longer supported.
+Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.
+Download Microsoft Edge
+More info about Internet Explorer and Microsoft Edge
+Table of contents
+Exit editor mode
+Ask Learn
+Ask Learn
+Reading mode
+Table of contents
+Read in English
+Add
+Add to Plans
+Copy Markdown
+Print
+Note
+Access to this page requires authorization. You can try signing in or changing directories .
+Access to this page requires authorization. You can try changing directories .
+Configuring Azure non-regional services for the EU Data Boundary
+Feedback
+Summarize this article for me
+In this article
+Azure non-regional services (you can find a complete list at Azure Products by Region ) are services that have no dependency on a specific Azure region and don't currently let customers specify a deployment region. These services were architected and optimized to be always available as part of Azure's global cloud. As part of the EU Data Boundary commitment to meet the data residency requirements of EU customers, many of these services and core components of the Azure platform that support them are being rearchitected. This work, some of which involves extensive service and platform rearchitecting, is ongoing. Some Azure non-regional services have completed this work; for others, work is ongoing, and the services will be available in the EU Data Boundary on varying schedules throughout 2025. This documentation lists Azure non-regional services that have already met the EU Data Boundary commitment and describes how to configure the services to store and process Customer Data, pseudonymized personal data, and Professional Services Data in the EU Data Boundary. To learn more about Azure non-regional services with residual data transfers outside of the EU Data Boundary, refer to  Services temporarily excluded from the EU Data Boundary and Services that will temporarily transfer a subset of Customer Data, pseudonymized personal data, or Professional Services Data out of the EU Data Boundary .
+Non-regional services that don't handle Customer Data, pseudonymized personal data, or Professional Services Data
+The following Azure non-regional services don't store or process Customer Data, pseudonymized personal data, or Professional Services Data:
+Azure Advisor
+Azure DNS
+Azure Lighthouse
+Azure Resource Mover
+Azure Service Health
+Traffic Manager
+Customer devices with cloud components that can be configured regionally
+Azure supports several hybrid and IoT solutions and devices that allow you to extend Azure services and capabilities to the environment of your choice. These solutions are considered non-regional, however after you purchase a device you can configure the connections back to Azure to store and process Customer Data and pseudonymized personal data in specific geographic locations. When you select an EU location, your Customer Data and pseudonymized personal data are stored and processed within the EU Data Boundary.
+Configuration details for each service are described in the following sections.
+Azure Data Box
+When you order a Data Box , you specify both a source country and a destination Azure region. Data Box supports data ingestion or egress only within the same country/region as the destination and won't cross any international borders. The only exception is for orders in the EU, where Data Boxes can ship to and from any EU country/region. For more information, see Azure Data Box & Azure Data Box Heavy FAQ .
+Azure Local (formerly called Azure Stack HCI)
+When you register your Azure Local instance (formerly called Azure Stack HCI cluster), you select from one of the supported EU-based Azure Local regions to which your instance will be connected for registration, billing, and management. For more information, see About Azure Local, version 23H2 deployment .
+Azure Sphere
+The Azure Sphere Security service is a customer facing global security service that enables daily attestation security verification and a secured software supply chain that manages OS and customer-provided application updates for Azure Sphere enabled customer devices. Using the new Regional Data Boundary parameter, customers can now specify that application binary files potentially containing Customer Data are signed by the EU-based Microsoft Product Release and Security Services (PRSS) signing service and stored in EU located Azure Sphere blob storage. For more information, see Azure Sphere CLI image command .
+Azure Stack Edge
+Azure Stack Edge devices let you select an Azure geographic location to which your device will be connected. Your Edge data is stored and processed in this region. For details about region availability and selecting a region, see Choosing a region for Azure Stack Edge .
+Azure Stack Hub
+Azure Stack Hub customers can select their geographical preference for data processing on existing Azure Stack Hub deployments. New Azure Stack Hub deployments can set the geographical region during the deployment process. Your Edge data is stored and processed in this region. For more information, see Azure Stack Hub infrastructure security controls .
+Azure Monitor components
+Azure Monitor provides a comprehensive solution for collecting, analyzing, and acting on system-generated and diagnostic data from your cloud and on-premises environments. Azure Monitor is available in the EU Data Boundary, allowing you to store and process all Customer Data and pseudonymized personal data in the EU Data Boundary except for specific scenarios that are identified in the following sections and described in more detail at Services that will temporarily transfer a subset of Customer Data, pseudonymized personal data, or Professional Services Data out of the EU Data Boundary .
+Components available in the EU Data Boundary
+Metrics
+Metrics is a feature of Azure Monitor that collects numeric data from monitored resources into a time-series database. Metrics are numerical values that are collected at regular intervals and describe some aspects of a system at a particular time. For more information, see types of metrics in Azure Monitor Metrics . Azure Monitor tracks metrics on a subscription basis and makes them available to administrators of that subscription. Metrics doesn't store or process any Customer Data.
+Activity Log
+Every Azure resource provider collects audit logs, also known as activity logs , which provide insights into subscription-level events. These logs include Customer Data and pseudonymized personal data for some resource types. Data originating in the EU is stored in the EU, otherwise, this data is stored globally.
+Diagnostic logs
+Diagnostic logs provide detailed diagnostic information for Azure resources and the Azure platform they depend on. These logs aren't collected until the customer routes them to the customer's chosen destination. For more information, see Diagnostic settings in Azure Monitor .
+Alerts and Action Groups
+Alerts and Action Groups are built on a Log Analytics Workspace or an Application Insights resource, which are both Geo-aligned. Data sent by a customer to an Action Groups endpoint in the EU is stored in the EU and uses an EU-based SMS system when an alert is triggered to send an email, text, or phone call.
+This workflow stores and processes all Customer Data and pseudonymized personal data in the EU when run fully within the EU. If an engineer creates a resource outside of the EU, for instance in East US, and the monitoring for this workflow is also set up in East US, the Alert workflow runs in the US, even if notifications are sent to partners in the EU.
+Log Analytics
+Log Analytics is an Azure regional service that stores and processes all Customer Data and pseudonymized personal data in the Geo selected when you create the service.
+Components that aren't available in the EU Data Boundary
+Application Change Analysis
+Application Change Analysis builds on Azure Resource Graph to provide insights into changes across multiple infrastructure and application deployment layers. Change analysis data is currently stored and processed globally, but in the future, it will move to a regional model. For more information, see Services that will temporarily transfer a subset of Customer Data, pseudonymized personal data, or Professional Services Data out of the EU Data Boundary .
+Additional non-regional services that are available in the EU Data Boundary
+All of these services can be configured to be used in the EU Data Boundary. The following sections describe how to configure the listed non-regional services to store and process Customer Data, pseudonymized personal data, and Professional Services Data in the EU Data Boundary.
+Configuration details for each service are described in the following sections.
+Azure AI Bot Service
+Azure AI Bot Service provides a collection of libraries, tools, and services that let you build, test, deploy, and manage intelligent bots. The Azure AI Bot Service enables you to create a Bot within the EU Data Boundary and all the data plane related data for your Bot is stored and processed within the EU. Customer Data and pseudonymized personal data is stored and processed in the EU Data Boundary. For details about how to add regional settings to a bot, see Regionalization in Azure AI Bot Service .
+Azure Communication Services
+When creating an Azure Communication Services resource, you specify a geography (not an Azure region). All chat messages and resource data are stored in that geography, in a region selected internally by Communication Services. Selecting the Europe geography or one of the country geographies that are part of the EU Data Boundary ensures that your Customer Data and pseudonymized personal data is stored and processed in the EU Data Boundary, aside from specific residual transfers that are documented in Services that transfer a subset of Customer Data, pseudonymized personal data, or Professional Services Data out of the EU Data Boundary on an ongoing basis . For more information, see Data residency and user privacy .
+Azure Kubernetes Service on Azure Local
+Azure Kubernetes Service on Azure Local sends data to the region selected when the cluster was configured. Any included Customer Data is stored and processed in this region.
+Azure Migrate
+When you create an Azure Migrate project, you specify a geography (not an Azure region). All metadata collected from the on-premises environment is securely stored and processed in the location you created the project. Selecting a geography in the EU ensures that your data is stored and processed in the EU Data Boundary. For the specific metadata locations associated with each geography, see Azure Migrate supported geographies . For more information, see Azure Migrate appliance common questions: How is data stored .
+Azure Resource Manager
+Azure Resource Manager is the deployment and management service for Azure. To provide maximum availability and performance, Azure Resource Manager distributes all data it stores and processes globally across the Azure cloud. To support the EU Data Boundary and Microsoft's regional data residency commitments, Azure Resource Manager was rearchitected to allow customers to store and process Customer Data and pseudonymized personal data in the EU except for specific scenarios that are identified in the following sections and described in more detail at Services that will temporarily transfer a subset of Customer Data, pseudonymized personal data, or Professional Services Data out of the EU Data Boundary .
+To store Professional Services Data for Azure in the EU Data Boundary, customers must configure Azure Resource Manager to the EU Data Boundary. Customers can configure Azure Resource Manager for the EU Data Boundary through a tenant-level data boundary configuration for newly provisioned tenants. The EU data boundary can only be configured in new tenants that have no existing subscriptions or deployed resources. Once a tenant is opted into the EU Data Boundary, the EU Data Boundary configuration can't be removed or modified. Subscriptions and resources created under a tenant with the EU Data Boundary configuration can't be moved out of that tenant. Existing subscriptions and resources can't be moved into a tenant with the EU Data Boundary configuration. Each tenant is limited to one EU Data Boundary configuration, and Azure Resource Manager will restrict resource deployments to regions within the EU Data Boundary. For step-by-step configuration details, see Configure data boundary .
+Azure Virtual Desktop
+When you create a new Azure Virtual Desktop host pool, you specify the Azure region where the metadata for that host pool is created. This determines where the information associated with the host pool is stored, which includes a host pool or application name. If you select either of the EU regions, this data is stored and processed only within the EU. Microsoft doesn't control or limit the locations from where you or your users can access their Azure Virtual Desktop Virtual Machines. For more information, see Data locations for Azure Virtual Desktop . Customer administrators can also configure the transfer of files to local devices through peripheral and resource redirection .
+Azure VM Image Builder
+Azure VM Builder : For virtual machine (VM) image templates created in an EU region, storage and processing of data occurs in the EU. For more information, see Create an Azure Image Builder Bicep file or ARM JSON template .
+Cloud Shell
+Cloud Shell is an interactive, authenticated, browser-accessible terminal for managing Azure resources. Cloud Shell enables you to create new storage within the EU Data Boundary by selecting a Cloud Shell region in the EU Data Boundary. Customer Data isn't stored or processed in Cloud Shell and pseudonymized personal data is stored and processed in the EU Data Boundary. For more information, see Persist files in Azure Cloud Shell .
+Microsoft Entra ID and Azure Active Directory B2C
+Microsoft Entra ID and Azure Active Directory B2C : A Microsoft Entra tenant contains a directory for managing users and provides identity and access management (IAM) capabilities to applications and resources used by your organization. When creating a Microsoft Entra tenant, you specify a geography (not an Azure region) as your Location. When you select a Location that is part of the EU Data Boundary, your Customer Data and pseudonymized personal data is stored and processed in the EU Data Boundary, aside from specific residual transfers that are documented in the following locations:
+Services that will temporarily transfer a subset of Customer Data, pseudonymized personal data, or Professional Services Data out of the EU Data Boundary
+Services that transfer a subset of Customer Data, pseudonymized personal data, or Professional Services Data out of the EU Data Boundary on an ongoing basis
+Optional service capabilities that transfer Customer Data, pseudonymized personal data, or Professional Services Data out of the EU Data Boundary
+For more information, see Quickstart: Create a new tenant in Microsoft Entra ID . You can verify your Microsoft Entra directory data location through Microsoft Entra admin center by navigating to the Properties page and ensuring the associated country or region value is part of the EU Data Boundary.
+Microsoft Fabric
+For Microsoft Fabric , the geographic area (Geo) in which a customer's services tenancy is hosted is determined by the first user that signs up. For more information, see Power BI implementation planning: Tenant setup . Customers can configure their service to be in-scope for the EU Data Boundary by provisioning their tenant and all Microsoft Fabric capacities in an EU datacenter location. Customer Data and pseudonymized personal data is stored and processed in the EU Data Boundary.
+Fabric also enables the option to select an Azure region where Customer Data is stored when creating new Microsoft Fabric capacity. The default option listed is your tenant home region. If you select that region, all associated data, including Customer Data, is stored in that Geo. If you select a different region, some Customer Data is still stored in the home Geo. By selecting a region in the EU, Customer Data will be stored in the EU Data Boundary.
+To find the home region for your tenant, see Find your Fabric home region .
+For more information about changing location using the Multi-Geo option and about what information is stored in the new Geo versus your home Geo, see Configure Multi-Geo support for Fabric .
+Power BI Embedded
+Power BI Embedded analytics allows you to embed Power BI items such as reports, dashboards, and tiles in a web application or in a website. When you create a new Power BI Embedded resource, you can select the Azure region where you would like your workspace data and content for the capacity to be stored. The default option listed is your tenant home region; if you select that region, all of your data and content is stored in that Geo. If you select a different region, some data and content is still stored in the home Geo.
+To find the home region for your tenant, see Find your Fabric home region .
+For more information about changing the location using Multi-Geo option and about what information is stored in the new Geo vs. your home Geo, see Multi-Geo support for Power BI Embedded and Considerations and limitations .
+Translator
+For customers who require data to be stored and processed within the EU, Azure AI Translator provides a European endpoint (api-eur.cognitive.microsofttranslator.com). When using the Translator European endpoint, requests are processed by datacenters within the EU Data Boundary only. If no datacenter within the EU Data Boundary is available, the request isn't processed, and an error is returned. All requests sent to the European endpoint are processed in the EU only, even if the request originates from outside the EU. For more information, see Translator v3.0 reference .
+Feedback
+Was this page helpful?
+Yes
+No
+No
+Need help with this topic?
+Want to try using Ask Learn to clarify or guide you through this topic?
+Ask Learn
+Ask Learn
+Suggest a fix?
+Additional resources
+Last updated on
+2026-10-16
+In this article
+Was this page helpful?
+Need help with this topic?
+Want to try using Ask Learn to clarify or guide you through this topic?
+Ask Learn
+Ask Learn
+Suggest a fix?
+en-us
+Your Privacy Choices
+Theme
+Light
+Dark
+High contrast
+AI Disclaimer
+Previous Versions
+Blog
+Contribute
+Privacy
+Consumer Health Privacy
+Terms of Use
+Trademarks
+© Microsoft 2026

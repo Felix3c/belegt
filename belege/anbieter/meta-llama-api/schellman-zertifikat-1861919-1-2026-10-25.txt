@@ -1,0 +1,61 @@
+CONDITIONS & LIMITATIONS:
+1. The aforementioned organization has a perpetual responsibility to maintain compliance with ISO/IEC 42001:2023 during the period of certification.
+2. This certificate is subject to the satisfactory completion of annual surveillance audits by Schellman Compliance, LLC.
+3. ISO/IEC 42001:2023 compliance audits are not designed to detect or prevent criminal activity or other acts that may result in an information security breach.  As such, this certification should not be construed as a guarantee 
+or assurance that an organization is unsusceptible to information security breaches.
+4. The information in this document is provided “AS IS”, without warranties of any kind.  Schellman Compliance, LLC expressly disclaims any representations and warranties, including, without limitation, the implied warranties 
+of merchantability and fitness for a particular purpose.
+5. This certificate is the property of Schellman Compliance, LLC and is bound by the conditions of contract.  The authenticity of this certificate can be validated by contacting Schellman Compliance, LLC.
+6. The organization operating the certified AIMS is monitored by Schellman Compliance, LLC during the term of the certificate.
+7. This ISO/IEC 42001:2023 certificate does not authorize the labelling of products, processes, or services.
+Page 1 of 2
+CERTIFICATE OF REGISTRATION
+ISO/IEC 42001:2023
+The Certification Body of Schellman Compliance, LLC hereby confirms as a result of the certification decision, according 
+to ISO/IEC 17021-1, that the following organization operates an Artificial Intelligence Management System that conforms 
+to the requirements of ISO/IEC 42001:2023
+Meta Platforms, Inc.
+for the following scope of registration
+The scope of the ISO/IEC 42001:2023 certification is limited to the artificial intelligence management system (AIMS) supporting 
+the delivery of Meta Business Agent services, in the role of AI Provider, and in accordance with the statement of applicability, 
+dated September 1, 2026. This AIMS applies to information resources, processes, and personnel related to delivering Meta 
+Business Agent. Information resources include Meta-owned or Meta-managed systems, applications, and network elements, in 
+addition to data collected or used in delivering Meta Business Agent services. The underlying large language models are 
+explicitly excluded from this scope.
+which includes the following in-scope location(s) on page 2 of 2
+Certificate Number:   1861919-1
+Authorized by:
+Danny Manimbo
+Managing Principal, Schellman Compliance, LLC
+4010 W Boy Scout Blvd., Suite 600
+Tampa, Florida 33607, United States
+www.schellman.com
+Issue Date
+Original Registration Date
+Expiration Date
+Certificate Version
+October 9, 2026
+October 9, 2026
+October 8, 2029
+Version 1
+CONDITIONS & LIMITATIONS:
+1. The aforementioned organization has a perpetual responsibility to maintain compliance with ISO/IEC 42001:2023 during the period of certification.
+2. This certificate is subject to the satisfactory completion of annual surveillance audits by Schellman Compliance, LLC.
+3. ISO/IEC 42001:2023 compliance audits are not designed to detect or prevent criminal activity or other acts that may result in an information security breach.  As such, this certification should not be construed as a guarantee 
+or assurance that an organization is unsusceptible to information security breaches.
+4. The information in this document is provided “AS IS”, without warranties of any kind.  Schellman Compliance, LLC expressly disclaims any representations and warranties, including, without limitation, the implied warranties 
+of merchantability and fitness for a particular purpose.
+5. This certificate is the property of Schellman Compliance, LLC and is bound by the conditions of contract.  The authenticity of this certificate can be validated by contacting Schellman Compliance, LLC.
+6. The organization operating the certified AIMS is monitored by Schellman Compliance, LLC during the term of the certificate.
+7. This ISO/IEC 42001:2023 certificate does not authorize the labelling of products, processes, or services.
+Page 2 of 2
+Certificate Number:   1861919-1
+In-Scope Location(s)
+Location
+Function / Role
+1 Hacker Way
+Menlo Park, California 94025
+United States
+Corporate Headquarters and Main Location of the AIMS: 
+Product, Engineering, Partnerships, and Operations
+Site 1

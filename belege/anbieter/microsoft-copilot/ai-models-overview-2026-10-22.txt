@@ -1,0 +1,105 @@
+Quelle: https://learn.microsoft.com/en-us/microsoft-365/copilot/ai-models-overview
+Abruf: 2026-10-22 13:03:24 +0200
+
+Understanding AI functionality and models in Microsoft Online Services | Microsoft Learn
+Skip to main content
+Skip to Ask Learn chat experience
+This browser is no longer supported.
+Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.
+Download Microsoft Edge
+More info about Internet Explorer and Microsoft Edge
+Table of contents
+Exit editor mode
+Ask Learn
+Ask Learn
+Reading mode
+Table of contents
+Read in English
+Add
+Add to Plans
+Edit
+Copy Markdown
+Print
+Note
+Access to this page requires authorization. You can try signing in or changing directories .
+Access to this page requires authorization. You can try changing directories .
+Understanding AI functionality and models in Microsoft Online Services
+Applies to: ✅ Microsoft Copilot
+Feedback
+Summarize this article for me
+In this article
+Note
+Microsoft 365 Copilot is now named Microsoft Copilot, and Microsoft 365 Copilot Chat is now named Microsoft Copilot Chat. There are no changes to security, compliance, and privacy for organizations.
+Some Microsoft Online Services offer features that use AI models and functionalities to deliver intelligent capabilities (collectively, AI Functionalities). AI Functionalities may be operated and provided by Microsoft or by third-parties. Third-party AI providers may offer AI functionalities either as independent data processors with their own direct contractual relationship with Microsoft enterprise customers or as AI Subprocessors. This classification determines how data is processed by that third party and governs the applicable contractual, privacy, and compliance obligations.
+AI Functionalities can help people in your organization with tasks such as:
+Summarize complex information
+Answer questions using source material
+Synthesize across multiple sources
+Generate ideas, draft and edit content
+Each AI model enhances Microsoft Copilot features differently, with unique strengths and specialties that can improve performance, response quality, or cost efficiency depending on your needs. To learn more about Microsoft Copilot, see Microsoft Copilot overview .
+To learn more about how different Microsoft Online Services incorporate such AI services, please review the applicable product documentation.
+This article explains the differences between the types of AI models used in Microsoft Online Services:
+AI models hosted and operated by Microsoft
+AI independent processors
+AI Subprocessors
+Important
+Microsoft applies Responsible AI (RAI) principles and security and safety evaluations across AI Services integrated with Microsoft online services. AI Services offered by third-party AI Subprocessors may also have their own RAI and safety evaluations embedded in their models which operate in addition to Microsoft's processes. Please review product documentation for more information.
+Types of AI models used in Microsoft Online Services
+AI Models hosted and operated by Microsoft
+Certain AI models used in Microsoft Online Services are hosted on Azure and provided to customers directly by Microsoft (such as Azure OpenAI or Black Forest Labs FLUX). These models are evaluated by Microsoft and deeply integrated into the Azure ecosystem. Therefore, they are offered under Microsoft's Data Protection Addendum (DPA) , Product Terms , and applicable enterprise safeguards. Data does not leave Microsoft.
+AI Subprocessor
+An AI Subprocessor is a third-party AI provider that handles data on Microsoft's behalf and under Microsoft's Data Protection Addendum (DPA) , Product Terms , and enterprise safeguards . This helps ensure enterprise-grade compliance, security, and privacy.
+When used, an AI Subprocessor handles data to deliver the specific services and functionalities Microsoft has engaged them to provide. Microsoft provides transparency through published disclosures and product documentation. For more information on these differences, see Overview of AI Subprocessors .
+AI Independent Processor
+An AI independent processor is a third-party AI provider that processes data under its own data processing commitments, privacy, compliance, and enterprise terms. As a result, this data handling occurs outside of Microsoft's Data Protection Addendum , Product Terms , and enterprise safeguards . As the admin, you control which models users can access by turning models on or off in the Microsoft 365 admin center or Power Platform admin center .
+Note
+If an AI independent processor isn't enabled by an admin in the Microsoft 365 admin center or equivalent admin center, third-party AI Functionalities aren't used by any Microsoft Online Services.
+How Microsoft evaluates and communicates AI model changes
+Microsoft continuously evaluates and updates the AI models used in Microsoft Copilot to help improve quality, performance, reliability, safety, and responsible AI outcomes. Before new or updated models are introduced, they undergo extensive testing and safety validation, and are reviewed against Microsoft's Responsible AI requirements.
+Because AI innovation evolves rapidly, not every model change is communicated through a dedicated announcement to customers. Many model changes are upgraded versions to existing models and are considered part of the normal operation and continuous improvement of the service. Microsoft will provide targeted communications to customers in the Microsoft 365 Message center when a model change meets criteria such as the following:
+Requires administrator action
+Affects contractual, compliance, security, privacy, or data processing commitments
+Represents a significant service change
+For model changes that don’t have targeted customer communications, other forms of customer communications, such as the Copilot blog and the Copilot release notes , may be used to provide information about model changes and improved capabilities.
+Related articles
+Anthropic models in Microsoft Online Services
+OpenAI as a subprocessor in Microsoft Online Services
+Connect to SpaceXAI models
+Connect to Mistral AI models
+Copilot in Microsoft 365 apps with Anthropic models
+Data, privacy, and security for Microsoft Copilot
+Feedback
+Was this page helpful?
+Yes
+No
+No
+Need help with this topic?
+Want to try using Ask Learn to clarify or guide you through this topic?
+Ask Learn
+Ask Learn
+Suggest a fix?
+Additional resources
+Last updated on
+2026-09-10
+In this article
+Was this page helpful?
+Need help with this topic?
+Want to try using Ask Learn to clarify or guide you through this topic?
+Ask Learn
+Ask Learn
+Suggest a fix?
+en-us
+Your Privacy Choices
+Theme
+Light
+Dark
+High contrast
+AI Disclaimer
+Previous Versions
+Blog
+Contribute
+Privacy
+Consumer Health Privacy
+Terms of Use
+Trademarks
+© Microsoft 2026

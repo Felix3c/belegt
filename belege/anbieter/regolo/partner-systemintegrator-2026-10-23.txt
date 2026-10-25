@@ -1,0 +1,380 @@
+Quelle: https://regolo.ai/lp-en-system-integrator/
+Abruf: 2026-10-23 (curl, HTTP 200), Textauszug aus HTML (ganze Seite, Skripte entfernt), belegbar.eu
+
+LP | EN | System Integrator - regolo.ai
+Skip to content
+Pricing
+Models
+Docs
+Labs
+Tutorial & How‑to
+Events & Workshops
+Benchmarks & Optimization
+Compliance and Privacy
+Product & Release Notes
+Self‑Hosting & DevOps
+Sustainable Computing
+Customers
+About
+Zero Data Retention
+Sustainable AI
+Our Team and Infrastructure
+Discord
+Sign In
+Home
+Models
+Pricing
+Labs
+Docs
+European data privacy
+Sustainable AI
+GPU Cloud Infrastructure
+Discord
+Sign In
+LP | EN | System Integrator
+select "Code Editor" (Cmd+Option+Shift+M).
+3. Select everything below and paste it into the code editor.
+4. Click "Exit Code Editor" in the top bar to preview the visual blocks.
+================================================================================
+-->
+Partner program · sovereign EU inference · zero data retention
+US AI models cost you what you bill.
+Deliver frontier open-source AI, scaling your margin.
+Regolo is the European sovereign AI infrastructure for system integrators, software houses, and digital agencies across Germany (DACH), Benelux, and Europe:
+€0.07/1M token cost
+,
+up to -80% inference savings
+, 100% EU datacenters (Milan Caldera & Frankfurt peered via DE-CIX and AMS-IX), Zero Data Retention, and 100% white-label OpenAI REST integration.
+Download Partner Kit ↓
+Why European system integrators, software houses, and digital agencies choose Regolo:
+EU data residency for your clients:
+100% EU facilities (Milan & Frankfurt) with zero US cloud risk, certified Zero Data Retention (ZDR), and zero training on customer data.
+Win enterprise & cross-border RFPs:
+Satisfy strict EU data residency, DORA Art. 30 audit requirements, and NIS2 supply chain transparency rules that disqualify non-sovereign proposals.
+100% white-label resale:
+Offer frontier open-source models under your brand, your domain, and your invoice — protecting partner gross margins up to 90%.
+Zero tech lock-in:
+OpenAI-compatible REST API, switch endpoint in one configuration line (
+base_url
+) without rewriting application code.
+Practice-grade reference:
+Built for system integrators, ISVs and outsourcers selling into regulated public and private tenders.
+Free download · 11-page partner kit & readiness guide
+Download the partner AI kit
+Receive the 11-page operational manual, GDPR/AI Act compliance checklist, 12-standard audit matrix, and pricing builder with margins up to 90% via email.
+Request sent successfully
+The 11-page partner operational manual and readiness kit are on their way to your business email.
+Check your inbox
+Have an active client project or tender?
+Book a 30-min Architecture Call →
+Email *
+Job *
+Select your role...
+Partnership Manager
+CTO
+Solution architect
+Sales
+Legal / Procurement
+Other
+Company *
+I accept the
+Privacy Policy
+*
+Download Partner Kit
+Direct PDF to your corporate inbox. Strict privacy, zero spam.
+Certified European Datacenter Infrastructure
+ISO 27001
+AXE · InfoSec
+ISO 22301
+AXE · Continuity
+ISO 27017
+Cloud Security
+ISO 27018
+Cloud Privacy
+CISPE
+EU Data Code
+CSA STAR
+Level 1 Trust
+ACN
+ACN QC1
+Gov Cloud Qual.
+ISO 20000
+IT Service SLA
+ISO 9001
+Quality Mgmt
+ISO 14001
+100% Green Env
+DNSH
+EU Green Deal
+ZDR AUDIT
+0-Day RAM Only
+0 days
+Zero data retention (never trained)
+100% EU
+Sovereign European data centers
+Drop-in
+OpenAI-compatible (1 line config)
+White-label
+Your brand, your margins, zero capex
+Revenue and tender readiness
+Three blockers that stall regulated AI deals
+1. Blocked AI budgets
+Finance and public clients freeze AI spend when compliance cannot be documented. Whoever unblocks compliance takes the budget.
+2. Sovereignty as admission criterion
+Tenders score data location, portability and transparency. Without a 100% EU inference layer, a blocker stays a blocker.
+3. Build-versus-buy trap
+Building EU inference takes 12 plus months and a GPU team. Reselling white-label gets you to market now with your margins.
+Bid specifications
+Tender requirements vs. Regolo partner architecture
+How Regolo turns compliance blockers into scoring advantages for your bids.
+Enterprise & Regulatory Requirement
+Standard US LLM APIs
+Regolo guarantee and architecture
+Blocked AI budgets
+Sovereignty evidence missing in proposals
+Client AI budgets stay frozen when data location and retention cannot be proven.
+Unblock budgets with an EU evidence pack.
+100% European sovereign datacenters, zero data retention and tender-ready documentation.
+Sovereign bid criteria
+Data residency as admission requirement
+Bids demand EU hosting, portability and transparency you cannot attach.
+Turn blockers into scoring points.
+EU-residency evidence pack, sub-processor map and contractual audit clauses ready to attach.
+White-label and margins
+Resale without capex
+Building GPU inference takes 12 plus months and a dedicated team.
+Resell under your brand from day one.
+OpenAI-compatible endpoints, dedicated GPUs and partner margins, zero capex.
+Audit and inspection rights
+Client and regulator access
+Click-wrap APIs give your clients no audit rights to show auditors.
+Institutional DPA with audit rights.
+Pass-through audit clauses your enterprise and public clients accept.
+Exit and portability story
+Orderly migration without lock-in
+Proprietary SDKs, proprietary weights, and severe vendor lock-in.
+100% OpenAI-compatible and open weights.
+Deploy Llama, Mistral, Qwen. Immediate endpoint swap in 1 line of configuration.
+Accredited Enterprise Compliance
+12 Verified standards: how Regolo de-risks AI for European system integrators
+When European software houses and system integrators pitch AI to regulated corporations, banks, and European clients, verbal privacy claims fail technical audits. Regolo provides an institutional audit trail backed by independent third-party certifications.
+Privacy & PII Protection
+Zero Retention & Cloud Privacy
+ZDR AUDIT
+0-Day RAM Only
+CISPE
+EU Data Code
+ISO 27018
+Cloud Privacy
+ZDR Certified · CISPE Code of Conduct · ISO/IEC 27018
+Operational Scope:
+International benchmark for protecting Personally Identifiable Information (PII) in public clouds. Strictly prohibits secondary data use, ad-targeting, or model training on customer prompts.
+Enterprise Guarantee:
+Formal third-party audit completed July 24, 2026. Certified execution exclusively in volatile GPU VRAM with immediate post-inference destruction. Protects European integrators against Art. 82 joint liability.
+ISMS & Hardened Cloud
+Information Security & Workload Isolation
+ISO 27001
+AXE · InfoSec
+ISO 27017
+Cloud Security
+CSA STAR
+Level 1 Trust
+ISO/IEC 27001 · ISO/IEC 27017 · CSA STAR Level 1
+Operational Scope:
+Comprehensive Information Security Management System (ISMS) governing infrastructure, access control, and specialized multi-tenant cloud controls (ISO 27017).
+Enterprise Guarantee:
+Strict cryptographic isolation of inference workloads, independently audited physical and logical access controls, and transparent listing on the Cloud Security Alliance registry for CISO approval.
+Business Continuity
+Operational Resilience & Service Quality
+ISO 22301
+AXE · Continuity
+ISO 20000
+IT Service SLA
+ISO 9001
+Quality Mgmt
+ISO/IEC 22301 · ISO/IEC 20000-1 · ISO 9001
+Operational Scope:
+Formal Business Continuity Management (BCMS), systematic ITIL-aligned IT service management, and rigorous quality control across all deployment nodes.
+Enterprise Guarantee:
+Contractual 99.95% availability SLA, multi-datacenter disaster recovery resilience, direct DORA Art. 30 operational compliance, and 24/7 senior infrastructure engineering assistance.
+Government & ESG
+Public Procurement & Green ESG Compliance
+ACN
+ACN QC1
+Gov Cloud Qual.
+ISO 14001
+100% Green Env
+DNSH
+EU Green Deal
+ACN Qualificazione Cloud · ISO 14001 · DNSH Framework
+Operational Scope:
+Formal qualification from the Italian National Cybersecurity Agency (ACN) for public sector and critical infrastructure, Environmental Management, and EU Green Taxonomy alignment.
+Enterprise Guarantee:
+Immediate qualification for European public-sector tenders and regulated corporate RFPs; 100% renewable energy from certified European sources with Guarantee of Origin (GO).
+All datacenter certifications issued by Accredia-accredited certification bodies (AXE Register, Certiquality) & Cloud Security Alliance. Third-party Zero Data Retention audit completed July 24, 2026.
+1-line drop-in replacement
+The exit strategy is written in two lines of code
+Your developers don't rewrite code. Keep using Cursor, Continue, LangChain, and standard OpenAI SDKs.
+Before: US cloud endpoint (FISA 702 & CLOUD Act exposure)
+import
+os
+from
+openai
+import
+OpenAI
+# Default routing to US datacenter clusters (subject to US CLOUD Act)
+client = OpenAI(
+api_key=os.environ.get(
+"OPENAI_API_KEY"
+)
+)
+response = client.chat.completions.create(
+model=
+"gpt-4o"
+,
+messages=[{
+"role"
+:
+"user"
+,
+"content"
+:
+"Analyze core transaction code..."
+}]
+)
+Now: Regolo EU endpoint (100% EU data residency & ZDR)
+import
+os
+from
+openai
+import
+OpenAI
+# Same SDK, European sovereign base URL (Milan & Frankfurt)
+client = OpenAI(
+base_url
+=
+"https://api.regolo.ai/v1"
+,
+api_key
+=os.environ.get(
+"REGOLO_API_KEY"
+)
+)
+response = client.chat.completions.create(
+model=
+"meta-llama/Llama-3.3-70B-Instruct"
+,
+messages=[{
+"role"
+:
+"user"
+,
+"content"
+:
+"Analyze core transaction code..."
+}]
+)
+Deliverables breakdown
+Inside the 11-page partner AI operational manual
+Tender-ready evidence packs, contractual wording, 12-standard certification matrix, and pricing sheets to deploy this quarter.
+Module 01 · Pages 1–2
+Sovereignty demand map
+Where PA, finance and healthcare already ask for EU hosting, and which budget each line unlocks.
+Module 02 · Pages 3 & 9
+4 Turnkey Solutions & Code
+E-Commerce semantic search, automated Document AI for invoices, voice assistants, and ready-to-run Python/Node.js snippets.
+Module 03 · Pages 4 & 7
+Security & 12-Cert Matrix
+In-memory volatile RAM execution, 12 active certifications (ISO 27001/22301/27018, CISPE, ACN), and self-audit checklist.
+Module 04 · Pages 5, 6 & 8
+Legal Shield & Sales Playbook
+Article 82 joint liability protection, 3 ready-to-copy SOW clauses, 90% partner retainers, and objection handlers for DPO, CFO, CTO.
+Get partner-ready
+Download the partner AI kit
+Get the 11-page operational manual, GDPR/AI Act compliance checklist, and pricing builder sent to your corporate email.
+Request sent successfully
+The 11-page partner operational manual and readiness kit are on their way to your business email.
+Check your inbox
+Have an active client project or tender?
+Book a 30-min Architecture Call →
+Email *
+Job *
+Select your role...
+Partnership Manager
+CTO
+Solution architect
+Sales
+Legal / Procurement
+Other
+Company *
+I accept the
+Privacy Policy
+*
+Download Partner Kit
+Zero marketing spam. 100% compliant with European privacy standards.
+Certified European Datacenter Infrastructure
+ISO 27001
+AXE · InfoSec
+ISO 22301
+AXE · Continuity
+ISO 27017
+Cloud Security
+ISO 27018
+Cloud Privacy
+CISPE
+EU Data Code
+CSA STAR
+Level 1 Trust
+ACN
+ACN QC1
+Gov Cloud Qual.
+ISO 20000
+IT Service SLA
+ISO 9001
+Quality Mgmt
+ISO 14001
+100% Green Env
+DNSH
+EU Green Deal
+ZDR AUDIT
+0-Day RAM Only
+Technical & Legal Clarifications
+Frequently Asked Questions
+Why is US cloud AI (OpenAI, Anthropic) not enough for European enterprise compliance, even with EU regions enabled?
+While OpenAI and Anthropic offer regional data residency, official documentation (October 2026) confirms critical compliance gaps for enterprise buyers: (1) System data (account metadata, usage statistics, support tickets, and structured output schemas) is explicitly excluded from EU residency and processed globally. (2) Sub-processor chains route traffic through foreign entities, leaving parent corporations legally subject to the US CLOUD Act and FISA Section 702 extraterritorial disclosure orders without notifying European clients. (3) Zero Data Retention (ZDR) is available only upon bespoke sales approval and excludes stateful endpoints, with standard logs retained for 30 days. In contrast, Regolo provides 100% in-memory execution in EU facilities (Milan Caldera & Frankfurt) with an independent ZDR audit completed on 24 July 2026.
+Can European system integrators and software agencies legally guarantee strict EU data residency in DACH and Benelux under GDPR?
+Yes, but only if the underlying inference infrastructure operates strictly within the European Economic Area (EEA). Under GDPR Article 28 and Article 82, European integrators and digital agencies face joint liability if foreign sub-processors route data through overseas jurisdictions. Regolo resolves this requirement by executing all AI workloads strictly in European sovereign data centers in Milan and Frankfurt connected via DE-CIX and AMS-IX (5–12ms latency), providing European partners with audit-ready DPAs, certified Zero Data Retention, and complete immunity from foreign extraterritorial warrants.
+How does white-label sovereign AI resale work and what profit margins can integrators achieve?
+Integrators deploy AI endpoints under their own brand, domain (e.g. api.your-brand.co.uk/v1), and client invoicing, achieving gross profit margins between 80% and 95%. While US frontier APIs charge up to $20.00–$25.00 per 1M output tokens leaving zero reseller margin, Regolo serves open-weight models (GLM 5.2 at £1.70/£4.40, Qwen 3.8 27B at £0.42/£1.76, and lightweight 9B search models at £0.06/M tokens). For example, a 50,000 monthly search workload costing £46 on Regolo is packaged into a £300/month enterprise search retainer, securing an 84%+ net margin with zero GPU hardware CapEx.
+Does Regolo provide audit rights and certifications for DORA Art. 30 and EU AI Act compliance?
+Yes. Unlike standard click-wrap API agreements from hyperscalers that limit compliance to self-assessment questionnaires, Regolo provides institutional DPAs with contractual on-site audit rights aligned with DORA Article 30 and FCA/PRA operational resilience rules. The infrastructure holds 12 accredited datacenter certifications, including ISO/IEC 27001 (Information Security), ISO 22301 (Business Continuity), ISO 27017 (Cloud Security), ISO 27018 (Cloud Privacy & PII Protection), CSA STAR Level 1, CISPE Code of Conduct, and an independent third-party Zero Data Retention audit (24 July 2026).
+Can our developers drop Regolo into our existing tech stack without rewriting application code?
+Yes, migration takes under 10 minutes with zero SDK or framework refactoring. Regolo's inference API matches the OpenAI REST specification 1:1. Development teams keep using their existing libraries (openai in Python and Node.js), developer IDEs (Cursor, Continue, VS Code), and agentic frameworks (LangChain, LlamaIndex, n8n) simply by updating the base_url to https://api.regolo.ai/v1 and supplying an authorization key. Workloads retain complete portability with a contractual 2-hour exit SLA.
+What is included in the 11-page Partner AI Integration Kit and is it vendor-neutral?
+The 11-page manual is a practitioner-grade blueprint containing: (1) An enterprise sovereignty demand map, (2) The 100-millisecond latency revenue rule and token cost calculations, (3) Four turnkey operational solutions (E-commerce search, ERP invoice extraction, clinical voice transcription, and RFP compliance), (4) An accredited 12-certification security architecture matrix, (5) Three ready-to-copy contractual clauses for client SOWs to insulate against Art. 82 joint liability, (6) Comparative frontier benchmarks (GPT-6 Astra and Claude 5 vs open models), and (7) Production-ready Python and Node.js code snippets.
+Resources
+Contacts
+Models Library
+Builder Program
+Models Status
+Integrations
+FAQ
+Legal
+Terms & Conditions
+Privacy Policy
+Cookie Policy
+Cookie Preferences
+DPA
+Top Models
+GLM 5.2
+Qwen 3.5 - 122b
+Faster Whisper Large v3
+Gemma 4 - 31b
+GPT OSS - 120b
+Latest Posts
+Getting started with context-mode and headroom: understand large codebases at 92% lower token cost
+AI review responses with guardrails: Clef-Flash decides, an LLM writes, a person approves
+EmbeddingGemma 2 vs Qwen3-Embedding (0.6B & 8B): Code Retrieval, Matryoshka Compression, and Reranking Benchmarks
+Developed in EU with love, compliance, and green spirit by DHH.
+© Seeweb S.r.l. – c.s. 103.000 EURO - CCIAA 17793/98 - VAT IT02043220603
+Datacenter Certifications

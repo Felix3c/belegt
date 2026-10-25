@@ -117,6 +117,11 @@ const zeile = (e) => "  " + e.anbieter + " " + e.feld + (e.felder.length > 1 ? "
     console.log("\nVERSCHWUNDEN (" + o.verschwunden.length + ") — Beleg trägt nicht mehr. Status im Profil zurücksetzen, tote URL in der Anmerkung festhalten:");
     o.verschwunden.forEach((e) => console.log("  [" + e.befund + (e.status ? " " + e.status : "") + "]" + zeile(e).slice(1) + (e.ziel ? "\n    -> " + e.ziel : "") + (e.hinweis ? "\n    " + e.hinweis : "")));
   }
+  const duenn = Q.duenneQuellen(o);
+  if (duenn.length) {
+    console.log("\nDÜNN (" + duenn.length + ") — unter " + Q.MIN_WOERTER + " Wörtern HTML, Text lädt vermutlich erst im Browser; hier ist der Lauf blind, Änderungen nur über Archiv oder von Hand:");
+    duenn.forEach((e) => console.log(zeile(e) + " (" + e.duenn + " Wörter)"));
+  }
 
   const plan = erstlauf ? {} : Q.planeFortschreibung(o, urls);
   const dateien = schreibeGeprueft(plan, trocken);

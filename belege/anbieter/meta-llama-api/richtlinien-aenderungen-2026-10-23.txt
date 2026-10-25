@@ -1,0 +1,45 @@
+Quelle: https://dev.meta.ai/help/policies-and-privacy/policy-updates
+Abruf: 2026-10-23 01:17:23 +0200
+
+AI Developer Help Center
+
+Meta
+
+StatusContact us
+
+Menu
+
+Status
+
+Contact us
+
+Close popover
+
+Back to Help Center
+
+Why do Model API's policies change?
+
+From time to time, the Terms of Service, Acceptable Use Policy, and Privacy Policy may be updated. Updates help keep policies effective at protecting users and their data while still enabling new features and improvements.
+
+Why policies are updated
+
+Policies are updated for several reasons, including:
+
+Changes in services: as new features or products are introduced, policies may change to reflect how they affect users and their data.
+
+Regulatory requirements: when new laws or regulations apply, policies are updated to stay compliant.
+
+Industry best practices: policies are kept in line with current standards for transparency, security, and user protection.
+
+User feedback: policies may be updated based on concerns or suggestions from the community.
+
+Your rights and obligations
+
+By continuing to use Model API after the policies are updated, you acknowledge that you've read, understood, and agreed to the updated terms. If you have questions or concerns, contact support.
+
+Terms of ServiceAcceptable Use Policy
+
+Please confirm your identity
+For added security, you need to confirm your identity. You will be taken to your single sign-on provider, where you can enter your password.
+
+CancelContinue

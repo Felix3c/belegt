@@ -1,0 +1,41 @@
+Quelle: https://dev.meta.ai/help/accounts-and-login/delete-account
+Abruf: 2026-10-23 01:19:25 +0200
+
+AI Developer Help Center
+
+Meta
+
+StatusContact us
+
+Menu
+
+Status
+
+Contact us
+
+Close popover
+
+Back to Help Center
+
+How can I delete my account?
+
+To delete your account and all associated data, contact support. Include your account email and team name in the request.
+
+Before requesting deletion:
+
+Pay any outstanding balance on your account.
+
+Download any data you need — account deletion is permanent and cannot be reversed.
+
+Revoke all active API keys, or they will be automatically invalidated on deletion.
+
+Account deletion typically takes up to 5 business days. You will receive an email confirmation once the process is complete.
+
+If you need to download your account data before deleting, see How can I download my account information?.
+
+Terms of ServiceAcceptable Use Policy
+
+Please confirm your identity
+For added security, you need to confirm your identity. You will be taken to your single sign-on provider, where you can enter your password.
+
+CancelContinue

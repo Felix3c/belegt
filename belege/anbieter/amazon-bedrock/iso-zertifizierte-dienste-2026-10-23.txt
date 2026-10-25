@@ -1,0 +1,823 @@
+Quelle: https://aws.amazon.com/compliance/iso-certified/
+Abruf: 2026-10-23 00:58:06 +0200
+
+ISO Certified
+
+Skip to main content
+
+Filter: All
+
+English
+
+Contact us
+
+AWS Marketplace
+
+Support
+
+My account
+
+re:Invent
+
+Discover AWS
+
+Products
+
+Solutions
+
+Pricing
+
+Resources
+
+Search
+
+Filter: All
+
+Sign in to console
+
+Create account
+
+Explore topics
+
+re:Invent 2026
+
+The sessions are set and your seat is waiting. Register now
+
+[An abstract image]
+
+Build & Deploy AI Agents
+
+88% of agent pilots stall. Learn what the rest do differently
+
+[An abstract image]
+
+Get started
+
+Sign up free, connect your coding agent, and start building
+
+[An abstract image]
+
+Data for agentic AI
+
+The 7 essential data capabilities to scale agentic AI
+
+Analyst Report
+
+AWS named a Leader in the 2026 Gartner Magic Quadrant for SCPS
+
+AI for Small Businesses
+
+Solutions designed for your business. Delivered by AWS Partners
+
+News & announcements
+
+AWS blog
+
+About AWS
+
+[an abstract illustration]
+
+AWS is the world's most comprehensive cloud, enabling organizations to accelerate innovation, reduce costs, and scale more efficiently
+
+Why AWS
+
+Getting Started
+
+Security
+
+Compliance
+
+Trust Center
+
+Sustainability
+
+Global Infrastructure
+
+Careers
+
+Featured Products
+
+Analytics
+
+Application Integration
+
+Artificial Intelligence
+
+Business Applications
+
+Compute
+
+Customer Experience
+
+Databases
+
+Developer Tools
+
+End User Computing
+
+Game Tech
+
+Management Tools
+
+Media Services
+
+Migration & Modernization
+
+Multicloud & Hybrid
+
+Networking & Content Delivery
+
+Operations
+
+Security & Identity
+
+Storage
+
+Supply Chain
+
+Browse all products
+
+Transformation Hubs
+
+Migrate to modernize → Modernize to unlock data → unlock data to run AI
+
+Migrate & Modernize
+
+Clear technical debt, modernize infrastructure, and move to the cloud
+
+Data & Analytics
+
+Future proof your data foundation for agentic AI
+
+Artificial Intelligence
+
+Get production-ready AI that automates, builds, creates, decides, and engages at scale
+
+Featured Products
+
+Get started with one of these featured services or browse all
+Browse all products
+
+Amazon Quick
+
+AI-powered assistant for work with research, business insights, automation, and no-code app building
+
+Transform
+
+Eliminate tech debt with agentic AI to modernize legacy systems and code
+
+Aurora
+
+Serverless relational database service for PostgreSQL, MySQL, and DSQL
+
+Amazon Bedrock
+
+The end-to-end platform for building generative AI applications and agents
+
+Amazon Connect Customer
+
+AI-native solution for delivering exceptional experiences across customer interactions
+
+EC2
+
+Secure and resizable compute capacity for virtually any workload
+
+[alt]
+
+What’s new
+
+Explore new capabilities and the latest technologies
+
+[alt]
+
+Customer success stories
+
+Learn how customers around the world accelerate their cloud
+
+Featured
+
+By industry
+
+By organization type
+
+Solutions Library
+
+Solutions for any organization
+
+From startups to enterprises, find AWS solutions scaled to your needs. Access tailored resources, pricing models, and support levels.
+
+Analytics Solutions
+
+Discover curated Solutions that address varied analytics use cases
+
+AI Solutions
+
+Discover curated Solutions that address varied artificial intelligence use cases
+
+Migration & Modernization Solutions
+
+Discover curated Solutions that address varied migration and modernization use cases
+
+[alt]
+
+What's new
+
+Explore new capabilities and the latest technologies
+
+[alt]
+
+Customer success stories
+
+Learn how customers around the world accelerate their cloud
+
+Pricing overview & tools
+
+AWS Pricing
+
+Learn about pricing and plans in one place
+
+AWS Pricing Calculator
+
+Estimate the cost for your architecture solution
+
+AWS Free Tier
+
+Get free, hands-on experience with AWS products and services
+
+AWS Offers
+
+Explore different offer programs to gain hands-on experience
+
+AWS Savings Plans
+
+Flexible pricing model offering lower prices
+
+Single-product pricing
+
+Amazon S3
+
+Amazon Bedrock
+
+Amazon RDS
+
+Amazon EC2
+
+Amazon SageMaker
+
+Browse all product pricing
+
+Learn
+
+Documentation
+
+Get detailed technical guides and references for all AWS services and tools
+
+Training & Certification
+
+Build and validate your AWS cloud skills and technical expertise
+
+Cloud term glossary
+
+Learn more about key cloud computing concepts
+
+Whitepapers
+
+Expand your knowledge of the cloud with expert guides and diagrams
+
+Cloud fundamentals
+
+Step-by-step instructions for common AWS tasks
+
+Tutorials
+
+Get started with step-by-step instructions
+
+Connect & Support
+
+Builder Center
+
+Learn, build, and connect with builders in the AWS community
+
+Events and webinars
+
+Connect, collaborate, and learn from AWS experts in the cloud computing community
+
+Partner Network
+
+Collaborate with AWS partners to grow your business
+
+Marketplace
+
+Find, test, buy, and deploy third-party software
+
+Support
+
+Access proactive guidance, issue resolution, and helpful tools
+
+Professional services
+
+Accelerate business transformation with expert guidance and packaged solutions
+
+AWS Cloud Security
+
+Security Services
+
+Use Cases
+
+Compliance
+
+Data Protection
+
+Blog
+
+Partners
+
+Resources
+
+AWS
+
+Security, Identity, and Compliance
+
+AWS Services in Scope by Compliance Program
+
+AWS Services in Scope by Compliance Program
+
+ISO and CSA STAR Certified
+
+AWS ISO and CSA STAR Certifications and Services
+
+AWS has certification for compliance with ISO/IEC 27001:2022, 27017:2015, 27018:2019, 27701:2019, 22301:2019, 20000-1:2018, 9001:2015, and CSA STAR CCM v4.0. AWS services that are covered under the certifications are listed below.
+
+Unless specifically excluded, all features of a services are in scope. Refer to AWS Documentation to see service features.
+
+Last updated: September 1, 2026
+
+Amazon API Gateway
+
+Amazon AppFlow
+
+Amazon Application Recovery Controller
+
+Amazon Athena
+
+Amazon Augmented AI [Excludes Public Workforce and Vendor Workforce for all features]
+
+Amazon Bedrock [excludes amazon Bedrock Marketplace]
+
+Amazon Bedrock AgentCore
+
+Amazon Chime
+
+Amazon Chime SDK
+
+Amazon Cloud Directory
+
+Amazon CloudFront [excludes content delivery through Amazon CloudFront Embedded Point of Presences]
+
+Amazon CloudWatch
+
+Amazon CloudWatch Logs
+
+Amazon Cognito
+
+Amazon Comprehend
+
+Amazon Comprehend Medical
+
+Amazon Connect Customer [formerly Amazon Connect]
+
+Amazon Data Firehose
+
+Amazon Datazone
+
+Amazon Detective
+
+Amazon DevOps Guru
+
+Amazon DocumentDB [with MongoDB compatibility]
+
+Amazon DynamoDB
+
+Amazon EC2 Auto Scaling
+
+Amazon Elastic Block Store (EBS)
+
+Amazon Elastic Compute Cloud (EC2)
+
+Amazon Elastic Container Registry (ECR)
+
+Amazon Elastic Container Service (ECS)
+
+Amazon Elastic File System (EFS)
+
+Amazon Elastic Kubernetes Service (EKS)
+
+Amazon Elastic MapReduce (EMR)
+
+Amazon ElastiCache
+
+Amazon EventBridge
+
+Amazon FinSpace
+
+Amazon Forecast
+
+Amazon Fraud Detector
+
+Amazon FSx
+
+Amazon GuardDuty
+
+Amazon Inspector
+
+Amazon Inspector Classic
+
+Amazon Kendra
+
+Amazon Keyspaces [for Apache Cassandra]
+
+Amazon Kinesis Data Streams
+
+Amazon Kinesis Video Streams
+
+Amazon Lex
+
+Amazon Location Service
+
+Amazon Macie
+
+Amazon Managed Grafana
+
+Amazon Managed Service for Apache Flink
+
+Amazon Managed Service for Prometheus
+
+Amazon Managed Streaming for Apache Kafka
+
+Amazon Managed Workflows for Apache Airflow (Amazon MWAA)
+
+Amazon MemoryDB
+
+Amazon MQ
+
+Amazon Neptune
+
+Amazon Nova Act
+
+Amazon OpenSearch Service
+
+Amazon Personalize
+
+Amazon Pinpoint and End User Messaging
+
+Amazon Polly
+
+Amazon Q Business
+
+Amazon Q Developer
+
+Amazon Quick [formerly Amazon Quick Suite]
+
+Amazon Redshift
+
+Amazon Rekognition
+
+Amazon Relational Database Service (RDS)
+
+Amazon Route 53
+
+Amazon S3 Glacier
+
+Amazon SageMaker AI [Excludes Studio Lab, Public Workforce and Vendor Workforce for all features]
+
+Amazon Security Lake
+
+Amazon Simple Email Service (SES)
+
+Amazon Simple Notification Service (SNS)
+
+Amazon Simple Queue Service (SQS)
+
+Amazon Simple Storage Service (S3)
+
+Amazon Simple Workflow Service (SWF)
+
+Amazon SimpleDB
+
+Amazon Textract
+
+Amazon Timestream
+
+Amazon Transcribe
+
+Amazon Translate
+
+Amazon Verified Permissions
+
+Amazon Virtual Private Cloud (VPC)
+
+Amazon WorkMail
+
+Amazon WorkSpaces
+
+Amazon WorkSpaces Applications [formerly known as Amazon AppStream 2.0]
+
+Amazon WorkSpaces Secure Browser
+
+Amazon WorkSpaces Thin Client
+
+AWS Amplify
+
+AWS App Mesh
+
+AWS App Runner
+
+AWS AppFabric
+
+AWS Application Migration Service
+
+AWS AppSync
+
+AWS Artifact
+
+AWS Audit Manager
+
+AWS B2B Data Interchange
+
+AWS Backup
+
+AWS Batch
+
+AWS Certificate Manager (ACM)
+
+AWS Clean Rooms
+
+AWS Cloud Map
+
+AWS Cloud9
+
+AWS CloudFormation
+
+AWS CloudHSM
+
+AWS CloudShell
+
+AWS CloudTrail
+
+AWS CodeBuild
+
+AWS CodeCommit
+
+AWS CodeDeploy
+
+AWS CodePipeline
+
+AWS Config
+
+AWS Control Tower
+
+AWS Data Exchange
+
+AWS Database Migration Service (DMS)
+
+AWS DataSync
+
+AWS DevOps Agent
+
+AWS Deadline Cloud
+
+AWS Device Farm
+
+AWS Direct Connect
+
+AWS Directory Service [Excludes Simple AD]
+
+AWS Elastic Beanstalk
+
+AWS Elastic Disaster Recovery
+
+AWS Elemental MediaConnect
+
+AWS Elemental MediaConvert
+
+AWS Elemental MediaLive
+
+AWS Entity Resolution
+
+AWS Fault Injection Service
+
+AWS Firewall Manager
+
+AWS Global Accelerator
+
+AWS Glue
+
+AWS Glue DataBrew
+
+AWS Ground Station
+
+AWS Health Dashboard
+
+AWS HealthImaging
+
+AWS Healthlake
+
+AWS HealthOmics
+
+AWS IAM Identity Center
+
+AWS Identity and Access Management (IAM)
+
+AWS IoT Core
+
+AWS IoT Device Defender
+
+AWS IoT Device Management
+
+AWS IoT Events
+
+AWS IoT Greengrass
+
+AWS IoT SiteWise
+
+AWS IoT TwinMaker
+
+AWS Key Management Service (KMS)
+
+AWS Lake Formation
+
+AWS Lambda
+
+AWS License Manager
+
+AWS Mainframe Modernization
+
+AWS Managed Services
+
+AWS Network Firewall
+
+AWS Organizations
+
+AWS Outposts
+
+AWS Parallel Computing Service (AWS PCS)
+
+AWS Payment Cryptography
+
+AWS Private Certificate Authority
+
+AWS Professional Services [Only in scope of ISO 27001]
+
+AWS Resilience Hub
+
+AWS Resource Access Manager (RAM)
+
+AWS Resource Explorer
+
+AWS Resource Groups
+
+AWS Secrets Manager
+
+AWS Security Assurance Services LLC [Only in scope of ISO 27001]
+
+AWS Security Hub CSPM [Formerly AWS Security Hub]
+
+AWS Security Incident Response
+
+AWS Serverless Application Repository
+
+AWS Service Catalog
+
+AWS Shield
+
+AWS Signer
+
+AWS Skill Builder
+
+AWS Snowball
+
+AWS Step Functions
+
+AWS Storage Gateway
+
+AWS Systems Manager
+
+AWS Transfer Family
+
+AWS Transform
+
+AWS Trusted Advisor
+
+AWS User Notifications
+
+AWS Verified Access
+
+AWS WAF
+
+AWS Wickr
+
+AWS X-Ray
+
+EC2 Image Builder
+
+Elastic Load Balancing (ELB)
+
+FreeRTOS
+
+VM Import/Export
+
+Kiro (excludes Fable)
+
+*Namespaces help you identify services across your AWS environment. For example, when you create IAM policies, work with Amazon Resource Names (ARNs), and read AWS CloudTrail logs. Learn more about namespaces on the documentation page.
+
+Create an AWS account
+
+Learn
+
+What Is AWS?
+
+What Is Cloud Computing?
+
+What Is Agentic AI?
+
+Cloud Computing Concepts Hub
+
+AWS Cloud Security
+
+What's New
+
+Blogs
+
+Press Releases
+
+Careers
+
+Resources
+
+Getting Started
+
+Training
+
+AWS Trust Center
+
+AWS Solutions Library
+
+Architecture Center
+
+Product and Technical FAQs
+
+Analyst Reports
+
+AWS Partners
+
+Developers
+
+Builder Center
+
+SDKs & Tools
+
+.NET on AWS
+
+Python on AWS
+
+Java on AWS
+
+PHP on AWS
+
+JavaScript on AWS
+
+Help
+
+Contact Us
+
+File a Support Ticket
+
+AWS re:Post
+
+Knowledge Center
+
+AWS Support Overview
+
+AWS Accessibility
+
+Legal
+
+Event Code of Conduct
+
+Event Terms & Conditions
+
+English
+
+Back to top
+
+Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability or other legally protected status. Veterans, military spouses, and people with disabilities are encouraged to apply.
+
+Privacy
+
+Site terms
+
+Your Privacy Choices
+
+Cookie Preferences
+
+© 2026, Amazon Web Services, Inc. or its affiliates. All rights reserved.

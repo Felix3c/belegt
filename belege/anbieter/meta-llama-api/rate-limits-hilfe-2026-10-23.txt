@@ -1,0 +1,53 @@
+Quelle: https://dev.meta.ai/help/usage-and-limits/rate-limits
+Abruf: 2026-10-23 01:18:39 +0200
+
+AI Developer Help Center
+
+Meta
+
+StatusContact us
+
+Menu
+
+Status
+
+Contact us
+
+Close popover
+
+Back to Help Center
+
+What are the Model API rate limits?
+
+Meta Model API enforces rate limits to ensure fair usage across all customers. Limits apply per team and are measured in two dimensions:
+
+Requests per minute (RPM) — the number of API calls you can make per minute.
+
+Tokens per minute (TPM) — the total tokens (input + output) processed per minute.
+
+You can view your team's per-model limits on the Limits page — a table of the requests per minute and tokens per minute allowed for each model.
+
+What happens when you exceed a limit
+
+When you exceed a rate limit, the API returns an HTTP 429 error ("too many requests"). Requests resume automatically once your usage drops below the threshold.
+
+Best practices
+
+Know your limits. Check the Limits page to see the RPM and TPM allowed for each model on your team.
+
+Optimize your prompts. Remove unnecessary words and instructions to reduce token consumption.
+
+Implement exponential backoff. When you receive a 429 error, wait before retrying. Increase the wait time with each successive retry rather than retrying immediately.
+
+Monitor your usage. Track your consumption on the Usage page to anticipate and prevent rate-limit issues.
+
+For per-model limits, retry strategies, and how to request higher limits, see Rate limits in the developer documentation.
+
+If rate-limit issues persist, contact support.
+
+Terms of ServiceAcceptable Use Policy
+
+Please confirm your identity
+For added security, you need to confirm your identity. You will be taken to your single sign-on provider, where you can enter your password.
+
+CancelContinue

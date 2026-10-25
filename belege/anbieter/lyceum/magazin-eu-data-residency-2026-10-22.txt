@@ -1,0 +1,344 @@
+EU Data Residency for AI Infrastructure: 2026 Guide | Lyceum Technology | Lyceum
+inside SVG favicons and the media attribute on
+, -->
+Skip to content
+Lyceum
+Inference
+Compute
+Models
+Pricing
+Careers
+Resources
+Docs
+Company
+Legal
+Magazine
+News
+Press
+Start building
+Welcome back,
+Open dashboard
+Talk to an expert
+Inference
+Compute
+Models
+Pricing
+Careers
+Resources
+Docs
+Company
+Legal
+Magazine
+News
+Press
+Talk to an expert
+Start building
+Open dashboard
+Download brand assets
+ZIP
+Download logo
+SVG
+Download white logo
+SVG
+Download logo
+PNG
+Download white logo
+PNG
+Press and company facts
+↗
+Magazine
+Meet EU requirements
+EU data residency for AI and analytics: a
+five-point
+checklist
+EU data residency means your data is stored and processed inside the EU or the European Economic Area (EEA). For AI and analytics work, that includes prompts, model outputs, logs and dashboards. It also covers who can open the data from outside the EU, because the GDPR treats that access as a transfer.
+Magnus Grünewald
+CEO at Lyceum Technology
+4 February 2026
+· 9 min read
+Last updated 20 October 2026
+Table of contents
+What EU data residency means for AI and analytics workloads
+The five checks for EU data residency
+Why an EU region alone does not settle residency
+EU-US Data Privacy Framework status in October 2026
+EU AI Act and Data Act dates to plan around
+How our serverless inference answers the five checks
+Summary
+Frequently asked questions
+GPU pricing
+See GPU rates and reserved capacity options.
+View GPU pricing
+→
+Contents
+What EU data residency means for AI and analytics workloads
+The five checks for EU data residency
+Why an EU region alone does not settle residency
+EU-US Data Privacy Framework status in October 2026
+EU AI Act and Data Act dates to plan around
+How our serverless inference answers the five checks
+Summary
+Frequently asked questions
+Key takeaways
+Because an EU region fixes only where data is stored and computed, ask every provider about support access, subprocessors and non-EU law too.
+Support staff who open your data from outside the EU create a GDPR transfer, so get each provider's support locations in writing.
+The EU-US Data Privacy Framework still applies but faces an appeal, so keep standard contractual clauses ready for every US vendor you rely on.
+What EU data residency means for AI and analytics workloads
+EU data residency applies to every tool in an AI or analytics pipeline that touches the data. A customer contract or a data protection officer usually asks for it in one line. So which parts of an AI or analytics stack does that line cover, and how do you check a provider?
+Take one example, which is hypothetical. A Berlin SaaS team summarises support tickets with a large language model (LLM) and charts the results in an analytics dashboard. One ticket makes four stops:
+At rest:
+it is stored in the team's data warehouse.
+In processing:
+it is sent to an LLM API, which reads it and writes a summary.
+Support access:
+an engineer at one of the vendors opens it to debug a failed job.
+Subprocessors:
+each tool hands parts of the work to its own vendors, such as hosting or payment providers.
+Residency has to hold at every stop. A warehouse in Frankfurt does not help if the LLM call runs in Virginia. The example is simplified: it does not show how likely each gap is, or what closing it costs. We built Lyceum as a sovereign European AI inference provider for open-source models, and our
+serverless models run in Paris and Finland
+. The last section shows how we answer each stop, and
+AI data residency, explained properly
+covers the storage and processing split in depth.
+An EU region answers where your data sits; who controls the stack and which laws reach it is settled by the provider's entity, access rules, subprocessors and contract.
+The five checks for EU data residency
+The five checks below turn "EU data residency" into questions a provider can answer in writing. Run them for every tool the ticket touches.
+Check
+What to ask the provider
+Where the answer is
+The example ticket
+Data at rest
+Where are data, backups and logs stored?
+Location statement, DPA
+Warehouse in an EU region
+Data in processing
+Where does compute run, including the LLM call?
+Region list, model or endpoint page
+LLM API location decides it
+Support access
+Who can open customer data, and from which countries?
+DPA, access policy
+Remote access from outside the EEA is a transfer
+Subprocessors
+Which vendors get which data, and where are they?
+Subprocessor list, notice period
+Each vendor needs its own answer
+Non-EU law exposure
+Is the provider, or its parent, subject to laws such as the US CLOUD Act?
+Contracting entity, terms, transfer assessment
+A US parent can be ordered to disclose
+A data processing agreement (DPA) is the contract under GDPR Article 28 that binds a provider to process your data only on your instructions. Most answers in the table live there. Our guide to
+subprocessors in AI inference
+covers the fourth row in depth.
+Why an EU region alone does not settle residency
+An EU region settles where the bytes sit. It does not settle who can reach them, and the GDPR cares about both.
+The GDPR has no data-localisation rule. Article 44 allows transfers outside the EEA only under Chapter V, the GDPR's rules for international transfers. The European Data Protection Board (EDPB), the body of EU data protection authorities, adds the access point. Its Guidelines 05/2021 treat remote access from a third country as a transfer. That holds "even if it takes place only by means of displaying personal data on a screen", for example in support situations.
+The same guidelines name a second case: an EU processor that is subject to third-country law. Such a processor may receive government access requests. GDPR Article 28(1) lets you use only processors that give sufficient guarantees, and for this processor, the EDPB writes, reliability "may be in doubt".
+The US CLOUD Act is the usual example. The law dates from March 2018. It obliges US cloud and communication providers to disclose data in their "possession, custody, or control", wherever it is located. The US Department of Justice describes it as a tool to reach evidence held by US-based global providers. GDPR Article 48 answers from the EU side. A third-country order is recognised only when it rests on an international agreement, such as a legal assistance treaty. Without one, the order alone gives the provider no GDPR basis to hand the data over.
+Article 83(5) sets the stakes. Breaking the transfer rules can cost up to €20 million or 4% of worldwide annual turnover, whichever is higher. We explain the hyperscaler case in
+the CLOUD Act problem
+, and the wider argument in
+sovereignty beyond hosting
+.
+EU-US Data Privacy Framework status in October 2026
+The EU-US Data Privacy Framework (DPF) is still in force in October 2026. It is an adequacy decision, adopted on 10 July 2023. That is the Commission's finding that participating US companies protect personal data well enough for it to flow to them freely. The Commission's adequacy list still names the United States for those companies, next to Switzerland, the United Kingdom and Japan.
+The decision is under challenge. The General Court dismissed Philippe Latombe's action on 3 September 2025. He appealed to the Court of Justice on 31 October 2025, asking it to annul the decision (Case C-703/25 P). Until that court rules, the DPF applies. Its safeguards limit US intelligence access to what is necessary and proportionate, answering the Court of Justice's Schrems II judgment of July 2020.
+We recommend the example team does two things. First, check that each US analytics or LLM vendor appears on the Data Privacy Framework list. Second, make the DPA name a fallback in case the court annuls the decision. That fallback is usually standard contractual clauses (SCCs), the Commission's model transfer contract.
+EU AI Act and Data Act dates to plan around
+The EU AI Act, Regulation (EU) 2024/1689, applies in stages. The AI Omnibus, an amending law (Regulation (EU) 2026/1744), entered into force on 27 July 2026 and moved the high-risk dates.
+Date
+What applies
+Source
+2 August 2025
+Obligations for providers of general-purpose AI models, which are trained for many tasks, such as large language models
+AI Act, Article 113
+2 August 2026
+Most of the Act, including the Article 50 duty to tell people they are dealing with an AI system
+AI Act, Article 113
+2 December 2026
+Generative AI systems already on the market before 2 August 2026 must mark their output as AI-generated (Article 50(2))
+Omnibus, Article 111(4)
+12 January 2027
+Switching charges, the fees for moving to another cloud provider, end, data transfer-out fees included
+Data Act, Article 29
+2 December 2027
+Stand-alone high-risk systems (Annex III), such as hiring or credit scoring
+Omnibus, Article 113
+2 August 2028
+High-risk AI inside regulated products (Annex I)
+Omnibus, Article 113
+The Data Act row matters for residency. Until 12 January 2027, providers may charge switching fees, but no more than their direct costs. From that date they may charge none. That makes moving data to an EU provider cheaper. Our
+EU AI Act timeline
+covers each obligation, and our guide to
+Article 50 marking
+covers the December 2026 date.
+After the AI Omnibus (Regulation (EU) 2026/1744, in force since 27 July 2026), stand-alone high-risk obligations apply from 2 December 2027 instead of 2 August 2026.
+How our serverless inference answers the five checks
+Lyceum Serverless Inference
+answers the five checks with facts from
+our legal and data-handling page
+. Here is the example ticket's second stop, the LLM call, run on our API.
+Check
+Our answer
+Data at rest
+Prompts and outputs are not stored on disk or in a database. The opening part of recent prompts stays in GPU memory until newer requests replace it, which is what makes cached input cheaper.
+Data in processing
+Paris and Finland for serverless models. Locations for dedicated endpoints (GPUs reserved for you) and GPU virtual machines are agreed per contract.
+Support access
+Our team cannot see prompts or responses. We never log them or write them to a database, so there is nothing to open.
+Subprocessors
+Mainly in the EU and EEA. Anything outside is covered by GDPR safeguards such as SCCs.
+Non-EU law exposure
+You contract with Lyceum Technology Germany GmbH or Lyceum Switzerland GmbH. Not every subprocessor has its headquarters in the EU, so ask for the list and run this check on each entry.
+The one record a request leaves is a usage record: your organisation and user, the model, token counts and the time. It never contains the prompt or the response, which is what
+zero-retention LLM APIs
+means in practice. Our team can see account details, usage records and system logs, and works from
+Berlin and Zurich
+.
+Our DPA is Annex 1 of our terms. You are the controller, who decides why data is processed, and we are the processor, who processes it for you. We tell you before we add or replace a subprocessor, and you can object within 10 business days. The subprocessor list is available on request. Our ISO 27001:2022 audit is in progress. Service incidents appear on our
+status page
+.
+Choosing a European host does not discharge your own duties as controller. This table covers only the LLM call, so run the same checks on your warehouse, analytics tool and support desk. Our
+press facts
+and
+model list
+show what we serve today.
+Summary
+EU data residency holds only when five checks pass for every tool that touches your data: where it is stored, where it is processed, who can open it, which subprocessors receive it and which non-EU laws reach the provider. An EU region settles the first two, while the other three depend on what each provider commits to in writing. For LLM calls on our API, our DPA and legal page make that commitment for all five.
+If a customer contract requires EU processing for your LLM calls, send our DPA to your reviewer first. You can read it on
+our legal page
+, and request the subprocessor list and our TOMs (technical and organisational measures) there.
+Sources
+EUR-Lex: Regulation (EU) 2016/679 General Data Protection Regulation
+edpb.europa.eu
+law.cornell.edu
+justice.gov
+commission.europa.eu
+European Commission: Adequacy decisions
+eur-lex.europa.eu
+dataprivacyframework.gov
+EUR-Lex: Regulation (EU) 2024/1689, the EU AI Act
+eur-lex.europa.eu
+EUR-Lex: Regulation (EU) 2023/2854, the EU Data Act
+National Law Review: EU Digital Omnibus on AI enters into force (31 July 2026)
+Frequently asked questions
+Does the GDPR require data to stay in the EU?
+No. Transfers outside the EEA are lawful with an adequacy decision, with safeguards such as standard contractual clauses, or under narrow exceptions such as explicit consent.
+Is Switzerland part of EU data residency?
+Switzerland is outside the EU and the EEA. The European Commission recognises it as adequate, so personal data can flow there without extra transfer safeguards.
+Does EU data residency apply to analytics tools?
+Yes. Event data, warehouse tables and dashboards hold personal data, so the same five checks apply. A US analytics vendor also needs a Data Privacy Framework listing or standard contractual clauses.
+Where do Lyceum Serverless Inference models run?
+In Paris and Finland, on GPUs in European data centres. Prompts and outputs are processed, not stored, and never used for training.
+Related resources
+Pythia: find the right GPU for your PyTorch workload
+→
+lyceum.technology
+→
+Lyceum contact and legal entities
+→
+Lyceum press facts
+→
+Lyceum GPU compute
+→
+Lyceum Serverless Inference
+→
+lyceum.technology
+→
+AI data residency explained
+→
+lyceum.technology
+→
+EU AI Act compliance timeline
+→
+GPU memory calculator for deep learning
+→
+lyceum.technology
+→
+Sovereignty beyond hosting
+→
+The DPA question: sub-processors in AI inference
+→
+Zero-retention LLM APIs: what GDPR actually requires
+→
+lyceum.technology
+→
+Lyceum pricing
+→
+How we handle your data
+→
+status.lyceum.technology
+→
+GPU pricing
+See GPU rates and reserved capacity options.
+View GPU pricing
+→
+A tinted zone holding one purple-topped block beside an upright sheet with four lines, suggesting a model served inside a boundary and checked against its paperwork.
+Related articles
+All articles
+→
+Meet EU requirements · GDPR & contracts
+GDPR Compliant GPU Cloud Europe: Sovereign AI Infrastructure
+Scaling AI models in Europe requires more than just raw compute; it demands a legal and technical architecture that respects data sovereignty. As US hyperscalers face increasing scrutiny under the CLOUD Act, European startups are shifting to sovereign GPU clouds to simplify transfer assessments and vendor security reviews without sacrificing the performance of H100 and B200 clusters.
+Magnus Grünewald
+30 January 2026
+· 6 min read
+Meet EU requirements · Sector rules
+EU-hosted
+LLM APIs for legal documents: what to verify before use
+Client contracts can go to an EU-hosted LLM API only after four checks. The checks cover what data you send, which law protects it, what the provider stores, and how the model treats your documents. German lawyers must also choose the provider carefully and sign a secrecy contract, as section 43e of the Federal Lawyers' Act (BRAO) requires.
+Magnus Grünewald
+20 October 2026
+· 7 min read
+Meet EU requirements · GDPR & contracts
+Before an LLM PoC: DPA, NDA and the customer-data checklist
+Before you send customer data to an LLM API, you need a data processing agreement (DPA) with the provider. A DPA is the contract that limits what the provider may do with the personal data you send it. Add a non-disclosure agreement (NDA), a contract that keeps business information secret, only where you need that on top.
+Magnus Grünewald
+20 October 2026
+· 6 min read
+Your next workload starts here
+Start building
+Open dashboard
+Talk to an expert
+Sovereign European AI inference for open-source models, billed per token.
+Live status
+23 open models
+Run
+Inference
+Compute
+Fine-tuning
+Models
+Pricing
+Learn
+Docs
+↗
+Magazine
+Status
+↗
+llms.txt
+Meet us
+Company
+Careers
+Press
+Contact
+Legal
+Documents
+Compliance
+DPA
+FAQ
+Terms
+Privacy
+Imprint
+Cookies
+© 2026 Lyceum Technology Germany GmbH
+LinkedIn
+↗
+cookies.txt
+We use cookies to improve your experience and for marketing. Read our
+cookie policy
+.
+Reject all
+Accept all
+, behind the
+cookie consent gate. The
+tracking pixel went with it: it
+would have fired for every visitor regardless of their choice. -->

@@ -1,4 +1,3 @@
-&#038;
 &#8211;
 &#8211;
 &#8211;
@@ -18,7 +17,6 @@
 &amp;
 &amp;
 &amp;
-(0.6B
 (1
 (1)
 (1)
@@ -122,12 +120,12 @@
 0775
 1.
 10.1
+1017,
 103.000
 12
 120b
 122b
 17793/98
-2
 2.
 2.1.
 2.2.
@@ -179,12 +177,14 @@
 4.1.1.
 4.2.
 4.3.
+43%
 48
 5.
 5.1.
 5.2
 5.2
 5.3
+501B
 6
 6.
 6.1
@@ -192,6 +192,7 @@
 6.2
 6.2,
 6.3.
+60%:
 66
 66
 7.
@@ -204,10 +205,10 @@
 8.
 8.1.
 8.2.
+816B,
 82
 830054,
 880041,
-8B):
 9.
 9.1.
 9.2.
@@ -341,7 +342,7 @@ BUT
 BY
 BY
 BY
-Benchmarks
+Beam
 Benchmarks
 Binding
 Boost)
@@ -369,11 +370,9 @@ Categories
 Certifications
 Clef-Flash
 Cloud
-Code
 Company
 Compliance
 Compliance
-Compression,
 Computing
 Conditions
 Conditions
@@ -510,6 +509,8 @@ Date
 Date:
 Date:
 Date”).
+DeepSWE
+DeepSeek
 Definitions
 Description
 DevOps
@@ -537,7 +538,6 @@ EXPRESSLY
 EXTENT
 Effective
 Effective
-EmbeddingGemma
 Enterprise
 European
 European
@@ -716,7 +716,6 @@ MERCHANTABILITY,
 MISCONDUCT
 MONTH
 Material
-Matryoshka
 Milan
 Model
 Model
@@ -737,6 +736,7 @@ Models.
 Models.
 Models.
 Models:
+Muse
 NEGLIGENCE),
 NON-INFRINGEMENT.
 NOT
@@ -932,7 +932,6 @@ Pursuant
 Pursuant
 Pursuant
 Qwen
-Qwen3-Embedding
 REGULATION
 RESULTING
 REVENUES,
@@ -969,12 +968,10 @@ Regulation
 Release
 Reliance
 Renewal:
-Reranking
 Resale
 Resources
 Restrictions
 Retention
-Retrieval,
 Rights
 Risk
 S.r.l.
@@ -1077,6 +1074,7 @@ Services.
 Sign
 Sign
 Skip
+Spark
 Specifically,
 Srl,
 Srl,
@@ -1351,9 +1349,11 @@ Website.
 Whereas
 While
 Whisper
+Why
 With
 Workshops
 Zero
+a
 a
 a
 a
@@ -1920,6 +1920,7 @@ be
 be
 be
 be
+beats
 becomes
 becomes
 becoming
@@ -1935,6 +1936,7 @@ behalf
 behalf
 believes
 belong.
+benchmarks
 better
 between
 between
@@ -2920,6 +2922,7 @@ migration,
 misappropriate,
 mitigate
 model
+model
 models
 models
 models
@@ -3258,6 +3261,8 @@ on
 on
 on
 on
+on
+one
 one
 one
 one
@@ -3628,6 +3633,7 @@ pursuant
 pursuant
 pursuant
 reading
+reading
 reasonable
 reasons
 rebranding
@@ -3769,6 +3775,8 @@ same
 same
 scope
 scope
+scoring
+scoring
 scoring);
 secure
 secure
@@ -3971,6 +3979,7 @@ that
 that
 that:
 that:
+the
 the
 the
 the
@@ -4713,7 +4722,6 @@ violate
 violate
 violates
 vocational
-vs
 vulnerabilities
 vulnerability
 warranties

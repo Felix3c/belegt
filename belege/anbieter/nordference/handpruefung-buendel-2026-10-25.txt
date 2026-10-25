@@ -1,0 +1,55 @@
+Handpr√ºfung Nordference √ºber das Skript-B√ºndel, 25.10.2026 ~07:20 MEZ (Dauerlauf)
+Grund: Quellenlauf ist bei allen sechs nordference.ai-Seiten blind (HTML-H√ºlle 12 W√∂rter, Block D√úNN seit 25.10.).
+Startseite, /models, /privacy, /terms, /gdpr laden alle dasselbe B√ºndel: https://nordference.ai/assets/index-CGzvo87P.js
+SHA-256 heute: e68e235c030f22f12e517dd2592ca0e56e4e10bf0b5bcd8f90d9f82f0593d9ad  (1184517 Bytes)
+SHA-256 08.10.2026 laut Profil: e68e235c‚Ä¶d9ad  ‚Üí gleich, Seitentext seit 08.10. unver√§ndert
+sitemap.xml lastmod 2026-02-01/02; Antwortkopf weiter 'Server: cloudflare'; 'certified' 0√ó, 'subprocessor' 0√ó
+
+Zitate aus den Anmerkungen (Skript nf-pruef.py, OK = w√∂rtlich im B√ºndel):
+OK   .modelle.0.backup_standort.anmerkung | All data processing occurs within the European Union, specifically in Estonia
+OK   .modelle.0.backup_standort.anmerkung | Your prompts and model outputs are processed in real-time and are not stored on our systems. Account and billi
+OK   .modelle.0.vorgeschaltete_filter.anmerkung | to generate harmful or misleading content
+FEHLT .modelle.0.vorgeschaltete_filter.anmerkung | wir filtern nicht
+OK   .vertrag.avv.anmerkung | Enterprise customers can request a Data Processing Agreement (DPA) that outlines the terms under which we proc
+FEHLT .vertrag.subprozessoren.anmerkung | subprocessor
+OK   .vertrag.subprozessoren.anmerkung | payment information (processed securely through our payment provider)
+FEHLT .vertrag.subprozessoren.anmerkung | Server: cloudflare
+OK   .vertrag.subprozessoren.anmerkung | we do not transfer data to third countries outside the EEA
+FEHLT .vertrag.tom.anmerkung | Integrity & Confidentiality: Industry-standard security measures
+OK   .vertrag.tom.anmerkung | Enterprise customers can request a Data Processing Agreement
+OK   .vertrag.subprozessoren_anzahl.anmerkung | our payment provider
+OK   .vertrag.training_opt_out.anmerkung | Built for Regulated Industries
+FEHLT .vertrag.training_opt_out.anmerkung | , wˆrtlich: 
+FEHLT .vertrag.training_opt_out.anmerkung |  Dazu die About-Seite: 
+FEHLT .vertrag.training_opt_out.anmerkung |  Das ist Werbetext ohne Vertragstext, deshalb Anbieterangabe und nicht belegt: In Terms of Service, Privacy Po
+OK   .vertrag.zero_data_retention.anmerkung | Zero retention for inference data
+OK   .vertrag.zero_data_retention.anmerkung | We maintain a zero data retention policy for inference data. Your prompts and model outputs are processed in r
+OK   .vertrag.zero_data_retention.anmerkung | API calls, token counts
+FEHLT .vertrag.zweckbindung.anmerkung | Purpose Limitation: Data is collected for specified, explicit purposes
+OK   .vertrag.zweckbindung.anmerkung | processed in real-time and are not stored on our systems
+OK   .vertrag.zweckbindung.anmerkung | never stored or used for training
+OK   .vertrag.betroffenenrechte_traeger.anmerkung | 3NV O‹, registered in Estonia (EU), acts as the data controller for personal data processed through our servic
+OK   .vertrag.betroffenenrechte_traeger.anmerkung | To exercise these rights, contact us at privacy@nordference.ai
+OK   .vertrag.betroffenenrechte_traeger.anmerkung | to exercise your rights, contact our Data Protection Officer at dpo@nordference.ai. We will respond to all req
+OK   .vertrag.log_frist.anmerkung | usage data (API calls, token counts)
+OK   .vertrag.log_frist.anmerkung | Account and billing information is retained as required by law
+OK   .vertrag.log_frist.anmerkung | Activity Logs & Export
+OK   .vertrag.log_frist.anmerkung | Audit Trails
+OK   .vertrag.log_zweck.anmerkung | Activity Logs
+OK   .vertrag.log_zweck.anmerkung | on a per-token basis
+FEHLT .zertifikate.0.anmerkung |  auf der Startseite (K¸rzel der EU-Regel zur Netz- und Informationssicherheit, 
+FEHLT .zertifikate.0.anmerkung | ); kein Zertifikat, kein Auditor, kein Inhaber genannt, das Wort 
+FEHLT .zertifikate.1.anmerkung |  auf der Startseite (K¸rzel der EU-Regel zur digitalen Betriebsstabilit‰t, 
+OK   .zertifikate.1.anwendungsbereich.anmerkung | SOC 2 Type II
+FEHLT .ai_act.0.anmerkung | ) mit H‰kchen bei Nordference (
+FEHLT .ai_act.0.anmerkung | ). Kein Dokument, keine Erkl‰rung, was damit zugesagt ist; die About-Seite k¸ndigt nur k¸nftige Anforderungen 
+FEHLT .ai_act.0.anmerkung | ). Bis 03.10.2026 stand hier 
+MODELL Llama 3.1 8B Instruct 0.055 0.11 | Umfeld: Llama 3.1 8B Instruct",provider:"Meta",contextLength:"16K",inputPrice:"Ä0.055",outputPrice:"Ä0.11"},{name:"Mistral 7B Instruct",provider:"Mistral AI",contextLength:"32K",inputPrice:"Ä0.05",outputPrice:"Ä0.10"},{name:"Gemma 2 9B Instruct",provider:"Google",cont
+MODELL Mistral 7B Instruct 0.05 0.1 | Umfeld: Mistral 7B Instruct",provider:"Mistral AI",contextLength:"32K",inputPrice:"Ä0.05",outputPrice:"Ä0.10"},{name:"Gemma 2 9B Instruct",provider:"Google",contextLength:"16K",inputPrice:"Ä0.08",outputPrice:"Ä0.16"}]},{categoryKey:"models.table.categories.coding",mod
+MODELL Gemma 2 9B Instruct 0.08 0.16 | Umfeld: Gemma 2 9B Instruct",provider:"Google",contextLength:"16K",inputPrice:"Ä0.08",outputPrice:"Ä0.16"}]},{categoryKey:"models.table.categories.coding",models:[{name:"CodeLlama 7B Instruct",provider:"Meta",contextLength:"16K",inputPrice:"Ä0.06",outputPrice:"Ä0.12"}
+MODELL CodeLlama 7B Instruct 0.06 0.12 | Umfeld: CodeLlama 7B Instruct",provider:"Meta",contextLength:"16K",inputPrice:"Ä0.06",outputPrice:"Ä0.12"}]},{categoryKey:"models.table.categories.lightweight",models:[{name:"Llama 3.2 1B Instruct",provider:"Meta",contextLength:"8K",inputPrice:"Ä0.01",outputPrice:"Ä0.
+MODELL Llama 3.2 3B Instruct 0.03 0.06 | Umfeld: Llama 3.2 3B Instruct",provider:"Meta",contextLength:"8K",inputPrice:"Ä0.03",outputPrice:"Ä0.06"},{name:"Gemma 2 2B Instruct",provider:"Google",contextLength:"8K",inputPrice:"Ä0.02",outputPrice:"Ä0.04"}]}],TU=()=>{const{t:e}=lt();return d.jsxs("div",{children:
+
+Nachgepr√ºft von Hand (in JSX getrennt, Titel + Text): 'Integrity & Confidentiality:' + ' Industry-standard security measures' OK; 'Purpose Limitation:' + ' Data is collected for specified, explicit purposes' OK; Badges ['NIS2','EU Data Residency','ISO 27001'] und ['DORA','SOC 2 Type II','Audit Trails'] OK; euAiAct 'EU AI Act Ready' OK.
+√úbrige FEHLT-Zeilen sind keine Zitate (Zerlegung der Anmerkung an Anf√ºhrungszeichen bzw. 'wir filtern nicht' als eigene Formulierung, 'Server: cloudflare' als Antwortkopf).
+Alle f√ºnf Profilpreise (EUR je 1 Mio. Token) stimmen mit dem B√ºndel.

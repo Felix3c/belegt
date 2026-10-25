@@ -11,14 +11,18 @@
  *   LAUF_DATUM=2026-10-15 setzt das Datum (Standard: heute)
  *
  * Bei "neu" und "verändert" wird eine Rohkopie mit SHA-256 nach waechter/roh/<datum>/ gelegt,
- * damit eine Meldung später einen Beleg mit Datum hat.
+ * damit eine Meldung später einen Beleg mit Datum hat. Danach bekommt jede Rohkopie ohne Stempel eine
+ * `.ots` daneben (OpenTimestamps, wie stempeln.js; raus geht nur der Fingerabdruck). Fällt das aus,
+ * holt der nächste Lauf es nach; die Bitcoin-Bestätigung zieht `node stempeln.js --nachziehen` nach.
  */
 "use strict";
 
 const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
+const { spawnSync } = require("child_process");
 const Q = require("./lib/quellen.js");
+const Z = require("./lib/zeitstempel.js");
 
 // WAECHTER_DIR=waechter/pilot trennt z. B. eine Pilot-Liste vom Hauptbestand; nur unter waechter/ (gitignored).
 function ordner(env) {
@@ -136,7 +140,18 @@ async function main(argv) {
     fs.writeFileSync(path.join(WORT_DIR, Q.wortDateiName(e.url)), e.woerter.join("\n") + "\n");
   }
   fs.writeFileSync(LEDGER, JSON.stringify(Q.fuehreLedger(ledger, o, uebernehmen, datum), null, 2) + "\n");
+  stempleRoh(path.join(DIR, "roh"));
 }
 
-module.exports = { ladeListe, rohName, rohBeleg, rohBelege, berichtZeilen, ordner };
+// Nach dem Ledger, damit ein ausgefallener Kalender-Server den Lauf nicht verdirbt: dann bleibt die
+// Rohkopie ohne .ots und der nächste Lauf versucht es wieder.
+function stempleRoh(rohDir) {
+  for (const befehl of Z.rohStempelPlan(Z.alleDateien(rohDir), 50)) {
+    const r = spawnSync("python", ["-I", path.join(__dirname, "ots_stempel.py"), ...befehl], { cwd: rohDir, stdio: "inherit" });
+    if (r.status !== 0) { console.error(`WARNUNG: Zeitstempel für ${befehl.length - 1} Rohkopie(n) fehlgeschlagen, nächster Lauf holt nach`); return false; }
+  }
+  return true;
+}
+
+module.exports = { ladeListe, rohName, rohBeleg, rohBelege, berichtZeilen, ordner, stempleRoh };
 if (require.main === module) main(process.argv.slice(2)).catch((e) => { console.error(e); process.exit(1); });

@@ -1,0 +1,16 @@
+Quelle: https://static.deepseek.com/faq/index.html?lang=en#/question/cooperation-agreement (Hilfe-Center, Kategorie API; per Chrome gerendert, Text der Seite über document.body.innerText übernommen; die Seite ist ein Skript ohne Text im HTML)
+Abruf: 2026-10-23 01:22 +0200 (ca.)
+
+
+Help Center
+Login Issues
+User Guide
+Chat Issues
+API
+Send feedback
+API
+Do you support signing cooperation agreements?
+
+DeepSeek API is provided via a self-service and standardized model. If you have specific offline agreement needs (such as app filing or enterprise vendor onboarding), please fill out a 「Cooperation Agreement Application」ticket and submit the relevant information. We will assist you with the request.
+
+Note: The agreement is a standard framework agreement and cannot be modified. To view it, please log in to the 「Bank Transfer」page to download the template.

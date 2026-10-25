@@ -1,0 +1,113 @@
+Quelle: https://learn.microsoft.com/en-us/compliance/regulatory/offering-iso-42001
+Abruf: 2026-10-22 18:41:10 +0200
+
+ISO/IEC 42001:2023 Artificial Intelligence Management System Standards - Microsoft Compliance | Microsoft Learn
+Skip to main content
+Skip to Ask Learn chat experience
+This browser is no longer supported.
+Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.
+Download Microsoft Edge
+More info about Internet Explorer and Microsoft Edge
+Table of contents
+Exit editor mode
+Ask Learn
+Ask Learn
+Reading mode
+Table of contents
+Read in English
+Add
+Add to Plans
+Copy Markdown
+Print
+Note
+Access to this page requires authorization. You can try signing in or changing directories .
+Access to this page requires authorization. You can try changing directories .
+ISO/IEC 42001:2023 Artificial intelligence management system
+Feedback
+Summarize this article for me
+In this article
+ISO/IEC 42001:2023 overview
+The International Organization for Standardization (ISO) is an independent nongovernmental organization and the world's largest developer of voluntary international standards. The International Electrotechnical Commission (IEC) is the world's leading organization for the preparation and publication of international standards for electrical, electronic, and related technologies.
+ISO/IEC 42001 is an international standard that specifies requirements for establishing, implementing, maintaining, and continually improving an Artificial Intelligence Management System (AIMS) within organizations. An AI management system is a set of interrelated or interacting elements of an organization intended to establish policies and objectives, and processes to achieve those objectives, in relation to the responsible development, provision, or use of AI systems.
+ISO/IEC 42001 specifies the requirements and provides guidance for establishing, implementing, maintaining, and continually improving an AI management system within the context of an organization. It's designed for entities providing or utilizing AI-based products or services, ensuring responsible development and use of AI systems. For organizations, it sets out a structured way to manage risks and opportunities associated with AI, balancing innovation with governance.
+Microsoft AI services in scope for ISO 42001 certification
+GitHub Copilot
+Microsoft Copilot
+Microsoft Copilot Chat
+Microsoft Copilot Health
+Microsoft Copilot Studio
+Microsoft Dragon Copilot
+Microsoft Dragon Copilot (Radiologist)
+Microsoft Foundry
+Microsoft Security Copilot
+Microsoft and ISO/IEC 42001
+Microsoft's progress towards ISO 42001 certification represents a pivotal achievement in our dedication to responsible AI as a leader in AI research and technology. Amid rapid AI advancements and widespread adoption, Microsoft remains steadfast in its commitment to the following:
+Continually improving its AI management system
+Understanding the needs and expectations of its customers
+Identifying and actioning upon opportunities to build and maintain trust in its AI products and services
+Collaborating with the growing community of responsible AI practitioners, regulators, researchers on advancing our responsible AI approach
+This certification also assists customers with supporting their own compliance efforts by using certified AI services and demonstrating their commitment to using AI technologies that are developed responsibly.
+This independent validation provides our customers with assurance over the application of our Responsible AI Standard for AI risk management throughout the AI lifecycle.
+This certification builds upon our existing work on responsible AI such as:
+Our AI Customer Commitments to assist our customers on their responsible AI journey.
+Our inaugural Responsible AI Transparency Report that enables us to record and share our maturing practices, reflect on what we have learned, chart our goals, hold ourselves accountable, and earn the public's trust.
+Our AI system transparency documentation which helps customers understand how our AI technology works, its capabilities and limitations, and the choices system owners can make that influence system performance and behavior.
+Our Responsible AI Resources site provides tools, practices, templates, and information that we believe helps many of our customers establish their responsible AI practices.
+Microsoft AI Systems undergo regular independent third-party audits for ISO/IEC 42001 compliance. You can review the Microsoft ISO/IEC 42001 certificates and audit reports on Service Trust Portal for more information.
+Frequently asked questions
+Why is ISO/IEC 42001 certification important?
+The ISO 42001 certification confirms that an independent third party validated Microsoft's application of the necessary framework and capabilities to effectively manage risks and opportunities associated with the continuous development, deployment, and operation of Microsoft AI systems. This independent validation provides customers with assurance over the application of the Responsible AI Standard for AI risk management throughout the AI lifecycle.
+Where can I get the ISO/IEC 42001 audit reports and scope statements?
+The Service Trust Portal provides independently audited compliance reports and certificates.
+Can I use the ISO/IEC 42001 compliance of Microsoft Copilot in my organization's certification?
+Yes. If your business requires ISO/IEC 42001 certification for implementations of Microsoft AI systems, you can use the applicable certification in your compliance assessment. You're responsible, however, for engaging an assessor to evaluate the controls and processes within your own organization and your implementation for ISO/IEC 42001 compliance.
+Use Microsoft Purview Compliance Manager to assess your risk
+Microsoft Purview Compliance Manager is a feature in the Microsoft Purview portal to help you understand your organization's compliance posture and take actions to help reduce risks. Compliance Manager offers a premium template for building an assessment for this regulation. Find the template in the assessment templates page in Compliance Manager. Learn how to build assessments in Compliance Manager .
+Resources
+ISO 42001 Audit Reports
+2025 Responsible AI Transparency Report
+Responsible AI Resources site
+Microsoft Online Services Terms
+ISO/IEC 42001:2023 standard (for purchase)
+Application card: Microsoft Copilot
+Application Card for Microsoft Copilot Studio
+GitHub Copilot Trust Center
+About Microsoft Copilot care navigation
+Dragon Copilot white papers
+Transparency Note for Azure OpenAI in Microsoft Foundry Models
+Responsible AI FAQ - Microsoft Security Copilot
+Feedback
+Was this page helpful?
+Yes
+No
+No
+Need help with this topic?
+Want to try using Ask Learn to clarify or guide you through this topic?
+Ask Learn
+Ask Learn
+Suggest a fix?
+Additional resources
+Last updated on
+2026-09-11
+In this article
+Was this page helpful?
+Need help with this topic?
+Want to try using Ask Learn to clarify or guide you through this topic?
+Ask Learn
+Ask Learn
+Suggest a fix?
+en-us
+Your Privacy Choices
+Theme
+Light
+Dark
+High contrast
+AI Disclaimer
+Previous Versions
+Blog
+Contribute
+Privacy
+Consumer Health Privacy
+Terms of Use
+Trademarks
+© Microsoft 2026

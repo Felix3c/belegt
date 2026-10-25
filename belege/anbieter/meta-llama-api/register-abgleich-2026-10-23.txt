@@ -1,0 +1,12 @@
+Quelle: dieselben Registerkopien wie für deepseek-api, abgerufen 2026-10-23 ca. 01:41 +0200 (direkt per curl, robots.txt erlaubt):
+- https://eucoc.cloud/en/public-register/list-of-adherent-services  → belege/anbieter/deepseek-api/register-eucoc-roh-2026-10-23.html
+- https://www.codeofconduct.cloud/public-register/                  → belege/anbieter/deepseek-api/register-cispe-roh-2026-10-23.html
+- https://www.verhaltensregel.eu/verpflichtete-unternehmen/          → belege/anbieter/deepseek-api/register-trusted-data-processor-roh-2026-10-23.html
+Auswertung: 2026-10-23 ca. 01:55 +0200
+
+Suche im HTML (ohne Groß-/Kleinschreibung) nach "Meta Platforms", "Meta Ireland", "Llama", ">Meta<", "\"meta\"":
+- EU Cloud Code of Conduct: 0 Treffer.
+- CISPE Data Protection Code of Conduct: 2 Treffer, beide nur Seitentechnik (Schlüssel "meta" im Cookie-Banner-Skript: "meta":{"url":"#"} und "meta":{"noFollow":true,...}), kein Registereintrag.
+- Trusted Data Processor: 0 Treffer.
+- Europrivacy: nicht ausgewertet (Verzeichnis lädt per Skript, keine Gegenprobe möglich).
+Gegenproben siehe belege/anbieter/deepseek-api/register-abgleich-2026-10-23.txt.

@@ -1,0 +1,31 @@
+Handprüfung OA-Z 25.10.2026: OpenAI-Liste der Unterauftragnehmer
+Quelle: https://web.archive.org/web/20261021154629/https://openai.com/policies/sub-processor-list/
+Abruf: 25.10.2026 ~11:20 (Rohform id_, gzip), SHA-256 entpackt: bdf4ca55874356bf115dd445b03fdda4ea450cfd92dcb72fdb2a6016b9a422a6
+Stand laut Seite: Last updated: October 14, 2026
+Zählung: Zeilen 1-17 = Fremdfirmen (Cloudflare zweimal), davon 14 mit API (ohne 2, 16, 17); Zeilen 19-23 = 5 OpenAI-Gesellschaften.
+API: 14 + 5 = 19. ChatGPT Enterprise: 17 + 5 = 22. ChatGPT Business: ohne Pylon Labs (Zeile 12) = 21.
+
+0 Entity Name | OpenAI Product or Service | Location of Processing | Purpose of Processing
+1 Cloudflare, Ltd. | API ChatGPT Enterprise ChatGPT Edu ChatGPT Business | Processing is performed at the data center (opens in a new window) that is closest to the End User. For requests sent to us.api.openai.com or eu.api.openai.com, OpenAI
+2 Cloudflare, Ltd. | ChatGPT Enterprise ChatGPT Edu ChatGPT Business | United States | Web Hosting
+3 Microsoft Corporation | API ChatGPT Enterprise ChatGPT Edu ChatGPT Business | Australia Belgium Brazil Canada Denmark France Germany India Indonesia Ireland Italy Japan Malaysia Mexico Netherlands New Zealand Norway Poland Singapore South A
+4 CoreWeave, Inc. | API ChatGPT Enterprise ChatGPT Edu ChatGPT Business | Norway Spain Sweden United Kingdom United States | Cloud infrastructure
+5 Oracle Cloud Infrastructure | API ChatGPT Enterprise ChatGPT Edu ChatGPT Business | Brazil Japan Malaysia Netherlands United Kingdom United States | Cloud infrastructure
+6 Google Cloud Platform | API ChatGPT Enterprise ChatGPT Edu ChatGPT Business | Finland Japan Netherlands Norway Singapore United Kingdom United States | Cloud infrastructure
+7 Amazon Web Services, Inc. | API ChatGPT Enterprise ChatGPT Edu ChatGPT Business | United States | Cloud infrastructure
+8 Cerebras | API ChatGPT Enterprise ChatGPT Edu ChatGPT Business | United States Canada | Cloud infrastructure
+9 Snowflake, Inc. | API* ChatGPT Enterprise ChatGPT Edu ChatGPT Business | United States | Data warehousing
+10 TaskUs, LLC | API ChatGPT Enterprise ChatGPT Edu ChatGPT Business | Philippines | All Services : Customer support API & ChatGPT Business: Moderation of content ChatGPT Enterprise, Edu & ChatGPT Business : Moderation of GPTs
+11 Salesforce | API ChatGPT Enterprise ChatGPT Edu ChatGPT Business | Australia Brazil Canada France Germany India Indonesia Ireland Italy Japan Singapore South Africa South Korea Sweden Switzerland The Netherlands United Arab Emirates United 
+12 Pylon Labs | API ChatGPT Enterprise ChatGPT Edu | United States | Customer support***
+13 Accenture International Limited | API ChatGPT Enterprise ChatGPT Edu ChatGPT Business | United States Canada Philippines | Customer support API & ChatGPT Business: Moderation of content
+14 Fivetran, Inc. | API ChatGPT Enterprise ChatGPT Edu ChatGPT Business | United States | ETL provider
+15 Cinder Technologies, Inc. | API* ChatGPT Enterprise ChatGPT Edu ChatGPT Business | United States | API & ChatGPT Business: Platform for content moderation ChatGPT Enterprise, Edu & ChatGPT Business : Platform for moderation of GPTs
+16 WorkOS, Inc.** | ChatGPT Enterprise ChatGPT Edu ChatGPT Business | United States | Cross-domain identity management
+17 Merge API, Inc.** | ChatGPT Enterprise ChatGPT Edu ChatGPT Business | Australia Canada France India Ireland Japan Singapore South Korea Sweden United Kingdom United States | Infrastructure management
+18 Entity Name | OpenAI Product or Service | Location of Processing | Parent Company
+19 OpenAI, OpCo, LLC | API ChatGPT Enterprise ChatGPT Edu ChatGPT Business | United States | OpenAI Global, LLC
+20 OAI International, Inc. | API ChatGPT Enterprise ChatGPT Edu ChatGPT Business | United States | OpenAI, OpCo, LLC
+21 OpenAI Ireland Ltd. | API ChatGPT Enterprise ChatGPT Edu ChatGPT Business | Ireland | OAI International, Inc.
+22 OpenAI UK Ltd. | API ChatGPT Enterprise ChatGPT Edu ChatGPT Business | United Kingdom | OAI International, Inc.
+23 OpenAI Japan Ltd. | API ChatGPT Enterprise ChatGPT Edu ChatGPT Business | Japan | OAI International, Inc.

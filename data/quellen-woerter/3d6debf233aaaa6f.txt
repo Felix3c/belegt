@@ -22,6 +22,9 @@
 (energy
 (kWh)
 (only
+(opens
+(opens
+(opens
 (processed
 (web
 ):
@@ -59,7 +62,6 @@
 9
 90
 97084360
-A
 AES-256
 AI
 AI
@@ -170,7 +172,6 @@ Cirrux
 Code
 Code
 Code
-Coming
 Commerce:
 Company
 Company
@@ -203,8 +204,6 @@ Data
 Data
 Data
 Data
-Decision
-Decision
 Decision
 DeepSeek
 Deepgram
@@ -241,6 +240,8 @@ Europe.
 Europe.
 European
 European
+Face
+Face
 Fast,
 Features
 Fewer
@@ -250,6 +251,8 @@ Finland
 Finland)
 Finland,
 Flash:
+Follow
+Follow
 For
 For
 For
@@ -308,6 +311,10 @@ Honey:
 Hosted
 Hosting
 How
+Hugging
+Hugging
+Hybrid
+Hybrid
 IP
 ISO
 ISO
@@ -348,6 +355,10 @@ Meta),
 Metis
 Metis
 Metis
+Metis
+Metis
+Metis
+Metis
 Metis,
 Metis:
 MiniMax,
@@ -375,9 +386,11 @@ October
 October
 Officer:
 One
+One
 Open
 Open-weight
 OpenAI-compatible
+Our
 PDFs
 Paris,
 Partners
@@ -466,8 +479,6 @@ September
 September
 Service
 Service
-Shorthand
-Shorthand
 Skip
 Solutions
 Solutions
@@ -577,6 +588,9 @@ a
 a
 a
 a
+a
+a
+a
 about
 about
 about:
@@ -598,6 +612,7 @@ accurate
 acquiring
 activity
 actually
+adapters
 additional
 additional
 address,
@@ -693,6 +708,8 @@ and
 and
 and
 and
+and
+and
 and,
 anonymised
 anonymize
@@ -701,7 +718,6 @@ anonymous
 answer
 answer
 answer,
-answers
 answers
 answers,
 any
@@ -815,6 +831,7 @@ chat
 chat
 chat,
 chatbot
+chats.
 choose
 cite,
 clean,
@@ -922,6 +939,7 @@ days
 days
 days
 days.
+decides
 decision
 decision
 delete
@@ -982,6 +1000,7 @@ enter
 entirely
 environmental
 error
+evaluations.
 events
 every
 every
@@ -995,6 +1014,7 @@ exclusively
 exclusively
 exercise
 exercise
+explains
 explains
 explicit
 explicit
@@ -1119,6 +1139,8 @@ in
 in
 in
 in
+in
+in
 in-memory
 in-memory
 inaccurate
@@ -1166,7 +1188,6 @@ keys,
 know.
 landing
 landing
-language.
 last
 last
 law
@@ -1219,6 +1240,7 @@ metrics
 metrics
 metrics
 metrics
+milliseconds,
 model
 model
 model
@@ -1229,10 +1251,7 @@ model
 model
 model:
 models
-models
-models
-models
-models
+models,
 models.
 models.
 monitoring
@@ -1253,6 +1272,9 @@ need
 need
 needed.
 never
+new
+new
+new
 no
 no
 no
@@ -1270,7 +1292,6 @@ not
 not
 not
 not
-notes,
 notice
 notification
 number
@@ -1314,6 +1335,8 @@ on
 on
 on
 on
+on
+on
 on-premise
 one
 one
@@ -1328,6 +1351,7 @@ only
 only)
 only);
 only,
+open
 open-source
 open-weight
 opened
@@ -1447,7 +1471,6 @@ personal
 picked,
 place
 placed
-plain
 platform
 platform
 platform,
@@ -1612,14 +1635,12 @@ set
 set.
 share
 sharing
-short
 signed
 signed
 slider
 small
 so
 so
-soon
 sovereignty
 sovereignty,
 special
@@ -1652,6 +1673,9 @@ such
 support
 sure
 sustainable
+tab)
+tab)
+tab)
 tailored
 take
 team.
@@ -1715,14 +1739,12 @@ their
 them.
 them.
 then
-then
 there
 these
 these
 they
 they
 thing
-thinks
 third
 third
 third-party
@@ -1814,6 +1836,8 @@ update
 updated
 updated
 updates.
+us
+us
 us
 us
 us

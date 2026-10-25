@@ -66,6 +66,74 @@ test("Erkennt Gesetzeskürzel, case-insensitiv", () => {
   }
 });
 
+test("Erkennt 'AI Act' auch mit Bindestrich und in Zusammensetzungen", () => {
+  for (const text of [
+    "Öffentliche AI-Act-Compliance-Aussage",
+    "EU-AI-Act-Rollen- und Transparenzdokumentation",
+    "AI-Act-Informationsmaterial veröffentlicht",
+    "Der AIAct gilt.",
+  ]) {
+    assert.ok(pruefeNormenbezug(text).length > 0, `sollte erkannt werden: ${text}`);
+  }
+});
+
+test("Erkennt weitere EU-/Bundesgesetze: DORA, NIS 2, BDSG, TDDDG, TKG, Data Act, Cyber Resilience Act", () => {
+  for (const text of [
+    "Für den Finanzsektor ergänzend DORA-Infoseite mit Audit-Recht",
+    "In einer DORA-Prüfung im Finanzsektor",
+    "Trust Center nennt NIS 2 und DORA",
+    "zur Unterstützung von NIS2-Reviews",
+    "nach NIS-2 eingestuft",
+    "Verweis auf das BDSG",
+    "Cookies nach TDDDG",
+    "Das TKG gilt.",
+    "Der Data Act regelt den Anbieterwechsel.",
+    "Data-Act-Wechselrecht",
+    "Cyber Resilience Act ab 2027",
+  ]) {
+    assert.ok(pruefeNormenbezug(text).length > 0, `sollte erkannt werden: ${text}`);
+  }
+});
+
+test("Neue Kürzel schlagen nicht in anderen Wörtern an (Hidora, Pandora, Data-Actions)", () => {
+  for (const text of ["Hosting bei Hidora", "Pandora-Box", "Data Actions im Dashboard", "NIS 20 Knoten"]) {
+    assert.deepEqual(pruefeNormenbezug(text), [], text);
+  }
+});
+
+test("Erkennt Gesetze außerhalb der EU-Liste: HIPAA, CCPA, CLOUD Act, FISA, BSIG, eIDAS, ePrivacy, nDSG, Data Governance Act", () => {
+  for (const text of [
+    "HIPAA kennt keine formale Zertifizierung",
+    "Inkl. HIPAA-Mapping",
+    "Datenschutz nach CCPA",
+    "Zugriff nach dem CLOUD Act",
+    "US-CLOUD-Act-Risiko",
+    "Anordnungen nach FISA 702",
+    "Meldepflicht nach BSIG",
+    "Signatur nach eIDAS",
+    "ePrivacy-Richtlinie",
+    "Schweizer nDSG",
+    "Data Governance Act",
+  ]) {
+    assert.ok(pruefeNormenbezug(text).length > 0, `sollte erkannt werden: ${text}`);
+  }
+});
+
+test("Bewusst nicht im Filter: Nachweise und Kategorien wie KRITIS-Nachweis, PCI DSS, Cloud-Actions", () => {
+  for (const text of ["KRITIS-Nachweis und PCI DSS (über Computop)", "Cloud Actions im Dashboard", "Gesundheitsdaten-Zusage (USA)"]) {
+    assert.deepEqual(pruefeNormenbezug(text), [], text);
+  }
+});
+
+test("Web-Adressen zählen nicht als Normenbezug, eigener Text daneben schon", () => {
+  assert.deepEqual(pruefeNormenbezug("https://docs.ionos.com/cloud/ai/governance-and-compliance/eu-ai-act"), []);
+  assert.deepEqual(pruefeNormenbezug("Die Wissensseite stackit.com/en/learn/cloud-ai/ai-act (30.07.2026) ist Werbung."), []);
+  assert.deepEqual(pruefeNormenbezug("Quelle: https://x.example/gdpr-faq"), []);
+  assert.ok(pruefeNormenbezug("AI-Act laut example.com/info").length > 0);
+  assert.ok(pruefeNormenbezug("Siehe example.com/x, Art. 53 gilt.").length > 0);
+  assert.ok(pruefeNormenbezug("Kodex nach Art.53/55").length > 0, "Artikel mit Schrägstrich ist keine Adresse");
+});
+
 test("Erkennt Bewertungswörter in ASCII-Schreibweise", () => {
   const funde = pruefeNormenbezug("Das ist irrefuehrend und taeuscht den Kunden, ein klarer Verstoss.");
   assert.ok(funde.some((f) => f.muster === "irrefuehrend"));

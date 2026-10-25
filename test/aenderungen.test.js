@@ -158,3 +158,63 @@ test("vergleicheFall: gelöschter Fall wird als entfernt verzeichnet", () => {
 test("parseLogZeile: ein Tab im Betreff geht nicht verloren", () => {
   assert.deepEqual(parseLogZeile("abc\t2026-09-05\tfix: a\tb"), { sha: "abc", datum: "2026-09-05", betreff: "fix: a\tb" });
 });
+
+// Filter-Lücken 255–257 (22.10.2026): Pflicht-Bezeichnungen und Zertifikatstyp ohne Gesetzesnamen.
+// Die Bezeichnung ist der Schlüssel im Protokoll; ein Umbenennen darf keinen Scheinwechsel erzeugen.
+test("vergleicheAnbieter: umbenannte AI-Act-Pflicht ohne Status- oder Quellenwechsel ist keine Änderung", () => {
+  const { AI_ACT_FRUEHERE_NAMEN } = require("../lib/aenderungen.js");
+  const altName = "Öffentliche AI-Act-Compliance-Aussage";
+  const alt = basis();
+  alt.ai_act[0].pflicht = altName;
+  const neu = basis();
+  neu.ai_act[0].pflicht = AI_ACT_FRUEHERE_NAMEN[altName];
+  assert.ok(neu.ai_act[0].pflicht, "alte Bezeichnung steht in der Tabelle");
+  assert.deepEqual(vergleicheAnbieter(alt, neu, "2026-10-22"), []);
+});
+
+test("vergleicheAnbieter: Wechsel unter dem alten Namen behält den alten Pfad (Anker früherer Einträge bleiben)", () => {
+  const altName = "Öffentliche AI-Act-Compliance-Aussage";
+  const alt = basis();
+  alt.ai_act[0].pflicht = altName;
+  const neu = basis();
+  neu.ai_act[0].pflicht = altName;
+  neu.ai_act[0].status = "unbelegt";
+  const e = vergleicheAnbieter(alt, neu, "2026-09-20");
+  assert.equal(e.length, 1);
+  assert.equal(e[0].pfad, `ai_act[${altName}]`);
+});
+
+test("vergleicheAnbieter: Statuswechsel zugleich mit dem Umbenennen ergibt einen Eintrag unter dem neuen Namen", () => {
+  const { AI_ACT_FRUEHERE_NAMEN } = require("../lib/aenderungen.js");
+  const altName = "Öffentliche AI-Act-Compliance-Aussage";
+  const neuName = AI_ACT_FRUEHERE_NAMEN[altName];
+  const alt = basis();
+  alt.ai_act[0].pflicht = altName;
+  const neu = basis();
+  neu.ai_act[0].pflicht = neuName;
+  neu.ai_act[0].status = alt.ai_act[0].status === "belegt" ? "unbelegt" : "belegt";
+  const e = vergleicheAnbieter(alt, neu, "2026-10-22");
+  assert.equal(e.length, 1);
+  assert.equal(e[0].pfad, `ai_act[${neuName}]`);
+});
+
+test("vergleicheAnbieter: umbenannter Zertifikatstyp ohne Status- oder Quellenwechsel ist keine Änderung", () => {
+  const { ZERT_FRUEHERE_NAMEN } = require("../lib/aenderungen.js");
+  const alt = basis();
+  alt.zertifikate = [{ typ: "HIPAA", status: "beansprucht", quelle: "https://example.org/a" }];
+  const neu = basis();
+  neu.zertifikate = [{ typ: ZERT_FRUEHERE_NAMEN["HIPAA"], status: "beansprucht", quelle: "https://example.org/a" }];
+  assert.ok(neu.zertifikate[0].typ, "alter Typ steht in der Tabelle");
+  assert.deepEqual(vergleicheAnbieter(alt, neu, "2026-10-22"), []);
+});
+
+test("Daten: kein Profil trägt noch eine frühere AI-Act-Bezeichnung oder einen früheren Zertifikatstyp", () => {
+  const fs = require("fs");
+  const { AI_ACT_FRUEHERE_NAMEN, ZERT_FRUEHERE_NAMEN } = require("../lib/aenderungen.js");
+  const dir = path.join(__dirname, "..", "data", "anbieter");
+  for (const f of fs.readdirSync(dir).filter((x) => x.endsWith(".json"))) {
+    const p = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"));
+    for (const a of p.ai_act || []) assert.ok(!(a.pflicht in AI_ACT_FRUEHERE_NAMEN), `${f}: ${a.pflicht}`);
+    for (const z of p.zertifikate || []) assert.ok(!(z.typ in ZERT_FRUEHERE_NAMEN), `${f}: ${z.typ}`);
+  }
+});

@@ -1,0 +1,227 @@
+Quelle: https://www.requesty.ai/eu/gemini
+Abruf: 2026-10-23 ~00:30 UTC (curl, HTTP 200), Textauszug aus HTML (ganze Seite, Skripte entfernt), belegbar.eu
+
+Gemini with EU Data Residency: Vertex AI EU Regions via One API | Requesty
+Product
+Solutions
+Models
+Rankings
+Customers
+Pricing
+Resources
+Docs
+Sign in
+Get started free
+EU Data Residency
+Gemini with EU data residency
+Route Gemini models through Google Vertex AI EU regions. The full request path stays in Europe.
+Get started
+Speak to founders
+https://router.eu.requesty.ai/v1
+The consumer Gemini API processes data globally. For guaranteed EU processing, Google offers Gemini through Vertex AI with region pinning, including EU regions such as Belgium (europe-west1), Netherlands (europe-west4), Finland (europe-north1) and Warsaw (europe-central2).
+Requesty exposes those Vertex EU deployments behind one OpenAI-compatible endpoint, routed through our Frankfurt gateway with zero data retention, and no Google Cloud project, service-account JSON or per-region setup required.
+Gemini models available in EU regions
+Live from the Requesty model catalog. Prices per 1M tokens. Regions are merged per model.
+Model
+Platform
+EU regions
+Input /1M
+Output /1M
+Context
+Gemini 4 Argon
+50
+% off
+Google Vertex AI
+EU multi-region
+$4.40
+$2.20
+$22.00
+$11.00
+1.0M
+Gemini 2.5 Pro
+Google Vertex AI
+Belgium, Finland, Milan, Netherlands, Warsaw
+$1.25
+$10.00
+1.0M
+Gemini 3.5 Flash
+Google Vertex AI
+EU multi-region
+$1.65
+$9.90
+1.0M
+Gemini 3.7 Flash
+50
+% off
+Google Vertex AI
+EU multi-region
+$1.65
+$0.83
+$8.25
+$4.13
+1.0M
+Gemini 3.8 Flash
+50
+% off
+Google Vertex AI
+EU multi-region
+$1.65
+$0.83
+$8.25
+$4.13
+1.0M
+Gemini 3.5 Flash Lite
+Google Vertex AI
+EU multi-region
+$0.33
+$2.75
+1.0M
+Gemini 2.5 Flash
+Google Vertex AI
+Belgium, Finland, Milan, Netherlands, Warsaw
+$0.30
+$2.50
+1.0M
+Gemini 2.5 Flash Image
+Google Vertex AI
+Belgium, Finland, Madrid, Milan, Netherlands, Warsaw
+$0.30
+$2.50
+1.0M
+Gemini 3.1 Flash Image
+Google Vertex AI
+EU multi-region
+$0.50
+$2.00
+131K
+Gemini 3.1 Flash Lite
+Google Vertex AI
+EU multi-region
+$0.28
+$1.65
+1.0M
+Gemini 2.5 Flash Lite
+Google Vertex AI
+Belgium, Finland, Milan, Netherlands, Warsaw
+$0.10
+$0.40
+1.0M
+Pricing is what you pay through Requesty. Where a rate is struck out, the endpoint is running a discount and the lower figure is the one billed.
+Full catalog on the
+models page
+.
+One base URL. Full EU residency.
+OpenAI SDK compatible: point it at the EU gateway and pick an EU-region model.
+main.py
+from
+openai
+import
+OpenAI
+client
+=
+OpenAI
+(
+base_url
+=
+"
+https://router.eu.requesty.ai/v1
+"
+,
+api_key
+=
+"your-requesty-key"
+)
+response
+=
+client.chat.completions
+.
+create
+(
+model
+=
+"
+vertex/gemini-3.7-flash@eu
+"
+,
+messages
+=
+[
+{
+"role"
+:
+"user"
+,
+"content"
+:
+"Hello!"
+}
+]
+)
+Frequently asked questions
+Does Gemini offer EU data residency?
+Yes, through Google Vertex AI with region pinning. The consumer Gemini API processes data globally, but Vertex AI lets you pin Gemini processing to EU regions such as europe-west1 (Belgium) and europe-west4 (Netherlands). Requesty routes to these EU deployments through one OpenAI-compatible API.
+What is a European alternative to Google Vertex AI?
+If the goal is EU data residency for Gemini and other frontier models without managing Google Cloud, an EU-hosted gateway is the practical alternative. Requesty runs in Frankfurt, routes to Vertex AI EU regions (plus Bedrock and Azure EU regions for Claude and GPT), and replaces per-provider setup with one API.
+Which Gemini models run in EU regions?
+Gemini 3.5 Flash, Gemini 3.1 Flash Lite and Gemini 2.5 Flash Image have EU-region Vertex deployments routable through Requesty, pinned to regions including Belgium, Netherlands, Finland, Warsaw, Madrid and Milan.
+Do I need a Google Cloud account to use Gemini in EU regions?
+Not with Requesty. We operate the Vertex AI EU deployments; you call one OpenAI-compatible API with your Requesty key and request a model such as vertex/gemini-3.7-flash@eu. No GCP project, IAM setup or service-account keys.
+Is this GDPR compliant?
+Yes. The Requesty gateway processes requests in Frankfurt with zero data retention and a DPA is available. Combined with Vertex AI EU-region processing, prompts stay under EU jurisdiction for the entire request path.
+EU data residency for other model families:
+Claude
+·
+OpenAI GPT
+·
+Mistral
+, or see the full
+EU AI Gateway
+and our
+Data Processing Agreement
+.
+Run Gemini in the EU today
+One base-URL change. Free to get started, no credit card required.
+Get started free
+Speak to founders
+The AI gateway for production. 600+ models behind one OpenAI-compatible endpoint, with routing, caching and governance included.
+All systems operational
+Product
+Routing & failover
+Observability
+Spend management
+Integrations
+Governance
+Prompt library
+Pricing
+Free models
+Docs
+Solutions
+AI gateway
+Enterprise
+EU AI Gateway
+AI coding agents
+Startups
+Security
+Compare
+vs OpenRouter
+vs LiteLLM
+vs Portkey
+vs Helicone
+Company
+Guides
+Blog
+Rankings
+Careers
+Support
+Contact
+Community
+Discord
+Twitter / X
+LinkedIn
+YouTube
+©
+2026
+Requesty Ltd. All rights reserved.
+Privacy
+Terms
+DPA

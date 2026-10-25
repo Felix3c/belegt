@@ -1,0 +1,23 @@
+Quelle: https://dev.meta.ai/legal/terms-of-service (Linkziele aus dem HTML, direkt abgerufen)
+Abruf: 2026-10-23 01:29:45 +0200
+
+Alle Links (href) der Seite, sortiert. Zuordnung im Text: Supplemental Managed Accounts Terms, Privacy Disclosure, Liste der Unterauftragnehmer („the list located here“), MGPT, Data Security Terms, Privacy Policy, European Region, Community Payment Terms, Meta Subscription Terms.
+
+/legal
+/legal/acceptable-use-policy
+/legal/geographic-use-policy
+/legal/terms-of-service
+/status
+/support
+https://forwork.meta.com/gb/legal/mma-terms-of-service/
+https://forwork.meta.com/legal/mfw-subprocessor-list/
+https://forwork.meta.com/legal/privacy-disclosure/
+https://www.facebook.com/help/681634310058367/
+https://www.facebook.com/legal/meta_subs_terms
+https://www.facebook.com/legal/terms/Meta-Global-Processor-Terms
+https://www.facebook.com/legal/terms/data_security_terms?_rdr
+https://www.facebook.com/payments_terms
+https://www.facebook.com/privacy/policy/
+
+Stelle im HTML (Abschnitt 5.1, Unterauftragnehmer):
+subprocessors included in the list located <a to="https://forwork.meta.com/legal/mfw-subprocessor-list/"

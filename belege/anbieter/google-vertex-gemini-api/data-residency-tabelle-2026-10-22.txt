@@ -1,0 +1,79 @@
+Quelle: https://cloud.google.com/vertex-ai/generative-ai/docs/learn/data-residency
+Abruf: 2026-10-22 18:43:26 +0200
+Hinweis: nur die Tabellenzeilen der Seite, Zellen mit ' | ' getrennt; Haken-Symbol (class compare-yes, aria-label Supported) als 'Supported', leere Zelle als '-'.
+
+Model | US multi-region | EU multi-region | Brazil (southamerica-east1) | Canada (northamerica-northeast1) | France (europe-west9) | Germany (europe-west3) | Netherlands (europe-west4) | United Kingdom (europe-west2) | Australia (australia-southeast1) | India (asia-south1) | Japan (asia-northeast1) | Singapore (asia-southeast1) | South Korea (asia-northeast3)
+Gemini 4 Argon ( gemini-4-argon ) | Supported | Supported | - | - | - | - | - | Supported | - | - | - | Supported | -
+Gemini 3.8 Live ( gemini-3.8-live ) | Supported | Supported | - | - | - | - | - | - | - | - | - | - | -
+Gemini 3.8 Flash ( gemini-3.8-flash ) | Supported | Supported | - | - | - | - | - | - | - | - | - | - | -
+Gemini 3.7 Flash ( gemini-3.7-flash ) | Supported | Supported | - | - | - | - | - | - | - | - | - | - | -
+Gemini 3.6 Flash ( gemini-3.6-flash ) | Supported | Supported | - | - | - | - | - | - | - | - | - | - | -
+Gemini 3.5 Flash-Lite ( gemini-3.5-flash-lite ) | Supported | Supported | - | - | - | - | - | - | - | Supported | - | - | -
+Gemini 3.5 Flash ( gemini-3.5-flash ) | Supported | Supported | - | Supported | - | Supported | - | Supported | Supported | Supported | Supported | Supported | -
+Gemini 3.1 Flash Image ( gemini-3.1-flash-image ) | Supported | Supported | - | - | - | - | - | - | - | - | - | - | -
+Gemini 3.1 Flash-Lite ( gemini-3.1-flash-lite ) | Supported | Supported | - | - | - | - | - | - | - | - | - | - | -
+Gemini 2.5 Flash Live API Native Audio ( gemini-live-2.5-flash-native-audio ) | Supported | Supported | - | - | - | - | - | - | - | - | - | - | -
+Gemini 2.5 Flash, 128k ( gemini-2.5-flash ) | Supported | Supported | Supported | Supported | Supported | Supported | - | Supported | Supported | Supported | Supported | Supported | Supported
+Gemini 2.5 Flash, 1M ( gemini-2.5-flash ) | Supported | Supported | - | Supported | - | - | - | - | - | - | - | Supported | -
+Gemini 2.5 Flash Image ( gemini-2.5-flash-image ) | Supported | Supported | - | - | - | - | - | - | - | - | - | - | -
+Gemini 2.5 Flash-Lite ( gemini-2.5-flash-lite ) | Supported | Supported | - | - | - | - | - | - | - | - | - | - | -
+Gemini 2.5 Pro, 1M ( gemini-2.5-pro ) | Supported | Supported | - | Supported | - | - | - | - | - | - | - | - | -
+Gemini 2.5 Pro, 64k ( gemini-2.5-pro ) | Supported | Supported | - | Supported | - | - | - | - | - | - | Supported | - | -
+Tuning for Gemini 2.5 Flash ( gemini-2.5-flash ) | Supported | Supported | - | - | - | - | - | - | - | - | - | - | -
+Tuning for Gemini 2.5 Flash-Lite ( gemini-2.5-flash-lite ) | Supported | Supported | - | - | - | - | - | - | - | - | - | - | -
+Tuning for Gemini 2.5 Pro ( gemini-2.5-pro ) | Supported | Supported | - | - | - | - | - | - | - | - | - | - | -
+Gemini Embeddings ( gemini-embedding-001 ) | Supported | Supported | - | - | - | - | - | - | - | - | - | - | -
+Gemini Embedding 2 ( gemini-embedding-2 ) | Supported | Supported | - | - | - | - | - | - | - | - | - | - | -
+Chirp 2: Transcription ( chirp_2 ) | - | - | - | - | - | - | Supported | - | - | - | - | Supported | -
+Chirp 3: Transcription ( chirp_3 ) | Supported | Supported | - | - | - | - | - | - | - | - | Supported | Supported | -
+Chirp 3: HD Voices | Supported | Supported | - | - | Supported | - | - | - | - | - | Supported | Supported | -
+Chirp 3: Instant Custom Voice | Supported | Supported | - | - | Supported | - | - | - | - | - | Supported | Supported | -
+Embeddings for Multimodal | Supported | Supported | - | - | - | - | - | - | - | - | - | - | -
+Embeddings for Text ( text-embedding-004 ) | Supported | Supported | - | Supported | - | - | - | Supported | Supported | - | Supported | - | -
+Embeddings for Text ( text-embedding-005 ) | Supported | Supported | - | - | - | - | - | - | - | Supported | - | - | -
+Embeddings for Text ( text-multilingual-embedding-002 ) | Supported | Supported | - | Supported | - | - | - | Supported | - | - | Supported | - | -
+Model | US multi-region | EU multi-region | Belgium (europe-west1) | Netherlands (europe-west4) | Singapore (asia-southeast1) | Taiwan (asia-east1)
+Anthropic's Anthropic's Claude Haiku 5.5 on Google Cloud | Supported | Supported | - | - | - | -
+Anthropic's Anthropic's Claude Opus 5.5 on Google Cloud | Supported | Supported | - | - | Supported | -
+Anthropic's Anthropic's Claude Sonnet 5.5 on Google Cloud | Supported | Supported | - | - | Supported | -
+Anthropic's Anthropic's Claude Sonnet 5 on Google Cloud | Supported | Supported | - | - | Supported | -
+Anthropic's Anthropic's Claude Opus 5 on Google Cloud | Supported | Supported | - | - | Supported | -
+Anthropic's Anthropic's Claude Fable 5.1 on Google Cloud | Supported | Supported | - | - | Supported | -
+Anthropic's Anthropic's Claude Fable 5 on Google Cloud | Supported | Supported | - | - | Supported | -
+Anthropic's Anthropic's Claude Haiku 4.5 on Google Cloud | Supported | Supported | Supported | - | - | Supported
+Anthropic's Anthropic's Claude Opus 4.5 on Google Cloud | Supported | Supported | Supported | - | Supported | -
+Anthropic's Anthropic's Claude Opus 4.8 on Google Cloud | Supported | Supported | - | - | - | -
+Anthropic's Anthropic's Claude Opus 4.7 on Google Cloud | Supported | Supported | - | - | - | -
+Anthropic's Anthropic's Claude Opus 4.6 on Google Cloud | Supported | Supported | Supported | - | Supported | -
+Anthropic's Anthropic's Claude Sonnet 4.5 on Google Cloud | Supported | Supported | Supported | - | Supported | -
+Anthropic's Anthropic's Claude Sonnet 4.6 on Google Cloud | Supported | Supported | Supported | - | - | -
+Anthropic's Claude 3.5 Haiku on Google Cloud (deprecated) | Supported | Supported | Supported | - | - | -
+Anthropic's Claude 3 Haiku on Google Cloud (deprecated) | Supported | Supported | Supported | - | Supported | -
+Anthropic's Claude 3.7 Sonnet on Google Cloud (deprecated) | Supported | Supported | Supported | - | - | -
+Codestral 2 | Supported | Supported | - | Supported | - | -
+Mistral Medium 3 | Supported | Supported | - | Supported | - | -
+Mistral OCR (25.05) | Supported | Supported | - | Supported | - | -
+Mistral Small 3.1 (25.03) | Supported | Supported | - | Supported | - | -
+Model | US multi-region | EU multi-region | Singapore (asia-southeast1)
+DeepSeek-OCR | Supported | - | -
+DeepSeek R1 (0528) | Supported | - | -
+DeepSeek-V3.1 | Supported | - | -
+DeepSeek-V3.2 | - | - | -
+DeepSeek-V4.1-Flash | - | - | -
+Gemma 4 26B A4B IT | Supported | - | -
+GLM 4.7 | - | - | Supported
+GLM 5 | - | - | -
+GLM 5.2 | - | - | -
+gpt-oss 120B | Supported | - | -
+gpt-oss 20B | Supported | - | -
+Kimi K2 Thinking | Supported | - | -
+Llama 3.3 70B (Preview) | Supported | - | -
+Llama 4 Maverick 17B-128E (Preview) | Supported | - | -
+Llama 4 Scout 17B-16E (Preview) | Supported | - | -
+MiniMax M2 | Supported | - | -
+Multilingual E5 Large | Supported | Supported | Supported
+Multilingual E5 Small | Supported | Supported | Supported
+Qwen3 235B | Supported | - | -
+Qwen3 Coder | Supported | - | -
+Qwen3-Next-80B Instruct | Supported | - | -
+Qwen3-Next-80B Thinking | Supported | - | -

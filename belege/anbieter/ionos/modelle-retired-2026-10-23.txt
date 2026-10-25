@@ -1,0 +1,4 @@
+Quelle: https://docs.ionos.com/cloud/ai/ai-model-hub/models
+Abruf: 2026-10-23 01:28 MESZ, direkt (curl), Text aus dem HTML, Auszug Abschnitt „Retired models“
+
+Retired models These models are no longer available to use in the AI Model Hub: Model Provider Model Name Retired On Alternative Mistral Mistral Nemo (12B) October 22, 2026 Qwen3.5-9B BAAI BGE Large 1.5 October 22, 2026 BGE M3 Meta Llama 3.1 8B October 15, 2026 Qwen3.5-9B Meta Llama 3.1 405B September 15, 2026 Qwen3.5-397B-A17B Meta Code Llama 13B May 21, 2026 Qwen3 Coder Next 80B openGPT-x Teuken 7B April 16, 2026 Qwen3.5-9B stability.ai Stable Diffusion XL January 12, 2026 FLUX.2-klein-4B Mistral Mixtral 8x7B September 22, 2025 Mistral Small 24B Mistral Mistral 7B August 1, 2025 Qwen3.5-9B Meta Llama 3.1 (70B) May 1, 2025 Meta Llama 3.3 (70B) Previous Overview Next Models Comparison Last u

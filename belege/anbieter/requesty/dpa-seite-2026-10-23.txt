@@ -1,0 +1,103 @@
+Quelle: https://www.requesty.ai/dpa
+Abruf: 2026-10-23 ~00:30 UTC (curl, HTTP 200), Textauszug aus HTML (ganze Seite, Skripte entfernt), belegbar.eu
+
+Data Processing Agreement (DPA) | Requesty
+Product
+Solutions
+Models
+Rankings
+Customers
+Pricing
+Resources
+Docs
+Sign in
+Get started free
+GDPR · Article 28
+Data Processing Agreement
+Requesty offers a DPA covering GDPR processor obligations for all traffic routed through the gateway. Request a copy by email, and we typically turn signatures around in a few business days.
+Request a DPA: sales@requesty.ai
+Include your company name and a signatory contact.
+What the DPA covers
+GDPR Article 28
+Standard processor terms: scope, confidentiality, security measures, subprocessors, breach notification, deletion.
+EU data residency
+EU gateway hosted in Frankfurt, Germany. Route to EU-region model deployments so the full request path stays in the EU.
+Zero data retention
+Available organisation wide on written request, enforced server side, so no prompt or output content is written to persistent storage. Observability keeps running on metadata: tokens, latency, cost.
+Published subprocessors
+A current subprocessor list is public and maintained at requesty.ai/privacy/subprocessors.
+When you route LLM traffic through a gateway, the gateway operator processes your prompts and completions on your behalf, which makes it a data processor under GDPR and means your compliance review will ask for a DPA. Requesty provides one as standard, alongside the architecture choices that make it easy to sign off: requests on the
+EU gateway
+are processed in Frankfurt, request and response bodies are never stored, and EU-region deployments of
+Claude
+,
+GPT
+,
+Gemini
+and
+Mistral
+keep the full request path inside the European Union.
+For the broader compliance picture, see our
+security overview
+,
+privacy policy
+and the
+subprocessor list
+.
+Frequently asked questions
+Does Requesty offer a Data Processing Agreement (DPA)?
+Yes. Requesty provides a DPA covering GDPR Article 28 processor obligations for all traffic routed through the gateway. To receive a copy for review and signature, email sales@requesty.ai.
+What does the Requesty DPA cover?
+The DPA defines Requesty as a data processor for the prompts and completions you route through the gateway: the scope and purpose of processing, confidentiality, security measures, subprocessor management, breach notification, and deletion. It also sets out the logging options: prompt and output logging is on by default on self serve plans with a 30 day retention window, it can be disabled per API key, and organisation wide Zero Data Retention is available on written request.
+Does OpenRouter offer a DPA with EU data residency?
+OpenRouter routes through US infrastructure and inherits the compliance posture of each upstream provider. If your review requires a processor DPA together with EU data residency, Requesty offers both: a GDPR Article 28 DPA and an EU gateway hosted in Frankfurt, with organisation wide Zero Data Retention available on written request.
+Where is data processed under the DPA?
+On the EU gateway (router.eu.requesty.ai), requests are processed in Frankfurt, Germany, and can be routed to EU-region model deployments so the full request path stays in the European Union. A current list of subprocessors is published at requesty.ai/privacy/subprocessors.
+How long does it take to get a DPA signed?
+Usually a few business days. Email sales@requesty.ai with your company details; we send our standard DPA for review and can accommodate reasonable redlines for enterprise agreements.
+Ready for your compliance review?
+An Article 28 DPA, signed on request at any spend.
+Request the DPA
+Read the security page
+The AI gateway for production. 600+ models behind one OpenAI-compatible endpoint, with routing, caching and governance included.
+All systems operational
+Product
+Routing & failover
+Observability
+Spend management
+Integrations
+Governance
+Prompt library
+Pricing
+Free models
+Docs
+Solutions
+AI gateway
+Enterprise
+EU AI Gateway
+AI coding agents
+Startups
+Security
+Compare
+vs OpenRouter
+vs LiteLLM
+vs Portkey
+vs Helicone
+Company
+Guides
+Blog
+Rankings
+Careers
+Support
+Contact
+Community
+Discord
+Twitter / X
+LinkedIn
+YouTube
+©
+2026
+Requesty Ltd. All rights reserved.
+Privacy
+Terms
+DPA

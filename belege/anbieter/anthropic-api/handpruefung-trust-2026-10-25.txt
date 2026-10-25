@@ -1,0 +1,27 @@
+Handprüfung Trust-Portal Anthropic (Vanta), 25.10.2026 ~08:30 MEZ (Dauerlauf)
+Grund: Quellenlauf ist bei https://trust.anthropic.com/ und /subprocessors blind (HTML-Hülle 3 Wörter, Block DÜNN seit 25.10.).
+Betrifft anthropic-api und anthropic-claude-enterprise (Subprozessoren, Anzahl, Drittländer, Anwendungsbereich ISO 27001/42001/SOC 2, SOC 2).
+Methode wie 22.10.: Chrome headless (--headless=new --virtual-time-budget=20000 --dump-dom), Text aus dem DOM mit demselben Skript für alt und neu.
+
+Ergebnis: Text beider Seiten heute Wort für Wort gleich wie im Render vom 22.10.2026 23:52.
+e37cc6a81132f494f4837a1bebc31a7dded594e252b0e55c6f0c32c2ca9e8529 neu-start.txt
+f261fa63037b2978b04517bd2f78c8fcc3fa15263098c49a950c9998b744baf9 neu-sub.txt
+(gleiche SHA-256 für den Text aus trust-start-gerendert-roh-2026-10-22.html bzw. trust-subprozessoren-gerendert-roh-2026-10-22.html)
+Wörter: Start 1189, Subprozessoren 528 (gleich).
+
+Zitate aus den Anmerkungen, wörtlich im heutigen Render:
+OK   1-10 of / 22 results (zwei Zeilen)
+OK   Claude via Anthropic's API
+OK   Oct 2026 Update
+OK   We've updated our subprocessor list with two additions:
+OK   [Anthropic] ISO 27001 Certificate (2025).pdf
+OK   [Anthropic] ISO 42001 Certificate (2025).pdf
+OK   [Anthropic] 2025 Type 2 SOC 2 and CSA STAR L2 Report.pdf
+OK   Worldwide (Local to Customer)
+OK   Parallel Web Systems
+OK   hCaptcha
+OK   Nutun
+OK   Boldr
+
+Folge: keine Profiländerung; die automatisch fortgeschriebenen Prüfdaten 25.10. sind bei diesen beiden Seiten sachlich gedeckt.
+Rohfassungen (nicht eingecheckt, Wegwerf): allein/tmp/hand-anthropic-2510/roh-start.html, roh-subprocessors.html

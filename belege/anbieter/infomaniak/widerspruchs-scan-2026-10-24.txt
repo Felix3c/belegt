@@ -1,0 +1,59 @@
+Quelle: https://www.infomaniak.com/en/hosting/ai-services, https://www.infomaniak.com/en/hosting/ai-services/open-source-models, https://www.infomaniak.com/en/hosting/ai-services/prices, https://www.infomaniak.com/en/legal/confidentiality-policy, https://www.infomaniak.com/documents/privacy/DPA/Data_Processing_Agreement_(DPA).pdf und https://welcome.infomaniak.com/api/web-components/1/cgu/latest?id=87&locale=en_GB (je direkt); dazu die gesicherten Kopien in diesem Ordner
+Abruf: 2026-10-24 08:25 +0200 (curl direkt mit 3 s Abstand, je HTTP 200). SHA-256 der Rohseiten steht im Kopf jeder Kopie. Das PDF der LLM-Bedingungen wird bei jedem Abruf neu erzeugt (Erstellungsdatum = Abrufzeit), sein Fingerabdruck ändert sich darum bei jedem Abruf, auch wenn der Text gleich bleibt.
+Inhalt: wörtliche Auszüge aus dem ersten Widerspruchs-Scan Infomaniak AI Services. Frage: Passt das, was Produkt-, Modell- und Preisseite versprechen, zu den LLM-Bedingungen, dem Vertrag zur Auftragsverarbeitung (DPA) und der Datenschutzerklärung?
+
+A. Verfügbarkeit: Die LLM-Bedingungen versprechen 99,9 %, nehmen Beta-Modelle aber ganz davon aus; 4 der 7 Sprachmodelle sind Beta, darunter die beiden als stärkste beworbenen (Fall-Kandidat 61)
+
+1. LLM-Bedingungen, Artikel 5:
+> Infomaniak commits to continuously improving the quality and performance of its APIs and to maintaining a 99.9% service availability level.
+2. LLM-Bedingungen, Artikel 5, Sonderregel Beta:
+> Models identified as "beta" on the product page are an exception to the above rules. They may be withdrawn at any time without notice and may also be temporarily unavailable during maintenance or updates aimed at improving their quality or performance. Their unavailability or withdrawal shall not give rise to any liability or compensation from Infomaniak.
+3. Modellseite, Einträge mit Beta-Kennzeichen (Kimi-K2.6, Qwen3.5-397B, Qwen3.8-27B, Apertus-v1.5-70B):
+> moonshotai/Kimi-K2.6 The most powerful for vibe coding Beta
+> Qwen/Qwen3.5-397B-A17B-FP8 The most powerful Beta
+> Qwen/Qwen3.8-27B-FP8 The best performance-to-cost ratio Beta
+4. LLM-Bedingungen, Artikel 5, Modellwechsel:
+> A model may be replaced without prior notice, provided the Client's use is not affected.
+
+B. Bilder: Die FAQ auf Produkt- und Preisseite sagt, Bildfunktionen würden „noch geprüft“; dieselbe Preisseite verkauft zwei Bildmodelle, die Modellseite führt Bild-zu-Text-Modelle. Die FAQ nennt zudem Modelle, die nicht mehr in der Liste stehen
+5. FAQ (Produkt- und Preisseite):
+> The possibility of generating or interpreting images with AI Services is currently being analysed. We will offer you this functionality when it is fully operational and also guarantees total control of your data.
+> We use several open-source models to offer a wide range of tools through AI Services, such as Mixtral for text generation and Whisper for audio transcription.
+> For example, an image generated in 4 seconds using SDXL-Lightning will be billed in proportion to the indicated price, i.e. CHF 0.02.
+6. Produktseite, Abschnitt „Limitless possibilities“:
+> Image generation
+> Illustrate your apps, dashboards or content by creating unique visuals from simple prompts.
+7. Preisseite, Abschnitt Bilder:
+> Generate images from text with AI
+> Personalise realistic human photos based on images and text
+8. Modellseite:
+> The best open source alternatives to Midjourney, Microsoft Copilot Designer and Gemini for generating, merging or interpreting images.
+
+C. Unterauftragnehmer: Die Verweise laufen im Kreis; die Liste, auf die alle zeigen, ist nirgends öffentlich
+9. DPA, Artikel 5.1:
+> Sub-subcontractors may only be engaged for the performance of the Services and shall feature in the specific terms and conditions of the Services that may be affected or in the confidentiality policy.
+10. Datenschutzerklärung:
+> Subcontractors specific to certain services (for example, spam filtering for the Mail Service or the distribution of newsletters): they are listed in the "Third-Party Subcontractors" annex of our Data Processing Agreement (DPA).
+11. LLM-Bedingungen, Artikel 6 (einziger Datenabschnitt, nennt keine Unterauftragnehmer):
+> Infomaniak explicitly states it does not use transmitted data (prompts, response content) to train its own AIs or to exploit the data in any other way.
+
+D. Zusatz: „nichts gespeichert“ gegen „vorübergehend gespeichert“ und Betriebsdaten
+12. Produktseite:
+> No queries are stored, and the energy that powers our AI infrastructure is 100% renewable and recovered for heating purposes.
+> Your queries are neither recorded nor used to train models or improve our services.
+13. LLM-Bedingungen, Artikel 6:
+> Infomaniak does not permanently collect any information transmitted by the Client during API usage, except for data necessary for billing and the proper functioning of the service.
+> Some data is stored temporarily for the duration necessary to process the Client's request.
+
+E. Zusatz: Ort
+14. Produktseite:
+> Our AI and GPU services are powered from the heart of Europe in our data centers located in Switzerland, with no dependence on foreign players.
+15. DPA, Artikel 13.1:
+> Infomaniak may not transfer or authorise the transfer of the Company's Personal Data to countries outside the EU and/or the European Economic Area (EEA) without the Company's prior written consent.
+
+F. Einordnung und Nicht gefunden
+Zu A: Ein Widerspruch im eigenen Vertrag, kein Rechtsbruch. Die 99,9 % stehen als Zusage für „its APIs“; für Beta-Modelle gelten laut Sonderregel weder die Zusage noch Fristen beim Abschalten, und es gibt keine Entschädigung. Beta sind am 24.10.2026 Kimi-K2.6, Qwen3.5-397B, Qwen3.8-27B und Apertus-v1.5-70B; ohne Beta-Kennzeichen sind Mistral-Small-4-119B, gemma-4-31B-it und Ministral-3-14B. Die Produktseite nennt keine Verfügbarkeitszahl. Wie Infomaniak die 99,9 % misst (je Modell, je Kategorie, je Monat) und ob es dafür Gutschriften gibt: ungeklärt, die Bedingungen sagen dazu nichts.
+Zu B: Kein Vertragsthema, aber die FAQ beantwortet die Bildfrage mit einem Stand, der auf derselben Seite nicht mehr gilt; Mixtral und SDXL-Lightning stehen nicht mehr in der Modell- und Preisliste (dort: Flux schnell, Photomaker V2, je CHF 0.30/Minute). Der Beispielpreis (4 Sekunden = CHF 0.02) passt rechnerisch zu CHF 0.30/Minute.
+Zu C: Das DPA verweist auf die Dienstbedingungen oder die Datenschutzerklärung, die Datenschutzerklärung auf einen Anhang „Third-Party Subcontractors“ des DPA. Das öffentliche DPA-PDF hat keinen solchen Anhang (bekannt seit 04.10.2026, am 24.10. unverändert), die LLM-Bedingungen nennen keine Unterauftragnehmer. Ob die KI-API Unterauftragnehmer hat: ungeklärt.
+Zu D: Kein harter Widerspruch. „Vorübergehend für die Bearbeitung“ ist mit „nicht gespeichert“ vereinbar, wenn man „gespeichert“ als „über die Anfrage hinaus“ liest. Die Bedingungen nennen aber Betriebsdaten, die bleiben (Kunden-ID, Anzahl und Dauer der Anfragen, Zeitstempel, Metadaten); wie lange, steht nirgends: ungeklärt.
+Zu E: Die Schweiz liegt außerhalb von EU und EWR. Nach dem Wortlaut von 13.1 bräuchte schon die Verarbeitung in den eigenen Schweizer Rechenzentren eine schriftliche Zustimmung des Kunden; ob Infomaniak den Vertragsschluss selbst als diese Zustimmung ansieht, ist ungeklärt. Für die EU gilt ein Angemessenheitsbeschluss für die Schweiz; das ist eine Rechtsfrage, keine Tatsache aus diesen Quellen.

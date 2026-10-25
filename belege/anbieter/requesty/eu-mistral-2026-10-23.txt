@@ -1,0 +1,225 @@
+Quelle: https://www.requesty.ai/eu/mistral
+Abruf: 2026-10-23 ~00:30 UTC (curl, HTTP 200), Textauszug aus HTML (ganze Seite, Skripte entfernt), belegbar.eu
+
+Mistral AI with EU Data Residency: European Models via One API | Requesty
+Product
+Solutions
+Models
+Rankings
+Customers
+Pricing
+Resources
+Docs
+Sign in
+Get started free
+EU Data Residency
+Mistral with EU data residency
+Mistral is a European AI company with EU-hosted inference. Route every Mistral model through one Frankfurt-hosted, OpenAI-compatible endpoint.
+Get started
+Speak to founders
+https://router.eu.requesty.ai/v1
+Mistral AI is headquartered in Paris and serves its API from EU infrastructure, which makes it the natural first pick for European teams with data-residency requirements. La Plateforme processes requests inside the EU by default.
+Routing Mistral through Requesty keeps that EU residency, since our gateway runs in Frankfurt with zero data retention, and adds what a single-provider API lacks: failover, caching, cost tracking, and EU-region access to Claude, GPT and Gemini behind the same key when one model family is not enough.
+Mistral models available in EU regions
+Live from the Requesty model catalog. Prices per 1M tokens.
+Model
+Platform
+EU regions
+Input /1M
+Output /1M
+Context
+Mistral Medium 3.5
+Mistral La Plateforme
+EU multi-region
+$1.65
+$8.25
+262K
+Glm 5.2
+Mistral La Plateforme
+EU multi-region
+$1.54
+$4.84
+1M
+Glm 5.3
+Mistral La Plateforme
+EU multi-region
+$1.54
+$4.84
+1M
+Devstral
+Mistral La Plateforme
+EU multi-region
+$0.44
+$2.20
+256K
+Mistral Medium
+Mistral La Plateforme
+EU multi-region
+$0.44
+$2.20
+131K
+Mistral Large 4
+50
+% off
+Mistral La Plateforme
+EU multi-region
+$1.36
+$0.68
+$4.18
+$2.09
+524K
+Mistral Large
+Mistral La Plateforme
+EU multi-region
+$0.55
+$1.65
+131K
+Codestral
+Mistral La Plateforme
+EU multi-region
+$0.33
+$0.99
+131K
+Mistral Small
+Mistral La Plateforme
+EU multi-region
+$0.17
+$0.66
+256K
+Devstral Small
+Mistral La Plateforme
+EU multi-region
+$0.11
+$0.33
+131K
+Open Mistral 7B
+Mistral La Plateforme
+EU multi-region
+$0.28
+$0.28
+33K
+Leanstral 1.5
+Mistral La Plateforme
+EU multi-region
+Free
+Free
+262K
+Pricing is what you pay through Requesty. Where a rate is struck out, the endpoint is running a discount and the lower figure is the one billed.
+Full catalog on the
+models page
+.
+One base URL. Full EU residency.
+OpenAI SDK compatible: point it at the EU gateway and pick an EU-region model.
+main.py
+from
+openai
+import
+OpenAI
+client
+=
+OpenAI
+(
+base_url
+=
+"
+https://router.eu.requesty.ai/v1
+"
+,
+api_key
+=
+"your-requesty-key"
+)
+response
+=
+client.chat.completions
+.
+create
+(
+model
+=
+"
+mistral/mistral-large-latest
+"
+,
+messages
+=
+[
+{
+"role"
+:
+"user"
+,
+"content"
+:
+"Hello!"
+}
+]
+)
+Frequently asked questions
+Does Mistral AI offer EU data residency?
+Yes. Mistral AI is a French company and its API, La Plateforme, runs on EU infrastructure. Routing Mistral through Requesty keeps the full request path in Europe: our gateway processes requests in Frankfurt with zero data retention, and Mistral processes inference inside the EU.
+Is Mistral GDPR compliant?
+Mistral operates under EU jurisdiction and GDPR as a French company. Requesty adds a Frankfurt-hosted gateway with zero data retention and a Data Processing Agreement on request, covering the routing layer of your stack as well.
+Which Mistral models are available through the EU gateway?
+Mistral Large, Mistral Medium, Mistral Small, Pixtral Large, Codestral, Devstral and Open Mistral 7B are all routable through Requesty at Mistral list prices, alongside EU-region Claude, GPT and Gemini deployments behind the same API key.
+Why route Mistral through a gateway instead of calling it directly?
+A gateway adds automatic failover when an endpoint degrades, response caching, per-key spend limits, audit logging and cost analytics, and lets you mix Mistral with EU-region Claude, GPT and Gemini without managing four providers. The request path stays entirely in the EU.
+What does Mistral cost through Requesty?
+The same as calling Mistral directly: Requesty passes through provider list prices per token. Mistral Small starts at $0.15 per 1M input tokens and Mistral Large at $0.50 per 1M input tokens.
+EU data residency for other model families:
+Claude
+·
+OpenAI GPT
+·
+Gemini
+, or see the full
+EU AI Gateway
+and our
+Data Processing Agreement
+.
+Run Mistral in the EU today
+One base-URL change. Free to get started, no credit card required.
+Get started free
+Speak to founders
+The AI gateway for production. 600+ models behind one OpenAI-compatible endpoint, with routing, caching and governance included.
+All systems operational
+Product
+Routing & failover
+Observability
+Spend management
+Integrations
+Governance
+Prompt library
+Pricing
+Free models
+Docs
+Solutions
+AI gateway
+Enterprise
+EU AI Gateway
+AI coding agents
+Startups
+Security
+Compare
+vs OpenRouter
+vs LiteLLM
+vs Portkey
+vs Helicone
+Company
+Guides
+Blog
+Rankings
+Careers
+Support
+Contact
+Community
+Discord
+Twitter / X
+LinkedIn
+YouTube
+©
+2026
+Requesty Ltd. All rights reserved.
+Privacy
+Terms
+DPA

@@ -1,0 +1,426 @@
+Quelle: https://knowledge.workspace.google.com/admin/compliance/data-covered-by-data-regions?hl=en
+Abruf: 2026-10-22 12:59:11 +0200
+
+Google Workspace Data Regions | Legal & compliance | Google Workspace Help
+Skip to main content
+Legal & compliance
+Documentation
+Administrators
+Getting started
+Set up and manage services
+Apps and integrations
+Billing and subscriptions
+Data migration
+Data synchronization
+Device management
+Domain management
+Generative AI
+Reports and monitoring
+Security and data protection
+User management
+Legal and compliance
+Support and troubleshooting
+Users
+Beam
+Calendar
+Chat
+Cloud Search
+Gmail
+Groups
+Docs, Forms, Sheets, and Slides
+Drive
+Keep
+Marketplace
+Meet
+Meet Hardware
+Sites
+Vault
+Vids
+Developers
+Apps Script
+Marketplace
+Workspace APIs
+Training & business user guides
+Workspace Learning Center
+Google Skills
+Community
+Communities
+Workspace Admin Community
+Workspace Developers Community
+Support
+/
+English
+Deutsch
+Español
+Français
+Indonesia
+Italiano
+Nederlands
+Polski
+Português – Brasil
+Svenska
+Türkçe
+Русский
+עברית
+العربيّة
+ภาษาไทย
+中文 – 简体
+中文 – 繁體
+日本語
+한국어
+Sign in
+Administrators
+Legal & compliance
+Admin console
+Contact us
+Overview
+Guides
+Legal & compliance
+Overview
+Guides
+Documentation
+More
+Community
+More
+Support
+Google Workspace legal and compliance
+How Google protects your organization's security and privacy
+HIPAA compliance with Google Workspace and Cloud Identity
+Optional service data addendum for Google Workspace for Education
+Privacy compliance and records for Google Workspace and Cloud Identity
+Register DPO or local privacy representative
+Data regions
+Data covered by data regions
+Choose a geographic location for your data
+Set up advanced settings for data regions
+View your data regions status reports
+Compliance guides & recordings
+CJIS configuration guide
+FedRAMP configuration guide
+IL4 configuration guide
+FINRA configuration guide
+Set up Google Meet compliance recording
+Administrators
+Getting started
+Set up and manage services
+Apps and integrations
+Billing and subscriptions
+Data migration
+Data synchronization
+Device management
+Domain management
+Generative AI
+Reports and monitoring
+Security and data protection
+User management
+Legal and compliance
+Support and troubleshooting
+Users
+Beam
+Calendar
+Chat
+Cloud Search
+Gmail
+Groups
+Docs, Forms, Sheets, and Slides
+Drive
+Keep
+Marketplace
+Meet
+Meet Hardware
+Sites
+Vault
+Vids
+Developers
+Apps Script
+Marketplace
+Workspace APIs
+Training & business user guides
+Workspace Learning Center
+Google Skills
+Communities
+Workspace Admin Community
+Workspace Developers Community
+Google Workspace Help
+Administrators
+Legal & compliance
+Guides
+Send feedback
+Google Workspace Data Regions
+Stay organized with collections
+Save and categorize content based on your preferences.
+With Google Workspace Data Regions, you can configure specified Core Services
+and Other Services to comply with Section 1 (Data Regions) of the
+Google Workspace Service Specific Terms
+to store specified Customer Data and (depending on the applicable version of
+Data Regions) to process that data in a specific geographic location (the United
+States or Europe).
+Supported editions
+The Google Workspace editions listed below ("In-Scope Editions") include the
+version of Data Regions identified below at no additional cost.
+Google Workspace edition
+Data Regions version included
+Business Standard
+Fundamental Data Regions*
+Business Plus
+Fundamental Data Regions*
+Enterprise Starter
+Fundamental Data Regions*
+Enterprise Standard
+Fundamental Data Regions*
+Enterprise Plus
+Enterprise Data Regions
+Business Continuity
+Assured Controls Data Regions
+Business Continuity Plus
+Assured Controls Data Regions
+Enterprise Essentials
+Fundamental Data Regions*
+Enterprise Essentials Plus
+Enterprise Data Regions
+Frontline Starter
+Fundamental Data Regions*
+Frontline Standard
+Fundamental Data Regions*
+Frontline Plus
+Enterprise Data Regions
+Education Standard
+Data Regions for Education
+Education Plus
+Data Regions for Education
+Assured Controls (add-on)
+Assured Controls Data Regions
+Assured Controls Plus (add-on)
+Assured Controls Data Regions
+Enterprise Data Regions (add-on)
+Enterprise Data Regions
+AppSheet Enterprise Plus (add-on)
+Variable**
+* Customers whose Google Workspace edition includes Fundamental Data Regions
+can upgrade to Enterprise Data Regions by purchasing the Enterprise Data Regions
+add-on.
+** The version of Data Regions applicable to AppSheet
+Enterprise Plus will be the same Data Regions version as applies
+to the customer's underlying Google Workspace edition.
+For more information, go to
+Compare your edition .
+Covered services, data types, and data states
+Data Regions covers the specific Google Workspace Core Services and Other
+Services ("Covered Services") and specific types of Customer Data ("Covered
+Data") described below. The specific data states covered by Data Regions depend
+on the applicable version of Data Regions, as also described below.
+Core or Other Service covered
+Data types covered
+Coverage for data stored at rest
+Coverage for data processed in use*
+Apps Script
+Script project files, code definitions, manifest configurations, trigger metadata, Properties Service, and Cache Service
+Note: Scripts running on the legacy Rhino runtime aren't supported under data region policies. Projects must use the V8 runtime.
+✔ Fundamental Data Regions
+✔ Data Regions for Education
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+Gemini app
+Prompts and responses
+✔ Fundamental Data Regions
+✔ Data Regions for Education
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+Gmail
+Subject line and body of emails, senders and recipients of messages, and attachments
+✔ Fundamental Data Regions
+✔ Data Regions for Education
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+Google Calendar
+Event titles and descriptions of events, dates, times, invitees, frequency, locations, and attachments
+✔ Fundamental Data Regions
+✔ Data Regions for Education
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+Google Chat
+Messages (including regular and custom status messages), attachments, and room names
+✔ Fundamental Data Regions
+✔ Data Regions for Education
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+Google Classroom
+Class title, class announcements, class assignments and materials posted by educators, originality reports, class rosters of students and educators, and student grades
+✔ Data Regions for Education
+Google Contacts
+Contact names, email addresses, phone numbers, and other contact information
+✔ Fundamental Data Regions
+✔ Data Regions for Education
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+Google Docs, Drawings, Sheets, Slides, Vids
+File body texts, embedded images, drawings, and associated end user-generated comments
+✔ Fundamental Data Regions
+✔ Data Regions for Education
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+Google Drive
+Original file content uploaded to Drive (including texts, embedded images, drawings, and associated end user-generated comments)
+Note: Google Drive stores files in the region designated by the data region policy of the file creator.
+✔ Fundamental Data Regions
+✔ Data Regions for Education
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+Google Forms
+Text, embedded images, responses, and draft responses
+✔ Fundamental Data Regions
+✔ Data Regions for Education
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+Google Keep
+Note text and titles, images, drawings, and audio recordings
+✔ Fundamental Data Regions
+✔ Data Regions for Education
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+Google Meet
+Meet recordings (including chats in Google Drive), attendance reports, polling results, transcripts, and questions
+✔ Fundamental Data Regions
+✔ Data Regions for Education
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+Google Sites
+Text, embedded images, embedded site information, and embedded HTML/CSS/JavaScript
+✔ Fundamental Data Regions
+✔ Data Regions for Education
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+Google Tasks
+Titles and descriptions of tasks, list titles, times, and dates
+✔ Fundamental Data Regions
+✔ Data Regions for Education
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+Google Vault
+Vault exports
+✔ Fundamental Data Regions
+✔ Data Regions for Education
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+Google Workspace with Gemini
+Prompts and responses
+✔ Fundamental Data Regions
+✔ Data Regions for Education
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+AppSheet Enterprise Plus add-on
+Specific data selected by an End User for coverage by Data Regions
+✔ Fundamental Data Regions
+✔ Data Regions for Education
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+✔ Enterprise Data Regions
+✔ Assured Controls Data Regions
+* Versions of Data Regions not listed in this column do not cover data
+processed in use. For details, go to
+Other editions, services, data types, and data states .
+Included features and capabilities
+The specific features or capabilities included in each version of Data Regions
+are described below.
+Data Regions version
+Specific features and capabilities included
+Fundamental Data Regions
+Set a single data at rest region policy for everyone in a customer's organization
+Data Regions for Education
+The same features and capabilities as Fundamental Data Regions, plus the following:
+Set data at rest region policies for organizational units or groups
+Basic data regions reports
+Enterprise Data Regions
+The same features and capabilities as Data Regions for Education, plus the following:
+Set data region processing policies
+Advanced settings for data regions
+Assured Controls Data Regions
+The same features and capabilities as Enterprise Data Regions, plus the following:
+Advanced data regions reports
+Policy compliance log events
+Other editions, services, data types, and data states
+Data Regions is not supported for Google Workspace editions, Core Services,
+Other Services, data types, or data states that are not specifically identified
+on this page. For example, Data Regions is not supported for Google Workspace
+for Education Fundamentals, Gemini Notebook (formerly
+NotebookLM), or logs or cached content.
+Data Regions coverage for data processed in use depends on the applicable Data
+Regions version. For example, Data Regions for Education does not cover data
+processed in use.
+Users of a Google Workspace edition that is not supported for Data Regions (for
+example, Google Workspace for Education Fundamentals) or a Core
+Service that is not supported for Data Regions (for example,
+Gemini Notebook) aren't covered by Data Region policies even if a
+Data Region policy has been applied to their organizational unit.
+Related topics
+Set up advanced settings for data regions
+Choose a geographic location for your data
+View your data regions status reports
+Choose a location for your Vault export data
+Google Workspace legal and compliance resources
+Send feedback
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License , and code samples are licensed under the Apache 2.0 License . For details, see the Google Developers Site Policies . Java is a registered trademark of Oracle and/or its affiliates.
+Last updated 2026-10-20 UTC.
+Need to tell us more?
+[[["Easy to understand","easyToUnderstand","thumb-up"],["Solved my problem","solvedMyProblem","thumb-up"],["Other","otherUp","thumb-up"]],[["Missing the information I need","missingTheInformationINeed","thumb-down"],["Too complicated / too many steps","tooComplicatedTooManySteps","thumb-down"],["Out of date","outOfDate","thumb-down"],["Samples / code issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],["Last updated 2026-10-20 UTC."],[],[]]
+Try Google Workspace
+Boost your productivity with AI at no cost
+Admin Community
+Get answers from industry peers and experts
+Customer Care
+Learn about support options and services
+Documentation & training
+Help Centers
+Developer guides
+Learning Center
+Google Skills
+Tools
+Admin console
+Apps Script Dashboard
+Google Cloud console
+Support
+Admin Community
+Developers Community
+Customer Care
+Terms
+Privacy
+Manage cookies
+English
+Deutsch
+Español
+Français
+Indonesia
+Italiano
+Nederlands
+Polski
+Português – Brasil
+Svenska
+Türkçe
+Русский
+עברית
+العربيّة
+ภาษาไทย
+中文 – 简体
+中文 – 繁體
+日本語
+한국어

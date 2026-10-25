@@ -1,0 +1,33 @@
+Quelle: https://web.archive.org/web/20261013032521id_/https://www.facebook.com/privacy/policies/data_privacy_framework/ (Wayback-Kopie)
+Abruf: 2026-10-23 01:33:45 +0200
+Hinweis: Text aus den eingebetteten "text"-Feldern der archivierten Seite gezogen (die Seite rendert per JavaScript); Reihenfolge wie im Quelltext, Satzteile können getrennt stehen.
+
+Effective July 30, 2024
+View printable version
+See previous versions
+Meta Platforms, Inc. and its wholly-owned U.S. subsidiaries (collectively, “Meta”) have certified our participation in the EU-U.S. Data Privacy Framework and the Swiss-U.S. Data Privacy Framework (collectively, the "DPF") with the U.S. Department of Commerce. This certification relates to Meta’s processing of personal information received from the European Economic Area (“EEA”) and Switzerland under the DPF in connection with our 
+certification
+. If there is any conflict between the terms in this Disclosure and the DPF Principles, the Principles shall govern. To learn more about the DPF, or to review our 
+certification
+ on the DPF list, visit the DPF 
+website
+Meta follows the DPF for all personal information received from the EEA or Switzerland under the DPF in relation to the 
+Certified Data Categories
+The types of personal information processed
+The purposes for which personal information is processed
+The types of third parties to which personal information is disclosed
+An individual’s right to access personal information
+Any choices and means offered to limit the use and disclosure of personal information
+How personal information is disclosed in response to legal requests when necessary
+Please see the relevant 
+Privacy Policy
+ and/or other policies associated with the 
+Certified Data Categories
+ for details about:
+Meta’s compliance with the DPF is subject to the investigatory and enforcement powers of the U.S. Federal Trade Commission.  In accordance with the DPF, Meta is also liable for onward transfers to third parties that process personal information in a way that does not follow the DPF unless Meta was not responsible for the event giving rise to any alleged damage.
+Please 
+email us
+ with any questions or concerns about our DPF certification. You can resolve any applicable disputes with us related to our certification free of charge through TRUSTe, an alternative dispute resolution provider based in the United States. You can contact TRUSTe through the 
+TRUSTe Feedback and Resolution System
+. In some situations, the DPF Framework gives you the right to invoke binding arbitration. You can do this to resolve complaints not resolved by other means, as described in Annex I to the 
+DPF Framework

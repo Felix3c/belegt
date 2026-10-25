@@ -8,3 +8,4 @@ guides/** text=auto eol=lf
 src/** text=auto eol=lf
 data/lastmod.json text eol=lf
 data/quellen-hashes.json text eol=lf
+*.csv -text

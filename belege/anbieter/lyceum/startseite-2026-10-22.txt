@@ -1,0 +1,471 @@
+Run open models on serverless and dedicated GPUs | Lyceum
+inside SVG favicons and the media attribute on
+, -->
+Skip to content
+New models
+Kimi K3 + GLM-5.3 Flash
+Explore
+models
+Lyceum
+Inference
+Compute
+Models
+Pricing
+Careers
+Resources
+Docs
+Company
+Legal
+Magazine
+News
+Press
+Start building
+Welcome back,
+Open dashboard
+Talk to an expert
+Inference
+Compute
+Models
+Pricing
+Careers
+Resources
+Docs
+Company
+Legal
+Magazine
+News
+Press
+Talk to an expert
+Start building
+Open dashboard
+Download brand assets
+ZIP
+Download logo
+SVG
+Download white logo
+SVG
+Download logo
+PNG
+Download white logo
+PNG
+Press and company facts
+↗
+Run open models
+in Europe
+Run serverless open models, billed per token, and move to dedicated GPUs as your workload grows.
+Start building
+Talk to an expert
+Zero data retention
+European data centres
+OpenAI-compatible API
+Trusted by
+Enpal
+Apheris
+Weight Space Labs
+Weight Space Labs
+Macrocosmos
+Edgeless Systems
+Continuous Intelligence
+Albatross
+SONA
+Start on serverless and grow into dedicated GPUs
+Pay per token as traffic varies, then reserve GPUs when it steadies.
+Start here
+1
+start_today.sh
+Serverless inference
+Call open models through one OpenAI-compatible API.
+Billed per token. No base fee.
+Explore serverless
+→
+hello.sh
+$ curl …/chat/completions
+"content": "Hello!"
+Billed per token. No base fee.
+2
+steady_traffic.cfg
+Dedicated endpoints
+Reserve an endpoint and GPU capacity for your model.
+Commitment pricing, agreed per contract.
+Explore dedicated
+→
+reserved.txt
+Reserved. Nobody else gets these.
+Talk to an expert
+Commitment pricing, agreed per contract
+3
+whole_machine.vm
+GPU compute
+Run your containers on GPU virtual machines or dedicated clusters.
+VMs billed per second. No subscription.
+Explore compute
+→
+root@lyceum
+root@lyceum:~#
+whoami
+root
+You have root.
+Billed per second. No subscription.
+For your security review
+Read the DPA
+→
+Request the TOMs
+→
+Read the terms
+→
+All documents
+→
+Meet your
+next model
+Browse all models
+Kimi K3
+New
+GLM-5.3 Flash
+New
+DeepSeek V4.1 Flash
+New
+Moonshot AI
+Kimi K3
+Input / 1M tokens
+$3.00
+Output / 1M tokens
+$15.00
+Cached input / 1M tokens
+$0.75
+Model details and pricing
+Z.ai
+GLM-5.3 Flash
+Input / 1M tokens
+$0.20
+Output / 1M tokens
+$0.50
+Cached input / 1M tokens
+$0.05
+Model details and pricing
+DeepSeek
+DeepSeek V4.1 Flash
+Input / 1M tokens
+$0.50
+Output / 1M tokens
+$1.50
+Cached input / 1M tokens
+$0.13
+Model details and pricing
+Why teams build on Lyceum
+Talk to the engineers who run Lyceum
+Get help by email. Business customers also get a shared Slack channel and agreed response times.
+Talk to an expert
+→
+Performance
+Customer benchmarks
+Live status
+→
+Approximate output speed reported by a customer in their own tests. Request length, concurrency and reasoning-token treatment were not provided. These results are separate from our live status checks. Kimi K3: about 185 tokens/s median output speed. GLM-5.3: about 125 tokens/s output speed.
+Kimi K3
+185
+tokens/s
+GLM-5.3
+125
+tokens/s
+Scale
+From a few GPUs to 1,000s
+Start small and scale to thousands of GPUs as your workload grows.
+Flexibility
+Compare costs
+→
+Per token
+Serverless inference
+No base fee
+Per second
+GPU virtual machines
+No subscription
+Per contract
+Dedicated and reserved capacity
+In your application
+In your coding tools
+Your tools with
+a new model
+Use open models with your existing SDK.
+Read the setup guide
+Choose a model
+Kimi K3
+GLM-5.3
+DeepSeek V4.1
+Qwen3.8
+app.py
+Copy
+Python
+TypeScript
+JavaScript
+Go
+C# / .NET
+cURL
+import
+os
+from
+openai
+import
+OpenAI
+client
+=
+OpenAI(
+api_key
+=
+os.environ[
+"LYCEUM_API_KEY"
+],
+base_url
+=
+"https://api.lyceum.technology/openai/v1"
+,
+)
+response
+=
+client.chat.completions.create(
+model
+=
+"moonshotai/kimi-k3"
+,
+messages
+=
+[{
+"role"
+:
+"user"
+,
+"content"
+:
+"Hello!"
+}],
+)
+print
+(response.choices[
+0
+].message.content)
+Kimi K3
+Claude Code
+OpenCode
+Cline
+Roo Code
+Kilo Code
+aider
+goose
+Pi
+Terminal
+Copy setup
+export
+ANTHROPIC_BASE_URL
+=
+"https://api.lyceum.technology/anthropic"
+export
+ANTHROPIC_AUTH_TOKEN
+=
+"
+$LYCEUM_API_KEY
+"
+export
+ANTHROPIC_MODEL
+=
+"moonshotai/kimi-k3"
+claude
+Customer stories
+albatross.case
+Albatross retrains its recommendation models several times a day
+“What stood out was how fast Lyceum turned our requirements into a working integration that fit our ML workflow.”
+Dr. Matteo Ruffini, Co-founder and Chief Scientist, Albatross
+Read the story
+: Albatross retrains its recommendation models several times a day
+→
+sona.case
+SONALAB scales its audio AI on European compute
+“Need something? A single email or Slack message and it’s sorted.”
+Sören Hübner, CTO at SONALAB, now SONA
+Read the story
+: SONALAB scales its audio AI on European compute
+→
+What happens to your data
+How we handle your data
+→
+europe.bmp
+Paris
+Finland
+europe.bmp
+Two pins, and that’s all of them.
+Dedicated and VM locations are agreed per contract.
+Browse models
+2 pins
+Runs in European data centres
+Serverless models run in Paris and Finland. Dedicated and VM locations are agreed per contract.
+prompt.txt
+Save
+Save prompt.txt to disk?
+Save
+Don’t save
+prompt.txt
+This file was never saved.
+0 bytes
+We don’t keep your prompts
+Prompts and outputs are processed, not stored. Nothing is written to disk.
+training-data
+This folder is empty.
+0 objects
+training-data
+Still empty.
+It will stay that way.
+0 objects
+We never train on your data
+We don’t keep your prompts or outputs, so there’s nothing to train on.
+DPA.pdf
+TOMs.pdf
+DPA.pdf
+The real one has fewer pixels.
+Get the documents
+TOMs.pdf
+Every measure, none of the dither.
+Get the documents
+Ready for your review
+Our data processing agreement (DPA) and technical and organisational measures (TOMs) are ready before your security team asks.
+Get the documents
+→
+GPUs for your own models
+If you run or train your own models, rent the GPUs directly. Start one now, pay less with spot, or reserve capacity for the long run.
+Compute pricing
+→
+My GPUs (4)
+On demand
+Billed per second
+Spot
+About 45% less, can be reclaimed
+Reserved
+Price agreed per contract
+Start and stop when you like
+Billed per second, with no subscription. Good for experiments, short jobs and work that comes in bursts.
+Launch a GPU
+→
+Same GPUs, about 45% less
+A spot VM can be reclaimed at any time. Good for jobs that save checkpoints and can restart.
+Launch a spot GPU
+→
+Capacity held for you
+Commit to GPUs for your workload at a price agreed per contract. Good for long training runs and steady inference.
+Plan a reservation
+→
+Talk to an expert
+→
+GPU
+Memory
+On demand
+Spot
+Reserved
+NVIDIA B300
+Newest generation
+288 GB
+HBM3e
+On demand
+(selected)
+$11.09
+per GPU hour
+Spot
+(selected)
+$5.59
+per GPU hour
+Reserved
+(selected)
+Per contract
+Launch
+NVIDIA B200
+Inference and training
+192 GB
+HBM3e
+On demand
+(selected)
+$8.79
+per GPU hour
+Spot
+(selected)
+$4.49
+per GPU hour
+Reserved
+(selected)
+Per contract
+Launch
+NVIDIA H200
+Large-memory inference
+141 GB
+HBM3e
+On demand
+(selected)
+$6.19
+per GPU hour
+Spot
+(selected)
+$3.09
+per GPU hour
+Reserved
+(selected)
+Per contract
+Launch
+NVIDIA H100
+Production workloads
+80 GB
+HBM3
+On demand
+(selected)
+$4.69
+per GPU hour
+Spot
+(selected)
+$2.39
+per GPU hour
+Reserved
+(selected)
+Per contract
+Launch
+US dollars per GPU hour. Billed per second. No subscription.
+Your next workload starts here
+Start building
+Open dashboard
+Talk to an expert
+Sovereign European AI inference for open-source models, billed per token.
+Live status
+23 open models
+Run
+Inference
+Compute
+Fine-tuning
+Models
+Pricing
+Learn
+Docs
+↗
+Magazine
+Status
+↗
+llms.txt
+Meet us
+Company
+Careers
+Press
+Contact
+Legal
+Documents
+Compliance
+DPA
+FAQ
+Terms
+Privacy
+Imprint
+Cookies
+© 2026 Lyceum Technology Germany GmbH
+LinkedIn
+↗
+cookies.txt
+We use cookies to improve your experience and for marketing. Read our
+cookie policy
+.
+Reject all
+Accept all
+, behind the
+cookie consent gate. The
+tracking pixel went with it: it
+would have fired for every visitor regardless of their choice. -->

@@ -515,6 +515,8 @@ CSA
 Careers
 Cases
 Cases
+Cases
+Cases
 Cassandra
 Catalogue
 Catalogue
@@ -621,6 +623,7 @@ Changelog
 Changelog
 Changelog
 Changelog
+Choose
 Choose
 Choose
 Choose
@@ -990,6 +993,8 @@ Europe
 Europe,
 Europe.
 European
+European
+European
 Everything
 Everything
 Everything
@@ -1186,6 +1191,10 @@ Hosting
 Hosting
 Hosting
 Hosting
+How
+How
+How
+How
 How
 How
 How
@@ -1456,6 +1465,8 @@ Metrics
 Metrics,
 Microsoft
 Microsoft
+Migration
+Migration
 Model
 Model
 Module
@@ -1469,6 +1480,8 @@ Monitor
 Monitor,
 Monitor,
 Multi-cluster,
+Multiple
+Multiple
 Multisites
 Multisites
 My
@@ -1684,10 +1697,13 @@ OVHcloud
 OVHcloud
 OVHcloud
 OVHcloud
+OVHcloud
 OVHcloud-managed
 OVHcloud.
 OVHcloud.
 OVHcloud.
+Object
+Object
 Object
 Object
 Object
@@ -1696,6 +1712,7 @@ Observability
 Observability
 Observability
 Office
+Offline
 On-Prem
 On-Prem
 On-demand
@@ -1947,6 +1964,7 @@ RPC
 Rancher
 Rancher
 Rancher
+Reclaim
 Reduce
 Redundant
 Reference
@@ -2038,6 +2056,8 @@ Roadmap
 Roadmap
 Roadmap
 Roadmap
+S3
+S3
 S3-compatible
 S3-compatible
 SAP
@@ -2133,6 +2153,7 @@ Secret
 Secrets,
 Sector
 Sector
+Secure
 Secure
 Secure
 Secure
@@ -2275,6 +2296,8 @@ Storage
 Storage
 Storage
 Storage
+Storage
+Storage
 Storage,
 Storage,
 Store,
@@ -2373,6 +2396,8 @@ United
 Units
 Units
 Unlimited
+Use
+Use
 Use
 Use
 Use
@@ -2560,6 +2585,8 @@ a
 a
 a
 a
+a
+a
 about
 about
 abuse
@@ -2597,6 +2624,7 @@ advice,
 advisor
 affordable
 affordable
+against
 against
 against
 against
@@ -2663,6 +2691,8 @@ analyse,
 analyse,
 analysis
 analysis
+and
+and
 and
 and
 and
@@ -2911,6 +2941,8 @@ backbone.
 backup
 backup
 backup
+backups
+backups
 balance
 based
 based
@@ -2983,8 +3015,11 @@ cache
 callback
 can
 can
+can
+can
 card
 carried
+case
 cases
 cases
 catalogue
@@ -3009,10 +3044,13 @@ changing
 charges
 charts
 citizens
+class
 class=&quot;odss-dropdown__content&quot;&gt;&lt;/div&gt;
 class=&quot;odss-dropdown__content&quot;&gt;&lt;/div&gt;
 class=&quot;odss-dropdown__content&quot;&gt;&lt;/div&gt;
 class=&quot;odss-dropdown__content&quot;&gt;&lt;/div&gt;
+classes,
+classes,
 click
 click
 click
@@ -3045,6 +3083,8 @@ cloud
 cloud
 cloud-native
 cloud.
+cloud?
+cloud?
 clusters
 code
 code
@@ -3060,6 +3100,8 @@ commitment,
 commitments
 committed
 community
+company&#x27;s
+company&#x27;s
 complete
 complete
 complete
@@ -3116,6 +3158,7 @@ control
 control
 control
 control
+control
 control,
 control,
 control,
@@ -3130,6 +3173,7 @@ cost
 cost
 cost
 cost-effective
+costs
 costs
 create
 create
@@ -3154,8 +3198,14 @@ customer
 customers
 customers’
 customers’
+cyberattacks?
+cyberattacks?
 cybersecurity
 dashboards
+data
+data
+data
+data
 data
 data
 data
@@ -3179,6 +3229,7 @@ data
 data,
 data,
 data.
+data:
 database
 databases
 databases
@@ -3194,6 +3245,7 @@ dedicated
 dedicated,
 default
 default
+defense
 defines
 delay
 demand
@@ -3289,6 +3341,7 @@ establishing
 evaluate
 event-driven
 events,
+every
 everything,
 everything.
 existing
@@ -3404,6 +3457,7 @@ for
 for
 for
 for
+for
 force
 format
 foundation
@@ -3413,6 +3467,9 @@ framework
 free
 free
 free
+from
+from
+from
 from
 from
 from
@@ -3488,6 +3545,7 @@ hosts
 hub
 hub
 hybrid
+hyperscalers
 ideal
 identity
 identity
@@ -3624,6 +3682,7 @@ known
 landing
 landing
 landing
+last
 latency
 launch
 launch
@@ -3643,6 +3702,7 @@ licences
 licences
 limits
 line
+line
 link
 links
 lives
@@ -3657,6 +3717,7 @@ logs
 logs,
 long-term
 long-term
+loss
 loss,
 lower
 lower
@@ -3722,6 +3783,9 @@ menu
 messaging
 methods
 metrics
+migrate
+migrate
+migrate
 minimal
 minutes.
 mission
@@ -3872,6 +3936,8 @@ of
 of
 of
 of
+of
+of
 offer.
 offers
 offers
@@ -3933,6 +3999,8 @@ one
 one
 one
 one
+one
+one
 online
 online
 online
@@ -3950,6 +4018,7 @@ operators
 optimise
 optimise
 optimised
+optimize
 option
 option
 option
@@ -4134,6 +4203,8 @@ projects
 property
 protect
 protect
+protect
+protect
 protected
 protected
 protected
@@ -4184,6 +4255,7 @@ racks
 ranges
 ranges
 ranges
+ransomware
 rarely
 raw
 ready-made
@@ -4259,6 +4331,7 @@ resources
 response
 results.
 revolution
+right
 right
 risks.
 run
@@ -4393,6 +4466,8 @@ solutions
 solutions
 solutions
 solutions
+solutions
+solutions
 soon
 soon
 soon
@@ -4425,6 +4500,8 @@ standards.
 start
 started
 state.
+storage
+storage
 storage
 storage
 storage
@@ -4469,6 +4546,7 @@ that
 that
 that
 that
+the
 the
 the
 the
@@ -4616,6 +4694,11 @@ to
 to
 to
 to
+to
+to
+to
+to
+to
 today
 tomorrow.
 tools
@@ -4632,6 +4715,7 @@ traffic,
 traffic,
 traffic.
 transactional
+transfer
 transparent,
 trust
 trust
@@ -4654,6 +4738,7 @@ us
 us
 us
 usage
+use
 used
 useful
 users
@@ -4793,7 +4878,16 @@ you
 you
 you
 you
+you
+you
 you'll
+your
+your
+your
+your
+your
+your
+your
 your
 your
 your

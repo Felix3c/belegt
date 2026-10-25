@@ -54,6 +54,32 @@ test("setzeGeprueft: vorhandenes Feld-geprueft wird nur in Zeilen mit dieser URL
   assert.ok(JSON.parse(out));
 });
 
+test("setzeGeprueft: geprueft auf der nächsten Zeile wird ersetzt, nicht doppelt eingefügt (US-Profile, 23.10.)", () => {
+  // Echte Form der US-Profile (openai-*, google-vertex-*): ein Feld pro Zeile. Bis 23.10. suchte der Lauf
+  // nur in der quelle-Zeile, fügte ein zweites geprueft ein, und beim Lesen gewann das alte Datum.
+  const src = [
+    '{',
+    '  "x": {',
+    '    "status": "belegt",',
+    '    "quelle": "https://a.example/p",',
+    '    "geprueft": "2026-10-21",',
+    '    "anmerkung": "a"',
+    '  },',
+    '  "y": {',
+    '    "quelle": "https://b.example/p",',
+    '    "geprueft": "2026-10-21"',
+    '  },',
+    '  "geprueft": "2026-10-21"',
+    '}',
+  ].join("\n");
+  const out = setzeGeprueft(src, "https://a.example/p", "2026-10-23");
+  assert.equal((out.match(/"geprueft"/g) || []).length, 3);
+  const ob = JSON.parse(out);
+  assert.equal(ob.x.geprueft, "2026-10-23");
+  assert.equal(ob.y.geprueft, "2026-10-21");
+  assert.equal(ob.geprueft, "2026-10-21");
+});
+
 test("setzeGeprueft: ohne Feld-geprueft wird es direkt hinter der quelle eingefügt", () => {
   const src = '{\n  "x": { "status": "belegt", "quelle": "https://a.example/p", "anmerkung": "a" },\n  "geprueft": "2026-08-01"\n}';
   const out = setzeGeprueft(src, "https://a.example/p", "2026-09-28");

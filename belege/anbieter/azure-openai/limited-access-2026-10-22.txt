@@ -1,0 +1,83 @@
+Quelle: https://learn.microsoft.com/en-us/azure/ai-foundry/responsible-ai/openai/limited-access
+Abruf: 2026-10-22 18:42:40 +0200
+
+Limited access to Azure OpenAI in Microsoft Foundry Models - Microsoft Foundry | Microsoft Learn
+Skip to main content
+Skip to Ask Learn chat experience
+This browser is no longer supported.
+Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.
+Download Microsoft Edge
+More info about Internet Explorer and Microsoft Edge
+Table of contents
+Exit editor mode
+Ask Learn
+Ask Learn
+Reading mode
+Table of contents
+Read in English
+Add
+Add to Plans
+Edit
+Copy Markdown
+Print
+Note
+Access to this page requires authorization. You can try signing in or changing directories .
+Access to this page requires authorization. You can try changing directories .
+Limited access for Foundry Models sold by Azure
+Feedback
+Summarize this article for me
+In this article
+Important
+Non-English translations are provided for convenience only. Please consult the EN-US version of this document for the definitive version.
+As part of Microsoft's commitment to responsible AI, we have designed and operate Foundry Models sold by Azure (as defined in the Product Terms ) with the intention of respecting the rights of individuals and society and fostering transparent human-computer interaction. For this reason, certain Models sold by Azure (or versions of them) are designated as Limited Access Services, and access and use are subject to eligibility criteria determined by Microsoft. Unless otherwise indicated in the service, all Azure customers are eligible for access to Models sold by Azure, and all uses consistent with the Product Terms and Code of Conduct are permitted, so customers are not required to submit a registration form unless they are: (a) accessing a model sold by Azure designated as a Limited Access Service, or (b) requesting approval to modify Guardrails (previously content filters) and/or abuse monitoring for a model sold by Azure.
+Models sold by Azure are made available to customers under the terms governing their subscription to Microsoft Azure Services, including Product Terms such as the Universal License Terms applicable to Microsoft Generative AI Services and the product offering terms for Models sold by Azure. Please review these terms carefully as they contain important conditions and obligations governing your use.
+Azure OpenAI Service is made available to customers under the terms governing their subscription to Microsoft Azure Services, including such as the Universal License Terms applicable to Microsoft Generative AI Services and the product offering terms for Azure OpenAI. Please review these terms carefully as they contain important conditions and obligations governing your use of Azure OpenAI Service.
+Registration for modified Guardrails and/or abuse monitoring
+All customers have the ability to configure severity thresholds on Guardrails (previously content filters), however, the modified Guardrails approval process is required to turn the Guardrails partially or fully off. Customers who wish to modify Guardrails and/or modify abuse monitoring are subject to additional eligibility criteria and requirements. At this time, modified Guardrails (previously content filters) and/or modified abuse monitoring for Models sold by Azure are available only to customers and partners managed by a Microsoft account team or under an eligible program, and are subject to additional requirements. Customers meeting these requirements can request approval for modified Guardrails and/or modified abuse monitoring using the following forms:
+Modified Guardrails (previously content filters)
+Modified abuse monitoring
+Important links
+Register to modify Guardrails (previously content filters) (if needed)
+Register to modify abuse monitoring (if needed)
+Some advanced Models sold by Azure may have more stringent criteria for turning off abuse monitoring.
+Help and support
+Frequently asked questions about Limited Access can be found on the Foundry Tools Limited Access page. If you need help with Azure OpenAI, see the Foundry Tools support options page. Report abuse of Azure OpenAI here .
+See also
+Code of conduct for Azure OpenAI Service integrations
+Transparency note for Azure OpenAI Service
+Data, privacy, and security for Azure OpenAI Service
+Feedback
+Was this page helpful?
+Yes
+No
+No
+Need help with this topic?
+Want to try using Ask Learn to clarify or guide you through this topic?
+Ask Learn
+Ask Learn
+Suggest a fix?
+Additional resources
+Last updated on
+2026-05-19
+In this article
+Was this page helpful?
+Need help with this topic?
+Want to try using Ask Learn to clarify or guide you through this topic?
+Ask Learn
+Ask Learn
+Suggest a fix?
+en-us
+Your Privacy Choices
+Theme
+Light
+Dark
+High contrast
+AI Disclaimer
+Previous Versions
+Blog
+Contribute
+Privacy
+Consumer Health Privacy
+Terms of Use
+Trademarks
+© Microsoft 2026

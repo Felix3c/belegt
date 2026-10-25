@@ -1,0 +1,96 @@
+Quelle: https://www.dqsglobal.com/en/customer/download/15518912117253675202 (Knopf "Download certificate : 01.12.2025 deutsch" auf https://www.dqsglobal.com/en/customer-database/aleph-alpha-gmbh2), abgerufen 25.10.2026 im Browser (Skriptabruf der Seite: HTTP 403 Cloudflare). Text per pypdf aus dem PDF.
+
+ 
+Accredited Body: DQS GmbH, August-Schanz-Straße 21, 60433 Frankfurt am Main, Germany    
+The validity of the certification can only be verified by the QR-code.  
+1 / 2
+ 
+ 
+ 
+CERTIFICATE  
+This is to certify that 
+ 
+ 
+ 
+Aleph Alpha GmbH 
+ 
+Speyerer Straße 14 
+69115 Heidelberg 
+Germany   
+ 
+with the organizational units/sites as listed in the annex 
+has implemented and maintains an Information Security Management System.  
+Scope: 
+Research, development and commercialization of generative AI technology with focus on 
+multimodal large language models.  
+ 
+Statement of applicability: version 1.5 from 2025-10-14 
+Through an audit, documented in a report, it was verified that the management system  
+fulfills the requirements of the following standard: 
+ 
+ISO / IEC 27001 : 2022  
+ 
+Certificate registration no. 
+Date of revision 
+Date of certification 
+Valid until 
+31623205 ISMS22 
+2025-11-29 
+2024-12-20 
+2027-12-19 
+    
+DQS GmbH 
+ 
+   
+Guido Eggers 
+Managing Director    
+  
+ 
+  
+
+=====
+Annex to certificate 
+Registration no.: 31623205 ISMS22  
+ 
+ 
+Aleph Alpha GmbH 
+ 
+Speyerer Straße 14 
+69115 Heidelberg 
+Germany 
+ 
+ 
+ 
+This annex (edition: 2025-11-29) is only valid in connection 
+with the above-mentioned certificate.  2 / 2
+ 
+Location Scope 
+31625355 
+Aleph Alpha GmbH 
+Ritterstrasse 6 
+13355 Berlin 
+Germany 
+ 
+Research, development and commercialization 
+of generative AI technology with focus on 
+multimodal large language models. 
+31633041 
+Aleph Alpha GmbH 
+Data Center 
+Theodor-Schmidt-Straße 17 
+95448 Bayreuth 
+Germany 
+ 
+Research, development and commercialization 
+of generative AI technology with focus on 
+multimodal large language models. 
+31633043 
+Aleph Alpha GmbH 
+Weiherstraße  26 
+95448 Bayreuth 
+Germany 
+ 
+Research, development and commercialization 
+of generative AI technology with focus on 
+multimodal large language models. 
+ 

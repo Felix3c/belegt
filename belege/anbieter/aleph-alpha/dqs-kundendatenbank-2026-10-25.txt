@@ -1,0 +1,5 @@
+Quelle 1: https://www.dqsglobal.com/en/customer-database/aleph-alpha-gmbh, per curl abgerufen 25.10.2026, HTTP 200 (HTML SHA-256 d08e92a8aaddbcece338e1757cf01f50206e49e85cd3b97d27e113bce435d681), Inhaltsteil:
+Customers and certificates Aleph Alpha GmbH Division: (4th Floor) Certified according to : ISO IEC 27001:2022 Information-Security-Management-System This certification belongs to the parent company 31623205 Aleph Alpha GmbH
+
+Quelle 2: https://www.dqsglobal.com/en/customer-database/aleph-alpha-gmbh2 (Ziel von /en/customer/redirect/31623205), per curl HTTP 403 (Cloudflare), im Browser 25.10.2026 gerendert, Inhaltsteil:
+CUSTOMERS AND CERTIFICATES Aleph Alpha GmbH Certified according to : ISO IEC 27001:2022 Information-Security-Management-System Download certificate : 01.12.2025 deutsch

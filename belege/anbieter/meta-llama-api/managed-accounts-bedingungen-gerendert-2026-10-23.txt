@@ -1,0 +1,621 @@
+Quelle: https://forwork.meta.com/gb/legal/mma-terms-of-service/
+Abruf: 2026-10-23 01:22:16 +0200
+
+Nutzungsbedingungen für Meta Horizon Managed Solutions | Meta (de-DE)
+
+Zum Hauptinhalt
+
+[Meta]
+
+AI Glasses
+
+Meta Quest
+
+Meta VR Glasses
+
+Meta entdecken
+
+Support
+
+DE
+
+​
+
+Zurück zu Rechtliches für Meta for Work
+
+Nutzungsbedingungen für Meta Horizon Managed Solutions
+
+Letzte Aktualisierung: 26. Februar 2025
+
+Diese Nutzungsbedingungen für Meta Horizon Managed Solutions (diese „Nutzungsbedingungen“) gelten für deinen Kauf, deinen Zugriff auf und deine Nutzung der Dienste (wie unten definiert), darunter der Zugriff auf und die Nutzung der Dienste in Verbindung mit verwalteten Geräten (wie unten definiert). Diese Nutzungsbedingungen werden zwischen dir und Meta Platforms, Inc. geschlossen. Solltest du in der Region Europa (wie unter meta.com/legal/quest/territories/ definiert) ansässig sein, werden diese Nutzungsbedingungen zwischen dir und Meta Platforms Ireland Limited geschlossen. Verweise auf „Meta, „uns“, „wir“ oder „unser/e/em/en/er/es“ beziehen sich dementsprechend entweder auf Meta Platforms, Inc. oder auf Meta Platforms Ireland Limited. Alle Begriffe, die in diesem Dokument nicht bei ihrer ersten Verwendung definiert werden, haben die in Abschnitt 19 (Definitionen) festgelegte Bedeutung.
+
+DIE NATÜRLICHE PERSON, DIE DIESE NUTZUNGSBEDINGUNGEN AKZEPTIERT, ERKLÄRT UND GARANTIERT HIERMIT, DASS DIESE PERSON DIE NUTZUNGSBEDINGUNGEN IM NAMEN EINES UNTERNEHMENS ODER EINER ANDEREN JURISTISCHEN PERSON BZW. RECHTLICHEN EINHEIT AKZEPTIERT, DIE IHREN SITZ IN EINEM UNTERSTÜTZTEN LAND HAT, UND DASS DIESE PERSON IN VOLLEM UMFANG BEFUGT IST, DIESE JURISTISCHE PERSON BZW. EINHEIT AN DIESE NUTZUNGSBEDINGUNGEN ZU BINDEN. Verweise auf „du/dich/dir“, „dein/e/em/en/er/es“ oder „Kund*in“ bezeichnen eine solche Einheit. Du und Meta können hierin einzeln als „Partei“ oder zusammen als die „Parteien“ bezeichnet werden.
+
+Kleinunternehmen in Australien. Wenn du ein Kleinunternehmen in Australien bist, unterliegen diese Nutzungsbedingungen möglicherweise dem Verbrauchergesetz Australiens (Australian Consumer Law) und deinen Rechten gemäß dem Australian Consumer Law. Wenn für dich und deine Nutzung der Dienste das Australian Consumer Law gilt, sind die zusätzlichen Bestimmungen, verfügbar unter www.meta.com/legal/meta-for-work/terms-of-service/australia-addendum/, Teil dieser Nutzungsbedingungen und werden hier durch Verweis einbezogen.
+
+Die Dienste.
+
+Deine Nutzungsrechte. Für die Laufzeit und vorbehaltlich deiner Einhaltung dieser Nutzungsbedingungen gewährt Meta dir hiermit das eingeschränkte, nicht exklusive, nicht unterlizenzierbare (außer wie hierin ausdrücklich angegeben) und nicht übertragbare Recht zum Zugriff auf und die Nutzung der Dienste ausschließlich im Rahmen dieser Nutzungsbedingungen.
+
+Berufliche Konten und Administrator*innen. Um die Dienste aufzurufen und zu nutzen, musst du zunächst eine Kund*innen-Instanz für die Dienste einrichten und anschließend verwaltete Arbeitskonten bei Meta für deine Nutzer*innen bereitstellen („Berufliche Konten“). Die Registrierungsinformationen für die beruflichen Konten müssen richtig und vollständig sein und auf dem neuesten Stand gehalten werden. Du musst alle Anmeldedaten geheim halten und auch Nutzer*innen dazu anhalten, und du erklärst dich damit einverstanden, Meta umgehend zu informieren, falls du oder ein*e Nutzer*in jegliche unberechtigte Nutzung von beruflichen Konten oder Anmeldedaten feststellt, einschließlich der Anmeldedaten von Administrator*innen. Berufliche Konten sind für einzelne Nutzer*innen vorgesehen und können nicht gemeinsam genutzt oder übertragen werden, sofern dies nicht in diesen Nutzungsbedingungen gestattet oder anderweitig durch Meta genehmigt wurde. Bei der Ersteinrichtung deiner Kund*innen-Instanz weist du eine*n Administrator*in für deine Kund*innen-Instanz zu. Es muss jederzeit mindestens ein*e (1) aktive*r Administrator*in für die Kund*innen-Instanz vorhanden sein. Administrator*innen sind möglicherweise in der Lage, auf jegliche Informationen, die du über die Dienste übermittelst (einschließlich Kund*innendaten), zuzugreifen, sie zu überwachen, zu verwenden, zu ändern, zurückzuhalten oder offenzulegen und den Nutzer*innenzugriff auf die Dienste zu kontrollieren. Meta ist nicht verantwortlich für die Verwaltung oder Administration von Kunden-Instanzen, beruflichen Konten oder für die Nutzung, Änderung, Verbreitung oder Löschung von Kund*innendaten bzw. den Zugriff auf diese durch dich oder Nutzer*innen. Zur Klarstellung: Die Dienste werden dir und nicht einzelnen Nutzer*innen bereitgestellt und du stellst sicher, dass alle Nutzer*innen diese Nutzungsbedingungen und die zusätzlichen Bestimmungen einhalten. Du erkennst an, dass jegliche von einem*einer Nutzer*in vorgenommene oder nicht vorgenommene Handlung oder Unterlassung, die einen Verstoß gegen diese Nutzungsbedingungen oder die zusätzlichen Bestimmungen darstellen würde, wenn sie von dir vorgenommen oder nicht vorgenommen worden wäre, als Verstoß gegen diese Nutzungsbedingungen bzw. die zusätzlichen Bestimmungen durch dich gilt. Wenn Meta feststellt, dass ein*e Nutzer*in gegen diese Nutzungsbedingungen oder die zusätzlichen Bestimmungen verstoßen hat, kann Meta Durchsetzungsmaßnahmen gegen den*die Nutzer*in und das entsprechende berufliche Konto ergreifen, wie u. a. Einschränkung der Kontofunktionalität, Beschränkung des Zugriffs auf Daten oder Inhalte oder vorübergehende oder dauerhafte Sperrung des Kontos oder zugehörigen Profils.
+
+Mehrnutzermodus mit nicht identifizierten Nutzer*innen. Die Dienste können Funktionen anbieten, um nicht identifizierten Nutzer*innen eingeschränkten Zugriff auf und Nutzung von verwalteten Geräten zu ermöglichen, die in einem Kiosk- oder Mehrnutzermodus ohne Nutzung eines beruflichen Kontos für standortbasierte Erlebnisse, Arcade-Spiele, Kioske, Schulungen, Demonstrationen oder ähnliche Anwendungsfälle („Mehrnutzermodus mit nicht identifizierten Nutzer*innen“) konfiguriert wurden. Vorbehaltlich dieser Nutzungsbedingungen und eines aktiven Abonnements des Mehrnutzermodus mit nicht identifizierten Nutzer*innen darfst du Nutzer*innen im Mehrnutzermodus mit nicht identifizierten Nutzer*innen Zugriff auf verwaltete Geräte gewähren, sofern du: (i) alle entsprechenden Einwilligungen von den Nutzer*innen, die im Mehrnutzermodus mit nicht identifizierten Nutzer*innen auf die Dienste und verwalteten Geräte zugreifen und sie nutzen, einholst, wie u. a. die Einwilligung zur Einhaltung dieser Nutzungsbedingungen und der zusätzlichen Bestimmungen; (ii) die Verantwortung für den Zugriff auf die und die Nutzung der verwalteten Geräte durch alle Nutzer*innen im Mehrnutzermodus mit nicht identifizierten Nutzer*innen trägst; (iii) jegliche notwendigen Berechtigungen oder Lizenzen für Software, Dienste oder Erlebnisse Dritter, deren Nutzung du im Mehrnutzermodus mit nicht identifizierten Nutzer*innen gestattest, separat einholst und Nutzer*innen ggf. inhaltsspezifische Warnhinweise bereitstellst; (iv) ggf. Gebühren erhebst und festlegst, die du im Zusammenhang mit verwalteten Geräten im Mehrnutzermodus mit nicht identifizierten Nutzer*innen verlangst, einschließlich Umsatz-, Mehrwert- oder sonstiger Steuern, wenn dies nach geltendem Recht vorgeschrieben ist; (v) die ordnungsgemäße Instandhaltung und Sicherheit der Räumlichkeiten, in denen der Zugriff und die Nutzung stattfinden, gewährleistest; (vi) alle von Meta vor und während der Nutzung der verwalteten Geräte bereitgestellten Gesundheits- und Sicherheitshinweise und sonstigen Warnhinweise und Anweisungen befolgst und sicherstellst, dass alle Nutzer*innen sie befolgen, wie u. a. die in Abschnitt 15 unten genannten; (vii) wenn Nutzer*innen des Mehrnutzermodus mit nicht identifizierten Nutzer*innen im Land ihres Wohnsitzes minderjährig sind, (A) einem Elternteil oder einem*einer Erziehungsberechtigten dieser Nutzer*innen alle anwendbaren Gesundheits- und Sicherheitswarnungen, Informationen und Anweisungen (einschließlich, aber nicht beschränkt auf die Informationen unter www.meta.com/legal/quest/health-and-safety-warnings/) bereitstellst, bevor ein verwaltetes Gerät von den Nutzer*innen verwendet wird oder die Bereitschaft des*der Nutzer*in für das verwaltete Gerät festgestellt wird, sodass der Elternteil oder der*die Erziehungsberechtigte in der Lage sind, diese Informationen vor der Verwendung des verwalteten Geräts und der Feststellung der Bereitschaft des*der Nutzer*in für das verwaltete Gerät zu prüfen und zu berücksichtigen (siehe auch Abschnitt 15 unten), und (B) wenn Nutzer*innen des Mehrnutzermodus im Land ihres Wohnsitzes minderjährig sind, alle anwendbaren altersbezogenen Gesetze, Anforderungen und Einschränkungen für Inhalte einhältst; und (vii) Nutzer*innen genaue, korrekte und vollständige Informationen bereitstellst und jegliche erforderlichen Einwilligungen einholst und aufbewahrst, die das geltende Recht bezüglich Datenschutz und Sicherheit jeglicher Daten einhalten, die von dir im Zusammenhang mit ihrer Nutzung der verwalteten Geräte erhoben, verwendet, gespeichert, übermittelt oder verarbeitet werden, wobei mindestens die folgenden Informationen enthalten sein müssen: (A) dass du zum Zweck der Bereitstellung, Verwaltung und Überwachung der Nutzung des entsprechenden verwalteten Geräts durch die Nutzer*innen im Mehrnutzermodus mit nicht identifizierten Nutzer*innen möglicherweise Daten über die Nutzer*innen erhebst, verwendest und Zugriff auf diese hast; und (B) dass weder Meta noch seine verbundenen Unternehmen für deine Erhebung, Verwendung, Speicherung und Offenlegung von Daten im Zusammenhang mit der Nutzung des entsprechenden verwalteten Geräts durch die Nutzer*innen im Mehrnutzermodus mit nicht identifizierten Nutzer*innen verantwortlich ist/sind.
+
+Einschränkungen. Du darfst diese Nutzungsbedingungen nur akzeptieren, wenn du ein Unternehmen, eine Organisation oder eine sonstige Rechtseinheit mit Sitz in einem unterstützten Land bist. Du darfst Folgendes nicht (und du wirst Nutzer*innen dazu anhalten, Folgendes nicht zu tun): (i) im Namen eines Dritten auf die Dienste zugreifen oder sie nutzen oder die Dienste an Dritte (außer Nutzer*innen gemäß diesen Nutzungsbedingungen im hier ausdrücklich gestatteten Umfang in Zusammenhang mit dem Mehrnutzermodus mit nicht identifizierten Nutzer*innen oder wie anderweitig schriftlich durch Meta genehmigt) vermieten, verleasen, unterlizenzieren oder Dritten Zugriff darauf ermöglichen; (ii) die Dienste oder verwalteten Geräte zurückentwickeln, dekompilieren, auseinanderbauen oder auf andere Weise versuchen, an den Quellcode zu gelangen, außer eine solche Einschränkung ist durch geltendes Recht ausdrücklich untersagt (und in diesem Fall nur nach vorheriger Ankündigung an Meta); (iii) die Dienste oder verwalteten Geräte kopieren, verändern oder davon abgeleitete Werke erstellen; (iv) Eigentums- oder sonstige Hinweise in den Diensten oder verwalteten Geräten entfernen, verändern oder verbergen; (v) technische Daten zur Leistung der Dienste oder verwalteten Geräte öffentlich verbreiten; (vi) Filter, Sicherheitsmaßnahmen oder andere Funktionen, die die Dienste oder die Meta-Plattform schützen sollen, umgehen oder zu vermeiden versuchen; (vii) versuchen, unberechtigten Zugriff auf die Dienste oder ihre zugehörigen Systeme oder Netzwerke zu erlangen; oder (viii) auf eine Weise oder zu einem Zweck, die/der hierin nicht ausdrücklich gestattet ist, auf die Dienste oder verwalteten Geräte zugreifen oder sie nutzen (oder anderen gestatten, dies zu tun).
+
+Änderungen an den Diensten. Wir arbeiten kontinuierlich an der Verbesserung unserer Dienste sowie an der Entwicklung und an Tests neuer Funktionen, um unsere Produkte für dich noch besser zu machen. Demzufolge müssen wir gelegentlich Änderungen an den Diensten vornehmen. Du erkennst an, dass Funktionen und Funktionsweise der Dienste variieren und sich im Laufe der Zeit ändern können. Darüber hinaus können bestimmte Funktionen oder Funktionsweisen in Bezug auf die Dienste in Abhängigkeit vom Standort des*der Nutzer*in und anderen Faktoren deaktiviert oder in veränderter Form zur Verfügung gestellt werden.
+
+Nutzung von APIs. Während der Laufzeit kann Meta dir ein/e/n oder mehrere APIs, SDKs, Tools, Plug-ins, Codes und Technologien („APIs“) zur Verfügung stellen, damit du die Dienste, Apps und Integrationen, die deine Nutzung der Dienste ergänzen, entwickeln und nutzen kannst. Jegliche Nutzung dieser APIs durch dich, Nutzer*innen oder Dritte in deinem Namen unterliegt den Meta-Plattform-Nutzungsbedingungen (zu finden unter developers.facebook.com/terms/) und separaten Nutzungsbedingungen, die für diese APIs möglicherweise gelten. Jede davon kann von Zeit zu Zeit von Meta in Übereinstimmung mit seinen Nutzungsbedingungen aktualisiert werden.
+
+Deine Pflichten. In Zusammenhang mit diesen Nutzungsbedingungen gilt für dich (und du sorgst dafür, dass Nutzer*innen dies einhalten):
+
+Du übernimmst die alleinige Verantwortung für: (i) die Nutzung der Dienste und verwalteten Geräte durch dich und deine verbundenen Unternehmen, Mitarbeiter*innen, Vermittler*innen, Unterauftragnehmer*innen und Nutzer*innen unter Einhaltung dieser Nutzungsbedingungen und der zusätzlichen Bestimmungen; (ii) alle rechtlichen, regulatorischen und sonstigen logistischen Compliance-Anforderungen, die sich möglicherweise in Zusammenhang mit der Nutzung der Dienste und verwalteten Geräte durch dich und deine verbundenen Unternehmen, Mitarbeiter*innen, Vermittler*innen, Unterauftragnehmer*innen und Nutzer*innen ergeben, ob in einem unterstützten Land oder anderswo, einschließlich der Bereitstellung von Informationen oder der Einholung jeglicher Einwilligungen von Nutzer*innen oder anderen Personen, die die Dienste oder verwalteten Geräte nutzen und/oder ein berufliches Konto besitzen, sofern nach geltendem Recht erforderlich; (iii) deine Handlungen und Unterlassungen sowie die Handlungen und Unterlassungen deiner verbundenen Unternehmen, Mitarbeiter*innen, Vermittler*innen, Unterauftragnehmer*innen und Nutzer*innen; (iv) deine Verwaltung der Einstellungen und Optionen, die durch die Dienste zur Verfügung stehen, einschließlich jeglicher sich ergebender Verlust einer App oder Berechtigung in Zusammenhang mit einem beruflichen Konto; (v) die Sicherstellung, dass die Privatsphäre-Einstellungen für die Nutzung der Dienste und verwalteten Geräte für dich und deine verbundenen Unternehmen, Mitarbeiter*innen, Vermittler*innen, Unterauftragnehmer*innen und Nutzer*innen zufriedenstellend sind; und (vi) jegliche Gebühren für Dienste Dritter im Rahmen der Nutzung der Dienste und verwalteten Geräte;
+
+sofern nichts anderes von Meta gestattet wird, stellst du sicher, dass alle natürlichen Personen, denen du die Nutzung der Dienste gestattest, mindestens achtzehn (18) Jahre alt sind oder die in ihrem Wohnsitzland geltende Volljährigkeit erreicht haben, sofern hierfür ein höheres Alter festgelegt ist; unter der Voraussetzung und ausschließlich hinsichtlich der Nutzung verwalteter Geräte im Mehrnutzermodus mit nicht identifizierten Nutzer*innen, kannst du natürlichen Personen, die mindestens dreizehn (13) Jahre alt sind (oder älter, je nach den anwendbaren rechtlichen Vorgaben ihres Wohnsitzlandes), gestatten, mit verwalteten Geräten im Mehrnutzermodus mit nicht identifizierten Nutzer*innen auf die Dienste zuzugreifen und diese zu nutzen;
+
+du darfst nicht die Rechte an geistigem Eigentum oder andere Rechte von Meta, seinen verbundenen Unternehmen, seinen Nutzer*innen oder irgendeinem Dritten verletzen; und
+
+du darfst nicht auf die Dienste oder verwalteten Geräte zugreifen oder sie nutzen für Aktivitäten, die: (i) gegen diese Nutzungsbedingungen oder die zusätzlichen Bestimmungen verstoßen; (ii) gegen die Nutzungsrichtlinien (zu finden unter www.meta.com/legal/meta-for-work/acceptable-use-policy/) oder den Verhaltenskodex für VR-Erlebnisse verstoßen, die jeweils von Zeit zu Zeit in Übereinstimmung mit ihren jeweiligen Bestimmungen aktualisiert werden können; (iii) gegen irgendwelche geltenden Gesetze, Regeln oder Vorschriften verstoßen; oder (iv) die Integrität der Dienste, der verwalteten Geräte oder des Quellcodes von Meta und der darin enthaltenen Daten gefährden oder stören.
+
+Zusätzliche Meta-Nutzungsbedingungen. Die Dienste, beruflichen Konten und verwalteten Geräte können genutzt werden, um auf andere Software, Anwendungen, Dienste und Inhalte von Meta zuzugreifen, und deine Nutzung sowie die Nutzung deiner Nutzer*innen und verbundenen Unternehmen dieser Software, Dienste und Inhalte können weiteren Meta-Nutzungsbedingungen oder -Richtlinien unterliegen, einschließlich den Nutzungsbedingungen und Richtlinien unter meta.com/legal/, sofern anwendbar (zusammen „Zusätzliche Bestimmungen“). Diese zusätzlichen Bestimmungen (in ihrer jeweils aktuellen Fassung) werden hier durch Verweis einbezogen. Sollten jedoch irgendwelche zusätzlichen Bestimmungen im Widerspruch mit diesen Nutzungsbedingungen stehen, gelten diese Nutzungsbedingungen im Umfang des Widerspruchs. Ohne Einschränkung des Vorstehenden stimmst du zu, dass jegliche kommerzielle, geschäftliche oder sonstige nicht private Nutzung dieser anderen Software, Anwendungen, Dienste und Inhalte von Meta, die nicht zu den Diensten zählen, den Bedingungen für die gewerbliche Nutzung von Meta Platforms Technologies-Produkten unterliegen (zu finden unter meta.com/legal/quest/commercial-terms/), die von Zeit zu Zeit durch Meta aktualisiert werden können.
+
+Dienste Dritter. Die Dienste und verwalteten Geräte können genutzt werden, um auf Software, Anwendungen, Dienste und Inhalte zuzugreifen, die von dir oder Dritten bereitgestellt werden, einschließlich privater benutzerdefinierter Apps und zugehörige Inhalte, die von dir oder in deinem Namen von einem Dritten entwickelt wurden („Dienste Dritter“). In manchen Fällen können Meta oder seine verbundenen Unternehmen im Auftrag eines Dritten Dienste Dritter im Namen eines Dritten an dich vertreiben oder dir zur Verfügung stellen.
+
+Nutzungsbedingungen Dritter. Deine Nutzung von bestimmten Diensten Dritter kann zusätzlichen Bestimmungen, Bedingungen und Richtlinien des jeweiligen Dritten unterliegen (zusammen die „Nutzungsbedingungen Dritter“). Du bist für die Einhaltung jeglicher anwendbarer Nutzungsbedingungen Dritter verantwortlich, und du stimmst zu, alle anwendbaren Bedingungen Dritter durchzulesen, bevor du auf die Dienste Dritter zugreifst, sie nutzt oder deine Kund*innendaten mit ihnen teilst. Darüber hinaus bist du in der wechselseitigen Beziehung zu Meta allein dafür verantwortlich, alle nötigen Lizenzen, Rechte und Berechtigungen für Dienste Dritter einzuholen und zu pflegen, und du musst dich vergewissern, dass der Dienst Dritter alle geltenden Gesetze und Vorschriften erfüllt. Im größtmöglichen nach geltendem Recht zulässigen Umfang übernehmen wir keine Verpflichtungen oder Haftung für: (i) deinen Zugriff auf irgendwelche Dienste Dritter oder deine Nutzung dieser, und (ii) jegliche Informationen, die du einem Dienst Dritter bereitstellst oder die wir mit deiner Genehmigung irgendwelchen Diensten Dritter bereitstellen, oder für die Erhebung, Nutzung oder Offenlegung solcher Informationen durch einen solchen Dritten in Verbindung mit den Diensten Dritter (einschließlich dem Anbieter dieser Dienste). Du erkennst an, dass Meta in Hinblick auf die Nutzungsbedingungen Dritter keine Vertragspartei ist; sollten jedoch irgendwelche Nutzungsbedingungen Dritter im Widerspruch zu den Bestimmungen dieser Nutzungsbedingungen in Hinblick auf den Zugriff auf oder die Nutzung der Dienste stehen, stimmst du zu, dass diese Nutzungsbedingungen im Umfang des Widerspruchs gelten.
+
+Standard-Endnutzer*innen-Lizenz. Solltest du auf einen Dienst Dritter, für den keine Lizenzbedingungen vorliegen, die deinen Zugriff auf und deine Nutzung dieses Dienstes Dritter regeln, zugreifen oder ihn nutzen und dieser Dienst Dritter wurde von Meta oder seinen verbundenen Unternehmen im Namen des Anbieters des Dienstes Dritter an dich vertrieben oder bereitgestellt, so gelten folgende Lizenzbedingungen für deinen Zugriff auf und deine Nutzung dieses Dienstes Dritter: (i) der Dritte, der den Dienst Dritter bereitstellt (und nicht Meta oder seine verbundenen Unternehmen), ist der Lizenzgeber für solche Dienste Dritter: (ii) dieser Dritte gewährt dir eine eingeschränkte, nicht übertragbare Lizenz für den Zugriff auf und die Nutzung der Dienste Dritter ausschließlich für deine privaten, nicht kommerziellen Zwecke; und (iii) du darfst die Dienste Dritter weder vollständig noch teilweise verändern, zurückentwickeln, dekompilieren oder auseinanderbauen, davon abgeleitete Werke erstellen oder jegliche Rechte an den Diensten Dritter unterlizenzieren, außer in dem Maße, wie eine solche Einschränkung durch geltendes Recht ausdrücklich untersagt ist (und in diesem Fall nur nach vorheriger schriftlicher Ankündigung an Meta) oder wie anderweitig ausdrücklich durch den Dritten genehmigt. Meta und seine verbundenen Unternehmen sind keine Vertragsparteien der Standard-Lizenzvereinbarung zwischen dir und dem Anbieter der Dienste Dritter.
+
+Einstellung von Diensten Dritter. Dienste Dritter können den Zugriff auf Daten zu Nutzer*innen, den Diensten und verwalteten Geräten erfordern. Dieser Zugriff unterliegt möglicherweise Vereinbarungen zwischen Anbietern der Dienste Dritter und Meta. Wir können diesen Zugriff auf einen Dienst Dritter aussetzen oder deaktivieren, wenn der Anbieter des entsprechenden Dienstes Dritter gegen diese Vereinbarungen verstößt oder wenn diese Vereinbarungen beendet wurden oder wenn dieser Anbieter, der Dienst Dritter oder du gegen unsere Nutzungsbedingungen oder Richtlinien oder geltendes Recht verstößt oder wenn Meta eine solche Maßnahme für notwendig erachtet, um eine Gefahr für die Sicherheit, Stabilität, Verfügbarkeit oder Integrität der Dienste oder anderer Meta-Produkte oder -Dienste abzuwenden. Dies kann deine Nutzung dieser Dienste Dritter beeinträchtigen, unter anderem dadurch, dass solche Dienste Dritter teilweise oder vollständig funktionsunfähig werden. Im größtmöglichen nach geltendem Recht zulässigen Umfang übernehmen wir dir gegenüber keine Haftung für die Entfernung oder Deaktivierung des Zugriffs auf Daten, Software, Apps, Dienste oder Inhalte durch einen Dritten oder durch dich aus diesen Gründen und sind nicht für Informationen, Inhalte oder sonstige Materialien verantwortlich, die aufgrund einer solchen Entfernung oder Deaktivierung gelöscht werden oder nicht mehr zugänglich sind. Dies bedeutet u. a. im gesetzlich zulässigen Rahmen, dass Meta dir in diesen Fällen keine Rückerstattung für solche Dienste Dritter gewährt. Alle Rechte, einschließlich Ansprüchen auf Rückerstattung, die du gemäß deinen Vereinbarungen mit Dritten hast, bleiben von diesem Abschnitt 4.c unberührt.
+
+Support und Hardware-Garantie.
+
+Support. Gemäß diesen Nutzungsbedingungen stellt Meta Standard-Support für deine Nutzung der Dienste bereit, wie unter www.meta.com/meta-for-work/ (kann von Zeit zu Zeit von Meta aktualisiert werden) beschrieben („Support“). Meta kann im alleinigen Ermessen entscheiden, dir bestimmte zusätzliche Support-Add-ons zum Kauf zur Verfügung zu stellen. Meta ist nicht verpflichtet, Support für Dienste Dritter oder sonstige Produkte oder Dienste, die dir nicht von Meta angeboten werden, bereitzustellen. Weitere Informationen zu solchen Add-ons findest du unter www.meta.com/meta-for-work/. Die Add-ons, einschließlich deiner Nutzung dieser unterliegen diesen Nutzungsbedingungen und zusätzlichen Bestimmungen von Meta, die für solche Add-ons gelten und die von Zeit zu Zeit von Meta aktualisiert werden können.
+
+Hardware-Garantie. Für verwaltete Geräte gilt eine beschränkte Garantie (einsehbar unter meta.com/legal/limited-warranty/), die von Zeit zu Zeit von Meta aktualisiert werden kann, und keine Bestimmung in diesen Nutzungsbedingungen oder den zusätzlichen Bestimmungen soll den Umfang dieser beschränkten Garantie eingrenzen oder erweitern. Meta kann außerdem zusätzlich eine erweiterte Garantie zum Kauf zur Verfügung stellen. Weitere Informationen zu dieser erweiterten Garantie findest du unter meta.com/legal/meta-warranty-plus/.
+
+Gebühren und Zahlung.
+
+Gebühren. Du stimmst zu, Meta die jeweils aktuellen Standardgebühren für die Dienste (derzeit zu finden unter www.meta.com/meta-for-work/, kann von Zeit zu Zeit von Meta aktualisiert werden) für deine Nutzung der Dienste (die „Gebühren“) zu entrichten, sofern nichts anderes schriftlich mit Meta oder einem Reseller (wie unten in Abschnitt 19.n definiert) vereinbart wurde. Ungeachtet des Vorstehenden kann dir Meta im alleinigen Ermessen für einen begrenzten, festgelegten Zeitraum kostenlosen Zugriff auf die Dienste oder Teile davon anbieten. Am Ende eines solchen Zeitraums mit kostenlosem Zugriff gelten die oben genannten Gebühren für deine Nutzung der Dienste.
+
+Zahlungen. Für die Zahlung für die Nutzung der Dienste wird eine Zahlungskarte belastet, und wir benachrichtigen dich über jegliche Bearbeitungsgebühren oder sonstige Dienstgebühren in Zusammenhang mit deiner Nutzung einer bestimmten Zahlungskarte, bevor diese Karte aufgrund deiner Nutzung der Dienste belastet wird. Du stimmst zu, dass Meta oder ein verbundenes Unternehmen von Meta deine Zahlung für die Dienste einziehen darf, dass Meta sein Recht auf Zahlung für die Dienste an ein verbundenes Unternehmen übertragen kann und dass Meta oder seine verbundenen Unternehmen Dritte in Zusammenhang mit dem Einzug von Zahlungen von dir beauftragen kann. Meta behält sich das Recht vor, von Zeit zu Zeit neue Zahlungskategorien hinzuzufügen oder vorhandene zu entfernen. Du bist einverstanden, dass wir während der Laufzeit oder danach eine geschäftliche Bonitätsauskunft über dich bei einer Kreditauskunft einholen können. Für jegliche verspäteten Zahlungen wird eine Bearbeitungsgebühr berechnet, die entweder eineinhalb Prozent (1,5 %) pro Monat vom fälligen Betrag beträgt oder dem gesetzlich zulässigen Höchstbetrag entspricht, je nachdem, welcher Betrag geringer ist. Ungeachtet des Vorstehenden gilt Folgendes, falls du deinen Wohnsitz in Frankreich hast: Für jegliche verspäteten Zahlungen wird eine Bearbeitungsgebühr berechnet, deren Höhe mindestens dem dreifachen (3) der aktuell geltenden Zinsrate entspricht (festgelegt vom französischen Wirtschaftsministerium), und zusätzlich zu dieser Bearbeitungsgebühr fällt für verspätete Zahlungen eine pauschale Entschädigung von mindestens vierzig Euro (40 €) an.
+
+Steuern. Sämtliche Gebühren werden ohne jegliche anfallenden Steuern angegeben, und du bist verpflichtet, sämtliche inländischen sowie ausländischen Umsatz-, Gebrauchs-, Waren- und Dienstleistungs-, Mehrwert-, Quellen- oder ähnlichen Steuern oder Abgaben zu zahlen und zu tragen, die in Bezug auf die im Rahmen dieser Nutzungsbedingungen durchgeführten Transaktionen anfallen und keine auf dem Einkommen von Meta basierenden Steuern sind. Du hast sämtliche gemäß diesen Nutzungsbedingungen fälligen Beträge vollständig und ohne jegliche Aufrechnung, Gegenforderung, Abzüge oder Einbehaltung zu zahlen. Sollte irgendeine von dir gemäß diesen Nutzungsbedingungen durchgeführte Zahlung einem Abzug oder einer Einbehaltung unterliegen, bist du dafür verantwortlich, die entsprechende Zahlung an die zuständigen Steuerbehörden vorzunehmen. Zudem trägst du die finanzielle Verantwortung für Zinsen, Bußgelder, Strafen oder ähnliche Verbindlichkeiten, die sich aus deinem Versäumnis ergeben, derartige Steuern rechtzeitig an die zuständige staatliche Behörde oder Stelle abzuführen. Du erkennst an und akzeptierst, dass du auf Dienste mit der in diesen Nutzungsbedingungen aufgeführten oder uns auf sonstige Weise schriftlich bereitgestellten Rechnungsadresse zugreifst und diese nutzt. Wenn sich diese Adresse in den USA befindet, stellen wir dir auf der Grundlage des Standorts deiner Rechnungsadresse die geltende US-Umsatzsteuer/Gebrauchssteuer in Rechnung. Wenn eine Steuerbehörde eines US-Bundesstaates erklärt, dass Meta Steuern von dir hätte einziehen sollen, und du derartige Steuern direkt an den Bundesstaat gezahlt hast, verpflichtest du dich, uns innerhalb von dreißig (30) Tagen nach entsprechender schriftlicher Aufforderung seitens Meta den Nachweis zu erbringen, dass diese Steuer (zur Zufriedenstellung einer solchen Steuerbehörde) gezahlt wurde. Du stimmst zu, uns für jegliche Unterzahlung oder Nichtzahlung irgendwelcher Steuern, Strafen und Zinsen schadlos zu halten.
+
+Rabatte für gemeinnützige Organisationen. Wenn du als gemeinnützige Organisation einen Antrag auf Zugriff auf die Dienste zu einer ermäßigten Gebühr stellst und wir feststellen, dass du für eine ermäßigte Gebühr in Bezug auf einen oder mehrere Dienste in Übereinstimmung mit den zu diesem Zeitpunkt geltenden Richtlinien von Meta qualifiziert bist, können wir dir ungeachtet von Abschnitt 4.a die qualifizierenden Dienste zu einer ermäßigten Gebühr in Übereinstimmung mit diesen Richtlinien auf einer fortlaufenden Basis anbieten. Wenn du die Voraussetzungen für den Zugriff mit ermäßigter Gebühr nicht mehr erfüllst, benachrichtigen wir dich drei (3) Monate im Voraus über einen solchen Ausschluss, und nach dieser Benachrichtigung gelten die Gebühren gemäß Abschnitt 6.a.
+
+Vertraulichkeit.
+
+Verpflichtungen. Jede Partei stimmt zu, dass sämtliche Unternehmens-, technischen und finanziellen Informationen, die sie (als „empfangende Partei“) von der offenlegenden Partei oder ihren verbundenen Unternehmen, Mitarbeitern, Vermittler*innen oder Unterauftragnehmer*innen im Zusammenhang mit diesen Nutzungsbedingungen erhält („offenlegende Partei“), das vertrauliche Eigentum der offenlegenden Partei darstellen („vertrauliche Informationen“), vorausgesetzt, sie werden zum Zeitpunkt der Offenlegung entweder als vertraulich oder als urheberrechtlich geschützt ausgewiesen oder die empfangende Partei hätte aufgrund der Art der offengelegten Informationen und der mit der Offenlegung verbundenen Umstände angemessenerweise wissen müssen, dass sie vertraulich oder urheberrechtlich geschützt sind. Um Zweifel auszuschließen, werden die Dienste und sämtliche zugehörigen und zugrunde liegenden Technologien sowie abgeleitete Werke, Veränderungen oder Verbesserungen an einem der vorstehenden Elemente, die von oder im Namen von Meta erstellt werden, als vertrauliche Informationen von Meta angesehen. Sofern in diesen Nutzungsbedingungen nicht ausdrücklich etwas genehmigt wird, hat die empfangende Partei (i) jegliche vertraulichen Informationen vertraulich zu behandeln und sie nicht gegenüber Dritten offenzulegen und (ii) vertrauliche Informationen nicht für irgendeinen anderen Zweck zu verwenden als zur Erfüllung ihrer Pflichten und zur Ausübung ihrer Rechte gemäß diesen Nutzungsbedingungen. Ungeachtet des Vorstehenden kann die empfangende Partei vertrauliche Informationen gegenüber ihren Mitarbeiter*innen, Bevollmächtigten, Auftragnehmer*innen und sonstigen Vertreter*innen offenlegen, die ein berechtigtes Interesse haben, sie zu kennen (hinsichtlich Meta, einschließlich seiner verbundenen Unternehmen und Unterauftragnehmer), vorausgesetzt, dass sie an Geheimhaltungspflichten gebunden sind, die für die vertraulichen Informationen der offenlegenden Partei nicht weniger Schutz bieten als in diesem Abschnitt 7 vorgesehen und dass die empfangende Partei weiterhin die Verantwortung für die Einhaltung der Bestimmungen in diesem Abschnitt 7 seitens einer solchen Person behält. Um Zweifel auszuschließen, schränkt keine Bestimmung in Abschnitt 7 das Eigentum und die Lizenzrechte von Meta, einschließlich der Rechte, Feedback zu nutzen, ein.
+
+Ausnahmen. Die Geheimhaltungspflichten der empfangenden Partei gemäß diesen Nutzungsbedingungen gelten nicht für Informationen, für die die empfangende Partei nachweisen kann: (i) dass sie sich bereits vor dem Erhalt der vertraulichen Informationen rechtmäßig in ihrem Besitz befunden haben oder ihr bekannt waren; (b) dass sie ohne Verschulden der empfangenden Partei öffentlich bekannt sind bzw. geworden sind; (c) dass die empfangende Partei sie von einem Dritten ohne Verletzung irgendeiner Geheimhaltungspflicht erhalten hat; oder (d) dass sie von Mitarbeiter*innen der empfangenden Partei, die keinen Zugriff auf solche Informationen hatten, unabhängig entwickelt worden sind. Die empfangende Partei kann Kopien von vertraulichen Informationen aufbewahren und/oder diese offenlegen, soweit dies durch geltende Gesetze, Vorschriften oder eine bindende Rechtsordnung erforderlich ist, vorausgesetzt, dass die empfangende Partei (sofern nicht durch Gesetze, Vorschriften oder die geltende Rechtsordnung untersagt) die offenlegende Partei (im praktikablen Maße vor einer solchen Offenlegung) informiert und mit der offenlegenden Partei zusammenarbeitet, wenn diese rechtmäßige Bemühungen unternimmt, dieser Offenlegung zu widersprechen oder sie einzuschränken oder eine vertrauliche Behandlung der Offenlegung zu erwirken.
+
+Einstweilige Verfügung. Die empfangende Partei erkennt an, dass die Verwendung oder Offenlegung von vertraulichen Informationen entgegen diesem Abschnitt 7 erheblichen Schaden für die offenlegende Partei verursachen könnte, für den Schadenersatz allein kein ausreichendes Rechtsmittel darstellen würde, und dass die offenlegende Partei deshalb für jedwede angedrohte oder tatsächliche Verwendung oder Offenlegung durch die empfangende Partei zusätzlich zu den ihr möglicherweise per Gesetz zustehenden Rechtsmitteln berechtigt ist, eine einstweilige Verfügung („equitable relief“) zu erwirken.
+
+Rechte an geistigem Eigentum.
+
+Meta-Eigentümerschaft. Diese Nutzungsbedingungen gelten für deinen Zugriff auf und die Nutzung der Dienste, und im Rahmen dieser Nutzungsbedingungen werden dir, deinen verbundenen Unternehmen, deinen Nutzer*innen oder irgendwelchen Dritten keine Eigentumsrechte übertragen. Meta und seine Lizenzgeber behalten sämtliche Rechte, Eigentumsrechte, Rechtsansprüche sowie sonstige vergleichbare Rechte (einschließlich sämtlicher Rechte an geistigem Eigentum) in Bezug auf die Dienste und die verwalteten Geräte, jegliche zugehörige und zugrunde liegende Technologien und abgeleiteten Werke, Änderungen oder Verbesserungen dieser, die von oder im Auftrag von Meta erstellt wurden, also auch auf der Grundlage deines Feedbacks (Definition weiter unten). Dir werden außer den ausdrücklich in diesen Nutzungsbedingungen dargelegten Rechten keine weiteren Rechte gewährt.
+
+Feedback. Wenn du Kommentare, Fragen, Vorschläge, Anwendungsfälle oder sonstiges Feedback hinsichtlich deiner Nutzung der Dienste, der verwalteten Geräte oder der API oder unserer anderen Produkte oder Dienste einreichst (zusammen das „Feedback“) und ungeachtet aller anders lautender Bestimmungen hierin, können wir und unsere Bevollmächtigten dieses Feedback in Verbindung mit jedem unserer Produkte oder Dienste bzw. denen unserer verbundenen Unternehmen ohne Verpflichtung oder Entschädigung dir gegenüber frei nutzen oder verwerten.
+
+Rechte und Pflichten bei der Datennutzung.
+
+Kund*innendaten. Gemäß diesen Nutzungsbedingungen behältst du sämtliche Rechte, Rechtsansprüche und Interessen bezüglich der Kund*innendaten und während der Laufzeit gewährst du Meta ein nicht exklusives, weltweites, gebührenfreies, voll bezahltes Recht, die Kund*innendaten zur Bereitstellung und Verbesserung der Dienste (einschließlich Support), zu Abrechnungszwecken, zur Förderung von Schutz, Integrität und Sicherheit und zur Erfüllung gesetzlicher Verpflichtungen zu nutzen.
+
+Du erkennst an und stimmst zu, dass Meta unter Umständen Kund*innendaten mit anderen Diensten, Apps, Erlebnissen, Systemen oder Organisationen zu Abrechnungszwecken, zur Förderung von Schutz Integrität und Sicherheit, zur Erfüllung rechtlicher Verpflichtungen, zur Durchführung notwendiger Funktionen (wie z. B. die gemeinsame Nutzung von Daten mit dem Betriebssystem für ein verwaltetes Gerät) und für den Zugriff auf andere Dienste, Apps und Erlebnisse, die von dir oder deinen Nutzer*innen genehmigt wurden, teilen muss. Bei einer solchen Weitergabe können die spezifischen Daten, die geteilt werden, den Bedingungen, Richtlinien und Anforderungen unterliegen, die für diese anderen Dienste, Apps, Erlebnisse, Systeme oder Organisationen gelten.
+
+Du stimmst zu, (i) dass weder Meta noch seine verbundenen Unternehmen verpflichtet ist/sind, dir oder einer mit einem Nutzer verbundenen Rechtseinheit Informationen zu persönlichen Konten, die ein Nutzer möglicherweise für andere von Meta angebotene Produkte oder Dienste bei Meta hat, bereitzustellen oder zugänglich zu machen; (ii) dass du allein für die Richtigkeit und Inhalte von Kundendaten verantwortlich bist; (iii) alle gesetzlich für die Erhebung und Verwendung von Kundendaten vorgeschriebenen Rechte und Einwilligungen von Nutzern und entsprechenden Dritten einzuholen wie es in diesen Nutzungsbedingungen dargelegt ist; und (iv) dass du dafür verantwortlich bist sicherzustellen, dass deine Nutzung der Dienste, einschließlich Kundendaten und ihrer Verwendung im Rahmen dieser Nutzungsbedingungen, nicht gegen Gesetze oder Rechte Dritter, darunter Rechte an geistigem Eigentum, Datenschutz- oder Veröffentlichungsrechte, verstößt. Wenn irgendwelche Kund*innendaten unter Verletzung dieses Abschnitts 9 übermittelt oder verwendet werden, stimmst du zu, diese unverzüglich aus den Diensten zu entfernen. Du allein bist verantwortlich für jegliche Entscheidung, Kund*innendaten mit Nutzer*innen oder irgendwelchen Dritten zu teilen. Meta und seine verbundenen Unternehmen sind nicht verantwortlich für die Verwendung, Änderung, Verbreitung oder Löschung von Kund*innendaten bzw. den Zugriff auf diese durch Personen, denen du oder deine Nutzer*innen sie zur Verfügung stellst/stellen.
+
+Ungeachtet aller in diesen Nutzungsbedingungen enthaltenen Bestimmungen bist und bleibst du jederzeit dafür verantwortlich, angemessene Datenschutzhinweise und -informationen bereitzustellen und alle erforderlichen Zustimmungen von deinen Mitarbeitern, Nutzern und allen Dritten, die die Dienste und verwalteten Geräte nutzen, in Bezug auf personenbezogene Informationen einzuholen, die von Meta, dir oder in deinem Namen bei der Nutzung der Dienste und verwalteten Geräte erhoben oder verarbeitet werden.
+
+Personenbezogene Daten. Sofern Meta betroffene personenbezogene Daten im Rahmen dieser Nutzungsbedingungen als „Diensteanbieter“ oder „Auftragsverarbeiter“ verarbeitet, gelten die globalen Meta-Nutzungsbedingungen für Auftragsverarbeiter (zu finden unter https://www.facebook.com/legal/terms/Meta-Global-Processor-Terms). Im Falle von internationalen Datenübermittlungen von betroffenen personenbezogenen Daten, die den Europäischen Datenschutzanforderungen unterliegen, findet Abschnitt 4 der Nutzungsbedingungen für die Region Europa der globalen Meta-Nutzungsbedingungen für Auftragsverarbeiter Anwendung. Die Parteien vereinbaren, dass, soweit anwendbar, die globalen Meta-Nutzungsbedingungen für Auftragsverarbeiter, die in Übereinstimmung mit den Nutzungsbedingungen von Zeit zu Zeit von Meta aktualisiert werden können, Teil dieser Nutzungsbedingungen sind und durch Verweis einbezogen werden. Alle großgeschriebenen Begriffe in diesem Unterabschnitt (b), die nicht in diesen Nutzungsbedingungen definiert sind, haben die in den globalen Meta-Nutzungsbedingungen für Auftragsverarbeiter festgelegte Bedeutung. Für die Zwecke dieser Nutzungsbedingungen bezeichnen „Betroffene personenbezogene Daten“ personenbezogene Daten, die Kund*innendaten sind.
+
+In Zusammenhang mit betroffenen personenbezogenen Daten autorisiert und weist der Kunde Meta generell an, die in der Liste unter www.meta.com/legal/meta-for-work/subprocessor-list/, die von Zeit zu Zeit und in Übereinstimmung mit den globalen Meta-Nutzungsbedingungen für Auftragsverarbeiter von Meta aktualisiert werden kann, genannten Unterauftragnehmer und Unterauftragsverarbeiter zu beauftragen.
+
+Verbotene Daten. Du stimmst zu, keine Informationen oder Daten über die Dienste zu übermitteln, die gemäß geltenden Gesetzen und/oder Vorschriften einem besonderen Schutz oder Verbreitungseinschränkungen unterliegen („verbotene Informationen“). Im Hinblick auf Gesundheitsinformationen erkennst du an, dass Meta kein Geschäftspartner oder Unterauftragnehmer ist (gemäß Definition dieser Begriffe im US-amerikanischen Health Insurance and Accountability Act („HIPAA“)) und dass die Dienste nicht HIPAA-konform sind. Meta übernimmt ungeachtet in diesen Bedingungen enthaltener gegenteiliger Aussagen im Rahmen dieser Vereinbarung keine Haftung für Verbotene Informationen.
+
+Weitere Informationen. Du erkennst an und stimmst zu, dass Meta die folgenden Informationen (diese Informationen, ohne Kund*innendaten, werden zusammen als „Dienstdaten“ bezeichnet) erfasst, speichert und nutzt: (i) Informationen von deiner Kund*innen-Instanz; (ii) Nutzungs-, Protokoll- und Funktionsdaten, die bei deiner Nutzung der Dienste generiert werden; (iii) Informationen aus Leistungsdiagnosen und Analysen zu den Diensten; und (iv) Informationen bezüglich deiner technischen und sonstigen Support-Anfragen. Gemäß diesen Nutzungsbedingungen und geltendem Recht können wir Dienstdaten mit unseren verbundenen Unternehmen, Vermittler*innen, Auftragnehmer*innen und anderen Vertreter*innen teilen, und wir und unsere verbundenen Unternehmen können sie verwenden, um die Dienste, unsere anderen Dienste und die Dienste und Produkte unserer verbundenen Unternehmen zu entwickeln, zu betreiben, bereitzustellen, zu verbessern, zu verstehen, anzupassen, zu unterstützen und zu vermarkten. Darüber hinaus kann Meta Daten, die gemäß diesem Abschnitt 9.d erfasst wurden, mit Resellern im für die Bereitstellung, Verbesserung und Unterstützung der Dienste erforderlichen Umfang teilen. Daten, die gemäß diesem Abschnitt 9.d erfasst wurden, werden in Übereinstimmung mit der Meta-Datenschutzrichtlinie (zu finden unter facebook.com/privacy/policy/), ergänzt durch die ergänzende Datenschutzrichtlinie von Meta Platforms Technologies (zu finden unter meta.com/legal/privacy-policy/), behandelt.
+
+Sicherungen. Meta stellt keinen Archivierungsdienst bereit, und du allein bist für das Erstellen von Sicherheitskopien deiner Daten, einschließlich Kund*innendaten, verantwortlich.
+
+Datensicherheit.
+
+Sicherheit von Kund*innendaten. Wir setzen geeignete technische, organisatorische und Sicherheitsmaßnahmen ein, die dem Schutz der in unserem Besitz befindlichen Kund*innendaten vor unberechtigtem Zugriff, unbefugter Änderung, Offenlegung oder Zerstörung dienen; diese Maßnahmen werden in der Ergänzung zur Datensicherheit beschrieben, zu finden unter www.meta.com/legal/meta-for-work/data-security-addendum/ (die „Ergänzung zur Datensicherheit“).
+
+Rechtliche Offenlegungen und Anfragen Dritter. In der Regel bist du dafür verantwortlich, auf Anfragen Dritter hinsichtlich Kund*innendaten zu reagieren, wie z. B. von Aufsichtsbehörden, Nutzer*innen oder einer Strafverfolgungsbehörde („Anfragen Dritter“). Dir ist jedoch bewusst, dass Meta als Reaktion auf Anfragen Dritter Kund*innendaten und andere Informationen offenlegen kann, um seine rechtlichen Anforderungen zu erfüllen. Sofern dies rechtlich und gemäß den Bedingungen der Anfrage eines Dritten zulässig ist, bemühen wir uns unter solchen Umständen auf angemessene Weise, (i) dich über unseren Erhalt einer Anfrage eines Dritten zu informieren und den Dritten aufzufordern, dich zu kontaktieren, und (ii) deinen angemessenen Anfragen bezüglich deiner Bemühungen, gegen eine Anfrage eines Dritten auf deine Kosten Einspruch zu erheben, nachzukommen. Du hast zunächst zu versuchen, eigenständig die für die Beantwortung der Anfrage eines Dritten erforderlichen Informationen zu erlangen und nur dann Kontakt mit uns aufzunehmen, wenn du solche Informationen nicht auf angemessene Weise erlangen kannst.
+
+Laufzeit und Kündigung/Beendigung.
+
+Laufzeit. Diese Nutzungsbedingungen gelten so lange weiter, bis sie wie hierin gestattet gekündigt bzw. beendet werden (die „Laufzeit“).
+
+Ordentliche Kündigung. Jede der Parteien kann diese Nutzungsbedingungen jederzeit ohne Grund oder aus beliebigem Grund mit einer Frist von dreißig (30) Tagen (gemäß Abschnitt 18.h (Mitteilungen) unten) gegenüber der anderen Partei kündigen.
+
+Kündigung und Aussetzung durch Meta. Meta kann diese Nutzungsbedingungen in dem Fall nach seinem Ermessen kündigen, wenn ein von dir begangener Verstoß innerhalb von zehn (10) Tagen nach Eingang der schriftlichen Mitteilung mit der Beschreibung des Verstoßes nicht zu Metas Zufriedenheit behoben wird. Ohne dass sich dies auf unsere anderen Rechte gemäß diesen Nutzungsbedingungen auswirkt, kann Meta darüber hinaus deinen Zugriff auf oder deine Nutzung der Dienste unmittelbar aussetzen, wenn du gegen diese Nutzungsbedingungen verstößt (einschließlich das Versäumnis, fällige Gebühren fristgerecht an Meta oder einen Reseller zu zahlen) oder wenn wir eine solche Maßnahme als notwendig erachten, um die Sicherheit, Stabilität, Verfügbarkeit oder Integrität der Dienste oder anderer Meta-Produkte oder -Dienste zu wahren. Im größtmöglichen, nach anwendbarem Recht zulässigen Umfang übernehmen Meta und seine verbundenen Unternehmen keine Haftung für einen solchen Verlust des Zugriffs und der Nutzung und haben keine Verpflichtungen im Zusammenhang mit einem solchen Verlust.
+
+Löschung von Kund*innendaten. Meta löscht Kund*innendaten unverzüglich nach jeder Beendigung/Kündigung dieser Nutzungsbedingungen und/oder deiner Kund*innen-Instanz. Dir ist jedoch bewusst, dass gelöschte Inhalte während der Durchführung der Löschung für einen angemessenen Zeitraum in Sicherungskopien weiterbestehen können. Wie in Abschnitt 9.e (Sicherheitskopien) oben dargelegt, bist du allein für das Erstellen von Sicherheitskopien deiner Daten, einschließlich Kund*innendaten, verantwortlich.
+
+Folgen einer Beendigung/Kündigung. Nach jeder Beendigung/Kündigung dieser Nutzungsbedingungen hat Folgendes zu geschehen: (i) du musst umgehend den Zugriff auf oder die Nutzung der Dienste einstellen und dafür sorgen, dass auch deine Nutzer*innen dies tun; (ii) nach Aufforderung durch die offenlegende Partei und gemäß Abschnitt 11.d (Löschung von Kund*innendaten) hat die empfangende Partei umgehend jegliche der in ihrem Besitz befindlichen vertraulichen Informationen der offenlegenden Partei zurückzugeben oder zu löschen; (iii) du hast Meta umgehend jegliche unbezahlten Gebühren zu zahlen, die vor der Beendigung/Kündigung angefallen sind; und (iv) wenn Meta gemäß Abschnitt 11.b (Ordentliche Kündigung) diese Nutzungsbedingungen ohne Grund kündigt, hat Meta dir einen anteiligen Betrag jeglicher im Voraus gezahlter Gebühren für nicht genutzte Dienste zu erstatten (falls zutreffend).
+
+Weiterbestehen. Die nachfolgenden Abschnitte gelten über jegliche Beendigung/Kündigung dieser Nutzungsbedingungen hinaus: 1.d (Einschränkungen), 2 (Deine Pflichten), 3 (Zusätzliche Meta-Nutzungsbedingungen) sowie 6 (Gebühren und Zahlung) bis einschließlich 19 (Begriffsbestimmungen).
+
+Gewährleistungsausschluss. IM GRÖSSTMÖGLICHEN, NACH ANWENDBAREM RECHT ZULÄSSIGEN UMFANG SCHLIESST META AUSDRÜCKLICH SÄMTLICHE AUSDRÜCKLICHEN, STILLSCHWEIGENDEN ODER GESETZLICHEN GEWÄHRLEISTUNGEN UND ZUSICHERUNGEN JEGLICHER ART AUS, EINSCHLIESSLICH JEGLICHER GEWÄHRLEISTUNGEN DER MARKTFÄHIGKEIT, DER EIGNUNG FÜR EINEN BESTIMMTEN ZWECK, DES RECHTSANSPRUCHS BZW. DER NICHT-VERLETZUNG. WEDER WIR NOCH UNSERE VERBUNDENEN UNTERNEHMEN GARANTIEREN, DASS DIE DIENSTE UNTERBRECHUNGS- ODER FEHLERFREI LAUFEN, UND WIR SCHLIESSEN AUSDRÜCKLICH JEGLICHE ZUSICHERUNGEN ODER GEWÄHRLEISTUNGEN IN HINBLICK AUF DIE VERFÜGBARKEIT ODER NUTZUNG DER DIENSTE ODER VERWALTETEN GERÄTE INNERHALB UND AUSSERHALB DER UNTERSTÜTZTEN GEBIETE AUS, EINSCHLIESSLICH DER EINHALTUNG GESETZLICHER ODER BEHÖRDLICHER ANFORDERUNGEN SOLCHER DIENSTE ODER VERWALTETEN GERÄTE INNERHALB UND AUSSERHALB DER UNTERSTÜTZTEN GEBIETE. IM GRÖSSTMÖGLICHEN, NACH ANWENDBAREM RECHT ZULÄSSIGEN UMFANG LEHNEN META UND SEINE VERBUNDENEN UNTERNEHMEN JEGLICHE VERANTWORTUNG FÜR DIENSTE DRITTER AB, AUF DIE DU IN VERBINDUNG MIT DEN DIENSTEN UND/ODER VERWALTETEN GERÄTEN ZUGREIFST ODER DIE DU NUTZT, UND DU ERKENNST AN UND STIMMST ZU, DASS DEIN ZUGRIFF BZW. DEINE NUTZUNG SOLCHER DIENSTE DRITTER AUF EIGENES RISIKO ERFOLGT.
+
+WIR UND UNSERE VERBUNDENEN UNTERNEHMEN ÜBERNEHMEN KEINE GARANTIE ODER GEWÄHRLEISTUNG DAFÜR, DASS DIE DIENSTE IN EINEM BESTIMMTEN REGULIERTEN BEREICH ODER SEKTOR (Z. B. BEHÖRDEN, GESUNDHEITSWESEN, FINANZDIENSTLEISTUNGEN ODER BILDUNGSWESEN) GEWERBLICH GENUTZT WERDEN KÖNNEN ODER FÜR EINE BESTIMMTE GEWERBLICHE NUTZUNG ODER DIE NUTZUNG IN EINEM BESTIMMTEN GEWERBLICHEN BEREICH ODER SEKTOR ODER EINER BESTIMMTEN SICHERHEITSUMGEBUNG GEEIGNET ODER KONZIPIERT SIND. ES LIEGT IN DEINER VERANTWORTUNG, FESTZUSTELLEN, OB DIE DIENSTE IN ÜBEREINSTIMMUNG MIT DEN GELTENDEN GESETZEN UND VORSCHRIFTEN IN BEZUG AUF EINE BESTIMMTE GEWERBLICHE NUTZUNG ODER EINEN REGULIERTEN BEREICH ODER SEKTOR SOWIE MIT DEN GELTENDEN GESETZEN ZU VIDEOAUFZEICHNUNGEN, AUDIOAUFNAHMEN, BIOMETRISCHEN DATEN UND ANDEREN PRIVATSPHÄRE- ODER DATENSCHUTZGESETZEN VERWENDET WERDEN KÖNNEN. DU VERPFLICHTEST DICH, DIE DIENSTE NICHT GEWERBLICH ZU NUTZEN, WENN UNS ODER UNSEREN VERBUNDENEN UNTERNEHMEN DIES NACH GELTENDEM RECHT ZUSÄTZLICHE GESETZLICHE ANFORDERUNGEN AUFERLEGEN ODER UNS UND UNSERE VERBUNDENEN UNTERNEHMEN ANDERWEITIG EINER HAFTUNG GEGENÜBER DRITTEN AUSSETZEN WÜRDE.
+
+Haftungsbeschränkung.
+
+Außer für ausgeschlossene Ansprüche (Begriffsbestimmung nachstehend) gilt Folgendes:
+
+KEINE DER PARTEIEN IST HAFTBAR FÜR IRGENDWELCHE NUTZUNGSAUSFÄLLE, ENTGANGENE GEWINNE, VERLORENE ODER UNRICHTIGE DATEN, GESCHÄFTSUNTERBRECHUNGEN ODER -VERLUSTE, VERZÖGERUNGSKOSTEN ODER INDIREKTE ODER FOLGESCHÄDEN JEGLICHER ART, UND ZWAR UNGEACHTET DER KLAGEFORM UND OB SIE SICH IM RAHMEN EINES VERTRAGS, AUS UNERLAUBTER HANDLUNG (EINSCHLIESSLICH FAHRLÄSSIGKEIT), GEFÄHRDUNGSHAFTUNG ODER AUF IRGENDEINE ANDERE ART UND WEISE ERGEBEN, UND ZWAR SELBST DANN, WENN DIE PARTEI ÜBER DIE MÖGLICHKEIT DERARTIGER SCHÄDEN IM VORAUS INFORMIERT WURDE; UND
+
+DIE GESAMTE HAFTUNG KEINER PARTEI GEGENÜBER DER ANDEREN PARTEI IN ZUSAMMENHANG MIT DIESEN NUTZUNGSBEDINGUNGEN, DEN DIENSTEN ODER DEN VERWALTETEN GERÄTEN DARF DEN BETRAG ÜBERSTEIGEN, DER TATSÄCHLICH VOM*VON DER KUND*IN IN VERBINDUNG MIT DEN ANSPRUCHSBEGRÜNDENDEN DIENSTEN IN DEN VORANGEGANGENEN ZWÖLF (12) MONATEN GEMÄSS DIESEN NUTZUNGSBEDINGUNGEN AN META GEZAHLT WURDE ODER ZU ZAHLEN WAR. SOFERN FÜR DIESEN ZEITRAUM KEINE GEBÜHREN BEZAHLT WURDEN ODER ZU ZAHLEN WAREN, BETRÄGT DER HÖCHSTBETRAG ZEHNTAUSEND US-DOLLAR (10.000 $).
+
+Für den Zweck dieses Abschnitts 13 bezeichnet der Begriff „Ausgeschlossene Ansprüche“ (i) die Haftung des*der Kund*in gemäß Abschnitt 2 (Deine Pflichten) oder Abschnitt 9 (Rechte und Pflichten bei der Datennutzung); (ii) den Verstoß einer Partei gegen ihre Pflichten gemäß Abschnitt 7 (Vertraulichkeit), mit Ausnahme von Ansprüchen, die sich auf Kund*innendaten beziehen; (iii) die Pflichten des*der Kund*in zur Haftungsfreistellung gemäß Abschnitt 14 (Haftungsfreistellung) dieser Nutzungsbedingungen; (iv) die Haftung des*der Kund*in, die sich aus Software, Anwendungen, Diensten oder Inhalten ergibt, die vom oder im Namen des*der Kund*in in Zusammenhang mit den Diensten oder verwalteten Geräten bereitgestellt wurden; und (v) jegliche sonstige Haftung in dem Umfang, der gemäß geltendem Recht nicht ausgeschlossen oder eingeschränkt werden kann.
+
+Haftungsfreistellung.
+
+Durch den Kunden. Soweit dies nach geltendem Recht zulässig ist, stimmst du zu, uns und unsere verbunden Unternehmen (nach Aufforderung) zu verteidigen, zu entschädigen und schadlos zu halten von jeglichen Ansprüchen, Haftungen, Schadenersatzzahlungen, Verlusten und Ausgaben (soweit sie nicht durch Fahrlässigkeit, Betrug oder vorsätzliches Fehlverhalten unsererseits verursacht wurden), einschließlich angemessener Anwaltsgebühren und -kosten, die sich aus oder in Zusammenhang mit Folgendem ergeben: (i) Kauf oder Nutzung oder Unfähigkeit zur Nutzung der Dienste, berufliche Konten oder verwalteten Geräte durch dich oder deine Nutzer*innen (ii) tatsächlicher oder mutmaßlicher Verstoß durch dich, Nutzer*innen oder deine verbundenen Unternehmen gegen diese Nutzungsbedingungen oder sonstige geltende Nutzungsbedingungen oder Richtlinien, auf die in diesen Nutzungsbedingungen verwiesen wird; (iii) jegliche Handlungen oder Unterlassungen eines verbundenen Unternehmens oder eines*einer sonstigen Nutzer*in (einschließlich Handlungen von Administrator*innen in Hinblick auf die Kund*innen-Instanz, Nutzer*innen, berufliche Konten oder verwalteten Geräte); (iv) jegliche Nutzung der Dienste oder verwalteten Geräte, die gegen geltende Gesetze oder die Rechte Dritter verstößt; (v) jegliche Kund*innendaten oder andere Daten oder Inhalte, die du über die Dienste oder verwalteten Geräte bereitstellst, hochlädst oder übermittelst; oder (vi) jeglicher Zugriff auf oder Nutzung der Dienste durch Dritte, denen du den Zugriff auf oder die Nutzung der Dienste ermöglicht hast. Wir können uns an der Verteidigung und Klärung bzw. Beilegung eines jeden solchen Anspruchs mit unserem eigenen Rechtsanwalt und auf eigene Kosten beteiligen. Du darfst ohne unsere vorherige schriftliche Einwilligung keinen Anspruch regeln bzw. beilegen, wenn die Regelung uns dazu verpflichtet, irgendeine Handlung durchzuführen, von irgendeiner Handlung Abstand zu nehmen oder irgendeine Haftung anzuerkennen.
+
+Durch Meta. Meta stimmt zu, dich und deine jeweiligen Mitarbeiter*innen, leitende Angestellte bzw. Geschäftsführer*innen und Vorstandsmitglieder zu verteidigen, zu entschädigen und schadlos zu halten von (i) Schadenersatzzahlungen gegen dich, die letztendlich einem Dritten zugesprochen wurden; und (ii) angemessenen, tatsächlich angefallenen Gerichtsgebühren und -kosten im Falle von (i) und (ii), ausschließlich in Verbindung mit dem Verfahren eines Dritten gegen dich, bei dem behauptet wird, dass die Dienste in der Form, in der sie von Meta bereitgestellt werden und in Übereinstimmung mit diesen Nutzungsbedingungen genutzt werden, in den zum Zeitpunkt deiner Zustimmung zu den Nutzungsbedingungen unterstützten Ländern gegen gültige Patente, Urheberrechte oder Markenrechte verstoßen oder diese unterschlagen oder auf andere Weise verletzen, vorausgesetzt du: (A) benachrichtigst Meta unmittelbar, sobald du Kenntnis von dem Anspruch erhältst, einschließlich der Art des Anspruchs, der Höhe der Schadenersatzzahlung und der Art sonstiger eingesetzter Rechtsmittel; (B) erteilst eine umfassende Vollmacht zur Verfügung über den Anspruch und wirkst unterstützend mit (jeweils auf Metas Kosten); und (C) machst keine nachteiligen Zugeständnisse in Bezug auf den Anspruch. Du kannst dich an der Verteidigung und Klärung bzw. Beilegung eines jeden solchen Anspruchs mit deiner eigenen Rechtsvertretung und auf eigene Kosten beteiligen. Wir werden ohne deine vorherige schriftliche Einwilligung keinen Anspruch regeln bzw. beilegen, wenn dies dich dazu verpflichtet, irgendeine Handlung durchzuführen, von irgendeiner Handlung Abstand zu nehmen oder irgendeine Haftung anzuerkennen, sofern dies keine unzumutbare Verweigerung oder Verzögerung bedeutet. Meta übernimmt keinerlei Haftung für Folgendes: (1) Nutzung der Dienste, die nicht diesen Nutzungsbedingungen entspricht; (2) Ansprüche, die sich aus der Kombination der Dienste mit einem nicht von Meta angebotenen Produkt oder einer Software ergeben; (3) Änderungen oder Anpassungen der Dienste durch andere Personen oder Einheiten als Meta; (4) Kompromisse oder Regelungen bzw. Beilegungen, die ohne die schriftliche Zustimmung durch Meta getroffen wurden; (5) Ansprüche, die sich aus deinem Versäumnis ergeben, Updates, Upgrades, Fehlerkorrekturen, Änderungen oder Überarbeitungen zu installieren; oder (6) Kund*innendaten oder Dienste Dritter. Sollte ein Anspruch geltend gemacht werden oder dies wahrscheinlich sein, kann Meta im eigenen Ermessen und auf eigene Kosten: (I) für dich das Recht erwirken, die Dienste in Übereinstimmung mit den Nutzungsbedingungen weiterhin zu nutzen; (II) die Komponente der Dienste, die mutmaßlich für den Verstoß verantwortlich ist, gegen eine gleichwertige austauschen, die keinen Verstoß verursacht; oder (III) die Dienste so anpassen, dass sie keine Verstöße verursachen. Sollten die Optionen (I) bis (III) durch Meta als wirtschaftlich nicht vernünftig angesehen werden, kann Meta diese Nutzungsbedingungen nach Ankündigung an dich beenden und dir für die Dienste bereits gezahlte Gebühren, für die noch keine Gegenleistung durch Meta erbracht wurde, gutschreiben.
+
+Sicherheit.
+
+Warnungen. ES GIBT WICHTIGE GESUNDHEITS- UND SICHERHEITSHINWEISE UND -ANWEISUNGEN (VERFÜGBAR UNTER WWW.META.COM/LEGAL/QUEST/HEALTH-AND-SAFETY-WARNINGS/). DIESE MUSST DU LESEN, BEVOR DU EIN VERWALTETES GERÄT NUTZT ODER EINEM*EINER MINDERJÄHRIGEN NUTZER*IN DEN ZUGRIFF AUF EIN VERWALTETES GERÄT IM MEHRNUTZERMODUS BZW. DESSEN NUTZUNG GESTATTEST (SIEHE ABSCHNITT 1.C OBEN. FÜR SPEZIELLE HINWEISE, DIE ELTERN ODER ERZIEHUNGSBERECHTIGTE VON MINDERJÄHRIGEN NUTZER*INNEN BEACHTEN MÜSSEN). WIE IN DEN GESUNDHEITS- UND SICHERHEITSHINWEISEN ANGEGEBEN, GILT DIE EMPFEHLUNG, DIE GERÄTE IN INNENRÄUMEN ZU VERWENDEN (IN BESTIMMTEN RECHTSORDNUNGEN GELTEN EINSCHRÄNKUNGEN FÜR DIE VERWENDUNG IM AUSSENBEREICH); INFORMATIONEN ÜBER DIE IN DEINEM LAND ZUGELASSENEN FUNKFREQUENZBÄNDER FINDEST DU IM ABSCHNITT „COMPLIANCE“ DER GESUNDHEITS- UND SICHERHEITSHINWEISE). DIE NICHTEINHALTUNG DER GESUNDHEITS- UND SICHERHEITSHINWEISE KANN ZU SCHÄDEN AN EINEM VERWALTETEN GERÄT, AM ZUBEHÖR ODER JEGLICHEN ANGESCHLOSSENEN GERÄTEN FÜHREN UND DAS RISIKO VON VERLETZUNGEN, UNWOHLSEIN ODER ANDEREN POTENZIELLEN GEFAHREN ERHÖHEN. DURCH NUTZUNG DER VERWALTETEN GERÄTE SICHERST DU ZU UND GEWÄHRLEISTEST, DASS DU UND ALLE ANDEREN PERSONEN, DENEN DU DEN ZUGRIFF AUF VERWALTETE GERÄTE ODER DEREN NUTZUNG ERMÖGLICHT HAST, DIESE WARNHINWEISE UND ANWEISUNGEN GELESEN HABEN (UND AUCH KÜNFTIG JEGLICHE DIESBEZÜGLICHEN AKTUALISIERUNGEN DURCHLESEN WERDEN) UND IM EINKLANG MIT DIESEN WARNHINWEISEN UND ANWEISUNGEN HANDELN WERDEN.
+
+Nutzung mit hohem Risiko. Bestimmte gewerbliche Nutzungen können Aktivitäten beinhalten, die ein hohes Risiko für Tod, Körperverletzung oder Sachschäden bergen, einschließlich, jedoch nicht beschränkt auf die Nutzung in Verbindung mit Krankenhaus- oder medizinischen Versorgungsdiensten, Notfalleinsätzen oder Benachrichtigungssystemen, anderen kritischen Diensten oder Systemen, die hohe Verfügbarkeit oder Zuverlässigkeit erfordern, und ähnlichen Aktivitäten (zusammen die „Nutzung mit hohem Risiko“). Die Dienste und die verwalteten Geräte wurden nicht für die Nutzung mit hohem Risiko oder für irgendwelche Aktivitäten, die eine ausfallsichere Leistung erfordern, entwickelt. Im größtmöglichen nach geltendem Recht zulässigen Umfang schließen wir jegliche Verantwortung für eine Nutzung der Dienste oder verwalteten Geräte mit hohem Risiko aus und schließen jede ausdrückliche oder stillschweigende Gewährleistung der Eignung von verwalteten Geräten für eine Nutzung mit hohem Risiko aus.
+
+Streitfälle und geltendes Recht. Wie in diesem Abschnitt dargelegt, fällt das Verfahren zur Lösung von Ansprüchen, Klagen oder Streitfällen zwischen dir und Meta (oder unseren jeweiligen übergeordneten Unternehmen, verbundenen Unternehmen, Vermittlern, Vorgängern, Nachfolgern und Bevollmächtigten), die sich aus oder in Zusammenhang mit diesen Nutzungsbedingungen oder den Diensten ergeben (ein „Anspruch“), unterschiedlich aus, je nachdem, ob du in den USA ansässig bist.
+
+Wenn du in den USA ansässig bist, stimmst du einem Schiedsverfahren zu. Diese Bestimmung erstreckt sich nicht auf irgendwelche gewerblichen Ansprüche im Zusammenhang mit (i) Verstößen gegen deine oder unsere geistigen Eigentumsrechte, einschließlich. Urheberrechts-, Patent- und Markenverletzungen, Verstöße gegen die Markennutzungsrichtlinien, Verletzungen deiner oder unserer vertraulichen Informationen oder Geschäftsgeheimnisse; oder (ii) Bestrebungen, die Dienste stören oder auf nicht autorisierte Weise mit den Diensten zu interagieren. Wenn ein Anspruch zwischen dir und Meta keinem Schiedsverfahren unterliegt, vereinbaren du und Meta, dass der Anspruch ausschließlich vor dem für den nördlichen Bezirk von Kalifornien zuständigen US-Bezirksgericht (District Court for the Northern District of California) oder vor einem Bundesstaatsgericht (State Court) in San Mateo County zu klären ist. Außerdem stimmst du zu, dass du dich für Prozesse im Hinblick auf einen derartigen Anspruch der persönlichen Gerichtsbarkeit eines dieser Gerichte unterwirfst. Unbeschadet der vorangegangenen Aussagen stimmst du zu, dass Meta nach seinem alleinigen Ermessen jeden Anspruch, den es dir gegenüber im Zusammenhang mit Bestrebungen hat, die Dienste missbräuchlich zu verwenden, sie zu stören oder auf nicht autorisierte Weise mit ihnen zu interagieren, bei jedem Gericht in der Gerichtsbarkeit deines Wohnsitzes geltend machen kann, das für den Anspruch zuständig ist.
+
+Wir und du vereinbaren, dass alle Parteien mit dem Abschluss dieser Schiedsklausel auf ihre jeweiligen Rechte auf eine Verhandlung vor einem Geschworenengericht oder auf die Teilnahme an einer Sammel- oder Verbandsklage verzichten. DIE PARTEIEN VEREINBAREN, DASS JEDE VON IHNEN ANSPRÜCHE GEGEN DIE JEWEILS ANDERE NUR ALS EINZELPARTEI UND NICHT ALS KLÄGER*IN ODER GRUPPENMITGLIED IN IRGENDEINEM VERMEINTLICHEN SAMMEL-, VERBANDS- ODER PRIVATEN VERFAHREN IM ÖFFENTLICHEN INTERESSE ERHEBEN DARF UND DASS JEDE PARTEI HIERMIT AUF DAS RECHT AUF EIN GESCHWORENENGERICHT VERZICHTET. Du darfst beispielsweise einen Anspruch nur in deinem eigenen Namen vorbringen und keinen Rechtsschutz ersuchen, der sich auf andere Parteien auswirken würde. Wenn es eine rechtskräftige gerichtliche Entscheidung gibt, dass irgendein bestimmter Anspruch (oder ein Antrag auf einen bestimmten Rechtsschutz) nicht gemäß den Einschränkungen dieses Abschnitts in einem Schiedsverfahren verhandelt werden kann, darf nur dieser Anspruch (bzw. nur dieser Antrag auf Rechtsschutz) abgetrennt vor einem Gericht verhandelt werden.
+
+Das US-Bundesgesetz für Schiedsverfahren (Federal Arbitration Act) regelt die Auslegung und Durchsetzung dieser Bestimmung zu Schiedsverfahren. Sämtliche Angelegenheiten sind von einem*einer Schiedsrichter*in zu entscheiden. Ausgenommen sind hier Angelegenheiten im Zusammenhang mit dem Umfang oder der Durchsetzbarkeit/Vollstreckung dieser Bestimmung zu Schiedsverfahren oder der Auslegung des Verbots von Sammel- und Verbandsklagen, die nur von einem Gericht entschieden werden dürfen. Wenn eine der Parteien beabsichtigt, ein Schiedsverfahren für einen Streitfall einzuleiten, muss diese Partei der jeweils anderen Partei eine schriftliche Ankündigung hierüber zukommen lassen. Diese Streitfallankündigung ist für uns an folgende Adresse zu senden: Meta Platforms, Inc., ATTN: Meta Arbitration Filing, 1 Meta Way. Menlo Park, CA 94025. Das Schiedsverfahren ist nach Maßgabe der Handelsschiedsordnung (Commercial Arbitration Rules) der American Arbitration Association (AAA) („AAA Rules“) in der durch diese Nutzungsbedingungen geänderten Form durchzuführen und von der AAA zu entscheiden. Wenn die AAA nicht zur Verfügung steht, einigen sich die Parteien auf einen anderen Anbieter von Schiedsverfahren, oder das Gericht benennt einen Ersatzanbieter. Der Schiedsrichter ist nicht an Entscheidungen in anderen Schiedsverfahren gebunden, bei denen du keine Partei bist. Im größtmöglichen nach geltendem Recht zulässigen Umfang sind jedwede in einem Schiedsverfahren getätigten beweiserheblichen Einreichungen vertraulich zu behandeln, wenn kein wichtiger Grund für ihre Offenlegung vorliegt. Der Schiedsspruch des Schiedsrichters ist nur in dem Maße vertraulich zu behandeln, wie es zum Schutz der Geschäftsgeheimnisse oder der unternehmensinternen Informationen bzw. zur Erfüllung einer rechtlichen Anforderung zur Geheimhaltungspflicht erforderlich ist. Wenn du nicht an diese Bestimmung zu Schiedsverfahren gebunden sein möchtest (einschließlich dem darin enthaltenen Verzicht auf Sammel- und Verbandsklagen), musst du uns innerhalb von dreißig (30) Tagen nach dem Datum der erstmaligen Zustimmung zu irgendeiner Fassung dieser Nutzungsbedingungen, die eine Bestimmung zu Schiedsverfahren enthält, schriftlich davon in Kenntnis setzen, indem du an folgende Adresse schreibst Meta Platforms, Inc., ATTN: Arbitration Opt-Out, 1 Meta Way. Menlo Park, CA 94025.
+
+Diese Nutzungsbedingungen und alle Ansprüche zwischen uns, ob diese nun einem Schiedsverfahren unterliegen oder nicht, unterliegen den Gesetzen Kaliforniens, soweit nicht durch US-Bundesgesetze ausgeschlossen oder mit diesen unvereinbar, ohne Berücksichtigung kollisionsrechtlicher Bestimmungen. Solltest du allerdings eine öffentliche und akkreditierte US-Bildungseinrichtung oder Agentur, ein Regierungsorgan oder eine Abteilung einer Landes- oder Bezirksregierung in den USA sein, unterliegen diese Nutzungsbedingungen den Gesetzen des US-Bundesstaates, in dem du ansässig bist, und werden auch so ausgelegt, soweit nicht durch US-Bundesgesetze ausgeschlossen oder mit diesen unvereinbar, ohne Berücksichtigung kollisionsrechtlicher Bestimmungen.
+
+Wenn du nicht in den USA ansässig bist, stimmst du Folgendem zu:
+
+Jeglicher Anspruch zwischen dir und Meta Platforms, Inc. ist ausschließlich vor dem für den nördlichen Bezirk von Kalifornien zuständigen US-Bezirksgericht (District Court for the Northern District of California) oder vor einem Bundesstaatsgericht (State Court) in San Mateo County zu klären. Außerdem stimmst du zu, dass du dich für Prozesse im Hinblick auf einen derartigen Anspruch der persönlichen Gerichtsbarkeit und dem Gerichtsstandort eines dieser Gerichte unterwirfst und dass diese Nutzungsbedingungen sowie jeglicher Anspruch dem Recht des Bundesstaates Kalifornien unterliegen, soweit nicht durch US-Bundesgesetze ausgeschlossen oder mit diesen unvereinbar, ohne Berücksichtigung kollisionsrechtlicher Bestimmungen.
+
+Für alle Ansprüche zwischen dir und Meta Platforms Ireland Limited sind ausschließlich die Gerichte der Republik Irland zuständig. Außerdem stimmst du zu, dass du dich für Prozesse im Hinblick auf einen derartigen Anspruch der persönlichen Gerichtsbarkeit und dem Gerichtsstandort der Republik Irland unterwirfst und dass diese Nutzungsbedingungen sowie jeglicher Anspruch dem Recht der Republik Irland unterliegen, ohne Berücksichtigung kollisionsrechtlicher Bestimmungen.
+
+Unbeschadet Unterabschnitt (i) und (ii) oben ist jeder Anspruch zwischen dir und Meta Platforms, Inc. sowie Meta Platforms Ireland Limited ausschließlich vor dem für den nördlichen Bezirk von Kalifornien zuständigen US-Bezirksgericht (District Court for the Northern District of California) oder vor einem Bundesstaatsgericht (State Court) in San Mateo County zu klären. Außerdem stimmst du zu, dass du dich für Prozesse im Hinblick auf einen derartigen Anspruch der persönlichen Gerichtsbarkeit und dem Gerichtsstandort eines dieser Gerichte unterwirfst und dass diese Nutzungsbedingungen sowie jeglicher Anspruch dem Recht des Bundesstaates Kalifornien unterliegen, soweit nicht durch US-Bundesgesetze ausgeschlossen oder mit diesen unvereinbar, ohne Berücksichtigung kollisionsrechtlicher Bestimmungen.
+
+Unbeschadet der vorangegangenen Aussagen, stimmst du zu, dass Meta jeden Anspruch, Klagegrund oder Streitfall, den wir dir gegenüber haben, bei jedem Gericht in dem Land deines Wohnsitzes einreichen kann, das zuständig ist.
+
+Betatests.
+
+Produkttests. Meta kann von Zeit zu Zeit weitere Produkte, Dienste, Funktionen oder Funktionsweisen in Hinblick auf die Dienste (jeweils ein „Betaprodukt“) testen und lädt dich möglicherweise ein, dieses Betaprodukt zu nutzen, um es zu testen und Meta Feedback zu geben. Sofern von den Parteien nichts anderes schriftlich vereinbart wurde, gelten diese Nutzungsbedingungen für deine Nutzung jeglicher Betaprodukte.
+
+Möglichkeit von Fehlern. Du erkennst an, dass sich die Betaprodukte in einer Testphase und noch in der Entwicklung befinden und dass die Betaprodukte Fehler enthalten können, einschließlich technischer Fehler, die sich möglicherweise auf die Leistung und Funktionsweise auswirken. Die Betaprodukte haben nicht den Zweck, die Dienste oder kommerziell verfügbare Produkte oder Dienste darzustellen oder in derselben Weise wie diese zu funktionieren, und du solltest darauf achten, mit solchen Betaprodukten verwendete Daten regelmäßig zu sichern.
+
+Änderungen. Die Betaprodukte, einschließlich ihrer Funktionsweise und Leistung, können sich ändern oder eingeschränkt werden. Meta kann neue Funktionen, Software, Dienste oder Inhalte einführen oder installieren oder bestimmte vorhandene Funktionen oder Teile der Betaprodukte aussetzen, deaktivieren, beenden, entfernen, ersetzen, ändern, aktualisieren, zurücknehmen, Upgrades daran vornehmen oder ihnen Beschränkungen auferlegen oder den Zugriff auf Teile oder alle Betaprodukte einschränken, ohne Haftung oder Notwendigkeit einer Ankündigung dir gegenüber.
+
+Garantieausschluss und Haftungsbeschränkung. ALLE BETAPRODUKTE WERDEN DIR „WIE SIE SIND“ UND „WIE VERFÜGBAR“ ZUR VERFÜGUNG GESTELLT. META IST NICHT VERPFLICHTET, IN BEZUG AUF BETAPRODUKTE FEHLER ZU KORRIGIEREN (EINSCHLIESSLICH DER WIEDERHERSTELLUNG VERLOREN GEGANGENER DATEN ODER ENTSCHÄDIGUNG FÜR VERLOREN GEGANGENE DATEN), DIE AUSWIRKUNGEN VON FEHLERN ZU BEHEBEN ODER TECHNISCHEN SUPPORT BEREITZUSTELLEN. DU ERKENNST AN, DASS WIR DEINEN ZUGRIFF AUF, DIE TESTUNG UND/ODER DIE NUTZUNG VON BETAPRODUKTEN ÄNDERN, ZURÜCKNEHMEN ODER BEENDEN ODER JEGLICHE BETAPRODUKTE (ODER JEDE ENTHALTENE FUNKTION ODER FUNKTIONSWEISE) JEDERZEIT IN UNSEREM ALLEINIGEN ERMESSEN EINSTELLEN KÖNNEN, AUCH OHNE ANKÜNDIGUNG AN DICH. META HAT DIR GEGENÜBER KEINE AUSDRÜCKLICHEN ODER IMPLIZIERTEN VERPFLICHTUNGEN, DIR IRGENDWELCHE BETAPRODUKTE ZUR VERFÜGUNG ZU STELLEN, UND IM GRÖSSTMÖGLICHEN NACH GELTENDEM RECHT ZULÄSSIGEN UMFANG SCHLIESST META JEGLICHE AUSDRÜCKLICHEN ODER IMPLIZIERTEN GEWÄHRLEISTUNGEN UND GARANTIEN FÜR BETAPRODUKTE AUS. DU ERKENNST AN UND STIMMST ZU, DASS DEINE NUTZUNG JEGLICHER BETAPRODUKTE GÄNZLICH AUF EIGENES RISIKO ERFOLGT.
+
+IM GRÖSSTMÖGLICHEN NACH GELTENDEM RECHT ZULÄSSIGEN UMFANG ÜBERSTEIGT DIE GESAMTHAFTUNG VON META DIR GEGENÜBER IN VERBINDUNG MIT JEDEM BETAPRODUKT NIEMALS EINTAUSEND US-DOLLAR (1.000,00 $).
+
+Allgemeines.
+
+Änderungen an den Nutzungsbedingungen. Meta kann die Nutzungsbedingungen von Zeit zu Zeit ändern und wird dich mindestens dreißig (30) Tage im Voraus in angemessener Weise benachrichtigen, darunter per E-Mail oder durch Bekanntgabe der aktualisierten Bedingungen in oder über die Dienste, z. B. über das Meta Admin Center oder andere Popup-Meldungen, bevor Meta dir Änderungen der Bedingungen auferlegt, die eine wesentliche nachteilige Auswirkung auf deinen Zugriff auf die Dienste oder deren Nutzung haben, es sei denn, die Änderungen sind aus Gründen des Schutzes, der Integrität oder der Sicherheit oder zur Einhaltung des geltenden Rechts erforderlich. Solche Änderungen gelten nicht für Streitigkeiten zwischen dir und Meta, die entstanden sind, bevor Meta die überarbeiteten Nutzungsbedingungen mit den entsprechenden Änderungen gepostet oder dich auf andere Weise über diese Änderungen benachrichtigt hat. Wenn du die Nutzung der Dienste nach einer Änderung dieser Nutzungsbedingungen fortsetzt, erklärst du dich dadurch mit diesen Änderungen einverstanden. Wenn du diesen Änderungen der Bedingungen nicht zustimmen möchtest, musst du vor Ablauf der Kündigungsfrist die Nutzung der Dienste einstellen, indem du deine*n Administrator*in veranlasst, deine Kund*innen-Instanz innerhalb der Dienste zu löschen, und Meta unter der folgenden Adresse schriftlich über den Grund für diese Entscheidung benachrichtigen: Meta Platforms Inc., 1 Meta Way, Menlo Park, CA 94025 USA, Attn: Legal. Die Angabe „Letzte Aktualisierung“ oben gibt an, wann diese Nutzungsbedingungen zuletzt geändert wurden.
+
+Gesamtheit der Vereinbarung. Diese Nutzungsbedingungen (einschließlich der zusätzlichen Bestimmungen) stellen die gesamte Vereinbarung zwischen den Parteien in Bezug auf deinen Zugriff auf die Dienste sowie deren Nutzung dar und ersetzen jedwede vorherigen Zusicherungen oder Vereinbarungen im Hinblick auf die Dienste. Jede Partei erkennt an, dass sie sich mit dem Annehmen dieser Nutzungsbedingungen auf keine anderen Aussagen, Erklärungen, Zusicherungen, Gewährleistungen oder Garantien (ob gutgläubig oder fahrlässig gewährt) berufen kann als die in diesen Nutzungsbedingungen dargelegten und auch keinerlei Rechtsmittel in dieser Hinsicht zur Verfügung hat. Überschriften dienen lediglich der Vereinfachung, und Begriffe wie „einschließlich“ sind als ohne Einschränkung auszulegen. Die ursprüngliche Version dieser Nutzungsbedingungen wurde auf Englisch (US) verfasst, und ungeachtet aller übersetzten Versionen, die dir zur Verfügung gestellt werden, gilt die englische (US) Version bei jedem Widerspruch mit einer übersetzten Version.
+
+Verzichtserklärung und salvatorische Klausel. Die Nichtausübung oder verzögerte Ausübung eines in diesen Nutzungsbedingungen gewährten Rechts, einer Befugnis oder eines Rechtsmittels durch eine der Parteien: (i) wird nicht als Verzicht auf diese/s oder andere Rechte, Befugnisse oder Rechtsmittel ausgelegt; und (ii) schließt nicht die Ausübung dieser/dieses oder anderer Rechte, Befugnisse oder Rechtsmittel zu einem späteren Zeitpunkt aus. Ein Verzicht auf ein Recht im Rahmen dieser Nutzungsbedingungen wird nur gültig, wenn er schriftlich erfolgt, und gilt nur für die Partei, an die der Verzicht gerichtet ist, und unter den Umständen, für die er ausgestellt wird. Sollte irgendein Teil dieser Nutzungsbedingungen für nicht durchsetzbar erachtet werden (einschließlich u. a. der Bestimmungen in Abschnitt 16), gilt der nicht durchsetzbare Teil als in dem Maß geändert, das für seine Durchsetzbarkeit erforderlich ist. Wenn er nicht durchsetzbar gemacht werden kann, wird er abgetrennt und der übrige Teil bleibt in vollem Umfang wirksam und in Kraft.
+
+Publizität. Jegliche Pressemitteilungen oder Marketingkampagnen bezüglich der Beziehung der Parteien erfordern die vorherige schriftliche Genehmigung beider Parteien, und die Markenzeichen und Logos von Meta (einschließlich der in Verbindung mit den Diensten genutzten) dürfen ohne die vorherige schriftliche Erlaubnis durch Meta nicht kopiert, nachgeahmt oder verwendet werden, weder ganz oder teilweise. Ungeachtet des Vorstehenden gilt: (i) du darfst die Nutzung der Dienste während der Laufzeit innerhalb deines eigenen Unternehmens veröffentlichen oder bewerben (z. B. um die Akzeptanz der Nutzer*innen zu erhöhen), dies unterliegt jedoch den Meta-Richtlinien zur Markennutzung (zu finden unter www.meta.com/brand/resources/) oder anderen Richtlinien oder Anweisungen zur Markennutzung, die auf andere Weise von Zeit zu Zeit von Meta bereitgestellt werden können; und (ii) Meta kann auf deinen Namen und Status als Kund*in der Dienste verweisen.
+
+Abtretung. Keine der Parteien darf diese Nutzungsbedingungen oder ihre sich aus diesen Nutzungsbedingungen ergebenden Rechte oder Pflichten ohne die vorherige schriftliche Einwilligung der jeweils anderen Partei abtreten. Davon ausgenommen ist, dass Meta diese Nutzungsbedingungen ohne Einwilligung an jedes seiner verbundenen Unternehmen oder im Zusammenhang mit einer Fusion, Umstrukturierung, Übernahme oder sonstigen Übertragung aller oder im Wesentlichen aller seiner Vermögenswerte oder Stimmrechtsanteile abtreten kann. Vorbehaltlich des vorangegangenen Absatzes sind diese Nutzungsbedingungen rechtsverbindlich für die jeweiligen zulässigen Nachfolger und Abtretungsempfänger jeder der Parteien und kommt diesen zugute. Nicht zulässige Abtretungen sind nichtig und begründen keine Verpflichtungen für Meta.
+
+Unabhängiger Auftragnehmer. Die Parteien sind unabhängige Auftragnehmer. Aus diesen Nutzungsbedingungen ergibt sich keine Vertretungs-, Partnerschafts-, Joint Venture- oder Arbeitgeber-Arbeitnehmer*in-Beziehung und keine der Parteien ist befugt, die jeweils andere Partei zu binden.
+
+Keine Drittbegünstigten. Diese Nutzungsbedingungen kommen Meta und dem*der Kund*in zugute, und es gibt keine vorgesehenen Drittbegünstigten, einschließlich irgendwelcher verbundenen Unternehmen oder Nutzer*innen.
+
+Mitteilungen. Wenn du diese Nutzungsbedingungen gemäß Abschnitt 11.b (Ordentliche Kündigung) kündigen möchtest, musst du Meta benachrichtigen, indem dein*e Administrator*in deine Kund*innen-Instanz in den Diensten löscht. Jede andere Mitteilung im Rahmen dieser Nutzungsbedingungen muss schriftlich erfolgen und ist an Meta unter folgender Adresse zu senden (je nachdem, was zutrifft): im Falle von Meta Platforms Inc an 1 Meta Way, Menlo Park, CA 94025 USA, Attn: Legal; im Falle von Meta Platforms Ireland Limited an Merrion Road, Dublin 4, D04 X2K5, Ireland, Attn: Legal. Meta kann Mitteilungen an die im Kund*innenkonto genannte E-Mail-Adresse senden. Meta kann Betriebshinweise in Bezug auf die Dienste oder sonstige unternehmensbezogene Mitteilungen auch über die Nachrichtenfunktion in den Diensten an dich und Nutzer*innen senden oder sie deutlich sichtbar in den Diensten posten.
+
+Unterauftragnehmer. Meta kann Unterauftragnehmer einsetzen und ihnen gestatten, die Meta gemäß dieser Vereinbarung zustehenden Rechte auszuüben, wobei Meta jedoch für die Einhaltung dieser Nutzungsbedingungen durch jeden solchen Unterauftragnehmer verantwortlich bleibt.
+
+Höhere Gewalt. Keine der Parteien ist gegenüber der jeweils anderen haftbar für irgendeine Verzögerung oder ein Versäumnis, irgendeine Pflicht gemäß diesen Nutzungsbedingungen zu erfüllen (außer dem Versäumnis, Gebühren zu zahlen), wenn die Verzögerung oder das Versäumnis auf unvorhergesehene Ereignisse zurückzuführen ist, die sich nach der Zustimmung zu diesen Nutzungsbedingungen ereignen und außerhalb der angemessenen Kontrolle einer solchen Partei liegen, wie z. B. höhere Gewalt, Kriege, Terroranschläge, Aufstände, Embargos, Akte der Zivil- oder Militärbehörden, Naturkatastrophen, Ausfälle der Stromversorgung oder von Telekommunikations- oder Datennetzen bzw. -diensten oder der Ablehnung einer Lizenz oder Berechtigung durch eine staatliche Behörde oder -Stelle.
+
+Websites Dritter. Die Dienste und die verwalteten Geräte können Links auf Websites Dritter enthalten. Dies impliziert nicht unsere Befürwortung irgendeiner Website, und im größtmöglichen nach geltendem Recht zulässigen Umfang sind wir nicht verantwortlich für die Handlungen, Inhalte, Informationen oder Daten von Websites Dritter oder irgendwelche darin enthaltenen Handlungen oder Links oder irgendwelche Änderungen oder Aktualisierungen dieser. Websites Dritter können ihre eigenen Nutzungsbedingungen und Datenschutzrichtlinien bereitstellen, die für dich und Nutzer*innen gelten. Deine Nutzung solcher Websites Dritter wird nicht durch diese Nutzungsbedingungen geregelt.
+
+Exportkontrollen und Handelssanktionen. Die Dienste und verwalteten Geräte sind nur zur Nutzung in Ländern der Liste der unterstützten Länder gedacht. Gewisse Funktionen und Dienste der Dienste und verwalteten Geräte sind möglicherweise nicht außerhalb der unterstützten Länder zugänglich und können innerhalb dieser Länder variieren. Du musst sämtliche geltenden US- und Nicht-US-Gesetze in Bezug auf Exportkontrollen, Importkontrollen und Handelssanktionen („Handelsgesetze“) einhalten. Du wirst die Dienste oder verwalteten Geräte nicht nutzen oder herunterladen, oder anderen erlauben, sie zu nutzen oder herunterzuladen und auch nicht auf sonstige Weise mit oder auf ihnen interagieren, wenn du oder sie in einem Land oder einer Region lebst/leben, das/die umfassenden Handelssanktionen der USA unterliegt, wenn du oder sie auf irgendeiner US- oder EU-Liste eingeschränkter Parteien geführt wirst/werden, oder für Zwecke, bei denen du, Meta oder andere möglicherweise Handelsgesetze verletzen. Du wirst kein IP-Proxying oder andere Methoden nutzen, um deinen Standort zu verschleiern. Du wirst weder selbst noch es anderen erlauben, direkt oder indirekt die Dienste oder verwalteten Geräte zu exportieren, zu reexportieren, bereitzustellen, weiterzuverkaufen, zu übertragen oder auf sonstige Weise zu veräußern: (i) an irgendein/e gemäß Handelsgesetzen verbotene/s Person, Organisation, Land oder Region; (ii) an irgendjemanden, der auf Listen eingeschränkter Parteien der US- oder einer EU-Regierung geführt wird; oder (iii) für irgendeinen gemäß Handelsgesetzen verbotenen Zweck (einschließlich Anwendungen von Nuklear-, chemischen oder biologischen Waffen bzw. Raketentechnik). Du wirst die Dienste oder verwalteten Geräte nicht auf eine Art nutzen, verbreiten oder übertragen, die gegen anwendbares Recht (einschließlich sämtlicher geltender Handelsgesetze der unterstützten Länder sowie jeder sonstigen zuständigen staatlichen Behörde) verstößt, und dies auch nicht anderen gestatten. Die Dienste und verwalteten Geräte dürfen nicht in einem Land, das umfassenden Handelssanktionen der USA unterliegt, oder an eine Person oder Organisation, gegen die von den US- oder EU-Behörden Sanktionen verhängt wurden, weiterverkauft, übertragen oder auf sonstige Weise veräußert werden.
+
+Bedingungen für die Nutzung durch eine staatliche Stelle. Wenn du eine staatliche Stelle bist (wie unten definiert), sicherst du zu, dass (i) keine geltenden Gesetze, Richtlinien oder Grundsätze dich dabei einschränken, jedweder Bestimmung oder Bedingung dieser Nutzungsbedingungen zuzustimmen und sie zu erfüllen bzw. ihre Erfüllung zu akzeptieren, (ii) keine geltenden Gesetze, Richtlinien oder Grundsätze zur Undurchsetzbarkeit irgendeiner Bestimmung oder Bedingung dieser Nutzungsbedingungen dir oder irgendeiner zuständigen staatlichen Stelle gegenüber führen, (iii) du nach geltenden Gesetzen, Richtlinien und Grundsätzen befugt und rechtsfähig bist, jedwede staatliche Stelle zu vertreten und an diese Nutzungsbedingungen zu binden; und (iv) du diese Nutzungsbedingungen auf der Grundlage einer unparteiischen Entscheidung hinsichtlich des Wertes der Dienste für dich und Nutzer*innen schließt und kein rechtswidriges Verhalten oder ein Interessenkonflikt deine Entscheidung zum Abschluss dieser Nutzungsbedingungen beeinflusst hat. Akzeptiere diese Nutzungsbedingungen nicht, wenn du nicht die in diesem Abschnitt dargelegten Zusicherungen abgeben kannst. Wenn eine staatliche Stelle diese Nutzungsbedingungen in gegen diesen Abschnitt verstoßender Weise schließt, kann Meta diese Nutzungsbedingungen kündigen.
+
+Reseller. Du kannst auf die Dienste über einen Dritten, der über eine gültige Vereinbarung verfügt, die ihn berechtigt, die Dienste wiederzuverkaufen und den Zugriff darauf zu ermöglichen (ein „Reseller“), zugreifen und sie nutzen. Wenn du die Dienste über einen Reseller nutzt und darauf zugreifst, bist du allein verantwortlich (i) für jede sich aus deiner entsprechenden Vereinbarung mit deinem Reseller ergebenden Rechte und Pflichten, und (ii) im Verhältnis zwischen dir und Meta für jeden Zugriff durch den Reseller auf deine Kund*innen-Instanz, Kund*innendaten und berufliche Konten, die du möglicherweise für deinen Reseller erstellst. Wenn du die Dienste über einen Reseller nutzt und darauf zugreifst, stimmst du darüber hinaus zu, dass die Nutzungsbedingungen für Kund*innen von Resellern Vorrang vor jeglichen widersprüchlichen Bestimmungen in diesen Nutzungsbedingungen haben.
+
+Entwickler. Wenn du die Dienste und/oder verwalteten Geräte in deiner Eigenschaft als Entwickler*in von Software oder Inhalten zur Nutzung in Verbindung mit den Diensten oder verwalteten Geräten im Rahmen einer Entwickler*innenvereinbarung oder einer ähnlichen Vereinbarung nutzt, gilt im Falle eines Widerspruchs zwischen einer solchen Entwickler*innenvereinbarung und diesen Nutzungsbedingungen die Entwickler*innenvereinbarung im Umfang des Widerspruchs.
+
+Definitionen.
+
+„Administrator*innen“ bezeichnet Systemadministrator*innen, die bestimmte Profile, Einstellungen und Konfigurationen für berufliche Konten und verwaltete Geräte in deinem Namen über das Meta Admin Center verwalten.
+
+„Verbundenes Unternehmen“ bezeichnet in Hinblick auf eine Partei ein Rechtssubjekt, das eine andere Partei mittel- bzw. unmittelbar besitzt oder kontrolliert, sich in ihrem Eigentum oder unter ihrer Kontrolle befindet oder sich im gemeinsamen Eigentum oder unter gemeinsamer Kontrolle mit ihr befindet. Mit „Kontrolle“ ist die Befugnis gemeint, die Geschäftsleitung oder die Angelegenheiten eines Rechtssubjekts zu steuern. „Eigentum“ bezeichnet das wirtschaftliche Eigentum von fünfzig Prozent (50 %) (oder wenn die zuständige Jurisdiktion keinen Mehrheitsbesitz gestattet, den maximal gemäß einem solchen Recht zulässigen Betrag) oder mehr der Stimmrechtsanteile oder gleichwertigen Stimmrechte des Rechtssubjekts.
+
+„Kund*innendaten“ bezeichnen Daten und Inhalte, die von dir oder Nutzer*innen während der Nutzung der folgenden Webtools in Verbindung mit den Diensten übermittelt wurden: Meta Admin Center und die berufliche Kontenübersicht.
+
+Mit „staatliche Stelle“ ist jedes Land bzw. jede Jurisdiktion weltweit gemeint, einschließlich jeglicher staatlichen, lokalen, kommunalen, regionalen oder sonstigen Stelle oder politischen Regierungsunterabteilung, jede Regierungsorganisation, jedes Regierungsorgan, Unternehmen oder sonstige Rechtssubjekt, das von einer solchen Regierung bzw. von irgendeinem*irgendeiner Vertreter*in oder Bevollmächtigten einer der vorgenannten Stellen errichtet wurde oder ihr*ihm gehört bzw. von ihr*ihm kontrolliert wird. Im Sinne dieser Definition handelt es sich bei einer staatlichen Stelle nicht um ein verbundenes Unternehmen einer anderen staatlichen Stelle, es sei denn, sie hat die vollständige Kontrolle über eine solche andere staatliche Stelle.
+
+„Verwaltete Geräte“ bezeichnen Meta Quest-Geräte, die von einem oder mehreren der Dienste unterstützt werden.
+
+Das „Meta Admin Center“ bezeichnet den Admin-Webservice, der es Administrator*innen gestattet, berufliche Konten bereitzustellen, hinzuzufügen, zu entfernen oder auf andere Weise zu verwalten und bestimmte Aspekte von verwalteten Geräten bereitzustellen und zu verwalten.
+
+Mit „Nutzungsbedingungen für Kund*innen von Resellern“ sind die Nutzungsbedingungen in ihrer jeweils aktuellen Fassung gemeint, die verfügbar sind unter www.meta.com/legal/meta-for-work/reseller-customer-terms/. Diese sind Bestandteil dieser vorliegenden Nutzungsbedingungen und stellen zusätzliche Bestimmungen zwischen den Parteien dar. Sie gelten für dich, wenn du die Dienste über einen Reseller nutzt und darauf zugreifst.
+
+Mit „Dienste“ bezeichnen wir die von Meta Horizon verwalteten Dienste für Meta for Work (wie unter https://work.meta.com/help/423348134066651) und für Meta for Education (wie unter https://work.meta.com/help/ beschrieben) (und jegliche zugehörige(n) Webtools, Software, Komponenten, Technologie, Funktionalitäten oder Funktionen) in ihrer jeweils aktuellen Fassung und einschließlich des jeweiligen Supports für jeden dieser Dienste.
+
+„Unterstützte Länder“ sind die unter https://work.meta.com/help/307276701907179 angegebenen Länder, die von Zeit zu Zeit aktualisiert werden können.
+
+Mit „Nutzer*in“ bezeichnen wir jegliche deiner Mitarbeiter*innen oder Auftragnehmer*innen (bzw. die deiner verbundenen Unternehmen) oder sonstige Personen, denen du den Zugriff auf die Dienste gestattest, einschließlich Administrator*innen, sofern zutreffend.
+
+Neuigkeiten und Updates von Meta erhalten
+
+E-Mail-Adresse
+
+Indem du dich registrierst, stimmst du zu, Neuigkeiten und Marketing-Nachrichten (z. B. per E-Mail, in Social Media usw.) von Meta zu bestehenden und zukünftigen Produkten und Services von Meta zu erhalten.
+
+Deine Einwilligung kannst du jederzeit zurückziehen und dich über den Abbestellen-Link in unseren Nachrichten abmelden.
+
+Dein Abonnement unterliegt den Nutzungsbedingungen und der Datenschutzrichtlinie.
+
+Registrieren
+
+Indem du dich registrierst, stimmst du zu, Neuigkeiten und Marketing-Nachrichten (z. B. per E-Mail, in Social Media usw.) von Meta zu bestehenden und zukünftigen Produkten und Services von Meta zu erhalten.
+
+Deine Einwilligung kannst du jederzeit zurückziehen und dich über den Abbestellen-Link in unseren Nachrichten abmelden.
+
+Dein Abonnement unterliegt den Nutzungsbedingungen und der Datenschutzrichtlinie.
+
+[Meta]
+
+[Facebook Meta.com Social Media][Threads Meta.com Social Media][Instagram Meta.com Social Media][X Meta.com Social Media][YouTube-Medienkanal von Meta.com]
+
+Meta Store
+
+Meta GlassesRay-Ban Meta-BrillenOakley Meta-BrilleMeta Ray-Ban DisplayBrillen vergleichenZubehör für AI GlassesLeitfäden für AI GlassesMeta LabMeta QuestZubehör für Meta QuestApps und SpieleMeta Quest-GeschenkgutscheineGeneralüberholte Meta Quest 3Generalüberholte Meta Quest 3SGeneralüberholte Ray-Ban Meta-BrillenMehr von Ray-BanBlog
+
+Store – Support und Rechtliches
+
+Meta-HilfebereichBestellstatusRücksendungenProduktdemo findenGeschäft findenRechtlichesVerkaufsbedingungenMeta Quest Safety Center
+
+Community
+
+Creator*innenEntwickler*innenUnternehmenGemeinnützige OrganisationenSDKs herunterladenMade for Meta – PartnerprogrammVR for Good
+
+Unsere Maßnahmen
+
+Daten und DatenschutzVerantwortungsvolle GeschäftspraktikenBarrierefreiheitWahlen
+
+Über uns
+
+Über MetaUnternehmensinformationenKarriereMediengalerieMarkenressourcenFür Investor*innenNewsroom
+
+Website – Nutzungsbedingungen und Richtlinien
+
+GemeinschaftsstandardsDatenschutzrichtlinieNutzungsbedingungenCookie-Richtlinie
+
+App-Support
+
+Facebook-HilfebereichMessenger-HilfebereichInstagram-HilfebereichWhatsApp-HilfebereichWorkplace-HilfebereichMeta VerifiedMeta-Konto (einmalige Anmeldung)
+
+Meta Store
+
+Meta Glasses
+
+Ray-Ban Meta-Brillen
+
+Oakley Meta-Brille
+
+Meta Ray-Ban Display
+
+Brillen vergleichen
+
+Zubehör für AI Glasses
+
+Leitfäden für AI Glasses
+
+Meta Lab
+
+Meta Quest
+
+Zubehör für Meta Quest
+
+Apps und Spiele
+
+Meta Quest-Geschenkgutscheine
+
+Generalüberholte Meta Quest 3
+
+Generalüberholte Meta Quest 3S
+
+Generalüberholte Ray-Ban Meta-Brillen
+
+Mehr von Ray-Ban
+
+Blog
+
+Store – Support und Rechtliches
+
+Meta-Hilfebereich
+
+Bestellstatus
+
+Rücksendungen
+
+Produktdemo finden
+
+Geschäft finden
+
+Rechtliches
+
+Verkaufsbedingungen
+
+Meta Quest Safety Center
+
+Community
+
+Creator*innen
+
+Entwickler*innen
+
+Unternehmen
+
+Gemeinnützige Organisationen
+
+SDKs herunterladen
+
+Made for Meta – Partnerprogramm
+
+VR for Good
+
+Unsere Maßnahmen
+
+Daten und Datenschutz
+
+Verantwortungsvolle Geschäftspraktiken
+
+Barrierefreiheit
+
+Wahlen
+
+Über uns
+
+Über Meta
+
+Unternehmensinformationen
+
+Karriere
+
+Mediengalerie
+
+Markenressourcen
+
+Für Investor*innen
+
+Newsroom
+
+Website – Nutzungsbedingungen und Richtlinien
+
+Gemeinschaftsstandards
+
+Datenschutzrichtlinie
+
+Nutzungsbedingungen
+
+Cookie-Richtlinie
+
+App-Support
+
+Facebook-Hilfebereich
+
+Messenger-Hilfebereich
+
+Instagram-Hilfebereich
+
+WhatsApp-Hilfebereich
+
+Workplace-Hilfebereich
+
+Meta Verified
+
+Meta-Konto (einmalige Anmeldung)
+
+Meta Store
+
+Meta Glasses
+
+Ray-Ban Meta-Brillen
+
+Oakley Meta-Brille
+
+Meta Ray-Ban Display
+
+Brillen vergleichen
+
+Zubehör für AI Glasses
+
+Leitfäden für AI Glasses
+
+Meta Lab
+
+Meta Quest
+
+Zubehör für Meta Quest
+
+Apps und Spiele
+
+Meta Quest-Geschenkgutscheine
+
+Generalüberholte Meta Quest 3
+
+Generalüberholte Meta Quest 3S
+
+Generalüberholte Ray-Ban Meta-Brillen
+
+Mehr von Ray-Ban
+
+Blog
+
+Store – Support und Rechtliches
+
+Meta-Hilfebereich
+
+Bestellstatus
+
+Rücksendungen
+
+Produktdemo finden
+
+Geschäft finden
+
+Rechtliches
+
+Verkaufsbedingungen
+
+Meta Quest Safety Center
+
+Community
+
+Creator*innen
+
+Entwickler*innen
+
+Unternehmen
+
+Gemeinnützige Organisationen
+
+SDKs herunterladen
+
+Made for Meta – Partnerprogramm
+
+VR for Good
+
+Unsere Maßnahmen
+
+Daten und Datenschutz
+
+Verantwortungsvolle Geschäftspraktiken
+
+Barrierefreiheit
+
+Wahlen
+
+Über uns
+
+Über Meta
+
+Unternehmensinformationen
+
+Karriere
+
+Mediengalerie
+
+Markenressourcen
+
+Für Investor*innen
+
+Newsroom
+
+Website – Nutzungsbedingungen und Richtlinien
+
+Gemeinschaftsstandards
+
+Datenschutzrichtlinie
+
+Nutzungsbedingungen
+
+Cookie-Richtlinie
+
+App-Support
+
+Facebook-Hilfebereich
+
+Messenger-Hilfebereich
+
+Instagram-Hilfebereich
+
+WhatsApp-Hilfebereich
+
+Workplace-Hilfebereich
+
+Meta Verified
+
+Meta-Konto (einmalige Anmeldung)
+
+Deutschland (Deutsch)
+
+Eltern: Wichtige Hinweise und Sicherheitswarnungen bei der Nutzung durch Kinder.
+
+Weitere Informationen zu unseren AI Glasses sowie Meta Quest-Produkten und -Diensten findest du auf den Produktseiten und in den entsprechenden rechtlichen Offenlegungen. Sieh dir die Details zu unseren aktuellen Promotions an.
+
+Kontaktinformationen: Meta Platforms Technologies Ireland Limited, Merrion Road, Dublin 4, D04 X2K5, Irland
+
+Meta Platforms Technologies, LLC 1 Hacker Way, Menlo Park, CA 94025, USA
+
+meta.com/help/support
+
+Die
+OPTIONALE FINANZIERUNG unterliegt einer Berechtigungsprüfung sowie den Kreditbedingungen des Kreditgebers. Details zu den aktuellen Finanzierungsangeboten findest du unter aktuelle Angebote und Offenlegung von Finanzierungen.
+
+‡ Die zinslose Finanzierung mit Klarna ist nicht für Limited Editions und vorbestellte Artikel und möglicherweise nicht auf allen Geräten oder Zubehörteilen verfügbar.
+
+©2026 Meta.
+
+Die Verwendung von Cookies durch Meta in diesem Browser erlauben?
+
+Wir verwenden Cookies und ähnliche Technologien, um Inhalte in Meta-Produkten bereitzustellen und zu verbessern. Darüber hinaus verwenden wir sie, um mithilfe der durch Cookies auf und außerhalb von Meta Quest empfangenen Informationen die Sicherheit zu verbessern sowie um Meta-Produkte für Personen, die ein Konto haben, bereitzustellen und zu verbessern.
+
+•
+Erforderliche Cookies: Diese Cookies sind notwendig für die Nutzung von Meta-Produkten und die ordnungsgemäße Funktion unserer Websites.
+
+•
+Cookies anderer Unternehmen: Wir verwenden diese Cookies, um dir Werbeanzeigen außerhalb von Meta-Produkten zu zeigen und Funktionen wie Karten oder Videos in Meta-Produkten anbieten zu können. Hierbei handelt es sich um optionale Cookies.
+
+Du bestimmst, welche optionalen Cookies wir verwenden dürfen. In unserer Cookie-Richtlinie erfährst du mehr über Cookies und wie wir sie verwenden. Dort kannst du deine Auswahl außerdem jederzeit überprüfen oder ändern.
+
+Infos zu Cookies
+
+Was sind Cookies?
+
+Weitere Infos
+
+Warum verwenden wir Cookies?
+
+Weitere Infos
+
+Was sind Meta-Produkte?
+
+Weitere Infos
+
+Deine Cookie-Auswahl
+
+Weitere Infos
+
+Cookies anderer Unternehmen
+
+Wir verwenden Cookies anderer Unternehmen, um dir Werbeanzeigen außerhalb von unseren Produkten zu zeigen und Funktionen wie Karten, Zahlungsdienste oder Videos anbieten zu können.
+
+Cookies nach Kategorie auswählen
+
+So verwenden wir diese Cookies
+
+Wenn du diese Cookies erlaubst:
+
+Wenn du diese Cookies nicht erlaubst:
+
+Andere Möglichkeiten, um deine Informationen zu kontrollieren
+
+Personalisiere dein Werbeerlebnis in der Kontenübersicht
+
+Weitere Informationen zu Onlinewerbung
+
+Cookies über die Browser-Einstellungen kontrollieren
+
+Optionale Cookies ablehnen
+
+Alle Cookies erlauben
+
+Optionale Cookies ablehnen
+
+Alle Cookies erlauben

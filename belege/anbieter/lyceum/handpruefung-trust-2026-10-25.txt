@@ -1,0 +1,102 @@
+Handprüfung Trust-Portal Lyceum (Vanta), 25.10.2026 ~11:00 MEZ (Dauerlauf)
+Grund: Quellenlauf ist bei https://trust.lyceum.technology/ blind (HTML-Hülle 3 Wörter, Block DÜNN seit 25.10.).
+Betrifft lyceum: vertrag.tom.
+Methode wie bei Anthropic/Mistral/BFL 25.10.: Chrome headless (--headless=new --virtual-time-budget=20000 --dump-dom), Text aus dem DOM (allein/tmp/hand-anthropic-2510/txt.py).
+Kein früherer gespeicherter Render; dieser Text ist ab heute der Vergleichsstand.
+cdd30d3b4a2f1559dfac3b8133e029689ad9fe4aaecd23e61beefa7dc7696546 start.txt (203 Wörter)
+078001fa8ba2200f6dd3e8d9adc1ac25455eacdb783df55e6ddb174c78f20452 resources.txt (131 Wörter)
+
+Ergebnis Resources: „Lyceum DPA“ = View (frei), „Engagement Letter“ unter „ISO Certification“ = View (frei, weiter kein Zertifikat), „Lyceum TOMs“ = Request access.
+Damit stimmt vertrag.tom („beansprucht“, nur auf Anfrage) und zertifikate.1 (ISO 27001 „unbelegt“, nur Engagement Letter).
+Controls: allgemeine ISO-27001-Kontrolltitel wie vermerkt, keine eigene Beschreibung.
+Hinweis: Die Startseite nennt „Lyceum Technology GmbH“, die DPA „Lyceum Technology Germany GmbH“; nicht geändert, nur vermerkt.
+Folge: Status und Werte unverändert; ein Satz „von Hand gerendert 25.10.2026, gleich“ in der Anmerkung vertrag.tom.
+
+===== Text start (gerendert 25.10.2026) =====
+Trust Center - Lyceum
+Skip to navigation
+Skip to main content
+Opens in new tab
+|
+Lyceum's Trust Center
+Lyceum Technology GmbH
+Lyceum is a Berlin-based European GPU cloud platform that gives AI teams flexible access to compute for training and inference, from serverless services and GPU virtual machines to large-scale clusters.
+compliance@lyceum.technology
+Privacy Policy
+Opens in new tab
+Request access
+Overview
+Resources
+View all
+Data Processing Agreement
+Lyceum DPA
+ISO Certification
+Engagement Letter
+Technical & Organisational Measures
+Lyceum TOMs
+Controls
+Updated 14 minutes ago
+View all
+Infrastructure security
+Information security for use of cloud services
+Clock synchronization
+Application security requirements
+Organizational security
+Determining the scope of the information security management system
+Information security roles and responsibilities
+Disciplinary process
+View 5 more Organizational security controls
+Product security
+Secure development life cycle
+Internal security procedures
+ICT readiness for business continuity
+Legal, statutory, regulatory and contractual requirements
+Protection of information systems during audit testing
+View 23 more Internal security procedures controls
+Data and privacy
+Acceptable use of information and other associated assets
+Classification of information
+Labelling of information
+View 2 more Data and privacy controls
+Opens in new tab
+Vanta branded Engagement Letter
+Vanta connects to a company's core systems to continuously monitor these controls.
+
+===== Text resources (gerendert 25.10.2026) =====
+Trust Center - Lyceum
+Skip to navigation
+Skip to main content
+Opens in new tab
+|
+Lyceum's Trust Center
+Lyceum Technology GmbH
+Lyceum is a Berlin-based European GPU cloud platform that gives AI teams flexible access to compute for training and inference, from serverless services and GPU virtual machines to large-scale clusters.
+compliance@lyceum.technology
+Privacy Policy
+Opens in new tab
+Request access
+Resources
+Resources
+Bulk download
+Opens in new tab
+Data Processing Agreement
+Lyceum DPA
+Copy link
+for Lyceum DPA
+View
+Lyceum DPA
+ISO Certification
+Engagement Letter
+Copy link
+for Engagement Letter
+Vanta branded Engagement Letter
+View
+Engagement Letter
+Technical & Organisational Measures
+Lyceum TOMs
+Copy link
+for Lyceum TOMs
+Request access
+Lyceum TOMs
+Opens in new tab
+Bulk download will only work on resources that are accessible and not view only.

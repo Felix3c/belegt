@@ -1,0 +1,30 @@
+Quelle: https://opper.ai/llm-gateway, https://opper.ai/pricing, https://opper.ai/security-overview, https://opper.ai/enterprise
+Abruf: 2026-10-23 ~02:30 UTC (curl, je HTTP 200, 3 s Abstand), SHA-256 der Rohseiten: llm-gateway e1ad22eaf275bcc7474bd0b68a783fefc0a37b51d9af7cae2ff3daac177d0338, pricing 7c86c7e0699ab486295ae138aeecc897a4bf03128207b13a09c95c316a923cc0, security-overview cac5c024b8fdb08c216fd901fd5c03ec67f3b5bf195563586fc6d4929e7f1640, enterprise f77a7b1342c84a83ef48c2dbdfd83d7c1d6e316e0a3d2452df3b8d1a1542816e, belegbar.eu
+Inhalt: wörtliche Auszüge zum Wort „zero data retention“ (Textfassung ohne Skripte).
+
+1. llm-gateway, Kasten „Zero data retention“ (Überschrift und Liste darunter):
+Zero data retention
+Opper stores no prompts or responses unless you turn tracing on, only each call's model, tokens, cost and latency. Pick zero data retention routes and the provider keeps nothing either.
+No prompts or responses stored by default
+End-to-end zero data retention on every plan
+Browse models with zero data retention 
+What a call leaves behind:
+Prompt not stored 
+Response not stored 
+Provider, on a ZDR route not stored 
+Usage for billing kept 
+Tracing stays off unless you turn it on
+
+2. llm-gateway, Einleitung:
+Switch between 700+ AI models in one line of code, through one OpenAI-compatible LLM API hosted in the EU. GDPR-compliant, with zero data retention on most EU routes, automatic fallbacks and a full audit trail.
+
+3. pricing, FAQ:
++ On Gateway, zero data retention: only usage metadata, no prompts or responses. On Control Plane, zero data retention is the default: traces including prompts and responses are stored only when you turn tracing on in Rules, for 1 to 30 days, and a project can shorten that down to zero. A model access rule can additionally restrict calls to providers that do not train on or log your data. Claude on AWS Bedrock is zero data retention on pay-as-you-go; the zero-retention routes for OpenAI models on Azure (azure-zdr) and Gemini on Google Vertex (vertexai-zdr) need a signed Enterprise agreement.
++ No. Routes whose provider neither trains on nor logs your content are on every tier and you pick them per call. Control Plane adds the rule that enforces zero data retention for the whole organization or a project, so no call can reach a provider that keeps content. The zero-retention routes for OpenAI models on Azure and Gemini on Google Vertex need a signed Enterprise agreement.
+
+4. security-overview („Last updated on: 2026-10-05“), Abschnitt 2:
+For every call, Opper records usage metadata: the model, token counts, latency, status and cost. These records power billing and analytics and are kept for five years.
+Enterprise agreements can extend zero retention to the usage metadata too.
+
+5. enterprise, FAQ:
+Opper stores only usage metadata such as model, tokens, latency and cost by default, tracing is a rule you turn on with retention from 1 to 30 days that projects can shorten to zero, Enterprise agreements can extend zero retention to the usage metadata, and Opper never trains on your data.

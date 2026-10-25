@@ -1,0 +1,39 @@
+Quelle: https://docs.aws.eu/esc/latest/userguide/bedrock.html
+Abruf: 2026-10-23 00:58:11 +0200
+
+Amazon Bedrock in AWS European Sovereign Cloud - AWS European Sovereign Cloud User Guide
+
+Amazon Bedrock in AWS European Sovereign Cloud - AWS European Sovereign Cloud User Guide
+
+DocumentationAWS European Sovereign CloudUser Guide
+
+How Amazon Bedrock differsDocumentation
+
+Services or capabilities described in AWS documentation might vary by Region. To see the differences applicable to the AWS European Sovereign Cloud Region, see the AWS European Sovereign Cloud User Guide.
+Amazon Bedrock in AWS European Sovereign Cloud
+
+This topic describes the functionality of Amazon Bedrock in the AWS European Sovereign Cloud Region.
+
+Amazon Bedrock is a fully managed service that makes it easy to use foundation models from third-party providers and Amazon.
+
+How Amazon Bedrock differs
+
+The following differences apply to Amazon Bedrock:
+
+Model availability for all regions, including AWS European Sovereign Cloud, is available at Model support by AWS Region.
+
+Feature support for all regions, including AWS European Sovereign Cloud, is available at Feature support by AWS Region.
+
+Documentation
+
+Amazon Bedrock documentation
+
+AWS Developer Tools in AWS European Sovereign Cloud
+
+Service endpoints for AWS European Sovereign Cloud
+
+Document Conventions
+
+AWS Batch
+
+AWS Billing and Cost Management

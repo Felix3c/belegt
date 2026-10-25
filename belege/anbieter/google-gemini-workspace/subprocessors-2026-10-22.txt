@@ -1,0 +1,1975 @@
+Quelle: https://workspace.google.com/intl/en/terms/subprocessors.html
+Abruf: 2026-10-22 12:59:41 +0200
+
+Google Workspace Terms Of Service – Google Workspace
+Solutions
+For Individuals
+Overview
+For Business
+Overview
+Small Business
+New Business
+Startups
+For Enterprise
+Overview
+Frontline Workers
+Work Safer
+Developers Education Nonprofits
+Products
+Gmail
+Drive
+Meet
+Chat
+Calendar
+Tasks
+Admin Console
+Docs
+Sheets
+Slides
+Forms
+Sites
+Keep
+Gemini
+Gemini Notebook
+Studio
+Vids
+Pics
+AppSheet
+Voice Separate Plan
+AI solutions Workspace Intelligence Security Add-ons See more apps
+Industries
+Industries
+Financial Services
+Healthcare and Life Sciences
+Retail
+Manufacturing
+Government and Public Sector
+Professional Services
+Technology
+Departments
+Sales
+Marketing
+Human Resources
+Security
+AI
+Pricing
+Resources
+Discover
+Workspace Intelligence
+AI learnings for work
+Security and trust
+Blog
+Customer stories
+Learn
+FAQs
+Training and certification
+Online Events & Webinars
+Gen AI At Work Event Series
+Connect
+Partners
+Marketplace
+Integrations
+Refer Google Workspace
+See more
+Support for admins Support for users
+Admin console
+Contact sales Get started
+Skip to main content
+Solutions
+close
+Solutions
+For Individuals
+Overview Google Workspace Individual
+For Business
+Overview Google Workspace Business
+Small Business Small business productivity tools
+New Business Tools for new businesses
+Startups Startup productivity tools
+For Enterprise
+Overview Google Workspace Enterprise
+Frontline Workers Google Workspace for the frontline
+Work Safer Protect organizations from cyberattacks
+Developers Education Nonprofits
+Products
+close
+Gmail Custom business email
+Drive Cloud storage
+Meet Video conferencing
+Chat Messaging for teams
+Calendar Shared calendars
+Tasks Tasks and task lists
+Admin Console IT management
+Docs Word processing
+Sheets Spreadsheets
+Slides Presentation builder
+Forms Online forms and surveys
+Sites Team and project sites
+Keep Digital notes
+Voice Separate Plan Cloud-based phone plans
+Gemini AI assistant
+Gemini Notebook AI research assistant
+Studio AI automation
+Vids Video editor
+Pics AI image editor
+AppSheet No-code apps
+AI solutions Workspace Intelligence Security Add-ons See more apps
+Industries
+close
+Industries
+Industries
+Financial Services
+Healthcare and Life Sciences
+Retail
+Manufacturing
+Government and Public Sector
+Professional Services
+Technology
+Departments
+Sales
+Marketing
+Human Resources
+Security
+AI
+Pricing
+Resources
+close
+Resources
+See more
+Discover
+Workspace Intelligence Personalized context across every app
+AI learnings for work Guides, tutorials, events, and more
+Security and trust Keep your data safe and compliant
+Blog Latest product news and stories
+Customer stories Case studies and videos
+Learn
+FAQs Answers to commonly asked questions
+Training and certification On-demand or classroom training
+Online Events & Webinars Hear from Workspace experts in digital events
+Gen AI At Work Event Series Attend in-person events about AI at work
+Connect
+Partners Find the right partner
+Marketplace Browse and install apps
+Integrations Partner and custom integrations
+Refer Google Workspace Earn rewards with our Referral Program
+Support for admins Support for users
+Admin console
+Contact sales Get started
+Solutions
+close
+Solutions
+For Individuals
+Overview Google Workspace Individual
+For Business
+Overview Google Workspace Business
+Small Business Small business productivity tools
+New Business Tools for new businesses
+Startups Startup productivity tools
+For Enterprise
+Overview Google Workspace Enterprise
+Frontline Workers Google Workspace for the frontline
+Work Safer Protect organizations from cyberattacks
+Developers Education Nonprofits
+Products
+close
+Gmail Custom business email
+Drive Cloud storage
+Meet Video conferencing
+Chat Messaging for teams
+Calendar Shared calendars
+Tasks Tasks and task lists
+Admin Console IT management
+Docs Word processing
+Sheets Spreadsheets
+Slides Presentation builder
+Forms Online forms and surveys
+Sites Team and project sites
+Keep Digital notes
+Voice Separate Plan Cloud-based phone plans
+Gemini AI assistant
+Gemini Notebook AI research assistant
+Studio AI automation
+Vids Video editor
+Pics AI image editor
+AppSheet No-code apps
+AI solutions Workspace Intelligence Security Add-ons See more apps
+Industries
+close
+Industries
+Industries
+Financial Services
+Healthcare and Life Sciences
+Retail
+Manufacturing
+Government and Public Sector
+Professional Services
+Technology
+Departments
+Sales
+Marketing
+Human Resources
+Security
+AI
+Pricing
+Resources
+close
+Resources
+See more
+Discover
+Workspace Intelligence Personalized context across every app
+AI learnings for work Guides, tutorials, events, and more
+Security and trust Keep your data safe and compliant
+Blog Latest product news and stories
+Customer stories Case studies and videos
+Learn
+FAQs Answers to commonly asked questions
+Training and certification On-demand or classroom training
+Online Events & Webinars Hear from Workspace experts in digital events
+Gen AI At Work Event Series Attend in-person events about AI at work
+Connect
+Partners Find the right partner
+Marketplace Browse and install apps
+Integrations Partner and custom integrations
+Refer Google Workspace Earn rewards with our Referral Program
+Support for admins Support for users
+Admin console
+Get started Contact sales
+Last modified October 19, 2026
+Third-Party Subprocessors
+Google and its affiliates engage the third-party entities in the table below to perform limited activities in connection with the Google Workspace Core Services and Cloud Identity Services. The table shows what activity each entity performs and indicates if an entity is only relevant to a specific Service. More information about each activity is provided directly below. This explains the limited processing of Customer Data the entity is authorized to perform.
+Technical Support: Customer-initiated technical support:
+• in the case of Google Workspace Services as described in the Google Workspace Technical Support Services Guidelines .
+• in the case of Cloud Identity Services as described in the Cloud Identity Technical Support Services Guidelines .
+Assured Support: Customer-initiated technical support as described in the Google Workspace Technical Support Services Guidelines . If Customer chooses to enable Assured Controls with a technical support location requirement, then only Subprocessors listed as performing Assured Support for locations permitted under that control package will be engaged to provide technical support to Customer.
+These Subprocessors do not have access to Customer Data stored or processed by the Services. They only have access to Customer Data if Customer explicitly elects to enable such access in the course of a support case (e.g., by granting access to a Google Doc, Google Sheet, or Google Drive folder).
+Security Risk Detection: Human review of indicators of account compromise or abuse. The Subprocessor only accesses Customer Data of accounts suspected of compromise or abuse and access to Customer Data is limited to suspicious search terms.
+Entity name
+Relevant Service(s)
+Activity
+Country where processing is performed
+Registered address
+Country of registration
+Company number
+Ultimate parent company
+Accenture International Limited
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Bulgaria, Canada, India, Israel, Japan, Malaysia, Mexico, Philippines, Romania and United States of America
+1 Grand Canal Square, Grand Canal Harbour, Dublin 2, D02 P820
+Ireland
+620139
+Accenture PLC
+Cognizant Worldwide Limited
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Argentina, Canada, India, Ireland, Israel, Japan, Malaysia,Mexico, Philippine, Romania, United State of America
+280 Bishopsgate, Liverpool Street, London, EC2M 4AG
+United Kingdom
+7195160
+Cognizant Technology Solutions Corporation
+EPAM Systems, Inc.
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Australia, Switzerland and the United States of America
+41 University Dr #202, Newtown, PA 18940
+United States of America
+3604150
+N/A
+Deloitte Consulting LLP
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Assured Support (US)
+United States of America
+4022 Sells Drive Hermitage, TN 37076
+United States of America
+06-1454513 (Tax ID)
+Deloitte Touche Tohmatsu Limited
+GlobalLogic Technologies Private Limited
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+India
+6th floor, Block 1, DLF Cyber city, Hyderabad, Telangana 500019, India
+India
+AADCR5222K
+Hitachi, Ltd.
+GlobalLogic Inc.
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Assured Support (US)
+Canada, Columbia, India, Japan, Mexico, Romania, United States of America
+2535 Augustine Dr., 5th Floor, Santa Clara, CA 95054
+United States of America
+54-1986789 (Tax ID)
+Hitachi, Ltd.
+Infosys Limited
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+India, Mexico and United States of America
+44, Infosys Avenue Electronics City, Hosur Road, Bengaluru 560 100, India
+India
+AAACI4798L
+NA
+International Business Machines Corporation
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Assured Support (US)
+United States of America
+1 New Orchard Road
+Armonk, NY 10504-1722
+United States of America
+13-0871985
+N/A
+NTT DATA Americas, Inc.
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Assured Support (US)
+India, Malaysia, United States of America
+7950 Legacy Drive, Plano, Texas 75024
+United States of America
+04-2437166
+NTT DATA, Inc.
+Quantiphi Inc (USA)
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Assured Support (US)
+India, United States of America
+Corporation Trust Center, 1209 Orange Street, in the City of Wilmington County of New Castle
+United States of America
+464258551
+Quantiphi Inc
+Tata Consultancy Services Limited
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+India, Mexico, United States of America
+9th Floor, Nirmal Building, Nariman Point, Mumbai - 400021
+India
+AAACR4849R
+Tata Sons Private Limited
+TELUS International Services Limited
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Bulgaria, Canada, El Salvador
+Voxpro House, Point Village, East Wall Road, Dublin 1, Ireland
+Ireland
+669282
+TELUS Corporation
+Virtusa SuperholdCo Inc
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+India, Poland, Mexico, Sri Lanka, United States of America
+132 Turnpike Road, Suite 300, Southborough, MA 01772-2129
+United States of America
+35-2692972
+N/A
+Wipro LLC
+All Google Workspace Core Services and Cloud Identity Services
+Security Risk Detection
+India, Philippines, United States of America
+2 Tower Center Blvd, Suite 2200,East Brunswick, New Jersey 08816, United States
+United States of America
+2917922
+Wipro Limited (India)
+Affiliates of Third-Party Subprocessors
+Accenture International Limited Affiliates
+Entity name
+Relevant Google Cloud Platform Service(s)
+Activity
+Country where processing is performed
+Registered address
+Country of registration
+Company number
+Ultimate parent company
+Accenture Bulgaria EOOD
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Bulgaria
+63 Kazbek Street, Manastirski Livadi – West, Vitosha region, Capital City of Sofia, 1680, Bulgaria
+Bulgaria
+203574970
+Accenture PLC
+Accenture Inc.
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Canada
+40 King St. West, Suite 3000, Toronto M5H 3Y2
+Canada
+001478249
+Accenture PLC
+Accenture Solutions Pvt. Ltd.
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+India
+Plant 3, Godrej & Boyce Complex, LBS Marg, Vikhroli (West), Mumbai, Maharashtra,400079, India
+India
+U72400MH199
+0PTC057492
+Accenture PLC
+Accenture Ltd
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Israel
+2 Ha-Menofim Street, 3rd Floor, Herzliya 46728
+Israel
+513111187
+Accenture PLC
+Accenture Japan Ltd
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Japan
+1-8-1 Akasaka Minato-ku Akasaka Intercity AIR Tokyo 107-8672
+Japan
+549300OZ2GA
+A2229G619
+Accenture PLC
+Accenture Sdn Bhd
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Malaysia
+Level 21, Suite 21.01, The Gardens South Tower, Mid Valley City, Lingkaran Syed Putra, 59200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia.
+Malaysia
+198901001572
+(178878-H)
+Accenture PLC
+Accenture S.C
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Mexico
+Paseo de los Tamarindos No. 90, Torre 2, Piso 26, Col. Bosques de las Lomas, C.P. 05120, Alcaldía de Cuajimalpa. Ciudad de México
+Mexico
+22950
+Accenture PLC
+Accenture, Inc.
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Philippines
+7th Floor Robinsons Cybergate Center Tower 1 Pioneer St. Mandaluyong City 15547th Floor, Robinsons Cybergate 1, Pioneer St., Mandaluyong City
+Philippines
+ASO91-199207
+Accenture PLC
+ACCENTURE CENTRAL EUROPE BV AMSTERDAM OLANDA-SUCURSALA BUCURESTI
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Romania
+București, 6th district, 24 Preciziei street, H1 building, ground floor, room no 3
+Romania
+J40/16334/2004
+Accenture PLC
+Accenture LLP
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Assured Support (US)
+United States of America
+500 West Madison Street, Chicago, IL, 60661, United States
+United States of America
+000-622
+Accenture PLC
+Cognizant Worldwide Limited Affiliates
+Entity name
+Relevant Service(s)
+Activity
+Country where processing is performed
+Registered address
+Country of registration
+Company number
+Ultimate parent company
+Cognizant Technology Solutions Argentina S.R.L.
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Argentina
+Tucumán 3720, C1189 AAV, Buenos Aires, Argentina
+Argentina
+1780740
+Cognizant Technology Solutions Corporation
+Cognizant Technology Solutions Canada, Inc.
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Canada
+2900 - 550 Burrard Street, Vancouver, British Columbia V6C 0A3, Canada
+Canada
+BC1317238
+Cognizant Technology Solutions Corporation
+Cognizant Technology Solutions India Private Limited
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+India
+No. 5/535, Old Mahabalipuram Road, Okkiyam Thoraipakkam Chennai - 600 097, Tamil Nadu
+India
+U72300TN1994
+PTC026590
+Cognizant Technology Solutions Corporation
+Cognizant Technology Solutions Ireland Limited
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Ireland
+39/40 Upper Mount Street, Dublin 2, Ireland
+Ireland
+358105
+Cognizant Technology Solutions Corporation
+Cognizant (GB) Limited - Israel Branch
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Israel
+TEL AVIV - Museum Tower, Berkovich 4, Tel Aviv-Yafo,Tel Aviv Israel 64238
+Israel
+560033623
+Cognizant Technology Solutions Corporation
+Cognizant Technology Solutions Global Services Limited
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Israel
+280 Bishopsgate, London, United Kingdom, EC2M 4AG
+United Kingdom
+7776457
+Cognizant Technology Solutions Corporation
+Cognizant Japan KK
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Japan
+PMO Hanzomon 7F, 2-1 Kojimachi, Chiyoda-ku,Tokyo, Japan 102-0083, Japan Japan
+Japan
+0100-01-120888
+Cognizant Technology Solutions Corporation
+CogDev Malaysia SDN. BHD
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Malaysia
+SUITE 13.03, 13TH FLOOR, MENARA TAN & TAN, 207 JALAN TUN RAZAK, 50400 KUALA LUMPUR W.P. KUALA LUMPUR Malaysia
+Malaysia
+201001027641
+Cognizant Technology Solutions Corporation
+Cognizant Technology Solutions de Mexico, S.A. de C.V.
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Mexico
+Avenida Aviación 3800, Colonia San Juan de Ocotan, Municipio de Zapopan, Estado de Jalisco 45019, Mexico
+Mexico
+97325
+Cognizant Technology Solutions Corporation
+Cognizant Technology Solutions Philippines, Inc.
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Philippines
+2nd, 3rd and 4th Floors of Science Hub Tower 4 Building, McKinley Hill Cyberpark, Fort Bonifacio, Taguig City, Philippines.
+Philippines
+CS200719176
+Cognizant Technology Solutions Corporation
+Cognizant Mobility Romania S.R.L.
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Assured Support (EU)
+Romania
+Calea Aradului Nr. 8, ET.4 Timișoara, jud. Timiș, Romania
+Romania
+J35/51/11.01.2021
+Cognizant Technology Solutions Corporation
+Cognizant Technology Solutions U.S. Corporation
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Assured Support (US)
+United States of America
+211 Quality Circle, College Station, Texas 77845
+United States of America
+13-3924155
+N/A
+EPAM Systems, Inc. Affiliates
+Entity name
+Relevant Service(s)
+Activity
+Country where processing is performed
+Registered address
+Country of registration
+Company number
+Ultimate parent company
+EPAM Systems (Australia) Pty Ltd
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Australia
+Level 19, 68 Pitt Street, Sydney, NSW, 2000, Australia
+Australia
+166668293
+EPAM Systems, Inc.
+EPAM Systems (Switzerland) GmbH
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Switzerland
+Boulevard Lilienthal 2, Glattpark (Opfikon) 8152, Switzerland
+Switzerland
+CHE-114.898.319
+EPAM Systems, Inc.
+GlobalLogic Inc. Affiliates
+Entity name
+Relevant Google Cloud Platform Service(s)
+Activity
+Country where processing is performed
+Registered address
+Country of registration
+Company number
+Ultimate p arent company
+GlobalLogic Canada U.L.C.
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Canada
+208 - 1477 Pender Street West, Vancouver, BC V6G 2S3, Canada
+Canada
+BC1053328
+Hitachi, Ltd
+Hexacta S.A.S.
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Colombia
+Ak 15, #100-43, 602 Office, Bogota, D.C.
+Colombia
+901.249.158-3
+Hitachi, Ltd
+GlobalLogic India Private Ltd.
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+India
+Tower - 3, Ground to 10th floor, Oxygen Business Park SEZ, Sector 144, Noida Expressway, Noida, Uttar Pradesh - 201304
+India
+AABCI2526F
+GlobalLogic Inc.
+GlobalLogic Japan Ltd.
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Japan
+207 Gupta Arcade, Plot No. 5, L.S.C., Mayur Vihar Phase-1 Extension, Delhi -110091, India
+Japan
+3010701042460
+Hitachi, Ltd
+GlobalLogic Mexico S. de R.L. de C.V.
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Mexico
+Lago Alberto 442, Torre A. Interior: 403 Suite 555 , Col. Anahua I Seccion, Alcaldia Miguel Hidalco, Mexico City, CP 1132
+Mexico
+GME220611SB0
+Hitachi, Ltd
+Fortech Software Solutions S.R.L.
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Romania
+Romania, Cluj Napoca, 106 Frunzisului Street, Cluj County
+Romania
+J12/5254/2021
+Hitachi, Ltd
+GlobalLogic Romania S.R.L.
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Romania
+Bucharest, 1 st District, 15 Charles de Gaulle Square, Charles de Gaulle Plaza Building, 3 rd floor, office 319
+Romania
+46545456
+Hitachi, Ltd
+Infosys Limited Affiliates
+Entity name
+Relevant Service(s)
+Activity
+Country where processing is performed
+Registered address
+Country of registration
+Company number
+Ultimate parent company
+Infosys Limited
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Assured Support (US)
+United States of America
+2400 N Glenville Dr Suite C150 Richardson TX 75082 United States
+United States of America
+58-1760235 (Tax ID)
+Infosys Limited
+NTT DATA Americas, Inc.
+Entity name
+Relevant Service(s)
+Activity
+Country where processing is performed
+Registered address
+Country of registration
+Company number
+Ultimate parent company
+NTT MSC Sdn. Bhd
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Malaysia
+Level 11, First Ave, Bandar Utama, 47800 Petaling Jaya, Selangor, Malaysia
+Malaysia
+199701022066 (437563-H)
+NTT DATA Americas, Inc.
+NTT DATA Information Processing Services Private Limited
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+India
+Plot No. 178, EPIP Phase-II Whitefield Industrial Area, Bangalore 560066, Karnataka, India
+India
+U72900KA2011PTC060769
+NTT DATA Americas, Inc.
+NTT Managed Services India Private Limited
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+India
+5th Floor (East Wing), Building 5 (VEGA), DivyaSree Orion, Survey No. 66/1, Raidurg Village, Serilingampally
+India
+U72900TG2012PTC110696
+NTT DATA Americas, Inc.
+Niveus Solutions Private Limited
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+India
+Door No. 4-5-14A(9) & 4-5-14A(10), 3rd Floor, Amruth Arcade, Govinda Kalyana Mantapa Road Kin, Nimulky, Udupi, Udupi, Karnataka 576101, India
+India
+U72900KA2013PTC068576
+NTT DATA Americas, Inc.
+Quantiphi Inc (USA) Affiliates
+Entity name
+Relevant Service(s)
+Activity
+Country where processing is performed
+Registered address
+Country of registration
+Company number
+Ultimate parent company
+Quantiphi Analytics Private Solutions Ltd (QASPL)
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Assured Support (US)
+India
+504 QUANTUM TOWER RAM BAUG, BH SBI OFF SV ROAD
+MALAD WEST, MUMBAI, MUMBAI
+SUBURBAN, MAHARASHTRA, 400064
+India
+AAACQ3177B
+Quantiphi Inc
+Tata Consultancy Services Limited Affiliates
+Entity name
+Relevant Service(s)
+Activity
+Country where processing is performed
+Registered address
+Country of registration
+Company number
+Ultimate parent company
+Tata Consultancy Services de Mexico SA de CV
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Mexico
+Av. Eugenia 197 piso 6A - Colonia Narvarte Poniente - Mexico City - CP 03020 - Mexico
+Mexico
+TCS030402UB7 (Tax ID)
+Tata Sons Private Limited
+Tata Consultancy Services Limited
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Assured Support (US)
+United States of America
+379 Thornall Street, 4th Floor, Edison, NJ 08837
+United States of America
+98-0429806
+Tata Sons Private Limited
+TELUS International Services Limited Affiliates
+Entity name
+Relevant Service(s)
+Activity
+Country where processing is performed
+Registered address
+Country of registration
+Company number
+Ultimate parent company
+CallPoint New Europe EAD d/b/a Telus International Europe
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Bulgaria
+1000 Sofia, Triaditsa district, 1 Alabin Str., TELUS Tower Bulgaria
+Bulgaria
+175138361
+TELUS Corporation
+Telus International (CDA) Inc.
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Canada
+7th Floor, 510 West Georgia Street, Vancouver, BC V6B 0M3
+Canada
+BC1059858
+TELUS Corporation
+Telus Communications Inc.
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Canada
+510 W. Georgia Street, Vancouver BC, V6B 0M3
+Canada
+L2TEUTQ8OSHMJWVLCE40 (LEI)
+Telus Corporation
+Transactel El Salvador, S.A. de C.V.
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+El Salvador
+Calle Chiltiupan y 17 Avenida Norte; Torre Transactel; Plaza Merliot; La Libertad; Santa Tecla; El Salvador
+El Salvador
+0614-310506-103-7 (Tax ID)
+TELUS Corporation
+Virtusa SuperholdCo Inc Affiliates
+Entity name
+Relevant Service(s)
+Activity
+Country where processing is performed
+Registered address
+Country of registration
+Company number
+Ultimate parent company
+Virtusa Consulting Services Private Limited
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+India
+No. 34 IT Highway, Navallur, Chennai - 600130
+India
+U93000TN2008FTC128079
+Virtusa SuperholdCo Inc
+VIRTUSA MEXICO S DE RL DE CV
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Mexico
+PH Floor, No 1249, Avenida Mariano Otera, Gudalajara, Jalsico,Mexico
+Mexico
+RFC - VME180816SXA
+Virtusa SuperholdCo Inc
+VIRTUSA Spółka z ograniczoną odpowiedzialnością
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Poland
+UL. PROSTA, 32, 00 – 838 Warsaw, Poland
+Poland
+KRS 0000802080
+Virtusa SuperholdCo Inc
+Virtusa (Pvt) Ltd
+All Google Workspace Core Services and Cloud Identity Services
+Technical Support
+Sri Lanka
+752, Dr. Danister De Silva Mawatha, Colombo 09, Sri Lanka
+Sri Lanka
+PV-4974
+Virtusa SuperholdCo Inc
+Wipro LLC Affiliates
+Entity name
+Relevant Service(s)
+Activity
+Country where processing is performed
+Registered address
+Country of registration
+Company number
+Ultimate parent company
+Wipro Limited
+All Google Workspace Core Services and Cloud Identity Services
+Security Risk Detection
+India
+Doddakannelli, Sarjapur Road, Bengaluru 560035, Karnataka, India
+India
+L32102KA1945PLC020800
+N/A
+Wipro Limited
+All Google Workspace Core Services and Cloud Identity Services
+Security Risk Detection
+Phillipines
+41st Floor, GT Tower International, 6813 Ayala Avenue Cor, H.V. Dela Costa St. Makati City, 1209
+Phillipines
+FS201104040
+Wipro Limited
+Google Group Subprocessors
+Google engages the Google Affiliates in the table below to perform limited activities in connection with the Google Workspace Core Services and Cloud Identity Services. The table shows what activity each entity performs and indicates if an entity is only relevant to a specific Service. More information about each activity is provided directly below. This explains the limited processing of Customer Data the entity is authorized to perform. The ultimate parent company for all Google Group Subprocessors listed below is Google LLC, which is itself a subsidiary of Alphabet Inc.
+Data Center Operations: Operates and maintains the Google data center and equipment that stores Customer Data. Subprocessor personnel do not require access to Customer Data to perform this activity.
+Service Maintenance: Software and systems engineering, maintenance and troubleshooting. In the course of performing this activity the Subprocessor may require limited, authorized access to Customer Data e.g. to remediate technical issues.
+Technical Support: Customer-initiated technical support:
+• in the case of Google Workspace as described in the Google Workspace Technical Support Services Guidelines
+• in the case of Cloud Identity Services as described in the Cloud Identity Technical Support Services Guidelines .
+In the course of performing this activity, the Subprocessor may require limited, authorized access to Customer Data to respond to Customer-initiated requests.
+Entity name
+Relevant Service(s)
+Activity
+Country where processing is performed
+Registered address
+Country of registration
+Company number
+Google Argentina S.R.L.
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+Argentina
+Alicia M. De Justo 350, 2º Floor Dique IV, Puerto Madero Buenos Aires, Argentina, C1107AAH
+Argentina
+IGJ 1766627
+Google Australia Pty Ltd.
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+Australia
+Tower One - International Towers Sydney Level 46, 100 Barangaroo Avenue Barangaroo, Australia, NSW 2000
+Australia
+102 417 032
+Crystal Computing SRL
+All Google Workspace Core Services and Cloud Identity Services
+Data Center Operations
+Belgium
+Zone Industrielle de Ghlin Baudour Sud Rue de Ghlin 100 Baudour, Belgium, 7331
+Belgium
+0883.073.944
+Google Belgium NV
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+Belgium
+Etterbeekstesteenweg 180 Brussels, Belgium, 1040
+Belgium
+878 065 378
+Google Brasil Internet LTDA.
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+Brazil
+Avenida Brigadeiro Faria Lima nº 3.477 17º, 18º, 19º e 20º andares Torre Sul Itaim Bibi, São Paulo, Estado de São Paulo, Brazil, Cep 04538-133
+Brazil
+35.219.399.204
+Google Cloud Brasil Computação e Serviços de Dados Ltda.
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+Brazil
+Avenida Brigadeiro Faria Lima 3729, 4o e 5o andares Itaim Bibi, São Paulo, SP, Brazil, CEP 04538-905
+Brazil
+35.229.923.517
+Google Canada Corporation
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+Canada
+1741 Lower Street, Suite 600 Halifax, CAN_NS, Canada, B3J 0J2
+Canada
+3333676
+Google Cloud Canada Corporation
+All Google Workspace Core Services and Cloud Identity Services
+Data Center Operations
+Service Maintenance
+Technical Support
+Canada
+1741 Lower Street, Suite 600 Halifax, CAN_NS, Canada, B3J 0J2
+Canada
+3300181
+Google Chile Limitada
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+Chile
+Avda. Andres Bello 2711 Suite 1701 Las Condes, Santiago, Chile
+Chile
+76.714.140-8 (Tax ID)
+Inversiones y Servicios Dataluna Limitada
+All Google Workspace Core Services and Cloud Identity Services
+Data Center Operations
+Chile
+Avda. Andres Bello 2711 Suite 1701 Las Condes, Santiago, Chile
+Chile
+76.117.026-0 (Tax ID)
+Dapsi International ApS
+All Google Workspace Core Services and Cloud Identity Services
+Data Center Operations
+Denmark
+Prinsessens Kvarter 10 Fredericia, Denmark, DK-7000
+Denmark
+37246433
+Tuike Finland Oy
+All Google Workspace Core Services and Cloud Identity Services
+Data Center Operations
+Finland
+Ensontie 1 Hamina, Finland, 49420
+Finland
+2206071-7
+Google Cloud France SARL
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+France
+8 Rue de Londres Paris, France, 75009
+France
+881 721 583
+Google France SARL
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+France
+8 Rue de Londres Paris, France, 75009
+France
+443 061 841
+Google Germany GmbH
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+Germany
+ABC-Strasse 19 Hamburg, Germany, 20354
+Germany
+HRB 86891
+Google (Hong Kong) Limited
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+Hong Kong
+14th Floor, One Taikoo Place 979 King's Road Quarry Bay Hong Kong, Hong Kong
+Hong Kong
+899340
+Google India Pvt. Ltd.
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+India
+No. 3, RMZ Infinity – Tower E Old Madras Road 4th & 5th Floors Bangalore, India, 560 016
+India
+U72900KA2003PTC033028
+GOC Services India Private Limited
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+India
+Meenakshi Technova Survey No.116,117,119,128/AA, 129, Road No.2, Financial District, Nanakramguda Serilingampally Mandal Hyderabad (TG), India, 500032
+India
+U72900TG2019FTC129995
+Google IT Services India Private Limited
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+India
+Bagmane Constellation Business Park 11th-12th Floor, Carina-West Tower Bangalore 560048 India
+India
+U72900KA2020FTC131867
+Google Cloud EMEA Limited
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+Ireland
+70 Sir John Rogersons Quay Dublin , Ireland, 2
+Ireland
+660412
+Google Ireland Ltd.
+All Google Workspace Core Services and Cloud Identity Services
+Data Center Operations
+Service Maintenance
+Technical Support
+Ireland
+Gordon House, Barrow Street Dublin, Ireland, 4
+Ireland
+368047
+Google Israel Ltd.
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+Israel
+Electra Tower 98 Yigal Alon Street Tel Aviv, Israel, 6789141
+Israel
+513695478
+Google Cloud Italy S.r.l.
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+Italy
+Via Federico Confalonieri 4 Milano, Italy
+Italy
+MI- 2590058
+Google Italy S.r.l.
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+Italy
+Via Federico Confalonieri 4 Milano, Italy
+Italy
+3660670963
+Asa G.K.
+All Google Workspace Core Services and Cloud Identity Services
+Data Center Operations
+Japan
+Roppongi Hills Mori Tower, 10-1 Roppongi 6-chome, Minato-ku Tokyo 106-6126 Japan
+Japan
+0100-03-027417
+Google Cloud Japan G.K.
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+Japan
+Roppongi Hills Mori Tower, 10-1 Roppongi 6-chome, Minato-ku Tokyo 106-6126 Japan
+Japan
+0100-03-022051
+Google Japan G.K.
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+Japan
+Shibuya Stream, 21-3, Shibuya 3-chome, Shibuya-ku Tokyo, Japan, 150-0002
+Japan
+0104-01-089234
+Google Korea, LLC.
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+South Korea
+22nd Floor Gangnam Finance Center 152 Teheran-ro, Gangnam-gu Seoul, Korea, 06236
+South Korea
+110114-0047545
+Google Cloud Mexico, S. de R.L. de C.V.
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+Mexico
+Calle Montes Urales # 445 - Piso 5 Col. Lomas de Chapultepec Del. Miguel Hidalgo Ciudad de Mexico 11000 Mexico
+Mexico
+N-2022076965
+Opal Computing, S. de R.L. de C.V.
+All Google Workspace Core Services and Cloud Identity Services
+Data Center Operations
+Mexico
+Calle Montes Urales # 445 - Piso 5 Col. Lomas de Chapultepec Del. Miguel Hidalgo Ciudad de México 11000 Mexico
+Mexico
+OCO221031KK8
+Google Netherlands B.V.
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+Netherlands
+Claude Debussylaan 34, 15th Floor Amsterdam, Netherlands, 1082 MD
+Netherlands
+34198589
+Green Box Computing B.V.
+All Google Workspace Core Services and Cloud Identity Services
+Data Center Operations
+Netherlands
+Oostpolder 4 Eemshaven, Netherlands, 9979 XT
+Netherlands
+58465197
+Google New Zealand Limited
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+New Zealand
+Level 27, Lumley Centre 88 Shortland Street Auckland, New Zealand
+New Zealand
+1786635
+Google Cloud Poland Sp. z o.o.
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+Poland
+ul. Emilii Plater no. 53 Warsaw, Poland, 00-113
+Poland
+0000840059
+Google Poland SP.z.o.o.
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+Poland
+ul. Emilii Plater no. 53 Warsaw, Poland, 00-113
+Poland
+0000240611
+Google Asia Pacific Pte Ltd.
+All Google Workspace Core Services and Cloud Identity Services
+Data Center Operations
+Service Maintenance
+Technical Support
+Singapore
+8 Marina Boulevard #05-02 Marina Bay Financial Centre Singapore, Singapore, 018981
+Singapore
+200817984R
+Google Spain, S.L.U.
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+Spain
+Plaza Pablo Ruiz Picasso 1 Torre Picasso, Planta 26 Madrid, Spain, 28020
+Spain
+B-63272603
+Google Sweden AB
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+Sweden
+Kungsbron 2 Stockholm, Sweden, 111 22
+Sweden
+556656 – 6880
+Google Switzerland GmbH.
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+Switzerland
+Brandschenkestrasse 110 Zurich, Switzerland, 8002
+Switzerland
+CHE-110.474.423
+Charter Investments Limited
+All Google Workspace Core Services and Cloud Identity Services
+Data Center Operations
+Taiwan
+15/F, 168 Dunhua North Road, Songshan District Taipei, Taiwan, 105
+Taiwan
+53104757
+Google Taiwan Limited
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+Taiwan
+15F., No. 168, Dunhua N. Rd. Songshan Dist. Taipei City, Taiwan R.O.C., 105
+Taiwan
+54670929
+Google UK Ltd.
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+United Kingdom
+Belgrave House, 76 Buckingham Palace Road London, United Kingdom, SW1W 9TQ
+United Kingdom
+3977902
+Design, LLC
+All Google Workspace Core Services and Cloud Identity Services
+Data Center Operations
+United States of America
+Corporation Service Company 251 Little Falls Drive Wilmington DE, 19808, United States
+United States of America
+3888193
+GOC International LLC
+All Google Workspace Core Services and Cloud Identity Services
+Service Maintenance
+Technical Support
+United States of America
+251 Little Falls Drive Wilmington DE, 19808, United States
+United States of America
+7119843
+Google LLC
+All Google Workspace Core Services and Cloud Identity Services
+Data Center Operations
+Service Maintenance
+Technical Support
+United States of America
+Corporation Service Company 251 Little Falls Drive Wilmington, DE, United States, 19808
+United States of America
+3582691
+Third-Party Subprocessors
+Google and its affiliates may engage the Third-Party Subprocessors listed at https://cloud.google.com/terms/subprocessors and the third-party entities in the table below to perform limited activities in connection with AppSheet. The table shows what activity each entity performs. More information about each activity is provided directly below. This explains the limited processing of Customer Data the entity is authorized to perform.
+Technical Support: Customer-initiated technical support as described in the AppSheet Technical Support Services Guidelines .
+Entity name
+Relevant Service(s)
+Activity
+Country where processing is performed
+Registered address
+Country of registration
+Company number
+Parent company
+Accenture International Limited
+AppSheet
+Technical Support
+Bulgaria, Canada, India, Israel, Japan, Malaysia, Mexico, Philippines, Romania and United States of America
+1 Grand Canal Square, Grand Canal Harbour, Dublin 2, D02 P820
+Ireland
+620139
+Accenture plc
+Cognizant Worldwide Limited (formerly listed as Cognizant Technology Solutions U.S. Corporation)
+AppSheet
+Technical Support
+Argentina, Canada India, Ireland, Israel, Japan, Malaysia Mexico, Philippines, Romania, United States of America
+280 Bishopsgate, Liverpool Street, London, EC2M 4AG
+United Kingdom
+7195160
+Cognizant Technology Solutions Corporation
+Deloitte Consulting LLP
+AppSheet
+Technical Support
+United States of America
+4022 Sells Drive Hermitage, TN 37076
+United States of America
+06-1454513 (Tax ID)
+Deloitte Touche Tohmatsu Limited
+EPAM Systems, Inc.
+AppSheet
+Technical Support
+Australia, Switzerland and the United States of America
+41 University Dr #202, Newtown, PA 18940
+United States of America
+3604150
+N/A
+GlobalLogic Inc.
+AppSheet
+Technical Support
+Canada, Columbia, India, Japan, Mexico, Romania, United States of America
+2535 Augustine Dr., 5th Floor, Santa Clara, CA 95054
+United States of America
+54-1986789 (Tax ID)
+GlobalLogic Worldwide Holdings, Inc.
+Infosys Limited
+AppSheet
+Technical Support
+India and United States of America
+2400 N Glenville Dr Suite C150 Richardson TX 75082 United States
+United States of America
+58-1760235 (Tax ID)
+Infosys Limited
+International Business Machines Corporation
+All Google Workspace Core Services and Cloud Identity ServicesAll Google Cloud Platform Services, All Workspace Services, All SecOps Services, All Chrome Enterprise Services
+Technical Support
+United States of America
+1 New Orchard Road
+Armonk, NY 10504-1722
+United States of America
+13-0871985
+N/A
+NTT DATA Americas, Inc.
+All Google Workspace Core Services and Cloud Identity ServicesAll Google Cloud Platform Services, All Workspace Services, All SecOps Services, All Chrome Enterprise Services
+Technical Support
+India, Malaysia, United States of America
+7950 Legacy Drive, Plano, Texas 75024
+United States of America
+04-2437166
+NTT DATA, Inc.
+Quantiphi Inc (USA)
+All Google Workspace Core Services and Cloud Identity ServicesAll Workspace Services, All SecOps Services, All Chrome Enterprise Services
+Technical Support
+India, United States of America
+Corporation Trust Center, 1209 Orange Street, in the City of Wilmington County of New Castle
+United States of America
+464258551
+Quantiphi Inc
+Tata Consultancy Services Limited
+AppSheet
+Technical Support
+India, Mexico, United States of America
+9th Floor, Nirmal Building, Nariman Point, Mumbai - 400021
+India
+AAACR4849R
+Tata Sons Private Limited
+TELUS International Services Limited
+AppSheet
+Technical Support
+Bulgaria, Canada, and El Salvador
+Voxpro House, Point Village, East Wall Road, Dublin 1, Ireland
+Ireland
+669282
+TELUS Corporation
+Virtusa SuperholdCo Inc
+AppSheet
+Technical Support
+India, Poland, Mexico, Sri Lanka, United States of America
+132 Turnpike Road, Suite 300, Southborough, MA 01772-2129
+United States of America
+35-2692972
+N/A
+Google Group Subprocessors
+Google may engage the Google Affiliates listed at https://cloud.google.com/terms/subprocessors to perform limited activities in connection with AppSheet.
+Previous Versions
+Last modified October 19, 2026
+July 23, 2026
+May 14, 2026
+March 2, 2026
+September 30, 2025
+August 14, 2025
+June 5, 2025
+May 13, 2025
+February 13, 2025
+December 5, 2024
+November 18, 2024
+September 19, 2024
+July 10, 2024
+March 19, 2024
+January 29, 2024
+January 10, 2024
+November 1, 2023
+September 14, 2023
+May 31, 2023
+May 25, 2023
+March 16, 2023
+February 7, 2023
+August 12, 2021
+August 18, 2022
+June 13, 2022
+April 12, 2022
+March 31, 2022
+January 20, 2022
+December 9, 2021
+September 2, 2021
+June 10, 2021
+May 4, 2021
+April 15, 2021
+March 25, 2021
+December 10, 2020
+December 3, 2020
+November 12, 2020
+Sign up for productivity, collaboration, and AI updates
+1 2
+Continue
+Afghanistan
+Albania
+American Samoa
+Andorra
+Anguilla
+Antarctica
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bosnia and Herzegovina
+Botswana
+Bouvet Island
+Brazil
+British Indian Ocean Territory
+British Virgin Islands
+Brunei
+Bulgaria
+Burkina Faso
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Cayman Islands
+Central African Republic
+Chad
+Chile
+China
+Christmas Island
+Cocos [Keeling] Islands
+Colombia
+Comoros
+Congo [DRC]
+Congo [Republic]
+Cook Islands
+Costa Rica
+Croatia
+Cyprus
+Czech Republic
+Côte d’Ivoire
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Falkland Islands [Islas Malvinas]
+Faroe Islands
+Fiji
+Finland
+France
+French Guiana
+French Polynesia
+French Southern Territories
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and McDonald Islands
+Honduras
+Hong Kong
+Hungary
+Iceland
+India
+Indonesia
+Iraq
+Ireland
+Israel
+Italy
+Jamaica
+Japan
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macau
+Macedonia [FYROM]
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mayotte
+Mexico
+Micronesia
+Moldova
+Monaco
+Mongolia
+Montserrat
+Morocco
+Mozambique
+Namibia
+Nauru
+Nepal
+Netherlands
+Netherlands Antilles
+New Caledonia
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Niue
+Norfolk Island
+Northern Mariana Islands
+Norway
+Oman
+Pakistan
+Palau
+Palestine
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Pitcairn Islands
+Poland
+Portugal
+Puerto Rico
+Qatar
+Romania
+Russia
+Rwanda
+Réunion
+Saint Helena
+Saint Kitts and Nevis
+Saint Lucia
+Saint Pierre and Miquelon
+Saint Vincent and the Grenadines
+Samoa
+San Marino
+Saudi Arabia
+Senegal
+Seychelles
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Georgia and the South Sandwich Islands
+South Korea
+Spain
+Sri Lanka
+Suriname
+Svalbard and Jan Mayen
+Swaziland
+Sweden
+Switzerland
+São Tomé and Príncipe
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Timor-Leste
+Togo
+Tokelau
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkey
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+U.S. Outlying Islands
+U.S. Virgin Islands
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+Uzbekistan
+Vanuatu
+Vatican City
+Venezuela
+Vietnam
+Wallis and Futuna
+Western Sahara
+Yemen
+Zambia
+Zimbabwe
+1
+2-9
+10-19
+20-49
+50-99
+100-199
+200-349
+350-999
+1000-2999
+3000+
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+أريد تلقّي نشرات إخبارية من Google Cloud وWorkspace
+أريد الاشتراك لتلقي الأخبار والمستجدات حول المنتجات ومعلومات عن الفعاليات والعروض المميزة المقدّمة في Google Cloud من Google.
+أدرك أن بياناتي الشخصية ستتم معالجتها بما يتوافق مع سياسة خصوصية Google.
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+Chci dostávat zpravodaje ze služeb Google Cloud a Workspace
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+Jeg vil gerne modtage nyhedsbreve fra Google Cloud og Workspace
+Tilmeld mig, så jeg modtager nyheder, produktopdateringer, oplysninger om begivenheder og særtilbud fra Google.
+Jeg er indforstået med, at mine personoplysninger behandles i overensstemmelse med Googles privatlivspolitikker .
+Ich möchte Newsletter von Google Cloud und Google Workspace erhalten.
+Ich möchte von Google Neuigkeiten, aktuelle Informationen zu Produkten und Veranstaltungen sowie Angebote zu Google Cloud erhalten.
+Ich bin damit einverstanden, dass meine personenbezogenen Daten gemäß der Datenschutzerklärung von Google verarbeitet werden.
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+Quiero recibir boletines informativos de Google Cloud y Workspace
+Quiero registrarme para que Google me envíe noticias, novedades de productos, información de eventos y ofertas especiales de Google Cloud.
+Acepto que mis datos personales se procesen de acuerdo con la Política de Privacidad de Google.
+Quiero recibir newsletters de Google Cloud y Workspace
+Quiero darme de alta para que Google me envíe noticias, novedades de productos, información de eventos y ofertas especiales de Google Cloud.
+Acepto que mis datos personales se traten de acuerdo con la Política de Privacidad de Google.
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+Haluan saada Google Cloudin ja Workspacen uutiskirjeitä
+Haluan saada Googlelta sähköpostiini Google Cloudiin liittyviä uutisia ja tietoa esimerkiksi tuotepäivityksistä, tapahtumista ja erikoistarjouksista.
+Ymmärrän, että henkilökohtaista dataani käsitellään Googlen tietosuojakäytännön mukaisesti.
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+Je souhaite recevoir les newsletters de Google Cloud et Workspace
+Je souhaite que Google m'envoie les actualités, les mises à jour de produits, les informations sur les événements et les offres spéciales concernant Google Cloud.
+Je comprends que mes données à caractère personnel seront traitées conformément aux Règles de confidentialité de Google.
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+Szeretnék hírleveleket kapni a Google Cloudtól és a Workspace-től
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+Saya ingin menerima newsletter dari Google Cloud dan Workspace
+Daftarkan saya untuk menerima berita, info terbaru produk, informasi acara, dan penawaran spesial tentang Google Cloud dari Google.
+Saya memahami bahwa data pribadi saya akan diproses sesuai Kebijakan Privasi Google.
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+Desidero ricevere newsletter da Google Cloud e Workspace
+Voglio ricevere da Google notizie, aggiornamenti di prodotto, informazioni su eventi e offerte speciali relativi a Google Cloud.
+Ho compreso che i miei dati personali verranno trattati conformemente alle Norme sulla privacy di Google.
+אני רוצה לקבל ניוזלטרים מ-Google Cloud ומ-Workspace
+אני רוצה לקבל מ-Google חדשות, עדכוני מוצר, מידע על אירועים ומבצעים מיוחדים שקשורים ל-Google Cloud.
+ברור לי שהמידע האישי שלי יעובד בהתאם ל מדיניות הפרטיות של Google.
+Google Cloud と Workspace のニュースレターの受信を希望する
+Google から、Google Cloud に関する最新情報、製品のアップデート情報、イベントの情報、および特別なオファーを受け取ることを希望します。
+私は、私の個人情報が Google の プライバシー ポリシー に沿って取り扱われることを理解し、私の名前、メールアドレス、電話番号、会社名、役職等の情報は、その関連会社である Google Japan GK、Google LLC および Google Asia Pacific Pte. Ltd. と共有されることを理解しています。Google LLC が所在する米国カリフォルニア州の個人情報保護規制については個人情報保護委員会（以下「PPC」）のウェブサイト内の こちらのリンク 、米国連邦法については PPC のウェブサイト内の こちらのリンク 、Google Asia Pacific Pte. Ltd. の所在地であるシンガポールの法律に関する PPC の ウェブサイトのリンク です。
+私は、私の個人情報が Google の プライバシー ポリシー に沿って取り扱われることを理解しています。
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+Google Cloud 및 Workspace의 뉴스레터를 수신합니다.
+Google Cloud에 대한 뉴스, 제품 업데이트, 이벤트 정보, 특별 혜택에 대한 이메일을 받아 보겠습니다.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud.
+Google 개인정보처리방침 에 따라 Google Cloud가 아래와 같이 내 개인정보를 수집, 사용 및 보유하는 데 동의합니다.
+I agree that Google Cloud will collect, use and retain my personal data as below in accordance with Google's Privacy Policy . If you do not agree with this, you cannot proceed further with this request.
+Google 개인정보처리방침 에 따라 Google Cloud가 아래와 같이 내 개인정보를 수집, 사용 및 보유하는 데 동의합니다. 귀하가 이에 부동의하는 경우, 본 요청을 위한 절차를 더 진행하실 수 없습니다.
+수집되는 항목: (영업 전문가에게 문의, 자료신청 또는 이벤트등록) 이름, 직무, 이메일, 회사 전화번호, 회사 정보, 국가; (뉴스레터 구독 시) 이름, 직무, 회사 이메일, 국가
+수집 및 이용 목적 : 문의 처리 및 마케팅 커뮤니케이션 수행
+보유 및 이용 기간 : 문의 처리 및 마케팅 커뮤니케이션 종료 시까지 또는 법적 의무 또는 제한된 사업 목적상 필요한 경우 (자세한 내용은 위 개인정보처리방침 참조)
+I agree that Google Cloud will collect, use and retain my personal data as below in accordance with Google's Privacy Policy . If you do not agree with this, you cannot proceed further with this request.
+Collected Items: (for contact to our sales specialist, gated content or event registration) name, job title, company email, business mobile phone, company information, country; (for newsletter subscription) name, job title, company email, country
+Purpose of collection and use: handling inquiry and conducting marketing communications.
+Retention and use period: until the end of the inquiry process and marketing communications, or as necessary for legal obligations or limited business purposes (see above privacy policy for more details).
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+Ik wil graag nieuwsbrieven van Google Cloud en Workspace ontvangen
+Ik wil dat Google me nieuws, productupdates, informatie over evenementen en speciale aanbiedingen voor Google Cloud stuurt.
+Ik begrijp dat mijn persoonsgegevens worden verwerkt in overeenstemming met het Privacybeleid van Google.
+Jeg ønsker å motta nyhetsbrev fra Google Cloud og Workspace
+Registrer meg for å motta nyheter, produktoppdateringer, arrangementsinformasjon og spesialtilbud om Google Cloud fra Google.
+Jeg forstår at mine personopplysninger vil bli behandlet i henhold til Googles personvernregler .
+Chcę otrzymywać newslettery od Google Cloud i Workspace
+Chcę się zarejestrować, aby otrzymywać od Google aktualności, nowości produktowe, informacje o wydarzeniach i oferty specjalne związane z Google Cloud.
+Rozumiem, że moje dane osobowe będą przetwarzanie zgodnie z polityką prywatności Google .
+Quero receber newsletters do Google Cloud e do Workspace
+Quero receber notícias, atualizações de produtos, informações sobre eventos e ofertas especiais relacionadas ao Google Cloud.
+Entendo que meus dados pessoais serão processados de acordo com a Política de Privacidade do Google.
+Quero receber newsletters do Google Cloud e Workspace
+Inscreva-se para receber notícias, atualizações de produtos, informação de eventos e ofertas especiais acerca do Google Cloud da Google.
+Compreendo que os meus dados pessoais serão processados de acordo com a Política de Privacidade da Google.
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+Я хочу получать рассылку о Google Cloud и Workspace
+Я хочу получать новости, обновления продуктов, информацию о событиях и специальные предложения от Google Cloud.
+Я понимаю, что мои персональные данные будут обрабатываться в соответствии с Политикой конфиденциальности Google.
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+Jag vill få nyhetsbrev från Google Cloud och Workspace
+Jag vill ha nyheter, produktuppdateringar, eventinformation och specialerbjudanden från Google om Google Cloud.
+Jag är medveten om att mina personuppgifter behandlas enligt Googles integritetspolicy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+ฉันต้องการรับจดหมายข่าวจาก Google Cloud และ Workspace
+ลงชื่อสมัครใช้เพื่อรับข่าวสาร ข้อมูลอัปเดตของผลิตภัณฑ์ ข้อมูลกิจกรรม และข้อเสนอพิเศษเกี่ยวกับ Google Cloud จาก Google
+ฉันเข้าใจว่าข้อมูลส่วนตัวของฉันจะได้รับการประมวลผลตาม นโยบายความเป็นส่วนตัว ของ Google
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+Google Cloud ve Workspace bültenlerini almak istiyorum
+Google'dan Google Cloud ile ilgili haberler, ürün güncellemeleri, etkinlik bilgileri ve özel teklifler almak için kaydolmak istiyorum.
+Kişisel verilerimin Google'ın Gizlilik Politikası 'na uygun olarak işleneceğini anlıyorum.
+Я хочу отримувати інформаційні листи від Google Cloud і Workspace
+Я хочу підписатися на розсилку, щоб отримувати від Google новини, оновлення продуктів, інформацію про заходи й спеціальні пропозиції щодо Google Cloud.
+Я розумію, що мої персональні дані оброблятимуться відповідно до Політики конфіденційності Google.
+I would like to receive newsletters from Google Cloud and Workspace.
+Sign me up to receive news, product updates, event information and special offers about Google Cloud from Google.
+I understand my personal data will be processed in accordance with Google’s Privacy Policy .
+Tôi muốn nhận bản tin của Google Cloud và Workspace
+Tôi muốn đăng ký nhận tin tức, tin cập nhật về sản phẩm, thông tin sự kiện và các ưu đãi đặc biệt về Google Cloud từ Google.
+Tôi hiểu rằng dữ liệu cá nhân của tôi sẽ được xử lý theo Chính sách quyền riêng tư của Google.
+我希望收到 Google Cloud 和 Workspace 的最新简报
+我愿意接收 Google 关于 Google Cloud 的新闻、产品更新、活动信息以及特别优惠。
+我理解，我的个人数据将根据 Google 隐私政策 进行处理。
+我想接收 Google Cloud 和 Workspace 的通訊
+我願意收到來自 Google 有關 Google Cloud 的最新消息、產品更新、銷售資訊、活動訊息以及優惠資訊。
+我了解我的個人資料將根據 Google 私隱權政策 進行處理。
+我想收到 Google Cloud 和 Workspace 電子報
+我想收到 Google 發送的 Google Cloud 相關新聞、產品最新動態、活動資訊與特價優惠。
+我瞭解 Google 會依據其《 隱私權政策 》處理我的個人資料。
+Back Sign Up
+Follow our Blog
+Included applications
+Gmail
+Meet
+Chat
+Calendar
+Drive
+Docs
+Sheets
+Slides
+Vids
+Pics
+Forms
+Sites
+Keep
+Tasks
+Studio
+Gemini
+Gemini Notebook
+Apps Script
+Security and management
+Admin
+Endpoint
+Vault
+Work Insights
+Solutions
+New Business
+Small Business
+Enterprise
+Retail
+Manufacturing
+Professional Services
+Technology
+Healthcare
+Financial Services
+Government
+Education
+Nonprofits
+Artificial Intelligence
+Pricing
+Compare pricing plans
+Add-ons
+Meet hardware
+Google Voice
+AppSheet
+Resources
+AI learnings for work
+Security
+Customer Stories
+FAQs
+Partners
+Marketplace
+Integrations
+Training & Certification
+Refer Google Workspace
+Learning and support
+Admin Help
+Setup and Deployment Center
+Learning Center for Users
+Forums for Admins
+Google Workspace Dashboard
+What's New in Google Workspace
+Find a Google Workspace Partner
+Join the community of IT Admins
+Press
+More from Google
+Google Cloud
+Google Domains
+Chrome Enterprise
+Google Business Solutions
+Google Ads
+Business Messages
+Included applications
+Gmail
+Meet
+Chat
+Calendar
+Drive
+Docs
+Sheets
+Slides
+Vids
+Pics
+Forms
+Sites
+Keep
+Tasks
+Studio
+Gemini
+Gemini Notebook
+Apps Script
+Security and management
+Admin
+Endpoint
+Vault
+Work Insights
+Solutions
+New Business
+Small Business
+Enterprise
+Retail
+Manufacturing
+Professional Services
+Technology
+Healthcare
+Financial Services
+Government
+Education
+Nonprofits
+Artificial Intelligence
+Pricing
+Compare pricing plans
+Add-ons
+Meet hardware
+Google Voice
+AppSheet
+Resources
+AI learnings for work
+Security
+Customer Stories
+FAQs
+Partners
+Marketplace
+Integrations
+Training & Certification
+Refer Google Workspace
+Learning and support
+Admin Help
+Setup and Deployment Center
+Learning Center for Users
+Forums for Admins
+Google Workspace Dashboard
+What's New in Google Workspace
+Find a Google Workspace Partner
+Join the community of IT Admins
+Press
+More from Google
+Google Cloud
+Google Domains
+Chrome Enterprise
+Google Business Solutions
+Google Ads
+Business Messages
+Privacy
+Terms
+About Google
+Google Products
+Help
+Manage cookies
+Help

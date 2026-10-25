@@ -1,4 +1,3 @@
-&#038;
 &#8220;Cookie
 &amp;
 &amp;
@@ -14,7 +13,6 @@
 &amp;
 &amp;
 (
-(0.6B
 (1)
 (1)
 (1)
@@ -124,6 +122,7 @@
 1.3)
 1.3.
 10.
+1017,
 103.000
 11.
 12
@@ -141,7 +140,6 @@
 18
 18
 1‑year
-2
 2.
 2016/679
 2025
@@ -155,9 +153,11 @@
 4.
 40
 42
+43%
 45
 5.
 5.2
+501B
 6
 6
 6
@@ -166,15 +166,16 @@
 6
 6).
 6.
+60%:
 66
 66,
 679/2016,
 7.
 72
 8.
+816B,
 880041
 880041
-8B):
 9.
 90
 92%
@@ -226,7 +227,7 @@ At
 Basis
 Basis
 Beacon,
-Benchmarks
+Beam
 Benchmarks
 Builder
 By
@@ -243,12 +244,10 @@ Clef-Flash
 Click
 Cloud
 Code
-Code
 Communications
 Communications:
 Complaint
 Compliance
-Compression,
 Computing
 Conditions
 Conduct
@@ -306,6 +305,8 @@ Data
 Data
 Datacenter
 Date
+DeepSWE
+DeepSeek
 DevOps
 Developed
 Discord
@@ -326,7 +327,6 @@ Email
 Email:
 Email:
 Embedded
-EmbeddingGemma
 Erasure
 European
 Events
@@ -452,13 +452,13 @@ Matomo
 Matomo
 Matomo:
 Matomo:
-Matryoshka
 Models
 Models
 Models
 Models
 Models
 Modify
+Muse
 NID,
 Name,
 Never,
@@ -531,7 +531,6 @@ Pseudonymous
 Purpose
 Purpose
 Qwen
-Qwen3-Embedding
 Rectification
 Reddit
 Reddit
@@ -551,13 +550,11 @@ Regulation
 Release
 Remember
 Request
-Reranking
 Resources
 Responsible
 Restriction
 Retention
 Retention
-Retrieval,
 Revision
 Revoke
 Right
@@ -592,6 +589,7 @@ Settings
 Sign
 Sign
 Skip
+Spark
 Srl
 Standard
 States
@@ -684,6 +682,7 @@ What
 What
 When
 Whisper
+Why
 Within
 Without
 Workshops
@@ -707,6 +706,7 @@ _pk_id,
 _pk_id,
 _pk_ses,
 _pk_ses,
+a
 a
 a
 a
@@ -956,6 +956,7 @@ be
 be
 be
 be
+beats
 because,
 before
 before
@@ -963,6 +964,7 @@ behavior,
 being
 below.
 below.
+benchmarks
 better
 between
 billing
@@ -1545,6 +1547,7 @@ mobile
 mobile
 mobile
 modalities
+model
 months
 months
 months
@@ -1687,7 +1690,9 @@ on
 on
 on
 on
+on
 once
+one
 only
 only
 opaque
@@ -1884,6 +1889,7 @@ rdt_beacon
 rdt_pixel,
 read
 readable,
+reading
 receive
 received
 received
@@ -1970,6 +1976,8 @@ rights.
 s.r.l,
 satisfy
 scope.
+scoring
+scoring
 section
 section
 sections
@@ -2085,6 +2093,7 @@ that
 that
 that
 that
+the
 the
 the
 the
@@ -2411,7 +2420,6 @@ visited,
 visited,
 visitor
 visitors’
-vs
 want
 we
 we

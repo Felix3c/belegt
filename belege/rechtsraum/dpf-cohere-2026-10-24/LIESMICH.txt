@@ -1,0 +1,12 @@
+Abruf 24.10.2026 00:28:46 bis 00:29:23 MESZ, Schnittstelle der amtlichen DPF-Liste (dieselbe, die www.dataprivacyframework.gov/list im Browser aufruft; Anfrageformat wie in belege/rechtsraum/dpf-amazon-2026-10-23/):
+- POST https://dpfapi.azurewebsites.net/api/participants  Body {"DataCovered":[],"Frameworks":[],"Industries":[],"PageNumber":0,"RecourseMechanisms":[],"StatutoryBody":[],"RowsPerPage":50,"Search":"<Name>","StartLetter":"","Status":"Active"|"","States":[],"VerificationMethod":""}
+Liste zuletzt geändert laut /api/participants/filemodified: "Friday, October 23, 2026 6:00 AM EST".
+Warum geprüft: Cohere Inc. sitzt in Kanada (Toronto). Das DPF gilt nur für US-Organisationen; gesucht wurde, ob eine US-Gesellschaft von Cohere eingetragen ist.
+Ergebnis:
+- "Cohere", aktiv: 1 Treffer, OpaVote (Covina, Kalifornien), Id 10059. Der Name enthält das Wort nicht; kein Bezug zu Cohere Inc. erkennbar.
+- "Cohere", alle Status: 2 Treffer, OpaVote (s. o.) und Coherent Inc. (Santa Clara, "Inactive - Withdrawal"; Laserhersteller, Namensteil "Coherent"). Kein Eintrag von Cohere Inc. oder einer Tochter.
+- "Cohere Inc", "Cohere Technologies", "Cohere US", "Aleph Alpha" (alle Status): je 0 Treffer.
+Gegenprobe mit derselben Anfrage, Suche "Microsoft", Status Active: 1 Treffer (Microsoft Corporation, Id 6474), die Abfrage funktioniert.
+Summen in den Antworten: 3689 aktive, 7623 Einträge insgesamt.
+robots.txt von www.dataprivacyframework.gov: Disallow leer (Prüfung 24.10.2026).
+Cohere selbst nennt für die Weitergabe an Google Cloud in den USA das DPF des Unterauftragnehmers, nicht ein eigenes (Datenschutzerklärung, belege/anbieter/cohere/datenschutz-2026-10-24.txt).

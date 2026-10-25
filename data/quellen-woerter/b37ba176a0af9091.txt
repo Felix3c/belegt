@@ -30,6 +30,7 @@
 (i)
 (i)
 (i)
+(if
 (ii)
 (ii)
 (including
@@ -59,8 +60,6 @@
 1.
 1.
 13
-15,
-15,
 2.
 2.
 2.1.
@@ -78,6 +77,8 @@
 2024/1689
 2026
 2026
+22,
+22,
 3(3)
 3.
 3.
@@ -235,6 +236,7 @@ Cloud
 Cloud
 Compliance.
 Conflict.
+Console.
 Contact
 Content
 Content
@@ -252,6 +254,7 @@ Copy
 Copy
 Council
 Credits.
+Customer
 Customer
 Customer
 Customer
@@ -519,7 +522,7 @@ Factory
 Factory
 Factory
 Factory
-Feature-related
+Factory
 Features
 Feedback
 Fees.
@@ -609,6 +612,7 @@ MCP
 MCP
 MCP
 MCP
+Management
 Management
 Miscellaneous
 Miscellaneous
@@ -750,6 +754,8 @@ No
 No
 Nothing
 Observability
+October
+October
 On
 Open
 Open
@@ -804,9 +810,9 @@ Platform
 Platform
 Platform
 Platform
+Platform
 Platform,
 Platform,
-Platform.
 Platform.
 Platform.
 Platform.
@@ -815,6 +821,7 @@ Please
 Policy
 Policy
 Policy,
+Previous
 Privacy
 Privacy
 Privacy
@@ -858,8 +865,6 @@ Section
 Section
 Security
 Security
-September
-September
 Server
 Server
 Server
@@ -894,6 +899,7 @@ Service,
 Service,
 Service-Specific
 Service-Specific
+Service-related
 Service-specific
 Service.
 Service.
@@ -1085,6 +1091,7 @@ Was
 Web
 Where
 Yes
+a
 a
 a
 a
@@ -1336,6 +1343,7 @@ and
 and
 and
 and
+and
 and/or
 any
 any
@@ -1415,6 +1423,7 @@ applicable
 applicable
 applicable
 applicable
+applicable)
 application,
 apply
 apply
@@ -1554,6 +1563,7 @@ but
 but
 but
 but
+by
 by
 by
 by
@@ -1749,8 +1759,7 @@ deploy
 deployed,
 deployment
 deployment,
-deposit
-deposit
+deposits
 described
 described
 described
@@ -1780,6 +1789,7 @@ discretion,
 distillation,
 distributed
 document
+document:
 documentation
 documentation,
 documents
@@ -1933,7 +1943,6 @@ functionalities
 functionality
 functionality,
 functioning,
-funds
 further.
 generally
 generate
@@ -1984,6 +1993,7 @@ home
 host,
 how
 https://docs.nebius.com/legal/agreement
+https://docs.nebius.com/legal/archive/token-factory-20260915
 https://docs.nebius.com/legal/privacy
 https://docs.nebius.com/legal/sla
 https://docs.nebius.com/legal/token-factory
@@ -2001,6 +2011,7 @@ impose
 impose
 improve
 improvement
+in
 in
 in
 in
@@ -2112,7 +2123,6 @@ into
 into
 into
 into
-into
 invalid,
 investigations,
 involvement
@@ -2215,6 +2225,7 @@ made
 made
 made
 made
+made
 main
 maintain,
 maintain,
@@ -2282,6 +2293,7 @@ means
 mechanism
 metadata
 metadata
+method
 method
 misappropriation
 mistakes.
@@ -2356,6 +2368,7 @@ obligations,
 obtain
 obtaining
 occurs
+of
 of
 of
 of
@@ -2583,6 +2596,7 @@ or
 or
 or
 or
+or
 order
 other
 other
@@ -2627,6 +2641,7 @@ parties
 partners,
 party
 patterns
+payment
 perform
 performance
 performance
@@ -2643,8 +2658,8 @@ placed
 please
 plus
 policy,
+post-paid
 practices
-pre-paid
 precedence
 predefined
 predefined
@@ -2653,6 +2668,7 @@ preference
 preferences
 prefers
 preserving
+previously
 prior
 prior
 prior
@@ -2742,7 +2758,7 @@ reference
 referred
 reflect
 refund
-refund)
+refund),
 regulations
 regulations
 regulations
@@ -2875,6 +2891,7 @@ services
 services
 services,
 services,
+set
 set
 set
 set
@@ -3051,6 +3068,8 @@ that
 that
 that
 that
+the
+the
 the
 the
 the
@@ -3439,6 +3458,7 @@ unless
 unless
 unreliable,
 up
+up
 up-to-date
 update
 updated
@@ -3510,6 +3530,7 @@ validating,
 validation
 validation
 verified
+version
 via
 via
 via

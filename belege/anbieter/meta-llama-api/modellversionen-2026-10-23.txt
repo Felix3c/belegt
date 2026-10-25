@@ -1,0 +1,31 @@
+Quelle: https://dev.meta.ai/help/about-model-api/model-versions
+Abruf: 2026-10-23 01:18:35 +0200
+
+AI Developer Help Center
+
+Meta
+
+StatusContact us
+
+Menu
+
+Status
+
+Contact us
+
+Close popover
+
+Back to Help Center
+
+What is the difference between the model versions?
+
+Meta Model API offers several models that differ in size, context window, supported input types (such as text, images, or video), and specialized strengths like reasoning, coding, or multilingual output. Larger models generally produce higher-quality output but cost more per token.
+
+For the full model lineup, context windows, and capabilities, see Models in the developer documentation.
+
+Terms of ServiceAcceptable Use Policy
+
+Please confirm your identity
+For added security, you need to confirm your identity. You will be taken to your single sign-on provider, where you can enter your password.
+
+CancelContinue

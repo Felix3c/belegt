@@ -1,0 +1,290 @@
+Quelle: https://knowledge.workspace.google.com/admin/generative-ai/workspace-with-gemini/manage-gemini-in-workspace-conversation-history-settings?hl=en
+Abruf: 2026-10-22 13:04:25 +0200
+
+Manage Gemini in Workspace conversation history settings | Generative AI | Google Workspace Help
+Skip to main content
+Generative AI
+Documentation
+Administrators
+Getting started
+Set up and manage services
+Apps and integrations
+Billing and subscriptions
+Data migration
+Data synchronization
+Device management
+Domain management
+Generative AI
+Reports and monitoring
+Security and data protection
+User management
+Legal and compliance
+Support and troubleshooting
+Users
+Beam
+Calendar
+Chat
+Cloud Search
+Gmail
+Groups
+Docs, Forms, Sheets, and Slides
+Drive
+Keep
+Marketplace
+Meet
+Meet Hardware
+Sites
+Vault
+Vids
+Developers
+Apps Script
+Marketplace
+Workspace APIs
+Training & business user guides
+Workspace Learning Center
+Google Skills
+Community
+Communities
+Workspace Admin Community
+Workspace Developers Community
+Support
+/
+English
+Deutsch
+Español – América Latina
+Français
+Indonesia
+Italiano
+Nederlands
+Polski
+Português – Brasil
+Svenska
+Türkçe
+Русский
+עברית
+العربيّة
+ภาษาไทย
+中文 – 简体
+中文 – 繁體
+日本語
+한국어
+Sign in
+Administrators
+Generative AI
+Admin console
+Contact us
+Overview
+Guides
+Generative AI
+Overview
+Guides
+Documentation
+More
+Community
+More
+Support
+Get started
+Google Workspace with Gemini
+Getting the most from generative AI in your organization
+Overview
+Phase 1: Prepare for AI adoption
+Phase 2: Get people to start using AI
+Phase 3: Measure impact and promote new features
+Review Gemini usage in your organization
+Language support
+Frequently asked questions
+FAQ for Business
+FAQ for Education
+Manage generative AI features
+Gemini in Workspace apps
+About AI usage limits
+Manage access to Gemini features in Workspace services
+Manage Gemini in Workspace conversation history settings
+Turn access to Beta features on or off
+Let users participate in surveys and user experience studies
+Gemini App
+Turn the Gemini App on or off
+Control Gemini App access to Workspace services
+Skills and Gems
+About the transition from Gems to skills
+Turn Gem sharing on or off
+Turn conversation sharing on or off
+Control temporary chats and chat deletion
+Gemini App firewall settings
+Gemini Notebook
+Turn Gemini Notebook on or off for users
+Manage Gemini Notebook sharing settings
+Gemini Enterprise
+Add & set up Gemini Enterprise - Business edition
+Turn Gemini Enterprise on or off for users
+Add & assign Gemini Enterprise - Business edition licenses to users
+Manage your Gemini Enterprise - Business edition subscription
+Control access to Gemini Enterprise agents
+Manage Gemini Enterprise agents for Workspace users
+Set up Agent Gateway for Workspace MCP ingress
+Cancel your Gemini Enterprise - Business edition subscription
+Get support
+Workspace Intelligence
+Control Workspace Intelligence for generative AI features
+Add-ons & billing
+AI Expanded Access
+AI Pro for Education
+Manage add-on licenses
+Purchase AI add-ons
+Choose who uses AI add-ons
+How Google Workspace with Gemini billing works
+Cancel a Gemini add-on subscription
+Privacy & compliance
+Generative AI in Google Workspace Privacy Hub
+Explore the AI control center
+Support access to Workspace Integrations
+Administrators
+Getting started
+Set up and manage services
+Apps and integrations
+Billing and subscriptions
+Data migration
+Data synchronization
+Device management
+Domain management
+Generative AI
+Reports and monitoring
+Security and data protection
+User management
+Legal and compliance
+Support and troubleshooting
+Users
+Beam
+Calendar
+Chat
+Cloud Search
+Gmail
+Groups
+Docs, Forms, Sheets, and Slides
+Drive
+Keep
+Marketplace
+Meet
+Meet Hardware
+Sites
+Vault
+Vids
+Developers
+Apps Script
+Marketplace
+Workspace APIs
+Training & business user guides
+Workspace Learning Center
+Google Skills
+Communities
+Workspace Admin Community
+Workspace Developers Community
+Google Workspace Help
+Administrators
+Generative AI
+Guides
+Send feedback
+Manage Gemini in Workspace conversation history settings
+Stay organized with collections
+Save and categorize content based on your preferences.
+Supported editions for this feature: Business Starter, Business Standard, and Business Plus; Enterprise Starter, Enterprise Standard and Enterprise Plus; Education Plus, Teaching & Learning add-on, and Google AI Pro for Education add-on; Frontline Plus. Compare your edition
+Conversation history lets users see and continue their past chats with Gemini in
+Workspace. As an administrator, you can decide how conversation history works
+for your team, including if users can keep or delete their conversations.
+Important
+This article explains how to manage conversation history for Gemini in
+Workspace. To manage history for the Gemini app, use these instructions
+instead .
+To access Gemini in Workspace services, users need to turn on smart
+features and
+personalization .
+Allow users to delete conversations
+This setting determines if users can delete their own conversations with Gemini
+in Workspace. If you turn this setting off, users see a message explaining that
+their admin has disabled this option.
+In the Google Admin console, go to Menu
+Generative AI
+Gemini for Workspace .
+Go to Gemini for Workspace
+Requires having the Gemini Settings administrator privilege .
+Go to Conversation history & deletion Manual
+deletion .
+(Optional) To apply the setting only to some users, at the side, select an organizational unit (often used for departments) or configuration group (advanced).
+Group settings override organizational units. Learn more
+Select On or Off .
+Click Save .
+Auto-deletion settings
+To support your organization's data retention policies, you can choose whether
+to automatically delete inactive conversations. Conversations are considered
+inactive if messages haven't been added or edited over a set period of time. You
+can also allow users to choose their own auto-deletion settings.
+Conversations that match your settings are usually deleted within a day, but
+processing errors might cause delays.
+In the Google Admin console, go to Menu
+Generative AI
+Gemini for Workspace .
+Go to Gemini for Workspace
+Requires having the Gemini Settings administrator privilege .
+Go to Conversation history & deletion Auto-deletion .
+(Optional) To apply the setting only to some users, at the side, select an organizational unit (often used for departments) or configuration group (advanced).
+Group settings override organizational units. Learn more
+Choose an option:
+Let users choose their own setting
+Delete after 90 days (~3 months) —Conversations are automatically
+deleted 90 days after the last interaction.
+Delete after 540 days (~18 months) —Conversations are automatically
+deleted 540 days after the last interaction.
+Delete after 1080 days (~3 years) —Conversations are automatically
+deleted 3 years after the last interaction.
+Don't automatically delete —Conversations are retained indefinitely.
+Click Save .
+Related topics
+Gemini apps conversation history
+Google Chat conversation history
+Manage Gemini Notebook sharing settings
+Send feedback
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License , and code samples are licensed under the Apache 2.0 License . For details, see the Google Developers Site Policies . Java is a registered trademark of Oracle and/or its affiliates.
+Last updated 2026-10-20 UTC.
+Need to tell us more?
+[[["Easy to understand","easyToUnderstand","thumb-up"],["Solved my problem","solvedMyProblem","thumb-up"],["Other","otherUp","thumb-up"]],[["Missing the information I need","missingTheInformationINeed","thumb-down"],["Too complicated / too many steps","tooComplicatedTooManySteps","thumb-down"],["Out of date","outOfDate","thumb-down"],["Samples / code issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],["Last updated 2026-10-20 UTC."],[],[]]
+Try Google Workspace
+Boost your productivity with AI at no cost
+Admin Community
+Get answers from industry peers and experts
+Customer Care
+Learn about support options and services
+Documentation & training
+Help Centers
+Developer guides
+Learning Center
+Google Skills
+Tools
+Admin console
+Apps Script Dashboard
+Google Cloud console
+Support
+Admin Community
+Developers Community
+Customer Care
+Terms
+Privacy
+Manage cookies
+English
+Deutsch
+Español – América Latina
+Français
+Indonesia
+Italiano
+Nederlands
+Polski
+Português – Brasil
+Svenska
+Türkçe
+Русский
+עברית
+العربيّة
+ภาษาไทย
+中文 – 简体
+中文 – 繁體
+日本語
+한국어

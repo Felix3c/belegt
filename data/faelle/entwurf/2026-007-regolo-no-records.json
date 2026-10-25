@@ -68,6 +68,10 @@
     {
       "datum": "2026-10-08",
       "ereignis": "Bei der Prüfpunkt-Durchsicht aller 21 Profile erneut als Widerspruch gefunden (ZDR-Seite gegen Datenschutzerklärung). Alle drei Quellen neu abgerufen; die Hashes haben sich nur durch einen neuen Blog-Titel im Menü geändert, alle vier Zitate stehen weiter wörtlich in den Rohkopien vom 08.10.2026."
+    },
+    {
+      "datum": "2026-10-24",
+      "ereignis": "Alle drei Quellen neu abgerufen (07:59 UTC, robots.txt erlaubt). Alle vier Zitate und die Kontext-Stellen („No API call logging“, „Until the cancellation of the Account“, „No prompt text, completion text, or user-identifiable payload is ever logged.“) stehen weiter wörtlich auf den Seiten. Die ZDR-Seite ist im Text unverändert gegenüber dem 08.10., der Blog nur im Seitenrahmen (Newsletter-Kasten). In der Datenschutzerklärung hat sich nur der Cookie-Teil geändert (Version 1.1 vom 07.10.2026: Google Ads als Werbepartner, Übermittlung in die USA); den Fall betrifft das nicht. Kopien mit Datum 2026-10-24 in belege/faelle/2026-007/, SHA-256 in SHA256SUMS, OpenTimestamps gestempelt. Anbieter weiter nicht informiert."
     }
   ]
 }

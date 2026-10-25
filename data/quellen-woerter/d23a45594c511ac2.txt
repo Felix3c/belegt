@@ -258,7 +258,6 @@ Discover
 Discover
 Discover
 Discover
-Discover
 Docker
 Docs
 Documentation
@@ -303,6 +302,7 @@ Events
 Events
 Events
 Experience
+Explore
 Explore
 Explore
 Explore
@@ -2018,7 +2018,6 @@ that
 that
 that
 that
-the
 the
 the
 the

@@ -9,6 +9,8 @@
 const fs = require("fs");
 const path = require("path");
 const A = require("./lib/aenderungen.js");
+const REG = require("./lib/register.js");
+const REGISTER = REG.ladeRegister();
 const P = require("./lib/preise.js");
 const Z = require("./lib/zitat.js");
 const E = require("./lib/eintritt.js");
@@ -21,6 +23,7 @@ const KS = require("./lib/kaeuferseite.js");
 const DOS = require("./lib/dossier.js");
 const GUIDES = require("./lib/guides.js");
 const FS = require("./lib/fachstimmen.js");
+const VA = require("./lib/vorauswahl.js");
 const eur = P.eur;
 
 const ROOT = __dirname;
@@ -142,7 +145,7 @@ function preisZelle(g) {
   if (!g) return "–";
   if (g.art === "token") return "ab " + eur(g.wert);
   if (g.art === "einheit") return `ab ${eur(g.wert)} <span class="klein">/ ${esc(g.einheit)}</span>`;
-  if (g.art === "kostenlos") return "kostenlos";
+  if (g.art === "kostenlos") return esc(g.bedingung ? `kostenlos (${g.bedingung})` : "kostenlos");
   return keinPreisBadge();
 }
 
@@ -153,7 +156,7 @@ function preisZellen(m, p) {
   const standHtml = stand ? `<span class="klein preis-stand">Stand ${datumDE(stand)}</span>` : "";
   if (t.art === "token") return `<td class="num">${t.input}</td><td class="num">${t.output}${standHtml}</td>`;
   if (t.art === "einheit") return `<td class="num" colspan="2">${esc(t.text)}${standHtml}</td>`;
-  if (t.art === "kostenlos") return `<td class="num" colspan="2">kostenlos${standHtml}</td>`;
+  if (t.art === "kostenlos") return `<td class="num" colspan="2">${esc(t.text)}${standHtml}</td>`;
   if (t.art === P.KEIN_PREIS) return `<td class="num" colspan="2">${keinPreisBadge()}${standHtml}</td>`;
   return `<td class="num" colspan="2"><span class="leer">unbelegt</span></td>`;
 }
@@ -225,7 +228,7 @@ function belegQuote(p) {
 }
 
 
-/** Belegt-Filter der Übersicht: AVV, Subprozessoren und Trainings-Opt-out („kein Training“) mit Primärquelle. */
+/** Belegt-Filter der Übersicht: AVV, Subprozessoren und „kein Training“ mit Primärquelle (ein Opt-out zählt nicht). */
 function vollstaendigBelegt(p) {
   const v = p.vertrag || {};
   const b = (f) => f && f.status === "belegt";
@@ -447,13 +450,13 @@ function seiteIndex(providers, stand, aenderungen) {
     <select id="f-land" aria-label="Nach Land filtern"><option value="">Alle Länder</option>${laender.map((l) => `<option>${esc(l)}</option>`).join("")}</select>
     <select id="f-kat" aria-label="Nach Kategorie filtern"><option value="">Alle Kategorien</option>${kategorien.map((k) => `<option value="${esc(k)}">${esc(KATEGORIE_LABEL[k] || k)}</option>`).join("")}</select>
     <label class="check"><input type="checkbox" id="f-avv"> nur mit belegtem AVV</label>
-    <label class="check" title="Zeigt nur Anbieter, bei denen AVV, Subprozessorenliste und „kein Training mit Kundendaten“ mit Primärquelle belegt sind. Filtert, sortiert nicht."><input type="checkbox" id="f-belegt"> nur AVV, Subprozessoren und Trainings-Opt-out belegt</label>
+    <label class="check" title="Zeigt nur Anbieter, bei denen AVV, Subprozessorenliste und „kein Training mit Kundendaten“ mit Primärquelle belegt sind. Filtert, sortiert nicht."><input type="checkbox" id="f-belegt"> nur AVV, Subprozessoren und „kein Training“ belegt</label>
     <span id="f-anzahl" class="klein" role="status"></span>
   </div>
   <div class="tabelle-scroll">
     <table id="anbieter-tabelle">
       <thead><tr>
-        <th>Anbieter</th><th>Land</th><th>Kategorie</th><th class="num">Preis / 1M Input</th><th>Zertifikate (belegt)</th><th>Training-Opt-out</th><th class="num" title="Anteil der Angaben mit verlinkter Primärquelle">Beleg-Quote</th>
+        <th>Anbieter</th><th>Land</th><th>Kategorie</th><th class="num">Preis / 1M Input</th><th>Zertifikate (belegt)</th><th title="Zusage des Anbieters, Kundendaten nicht für eigenes Training zu nutzen. Ein Opt-out zählt nicht: Bei personenbezogenen Daten darf ein Auftragsverarbeiter ohnehin nicht für eigene Zwecke trainieren (Art. 28 Abs. 3 lit. a, Art. 29 DSGVO).">Kein Training</th><th class="num" title="Anteil der Angaben mit verlinkter Primärquelle">Beleg-Quote</th>
       </tr></thead>
       <tbody>${zeilen}</tbody>
     </table>
@@ -549,9 +552,14 @@ function seiteAnbieter(p, alleProvider, facetten, faelle, aenderungen) {
   const vertragHtml = [
     belegZeile("AVV / Auftragsverarbeitungsvertrag", v.avv && v.avv.wert ? `<a href="${esc(v.avv.wert)}" rel="noopener nofollow" target="_blank">Vertragsdokument</a>` : "", v.avv, p.geprueft),
     belegZeile("Subprozessoren-Liste", v.subprozessoren && v.subprozessoren.wert ? `<a href="${esc(v.subprozessoren.wert)}" rel="noopener nofollow" target="_blank">Liste ansehen</a>` : "", v.subprozessoren, p.geprueft),
-    belegZeile("Kein Training mit Kundendaten", v.training_opt_out ? (v.training_opt_out.wert === true ? "Ja, Kundendaten werden nicht zum Training genutzt" : v.training_opt_out.wert === false ? "Nein, Anbieter trainiert mit Kundendaten (oder nur mit Opt-out)" : "") : "", v.training_opt_out, p.geprueft),
+    belegZeile("Zahl der Unterauftragnehmer", v.subprozessoren_anzahl && Number.isInteger(v.subprozessoren_anzahl.wert) ? `${v.subprozessoren_anzahl.wert} Einträge in der Liste` : "", v.subprozessoren_anzahl, p.geprueft),
+    belegZeile("Drittländer der Unterauftragnehmer", v.drittlaender && Array.isArray(v.drittlaender.wert) ? (v.drittlaender.wert.length ? esc(v.drittlaender.wert.join(", ")) : "keine (alle in EU/EWR)") : "", v.drittlaender, p.geprueft),
+    belegZeile("Sicherheitsmaßnahmen (TOM)", v.tom && v.tom.wert ? `<a href="${esc(v.tom.wert)}" rel="noopener nofollow" target="_blank">Beschreibung ansehen</a>` : "", v.tom, p.geprueft),
+    belegZeile("Kein Training mit Kundendaten", v.training_opt_out ? (v.training_opt_out.wert === true ? "Ja, Kundendaten werden nicht zum Training genutzt" : v.training_opt_out.wert === false ? "Nein: Anbieter trainiert mit Kundendaten oder nur, bis der Kunde widerspricht (Opt-out)" : "") : "", v.training_opt_out, p.geprueft),
     belegZeile("Zero Data Retention", v.zero_data_retention ? (v.zero_data_retention.wert === true ? "Ja, keine Speicherung der Anfragen" : v.zero_data_retention.wert === false ? "Nein, Anfragen werden (zeitweise) gespeichert" : "") : "", v.zero_data_retention, p.geprueft),
   ].join("\n");
+
+  const registerHtml = REG.registerZeileHtml(REG.registerZu(p.id, REGISTER));
 
   const zertHtml = (p.zertifikate || []).length
     ? p.zertifikate.map((z) => {
@@ -607,6 +615,8 @@ ${eigeneFaelle.map((f) => `  <aside class="fall-hinweis fall-${esc(f.status)}"><
 
   <h2>Vertrag &amp; Datenschutz</h2>
   ${vertragHtml}
+  <p class="klein"><a href="../../vorauswahl/">Alle Anbieter nebeneinander: Preis, Unterauftragnehmer, Drittländer, AVV und TOM</a></p>
+  ${registerHtml}
 
   <h2>Zertifikate</h2>
   ${zertHtml}
@@ -968,9 +978,10 @@ function seiteFuerKaeufer(muster = null) {
 <article class="artikel">
 <h1>Für Käufer: das Anbieter-Dossier</h1>
 <p>Sie müssen einen KI-Anbieter freigeben und brauchen dafür etwas, das Sie unterschreiben können. Alles, was diese Datenbank über den Anbieter weiß, steht kostenlos in seinem Profil. Das Dossier ist dieselbe Information, zusammengestellt, datiert und freigegeben, damit Sie sie nicht selbst nachbauen müssen. Sie prüfen Anbieter für Dritte, als Datenschutzbeauftragter oder Auditor? <a href="#auditoren">Hier steht, welcher Teil Ihrer Prüfung öffentlich vorab erledigt werden kann</a>, mit Muster.</p>
-<p><strong>Was Sie bekommen, 390 € je Anbieter, ohne Umsatzsteuer (Kleinunternehmer nach § 19 UStG):</strong> ein datiertes Dokument mit jeder Angabe aus dem Profil, je mit Quelle, Prüfdatum, SHA-256 der Quelle und Archivkopie; ausdrücklich den Abschnitt „nicht belegbar“, also was wir trotz Suche nicht gefunden haben; die offenen und ausgeräumten <a href="../faelle/">Fälle</a> mit Verlauf; dazu zwölf Monate Änderungsalarm per Mail, wenn der monatliche Quellenlauf bei diesem Anbieter etwas findet: ein Zertifikat läuft ab, ein Subprozessor kommt dazu, ein Fall wird eröffnet. Lieferung binnen fünf Werktagen. Ein KI-Agent sammelt und vergleicht die Quellen, Felix Lind prüft und gibt frei. Das Dossier dokumentiert, was wann wo stand, mit Abrufdatum und Prüfsumme. Keine Gewähr für die Richtigkeit der Angaben des Anbieters.</p>
+<p><strong>Was Sie bekommen, 390 € je Anbieter, ohne Umsatzsteuer (Kleinunternehmer nach § 19 UStG):</strong> ein datiertes Dokument mit jeder Angabe aus dem Profil, je mit Quelle, Prüfdatum, Prüfsumme des gelesenen Texts und, wo vorhanden, Archivkopie (bei Bestellung sichern wir jede Quelle des Dossiers im Internet Archive); ausdrücklich den Abschnitt „nicht belegbar“, also was wir trotz Suche nicht gefunden haben; die offenen und ausgeräumten <a href="../faelle/">Fälle</a> mit Verlauf; dazu zwölf Monate Änderungsalarm per Mail, wenn der monatliche Quellenlauf bei diesem Anbieter etwas findet: ein Zertifikat läuft ab, ein Subprozessor kommt dazu, ein Fall wird eröffnet. Lieferung binnen fünf Werktagen. Ein KI-Agent sammelt und vergleicht die Quellen, Felix Lind prüft und gibt frei. Das Dossier dokumentiert, was wann wo stand, mit Abrufdatum und Prüfsumme. Keine Gewähr für die Richtigkeit der Angaben des Anbieters.</p>
 <p><strong>Was Sie nicht bekommen:</strong> keine Bewertung, keine Empfehlung, kein „geeignet“ oder „ungeeignet“, keine Rechtsberatung. Nichts, was nicht auch im öffentlichen Profil steht oder stehen könnte. Wenn Sie die Stunden selbst haben, brauchen Sie das Dossier nicht.</p>
 <p><strong>Was das für die Datenbank bedeutet:</strong> Das Dossier ist eine Leistung des Betreibers, nicht der Datenbank. Es ändert nichts am Profil des Anbieters, und der Anbieter erfährt nicht, wer ein Dossier bestellt hat. Die Daten bleiben CC BY 4.0. Die Regeln zur Unabhängigkeit stehen in der <a href="../methodik/#unabhaengigkeit">Methodik</a>.</p>
+<p>Für die erste Auswahl stehen Preis, Zahl der Unterauftragnehmer, Drittländer, AVV- und TOM-Link aller Anbieter kostenlos auf einer Seite: <a href="../vorauswahl/">Vorauswahl</a>.</p>
 <p>Bestellung: Mail an <a href="mailto:${SITE.kontakt}?subject=Dossier%20[Anbietername]">${SITE.kontakt}</a>, Betreff „Dossier [Anbietername]“. Nennen Sie gern die Prüfpunkte, die für Sie zählen.</p>
 ${KS.abschnittAuditoren({ muster })}
 </article>`;
@@ -1018,7 +1029,7 @@ ${belegZeile("unbelegt", "Wir haben keine belastbare Angabe gefunden. Auch das i
 <h2 id="verified">Verified-Stempel: Was er bedeutet und wie man ihn bekommt</h2>
 <p>Der Stempel „Verified“ mit Datum sagt nicht „geprüft gut“. Er sagt: <em>Dieser Anbieter hat sich an seine Aussagen gebunden.</em> Er hat die Dokumente selbst benannt, wir haben sie geprüft, und eine benannte Rolle im Unternehmen hat das Profil gegengelesen. Ab dann ist jede Abweichung zwischen Dokument und Website ein Fall, den der Anbieter selbst mit Datum unterschrieben hat. Regel seit 06.09.2026 (vorher genügte es, überhaupt Nachweise einzureichen):</p>
 <ol>
-<li><strong>Drei Felder belegt.</strong> AVV, Subprozessorenliste und die Zusage, nicht mit Kundendaten zu trainieren, stehen durch vom Anbieter benannte Primärdokumente auf „belegt“: Vertragsdokument, Liste, Policy. Ein Link ist so gut wie ein PDF; Marketing-Seiten, Badges und Absichtserklärungen zählen nicht. Es sind dieselben drei Felder wie im Filter „nur AVV, Subprozessoren und Trainings-Opt-out belegt“ auf der Übersicht.</li>
+<li><strong>Drei Felder belegt.</strong> AVV, Subprozessorenliste und die Zusage, nicht mit Kundendaten zu trainieren, stehen durch vom Anbieter benannte Primärdokumente auf „belegt“: Vertragsdokument, Liste, Policy. Ein Link ist so gut wie ein PDF; Marketing-Seiten, Badges und Absichtserklärungen zählen nicht. Es sind dieselben drei Felder wie im Filter „nur AVV, Subprozessoren und ‚kein Training‘ belegt“ auf der Übersicht. „Kein Training“ heißt: Der Anbieter sagt in einem eigenen Dokument zu, Kundendaten nicht zu trainieren. Ein Opt-out reicht dafür nicht. Ob der Vertrag im Übrigen Art. 28 DSGVO genügt, prüfen wir nicht; „belegt“ heißt nur, dass das Dokument öffentlich vorliegt.</li>
 <li><strong>Die Speicherfrage beantwortet.</strong> Zur Speicherung von Anfragen und Antworten (Zero Data Retention) liegt entweder ein Dokument vor, oder der Anbieter sagt ausdrücklich, dass es keine Zusage gibt. Beides tragen wir mit Datum ein. Was nicht geht: die Frage offenlassen.</li>
 <li><strong>Gegengelesen.</strong> Eine benannte Rolle (etwa „Datenschutzbeauftragter“ oder „CTO“) bestätigt, dass das Profil den Stand des Unternehmens wiedergibt. Wir veröffentlichen die Rolle, keinen Namen.</li>
 <li><strong>Datiert, nicht dauerhaft.</strong> Der Stempel trägt sein Datum sichtbar. Ändern sich Fakten wesentlich (neuer Eigentümer, ausgelaufenes Zertifikat, geänderte Policy) oder findet der monatliche Quellenlauf ein verschwundenes Dokument, prüfen wir neu; bis dahin steht der Stempel mit altem Datum, danach fällt er oder wird erneuert.</li>
@@ -1056,6 +1067,9 @@ ${belegZeile("unbelegt", "Wir haben keine belastbare Angabe gefunden. Auch das i
 
 <h2>Prüfdatum je Angabe</h2>
 <p>Jedes Profil trägt ein Datum der letzten vollständigen Prüfung. Wird eine einzelne Angabe zwischendurch nachgeprüft, bekommt sie zusätzlich ihr eigenes Prüfdatum, sichtbar an der Quelle und in den Rohdaten. So behauptet ein Profil nie, alle seine Angaben seien gleichzeitig geprüft worden.</p>
+
+<h2 id="zeitstempel">Zeitstempel von außen</h2>
+<p>Jede Belegkopie bekommt seit dem 22. Oktober 2026 einen Zeitstempel über <a href="https://opentimestamps.org/" rel="noopener" target="_blank">OpenTimestamps</a>. Raus geht dabei nur ein Fingerabdruck der Datei (SHA-256), nie ihr Inhalt. Ein paar Stunden später ist der Fingerabdruck in einem Bitcoin-Block verankert. Die Datei <code>.ots</code> liegt neben der Kopie im Repository; jeder kann damit selbst nachrechnen, dass es genau diese Datei spätestens an diesem Tag gab, ohne uns zu vertrauen. Der Stempel beweist nicht, wie die Webseite aussah. Dafür bleibt die Kopie im Internet Archive.</p>
 
 <h2>Lizenz</h2>
 <p>Die Daten dieser Datenbank stehen unter <a href="https://creativecommons.org/licenses/by/4.0/deed.de" rel="noopener" target="_blank">CC BY 4.0</a>: Nutzung und Zitat sind frei, mit Namensnennung „belegbar.eu“ und Angabe des Prüfdatums. Maschinenlesbare Rohdaten: <a href="${SITE.baseUrl}/daten.json">daten.json</a>.</p>
@@ -1361,14 +1375,14 @@ function fragenKatalog(providers, guides) {
     const spitze = bewertet.filter((x) => x.treffer >= 5);
     const mitC5 = bewertet.filter((x) => x.kriterien[2][1]);
     const antwort =
-      `Für Kommunen ist die entscheidende Frage nicht, welcher Anbieter „souverän“ heißt, sondern welche Nachweise sich einem Rechnungsprüfungsamt vorlegen lassen. Wir haben alle ${n} Anbieter gegen sechs prüfbare Kriterien gestellt: EU-Sitz, keine US-Eigentümerstruktur, BSI C5, ISO/IEC 27001, belegter AVV und belegtes Trainings-Opt-out. ` +
+      `Für Kommunen ist die entscheidende Frage nicht, welcher Anbieter „souverän“ heißt, sondern welche Nachweise sich einem Rechnungsprüfungsamt vorlegen lassen. Wir haben alle ${n} Anbieter gegen sechs prüfbare Kriterien gestellt: EU-Sitz, keine US-Eigentümerstruktur, BSI C5, ISO/IEC 27001, belegter AVV und belegtes „kein Training mit Kundendaten“. ` +
       `${spitze.length} Anbieter ${mz(spitze.length, "erfüllt", "erfüllen")} mindestens fünf davon nachweisbar${spitze.length ? ": " + spitze.map((x) => nennung(x.p)).join(", ") : ""}. ` +
       `${mitC5.length} Anbieter ${mz(mitC5.length, "weist", "weisen")} ein BSI-C5-Testat nach. Für die öffentliche Verwaltung ist das meist das gewichtigste Einzelkriterium. Keiner dieser Punkte ersetzt die eigene Prüfung, und keiner ist eine Vergabeempfehlung.`;
     fragen.push({
       slug: "souveraene-ki-kommunen-anbieter",
       frage: "Souveräne KI für Kommunen: Welche Anbieter kommen infrage?",
       titel: "Souveräne KI für Kommunen: Anbieter an sechs prüfbaren Kriterien gemessen",
-      beschreibung: `Alle ${anbieterZahl(providers, "alle")} gegen sechs für die öffentliche Verwaltung relevante Nachweise geprüft: EU-Sitz, Eigentümer, BSI C5, ISO 27001, AVV, Trainings-Opt-out.`,
+      beschreibung: `Alle ${anbieterZahl(providers, "alle")} gegen sechs für die öffentliche Verwaltung relevante Nachweise geprüft: EU-Sitz, Eigentümer, BSI C5, ISO 27001, AVV, kein Training mit Kundendaten.`,
       antwort,
       inhalt:
         tabelle(["Anbieter", "EU-Sitz", "keine US-Eigner", "BSI C5", "ISO 27001", "AVV", "kein Training", "erfüllt"],
@@ -1487,6 +1501,22 @@ ${klein.length ? `<h2>Seltener erfasste Standards</h2><p class="klein">Diese Sta
     beschreibung: "ISO 27001, BSI C5, SOC 2, TISAX und mehr bei europäischen KI-Anbietern: belegt, beansprucht oder unbelegt, mit Quelle und Prüfdatum.",
     inhalt, rel: "../", pfad: "zertifikate/",
     jsonld: brotkrumenLd([["", "Anbieter"], ["zertifikate/", "Zertifikate"]]),
+  });
+}
+
+function seiteVorauswahl(providers, stand) {
+  const inhalt = `
+<nav class="brotkrumen" aria-label="Pfad"><a href="../">Anbieter</a> / Vorauswahl</nav>
+<h1>Vorauswahl: Preis, Lieferkette und Verträge an einer Stelle</h1>
+<p>Für die erste Auswahl, bevor Sie einen Anbieter genauer prüfen: der günstigste erfasste Preis, wie viele Unterauftragnehmer die öffentliche Liste nennt, in welchen Ländern außerhalb von EU und EWR sie sitzen, und die Links zum Auftragsverarbeitungsvertrag (AVV) und zur Beschreibung der technischen und organisatorischen Maßnahmen (TOM).</p>
+<p class="klein">Jede Zahl ist am angegebenen Tag aus der öffentlichen Quelle des Anbieters gezählt; Quelle, Zitat und Datum stehen im Profil. „ungeklärt“ heißt: Wir haben keine öffentliche Angabe gefunden oder konnten sie nicht lesen. Die Tabelle ersetzt keine Prüfung: Maßgeblich ist die Fassung, die Sie mit dem Anbieter vereinbaren.</p>
+${VA.tabelle(providers, { esc, datumDE, preisKurz: P.preisKurz })}
+<p class="klein"><a href="vorauswahl.csv" download>Als Tabelle (CSV)</a> für Excel oder LibreOffice: dieselben Werte, je Wert mit Quelle und Prüfdatum, dazu die belegten Zertifikate. Stand ${datumDE(stand)}. Alle Angaben unter CC BY 4.0 nachnutzbar.</p>`;
+  return layout({
+    titel: "Vorauswahl KI-Anbieter: Preis, Unterauftragnehmer, Drittländer, AVV, TOM | belegbar.eu",
+    beschreibung: "Preis, Zahl der Unterauftragnehmer, Drittländer, AVV- und TOM-Link für europäische und US-KI-Anbieter auf einer Seite, mit Quelle und Prüfdatum.",
+    inhalt, rel: "../", pfad: "vorauswahl/",
+    jsonld: brotkrumenLd([["", "Anbieter"], ["vorauswahl/", "Vorauswahl"]]),
   });
 }
 
@@ -1615,7 +1645,7 @@ function leseAnbieter() {
     .map((f) => {
       const p = JSON.parse(fs.readFileSync(path.join(DATA_DIR, f), "utf8"));
       if (!p.id || !p.name || !p.stammdaten) throw new Error(`Ungültige Anbieterdatei: ${f}`);
-      const fehler = [...E.pruefeEintritt(p), ...PP.pruefe(p, { streng: PRUEFPUNKTE_STRENG }), ...ISO42001.pruefe(p, { streng: PRUEFPUNKTE_STRENG })];
+      const fehler = [...E.pruefeEintritt(p), ...PP.pruefe(p, { streng: PRUEFPUNKTE_STRENG }), ...ISO42001.pruefe(p, { streng: PRUEFPUNKTE_STRENG }), ...VA.pruefe(p)];
       if (fehler.length) throw new Error(`Anbieterdatei ${f}: ${fehler.join("; ")}`);
       return p;
     })
@@ -1757,6 +1787,8 @@ function main() {
   fragen.forEach((f) => schreibe(`fragen/${f.slug}/index.html`, seiteFrage(f, providers, stand)));
 
   schreibe("zertifikate/index.html", seiteZertifikateIndex(facetten, facettenAlle, providers, stand));
+  schreibe("vorauswahl/index.html", seiteVorauswahl(providers, stand));
+  fs.writeFileSync(path.join(OUT, "vorauswahl", "vorauswahl.csv"), VA.csv(providers, { datumDE, preisKurz: P.preisKurz, baseUrl: SITE.baseUrl }));
   facetten.forEach((e) => schreibe(`zertifikate/${e.schluessel}/index.html`, seiteZertifikat(e, providers, stand)));
 
   schreibe("faelle/index.html", seiteFaelleIndex(faelle, providers, stand));
@@ -1826,7 +1858,7 @@ function main() {
   // Sitemap. lastmod kommt aus dem Ledger, also aus dem tatsächlichen Änderungsdatum der Seite —
   // nicht aus dem Prüfdatum der Anbieterdaten. Beides fiel auseinander, sobald sich das Template
   // änderte: Der Inhalt war neu, das lastmod blieb alt, und Crawler kamen nicht wieder.
-  const urls = ["", "fragen/", "zertifikate/", "faelle/", "aenderungen/", "vergleich/", "ratgeber/", "methodik/", "fuer-anbieter/", "fuer-kaeufer/", "ueber/", "datenschutz/"]
+  const urls = ["", "fragen/", "zertifikate/", "vorauswahl/", "faelle/", "aenderungen/", "vergleich/", "ratgeber/", "methodik/", "fuer-anbieter/", "fuer-kaeufer/", "ueber/", "datenschutz/"]
     .concat(fragen.map((f) => `fragen/${f.slug}/`))
     .concat(faelle.map((f) => `faelle/${f.slug}/`))
     .concat(facetten.map((e) => `zertifikate/${e.schluessel}/`))

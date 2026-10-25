@@ -146,6 +146,7 @@ Benefits
 Block
 Block
 Block
+Bring
 Business
 Business
 C5
@@ -174,6 +175,8 @@ Certificates
 Certificates
 Certificates
 Certifications
+Chemical
+Chemical
 Choice
 Choice
 Church
@@ -273,6 +276,7 @@ Data
 Data
 Data
 Data
+Data
 Database
 Database
 Database
@@ -325,6 +329,7 @@ Enterprise
 Enterprise
 Europe
 Europe
+European
 European
 European
 European
@@ -446,6 +451,7 @@ In
 Independent
 Industries
 Industries
+Industry
 Information
 Information
 Infrastructure
@@ -581,13 +587,16 @@ Prices
 Prices
 Private/Hybrid
 Processes
+Processes
 Processing
 Products
 Products
 Products
 Program
 Program
+Program
 Protect
+Protection
 Protection
 Provision
 Public
@@ -613,6 +622,7 @@ Release
 Release
 Relevant
 Request
+Research
 Retail
 Retail
 Rethinking
@@ -784,6 +794,7 @@ Security
 Security
 Security
 Security,
+Sensitive
 Server
 Server
 Server
@@ -832,6 +843,7 @@ Spaces
 Star"
 Star"
 Star,
+Startup
 Startup
 Storage
 Storage
@@ -1068,6 +1080,8 @@ and
 and
 and
 and
+and
+and
 applications
 applications,
 apply
@@ -1181,6 +1195,7 @@ church
 citizen
 citizens
 clear
+cloud
 cloud
 cloud
 cloud
@@ -1338,6 +1353,7 @@ errors
 estimate
 even
 example
+exclusive
 exclusively
 exclusively
 expand
@@ -1383,6 +1399,7 @@ for
 for
 for
 for
+for
 form
 form
 form
@@ -1395,6 +1412,7 @@ fulfills
 full
 fully
 functions.
+funding
 future
 future
 game
@@ -1487,6 +1505,7 @@ information
 information,
 infrastructure
 infrastructure
+infrastructure
 ingestion
 innovation
 institutions
@@ -1522,6 +1541,7 @@ latest
 leading
 level
 level
+life
 like
 like
 like
@@ -1651,12 +1671,14 @@ operating
 operation
 operation
 operations
+opportunities.
 optimized
 or
 or
 or
 or
 organizations
+our
 our
 our
 our
@@ -2026,6 +2048,7 @@ to
 to
 to
 to
+to
 toolset
 topic
 topics
@@ -2055,6 +2078,7 @@ via
 virtual
 virtual
 virtual
+vision
 was
 was
 was
@@ -2095,6 +2119,7 @@ with
 with
 with
 with
+with
 within
 without
 workflows
@@ -2114,6 +2139,7 @@ you
 you
 you
 you!
+your
 your
 your
 your

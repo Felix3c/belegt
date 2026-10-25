@@ -1,0 +1,43 @@
+Quelle: https://workspace.google.com/solutions/ai/ (deutsche Fassung, nach Standort ausgeliefert), https://workspace.google.com/pricing?hl=en (Weiterleitung), https://workspace.google.com/security/?hl=en; dazu die schon gesicherten Kopien in diesem Ordner (privacy-hub, gemini-app-an-aus, data-regions, service-terms vom 22.10.)
+Abruf: 2026-10-23 ~08:50-08:53 UTC (curl direkt, je HTTP 200, gzip entpackt, 3 s Abstand; robots.txt von workspace.google.com: „Allow: /“, gesperrt nur /intl/*/ u. a., darum keine /intl/-Seiten verwendet). SHA-256 der Rohseiten: solutions/ai b3b83737f2f4cf9fb8d8be6e72f2429c75b7af90772979ba4ee1324f41bfeadc, pricing 019d7c896ee25a2284c0f4b04b5ff0f7a88e20b9cf77941ffc67418fde9ce1d1, security e9b19fcc03aeaed6be2f9608708fd37c0c75500bea6c13f5e87aa75fff0b2fd3. Archivkopie: ungeklärt (nicht angefordert). belegbar.eu
+Inhalt: wörtliche Auszüge aus dem Widerspruchs-Scan Google Gemini für Google Workspace (Textfassung). Frage: Sagen die Google-Seiten untereinander oder in der Werbung etwas anderes als das Profil?
+
+A. Preisseite: Data Regions und Gemini Notebook in einem Paket (Fall-Kandidat 50)
+
+1. pricing, Business Standard:
+Gemini Notebook with expanded access to features
+
+2. pricing, Enterprise („All features mentioned, and:“):
+Enterprise data regions
+
+3. solutions/ai, Business Standard:
+Mit Gemini Notebook sofort wertvolle Erkenntnisse gewinnen
+Mit Ihrem sicheren KI-Recherchepartner können Sie Ihre vertrauenswürdigen Geschäftsdateien in Audio-Zusammenfassungen und visuelle Hilfsmittel umwandeln.
+
+B. Doku: Data Regions gilt nicht für Gemini Notebook
+
+4. Privacy Hub (Kopie privacy-hub-2026-10-22.txt, Zeile 394):
+When users upload sources from Drive, Gemini Notebook creates a new copy of each file. This new file is stored with the user's Gemini Notebook data, not in their Drive. Your organization's file sharing and data region settings do not apply to data in Gemini Notebook.
+
+Wer Enterprise wegen „Enterprise data regions“ kauft und Geschäftsdateien aus Drive in Gemini Notebook lädt, hat von diesen Dateien eine Kopie außerhalb der gewählten Region. Auf der Preisseite steht dazu nichts.
+
+C. Werbung „nicht zum Trainieren“ gegen Ausgaben ohne diese Zusage (Anmerkung, kein eigener Kandidat)
+
+5. solutions/ai, Abschnitt „Sicherheit und Datenschutz auf Unternehmensniveau“, ohne Einschränkung auf eine Ausgabe:
+Ihre Daten gehören nur Ihnen und werden weder für das Anzeigen-Targeting noch zum Trainieren von Gemini-Modellen verwendet.
+
+6. Gemini-App an/aus (Kopie gemini-app-an-aus-2026-10-22.txt), „As an additional Google Service“, betrifft u. a. Business Base, Essentials Starter, Workspace Individual:
+Their chats may be reviewed by human reviewers and used to improve Google's products, services, and machine-learning technologies.
+
+7. Dieselbe Seite, für die Ausgaben mit Gemini als Core Service:
+Their content is not human reviewed or used for Generative AI model training outside their domain without permission.
+
+Satz 5 stimmt für die Ausgaben mit Core Service; für Workspace-Ausgaben ohne Core Service gilt er nicht. Die Doku sagt das offen. Satz 7 schränkt auf „outside their domain“ ein; was Training innerhalb der eigenen Domain bedeutet, ist ungeklärt.
+
+D. Ohne Widerspruch
+
+8. „Gemini erfüllt die Anforderungen einer umfangreichen Reihe an Zertifizierungen im Bereich Datenschutz und Sicherheit, darunter ISO 42001 und SOC 1/2/3.“ – passt zur Google-Seite „Google Cloud, Google Workspace, and Gemini (App) are certified as ISO/IEC 42001:2023 compliant.“ (Profil iso_42001). Zertifikat nur über den Compliance Reports Manager.
+
+9. „Gemini ruft nur relevante Inhalte in Workspace ab, auf die die Nutzerin oder der Nutzer Zugriff hat.“ – keine gegenteilige Aussage gefunden.
+
+10. security-Seite: nur allgemeine Sätze („helps keep data confidential, compliant, and secure“), Kundenzitat Airbus nennt „data regionalization“; keine prüfbare Zusage zu Gemini.

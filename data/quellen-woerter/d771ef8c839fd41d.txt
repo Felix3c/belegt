@@ -334,8 +334,10 @@
 2026
 2027
 2027
+2027
 2048
 2048
+21,
 21B
 22
 24B
@@ -745,6 +747,7 @@ Being
 Being
 Being
 Being
+Being
 Beta
 Beta
 Beta
@@ -794,6 +797,8 @@ Calling
 Can
 Capabilities
 Careers
+Cases
+Cases
 Cases
 Cases
 Cassandra
@@ -897,6 +902,7 @@ Changelog
 Changelog
 Changelog
 Chat
+Choose
 Choose
 Choose
 Choose
@@ -1240,6 +1246,7 @@ Encryption
 Encryption
 End
 End
+End
 End-to-End
 End-to-End
 Endpoints
@@ -1264,6 +1271,8 @@ Entity
 Environmental
 Europe
 Europe.
+European
+European
 Everything
 Everything
 Everything
@@ -1458,6 +1467,10 @@ Hosting
 How
 How
 How
+How
+How
+How
+How
 Hyper-V
 I
 I
@@ -1540,6 +1553,7 @@ Isolate
 Isolate
 It
 JSON
+Jan
 Join
 Join
 Join
@@ -1762,6 +1776,8 @@ Metrics
 Metrics,
 Microsoft
 Microsoft
+Migration
+Migration
 Mistral
 Mistral-Nemo-Instruct-2407
 Mistral-Small-3.2-24B-Instruct-2506
@@ -1811,6 +1827,8 @@ Multi
 Multi-cluster,
 Multilingual
 Multimodal
+Multiple
+Multiple
 Multisites
 Multisites
 My
@@ -2030,9 +2048,12 @@ OVHcloud
 OVHcloud
 OVHcloud
 OVHcloud
+OVHcloud
 OVHcloud's
 OVHcloud-managed
 OVHcloud.
+Object
+Object
 Object
 Object
 Object
@@ -2041,6 +2062,7 @@ Observability
 Observability
 Observability
 Offers
+Offline
 On-Prem
 On-Prem
 On-demand
@@ -2357,6 +2379,7 @@ Reasoning
 Reasoning
 Reasoning
 Reasoning
+Reclaim
 Reduce
 Redundant
 Reference
@@ -2452,6 +2475,8 @@ Roadmap
 Roadmap
 Roadmap
 Roadmap
+S3
+S3
 S3-compatible
 S3-compatible
 SAP
@@ -2542,6 +2567,7 @@ Secret
 Secret
 Secret
 Secrets,
+Secure
 Secure
 Secure
 Secure
@@ -2671,6 +2697,8 @@ Startup
 Startup
 Status
 Status
+Storage
+Storage
 Storage
 Storage
 Storage
@@ -2855,6 +2883,8 @@ Unified
 Units
 Units
 Unlimited
+Use
+Use
 Use
 Use
 Use
@@ -3050,6 +3080,8 @@ a
 a
 a
 a
+a
+a
 about
 about
 abuse
@@ -3089,6 +3121,7 @@ advanced
 advice,
 affordable
 affordable
+against
 against
 against
 against
@@ -3152,6 +3185,8 @@ analyse,
 analyse,
 analysis
 analysis
+and
+and
 and
 and
 and
@@ -3388,6 +3423,8 @@ backbone.
 backup
 backup
 backup
+backups
+backups
 balance
 based
 based
@@ -3467,8 +3504,11 @@ can
 can
 can
 can
+can
+can
 capabilities,
 capable.
+case
 cases
 cases
 cases
@@ -3485,8 +3525,11 @@ chat,
 cheaper
 choose
 choose
+class
 class=&quot;odss-dropdown__content&quot;&gt;&lt;/div&gt;
 class=&quot;odss-dropdown__content&quot;&gt;&lt;/div&gt;
+classes,
+classes,
 click
 click
 click
@@ -3516,6 +3559,8 @@ cloud
 cloud
 cloud-native
 cloud.
+cloud?
+cloud?
 clusters
 code
 code
@@ -3529,6 +3574,8 @@ collecting,
 commitment,
 committed
 community
+company&#x27;s
+company&#x27;s
 complete
 complete
 complete
@@ -3591,6 +3638,7 @@ control
 control
 control
 control
+control
 control,
 control,
 control,
@@ -3607,6 +3655,7 @@ cost
 cost
 cost
 cost-effective
+costs
 costs
 counting
 covering
@@ -3629,7 +3678,13 @@ customer
 customer
 customers’
 customers’
+cyberattacks?
+cyberattacks?
 dashboards
+data
+data
+data
+data
 data
 data
 data
@@ -3648,6 +3703,7 @@ data
 data,
 data,
 data.
+data:
 database
 databases
 databases
@@ -3662,6 +3718,7 @@ dedicated,
 deep
 default
 default
+defense
 define,
 delay
 demand
@@ -3762,6 +3819,7 @@ environments
 environments
 event-driven
 events,
+every
 everything,
 everything.
 existing
@@ -3865,6 +3923,7 @@ for
 for
 for
 for
+for
 for.
 format
 foundation
@@ -3886,6 +3945,9 @@ fp8
 fp8
 free
 free
+from
+from
+from
 from
 from
 from
@@ -3963,6 +4025,7 @@ https://oai.endpoints.kepler.ai.cloud.ovh.net/v1
 hub
 hub
 hybrid
+hyperscalers
 ideal
 identity
 identity
@@ -4098,6 +4161,7 @@ language
 language.
 languages
 larger
+last
 latency
 latest
 launch
@@ -4121,8 +4185,10 @@ license
 life
 life
 life
+life
 life,
 limits
+line
 links
 listed
 lives
@@ -4140,6 +4206,7 @@ long
 long-term
 long-term
 longer
+loss
 loss,
 lower
 lower
@@ -4196,6 +4263,9 @@ menu
 menu
 messaging
 metrics
+migrate
+migrate
+migrate
 minimal
 minutes.
 mission
@@ -4372,6 +4442,9 @@ of
 of
 of
 of
+of
+of
+of
 offers
 offers
 on
@@ -4422,8 +4495,11 @@ on
 on
 on
 on
+on
 on-premise
 on-premise
+one
+one
 one
 one
 one
@@ -4448,6 +4524,7 @@ open-weight
 optimise
 optimise
 optimised
+optimize
 option
 option
 option
@@ -4602,6 +4679,8 @@ prompts
 prompts
 property
 protect
+protect
+protect
 protected
 protected
 protected
@@ -4644,6 +4723,7 @@ racks
 ranges
 ranges
 ranges
+ransomware
 rarely
 raw
 ready
@@ -4709,8 +4789,10 @@ response
 retired
 retired
 retired
+retired
 retired:
 revolution
+right
 right
 right
 robust
@@ -4840,6 +4922,8 @@ solutions
 solutions
 solutions
 solutions
+solutions
+solutions
 soon
 soon
 soon
@@ -4875,6 +4959,8 @@ step
 step
 still
 still
+storage
+storage
 storage
 storage
 storage
@@ -4926,6 +5012,7 @@ that
 that
 that
 that
+the
 the
 the
 the
@@ -5052,6 +5139,11 @@ to
 to
 to
 to
+to
+to
+to
+to
+to
 today
 together,
 token
@@ -5074,6 +5166,7 @@ traffic,
 traffic,
 traffic.
 transactional
+transfer
 translates
 trigger
 trust
@@ -5090,6 +5183,7 @@ up
 us
 us
 usage
+use
 use.
 useful
 uses
@@ -5225,6 +5319,15 @@ you
 you
 you
 you
+you
+you
+your
+your
+your
+your
+your
+your
+your
 your
 your
 your

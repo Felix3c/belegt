@@ -239,7 +239,6 @@ EU
 End
 End
 Enterprise
-Enterprise
 European
 European
 FLUX

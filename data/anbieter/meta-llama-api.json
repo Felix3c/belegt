@@ -1,0 +1,295 @@
+{
+  "id": "meta-llama-api",
+  "name": "Meta Model API (früher Llama API)",
+  "kategorie": "modell-anbieter",
+  "kurzbeschreibung": "Metas eigene Entwickler-Schnittstelle (llama.developer.meta.com leitet auf dev.meta.ai um) für die gehosteten Muse-Modelle; Llama-Modelle laufen dort laut Meta nicht. Zwei Stufen: Standard (kein Training, Meta als Auftragsverarbeiter) und Contributor (billiger, Inhalte gehen ins Training). Kein Rechenzentrumsort genannt; Null-Speicherung nur auf Antrag.",
+  "stammdaten": {
+    "sitz": "Menlo Park, USA (Meta Platforms, Inc.); Vertragspartei für Kunden in der „European Region“ laut Nutzungsbedingungen: Meta Platforms Ireland Limited (Dublin, Irland)",
+    "land": "US",
+    "mutterkonzern": null,
+    "us_eigner": true,
+    "gegruendet": null,
+    "website": "https://dev.meta.ai/products/meta-model-api",
+    "dpf": {
+      "status": "belegt",
+      "wert": true,
+      "quelle": "https://www.dataprivacyframework.gov/participant/4452",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Amtliche DPF-Liste (US-Handelsministerium), Suche am 23.10.2026 nach Meta Platforms (aktiv und alle Status): je 1 Treffer, Eintrag „Meta Platforms, Inc.“, Menlo Park (Id 4452). Suche nach Facebook: 0 Treffer. EU-US Certification Status „Active - Re-certification under Review“, nur Nicht-HR-Daten, seit 30.09.2016, Ablaufdatum 23.07.2027; Swiss-US ebenso, UK Extension nicht eingetragen. Erfasste Gesellschaften: keine eigenen genannt; laut Disclosure „Meta Platforms, Inc. and its wholly-owned U.S. subsidiaries“. Die Zertifizierung gilt nur für bestimmte Dienste: „Meta processes personal information received from the European Economic Area or Switzerland under the DPF in relation to the Certified Data Categories.“ Welche Dienste das sind, steht nur hinter einem nachgeladenen Feld der Disclosure (nicht archiviert); ob die Model API erfasst ist, ist ungeklärt. Vertragspartei für die European Region ist Meta Platforms Ireland Limited; die Nutzungsbedingungen verweisen für Übermittlungen auf die MGPT, deren „European Region Terms“ öffentlich nicht abrufbar waren (facebook.com sperrt Abrufe, keine Wayback-Kopie). Gegenprobe Microsoft (aktiv): 1 Treffer. Kopie der Antworten + SHA-256 in belege/rechtsraum/dpf-meta-2026-10-23/. Am 25.10.2026 über die Schnittstelle der Liste von Hand neu abgefragt (Liste geändert am 25.10.): Angaben unverändert, Kopie + SHA-256 in belege/rechtsraum/dpf-2026-10-25/ (die Seite selbst lädt ihren Text erst im Browser, der automatische Quellenlauf sieht nur die Hülle)."
+    }
+  },
+  "modelle": [
+    {
+      "name": "Muse Wonder 1.0 (Vorschau)",
+      "standort": "Kein Rechenzentrumsort für die Model API genannt; keine EU-Region wählbar (ungeklärt, wo verarbeitet wird)",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://dev.meta.ai/docs/pricing-rate-limits",
+      "geprueft": "2026-10-25",
+      "status": "belegt",
+      "anmerkung": "Modell-ID muse-wonder-1.0. Preisseite (direkt abgerufen 23.10.2026), Muse Wonder, Spalte „Standard mode (per 1M tokens)“: Cached input „$0.20“, Input „$4.00“, Output „$20.00“; Contributor-Modus „Not available“. Preise nur in USD je 1 Mio. Token, deshalb EUR-Felder null (keine Umrechnung); Nutzungsbedingungen 13.1: „Unless otherwise noted, all currency references are in U.S. Dollars.“ Standard-Modell laut Geographic Use Policy; Preisseite: „In Standard mode, you pay standard prices and your content is not used to train Meta models.“ Modellseite: „Muse Wonder is in preview.“ Nicht in Südkorea: „Muse Wonder and Muse Wonder Full aren't currently available in South Korea, on Model API or in Muse Code.“ Weder Nutzungsbedingungen noch Data Commitments noch Entwickler-Doku nennen einen Ort der Verarbeitung oder Speicherung. Die in den Nutzungsbedingungen verlinkte Unterauftragnehmerliste ist die von „Meta Horizon Managed Solutions“ (Stand „Gültig ab 13. November 2023“) und nennt unter „Rechenzentrumsinfrastruktur“ Gesellschaften in USA, Dänemark, Schweden und Irland; ob die Model API dort läuft, ist ungeklärt. Datenschutzrichtlinie (US-Fassung): „We share information we collect globally, both internally across our offices and data centers and externally with our partners, third parties and service providers.“",
+      "backup_standort": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "Meta nennt keinen Ort für Sicherungen. Die Data Security Terms (in die Nutzungsbedingungen einbezogen) sagen nur allgemein „Power supply and backup generators at the data center;“ ohne Ort."
+      },
+      "vorgeschaltete_filter": {
+        "wert": true,
+        "status": "belegt",
+        "quelle": "https://dev.meta.ai/legal/terms-of-service",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Nutzungsbedingungen 10.1 (xii) verbieten, „content filters, access controls, or other technical safeguards or restrictions applied to the Services“ zu umgehen; es gibt also Inhaltsfilter. Preisseite: „Meta injects a small amount of steering context into every prompt (a system prompt and related scaffolding)“. Überwachung laut 10.3: „monitor, including through automated or manual (human) review, your use of the Services“. Welche Filter vor und welche nach dem Modell laufen, legt Meta nicht offen."
+      }
+    },
+    {
+      "name": "Muse Spark 1.3",
+      "standort": "Kein Rechenzentrumsort für die Model API genannt; keine EU-Region wählbar (ungeklärt, wo verarbeitet wird)",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://dev.meta.ai/docs/pricing-rate-limits",
+      "geprueft": "2026-10-25",
+      "status": "belegt",
+      "anmerkung": "Modell-ID muse-spark-1.3. Preisseite (direkt abgerufen 23.10.2026), Muse Spark, Spalte „Standard mode (per 1M tokens)“: Cached input „$0.15“, Input „$1.25“, Output „$4.25“. Preise nur in USD je 1 Mio. Token, deshalb EUR-Felder null (keine Umrechnung); Nutzungsbedingungen 13.1: „Unless otherwise noted, all currency references are in U.S. Dollars.“ Standard-Modell laut Geographic Use Policy; Preisseite: „In Standard mode, you pay standard prices and your content is not used to train Meta models.“ Weder Nutzungsbedingungen noch Data Commitments noch Entwickler-Doku nennen einen Ort der Verarbeitung oder Speicherung. Die in den Nutzungsbedingungen verlinkte Unterauftragnehmerliste ist die von „Meta Horizon Managed Solutions“ (Stand „Gültig ab 13. November 2023“) und nennt unter „Rechenzentrumsinfrastruktur“ Gesellschaften in USA, Dänemark, Schweden und Irland; ob die Model API dort läuft, ist ungeklärt. Datenschutzrichtlinie (US-Fassung): „We share information we collect globally, both internally across our offices and data centers and externally with our partners, third parties and service providers.“",
+      "backup_standort": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "Meta nennt keinen Ort für Sicherungen. Die Data Security Terms (in die Nutzungsbedingungen einbezogen) sagen nur allgemein „Power supply and backup generators at the data center;“ ohne Ort."
+      },
+      "vorgeschaltete_filter": {
+        "wert": true,
+        "status": "belegt",
+        "quelle": "https://dev.meta.ai/legal/terms-of-service",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Nutzungsbedingungen 10.1 (xii) verbieten, „content filters, access controls, or other technical safeguards or restrictions applied to the Services“ zu umgehen; es gibt also Inhaltsfilter. Preisseite: „Meta injects a small amount of steering context into every prompt (a system prompt and related scaffolding)“. Überwachung laut 10.3: „monitor, including through automated or manual (human) review, your use of the Services“. Welche Filter vor und welche nach dem Modell laufen, legt Meta nicht offen."
+      }
+    },
+    {
+      "name": "Muse Spark 1.3 Contributor",
+      "standort": "Kein Rechenzentrumsort für die Model API genannt; keine EU-Region wählbar (ungeklärt, wo verarbeitet wird)",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://dev.meta.ai/docs/pricing-rate-limits",
+      "geprueft": "2026-10-25",
+      "status": "belegt",
+      "anmerkung": "Modell-ID muse-spark-1.3-contributor. Preisseite (direkt abgerufen 23.10.2026), Muse Spark, Spalte „Contributor mode (per 1M tokens)“: Cached input „$0.002“, Input „$0.10“, Output „$0.20“. Preise nur in USD je 1 Mio. Token, deshalb EUR-Felder null (keine Umrechnung); Nutzungsbedingungen 13.1: „Unless otherwise noted, all currency references are in U.S. Dollars.“ Contributor-Modell: Inhalte gehen ins Training. Nutzungsbedingungen 6.1: „You agree that Meta may use your Content to train, develop, evaluate, and improve Meta’s artificial intelligence models, products, and services.“ 6.2: „You must not submit sensitive, confidential, or personal information to the Contributor Services.“ Für personenbezogene Daten ungeeignet; nicht mit Null-Speicherung nutzbar. Weder Nutzungsbedingungen noch Data Commitments noch Entwickler-Doku nennen einen Ort der Verarbeitung oder Speicherung. Die in den Nutzungsbedingungen verlinkte Unterauftragnehmerliste ist die von „Meta Horizon Managed Solutions“ (Stand „Gültig ab 13. November 2023“) und nennt unter „Rechenzentrumsinfrastruktur“ Gesellschaften in USA, Dänemark, Schweden und Irland; ob die Model API dort läuft, ist ungeklärt. Datenschutzrichtlinie (US-Fassung): „We share information we collect globally, both internally across our offices and data centers and externally with our partners, third parties and service providers.“",
+      "backup_standort": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "Meta nennt keinen Ort für Sicherungen. Die Data Security Terms (in die Nutzungsbedingungen einbezogen) sagen nur allgemein „Power supply and backup generators at the data center;“ ohne Ort."
+      },
+      "vorgeschaltete_filter": {
+        "wert": true,
+        "status": "belegt",
+        "quelle": "https://dev.meta.ai/legal/terms-of-service",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Nutzungsbedingungen 10.1 (xii) verbieten, „content filters, access controls, or other technical safeguards or restrictions applied to the Services“ zu umgehen; es gibt also Inhaltsfilter. Preisseite: „Meta injects a small amount of steering context into every prompt (a system prompt and related scaffolding)“. Überwachung laut 10.3: „monitor, including through automated or manual (human) review, your use of the Services“. Welche Filter vor und welche nach dem Modell laufen, legt Meta nicht offen."
+      }
+    },
+    {
+      "name": "Muse Spark 1.2",
+      "standort": "Kein Rechenzentrumsort für die Model API genannt; keine EU-Region wählbar (ungeklärt, wo verarbeitet wird)",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://dev.meta.ai/docs/pricing-rate-limits",
+      "geprueft": "2026-10-25",
+      "status": "belegt",
+      "anmerkung": "Modell-ID muse-spark-1.2. Preisseite (direkt abgerufen 23.10.2026), Muse Spark, Spalte „Standard mode (per 1M tokens)“: Cached input „$0.15“, Input „$1.25“, Output „$4.25“. Preise nur in USD je 1 Mio. Token, deshalb EUR-Felder null (keine Umrechnung); Nutzungsbedingungen 13.1: „Unless otherwise noted, all currency references are in U.S. Dollars.“ Standard-Modell laut Geographic Use Policy; Preisseite: „In Standard mode, you pay standard prices and your content is not used to train Meta models.“ Weder Nutzungsbedingungen noch Data Commitments noch Entwickler-Doku nennen einen Ort der Verarbeitung oder Speicherung. Die in den Nutzungsbedingungen verlinkte Unterauftragnehmerliste ist die von „Meta Horizon Managed Solutions“ (Stand „Gültig ab 13. November 2023“) und nennt unter „Rechenzentrumsinfrastruktur“ Gesellschaften in USA, Dänemark, Schweden und Irland; ob die Model API dort läuft, ist ungeklärt. Datenschutzrichtlinie (US-Fassung): „We share information we collect globally, both internally across our offices and data centers and externally with our partners, third parties and service providers.“",
+      "backup_standort": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "Meta nennt keinen Ort für Sicherungen. Die Data Security Terms (in die Nutzungsbedingungen einbezogen) sagen nur allgemein „Power supply and backup generators at the data center;“ ohne Ort."
+      },
+      "vorgeschaltete_filter": {
+        "wert": true,
+        "status": "belegt",
+        "quelle": "https://dev.meta.ai/legal/terms-of-service",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Nutzungsbedingungen 10.1 (xii) verbieten, „content filters, access controls, or other technical safeguards or restrictions applied to the Services“ zu umgehen; es gibt also Inhaltsfilter. Preisseite: „Meta injects a small amount of steering context into every prompt (a system prompt and related scaffolding)“. Überwachung laut 10.3: „monitor, including through automated or manual (human) review, your use of the Services“. Welche Filter vor und welche nach dem Modell laufen, legt Meta nicht offen."
+      }
+    },
+    {
+      "name": "Muse Spark 1.2 Contributor",
+      "standort": "Kein Rechenzentrumsort für die Model API genannt; keine EU-Region wählbar (ungeklärt, wo verarbeitet wird)",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://dev.meta.ai/docs/pricing-rate-limits",
+      "geprueft": "2026-10-25",
+      "status": "belegt",
+      "anmerkung": "Modell-ID muse-spark-1.2-contributor. Preisseite (direkt abgerufen 23.10.2026), Muse Spark, Spalte „Contributor mode (per 1M tokens)“: Cached input „$0.002“, Input „$0.10“, Output „$0.20“. Preise nur in USD je 1 Mio. Token, deshalb EUR-Felder null (keine Umrechnung); Nutzungsbedingungen 13.1: „Unless otherwise noted, all currency references are in U.S. Dollars.“ Contributor-Modell: Inhalte gehen ins Training. Nutzungsbedingungen 6.1: „You agree that Meta may use your Content to train, develop, evaluate, and improve Meta’s artificial intelligence models, products, and services.“ 6.2: „You must not submit sensitive, confidential, or personal information to the Contributor Services.“ Für personenbezogene Daten ungeeignet; nicht mit Null-Speicherung nutzbar. Weder Nutzungsbedingungen noch Data Commitments noch Entwickler-Doku nennen einen Ort der Verarbeitung oder Speicherung. Die in den Nutzungsbedingungen verlinkte Unterauftragnehmerliste ist die von „Meta Horizon Managed Solutions“ (Stand „Gültig ab 13. November 2023“) und nennt unter „Rechenzentrumsinfrastruktur“ Gesellschaften in USA, Dänemark, Schweden und Irland; ob die Model API dort läuft, ist ungeklärt. Datenschutzrichtlinie (US-Fassung): „We share information we collect globally, both internally across our offices and data centers and externally with our partners, third parties and service providers.“",
+      "backup_standort": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "Meta nennt keinen Ort für Sicherungen. Die Data Security Terms (in die Nutzungsbedingungen einbezogen) sagen nur allgemein „Power supply and backup generators at the data center;“ ohne Ort."
+      },
+      "vorgeschaltete_filter": {
+        "wert": true,
+        "status": "belegt",
+        "quelle": "https://dev.meta.ai/legal/terms-of-service",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Nutzungsbedingungen 10.1 (xii) verbieten, „content filters, access controls, or other technical safeguards or restrictions applied to the Services“ zu umgehen; es gibt also Inhaltsfilter. Preisseite: „Meta injects a small amount of steering context into every prompt (a system prompt and related scaffolding)“. Überwachung laut 10.3: „monitor, including through automated or manual (human) review, your use of the Services“. Welche Filter vor und welche nach dem Modell laufen, legt Meta nicht offen."
+      }
+    },
+    {
+      "name": "Muse Spark 1.1",
+      "standort": "Kein Rechenzentrumsort für die Model API genannt; keine EU-Region wählbar (ungeklärt, wo verarbeitet wird)",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://dev.meta.ai/docs/pricing-rate-limits",
+      "geprueft": "2026-10-25",
+      "status": "belegt",
+      "anmerkung": "Modell-ID muse-spark-1.1. Preisseite (direkt abgerufen 23.10.2026), Muse Spark, Spalte „Standard mode (per 1M tokens)“: Cached input „$0.15“, Input „$1.25“, Output „$4.25“. Preise nur in USD je 1 Mio. Token, deshalb EUR-Felder null (keine Umrechnung); Nutzungsbedingungen 13.1: „Unless otherwise noted, all currency references are in U.S. Dollars.“ Standard-Modell laut Geographic Use Policy; Preisseite: „In Standard mode, you pay standard prices and your content is not used to train Meta models.“ „Muse Spark 1.1 is Standard mode only.“ Weder Nutzungsbedingungen noch Data Commitments noch Entwickler-Doku nennen einen Ort der Verarbeitung oder Speicherung. Die in den Nutzungsbedingungen verlinkte Unterauftragnehmerliste ist die von „Meta Horizon Managed Solutions“ (Stand „Gültig ab 13. November 2023“) und nennt unter „Rechenzentrumsinfrastruktur“ Gesellschaften in USA, Dänemark, Schweden und Irland; ob die Model API dort läuft, ist ungeklärt. Datenschutzrichtlinie (US-Fassung): „We share information we collect globally, both internally across our offices and data centers and externally with our partners, third parties and service providers.“",
+      "backup_standort": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "Meta nennt keinen Ort für Sicherungen. Die Data Security Terms (in die Nutzungsbedingungen einbezogen) sagen nur allgemein „Power supply and backup generators at the data center;“ ohne Ort."
+      },
+      "vorgeschaltete_filter": {
+        "wert": true,
+        "status": "belegt",
+        "quelle": "https://dev.meta.ai/legal/terms-of-service",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Nutzungsbedingungen 10.1 (xii) verbieten, „content filters, access controls, or other technical safeguards or restrictions applied to the Services“ zu umgehen; es gibt also Inhaltsfilter. Preisseite: „Meta injects a small amount of steering context into every prompt (a system prompt and related scaffolding)“. Überwachung laut 10.3: „monitor, including through automated or manual (human) review, your use of the Services“. Welche Filter vor und welche nach dem Modell laufen, legt Meta nicht offen."
+      }
+    }
+  ],
+  "vertrag": {
+    "avv": {
+      "wert": "https://www.facebook.com/legal/terms/Meta-Global-Processor-Terms",
+      "status": "belegt",
+      "quelle": "https://dev.meta.ai/legal/terms-of-service",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Nur für Standard-Modelle. Nutzungsbedingungen 5.1 (Stand „October 9, 2026“): „When you use Standard Services, Meta will process applicable data as described in the MGPT.“ Meta handelt dabei als Service Provider bzw. Processor, „(each as defined in the MGPT) to you in relation to your use of the Services“. Die MGPT (Meta Global Processor Terms, Wayback-Kopie „Last Updated: March 20, 2026“) sind per Verweis einbezogen, kein eigenes Formular. Für EU-Daten gelten zusätzlich „European Region Terms“; diese waren nicht abrufbar (ungeklärt, ob sie Standardvertragsklauseln enthalten). Vertragspartner in der European Region: „Meta Platforms Ireland Limited (if you are located in the European Region as defined here)“; Recht und Gerichte Irlands. MGPT einseitig änderbar: „Company acknowledges and agrees that Meta may update this MGPT from time to time“. Für Contributor-Modelle gibt es keine Auftragsverarbeitung (6.1: „Meta will process Content from Contributor Services as described in these Terms and Privacy Policy.“). Eine Meldefrist für Datenpannen nennen weder Nutzungsbedingungen noch MGPT (General Terms)."
+    },
+    "subprozessoren": {
+      "wert": "https://forwork.meta.com/legal/mfw-subprocessor-list/",
+      "status": "belegt",
+      "quelle": "https://forwork.meta.com/legal/mfw-subprocessor-list/",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Nutzungsbedingungen 5.1: „You authorize Meta to engage subprocessors included in the list located here, as may be updated by Meta from time to time.“ Der Link zeigt auf eine Liste mit dem Titel „Meta Horizon Managed Solutions – Liste der Unterauftragsverarbeiter und Unterauftragnehmer“, „Gültig ab 13. November 2023“ (gerendert 23.10.2026). Sie nennt unter „Rechenzentrumsinfrastruktur“ 19 Gesellschaften (USA, Dänemark, Schweden, Irland) und 13 Meta-Tochtergesellschaften (u. a. Meta Platforms, Inc., USA; Meta Platforms Ireland Limited; Meta Singapore; Meta Platforms International Operations Philippines). Kein Anbieter für Websuche, Zahlung oder Support und kein KI-Anbieter genannt; ob die Liste die Model API vollständig abdeckt, ist ungeklärt. MGPT 4.3: „Company hereby authorizes Meta to engage Meta Affiliates as Subprocessors.“ Eine Vorab-Mitteilung oder ein Widerspruchsrecht bei neuen Unterauftragnehmern steht weder in den Nutzungsbedingungen noch in den MGPT (General Terms)."
+    },
+    "tom": {
+      "wert": "https://www.facebook.com/legal/terms/data_security_terms",
+      "status": "belegt",
+      "quelle": "https://www.facebook.com/legal/terms/data_security_terms",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Die Nutzungsbedingungen der Meta Model API (dev.meta.ai/legal/terms-of-service, Stand 02.10.2026) binden die Datensicherheitsbedingungen ein. Diese beschreiben Mindestmaßnahmen einzeln, z. B. „Logging and auditing of physical access to the data center by employees and contractors“ (Protokollierung und Prüfung des physischen Zugangs), Passwort-Management und Sicherheitstests; Stand „Effective Date: April 25, 2023“ (Wayback-Kopie 25.10.2026). Die Seite lädt ihren Text erst im Browser; der tägliche Quellenlauf sieht nur die Hülle und erkennt Änderungen hier nicht."
+    },
+    "subprozessoren_anzahl": {
+      "wert": 32,
+      "status": "belegt",
+      "quelle": "https://forwork.meta.com/legal/mfw-subprocessor-list/",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Die Meta-Model-API-Bedingungen verweisen mit „Unterauftragsverarbeiter …, die in der Liste hier aufgeführt sind“ auf diese URL. Sie leitet weiter auf „Meta Horizon Managed Solutions – Liste der Unterauftragsverarbeiter“ (gültig ab 13.11.2023). Gezählt: 19 Einträge „Rechenzentrumsinfrastruktur“ und 13 „Tochtergesellschaften von Meta“ (konzernintern). Eine eigene Liste für die Model API gibt es nicht."
+    },
+    "drittlaender": {
+      "wert": [
+        "Kanada",
+        "Philippinen",
+        "Singapur",
+        "USA",
+        "Vereinigtes Königreich"
+      ],
+      "status": "belegt",
+      "quelle": "https://forwork.meta.com/legal/mfw-subprocessor-list/",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Die Liste nennt für jeden Eintrag einen Verarbeitungsstandort, z. B. „Meta Platforms International Operations Philippines – Philippinen“ und „Meta Singapore Pte. Ltd. – Singapur“. Die meisten Rechenzentrumsgesellschaften stehen unter „USA“. Für Kanada und das Vereinigte Königreich gibt es einen EU-Angemessenheitsbeschluss."
+    },
+    "training_opt_out": {
+      "wert": true,
+      "status": "belegt",
+      "quelle": "https://dev.meta.ai/legal/terms-of-service",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Kein Opt-out-Schalter, sondern Wahl des Modells. Standard: Nutzungsbedingungen 5.1 „will not use Content submitted in a request to the Standard Services to train Meta Models.“ Contributor: 6.1 „You agree that Meta may use your Content to train, develop, evaluate, and improve Meta’s artificial intelligence models, products, and services.“ Die Wahl erfolgt über die Modell-ID: „On pay-as-you-go, switch between the two by choosing the model ID“. Achtung, Mischfall: „Content previously submitted to the Standard Services becomes Content submitted to the Contributor Services if it is included in any request to the Contributor Services“. Und: „When you access the Services, the system may route you to a Contributor Model, and you are responsible for ensuring that you are accessing and using a Standard or Contributor Model as you intend.“ Muse-Code-Abos sind standardmäßig Contributor: „you are considered to be using the Contributor Services by default regardless of which Meta Model you select“. Nutzungsdaten (Usage Data) darf Meta zur Weiterentwicklung nutzen: „Meta may use Usage Data to test, support, develop, evaluate, and improve the Meta Model API and other technologies, products and services.“ Die Data Commitments nennen die Stufe noch „Discounted Services“ statt „Contributor Services“."
+    },
+    "zero_data_retention": {
+      "wert": true,
+      "status": "belegt",
+      "quelle": "https://dev.meta.ai/help/policies-and-privacy/zero-data-retention",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Nur auf Antrag, nicht Standard. Hilfe-Artikel: „Zero Data Retention (ZDR) is available for qualified Meta Model API accounts.“ und „ZDR isn't part of standard usage and can't be turned on from the web UI.“ Wirkung: „your prompts and the model's responses are processed in real time and aren't stored by Meta after the response is returned, except where retention is required to comply with the law or to address misuse.“ Mit ZDR gesperrt (Anfragen werden abgelehnt): gespeicherte Antworten, Hintergrund-Anfragen, Datei-Uploads, Websuche, Contributor-Modelle. Auch mit ZDR bleiben markierte Inhalte: „Meta may retain the associated inputs and outputs for up to 2 years“. „ZDR support may vary by model.“ Gilt nicht über Drittplattformen: „Calls routed through third-party platforms follow that platform's data retention policy.“ Diese Zusage steht nur im Hilfe-Artikel, nicht in den Nutzungsbedingungen."
+    },
+    "zweckbindung": {
+      "wert": false,
+      "status": "belegt",
+      "quelle": "https://dev.meta.ai/legal/terms-of-service",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Auch bei Standard-Modellen keine enge Zweckbindung. MGPT 2.1: „Meta shall Process Applicable Personal Data for and at the direction of Company and for the purposes specified in the Applicable Terms (including this MGPT)“. Die Nutzungsbedingungen erweitern die Zwecke als Weisung des Kunden (4.1): „You instruct Meta to retain and process Content as necessary to detect, prevent, and respond to violations of our Model API AUP (defined below) or these Terms and to develop, evaluate, and improve systems for the safety and the security of Meta products and services.“ MGPT 3: „Company agrees that Meta may de-identify and anonymize Applicable Personal Data received from Company under the Applicable Terms and Process such data as permitted by Applicable Law.“ Data Commitments nennen als Zweck auch „To improve and maintain the Meta Model API;“. Vertraulichkeit schützt Inhalte nicht davor (12.): „Meta's rights to use, process, and retain Content as described in Sections 4, 5, and 6 are not restricted by this Section 12.“ Contributor-Inhalte: Training (siehe Training)."
+    },
+    "betroffenenrechte_traeger": {
+      "wert": "auftraggeber",
+      "status": "belegt",
+      "quelle": "https://dev.meta.ai/legal/terms-of-service",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Nutzungsbedingungen 5.1: „To the extent that you wish to inform Meta of any Privacy Rights requests individuals make to you pursuant to Applicable Law (as defined in the MGPT) that you require Meta’s assistance to comply with, you will provide the information necessary for Meta to assist with such compliance and contact Meta through your Accounts.“ MGPT 2.2: Kunde ist „solely liable for its compliance with Applicable Law, including honoring Privacy Rights that individuals may exercise with Company.“"
+    },
+    "log_frist": {
+      "wert": "Keine feste Frist für Ein- und Ausgaben; Speicherung „as needed“; markierte Inhalte bis 2 Jahre (laut ZDR-Artikel); gespeicherte Antworten (store: true, Standard) und Dateien ohne Ablaufdatum bis zur Löschung durch den Kunden",
+      "status": "beansprucht",
+      "quelle": "https://dev.meta.ai/legal/terms-of-service",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Nutzungsbedingungen 4.4: „Meta will retain your Content and Usage Data as needed:“ (Bereitstellung, Rechtspflicht, Ausübung von Metas Nutzungsrechten, „when our systems flag data for a potential policy violation“, „for security, safety, abuse, and policy review and improvements“). Keine Zahl in Tagen. Data Commitments: „Meta will retain your Content as described in the Terms and Privacy Policy. You can view and delete your Content through your Account.“ Datenschutzrichtlinie: „We decide how long we need information on a case-by-case basis.“ Markierte Inhalte: „Meta may retain the associated inputs and outputs for up to 2 years for abuse detection, integrity and content-safety enforcement, and to meet legal obligations.“ (ZDR-Artikel, gilt dort ausdrücklich für ZDR-Konten). Responses API: „Responses are stored when store: true (the default).“ Dateien: „Uploaded files don't expire, so stored data only grows until you remove it.“ Nach Vertragsende (MGPT 2.1) Löschung „in accordance with its data retention policies“, Frist nicht genannt."
+    },
+    "log_zweck": {
+      "wert": "Missbrauchs- und Richtlinienprüfung (automatisch und durch Menschen), Sicherheit, Entwicklung von Sicherheitssystemen; Nutzungsdaten auch zur Produktentwicklung",
+      "status": "belegt",
+      "quelle": "https://dev.meta.ai/legal/terms-of-service",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Nutzungsbedingungen 10.3: „Meta may (i) monitor, including through automated or manual (human) review, your use of the Services to assess compliance with these Terms and applicable laws“. 4.2 definiert Usage Data als „tool call sequences, API request metadata, error or other logs, timestamps, token counts, latency measurements, and operational metrics and telemetry“. Mit ZDR bleiben „Operational metadata: Details such as model name, latency, and app ID are retained for billing, analytics, and operations.“ Ort der Prüfung und Zugriffsprotokolle nennt Meta nicht."
+    }
+  },
+  "zertifikate": [
+    {
+      "typ": "ISO 27001",
+      "status": "belegt",
+      "quelle": "https://integrator.schellman.com/public/v2/certificate/1974840-3/file",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Zertifikat selbst eingesehen (Schellman Nr. 1974840-3, ISO/IEC 27001:2022, Inhaber Meta Platforms, Inc., Version 3, ausgestellt 14.09.2026, erstmals 29.08.2025, gültig bis 28.08.2028), öffentlich im Zertifikatsverzeichnis von Schellman (www.schellman.com/certificate-directory, Abruf 25.10.2026). Meta selbst nennt das Zertifikat auf den Seiten der Model API nicht (Data Commitments sprechen nur von einem eigenen ISMS). Inhaber ist Meta Platforms, Inc. (USA); Vertragspartei für die „European Region“ ist laut Nutzungsbedingungen Meta Platforms Ireland Limited, das Zertifikat nennt die irische Gesellschaft nicht.",
+      "anwendungsbereich": {
+        "wert": "Meta Model API (dazu MM Lite API, Business AI, WhatsApp Pay India), „hosted by Meta“",
+        "status": "belegt",
+        "quelle": "https://integrator.schellman.com/public/v2/certificate/1974840-3/file",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Zertifikat Seite 1: „The scope of the ISO/IEC 27001:2022 certification is limited to the information security management system (ISMS) supporting the development, operation, and maintenance of MM Lite API, Business AI, Meta Model API, and WhatsApp Pay India, hosted by Meta, and in accordance with the statement of applicability, dated September 8, 2026.“ Hauptstandort Menlo Park (1 Hacker Way), dazu eigene und gemietete Rechenzentren, in Europa u. a. Clonee (Irland), Luleå (Schweden) und Odense (Dänemark). Welche Rechenzentren die Model API tatsächlich nutzt, sagt das Zertifikat nicht."
+      },
+      "zertifizierer": {
+        "wert": "Schellman Compliance, LLC (Tampa, USA)",
+        "status": "belegt",
+        "quelle": "https://integrator.schellman.com/public/v2/certificate/1974840-3/file",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Zertifikat Nr. 1974840-3 (Version 3): „The Certification Body of Schellman Compliance, LLC hereby confirms as a result of the certification decision, according to ISO/IEC 17021-1, that the following organization operates an Information Security Management System that conforms to the requirements of ISO/IEC 27001:2022“, Inhaber „Meta Platforms, Inc.“, unterzeichnet von Danny Manimbo, Managing Principal."
+      },
+      "akkreditiert_dakks": {
+        "wert": false,
+        "stelle": "UKAS",
+        "stelle_ea_mla": true,
+        "status": "belegt",
+        "quelle": "https://www.ukas.com/download-schedule/8685/ManagementSystems",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Nicht DAkkS, aber akkreditiert durch UKAS (EA-MLA, gleichwertig anerkannt): Das Zertifikat trägt das UKAS-Zeichen 8685 und zusätzlich das ANAB-Zeichen (im gerenderten Blatt angesehen). UKAS Schedule of Accreditation 8685, „Schellman Compliance, LLC“, Issue No 013 vom 31.10.2025 (Abruf 25.10.2026), nennt „Information Security Management Systems (ISMS) to ISO/IEC 27001:2022“ nach ISO/IEC 17021-1. ANAB-Verzeichnis (Abruf 25.10.2026): „Schellman-MS-3780 - Schellman Compliance, LLC“, akkreditiert u. a. für ISO/IEC 27001."
+      }
+    }
+  ],
+  "iso_42001": {
+    "status": "unbelegt",
+    "wert": null,
+    "zertifizierer": null,
+    "anwendungsbereich": null,
+    "quelle": null,
+    "geprueft": "2026-10-25",
+    "anmerkung": "Für die Model API nennt Meta keine Zertifikate (weder ISO 27001, SOC 2 noch ISO/IEC 42001). Data Commitments sprechen nur von einem eigenen Managementsystem: „Meta has established and will maintain an Information Security Management System (ISMS) designed to implement industry-standard information security practices.“ und zu Kartendaten von „Payment Card Industry Data Security Standard (PCI-DSS)“. Ein Trust-Portal für die Model API wurde nicht gefunden (Sitemap von dev.meta.ai durchgesehen). Nachtrag 25.10.2026: Im öffentlichen Zertifikatsverzeichnis von Schellman steht ein ISO/IEC-42001-Zertifikat von Meta Platforms, Inc. (Nr. 1861919-1, ausgestellt 09.10.2026, gültig bis 08.10.2029), aber nur für „Meta Business Agent services, in the role of AI Provider“; dort heißt es: „The underlying large language models are explicitly excluded from this scope.“ Die Model API ist nicht genannt, darum bleibt es hier unbelegt. Quelle: https://integrator.schellman.com/public/v2/certificate/1861919-1/file"
+  },
+  "ai_act": [],
+  "geprueft": "2026-10-25"
+}

@@ -1,0 +1,750 @@
+Quelle: https://www.infomaniak.com/en/hosting/ai-services/open-source-models
+Abruf: 2026-10-24 08:25 +0200 (curl direkt, HTTP 200; robots.txt von www.infomaniak.com erlaubt die Pfade, welcome.infomaniak.com hat keine robots.txt). SHA-256 der Rohseite: bc34ad647e193725619b433e0990ffe46e403782b2677be7cfbaf44585af5d21
+Inhalt: Modellseite AI Services (englisch), ganzer Seitentext
+
+AI service - Try our multi-model API for free with no obligation | Infomaniak
+Cloud Computing
+Our products
+Collaborative tools
+Web & Domains
+Cloud Computing
+Events & Marketing
+Streaming
+kDrive
+Store, collaborate and share your files
+kChat
+Communicate live with your teams
+SwissTransfer
+Send your files up to 50 GB free of charge
+Custom Brand
+Control the brand image of your products
+Mail Service
+Create your email addresses with your domain
+kMeet
+Organise your meetings online in complete security
+kPaste
+Share and encrypt your sensitive information
+Chk
+Link reducer & QR code generator
+Collaborative suite
+Discover the collaborative suite
+kSuite
+PRO
+For organisations that want to collaborate in a 100% sovereign ecosystem
+kSuite
+For individuals who want an ethical email address, drive and AI, free for life
+Euria, the ethical AI
+The sovereign AI assistant that respects privacy and the planet.
+Find the web hosting solution you need
+Compare our web hosting solutions
+Domain Name
+Reserve your domain name at the best price
+Web Hosting
+Create your website with over 100 CMS
+Cloud Server
+Power up your sites with guaranteed resources
+SSL Certificates
+Secure your websites with an EV or DV certificate
+Site Creator
+Create your website with ease
+Wordpress Hosting
+Create your WordPress website easily
+Node.js Hosting
+Create a dynamic, interactive site with Node.js
+Options
+Domain Privacy
+Protect your domains’ private data
+FastAnycast DNS
+Speed up your site access times
+DynDNS
+Access your devices remotely
+Renewal Warranty
+Secure your domains against loss and theft
+Cloud services
+Cloud Computing
+Build the cloud infrastructure that meets your needsCompare our solutions
+Public Cloud (IaaS)
+Create your projects in a high-end, ultra-competitive Cloud
+VPS Cloud
+Create a Windows / Linux server
+Kubernetes Service
+Deploy containerised apps on a large scale
+GPU Cloud
+Run your AI projects, perform intensive computations or rendering jobs using GPU machines
+VPS Lite
+Create a Windows/Linux server at a low cost
+Database Service
+Manage your databases with a managed solution
+Jelastic Cloud (PaaS)
+Create your own customised environments
+Other services
+AI Services
+Boost your productivity with our sovereign AI
+Swiss Backup
+Back up your devices in the Cloud
+NAS Synology
+Rent a NAS in our secure data centers
+Very High Availability
+Create a multi-data center infrastructure with customised SLAs
+Housing
+Install your servers in our data centers
+Auth
+Add a privacy-friendly login method to your apps
+Infomaniak Events, the independent local events portal
+Online ticketing service with a wide choice of concerts, shows and events.
+Discover all the events
+Ticketing
+Create your ticketing service and sell tickets
+Access Control
+Control access to your events with ease
+Guest manager
+Automate your event invitations
+Newsletter
+Send your newsletters at competitive prices
+Radio Streaming
+Create and broadcast your own live radio station online
+Video-Streaming
+Create and broadcast live events and TV online
+VOD & AOD service
+Host and broadcast your recordings without limits
+Resources
+DocumentationGuides & tutorialsAPI documentation
+Special offersGet started for freeStudent programmeBecome an affiliate
+Partner programmeFind a partnerBecome a partnerInfomaniak Academy
+Support & contactContact SupportPremium support - 24/7Contact our sales departmentHiring an expertMigrate to Infomaniak
+Investors
+About us
+Infomaniak’s values
+Responsibility, Social and Local
+Digital sovereignty
+Long-term commitment
+About InfomaniakAbout usGovernanceInfomaniak is recruitingBlog and newsImpact report 2024
+Your securityData confidentialityBug Bounty ProgramTrust center
+Get started for freeLog in
+AI Services
+OverviewModelsPrices
+Get started for free
+The best open source AI on demand in a sovereign cloud
+Discover the best open source alternatives to ChatGPT, Gemini, Midjourney or Claude for processing sensitive data in full compliance with European and Swiss law.
+LLM↓
+Embedding↓
+Audio↓
+Image↓
+Large language models (LLM)
+The best open source alternatives to ChatGPT, Gemini and Microsoft Copilot for interacting, analysing and generating content with AI.
+moonshotai/Kimi-K2.6
+The most powerful for vibe coding
+Beta
+Get started for free
+Consult the API documentation
+●
+Native multimodal: converts text, images or mockups into fully functional code.
+●
+Designed for large-scale development: includes an extended context window of up to 256k tokens to manage complex projects
+●
+Optimised for vibe coding: a fast, fluid and creative experience designed for developers and product designers
+●
+Compatible with agent-based workflows: automates analysis, code generation, and end-to-end execution
+Modality
+Image-Text to Text
+Max. input tokens
+256’000
+Languages
+Multilingual
+Function call
+Yes
+Template category
+code
+Get started for free
+Consult the API documentation
+●
+Native multimodal: converts text, images or mockups into fully functional code.
+●
+Designed for large-scale development: includes an extended context window of up to 256k tokens to manage complex projects
+●
+Optimised for vibe coding: a fast, fluid and creative experience designed for developers and product designers
+●
+Compatible with agent-based workflows: automates analysis, code generation, and end-to-end execution
+Modality
+Image-Text to Text
+Max. input tokens
+256’000
+Languages
+Multilingual
+Function call
+Yes
+Template category
+code
+Qwen/Qwen3.5-397B-A17B-FP8
+The most powerful
+Beta
+Get started for free
+Consult the API documentation
+●
+Cutting-edge MoE architecture designed for highly complex tasks, offering unmatched precision in scientific reasoning, multi-step planning and tool execution.
+●
+Take advantage of a significantly expanded global knowledge base to better master broad general knowledge and the generation of complex code.
+●
+Outperforms previous models in rigorous intelligence benchmarks.
+Modality
+Image-Text to Text
+Max. input tokens
+200’000
+Languages
+100+ languages
+Function call
+Yes
+Template category
+chat_large
+Get started for free
+Consult the API documentation
+●
+Cutting-edge MoE architecture designed for highly complex tasks, offering unmatched precision in scientific reasoning, multi-step planning and tool execution.
+●
+Take advantage of a significantly expanded global knowledge base to better master broad general knowledge and the generation of complex code.
+●
+Outperforms previous models in rigorous intelligence benchmarks.
+Modality
+Image-Text to Text
+Max. input tokens
+200’000
+Languages
+100+ languages
+Function call
+Yes
+Template category
+chat_large
+Qwen/Qwen3.8-27B-FP8
+The best performance-to-cost ratio
+Beta
+Get started for free
+Consult the API documentation
+●
+Compact and easy-to-deploy model with native visual understanding: analyzes images, dense documents, scientific diagrams, or videos.
+●
+A "thinking" mode is enabled by default, with an adjustable depth level, ensuring reliable execution of complex, multi-step tasks.
+●
+Excellent coding skills, professional work ethic, and the ability to handle long-term, independent tasks.
+Modality
+Image-Text to Text
+Max. input tokens
+100’000
+Languages
+100+ languages
+Function call
+Yes
+Template category
+chat_medium
+Get started for free
+Consult the API documentation
+●
+Compact and easy-to-deploy model with native visual understanding: analyzes images, dense documents, scientific diagrams, or videos.
+●
+A "thinking" mode is enabled by default, with an adjustable depth level, ensuring reliable execution of complex, multi-step tasks.
+●
+Excellent coding skills, professional work ethic, and the ability to handle long-term, independent tasks.
+Modality
+Image-Text to Text
+Max. input tokens
+100’000
+Languages
+100+ languages
+Function call
+Yes
+Template category
+chat_medium
+mistralai/Mistral-Small-4-119B-2603
+Most effective for learning and reasoning
+Get started for free
+Consult the API documentation
+●
+A versatile model capable of switching easily between general instruction and complex reasoning.
+●
+Designed for advanced autonomous workflows and business applications that require maximum reliability and consistency.
+●
+It far outperforms Mistral Small 3 in terms of latency and query throughput.
+Modality
+Image-Text to Text
+Max. input tokens
+256’000
+Languages
+Multilingual
+Function call
+Yes
+Template category
+chat_large
+Get started for free
+Consult the API documentation
+●
+A versatile model capable of switching easily between general instruction and complex reasoning.
+●
+Designed for advanced autonomous workflows and business applications that require maximum reliability and consistency.
+●
+It far outperforms Mistral Small 3 in terms of latency and query throughput.
+Modality
+Image-Text to Text
+Max. input tokens
+256’000
+Languages
+Multilingual
+Function call
+Yes
+Template category
+chat_large
+swiss-ai/Apertus-v1.5-70B
+The most ethical
+Beta
+Get started for free
+Consult the API documentation
+●
+Ideal for government agencies, regulated industries and research organisations that require strict ethical compliance.
+●
+Complete transparency regarding weights and training data, with strict adherence to data owners' consent and privacy.
+●
+Natively understands and analyses text, images and audio files to enable richer and more intuitive interactions.
+Modality
+Image-Audio-Text to Text
+Max. input tokens
+100’000
+Languages
+100+ languages
+Function call
+Yes
+Template category
+chat_medium
+Get started for free
+Consult the API documentation
+●
+Ideal for government agencies, regulated industries and research organisations that require strict ethical compliance.
+●
+Complete transparency regarding weights and training data, with strict adherence to data owners' consent and privacy.
+●
+Natively understands and analyses text, images and audio files to enable richer and more intuitive interactions.
+Modality
+Image-Audio-Text to Text
+Max. input tokens
+100’000
+Languages
+100+ languages
+Function call
+Yes
+Template category
+chat_medium
+google/gemma-4-31B-it
+The perfect balance
+Get started for free
+Consult the API documentation
+●
+The perfect balance between responsiveness and power, designed to excel at logical reasoning, in-depth document analysis and the generation of reliable code.
+●
+Leverages cutting-edge architecture to provide a nuanced understanding of broad contexts and complex instructions.
+●
+Ideal for advanced chatbots and enterprise workflows that require high flexibility without compromising on processing speed.
+Modality
+Text-to-Text (optimised for learning)
+Max. input tokens
+100’000
+Languages
+140+ languages
+Function call
+Yes (native and optimised)
+Template category
+chat_medium
+Get started for free
+Consult the API documentation
+●
+The perfect balance between responsiveness and power, designed to excel at logical reasoning, in-depth document analysis and the generation of reliable code.
+●
+Leverages cutting-edge architecture to provide a nuanced understanding of broad contexts and complex instructions.
+●
+Ideal for advanced chatbots and enterprise workflows that require high flexibility without compromising on processing speed.
+Modality
+Text-to-Text (optimised for learning)
+Max. input tokens
+100’000
+Languages
+140+ languages
+Function call
+Yes (native and optimised)
+Template category
+chat_medium
+mistralai/Ministral-3-14B-Instruct-2512
+The most versatile
+Get started for free
+Consult the API documentation
+●
+Optimised for fast and cost-effective deployment, ideal for chatbots, document analysis and specialised tasks.
+●
+Offers performance comparable to Mistral Small 3.2 24B with minimal resources.
+●
+Capable of analysing images and providing information based on visual content, in addition to text.
+Modality
+Image-Text to Text
+Max. input tokens
+100’000
+Languages
+EN, ES, FR, DE, IT...
+Function call
+Yes
+Template category
+chat_small
+Get started for free
+Consult the API documentation
+●
+Optimised for fast and cost-effective deployment, ideal for chatbots, document analysis and specialised tasks.
+●
+Offers performance comparable to Mistral Small 3.2 24B with minimal resources.
+●
+Capable of analysing images and providing information based on visual content, in addition to text.
+Modality
+Image-Text to Text
+Max. input tokens
+100’000
+Languages
+EN, ES, FR, DE, IT...
+Function call
+Yes
+Template category
+chat_small
+Re-ranking models
+The best compatible open-source alternatives for optimising the relevance of your search results. Refine your document rankings, improve the accuracy of your RAG systems and ensure smarter, more context-aware information retrieval.
+BAAI/bge-reranker-v2-m3
+The most versatile
+Get started for free
+Consult the API documentation
+●
+A state-of-the-art multilingual model capable of processing short queries, paragraphs and long documents of up to 8192 tokens simultaneously
+●
+Combines lexical (keywords) and semantic (meaning) analysis for unrivalled ranking accuracy on complex data sets
+●
+The ideal solution for enterprise search engines and RAG applications that require a deep understanding of context
+Modality
+Text to Text
+Max. input tokens
+8’192
+Languages
+100+ languages
+Function call
+No
+Type
+re-rank
+Get started for free
+Consult the API documentation
+●
+A state-of-the-art multilingual model capable of processing short queries, paragraphs and long documents of up to 8192 tokens simultaneously
+●
+Combines lexical (keywords) and semantic (meaning) analysis for unrivalled ranking accuracy on complex data sets
+●
+The ideal solution for enterprise search engines and RAG applications that require a deep understanding of context
+Modality
+Text to Text
+Max. input tokens
+8’192
+Languages
+100+ languages
+Function call
+No
+Type
+re-rank
+Qwen/Qwen3-Reranker-0.6B
+The most efficient
+Get started for free
+Consult the API documentation
+●
+Ultra-lightweight architecture (0.6 billion parameters) designed for ultra-low-latency inference and minimal power consumption
+●
+Maintains high relevance accuracy, even with a context window expanded up to 32768 tokens
+●
+Ideal for real-time data stream, autonomous agents and large-scale deployments
+Modality
+Text to Text
+Max. input tokens
+32’768
+Languages
+100+ languages
+Function call
+No
+Type
+re-rank
+Get started for free
+Consult the API documentation
+●
+Ultra-lightweight architecture (0.6 billion parameters) designed for ultra-low-latency inference and minimal power consumption
+●
+Maintains high relevance accuracy, even with a context window expanded up to 32768 tokens
+●
+Ideal for real-time data stream, autonomous agents and large-scale deployments
+Modality
+Text to Text
+Max. input tokens
+32’768
+Languages
+100+ languages
+Function call
+No
+Type
+re-rank
+Embedding models
+The best open-source embedding models to transform your data into intelligent vectors. Improve search accuracy, personalise recommendations, simplify data analysis, explore semantic links and easily classify text.
+Qwen/Qwen3-Embedding-8B
+Superior performance for multilingual applications
+Get started for free
+Consult the API documentation
+●
+State-of-the-art embedding model optimised for advanced semantic understanding
+●
+Native support for more than 100 languages with consistent performance
+●
+8B architecture with parameters that provide an optimal balance between precision and efficiency
+●
+32K-token extended context for analysing long and complex documents
+●
+Configurable embedding dimensions up to 4096 for maximum flexibility
+Max. input tokens
+8’192
+Parameters
+8 B
+Dimensions
+4096
+Languages
+EN, ES, FR, DE, IT...
+Type
+Text
+Get started for free
+Consult the API documentation
+●
+State-of-the-art embedding model optimised for advanced semantic understanding
+●
+Native support for more than 100 languages with consistent performance
+●
+8B architecture with parameters that provide an optimal balance between precision and efficiency
+●
+32K-token extended context for analysing long and complex documents
+●
+Configurable embedding dimensions up to 4096 for maximum flexibility
+Max. input tokens
+8’192
+Parameters
+8 B
+Dimensions
+4096
+Languages
+EN, ES, FR, DE, IT...
+Type
+Text
+Bge Multilingual Gemma2
+The highest quality
+Get started for free
+Consult the API documentation
+●
+The most powerful open-source embedding model on the market
+●
+The benchmark for semantic search and augmented search (RAG) tasks
+●
+Ideal for advanced use of embedding vectors in a variety of use cases
+●
+Outstanding performance, whatever language the text is in (100+ languages)
+Max. input tokens
+8’000
+Parameters
+9.2 B
+Dimensions
+3584
+Languages
+EN, ES, FR, DE, IT...
+Type
+Text
+Get started for free
+Consult the API documentation
+●
+The most powerful open-source embedding model on the market
+●
+The benchmark for semantic search and augmented search (RAG) tasks
+●
+Ideal for advanced use of embedding vectors in a variety of use cases
+●
+Outstanding performance, whatever language the text is in (100+ languages)
+Max. input tokens
+8’000
+Parameters
+9.2 B
+Dimensions
+3584
+Languages
+EN, ES, FR, DE, IT...
+Type
+Text
+All MiniLM L12 v2
+The best value for money
+Get started for free
+Consult the API documentation
+●
+This model is the result of community work based on a model published by Microsoft.
+●
+Excellent value for money, perfect for prototyping and simple tasks with limited resources
+●
+Great performance for relatively simple tasks, whatever language the text is in
+●
+Extreme speed for indexing huge databases or real-time processing
+●
+High energy efficiency to reduce environmental impact
+Max. input tokens
+128
+Parameters
+33 M
+Dimensions
+384
+Languages
+EN, ES, FR, DE, IT...
+Type
+Text
+Get started for free
+Consult the API documentation
+●
+This model is the result of community work based on a model published by Microsoft.
+●
+Excellent value for money, perfect for prototyping and simple tasks with limited resources
+●
+Great performance for relatively simple tasks, whatever language the text is in
+●
+Extreme speed for indexing huge databases or real-time processing
+●
+High energy efficiency to reduce environmental impact
+Max. input tokens
+128
+Parameters
+33 M
+Dimensions
+384
+Languages
+EN, ES, FR, DE, IT...
+Type
+Text
+Voice recognition
+The best open source AI for transcribing audio files into text or generating realistic human voices.
+Whisper V3
+For complex transcriptions
+Get started for free
+Consult the API documentation
+●
+Model trained on over 1 million hours of data
+●
+Transcription errors reduced by up to 20% compared with Whisper V2
+●
+Better handling of accents, background noise and complex speech (e.g., calls or videoconferences)
+●
+Enhanced multilingual support and translation of transcriptions into languages other than English
+Maximum file size
+25 MB
+Formats supported
+mp3, mp4, aac, wav, flac, ogg, opus, wma, m4a
+Get started for free
+Consult the API documentation
+●
+Model trained on over 1 million hours of data
+●
+Transcription errors reduced by up to 20% compared with Whisper V2
+●
+Better handling of accents, background noise and complex speech (e.g., calls or videoconferences)
+●
+Enhanced multilingual support and translation of transcriptions into languages other than English
+Maximum file size
+25 MB
+Formats supported
+mp3, mp4, aac, wav, flac, ogg, opus, wma, m4a
+Image generation and processing
+The best open source alternatives to Midjourney, Microsoft Copilot Designer and Gemini for generating, merging or interpreting images.
+Photomaker V2
+Ideal for modifying and merging portraits of people
+Get started for free
+Consult the API documentation
+●
+Create photos in multiple styles from one or more profile photos
+●
+Powerful and flexible: recontextualisation, colourisation, age and gender change, mix of identities, etc.
+Max. input tokens
+77
+Max. image output
+5
+Languages
+EN
+Maximum resolution
+1024x1024, 1792x1024, 1024x1792
+Get started for free
+Consult the API documentation
+●
+Create photos in multiple styles from one or more profile photos
+●
+Powerful and flexible: recontextualisation, colourisation, age and gender change, mix of identities, etc.
+Max. input tokens
+77
+Max. image output
+5
+Languages
+EN
+Maximum resolution
+1024x1024, 1792x1024, 1024x1792
+Flux schnell
+Ideal for generating images
+Get started for free
+Consult the API documentation
+●
+The best combination of quality and speed in generative AI image creation
+●
+Fast generation of photo-realistic images in 1, 2, 4 or 8 steps based on prompts
+●
+Operates by distillation, which increases energy efficiency and ensures excellent quality
+●
+Optimised for English, with limited knowledge of other languages (FR, DE, ES, IT, etc.)
+Max. input tokens
+77
+Max. image input
+6
+Max. image output
+5
+Languages
+EN
+Maximum resolution
+1024x1024, 1792x1024, 1024x1792
+Get started for free
+Consult the API documentation
+●
+The best combination of quality and speed in generative AI image creation
+●
+Fast generation of photo-realistic images in 1, 2, 4 or 8 steps based on prompts
+●
+Operates by distillation, which increases energy efficiency and ensures excellent quality
+●
+Optimised for English, with limited knowledge of other languages (FR, DE, ES, IT, etc.)
+Max. input tokens
+77
+Max. image input
+6
+Max. image output
+5
+Languages
+EN
+Maximum resolution
+1024x1024, 1792x1024, 1024x1792
+Prices do not include VAT
+Infomaniak
+About UsGovernanceInvestorsInfomaniak is recruitingPress & mediaInfomaniak blogAll certificatesProducts & offersStudent programmeMastheadClients' opinions
+Support
+Assistance 7/7FAQ and guidesPremium SupportSales contactAPI RESTWHOISReport abusePublic Cloud statusStatus of the services
+Partnerships
+Become a resellerAffiliate programmeDirectory of partnersQuote requestsInfomaniak Academy
+Ecology
+Green hostingCertificates & awards
+Follow our development
+Votre inscription a été enregistrée avec succès !
+«
+Your email address will be used exclusively to receive Infomaniak’s monthly newsletter and new blog posts. We respect your data and you can unsubscribe at any time.
+EN
+©2026 Infomaniak-
+Legal documents-
+Trust center-
+Legal notice-
+Data Protection-
+Privacy Policy-
+Site map-
+Manage your cookies

@@ -14,8 +14,8 @@
       "status": "belegt",
       "wert": false,
       "quelle": "https://www.dataprivacyframework.gov/list",
-      "geprueft": "2026-10-22",
-      "anmerkung": "Suche in der amtlichen DPF-Liste nach „OpenAI“, „Open AI“, „OpCo“ und „OpenAI OpCo“ am 22.10.2026: 0 Treffer, weder aktiv noch inaktiv. Der Beschluss vom 10.07.2023 deckt Übermittlungen an OpenAI damit nicht. OpenAI nennt selbst Standardvertragsklauseln: DPA 4.1 („on the basis of agreements containing SCCs … or an adequacy decision“; einen Angemessenheitsbeschluss für OpenAI gibt es mangels DPF-Teilnahme nicht) und Unterauftragnehmer-Seite („We use the Standard Contractual Clauses as a valid transfer mechanism among affiliates“). Kopie der Suchantworten + SHA-256 in belege/rechtsraum/dpf-2026-10-22/"
+      "geprueft": "2026-10-25",
+      "anmerkung": "Suche in der amtlichen DPF-Liste nach „OpenAI“, „Open AI“, „OpCo“ und „OpenAI OpCo“ am 22.10.2026: 0 Treffer, weder aktiv noch inaktiv. Der Beschluss vom 10.07.2023 deckt Übermittlungen an OpenAI damit nicht. OpenAI nennt selbst Standardvertragsklauseln: DPA 4.1 („on the basis of agreements containing SCCs … or an adequacy decision“; einen Angemessenheitsbeschluss für OpenAI gibt es mangels DPF-Teilnahme nicht) und Unterauftragnehmer-Seite („We use the Standard Contractual Clauses as a valid transfer mechanism among affiliates“). Kopie der Suchantworten + SHA-256 in belege/rechtsraum/dpf-2026-10-22/. Am 25.10.2026 über die Schnittstelle der Liste von Hand neu abgefragt (Liste geändert am 25.10.): Angaben unverändert, Kopie + SHA-256 in belege/rechtsraum/dpf-2026-10-25/ (die Seite selbst lädt ihren Text erst im Browser, der automatische Quellenlauf sieht nur die Hülle)."
     }
   },
   "modelle": [
@@ -25,21 +25,21 @@
       "preis_input_1m_eur": null,
       "preis_output_1m_eur": null,
       "quelle": "https://help.openai.com/en/articles/9903489-data-residency-and-inference-residency-for-chatgpt",
-      "geprueft": "2026-10-21",
+      "geprueft": "2026-10-24",
       "status": "belegt",
       "anmerkung": "Hilfeartikel (Wayback-Kopie 10.10.2026, Stand ca. 04.10.2026): „Eligible API customers and new ChatGPT Enterprise/Edu customers can choose to have in-scope customer content stored at rest in supported countries.“ „Non-GPU processing may still occur globally.“ Nicht abgedeckt u. a.: „Account data, billing details, high-level usage statistics, logs without content, and other metadata used to operate and secure the service.“ sowie Apps & MCP, Websuche, Beta-Funktionen, Drittanbieter-GPTs, Codex Web. DPA 4.1: „Customer hereby instructs OpenAI Ireland Limited to process any EEA and Swiss Data in compliance with this DPA.“ ChatGPT Business: keine Data-Residency-Zusage gefunden (unbelegt). Drittanbieter-Modelle werden nicht genannt (unbelegt). Preis je Nutzerlizenz, nicht je Token, hier nicht erfasst.",
       "backup_standort": {
         "wert": "Nur bei Data Residency: Backups und Replikate in der Region",
         "status": "belegt",
         "quelle": "https://help.openai.com/en/articles/9903489-data-residency-and-inference-residency-for-chatgpt",
-        "geprueft": "2026-10-21",
+        "geprueft": "2026-10-24",
         "anmerkung": "Hilfeartikel: „Backups and replicas of in-scope customer content are also stored in-region.“ Ohne Data Residency (und für Business) nennt OpenAI keinen Backup-Ort; die Security Measures sagen nur „Ensuring that systems may be restored in the event of an interruption;“."
       },
       "vorgeschaltete_filter": {
         "wert": true,
         "status": "belegt",
         "quelle": "https://web.archive.org/web/20261002004812/https://openai.com/enterprise-privacy/",
-        "geprueft": "2026-10-21",
+        "geprueft": "2026-10-23",
         "anmerkung": "Enterprise-Privacy-Seite (Wayback-Kopie 02.10.2026, „Updated: January 8, 2026“): „We may run any business data submitted to OpenAI’s services through automated content classifiers and safety tools, including to better understand how our services are used.“ Subprozessorliste: Markierte Inhalte können als Stichproben an Moderations-Dienstleister gehen. Einzelheiten der Klassifikatoren nennt OpenAI nicht."
       }
     }
@@ -49,126 +49,169 @@
       "wert": "https://web.archive.org/web/20261020000721/https://openai.com/policies/data-processing-addendum/",
       "status": "belegt",
       "quelle": "https://web.archive.org/web/20261020000721/https://openai.com/policies/data-processing-addendum/",
-      "geprueft": "2026-10-21",
+      "geprueft": "2026-10-25",
       "anmerkung": "„OpenAI Data Processing Addendum“, „Effective: January 1, 2026“ (Wayback-Kopie 20.10.2026; direkt HTTP 403). Gilt für ChatGPT Business, ChatGPT Enterprise und die API. DPA 1.1: „OpenAI acts as a Data Processor on the Customer’s behalf, and this DPA governs such Processing.“ Abschluss laut Enterprise-Privacy-Seite über ein Formular: „Please complete our DPA form to execute a DPA with OpenAI.“"
     },
     "subprozessoren": {
       "wert": "https://web.archive.org/web/20260708120959/https://openai.com/policies/sub-processor-list/",
       "status": "belegt",
       "quelle": "https://web.archive.org/web/20260708120959/https://openai.com/policies/sub-processor-list/",
-      "geprueft": "2026-10-21",
+      "geprueft": "2026-10-25",
       "anmerkung": "Liste „Last updated: June 2, 2026“, letzte lesbare Archivkopie 08.07.2026; die Kopie vom 20.10.2026 enthält nur die 403-Seite, ob sich die Liste seitdem geändert hat, ist ungeklärt. Genannt u. a. Microsoft, CoreWeave, Oracle, Google Cloud, AWS, Cerebras (Cloud-Infrastruktur), Cloudflare, Snowflake, TaskUs und Accenture (Support, bei Business auch „Moderation of content“), Cinder (Moderationsplattform). Kein anderer KI-Modellanbieter. DPA 2.9: Mitteilung „via blog post, notification within the Services or other reasonable means“; Widerspruch „within 30 days of receiving notice of the change“. Eine Vorlaufzeit vor dem Einsatz nennt das DPA nicht."
+    },
+    "tom": {
+      "wert": "https://openai.com/business-data/",
+      "status": "belegt",
+      "quelle": "https://openai.com/business-data/",
+      "geprueft": "2026-10-24",
+      "anmerkung": "Die Seite beschreibt Maßnahmen selbst: „This includes using AES-256 encryption at rest and TLS 1.2 or higher in transit.“ Dazu 24/7-Bereitschaft, Red-Team-Prüfungen durch Dritte und eigene Schlüsselverwaltung (EKM). Das ausführlichere ChatGPT Security Whitepaper liegt nur im Trust Portal (trust.openai.com) und war ohne JavaScript nicht abrufbar; das DPA verweist in Ziffer 2.5 nur auf das „Agreement“."
+    },
+    "subprozessoren_anzahl": {
+      "wert": 22,
+      "status": "belegt",
+      "quelle": "https://openai.com/policies/sub-processor-list/",
+      "geprueft": "2026-10-23",
+      "anmerkung": "Liste „Last updated: October 14, 2026“, in diesem Lauf live von openai.com abgerufen (web.archive.org hat den Abruf gesperrt). Sie hat 17 Drittanbieter-Zeilen plus 5 konzerninterne „OpenAI entities“ = 22; Cloudflare steht in zwei Zeilen (CDN und Web Hosting). Unterschied ChatGPT Business: Pylon Labs gilt nur für „ChatGPT Enterprise, ChatGPT Edu“, also 21 für Business. Am 25.10.2026 an der Archivkopie vom 21.10.2026 bestätigt (web.archive.org/web/20261021154629/https://openai.com/policies/sub-processor-list/)."
+    },
+    "drittlaender": {
+      "wert": [
+        "Australien",
+        "Brasilien",
+        "Indien",
+        "Indonesien",
+        "Japan",
+        "Kanada",
+        "Malaysia",
+        "Mexiko",
+        "Neuseeland",
+        "Philippinen",
+        "Schweiz",
+        "Singapur",
+        "Südafrika",
+        "Südkorea",
+        "USA",
+        "Vereinigte Arabische Emirate",
+        "Vereinigtes Königreich"
+      ],
+      "status": "belegt",
+      "quelle": "https://openai.com/policies/sub-processor-list/",
+      "geprueft": "2026-10-23",
+      "anmerkung": "Vereinigung aller „Location of Processing“-Angaben der Zeilen, die für ChatGPT Enterprise gelten, z. B. TaskUs: „Philippines“. Cloudflare-CDN verarbeitet „at the data center that is closest to the End User“, also ohne festes Land. Für Schweiz und UK gibt es Angemessenheitsbeschlüsse; für Business gilt dieselbe Länderliste."
     },
     "training_opt_out": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://web.archive.org/web/20261002004812/https://openai.com/enterprise-privacy/",
-      "geprueft": "2026-10-21",
-      "anmerkung": "Enterprise-Privacy-Seite: „By default, data from ChatGPT Business, ChatGPT Enterprise, ChatGPT for Healthcare, ChatGPT Edu, ChatGPT for Teachers, and the API Platform (after March 1, 2023) isn’t used for training our models, unless you have explicitly opted in“. Services Agreement 4.2: „OpenAI will not use Customer Content to develop or improve the Services, unless Customer explicitly agrees to such use.“"
+      "geprueft": "2026-10-23",
+      "anmerkung": "Enterprise-Privacy-Seite: „By default, data from ChatGPT Business, ChatGPT Enterprise, ChatGPT for Healthcare, ChatGPT Edu, ChatGPT for Teachers, and the API Platform (after March 1, 2023) isn’t used for training our models, unless you have explicitly opted in“. Services Agreement 4.2: „OpenAI will not use Customer Content to develop or improve the Services, unless Customer explicitly agrees to such use.“ Widerspruchs-Scan 23.10.2026: Die Werbeseite chatgpt.com/business/enterprise (Archivkopie 22.10.2026 23:13 UTC) sagt in der Überschrift „We never train on your data and your data is secure“, im Satz darunter „is not used to train our models by default“. Die Enterprise-Privacy-Seite nennt den Weg, auf dem es doch geschieht: „If you have explicitly opted in to share your data with us (for example, through our opt-in feedback mechanisms ) to improve our services, then we may use the shared data to train our models.“ Services Agreement 9.3: „If Customer provides Feedback, Customer grants OpenAI the right to use and exploit Feedback without restriction or compensation.“ Ob ein Daumen-hoch/runter einzelner Nutzer als Opt-in des Kunden zählt, ist ungeklärt."
     },
     "zero_data_retention": {
       "wert": false,
       "status": "belegt",
       "quelle": "https://web.archive.org/web/20261002004812/https://openai.com/enterprise-privacy/",
-      "geprueft": "2026-10-21",
+      "geprueft": "2026-10-23",
       "anmerkung": "Enterprise: „Your workspace admins control how long your data is retained. Any deleted conversations are removed from our systems within 30 days, unless we are legally required to retain them.“ Standard laut OpenAI Academy (17.09.2026): „By default, chats are saved indefinitely to the user’s account until they delete them.“ Eigene Frist „with a minimum of 90 days“. Business zusätzlich: „or is reasonably necessary to protect our services or any third party from harm.“ Work Cloud: „Local computer access with Work Cloud does not provide strict zero data retention.“"
     },
     "zweckbindung": {
       "wert": true,
       "status": "belegt",
       "quelle": "https://openai.com/policies/business-terms/",
-      "geprueft": "2026-10-21",
-      "anmerkung": "Services Agreement 4.2 (Wayback-Kopie 08.10.2026, gültig ab 01.01.2026): „OpenAI will only use Customer Content as necessary to provide Customer with the Services, comply with applicable law, enforce the OpenAI Policies, and prevent abuse.“ DPA 1.2: „OpenAI will only Process Customer Data for the purposes of delivering the Services to Customer pursuant to the Agreement and this DPA.“ Offen: Klassifikatoren laufen auch „to better understand how our services are used“ (Metadaten, Umfang ungeklärt); Feedback darf OpenAI „without restriction or compensation“ nutzen (9.3)."
+      "geprueft": "2026-10-25",
+      "anmerkung": "Services Agreement 4.2 (Wayback-Kopie 08.10.2026, gültig ab 01.01.2026): „OpenAI will only use Customer Content as necessary to provide Customer with the Services, comply with applicable law, enforce the OpenAI Policies, and prevent abuse.“ DPA 1.2: „OpenAI will only Process Customer Data for the purposes of delivering the Services to Customer pursuant to the Agreement and this DPA.“ Offen: Klassifikatoren laufen auch „to better understand how our services are used“ (Metadaten, Umfang ungeklärt); Feedback darf OpenAI „without restriction or compensation“ nutzen (9.3). Am 25.10.2026 nachgeprüft: keine neuere Archivkopie der Business Terms als 08.10.2026 (CDX), live HTTP 403; beide Sätze stehen in den gesicherten Kopien weiter wörtlich. Enterprise-Privacy-Seite (Archivkopie 22.10.2026, „Updated: January 8, 2026“): „We only receive rights in input and output necessary to provide you with our services, comply with applicable law, and enforce our policies.“"
     },
     "betroffenenrechte_traeger": {
       "wert": "auftraggeber",
       "status": "belegt",
       "quelle": "https://web.archive.org/web/20261020000721/https://openai.com/policies/data-processing-addendum/",
-      "geprueft": "2026-10-21",
+      "geprueft": "2026-10-25",
       "anmerkung": "DPA 2.4: „OpenAI will not respond to any such request without Customer’s prior written authorization, except that Customer authorizes OpenAI to redirect Data Subject Requests as necessary to allow Customer to respond directly.“"
     },
     "log_frist": {
       "wert": null,
       "status": "unbelegt",
       "quelle": null,
-      "geprueft": "2026-10-21",
-      "anmerkung": "Für ChatGPT Enterprise und Business nennt OpenAI keine Frist für Missbrauchs- oder Sicherheitsprotokolle. Die 30 Tage Missbrauchsprotokolle gelten laut OpenAI für die API, nicht für ChatGPT. Enterprise: „Authorized OpenAI employees will only ever access your conversations for the purposes of resolving incidents, recovering end user conversations with your explicit permission, or where required by applicable law.“ Business dagegen: Zugriff auch durch „specialized third-party contractors … solely to review for abuse and misuse“."
+      "geprueft": "2026-10-25",
+      "anmerkung": "Für ChatGPT Enterprise und Business nennt OpenAI keine Frist für Missbrauchs- oder Sicherheitsprotokolle. Die 30 Tage Missbrauchsprotokolle gelten laut OpenAI für die API, nicht für ChatGPT. Enterprise: „Authorized OpenAI employees will only ever access your conversations for the purposes of resolving incidents, recovering end user conversations with your explicit permission, or where required by applicable law.“ Business dagegen: Zugriff auch durch „specialized third-party contractors … solely to review for abuse and misuse“. Am 25.10.2026 in der Enterprise-Privacy-Seite (Archivkopie 22.10.2026) nachgelesen: weiter keine Frist für Missbrauchs- oder Sicherheitsprotokolle; genannt ist nur „Any deleted conversations are removed from our systems within 30 days, unless we are legally required to retain them.“"
     },
     "log_zweck": {
       "wert": "Sicherheit und Erkennung (intern); für Kunden Compliance-Protokolle für eDiscovery, DLP, SIEM (Enterprise/Edu, 30 Tage vorgehalten)",
       "status": "belegt",
       "quelle": "https://help.openai.com/en/articles/9261474-compliance-api-for-enterprise-customers",
-      "geprueft": "2026-10-21",
+      "geprueft": "2026-10-24",
       "anmerkung": "Compliance-API-Artikel (Wayback-Kopie 11.08.2026): „The Compliance Logs Platform retains data for 30 days.“ und „This API does not provide the capability for deleting any data logged internally specifically for audit or security within OpenAI.“ Security Measures: „OpenAI aggregates system logs for security and general observability from a range of systems to facilitate detection and response;“. Fristen interner Protokolle nennt OpenAI nicht."
     }
   },
   "zertifikate": [
     {
       "typ": "ISO 27001",
-      "status": "beansprucht",
-      "quelle": "https://trust.openai.com/",
-      "geprueft": "2026-10-21",
-      "anmerkung": "Trust-Portal: „OpenAI has received an ISO/IEC 27001 Certificate, available for public viewing at trust.openai.com under \"Documents.\"“ Ohne Konto öffnet der Klick aber nur eine Login-Anfrage; das Zertifikat wurde nicht eingesehen. SOC-2-Bericht nur auf Anfrage.",
+      "status": "belegt",
+      "quelle": "https://integrator.schellman.com/public/v2/certificate/1404936-2/file",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Zertifikat selbst eingesehen (Schellman Nr. 1404936-2, ISO/IEC 27001:2022 und ISO/IEC 27701:2019, Inhaber OpenAI, OpCo, LLC, gültig bis 07.08.2028), öffentlich im Zertifikatsverzeichnis von Schellman; im Trust-Portal von OpenAI nur mit Konto. ChatGPT Enterprise steht in der Produktübersicht, auf die der Geltungsbereich verweist, mit Haken bei ISO/IEC 27001:2022 und ISO/IEC 27701:2019 (Wayback-Kopie 08.10.2026). Ausgestellt 21.08.2026, erstmals 08.08.2025, gültig bis 07.08.2028; Standorte San Francisco (1960 Bryant Street, ISMS) und Dublin (St Stephen's Green, PIMS). 27017/27018 nur als zusätzliche Maßnahmen („aligns with the control implementation guidance and additional control sets of ISO/IEC 27017:2015 and ISO/IEC 27018:2025“), kein eigenes Zertifikat. Widerspruchs-Scan 23.10.2026: Die Sicherheitsseite openai.com/security-and-privacy (Archivkopie 22.10.2026) überschreibt den Abschnitt „ISO 27001, 27017, 27018, and 27701“ und spricht von „ISO/IEC 27001:2022 and ISO/IEC 27701:2019 certifications“. Laut Trust-Portal ist es ein Zertifikat nach 27001, dessen Umsetzung zusätzlich „conforms to additional control sets of ISO/IEC 27017:2015 and ISO/IEC 27018:2019 and extends to include the PIMS requirements … of ISO/IEC 27701:2019“. 27017 und 27018 sind Leitfäden ohne eigenes Zertifikat (das Zertifikat selbst nennt 27018 in der Fassung 2025 und deckt 27701 mit ab); kein Widerspruch, aber die Überschrift liest sich nach vier Zertifikaten.",
       "anwendungsbereich": {
-        "wert": "OpenAI API, ChatGPT Enterprise, ChatGPT Edu (laut Übersicht vom 04.08.2026 auch Healthcare, Teachers, Codex); ChatGPT Business nicht",
+        "wert": "Produkte aus OpenAIs Tabelle „Product compliance status“ (Version 1.1, 04.08.2026), darunter ChatGPT Enterprise; ausdrücklich nicht ChatGPT Business, Beta-Dienste, Verbraucherdienste",
         "status": "belegt",
-        "quelle": "https://trust.openai.com/",
-        "geprueft": "2026-10-21",
-        "anmerkung": "Trust-Portal: „… ISO/IEC 27001:2022 for OpenAI’s API, ChatGPT Enterprise, and ChatGPT Edu services.“ Produktübersicht (Wayback-Kopie 08.10.2026, „Updated August 4, 2026“): Zeile „ChatGPT Business“ nur mit Haken bei „SOC 2 Type 2“, leer bei ISO/IEC 27001:2022. Das Zertifikat selbst wurde nicht eingesehen."
+        "quelle": "https://integrator.schellman.com/public/v2/certificate/1404936-2/file",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Zertifikat: „The Information Security Management System (ISMS) and Privacy Information Management System (PIMS) of OpenAI and its affiliate companies encompass the people, processes, and technologies used to develop, deploy, operate, and secure OpenAI products and services provided to organizations and API users. The certified scope includes the products listed in the “Product compliance status” table at https://openai.com/product-compliance-status, version 1.1, last updated August 4, 2026. … The scope does not include ChatGPT Business, Beta Services, consumer services …“"
       },
       "zertifizierer": {
-        "wert": "Schellman",
-        "status": "beansprucht",
-        "quelle": "https://trust.openai.com/",
-        "geprueft": "2026-10-21",
-        "anmerkung": "Nur in den eingebetteten Seitendaten des Trust-Portals („auditor“:„Schellman“ beim Eintrag ISO/IEC 27001:2022), nicht im sichtbaren Text und nicht im Zertifikat geprüft. Sichtbarer Text: „evaluated by an independent third-party auditor“."
+        "wert": "Schellman Compliance, LLC (Tampa, USA)",
+        "status": "belegt",
+        "quelle": "https://integrator.schellman.com/public/v2/certificate/1404936-2/file",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Zertifikat Nr. 1404936-2 (Version 2), öffentlich im Zertifikatsverzeichnis von Schellman (www.schellman.com/certificate-directory, Abruf 25.10.2026): „The Certification Body of Schellman Compliance, LLC hereby confirms … that the following organization operates an Information Security Management System and Privacy Information Management System that conforms to the requirements of ISO/IEC 27001:2022 and ISO/IEC 27701:2019“, Inhaber „OpenAI, OpCo, LLC“, unterzeichnet von Danny Manimbo, Managing Principal."
       },
       "akkreditiert_dakks": {
-        "wert": null,
-        "status": "unbelegt",
-        "quelle": null,
-        "geprueft": "2026-10-21",
-        "anmerkung": "OpenAI nennt keine Akkreditierungsstelle. Schellman schreibt auf seiner Seite, für ISO 27001 von ANAB (USA) und UKAS (Großbritannien) akkreditiert zu sein; welche auf OpenAIs Zertifikat steht, ist ungeklärt."
+        "wert": false,
+        "stelle": "ANAB (USA)",
+        "stelle_ea_mla": false,
+        "status": "belegt",
+        "quelle": "https://anabdirectory.remoteauditor.com/",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Nicht DAkkS, aber akkreditiert durch ANAB (ANSI National Accreditation Board, USA; IAF-MLA, gleichwertig anerkannt). Das Zertifikat trägt das ANAB-Zeichen. ANAB-Verzeichnis der Zertifizierungsstellen (Suche „Schellman“, Norm ISO/IEC 27001, Abruf 25.10.2026): „Schellman-MS-3780 - Schellman Compliance, LLC“, „Accredited To: ISO 14001, ISO 22301, ISO 45001, ISO 9001, ISO/IEC 20000-1, ISO/IEC 27001, ISO/IEC 27701, ISO/IEC 42001“. Schellman nennt auf seiner Seite zusätzlich UKAS für ISO 27001; auf diesem Zertifikat steht nur ANAB."
       }
     },
     {
       "typ": "ISO/IEC 42001",
-      "status": "beansprucht",
-      "quelle": "https://trust.openai.com/",
-      "geprueft": "2026-10-21",
-      "anmerkung": "KI-Managementsystem. Das Trust-Portal führt ISO 42001 mit Logo im Pfad „certifications/schellman/…“; Zertifikat und Geltungsbereich ohne Login nicht einsehbar.",
+      "status": "belegt",
+      "quelle": "https://integrator.schellman.com/public/v2/certificate/1764566-1/file",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Zertifikat selbst eingesehen (Schellman Nr. 1764566-1, ISO/IEC 42001:2023, Inhaber OpenAI, OpCo, LLC, gültig bis 10.12.2028), öffentlich im Zertifikatsverzeichnis von Schellman; im Trust-Portal von OpenAI nur mit Konto. Der Geltungsbereich nennt API, ChatGPT Business, Enterprise und Edu ausdrücklich.",
       "anwendungsbereich": {
-        "wert": null,
-        "status": "unbelegt",
-        "quelle": "https://trust.openai.com/",
-        "geprueft": "2026-10-21",
-        "anmerkung": "Geltungsbereich ohne Login nicht einsehbar."
+        "wert": "KI-Managementsystem für Entwicklung und Betrieb von OpenAIs Modellen und Produkten, ausdrücklich auch API, ChatGPT Business, Enterprise und Edu",
+        "status": "belegt",
+        "quelle": "https://integrator.schellman.com/public/v2/certificate/1764566-1/file",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Zertifikat: „The scope of the ISO/IEC 42001:2023 certification is limited to the artificial intelligence management system (AIMS) supporting the development and deployment of OpenAI's models and products - including consumer offerings (ChatGPT, Sora) and business offerings (API, ChatGPT Business, Enterprise, and Edu) - in OpenAI's role of an AI producer, AI developer, and AI provider …“ Ausgestellt 11.12.2025, gültig bis 10.12.2028, Standort San Francisco (1455 3rd Street)."
       },
       "zertifizierer": {
-        "wert": null,
-        "status": "unbelegt",
-        "quelle": "https://trust.openai.com/",
-        "geprueft": "2026-10-21",
-        "anmerkung": "Zertifizierungsstelle nicht öffentlich lesbar."
+        "wert": "Schellman Compliance, LLC (Tampa, USA)",
+        "status": "belegt",
+        "quelle": "https://integrator.schellman.com/public/v2/certificate/1764566-1/file",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Zertifikat Nr. 1764566-1, öffentlich im Zertifikatsverzeichnis von Schellman (Abruf 25.10.2026): „The Certification Body of Schellman Compliance, LLC hereby certifies that the following organization operates an Artificial Intelligence Management System that conforms to the requirements of ISO/IEC 42001:2023“, Inhaber „OpenAI, OpCo, LLC“."
       },
       "akkreditiert_dakks": {
-        "wert": null,
-        "status": "unbelegt",
-        "quelle": "https://trust.openai.com/",
-        "geprueft": "2026-10-21",
-        "anmerkung": "Akkreditierung nicht geprüft, Zertifikat nicht lesbar."
+        "wert": false,
+        "stelle": "ANAB (USA)",
+        "stelle_ea_mla": false,
+        "status": "belegt",
+        "quelle": "https://anabdirectory.remoteauditor.com/",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Nicht DAkkS, aber akkreditiert durch ANAB (ANSI National Accreditation Board, USA; IAF-MLA, gleichwertig anerkannt). Das Zertifikat trägt das ANAB-Zeichen. ANAB-Verzeichnis der Zertifizierungsstellen (Suche „Schellman“, Norm ISO/IEC 42001, Abruf 25.10.2026): „Schellman-MS-3780 - Schellman Compliance, LLC“, „Accredited To: ISO 14001, ISO 22301, ISO 45001, ISO 9001, ISO/IEC 20000-1, ISO/IEC 27001, ISO/IEC 27701, ISO/IEC 42001“. Schellman nennt auf seiner Seite zusätzlich UKAS für ISO 27001; auf diesem Zertifikat steht nur ANAB."
       }
     }
   ],
   "iso_42001": {
-    "status": "beansprucht",
+    "status": "belegt",
     "wert": true,
-    "zertifizierer": null,
-    "anwendungsbereich": null,
-    "quelle": "https://trust.openai.com/",
-    "geprueft": "2026-10-21",
-    "anmerkung": "Das Trust-Portal führt ISO 42001 mit Logo im Pfad „certifications/schellman/…“; Zertifikat und Geltungsbereich ohne Login nicht einsehbar."
+    "zertifizierer": "Schellman Compliance, LLC (Tampa, USA), ANAB-akkreditiert",
+    "anwendungsbereich": "KI-Managementsystem für Entwicklung und Betrieb von OpenAIs Modellen und Produkten, ausdrücklich auch API, ChatGPT Business, Enterprise und Edu",
+    "quelle": "https://integrator.schellman.com/public/v2/certificate/1764566-1/file",
+    "geprueft": "2026-10-25",
+    "anmerkung": "Zertifikat Nr. 1764566-1 (ISO/IEC 42001:2023, Inhaber OpenAI, OpCo, LLC, ausgestellt 11.12.2025, gültig bis 10.12.2028), öffentlich im Zertifikatsverzeichnis von Schellman (Abruf 25.10.2026); im Trust-Portal von OpenAI nur mit Konto. Geltungsbereich: „… including consumer offerings (ChatGPT, Sora) and business offerings (API, ChatGPT Business, Enterprise, and Edu) …“"
   },
   "ai_act": [],
-  "geprueft": "2026-10-21"
+  "geprueft": "2026-10-23"
 }

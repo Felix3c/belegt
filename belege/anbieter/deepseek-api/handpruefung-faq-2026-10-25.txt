@@ -1,0 +1,54 @@
+Handprüfung Hilfe-Center DeepSeek (FAQ), 25.10.2026 ~12:55 MEZ (Dauerlauf)
+Grund: Quellenlauf ist bei https://static.deepseek.com/faq/index.html?lang=en#/question/cooperation-agreement blind (HTML-Hülle 2 Wörter, Block DÜNN seit 25.10.).
+Betrifft deepseek-api: vertrag.avv (Quelle diese Seite; Zitate „self-service and standardized model“, „standard framework agreement and cannot be modified“, „log in to the 「Bank Transfer」page“).
+Methode wie Anthropic/Mistral/BFL 25.10.: Chrome headless (--headless=new --virtual-time-budget=20000 --dump-dom), Text aus dem DOM (allein/tmp/hand-anthropic-2510/txt.py).
+Vergleichsstand: faq-kooperationsvertrag-2026-10-23.txt und faq-api-fragenliste-2026-10-23.txt (innerText-Render 23.10.).
+eb41d1218760bc1512f3b4b500d0c05b8b30f9b1b952e230f1e5baf6852b632d *roh-koop.html
+9cbd871a30f161481bffbbb4af838f83027c9be6975d62b47e01c51601fcc5a0 *roh-kat4.html
+ef8c960e4deefab8ab290ae24b4c6f5968c01b1ed7b9310f3ccd3114b0962ac1 *neu-koop.txt
+358e197e487e680d3669cd9ccdfb9cefcabe41ac0b189746af984e29cb96b85e *neu-kat4.txt
+
+Ergebnis: Beide Seiten nach Leerzeichen-Angleichung (Zeilenumbrüche um Hervorhebungen, Seitentitel „DeepSeek FAQ“) wortgleich mit dem 23.10.
+Frage zum Kooperationsvertrag: 501 Zeichen, gleich. API-Fragenliste: 16 Fragen, gleich (689 Zeichen).
+Folge: Status „unbelegt“, Wert und Zitate unverändert; ein Satz „von Hand gerendert 25.10.“ in der Anmerkung.
+
+===== Text Kooperationsvertrag (gerendert 25.10.2026) =====
+DeepSeek FAQ
+Help Center
+API
+Do you support signing cooperation agreements?
+DeepSeek API is provided via a self-service and standardized model. If you have specific offline agreement needs (such as
+app filing
+or
+enterprise vendor onboarding
+), please fill out a
+「Cooperation Agreement Application」
+ticket and submit the relevant information. We will assist you with the request.
+Note: The agreement is a standard framework agreement and cannot be modified. To view it, please log in to the
+「Bank Transfer」
+page to download the template.
+
+===== Text API-Fragenliste (gerendert 25.10.2026) =====
+DeepSeek FAQ
+Help Center
+Login Issues
+User Guide
+Chat Issues
+API
+How to Top Up?
+Incorrect Top-up Balance
+Does the balance expire?
+Is a refund possible?
+How to request an invoice
+Can usage details be added to the invoice?
+How to view usage by API Keys
+What to do if your API Key is leaked
+Do you support signing cooperation agreements?
+Are there plans with higher rate limits?
+Real-Name Verification Failed
+What is the difference between Personal and Enterprise Real-Name Verification?
+Can a Personal Account be changed to an Enterprise Verified Account?
+Can an Enterprise Verified Account be changed to a Personal Account?
+How can an enterprise-verified account update its verified company name？
+Why does the API keep returning empty lines?
+Send feedback

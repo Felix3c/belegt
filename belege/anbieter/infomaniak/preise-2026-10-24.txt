@@ -1,0 +1,267 @@
+Quelle: https://www.infomaniak.com/en/hosting/ai-services/prices
+Abruf: 2026-10-24 08:25 +0200 (curl direkt, HTTP 200; robots.txt von www.infomaniak.com erlaubt die Pfade, welcome.infomaniak.com hat keine robots.txt). SHA-256 der Rohseite: 680fb25a7ba6448eee505860139b2f5226dab27611aaad3225fe2f8d01c45b60
+Inhalt: Preisseite AI Services mit FAQ (englisch), ganzer Seitentext
+
+AI service - the best open-source alternatives to ChatGPT | Infomaniak
+Cloud Computing
+Our products
+Collaborative tools
+Web & Domains
+Cloud Computing
+Events & Marketing
+Streaming
+kDrive
+Store, collaborate and share your files
+kChat
+Communicate live with your teams
+SwissTransfer
+Send your files up to 50 GB free of charge
+Custom Brand
+Control the brand image of your products
+Mail Service
+Create your email addresses with your domain
+kMeet
+Organise your meetings online in complete security
+kPaste
+Share and encrypt your sensitive information
+Chk
+Link reducer & QR code generator
+Collaborative suite
+Discover the collaborative suite
+kSuite
+PRO
+For organisations that want to collaborate in a 100% sovereign ecosystem
+kSuite
+For individuals who want an ethical email address, drive and AI, free for life
+Euria, the ethical AI
+The sovereign AI assistant that respects privacy and the planet.
+Find the web hosting solution you need
+Compare our web hosting solutions
+Domain Name
+Reserve your domain name at the best price
+Web Hosting
+Create your website with over 100 CMS
+Cloud Server
+Power up your sites with guaranteed resources
+SSL Certificates
+Secure your websites with an EV or DV certificate
+Site Creator
+Create your website with ease
+Wordpress Hosting
+Create your WordPress website easily
+Node.js Hosting
+Create a dynamic, interactive site with Node.js
+Options
+Domain Privacy
+Protect your domains’ private data
+FastAnycast DNS
+Speed up your site access times
+DynDNS
+Access your devices remotely
+Renewal Warranty
+Secure your domains against loss and theft
+Cloud services
+Cloud Computing
+Build the cloud infrastructure that meets your needsCompare our solutions
+Public Cloud (IaaS)
+Create your projects in a high-end, ultra-competitive Cloud
+VPS Cloud
+Create a Windows / Linux server
+Kubernetes Service
+Deploy containerised apps on a large scale
+GPU Cloud
+Run your AI projects, perform intensive computations or rendering jobs using GPU machines
+VPS Lite
+Create a Windows/Linux server at a low cost
+Database Service
+Manage your databases with a managed solution
+Jelastic Cloud (PaaS)
+Create your own customised environments
+Other services
+AI Services
+Boost your productivity with our sovereign AI
+Swiss Backup
+Back up your devices in the Cloud
+NAS Synology
+Rent a NAS in our secure data centers
+Very High Availability
+Create a multi-data center infrastructure with customised SLAs
+Housing
+Install your servers in our data centers
+Auth
+Add a privacy-friendly login method to your apps
+Infomaniak Events, the independent local events portal
+Online ticketing service with a wide choice of concerts, shows and events.
+Discover all the events
+Ticketing
+Create your ticketing service and sell tickets
+Access Control
+Control access to your events with ease
+Guest manager
+Automate your event invitations
+Newsletter
+Send your newsletters at competitive prices
+Radio Streaming
+Create and broadcast your own live radio station online
+Video-Streaming
+Create and broadcast live events and TV online
+VOD & AOD service
+Host and broadcast your recordings without limits
+Resources
+DocumentationGuides & tutorialsAPI documentation
+Special offersGet started for freeStudent programmeBecome an affiliate
+Partner programmeFind a partnerBecome a partnerInfomaniak Academy
+Support & contactContact SupportPremium support - 24/7Contact our sales departmentHiring an expertMigrate to Infomaniak
+Investors
+About us
+Infomaniak’s values
+Responsibility, Social and Local
+Digital sovereignty
+Long-term commitment
+About InfomaniakAbout usGovernanceInfomaniak is recruitingBlog and newsImpact report 2024
+Your securityData confidentialityBug Bounty ProgramTrust center
+Get started for freeLog in
+AI Services
+OverviewModelsPrices
+Get started for free
+Simple and flexible pricing
+Pay only for what you use with no commitment period, and guarantee your data confidentiality with the best open source AI.Get started with 1M free credits
+LLM↓
+Embedding↓
+Audio↓
+Image↓
+Interact, analyse and generate content with AI
+google/gemma-4-31B-it
+Input token:
+CHF
+0.20 / 1M tokens
+Output token:
+CHF
+0.40 / 1M tokens
+mistralai/Ministral-3-14B-Instruct-2512
+Input token:
+CHF
+0.30 / 1M tokens
+Output token:
+CHF
+0.40 / 1M tokens
+moonshotai/Kimi-K2.6
+Input token:
+CHF
+0.60 / 1M tokens
+Output token:
+CHF
+3.00 / 1M tokens
+mistralai/Mistral-Small-4-119B-2603
+Input token:
+CHF
+0.20 / 1M tokens
+Output token:
+CHF
+0.75 / 1M tokens
+Qwen/Qwen3.5-397B-A17B-FP8
+Input token:
+CHF
+0.80 / 1M tokens
+Output token:
+CHF
+3.60 / 1M tokens
+swiss-ai/Apertus-v1.5-70B
+Input token:
+CHF
+0.70 / 1M tokens
+Output token:
+CHF
+2.50 / 1M tokens
+Qwen/Qwen3.8-27B-FP8
+Input token:
+CHF
+0.40 / 1M tokens
+Output token:
+CHF
+3.00 / 1M tokensWhat is a token?
+Boost your research with open source
+BAAI/bge-reranker-v2-m3
+Input token:
+CHF
+0.01 / 1M tokens
+Qwen/Qwen3-Reranker-0.6B
+Input token:
+CHF
+0.009 / 1M tokensWhat is a token?
+Transform your data into semantic vectors
+Bge Multilingual Gemma2
+Text embedding vector generation
+CHF
+0.065 /1M tokens
+All MiniLM L12 v2
+Text embedding vector generation
+Free
+Qwen/Qwen3-Embedding-8B
+Text embedding vector generation
+CHF
+0.07 /1M tokens
+Transcribe audio files into text with AI
+Whisper V3
+Voice recognition
+CHF
+0.006 /minuteHow does per-minute billing work?
+Generate images from text with AI
+Flux schnell
+Image generation from text
+CHF
+0.30 /minute
+Photomaker V2
+Personalise realistic human photos based on images and text
+CHF
+0.30 /minuteHow does per-minute billing work?
+Do you have any questions or doubts?
+We’ve compiled the questions we’re often asked – see below.
+Is it possible to train AI Services using custom data?
+We don’t currently offer the option of training our AI Services using custom data.
+Can I use AI Services to sell services through my company?
+Yes, AI Services can be integrated into your apps, which you are free to monetise.
+Can I generate or interpret images using AI Services?
+The possibility of generating or interpreting images with AI Services is currently being analysed. We will offer you this functionality when it is fully operational and also guarantees total control of your data.
+Can I transcribe an audio file into text using AI Services?
+Yes, AI Services is a multi-model product that includes Whisper, which allows you to transcribe audio files into text.
+How many words can AI Services process per prompt?
+Our proposed LLM templates have different limitations due to variations in the complexity and size of the templates. However, you can find the maximum prompts size accepted by our templates here
+What is a token?
+Tokens are units that divide up the text before the API analyses it, either as characters or as a set of words. In general, a token corresponds to 4 characters in English or 3/4 of a word, depending on the language.
+What's the difference between an incoming and an outgoing token?
+Incoming tokens are requests made to the AI, and outgoing tokens are responses generated by the AI.
+Is Infomaniak's AI connected to the Internet?
+No, the models we propose are based on a gigantic dataset, which does not need to be continuously fed with new information.
+Which AI model does AI Services use?
+We use several open-source models to offer a wide range of tools through AI Services, such as Mixtral for text generation and Whisper for audio transcription.
+You can find the full list of models we offer here
+How does AI Services billing work?
+You can use the AI immediately and track your consumption in real time. You will be billed at the end of the month according to the number of tokens consumed. When you finalise the creation of your account, we'll ask you to confirm your identity by registering a valid payment card, thereby reinforcing our anti-fraud measures.
+Does AI Services use OpenAI standards?
+Yes, the various models we offer comply with OpenAI standards to facilitate the transition to our AI Services and their use.
+How does per-minute billing work?
+Transcription or image generation models are billed per minute of generation. This time depends on several parameters, such as the size of the file to be transcribed (for transcription) or the quality of the image and the number of images generated simultaneously (for images).
+It is this generation time that is billed. For example, an image generated in 4 seconds using SDXL-Lightning will be billed in proportion to the indicated price, i.e. CHF 0.02.
+Prices do not include VAT
+Infomaniak
+About UsGovernanceInvestorsInfomaniak is recruitingPress & mediaInfomaniak blogAll certificatesProducts & offersStudent programmeMastheadClients' opinions
+Support
+Assistance 7/7FAQ and guidesPremium SupportSales contactAPI RESTWHOISReport abusePublic Cloud statusStatus of the services
+Partnerships
+Become a resellerAffiliate programmeDirectory of partnersQuote requestsInfomaniak Academy
+Ecology
+Green hostingCertificates & awards
+Follow our development
+Votre inscription a été enregistrée avec succès !
+«
+Your email address will be used exclusively to receive Infomaniak’s monthly newsletter and new blog posts. We respect your data and you can unsubscribe at any time.
+EN
+©2026 Infomaniak-
+Legal documents-
+Trust center-
+Legal notice-
+Data Protection-
+Privacy Policy-
+Site map-
+Manage your cookies

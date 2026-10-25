@@ -143,6 +143,7 @@ Benefit
 Benefits
 Benefits
 Block
+Bring
 Business
 By
 Calculator
@@ -165,6 +166,8 @@ Chat
 Chat
 Chat
 Chat
+Chemical
+Chemical
 Church
 Church
 Close
@@ -242,6 +245,7 @@ Data
 Data
 Data
 Data
+Data
 Database
 Database
 Database
@@ -296,6 +300,7 @@ Enterprise
 Enterprise
 Europe
 Europe
+European
 European
 European
 European
@@ -366,6 +371,7 @@ Imprint
 Independent
 Industries
 Industries
+Industry
 Information
 Input
 Input
@@ -534,13 +540,16 @@ Price
 Prices
 Prices
 Prices
+Processes
 Products
 Products
 Products
 Products
+Program
 Program
 Program
 Protect
+Protection
 Provision
 Public
 Public
@@ -569,6 +578,7 @@ Relational
 Release
 Release
 Relevant
+Research
 Retail
 Retail
 Rethinking
@@ -698,6 +708,7 @@ Security
 Security
 Security
 Security
+Sensitive
 Server
 Server
 Server
@@ -754,6 +765,7 @@ Sovereign.
 Sovereign.
 Sovereignty
 Spaces
+Startup
 Startup
 Stay
 Storage
@@ -937,6 +949,8 @@ and
 and
 and
 and
+and
+and
 application
 applications
 applications
@@ -997,6 +1011,7 @@ choose
 church
 citizen
 citizens
+cloud
 cloud
 cloud
 cloud
@@ -1123,6 +1138,7 @@ estimate
 even
 example,
 exchange
+exclusive
 existing
 existing
 existing
@@ -1159,6 +1175,7 @@ for
 for
 for
 for
+for
 form
 form
 form
@@ -1172,6 +1189,7 @@ from
 from
 full
 functions
+funding
 future
 game
 get
@@ -1219,6 +1237,7 @@ industry
 info@stackit.cloud
 information
 infrastructure
+infrastructure
 ingestion
 innovation
 innovative
@@ -1257,6 +1276,7 @@ leading
 level
 level
 level
+life
 like
 like
 like
@@ -1357,6 +1377,7 @@ open-source
 open-source
 operating
 operations
+opportunities.
 optimized
 or
 or
@@ -1366,6 +1387,7 @@ organizations
 oss
 oss
 others,
+our
 our
 our
 our
@@ -1622,6 +1644,7 @@ to
 to
 to
 to
+to
 token
 token
 token
@@ -1664,6 +1687,7 @@ via
 virtual
 virtual
 virtual
+vision
 we
 we
 we
@@ -1677,6 +1701,7 @@ wide
 will
 will
 win-win
+with
 with
 with
 with
@@ -1723,6 +1748,7 @@ you
 you
 you
 you!
+your
 your
 your
 your

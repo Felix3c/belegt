@@ -1,0 +1,195 @@
+{
+  "_kommentar": "Registerabgleich Art. 40/41 (Verhaltensregeln) und Art. 42/43 (Zertifizierung) DSGVO. EU Cloud CoC und CISPE am 22.10.2026 neu gelesen, Trusted Data Processor und Europrivacy am 19.10.2026. Deutsche Art.-42-Verfahren (AUDITOR, EuroPriSe, TÜV NORD) haben kein öffentliches Verzeichnis: ungeklärt.",
+  "stand": "2026-10-22",
+  "register": [
+    {
+      "name": "EU Cloud Code of Conduct",
+      "grundlage": "Art. 40/41 DSGVO",
+      "url": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    {
+      "name": "CISPE Data Protection Code of Conduct",
+      "grundlage": "Art. 40/41 DSGVO",
+      "url": "https://www.codeofconduct.cloud/public-register/"
+    },
+    {
+      "name": "Trusted Data Processor",
+      "grundlage": "Art. 40/41 DSGVO",
+      "url": "https://www.verhaltensregel.eu/verpflichtete-unternehmen/"
+    },
+    {
+      "name": "Europrivacy",
+      "grundlage": "Art. 42 DSGVO",
+      "url": "https://repository.europrivacy.org/"
+    }
+  ],
+  "anbieter": {
+    "aleph-alpha": {
+      "ergebnis": "kein_eintrag",
+      "text": "In keinem der vier lesbaren Register gefunden (EU Cloud CoC, CISPE-Kodex, Trusted Data Processor, Europrivacy).",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "anthropic-api": {
+      "ergebnis": "kein_eintrag",
+      "text": "Die Firma Anthropic steht weder im EU Cloud CoC noch im CISPE-Kodex, auch nicht in der Liste des Trusted Data Processor (alle drei am 23.10.2026 gelesen, Suche nach „Anthropic“ und „Claude“: 0 Treffer). Europrivacy nicht abgefragt.",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "anthropic-claude-enterprise": {
+      "ergebnis": "kein_eintrag",
+      "text": "Die Firma Anthropic steht weder im EU Cloud CoC noch im CISPE-Kodex, auch nicht in der Liste des Trusted Data Processor (alle drei am 23.10.2026 gelesen, Suche nach „Anthropic“ und „Claude“: 0 Treffer). Europrivacy nicht abgefragt.",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "amazon-bedrock": {
+      "ergebnis": "dienst_im_register",
+      "text": "Amazon Bedrock steht selbst im CISPE-Register: „Amazon Bedrock [excludes Amazon Bedrock Marketplace]“, Anbieter „AWS (Amazon Web Services EMEA SARL)“, Länder „France, Germany, Ireland, Italy, Spain, Sweden, EEA“, „Controlled adherence“, Prüfstelle laut Register „Ernst & Young CertifyPoint“, 14/06/2024 bis 14/06/2027 (gelesen 23.10.2026). Der Bedrock Marketplace ist ausgenommen. Im EU Cloud CoC und in der Liste des Trusted Data Processor kein Eintrag für Amazon oder AWS (Gegenprobe: Microsoft steht im EU Cloud CoC). Europrivacy nicht abgefragt.",
+      "quelle": "https://www.codeofconduct.cloud/public-register/",
+      "stand": "2026-10-23"
+    },
+    "azure-openai": {
+      "ergebnis": "konzern_im_register",
+      "text": "Microsoft Corporation steht im EU Cloud CoC (ID 2021LVL02SCOPE116, Level 2, letzte Prüfung 14.05.2026, fällig 18.05.2027), Eintrag für azure.com (gleicher Registereintrag wie bei Microsoft 365 Copilot, gelesen 22.10.2026). Ob Azure OpenAI zu den erklärten Diensten gehört, steht nur im Prüfbericht; nicht gelesen, ungeklärt.",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "black-forest-labs": {
+      "ergebnis": "kein_eintrag",
+      "text": "In keinem der vier lesbaren Register gefunden (EU Cloud CoC, CISPE-Kodex, Trusted Data Processor, Europrivacy).",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "cohere": {
+      "ergebnis": "kein_eintrag",
+      "text": "Cohere steht weder im EU Cloud CoC noch im CISPE-Kodex, auch nicht in der Liste des Trusted Data Processor (alle drei am 24.10.2026 gelesen, Suche nach „Cohere“ und „Aleph“: 0 Treffer; Gegenprobe: Google Cloud steht im EU Cloud CoC, die Liste ist da). Europrivacy nicht ausgewertet (Verzeichnis lädt per Skript). Dass Coheres Hoster Google Cloud im EU Cloud CoC steht, sagt nichts über Cohere selbst. Auswertung in belege/anbieter/cohere/register-abgleich-2026-10-24.txt.",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services",
+      "stand": "2026-10-24"
+    },
+    "deepseek-api": {
+      "ergebnis": "kein_eintrag",
+      "text": "DeepSeek steht weder im EU Cloud CoC noch im CISPE-Kodex, auch nicht in der Liste des Trusted Data Processor (alle drei am 23.10.2026 gelesen, Suche nach „DeepSeek“ und „Hangzhou“: 0 Treffer). Europrivacy nicht ausgewertet (Verzeichnis lädt per Skript). Kopien in belege/anbieter/deepseek-api/register-*.",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "deepl": {
+      "ergebnis": "kein_eintrag",
+      "text": "In keinem der vier lesbaren Register gefunden (EU Cloud CoC, CISPE-Kodex, Trusted Data Processor, Europrivacy).",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "eurouter": {
+      "ergebnis": "kein_eintrag",
+      "text": "In keinem der vier lesbaren Register gefunden (EU Cloud CoC, CISPE-Kodex, Trusted Data Processor, Europrivacy).",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "exoscale": {
+      "ergebnis": "kein_eintrag",
+      "text": "In keinem der vier lesbaren Register gefunden (EU Cloud CoC, CISPE-Kodex, Trusted Data Processor, Europrivacy).",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "gcore": {
+      "ergebnis": "kein_eintrag",
+      "text": "In keinem der vier lesbaren Register gefunden (EU Cloud CoC, CISPE-Kodex, Trusted Data Processor, Europrivacy).",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "google-gemini-workspace": {
+      "ergebnis": "konzern_im_register",
+      "text": "Google LLC steht im EU Cloud CoC (ID 2020LVL02SCOPE015, Level 2, letzte Prüfung 22.01.2026, fällig 05.12.2026), Eintrag für cloud.google.com. Ob Gemini in Google Workspace zu den erklärten Diensten gehört, steht nur im Prüfbericht; nicht gelesen, ungeklärt.",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "google-vertex-gemini-api": {
+      "ergebnis": "konzern_im_register",
+      "text": "Google LLC steht im EU Cloud CoC (ID 2020LVL02SCOPE015, Level 2, letzte Prüfung 22.01.2026, fällig 05.12.2026), Eintrag für cloud.google.com (gleicher Registereintrag wie bei Gemini für Workspace, gelesen 22.10.2026). Ob Vertex AI / Gemini zu den erklärten Diensten gehört, steht nur im Prüfbericht; nicht gelesen, ungeklärt.",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "greenpt": {
+      "ergebnis": "kein_eintrag",
+      "text": "In keinem der vier lesbaren Register gefunden (EU Cloud CoC, CISPE-Kodex, Trusted Data Processor, Europrivacy).",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "hetzner": {
+      "ergebnis": "kein_eintrag",
+      "text": "In keinem der vier lesbaren Register gefunden (EU Cloud CoC, CISPE-Kodex, Trusted Data Processor, Europrivacy).",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "infomaniak": {
+      "ergebnis": "kein_eintrag",
+      "text": "In keinem der vier lesbaren Register gefunden (EU Cloud CoC, CISPE-Kodex, Trusted Data Processor, Europrivacy).",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "ionos": {
+      "ergebnis": "kein_eintrag",
+      "text": "In keinem der vier lesbaren Register gefunden (EU Cloud CoC, CISPE-Kodex, Trusted Data Processor, Europrivacy).",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "lyceum": {
+      "ergebnis": "kein_eintrag",
+      "text": "In keinem der vier lesbaren Register gefunden (EU Cloud CoC, CISPE-Kodex, Trusted Data Processor, Europrivacy).",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "meta-llama-api": {
+      "ergebnis": "kein_eintrag",
+      "text": "Meta steht weder im EU Cloud CoC noch im CISPE-Kodex, auch nicht in der Liste des Trusted Data Processor (alle drei am 23.10.2026 gelesen, Suche nach „Meta Platforms“, „Meta Ireland“ und „Llama“: kein Registereintrag). Europrivacy nicht ausgewertet (Verzeichnis lädt per Skript). Auswertung in belege/anbieter/meta-llama-api/register-abgleich-2026-10-23.txt.",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "microsoft-copilot": {
+      "ergebnis": "konzern_im_register",
+      "text": "Microsoft Corporation steht im EU Cloud CoC (ID 2021LVL02SCOPE116, Level 2, letzte Prüfung 14.05.2026, fällig 18.05.2027), Eintrag für azure.com. Ob Microsoft 365 Copilot zu den erklärten Diensten gehört, steht nur im Prüfbericht; nicht gelesen, ungeklärt.",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "mistral": {
+      "ergebnis": "kein_eintrag",
+      "text": "In keinem der vier lesbaren Register gefunden (EU Cloud CoC, CISPE-Kodex, Trusted Data Processor, Europrivacy).",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "nebius": {
+      "ergebnis": "kein_eintrag",
+      "text": "In keinem der vier lesbaren Register gefunden (EU Cloud CoC, CISPE-Kodex, Trusted Data Processor, Europrivacy).",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "nordference": {
+      "ergebnis": "kein_eintrag",
+      "text": "In keinem der vier lesbaren Register gefunden (EU Cloud CoC, CISPE-Kodex, Trusted Data Processor, Europrivacy).",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "openai-api": {
+      "ergebnis": "kein_eintrag",
+      "text": "Die Firma OpenAI steht weder im EU Cloud CoC noch im CISPE-Kodex, auch nicht in der Liste des Trusted Data Processor (gleiche Suche wie bei ChatGPT Enterprise, EU Cloud CoC und CISPE gelesen 22.10.2026). Europrivacy nicht abgefragt.",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "openai-chatgpt-enterprise": {
+      "ergebnis": "kein_eintrag",
+      "text": "Weder im EU Cloud CoC noch im CISPE-Kodex gefunden, auch nicht in der Liste des Trusted Data Processor. Europrivacy nicht abgefragt.",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "opper-ai": {
+      "ergebnis": "kein_eintrag",
+      "text": "In keinem der vier lesbaren Register gefunden (EU Cloud CoC, CISPE-Kodex, Trusted Data Processor, Europrivacy).",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "ovhcloud": {
+      "ergebnis": "beansprucht_nicht_im_register",
+      "text": "OVHcloud nennt sich auf ovhcloud.com/en/compliance/ „signatory of its code of conduct“ (CISPE). Im CISPE-Register steht am 19.10. und 22.10.2026 kein Eintrag. Laut Wayback-Kopie vom 13.04.2026 standen dort noch 16 Dienste der OVH SA, Fälligkeit 01.02.2025 (abgelaufen).",
+      "quelle": "https://www.codeofconduct.cloud/public-register/"
+    },
+    "regolo": {
+      "ergebnis": "mutter_im_register",
+      "text": "Die Mutterfirma Seeweb S.r.l. steht mit 11 IaaS-Diensten im CISPE-Register (erklärt 26.02.2024, fällig 26.02.2027). Die Regolo-Inferenz selbst ist kein gelisteter Dienst.",
+      "quelle": "https://www.codeofconduct.cloud/public-register/"
+    },
+    "requesty": {
+      "ergebnis": "kein_eintrag",
+      "text": "In keinem der vier lesbaren Register gefunden (EU Cloud CoC, CISPE-Kodex, Trusted Data Processor, Europrivacy).",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "scaleway": {
+      "ergebnis": "kein_eintrag",
+      "text": "In keinem der vier lesbaren Register gefunden (EU Cloud CoC, CISPE-Kodex, Trusted Data Processor, Europrivacy).",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "stackit": {
+      "ergebnis": "kein_eintrag",
+      "text": "In keinem der vier lesbaren Register gefunden (EU Cloud CoC, CISPE-Kodex, Trusted Data Processor, Europrivacy).",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    },
+    "t-systems": {
+      "ergebnis": "beansprucht_nicht_im_register",
+      "text": "Stand im EU Cloud CoC (Open Telekom Cloud, ID 2022LVL02SCOPE4315, Level 2, fällig 06.12.2025, „Renewal in progress“). In der Wayback-Kopie vom 12.04.2026 und im Register am 19.10. und 22.10.2026 fehlt der Eintrag. Eigener Blog vom 10.07.2025: Kodex „at least until the end of 2026“.",
+      "quelle": "https://eucoc.cloud/en/public-register/list-of-adherent-services"
+    }
+  }
+}

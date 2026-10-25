@@ -1,0 +1,136 @@
+Quelle: https://bfl.ai/enterprise
+Abruf: 2026-10-24 06:23:17 +0200 (curl direkt, HTTP 200; robots.txt erlaubt). SHA-256 der Rohseite: 1b8b83483188c2ff339c80212590ff756c87daeceb2ffaaa24650ca0889ffe6b
+Inhalt: Enterprise-Seite (Managed API, Self-hosted, Security), ganzer Seitentext
+
+
+Enterprise | Black Forest Labs
+Models
+Research
+API
+Open Weights
+Pricing
+Resources
+Contact Sales
+Frontier models customized to you
+Powerful, controllable visual AI with the deployment flexibility, data sovereignty, and compliance enterprises demand.
+Contact sales
+Explore API
+Frontier models customized to you
+Powerful, controllable visual AI with the deployment flexibility, data sovereignty, and compliance enterprises demand.
+Contact sales
+Explore API
+Trusted by leading companies
+Our models, your choice
+We offer flexible options for licensing and model customization so you can build workflows specific to your business.
+Managed
+API
+Zero data retention and auto-scaling infrastructure. Go from integration to production in minutes. Already powering billions of image generations per year.
+Scales from thousands to millions of generations without ops overhead
+Multi-region availability for low-latency global delivery
+Private dedicated endpoints available for specific workflow and performance requirements
+Access to all latest FLUX models on release day
+Volume-based pricing with enterprise agreements available from 200K generations/month
+Specialized task-specific endpoints — outpainting, erase, virtual try-on, and more - available as production-ready FLUX Tools
+Self-hosted
+Open Weights
+Full data sovereignty on your own infrastructure. Your data stays in your network.
+Available models: FLUX.1 [dev], FLUX.2 [dev], FLUX.2 [klein] 4B (Apache 2.0) & 9B
+Deploy in your private cloud or on-premises with complete data isolation
+Fine-tune and customize models to match your brand, style, and use cases
+No external calls: all inference runs inside your environment
+Predictable pricing with flexible volume tiers
+Co-development
+Customized
+Our engineers work alongside your team to build custom models, dedicated infrastructure, and tailored workflows.
+All FLUX models available for customization, both commercial and open weights
+Dedicated instances with zero data retention and network isolation
+Fine-tuning on your brand assets for on-brand outputs
+Co-build production pipelines tailored to your use cases
+White-labeled Studio UI with org management and access controls
+Also available on
+Microsoft Azure AI Foundry
+Pay-as-you-go or Provisioned Throughput with Microsoft-backed SLAs
+Documentation
+Contact sales
+Security first.
+All inputs and outputs are processed on certified infrastructure.
+SOC 2 Type II
+Audited security, availability & confidentiality controls
+ISO 27001
+International standard for information security management
+GDPR Compliant
+GDPR-compliant data processing is standard.
+View our Vanta Trust Center
+Your data is in safe hands
+All inputs and outputs are processed on certified secure infrastructure. Our enterprise-grade systems are built to global industry standards, so your data remains private and secure.
+Enterprise agreements
+We work with customers to develop tailored contractual arrangements that can address a variety of business-specific concerns. Contact our team to discuss your requirements.
+Compliance-ready
+Security documentation, DPAs, and vendor assessment materials are available on request to help you through your procurement process.
+Single Sign-On (SSO)
+Connect Okta, Azure AD, Google Workspace, or another SAML/OIDC provider. Verified-domain enforcement keeps organization access aligned with your authentication policies.
+100×
+Throughput increase
+At a world-leading luxury brand – from 1K to 100K+ images per season
+Billions
+Generated assets
+Across all FLUX models
+<60s
+Asset creation time
+Down from 2–4 hours manually
+Based on reported results from enterprise customer deployments
+Built for your workflow
+Advertising
+01.
+Architecture
+02.
+Automotive
+03.
+Design
+04.
+Gaming
+05.
+Retail
+06.
+Hundreds of personalized campaign variations in hours.
+Proven at the frontier
+#1
+Preferred open-source image model
+on HuggingFace
+Top 3
+Across all image generation providers
+Artificial Analysis
+Your team, from day one
+Every enterprise customer gets a dedicated team from onboarding through production.
+Dedicated account team
+A named account manager and solutions engineer assigned to your organization, with direct access to our engineering team for technical questions.
+Onboarding & training
+Structured onboarding program with integration support, prompt engineering workshops, and best-practice documentation tailored to your use case.
+SLA & priority support
+Guaranteed response times, uptime commitments, and priority incident resolution. Enterprise SLAs backed by engineering teams across multiple time zones for worldwide customer support.
+One model, infinite possibilities
+From photorealistic product shots to abstract art, FLUX delivers consistent quality across every style and domain.
+Ready to experience 
+ visual intelligence?
+Explore API
+Contact sales
+Open Weights 
+Models
+FLUX 3 MaxFLUX 3 VideoFLUX 3 ImageFLUX 3 Image KleinFLUX 3 ActionFLUX Tools
+API
+DocumentationDashboardStatus
+Open Weights
+LicensingHugging FaceGitHub
+Resources
+DocumentationHelp DeskBlogCreator ProgramBrandGitHub
+Company
+About UsCareersTrust and SecurityContact Us
+ ISO 27001:2022
+ SOC 2 Type II
+Enterprise
+Learn MoreContact Sales
+Legal
+ImprintTerms of ServiceUsage PolicyPrivacy PolicyIntellectual Property Policy
+Developer Terms of ServiceFLUX API Service TermsSelf-Hosted Terms of ServiceNon-Commercial License TermsResponsible AI Development Policy
+All rights reserved.
+©2026 BLACK FOREST LABS.

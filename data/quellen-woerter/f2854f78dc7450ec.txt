@@ -258,6 +258,7 @@ These
 They
 This
 Toggle
+Tools
 Traces,
 Trust
 Under

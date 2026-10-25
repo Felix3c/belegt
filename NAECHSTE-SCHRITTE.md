@@ -1,5 +1,930 @@
 # belegbar.eu — Nächste Schritte
 
+## Neu 25.10.2026 ~18:20 (Dauerlauf Laufend): openai-api, Backup- und SOC-2-Felder neu geprüft
+
+- Anlass: openai-api hatte nach Google Vertex den ältesten Stand, 9 Einträge auf 22.10. (4× Backup-Ort je Modell, SOC 2 mit Geltungsbereich, Prüfer, Akkreditierung, dazu das Profildatum).
+- Trust-Portal direkt abgerufen (HTTP 200): beide SOC-2-Sätze stehen wörtlich da, Bericht weiter nur mit Konto; Prüfer weiter ohne Namen („an independent third-party auditor“); im Schellman-Verzeichnis für OpenAI nur ISO, kein SOC 2. Kein Status geändert.
+- Leitfaden „your data“ direkt abgerufen: weiter kein Satz zu Backups für die API. Backup-Ort bleibt „unbelegt“.
+- Nicht neu geprüft: Enterprise-Privacy-Seite (HTTP 403, Bot-Prüfung, nicht umgangen; letzte Archivkopie 02.10., Archiv nahm keine Verbindung an), Security Measures (nur Archiv).
+- Profil-Prüfdatum 22.10. → 23.10. (ältestes Feld). Kopien `belege/anbieter/openai-api/{trust-portal,your-data}-2026-10-25.txt` mit `nachpruefung-soc2-backup-2026-10-25.sha256` und Zeitstempel. 418/418 Tests, Build streng im Wegwerf-Klon ok (33 Anbieter). Lokal `45d13d1c`, kein Push, keine Frage.
+- Als Nächstes in dieser Reihe: das Profil mit dem nächstältesten Prüfdatum (vorher per Skript zählen).
+
+## Neu 25.10.2026 ~17:50 (Dauerlauf Laufend): Google Vertex, Prüfer für SOC 2 nachgetragen
+
+- Anlass: Google Vertex hatte nach Exoscale/OVHcloud (blockierte Register) den ältesten Stand, 8 Zertifikatsfelder auf 22.10. Vorher geprüft: Google steht nicht im Schellman-Verzeichnis (Suche „Google“, „Google LLC“, „Alphabet“ leer).
+- Die SOC-2-Seite beantwortet „Who performs the independent third-party audit?“ mit „Google Cloud’s independent auditors are Ernst & Young LLP and Coalfire.“ Der Satz stand schon in der Kopie vom 22.10., der Eintrag sagte trotzdem „nicht genannt“. Jetzt „beansprucht“ (wie Nebius/Deloitte), mit Vermerk: welche Firma welchen Bericht prüft, sagt Google nicht.
+- ISO 27001, ISO 42001 und C5 neu gelesen: weiter kein Name, kein PDF, nur Compliance Reports Manager. Werte bleiben „unbelegt“, Prüfdatum 25.10.; Profil-Prüfdatum 22.10. → 24.10.
+- Kopien `belege/anbieter/google-vertex-gemini-api/{iso-27001,iso-42001,soc-2,bsi-c5}-2026-10-25.txt` mit `nachpruefung-2026-10-25.sha256` und Zeitstempel. 418/418 Tests, Build streng im Wegwerf-Klon ok. Lokal `17aac019`, kein Push, keine Frage.
+- Als Nächstes in dieser Reihe: openai-api (9 Einträge 22.10.).
+
+## Neu 25.10.2026 ~17:20 Systemuhr (Dauerlauf E22-5, Stapel 46): 654 von 961, 1 gesichert, Archiv-Link mit Amazon-Schlüssel
+
+- Gesichert: das Schellman-Zertifikat von Anthropic (1279091-2). Danach das nächste Schellman-Zertifikat (1404936-2) „fetch failed“ → Sperre, angehalten (kein Fehlversuch angerechnet). 95 Quellen offen (961 Zeilen statt 944, weil die SC-A-Läufe heute Zertifikate als neue Quellen eingetragen haben).
+- **Schellman-Archivlink (geprüft 25.10. ~17:40, SH-A erledigt):** Schellman leitet auf eine 15-Minuten-Amazon-S3-Adresse weiter, das Archiv speichert die Kopie nur unter dieser signierten Adresse. Die kurze Form `web.archive.org/web/20261025161428/https://integrator.schellman.com/public/v2/certificate/1279091-2/file` und der S3-Pfad ohne Signatur geben beide 404, nur der lange Link (1.660 Zeichen) liefert das PDF (HTTP 200). Darum bleibt der Eintrag in `data/quellen-archiv.json` so; kein Code geändert. Die Archivlinks erscheinen nicht in `docs/`, nur in den Daten. GitHub hält Pushes mit „Amazon AWS Session Token“ an; ob dieser abgelaufene Fremd-Link anschlägt, ist ungeklärt. Was dann zu tun ist, steht in der privaten Push-Karte vom 25.10.
+- Nächster Stapel nicht vor 18:20, weiter `node nachsichern.js --anzahl 8` (die nächsten drei Schellman-Zertifikate laufen in dasselbe Problem). 418/418 Tests (`node --test`), lokal `831c7118`, kein Push.
+
+## Neu 25.10.2026 ~17:15 (Dauerlauf SC-A, Meta): Meta Model API ISO 27001 jetzt belegt, sogar UKAS-akkreditiert
+
+- Schellman-Verzeichnis (Suche „Meta“) zeigt vier öffentliche Zertifikate von Meta Platforms, Inc.: ISO 9001 (Sicherheitsteams), ISO/IEC 27018 (Workplace/Horizon), Nr. 1974840-3 ISO/IEC 27001:2022 und Nr. 1861919-1 ISO/IEC 42001:2023.
+- 1974840-3 (Version 3, ausgestellt 14.09.2026, gültig bis 28.08.2028): Geltungsbereich nennt wörtlich „Meta Model API“ (dazu MM Lite API, Business AI, WhatsApp Pay India), „hosted by Meta“. Trägt UKAS 8685 und ANAB → EA-MLA ja (wie Anthropic). Meta selbst nennt das Zertifikat auf den Model-API-Seiten nicht. Inhaber ist die US-Gesellschaft, EU-Vertragspartei ist Meta Platforms Ireland (so in der Anmerkung).
+- 1861919-1 (ISO 42001, ausgestellt 09.10.2026): nur „Meta Business Agent services“, „The underlying large language models are explicitly excluded from this scope.“ → `iso_42001` bleibt unbelegt, Nachtrag in der Anmerkung.
+- Geändert: meta-llama-api `zertifikate[]` (vorher leer) mit ISO 27001 „belegt“ samt Geltungsbereich, Zertifizierer, Akkreditierung. Belege `belege/anbieter/meta-llama-api/*-2026-10-25.*` mit `zertifikate-2026-10-25.sha256` und Zeitstempel. 418/418 Tests, Build streng im Wegwerf-Klon ok (33 Anbieter). Lokal `8be3f666`, kein Push, keine Frage.
+- SC-A damit fertig (Anthropic, Microsoft, Amazon Bedrock, Meta).
+
+## Neu 25.10.2026 ~17:00 Systemuhr (Dauerlauf SC-A, Amazon Bedrock): ISO 42001 jetzt belegt
+
+- Schellman-Verzeichnis (Suche „Amazon“) zeigt acht öffentliche Zertifikate, nur eins für AWS: Nr. 1821017-2 ISO/IEC 42001:2023, Inhaber Amazon Web Services, Inc., Version 2, ausgestellt 20.11.2025, gültig bis 14.11.2027. Geltungsbereich nennt wörtlich „Amazon Bedrock, Amazon Q Business, Amazon Transcribe, and Amazon Textract“; Seite 2 nennt u. a. Frankfurt und Irland. Die anderen sieben gehören zu Amazon.com Services, Amazon Business und Kuiper (Leo), nicht zu AWS.
+- Nur ANAB-Zeichen → EA-MLA nein (wie OpenAI/Microsoft). Ob Bedrock-Marketplace-Modelle erfasst sind, sagt das Zertifikat nicht (ungeklärt, so in der Anmerkung).
+- Geändert: amazon-bedrock `zertifikate[]` ISO/IEC 42001 und Feld `iso_42001` von „beansprucht“ auf „belegt“ (Geltungsbereich, Zertifizierer, Akkreditierung). ISO 27001 war schon belegt (EY CertifyPoint, RvA), unverändert.
+- Belege `belege/anbieter/amazon-bedrock/*-2026-10-25.*` (Zertifikat PDF + Text, Verzeichnis-JSON, ANAB-Seite) mit `zertifikate-2026-10-25.sha256` und Zeitstempel. 418/418 Tests, Build streng im Wegwerf-Klon ok. Lokal `eb34765b`, kein Push, keine Frage.
+- Weiter in SC-A: Meta (letzter Anbieter).
+
+## Neu 25.10.2026 ~17:20 (Dauerlauf SC-A, Microsoft): Azure OpenAI ISO 27001 belegt, Copilot bleibt beansprucht
+
+- Schellman-Verzeichnis (Suche „Microsoft“) zeigt fünf öffentliche Zertifikate von Microsoft Corporation: ISO 22301, ISO 9001, ISO/IEC 20000-1, HDS und Nr. 1729711-18 ISO/IEC 27001:2022 + 27701:2019 (Version 18, ausgestellt 25.06.2026, gültig bis 16.06.2029). Kein ISO/IEC 42001.
+- 1729711-18: Tabelle „Registered Scope“ (S. 2) nennt „Microsoft Foundry: Foundry Models“ mit Haken bei Azure und Azure Government. Das deckt das Profil („Foundry Models sold by Azure“). Der Name „Azure OpenAI“ steht nicht wörtlich drin, steht so in der Anmerkung. Nur ANAB-Zeichen → EA-MLA nein (wie OpenAI).
+- Auffällig, offen in der Anmerkung: Die Textebene der Seiten 2–16 enthält unsichtbar „CONTENT DRAFT“; im gerenderten Blatt nicht zu sehen, Verzeichnis-Status „PUBLISHED“.
+- Geändert: azure-openai ISO 27001 mit Geltungsbereich, Zertifizierer, Akkreditierung auf „belegt“. microsoft-copilot: ISO 27001 bleibt „beansprucht“ (das Azure-Zertifikat nennt Copilot Studio, Security Copilot, Copilot for Sales/Service/Finance, aber nicht Microsoft 365 Copilot; ein M365-Zertifikat steht nicht im Verzeichnis), Vermerk ergänzt. Bei beiden ISO 42001: Vermerk „kein 42001 im Schellman-Verzeichnis“.
+- Belege `belege/anbieter/azure-openai/*-2026-10-25.*` (Zertifikat PDF + Text, Verzeichnis-JSON, ANAB-Seite) und `belege/anbieter/microsoft-copilot/schellman-verzeichnis-microsoft-2026-10-25.json`, je mit `zertifikate-2026-10-25.sha256` und Zeitstempel. 418/418 Tests, Build streng im Wegwerf-Klon ok. Lokal `73d50f7f`, kein Push, keine Frage.
+- Weiter in SC-A: Amazon Bedrock, dann Meta (je ein Durchlauf).
+
+## Neu 25.10.2026 ~17:00 (Dauerlauf SC-A, Anthropic): ISO 27001 und 42001 jetzt belegt, 27001 sogar UKAS-akkreditiert
+
+- Schellman-Verzeichnis (Suche „Anthropic“) zeigt zwei öffentliche Zertifikate, beide Inhaber Anthropic, PBC, Version 2, ausgestellt 13.11.2025: Nr. 1279091-2 ISO/IEC 27001:2022 (gültig bis 06.01.2028) und Nr. 1806475-2 ISO/IEC 42001:2023 (gültig bis 05.01.2028). PDF hinter einer Weiterleitung, darum `curl -L`.
+- Geltungsbereich beider Zertifikate: Claude Development Platform, Claude for Work (Team and Enterprise), Claude Code. Deckt also beide Profile. Kleiner Namensunterschied offen in der Anmerkung: Anthropic selbst schreibt „Claude Developer Platform“; das Trust-Portal hakt die Zeile „Claude via Anthropic's API“ ab.
+- Anders als bei OpenAI: Das 27001-Zertifikat trägt neben ANAB auch das UKAS-Zeichen 8685. UKAS-Umfang 8685 (Schellman Compliance, LLC, Issue 013 vom 31.10.2025) deckt ISO/IEC 27001:2022 → Stelle UKAS, EA-MLA ja (wie Black Forest Labs, Infomaniak). Das 42001-Zertifikat trägt nur ANAB → EA-MLA nein (wie OpenAI).
+- Geändert in anthropic-api und anthropic-claude-enterprise: ISO 27001 und ISO/IEC 42001 je Status, Geltungsbereich, Zertifizierer und Akkreditierung auf „belegt“; Feld `iso_42001` gleichgezogen. SOC 2 bleibt „beansprucht“ (Bericht nur auf Anfrage).
+- Belege `belege/anbieter/{anthropic-api,anthropic-claude-enterprise}/` (Zertifikate, Verzeichnis-JSON, UKAS-Umfang PDF + Text, ANAB-Seiten) mit `zertifikate-2026-10-25.sha256` und Zeitstempel. 418/418 Tests, Build streng im Wegwerf-Klon ok. Lokal `a2ec38ba`, kein Push, keine Frage.
+- Weiter in SC-A: Microsoft, Amazon Bedrock, Meta (je ein Durchlauf).
+
+## Neu 25.10.2026 ~17:05 (Dauerlauf Laufend): OpenAI-Zertifikate jetzt selbst eingesehen, ISO 27001/27701/42001 belegt
+
+- Anlass: ChatGPT Enterprise hatte den ältesten Prüfstand nach Exoscale/OVHcloud (drei Werte 21.10.). Bei der Frage „welche Akkreditierungsstelle?“ fand sich: Schellman führt ein öffentliches Zertifikatsverzeichnis (www.schellman.com/certificate-directory) mit PDF. OpenAI zeigt dieselben Zertifikate im Trust-Portal nur mit Konto.
+- Zertifikat 1404936-2: ISO/IEC 27001:2022 + 27701:2019, OpenAI, OpCo, LLC, gültig bis 07.08.2028, Geltungsbereich = Produkte der Tabelle „Product compliance status“ (API Platform und ChatGPT Enterprise mit Haken), ausdrücklich nicht ChatGPT Business. Zertifikat 1764566-1: ISO/IEC 42001:2023, gültig bis 10.12.2028, nennt API, ChatGPT Business, Enterprise und Edu. Beide tragen das ANAB-Zeichen; ANAB-Verzeichnis: Schellman-MS-3780 akkreditiert u. a. für 27001, 27701, 42001.
+- Geändert: openai-api ISO 27001, 27701, 42001 und openai-chatgpt-enterprise ISO 27001, 42001 von „beansprucht“ auf „belegt“, Zertifizierer belegt, Akkreditierung „nicht DAkkS, ANAB (USA)“ wie bei T-Systems (Punkt 9 bleibt „nein“, ANAB ist keine EA-MLA-Stelle); Feld `iso_42001` mitgezogen (der strenge Bau prüft die Gleichheit). SOC 2 bleibt „beansprucht“.
+- ChatGPT Enterprise Zweckbindung und Protokollfrist neu nachgeprüft: keine neuere Archivkopie der Business Terms als 08.10. (live 403), Sätze weiter wörtlich; Enterprise-Privacy-Seite (Archivkopie 22.10.) nennt weiter keine Frist für Missbrauchsprotokolle. Profil-Prüfdatum 21.10. → 23.10.
+- Belege `belege/anbieter/{openai-api,openai-chatgpt-enterprise}/*-2026-10-25.*` mit SHA-256 und Zeitstempel. 418/418 Tests, Build streng im Wegwerf-Klon ok. Lokal `101666f5`, kein Push, keine Frage.
+- Folge: Im selben Verzeichnis stehen auch Anthropic (27001, 42001), Microsoft (27001+27701 u. a.), Amazon (27001, AWS 42001) und Meta (27001, 42001, 27018) → Aufgabe SC-A.
+
+## Neu 25.10.2026 ~16:50 (Dauerlauf Laufend): Hochladen ist wieder ein Befehl
+
+- Anlass: 216 lokale Commits seit dem letzten Hochladen (22.10.), daran hängen Vorauswahl und erstes Pilot-Angebot (Zwischenziel Mi 28.10.). Die Prüfschritte von `push-sauber.sh` einzeln laufen lassen (das Skript selbst sperrt die Rechteprüfung für den Dauerlauf).
+- Befund 1: 51 gebaute Seiten (9 US-Profile + Vergleiche) waren unversioniert, das Skript wäre bei „Arbeitskopie nicht sauber“ stehen geblieben. Jetzt committet (`cb9ff7b6` + lastmod), Bau danach stabil.
+- Befund 2: Die Namensprüfung fand einen privaten Namen in 8 versionierten Dateien, auch in `docs/daten.json` und `docs/aenderungen/feed.xml`. Ursache im Feed: Das Änderungsprotokoll nannte Kurz-ID und Betreff auch lokaler Commits. Weil `push-sauber.sh` sie zusammenfasst, zeigten online schon 3 Einträge auf Commits, die es auf GitHub nie gab.
+- Fix `4e570890`: `ausGit` nennt den Commit nur, wenn er in origin/main steht (ohne origin/main wie bisher); die Einträge bekommen nach dem Hochladen beim nächsten Bau die echte ID. Namen in Kommentaren, Testnamen und Stand-Dateien durch die Rolle ersetzt, die Testdatei mit dem Namen heißt jetzt `test/auditor-hinweise.test.js`. Test zuerst `test/aenderungen-veroeffentlicht.test.js` (1 rot), dann 418/418. Namensprüfung leer, Feed 42 Verweise, alle auf GitHub.
+- Handgriff für Felix steht in der privaten Karte `dossiers/PUSH-KARTE-2026-10-25.md` (2 min). Lokal, **kein Push**, keine neue Frage (533/536 offen).
+
+## Neu 25.10.2026 ~16:00 (Dauerlauf Laufend): OVHcloud nachgeprüft, 18 von 20 alten Einträgen neu bestätigt
+
+- Anlass: OVHcloud war nach Exoscale das letzte Profil mit Stand 14.10. 20 Einzelwerte standen auf 14.10. (vorgeschaltete Filter je Modell ×6, Protokollfrist, Prüfer und Akkreditierung bei SOC, C5, SecNumCloud, ISO 27017/27018, ISO 42001, HDS).
+- Zwölf Quellen neu gelesen (Compliance-Übersicht, C5-, SOC-, SecNumCloud- und ISO-Seite, Produktseite AI Endpoints, Doku Zertifikate, Doku HDS, Doku „Features, Capabilities and Limitations“ (Stand 03.02.2026), BVB Public Cloud Stand 26.08.2026 mit Anhang 10, AVV Version 17.10.2025, KI-Verhaltenskodex 28.04.2025). Alle zitierten Sätze stehen weiter wörtlich da, kein Wert ändert sich. Compliance-Übersicht gleich der Archivkopie vom 22.10. (22 Rahmenwerke, kein ISO 42001). 18 Einträge haben jetzt Prüfdatum 25.10.
+- Nicht neu lesbar: das französische HDS-Register (Incapsula-Sperre wie bisher). Die 2 HDS-Einträge bleiben bei 14.10., darum bleibt auch das Profil-Prüfdatum 14.10.
+- Kopien `belege/anbieter/ovhcloud/*-2026-10-25.txt` mit SHA-256 (`nachpruefung-2026-10-25.sha256`) und Zeitstempel. 416/416 Tests, Build streng im Wegwerf-Klon ok. Lokal `e9f3ec4d`, kein Push, keine Frage.
+
+## Neu 25.10.2026 ~15:50 (Dauerlauf E22-5, Stapel 45): 649 von 944, nichts gesichert
+
+- Neu in der Liste: das DQS-Zertifikat-PDF von Aleph Alpha (seit 15:00 Quelle, darum 944 statt 943). Archiv: „kein Snapshot“ (Status 520). Danach openai.com/security-and-privacy/ „fetch failed“ → Sperre, angehalten (kein Fehlversuch angerechnet).
+- 91 Quellen offen. Nächster Stapel nicht vor 16:50, weiter `node nachsichern.js --anzahl 8`. 416/416 Tests (`node --test test/*.test.js`), lokal `b8acf2a2`, kein Push.
+
+## Neu 25.10.2026 ~15:30 (Dauerlauf Laufend): Exoscale nachgeprüft, 23 von 28 alten Einträgen neu bestätigt
+
+- Anlass: Exoscale und OVHcloud hatten den ältesten Profilstand (14.10.). Bei Exoscale standen 28 Einzelwerte auf 14.10. (Prüfer, Akkreditierung und Umfang je Zertifikat, ISO 42001, Protokollfrist, Filter, Backup On-Demand).
+- Zwölf Seiten neu gelesen (Compliance-Seite, Übersicht, ISO 27001, BSI C5, TISAX, HDS, CSA STAR, AGB, DPA, Datenschutz, Dedicated, On-Demand). Alle zitierten Sätze stehen weiter wörtlich da, kein Wert ändert sich. 23 Einträge haben jetzt Prüfdatum 25.10.
+- Nicht neu lesbar: das französische HDS-Register (sperrt den Rechner, die Archivkopie vom 22.10. enthält die Liste nicht) und das CSA-STAR-Register (lädt nur im Browser). Diese 5 Einträge bleiben bei 14.10., darum bleibt auch das Profil-Prüfdatum 14.10. Die Notiz sagt das jetzt.
+- Neu nur als Satz in der Notiz zur Protokollfrist: Die On-Demand-Seite sagt „Exoscale retains only metadata required for usage reporting“, ohne Frist.
+- Kopien `belege/anbieter/exoscale/*-2026-10-25.txt` mit SHA-256 und Zeitstempel. 416/416 Tests, Build streng im Wegwerf-Klon ok. Lokal `41b23304`, kein Push, keine Frage.
+- Als Nächstes in dieser Reihe: OVHcloud (auch 14.10.).
+
+## Neu 25.10.2026 ~15:15 (Dauerlauf Laufend): Aleph Alpha ganz geprüft, Profil-Prüfdatum 08.10. → 25.10.
+
+- Die neun Werte mit Stand 15.10. (Zweckbindung, Betroffenenrechte, Zweck der Protokolle, je Modell Backups und vorgeschaltete Filter) neu von Hand gelesen: Produktdoku Pharia-1 „Data privacy“ unverändert (dieselben drei Sätze, kein Wort zu Backups, Filtern, Zweck, Betroffenen), Datenschutzerklärung regelt weiter nur Website, Kontakt, Newsletter und Bewerbungen, Sitemap ohne Rechts- oder Trust-Seite. Alle bleiben „unbelegt“, Prüfdatum 25.10.
+- Damit ist das Profil-Prüfdatum 25.10. Neuer Test `test/profil-pruefdatum.test.js`: Profil-Datum = ältestes Einzel-Datum (vorher rot nur bei Aleph Alpha, alle 32 anderen hielten es schon).
+- Nebenbefund: Impressum nennt als Vertreter Ilhan Scheer; kein Profilfeld betroffen.
+- Kopien `belege/anbieter/aleph-alpha/{doku,datenschutz,impressum}-2026-10-25.html` mit SHA-256 (ohne Zeitstempel-Datei). 416/416 Tests, Build streng im Wegwerf-Klon ok. Lokal `9b98c7ce`, kein Push, keine Frage.
+
+## Neu 25.10.2026 ~15:00 (Dauerlauf Laufend): Aleph Alpha ISO 27001 jetzt mit Geltungsbereich und Aussteller belegt
+
+- Anlass: ältester Prüfstand aller Profile (Geltungsbereich und Zertifizierer von Aleph Alpha, 08.10.). Damals sperrte Cloudflare die DQS-Datenbank.
+- Heute ist der DQS-Eintrag per Skript lesbar, der Eintrag der Muttergesellschaft im Browser. Er verlinkt das Zertifikat selbst (PDF): Nr. 31623205 ISMS22, gültig bis 19.12.2027, Aussteller DQS GmbH Frankfurt, Scope „Research, development and commercialization of generative AI technology with focus on multimodal large language models.“, Standorte Heidelberg, Berlin, Bayreuth (zwei Adressen, eine davon Rechenzentrum).
+- Geändert: Geltungsbereich unbelegt → belegt; Zertifizierer „DQS“ → „DQS GmbH, Frankfurt am Main“; der Vorbehalt bei der DAkkS-Akkreditierung („ob genau diese Gesellschaft“) ist weg; ISO 42001 bleibt unbelegt (beide DQS-Einträge nennen nur 27001). Das PDF sagt selbst, gültig sei es nur über den QR-Code; das steht in der Anmerkung.
+- Belege `belege/anbieter/aleph-alpha/dqs-*-2026-10-25.*` mit SHA-256 und Zeitstempel. 415/415 Tests, Build streng im Wegwerf-Klon ok. Lokal `bf1f4b33`, kein Push, keine Frage.
+- ~~Offen: Das Gesamt-Prüfdatum des Profils steht noch auf 08.10.~~ Erledigt 25.10. ~15:15 (Abschnitt darüber).
+
+## Neu 25.10.2026 ~14:42 (Dauerlauf E22-5, Stapel 44): 649 von 943, nichts gesichert
+
+- openai.com/policies/business-terms/ und /sub-processor-list/ „kein Snapshot“ (Status 520), openai.com/security-and-privacy/ „fetch failed“ → Sperre, angehalten (kein Fehlversuch angerechnet). Die OpenAI-Seiten liegen hinter Bot-Prüfung, das Archiv kommt dort seit Stapel 43 nicht durch.
+- 90 Quellen offen. Nächster Stapel nicht vor 15:45, weiter `node nachsichern.js --anzahl 8`. 415/415 Tests, lokal `b96d4974`, kein Push.
+
+## Neu 25.10.2026 ~14:05 (Dauerlauf Laufend): Vorauswahl-CSV sagt beim Preis dasselbe wie die Webseite
+- Fund: In der CSV stand bei 15 Anbietern der Preis auf „ungeklärt“ (OpenAI, Anthropic, Google, Microsoft, Meta, Amazon, DeepL, Cohere u. a.). Die Webseite sagt an derselben Stelle richtig „kein EUR-Preis erfasst, siehe Profil“: Die Preise sind im Profil belegt, nur nicht in Euro (meist USD in der Anmerkung). Ein Prüfer in Excel hätte gelesen, wir wüssten den Preis nicht.
+- Jetzt: CSV-Zelle „kein EUR-Preis erfasst, siehe Profil“, Quelle = Profil-Adresse, Datum = Profil-Prüfdatum. „ungeklärt“ bleibt nur, wenn kein Modell eine Quelle hat (heute keiner).
+- Test zuerst rot, dann grün; 415/415, Build streng im Wegwerf-Klon ok (15 Zellen). Lokal `f42fb2ef`, kein Push, keine Frage.
+
+## Neu 25.10.2026 ~13:45 (Dauerlauf Laufend): Meta-Wächterfund nachrecherchiert, alte Zahl 92 dreimal zitiert, keine Ankündigung gefunden
+- Die zwei „ungeklärt“-Punkte aus der privaten Wächter-Meldung vom 25.10. (Muse-Wonder-Modellkarte, ExploitGym 92 → 20) geklärt, so weit es geht.
+- Ankündigung der Korrektur durch Meta (Blog, Leaderboard): in drei Websuchen nicht gefunden; Suchindizes zeigen noch die alte Fassung.
+- Alte Zahl zitiert: felloai.com, Handy AI (Substack) und aiwiz.uk, jeweils mit 21/71-Aufteilung; aiwiz sagt „Last updated 24 October“ und hat trotzdem 92/21. Lokale Kopien mit SHA-256 in `waechter/roh/2026-10-25/zitate-92/` (git-ignoriert), Nachtrag in der privaten Meldung.
+- Nutzen: Beispiel für Gespräche mit Prüfern (Vergleichsseiten hinken der Modellkarte hinterher, nur eine datierte Kopie zeigt das). Kein Profilwert betroffen, keine Tests berührt, nichts committet (nur git-ignorierte Dateien), kein Versand, keine Frage.
+
+## Neu 25.10.2026 ~13:20 (Dauerlauf Laufend): DPF-Liste von Hand neu abgefragt, alles gleich
+- Neunter bis 13. blinder Fleck aus dem DÜNN-Block: www.dataprivacyframework.gov/list und /participant/5776, 6474, 5780, 4452 (je 12 Wörter Hülle; Feld stammdaten.dpf in 11 Profilen).
+- Abfrage über die Schnittstelle der Liste (robots offen), Liste laut Schnittstelle zuletzt geändert 25.10. 6:00 EST. Amazon, Microsoft, Google, Meta: Einträge Feld für Feld gleich wie die Kopien vom 22./23.10. OpenAI, Anthropic, Claude: 0 Treffer. Cohere: nur OpaVote/Coherent Inc. Gegenproben je 1 Treffer.
+- Keine Wertänderung; je ein Satz „am 25.10. von Hand neu abgefragt“ in den 11 Anmerkungen. Beleg `belege/rechtsraum/dpf-2026-10-25/` (22 Antworten, SHA256SUMS, gestempelt). 414/414 Tests, Build streng im Klon ok, lokal `078a9c42`, kein Push.
+- Damit sind alle 24 DÜNN-Seiten einmal von Hand gelesen (Meta ×2 über die Archivkopie 25.10.). Frage 546 (Prüfdatum bei DÜNN-Seiten nicht automatisch fortschreiben) bleibt offen.
+
+## Neu 25.10.2026 ~12:55 (Dauerlauf Laufend): DeepSeek-Hilfe-Center von Hand gerendert, Angabe stimmt
+- Achter blinder Fleck aus dem DÜNN-Block: static.deepseek.com/faq (Frage zum Kooperationsvertrag, 2 Wörter Hülle; Feld vertrag.avv).
+- Chrome headless, dazu die API-Fragenliste. Beide Texte wortgleich mit dem Render vom 23.10. (nur Zeilenumbrüche anders). Zitate „self-service and standardized model“, „cannot be modified“, „Bank Transfer“ weiter da.
+- AVV bleibt „unbelegt“, ein Satz „von Hand gerendert 25.10.“ in der Anmerkung. Beleg `belege/anbieter/deepseek-api/handpruefung-faq-2026-10-25.txt`. 414/414 Tests, Build streng im Klon ok, lokal `88b70bf2`, kein Push.
+- Rest DÜNN ohne Handprüfung: Meta ×2 (Archivkopie da), DPF ×5.
+
+## Neu 25.10.2026 ~13:40 (Dauerlauf E22-5, Stapel 43): 649 von 943
+
+- 1 vorhandene Archivkopie übernommen (Text gleich): docs.greenpt.ai/privacy/locations (Kopie 20261025112833). Danach openai.com/business-data/ (Status 520) und openai.com/policies/business-terms/ „fetch failed“ → Sperre, angehalten (kein Fehlversuch angerechnet).
+- 90 Quellen offen. Nächster Stapel nicht vor 14:40, weiter `node nachsichern.js --anzahl 8`. 414/414 Tests, lokal `64b9aa6f`, kein Push.
+
+## Neu 25.10.2026 ~11:25 (Dauerlauf OA-Z): OpenAI-Liste nachgezählt, 17 statt 18 Gesamtzeilen
+- Archiv-CDX fand eine lesbare Kopie vom 21.10.2026 (Stand „Last updated: October 14, 2026“; Kopie 20.10. war nur 403). Live-Seite nicht angefasst.
+- Zählung: 17 Fremdfirmen-Zeilen (Cloudflare zweimal), davon 14 mit „API“, dazu 5 OpenAI-Gesellschaften. Werte bleiben: API 19, ChatGPT Enterprise 22 (Business 21). Nur die Anmerkung bei openai-api sagte „18“ → korrigiert, sagt es offen.
+- Neuer Test in `test/subprozessoren-link.test.js` (beide Profile nennen 17). OpenAI bleibt in der Ausnahme „je Produkt“, weil die Liste das Produkt je Zeile nennt (wie Anthropic).
+- Belege `belege/anbieter/{openai-api,openai-chatgpt-enterprise}/handpruefung-oa-z-2026-10-25.txt`. 414/414 Tests, Build streng im Klon ok, lokal `e8e16e1a`, kein Push.
+
+## Neu 25.10.2026 ~11:45 (Dauerlauf Laufend): Microsoft-Liste von Hand nachgezählt, Azure OpenAI 89 → 88
+- Siebter blinder Fleck aus dem DÜNN-Block: servicetrust.microsoft.com/DocumentPage/115f… und aka.ms/subprocessor (je 12 Wörter Hülle). aka.ms leitet weiter auf dieselbe Seite; Seite nennt weiter „Online Services Subprocessors List (2026-09-10)“.
+- PDF ohne Anmeldung über api.servicetrust.microsoft.com/api/v2/downloadDocuments/<id> gelesen: 7 + 4 + 5 + 35 Fremdfirmen, 37 Rechenzentrums-Gesellschaften = 88. Copilot (88) stimmt, Azure OpenAI stand bei 89 (38) → korrigiert, Anmerkung sagt es offen.
+- Neuer Test „gleiche Liste → gleiche Zahl“ in `test/subprozessoren-link.test.js`. Er fand zusätzlich OpenAI: Gesamtliste einmal 18 (openai-api), einmal 17 Drittanbieter-Zeilen (openai-chatgpt-enterprise). Live hinter Bot-Prüfung, Archiv nur Juni → offen als Aufgabe OA-Z, im Test ausdrücklich ausgenommen (Anthropic zählt je Produkt, das ist richtig).
+- Belege `belege/anbieter/{azure-openai,microsoft-copilot}/handpruefung-stp-2026-10-25.txt` (PDF-SHA-256 + Text). 413/413 Tests, Build streng im Klon ok, lokal `8b6e2143`, kein Push.
+- Rest DÜNN ohne Handprüfung: Meta ×2 (Archivkopie da), DeepSeek-FAQ, DPF ×5.
+
+## Neu 25.10.2026 ~11:00 (Dauerlauf Laufend): Gcore- und Lyceum-Trust-Portal von Hand gerendert, Werte stimmen
+- Fünfter und sechster blinder Fleck aus dem DÜNN-Block: trustcentre.gcore.com Start + /resources, trust.lyceum.technology Start + /resources (je 3 Wörter Hülle).
+- Chrome headless wie bei Mistral/BFL. Gcore: Compliance weiter ISO 27001:2022, PCI-DSS 4.0, SOC 2 Type 1, GDPR; ISO-Zertifikat und SOC-2-Bericht nur auf Anfrage, PCI-Zertifikat frei; kein 42001, kein SOC 2 Type II. Lyceum: DPA und Engagement Letter frei, TOMs nur auf Anfrage, weiter kein ISO-Zertifikat.
+- Keine Status- oder Wertänderung; je ein Satz „von Hand gerendert 25.10.“ in den Anmerkungen (Gcore ISO 27001 + SOC 2, Lyceum TOM). Hinweis: Lyceum-Startseite sagt „Lyceum Technology GmbH“, die DPA „Lyceum Technology Germany GmbH“, nur im Beleg vermerkt.
+- Belege `belege/anbieter/gcore/` und `belege/anbieter/lyceum/handpruefung-trust-2026-10-25.txt`. 411/411 Tests, Build streng im Wegwerf-Klon ok, lokal `2986de89`, kein Push.
+- Rest DÜNN ohne Handprüfung: Meta ×2 (Archivkopie da), DeepSeek-FAQ, DPF ×5, Microsoft ×2.
+
+## Neu 25.10.2026 ~10:50 (Dauerlauf E22-5, Stapel 41): 645 von 943
+
+- 1 vorhandene Archivkopie übernommen (Text gleich): IONOS-TOM-PDF (AVV Anlage 2, Kopie 20261025082847). Danach deepl.safebase.us „fetch failed“ → Sperre, angehalten (kein Fehlversuch angerechnet).
+- 92 Quellen offen. Nächster Stapel nicht vor 11:50, weiter `node nachsichern.js --anzahl 8`. 411/411 Tests, lokal `5c5163e8`, kein Push.
+
+## Neu 25.10.2026 ~10:20 (Dauerlauf Laufend): BFL-Trust-Portal von Hand gerendert, Werte stimmen
+- Vierter blinder Fleck aus dem DÜNN-Block: trust.bfl.ai Start + /subprocessors (je 3 Wörter Hülle; Felder TOM, Subprozessoren, Anzahl, Drittländer, Zertifikate).
+- Chrome headless wie bei Mistral. 10 Subprozessoren wie im Profil, weiter ohne Orte (Drittländer bleibt ungeklärt). Kontroll-Zitate „Data encryption utilized“, „Penetration testing performed“ wörtlich da; ISO-27001- und SOC-2-Dokument wie im Profil.
+- Neu gesehen: ein weiterer Prüfbericht zum Datenschutz unter „Resources“, nur nach Zugangsanfrage. Ein Satz dazu in der TOM-Anmerkung (ohne Normen-Namen, Test normenbezug), Status unverändert.
+- Beleg `belege/anbieter/black-forest-labs/handpruefung-trust-2026-10-25.txt` (Vergleichsstand ab heute). 411/411 Tests, Build streng im Wegwerf-Klon ok, lokal `16eff0e8`, kein Push.
+- Rest DÜNN ohne Handprüfung: Meta ×2 (Archivkopie da), DeepSeek-FAQ, Gcore, Lyceum, DPF ×5, Microsoft ×2.
+
+## Neu 25.10.2026 ~09:55 (Dauerlauf Laufend): Gesprächskarte Fr 30.10. auf Stand gebracht
+- Zählstand-Zeile neu (3/5 · 2/2 · Pilot 0/1; das andere Gespräch der Woche hat seit 23.10. keine Termin-Antwort), Anbieterzahl online 24 statt 21.
+- Der Kalendereintrag zeigte auf zwei ältere Vorbereitungsdateien, jetzt auf die Karte (ohne Benachrichtigung). Nichts gesendet, keine Frage.
+
+## Neu 25.10.2026 ~09:45 (Dauerlauf Laufend): Mistral-Trust-Portal von Hand gerendert, Werte stimmen
+- Dritter blinder Fleck aus dem DÜNN-Block: trust.mistral.ai/subprocessors + /controls (je 4 Wörter Hülle; Felder Subprozessoren, Anzahl, Drittländer, TOM).
+- Chrome headless wie bei Anthropic. Subprozessoren: 25 Einträge (Seite „1-10 of 25 results“, von Hand gezählt), USA bei Google, Stripe, Blackforest Labs, Brave, Twilio, CrowdStrike, OVH, Gradual; Worldwide bei Megaport, Vultr, Cloudflare → Profilwerte stimmen. Controls: 26 Kontrollen, Pentest-Zitat wörtlich da.
+- Kein früherer Render gespeichert; der Text steht jetzt im Beleg `belege/anbieter/mistral/handpruefung-trust-2026-10-25.txt` als Vergleichsstand.
+- Korrigiert: Anmerkung `vertrag.subprozessoren` sagte noch „Einträge nicht gelesen“; jetzt: von Hand gelesen 25.10. 411/411 Tests, lokal, kein Push.
+- Rest DÜNN ohne Handprüfung: Meta ×2 (Archivkopie da), DeepSeek-FAQ, BFL ×2, Gcore, Lyceum, DPF ×5, Microsoft ×2.
+
+## Neu 25.10.2026 ~09:35 (Dauerlauf E22-5, Stapel 40): 644 von 943
+
+- 1 vorhandene Archivkopie übernommen (Text gleich): aleph-alpha.com (Kopie 20261023001908). Danach IONOS-TOM-PDF (AVV Anlage 2) „fetch failed“ → Sperre, angehalten (kein Fehlversuch angerechnet). Stapel 38/39 (Infomaniak-TOM-PDF, Infomaniak-Datenschutz) stehen nur in ALLEIN.md.
+- 93 Quellen offen. Nächster Stapel nicht vor 10:35, weiter `node nachsichern.js --anzahl 8`. 411/411 Tests (`node --test test/*.test.js`), lokal `c1fa047c`, kein Push.
+
+## Neu 25.10.2026 ~08:30 (Dauerlauf Laufend): Anthropic-Trust-Portal von Hand gerendert, alles gleich
+- Zweitgrößter blinder Fleck aus dem DÜNN-Block: trust.anthropic.com Start + /subprocessors (je 3 Wörter Hülle, zusammen 15 Felder in anthropic-api und anthropic-claude-enterprise).
+- Wie am 22.10. mit Chrome headless gerendert, Text mit demselben Skript aus altem und neuem DOM gezogen: beide Texte haben dieselbe SHA-256 wie am 22.10. Liste (22 Einträge), Haken „Claude via Anthropic's API“, Berichtsnamen und letzte Änderung 15.10. unverändert.
+- Keine Profiländerung; die Prüfdaten 25.10. sind hier sachlich gedeckt. Beleg `belege/anbieter/anthropic-api/handpruefung-trust-2026-10-25.txt`.
+- Rest DÜNN ohne Handprüfung: Meta ×2 (Archivkopie da), DeepSeek-FAQ, BFL ×2, Gcore, Lyceum, Mistral ×2 (alle Trust-Portale, gleiche Methode möglich), DPF ×5, Microsoft ×2.
+
+## Neu 25.10.2026 ~07:25 (Dauerlauf Laufend): Nordference von Hand über das Skript-Bündel geprüft, alles gleich
+- Nordference ist der größte blinde Fleck aus dem DÜNN-Block (6 Seiten, über 30 Felder). Alle Seiten laden dasselbe Skript-Bündel `index-CGzvo87P.js`; dort steht der ganze Text.
+- SHA-256 heute gleich wie am 08.10. (e68e235c…d9ad): Der Seitentext hat sich seit 08.10. nicht geändert. Alle Zitate aus den Anmerkungen stehen wörtlich drin, alle fünf Preise stimmen, „certified“ und „subprocessor“ kommen weiter nicht vor, Auslieferung weiter über Cloudflare.
+- Damit sind die automatisch fortgeschriebenen Prüfdaten 25.10. bei Nordference diesmal sachlich gedeckt. Beleg `belege/anbieter/nordference/handpruefung-buendel-2026-10-25.txt`. Keine Profiländerung.
+- Hinweis zu Frage 546: Bei Nordference würde ein Hash über das Bündel statt über die Hülle den Quellenlauf wieder sehend machen (neuer Dateiname nach Neuauslieferung = Signal). Nicht gebaut, gehört zur Antwort auf 546.
+
+## Neu 25.10.2026 ~07:00 (Dauerlauf AK3 Teil 2 + Fund): 24 Quellen, bei denen der Quellenlauf blind ist
+- AK3 Rest: OVHcloud ISO-Seite + AI-Endpoints-Katalog, Requesty DPA + Datenschutz weiter „fetch failed“ aus dem Archiv (Drosselung). GreenPT Nachhaltigkeit und Claude-Datenhaltung wie am 24.10. (echte Änderung schon übernommen bzw. nur Cookie-Banner). Bleibt so; nächster Blick nur, wenn der Archivcheck in der Tagesprüfung sie wieder trifft.
+- **Fund:** Der Wortstand für facebook.com/legal/terms/data_security_terms (TOM-Quelle Meta Model API) ist ein einziges Wort: „Facebook“. Die Seite lädt ihren Text erst im Browser. Der Hash läuft über die Hülle, der Quellenlauf meldet sie täglich „unverändert“ und schreibt das Prüfdatum fort. Die Wayback-Kopie 20261025022236 hat den vollen Text (825 Wörter, „Effective Date: April 25, 2023“).
+- Neu im Quellenlauf: Block **DÜNN** (wie im Wächter, unter 100 Wörtern HTML; PDFs, Hugging Face und Notion-API zählen nicht). Trockenlauf 25.10.: 24 Seiten – Meta Data Security Terms + MGPT (je 1 Wort), DeepSeek-FAQ (2), Trust-Center Anthropic ×2, BFL ×2, Gcore, Lyceum, Mistral ×2 (3–4), DPF-Liste + 4 Teilnehmerseiten, Microsoft Service Trust + aka.ms/subprocessor (12), nordference.ai ×6 (12). Liste `allein/tmp/ql-duenn-2026-10-25.txt`.
+- Meta-TOM-Anmerkung: Zitat war eine deutsche Übersetzung in Anführungszeichen; jetzt englisch wörtlich („Logging and auditing of physical access to the data center by employees and contractors“) mit Übersetzung in Klammern, Stand-Datum und Satz, dass der Quellenlauf hier blind ist.
+- Offen (Frage 546 an Felix): Prüfdatum bei DÜNN-Seiten nicht mehr automatisch fortschreiben, nur nach Lesen von Hand oder über eine Archivkopie.
+- 411/411 Tests (neu `test/duenn.test.js`), Build streng im Wegwerf-Klon ok (33 Anbieter), lokal `bf536fae`, kein Push.
+
+## Neu 25.10.2026 ~05:35 (Dauerlauf E22-5, Stapel 37): 641 von 943
+
+- 1 frisch gesichert: facebook.com/legal/terms/data_security_terms (Kopie 20261025022236, Text ungleich dem Prüfstand, zählt trotzdem; vermutlich Login-Hülle). Danach Infomaniak-TOM-PDF „fetch failed“ → Sperre, angehalten.
+- 96 Quellen offen. Nächster Stapel nicht vor 06:35, weiter `node nachsichern.js --anzahl 8`. 408/408 Tests, lokal `66228d21`, kein Push.
+
+## Neu 25.10.2026 ~03:25 (Dauerlauf E22-5, Stapel 36): 640 von 943
+
+- 1 vorhandene Archivkopie übernommen (Text gleich): exoscale.com/security. Danach facebook.com/legal/terms/data_security_terms „fetch failed“ → Sperre, angehalten (kein Fehlversuch angerechnet).
+- 97 Quellen offen. Nächster Stapel nicht vor 04:25, weiter `node nachsichern.js --anzahl 8`. 408/408 Tests, lokal, kein Push.
+
+## Neu 25.10.2026 ~02:05 (Dauerlauf E22-5, Stapel 35): 639 von 943
+
+- 1 vorhandene Archivkopie übernommen (Text gleich): Scaleway-TOM-PDF. Danach exoscale.com/security „fetch failed“ → Sperre, angehalten (kein Fehlversuch angerechnet).
+- 98 Quellen offen. Nächster Stapel nicht vor 03:05, weiter `node nachsichern.js --anzahl 8`. 408/408 Tests, lokal, kein Push.
+
+## Neu 25.10.2026 ~02:00 (Dauerlauf WX-CSV): Vorauswahl als Tabelle zum Herunterladen
+
+- Neu `docs/vorauswahl/vorauswahl.csv` (Build schreibt sie, `VA.csv` in `lib/vorauswahl.js`): 33 Zeilen, 20 Spalten. Je Wert (Preis, Zahl der Unterauftragnehmer, Drittländer, AVV, TOM, belegte Zertifikate) eine Spalte Quelle und eine Spalte „geprüft am“; ohne Wert steht „ungeklärt“ (42 Zellen). UTF-8 mit BOM, Semikolon, CRLF (`.gitattributes`: `*.csv -text`), Formelzeichen vorne entschärft.
+- Link „Als Tabelle (CSV)“ unter der Tabelle auf `/vorauswahl/`. Grund: Prüfer und Datenschutzbeauftragte führen die Dienstleister-Prüfung in Excel, so landen unsere Belege samt Quelle in ihren Akten.
+- Test zuerst (`test/vorauswahl-csv.test.js`, 0/6 → 6/6), alle 408/408 grün. Lokal `1abde8f4` + `a963643d` (darin auch die Build-Ausgabe vom 25.10. für schon versionierte Seiten; die unversionierten Build-Ordner bleiben unangetastet). **Kein Push**, geht mit dem nächsten Hochladen der Vorauswahl mit.
+
+## Neu 25.10.2026 ~01:10 (Dauerlauf Tagesprüfung): Wächter-Fund Meta, sonst Rauschen
+
+- 402/402 Tests, Build streng im Wegwerf-Klon ok (33 Anbieter). Vier Tests waren nach dem Quellenlauf rot: `test/subprozessoren-link.test.js` verlangte fest `geprueft: 2026-10-24`, der Quellenlauf setzt das Datum täglich neu → jetzt „24.10. oder später“.
+- Archivcheck 23 Zitate: nur zwei Kopien „fetch failed“ (Drosselung). Fälle 003/004 wörtlich bis auf BFL-Privacy (nur Leerraum, bekannt).
+- Quellenlauf 328: 292 gleich, 13 verändert, 15 weg, 6 neu. Alle 13 von Hand gelesen: EUrouter bewirbt neue Modelle (Mistral Large 4, DeepSeek V4.1 Flash, Claude Haiku 5.5), Preise der fünf Profilmodelle im Seiten-JSON gleich; OpenAI „your data“: ein Satz zu Zero Data Retention und erweitertem Prompt-Caching fehlt (Wortlaut ungeklärt, Archiv 429), alle zitierten Sätze stehen wörtlich da; Rest Menü, Build-IDs, Sprachwechsel. Übernommen. Weg: OpenAI 403, Archiv-Drosselung, Cohere-Trust-Center (bekannt).
+- **Wächter echt:** Meta, Modellkarte Muse Wonder: Tabelle „ExploitGym 92*“ → „20*“, neue Fußnote „Updated ExploitGym Evaluations (23 October 2026)“ (Messaufbau korrigiert, 20 statt 92 bzw. 21 Flags; Risikostufe „moderate or lower“ bleibt). Kopien `waechter/roh/2026-10-22/` und `2026-10-25/` mit SHA-256 und Zeitstempel; private Meldung `outreach/gespraeche/ECHTE-WAECHTER-MELDUNG-2026-10-25.md`. Kein Profilwert betroffen. Pilot 10 gleich.
+- Lokal `087330a3`, **kein Push**. Die 43 Build-Ordner in `docs/` vom 24.10. 00:07 liegen weiter unangetastet (gehören zum Push-Schritt im Home-Tab).
+
+## Neu 24.10.2026 ~20:38 (Dauerlauf Verbesserer): Ablaufdatum der Zertifikate fehlt als Feld
+
+- 112 Zertifikats-Einträge, keiner mit eigenem Ablaufdatum; 14 Daten stehen nur im Freitext. Fünf „belegte“ enden am 07.11.2026 (Nebius ISO 27001/27701/27018/42001, Gcore PCI DSS) und würden danach weiter als belegt erscheinen.
+- Vorschlag Feld `gueltig_bis` + Anzeige „abgelaufen“ in `VERBESSERER.md`, wartet auf Felix. Nachprüfung Nebius/Gcore am So 08.11. ist eingeplant. Nichts gebaut.
+
+## Neu 24.10.2026 ~20:40 (Dauerlauf E22-5, Stapel 34): 638 von 943
+
+- 1 vorhandene Archivkopie übernommen (Text gleich): Mistral-Unterauftragnehmer. Danach Scaleway-TOM-PDF „fetch failed“ → Sperre, angehalten (kein Fehlversuch angerechnet).
+- 99 Quellen offen. Nächster Stapel nicht vor 21:40, weiter `node nachsichern.js --anzahl 8`. 402/402 Tests grün. Lokal `c1b62265`, kein Push, keine Frage.
+
+## Neu 24.10.2026 ~18:15 (Dauerlauf Laufend): Lücken in der Vorauswahl-Tabelle nachgeprüft
+
+- Stand: 102 von 132 Zellen (33 Anbieter × AVV, Sicherheitsmaßnahmen, Zahl der Unterauftragnehmer, Drittländer) haben einen belegten Wert. 9 Zellen sind „nur auf Anfrage“, 21 fehlen ganz. Die meisten Lücken liegen bei 6 Anbietern ohne jede öffentliche Liste (Aleph Alpha, DeepSeek, Nordference, Regolo, Lyceum, Infomaniak).
+- Zwei Lücken neu versucht, beide bleiben „ungeklärt“:
+  - Gcore Sicherheitsmaßnahmen: Die Seite gcore.com/legal liefert beim Abruf nur den Rahmenvertrag; der DPA-Reiter lädt per JavaScript nach, die Schnittstelle `/api/cms` hat keine öffentliche Route (404). Web-Suche ohne Treffer.
+  - Infomaniak Unterauftragnehmer: Die DSGVO-Seite (infomaniak.com/en/legal/general-data-protection-regulation, Abruf 24.10.) verspricht nur „Be transparent when we use subcontractors“, eine Liste oder der Anhang „Third-Party Subcontractors“ ist weiter nicht öffentlich.
+- Für ein Prüfer-Gespräch brauchbar: Die Lücken sind selbst ein Befund (wer nichts öffentlich zeigt). Nichts an den Daten geändert, nichts gebaut, keine Frage.
+
+## Neu 24.10.2026 ~17:53 (Dauerlauf E22-5, Stapel 33): 636 von 943
+
+- 2 vorhandene Archivkopien übernommen (Text gleich): Lyceum Trust Center, Mistral Trust-Controls. Danach Mistral-Unterauftragnehmer „fetch failed“ → Sperre, angehalten (kein Fehlversuch angerechnet).
+- Versehen: `node nachsichern.js --help` startet einen Stapel (es gibt keine Hilfe-Option, Standard 15), darum lief er 17:52 statt ab 18:00. Kein Schaden.
+- 101 Quellen offen. Nächster Stapel nicht vor 19:00, weiter `node nachsichern.js --anzahl 8`. 402/402 Tests grün. Lokal, kein Push, keine Frage.
+- Nebenbei geprüft: die 43 ungetrackten Ordner in `docs/` (Build 24.10. 00:07) sind gewollter Build-Stand; Felix' Hochlade-Befehl (unten, „Reihenfolge für den Home-Tab“) nimmt sie mit `git add -A docs` mit. Nicht löschen.
+
+## Neu 24.10.2026 ~17:45 (Dauerlauf Laufend): Kill-Check-Stand auf heute
+
+- Stand: 3 von 5 Gesprächen, 2 von 2 Bedingungen, Pilot 0 von 1. Unverändert seit 22.10.
+- Das Zwischenziel Mi 28.10. („1 Dossier angeboten“) hängt nur noch an zwei Handgriffen: Vorauswahl-Seite hochladen, dann das fertige Angebot senden. Beides ist eine offene Frage an Felix.
+- Posteingang 24.10.: ein Prüfer hat eine Antwort für die nächste Woche angekündigt; eine Terminanfrage für 28./29.10. ist weiter unbeantwortet. Details nur in der privaten Messdatei.
+- Nichts gesendet, nichts gebaut, keine neue Frage.
+
+## Neu 24.10.2026 ~17:20 (Dauerlauf Laufend): Wachsen (WX1) braucht neue Namen
+
+- WX1 steht heute bei 1 von 5 (Cohere). Die Liste aus WX1 ist abgearbeitet, und kein Prüfer hat seit DeepL einen weiteren Anbieter genannt.
+- Vorschlag (nichts gebaut): die KI-Funktionen der fünf Büro-Tools aus dem Probe-Pilot aufnehmen (Zoom AI Companion, Slack AI, Notion AI, Atlassian Rovo, HubSpot Breeze). AVV und Unterauftragnehmer-Liste liest der Pilot-Wächter schon seit 18.10.; Produktseiten am 24.10. live geprüft (5 von 5 erreichbar). Ungeklärt: Modell dahinter und EU-Datenhaltung je Tool.
+- Blatt `WX1-KANDIDATEN-2026-10-24.md`, Frage 540 an Felix. Bis zur Antwort kein neuer Anbieter.
+
+## Neu 24.10.2026 ~16:40 (Dauerlauf E22-5, Stapel 32): 634 von 943
+
+- STACKIT-TOMs-PDF als schon vorhandene Archivkopie übernommen (Text gleich). Danach Lyceum Trust Center „fetch failed“: das Archiv sperrt weiter, der Stapel hielt nach 2 Quellen an (kein Fehlversuch angerechnet).
+- 103 Quellen offen. Nächster Stapel nicht vor 18:00, weiter `node nachsichern.js --anzahl 8`. 402/402 Tests grün. Lokal `f5d203d2`, kein Push, keine Frage.
+
+## Neu 24.10.2026 ~14:10 (Dauerlauf Laufend): Nachsichern schaut erst im Archiv nach und hält bei Sperre an
+
+- Problem: Vier Archiv-Stapel in Folge schafften nur 1 von 8. Eine reine Lese-Probe (keine neue Sicherung) zeigt den Grund: Nach etwa 6 Abrufen lehnt web.archive.org jede Verbindung ab, auch Leseabfragen, bei allen Zielseiten gleich. Die übrigen 7 Quellen je Stapel bekamen trotzdem einen Fehlversuch angerechnet.
+- Neu 1: `nachsichern.js` fragt zuerst das Archiv-Verzeichnis (CDX, nur lesen), ob es schon eine Kopie gibt (höchstens 60 Tage alt, `--max-tage`). Sie wird nur übernommen, wenn ihr Text gleich dem Prüfstand ist; sonst wie bisher Save Page Now. In der Probe hatten 2 von 3 prüfbaren Quellen so eine Kopie (STACKIT TOM-PDF, Mistral Trust-Controls).
+- Neu 2: „fetch failed“, ECONNREFUSED, ECONNRESET und 429 gelten als Sperre des Archivs: Stapel hält an, die Quelle bekommt keinen Fehlversuch. „kein Snapshot“ und Zeitüberschreitung zählen weiter.
+- Test zuerst (3 rot, dann 1 rot), 402/402. Lokal `dd621509`, kein Push, keine Frage. Nächster Stapel wegen der Probe-Sperre nicht vor 15:10.
+
+
+## Neu 24.10.2026 ~13:35 (Dauerlauf E22-5, Stapel 31): 633 von 943
+
+- Die Zählung ist gewachsen (943 Angaben-Zeilen statt 844), weil die Vorauswahl-Felder aus LP1 eigene Quellen haben; vorher 631 mit Kopie.
+- 1 von 8 gesichert: Microsoft-Unterauftragnehmerliste (aka.ms/subprocessor, gleich). Abgelehnt („fetch failed“): Aleph Alpha Startseite, IONOS TOM-Anlage (PDF), DeepL Safebase, GreenPT Standorte, OpenAI ×3 (Business-Daten, Unterauftragnehmer, Sicherheit).
+- 104 Quellen offen. Vierter Stapel in Folge nur 1 von 8: das Archiv drosselt. Nächster Stapel nicht vor 14:35, weiter `node nachsichern.js --anzahl 8`. 398/398 Tests grün. Lokal `6b104ece`, kein Push, keine Frage.
+## Neu 24.10.2026 ~13:35 (Dauerlauf Laufend): Hetzner steht jetzt als „kostenlos (solange experimentell)“
+
+- Offener Punkt von 13:02: Hetzner stand in Tabelle und Dossier nur als „kostenlos“. Quelle live geprüft am 24.10.: docs.hetzner.com Inference API, FAQ „As long as the Inference API remains in experimental status, it is free of charge“, dazu „should not use the platform for production environments“. Der Wert 0 stimmt, aber ohne die Bedingung liest ein Prüfer ihn als Dauerpreis.
+- Neu: optionales Modellfeld `preis_bedingung` (nur bei Preis 0 erlaubt, sonst Fehler). Wenn alle freien Modelle dieselbe Bedingung nennen, steht sie überall neben „kostenlos“: Vorauswahl, Übersicht, Profil-Modelltabelle, Dossier. Hetzner: beide Modelle „solange experimentell“. README ergänzt.
+- Test zuerst (2 rot, dann 398/398), Build streng ok im Wegwerf-Klon, Hetzner-Dossier neu erzeugt. Lokal `40059999`, kein Push, keine Frage.
+- Der Wegwerf-Klon `~/allein/tmp/bk-preis` ließ sich nicht löschen (Schutzprüfung von Claude Code, weil er kurz Arbeitsordner war). Kann weg, Felix oder ein späterer Lauf.
+
+## Neu 24.10.2026 13:02 Systemuhr (Dauerlauf Laufend): Vorauswahl-Zeile im Dossier nennt jetzt auch Preis und AVV
+
+- Lücke: Der Auditor (Gespräch 3) wollte Preis, Unterauftragnehmer, Drittländer, AVV und TOM an einer Stelle. Die Tabelle /vorauswahl/ hat alle fünf, die Zeile oben im Dossier hatte nur drei.
+- Jetzt: „- Vorauswahl: Preis: ab 0,15 € / 1M Input; Unterauftragnehmer 11; Drittländer: Kanada, USA; AVV: <Link>; Sicherheitsmaßnahmen: <Link>“, gleiche Reihenfolge und gleicher Preis wie die Tabelle (`preisKurz`), ohne Preis „kein EUR-Preis erfasst“, ohne AVV „ungeklärt“.
+- Vorrat neu erzeugt: alle 33 `dossiers/<id>-2026-10-24.md` (privat) tragen die Zeile.
+- Auffällig, nicht geändert: Hetzner steht in Tabelle und Dossier als „kostenlos“ (günstigster Modellpreis 0). Beim nächsten Hetzner-Blick prüfen, ob das ein Gratis-Kontingent ist und so stehen soll.
+- Test zuerst (2 rot, dann 396/396), Build streng ok im Wegwerf-Klon. Lokal `b999568e`, kein Push, keine Frage.
+
+## Neu 24.10.2026 12:07 Systemuhr (Dauerlauf Laufend): Dossier zeigt jetzt Unterauftragnehmer, Drittländer und Sicherheitsbeschreibung
+
+- Lücke: Die drei Felder aus LP1 (Zahl der Unterauftragnehmer, Drittländer, Link zur Sicherheitsbeschreibung) standen nur auf /vorauswahl/, nicht im Dossier. Genau danach hat der Auditor gefragt, und ihm wird das erste Gratis-Dossier angeboten.
+- Jetzt: je eine Zeile in Abschnitt 1 (belegt) oder 2 (nicht belegbar, mit „Ungeklärt: …“), dazu oben unter „Auf einen Blick“ eine Zeile „Vorauswahl: Unterauftragnehmer …; Drittländer: …; Sicherheitsmaßnahmen: …“ (gleiche Wörter wie die Tabelle, auch „nur auf Anfrage“). Das Änderungsprotokoll bleibt unberührt, die Felder laufen bewusst nicht über `belegFelder`.
+- Vorrat neu: 33 Dossiers `dossiers/<id>-2026-10-24.md` (privat, gitignored), alle mit der Vorauswahl-Zeile. Wählt der Auditor drei Anbieter, sind sie am selben Tag fertig (`node dossier.js <id> --fuer "…"`).
+- Test zuerst `test/dossier-vorauswahl.test.js` (4 rot, dann 1 rot für „nur auf Anfrage“), dann 395/395; Build streng ok im Wegwerf-Klon (vor dem kleinen Nachtrag, danach gelöscht). Lokal `a7053b6c` + `ba789680`, 147 Commits vor origin/main, kein Push, keine Frage.
+
+## Neu 24.10.2026 ~12:30 (Dauerlauf E22-5, Stapel 30): 587 von 844
+
+- 1 von 8 gesichert: Cohere Command A Plus. Abgelehnt („fetch failed“): Nebius Token-Factory-Bedingungen, GreenPT Datenschutz, OpenAI-Hilfe ×2 (Compliance-API, Datenresidenz), Microsoft Learn ×3 (Bereitstellungsarten, C5, ISO 27001).
+- 87 Quellen offen. Drei Stapel in Folge nur 1 von 8: das Archiv drosselt. Nächster Stapel nicht vor 13:30, weiter `node nachsichern.js --anzahl 8`. Lokal, kein Push, keine Frage.
+
+## Neu 24.10.2026 ~11:45 (Dauerlauf Laufend): erstes Pilot-Angebot liegt als Entwurf (Auditor, Gespräch 3)
+
+- Die Mail des Auditors vom 23.10. (Wunsch: Preise, Lieferkette, Drittländer, AVV- und TOM-Link an einer Stelle) war unbeantwortet. Die Seite dafür ist lokal fertig (`456c90a5`, `docs/vorauswahl/`, 32 Anbieter).
+- Antwort-Entwurf `r-6658349793740131607` im Thread `1a138bde6b317db6` (von der Gmail-Adresse wie bisher): Link belegbar.eu/vorauswahl/, offen gesagt, dass „Leistungsfähigkeit der Produkte“ fehlt, seine AVV-Regel aufgenommen, **Angebot: kostenloses Dossier für bis zu drei Anbieter seiner Wahl, Gegenleistung nur „was hat gefehlt“**.
+- Zählt nach dem Senden für Kill-Check-Kriterium 3 (Zwischenziel Mi 28.10. „1 Dossier angeboten“).
+- **Versand erst nach dem Hochladen** (Frage 533, die Seite enthält auch US-Profile), dann Frage 536 „senden?“. Nichts gesendet, nichts gepusht.
+
+## Neu 24.10.2026 ~11:25 (Dauerlauf E22-5, Stapel 29): 586 von 844
+
+- 1 von 8 gesichert: die neue IONOS-Cloud-Unterauftragnehmerliste (Kopie gleich dem Prüfstand). Abgelehnt („fetch failed“): Microsoft Service Trust Portal, Cohere Preise, Datenschutz, SaaS-Vertrag, Meta ZDR und Nutzungsbedingungen, AWS Bedrock Missbrauchserkennung.
+- Ausgangsstand war 585 statt 587, weil fünf Unterauftragnehmer-Links seit 11:00 auf neue Listen zeigen, die noch keine Kopie hatten.
+- 88 Quellen offen. Cohere und Meta lehnt das Archiv seit zwei Stapeln ab; nächster Stapel nicht vor 11:55, weiter `node nachsichern.js --anzahl 8`. 388/388 Tests grün. Lokal, kein Push, keine Frage.
+
+## Neu 24.10.2026 ~11:00 (Dauerlauf Laufend): Unterauftragnehmer-Link zeigt jetzt auf die Liste, die gezählt wurde
+
+- Offener Rest aus LP1: Bei fünf Profilen zeigte „Subprozessoren-Liste“ auf eine andere Liste als die, die bei „Zahl der Unterauftragnehmer“ gezählt wurde, oder auf gar keine.
+- **IONOS:** jetzt die eigene Liste der IONOS Cloud GmbH (1 Eintrag, IONOS SE), vorher die Gruppenliste für ionos.de-Produkte (27 Einträge), die für den AI Model Hub nicht gilt. **EUrouter:** jetzt eurouter.ai/dpa (dort steht die Liste mit Better Stack und PostHog), vorher /providers. **Azure OpenAI und Copilot:** jetzt die Service-Trust-Portal-Seite der „Online Services Subprocessors List“, Status beansprucht → belegt (die Liste ist ohne Anmeldung lesbar, gezählt am 24.10.). **T-Systems:** stand auf „belegt“ ohne Link, jetzt Anhang IV der ErgB-AV T Cloud Public.
+- Alle Ziel-URLs am 24.10. ~10:55 live geprüft (HTTP 200); IONOS-Cloud sperrt `/terms-` in robots.txt, dort nur Erreichbarkeit.
+- Folge im Filter „vollständig belegt“ (AVV + Liste + kein Training): Azure OpenAI und Copilot erfüllen ihn jetzt. Beide sind US-Profile und noch nicht online.
+- Test zuerst `test/subprozessoren-link.test.js` (6 rot, u. a. Regel „belegte Zählung → Liste nicht nur beansprucht“ und „belegte Liste ist ein Link“), dann 388/388; Build streng ok im Wegwerf-Klon. Lokal `3f9d58d6`, kein Push, keine Frage.
+
+## Neu 24.10.2026 ~10:50 (Dauerlauf E22-5, Stapel 28): 587 von 844
+
+- 1 von 8 gesichert: Cohere Enterprise Data Commitments. Abgelehnt („fetch failed“): Cohere Preise, Datenschutz, SaaS-Vertrag, Command-A-Plus-Doku, Trust Center ×2, Meta-Preisseite. Die neuen Cohere-Quellen nimmt das Archiv gerade nicht an.
+- 87 Quellen offen. Nächster Stapel nicht vor 11:20, weiter `node nachsichern.js --anzahl 8`. 382/382 Tests grün. Lokal `d59fc5ae`.
+
+## Neu 24.10.2026 ~10:25 (Dauerlauf Laufend): Hochladen mit `push-sauber.sh` hält heute an, so geht es
+
+- In `~/belegt` liegen 43 ungetrackte Ordner unter `docs/` (8 US-Profile, 33 Vergleiche mit US-Anbietern, `docs/vorauswahl/`). Sie stammen vom Build der Tagesprüfung 24.10. 00:07; zurückgesetzt wurden nur geänderte Dateien, neue blieben liegen. Nichts davon ist online, nichts geht versehentlich raus: `push-sauber.sh` hält schon beim ersten Schritt an („Arbeitskopie nicht sauber“).
+- Probe im Wegwerf-Klon (24.10. ~10:20, danach gelöscht): `node build.js --streng` läuft grün, ändert aber 168 eingecheckte Dateien und legt 52 neue an. Darum hält `push-sauber.sh` auch nach dem Aufräumen bei Schritt 3 an („Build hat echte Änderungen erzeugt“). Das ist gewollt: Seit dem 22.10. wurde `docs/` nie mitcommittet. Kein Entwurfsfall landet in `docs/faelle/`.
+- **Reihenfolge für den Home-Tab (Felix, ~3 min), erst nach dem Ja zu den US-Profilen (Frage oben, „US-Anbieter so online stellen?“):** `cd ~/belegt && node build.js --streng && git add -A docs && git commit -m "build: docs Stand 24.10." && bash dossiers/push-sauber.sh` (nur prüfen), dann `bash dossiers/push-sauber.sh --push`. Die liegenden 43 Ordner baut der Build ohnehin neu, sie müssen nicht vorher weg.
+- Lokal liegen jetzt 138 Commits vor origin/main (nicht 135). Für die Tagesprüfung gilt ab jetzt: Build nur im Wegwerf-Klon, nie direkt in `~/belegt` (Regel in ALLEIN.md).
+
+## Neu 24.10.2026 ~10:00 Systemuhr (Dauerlauf Laufend): Fall-Entwurf 007 (Regolo) nachgeprüft, Widerspruch steht unverändert
+
+- Letzte Prüfung war der 08.10. Alle drei Quellen neu abgerufen (07:59 UTC, robots.txt erlaubt alles): ZDR-Seite, Datenschutzerklärung, Blog „Zero Data Retention LLM …“.
+- Alle vier Zitate und fünf Kontext-Stellen stehen weiter wörtlich da. ZDR-Seite im Text gleich wie am 08.10., Blog nur im Seitenrahmen anders.
+- Nebenfund ohne Folge für den Fall: Der Cookie-Teil der Datenschutzerklärung hat seit 07.10.2026 (Version 1.1) Google Ads als Werbepartner, mit Übermittlung in die USA.
+- Kopien `*-2026-10-24.html` in `belege/faelle/2026-007/`, SHA-256 in `SHA256SUMS`, OpenTimestamps gestempelt; Verlauf im Entwurf ergänzt. 382/382 Tests, lokal `2b7ab748`, kein Push. Entwurf bleibt Entwurf (Anbieter nicht informiert), keine Frage an Felix.
+
+## Neu 24.10.2026 ~10:15 (Dauerlauf Laufend): Spickzettel für Gespräch 4 auf Stand gebracht
+
+- Der private Spickzettel für das nächste Prüfer-Gespräch (Termin 28./29.10. noch nicht bestätigt) ist auf Stand 24.10.: zählt als Gespräch 4 von 5, Schwerpunkt Pilot (Kriterium 3, 0 von 1), Lehre aus dem Forscher-Gespräch 21.10. („Herkunft der Daten“ = dieselbe Bedingung), Status der vier eigenen Lücken.
+- Neu gezählt (jedes Feld mit Status und Quellfeld): **online** (Stand 22.10. mittags) 24 Anbieter, 936 Angaben (440 belegt, 116 beansprucht, 380 unbelegt), 204 Quell-URLs, 221 Einträge im Änderungsprotokoll; **lokal** 33 Anbieter, 1.312 Angaben (656/177/479), 294 Quell-URLs, 580 von 844 Zeilen mit Archivkopie. Die Zahl „408 Angaben“ vom 19.10. war anders gezählt, nicht vergleichen.
+- Hinweis für den Home-Tab: lokal liegen 135 Commits vor origin/main. Was im Gespräch gezeigt werden soll (Register-Feld, Vorauswahl, ehrlicher Satz auf der Käuferseite), ist erst nach dem Hochladen sichtbar (`bash dossiers/push-sauber.sh --push`, Felix).
+- Nichts gebaut, keine Tests nötig, keine Frage an Felix.
+
+## Neu 24.10.2026 08:42 Systemuhr (Dauerlauf Laufend): Mistral-Profil um den DPA-Widerspruch zum Preview-Training ergänzt
+
+- Der offene Profil-Nachtrag aus dem Mistral-Scan (05:00) ist erledigt. Mistral Large 4 und „Training-Opt-out“ nennen jetzt zusätzlich DPA 2.3 (Training nur „unless Customer is or has opted-out of training“, ohne Preview-Ausnahme) und DPA 11.2 (DPA geht bei Widerspruch vor). Ergebnis bleibt „ungeklärt“, Status und Werte unverändert.
+- Test zuerst (`test/ws-mistral.test.js`, 1 rot), dann 382/382; lokal `91113090`, kein Push, keine Frage.
+
+## Neu 24.10.2026 08:31 Systemuhr (Dauerlauf Laufend): Widerspruchs-Scan Infomaniak, 99,9 % Verfügbarkeit gelten nicht für 4 der 7 Sprachmodelle
+
+- Erster Scan bei Infomaniak, dem letzten Anbieter ohne jeden Widerspruchs-Scan; jetzt hat jeder der 33 einen. Abruf 24.10. ~08:25 MESZ direkt, robots erlaubt: Produkt-, Modell- und Preisseite, LLM-Bedingungen („Review of 07/10/2025“), DPA, Datenschutzerklärung.
+- **Fund (Fall-Kandidat 61, mittel):** LLM-Bedingungen Art. 5 versprechen „99.9% service availability“, im selben Artikel sind Beta-Modelle davon ausgenommen (jederzeit abschaltbar, keine Entschädigung). Beta sind Kimi-K2.6, Qwen3.5-397B, Qwen3.8-27B und Apertus-v1.5-70B, also 4 von 7, darunter die beiden als „most powerful“ beworbenen.
+- Zusätze: Die FAQ sagt, Bildfunktionen würden „noch geprüft“, und nennt Mixtral und SDXL-Lightning; dieselbe Preisseite verkauft Flux schnell und Photomaker V2. Die Unterauftragnehmer-Verweise laufen im Kreis (DPA → Datenschutzerklärung → DPA-Anhang, den es nicht gibt). „No queries are stored“ gegen „stored temporarily“ plus Betriebsdaten ohne Frist. DPA 13.1 verbietet Übermittlung außerhalb EU/EWR ohne Zustimmung, die Rechenzentren stehen in der Schweiz: ungeklärt.
+- Profil: Qwen3.8-27B hat jetzt 100k Kontext (Modellseite; am 21.10. „NaN“). Preise aller 7 Sprachmodelle unverändert.
+- Neu in `belege/anbieter/infomaniak/`: 6 Kopien + Scan mit SHA-256 und OpenTimestamps, neu `QUELLEN.md`. Test zuerst `test/ws-infomaniak.test.js` (2 rot), dann 381/381; Build nicht gelaufen (Rücksetzen der Ausgabe im Dauerlauf nicht erlaubt). Lokal `41e5c195`, kein Push, keine Frage. Die Zahl „17 ohne Scan“ von 06:30 zählte Anbieter ohne eigene Scan-Datei, nicht ohne Scan.
+
+## Neu 24.10.2026 ~06:20 (Dauerlauf AK3): letzte Archiv-Abweichungen, Teil 1
+- 7 Quellen standen auf „Text weicht vom Prüfstand ab“ (5 aus AK2, 2 neue Claude-Seiten vom 23.10.).
+- Claude „Our approach to user safety“: Archivkopie gleicht dem Prüfstand Wort für Wort und im Fingerabdruck, jetzt „gleich“.
+- Claude „API and data retention“: Unterschied ist nur das Cookie-Banner (43 Wörter weg, nichts dazu), Rauschen. Bleibt abweichend, bis eine Kopie ohne Banner gesichert ist; inhaltlich kein Befund.
+- GreenPT Nachhaltigkeit: Archivkopie vom 22.10. nennt noch Scaleway, Helsinki, Finnland; der Prüfstand nicht mehr. Echte Änderung, schon übernommen; braucht frische Sicherung. Save Page Now hat die Rechte-Prüfung im Dauerlauf heute abgelehnt (bei Gdańsk), darum nicht versucht.
+- Offen: OVHcloud ISO-Seite + AI-Endpoints-Katalog, Requesty DPA + Datenschutz. Das Archiv verweigert seit ~06:15 jede Verbindung (ECONNREFUSED), also Drosselung. Nächster Versuch frühestens So 25.10. (AK3 in ALLEIN.md).
+- 377/377 Tests, lokal `a9a1960a`, kein Push, keine Frage.
+
+## Neu 24.10.2026 ~06:30 (Dauerlauf Laufend): Widerspruchs-Scan Black Forest Labs, „Zero data retention“ gegen dauerhafte Trainingslizenz
+
+- Enterprise-Seite nennt für die Managed API „Zero data retention“; EU API Service Terms 2b geben BFL eine „perpetual, irrevocable“ Lizenz an Ein- und Ausgaben, auch zum Training und zum öffentlichen Zeigen, und gelten laut Einleitung auch in Enterprise-Verträgen, wenn das Order Form sie nennt. Order Form/DPA nicht öffentlich: ungeklärt. Fall-Kandidat 60 (mittel) in `outreach/fall-kandidaten.md`. Zusätze ohne harten Widerspruch: „private“ gegen „publicly display“; Opt-out per Mail (Privacy Policy) gegen „irrevocable“; EU-Endpunkt nur „regional preferences“, Privacy Policy erlaubt Übermittlung außerhalb des EWR.
+- Neu gesichert in `belege/anbieter/black-forest-labs/`: Enterprise-Seite, EU API Service Terms, Privacy Policy, Integration Guide und Scan, alle mit SHA-256 und OpenTimestamps, neu `QUELLEN.md`. Test zuerst `test/ws-bfl.test.js` (2 rot), dann 379/379; lokal, nicht gepusht. Profil nicht geändert (ZDR-Widerspruch zur Privacy Policy stand schon in der Anmerkung; 2b-Wortlaut auch). Noch 17 EU-Anbieter ohne Scan. Keine Frage an Felix.
+
+## Neu 24.10.2026 ~05:40 (Dauerlauf Laufend): Widerspruchs-Scan IONOS AI Model Hub, API-Werbung gegen „nur interaktive Nutzung“ in den KI-Nutzungsbedingungen
+
+- Produktseite wirbt mit API-Einbindung in bestehende Systeme und Kunden-Chatbots; die Nutzungsbedingungen für KI-Dienste gelten laut 1.1 auch für den API-Zugang und nennen in 2.5/2.6 automatisierte, skriptgesteuerte Abfragen und Überlassung an Dritte „missbräuchlich“, außer die Leistungsbeschreibung sieht es ausdrücklich vor. Eine Leistungsbeschreibung für den AI Model Hub war nicht zu finden: ungeklärt. Fall-Kandidat 59 (niedrig bis mittel) in `outreach/fall-kandidaten.md`. Zusätze ohne harten Widerspruch: Doku „never accessed by personnel“ gegen Vertrag 2.3 „Fehlerbehebung“; Datenschutzpaket 4.3 erlaubt Drittstaaten „sofern erforderlich“, Doku „Germany … nowhere else“.
+- Neu gesichert in `belege/anbieter/ionos/`: Produktseite, Doku Data Handling (direkt), Nutzungsbedingungen KI-Dienste und Enterprise-Datenschutzpaket 7.4 (Archivkopien 24.09., weil robots.txt „/terms-“ sperrt), Scan; alle mit SHA-256 und OpenTimestamps, neu `QUELLEN.md`. Test zuerst `test/ws-ionos.test.js` (2 rot), dann 377/377; lokal, nicht gepusht. Profil nicht geändert (Preise gleich, kein Training gleich). Noch 18 EU-Anbieter ohne Scan. Keine Frage an Felix.
+
+## Neu 24.10.2026 ~05:00 (Dauerlauf Laufend): Widerspruchs-Scan Mistral, Vorschau-Modell trainiert trotz Opt-out, DPA sagt das Gegenteil
+
+- Ankündigung Mistral Large 4 lädt ein, die Vorschau-API zu testen („You can try the preview API today“), Werbeseiten versprechen „You control where your data goes and who can use it“ und „full ownership of your data“. Commercial Terms 4.2(d)/4.3: Bei Vorschau-Modellen darf Mistral mit Kundendaten trainieren, Opt-out und Zero Data Retention gelten dort nicht. DPA 2.3 erlaubt Training mit personenbezogenen Daten nur ohne Opt-out, ohne Vorschau-Ausnahme, und geht laut 11.2 vor. Welche Lesart gilt: ungeklärt. Fall-Kandidat 58 (mittel) in `outreach/fall-kandidaten.md`.
+- Erstmals eigener Belegordner `belege/anbieter/mistral/`: 6 Kopien (Ankündigung, Modellseite, Sovereign AI, La Plateforme, Terms, DPA) + Scan, mit QUELLEN.md, SHA256SUMS und OpenTimestamps (`ots_stempel.py`, 7 Dateien). Test zuerst `test/ws-mistral.test.js` (2 rot), dann 375/375; lokal, nicht gepusht. Profil nicht geändert (Vorschau-Regel stand schon in der Anmerkung zu Large 4; der DPA-Widerspruch ist neu, Profil-Nachtrag wäre eine eigene Aufgabe). Noch 19 EU-Anbieter ohne Scan. Offen: Save Page Now für die sechs Seiten (nächster Archiv-Stapel). Kein neuer Fall, keine Frage an Felix.
+
+## Neu 24.10.2026 ~03:20 (Dauerlauf Laufend): Widerspruchs-Scan Scaleway, erster EU-Anbieter, Werbeseite ohne die Ausnahme aus Doku und Vertrag
+
+- Produktseite: „We do not collect, read, reuse, or analyse the content of your inputs …“ ohne Ausnahme. Doku: derselbe Satz plus „The only exception being …“ (HTTP-500-Fehler, Missbrauch), ganze Anfragen bis zwei Wochen; Vertrag (Specific Conditions AI Services 07/04/2026): „does not retain any requests …“, aber „may temporarily retain the content of the HTTP request“ ohne Frist, Batch 24 h. Zwischenspeicher („KV values“) nicht abschaltbar, Dauer ungeklärt. Fall-Kandidat 57 (niedrig bis mittel) in `outreach/fall-kandidaten.md`.
+- Neu gesichert: `belege/anbieter/scaleway/specific-conditions-ai-2026-10-24.txt` (Vertragstext), Beleg `widerspruchs-scan-2026-10-24.txt`, beide mit SHA-256 und OpenTimestamps; neu `QUELLEN.md` für den Ordner. Test zuerst `test/ws-scaleway.test.js` (2 rot), dann 373/373; lokal, nicht gepusht. Profil nicht geändert (Ausnahmen standen schon in der Anmerkung zum Backup-Ort). Noch 20 EU-Anbieter ohne Scan. Kein neuer Fall, nur Kandidat; keine Frage an Felix.
+
+## Neu 24.10.2026 ~01:20 (Dauerlauf Laufend): Widerspruchs-Scan DeepSeek API, „you are the controller“ gegen eigenes Training mit den Eingaben
+- Fall-Kandidat 56 (mittel) in `outreach/fall-kandidaten.md`: Open-Platform-Bedingungen machen den Entwickler zum „controller“ und DeepSeek zum Empfänger einer „delegation“; dieselben Bedingungen sind nur „Specific Agreement“ zu den Nutzungsbedingungen, deren 4.3 DeepSeek erlaubt, Ein- und Ausgaben zur Entwicklung zu nutzen (Abschalten nur per Chat-Schalter, für API ungeklärt); V4.1-Zusammenfassung: Nutzereingaben fürs Training „☒Yes“. Zitate am 23.10. 23:14 UTC live neu geprüft, Seiten unverändert.
+- Beleg `belege/anbieter/deepseek-api/widerspruchs-scan-2026-10-24.txt` mit SHA-256 und OpenTimestamps; Test zuerst `test/ws-deepseek.test.js` (2 rot), dann 371/371; lokal, nicht gepusht. Profil nicht geändert (stand schon so drin). Damit haben alle 12 Anbieter außerhalb der EU einen Scan, die 21 EU-Anbieter noch keinen. Kein neuer Fall, nur Kandidat; keine Frage an Felix.
+
+## Neu 24.10.2026 ~01:15 (Dauerlauf Laufend): Widerspruchs-Scan Cohere, „your data stays yours“ gegen SaaS-Vertrag 3(a)(iii)
+- Fall-Kandidat 55 (mittel bis hoch) in `outreach/fall-kandidaten.md`: Sicherheitsseite „Opt out of model training at any time — your data stays yours“; der veröffentlichte SaaS-Vertrag (08.04.2025) gibt Cohere ein unwiderrufliches Recht, API-Daten zur Verbesserung auch an Dritte „for other purposes permitted under their terms“ weiterzugeben, ohne Löschpflicht nach Vertragsende. Ob der Training-Schalter das stoppt: ungeklärt (Vertrag erwähnt ihn nicht, DPA nur gegen NDA). Zitate am 23.10. 22:59 UTC live neu geprüft.
+- Beleg `belege/anbieter/cohere/widerspruchs-scan-2026-10-24.txt` mit SHA-256 und OpenTimestamps; 369/369 Tests; lokal `571d6c13`/`126d65b2`, nicht gepusht. Kein neuer Fall, nur Kandidat; keine Frage an Felix.
+
+## Neu 24.10.2026 ~01:20 (Dauerlauf Verbesserer): Anbieter-Nachfragen sichtbar machen (Vorschlag, nichts gebaut)
+- Vorbild Stanford Foundation Model Transparency Index (Dez. 2025, abgerufen 24.10.): fragt jede Firma selbst und nennt die Antwortquote (2025: 30 %). Bei uns stehen Anbieter-Auskünfte nur im Freitext, und dass wir gefragt haben, steht nirgends. Vorschlag: je Profil ein Block „Beim Anbieter nachgefragt“ (Datum, Frage, beantwortet/keine Antwort), Wortlaut nur mit Erlaubnis. Wartet auf Felix (Frage 534 in der Aufgabenliste).
+
+## Neu 24.10.2026 ~00:55 (Dauerlauf WX1): keine weiteren „von Prüfern genannten“ Anbieter
+- Genannt hat bisher nur Schlademann DeepL (schon drin); der Gesprächspartner vom 21.10. nannte keine Tools (Liste im privaten Gesprächsordner war Vorbereitung); Vergaben nennen nur Microsoft 365 Copilot (drin). Kein Anbieter erfunden; nächster, sobald ein Prüfer einen nennt.
+
+## Neu 24.10.2026 ~00:45 (Dauerlauf WX1 Wachsen): Cohere als Profil, Kanada als neues Land, lokal, NICHT online
+- Neues Profil `data/anbieter/cohere.json` (Modell-Anbieter). Kanada steht jetzt in `lib/rechtsraum.js` als Land mit Angemessenheitsbeschluss, mit Hinweis: Die Entscheidung 2002/2/EG gilt nur für Empfänger, die dem PIPEDA unterliegen (Art. 1: „recipients subject to the Personal Information Protection and Electronic Documents Act“). Beleg: Kommissionsseite („Canada (commercial organisations)“) und Wortlaut auf EUR-Lex in `belege/rechtsraum/adequacy-kanada-2026-10-24/`. Katalog jetzt 33 Anbieter, Seite sagt „21 europäische, 10 US-, 1 kanadische und 1 chinesische KI-Anbieter“ (Reihenfolge nach Profilnamen).
+- DPF: Cohere steht nicht in der amtlichen Liste, auch keine US-Tochter (Suche Cohere, Cohere Inc, Cohere Technologies, Cohere US, Aleph Alpha; Treffer nur OpaVote und Coherent Inc. ohne Bezug; Gegenprobe Microsoft 1 Treffer). Beleg `belege/rechtsraum/dpf-cohere-2026-10-24/`. Register (EU Cloud CoC, CISPE, Trusted Data Processor, 00:31): kein Eintrag, Europrivacy nicht ausgewertet.
+- Belegkopien direkt abgerufen 24.10. 00:22–00:36 (robots.txt erlaubt): 27 Dateien (davon 20 Texte) mit QUELLEN.md, SHA256SUMS (alle ok) und OpenTimestamps (36 gestempelt mit Rechtsraum, nachziehen mit ZS1). Trust Center (Secureframe) per Chrome headless gerendert. Zitatprüfung: 79 verschiedene Zitate, alle wörtlich in einer Kopie (77 prüft der Test, die zwei kurzen „n/a“ und „Request“ von Hand).
+- **Für Prüfer wichtig:** (1) Keine EU-Region: „Our hosting centers are on Google Cloud Platform servers located in US-Central. We do not use servers outside of the US“; alle 12 Unterauftragnehmer „Location: USA“. Der Kanada-Beschluss deckt also nur den ersten Schritt, für Google Cloud verweist Cohere auf dessen DPF-Teilnahme. (2) AVV nicht öffentlich, nur gegen Geheimhaltungsvereinbarung; TOM stehen in dessen Anhang B. Der öffentliche SaaS-Vertrag verbietet personenbezogene Daten außer Geschäftskontakten („Prohibited Data“). (3) SaaS-Vertrag 3(a)(iii): Cohere darf API- und Finetuning-Daten zur Verbesserung nutzen und an Dritte weitergeben, die sie „FOR OTHER PURPOSES PERMITTED UNDER THEIR TERMS AND CONDITIONS“ nutzen dürfen; nach Vertragsende keine Löschpflicht dafür. Ob der AVV das einschränkt, ist ungeklärt. (4) Training bis zum Abschalten im Dashboard, wirkt nur für neue Daten; Voreinstellung nicht ausdrücklich genannt. Speicherung 30 Tage, bei Missbrauchsverdacht länger; Null-Speicherung nur auf Antrag. (5) Zertifikate (ISO 27001, ISO 42001, SOC 2 Type 2) nur „beansprucht“, Dokumente nur auf Anfrage. GPAI-Kodex unterzeichnet (Kommissionsliste, Stand 07.10.2026); Anbieter laut Trainingsdaten-Zusammenfassung Command A+ ist „Cohere Germany GmbH“. (6) Zusammenschluss mit Aleph Alpha: Vereinbarung 16.09.2026, „The transaction remains subject to final regulatory approvals.“; bis 24.10. keine Vollzugsmeldung im Newsroom, passt zu aleph-alpha.json.
+- Preise nur USD, EUR-Felder null: Command R+ 08-2024 2,50/10,00 $ (unter „For existing customers“), Aya Expanse 32B 0,50/1,50 $ je 1 Mio. Token.
+- Unbelegt: Tokenpreis für Command A+ (nicht sichtbar auf der Preisseite; eine Karte im Seiten-JSON nicht eindeutig zuzuordnen, darum nicht verwendet), Voreinstellung des Trainingsschalters, Backup-Ort, US-Eigentümerstruktur (Investoren nicht ausgewertet, Feld null), Ankündigung neuer Unterauftragnehmer und Widerspruch (nur im AVV), Zertifizierer, EU-Hosting über Partner (Bedrock, Azure, Oracle: nicht wörtlich bei Cohere belegt), EU-Vertreter (Datenschutzerklärung nennt keinen).
+- Test zuerst `test/wx1-cohere.test.js` (6 rot), dann 369/369, Build streng ok im Wegwerf-Klon (33 Anbieter, `docs/` nicht angefasst). Lokal `dc3d7c26`, **kein Push** (Push = Home-Tab über `dossiers/push-sauber.sh`, mit den übrigen US-Profilen). MESSUNG.md Zeile 24.10. nachgetragen (Datei ist gitignored). Rohdaten `~/allein/tmp/wx1-cohere/`. WX1 heute 1 von 5.
+- Offen: Save Page Now für die neuen Quellen (nächster Archiv-Stapel), Stempel nachziehen mit ZS1; der nächste Quellenlauf meldet die Cohere-URLs als „neu“, normal übernehmen.
+
+## Neu 24.10.2026 ~00:10 (Dauerlauf Tagesprüfung): EUrouter streicht Nebius, sonst Rauschen
+
+- 363/363 Tests, Build streng ok (nur Datum, zurückgesetzt). Archivcheck: das Archiv lieferte je Lauf bei einer anderen Kopie „fetch failed“ (erst T-Systems Prefix-Caching, dann Scaleway Security), die übrigen Zitate ok; Drosselung, nächster Lauf.
+- Fälle 003/004: 8 von 9 Zitaten wörtlich live (BFL-Privacy nur Leerraum, Scaleway-Zusatz „except temporarily…“ wie seit 03.10. bekannt).
+- Quellenlauf: 322 Quellen, 220 unverändert, 52 verändert, 44 neu (Vorauswahl-Felder aus LP1, normal), 4 weg (Hetzner-Datenschutz 502, eine Stunde später wieder 200; drei OpenAI-Archivkopien „fetch failed“ wie bekannt). Alle 52 übernommen.
+- **Echt:** EUrouter führt Nebius nicht mehr, weder in der DPA-Liste noch unter /providers (23.10. noch drin). Es bleiben 17 KI-Anbieter, weil Melious am 23.10. dazukam. Das Listendatum steht weiter auf „9 October 2026“, zum zweiten Mal in zwei Tagen trotz Änderung. Kurzbeschreibung und Anmerkungen angepasst, Zahl der Unterauftragnehmer bleibt 20. Textauszug `belege/anbieter/eurouter/dpa-subprozessorliste-2026-10-24.txt` mit SHA256 und Zeitstempel.
+- Von Hand geprüft, kein Profilwert falsch: Nebius (alle drei Preise gleich in Katalog und OpenRouter), DeepL (Preistabelle umgebaut, 7,49/24,99/49,99 € gleich), Anthropic Datenaufbewahrung (alle Zitate dieser Seite wörtlich, nur HIPAA-Absatz umformuliert), Microsoft Copilot OpenAI- und Anthropic-Seite (Seite 23.10. aktualisiert, beide Zitate wörtlich). Rest: Menüs, Datumsstempel, Sprachwechsel (Vertex koreanisch → englisch), Skript-Daten.
+- Wächter: 25 gleich, OpenAI-Unterauftragnehmer nur Menü („Apps SDK“ → „Plugins“), übernommen; AVV und Sicherheit 403 wie immer. Pilot: Slack AVV und Unterauftragnehmer nur Navigation, übernommen. hallo@ und OpenAI-Mail: nichts Neues.
+
+## Neu 23.10.2026 ~23:55 (Dauerlauf LP1): Vorauswahl an einer Stelle gebaut, lokal `456c90a5`, nicht gepusht
+
+- Neue Seite **/vorauswahl/**: eine Tabelle mit allen 32 Anbietern: günstigster EUR-Preis (sonst „kein EUR-Preis erfasst, siehe Profil“), Zahl der Unterauftragnehmer (verlinkt auf die Liste), Drittländer der Unterauftragnehmer, AVV-Link, TOM-Link. Verlinkt aus jedem Profil (unter „Vertrag“) und von /fuer-kaeufer/.
+- Drei neue Felder je Profil unter `vertrag`: `tom`, `subprozessoren_anzahl`, `drittlaender`, je mit Quelle, wörtlichem Zitat, Prüfdatum 23.10.2026; ohne Wert beginnt die Anmerkung mit „Ungeklärt:“. Prüfung im Build (`lib/vorauswahl.js`), Test zuerst `test/vorauswahl.test.js`, alle **363/363** grün, Build ok (zurückgesetzt).
+- Stand: TOM-Link bei 26 von 32, Zahl der Unterauftragnehmer bei 25, Drittländer bei 24. Ganz ungeklärt: Aleph Alpha, DeepSeek, Nordference (nichts öffentlich). Nur auf Anfrage: Lyceum, Regolo (TOM), DeepL (Liste hinter Freigabe). Infomaniak: Anhang „Third-Party Subcontractors“ nirgends zu finden; Gcore-TOM nur per JavaScript.
+- Zählweisen stehen je Anmerkung: große Listen (AWS 102, Google 108/112, Microsoft 88/89) gelten für alle Dienste und zählen konzerninterne Gesellschaften mit; Anthropic/OpenAI nur die Zeilen fürs jeweilige Produkt. Neuer Fund: Microsofts Liste ist inzwischen ohne Anmeldung abrufbar (Azure OpenAI deshalb gezählt); IONOS AI Model Hub hat eine eigene Liste (1 Eintrag), die bisher verlinkte gilt für ionos.de-Produkte; EUrouter-Liste steht im DPA, nicht unter /providers. Diese drei bisherigen Subprozessoren-Links sind NICHT geändert, nur in den neuen Feldern vermerkt (eigene Aufgabe, falls gewünscht).
+- Recherche-Rohdaten: `tmp/lp1/` (gitignored). Neue Quellen-URLs meldet der nächste Quellenlauf als „neu“, normal übernehmen.
+- **Offen:** Push = Felix (Frage 533). Danach könnte Felix dem Prüfer, der das angeregt hat, den Link schicken (seine Entscheidung).
+
+## Neu 23.10.2026 ~21:30 (Felix, Home-Tab 19:15 über EINGANG): 531 ja, 532 offen
+
+- **531 entschieden:** Preise, Zahl der Unterauftragnehmer, Drittländer außerhalb der EU und Link zur Sicherheitsbeschreibung für alle 32 Anbieter an einer Stelle nachtragen (Wunsch des Auditors aus Gespräch 3, 23.10.). Aufgabe LP1 in ALLEIN.md.
+- **532 erledigt (Home-Tab 19:25):** Felix hat die Erinnerung an die Auditorin selbst neu geschrieben und gesendet (Mi 28. oder Do 29.10., 17:30 Video). Jetzt nur auf Antwort achten; Termin dann in MESSUNG.md und den Spickzettel.
+
+## Neu 23.10.2026 ~14:35 (Dauerlauf): Auditorin weiter ohne Antwort, Erinnerung nicht gesendet
+
+- Die Auditorin (Video-Gespräch zugesagt, Gegenvorschlag Mi 28.10./Do 29.10. 17:30 vom 19.10.) hat bis Fr 23.10. 14:35 nicht geantwortet.
+- Die vorbereitete Erinnerung sollte laut Felix' Entscheidung ab 12:00 rausgehen. Sie liegt aber nicht mehr in Gmail (nicht gesendet, nicht im Papierkorb). Darum nichts gesendet; Frage 532 an Felix.
+
+## Neu 23.10.2026 ~14:20 (Dauerlauf Laufend): Widerspruchs-Scan Meta Model API, „Not used to improve our products“ gegen „To improve and maintain the Meta Model API“
+
+- Erster Scan bei Meta. dev.meta.ai/products/meta-model-api und /legal/commitments direkt abgerufen (HTTP 200, robots erlaubt), dazu die gesicherten Kopien vom 23.10. ~01:16. Rohdateien in `~/allein/tmp/ws-meta/`.
+- **Fall-Kandidat 54 (mittel):** Werbe- und Modellseite schreiben bei jedem Standard-Modell „Not used to improve our products“. Die Data Commitments nennen für Inhalte aller Stufen „To improve and maintain the Meta Model API“, bei Standard zusätzlich „develop and improve systems that protect the safety and security of Meta's products“; Nutzungsbedingungen 4.4 behalten Inhalte „for security, safety, abuse, and policy review and improvements“. Versprochen ist sauber nur „not used to train“.
+- Zusatz: keine Speicherfrist ohne ZDR genannt (ungeklärt). Ohne Widerspruch: Contributor-Stufe, Muse-Code-Contributor ab Werk an (steht offen da).
+- Profil nicht geändert. Beleg `belege/anbieter/meta-llama-api/widerspruchs-scan-2026-10-23.txt` + SHA256SUMS (ok) + OpenTimestamps. 352/352 Tests, lokal, **kein Push**, keine Frage.
+- Noch nie gescannt (US-Große): DeepSeek.
+
+## Neu 23.10.2026 ~14:00 (Dauerlauf): Prüfer sieht Nutzen in der Vorauswahl, vier von sechs gewünschten Angaben fehlen
+
+- Zweite schriftliche Antwort von Gespräch 3 (Einzelheiten nur in `PRIVAT-NOTIZEN.md`): Wer klug ist, sichert die wirksam vereinbarte AVV selbst; ein Archiv öffentlicher Fassungen ersetzt das nicht. Nutzen sieht er bei der **Auswahl**: sechs Angaben an einer Stelle (Preise, Leistungsfähigkeit, Länge der Lieferkette, Drittländer, AVV-Link, Link zu den Sicherheitsmaßnahmen).
+- Abgleich `outreach/gespraeche/ABGLEICH-VORAUSWAHL-2026-10-23.md`: AVV-Link bei 25/32, EUR-Preise bei 18/32; **fehlen:** TOM-Link, Zahl der Unterauftragnehmer, Drittländer (passen zur Methode), Leistungsfähigkeit (Bewertung, passt nicht).
+- **Frage 531 an Felix:** drei Felder (TOM-Link, Zahl Unterauftragnehmer, Drittländer) für alle 32 nachtragen? Empfehlung ja. Bis dahin nichts gebaut. MESSUNG-Nachtrag, Zahlen unverändert.
+
+## Neu 23.10.2026 ~12:20 (Dauerlauf Laufend): Widerspruchs-Scan Claude Enterprise, „custom data retention“ gilt nicht für Claude Code in der Cloud
+
+- Erster Scan bei Claude Enterprise. claude.com/enterprise (→ /solutions/enterprise) und /solutions/financial-services direkt abgerufen (HTTP 200, robots erlaubt), dazu die gesicherten Kopien vom 22.10. Rohdateien in `~/allein/tmp/ws-ce/`.
+- **Fall-Kandidat 53 (mittel):** Werbung nennt „custom data retention“ als Datenkontrolle für Firmen „with real compliance obligations“ und verkauft im selben Plan Claude Code und Cowork. Hilfe-Artikel: eigene Speicherdauer gilt nur für Chats und Projekte, nicht für Claude Design, Claude Tag, Managed Agents und „any other feature that runs Claude Code in the cloud“; Chats in Projekten bleiben ohne Projekt-Frist unbefristet; Feedback 5 Jahre. Speicherdauer der ausgenommenen Funktionen: ungeklärt.
+- Zusatz: Finanzseite „Anthropic holds SOC 2 Type II and FedRAMP certification“; Trust Center führt FedRAMP High nur für Claude for Government, bei Enterprise/Team „N/A“. Für die Firma wahr, fürs verkaufte Produkt nicht.
+- Ohne Widerspruch: Training „by default“ (Feedback-Ausnahme steht offen in der Doku, Owner kann „Rate chats“ abschalten). „GDPR compliance“ ohne prüfbares Zertifikat: ungeklärt, kein Widerspruch.
+- Profil nicht geändert. Beleg `belege/anbieter/anthropic-claude-enterprise/widerspruchs-scan-2026-10-23.txt` + SHA256SUMS (ok) + OpenTimestamps. 352/352 Tests, lokal, **kein Push**, keine Frage.
+- Noch nie gescannt (US-Große): Meta, DeepSeek.
+
+## Neu 23.10.2026 ~11:40 (Dauerlauf Laufend): Widerspruchs-Scan Amazon Bedrock, „gespeichert in deiner Region“ gegen Missbrauchs-Kopien in der Zielregion
+
+- Erster Scan bei Amazon Bedrock. aws.amazon.com/bedrock/, /security-compliance/, /anthropic/, /guardrails/ direkt abgerufen (HTTP 200, robots erlaubt), dazu die gesicherten Kopien vom 23.10. Rohdateien in `~/allein/tmp/ws2310ab/`.
+- **Fall-Kandidat 52 (mittel bis hoch):** FAQ beantwortet „moved outside the AWS Region?“ mit „stored at rest in the AWS Region where you are using Amazon Bedrock“. Die Seite zur Missbrauchserkennung speichert bei Claude Fable 5/5.1 allen Verkehr, bei den meisten OpenAI-Modellen markierten Verkehr bis 30 Tage, und bei Cross-Region „in destination regions“; mit dem Global-Profil also weltweit. Zusatz: Startseite „never stores or uses your data to train models“, mehrdeutig.
+- Ohne Widerspruch: „not shared with model providers“.
+- Profil nicht geändert: Die drei Profil-Modelle (Nova Pro, Sonnet 5.5, Mistral Large 3) stehen nicht auf der Speicherliste. Beleg `belege/anbieter/amazon-bedrock/widerspruchs-scan-2026-10-23.txt` + SHA256SUMS (ok) + OpenTimestamps. 352/352 Tests, lokal `dcebd8f0`, **kein Push**, keine Frage.
+- Noch nie gescannt: Claude Enterprise, Meta, DeepSeek.
+
+## Neu 23.10.2026 ~11:20 (Dauerlauf Laufend): Widerspruchs-Scan Microsoft Copilot, „alle Interaktionen bleiben im Tenant“ gegen Bing-Websuche
+
+- Erster Scan bei Microsoft Copilot (Unternehmensfassung). Werbeseite microsoft.com/en-us/microsoft-365-copilot/enterprise und drei Vergleichsseiten (gegen ChatGPT, Claude, Gemini Enterprise), direkt abgerufen (HTTP 200, robots erlaubt; die alten Adressen unter /en-us/microsoft-365/copilot/ liefern eine Sperrseite), dazu die gesicherten Kopien vom 22.10. Rohdateien in `~/allein/tmp/ws2310mc/`.
+- **Fall-Kandidat 51 (mittel):** Vergleichsseiten „all interactions remain within your Microsoft 365 tenant“ und Vorwurf an die Wettbewerber, außerhalb des Tenants zu speichern; Microsofts eigene Doku nennt Websuchen „a part of Copilot interactions“, Bing läuft „separately from Microsoft 365“, ohne DPA und ohne EU-Datengrenze. Zusatz: Anthropic-Modelle mit Datenspeicherung liegen nach Opt-in bei Anthropic außerhalb des Microsoft-Vertrags, die Werbung nennt nur „Model choice“.
+- Kein eigener Fall: EU-Datengrenze in der Werbung ohne Hinweis auf Flex routing (ab Werk an für Tenants nach 25.03.2026), steht schon im Profil.
+- Profil: Satz zur Werbung im Modell-Standort ergänzt, kein Status, kein Preis geändert. Beleg `belege/anbieter/microsoft-copilot/widerspruchs-scan-2026-10-23.txt` + SHA256SUMS (ok) + OpenTimestamps. 352/352 Tests, lokal, **kein Push**, keine Frage.
+- Noch nie gescannt: Claude Enterprise, Amazon Bedrock, Meta, DeepSeek.
+
+## Neu 23.10.2026 ~11:05 (Dauerlauf): Nebius beantwortet die Ortsfrage, Finnland ist keine Zusage
+
+- Antwort auf die Fachfrage vom 23.10. (Frage 507, Widerspruch 1 aus dem Scan 22.10.): Für öffentliche Serverless-Endpunkte ist die Region im Katalog keine Zusage; der Ort wechselt ohne Ankündigung (Legal Quick Guide 5.1), feste Region nur über Dedicated Endpoint.
+- Profil: In gpt-oss-120b, Qwen3-235B-A22B-Instruct und GLM-5.1 ersetzt „ungeklärt; Standort darum unverändert“ durch die Auskunft mit Datum (Muster wie GreenPT 22.10.). Standort „Global“ bleibt, kein Status, kein Preis geändert. Widerspruch 1 ist damit geklärt, kein Fall-Kandidat.
+- 352/352 Tests, lokal, **kein Push**, keine Frage an Felix. Einzelheiten der Mail in `outreach/gespraeche/PRIVAT-NOTIZEN.md`.
+
+## Neu 23.10.2026 ~10:55 (Dauerlauf Laufend): Widerspruchs-Scan Google Workspace, Gemini Notebook außerhalb der Data Regions
+
+- Erster Scan bei Gemini für Google Workspace. Werbeseite workspace.google.com/solutions/ai (deutsche Fassung), Preisseite /pricing, Sicherheitsseite /security, direkt abgerufen (HTTP 200, robots erlaubt; /intl/-Seiten sind per robots gesperrt und nicht verwendet), dazu die gesicherten Kopien vom 22.10.
+- **Fall-Kandidat 50 (mittel):** Preisseite verkauft „Gemini Notebook with expanded access to features“ und „Enterprise data regions“ im selben Paket; Privacy Hub: „Your organization's file sharing and data region settings do not apply to data in Gemini Notebook.“ Notebook legt von jeder Drive-Datei eine eigene Kopie an. Wo sie liegt, nennt Google nicht (ungeklärt).
+- Kein eigener Fall: „werden … nicht zum Trainieren von Gemini-Modellen verwendet“ steht ohne Einschränkung, gilt laut Hilfe aber nicht für Ausgaben ohne Gemini als Core Service (u. a. Workspace Individual); die Core-Zusage selbst sagt „outside their domain“ (Bedeutung ungeklärt). ISO 42001 / SOC passt.
+- Profil: Satz zur Preisseite im Modell-Standort ergänzt, kein Status, kein Preis geändert. Beleg `belege/anbieter/google-gemini-workspace/widerspruchs-scan-2026-10-23.txt` + SHA256SUMS (ok) + OpenTimestamps. 352/352 Tests, lokal, **kein Push**, keine Frage.
+- Noch nie gescannt: Microsoft Copilot, Claude Enterprise, Amazon Bedrock, Meta, DeepSeek.
+
+## Neu 23.10.2026 ~10:20 (Dauerlauf Laufend): Widerspruchs-Scan Anthropic API, Gedächtnis „on your infrastructure“ liegt bei Anthropic
+
+- Erster Scan bei der Anthropic API. Werbeseite claude.com/platform/api und vier Doku-Seiten (Managed Agents: Self-hosted sandboxes security/memory, Memory; API and data retention), direkt abgerufen (HTTP 200, robots erlaubt; Archiv gab 429, Archivkopie offen).
+- **Fall-Kandidat 49 (mittel):** Werbung „Memory stores … keeping memory files on your infrastructure“; Doku „Memory stores remain hosted by Anthropic, including their version history“ und „The memory store on Anthropic's side remains the source of truth“, auch mit eigener Sandbox. Beim Kunden liegt nur eine Arbeitskopie für die Sitzung.
+- Kein Fall: ZDR-Ausnahme „flagged … up to 2 years“ (schon im Profil); „Residency … Europe“ gilt nur „On your cloud provider“, direkte API weiter nur USA.
+- Profil: Satz zu Gedächtnis-Ordnern in `zero_data_retention` ergänzt, kein Status, kein Preis geändert. Beleg `belege/anbieter/anthropic-api/widerspruchs-scan-2026-10-23.txt` + SHA256SUMS (ok) + OpenTimestamps. 352/352 Tests, Bau ok (zurückgesetzt), lokal, **kein Push**, keine Frage.
+- Noch nie gescannt: Google Workspace, Microsoft Copilot, Claude Enterprise, Amazon Bedrock, Meta, DeepSeek.
+
+## Neu 23.10.2026 09:55 Systemuhr (Dauerlauf Laufend): Widerspruchs-Scan ChatGPT Enterprise, „never train“ gegen „by default“; Fehler im Quellenlauf behoben
+
+- Erster Scan bei ChatGPT Enterprise. Werbeseite chatgpt.com/business/enterprise, Sicherheitsseite openai.com/security-and-privacy, Preisseite chatgpt.com/pricing, alle aus dem Archiv (22.10.2026; direkt HTTP 403), dazu die gesicherten Kopien vom 22.10. Rohdateien in `~/allein/tmp/ws2310ce/`.
+- **Fall-Kandidat 48 (niedrig):** Überschrift „We never train on your data“, Satz darunter „not used to train our models by default“; die Enterprise-Privacy-Seite erlaubt Training nach Opt-in, „for example, through our opt-in feedback mechanisms“, und Feedback darf OpenAI laut Vertrag 9.3 „without restriction“ nutzen. Ob ein Daumen hoch einzelner Nutzer als Zustimmung des Kunden zählt, ist ungeklärt.
+- Kein Fall: Überschrift „ISO 27001, 27017, 27018, and 27701“ ist laut Trust-Portal ein 27001-Zertifikat mit Erweiterungen. Beides als Anmerkung im Profil (`training_opt_out`, ISO 27001).
+- **Fehler im Quellenlauf behoben (`lib/quellen.js` `setzeGeprueft`):** Bei Profilen mit einem Feld pro Zeile (OpenAI API, ChatGPT Enterprise, Google Vertex) suchte der Lauf das Prüfdatum nur in der Zeile der Quelle und fügte ein zweites „geprueft“ ein. Beim Lesen gewann das alte Datum, die Bestätigung vom 23.10. ging still verloren. 62 doppelte Schlüssel entfernt (jeweils das neuere Datum behalten), Test zuerst (rot 4 statt 3 → grün), dazu neuer Wächter-Test `test/doppelte-schluessel.test.js`: kein Anbieter-Profil darf einen Schlüssel doppelt haben.
+- Kein Status, kein Preis geändert. Beleg `belege/anbieter/openai-chatgpt-enterprise/widerspruchs-scan-2026-10-23.txt` + SHA256SUMS (ok) + OpenTimestamps. 352/352 Tests, lokal, **kein Push**, keine Frage.
+- Noch nie gescannt: Google Workspace, Microsoft Copilot, Anthropic (API, Enterprise), Amazon Bedrock, Meta, DeepSeek.
+
+## Neu 23.10.2026 ~08:55 (Dauerlauf Laufend): Widerspruchs-Scan OpenAI API, „Zero data retention“ mit Zwischenspeicher bis 24 Stunden
+
+- Erster Scan bei OpenAI API. Leitfaden „Data controls“ (wortgleich mit 22.10.), Prompt-Caching-Leitfaden, Hintergrund-Modus direkt von developers.openai.com (robots „Allow: /“), Werbeseite openai.com/api aus dem Archiv (23.10. 00:20 UTC, direkt 403). Rohdateien in `~/allein/tmp/ws2310oa/`.
+- **Fall-Kandidat 47 (niedrig bis mittel):** Werbung „Zero data retention policy by request“; Doku: Prompt-Caching legt auch mit ZDR verschlüsselte Zwischenstände bis 24 Stunden auf GPU-Speicher, Hintergrund-Modus ~10 Minuten auf Platte. Für GPT-5.6 und später gibt es kein „in_memory“ mehr; ob ZDR-Kunden bei GPT-6 ohne Zwischenspeicher arbeiten können, ist ungeklärt. Gleiches Muster wie Nr. 42 (Opper) und Nr. 46 (Google).
+- **Neu im Profil:** `zero_data_retention` und `log_frist` um Zwischenspeicher, Hintergrund-Modus und den Regions-Satz ergänzt (Europa hat Regional processing, trifft dort nicht zu).
+- Ohne Widerspruch: „No training on your data“, Data Residency nur über den Vertrieb.
+- Kein Status, kein Preis geändert. Beleg `belege/anbieter/openai-api/widerspruchs-scan-2026-10-23.txt` + SHA256SUMS (ok) + OpenTimestamps. 349/349 Tests, Build streng ok (Wegwerf-Klon, `docs/` nicht angefasst), lokal, **kein Push**, keine Frage.
+- Noch nie gescannt: ChatGPT Enterprise, Google Workspace, Microsoft Copilot, Anthropic (API, Enterprise), Amazon Bedrock, Meta, DeepSeek.
+
+## Neu 23.10.2026 ~08:30 (Dauerlauf Laufend): Widerspruchs-Scan Google Vertex AI, „ZDR“ heißt bei Frontier-Modellen 30 Tage Protokoll
+
+- Zweiter Scan bei einem US-Profil. 5 Google-Seiten (Zero-Data-Retention, Missbrauchsüberwachung, Data Residency, Produktseite, Sovereign Cloud) plus die 7 Profil-Quellen neu, Abruf 23.10. ~06:22 UTC, curl mit 3 s Abstand, robots.txt erlaubt alles. Rohdateien in `~/allein/tmp/ws2310gv/`.
+- **Alle 23 Profil-Zitate vom 22.10. stehen wörtlich da.** Die Doku ist nach `docs.cloud.google.com/gemini-enterprise-agent-platform/…` umgezogen, die alten Adressen im Profil leiten weiter (kein Handlungsbedarf, beim Quellenlauf beobachten).
+- **Neu im Profil:** Der 24-Stunden-Zwischenspeicher liegt standardmäßig auch auf Platte („durable caching“, ohne kundeneigene Schlüssel, beim global-Endpunkt in jeder Region). Stand schon in der Kopie vom 22.10., fehlte im Profil. Nachtrag in `zero_data_retention` und `log_frist`.
+- **Fall-Kandidat 46 (niedrig bis mittel):** Google nennt 30 Tage Prompt-Protokoll bei Frontier-Modellen (Gemini 4 Argon Cyber Permissive) „ZDR-aligned“; die eigene ZDR-Seite nennt diese Protokolle nicht. Gleiches Muster wie Nr. 42 (Opper).
+- Werbeseiten ohne feste Aussage zu Ort, Frist oder Training, darum kein Werbung-gegen-Doku-Widerspruch. Die Data-Residency-Tabelle kam per curl ohne Zellwerte, nicht neu geprüft (Stand 22.10. bleibt).
+- Kein Status, kein Preis geändert. Beleg `belege/anbieter/google-vertex-gemini-api/widerspruchs-scan-2026-10-23.txt` + SHA256SUMS + OpenTimestamps. 349/349 Tests, Build streng ok (Wegwerf-Klon `~/allein/tmp/bk-gv`, `docs/` nicht angefasst), lokal, **kein Push**, keine Frage.
+- Noch nie gescannt: OpenAI API, ChatGPT Enterprise, Google Workspace, Microsoft Copilot, Anthropic (API, Enterprise), Amazon Bedrock, Meta, DeepSeek.
+
+## Neu 23.10.2026 ~07:55 (Dauerlauf Laufend): Widerspruchs-Scan Azure OpenAI, Antworten bleiben 30 Tage liegen
+
+- Erster Scan bei einem US-Profil. 7 Microsoft-Seiten (Datenschutz, Bereitstellungstypen, Responses, Stored completions, Missbrauchsüberwachung, EU Data Boundary, Preisseite), Abruf 23.10. ~05:45 UTC, curl mit 3 s Abstand, robots.txt erlaubt alles. Rohdateien in `~/allein/tmp/ws2310az/`.
+- **Neu im Profil:** Die Responses-Schnittstelle speichert Antworten standardmäßig 30 Tage („By default, response data is retained for 30 days.“), aus nur mit store=false; der Hintergrundmodus geht nur mit Speicher. Das Feld Log-Frist bleibt „unbelegt“ (gilt für den Missbrauchs-Speicher), hat aber jetzt diesen Nachtrag; ZDR-Feld ebenso.
+- **Fall-Kandidat 45 (niedrig):** Datenschutzseite sagt, die EU-Datenzone verarbeitet nur in EU-Staaten; die Seite zu den Bereitstellungstypen sagt, auch EFTA-Staaten wie Norwegen und die Schweiz, erweiterbar „without prior notice“. Beide Zitate standen schon im Profil, jetzt als Widerspruch markiert. Preisseite nennt 2 Zonen, Doku 3.
+- Nebenbefund: Datenschutzseite (18.05.) beschreibt Stored completions noch, die laut eigener Seite am 15.10.2026 abgeschaltet wurden.
+- Kein Status, kein Preis geändert. Beleg `belege/anbieter/azure-openai/widerspruchs-scan-2026-10-23.txt` + SHA256SUMS (ok) + OpenTimestamps. 349/349 Tests, Build ok (Wegwerf-Klon, `docs/` nicht angefasst), lokal, **kein Push**, keine Frage.
+- Noch nie gescannt: OpenAI API, ChatGPT Enterprise, Google (Vertex, Workspace), Microsoft Copilot, Anthropic (API, Enterprise), Amazon Bedrock, Meta, DeepSeek (DeepSeek erst heute Nacht sehr gründlich angelegt, darum hinten).
+
+## Neu 23.10.2026 ~06:45 (Dauerlauf Laufend): Widerspruchs-Scan T-Systems, Werbung sagt „hosted in T Cloud“, drei Viertel der Modelle laufen bei Microsoft/Google
+
+- Erster breiter Scan bei T-Systems (bisher nur Einzelfunde): 19 Seiten auf t-systems.com, t-cloud-public.com und docs.llmhub.t-systems.net, Abruf 23.10. ~04:26 UTC, curl mit 3 s Abstand, robots.txt erlaubt alles.
+- **Fund (Fall-Kandidat 44, mittel bis hoch):** Werbeseiten und der erste FAQ-Satz sprechen für die ganze Plattform mit „über 40 Modellen“ nur von der T-Cloud („hosted in T Cloud“, „stored and operated on T Cloud Public“, „Operated on the T-Cloud in Germany“). Laut Modelltabelle laufen 29 von 39 Zeilen bei Microsoft Azure oder Google Cloud, die Trust-Seite sagt dafür „customer data may be processed worldwide“. Die Doku selbst ist an den Fachstellen offen; der Widerspruch steht in den Sätzen, die Entscheider zuerst lesen.
+- Nebenbefund: t-cloud-public.com nennt noch Llama 3.3 (seit 01.09. abgeschaltet), GPT-4o, Claude 3, Gemini 1.5 Pro.
+- Profil: eine Anmerkung im Feld Unterauftragnehmer, kein Status, kein Preis. Beleg `belege/anbieter/t-systems/afs-hosting-werbung-gegen-doku-2026-10-23.txt` + SHA256SUMS (ok) + OpenTimestamps. 349/349 Tests, Build streng ok (in einem Wegwerf-Klon gebaut, `docs/` nicht angefasst), lokal, **kein Push**, keine Frage.
+- Damit steht auf der Liste „Noch nie gescannt“ kein europäischer Anbieter mehr. Die neuen Profile aus den USA und China (seit 22.10.) wurden noch nie gescannt; das ist der nächste Kandidat für diesen Lauf.
+
+## Neu 23.10.2026 ~06:40 (Dauerlauf ZS1): alle Zeitstempel in Bitcoin bestätigt, Methodik-Abschnitt steht lokal
+
+- `node stempeln.js --nachziehen`: 574 Stempel (Belege + Wächter-Rohkopien), 348 neu bestätigt, 226 waren es schon, keiner wartet mehr. Das „nachziehen mit ZS1“ in den Einträgen darunter ist damit erledigt. Hinweis: der Lauf braucht über 5 Minuten (ein Kalender-Abruf je Datei).
+- Methodik-Seite: neuer Abschnitt „Zeitstempel von außen“ (`#zeitstempel`, nach „Prüfdatum je Angabe“): nur der Fingerabdruck geht raus, `.ots` liegt neben der Kopie, jeder kann selbst nachrechnen, der Stempel beweist nicht das Aussehen der Webseite (dafür Internet Archive).
+- 349/349 Tests, Build streng ok (in einer Wegwerf-Kopie gebaut, `docs/` nicht angefasst), lokal `c063041f`, **Push = Home-Tab**, keine Frage.
+
+## Neu 23.10.2026 ~06:10 (Dauerlauf SV23): letzte drei Anbieter-Fragen gesendet
+
+- Gesendet nach Felix' Freigabe vom 22.10.: Gcore (SOC 2 Type I oder II?), EUrouter (was wird gespeichert, wenn Logging an ist?), Nebius (Finnland fest oder „Global“?). Damit sind alle sechs Fragen der Widerspruchs-Scans vom 22.10. raus.
+- Antworten kommen ins jeweilige Profil mit Datum; bis dahin bleiben die Profile wie sie sind.
+
+## Neu 23.10.2026 ~06:00 (Dauerlauf AK2): die übrigen „Text weicht vom Prüfstand ab“ eingeordnet
+- Von 25 Abweichungen waren 18 keine: Die Archivkopie gleicht Wort für Wort dem Prüfstand, der Quellenlauf von heute Nacht hatte ihn nachgezogen (u. a. Aleph-Alpha-Datenschutz, EUrouter Modelle/Datenschutz, GreenPT AGB, Lyceum, OpenRouter Nebius, STACKIT ×2, DeepL ×3, Exoscale ×4, OVHcloud ×2). Jetzt „gleich“.
+- Kopie älter als der Prüfstand (echte Änderung, schon übernommen): EUrouter DPA (Melious neu) und GreenPT Datenschutz (Scaleway/Finnland weg) frisch gesichert, jetzt gleich. GreenPT Nachhaltigkeit: Sicherung scheiterte („fetch failed“), bleibt abweichend.
+- **HDS-Liste der ANS (Exoscale, OVHcloud):** Der gespeicherte Prüfstand ist seit 14.10. die Sperrseite von Incapsula (6 Wörter), nicht die Liste. Seit es die Sperr-Erkennung gibt, meldet der Quellenlauf die Seite nur als „gesperrt“ und vergleicht nicht mehr; der alte Fingerabdruck blieb stehen. Die Archivkopie vom 22.10. ist die echte Seite, zeigt aber nur Seite 1 (A bis ACMI), AKENES und OVH stehen weiter hinten. Gefilterte Seiten (`?hds_letter=A`, `?hds_letter=O`) heute im Archiv gesichert: auch dort nur die Sperrseite. Darum Archivkopie jetzt „nicht vergleichbar“ (wie Notion). Der HDS-Beleg bleibt Felix' Browser-Abruf vom 09.10.; maschinell ist die Liste gerade weder direkt noch übers Archiv lesbar.
+- Offen: 4 Kopien nicht geladen (Archiv drosselte): OVHcloud ISO-Seite und AI-Endpoints-Katalog, Requesty DPA und Datenschutz; dazu GreenPT Nachhaltigkeit neu sichern. Stand gleich/abweichend/offen: 122/5/27 (vorher 103/25/26). 349/349 Tests, lokal `19125c4`, kein Push.
+
+## Neu 23.10.2026 ~04:40 (Dauerlauf Laufend): Widerspruchs-Scan Opper, „zero data retention“ heißt fünf Jahre Metadaten
+- Frage: Sagen die Opper-Seiten untereinander etwas anderes als das Profil? Abruf 23.10. ~02:30 UTC, curl mit 3 s Abstand, robots.txt erlaubt alles Gelesene, 17 Seiten (Start, Compliance, Souverän, DPA, Security Overview, Privacy, Terms, Preise, Enterprise, Gateway, EU-Souverän-Modelle, drei Blogposts, OpenRouter-Vergleich, Mistral, Anthropic) + Trust Center. Rechtstexte mit gleichem Datum wie bisher. Rohseiten in `~/allein/tmp/ws2310o/` (nicht im Repo).
+- **Fund 1 (neu, Fall-Kandidat 42, mittel):** Gateway-Seite „End-to-end zero data retention on every plan“, Preisseite nennt den Normalfall „zero data retention: only usage metadata“. Security Overview: Nutzungsmetadaten „kept for five years“, ZDR für Metadaten nur per Enterprise-Vertrag; die ZDR-Routen für OpenAI auf Azure und Gemini auf Vertex brauchen laut Preisseite „a signed Enterprise agreement“.
+- **Fund 2 (neu, Fall-Kandidat 43, niedrig bis mittel):** Souverän-Seite „European at every hop“ / „all European companies“, das Trust Center führt Datadog (US-Firma) für die Überwachung „of both production environments“ mit Traces, Logs, IP-Adressen (ohne Prompts). Ungeklärt, ob die Instanz evroc.on.opper.ai dazugehört.
+- Unverändert: Kandidat 22 (keine Einspruchsfristen gegen DPA 30 Tage) weiter live; Fall-Entwurf 005 bleibt schwach.
+- Profil: zwei Nachträge (ZDR-Feld, Unterauftragnehmer-Feld), kein Status, kein Preis. Belege `belege/anbieter/opper-ai/*-2026-10-23.txt` (2 Dateien) + SHA256SUMS (ok) + OpenTimestamps (2 gestempelt, nachziehen mit ZS1). 349/349 Tests, Build streng ok (Ausgabe zurückgesetzt), lokal `1fab50a`, **kein Push**, keine Frage.
+- Noch nie gescannt: T-Systems (nur Einzelfunde).
+
+## Neu 23.10.2026 ~02:55 (Dauerlauf Laufend): Widerspruchs-Scan Nordference, das Zugangsformular schickt nichts ab
+- Frage: Sagen die Nordference-Seiten untereinander etwas anderes als das Profil? Erster Scan bei Nordference. Abruf 23.10. ~00:45–00:55 UTC, curl mit 3 s Abstand, robots.txt erlaubt alles. Die Website ist eine Ein-Seiten-Anwendung; das Skript-Bündel ist byte-gleich zum 08.10. (SHA-256 `e68e235c…d9ad`), `api.nordference.ai` hat weiter keinen DNS-Eintrag. Rohdateien in `~/allein/tmp/ws2310n/` (nicht im Repo).
+- **Fund 1 (neu):** Das Formular „Request Beta Access“ (einziger Zugangsweg) zeigt „Request submitted! We'll be in touch soon with your beta access.“, die Absende-Funktion schreibt die Eingaben aber nur in die Browser-Konsole (`console.log`) und sendet sie nirgends hin. Ungeklärt: ob das Analyse-Skript des Baukastens (`/~flock.js`) Eingaben mitnimmt.
+- **Fund 2 (neu):** Die SLA (99,9 % Pay-as-you-go, 99,99 % Enterprise) gilt laut eigenem Text nicht für „beta or preview features“; das Angebot ist laut Preis- und Modellseite insgesamt „in private beta“.
+- **Fund 3 (neu, klein):** Datenschutzseite „we do not transfer data to third countries outside the EEA“, die Website lädt ihre Schriften aber von Google (fonts.googleapis.com/gstatic.com). Betrifft Website-Besuche, nicht die API.
+- Schon bekannt: zwei verschiedene „Data Protection Officer“-Adressen (privacy@ und dpo@), ISO 27001/SOC 2 nur als Schlagworte.
+- Profil: Kurzbeschreibung um Fund 1 + 2 ergänzt, Anmerkung im Feld Unterauftragnehmer um Fund 3; kein Status, kein Preis. Belege `belege/anbieter/nordference/*-2026-10-23.txt` (3 Dateien) + SHA256SUMS + OpenTimestamps (3 gestempelt, nachziehen mit ZS1). Fall-Kandidat Nr. 41 (mittel) in `outreach/fall-kandidaten.md`. 349/349 Tests, Build streng ok (Ausgabe zurückgesetzt), lokal `ef9f0c4`, **kein Push**, keine Frage.
+- Noch nie gescannt: Opper, T-Systems (nur Einzelfunde).
+
+## Neu 23.10.2026 ~02:40 (Dauerlauf Laufend): Widerspruchs-Scan Requesty, EU-Seiten versprechen mehr als Security/Privacy
+- Frage: Sagen andere Requesty-Seiten etwas anderes als das Profil? Erster Scan bei Requesty. Abruf 23.10. ~00:27 UTC, curl mit 3 s Abstand, robots.txt erlaubt alles, 19 Seiten (Start, /eu und vier Unterseiten, DPA, Enterprise, Security, Privacy, Unterauftragnehmer, Terms, Leitfaden EU-Datenresidenz, Governance, Preise, zwei Vergleichsseiten, ein Kundenfall, Doku EU-Routing). Rohseiten in `~/allein/tmp/ws2310q/` (nicht im Repo).
+- **Widerspruch 1 (Speicherung, gehört zu Fall 2026-001):** Die DPA-Seite sagt weiter ohne Einschränkung „request and response bodies are never stored“. Neu: Die Seite requesty.ai/eu sagt unter „Zero data retention“ „Requests are proxied in real-time. Nothing is stored, logged, or cached after delivery.“ und auf „Do you store or retain any of my data?“ „No.“; /eu/claude, /eu/openai, /eu/gemini, /eu/mistral nennen das Frankfurter Gateway ebenso ohne Einschränkung „with zero data retention“. Die Security-Seite sagt am selben Tag „Logging is on by default, encrypted, in the EU, for 30 days.“ Der Fall-001-Satz hat sich also auf fünf weitere Seiten ausgebreitet.
+- **Widerspruch 2 (Ort):** /eu: „All data is hosted, stored, and processed exclusively in Frankfurt […] No data ever leaves the European Union.“ Privacy Policy: der Frankfurt-Endpunkt „governs our own processing; where inference happens follows the model you select“; Leitfaden: bei einem Modell außerhalb des EWR „a restricted transfer arises at the inference layer“.
+- Schon bekannt, kein neuer Fund: Privacy Policy sagt „We do not train machine learning models on your data“ und zwei Sätze später „Requesty's own use of content for training is limited to free plan accounts“ (Fall-Kandidat Nr. 39).
+- Ohne Widerspruch: Security-FAQ und Privacy einig (30 Tage, EU, ZDR pro Schlüssel oder schriftlich), SOC 2 weiter „in progress“, kein DPF („does not rely on it“), Unterauftragnehmer mit 30 Tagen Vorlauf.
+- Profil: zwei Anmerkungen (ZDR-Feld, Modell-Standort), kein Status, kein Preis. Belege `belege/anbieter/requesty/*-2026-10-23.txt` (9 Dateien) + SHA256SUMS (ok) + OpenTimestamps (9 gestempelt, nachziehen mit ZS1). Kein Wayback in diesem Lauf. 349/349 Tests, Build streng ok (Ausgabe zurückgesetzt), lokal `1a29f8e`, **kein Push**.
+- **Vorschlag für den nächsten Push (Home-Tab, keine Frage-Mail):** Fall 001 bekommt einen Verlauf-Eintrag 23.10. („DPA-Satz unverändert; dieselbe Aussage jetzt zusätzlich auf /eu und vier Unterseiten“). Nicht eigenmächtig, weil der Fall öffentlich ist.
+- Noch nie gescannt: Nordference, Opper, T-Systems (nur Einzelfunde).
+
+## Neu 23.10.2026 ~02:20 (Dauerlauf Laufend): Widerspruchs-Scan Regolo, „keine Protokolle“ gegen Datenschutz-Protokolle, Orte uneinheitlich
+- Frage: Sagen andere Regolo-Seiten etwas anderes als das Profil (Ort, Speicherung, Training, Zertifikate)? Erster Scan bei Regolo. Abruf 23.10. ~00:08–00:12 UTC, curl mit 3 s Abstand, robots.txt erlaubt alles, 17 Seiten aus der Sitemap (Start, ZDR, AGB/DPA, Datenschutz, FAQ, Preise, Infrastruktur, Nachhaltigkeit, DHH, Modelle, Preis-Update, Gesundheit IT, Partnerseite, drei Vergleichsseiten). Rohseiten in `~/allein/tmp/ws2310r/` (nicht im Repo).
+- **Widerspruch 1 (Werbung gegen Datenschutzerklärung):** ZDR-Seite: „No logging of API calls or content for future analysis. There are no audit trails of your requests, no server logs capturing your data, no records of any kind.“ Die Datenschutzerklärung erfasst automatisch „LOGs (including IP address, browser and configuration, place, date and connection time, type of device used)“ und „request type (without the content), duration of the access to the service“, Frist „Until the cancellation of the Account“. Für Inhalte stimmen beide überein, für Metadaten nicht. Das Profil stand schon richtig (Log-Frist belegt), nur Anmerkung bei ZDR ergänzt.
+- **Widerspruch 2 (Ort):** Infrastrukturseite (geändert 14.07.) nur „Lazio, Italy“ und „Lombardy, Italy“, OpenAI-Vergleich (01.10.) „Lombardy and Lazio, Italy“; Claude- und DeepSeek-Vergleich (01.10.) „100% European Union (Italy, France, Germany)“ bzw. „Seeweb datacenters in Europe (Italy, France, Germany)“; Partnerseite (16.10.) „100% EU facilities (Milan & Frankfurt)“. Der ISO-27001-Umfang deckt nur Mailand und Frosinone. Ob Anfragen in Frankreich oder Frankfurt laufen, ist ungeklärt. Alles EU, aber für Prüfer zählt der Zertifikatsumfang. Anmerkung beim ISO-27001-Eintrag; Standort der Modelle bleibt „Italien“ (Infrastrukturseite + Zertifikat).
+- Klein, kein Fall: FAQ sagt „no cross-border data transfers“, die Cookie-Tabelle der Datenschutzerklärung schickt Werbe-Daten der Website in die USA (X, LinkedIn, Reddit, Google; Website, nicht API). Datenschutzerklärung inhaltlich wie die Fassung 1.1 vom 14.10.
+- Ohne Widerspruch: Training nirgends, ZDR-Zertifikat überall „24 July 2026“, AGB/DPA (28.01.2026) Übermittlung außerhalb der EU nur mit schriftlicher Zustimmung, Unterauftragnehmer weiter nur auf Anfrage.
+- Belegkopien `belege/anbieter/regolo/*-2026-10-23.txt` (8 Dateien) + SHA256SUMS (9/9 ok) + OpenTimestamps (8 gestempelt, nachziehen mit ZS1). Kein Wayback in diesem Lauf. Profil: nur zwei Anmerkungen, kein Status, kein Preis. 349/349 Tests, Build streng ok (Ausgabe zurückgesetzt), lokal `72c4a5a`/`120f70a`, **kein Push**. Keine Frage (eine Fachfrage an Regolo zu Ort und Metadaten wäre möglich, eilt nicht).
+- Noch nie gescannt: Requesty, Nordference, Opper, T-Systems (nur Einzelfunde).
+
+## Neu 23.10.2026 ~01:50 (Dauerlauf WX1 Wachsen + NW2b): Meta und DeepSeek als Profile, IONOS-Altmodelle raus, lokal, NICHT online
+- **Meta:** Die „Llama API“ gibt es so nicht mehr: llama.developer.meta.com leitet auf dev.meta.ai um, das Produkt heißt „Meta Model API“ und bietet nur Muse-Modelle (Meta: „Llama models aren't run for you through Model API.“). Profil `data/anbieter/meta-llama-api.json` heißt darum „Meta Model API (früher Llama API)“. DPF ja: „Meta Platforms, Inc.“ (Id 4452, „Active - Re-certification under Review“, bis 23.07.2027); ob die Model API erfasst ist, ungeklärt. Preise nur USD (Muse Wonder 1.0 Vorschau 4/20 $, Muse Spark 1,25/4,25 $, Contributor 0,10/0,20 $ je 1M).
+- **Für Prüfer wichtig (Meta):** Training hängt an der Modell-ID („-contributor“ = Inhalte gehen ins Training, Meta darf Anfragen dorthin leiten, Muse-Code-Abos stehen standardmäßig auf Contributor); Null-Speicherung nur auf Antrag und nur im Hilfe-Artikel, markierte Inhalte bis 2 Jahre; gespeicherte Antworten standardmäßig an, Dateien ohne Ablauf; Unterauftragnehmer-Link führt zur Liste von „Meta Horizon Managed Solutions“ (13.11.2023), passt wohl nicht; keine EU-Region, kein Zertifikat, kein Trust-Portal; European Region Terms öffentlich nicht abrufbar.
+- **DeepSeek:** Profil `data/anbieter/deepseek-api.json`, erstes Land ohne Angemessenheitsbeschluss im Katalog (China in `lib/rechtsraum.js` als Drittland; Zählzeile zählt es eigens: Startseite „21 europäische, 10 US- und 1 chinesische KI-Anbieter“). Speicherung in der VR China (wörtlich belegt), Training mit Ein- und Ausgaben ist Standard (eigene EU-Trainingsdaten-Zusammenfassungen V4/V4.1: „Yes“), kein öffentlicher AVV, keine Unterauftragnehmer mit Namen, keine Null-Speicherung, Recht der VR China, Gerichtsstand Hangzhou, GPAI-Kodex nicht unterzeichnet. Behörden mit Datum und Zitat: Garante Italien 30.01.2025 (Beschränkung mit sofortiger Wirkung), Berliner Datenschutzbeauftragte 27.06.2025 (Meldung an Apple/Google); beide betreffen App/Website, nicht ausdrücklich die API. Preise nur USD (V4.1-Flash 0,30/1,20 $, V4-Pro 1,32/3,96 $, außerhalb der Spitzenzeit halb).
+- Register (EU Cloud CoC, CISPE, Trusted Data Processor, 23.10. ~01:41): beide ohne Eintrag, Europrivacy nicht ausgewertet; neu in `data/register-datenschutz.json`.
+- Zitatprüfung: Meta 146, DeepSeek 100 Zitate, 0 Fehltreffer. Belege mit QUELLEN.md, SHA256SUMS (ok) und OpenTimestamps (97 gestempelt, nachziehen mit ZS1).
+- **Nicht im Repo:** `belege/anbieter/deepseek-api/eu-vertreter-prighter-2026-10-23.txt` wurde im abgebrochenen Lauf geholt, obwohl app.prighter.com per robots.txt alles sperrt. Nicht zitiert, nicht in SHA256SUMS, per `.git/info/exclude` ausgeschlossen; löschen darf nur Felix (Nur Felix, umkehrbar, eilt nicht).
+- **NW2b:** IONOS führt Llama 3.1 8B (15.10.) und Mistral Nemo (22.10.) jetzt unter „Retired models“; beide aus `data/anbieter/ionos.json` genommen (6 Modelle), Beleg `belege/anbieter/ionos/modelle-retired-2026-10-23.txt`. Lokal `58a0926`.
+- Test zuerst (2 rot vom abgebrochenen Lauf), dann 349/349, Build streng ok im Klon (32 Anbieter). Lokal `370b122`, **kein Push** (Push = Home-Tab über `dossiers/push-sauber.sh`, mit den übrigen US-Profilen). WX1 heute 5 von 5, nächste ab Sa 24.10.: Cohere, dann von Prüfern genannte.
+
+## Neu 23.10.2026 ~01:10 (Dauerlauf WX1 Wachsen): Amazon Bedrock als US-Profil, lokal, NICHT online
+- Neues Profil `data/anbieter/amazon-bedrock.json` (Kategorie Cloud wie Azure OpenAI und Vertex). DPF: ja, Eintrag „Amazon.com, Inc.“ (Id 5776, aktiv, nur Nicht-HR-Daten, bis 02.01.2027), erfasst ausdrücklich „Amazon Web Services, Inc.“; Gegenprobe Microsoft 1 Treffer. Beleg `belege/rechtsraum/dpf-amazon-2026-10-23/`. Katalog jetzt 30 Anbieter, Seite sagt „21 europäische und 9 US-KI-Anbieter“.
+- Vier Modelleinträge: Nova Pro (EU-Profil), Claude Sonnet 5.5 einmal über das EU-Profil und einmal über Global, Mistral Large 3 (nur In-Region Stockholm/London). Preise nur in USD, EUR-Felder null. Die Preisseite lädt die Beträge per Skript; belegt über Vorlage im HTML plus die Preisdateien der Seite (Abschnitt „EU (Frankfurt)“).
+- Belegkopien direkt abgerufen 23.10. 00:57–00:59 (robots.txt erlaubt): 35 Dateien mit QUELLEN.md, SHA256SUMS (alle ok) und OpenTimestamps (43 gestempelt, nachziehen mit ZS1). Zitatprüfung: 131 verschiedene Zitate, alle wörtlich in einer Kopie (11 erst nach Angleich von geschützten Leerzeichen und Apostroph).
+- Register: **Bedrock steht selbst im CISPE-Register** („Amazon Bedrock [excludes Amazon Bedrock Marketplace]“, AWS EMEA SARL, 14.06.2024–14.06.2027). Dafür neues Ergebnis „Dienst im Register eingetragen“ in `lib/register.js`. EU Cloud CoC und Trusted Data Processor ohne Eintrag, Europrivacy nicht abgefragt.
+- **Für Prüfer wichtig:** (1) Der Ort hängt von der Wahl ab: In-Region, EU-Profil (z. B. aus Frankfurt nach Frankfurt, Stockholm, Mailand, Spanien, Irland, Paris) oder Global (weltweit, rund 10 % billiger). Claude Sonnet 5.5 gibt es in keiner EU-Region als In-Region. (2) Modellanbieter sehen laut AWS weder Eingaben noch Logs; Abrechnung der Drittmodelle aber über Amazon Web Services, Inc. (USA), Vertragspartner sonst AWS EMEA SARL (Luxemburg). (3) Null-Speicherung je Region per API (Modus none), nicht in der Konsole; Standard ist das Verhalten des Modells. (4) Claude Fable 5/5.1: aller Verkehr bis 30 Tage, Freigabe zur Prüfung durch AWS ist Pflicht; OpenAI-Modelle: markierter Verkehr bis 30 Tage. (5) Neue Unterauftragnehmer: 30 Tage vorher, Widerspruch nur durch Kündigen, Dienst meiden oder Region wechseln. (6) ISO 27001 belegt (öffentliches Zertifikat 2013-009, EY CertifyPoint, Bedrock ohne Marketplace im Umfang); C5, SOC 2, ISO 42001 nur „beansprucht“ (Berichte in AWS Artifact).
+- Unbelegt: EU-Preis für Mistral Large 3 (Zeile fehlt in den EU-Tabellen), Preis in der Sovereign Cloud (Nova Pro dort In-Region gelistet), Backup-Ort, Gründungsjahr, ob Bedrock im ISO-42001-Umfang ist, Prüfer von C5/SOC 2, Filter vor dem Modell bei Nova Pro (Karte: „Abuse detection“ nicht unterstützt). Ungeklärt: welche Datenschutzerklärung im DPF-Eintrag für AWS gilt.
+- Test zuerst (2 rot), dann 345/345, Build streng ok im Klon (30 Anbieter). Lokal `2589874`, **kein Push** (Push = Home-Tab über `dossiers/push-sauber.sh`, zusammen mit den US-Profilen vom 22./23.10.).
+- Offen: Save Page Now für die neuen Quellen (mit dem nächsten Archiv-Stapel), Stempel nachziehen mit ZS1.
+
+## Neu 23.10.2026 ~01:00 (Dauerlauf QP2): sieben „verändert“-Quellen von Hand geprüft, lokal, kein Push
+- **Exoscale On-Demand Inference ist echt neu:** aus „Coming soon“ wurde „Private Preview“ auf Einladung, nur Zone AT-VIE-2 (Wien), ohne SLA. Vorläufige Preise (EUR = USD = CHF): Qwen3.8-27B 0,40 / 2,40 je 1 Mio. Token, Cache-Read 0,09; Qwen3-Embedding-8B 0,09. Neue Zusage nur auf der Produktseite: Prompts und Antworten werden nach der Inferenz nicht gespeichert, kein Training, nur Abrechnungs-Metadaten. Profil: Modell-Standort, Preis 0,40/2,40 (ersetzt „kein öffentlicher Preis“), Status bleibt „beansprucht“; ZDR und Training im Vertragsteil bleiben unbelegt (steht nicht in DPA/AGB), Nachtrag in den Anmerkungen; Backup-Notiz „noch nicht gestartet“ korrigiert.
+- **Nebius:** Qwen3-235B-A22B-Instruct steht nicht mehr unter openrouter.ai/provider/nebius, im offiziellen Nebius-Katalog aber weiter „active“, 0,20/0,60 $, Region FI. Preisquelle dieses Modells umgestellt auf tokenfactory.nebius.com/api/public/models_info; Belegkopien `belege/anbieter/nebius/modellkatalog-2026-10-23.json` und `provider-seite-2026-10-23.txt` mit SHA256 und OpenTimestamps. gpt-oss-120b (0,15/0,60) und GLM-5.1 (1,40/4,40) unverändert.
+- **Rauschen, Profilwerte stimmen:** DeepL /pro (Tabelle umgebaut, 7,49/24,99/49,99 € gleich; API-Preise stehen weiter nicht im Server-HTML), Mistral Preisseite (alle sechs Preise gleich; neu: Mistral verkauft auch Z.ai GLM 5.3 / 5.3 Flash), Mistral Large 4 (nur Seitenleiste), Requesty Security (Seite neu gestaltet; 30 Tage EU, Metadaten-Audit, „SOC 2 Type II programme in progress“ wörtlich gleich).
+- Quellenlauf mit `--uebernehmen-nur` für alle sieben: 7 übernommen, Nebius-Katalog als neue Quelle erfasst. Tests 343/343, Build streng ok (zurückgesetzt).
+
+## Neu 23.10.2026 ~00:45 (Dauerlauf Tagesprüfung)
+- 343/343 Tests, Build streng ok (nur Datum, zurückgesetzt; neue US-Profil-Seiten liegen ungetrackt in docs/, harmlos, entstehen beim Push-Build neu), Archivcheck 23 Zitate in 16 Kopien ok. Fälle 003/004: 8 von 9 Zitaten wörtlich live, Scaleway-Zusatz „except temporarily…“ wie seit 03.10. bekannt.
+- Quellenlauf: 56 neu (US-Profile), 158 unverändert, 46 verändert, 9 verschwunden (OpenAI 403/fetch failed wie bekannt, IAS-PDF). 39 übernommen `634c21d` (Menüs, Banner, Blog-Teaser; Handprüfung siehe unten).
+- **Echt, kein Profilwert falsch:** (1) EUrouter-DPA: 18 statt 17 KI-Anbieter, neu Melious (Deutschland), Listendatum wieder „9 October 2026“ unverändert → Anmerkung Unterauftragnehmer ergänzt. (2) Nebius Token Factory Terms: neue Fassung vom 22.10.2026 (vorher 15.09.); alle zitierten Sätze (5.1, 5.2, 5.3, Speculative Decoding) stehen wörtlich auch in der neuen Fassung; „Fassung 15.09.2026“ in den Anmerkungen ist jetzt alt. (3) GreenPT: Seiten neu getextet, die Angabe „Scaleway, Finnland/Frankreich“ ist von greenpt.com/privacy weg, dort jetzt „Every model is self-hosted on GreenPT infrastructure“. Passt zu Roberts Mail 22.10. („We will change that“). Profilstandort kommt aus docs.greenpt.ai/model-cards, Trainingszitat steht weiter wörtlich.
+- **Noch nicht von Hand geprüft (bleiben „verändert“):** DeepL /pro und /pro#api (Preistabelle umgebaut), Exoscale on-demand (neue Preise, ZDR-Frage), Mistral pricing, Mistral Large 4, OpenRouter Nebius, Requesty security. Nächster Laufend-belegbar-Durchlauf: QP2.
+- Wächter: 25 gleich, OpenAI AVV/Unterauftragnehmer/Sicherheit 403 (Unterauftragnehmer zuerst nur Menü „Apps SDK“ → „Plugins“, nicht übernommen). hallo@ und OpenAI-Mail: nichts Neues.
+
+## Neu 23.10.2026 ~00:10 (Dauerlauf WX1 Wachsen): Anthropic API und Claude Enterprise als US-Profile, lokal, NICHT online
+- Zwei neue Profile in `data/anbieter/`: `anthropic-api` (Modell-Anbieter) und `anthropic-claude-enterprise` (Assistent, Team-Plan in den Anmerkungen). DPF: Anthropic steht nicht in der amtlichen Liste (0 Treffer für Anthropic, Anthropic PBC, Anthropic Ireland, Claude; Gegenprobe Microsoft 1 Treffer), Beleg `belege/rechtsraum/dpf-anthropic-2026-10-22/`. Katalog jetzt 29 Anbieter, Seite sagt „21 europäische und 8 US-KI-Anbieter“.
+- Belegkopien direkt abgerufen 22.10. 23:49–23:55 (robots.txt erlaubt): 23 bzw. 27 Kopien mit QUELLEN.md, SHA256SUMS (alle ok) und OpenTimestamps (nachziehen mit ZS1). Trust-Portal per Chrome headless gerendert (Text + Roh-DOM).
+- Zitatprüfung: 92 bzw. 80 verschiedene Zitate, alle wörtlich in einer Kopie (nachgeprüft 23.10. 00:07).
+- Register: EU Cloud CoC, CISPE, Trusted Data Processor ohne Eintrag (gelesen 23.10. ~00:00), Europrivacy nicht abgefragt.
+- **Für Prüfer wichtig:** (1) Keine EU-Region: „Currently, `"us"` is the only available workspace geo.“; Rechenarbeit standardmäßig weltweit, „Nur USA“ kostet 10 % mehr. (2) Nicht im DPF, Übermittlung über SCC; Vertragspartner im EWR ist Anthropic Ireland. (3) Bei Missbrauchsverdacht Ein-/Ausgaben bis 2 Jahre, Einstufungen bis 7 Jahre, auch mit Null-Speicherung. (4) Für „Covered Models“ (Fable, Mythos) gelten seit 09.06.2026 30 Tage Pflicht-Speicherung, „this supersedes any modified retention commitments (e.g., ZDR)“. (5) Claude Enterprise speichert Chats standardmäßig unbefristet, Chat-Oberfläche „not ZDR-eligible“. (6) Widerspruch gegen neue Unterauftragnehmer nur binnen 15 Tagen; 22 Einträge, letzte Änderung 15.10.2026.
+- Unbelegt: alle Zertifikate nur „beansprucht“ (Trust-Portal nur nach Zugangsanfrage, nicht gestellt), Zertifizierer ISO 27001, Backup-Ort, Gründungsjahr. Ungeklärter Widerspruch zur API-Speicherdauer („not retained by default“ vs. „delete … within 30 days“) steht im Profil.
+- Test zuerst (2 rot), dann 343/343, Build streng ok im Klon. Lokal `0a52568`, **kein Push** (Push = Home-Tab über `dossiers/push-sauber.sh`, zusammen mit den sechs US-Profilen vom 22.10.).
+- Offen: Save Page Now für die neuen Quellen (Archiv drosselt gerade, mit dem nächsten Archiv-Stapel ab Fr 23.10. 06:00), Stempel nachziehen mit ZS1.
+
+## Neu 22.10.2026 ~23:45 (Dauerlauf, Laufend belegbar): Prüfer-Startseite-Entwurf sagt jetzt, was uns trennt
+- Unter den drei Schritten steht ein neuer Satz: „Ein Text-Wächter meldet, dass sich eine Seite geändert hat. Wir prüfen zusätzlich, ob die Zusage stimmt, etwa ob der genannte Hosting-Ort zur Liste der Unterauftragnehmer passt. Betreiber in der EU, mit Namen im Impressum.“ Grund: Konkurrenz-Suche KO1 (ConductAtlas & Co. melden nur Textänderungen, Betreiber in den USA).
+- Keine Konkurrenten beim Namen (UWG-Frage liegt beim Anwalt). Impressum auf /ueber/ nennt Felix Lind, geprüft.
+- Von der Maschine entschieden 22.10. (nur lokale Vorschau, umkehrbar). Test zuerst (1 rot → grün), 341/341, lokal `0063cc6`, `entwurf-startseite/index.html` neu gebaut; `vorschau.png` ist noch das Bild von 17:45 ohne den Satz. Gehört zu Frage 521.
+
+## Neu 22.10.2026 ~22:45 (Dauerlauf, Laufend belegbar): 5 falsche „Text weicht ab“ behoben
+- 29 Archivkopien standen auf „weicht vom Prüfstand ab“. 5 davon kamen nur daher, dass `nachsichern.js` den einfachen Fingerabdruck nahm, der Quellenlauf aber bei Zähler- und Karten-Seiten nur die gefilterten Wörter und bei Hugging Face die Git-Revision.
+- Neu `hashVergleich()` in `lib/quellen.js`, rechnet wie der Quellenlauf; Hugging Face und Notion gelten als „nicht vergleichbar“. Test zuerst (2 rot → grün), 340/340, lokal `469f6e5`, kein Push.
+- Korrigiert: opper.ai/ai-compliance und opper.ai/models jetzt gleich; die zwei Aleph-Alpha-Seiten auf Hugging Face jetzt „nicht vergleichbar“. Stand gleich/abweichend/offen: 103/25/26 (vorher 101/29/24).
+- eurouter.ai/models weicht echt ab: Die Seite zeigt ohne Browser eine wechselnde Auswahl (21.10. DeepSeek V4 Flash, Kopie 22.10. 13:40 Mistral Large 3). Kein Profilwert betroffen, der Preis Mistral Large 3 (0,55/1,65 $) steht in der Kopie. Der nächste Quellenlauf meldet die Seite vermutlich als verändert: dann Rauschen übernehmen.
+- Offen: die übrigen 24 Abweichungen. Das Archiv lieferte ab der 8. Kopie nur „fetch failed“; Wortvergleich je Seite beim nächsten Lauf (Werkzeug liegt in `~/allein/tmp/ak2210/diff.js`).
+
+
+## Neu 23.10.2026 ~12:05 (Dauerlauf E22-5, Stapel 25): 565 von 822
+
+- 3 von 8 gesichert: Bedrock Mistral-Large-3-Modellkarte, Meta-for-Work-Unterauftragnehmer, Anthropic API-Datenaufbewahrung (Archivtext weicht vom Quellenlauf ab → beim nächsten Quellenlauf ansehen). Abgelehnt: Anthropic-Preise (Status 520), privacy.claude.com ×2, support.claude.com US-Inferenz, DeepSeek FAQ („fetch failed“).
+- 86 Quellen offen. Nächster Stapel nicht vor 12:35, weiter `node nachsichern.js --anzahl 8`. Lokal `8e4117eb`.
+
+## Neu 23.10.2026 ~11:35 (Dauerlauf E22-5, Stapel 24): 561 von 822
+
+- 4 von 8 gesichert: AWS DPA, AWS ISO-27001-Zertifikat, Bedrock Datenaufbewahrung, Nova-Pro-Modellkarte. Abgelehnt („fetch failed“): Meta Model API ×3 (Preise, Zero Data Retention, Nutzungsbedingungen), Bedrock Missbrauchserkennung.
+- 90 Quellen offen. Nächster Stapel nach ≥ 30 min (nicht vor 12:05), weiter `node nachsichern.js --anzahl 8`. Lokal `233d7e7e`.
+
+## Neu 23.10.2026 ~10:15 (Dauerlauf E22-5, Stapel 22): Archiv nimmt wieder an
+
+- 5 von 8 gesichert: DeepSeek KV-Cache, Preise, Rate-Limit; AWS ISO 27001 und ISO 42001 FAQ. Abgelehnt („fetch failed“): AWS Bedrock FAQ, Bedrock-Preise, BSI C5.
+- Stand 550/822 (Zeilen gewachsen durch die Widerspruchs-Scans 23.10.), 98 Quellen offen. Nächster Stapel nach ≥ 30 min, weiter `node nachsichern.js --anzahl 8`. Lokal `ce2ff9f8`.
+
+## Neu 22.10.2026 ~22:35 (Dauerlauf E22-5, Stapel 21): wieder 0 gesichert
+
+- Alle 8 abgelehnt (7× Status 520 bei Google Cloud, OpenAI-Preisseite, EU-Kommission; 1× „fetch failed“ T-Systems). Zwei leere Stapel in Folge: Das Archiv nimmt gerade nichts an.
+- Stand bleibt 543/723, 62 Quellen offen. Nächster Stapel nicht vor Fr 23.10. 06:00, weiter `node nachsichern.js --anzahl 8`. Lokal `d771c4d`.
+
+## Neu 22.10.2026 ~21:45 (Dauerlauf E22-5 Teil 2, Stapel 20): 0 gesichert, Archiv drosselt
+- Alle 8 abgelehnt: 7× Status 520 (T-Cloud ×5, UKAS ×2), 1× „fetch failed“ (Google Service-Terms). Fehlversuche gezählt, die Quellen rücken ans Ende.
+- Stand bleibt 543/723, 62 Quellen offen. Nächster Stapel erst nach ≥ 60 min Pause (nicht vor 22:45), weiter `node nachsichern.js --anzahl 8`.
+
+## Neu 22.10.2026 ~22:35 (Dauerlauf, Laufend): ConductAtlas genauer angesehen
+- Betreiber steht doch drin: in Datenschutz und AGB (21.04.2026) eine Einzelperson, Recht der USA, kein Impressum. Unser Unterschied heißt damit „Betreiber in der EU“, nicht „Betreiber mit Namen“.
+- Beleg-Export mit SHA-256 gibt es dort nur im Team-Tarif für 399 $/Monat (nicht 5–20 $).
+- Von unseren 25 Anbietern führen sie 6 (Azure, Copilot, DeepL, Mistral inkl. AVV, OpenAI, Gemini); die 19 kleineren EU-Anbieter fehlen dort ganz. Einzelheiten und Belege in `dossiers/KONKURRENZ-2026-10-22.md` (lokal).
+
+## Neu 22.10.2026 ~21:05 (Dauerlauf KO1): Konkurrenz-Suche fertig, 9 Funde
+- Tabelle in `dossiers/KONKURRENZ-2026-10-22.md` (lokal, nicht im Repo, dossiers/ ist ausgeschlossen).
+- Gefährlichste drei: **ConductAtlas** (tägliche Kopie + SHA-256 + Diffs, 343 Plattformen, schon Mistral und System Cards, ab 4,99 $/Mo, Betreiber nicht genannt), **Open Terms Archive** GenAI (kostenlos, EU, 48 Dienste, nur AGB), **PageCrawl** (Selbstbau-Wächter für Unterauftragnehmer-Listen/Trust Center).
+- Unser Unterschied: EU-Anbieter, Prüfung der Zusagen statt nur Textänderung, Betreiber mit Namen, OpenTimestamps. Vorschlag: ein Satz dazu im EH3-Entwurf; ConductAtlas monatlich ansehen.
+
+## Neu 22.10.2026 ~21:05 (Dauerlauf E22-5 Teil 2, Stapel 19): 543 von 723 Zeilen mit Archivkopie
+
+- 2 Quellen gesichert (Scaleway SecNumCloud-Meldung, Scaleway Preise Model-as-a-Service), beide gleich, lokal `2d4bbad`, kein Push.
+- 6× „fetch failed“: Scaleway security-and-compliance + subprocessorlist, zwei Seeweb-Zertifikat-PDFs, Swiss Made Software, T-Cloud-Testat-PDF. Das Archiv drosselt weiter. 62 Quellen offen, nächster Stapel nach ≥ 30 min, `--anzahl 8`.
+- Gmail: Der BvD-Kontakt aus dem Gespräch vom 08.10. hat kurz geantwortet, er meldet sich Anfang nächster Woche (nicht nachfassen).
+
+## Neu 22.10.2026 ~21:00 (Dauerlauf WS1): Wächter-Rohkopien haben jetzt einen Zeitstempel von außen
+
+- `waechter.js` stempelt nach jedem Lauf alle Rohkopien unter `roh/` ohne `.ots` (OpenTimestamps, nur der Fingerabdruck geht raus). Das passiert erst nach dem Ledger: fällt ein Kalender aus, bleibt nur der Stempel offen, der nächste Lauf holt ihn nach.
+- `node stempeln.js --nachziehen` holt jetzt auch die Bitcoin-Bestätigung für diese Stempel (unter `waechter/`).
+- Die vorhandenen 58 Rohkopien sind gestempelt (38 Hauptliste, 20 Pilot, je 4 von 4 Kalendern). Achtung: Bei Kopien vom 15.–21.10. beweist der Stempel nur „gab es spätestens am 22.10.“.
+- Test zuerst (3 rot → grün), 338/338, lokal `ea9ce2b`, kein Push. Nächster Schritt: ZS1 (Fr 23.10. ab 06:00) zieht beide Bestände nach.
+
+## Neu 22.10.2026 ~20:15 (Dauerlauf E22-5 Teil 2, Stapel 18): 536 von 723 Zeilen mit Archivkopie
+
+- 3 Quellen gesichert: Azure SOC 2, Requesty privacy, RvA-Eintrag c096, lokal `bc078c6`, kein Push.
+- Requesty privacy: Archivkopie weicht vom Text im Quellenlauf ab (gleich: false) → beim nächsten Quellenlauf ansehen.
+- Abgelehnt 5×: Microsoft Privacy-and-Security-Terms (Status 520), Requesty subprocessors + security, Scaleway contracts + data-privacy („fetch failed“). 64 Quellen offen, nächster Stapel nach ≥ 30 min, `--anzahl 8`.
+
+## Neu 22.10.2026 ~20:20 (Dauerlauf GP7): Wächter deckt jetzt alle stampr-Labore ab, Vergleich liegt
+
+- Liste „stampr hat / wir haben / fehlt uns“ privat in `dossiers/us/STAMPR-VERGLEICH-2026-10-22.md`. Kurz: stampr beobachtet 53 Modellkarten von 4 Laboren (Anthropic, OpenAI, Google, Meta) ohne Diff und ohne Käufer; die Modell-Fingerabdrücke sind seit 26.11.2025 pausiert, nur bei gpt-4o/gpt-4.1 laufen noch API-Kennungen.
+- Wir sind jetzt bei allen vier Laboren dabei, plus Microsoft. Vorn sind wir bei Gemini 4 Argon (fehlt bei stampr), bei Wort-Diffs (stampr hat nirgends eins) und bei Datenschutz-/AVV-Seiten.
+- 9 Seiten neu im Wächter (19 → 28): Karten GPT-6.1 Sol, Claude Opus/Sonnet/Haiku 5.5, Fable 5.1, Muse Wonder, Gemini 3.7 Flash, dazu Anthropic system-cards und transparency. Zweimal abgerufen, gleich, Rohkopien + SHA-256 ok. Gesamtlauf trocken: 26 gleich, OpenAI AVV/Unterauftragnehmer 403 (bekannt).
+- Bewusst nicht: Altmodelle, eigene Modell-Fingerabdrücke (API-Schlüssel, Geld, nie versprochen).
+- Nächster Schritt: WS1 (Wächter-Rohkopien bei neu/verändert mit OpenTimestamps stempeln, Test zuerst). Tests 335/335, kein Code geändert, nichts zu committen (git-ignoriert), kein Push.
+
+## Neu 22.10.2026 ~20:00 (Dauerlauf EH2): Wächter beobachtet jetzt auch Modell- und Sicherheitsbeschreibungen
+
+- Neun neue Seiten in der privaten Wächter-Liste (`waechter/liste.json`, git-ignoriert, Auswahl dort mit Begründung): je drei bei OpenAI, Google und Microsoft, nämlich System Cards bzw. Modellkarten, die Verzeichnisse dazu (damit eine neue Karte auffällt) sowie Sicherheits- und Transparenzseiten. Gleicher Beleg-Standard: Rohkopie + SHA-256 unter `waechter/roh/2026-10-22/` (Prüfsummen ok), Wortstand als Referenz.
+- Vorher zweimal abgerufen: eine Seite (Microsoft „Responsible AI“) liefert bei jedem Abruf ein anderes Zufallskennzeichen und bleibt deshalb draußen (wäre täglich Fehlalarm). Die übrigen neun waren beim zweiten Abruf unverändert.
+- Liste jetzt 19 Seiten. Beim Kontrolllauf meldeten die zwei alten OpenAI-Seiten (AVV, Unterauftragnehmer) nur geänderte Menüeinträge („Apps SDK“ → „Plugins“): nicht übernommen, das prüft die Tagesprüfung 23.10.
+- stampr-Recherche oben als ÜBERHOLT markiert; stampr wird nie als Beleg genannt.
+- Kein Code geändert, Tests 335/335. Nichts zu committen (alles git-ignoriert), kein Push.
+- Nächster Schritt dazu: GP7 (Liste „stampr hat / wir haben / fehlt uns“).
+
+## Neu 22.10.2026 ~19:40 (Dauerlauf E22-5 Teil 2, Stapel 17): 531 von 723 Zeilen mit Archivkopie
+
+- 4 Quellen gesichert: OpenAI safety-checks und your-data, Azure content-filter und data-privacy (Microsoft leitet auf `foundry-classic`/`foundry` um, Archiv nimmt die Umleitung), lokal `1ad7507`, kein Push.
+- Abgelehnt 4× „fetch failed“: OpenAI pricing, Azure deployment-types, Microsoft C5, Microsoft ISO 27001. Das Archiv drosselt Microsoft wie vorher Google.
+- 67 Quellen offen, weiter `node nachsichern.js --anzahl 8`, nach ≥ 30 min Pause.
+
+## Neu 22.10.2026 ~19:00 (Dauerlauf E22-5 Teil 2, Stapel 16): 511 von 723 Zeilen mit Archivkopie
+
+- Die Zahl der Zeilen stieg von 649 auf 723, weil die API-Profile Azure OpenAI, Vertex/Gemini API und OpenAI API (EH1 Teil 2c) dazukamen.
+- 3 Google-Cloud-Quellen gesichert (BSI C5, SOC 2, Datenresidenz), lokal `93395cf`, kein Push.
+- Achtung: Die Google-Seite `vertex-ai/generative-ai/docs/learn/data-residency` leitet jetzt um auf `docs.cloud.google.com/gemini-enterprise-agent-platform/resources/data-residency`. Beim nächsten Quellenlauf prüfen, ob das Zitat noch auf der neuen Seite steht.
+- Abgelehnt 5× (Google Service-Terms, Subprozessoren, Vertex Data-Governance, Abuse-Monitoring: „fetch failed“; Safety-Filter: Zeitüberschreitung). Das Archiv drosselt Google gerade.
+- 74 Quellen offen, weiter `node nachsichern.js --anzahl 8`, nach ≥ 30 min Pause; danach die Fehlversuche einzeln nachfassen.
+
+## Neu 22.10.2026 ~18:55 Systemuhr (Dauerlauf EH1 Teil 2c): Azure OpenAI, Vertex/Gemini API und OpenAI API als eigene Profile, lokal, NICHT online
+
+- Drei neue Profile in `data/anbieter/`: `azure-openai` (Kategorie Cloud), `google-vertex-gemini-api` (Cloud), `openai-api` (Modell-Anbieter). DPF wie die Firma (Microsoft/Google ja, OpenAI nein). Katalog jetzt 27 Anbieter, Seite sagt „21 europäische und 6 US-KI-Anbieter“.
+- Belegkopien `belege/anbieter/<id>/` (19 / 23 / 12 Kopien) mit QUELLEN.md, SHA256SUMS (alle ok) und OpenTimestamps (55 gestempelt, nachziehen mit ZS1). Azure und Google direkt abrufbar; OpenAI 4 Seiten direkt von developers.openai.com, Rest Wayback-Kopien aus dem ChatGPT-Enterprise-Ordner.
+- Zitatprüfung: 95 / 109 / 130 Zitate gegen die Kopien, alle wörtlich (ein Apostroph bei Google berichtigt; „EU-US Certification“ steht im DPF-Beleg unter `belege/rechtsraum/`).
+- Registerabgleich ergänzt (`data/register-datenschutz.json`): Azure und Vertex = Konzern im EU Cloud CoC (Dienst ungeklärt), OpenAI kein Eintrag.
+- **Für Prüfer wichtig:** (1) Azure „Global“ und Vertex „global endpoint“ geben keine Ortsgarantie, nur Data Zone EU bzw. EU-Endpunkt/Region; Microsoft kann Regionen „without prior notice“ zur Datenzone nehmen. (2) Missbrauchsprotokolle mit Prompts: OpenAI bis 30 Tage, Google bis 90 Tage (Kunden mit Cloud Master Agreement standardmäßig ausgenommen), Azure ohne genannte Frist. (3) Null-Speicherung überall nur auf Antrag/Freigabe; Google-Cache standardmäßig an (bis 24 h, abschaltbar). (4) Grounding mit Google Search ist vom Datenstandort ausgenommen, Logs bis 3 Tage, nicht abschaltbar. (5) OpenAI-Europa-Region nur mit Freigabe + „Modified Retention amendment“, Systemdaten weiter außerhalb.
+- Unbelegt: alle Zertifikate nur „beansprucht“ (Login nötig), Backup-Orte, Azure-Unterauftragnehmerliste (Login), Frist der Azure-Missbrauchsprotokolle. Recherche-Notizen privat in `dossiers/us/RECHERCHE-*-2026-10-22.md`.
+- Test zuerst (3 rot), dann 335/335, Build streng ok im Klon (27 Anbieter). Lokal `c067e0c`, **kein Push** (Push = Home-Tab über `dossiers/push-sauber.sh`, zusammen mit den drei Assistenten-Profilen).
+- **EH1 Save Page Now erledigt 22.10. ~19:30 (`11d1103`):** Von den 30 Seiten hatte der Archiv-Stapel E22-5 schon 13 gesichert, 4 liegen dort in der Wiederholungs-Schlange (Microsoft-DPA-Seite + DOCX, Workspace Service Terms + Subprocessors). Die übrigen 13 sind jetzt im Internet Archive, Links unten in den drei `belege/anbieter/*/QUELLEN.md`. Nächster Schritt: EH2 (System Cards/Safety-Seiten im Wächter).
+
+## Neu 22.10.2026 ~18:20 Systemuhr (Dauerlauf E22-15): Filter-Lücken 255–257 geschlossen, auf main
+
+- **Was:** Der Normenbezugs-Filter erkennt jetzt „AI-Act“ mit Bindestrich und in Zusammensetzungen, dazu DORA, NIS 2, BDSG, TDDDG, TKG, Data Act, Cyber Resilience Act, HIPAA, CCPA, CLOUD Act, FISA, BSIG, eIDAS, ePrivacy, nDSG, Data Governance Act. Web-Adressen („…/dora-info“, „…/eu-ai-act“) zählen nicht.
+- **Daten:** 11 Profile ohne Gesetzesnamen im eigenen Text (DeepL, Gcore, GreenPT, Infomaniak, IONOS, Nebius, Nordference, Opper, OVHcloud, Regolo, Requesty). 7 Pflicht-Namen heißen jetzt „… zu den EU-Regeln für KI“, DeepLs Zertifikatstyp „HIPAA“ heißt „Gesundheitsdaten-Zusage (USA)“. Wörtliche Zitatfelder bleiben unverändert.
+- **Änderungsprotokoll:** `AI_ACT_FRUEHERE_NAMEN` / `ZERT_FRUEHERE_NAMEN` in `lib/aenderungen.js` ordnen alte Namen den neuen zu; das Umbenennen erzeugt keinen Eintrag (nach Commit + Build geprüft).
+- Die alten Zweige `vorschlag-234b/256/257` (10.10.) sind damit überholt, nicht mergen (Daten 12 Tage alt).
+- Tests 332/332, Build streng ok (24 Anbieter). Lokal `117db54` auf main, **kein Push** (Push = Home-Tab, zusammen mit dem Rest).
+
+## Neu 22.10.2026 ~17:45 (Dauerlauf EH3 + E22-8): Entwurf Startseite für Prüfer und DSB liegt als Vorschau
+
+- **Ansehen:** `entwurf-startseite/index.html` im Browser öffnen (Bild: `entwurf-startseite/vorschau.png`, heute zum Vergleich `vorher.png`). Neu bauen: `node entwurf-startseite.js` (nimmt die gebaute `docs/index.html`, tauscht nur den oberen Kasten).
+- **Inhalt:** Kopfzeile „Für Datenschutzbeauftragte, Prüfer und Kanzleien“, Satz „Sie prüfen KI-Anbieter für Ihre Kunden? Wir sammeln die Belege und halten sie aktuell.“, drei Schritte (sammeln, sichern, melden), „Sie bewerten und zeichnen. Wir nicht.“, Knopf „Preise und Ablauf“ → /fuer-kaeufer/. Die Anbieter-Tabelle darunter bleibt wie heute.
+- **Wächter-Beispiel (Frage 513, Felix: kein Fall):** GPT-6-Astra-System-Card, Deckblatt-Datum in allen 5 Fassungen „2026-09-03“; 03.09. 117 Seiten vs. 30.09. 175 Seiten, beide SHA-256 und Wayback-Links aus `dossiers/us/gpt6-card/BELEG-…`. Ausdrücklich „kein Vorwurf, OpenAI protokolliert offen“.
+- Nicht live, nicht im Build: Ordner `entwurf-startseite/` ist git-ignoriert, `noindex,nofollow`. Lokal `8b92465`, Tests 321/321.
+- **Offen = Felix (Frage 521):** So übernehmen (dann baut der Dauerlauf es in `seiteIndex` ein, Push = Home-Tab)?
+
+## Neu 22.10.2026 ~17:40 (Dauerlauf E22-6, Frage 500): Jeder Beleg hat jetzt einen Zeitstempel von außen
+
+- **Ablauf ab jetzt:** Nach jedem neuen Beleg unter `belege/` einmal `node stempeln.js`. Es legt `<datei>.ots` daneben (OpenTimestamps, kostenlos, kein Konto). Raus geht nur der Fingerabdruck mit Zufallszusatz, nie der Inhalt. Von Git ignorierte Dateien (Text-Auszüge, b64) bekommen keinen Stempel.
+- **Nachsicherung:** 237 vorhandene Belege gestempelt, 4 von 4 Kalendern haben geantwortet. Beweis für die alten Belege: „gab es spätestens am 22.10.2026“. Lokal `b07a753`, kein Push.
+- **Bestätigung nachziehen:** Die Stempel warten noch auf den Bitcoin-Block (normal, dauert Stunden). Ab Fr 23.10. `node stempeln.js --nachziehen` (Aufgabe ZS1 in ALLEIN).
+- `ots`-Programm startet unter Windows nicht (python-bitcoinlib findet OpenSSL nicht). Darum `ots_stempel.py` mit der OpenTimestamps-Bibliothek; prüfen kann jeder mit dem offiziellen `ots verify` oder auf opentimestamps.org.
+- Offen, braucht Push = Home-Tab: ein Satz auf der Methodik-Seite („Jede Belegkopie ist mit OpenTimestamps gestempelt, .ots liegt daneben im Repository“). Noch nicht geschrieben.
+- Tests 316/316.
+
+## Neu 22.10.2026 ~17:50 (Dauerlauf E22-5 Teil 2, Stapel 13–14): 476 von 649 Zeilen mit Archivkopie
+
+- 9 Quellen gesichert in zwei Teilläufen (Exoscale ×3, Hetzner ×2, IAS-Zertifikat, Infomaniak ×2, OVHcloud), lokal `f04bd8a`/`c9dd166`, kein Push.
+- Abgelehnt 7× „fetch failed“ (Hetzner Subunternehmer, Infomaniak ISO-PDFs + Preise, IONOS AVV, Microsoft DPA ×2). Das Archiv drosselt gerade; im zweiten Teillauf gingen nur 3 von 8 durch.
+- Archiv ≠ Quellenlauf bei Exoscale CSA-STAR/DPA/Terms und OVHcloud Verträge (beim nächsten Quellenlauf ansehen).
+- 57 Quellen offen, weiter `node nachsichern.js --anzahl 8`, nach einer Pause (≥ 30 min), noch ~4 Läufe; danach die Fehlversuche einzeln nachfassen.
+
+## Neu 22.10.2026 ~17:20 (Dauerlauf E22-5 Teil 2, Stapel 12): 450 von 649 Zeilen mit Archivkopie
+
+- 10 Quellen gesichert in zwei Teilläufen (Scaleway, Infomaniak B Corp, DAkkS ×3, DeepL ×3, Exoscale ×2), lokal `5a2786a`/`3e25dd2`, kein Push.
+- Abgelehnt 6×, fast alle „fetch failed“ (DeepL, DAkkS, Exoscale; DQS Status 520), rücken ans Ende. Archiv ≠ Quellenlauf bei drei DeepL-Seiten und Exoscale on-demand.
+- 69 Quellen offen, weiter `node nachsichern.js --anzahl 8`, noch ~5 Läufe; danach die Fehlversuche einzeln nachfassen.
+
+## Neu 22.10.2026 ~16:25 (Dauerlauf E22-5 Teil 2, Stapel 8): 302 von 649 Zeilen mit Archivkopie
+
+- 16 Quellen gesichert (Microsoft EU Data Boundary, Mistral AGB/AVV/Datenschutz, Lyceum, Nebius Trust Center inkl. CSA STAR/ISO 42001/SOC 2, Nordference), lokal, kein Push.
+- Archiv ≠ Quellenlauf bei Lyceum `magazine/c5-certification-gpu-cloud-germany/` (Blogartikel, beim nächsten Quellenlauf ansehen); Microsoft-Seite ohne Textvergleich.
+- 110 Quellen offen, weiter `node nachsichern.js --anzahl 8`.
+
+## Neu 22.10.2026 ~16:10 (Dauerlauf E22-5 Teil 2, Stapel 7): 237 von 649 Zeilen mit Archivkopie
+
+- 14 Quellen gesichert (Mistral-Hilfe, Aleph Alpha auf Hugging Face, Google Workspace, Microsoft Learn/Copilot), lokal `b1bf1ba`, kein Push.
+- Abgelehnt: zwei OpenAI-Hilfeseiten (Compliance API, Data Residency), Archiv antwortet mit Status 520.
+- Archiv ≠ Quellenlauf bei Kolibri-1 und Pharia-1-Embedding (Hugging Face). Beim nächsten Quellenlauf prüfen, ob sich eine Angabe geändert hat.
+- 126 Quellen offen, weiter `node nachsichern.js --anzahl 8`.
+
+## Neu 22.10.2026 ~16:00 (Dauerlauf E22-5 Teil 2, Stapel 6): 212 von 649 Zeilen mit Archivkopie
+
+- 7 Quellen gesichert (Gcore Blog/Whisper/Legal/Presse, GreenPT privacy/sustainability/terms), `greenpt.com/privacy-policy` fetch failed.
+- Bei den drei GreenPT-Seiten ist der Inhalt der Archivkopie **anders** als beim Quellenlauf (gleich: false). Passt zu GreenPTs Antwort vom 22.10. (will die Seiten ändern, Inhalt in `outreach/gespraeche/PRIVAT-NOTIZEN.md`). Nächster Quellenlauf zeigt, ob sich die Angaben geändert haben.
+- 140 Quellen offen, weiter `node nachsichern.js --anzahl 8`.
+
+## Neu 22.10.2026 ~15:55 (Dauerlauf): Zwei Antworten auf die Berufsrecht-Anfrage
+
+- Zwei Antwort-Entwürfe liegen, Fragen 519/520 in ALLEIN.md. Inhalt nur in `outreach/gespraeche/PRIVAT-NOTIZEN.md` (privat).
+
+## Neu 22.10.2026 ~15:45 (Dauerlauf E22-5 Teil 2, Stapel 5): 191 von 649 Zeilen mit Archivkopie
+
+- 8 Quellen gesichert (Requesty EU-Routing/Guardrails/Quickstart, HDS-Liste esante.gouv.fr, EUrouter DPA/Modelle/Datenschutz, Hetzner BSI-C5-Testat).
+- Bei 4 davon weicht die Kopie vom Prüfstand ab (HDS-Liste, alle drei EUrouter-Seiten, die jetzt auf www. umleiten). Das Dossier sagt das schon von selbst („Text weicht vom Prüfstand ab“); der nächste Quellenlauf zeigt, ob sich wirklich etwas geändert hat.
+- Nächster Lauf: wieder `node nachsichern.js --anzahl 8`, 147 Quellen offen.
+
+## Neu 22.10.2026 ~15:35 (Dauerlauf E22-5 Teil 2, Stapel 4): 163 von 649 Zeilen mit Archivkopie
+
+- 7 Quellen gesichert (T-Systems Enterprise-Trust, Mistral ZDR/Preise/Large 4, Nebius DPA + Unterauftragnehmer, OVHcloud HDS), alle Kopien gleich dem Quellenlauf.
+- Nicht gesichert: Nebius Token-Factory (Netzfehler), rückt ans Ende.
+- Nächster Lauf: wieder `node nachsichern.js --anzahl 8`, 155 Quellen offen.
+
+## Neu 22.10.2026 ~15:25 (Dauerlauf E22-5 Teil 2, Stapel 3): 143 von 649 Zeilen mit Archivkopie
+
+- 11 Quellen gesichert (bfl.ai, DAkkS-Urkunden, GreenPT-Doku, Hetzner, IONOS-Doku u. a.), alle Kopien gleich dem Quellenlauf.
+- Nicht gesichert: IONOS AI Model Hub + Zertifikate (3. Mal „kein Snapshot“), zwei EU-Kommissions-Seiten (Status 520), T-Systems LLM-Hub-Doku (Netzfehler).
+- Neu: Fehlversuche je Quelle in `data/quellen-archiv-fehlversuche.json`; solche Quellen rücken ans Ende und blockieren keinen Stapel mehr. Wer dauerhaft scheitert, braucht die eigene Kopie aus E22-6. Tests 310/310, lokal `867d759`.
+- Nächster Lauf: wieder `node nachsichern.js --anzahl 8`, 168 Quellen offen.
+
+## Neu 22.10.2026 ~15:05 (Dauerlauf E22-5 Teil 2, Stapel 2): 80 von 649 Zeilen mit Archivkopie
+
+- Zwei Teilläufe (`--anzahl 15` brach nach 9 Quellen am 10-Minuten-Rahmen ab, dann `--anzahl 8`): 15 Quellen gesichert, Stand **80/649**, 177 Quellen offen. Lokal committet, kein Push.
+- Abgelehnt: cloud.ionos.de/managed/ai-model-hub und cloud.ionos.de/zertifikate („kein Snapshot“, live 200) → eigene Kopie + OpenTimestamps (E22-6). Sie stehen vorn in der Liste und werden bei jedem Lauf neu versucht (kostet ~1 min); bfl.ai EU-API-Bedingungen ging diesmal durch.
+- Drei Google-Cloud-Kopien ohne Textvergleich (`gleich: null`, Rohkopie nicht lesbar), Kopie zählt trotzdem.
+- Nächster Lauf: `node nachsichern.js --anzahl 8` (passt in 10 Minuten), ~22 Läufe bis alle durch.
+
+## Neu 22.10.2026 ~15:30 (Dauerlauf E22-5 Teil 2, Stapel 1): Jede Dossier-Quelle bekommt eine Archivkopie
+
+- Neu: Ablage `data/quellen-archiv.json` (je Quelle Wayback-Kopie, Datum, ob der Text der Kopie dem Hash des Quellenlaufs gleicht). Das Dossier nimmt die Kopie, wenn kein Fall eine liefert; weicht der Text ab, steht „Kopie vom …, Text weicht vom Prüfstand ab“ neben dem Link.
+- Skript `node nachsichern.js [--anzahl 15] [--pause 20]` sichert die nächsten Quellen ohne Kopie (Save Page Now), schreibt nach jeder Quelle, macht beim nächsten Lauf weiter; `--zaehlen` gibt nur den Stand.
+- Test zuerst (`test/quellen-archiv.test.js`, 6 Tests, erst rot), **308/308**. Lokal `502e295`, **kein Push**. Seite unverändert (Dossiers sind privat).
+- Stand: **45 von 649** Angaben-Zeilen mit Kopie (vorher 27); 11 Quellen gesichert, 187 offen. Drei Kopien sind vom Archiv selbst schon da gewesen (04.–13.10.), Text gleich.
+- Auffällig: aleph-alpha.com/datenschutz Text der Kopie ≠ Hash vom Quellenlauf (Seite geändert? Quellenlauf prüft nachts). bfl.ai/legal/eu-api-service-terms: Archiv lehnt ab (404), live 200 → eigene Kopie + OpenTimestamps (E22-6).
+- Nächster Lauf: weiter mit `node nachsichern.js --anzahl 15`, ~13 Stapel bis alle durch. Danach Dossiers neu erzeugen, dann starker Satz zurück (Test zuerst).
+
+## Neu 22.10.2026 ~14:50 (Dauerlauf E22-5 Teil 1): Käuferseite ehrlich
+
+- `/fuer-kaeufer/` sagt jetzt: „Prüfsumme des gelesenen Texts und, wo vorhanden, Archivkopie (bei Bestellung sichern wir jede Quelle des Dossiers im Internet Archive)“. Vorher stand dort „SHA-256 der Quelle und Archivkopie“ für jede Angabe; das hatten nur 13 von 314.
+- Test zuerst (`test/kaeuferseite-zusage.test.js`, erst 2 rot), danach 302/302, Build streng ok, nur die Käuferseite geändert. Lokal `432c661`, **kein Push** (Push = Home-Tab über `dossiers/push-sauber.sh`).
+- Offen (Teil 2, nächste Läufe): alle 314 Dossier-Quellen nachsichern (Wayback mit Pausen, sonst eigene Kopie + OpenTimestamps), Zählung in `MESSUNG.md` (Start 13/314). Bei 100 % kommt der starke Satz zurück.
+
+## Neu 22.10.2026 ~14:20 Systemuhr (Dauerlauf): GreenPT hat die Ortsfrage zu den Ärzte-/Anwaltsseiten beantwortet
+
+- Antwort kam 22.10. auf die Fachfrage 19a (Inhalt in `outreach/gespraeche/PRIVAT-NOTIZEN.md`). Kurz: Speicherort Frankreich, Rechnen auch in Finnland, beides EU; GreenPT will die zwei Seiten ändern.
+- Im Profil als Auskunft mit Datum ergänzt (Feld Subprozessoren, wie die Auskunft vom 13.10.). Tests 299/299, Build streng ok, lokal committet, **nicht gepusht** (Push = Home-Tab).
+- Nächster Schritt: Quellenlauf merkt, wenn GreenPT die Seiten ändert; dann Satz „Stand 22.10. noch unverändert“ im Profil streichen. Kein Fall, keine Frage an Felix.
+
+## Neu 22.10.2026 ~14:20 (Dauerlauf BH1): Berufshaftpflicht-Anfrage hat einen Empfänger
+
+- Der Entwurf fragt nach dem Produkt „Pro Media“, also an den Versicherer, der es anbietet (Adresse von dessen Produktseite, abgerufen 22.10.). Text unverändert.
+- Wartet auf Felix: ein Wort „senden“ (ALLEIN Frage 517), dann sendet die Maschine.
+
+## Neu 22.10.2026 13:57 Systemuhr (Dauerlauf E22-4, Felix „ja“ zu 438 + 441): Auditor-Vorschlag A komplett + Feld „Datenschutz-Nachweis laut Register“
+
+- **Seite:** Spalte heißt „Kein Training“ (mit Erklärung: Opt-out zählt nicht), Filter „nur AVV, Subprozessoren und ‚kein Training‘ belegt“, Kommunen-Texte und Profil-„nein“ ohne „Trainings-Opt-out“; Methodik erklärt, dass ein Opt-out nicht reicht und wir Art. 28 nicht prüfen.
+- **Mistral:** „kein Training“ jetzt unbelegt (nur Opt-out, Voreinstellung ungeklärt, Preview-Modelle ohne Opt-out). Steht im Änderungsprotokoll/Feed. Mistral fällt aus dem Belegt-Filter. Mistral-Dossier widerspricht sich nicht mehr, darf wieder als Gratis-Dossier raus.
+- **Guides:** Zertifikate („ISO 27001 kein Nachweis, nur Art. 42/43 und 40/41“), Kommunen („Untergrenze (Informationssicherheit, kein Datenschutz-Nachweis)“), DSGVO-Guide (Training per Art. 28 Abs. 3 lit. a ausgeschlossen; Ein-Stunden-Formel ersetzt).
+- **Neues Feld** im Profil unter „Vertrag & Datenschutz“: „Datenschutz-Nachweis laut Register (Art. 40–43 DSGVO)“, Daten in `data/register-datenschutz.json`, Code `lib/register.js`. EU Cloud CoC und CISPE am 22.10. neu gelesen (gleicher Befund wie 19.10.). Ergebnis: OVHcloud und T-Systems „nur Selbstangabe, nicht im Register“, Regolo „Mutterfirma (Seeweb) im Register, dieser Dienst nicht“, **neu: Google und Microsoft „Konzern im Register (EU Cloud CoC für cloud.google.com / azure.com), dieses Produkt ungeklärt“** (welche Dienste erklärt sind, steht nur im Prüfbericht-PDF, nicht gelesen), alle übrigen „kein Eintrag gefunden“.
+- **Dossier:** Unter der Prüfpunkt-Tabelle ein Satz zu ISO 27001 und eine Registerzeile, beides **ohne Gesetzesverweis** (Regel 18.09.: kein Normenbezug im Dossier, sonst Rechtsdienstleistung). Der Satz aus dem Vorschlag („… im Sinne der DSGVO (Art. 40/41 …)“) wäre am Normenbezugs-Filter hängen geblieben; jetzt: „Der Prüfpunkt ‚ISO 27001 belegt‘ sagt nur etwas über Informationssicherheit. Ob der Anbieter in einem Register … steht, zeigt die nächste Zeile.“
+- Alle 24 Dossiers neu: `dossiers/*-2026-10-22.md` (privat). Normenbezugs-Funde je Dossier gleich wie am 21.10. (nur die alten „AI Act:“-Feldnamen). US-Dossiers unter `dossiers/us/` nicht neu erzeugt.
+- Test zuerst `test/auditor-hinweise.test.js` (11 Tests), **299/299**, Build streng ok (24 Anbieter). Lokal `2166db4` + `f0f453c`, **nicht gepusht** (Push = Home-Tab).
+- Offen (nicht beschlossen): OVHcloud „wirbt mit Kodex, nicht im Register“ als Fall? Nur nach Felix. Google/Microsoft: Prüfberichte lesen, ob Gemini für Workspace / Microsoft 365 Copilot erklärt sind.
+
+## Neu 22.10.2026 ~14:05 (Dauerlauf E22-3): sechs Fachfragen als Entwurf, Felix sendet von hallo@
+
+- Sechs Gmail-Entwürfe zu den Widersprüchen der Scans vom 22.10.: GreenPT (Robert, Ärzte-/Anwaltsseiten vs. finnische Partner), DeepL (Dokumente nur EWR?), Aleph Alpha (Kolibri-API speichert?), Nebius (Finnland oder „Global“?), EUrouter (was speichert das einschaltbare Logging?), Gcore (SOC 2 Type I oder II?). Liste mit Entwurf-IDs: `outreach/mails/19-fachfragen-widersprueche-2026-10-22.md`.
+- Alle Zitate am 22.10. ~13:55 live nachgeprüft, stehen noch. belegbar.eu nur als Text (Frage 490).
+- **Nicht gesendet:** Das Mail-Werkzeug hat kein Absender-Feld, die Maschine könnte nur von felix.h.lind@gmail.com senden. Felix wollte hallo@ → **Nur Felix: sechs Entwürfe von hallo@ senden.**
+- Antworten prüft die Tagesprüfung; Antwort → Profil-Anmerkung mit Datum.
+
+## Neu 22.10.2026 ~14:00 (Dauerlauf E22-2, Felix „klär das 479“): Was am Veröffentlichen der US-Dossiers heikel ist
+
+- Blatt `recht/US-DOSSIERS-VEROEFFENTLICHEN.md` (privat, `recht/` gitignored): zehn Punkte mit Quellen, keine Rechtsberatung.
+- Größte Punkte: „nicht belegbar“ oben kann wie „hat es nicht“ klingen; „Ergebnis: nein“ oben wirkt wie ein Testurteil; gilt die Seite als Werbung, müssen wir die Wahrheit beweisen. Ein bestelltes Dossier an einen Prüfer ist milder gestellt als eine offene Seite.
+- Namen für Äußerungs-/Wettbewerbsrecht: WBS Köln (Erstberatung laut Seite kostenlos), Schlun & Elseven Köln (Kosten ungeklärt), Corporate Law Clinic (kostenlos). Preis vorher schriftlich festmachen.
+- Offen: Frage 515 im Home-Tab (privat lassen + drei Zustände statt „nicht belegbar“ + öffentliche Fassung ohne Ergebniszeile, dann Erstberatung). Der Satz unten „Veröffentlichung erst nach Rechtsrat (Fr 30.10.)“ ist überholt: am 30.10. nur nach einem Namen fragen.
+
+## Neu 22.10.2026 ~13:35 (Dauerlauf E22-1): Push `d28b2b7` live geprüft, Fall 006 hat „veröffentlicht 22.10.“
+
+- Live (22.10. ~13:30): Startseite, /faelle/, /fuer-kaeufer/ und /faelle/t-systems-not-stored-cache/ alle HTTP 200; /vergleich/ nennt OpenAI, Google, Microsoft. Kurztext von Fall 006 sagt „Abschnitt 2.3.1“, „§“ steht nur noch im Verlauf (Wortlaut der Leistungsbeschreibung, so gewollt).
+- Verlauf Fall 006 um „22.10.2026: Fall veröffentlicht (nach Ablauf der Antwortfrist ohne Antwort des Anbieters)“ ergänzt, wie bei 004 üblich. 288/288 Tests. Lokal `9bda794`, **nicht gepusht** (Push = Home-Tab). Vom Build nur Fall-006-Seiten übernommen; Änderungsliste/daten.json/Startseite zurückgesetzt, weil der Build dort auch fremde Einträge umsortiert – beim nächsten Push über push-sauber.sh baut es neu.
+- Befund ohne Änderung: Die Fallseite meldet Suchmaschinen `datePublished 2026-10-05` (Tag der Mail an T-Systems), online ist der Fall aber erst seit 22.10. Ungeklärt, ob das Feld bei allen Fällen „eröffnet“ statt „veröffentlicht“ nimmt; bei der nächsten Arbeit am Fall-Bau prüfen.
+
+## Neu 22.10.2026 ~13:20 (Dauerlauf EH1 Teil 2b): Die drei US-Anbieter haben jetzt Belegkopien mit Prüfsumme
+- 44 Kopien in `belege/anbieter/{microsoft-copilot,openai-chatgpt-enterprise,google-gemini-workspace}/` (14/15/15), je `QUELLEN.md` (Datei → Quelle) und `SHA256SUMS` (alle ok). Lokal `36a7af0`, kein Push.
+- openai.com, help.openai.com und trust.openai.com: direkt 403 oder robots.txt sperrt → Kopien aus dem Internet Archive (Zeitstempel 08.07.–22.10.2026 im Dateinamen). Trust Center zusätzlich als rohes HTML, weil die Zertifikatsdaten in Skript-Blöcken stehen. Archiv-Antworten kommen gepackt (gzip), das Holskript entpackt sie jetzt.
+- **Zitatprüfung:** 133 Zitate in den drei Profilen gegen alle Kopien des Anbieters: 127 wörtlich, 4 nur Formatierung (Zeilenumbruch, Leerzeichen vor Punkt, Link-Pfeil), **2 ohne Kopie**: OpenAI Academy („saved indefinitely“, „minimum of 90 days“ in `vertrag.zero_data_retention`), robots.txt sperrt, kein Archiv. Kein Zitat widerspricht der Kopie.
+- Viele Profil-Zitate stehen auf Nebenseiten, nicht auf der im Feld `quelle` genannten Seite (z. B. Flex routing auf `copilot-flex-routing`, Gemini-Aufbewahrung im Privacy Hub). Die Nebenseiten sind mitgesichert; das Feld `quelle` ist unverändert.
+- **Erledigt 22.10. ~19:30 (siehe oben):** ~~Save Page Now ging nur für 1 von 30 direkt geholten Seiten durch~~ (Flex routing → web.archive.org/web/20261022110713), danach nur Verbindungsfehler. Nachholen mit 60 s Abstand. Liste `~/allein/tmp/eh1b/spn-urls.txt`.
+- **Nächster Schritt EH1 Teil 2c:** API-Produkte Azure OpenAI, Vertex/Gemini API, OpenAI API als eigene Profile (eigene Recherche, gleiche Felder).
+
 ## Neu 22.10.2026 12:55 Systemuhr (Dauerlauf MX1, Entscheidung Felix 22.10.): Telefonat Fr 30.10. nur Vergabe + zwei Namen
 - Der private Spickzettel für Fr 30.10. 17:00 (gitignored) ist gekürzt: Die Vergabe-Fragen für den Kill-Check bleiben (letztes Verfahren, Vertrauensfrage, Ja/Nein, drei Haftungen, Pilot). Die US-Frage ist raus.
 - Zu den US-Mustern und zur Kanal-Doku fragt Felix nur nach zwei Namen: jemand für Äußerungs-/Wettbewerbsrecht, jemand für Medizinprodukterecht. Keine Frage zur Sache.
@@ -29,6 +954,16 @@
 - Test zuerst `test/us-anbieter.test.js` (7 Tests), 283/283, Build streng ok (24 Anbieter, 79 Vergleiche).
 - **Offen (EH1 Teil 2+):** (1) Hashes/Belegkopien für die US-Quellen (viele nur als Wayback, direkt 403); (2) die API-Produkte, die Felix nennt: Azure OpenAI, Google Vertex/Gemini API, OpenAI API; (3) DPF-Teilnahme der drei Firmen auf dataprivacyframework.gov prüfen; (4) Wächter auch auf System Cards/Safety-Seiten (EH2).
 - **Frage an Felix:** US-Anbieter so online stellen? Push nur über `dossiers/push-sauber.sh`.
+
+## Neu 22.10.2026 ~21:50 (Dauerlauf Laufend): Widerspruchs-Scan Lyceum, Rechtsseite sagt „nie geloggt“, der eigene DPA kennt vier Ausnahmen
+
+- Frage: Sagen andere Lyceum-Seiten etwas anderes als das Profil (Ort, Speicherung, Training, Zertifikate, Vertragspartner)? Erster Scan bei Lyceum. Abruf 22.10. ~21:40, curl: Startseite, `/models/`, `/legal/`, `/legal/terms` (Stand „October 2026“, inhaltlich gleich wie 16.10.), `/legal/privacy`, `/trust/`, C5-Artikel, Artikel „EU Data Residency“ („Last updated 20 October 2026“), Doku `llms-full.txt`. Rohseiten in `~/allein/tmp/lyc1022/` (nicht im Repo). DPA = Fassung aus dem Trust Center vom 09.10. (Rohkopie liegt).
+- **Widerspruch (Werbung gegen Vertrag):** Rechtsseite `lyceum.technology/legal/`: „Never recorded“, „We never log them or write them to a database, so there’s nothing to open“, „We never stored them, so there’s nothing to return“; Startseite: „Prompts and outputs are processed, not stored. Nothing is written to disk.“ Der eigene DPA, Schedule 1, 2.2, erlaubt das Aufbewahren von Kundeninhalten für Rechtspflichten, Betrugs-/Missbrauchserkennung, Cybersicherheit und Stabilität (2.3: „minimum period strictly necessary“, keine Frist). Gleiches Muster wie Scaleway. Profil stand schon richtig („Zusage mit vier Ausnahmen“), nur Anmerkung ergänzt.
+- **Neu, kein Widerspruch:** zweiter Vertragspartner „Lyceum Switzerland GmbH“; Team mit Zugriff auf Kontodaten, Nutzungsdatensätze und System-Logs sitzt in Berlin und Zürich (Schweiz außerhalb EU/EWR, mit Angemessenheitsbeschluss). Der DPA vom 09.10. nennt nur die deutsche GmbH. Orte für Dedicated und GPU-VMs „agreed per contract“, fest sind nur Serverless Paris + Finnland. Ehrlich genannt: der Anfang neuer Prompts bleibt als Cache im GPU-Speicher. Anmerkung beim AVV.
+- Kleiner, kein Fall: Batch-Schnittstelle der Dedicated-Inferenz lädt JSONL-Dateien hoch (`POST /files`) – das ist mit „Nothing is written to disk“ schwer vereinbar, aber nur Dedicated und durch AGB 5.2 „technically necessary“ gedeckt. AGB 3.4 erlaubt „third-party hardware and/or data centres“ ohne Ortsgrenze, die Startseite sagt „Two pins, and that’s all of them“ (nur Serverless gemeint).
+- Ohne Widerspruch: Training nirgends, Zertifikate überall „ISO 27001 audit in progress“ (kein C5, kein SOC 2), Unterauftragnehmer-Liste weiter nur auf Anfrage, Paris + Finnland auf allen Seiten.
+- Belegkopien `belege/anbieter/lyceum/legal-datenhandling-2026-10-22.txt`, `startseite-2026-10-22.txt`, `magazin-eu-data-residency-2026-10-22.txt` + SHA256SUMS (7/7 ok) + OpenTimestamps. Archivkopien am 22.10. abgelehnt (Archiv 520, drosselt wie bei E22-5) → beim nächsten Nachsichern-Stapel mit. Profil: zwei Anmerkungen, kein Status, kein Preis. 338/338 Tests, Build streng ok (27 Anbieter, Ausgabe zurückgesetzt), lokal `136b063`, kein Push. Keine Frage.
+- Noch nie gescannt: Nordference (nur 14.10. geklärt), Opper, Regolo, Requesty, T-Systems.
 
 ## Neu 22.10.2026 ~11:58 (Dauerlauf Laufend): Widerspruchs-Scan Gcore, drei Abrechnungsarten und SOC 2 „Type II“ in der Werbung
 
@@ -1735,17 +2670,13 @@ Nachfassen bei den fünf vor dem 26.09. (zwei Wochen).
 
 ## Wartet auf Felix
 
-*Stand 16.10.2026 ~22:00 (Dauerlauf). Neues oben, Erledigtes gestrichen.*
+- **ab Push der Vorauswahl (533):** Antwort an den Auditor (Gespräch 3) mit Pilot-Angebot (Gratis-Dossier, bis zu 3 Anbieter) liegt als Entwurf `r-6658349793740131607`; „senden“ sagen (Frage 536). Erstes Angebot für Kriterium 3, Zwischenziel Mi 28.10.
 
-*(Modell bis 09.12. eingefroren; hier nur, was von Felix abhängt.)*
+*Aufgeräumt 22.10.2026 (Dauerlauf, Auftrag Felix Home-Tab ~14:40): Erledigtes und Überholtes gestrichen (alte Fassung in `NAECHSTE-SCHRITTE.md.bak-2026-10-22-wartet`), jeder Punkt mit Datum, Altes ohne Frist unter „## Ruht“. Gesamtliste: `~/NAECHSTE-SCHRITTE.md`.*
 
-- ~~**Nachfrage beim Schweizer Anwalt** (Frage 359)~~ gesendet 16.10., Absage 17.10. (keine Auskunft, für die er haftet). Offen: deutscher Ansprechpartner für Berufsrecht (Frage 383).
-- **Prüfer-Gespräch Mi 21.10. 18:00** (Teams, englisch): Spickzettel Di abends einmal lesen; Haftungsfrage ist die Hauptfrage.
-- **Fachstimme ISO 27001:** Zitat ging am 16.10. zur Vorabprüfung; ohne Antwort bis Fr 23.10. fragt der Dauerlauf, ob ohne Prüfung online.
-- **Frage 360:** Versicherungs-Anfrage für Haftung 1 erst nach dem Gespräch am 21.10. **Frage 303:** Zwischenziele Kill-Check (2 Gespräche bis 28.10., 3 bis 11.11., 4 bis 18.11., 5 bis 02.12.).
-- Weniger eilig: 345 (Anbieter unterschreiben selbst), 307 (Feed je Anbieter), 338 (stille Änderungen öffentlich), 340 (Opper-Fall still einstellen), 299 (Requesty vormerken), 291 (Brännström-Entwurf löschen), 96 a (Ausschreibungs-Baustein lesen).
-
-*Erledigt/überholt:* GitHub-2FA eingeschaltet 16.10. ~21:40; Nachfass an den BvD-Gesprächspartner gesendet 16.10. ~21:35 (Frage 352); BvD-Gespräch 08.10. geführt; belegbar gepusht 16.10. ~21:40 (`87ff205`); GreenPT-Nachfrage 16.10. gesendet; Push main nur noch über push-sauber; Anfragen vom 28.08. (Arndt, Bastians, Giebel) überholt.
+- **Fr 30.10. 17:00 Marxen:** nur zwei Namen erfragen (Äußerungs-/Wettbewerbsrecht, Medizinprodukterecht); ersetzt Frage 383.
+- **ab 22.10. (Anleitung liegt, `anleitungen/IAF-CERTSEARCH-KONTO.md`, lokal `395eaa5`):** IAF-CertSearch-Konto auf deinen Namen (484), höchstens 5 min; danach im ALLEIN-Tab „IAF-Konto steht“. Dann schlägt der Dauerlauf 3 Anbieter/Tag nach (Opper, Exoscale, Gcore zuerst); ob er das selbst kann (Captcha beim Login), ist ungeklärt.
+- *Überholt/erledigt 22.10.:* Prüfer-Gespräch 21.10. gelaufen; Frage 360 → Deckungsanfrage liegt als Entwurf, der Dauerlauf trägt den Versicherer ein; Frage 303 ersetzt durch 450 (Kill-Check 3/5); Fachstimme ISO 27001 ist ein Dauerlauf-Punkt (Fr 23.10.); Schweizer Anwalt: gesendet 16.10., Absage 17.10.
 
 ## Blocker
 
@@ -1789,3 +2720,9 @@ Ehrliche Grenze: Wer „kann ich klagen" beantwortet haben will, bekommt bei uns
 - Felix 22.10.: Zielgruppe der Startseite = Prüfer und DSB. Umbau erst, wenn klar ist, ob das Abo ihnen wirklich etwas bringt.
 - Feste Frage in jedem Prüfer-Gespräch ab jetzt: „Was kostet Sie heute die Prüfung eines KI-Anbieters (Stunden je Anbieter, wie oft prüfen Sie nach), und welchen Teil davon würde ein Abo sparen? Welche Anbieter prüfen Sie am häufigsten?“
 - Antwort an Nicolaysen (EcoDeco AS) 22.10. gesendet, mit Gegenfrage „welche eine Tatsache vor dem Unterschreiben belegt?“. Antwort abwarten, zählt als möglicher Gesprächsfaden.
+
+## Ruht
+
+*Punkte ohne Frist, die über 14 Tage lagen; zählen nicht als offen (Felix 22.10.). Wieder hoch, sobald es einen Anlass gibt.*
+
+- (ruht seit 22.10.) 345 Anbieter unterschreiben selbst, 307 Feed je Anbieter, 338 stille Änderungen öffentlich, 340 Opper-Fall still einstellen, 299 Requesty vormerken, 291 Brännström-Entwurf löschen, 96 a Ausschreibungs-Baustein (alle ohne Frist, seit ≤ 08.10.).

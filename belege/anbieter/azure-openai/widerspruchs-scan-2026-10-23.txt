@@ -1,0 +1,41 @@
+Quelle: https://learn.microsoft.com/en-us/azure/ai-foundry/responsible-ai/openai/data-privacy, https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/deployment-types, https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/responses, https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/stored-completions, https://azure.microsoft.com/en-us/pricing/details/azure-openai/
+Abruf: 2026-10-23 ~05:45 UTC (curl, je HTTP 200, 3 s Abstand, robots.txt erlaubt alles Gelesene). Seitendatum laut ms.date: data-privacy 2026-05-18, deployment-types 2026-08-06, responses 2026-08-18, stored-completions 2026-07-06. SHA-256 der Rohseiten: data-privacy 997311ac17510d42eb6aa07aa4674e7476b1688b0eef80afb7ceba1801ded251, deployment-types 01eba027ca009149ed05e45ca24866fbf2637152019379771ce37b3912ae9a0b, responses b5b81a765705f9e6a07fdfb392224066e0cfe0f2a00b395ab17d29d2b46b8d0c, stored-completions 57d1be3ec0d7322df20dab585d6019881d6c743643f23efc3d88a7479a328d2e, Preisseite 6dee9f9f9c02cc6c9e05fe7584b70fc612491253c07533b33fcee61a0036e22e. belegbar.eu
+Inhalt: wörtliche Auszüge aus dem Widerspruchs-Scan Azure OpenAI (Textfassung ohne Skripte). Frage: Sagen die Microsoft-Seiten untereinander etwas anderes als das Profil?
+
+A. Speicherfrist der Responses-Schnittstelle (neu im Profil)
+
+1. responses, Abschnitt „Delete a response“:
+By default, response data is retained for 30 days. Delete a stored response by ID.
+
+2. responses, Abschnitt Hintergrundmodus, „Limitations“:
+Background mode requires store=true. Stateless requests are not supported.
+
+3. responses, Abschnitt Schlussfolgerungen ohne Speicher:
+When you use the Responses API in stateless mode (store=false), you must still preserve reasoning context across conversation turns.
+
+4. data-privacy, Abschnitt gespeicherte Daten (nennt keine Frist):
+When you use certain optional features of Models sold by Azure and Agents, such as the Responses API, the Threads feature of the Assistants API, and Stored completions, the service creates a data store to persist message history and other content, in accordance with how you configure the feature.
+Is stored at rest in the Foundry resource in the customer's Azure tenant, within the same geography as the resource;
+Can be deleted by the customer at any time.
+
+B. Umfang der EU-Datenzone (beide Zitate standen schon im Profil, hier als Widerspruch)
+
+5. data-privacy:
+If you create a DataZone deployment in a Foundry resource located in a European Union Member Nation, prompts and responses may be processed in that or any other European Union Member Nation.
+
+6. deployment-types, Abschnitt „Data Zone deployments“:
+The EU Data Zone follows the Azure EU Data Boundary, which can include European Free Trade Association (EFTA) countries and regions such as Norway and Switzerland in addition to EU member states. The APAC Data Zone covers multiple Asia Pacific regions. Microsoft can add regions to either data zone without prior notice to improve capacity and availability.
+
+7. Preisseite azure.microsoft.com (nennt nur zwei Zonen, deployment-types nennt drei):
+Data Zone Deployment – Geographic based (EU or US)
+deployment-types: The service processes data only within the Microsoft-specified data zone (US, EU, or Asia Pacific (APAC)).
+
+C. Nebenbefund: veraltete Datenschutzseite
+
+8. data-privacy (Stand 18.05.2026) beschreibt „Stored completions“ weiter als Funktion:
+Stored completions (preview). Stored completions stores input-output pairs from the customer's deployed Azure OpenAI models such as GPT-4o through the chat completions API and displays the pairs in the Foundry portal.
+
+9. stored-completions (Stand 06.07.2026):
+Stored completions retire on October 15, 2026. For migration guidance, see Migrate from stored completions to Responses API and Agent Traces.
+
+Ohne Widerspruch: Ort der gespeicherten Daten (immer die Geografie der Ressource, auch bei Global/DataZone und Batch), Speicher der Missbrauchsüberwachung in der Geografie der Ressource, Prüfer im EWR für EWR-Bereitstellungen, kein Training ohne Zustimmung.

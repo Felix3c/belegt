@@ -1,0 +1,46 @@
+Quelle: https://www.deepseek.com/en/transparency/
+Abruf: 2026-10-23 01:16:42 +0200
+
+
+DeepSeek | Transparency CenterGet App[QR Code]Scan to get DeepSeek App
+
+中文EN
+
+DeepSeek WebDeepSeek HarnessAPI PlatformAPI DocsDownloadsJoin Us中文EN
+
+# Transparency Center
+Here we disclose DeepSeek's major released models
+
+Model Principles and Training MethodologyView Details
+
+## Model Overview
+Below are DeepSeek's released models, including names, release dates, technical reports and model cards.
+
+V4.0
+DeepSeek-V4New
+April 24, 2026
+Model CardTechnical Report
+
+V3.2
+DeepSeek-V3.2
+December 1, 2025
+Model CardTechnical Report
+
+浙ICP备2023025841号浙B2-20250178浙公网安备33010502011812号
+
+[QR Code]Scan to follow DeepSeek on WeChat
+
+Products
+DownloadsDeepSeek WebDeepSeek HarnessAPI PlatformAPI DocsAPI PricingService Status
+
+Research
+DeepSeek V4.1DeepSeek V4DeepSeek V3.2DeepSeek V3.1DeepSeek R1DeepSeek V3More
+
+Legal & Security
+Report Security IssueTransparency
+
+Join Us
+Careers
+
+© 2026 DeepSeek. All rights reserved.
+中文EN

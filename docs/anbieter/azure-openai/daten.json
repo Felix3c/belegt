@@ -1,0 +1,366 @@
+{
+  "id": "azure-openai",
+  "name": "Microsoft Azure OpenAI (Foundry Models sold by Azure in Microsoft Foundry), Unternehmens-API",
+  "kategorie": "cloud",
+  "kurzbeschreibung": "OpenAI-Modelle (GPT-4.1, GPT-5.x) als API in Microsofts eigener Azure-Cloud. Microsoft betreibt die Modelle selbst, OpenAI bekommt laut Microsoft keine Daten. Wo gerechnet wird, hängt vom Bereitstellungstyp ab: regional, EU-Datenzone oder global.",
+  "stammdaten": {
+    "sitz": "Redmond, USA (Microsoft Corporation); Microsoft Ireland Operations Limited laut Vertrag Vertreter für EWR und Schweiz",
+    "land": "US",
+    "mutterkonzern": null,
+    "us_eigner": true,
+    "gegruendet": 1975,
+    "website": "https://azure.microsoft.com/en-us/pricing/details/azure-openai/",
+    "dpf": {
+      "status": "belegt",
+      "wert": true,
+      "quelle": "https://www.dataprivacyframework.gov/participant/6474",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Amtliche DPF-Liste (US-Handelsministerium), Eintrag „Microsoft Corporation“, Redmond: „EU-US Certification“ Status „Active“, HR- und Nicht-HR-Daten, seit 12.08.2016, gültig bis 31.08.2027; Swiss-US und UK Extension ebenfalls aktiv. Abruf über die Schnittstelle der Liste, Kopie + SHA-256 in belege/rechtsraum/dpf-2026-10-22/. Am 25.10.2026 über die Schnittstelle der Liste von Hand neu abgefragt (Liste geändert am 25.10.): Angaben unverändert, Kopie + SHA-256 in belege/rechtsraum/dpf-2026-10-25/ (die Seite selbst lädt ihren Text erst im Browser, der automatische Quellenlauf sieht nur die Hülle)."
+    }
+  },
+  "modelle": [
+    {
+      "name": "GPT-5.5 als „Data Zone Standard“ (EU-Datenzone)",
+      "standort": "EU-Datenzone = Azure EU Data Boundary (EU und EFTA, z. B. Norwegen, Schweiz); Ressource in einer EU-Region, hier Preise für Sweden Central",
+      "preis_input_1m_eur": 4.8398,
+      "preis_output_1m_eur": 29.0391,
+      "quelle": "https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/deployment-types",
+      "geprueft": "2026-10-25",
+      "status": "belegt",
+      "anmerkung": "Standort laut Microsoft (Seite vom 12.08.2026): „The service processes data within the Azure EU Data Boundary“ und „which can include European Free Trade Association (EFTA) countries and regions such as Norway and Switzerland in addition to EU member states.“ Einschränkung: „Microsoft can add regions to either data zone without prior notice to improve capacity and availability.“ Datenschutzseite (19.05.2026): „If you create a DataZone deployment in a Foundry resource located in a European Union Member Nation, prompts and responses may be processed in that or any other European Union Member Nation.“ Preis in EUR aus der amtlichen Preisschnittstelle von Microsoft (Azure Retail Prices API, Region swedencentral, Listenpreis ohne Rabatt, Kopie preise-api-gpt5-swedencentral-2026-10-22.txt): „5.5 ShortCo inp Dz 1M Tokens | 1M | 4.8398 EUR“ und „5.5 ShortCo opt Dz 1M Tokens | 1M | 29.0391 EUR“ (kurzer Kontext; langer Kontext 9.6797/43.5586 EUR). Die Preisseite azure.microsoft.com zeigt ohne JavaScript nur Platzhalter („Input: $-“). Hinweis 23.10.2026 (Widerspruchs-Scan): Die beiden Microsoft-Seiten beschreiben die EU-Datenzone verschieden: Datenschutzseite nur EU-Mitgliedstaaten, Seite zu den Bereitstellungstypen auch EFTA-Staaten (Norwegen, Schweiz) und ohne Vorankündigung erweiterbar. Die Preisseite nennt nur „(EU or US)“, die Bereitstellungsseite drei Zonen „(US, EU, or Asia Pacific (APAC))“. Beleg belege/anbieter/azure-openai/widerspruchs-scan-2026-10-23.txt.",
+      "backup_standort": {
+        "wert": "Ruhende Daten (hochgeladene Dateien, gespeicherte Verläufe, Speicher der Missbrauchsüberwachung) in der vom Kunden gewählten Azure-Geografie, auch bei Global- und Data-Zone-Bereitstellung",
+        "status": "belegt",
+        "quelle": "https://learn.microsoft.com/en-us/azure/ai-foundry/responsible-ai/openai/data-privacy",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Microsoft (Seite vom 19.05.2026): „For both Global and DataZone deployment types, any data stored at rest, such as uploaded data, and including the abuse monitoring data store created for Global and DataZone deployments, is stored in the customer-designated geography.“ Für gespeicherte Daten (Files API, Responses API, Stored completions): „Is stored at rest in the Foundry resource in the customer's Azure tenant, within the same geography as the resource;“. Einen eigenen Ort für Sicherungskopien nennt Microsoft für diesen Dienst nicht; Product Terms für Azure allgemein: „If Customer configures a particular service to be deployed within a Geo then, for that service, Microsoft will store Customer Data at rest within the specified Geo.“ Gilt für alle Einträge."
+      },
+      "vorgeschaltete_filter": {
+        "wert": true,
+        "status": "belegt",
+        "quelle": "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/content-filter",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Microsoft (Seite vom 04.08.2026): „This system runs both the prompt and completion through an ensemble of classification models designed to detect and prevent the output of harmful content.“ Standard ist an: „Models deployed to Microsoft Foundry (formerly known Azure AI Services) include default safety settings applied to all models, excluding Azure OpenAI Whisper.“ Abschalten nur nach Antrag: „For Azure OpenAI models, only customers who have been approved for modified content filtering have full content filtering control and can turn off content filters.“ Speicherung durch den Filter: „We don't store prompts or completions for the purposes of content filtering.“ Ausnahme: „The content filtering system doesn't apply to prompts and completions processed by the Embedding models or the audio models such as Whisper“. Gilt für alle Einträge."
+      }
+    },
+    {
+      "name": "GPT-5.5 als „Global Standard“",
+      "standort": "weltweit: jede Geografie, in der das Modell bereitsteht (auch außerhalb der EU); Preise für Sweden Central",
+      "preis_input_1m_eur": 4.3999,
+      "preis_output_1m_eur": 26.3992,
+      "quelle": "https://learn.microsoft.com/en-us/azure/ai-foundry/responsible-ai/openai/data-privacy",
+      "geprueft": "2026-10-25",
+      "status": "belegt",
+      "anmerkung": "Microsoft (19.05.2026): „For any deployment type labeled 'Global,' prompts and responses may be processed in any geography where the relevant model sold by Azure is deployed“. Nur der Ort der Verarbeitung ändert sich: „Only the location of processing is affected when a customer uses a Global deployment type or DataZone deployment type in Models sold by Azure; Azure data processing and compliance commitments remain applicable.“ Für Prüfer wichtig: Microsoft empfiehlt diesen Typ als Start (Seite 12.08.2026): „It launches first when a new model releases, has the lowest price, and offers the broadest region coverage.“ Batch läuft global oder in der Datenzone: „Batch processing is a Global deployment type“. Ob die Zusage der EU Data Boundary bei Global-Bereitstellung gilt, schreibt Microsoft nicht ausdrücklich (ungeklärt); die Product Terms zählen zu den EU-Data-Boundary-Diensten nur „Azure services that enable deployment in a region within the EU Data Boundary“. Preis in EUR (Azure Retail Prices API, swedencentral, Listenpreis): „5.5 ShortCo inp Gl 1M Tokens | 1M | 4.3999 EUR“ und „5.5 ShortCo opt Gl 1M Tokens | 1M | 26.3992 EUR“, also rund 9 % billiger als die EU-Datenzone.",
+      "backup_standort": {
+        "wert": "Ruhende Daten (hochgeladene Dateien, gespeicherte Verläufe, Speicher der Missbrauchsüberwachung) in der vom Kunden gewählten Azure-Geografie, auch bei Global- und Data-Zone-Bereitstellung",
+        "status": "belegt",
+        "quelle": "https://learn.microsoft.com/en-us/azure/ai-foundry/responsible-ai/openai/data-privacy",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Microsoft (Seite vom 19.05.2026): „For both Global and DataZone deployment types, any data stored at rest, such as uploaded data, and including the abuse monitoring data store created for Global and DataZone deployments, is stored in the customer-designated geography.“ Für gespeicherte Daten (Files API, Responses API, Stored completions): „Is stored at rest in the Foundry resource in the customer's Azure tenant, within the same geography as the resource;“. Einen eigenen Ort für Sicherungskopien nennt Microsoft für diesen Dienst nicht; Product Terms für Azure allgemein: „If Customer configures a particular service to be deployed within a Geo then, for that service, Microsoft will store Customer Data at rest within the specified Geo.“ Gilt für alle Einträge."
+      },
+      "vorgeschaltete_filter": {
+        "wert": true,
+        "status": "belegt",
+        "quelle": "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/content-filter",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Microsoft (Seite vom 04.08.2026): „This system runs both the prompt and completion through an ensemble of classification models designed to detect and prevent the output of harmful content.“ Standard ist an: „Models deployed to Microsoft Foundry (formerly known Azure AI Services) include default safety settings applied to all models, excluding Azure OpenAI Whisper.“ Abschalten nur nach Antrag: „For Azure OpenAI models, only customers who have been approved for modified content filtering have full content filtering control and can turn off content filters.“ Speicherung durch den Filter: „We don't store prompts or completions for the purposes of content filtering.“ Ausnahme: „The content filtering system doesn't apply to prompts and completions processed by the Embedding models or the audio models such as Whisper“. Gilt für alle Einträge."
+      }
+    },
+    {
+      "name": "GPT-4.1 als „Standard“ (regional, eine Azure-Geografie)",
+      "standort": "vom Kunden gewählte Azure-Geografie (z. B. Sweden Central); Verarbeitung zwischen Regionen derselben Geografie möglich",
+      "preis_input_1m_eur": 2.1,
+      "preis_output_1m_eur": 8.5,
+      "quelle": "https://learn.microsoft.com/en-us/azure/ai-foundry/responsible-ai/openai/data-privacy",
+      "geprueft": "2026-10-25",
+      "status": "belegt",
+      "anmerkung": "Microsoft (19.05.2026): „Prompts and responses are processed within the customer-specified geography (unless you are using a Global or DataZone deployment type), but may be processed between regions within the geography for operational purposes (including performance and capacity management).“ Neue Modelle kommen regional zuletzt (12.08.2026): „Geography-based deployment types arrive last, have no guaranteed availability date, and depend on capacity that frees up as older models retire.“ In der Preisliste für Sweden Central gibt es am 22.10.2026 für GPT-5.5 nur Zähler für Global und Data Zone, für GPT-4.1 auch regional. Preis in EUR (Azure Retail Prices API, swedencentral, Listenpreis je 1.000 Token, umgerechnet auf 1 Mio.; die Schnittstelle gibt vier Nachkommastellen aus): „gpt 4.1 Inp regnl Tokens | 1K | 0.0021 EUR“ und „gpt 4.1 Outp regnl Tokens | 1K | 0.0085 EUR“.",
+      "backup_standort": {
+        "wert": "Ruhende Daten (hochgeladene Dateien, gespeicherte Verläufe, Speicher der Missbrauchsüberwachung) in der vom Kunden gewählten Azure-Geografie, auch bei Global- und Data-Zone-Bereitstellung",
+        "status": "belegt",
+        "quelle": "https://learn.microsoft.com/en-us/azure/ai-foundry/responsible-ai/openai/data-privacy",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Microsoft (Seite vom 19.05.2026): „For both Global and DataZone deployment types, any data stored at rest, such as uploaded data, and including the abuse monitoring data store created for Global and DataZone deployments, is stored in the customer-designated geography.“ Für gespeicherte Daten (Files API, Responses API, Stored completions): „Is stored at rest in the Foundry resource in the customer's Azure tenant, within the same geography as the resource;“. Einen eigenen Ort für Sicherungskopien nennt Microsoft für diesen Dienst nicht; Product Terms für Azure allgemein: „If Customer configures a particular service to be deployed within a Geo then, for that service, Microsoft will store Customer Data at rest within the specified Geo.“ Gilt für alle Einträge."
+      },
+      "vorgeschaltete_filter": {
+        "wert": true,
+        "status": "belegt",
+        "quelle": "https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/content-filter",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Microsoft (Seite vom 04.08.2026): „This system runs both the prompt and completion through an ensemble of classification models designed to detect and prevent the output of harmful content.“ Standard ist an: „Models deployed to Microsoft Foundry (formerly known Azure AI Services) include default safety settings applied to all models, excluding Azure OpenAI Whisper.“ Abschalten nur nach Antrag: „For Azure OpenAI models, only customers who have been approved for modified content filtering have full content filtering control and can turn off content filters.“ Speicherung durch den Filter: „We don't store prompts or completions for the purposes of content filtering.“ Ausnahme: „The content filtering system doesn't apply to prompts and completions processed by the Embedding models or the audio models such as Whisper“. Gilt für alle Einträge."
+      }
+    }
+  ],
+  "vertrag": {
+    "avv": {
+      "wert": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(May2026)(CR).docx",
+      "status": "belegt",
+      "quelle": "https://learn.microsoft.com/en-us/azure/ai-foundry/responsible-ai/openai/data-privacy",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Microsoft (19.05.2026) verweist auf das „Microsoft Products and Services Data Protection Addendum“, „which governs data processing by Models sold by Azure“. Fassung: „Last updated May 22, 2026“, frei als .docx abrufbar. Vertreter in Europa laut DPA: „Microsoft Ireland Operations Limited is Microsoft’s data protection representative for the European Economic Area and Switzerland.“ Übermittlung in die USA zusätzlich über Standardvertragsklauseln „between Microsoft Ireland Operations Limited and Microsoft Corporation“. Nutzungsbedingungen: „Universal License Terms applicable to Microsoft Generative AI Services“ (Seite Limited access); die Product Terms für Azure-Dienste selbst wurden nicht als Kopie gesichert, nur der Teil Privacy and Security Terms."
+    },
+    "subprozessoren": {
+      "wert": "https://servicetrust.microsoft.com/DocumentPage/115f1cb5-7f7b-4a5e-838d-df6d03c84dda",
+      "status": "belegt",
+      "quelle": "https://servicetrust.microsoft.com/DocumentPage/115f1cb5-7f7b-4a5e-838d-df6d03c84dda",
+      "geprueft": "2026-10-25",
+      "anmerkung": "„Online Services Subprocessors List (2026-09-10)“ im Service Trust Portal, ohne Anmeldung als PDF-Vorschau lesbar (gelesen 24.10.2026 bei der Zählung, siehe Zahl der Unterauftragnehmer). Sie gilt für alle Microsoft Online Services, eine eigene Liste für Azure OpenAI gibt es nicht. Bis 24.10.2026 war die Liste hier nur als „beansprucht“ geführt. DPA: „Microsoft makes available information about Subprocessors on a Microsoft website.“ Frist für neue KI-Unterauftragnehmer: „for subprocessors that support artificial intelligence functionality, 30 days’ notice with the ability to disable use of that subprocessor until at least 6 months after notice“; sonst „at least 6 months in advance“. OpenAI selbst bekommt laut Microsoft keine Daten: Eingaben und Ausgaben „are NOT available to OpenAI or other providers of Models sold by Azure.“ und „Models sold by Azure do NOT interact with any services operated by providers of Models sold by Azure“."
+    },
+    "tom": {
+      "wert": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(May2026)(CR).docx",
+      "status": "belegt",
+      "quelle": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(May2026)(CR).docx",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Die TOM stehen als „Appendix A – Security Measures“ im Microsoft Products and Services DPA (Mai 2026) und gelten auch als Annex II der SCC. Zitat: „Microsoft has implemented and will maintain for Customer Data in the Core Online Services and Professional Services Data the following security measures“."
+    },
+    "subprozessoren_anzahl": {
+      "wert": 88,
+      "status": "belegt",
+      "quelle": "https://servicetrust.microsoft.com/DocumentPage/115f1cb5-7f7b-4a5e-838d-df6d03c84dda",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Die „Online Services Subprocessors List (2026-09-10)“ ist ohne Anmeldung als PDF-Vorschau im Service Trust Portal abrufbar; damit reicht die Liste über „beansprucht“ hinaus. Sie gilt für alle Microsoft Online Services, eine eigene Liste für Azure OpenAI gibt es nicht. 88 Zeilen: 51 Fremdfirmen (7 integrierte Technologien, 4 Zusatzdienste, 5 KI-Unterauftragnehmer wie „OpenAI OpCo, LLC“, 35 Personaldienstleister) und 37 konzerninterne Rechenzentrums-Gesellschaften. Am 25.10.2026 im PDF von Hand nachgezählt (bis dahin stand hier 89 mit 38 Rechenzentrums-Gesellschaften, ein Zählfehler; Copilot zählt dieselbe Liste mit 88)."
+    },
+    "drittlaender": {
+      "wert": [
+        "Australien",
+        "Brasilien",
+        "Chile",
+        "China",
+        "Hongkong",
+        "Indien",
+        "Indonesien",
+        "Israel",
+        "Japan",
+        "Kanada",
+        "Katar",
+        "Malaysia",
+        "Mexiko",
+        "Neuseeland",
+        "Saudi-Arabien",
+        "Schweiz",
+        "Singapur",
+        "Südafrika",
+        "Südkorea",
+        "Taiwan",
+        "USA",
+        "Vereinigte Arabische Emirate",
+        "Vereinigtes Königreich"
+      ],
+      "status": "belegt",
+      "quelle": "https://servicetrust.microsoft.com/DocumentPage/115f1cb5-7f7b-4a5e-838d-df6d03c84dda",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Die Liste setzt sich zusammen aus Verarbeitungsorten der Abschnitte 1–3, Sitzländern der Personaldienstleister (z. B. „Shanghai Wicresoft Co, Ltd.“ in China) und Ländern der Rechenzentrums-Gesellschaften außerhalb von EU/EWR. Akamai und OpenAI stehen nur mit „Worldwide“, einige Einträge mit kundengewählter Region, weitere Länder sind also möglich. Für Schweiz und Vereinigtes Königreich gibt es einen Angemessenheitsbeschluss."
+    },
+    "training_opt_out": {
+      "wert": true,
+      "status": "belegt",
+      "quelle": "https://learn.microsoft.com/en-us/azure/ai-foundry/responsible-ai/openai/data-privacy",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Kein Training ohne Zustimmung, ohne dass der Kunde etwas tun muss. Microsoft (19.05.2026): Eingaben, Ausgaben, Embeddings und Trainingsdaten „are NOT used by providers of Models sold by Azure to improve their models or services.“ und „are NOT used to train any generative AI foundation models without your permission or instruction.“ Außerdem: „Customer Data, Prompts, and Completions are NOT used to improve Microsoft or third-party products or services without your explicit permission or instruction.“ Vorbehalt: „Azure Preview features, including Models sold by Azure in preview, may employ different privacy practices, including with respect to abuse monitoring.“"
+    },
+    "zero_data_retention": {
+      "wert": false,
+      "status": "belegt",
+      "quelle": "https://learn.microsoft.com/en-us/azure/ai-foundry/responsible-ai/openai/data-privacy",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Standard ist keine Null-Speicherung: Für die Missbrauchsüberwachung können Eingaben und Ausgaben für menschliche Prüfung gespeichert werden (Speicher „where prompts and completions are stored for human review“). Abschalten nur auf Antrag: „If the customer has been approved for modified abuse monitoring“, dann „the data storage and human review process described above is not performed“; automatische Prüfung läuft weiter. Antrag nur für einen kleinen Kreis (Seite Limited access, 19.05.2026): „are available only to customers and partners managed by a Microsoft account team or under an eligible program“. Prüfbar am Feld ContentLogging der Ressource: „There will be a value in the Capabilities list called \"ContentLogging\" which will appear and be set to FALSE when logging for abuse monitoring is off.“ Zusätzlich speichern Funktionen wie Responses API und Stored completions Verläufe, bis der Kunde sie löscht: „Can be deleted by the customer at any time.“ Nachtrag 23.10.2026: Die Responses-Schnittstelle speichert Antworten standardmäßig („By default, response data is retained for 30 days.“); ohne Speicher nur mit store=false. Beleg belege/anbieter/azure-openai/widerspruchs-scan-2026-10-23.txt."
+    },
+    "zweckbindung": {
+      "wert": false,
+      "status": "belegt",
+      "quelle": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(May2026)(CR).docx",
+      "geprueft": "2026-10-25",
+      "anmerkung": "DPA: Verarbeitung „(a) to provide Customer the Products and Services in accordance with Customer’s documented instructions and (b) for business operations incident to providing the Products and Services to Customer“; dafür „Microsoft will comply with the obligations of an independent data controller“ (eigener Verantwortlicher). Genannt sind u. a. „billing and account management;“. Dazu die Missbrauchsüberwachung (19.05.2026): „Models sold by Azure store and process data to provide the service and to monitor for uses that violate the applicable product terms.“"
+    },
+    "betroffenenrechte_traeger": {
+      "wert": "auftraggeber",
+      "status": "belegt",
+      "quelle": "https://www.microsoft.com/licensing/docs/documents/download/MicrosoftProductandServicesDPA(WW)(English)(May2026)(CR).docx",
+      "geprueft": "2026-10-25",
+      "anmerkung": "DPA: „Microsoft will redirect the data subject to make its request directly to Customer. Customer will be responsible for responding to any such request including, where necessary, by using the functionality of the Products and Services.“"
+    },
+    "log_frist": {
+      "wert": null,
+      "status": "unbelegt",
+      "quelle": null,
+      "geprueft": "2026-10-25",
+      "anmerkung": "Die Seiten „Data, privacy, and security“ und „Abuse monitoring“ (beide Stand 19.05.2026) nennen keine Frist, wie lange Eingaben und Ausgaben im Speicher der Missbrauchsüberwachung liegen. Für die automatische Prüfung schreibt Microsoft nur, dass nichts gespeichert wird. Der DPA nennt nur die allgemeine Frist von 90 Tagen nach Vertragsende für gespeicherte Kundendaten, keine Frist für Protokolle dieses Dienstes. Nachtrag 23.10.2026 (Widerspruchs-Scan): Für die Responses-Schnittstelle nennt die Anleitung eine Frist: „By default, response data is retained for 30 days.“ Gespeichert wird, solange store nicht ausgeschaltet ist; der Hintergrundmodus geht nur mit Speicher: „Background mode requires store=true. Stateless requests are not supported.“ Die Datenschutzseite (Stand 18.05.2026) nennt für diese gespeicherten Daten keine Frist, nur: „Can be deleted by the customer at any time.“ Die Frist gilt für gespeicherte Antworten, nicht für den Speicher der Missbrauchsüberwachung (dort weiter keine Frist). Beleg belege/anbieter/azure-openai/widerspruchs-scan-2026-10-23.txt."
+    },
+    "log_zweck": {
+      "wert": "Missbrauchsüberwachung: Stichproben markierter Eingaben und Ausgaben, Prüfung zuerst automatisch (auch durch KI-Modelle), bei Bedarf durch Microsoft-Mitarbeiter; Speicher in der Geografie der Ressource",
+      "status": "belegt",
+      "quelle": "https://learn.microsoft.com/en-us/azure/ai-foundry/responsible-ai/openai/data-privacy",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Microsoft (19.05.2026): „a sample of customer's prompts and completions may be selected for review. Review is conducted by automated means including by AI models such as LLMs by default, with additional reviews by human reviewers as necessary.“ Ort: „a customer's prompts and generated content are stored in the Azure geography where the customer's Foundry resource is deployed“. Wer schaut: „The human reviewers are authorized Microsoft employees who access the data via point wise queries using request IDs, Secure Access Workstations (SAWs), and Just-In-Time (JIT) request approval granted by team managers.“ und „For Models sold by Azure deployed in the European Economic Area, the authorized Microsoft employees are located in the European Economic Area.“ Folge bei Verdacht (Seite Abuse monitoring): „the customer is informed of the determination by email“."
+    }
+  },
+  "zertifikate": [
+    {
+      "typ": "ISO 27001",
+      "status": "belegt",
+      "quelle": "https://integrator.schellman.com/public/v2/certificate/1729711-18/file",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Zertifikat selbst eingesehen (Schellman Nr. 1729711-18, ISO/IEC 27001:2022 und ISO/IEC 27701:2019, Inhaber Microsoft Corporation, ausgestellt 25.06.2026, erstmals 29.11.2011, gültig bis 16.06.2029, Version 18), öffentlich im Zertifikatsverzeichnis von Schellman (www.schellman.com/certificate-directory, Abruf 25.10.2026); bei Microsoft nur im Service Trust Portal. Vertraglich (DPA): „those measures shall comply with the requirements set forth in ISO 27001, ISO 27002, and ISO 27018.“ Hinweis: Die Textebene der Seiten 2–16 enthält unsichtbar die Zeile „CONTENT DRAFT“, im gedruckten Bild steht sie nicht; das Verzeichnis führt das Zertifikat als „PUBLISHED“.",
+      "anwendungsbereich": {
+        "wert": "Microsoft Foundry: Foundry Models (Azure und Azure Government), dazu Microsoft Foundry und Foundry Agent Service (nur Azure)",
+        "status": "belegt",
+        "quelle": "https://integrator.schellman.com/public/v2/certificate/1729711-18/file",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Zertifikat Seite 1: „The scope of the ISO/IEC 27001:2022 certification covers the Information Security Management System (ISMS) supporting Microsoft Azure, Dynamics 365, and other Online Services that are deployed in Azure Public and Government Cloud …“; Tabelle „Registered Scope“ Seite 2, Kategorie „AI + Machine Learning“: „Microsoft Foundry: Foundry Models“ mit Haken bei Azure und Azure Government. Die Product Terms zählen „Foundry Models sold by Azure“ zu den „Microsoft Azure Core Services“. Der Name „Azure OpenAI“ steht im Zertifikat nicht, das Profil beschreibt das Produkt als „Foundry Models sold by Azure in Microsoft Foundry“."
+      },
+      "zertifizierer": {
+        "wert": "Schellman Compliance, LLC (Tampa, USA)",
+        "status": "belegt",
+        "quelle": "https://integrator.schellman.com/public/v2/certificate/1729711-18/file",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Zertifikat Nr. 1729711-18: „The Certification Body of Schellman Compliance, LLC hereby confirms as a result of the certification decision, according to ISO/IEC 17021-1, that the following organization operates an Information Security Management System and Privacy Information Management System that conforms to the requirements of ISO/IEC 27001:2022 and ISO/IEC 27701:2019“, Inhaber „Microsoft Corporation“, unterzeichnet von Danny Manimbo, Managing Principal."
+      },
+      "akkreditiert_dakks": {
+        "wert": false,
+        "stelle": "ANAB (USA)",
+        "stelle_ea_mla": false,
+        "status": "belegt",
+        "quelle": "https://anabdirectory.remoteauditor.com/",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Nicht DAkkS, aber akkreditiert durch ANAB (ANSI National Accreditation Board, USA; IAF-MLA, gleichwertig anerkannt). Das Zertifikat trägt nur das ANAB-Zeichen, kein UKAS-Zeichen. ANAB-Verzeichnis der Zertifizierungsstellen (Suche „Schellman“, Abruf 25.10.2026): „Schellman-MS-3780 - Schellman Compliance, LLC“, akkreditiert u. a. für ISO/IEC 27001 und ISO/IEC 27701."
+      },
+      "normiert": [
+        "iso-27001"
+      ]
+    },
+    {
+      "typ": "SOC 2 Type 2",
+      "status": "beansprucht",
+      "quelle": "https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-soc-2",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Microsoft: „The Azure SOC 2 Type 2 attestation report covers Azure, Dynamics 365, Power Platform, and select Microsoft 365 cloud services.“ Product Terms: für „Microsoft Azure Core Services“ steht bei SOC 1 und SOC 2 nur „Varies*“, Fußnote „Current scope is detailed in the audit report and summarized in the Microsoft Trust Center.“ Bericht nur im Service Trust Portal.",
+      "anwendungsbereich": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "Ob Azure OpenAI im Prüfumfang liegt, steht nur im Bericht hinter Anmeldung."
+      },
+      "zertifizierer": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "Microsoft nennt nur „a reputable certified public accountant (CPA) firm“ (Seite C5), keinen Namen."
+      },
+      "akkreditiert_dakks": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "Bei SOC 2 nicht anwendbar (Prüfung nach US-Standard SSAE 18)."
+      },
+      "normiert": [
+        "soc-2"
+      ]
+    },
+    {
+      "typ": "BSI C5:2020",
+      "status": "beansprucht",
+      "quelle": "https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-germany-c5",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Microsoft: „The Azure SOC 2 Type 2 attestation report includes an assessment of C5:2020 controls.“ Kein eigenes C5-Testat, sondern Teil des kombinierten SOC-2-Berichts im Service Trust Portal.",
+      "anwendungsbereich": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "Microsoft: „Microsoft cloud services in audit scope are shown in the Azure SOC 2 Type 2 attestation report.“ Bericht nicht lesbar, Azure OpenAI nicht namentlich genannt."
+      },
+      "zertifizierer": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "Prüfer nicht genannt."
+      },
+      "akkreditiert_dakks": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "C5 ist ein Testat, keine akkreditierte Zertifizierung; Prüfer nicht genannt."
+      },
+      "normiert": [
+        "bsi-c5"
+      ]
+    },
+    {
+      "typ": "ISO/IEC 42001",
+      "status": "beansprucht",
+      "quelle": "https://learn.microsoft.com/en-us/compliance/regulatory/offering-iso-42001",
+      "geprueft": "2026-10-25",
+      "anmerkung": "KI-Managementsystem. Microsoft Foundry steht auf der Seite (11.09.2026) unter „Microsoft AI services in scope for ISO 42001 certification“; Zertifikate nur im Service Trust Portal: „You can review the Microsoft ISO/IEC 42001 certificates and audit reports on Service Trust Portal for more information.“ Im öffentlichen Zertifikatsverzeichnis von Schellman steht für Microsoft kein ISO/IEC-42001-Zertifikat (Suche „Microsoft“, 25.10.2026: fünf Zertifikate, darunter 27001/27701, kein 42001).",
+      "anwendungsbereich": {
+        "wert": "Microsoft Foundry",
+        "status": "beansprucht",
+        "quelle": "https://learn.microsoft.com/en-us/compliance/regulatory/offering-iso-42001",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Geltungsbereich nur laut Anbieterseite (Liste „Microsoft AI services in scope for ISO 42001 certification“), Zertifikat nicht lesbar."
+      },
+      "zertifizierer": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "Zertifizierungsstelle nicht öffentlich lesbar."
+      },
+      "akkreditiert_dakks": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "Akkreditierung nicht geprüft, Zertifikat nicht lesbar."
+      },
+      "normiert": [
+        "iso-42001"
+      ]
+    }
+  ],
+  "iso_42001": {
+    "status": "beansprucht",
+    "wert": true,
+    "zertifizierer": null,
+    "anwendungsbereich": "Microsoft Foundry",
+    "quelle": "https://learn.microsoft.com/en-us/compliance/regulatory/offering-iso-42001",
+    "geprueft": "2026-10-25",
+    "anmerkung": "Microsoft Foundry steht unter „Microsoft AI services in scope for ISO 42001 certification“; die Zertifikate liegen im Service Trust Portal und waren nicht lesbar."
+  },
+  "ai_act": [],
+  "geprueft": "2026-10-25",
+  "url": "https://belegbar.eu/anbieter/azure-openai/",
+  "beleg_quote_prozent": 73,
+  "zuletzt_geprueft": "2026-10-25",
+  "quellenlauf": {
+    "zuletzt": "2026-10-25",
+    "quellen": 11,
+    "nachgelesen": 10,
+    "unveraendert": 10,
+    "veraendert_gelesen": 0,
+    "offen": 0,
+    "verschwunden": 0,
+    "statuswechsel_30_tage": 6
+  },
+  "rechtsraum": {
+    "land": "US",
+    "name": "USA",
+    "einordnung": "dpf",
+    "erlaeuterung": "Drittland. Der Angemessenheitsbeschluss der EU-Kommission vom 10.07.2023 gilt nur für Unternehmen, die am EU-US Data Privacy Framework teilnehmen (Art. 45 DSGVO); sonst nur mit geeigneten Garantien, etwa Standardvertragsklauseln (Art. 46 DSGVO).",
+    "hinweis": "Der Anbieter nimmt laut der amtlichen Liste dataprivacyframework.gov aktiv am EU-US Data Privacy Framework teil; der Beschluss gilt damit für Übermittlungen an ihn.",
+    "dpf": {
+      "status": "belegt",
+      "wert": true,
+      "quelle": "https://www.dataprivacyframework.gov/participant/6474",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Amtliche DPF-Liste (US-Handelsministerium), Eintrag „Microsoft Corporation“, Redmond: „EU-US Certification“ Status „Active“, HR- und Nicht-HR-Daten, seit 12.08.2016, gültig bis 31.08.2027; Swiss-US und UK Extension ebenfalls aktiv. Abruf über die Schnittstelle der Liste, Kopie + SHA-256 in belege/rechtsraum/dpf-2026-10-22/. Am 25.10.2026 über die Schnittstelle der Liste von Hand neu abgefragt (Liste geändert am 25.10.): Angaben unverändert, Kopie + SHA-256 in belege/rechtsraum/dpf-2026-10-25/ (die Seite selbst lädt ihren Text erst im Browser, der automatische Quellenlauf sieht nur die Hülle)."
+    },
+    "quelle": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+    "geprueft": "2026-10-22"
+  }
+}

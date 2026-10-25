@@ -1,0 +1,147 @@
+Quelle: https://workspace.google.com/blog/ai-and-machine-learning/life-prompt-demystifying-gemini
+Abruf: 2026-10-22 13:04:41 +0200
+
+Follow the life of a prompt in Gemini for Google Workspace and see how your security and privacy are preserved. | Google Workspace Blog Jump to Content
+Workspace
+Blog
+Contact sales Get started
+Workspace
+Blog
+Topics Product Announcements
+AI and Machine Learning
+Productivity and Collaboration
+Identity and Security
+Future of Work
+Hybrid Work
+Customer Stories
+Developers and Practitioners
+Partners
+Events
+Public Sector
+Product News Gmail
+Meet
+Chat
+Drive
+Docs
+Sheets
+Vids
+Contact sales Get started
+AI and Machine Learning
+The life of a prompt: Demystifying Gemini
+October 17, 2024
+Ganesh Chilakapati
+Director of Product Management, Google Workspace
+Luke Camery
+Director of Product Management, Google Workspace
+Try Google Workspace at No Cost
+Get a business email, all the storage you need, video conferencing, and more.
+SIGN UP
+Have you ever wondered what happens when you ask generative AI (gen AI) a question? What are the workings behind the scenes when it receives your prompt? And how does it protect the privacy and security of your data while still bringing in the most relevant information from your company’s corpus (all those files and emails you can access)?
+Well, today we’re looking at the life of a prompt in Gemini for Google Workspace . When a Workspace business user submits a question to Gemini, what sequence of events do they kick off?
+The four stages in the life of a prompt
+Let’s say that you give Gemini the following prompt in the Google Docs side panel: “Create a summary of Q3 sales performance.” Here’s what happens next:
+Gemini only retrieves relevant content that you have access to in Workspace. This helps it understand the prompt’s meaning, and makes sure the response is helpful based on real-world facts. In this case, Gemini might look at specific emails, previous sales presentations, and related documents.
+This information and context is passed to the Gemini model. But Gemini doesn't use it to train the model.
+Gemini creates a tailored response from within your trust boundary. This is the virtual barrier that controls which information you can access and share, both within and beyond your organization. Your interactions with Gemini all happen within this boundary.
+All your organization’s security, privacy, and access controls are automatically applied. This happens as soon as you insert Gemini’s response into your Google Doc. So your organization can control where your data is stored and processed, and ensure that only authorized parties can access that data.
+Here’s what this workflow looks like:
+What sets Gemini apart?
+Now you know how a Gemini prompt generates the answers you need. But what unique features separate Gemini from other gen AI models?
+Simplicity: Gemini is simple to use from the moment you start. It’s all centralized in the cloud and follows the same rules that apply to your Workspace. No extra steps of complicated setup — just flip the lights on and you’re good to go.
+A strong foundation: A building without a solid foundation will collapse regardless of reinforcements. Gemini, as a part of Google Workspace, automatically inherits the same architecture with zero trust “built in, not bolted on.” So your data is private and secure by default.
+Pull not push: Gemini pulls relevant search data into your enterprise trust boundary. So Google is a processor of your data, and acts only according to your instructions. That’s true even when you access Google Search using Gemini.
+Extraordinary “working memory”: Gemini is the only gen AI model with a context window containing 2 million tokens. A context window, like working memory, determines how much a gen AI tool can remember at one time. The larger the context window, the better your model can respond to questions and handle complex tasks. This is how Gemini delivers relevant and useful responses without ever learning from your data or prompts. Those 2 million tokens are enough to review an entire feature film or summarize 3,000 pages of text.
+Unmatched encryption: Google Workspace client-side encryption (CSE) protects confidential data stored within enterprise SaaS applications. This CSE is unmatched in the industry. It’s as private as private gets. No gen AI tool — not even Gemini — can access CSE data that you or your admin manage. Only you, the customer, have the key.
+Control: Gemini delivers the information you need without overriding any of your organization’s existing controls and practices. Think of Gemini as an extra set of eyes that can only see what you can see, using your access and usage rights to help you. When you use Gemini, you can’t accidentally expose sensitive information data from other parts of your organization.
+Many of our customers are embracing the secure and unique power of Gemini for Google Workspace. Jeremy Gibbons , Digital & IT CTO at Air Liquide , appreciates its differentiation in the industry: “Gemini is in a really unique place in being able to securely access all of our documentation,” he says. “It’s not something that we can easily replicate in any other tool, and that has tremendous value for us going forward.”
+How it all comes together
+Gemini is a true thought partner that can help transform your organization while keeping your data private, secure, and under your control. If you’d like to learn more, watch our Next ’24 session that describes the life of a prompt, or consider a no-cost trial .
+Posted in AI and Machine Learning
+Identity and Security
+Related articles
+Product Announcements
+Bridging the gap between AI ambition and readiness: new survey data
+By Derek Snyder • 5-minute read
+Productivity and Collaboration
+Which quadrant are you in? Navigating the human side of agentic transformation
+By Pat McCarthy • 4-minute read
+Productivity and Collaboration
+How I’m using Workspace Studio and Gemini to streamline my day
+By Laura Mae Martin • 3-minute read
+Product Announcements
+Workspace Drops: Pro-level AI image creation and editing, new ways to make your data interactive, and more AI help across your apps
+By The Google Workspace Team • 3-minute read
+Footer Links
+Follow us
+Included applications Included applications
+Gmail
+Meet
+Chat
+Calendar
+Drive
+Docs
+Sheets
+Slides
+Forms
+Sites
+Keep
+Apps Script
+Security and management Security and management
+Admin
+Endpoint
+Vault
+Work Insights
+Solutions Solutions
+New Business
+Small Business
+Enterprise
+Retail
+Manufacturing
+Professional Services
+Technology
+Healthcare
+Government
+Education
+Nonprofits
+Artificial Intelligence
+Pricing Pricing
+Compare pricing plans
+Add-ons Add-ons
+Gemini for Workspace
+Meet hardware
+Google Voice
+AppSheet
+Resources Resources
+Working remotely
+Security
+Customer Stories
+FAQs
+Partners
+Marketplace
+Integrations
+Training & Certification
+Refer Google Workspace
+Learning and support Learning and support
+Admin Help
+Setup and Deployment Center
+Learning Center for Users
+Forums for Admins
+Google Workspace Dashboard
+What's New in Google Workspace
+Find a Google Workspace Partner
+Join the community of IT Admins
+Press
+More from Google More from Google
+Google Cloud
+Google Domains
+Chrome Enterprise
+Google Business Solutions
+Google Ads
+Business Messages
+Join User Studies
+About Google
+Google Products
+Privacy
+Terms
+Cookies management controls
+Language ‪English‬ ‪Deutsch‬ ‪Français‬ ‪한국어‬ ‪日本語‬

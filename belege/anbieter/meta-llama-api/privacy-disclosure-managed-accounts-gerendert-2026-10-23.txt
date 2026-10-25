@@ -1,0 +1,473 @@
+Quelle: https://forwork.meta.com/legal/privacy-disclosure/
+Abruf: 2026-10-23 01:22:31 +0200
+
+Meta Horizon Managed Solutions – Datenschutzinformationen | Meta (de-DE)
+
+Zum Hauptinhalt
+
+[Meta]
+
+AI Glasses
+
+Meta Quest
+
+Meta VR Glasses
+
+Meta entdecken
+
+Support
+
+DE
+
+​
+
+Zurück zu Rechtliches für Meta for Work
+
+Meta Horizon Managed Solutions – Datenschutzinformationen
+
+Gültig ab 26. Februar 2025
+
+Meta Horizon Managed Services für Meta for Work und Meta for Education sind jeweils ein Dienst (der „Dienst“), der von Meta („wir“ oder „uns“) angeboten wird. Deine Nutzung von Meta Quest-Geräten und Anwendungen, Produkten und Diensten von Meta und Dritten unterliegt den jeweiligen Nutzungsbedingungen und Datenschutzrichtlinien, die für die Nutzung dieser Geräte, Anwendungen, Produkte und Dienste gelten. Weitere Informationen über die Datenerhebung und ‑verarbeitung durch Meta für Meta Quest-Geräte und Meta-Anwendungen, -Produkte und -Dienste findest du in der Meta-Datenschutzrichtlinie und der Ergänzenden Datenschutzrichtlinie von Meta Platforms Technologies.
+
+Der Dienst ist für die Nutzung durch Organisationen vorgesehen und wird dir von deinem Arbeitgeber oder einer anderen Organisation zur Verfügung gestellt, die deinen Zugriff auf den Dienst sowie dessen Nutzung autorisiert hat (deine „Organisation“). Durch das Abonnement des Dienstes kann deine Organisation berufliche Meta-Konten für die von ihr verwalteten Nutzer*innen erstellen, verwalten und pflegen. Wenn deine Organisation dir ein berufliches Meta-Konto zur Verfügung stellt, dient das berufliche Meta-Konto ausschließlich der Anmeldung und Authentifizierung und ermöglicht dir den Zugriff auf Meta Quest-Geräte und bestimmte Anwendungen, Produkte und Dienste von Meta und Dritten, die auf den Geräten zur Verfügung gestellt werden.
+
+Wir erhalten zwar nur begrenzte Informationen über dich und deine Aktivitäten in Verbindung mit deinem beruflichen Meta-Konto und dem Dienst (wie unten unter „I. Welche Arten von Informationen werden erfasst?“ beschrieben), aber wir verarbeiten diese Informationen in Übereinstimmung mit den Bestimmungen unserer Vereinbarung mit deiner Organisation und den entsprechenden rechtlichen Anweisungen deiner Organisation. Deine Organisation ist für dein berufliches Meta-Konto und dessen Administration verantwortlich und kann zusätzliche Richtlinien oder Verhaltensregeln haben, die für deine Nutzung des Dienstes gelten. Wir sind nicht für die Datenschutz- oder Sicherheitspraktiken deiner Organisation verantwortlich und haben keine Kontrolle darüber. Bitte wende dich an deine Organisation, wenn du Fragen oder Anregungen zum Dienst, zur Verarbeitung deiner persönlichen Daten und zu deinen Privatsphäre-Optionen oder Kontrollmöglichkeiten hast.
+
+Weitere Informationen, einschließlich dazu, welche Arten von Daten im Rahmen des Dienstes von deiner Organisation erfasst und mit uns geteilt werden und wie sie möglicherweise genutzt werden, findest du unten.
+
+I. Welche Arten von Informationen werden erfasst?
+
+Deine Organisation erfasst folgende Arten von Informationen, wenn du auf den Dienst zugreifst, und teilt sie mit Meta:
+
+die Kontaktinformationen deiner Organisation wie den vollständigen Namen und die E-Mail-Adresse;
+
+deinen Benutzernamen und dein Passwort;
+
+deine Stellenbezeichnung, Angaben zur Abteilung sowie sonstige Informationen im Zusammenhang mit der Organisation;
+
+die Inhalte, Kommunikationen und sonstigen Informationen, die du bereitstellst, wenn du den Dienst nutzt; einschließlich deiner Registrierung für ein Konto. Das können Informationen aus den oder über die von dir bereitgestellten Inhalte sein (z. B. Metadaten);
+
+an deine Organisation gesendete Kommunikationen, Feedbacks, Vorschläge und Ideen von Nutzer*innen;
+
+Abrechnungs- und Zahlungsinformationen zu den von deiner Organisation erworbenen Produkten oder Diensten und
+
+Informationen, die du bereitstellst, wenn du unser Support-Team im Hinblick auf den Dienst kontaktierst oder einschaltest bzw. deine Organisation dies tut.
+
+II. Wie verwendet deine Organisation diese Informationen?
+
+Deine Organisation verwendet deine Informationen, um dir den Dienst zur Verfügung zu stellen. Deine Organisation teilt die von ihr erfassten Informationen mit Meta (als Dienstanbieter), damit Meta den Dienst für deine Organisation gemäß jeglichen sonstigen Anweisungen von deiner Organisation bereitstellen und unterstützen kann. Beispiele für eine solche Verwendung:
+
+Kommunikation mit Nutzer*innen und Administrator*innen in Bezug auf ihre Nutzung des Dienstes;
+
+Verbesserung der Sicherheit des Dienstes für deine Organisation;
+
+Personalisierung deines Nutzungserlebnisses und das deiner Organisation im Rahmen unserer Bereitstellung des Dienstes;
+
+Entwicklung neuer Tools, Produkte oder Dienstleistungen im Dienst für deine Organisation;
+
+Identifizierung und Behebung möglicherweise vorhandener Fehler; und
+
+Durchführung von Daten- und Systemanalysen, einschließlich Studien zur Verbesserung des Dienstes.
+
+III. Offenlegung von Informationen
+
+Deine Organisation kann die erfassten Informationen folgendermaßen offenlegen:
+
+gegenüber Apps, Websites oder anderen Diensten Dritter, mit denen du dich über den Dienst verbinden kannst;
+
+im Zusammenhang mit einer wesentlichen Unternehmenstransaktion, wie z. B. der Übertragung des Dienstes, einer Fusion oder Konsolidierung, der Veräußerung von Vermögenswerten oder im unwahrscheinlichen Fall eines Konkurses oder einer Insolvenz;
+
+zum Schutz der Sicherheit jedweder Person; um Betrug oder Sicherheits- bzw. technische Probleme zu verfolgen; und
+
+im Zusammenhang mit einer Herausgabeverfügung oder -anordnung, einem Vorlagebeschluss oder einer sonstigen Anfrage bzw. Verfügung von Strafverfolgungsbehörden.
+
+Meta kann Informationen, die Meta über dich erfasst, folgendermaßen gegenüber deiner Organisation offenlegen:
+
+Meta teilt bestimmte Informationen zu deinem Konto mit deiner Organisation, um Schutz, Integrität und Sicherheit zu fördern, geltende Gesetze und Vorschriften einzuhalten und in Übereinstimmung mit den Nutzungsbedingungen und Richtlinien von Meta, einschließlich der geltenden Nutzungsrichtlinien. Dazu können Informationen wie der Status deines Kontos, der ungefähre Standort deines verwalteten Headsets und Informationen zu Anwendungen, die du installierst, und zu deiner Nutzung dieser Anwendungen gehören. Wenn du Meta VR-Produkte mit deinem beruflichen Meta-Konto nutzt, erfasst Meta Informationen über dich, wie in der Meta-Datenschutzrichtlinie und der Ergänzenden Datenschutzrichtlinie von Meta Platforms Technologies dargelegt. Lies dir die Meta-Datenschutzrichtlinie und die ergänzende Datenschutzrichtlinie von Meta Platforms Technologies durch, um mehr darüber zu erfahren, wie Meta die über dich erfassten Informationen offenlegt.
+
+IV. Zugriff auf deine Informationen sowie Änderung und Löschung dieser
+
+Du und deine Organisation könnt auf Informationen, die du auf den Dienst hochgeladen hast, mithilfe der im Dienst bereitgestellten Tools zugreifen und sie berichtigen bzw. löschen. Wenn dir dies nicht mithilfe der im Dienst bereitgestellten Tools möglich ist, solltest du dich direkt an deine Organisation wenden, um auf deine Informationen zuzugreifen, sie zu ändern oder zu löschen.
+
+V. Kontoschließung
+
+Wenn du deine Nutzung des Dienstes beenden möchtest, solltest du dich an deine Organisation wenden. Ebenso kann die Organisation dein berufliches Meta-Konto sperren oder deaktivieren und/oder jedwede mit deinem beruflichen Meta-Konto verknüpften Informationen löschen, wenn du nicht länger für die bzw. bei der Organisation arbeitest.
+
+VI. Änderung an diesen Datenschutzinformationen
+
+Diese Datenschutzinformationen können von Zeit zu Zeit aktualisiert werden. Im Falle einer Aktualisierung ändern wir das obige „Datum des Inkrafttretens“ und veröffentlichen die neuen Datenschutzinformationen online.
+
+VII. Kontakt
+
+Bitte wende dich an deine Organisation, wenn du Fragen oder Anregungen zu den Diensten, zur Verarbeitung deiner personenbezogenen Daten und zu deinen Privatsphäre-Optionen oder Kontrollmöglichkeiten für den Dienst hast.
+
+Neuigkeiten und Updates von Meta erhalten
+
+E-Mail-Adresse
+
+Indem du dich registrierst, stimmst du zu, Neuigkeiten und Marketing-Nachrichten (z. B. per E-Mail, in Social Media usw.) von Meta zu bestehenden und zukünftigen Produkten und Services von Meta zu erhalten.
+
+Deine Einwilligung kannst du jederzeit zurückziehen und dich über den Abbestellen-Link in unseren Nachrichten abmelden.
+
+Dein Abonnement unterliegt den Nutzungsbedingungen und der Datenschutzrichtlinie.
+
+Registrieren
+
+Indem du dich registrierst, stimmst du zu, Neuigkeiten und Marketing-Nachrichten (z. B. per E-Mail, in Social Media usw.) von Meta zu bestehenden und zukünftigen Produkten und Services von Meta zu erhalten.
+
+Deine Einwilligung kannst du jederzeit zurückziehen und dich über den Abbestellen-Link in unseren Nachrichten abmelden.
+
+Dein Abonnement unterliegt den Nutzungsbedingungen und der Datenschutzrichtlinie.
+
+[Meta]
+
+[Facebook Meta.com Social Media][Threads Meta.com Social Media][Instagram Meta.com Social Media][X Meta.com Social Media][YouTube-Medienkanal von Meta.com]
+
+Meta Store
+
+Meta GlassesRay-Ban Meta-BrillenOakley Meta-BrilleMeta Ray-Ban DisplayBrillen vergleichenZubehör für AI GlassesLeitfäden für AI GlassesMeta LabMeta QuestZubehör für Meta QuestApps und SpieleMeta Quest-GeschenkgutscheineGeneralüberholte Meta Quest 3Generalüberholte Meta Quest 3SGeneralüberholte Ray-Ban Meta-BrillenMehr von Ray-BanBlog
+
+Store – Support und Rechtliches
+
+Meta-HilfebereichBestellstatusRücksendungenProduktdemo findenGeschäft findenRechtlichesVerkaufsbedingungenMeta Quest Safety Center
+
+Community
+
+Creator*innenEntwickler*innenUnternehmenGemeinnützige OrganisationenSDKs herunterladenMade for Meta – PartnerprogrammVR for Good
+
+Unsere Maßnahmen
+
+Daten und DatenschutzVerantwortungsvolle GeschäftspraktikenBarrierefreiheitWahlen
+
+Über uns
+
+Über MetaUnternehmensinformationenKarriereMediengalerieMarkenressourcenFür Investor*innenNewsroom
+
+Website – Nutzungsbedingungen und Richtlinien
+
+GemeinschaftsstandardsDatenschutzrichtlinieNutzungsbedingungenCookie-Richtlinie
+
+App-Support
+
+Facebook-HilfebereichMessenger-HilfebereichInstagram-HilfebereichWhatsApp-HilfebereichWorkplace-HilfebereichMeta VerifiedMeta-Konto (einmalige Anmeldung)
+
+Meta Store
+
+Meta Glasses
+
+Ray-Ban Meta-Brillen
+
+Oakley Meta-Brille
+
+Meta Ray-Ban Display
+
+Brillen vergleichen
+
+Zubehör für AI Glasses
+
+Leitfäden für AI Glasses
+
+Meta Lab
+
+Meta Quest
+
+Zubehör für Meta Quest
+
+Apps und Spiele
+
+Meta Quest-Geschenkgutscheine
+
+Generalüberholte Meta Quest 3
+
+Generalüberholte Meta Quest 3S
+
+Generalüberholte Ray-Ban Meta-Brillen
+
+Mehr von Ray-Ban
+
+Blog
+
+Store – Support und Rechtliches
+
+Meta-Hilfebereich
+
+Bestellstatus
+
+Rücksendungen
+
+Produktdemo finden
+
+Geschäft finden
+
+Rechtliches
+
+Verkaufsbedingungen
+
+Meta Quest Safety Center
+
+Community
+
+Creator*innen
+
+Entwickler*innen
+
+Unternehmen
+
+Gemeinnützige Organisationen
+
+SDKs herunterladen
+
+Made for Meta – Partnerprogramm
+
+VR for Good
+
+Unsere Maßnahmen
+
+Daten und Datenschutz
+
+Verantwortungsvolle Geschäftspraktiken
+
+Barrierefreiheit
+
+Wahlen
+
+Über uns
+
+Über Meta
+
+Unternehmensinformationen
+
+Karriere
+
+Mediengalerie
+
+Markenressourcen
+
+Für Investor*innen
+
+Newsroom
+
+Website – Nutzungsbedingungen und Richtlinien
+
+Gemeinschaftsstandards
+
+Datenschutzrichtlinie
+
+Nutzungsbedingungen
+
+Cookie-Richtlinie
+
+App-Support
+
+Facebook-Hilfebereich
+
+Messenger-Hilfebereich
+
+Instagram-Hilfebereich
+
+WhatsApp-Hilfebereich
+
+Workplace-Hilfebereich
+
+Meta Verified
+
+Meta-Konto (einmalige Anmeldung)
+
+Meta Store
+
+Meta Glasses
+
+Ray-Ban Meta-Brillen
+
+Oakley Meta-Brille
+
+Meta Ray-Ban Display
+
+Brillen vergleichen
+
+Zubehör für AI Glasses
+
+Leitfäden für AI Glasses
+
+Meta Lab
+
+Meta Quest
+
+Zubehör für Meta Quest
+
+Apps und Spiele
+
+Meta Quest-Geschenkgutscheine
+
+Generalüberholte Meta Quest 3
+
+Generalüberholte Meta Quest 3S
+
+Generalüberholte Ray-Ban Meta-Brillen
+
+Mehr von Ray-Ban
+
+Blog
+
+Store – Support und Rechtliches
+
+Meta-Hilfebereich
+
+Bestellstatus
+
+Rücksendungen
+
+Produktdemo finden
+
+Geschäft finden
+
+Rechtliches
+
+Verkaufsbedingungen
+
+Meta Quest Safety Center
+
+Community
+
+Creator*innen
+
+Entwickler*innen
+
+Unternehmen
+
+Gemeinnützige Organisationen
+
+SDKs herunterladen
+
+Made for Meta – Partnerprogramm
+
+VR for Good
+
+Unsere Maßnahmen
+
+Daten und Datenschutz
+
+Verantwortungsvolle Geschäftspraktiken
+
+Barrierefreiheit
+
+Wahlen
+
+Über uns
+
+Über Meta
+
+Unternehmensinformationen
+
+Karriere
+
+Mediengalerie
+
+Markenressourcen
+
+Für Investor*innen
+
+Newsroom
+
+Website – Nutzungsbedingungen und Richtlinien
+
+Gemeinschaftsstandards
+
+Datenschutzrichtlinie
+
+Nutzungsbedingungen
+
+Cookie-Richtlinie
+
+App-Support
+
+Facebook-Hilfebereich
+
+Messenger-Hilfebereich
+
+Instagram-Hilfebereich
+
+WhatsApp-Hilfebereich
+
+Workplace-Hilfebereich
+
+Meta Verified
+
+Meta-Konto (einmalige Anmeldung)
+
+Deutschland (Deutsch)
+
+Eltern: Wichtige Hinweise und Sicherheitswarnungen bei der Nutzung durch Kinder.
+
+Weitere Informationen zu unseren AI Glasses sowie Meta Quest-Produkten und -Diensten findest du auf den Produktseiten und in den entsprechenden rechtlichen Offenlegungen. Sieh dir die Details zu unseren aktuellen Promotions an.
+
+Kontaktinformationen: Meta Platforms Technologies Ireland Limited, Merrion Road, Dublin 4, D04 X2K5, Irland
+
+Meta Platforms Technologies, LLC 1 Hacker Way, Menlo Park, CA 94025, USA
+
+meta.com/help/support
+
+Die
+OPTIONALE FINANZIERUNG unterliegt einer Berechtigungsprüfung sowie den Kreditbedingungen des Kreditgebers. Details zu den aktuellen Finanzierungsangeboten findest du unter aktuelle Angebote und Offenlegung von Finanzierungen.
+
+‡ Die zinslose Finanzierung mit Klarna ist nicht für Limited Editions und vorbestellte Artikel und möglicherweise nicht auf allen Geräten oder Zubehörteilen verfügbar.
+
+©2026 Meta.
+
+Die Verwendung von Cookies durch Meta in diesem Browser erlauben?
+
+Wir verwenden Cookies und ähnliche Technologien, um Inhalte in Meta-Produkten bereitzustellen und zu verbessern. Darüber hinaus verwenden wir sie, um mithilfe der durch Cookies auf und außerhalb von Meta Quest empfangenen Informationen die Sicherheit zu verbessern sowie um Meta-Produkte für Personen, die ein Konto haben, bereitzustellen und zu verbessern.
+
+•
+Erforderliche Cookies: Diese Cookies sind notwendig für die Nutzung von Meta-Produkten und die ordnungsgemäße Funktion unserer Websites.
+
+•
+Cookies anderer Unternehmen: Wir verwenden diese Cookies, um dir Werbeanzeigen außerhalb von Meta-Produkten zu zeigen und Funktionen wie Karten oder Videos in Meta-Produkten anbieten zu können. Hierbei handelt es sich um optionale Cookies.
+
+Du bestimmst, welche optionalen Cookies wir verwenden dürfen. In unserer Cookie-Richtlinie erfährst du mehr über Cookies und wie wir sie verwenden. Dort kannst du deine Auswahl außerdem jederzeit überprüfen oder ändern.
+
+Infos zu Cookies
+
+Was sind Cookies?
+
+Weitere Infos
+
+Warum verwenden wir Cookies?
+
+Weitere Infos
+
+Was sind Meta-Produkte?
+
+Weitere Infos
+
+Deine Cookie-Auswahl
+
+Weitere Infos
+
+Cookies anderer Unternehmen
+
+Wir verwenden Cookies anderer Unternehmen, um dir Werbeanzeigen außerhalb von unseren Produkten zu zeigen und Funktionen wie Karten, Zahlungsdienste oder Videos anbieten zu können.
+
+Cookies nach Kategorie auswählen
+
+So verwenden wir diese Cookies
+
+Wenn du diese Cookies erlaubst:
+
+Wenn du diese Cookies nicht erlaubst:
+
+Andere Möglichkeiten, um deine Informationen zu kontrollieren
+
+Personalisiere dein Werbeerlebnis in der Kontenübersicht
+
+Weitere Informationen zu Onlinewerbung
+
+Cookies über die Browser-Einstellungen kontrollieren
+
+Optionale Cookies ablehnen
+
+Alle Cookies erlauben
+
+Optionale Cookies ablehnen
+
+Alle Cookies erlauben

@@ -1,0 +1,61 @@
+Quelle: https://bfl.ai/legal/eu-api-service-terms
+Abruf: 2026-10-24 06:23:17 +0200 (curl direkt, HTTP 200; robots.txt erlaubt). SHA-256 der Rohseite: c0ee7c6410e8dce01f9aa717a29f371ef106744506d7096405b772779c952d59
+Inhalt: EU API Service Terms (Last Revised on August 26, 2026), ganzer Text
+
+
+EU API Service Terms | Black Forest Labs
+Models
+Research
+API
+Open Weights
+Pricing
+Resources
+Contact Sales
+EU API Service Terms
+Last Revised on August 26, 2026
+These EU FLUX API Service Terms ("API Terms") govern Developer's access to and use of the FLUX AI Models via the FLUX API. These API Terms are part of, and incorporated into, the Black Forest Labs EU Developer Terms of Service ("Developer Terms"), if you are (i) located in the European Union or (ii) are using the FLUX Services (defined in the Developer Terms) through an establishment located in the European Union. By agreeing to these API Terms, Developer also agrees to the Developer Terms (found at https://bfl.ai/legal/eu-developer-terms-of-service) (collectively, the "Terms"). Capitalized terms used but not otherwise defined in these API Terms have the meanings given to them in the Developer Terms. In the event of any conflict between these API Terms and the Developer Terms, these API Terms will control, but solely with respect to Developer's access and use of the FLUX AI Models via the FLUX API.
+Where an Order Form to a FLUX Model API Services Agreement specifies these API Terms, these API Terms are also incorporated by reference into the applicable FLUX Model API Services Agreement and accompanying Order Form (together, the "Agreement"). In the event of any conflict between these API Terms and the rest of the Agreement with respect to Flux AI Model-specific matters, these API Terms shall control. Capitalized terms not defined in these API Terms have the meanings given in the Agreement.
+1. The FLUX API and FLUX AI Models
+The FLUX API allows Developer to integrate the Developer Application with the FLUX AI Models and, if permitted, fine-tune the FLUX AI Models via interaction with an API that we control.
+2. Licenses
+a. License to the FLUX API. If Developer chooses to use the FLUX API, and subject to the Terms, the Company grants Developer a limited, worldwide, non-exclusive, non-transferable, non-sublicensable, license for the duration of the Agreement to access and use the FLUX API, FLUX AI Models, and Derivatives of the FLUX AI Models if permitted through the FLUX API (such as the fine-tuning of a FLUX AI Model) solely to develop and operate integrations whereby End Users of a Developer Application can interface with the FLUX AI Models from within the Developer Application. Developer may not allow access to the FLUX API, FLUX AI Models, or Derivatives from any source other than the Developer Application. This means that Developer may not host (or authorise or direct a third party to host) an API endpoint to any FLUX AI Models that allows third parties to integrate or otherwise use the FLUX AI Models in or with their own products or services under these API Terms.
+b. License to the Company. Developer grants the Company a fully paid, royalty-free, perpetual, irrevocable, worldwide, non-exclusive, and fully sublicensable right and license to use, sub-license, distribute, reproduce, modify, adapt, publicly perform, and publicly display Developer's Input and Output for the purpose of operating the FLUX Services, improving the Company's products and services, and developing new products and services. Developer acknowledges that the foregoing means the Company may use Inputs and Outputs to train and improve its artificial intelligence models, algorithms, and related technology, products, and services.
+3. Fees
+Fees for the use of the FLUX AI Models through the FLUX API are available at https://bfl.ai/pricing/api/. Fees may be charged up-front and then used as credits on submitted Inputs. Developer may purchase prepaid credits for use with the FLUX API at then-current prices as published by the Company. The Company may offer credits in various quantities or packages at its discretion. All credit purchases are non-refundable and must be used in accordance with the Terms.
+4. Rate Limits
+Developer will not attempt to exceed or circumvent any agreed limitations on access, calls, and use of the FLUX API ("Rate Limits"), or otherwise use the FLUX API in a manner that exceeds reasonable request volume, constitutes excessive or abusive usage (in the Company’s sole discretion), or otherwise does not comply with these Terms.
+If Developer exceeds, or the Company reasonably believes that Developer has attempted to circumvent, the Rate Limits or controls to limit use of the FLUX API, then Developer's ability to use the FLUX API and/or FLUX Services may be temporarily suspended or permanently blocked. Developer understands and agrees that the specifications for the FLUX API shall be defined by the Company in its sole discretion, and Developer is responsible for the development and other costs associated with integrating with the FLUX API and FLUX AI Models.
+5. Developer Inputs, Outputs, and Storage
+Developer is solely responsible for all Input submitted through the Developer Application, including Source Video. Developer shall implement reasonable content screening mechanisms to prevent the submission of Input that violates the Terms or the FLUX Usage Policy.
+Video Outputs are made available via a time-limited retrieval URL or equivalent mechanism as specified in the applicable Order Form or Documentation. Developer is responsible for downloading and storing Outputs within the applicable retrieval window. The Company does not guarantee long-term storage of Video Outputs and may delete them after expiry of the retrieval window.
+6. Technical Parameters and Modifications
+Outputs are subject to the technical parameters set out in the applicable Order Form and the Company's technical documentation (found at https://docs.bfl.ai/quick_start/introduction), including Video Duration Limits, maximum output resolution, maximum frame rate, and supported file formats. Developer shall not attempt to circumvent such parameters through prompt engineering, API call chaining, or any other method.
+The Company may modify, change, update, and/or enhance the FLUX API and/or the FLUX AI Models, or any specifications or functionalities of the FLUX API and/or FLUX AI Models (a "Modification"), at any time in the Company's sole and exclusive discretion. Developer acknowledges and agrees that such Modifications may affect any Developer Application's ability to access or fine-tune any FLUX AI Model and may require Developer to make changes to the Developer Application at Developer's cost to continue to integrate with the FLUX API and/or FLUX AI Models.
+7. Usage Policy
+The Company maintains a FLUX Usage Policy at bfl.ai/legal/usage-policy, setting out guidance and additional prohibited use cases for the FLUX AI Models, including in connection with Video Generations. The FLUX Usage Policy is incorporated by reference into these API Terms and forms part of the Terms; in the event of any conflict between the FLUX Usage Policy and these API Terms, these API Terms shall control. The Company may update the FLUX Usage Policy on reasonable notice. Developer's End User-facing terms and acceptable use policies must be at least as restrictive as the FLUX Usage Policy with respect to the FLUX AI Models and Video Generations.
+8. Self-Hosting
+These API Terms do not grant Developer the right to download, self-host, or make derivatives of the FLUX [dev] Model. If Developer would like to have the opportunity to self-host the FLUX [dev] Models, please see the FLUX [dev] Self-Hosted Service Terms (found at https://bfl.ai/legal/self-hosted-commercial-license-terms).
+9. General
+a. Updates. The Company may update these API Terms by posting a revised version at the URL specified in the applicable Order Form or the Company's website. It is Developer’s sole responsibility to review these API Terms from time to time to view any updates. Continued use of the FLUX API or any Video Generation following the effective date of an updated version of these API Terms constitutes acceptance of such modified API Terms.
+b. Relationship to Developer Terms and Agreement. These API Terms supplement and do not replace the Developer Terms or the Agreement. All other terms and conditions of the Developer Terms or the Agreement continue to apply to Developer's use of the FLUX AI Models.
+c. Severability and Waiver. If any provision of these API Terms is held invalid, illegal, or unenforceable, the remaining provisions shall continue in full force and effect. No failure or delay by the Company in exercising any right or remedy under these API Terms shall operate as a waiver of such right or remedy.
+d. Contact. Questions regarding these API Terms may be directed to: legal@blackforestlabs.ai.
+Models
+FLUX 3 MaxFLUX 3 VideoFLUX 3 ImageFLUX 3 Image KleinFLUX 3 ActionFLUX Tools
+API
+DocumentationDashboardStatus
+Open Weights
+LicensingHugging FaceGitHub
+Resources
+DocumentationHelp DeskBlogCreator ProgramBrandGitHub
+Company
+About UsCareersTrust and SecurityContact Us
+ ISO 27001:2022
+ SOC 2 Type II
+Enterprise
+Learn MoreContact Sales
+Legal
+ImprintTerms of ServiceUsage PolicyPrivacy PolicyIntellectual Property Policy
+Developer Terms of ServiceFLUX API Service TermsSelf-Hosted Terms of ServiceNon-Commercial License TermsResponsible AI Development Policy
+All rights reserved.
+©2026 BLACK FOREST LABS.

@@ -317,11 +317,6 @@ SAML
 SOC
 SSO
 Sales
-Sales
-Sales
-Sales
-Sales
-Sales
 Secure
 Secure
 Security
@@ -719,6 +714,11 @@ restrictions
 robust
 safe
 safety
+sales
+sales
+sales
+sales
+sales
 satisfies
 scale
 science

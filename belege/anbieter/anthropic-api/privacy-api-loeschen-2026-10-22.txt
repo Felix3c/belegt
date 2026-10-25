@@ -1,0 +1,75 @@
+Quelle: https://privacy.claude.com/en/articles/7996875-can-you-delete-data-that-i-sent-via-api
+Abruf: 2026-10-22 23:50:49 +0200
+
+Can you delete data that I sent via API? | Anthropic Privacy Center
+
+Skip to main content
+
+API DocsRelease NotesContact Support
+EnglishFrançaisDeutschBahasa IndonesiaItaliano日本語한국어PortuguêsPусский简体中文Español繁體中文
+English
+
+API DocsRelease NotesContact Support
+EnglishFrançaisDeutschBahasa IndonesiaItaliano日本語한국어PortuguêsPусский简体中文Español繁體中文
+English
+
+Search for articles...
+
+All Collections
+
+Commercial Customers
+
+Privacy Settings & Controls
+
+Can you delete data that I sent via API?
+
+Can you delete data that I sent via API?
+
+March 16, 2026
+
+Table of contents
+
+This article is about our commercial products such as Claude for Work and the Anthropic API. For our consumer products such as Claude Free, Pro, Max and when accounts from those plans use Claude Code, see here.
+
+Deleting and Renaming Individual Conversations
+
+For paid API customers, we do not support ad hoc deletion. See here for more information on our data retention practices. We do not use API data for training (unless you have an agreement with us that states otherwise).
+
+Related Articles
+
+How long do you store my organization’s data?
+
+Can you delete data sent via Claude?
+
+I have a zero data retention agreement with Anthropic. What products does it apply to?
+
+Can you delete data that I sent via Team and Enterprise plans?
+
+Who owns and manages the data of my Claude for Education account?
+
+Did this answer your question?
+Disappointed Reaction😞Neutral Reaction😐Smiley Reaction😃
+
+Table of contents
+
+Product
+
+Research
+
+Company
+
+News
+
+Careers
+
+Terms of Service - Consumer
+
+Terms of Service - Commercial
+
+Privacy Policy
+
+Usage Policy
+
+Responsible Disclosure Policy
+
+Compliance

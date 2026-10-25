@@ -1,0 +1,314 @@
+Quelle: https://www.requesty.ai/security
+Abruf: 2026-10-23 ~00:30 UTC (curl, HTTP 200), Textauszug aus HTML (ganze Seite, Skripte entfernt), belegbar.eu
+
+Security: SSO, IP Allowlisting, Key Leak Detection and GDPR | Requesty
+Product
+Solutions
+Models
+Rankings
+Customers
+Pricing
+Resources
+Docs
+Sign in
+Get started free
+Security
+You decide what is kept, where it runs, and what gets through.
+Encrypted in transit and at rest. Logging you can turn off per key, or off for the whole organization. An EU gateway in Frankfurt. And a set of checks that refuse a request before any provider sees it.
+Get started free
+Speak to founders
+TLS 1.2+ and AES-256
+·
+zero data retention on request
+·
+EU gateway in Frankfurt
+·
+status at trust.requesty.ai
+logs / refused and redacted
+last 3 minutes
+model not approved
+some-lab/preview · 403 policy_violation
+14:22:09
+request via rejected gateway
+router.us.requesty.ai · org restricted to EU
+14:21:51
+3 PII values masked
+email · card number · phone
+14:21:30
+request from outside the allowlist
+192.0.2.44 · sk-prod-api · IP not allowed
+14:20:58
+non-ZDR endpoint excluded
+policy requires zero data retention
+14:20:12
+cap reached, request refused
+sk-agent-eval · $500 of $500
+14:19:47
+Every one of these happened before a provider saw the request.
+Data handling
+Your prompts, on your terms
+Logging is on by default, encrypted, in the EU, for 30 days. Turn it off per key and only metadata remains. Ask for organization-wide zero data retention and nothing is persisted at all.
+Per key
+Off for the legal team, on for the sandbox
+Metadata still audits
+Timestamp, user, model, tokens, cost
+Data handling in the docs
+Pin providers to zero retention terms
+settings / data retention
+per key
+Prompt and output logging
+sk-prod-api
+30 days, encrypted, EU
+logging
+sk-support-bot
+30 days, encrypted, EU
+logging
+sk-legal-review
+metadata only
+off
+sk-agent-eval
+metadata only
+off
+Organization-wide zero data retention
+On written request. No prompt or output content is persisted and gateway caching is disabled. Audit logs keep metadata only.
+Encryption and keys
+Keys that can only do what you said
+TLS 1.2 or higher in transit, AES-256 at rest. Keys are hashed, shown once, and carry their own access list and spend cap. Service accounts give CI and agents a key that is not a person's.
+Access lists and RBAC in the docs
+Spend caps per key
+settings / api keys
+hashed at rest
+Key
+Owner
+Access list
+Last used
+sk-prod-api
+svc-checkout
+4 models · chat only
+2 min ago
+sk-support-bot
+support-ai
+2 models · guardrails on
+9 min ago
+sk-ci-eval
+svc-ci
+1 model · $60 cap
+3 h ago
+sk-legacy-0a12
+dana@acme-inc
+revoked
+revoked today
+shown in full once, at creation
+rotate or revoke without a deploy
+Network
+Only from networks you trust
+Set an IP allowlist for the organization, then narrow it further on any key. A request from anywhere else is refused at the gateway, so a copied key is useless outside your network.
+Organization
+One list that every key inherits
+Per key
+A production key that only works from production
+Addresses or ranges
+Single IPs and CIDR ranges, on every plan
+settings / ip allowlist
+org and per key
+Organization
+203.0.113.0/24
+office
+198.51.100.0/28
+production VPC egress
+198.51.100.40/32
+CI runner
+sk-prod-api, narrowed further
+198.51.100.0/28
+production VPC only
+Refused today
+192.0.2.44 · sk-prod-api
+not on the key allowlist
+refused
+233.252.0.9 · sk-support-bot
+not on the organization allowlist
+refused
+Key security
+See who runs on each key, and catch the leaked one
+For every key in the organization, admins see which coding agents, apps and SDKs use it, and who owns it. Four checks run over the last 30 days. A new tool and a traffic spike on the same key is flagged Critical, because that is what a leaked key looks like.
+New tool on the key
+A client that has never used it before
+Traffic spike
+About three times its normal volume
+Shared key
+Used by four or more different tools
+Unattributed traffic
+Mostly requests that name no client
+Expire a suspect key in one click and issue its owner a new one. Expiry can be undone, so acting fast costs nothing.
+Spend alerts and caps per key
+api keys / security
+last 30 days
+sk-prod-backend
+svc-backend
+Critical
+openai-python
+new · Claude Code
+New tool + traffic 3.8× normal
+Expire now
+sk-team-shared
+dana@acme-inc
+finding
+Cursor
+Cline
+Codex
+Claude Code
+LangChain
+Shared by 5 tools
+sk-data-jobs
+svc-data
+finding
+unattributed
+Mostly unattributed traffic
+sk-support-bot
+svc-support
+clear
+Vercel AI SDK
+Tools are named from the User-Agent and X-Title headers clients send. Expiring a key can be undone.
+Identity
+Your identity provider decides who gets in
+Sign in with Entra ID, Okta, Google Workspace or any SAML 2.0 or OIDC provider. Once your domain is connected, email sign-in is off for it, so nobody bypasses your IdP. New people join on their first sign-in.
+Directory sync
+IdP groups stay in sync with Requesty groups of the same name
+Deprovisioning
+Removing someone deletes their API keys and revokes access at once
+Audited
+Every sync change logged with the identity provider as actor
+SSO and directory sync in the docs
+Requesty for enterprise
+audit log / actor: identity provider
+Entra ID · SAML
+priya@acme-inc joined via SSO
+first sign-in, no invite needed
+09:12
+Group "engineering" synced
+2 members added from Entra ID
+09:12
+tom@acme-inc left "data-science"
+removed in Entra, removed here
+11:40
+sam@acme-inc deprovisioned
+3 API keys deleted, access revoked
+16:05
+email sign-in off for your domain
+every change in the audit log
+Request path
+Three hops. Every check on the middle one.
+Your application talks to the gateway in the region you chose. The gateway applies the organization's policy and forwards only what passes, only to the endpoints the policy allows.
+01 / your application
+Your application
+any SDK, any language
+TLS 1.2 or higher to the gateway
+API key hashed on our side
+02 / requesty gateway
+every request
+Requesty gateway
+the region you chose
+IP allowlist and approved models checked
+PII and secrets masked
+budget and access list applied
+logged per your retention setting
+03 / model provider
+Model provider
+only endpoints your policy allows
+TLS onward
+zero data retention terms when required
+How each check is configured
+Guardrails in the docs
+Compliance
+Claims you can check
+Each row names where the current status lives. Nothing here is asserted beyond what those pages say.
+compliance / status
+September 2026
+Item
+Status
+Verify at
+SOC 2 Type II
+programme in progress
+trust.requesty.ai
+GDPR, Article 28 DPA
+signed on request, any spend
+sub-processors list
+EU data residency
+Frankfurt, eu-central-1
+requesty.ai/eu
+Zero data retention
+per key, or org-wide on request
+docs
+Encryption
+TLS 1.2+ in transit, AES-256 at rest
+trust.requesty.ai
+Questions security teams ask
+Is my data encrypted?
+Yes. All traffic is encrypted in transit with TLS 1.2 or higher, and all data at rest is encrypted with AES-256. Credentials and API keys are stored encrypted and never logged.
+How does PII detection work?
+Requesty scans prompts and responses for personal data and secrets before they reach the model provider or come back to you. Each scanner is set to report or mask, organization wide or per group. It covers names, emails, phone numbers, SSNs, card numbers, and credentials such as API keys and database passwords.
+Can I block specific models or providers?
+Yes. Administrators can restrict the organization, or a group, to an approved list of models. A call to anything else gets a clear 403, and every attempt is logged for audit.
+Do you retain my prompts or completions?
+On self serve plans, prompt and output logging is on by default and retained for up to 30 days in encrypted form within the EU. You can turn it off per API key at any time. Organization-wide zero data retention, under which no prompt or output content is persisted and our own caching is disabled, is enabled on written request. Audit logs record metadata (timestamp, user, model, token counts, cost) in every configuration.
+Is Requesty SOC 2 compliant?
+Our SOC 2 Type II programme is in progress. Current certification and audit status is published at trust.requesty.ai, and we make no representation of certification beyond what is stated there. We are GDPR compliant, provide a DPA on request, and support EU data residency in Frankfurt.
+How are API keys protected?
+API keys are hashed at rest and shown in full only once, at creation. Administrators can rotate or revoke a key and set spend limits, access lists and an IP allowlist per key. Service accounts let you issue scoped keys for CI and agents without exposing a person’s credentials.
+Can we restrict API access to our own IP addresses?
+Yes, on every plan. Set an IP allowlist for the organization with single addresses or CIDR ranges, and narrow it further on any key. Requests from any other address are refused at the gateway.
+How do we know if an API key has leaked?
+The API Keys security view shows which coding agents, apps and SDKs use each key, named from the User-Agent and X-Title headers they send. Four checks run over the last 30 days: a new tool on the key, a traffic spike, a key shared by four or more tools, and mostly unattributed traffic. A new tool and a spike together is flagged Critical. Expire the key in one click; it can be undone.
+Does Requesty sync users and groups from our identity provider?
+Yes, on Enterprise. SSO works with Entra ID, Okta and any SAML 2.0 or OIDC provider. With directory sync on, IdP groups stay in sync with Requesty groups of the same name, and deprovisioning a user deletes their API keys so access ends immediately.
+Rolling it out
+The controls are on every plan. Enterprise adds the paperwork.
+SSO, a procurement process run by people, and a DPA on request.
+Requesty for enterprise
+The EU gateway
+Put the checks on the request path
+Start on the same controls the largest teams run on.
+Get started free
+Speak to founders
+The AI gateway for production. 600+ models behind one OpenAI-compatible endpoint, with routing, caching and governance included.
+All systems operational
+Product
+Routing & failover
+Observability
+Spend management
+Integrations
+Governance
+Prompt library
+Pricing
+Free models
+Docs
+Solutions
+AI gateway
+Enterprise
+EU AI Gateway
+AI coding agents
+Startups
+Security
+Compare
+vs OpenRouter
+vs LiteLLM
+vs Portkey
+vs Helicone
+Company
+Guides
+Blog
+Rankings
+Careers
+Support
+Contact
+Community
+Discord
+Twitter / X
+LinkedIn
+YouTube
+©
+2026
+Requesty Ltd. All rights reserved.
+Privacy
+Terms
+DPA

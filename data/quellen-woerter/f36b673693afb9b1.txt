@@ -1,12 +1,10 @@
 "Edit"
-&#038;
 &amp;
 &amp;
 &amp;
 &amp;
 &amp;
 &amp;
-(0.6B
 (Pay-As-You-Go
 (and
 (completion)
@@ -34,6 +32,7 @@
 1.5B
 100
 100M
+1017,
 1024
 103.000
 120
@@ -60,7 +59,6 @@
 1M
 1M
 1M
-2
 20
 20
 20-million-token
@@ -107,6 +105,7 @@
 3B
 4
 4
+43%
 47.3
 48
 48
@@ -120,9 +119,11 @@
 50
 50
 500
+501B
 50M
 512
 564
+60%:
 600M
 64
 64
@@ -138,7 +139,7 @@
 8
 80
 80
-8B):
+816B,
 92%
 94.5
 96
@@ -177,7 +178,7 @@ Am
 Are
 Asked
 Audio
-Benchmarks
+Beam
 Benchmarks
 Best
 Best-in-class
@@ -205,12 +206,10 @@ Check
 Choose
 Clef-Flash
 Cloud
-Code
 Complete
 Complete
 Complete
 Compliance
-Compression,
 Computing
 Conditions
 Contacts
@@ -253,6 +252,8 @@ Decision
 Decision
 Dedicated
 Dedicated
+DeepSWE
+DeepSeek
 Deploy
 Deploy
 Deploy
@@ -288,7 +289,6 @@ EURO
 Email
 Embedding
 Embedding
-EmbeddingGemma
 Enterprise
 Enterprise
 Enterprise
@@ -429,7 +429,6 @@ M
 M
 M
 M
-Matryoshka
 Max
 Model
 Model
@@ -459,6 +458,7 @@ Monthly
 Monthly
 Most
 Move
+Muse
 NVIDIA
 NVIDIA
 NVIDIA
@@ -555,7 +555,6 @@ Program
 Questions
 Qwen
 Qwen-Image
-Qwen3-Embedding
 Qwen3-Embedding-8B
 Qwen3-Reranker-4B
 R&amp;D
@@ -575,11 +574,9 @@ Release
 Rerank
 Rerank
 Reranking
-Reranking
 Resources
 Retention
 Retention,
-Retrieval,
 S.r.l.
 SLA
 SLAs,
@@ -612,6 +609,7 @@ Sign
 Sign
 Simply
 Skip
+Spark
 Speech-To-Text
 Speech-to-Text
 Start
@@ -683,6 +681,7 @@ We
 What
 Which
 Whisper
+Why
 With
 With
 Workshops
@@ -699,6 +698,7 @@ You'll
 Your
 Zero
 Zero
+a
 a
 a
 a
@@ -797,8 +797,10 @@ available
 avoid
 based
 batch
+beats
 become
 before
+benchmarks
 best
 best
 beyond
@@ -1184,6 +1186,7 @@ model
 model
 model
 model
+model
 model,
 models
 models
@@ -1265,6 +1268,8 @@ on
 on
 on
 on
+on
+one
 only
 only
 only
@@ -1397,6 +1402,7 @@ rate
 rate,
 rates
 rates
+reading
 real
 real
 real‑time,
@@ -1434,6 +1440,8 @@ saving
 scale
 scaling
 scaling
+scoring
+scoring
 seamlessly
 second
 second
@@ -1509,6 +1517,7 @@ that
 that
 that
 that
+the
 the
 the
 the
@@ -1652,7 +1661,6 @@ variable
 visibility
 volume
 volume
-vs
 waiting
 want
 want

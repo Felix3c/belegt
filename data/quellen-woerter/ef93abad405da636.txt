@@ -419,7 +419,7 @@ Multi
 Multi
 Multi
 Multi
-Multi,
+Multi
 Multi,
 Multi,
 Multi,
@@ -667,13 +667,13 @@ The
 The
 Toggle
 Tokens
+Tools
 Tracing
 Trains
 Trust
 Trusted
 Turn
 TypeSafe
-US
 US
 US
 US

@@ -1,0 +1,37 @@
+Quelle: https://claude.com/platform/api (auch www.anthropic.com/api leitet dorthin), https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-security, https://platform.claude.com/docs/en/managed-agents/self-hosted-sandboxes-memory, https://platform.claude.com/docs/en/managed-agents/memory, https://platform.claude.com/docs/en/manage-claude/api-and-data-retention (Weiterleitung von /build-with-claude/zero-data-retention); dazu die schon gesicherten Kopien in diesem Ordner (api-datenaufbewahrung 22.10.)
+Abruf: 2026-10-23 ~08:14-08:17 UTC (curl direkt, je HTTP 200, gzip entpackt, 3 s Abstand; robots.txt von claude.com und anthropic.com erlaubt). SHA-256 der Rohseiten: claude.com/platform/api 1471df35847072da74f8c3e4d82b047ff858a44584855faf39f61e29afa17e63, self-hosted-sandboxes-security cacebb55341cc322b9ed1b7950384d90c30fddefcee0b21c2aa2fe48ca6e5155, self-hosted-sandboxes-memory f74ee15f341ae31bc34af967ab8cc97db56142c86cc2cc414364345a919bc36b, api-and-data-retention d4648f63189cc7c6f9bcd664260268aa93195ab5a2889b31d8ba17aefe58b813. Archivkopie: ungeklärt (archive.org antwortete 23.10. ~08:17 mit 429). belegbar.eu
+Inhalt: wörtliche Auszüge aus dem Widerspruchs-Scan Anthropic Claude API (Textfassung). Frage: Sagen die Anthropic-Seiten untereinander oder in der Werbung etwas anderes als das Profil?
+
+A. Werbung: Gedächtnis „on your infrastructure“ (Fall-Kandidat 49)
+
+1. claude.com/platform/api, Abschnitt Managed Agents, Kachel „Memory stores“ (Link „Learn more“ auf platform.claude.com/docs/en/managed-agents/memory):
+Memory stores Agents remember across sessions, keeping memory files on your infrastructure.
+
+2. Dieselbe Seite, Kachel „Self-hosted sandboxes“:
+Keep sensitive files, packages, and services in your own infrastructure, or use a managed provider.
+
+B. Doku: Gedächtnis liegt bei Anthropic, auch mit eigener Sandbox
+
+3. Self-hosted sandboxes: security, „Memory store contents.“:
+Memory stores remain hosted by Anthropic, including their version history.
+
+4. Self-hosted sandboxes: memory:
+The difference is who materializes the store. On a self-hosted environment your worker, rather than Anthropic's infrastructure, downloads each store into the sandbox and syncs the agent's changes back.
+The memory store on Anthropic's side remains the source of truth.
+
+5. Memory (Versionen):
+Versions are retained for 30 days after they are written; however, the recent versions of a live memory are always kept regardless of age, so memories that change infrequently might retain history beyond 30 days.
+
+6. API and data retention, Zeile Claude Managed Agents (ZDR: nein):
+Sessions are stateful resources; transcripts persist until you delete them. Applies to all Managed Agents sub-features, including
+Self-hosted sandboxes
+
+Auf dem eigenen Rechner liegt nur eine Arbeitskopie für die Dauer der Sitzung (Security-Leitfaden: „the worker keeps a working copy under /mnt/memory/ in your sandbox for the session's duration and syncs changes back“).
+
+C. Ohne Widerspruch
+
+7. „Residency On your cloud provider, choose where your data is stored and where requests are processed, with regions in Asia-Pacific, Canada, Europe, and the United States.“ – eingeschränkt auf „On your cloud provider“ (Bedrock, Google Cloud, Foundry); für die direkte API gilt laut Profil „us“ als einziger Speicherort. Kein Widerspruch, aber leicht misszuverstehen.
+
+8. „By default, Anthropic does not use customer data from commercial deployments to train Claude.“ – passt zur Doku „Retained data is never used for model training without your express permission.“
+
+9. „Enterprise Frontier Safeguards Gives eligible customers the privacy of zero data retention (ZDR) along with state-of-the-art safeguards for detecting misuse.“ – die Doku nennt die Ausnahme selbst: „if a chat or session is flagged, Anthropic may retain inputs and outputs for up to 2 years.“ Steht schon im Profil; gleiches Wort-Muster wie Nr. 42, 46, 47, kein eigener Kandidat.

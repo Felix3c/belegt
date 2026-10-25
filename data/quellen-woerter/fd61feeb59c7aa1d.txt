@@ -13,6 +13,7 @@ AI
 AI
 AI
 AI
+AI
 API
 All
 All
@@ -199,6 +200,7 @@ free
 free
 free
 full
+gateway
 gateway
 gateway,
 governance

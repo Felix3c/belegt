@@ -1,0 +1,36 @@
+Quelle: https://cdn.deepseek.com/policies/en-US/deepseek-open-platform-terms-of-service.html, https://cdn.deepseek.com/policies/en-US/deepseek-terms-of-use.html, https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html, https://cdn.deepseek.com/policies/DeepSeek-V4.1-public-summary-of-training-content.pdf (je direkt); dazu die schon gesicherten Kopien in diesem Ordner (open-platform-bedingungen, nutzungsbedingungen, datenschutz, trainingsdaten-v4-1-text vom 23.10. ~01:16 MESZ)
+Abruf: 2026-10-24 01:14:49 +0200 (= 23:14 UTC am 23.10.; curl direkt, je HTTP 200, 3 s Abstand; cdn.deepseek.com hat keine robots.txt, Antwort 404). SHA-256 der Rohseiten: open-platform-terms 2b433c53cbac75491959025eba5a27908f9f1886352dce0a05f3d5a936d87790, terms-of-use e5c52c238ff59a6d274cd66c449f939ba6bd3183fe7927397b595df02887a76d, privacy-policy 339984e36a795843ee2b5b917797072ec249f3c0e9ff7cbbfe754c01caa4f069, V4.1-Zusammenfassung 9d19811fde95b822d4f5001de05d2fdda02385e6efe551df37891eaa4998bc98 (gleich wie trainingsdaten-v4-1-2026-10-23.pdf). Alle unten zitierten Sätze stehen im neuen Abruf wörtlich (Stand der Seiten unverändert: Open Platform „Effective date: April 29, 2026“, Nutzungsbedingungen „Last Update: March 27, 2026“, Datenschutz „Last Update: Feb 10, 2026“).
+Inhalt: wörtliche Auszüge aus dem Widerspruchs-Scan DeepSeek API (Textfassung). Frage: Passt das, was DeepSeek dem Entwickler über seine Rolle sagt, zu dem, was DeepSeek mit den API-Eingaben selbst tun darf?
+
+A. Entwickler ist „controller“, DeepSeek verarbeitet „delegated“, darf die Eingaben aber für eigene Modelle nutzen (Fall-Kandidat 56)
+
+1. Open-Platform-Bedingungen, Einleitung (gelten nur ergänzend):
+> serves as a Specific Agreement to the "DeepSeek Terms of Use"
+
+2. Open-Platform-Bedingungen 3.3:
+> You shall obtain the consent of end users or have other legal basis for the collection, processing of personal information, and delegation of personal information processing to us.
+
+3. Open-Platform-Bedingungen 5.5:
+> As the controller of personal information processing activities in that scenario, you should disclose the relevant privacy policy to your end users.
+
+4. Datenschutzerklärung, Einleitung:
+> Please be informed that the processing rules for Personal Data collected from end users when accessing downstream systems or applications developed by developers using our open platform services are not covered by this privacy policy.
+
+5. Nutzungsbedingungen, Einleitung (Vorrang der Sonderbedingungen nur bei Widerspruch):
+> In the event of any conflict between these Terms and the Specific Terms, the provisions of the Specific Terms shall prevail.
+
+6. Nutzungsbedingungen 4.3:
+> we may, to a minimal extent, use Inputs and Outputs to provide, maintain, operate, develop or improve the Services or the underlying technologies supporting the Services.
+> If you refuse to allow us to process the data in the manner described above, you can opt out by turning off "Improve the model for everyone".
+
+7. Zusammenfassung der Trainingsdaten V4.1 Flash, Abschnitt 2.4:
+> Was data from user interactions with the AI model (e.g. user input and prompts) used to train the model? ☒Yes
+> If user input is used to construct training data, we apply secure encryption, strict de-identification, and anonymization to make it cannot be linked to any specific individual.
+> Users are also given the right to opt out.
+
+B. Zusatz: Bedingung „de-identification“ nur in den Nutzungsbedingungen
+8. Datenschutzerklärung, Zweck (ohne die Bedingung aus 4.3):
+> To improve and develop the Services and to train and improve our technology, such as our machine learning models and algorithms.
+
+C. Nicht gefunden
+Die Open-Platform-Bedingungen sagen nichts zum Training und nennen keinen Widerspruchsweg (Wörter „opt out“, „opt-out“ und „Improve the model for everyone“ kommen im Abruf vom 24.10. nicht vor). Damit gilt 4.3 der Nutzungsbedingungen auch für die API, weil kein Widerspruch zu den Sonderbedingungen besteht (unsere Lesart). Ob es den Schalter „Improve the model for everyone“ für API-Konten gibt, ist ungeklärt (Plattform nur nach Anmeldung, API-Doku und Hilfe-Center nennen ihn nicht). Einen Auftragsverarbeitungsvertrag veröffentlicht DeepSeek nicht; der Rahmenvertrag liegt hinter der Anmeldung, nicht eingesehen.

@@ -1,0 +1,107 @@
+Quelle: https://regolo.ai/faq/
+Abruf: 2026-10-23 (curl, HTTP 200), Textauszug aus HTML (ganze Seite, Skripte entfernt), belegbar.eu
+
+Frequently Asked Questions - regolo.ai
+Skip to content
+Pricing
+Models
+Docs
+Labs
+Tutorial & How‑to
+Events & Workshops
+Benchmarks & Optimization
+Compliance and Privacy
+Product & Release Notes
+Self‑Hosting & DevOps
+Sustainable Computing
+Customers
+About
+Zero Data Retention
+Sustainable AI
+Our Team and Infrastructure
+Discord
+Sign In
+Home
+Models
+Pricing
+Labs
+Docs
+European data privacy
+Sustainable AI
+GPU Cloud Infrastructure
+Discord
+Sign In
+Frequently Asked Questions
+Pricing & Usage
+Are there any hidden costs beyond token pricing?
+No. With Regolo, what you see is what you pay (Pay-As-You-Go plan) and Subscription plan. Our pricing is based con real consumption or fixed with no additional charges for storage, networking, data egress, or idle time. There are no setup fees, no minimum commitments, and no surprise line items on your invoice.
+How can I monitor my spending in real time to avoid bill surprises?
+Regolo displays the exact cost of every single API request, down to the micro-cent, directly in your dashboard. You always have full visibility into your usage and spend — no more waiting until the end of the month to discover unexpected charges. You can set usage alerts and review consumption patterns at any time.
+Is there a spending cap or budget limit I can set?
+Yes. You can configure daily token limits for your account and individual API keys. The subscription plans includes a 20-million-token daily cap by default (up to 50M on Boost, up to 100M on Pro, up to 200M on Scale), giving you a built-in safety net against runaway costs. Enterprise customers can set custom thresholds tailored to their workloads.
+How does token-based pricing work? Am I charged for both input and output tokens?
+Yes, like all LLM APIs, you're charged for both input (prompt) and output (completion) tokens. However, each model has its own transparent per-token rate, clearly listed in our Models Library table. This lets you estimate costs precisely before running any workload — and choose the most cost-efficient model for each task.
+How does the free trial work?
+You get 30 days of full, unrestricted access to all Regolo core models — no credit card required. Simply sign up, grab your API key, and start building. If you love it (and we think you will), transition seamlessly to Pay-as-you-Go or Subscription plans when your trial ends.
+What happens when my free trial expires?
+Your account stays active. You'll simply transition to the Pay-as-you-Go plan, where you only pay for the tokens you consume. There's no automatic charge, no hidden conversion fee, and no interruption to your API keys or projects.
+Which plan is right for me?
+Pay-as-you-Go: Ideal if you're prototyping, running variable workloads, or want maximum flexibility with no commitment. You pay only for what you use.
+Scale (up to 500 M tokens/day) is ideal for enterprises that need guaranteed, high‑throughput inference 24/7 and teams running real‑time, high‑volume workloads.
+Pro (up to 200 M tokens/day) is best for rapidly scaling product teams with consistent, high‑volume demand also in multiple environments (dev, staging, prod).
+Boost (up to 50 M tokens/day) supports mid‑size R&D groups or teams that run periodic batch jobs, PoC experiments, or limited‑scale APIs.
+Core (up to 20 M tokens/day) is best for startups, researchers, PoC projects and is available with 70% discount for the first 3 months.
+Enterprise: Designed for organizations needing high-volume API access, custom SLAs, volume discounts, and dedicated support. Talk to our team for a tailored quote.
+Can I set spending limits to my api key?
+You can set spending limits directly within your key's settings. Once the key is created, simply click the "Edit" button on the right. This allows you to set a maximum budget and choose the reset frequency monthly, weekly, or daily, whichever you prefer.
+Compliance & Portability
+What does "Zero Data Retention" mean exactly?
+Zero Data Retention means Regolo does not store, log, or retain any of the data you send through our APIs — including prompts, completions, and any attached files. Once your request is processed and the response delivered, your data is gone. It is never used for model training, analytics, or any other purpose. Your data stays yours.
+Is Regolo compliant with GDPR and the EU AI Act?
+Yes. Regolo is fully GDPR-compliant by design: EU-based infrastructure, zero data retention, and no cross-border data transfers. As the EU AI Act's full high-risk compliance requirements take effect in August 2026, Regolo's architecture — with transparency, data governance, and European sovereignty built in — positions your applications for seamless compliance.
+Can I use Regolo for sensitive or regulated workloads (healthcare, finance, legal)?
+Absolutely. Our Zero Data Retention policy and EU-only infrastructure make Regolo particularly suited for regulated industries. Enterprise customers can additionally benefit from custom SLAs that include specific compliance guarantees. Contact our team to discuss your requirements.
+Am I locked into a long-term contract?
+No. Regolo's Pay-as-you-Go and Subscription plans has zero commitments — no annual contracts, no reserved capacity requirements, no lock-in of any kind. You can scale up, scale down, or stop at any time. Even our Boost plan operates on a simple monthly subscription with no long-term obligations.
+Can I switch models or providers easily?
+Yes. Regolo offers an OpenAI-compatible API, so integrating — or switching — requires minimal code changes. We support a wide library of open models (LLMs, embedding, STT, image generation, OCR, reranking), giving you the freedom to choose the best model for each task without being tied to a single vendor's ecosystem.
+Are there data egress fees if I move my data or switch provider?
+No. Regolo does not charge data egress fees. We believe in open, fair pricing — not in building financial walls around your data.
+Can I receive a signed Data Processing Agreement (DPA) to certify our data usage?
+Yes. Simply send an email to privacy@regolo.ai specifying your name and the purpose for which you require the signed DPA. Please allow a few days for processing, and you will receive the signed document from our team. For further details, please visit https://regolo.ai/privacy-policy.
+Performance & SLA
+What latency can I expect from Regolo's API?
+Regolo is optimized for low latency with blazing-fast cold starts and autoscaling GPU infrastructure. For example, our Qwen3-Coder-Next model delivers an average latency of just 246ms on average. Actual latency varies by model and request complexity, but our infrastructure is designed to minimize time-to-first-token across all workloads.
+Does Regolo offer uptime SLAs?
+Enterprise customers receive custom SLAs tailored to their reliability and performance requirements. Our Pay-as-you-Go and Subscription plans benefit from the same production-grade infrastructure with high availability, though without contractual SLA guarantees. Contact sales for details on Enterprise SLAs.
+How does autoscaling work?
+Regolo's serverless GPU infrastructure automatically scales to meet your demand — from zero to peak traffic — with no manual intervention. You don't pay for idle GPUs, and you never need to worry about provisioning capacity in advance. Scaling happens transparently so your applications stay fast under any workload.
+Sustainability
+What does 100% Green Energy mean?
+Regolo runs entirely on green energy-powered data centers with sustainable operational processes. We actively monitor our token-per-watt ratio to minimize carbon emissions. Choosing Regolo means your AI workloads contribute to a lower carbon footprint — without compromising on performance.
+Resources
+Contacts
+Models Library
+Builder Program
+Models Status
+Integrations
+FAQ
+Legal
+Terms & Conditions
+Privacy Policy
+Cookie Policy
+Cookie Preferences
+DPA
+Top Models
+GLM 5.2
+Qwen 3.5 - 122b
+Faster Whisper Large v3
+Gemma 4 - 31b
+GPT OSS - 120b
+Latest Posts
+Getting started with context-mode and headroom: understand large codebases at 92% lower token cost
+AI review responses with guardrails: Clef-Flash decides, an LLM writes, a person approves
+EmbeddingGemma 2 vs Qwen3-Embedding (0.6B & 8B): Code Retrieval, Matryoshka Compression, and Reranking Benchmarks
+Developed in EU with love, compliance, and green spirit by DHH.
+© Seeweb S.r.l. – c.s. 103.000 EURO - CCIAA 17793/98 - VAT IT02043220603
+Datacenter Certifications

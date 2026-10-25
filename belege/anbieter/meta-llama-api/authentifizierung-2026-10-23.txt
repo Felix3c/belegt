@@ -1,0 +1,357 @@
+Quelle: https://dev.meta.ai/docs/authentication
+Abruf: 2026-10-23 01:21:04 +0200
+
+Authentication - Meta Model API
+
+Skip to content
+
+Meta Model API
+Search
+
+Product
+
+Dashboard
+
+Start here
+
+Overview
+
+Quickstart
+
+Authentication
+
+Models
+
+Pricing and rate limits
+
+SDKs and libraries
+
+Capabilities
+
+Tool calling
+
+Tool search
+
+Search grounding
+
+Image understanding
+
+Image generation
+
+Speech to text
+
+Video understanding
+
+Media segmentation
+
+File handling
+
+Reasoning
+
+Structured output
+
+Prompt caching
+
+Token counting
+
+Protocols
+
+Choosing an API
+
+Responses API
+
+Chat Completions API
+
+Messages API
+
+Cookbook
+
+All recipes
+
+Meta Model API
+
+Meta Model API
+API fundamentals
+
+Agent patterns
+
+Use cases
+
+Building with Muse Code
+
+Muse Image
+
+Muse Voice Transcribe
+
+Segment Anything Model
+
+Open-weight models
+
+Open-weight models
+Run locally
+
+Post-training
+
+Muse Code
+
+Overview
+
+Authentication and billing
+
+Subscriptions
+
+Permissions and safety
+
+Working with the agent
+
+Workflows
+
+Session messaging
+
+Rewind a conversation
+
+Configuration and context
+
+Extending and automating
+
+Changelog
+
+Open-weight models
+
+Overview
+
+Muse Spark Open
+
+Muse Spark Open
+Overview
+
+Get the model
+
+Prompting guide
+
+Recommended settings
+
+Run inference
+
+Hardware platforms
+
+Post-training
+
+Muse Glimmer
+
+Muse Glimmer
+Overview
+
+Get the model
+
+Prompting guide
+
+Quantization
+
+Speculative decoding
+
+Run inference
+
+Hardware platforms
+
+Post-training
+
+Agent guides
+
+Coding agents
+
+Agent frameworks
+
+Computer use
+
+SAM
+
+Overview
+
+Segmenting with prompts
+
+Reading segmentation output
+
+Client libraries
+
+API reference
+
+Introduction
+
+Error handling
+
+Responses
+
+Responses
+Overview
+
+Create a response
+
+Retrieve a response
+
+Delete a response
+
+Cancel a response
+
+Count input tokens
+
+Schemas
+
+Chat completions
+
+Chat completions
+Overview
+
+Create a chat completion
+
+Schemas
+
+Messages
+
+Messages
+Overview
+
+Create a message
+
+Count tokens
+
+Schemas
+
+Files
+
+Files
+Overview
+
+Upload a file
+
+List files
+
+Retrieve a file
+
+Retrieve file content
+
+Delete a file
+
+Schemas
+
+Images
+
+Images
+Overview
+
+Generate an image
+
+Edit an image
+
+Schemas
+
+Voice
+
+Voice
+Overview
+
+Transcribe a recording
+
+Transcribe in realtime
+
+Schemas
+
+Models
+
+Models
+Overview
+
+List models
+
+Retrieve a model
+
+Schemas
+
+Status
+
+Help
+
+Help Center
+
+Authentication
+
+Table of contents
+
+Every request to Meta Model API needs an API key. Add your key and start building.
+
+Get an API key
+
+Create and manage keys in the Model API dashboard:
+
+Log in and open the API keys tab.
+
+Click Create API key, give it a descriptive name, and click Create.
+
+Copy the key right away. You only see it once.
+
+API keys start with LLM_, followed by a numeric ID and the secret, separated by underscores:
+
+LLM_1607358788850350_nx9.....LJY
+
+Use an API key
+
+Pass the key as a Bearer token in the Authorization header:
+
+curl
+
+curl https://api.meta.ai/v1/chat/completions \
+
+-H "Authorization: Bearer $MODEL_API_KEY" \
+
+-H "Content-Type: application/json" \
+
+-d '{
+
+"model": "muse-spark-1.3",
+
+"messages": [{"role": "user", "content": "Hello"}]
+
+}'
+
+Keep the key out of your code. Store it in an environment variable:
+
+shell
+
+export MODEL_API_KEY="LLM_1607358788850350_nx9.....LJY"
+
+See Get started for a full walkthrough.
+
+API keys and SDKs
+
+Model API works with the OpenAI SDK, the Anthropic SDK, and OpenAI-compatible clients such as LangChain and LiteLLM. None of them reads MODEL_API_KEY on its own, so pass the key explicitly when you create the client. See SDKs and libraries for examples.
+
+Revoke an API key
+
+Remove access in the Model API dashboard: click Delete next to the key you want to revoke. Deleting one key leaves other team keys untouched.
+
+To rotate a key, create a new one, move your applications to it, and then delete the old key.
+
+API key safety
+
+A leaked key can use up your team's rate limits, access uploaded files, and send requests on your behalf. Protect your keys with these practices:
+
+Use unique keys per application: create a separate key for each app or developer so you can revoke one without breaking the rest.
+
+Keep keys out of client code: mobile and browser code is visible to users. Proxy requests through a server you control.
+
+Never commit keys to version control: load them from environment variables or a secrets manager, and add credential files to .gitignore.
+
+Use environment variables or a key manager: centralize secrets so rotation stays simple and keys stay out of source files.
+
+Monitor for anomalies: watch usage for unexpected spikes that suggest a leak, then revoke and rotate immediately.
+
+Shared team rate limits
+
+Keys on the same team share rate limits. See Pricing and rate limits for details.
+
+On this page
+
+Please confirm your identity
+For added security, you need to confirm your identity. You will be taken to your single sign-on provider, where you can enter your password.
+
+CancelContinue

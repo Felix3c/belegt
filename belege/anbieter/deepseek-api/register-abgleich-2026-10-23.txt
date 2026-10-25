@@ -1,0 +1,8 @@
+Quelle: https://eucoc.cloud/en/public-register/list-of-adherent-services ; https://www.codeofconduct.cloud/public-register/ ; https://www.verhaltensregel.eu/verpflichtete-unternehmen/ ; https://repository.europrivacy.org/ (alle direkt per curl, robots.txt erlaubt den Abruf)
+Abruf: 2026-10-23 01:41 +0200 (ca., alle vier innerhalb einer Minute)
+
+Suche im HTML (ohne Groß-/Kleinschreibung) nach "DeepSeek" und "Hangzhou":
+- EU Cloud Code of Conduct: 0 Treffer. Gegenprobe: Microsoft/Google kommen 28-mal vor, die Liste steht im HTML. Rohkopie: register-eucoc-roh-2026-10-23.html
+- CISPE Data Protection Code of Conduct: 0 Treffer. Gegenprobe: Einträge wie "vmware-on-aruba-cloud" stehen im HTML. Rohkopie: register-cispe-roh-2026-10-23.html
+- Trusted Data Processor: 0 Treffer. Gegenprobe: Eintrag "ECON Application GmbH" steht im HTML. Rohkopie: register-trusted-data-processor-roh-2026-10-23.html
+- Europrivacy: 0 Treffer, aber auch keine Gegenprobe möglich (die Seite lädt das Verzeichnis offenbar per Skript). Nicht ausgewertet.

@@ -1,0 +1,11 @@
+Abruf 23.10.2026 ~01:33 MESZ, Schnittstelle der amtlichen DPF-Liste (dieselbe, die www.dataprivacyframework.gov/list im Browser aufruft; Anfrageformat wie in belege/rechtsraum/dpf-amazon-2026-10-23/):
+- POST https://dpfapi.azurewebsites.net/api/participants  Body {"DataCovered":[],"Frameworks":[],"Industries":[],"PageNumber":0,"RecourseMechanisms":[],"StatutoryBody":[],"RowsPerPage":50,"Search":"<Name>","StartLetter":"","Status":"Active"|"","States":[],"VerificationMethod":""}
+- GET  https://dpfapi.azurewebsites.net/api/participants/4452
+Liste zuletzt geändert laut /api/participants/filemodified: "Thursday, October 22, 2026 6:00 AM EST".
+Ergebnis: Suche "Meta Platforms" (aktiv und alle Status): jeweils 1 Treffer, Meta Platforms, Inc. (Id 4452), Menlo Park, CA. Suche "Facebook" (aktiv und alle Status): 0 Treffer.
+Eintrag 4452: EU-US Certification "Active - Re-certification under Review", nur Nicht-HR-Daten (HRData false, NonHRData true), seit 30.09.2016, UsageEndDate 23.07.2027; Swiss-US ebenfalls "Active - Re-certification under Review"; UK Extension: keine (UKCert null). Kurze Lücken ("Lapse") am 30.10.2017 und 02.-03.12.2018.
+Erfasste Gesellschaften (CoveredEntities): leer. Prüfverfahren: "Self-Assessment". Streitbeilegung: TRUSTe Dispute Resolution.
+Zweck laut Eintrag: "Meta processes personal information received from the European Economic Area or Switzerland under the DPF in relation to the Certified Data Categories."
+Datenschutzerklärung im Eintrag: "EU-U.S. & Swiss-U.S. Data Privacy Frameworks Disclosure for Meta Platforms, Inc." (https://www.facebook.com/privacy/policies/data_privacy_framework, Stand 30.07.2024). Wayback-Kopie in belege/anbieter/meta-llama-api/wayback-dpf-disclosure-2026-10-23.txt. Welche Dienste zu den "Certified Data Categories" gehören, steht dort nur hinter einem nachgeladenen Hinweisfeld, das nicht archiviert ist. Ob die Meta Model API (früher Llama API) erfasst ist: ungeklärt.
+Gegenprobe mit derselben Anfrage, Suche "Microsoft", Status Active: 1 Treffer (Microsoft Corporation, Id 6474), die Abfrage funktioniert.
+robots.txt der Seite: Disallow leer (Prüfung 23.10.2026).

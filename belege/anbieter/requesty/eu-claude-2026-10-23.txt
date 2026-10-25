@@ -1,0 +1,311 @@
+Quelle: https://www.requesty.ai/eu/claude
+Abruf: 2026-10-23 ~00:30 UTC (curl, HTTP 200), Textauszug aus HTML (ganze Seite, Skripte entfernt), belegbar.eu
+
+Claude with EU Data Residency: Anthropic Models on EU Servers | Requesty
+Product
+Solutions
+Models
+Rankings
+Customers
+Pricing
+Resources
+Docs
+Sign in
+Get started free
+EU Data Residency
+Claude with EU data residency
+Route Claude Opus, Sonnet and Haiku through EU-region deployments on AWS Bedrock and Google Vertex AI. The full request path stays in Europe.
+Get started
+Speak to founders
+https://router.eu.requesty.ai/v1
+Anthropic's first-party API does not offer a guaranteed EU-only processing region. For European teams with data-residency requirements, the way to run Claude inside the EU today is through cloud deployments: AWS Bedrock in eu-central-1 (Frankfurt), eu-west-1 (Ireland), eu-west-3 (Paris) and eu-north-1 (Stockholm), and Google Vertex AI in EU regions.
+Requesty exposes every one of those EU-region Claude deployments behind one OpenAI-compatible endpoint, routed through our Frankfurt gateway with zero data retention. Prompts and completions are processed under EU jurisdiction end to end, gateway and model.
+Claude models available in EU regions
+Live from the Requesty model catalog. Prices per 1M tokens. Regions are merged per model and platform.
+Model
+Platform
+EU regions
+Input /1M
+Output /1M
+Context
+Claude Fable 5
+Google Vertex AI
+EU multi-region
+$11.00
+$55.00
+1M
+Claude Fable 5.1
+Google Vertex AI
+EU multi-region
+$11.00
+$55.00
+1M
+Claude Opus 4.5
+AWS Bedrock
+Frankfurt, Ireland, Paris, Stockholm
+$5.50
+$27.50
+200K
+Claude Opus 4.5
+Google Vertex AI
+Belgium
+$5.50
+$27.50
+200K
+Claude Opus 4.6
+Google Vertex AI
+Belgium
+$5.50
+$27.50
+1M
+Claude Opus 4.7
+AWS Bedrock
+Frankfurt, Ireland, Paris, Stockholm
+$5.50
+$27.50
+1M
+Claude Opus 4.7
+Google Vertex AI
+EU multi-region
+$5.50
+$27.50
+1M
+Claude Opus 4.8
+AWS Bedrock
+Frankfurt, Ireland, Paris, Stockholm
+$5.50
+$27.50
+1M
+Claude Opus 4.8
+Google Vertex AI
+EU multi-region
+$5.50
+$27.50
+1M
+Claude Opus 5
+Google Vertex AI
+EU multi-region
+$5.50
+$27.50
+1M
+Claude Opus 5
+AWS Bedrock
+Frankfurt, Ireland, Paris, Stockholm
+$5.50
+$27.50
+1M
+Claude Opus 5.5
+Google Vertex AI
+EU multi-region
+$4.40
+$22.00
+1M
+Claude Opus 5.5
+AWS Bedrock
+Frankfurt, Ireland, Paris, Stockholm
+$4.40
+$22.00
+1M
+Claude Sonnet 4.5
+AWS Bedrock
+Frankfurt, Ireland, Paris, Stockholm
+$3.30
+$16.50
+1M
+Claude Sonnet 4.5
+Google Vertex AI
+Belgium
+$3.30
+$16.50
+1M
+Claude Sonnet 4.6
+AWS Bedrock
+Frankfurt, Ireland, Paris, Stockholm
+$3.30
+$16.50
+1M
+Claude Sonnet 4.6
+Google Vertex AI
+Belgium
+$3.30
+$16.50
+1M
+Claude Sonnet 4
+AWS Bedrock
+Frankfurt, Ireland, Paris, Stockholm
+$3.00
+$15.00
+1M
+Claude Sonnet 4
+Google Vertex AI
+Belgium
+$3.00
+$15.00
+1M
+Claude Sonnet 5
+AWS Bedrock
+Frankfurt, Ireland, Stockholm
+$2.20
+$11.00
+1M
+Claude Sonnet 5
+Google Vertex AI
+EU multi-region
+$2.20
+$11.00
+1M
+Claude Sonnet 5.5
+AWS Bedrock
+Frankfurt, Ireland, Paris, Stockholm
+$2.20
+$11.00
+1M
+Claude Sonnet 5.5
+Google Vertex AI
+EU multi-region
+$2.20
+$11.00
+1M
+Claude Haiku 4.5
+AWS Bedrock
+Frankfurt, Ireland, Paris, Stockholm
+$1.10
+$5.50
+200K
+Claude Haiku 4.5
+Google Vertex AI
+Belgium
+$1.10
+$5.50
+200K
+Claude Haiku 5.5
+AWS Bedrock
+Frankfurt, Ireland, Paris, Stockholm
+$0.11
+$0.55
+1M
+Claude Haiku 5.5
+Google Vertex AI
+EU multi-region
+$0.11
+$0.55
+1M
+Pricing matches provider list prices.
+Full catalog on the
+models page
+.
+One base URL. Full EU residency.
+OpenAI SDK compatible: point it at the EU gateway and pick an EU-region model.
+main.py
+from
+openai
+import
+OpenAI
+client
+=
+OpenAI
+(
+base_url
+=
+"
+https://router.eu.requesty.ai/v1
+"
+,
+api_key
+=
+"your-requesty-key"
+)
+response
+=
+client.chat.completions
+.
+create
+(
+model
+=
+"
+bedrock/claude-sonnet-5@eu-central-1
+"
+,
+messages
+=
+[
+{
+"role"
+:
+"user"
+,
+"content"
+:
+"Hello!"
+}
+]
+)
+Frequently asked questions
+Does Anthropic offer EU data residency?
+Not through its first-party API: Anthropic does not currently offer a guaranteed EU-only processing region there. EU data residency for Claude is available through cloud deployments: AWS Bedrock EU regions (Frankfurt, Ireland, Paris, Stockholm) and Google Vertex AI EU regions. Requesty routes to all of them through one API.
+How do I use the Claude API with EU data residency?
+Route through an EU-region cloud deployment instead of the api.anthropic.com endpoint. With Requesty, set the base URL to the EU gateway and request a model such as bedrock/claude-sonnet-5@eu-central-1. The request is processed in Frankfurt and the model runs in an EU region, so the full path stays in Europe.
+Is there an Anthropic EU endpoint?
+There is no official EU-only endpoint on the first-party Anthropic API. The EU endpoints that exist are the cloud-platform ones: Bedrock EU regions and Vertex AI EU regions. Requesty wraps these behind https://router.eu.requesty.ai/v1, one OpenAI-compatible endpoint hosted in Frankfurt.
+Which Claude models run on EU servers?
+Claude Opus, Claude Sonnet and Claude Haiku all have EU-region deployments on AWS Bedrock (eu-central-1, eu-west-1, eu-west-3, eu-north-1) and Google Vertex AI EU regions, at the same per-token prices as the corresponding US deployments on those platforms.
+Is running Claude through an EU gateway GDPR compliant?
+Yes. Requesty processes requests in Frankfurt with zero data retention, so request and response bodies are never stored, and offers a Data Processing Agreement. Combined with an EU-region model deployment, prompts are processed under EU jurisdiction for the entire request path.
+EU data residency for other model families:
+OpenAI GPT
+·
+Gemini
+·
+Mistral
+, or see the full
+EU AI Gateway
+and our
+Data Processing Agreement
+.
+Run Claude in the EU today
+One base-URL change. Free to get started, no credit card required.
+Get started free
+Speak to founders
+The AI gateway for production. 600+ models behind one OpenAI-compatible endpoint, with routing, caching and governance included.
+All systems operational
+Product
+Routing & failover
+Observability
+Spend management
+Integrations
+Governance
+Prompt library
+Pricing
+Free models
+Docs
+Solutions
+AI gateway
+Enterprise
+EU AI Gateway
+AI coding agents
+Startups
+Security
+Compare
+vs OpenRouter
+vs LiteLLM
+vs Portkey
+vs Helicone
+Company
+Guides
+Blog
+Rankings
+Careers
+Support
+Contact
+Community
+Discord
+Twitter / X
+LinkedIn
+YouTube
+©
+2026
+Requesty Ltd. All rights reserved.
+Privacy
+Terms
+DPA

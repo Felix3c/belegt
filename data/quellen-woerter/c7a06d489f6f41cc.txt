@@ -27,6 +27,7 @@
 &amp;
 &amp;
 &amp;
+&amp;
 &quot;Always-on&quot;
 (CDN)
 (CI/CD)
@@ -286,6 +287,7 @@ Blick
 Block
 Blog
 Branchenlösungen
+Branchenlösungen
 Builder
 Builder
 Business
@@ -342,6 +344,7 @@ Channel-Partnerprogramm
 Chat
 Chat
 Chat-Assistent
+ChatGPT
 ChatGPT
 Chatbots
 Check
@@ -426,6 +429,7 @@ Cloud:
 Cloud:
 Cloud?
 Clustering.
+Co.
 Co.
 Code
 Compliance-konform
@@ -585,6 +589,7 @@ E-Mails
 Echtheit
 Echtzeit-Analysen
 Echtzeit-Antworten
+Echtzeit-Antworten
 Einbinden
 Eine
 Einführung
@@ -621,6 +626,7 @@ Erstellung
 Erweitern
 Erweiterungen
 Erzeugen
+Erzielen
 Erzielen
 Euro-Office
 Europa
@@ -677,6 +683,7 @@ GmbH
 GmbH
 Google
 Google
+Google,
 Google,
 Google-Anzeigen
 Group
@@ -847,6 +854,7 @@ Ihre
 Ihre
 Ihre
 Ihre
+Ihre
 Ihrem
 Ihrem
 Ihren
@@ -956,6 +964,9 @@ KI
 KI
 KI
 KI
+KI
+KI
+KI
 KI,
 KI,
 KI,
@@ -997,10 +1008,12 @@ Kompromisse
 Kontakt
 Kontrolle
 Kreieren
+Kreieren
 Kubernetes
 Kubernetes
 Kunden
 Kunden
+Kunden-Feedbacks
 Kunden-Feedbacks
 Kunden.
 Kunden.
@@ -1014,6 +1027,7 @@ Kundenanfrage
 Kundenanfragen.
 Kundenbetreuer
 Kundenzufriedenheit
+Kundenzufriedenheit
 LLM
 LLM
 LLMs
@@ -1026,6 +1040,7 @@ Laptops
 Laptops,
 Large
 Large
+Lassen
 Lassen
 Lassen
 Lassen
@@ -1063,7 +1078,6 @@ Logo-Generator
 Logs
 Lösung
 Lösungen
-Lösungen
 MCP
 Machine
 Managed
@@ -1076,6 +1090,8 @@ Management
 Management
 MariaDB
 Marketing-Manager
+Marketing-Manager
+Marketing-Tools
 Marketing-Tools
 Marketingtools
 Marktführer
@@ -1109,6 +1125,7 @@ Million
 Million
 Million
 Millionen
+Minuten
 Minuten
 Mistral
 Mistral
@@ -1177,6 +1194,9 @@ Network
 Network
 Netzwerk
 Netzwerkvirtualisierung
+Neu
+Neu
+Neu
 Neu
 Neu
 Neu
@@ -1367,6 +1387,7 @@ Produkt
 Produkt
 Produkt)
 Produktberatung
+Produktlösungen
 Professionelle
 Programm
 Programmiersprachen.
@@ -1403,6 +1424,7 @@ Registrieren
 Registry
 Reports
 Reputationsmanager
+Reputationsmanager
 Request-Routing
 Reseller
 Richten
@@ -1413,6 +1435,7 @@ Root-Zugriff,
 Routine-Mails
 S26
 S26
+SEA-Anzeigen
 SEA-Anzeigen
 SECA
 SEO-Check
@@ -1438,6 +1461,7 @@ Schutz
 Schutz
 Schwesterunternehmen
 Schützen
+Search-Manager
 Search-Manager
 Security
 Sektor
@@ -1557,6 +1581,9 @@ Sie
 Sie
 Sie
 Sie
+Sie
+Sie
+Sie
 Site
 Site
 Skalierbare
@@ -1575,6 +1602,7 @@ Smartphones
 So
 So
 Social
+Social-Media-Kampagnen
 Social-Media-Kampagnen
 Softwareunternehmen
 Source
@@ -1884,6 +1912,7 @@ auf
 auf
 auf
 auf
+auf
 aufbauen
 aufwendige
 aus
@@ -1901,10 +1930,12 @@ beantwortet
 bedarfsgerecht
 bedarfsgerecht.
 bei
+bei
 beim
 bereit
 bereitstellen
 bereitstellt.
+besser
 besser
 bessere
 beste
@@ -1978,6 +2009,7 @@ direkt
 durch
 durch
 durch
+durch
 effizient
 eigenen
 eigener
@@ -2027,6 +2059,7 @@ europäischen
 europäischen
 europäischen
 externer
+finden
 finden
 finden
 flexibel
@@ -2164,6 +2197,7 @@ in
 in
 in
 in
+in
 inkl.
 inkl.
 innerhalb
@@ -2205,9 +2239,11 @@ leistungsstarken
 leistungsstärksten
 managen
 managen
+managen
 maximal
 maximal
 maximale
+mehr
 mehr
 mehr
 mehr
@@ -2320,6 +2356,7 @@ professionelle
 professionelle
 professionelle
 professionelle
+professionelle
 professionellen
 professionelles
 präzise
@@ -2334,6 +2371,7 @@ schneller
 schreiben
 schreibgeschützt
 sensibler
+sich
 sich
 sich
 sich
@@ -2389,6 +2427,8 @@ um
 umfassenden
 umweltschonenden
 umziehen
+und
+und
 und
 und
 und

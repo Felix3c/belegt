@@ -1,0 +1,170 @@
+{
+  "id": "deepseek-api",
+  "name": "DeepSeek API (DeepSeek Open Platform)",
+  "kategorie": "modell-anbieter",
+  "kurzbeschreibung": "Entwickler-Schnittstelle von DeepSeek (Hangzhou, VR China) für die eigenen Modelle DeepSeek-V4.1-Flash und DeepSeek-V4-Pro; Speicherung und Verarbeitung laut Datenschutzerklärung in der VR China, keine Region wählbar; DeepSeek darf Ein- und Ausgaben anonymisiert zur Verbesserung nutzen, bis man widerspricht; kein Auftragsverarbeitungsvertrag veröffentlicht, keine Null-Speicherung.",
+  "stammdaten": {
+    "sitz": "Hangzhou, VR China (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.); Vertreter in der EU laut Datenschutzerklärung: Prighter Group",
+    "land": "CN",
+    "mutterkonzern": null,
+    "us_eigner": false,
+    "gegruendet": null,
+    "website": "https://platform.deepseek.com"
+  },
+  "modelle": [
+    {
+      "name": "DeepSeek-V4.1-Flash-1017 (Modellname deepseek-flash)",
+      "standort": "Speicherung und Verarbeitung in der VR China laut Datenschutzerklärung; die API-Doku nennt nur eine Adresse (api.deepseek.com) und keine Region; kein Standort in der EU",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://api-docs.deepseek.com/quick_start/pricing",
+      "geprueft": "2026-10-25",
+      "status": "belegt",
+      "anmerkung": "Preisseite (mit Chrome gerendert, 23.10.2026), Spalten deepseek-flash | deepseek-v4-pro: „| MODEL VERSION | DeepSeek-V4.1-Flash-1017 | DeepSeek-V4-Pro-0813 |“. Eingabe ohne Cache-Treffer: „| 1M INPUT TOKENS (CACHE MISS) | OFF-PEAK | $0.15 | $0.66 |“ und „| PEAK | $0.3 | $1.32 |“; Ausgabe: „| 1M OUTPUT TOKENS | OFF-PEAK | $0.6 | $1.98 |“ und „| PEAK | $1.2 | $3.96 |“; Cache-Treffer: „| PRICING (2) | 1M INPUT TOKENS (CACHE HIT) | OFF-PEAK | $0.003 | $0.022 |“ und „| PEAK | $0.006 | $0.044 |“. Für Flash also 0,30 $ Eingabe und 1,20 $ Ausgabe je 1 Mio. Token zur Spitzenzeit, die Hälfte außerhalb: „Off-peak rates are half of the peak rates. Peak hours are 01:00 - 04:00 and 06:00 - 10:00 UTC, Monday through Friday, excluding Chinese public holidays.“ Preise in USD („Model prices are listed in units of per 1M tokens.“), die chinesische Fassung nennt Yuan; deshalb EUR-Felder null (keine Umrechnung). Speicherort laut Datenschutzerklärung (Stand „Feb 10, 2026“): „The Personal Data we collect from you may be stored on a server located outside of the country where you live.“ und „To provide you with our services, we directly collect, process and store your Personal Data in People's Republic of China.“ Für Daten der Endnutzer, die ein Entwickler über die API schickt, nennt DeepSeek keinen eigenen Ort (ungeklärt). Offene Gewichte: Das Modell steht laut Mitteilung vom 17.10.2026 auch frei zum Herunterladen bereit („🤗 Hugging Face: https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017“).",
+      "backup_standort": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "DeepSeek nennt keinen eigenen Ort für Sicherungen. Gesagt wird nur allgemein: „To provide you with our services, we directly collect, process and store your Personal Data in People's Republic of China.“ Konzerngesellschaften übernehmen laut Datenschutzerklärung Aufgaben „such as storage, content delivery, security, research and development, foundation model training and optimization, analytics, customer and technical support.“ (ohne Namen und Orte)."
+      },
+      "vorgeschaltete_filter": {
+        "wert": true,
+        "status": "beansprucht",
+        "quelle": "https://api-docs.deepseek.com/quick_start/rate_limit",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Doku „Rate Limit & Isolation“ (gerendert 23.10.2026): „Content Safety Isolation: user_id is used to distinguish user identities on your business side for content safety handling“. Eine Inhaltsprüfung gibt es also; wie sie arbeitet und ob sie vor oder nach dem Modell läuft, legt DeepSeek nicht offen. Open-Platform-Bedingungen 7.2: DeepSeek darf ohne Vorankündigung u. a. „deleting relevant content“."
+      }
+    },
+    {
+      "name": "DeepSeek-V4-Pro-0813 (Modellname deepseek-v4-pro)",
+      "standort": "Speicherung und Verarbeitung in der VR China laut Datenschutzerklärung; die API-Doku nennt nur eine Adresse (api.deepseek.com) und keine Region; kein Standort in der EU",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://api-docs.deepseek.com/quick_start/pricing",
+      "geprueft": "2026-10-25",
+      "status": "belegt",
+      "anmerkung": "Preisseite (mit Chrome gerendert, 23.10.2026), Spalten deepseek-flash | deepseek-v4-pro: „| MODEL VERSION | DeepSeek-V4.1-Flash-1017 | DeepSeek-V4-Pro-0813 |“. Eingabe ohne Cache-Treffer: „| 1M INPUT TOKENS (CACHE MISS) | OFF-PEAK | $0.15 | $0.66 |“ und „| PEAK | $0.3 | $1.32 |“; Ausgabe: „| 1M OUTPUT TOKENS | OFF-PEAK | $0.6 | $1.98 |“ und „| PEAK | $1.2 | $3.96 |“; Cache-Treffer: „| PRICING (2) | 1M INPUT TOKENS (CACHE HIT) | OFF-PEAK | $0.003 | $0.022 |“ und „| PEAK | $0.006 | $0.044 |“. Für Pro also 1,32 $ Eingabe und 3,96 $ Ausgabe je 1 Mio. Token zur Spitzenzeit, die Hälfte außerhalb: „Off-peak rates are half of the peak rates. Peak hours are 01:00 - 04:00 and 06:00 - 10:00 UTC, Monday through Friday, excluding Chinese public holidays.“ Preise in USD („Model prices are listed in units of per 1M tokens.“), die chinesische Fassung nennt Yuan; deshalb EUR-Felder null (keine Umrechnung). Bilder verarbeitet nur Flash: „| Vision | ✓ | Not supported |“. Speicherort laut Datenschutzerklärung (Stand „Feb 10, 2026“): „The Personal Data we collect from you may be stored on a server located outside of the country where you live.“ und „To provide you with our services, we directly collect, process and store your Personal Data in People's Republic of China.“ Für Daten der Endnutzer, die ein Entwickler über die API schickt, nennt DeepSeek keinen eigenen Ort (ungeklärt).",
+      "backup_standort": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-25",
+        "anmerkung": "DeepSeek nennt keinen eigenen Ort für Sicherungen. Gesagt wird nur allgemein: „To provide you with our services, we directly collect, process and store your Personal Data in People's Republic of China.“ Konzerngesellschaften übernehmen laut Datenschutzerklärung Aufgaben „such as storage, content delivery, security, research and development, foundation model training and optimization, analytics, customer and technical support.“ (ohne Namen und Orte)."
+      },
+      "vorgeschaltete_filter": {
+        "wert": true,
+        "status": "beansprucht",
+        "quelle": "https://api-docs.deepseek.com/quick_start/rate_limit",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Doku „Rate Limit & Isolation“ (gerendert 23.10.2026): „Content Safety Isolation: user_id is used to distinguish user identities on your business side for content safety handling“. Eine Inhaltsprüfung gibt es also; wie sie arbeitet und ob sie vor oder nach dem Modell läuft, legt DeepSeek nicht offen. Open-Platform-Bedingungen 7.2: DeepSeek darf ohne Vorankündigung u. a. „deleting relevant content“."
+      }
+    }
+  ],
+  "vertrag": {
+    "avv": {
+      "wert": null,
+      "status": "unbelegt",
+      "quelle": "https://static.deepseek.com/faq/index.html?lang=en#/question/cooperation-agreement",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Kein Auftragsverarbeitungsvertrag veröffentlicht. Weder die Nutzungsbedingungen (Stand „March 27, 2026“) noch die Open-Platform-Bedingungen (gültig ab „April 29, 2026“) noch die Datenschutzerklärung erwähnen einen. Die Open-Platform-Bedingungen verlangen vom Entwickler eine Einwilligung oder andere Grundlage für die „delegation of personal information processing to us“ und nennen ihn Verantwortlichen: „As the controller of personal information processing activities in that scenario, you should disclose the relevant privacy policy to your end users.“ Hilfe-Center: „DeepSeek API is provided via a self-service and standardized model.“ Auf Antrag gibt es einen Rahmenvertrag: „Note: The agreement is a standard framework agreement and cannot be modified.“ Die Vorlage liegt hinter der Anmeldung („To view it, please log in to the 「Bank Transfer」page to download the template.“), nicht eingesehen; ob sie die Auftragsverarbeitung regelt, ist ungeklärt. Recht und Gericht: „governed by the laws of the People's Republic of China in the mainland“; Klage nur am Sitz der Hangzhou DeepSeek. Änderungen gelten „seven (7) days after release“. Behördliche Maßnahmen in der EU (beide betreffen App und Website des Chat-Dienstes; die API nennen sie nicht ausdrücklich): (1) Italienische Datenschutzbehörde (Garante), Anordnung vom 30.01.2025 (Nr. 10098477) gegen die Hangzhou und die Beijing DeepSeek, Anschrift dort „established at 5th Floor, North Building, Block C, Rongke Information Center, No. 2 South Science Academy Road, Haidian District Beijing, China“; Mitteilung vom selben Tag: „The Italian Data Protection Authority has ordered, as a matter of urgency and with immediate effect, the limitation on processing of Italian users' data against Hangzhou DeepSeek Artificial Intelligence and Beijing DeepSeek Artificial Intelligence, the Chinese companies that provide the DeepSeek chatbot service.“ Festgestellt wurde u. a.: „the data collected by the data controller in connection with the provision of the DeepSeek service are stored in the People's Republic of China“ und, damals, kein Vertreter in der EU: „has failed to designate a representative by written mandate“. DeepSeek hatte am 29.01.2025 erklärt, „that they had not entered and had not planned to enter the Italian market“. Ob die Beschränkung heute noch gilt, zeigen die Belege nicht (ungeklärt). (2) Berliner Beauftragte für Datenschutz und Informationsfreiheit, Pressemitteilung vom 27.06.2025: „Eine entsprechende Meldung erging am 27. Juni 2025 an Apple Distribution International Ltd. als Betreiber des Apple App Store und Google Ireland Ltd. als Betreiber des Google Play-Store.“ Vorher, am 06.05.2025, hatte die Behörde DeepSeek aufgefordert, die Apps für Deutschland zu entfernen oder die Übermittlung nach China einzustellen. Die Beauftragte: „DeepSeek hat gegenüber meiner Behörde nicht überzeugend nachweisen können, dass Daten deutscher Nutzer:innen in China auf einem der Europäischen Union gleichwertigen Niveau geschützt sind.“ Jahresbericht 2025: „Google und Apple lehnten eine Sperrung in ihren App-Stores ab.“ Die Behörde kündigte dort eine Beschwerde gegen die Ablehnung an; deren Ausgang ist ungeklärt. Von Hand gerendert 25.10.2026 (Chrome headless): Frage zum Kooperationsvertrag und API-Fragenliste wortgleich mit dem 23.10., Beleg belege/anbieter/deepseek-api/handpruefung-faq-2026-10-25.txt."
+    },
+    "subprozessoren": {
+      "wert": null,
+      "status": "unbelegt",
+      "quelle": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Keine Liste der Unterauftragnehmer veröffentlicht, kein Verfahren zur Ankündigung neuer. Die Datenschutzerklärung nennt nur Arten von Dienstleistern, ohne Namen und Orte: „We use communication service providers to send notifications and/or communications to you.“, „We integrate third-party APIs to provide search services, and we will share your input keywords to provide these services.“ und „We use analytics services providers to analyse data.“ Dazu Gesellschaften des eigenen Konzerns: „These entities process the Personal Data You Provide, Automatically Collected Personal Data, and Personal Data from Other Sources for us, as necessary to provide certain functions, such as storage, content delivery, security, research and development, foundation model training and optimization, analytics, customer and technical support.“ Die Berliner Datenschutzbeauftragte schreibt am 27.06.2025 zur App: „Die gesammelten personenbezogenen Daten der Nutzer:innen übermittelt der Dienst an chinesische Auftragsverarbeiter und speichert diese auf Servern in China.“ Welche Firmen das sind, ist ungeklärt."
+    },
+    "tom": {
+      "wert": null,
+      "status": "unbelegt",
+      "quelle": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Ungeklärt: Keine TOM-Beschreibung und kein DPA gefunden. Die Datenschutzerklärung bleibt allgemein: „commercially reasonable technical, administrative, and physical security measures“. Die Open-Platform-Bedingungen vom 22.04.2026 enthalten keinen DPA."
+    },
+    "subprozessoren_anzahl": {
+      "wert": null,
+      "status": "unbelegt",
+      "quelle": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Ungeklärt: Keine öffentliche Liste. Die Datenschutzerklärung nennt nur Arten von Dienstleistern ohne Namen: „We engage service providers that help us provide, support, and develop the Services“."
+    },
+    "drittlaender": {
+      "wert": null,
+      "status": "unbelegt",
+      "quelle": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Ungeklärt: Ohne Liste der Unterauftragnehmer gibt es keine Orte. Der Anbieter selbst verarbeitet in China, das steht schon im Profil: „we directly collect, process and store your Personal Data in People's Republic of China“."
+    },
+    "training_opt_out": {
+      "wert": false,
+      "status": "belegt",
+      "quelle": "https://cdn.deepseek.com/policies/en-US/deepseek-terms-of-use.html",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Training mit Ein- und Ausgaben ist erlaubt, bis man widerspricht. Die Nutzungsbedingungen gelten auch für die API; die Open-Platform-Bedingungen sind laut eigenem Text nur ergänzend: „serves as a Specific Agreement to the \"DeepSeek Terms of Use\"“. Nutzungsbedingungen 4.3: „we may, to a minimal extent, use Inputs and Outputs to provide, maintain, operate, develop or improve the Services or the underlying technologies supporting the Services.“ Widerspruch: „you can opt out by turning off \"Improve the model for everyone\".“ Ob es diesen Schalter auch für API-Konten gibt, ist ungeklärt (Plattform nur nach Anmeldung; die API-Doku und das Hilfe-Center, Kategorie API, erwähnen ihn nicht). Die Open-Platform-Bedingungen selbst sagen zum Training nichts. Datenschutzerklärung, Zweck: „To improve and develop the Services and to train and improve our technology, such as our machine learning models and algorithms.“; Recht: „the right to opt-out of using your Personal Data for training our models or optimizing our technologies.“ In den Zusammenfassungen der Trainingsdaten (V4 mit V4-Pro, Stand „4/08/2026“; V4.1 Flash, Stand „24/9/2026“) kreuzt DeepSeek bei „Was data from user interactions with the AI model (e.g. user input and prompts) used to train the model?“ jeweils „☒Yes“ an. Zusatz dort: „If user input is used to construct training data, we apply secure encryption, strict de-identification, and anonymization to make it cannot be linked to any specific individual.“"
+    },
+    "zero_data_retention": {
+      "wert": false,
+      "status": "belegt",
+      "quelle": "https://api-docs.deepseek.com/guides/kv_cache",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Keine Null-Speicherung; weder Doku noch Bedingungen bieten eine an. Festplatten-Cache ist für alle an: „The DeepSeek API Context Caching on Disk Technology is enabled by default for all users, allowing them to benefit without needing to modify their code.“ Löschung: „Once the cache is no longer in use, it will be automatically cleared, usually within a few hours to a few days.“ Ein Abschalten nennt die Doku nicht. Trennung je Endnutzer über user_id: „KVCache Isolation: user_id is used to isolate KVCache for users on your business side for privacy management“. Eingaben speichert DeepSeek laut Datenschutzerklärung, solange das Konto besteht: „This Personal Data includes your account Personal Data, input and payment Personal Data.“ Hochgeladene Bilder (Files API) bleiben ohne Ablaufdatum dauerhaft: „Omit both expires_after fields to keep the file permanently.“"
+    },
+    "zweckbindung": {
+      "wert": false,
+      "status": "belegt",
+      "quelle": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Keine Bindung an die Erbringung des Dienstes. Datenschutzerklärung: „We use your Personal Data to operate, provide, develop, and improve the Services, including for the following purposes.“ Darunter: „To improve and develop the Services and to train and improve our technology, such as our machine learning models and algorithms.“ Konzerngesellschaften verarbeiten Daten auch für „foundation model training and optimization“. Nutzungsbedingungen 4.3 erlauben die Nutzung von Ein- und Ausgaben, um den Dienst und die Technik dahinter zu entwickeln (siehe Training). Kontaktdaten auch für Werbung: „send you other service-related messages or commercial messages.“"
+    },
+    "betroffenenrechte_traeger": {
+      "wert": "auftraggeber",
+      "status": "belegt",
+      "quelle": "https://cdn.deepseek.com/policies/en-US/deepseek-open-platform-terms-of-service.html",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Open-Platform-Bedingungen 3.3: „Regarding the rights requests from end users related to personal information, such as access, copy, transfer, rectification, erasure, and retention, you shall promptly respond in accordance with legal requirements.“ DeepSeek hilft nur bei Bedarf: „If cooperation with DeepSeek is required, you can contact us through the contact information listed in section 11, and we will provide technical support as necessary within the required scope.“ Für eigene Daten des Kontoinhabers nennt die Datenschutzerklärung privacy@deepseek.com und einen Vertreter in der EU und im Vereinigten Königreich: „have therefore appointed Prighter Group with its local partners as our privacy representative and your point of contact for the following regions:“. Anfragen dorthin: „If you wish to lodge a data subject request, you may also exercise your rights by contacting us at rep_deepseek@prighter.com“. Das Prighter-Portal selbst ist nicht ausgewertet (robots.txt von app.prighter.com sperrt alle Seiten); Name der Vertreter-Gesellschaft und Anschrift sind deshalb hier nicht belegt. Die Garante-Anordnung vom 30.01.2025 nennt als Sitz Peking, die Trainingsdaten-Zusammenfassungen nennen Hangzhou: „Room 1201, Building Xi 1, Galaxy International Building, No. 169 North Huancheng Road, Gongshu District, Hangzhou, Zhejiang, China.“"
+    },
+    "log_frist": {
+      "wert": "Keine feste Frist: Konto-, Eingabe- und Zahlungsdaten, solange das Konto besteht; bei Missachtung der Regeln länger; Festplatten-Cache meist Stunden bis Tage; hochgeladene Bilder ohne Ablaufdatum dauerhaft; nach Kontolöschung Aufbewahrung, soweit Gesetze es verlangen",
+      "status": "belegt",
+      "quelle": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Datenschutzerklärung: „For example, when we process your Personal Data to provide you with the Services, we keep this Personal Data for as long as you have an account.“ und „This Personal Data includes your account Personal Data, input and payment Personal Data.“ sowie „If you violate any of our terms, policies or guidelines, we may keep your Personal Data as necessary to process the violation.“ Allgemein: „We retain Personal Data for as long as necessary to provide our Services and for the other purposes set out in this Privacy Policy.“ Cache: „Once the cache is no longer in use, it will be automatically cleared, usually within a few hours to a few days.“ Files API: „Omit both expires_after fields to keep the file permanently.“ Nach Löschung des Kontos (Nutzungsbedingungen 2.5): „Retain certain data of the user as required by laws and regulations.“ Eine Frist für reine Protokolldaten nennt DeepSeek nicht."
+    },
+    "log_zweck": {
+      "wert": "Betrieb und Verbesserung des Dienstes einschließlich Training, Sicherheit und Missbrauchsabwehr, gesetzliche Pflichten; Aufbewahrung und Meldung an Behörden bei Verdacht",
+      "status": "belegt",
+      "quelle": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Datenschutzerklärung, Protokolldaten: „We collect Personal Data regarding your use of the Services, such as the features you use and the actions you take.“ Zweck Sicherheit: „To promote the safety, security, and stability of the Services, such as by preventing and detecting abuse, fraud, and illegal activity on the Services and by conducting troubleshooting, data analysis, testing, and research.“ Weitergabe an Behörden, wenn nötig, um „comply with applicable law, legal process or government requests, as consistent with internationally recognized standards, in accordance with the due process prescribed by law“. Open-Platform-Bedingungen 7.2: „For behaviors suspected of violating laws and regulations or involving illegal activities, relevant records will be retained, and reports will be made to the competent authorities in accordance with the law, cooperating with their investigations.“"
+    }
+  },
+  "zertifikate": [],
+  "iso_42001": {
+    "status": "unbelegt",
+    "wert": null,
+    "zertifizierer": null,
+    "anwendungsbereich": null,
+    "quelle": null,
+    "geprueft": "2026-10-25",
+    "anmerkung": "Keine Angabe zu ISO/IEC 42001 und auch zu keinem anderen Zertifikat (ISO 27001, SOC 2) gefunden. Geprüft am 23.10.2026: Startseite und Sitemap von www.deepseek.com, Transparenz-Center, API-Doku (alle Seiten der Sitemap), Hilfe-Center, Nutzungsbedingungen, Open-Platform-Bedingungen, Datenschutzerklärung. Ein Trust-Portal gibt es nicht."
+  },
+  "ai_act": [
+    {
+      "pflicht": "Öffentliche Zusammenfassung der Trainingsdaten veröffentlicht",
+      "status": "belegt",
+      "quelle": "https://cdn.deepseek.com/policies/DeepSeek-V4.1-public-summary-of-training-content.pdf",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Nach EU-Vorlage, verlinkt aus „Model Mechanism and Training Methods of DeepSeek“: je eine Zusammenfassung für V3.1/V3.2, V4 (mit V4-Pro, Stand „4/08/2026“) und V4.1 Flash (Stand „24/9/2026“). Erstes Angebot in der EU laut V4.1: „10 September 2026“. Vertreter in der EU laut Zusammenfassung: „We have appointed Prighter Group with its local partners as our authorised representative in the European Union.“ Nutzerdaten im Training: siehe vertrag.training_opt_out."
+    },
+    {
+      "pflicht": "GPAI Code of Practice unterzeichnet",
+      "status": "unbelegt",
+      "quelle": "https://cdn.deepseek.com/policies/DeepSeek-V4.1-public-summary-of-training-content.pdf",
+      "geprueft": "2026-10-25",
+      "anmerkung": "DeepSeek kreuzt in beiden Zusammenfassungen (V4 und V4.1) bei „Are you a Signatory to the Code of Practice for general-purpose AI models that includes commitments to respect reservations of rights from the TDM exception or limitation?“ „☒No“ an (Gegenprobe am Bild der Seite 5)."
+    }
+  ],
+  "geprueft": "2026-10-25"
+}

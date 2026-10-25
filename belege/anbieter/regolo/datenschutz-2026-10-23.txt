@@ -1,0 +1,301 @@
+Quelle: https://regolo.ai/privacy-policy/
+Abruf: 2026-10-23 (curl, HTTP 200), Textauszug aus HTML (ganze Seite, Skripte entfernt), belegbar.eu
+
+Privacy Policy - regolo.ai
+Skip to content
+Pricing
+Models
+Docs
+Labs
+Tutorial & How‑to
+Events & Workshops
+Benchmarks & Optimization
+Compliance and Privacy
+Product & Release Notes
+Self‑Hosting & DevOps
+Sustainable Computing
+Customers
+About
+Zero Data Retention
+Sustainable AI
+Our Team and Infrastructure
+Discord
+Sign In
+Home
+Models
+Pricing
+Labs
+Docs
+European data privacy
+Sustainable AI
+GPU Cloud Infrastructure
+Discord
+Sign In
+Privacy Policy
+At Seeweb, we are committed to protecting your personal data and your right to privacy, in agreement with EU regulations (Reg. UE 2016/679 GDPR). We want you to be fully informed about the information we collect, how it is used, shared, protected.
+Personal Data Processing
+Through the functionalities of the website
+https://regolo.ai/
+, Seeweb collects the following types of personal information.
+Information when you register for an Account:
+the use of Regolo implies your registration for an account, which may include providing us with your name, surname, e-mail address, phone number, birth date, the date necessary for the billing of the service purchased and the tax treatment related to the Country regulations.
+User’s contents (Inputs):
+by using Regolo.ai, you can upload data to the service, that can consist in information, content, files that will be collected for providing you the service requested. Other uses of the input data are not expected or possible.
+Generated contents (Outputs):
+the use of Regolo.ai can generate contents that may include your personal data or data related to you directly or indirectly (written information, images and videos, sounds, etc). We collect these data to provide our services. Other uses of the output data are not expected or possible.
+Communications:
+e-mail or other communications channels both synchronous and asynchronous between user and provider.
+Information received automatically:
+LOGs (including IP address, browser and configuration, place, date and connection time, type of device used), origin of the access (eventual entry); usage data: request type (without the content), duration of the access to the service.
+Cookies:
+Technical cookies are to navigate the website and other cookies for the tracking with anonymization. All the related treatments are compliant with Seeweb’s cookie policy detailed below.
+These data will be treated in agreement with the above mentioned regulations and with the obligations of privacy expected, following the principles of correctness, lawfulness, transparency and protection of your information.
+Purpose and Legal Basis
+We treat customer information (1) to provide the service purchased, (2) to respond to any requests of the authority or satisfy other law obligations, (3) for the assessment of responsibilities in case of eventual cybercrime to damage the IT infrastructure, (4) for sending email communications related to products and services similar to those you are already using. If you have any questions or concerns about our disclosed practices with regards to your personal information, please contact us at privacy@regolo.ai.
+The legal basis for any purpose is the following:
+Art.6.1 letter b of the GDPR, that contemplates the execution of a contract of which the interested (you) is part of, or the execution of pre-contractual measures adopted on your request.
+Art.6.1 letter c of the GDPR, that contemplates the necessity of being compliant to a law obligation the data controller is subject to.
+Art.6.1 letter f of the GDPR, the legitimate interest of the data controller under certain conditions.
+Art.6.1 letter a of the GDPR, the data subject has given consent to the data processing.
+Contacts
+Data Controller:
+SEEWEB s.r.l, VAT 02043220603 – Headquarter Via A. Vona, 66 – 03100 Frosinone – Italia.
+If you have any questions or concerns about our disclosed practices with regards to your personal information, please contact us.
+Telephone: +39 0775 880041
+E-mail: privacy@regolo.ai
+Responsible for the Data Protection – Data Protection Officer
+Telephone: +39 0775 880041
+Email: dpo@seeweb.it.
+Code of Conduct
+The Data Controller declares to have joined a binding and certified code of conduct in relation the data treatment as established at the articles. 40 and 42 GDPR.
+Under 18
+Regolo.ai does not address to minors of 18 years.
+Duration
+Given that the Input and Output Data are cancelled at the end of every Regolo.ai session, we specify that Seeweb’s conduct is based on a principle of data minimisation, limiting the collection of your personal data to what is directly relevant and necessary to accomplish a precise purpose. Without prejudice to the right of revoking your consent, Seeweb will treat your data with the following duration:
+Type of Data
+Duration
+Information when you register for an Account
+Until the cancellation of the Account, without prejudice to the rights and obligations of collection deriving from the terms of legal prescription in case of controversies.
+Name, surname, e-mail for marketing purposes
+24 months from the consent release or the consent revocation, if previous.
+User’s contents (Inputs)
+Never, excepted the use of storage services activated by the user.
+Generated contents (Outputs)
+Never, excepted the use of storage services activated by the user.
+Communications
+Until the cancellation of the Account, without prejudice to the rights and obligations of collection deriving from the terms of legal prescription in case of controversies.
+Information received automatically
+Until the cancellation of the Account, without prejudice to the rights and obligations of collection deriving from the terms of legal prescription in case of controversies.
+Cookies
+See the dedicated “Cookie Policy” section below.
+Rights of the Interested Party
+In accordance with the article 15 of the Regulation EU 679/2016, you have the right of obtaining confirmation of the existence of your data, about origin, purposes and modalities of the data processing, update, correction, integration of data, cancelation of data processed in breach of law. You may object to the processing for sending marketing materials.
+It is possible to exercise any right described in this section and regarding the Processing Officer sending an email to privacy@regolo.ai or contacting our DPO to the addresses indicated. We remind you that we may ask you to verify your identity before any further action related to your request.
+Portability
+You have the right of requesting copies of the personal data communicated for the account registration in a structured format, commonly used and electronically readable, and/or request us to send these information to another provider of services (if this is technically possible).
+Cookie Policy
+How Seeweb uses cookies
+Seeweb Srl is committed to protecting your personal information. A cookie is a text file stored on the computer or mobile device by the server of a website and that only that server will be able to retrieve or read its contents. It contains some anonymous information and allows the website to remember, for example, your preferences or what’s in your cart.
+Regolo.ai uses cookies because, in some parts of our site, they are essential, and without them you would not be able to use our services. Cookies also help us to provide you with a better and richer experience, for example, by suggesting products or services of interest to you or in order to interact with social network platforms.
+The following sections detail the specific categories of cookies we use, the advertising partners involved, and how we manage your consent.
+1. Scope
+This notice explains how Seeweb (the “Company”, “we”, “us”) uses cookies, web‑beacons, pixels and similar tracking technologies on the website www.regolo.ai. It also describes the categories of personal data that may be transferred to our advertising partners – X (formerly Twitter), LinkedIn, Google (Google Ads) and Reddit – the purposes of those transfers, the legal basis for processing, retention periods and how you can exercise your rights.
+2. Legal Basis for processing
+We process data based on the following legal frameworks in accordance with the GDPR and e-Privacy regulations:
+Processing activity
+Legal basis (GDPR / ePrivacy)
+What you must do
+Strictly necessary cookies
+(session, security, consent‑management)
+Contractual necessity (Art. 6 (1) (b) GDPR)
+No consent needed; these cannot be disabled as they are essential for the service.
+Analytics cookies
+(Matomo)
+Legitimate interest (Art. 6 (1) (f) GDPR (statistics)
+You may opt‑out via the banner or by blocking specific trackers _pk_id, _pk_ses, mtm_consent.
+Advertising & profiling cookies
+(X, LinkedIn, Reddit, YouTube, Google Ads)
+Explicit consent (Art. 6 (1)(a) GDPR)
+Consent is required before any of these trackers are set. You can withdraw consent at any time (see § 6).
+3. Cookie Categories
+We categorise our trackers to help you make informed choices:
+Category
+Example technologies
+Purpose
+Typical expiration
+Strictly necessary
+cookie_consent, session_id
+Keep the session alive, store consent choices
+Session / 1 year (as needed)
+Analytics
+Matomo: _pk_id, _pk_ses, mtm_consent
+Anonymous visitor identification, session tracking, store consent state
+Session (_pk_ses) – 1 year (_pk_id) – Session (mtm_consent)
+Advertising & profiling
+Pixels, web‑beacons, mobile SDKs (X, LinkedIn, Reddit)
+Personalised ads, conversion measurement, frequency capping, campaign reporting
+6 – 12 months (depends on partner)
+Functional / preference
+language, theme
+Remember UI preferences
+1 year
+Note: All analytics cookies are self hosted through Matomo to measure, collect, analyse and report visitors’ data for purposes of understanding and optimising our website. We collect the following personal data using Matomo: anonymised IP address, browser type and version, operating system, device type, pages visited, time spent on pages, referring URL, and approximate geographic location (country and city). Matomo does not use automated decision-making.
+4. Advertising Partners & Their Trackers
+Partner
+Tracker type(s)
+Cookie / pixel name(s) (examples)
+Data transmitted to partner
+Retention
+Transfer destination
+Partner Privacy Policy
+X
+Pixel, web‑beacon, mobile SDK
+tw_pixel, tw_beacon, tw_js
+Partner‑generated user‑ID, hash‑of‑email (if logged‑in), conversion ID, user‑agent, IP (if required)
+Up to 12 months
+United States (Standard Contractual Clauses)
+privacy.x.com/en
+LinkedIn
+Insight tag, conversion pixel
+li_fat_id, li_opt_in, li_track
+Partner‑generated user‑ID, hash‑of‑email, conversion ID, user‑agent, IP (if required)
+6 – 12 months
+United States (Standard Contractual Clauses)
+linkedin.com/legal/cookie-policy
+Reddit
+Conversion pixel, web‑beacon
+rdt_pixel, rdt_beacon
+Partner‑generated user‑ID, hash‑of‑email, conversion ID, user‑agent, IP (if required)
+6 – 12 months
+United States (Standard Contractual Clauses)
+reddit.com/policies/cookies
+YouTube (Google)
+Embedded video player, Pixel, Cookie
+IDE, NID, VISITOR_INFO1_LIVE, GPS
+IP address, device info, viewing behavior, interaction with video
+13–18 months
+United States (Standard Contractual Clauses)
+policies.google.com/privacy
+Google Ads (Google Ireland Limited / Google LLC)
+Conversion Pixel, Web Beacon, Tracking Cookie
+_gcl_au, _gcl_aw, _gcl_dc, IDE
+Pseudonymous click identifier (GCLID), campaign referral data, conversion events (e.g. sign-up, subscription), URL visited, browser/device user-agent, IP address
+From 90 days (
+gcl
+*) up to 13 months (IDE)
+United States (EU-U.S. Data Privacy Framework / Standard Contractual Clauses)
+policies.google.com/privacy
+What the data means for you:
+User‑ID
+– a pseudonymous identifier created by the partner, not directly linked to your name.
+Hash‑of‑email
+– SHA‑256 (or stronger) hash of the email address; irreversible for the partner unless they possess the original email.
+Conversion ID
+– an opaque value that lets the partner attribute a conversion (e.g., sign-up, purchase) to a prior ad impression.
+User‑agent & IP
+– technical data needed for fraud detection, device‑type classification and geographic approximation.
+All data are encrypted in transit (TLS 1.3) and stored by the partner for the period shown above. After expiry the data are automatically deleted or anonymised according to each partner’s retention policy.
+5. How We Obtain Your Consent (when needed)
+First‑visit banner
+– As soon as you land on our Regolo.ai domain, a cookie banner appears giving you some choices:
+“Accept all” – enables analytics and advertising trackers.
+“Reject non‑essential” – only strictly necessary cookies are set.
+“Customize” – lets you toggle each category (Analytics, Advertising-X, Advertising-LinkedIn, Advertising-Reddit) individually.
+Granular toggles
+– Within the “Customize” panel you can enable/disable each partner separately. The banner records your explicit “accept” or “reject” action and stores this preference in the cookie_consent record (encrypted, 1‑year lifespan).
+Consent logging
+– Every consent event is logged (date‑time, IP (hashed), user‑agent, selected options) in a secure audit table for compliance evidence.
+6. How to Revoke or Modify Your Consent
+Via the cookie banner
+– Click the “Cookie preferences” link that appears at the bottom of every page, adjust the settings and hit “Save your preferences”.
+By email
+– Send a request to privacy@regolo.ai with the subject “Cookie consent withdrawal”. Include your email address (or the account ID) so we can locate your consent record.
+Through your account settings
+– If you are logged‑in, go to Settings → Privacy & Cookies and manage the toggles.
+Upon withdrawal, we will immediately stop loading all non‑essential trackers for your browser/device. Historical data already transmitted to the partners cannot be retroactively deleted by us; however we will issue a request to each partner to delete or anonymise the data where feasible (as required under Art. 17 GDPR).
+7. Your Rights Under GDPR & ePrivacy (Specific to Cookies)
+Right
+How to exercise it
+Access
+– request a copy of all personal data we hold about you.
+Email privacy@regolo.ai or submit via our Data Subject Request portal.
+Rectification
+– correct inaccurate data (e.g., wrong email hash).
+Same as “Access”.
+Erasure (“right to be forgotten”)
+– delete your Regolo.ai account and all associated data.
+Use the “Delete account” feature in your profile or email us.
+Restriction of processing
+– stop analytics or advertising processing while retaining your account.
+Use the cookie‑preference banner or contact DPO.
+Data portability
+– receive your data in a structured, commonly‑used format.
+Email privacy@regolo.ai.
+Object to profiling
+– stop any personalised‑ads profiling.
+Toggle off “Advertising” categories in the banner or email us.
+Complaint
+– lodge a complaint with a supervisory authority.
+Contact the Italian Garante per la protezione dei dati personali or the authority in your EU member state.
+All requests are answered within pursuant to the deadline imposed by the law. No fee is charged for exercising any of these rights.
+8. Data Security
+Transmission
+– All data exchanged with partners is encrypted using TLS 1.3.
+Storage
+– Personal data retained by Regolo.ai (hashes, consent logs) are stored in encrypted PostgreSQL tables (AES‑256 at rest).
+Access control
+– Only a minimal set of authorized personnel (Privacy Office, Security Team) can view raw consent logs; they are subject to regular audit.
+Incident response
+– In the unlikely event of a breach affecting cookie‑derived data, we will notify the relevant supervisory authority within 72 hours and inform affected users without undue delay.
+9. International Data Transfers
+Any transfer of personal data is done according to the Art. 45 and following of the GDPR.
+10. Updates to This Notice
+We review this notice at least once a year or whenever a material change occurs (e.g., new partner, new tracking technology). When changes are made:
+A banner will appear on the next visit highlighting “Updated privacy & cookie notice – see what’s new”.
+If the change affects the legal basis (e.g., new data categories), we will request fresh consent.
+The revision history is available at the bottom of this page.
+11. Contact
+Data Protection Officer (DPO)
+Seeweb – Privacy Office
+Email: privacy@regolo.ai
+Phone: +39 0775880041
+Address: Via Armando Vona 66, 03100 Frosinone
+Revision History
+Version
+Date
+Summary of changes
+1.1
+07 Oct 2026
+Added Google Ads tracking under advertising partners table and updated consent scope.
+1.0
+16 Jul 2026
+Initial release – adds X, LinkedIn, Reddit tracking details, consent mechanisms, and full rights table.
+0.9
+01 Jan 2025
+Draft – internal review (no public release).
+Resources
+Contacts
+Models Library
+Builder Program
+Models Status
+Integrations
+FAQ
+Legal
+Terms & Conditions
+Privacy Policy
+Cookie Policy
+Cookie Preferences
+DPA
+Top Models
+GLM 5.2
+Qwen 3.5 - 122b
+Faster Whisper Large v3
+Gemma 4 - 31b
+GPT OSS - 120b
+Latest Posts
+Getting started with context-mode and headroom: understand large codebases at 92% lower token cost
+AI review responses with guardrails: Clef-Flash decides, an LLM writes, a person approves
+EmbeddingGemma 2 vs Qwen3-Embedding (0.6B & 8B): Code Retrieval, Matryoshka Compression, and Reranking Benchmarks
+Developed in EU with love, compliance, and green spirit by DHH.
+© Seeweb S.r.l. – c.s. 103.000 EURO - CCIAA 17793/98 - VAT IT02043220603
+Datacenter Certifications

@@ -69,3 +69,21 @@ test("preisStand: Feld-Datum vor Profil-Datum", () => {
   assert.equal(preisStand({}, { geprueft: "2026-08-19" }), "2026-08-19");
   assert.equal(preisStand({}, {}), null);
 });
+
+test("preis_bedingung: kostenlos nur unter Bedingung wird mitgenannt", () => {
+  const frei = { preis_input_1m_eur: 0, preis_output_1m_eur: 0, preis_bedingung: "solange experimentell" };
+  assert.deepEqual(preisText(frei), { art: "kostenlos", text: "kostenlos (solange experimentell)" });
+  assert.equal(preisKurz({ modelle: [frei, { ...frei, name: "b" }] }), "kostenlos (solange experimentell)");
+  assert.deepEqual(guenstigsterPreis({ modelle: [frei] }), { art: "kostenlos", wert: 0, bedingung: "solange experimentell" });
+  // ohne Bedingung bleibt alles wie bisher
+  assert.equal(preisKurz({ modelle: [{ preis_input_1m_eur: 0 }] }), "kostenlos");
+  assert.deepEqual(guenstigsterPreis({ modelle: [{ preis_input_1m_eur: 0 }] }), { art: "kostenlos", wert: 0 });
+  // verschiedene Bedingungen: keine wird behauptet
+  assert.equal(preisKurz({ modelle: [frei, { preis_input_1m_eur: 0, preis_bedingung: "bis 31.12." }] }), "kostenlos");
+  // ein freies Modell ohne Bedingung neben einem mit Bedingung: Kurzform ohne Bedingung
+  assert.equal(preisKurz({ modelle: [frei, { preis_input_1m_eur: 0 }] }), "kostenlos");
+});
+
+test("preis_bedingung: bei Preisen über 0 ein Fehler (gehört nur zu kostenlos)", () => {
+  assert.throws(() => preisArt({ name: "x", preis_input_1m_eur: 0.5, preis_bedingung: "solange experimentell" }), /preis_bedingung/);
+});

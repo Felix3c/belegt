@@ -1,0 +1,2046 @@
+Quelle: https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/configure-safety-filters
+Abruf: 2026-10-22 18:41:18 +0200
+
+Safety and content filters | Gemini Enterprise Agent Platform | Google Cloud Documentation
+Skip to main content
+Documentation
+close
+Get Started
+Get Started with Google Cloud
+Product List
+Cloud Customer Care
+Featured Products
+Agent Platform
+Apigee API Management
+BigQuery
+Compute Engine
+Cloud CDN
+Cloud Run
+Cloud Storage
+Cloud SQL
+Gemini Enterprise
+Google Kubernetes Engine
+Looker
+Cross-product Tools
+Access and resources management
+Costs and usage management
+Infrastructure as code
+SDK, languages, frameworks, and tools
+Technology Areas
+AI and ML
+Application development
+Application hosting
+Compute
+Data analytics and pipelines
+Databases
+Distributed, hybrid, and multicloud
+Industry solutions
+Migration
+Networking
+Observability and monitoring
+Security
+Storage
+/
+Console
+English
+Deutsch
+Español – América Latina
+Français
+Indonesia
+Italiano
+Português – Brasil
+עברית
+中文 – 简体
+中文 – 繁體
+日本語
+한국어
+Sign in
+Gemini Enterprise Agent Platform
+Start free
+Overview
+Studio
+Agents
+Models
+Notebooks
+API reference
+Pricing
+Agent Platform
+Generative AI
+Engineering Blog
+Documentation
+More
+Overview
+Studio
+Agents
+Models
+Notebooks
+API reference
+Pricing
+More
+Engineering Blog
+Console
+Overview
+Beginner's guide
+Get started
+Get started with Agent Platform
+Develop Gemini API code with the Gen AI SDK
+Connect to the Knowledge MCP server
+Get an API key
+Configure application default credentials
+Migrate from Google AI Studio to Agent Platform
+Get started with Gemini 4
+Get started with Gemini 3
+Developer guides for Gemini models
+Gemini 4 Argon
+Gemini 3.8 Live
+Gemini 3.8 Flash
+Gemini 3.7 Flash
+Gemini 3.6 Flash
+Gemini 3.5 Flash
+Google GenAI libraries
+Generative AI cookbook
+Access Gemini models using OpenAI libraries
+Express mode
+Overview
+Console tutorial
+API tutorial
+Select models
+Model Garden
+Overview of Model Garden
+Use models in Model Garden
+Test model capabilities
+Google Models
+All Google models
+Gemini
+Migrate to the latest Gemini models
+Argon
+4 Argon
+Pro
+3.1 Pro
+2.5 Pro
+Flash
+3.8 Flash
+3.7 Flash
+3.6 Flash
+3.5 Flash
+3 Flash
+2.5 Flash
+2.5 Flash Live API
+Flash-Lite
+3.5 Flash-Lite
+3.1 Flash-Lite
+2.5 Flash-Lite
+Image
+Nano Banana 2.1
+Nano Banana 2
+Nano Banana 2 Lite
+Nano Banana Pro
+Nano Banana
+Virtual Try-On
+Omni
+Omni 1.1 Flash
+Omni Flash
+Cyber
+3.8 Flash Cyber
+Live
+3.8 Live
+Text-to-Speech
+Gemini 3.8 Flash TTS
+Gemini 3.8 Flash-Lite TTS
+Transcribe
+Gemini 3.5 Transcribe
+Translate
+Gemini 3.5 Live Translate
+Embedding
+Gemini Embedding 2
+Robotics
+Gemini Robotics ER 2
+Overview
+Spatial reasoning
+Agentic capabilities
+Task orchestration
+Video understanding
+Veo
+Veo 3.1
+Lyria
+Lyria 2
+Lyria 3
+Model versions
+Partner Models
+Partner models overview
+Claude
+Overview
+Request predictions
+Quotas for Anthropic Claude models
+Batch predictions
+Structured outputs
+Prompt caching
+Count tokens
+Web search
+Safety classifiers
+Cyber Verification Program
+Claude models
+Fable
+Fable 5.1
+Fable 5
+Opus
+Opus 5.5
+Opus 5
+Opus 4.8
+Opus 4.7
+Opus 4.6
+Opus 4.5
+Sonnet
+Sonnet 5.5
+Sonnet 5
+Sonnet 4.6
+Sonnet 4.5
+Haiku
+Haiku 5.5
+Haiku 4.5
+Grok
+Overview
+Responses API
+Function calling
+Structured output
+Reasoning
+Model details
+Grok 4.20
+Grok 4.3
+Grok 4.6
+Grok 4.7
+Mistral AI
+Overview
+Model details
+Mistral Medium 3
+Mistral OCR (25.05)
+Mistral Small 3.1 (25.03)
+Codestral 2
+Meta
+Overview
+Model details
+Muse Spark 1.3
+Deploy partner models from Model Garden
+Partner model deprecations
+Open Models
+Overview
+AlphaFold 3
+AlphaGenome
+DeepSeek
+Overview
+DeepSeek-V4.1-Flash
+DeepSeek-V3.2
+DeepSeek-V3.1
+DeepSeek-R1-0528
+DeepSeek-OCR
+Embedding (e5)
+Multilingual E5 Small
+Multilingual E5 Large
+Google Gemma
+Model-as-a-Service (MaaS)
+Gemma-4-26B-A4B-IT MaaS
+Use Gemma
+Tutorial: Deploy and inference Gemma (GPU)
+Tutorial: Deploy and inference Gemma (TPU)
+Kimi
+Overview
+Kimi K2 Thinking
+Llama
+Overview
+Request predictions
+Model details
+Llama 4 Maverick
+Llama 4 Scout
+Llama 3.3
+MiniMax
+Overview
+MiniMax M2
+OpenAI
+Overview
+OpenAI gpt-oss-120b
+OpenAI gpt-oss-20b
+Qwen
+Overview
+Qwen 3 Next Instruct 80B
+Qwen 3 Next Thinking 80B
+Qwen 3 Coder
+Qwen 3 235B
+ZAI.org
+Overview
+GLM 5.2
+GLM 5
+GLM 4.7
+Managed open models (MaaS)
+Overview
+Use open models via Model as a Service (MaaS)
+Grant access to open models
+API
+Call MaaS APIs for open models
+Function calling
+Thinking
+Structured output
+Batch prediction
+Open model deprecations
+Self-deployed open models
+Overview
+Deploy open models
+Deploy open models from Model Garden
+Deploy open models with prebuilt containers
+Deploy open models with a custom vLLM container
+Deploy models with custom weights
+Use Hugging Face Models
+Tutorials
+Optimize model performance with advanced features in Model Garden
+Hex-LLM
+Comprehensive guide to vLLM for Text and Multimodal LLM Serving (GPU)
+vLLM TPU
+xDiT
+Deploy Llamma 3 models with SpotVM and Reservations
+Build
+Prompt design
+Introduction to prompting
+Prompting strategies
+Overview
+Give clear and specific instructions
+Use system instructions
+Include few-shot examples
+Add contextual information
+Structure prompts
+Compare prompts
+Instruct the model to explain its reasoning
+Break down complex tasks
+Experiment with parameter values
+Prompt iteration strategies
+Task-specific prompt guidance
+Design multimodal prompts
+Design chat prompts
+Capabilities
+Safety
+Overview
+Responsible AI
+System instructions for safety
+Configure content filters
+Gemini for safety filtering and content moderation
+Abuse monitoring
+Process blocked responses
+Content Credentials
+AI Content Detection API
+Text and code generation
+Text generation
+System instructions
+Structured output
+Content generation parameters
+Image generation
+Generate images with Gemini
+Generate images from video with Gemini
+Edit images with Gemini
+Gemini image generation best practices
+Generate Virtual Try-On images
+Gemini image generation limitations
+Responsible AI and usage for Gemini image generation
+Video generation
+Overview
+Text to video
+First frame image to video
+First and last frames to video
+Generate videos from references
+Extend videos
+Edit videos
+Prompt guide
+Video best practices
+Responsible AI for Veo
+Music generation
+Introduction to Lyria
+Generate music using Lyria
+Lyria prompt guide
+Audio generation
+Overview
+Create a custom voice with voice design
+Replicate voices
+Prompting guide
+Migration guide
+Media analysis
+Image understanding
+Video understanding
+Audio understanding
+Document understanding
+Bounding box detection
+URL context
+Thinking
+Overview
+Thought signatures
+Prompting guide
+Interactions API
+Overview
+Developer guide
+Live API
+Overview
+Get started
+Get started using the Gen AI SDK
+Get started using WebSockets
+Get started using ADK
+Start and manage live sessions
+Send audio and video streams
+Configure live avatars
+Configure language and voice
+Configure Gemini capabilities
+Asynchronous function calling
+Best practices with Live API
+Troubleshooting Live API
+Demo apps and resources
+Migrate from Gemini 2.5 Flash Live API to Gemini 3.8 Live
+Embeddings
+Overview
+Text embeddings
+Get text embeddings
+Choose an embeddings task type
+Get multimodal embeddings
+Get batch embeddings inferences
+Translation
+Transcribe speech
+Model tools
+Code execution
+Computer use
+Function calling
+Grounding
+Overview
+Grounding with Google Search
+Grounding with Google Maps
+Grounding with Agent Search
+Grounding with your search API
+Grounding responses using RAG
+Grounding with Elasticsearch
+Grounding with Parallel web search
+Grounding with Exa web search
+Web Grounding for Enterprise
+Development tools
+Use AI-powered prompt writing tools
+Overview
+Optimize prompts
+Overview
+Zero-shot optimizer
+Few-shot optimizer
+Data-driven optimizer
+Use prompt templates
+Manage prompts with the SDK
+Model tuning
+Introduction to tuning
+Tuning Gemini models
+Supervised fine-tuning
+About supervised fine-tuning
+Prepare your data
+Use supervised fine-tuning
+Supported modalities
+Text tuning
+Document tuning
+Image tuning
+Audio tuning
+Video tuning
+Tune function calling
+Reinforcement learning fine-tuning
+About reinforcement learning fine-tuning
+Quick start using the console
+Quick start using the API
+Reinforcement learning fine-tuning job
+Overview
+Tuning dataset
+Hyperparameters
+Reward functions
+Metrics and monitoring
+Continuous tuning
+Preference tuning
+About preference tuning
+Prepare your data
+Use preference tuning
+Use tuning checkpoints
+Use continuous tuning
+Tuning recommendations with LoRA and QLoRA
+Open models
+Supervised and distillation fine-tuning
+Embeddings models
+Tune text embeddings models
+Translation models
+About supervised fine-tuning
+Prepare your data
+Use supervised fine-tuning
+Migrate
+Call Agent Platform models using OpenAI libraries
+Overview
+Authenticate
+Examples
+Migrate from OpenAI SDK
+Evaluate
+Overview
+Tutorial: Perform evaluation using the console
+Perform evaluation using the GenAI Client in Agent Platform SDK
+Tutorial: Evaluate models using the GenAI Client in Agent Platform SDK
+Define your evaluation metrics
+Define your evaluation metrics
+Details for managed rubric-based metrics
+Prepare your evaluation dataset
+Run an evaluation
+View and interpret evaluation results
+Evaluate agents
+Alternative evaluation methods
+Evaluate using the evaluation module in Agent Platform SDK
+Tutorial: Perform evaluation using the evaluation module in Agent Platform SDK
+Define your evaluation metrics
+Prepare your evaluation dataset
+Run an evaluation
+Interpret evaluation results
+Templates for model-based metrics
+Evaluate agents
+Evaluate a judge model
+Configure a judge model
+Run AutoSxS pipeline
+Run a computation-based evaluation pipeline
+Deploy
+Consumption options overview
+Provisioned Throughput
+Provisioned Throughput overview
+Supported models
+Calculate Provisioned Throughput requirements
+Provisioned Throughput for Live API
+Provisioned Throughput for Gemini Nano Banana models
+Provisioned Throughput for Gemini Omni models
+Provisioned Throughput for Veo models
+Single Zone Provisioned Throughput
+Purchase Provisioned Throughput
+Use Provisioned Throughput
+PayGo
+Standard PayGo
+Priority PayGo
+Flex PayGo
+Batch inference
+Overview
+Create batch job from Cloud Storage
+Create batch job from BigQuery
+Resume an incomplete batch job
+Quotas and system limits
+Cache reused prompt context
+Overview
+Create a context cache
+Use a context cache
+Get context cache information
+Update a context cache
+Delete a context cache
+Context cache for fine-tuned Gemini models
+Deploy generative AI models
+Troubleshooting error code 429
+Retry strategy
+Administer
+Access control
+Networking
+Security controls
+Control access to Model Garden models
+Enable Data Access audit logs
+Save and share prompts
+Monitor models
+Monitor cost using custom metadata labels
+Request-response logging
+Secure a gen AI app by using IAP
+Overview
+Set up your project and source repository
+Create a Cloud Run service
+Create a load balancer
+Configure IAP
+Test your IAP-secured app
+Clean up your project
+Build your own model
+Overview
+MLOps on Agent Platform
+Interfaces for Agent Platform
+Agent Platform beginner's guides
+Train an AutoML model
+Train a custom model
+Get inferences from a custom model
+Train a model using Agent Platform and the Python SDK
+Introduction
+Prerequisites
+Create a notebook
+Create a dataset
+Create a training script
+Train a model
+Make an inference
+Integrated ML frameworks
+PyTorch
+TensorFlow
+Agent Platform for BigQuery users
+Glossary
+Get started
+Set up a project and a development environment
+Install the Agent Platform SDK for Python
+Authenticate to Agent Platform
+Choose a training method
+Try a tutorial
+Tutorials overview
+AutoML tutorials
+Hello image data
+Overview
+Set up your project and environment
+Create a dataset and import images
+Train an AutoML image classification model
+Evaluate and analyze model performance
+Deploy a model to an endpoint and make an inference
+Clean up your project
+Hello tabular data
+Overview
+Set up your project and environment
+Create a dataset and train an AutoML classification model
+Deploy a model and request an inference
+Clean up your project
+Custom training tutorials
+Train a custom tabular model
+Train a TensorFlow Keras image classification model
+Overview
+Set up your project and environment
+Train a custom image classification model
+Serve predictions from a custom image classification model
+Clean up your project
+Fine-tune an image classification model with custom data
+Use Agent Platform development tools
+Development tools overview
+Use the Agent Platform SDK
+Overview
+Introduction to the Agent Platform SDK for Python
+Python version 2.0.1 migration guide
+Agent Platform SDK for Python classes
+Agent Platform SDK classes overview
+Data classes
+Training classes
+Model classes
+Prediction classes
+Tracking classes
+Terraform support for Agent Platform
+Agent Platform Training
+Overview
+Agent Platform serverless training
+Overview of serverless training in Agent Platform
+Load and prepare data
+Data preparation overview
+Use Cloud Storage as a mounted file system
+Mount an NFS share for serverless training
+Use managed datasets
+Prepare training application
+Understand the serverless training service
+Prepare training code
+Use prebuilt containers
+Create a Python training application for a prebuilt container
+Prebuilt containers for serverless training
+Use custom containers
+Custom containers for serverless training
+Create a custom container
+Containerize and run training code locally
+Train on a persistent resource
+Overview
+Create persistent resource
+Run training jobs on a persistent resource
+Get persistent resource information
+Reboot a persistent resource
+Delete a persistent resource
+Configure training job
+Choose a custom training method
+Configure container settings for training
+Configure compute resources for training
+Use reservations with training
+Use Spot VMs with training
+Submit training job
+Create custom jobs
+Hyperparameter tuning
+Hyperparameter tuning overview
+Use hyperparameter tuning
+Create training pipelines
+Schedule jobs based on resource availability
+Use distributed training
+Training with Cloud TPU VMs
+Use private IP for custom training
+Use Private Service Connect interface for training (recommended)
+Monitor and debug
+Monitor and debug training using an interactive shell
+Profile model training performance
+Tutorial: Build a pipeline for continuous training
+Create custom organization policy constraints
+Gemini Enterprise Agent Platform clusters
+Overview
+Get started with training clusters
+Deployment considerations
+Compute resources
+Networking
+Storage
+Orchestration
+Create and manage clusters
+Create cluster
+View clusters
+Manage cluster
+Manage accounts and job scheduling on a cluster
+Cluster resiliency
+Monitor resilience events with a dashboard
+Feature guides
+Using Flex Start VMs with Slurm clusters
+Run workload on cluster
+Run prebuilt workloads
+Visualizing jobs with TensorBoard
+Manage training clusters using Slurm
+Ray on Agent Platform
+Ray on Agent Platform overview
+Set up for Ray on Agent Platform
+Create a Ray cluster on Agent Platform
+Monitor Ray clusters on Agent Platform
+Scale a Ray cluster on Agent Platform
+Develop a Ray application on Agent Platform
+Run Spark on Ray cluster on Agent Platform
+Use Ray on Agent Platform with BigQuery
+Deploy a model and get inferences
+Delete a Ray cluster
+Perform Neural Architecture Search
+Overview
+Set up environment
+Beginner tutorials
+Best practices and workflow
+Proxy task design
+Optimize training speed for PyTorch
+Use prebuilt training containers and search spaces
+Optimize using Agent Platform Vizier
+Overview of Agent Platform Vizier
+Create Agent Platform Vizier studies
+AutoML model development
+AutoML training overview
+Image data
+Classification
+Prepare data
+Create dataset
+Train model
+Evaluate model
+Get predictions
+Interpret results
+Object detection
+Prepare data
+Create dataset
+Train model
+Evaluate model
+Get predictions
+Interpret results
+Encode image data using Base64
+Export an AutoML Edge model
+Tabular data
+Overview
+Introduction to tabular data
+Tabular Workflows
+Overview
+End-to-End AutoML
+Overview
+Train a model
+Get online inferences
+Get batch inferences
+Forecasting
+Overview
+Train a model
+Get online inferences
+Get batch inferences
+Pricing
+Service accounts
+Manage quotas
+Perform classification and regression with AutoML
+Overview
+Quickstart: AutoML Classification (Cloud Console)
+Prepare training data
+Create a dataset
+Train a model
+Evaluate model
+View model architecture
+Get online inferences
+Get batch inferences
+Export model
+Perform forecasting with AutoML
+Overview
+Prepare training data
+Create a dataset
+Train a model
+Evaluate model
+Get inferences
+Hierarchical forecasting
+Perform forecasting with ARIMA+
+Perform forecasting with Prophet
+Perform entity reconciliation
+Feature attributions for classification and regression
+Feature attributions for forecasting
+Data types and transformations for tabular AutoML data
+Training parameters for forecasting
+Data splits for tabular data
+Best practices for creating tabular training data
+Train an AutoML Edge model
+Using the Console
+Using the API
+Generative AI model development
+Overview
+Create and manage datasets
+Overview
+Data splits for AutoML models
+Create an annotation set
+Delete an annotation set
+Add labels (console)
+Export metadata and annotations from a dataset
+Manage image dataset versions (API only)
+Get inferences
+Overview
+Configure models for inference
+Export model artifacts for inference
+Prebuilt containers for inference
+Custom container requirements for inference
+Use a custom container for inference
+Use arbitrary custom routes
+Use the optimized TensorFlow runtime
+Serve inferences with NVIDIA Triton
+Custom inference routines
+Get online inferences
+Create an endpoint
+Choose an endpoint type
+Create a public endpoint
+Use dedicated public endpoints (recommended)
+Use dedicated private endpoints based on Private Service Connect (recommended)
+Use private services access endpoints
+Deploy a model to an endpoint
+Overview of model deployment
+Compute resources for inference
+Deploy a model by using the Google Cloud console
+Deploy a model by using the gcloud CLI or Agent Platform API
+Use autoscaling for inference
+Use a rolling deployment to replace a deployed model
+Undeploy a model and delete the endpoint
+Use Cloud TPUs for online inference
+Use reservations with online inference
+Use Flex-start VMs with inference
+Use Spot VMs with inference
+Get an online inference
+View online inference metrics
+View endpoint metrics
+View DCGM metrics
+View AI AutoMetrics
+Share resources across deployments
+Use online inference logging
+Get batch inferences
+Get batch inferences from a custom model
+Use reservations with batch inference
+Get batch prediction from a self-deployed Model Garden model
+Serve generative AI models
+Deploy generative AI models
+Serve Gemma open models using Cloud TPUs with Saxml
+Serve Llama 3 open models using multi-host Cloud TPUs with Saxml
+Serve a DeepSeek-V3 model using multi-host GPU deployment
+Custom organization policies
+Machine learning operations (MLOps)
+Manage features
+Feature management in Agent Platform
+Agent Platform Feature Store
+About Agent Platform Feature Store
+Set up features
+Prepare data source
+Create a feature group
+Create a feature
+Set up online serving
+Online serving types
+Create an online store instance
+Create a feature view instance
+Control access
+Control access to resources
+Sync online store
+Start a data sync
+List sync operations
+Update features in a feature view
+Serve features
+Serve features from online store
+Serve historical feature values
+Monitor
+Monitor features
+Manage feature resources
+List feature groups
+List features
+Update a feature group
+Update a feature
+Delete a feature group
+Delete a feature
+Manage online store resources
+List online stores
+List feature views
+Update an online store
+Update a feature view
+Delete an online store
+Delete a feature view
+Feature metadata
+Update labels
+Search for resources
+Search for resources
+Manage embeddings
+Search using embeddings
+Notebook tutorials
+Agent Platform Feature Store tutorial notebooks
+Manage models
+Introduction to Agent Platform Model Registry
+Versioning in Model Registry
+Import models to Model Registry
+Copy models in Model Registry
+Delete a model
+Integrate with BigQuery ML
+Use model aliases
+Use model labels
+Evaluate models
+Model evaluation in Agent Platform
+Perform model evaluation in Agent Platform
+Model evaluation for fairness
+Introduction to model evaluation for fairness
+Data bias metrics for Agent Platform
+Model bias metrics for Agent Platform
+Orchestrate ML workflows using pipelines
+Introduction
+Interfaces
+Configure your project
+Build a pipeline
+Run a pipeline
+Use pipeline templates
+Create, upload, and use a pipeline template
+Use a prebuilt template from the Template Gallery
+Configure your pipeline
+Configure execution caching
+Configure failure policy
+Configure retries for a pipeline task
+Specify machine types for a pipeline step
+Request Google Cloud machine resources with Agent Platform Pipelines
+Configure Private Service Connect interface (recommended)
+Configure secrets with Secret Manager
+Configure a pipeline run on a persistent resource
+Schedule and trigger pipeline runs
+Schedule a pipeline run with scheduler API
+Trigger a pipeline run with Pub/Sub
+Cancel or delete pipeline runs
+Cancel pipeline runs
+Delete pipeline runs
+Rerun a pipeline
+Monitor pipeline execution
+View pipeline metrics
+View pipeline job logs
+Route logs to a Cloud Pub/Sub sink
+Configure email notifications
+Visualize results
+Visualize and analyze pipeline results
+Track the lineage of pipeline artifacts
+Output HTML and Markdown
+Resource labeling by Agent Platform Pipelines
+Understand pipeline run costs
+Migrate from Kubeflow Pipelines to Agent Platform Pipelines
+Use custom constraints
+Google Cloud Pipeline Components
+Quickstart
+Introduction to Google Cloud Pipeline Components
+Google Cloud Pipeline Component list
+Use Google Cloud Pipeline Components
+Build your own pipeline components
+Agent Platform Pipelines tutorials
+Tutorial notebooks
+Track and analyze your ML metadata
+Introduction to Vertex ML Metadata
+Data model and resources
+Configure your project's metadata store
+Use Vertex ML Metadata
+Track Vertex ML Metadata
+Analyze Vertex ML Metadata
+Manage Vertex ML Metadata
+System schemas
+Create and use custom schemas
+Use custom constraints with metadata stores
+Monitor model quality
+Introduction to Model Monitoring
+Model Monitoring v2
+Set up model monitoring
+Run monitoring jobs
+Manage model monitors
+Model Monitoring v1
+Provide schemas to Model Monitoring
+Monitor feature skew and drift
+Model Monitoring for batch predictions
+Track Experiments
+Introduction to Agent Platform Experiments
+Set up for Agent Platform Experiments
+Create an experiment
+Create and manage experiment runs
+Log data
+Autolog data to an experiment run
+Manually log data to an experiment run
+Log models to an experiment run
+Track executions and artifacts
+Add pipeline run to experiment
+Run training job with experiment tracking
+Compare and analyze runs
+Use Agent Platform TensorBoard
+Introduction to Agent Platform TensorBoard
+Set up Agent Platform TensorBoard
+Configure training script
+Use Agent Platform TensorBoard with custom training
+Use Agent Platform TensorBoard with Agent Platform Pipelines
+Manually log TensorBoard data
+Upload existing logs
+View Agent Platform TensorBoard
+Notebook tutorials
+Get started with Agent Platform Experiments
+Compare pipeline runs
+Model training
+Compare models
+Autologging
+Custom training autologging
+Track parameters and metrics for custom training
+Delete outdated Agent Platform TensorBoard experiments
+Agent Platform TensorBoard custom training with custom container
+Agent Platform TensorBoard custom training with prebuilt container
+Agent Platform TensorBoard hyperparameter tuning with HParams dashboard
+Profile model training performance using Cloud Profiler
+Profile model training performance using Cloud Profiler in custom training with prebuilt container
+Agent Platform TensorBoard integration with Agent Platform Pipelines
+Administer
+Access control
+Access control with IAM
+IAM permissions
+Set up a project for a team
+Control access to Agent Platform endpoints
+Use a custom service account
+Use customer-managed encryption keys
+Access Transparency
+Monitor Agent Platform resources
+Cloud Monitoring metrics
+Audit logging information
+Networking
+Networking access overview
+Accessing the Agent Platform API
+Accessing Agent Platform services through private services access
+Accessing Agent Platform services through PSC endpoints
+Accessing Agent Platform services through PSC interfaces
+Set up VPC Network Peering
+Set up connectivity to other networks
+Set up a Private Service Connect interface
+Tutorial: Access training pipelines privately from on-premises
+Tutorial: Access a Vector Search index privately from on-premises
+Tutorial: Access the Generative AI API from on-premises
+Tutorial: Access batch predictions privately from on-premises
+Tutorial: Create a Agent Platform Workbench instance in a VPC network
+Security
+VPC Service Controls
+Allow public endpoint access to protected resources from outside a perimeter
+Allow multicloud access to protected resources from outside a perimeter
+Allow access to protected resources from inside a perimeter
+Name resources
+Samples and tutorials
+Notebook tutorials
+Code samples
+Code samples for all products
+Get Started
+Get Started with Google Cloud
+Product List
+Cloud Customer Care
+Featured Products
+Agent Platform
+Apigee API Management
+BigQuery
+Compute Engine
+Cloud CDN
+Cloud Run
+Cloud Storage
+Cloud SQL
+Gemini Enterprise
+Google Kubernetes Engine
+Looker
+Cross-product Tools
+Access and resources management
+Costs and usage management
+Infrastructure as code
+SDK, languages, frameworks, and tools
+Technology Areas
+AI and ML
+Application development
+Application hosting
+Compute
+Data analytics and pipelines
+Databases
+Distributed, hybrid, and multicloud
+Industry solutions
+Migration
+Networking
+Observability and monitoring
+Security
+Storage
+Agent Platform
+Generative AI
+Home
+Documentation
+AI and ML
+Gemini Enterprise Agent Platform
+Models
+Send feedback
+Safety and content filters
+Stay organized with collections
+Save and categorize content based on your preferences.
+To see an example of getting started with Responsible AI with Gemini API,
+run the "Responsible AI with Agent Platform Gemini API: Safety ratings and thresholds" notebook in one of the following
+environments:
+Open in Colab
+|
+Open in Colab Enterprise
+|
+Open
+in Agent Platform Workbench
+|
+View on GitHub
+Google's generative AI models are designed to prioritize safety. However, they
+can still generate harmful responses, especially when they're explicitly
+prompted. To further enhance safety and minimize misuse, you can configure
+content filters to block potentially harmful responses.
+This page is for the safety filters of the Gemini text generation models.
+For information about safety filters and responsible AI for other Google models,
+see the following documentation:
+Gemini for image generation
+Responsible AI for Veo
+Computer use
+This page describes each safety and content filter type, outlines key safety
+concepts, and shows you how to configure blocking thresholds for configurable
+content filters. There are also
+examples provided to demonstrate how to program
+a configurable content filter.
+Safety and content filters act as a barrier, preventing harmful output, but they don't
+directly influence the model's behavior. To learn more about model steerability,
+see System instructions for safety .
+Unsafe prompts
+The Gemini API provides one of the following enum codes to explain why a prompt was rejected:
+Enum
+Filter type
+Description
+PROHIBITED_CONTENT
+Non-configurable safety filter
+The prompt was blocked because it was flagged for containing prohibited contents, usually CSAM.
+BLOCKED_REASON_UNSPECIFIED
+N/A
+The reason for blocking the prompt is unspecified.
+OTHER
+N/A
+This enum refers to all other reasons for blocking a prompt. Note that Gemini API does not support all languages. For a list of supported languages, see Gemini language support .
+To learn more, see the BlockedReason API reference .
+The following are examples of Gemini API output for prompt feedback.
+If a prompt is blocked, promptFeedback contains a blockReason . If a
+prompt is not blocked, promptFeedback is empty, as in the following example:
+{
+"promptFeedback" : {
+},
+"usageMetadata" : {
+"promptTokenCount" : 7 ,
+"totalTokenCount" : 7
+}
+}
+The following example shows a prompt that is blocked for containing
+PROHIBITED_CONTENT :
+{
+"promptFeedback" : {
+"blockReason" : "PROHIBITED_CONTENT"
+},
+"usageMetadata" : {
+"promptTokenCount" : 7 ,
+"totalTokenCount" : 7
+}
+}
+The following example shows a prompt that is blocked for an unspecified
+reason:
+{
+"promptFeedback" : {
+"blockReason" : "BLOCKED_REASON_UNSPECIFIED"
+},
+"usageMetadata" : {
+"promptTokenCount" : 7 ,
+"totalTokenCount" : 7
+}
+}
+Unsafe responses
+The following filters can detect and block potentially unsafe responses:
+Non-configurable safety filters , which block child sexual abuse material
+(CSAM) and personally identifiable information (PII).
+Configurable content filters , which block unsafe content based on a list of
+harm categories and their user-configured blocking thresholds. You can
+configure blocking thresholds for each of these harms based on what is
+appropriate for your use case and business. To learn more, see Configurable content filters .
+Citation filters , which provide citations for source material.
+To learn more, see Citation filter .
+An LLM generates responses in units of text called tokens. A model stops
+generating tokens because it reaches a natural stopping point or
+because one of the filters blocks the response. The Gemini API
+provides one of the following enum codes to explain why token generation stopped:
+Enum
+Filter type
+Description
+STOP
+N/A
+This enum indicates that the model reached a natural stopping point or the provided stop sequence.
+MAX_TOKENS
+N/A
+The token generation was stopped because the model reached the maximum number of tokens that was specified in the request.
+SAFETY
+Configurable content filter
+The token generation was stopped because the response was flagged for harmful content.
+RECITATION
+Citation filter
+The token generation stopped because of potential recitation.
+SPII
+Non-configurable safety filter
+The token generation was stopped because the response was flagged for Sensitive Personally Identifiable Information (SPII) content.
+PROHIBITED_CONTENT
+Non-configurable safety filter
+The token generation was stopped because the response was flagged for containing prohibited content, usually CSAM.
+FINISH_REASON_UNSPECIFIED
+N/A
+The finish reason is unspecified.
+OTHER
+N/A
+This enum refers to all other reasons that stop token generation. Note that token generation is not supported for all languages. For a list of supported languages, see Gemini language support .
+To learn more, see the FinishReason API reference .
+If a filter blocks the response, it clears the response's Candidate.content
+field. It does not provide any feedback to the model.
+Configurable content filters
+Content filters assess content against a list
+of harms. For each harm category, the content filters assign one
+score based on the probability of the content being harmful and another
+score based on the severity of harmful content.
+The configurable content filters don't have versioning independent of model
+versions. Google doesn't update the configurable content filter for a previously
+released version of a model. However, it may update the configurable content
+filter for a future version of a model.
+Harm categories
+Content filters assess content based on the following harm categories:
+Harm Category
+Definition
+Hate Speech
+Negative or harmful comments targeting identity and/or protected attributes.
+Harassment
+Threatening, intimidating, bullying, or abusive comments targeting another individual.
+Sexually Explicit
+Contains references to sexual acts or other lewd content.
+Dangerous Content
+Promotes or enables access to harmful goods, services, and activities.
+Comparison of probability scores and severity scores
+The probability safety score reflects the likelihood that a model response
+is associated with the respective harm. It has an
+associated confidence score between 0.0 and 1.0 , rounded to one decimal place.
+The confidence score is discretized into four confidence levels:
+NEGLIGIBLE , LOW , MEDIUM , and HIGH .
+The severity score reflects the magnitude of how harmful a model
+response might be. It has an associated severity score ranging from
+0.0 to 1.0 , rounded to one decimal place. The severity score is discretized
+into four levels: NEGLIGIBLE , LOW , MEDIUM , and HIGH .
+Content can have a low probability score and a high severity score, or a
+high probability score and a low severity score.
+Content filter configuration options
+You can use the Gemini API or the Google Cloud console to configure
+content filters.
+Gemini API
+The Gemini API provides two "harm block" methods:
+SEVERITY : This method uses both probability and severity scores.
+PROBABILITY : This method uses the probability score only.
+The default method is SEVERITY .
+The Gemini API provides the following "harm block" thresholds:
+BLOCK_LOW_AND_ABOVE : Block when the probability score or the severity
+score is LOW , MEDIUM or HIGH .
+BLOCK_MEDIUM_AND_ABOVE : Block when the probability score or the severity
+score is MEDIUM or HIGH .
+BLOCK_ONLY_HIGH : Block when the probability score or the severity score
+is HIGH .
+HARM_BLOCK_THRESHOLD_UNSPECIFIED : Block using the default threshold.
+OFF : No automated response blocking and no metadata is returned.
+For gemini-3.5-flash and subsequent models, OFF is the
+default value.
+BLOCK_NONE : The BLOCK_NONE setting removes
+automated response blocking. Instead, you can configure your own content
+guidelines with the returned scores.
+For example, the following Python code demonstrates how you can set the harm
+block threshold to BLOCK_ONLY_HIGH for the dangerous content category:
+generative_models . SafetySetting (
+category = generative_models . HarmCategory . HARM_CATEGORY_DANGEROUS_CONTENT ,
+threshold = generative_models . HarmBlockThreshold . BLOCK_ONLY_HIGH ,
+),
+This will block most of the content that is classified as dangerous content.
+To learn more, see HarmBlockThreshold API reference .
+For end-to-end examples in Python, Node.js, Java, Go, C# and REST, see
+Examples of content filter configuration .
+Google Cloud console
+The Google Cloud console lets you configure a threshold for each content attribute.
+The content filter uses only the probability scores. There is no option to use
+the severity scores.
+The Google Cloud console provides the following threshold values:
+Off (default): No automated response blocking.
+Block few : Block when the probability score is HIGH .
+Block some : Block when the probability score is MEDIUM or HIGH .
+Block most : Block when the probability score is LOW , MEDIUM or HIGH .
+For example, if you set the block setting to Block few for the
+Dangerous Content category , everything that has a high probability of
+being dangerous content is blocked. Anything with a lower probability is
+allowed.
+To set the thresholds, see the following steps:
+In the Agent Platform section of the Google Cloud console, go to
+the Agent Studio page.
+Go to Agent Studio
+Under Create a new prompt , click any of the buttons to open the prompt
+design page.
+Click Safety settings .
+The Safety settings dialog window opens.
+For each harm category, configure the selected threshold value.
+Click Save .
+Example output for a blocked response
+The following is an example of Gemini API output when a response is
+blocked by the configurable content filter for containing dangerous content:
+{
+"candidates" : [{
+"finishReason" : "SAFETY" ,
+"safetyRatings" : [{
+"category" : "HARM_CATEGORY_HATE_SPEECH" ,
+"probability" : "NEGLIGIBLE" ,
+"probabilityScore" : 0.11027937 ,
+"severity" : "HARM_SEVERITY_LOW" ,
+"severityScore" : 0.28487435
+}, {
+"category" : "HARM_CATEGORY_DANGEROUS_CONTENT" ,
+"probability" : "HIGH" ,
+"blocked" : true ,
+"probabilityScore" : 0.95422274 ,
+"severity" : "HARM_SEVERITY_MEDIUM" ,
+"severityScore" : 0.43398145
+}, {
+"category" : "HARM_CATEGORY_HARASSMENT" ,
+"probability" : "NEGLIGIBLE" ,
+"probabilityScore" : 0.11085559 ,
+"severity" : "HARM_SEVERITY_NEGLIGIBLE" ,
+"severityScore" : 0.19027223
+}, {
+"category" : "HARM_CATEGORY_SEXUALLY_EXPLICIT" ,
+"probability" : "NEGLIGIBLE" ,
+"probabilityScore" : 0.22901751 ,
+"severity" : "HARM_SEVERITY_NEGLIGIBLE" ,
+"severityScore" : 0.09089675
+}]
+}],
+"usageMetadata" : {
+"promptTokenCount" : 38 ,
+"totalTokenCount" : 38
+}
+}
+Implementing a content filter configuration
+The following examples demonstrate how you can configure the content filter
+using the Gemini API:
+Python
+Install
+pip install --upgrade google-genai
+To learn more, see the
+SDK reference documentation .
+Set environment variables to use the Google Gen AI SDK with Vertex AI:
+# Replace the `GOOGLE_CLOUD_PROJECT` and `GOOGLE_CLOUD_LOCATION` values
+# with appropriate values for your project.
+export GOOGLE_CLOUD_PROJECT = GOOGLE_CLOUD_PROJECT
+export GOOGLE_CLOUD_LOCATION = global
+export GOOGLE_GENAI_USE_ENTERPRISE = True
+from google import genai
+from google.genai.types import (
+GenerateContentConfig ,
+HarmBlockThreshold ,
+HarmCategory ,
+HttpOptions ,
+SafetySetting ,
+)
+client = genai . Client ( http_options = HttpOptions ( api_version = "v1" ))
+system_instruction = "Be as mean as possible."
+prompt = """
+Write a list of 5 disrespectful things that I might say to the universe after stubbing my toe in the dark.
+"""
+safety_settings = [
+SafetySetting (
+category = HarmCategory . HARM_CATEGORY_DANGEROUS_CONTENT ,
+threshold = HarmBlockThreshold . BLOCK_LOW_AND_ABOVE ,
+),
+SafetySetting (
+category = HarmCategory . HARM_CATEGORY_HARASSMENT ,
+threshold = HarmBlockThreshold . BLOCK_LOW_AND_ABOVE ,
+),
+SafetySetting (
+category = HarmCategory . HARM_CATEGORY_HATE_SPEECH ,
+threshold = HarmBlockThreshold . BLOCK_LOW_AND_ABOVE ,
+),
+SafetySetting (
+category = HarmCategory . HARM_CATEGORY_SEXUALLY_EXPLICIT ,
+threshold = HarmBlockThreshold . BLOCK_LOW_AND_ABOVE ,
+),
+]
+response = client . models . generate_content (
+model = "gemini-3.5-flash" ,
+contents = prompt ,
+config = GenerateContentConfig (
+system_instruction = system_instruction ,
+safety_settings = safety_settings ,
+),
+)
+# Response will be `None` if it is blocked.
+print ( response . text )
+# Example response:
+# None
+# Finish Reason will be `SAFETY` if it is blocked.
+print ( response . candidates [ 0 ] . finish_reason )
+# Example response:
+# FinishReason.SAFETY
+# For details on all the fields in the response
+for each in response . candidates [ 0 ] . safety_ratings :
+print ( ' \n Category: ' , str ( each . category ))
+print ( 'Is Blocked:' , True if each . blocked else False )
+print ( 'Probability: ' , each . probability )
+print ( 'Probability Score: ' , each . probability_score )
+print ( 'Severity:' , each . severity )
+print ( 'Severity Score:' , each . severity_score )
+# Example response:
+#
+# Category: HarmCategory.HARM_CATEGORY_HATE_SPEECH
+# Is Blocked: False
+# Probability: HarmProbability.NEGLIGIBLE
+# Probability Score: 2.547714e-05
+# Severity: HarmSeverity.HARM_SEVERITY_NEGLIGIBLE
+# Severity Score: None
+#
+# Category: HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT
+# Is Blocked: False
+# Probability: HarmProbability.NEGLIGIBLE
+# Probability Score: 3.6103818e-06
+# Severity: HarmSeverity.HARM_SEVERITY_NEGLIGIBLE
+# Severity Score: None
+#
+# Category: HarmCategory.HARM_CATEGORY_HARASSMENT
+# Is Blocked: True
+# Probability: HarmProbability.MEDIUM
+# Probability Score: 0.71599233
+# Severity: HarmSeverity.HARM_SEVERITY_MEDIUM
+# Severity Score: 0.30782545
+#
+# Category: HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT
+# Is Blocked: False
+# Probability: HarmProbability.NEGLIGIBLE
+# Probability Score: 1.5624657e-05
+# Severity: HarmSeverity.HARM_SEVERITY_NEGLIGIBLE
+# Severity Score: None
+Go
+Learn how to install or update the Go .
+To learn more, see the
+SDK reference documentation .
+Set environment variables to use the Google Gen AI SDK with Vertex AI:
+# Replace the `GOOGLE_CLOUD_PROJECT` and `GOOGLE_CLOUD_LOCATION` values
+# with appropriate values for your project.
+export GOOGLE_CLOUD_PROJECT = GOOGLE_CLOUD_PROJECT
+export GOOGLE_CLOUD_LOCATION = global
+export GOOGLE_GENAI_USE_ENTERPRISE = True
+import (
+"context"
+"fmt"
+"io"
+"google.golang.org/genai"
+)
+// generateTextWithSafety shows how to apply safety settings to a text generation request .
+func generateTextWithSafety ( w io . Writer ) error {
+ctx := context . Background ()
+client , err := genai . NewClient ( ctx , & genai . ClientConfig {
+HTTPOptions : genai . HTTPOptions { APIVersion : "v1" },
+})
+if err != nil {
+return fmt . Errorf ( "failed to create genai client: %w" , err )
+}
+systemInstruction := & genai . Content {
+Parts : [] * genai . Part {
+{ Text : "Be as mean as possible." },
+},
+Role : genai . RoleUser ,
+}
+prompt := "Write a list of 5 disrespectful things that I might say to the universe after stubbing my toe in the dark."
+safetySettings := [] * genai . SafetySetting {
+{ Category : genai . HarmCategoryDangerousContent , Threshold : genai . HarmBlockThresholdBlockLowAndAbove },
+{ Category : genai . HarmCategoryHarassment , Threshold : genai . HarmBlockThresholdBlockLowAndAbove },
+{ Category : genai . HarmCategoryHateSpeech , Threshold : genai . HarmBlockThresholdBlockLowAndAbove },
+{ Category : genai . HarmCategorySexuallyExplicit , Threshold : genai . HarmBlockThresholdBlockLowAndAbove },
+}
+config := & genai . GenerateContentConfig {
+SystemInstruction : systemInstruction ,
+SafetySettings : safetySettings ,
+}
+modelName := "gemini-2.5-flash"
+resp , err := client . Models . GenerateContent ( ctx , modelName ,
+[] * genai . Content {{Parts: []*genai.Part{{Text: prompt} }, Role : genai . RoleUser }},
+config ,
+)
+if err != nil {
+return fmt . Errorf ( "failed to generate content: %w" , err )
+}
+fmt . Fprintln ( w , resp . Text ())
+if len ( resp . Candidates ) > 0 {
+fmt . Fprintln ( w , "Finish Reason:" , resp . Candidates [ 0 ] . FinishReason )
+for _ , rating := range resp . Candidates [ 0 ] . SafetyRatings {
+fmt . Fprintf ( w , " \n Category: %v \n Is Blocked: %v \n Probability: %v \n Probability Score: %v \n Severity: %v \n Severity Score: %v \n " ,
+rating . Category ,
+rating . Blocked ,
+rating . Probability ,
+rating . ProbabilityScore ,
+rating . Severity ,
+rating . SeverityScore ,
+)
+}
+}
+// Example response :
+// Category : HARM_CATEGORY_HATE_SPEECH
+// Is Blocked : false
+// Probability : NEGLIGIBLE
+// Probability Score : 8.996795e-06
+// Severity : HARM_SEVERITY_NEGLIGIBLE
+// Severity Score : 0.04771039
+//
+// Category : HARM_CATEGORY_DANGEROUS_CONTENT
+// Is Blocked : false
+// Probability : NEGLIGIBLE
+// Probability Score : 2.2431707e-06
+// Severity : HARM_SEVERITY_NEGLIGIBLE
+// Severity Score : 0
+//
+// Category : HARM_CATEGORY_HARASSMENT
+// Is Blocked : false
+// Probability : NEGLIGIBLE
+// Probability Score : 0.00026123362
+// Severity : HARM_SEVERITY_NEGLIGIBLE
+// Severity Score : 0.022358216
+//
+// Category : HARM_CATEGORY_SEXUALLY_EXPLICIT
+// Is Blocked : false
+// Probability : NEGLIGIBLE
+// Probability Score : 6.1352006e-07
+// Severity : HARM_SEVERITY_NEGLIGIBLE
+// Severity Score : 0.020111412
+return nil
+}
+REST
+Before using any of the request data,
+make the following replacements:
+LOCATION : The region to process the request.
+PROJECT_ID :
+Your project ID .
+.
+MODEL_ID : The model ID of the multimodal model
+that you want to use, like gemini-3.5-flash .
+ROLE : The role in a conversation associated with the
+content. Specifying a role is required even in singleturn use cases.
+Acceptable values include the following:
+USER : Specifies content that's sent by you.
+MODEL : Specifies the model's response.
+TEXT : The text instructions to include in the prompt.
+SAFETY_CATEGORY : The safety category to
+configure a threshold for. Acceptable values include the following:
+Click to expand safety categories
+HARM_CATEGORY_SEXUALLY_EXPLICIT
+HARM_CATEGORY_HATE_SPEECH
+HARM_CATEGORY_HARASSMENT
+HARM_CATEGORY_DANGEROUS_CONTENT
+THRESHOLD : The threshold for blocking responses
+that could belong to the specified safety category based on probability. Acceptable values
+include the following:
+Click to expand blocking thresholds
+BLOCK_NONE
+BLOCK_ONLY_HIGH
+BLOCK_MEDIUM_AND_ABOVE (default)
+BLOCK_LOW_AND_ABOVE
+BLOCK_LOW_AND_ABOVE blocks the most while BLOCK_ONLY_HIGH blocks
+the least.
+HTTP method and URL:
+POST https:// LOCATION -aiplatform.googleapis.com/v1/projects/ PROJECT_ID /locations/ LOCATION /publishers/google/models/ MODEL_ID :streamGenerateContent
+Request JSON body:
+{
+"contents": {
+"role": " ROLE ",
+"parts": { "text": " TEXT " }
+},
+"safetySettings": {
+"category": " SAFETY_CATEGORY ",
+"threshold": " THRESHOLD "
+},
+}
+To send your request, choose one of these options:
+curl
+Note:
+The following command assumes that you have logged in to
+the gcloud CLI with your user account by running
+gcloud init
+or
+gcloud auth login
+, or by using Cloud Shell ,
+which automatically logs you into the gcloud CLI
+.
+You can check the currently active account by running
+gcloud auth list .
+Save the request body in a file named request.json ,
+and execute the following command:
+curl -X POST \
+-H "Authorization: Bearer $(gcloud auth print-access-token)" \
+-H "Content-Type: application/json; charset=utf-8" \
+-d @request.json \
+"https:// LOCATION -aiplatform.googleapis.com/v1/projects/ PROJECT_ID /locations/ LOCATION /publishers/google/models/ MODEL_ID :streamGenerateContent"
+PowerShell
+Note:
+The following command assumes that you have logged in to
+the gcloud CLI with your user account by running
+gcloud init
+or
+gcloud auth login
+.
+You can check the currently active account by running
+gcloud auth list .
+Save the request body in a file named request.json ,
+and execute the following command:
+$cred = gcloud auth print-access-token
+$headers = @{ "Authorization" = "Bearer $cred" }
+Invoke-WebRequest `
+-Method POST `
+-Headers $headers `
+-ContentType: "application/json; charset=utf-8" `
+-InFile request.json `
+-Uri "https:// LOCATION -aiplatform.googleapis.com/v1/projects/ PROJECT_ID /locations/ LOCATION /publishers/google/models/ MODEL_ID :streamGenerateContent" | Select-Object -Expand Content
+You should receive a JSON response similar to the following.
+Response
+[{
+"candidates": [
+{
+"content": {
+"role": "model",
+"parts": [
+{
+"text": " The picture shows a table with a white tablecloth. On the table are two cups of coffee, a bowl of blueberries, and five scones with blueberries. There"
+}
+]
+},
+"safetyRatings": [
+{
+"category": "HARM_CATEGORY_HARASSMENT",
+"probability": "NEGLIGIBLE"
+},
+{
+"category": "HARM_CATEGORY_HATE_SPEECH",
+"probability": "NEGLIGIBLE"
+},
+{
+"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+"probability": "NEGLIGIBLE"
+},
+{
+"category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+"probability": "NEGLIGIBLE"
+}
+]
+}
+]
+}
+,
+{
+"candidates": [
+{
+"content": {
+"role": "model",
+"parts": [
+{
+"text": " are also some pink flowers on the table. The background is a dark blue color. The picture is taken from a top-down perspective."
+}
+]
+},
+"finishReason": "STOP",
+"safetyRatings": [
+{
+"category": "HARM_CATEGORY_HARASSMENT",
+"probability": "NEGLIGIBLE"
+},
+{
+"category": "HARM_CATEGORY_HATE_SPEECH",
+"probability": "NEGLIGIBLE"
+},
+{
+"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+"probability": "NEGLIGIBLE"
+},
+{
+"category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+"probability": "NEGLIGIBLE"
+}
+]
+}
+],
+"usageMetadata": {
+"promptTokenCount": 262,
+"candidatesTokenCount": 59,
+"totalTokenCount": 321
+}
+}
+Example curl command
+LOCATION = "us-central1"
+MODEL_ID = "gemini-3.5-flash"
+PROJECT_ID = "test-project"
+curl \
+-X POST \
+-H "Authorization: Bearer $( gcloud auth print-access-token ) " \
+-H "Content-Type: application/json" \
+https:// ${ LOCATION } -aiplatform.googleapis.com/v1/projects/ ${ PROJECT_ID } /locations/ ${ LOCATION } /publishers/google/models/ ${ MODEL_ID } :streamGenerateContent -d \
+$'{
+"contents": {
+"role": "user",
+"parts": { "text": "Hello!" }
+},
+"safety_settings": [
+{
+"category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+"threshold": "OFF"
+},
+{
+"category": "HARM_CATEGORY_HATE_SPEECH",
+"threshold": "BLOCK_LOW_AND_ABOVE"
+},
+{
+"category": "HARM_CATEGORY_HARASSMENT",
+"threshold": "BLOCK_MEDIUM_AND_ABOVE"
+},
+{
+"category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+"threshold": "BLOCK_ONLY_HIGH"
+}
+]
+}'
+Node.js
+Install
+npm install @google/genai
+To learn more, see the
+SDK reference documentation .
+Set environment variables to use the Google Gen AI SDK with Vertex AI:
+# Replace the `GOOGLE_CLOUD_PROJECT` and `GOOGLE_CLOUD_LOCATION` values
+# with appropriate values for your project.
+export GOOGLE_CLOUD_PROJECT = GOOGLE_CLOUD_PROJECT
+export GOOGLE_CLOUD_LOCATION = global
+export GOOGLE_GENAI_USE_ENTERPRISE = True
+const { GoogleGenAI } = require ( '@google/genai' );
+const GOOGLE_CLOUD_PROJECT = process . env . GOOGLE_CLOUD_PROJECT ;
+const GOOGLE_CLOUD_LOCATION = process . env . GOOGLE_CLOUD_LOCATION || 'global' ;
+async function generateWithSafetySettings (
+projectId = GOOGLE_CLOUD_PROJECT ,
+location = GOOGLE_CLOUD_LOCATION
+) {
+const client = new GoogleGenAI ({
+vertexai : true ,
+project : projectId ,
+location : location ,
+});
+const systemInstruction = 'Be as mean as possible.' ;
+const prompt =
+'Write a list of 5 disrespectful things that I might say to the universe after stubbing my toe in the dark.' ;
+const safetySettings = [
+{
+category : 'HARM_CATEGORY_DANGEROUS_CONTENT' ,
+threshold : 'BLOCK_LOW_AND_ABOVE' ,
+},
+{
+category : 'HARM_CATEGORY_HARASSMENT' ,
+threshold : 'BLOCK_LOW_AND_ABOVE' ,
+},
+{
+category : 'HARM_CATEGORY_HATE_SPEECH' ,
+threshold : 'BLOCK_LOW_AND_ABOVE' ,
+},
+{
+category : 'HARM_CATEGORY_SEXUALLY_EXPLICIT' ,
+threshold : 'BLOCK_LOW_AND_ABOVE' ,
+},
+];
+const response = await client . models . generateContent ({
+model : 'gemini-2.5-flash' ,
+contents : prompt ,
+config : {
+systemInstruction : systemInstruction ,
+safetySettings : safetySettings ,
+},
+});
+// console . log ( response . text );
+// console . log ( response . candidates [ 0 ] . finishMessage );
+//
+// for ( const each of response . candidates [ 0 ] . safetyRatings ) {
+// console . log ( ' \n Category:' , String ( each . category ));
+// console . log ( 'Is Blocked:' , each . blocked );
+// console . log ( 'Probability:' , each . probability );
+// console . log ( 'Probability Score:' , each . probabilityScore );
+// console . log ( 'Severity:' , each . severity );
+// console . log ( 'Severity Score:' , each . severityScore );
+// }
+// Example response :
+//
+// Category : HarmCategory . HARM_CATEGORY_HATE_SPEECH
+// Is Blocked : False
+// Probability : HarmProbability . NEGLIGIBLE
+// Probability Score : 2.547714e-05
+// Severity : HarmSeverity . HARM_SEVERITY_NEGLIGIBLE
+// Severity Score : None
+//
+// Category : HarmCategory . HARM_CATEGORY_DANGEROUS_CONTENT
+// Is Blocked : False
+// Probability : HarmProbability . NEGLIGIBLE
+// Probability Score : 3.6103818e-06
+// Severity : HarmSeverity . HARM_SEVERITY_NEGLIGIBLE
+// Severity Score : None
+//
+// Category : HarmCategory . HARM_CATEGORY_HARASSMENT
+// Is Blocked : True
+// Probability : HarmProbability . MEDIUM
+// Probability Score : 0.71599233
+// Severity : HarmSeverity . HARM_SEVERITY_MEDIUM
+// Severity Score : 0.30782545
+//
+// Category : HarmCategory . HARM_CATEGORY_SEXUALLY_EXPLICIT
+// Is Blocked : False
+// Probability : HarmProbability . NEGLIGIBLE
+// Probability Score : 1.5624657e-05
+// Severity : HarmSeverity . HARM_SEVERITY_NEGLIGIBLE
+// Severity Score : None
+return response ;
+}
+Java
+Learn how to install or update the Java .
+To learn more, see the
+SDK reference documentation .
+Set environment variables to use the Google Gen AI SDK with Vertex AI:
+# Replace the `GOOGLE_CLOUD_PROJECT` and `GOOGLE_CLOUD_LOCATION` values
+# with appropriate values for your project.
+export GOOGLE_CLOUD_PROJECT = GOOGLE_CLOUD_PROJECT
+export GOOGLE_CLOUD_LOCATION = global
+export GOOGLE_GENAI_USE_ENTERPRISE = True
+import com.google.genai.Client ;
+import com.google.genai.types.Candidate ;
+import com.google.genai.types.Content ;
+import com.google.genai.types.GenerateContentConfig ;
+import com.google.genai.types.GenerateContentResponse ;
+import com.google.genai.types.HarmBlockThreshold ;
+import com.google.genai.types.HarmCategory ;
+import com.google.genai.types.HttpOptions ;
+import com.google.genai.types.Part ;
+import com.google.genai.types.SafetySetting ;
+import java.util.List ;
+import java.util.stream.Collectors ;
+public class SafetyWithTxt {
+public static void main ( String [] args ) {
+// TODO ( developer ): Replace these variables before running the sample .
+String modelId = "gemini-2.5-flash" ;
+generateContent ( modelId );
+}
+// Shows how to generate content with safety settings .
+public static GenerateContentResponse generateContent ( String modelId ) {
+// Client Initialization . Once created , it can be reused for multiple requests .
+try ( Client client =
+Client . builder ()
+. location ( "global" )
+. vertexAI ( true )
+. httpOptions ( HttpOptions . builder () . apiVersion ( "v1" ) . build ())
+. build ()) {
+String systemInstruction = "Be as mean as possible." ;
+String prompt =
+"Write a list of 5 disrespectful things that I might say"
++ " to the universe after stubbing my toe in the dark." ;
+// Set safety settings .
+List<HarmCategory . Known > categoriesToBlock =
+List . of (
+HarmCategory . Known . HARM_CATEGORY_DANGEROUS_CONTENT ,
+HarmCategory . Known . HARM_CATEGORY_HARASSMENT ,
+HarmCategory . Known . HARM_CATEGORY_HATE_SPEECH ,
+HarmCategory . Known . HARM_CATEGORY_SEXUALLY_EXPLICIT );
+List<SafetySetting> safetySettings =
+categoriesToBlock . stream ()
+. map (
+category - >
+SafetySetting . builder ()
+. category ( category )
+. threshold ( HarmBlockThreshold . Known . BLOCK_LOW_AND_ABOVE )
+. build ())
+. collect ( Collectors . toList ());
+GenerateContentResponse response =
+client . models . generateContent (
+modelId ,
+prompt ,
+GenerateContentConfig . builder ()
+. systemInstruction ( Content . fromParts ( Part . fromText ( systemInstruction )))
+. safetySettings ( safetySettings )
+. build ());
+// Get response candidate .
+Candidate candidate =
+response
+. candidates ()
+. flatMap ( candidates - > candidates . stream () . findFirst ())
+. orElseThrow (
+() - > new IllegalStateException ( "No response candidate generated by the model." ));
+// Finish Reason will be ` SAFETY ` if it is blocked .
+System . out . println ( candidate . finishReason ());
+// Example response :
+// Optional [ SAFETY ]
+// For details on all the fields in the response .
+candidate
+. safetyRatings ()
+. ifPresent (
+safetyRatings - >
+safetyRatings . forEach (
+safetyRating - > {
+System . out . println ( " \n Category: " + safetyRating . category ());
+System . out . println ( "Is Blocked: " + safetyRating . blocked ());
+System . out . println ( "Probability: " + safetyRating . probability ());
+System . out . println ( "Probability Score: " + safetyRating . probabilityScore ());
+System . out . println ( "Severity: " + safetyRating . severity ());
+System . out . println ( "Severity Score: " + safetyRating . severityScore ());
+}));
+// Example response :
+// Category : Optional [ HARM_CATEGORY_HATE_SPEECH ]
+// Is Blocked : Optional . empty
+// Probability : Optional [ NEGLIGIBLE ]
+// Probability Score : Optional [ 1.9967922E-5 ]
+// Severity : Optional [ HARM_SEVERITY_NEGLIGIBLE ]
+// Severity Score : Optional [ 0.05732864 ]
+//
+// Category : Optional [ HARM_CATEGORY_DANGEROUS_CONTENT ]
+// Is Blocked : Optional . empty
+// Probability : Optional [ NEGLIGIBLE ]
+// Probability Score : Optional [ 2.9124324E-6 ]
+// Severity : Optional [ HARM_SEVERITY_NEGLIGIBLE ]
+// Severity Score : Optional [ 0.04544826 ]
+//
+// Category : Optional [ HARM_CATEGORY_HARASSMENT ]
+// Is Blocked : Optional [ true ]
+// Probability : Optional [ MEDIUM ]
+// Probability Score : Optional [ 0.4593908 ]
+// Severity : Optional [ HARM_SEVERITY_MEDIUM ]
+// Severity Score : Optional [ 0.22082388 ]
+//
+// Category : Optional [ HARM_CATEGORY_SEXUALLY_EXPLICIT ]
+// Is Blocked : Optional . empty
+// Probability : Optional [ NEGLIGIBLE ]
+// Probability Score : Optional [ 6.453211E-8 ]
+// Severity : Optional [ HARM_SEVERITY_NEGLIGIBLE ]
+// Severity Score : Optional [ 0.023201048 ]
+return response ;
+}
+}
+}
+Jailbreak classifier
+Preview
+This feature is
+subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the
+Service Specific
+Terms .
+Pre-GA features are available "as is" and might have limited support.
+For more information, see the
+launch stage descriptions .
+Note: This feature is only available in gemini-3-flash-preview .
+Some prompts attempt to bypass safety guidelines, ethical constraints, or
+intended operational instructions, leading to potentially harmful, biased,
+or inappropriate outputs. The jailbreak classifier detects and, depending on the
+configuration, blocks prompts that attempt to circumvent the model's defenses.
+This filter is off by default. To turn it on, set the blocking threshold for
+JAILBREAK to any of the following values:
+BLOCK_NONE
+BLOCK_LOW_AND_ABOVE
+BLOCK_MEDIUM_AND_ABOVE
+BLOCK_ONLY_HIGH
+The following code shows you how to turn on this jailbreak filter:
+generative_models . SafetySetting (
+category = generative_models . HarmCategory . HARM_CATEGORY_JAILBREAK ,
+threshold = generative_models . HarmBlockThreshold . BLOCK_ONLY_HIGH ,
+)
+If the content is blocked by the jailbreak classifier, you can expect a result
+similar to this:
+{
+prompt_feedback : {
+block_reason : JAILBREAK
+safety_ratings : [
+{
+category : HARM_CATEGORY_JAILBREAK
+blocked : true
+severity : HARM_SEVERITY_MEDIUM
+severity_score : 0.76953125
+}
+]
+}
+}
+If you set HarmBlockMethod to PROBABILITY , then safety_ratings contains
+probability and probability_score instead of severity and
+severity_score . In the case where the prompt isn't blocked or flagged, the
+model will still return safety ratings depending on HarmBlockMethod .
+Billing
+Like other Gemini safety filters, using the jailbreak classifier is
+free.
+Citation filter
+The generative code features of Agent Platform are intended to produce
+original content. By design, Gemini limits the likelihood
+that existing content is replicated at length. If a Gemini feature does
+make an extensive quotation from a web page, Gemini cites that page.
+Sometimes the same content can be found on multiple web pages. Gemini
+attempts to point you to a popular source. In the case of
+citations to code repositories, the citation might also reference an applicable
+open source license. Complying with any license requirements is your own
+responsibility.
+To learn about the metadata of the citation filter, see the
+Citation API reference .
+Best practices
+While content filters help prevent unsafe content, they might occasionally block
+benign content or miss harmful content. Advanced models like
+Gemini 3.5 Flash are designed to generate safe responses even without
+filters. Test different filter settings to find the right balance between
+safety and allowing appropriate content.
+What's next
+Learn about system instructions for safety .
+Learn about abuse monitoring .
+Learn more about responsible AI .
+Learn how to process blocked responses .
+Send feedback
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License , and code samples are licensed under the Apache 2.0 License . For details, see the Google Developers Site Policies . Java is a registered trademark of Oracle and/or its affiliates.
+Last updated 2026-10-21 UTC.
+Need to tell us more?
+[[["Easy to understand","easyToUnderstand","thumb-up"],["Solved my problem","solvedMyProblem","thumb-up"],["Other","otherUp","thumb-up"]],[["Hard to understand","hardToUnderstand","thumb-down"],["Incorrect information or sample code","incorrectInformationOrSampleCode","thumb-down"],["Missing the information/samples I need","missingTheInformationSamplesINeed","thumb-down"],["Other","otherDown","thumb-down"]],["Last updated 2026-10-21 UTC."],[],[]]
+Products and pricing
+See all products
+Google Cloud pricing
+Google Cloud Marketplace
+Contact sales
+Support
+Community forums
+Support
+Release Notes
+System status
+Resources
+GitHub
+Getting Started with Google Cloud
+Code samples
+Cloud Architecture Center
+Training and Certification
+Builders Hub
+Engage
+Blog
+Events
+X (Twitter)
+Google Cloud on YouTube
+Google Cloud Tech on YouTube
+Android
+Chrome
+Firebase
+Google AI
+About Google
+Privacy
+Site terms
+Google Cloud terms
+Manage cookies
+Our third decade of climate action: join us
+Sign up for the Google Cloud newsletter
+Subscribe
+English
+Deutsch
+Español – América Latina
+Français
+Indonesia
+Italiano
+Português – Brasil
+עברית
+中文 – 简体
+中文 – 繁體
+日本語
+한국어

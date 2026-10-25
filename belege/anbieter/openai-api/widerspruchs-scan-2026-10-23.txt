@@ -1,0 +1,48 @@
+Quelle: https://developers.openai.com/api/docs/guides/your-data.md, https://developers.openai.com/api/docs/guides/prompt-caching.md, https://developers.openai.com/api/docs/guides/background.md (alle direkt), https://web.archive.org/web/20261023002021id_/https://openai.com/api/ (openai.com liefert direkt HTTP 403)
+Abruf: 2026-10-23 ~06:40-06:48 UTC (curl, je HTTP 200, 3 s Abstand, robots.txt developers.openai.com „Allow: /“). SHA-256 der Rohseiten: your-data fe16f348d9a3bfe643e0ffa4fa5e41b80f14acd8c9219a7ece34de00a5604e60, prompt-caching 715eacd5f0fe6bd7b238b74b770a6eb5b9a5260f464b5d54066b0bf580d3e995, background d2d57a438960aa28d77de3ea869a1cd68197bb3b27d1097d149b8068560b9d4f, openai.com/api (Archivkopie 23.10.2026 00:20 UTC) cba3b4bfb21b6d40d2d0eb9e69473804517a2c41910b7a024295f4ac88890b25. belegbar.eu
+Inhalt: wörtliche Auszüge aus dem Widerspruchs-Scan OpenAI API (Textfassung). Frage: Sagen die OpenAI-Seiten untereinander oder in der Werbung etwas anderes als das Profil?
+
+Vorab: Der Leitfaden „Data controls in the OpenAI platform“ ist wortgleich mit der Kopie vom 22.10. (api-your-data-direkt-2026-10-22.txt). Alle Profil-Zitate daraus stehen weiter da.
+
+A. Werbung: „Zero data retention“ (openai.com/api, Archivkopie 23.10.2026)
+
+1. Abschnitt „Security and data privacy“:
+No training on your data
+Zero data retention policy by request
+
+B. Doku: auch mit ZDR wird etwas gespeichert (Fall-Kandidat 47)
+
+2. your-data, Tabelle und Einleitung dazu:
+Zero Data Retention eligible endpoints do not retain any customer content for application state, subject to the limitations below.
+
+3. your-data, Grenzen bei /v1/chat/completions, /v1/responses und /v1/decisions:
+Prompt caching may store encrypted key/value tensors in GPU-local storage as application state. This data is stored on the local GPU machines and is not retained after the 24-hour expiration.
+
+4. prompt-caching, „GPT-5.6 and later“ (gilt für die Profil-Modelle gpt-6-astra, gpt-6.1-sol, gpt-6-luna):
+| `"30m"` (default) | 30 minutes       | 1.25× the uncached input-token rate | Conversations and agent steps that reuse context frequently.         |
+| `"12h"`           | 12 hours         | 2.5× the uncached input-token rate  | Stable instructions or reference material reused across longer gaps. |
+OpenAI may retain entries longer than the requested minimum; `"12h"` does not set a deletion deadline or change the maximum data-retention policy
+
+5. prompt-caching, nur für ältere Modelle gibt es eine ZDR-Voreinstellung:
+Organizations _without_ Zero Data Retention enabled default to `24h`.
+Organizations _with_ Zero Data Retention enabled default to `in_memory`.
+Für GPT-5.6 und später nennt die Seite nur `"30m"` und `"12h"`, kein `in_memory` und keine eigene ZDR-Regel. Ob eine ZDR-Organisation bei den GPT-6-Modellen ohne Zwischenspeicher auf GPU-Speicher arbeiten kann, steht nicht da (ungeklärt).
+
+6. background, ZDR-Projekte:
+Background requests from Zero Data Retention (ZDR) projects run with
+  `store=false`. Response data is temporarily stored to disk for roughly 10
+  minutes to enable asynchronous execution and polling.
+
+7. your-data, Bilder (stand schon im Profil):
+If the classifier detects potential CSAM content, the image will be retained for manual review, even if Zero Data Retention, Modified Abuse Monitoring
+
+C. Ort: Zwischenspeicher kann die Region verlassen (neu im Profil)
+
+8. your-data, Grenzen bei /v1/chat/completions, /v1/responses, /v1/decisions:
+Extended prompt caching in regions that do not support Regional processing may require that OpenAI process and temporarily store Customer Content outside of the Region to deliver the services.
+Europa (EEA + Switzerland) unterstützt laut derselben Seite Regional processing; der Satz trifft also Regionen ohne Regional processing, nicht eu.api.openai.com.
+
+D. Ohne Widerspruch
+
+9. openai.com/api: „No training on your data“ deckt sich mit der Tabelle (Spalte „Data used for training“ überall „No“) und mit „data sent to the OpenAI API is not used to train or improve OpenAI models (unless you explicitly opt in to share data with us)“.
+10. openai.com/api: „Data residency controls“ und „Unlock advanced data retention and data residency controls / Contact sales“ deckt sich mit „Contact our sales team to see if you're eligible for using data residency controls.“

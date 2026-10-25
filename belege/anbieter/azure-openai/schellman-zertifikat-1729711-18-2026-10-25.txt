@@ -1,0 +1,1498 @@
+=== Seite 1
+Page 1 of 16
+CERTIFICATE OF REGISTRATION 
+ISO/IEC 27001:2022 and ISO/IEC 27701:2019
+The Certification Body of Schellman Compliance, LLC hereby confirms as a result of the certification decision, according 
+to ISO/IEC 17021-1, that the following organization operates an Information Security Management System and Privacy 
+Information Management System that conforms to the requirements of ISO/IEC 27001:2022 and ISO/IEC 27701:2019
+Microsoft Corporation
+for the following scope of registration
+The scope of the ISO/IEC 27001:2022 certification covers the Information Security Management System (ISMS) supporting 
+Microsoft Azure, Dynamics 365, and other Online Services that are deployed in Azure Public and Government Cloud including 
+their development, operations, and infrastructure and their associated security, privacy, and compliance and inclusive of the 
+requirements and control implementation guidance of ISO/IEC 27701:2019 for a privacy information management system 
+(PIMS) as data processor per the statement of applicability version 2026.01.
+which includes the following in-scope locations on pages 13 - 17
+Certificate Number:
+1729711-18
+Authorized by:
+Danny Manimbo
+Managing Principal, Schellman Compliance, LLC
+4010 W Boy Scout Blvd, Suite 600
+Tampa, Florida 33607, United States
+www.schellman.com
+CONDITIONS & LIMITATIONS:
+1. The aforementioned organization has a perpetual responsibility to maintain compliance with ISO/IEC 27001:2022 and ISO/IEC 27701:2019 during the period of certification.
+2. This certificate is subject to the satisfactory completion of annual surveillance audits by Schellman Compliance, LLC.
+3. ISO/IEC 27001:2022 and ISO/IEC 27701:2019 compliance audits are not designed to detect or prevent criminal activity or other acts that may result in an information security breach.  As such, this certification should not be 
+construed as a guarantee or assurance that an organization is unsusceptible to information security breaches.
+4. The information in this document is provided “AS IS”, without warranties of any kind.  Schellman Compliance, LLC expressly disclaims any representations and warranties, including, without limitation, the implied warranties of 
+merchantability and fitness for a particular purpose.
+5. This certificate is the property of Schellman Compliance, LLC and is bound by the conditions of contract.  The authenticity of this certificate can be validated by contacting Schellman Compliance, LLC.
+6. The organization operating the certified ISMS and PIMS is monitored by Schellman Compliance, LLC during the term of the certificate.
+7. This ISO/IEC 27001:2022 and ISO/IEC 27701:2019 certificate does not authorize the labelling of products, processes, or services.
+Issue Date
+Original Registration Date
+Expiration Date
+Certificate Version
+June 25, 2026
+November 29, 2011
+June 16, 2029
+Version 18
+
+=== Seite 2
+CONTENT DRAFT
+Page 2 of 16
+Certificate Number:
+1729711-18
+Registered Scope
+Product 
+Category
+Service/Offering Name
+Cloud Environment Scope
+Azure
+Azure 
+Government
+AI + Machine 
+Learning
+Azure Bot Service
+✓
+✓
+Microsoft Foundry
+✓
+✓
+Microsoft Foundry: Foundry Models
+✓
+✓
+Microsoft Foundry: Azure AI Anomaly Detector
+✓
+-
+Microsoft Foundry: Azure Document Intelligence
+✓
+✓
+Microsoft Foundry: Azure AI Metrics Advisor
+✓
+-
+Microsoft Foundry: Azure Vision
+✓
+✓
+Microsoft Foundry: Content Safety
+✓
+✓
+Microsoft Foundry: Azure AI Content Moderator
+✓
+✓
+Microsoft Foundry: Azure Custom Vision
+✓
+✓
+Microsoft Foundry: Azure Vision - Face
+✓
+✓
+Microsoft Foundry: Azure AI Immersive Reader
+✓
+-
+Microsoft Foundry: Azure AI Personalizer
+✓
+✓
+Microsoft Foundry: Azure Language
+✓
+✓
+Microsoft Foundry: Azure AI Language Understanding
+✓
+✓
+Microsoft Foundry: Azure Translator
+✓
+✓
+Microsoft Foundry: Azure AI QnA Maker
+✓
+✓
+Microsoft Foundry: Azure Speech
+✓
+✓
+Microsoft Foundry: Azure Machine Learning
+✓
+✓
+Microsoft Foundry: Foundry Agent Service
+✓
+-
+Azure AI Search
+✓
+✓
+AI Builder
+✓
+✓
+Microsoft Security Copilot
+✓
+-
+Microsoft Copilot for Sales
+✓
+-
+Microsoft Copilot for Service
+✓
+-
+AI + Machine 
+Learning
+Azure Health Bot
+✓
+-
+Azure Health AI Deidentification Service
+✓
+-
+Copilot for Finance
+✓
+-
+Microsoft Dragon Copilot
+✓
+-
+Analytics
+Azure Analysis Services
+✓
+✓
+CONDITIONS & LIMITATIONS:
+1. The aforementioned organization has a perpetual responsibility to maintain compliance with ISO/IEC 27001:2022 and ISO/IEC 27701:2019 during the period of certification.
+2. This certificate is subject to the satisfactory completion of annual surveillance audits by Schellman Compliance, LLC.
+3. ISO/IEC 27001:2022 and ISO/IEC 27701:2019 compliance audits are not designed to detect or prevent criminal activity or other acts that may result in an information security breach.  As such, this certification should not be 
+construed as a guarantee or assurance that an organization is unsusceptible to information security breaches.
+4. The information in this document is provided “AS IS”, without warranties of any kind.  Schellman Compliance, LLC expressly disclaims any representations and warranties, including, without limitation, the implied warranties of 
+merchantability and fitness for a particular purpose.
+5. This certificate is the property of Schellman Compliance, LLC and is bound by the conditions of contract.  The authenticity of this certificate can be validated by contacting Schellman Compliance, LLC.
+6. The organization operating the certified ISMS and PIMS is monitored by Schellman Compliance, LLC during the term of the certificate.
+7. This ISO/IEC 27001:2022 and ISO/IEC 27701:2019 certificate does not authorize the labelling of products, processes, or services.
+
+=== Seite 3
+CONTENT DRAFT
+Page 3 of 16
+Certificate Number:
+1729711-18
+Product 
+Category
+Service/Offering Name
+Cloud Environment Scope
+Azure
+Azure 
+Government
+Azure Chaos Studio
+✓
+-
+Azure Data Explorer
+✓
+✓
+Azure Data Factory
+✓
+✓
+Azure HDInsight
+✓
+✓
+Azure Operator Service Manager
+✓
+-
+Azure Stream Analytics
+✓
+✓
+Azure Data Share
+✓
+✓
+Microsoft Fabric
+✓
+-
+Healthcare Data Solutions in Microsoft Fabric
+✓
+-
+Power BI Embedded
+✓
+✓
+Azure Usage Billing
+✓
+-
+Compute
+Cloud Services (Extended Support)
+✓
+✓
+Service Fabric
+✓
+✓
+Virtual Machine Scale Sets
+✓
+✓
+Virtual Machines
+✓
+✓
+Virtual Machines Licenses
+✓
+-
+Virtual Machines Bav2 Series
+✓
+✓
+Virtual Machines Bv2 Series
+✓
+✓
+SQL Server on Azure Virtual Machines
+✓
+✓
+Virtual Machine Extensions
+✓
+✓
+Batch
+✓
+✓
+Azure Functions
+✓
+✓
+Compute
+App Service
+✓
+✓
+App Service (Web Apps)
+✓
+✓
+App Service Static Web Apps
+✓
+✓
+Service Connector
+✓
+-
+Azure AutoManage Machine Configuration
+✓
+✓
+Azure VMware Solution
+✓
+✓
+Planned Maintenance
+✓
+✓
+Azure Arc enabled Servers
+✓
+✓
+Azure VM Image Builder
+✓
+✓
+Azure Virtual Desktop
+✓
+✓
+CONDITIONS & LIMITATIONS:
+1. The aforementioned organization has a perpetual responsibility to maintain compliance with ISO/IEC 27001:2022 and ISO/IEC 27701:2019 during the period of certification.
+2. This certificate is subject to the satisfactory completion of annual surveillance audits by Schellman Compliance, LLC.
+3. ISO/IEC 27001:2022 and ISO/IEC 27701:2019 compliance audits are not designed to detect or prevent criminal activity or other acts that may result in an information security breach.  As such, this certification should not be 
+construed as a guarantee or assurance that an organization is unsusceptible to information security breaches.
+4. The information in this document is provided “AS IS”, without warranties of any kind.  Schellman Compliance, LLC expressly disclaims any representations and warranties, including, without limitation, the implied warranties of 
+merchantability and fitness for a particular purpose.
+5. This certificate is the property of Schellman Compliance, LLC and is bound by the conditions of contract.  The authenticity of this certificate can be validated by contacting Schellman Compliance, LLC.
+6. The organization operating the certified ISMS and PIMS is monitored by Schellman Compliance, LLC during the term of the certificate.
+7. This ISO/IEC 27001:2022 and ISO/IEC 27701:2019 certificate does not authorize the labelling of products, processes, or services.
+
+=== Seite 4
+CONTENT DRAFT
+Page 4 of 16
+Certificate Number:
+1729711-18
+Product 
+Category
+Service/Offering Name
+Cloud Environment Scope
+Azure
+Azure 
+Government
+Azure Spring Apps
+✓
+-
+Azure Center for SAP Solutions
+✓
+-
+Azure Compute Fleet
+✓
+-
+Azure Large Instances
+✓
+-
+Azure Large Instance for Epic v1.1
+✓
+-
+Azure Service Manager (RDFE)
+✓
+✓
+Standby Pool
+✓
+-
+Containers
+Azure Kubernetes Service (AKS)
+✓
+✓
+Azure Arc enabled Kubernetes
+✓
+✓
+Azure Kubernetes Configuration Management
+✓
+✓
+Azure Red Hat OpenShift (ARO)
+✓
+✓
+Container Instances
+✓
+✓
+Azure Container Registry
+✓
+✓
+Azure Container Apps
+✓
+✓
+Microsoft Container Registry
+✓
+-
+Azure Kubernetes Fleet Manager
+✓
+✓
+Databases
+Azure Arc enabled SQL Server
+✓
+-
+SQL Managed Instance enabled by Azure Arc
+✓
+-
+Azure Cosmos DB (and Azure DocumentDB)
+✓
+✓
+Azure SQL Database
+✓
+✓
+Azure Database for MariaDB
+✓
+✓
+Azure Database for MySQL
+✓
+✓
+Azure Database for PostgreSQL
+✓
+✓
+Azure Database Migration Service
+✓
+✓
+Azure Cache for Redis
+✓
+✓
+Azure Synapse Analytics
+✓
+✓
+Azure SQL Database Edge
+✓
+-
+Azure Managed Instance for Apache Cassandra
+✓
+-
+Microsoft Connected Cache for ISP
+✓
+-
+Oracle Database@Azure**
+✓
+-
+Azure SQL Managed Instance
+✓
+✓
+DevOps
+Managed DevOps Pools
+✓
+-
+CONDITIONS & LIMITATIONS:
+1. The aforementioned organization has a perpetual responsibility to maintain compliance with ISO/IEC 27001:2022 and ISO/IEC 27701:2019 during the period of certification.
+2. This certificate is subject to the satisfactory completion of annual surveillance audits by Schellman Compliance, LLC.
+3. ISO/IEC 27001:2022 and ISO/IEC 27701:2019 compliance audits are not designed to detect or prevent criminal activity or other acts that may result in an information security breach.  As such, this certification should not be 
+construed as a guarantee or assurance that an organization is unsusceptible to information security breaches.
+4. The information in this document is provided “AS IS”, without warranties of any kind.  Schellman Compliance, LLC expressly disclaims any representations and warranties, including, without limitation, the implied warranties of 
+merchantability and fitness for a particular purpose.
+5. This certificate is the property of Schellman Compliance, LLC and is bound by the conditions of contract.  The authenticity of this certificate can be validated by contacting Schellman Compliance, LLC.
+6. The organization operating the certified ISMS and PIMS is monitored by Schellman Compliance, LLC during the term of the certificate.
+7. This ISO/IEC 27001:2022 and ISO/IEC 27701:2019 certificate does not authorize the labelling of products, processes, or services.
+
+=== Seite 5
+CONTENT DRAFT
+Page 5 of 16
+Certificate Number:
+1729711-18
+Product 
+Category
+Service/Offering Name
+Cloud Environment Scope
+Azure
+Azure 
+Government
+Azure Monitor Grafana
+✓
+-
+Playwright
+✓
+-
+Developer Tools
+Azure DevTest Labs
+✓
+✓
+Azure Lab Services
+✓
+✓
+Azure for Education
+✓
+-
+Azure App Configuration
+✓
+✓
+Azure Load Testing
+✓
+✓
+Azure Deployment Environments
+✓
+-
+Microsoft Dev Box
+✓
+-
+Learn Platform API
+✓
+-
+Trusted Signing
+✓
+-
+Hybrid + 
+Multicloud
+Azure Arc enabled System Center Virtual Machine 
+Manager
+✓
+-
+Azure Arc enabled VMware vSphere
+✓
+-
+Azure Arc enabled VMware Solution
+✓
+-
+Azure Local
+✓
+✓
+Workload orchestration
+✓
+-
+Firmware Analysis
+✓
+-
+Azure Stack*
+✓
+✓
+Nutanix on Azure***
+✓
+-
+Identity
+Azure Information Protection
+✓
+✓
+Microsoft Entra ID
+✓
+✓
+Microsoft Entra ID Governance
+✓
+-
+Microsoft Global Secure Access
+✓
+-
+Azure Active Directory B2C
+✓
+✓
+Privileged Identity Management
+✓
+-
+Microsoft Entra Domain Services
+✓
+✓
+Integration
+Logic Apps
+✓
+✓
+API Management
+✓
+✓
+Azure API Center
+✓
+-
+Service Bus
+✓
+✓
+Azure Health Data Services
+✓
+✓
+CONDITIONS & LIMITATIONS:
+1. The aforementioned organization has a perpetual responsibility to maintain compliance with ISO/IEC 27001:2022 and ISO/IEC 27701:2019 during the period of certification.
+2. This certificate is subject to the satisfactory completion of annual surveillance audits by Schellman Compliance, LLC.
+3. ISO/IEC 27001:2022 and ISO/IEC 27701:2019 compliance audits are not designed to detect or prevent criminal activity or other acts that may result in an information security breach.  As such, this certification should not be 
+construed as a guarantee or assurance that an organization is unsusceptible to information security breaches.
+4. The information in this document is provided “AS IS”, without warranties of any kind.  Schellman Compliance, LLC expressly disclaims any representations and warranties, including, without limitation, the implied warranties of 
+merchantability and fitness for a particular purpose.
+5. This certificate is the property of Schellman Compliance, LLC and is bound by the conditions of contract.  The authenticity of this certificate can be validated by contacting Schellman Compliance, LLC.
+6. The organization operating the certified ISMS and PIMS is monitored by Schellman Compliance, LLC during the term of the certificate.
+7. This ISO/IEC 27001:2022 and ISO/IEC 27701:2019 certificate does not authorize the labelling of products, processes, or services.
+
+=== Seite 6
+CONTENT DRAFT
+Page 6 of 16
+Certificate Number:
+1729711-18
+Product 
+Category
+Service/Offering Name
+Cloud Environment Scope
+Azure
+Azure 
+Government
+Azure Data Manager for Energy
+✓
+-
+Relay
+✓
+-
+Internet of 
+Things
+Event Hubs
+✓
+✓
+Event Grid
+✓
+✓
+Azure IoT Central
+✓
+-
+Azure IoT Hub
+✓
+✓
+Azure IoT Operations
+✓
+-
+Internet of 
+Things
+Notification Hubs
+✓
+✓
+Azure Sphere
+✓
+-
+Azure Defender for IoT
+✓
+✓
+Azure Device Registry
+✓
+-
+Azure Digital Twins
+✓
+-
+Device Update for IoT Hub
+✓
+-
+Management 
+and 
+Governance
+Application Change Analysis
+✓
+-
+Azure Resource Manager
+✓
+✓
+Automation
+✓
+✓
+Azure Advisor
+✓
+✓
+Azure Lighthouse
+✓
+✓
+Azure Managed Applications
+✓
+✓
+Azure Migrate
+✓
+✓
+Azure Monitor
+✓
+✓
+Azure Monitor for SAP solutions
+✓
+-
+Azure Policy
+✓
+✓
+Azure Resource Graph
+✓
+✓
+Cloud Shell
+✓
+✓
+Microsoft Azure Portal
+✓
+✓
+Defender External Attack Surface Management (EASM)
+✓
+-
+Azure Blueprints
+✓
+-
+Cost Management
+✓
+✓
+Azure Signup Portal
+✓
+✓
+Resource Move
+✓
+✓
+Quota+ Usage Blade
+✓
+✓
+CONDITIONS & LIMITATIONS:
+1. The aforementioned organization has a perpetual responsibility to maintain compliance with ISO/IEC 27001:2022 and ISO/IEC 27701:2019 during the period of certification.
+2. This certificate is subject to the satisfactory completion of annual surveillance audits by Schellman Compliance, LLC.
+3. ISO/IEC 27001:2022 and ISO/IEC 27701:2019 compliance audits are not designed to detect or prevent criminal activity or other acts that may result in an information security breach.  As such, this certification should not be 
+construed as a guarantee or assurance that an organization is unsusceptible to information security breaches.
+4. The information in this document is provided “AS IS”, without warranties of any kind.  Schellman Compliance, LLC expressly disclaims any representations and warranties, including, without limitation, the implied warranties of 
+merchantability and fitness for a particular purpose.
+5. This certificate is the property of Schellman Compliance, LLC and is bound by the conditions of contract.  The authenticity of this certificate can be validated by contacting Schellman Compliance, LLC.
+6. The organization operating the certified ISMS and PIMS is monitored by Schellman Compliance, LLC during the term of the certificate.
+7. This ISO/IEC 27001:2022 and ISO/IEC 27701:2019 certificate does not authorize the labelling of products, processes, or services.
+
+=== Seite 7
+CONTENT DRAFT
+Page 7 of 16
+Certificate Number:
+1729711-18
+Product 
+Category
+Service/Offering Name
+Cloud Environment Scope
+Azure
+Azure 
+Government
+Quota Management
+✓
+✓
+Microsoft Purview
+✓
+✓
+Management 
+and 
+Governance
+Azure Update Manager
+✓
+✓
+Azure Help
+✓
+-
+Azure Business Continuity Center
+✓
+-
+SaaS API
+✓
+-
+Publisher Verification Service and Application Consent 
+Service
+✓
+-
+Azure Managed Grafana
+✓
+✓
+Mixed Reality
+Azure Remote Rendering
+✓
+-
+Networking
+Application Gateway
+✓
+✓
+Azure Load Balancer
+✓
+✓
+Microsoft Azure Peering Service
+✓
+✓
+Azure ExpressRoute
+✓
+✓
+Virtual Network
+✓
+✓
+VPN Gateway
+✓
+✓
+Azure Bastion
+✓
+✓
+Azure DDoS Protection
+✓
+✓
+Azure DNS
+✓
+✓
+Azure Firewall
+✓
+✓
+Azure Firewall Manager
+✓
+✓
+Azure Front Door
+✓
+✓
+Azure Internet Analyzer
+✓
+-
+Azure Private Link
+✓
+✓
+Azure Private MEC
+✓
+-
+Azure Web Application Firewall
+✓
+✓
+Content Delivery Network
+✓
+✓
+Network Watcher
+✓
+✓
+Network security perimeter
+✓
+-
+Traffic Manager
+✓
+✓
+Networking
+Virtual WAN
+✓
+✓
+IP Services
+✓
+✓
+CONDITIONS & LIMITATIONS:
+1. The aforementioned organization has a perpetual responsibility to maintain compliance with ISO/IEC 27001:2022 and ISO/IEC 27701:2019 during the period of certification.
+2. This certificate is subject to the satisfactory completion of annual surveillance audits by Schellman Compliance, LLC.
+3. ISO/IEC 27001:2022 and ISO/IEC 27701:2019 compliance audits are not designed to detect or prevent criminal activity or other acts that may result in an information security breach.  As such, this certification should not be 
+construed as a guarantee or assurance that an organization is unsusceptible to information security breaches.
+4. The information in this document is provided “AS IS”, without warranties of any kind.  Schellman Compliance, LLC expressly disclaims any representations and warranties, including, without limitation, the implied warranties of 
+merchantability and fitness for a particular purpose.
+5. This certificate is the property of Schellman Compliance, LLC and is bound by the conditions of contract.  The authenticity of this certificate can be validated by contacting Schellman Compliance, LLC.
+6. The organization operating the certified ISMS and PIMS is monitored by Schellman Compliance, LLC during the term of the certificate.
+7. This ISO/IEC 27001:2022 and ISO/IEC 27701:2019 certificate does not authorize the labelling of products, processes, or services.
+
+=== Seite 8
+CONTENT DRAFT
+Page 8 of 16
+Certificate Number:
+1729711-18
+Product 
+Category
+Service/Offering Name
+Cloud Environment Scope
+Azure
+Azure 
+Government
+Virtual Network NAT
+✓
+-
+Azure Communications Gateway
+✓
+-
+Azure Operator Nexus
+✓
+-
+Nexus Network Fabric
+✓
+-
+AFOI-Network Cloud
+✓
+-
+Azure Orbital Ground Station
+✓
+-
+Azure Route Server
+✓
+✓
+Azure Virtual Network Manager
+✓
+✓
+Azure Traffic Collector
+✓
+-
+Azure Network Function Manager
+✓
+✓
+Security
+Key Vault
+✓
+✓
+Azure Payment HSM
+✓
+-
+Azure Cloud HSM
+✓
+✓
+Multi-Factor Authentication
+✓
+✓
+Azure Dedicated HSM
+✓
+✓
+Customer Lockbox for Microsoft Azure
+✓
+✓
+Central Fraud and Abuse Risk Platform
+✓
+-
+Exposure Management
+✓
+-
+Microsoft Sentinel
+✓
+✓
+Microsoft Sentinel Graph (MSG)
+✓
+-
+Microsoft Defender for Cloud
+✓
+✓
+Microsoft Azure Attestation
+✓
+-
+Azure Confidential Ledger
+✓
+-
+Trusted Hardware Identity Management
+✓
+-
+Storage
+Storage (Blobs (including Azure Data Lake Storage Gen 2), 
+Disks, Files, Queues, Tables, Azure Disk Storage, Archive) 
+including Cool and Premium
+✓
+✓
+Azure Storage Mover
+✓
+-
+Azure Storage Actions
+✓
+-
+Azure Data Box
+✓
+✓
+Azure Data Transfer
+✓
+-
+Azure HPC Cache
+✓
+✓
+Azure Site Recovery
+✓
+✓
+CONDITIONS & LIMITATIONS:
+1. The aforementioned organization has a perpetual responsibility to maintain compliance with ISO/IEC 27001:2022 and ISO/IEC 27701:2019 during the period of certification.
+2. This certificate is subject to the satisfactory completion of annual surveillance audits by Schellman Compliance, LLC.
+3. ISO/IEC 27001:2022 and ISO/IEC 27701:2019 compliance audits are not designed to detect or prevent criminal activity or other acts that may result in an information security breach.  As such, this certification should not be 
+construed as a guarantee or assurance that an organization is unsusceptible to information security breaches.
+4. The information in this document is provided “AS IS”, without warranties of any kind.  Schellman Compliance, LLC expressly disclaims any representations and warranties, including, without limitation, the implied warranties of 
+merchantability and fitness for a particular purpose.
+5. This certificate is the property of Schellman Compliance, LLC and is bound by the conditions of contract.  The authenticity of this certificate can be validated by contacting Schellman Compliance, LLC.
+6. The organization operating the certified ISMS and PIMS is monitored by Schellman Compliance, LLC during the term of the certificate.
+7. This ISO/IEC 27001:2022 and ISO/IEC 27701:2019 certificate does not authorize the labelling of products, processes, or services.
+
+=== Seite 9
+CONTENT DRAFT
+Page 9 of 16
+Certificate Number:
+1729711-18
+Product 
+Category
+Service/Offering Name
+Cloud Environment Scope
+Azure
+Azure 
+Government
+Azure Backup
+✓
+✓
+Azure File Sync
+✓
+✓
+Azure NetApp Files
+✓
+✓
+Azure Files
+✓
+✓
+Azure Elastic SAN
+✓
+-
+Azure Managed Lustre
+✓
+✓
+Web
+Azure Maps
+✓
+✓
+Azure SignalR Service
+✓
+✓
+Azure Web PubSub
+✓
+✓
+Azure Fluid Relay
+✓
+✓
+Microsoft Online Services
+Commercial Marketplace Public Storefront
+✓
+-
+Intelligent Recommendations
+✓
+-
+Microsoft Copilot Studio
+✓
+✓
+Microsoft Intune
+✓
+✓
+Microsoft Defender for Cloud Apps
+✓
+✓
+Microsoft Defender Threat Intelligence
+✓
+-
+Microsoft Graph
+✓
+✓
+Microsoft Managed Desktop
+✓
+-
+Power Apps
+✓
+✓
+Power Automate
+✓
+✓
+Power BI
+✓
+✓
+Microsoft Threat Experts
+✓
+-
+Microsoft 365 Defender
+✓
+✓
+Microsoft Defender for Endpoint
+✓
+✓
+Microsoft Defender for Identity
+✓
+✓
+Microsoft Defender Vulnerability Management
+✓
+✓
+Microsoft Defender Experts for XDR
+✓
+-
+Microsoft Defender Experts for Hunting
+✓
+-
+Universal Print
+✓
+-
+Update Compliance
+✓
+-
+Azure Managed Experience
+✓
+-
+CONDITIONS & LIMITATIONS:
+1. The aforementioned organization has a perpetual responsibility to maintain compliance with ISO/IEC 27001:2022 and ISO/IEC 27701:2019 during the period of certification.
+2. This certificate is subject to the satisfactory completion of annual surveillance audits by Schellman Compliance, LLC.
+3. ISO/IEC 27001:2022 and ISO/IEC 27701:2019 compliance audits are not designed to detect or prevent criminal activity or other acts that may result in an information security breach.  As such, this certification should not be 
+construed as a guarantee or assurance that an organization is unsusceptible to information security breaches.
+4. The information in this document is provided “AS IS”, without warranties of any kind.  Schellman Compliance, LLC expressly disclaims any representations and warranties, including, without limitation, the implied warranties of 
+merchantability and fitness for a particular purpose.
+5. This certificate is the property of Schellman Compliance, LLC and is bound by the conditions of contract.  The authenticity of this certificate can be validated by contacting Schellman Compliance, LLC.
+6. The organization operating the certified ISMS and PIMS is monitored by Schellman Compliance, LLC during the term of the certificate.
+7. This ISO/IEC 27001:2022 and ISO/IEC 27701:2019 certificate does not authorize the labelling of products, processes, or services.
+
+=== Seite 10
+CONTENT DRAFT
+Page 10 of 16
+Certificate Number:
+1729711-18
+Product 
+Category
+Service/Offering Name
+Cloud Environment Scope
+Azure
+Azure 
+Government
+Windows Autopatch
+✓
+-
+Seeing AI
+✓
+-
+Microsoft Sustainability Manager
+✓
+-
+Sustainability Data Services
+✓
+-
+Community Training
+✓
+-
+Nuance Conversational IVR
+✓
+✓
+Microsoft Bot Framework
+✓
+-
+Microsoft Secure Score
+✓
+✓
+Microsoft Dynamics 365
+Dynamics 365 Contact Center
+✓
+✓
+Dynamics 365 Customer Service
+✓
+✓
+Dynamics 365 Customer Voice
+✓
+✓
+Dynamics 365 Field Service
+✓
+✓
+Dynamics 365 Sales
+✓
+✓
+Dynamics 365 Sales Insights
+✓
+-
+Dynamics 365 Customer Insights
+✓
+✓
+Dynamics 365 Business Central
+✓
+-
+Dynamics 365 Human Resources (Operations)
+✓
+-
+Dynamics 365 Finance
+✓
+✓
+Dynamics 365 Fraud Protection
+✓
+-
+Dynamics 365 Resource Scheduling Optimization
+✓
+✓
+Dynamics 365 Marketing
+✓
+-
+Power Pages
+✓
+✓
+Dynamics 365 Project Operations
+✓
+-
+Dynamics 365 Supply Chain Management
+✓
+✓
+Dynamics 365 Commerce
+✓
+-
+Dynamics 365 Intelligent Order Management
+✓
+-
+Chat for Dynamics 365
+✓
+✓
+Dynamics 365 Athena - CDS to Azure Data Lake
+✓
+✓
+Dynamics 365 Guides
+✓
+-
+Dynamics 365 Remote Assist
+✓
+✓
+Dataverse
+✓
+✓
+CONDITIONS & LIMITATIONS:
+1. The aforementioned organization has a perpetual responsibility to maintain compliance with ISO/IEC 27001:2022 and ISO/IEC 27701:2019 during the period of certification.
+2. This certificate is subject to the satisfactory completion of annual surveillance audits by Schellman Compliance, LLC.
+3. ISO/IEC 27001:2022 and ISO/IEC 27701:2019 compliance audits are not designed to detect or prevent criminal activity or other acts that may result in an information security breach.  As such, this certification should not be 
+construed as a guarantee or assurance that an organization is unsusceptible to information security breaches.
+4. The information in this document is provided “AS IS”, without warranties of any kind.  Schellman Compliance, LLC expressly disclaims any representations and warranties, including, without limitation, the implied warranties of 
+merchantability and fitness for a particular purpose.
+5. This certificate is the property of Schellman Compliance, LLC and is bound by the conditions of contract.  The authenticity of this certificate can be validated by contacting Schellman Compliance, LLC.
+6. The organization operating the certified ISMS and PIMS is monitored by Schellman Compliance, LLC during the term of the certificate.
+7. This ISO/IEC 27001:2022 and ISO/IEC 27701:2019 certificate does not authorize the labelling of products, processes, or services.
+
+=== Seite 11
+CONTENT DRAFT
+Page 11 of 16
+Certificate Number:
+1729711-18
+Product 
+Category
+Service/Offering Name
+Cloud Environment Scope
+Azure
+Azure 
+Government
+Infrastructure Services
+Supporting Infrastructure and Platform Services
+✓
+✓
+Legend
+*
+Includes the Azure Stack Bridge service which provides hybrid capabilities between on-premises Azure Stack deployments 
+and the online Azure cloud; however, customers are responsible for managing the security of on-premises components.
+**
+Azure manages physical security and the Azure platform (Portal, Resource Provider control plane, Identity and Network 
+connectivity) of the Oracle Database@Azure.  Oracle Cloud Infrastructure manages the other portions, which include the 
+OCI hardware and control plane.
+***
+Azure manages physical security and the Azure platform (Portal, Resource Provider control plane, Identity and Network 
+connectivity) of the Nutanix on Azure offering.  Nutanix Cloud Platform manages the other portions, which include the 
+Nutanix Cloud Portal and Nutanix Cloud Infrastructure Software.
+CONDITIONS & LIMITATIONS:
+1. The aforementioned organization has a perpetual responsibility to maintain compliance with ISO/IEC 27001:2022 and ISO/IEC 27701:2019 during the period of certification.
+2. This certificate is subject to the satisfactory completion of annual surveillance audits by Schellman Compliance, LLC.
+3. ISO/IEC 27001:2022 and ISO/IEC 27701:2019 compliance audits are not designed to detect or prevent criminal activity or other acts that may result in an information security breach.  As such, this certification should not be 
+construed as a guarantee or assurance that an organization is unsusceptible to information security breaches.
+4. The information in this document is provided “AS IS”, without warranties of any kind.  Schellman Compliance, LLC expressly disclaims any representations and warranties, including, without limitation, the implied warranties of 
+merchantability and fitness for a particular purpose.
+5. This certificate is the property of Schellman Compliance, LLC and is bound by the conditions of contract.  The authenticity of this certificate can be validated by contacting Schellman Compliance, LLC.
+6. The organization operating the certified ISMS and PIMS is monitored by Schellman Compliance, LLC during the term of the certificate.
+7. This ISO/IEC 27001:2022 and ISO/IEC 27701:2019 certificate does not authorize the labelling of products, processes, or services.
+
+=== Seite 12
+CONTENT DRAFT
+Page 12 of 16
+Certificate Number:
+1729711-18
+In-Scope Locations
+Main Location of the ISMS
+Redmond, Washington
+One Microsoft Way
+Redmond, Washington 98052
+United States
+Microsoft Azure Domestic Datacenters
+West US
+Santa Clara, CA
+San Jose, CA
+West US 2
+Columbia, WA
+Quincy, WA
+Wenatchee, WA
+West US 3
+Phoenix, AZ
+West Central US
+Cheyenne, WY
+Central US
+Des Moines, IA
+North Central US
+Chicago, IL
+South Central US
+San Antonio, TX
+East US
+Sterling, VA
+Ashburn, VA
+Manassas, VA
+Dulles, VA
+East US 2
+Boydton, VA
+Lawrenceville, GA
+Mecklenburg, NC
+US GOV Iowa
+Des Moines, IA
+US GOV Arizona
+Phoenix, AZ
+US GOV Texas
+San Antonio, TX
+US GOV Virginia
+Boydton, VA
+Mecklenburg, NC
+US GOV Wyoming
+Cheyenne, WY
+CONDITIONS & LIMITATIONS:
+1. The aforementioned organization has a perpetual responsibility to maintain compliance with ISO/IEC 27001:2022 and ISO/IEC 27701:2019 during the period of certification.
+2. This certificate is subject to the satisfactory completion of annual surveillance audits by Schellman Compliance, LLC.
+3. ISO/IEC 27001:2022 and ISO/IEC 27701:2019 compliance audits are not designed to detect or prevent criminal activity or other acts that may result in an information security breach.  As such, this certification should not be 
+construed as a guarantee or assurance that an organization is unsusceptible to information security breaches.
+4. The information in this document is provided “AS IS”, without warranties of any kind.  Schellman Compliance, LLC expressly disclaims any representations and warranties, including, without limitation, the implied warranties of 
+merchantability and fitness for a particular purpose.
+5. This certificate is the property of Schellman Compliance, LLC and is bound by the conditions of contract.  The authenticity of this certificate can be validated by contacting Schellman Compliance, LLC.
+6. The organization operating the certified ISMS and PIMS is monitored by Schellman Compliance, LLC during the term of the certificate.
+7. This ISO/IEC 27001:2022 and ISO/IEC 27701:2019 certificate does not authorize the labelling of products, processes, or services.
+
+=== Seite 13
+CONTENT DRAFT
+Page 13 of 16
+Certificate Number:
+1729711-18
+Microsoft Azure International Datacenters
+Canada East
+Quebec, Canada
+Canada Central
+Toronto, Canada
+Brazil South
+Campinas, Brazil
+Brazil Southeast
+Rio de Janeiro, Brazil
+West Europe
+Amsterdam, Netherlands
+Belgium Central
+Brussels, Belgium
+North Europe
+Dublin, Ireland
+Denmark East
+Copenhagen, Denmark
+UK South
+London, United Kingdom
+UK West
+Cardiff, United Kingdom
+France Central
+Paris, France
+France South
+Marseille, France
+Germany North
+Berlin, Germany
+Germany West Central
+Frankfurt, Germany
+Sweden Central
+Gavleborg, Sweden
+Sweden South
+Malmo, Sweden
+Switzerland West
+Geneva, Switzerland
+Switzerland North
+Zurich, Switzerland
+Norway East
+Oslo, Norway
+Norway West
+Stavanger, Norway
+Poland Central
+Warsaw, Poland
+Italy North
+Milan, Italy
+Mexico Central
+Queretaro, Mexico
+East Asia
+Hong Kong
+Southeast Asia
+Singapore
+Indonesia Central
+Jakarta, Indonesia
+Malaysia West
+Kuala Lumpur, Malaysia
+West India
+Mumbai, India
+Central India
+Pune, India
+South India
+Chennai, India
+Jio India Central
+Nagpur, India
+Jio India West
+Jamnagar, India
+Japan West
+Osaka, Japan
+Japan East
+Tokyo, Japan
+CONDITIONS & LIMITATIONS:
+1. The aforementioned organization has a perpetual responsibility to maintain compliance with ISO/IEC 27001:2022 and ISO/IEC 27701:2019 during the period of certification.
+2. This certificate is subject to the satisfactory completion of annual surveillance audits by Schellman Compliance, LLC.
+3. ISO/IEC 27001:2022 and ISO/IEC 27701:2019 compliance audits are not designed to detect or prevent criminal activity or other acts that may result in an information security breach.  As such, this certification should not be 
+construed as a guarantee or assurance that an organization is unsusceptible to information security breaches.
+4. The information in this document is provided “AS IS”, without warranties of any kind.  Schellman Compliance, LLC expressly disclaims any representations and warranties, including, without limitation, the implied warranties of 
+merchantability and fitness for a particular purpose.
+5. This certificate is the property of Schellman Compliance, LLC and is bound by the conditions of contract.  The authenticity of this certificate can be validated by contacting Schellman Compliance, LLC.
+6. The organization operating the certified ISMS and PIMS is monitored by Schellman Compliance, LLC during the term of the certificate.
+7. This ISO/IEC 27001:2022 and ISO/IEC 27701:2019 certificate does not authorize the labelling of products, processes, or services.
+
+=== Seite 14
+CONTENT DRAFT
+Page 14 of 16
+Certificate Number:
+1729711-18
+Microsoft Azure International Datacenters
+Korea South
+Busan, South Korea
+Korea Central
+Seoul, South Korea
+UAE Central
+Abu Dhabi
+UAE North
+Dubai
+Australia East
+Sydney, Australia
+Australia Southeast
+Melbourne, Australia
+Australia Central
+Canberra, Australia
+Australia Central 2
+Canberra, Australia
+South Africa North
+Johannesburg, South Africa
+South Africa West
+Cape Town, South Africa
+Qatar Central
+Doha, Qatar
+Israel Central
+Tel Aviv-Yafo, Israel
+Spain Central
+Madrid, Spain
+New Zealand North
+Auckland, New Zealand
+Chile Central
+Santiago, Chile
+Austria East
+Vienna, Austria
+Taiwan North
+Taipei, Taiwan
+Taiwan Northwest
+Taipei, Taiwan
+Microsoft Online Services Datacenters
+APAC Southeast Asia 2
+Kuala Lumpur, Malaysia
+Malaysia South
+Johor Bahru, Malaysia
+Korea South 2
+Busan, South Korea
+North Europe 2
+Helsinki, Finland
+China North 10
+Beijing, China
+Edge Sites
+Athens, Greece
+Manila, Philippines
+Auckland, New Zealand
+Memphis, TN
+Bangkok, Thailand
+Miami, FL
+Barcelona, Spain
+Milan, Italy
+Barueri, Brazil
+Minneapolis, MN
+Berlin, Germany
+Montreal, Canada
+Bogota, Colombia
+Mumbai, India
+CONDITIONS & LIMITATIONS:
+1. The aforementioned organization has a perpetual responsibility to maintain compliance with ISO/IEC 27001:2022 and ISO/IEC 27701:2019 during the period of certification.
+2. This certificate is subject to the satisfactory completion of annual surveillance audits by Schellman Compliance, LLC.
+3. ISO/IEC 27001:2022 and ISO/IEC 27701:2019 compliance audits are not designed to detect or prevent criminal activity or other acts that may result in an information security breach.  As such, this certification should not be 
+construed as a guarantee or assurance that an organization is unsusceptible to information security breaches.
+4. The information in this document is provided “AS IS”, without warranties of any kind.  Schellman Compliance, LLC expressly disclaims any representations and warranties, including, without limitation, the implied warranties of 
+merchantability and fitness for a particular purpose.
+5. This certificate is the property of Schellman Compliance, LLC and is bound by the conditions of contract.  The authenticity of this certificate can be validated by contacting Schellman Compliance, LLC.
+6. The organization operating the certified ISMS and PIMS is monitored by Schellman Compliance, LLC during the term of the certificate.
+7. This ISO/IEC 27001:2022 and ISO/IEC 27701:2019 certificate does not authorize the labelling of products, processes, or services.
+
+=== Seite 15
+CONTENT DRAFT
+Page 15 of 16
+Certificate Number:
+1729711-18
+Edge Sites
+Brisbane, Australia
+Munich, Germany
+Brussels, Belgium
+Nairobi, Kenya
+Bucharest, Romania
+Nashville, TN
+Budapest, Hungary
+New Delhi, India
+Buenos Aires, Argentina
+New York City, NY
+Cairo, Egypt
+Newark, NJ
+Cape Town, South Africa
+Osaka, Japan
+Chicago, IL
+Oslo, Norway
+Cincinnati, OH
+Palo Alto, CA
+Copenhagen, Denmark
+Paris, France
+Dallas, TX
+Philadelphia, PA
+Detroit, MI
+Phoenix, AZ
+Doha, Qatar
+Portland, OR
+Dubai, United Arab Emirates
+Prague, Czech Republic
+Dusseldorf, Germany
+Pune, India
+Frankfurt, Germany
+Queretaro, Mexico
+Geneva, Switzerland
+Rabat, Morocco
+Helsinki, Finland
+Rio De Janeiro, Brazil
+Ho Chi Minh City, Vietnam
+Rome, Italy
+Hong Kong
+Salt Lake City, UT
+Honolulu, HI
+Sao Paulo, Brazil
+Houston, TX
+Seattle, WA
+Hyderabad, India
+Seoul, South Korea
+Istanbul, Turkey
+Singapore
+Jakarta, Indonesia
+Sofia, Bulgaria
+Jacksonville, FL
+Stockholm, Sweden
+Johannesburg, South Africa
+Taipei, Taiwan
+Kuala Lumpur, Malaysia
+Tel Aviv, Israel
+Lagos, Nigeria
+Teterboro, NJ
+Lisbon, Portugal
+Tokyo, Japan
+London, United Kingdom
+Toronto, Canada
+Los Angeles, CA
+Warsaw, Poland
+Luanda, Angola
+Zagreb, Croatia
+Madrid, Spain
+Zurich, Switzerland
+CONDITIONS & LIMITATIONS:
+1. The aforementioned organization has a perpetual responsibility to maintain compliance with ISO/IEC 27001:2022 and ISO/IEC 27701:2019 during the period of certification.
+2. This certificate is subject to the satisfactory completion of annual surveillance audits by Schellman Compliance, LLC.
+3. ISO/IEC 27001:2022 and ISO/IEC 27701:2019 compliance audits are not designed to detect or prevent criminal activity or other acts that may result in an information security breach.  As such, this certification should not be 
+construed as a guarantee or assurance that an organization is unsusceptible to information security breaches.
+4. The information in this document is provided “AS IS”, without warranties of any kind.  Schellman Compliance, LLC expressly disclaims any representations and warranties, including, without limitation, the implied warranties of 
+merchantability and fitness for a particular purpose.
+5. This certificate is the property of Schellman Compliance, LLC and is bound by the conditions of contract.  The authenticity of this certificate can be validated by contacting Schellman Compliance, LLC.
+6. The organization operating the certified ISMS and PIMS is monitored by Schellman Compliance, LLC during the term of the certificate.
+7. This ISO/IEC 27001:2022 and ISO/IEC 27701:2019 certificate does not authorize the labelling of products, processes, or services.
+
+=== Seite 16
+CONTENT DRAFT
+Page 16 of 16
+Certificate Number:
+1729711-18
+Edge Sites
+Manchester, United Kingdom
+Azure Extended Zones
+Perth, Australia
+Los Angeles, CA
+CONDITIONS & LIMITATIONS:
+1. The aforementioned organization has a perpetual responsibility to maintain compliance with ISO/IEC 27001:2022 and ISO/IEC 27701:2019 during the period of certification.
+2. This certificate is subject to the satisfactory completion of annual surveillance audits by Schellman Compliance, LLC.
+3. ISO/IEC 27001:2022 and ISO/IEC 27701:2019 compliance audits are not designed to detect or prevent criminal activity or other acts that may result in an information security breach.  As such, this certification should not be 
+construed as a guarantee or assurance that an organization is unsusceptible to information security breaches.
+4. The information in this document is provided “AS IS”, without warranties of any kind.  Schellman Compliance, LLC expressly disclaims any representations and warranties, including, without limitation, the implied warranties of 
+merchantability and fitness for a particular purpose.
+5. This certificate is the property of Schellman Compliance, LLC and is bound by the conditions of contract.  The authenticity of this certificate can be validated by contacting Schellman Compliance, LLC.
+6. The organization operating the certified ISMS and PIMS is monitored by Schellman Compliance, LLC during the term of the certificate.
+7. This ISO/IEC 27001:2022 and ISO/IEC 27701:2019 certificate does not authorize the labelling of products, processes, or services.

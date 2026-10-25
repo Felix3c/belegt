@@ -1,0 +1,257 @@
+Quelle: https://www.requesty.ai/eu/openai
+Abruf: 2026-10-23 ~00:30 UTC (curl, HTTP 200), Textauszug aus HTML (ganze Seite, Skripte entfernt), belegbar.eu
+
+OpenAI GPT with EU Data Residency: Azure EU Regions via One API | Requesty
+Product
+Solutions
+Models
+Rankings
+Customers
+Pricing
+Resources
+Docs
+Sign in
+Get started free
+EU Data Residency
+OpenAI models with EU data residency
+Route GPT-5, GPT-5 Mini and the GPT-4.1 family through Azure OpenAI EU regions. The full request path stays in Europe.
+Get started
+Speak to founders
+https://router.eu.requesty.ai/v1
+OpenAI offers European data residency only on qualifying API tiers, and api.openai.com processing defaults to the US. The established way to run GPT models with guaranteed EU processing is Azure OpenAI, which deploys them in EU regions: France Central, Sweden Central and UK South.
+Requesty exposes those Azure EU deployments behind one OpenAI-compatible endpoint, routed through our Frankfurt gateway with zero data retention. You keep the OpenAI SDK and change one base URL.
+GPT models available in EU regions
+Live from the Requesty model catalog. Prices per 1M tokens. Regions are merged per model.
+Model
+Platform
+EU regions
+Input /1M
+Output /1M
+Context
+GPT-5.5
+Azure OpenAI
+Sweden Central, germanywestcentral, westeurope
+$5.50
+$33.00
+1.1M
+GPT-5.6 Sol
+Azure OpenAI
+France Central, Sweden Central, germanywestcentral, westeurope
+$4.40
+$22.00
+1.1M
+GPT-5.4
+Azure OpenAI
+France Central, Sweden Central, germanywestcentral, westeurope
+$2.75
+$16.50
+1.1M
+GPT-5.6 Terra
+Azure OpenAI
+France Central, Sweden Central, germanywestcentral, westeurope
+$2.20
+$13.20
+1.1M
+GPT-6 Sol
+Azure OpenAI
+France Central, Sweden Central, germanywestcentral, westeurope
+$2.40
+$12.00
+1.1M
+GPT-6.1 Sol
+Azure OpenAI
+France Central, Sweden Central, germanywestcentral, westeurope
+$2.40
+$12.00
+1.1M
+GPT-5
+Azure OpenAI
+France Central, Sweden Central, germanywestcentral, westeurope
+$1.38
+$11.00
+400K
+GPT-5.1
+Azure OpenAI
+France Central, Sweden Central
+$1.38
+$11.00
+400K
+GPT-4.1
+Azure OpenAI
+France Central, Sweden Central, germanywestcentral, westeurope
+$2.20
+$8.80
+1.0M
+o4-mini
+Azure OpenAI
+France Central, Sweden Central, germanywestcentral, westeurope
+$1.21
+$4.84
+200K
+GPT-5 Mini
+Azure OpenAI
+France Central, Sweden Central, germanywestcentral, westeurope
+$0.28
+$2.20
+200K
+GPT-4.1 Mini
+Azure OpenAI
+France Central
+$0.44
+$1.76
+1.0M
+GPT-5.6 Luna
+Azure OpenAI
+France Central, Sweden Central, germanywestcentral, westeurope
+$0.22
+$1.32
+1.1M
+GPT-4o Mini
+Azure OpenAI
+Sweden Central, germanywestcentral, westeurope
+$0.17
+$0.66
+128K
+GPT-6 Luna
+Azure OpenAI
+France Central, Sweden Central, germanywestcentral, westeurope
+$0.12
+$0.60
+1.1M
+GPT-4.1 Nano
+Azure OpenAI
+France Central, Sweden Central, germanywestcentral, westeurope
+$0.11
+$0.44
+1.0M
+GPT-5 Nano
+Azure OpenAI
+France Central, Sweden Central, germanywestcentral, westeurope
+$0.06
+$0.44
+200K
+Decision 1
+Azure OpenAI
+France Central, Sweden Central
+$0.04
+Free
+33K
+Pricing matches provider list prices.
+Full catalog on the
+models page
+.
+One base URL. Full EU residency.
+OpenAI SDK compatible: point it at the EU gateway and pick an EU-region model.
+main.py
+from
+openai
+import
+OpenAI
+client
+=
+OpenAI
+(
+base_url
+=
+"
+https://router.eu.requesty.ai/v1
+"
+,
+api_key
+=
+"your-requesty-key"
+)
+response
+=
+client.chat.completions
+.
+create
+(
+model
+=
+"
+azure/gpt-5@francecentral
+"
+,
+messages
+=
+[
+{
+"role"
+:
+"user"
+,
+"content"
+:
+"Hello!"
+}
+]
+)
+Frequently asked questions
+Does the OpenAI API offer data residency in Europe?
+OpenAI offers European data residency for eligible API customers on qualifying tiers, but standard api.openai.com traffic is processed in the US. The widely used route to guaranteed EU processing for GPT models is Azure OpenAI in EU regions such as France Central and Sweden Central, which is what Requesty routes to.
+Is there an OpenAI EU endpoint?
+Azure OpenAI provides EU-region endpoints for GPT models (France Central, Sweden Central, UK South). Requesty wraps them behind https://router.eu.requesty.ai/v1, one OpenAI-compatible endpoint hosted in Frankfurt, so you do not have to manage per-region Azure deployments yourself.
+Which GPT models can I run with EU data residency?
+GPT-5, GPT-5 Mini, GPT-5 Nano, GPT-4.1, GPT-4.1 Mini, GPT-4.1 Nano and o4-mini all have Azure EU-region deployments routable through Requesty, at the same per-token prices as the corresponding US deployments.
+Do I need an Azure subscription to use GPT in EU regions?
+Not with Requesty. We operate the Azure EU deployments; you call one OpenAI-compatible API with your Requesty key, pick a model such as azure/gpt-5@francecentral, and get EU-region processing without an Azure account, quotas or deployment management.
+Is this GDPR compliant?
+Yes. The Requesty gateway processes requests in Frankfurt with zero data retention and a DPA is available. Together with Azure EU-region model processing, the full request path, gateway and model, stays under EU jurisdiction.
+EU data residency for other model families:
+Claude
+·
+Gemini
+·
+Mistral
+, or see the full
+EU AI Gateway
+and our
+Data Processing Agreement
+.
+Run OpenAI GPT in the EU today
+One base-URL change. Free to get started, no credit card required.
+Get started free
+Speak to founders
+The AI gateway for production. 600+ models behind one OpenAI-compatible endpoint, with routing, caching and governance included.
+All systems operational
+Product
+Routing & failover
+Observability
+Spend management
+Integrations
+Governance
+Prompt library
+Pricing
+Free models
+Docs
+Solutions
+AI gateway
+Enterprise
+EU AI Gateway
+AI coding agents
+Startups
+Security
+Compare
+vs OpenRouter
+vs LiteLLM
+vs Portkey
+vs Helicone
+Company
+Guides
+Blog
+Rankings
+Careers
+Support
+Contact
+Community
+Discord
+Twitter / X
+LinkedIn
+YouTube
+©
+2026
+Requesty Ltd. All rights reserved.
+Privacy
+Terms
+DPA

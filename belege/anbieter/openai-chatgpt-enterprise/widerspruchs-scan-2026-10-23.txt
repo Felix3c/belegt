@@ -1,0 +1,38 @@
+Quelle: https://web.archive.org/web/20261022231320id_/https://chatgpt.com/business/enterprise/, https://web.archive.org/web/20261022161844id_/https://openai.com/security-and-privacy/, https://web.archive.org/web/20261022192332id_/https://chatgpt.com/pricing/ (alle Archivkopien; openai.com liefert direkt HTTP 403), dazu die schon gesicherten Kopien in diesem Ordner (Enterprise-Privacy 02.10., Services Agreement 08.10., Trust-Portal 15.10., Product compliance status 08.10.)
+Abruf: 2026-10-23 ~07:47-07:48 UTC (curl, je HTTP 200, gzip entpackt, 3-4 s Abstand). SHA-256 der entpackten Rohseiten: chatgpt.com/business/enterprise (Archivkopie 22.10.2026 23:13 UTC) 92739b2fbd95172e9719b40749f271d4a4953596f3d5b63d01c070cdead00dd6, openai.com/security-and-privacy (Archivkopie 22.10.2026 16:18 UTC) 0a878432a1271afb354e5b09cddb291b0351cf1308882aff354d46372f7ac028, chatgpt.com/pricing (Archivkopie 22.10.2026 19:23 UTC) c91c5b1920dba3c7d36f66d111a082098a42dfae10a15227432331cad910af9b. belegbar.eu
+Inhalt: wörtliche Auszüge aus dem Widerspruchs-Scan ChatGPT Enterprise (Textfassung). Frage: Sagen die OpenAI-Seiten untereinander oder in der Werbung etwas anderes als das Profil?
+
+A. Werbung: „never train“ (Fall-Kandidat 48)
+
+1. chatgpt.com/business/enterprise, Abschnitt „Enterprise-grade security built in“, Überschrift und Satz darunter:
+We never train on your data and your data is secure
+Your business data, including conversations, files, and outputs from ChatGPT, is not used to train our models by default. ChatGPT Enterprise supports encryption, retention, and compliance controls to help protect sensitive work.
+
+2. openai.com/security-and-privacy, „For businesses“:
+We don’t train our models on your organization’s data by default.
+
+B. Vertrag und Datenschutzseite: Training nach Opt-in, auch über Feedback
+
+3. Enterprise-Privacy-Seite (wayback-enterprise-privacy-20261002-2026-10-22.txt, Zeile 98):
+By default, we do not use your business data for training our models. If you have explicitly opted in to share your data with us (for example, through our opt-in feedback mechanisms ⁠ (opens in a new window) ) to improve our services, then we may use the shared data to train our models.
+
+4. Services Agreement (wayback-business-terms-20261008-2026-10-22.txt), 4.2 und 9.3:
+OpenAI will not use Customer Content to develop or improve the Services, unless Customer explicitly agrees to such use.
+9.3. Feedback . If Customer provides Feedback, Customer grants OpenAI the right to use and exploit Feedback without restriction or compensation.
+Ob ein Daumen hoch/runter einzelner Nutzer als ausdrückliche Zustimmung des Kunden zählt, steht nirgends (ungeklärt).
+
+C. Sicherheitsseite: Überschrift mit vier ISO-Nummern (kein Widerspruch)
+
+5. openai.com/security-and-privacy:
+ISO 27001, 27017, 27018, and 27701
+OpenAI maintains ISO/IEC 27001:2022 and ISO/IEC 27701:2019 certifications for the information security and privacy management systems supporting the OpenAI API, ChatGPT Enterprise, and ChatGPT Edu services.
+
+6. Trust-Portal (wayback-trust-center-20261015-2026-10-22.txt, Zeilen 153-154):
+This certificate documents OpenAI's operation an Information Security Management System that conforms to the requirements of ISO/IEC 27001:2022 for OpenAI’s API, ChatGPT Enterprise, and ChatGPT Edu services.
+Control implementation also conforms to additional control sets of ISO/IEC 27017:2015 and ISO/IEC 27018:2019 and extends to include the PIMS requirements, control implementation guidance, and additional control set of ISO/IEC 27701:2019.
+27017 und 27018 sind Leitfäden innerhalb eines 27001-Zertifikats, keine eigenen Zertifikate. Die Überschrift liest sich nach vier Zertifikaten, der Text darunter nennt zwei, das Trust-Portal eins mit Erweiterungen. Kein Widerspruch in der Sache.
+
+D. Ohne Widerspruch / nicht prüfbar
+
+7. Werbung „supports encryption, retention, and compliance controls“ deckt sich mit dem Profil (Admins legen die Frist fest, gelöschte Chats nach 30 Tagen weg).
+8. chatgpt.com/pricing wird im Browser zusammengesetzt; die Archivkopie enthält keinen lesbaren Text zu Ort, Frist oder Training, nur Einstellungswerte (z. B. „is_data_residency_supported“: false als Seiten-Schalter, keine Aussage über das Produkt). Nicht ausgewertet.

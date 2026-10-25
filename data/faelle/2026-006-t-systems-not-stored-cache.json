@@ -97,6 +97,10 @@
     {
       "datum": "2026-10-21",
       "ereignis": "Prüfung nach Ablauf der Antwortfrist (21.10.2026). Keine Antwort des Anbieters eingegangen, auch nicht auf die Halbzeit-Erinnerung vom 15.10. (Postfach geprüft 21.10.2026 22:55 UTC). Alle drei Quellen erneut abgerufen (22:56 UTC): Die Leistungsbeschreibung ist byte-gleich zum Abruf vom 06.10.2026 (Version 1.24, § 2.3.1 unverändert, Cache-Funktion standardmäßig eingeschaltet). Die Trust-Seite enthält beide zitierten Sätze und „Storage: Not stored“ unverändert und erwähnt den Zwischenspeicher weiter nur als Navigationslink; neu sind nur Menüpunkte und ein Werbebanner. Die Prefix-Caching-Doku enthält das zitierte Satzstück unverändert. Rohkopien belege/faelle/2026-006/*-2026-10-22.*, SHA-256 in SHA256SUMS (Trust-Seite 9ca26b80d34b46d63064bec646f9e51f15f4ec4a090a036585b9aec1aa2b9c29). Snapshot: https://web.archive.org/web/20261021225741/https://docs.llmhub.t-systems.net/reference/enterprise-trust/ (byte-gleich zu unserer Kopie). Status auf „bestätigt“ gesetzt: Frist verstrichen, keine Antwort, beide Aussagen unverändert. Eine spätere Antwort wird wörtlich eingetragen; sobald eine der Auflösungen eintritt, geht der Fall auf „ausgeräumt“."
+    },
+    {
+      "datum": "2026-10-22",
+      "ereignis": "Fall veröffentlicht (nach Ablauf der Antwortfrist ohne Antwort des Anbieters). Der Fall bleibt für eine Antwort offen."
     }
   ]
 }

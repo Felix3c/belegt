@@ -1,0 +1,781 @@
+Quelle: https://knowledge.workspace.google.com/admin/generative-ai/gemini-app/turn-the-gemini-app-on-or-off?hl=en
+Abruf: 2026-10-22 12:59:23 +0200
+
+Turn the Gemini App on or off | Google Workspace Help
+Skip to main content
+Generative AI
+Documentation
+Administrators
+Getting started
+Set up and manage services
+Apps and integrations
+Billing and subscriptions
+Data migration
+Data synchronization
+Device management
+Domain management
+Generative AI
+Reports and monitoring
+Security and data protection
+User management
+Legal and compliance
+Support and troubleshooting
+Users
+Beam
+Calendar
+Chat
+Cloud Search
+Gmail
+Groups
+Docs, Forms, Sheets, and Slides
+Drive
+Keep
+Marketplace
+Meet
+Meet Hardware
+Sites
+Vault
+Vids
+Developers
+Apps Script
+Marketplace
+Workspace APIs
+Training & business user guides
+Workspace Learning Center
+Google Skills
+Community
+Communities
+Workspace Admin Community
+Workspace Developers Community
+Support
+/
+English
+Deutsch
+Español – América Latina
+Français
+Indonesia
+Italiano
+Nederlands
+Polski
+Português – Brasil
+Svenska
+Türkçe
+Русский
+עברית
+العربيّة
+ภาษาไทย
+中文 – 简体
+中文 – 繁體
+日本語
+한국어
+Sign in
+Administrators
+Generative AI
+Gemini App
+Admin console
+Contact us
+Overview
+Guides
+Generative AI
+Overview
+Guides
+Documentation
+More
+Community
+More
+Support
+Get started
+Google Workspace with Gemini
+Getting the most from generative AI in your organization
+Overview
+Phase 1: Prepare for AI adoption
+Phase 2: Get people to start using AI
+Phase 3: Measure impact and promote new features
+Review Gemini usage in your organization
+Language support
+Frequently asked questions
+FAQ for Business
+FAQ for Education
+Manage generative AI features
+Gemini in Workspace apps
+About AI usage limits
+Manage access to Gemini features in Workspace services
+Manage Gemini in Workspace conversation history settings
+Turn access to Beta features on or off
+Let users participate in surveys and user experience studies
+Gemini App
+Turn the Gemini App on or off
+Control Gemini App access to Workspace services
+Skills and Gems
+About the transition from Gems to skills
+Turn Gem sharing on or off
+Turn conversation sharing on or off
+Control temporary chats and chat deletion
+Gemini App firewall settings
+Gemini Notebook
+Turn Gemini Notebook on or off for users
+Manage Gemini Notebook sharing settings
+Gemini Enterprise
+Add & set up Gemini Enterprise - Business edition
+Turn Gemini Enterprise on or off for users
+Add & assign Gemini Enterprise - Business edition licenses to users
+Manage your Gemini Enterprise - Business edition subscription
+Control access to Gemini Enterprise agents
+Manage Gemini Enterprise agents for Workspace users
+Set up Agent Gateway for Workspace MCP ingress
+Cancel your Gemini Enterprise - Business edition subscription
+Get support
+Workspace Intelligence
+Control Workspace Intelligence for generative AI features
+Add-ons & billing
+AI Expanded Access
+AI Pro for Education
+Manage add-on licenses
+Purchase AI add-ons
+Choose who uses AI add-ons
+How Google Workspace with Gemini billing works
+Cancel a Gemini add-on subscription
+Privacy & compliance
+Generative AI in Google Workspace Privacy Hub
+Explore the AI control center
+Support access to Workspace Integrations
+Administrators
+Getting started
+Set up and manage services
+Apps and integrations
+Billing and subscriptions
+Data migration
+Data synchronization
+Device management
+Domain management
+Generative AI
+Reports and monitoring
+Security and data protection
+User management
+Legal and compliance
+Support and troubleshooting
+Users
+Beam
+Calendar
+Chat
+Cloud Search
+Gmail
+Groups
+Docs, Forms, Sheets, and Slides
+Drive
+Keep
+Marketplace
+Meet
+Meet Hardware
+Sites
+Vault
+Vids
+Developers
+Apps Script
+Marketplace
+Workspace APIs
+Training & business user guides
+Workspace Learning Center
+Google Skills
+Communities
+Workspace Admin Community
+Workspace Developers Community
+Google Workspace Help
+Administrators
+Generative AI
+Gemini App
+Guides
+Send feedback
+Turn the Gemini App on or off
+Stay organized with collections
+Save and categorize content based on your preferences.
+Control how Workspace users access the Gemini app
+As an administrator, you control who uses the Gemini app in your
+organization. The Gemini app can help users supercharge their ideas.
+With a little help from the Gemini app, users can do things like:
+Brainstorm ideas, develop a plan, or find different ways to get things done.
+Get a quick, easy to understand summary of more complex topics.
+Create first drafts of outlines, emails, blog posts, and much more.
+Learn more about the Gemini app .
+What is the Gemini app?
+The Gemini app includes:
+The Gemini web app at gemini.google.com
+Gemini mobile app on Android and iOS
+Gemini in Chrome
+Gemini on Mac
+Gemini for Windows
+"Gemini Apps" are also sometimes referred to as the "Gemini app" or "Gemini."
+If you have a work or school Google Account, your use of Gemini Apps may be
+subject to different data handling terms. Learn more about
+using Gemini Apps with a work or school Google Account .
+How to get the Gemini app
+Business and Enterprise editions
+As a core service
+The Gemini app as a core service with enterprise-grade data
+protections is available with most Google Workspace editions:
+AI Expanded Access
+Business Starter*
+Business Standard*
+Business Plus*
+Enterprise Starter
+Enterprise Standard
+Enterprise Plus
+Essentials
+Enterprise Essentials
+Enterprise Essentials Plus
+Frontline Starter
+Frontline Standard
+Frontline Plus
+Nonprofits
+Users who access the Gemini app through one of these editions are subject to the
+Google Workspace Terms of Service
+or your offline Workspace agreement, as applicable. Their content is not human
+reviewed or used for Generative AI model training outside their domain without
+permission. Learn more at the
+Generative AI in Google Workspace Privacy Hub .
+Feature availability depends on your Workspace license. See the comparison below
+for more detail.
+* To get the Gemini mobile app with a Business edition, you must sign up with
+a business email address or verify your domain.
+As an additional Google Service
+Users without a qualifying Google Workspace edition are
+subject to the Google Terms of Service
+and the Gemini Apps Privacy Notice
+when they use the Gemini app. Their chats may be reviewed by human reviewers and
+used to improve Google's products, services, and machine-learning technologies.
+Tell these users to avoid entering confidential or sensitive information when
+using the Gemini app.
+Education editions
+Gemini for Education is a version of the Gemini app built for the unique needs
+of the educational community.
+With a qualifying edition of Google Workspace for Education
+The Gemini app as a core service with enterprise-grade data
+protections is available to Google Workspace for Education users of all ages.
+These users are subject to the
+Workspace for Education Terms of Service
+or your offline Workspace agreement, as applicable. Their content is not human
+reviewed or used for Generative AI model training outside their domain without
+permission.
+With a Google Workspace with Gemini add-on license
+Users with a Google Workspace with Gemini add-on
+license have access to premium models and features in the Gemini app.
+Learn more about features included
+in Google Workspace with Gemini. Note: Google Workspace with Gemini is
+unavailable to users under age 18.
+Compare Gemini offerings
+Business and Enterprise offerings
+Edition
+Gemini Apps as an additional service with:
+Android Enterprise
+Cloud Identity
+Chrome Enterprise
+Business Base
+Essentials Starter
+G Suite
+Workspace Individual
+Gemini Apps as a core service with:
+Business Starter
+Essentials
+Enterprise Essentials
+Enterprise Essentials Plus
+Frontline Starter
+Frontline Standard
+Frontline Plus
+Nonprofits
+Gemini Apps as a core service with:
+Business Plus
+Business Standard
+Enterprise Plus
+Enterprise Standard
+Gemini Enterprise – Legacy
+Gemini Business – Legacy
+Gemini Apps as a core service with AI Expanded Access
+Access
+Standard access to features & models
+Standard access to features & models with enterprise-grade security & privacy
+Pro access to features & models with enterprise-grade security & privacy
+Higher access to features & models with enterprise-grade security & privacy
+Models
+Argon
+–
+–
+–
+Up to 200 prompts per day
+Pro
+Basic access - access varies; daily limits may change frequently.
+Up to 25 prompts per 4 hours
+–
+Thinking
+Basic access - access varies; daily limits may change frequently.
+Up to 300 prompts per day
+Up to 600 prompts per day
+Fast
+General access
+Context Window
+Context size
+32,000
+1 million
+Features
+Audio Overviews
+Up to 20 audio overviews per day
+Connect to Google Workspace apps
+-
+General access
+Connect to GitHub & upload code folders
+-
+-
+General access
+Deep research
+5 reports per month
+20 reports per day
+30 reports per day
+Deep Think 3.1
+-
+-
+-
+-
+Image generation & editing with Nano Banana 2 **
+Up to 20 images per day
+Up to 100 images per day
+Redo images with Nano Banana Pro **
+3 images per day
+Up to 100 images per day
+Up to 200 images per day
+Scheduled actions
+-
+-
+Up to 10 active actions at a time
+Music generation 30-second tracks
+Up to 10 tracks per day
+Up to 50 tracks per day
+Up to 60 tracks per day
+Music generation Full tracks (up to 3 minutes)
+Up to 5 tracks per day
+Up to 20 tracks per day
+Up to 30 tracks per day
+Video generation
+-
+-
+Up to 3 videos per day using Omni
+Up to 3 videos per day using Omni
+Slide generation
+Up to 20 presentations per day
+Additional features*
+Usage limits subject to the selected model
+Terms of Service & data handling-
+Enterprise-grade security & privacy
+-
+✔
+✔
+✔
+How your data may be used
+Your chats in Gemini Apps may be reviewed by human reviewers and used to improve Google's products, services, and machine-learning technologies.
+Your chats and uploaded files in Gemini Apps won't be reviewed by human reviewers or otherwise used to improve generative AI models.
+Your chats and uploaded files in Gemini Apps won't be reviewed by human reviewers or otherwise used to improve generative AI models.
+Your chats and uploaded files in Gemini Apps won't be reviewed by human reviewers or otherwise used to improve generative AI models.
+Use terms of service
+Google Terms of Service and Gemini Apps Privacy Notice
+Google Workspace Terms
+* There are more features that are not listed above, like
+Canvas ,
+Gems , and
+more. These features are generally available to most users.
+Learn more in the Gemini Apps help center .
+** Image generation & editing is in high demand. Limits may change frequently and will reset daily.
+Note: Your use of Gemini Apps (including
+gemini.google.com , Gemini mobile
+app, and Gemini in Chrome) across devices counts toward your usage limits. For
+example, when you use Gemini in Chrome, then switch to the Gemini mobile app
+using the same model, both will apply to your usage limits.
+Note: Limits are subject to
+change as required to accommodate capacity constraints .
+Education offerings
+Gemini Apps as a core service with:
+Education Fundamentals
+Education Standard
+Education Plus
+Gemini Apps as a core service with Google AI Pro for Education
+Access
+Access to features & models with enterprise-grade security & privacy
+Expanded access to features & models with enterprise-grade security & privacy
+User Requirement
+Minimum age
+All ages***
+18 or over
+Models
+Pro
+Up to 25 prompts per 4 hours
+Up to 25 prompts per 4 hours with prioritized access
+Thinking
+Up to 300 prompts per day
+Up to 300 prompts per day with prioritized access
+Fast
+General access
+Context Window
+Context size
+32,000
+1 million
+Features
+Audio Overviews
+Up to 20 audio overviews per day
+Connect to Google Workspace apps
+General access
+Connect to GitHub & upload code folders
+-
+General access
+Deep research
+5 reports per month
+20 reports per day
+Image generation & editing with Nano Banana 2 **
+Up to 20 images per day
+Up to 100 images per day
+Redo images with Nano Banana Pro **
+3 images per day
+Up to 100 images per day
+Scheduled actions
+-
+Up to 10 active actions at a time
+Music generation
+30-second tracks
+Up to 10 tracks per day
+Up to 50 tracks per day
+Music generation
+Full tracks (up to 3 minutes)
+Up to 5 tracks per day
+Up to 20 tracks per day
+Video generation
+-
+Up to 3 videos per day using Omni
+Slide generation
+Up to 20 presentations per day
+-
+General availability features*
+Usage limits subject to the selected model
+* Tip: There are more features that are not listed above, like
+Canvas ,
+Gems ,
+and more. These features are generally available to most users.
+Learn more in the Gemini Apps help center .
+** Image generation & editing is in high demand. Limits may change frequently and will reset daily.
+*** Some features are only available to users 18 and over.
+Learn more about age-based feature access .
+Features available to users under the age of 18
+Updated as of October 20, 2026.
+Google Workspace for Education users
+Under 18
+Models
+Pro
+✔
+Thinking
+Fast
+✔
+Features
+Audio Overviews
+Canvas
+✔
+Connect to Google Workspace apps
+✔
+Connect to GitHub & upload code folders
+Deep research
+File upload
+✔
+Gemini Live
+Gems
+✔
+Image editing
+Image generation
+✔
+Music generation
+Quizzes
+✔
+Scheduled actions
+✔
+Video generation
+Guided Learning
+✔
+For more details on age-based access, go to
+Control access to Google services by age .
+Regulatory compliance
+Business and Enterprise compliance
+Gemini Apps as an additional service with:
+Android Enterprise
+Cloud Identity
+Chrome Enterprise
+Essentials Starter
+G Suite
+Workspace Individual
+Gemini Apps as a core service with:
+Business Starter
+Essentials
+Enterprise Essentials
+Enterprise Essentials Plus
+Frontline Starter
+Frontline Standard
+Frontline Plus
+Nonprofits
+Gemini Apps as a core service with:
+Business Plus
+Business Standard
+Enterprise Plus
+Enterprise Standard
+AI Expanded Access
+Gemini Enterprise–Legacy
+Gemini Business–Legacy
+HIPAA
+-
+✔
+✔
+GDPR
+-
+✔
+✔
+SOC 1 | SOC 2 | SOC 3
+-
+✔
+✔
+ISO / IEC 27001 | ISO 27017 | ISO 27018 | ISO 27701 | ISO 9001 | ISO 42001
+-
+✔
+✔
+FedRAMP High *
+-
+✔
+✔
+BSI C5:2020
+-
+✔
+✔
+* Our current FedRAMP submission does not include Data Location. We're targeting FedRAMP High with Data Location at a later date.
+Education compliance
+Gemini Apps as a core service with:
+Education Fundamentals
+Education Standard
+Education Plus
+Gemini Apps as a core service with Google AI Pro for Education
+Support compliance with
+HIPAA
+✔
+✔
+GDPR
+✔
+✔
+SOC 1 | SOC 2 | SOC 3
+✔
+✔
+ISO / IEC 27001 | ISO 27017 | ISO 27018 | ISO 27701 | ISO 9001 | ISO 42001
+✔
+✔
+FedRAMP Moderate *
+✔
+✔
+BSI C5:2020
+✔
+✔
+COPPA
+✔
+✔
+FERPA
+✔
+✔
+* Our current FedRAMP submission doesn't include Data Location. We're targeting FedRAMP with Data Location at a later date.
+Gemini limits
+Gemini Apps has usage limits designed to ensure an optimal experience for
+everyone. This means we may at times have to cap the number of prompts and
+conversations you can have, or how much you can use some features, within a
+specific timeframe.
+The number of prompts you can use before hitting the limit varies and depends on
+factors like how long and complex your prompts are, the size and number of files
+you upload, and the length of your conversations with Gemini Apps.
+Your capacity replenishes regularly, so you can get back to chatting with Gemini
+Apps soon, or you can upgrade to a higher plan.
+Learn more about:
+How model limits work
+How feature limits work
+Usage limit changes
+What you can do when you reach a usage limit
+How to tell if you're close to a limit & when it refreshes
+What is a context window?
+Gemini activity settings
+When you use the Gemini web app or mobile app with your work or school
+account, conversation history is saved by default for 18 months. Your
+administrator can change the auto-delete setting to delete activity after 3,
+18, or 36 months or turn history off altogether.
+When Keep Activity is on, it includes activity from the Gemini web and mobile
+apps. Clearing your Gemini for Google Workspace history from a Workspace app
+doesn't affect information saved to Gemini Apps Activity.
+Important for work users with access to the Gemini app as an additional
+service: When Gemini Apps Activity is on, Google collects your Gemini app
+conversations and other information you provide and uses it to improve and
+develop Google products, services, and machine-learning technologies.
+Learn more .
+Gemini mobile app
+The Gemini mobile app includes:
+Gemini app on Android
+Gemini app on iOS
+Gemini mobile app is available by default to users in your organization who
+have access to Gemini . Google Workspace users are
+subject to some restrictions when using the mobile app. They can't use:
+Gems
+Canvas
+Notes:
+Android users attempting to use the Gemini mobile app in the Android Work
+Profile will be redirected to gemini.google.com
+in their mobile web browser.
+Learn more about using Gemini
+mobile app with a work or school Google Account.
+Control access to Gemini mobile apps
+There is no administrator control specific to the Gemini mobile app. However,
+you can choose to block the Gemini app through device management settings.
+Learn more about
+managing mobile apps for your organization.
+Gemini in Chrome
+Gemini in Chrome is available by default to users in your organization with
+access to the Gemini app. Access to Gemini in Chrome as a core service with
+enterprise-grade data protections is available with most Google Workspace
+editions . To use Gemini in Chrome, users must be:
+signed in to Chrome in the US
+over the age of 18 years old
+using English (U.S.) as their default language in Chrome
+using a Chromebook Plus, Windows, macOS, or iOS device
+At this stage Gemini in Chrome does not support the following compliance
+certifications:
+HIPAA Business Associate Amendment (BAA)
+Gemini in Chrome is automatically blocked for customers who've signed a
+BAA.
+SOC 1, SOC 2, SOC 3
+ISO / IEC 27001, ISO 27017, ISO 27018, ISO 27701, ISO 9001, ISO 42001
+FedRAMP High
+BSI C5:2020
+You can use GeminiSettings in Chrome
+Enterprise to disable
+Gemini in Chrome while maintaining access to the Gemini web app and Gemini
+mobile apps.
+Choose who can use the Gemini app
+By default, the Gemini app is available to all users over age 18 with
+a license that provides access under your Google Workspace
+agreement .
+You can extend access to all users , regardless of their
+Google Workspace license:
+In the Google Admin console, go to Menu
+Generative AI
+Gemini app .
+Go to Gemini app
+Requires having the Gemini Settings administrator privilege .
+Important: This setting controls access to
+gemini.google.com, Gemini mobile apps, and Gemini in Chrome. It has no effect
+on other AI features in Google Workspace services.
+Click User access .
+Check the box to Allow all users to access the Gemini app, regardless of
+license .
+(Optional) To apply the setting only to some users, at the side, select an organizational unit (often used for departments) or configuration group (advanced).
+Group settings override organizational units. Learn more
+Click Save .
+Changes can take up to 24 hours but typically happen more quickly. Learn more
+Turn the Gemini app on or off
+Note: To turn on the Gemini app on Android, ensure that you turn
+on the Search and Assistant service setting. If this setting isn't turned
+on, your Android users can't use the Gemini app.
+In the Google Admin console, go to Menu
+Generative AI
+Gemini app .
+Go to Gemini app
+Requires having the Gemini Settings administrator privilege .
+Click Service status .
+To turn a service on or off for everyone in your organization, click On for everyone or Off for everyone , and then click Save .
+(Optional) To apply the setting only to some users, at the side, select an organizational unit (often used for departments) or configuration group (advanced).
+Group settings override organizational units. Learn more
+Click Save .
+Changes can take up to 24 hours but typically happen more quickly. Learn more
+Manage Gemini conversation history
+The Gemini conversation history setting lets you manage whether Gemini
+conversations are saved and for how long before they're automatically deleted.
+When Gemini conversation history is on or off, chats are used as described in the
+Google Workspace Terms of Service .
+When Gemini conversation history is off, users won't be able to access previous
+conversations. Once they leave a conversation, they won't be able to see it
+again. Google may still store these conversations for up to 72 hours so Google
+can provide the service. This activity doesn't appear in Gemini Apps Activity.
+When you turn the setting on and then off, any existing conversation history is
+stored for the length of time set in the Conversation retention option. Gemini
+responses based on Google Chat data might be retained longer than the
+conversation where the data originated.
+Note: When Gemini conversation history is off, Workspace apps integrations
+are not accessible to Gemini.
+Only Workspace admins have access to the Gemini conversation history setting.
+The setting can't be changed by Workspace users. Conversation history is on by
+default.
+In the Google Admin console, go to Menu
+Generative AI
+Gemini app .
+Go to Gemini app
+Requires having the Gemini Settings administrator privilege .
+Click Gemini conversation history .
+To turn conversation history on or off, select or deselect the Enable
+Gemini conversation history box.
+When conversation history is on, below Conversation retention , select how
+long conversations are stored before they're automatically deleted: 3, 18, or
+36 months. The default is 18 months. The minimum conversation retention time
+is 3 months.
+Note: Depending on settings configured for your organization, users might
+be able to delete individual conversations. Learn how to control chat
+deletion in the Gemini App .
+(Optional) To apply the setting only to some users, at the side, select an organizational unit (often used for departments) or configuration group (advanced).
+Group settings override organizational units. Learn more
+Click Save .
+Changes can take up to 72 hours but typically happen more quickly.
+Note: For a newly created user, Gemini conversation history can take up to 72
+hours to take effect. Conversations within the first 72 hours after a user has
+been created might not be saved in Gemini conversation history.
+Related topics
+Turn Google apps in Gemini on or off
+Learn to use Gemini at the Gemini Apps Help Center
+Google Workspace with Gemini FAQ
+Business
+and enterprise
+editions that support the Google Workspace with Gemini
+Send feedback
+Except as otherwise noted, the content of this page is licensed under the Creative Commons Attribution 4.0 License , and code samples are licensed under the Apache 2.0 License . For details, see the Google Developers Site Policies . Java is a registered trademark of Oracle and/or its affiliates.
+Last updated 2026-10-20 UTC.
+Need to tell us more?
+[[["Easy to understand","easyToUnderstand","thumb-up"],["Solved my problem","solvedMyProblem","thumb-up"],["Other","otherUp","thumb-up"]],[["Missing the information I need","missingTheInformationINeed","thumb-down"],["Too complicated / too many steps","tooComplicatedTooManySteps","thumb-down"],["Out of date","outOfDate","thumb-down"],["Samples / code issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],["Last updated 2026-10-20 UTC."],[],[]]
+Try Google Workspace
+Boost your productivity with AI at no cost
+Admin Community
+Get answers from industry peers and experts
+Customer Care
+Learn about support options and services
+Documentation & training
+Help Centers
+Developer guides
+Learning Center
+Google Skills
+Tools
+Admin console
+Apps Script Dashboard
+Google Cloud console
+Support
+Admin Community
+Developers Community
+Customer Care
+Terms
+Privacy
+Manage cookies
+English
+Deutsch
+Español – América Latina
+Français
+Indonesia
+Italiano
+Nederlands
+Polski
+Português – Brasil
+Svenska
+Türkçe
+Русский
+עברית
+العربيّة
+ภาษาไทย
+中文 – 简体
+中文 – 繁體
+日本語
+한국어

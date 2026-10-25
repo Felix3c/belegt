@@ -30,8 +30,6 @@ $4.18
 /v1/conversations
 /v1/conversations
 /v1/conversations
-1.0
-1.0
 1.05T
 1.6B
 1M
@@ -47,6 +45,8 @@ $4.18
 5.2
 5.3
 5.3
+5.3
+5.3-flash
 52B
 6,
 AI
@@ -91,7 +91,9 @@ EUR
 EXPLORE
 FEATURES
 Features
+Flash
 Function
+GLM
 GLM
 GLM
 Github
@@ -159,7 +161,6 @@ Resources
 Sampling
 Search
 Search
-Shieldstral
 Solutions
 Speed
 Speed
@@ -189,6 +190,7 @@ Vibe
 WEIGHTS
 WHY
 X
+Z.ai
 Z.ai
 Z.ai
 a

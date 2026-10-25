@@ -1,0 +1,406 @@
+Quelle: https://www.infomaniak.com/en/legal/confidentiality-policy
+Abruf: 2026-10-24 08:25 +0200 (curl direkt, HTTP 200; robots.txt von www.infomaniak.com erlaubt die Pfade, welcome.infomaniak.com hat keine robots.txt). SHA-256 der Rohseite: b98588b6a9fea4d4db085991aa61473152df9ca983cfbe8a9bf446165531d5b1
+Inhalt: Privacy Policy (englisch), ganzer Seitentext
+
+Data confidentiality policy | Infomaniak
+Our products
+Collaborative tools
+Web & Domains
+Cloud Computing
+Events & Marketing
+Streaming
+kDrive
+Store, collaborate and share your files
+kChat
+Communicate live with your teams
+SwissTransfer
+Send your files up to 50 GB free of charge
+Custom Brand
+Control the brand image of your products
+Mail Service
+Create your email addresses with your domain
+kMeet
+Organise your meetings online in complete security
+kPaste
+Share and encrypt your sensitive information
+Chk
+Link reducer & QR code generator
+Collaborative suite
+Discover the collaborative suite
+kSuite
+PRO
+For organisations that want to collaborate in a 100% sovereign ecosystem
+kSuite
+For individuals who want an ethical email address, drive and AI, free for life
+Euria, the ethical AI
+The sovereign AI assistant that respects privacy and the planet.
+Find the web hosting solution you need
+Compare our web hosting solutions
+Domain Name
+Reserve your domain name at the best price
+Web Hosting
+Create your website with over 100 CMS
+Cloud Server
+Power up your sites with guaranteed resources
+SSL Certificates
+Secure your websites with an EV or DV certificate
+Site Creator
+Create your website with ease
+Wordpress Hosting
+Create your WordPress website easily
+Node.js Hosting
+Create a dynamic, interactive site with Node.js
+Options
+Domain Privacy
+Protect your domains’ private data
+FastAnycast DNS
+Speed up your site access times
+DynDNS
+Access your devices remotely
+Renewal Warranty
+Secure your domains against loss and theft
+Cloud services
+Cloud Computing
+Build the cloud infrastructure that meets your needsCompare our solutions
+Public Cloud (IaaS)
+Create your projects in a high-end, ultra-competitive Cloud
+VPS Cloud
+Create a Windows / Linux server
+Kubernetes Service
+Deploy containerised apps on a large scale
+GPU Cloud
+Run your AI projects, perform intensive computations or rendering jobs using GPU machines
+VPS Lite
+Create a Windows/Linux server at a low cost
+Database Service
+Manage your databases with a managed solution
+Jelastic Cloud (PaaS)
+Create your own customised environments
+Other services
+AI Services
+Boost your productivity with our sovereign AI
+Swiss Backup
+Back up your devices in the Cloud
+NAS Synology
+Rent a NAS in our secure data centers
+Very High Availability
+Create a multi-data center infrastructure with customised SLAs
+Housing
+Install your servers in our data centers
+Auth
+Add a privacy-friendly login method to your apps
+Infomaniak Events, the independent local events portal
+Online ticketing service with a wide choice of concerts, shows and events.
+Discover all the events
+Ticketing
+Create your ticketing service and sell tickets
+Access Control
+Control access to your events with ease
+Guest manager
+Automate your event invitations
+Newsletter
+Send your newsletters at competitive prices
+Radio Streaming
+Create and broadcast your own live radio station online
+Video-Streaming
+Create and broadcast live events and TV online
+VOD & AOD service
+Host and broadcast your recordings without limits
+Resources
+DocumentationGuides & tutorialsAPI documentation
+Special offersGet started for freeStudent programmeBecome an affiliate
+Partner programmeFind a partnerBecome a partnerInfomaniak Academy
+Support & contactContact SupportPremium support - 24/7Contact our sales departmentHiring an expertMigrate to Infomaniak
+Investors
+About us
+Infomaniak’s values
+Responsibility, Social and Local
+Digital sovereignty
+Long-term commitment
+About InfomaniakAbout usGovernanceInfomaniak is recruitingBlog and newsImpact report 2024
+Your securityData confidentialityBug Bounty ProgramTrust center
+Get started for freeLog in
+Confidentiality
+Legal informationLegal documentsPolicy on the use of cookiesConfidentiality policyGDPRLPD
+Data confidentiality policy
+It is important to distinguish between the personal data you entrust to us for the use of our services, and the security of the data you host on Infomaniak's technical infrastructures.
+You'll find all the common questions concerning the security of the data you host, as well as their precise scope, in our space dedicated to security issues.
+This confidentiality policy applies to all our products and services.
+Data controller: Infomaniak Network SA, Rue Eugène-Marziano 25, 1227 Les Acacias (GE), Switzerland. If you have any questions regarding data protection or wish to exercise your rights, please contact us at dpo@infomaniak.com or by mail at the above address, for the attention of the Data Protection Officer.
+Commitment to the confidentiality of your personal data
+Infomaniak collects as little information about you as possible. In order to be able to deliver your order, guarantee the security of your data or collect your opinion on specific pages, we may nevertheless require certain personal information.
+Infomaniak processes your personal data with care and ensures that your privacy is protected. Here are our three commitments regarding the confidentiality of your personal data:
+Usage limited as much as possible
+We never share your personal data with third parties without a valid reason.
+Responsible processing
+We protect and treat your personal information as if it were our own.
+Transparent use
+We use your personal information solely for the purposes described below.
+What personal information does Infomaniak store?
+Name, address and place of residence
+Your name is stored, as you are more than just a customer number to us when you contact our support team. We also need your name and place of residence to prepare your invoices, contact you or visit you for a cup of coffee (if you invite us).
+Email address
+We store your e-mail address to send you important messages about your order or account. We also keep you informed of new developments at Infomaniak via newsletters. If necessary, you can choose to unsubscribe from these.
+Phone number
+We store your telephone number to contact you in case of emergency or to ask for your opinion. In addition, we use your number to send you SMS messages for two-step verification or to authenticate you.
+Login details and customer number
+We store your login details to secure access to your account and ensure that only authorised people can access your personal data. We also generate a unique customer number so we can help you more quickly and efficiently.
+IP address
+We store your IP address to give you an overview of the IP addresses used to connect to your account and to verify the origin of any changes. This information is also used to strengthen the protection of your account against unauthorised access from other locations.
+Payment details
+We store payment information such as your PayPal details, your credit card, your account number and your name as the account holder. The processing of your payments also involves other parties, such as companies affiliated with your payment method or credit cards. When you place an order, we also generate a unique offer or an invoice number which is then linked to your account.
+Your use of our Internet site
+Cookies and similar technologies allow us to understand how our website and services are used so that we can improve them. We track our website’s traffic using Matomo, a software package hosted on our own servers in Switzerland: this data is not shared with any third parties. This tracking is activated solely with your consent, which you can modify at any time using the “Manage your cookies” button at the bottom of the pages. With your consent only, cookies are also used to measure the effectiveness of our ads and to personalise them. For details on how your data is used, please refer to the “Products, Services & Applications” section at the bottom of the page.
+When do we share your information with other parties?
+Infomaniak develops most of its solutions in-house and works exclusively with partners who meet our security standards. A detailed list of third parties involved in our website, your orders and the security of your account can be found in the “Does Infomaniak share my data with third parties?” section below, along with the other categories of recipients. In summary, your data is shared with third parties primarily in the following cases:
+Providing or performing our services
+We use services such as Checkout and PayPal to offer different payment options, Twilio to send two-step verification text messages and MaxMind to prevent payment fraud.
+Improve our services, our site or our advertising
+With your consent, we measure traffic on our website using Matomo, which is hosted on our own servers, and we use our advertising partners' tools to measure the effectiveness of our ads.
+Get feedback
+We sometimes use survey companies to find out how satisfied you are with our services.
+Secure our website and display our customers' reviews
+We use ALTCHA and Google reCAPTCHA to secure our forms, as well as Trustindex to display our customers' reviews.
+Pay our affiliate partners
+With your consent, we use Awin to allocate orders to our affiliate partners and calculate their commissions.
+Fulfilling a legal obligation
+An authority may compel us, through a decision valid under Swiss law, to disclose data to it.
+Register a domain name
+ICANN-accredited registrars are obliged to publish the details of the owner of a domain in the Whois database of the registry responsible for the domain. This means that anyone can check the availability of a domain and see who owns it. With Domain Privacy, Infomaniak nevertheless offers the possibility of keeping this data confidential when authorised by the domain registry.
+Yoann Lopez - Data Protection Officer (DPO)
+Infomaniak's Data Protection Officer (DPO)
+This person serves as Infomaniak’s internal compliance officer for data processing activities. They have the necessary resources to fulfil their role without any conflict of interest, in accordance with the obligations and best practices that Infomaniak must implement regarding the protection of personal data. You can contact them directly at dpo@infomaniak.com.
+Combating fraud
+Your personal information allows us to verify your identity when people contact us and try to impersonate you with false information.
+Cookies
+Cookies may contain personal information about you, such as your browsing behaviour and interests. See our cookie policy for more information.Cookie use policy
+Overview of your personal information
+You can review and control most of your personal information through your Manager.
+If you have any questions, please contact us.Access the manager
+Legal or contractual provisions for the provision of personal data
+The provision of personal data may be required by law or result from contractual regulations. For example, we are obliged to collect and process personal data in order to conclude a contract. Otherwise, no contract can be concluded.
+Duration of personal data storage
+We process and store personal data only for the time necessary to achieve the purpose of storage or to the extent required by law. As a general rule, the purpose of processing is achieved when the contract is terminated.
+●You can modify and delete the data you store in our services yourself. After a service is terminated, we delete the data stored in it, including its backup copies, within the timeframe specified in the specific terms and conditions for that service.
+●Account and contact information: for the duration of the contract and for three years after the account is closed.
+●Invoices and accounting documents: ten years from the end of the fiscal year. Contractual data: ten years after the end of the contract (statute of limitations).
+●The information you provide during the process of placing an uncompleted order will be retained for a maximum of six months.
+●Log files for your account (IP addresses): up to twelve months.
+●Inquiries submitted to our support team (tickets, chat, emails): five years after the request is closed.
+●Recordings of phone calls with our support team: six months.
+●Identification documents submitted to our support team: deleted once verification is complete, no later than thirty days after submission; via Infomaniak Check: automatically deleted 24 hours after our support team processes the request or, if the request is not successful, after 72 hours.
+●Applications: six months after the end of the recruitment process, unless you agree to a longer retention period.
+●Traffic measurement (Matomo): thirteen months.
+●Cookies: as per the durations specified in our cookie policy.
+Your personal data
+What information does Infomaniak collect about me?
+User's personal data:We collect the personal data you provide to us when you use or register for any of our services, purchase and / or register a domain name and / or when you contact us directly through any communication channel (for example, support tickets, chat or calls; we also record information when you contact us, such as support queries, notes, or information about your requests and how we responded to you). This data collection is necessary to enable us to provide you with our services. We also use cookies and similar technologies on our sites and mobile applications to collect information about your interactions with and use of our services. Here are the types of personal data we collect about you:
+Contact data
+your name
+your first name
+the name of your company, association or foundation
+Your login email address
+a recovery email address
+your mobile phone number
+a postal address
+Login details
+Passwords and security information used for authentication and access.
+Interaction data
+Device data
+Device configuration
+IP address(es)
+Regional and language settings
+Access points near your device
+Geolocation data (please see the 'Products, Services & Applications’ section)
+Infomaniak Sync
+Infomaniak Check
+Personal data relating to payment, such as the billing address or credit card details (for users of paid services).
+Personal data that you include in your communications with us (such as an identity card, passport, official company registration documents, minutes of an association, certificate of inheritance, death certificate).
+Phone calls with our support team are recorded to improve the quality of our services and to maintain a record of our conversations. An announcement will inform you of this at the beginning of the call; you may contact us in writing if you do not wish to be recorded.
+Data we do not collect directly from you: contact information for a domain name or users added to an organisation, provided by our customer; country and region inferred from your IP address during a payment (GeoIP); confirmation, provided by Awin, that an order originated from an affiliate partner.
+How does Infomaniak use my personal data?
+Collection of your personal data is necessarily subject to specific terms of use. Depending on the type of personal data, it may be used for:
+Enter into and perform the contract: provide and operate Infomaniak services and products, issue invoices, provide administrative and technical support and notify you of events affecting your services and products. Legal basis: performance of the contract.
+Enable the identification of new customers, secure accounts and prevent fraud and abuse. Legal basis: legitimate interest in protecting our customers and our infrastructure.
+Improve Infomaniak’s services and products continuously, gather your feedback and record calls with our support team for quality assurance and evidentiary purposes. Legal basis: legitimate interest in developing our products and improving the quality of our service.
+Send our customers emails about our new products and offers for similar services. Legal basis: legitimate interest in promoting our services to our customers.
+Send our newsletter to subscribers, measure our website’s traffic, measure the effectiveness of our ads and allocate orders to our affiliate partners. Legal basis: consent.
+Comply with applicable laws and regulations, particularly regarding accounting records, and respond to a request from the authorities. Legal basis: legal obligation under Swiss law; with regard to the GDPR, our legitimate interest in complying with the law applicable to us and, for obligations arising under European Union law or the law of a member state, legal obligation.
+Processing job applications for positions posted by Infomaniak. Legal basis: precontractual measures taken at your request.You may object at any time, without giving a reason, to the use of your data for marketing purposes by using the unsubscribe link in our emails or through your contact preferences. Under Swiss law, processing that complies with the principles of the FADP does not require justification; references to Art. 31 FADP indicate the basis (consent, overriding interest, law) that we would invoke if justification were necessary.
+Does Infomaniak share my data with third parties?
+We protect and process your personal information as if it were our own and we never share your personal data with third parties without a valid reason. Our service providers may only use your data on our behalf and in accordance with our instructions. Third parties acting as data controllers – whether affiliated or independent – process your data in accordance with their own privacy policies. Your personal data may therefore be shared with companies within the Infomaniak Group, with third-party partners (e.g. to allow you to integrate their solutions into our services) or with trusted third-party service providers. For example, we may share your data in connection with processing a payment, obtaining feedback or complying with a legal obligation.
+Security of forms and display of customer reviews – as soon as the pages loadALTCHA and Trustindex are loaded as soon as pages on our website are displayed; Google reCAPTCHA is loaded as soon as pages containing our support request, abuse reporting and sales contact forms are displayed.
+Legal basis: legitimate interest in protecting our forms and displaying our customers’ reviews. Data transmitted: IP address, browser type and version, language, operating system and URL of the page viewed; for Google reCAPTCHA, additionally: device and browser information, interaction with the page (mouse movements, keystrokes) and an identifier stored in the browser.
+BAU Software s.r.o. (ALTCHA), Czech Republic
+Purpose: to provide the form protection component; the verification itself is performed on Infomaniak's servers
+Data processing location: European Union; the script is served by the Bunny.net content delivery network (BunnyWay d.o.o., Slovenia) from the point of presence closest to you
+Safeguards for international transfers: countries recognised as providing an adequate level of protection (European Union member states)
+Trustindex Kft. (Trustindex Ltd), Hungary
+Purpose: to display our customers' reviews
+Data processing location: European Union (Germany); the widget files are served by the Amazon CloudFront network from the point of presence closest to you
+Safeguards for international transfers: countries recognised as providing an adequate level of protection (European Union member states); Amazon CloudFront’s certification under the EU–U.S. and Swiss–U.S. Data Privacy Frameworks; alternatively, standard contractual clauses
+Google Ireland Limited, Ireland (Google reCAPTCHA)
+Purpose: to protect our support request, abuse reporting and sales contact forms
+Data processing location: European Union, United States
+Safeguards for international transfers: countries recognised as providing an adequate level of protection (European Union member states); Google LLC’s certification under the EU–U.S. and Swiss–U.S. Data Privacy Frameworks; alternatively, standard contractual clauses
+Payment – only when placing an orderLegal basis: performance of the contract. Data transmitted: name, amount, order reference or invoice number and, depending on the payment method, card or account information.
+Checkout SAS (Checkout.com), France
+Purpose: to process card payments (Visa, Mastercard) and 3-D Secure authentication
+Data processing location: European Union, United Kingdom; United States (Amazon Web Services hosting)
+Safeguards for international transfers: countries recognised as providing an adequate level of protection (European Union member states, the United Kingdom); standard contractual clauses; for Amazon Web Services: Amazon.com, Inc.’s certification under the EU–U.S. and Swiss–U.S. Data Privacy Frameworks
+PayPal Group
+Purpose: to process the payment when you select PayPal
+Data processing location: Singapore or Luxembourg, depending on your country of residence; PayPal also processes data in the United States and other countries, under its own responsibility
+Safeguards for international transfers: Singapore does not have an adequacy decision; transfer, limited to transaction data, is directly related to and necessary for the performance of the contract that you enter into with us by choosing this payment method. PayPal then processes your data under its own responsibility, in accordance with its privacy policy
+Responsible entity: PayPal Pte. Ltd. (Singapore) for residents of Switzerland; PayPal (Europe) S.à r.l. et Cie, S.C.A. (Luxembourg) for residents of the European Economic Area; or the PayPal entity responsible for your country of residence
+Data transmitted by Infomaniak: only transaction data (amount, currency, order reference); other data is collected directly by PayPal
+TWINT SA, Switzerland
+Purpose: to process the payment via TWINT
+Data processing location: Switzerland
+PostFinance Ltd, Switzerland
+Purpose: to process the payment via PostFinance
+Data processing location: Switzerland
+SIX BBS SA (eBill), Switzerland
+Purpose: to submit invoices via eBill
+Data processing location: Switzerland; Germany, Austria, France, Italy, Liechtenstein, Poland, United Kingdom
+Safeguards for international transfers: countries recognised as providing an adequate level of protection (European Union member states, Liechtenstein, the United Kingdom)
+Security of your account and fraud prevention – during authentication or paymentLegal basis: performance of the contract and legitimate interest in protecting accounts and preventing fraud. Data transmitted: to Twilio, your phone number and the verification code; to MaxMind, your IP address.
+Twilio Inc., United States
+Purpose: to send two-step verification and authentication text messages
+Data processing location: United States, European Union; telecom operator networks in the recipient's country
+Safeguards for international transfers: Twilio Inc.’s certification under the EU–U.S. and Switzerland–U.S. Data Privacy Frameworks; the Twilio Group’s binding corporate rules; and, alternatively, standard contractual clauses
+MaxMind, Inc., United States
+Purpose: to detect payment fraud by geolocating the IP address (GeoIP)
+Data processing locations: United States, United Kingdom, Singapore; Cloudflare's global network
+Safeguards for international transfers: MaxMind, Inc.’s certification under the EU–U.S. and Swiss–U.S. Data Privacy Frameworks; standard contractual clauses for other countries
+Affiliation – only with your consentLegal basis: consent. Data transmitted: a random identifier stored in a cookie; technical characteristics of the device and browser that allow it to be recognised, including across devices; pages viewed; referring site; and, in the case of an order, reference and amount; IP address.
+AWIN AG, Germany
+Purpose: to allocate orders to affiliate partners and calculate their commissions, including through its SingleView allocation technology (domains dwin1.com, roeye.com and roeyecdn.com)
+Data processing location: European Union; other countries where the Awin Group and its service providers are located, including those outside the European Union
+Safeguards for international transfers: countries recognised as providing an adequate level of protection (European Union member states); standard contractual clauses
+Joint responsibility: Infomaniak and Awin are jointly responsible for tracking and allocating orders. Infomaniak informs you and obtains your consent; Awin handles the technical tracking and is responsible for the processing operations it subsequently performs. The key provisions of their agreement are set forth in Awin’s Data Processing Addendum. You may exercise your rights with Infomaniak or directly with Awin. Withdrawing your consent terminates the tracking; Awin retains data from transactions that have already been allocated for up to three years for the purpose of calculating and verifying commissions, based on its legitimate interest.
+Ad effectiveness measurement – only with your consent
+These third parties are only contacted if you accept the "Ads" or "Personalised ads" categories.
+Legal basis: consent. Data transmitted: conversion events, advertising identifiers stored in cookies, IP address and browser information.We are responsible, either alone or jointly with the relevant partner, for collecting this data on our website and for transmitting it; each partner is solely responsible for the processing operations it subsequently performs, in accordance with its own privacy policy. You may exercise your rights by contacting Infomaniak or directly contacting the relevant partner.
+Google Ireland Limited, Ireland (Google Ads)
+Purpose: to measure ad conversions and, if you agree, to personalise ads
+Data processing location: European Union, United States
+Safeguards for international transfers: countries recognised as providing an adequate level of protection (European Union member states); Google LLC’s certification under the EU–U.S. and Swiss –U.S. Data Privacy Frameworks; alternatively, standard contractual clauses
+Meta Platforms Ireland Limited, Ireland (Meta Ads)
+Purpose: to measure ad conversions and, if you agree, to personalise ads
+Data processing location: European Union, United States
+Safeguards for international transfers: countries recognised as providing an adequate level of protection (European Union member states); Meta Platforms, Inc.’s certification under the EU–U.S. and Swiss–U.S. Data Privacy Frameworks; alternatively, standard contractual clauses
+Joint responsibility: the key provisions of the agreement are set forth in Meta’s Data Controllers Addendum.
+LinkedIn Ireland Unlimited Company, Ireland (LinkedIn Ads)
+Purpose: to measure ad conversions and, if you agree, to personalise ads
+Data processing location: European Union, United States
+Safeguards for international transfers: countries recognised as providing an adequate level of protection (European Union member states); LinkedIn Corporation’s certification under the EU–U.S. and Swiss–U.S. Data Privacy Frameworks; alternatively, standard contractual clauses
+Microsoft Ireland Operations Limited, Ireland (Microsoft Advertising)
+Purpose: to measure ad conversions and, if you agree, to personalise ads
+Data processing location: European Union, United States
+Safeguards for international transfers: countries recognised as providing an adequate level of protection (European Union member states; Microsoft Corporation’s certification under the EU–U.S. and Swiss–U.S. Data Privacy Frameworks; alternatively, standard contractual clauses
+X Internet Unlimited Company, Ireland (X Ads)
+Purpose: to measure ad conversions and, if you agree, to personalise ads
+Data processing location: European Union, United States
+Safeguards for international transfers: countries recognised as providing an adequate level of protection (European Union member states); X Corp’s certification under the EU–U.S. and Swiss–U.S. Data Privacy Frameworks; alternatively, standard contractual clauses
+Other categories of recipients
+Domain name registries, ICANN-designated data repositories and SSL certificate authorities, depending on the product ordered: name, mailing address, email address and phone number of the domain holder and domain contacts. These organisations are located worldwide depending on the chosen domain extension (for example, in the United States for .com domains); this disclosure is directly related to and necessary for the performance of the contract entered into with you.
+Banks, card networks and issuers involved in processing your payments.
+Subcontractors specific to certain services (for example, spam filtering for the Mail Service or the distribution of newsletters): they are listed in the “Third-Party Subcontractors” annex of our Data Processing Agreement (DPA).
+Companies within the Infomaniak Group, all of which are based in Switzerland, for the purposes described in this policy.
+Survey companies, when we collect your feedback on our services.
+Authorities, upon submission of a request that is valid under Swiss law.
+Transfer of data abroadThe member states of the European Union, Liechtenstein and the United Kingdom provide a level of data protection recognised as being adequate by the Federal Council. Transfers to the United States are made to companies certified under the Swiss-U.S. Data Privacy Framework and the EU-U.S. Data Privacy Framework, which are recognised as providing an adequate level of protection by the Federal Council and the European Commission, respectively. Otherwise, they are covered by the European Commission’s standard contractual clauses, as adapted to Swiss law. When a recipient is located in another country that does not benefit from an adequacy decision (for example, Singapore or, for domain name registries, the country of the relevant registry), the transfer is based on these same clauses or is directly related to the performance of the contract entered into with you and necessary for that purpose. You can obtain a copy of these safeguards by writing to dpo@infomaniak.com.
+Withdrawal of consentYou can modify or withdraw your consent to audience measurement, affiliation and ad effectiveness measurement at any time by clicking the “Manage your cookies” button at the bottom of the website’s pages. Withdrawing your consent does not affect the lawfulness of any processing carried out prior to that time.
+How can I update my personal information?
+You have control over your personal information. See your choices about the data we collect to find out more.
+Can I control my personal data?
+We provide you with tools to control your account information as well as information on how it is used. Access your user account or contact us to:
+Display and update your account information, such as your name, phone number and billing address;
+View and update your contact preferences to receive messages about Infomaniak's account and products;
+Display and update Whois information for your domain names registered through us.You can also unsubscribe from our marketing communications by clicking on the unsubscribe link at the bottom of each of our emails, with the exception of messages concerning technical interventions or the evolution of your products.
+Closing an account and deleting your data
+You may request that your account be closed if the following conditions are met:
+All products and services must be terminated by you via your Manager before the account is closed. If the account still contains active products or services, the account cannot be closed;
+Your prepaid account balance must be zero. If necessary, you can request that the remaining balance be refunded to the bank account of your choice;
+The request can only be granted insofar as your data is no longer necessary for the services purchased, and is not necessary to ensure compliance with a legal retention obligation or to establish, exercise or defend legal rights.When you close your account, you can request that your personal data be deleted. Please note that it may take up to 30 days to delete all data associated with your account. In the absence of a specific request on your part, Infomaniak will delete your data three years after your account is closed, with the exception of data that we are required by law to retain, such as accounting records which must be kept for ten years. You will no longer be able to access your account or your payment history once it has been deleted.
+Can I check the data Infomaniak holds relating to me?
+You can ask us for a copy of your personal data in electronic format, which you can pass on to other service providers if you wish. We will respond to your request within 30 days, providing you with a link enabling you to retrieve your data easily.
+How do you guarantee the security of my personal data?
+Here are some of the ways we help you protect your identity and personal data:
+We encrypt the personal data you send us via online forms using the very latest encryption technologies to prevent anyone from intercepting your information.
+We give you the option of strengthening the security of your user account with two-step verification.
+How can I enhance the security of my personal data?
+Infomaniak cannot guarantee the security of your personal data without your cooperation. We recommend that you follow the recommendations below to best protect your personal data:
+Use different, complex passwords for each of your services.
+Never share your passwords.
+Log out of your user account when using a computer you share with other people.
+Modify your account password at least once a year.
+Enable two-step verification on your user account.
+Install a recognised antivirus software on your computer.
+Products, Services & Applications
+How is data processed when synchronising, backing up, importing or migrating data from an external service?As part of our productivity solutions, users can synchronise, back up or import data from services external to Infomaniak.
+Infomaniak Sync (kSync)As part of our productivity solutions, users can synchronise, back up or import data from services external to Infomaniak.
+What personal data does Infomaniak collect about me and for what purpose?When using this application, the following personal data is collected:
+User's Infomaniak login credentials
+Email address for connection
+Log-in password
+Address books stored on Infomaniak Mail (optional)
+Diaries stored on Infomaniak Mail (optional)
+User device localisation (optional)
+Use of your personal dataThe application uses this data exclusively for this purpose:
+Login credentials: these are used to connect to an existing Infomaniak customer account, from which synchronisation will be performed.
+Address books: customers can synchronise address books saved on Infomaniak Mail associated with the login credentials used.
+Diaries: customers can synchronise diaries saved on Infomaniak Mail, associated with the connection credentials used.
+Localisation: when the customer activates the 'Wi-Fi synchronisation only' option (account settings in the application) and wishes to restrict access to one or more Wi-Fi access points (SSIDs), localisation must be enabled. This option retrieves the Wi-Fi (SSID) to which the device is connected and compares it with the list of authorised Wi-Fi access points (SSIDs). If the network used is on the list, the application will synchronise the diary(ies) and / or address book(s) on the device.
+How is your personal data shared?The synchronisation of calendars and / or address books implies that events and contacts are available for consultation on the final device or application and are therefore subject to the conditions of use of the device and the native or third-party applications used.
+Infomaniac Check (kCheck)Infomaniak kCheck is an application that allows the user to securely transmit the elements required to perform security checks. When the user receives a request for identity verification (please refer to the specific terms and conditions for the different reasons), he or she is invited either to download the application or to use it if it is already installed on the device. All personal data transmitted as part of an identity verification request are kept for the time of processing, and for a maximum of 72 hours if the request is not finalised by the user. Data is automatically deleted from our servers 24 hours after processing. Once the procedure has been completed, the user can delete the application.
+What personal data does Infomaniak collect about me and for what purpose?The application collects personal data for the purpose of checking the identity of the person following the procedure. Depending on the nature of the procedure, the following information may be collected:
+Mobile phone number: requested during the procedure.
+Geolocation: requested during the procedure via the device's GPS.
+Identity documents: passport, identity card or driver's licence (depending on the legislation in force in the user's country) are photographed via the application.
+Selfie: users can be asked to take a selfie by holding their ID close to their face via the application.
+How is your personal data used?Personal data is used as follows:
+Mobile phone number: used to send a verification code via text message for accounts that have this feature activated. The country code is used to cross-reference data with geolocation information.
+Geolocation: used to cross-reference data with the telephone number code.
+Identity documents: used to verify the user's identity.
+Selfie: used for user identification.Legal basis: our legitimate interest and that of our customers in preventing identity theft and fraudulent access to accounts. The comparison between the selfie and the ID document is performed by a member of our support team, without automated facial recognition.
+How is your personal data shared?With the exception of the phone number, which is shared with our SMS service provider to send the verification code (see “Does Infomaniak share my data with third parties?”), this data is processed by our support team and is not shared with any third parties.
+Synchronise, backup or migrate emails, contacts, appointments or documents from third-party services
+Infomaniak allows you to import, back up or synchronise data from other providers such as Google Drive, Dropbox or Gmail. When performing an operation involving another provider such as Gmail, you may need to log in to your account via OAuth. Infomaniak’s use and transfer of information received from Google APIs to any other application is in compliance with the Google API Services User Data Policy, including the Limited Use requirements.
+How is your personal data used?Personal data is processed securely and used exclusively for the purpose of migrating or restoring the data selected by the user. The data imported is not used for any other purpose (such as marketing) and is not disclosed to any third party. Personal data is retained for the period necessary to achieve the aims described in this confidentiality policy. When the data retention period expires, we delete the data. Any connection to third-party services is then terminated.
+How can I exercise my rights under the FADP and GDPR (access, rectification, erasure, restriction, portability and objection)?
+In accordance with the Federal Act on Data Protection (FADP) and, where applicable, the General Data Protection Regulation (GDPR), you have the following rights:
+access your data and receive a copy of it;
+have your information corrected;
+have your data deleted;
+to restrict processing;
+have your data returned to you or transferred to a third party (data portability);
+object to processing based on our legitimate interest and, at any time and for any reason, to sales prospecting;
+withdraw your consent at any time, without retroactive effect;
+not be subject to a fully automated decision (GDPR) or request that it be reviewed by a person (FADP).Generally speaking, these rights can be exercised free of charge by writing to dpo@infomaniak.com; we will respond within 30 days, a period that may be extended in cases provided for by law. Our dedicated guide describes the practical procedures.
+If you believe that the processing of your data does not comply with the applicable law, you may contact the Federal Data Protection and Information Commissioner (FDPIC, Feldeggweg 1, 3003 Bern, www.edoeb.admin.ch). If you reside in the European Economic Area, you may file a complaint with the supervisory authority in your country of residence, your place of work, or the location of the alleged violation.
+This page always shows the latest version of our confidentiality policy. If you have any questions, please contact us.
+This confidentiality policy was modified on September 25, 2026.
+Prices do not include VAT
+Infomaniak
+About UsGovernanceInvestorsInfomaniak is recruitingPress & mediaInfomaniak blogAll certificatesProducts & offersStudent programmeMastheadClients' opinions
+Support
+Assistance 7/7FAQ and guidesPremium SupportSales contactAPI RESTWHOISReport abusePublic Cloud statusStatus of the services
+Partnerships
+Become a resellerAffiliate programmeDirectory of partnersQuote requestsInfomaniak Academy
+Ecology
+Green hostingCertificates & awards
+Follow our development
+Votre inscription a été enregistrée avec succès !
+«
+Your email address will be used exclusively to receive Infomaniak’s monthly newsletter and new blog posts. We respect your data and you can unsubscribe at any time.
+EN
+©2026 Infomaniak-
+Legal documents-
+Trust center-
+Legal notice-
+Data Protection-
+Privacy Policy-
+Site map-
+Manage your cookies

@@ -1,0 +1,380 @@
+Quelle: https://dev.meta.ai/docs/api-reference/models/list-models
+Abruf: 2026-10-23 01:18:43 +0200
+
+List models - Meta Model API
+
+Skip to content
+
+Meta Model API
+Search
+
+Product
+
+Dashboard
+
+Start here
+
+Overview
+
+Quickstart
+
+Authentication
+
+Models
+
+Pricing and rate limits
+
+SDKs and libraries
+
+Capabilities
+
+Tool calling
+
+Tool search
+
+Search grounding
+
+Image understanding
+
+Image generation
+
+Speech to text
+
+Video understanding
+
+Media segmentation
+
+File handling
+
+Reasoning
+
+Structured output
+
+Prompt caching
+
+Token counting
+
+Protocols
+
+Choosing an API
+
+Responses API
+
+Chat Completions API
+
+Messages API
+
+Cookbook
+
+All recipes
+
+Meta Model API
+
+Meta Model API
+API fundamentals
+
+Agent patterns
+
+Use cases
+
+Building with Muse Code
+
+Muse Image
+
+Muse Voice Transcribe
+
+Segment Anything Model
+
+Open-weight models
+
+Open-weight models
+Run locally
+
+Post-training
+
+Muse Code
+
+Overview
+
+Authentication and billing
+
+Subscriptions
+
+Permissions and safety
+
+Working with the agent
+
+Workflows
+
+Session messaging
+
+Rewind a conversation
+
+Configuration and context
+
+Extending and automating
+
+Changelog
+
+Open-weight models
+
+Overview
+
+Muse Spark Open
+
+Muse Spark Open
+Overview
+
+Get the model
+
+Prompting guide
+
+Recommended settings
+
+Run inference
+
+Hardware platforms
+
+Post-training
+
+Muse Glimmer
+
+Muse Glimmer
+Overview
+
+Get the model
+
+Prompting guide
+
+Quantization
+
+Speculative decoding
+
+Run inference
+
+Hardware platforms
+
+Post-training
+
+Agent guides
+
+Coding agents
+
+Agent frameworks
+
+Computer use
+
+SAM
+
+Overview
+
+Segmenting with prompts
+
+Reading segmentation output
+
+Client libraries
+
+API reference
+
+Introduction
+
+Error handling
+
+Responses
+
+Responses
+Overview
+
+Create a response
+
+Retrieve a response
+
+Delete a response
+
+Cancel a response
+
+Count input tokens
+
+Schemas
+
+Chat completions
+
+Chat completions
+Overview
+
+Create a chat completion
+
+Schemas
+
+Messages
+
+Messages
+Overview
+
+Create a message
+
+Count tokens
+
+Schemas
+
+Files
+
+Files
+Overview
+
+Upload a file
+
+List files
+
+Retrieve a file
+
+Retrieve file content
+
+Delete a file
+
+Schemas
+
+Images
+
+Images
+Overview
+
+Generate an image
+
+Edit an image
+
+Schemas
+
+Voice
+
+Voice
+Overview
+
+Transcribe a recording
+
+Transcribe in realtime
+
+Schemas
+
+Models
+
+Models
+Overview
+
+List models
+
+Retrieve a model
+
+Schemas
+
+Status
+
+Help
+
+Help Center
+
+List models
+
+Table of contents
+
+List the models available through the Meta Model API.
+
+GET /models
+
+List the available models.
+
+Parameters
+
+Query parameters
+
+Field
+
+Type
+
+Required
+
+Description
+
+client
+
+string
+
+No
+
+Optional client-specific model catalog view.
+
+Response
+
+HTTP 200 — OK
+
+Content Type: application/json
+
+ListModelsResponse
+
+Python (OpenAI SDK)Python (OpenAI SDK)Python (requests)Python (requests)curlcurl
+←→to navigate
+
+python
+
+import os
+
+​
+
+from openai import OpenAI
+
+​
+
+client = OpenAI(
+
+base_url="https://api.meta.ai/v1",
+
+api_key=os.environ["MODEL_API_KEY"],
+
+)
+
+​
+
+response = client.models.list()
+
+​
+
+print(response.model_dump_json(indent=2))
+
+python
+
+import json
+
+import os
+
+​
+
+import requests
+
+​
+
+response = requests.get(
+
+"https://api.meta.ai/v1/models",
+
+headers={"Authorization": f"Bearer {os.environ['MODEL_API_KEY']}"},
+
+)
+
+response.raise_for_status()
+
+print(json.dumps(response.json(), indent=2))
+
+shell
+
+curl -X GET "https://api.meta.ai/v1/models" \
+
+-H "Authorization: Bearer $MODEL_API_KEY"
+
+For a catalog of available models, capabilities, and context windows, see the Models page.
+
+On this page
+
+Please confirm your identity
+For added security, you need to confirm your identity. You will be taken to your single sign-on provider, where you can enter your password.
+
+CancelContinue

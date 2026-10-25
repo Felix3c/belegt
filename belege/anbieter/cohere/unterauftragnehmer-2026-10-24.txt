@@ -1,0 +1,99 @@
+Quelle: https://trustcenter.cohere.com/subprocessors (per Chrome headless gerendert, --dump-dom)
+Abruf: 2026-10-24 00:24:31 +0200
+
+Cohere Inc | Trust Center
+
+Cohere Inc | Trust Center
+
+[Company Logo]
+
+HomeSubprocessors
+
+Subprocessors
+
+[Google Cloud]
+
+Google Cloud
+
+Infrastructure Service Provider
+Location: USA
+
+[Fullstory]
+
+Fullstory
+
+Software Delivery Platform
+Location: USA
+
+[LaunchDarkly]
+
+LaunchDarkly
+
+Feature Flagging
+Location: USA
+
+[New Relic]
+
+New Relic
+
+Platform Monitoring
+Location: USA
+
+[Retool]
+
+Retool
+
+Software Delivery Platform
+Location: USA
+
+[Sentry IO]
+
+Sentry IO
+
+Software Delivery Platform
+Location: USA
+
+[Segment]
+
+Segment
+
+Event and Error Handling
+Location: USA
+
+[Sendgrid]
+
+Sendgrid
+
+Email Communications
+Location: USA
+
+[Vercel]
+
+Vercel
+
+Web Application Hosting
+Location: USA
+
+[Salesforce]
+
+Salesforce
+
+Customer Support Management
+Location: USA
+
+[Wiz]
+
+Wiz
+
+Cloud Security and Compliance
+Location: USA
+
+[Forethought]
+
+Forethought
+
+Customer Support Management
+Location: USA
+
+Powered by
+[Secureframe]

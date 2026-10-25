@@ -1,0 +1,7 @@
+Abruf 22.10.2026 ~23:53 MESZ, Schnittstelle der amtlichen DPF-Liste (dieselbe, die www.dataprivacyframework.gov/list im Browser aufruft; Anfrageformat aus deren Skript /assets/index-DHP4VEMY.js):
+- POST https://dpfapi.azurewebsites.net/api/participants  Body {"DataCovered":[],"Frameworks":[],"Industries":[],"PageNumber":0,"RecourseMechanisms":[],"StatutoryBody":[],"RowsPerPage":50,"Search":"<Name>","StartLetter":"","Status":"Active"|"","States":[],"VerificationMethod":""}
+Liste zuletzt geändert laut /api/participants/filemodified: "Thursday, October 22, 2026 6:00 AM EST".
+Ergebnis: Anthropic: 0 Treffer bei Status Active und bei allen Status (Suche "Anthropic", "Anthropic PBC", "Anthropic Ireland"); "Claude" alle Status: 0 Treffer.
+Gegenprobe mit derselben Anfrage, Suche "Microsoft", Status Active: 1 Treffer (Microsoft Corporation, Id 6474), die Abfrage funktioniert also.
+Summen in den Antworten: 3686 aktive, 7622 Einträge insgesamt.
+robots.txt der Seite: Disallow leer (Prüfung 22.10.2026, belege/rechtsraum/dpf-2026-10-22/LIESMICH.txt).

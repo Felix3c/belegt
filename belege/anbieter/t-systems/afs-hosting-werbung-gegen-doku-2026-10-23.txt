@@ -1,0 +1,35 @@
+Quelle: https://www.t-systems.com/de/en/artificial-intelligence/solutions/ai-foundation-services, https://www.t-cloud-public.com/en/solutions/use-cases/artificial-intelligence/ai-foundation-services, https://docs.llmhub.t-systems.net/faq/, https://docs.llmhub.t-systems.net/reference/enterprise-trust/, https://docs.llmhub.t-systems.net/models/llms/, https://www.t-systems.com/de/en/insights/newsroom/news/t-systems-launches-ai-foundation-services-1042004
+Abruf: 2026-10-23 ~04:26 UTC (curl, je HTTP 200, 3 s Abstand, robots.txt erlaubt alles Gelesene), SHA-256 der Rohseiten: t-systems.com AIFS d28404dfbff91758cb55c190f6dcb9c15c4027df136193e3701ef59661737eb0, t-cloud-public.com AIFS a03662110ea4fde51b197a748a302bb30d28939d825e7fe70989f85e667ae4c0, docs FAQ 75fd25fb8616264529455d20cc4c06fa0b53a759bcbb7aa775f1bc5b3617ca32, docs Enterprise Trust 9ca26b80d34b46d63064bec646f9e51f15f4ec4a090a036585b9aec1aa2b9c29, docs LLMs a1bab29a13ea2a500273a123ff5eed916620502a017494c6872e36f1ac56d9dd, Pressemitteilung 902313841d8aaf8ef32b7ca674014b0564858cc1a4a3300efd37ab9d52e7846d, belegbar.eu
+Inhalt: wörtliche Auszüge zur Frage, wo die Modelle der AI Foundation Services laufen (Textfassung ohne Skripte).
+
+1. t-systems.com, Seite „AI Foundation Services“ (englisch):
+T-Systems’ AI Foundation Services (AIFS) is the only European platform enabling regulated industries to innovate securely and at scale, ensuring full data privacy and control.
+Our AI solutions are hosted in T Cloud, ensuring compliance with regulations such as GDPR - ideal for regulated industries. [...] we offer more than 400 use cases and integrate over 40 AI models.
+
+2. t-cloud-public.com, Seite „AI Foundation Services“:
+T Cloud Public offers you access to various LLMs, a RAG service, and the pre-programmed T-Systems Smart Chat as part of the AI Foundation Services. The services are stored and operated on T Cloud Public.
+The models available are Meta Llama 3.3, Mistral Small 3 and DeepSeek R via the Marketplace . Other LLMs such as GPT-4o, Claude 3, Gemini 1.5 Pro and other Mistral variants are available on request.
+More sovereignty is hardly possible
+By operating and developing your AI service on the comprehensively certified, European T Cloud Public, you meet all current regulatory requirements . In particular, T Cloud Public can also process social data and can be used by individuals subject to professional secrecy . [...] A higher sovereignty in the use of AI can hardly be reached in the public cloud.
+
+3. docs.llmhub.t-systems.net/faq/, Frage „What are the AI Foundation Services?“:
+They enable the use of over 40 language models — including open-source models like Llama, Mistral, Qwen, and Gemma — as well as ready-made services for RAG. Operated on the T-Cloud in Germany, they meet the highest requirements for data protection and sovereignty.
+
+4. dieselbe FAQ, Frage „On which cloud platform is the hosting provided?“:
+Open-source models are operated by T-Systems on the GDPR-compliant T-Cloud in Germany. Closed-source models are forwarded to their upstream provider on Microsoft Azure or Google Cloud — see Enterprise Trust for the full data-handling model.
+
+5. docs.llmhub.t-systems.net/reference/enterprise-trust/, Kategorie 2:
+Category 2 — Third-party providers, sub-processors worldwide
+Forwarded by Telekom directly to the third-party provider, who runs the model on its own infrastructure. Examples:
+OpenAI GPT-5 and GPT-6 families, GPT Image 2, Ada-Text — on Microsoft Azure (France/Sweden)
+Anthropic Claude (4.6, Opus 4.8, 5 and 5.5 families) — on Google Cloud or Microsoft Azure
+Google Gemini 3 family — on Google Cloud
+Mistral Medium 3 — on Google Cloud
+The third-party provider may operate sub-processors worldwide , so customer data may be processed worldwide
+By selecting a Category 2 model, the customer accepts the third-party provider’s terms, license, and data-protection policies
+
+6. docs.llmhub.t-systems.net/models/llms/, Spalte „Hosting“ der Modelltabelle (gezählt):
+39 Zeilen (einige Modelle zweimal, je Kontextlänge): 10 „Hosted on T-Cloud Public — Telekom's sovereign infrastructure in Germany.“, 12 „Hosted on Microsoft Azure (EU regions).“, 8 bei Google Cloud, 9 „GCP / Azure“ („Google Cloud Platform & Microsoft Azure“).
+
+7. Pressemitteilung „T-Systems launches AI Foundation Services“, Publication date February 12 2025 (zum Vergleich, alt):
+All models and services are operated in Telekom data centers in Germany, Switzerland, and the Netherlands, and can alternatively be deployed on customer-owned infrastructure.

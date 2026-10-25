@@ -1,0 +1,105 @@
+Quelle: https://learn.microsoft.com/en-us/privacy/eudb/eu-data-boundary-ongoing-partial-transfers
+Abruf: 2026-10-22 18:41:00 +0200
+
+Services that transfer a subset of Customer Data, pseudonymized personal data, or Professional Services Data out of the EU Data Boundary on an ongoing basis - Microsoft Privacy | Microsoft Learn
+Skip to main content
+Skip to Ask Learn chat experience
+This browser is no longer supported.
+Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.
+Download Microsoft Edge
+More info about Internet Explorer and Microsoft Edge
+Table of contents
+Exit editor mode
+Ask Learn
+Ask Learn
+Reading mode
+Table of contents
+Read in English
+Add
+Add to Plans
+Copy Markdown
+Print
+Note
+Access to this page requires authorization. You can try signing in or changing directories .
+Access to this page requires authorization. You can try changing directories .
+Services that transfer a subset of Customer Data, pseudonymized personal data, or Professional Services Data out of the EU Data Boundary on an ongoing basis
+Feedback
+Summarize this article for me
+In this article
+Some EU Data Boundary Services will continue to transfer a limited amount of Customer Data, pseudonymized personal data, or Professional Services Data out of the EU Data Boundary because this transfer is by design to facilitate the function of the services. These ongoing transfers are a part of the services. Additional EU Data Boundary Services that include limited by-design transfers may be added to this section as service offerings continue to evolve.
+Multiple services
+Copilot experiences in Dynamics 365, Power Platform, Copilot Studio, and Microsoft 365
+To help maintain a consistent Copilot experience during periods of peak demand, Copilot prompts, responses, and grounding data may be processed outside the EU Data Boundary for AI inferencing, including in the United States, Canada, and Australia. Pseudonymous user IDs may be stored in those locations for security and operational purposes. This applies to tenants that allow flex routing as described in Flex routing (EU and EFTA) .
+Approved third-party AI subprocessors
+When customers configure AI Subprocessor services that offer EU Data Boundary commitments as described in the applicable Microsoft Learn documentation (including, but not limited to applicable OpenAI- or SpaceXAI-operated models), the Microsoft AI Subprocessor processes Customer Data and Personal Data within the EU Data Boundary. For troubleshooting, debugging, and security purposes, the AI Subprocessor may process and store a pseudonymized user ID or session GUID outside the EU Data Boundary, including in the United States. The AI Subprocessor does not store prompts, responses, or other Customer Data or Personal Data outside the EU Data Boundary, unless otherwise disclosed in applicable product documentation.
+Azure services
+Azure Communication Services
+For Azure Communication Services , when a customer end-user makes a Public Switched Telephone Network (PSTN) call to an emergency number (for example, 112), a temporary number is assigned to that user from a pool of numbers in case a callback is needed. The temporary number and the associated User ID are replicated to the United States and persist for 60 minutes in case a callback is needed.
+Azure Databricks
+Azure Databricks stores the following identity information in the United States to provide account and access management functionality to customers: username, first name, last name, and email address. This data is stored in the United States to support the global Azure Databricks platform.
+Dynamics 365 and Power Platform services
+Dynamics 365 and Power Platform services that are in-scope for the EU Data Boundary have certain features and components that operate globally and therefore may transfer limited Customer Data outside the EU Data Boundary. Notable transfers are detailed in the following list for ease of reference, but refer to Microsoft Dynamics 365 and Power Platform data residency documentation for complete details by service.
+Azure Content Delivery Network (CDN) and Azure Front Door
+Certain features of Dynamics 365 and Power Platform are designed to operate globally and use Azure CDN and Azure Front Door, which are non-regional services excluded from the EU Data Boundary as detailed in Services excluded from the EU Data Boundary . For example, Dynamics 365 Marketing uses Azure CDN to power its resource file delivery feature used to deliver marketing content globally. Additionally, public websites published using Power Pages (formerly known as Power Apps Portals) may use Azure CDN and Azure Front Door.
+App names, descriptions, logos : Application names, descriptions, and logos are stored globally as part of an application’s publishing functionality. For example, the Dynamics 365 and Power Platform home pages and admin centers store the application name, description, and logo globally so that customers have a highly responsive, performant view of the apps that they manage or can access.
+Table and column names : Customers may customize the table and column names (formerly called entity and entity field names) of their Dynamics 365 and Power Platform databases, including Dataverse. Those customized table and column names may be replicated globally for support and troubleshooting purposes; however, the content within those database tables does remain stored in the EU Data Boundary. For example, if a customer creates a custom table called "Custom Account 1", then the name "Custom Account 1" may be replicated globally, but the content that a customer provides within the "Custom Account 1" table (for example, a row within that table) is stored in the EU Data Boundary.
+Microsoft 365 services
+Microsoft 365 applications
+Microsoft AutoUpdate
+Microsoft AutoUpdate : On devices running macOS, the ID of the device is stored in the United States. This allows Microsoft to process automatic updates to Microsoft 365 applications running on the device.
+Microsoft 365 Telemetry Collection
+Microsoft 365 Telemetry data when using multiple accounts: If a user signs into a Microsoft 365 application with multiple Microsoft Entra accounts, the storage location of diagnostic data and system-generated data collected from the application for all signed-in accounts is based on the tenant location of the first account that was signed in. If the first signed-in account is for a user in an EU tenant, it's stored in the EU. Otherwise, it's stored in the United States.
+Microsoft Teams
+Public Switched Telephone Network (PSTN) Services
+Public Switched Telephone Network (PSTN) Services : Microsoft Teams enables customers to interconnect with the Public Switched Telephone Network (PSTN) Services to support calls and meeting participation from mobile and fixed-line telephones. When customers use Teams for PSTN interconnection, the following data transfers out of the EU Data Boundary are triggered to support worldwide calling:
+Microsoft Teams Phone System : The Teams Phone System allows Teams users to make and receive calls to and from the PSTN by assigning numbers to users and voice-related applications. A globally replicated mapping of assigned PSTN numbers enables Teams Phone System to route calls to the right users efficiently. This approach supports traveling and remote users and global incoming calls, enabling the service to route incoming calls in real time regardless of the current location of the called user. Customer Data transferred from the EU Data Boundary and replicated globally: PSTN phone numbers and required information for routing.
+Teams Operator Connect Plan : EU customers can choose to use a third-party PSTN provider that participates in the Teams Operator Connect Plan. These third-party providers may use call specific global unique IDs (GUIDs) in the Operator Connect portal to retrieve phone number and emergency address location information associated with a call. This information enables third-party providers to manage Teams PSTN related data for billing purposes and call troubleshooting. The Operator Connect portal is hosted in the United States and as a result, phone number and location information are processed in the United States.
+Call-specific IDs : When users make a call using Teams, some call-specific IDs are stored for up to three days in the United States for call troubleshooting, billing, debugging, and business reporting. These IDs include an ID to represent the call itself, and IDs for each participant in the call. These participant IDs are specific to the call and not shared across calls, nor do they represent the Teams user accounts for the call participants.
+Emergency Calls
+Emergency Calls : When a Teams user makes an emergency call (for example, by dialing 112), a temporary number is assigned to that user from a pool of numbers managed by Microsoft. The temporary number is different than the number assigned to that user by the tenant. The temporary number is replicated to the United States and stored for 60 minutes in case a call back is needed. Customer Data transferred to and temporarily replicated in the United States where it persists for 60 minutes: temporary phone numbers created when an emergency phone call is made.
+Voicemail, Auto Attendant, and Call Queue greetings
+Voicemail, Auto Attendant, and Call Queue greetings : If a caller outside of the EU Data Boundary reaches the voicemail, auto-attendant, or call queue greeting of a user or voice application inside of the EU Data Boundary, that greeting is stored for 30 days in the caller's region. The greeting is stored for performance caching in case it's re-accessed for other calls from the same region during the 30-day period. This service applies to both PSTN and Voice over Internet Protocol (VoIP) calls. Customer Data transferred and temporarily cached in the location of the user accessing the voice greeting: voicemail, auto-attendant, and call queue greetings.
+Messaging Thread Service
+Messaging Thread Service : Chat data may be stored outside the EU Data Boundary in federated (external user) chat scenarios. A Teams chat thread is created when an initiator sends the first message to a specific user or group of users or when a meeting organizer schedules a meeting. Customer Data leaves the EU Data Boundary to support this cross-tenant scenario. Customer Data transferred to and stored in the location of the user who started the chat, or in the case of a meeting, the location of the meeting organizer: chat or message data.
+Microsoft 365 Targeted Deployments
+When new or updated Microsoft 365 features are deployed, Microsoft may initially deploy those updates to a targeted subset of customers, users or devices, to enable controlled rollouts to test or optimize the feature, such as performance testing, user interface effectiveness, or to compare different variations of the same feature. For these deployments, the targeted tenant IDs, pseudonymized user IDs, or Device IDs will be processed in the US and deleted once the deployment is complete.
+Message centers and Service Health dashboards
+The Message centers and Service Health dashboards in the Microsoft 365 admin center and Power Platform admin center serve as the communication hubs where Microsoft announces new updates, scheduled maintenance, and other critical information related to Microsoft 365 and other Microsoft enterprise online services. When Microsoft initiates a new communication, it may include a list of affected tenant IDs and/or User IDs to publish content to impacted tenants. The information is processed in North America and examined to determine if it contains EU Data Boundary-bound tenant IDs. If the tenant IDs are configured for the EU Data Boundary, the corresponding records are redirected to EU Data Boundary for further processing and storage.
+Security services
+Microsoft Entra ID
+Microsoft Entra ID : When an IP address or phone number is determined to be used in fraudulent activities, it’s published globally to block access from any workloads using it.
+Feedback
+Was this page helpful?
+Yes
+No
+No
+Need help with this topic?
+Want to try using Ask Learn to clarify or guide you through this topic?
+Ask Learn
+Ask Learn
+Suggest a fix?
+Additional resources
+Last updated on
+2026-10-09
+In this article
+Was this page helpful?
+Need help with this topic?
+Want to try using Ask Learn to clarify or guide you through this topic?
+Ask Learn
+Ask Learn
+Suggest a fix?
+en-us
+Your Privacy Choices
+Theme
+Light
+Dark
+High contrast
+AI Disclaimer
+Previous Versions
+Blog
+Contribute
+Privacy
+Consumer Health Privacy
+Terms of Use
+Trademarks
+© Microsoft 2026

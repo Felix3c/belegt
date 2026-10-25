@@ -1,0 +1,133 @@
+Quelle: https://welcome.infomaniak.com/api/web-components/1/cgu/latest?id=87&locale=en_GB
+Abruf: 2026-10-24 08:25 +0200 (curl direkt, HTTP 200; robots.txt von www.infomaniak.com erlaubt die Pfade, welcome.infomaniak.com hat keine robots.txt). SHA-256 der Rohseite: 4ab9c3ba2fc7279d684ba3966c8b28fceef11062ccd76482cf2a1bd941e3e4a8
+Inhalt: LLM API – Terms and Conditions of Use (Special Conditions, PDF, „Review of 07/10/2025“), Text per pdftotext
+
+Article 1 – Scope
+
+Capitalized terms have the meaning assigned to them in this Agreement or, failing that, as defined
+in the Infomaniak Glossary available on Infomaniak’s Website.
+These Special Conditions apply without restriction or reservation to the LLM API (hereinafter
+referred to as the “API”). They complement and shall prevail over the General Terms of Use
+(hereinafter referred to as the “GTU”) in the event of any contradiction between these documents.
+In accordance with the GTU and under the terms set out therein, these Special Conditions may be
+amended to reflect legal, jurisprudential, or technical developments.
+
+Article 2 – Service Overview
+
+2.1 Description and Objectives
+
+Infomaniak offers a range of APIs based on artificial intelligence (AI).
+This offering is scalable and aims to provide Clients with the means to integrate these technologies
+into their projects.
+
+2.2 Service Access
+
+Any administrator of an organization can manage access to the APIs.
+Access to the APIs is provided via an API key generated through the Infomaniak Administration
+Console.
+The use of the APIs must comply with the technical documentation provided by Infomaniak:
+https://developer.infomaniak.com/docs/api.
+
+Article 3 – Access and Usage Conditions
+
+The APIs are billed based solely on consumption. No fixed fee is charged for their use.
+Consumption is measured based on the type of API usage. For example:
+
+        Chat-type API: Length of the prompts sent to the API and length of the responses returned;
+
+        Audio transcription API: Duration of the processed file;
+
+Infomaniak Network SA                         https://contact.infomaniak.com
+Rue Eugène-Marziano 25, 1227 Genève - Suisse                                           1 / 4
+CHE-103.167.648
+        Embeddings generation API: Number of processed requests.
+
+Article 4 – User Responsibilities
+
+The Client agrees to:
+        comply with applicable laws and the GTU;
+        verify the quality, relevance, and accuracy of generated content;
+        adopt responsible practices to avoid abnormal service overloads;
+        immediately report any technical issues to Infomaniak.
+
+Disclaimer: Infomaniak cannot be held liable for content generated via its APIs.
+
+Article 5 – Provider Responsibilities
+
+Infomaniak commits to continuously improving the quality and performance of its APIs and to
+maintaining a 99.9% service availability level.
+Infomaniak agrees to inform the Client in the event of:
+
+        service unavailability,
+        scheduled maintenance,
+        API deprecation.
+Model Lifecycle:
+        Each model is associated with a category.
+        A model may be replaced without prior notice, provided the Client’s use is not affected.
+
+Infomaniak Network SA                         https://contact.infomaniak.com
+Rue Eugène-Marziano 25, 1227 Genève - Suisse                                           2 / 4
+CHE-103.167.648
+                 When a model is replaced:
+
+                         Infomaniak notifies the Client via email.
+
+                         The model remains available for 30 days under its explicit name (e.g., “llama33”)
+                         to facilitate migration.
+
+        A category cannot be replaced without prior notice from Infomaniak.
+
+                 When a category is replaced:
+
+                         Infomaniak notifies the Client via email.
+
+                         The category remains available for 90 days under its current name (e.g., “chat”)
+                         to facilitate migration.
+
+Timelines are available on the product pages and may also be communicated via API responses.
+Special provisions for “beta” models:
+Models identified as “beta” on the product page are an exception to the above rules. They may be
+withdrawn at any time without notice and may also be temporarily unavailable during maintenance
+or updates aimed at improving their quality or performance. Their unavailability or withdrawal shall
+not give rise to any liability or compensation from Infomaniak.
+
+Article 6 – Data Management
+
+Infomaniak does not permanently collect any information transmitted by the Client during API
+usage, except for data necessary for billing and the proper functioning of the service.
+Some data is stored temporarily for the duration necessary to process the Client's request.
+Infomaniak explicitly states it does not use transmitted data (prompts, response content) to train
+its own AIs or to exploit the data in any other way.
+Data Collected for Operational Purposes:
+
+        Client ID
+
+Infomaniak Network SA                         https://contact.infomaniak.com
+Rue Eugène-Marziano 25, 1227 Genève - Suisse                                           3 / 4
+CHE-103.167.648
+        Number and processing time of requests
+        Request timestamps
+        Metadata (size, format, duration, number of pages, etc.)
+The full Privacy Policy is available at: https://www.infomaniak.com/fr/cgv/politique-de-
+confidentialite
+
+Article 7 – Intellectual Property
+
+Infomaniak respects the licenses associated with the AI models it uses.
+Infomaniak shall not be held liable for the use of open-source models that have been trained on
+copyrighted data without authorization.
+
+Article 8 – Limitations and Warnings
+
+The Client is informed of the risks related to the use of generative AI via the APIs, including:
+        generation of inaccurate, biased, or erroneous content;
+        generation based on data potentially subject to intellectual property rights.
+
+Infomaniak disclaims all liability regarding the Client’s use of its APIs.
+
+Review of 07/10/2025
+
+Infomaniak Network SA                         https://contact.infomaniak.com
+Rue Eugène-Marziano 25, 1227 Genève - Suisse                                           4 / 4
+CHE-103.167.648
+

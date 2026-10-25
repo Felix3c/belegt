@@ -1,0 +1,134 @@
+Quelle: https://web.archive.org/web/20261008031611id_/https://openai.com/product-compliance-status/
+Abruf: 2026-10-22 13:05:09 +0200
+
+Product compliance status | OpenAI
+Skip to main content Research
+Products
+Business
+Developers
+Company
+Foundation (opens in a new window)
+Log in Try ChatGPT (opens in a new window)
+Research
+Products
+Business
+Developers
+Company
+Foundation (opens in a new window)
+Try ChatGPT (opens in a new window) Login
+OpenAI Security
+Product compliance status
+Page version 1.1 Updated August 4, 2026
+OpenAI products are protected by security and privacy controls that independent auditors assess against applicable compliance frameworks. A product is included within a framework’s scope when it is covered by the controls assessed under that framework. The matrix below identifies the products currently in scope for each framework.
+Enterprise products and programs
+8 products · 3 audit programs
+Product
+SOC 2 Type 2
+ISO/IEC 27701:2019
+ISO/IEC 27001:2022
+ChatGPT Business
+A shared ChatGPT workspace for work, with admin controls and apps for company tools.
+✓
+ChatGPT Enterprise
+Enterprise-grade ChatGPT connected to company data, powered by OpenAI’s models, products, and expertise.
+✓
+✓
+✓
+ChatGPT for Education
+A campus-scale ChatGPT offering for students, faculty, researchers, and campus operations.
+✓
+✓
+✓
+ChatGPT for Healthcare
+A secure AI workspace for healthcare that supports HIPAA-compliant use with trusted clinical search.
+✓
+✓
+✓
+ChatGPT for Teachers
+A secure ChatGPT workspace for K–12 teachers and school leaders to personalize lessons, prep, and collaborate.
+✓
+✓
+✓
+API Platform
+OpenAI’s developer platform for building applications with OpenAI models and APIs.
+✓
+✓
+✓
+Codex
+OpenAI’s AI assistant for work and code, used across tasks, projects, and developer workflows.
+✓
+✓
+✓
+OpenAI Presence
+OpenAI’s managed enterprise platform for deploying and continuously improving governed voice and chat agents across customer and internal workflows.
+✓
+✓
+✓
+Government products and programs
+2 products · 3 audit programs
+Product
+TX-RAMP Level 2
+FedRAMP Low
+FedRAMP Moderate
+ChatGPT FedRAMP
+An OpenAI-managed SaaS version of ChatGPT Enterprise with additional accredited FedRAMP compliance.
+✓
+✓
+✓
+OpenAI API FedRAMP
+A FedRAMP-compliant version of the OpenAI API Platform for supported methods and models via the designated government endpoint.
+✓
+✓
+✓
+✓ = publicly supported or in scope. Blank = not in scope or not applicable.
+Research Research Index
+Research Overview
+Economic Research
+Latest Advancements GPT-6.1 Sol
+GPT-6 Astra
+GPT-5.6
+GPT-5.5
+Safety Safety Approach
+Deployment Safety (opens in a new window)
+Security & Privacy
+Trust & Transparency
+Products ChatGPT (opens in a new window)
+ChatGPT Business (opens in a new window)
+ChatGPT Enterprise (opens in a new window)
+ChatGPT for Education (opens in a new window)
+Codex
+Dots (opens in a new window)
+Release Notes
+API Platform Overview
+API Log In (opens in a new window)
+Docs (opens in a new window)
+Business Overview
+Solutions
+Resources
+Plugins
+Customer Stories
+Partner Network
+Contact Sales
+Developers Apps SDK (opens in a new window)
+Open Models
+Docs (opens in a new window)
+Resources (opens in a new window)
+Developer Forum (opens in a new window)
+Company About Us
+Our Charter
+Careers
+News
+Support Help Center (opens in a new window)
+OpenAI Status (opens in a new window)
+More Stories
+Academy
+Supply Co.
+Livestreams
+Podcast
+RSS
+Terms & Policies Terms of Use
+Privacy Policy
+Other Policies
+(opens in a new window) (opens in a new window) (opens in a new window) (opens in a new window) (opens in a new window) (opens in a new window) (opens in a new window)
+OpenAI © 2015–2026 Manage Cookies
+English United States

@@ -1,0 +1,11 @@
+Abruf 23.10.2026 ~00:44 MESZ, Schnittstelle der amtlichen DPF-Liste (dieselbe, die www.dataprivacyframework.gov/list im Browser aufruft; Anfrageformat wie in belege/rechtsraum/dpf-anthropic-2026-10-22/):
+- POST https://dpfapi.azurewebsites.net/api/participants  Body {"DataCovered":[],"Frameworks":[],"Industries":[],"PageNumber":0,"RecourseMechanisms":[],"StatutoryBody":[],"RowsPerPage":50,"Search":"<Name>","StartLetter":"","Status":"Active"|"","States":[],"VerificationMethod":""}
+- GET  https://dpfapi.azurewebsites.net/api/participants/5776
+Liste zuletzt geändert laut /api/participants/filemodified: "Thursday, October 22, 2026 6:00 AM EST".
+Ergebnis: Suche "Amazon Web Services", "Amazon.com" und "Amazon" (je aktiv und alle Status): jeweils 1 Treffer, Amazon.com, Inc. (Id 5776), Seattle.
+Eintrag 5776: EU-US Certification "Active", nur Nicht-HR-Daten (HRData false, NonHRData true), seit 21.10.2016, UsageEndDate 02.01.2027; Swiss-US und UK Extension ebenfalls aktiv. Kurze Lücke ("Lapse") am 20.11.2017.
+Erfasste Gesellschaften (CoveredEntities): Amazon.com Services LLC, Amazon Advertising LLC, Audible, Inc., Amazon Web Services, Inc., Amazon.com, Inc.
+Datenschutzerklärung im Eintrag: "Amazon Privacy Notice" mit dem Hinweis "For all covered entities other than Amazon Web Services, Inc., this privacy statement describes what personal data we collect and how we use it." Eine eigene AWS-Erklärung ist im Eintrag nicht verlinkt (ungeklärt, welche für AWS gilt).
+Gegenprobe mit derselben Anfrage, Suche "Microsoft", Status Active: 1 Treffer (Microsoft Corporation, Id 6474), die Abfrage funktioniert.
+Summen in den Antworten: 3686 aktive, 7622 Einträge insgesamt.
+robots.txt der Seite: Disallow leer (Prüfung 23.10.2026).

@@ -1,0 +1,331 @@
+Quelle: https://dev.meta.ai/docs/open-weight-models
+Abruf: 2026-10-23 01:18:30 +0200
+
+Open-weight models - Meta Model API
+
+Skip to content
+
+Meta Model API
+Search
+
+Product
+
+Dashboard
+
+Start here
+
+Overview
+
+Quickstart
+
+Authentication
+
+Models
+
+Pricing and rate limits
+
+SDKs and libraries
+
+Capabilities
+
+Tool calling
+
+Tool search
+
+Search grounding
+
+Image understanding
+
+Image generation
+
+Speech to text
+
+Video understanding
+
+Media segmentation
+
+File handling
+
+Reasoning
+
+Structured output
+
+Prompt caching
+
+Token counting
+
+Protocols
+
+Choosing an API
+
+Responses API
+
+Chat Completions API
+
+Messages API
+
+Cookbook
+
+All recipes
+
+Meta Model API
+
+Meta Model API
+API fundamentals
+
+Agent patterns
+
+Use cases
+
+Building with Muse Code
+
+Muse Image
+
+Muse Voice Transcribe
+
+Segment Anything Model
+
+Open-weight models
+
+Open-weight models
+Run locally
+
+Post-training
+
+Muse Code
+
+Overview
+
+Authentication and billing
+
+Subscriptions
+
+Permissions and safety
+
+Working with the agent
+
+Workflows
+
+Session messaging
+
+Rewind a conversation
+
+Configuration and context
+
+Extending and automating
+
+Changelog
+
+Open-weight models
+
+Overview
+
+Muse Spark Open
+
+Muse Spark Open
+Overview
+
+Get the model
+
+Prompting guide
+
+Recommended settings
+
+Run inference
+
+Hardware platforms
+
+Post-training
+
+Muse Glimmer
+
+Muse Glimmer
+Overview
+
+Get the model
+
+Prompting guide
+
+Quantization
+
+Speculative decoding
+
+Run inference
+
+Hardware platforms
+
+Post-training
+
+Agent guides
+
+Coding agents
+
+Agent frameworks
+
+Computer use
+
+SAM
+
+Overview
+
+Segmenting with prompts
+
+Reading segmentation output
+
+Client libraries
+
+API reference
+
+Introduction
+
+Error handling
+
+Responses
+
+Responses
+Overview
+
+Create a response
+
+Retrieve a response
+
+Delete a response
+
+Cancel a response
+
+Count input tokens
+
+Schemas
+
+Chat completions
+
+Chat completions
+Overview
+
+Create a chat completion
+
+Schemas
+
+Messages
+
+Messages
+Overview
+
+Create a message
+
+Count tokens
+
+Schemas
+
+Files
+
+Files
+Overview
+
+Upload a file
+
+List files
+
+Retrieve a file
+
+Retrieve file content
+
+Delete a file
+
+Schemas
+
+Images
+
+Images
+Overview
+
+Generate an image
+
+Edit an image
+
+Schemas
+
+Voice
+
+Voice
+Overview
+
+Transcribe a recording
+
+Transcribe in realtime
+
+Schemas
+
+Models
+
+Models
+Overview
+
+List models
+
+Retrieve a model
+
+Schemas
+
+Status
+
+Help
+
+Help Center
+
+Open-weight models
+
+Table of contents
+
+Most of the models in these docs are hosted on Meta Model API — you call them over the API and Meta runs the infrastructure. Meta also publishes open-weight models that you download and run on your own hardware, so you own the weights, the runtime, and the data.
+
+This section covers the open-weight releases. For the hosted API models and how to choose between them, see Models.
+
+Hosted API or open weights
+
+Hosted on Meta Model API
+
+Open-weight (self-hosted)
+
+How you run it
+
+Call the API; Meta runs the servers
+
+Download the weights and run the servers yourself
+
+Where prompts and responses go
+
+Meta Model API
+
+Your own infrastructure
+
+What you need
+
+An API key
+
+A serving runtime (such as SGLang or vLLM) and your own GPUs or cloud compute
+
+Where to start
+
+Quickstart
+
+The Get the model page for the model below
+
+You can also call open-weight models through third-party inference providers instead of running them yourself. Each model's page lists its hosted providers.
+
+Available open-weight models
+
+Muse Spark OpenMeta's 816B-parameter mixture-of-experts model with 42B active parameters, for agentic and coding work, with text, image, audio, and video input. Ships as BF16 and NVFP4 checkpoints.
+
+Muse GlimmerMeta's 30B open-weight multimodal model, distilled from Muse Spark and built for local and edge deployment.
+
+Next steps
+
+Pick a model above and follow its Get the model page to download the weights and serve them, or see Models for the full lineup, including the models hosted on Meta Model API.
+
+On this page
+
+Please confirm your identity
+For added security, you need to confirm your identity. You will be taken to your single sign-on provider, where you can enter your password.
+
+CancelContinue

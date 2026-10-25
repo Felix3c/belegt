@@ -263,7 +263,6 @@ Discover
 Discover
 Discover
 Discover
-Discover
 Docker
 Docs
 Documentation
@@ -324,6 +323,7 @@ Events
 Events
 Events
 Experience
+Explore
 Explore
 Explore
 Explore
@@ -689,7 +689,6 @@ SAS
 SMS
 SQL
 SXM
-Sales
 Scale
 Scale
 Scaleway
@@ -1611,7 +1610,6 @@ the
 the
 the
 the
-the
 them
 them
 them
@@ -1669,6 +1667,7 @@ up
 up
 up
 up,
+us
 us
 us
 usages

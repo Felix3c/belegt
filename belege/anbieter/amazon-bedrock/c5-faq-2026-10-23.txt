@@ -1,0 +1,520 @@
+Quelle: https://aws.amazon.com/compliance/bsi-c5/
+Abruf: 2026-10-23 00:58:09 +0200
+
+Cloud Computing Compliance Criteria Catalogue (C5) - Amazon Web Services
+
+Skip to main content
+
+Filter: All
+
+English
+
+Contact us
+
+AWS Marketplace
+
+Support
+
+My account
+
+re:Invent
+
+Discover AWS
+
+Products
+
+Solutions
+
+Pricing
+
+Resources
+
+Search
+
+Filter: All
+
+Sign in to console
+
+Create account
+
+Explore topics
+
+re:Invent 2026
+
+The sessions are set and your seat is waiting. Register now
+
+[An abstract image]
+
+Build & Deploy AI Agents
+
+88% of agent pilots stall. Learn what the rest do differently
+
+[An abstract image]
+
+Get started
+
+Sign up free, connect your coding agent, and start building
+
+[An abstract image]
+
+Data for agentic AI
+
+The 7 essential data capabilities to scale agentic AI
+
+Analyst Report
+
+AWS named a Leader in the 2026 Gartner Magic Quadrant for SCPS
+
+AI for Small Businesses
+
+Solutions designed for your business. Delivered by AWS Partners
+
+News & announcements
+
+AWS blog
+
+About AWS
+
+[an abstract illustration]
+
+AWS is the world's most comprehensive cloud, enabling organizations to accelerate innovation, reduce costs, and scale more efficiently
+
+Why AWS
+
+Getting Started
+
+Security
+
+Compliance
+
+Trust Center
+
+Sustainability
+
+Global Infrastructure
+
+Careers
+
+Featured Products
+
+Analytics
+
+Application Integration
+
+Artificial Intelligence
+
+Business Applications
+
+Compute
+
+Customer Experience
+
+Databases
+
+Developer Tools
+
+End User Computing
+
+Game Tech
+
+Management Tools
+
+Media Services
+
+Migration & Modernization
+
+Multicloud & Hybrid
+
+Networking & Content Delivery
+
+Operations
+
+Security & Identity
+
+Storage
+
+Supply Chain
+
+Browse all products
+
+Transformation Hubs
+
+Migrate to modernize → Modernize to unlock data → unlock data to run AI
+
+Migrate & Modernize
+
+Clear technical debt, modernize infrastructure, and move to the cloud
+
+Data & Analytics
+
+Future proof your data foundation for agentic AI
+
+Artificial Intelligence
+
+Get production-ready AI that automates, builds, creates, decides, and engages at scale
+
+Featured Products
+
+Get started with one of these featured services or browse all
+Browse all products
+
+Amazon Quick
+
+AI-powered assistant for work with research, business insights, automation, and no-code app building
+
+Transform
+
+Eliminate tech debt with agentic AI to modernize legacy systems and code
+
+Aurora
+
+Serverless relational database service for PostgreSQL, MySQL, and DSQL
+
+Amazon Bedrock
+
+The end-to-end platform for building generative AI applications and agents
+
+Amazon Connect Customer
+
+AI-native solution for delivering exceptional experiences across customer interactions
+
+EC2
+
+Secure and resizable compute capacity for virtually any workload
+
+[alt]
+
+What’s new
+
+Explore new capabilities and the latest technologies
+
+[alt]
+
+Customer success stories
+
+Learn how customers around the world accelerate their cloud
+
+Featured
+
+By industry
+
+By organization type
+
+Solutions Library
+
+Solutions for any organization
+
+From startups to enterprises, find AWS solutions scaled to your needs. Access tailored resources, pricing models, and support levels.
+
+Analytics Solutions
+
+Discover curated Solutions that address varied analytics use cases
+
+AI Solutions
+
+Discover curated Solutions that address varied artificial intelligence use cases
+
+Migration & Modernization Solutions
+
+Discover curated Solutions that address varied migration and modernization use cases
+
+[alt]
+
+What's new
+
+Explore new capabilities and the latest technologies
+
+[alt]
+
+Customer success stories
+
+Learn how customers around the world accelerate their cloud
+
+Pricing overview & tools
+
+AWS Pricing
+
+Learn about pricing and plans in one place
+
+AWS Pricing Calculator
+
+Estimate the cost for your architecture solution
+
+AWS Free Tier
+
+Get free, hands-on experience with AWS products and services
+
+AWS Offers
+
+Explore different offer programs to gain hands-on experience
+
+AWS Savings Plans
+
+Flexible pricing model offering lower prices
+
+Single-product pricing
+
+Amazon S3
+
+Amazon Bedrock
+
+Amazon RDS
+
+Amazon EC2
+
+Amazon SageMaker
+
+Browse all product pricing
+
+Learn
+
+Documentation
+
+Get detailed technical guides and references for all AWS services and tools
+
+Training & Certification
+
+Build and validate your AWS cloud skills and technical expertise
+
+Cloud term glossary
+
+Learn more about key cloud computing concepts
+
+Whitepapers
+
+Expand your knowledge of the cloud with expert guides and diagrams
+
+Cloud fundamentals
+
+Step-by-step instructions for common AWS tasks
+
+Tutorials
+
+Get started with step-by-step instructions
+
+Connect & Support
+
+Builder Center
+
+Learn, build, and connect with builders in the AWS community
+
+Events and webinars
+
+Connect, collaborate, and learn from AWS experts in the cloud computing community
+
+Partner Network
+
+Collaborate with AWS partners to grow your business
+
+Marketplace
+
+Find, test, buy, and deploy third-party software
+
+Support
+
+Access proactive guidance, issue resolution, and helpful tools
+
+Professional services
+
+Accelerate business transformation with expert guidance and packaged solutions
+
+AWS Cloud Security
+
+Security Services
+
+Use Cases
+
+Compliance
+
+Data Protection
+
+Blog
+
+Partners
+
+Resources
+
+AWS Cloud Security
+
+Compliance Programs
+
+Cloud Computing Compliance Criteria Catalogue
+
+(C5)
+
+Overview
+
+Cloud Computing Compliance Criteria Catalogue (C5) is a German Government-backed attestation scheme introduced in Germany by the Federal Office for Information Security (BSI). C5 helps organizations demonstrate operational security against common cyber-attacks when using cloud services within the context of the German Government's "Security Recommendations for Cloud Providers".
+
+The C5 attestation can be used by AWS customers and their compliance advisors to understand security controls implemented by AWS to meet the C5 requirements as they move their workloads to the cloud. C5 adds the regulatory defined IT-Security level equivalent to the IT-Grundschutz with the addition of cloud specific controls.
+
+C5 includes additional control requirements relating to data location, service provisioning, place of jurisdiction, existing certifications, information disclosure obligations, and a full-service description. Using this information, customers can evaluate how legal regulations (i.e. data privacy), their own policies, or the threat environment relate to their use of cloud computing services.
+
+[Missing alt text value]
+
+FAQs
+
+8
+
+FAQs
+Open all
+
+What is C5?
+
+C5 (Cloud Computing Compliance Criteria Catalogue) is the “cloud computing IT-Security” standard in Germany. Designed and first released by the BSI in 2016, the C5 control set offers additional assurance to customers in Germany as they move their complex and regulated workloads to Cloud Computing Service providers such as AWS.
+
+The current C5 was released in 2020 and includes requirements from the following standards and publications:
+
+ISO/IEC 27001:2013 – Information security management systems – Requirements
+
+ISO/IEC-27002:2016 – IT security procedures – Guidelines for information security measures
+
+ISO/IEC 27017:2015 – Security techniques – Code of practice for information security controls based on ISO/IEC 27002 for cloud services
+
+BSI – IT-Grundschutz-Kompendium, 2nd Edition 2019
+
+CSA – Cloud Controls Matrix 3.0.1 (CSA - Cloud Security Alliance)
+
+AICPA Trust Service Principles Criteria 2017 (AICPA - American Institute of Certified Public Accountants)
+
+ANSSI (Agence nationale de la sécurité des systèmes d’information, National Cybersecurity Agency of France) – Providers of cloud computing services v. 3.1 (SecNumCloud)
+
+IDW (Institut der Wirtschaftsprüfer, the German Institute of Certified Public Accountants) RS FAIT 5 – Statement on Financial Reporting: “Principles of Orderly Accounting for the Outsourcing of Financial Reporting-Related Services including Cloud Computing”, as at November 4, 2015
+
+Who created the C5 standard?
+
+Germany’s national cybersecurity authority Bundesamt für Sicherheit in der Informationstechnik (BSI) developed the C5 standard in 2016. The BSI defines the IT-Security requirements for all governmental systems, and most German companies align their IT-Security strategy with BSI standards. The current version (C5:2020) was finalised in January 2020.
+
+What are the customer benefits of this standard?
+
+The C5 report provides our European customers with an independent third-party attestation on the suitability of the design and operational effectiveness of our controls to meet the C5 basic and additional criteria. Specifically in Germany, customers are used to looking for cloud services which are assessed against the C5 criteria. C5 provides customers with a framework documenting an  IT-Security level equivalent to the IT-Grundschutz covering all IT-Security aspects for Cloud Computing. For federal authorities, a C5 attestation is a basic requirement in the procurement process.
+
+Current information on C5 at AWS can be reviewed on the respective AWS Security Blog C5 posts.
+
+Which AWS Regions are in scope for C5?
+
+AWS Regions in scope for C5 include Frankfurt, Ireland, London, Paris, Milan, Stockholm, Singapore, Zurich and Spain, as well as Edge locations in Austria, Belgium, Bulgaria, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Netherlands, Norway, Poland, Portugal, Romania, Singapore, Spain, Sweden, Switzerland and The United Kingdom.
+
+Which services are in scope?
+
+The covered AWS services that are already in scope for C5 can be found within AWS Services in Scope by Compliance Program. If you would like to learn more about using these services and/or have interest in other services please contact us.
+
+What is the difference between C5 and IT-Grundschutz?
+
+IT-Grundschutz is a standard for establishing and maintaining appropriate protection of the information of an institution. The IT-Grundschutz Catalogues describe safeguards for typical business processes, IT systems, and applications and addresses the protection of an enterprise’s own information. C5 provides guidance on cloud service provider (CSP) offerings.
+
+How do I request the AWS C5 report?
+
+The AWS C5 report is available to customers by using AWS Artifact, a self-service portal for on-demand access to AWS compliance reports. Sign in to AWS Artifact in the AWS Management Console, or learn more at Getting Started with AWS Artifact.
+
+What is the AWS European Sovereign Cloud C5 report?
+
+In January 2026, we announced the general availability of the AWS European Sovereign Cloud, a new, independent cloud for Europe entirely located within the European Union (EU), and physically and logically separate from all other AWS Regions. The dedicated AWS European Sovereign Cloud C5 report provides our customers with an independent third-party attestation on the suitability of the design of the AWS controls to meet the C5 basic and additional criteria.
+
+To learn more about AWS European Sovereign Cloud C5 report, and its scope, visit https://aws.eu/compliance/.
+
+C5 Resources
+
+Architecture Strategy
+
+Amazon Web Services: Best Practices for Security, Identity & Compliance
+
+Learn more
+
+Whitepaper
+
+Amazon Web Services: Risk and Compliance
+
+Learn more
+
+Create an AWS account
+
+Learn
+
+What Is AWS?
+
+What Is Cloud Computing?
+
+What Is Agentic AI?
+
+Cloud Computing Concepts Hub
+
+AWS Cloud Security
+
+What's New
+
+Blogs
+
+Press Releases
+
+Careers
+
+Resources
+
+Getting Started
+
+Training
+
+AWS Trust Center
+
+AWS Solutions Library
+
+Architecture Center
+
+Product and Technical FAQs
+
+Analyst Reports
+
+AWS Partners
+
+Developers
+
+Builder Center
+
+SDKs & Tools
+
+.NET on AWS
+
+Python on AWS
+
+Java on AWS
+
+PHP on AWS
+
+JavaScript on AWS
+
+Help
+
+Contact Us
+
+File a Support Ticket
+
+AWS re:Post
+
+Knowledge Center
+
+AWS Support Overview
+
+AWS Accessibility
+
+Legal
+
+Event Code of Conduct
+
+Event Terms & Conditions
+
+English
+
+Back to top
+
+Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability or other legally protected status. Veterans, military spouses, and people with disabilities are encouraged to apply.
+
+Privacy
+
+Site terms
+
+Your Privacy Choices
+
+Cookie Preferences
+
+© 2026, Amazon Web Services, Inc. or its affiliates. All rights reserved.

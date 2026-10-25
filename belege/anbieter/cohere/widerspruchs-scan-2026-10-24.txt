@@ -1,0 +1,30 @@
+Quelle: https://cohere.com/security, https://cohere.com/saas-agreement, https://cohere.com/enterprise-data-commitments (je direkt); dazu die schon gesicherten Kopien in diesem Ordner (sicherheit, saas-vertrag, daten-zusagen vom 24.10. ~00:23 MESZ)
+Abruf: 2026-10-24 ~00:59 +0200 (= 22:59 UTC am 23.10.; curl direkt, je HTTP 200, 3 s Abstand; robots.txt von cohere.com am 24.10. geprüft, die drei Pfade sind nicht gesperrt). SHA-256 der Rohseiten: security 8aaed9154184b4e248a0aaf781781b168a56cfdfe5d09c8f1d0363b1157aa22f, saas-agreement 599ed95463ad9251814e094d00854967d565857bb62dfff4aab752dfeaadc946, enterprise-data-commitments ad9c16e43106f96724b2fe63968e668abfa0891b64107bd5925c535633c1d212. Alle unten zitierten Sätze stehen im neuen Abruf wörtlich.
+Inhalt: wörtliche Auszüge aus dem Widerspruchs-Scan Cohere (Textfassung). Frage: Sagen die Cohere-Seiten in der Werbung etwas anderes als im Vertrag und in den Datenzusagen?
+
+A. Werbung „your data stays yours“ gegen SaaS-Vertrag 3(a)(iii) (Fall-Kandidat 55)
+
+1. cohere.com/security, Abschnitt „Built-in data autonomy“:
+Maintain full control over your data with customizable handling and retention settings. Opt out of model training at any time — your data stays yours.
+
+2. cohere.com/saas-agreement (Stand „Last updated: April 8, 2025“), Abschnitt „Ownership; Reservation of Rights“:
+CUSTOMER GRANTS TO COHERE A NONEXCLUSIVE, WORLDWIDE, ROYALTY-FREE, IRREVOCABLE, SUBLICENSABLE, AND FULLY PAID-UP RIGHT TO ACCESS, COLLECT, USE, PROCESS, STORE, DISCLOSE AND TRANSMIT CUSTOMER DATA TO: […] (III) IMPROVE AND ENHANCE THE SERVICES AND COHERE’S OTHER OFFERINGS AND BENCHMARK THE FOREGOING, INCLUDING BY SHARING API DATA AND FINETUNING DATA  WITH THIRD PARTIES WHO MAY USE THE FINETUNING DATA AND API DATA TO PROVIDE SERVICES TO COHERE AND FOR OTHER PURPOSES PERMITTED UNDER THEIR TERMS AND CONDITIONS.
+
+3. saas-agreement, gleicher Abschnitt, nächster Absatz:
+[…] ANY FINETUNING DATA OR API DATA SHARED BY COHERE WITH THIRD PARTIES WILL BE ACCESSED, USED, AND OTHERWISE HANDLED BY SUCH THIRD PARTIES IN ACCORDANCE WITH THEIR TERMS AND CONDITIONS, WHICH MAY PERMIT SUCH THIRD PARTY TO USE FINETUNING DATA OR API DATA FOR ITS OWN PURPOSES.
+
+4. saas-agreement, Definition:
+“API Data” means any Customer Data submitted by Customer to the Cohere API.
+
+5. saas-agreement, „Effect of Termination“:
+Notwithstanding the foregoing, Cohere will have no obligation to delete or otherwise render inaccessible any API Data or Finetuning Data submitted by Customer to Cohere in accordance with Section 3(a)(iii).
+
+B. Datenzusagen zur Löschung und zum Schalter (Zusatz)
+
+6. cohere.com/enterprise-data-commitments (Stand „Last Update: December 5, 2025“):
+For the SaaS Platform, we automatically delete logged prompts and generations after 30 days, unless we need to retain them to comply with a legal requirement or a customer contract, […]
+Data you allow us to use for training purposes may be retained separately in accordance with our agreement with you.
+Your change in settings will apply to data created after you make that change.
+
+C. Nicht gefunden
+Kein Satz auf den drei Seiten sagt, dass der Schalter „Data Controls“ das Recht aus 3(a)(iii) einschränkt (Weitergabe an Dritte, keine Löschpflicht). Der Vertrag erwähnt den Schalter nicht. Das Data Processing Addendum gibt es nur gegen Geheimhaltungsvereinbarung (Trust Center), nicht eingesehen.

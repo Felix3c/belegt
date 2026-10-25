@@ -1,0 +1,14 @@
+Quelle: https://nordference.ai/sla (Ein-Seiten-Anwendung, Text im Skript-Bündel https://nordference.ai/assets/index-CGzvo87P.js)
+Abruf: 2026-10-23 ~00:50 UTC (curl, HTTP 200), SHA-256 des Bündels e68e235c030f22f12e517dd2592ca0e56e4e10bf0b5bcd8f90d9f82f0593d9ad, belegbar.eu
+
+SLA, Stand laut Seite: „Last updated: January 28, 2026“. Wörtlich:
+Pay-as-you-go Plan: 99.9% monthly uptime
+Enterprise Plan: 99.99% monthly uptime
+This SLA does not apply to: scheduled maintenance (announced 48 hours in advance), force majeure events, issues caused by customer actions, beta or preview features, or free tier usage.
+
+Dazu an anderer Stelle desselben Bündels (Preis- und Modellseite), wörtlich:
+Currently in private beta – request access to get started. All plans include EU data residency and compliance.
+betaNote:"Currently in private beta • Request access to join the pilot program"
+nameKey:"pricing.comparison.features.sla",free:!1,payg:"99.9%",enterprise:"99.99%"
+
+Lesart: Die Zusage nimmt „beta or preview features“ aus; das Angebot ist laut Website insgesamt eine private Beta.

@@ -1,0 +1,46 @@
+Quelle: https://mistral.ai/news/mistral-large-4, https://docs.mistral.ai/models/mistral-large-4-0, https://mistral.ai/sovereign-ai, https://mistral.ai/products/la-plateforme, https://legal.mistral.ai/terms/commercial-terms-of-service, https://legal.mistral.ai/terms/data-processing-addendum (je direkt); gesicherte Kopien in diesem Ordner, alle vom 24.10.
+Abruf: 2026-10-24 04:56 +0200 (curl direkt, je HTTP 200, 3 s Abstand; robots.txt von mistral.ai „Allow: /“, docs.mistral.ai und legal.mistral.ai liefern unter /robots.txt nur eine HTML-Seite, also keine Sperre). SHA-256 der Rohseiten steht im Kopf jeder Kopie. Commercial Terms „Effective: September 25, 2026“, DPA „Effective: July 27, 2026“.
+Inhalt: wörtliche Auszüge aus dem Widerspruchs-Scan Mistral AI (La Plateforme / Studio, Textfassung). Frage: Passt das, was Werbung und Ankündigung über Kontrolle der Daten sagen, zu dem, was die Verträge für Vorschau-Modelle erlauben, und passen die beiden Verträge zueinander?
+
+A. Ankündigung lädt Firmen ein, das Vorschau-Modell zu testen, und wirbt mit Kontrolle über die Daten; der Vertrag erlaubt bei Vorschau-Modellen Training mit den Kundendaten, Opt-out und Zero Data Retention gelten dort nicht (Fall-Kandidat 58)
+
+1. Ankündigung Mistral Large 4 (06.10.2026):
+> Today, we’re launching a public preview of Mistral Large 4.
+> You can try the preview API today on Mistral Studio .
+> including a European deployment that Mistral operates end-to-end, independently of other digital service providers and under European law.
+> In the meantime, we invite you to try the preview API and share your feedback with us on social media.
+
+2. Modellseite in der Doku:
+> October 6, 2026 Public Preview Open v 26.10
+
+3. Werbeseite Sovereign AI:
+> You control where your data goes and who can use it.
+> Separately, control whether that data can be used to improve a shared model.
+
+4. Produktseite La Plateforme:
+> One platform to build, deploy, and govern agentic AI systems—all with enterprise privacy, security, and full ownership of your data.
+
+5. Commercial Terms of Service, Ziffer 4.2 und 4.3:
+> Mistral AI will not use Customer Data or Outputs to train its artificial intelligence models except
+> or (d) when Customer uses Labs or Preview Models.
+> Customer grants Mistral AI a perpetual, irrevocable, worldwide, non-exclusive
+> By using Labs or Preview Models, you acknowledge that (i) Mistral AI may use Customer Data and Outputs generated from Labs or Preview Models to train its artificial intelligence models and (ii) the opt-out preferences you selected for other Mistral AI Products (including through zero data retention) does not apply to Labs or Preview Models.
+> If you do not want your data or outputs used for training, do not use Labs or Preview Models.
+
+B. Die beiden Verträge sagen für Kunden mit Opt-out Verschiedenes, und der DPA geht vor
+
+6. DPA Ziffer 2.3 (Mistral als Verantwortlicher):
+> Training its artificial intelligence models in accordance with its Privacy Policy , unless Customer is or has opted-out of training.
+
+7. DPA Ziffer 11.2:
+> In the event of any conflict between the terms of the DPA and the remainder of the Agreement, the terms of the DPA shall prevail to the extent of such conflict.
+
+8. Commercial Terms Ziffer 14.11:
+> If there is a conflict between these Terms and any other agreement between us, the agreements will control in the following order: (1) Order Form (if any); (2) Additional Terms; (3) these Terms; and (4) our policies/other Documentation.
+
+C. Zusatz: Feedback trainiert immer
+9. DPA Ziffer 2.3:
+> Mistral will use such Feedback as well as the associated Input and Output, as Controller, to train its artificial intelligence models, conduct research or improve the Mistral AI Products.
+
+D. Nicht gefunden
+Weder Ankündigung noch Modellseite erwähnen, dass Eingaben ins Vorschau-Modell zum Training genutzt werden dürfen („train“ kommt auf der Modellseite nicht vor; in der Ankündigung nur zum Training des Modells selbst). Ob Mistral bei Kunden mit Opt-out oder Zero Data Retention die Vorschau-Daten trotzdem nutzt (Terms 4.3) oder nicht (DPA 2.3, der laut 11.2 vorgeht), ist ungeklärt; der DPA gilt nur für personenbezogene Daten, für andere Kundendaten bleibt Terms 4.3. Ob die Konsole beim Wählen von „mistral-large-4“ einen Hinweis zeigt, nicht geprüft (braucht Login). Wann die Vorschau endet: ungeklärt („Weights drop end of this month“, kein Datum für das Ende der Preview). Die Datenschutzerklärung und das Trust Center in diesem Scan nicht ausgewertet.

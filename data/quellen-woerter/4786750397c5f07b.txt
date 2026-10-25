@@ -534,7 +534,6 @@ EXTENT
 EXTENT
 English
 Enterprise
-Enterprise
 Entire
 Exceptions.
 Export

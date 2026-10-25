@@ -1,0 +1,79 @@
+Quelle: Auszug (pdftotext -layout, Zeilen 2216-2290, Abschnitt IV.5, S. 69-70) aus behoerde-blnbdi-jahresbericht-2025-2026-10-23.pdf, abgerufen von https://www.datenschutz-berlin.de/fileadmin/user_upload/pdf/jahresbericht/BlnBDI_Jahresbericht-2025.pdf (direkt, verlinkt von https://www.datenschutz-berlin.de/infothek/jahresberichte/)
+Abruf: 2026-10-23 01:23:58 +0200
+
+
+5. Beantragte Sperrung der chinesischen KI-App DeepSeek
+
+Um die rechtswidrige Übermittlung personenbezogener Daten von Nutzer:innen in
+Deutschland in die Volksrepublik China zu beenden, beantragten wir die Sperrung
+der chinesischen KI-Anwendung DeepSeek in den App-Stores von Google und Apple
+für Deutschland. Dabei machten wir vom Melde- und Beschwerdemechanismus des
+Digital Services Act (DSA) Gebrauch und zeigten die Möglichkeiten der europäischen
+Digitalgesetzgebung auf.
+
+DeepSeek ist ein KI-gestützter, multifunktionaler Chatbot121, der von dem chinesischen
+Unternehmen Hangzhou DeepSeek Artificial Intelligence Co., Ltd., betrieben wird.
+Eine Niederlassung des Unternehmens in der Europäischen Union (EU) besteht nicht.
+Die Anwendung wird deutschen Nutzer:innen über den Google Play-Store und den
+Apple App-Store mit deutschsprachiger Beschreibung zum Download angeboten.
+Auch die App selbst kann in deutscher Sprache genutzt werden. Damit ist die DSGVO
+anwendbar.122
+
+Laut eigenen Angaben verarbeitet der Dienst umfangreiche personenbezogene
+Daten der Nutzer:innen, darunter alle Texteingaben, Chatverläufe und hochgeladene
+Dateien sowie Informationen zum Standort, den benutzten Geräten und Netzwerken.
+Die gesammelten personenbezogenen Daten der Nutzer:innen übermittelt der Dienst
+an chinesische Auftragsverarbeiter und speichert diese auf Servern in China.
+
+Wir kamen zu dem Ergebnis, dass diese Drittstaatenübermittlungen rechtswidrig sind,
+und forderten das Unternehmen daher im Mai auf, die Datenübermittlungen in die
+Volksrepublik China einzustellen, die gesetzlichen Voraussetzungen für eine rechtmä-
+ßige Drittstaatenübermittlung zu erfüllen oder die App selbständig aus den App-Stores
+für Deutschland zu entfernen. Nach der Weigerung des Unternehmens meldeten wir
+die App nach Art. 16 DSA als „rechtswidrigen Inhalt“ bei den App-Stores von Google
+sowie Apple und beantragten eine Sperrung der DeepSeek-App.
+
+121	Chatbots sind Programme, die mit großen Mengen von Textdaten trainiert werden, um
+        natürliche Gespräche zu führen und auf eine Vielzahl von Fragen zu antworten.
+
+122	Siehe Art. 3 Abs. 2 lit. a DSGVO.
+
+                                                                   69
+B. Wir in Berlin
+
+In unserer Meldung nach dem DSA legten wir ausführlich dar, dass die Übermittlung
+personenbezogener Daten der Nutzer:innen in die Volksrepublik China gegen europäi-
+sches Datenschutzrecht verstößt. Die DSGVO verlangt, dass die hohen Datenschutz-
+standards der EU auch bei der Übermittlung personenbezogener Daten in andere
+Länder gewahrt bleiben. Dafür braucht es entweder einen Angemessenheitsbeschluss
+der EU oder weitere Schutzmaßnahmen, sog. geeignete Garantien. Für die Volksrepu-
+blik China hat die EU keinen Angemessenheitsbeschluss erlassen.
+
+Die Hangzhou DeepSeek Artificial Intelligence Co., Ltd., verstößt mit ihrem Dienst
+DeepSeek gegen Art. 46 Abs. 1 DSGVO. Sie konnte uns gegenüber nicht nachweisen,
+dass das erforderliche Schutzniveau auch bei der Weitergabe der Daten an chinesi-
+sche Auftragsverarbeiter gewährleistet wird. Dies gilt insbesondere vor dem Hinter-
+grund, dass nicht dargelegt wurde – den Nutzer:innen von DeepSeek in China stehen
+durchsetzbare Rechte und wirksame Rechtsbehelfe zur Verfügung, wie sie in der EU
+garantiert sind.
+
+Unsere Maßnahme erfolgte in enger Abstimmung mit den Landesdatenschutzbeauf-
+tragten von Baden-Württemberg, Rheinland-Pfalz und der Freien Hansestadt Bremen
+sowie nach Unterrichtung der Koordinierungsstelle für digitale Dienste in der Bundes-
+netzagentur, die in Deutschland für die Durchsetzung des DSA zuständig ist.
+
+Google und Apple lehnten eine Sperrung in ihren App-Stores ab. Wir werden nun
+gegen die Ablehnung unseres Antrags Beschwerde nach Art. 20 DSA einlegen und
+wiederholt die Rechtswidrigkeit der massenhaften Übermittlungen personenbezogener
+Daten in die Volksrepublik China darlegen. Sollten die Betreiber:innen der App-Stores
+auch auf die Beschwerde hin nicht tätig werden und wir weiterhin von einem rechts-
+widrigen Inhalt ausgehen, könnten wir nachfolgend noch ein Streitbeilegungsverfahren
+nach Art. 21 DSA einleiten.
+
+ Die Meldung der rechtswidrigen DeepSeek-App nach dem DSA stellt einen prag-
+ matischen Ansatz dar, schwerwiegende Datenschutzverstöße über das Zusammen-
+ spiel der europäischen Digitalrechtsakte zu adressieren. Vor dem Hintergrund der
+ zunehmenden Übermittlungen personenbezogener Daten in die Volksrepublik China
+ und den damit verbundenen Risiken für die Rechte Betroffener werden wir derartige
+ Verarbeitungen auch in Zukunft genau prüfen.
+

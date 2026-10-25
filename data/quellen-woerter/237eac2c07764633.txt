@@ -295,6 +295,8 @@ Backups
 Backups
 Backups
 Backups
+Backups
+Backups
 Balancer
 Bare
 Bare
@@ -425,6 +427,9 @@ CPU-/RAM-/IOPS-optimiert
 Cache
 Cache
 Case
+Case
+Cases
+Cases
 Cases
 Cases
 Cases
@@ -502,6 +507,8 @@ Charts
 ClickHouse
 ClickHouse
 ClickHouse
+Cloud
+Cloud
 Cloud
 Cloud
 Cloud
@@ -668,6 +675,8 @@ Continuity
 Cookies
 Copyright
 Corporate
+Cyberangriffen
+Cyberangriffen
 DDoS-Angriffe
 DDoS-Schutz
 DDoS-Schutz
@@ -726,6 +735,7 @@ Daten
 Daten
 Daten,
 Daten-
+Daten:
 Datenanalysen,
 Datenbanken
 Datenbanken
@@ -741,6 +751,7 @@ Datenschutz
 Datenschutz
 Datenschutzgesetze,
 Datensicherheit,
+Datenverlust
 Datenverluste,
 Dedicated
 Dedicated
@@ -779,6 +790,8 @@ Deutschland).
 DevOps,
 DevSecOps-Governance:
 DevSecOps-Überwachung
+Die
+Die
 Die
 Die
 Die
@@ -1174,6 +1187,7 @@ Hosts
 Hub-and-Spoke-Landing-Zone
 Hub-and-Spoke-Landing-Zone
 Hyper-V
+Hyperscalern
 Höchste
 Höchste
 Höchstmaß
@@ -1298,6 +1312,11 @@ Ihre
 Ihre
 Ihre
 Ihre
+Ihre
+Ihre
+Ihre
+Ihre
+Ihre
 Ihrem
 Ihrem
 Ihren
@@ -1351,6 +1370,8 @@ Ihrer
 Ihrer
 Ihrer
 Ihrer
+Ihres
+Ihres
 Images
 Impact
 Implementierung
@@ -1428,6 +1449,7 @@ Key
 Kimsufi
 Kimsufi
 Kimsufi
+Klasse
 Klick
 Klick
 Klick
@@ -1453,10 +1475,12 @@ Kontrolle
 Kontrolle
 Kontrolle
 Kontrolle
+Kontrolle
 Kosten
 Kosten
 Kosten
 Kosten
+Kosten.
 Kosten.
 Kosten.
 Kostenkontrolle
@@ -1629,6 +1653,8 @@ Maßstab,
 Mehr
 Mehr
 Mehrere
+Mehrere
+Mehrere
 Mehrwert
 Mehrwertsteuer
 Mehrwertsteuer.
@@ -1669,6 +1695,9 @@ Microsoft
 Microsoft
 Microsoft
 Microsoft-option
+Migrationslösungen
+Migrationslösungen
+Migrieren
 MiniCloud
 Minuten
 Missbrauch
@@ -1893,6 +1922,9 @@ OVHcloud
 OVHcloud
 OVHcloud!
 OVHcloud.
+OVHcloud.
+Object
+Object
 Object
 Object
 Object
@@ -1900,6 +1932,7 @@ Objektspeicher,
 Observability-Metriken
 Observability-Metriken
 Offenlegung
+Offline-Datenübertragung
 Ohne
 On-Prem
 On-Prem
@@ -2170,6 +2203,7 @@ RPC
 Rancher
 Rancher
 Rancher
+Ransomware
 Ready
 Ready
 Ready
@@ -2298,6 +2332,8 @@ Roadmap
 Roadmap
 Roadmap
 Roadmap
+S3-Daten
+S3-Daten
 S3-kompatibler
 S3-kompatibler
 SAP
@@ -2502,8 +2538,14 @@ Sicherheit
 Sicherheit
 Sicherheit
 Sicherheitsanforderungen
+Sichern
 Sicherung
 Sicherung
+Sie
+Sie
+Sie
+Sie
+Sie
 Sie
 Sie
 Sie
@@ -2544,6 +2586,8 @@ Soziale
 Specific
 Speicher
 Speicherarchitektur,
+Speicherklassen,
+Speicherklassen,
 Speichern
 Speichern
 Speicherung
@@ -2579,6 +2623,8 @@ Steuerung
 Steuerung
 Steuerung
 Steuerung
+Storage
+Storage
 Storage
 Storage
 Storage
@@ -2673,7 +2719,12 @@ Unterauftragsverarbeiter
 Unternehmen
 Unternehmen
 Unternehmen
+Unternehmens
+Unternehmens
 Unterstützung
+Use
+Use
+Use
 Use
 Use
 Use
@@ -2769,6 +2820,7 @@ Verschlüsselung
 Verschlüsselung
 Verschlüsselungsschlüssel
 Verschlüsselungsschlüssel
+Verteidigungslinie
 Verteilung
 Vertragsbedingungen
 Vertragsbedingungen
@@ -2941,6 +2993,7 @@ Workloads
 Workloads
 Wählen
 Wählen
+Wählen
 Währung:
 Währung:
 Your
@@ -3071,6 +3124,7 @@ a
 a
 a
 ab
+ab.
 abgerufenen
 abgesicherte
 aktiv
@@ -3324,6 +3378,8 @@ die
 die
 die
 die
+die
+die
 direkt
 direkt
 dokumentenorientierte
@@ -3340,6 +3396,8 @@ eigenen
 eigenen
 eigenen
 eigenen
+ein
+ein
 ein
 eine
 eine
@@ -3359,6 +3417,8 @@ einen
 einen
 einen
 einen
+einer
+einer
 einer
 einer
 einer
@@ -3393,6 +3453,8 @@ erstellen.
 ersten
 erweitern
 erweiterte
+europäischen
+europäischen
 feste
 for
 for
@@ -3476,10 +3538,12 @@ für
 für
 für
 für
+für
 ganz
 ganz
 ganz
 gebrauchsfertiger
+gegen
 gegen
 gehostet
 gehostet
@@ -3572,6 +3636,7 @@ ist
 ist
 je
 jedem
+jeden
 kann
 keine
 keinen
@@ -3602,11 +3667,14 @@ leistungsstarke
 leistungsstarke
 leistungsstarke
 leistungsstärksten
+letzte
 man
 mehr
 mehr
 mehr
 melden
+migrieren
+migrieren
 minimale
 mit
 mit
@@ -3721,6 +3789,7 @@ on
 online
 optimieren
 optimieren
+optimieren
 order
 passt
 passt.
@@ -3744,9 +3813,12 @@ relationale
 relationalen
 resiliente
 richtige
+richtige
 scheinen
 schnellere
 schon
+schützen
+schützen
 schützen
 schützen
 sehr
@@ -3812,6 +3884,8 @@ umsehen
 umsetzen
 unbegrenzter
 unbegrenzter
+und
+und
 und
 und
 und
@@ -4153,6 +4227,9 @@ von
 von
 von
 von
+von
+vor
+vor
 vor
 vor
 vor
@@ -4230,6 +4307,9 @@ zu
 zu
 zu
 zu
+zu
+zu
+zu
 zugesicherten
 zugreifen
 zugreifen,
@@ -4267,6 +4347,7 @@ zuverlässigen
 Über
 Über
 Übereinstimmung
+Übernehmen
 Übertragen
 Überwachung
 Überwachung
@@ -4285,6 +4366,7 @@ zuverlässigen
 öffentlichen
 öffnen
 öffnen
+über
 über
 über
 über

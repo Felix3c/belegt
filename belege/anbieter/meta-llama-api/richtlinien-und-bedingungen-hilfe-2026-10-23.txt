@@ -1,0 +1,39 @@
+Quelle: https://dev.meta.ai/help/policies-and-privacy/policies-and-terms
+Abruf: 2026-10-23 01:17:15 +0200
+
+AI Developer Help Center
+
+Meta
+
+StatusContact us
+
+Menu
+
+Status
+
+Contact us
+
+Close popover
+
+Back to Help Center
+
+Where can I find Model API policies and Terms of Service?
+
+All Meta Model API policies are available at the AI Developer Legal Center.
+
+Key documents include:
+
+Terms of Service — governs your use of Model API, including account responsibilities, payment obligations, and intellectual property rights.
+
+Acceptable Use Policy (AUP) — defines prohibited uses of Model API, including content restrictions and abuse policies.
+
+Privacy Policy — explains how data is collected, used, and protected.
+
+These policies are updated periodically. When changes are made, affected users are notified. Continued use of Model API after a policy update constitutes acceptance. For more details, see Updates to the policies.
+
+Terms of ServiceAcceptable Use Policy
+
+Please confirm your identity
+For added security, you need to confirm your identity. You will be taken to your single sign-on provider, where you can enter your password.
+
+CancelContinue

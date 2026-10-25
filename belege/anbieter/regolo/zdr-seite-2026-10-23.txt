@@ -1,0 +1,167 @@
+Quelle: https://regolo.ai/zero-data-retention/
+Abruf: 2026-10-23 (curl, HTTP 200), Textauszug aus HTML (ganze Seite, Skripte entfernt), belegbar.eu
+
+European AI Inference | Sovereign, Secure & GDPR Ready
+Skip to content
+Pricing
+Models
+Docs
+Labs
+Tutorial & How‑to
+Events & Workshops
+Benchmarks & Optimization
+Compliance and Privacy
+Product & Release Notes
+Self‑Hosting & DevOps
+Sustainable Computing
+Customers
+About
+Zero Data Retention
+Sustainable AI
+Our Team and Infrastructure
+Discord
+Sign In
+Home
+Models
+Pricing
+Labs
+Docs
+European data privacy
+Sustainable AI
+GPU Cloud Infrastructure
+Discord
+Sign In
+Zero Data Retention
+Your Data Never Stays.
+Your Privacy Always Does.
+Every request is processed in real time and permanently discarded.
+No logs, no traces, no compromise. Fully European, fully private.
+Generate Your Key
+Read the Docs
+European by Choice, Not by Circumstance
+At Regolo, our European identity is not just a geographical fact, but a daily commitment
+to transparency, regulatory compliance, and sustainability. Our infrastructure operates
+entirely on data centers located in Europe, ensuring that every data processing and
+management activity takes place under European jurisdiction.
+We believe that keeping data close to users guarantees security, trust, and adherence
+to European laws. This choice is deliberate and non-negotiable.
+GDPR Compliant
+We are fully GDPR-compliant, ensuring that every aspect of our service meets the
+rigorous standards of European data protection law. Your data rights are respected
+at every level.
+EU AI Act Aligned
+We have proactively aligned ourselves with the EU AI Act, integrating from the outset
+procedures and controls that meet the transparency, security, and accountability
+requirements outlined by the upcoming European regulation on artificial intelligence.
+European Jurisdiction
+Every data processing and management activity takes place under European jurisdiction.
+Your data never leaves European soil, from ingestion to inference to response delivery.
+We Do Not Keep Your Data.
+Period.
+We do not retain, log, or reuse any input or output data processed through our models.
+Every request is handled in real time, and once the response is generated, the data
+is permanently discarded.
+Your data never remains with us: we process it, protect it during transmission,
+and immediately release it. This zero-retention principle goes beyond GDPR compliance,
+offering maximum privacy and ensuring that your interactions with Regolo leave no trace.
+No Storage
+No storage of user prompts or model outputs. Your inputs and the responses
+generated are never written to disk or persisted in any database.
+No Logging
+No logging of API calls or content for future analysis. There are no audit trails
+of your requests, no server logs capturing your data, no records of any kind.
+No Reuse
+No use of data for training, fine-tuning, or any other secondary purpose. Your
+data serves one purpose only: delivering the response you requested, then it is gone.
+Request Arrives
+Encrypted in transit
+Real-Time Processing
+In-memory only
+Response Delivered
+Sent back to you
+Data Permanently Discarded
+Zero trace remains
+Independently Certified
+Don't Take Our Word for It.
+Take Theirs.
+A privacy promise is only worth as much as the proof behind it. Anyone can claim
+zero data retention, but the only way to truly guarantee it is to let an independent
+third party audit your entire stack and certify the result. So that's exactly what we did.
+A specialized external firm reviewed our complete architecture and software stack,
+from infrastructure provisioning to the inference pipeline, and issued a formal
+certification confirming that our zero data retention policy is not a claim, but a
+verified fact.
+Zero Data Retention Certificate
+Issued
+24 July 2026
+following a full
+review of Regolo's architecture and software stack.
+Independent third-party audit
+Full architecture reviewed
+Software stack verified
+View Certificate
+Privacy by Design
+Privacy Is Not an Afterthought.
+It Is the Architecture.
+Our privacy by design philosophy translates into an approach where data protection
+is embedded at every stage of service development and management. It is not a feature
+we bolt on, but a principle we build on.
+From infrastructure provisioning to model serving, from API design to operational
+procedures, every architectural decision is made with privacy as a primary constraint.
+Data minimization
+Purpose limitation
+Encrypted communications
+Immediate data disposal
+Typical AI Provider
+Stores prompts and outputs
+Logs API calls for analytics
+May use data for training
+Retains data for 30+ days
+Regolo.ai
+Zero storage of prompts and outputs
+No API call logging
+Data never used for training or fine-tuning
+Data discarded immediately after response
+Privacy-First AI,
+Ready When You Are
+Start building on infrastructure that respects your data from day one. European
+data centers, zero retention, full GDPR compliance, and an OpenAI-compatible API
+that works with the tools you already know.
+Free 30-day trial
+No credit card required
+Zero data retention
+Independently certified
+EU data residency
+Start Building Free
+Explore the Docs
+Have questions or need a custom plan?
+Join our community on Discord
+or
+contact us
+.
+Resources
+Contacts
+Models Library
+Builder Program
+Models Status
+Integrations
+FAQ
+Legal
+Terms & Conditions
+Privacy Policy
+Cookie Policy
+Cookie Preferences
+DPA
+Top Models
+GLM 5.2
+Qwen 3.5 - 122b
+Faster Whisper Large v3
+Gemma 4 - 31b
+GPT OSS - 120b
+Latest Posts
+Getting started with context-mode and headroom: understand large codebases at 92% lower token cost
+AI review responses with guardrails: Clef-Flash decides, an LLM writes, a person approves
+EmbeddingGemma 2 vs Qwen3-Embedding (0.6B & 8B): Code Retrieval, Matryoshka Compression, and Reranking Benchmarks
+Developed in EU with love, compliance, and green spirit by DHH.
+© Seeweb S.r.l. – c.s. 103.000 EURO - CCIAA 17793/98 - VAT IT02043220603
+Datacenter Certifications

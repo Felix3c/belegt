@@ -1,0 +1,928 @@
+Quelle: https://www.requesty.ai/guides/eu-ai-data-residency-sovereign-ai
+Abruf: 2026-10-23 ~00:30 UTC (curl, HTTP 200), Textauszug aus HTML (ganze Seite, Skripte entfernt), belegbar.eu
+
+EU AI Data Residency and Sovereign AI | Requesty
+Product
+Solutions
+Models
+Rankings
+Customers
+Pricing
+Resources
+Docs
+Sign in
+Get started free
+All guides
+Compliance
+guide
+EU AI Data Residency and Sovereign AI: A Practical Guide
+How to keep AI gateway processing, model inference, fallbacks and request data inside the EU, how to prove it held, and where sovereign AI asks for more than an AI gateway can give.
+Last reviewed
+24 August 2026
+28
+min read
+Platform, security and procurement teams
+Contents
+What do EU residency and sovereign AI mean?
+So where does Requesty fit?
+What can Requesty enforce?
+Where does the complete inference process happen?
+Do not forget the systems around the gateway
+Why is an EU gateway only half the answer?
+What happens when the primary model fails?
+Residency has to survive failure
+What data does Requesty store, and where?
+Observability does not require storing every prompt
+Is customer data used for model training?
+Does Requesty train models on customer data?
+Does the upstream model provider train on customer data?
+How do you make the policy technically enforceable?
+Separate policy ownership from application ownership
+Where does the evidence come from?
+The controls you can change from the same page
+How do you configure an EU-resident deployment?
+How do you verify the configuration?
+The evidence pack
+How anwalt.de runs EU-only AI in production
+What does the Requesty DPA cover?
+The residency clauses match the product
+The clauses worth reading before you sign
+International transfers
+Sensitive data has its own conditions
+Where does sovereign AI go further?
+Three practical deployment levels
+Is Requesty the right EU AI gateway for this use case?
+Frequently asked questions
+Reference
+EU routing
+Approved Models
+Fallback policies
+Data privacy and ZDR
+Guardrails
+Access Lists
+RBAC and SSO
+Requesty DPA
+Subprocessors
+EU AI Gateway
+Enlarge
+Click to enlarge.
+Contents ·
+16
+sections
+"Our AI runs in Europe" sounds precise. Often it only describes one hop.
+An AI request can enter a gateway in Frankfurt, fail over to a model in the United States, write its prompt into an observability database and still sit inside a system described as EU hosted. The claim only means something if it holds across the entire request path.
+The practical way to assess AI residency is to follow a request from the application to the model and back. Then do it again for the failure path.
+This guide explains how to do that with Requesty. It covers where Requesty processes requests, how to restrict models and fallbacks to EU regions, what Requesty stores, how zero data retention works, how to produce evidence that the policy held, and where the idea of sovereign AI goes beyond an AI gateway.
+Key message
+AI residency depends on the full request path, not just the model endpoint. To keep a request within the EU, the gateway, the model, every fallback and any system that stores request data must all stay inside the boundary.
+What do EU residency and sovereign AI mean?
+These terms get used as though they mean the same thing. They do not.
+Term
+What it means in practice
+EU gateway residency
+The gateway receives and processes the request on infrastructure located in the EU.
+EU inference residency
+The model serving the request performs inference in an EU region.
+End-to-end EU residency
+The gateway, the model endpoint, every fallback and stored request content remain within the defined EU boundary.
+Sovereign AI
+A broader level of control covering geography, legal jurisdiction, operations, supply chains, technology, model dependency and sometimes ownership.
+In this guide, end-to-end EU residency means a configuration where Requesty processing happens through the EU gateway, only EU-region model deployments are permitted, every fallback stays in the EU, and Requesty's payload storage policy has been set deliberately rather than left at its default.
+Sovereign AI asks more questions. Who owns the infrastructure? Which country's laws apply to the provider? Can non-EU support staff reach the environment? Who controls encryption keys? Could the organisation keep operating if a supplier withdrew service? Can the model or the workload move somewhere else?
+The European Commission's Cloud Sovereignty Framework reflects that broader reading. It covers legal and jurisdictional control, data and AI control, operations, supply chains and technological independence, rather than treating server location as the whole answer.
+So where does Requesty fit?
+Requesty is the policy and enforcement layer between an application and its model providers.
+We control which endpoint an application uses, which models it may call, which regions are permitted, where a failed request may be rerouted, whether request content is stored by Requesty, and which users or API keys can change any of those decisions.
+We do not turn a globally hosted model into an EU-hosted one. We do not change the corporate ownership or legal jurisdiction of an upstream provider. That is the boundary of what Requesty can enforce.
+Our position
+Requesty gives teams a way to enforce where AI requests can go and how they are handled. The full system is only EU-resident if the model providers and the other services in the request path meet the same requirements.
+What can Requesty enforce?
+Here is the practical answer before the detail.
+Requirement
+Requesty's answer
+What you still decide
+Process gateway traffic in the EU
+The EU endpoint, hosted in Frankfurt
+Make sure applications use it
+Keep model inference in the EU
+Approve only EU-region model deployments
+Which providers and regions are acceptable
+Stop developers selecting global models
+Approved Models, Access Lists and region restriction
+Who may change those controls
+Keep failover inside the EU
+EU-only fallback and load-balancing policies
+Test every failure route
+Avoid storing prompts and responses
+Disable logging per key, or enable organisation-wide ZDR
+Whether historical logs also need deleting
+Reduce provider-side retention or training
+Filter models by data policy, require model ZDR, or use BYOK
+Review each provider's contract and settings
+Detect sensitive content
+Guardrails on requests and responses
+Whether masking is enough for the use case
+Restrict administrative access
+RBAC, groups, SSO and scoped API keys
+Joiner, mover and leaver processes
+Produce evidence
+The Compliance report, request telemetry and audit logs
+Retention, and how evidence feeds your governance
+Sign GDPR processor terms
+The Requesty DPA and published subprocessor list
+Your own controller-side assessment
+Requesty's EU gateway runs in AWS eu-central-1 in Frankfurt. The EU endpoint keeps Requesty's processing and storage in the EU, but it does not by itself restrict the upstream model to an EU deployment. Approved Models, EU region filters and region restriction supply that second half.
+Where does the complete inference process happen?
+With Requesty's EU configuration, the basic request path looks like this.
+EU request path
+Application
+Hosted in the EU
+Requesty EU gateway
+AWS eu-central-1, Frankfurt
+Routing and policy checks
+Approved Models, region, data policy, guardrails
+Approved EU-region model deployment
+Requesty EU gateway
+Response returned, telemetry recorded
+Application
+The EU base URLs are:
+API surface
+Base URL
+OpenAI-compatible
+https://router.eu.requesty.ai/v1
+Anthropic-compatible
+https://router.eu.requesty.ai
+A minimal OpenAI-compatible configuration looks like this.
+Python
+Copy
+import
+os
+from
+openai
+import
+OpenAI
+client
+=
+OpenAI(
+api_key
+=
+os.environ[
+"REQUESTY_API_KEY"
+],
+base_url
+=
+"https://router.eu.requesty.ai/v1"
+,
+)
+response
+=
+client.chat.completions.create(
+# This example assumes an EU-only routing policy called "eu-production".
+model
+=
+"policy/eu-production"
+,
+messages
+=
+[
+{
+"role"
+:
+"user"
+,
+"content"
+:
+"Summarise this support request."
+,
+}
+],
+)
+print
+(response.choices[
+0
+].message.content)
+Using the EU endpoint determines where Requesty handles the request. The
+model
+value determines where inference happens. That is the first distinction a deployment team should write down.
+In the docs
+EU routing: base URLs and EU model filters
+Managed and custom routing policies
+Do not forget the systems around the gateway
+The complete data flow usually contains more than the gateway and the model:
+Application logs
+A vector database
+A retrieval or search service
+Object storage
+An application performance monitoring tool
+A SIEM
+A customer support platform
+An analytics warehouse
+A model provider's own logs or caches
+Requesty can enforce the path between the application and the model. You still need to assess the rest of the architecture. A RAG application with an EU gateway and a vector database in the United States does not have an end-to-end EU-resident data path.
+Why is an EU gateway only half the answer?
+By default, sending a request through an EU gateway does not mean the selected model runs in Europe. A request can follow this path.
+Application
+Requesty EU gateway, Frankfurt
+Global model endpoint
+Inference leaves the boundary
+The call to Requesty stayed in the EU. The inference did not.
+To prevent it, create an organisation-wide list of Approved Models and filter that list by region and data policy. Requesty checks every model request against the allowlist, routing policies may only select models the organisation has approved, and requests for anything else are rejected.
+How an EU deployment is identified depends on the provider. AWS Bedrock uses regions such as
+eu-central-1
+,
+eu-west-1
+and
+eu-north-1
+, Azure uses names such as
+francecentral
+and
+swedencentral
+, and Vertex has its own European deployments. Requesty exposes that metadata in the Model Library, so policies can be built against current region data rather than a static list maintained in application code.
+Enlarge
+Approved Models.
+Until a model is approved, every model is available by default. The quick-start presets turn an architectural preference into an organisation-wide allowlist in one action: EU Only, EU plus ZDR, US Only or ZDR Only.
+Click to enlarge.
+A residency policy only works if applications cannot bypass it. There is an important difference between guidance, configuration and enforcement.
+Engineering guidance
+Tells developers which endpoint to use. Depends on every team reading it.
+Application configuration
+Sets the endpoint in an environment variable or config file. Depends on every deployment being correct.
+Central enforcement
+Rejects any request that falls outside the approved policy. Depends on nothing else.
+Key message
+Residency should be enforced centrally, not left to individual application teams.
+Requesty enforces this at the organisation level. Restricting allowed Requesty regions to the EU means clients must use the matching regional domain, and requests arriving through the global domain or another region are rejected. Combined with an EU-only Approved Models list, that controls both sides of the request: which Requesty gateway an application can use, and which model deployments it can reach.
+What happens when the primary model fails?
+This is where residency designs usually break. A team selects an EU-hosted primary model carefully, then configures a generic global fallback for availability. Everything looks correct until the primary model times out.
+Primary model
+Fallback
+Result
+EU region
+EU region
+The EU-only policy holds
+EU region
+Global endpoint
+The stated boundary breaks during failure
+EU region
+No fallback
+Boundary holds, with lower availability
+Global endpoint
+EU region
+The normal path is already outside the boundary
+Requesty fallback policies try eligible models in order when a request hits an error, a rate limit or a timeout, and policies can filter targets by provider, region and data policy.
+Enlarge
+EU-only fallback policy.
+Every fallback target satisfies the same residency rule as the primary model, and there is no global catch-all at the end of the list. Live latency per target shows the availability cost of staying inside the boundary.
+Click to enlarge.
+Residency has to survive failure
+An EU-only policy needs to cover the primary model, every fallback, every load-balancing target, any automatic provider substitution, retry behaviour, disaster recovery routes and the manual runbook an engineer follows at three in the morning.
+Approved Models is the safety net underneath all of that, because a routing policy cannot select a model outside the organisation's approved set. Requesty rejects a request for a model outside the list on failover, load balancing and automatic routing, and does not substitute a different model, provider or hosting region.
+Enforcement is visible in the response. A request for a model outside the approved set is stopped by the router before any provider sees the data, and comes back as an HTTP 403.
+HTTP 403
+with
+error.origin: "router"
+and the message
+Provider blocked by policy
+. The router rejected the call, so no prompt content reached the provider. It is not retryable, which is the point: a failing request is the evidence that the boundary held.
+A custom policy also makes the intended behaviour easy to inspect.
+text
+Copy
+Policy: eu-production
+1. Primary:  Provider A, Frankfurt
+2. Fallback: Provider A, Ireland
+3. Fallback: Provider B, EU deployment
+4. Otherwise: fail the request
+Compare that with:
+text
+Copy
+Policy: global-availability
+1. Choose any available model
+2. Optimise for latency
+3. Use global fallback
+The second policy is useful for a public, non-sensitive workload. It should not serve a workload with a strict EU-only requirement.
+Residency breaks during failure
+EU primary times out, the policy falls through to a global model, and the request completes. Nothing alerts, because from the application's point of view it worked.
+Policy survives failure
+EU primary times out, an EU fallback is tried, and if every approved EU target is unavailable the request fails closed. The boundary holds and the failure is visible.
+In the docs
+Fallback policies
+Load balancing policies
+What data does Requesty store, and where?
+There are two categories to separate:
+Telemetry
+, which describes what happened.
+Payload data
+, which contains what the user and the model said.
+Conflating them produces vague answers such as "we store logs" or "we are zero retention". A useful assessment needs to be more specific.
+Data category
+Requesty behaviour
+Storage and control
+Request telemetry
+Always recorded. Model requested and used, provider, token counts, cost, latency and time to first token, status, timestamp, API key ID, request ID, tags and routing details including region and BYOK. Contains no prompt or response content.
+Stored in Frankfurt. Content-free billing telemetry is kept for 6 years for statutory accounting, in every configuration.
+Prompt and response content
+Stored only when logging is enabled on the key and the organisation has not enabled ZDR. Messages and responses are truncated before storage.
+Encrypted, in the EU, for up to 30 days on self-serve plans. Logging is a per-key setting.
+Raw request bodies
+Stored for debugging under the same condition as payload content.
+Encrypted object storage, governed by the same logging configuration.
+Payload under organisation-wide ZDR
+New prompt and response content is not stored. Logging and debugging are forced off on every key, and Requesty-side prompt caching is disabled.
+Requesty keeps operational telemetry and no request or response body.
+Payload created before ZDR
+ZDR applies to new requests. Historical entries with payload content remain accessible.
+Deleting history is a separate task.
+Data held by the model provider
+Determined by the provider, the deployment and your contract.
+Separate from Requesty's own storage policy.
+Requesty encrypts stored data with AES-256 and uses TLS 1.2 as a minimum, TLS 1.3 by default, in transit. Customer personal data stored by Requesty is stored in Frankfurt in all cases, whichever endpoint you call. The endpoint choice decides where routing, caching and logging happen.
+Enlarge
+Per-key logging.
+Logging is a property of the key, not of the account. An organisation can set the default for new keys and decide whether ordinary users may change it, so a workload that must not persist content cannot quietly turn it back on.
+Click to enlarge.
+Important distinction
+Zero data retention is a Requesty storage control. It does not change the retention, abuse monitoring or training policy of the upstream model provider, and it does not by itself restrict your approved models to zero-retention providers. Those are separate settings.
+Observability does not require storing every prompt
+Most security and compliance teams need to know that the policy operated. That is a metadata question.
+What a request record can prove without storing content
+request_id
+req_123
+timestamp
+2026-08-19T10:42:17Z
+team
+Customer Support
+policy
+eu-production
+requested_model
+policy/eu-production
+selected_model
+provider/model@eu-region
+gateway_region
+Frankfurt
+fallback_attempted
+no
+guardrail
+applied, 2 values masked
+status
+success
+None of that requires a permanent copy of the customer's message, the retrieved documents or the model's full response. It is a useful design principle well beyond Requesty: store enough evidence to prove the policy operated, and do not retain sensitive content merely because an observability product makes it easy.
+There is a real trade-off to record. Where logging is disabled or ZDR is enabled, Requesty holds no prompt or output content, and therefore cannot search for, extract, rectify or delete that content on your behalf when a data subject asks. That is a consequence of the configuration, and it is worth writing into your own data subject process before you turn ZDR on.
+In the docs
+Data privacy and zero data retention
+Live logs
+Usage analytics
+Request metadata and tagging
+Is customer data used for model training?
+There are two separate answers.
+Does Requesty train models on customer data?
+No. On a paid plan Requesty does not use customer prompts, outputs or tool call content to train, fine-tune, evaluate, benchmark or otherwise improve any model, whether its own or a third party's, and does not sell, rent, share or licence that content. That obligation is contractual, it survives termination, and it applies to every model in the catalogue.
+A small number of models in the catalogue are made available by their provider on terms where the provider retains prompts and outputs and uses them to train its models, in exchange for free access. Every one of those is free, no model Requesty charges for is one of them, and they are labelled as training-permitted in the product, in the model metadata returned by the API and in the model library. On a paid plan they are excluded for your organisation by default and Requesty rejects requests for them, whether or not you have configured Approved Models. Making them available takes a written request from an authorised administrator.
+Does the upstream model provider train on customer data?
+That depends on the provider, the endpoint, the plan and the contract.
+Requesty's Model Library exposes data policy metadata per model: data retention, whether data may be used for training, privacy notes, and provider and deployment information. That metadata reproduces the provider's own published position, which Requesty checks against their published terms and updates when it becomes aware of a change.
+Enlarge
+Model data policy as a routing attribute.
+Region, retention and training status are filters, not footnotes in a procurement document. Filter first, then approve, so the allowlist carries the decision instead of a spreadsheet.
+Click to enlarge.
+Processing layer
+Question to ask
+Requesty control
+Requesty
+Do you use our prompts or responses to train models?
+No, on every paid plan
+Model provider
+Does the selected endpoint retain or train on submitted data?
+Filter and approve models by data policy, or require model ZDR
+Your own provider account
+Do our own provider terms offer stronger protection?
+Use BYOK where supported
+Application
+Are prompts, retrieved documents or responses copied elsewhere?
+Governed by you, outside the gateway
+How do you make the policy technically enforceable?
+The strongest compliance control is usually the one an application team cannot switch off by accident.
+Objective
+Requesty control
+Evidence to retain
+Limit or your responsibility
+Route Requesty traffic through the EU
+EU gateway endpoint
+Gateway region in request telemetry
+Application and network config must use it
+Prevent use of non-EU models
+Approved Models filtered by region
+Approved model list and a rejected-request test
+You define what counts as an acceptable EU deployment
+Prevent bypass through another region
+Allowed Requesty regions restricted to EU
+A failed call to the global domain
+Enable at organisation level
+Prevent providers that retain or train
+Require model zero data retention
+The policy state and the provider breakdown
+Provider contracts remain separate
+Apply narrower rules per team
+Access Lists, groups and scoped API keys
+Group membership and key assignments
+You manage identities and access reviews
+Keep failovers inside the EU
+EU-only fallback and load-balancing policies
+Policy export and a failover test
+Every target has to be reviewed
+Minimise stored content
+Per-key logging or organisation-wide ZDR
+Privacy configuration and a content-free record
+Historical logs need separate deletion
+Reduce sensitive data in requests
+Guardrails
+Guardrail configuration and a masked test result
+Detection is imperfect and does not replace minimisation
+Restrict administrative change
+RBAC, groups and enterprise SSO
+Role assignments and identity provider logs
+You maintain the access lifecycle
+Investigate an incident
+Request telemetry and audit logs
+Request IDs, model, region, policy and status
+Define a suitable metadata retention period
+Stop a compromised application
+Revoke or rotate its API key
+Key lifecycle records
+You need an incident process
+Use your negotiated provider terms
+BYOK where supported
+Provider account and contract
+BYOK support varies by provider
+Approved Models gives you the organisation-wide allowlist. Access Lists narrow that list for a group or an individual key. RBAC, groups and enterprise SSO separate policy administration from routine application use.
+Enlarge
+Guardrails.
+Each guardrail runs in one of three modes: disabled, report or mask. Report is useful first, because it shows what a detector would have masked before it starts changing production traffic.
+Click to enlarge.
+Guardrails scan requests and responses for personal information, credentials and secrets, and financial data such as payment card and banking details. Because automated detection produces both false positives and false negatives, treat guardrails as one layer of the design rather than the whole privacy strategy.
+Separate policy ownership from application ownership
+The team building an application usually needs to use a key, call approved models, review its own usage and see errors and latency. That is not the same as being able to add a global model, disable the EU-only allowlist, change organisation-wide logging, enable a training-permitted provider or edit every production fallback.
+Role
+Typical permissions
+Application developer
+Use a scoped key and an approved policy
+Application owner
+Review usage, budgets and application-specific logs
+AI platform team
+Manage routing, fallbacks and model onboarding
+Security or privacy team
+Approve data policies, logging and sensitive workloads
+Organisation administrator
+Change organisation-wide settings and identity integration
+This is where an AI gateway becomes more than a convenience layer. It separates application code from organisation-wide policy.
+In the docs
+Approved Models
+Access Lists
+Groups
+Role-based access control
+Enterprise SSO
+Guardrails
+Where does the evidence come from?
+Configuration screenshots prove what a setting looked like on the day someone took the screenshot. A compliance review usually wants something harder: what the policy was, and what the traffic did under it, over a period.
+The Compliance page in Requesty answers both in one place. It shows each control's current policy next to what was observed over a selected period, and it generates a point-in-time report you can download as a PDF or as JSON.
+Enlarge
+The Compliance page.
+Current policy on the left, what the traffic did on the right. The report is explicit about what it is not: evidence generated from gateway data, not a certification, and it does not make an organisation compliant with any framework.
+Click to enlarge.
+Three things make this more useful than a screenshot folder.
+Policy next to behaviour
+Every control shows its current setting and the observed traffic for the period, so a claim and its evidence sit on the same row.
+A verifiable copy
+The report carries a payload SHA-256. Download the JSON, hash the payload, and you can confirm the copy in your evidence pack is the one Requesty generated.
+Stated limits
+The report names its own gaps: traffic evidence covers chat completions, requests predating guardrail verdicts report as not recorded, and counts are per provider attempt.
+The controls you can change from the same page
+The Compliance page is not only a report. The controls that decide the answers are editable in place, and each change is recorded in the audit log.
+Restricting allowed Requesty regions
+is the self-serve form of strict endpoint enforcement. Choose the regions that may serve your requests, and clients must then use the matching regional domain. Requests arriving through the global domain or another region are rejected, so residency no longer depends on every application being configured correctly. Changes take effect immediately for all traffic.
+Enlarge
+Allowed Requesty regions.
+Unrestricted is the default, which is why an organisation that believes it is EU-only should check this page first. Restricting to the EU is what turns a base URL convention into a server-side rule.
+Click to enlarge.
+Requesty zero data retention
+stops Requesty storing request and response content for the whole organisation, across every existing and future key, and overrides content logging configured on individual keys. Usage metadata such as model, token counts, cost and latency is still recorded. Enabling it is deliberately one-way: turning it off again takes a written request to Requesty.
+Enlarge
+Requesty zero data retention.
+An organisation-wide setting that per-key logging cannot override. Note what it does not claim: it governs Requesty's own storage, not what a model provider does with the request.
+Click to enlarge.
+Requiring model zero data retention
+is the control for the layer Requesty does not own. With it on, Requesty only routes to models whose providers neither retain request data nor use it for training, and rejects models that fail that test even when they are on your approved list. This is the setting that closes the gap between "we enabled ZDR" and "no provider in our path retains content".
+Enlarge
+Model zero data retention.
+Requesty ZDR and model ZDR are different controls for different layers. A team that enables the first and assumes the second has a gap in the middle of its request path.
+Click to enlarge.
+The provider side of the report answers the questions a reviewer asks next: how much traffic went to providers that retain or train, where the models that served it were hosted, whether requests used Requesty-managed credentials or your own keys under BYOK, what the guardrails found, and how many configuration changes were made by how many people.
+Enlarge
+After Requesty forwards the request.
+Hosting location and provider data practice are reported as observed traffic, not as an intention. A row reading Global 294,773 against EU 74,991 is the sort of finding a policy review exists to surface.
+Click to enlarge.
+Key message
+Enforcement and evidence are different jobs. Approved Models, region restriction and ZDR decide what can happen. The Compliance report is how you show a reviewer what did happen, over a period, in a copy they can verify.
+How do you configure an EU-resident deployment?
+This checklist is written for a production deployment rather than a proof of concept.
+1
+Define the boundary first
+Write down whether the requirement is EU gateway processing, EU inference, end-to-end EU residency or a broader sovereignty requirement.
+List the countries and regions that are permitted.
+Decide whether EEA locations outside the EU are acceptable.
+Decide whether non-EU-owned providers operating EU infrastructure are acceptable.
+Identify the personal, confidential or regulated data you expect in prompts and responses.
+Do not begin with model names. Begin with the boundary.
+2
+Point applications at the EU endpoint
+Configure the EU base URL in every production application.
+Keep API keys in an approved secrets manager.
+Remove global Requesty endpoints from production configuration templates.
+Confirm no network or proxy rule rewrites the endpoint.
+Restrict allowed Requesty regions to the EU where you need a hard boundary.
+3
+Approve only acceptable model deployments
+Filter the Model Library by EU region.
+Review data retention and training attributes.
+Add only acceptable regional deployments to Approved Models.
+Exclude ambiguous global endpoints.
+Record the provider, model, region and data policy decision for each one.
+4
+Create workload-specific Access Lists
+Create separate groups for workloads with different sensitivity.
+Attach narrower model lists to higher-risk teams or keys.
+Avoid a single unrestricted organisation-wide key.
+Give every production key an owner and an expiry process.
+5
+Build EU-only routing and fallback policies
+Choose an EU-region primary model.
+Add only EU-region fallback models.
+Review load-balancing targets.
+Remove global catch-all policies.
+Decide whether the request should fail closed when every EU target is unavailable.
+Test the failure path before launch.
+6
+Choose the storage policy
+Decide whether prompt and response logging is genuinely required.
+Disable payload logging on keys that do not need it.
+Enable organisation-wide ZDR where no Requesty payload storage is permitted.
+Review and delete historical logs separately where required.
+Agree the telemetry retention period you need.
+7
+Review the upstream provider policy
+Confirm the model endpoint's location.
+Confirm provider-side retention and whether submitted data may be used for training.
+Confirm whether abuse-monitoring exceptions apply.
+Review support and administrative access locations.
+Turn on the model zero data retention requirement where no provider in the path may retain content.
+Use your own provider account through BYOK where you need that contractual control.
+8
+Apply request and response guardrails
+Identify the sensitive data categories relevant to the workload.
+Run in report mode first, then move to mask.
+Test masking and false-positive behaviour with realistic examples.
+Decide what happens when detection is uncertain.
+Apply separate controls against prompt injection and tool abuse for agentic applications.
+Keep source documents out of prompts where they are not needed.
+9
+Restrict access to the control plane
+Configure SSO for administrative users.
+Assign least-privilege roles.
+Separate platform administrators from application developers.
+Use service accounts for applications rather than personal keys.
+Revoke unused and compromised keys promptly.
+Review privileged access on a schedule.
+10
+Complete the contractual review
+Accept the Requesty DPA and record when it took effect.
+Review the subprocessor list, both infrastructure and model providers.
+Review every model provider your organisation permits.
+Confirm the breach notification and deletion terms against your own policy.
+Record the international transfer mechanism that applies to your configuration.
+Connect all of it to your DPIA or vendor assessment.
+11
+Test, then keep the evidence
+Attempt to call a non-approved model.
+Attempt to use a Requesty endpoint outside your allowed regions.
+Trigger a primary-model failure and confirm every fallback stayed in the approved region set.
+Inspect the selected model and region in request telemetry.
+Confirm prompt and response bodies are absent under ZDR.
+Generate the Compliance report for the period and store it with the request IDs from your tests.
+Record the date, the tester and the outcome.
+How do you verify the configuration?
+Configuration screenshots are useful. Failed tests are stronger evidence. A deployment review should include both normal and adversarial tests.
+Test
+Action
+Expected result
+EU gateway
+Send a normal production request
+Processed through the EU endpoint, gateway region visible in telemetry
+Endpoint bypass
+Send the same request through another regional domain
+Rejected, once allowed regions are restricted to the EU
+Model bypass
+Request a non-approved or global model
+Rejected
+Primary failure
+Force a timeout or temporary failure
+The request moves only to an approved EU fallback
+Exhausted fallback
+Make every approved endpoint unavailable
+The request fails rather than using a global model
+Provider retention
+Request a model whose provider retains or trains
+Rejected, where model ZDR is required
+ZDR
+Send a distinctive test prompt
+Telemetry visible, prompt and response content absent
+Guardrail
+Submit synthetic PII or a test credential
+Configured values are reported or masked
+Access control
+Repeat the tests as a lower-privilege user or key
+Restricted settings and models stay inaccessible
+Provider review
+Inspect the selected model metadata
+Region and data policy match the approved record
+The evidence pack
+For a higher-risk workload, keep one compact pack:
+Architecture diagram
+Approved Models export
+Access List configuration
+Routing and fallback policy
+Logging or ZDR configuration
+Guardrail configuration
+Test results, with request IDs
+The Compliance report for the period, PDF or JSON with its payload hash
+The DPA and the date it took effect
+Subprocessor review
+Provider data policy review
+Owner and review date
+That is a great deal more useful than a statement that the system is hosted in Europe.
+How anwalt.de runs EU-only AI in production
+The design above is not hypothetical. Here is what it looks like at scale in a regulated market.
+Customer story
+|
+anwalt.de services AG
+anwalt.de operates two of the most established legal platforms in the German-speaking market. Legal content cannot leave EU regions, which rules out any default routing that might fall back to a US endpoint, and different legal tasks need different models. Their AI features run on EU-only routing through Requesty.
+2.45M
+Requests routed
+99.9998%
+Served in EU regions
+77B
+Tokens processed
+9
+Policies across 58 models
+Between late January and late June 2026 the platform served 2,454,707 requests through Requesty, with 99.9998% landing on EU regions across Google Vertex in europe-west, europe-north and europe-central, Anthropic on Bedrock in eu-west, eu-central and eu-north, and Azure OpenAI in France Central and Sweden Central.
+Three details are worth copying:
+Workloads call policies, not models.
+Applications request stable policy IDs such as
+summarizer1m
+, so a model can be swapped behind the policy without an application deployment. 58 distinct models were exercised behind 9 policies.
+Cost shaping rides on the same mechanism.
+The
+summarizer1m
+policy handles 81% of traffic on fast, low-cost models, and the premium reasoning policy is reserved for the small slice of requests that justify it. Regional pinning and cost control are the same control, not competing ones.
+Failover stayed inside the boundary.
+There was zero Requesty downtime across the deployment, and where individual providers had outages, failover kept the features online without leaving the EU.
+“
+Requesty became our default AI control plane. We control where data goes, which models run on which tasks, and what we spend, from one place. For a regulated business, that is exactly the layer we needed.
+”
+Rechtsanwalt Michael Friedmann
+·
+Vorstand, CLIO, anwalt.de services AG
+Read the full case study
+What does the Requesty DPA cover?
+Technical configuration and contractual protection should describe the same system. Here is what the Requesty DPA says, clause by clause, so you can check the two against each other.
+The DPA is Requesty's standard processor agreement under GDPR Article 28. It applies to every customer, takes effect on acceptance of the agreement and does not need a separate signature to bind. You are the controller and Requesty is the processor for personal data processed in providing the service. Where you are yourself a processor for a third-party controller, Requesty is your sub-processor. For account information, such as administrator names and billing records, both parties act as independent controllers.
+The residency clauses match the product
+The DPA states residency in two layers, and it says plainly that both are required for processing to stay inside the EEA end to end.
+The Requesty layer
+Customer personal data stored by Requesty is stored in Frankfurt in all cases. Where you use the EU endpoint, all Requesty-side processing, including request handling, routing, caching, logging, analytics and storage, happens exclusively in EEA data centres. Strict server-side enforcement rejects requests made to a non-EU endpoint, so residency does not depend on client-side configuration.
+The inference layer
+Where inference happens is determined by the model you select, not the endpoint you call. Using the EU endpoint does not by itself relocate inference into the EEA. To keep inference in the EEA you must restrict Approved Models to EEA-hosted deployments. Requesty publishes each model's hosting region and its provider's published position on retention and training.
+That second card is the whole argument of this guide, written into the contract.
+The clauses worth reading before you sign
+Question
+What the DPA commits to
+What happens on failover?
+Where you configure Approved Models, Requesty rejects any request for a model outside the list, including on failover, load balancing and automatic routing, and will not substitute a different model, provider or hosting region. Fallback operates only within the approved set.
+What does ZDR cover?
+Content is processed in transit only and not written to persistent storage, Requesty-side prompt caching is disabled, the setting is enforced server-side for the whole organisation and cannot be overridden by a key, user, project or request parameter, and Requesty confirms activation in writing.
+What does ZDR not cover?
+It governs Requesty's own processing only. It does not stop a model provider retaining or training on content. You restrict that by restricting Approved Models, not by enabling ZDR.
+Is anything trained on our data?
+No, on a paid plan. The no-training, no-model-improvement, no-sale obligation is contractual, survives termination, and applies to content sent to every model in the catalogue.
+How fast is breach notification?
+Without undue delay and in any event within 48 hours of Requesty becoming aware, to the security and privacy contacts you nominate, with the Article 33(3) information then known and further detail in phases.
+What happens to our data at the end?
+Deleted within 30 days of the end of the agreement without you having to ask, exportable in a machine-readable format if you ask before that window closes, encrypted backups roll off within a further 35 days, and deletion is certified in writing on request.
+Who else processes it?
+Infrastructure subprocessors and model providers are listed publicly, split into those engaged for every customer and those engaged only when you route to them. A provider you never route to processes nothing, and you narrow the list by configuring Approved Models.
+What notice do we get?
+At least 30 days before a subprocessor is added or replaced, with a right to object on reasonable data protection grounds. Requesty also notifies you when a model in your approved set changes hosting region, or when a provider changes its published retention or training position.
+What about government access?
+No disclosure to a public authority unless legally compelled. Where legally permitted, Requesty notifies you, challenges unlawful or overbroad requests, and limits disclosure to the minimum required.
+What security is committed?
+An ISO 27001-aligned ISMS, with the technical and organisational measures set out in a schedule, and a commitment not to reduce that level of protection during the term. Certification status is published at the Trust Centre, and Requesty makes no representation of certification beyond what is stated there.
+Can we audit?
+Once per 12-month period, third-party audit deliverables and security documentation under NDA, plus a summary of the most recent penetration test. Where that is not enough for your obligations, you may audit relevant controls on 30 days' notice.
+The technical and organisational measures schedule is specific rather than decorative. Production runs in Tier III facilities in Frankfurt with no Requesty-operated data centre. Encryption is AES-256 at rest and TLS 1.2 as a minimum with TLS 1.3 by default in transit, with keys in a managed KMS on a documented rotation. Prompt and output content is excluded from application logs and error traces. Production access is role-based and least privilege, through a bastion host, with SSO and mandatory MFA, no shared accounts, quarterly access reviews and revocation within 24 hours of a leaver. Access to customer prompt and output content is restricted to a named support group, requires a ticket recording the business reason, and is logged. Backups are encrypted, retained for 35 days and replicated to a second EEA region.
+International transfers
+Data stored by Requesty stays in Frankfurt whichever endpoint you use. Where you use the EU endpoint and restrict Approved Models to EEA-hosted deployments, no restricted transfer of prompt or output content arises at all. Where you use the EU endpoint but select a model hosted outside the EEA, a restricted transfer arises at the inference layer and the transfer clauses apply. Where you use a global endpoint, data remains stored in Germany but transient processing such as routing and caching may happen outside the UK and EEA.
+For the transfers that do arise, the DPA incorporates the European Commission Standard Contractual Clauses with the selections written out: Module 1 for account information as independent controllers, Module 2 where you are controller and Requesty processor, Module 3 where you are a processor and Requesty your sub-processor. The docking clause applies, sub-processor authorisation is general with 30 days' notice, and the SCCs are governed by the laws of Ireland with disputes before the Irish courts. For UK transfers the UK International Data Transfer Addendum version B1.0 is incorporated. Swiss transfers are read across to Switzerland with the FDPIC as competent authority. Requesty is not certified under the EU-US Data Privacy Framework and does not rely on it.
+Sensitive data has its own conditions
+Special category data under Article 9 and criminal conviction data under Article 10 are not expected in the standard configuration. They may be processed only where organisation-wide ZDR is enabled, you have a lawful basis and have completed any required assessment, and you have restricted Approved Models to providers whose published position is that they do not retain content. In every configuration, and regardless of ZDR, children's data, government identifiers and payment card data must not be transmitted.
+That clause is worth reading next to the guardrails configuration. The contract says do not send it; guardrails are the mechanism that helps you catch it when someone does.
+The DPA does not replace architecture
+A signed DPA does not tell an application which model it may call. An Approved Models list does not establish your lawful basis. A Frankfurt server does not answer every international access question. These controls have to agree with one another.
+Question
+Where the answer should appear
+What may Requesty process?
+The DPA and your product configuration
+Where does Requesty process it?
+EU endpoint documentation and your architecture
+Which providers may receive it?
+Approved Models and the subprocessor review
+What content may be retained?
+Logging or ZDR configuration, and the DPA
+How long is it retained?
+Product setting, contract and your retention policy
+Who may change the configuration?
+RBAC and your internal access process
+What happens during failure?
+Routing policy and test evidence
+What happened over the last quarter?
+The Compliance report
+What happens after termination?
+The contractual deletion and export provisions
+Administrative or support access from outside the EEA can matter to a transfer analysis even when the server is in Europe. That is one reason sovereignty assessments look at access and jurisdiction rather than storage location alone.
+Where does sovereign AI go further?
+An end-to-end EU-resident request path is measurable. Sovereign AI is less binary. Different buyers use the term for different combinations of EU processing, EU-controlled operations, EU ownership, protection from third-country legal access, customer-controlled encryption keys, model portability, open-weight models, independence from a single hyperscaler, EU-based support, supply chain continuity, and the ability to run without a foreign control plane.
+The European Commission's framework separates data and AI control from legal, operational, supply chain and technological sovereignty. That is a useful way to avoid reducing the topic to a data centre pin on a map.
+Sovereignty question
+What Requesty contributes
+What you still assess
+Where does the gateway process requests?
+The EU endpoint in Frankfurt
+The surrounding application infrastructure
+Where does inference happen?
+Region-aware model selection and enforcement
+The selected provider and deployment
+Can applications bypass the policy?
+Region restriction and Approved Models
+Your access and change management
+Can failure move data elsewhere?
+EU-only fallback policies
+Testing and operational procedure
+Is request content stored?
+Per-key logging and organisation-wide ZDR
+Provider-side retention and your own systems
+Can a provider retain or train on it?
+The model ZDR requirement and data policy filters
+Provider contracts
+Can sensitive content be reduced?
+Request and response guardrails
+Source data minimisation, and detection limits
+Can you change model provider?
+Multi-provider routing behind a standard interface
+Model compatibility, evaluation and contracts
+Is the whole supply chain EU-owned?
+Routing to approved EU options
+Requesty, cloud and provider ownership, assessed separately
+Do you control encryption keys?
+Provider credentials through supported BYOK
+Customer-managed storage encryption is a separate question
+Can the workload run with no external SaaS?
+Not answered by EU routing alone
+Needs a separate offline or self-hosted assessment
+Requesty Ltd is a UK company, the EU gateway runs on AWS infrastructure in Frankfurt, and you choose the upstream model provider. That combination supports an EU data residency requirement without automatically satisfying a procurement rule that every organisation in the supply chain must be EU-owned.
+So we would describe Requesty as a control layer for EU-resident and sovereign-oriented AI deployments. We would not describe it as a sovereignty label that overrides the characteristics of every provider behind it.
+Three practical deployment levels
+Level
+1
+EU gateway processing
+Adds:
+An EU-resident gateway. Inference may still happen elsewhere.
+Applications call the EU endpoint. Requesty processing and storage are EU-resident. Model inference goes wherever the requested model lives, which is fine for a public, non-sensitive workload and not enough for a regulated one.
+Level
+2
+End-to-end EU request residency
+Adds:
+Region restriction, EU-only Approved Models, EU-only fallbacks, and a deliberate storage policy.
+The gateway and the whole model path stay inside the configured EU boundary, on the failure path as well as the happy path, and the Compliance report shows it held over the period.
+Level
+3
+Sovereign-oriented architecture
+Adds:
+Legal, operational, supply chain and technology requirements that you define.
+EU-controlled application and data, the Requesty policy layer, EU-only approved providers, EU operational and support controls, EU logging and governance systems, and a documented exit and portability plan. This is a combination of Requesty plus your own, your cloud's and your providers' controls, not a product toggle.
+Is Requesty the right EU AI gateway for this use case?
+Strong fit
+You use more than one model or provider
+You want application code kept independent of provider-specific APIs
+You need models restricted centrally, not per team
+Different workloads need different regions and data policies
+Fallbacks have to stay inside an approved jurisdiction
+You need organisation-wide logging or ZDR controls
+You need a record of which provider, model and region served each request
+Application access and policy administration must be separate
+You want to change model provider without rewriting applications
+Needs a different architecture
+Fully air-gapped inference
+An entirely on-premises control and data plane
+EU ownership at every layer of the supply chain
+Customer possession of all model weights
+Operation with no external SaaS dependency at all
+Those are valid requirements. They are also broader than EU routing, and an AI gateway is the wrong tool to satisfy them.
+Frequently asked questions
+Does using Requesty's EU endpoint guarantee that all AI processing stays in the EU?
+No. It guarantees that Requesty processes the request through its EU infrastructure in Frankfurt. The selected model endpoint must also be in an approved EU region, and every fallback must follow the same rule. The endpoint controls the gateway layer, the model choice controls the inference layer.
+Where is Requesty's EU gateway hosted?
+On AWS in Frankfurt, Germany, in the eu-central-1 region. Customer personal data stored by Requesty is stored in Frankfurt in all cases, whichever endpoint you call.
+Can an application accidentally call a non-EU model?
+It can, unless the organisation enforces a model policy. Approved Models restricts the available model set, and restricting allowed Requesty regions to the EU rejects requests that arrive through another regional domain.
+Can a fallback send a request outside the EU?
+Yes, when a fallback policy contains a global or non-EU target. An EU-only policy should contain only approved EU deployments and should fail rather than use a target outside the boundary. With Approved Models configured, Requesty rejects out-of-list models on failover and load balancing too, and does not substitute a different provider or hosting region.
+Does Requesty store prompts and responses?
+It depends on your configuration. Payload content is stored when logging is enabled on the key and the organisation has not enabled zero data retention. Logging can be disabled per key, and organisation-wide ZDR stops new request and response content being stored at all. Content-free telemetry remains available in every configuration.
+Does Zero Data Retention delete historical logs?
+No. ZDR applies to new requests. Payload content stored before ZDR was enabled stays accessible and needs to be handled separately.
+Does Requesty train models on customer data?
+No. On a paid plan Requesty does not use prompts, outputs or tool call content to train, fine-tune, evaluate, benchmark or otherwise improve any model, and does not sell or licence it. Training-permitted models are free models offered on the provider's own training terms, are available only on the free plan, and are rejected for paid organisations unless an administrator asks for them in writing.
+Can Requesty detect personal data?
+Requesty guardrails scan requests and responses for personal information, credentials and secrets, and financial data, and can report or mask what they find. Automated detection produces false positives and false negatives, so test it against your own data and treat it as one layer rather than the whole privacy strategy.
+Does Requesty make an AI application GDPR compliant?
+No single tool can do that. Requesty provides the routing, storage, access, guardrail and evidence controls that support a compliant design. You still need a lawful basis, transparency, retention rules in your own systems, data subject handling and any DPIA the use case requires.
+Is Requesty a sovereign AI platform?
+Requesty is an enforcement layer for sovereign-oriented AI architectures. Full sovereignty depends on the application, the cloud, the model provider, the operating model, legal jurisdiction and your own definition of sovereignty. Requesty Ltd is a UK company running the EU service on AWS in Frankfurt, which supports an EU residency requirement without satisfying a rule that every supplier must be EU-owned.
+Does Requesty offer a DPA?
+Yes. The Requesty DPA covers processor obligations under GDPR Article 28, including instructions, confidentiality, security measures, subprocessors, breach notification within 48 hours, and deletion or return of data within 30 days of the end of the agreement.
+Can we use our own model provider account?
+Yes, through BYOK for supported providers, so traffic runs on your own provider credentials and contract. That does not mean you control Requesty's own storage encryption keys, which is a separate question.
+Keep reading
+EU routing
+EU base URLs, EU model filters and strict enforcement.
+Approved Models
+Organisation-wide allowlist and EU or ZDR presets.
+Fallback policies
+Ordered failover targets that stay inside your boundary.
+Data privacy and ZDR
+What is stored, per-key logging and zero data retention.
+Guardrails
+Detect and mask sensitive data in requests and responses.
+Access Lists
+Narrow the approved set for a team, key or workload.
+RBAC and SSO
+Separate policy administration from application use.
+Requesty DPA
+Processor terms, residency clauses and the SCC selections.
+Subprocessors
+Infrastructure subprocessors and model providers.
+EU AI Gateway
+The product page for EU-resident routing.
+Enforce your own EU boundary
+One integration. 600+ models. A policy you can prove.
+Get started free
+Speak to founders
+The AI gateway for production. 600+ models behind one OpenAI-compatible endpoint, with routing, caching and governance included.
+All systems operational
+Product
+Routing & failover
+Observability
+Spend management
+Integrations
+Governance
+Prompt library
+Pricing
+Free models
+Docs
+Solutions
+AI gateway
+Enterprise
+EU AI Gateway
+AI coding agents
+Startups
+Security
+Compare
+vs OpenRouter
+vs LiteLLM
+vs Portkey
+vs Helicone
+Company
+Guides
+Blog
+Rankings
+Careers
+Support
+Contact
+Community
+Discord
+Twitter / X
+LinkedIn
+YouTube
+©
+2026
+Requesty Ltd. All rights reserved.
+Privacy
+Terms
+DPA

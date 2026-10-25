@@ -1,0 +1,380 @@
+Quelle: Textauszug (PyMuPDF get_text, Seite für Seite) aus trainingsdaten-v4-1-2026-10-23.pdf, abgerufen von https://cdn.deepseek.com/policies/DeepSeek-V4.1-public-summary-of-training-content.pdf (direkt, verlinkt von https://cdn.deepseek.com/policies/en-US/model-algorithm-disclosure.html)
+Abruf: 2026-10-23 01:30:55 +0200
+Hinweis: Ankreuzfelder erscheinen als ☒ (angekreuzt) und ☐ (leer). Gegenprobe am Bild: trainingsdaten-v4-1-seite4-2026-10-23.png und trainingsdaten-v4-1-seite5-2026-10-23.png (Seiten 4 und 5, 90 dpi).
+
+
+1
+Public Summary of Training Content for DeepSeek-V4.1
+Version of the Summary:
+Last update:
+24/9/2026
+General information
+1. General information
+1.1. Provider identification
+Provider name and
+contact details:
+Hangzhou DeepSeek Artificial Intelligence Co., Ltd.Room 1201, Building Xi
+1, Galaxy International Building, No. 169 North Huancheng Road, Gongshu
+District, Hangzhou, Zhejiang, China.
+Authorised representative
+name and contact details:
+We have appointed Prighter Group with its local partners as our authorised
+representative in the European Union. Please visit:
+https://app.prighter.com/portal/17162496076
+1.2. Model identification
+Versioned model name(s):
+DeepSeek-V4.1(Flash)
+Model dependencies:
+DeepSeek V4.1(flash) is not a modification or a fine-tune of a prior
+model.The disclosures below regarding types and quantities of training data
+apply to DeepSeek-V4.1(flash) and all subsequent releases in the model
+lifecycle.
+Date of placement of the
+model on the Union
+market:
+10 September 2026
+1.3 Modalities, overall training data size and other characteristics
+Modality
+Select the
+modalities present
+in the training data,
+to the extent that
+they are identifiable
+Training data size
+For each selected modality, select the range within
+which the estimated total training data size for
+that modality falls. Dynamic datasets may be
+excluded from the estimation.
+Types of content
+For each selected modality, provide a
+general description of the type of content
+that has been included in the training data.
+☒Text
+☐Less than 1 billion tokens
+☐1billion to 10 trillions tokens
+☒More than 10 trillions tokens
+Publicly available internet information,
+licensed datasets, and diverse textual
+content including mathematical texts,
+source code, multilingual materials,
+long-form documents, scientific and
+technical materials, and text used for
+agentic and domain-specific training.
+☒Image
+☐Less than 1 million images
+☐1Million to1 billion images
+☒More than 1 billion images
+Publicly available internet images with
+associated alt text, interleaved image-
+text documents from web pages and
+PDFs, domain-specific datasets for
+visual grounding and pointing, optical
+character recognition (OCR) and long-
+tail knowledge, charts, image-code
+V1
+
+2
+pairs, and computer-use trajectories for
+multimodal agentic training.
+☐Audio
+☐Less than 10 000 hours
+☐10 000 to1 million hours
+☐More than 1 million hours
+N/A
+☐Video
+☐Less than 10 000 hours
+☐10 000 to1 million hours
+☐More than 1 million hours
+N/A
+☐Other
+Specify the modality and for each one
+indicate approximate size and unit of
+measurement
+N/A
+Latest date of data
+acquisition/collection for
+model training:
+The data used to train DeepSeek-V4.1(Flash) includes different datasets
+from varying time periods, with some data collected approximately no
+later than May 2025.
+Description of the linguistic
+characteristics of the overall
+training data:
+Other relevant characteristics
+of the overall training data:
+Additional comments
+(optional):
+N/A
+2. List of data sources
+2. List of data sources
+2.1. Publicly available datasets
+Have you used publicly available datasets to train the model?
+☒Yes
+☐No
+If yes, specify the modality(ies) of
+the content covered by the
+datasets concerned:
+☒Text ☒Image ☐Video ☐Audio
+☐Other
+List of large publicly available
+datasets:
+The training data includes text from Common Crawl and Stack
+Exchange. Prior to training, they are processed through quality
+screening, deduplication, language identification, and safety
+filtering.
+common crawl：https://commoncrawl.org/
+Multilingual, with strong coverage in Chinese and English, and no
+particular focus on other European languages. However, publicly
+accessible
+online
+content
+may
+incidentally
+include
+European
+languages.
+The training corpus is designed for a model that has multimodal
+understanding capabilities and outputs text. Its content covers written
+materials and images. Since text-only data and multimodal data are
+processed through different pipelines, we construct the final training
+corpus as the union of these two data sources. For overlapping samples,
+we replace the text-only versions with their multimodal versions. We
+describe the training data more fully and in greater detail in the
+DeepSeek V4.1 tech report（https://huggingface.co/deepseek-
+ai/DeepSeek-V4.1-
+Flash/blob/main/DeepSeek_V41_Tech_Report.pdf）.
+
+3
+Stack exchange：https://stackexchange.com/
+General description of other
+publicly available datasets not
+listed above:
+Other publicly available datasets include extensive multi-domain text
+and code corpora released by third parties through public
+repositories, online platforms, open data portals, and dedicated
+websites, encompassing long documents, scientific and technical
+materials, and source code. They also include multimodal image-text
+corpora and domain-specific visual datasets for fine-grained visual
+perception, OCR, and long-tail knowledge. Prior to training, they are
+processed through quality screening, deduplication, language
+identification, and safety filtering. These datasets cover diverse
+subject areas worldwide.
+Additional comments (optional):
+N/A
+2.2 Private non-publicly available datasets obtained from third parties
+2.2.1. Datasets commercially licensed by rightsholders or their representatives
+Have you concluded transactional commercial
+licensing agreement(s) with rightsholder(s) or with
+their representatives?
+☒Yes
+☐No
+If yes, specify the modality(ies) of the content covered
+by the datasets concerned:
+☒Text ☒Image ☐Video
+☐Audio ☐Other
+2.2.2. Private datasets obtained from other third parties
+Have you obtained private datasets from
+third parties that are not licensed as
+described in Section 2.2.1, such as data
+obtained from providers of private
+databases, or data intermediaries?
+☒Yes
+☐No
+If yes, specify the modality(ies) of the
+content covered by the datasets concerned:
+☒Text ☒Image ☐Video ☐Audio ☐Other
+If publicly known, list private datasets
+obtained from other third parties:
+N/A
+General description of non-publicly known
+private datasets obtained from third parties
+DeepSeek
+V4.1
+used
+some
+data
+obtained
+through
+collaborations with third parties; this data spans a wide
+range of domains and contexts.
+Additional comments (optional):
+N/A
+2.3 Data crawled and scraped from online sources
+Were crawlers used by the provider or
+on behalf of?
+☒Yes
+☐No
+If yes, specify crawler
+name(s)/identifier(s):
+DeepseekBot
+
+4
+2.4 User data
+Was data from user interactions with the
+AI model (e.g. user input and prompts)
+used to train the model?
+☒Yes
+☐No
+Was data collected from user
+interactions with the provider’s other
+services or products used to train the
+model?
+☐Yes
+☒No
+If yes, provide a general description of
+the provider’s services or products that
+were used to collect the user data:
+N/A
+Type of modality covered:
+☒Text ☒Image ☐Video ☐Audio
+☐Other
+Additional comments (optional):
+If user input is used to construct training data, we apply
+secure encryption, strict de-identification, and anonymization
+to make it cannot be linked to any specific individual. Users
+are also given the right to opt out. For information on how to
+opt out of AI training, please refer to the DeepSeek Privacy
+Purposes of the crawler(s):
+The crawler is used to collect publicly available online content
+for training DeepSeek' general-purpose AI models and
+improving the models’ capabilities and also serves to verify
+existing data by cross-referencing multiple sources and fact-
+checking information to reduce false content.
+General description of crawler
+behaviour:
+DeepSeek's crawler is designed to collect publicly accessible
+online content. It is not designed to circumvent captchas,
+paywalls, or password-protected websites. The crawler is
+designed to respect robots.txt instructions and other standard
+web protocols, where applicable. Crawled data is subject to
+preprocessing and filtering before being used for training.
+Period of data collection:
+Approximately 2024 — 2026.
+Comprehensive description of the type
+of content and online sources crawled:
+The crawled content includes a wide range of publicly
+accessible online content, forming a comprehensive text data set
+of diverse types and multiple languages. It includes general web
+pages, integrating news, community websites, academia, code,
+and specialized fields from government and institution, and has
+been filtered, cleaned, and deduplicated before training. For
+multimodal data, images are extracted together with their
+associated alt text from web pages, and interleaved image-text
+documents are built predominantly from web pages and PDFs.
+Type of modality covered:
+☒Text ☒Image ☐Video ☐Audio
+☐Other
+Summary of the most relevant domain
+names crawled:
+The most relevant crawling sources include authoritative media
+and news websites, government resources, technical
+repositories, academic websites, community and general interest
+websites, as well as corpora for some specific industries (such
+as healthcare, finance, and law).
+Additional comments (optional):
+N/A
+
+5
+Policy. For post-training, interaction data and feedback are
+returned on a voluntary basis by internal employees and
+external partners and are used to construct agent training
+environments.
+2.5 Synthetic data
+Was synthetic AI-generated data created by the
+provider or on their behalf to train the model?
+☒Yes
+☐No
+If yes, modality of the synthetic data:
+☒Text ☒Image ☐Video ☐Audio
+☐
+Other
+If yes, specify the general-purpose AI model(s)
+used to generate the synthetic data if available on
+the market:
+DeepSeek generated synthetic data using its own AI
+models, including DeepSeek V4 model.
+Information about other AI models, including
+provider’s own AI model(s) not available on the
+market, used to generate synthetic data to train the
+model to which this Summary applies:
+DeepSeek generates synthetic data using internal
+models. For instance, enriching data in areas where
+specialized training data is harder to obtain,
+whether by domain, language, task, or format.
+Beyond that, these models can be applied to create
+examples for instruction following, reasoning,
+coding, multi-modal understanding, safety
+alignment, and evaluation tasks. For multimodal
+dataset, we refrained from large-scale data
+synthesis; instead, we prioritized cleaning and
+utilizing the data in its native form to achieve the
+most direct and scalable visual knowledge
+compression.
+Additional comments (optional):
+N/A
+2.6 Other sources of data
+Have data sources other than those described in
+Sections 2.1 to 2.5 been used to train the model?
+☒Yes
+☐No
+If yes, provide a narrative description of these
+data sources and the data:
+An internal team of professionals undertakes the
+creation, labeling, and auditing of data across
+certain domains, and more domain experts are
+involved to construct fine-grained data quality
+evaluation dimensions.
+Additional comments (optional):
+N/A
+3. Data processing aspects
+3.1. Respect of reservation of rights from text and data mining exception or
+limitation
+Are you a Signatory to the Code of Practice for
+general-purpose AI models that includes
+commitments to respect reservations of rights from
+the TDM exception or limitation?
+☐Yes
+☒No
+
+6
+Describe the measures implemented before model
+training to respect reservations of rights from the
+TDM exception or limitation before and during
+data collection, including the opt-out protocols and
+solutions
+honoured
+by
+the
+provider
+or,
+as
+applicable, by third parties from which datasets
+have been obtained:
+DeepSeek places emphasis on compliance with
+laws and regulations related to intellectual
+property, trade secrets, and personal privacy. For
+publicly accessible web data, DeepSeek
+implements measures before and during data
+collection to respect applicable rights reservations
+and opt-out signals relevant to text and data
+mining; the crawler is designed to respect
+robots.txt instructions and other standard web
+protocols, where applicable, and is not designed to
+circumvent captchas, paywalls, or password-
+protected content.
+Additional comments (optional):
+N/A
+3.2 Removal of illegal content
+General description of measures taken:
+DeepSeek applies preprocessing and screening measures to
+screen for any proprietary information protected by intellectual
+property rights or trade secrets, or any content involving
+pornography, gambling, drugs, prejudice, discrimination, etc., in
+order to avoid or remove illegal content from the training data.
+These measures may include automatic filtering, manual
+inspection, keyword inspection, and classification model
+inspection methods.
+3.3. Other information (optional)
+Other relevant information about data
+processing (optional):
+N/A

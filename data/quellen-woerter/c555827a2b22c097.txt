@@ -371,11 +371,6 @@ Retail
 SOC
 SSO
 Sales
-Sales
-Sales
-Sales
-Sales
-Sales
 Scale
 Scale
 Security
@@ -968,6 +963,11 @@ right
 role-based
 rules
 runs
+sales
+sales
+sales
+sales
+sales
 sales
 sales
 scale

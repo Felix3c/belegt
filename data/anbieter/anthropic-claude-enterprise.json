@@ -1,0 +1,231 @@
+{
+  "id": "anthropic-claude-enterprise",
+  "name": "Anthropic Claude Enterprise (Unterschiede zum Team-Plan in den Anmerkungen)",
+  "kategorie": "assistent",
+  "kurzbeschreibung": "Unternehmensfassung der Claude-App (Claude for Work: Team- und Enterprise-Plan), nur mit Anthropic-eigenen Modellen; Speicherung in den USA, Chats standardmäßig unbefristet, keine Null-Speicherung für Chats.",
+  "stammdaten": {
+    "sitz": "USA (Anthropic, PBC); Vertragspartei für Kunden im EWR, in der Schweiz und im Vereinigten Königreich laut Commercial Terms: Anthropic Ireland, Limited (Irland)",
+    "land": "US",
+    "mutterkonzern": null,
+    "us_eigner": true,
+    "gegruendet": null,
+    "website": "https://claude.com",
+    "dpf": {
+      "status": "belegt",
+      "wert": false,
+      "quelle": "https://www.dataprivacyframework.gov/list",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Suche in der amtlichen DPF-Liste am 22.10.2026 mit den Suchwörtern Anthropic, Anthropic PBC und Anthropic Ireland (aktiv und alle Status) sowie Claude (alle Status): 0 Treffer. Gegenprobe mit derselben Abfrage (Microsoft, aktiv): 1 Treffer, die Abfrage funktioniert. Der Beschluss vom 10.07.2023 deckt Übermittlungen an Anthropic damit nicht. Anthropic nennt Standardvertragsklauseln: Privacy Center „Anthropic’s DPA with Standard Contractual Clauses (SCCs) is automatically incorporated into our Commercial Terms of Service“; DPA I.1: „the terms of the SCCs Module Two (controller to processor) and/or Module Three (processor to processor), as completed as described in Schedule 3 of this DPA, are hereby incorporated by reference and will be deemed to have been executed by the parties.“ Datenimporteur laut DPA: „The data importer is the Anthropic entity that executed the Agreement.“ Für Kunden im EWR ist das Anthropic Ireland, Limited; wie die Weitergabe an Anthropic, PBC und die US-Unterauftragnehmer abgesichert ist, sagt das DPA nicht ausdrücklich (ungeklärt). Kopie der Suchantworten + SHA-256 in belege/rechtsraum/dpf-anthropic-2026-10-22/. Am 25.10.2026 über die Schnittstelle der Liste von Hand neu abgefragt (Liste geändert am 25.10.): Angaben unverändert, Kopie + SHA-256 in belege/rechtsraum/dpf-2026-10-25/ (die Seite selbst lädt ihren Text erst im Browser, der automatische Quellenlauf sieht nur die Hülle)."
+    }
+  },
+  "modelle": [
+    {
+      "name": "Anthropic-eigene Claude-Modelle in Claude Enterprise (z. B. Claude Opus 5.5)",
+      "standort": "Speicherung in den USA; Inferenz standardmäßig auch außerhalb der USA (u. a. Europa), nur USA wählbar (nur nutzungsbasierte Enterprise-Pläne, Aufpreis 10 %); keine EU-Region",
+      "preis_input_1m_eur": null,
+      "preis_output_1m_eur": null,
+      "quelle": "https://support.claude.com/en/articles/15422948-enable-us-only-inference-for-your-organization",
+      "geprueft": "2026-10-23",
+      "status": "belegt",
+      "anmerkung": "Privacy Center (Stand „June 15, 2026“): „By default, we may route customer traffic to select countries in the US, Europe, Asia and Australia, unless otherwise agreed upon or at your instructions.“ und „Note that data is stored in the US.“ sowie „We may also process data for internal processes (such as safety-related review, product support, or incident response) in countries where we or our affiliates operate.“ Hilfe-Artikel US-only inference (Stand „June 15, 2026“): „When the setting is on, all inference for your organization runs on servers located in the United States.“ und „When the setting is off, inference may be routed to servers in other regions for speed and availability.“ Speicherort davon unabhängig: „Data storage. Where your organization's data is stored is separate from where inference runs.“ Nur für nutzungsbasierte Enterprise-Pläne: „If your organization is on a Team plan or a legacy seat-based Enterprise plan, the setting won't appear.“ Aufpreis: „When US-only inference is on, your organization's usage is billed at 1.1x standard API rates for Claude Opus 4.6, Claude Sonnet 4.6, and later models.“ Preis je Nutzer, nicht je Token: Enterprise „US$20/seat/month, billed annually, 20 seat minimum. Usage cost scales with model and task.“, Nutzung dazu zu API-Preisen („All usage across Claude, Claude Code, and Cowork is billed separately at standard API rates, based on what your team actually consumes.“). Team-Plan Standard-Sitz „$20“ „Per seat / month if billed annually. $25 if billed monthly.“ Nur USD angegeben, daher EUR-Felder null. Drittanbieter-Modelle werden nicht genannt.",
+      "backup_standort": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-23",
+        "anmerkung": "Anthropic nennt keinen eigenen Ort für Sicherungen. Gesagt wird nur allgemein: „Note that data is stored in the US.“ (Privacy Center) und im DPA, Anlage 2: „Anthropic’s business resiliency and continuity plan and procedures are tested annually and designed to maintain service availability and enable recovery from emergency situations or disasters.“ Commercial Terms E.4 erwähnen „copies in Recipient’s automated back-up systems“ ohne Ort."
+      },
+      "vorgeschaltete_filter": {
+        "wert": true,
+        "status": "belegt",
+        "quelle": "https://support.claude.com/en/articles/8106465-our-approach-to-user-safety",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Hilfe-Artikel „Our Approach to User Safety“ (allgemein für Claude, nicht nur ein Produkt): „Safety filters on prompts, which may block responses from the model when our detection models flag content as harmful.“ Usage Policy: „Anthropic’s Safeguards Team implements detection and monitoring to enforce our Usage Policy.“ Auch bei Null-Speicherung: „Under these arrangements, Anthropic still retains User Safety classifier results in order to enforce our Usage Policy.“ Fehlermeldung „Output blocked by content filtering policy“ laut Privacy Center vor allem gegen Wiedergabe vorhandener Texte: „they generally arise from Anthropic’s efforts to prevent Claude from being used to replicate or regurgitate pre-existing materials.“ Welche Klassifikatoren vor und welche nach dem Modell laufen, legt Anthropic nicht im Einzelnen offen. Covered Models stehen in Claude Enterprise ohne Zusatzschritt bereit: „These surfaces already operate with standard retention, so you'll have access to the new models as they become available.“"
+      }
+    }
+  ],
+  "vertrag": {
+    "avv": {
+      "wert": "https://www.anthropic.com/legal/data-processing-addendum",
+      "status": "belegt",
+      "quelle": "https://www.anthropic.com/legal/data-processing-addendum",
+      "geprueft": "2026-10-25",
+      "anmerkung": "„Data Processing Addendum“, „Effective Feb 24, 2025“ (direkt abgerufen 22.10.2026). Teil der Commercial Terms: „Data submitted through the Services will be processed in accordance with the Anthropic Data Processing Addendum“; Privacy Center: „When you accept Anthropic’s Commercial Terms of Service, you also accept our DPA.“ Kein eigenes Formular nötig. DPA B.1: „With respect to Customer Personal Data, Customer is the controller and Anthropic is Customer’s processor.“ Vertragspartner für den EWR laut Commercial Terms: „means Anthropic Ireland, Limited if Customer resides in the European Economic Area“; Recht Irlands, Schiedsort Dublin. Meldung von Sicherheitsvorfällen (G.1): „without undue delay, but in any event within 48 hours“. Änderung des DPA einseitig nur bei Gesetzesänderung: „Anthropic may amend this DPA from time to time on reasonable notice to Customer to the extent such changes are required due to changes in Applicable Data Protection Laws.“"
+    },
+    "subprozessoren": {
+      "wert": "https://trust.anthropic.com/subprocessors",
+      "status": "belegt",
+      "quelle": "https://trust.anthropic.com/subprocessors",
+      "geprueft": "2026-10-25",
+      "anmerkung": "DPA, Anlage 4: „Anthropic’s list of subprocessors is available at https://www.anthropic.com/subprocessors.“ Die Adresse leitet auf das Trust-Portal weiter; die Seite lädt per JavaScript, Kopie mit Chrome headless gerendert (22.10.2026). Liste mit „1-10 of 22 results“: Google Cloud Platform, Amazon Web Services, Microsoft Azure (Cloud-Infrastruktur, jeweils „Worldwide“), Cloudflare („Worldwide (Local to Customer)“), Stripe, WorkOS, Intercom, Nutun (Südafrika), Boldr (Kanada), Twilio, Iterable, Sentry, Sift, Arkose Labs, Brave Search, ElevenLabs (nur Claude for Work), Palantir (nur Claude for Government), TurboPuffer, Persona und Yoti (nur Claude Free/Pro/Max), hCaptcha, Parallel Web Systems. Kein anderer KI-Modellanbieter. Letzte Änderung laut Trust-Portal am 15.10.2026: „We've updated our subprocessor list with two additions:“ (Parallel Web Systems für Websuche, hCaptcha). DPA C.3: Mitteilung „prior to giving the Subprocessor access to Customer Personal Data“, Widerspruch „within fifteen (15) days of the date of such notice, or Customer is deemed to consent to the new Subprocessor.“ Eine feste Vorlaufzeit nennt das DPA nicht."
+    },
+    "tom": {
+      "wert": "https://www.anthropic.com/legal/data-processing-addendum",
+      "status": "belegt",
+      "quelle": "https://www.anthropic.com/legal/data-processing-addendum",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Die TOM stehen als Schedule 2 im DPA. Schedule 2 gilt zugleich als Annex II der Standardvertragsklauseln (SCC) und ist nach Bereichen gegliedert, z. B. Zugriffskontrolle, Personal und Logging. Zitat: „Schedule 2 - Technical and Organizational Measures Anthropic has implemented and will maintain technical and organizational measures“."
+    },
+    "subprozessoren_anzahl": {
+      "wert": 19,
+      "status": "belegt",
+      "quelle": "https://trust.anthropic.com/subprocessors",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Die Liste hat insgesamt 22 Einträge („1-10 of 22 results“), davon gelten 19 für Claude for Work (Team und Enterprise). Nicht dazu gehören Palantir FedRAMP (nur Claude for Government), Persona und Yoti (nur Claude Free/Pro/Max); ElevenLabs gilt nur hier („Product: Claude for Work“). Der Team-Plan nutzt dieselbe Liste, konzerninterne Gesellschaften stehen nicht darin."
+    },
+    "drittlaender": {
+      "wert": [
+        "Kanada",
+        "Südafrika",
+        "USA"
+      ],
+      "status": "belegt",
+      "quelle": "https://trust.anthropic.com/subprocessors",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Die meisten der 19 Einträge stehen mit „United States“, dazu Nutun („South Africa“) und Boldr („Canada“). GCP, AWS, Azure, Cloudflare und hCaptcha stehen nur mit „Worldwide“, weitere Länder sind also möglich. Kanada hat einen teilweisen Angemessenheitsbeschluss, die USA haben das Data Privacy Framework."
+    },
+    "training_opt_out": {
+      "wert": true,
+      "status": "belegt",
+      "quelle": "https://www.anthropic.com/legal/commercial-terms",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Commercial Terms B: „Anthropic may not train models on Customer Content from Services.“ Privacy Center (Stand „August 18, 2026“): „By default, we will not use your inputs or outputs from our commercial products (e.g. Claude for Work, Anthropic API, Claude Gov, etc.) to train our models.“ Ausnahmen: Feedback „If you explicitly report feedback or bugs to us (e.g. via our thumbs up/down feedback button), or otherwise choose to allow us to use your data, then we may use your chats and coding sessions to train our models.“ Feedback wird bis 5 Jahre gespeichert: „in our secured back-end for up to 5 years.“ Development Partner Program (Service Specific Terms E, nur nach Einschalten durch den Kunden): „If Customer enables Development Partner Mode, Anthropic may use the data that Customer submits to the Services (e.g., Customer Content) in connection with Anthropic’s products and services, including to train models.“"
+    },
+    "zero_data_retention": {
+      "wert": false,
+      "status": "belegt",
+      "quelle": "https://platform.claude.com/docs/en/manage-claude/api-and-data-retention",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Für die Chat-Oberfläche keine Null-Speicherung: „These interfaces are not ZDR-eligible.“ (gilt laut Leitfaden für Claude Teams und Claude Enterprise). Ausnahme nur Claude Code: „That offering is available only to qualified accounts on Claude Enterprise and requires separate enablement by Anthropic.“ Standard: „By default, data is retained indefinitely unless a custom retention period is set.“ Eigene Frist nur im Enterprise-Plan („This feature is available to Enterprise plan customers.“), Minimum: „The minimum retention period is 30 days, and each month is counted as 30 days.“ Ausgenommen von der eigenen Frist: „They do not apply to Claude Design, Claude Tag, Claude Managed Agents, or any other feature that runs Claude Code in the cloud.“ Projekte: „by default, projects are retained indefinitely, so chats inside projects are not deleted by your chat retention period.“ Gelöschte Chats: „Deleted from our back-end storage systems within 30 days“. Team-Plan: keine eigene Frist gefunden (unbelegt)."
+    },
+    "zweckbindung": {
+      "wert": true,
+      "status": "belegt",
+      "quelle": "https://www.anthropic.com/legal/data-processing-addendum",
+      "geprueft": "2026-10-25",
+      "anmerkung": "DPA B.2: „Unless required by applicable law to which Anthropic is subject, Anthropic will only process Customer Personal Data to provide or maintain the Services, and in compliance with Customer’s documented instructions (including as set out in the Agreement and this DPA).“ Zur Beschreibung der Verarbeitung gehört auch „verifying or maintaining the quality, security, and integrity of the Services; debugging to identify and repair errors that impair existing intended functionality.“ Offen: Privacy Center „If permitted in your contract with us, we may anonymize your organization’s data for research or statistical purposes, in which case we may retain this information for longer.“ (Umfang ungeklärt); markierte Inhalte laufen in die Missbrauchsabwehr (siehe Log-Zweck)."
+    },
+    "betroffenenrechte_traeger": {
+      "wert": "auftraggeber",
+      "status": "belegt",
+      "quelle": "https://www.anthropic.com/legal/data-processing-addendum",
+      "geprueft": "2026-10-25",
+      "anmerkung": "DPA D.1: „Anthropic will forward to Customer promptly any Data Subject Request received by Anthropic relating to the Customer Personal Data and may advise the Data Subject to submit their request directly to Customer.“ D.2: Anthropic leistet „reasonable and timely assistance“."
+    },
+    "log_frist": {
+      "wert": "Markierte Chats: Ein- und Ausgaben bis 2 Jahre, Klassifikator-Werte bis 7 Jahre; gelöschte Chats binnen 30 Tagen aus dem Backend; Inkognito-Chats binnen 30 Tagen; Feedback 5 Jahre; Activity Feed 6 Jahre",
+      "status": "belegt",
+      "quelle": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+      "geprueft": "2026-10-23",
+      "anmerkung": "Privacy Center (Stand „July 1, 2026“): „We retain inputs and outputs for up to 2 years and trust and safety classification scores for up to 7 years if your chat is flagged by our automated trust and safety systems as violating our Usage Policy.“ „Incognito chats are automatically deleted within 30 days unless flagged as a Usage Policy violation.“ Feedback: „we retain data associated with that submission for 5 years.“ Protokolle für den Kunden (Compliance API): Activity Feed „retains data for 6 years.“ Für Sicherheitsprotokolle intern nur „retained for appropriate timeframes“ (DPA, ohne Frist)."
+    },
+    "log_zweck": {
+      "wert": "Durchsetzung der Usage Policy und Sicherheit (intern); für Kunden Audit-Logs und Compliance API (Enterprise)",
+      "status": "belegt",
+      "quelle": "https://support.claude.com/en/articles/9797531-what-is-the-enterprise-plan",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Enterprise-Plan: „Audit logs: capture key information about user actions, system events, and data access.“ und „Compliance API: programmatically access Claude usage data including activity logs, chat histories, and file content, with filtering capabilities by user and time range.“ Intern: „Anthropic’s Safeguards Team implements detection and monitoring to enforce our Usage Policy.“ und „Anthropic logs employee access and actions within Anthropic’s systems, inclusive of those storing or maintaining Customer Data.“ Fristen der internen Protokolle nennt Anthropic nicht."
+    }
+  },
+  "zertifikate": [
+    {
+      "typ": "ISO 27001",
+      "status": "belegt",
+      "quelle": "https://integrator.schellman.com/public/v2/certificate/1279091-2/file",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Zertifikat selbst eingesehen (Schellman Nr. 1279091-2, ISO/IEC 27001:2022, Inhaber Anthropic, PBC, ausgestellt 13.11.2025, erstmals 07.01.2025, gültig bis 06.01.2028), öffentlich im Zertifikatsverzeichnis von Schellman; im Trust-Portal von Anthropic nur nach Zugangsanfrage. Der Geltungsbereich nennt Claude Enterprise (im Zertifikat „Claude for Work (Team and Enterprise)“).",
+      "anwendungsbereich": {
+        "wert": "Claude for Work (Team und Enterprise), Claude Development Platform, Claude Code",
+        "status": "belegt",
+        "quelle": "https://integrator.schellman.com/public/v2/certificate/1279091-2/file",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Zertifikat: „The scope of the ISO/IEC 27001:2022 certification is limited to the information security management system (ISMS) supporting the design, development, deployment, and operation of Anthropic’s AI services and products and in accordance with the statement of applicability, version 1.4, dated July 31, 2025. The in-scope products and services include the following: … Claude Development Platform, Claude for Work (Team and Enterprise), Claude Code, AI Research & Development activities supporting the above services“. Standort San Francisco (500 Howard Street)."
+      },
+      "zertifizierer": {
+        "wert": "Schellman Compliance, LLC (Tampa, USA)",
+        "status": "belegt",
+        "quelle": "https://integrator.schellman.com/public/v2/certificate/1279091-2/file",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Zertifikat Nr. 1279091-2 (Version 2), öffentlich im Zertifikatsverzeichnis von Schellman (www.schellman.com/certificate-directory, Abruf 25.10.2026): „The Certification Body of Schellman Compliance, LLC hereby certifies that the following organization operates an Information Security Management System that conforms to the requirements of ISO/IEC 27001:2022“, Inhaber „Anthropic, PBC“, unterzeichnet von Danny Manimbo, Principal."
+      },
+      "akkreditiert_dakks": {
+        "wert": false,
+        "stelle": "UKAS",
+        "stelle_ea_mla": true,
+        "status": "belegt",
+        "quelle": "https://www.ukas.com/download-schedule/8685/ManagementSystems",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Nicht DAkkS, aber akkreditiert durch UKAS (EA-MLA, gleichwertig anerkannt): Das Zertifikat trägt das UKAS-Zeichen 8685 und zusätzlich das ANAB-Zeichen. UKAS Schedule of Accreditation 8685, „Schellman Compliance, LLC“, Issue No 013 vom 31.10.2025 (Abruf 25.10.2026), nennt „Information Security Management Systems (ISMS) to ISO/IEC 27001:2022“ nach ISO/IEC 17021-1 und ISO/IEC 27006-1:2024. ANAB-Verzeichnis (Abruf 25.10.2026): „Schellman-MS-3780 - Schellman Compliance, LLC“, akkreditiert u. a. für ISO/IEC 27001."
+      }
+    },
+    {
+      "typ": "ISO/IEC 42001",
+      "status": "belegt",
+      "quelle": "https://integrator.schellman.com/public/v2/certificate/1806475-2/file",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Zertifikat selbst eingesehen (Schellman Nr. 1806475-2, ISO/IEC 42001:2023, Inhaber Anthropic, PBC, ausgestellt 13.11.2025, erstmals 06.01.2025, gültig bis 05.01.2028), öffentlich im Zertifikatsverzeichnis von Schellman; im Trust-Portal nur nach Zugangsanfrage. Der Geltungsbereich nennt Claude Enterprise (im Zertifikat „Claude for Work (Team and Enterprise)“).",
+      "anwendungsbereich": {
+        "wert": "Claude-Modelle über Claude for Work, Claude Development Platform und Claude Code",
+        "status": "belegt",
+        "quelle": "https://integrator.schellman.com/public/v2/certificate/1806475-2/file",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Zertifikat: „The scope of the ISO/IEC 42001:2023 certification is limited to the artificial intelligence management system (AIMS) supporting the development and provision of AI services and products, in the role of AI Producer and AI Provider, and in accordance with the statement of applicability, version 1.4, dated July 31, 2025. … Claude large language models and their deployments through Claude Development Platform, Claude for Work, Claude Code …“. Standort San Francisco (500 Howard Street)."
+      },
+      "zertifizierer": {
+        "wert": "Schellman Compliance, LLC (Tampa, USA)",
+        "status": "belegt",
+        "quelle": "https://integrator.schellman.com/public/v2/certificate/1806475-2/file",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Zertifikat Nr. 1806475-2 (Version 2), öffentlich im Zertifikatsverzeichnis von Schellman (Abruf 25.10.2026): „The Certification Body of Schellman Compliance, LLC hereby certifies that the following organization operates an Artificial Intelligence Management System that conforms to the requirements of ISO/IEC 42001:2023“, Inhaber „Anthropic, PBC“, unterzeichnet von Danny Manimbo, Principal. Deckt sich mit Anthropics Meldung vom 13.01.2025."
+      },
+      "akkreditiert_dakks": {
+        "wert": false,
+        "stelle": "ANAB (USA)",
+        "stelle_ea_mla": false,
+        "status": "belegt",
+        "quelle": "https://anabdirectory.remoteauditor.com/",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Nicht DAkkS, aber akkreditiert durch ANAB (ANSI National Accreditation Board, USA; IAF-MLA, gleichwertig anerkannt). Das Zertifikat trägt nur das ANAB-Zeichen, kein UKAS-Zeichen (UKAS-Umfang 8685 nennt nur ISO/IEC 27001). ANAB-Verzeichnis der Zertifizierungsstellen (Suche „Schellman“, Norm ISO/IEC 42001, Abruf 25.10.2026): „Schellman-MS-3780 - Schellman Compliance, LLC“, „Accredited To: … ISO/IEC 27001, ISO/IEC 27701, ISO/IEC 42001“."
+      }
+    },
+    {
+      "typ": "SOC 2 Type 2",
+      "status": "beansprucht",
+      "quelle": "https://trust.anthropic.com/",
+      "geprueft": "2026-10-25",
+      "anmerkung": "Privacy Center: „SOC 2 Type I & Type II“. Trust-Portal listet „[Anthropic] 2025 Type 2 SOC 2 and CSA STAR L2 Report.pdf“ und Bridge Letters bis „(Oct 2026 Update)“; nur nach Zugangsanfrage, nicht eingesehen. DPA F.1: Berichte „Upon Customer’s written request“.",
+      "anwendungsbereich": {
+        "wert": "Claude Enterprise",
+        "status": "beansprucht",
+        "quelle": "https://trust.anthropic.com/",
+        "geprueft": "2026-10-25",
+        "anmerkung": "Haken bei SOC 2 Type 2 in der Zeile „Claude Enterprise“ der Trust-Portal-Übersicht. Bericht nicht eingesehen."
+      },
+      "zertifizierer": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-23",
+        "anmerkung": "Prüfer im sichtbaren Text nicht genannt."
+      },
+      "akkreditiert_dakks": {
+        "wert": null,
+        "status": "unbelegt",
+        "quelle": null,
+        "geprueft": "2026-10-23",
+        "anmerkung": "SOC 2 ist ein US-Prüfbericht (AICPA), keine akkreditierte Zertifizierung."
+      }
+    }
+  ],
+  "iso_42001": {
+    "status": "belegt",
+    "wert": true,
+    "zertifizierer": "Schellman Compliance, LLC (Tampa, USA), ANAB-akkreditiert",
+    "anwendungsbereich": "Claude-Modelle über Claude for Work, Claude Development Platform und Claude Code",
+    "quelle": "https://integrator.schellman.com/public/v2/certificate/1806475-2/file",
+    "geprueft": "2026-10-25",
+    "anmerkung": "Zertifikat Nr. 1806475-2 (ISO/IEC 42001:2023, Inhaber Anthropic, PBC, ausgestellt 13.11.2025, gültig bis 05.01.2028), öffentlich im Zertifikatsverzeichnis von Schellman (Abruf 25.10.2026); im Trust-Portal nur nach Zugangsanfrage. Geltungsbereich: „The scope of the ISO/IEC 42001:2023 certification is limited to the artificial intelligence management system (AIMS) supporting the development and provision of AI services and products, in the role of AI Producer and AI Provider, and in accordance with the statement of applicability, version 1.4, dated July 31, 2025. … Claude large language models and their deployments through Claude Development Platform, Claude for Work, Claude Code …“. Standort San Francisco (500 Howard Street)."
+  },
+  "ai_act": [],
+  "geprueft": "2026-10-23"
+}

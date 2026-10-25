@@ -1,0 +1,218 @@
+Quelle: https://www.requesty.ai/eu
+Abruf: 2026-10-23 ~00:30 UTC (curl, HTTP 200), Textauszug aus HTML (ganze Seite, Skripte entfernt), belegbar.eu
+
+EU AI Gateway: GDPR-Compliant LLM API with EU Data Residency | Requesty
+Product
+Solutions
+Models
+Rankings
+Customers
+Pricing
+Resources
+Docs
+Sign in
+Get started free
+EU Data Residency
+The European
+AI Gateway
+Route Claude, GPT, Gemini and hundreds of other models through EU-region endpoints. Hosted in Frankfurt. Zero retention available. GDPR compliant. OpenAI SDK compatible.
+Get started
+Speak to founders
+https://router.eu.requesty.ai/v1
+1,200+
+EU customers
+0
+Data retention
+99.99%
+Uptime
+8ms
+Latency
+Trusted by teams at
+Built for EU compliance from day one
+Enterprise-grade AI gateway with full European data residency. No compromises on performance or security.
+EU data residency
+All data hosted exclusively in Frankfurt, Germany (AWS eu-central-1). No data ever leaves the European Union.
+Zero data retention
+Requests are proxied in real-time. Nothing is stored, logged, or cached after delivery. We never train on your data.
+GDPR compliant
+Full GDPR compliance with DPA on request. Complete audit logging available for enterprise customers.
+Encryption & privacy
+TLS 1.3 in transit, AES-256 at rest. PII detection and scrubbing. Prompt injection protection built-in.
+OpenAI SDK compatible
+One line to switch. Change your base_url to our EU endpoint and use your Requesty API key. Zero code changes.
+All major providers
+Anthropic, Azure OpenAI, Google Vertex AI, AWS Bedrock, Mistral, and Nebius. All routed through Frankfurt.
+EU data residency, per model family
+Every major model family has EU-region deployments. See which models, regions and prices are available for each.
+Claude
+with EU data residency
+Opus, Sonnet & Haiku on Bedrock and Vertex EU regions
+OpenAI GPT
+with EU data residency
+GPT-5 & GPT-4.1 on Azure France, Sweden and UK
+Gemini
+with EU data residency
+Gemini Flash on Vertex AI EU regions
+Mistral
+with EU data residency
+European models on EU-hosted infrastructure
+EU compliance
+Feature
+Requesty EU
+Direct provider
+EU-only data processing
+Frankfurt
+US default
+Zero data retention
+Logs stored
+GDPR compliant
+DPA available
+Varies
+PII scrubbing
+Built-in
+Prompt injection protection
+Gateway features
+Feature
+Requesty EU
+Direct provider
+Multi-provider routing
+600+ models
+Response caching
+60% savings
+Automatic failover
+Rate limit handling
+Cost tracking & analytics
+Real-time
+Setup & integration
+Feature
+Requesty EU
+Direct provider
+Migration effort
+1 line change
+SDK rewrite
+OpenAI SDK compatible
+Single EU endpoint
+Per-provider setup
+Free to get started
+Custom invoicing (EUR)
+One line to EU compliance
+OpenAI SDK compatible. Switch your AI infrastructure to EU in seconds.
+main.py
+from
+openai
+import
+OpenAI
+# Initialize with EU Gateway
+client
+=
+OpenAI
+(
+base_url
+=
+"
+https://router.eu.requesty.ai/v1
+"
+,
+api_key
+=
+"your-requesty-key"
+)
+# All requests routed through Frankfurt
+response
+=
+client.chat.completions
+.
+create
+(
+model
+=
+"claude-sonnet-5"
+,
+messages
+=
+[
+{
+"role"
+:
+"user"
+,
+"content"
+:
+"Hello!"
+}
+]
+)
+Frequently asked questions
+Everything you need to know about EU data residency with Requesty.
+Where is my data hosted and processed?
+All data is hosted, stored, and processed exclusively in Frankfurt, Germany (AWS eu-central-1). No data ever leaves the European Union. Our entire infrastructure stack runs within EU borders.
+Is Requesty DSGVO-konform? (GDPR-compliant in Germany)
+Yes. Requesty is fully DSGVO/GDPR-compliant. The EU gateway runs entirely in Frankfurt with zero data retention. We offer a DPA (Auftragsverarbeitungsvertrag) covering Article 28 processor obligations. Unlike OpenRouter, which routes through US infrastructure, Requesty keeps all AI traffic within the EU.
+What is the best GDPR-compliant AI gateway for European companies?
+Requesty is a GDPR-compliant AI gateway hosted in Frankfurt, Germany. It routes requests to Claude, GPT, Gemini, and Mistral through EU-region endpoints with zero data retention. Features include automatic failover, cost optimization, PII scrubbing, and enterprise governance. One API key replaces separate accounts with each provider.
+Is there a European alternative to OpenRouter?
+Yes. Requesty is an EU-hosted AI gateway: the routing layer runs in Frankfurt, zero data retention is available so request and response bodies are never persisted, and you can route to EU-region deployments of Claude, GPT, Gemini and Mistral. Both expose an OpenAI-compatible API, so migrating is a base-URL and API-key change.
+Does Anthropic offer EU data residency for Claude?
+Not through its first-party API. EU data residency for Claude is available through cloud deployments: AWS Bedrock EU regions (Frankfurt, Ireland, Paris, Stockholm) and Google Vertex AI EU regions, all routable through Requesty with one OpenAI-compatible API.
+Can I run OpenAI GPT models with EU data residency?
+Yes, via Azure OpenAI EU regions. GPT-5, GPT-5 Mini and the GPT-4.1 family run in France Central, Sweden Central and UK South, routable through the Requesty EU gateway without an Azure subscription.
+What is the fastest AI endpoint with EU data residency?
+The Requesty EU gateway adds roughly 8ms of routing latency in Frankfurt and connects to EU-region model deployments directly: Bedrock eu-central-1, Azure France Central and Sweden Central, Vertex EU regions. Model inference speed depends on the model you pick; the gateway overhead stays in single-digit milliseconds.
+Do you store or retain any of my data?
+No. Requesty operates with zero data retention. Requests are proxied to the model provider in real-time and nothing is stored, logged, or cached after delivery. We never train on your data.
+Is Requesty GDPR compliant? Do you offer a DPA?
+Yes. Requesty is fully GDPR compliant and offers a Data Processing Agreement covering Article 28 processor obligations, email sales@requesty.ai to request one. Complete audit logging is available, and our infrastructure is designed from the ground up for EU data residency.
+Can I get custom invoicing for my company?
+Absolutely. We support custom invoicing, PO numbers, and flexible billing cycles tailored to your procurement process. We can invoice in EUR and accommodate enterprise billing requirements. Contact our team to set this up.
+Which AI models are available through the EU gateway?
+We support all major model providers through EU-based endpoints including Anthropic, Azure OpenAI, Google Vertex AI, AWS Bedrock, Mistral, and Nebius. All traffic is routed exclusively through our Frankfurt infrastructure.
+How do I migrate from OpenAI or another provider?
+It takes one line of code. Simply change your base_url to our EU endpoint and use your Requesty API key. Our gateway is fully OpenAI SDK compatible.
+What security features are included?
+Every request passes through our security layer which includes PII detection and scrubbing, prompt injection protection, topic restriction policies, and custom regex patterns. These guardrails are configurable per team or project.
+Run your AI in the EU
+Frankfurt endpoint, DPA on request, zero data retention available.
+Get started free
+Speak to founders
+The AI gateway for production. 600+ models behind one OpenAI-compatible endpoint, with routing, caching and governance included.
+All systems operational
+Product
+Routing & failover
+Observability
+Spend management
+Integrations
+Governance
+Prompt library
+Pricing
+Free models
+Docs
+Solutions
+AI gateway
+Enterprise
+EU AI Gateway
+AI coding agents
+Startups
+Security
+Compare
+vs OpenRouter
+vs LiteLLM
+vs Portkey
+vs Helicone
+Company
+Guides
+Blog
+Rankings
+Careers
+Support
+Contact
+Community
+Discord
+Twitter / X
+LinkedIn
+YouTube
+©
+2026
+Requesty Ltd. All rights reserved.
+Privacy
+Terms
+DPA

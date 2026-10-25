@@ -589,6 +589,8 @@ CPU,
 Careers
 Cases
 Cases
+Cases
+Cases
 Cassandra
 Catalogue
 Catalogue
@@ -689,6 +691,7 @@ Changelog
 Changelog
 Changelog
 Check
+Choose
 Choose
 Choose
 Choose
@@ -1095,6 +1098,8 @@ Europe
 Europe.
 European
 European
+European
+European
 Everything
 Everything
 Everything
@@ -1291,6 +1296,10 @@ Hosting
 Hosting
 Hosting
 Hosting
+How
+How
+How
+How
 How
 How
 How
@@ -1577,6 +1586,8 @@ Metrics
 Metrics,
 Microsoft
 Microsoft
+Migration
+Migration
 Model
 Model
 Module
@@ -1592,6 +1603,8 @@ Monitor,
 More
 More
 Multi-cluster,
+Multiple
+Multiple
 Multisites
 Multisites
 My
@@ -1842,6 +1855,7 @@ OVHcloud
 OVHcloud
 OVHcloud
 OVHcloud
+OVHcloud
 OVHcloud,
 OVHcloud-managed
 OVHcloud.
@@ -1851,10 +1865,13 @@ OVHcloud’s
 Object
 Object
 Object
+Object
+Object
 Observability
 Observability
 Observability
 Observability
+Offline
 On-Prem
 On-Prem
 On-demand
@@ -2124,6 +2141,7 @@ Rancher
 Rancher
 Rancher
 Ready
+Reclaim
 Reduce
 Redundant
 Reference
@@ -2216,6 +2234,8 @@ Roadmap
 Roadmap
 Roubaix,
 Run
+S3
+S3
 S3-compatible
 S3-compatible
 SA
@@ -2316,6 +2336,7 @@ Secret
 Secret
 Secret
 Secrets,
+Secure
 Secure
 Secure
 Secure
@@ -2462,6 +2483,8 @@ Storage
 Storage
 Storage
 Storage
+Storage
+Storage
 Storage,
 Storage,
 Storage,
@@ -2579,6 +2602,8 @@ Units
 Unlimited
 Up
 Usage
+Use
+Use
 Use
 Use
 Use
@@ -2798,6 +2823,8 @@ a
 a
 a
 a
+a
+a
 about
 about
 above
@@ -2850,6 +2877,7 @@ advanced
 advice,
 affordable
 affordable
+against
 against
 against
 against
@@ -2941,6 +2969,8 @@ analysis
 analysis),
 analysis,
 analytics
+and
+and
 and
 and
 and
@@ -3247,6 +3277,8 @@ backbone.
 backup
 backup
 backup
+backups
+backups
 balance
 balance
 base
@@ -3374,6 +3406,8 @@ can
 can
 can
 can
+can
+can
 cancel
 cancel
 cannot
@@ -3381,6 +3415,7 @@ cannot
 capabilities
 capacity
 captioning.
+case
 case.
 cases
 cases
@@ -3402,10 +3437,13 @@ charts
 chatbots
 choose
 claim.
+class
 class=&quot;odss-dropdown__content&quot;&gt;&lt;/div&gt;
 class=&quot;odss-dropdown__content&quot;&gt;&lt;/div&gt;
 class=&quot;odss-dropdown__content&quot;&gt;&lt;/div&gt;
 class=&quot;odss-dropdown__content&quot;&gt;&lt;/div&gt;
+classes,
+classes,
 classifying
 clear
 click
@@ -3438,6 +3476,8 @@ cloud
 cloud,
 cloud-native
 cloud.
+cloud?
+cloud?
 clusters
 code
 code
@@ -3464,6 +3504,8 @@ companies
 companies).
 company
 company
+company&#x27;s
+company&#x27;s
 company,
 compensation
 compensation.
@@ -3529,6 +3571,7 @@ control
 control
 control
 control
+control
 control,
 control,
 control,
@@ -3548,6 +3591,7 @@ cost
 cost
 cost
 cost-effective
+costs
 costs
 course
 courts.
@@ -3591,7 +3635,13 @@ customers’
 customers’
 customisable
 customise
+cyberattacks?
+cyberattacks?
 dashboards
+data
+data
+data
+data
 data
 data
 data
@@ -3619,6 +3669,7 @@ data,
 data.
 data.
 data.
+data:
 database
 databases
 databases
@@ -3634,6 +3685,7 @@ dedicated,
 deducted
 default
 default
+defense
 deferred
 defined
 defined
@@ -3760,6 +3812,7 @@ event
 event
 event-driven
 events,
+every
 every
 everyone.
 everything,
@@ -3910,6 +3963,7 @@ for
 for
 for
 for
+for
 force,
 form
 formality
@@ -3934,6 +3988,9 @@ free
 free
 free
 free,
+from
+from
+from
 from
 from
 from
@@ -4034,6 +4091,7 @@ hub
 hub
 hundreds
 hybrid
+hyperscalers
 i.e.
 ideal
 ideal
@@ -4248,6 +4306,7 @@ landing
 landing
 landing
 large
+last
 latency
 launch
 launch
@@ -4282,6 +4341,7 @@ limited
 limits
 limits
 line
+line
 linked
 linked
 linked
@@ -4300,6 +4360,7 @@ logs
 logs,
 long-term
 long-term
+loss
 loss,
 loss,
 lower
@@ -4373,6 +4434,9 @@ messaging
 method
 method
 metrics
+migrate
+migrate
+migrate
 millions
 minimal
 minute
@@ -4586,6 +4650,8 @@ of
 of
 of
 of
+of
+of
 offer
 offer
 offer
@@ -4665,6 +4731,8 @@ one
 one
 one
 one
+one
+one
 online
 online
 online
@@ -4689,6 +4757,7 @@ optimal
 optimise
 optimise
 optimised
+optimize
 option
 option
 option
@@ -4928,6 +4997,8 @@ projects
 projects
 property
 protect
+protect
+protect
 protected
 protected
 protected
@@ -4978,6 +5049,7 @@ range
 ranges
 ranges
 ranges
+ransomware
 rarely
 rate
 rates
@@ -5058,6 +5130,7 @@ result,
 retention:
 revolution
 rewriting
+right
 right
 right
 right
@@ -5212,6 +5285,8 @@ solutions
 solutions
 solutions
 solutions
+solutions
+solutions
 soon
 soon
 soon
@@ -5251,6 +5326,8 @@ started
 started?
 startup
 still
+storage
+storage
 storage
 storage
 storage
@@ -5326,6 +5403,7 @@ that
 that
 that
 that
+the
 the
 the
 the
@@ -5567,6 +5645,11 @@ to
 to
 to
 to
+to
+to
+to
+to
+to
 today
 today
 token-based
@@ -5591,6 +5674,7 @@ train
 transactional
 transcription
 transcription
+transfer
 transferred
 transferred
 transparent
@@ -5616,6 +5700,7 @@ updated
 us
 us
 usage
+use
 use
 use
 use
@@ -5896,7 +5981,16 @@ you
 you
 you
 you
+you
+you
 you'll
+your
+your
+your
+your
+your
+your
+your
 your
 your
 your

@@ -1,0 +1,191 @@
+Quelle: https://regolo.ai/alternatives/european-openai-alternative/
+Abruf: 2026-10-23 (curl, HTTP 200), Textauszug aus HTML (ganze Seite, Skripte entfernt), belegbar.eu
+
+European OpenAI Alternative - Regolo | Sovereign AI Inference
+Skip to content
+Pricing
+Models
+Docs
+Labs
+Tutorial & How‑to
+Events & Workshops
+Benchmarks & Optimization
+Compliance and Privacy
+Product & Release Notes
+Self‑Hosting & DevOps
+Sustainable Computing
+Customers
+About
+Zero Data Retention
+Sustainable AI
+Our Team and Infrastructure
+Discord
+Sign In
+Home
+Models
+Pricing
+Labs
+Docs
+European data privacy
+Sustainable AI
+GPU Cloud Infrastructure
+Discord
+Sign In
+European OpenAI alternative: GDPR-compliant sovereign AI inference in 1 line of code
+Home
+/
+Alternatives
+/
+European OpenAI alternative
+European sovereign AI infrastructure
+Switch your AI endpoints to sovereign European infrastructure in under a minute without modifying your application code. Every payload runs strictly in volatile RAM with zero data retention, zero US CLOUD Act exposure, and up to 96% lower inference spend.
+Jurisdiction: Italy (EU)
+Zero data retention: certified
+CLOUD Act: immune
+Energy: 100% renewable
+Start 30-day free trial (no card required)
+API documentation
+Certified zero data retention
+Standard OpenAI commercial terms retain request logs for up to 30 days on disk. Regolo processes every prompt and completion strictly in volatile GPU RAM, discarding tokens the instant the response finishes. Verified by an independent third-party audit on 24 July 2026.
+Immunity from the US CLOUD Act
+Because Regolo is developed within DHH Group (Seeweb S.r.l., Italy) across Italian data centers, foreign intelligence warrants and extraterritorial US subpoenas have zero legal jurisdiction over your customer payloads.
+1-line drop-in SDK compatibility
+Keep your existing LangChain, LlamaIndex, OpenCode, or official OpenAI client code. Point base_url to https://api.regolo.ai/v1 with your Regolo bearer key and continue running without refactoring.
+OpenAI vs Regolo: architecture and compliance comparison
+Direct architecture evaluation for CTOs, Data Protection Officers, and engineering leads.
+Evaluation parameter
+OpenAI (commercial API)
+Regolo (EU sovereign cloud)
+Legal entity and jurisdiction
+United States (Delaware, CA)
+European Union (Italy, DHH Group)
+US CLOUD Act reach
+Subject to US extraterritorial subpoenas
+Immune (100% European legal perimeter)
+Default data retention at rest
+Stored for 30 days on disk
+0 seconds (volatile RAM only)
+Independent ZDR compliance audit
+Self-declared policy clauses
+Third-party certified (24 July 2026)
+Datacenter regions and energy
+Primarily US facilities
+Lombardy and Lazio, Italy (100% green energy)
+Model weight inspectability
+Closed proprietary black-box
+Auditable open weights (GLM-5.3, Qwen3.8)
+Effective cost per 1M tokens
+$18.00 – $31.00 blended (Astra)
+€0.059 blended (Boost plan)
+Dedicated private GPU instances
+Unavailable on serverless API
+Dedicated hourly GPUs (RTX 6000, L40S, H100, H200)
+Empirical benchmark and cost evaluation (Artificial Analysis)
+Why use Astra instead of GLM-5.3 for 1/25th the price?
+Frontier closed models like OpenAI’s
+gpt-6-astra
+push synthetic test margins, but in real engineering production,
+utility equals completed workflows within operational budgets
+. Independent Artificial Analysis benchmarks verify that GLM 5.3 achieves direct reasoning parity with OpenAI’s flagship tier:
+-99.6%
+Cost reduction
+€0.065/1M tokens on Regolo Core vs $18.00–$31.00 on OpenAI Astra
+52 vs 53
+Intelligence index
+GLM 5.3 achieves 98.1% parity with gpt-6-astra on Artificial Analysis Intelligence index v4.3
+1,568
+GDPval-AA v2 Elo
+Outperforms gpt-6-astra (1,480 Elo) across 44 professions and DeepSWE coding (63.4)
+OpenAI gpt-6-astra (1M blended tokens)
+~$18.00 – $31.00 USD
+$10.00 In / $50.00 Out per 1M tokens ($20 In / $75 Out on long context). US jurisdiction with 30-day prompt retention.
+Regolo Core plan (1M blended tokens)
+€0.065 EUR (-99.6%)
+€39/month flat for 600 Million tokens. 100% Italian datacenters with certified Zero Data Retention in volatile RAM.
+Head-to-head frontier reasoning and cost parity
+Direct comparison of frontier open-source models available on Regolo against OpenAI targets with near-identical reasoning scores (Artificial Analysis Intelligence index v4.3.2).
+Regolo model (frontier open source)
+OpenAI target model
+Reasoning score (AA intelligence index)
+Real-task benchmark (AA GDPval-AA v2)
+OpenAI cost (1M blended USD)
+Regolo cost (Core plan: €39/mo)
+Cost delta (%)
+glm-5.3
+753B MoE (IndexShare) · 1M Context
+gpt-6-astra
+OpenAI frontier reasoning flagship
+52
+vs 53
+(delta 1.9%)
+1,568 Elo
+vs 1,480 Elo
+DeepSWE 63.4 · CyberGym 84.5%
+$18.00 – $31.00
+€0.065 / 1M
+-99.6%
+qwen3.8-27b
+27B Dense · 262K Native Context
+gpt-5.6-luna
+OpenAI fast workhorse
+34
+vs 37
+(delta 8.1%)
+262K
+vs 128K
+Native context window (2x)
+$0.40
+€0.059 / 1M
+-84.0%
+* Metodologia: Punteggi estratti dall’Artificial Analysis Intelligence index v4.3.2 e GDPval-AA v2 (21 Settembre 2026). Tariffe OpenAI ufficiali da developers.openai.com/api/docs/pricing. Costo Regolo calcolato sul contingente di 600M token del piano Core (€39.00/mese = €0.065/1M tokens).
+60-second implementation
+Standard OpenAI SDK clients require only base_url and API key updates.
+python_migration.py
+OpenAI SDK compatible
+# Python: Drop-in endpoint configuration
+from openai import OpenAI
+import os
+- client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+- response = client.chat.completions.create(model="gpt-6-astra", messages=messages)
++ client = OpenAI(base_url="https://api.regolo.ai/v1", api_key=os.environ.get("REGOLO_API_KEY"))
++ response = client.chat.completions.create(model="glm-5.3", messages=messages)
+print(response.choices[0].message.content)
+Frequently asked questions
+Why does the US CLOUD Act create compliance risks for European companies?
+The US CLOUD Act (18 U.S.C. § 2713) allows US authorities to demand data held by US cloud corporations regardless of server physical location. Even when US providers deploy in Frankfurt or Dublin, corporate ownership remains subject to US jurisdiction. Regolo operates exclusively under Italian and European legal structures within DHH Group.
+How does Regolo technically ensure zero data retention?
+Requests are processed directly in GPU volatile RAM and immediately freed upon token stream completion. No request payloads, token sequences, or intermediate states are written to persistent disk storage or logging databases. Independent audit certification was formally issued on 24 July 2026.
+How is the effective cost per million tokens calculated?
+Through flat subscription pricing: the Boost plan (€89/month for 1.5 Billion tokens) delivers an effective rate of €0.059 per million tokens, while the Core plan (€39/month for 600 Million tokens) delivers €0.065 per million tokens, providing predictable engineering budgets without metered usage spikes.
+Is a formal data processor agreement (DPA) available?
+Yes. Regolo signs a standardized Data Processor Agreement compliant with Article 28 of the GDPR, specifying Italian data residency, technical encryption standards, and zero retention terms.
+Deploy sovereign European inference
+Get free API credits included with the 30-day free trial. Test GLM-5.3, Qwen3.8-27B, and our full catalog of models with certified zero data retention.
+Start free trial (no credit card required)
+Review GDPR DPA terms
+Resources
+Contacts
+Models Library
+Builder Program
+Models Status
+Integrations
+FAQ
+Legal
+Terms & Conditions
+Privacy Policy
+Cookie Policy
+Cookie Preferences
+DPA
+Top Models
+GLM 5.2
+Qwen 3.5 - 122b
+Faster Whisper Large v3
+Gemma 4 - 31b
+GPT OSS - 120b
+Latest Posts
+Getting started with context-mode and headroom: understand large codebases at 92% lower token cost
+AI review responses with guardrails: Clef-Flash decides, an LLM writes, a person approves
+EmbeddingGemma 2 vs Qwen3-Embedding (0.6B & 8B): Code Retrieval, Matryoshka Compression, and Reranking Benchmarks
+Developed in EU with love, compliance, and green spirit by DHH.
+© Seeweb S.r.l. – c.s. 103.000 EURO - CCIAA 17793/98 - VAT IT02043220603
+Datacenter Certifications

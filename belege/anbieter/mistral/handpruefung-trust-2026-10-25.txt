@@ -1,0 +1,318 @@
+Handprüfung Trust-Portal Mistral AI (Vanta), 25.10.2026 ~09:45 MEZ (Dauerlauf)
+Grund: Quellenlauf ist bei https://trust.mistral.ai/subprocessors und /controls blind (HTML-Hülle 4 Wörter, Block DÜNN seit 25.10.).
+Betrifft mistral: vertrag.subprozessoren, vertrag.subprozessoren_anzahl, vertrag.drittlaender, vertrag.tom.
+Methode wie bei Anthropic 25.10.: Chrome headless (--headless=new --virtual-time-budget=20000 --dump-dom), Text aus dem DOM (allein/tmp/hand-anthropic-2510/txt.py).
+Es gibt keinen früheren gespeicherten Render dieser zwei Seiten; dieser Text ist ab heute der Vergleichsstand.
+23b4de6f577753dc00601f1215136c02d5922b187f1178534d33be27c6fdd9a2 subprocessors.txt (480 Wörter)
+984585fac528a36e97696d86791363064b12a85e38c3f9040ae832b0cc3fa060 controls.txt (842 Wörter)
+
+Ergebnis Subprozessoren: Seite zählt selbst „1-10 of / 25 results“, 25 Einträge von Hand nachgezählt (gleich Profilwert 25).
+USA wörtlich bei: Google („United States (US API endpoint)“), Stripe, Blackforest Labs, Brave, Twilio, CrowdStrike („EEA, United States“), OVH Cloud („Germany, US“), Gradual („US“, nur Mistral Partner Academy).
+„Worldwide“ bei Megaport (Latitude.sh), The Constant Company (Vultr), Cloudflare. Konzernintern: „Mistral Compute“ (France), „Mistral AI Affiliates“ (Verweis legal.mistral.ai/terms/mistral-ai-affiliates).
+Profilwerte Drittländer und Anmerkung (Stripe, Brave, Twilio, Black Forest Labs, Google; Worldwide bei Cloudflare, Vultr, Megaport) stimmen.
+Hinweis: Die Anbieterseite schreibt „Blackforest Labs Inc.“ (ein Wort), das Profil „Black Forest Labs“.
+
+Ergebnis Controls: 26 Kontrollen („1 to 10 of 26 results“ bei Internal security procedures), Zitat der Anmerkung wörtlich da:
+OK   Penetration testing performed
+OK   The company's penetration testing is performed at least annually.
+
+Folge: Zahl, Drittländer und TOM-Link unverändert. Anmerkung vertrag.subprozessoren korrigiert: sie sagte noch, die Einträge seien nicht gelesen; seit 23.10. und heute von Hand gelesen.
+
+===== Text subprocessors (gerendert 25.10.2026) =====
+Trust Center - Mistral AI
+Skip to navigation
+Skip to main content
+Opens in new tab
+|
+Trust Center
+Security at Mistral AI
+Welcome to Mistral Trust Center. Our commitment to data privacy and security is embedded in every part of our business. Use this Trust Center to learn about our security posture and request access to our security documentation.
+security@mistral.ai
+Privacy Policy
+Opens in new tab
+Request access
+Subscribe to updates
+Subprocessors
+Subprocessors
+Microsoft Inc.
+•
+Cloud Infrastructure
+Sweden, Norway
+Products: Vibe, Studio / API
+Google LLC
+•
+Cloud Infrastructure
+Netherlands, Belgium, United States (US API endpoint)
+Products: Vibe, Studio/API (US API)
+Mistral Compute
+•
+Cloud infrastructure
+France
+Products: All
+CoreWeave Inc.
+•
+Inference Provider
+EEA
+Products: All SaaS
+Ory Corp.
+•
+User Authentication
+Belgium, Germany
+Products: All
+Get Lago Corp.
+•
+Billing
+Ireland
+Products: All Products under a paid subscription
+Stripe Inc.
+•
+Payment and Billing
+United States
+Products: All Products under a paid subscription
+Blackforest Labs Inc.
+•
+Image Generation
+United States
+Products: Vibe, Studio /API
+Brave Software, Inc.
+•
+Web Search
+United States
+Products: Vibe, Studio / API
+Foundrylabs, Inc.
+•
+Code Interpreter (E2B.dev)
+France, Belgium, Netherlands
+Product: Vibe, Studio / API
+1-10 of
+25 results
+Show
+10
+results per page
+Previous
+Next
+All subprocessors
+Microsoft Inc.
+Products: Vibe, Studio / API
+Cloud Infrastructure
+Sweden, Norway
+azure.microsoft.com
+Google LLC
+Products: Vibe, Studio/API (US API)
+Cloud Infrastructure
+Netherlands, Belgium, United States (US API endpoint)
+cloud.google.com
+Mistral Compute
+Products: All
+Cloud infrastructure
+France
+https://mistral.ai/products/compute/
+CoreWeave Inc.
+Products: All SaaS
+Inference Provider
+EEA
+https://coreweave.com
+Ory Corp.
+Products: All
+User Authentication
+Belgium, Germany
+https://www.ory.sh/
+Get Lago Corp.
+Products: All Products under a paid subscription
+Billing
+Ireland
+https://www.getlago.com/
+Stripe Inc.
+Products: All Products under a paid subscription
+Payment and Billing
+United States
+https://stripe.com
+Blackforest Labs Inc.
+Products: Vibe, Studio /API
+Image Generation
+United States
+https://bfl.ai/
+Brave Software, Inc.
+Products: Vibe, Studio / API
+Web Search
+United States
+https://brave.com/fr/
+Foundrylabs, Inc.
+Product: Vibe, Studio / API
+Code Interpreter (E2B.dev)
+France, Belgium, Netherlands
+https://e2b.dev/
+Plus Five Five, Inc. (Resend)
+Products: All
+Email communications
+Ireland
+https://resend.com/
+Twilio Inc.
+Products: All
+Phone number verification
+United States
+https://www.twilio.com/
+Intercom Inc.
+Products: All Products
+User support
+Ireland
+https://www.intercom.com/app-store
+Scaleway SAS
+Product: Vibe Code Web
+Cloud Infrastructure
+France
+https://www.scaleway.com/en/
+Megaport Inc.
+Product: Vibe Code Web
+Cloud infrastructure (Latitude.sh)
+Worldwide
+https://www.latitude.sh/
+OVH Cloud SAS
+Product: Vibe Code Web
+Cloud Infrastructure
+Germany, US
+ovhcloud.com
+Backblaze Inc.
+Product: Vibe Code Web
+Cloud infrastructure
+Netherlands
+backblaze.com
+The Constant Company, LLC
+Product: Vibe Code Web
+Cloud Infrastructure (Vultr)
+Worldwide
+https://www.vultr.com/
+Kong Inc.
+Products: All
+Security (API)
+EEA
+https://konghq.com/
+Functional Software, Inc. (Sentry)
+Products: All
+Error handling
+EEA
+sentry.io
+Mistral AI Affiliates
+[More information](https://legal.mistral.ai/terms/mistral-ai-affiliates)
+Products: All
+https://mistral.ai/
+Cloudflare Inc.
+Products: All - Local to Customer [More information](https://www.cloudflare.com/network/)
+Security & Traffic Routing (CDN)
+Worldwide
+cloudflare.com/
+CrowdStrike Inc.
+Products: All
+Security
+EEA, United States
+https://www.crowdstrike.com/
+Wiz Inc.
+Products: All
+Security
+EEA
+https://wiz.io/
+Gradual Inc.
+Mistral Partner Academy
+US
+https://www.gradual.com/
+Opens in new tab
+Subscribe to updates
+
+===== Text controls (gerendert 25.10.2026) =====
+Trust Center - Mistral AI
+Skip to navigation
+Skip to main content
+Opens in new tab
+|
+Trust Center
+Security at Mistral AI
+Welcome to Mistral Trust Center. Our commitment to data privacy and security is embedded in every part of our business. Use this Trust Center to learn about our security posture and request access to our security documentation.
+security@mistral.ai
+Privacy Policy
+Opens in new tab
+Request access
+Subscribe to updates
+Controls
+Controls
+Updated 8 minutes ago
+Infrastructure security
+Control
+Status
+Unique account authentication enforced
+The company requires authentication to systems and applications to use unique username and password or authorized Secure Socket Shell (SSH) keys.
+Access control procedures established
+The company's access control policy documents the requirements for the following access control functions:
+adding new users;
+modifying users; and/or
+removing an existing user's access.
+Remote access encrypted enforced
+The company's production systems can only be remotely accessed by authorized employees via an approved encrypted connection.
+Network segmentation implemented
+The company's network is segmented to prevent unauthorized access to customer data.
+Organizational security
+Control
+Status
+Asset disposal procedures utilized
+The company has electronic media containing confidential information purged or destroyed in accordance with best practices, and certificates of destruction are issued for each device destroyed.
+Employee reference checks performed
+The company performs reference checks on new employees.
+Code of Conduct acknowledged by contractors
+The company requires contractor agreements to include a code of conduct or reference to the company code of conduct.
+Code of Conduct acknowledged by employees and enforced
+The company requires employees to acknowledge a code of conduct at the time of hire. Employees who violate the code of conduct are subject to disciplinary actions in accordance with a disciplinary policy.
+Confidentiality Agreement acknowledged by contractors
+The company requires contractors to sign a confidentiality agreement at the time of engagement.
+Confidentiality Agreement acknowledged by employees
+The company requires employees to sign a confidentiality agreement during onboarding.
+Performance evaluations conducted
+The company managers are required to complete performance evaluations for direct reports at least every two year.
+Visitor procedures enforced
+The company requires visitors to sign-in, wear a visitor badge, and be escorted by an authorized employee when accessing the data center or secure areas.
+Product security
+Control
+Status
+Control self-assessments conducted
+The company performs control self-assessments at least annually to gain assurance that controls are in place and operating effectively. Corrective actions are taken based on relevant findings. If the company has committed to an SLA for a finding, the corrective action is completed within that SLA.
+Penetration testing performed
+The company's penetration testing is performed at least annually. A remediation plan is developed and changes are implemented to remediate vulnerabilities in accordance with SLAs.
+Vulnerability and system monitoring procedures established
+The company's formal policies outline the requirements for the following functions related to IT / Engineering:
+vulnerability management;
+system monitoring.
+Internal security procedures
+Control
+Status
+Continuity and Disaster Recovery plans established
+The company has Business Continuity and Disaster Recovery Plans in place that outline communication plans in order to maintain information security continuity in the event of the unavailability of key personnel.
+Continuity and Disaster Recovery plans tested
+The company has a documented Business Continuity/Disaster Recovery (BC/DR) plan and tests it at least annually.
+Cybersecurity insurance maintained
+The company maintains cybersecurity insurance to mitigate the financial impact of business disruptions.
+Production deployment access restricted
+The company restricts access to migrate changes to production to authorized personnel.
+Development lifecycle established
+The company has a formal systems development life cycle (SDLC) methodology in place that governs the development, acquisition, implementation, changes (including emergency changes), and maintenance of information systems and related technology requirements.
+SOC 2 - System Description
+Complete a description of your system for Section III of the audit report
+Whistleblower policy established
+The company has established a formalized whistleblower policy, and an anonymous communication channel is in place for users to report potential issues or fraud concerns.
+Executive leadership team charter documented
+The company's executive leadership team has a documented charter that outlines its oversight responsibilities for internal control.
+Executive leadership team expertise developed
+The company's executive leadership team members have sufficient expertise to oversee management's ability to design, implement and operate information security controls. The executive leadership team engages third-party information security experts and consultants as needed.
+Backup processes established
+The company's data backup policy documents requirements for backup and recovery of customer data.
+1 to 10 of 26 results
+Data and privacy
+Control
+Status
+Data retention procedures established
+The company has formal retention and disposal procedures in place to guide the secure retention and disposal of company and customer data.
+Customer data deleted upon leaving
+The company purges or removes customer data containing confidential information from the application environment, in accordance with best practices, when customers leave the service.
+Data classification policy established
+The company has a data classification policy in place to help ensure that confidential data is properly secured and restricted to authorized personnel.
+Top
+Opens in new tab
+Subscribe to updates
+Vanta connects to a company's core systems to continuously monitor these controls.

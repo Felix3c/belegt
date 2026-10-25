@@ -1,0 +1,30 @@
+Quelle: https://opper.ai/sovereign-ai, https://trust.opper.ai/ (Abschnitt Subprocessors), Gegenprobe https://www.datadoghq.com/legal/terms/
+Abruf: 2026-10-23 ~02:30 UTC (curl, je HTTP 200), SHA-256 der Rohseiten: sovereign-ai 9c033dd85bb270876659bae98fc7f3e759b7d768e34df6b8e3745e883d19925b, trust 6119bc03324901b3cbba73e25b041fe029227ab47833bb9391370765620c252e (Trust Center „Last updated Oct 19, 2026“), datadoghq-terms 38e570ce5c1a98c01c0e6bdbea66792e8fa029ddf4e6f4a268d6fa4b06dec159, belegbar.eu
+Inhalt: wörtliche Auszüge (Textfassung ohne Skripte).
+
+1. sovereign-ai:
+Sovereign AI, European end to end
+Opper on evroc runs the gateway on a Swedish cloud and routes to European-owned providers hosted in Europe, so your data stays with European companies from your app to the model.
+European at every hop
+The gateway, the cloud it runs on and the model provider are all European companies under European law.
+The same Opper, running as its own instance at evroc.on.opper.ai on evroc's data centers in Sweden. Opper and evroc are both Swedish companies, so the gateway, its storage and your traces stay with European companies under European law.
+
+2. trust.opper.ai, Subprocessors (Zeilen Datadog, Auth0, Sentry):
+Datadog
+Software as a Service 
+Monitoring of both production environments: infrastructure metrics, traces, access and application logs, request identifiers, IP addresses, and user and organization identifiers. Routine logging is designed to exclude prompts, responses and uploaded files.
+Germany 
+Auth0 (Okta)
+Software as a Service 
+Customer authentication for the Opper platform (EU tenant): sign-up, login and session management.
+Germany, Ireland 
+Sentry
+Software as a Service 
+Error reporting for the Opper platform web app: exception details, stack traces, breadcrumbs, request routes, and user and organization identifiers. Request bodies and cookies are removed from error events; session replay and performance tracing are disabled.
+Germany 
+
+3. Gegenprobe datadoghq.com/legal/terms/:
+„This website, together with any related websites, (collectively, the “Site”) is owned and operated by Datadog, Inc. or one of its affiliates“ … „Datadog controls the Site from its New York, NY, USA offices.“
+(Anführungszeichen im Datadog-Zitat angeglichen, Wortlaut sonst gleich.)
+
+Ungeklärt: ob die Instanz evroc.on.opper.ai eine der „both production environments“ ist, die Datadog überwacht, oder eine dritte Umgebung mit eigener Überwachung. Die Trust-Center-Zeile Evroc nennt evroc „Opper's second production environment (se-sto, Stockholm)“.

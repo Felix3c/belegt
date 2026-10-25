@@ -1,4 +1,3 @@
-&#038;
 &amp;
 &amp;
 &amp;
@@ -6,18 +5,17 @@
 &amp;
 &amp;
 &amp;
-(0.6B
 -
 -
 -
 -
 -
 .
+1017,
 103.000
 120b
 122b
 17793/98
-2
 2026
 24
 3.5
@@ -25,8 +23,11 @@
 30-day
 31b
 4
+43%
 5.2
-8B):
+501B
+60%:
+816B,
 92%
 A
 A
@@ -54,7 +55,7 @@ Architecture.
 Are
 Arrives
 At
-Benchmarks
+Beam
 Benchmarks
 Builder
 Building
@@ -67,10 +68,8 @@ Choice,
 Circumstance
 Clef-Flash
 Cloud
-Code
 Compliance
 Compliant
-Compression,
 Computing
 Conditions
 Contacts
@@ -89,6 +88,8 @@ Data
 Data
 Data.
 Datacenter
+DeepSWE
+DeepSeek
 Delivered
 Design
 DevOps
@@ -109,7 +110,6 @@ EU
 EU
 EU
 EURO
-EmbeddingGemma
 Encrypted
 Encrypted
 Europe,
@@ -184,13 +184,13 @@ Legal
 Library
 Logging
 Logs
-Matryoshka
 May
 Models
 Models
 Models
 Models
 Models
+Muse
 Never
 No
 No
@@ -232,7 +232,6 @@ Program
 Provider
 Purpose
 Qwen
-Qwen3-Embedding
 Read
 Ready
 Ready
@@ -243,14 +242,12 @@ Regolo,
 Regolo.ai
 Release
 Request
-Reranking
 Resources
 Response
 Retains
 Retention
 Retention
 Retention
-Retrieval,
 Reuse
 S.r.l.
 Secure
@@ -263,6 +260,7 @@ Skip
 So
 Software
 Sovereign,
+Spark
 Start
 Start
 Status
@@ -292,6 +290,7 @@ We
 We
 When
 Whisper
+Why
 Word
 Workshops
 You
@@ -310,6 +309,7 @@ Zero
 Zero
 Zero
 Zero
+a
 a
 a
 a
@@ -386,8 +386,10 @@ audit
 audit
 audit
 back
+beats
 behind
 believe
+benchmarks
 beyond
 bolt
 build
@@ -607,6 +609,7 @@ meets
 minimization
 model
 model
+model
 models.
 much
 need
@@ -640,9 +643,11 @@ on
 on
 on
 on
+on
 on,
 on.
 once
+one
 one
 one.
 only
@@ -715,6 +720,7 @@ provisioning
 purpose
 purpose.
 questions
+reading
 real
 real
 records
@@ -751,6 +757,8 @@ reviewed
 reviewed
 rights
 rigorous
+scoring
+scoring
 secondary
 security,
 security,
@@ -785,6 +793,7 @@ that
 that
 that
 that's
+the
 the
 the
 the
@@ -852,7 +861,6 @@ users
 v3
 verified
 verified
-vs
 way
 we
 we

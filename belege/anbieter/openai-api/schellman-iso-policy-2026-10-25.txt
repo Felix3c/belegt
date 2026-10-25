@@ -1,0 +1,437 @@
+Quelle: https://www.schellman.com/iso-business-policy
+Abruf: 2026-10-25 16:36:04 +0100
+
+ISO Business Policy | Schellman
+866.254.0000
+Contact Us
+Services
+Suite of Services
+Schellman began as a SOC audit firm 20+ years ago. While we still issue more than 2,000 SOC reports each year, our clients’ trust has propelled our expansion. Today, we offer nearly 60 types of audits and assessments.
+Download a PDF of All Services
+Services by Category
+SOC & Attestations
+Build trust and confidence with your customers and their auditors with an independent SOC 1, SOC 2, or SOC 3 examination.
+All SOC Assessments
+SOC 1 / SSAE 18 Examination
+Present a strong position to your customers regarding your control environment relevant to processes that impact the controls over financial reporting.
+SOC 2 Examination
+Meet a broad set of reporting needs about the controls at your service organization.
+SOC 3 Examination
+Report on the operational controls pertaining to the suitability of design and operating effectiveness of controls.
+SOC for Supply Chain
+Provide relevant information to clients up and down their supply chain, specifically designed for all industries and stakeholders seeking to manage supply risks.
+SOC for Cybersecurity
+SOC for Cybersecurity reports include a description of your cybersecurity risk management program and a set of benchmarks that we will evaluate your program against.
+C5 Attestation
+Better develop transparent and trusted relationships between yourselves and your cloud customers.
+CSA STAR Programs
+Recognizes assurance requirements and maturity levels of cloud service providers in a publicly available registry.
+Payment Card Assessments
+Validate compliance by adherence to your PCI DSS requirements through a Report on Compliance.
+All Payment Card Assessments
+PCI DSS Validation
+The PCI DSS applies to all entities, both service providers and merchants, that store, process, and/or transmit cardholder data.
+PCI SSF
+Address security associated with software vendors providing products that store, process, or transmit cardholder data.
+PCI P2PE Validation
+Our experts provide your company with validation of its secure hardware-based point-to-point encryption solutions. Schellman provides both QSA and PA-QSA P2PE services.
+PCI PIN Assessments
+Protect your company's data with a Qualified PIN Assessor.
+PCI 3DS Compliance
+Identify unauthorized card-not-present transactions and protect your organization from exposure to fraud.
+ISO Certifications
+Increase the confidence in your product or service by certification through the standards developed and published by the International Organization for Standardization.
+All ISO Certifications
+ISO 27001
+Provides a framework and the necessary requirements for the design, implementation, and continuous monitoring of an information security management system (ISMS).
+ISO 42001
+Takes a risk-based approach in applying requirements to better regulate your AI use through the implementation, implementation, maintenance, and continual improvement of an Artificial Intelligence Management System (AIMS).
+ISO 27701
+Providing organizations guidance, specific to supporting an effective privacy information management system (PIMS).
+ISO 9001
+Provides a systematic and process-driven approach through a formal quality management system (QMS) for companies and organizations.
+ISO 22301
+Designed to help organizations protect against, prepare for, respond to, and recover from a disruptive incident to business processes.
+ISO 20000-1
+Provides a holistic approach for service providers in the design, transition, delivery, and improvement of services that fulfill both internal requirements and provide value for clients through consistent and improved service levels.
+ISO 14001
+Provides organizations with a structured framework through an environmental management system (EMS) to reduce environmental impact, ensure regulatory compliance, and drive sustainable business practices.
+ISO 45001
+Helps organizations create a safer, healthier workplace by implementing an occupational health and safety management system (OH&S) to proactively manage occupational health and safety risks.
+ISO 50001
+Provides a systematic approach for organizations to improve energy performance, reduce energy costs, and lower environmental impact through efficient energy management.
+Privacy Assessments
+Identify and assess the strict data protection regulations across the world and different industries to ensure the privacy of the data you process.
+All Privacy Assessments
+Global CBPR & PRP Certification
+The Global Cross-Border Privacy Rules (CBPR) & Privacy Recognition for Processors (PRP) Framework enables participating economies to establish trusted cross-border data flows despite varying legislative requirements.
+GDPR Assessment
+Assess and demonstrate your alignment with the GDPR provisions.
+International Privacy Assessments
+Companies with a customer footprint spanning outside of their country or region may need to demonstrate compliance internationally.
+US Privacy Assessments
+Navigate the privacy landscape of nearly all 50 states.
+Microsoft SSPA/DPR Assessment
+Navigate the requirements within the DPR based on the nature of your business.
+EU Cloud Code of Conduct
+Cloud service providers can now show their compliance with the GDPR, in the role as a processor, and help controllers identify those compliant cloud service providers.
+Federal Assessments
+Support your ATO for federal agencies by providing an independent assessment with a FedRAMP or CMMC assessment.
+All Federal Assessments
+FedRAMP®
+Schellman is an accredited 3PAO in accordance with the FedRAMP requirements. FedRAMP is a program that allows cloud service providers to meet security requirements so agencies may outsource with confidence.
+CMMC / NIST SP 800-171
+Schellman is one of the first C3PAOs cleared by the CMMC Accreditation Body due to our experience performing FedRAMP Assessments for Civilian and DoD Environments.
+FISMA/NIST
+While only government agencies can be FISMA compliant, Schellman performs both independent attestations and gap assessments against the NIST 800-53 standards, which are the detailed requirements behind FISMA.
+ITAR
+Assessments against the applicable controls for the International Trafficking of Arms Regulation (ITAR) and other types of export control requirements.
+CJIS
+Assessments against the applicable controls for the Criminal Justice Information Services (CJIS) Security Policy found on the FBI website
+IRAP
+Assessments against the Australian Government Information Security Manual (ISM) standards, to enhance the protection of governmental data across ICT infrastructures.
+FTC Consent Decrees
+FTC Privacy & Security Program Assessments that demonstrate commitment to consumer protection, ethical business, and regulatory obligations.
+DoD IL6
+Ensure your cloud environment meets the highest DoD security requirements for handling classified data. Schellman is an accredited 3PAO authorized to perform DoD IL6 assessments.
+Healthcare Assessments
+Evaluate the growing healthcare complexities to ensure you are providing the highest level of security and privacy to your business associates and covered entities.
+All Healthcare Assessments
+HITRUST Certification
+Assess your organizational alignment with the HITRUST requirements after using the provided guidelines for the best practices that support the framework.
+HIPAA Compliance
+Ensure you have the controls in place to meet the HIPAA security and privacy safeguards as well as the HITECH breach notification requirements.
+HIPAA Express
+Better understand the vulnerabilities to your healthcare data through this focused, risk-based assessment designed specifically for healthcare providers.
+EPCS-DEA Audits
+Effectively communicate your EPCS-DEA compliance to your stakeholders while also satisfying regulatory requirements.
+Health Data Host (HDS) Certification
+Take your ISO 27001 certification a step further by adding specific health data protections as designated by the French health code.
+Penetration Testing
+Strengthen your security to effectively respond and mitigate the threats  to an increasingly vulnerable technology landscape.
+All Penetration Testing
+Application
+Identify vulnerabilities within web applications, APIs, or client-side applications.
+Network
+Internal, external, and wireless networks need to be secure.  This section covers that and network segmentation testing.
+Mobile
+Identify vulnerabilities within iOS and Android applications, ensuring that supporting infrastructure and user devices are secure.
+Red Teaming
+Conduct an unannounced, low-knowledge red team assessment to simulate an advanced real-world attack to improve your organization's frontline cybersecurity policies.
+Social Engineering
+See how your organization’s employees will respond against targeted phishing, vishing, and smishing attacks.
+Cloud
+Protect the confidentiality, integrity, and availability of your cloud environment.
+Physical
+A physical breach campaign simulates a real-world attack scenario while identifying physical security issues.
+Hardware and IoT
+Discover what vulnerabilities are present firmware, hardware, and network of physical devices.
+Advanced Services
+For mature security programs. Red Teaming, Purple Teaming, and Active Directory services.
+AI Red Teaming
+AI Red Team assessments evaluate the security of your Generative AI systems to identify vulnerabilities such as prompt injection, data leakage, and unintended model behaviors that could expose sensitive data, generate harmful outputs, or undermine business workflows.
+Cybersecurity Assessments
+Identify gaps and obtain feedback on key security risks and control sets.
+All Cybersecurity Assessments
+Cloud Configuration Assessments
+Mitigate security risks in cloud computing to protect your organization and clients from the threat of data loss and maintain a competitive edge.
+Ransomware Assessments
+Reduce the impact of a potential ransomware attack through this targeted yet comprehensive assessment that includes an evaluation of your preventative and your incident response measures.
+NIST Cybersecurity Framework Assessments
+Address risk and demonstrate data protection standards while identifying ways to improve your organization's cybersecurity.
+Schellman Software Security Assessment (S
+3
+A)
+Secure your software development lifecycle with this customized assessment that draws from multiple frameworks to ensure comprehensive protection.
+TISAX®
+Demonstrate that your sensitive data and the integrity of your automotive systems are secure through this industry-specific assessment.
+SWIFT Customer Security Programme
+Give your leadership and key stakeholders confidence and clarity regarding your organization's cyber security posture.
+Internal Audit Co-Sourcing
+Ensure you achieve SOX compliance and additional assurance that comes with having our experts perform quality testing and reporting of your IT-related controls.
+MTCS Certification
+The SS 584 Standard for MTCS provides organizations with a structured framework designed to help systematically evaluate, strengthen, and demonstrate the security of their cloud environments.
+ENS Certification
+Our ENS lead auditors specialize in evaluating information systems against Spain's Esquema Nacional de Seguridad (ENS), governed by Royal Decree 311/2022 — designed to ensure a consistent, risk-based approach to security across Spain's public sector and its technology providers.
+Crypto and Digital Trust
+Demonstrate trusted and attested communication through cryptography-based communication, financial assets, blockchain storage, and verifiable digital credentials.
+Schellman Training
+Delivering world-class training and certification services directly to cyber security professionals.
+Sustainability Services
+Integrate corporate management, governance, risk, and transparent reporting for holistic sustainability performance beyond financial considerations.
+AI Governance
+Our suite of AI services can help you meet compliance requirements with domestic, cross-border, and foreign obligations while proving to your customers and stakeholders your AI systems are being responsibly managed and ethically developed.
+Services by Industry
+Cloud Computing & Data Centers
+Meet a broad range of regulatory and industry compliance mandates for your customers
+Cloud Computing & Data Centers
+SOC 2 Examination
+Meet a broad set of reporting needs about the controls at your service organization.
+ISO 27001
+Provide a framework and the necessary requirements for the design, implementation, and continuous monitoring of an information security management system (ISMS).
+CSA STAR Programs
+Recognizes assurance requirements and maturity levels of cloud service providers in a publicly available registry.
+FedRAMP
+Schellman is an accredited 3PAO in accordance with the FedRAMP requirements. FedRAMP is a program that allows cloud service providers to meet security requirements so agencies may outsource with confidence.
+Penetration Testing
+Strengthen your security to effectively respond and mitigate the threats  to an increasingly vulnerable technology landscape.
+Cloud Configuration Assessments
+Reduce security risks in cloud computing to protect your organization and clients from the threat of data loss and maintain a competitive edge.
+Financial Services & Fintech
+Cybersecurity assessments for both the banking industry and the financial service providers
+Financial Services & Fintech
+SWIFT Customer Security Programme
+Give your leadership and key stakeholders confidence and clarity regarding your organization's cyber security posture.
+Privacy Assessments
+Identify and assess the strict data protection regulations across the world and different industries to ensure the privacy of the data you process.
+Penetration Testing
+Strengthen your security to effectively respond and mitigate the threats  to an increasingly vulnerable technology landscape.
+SOC Assessments
+Build trust and confidence with your customers and their auditors with an independent SOC 1, SOC 2, or SOC 3 examination.
+Payment Card Assessments
+Validate compliance by adherence to your PCI DSS requirements through a Report on Compliance.
+ISO Certification Services
+Increase the confidence in your product or service by certification through the standards developed and published by the International Organization for Standardization.
+Digital Operational Resilience Act (DORA)
+Confirm compliance with the upcoming EU financial sector requirements with an assessment against the Digital Operational Resilience Act.
+Healthcare
+Reporting to manage risk and adhere to applicable laws and regulations
+Healthcare
+HIPAA Compliance
+Ensure you have the controls in place to meet the HIPAA security and privacy safeguards as well as the HITECH breach notification requirements.
+HIPAA Express
+A risk-based assessment designed specifically for healthcare providers
+HITRUST Certification
+Assessing your organizational alignment with the HITRUST requirements and provide guidelines for best practices to support the HITRUST CSF.
+SOC Examinations
+Build trust and confidence with your customers and their auditors with an independent SOC 1, SOC 2, or SOC 3 examination.
+PCI DSS Validation
+Validate compliance by adherence to your PCI DSS requirements through a Report on Compliance.
+Penetration Testing
+Strengthen your security to effectively respond and mitigate the threats  to an increasingly vulnerable technology landscape.
+Payment Card Processing
+Validate compliance with the various forms of the PCI DSS
+Payment Card Processing
+PCI DSS Validation
+The PCI DSS applies to all entities, both service providers and merchants, that store, process, and/or transmit cardholder data.
+PCI P2PE Validation
+Our experts provide your company with validation of its secure hardware-based point-to-point encryption solutions. Schellman provides both QSA and PA-QSA P2PE services.
+Secure Software
+Validate compliance by adherence to your PCI DSS requirements through a Report on Compliance.
+Penetration Testing
+Strengthen your security to effectively respond and mitigate the threats  to an increasingly vulnerable technology landscape.
+US Government
+Achieve authorization to work for federal agencies, DoD, and the associated contractor base
+US Government
+FedRAMP®
+Schellman is an accredited 3PAO in accordance with the FedRAMP requirements. FedRAMP is a program that allows cloud service providers to meet security requirements so agencies may outsource with confidence.
+CMMC / NIST SP 800-171
+Obtain the DoD required certification to perform services for DoD and the broader Defense Industrial Base.
+NIST 800-53
+Validate compliance with the industry standard NIST 800-53 security and privacy controls for government entities (FISMA) and those that support them.
+Penetration Testing
+Strengthen your security to effectively respond and mitigate the threats to an increasingly vulnerable technology landscape.
+Higher Education & Research Laboratories
+Reinforce your commitment to securing your student's and institution's data
+Higher Education & Research Laboratories
+ISO 27001
+Provide a framework and the necessary requirements for the design, implementation, and continuous monitoring of an information security management system (ISMS).
+Penetration Testing
+Strengthen your security to effectively respond and mitigate the threats to an increasingly vulnerable technology landscape.
+Payment Card Assessments
+From your Bursar’s office, to your media center, to your parking garages, validate compliance by adherence to your PCI DSS requirements through a Report on Compliance.
+Ransomware Assessments
+Reduce the impact of a potential ransomware attack through this targeted yet comprehensive assessment that includes an evaluation of your preventative and incident response measures.
+CMMC / NIST SP 800-171
+Obtain the DoD required certification to perform services for DoD and the broader Defense Industrial Base.
+Privacy Assessments
+Our suite of privacy attestation services includes compliance requirements with domestic, cross-border, and foreign obligations.
+Automotive
+Meet a broad range of regulatory and industry compliance mandates for your customers.
+Automotive
+TISAX®
+Demonstrate that your sensitive data and the integrity of your automotive systems are secure through this industry-specific assessment.
+ISO 27001
+Provides a framework and the necessary requirements for the design, implementation, and continuous monitoring of an information security management system (ISMS).
+Penetration Testing
+Strengthen your security to effectively respond and mitigate the threats  to an increasingly vulnerable technology landscape.
+Learning Center
+About Us
+About Us
+Schellman is the only Top 50 CPA firm focused exclusively on IT Compliance and Cybersecurity, and we’re the #1 service provider for FedRAMP Assessments. Our industry-leading NPS scores, client retention, and employee retention mean our clients experience greater continuity and quality.
+Leadership Team
+In a sea of sameness, we consistently apply our core values to stand apart.
+Corporate Social Responsibility
+Our B Corp certification underscores our commitment to a more sustainable future for the marketplace, our people, the community, and the environment.
+Careers
+Join a team of the industry’s most talented individuals at a company where one of our core values is People First.
+Strategic Partnerships
+We’re proud to collaborate with a diverse set of providers while remaining steadfast in our commitment to impartiality and independence.
+2025 People & Talent Report
+Certificate Directory
+Services
+Services
+View All Services
+SOC & Attestations
+SOC & Attestations
+SOC 1 / SSAE 18 Examination
+SOC 2 Examination
+SOC 3 Examination
+SOC for Supply Chain
+SOC for Cybersecurity
+C5 Attestation
+CSA STAR Programs
+Payment Card Assessments
+Payment Card Assessments
+PCI DSS Validation
+PCI SSF
+PCI P2PE Validation
+PCI PIN Assessments
+PCI 3DS Compliance
+ISO Certifications
+ISO Certifications
+ISO 27001
+ISO 42001
+ISO 27701
+ISO 9001
+ISO 22301
+ISO 20000-1
+ISO 14001
+ISO 45001
+ISO 50001
+Privacy Assessments
+Privacy Assessments
+Global CBPR & PRP Certification
+GDPR Assessment
+International Privacy Assessments
+US Privacy Assessments
+Microsoft SSPA/DPR Assessment
+EU Cloud Code of Conduct
+Federal Assessments
+Federal Assessments
+FedRAMP®
+CMMC / NIST SP 800-171
+FISMA/NIST
+ITAR
+CJIS
+IRAP
+FTC Consent Decrees
+DoD IL6
+Healthcare Assessments
+Healthcare Assessments
+HITRUST Certification
+HIPAA Compliance
+HIPAA Express
+EPCS-DEA Audits
+Health Data Host (HDS) Certification
+Penetration Testing
+Penetration Testing
+Application
+Network
+Mobile
+Red Teaming
+Social Engineering
+Cloud
+Physical
+Hardware and IoT
+Advanced Services
+AI Red Teaming
+Cybersecurity Assessments
+Cybersecurity Assessments
+Cloud Configuration Assessments
+Ransomware Assessments
+NIST Cybersecurity Framework Assessments
+Schellman Software Security Assessment (S
+3
+A)
+TISAX®
+SWIFT Customer Security Programme
+Internal Audit Co-Sourcing
+MTCS Certification
+ENS Certification
+Crypto and Digital Trust
+Crypto and Digital Trust
+Schellman Training
+Schellman Training
+Sustainability Services
+Sustainability Services
+AI Governance
+AI Governance
+Learning Center
+About Us
+About Us
+About Us
+Leadership Team
+Leadership Team
+Corporate Social Responsibility
+Corporate Social Responsibility
+Careers
+Careers
+Strategic Partnerships
+Strategic Partnerships
+Certificate Directory
+Contact Us
+ISO Business Policy
+Schellman complies with ISO/IEC 17021-1:2015 and is accredited by the ANSI National Accreditation Board (ANAB) for ISO 42001, ISO 27001, ISO 27701, ISO 20000-1, ISO 9001, ISO 14001, and ISO 22301, and accredited by the United Kingdom Accreditation Service (UKAS) for ISO 27001, accredited by COmité FRançais d'ACcréditation (COFRAC) for Hébergeur de Données de Santé / Health Data Hosting (HDS), and accredited by the Singapore Accreditation Council (SAC) for Multi-Tier Cloud Security (MTCS). Schellman complies with ISO/IEC 17065:2012 and is in the process of applying for accreditation by the Spanish National Accreditation Body (ENAC) for the Spanish National Security Scheme / Esquema Nacional de Seguridad (ENS).
+Additional information on our ENS Certification Services processes can be found here:
+Schellman ENS Certification Services Process (PDF)
+Additional information on our ISO Certification Services (including HDS and MTCS) processes can be found here:
+Schellman ISO Certification Services Process (PDF)
+Additional information on our ENS Certification Services processes can be found here:
+Schellman ENS Certification Services Process (PDF)
+Audit and Certification Process
+Schellman provides audit and certification services in full accordance with all relevant standards. Our audit and certification process is provided to prospective clients and addresses each major stage of the audit and certification processes. Prospective clients are also informed of their rights and obligations when applying for certification of a management system and following certification of a management system.
+The scope, timing and deliverables of our services, as well as the rights and obligations of both parties are documented in a fully executed agreement between Schellman and a client prior to the commencement of any audit or certification services.
+Impartiality
+A core value of Schellman's certification services is impartiality.  Our organization, as well as our personnel, are always independent in fact and appearance from our clients.  Certification determinations are based on objective criteria and are not improperly influenced by bias or prejudice.
+Schellman operates in accordance with ISO/IEC 17021-1:2015 and ISO/IEC 17065:2012 and has appointed an independent impartiality committee whose primary role is to ensure that the impartiality of our certification services is safeguarded.
+Certification Status
+The certification status of Schellman's clients may be obtained using our
+Certificate and Client Directory
+. This directory allows for verification of Schellman's certification clients and certification status.
+Suspension Policy
+Schellman will suspend certified clients that do not comply with the conditions of certification. A client’s certification is invalid while in a suspended status. Any such suspensions are clearly reflected in the certificate status field of the Certificate and Client Directory.
+Appeals Process
+Schellman's clients may appeal disputed issues concerning their certification when, in the client’s opinion, the assigned project team has not provided a suitable resolution. Appeals should be submitted using
+this form
+. Upon receipt of an appeal, the project team will be notified and Schellman will request that one or more qualified Schellman personnel separate from the project team opine on the matter. The client will be informed of the disposition of the appeal.
+Complaints
+Schellman takes complaints against itself or its clients seriously.  Complaints about Schellman should be submitted using
+this form
+. Upon receipt of a complaint, we will investigate the matter and deal with the complaint fairly and promptly. The submitter of a compliant will be kept informed of the disposition of the complaint.
+Complaints against Schellman or its clients are not made public unless required by a court of law.
+Certification Marketing Guidelines
+All certified clients are required to adhere to the
+Certification Marketing Guidelines
+of Schellman. The ISO Certification Marketing Guidelines are specific to ISO 27001 certification but are identical to those for ISO 42001, ISO 9001, ISO 20000-1, ISO 27701, ISO 14001, and ISO 22301 certification. The
+ENS Certification Marketing Guidelines
+are specific to ENS certification, and the
+HDS Certification Marketing Guidelines
+are specific to HDS certification.
+4010 W Boy Scout Boulevard
+Suite 600
+Tampa, FL 33607
+U.S.
+1.866.254.0000
+Outside the U.S.
+1.813.288.8833
+Resources
+Education
+Certificate Directory
+Trust Center
+Company
+Strategic Partners
+News & Events
+Careers
+LinkedIn
+X / Twitter
+YouTube
+Instagram
+Facebook
+Glassdoor
+Stay Up-to-Date
+Sign up to receive Schellman's Weekly Read delivered every Friday morning.
+© Schellman
+Privacy Policy
+Terms of Use
+“Schellman” is the brand name under which Schellman & Company, LLC and Schellman Compliance, LLC provide professional services. Schellman & Company, LLC and Schellman Compliance, LLC practice as an alternative practice structure in accordance with the AICPA Code of Professional Conduct and applicable law, regulations and professional standards. Schellman & Company, LLC is a licensed certified public accounting firm (Florida license number AD62941) registered with the Public Company Accounting Oversight Board (PCAOB) that provides attest services to its clients, and Schellman Compliance, LLC provides nonattest cybersecurity and compliance professional services to its clients. Schellman Compliance, LLC is not a licensed CPA firm. Schellman & Company, LLC and Schellman Compliance, LLC are independently owned and are not liable for the services provided by any other entity providing services under the Schellman brand. Our use of the terms “our firm” and “we” and “us” and terms of similar import, denote the alternative practice structure conducted by Schellman & Company, LLC and Schellman Compliance, LLC.

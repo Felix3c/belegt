@@ -1,0 +1,709 @@
+Quelle: https://aws.amazon.com/compliance/gdpr-center/
+Abruf: 2026-10-23 00:58:05 +0200
+
+GDPR - Amazon Web Services (AWS)
+
+Skip to main content
+
+Filter: All
+
+English
+
+Contact us
+
+AWS Marketplace
+
+Support
+
+My account
+
+re:Invent
+
+Discover AWS
+
+Products
+
+Solutions
+
+Pricing
+
+Resources
+
+Search
+
+Filter: All
+
+Sign in to console
+
+Create account
+
+Explore topics
+
+re:Invent 2026
+
+The sessions are set and your seat is waiting. Register now
+
+[An abstract image]
+
+Build & Deploy AI Agents
+
+88% of agent pilots stall. Learn what the rest do differently
+
+[An abstract image]
+
+Get started
+
+Sign up free, connect your coding agent, and start building
+
+[An abstract image]
+
+Data for agentic AI
+
+The 7 essential data capabilities to scale agentic AI
+
+Analyst Report
+
+AWS named a Leader in the 2026 Gartner Magic Quadrant for SCPS
+
+AI for Small Businesses
+
+Solutions designed for your business. Delivered by AWS Partners
+
+News & announcements
+
+AWS blog
+
+About AWS
+
+[an abstract illustration]
+
+AWS is the world's most comprehensive cloud, enabling organizations to accelerate innovation, reduce costs, and scale more efficiently
+
+Why AWS
+
+Getting Started
+
+Security
+
+Compliance
+
+Trust Center
+
+Sustainability
+
+Global Infrastructure
+
+Careers
+
+Featured Products
+
+Analytics
+
+Application Integration
+
+Artificial Intelligence
+
+Business Applications
+
+Compute
+
+Customer Experience
+
+Databases
+
+Developer Tools
+
+End User Computing
+
+Game Tech
+
+Management Tools
+
+Media Services
+
+Migration & Modernization
+
+Multicloud & Hybrid
+
+Networking & Content Delivery
+
+Operations
+
+Security & Identity
+
+Storage
+
+Supply Chain
+
+Browse all products
+
+Transformation Hubs
+
+Migrate to modernize → Modernize to unlock data → unlock data to run AI
+
+Migrate & Modernize
+
+Clear technical debt, modernize infrastructure, and move to the cloud
+
+Data & Analytics
+
+Future proof your data foundation for agentic AI
+
+Artificial Intelligence
+
+Get production-ready AI that automates, builds, creates, decides, and engages at scale
+
+Featured Products
+
+Get started with one of these featured services or browse all
+Browse all products
+
+Amazon Quick
+
+AI-powered assistant for work with research, business insights, automation, and no-code app building
+
+Transform
+
+Eliminate tech debt with agentic AI to modernize legacy systems and code
+
+Aurora
+
+Serverless relational database service for PostgreSQL, MySQL, and DSQL
+
+Amazon Bedrock
+
+The end-to-end platform for building generative AI applications and agents
+
+Amazon Connect Customer
+
+AI-native solution for delivering exceptional experiences across customer interactions
+
+EC2
+
+Secure and resizable compute capacity for virtually any workload
+
+[alt]
+
+What’s new
+
+Explore new capabilities and the latest technologies
+
+[alt]
+
+Customer success stories
+
+Learn how customers around the world accelerate their cloud
+
+Featured
+
+By industry
+
+By organization type
+
+Solutions Library
+
+Solutions for any organization
+
+From startups to enterprises, find AWS solutions scaled to your needs. Access tailored resources, pricing models, and support levels.
+
+Analytics Solutions
+
+Discover curated Solutions that address varied analytics use cases
+
+AI Solutions
+
+Discover curated Solutions that address varied artificial intelligence use cases
+
+Migration & Modernization Solutions
+
+Discover curated Solutions that address varied migration and modernization use cases
+
+[alt]
+
+What's new
+
+Explore new capabilities and the latest technologies
+
+[alt]
+
+Customer success stories
+
+Learn how customers around the world accelerate their cloud
+
+Pricing overview & tools
+
+AWS Pricing
+
+Learn about pricing and plans in one place
+
+AWS Pricing Calculator
+
+Estimate the cost for your architecture solution
+
+AWS Free Tier
+
+Get free, hands-on experience with AWS products and services
+
+AWS Offers
+
+Explore different offer programs to gain hands-on experience
+
+AWS Savings Plans
+
+Flexible pricing model offering lower prices
+
+Single-product pricing
+
+Amazon S3
+
+Amazon Bedrock
+
+Amazon RDS
+
+Amazon EC2
+
+Amazon SageMaker
+
+Browse all product pricing
+
+Learn
+
+Documentation
+
+Get detailed technical guides and references for all AWS services and tools
+
+Training & Certification
+
+Build and validate your AWS cloud skills and technical expertise
+
+Cloud term glossary
+
+Learn more about key cloud computing concepts
+
+Whitepapers
+
+Expand your knowledge of the cloud with expert guides and diagrams
+
+Cloud fundamentals
+
+Step-by-step instructions for common AWS tasks
+
+Tutorials
+
+Get started with step-by-step instructions
+
+Connect & Support
+
+Builder Center
+
+Learn, build, and connect with builders in the AWS community
+
+Events and webinars
+
+Connect, collaborate, and learn from AWS experts in the cloud computing community
+
+Partner Network
+
+Collaborate with AWS partners to grow your business
+
+Marketplace
+
+Find, test, buy, and deploy third-party software
+
+Support
+
+Access proactive guidance, issue resolution, and helpful tools
+
+Professional services
+
+Accelerate business transformation with expert guidance and packaged solutions
+
+AWS Cloud Security
+
+Security Services
+
+Use Cases
+
+Compliance
+
+Data Protection
+
+Blog
+
+Partners
+
+Resources
+
+AWS Cloud Security
+
+Compliance Overview
+
+General Data Protection Regulation (GDPR) Center
+
+[Missing alt text value]
+
+GDPR compliance when using AWS services
+
+The European Union’s General Data Protection Regulation (GDPR) protects European Union (EU) individuals’ fundamental right to privacy and the protection of personal data. The GDPR includes robust requirements that raise and harmonize standards for data protection, security, and compliance. Please review our GDPR FAQs below for more information.
+
+AWS customers can use all AWS services to process personal data (as defined in the GDPR) that is uploaded to the AWS services under their AWS accounts (customer data) in compliance with the GDPR. In addition to our own compliance, AWS is committed to offering services and resources to our customers to help them comply with the GDPR requirements that may apply to their activities. New features are launched regularly, and AWS has 500+ features and services focused on security and compliance. For more information on what AWS is doing read our blog How AWS is helping EU customers navigate the new normal for data protection.
+
+Focuses
+
+Customer control
+
+Customers have control of their customer data. With AWS, customers can:
+
+Determine where their customer data will be stored, including the type of storage and geographic region of that storage.
+
+Choose the secured state of their customer data. We offer customers strong encryption for customer data in transit or at rest, and we provide customers with the option to manage their own encryption keys.
+
+Manage access to their customer data and AWS services and resources through users, groups, permissions and credentials that customers control.
+
+Learn more
+
+Transfers outside the European Economic Area (EEA)
+
+AWS customers can continue to use AWS services to transfer customer data from the EEA to non-EEA countries that have not received an adequacy decision from the European Commission (including the United States) in compliance with the GDPR. At AWS, our highest priority is securing customer data, and we implement rigorous technical and organizational measures to protect its confidentiality, integrity, and availability, regardless of which AWS Region the customer has selected. We know that transparency matters to our customers. We list the AWS services that involve a data transfer of customer data on our Privacy Features webpage.
+
+As the regulatory and legislative landscape evolves, we will always work to ensure that our customers can continue to enjoy the benefits of AWS services wherever they operate. Please see our customer update on the EU-US Privacy Shield and our blog posts on the Supplementary Addendum to the AWS Data Processing Addendum and the CISPE Data Protection Code of Conduct for additional information.
+
+Overview and GDPR basics
+
+5
+
+AWS and GDPR compliance following the Schrems II ruling and EDPB Recommendations
+
+6
+
+Technical and organizational measures
+
+10
+
+AWS and the UK GDPR
+
+3
+
+AWS and the Swiss Federal Data Protection Act
+
+2
+
+Contact
+
+1
+
+Overview and GDPR basics
+Open all
+
+What is the GDPR?
+
+The General Data Protection Regulation (GDPR) is a European privacy law that became enforceable on May 25, 2018. The GDPR replaced the EU Data Protection Directive, also known as Directive 95/46/EC, and intended to harmonize data protection laws throughout the European Union (EU) by applying a single data protection law that is binding throughout each member state.
+
+Who does the GDPR apply to?
+
+The GDPR applies to all organizations established in the EU and to organizations, whether or not established in the EU, that process the personal data of EU individuals in connection with either the offering of goods or services to data subjects in the EU or the monitoring of behavior that takes place within the EU. Personal data is any information relating to an identified or identifiable natural person, including names, email addresses and phone numbers.
+
+Is AWS a data processor or a data controller under the GDPR?
+
+AWS acts as both a data processor and a data controller under the GDPR.
+
+What are the Standard Contractual Clauses (SCCs)?
+
+The SCCs are a pre-approved data transfer mechanism under GDPR, applicable in all EU Member States, which enable the lawful transfer of personal data to countries outside of the European Economic Area that have not received an adequacy decision from the European Commission (third countries).
+
+How does AWS incorporate the SCCs into the AWS GDPR DPA with customers?
+
+The AWS Service Terms include the SCCs adopted by the European Commission (EC) in June 2021, and the AWS DPA confirms that the SCCs will apply automatically whenever an AWS customer uses AWS services to transfer customer data to countries outside of the European Economic Area that have not received an adequacy decision from the EC (third countries). As part of the AWS Service Terms, the new SCCs will apply automatically whenever a customer uses AWS services to transfer customer data to third countries. The few customers that have signed an AWS DPA can continue to rely on that AWS DPA because the new SCCs in the AWS Service Terms replace the previous version of the SCCs. Customers can therefore be comfortable that any customer data they transfer to third countries using AWS services has the same high level of protection that customer data receives in the EEA. For more information, please see the blog post on the implementation of the new Standard Contractual Clauses.
+
+AWS and GDPR compliance following the Schrems II ruling and EDPB Recommendations
+Open all
+
+What are the Schrems II ruling and the EDPB Recommendations?
+
+On 16 July 2020, the Court of Justice of the European Union (CJEU) issued a ruling regarding the transfer of personal data of EU individuals outside the EEA (Schrems II). In Schrems II, the CJEU ruled that the EU-US Privacy Shield was no longer a valid mechanism to transfer personal data from the EEA to the US. However, in the same ruling, the CJEU confirmed that companies can (subject to implementing supplementary measures, if required) continue to use Standard Contractual Clauses as a valid mechanism for transferring personal data outside of the EEA. The European Data Protection Board (EDPB), a European body composed of representatives of the national data protection authorities, has since provided a non-exhaustive list of supplementary measures in its “Recommendations 01/2020 on measures that supplement transfer tools to ensure compliance with the EU level of protection of personal data” (EDPB Recommendations).
+
+Can I continue to use AWS services following the Schrems II ruling?
+
+Yes, AWS customers can continue to use AWS services to transfer customer data from Europe to countries outside the EEA who have not received an adequacy decision from the European Commission. The Schrems II ruling validated the use of Standard Contractual Clauses (SCCs) as a mechanism for transferring customer data outside the EEA and AWS customers can continue to rely on the SCCs for any transfer of customer data outside the EEA in compliance with GDPR.
+
+Does AWS use sub-processors to process customer data?
+
+Yes, AWS may use three types of sub-processors: (1) AWS entities that provide the infrastructure on which the AWS services run; (2) AWS entities that support specific AWS services which may require these entities to process customer data; and (3) third parties that AWS has contracted with to provide processing activities for specific AWS services. The AWS Sub-processors webpage provides more information about the sub-processors that AWS engages in accordance with the AWS DPA, to provide processing activities on customer data on behalf of customers. Sub-processors relevant to an individual customer will depend on the AWS Region the customer selects and the particular AWS services that the customer uses.
+
+How does AWS help customers when they conduct data transfer assessments?
+
+The AWS whitepaper, Navigating Compliance with EU Data Transfer Requirements, provides information about the services and resources that AWS offers customers to help them conduct data transfer assessments in light of the Schrems II ruling, and subsequent recommendations from the European Data Protection Board. The whitepaper also describes the key supplementary measures taken and made available by AWS to protect customer data.
+
+How can I prove to a data protection authority that my use of the AWS services complies with the GDPR?
+
+AWS offers helpful information to customers, including several compliance reports from third-party auditors, who have verified our compliance with a variety of security standards and regulations, to prove the high levels of compliance AWS maintains for its infrastructure. These reports show our customers, that we are protecting their customer data they choose to process on AWS. Examples of this include AWS' ISO 27001, 27017, and 27018 compliance. ISO 27018 contains security controls that focuses on protection of customer data.
+
+Does AWS comply with the GDPR approved CISPE Code of Conduct specific to cloud infrastructure services?
+
+Yes. Cloud Infrastructure Services Providers in Europe (CISPE) Data Protection Code of Conduct Public Register includes a list of adherent AWS services. CISPE is a coalition of cloud computing leaders serving millions of European customers. The CISPE Data Protection Code of Conduct (CISPE Code), is the first pan-European data protection code of conduct focused on cloud infrastructure services providers. The CISPE Code was approved by the European Data Protection Board, acting on behalf of the 27 data protection authorities across Europe, and formally adopted by the French Data Protection Authority (CNIL), acting as the lead supervisory authority. In 2017 AWS announced its compliance with an earlier version of the CISPE Code.
+
+Technical and organizational measures
+Open all
+
+How does the GDPR affect the AWS shared responsibility model?
+
+The GDPR does not change the AWS shared responsibility model, which continues to be relevant for customers. The shared responsibility model is a useful approach to illustrate the different responsibilities of AWS (as a data processor or sub-processor) and customers (as either data controllers or data processors) under the GDPR.
+
+Do AWS Partners offer products and services to help with GDPR compliance?
+
+Yes, you can search for “GDPR” in the AWS Partner Solutions Finder to help find ISVs, MSPs, and SI partners that have products and services to help with GDPR compliance. Customers can also search for “GDPR” solutions on AWS Marketplace.
+
+Does AWS offer professional services help on GDPR compliance?
+
+Yes, the AWS Security Assurance Services team has a number of activities to help customers on their journey to GDPR compliance. This team of industry certified compliance professionals helps customers achieve, maintain, and automate compliance in the cloud by tying together applicable compliance standards to AWS service specific features and functionality. More details on how AWS Professional Services Consultants are helping customers can be found here.
+
+How can AWS Support help me in my journey to GDPR compliance?
+
+Customers can use AWS Support to receive technical guidance to help them on their road to GDPR compliance. As part of this activity we have teams of Cloud Support Engineers and Technical Account Managers (TAMs) that are trained to help identify and mitigate compliance risks. The level of support AWS provides depends on the AWS Support Plan that customers choose. Customers looking to understand how AWS Premium Support can help them can find more information in the AWS Support Center, available through the AWS Management Console, by using the contact details specified in the Enterprise Support Agreement entered into with AWS, or by visiting the AWS Support webpage. Customers with Enterprise Support should reach out to their TAM with GDPR related questions.
+
+How can AWS help customers meet their obligations under the GDPR, regarding notifications of personal data breaches?
+
+AWS has a security incident monitoring and data breach notification process in place and will notify customers of breaches of AWS’s security without undue delay and in accordance with the AWS DPA. AWS also gives customers a number of tools to understand who has access to their resources, when, and from where. One of these tools is AWS CloudTrail which enables governance, compliance, operational auditing, and risk auditing of an AWS account. With AWS CloudTrail, customers can log, continuously monitor, and retain information about account activity related to actions across their AWS infrastructure. This helps organizations understand what is happening with their AWS infrastructure and can take action on any unusual activity, immediately. For more information on other security tools AWS gives customers to help meet their obligations as data controllers under the GDPR, visit the AWS Cloud Security webpage.
+
+How does AWS help me to protect my customer data against cyber-attacks?
+
+AWS gives customers and APN Partners a number of tools to secure their customer data and help protect against cyber-attacks. One such tool is AWS Shield. This is a managed Distributed Denial of Service (DDoS) protection service to safeguard websites and applications running on AWS. AWS Shield Standard is available at no additional charge and provides always-on detection and automatic inline mitigations that can minimize application downtime and latency. For higher levels of protection against attacks targeting web applications running on AWS and using ELB, Amazon CloudFront, and Amazon Route 53 resources, customers and APN Partners can subscribe to AWS Shield Advanced. AWS also publishes and routinely updates AWS Best Practices for DDoS Resiliency that can help customers use AWS to build applications resilient to DDoS attacks.
+
+What tools are available to help me identify personal data within my content on AWS?
+
+Amazon Macie is a fully managed data security and data privacy service that uses machine learning and pattern matching to discover and protect yourpersonal data in AWS. As organizations manage growing volumes of data, identifying and protecting their personal data at scale can become increasingly complex, expensive, and time-consuming. Amazon Macie automates the discovery of personal data at scale and lowers the cost of protecting your data. Macie automatically provides an inventory of Amazon S3 buckets including a list of unencrypted buckets, publicly accessible buckets, and buckets shared with AWS accounts outside those you have defined in AWS Organizations. Then, Macie applies machine learning and pattern matching techniques to the buckets you select to identify and alert you to personal data.
+
+How can I control access to personal data within my content on AWS?
+
+To help customers with GDPR compliance, AWS has a number of tools to control access to personal data contained in their content on AWS. These tools include:
+
+Security by default means AWS services are designed to be secure by default. If the default configuration is used, access to resources is locked down to just the account owner and root administrator.
+
+AWS Identity and Access Management (IAM) enables customers to manage access to AWS services and resources securely. Using IAM, organizations can create and manage AWS users and groups as well as use permissions to allow and deny access to AWS resources. IAM is a feature of AWS accounts offered at no additional charge.
+
+AWS Multi-Factor Authentication adds an extra layer of protection on top of an AWS account’s user name and password. AWS gives customers the option of virtual and hardware MFA devices.
+
+AWS Directory Service allows customers to integrate and federate with corporate directories to reduce administrative overhead and improve end-user experience.
+
+AWS Config allows customers to enable prepackaged rules which help ensure that their AWS resources are in a properly configured and compliant state.
+
+AWS CloudTrail allows customers to log, continuously monitor, and retain information about account activity related to actions across their AWS infrastructure, which simplifies security analysis, resource change tracking, and troubleshooting (AWS CloudTrail is enabled on all AWS accounts by default).
+
+Amazon Macie uses machine learning to help customers prevent data loss by automatically discovering, classifying, and protecting sensitive data in AWS. This fully managed service continuously monitors data access activity for anomalies, and generates detailed alerts when it detects risk of unauthorized access or inadvertent data leaks – such as sensitive data that a customer has accidentally made externally accessible.
+
+How can I encrypt customer data in AWS to prevent unauthorized access?
+
+AWS offers customers and APN Partners the ability to add an additional layer of security to their customer data at rest in the cloud and help them meet their security of processing obligations as data controllers under the GDPR. Encryption tools available on AWS include:
+
+Data encryption capabilities available in AWS storage and database services, such as Amazon Elastic Block Store, Amazon S3, Amazon Glacier, Amazon DynamoDB, Oracle RDS, SQL Server RDS, and Redshift
+
+Flexible key management options, including AWS Key Management Service, allowing the choice of whether to have AWS manage the encryption keys or enable customers to keep complete control over keys
+
+Encrypted message queues for the transmission of sensitive data using server-side encryption (SSE) for Amazon SQS
+
+Dedicated, hardware-based cryptographic key storage using AWS CloudHSM, allowing customers to satisfy compliance requirements
+
+In addition, AWS provides APIs for customers and APN Partners to integrate encryption and data protection with any of the services they develop or deploy in an AWS environment.
+
+What services does AWS offer customers to help them comply with the GDPR?
+
+AWS provides specific features and services which help customers to meet requirements of the GDPR:
+
+Access Control: Allow only authorized administrators, users and applications access to AWS resources
+
+Multi-Factor-Authentication (MFA)
+
+Fine granular access to objects in Amazon S3-Buckets/ Amazon SQS/ Amazon SNS and others
+
+API-Request Authentication
+
+Geo-Restrictions
+
+Temporary access tokens through AWS Security Token Service
+
+Monitoring and Logging: Get an overview about activities on your AWS resources
+
+Asset Management and Configuration with AWS Config
+
+Compliance auditing and security analytics with AWS CloudTrail
+
+Identification of configuration challenges through AWS Trusted Advisor
+
+Fine granular logging of access to Amazon S3 objects
+
+Detailed information about flows in the network through Amazon VPC Flow Logs
+
+Rule-based configuration checks and actions with AWS Config Rules
+
+Filtering and monitoring of HTTP access to applications with AWS WAF functions in AWS CloudFront
+
+Encryption: Encrypt Data on AWS
+
+Encryption of your data at rest with AES256 (EBS/S3/Glacier/RDS)
+
+Centralized managed Key Management (by AWS Region)
+
+IPsec tunnels into AWS with the VPN-Gateways
+
+Dedicated HSM modules in the cloud with AWS CloudHSM
+
+Strong Compliance Framework and Security Standards: We demonstrate compliance with rigorous international standards, such as:
+
+ISO 27001 for technical measures
+
+ISO 27017 for cloud security
+
+ISO 27018 for cloud privacy
+
+SOC 1, SOC 2 and SOC 3, PCI DSS Level 1,
+
+BSI’s Common Cloud Computing Controls Catalogue (C5)
+
+ENS High
+
+AWS and the UK GDPR
+Open all
+
+Does the GDPR still apply to the UK?
+
+The GDPR is an EU regulation and post-Brexit, no longer applies to the UK.  The UK government incorporated the requirements of GDPR into UK law as the “UK GDPR”.
+
+How can customers use AWS in compliance with the UK GDPR?
+
+AWS offers a UK GDPR-compliant UK GDPR Addendum to the AWS DPA that incorporates AWS’s commitments as a data processor under the UK GDPR. The UK GDPR Addendum is part of the AWS Service Terms and applies automatically for all customers who require a data processing agreement to comply with the UK GDPR.
+
+How can customers transfer customer data in compliance with the UK GDPR?
+
+The UK GDPR Addendum, which is part of the AWS Service Terms, includes the SCCs adopted by the EC and the international data transfer addendum (IDTA) issued by the UK data protection regulator (the Information Commissioners Office).  The IDTA amends the SCCs to ensure they constitute an appropriate safeguard under the UK GDPR for international data transfers to countries outside of the UK that have not been recognised as providing an adequate level of protection for personal data (UK third countries). The UK GDPR Addendum confirms that the SCCs (as amended by the IDTA) will automatically apply whenever a customer uses AWS services to transfer customer data subject to the UK GDPR (UK customer data) to UK third countries.  As part of the UK GDPR Addendum in the AWS Service Terms, the SCCs (as amended by the IDTA) will apply automatically whenever a customer uses AWS services to transfer UK customer data to UK third countries.
+
+AWS and the Swiss Federal Data Protection Act
+Open all
+
+How can customers use AWS in compliance with the Swiss Federal Data Protection Act?
+
+AWS offers a Swiss Addendum to the AWS Data processing Addendum (the “Swiss Addendum”) that incorporates AWS’s commitments as data processor under the Swiss Federal Data Protection Act (the “FDPA”). The Swiss Addendum is part of the AWS Service Terms (see Section 1.14.4) and applies automatically when the FDPA applies to a customer’s use of the AWS services to process customer data.
+
+How can customers transfer customer data in compliance with the FDPA?
+
+The Swiss Addendum to the AWS Data processing Addendum which is part of the AWS Service Terms (see Section 1.14.4), includes the Standard Contractual Clauses (the “SCCs”) adopted by the European Commission and amended as required by the Swiss Federal Data Protection and Information Commissioner. The Swiss Addendum confirms that the SCCs (as amended by the Swiss Addendum) will automatically apply whenever a customer uses AWS services to transfer customer data subject to the FDPA to third countries.
+
+Contact
+Open all
+
+Who should I contact if I have questions regarding the GDPR and AWS?
+
+We recommend that customers with questions regarding the GDPR contact their AWS account manager first. If customers have signed up for Enterprise Support, they can reach out to their Technical Account Manager (TAM) as well. TAMs work with Solutions Architects to help customers identify potential risks and potential mitigations. TAMs and account teams can also point customers and APN Partners with specific resources based on their environment and needs.
+
+GDPR resources
+
+Whitepaper
+
+Navigating GDPR Compliance on AWS
+
+Download whitepaper
+
+What you need to know about Brexit and AWS
+
+Learn more
+
+Blog
+
+AWS Security Blog Posts on GDPR
+
+Learn more
+
+Privacy Features of AWS Services
+
+Learn more
+
+Create an AWS account
+
+Learn
+
+What Is AWS?
+
+What Is Cloud Computing?
+
+What Is Agentic AI?
+
+Cloud Computing Concepts Hub
+
+AWS Cloud Security
+
+What's New
+
+Blogs
+
+Press Releases
+
+Careers
+
+Resources
+
+Getting Started
+
+Training
+
+AWS Trust Center
+
+AWS Solutions Library
+
+Architecture Center
+
+Product and Technical FAQs
+
+Analyst Reports
+
+AWS Partners
+
+Developers
+
+Builder Center
+
+SDKs & Tools
+
+.NET on AWS
+
+Python on AWS
+
+Java on AWS
+
+PHP on AWS
+
+JavaScript on AWS
+
+Help
+
+Contact Us
+
+File a Support Ticket
+
+AWS re:Post
+
+Knowledge Center
+
+AWS Support Overview
+
+AWS Accessibility
+
+Legal
+
+Event Code of Conduct
+
+Event Terms & Conditions
+
+English
+
+Back to top
+
+Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability or other legally protected status. Veterans, military spouses, and people with disabilities are encouraged to apply.
+
+Privacy
+
+Site terms
+
+Your Privacy Choices
+
+Cookie Preferences
+
+© 2026, Amazon Web Services, Inc. or its affiliates. All rights reserved.
